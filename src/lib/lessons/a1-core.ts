@@ -146,7 +146,7 @@ export const A1_CORE: AnchoredLesson[] = [
     [
       fe("Los lunes ___ muy temprano.", "me despierto", "On Mondays [I wake up] very early.", "Me despierto = I wake up.", ["Me despierto"]),
       fe("___ con agua fría.", "Me ducho", "[I shower] with cold water.", "Me ducho = I shower.", ["me ducho"]),
-      fe("___ a casa a las siete.", "Regreso", "[I come back] home at seven.", "regresar → regreso. Volver means the same: vuelvo."),
+      fe("___ a casa a las siete.", "Regreso", "[I come back] home at seven.", "regresar → regreso. Volver means the same: vuelvo.", ["Vuelvo"]),
       fe("Leo ___ el desayuno.", "durante", "I read [during] breakfast.", "durante = during."),
       toEs("I get up, I shower and then I have breakfast.", "Me levanto, me ducho y luego desayuno.", "Me levanto and me ducho are set phrases; luego = then.", ["Me levanto, me ducho y después desayuno.", "Me levanto, me ducho y entonces desayuno."]),
       toEs("I get dressed while I listen to the news.", "Me visto mientras escucho las noticias.", "mientras = while.", ["Me visto mientras oigo las noticias.", "Mientras escucho las noticias, me visto."]),
@@ -271,7 +271,7 @@ export const A1_CORE: AnchoredLesson[] = [
       ),
       sec(
         "Alguno, ninguno, cualquier",
-        "Alguno (some, any) and ninguno (no, none) drop the -o before a masculine noun: algún día, ningún problema. Cualquier means any at all, and cualquiera stands alone: anyone, any one.",
+        "Alguno (some, any) and ninguno (no, none) drop the -o before a masculine singular noun: algún día, ningún problema. Cualquier means any at all, and cualquiera stands alone: anyone, any one.",
         [
           ["¿Tienes alguna pregunta?", "Do you have any questions?"],
           ["Algún día quiero vivir en la playa.", "Some day I want to live at the beach."],
@@ -732,7 +732,7 @@ export const A1_CORE: AnchoredLesson[] = [
       fe("¡Qué ___! Mañana viajas a Cancún.", "suerte", "What [luck]! Tomorrow you're traveling to Cancún.", "¡Qué suerte! = how lucky!"),
       fe("Es la mejor ciudad del ___.", "mundo", "It's the best city in the [world].", "el mundo = the world."),
       fe("Tengo una mala ___.", "noticia", "I have some bad [news].", "una noticia = a piece of news."),
-      fe("No hay otra ___ de hacerlo.", "manera", "There's no other [way] to do it.", "la manera = the way. Forma and modo work too.", ["forma"]),
+      fe("No hay otra ___ de hacerlo.", "manera", "There's no other [way] to do it.", "la manera = the way. Forma works too (otra forma); modo is masculine, so it would need otro: no hay otro modo.", ["forma"]),
       toEs("That's life.", "Así es la vida.", "A set phrase.", ["Es la vida.", "¡Así es la vida!"]),
       toEs("OK, see you tomorrow.", "De acuerdo, hasta mañana.", "De acuerdo = OK, agreed.", ["De acuerdo, nos vemos mañana.", "Vale, hasta mañana.", "Vale, nos vemos mañana."]),
       toEs("It's a great opportunity for my business.", "Es una gran oportunidad para mi negocio.", "gran before the noun = great.", ["Es una oportunidad grande para mi negocio."]),

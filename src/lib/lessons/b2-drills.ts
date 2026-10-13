@@ -3022,7 +3022,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
     [
       wo("Si hubiéramos salido antes, no habríamos perdido el tren.", "Irreal pasado.", "If we had left earlier, we wouldn't have missed the train."),
       wo("Me lo habrías podido decir antes.", "«Habrías podido» + infinitivo (= «podrías haber» + participio) expresa un reproche sobre el pasado.", "You could have told me before."),
-      wo("Yo en tu lugar habría hablado con ella.", "Consejo sobre el pasado.", "In your place I would have talked to her."),
+      wo("Yo en tu lugar habría hablado con ella.", "Consejo sobre el pasado.", "If I were you, I would have talked to her."),
       wo("Si no me hubieras ayudado, no habría terminado.", "Irreal pasado.", "If you hadn't helped me, I wouldn't have finished."),
       toEs("You should have told me.", "Deberías habérmelo dicho.", "«Deberías haber» + participio expresa un reproche sobre el pasado; los pronombres se unen al infinitivo.", ["Me lo deberías haber dicho.", "Tendrías que habérmelo dicho."]),
       toEs("I wish I had studied more.", "Ojalá hubiera estudiado más.", "«Ojalá» + pluscuamperfecto de subjuntivo expresa lamento por algo pasado.", ["Ojalá hubiese estudiado más."]),

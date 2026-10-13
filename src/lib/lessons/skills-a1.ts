@@ -138,7 +138,7 @@ export const A1_SKILLS: Record<string, Exercise[]> = {
         "What you like (me gusta / me encanta)",
         "Something you do at weekends (los fines de semana...)",
       ],
-      "Me llamo Paula y tengo veinticinco años. Soy de Sevilla, pero ahora vivo en Londres. Soy enfermera y trabajo en un hospital. Me gusta leer y me encantan los gatos. Los fines de semana voy al mercado y cocino con mis amigos.",
+      "Me llamo Paula y tengo veinticinco años. Soy de Valencia, pero ahora vivo en Londres. Soy enfermera y trabajo en un hospital. Me gusta leer y me encantan los gatos. Los fines de semana voy al mercado y cocino con mis amigos.",
       "A profile answers the same questions in the same order. Jobs after soy take no article (soy enfermera), and me encantan is plural because los gatos is plural."
     ),
     spk("Me llamo Paula y tengo veinticinco años.", "Link llamo y into one flow; veinticinco is one word: vein-ti-CIN-co.", "\"My name is Paula and I'm twenty-five.\""),

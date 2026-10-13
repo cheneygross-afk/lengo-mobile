@@ -43,7 +43,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             0,
             "«Arma» es femenina, pero en singular usamos «el» (o «un») delante de la «a» tónica: el arma."
           ),
-          fb("Completa.", "El ladrón disparó una sola ___, pero no hirió a nadie.", "bala", "Una pistola dispara balas (bullets): una sola bala = one single shot."),
+          fb("Completa.", "El ladrón disparó una sola ___ (bullet), pero no hirió a nadie.", "bala", "Una pistola dispara balas (bullets): una sola bala = one single shot."),
         ]
       ),
       sec(
@@ -801,7 +801,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             0,
             "«Tomar el pelo» = to pull someone's leg, engañar en broma. Tomar una copa, un trago o una cerveza sí significan beber algo."
           ),
-          fb("Completa la frase.", "No conduzcas, estás ___.", "borracho", "Estar borracho = to be drunk. Con estar, porque es un estado."),
+          { ...fb("Completa la frase.", "No conduzcas, estás ___.", "borracho", "Estar borracho/borracha = to be drunk. Con estar, porque es un estado."), altAnswers: ["borracha"] },
         ]
       ),
       sec(

@@ -11,7 +11,7 @@ const t = (prompt: string, rubric: string[], modelAnswer: string, explanation: s
 
 export const A1_UNIT_WRITING: Record<string, WriteExercise> = {
   "greetings-pronouns-ser-1": t(
-    "Introduce yourself and a friend to a new classmate. Say hello, say who you are and where you're from, then describe your friend with two or three adjectives.",
+    "Introduce yourself and a friend to a new classmate. Say hello, say who you are and where you're from, then describe your friend with two or three adjectives and say goodbye.",
     ["A greeting (Hola, Buenos días…)", "Soy… and soy de…", "Mi amigo/amiga es… with adjectives that agree", "A goodbye (Adiós, Hasta luego…)"],
     "¡Hola! Me llamo Laura. Soy de Canadá y soy estudiante. Mi amiga se llama Marta. Ella es de México. Es alta, simpática y muy inteligente. Somos amigas de la universidad. ¡Hasta luego!",
     "Ser for who someone is and where they're from (soy de Canadá), and adjectives that match the person: Marta es alta, simpática (feminine)."
@@ -67,7 +67,7 @@ export const A1_UNIT_WRITING: Record<string, WriteExercise> = {
   "a1-final-review-1": t(
     "Write a short email to a new pen friend. Introduce yourself, say where you live and what you do, describe your family, and say what you like doing at the weekend. End with a question.",
     ["Greeting and sign-off", "Ser and estar used correctly", "Present-tense verbs about your life", "Me gusta / me gustan", "A question at the end"],
-    "¡Hola, Pablo! Me llamo Emma y tengo veinticinco años. Soy de Irlanda, pero vivo en Madrid. Soy profesora de inglés. Mi familia es pequeña: mis padres y mi hermano. Los fines de semana me gusta ir al parque y leer. ¿Qué haces tú los domingos? Un abrazo, Emma",
-    "Beginner in one email: ser for identity and origin, tener for age, present-tense verbs, gustar, and a question with an opening ¿."
+    "¡Hola, Pablo! Me llamo Emma y tengo veinticinco años. Soy de Irlanda, pero ahora estoy en Madrid. Soy profesora de inglés. Mi familia es pequeña: mis padres y mi hermano. Los fines de semana me gusta ir al parque y leer. ¿Qué haces tú los domingos? Un abrazo, Emma",
+    "Beginner in one email: ser for identity and origin, estar for where you are, tener for age, present-tense verbs, gustar, and a question with an opening ¿."
   ),
 };

@@ -85,7 +85,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es la forma correcta de \"salir\" para \"él\"?",
+            "question": "What is the correct form of \"salir\" for \"él\"?",
             "options": [
               "salió",
               "salio",
@@ -145,7 +145,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál oración usa el pretérito correctamente?",
+        "question": "Which sentence uses the preterite correctly?",
         "options": [
           "Ella escribo una carta.",
           "Ella escribió una carta.",
@@ -157,7 +157,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cómo se dice \"I arrived\" (from llegar)?",
+        "question": "How do you say \"I arrived\" (from llegar)?",
         "options": [
           "llegué",
           "llegue",
@@ -211,7 +211,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multi-select",
-            "question": "¿Qué hizo la familia en el viaje? (Elige todas las correctas)",
+            "question": "What did the family do on the trip? (Choose all that apply)",
             "options": [
               "Manejaron cuatro horas",
               "Nadaron en el mar",
@@ -235,7 +235,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "examples": [
           {
             "es": "hacer escala",
-            "en": "to make a layover"
+            "en": "to have a layover / stop over"
           },
           {
             "es": "el viaje",
@@ -408,7 +408,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración.",
+        "prompt": "Put the words in order to make a sentence.",
         "words": [
           "Nosotros",
           "viajamos",
@@ -462,7 +462,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multi-select",
-        "question": "¿Qué palabras necesitas para hablar de un viaje? (Elige todas las correctas)",
+        "question": "Which words do you need to talk about a trip? (Choose all that apply)",
         "options": [
           "el equipaje",
           "el aeropuerto",
@@ -504,7 +504,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "En \"Fuimos al cine anoche\", ¿qué verbo es \"fuimos\"?",
+            "question": "In \"Fuimos al cine anoche\", which verb is \"fuimos\"?",
             "options": [
               "ser",
               "ir",
@@ -568,7 +568,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es la forma correcta de \"hacer\" para \"él\"?",
+            "question": "What is the correct form of \"hacer\" for \"él\"?",
             "options": [
               "hacía",
               "hizo",
@@ -616,7 +616,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cómo se dice \"they said\"?",
+        "question": "How do you say \"they said\"?",
         "options": [
           "dijieron",
           "dijeron",
@@ -628,7 +628,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multi-select",
-        "question": "¿Cuáles verbos usan la raíz irregular con \"u\"? (Elige todas las correctas)",
+        "question": "Which verbs use the irregular stem with \"u\"? (Choose all that apply)",
         "options": [
           "tener",
           "poner",
@@ -693,7 +693,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Por qué no pudo empezar el jefe a tiempo?",
+            "question": "Why couldn't the boss start on time?",
             "options": [
               "Porque llegó tarde",
               "Porque no trajo la computadora",
@@ -886,7 +886,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras.",
+        "prompt": "Put the words in order.",
         "words": [
           "Ella",
           "vino",
@@ -936,7 +936,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué significa \"de repente\"?",
+        "question": "What does \"de repente\" mean?",
         "options": [
           "always",
           "suddenly",
@@ -1004,7 +1004,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es la forma correcta de \"tener\" para \"ellos\" en el imperfecto?",
+            "question": "What is the correct imperfect form of \"tener\" for \"ellos\"?",
             "options": [
               "tenieron",
               "tenían",
@@ -1064,19 +1064,19 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multi-select",
-            "question": "¿Qué situaciones normalmente usan el imperfecto? (Elige todas las correctas)",
+            "question": "Which situations usually take the imperfect? (Choose all that apply)",
             "options": [
-              "Describir la edad en el pasado",
-              "Un evento que pasó una sola vez",
-              "Una acción habitual de la infancia",
-              "Describir el clima"
+              "Describing age in the past",
+              "An event that happened only once",
+              "A childhood habit",
+              "Describing the weather"
             ],
             "correctIndexes": [
               0,
               2,
               3
             ],
-            "explanation": "\"Un evento que pasó una sola vez\" (a one-time event) calls for the preterite, not the imperfect."
+            "explanation": "Age, weather and childhood habits are background or repeated, so they take the imperfect. An event that happened only once calls for the preterite."
           }
         ]
       }
@@ -1091,7 +1091,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál oración describe una acción habitual?",
+        "question": "Which sentence describes a habitual action?",
         "options": [
           "Ayer comí pizza.",
           "Todos los días comía pizza.",
@@ -1110,7 +1110,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multi-select",
-        "question": "¿Qué verbos son totalmente irregulares en el imperfecto? (Elige todas las correctas)",
+        "question": "Which verbs are fully irregular in the imperfect? (Choose all that apply)",
         "options": [
           "ser",
           "hablar",
@@ -1160,7 +1160,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué hacía la abuela en la cocina?",
+            "question": "What was the grandmother doing in the kitchen?",
             "options": [
               "Leía el periódico",
               "Cantaba",
@@ -1353,7 +1353,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras.",
+        "prompt": "Put the words in order.",
         "words": [
           "De",
           "niña,",
@@ -1368,7 +1368,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué significa \"soler\"?",
+        "question": "What does \"soler\" mean?",
         "options": [
           "to sell",
           "to usually do",
@@ -1416,10 +1416,10 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Dos pasados diferentes",
+        "heading": "Two different past tenses",
         "body": [
-          "El pretérito cuenta lo que pasó: una acción completa, con principio y fin claros. El imperfecto describe cómo eran las cosas: el fondo de la historia, sin un final marcado.",
-          "Piensa en el pretérito como la línea de la historia y el imperfecto como el escenario."
+          "The preterite tells what happened: a completed action with a clear beginning and end. The imperfect describes how things were: the background of the story, with no marked end.",
+          "Think of the preterite as the storyline and the imperfect as the stage set."
         ],
         "examples": [
           {
@@ -1430,22 +1430,22 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué tiempo verbal describe el \"fondo\" de una historia?",
+            "question": "Which tense describes the \"background\" of a story?",
             "options": [
-              "El pretérito",
-              "El imperfecto",
-              "El futuro",
-              "El presente"
+              "The preterite",
+              "The imperfect",
+              "The future",
+              "The present"
             ],
             "correctIndex": 1,
-            "explanation": "El imperfecto describe el escenario o fondo, mientras el pretérito avanza la acción."
+            "explanation": "The imperfect describes the setting or background, while the preterite moves the action forward."
           }
         ]
       },
       {
-        "heading": "Acciones interrumpidas",
+        "heading": "Interrupted actions",
         "body": [
-          "Un patrón muy común: el imperfecto describe una acción en progreso, y el pretérito es la acción que la interrumpe."
+          "A very common pattern: the imperfect describes an action in progress, and the preterite is the action that interrupts it."
         ],
         "examples": [
           {
@@ -1460,17 +1460,17 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con el verbo correcto.",
+            "prompt": "Complete the sentence with the correct verb.",
             "sentence": "Ella ___ (caminar, imperfecto) por el parque cuando vio a su amigo.",
             "answer": "caminaba",
-            "explanation": "La acción en progreso (caminar) va en imperfecto; la interrupción (vio) va en pretérito."
+            "explanation": "The action in progress (caminar) goes in the imperfect; the interruption (vio) goes in the preterite."
           }
         ]
       },
       {
-        "heading": "Palabras clave",
+        "heading": "Signal words",
         "body": [
-          "Ciertas palabras casi siempre acompañan a un tiempo verbal específico. Pretérito: ayer, una vez, de repente, anoche, el año pasado. Imperfecto: siempre, mientras, todos los días, de niño, normalmente."
+          "Certain words usually go with a particular tense. Preterite: ayer, una vez, de repente, anoche, el año pasado. Imperfect: siempre, mientras, todos los días, de niño, normalmente."
         ],
         "examples": [
           {
@@ -1485,7 +1485,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multi-select",
-            "question": "¿Qué palabras sugieren el imperfecto? (Elige todas las correctas)",
+            "question": "Which words suggest the imperfect? (Choose all that apply)",
             "options": [
               "siempre",
               "de repente",
@@ -1502,9 +1502,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Los dos juntos en una historia",
+        "heading": "Both together in a story",
         "body": [
-          "La mayoría de las historias reales mezclan ambos tiempos: el imperfecto pinta la escena, y el pretérito mueve la trama hacia adelante."
+          "Most real stories mix both tenses: the imperfect paints the scene, and the preterite moves the plot forward."
         ],
         "examples": [
           {
@@ -1515,10 +1515,10 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa con el verbo correcto.",
+            "prompt": "Complete with the correct verb.",
             "sentence": "___ (ser, imperfecto) las diez de la noche cuando llegó mi hermano.",
             "answer": "Eran",
-            "explanation": "\"Ser\" para describir la hora siempre va en imperfecto: eran."
+            "explanation": "Clock time in the past is background, so it is normally in the imperfect: eran."
           }
         ]
       }
@@ -1526,14 +1526,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Elige pretérito o imperfecto.",
+        "prompt": "Choose the preterite or the imperfect.",
         "sentence": "___ (llover, imperfecto) mucho cuando decidimos salir.",
         "answer": "Llovía",
-        "explanation": "La lluvia continua en el fondo va en imperfecto: llovía."
+        "explanation": "Ongoing rain in the background takes the imperfect: llovía."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué oración es correcta?",
+        "question": "Which sentence is correct?",
         "options": [
           "Yo tenía veinte años cuando me gradué.",
           "Yo tuve veinte años cuando me gradué.",
@@ -1545,14 +1545,14 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Elige pretérito o imperfecto.",
+        "prompt": "Choose the preterite or the imperfect.",
         "sentence": "Nosotros ___ (comer, pretérito) rápido porque teníamos prisa.",
         "answer": "comimos",
-        "explanation": "\"Comer rápido\" es una acción completa: pretérito."
+        "explanation": "Eating quickly is one completed action here, so the preterite: comimos."
       },
       {
         "type": "multi-select",
-        "question": "¿Qué frases normalmente van con el pretérito? (Elige todas las correctas)",
+        "question": "Which phrases usually go with the preterite? (Choose all that apply)",
         "options": [
           "ayer",
           "siempre",
@@ -1602,7 +1602,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Por qué se acercó despacio el hombre al perro?",
+            "question": "Why did the man approach the dog slowly?",
             "options": [
               "Porque tenía prisa",
               "Porque el perro tenía miedo",
@@ -1795,7 +1795,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras.",
+        "prompt": "Put the words in order.",
         "words": [
           "Hacía",
           "mucho",
@@ -1805,17 +1805,17 @@ const A2_BASE_LESSONS: Lesson[] = [
           "al",
           "pueblo"
         ],
-        "explanation": "Imperfecto (hacía) para el fondo, pretérito (llegamos) para la acción puntual.",
+        "explanation": "Imperfect (hacía) for the background, preterite (llegamos) for the single event.",
         "translation": "It was very cold when we arrived at the town."
       },
       {
         "type": "multiple-choice",
-        "question": "En la historia del perro, ¿qué tiempo verbal describe \"el perro corría solo\"?",
+        "question": "In the dog story, which tense is used in \"el perro corría solo\"?",
         "options": [
-          "Pretérito",
-          "Imperfecto",
-          "Futuro",
-          "Presente"
+          "Preterite",
+          "Imperfect",
+          "Future",
+          "Present"
         ],
         "correctIndex": 1,
         "explanation": "Corría describes an action in progress with no end point, so it's the imperfect. The preterite would be corrió, the future correrá and the present corre."
@@ -1841,7 +1841,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Qué oración usa correctamente el patrón \"acción en progreso interrumpida\"?",
+        "question": "Which sentence correctly uses the \"interrupted action in progress\" pattern?",
         "options": [
           "Yo estudiaba cuando mis padres llegaron a casa.",
           "Yo estudié cuando mis padres llegaban a casa.",
@@ -1853,38 +1853,38 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la primera parte de la historia.",
+        "prompt": "Complete the first part of the story.",
         "sentence": "___ (ser, imperfecto) un sábado de verano y hacía mucho calor.",
         "answer": "Era",
-        "explanation": "\"Ser\" en el fondo de una historia (para describir el día) va en imperfecto: era."
+        "explanation": "Ser describing the day sets the background of the story, so it takes the imperfect: era."
       },
       {
         "type": "fill-blank",
-        "prompt": "Sigue completando la historia.",
+        "prompt": "Keep completing the story.",
         "sentence": "El cielo ___ (estar, imperfecto) despejado cuando salimos de casa.",
         "answer": "estaba",
-        "explanation": "La descripción del cielo es parte del fondo de la escena: imperfecto."
+        "explanation": "Describing the sky is part of the background scene, so the imperfect: estaba."
       },
       {
         "type": "fill-blank",
-        "prompt": "Sigue completando la historia.",
+        "prompt": "Keep completing the story.",
         "sentence": "Mis amigos y yo ___ (caminar, imperfecto) por la playa cuando el cielo se puso gris.",
         "answer": "caminábamos",
-        "explanation": "\"Caminar\" describe una acción en progreso interrumpida por otro evento: imperfecto."
+        "explanation": "The walk was in progress when another event (the sky turning gray) interrupted it, so the imperfect."
       },
       {
         "type": "fill-blank",
-        "prompt": "Sigue completando la historia.",
+        "prompt": "Keep completing the story.",
         "sentence": "De repente ___ (empezar, pretérito) a llover fuerte.",
         "answer": "empezó",
-        "explanation": "\"De repente\" señala una acción puntual y repentina: pretérito."
+        "explanation": "De repente signals a sudden, one-off action, so the preterite."
       },
       {
         "type": "fill-blank",
-        "prompt": "Termina esta parte de la historia.",
+        "prompt": "Finish this part of the story.",
         "sentence": "Todos nosotros ___ (correr, pretérito) a buscar refugio.",
         "answer": "corrimos",
-        "explanation": "Una reacción rápida y completa se expresa en pretérito."
+        "explanation": "Running for shelter is one quick, completed reaction, so the preterite."
       },
       {
         "type": "translate",
@@ -1892,11 +1892,11 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate this sentence to English.",
         "source": "Nos reímos mucho después, porque nadie tenía paraguas.",
         "answer": "We laughed a lot afterward, because nobody had an umbrella.",
-        "explanation": "Reímos (pretérito) es la reacción puntual; tenía (imperfecto) describe el estado de fondo (nadie tenía paraguas)."
+        "explanation": "Nos reímos (preterite) is the one-off reaction; tenía (imperfect) describes the background situation (nobody had an umbrella)."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué oración es correcta?",
+        "question": "Which sentence is correct?",
         "options": [
           "Mi abuelo tenía ochenta años cuando aprendió a nadar.",
           "Mi abuelo tuvo ochenta años cuando aprendió a nadar.",
@@ -1908,7 +1908,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué oración significa que dos personas se conocieron por primera vez en una fiesta?",
+        "question": "Which sentence means that two people met for the first time at a party?",
         "options": [
           "Ana y Luis se conocían en una fiesta.",
           "Ana y Luis se conocieron en una fiesta.",
@@ -1920,7 +1920,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multi-select",
-        "question": "¿Qué expresiones normalmente señalan el pretérito? (Elige todas las correctas)",
+        "question": "Which expressions usually signal the preterite? (Choose all that apply)",
         "options": [
           "el mes pasado",
           "constantemente",
@@ -1931,11 +1931,11 @@ const A2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "\"Constantemente\" y \"cada verano\" describen acciones habituales y van con el imperfecto."
+        "explanation": "El mes pasado and de repente mark single, completed events, so the preterite. Constantemente and cada verano describe habits and go with the imperfect."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras.",
+        "prompt": "Put the words in order.",
         "words": [
           "Nosotros",
           "esperábamos",
@@ -1947,7 +1947,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "nevar"
         ],
         "translation": "We were waiting for the bus when it started to snow.",
-        "explanation": "Imperfecto (esperábamos) para la acción en progreso; pretérito (empezó) para la interrupción puntual."
+        "explanation": "Imperfect (esperábamos) for the action in progress; preterite (empezó) for the interruption."
       },
       {
         "type": "matching",
@@ -1955,40 +1955,40 @@ const A2_BASE_LESSONS: Lesson[] = [
         "pairs": [
           {
             "left": "todos los veranos",
-            "right": "imperfecto (acción habitual)"
+            "right": "imperfect (habit)"
           },
           {
             "left": "anoche",
-            "right": "pretérito (acción puntual)"
+            "right": "preterite (single event)"
           },
           {
             "left": "mientras",
-            "right": "imperfecto (acción en progreso)"
+            "right": "imperfect (action in progress)"
           },
           {
             "left": "de pronto",
-            "right": "pretérito (acción repentina)"
+            "right": "preterite (sudden event)"
           },
           {
             "left": "normalmente",
-            "right": "imperfecto (costumbre)"
+            "right": "imperfect (routine)"
           }
         ],
-        "explanation": "Reconocer estas palabras clave ayuda a elegir el tiempo verbal correcto con rapidez."
+        "explanation": "Recognizing these signal words helps you choose the right tense quickly."
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa con el verbo correcto.",
+        "prompt": "Complete with the correct verb.",
         "sentence": "De niña, yo ___ (ver, imperfecto) dibujos animados todos los sábados.",
         "answer": "veía",
-        "explanation": "\"Ver\" es uno de los pocos verbos irregulares en imperfecto: veía, veías, veía, veíamos..."
+        "explanation": "Ver is one of only three irregular imperfects (with ser and ir): veía, veías, veía, veíamos..."
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa con el verbo correcto.",
+        "prompt": "Complete with the correct verb.",
         "sentence": "Antes, nosotros ___ (ir, imperfecto) a la playa cada verano, pero el año pasado no fuimos.",
         "answer": "íbamos",
-        "explanation": "\"Ir\" es irregular en imperfecto (iba, ibas, iba, íbamos...); aquí describe una costumbre pasada, en contraste con \"fuimos\" (pretérito)."
+        "explanation": "Ir is irregular in the imperfect (iba, ibas, iba, íbamos...); here it describes a past habit, in contrast with the one-time fuimos (preterite)."
       },
       {
         "type": "translate",
@@ -1999,7 +1999,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "altAnswers": [
           "Eran las doce de la noche cuando sonó el teléfono."
         ],
-        "explanation": "La hora en el pasado siempre va en imperfecto (era); la llamada, un hecho puntual, va en pretérito (sonó)."
+        "explanation": "Clock time in the past is background, so the imperfect (era); the phone ringing is a one-off event, so the preterite (sonó)."
       },
       {
         "type": "multiple-choice",
@@ -2011,11 +2011,11 @@ const A2_BASE_LESSONS: Lesson[] = [
           "sé"
         ],
         "correctIndex": 1,
-        "explanation": "\"Saber\" en pretérito (supe) significa \"found out\"; en imperfecto (sabía) significaría que ya lo sabía de antes."
+        "explanation": "Saber in the preterite (supe) means found out; the imperfect (sabía) would mean you already knew."
       },
       {
         "type": "multi-select",
-        "question": "¿Qué oraciones usan correctamente el pretérito y el imperfecto? (Elige todas las correctas)",
+        "question": "Which sentences use the preterite and imperfect correctly? (Choose all that apply)",
         "options": [
           "Mientras cocinaba, sonó el timbre.",
           "Mientras cociné, sonó el timbre.",
@@ -2073,17 +2073,17 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Reemplaza el objeto directo con el pronombre correcto.",
+            "prompt": "Replace the direct object with the correct pronoun.",
             "sentence": "¿Compraste las entradas? Sí, ___ compré.",
             "answer": "las",
-            "explanation": "\"Las entradas\" es femenino plural, así que el pronombre es las."
+            "explanation": "Las entradas is feminine plural, so the pronoun is las."
           }
         ]
       },
       {
         "heading": "Placement: before conjugated verbs",
         "body": [
-          "Direct object pronouns go right before a conjugated verb — not after it, unlike English."
+          "Direct object pronouns go right before a conjugated verb — not after it, unlike English (affirmative commands are an exception you'll meet later)."
         ],
         "examples": [
           {
@@ -2098,7 +2098,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es correcto?",
+            "question": "Which one is correct?",
             "options": [
               "Necesito lo ahora.",
               "Lo necesito ahora.",
@@ -2128,10 +2128,10 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Reescribe la oración usando el pronombre.",
+            "prompt": "Rewrite the sentence using the pronoun.",
             "sentence": "Voy a llamar a mis padres. → Voy a ___.",
             "answer": "llamarlos",
-            "explanation": "Con un infinitivo, el pronombre puede unirse al final: llamarlos."
+            "explanation": "With an infinitive, the pronoun can attach to the end: llamarlos."
           }
         ]
       },
@@ -2161,7 +2161,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué pronombre reemplaza \"esta camisa\"?",
+            "question": "Which pronoun replaces \"esta camisa\"?",
             "options": [
               "lo",
               "la",
@@ -2177,14 +2177,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Reemplaza el objeto directo.",
+        "prompt": "Replace the direct object.",
         "sentence": "¿Ves la tienda? Sí, ___ veo.",
         "answer": "la",
-        "explanation": "\"La tienda\" es femenino singular: la."
+        "explanation": "La tienda is feminine singular: la."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es correcto?",
+        "question": "Which one is correct?",
         "options": [
           "Voy a comprarlos.",
           "Voy comprarlos a.",
@@ -2196,14 +2196,14 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Reemplaza el objeto directo.",
+        "prompt": "Replace the direct object.",
         "sentence": "¿Tienes los boletos? No, no ___ tengo.",
         "answer": "los",
-        "explanation": "\"Los boletos\" es masculino plural: los."
+        "explanation": "Los boletos is masculine plural: los."
       },
       {
         "type": "multi-select",
-        "question": "¿Qué pronombres son femeninos? (Elige todas las correctas)",
+        "question": "Which pronouns are feminine? (Choose all that apply)",
         "options": [
           "lo",
           "la",
@@ -2250,7 +2250,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "la rebaja",
-            "en": "the discount"
+            "en": "the price reduction (las rebajas = the sales)"
           },
           {
             "es": "caro",
@@ -2360,7 +2360,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "pairs": [
               {
                 "left": "la rebaja",
-                "right": "the discount"
+                "right": "the price reduction"
               },
               {
                 "left": "probarse",
@@ -2407,7 +2407,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras.",
+        "prompt": "Put the words in order.",
         "words": [
           "No",
           "lo",
@@ -2415,12 +2415,12 @@ const A2_BASE_LESSONS: Lesson[] = [
           "ahora",
           "mismo"
         ],
-        "explanation": "El pronombre va antes del verbo conjugado.",
+        "explanation": "The pronoun goes before the conjugated verb.",
         "translation": "I don't need it right now."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué significa \"probarse\"?",
+        "question": "What does \"probarse\" mean?",
         "options": [
           "to prove",
           "to try on",
@@ -2464,9 +2464,9 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "¿Qué es un objeto indirecto?",
+        "heading": "What is an indirect object?",
         "body": [
-          "El objeto indirecto indica a quién o para quién ocurre la acción. Responde a la pregunta \"¿a quién?\" o \"¿para quién?\"."
+          "The indirect object tells you to whom or for whom the action happens. It answers the question \"to whom?\" or \"for whom?\"."
         ],
         "examples": [
           {
@@ -2476,9 +2476,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Los pronombres: me, te, le, nos, os, les",
+        "heading": "The pronouns: me, te, le, nos, os, les",
         "body": [
-          "A diferencia del objeto directo, le y les no cambian según el género — solo según la persona y el número."
+          "Unlike direct object pronouns, le and les don't change for gender — only for person and number."
         ],
         "examples": [
           {
@@ -2493,17 +2493,17 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Elige el pronombre correcto.",
-            "sentence": "___ doy las gracias a mis amigos. (a ellos)",
+            "prompt": "Choose the correct pronoun.",
+            "sentence": "___ doy las gracias a mis amigos.",
             "answer": "Les",
-            "explanation": "\"A ellos\" corresponde al pronombre plural les."
+            "explanation": "A mis amigos is plural, so the indirect pronoun is les."
           }
         ]
       },
       {
-        "heading": "Verbos que casi siempre llevan objeto indirecto",
+        "heading": "Verbs that almost always take an indirect object",
         "body": [
-          "dar, decir, escribir, mandar, prestar, regalar, contar, explicar, mostrar — todos describen algo que se transmite a otra persona."
+          "dar, decir, escribir, mandar, prestar, regalar, contar, explicar, mostrar — they all describe something passed on to another person."
         ],
         "examples": [
           {
@@ -2518,7 +2518,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué pronombre completa la oración? \"___ explico la tarea a ti.\"",
+            "question": "Which pronoun completes the sentence? \"___ explico la tarea a ti.\"",
             "options": [
               "Le",
               "Te",
@@ -2531,9 +2531,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Le/les con una frase aclaratoria",
+        "heading": "Le/les with a clarifying phrase",
         "body": [
-          "Como le y les no indican género, a menudo se agrega \"a + persona\" para aclarar de quién se habla: le escribo a mi hermano."
+          "Since le and les don't show gender, Spanish often adds \"a + person\" to make clear who is meant: le escribo a mi hermano."
         ],
         "examples": [
           {
@@ -2548,10 +2548,10 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la frase aclaratoria correcta.",
+            "prompt": "Complete the sentence with the clarifying phrase.",
             "sentence": "Le mando un mensaje ___ mi jefa.",
             "answer": "a",
-            "explanation": "La frase aclaratoria empieza con \"a\": a mi jefa."
+            "explanation": "The clarifying phrase starts with a (a mi jefa) and doubles le; it can't be para here."
           }
         ]
       },
@@ -2581,7 +2581,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué le va a regalar el segundo amigo a Marta?",
+            "question": "What is the second friend going to give Marta?",
             "options": [
               "Un libro",
               "Unos audífonos",
@@ -2597,14 +2597,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Elige el pronombre correcto.",
+        "prompt": "Choose the correct pronoun.",
         "sentence": "¿___ prestas tu carro a mí?",
         "answer": "Me",
-        "explanation": "\"A mí\" corresponde al pronombre me."
+        "explanation": "A mí matches the pronoun me."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál oración es correcta?",
+        "question": "Which sentence is correct?",
         "options": [
           "Doy le un regalo.",
           "Le doy un regalo.",
@@ -2616,7 +2616,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multi-select",
-        "question": "¿Qué verbos suelen llevar objeto indirecto? (Elige todas las correctas)",
+        "question": "Which verbs usually take an indirect object? (Choose all that apply)",
         "options": [
           "dar",
           "correr",
@@ -2632,10 +2632,10 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa con el pronombre correcto.",
+        "prompt": "Complete with the correct pronoun.",
         "sentence": "___ escribimos una carta a nuestros abuelos.",
         "answer": "Les",
-        "explanation": "\"A nuestros abuelos\" es plural: les."
+        "explanation": "A nuestros abuelos is plural: les."
       }
     ]
   },
@@ -2828,7 +2828,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras.",
+        "prompt": "Put the words in order.",
         "words": [
           "Te",
           "mando",
@@ -2837,7 +2837,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "por",
           "correo"
         ],
-        "explanation": "El pronombre indirecto va justo antes del verbo.",
+        "explanation": "The indirect object pronoun goes right before the conjugated verb.",
         "translation": "I'll send you the document by email."
       },
       {
@@ -2850,12 +2850,12 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cambia le/les según el género?",
+        "question": "Do le and les change for gender?",
         "options": [
-          "Sí, siempre",
-          "No, solo según persona y número",
-          "Solo en plural",
-          "Solo con verbos irregulares"
+          "Yes, always",
+          "No, only for person and number",
+          "Only in the plural",
+          "Only with irregular verbs"
         ],
         "correctIndex": 1,
         "explanation": "Le and les change only for person and number, never for gender: le works for him and her. So it's not \"always\", and plural or irregular verbs don't change that."
@@ -2871,9 +2871,9 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "¿Qué hace que un verbo sea reflexivo?",
+        "heading": "What makes a verb reflexive?",
         "body": [
-          "Un verbo reflexivo indica que el sujeto hace la acción a sí mismo. En el infinitivo, lleva \"se\" al final: levantarse, bañarse, vestirse."
+          "A reflexive verb shows that the subject does the action to itself. In the infinitive it ends in -se: levantarse, bañarse, vestirse."
         ],
         "examples": [
           {
@@ -2883,9 +2883,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Los pronombres reflexivos: me, te, se, nos, os, se",
+        "heading": "The reflexive pronouns: me, te, se, nos, os, se",
         "body": [
-          "El pronombre reflexivo va antes del verbo conjugado, igual que los objetos directo e indirecto."
+          "The reflexive pronoun goes before the conjugated verb, just like direct and indirect object pronouns."
         ],
         "examples": [
           {
@@ -2904,9 +2904,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Verbos reflexivos comunes de la rutina diaria",
+        "heading": "Common reflexive verbs for your daily routine",
         "body": [
-          "despertarse, bañarse, ducharse, vestirse, cepillarse (los dientes), peinarse, acostarse, dormirse — todos describen pasos de un día típico."
+          "despertarse, bañarse, ducharse, vestirse, cepillarse (los dientes), peinarse, acostarse, dormirse: they all describe steps in a typical day."
         ],
         "examples": [
           {
@@ -2921,7 +2921,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál verbo describe cepillarse el pelo?",
+            "question": "Which verb means to brush or comb your hair (cepillarse el pelo)?",
             "options": [
               "peinarse",
               "afeitarse",
@@ -2934,9 +2934,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Reflexivo vs. no reflexivo: mismo verbo, distinto significado",
+        "heading": "Reflexive vs. non-reflexive: same verb, different meaning",
         "body": [
-          "Muchos verbos cambian de significado con \"se\": lavar (to wash something) vs. lavarse (to wash oneself); poner (to put) vs. ponerse (to put on / become)."
+          "Many verbs change meaning with se: lavar (to wash something) vs. lavarse (to wash oneself); poner (to put) vs. ponerse (to put on / become)."
         ],
         "examples": [
           {
@@ -2951,17 +2951,17 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Elige la forma correcta.",
+            "prompt": "Choose the correct form.",
             "sentence": "Antes de comer, yo ___ (lavarse) las manos.",
             "answer": "me lavo",
-            "explanation": "La acción recae sobre el propio sujeto (sus manos): forma reflexiva."
+            "explanation": "The action falls on the subject's own body (my hands), so use the reflexive form: me lavo."
           }
         ]
       },
       {
         "heading": "Put it into practice",
         "body": [
-          "Una descripción de la rutina matutina de Carlos."
+          "A description of Carlos's morning routine."
         ],
         "examples": [
           {
@@ -2984,7 +2984,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multi-select",
-            "question": "¿Qué hace Carlos por la mañana? (Elige todas las correctas)",
+            "question": "What does Carlos do in the morning? (Choose all that apply)",
             "options": [
               "Se ducha",
               "Se maquilla",
@@ -3011,19 +3011,19 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál oración es reflexiva?",
+        "question": "Which sentence is reflexive?",
         "options": [
           "Baño al perro.",
           "Me baño antes de dormir.",
-          "Baño la ropa.",
-          "Bañamos el carro."
+          "Baño a mi hijo.",
+          "Bañamos a los niños."
         ],
         "correctIndex": 1,
-        "explanation": "Me baño is reflexive: the action falls on the subject (I bathe myself). \"Baño al perro\", \"Baño la ropa\" and \"Bañamos el carro\" act on something else, so they aren't reflexive."
+        "explanation": "Me baño is reflexive: the action falls on the subject (I bathe myself). \"Baño al perro\", \"Baño a mi hijo\" and \"Bañamos a los niños\" act on someone else, so they aren't reflexive."
       },
       {
         "type": "multi-select",
-        "question": "¿Qué verbos son reflexivos en su forma de rutina diaria? (Elige todas las correctas)",
+        "question": "Which verbs are reflexive when you use them for your daily routine? (Choose all that apply)",
         "options": [
           "despertarse",
           "comer",
@@ -3235,7 +3235,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras.",
+        "prompt": "Put the words in the right order.",
         "words": [
           "Ella",
           "se",
@@ -3245,12 +3245,12 @@ const A2_BASE_LESSONS: Lesson[] = [
           "cada",
           "noche"
         ],
-        "explanation": "El pronombre reflexivo va antes del verbo conjugado.",
+        "explanation": "The reflexive pronoun goes right before the conjugated verb: se cepilla. Body parts take los, not sus.",
         "translation": "She brushes her teeth every night."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué significa \"ponerse el abrigo\"?",
+        "question": "What does \"ponerse el abrigo\" mean?",
         "options": [
           "to set the coat",
           "to put on the coat",
@@ -3271,9 +3271,9 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Comparaciones de desigualdad: más/menos...que",
+        "heading": "Unequal comparisons: más/menos...que",
         "body": [
-          "Para comparar dos cosas desiguales, usa más...que (more...than) o menos...que (less...than)."
+          "To compare two unequal things, use más...que (more...than) or menos...que (less...than)."
         ],
         "examples": [
           {
@@ -3288,17 +3288,17 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la comparación.",
+            "prompt": "Complete the comparison.",
             "sentence": "Mi hermano es ___ alto que yo. (more...than)",
             "answer": "más",
-            "explanation": "\"Más...que\" expresa una comparación de superioridad: más llena el hueco y que se queda fijo."
+            "explanation": "Más...que means more...than: más goes in the blank before the adjective, and que introduces the second person or thing."
           }
         ]
       },
       {
-        "heading": "Comparaciones de igualdad: tan...como / tanto...como",
+        "heading": "Equal comparisons: tan...como / tanto...como",
         "body": [
-          "Para cosas iguales: tan + adjetivo/adverbio + como (as...as); tanto/a/os/as + sustantivo + como (as much/many...as)."
+          "For equal things: tan + adjective/adverb + como (as...as); tanto/a/os/as + noun + como (as much/many...as)."
         ],
         "examples": [
           {
@@ -3313,7 +3313,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es correcto para decir que dos cantidades son iguales (con un sustantivo)?",
+            "question": "Which pattern says that two amounts are equal (with a noun)?",
             "options": [
               "tan...como",
               "tanto/a/os/as...como",
@@ -3326,9 +3326,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Comparativos irregulares",
+        "heading": "Irregular comparatives",
         "body": [
-          "Algunos adjetivos tienen formas comparativas especiales: bueno → mejor, malo → peor, viejo → mayor, joven → menor (para la edad de las personas)."
+          "Some adjectives have special comparative forms: bueno → mejor, malo → peor, viejo → mayor, joven → menor (for people's age)."
         ],
         "examples": [
           {
@@ -3343,17 +3343,17 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Elige la forma comparativa correcta.",
+            "prompt": "Choose the correct comparative form.",
             "sentence": "Este restaurante es ___ que el otro. (worse)",
             "answer": "peor",
-            "explanation": "Malo tiene la forma irregular peor, no \"más malo\"."
+            "explanation": "For worse, malo has the irregular form peor. (Más malo is only used in a few senses, like naughtier.)"
           }
         ]
       },
       {
-        "heading": "Superlativos: el/la/los/las más/menos...de",
+        "heading": "Superlatives: el/la/los/las más/menos...de",
         "body": [
-          "El superlativo señala el extremo dentro de un grupo: el/la/los/las + más/menos + adjetivo + de."
+          "The superlative picks out the extreme within a group: el/la/los/las + (noun) + más/menos + adjective + de."
         ],
         "examples": [
           {
@@ -3368,17 +3368,17 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa el superlativo.",
+            "prompt": "Complete the superlative.",
             "sentence": "Este es ___ vestido más elegante de la tienda.",
             "answer": "el",
-            "explanation": "El superlativo lleva el artículo definido que concuerda con el sustantivo: el vestido."
+            "explanation": "The superlative uses the definite article that agrees with the noun: el vestido."
           }
         ]
       },
       {
         "heading": "Put it into practice",
         "body": [
-          "Dos amigas comparan ropa en una tienda."
+          "Two friends compare clothes in a store."
         ],
         "examples": [
           {
@@ -3401,7 +3401,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Según la conversación, ¿cuál chaqueta es la mejor opción?",
+            "question": "According to the conversation, which jacket is the best option?",
             "options": [
               "La azul",
               "La roja",
@@ -3417,14 +3417,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la comparación.",
+        "prompt": "Complete the comparison.",
         "sentence": "Este suéter es ___ cómodo como ese abrigo. (as...as)",
         "answer": "tan",
-        "explanation": "Tan + adjetivo + como expresa igualdad: tan cómodo como ese abrigo."
+        "explanation": "Tan + adjective + como expresses equality: tan cómodo como ese abrigo."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cómo se dice \"younger\"?",
+        "question": "How do you say \"younger\"?",
         "options": [
           "mayor",
           "menor",
@@ -3436,10 +3436,10 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa el superlativo.",
+        "prompt": "Complete the superlative.",
         "sentence": "Esta es ___ falda más elegante de la tienda.",
         "answer": "la",
-        "explanation": "El artículo concuerda con \"falda\", femenino: la."
+        "explanation": "The article agrees with falda, which is feminine: la."
       }
     ]
   },
@@ -3632,7 +3632,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Qué adjetivos tienen comparativos irregulares? (Elige todas las correctas)",
+        "question": "Which adjectives have irregular comparatives? (Choose all that apply)",
         "options": [
           "bueno",
           "caro",
@@ -3648,7 +3648,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras.",
+        "prompt": "Put the words in the right order.",
         "words": [
           "Estos",
           "zapatos",
@@ -3659,7 +3659,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "las",
           "botas"
         ],
-        "explanation": "Comparación de igualdad: tan + adjetivo + como.",
+        "explanation": "Equal comparison: tan + adjective + como.",
         "translation": "These shoes are as comfortable as the boots."
       },
       {
@@ -3668,7 +3668,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate this sentence to English.",
         "source": "Es el vestido más caro de toda la tienda.",
         "answer": "It's the most expensive dress in the whole store.",
-        "explanation": "El superlativo usa el/la + más + adjetivo + de."
+        "explanation": "The superlative is el/la + noun + más + adjective + de: el vestido más caro de toda la tienda."
       }
     ]
   },
@@ -3681,9 +3681,9 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "El futuro simple: verbos regulares",
+        "heading": "The simple future: regular verbs",
         "body": [
-          "Para los verbos regulares, no se cambia el infinitivo — simplemente se agregan las terminaciones: -é, -ás, -á, -emos, -éis, -án. Esto aplica a los tres grupos (-ar, -er, -ir) por igual."
+          "For regular verbs, keep the whole infinitive and add the endings: -é, -ás, -á, -emos, -éis, -án. This works the same for all three groups (-ar, -er, -ir)."
         ],
         "examples": [
           {
@@ -3701,14 +3701,14 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Conjugate the verb in the future.",
             "sentence": "Nosotros ___ (vivir) en esta ciudad por un año.",
             "answer": "viviremos",
-            "explanation": "El futuro regular no cambia el infinitivo: vivir + emos = viviremos."
+            "explanation": "The regular future keeps the infinitive: vivir + emos = viviremos."
           }
         ]
       },
       {
-        "heading": "Raíces irregulares del futuro",
+        "heading": "Irregular future stems",
         "body": [
-          "Un grupo pequeño de verbos usa una raíz irregular, pero las mismas terminaciones: tener → tendr-, poner → pondr-, salir → saldr-, venir → vendr-, decir → dir-, hacer → har-, poder → podr-, querer → querr-, saber → sabr-, haber → habr-."
+          "A small group of verbs uses an irregular stem, but the same endings: tener → tendr-, poner → pondr-, salir → saldr-, venir → vendr-, decir → dir-, hacer → har-, poder → podr-, querer → querr-, saber → sabr-, haber → habr-."
         ],
         "examples": [
           {
@@ -3723,7 +3723,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es la raíz irregular de \"decir\" en futuro?",
+            "question": "What is the irregular future stem of decir?",
             "options": [
               "decir-",
               "dic-",
@@ -3736,9 +3736,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Ir a + infinitivo vs. el futuro simple",
+        "heading": "Ir a + infinitive vs. the simple future",
         "body": [
-          "Ir a + infinitivo suena más informal, para planes cercanos o decididos. El futuro simple suena más formal, para predicciones o planes lejanos — y también expresa probabilidad en el presente."
+          "Ir a + infinitive sounds more informal, for near or decided plans. The simple future sounds more formal, for predictions or distant plans, and it also expresses probability about the present."
         ],
         "examples": [
           {
@@ -3757,17 +3757,17 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa con la forma correcta del futuro.",
+            "prompt": "Complete with the correct future form.",
             "sentence": "Algún día, ella ___ (ser) doctora.",
             "answer": "será",
-            "explanation": "El futuro simple expresa un plan o predicción a largo plazo."
+            "explanation": "The simple future expresses a long-term plan or prediction: ser + -á = será."
           }
         ]
       },
       {
-        "heading": "Hablar de planes y predicciones",
+        "heading": "Talking about plans and predictions",
         "body": [
-          "El futuro es ideal para hacer predicciones, prometer algo, y hablar de metas profesionales o personales."
+          "The future is ideal for making predictions, promising something, and talking about career or personal goals."
         ],
         "examples": [
           {
@@ -3782,7 +3782,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multi-select",
-            "question": "¿Qué expresiones se usan con el futuro? (Elige todas las correctas)",
+            "question": "Which expressions go with the future? (Choose all that apply)",
             "options": [
               "algún día",
               "dentro de cinco años",
@@ -3805,11 +3805,11 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Conjugate the verb in the future.",
         "sentence": "Yo ___ (tener) una reunión mañana.",
         "answer": "tendré",
-        "explanation": "Tener toma la raíz irregular tendr- en el futuro."
+        "explanation": "Tener takes the irregular stem tendr- in the future: tendré."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es la raíz irregular de \"hacer\" en futuro?",
+        "question": "What is the irregular future stem of hacer?",
         "options": [
           "hac-",
           "hic-",
@@ -3824,11 +3824,11 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Conjugate the verb in the future.",
         "sentence": "Ellos ___ (poder) terminar el proyecto a tiempo.",
         "answer": "podrán",
-        "explanation": "Poder toma la raíz irregular podr- en el futuro."
+        "explanation": "Poder takes the irregular stem podr- in the future: podrán."
       },
       {
         "type": "multi-select",
-        "question": "¿Qué verbos tienen raíz irregular en el futuro? (Elige todas las correctas)",
+        "question": "Which verbs have an irregular future stem? (Choose all that apply)",
         "options": [
           "tener",
           "hablar",
@@ -3855,7 +3855,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Put it into practice",
         "body": [
-          "Una entrevista de trabajo sobre planes futuros."
+          "A job interview about future plans."
         ],
         "examples": [
           {
@@ -3878,7 +3878,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué meta menciona la persona entrevistada?",
+            "question": "What goal does the person being interviewed mention?",
             "options": [
               "Renunciar al trabajo",
               "Ser gerente de su propio equipo",
@@ -3906,7 +3906,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "el empleo",
-            "en": "the employment"
+            "en": "the job / employment"
           },
           {
             "es": "la entrevista",
@@ -4071,7 +4071,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras.",
+        "prompt": "Put the words in the right order.",
         "words": [
           "Algún",
           "día",
@@ -4080,7 +4080,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "otro",
           "país"
         ],
-        "explanation": "El futuro simple con la expresión de tiempo al principio.",
+        "explanation": "The simple future (viviremos), with the time expression algún día at the start.",
         "translation": "Someday we will live in another country."
       },
       {
@@ -4089,16 +4089,25 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate this sentence to Spanish.",
         "source": "She will be a doctor someday.",
         "answer": "Ella será doctora algún día.",
-        "explanation": "Ser es regular en el futuro: ser + -á = será."
+        "altAnswers": [
+          "Será doctora algún día.",
+          "Algún día será doctora.",
+          "Algún día ella será doctora.",
+          "Ella será médica algún día.",
+          "Será médica algún día.",
+          "Algún día será médica.",
+          "Algún día ella será médica."
+        ],
+        "explanation": "Ser is regular in the future: ser + -á = será."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué diferencia hay entre \"voy a estudiar\" y \"estudiaré\"?",
+        "question": "What's the difference between \"voy a estudiar\" and \"estudiaré\"?",
         "options": [
-          "No hay diferencia",
-          "El primero es más informal / cercano",
-          "El segundo no existe",
-          "El primero solo se usa en España"
+          "There's no difference",
+          "The first is more informal and closer in time",
+          "The second doesn't exist",
+          "The first is only used in Spain"
         ],
         "correctIndex": 1,
         "explanation": "Ir a + infinitive sounds closer and more everyday; the simple future sounds more formal or more distant. So there is a difference, both forms exist, and ir a is used everywhere, not only in Spain."
@@ -4114,9 +4123,9 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Para: destino, plazo, propósito, destinatario",
+        "heading": "Para: destination, deadline, purpose, recipient",
         "body": [
-          "Para se usa para un destino (hacia dónde), un plazo (fecha límite), un propósito (para qué), o un destinatario (para quién)."
+          "Para marks a destination (where to), a deadline, a purpose (what for) or a recipient (who for)."
         ],
         "examples": [
           {
@@ -4135,17 +4144,17 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Elige por o para.",
+            "prompt": "Complete with por or para.",
             "sentence": "Estudio ___ ser doctora.",
             "answer": "para",
-            "explanation": "\"Para\" expresa el propósito: estudio con el fin de ser doctora."
+            "explanation": "Para expresses purpose: I study in order to become a doctor."
           }
         ]
       },
       {
-        "heading": "Por: duración, causa, intercambio, movimiento",
+        "heading": "Por: duration, cause, exchange, movement",
         "body": [
-          "Por se usa para una duración de tiempo, una causa o razón, un intercambio, o un movimiento a través de un lugar.",
+          "Por marks a length of time, a cause or reason, an exchange, or movement through a place.",
           "A note on duration: with a length of time, native speakers most often use no preposition at all (Estudié tres horas) or durante (Estudié durante tres horas). Estudié por tres horas is correct, and common in Latin America, but it's never wrong to leave por out."
         ],
         "examples": [
@@ -4169,12 +4178,12 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué preposición expresa una causa o razón?",
+            "question": "Which preposition expresses a cause or reason?",
             "options": [
               "para",
               "por",
-              "las dos",
-              "ninguna"
+              "both",
+              "neither"
             ],
             "correctIndex": 1,
             "explanation": "Por expresses a cause or reason: por la lluvia (because of the rain). Para expresses purpose or destination, so it isn't \"both\" or \"neither\"."
@@ -4182,9 +4191,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Expresiones fijas con por",
+        "heading": "Fixed expressions with por",
         "body": [
-          "Algunas frases con por son fijas y muy comunes: por favor, por eso, por supuesto, por ejemplo, por fin, por lo general."
+          "Some phrases with por are fixed and very common: por favor, por eso, por supuesto, por ejemplo, por fin, por lo general."
         ],
         "examples": [
           {
@@ -4199,17 +4208,17 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la expresión fija.",
+            "prompt": "Complete the fixed expression.",
             "sentence": "___ ejemplo, me gusta el café con leche.",
             "answer": "Por",
-            "explanation": "\"Por ejemplo\" (for example) es una expresión fija con por."
+            "explanation": "Por ejemplo (for example) is a fixed expression with por."
           }
         ]
       },
       {
-        "heading": "Comparación directa",
+        "heading": "Side by side",
         "body": [
-          "Un mismo par de palabras puede cambiar de sentido según la preposición: para mí (in my opinion / for me) vs. por mí (on my behalf / because of me)."
+          "The same pair of words can change meaning with the preposition: para mí (in my opinion / for me) vs. por mí (on my behalf / because of me)."
         ],
         "examples": [
           {
@@ -4224,19 +4233,19 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multi-select",
-            "question": "¿Qué usos corresponden a \"por\"? (Elige todas las correctas)",
+            "question": "Which uses belong to por? (Choose all that apply)",
             "options": [
-              "Duración de tiempo",
-              "Fecha límite",
-              "Causa o razón",
-              "Intercambio de dinero"
+              "Duration",
+              "Deadline",
+              "Cause or reason",
+              "Exchange of money"
             ],
             "correctIndexes": [
               0,
               2,
               3
             ],
-            "explanation": "Por marks duration, cause and exchange of money. A deadline (fecha límite) takes para: para el lunes."
+            "explanation": "Por marks duration, cause and exchange of money. A deadline takes para: para el lunes."
           }
         ]
       }
@@ -4244,14 +4253,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Elige por o para.",
+        "prompt": "Complete with por or para.",
         "sentence": "Este café es ___ ti.",
         "answer": "para",
-        "explanation": "\"Para ti\" indica el destinatario: el café es para ti."
+        "explanation": "Para ti marks the recipient: the coffee is for you."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué expresión significa \"of course\"?",
+        "question": "Which expression means \"of course\"?",
         "options": [
           "por eso",
           "por fin",
@@ -4263,19 +4272,19 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Elige por o para.",
+        "prompt": "Complete with por or para.",
         "sentence": "Caminamos ___ el centro de la ciudad.",
         "answer": "por",
-        "explanation": "\"Por\" indica movimiento a través de un lugar."
+        "explanation": "Por marks movement through a place: through the city center."
       },
       {
         "type": "multi-select",
-        "question": "¿Qué usos corresponden a \"para\"? (Elige todas las correctas)",
+        "question": "Which uses belong to para? (Choose all that apply)",
         "options": [
-          "Destino",
-          "Causa",
-          "Plazo",
-          "Destinatario"
+          "Destination",
+          "Cause",
+          "Deadline",
+          "Recipient"
         ],
         "correctIndexes": [
           0,
@@ -4297,7 +4306,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Put it into practice",
         "body": [
-          "Una consulta médica breve."
+          "A short visit to the doctor."
         ],
         "examples": [
           {
@@ -4320,7 +4329,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Por qué vino el paciente al consultorio?",
+            "question": "Why did the patient come to the doctor's office?",
             "options": [
               "Por fiebre",
               "Por un dolor de cabeza",
@@ -4513,7 +4522,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras.",
+        "prompt": "Put the words in the right order.",
         "words": [
           "Estudié",
           "por",
@@ -4523,7 +4532,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "el",
           "examen"
         ],
-        "explanation": "Por indica duración; para indica propósito.",
+        "explanation": "Por marks duration (por cinco horas); para marks purpose (para el examen).",
         "translation": "I studied for five hours for the exam."
       },
       {
@@ -4536,12 +4545,12 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué preposición usarías para \"I paid $10 for the ticket\"?",
+        "question": "Which preposition would you use for \"I paid $10 for the ticket\"?",
         "options": [
           "para",
           "por",
-          "las dos son iguales",
-          "ninguna"
+          "both are the same",
+          "neither"
         ],
         "correctIndex": 1,
         "explanation": "An exchange of money takes por: pagué diez dólares por el boleto. \"Para\" is for purpose, destination or recipient, so the two aren't interchangeable here."
@@ -4559,35 +4568,35 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Elige por o para.",
+        "prompt": "Complete with por or para.",
         "sentence": "Trabajo ___ una empresa internacional.",
         "answer": "para",
-        "explanation": "\"Para\" indica el destinatario o empleador: trabajo para (soy empleado de) esta empresa."
+        "explanation": "Para marks the employer: trabajo para esta empresa means I'm employed by this company."
       },
       {
         "type": "fill-blank",
-        "prompt": "Elige por o para.",
+        "prompt": "Complete with por or para.",
         "sentence": "El sábado trabajé ___ mi colega, que estaba enferma.",
         "answer": "por",
-        "explanation": "\"Por\" indica sustitución: trabajé en lugar de mi colega, no como su empleado."
+        "explanation": "Por marks substitution: I worked in my colleague's place, not as her employee."
       },
       {
         "type": "fill-blank",
-        "prompt": "Elige por o para.",
+        "prompt": "Complete with por or para.",
         "sentence": "Compré estas flores ___ mi madre; es su cumpleaños.",
         "answer": "para",
-        "explanation": "\"Para\" indica el destinatario del regalo."
+        "explanation": "Para marks who the gift is for."
       },
       {
         "type": "fill-blank",
-        "prompt": "Elige por o para.",
+        "prompt": "Complete with por or para.",
         "sentence": "Compré estas flores ___ mi madre, porque a ella no le gusta ir a la floristería.",
         "answer": "por",
-        "explanation": "Aquí \"por\" indica que actuaste en nombre de / a causa de tu madre, no que las flores sean para ella."
+        "explanation": "Here por means on behalf of: I bought the flowers in my mother's place, because she doesn't like going to the florist. Para mi madre would mean the flowers are a gift for her."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué oración explica la RAZÓN (causa) por la que alguien actuó?",
+        "question": "Which sentence gives the REASON (cause) why someone acted?",
         "options": [
           "Gritó por miedo.",
           "Gritó para asustar a su hermano.",
@@ -4599,7 +4608,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras.",
+        "prompt": "Put the words in the right order.",
         "words": [
           "Caminamos",
           "por",
@@ -4610,11 +4619,11 @@ const A2_BASE_LESSONS: Lesson[] = [
           "tarde"
         ],
         "translation": "We walked through the city all afternoon.",
-        "explanation": "\"Por\" expresa movimiento a través de un lugar."
+        "explanation": "Por expresses movement through a place: por la ciudad."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras.",
+        "prompt": "Put the words in the right order.",
         "words": [
           "Salimos",
           "para",
@@ -4624,16 +4633,16 @@ const A2_BASE_LESSONS: Lesson[] = [
           "amanecer"
         ],
         "translation": "We left for the coast at dawn.",
-        "explanation": "\"Para\" expresa el destino del viaje."
+        "explanation": "Para expresses the destination of the trip: para la costa."
       },
       {
         "type": "multi-select",
-        "question": "¿Qué usos corresponden a \"por\"? (Elige todas las correctas)",
+        "question": "Which uses belong to por? (Choose all that apply)",
         "options": [
-          "Duración de una acción",
-          "Un destino final",
-          "Una causa o motivo",
-          "Un intercambio (dinero, favores)"
+          "Duration of an action",
+          "A final destination",
+          "A cause or motive",
+          "An exchange (money, favors)"
         ],
         "correctIndexes": [
           0,
@@ -4675,14 +4684,14 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Elige por o para.",
+        "prompt": "Complete with por or para.",
         "sentence": "Necesito el informe terminado ___ el lunes por la mañana.",
         "answer": "para",
-        "explanation": "\"Para\" indica la fecha límite (deadline)."
+        "explanation": "Para marks the deadline: by Monday morning."
       },
       {
         "type": "fill-blank",
-        "prompt": "Elige por o para.",
+        "prompt": "Complete with por or para.",
         "sentence": "Estuvimos revisando el informe ___ tres días seguidos.",
         "answer": "por",
         "altAnswers": ["durante"],
@@ -4701,7 +4710,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Este medicamento es para el dolor. Tómalo por siete días, por favor.",
           "Este medicamento es para el dolor. Tómelo por siete días, por favor."
         ],
-        "explanation": "\"Para el dolor\" expresa propósito; \"por siete días\" expresa duración; \"por favor\" es una expresión fija con por."
+        "explanation": "Para el dolor expresses purpose; por siete días expresses duration; por favor is a fixed expression with por."
       },
       {
         "type": "translate",
@@ -4709,11 +4718,11 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate this sentence to English.",
         "source": "Pagué cuarenta dólares por estos zapatos, pero los compré para mi hermano.",
         "answer": "I paid forty dollars for these shoes, but I bought them for my brother.",
-        "explanation": "\"Por\" marca el precio pagado (intercambio); \"para\" marca el destinatario de los zapatos."
+        "explanation": "Por marks the price paid (an exchange); para marks who the shoes are for."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es la versión correcta de esta oración?",
+        "question": "Which version of this sentence is correct?",
         "options": [
           "David estudia por las noches para terminar su tarea a tiempo.",
           "David estudia para las noches por terminar su tarea a tiempo.",
@@ -4725,22 +4734,22 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "\"Ana trabaja para Aceites S.A. desde hace diez años.\" ¿Qué significa esta oración?",
+        "question": "\"Ana trabaja para Aceites S.A. desde hace diez años.\" What does this sentence mean?",
         "options": [
-          "Ana es empleada permanente de la empresa.",
-          "Ana sustituye a otra persona por un día.",
-          "Ana compró la empresa.",
-          "Ana viaja hacia la empresa cada mañana."
+          "Ana is a permanent employee of the company.",
+          "Ana is standing in for someone for a day.",
+          "Ana bought the company.",
+          "Ana travels toward the company every morning."
         ],
         "correctIndex": 0,
         "explanation": "Trabajar para + a company names your employer: Ana is a permanent employee. Standing in for someone would be trabajar por alguien, and nothing here says she bought the company or is traveling toward it."
       },
       {
         "type": "fill-blank",
-        "prompt": "Elige por o para.",
+        "prompt": "Complete with por or para.",
         "sentence": "Salimos ___ el aeropuerto a las cinco de la mañana.",
         "answer": "para",
-        "explanation": "\"Para\" indica el destino hacia el que salimos."
+        "explanation": "Para marks the destination we're leaving for."
       },
       {
         "type": "translate",
@@ -4754,7 +4763,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Paseamos por el parque durante dos horas.",
           "Paseamos por el parque por dos horas."
         ],
-        "explanation": "El primer \"por\" indica movimiento a través de un lugar; el segundo indica duración de tiempo."
+        "explanation": "The first por marks movement through a place; the second marks a length of time."
       }
     ]
   },
@@ -4763,15 +4772,15 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 23,
     "title": "La \"a\" Personal",
-    "summary": "Aprende cuándo colocar la a personal antes de un objeto directo que es una persona específica.",
+    "summary": "Learn when to put the personal a before a direct object that is a specific person (or a named pet).",
     "duration": "10 min",
     "sections": [
       {
-        "heading": "¿Qué es la \"a\" personal?",
+        "heading": "What is the personal a?",
         "body": [
-          "En español, cuando el objeto directo de una oración es una persona específica (o una mascota que consideramos un individuo con nombre propio), se coloca la palabra a justo antes de ese objeto directo. Esta a personal no se traduce al inglés: simplemente marca que el objeto directo es alguien, no algo.",
-          "Compara estas dos oraciones: Veo a María (I see María) y Veo la casa (I see the house). En la primera, María es una persona específica, así que usamos a. En la segunda, la casa es una cosa, así que no la usamos.",
-          "Recuerda que a se combina con el artículo el para formar al: Veo al profesor (a + el profesor = al profesor)."
+          "In Spanish, when the direct object of a sentence is a specific person (or a pet we treat as an individual with its own name), you put the word a right before that direct object. This personal a isn't translated into English: it simply marks that the direct object is someone, not something.",
+          "Compare these two sentences: Veo a María (I see María) and Veo la casa (I see the house). In the first, María is a specific person, so we use a. In the second, la casa is a thing, so we don't.",
+          "Remember that a combines with the article el to make al: Veo al profesor (a + el profesor = al profesor)."
         ],
         "examples": [
           {
@@ -4802,20 +4811,20 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la a personal si es necesaria.",
+            "prompt": "Complete the sentence with the personal a if it's needed.",
             "sentence": "Visito ___ mi abuela los domingos.",
             "answer": "a",
-            "hint": "El objeto directo es una persona específica.",
-            "explanation": "Mi abuela es una persona específica y objeto directo del verbo visitar, así que se usa la a personal."
+            "hint": "The direct object is a specific person.",
+            "explanation": "Mi abuela is a specific person and the direct object of visitar, so it takes the personal a."
           }
         ]
       },
       {
-        "heading": "Cuándo no se usa la a personal",
+        "heading": "When not to use the personal a",
         "body": [
-          "La a personal no se usa cuando el objeto directo es una cosa, un lugar o un animal que no tratamos como individuo. Tampoco se usa normalmente después del verbo hay, porque hay siempre introduce algo indefinido o general.",
-          "Con animales depende del contexto: si es tu mascota con nombre propio, la tratamos como una persona (Quiero a mi perro Rex). Si hablamos de animales en general, no se usa (Veo animales en el zoológico).",
-          "También se usa la a personal con pronombres indefinidos que se refieren a personas, como alguien y nadie: No veo a nadie en la calle."
+          "The personal a isn't used when the direct object is a thing, a place, or an animal we don't treat as an individual. It's also not normally used after hay, because hay always introduces something indefinite or general.",
+          "With animals it depends on the context: your own pet with a name is treated like a person (Quiero a mi perro Rex). Animals in general don't take it (Veo animales en el zoológico).",
+          "The personal a is also used with indefinite pronouns that refer to people, like alguien and nadie: No veo a nadie en la calle."
         ],
         "examples": [
           {
@@ -4838,7 +4847,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál oración NO necesita la a personal?",
+            "question": "Which sentence does NOT need the personal a?",
             "options": [
               "Busco ___ mi hermana.",
               "Leo ___ el periódico.",
@@ -4851,10 +4860,10 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "La a personal con el verbo tener",
+        "heading": "The personal a with tener",
         "body": [
-          "Con el verbo tener, la a personal generalmente NO se usa cuando tener expresa posesión simple, como relaciones familiares, características o cantidades: Tengo dos hermanos, no Tengo a dos hermanos.",
-          "Sin embargo, sí se usa cuando tener significa tener a alguien físicamente presente contigo en ese momento, en un sentido de ubicación: Tengo a mi hija en brazos."
+          "With tener, the personal a is generally NOT used when tener expresses simple possession, like family relationships, features or quantities: Tengo dos hermanos, not Tengo a dos hermanos.",
+          "However, it is used when tener means having someone physically with you at that moment, in the sense of where they are: Tengo a mi hija en brazos."
         ],
         "examples": [
           {
@@ -4877,7 +4886,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué oración usa correctamente el verbo tener?",
+            "question": "Which sentence uses tener correctly?",
             "options": [
               "Tengo a dos hermanos menores.",
               "Tengo a mi hijo dormido en los brazos.",
@@ -4890,9 +4899,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Vocabulario: verbos que suelen llevar la a personal",
+        "heading": "Vocabulary: verbs that often take the personal a",
         "body": [
-          "Estos verbos casi siempre tienen personas como objeto directo, así que es muy común usarlos con la a personal. Apréndelos como grupo."
+          "These verbs very often have people as their direct object, so you'll use them with the personal a all the time. Learn them as a group."
         ],
         "examples": [
           {
@@ -4947,7 +4956,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "matching",
-            "instructions": "Empareja cada verbo en español con su significado en inglés.",
+            "instructions": "Match each Spanish verb to its English meaning.",
             "pairs": [
               {
                 "left": "buscar",
@@ -4998,7 +5007,7 @@ const A2_BASE_LESSONS: Lesson[] = [
                 "right": "to accompany"
               }
             ],
-            "explanation": "Todos estos verbos suelen tener personas como objeto directo, por eso van acompañados de la a personal con mucha frecuencia."
+            "explanation": "All these verbs usually have people as their direct object, which is why they so often come with the personal a."
           }
         ]
       }
@@ -5006,7 +5015,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Qué oración es correcta?",
+        "question": "Which sentence is correct?",
         "options": [
           "Conozco a Pedro desde hace años.",
           "Conozco Pedro desde hace años.",
@@ -5018,11 +5027,11 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa con a, al, o deja el espacio vacío si no se necesita.",
+        "prompt": "Complete with a or al, or leave the blank empty if nothing is needed.",
         "sentence": "Cuido ___ mis abuelos los fines de semana.",
         "answer": "a",
-        "hint": "Mis abuelos son personas específicas.",
-        "explanation": "Mis abuelos es un objeto directo de personas específicas, así que se usa la a personal: Cuido a mis abuelos."
+        "hint": "Mis abuelos are specific people.",
+        "explanation": "Mis abuelos are specific people and the direct object of cuidar, so you use the personal a: Cuido a mis abuelos."
       },
       {
         "type": "translate",
@@ -5030,11 +5039,11 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate this sentence to English.",
         "source": "No conozco a nadie en esta oficina todavía.",
         "answer": "I don't know anybody in this office yet.",
-        "explanation": "Nadie es un pronombre que se refiere a una persona; los pronombres indefinidos de persona como alguien y nadie también llevan la a personal cuando son objeto directo."
+        "explanation": "Nadie is a pronoun that refers to people; indefinite pronouns for people, like alguien and nadie, also take the personal a when they're the direct object."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras.",
+        "prompt": "Put the words in the right order.",
         "words": [
           "Busco",
           "a",
@@ -5045,11 +5054,11 @@ const A2_BASE_LESSONS: Lesson[] = [
           "café"
         ],
         "translation": "I'm looking for my friend at the café.",
-        "explanation": "Mi amigo es una persona específica y objeto directo de buscar, así que necesita la a personal antes de mi."
+        "explanation": "Mi amigo is a specific person and the direct object of buscar, so it needs the personal a before mi."
       },
       {
         "type": "multi-select",
-        "question": "¿En qué oraciones se necesita la a personal? (Elige todas las correctas)",
+        "question": "Which sentences need the personal a? (Choose all that apply)",
         "options": [
           "Veo ___ Juan en la tienda.",
           "Veo ___ la tienda desde mi casa.",
@@ -5073,7 +5082,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "altAnswers": [
           "Amo mucho a mi perro Max."
         ],
-        "explanation": "Max es una mascota con nombre propio, tratada como un individuo, así que lleva la a personal."
+        "explanation": "Max is a pet with a name, treated as an individual, so it takes the personal a."
       }
     ]
   },
@@ -5082,15 +5091,15 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 24,
     "title": "Palabras Negativas y la Doble Negación, Part 1 of 2",
-    "summary": "Domina nunca, nadie, ninguno, tampoco y ni...ni, y la doble negación obligatoria del español.",
+    "summary": "Master nunca, nadie, nada and ninguno, and the double negative Spanish requires (no + verb + negative word).",
     "duration": "7 min",
     "sections": [
       {
-        "heading": "La doble negación en español",
+        "heading": "The double negative in Spanish",
         "body": [
-          "A diferencia del inglés, el español exige el uso de dos negaciones en la misma oración cuando la palabra negativa va después del verbo: no + verbo + palabra negativa. Esta doble negación es obligatoria y correcta en español, aunque en inglés suene redundante.",
-          "Compara: No veo a nadie se traduce literalmente como I don't see nobody, pero en inglés natural decimos I don't see anybody. La estructura española siempre necesita el no antes del verbo cuando la palabra negativa aparece después.",
-          "Si la palabra negativa se coloca antes del verbo, el no desaparece: Nadie viene a la fiesta (Nobody is coming to the party), sin no."
+          "Unlike English, Spanish requires two negatives in the same sentence when the negative word comes after the verb: no + verb + negative word. This double negative is required and correct in Spanish, even though it sounds redundant in English.",
+          "Compare: No veo a nadie is literally I don't see nobody, but in natural English we say I don't see anybody. Spanish always needs no before the verb when the negative word comes after it.",
+          "If the negative word goes before the verb, no disappears: Nadie viene a la fiesta (Nobody is coming to the party), with no no."
         ],
         "examples": [
           {
@@ -5113,19 +5122,19 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa con la doble negación correcta.",
+            "prompt": "Complete with the correct double negative.",
             "sentence": "___ como nada antes de las ocho de la mañana.",
             "answer": "No",
-            "hint": "La palabra negativa nada va después del verbo.",
-            "explanation": "Nada va después del verbo (como), así que la oración necesita no antes del verbo: No como nada."
+            "hint": "The negative word nada comes after the verb.",
+            "explanation": "Nada comes after the verb (como), so the sentence needs no before the verb: No como nada."
           }
         ]
       },
       {
-        "heading": "Las palabras negativas principales: nunca, nadie, ninguno/ninguna",
+        "heading": "The main negative words: nunca, nadie, ninguno/ninguna",
         "body": [
-          "nunca (never) es lo opuesto de siempre (always). nadie (nobody, no one) es lo opuesto de alguien (somebody). ninguno y ninguna (none, not any) son lo opuesto de alguno y alguna, y concuerdan en género con el sustantivo que modifican.",
-          "Ninguno se acorta a ningún delante de un sustantivo masculino singular, igual que uno se acorta a un. Ninguna no cambia de forma delante de un sustantivo femenino: Ningún libro me interesa, pero Ninguna película me interesa. Casi siempre se usan en singular, incluso cuando la idea es plural en inglés: No tengo ningún problema (I don't have any problems)."
+          "Nunca (never) is the opposite of siempre (always). Nadie (nobody, no one) is the opposite of alguien (somebody). Ninguno and ninguna (none, not any) are the opposites of alguno and alguna, and they agree in gender with the noun they go with.",
+          "Ninguno shortens to ningún before a masculine singular noun, just as uno shortens to un. Ninguna doesn't change before a feminine noun: Ningún libro me interesa, but Ninguna película me interesa. They're almost always singular, even when the English idea is plural: No tengo ningún problema (I don't have any problems)."
         ],
         "examples": [
           {
@@ -5152,7 +5161,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es la forma correcta?",
+            "question": "Which is the correct form?",
             "options": [
               "No tengo ninguno problema.",
               "No tengo ningún problema.",
@@ -5168,7 +5177,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Cuál oración usa correctamente la doble negación?",
+        "question": "Which sentence uses the double negative correctly?",
         "options": [
           "Nadie no viene a la fiesta.",
           "No viene nadie a la fiesta.",
@@ -5180,11 +5189,11 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la palabra negativa correcta.",
+        "prompt": "Complete the sentence with the correct negative word.",
         "sentence": "No hay ___ estudiante en la clase hoy; todos están enfermos.",
         "answer": "ningún",
-        "hint": "Estudiante es masculino singular.",
-        "explanation": "Ninguno se acorta a ningún delante de un sustantivo masculino singular: ningún estudiante."
+        "hint": "Estudiante is masculine singular.",
+        "explanation": "Ninguno shortens to ningún before a masculine singular noun: ningún estudiante."
       },
       {
         "type": "translate",
@@ -5195,7 +5204,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "altAnswers": [
           "She's never late to meetings."
         ],
-        "explanation": "Nunca antes del verbo niega la oración sin necesidad de no."
+        "explanation": "Nunca before the verb makes the sentence negative without needing no."
       },
       {
         "type": "translate",
@@ -5206,7 +5215,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "altAnswers": [
           "No quiero postre y no quiero café tampoco."
         ],
-        "explanation": "Tampoco es la respuesta negativa a también; se usa para añadir una segunda negación relacionada."
+        "explanation": "Tampoco is the negative counterpart of también: use it to add a second, related negative (not...either)."
       }
     ]
   },
@@ -5219,10 +5228,10 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "tampoco y ni...ni",
+        "heading": "Tampoco and ni...ni",
         "body": [
-          "tampoco significa neither o not...either, y es la respuesta negativa a también. Se usa para añadir una negación a algo que ya se negó: No me gusta el café. A mí tampoco. (I don't like coffee. Me neither.)",
-          "La estructura ni...ni significa neither...nor y niega dos elementos a la vez: No como ni carne ni pescado (I eat neither meat nor fish). Cuando ni...ni va antes del verbo, no se necesita no: Ni Juan ni Pedro vinieron a la reunión."
+          "Tampoco means neither or not...either, and it is the negative answer to también. Use it to add a negative to something already negated: No me gusta el café. A mí tampoco. (I don't like coffee. Me neither.)",
+          "Ni...ni means neither...nor and negates two things at once: No como ni carne ni pescado (I eat neither meat nor fish). When ni...ni comes before the verb, you don't need no: Ni Juan ni Pedro vinieron a la reunión."
         ],
         "examples": [
           {
@@ -5249,7 +5258,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "word-order",
-            "prompt": "Ordena las palabras.",
+            "prompt": "Put the words in the right order.",
             "words": [
               "Ni",
               "mi",
@@ -5261,14 +5270,14 @@ const A2_BASE_LESSONS: Lesson[] = [
               "hoy"
             ],
             "translation": "Neither my father nor my mother is cooking today.",
-            "explanation": "Cuando ni...ni va antes del verbo, no se añade no: la doble ni ya expresa la negación completa."
+            "explanation": "When ni...ni comes before the verb, you don't add no: the two ni words already make the sentence negative."
           }
         ]
       },
       {
-        "heading": "Vocabulario: pares afirmativos y negativos",
+        "heading": "Vocabulary: affirmative and negative pairs",
         "body": [
-          "Estas palabras suelen aparecer en pares opuestos. Aprenderlas juntas te ayuda a recordar cuándo usar cada una."
+          "These words come in opposite pairs. Learning them together helps you remember when to use each one."
         ],
         "examples": [
           {
@@ -5323,7 +5332,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "matching",
-            "instructions": "Empareja cada palabra en español con su significado en inglés.",
+            "instructions": "Match each Spanish word to its English meaning.",
             "pairs": [
               {
                 "left": "siempre",
@@ -5374,7 +5383,7 @@ const A2_BASE_LESSONS: Lesson[] = [
                 "right": "neither...nor"
               }
             ],
-            "explanation": "Cada palabra negativa tiene un par afirmativo correspondiente: siempre/nunca, alguien/nadie, algo/nada, alguno/ninguno, también/tampoco."
+            "explanation": "Each negative word has an affirmative partner: siempre/nunca, alguien/nadie, algo/nada, alguno/ninguno, también/tampoco."
           }
         ]
       }
@@ -5382,7 +5391,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras.",
+        "prompt": "Put the words in the right order.",
         "words": [
           "No",
           "hablo",
@@ -5392,11 +5401,11 @@ const A2_BASE_LESSONS: Lesson[] = [
           "italiano"
         ],
         "translation": "I speak neither German nor Italian.",
-        "explanation": "No + verbo + ni...ni forma la doble negación: no se omite el no porque ni...ni va después del verbo."
+        "explanation": "No + verb + ni...ni makes the double negative: keep no because ni...ni comes after the verb."
       },
       {
         "type": "multi-select",
-        "question": "¿Qué oraciones son gramaticalmente correctas? (Elige todas las correctas)",
+        "question": "Which sentences are grammatically correct? (Choose all that apply)",
         "options": [
           "No tengo ningún problema.",
           "Tengo ningún problema.",
@@ -5409,7 +5418,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           2,
           4
         ],
-        "explanation": "No tengo ningún problema es correcta porque ningún va después del verbo y necesita no antes. Tengo ningún problema es incorrecta porque falta el no. Nadie llama a la puerta es correcta porque nadie va antes del verbo y no lleva no. No nadie llama a la puerta es incorrecta porque nunca se combinan no y una palabra negativa antes del verbo. No hablo ni inglés ni francés es correcta: ni...ni después de no niega ambos elementos."
+        "explanation": "No tengo ningún problema is correct: ningún comes after the verb, so no goes before it. Tengo ningún problema is wrong because no is missing. Nadie llama a la puerta is correct: nadie comes before the verb, so there's no no. No nadie llama a la puerta is wrong because no and a negative word never combine before the verb. No hablo ni inglés ni francés is correct: ni...ni after no negates both things."
       }
     ]
   },
@@ -5418,14 +5427,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 26,
     "title": "Adverbios en -mente, Part 1 of 2",
-    "summary": "Forma adverbios de modo a partir de adjetivos usando el sufijo -mente y aprende sus reglas de acentuación.",
+    "summary": "Form adverbs of manner from adjectives with -mente and learn how written accents carry over.",
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Cómo formar adverbios en -mente",
+        "heading": "How to form -mente adverbs",
         "body": [
-          "Para formar un adverbio de modo a partir de un adjetivo, se usa la forma femenina singular del adjetivo más el sufijo -mente. Esta terminación equivale a -ly en inglés.",
-          "Si el adjetivo termina en -o en masculino, cambia a -a antes de añadir -mente: rápido se convierte en rápida y luego en rápidamente. Si el adjetivo tiene una sola forma para masculino y femenino (termina en -e o en consonante), simplemente se añade -mente a esa única forma: fácil se convierte directamente en fácilmente; elegante se convierte en elegantemente."
+          "To form an adverb of manner from an adjective, take the feminine singular form of the adjective and add -mente. This ending works like -ly in English.",
+          "If the masculine adjective ends in -o, change it to -a before adding -mente: rápido becomes rápida and then rápidamente. If the adjective has one form for masculine and feminine (it ends in -e or a consonant), just add -mente to that form: fácil becomes fácilmente; elegante becomes elegantemente."
         ],
         "examples": [
           {
@@ -5452,19 +5461,19 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Convierte el adjetivo en adverbio.",
+            "prompt": "Turn the adjective into an adverb.",
             "sentence": "Ana camina ___ (lento) porque le duele el pie.",
             "answer": "lentamente",
-            "hint": "Forma femenina del adjetivo + -mente.",
-            "explanation": "Lento se convierte en lenta (femenino) y luego se añade -mente: lentamente."
+            "hint": "Feminine form of the adjective + -mente.",
+            "explanation": "Lento becomes lenta (feminine), then add -mente: lentamente."
           }
         ]
       },
       {
-        "heading": "Acentos: qué pasa con la tilde del adjetivo",
+        "heading": "Accents: what happens to the adjective's written accent",
         "body": [
-          "Si el adjetivo base lleva tilde (acento escrito), el adverbio en -mente conserva esa misma tilde, en el mismo lugar, aunque la palabra sea ahora más larga. La regla es simple: no se quita ni se mueve el acento escrito del adjetivo original.",
-          "Por ejemplo, fácil ya lleva tilde en la a, así que fácilmente también la lleva. Lo mismo pasa con rápido, que lleva tilde en la primera a: su adverbio rápidamente conserva esa tilde. En cambio, un adjetivo sin tilde, como lento, forma un adverbio sin tilde: lentamente."
+          "If the base adjective has a written accent (tilde), the -mente adverb keeps that same accent in the same place, even though the word is now longer. The rule is simple: never remove or move the original adjective's written accent.",
+          "For example, fácil already has an accent on the a, so fácilmente keeps it. The same goes for rápido, with its accent on the first a: rápidamente keeps it. An adjective with no accent, like lento, makes an adverb with no accent: lentamente."
         ],
         "examples": [
           {
@@ -5491,7 +5500,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál adverbio está escrito correctamente?",
+            "question": "Which adverb is spelled correctly?",
             "options": [
               "dificilmente",
               "difícilmente",
@@ -5507,15 +5516,15 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con el adverbio correcto.",
+        "prompt": "Complete the sentence with the correct adverb.",
         "sentence": "Mi jefe siempre explica las instrucciones ___ (claro).",
         "answer": "claramente",
-        "hint": "Forma femenina del adjetivo + -mente.",
-        "explanation": "Claro se convierte en clara (femenino) y luego se añade -mente: claramente."
+        "hint": "Feminine form of the adjective + -mente.",
+        "explanation": "Claro becomes clara (feminine), then add -mente: claramente."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál oración forma correctamente el adverbio?",
+        "question": "Which sentence forms the adverb correctly?",
         "options": [
           "Ella conduce cuidadosomente.",
           "Ella conduce cuidadosamente.",
@@ -5540,7 +5549,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Contestó la pregunta honestamente y directamente.",
           "Contestó a la pregunta honestamente y directamente."
         ],
-        "explanation": "Cuando dos adverbios en -mente van seguidos y unidos por y, lo más natural es que solo el último lleve el sufijo: honesta y directamente. Honestamente y directamente también es correcto. Verás esta regla en la Parte 2."
+        "explanation": "When two -mente adverbs are joined by y, it's most natural for only the last one to take the ending: honesta y directamente. Honestamente y directamente is also correct. You'll see this rule in Part 2."
       }
     ]
   },
@@ -5549,14 +5558,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 27,
     "title": "Adverbios en -mente, Part 2 of 2",
-    "summary": "Aprende a unir dos adverbios en -mente (clara y lentamente) y practica los adverbios en -mente más frecuentes.",
+    "summary": "Learn to join two -mente adverbs (clara y lentamente) and practice the most common -mente adverbs.",
     "duration": "5 min",
     "sections": [
       {
-        "heading": "Dos o más adverbios en -mente seguidos",
+        "heading": "Two or more -mente adverbs in a row",
         "body": [
-          "Cuando dos o más adverbios en -mente aparecen seguidos en una serie, unidos por y o pero, lo normal es que solo el último adverbio lleve el sufijo -mente. Los adverbios anteriores se quedan en su forma femenina simple, sin -mente.",
-          "Por ejemplo, en vez de Habló claramente y lentamente (correcto, pero repetitivo), lo más natural es Habló clara y lentamente. El sufijo -mente del último adverbio se entiende que también se aplica a los anteriores."
+          "When two or more -mente adverbs come in a row, joined by y or pero, normally only the last one takes -mente. The ones before it stay in their plain feminine form, without -mente.",
+          "For example, instead of Habló claramente y lentamente (correct, but repetitive), it's more natural to say Habló clara y lentamente. The -mente on the last adverb is understood to apply to the earlier ones too."
         ],
         "examples": [
           {
@@ -5579,7 +5588,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "word-order",
-            "prompt": "Ordena las palabras.",
+            "prompt": "Put the words in the right order.",
             "words": [
               "Escribió",
               "el",
@@ -5589,14 +5598,14 @@ const A2_BASE_LESSONS: Lesson[] = [
               "cuidadosamente"
             ],
             "translation": "She wrote the report clearly and carefully.",
-            "explanation": "Cuando hay dos adverbios en -mente unidos por y, solo el segundo lleva el sufijo: clara y cuidadosamente, no claramente y cuidadosamente."
+            "explanation": "When two -mente adverbs are joined by y, normally only the second takes -mente: clara y cuidadosamente (claramente y cuidadosamente is correct but heavier)."
           }
         ]
       },
       {
-        "heading": "Vocabulario: adjetivos y sus adverbios",
+        "heading": "Vocabulary: adjectives and their adverbs",
         "body": [
-          "Estos adjetivos comunes forman adverbios muy frecuentes en español. Practica la transformación de cada uno."
+          "These common adjectives make some of the most frequent adverbs in Spanish. Practice turning each one into its adverb."
         ],
         "examples": [
           {
@@ -5651,7 +5660,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "matching",
-            "instructions": "Empareja cada adverbio con su significado en inglés.",
+            "instructions": "Match each adverb to its English meaning.",
             "pairs": [
               {
                 "left": "rápidamente",
@@ -5702,7 +5711,7 @@ const A2_BASE_LESSONS: Lesson[] = [
                 "right": "especially"
               }
             ],
-            "explanation": "Cada uno de estos adverbios se forma con la forma femenina del adjetivo correspondiente más -mente."
+            "explanation": "Each of these adverbs is the feminine form of its adjective plus -mente."
           }
         ]
       }
@@ -5723,11 +5732,11 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Normally I get to work at eight.",
           "Normally, I get to work at eight."
         ],
-        "explanation": "Normalmente se forma con normal (una sola forma, termina en consonante) + -mente, sin cambios adicionales."
+        "explanation": "Normalmente is normal (one form, ends in a consonant) + -mente, with no other changes."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras.",
+        "prompt": "Put the words in the right order.",
         "words": [
           "Hablamos",
           "lenta",
@@ -5738,11 +5747,11 @@ const A2_BASE_LESSONS: Lesson[] = [
           "reunión"
         ],
         "translation": "We spoke slowly and clearly in the meeting.",
-        "explanation": "Lo normal es que solo el último adverbio de la serie lleve -mente: lenta y claramente (más natural que lentamente y claramente)."
+        "explanation": "Normally only the last adverb in the series takes -mente: lenta y claramente (more natural than lentamente y claramente)."
       },
       {
         "type": "multi-select",
-        "question": "¿Qué adverbios están escritos correctamente? (Elige todas las correctas)",
+        "question": "Which adverbs are spelled correctly? (Choose all that apply)",
         "options": [
           "rápidamente",
           "rapidamente",
@@ -5764,15 +5773,15 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 28,
     "title": "Cómo Pedir y Dar Indicaciones, Part 1 of 2",
-    "summary": "Aprende a pedir indicaciones cortésmente y a darlas usando mandatos formales de usted, preposiciones de ubicación y vocabulario de la calle.",
+    "summary": "Learn to ask for directions politely and give them with formal usted commands (siga, gire, cruce, tome).",
     "duration": "5 min",
     "sections": [
       {
-        "heading": "Cómo Pedir Indicaciones Cortésmente",
+        "heading": "How to ask for directions politely",
         "body": [
-          "Cuando estás perdido/a en la calle, lo primero es llamar la atención de otra persona con cortesía. Usa Perdón o Disculpe antes de hacer tu pregunta.",
-          "Para preguntar cómo llegar a un lugar, usa ¿Cómo llego a...? o ¿Sabe dónde está...?",
-          "También puedes preguntar si un lugar está cerca o lejos con ¿Está cerca/lejos de aquí?"
+          "When you're lost in the street, first get someone's attention politely. Say Perdón or Disculpe before you ask your question.",
+          "To ask how to get somewhere, use ¿Cómo llego a...? or ¿Sabe dónde está...?",
+          "You can also ask whether a place is near or far with ¿Está cerca/lejos de aquí?"
         ],
         "examples": [
           {
@@ -5791,7 +5800,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es la forma más cortés de comenzar a pedir indicaciones a un desconocido en la calle?",
+            "question": "What is the most polite way to start asking a stranger for directions in the street?",
             "options": [
               "Oye, dime cómo llegar.",
               "Perdón, ¿me puede ayudar?",
@@ -5804,11 +5813,11 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Cómo Dar Indicaciones: Mandatos con Usted",
+        "heading": "Giving directions: usted commands",
         "body": [
-          "Para dar indicaciones a un desconocido en la calle, lo normal en español es usar el mandato formal de usted, no el mandato de tú, porque le hablas a una persona que no conoces.",
-          "Los verbos más comunes son seguir (siga), continuar (continúe), girar (gire), doblar (doble), cruzar (cruce) y tomar (tome).",
-          "Siga/continúe derecho significa go straight. Gire/doble a la derecha o a la izquierda significa turn right/left. Cruce la calle significa cross the street. Tome la primera/segunda calle significa take the first/second street."
+          "To give directions to a stranger in the street, Spanish normally uses the formal usted command, not the tú command, because you're talking to someone you don't know.",
+          "The most common verbs are seguir (siga), continuar (continúe), girar (gire), doblar (doble), cruzar (cruce) and tomar (tome).",
+          "Siga/continúe derecho means go straight. Gire/doble a la derecha or a la izquierda means turn right/left. Cruce la calle means cross the street. Tome la primera/segunda calle means take the first/second street."
         ],
         "examples": [
           {
@@ -5831,11 +5840,11 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa el mandato formal para dar indicaciones.",
+            "prompt": "Complete the formal command to give directions.",
             "sentence": "___ derecho dos cuadras y después gire a la derecha.",
             "answer": "Siga",
-            "hint": "Mandato de usted del verbo seguir.",
-            "explanation": "Siga es el mandato formal (usted) del verbo seguir, la forma correcta para darle una instrucción a un desconocido."
+            "hint": "The usted command of seguir.",
+            "explanation": "Siga is the formal (usted) command of seguir, the right form for giving an instruction to a stranger."
           }
         ]
       }
@@ -5843,7 +5852,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Qué mandato usarías para decirle a un desconocido que doble a la izquierda?",
+        "question": "Which command would you use to tell a stranger to turn left?",
         "options": [
           "Dobla a la izquierda",
           "Doble a la izquierda",
@@ -5855,15 +5864,15 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la preposición correcta.",
+        "prompt": "Complete the sentence with the correct preposition.",
         "sentence": "La panadería está ___ el banco y la farmacia.",
         "answer": "entre",
-        "hint": "Significa 'between' en inglés.",
-        "explanation": "Entre se usa para indicar que algo está en medio de dos lugares, como between en inglés."
+        "hint": "It means between.",
+        "explanation": "Entre means between: the bakery is in the middle, with the bank on one side and the pharmacy on the other. You'll learn more location words like this in Part 2."
       },
       {
         "type": "multi-select",
-        "question": "¿Cuáles de estas expresiones sirven para preguntar por una dirección?",
+        "question": "Which of these expressions can you use to ask for directions?",
         "options": [
           "¿Cómo llego a...?",
           "Me gusta mucho este lugar.",
@@ -5880,7 +5889,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "matching",
-        "instructions": "Relaciona cada mandato en español con su significado en inglés.",
+        "instructions": "Match each Spanish command to its English meaning.",
         "pairs": [
           {
             "left": "Siga derecho",
@@ -5899,7 +5908,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "right": "Take the first street"
           }
         ],
-        "explanation": "Estos son los mandatos formales (usted) más comunes para dar indicaciones a un desconocido."
+        "explanation": "These are the most common formal (usted) commands for giving directions to a stranger."
       }
     ]
   },
@@ -5908,14 +5917,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 29,
     "title": "Cómo Pedir y Dar Indicaciones, Part 2 of 2",
-    "summary": "Aprende a pedir indicaciones cortésmente y a darlas usando mandatos formales de usted, preposiciones de ubicación y vocabulario de la calle.",
+    "summary": "Say where places are with al lado de, enfrente de, detrás de, entre and a dos cuadras de, and use landmarks like la esquina and el semáforo.",
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Preposiciones y Expresiones de Ubicación",
+        "heading": "Prepositions and location expressions",
         "body": [
-          "Para describir dónde está un lugar, se usan preposiciones y expresiones de ubicación: al lado de (next to), enfrente de (in front of / across from), detrás de (behind), entre (between), en la esquina de (on the corner of), a dos cuadras/manzanas de (two blocks from), cerca de (close to) y lejos de (far from).",
-          "La palabra cuadra se usa en Latinoamérica y manzana en España para referirse a un bloque de calles."
+          "To describe where a place is, use these prepositions and location expressions: al lado de (next to), enfrente de (in front of / across from), detrás de (behind), entre (between), en la esquina de (on the corner of), a dos cuadras/manzanas de (two blocks from), cerca de (close to) and lejos de (far from).",
+          "For a city block, Latin America says cuadra and Spain says manzana."
         ],
         "examples": [
           {
@@ -5934,7 +5943,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "matching",
-            "instructions": "Relaciona cada expresión de ubicación con su significado en inglés.",
+            "instructions": "Match each location expression to its English meaning.",
             "pairs": [
               {
                 "left": "al lado de",
@@ -5953,15 +5962,15 @@ const A2_BASE_LESSONS: Lesson[] = [
                 "right": "two blocks from"
               }
             ],
-            "explanation": "Estas expresiones de ubicación son esenciales para describir dónde está un lugar en relación con otro cuando das indicaciones."
+            "explanation": "These location expressions are essential for saying where one place is in relation to another when you give directions."
           }
         ]
       },
       {
-        "heading": "Puntos de Referencia y Vocabulario de la Calle",
+        "heading": "Landmarks and street vocabulary",
         "body": [
-          "Al dar o pedir indicaciones, es útil mencionar puntos de referencia: la esquina (corner), la cuadra/la manzana (city block), el semáforo (traffic light), la plaza (square), el cruce (crossing/intersection), la calle (street) y la avenida (avenue).",
-          "Mencionar un punto de referencia después del mandato ayuda a la otra persona a confirmar que va por el camino correcto."
+          "When you give or ask for directions, it helps to mention landmarks: la esquina (corner), la cuadra/la manzana (city block), el semáforo (traffic light), la plaza (square), el cruce (crossing/intersection), la calle (street) and la avenida (avenue).",
+          "Mentioning a landmark after the command helps the other person check that they're on the right track."
         ],
         "examples": [
           {
@@ -5980,7 +5989,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multi-select",
-            "question": "¿Cuáles de las siguientes palabras son puntos de referencia útiles para dar indicaciones?",
+            "question": "Which of these words are useful landmarks when giving directions?",
             "options": [
               "el semáforo",
               "la esquina",
@@ -5995,14 +6004,14 @@ const A2_BASE_LESSONS: Lesson[] = [
               3,
               5
             ],
-            "explanation": "El semáforo, la esquina, la plaza y el cruce son puntos de referencia comunes en la calle; el cumpleaños y el paraguas no tienen relación con dar indicaciones."
+            "explanation": "El semáforo, la esquina, la plaza and el cruce are common street landmarks; el cumpleaños (birthday) and el paraguas (umbrella) have nothing to do with giving directions."
           }
         ]
       },
       {
-        "heading": "En Práctica: Pidiendo Indicaciones en la Calle",
+        "heading": "Put it into practice: asking for directions in the street",
         "body": [
-          "Lee el siguiente diálogo entre un turista perdido y una señora que vive en el barrio. Observa cómo el turista pide indicaciones cortésmente y cómo la señora usa mandatos de usted para explicar el camino paso a paso."
+          "Read this dialogue between a lost tourist and a woman who lives in the neighborhood. Notice how the tourist asks for directions politely and how the woman uses usted commands to explain the way step by step."
         ],
         "examples": [
           {
@@ -6029,10 +6038,10 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la respuesta de la señora con la preposición correcta.",
+            "prompt": "Complete the woman's answer with the correct preposition.",
             "sentence": "El museo está ___ del semáforo, no delante.",
             "answer": "detrás",
-            "hint": "Es lo opuesto de delante.",
+            "hint": "It's the opposite of delante.",
             "explanation": "Detrás de means behind, the opposite of delante de (in front of)."
           }
         ]
@@ -6042,7 +6051,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Traduce la oración al inglés.",
+        "prompt": "Translate this sentence to English.",
         "source": "Continúe derecho hasta la plaza y después gire a la izquierda.",
         "answer": "Continue straight until the square and then turn left.",
         "altAnswers": [
@@ -6052,23 +6061,26 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Go straight to the square and then turn left.",
           "Keep going straight until the square and then turn left."
         ],
-        "explanation": "Continúe es el mandato formal de continuar; hasta indica el punto donde termina esa parte del recorrido."
+        "explanation": "Continúe is the formal command of continuar; hasta marks the point where that part of the route ends."
       },
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce la oración al español.",
+        "prompt": "Translate this sentence to Spanish.",
         "source": "Excuse me, is the museum far from here?",
         "answer": "Disculpe, ¿está lejos de aquí el museo?",
         "altAnswers": [
           "Perdón, ¿el museo está lejos de aquí?",
-          "Disculpe, ¿el museo está lejos de aquí?"
+          "Disculpe, ¿el museo está lejos de aquí?",
+          "Perdón, ¿está lejos de aquí el museo?",
+          "Disculpe, ¿está el museo lejos de aquí?",
+          "Perdón, ¿está el museo lejos de aquí?"
         ],
-        "explanation": "Disculpe/Perdón son formas corteses de dirigirse a un desconocido, y lejos de aquí pregunta por la distancia."
+        "explanation": "Disculpe and Perdón are polite ways to address a stranger, and lejos de aquí asks about the distance."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración lógica.",
+        "prompt": "Put the words in the right order.",
         "words": [
           "Gire",
           "a",
@@ -6079,11 +6091,11 @@ const A2_BASE_LESSONS: Lesson[] = [
           "esquina"
         ],
         "translation": "Turn right at the corner.",
-        "explanation": "El mandato formal Gire va primero, seguido de la dirección (a la derecha) y el punto de referencia (en la esquina)."
+        "explanation": "The formal command Gire comes first, then the direction (a la derecha) and the landmark (en la esquina)."
       },
       {
         "type": "multiple-choice",
-        "question": "Estás en la calle y un turista te pregunta por el correo. ¿Cuál es la mejor manera de empezar tu respuesta usando el mandato formal?",
+        "question": "A tourist in the street asks you the way to the post office. What is the best way to start your answer with a formal command?",
         "options": [
           "Sigue derecho dos cuadras.",
           "Siga derecho dos cuadras.",
@@ -6099,17 +6111,17 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "at-the-restaurant-1",
     "level": "A2",
     "number": 30,
-    "title": "En el Restaurante, Part 1 of 2",
-    "summary": "Aprende a reservar mesa, pedir la comida, hacer peticiones educadas, indicar necesidades dietéticas y pagar la cuenta en un restaurante.",
+    "title": "At the Restaurant, Part 1 of 2",
+    "summary": "Learn to ask for a table or give your booking name, recognize the key restaurant words (la carta, el plato del día, la propina) and order politely with para mí and quisiera.",
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Al llegar: la reserva y la mesa",
+        "heading": "Arriving: your booking and your table",
         "body": [
-          "Antes de sentarte, es normal decir si tienes una reserva o no. Si no tienes reserva, puedes preguntar directamente si hay una mesa disponible.",
-          "La frase Tengo una reserva a nombre de... se usa para dar tu nombre al camarero o a la camarera cuando llegas.",
-          "También puedes pedir un lugar específico, como una mesa junto a la ventana (a table by the window) o una mesa para dos.",
-          "Hoy en día está prohibido fumar dentro de los restaurantes en España y en casi toda Latinoamérica, así que a veces te preguntan si prefieres sentarte dentro o en la terraza (outside)."
+          "Before you sit down, it's normal to say whether you have a reservation. If you don't, you can simply ask whether there's a table free.",
+          "The phrase Tengo una reserva a nombre de... (I have a reservation under the name...) is how you give your name to the waiter or waitress when you arrive.",
+          "You can also ask for a particular spot, such as una mesa junto a la ventana (a table by the window), or say how many you are: una mesa para dos (a table for two).",
+          "Smoking is now banned inside restaurants in Spain and almost all of Latin America, so you may be asked whether you'd rather sit dentro (inside) or en la terraza (outside)."
         ],
         "examples": [
           {
@@ -6128,20 +6140,21 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la frase para dar tu nombre al hacer una reserva.",
+            "prompt": "How do you say the bold words in Spanish?",
             "sentence": "Tengo una reserva a ___ de Ana.",
+            "en": "I have a reservation under the [name] of Ana.",
             "answer": "nombre",
-            "hint": "Literalmente: 'in the name of'.",
-            "explanation": "La expresión fija es a nombre de + persona, equivalente a 'under the name of' en inglés."
+            "hint": "Literally: 'in the name of'.",
+            "explanation": "The fixed phrase is a nombre de + person, the Spanish for 'under the name of'."
           }
         ]
       },
       {
-        "heading": "Vocabulario clave del restaurante",
+        "heading": "Key restaurant vocabulary",
         "body": [
-          "Hay palabras esenciales que necesitas reconocer en cualquier restaurante hispanohablante.",
-          "Una diferencia importante es regional: en España se dice el camarero / la camarera para 'waiter/waitress', mientras que en gran parte de Latinoamérica se prefiere el mesero / la mesera. Ambas formas se entienden en casi todas partes, pero es útil saber cuál es más común según el país.",
-          "La carta (en muchos países también llamada el menú) presenta los platos; en España, el menú suele ser el menú del día, de precio fijo. El plato del día es la sugerencia especial de hoy. Una comida típica se organiza en la entrada (starter), el plato principal (main course) y el postre (dessert), acompañados de una bebida. Al final, no olvides la propina (tip)."
+          "There are a few essential words you'll need to recognize in any Spanish-speaking restaurant.",
+          "One important difference is regional: in Spain a waiter or waitress is el camarero / la camarera, while much of Latin America prefers el mesero / la mesera. Both are understood almost everywhere, but it helps to know which is more common in each country.",
+          "La carta (in many countries also called el menú) lists the dishes; in Spain, el menú usually means the fixed-price menú del día. El plato del día is today's special. A typical meal has la entrada (starter), el plato principal (main course) and el postre (dessert), with una bebida (a drink). At the end, don't forget la propina (tip)."
         ],
         "examples": [
           {
@@ -6160,7 +6173,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál palabra se usa más comúnmente para 'waiter' en muchos países de Latinoamérica?",
+            "question": "Which word for 'waiter' is most common in much of Latin America?",
             "options": [
               "el camarero",
               "el mesero",
@@ -6173,12 +6186,12 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Pedir la comida",
+        "heading": "Ordering your food",
         "body": [
-          "Para pedir, existen varias formas educadas y muy naturales en español.",
-          "Para mí... es una manera simple de indicar qué plato quieres tú, especialmente cuando cada persona en la mesa va diciendo su pedido por turno.",
-          "Yo quisiera... es aún más educado. Quisiera viene del verbo querer en una forma que suaviza la petición, similar a 'I would like' en inglés, y es la manera más común y cortés de pedir en un restaurante (más suave que Yo quiero...).",
-          "Si no sabes qué elegir, puedes preguntar ¿Qué me recomienda? o pedir más información con ¿Cómo es el plato de pollo?"
+          "Spanish has several polite, natural ways to order.",
+          "Para mí... (for me...) is a simple way to say which dish you want, especially when everyone at the table orders in turn.",
+          "Yo quisiera... is even more polite. Quisiera is a form of querer that softens the request, like 'I would like' in English, and it's the most common polite way to order in a restaurant (softer than Yo quiero...).",
+          "If you can't decide, ask ¿Qué me recomienda? (What do you recommend?), or ask for more details with ¿Cómo es el plato de pollo? (What's the chicken dish like?)"
         ],
         "examples": [
           {
@@ -6197,7 +6210,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál de estas frases suena más educada y natural al pedir en un restaurante?",
+            "question": "Which of these sounds most polite and natural when ordering in a restaurant?",
             "options": [
               "Yo quiero el pollo.",
               "Yo quisiera el pollo.",
@@ -6213,7 +6226,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Cuál frase se usa típicamente para pedir una mesa al llegar sin reserva?",
+        "question": "Which phrase do you typically use to ask for a table when you arrive without a booking?",
         "options": [
           "¿Me podría traer la cuenta?",
           "¿Tiene una mesa para dos?",
@@ -6225,15 +6238,15 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la frase educada para pedir comida.",
+        "prompt": "Complete the polite way to order.",
         "sentence": "Yo ___ el pescado, por favor.",
         "answer": "quisiera",
-        "hint": "Forma cortés de 'I would like', del verbo querer.",
-        "explanation": "Quisiera es la forma educada y suave de expresar un deseo al pedir, más cortés que quiero."
+        "hint": "The polite form of 'I would like', from querer.",
+        "explanation": "Quisiera is the soft, polite way to say what you'd like when ordering; it's more courteous than quiero."
       },
       {
         "type": "multi-select",
-        "question": "¿Cuáles de estas palabras significan 'waiter/waitress' en español? Selecciona todas las correctas.",
+        "question": "Which of these words mean 'waiter/waitress'? Select all that apply.",
         "options": [
           "el camarero",
           "el mesero",
@@ -6249,7 +6262,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "matching",
-        "instructions": "Une cada frase en español con su significado en inglés.",
+        "instructions": "Match each Spanish phrase to its English meaning.",
         "pairs": [
           {
             "left": "La cuenta, por favor.",
@@ -6268,7 +6281,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "right": "Can we split the check?"
           }
         ],
-        "explanation": "Estas son frases esenciales al momento de pagar y de indicar restricciones alimentarias en un restaurante."
+        "explanation": "These are essential phrases for paying and for explaining dietary restrictions in a restaurant."
       }
     ]
   },
@@ -6276,17 +6289,17 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "at-the-restaurant-2",
     "level": "A2",
     "number": 31,
-    "title": "En el Restaurante, Part 2 of 2",
-    "summary": "Aprende a reservar mesa, pedir la comida, hacer peticiones educadas, indicar necesidades dietéticas y pagar la cuenta en un restaurante.",
+    "title": "At the Restaurant, Part 2 of 2",
+    "summary": "Learn to make polite requests with ¿Me podría traer...?, explain allergies and dietary needs, and ask for, split and pay the bill.",
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Peticiones educadas y necesidades especiales",
+        "heading": "Polite requests and special needs",
         "body": [
-          "Para pedir algo adicional de manera cortés, se usa la estructura ¿Me podría traer...? (Could you bring me...?), que usa el condicional de poder para sonar más suave que un simple imperativo.",
-          "Esta misma estructura funciona en plural: ¿Nos podría traer la cuenta, por favor? es una de las frases más útiles para terminar la comida.",
-          "Si tienes alguna restricción alimentaria, es importante saber decirlo con claridad: Soy alérgico/a a los frutos secos, Soy vegetariano/a, o Necesito algo sin gluten.",
-          "También puedes preguntar directamente si hay opciones disponibles: ¿Tiene algo sin carne?"
+          "To ask politely for something extra, use ¿Me podría traer...? (Could you bring me...?). It uses the conditional of poder, which sounds softer than a plain command.",
+          "The same structure works with nos (us): ¿Nos podría traer la cuenta, por favor? (Could you bring us the bill, please?) is one of the most useful phrases for the end of a meal.",
+          "If you have a dietary restriction, it's important to be able to say so clearly: Soy alérgico/a a los frutos secos (I'm allergic to nuts), Soy vegetariano/a (I'm vegetarian) or Necesito algo sin gluten (I need something gluten-free).",
+          "You can also ask directly what's available: ¿Tiene algo sin carne? (Do you have anything without meat?)"
         ],
         "examples": [
           {
@@ -6305,21 +6318,21 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la petición educada.",
+            "prompt": "Complete the polite request.",
             "sentence": "¿Me ___ traer la sal, por favor?",
             "answer": "podría",
-            "hint": "Forma condicional de poder.",
-            "explanation": "¿Me podría traer...? usa el condicional podría para suavizar la petición y sonar más cortés que un mandato directo."
+            "hint": "The conditional form of poder.",
+            "explanation": "¿Me podría traer...? uses the conditional podría to soften the request, so it sounds more polite than a direct command."
           }
         ]
       },
       {
-        "heading": "Pagar la cuenta",
+        "heading": "Paying the bill",
         "body": [
-          "Cuando terminas de comer, la frase más común para pedir la cuenta es simplemente La cuenta, por favor.",
-          "En algunos países la propina ya está incluida en el precio; por eso es útil preguntar ¿Está incluida la propina?",
-          "También puedes indicar cómo vas a pagar: pagar en efectivo (to pay in cash) o pagar con tarjeta (to pay by card).",
-          "Si van varias personas, a veces conviene dividir la cuenta (to split the check) entre todos."
+          "When you've finished eating, the most common way to ask for the bill is simply La cuenta, por favor.",
+          "In some countries the tip is already included in the price, so it's useful to ask ¿Está incluida la propina? (Is the tip included?)",
+          "You can also say how you're going to pay: pagar en efectivo (to pay in cash) or pagar con tarjeta (to pay by card).",
+          "When several people eat together, you may want to dividir la cuenta (to split the check)."
         ],
         "examples": [
           {
@@ -6339,25 +6352,25 @@ const A2_BASE_LESSONS: Lesson[] = [
           {
             "type": "translate",
             "direction": "en-es",
-            "prompt": "Traduce al español.",
+            "prompt": "Translate to Spanish.",
             "source": "Can we pay by card?",
             "answer": "¿Podemos pagar con tarjeta?",
             "altAnswers": [
               "¿Podemos pagar con la tarjeta?"
             ],
-            "explanation": "Pagar con tarjeta significa 'to pay by/with card'; pagar en efectivo sería la opción contraria, 'to pay in cash'."
+            "explanation": "Pagar con tarjeta means 'to pay by card'; the alternative is pagar en efectivo, 'to pay in cash'."
           }
         ]
       },
       {
-        "heading": "En práctica: una visita al restaurante",
+        "heading": "In practice: a visit to a restaurant",
         "body": [
-          "Lee este diálogo completo, desde la llegada hasta el pago, para ver cómo se combinan todas las frases en una conversación real.",
+          "Read this complete dialogue, from arriving to paying, to see how all these phrases come together in a real conversation.",
           "Mesero: Buenas noches, ¿tiene una reserva? / Cliente: Sí, tengo una reserva a nombre de Laura, para dos personas.",
           "Mesero: Perfecto, síganme. ¿Les gustaría una mesa junto a la ventana? / Cliente: Sí, perfecto, gracias.",
-          "Mesero: Aquí tienen la carta. ¿Qué le puedo ofrecer para beber? / Cliente: Para mí, agua mineral, por favor.",
+          "Mesero: Aquí tienen la carta. ¿Qué les puedo ofrecer para beber? / Cliente: Para mí, agua mineral, por favor.",
           "Mesero: ¿Ya saben qué van a pedir? / Cliente: Yo quisiera el plato del día. Y una pregunta: soy alérgica a los frutos secos, ¿el plato del día los lleva? / Mesero: No, no se preocupe, no lleva frutos secos.",
-          "(Al terminar de comer) Cliente: ¿Nos podría traer la cuenta, por favor? / Mesero: Claro, enseguida. / Cliente: ¿Está incluida la propina? / Mesero: No, se agrega aparte. / Cliente: Entendido, vamos a pagar con tarjeta y dividir la cuenta, por favor."
+          "(After the meal) Cliente: ¿Nos podría traer la cuenta, por favor? / Mesero: Claro, enseguida. / Cliente: ¿Está incluida la propina? / Mesero: No, se agrega aparte. / Cliente: Entendido, vamos a pagar con tarjeta y dividir la cuenta, por favor."
         ],
         "examples": [
           {
@@ -6372,7 +6385,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multi-select",
-            "question": "Según el diálogo, ¿qué dos cosas pide la clienta al final de la comida? Selecciona ambas.",
+            "question": "According to the dialogue, which two things does the customer ask for at the end of the meal? Select both.",
             "options": [
               "La carta",
               "La cuenta",
@@ -6392,29 +6405,29 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Traduce al inglés.",
+        "prompt": "Translate to English.",
         "source": "¿Me podría traer un poco más de agua, por favor?",
         "answer": "Could you bring me a little more water, please?",
         "altAnswers": [
           "Could you bring me a bit more water, please?"
         ],
-        "explanation": "¿Me podría traer...? usa el condicional para hacer una petición educada, equivalente a 'Could you bring me...?'."
+        "explanation": "¿Me podría traer...? uses the conditional to make a polite request, like 'Could you bring me...?' in English."
       },
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce al español.",
+        "prompt": "Translate to Spanish.",
         "source": "I am vegetarian. Do you have anything without meat?",
         "answer": "Soy vegetariano. ¿Tiene algo sin carne?",
         "altAnswers": [
           "Soy vegetariana. ¿Tiene algo sin carne?",
           "Soy vegetariano/a. ¿Tienen algo sin carne?"
         ],
-        "explanation": "Soy vegetariano/a se usa para indicar una restricción dietética, y ¿Tiene algo sin carne? pregunta por opciones disponibles."
+        "explanation": "Soy vegetariano/a states a dietary restriction, and ¿Tiene algo sin carne? asks what's available."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una petición educada y correcta.",
+        "prompt": "Put the words in order to make a polite request.",
         "words": [
           "¿Nos",
           "podría",
@@ -6425,16 +6438,16 @@ const A2_BASE_LESSONS: Lesson[] = [
           "favor?"
         ],
         "translation": "Could you bring us the check, please?",
-        "explanation": "El orden correcto es ¿Nos podría traer la cuenta, por favor?, usando el condicional podría para suavizar la petición."
+        "explanation": "Nos (to us) goes before the conjugated verb podría, then comes the infinitive traer; the conditional podría makes the request polite."
       },
       {
         "type": "multiple-choice",
-        "question": "En el diálogo de práctica, ¿por qué la clienta menciona que es alérgica a los frutos secos?",
+        "question": "In the practice dialogue, why does the customer mention that she's allergic to nuts?",
         "options": [
-          "Para pedir la cuenta",
-          "Para confirmar que el plato del día no los contiene",
-          "Para reservar una mesa",
-          "Para pagar con tarjeta"
+          "To ask for the bill",
+          "To make sure the daily special doesn't contain any",
+          "To book a table",
+          "To pay by card"
         ],
         "correctIndex": 1,
         "explanation": "She mentions her nut allergy to make sure the dish of the day doesn't contain nuts. It has nothing to do with the bill, a reservation or paying by card."
@@ -6445,14 +6458,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "preterite-drill-1",
     "level": "A2",
     "number": 32,
-    "title": "El Pretérito: Práctica Extra, Part 1 of 3",
-    "summary": "Practica la conjugación y el uso del pretérito con verbos regulares e irregulares en contextos variados.",
+    "title": "The Preterite: Extra Practice, Part 1 of 3",
+    "summary": "Practice the regular -ar, -er and -ir preterite endings and the irregular stems tuv-, estuv-, pud- and pus-.",
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Verbos regulares en -ar",
+        "heading": "Regular -ar verbs",
         "body": [
-          "Recuerda las terminaciones regulares del pretérito para verbos en -ar: -é, -aste, -ó, -amos, -asteis, -aron."
+          "Remember the regular preterite endings for -ar verbs: -é, -aste, -ó, -amos, -asteis, -aron."
         ],
         "examples": [
           {
@@ -6467,15 +6480,15 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Nosotros ___ (cocinar) la cena anoche.",
             "answer": "cocinamos",
-            "hint": "pretérito, nosotros",
-            "explanation": "La terminación de nosotros en -ar es -amos."
+            "hint": "preterite, nosotros",
+            "explanation": "The nosotros ending for -ar verbs is -amos: cocinamos."
           },
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es la forma correcta de 'trabajar' en pretérito, yo?",
+            "question": "Which is the correct preterite form of 'trabajar' for yo?",
             "options": [
               "trabajo",
               "trabajé",
@@ -6488,9 +6501,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Verbos regulares en -er/-ir",
+        "heading": "Regular -er and -ir verbs",
         "body": [
-          "Recuerda que los verbos en -er e -ir comparten las mismas terminaciones en pretérito: -í, -iste, -ió, -imos, -isteis, -ieron."
+          "Remember that -er and -ir verbs share the same preterite endings: -í, -iste, -ió, -imos, -isteis, -ieron."
         ],
         "examples": [
           {
@@ -6505,15 +6518,15 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Tú ___ (escribir) una carta muy bonita.",
             "answer": "escribiste",
-            "hint": "pretérito, tú",
+            "hint": "preterite, tú",
             "explanation": "Escribir is a regular -ir verb: the tú preterite ending is -iste → escribiste."
           },
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es la forma correcta de 'volver' en pretérito, ella?",
+            "question": "Which is the correct preterite form of 'volver' for ella?",
             "options": [
               "volvió",
               "volvía",
@@ -6526,9 +6539,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Verbos irregulares: raíz cambiada",
+        "heading": "Irregular verbs: a new stem",
         "body": [
-          "Algunos verbos cambian completamente la raíz en pretérito: tener→tuv-, estar→estuv-, poder→pud-, poner→pus-."
+          "Some verbs change their stem completely in the preterite: tener→tuv-, estar→estuv-, poder→pud-, poner→pus-."
         ],
         "examples": [
           {
@@ -6543,15 +6556,15 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Ella ___ (poner) las llaves en la mesa.",
             "answer": "puso",
-            "hint": "raíz pus-",
+            "hint": "stem pus-",
             "explanation": "Poner has the irregular preterite stem pus-, with no accent on the ending: puso."
           },
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es la forma correcta de 'poder' en pretérito, yo?",
+            "question": "Which is the correct preterite form of 'poder' for yo?",
             "options": [
               "podí",
               "pude",
@@ -6567,15 +6580,15 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Ayer ___ (yo, estudiar) toda la tarde.",
         "answer": "estudié",
-        "hint": "pretérito, yo",
+        "hint": "preterite, yo",
         "explanation": "Estudiar is a regular -ar verb: the yo preterite ends in accented -é → estudié."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es la forma correcta de 'tener' en pretérito, tú?",
+        "question": "Which is the correct preterite form of 'tener' for tú?",
         "options": [
           "tuviste",
           "tenías",
@@ -6588,22 +6601,22 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Traduce la oración al inglés.",
+        "prompt": "Translate to English.",
         "source": "Anoche vimos una película muy interesante.",
         "answer": "Last night we watched a very interesting movie.",
         "explanation": "Vimos is the preterite of ver (we saw / we watched), for one completed action last night."
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Mis padres ___ (venir) a visitarme el fin de semana pasado.",
         "answer": "vinieron",
-        "hint": "raíz vin-",
+        "hint": "stem vin-",
         "explanation": "Venir has the preterite stem vin-; the ellos ending is -ieron → vinieron."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración.",
+        "prompt": "Put the words in order to make a sentence.",
         "words": [
           "La",
           "semana",
@@ -6613,13 +6626,13 @@ const A2_BASE_LESSONS: Lesson[] = [
           "la",
           "playa"
         ],
-        "explanation": "Pretérito de ir + complemento de lugar y tiempo.",
+        "explanation": "Fuimos is the preterite of ir (we went) for one finished trip; the time phrase la semana pasada can go first or last.",
         "translation": "Last week we went to the beach.",
         "altOrders": [["Fuimos", "a", "la", "playa", "la", "semana", "pasada"]]
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es la forma correcta de 'hacer' en pretérito, ella?",
+        "question": "Which is the correct preterite form of 'hacer' for ella?",
         "options": [
           "hació",
           "hizo",
@@ -6635,14 +6648,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "preterite-drill-2",
     "level": "A2",
     "number": 33,
-    "title": "El Pretérito: Práctica Extra, Part 2 of 3",
-    "summary": "Practica la conjugación y el uso del pretérito con verbos regulares e irregulares en contextos variados.",
+    "title": "The Preterite: Extra Practice, Part 2 of 3",
+    "summary": "Practice decir, traer and -ducir verbs (-eron, not -ieron) and tell ser and ir apart in the preterite.",
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Irregulares: decir, traer, verbos en -ucir",
+        "heading": "Irregulars: decir, traer and -ucir verbs",
         "body": [
-          "Los verbos decir, traer y los terminados en -ucir usan la terminación -eron en vez de -ieron en la tercera persona plural."
+          "Decir, traer and verbs ending in -ucir take -eron instead of -ieron in the ellos/ellas/ustedes form: dijeron, trajeron, tradujeron."
         ],
         "examples": [
           {
@@ -6657,7 +6670,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es la forma correcta de 'decir' en pretérito, ellos?",
+            "question": "Which is the correct preterite form of 'decir' for ellos?",
             "options": [
               "dijeron",
               "dijieron",
@@ -6669,18 +6682,18 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Yo ___ (traducir) el documento al inglés.",
             "answer": "traduje",
-            "hint": "raíz traduj-",
+            "hint": "stem traduj-",
             "explanation": "Verbs in -ducir take the stem -duj- with unaccented endings: traduje."
           }
         ]
       },
       {
-        "heading": "Ser e ir: formas idénticas",
+        "heading": "Ser and ir: identical forms",
         "body": [
-          "Ser e ir comparten exactamente las mismas formas en pretérito, y el contexto indica cuál se usa."
+          "Ser and ir have exactly the same forms in the preterite; the context tells you which verb is meant."
         ],
         "examples": [
           {
@@ -6695,7 +6708,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "En 'Fue profesora durante veinte años', ¿de qué verbo es fue?",
+            "question": "In 'Fue profesora durante veinte años', which verb does fue come from?",
             "options": [
               "ser",
               "ir",
@@ -6707,10 +6720,10 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Nosotros ___ (ir) a la playa el domingo.",
             "answer": "fuimos",
-            "hint": "pretérito de ir",
+            "hint": "preterite of ir",
             "explanation": "Ir and ser share the preterite fui, fuiste, fue, fuimos...; context tells you it means \"we went\" here."
           }
         ]
@@ -6719,23 +6732,23 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Yo ___ (pagar) la cuenta ayer.",
         "answer": "pagué",
-        "hint": "cambio g→gu",
+        "hint": "g changes to gu",
         "explanation": "In the yo form, g becomes gu before é to keep the hard g sound: pagué."
       },
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce la oración al español.",
+        "prompt": "Translate to Spanish.",
         "source": "She said she wasn't hungry.",
         "answer": "Ella dijo que no tenía hambre.",
         "explanation": "Dijo (preterite) reports the single act of saying; tenía (imperfect) describes her state at that moment. Tener hambre = to be hungry."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es correcta para 'saber' en pretérito, nosotros?",
+        "question": "Which is the correct preterite form of 'saber' for nosotros?",
         "options": [
           "supimos",
           "sabíamos",
@@ -6747,7 +6760,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Los niños ___ (pedir) helado de postre.",
         "answer": "pidieron",
         "hint": "e→i, ellos",
@@ -6755,7 +6768,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "matching",
-        "instructions": "Relaciona cada elemento con su pareja correcta.",
+        "instructions": "Match each Spanish item to its English meaning.",
         "pairs": [
           {
             "left": "fui",
@@ -6786,7 +6799,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál oración usa correctamente el pretérito?",
+        "question": "Which sentence uses the preterite correctly?",
         "options": [
           "Ella trabaja aquí desde 2015.",
           "Ella trabajó aquí el año pasado.",
@@ -6802,14 +6815,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "preterite-drill-3",
     "level": "A2",
     "number": 34,
-    "title": "El Pretérito: Práctica Extra, Part 3 of 3",
-    "summary": "Practica la conjugación y el uso del pretérito con verbos regulares e irregulares en contextos variados.",
+    "title": "The Preterite: Extra Practice, Part 3 of 3",
+    "summary": "Practice yo spelling changes (busqué, llegué, empecé), the e→i and o→u changes in él and ellos (pidió, durmió), and the preterite vs. the present.",
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Verbos con cambio ortográfico",
+        "heading": "Verbs with a spelling change",
         "body": [
-          "Verbos como buscar, llegar y empezar cambian la ortografía solo en la forma yo: busqué, llegué, empecé."
+          "Verbs like buscar, llegar and empezar change their spelling only in the yo form: busqué, llegué, empecé."
         ],
         "examples": [
           {
@@ -6824,15 +6837,15 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Yo ___ (buscar) las llaves por todas partes.",
             "answer": "busqué",
-            "hint": "cambio c→qu en yo",
+            "hint": "c changes to qu in the yo form",
             "explanation": "In the yo form, c becomes qu before é to keep the k sound: busqué."
           },
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es correcta para 'jugar', yo?",
+            "question": "Which is the correct preterite form of 'jugar' for yo?",
             "options": [
               "jugué",
               "juegué",
@@ -6845,9 +6858,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Verbos con e→i y o→u en la tercera persona",
+        "heading": "Verbs with e→i and o→u in the third person",
         "body": [
-          "Verbos -ir como pedir, servir y dormir cambian la vocal de la raíz solo en él/ella y ellos/ellas."
+          "-Ir verbs like pedir, servir and dormir change their stem vowel only in the él/ella and ellos/ellas forms."
         ],
         "examples": [
           {
@@ -6862,7 +6875,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "El camarero ___ (servir) la comida rápido.",
             "answer": "sirvió",
             "hint": "e→i",
@@ -6870,7 +6883,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es correcta para 'dormir', ella?",
+            "question": "Which is the correct preterite form of 'dormir' for ella?",
             "options": [
               "dormió",
               "durmió",
@@ -6883,9 +6896,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Contraste con el presente",
+        "heading": "Contrast with the present",
         "body": [
-          "Recuerda distinguir claramente entre las formas del presente y del pretérito al conjugar."
+          "Keep the present and preterite forms clearly apart when you conjugate."
         ],
         "examples": [
           {
@@ -6896,7 +6909,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál oración está en pretérito?",
+            "question": "Which sentence is in the preterite?",
             "options": [
               "Como pan todos los días.",
               "Comí pan ayer.",
@@ -6912,23 +6925,23 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "¿Dónde ___ (tú, poner) mis llaves?",
         "answer": "pusiste",
-        "hint": "raíz pus-",
+        "hint": "stem pus-",
         "explanation": "Poner has the irregular preterite stem pus-: pusiste."
       },
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Traduce la oración al inglés.",
+        "prompt": "Translate to English.",
         "source": "Llegamos al aeropuerto muy tarde.",
         "answer": "We arrived at the airport very late.",
         "explanation": "Llegamos is both present and preterite for -ar verbs; here the context (a trip that happened) makes it the past: we arrived."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración.",
+        "prompt": "Put the words in order to make a sentence.",
         "words": [
           "No",
           "me",
@@ -6936,12 +6949,12 @@ const A2_BASE_LESSONS: Lesson[] = [
           "la",
           "verdad"
         ],
-        "explanation": "Pretérito de decir con pronombre de objeto indirecto.",
+        "explanation": "Dijeron is the ellos preterite of decir (-eron after j, not -ieron); me (to me) goes before the verb, right after no.",
         "translation": "They didn't tell me the truth."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es correcta para 'leer', él?",
+        "question": "Which is the correct preterite form of 'leer' for él?",
         "options": [
           "leyó",
           "leió",
@@ -6953,16 +6966,16 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Nosotros ___ (dormir) muy poco anoche.",
         "answer": "dormimos",
-        "hint": "nosotros no cambia la vocal",
+        "hint": "no vowel change in the nosotros form",
         "explanation": "The o → u change of dormir only happens in the third person (durmió, durmieron); nosotros stays dormimos."
       },
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce la oración al español.",
+        "prompt": "Translate to Spanish.",
         "source": "They brought their own food to the party.",
         "answer": "Trajeron su propia comida a la fiesta.",
         "explanation": "Traer has the stem traj-, and like dijeron it drops the i: trajeron."
@@ -6973,14 +6986,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "imperfect-drill-1",
     "level": "A2",
     "number": 35,
-    "title": "El Imperfecto: Práctica Extra, Part 1 of 3",
-    "summary": "Practica la conjugación y el uso del imperfecto para describir el pasado, hábitos y descripciones.",
+    "title": "The Imperfect: Extra Practice, Part 1 of 3",
+    "summary": "Practice the regular imperfect endings (-aba for -ar verbs, -ía for -er and -ir verbs) for past habits and descriptions.",
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Verbos regulares en -ar",
+        "heading": "Regular -ar verbs",
         "body": [
-          "Recuerda las terminaciones del imperfecto para verbos en -ar: -aba, -abas, -aba, -ábamos, -abais, -aban."
+          "Remember the imperfect endings for -ar verbs: -aba, -abas, -aba, -ábamos, -abais, -aban."
         ],
         "examples": [
           {
@@ -6995,15 +7008,15 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Nosotros ___ (cocinar) juntos los domingos.",
             "answer": "cocinábamos",
-            "hint": "imperfecto, nosotros",
+            "hint": "imperfect, nosotros",
             "explanation": "-Ar verbs take -ábamos in the imperfect nosotros form, with an accent: cocinábamos."
           },
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es correcta para 'hablar', yo, imperfecto?",
+            "question": "Which is the correct imperfect form of 'hablar' for yo?",
             "options": [
               "hablé",
               "hablaba",
@@ -7016,9 +7029,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Verbos regulares en -er/-ir",
+        "heading": "Regular -er and -ir verbs",
         "body": [
-          "Los verbos -er e -ir comparten las terminaciones del imperfecto: -ía, -ías, -ía, -íamos, -íais, -ían."
+          "-Er and -ir verbs share the same imperfect endings: -ía, -ías, -ía, -íamos, -íais, -ían."
         ],
         "examples": [
           {
@@ -7033,15 +7046,15 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Ellos ___ (escribir) cartas a sus amigos.",
             "answer": "escribían",
-            "hint": "imperfecto, ellos",
+            "hint": "imperfect, ellos",
             "explanation": "-Ir verbs take -ía endings in the imperfect: escribían."
           },
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es correcta para 'tener', tú, imperfecto?",
+            "question": "Which is the correct imperfect form of 'tener' for tú?",
             "options": [
               "tuviste",
               "tenías",
@@ -7057,15 +7070,15 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "De niña, yo ___ (jugar) con muñecas.",
         "answer": "jugaba",
-        "hint": "imperfecto, yo",
+        "hint": "imperfect, yo",
         "explanation": "A childhood habit → imperfect: jugaba (-ar → -aba)."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es correcta para 'ver', nosotros, imperfecto?",
+        "question": "Which is the correct imperfect form of 'ver' for nosotros?",
         "options": [
           "veíamos",
           "vimos",
@@ -7078,7 +7091,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Traduce la oración al inglés.",
+        "prompt": "Translate to English.",
         "source": "Cuando vivíamos en México, comíamos tacos cada semana.",
         "answer": "When we lived in Mexico, we used to eat tacos every week.",
         "altAnswers": [
@@ -7092,28 +7105,28 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Mis padres ___ (trabajar) en el mismo edificio.",
         "answer": "trabajaban",
-        "hint": "imperfecto, ellos",
+        "hint": "imperfect, ellos",
         "explanation": "-Ar verbs take -aban in the imperfect ellos form: trabajaban."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración.",
+        "prompt": "Put the words in order to make a sentence.",
         "words": [
           "De",
           "niño",
           "leía",
           "mucho"
         ],
-        "explanation": "Imperfecto para describir un hábito de la infancia.",
+        "explanation": "Leía is imperfect because reading a lot was a childhood habit (de niño), not a single event.",
         "translation": "As a child, I used to read a lot.",
         "altOrders": [["Leía", "mucho", "de", "niño"]]
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es correcta para 'ser', yo, imperfecto?",
+        "question": "Which is the correct imperfect form of 'ser' for yo?",
         "options": [
           "fui",
           "era",
@@ -7125,10 +7138,10 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "___ (ser) las ocho cuando empezó la película.",
         "answer": "Eran",
-        "hint": "la hora en el pasado",
+        "hint": "clock time in the past",
         "explanation": "Clock time in the past is background, so it takes the imperfect, and las ocho is plural: eran."
       }
     ]
@@ -7137,14 +7150,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "imperfect-drill-2",
     "level": "A2",
     "number": 36,
-    "title": "El Imperfecto: Práctica Extra, Part 2 of 3",
-    "summary": "Practica la conjugación y el uso del imperfecto para describir el pasado, hábitos y descripciones.",
+    "title": "The Imperfect: Extra Practice, Part 2 of 3",
+    "summary": "Practice the three irregular imperfects (era, iba, veía) and use the imperfect for descriptions and repeated actions.",
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Los tres verbos irregulares: ser, ir, ver",
+        "heading": "The three irregular verbs: ser, ir, ver",
         "body": [
-          "Solo tres verbos son irregulares en imperfecto: ser (era), ir (iba) y ver (veía)."
+          "Only three verbs are irregular in the imperfect: ser (era), ir (iba) and ver (veía)."
         ],
         "examples": [
           {
@@ -7159,15 +7172,15 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Mi hermano ___ (ser) muy tímido de niño.",
             "answer": "era",
-            "hint": "imperfecto irregular de ser",
+            "hint": "irregular imperfect of ser",
             "explanation": "Describing what someone was like in the past → imperfect of ser: era."
           },
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es correcta para 'ir', ellos, imperfecto?",
+            "question": "Which is the correct imperfect form of 'ir' for ellos?",
             "options": [
               "iban",
               "fueron",
@@ -7180,9 +7193,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Descripciones en el pasado",
+        "heading": "Descriptions in the past",
         "body": [
-          "Usamos el imperfecto para describir personas, lugares y estados en el pasado."
+          "Use the imperfect to describe people, places and states in the past."
         ],
         "examples": [
           {
@@ -7197,18 +7210,18 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "El cielo ___ (estar) muy nublado esa tarde.",
             "answer": "estaba",
-            "hint": "descripción del pasado",
+            "hint": "description in the past",
             "explanation": "Weather and scene description in the past → imperfect: estaba."
           }
         ]
       },
       {
-        "heading": "Acciones habituales o repetidas",
+        "heading": "Habitual or repeated actions",
         "body": [
-          "Usamos el imperfecto para hablar de acciones que se repetían habitualmente en el pasado."
+          "Use the imperfect for actions that happened regularly in the past."
         ],
         "examples": [
           {
@@ -7223,7 +7236,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál oración describe un hábito del pasado?",
+            "question": "Which sentence describes a past habit?",
             "options": [
               "Ayer comí pizza.",
               "De niña, comía pizza todos los viernes.",
@@ -7235,10 +7248,10 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Nosotros ___ (visitar) a los abuelos cada mes.",
             "answer": "visitábamos",
-            "hint": "hábito repetido",
+            "hint": "repeated habit",
             "explanation": "Cada mes marks a repeated habit → imperfect: visitábamos."
           }
         ]
@@ -7248,7 +7261,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce la oración al español.",
+        "prompt": "Translate to Spanish.",
         "source": "She was very happy when she was young.",
         "answer": "Ella era muy feliz cuando era joven.",
         "altAnswers": [
@@ -7262,7 +7275,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál oración describe algo en progreso en el pasado?",
+        "question": "Which sentence describes something in progress in the past?",
         "options": [
           "Comí una manzana.",
           "Estaba comiendo una manzana cuando llamaste.",
@@ -7274,15 +7287,15 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Cada verano, nosotros ___ (ir) a la casa de la playa.",
         "answer": "íbamos",
-        "hint": "hábito repetido",
+        "hint": "repeated habit",
         "explanation": "Cada verano marks a repeated habit → imperfect of ir: íbamos (with an accent)."
       },
       {
         "type": "matching",
-        "instructions": "Relaciona cada elemento con su pareja correcta.",
+        "instructions": "Match each Spanish item to its English meaning.",
         "pairs": [
           {
             "left": "era",
@@ -7313,7 +7326,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál oración usa correctamente el imperfecto?",
+        "question": "Which sentence uses the imperfect correctly?",
         "options": [
           "Ayer estudié toda la noche.",
           "Cuando era estudiante, estudiaba toda la noche.",
@@ -7329,14 +7342,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "imperfect-drill-3",
     "level": "A2",
     "number": 37,
-    "title": "El Imperfecto: Práctica Extra, Part 3 of 3",
-    "summary": "Practica la conjugación y el uso del imperfecto para describir el pasado, hábitos y descripciones.",
+    "title": "The Imperfect: Extra Practice, Part 3 of 3",
+    "summary": "Practice the imperfect for age and clock time (tenía diez años, eran las nueve) and estaba + gerund for actions in progress.",
     "duration": "7 min",
     "sections": [
       {
-        "heading": "La edad y la hora en el pasado",
+        "heading": "Age and clock time in the past",
         "body": [
-          "Para decir la edad o la hora en el pasado, casi siempre se usa el imperfecto."
+          "To give someone's age or the time in the past, you almost always use the imperfect."
         ],
         "examples": [
           {
@@ -7351,20 +7364,20 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "___ (ser) las nueve de la noche cuando llamó.",
             "answer": "Eran",
-            "hint": "la hora en el pasado",
+            "hint": "clock time in the past",
             "explanation": "Clock time in the past is background → imperfect; las nueve is plural: eran."
           },
           {
             "type": "multiple-choice",
-            "question": "¿Qué tiempo se usa para la edad en el pasado?",
+            "question": "Which tense do you use for age in the past?",
             "options": [
-              "pretérito",
-              "imperfecto",
-              "presente",
-              "futuro"
+              "the preterite",
+              "the imperfect",
+              "the present",
+              "the future"
             ],
             "correctIndex": 1,
             "explanation": "Age in the past is background description → imperfect: tenía diez años."
@@ -7372,9 +7385,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Acciones en progreso: imperfecto continuo",
+        "heading": "Actions in progress: the past progressive",
         "body": [
-          "Usamos estaba + gerundio para describir una acción que estaba en progreso en un momento del pasado."
+          "Use estaba + gerund (-ando/-iendo) for an action that was in progress at a moment in the past."
         ],
         "examples": [
           {
@@ -7389,18 +7402,18 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Yo ___ (estar) leyendo cuando se fue la luz.",
             "answer": "estaba",
-            "hint": "imperfecto continuo",
+            "hint": "past progressive",
             "explanation": "Estaba + gerund describes an action in progress that was interrupted (se fue la luz)."
           }
         ]
       },
       {
-        "heading": "Contraste con el presente y el pretérito",
+        "heading": "Contrast with the present and the preterite",
         "body": [
-          "Compara siempre las terminaciones del imperfecto con las del presente y el pretérito para no confundirlas."
+          "Always compare the imperfect endings with the present and preterite ones so you don't mix them up."
         ],
         "examples": [
           {
@@ -7411,7 +7424,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál oración está en imperfecto?",
+            "question": "Which sentence is in the imperfect?",
             "options": [
               "Comí a las dos.",
               "Como a las dos.",
@@ -7427,16 +7440,16 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Ella ___ (tener) quince años cuando se mudó.",
         "answer": "tenía",
-        "hint": "la edad en el pasado",
+        "hint": "age in the past",
         "explanation": "Age in the past → imperfect: tenía quince años."
       },
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Traduce la oración al inglés.",
+        "prompt": "Translate to English.",
         "source": "Siempre llovía en abril en esa ciudad.",
         "answer": "It always used to rain in April in that city.",
         "altAnswers": [
@@ -7449,20 +7462,20 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración.",
+        "prompt": "Put the words in order to make a sentence.",
         "words": [
           "Nosotros",
           "dormíamos",
           "cuando",
           "llegaron"
         ],
-        "explanation": "Imperfecto (dormíamos) para la acción en curso, interrumpida por el pretérito (llegaron); también se puede decir estábamos durmiendo.",
+        "explanation": "Dormíamos (imperfect) is the action in progress, interrupted by llegaron (preterite); estábamos durmiendo also works.",
         "translation": "We were sleeping when they arrived.",
         "altOrders": [["Cuando", "llegaron", "nosotros", "dormíamos"]]
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es correcta para 'querer', tú, imperfecto?",
+        "question": "Which is the correct imperfect form of 'querer' for tú?",
         "options": [
           "querías",
           "quisiste",
@@ -7474,16 +7487,16 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "El restaurante ___ (estar) lleno de gente.",
         "answer": "estaba",
-        "hint": "descripción en el pasado",
+        "hint": "description in the past",
         "explanation": "Describing how a place was in the past → imperfect: estaba lleno."
       },
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce la oración al español.",
+        "prompt": "Translate to Spanish.",
         "source": "We used to visit our grandparents every Sunday.",
         "answer": "Visitábamos a nuestros abuelos cada domingo.",
         "altAnswers": [
@@ -7501,14 +7514,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "preterite-vs-imperfect-drill-1",
     "level": "A2",
     "number": 38,
-    "title": "Pretérito vs. Imperfecto: Práctica Extra, Part 1 of 3",
-    "summary": "Práctica adicional para reforzar la elección entre el pretérito y el imperfecto en contextos narrativos y descriptivos variados.",
+    "title": "Preterite vs. Imperfect: Extra Practice, Part 1 of 3",
+    "summary": "Practice the preterite for completed events and the imperfect for background, including an action in progress interrupted by another.",
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Acción completada vs. estado de fondo",
+        "heading": "Completed action vs. background",
         "body": [
-          "El pretérito narra el evento puntual que ocurrió una vez; el imperfecto describe la situación que servía de fondo."
+          "The preterite tells a one-off event that happened; the imperfect describes the situation in the background."
         ],
         "examples": [
           {
@@ -7523,7 +7536,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué opción describe correctamente una acción completada en el pasado?",
+            "question": "Which option describes a completed action in the past?",
             "options": [
               "Llovía toda la tarde.",
               "Llegamos a las ocho.",
@@ -7536,9 +7549,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "La acción interrumpida",
+        "heading": "The interrupted action",
         "body": [
-          "Usa el imperfecto para la acción en curso y el pretérito para la acción que la interrumpe."
+          "Use the imperfect for the action in progress and the preterite for the action that interrupts it."
         ],
         "examples": [
           {
@@ -7553,15 +7566,15 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Yo ___ (leer) el periódico cuando alguien tocó la puerta.",
             "answer": "leía",
-            "hint": "acción en curso, interrumpida",
-            "explanation": "La acción en curso va en imperfecto (leía); la que interrumpe va en pretérito (tocó)."
+            "hint": "action in progress, interrupted",
+            "explanation": "The action in progress takes the imperfect (leía); the one that interrupts it takes the preterite (tocó)."
           },
           {
             "type": "multiple-choice",
-            "question": "¿Qué oración usa correctamente el pretérito para interrumpir una acción en curso?",
+            "question": "Which sentence correctly uses the preterite to interrupt an action in progress?",
             "options": [
               "Veía la tele cuando llamaste.",
               "Veía la tele cuando llamabas.",
@@ -7577,7 +7590,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "Elige la oración que describe una acción completada en un momento específico del pasado.",
+        "question": "Choose the sentence that describes an action completed at a specific moment in the past.",
         "options": [
           "Hacía calor todo el día.",
           "Compré un regalo para mi hermana.",
@@ -7589,41 +7602,41 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Nosotros ___ (cenar) cuando se fue la luz.",
         "answer": "cenábamos",
-        "hint": "acción en curso",
-        "explanation": "La acción interrumpida (cenar) va en imperfecto: cenábamos."
+        "hint": "action in progress",
+        "explanation": "The interrupted action (cenar) takes the imperfect: cenábamos."
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Yo hablaba por teléfono cuando de repente ___ (cortarse) la línea.",
         "answer": "se cortó",
-        "hint": "acción que interrumpe",
-        "explanation": "La acción que interrumpe (cortarse) va en pretérito: se cortó."
+        "hint": "the interrupting action",
+        "explanation": "The interrupting action (cortarse) takes the preterite: se cortó."
       },
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Traduce la oración al inglés.",
+        "prompt": "Translate to English.",
         "source": "Cuando era joven, jugaba al fútbol todos los sábados.",
         "answer": "When I was young, I used to play soccer every Saturday.",
         "altAnswers": ["When I was young, I played soccer every Saturday.", "When I was young, I used to play football every Saturday.", "When I was young, I played football every Saturday.", "When I was young, I would play soccer every Saturday.", "When I was young, I would play football every Saturday."],
-        "explanation": "El imperfecto «jugaba» expresa un hábito repetido en el pasado, traducido con «used to» o «would»."
+        "explanation": "The imperfect jugaba expresses a repeated past habit, which English gives with 'used to' or 'would'."
       },
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce la oración al español.",
+        "prompt": "Translate to Spanish.",
         "source": "Last night we watched a movie and then went to sleep.",
         "answer": "Anoche vimos una película y luego nos dormimos.",
         "altAnswers": ["Anoche vimos una película y después nos dormimos.", "Anoche vimos una película y luego nos fuimos a dormir.", "Anoche vimos una película y después nos fuimos a dormir."],
-        "explanation": "Las dos acciones son puntuales y ocurrieron una vez, así que ambas van en pretérito."
+        "explanation": "Both actions happened once and are complete, so both take the preterite: vimos, nos dormimos."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué oración describe correctamente el clima como telón de fondo?",
+        "question": "Which sentence correctly describes the weather as background?",
         "options": [
           "Hizo sol por cinco minutos.",
           "Hacía sol y mucho calor.",
@@ -7639,14 +7652,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "preterite-vs-imperfect-drill-2",
     "level": "A2",
     "number": 39,
-    "title": "Pretérito vs. Imperfecto: Práctica Extra, Part 2 of 3",
-    "summary": "Práctica adicional para reforzar la elección entre el pretérito y el imperfecto en contextos narrativos y descriptivos variados.",
+    "title": "Preterite vs. Imperfect: Extra Practice, Part 2 of 3",
+    "summary": "Practice the imperfect for habits, descriptions, age and clock time, and the preterite for one-off events and sequences.",
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Acciones habituales vs. acciones puntuales",
+        "heading": "Habitual actions vs. one-off actions",
         "body": [
-          "El imperfecto expresa lo que pasaba con frecuencia; el pretérito expresa lo que pasó una sola vez."
+          "The imperfect expresses what used to happen often; the preterite expresses what happened just once."
         ],
         "examples": [
           {
@@ -7661,7 +7674,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál oración expresa un hábito del pasado?",
+            "question": "Which sentence expresses a past habit?",
             "options": [
               "Comíamos pizza los viernes.",
               "Comimos pizza el viernes pasado.",
@@ -7674,9 +7687,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Descripciones en el pasado: personas, lugares y clima",
+        "heading": "Descriptions in the past: people, places and weather",
         "body": [
-          "Para describir cómo eran las personas, los lugares o el clima en el pasado, se usa el imperfecto."
+          "To describe what people, places or the weather were like in the past, use the imperfect."
         ],
         "examples": [
           {
@@ -7691,17 +7704,17 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "El pueblo ___ (ser) pequeño y tranquilo.",
             "answer": "era",
-            "explanation": "Las descripciones de lugares en el pasado usan el imperfecto: era, no fue."
+            "explanation": "Descriptions of places in the past use the imperfect: era, not fue."
           }
         ]
       },
       {
-        "heading": "La edad y la hora en el pasado",
+        "heading": "Age and clock time in the past",
         "body": [
-          "La edad y la hora en el pasado casi siempre se expresan con el imperfecto."
+          "Age and clock time in the past are almost always expressed with the imperfect."
         ],
         "examples": [
           {
@@ -7716,7 +7729,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cómo se dice correctamente la hora en el pasado?",
+            "question": "Which is the correct way to give the time in the past?",
             "options": [
               "Fueron las tres.",
               "Eran las tres.",
@@ -7732,14 +7745,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Mi abuelo ___ (ser) alto y siempre llevaba sombrero.",
         "answer": "era",
-        "explanation": "Las características físicas de una persona en el pasado se describen con el imperfecto."
+        "explanation": "What a person looked like in the past is described with the imperfect: era alto."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es la forma correcta para decir la edad en el pasado?",
+        "question": "Which is the correct way to give someone's age in the past?",
         "options": [
           "Tuve quince años.",
           "Tenía quince años.",
@@ -7751,14 +7764,14 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "___ (Ser) las siete de la mañana cuando salimos de casa.",
         "answer": "Eran",
-        "explanation": "La hora en el pasado se expresa con el imperfecto: eran las siete."
+        "explanation": "Clock time in the past takes the imperfect: eran las siete."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración.",
+        "prompt": "Put the words in order to make a sentence.",
         "words": [
           "Entramos",
           "al",
@@ -7769,12 +7782,12 @@ const A2_BASE_LESSONS: Lesson[] = [
           "nos",
           "sentamos."
         ],
-        "explanation": "Cada acción puntual de la secuencia va en pretérito porque hace avanzar la historia.",
+        "explanation": "Each one-off action in the sequence takes the preterite because it moves the story forward: entramos, compramos, nos sentamos.",
         "translation": "We went into the cinema, bought popcorn and sat down."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración.",
+        "prompt": "Put the words in order to make a sentence.",
         "words": [
           "Después",
           "del",
@@ -7791,17 +7804,17 @@ const A2_BASE_LESSONS: Lesson[] = [
           "su",
           "madre."
         ],
-        "explanation": "Las acciones que se suceden una tras otra en una narración van en pretérito.",
+        "explanation": "Actions that happen one after another in a story take the preterite: volvió, preparó, llamó.",
         "translation": "After work, he went home, made dinner and called his mother."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué significa «supe» en la oración «Supe la noticia esta mañana»?",
+        "question": "What does «supe» mean in «Supe la noticia esta mañana»?",
         "options": [
-          "La sabía desde hace tiempo.",
-          "Me enteré de la noticia en ese momento.",
-          "Sabía la noticia pero la olvidé.",
-          "Iba a saber la noticia pronto."
+          "I had known it for a while.",
+          "I found out the news at that moment.",
+          "I knew the news but forgot it.",
+          "I was going to find out the news soon."
         ],
         "correctIndex": 1,
         "explanation": "In the preterite, saber means found out: supe = me enteré, the moment you learned it. \"La sabía\" (imperfect) would mean you already knew, and the other options describe forgetting or the future."
@@ -7812,14 +7825,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "preterite-vs-imperfect-drill-3",
     "level": "A2",
     "number": 40,
-    "title": "Pretérito vs. Imperfecto: Práctica Extra, Part 3 of 3",
-    "summary": "Práctica adicional para reforzar la elección entre el pretérito y el imperfecto en contextos narrativos y descriptivos variados.",
+    "title": "Preterite vs. Imperfect: Extra Practice, Part 3 of 3",
+    "summary": "Practice preterite sequences that move a story forward, and verbs that change meaning: supe/sabía, conocí/conocía, quería, pude.",
     "duration": "9 min",
     "sections": [
       {
-        "heading": "Secuencias de acciones que avanzan la historia",
+        "heading": "Sequences of actions that move the story forward",
         "body": [
-          "El pretérito encadena los sucesos que empujan la historia hacia adelante, uno después de otro."
+          "The preterite links the events that push the story forward, one after another."
         ],
         "examples": [
           {
@@ -7834,7 +7847,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "word-order",
-            "prompt": "Ordena las palabras para formar una oración.",
+            "prompt": "Put the words in order to make a sentence.",
             "words": [
               "Ella",
               "cerró",
@@ -7846,15 +7859,15 @@ const A2_BASE_LESSONS: Lesson[] = [
               "la",
               "estación."
             ],
-            "explanation": "Las acciones puntuales que forman la secuencia van en pretérito: cerró, caminó.",
+            "explanation": "The one-off actions that make up the sequence take the preterite: cerró, caminó.",
             "translation": "She closed the door and walked toward the station."
           }
         ]
       },
       {
-        "heading": "Verbos que cambian de significado: saber, conocer, querer, poder",
+        "heading": "Verbs that change meaning: saber, conocer, querer, poder",
         "body": [
-          "Estos verbos cambian de sentido según el tiempo: el pretérito marca un cambio o un resultado, y el imperfecto describe un estado mental."
+          "These verbs change meaning with the tense: the preterite marks a change or a result (supe = found out, conocí = met, pude = managed to), and the imperfect describes an ongoing state (sabía = knew, conocía = knew, podía = was able to)."
         ],
         "examples": [
           {
@@ -7869,29 +7882,29 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué significa «conocí» en esta oración: «Conocí a Marta en la fiesta»?",
+            "question": "What does «conocí» mean in this sentence: «Conocí a Marta en la fiesta»?",
             "options": [
-              "La conocía desde hacía años.",
-              "La vi por primera vez.",
-              "Sabía todo sobre ella.",
-              "Quería conocerla pero no pude."
+              "I had known her for years.",
+              "I met her for the first time.",
+              "I knew everything about her.",
+              "I wanted to meet her but couldn't."
             ],
             "correctIndex": 1,
             "explanation": "In the preterite, conocer means met for the first time: conocí a Marta. \"La conocía\" (imperfect) means you already knew her, and knowing all about her or wanting to meet her aren't what conocí says."
           },
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Ana no ___ (querer) ir a la fiesta, pero al final fue.",
             "answer": "quería",
-            "explanation": "«No quería» en imperfecto describe el estado de ánimo antes del resultado."
+            "explanation": "No quería (imperfect) describes how Ana felt beforehand; al final fue (preterite) is what actually happened."
           }
         ]
       },
       {
-        "heading": "Práctica mixta: narrar historias cortas",
+        "heading": "Mixed practice: telling short stories",
         "body": [
-          "En una narración típica, el imperfecto pinta el fondo de la escena y el pretérito cuenta lo que pasó."
+          "In a typical story, the imperfect paints the background of the scene and the preterite tells what happened."
         ],
         "examples": [
           {
@@ -7906,7 +7919,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multi-select",
-            "question": "En «Era una noche fría. Yo caminaba solo cuando vi una luz extraña», ¿qué verbos están en imperfecto? (Elige todas las correctas)",
+            "question": "In «Era una noche fría. Yo caminaba solo cuando vi una luz extraña», which verbs are in the imperfect? (Choose all that apply)",
             "options": [
               "Era",
               "caminaba",
@@ -7917,7 +7930,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               0,
               1
             ],
-            "explanation": "«Era» y «caminaba» describen el fondo de la escena; «vi» es la acción puntual en pretérito."
+            "explanation": "Era and caminaba describe the background of the scene; vi is the one-off action, in the preterite. Asusté (preterite) isn't in the sentence."
           }
         ]
       }
@@ -7925,15 +7938,15 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Yo no ___ (conocer) a nadie en la fiesta al principio, pero luego hice amigos.",
         "answer": "conocía",
-        "explanation": "«Conocía» en imperfecto describe un estado: no tener relación previa con nadie."
+        "explanation": "Conocía (imperfect) describes a state: at first you didn't know anyone there. Hice amigos (preterite) is what happened next."
       },
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Traduce la oración al inglés.",
+        "prompt": "Translate to English.",
         "source": "Pude terminar el examen a tiempo.",
         "answer": "I managed to finish the exam on time.",
         "altAnswers": [
@@ -7941,19 +7954,19 @@ const A2_BASE_LESSONS: Lesson[] = [
           "I managed to finish the exam in time.",
           "I was able to finish the exam in time."
         ],
-        "explanation": "«Pude» en pretérito indica que la acción se logró: «managed to», no solo «era capaz de»."
+        "explanation": "Pude, in the preterite, means the action was actually achieved: 'managed to', not just 'was capable of'."
       },
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce la oración al español.",
+        "prompt": "Translate to Spanish.",
         "source": "I didn't want to go, but I went anyway.",
         "answer": "No quería ir, pero fui de todos modos.",
-        "explanation": "«No quería» (imperfecto) describe el deseo; «fui» (pretérito) es la acción que sí ocurrió."
+        "explanation": "No quería (imperfect) describes the wish; fui (preterite) is the action that actually happened."
       },
       {
         "type": "matching",
-        "instructions": "Relaciona cada elemento con su pareja correcta.",
+        "instructions": "Match each Spanish item to its English meaning.",
         "pairs": [
           {
             "left": "Sabía la respuesta.",
@@ -7972,11 +7985,11 @@ const A2_BASE_LESSONS: Lesson[] = [
             "right": "I visited the restaurant for the first time."
           }
         ],
-        "explanation": "El significado de estos verbos cambia según el tiempo: el imperfecto describe un estado y el pretérito marca el momento en que algo cambió."
+        "explanation": "These verbs change meaning with the tense: the imperfect describes a state, and the preterite marks the moment something changed."
       },
       {
         "type": "multiple-choice",
-        "question": "Completa la historia con el tiempo correcto: «Cuando ___ (llegar) al aeropuerto, ___ (llover) mucho.»",
+        "question": "Complete the story with the correct tenses: «Cuando ___ (llegar) al aeropuerto, ___ (llover) mucho.»",
         "options": [
           "llegué / llovía",
           "llegaba / llovió",
@@ -7992,14 +8005,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "object-pronouns-drill-1",
     "level": "A2",
     "number": 41,
-    "title": "Pronombres de Objeto Directo e Indirecto: Práctica Extra, Part 1 of 3",
-    "summary": "Práctica extra para reforzar el uso y la colocación de los pronombres de objeto directo e indirecto ya estudiados.",
+    "title": "Direct and Indirect Object Pronouns: Extra Practice, Part 1 of 3",
+    "summary": "Extra practice choosing and placing direct and indirect object pronouns (lo, la, le, les, se lo) before, after and attached to verbs.",
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Pronombres de objeto directo: lo, la, los, las",
+        "heading": "Direct object pronouns: lo, la, los, las",
         "body": [
-          "Los pronombres de objeto directo reemplazan el sustantivo que recibe la acción del verbo directamente, y deben concordar en género y número con él."
+          "Direct object pronouns replace the noun that directly receives the action of the verb, and they agree with it in gender and number."
         ],
         "examples": [
           {
@@ -8014,18 +8027,18 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "¿El pastel? Mi madre ___ preparó para la fiesta.",
             "answer": "lo",
-            "hint": "el pastel → masculino singular",
-            "explanation": "El pastel es masculino singular, así que se reemplaza con \"lo\"."
+            "hint": "el pastel → masculine singular",
+            "explanation": "El pastel is masculine singular, so it is replaced by lo."
           }
         ]
       },
       {
-        "heading": "Pronombres de objeto indirecto: le, les",
+        "heading": "Indirect object pronouns: le, les",
         "body": [
-          "Los pronombres de objeto indirecto indican a quién o para quién se hace la acción, y se usan mucho con verbos como dar, decir y escribir."
+          "Indirect object pronouns say to whom or for whom the action is done, and they are very common with verbs like dar, decir and escribir."
         ],
         "examples": [
           {
@@ -8040,7 +8053,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué pronombre completa la oración? \"Mi abuela ___ cuenta historias a los niños.\"",
+            "question": "Which pronoun completes the sentence? \"Mi abuela ___ cuenta historias a los niños.\"",
             "options": [
               "lo",
               "la",
@@ -8048,14 +8061,14 @@ const A2_BASE_LESSONS: Lesson[] = [
               "los"
             ],
             "correctIndex": 2,
-            "explanation": "\"A los niños\" es un objeto indirecto plural, así que se usa \"les\"."
+            "explanation": "A los niños is a plural indirect object, so the pronoun is les. Lo, la and los are direct object pronouns."
           }
         ]
       },
       {
-        "heading": "Colocación antes del verbo conjugado",
+        "heading": "Placement before the conjugated verb",
         "body": [
-          "Con un verbo conjugado, el pronombre de objeto va normalmente justo antes del verbo."
+          "With a conjugated verb, the object pronoun normally goes right before the verb."
         ],
         "examples": [
           {
@@ -8070,14 +8083,14 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "word-order",
-            "prompt": "Ordena las palabras para formar una oración.",
+            "prompt": "Put the words in order to make a sentence.",
             "words": [
               "No",
               "la",
               "conozco",
               "todavía"
             ],
-            "explanation": "El pronombre de objeto directo \"la\" va justo antes del verbo conjugado \"conozco\".",
+            "explanation": "The direct object pronoun la goes right before the conjugated verb conozco.",
             "translation": "I don't know her yet."
           }
         ]
@@ -8086,7 +8099,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Qué pronombre reemplaza \"las cartas\" en \"Escribo las cartas\"?",
+        "question": "Which pronoun replaces \"las cartas\" in \"Escribo las cartas\"?",
         "options": [
           "lo",
           "la",
@@ -8098,7 +8111,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "Completa: \"¿El pastel? Mi tía ___ hizo.\"",
+        "question": "Complete: \"¿El pastel? Mi tía ___ hizo.\"",
         "options": [
           "lo",
           "la",
@@ -8106,40 +8119,40 @@ const A2_BASE_LESSONS: Lesson[] = [
           "les"
         ],
         "correctIndex": 0,
-        "explanation": "\"El pastel\" es masculino singular, así que el pronombre correcto es \"lo\"."
+        "explanation": "El pastel is masculine singular, so the pronoun is lo. La is feminine, and le and les are indirect object pronouns."
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Compro flores para mi novia. → ___ compro para mi novia.",
         "answer": "Las",
-        "hint": "flores = femenino plural",
-        "explanation": "\"Flores\" es femenino plural, así que se reemplaza con \"las\"."
+        "hint": "flores = feminine plural",
+        "explanation": "Flores is feminine plural, so it is replaced by las."
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Mi jefe ___ manda un correo a los clientes todos los lunes.",
         "answer": "les",
-        "hint": "a los clientes = objeto indirecto plural",
-        "explanation": "\"A los clientes\" es un objeto indirecto plural, así que se usa \"les\"."
+        "hint": "a los clientes = plural indirect object",
+        "explanation": "A los clientes is a plural indirect object, so the pronoun is les."
       },
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Traduce la oración al inglés.",
+        "prompt": "Translate to English.",
         "source": "Se lo doy a mi hermano.",
         "answer": "I give it to my brother.",
-        "explanation": "\"Le\" cambia a \"se\" antes de \"lo\": se lo doy."
+        "explanation": "Le changes to se before lo: se lo doy."
       },
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce la oración al español.",
+        "prompt": "Translate to Spanish.",
         "source": "I write to her every week.",
         "answer": "Le escribo a ella cada semana.",
         "altAnswers": ["Le escribo cada semana.", "Le escribo todas las semanas.", "Le escribo a ella todas las semanas."],
-        "explanation": "El objeto indirecto \"le\" se aclara con \"a ella\"."
+        "explanation": "The indirect object pronoun le can be clarified with a ella."
       }
     ]
   },
@@ -8147,14 +8160,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "object-pronouns-drill-2",
     "level": "A2",
     "number": 42,
-    "title": "Pronombres de Objeto Directo e Indirecto: Práctica Extra, Part 2 of 3",
-    "summary": "Práctica extra para reforzar el uso y la colocación de los pronombres de objeto directo e indirecto ya estudiados.",
+    "title": "Direct and Indirect Object Pronouns: Extra Practice, Part 2 of 3",
+    "summary": "Extra practice choosing and placing direct and indirect object pronouns (lo, la, le, les, se lo) before, after and attached to verbs.",
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Colocación con infinitivos y gerundios",
+        "heading": "Placement with infinitives and gerunds",
         "body": [
-          "Con un infinitivo o un gerundio, el pronombre puede ir antes del verbo conjugado o pegado al final del infinitivo o gerundio."
+          "With an infinitive or a gerund, the pronoun can go before the conjugated verb or be attached to the end of the infinitive or gerund."
         ],
         "examples": [
           {
@@ -8169,7 +8182,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuáles son formas correctas para \"Quiero comprar el regalo\"?",
+            "question": "Which option gives correct ways to say \"Quiero comprar el regalo\" with a pronoun?",
             "options": [
               "Quiero comprarlo. / Lo quiero comprar.",
               "Quiero lo comprar.",
@@ -8177,22 +8190,22 @@ const A2_BASE_LESSONS: Lesson[] = [
               "Quiero comprar lo."
             ],
             "correctIndex": 0,
-            "explanation": "Con un infinitivo, el pronombre puede ir antes del verbo conjugado o pegado al final: \"Lo quiero comprar\" o \"Quiero comprarlo\"."
+            "explanation": "With an infinitive, the pronoun can go before the conjugated verb or attach to the end: Lo quiero comprar or Quiero comprarlo. It can never stand between the two verbs or after the infinitive as a separate word."
           },
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Ana está terminando la tarea. → Ana está terminándo___.",
             "answer": "la",
-            "hint": "objeto directo: la tarea (femenino)",
-            "explanation": "Al pegar el pronombre al gerundio, el verbo necesita un acento escrito: terminándola."
+            "hint": "direct object: la tarea (feminine)",
+            "explanation": "When the pronoun attaches to the gerund, the verb needs a written accent: terminándola."
           }
         ]
       },
       {
-        "heading": "Colocación con mandatos afirmativos",
+        "heading": "Placement with affirmative commands",
         "body": [
-          "En los mandatos afirmativos, el pronombre siempre se pega al final del verbo y suele añadir un acento escrito."
+          "In affirmative commands, the pronoun always attaches to the end of the verb, which usually then needs a written accent."
         ],
         "examples": [
           {
@@ -8208,10 +8221,10 @@ const A2_BASE_LESSONS: Lesson[] = [
           {
             "type": "translate",
             "direction": "en-es",
-            "prompt": "Traduce la oración al español.",
+            "prompt": "Translate to Spanish.",
             "source": "Call her! (a tu hermana)",
             "answer": "¡Llámala!",
-            "explanation": "En los mandatos afirmativos, el pronombre se pega al final y el verbo lleva acento escrito: llámala."
+            "explanation": "In affirmative commands, the pronoun attaches to the end and the verb takes a written accent: llámala."
           }
         ]
       }
@@ -8220,14 +8233,14 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce la oración al español.",
+        "prompt": "Translate to Spanish.",
         "source": "Call me tonight!",
         "answer": "¡Llámame esta noche!",
-        "explanation": "En los mandatos afirmativos, el pronombre se pega al final del verbo: llámame."
+        "explanation": "In affirmative commands, the pronoun attaches to the end of the verb: llámame."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración.",
+        "prompt": "Put the words in order to make a sentence.",
         "words": [
           "Se",
           "la",
@@ -8236,24 +8249,24 @@ const A2_BASE_LESSONS: Lesson[] = [
           "mi",
           "abuela"
         ],
-        "explanation": "\"Le\" cambia a \"se\" antes de \"la\", y el indirecto va antes del directo: se la explico.",
+        "explanation": "Le changes to se before la, and the indirect pronoun comes before the direct one: se la explico.",
         "translation": "I explain it to my grandmother."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración.",
+        "prompt": "Put the words in order to make a sentence.",
         "words": [
           "Voy",
           "a",
           "dártelo",
           "mañana"
         ],
-        "explanation": "Con un infinitivo, los dos pronombres pueden pegarse al final: dártelo.",
+        "explanation": "With an infinitive, both pronouns can attach to the end: dártelo.",
         "translation": "I'm going to give it to you tomorrow."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es la traducción correcta de \"I'm sending it to them\" (el paquete)?",
+        "question": "Which is the correct translation of \"I'm sending it to them\" (el paquete)?",
         "options": [
           "Se lo mando.",
           "Le lo mando.",
@@ -8265,7 +8278,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multi-select",
-        "question": "¿Cuáles oraciones usan correctamente los pronombres de objeto?",
+        "question": "Which sentences use the object pronouns correctly?",
         "options": [
           "Se lo doy.",
           "Le lo doy.",
@@ -8280,7 +8293,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "matching",
-        "instructions": "Relaciona cada elemento con su pareja correcta.",
+        "instructions": "Match each item with its pair.",
         "pairs": [
           {
             "left": "Lo veo todos los días.",
@@ -8295,7 +8308,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "right": "I give them to them tomorrow."
           }
         ],
-        "explanation": "Cada oración combina un tipo distinto de pronombre de objeto según el contexto."
+        "explanation": "Lo is a direct object (him/it), le an indirect object (to him/her), and se los combines both: se (to them) + los (them)."
       }
     ]
   },
@@ -8303,14 +8316,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "object-pronouns-drill-3",
     "level": "A2",
     "number": 43,
-    "title": "Pronombres de Objeto Directo e Indirecto: Práctica Extra, Part 3 of 3",
-    "summary": "Práctica extra para reforzar el uso y la colocación de los pronombres de objeto directo e indirecto ya estudiados.",
+    "title": "Direct and Indirect Object Pronouns: Extra Practice, Part 3 of 3",
+    "summary": "Extra practice choosing and placing direct and indirect object pronouns (lo, la, le, les, se lo) before, after and attached to verbs.",
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Dos pronombres juntos: indirecto + directo",
+        "heading": "Two pronouns together: indirect + direct",
         "body": [
-          "Cuando un verbo lleva pronombre de objeto indirecto y directo a la vez, el indirecto va primero y el directo después."
+          "When a verb has both an indirect and a direct object pronoun, the indirect one comes first and the direct one second."
         ],
         "examples": [
           {
@@ -8325,18 +8338,18 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
-            "sentence": "¿Mis llaves? ___ presto ahora mismo.",
+            "prompt": "Complete the sentence with the correct form.",
+            "sentence": "¿Mis llaves? ___ presto ahora mismo. (to you)",
             "answer": "Te las",
-            "hint": "objeto indirecto (te) + objeto directo (las llaves)",
-            "explanation": "El pronombre indirecto va antes del directo: te las presto."
+            "hint": "indirect object (te) + direct object (las llaves)",
+            "explanation": "The indirect pronoun goes before the direct one: te (to you) + las (the keys) → te las presto."
           }
         ]
       },
       {
-        "heading": "El cambio de le/les a se",
+        "heading": "Le/les change to se",
         "body": [
-          "Cuando le o les se combina con lo, la, los o las, el pronombre indirecto cambia a se para evitar dos sonidos de \"l\" seguidos."
+          "When le or les combines with lo, la, los or las, the indirect pronoun changes to se, so two l-pronouns never stand together."
         ],
         "examples": [
           {
@@ -8351,7 +8364,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Transforma: \"Le doy el consejo a mi amigo.\" ¿Cuál es la forma correcta con los dos pronombres?",
+            "question": "Rewrite \"Le doy el consejo a mi amigo\" with two pronouns. Which is correct?",
             "options": [
               "Le lo doy.",
               "Se lo doy.",
@@ -8364,9 +8377,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Aclarar el objeto indirecto con \"a + persona\"",
+        "heading": "Clarifying the indirect object with \"a + person\"",
         "body": [
-          "Como le y les pueden referirse a varias personas, a menudo se aclara el objeto indirecto con \"a él\", \"a ella\", \"a usted\" o el nombre de la persona."
+          "Because le and les can refer to different people, the indirect object is often clarified with a él, a ella, a usted or by naming the person."
         ],
         "examples": [
           {
@@ -8381,7 +8394,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "matching",
-            "instructions": "Relaciona cada elemento con su pareja correcta.",
+            "instructions": "Match each item with its pair.",
             "pairs": [
               {
                 "left": "Le escribo a él, no a ella.",
@@ -8396,7 +8409,7 @@ const A2_BASE_LESSONS: Lesson[] = [
                 "right": "I give flowers to my mom."
               }
             ],
-            "explanation": "La frase \"a + persona\" aclara o enfatiza a quién se refiere le o les."
+            "explanation": "The phrase a + person clarifies or emphasizes who le or les refers to."
           }
         ]
       }
@@ -8404,20 +8417,20 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "¡Ábre___ ahora! (la puerta)",
         "answer": "la",
-        "hint": "mandato afirmativo + objeto directo femenino",
-        "explanation": "En los mandatos afirmativos, el pronombre se pega al final del verbo: ábrela."
+        "hint": "affirmative command + feminine direct object",
+        "explanation": "In affirmative commands, the pronoun attaches to the end of the verb: ábrela."
       },
       {
         "type": "multiple-choice",
-        "question": "¿A quién se puede referir \"le\" en \"Le doy el libro\" sin más contexto?",
+        "question": "Without more context, who can \"le\" refer to in \"Le doy el libro\"?",
         "options": [
-          "Solo a él",
-          "Solo a ella",
-          "A él, a ella o a usted",
-          "Solo a ellos"
+          "Only him",
+          "Only her",
+          "Him, her or you (usted)",
+          "Only them"
         ],
         "correctIndex": 2,
         "explanation": "Le can mean to him, to her or to you (usted), so it's often clarified with a él, a ella or a usted. It isn't only él or ella, and \"ellos\" would need les."
@@ -8425,7 +8438,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Traduce la oración al inglés.",
+        "prompt": "Translate to English.",
         "source": "¿Le compraste el regalo a tu papá?",
         "answer": "Did you buy the gift for your dad?",
         "altAnswers": [
@@ -8435,19 +8448,19 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Did you buy the gift for your father?",
           "Did you buy your father the gift?"
         ],
-        "explanation": "\"A tu papá\" aclara a quién se refiere el pronombre indirecto \"le\"."
+        "explanation": "A tu papá clarifies who the indirect pronoun le refers to."
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Necesito hablar con Marta. Voy a llamar___ hoy.",
         "answer": "la",
-        "hint": "a Marta = objeto directo femenino",
-        "explanation": "Con un infinitivo, el pronombre puede pegarse al final: llamarla."
+        "hint": "a Marta = feminine direct object",
+        "explanation": "With an infinitive, the pronoun can attach to the end: llamarla."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración.",
+        "prompt": "Put the words in order to make a sentence.",
         "words": [
           "Se",
           "los",
@@ -8456,7 +8469,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "mis",
           "primos"
         ],
-        "explanation": "\"Les\" cambia a \"se\" ante \"los\", y el indirecto va antes del directo: se los regalé.",
+        "explanation": "Les changes to se before los, and the indirect pronoun comes before the direct one: se los regalé.",
         "translation": "I gave them to my cousins."
       }
     ]
@@ -8465,14 +8478,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "reflexive-verbs-drill-1",
     "level": "A2",
     "number": 44,
-    "title": "Verbos Reflexivos y Rutina Diaria: Práctica Extra, Part 1 of 3",
-    "summary": "Esta lección ofrece práctica adicional con los verbos reflexivos y el vocabulario de la rutina diaria ya estudiados.",
+    "title": "Reflexive Verbs and Daily Routine: Extra Practice, Part 1 of 3",
+    "summary": "Extra practice with reflexive pronouns, their placement with infinitives and gerunds, reflexive verbs in the preterite, and reciprocal nos/se.",
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Los pronombres reflexivos con verbos en -arse",
+        "heading": "Reflexive pronouns with -arse verbs",
         "body": [
-          "Recuerda que cada persona usa su propio pronombre reflexivo: me, te, se, nos, os, se."
+          "Remember that each person has its own reflexive pronoun: me, te, se, nos, os, se."
         ],
         "examples": [
           {
@@ -8491,15 +8504,15 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Ella ___ ducha antes de desayunar.",
             "answer": "se",
-            "hint": "pronombre reflexivo para 'ella'",
-            "explanation": "Con la tercera persona singular se usa el pronombre 'se'."
+            "hint": "reflexive pronoun for ella",
+            "explanation": "The third person singular (él, ella, usted) takes the reflexive pronoun se."
           },
           {
             "type": "multiple-choice",
-            "question": "¿Qué pronombre corresponde a 'nosotros'?",
+            "question": "Which reflexive pronoun goes with nosotros?",
             "options": [
               "me",
               "te",
@@ -8512,9 +8525,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "La posición del pronombre con verbos conjugados",
+        "heading": "Pronoun position with conjugated verbs",
         "body": [
-          "Recuerda que el pronombre reflexivo va justo antes del verbo conjugado."
+          "Remember that the reflexive pronoun goes right before the conjugated verb."
         ],
         "examples": [
           {
@@ -8529,7 +8542,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "word-order",
-            "prompt": "Ordena las palabras para formar una oración.",
+            "prompt": "Put the words in order to make a sentence.",
             "words": [
               "Nosotros",
               "nos",
@@ -8538,15 +8551,15 @@ const A2_BASE_LESSONS: Lesson[] = [
               "las",
               "seis"
             ],
-            "explanation": "El pronombre 'nos' precede al verbo conjugado 'despertamos'.",
+            "explanation": "The pronoun nos comes right before the conjugated verb despertamos.",
             "translation": "We wake up at six."
           }
         ]
       },
       {
-        "heading": "El pronombre con infinitivos y gerundios",
+        "heading": "The pronoun with infinitives and gerunds",
         "body": [
-          "Recuerda que con infinitivos y gerundios el pronombre puede ir antes del verbo conjugado o unido al final."
+          "Remember that with infinitives and gerunds, the pronoun can go before the conjugated verb or be attached to the end."
         ],
         "examples": [
           {
@@ -8565,7 +8578,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es correcta?",
+            "question": "Which is correct?",
             "options": [
               "Voy a me levantar temprano.",
               "Voy a levantarme temprano.",
@@ -8577,11 +8590,11 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Estoy vistiéndo___ para la fiesta.",
             "answer": "me",
-            "hint": "pronombre unido al gerundio",
-            "explanation": "Con el gerundio, el pronombre se puede unir al final: vistiéndome."
+            "hint": "pronoun attached to the gerund",
+            "explanation": "With a gerund, the pronoun can attach to the end: vistiéndome (the accent keeps the stress on -dien-)."
           }
         ]
       }
@@ -8589,23 +8602,23 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Yo ___ levanto a las siete todos los días.",
         "answer": "me",
-        "hint": "primera persona singular",
-        "explanation": "Con 'yo' se usa el pronombre reflexivo 'me'."
+        "hint": "first person singular",
+        "explanation": "Yo takes the reflexive pronoun me."
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "¿A qué hora ___ acuestas normalmente?",
         "answer": "te",
-        "hint": "segunda persona singular",
-        "explanation": "Con 'tú' se usa el pronombre reflexivo 'te'."
+        "hint": "second person singular",
+        "explanation": "Tú takes the reflexive pronoun te."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es el pronombre correcto para 'vosotros'?",
+        "question": "Which reflexive pronoun goes with vosotros?",
         "options": [
           "se",
           "os",
@@ -8617,7 +8630,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración.",
+        "prompt": "Put the words in order to make a sentence.",
         "words": [
           "Ella",
           "se",
@@ -8625,12 +8638,12 @@ const A2_BASE_LESSONS: Lesson[] = [
           "muy",
           "rápido"
         ],
-        "explanation": "El pronombre 'se' va justo antes del verbo conjugado 'viste'.",
+        "explanation": "The pronoun se goes right before the conjugated verb viste.",
         "translation": "She gets dressed very quickly."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración.",
+        "prompt": "Put the words in order to make a sentence.",
         "words": [
           "Quiero",
           "ducharme",
@@ -8638,13 +8651,13 @@ const A2_BASE_LESSONS: Lesson[] = [
           "de",
           "cenar"
         ],
-        "explanation": "El pronombre se une al final del infinitivo 'ducharme'.",
+        "explanation": "The pronoun attaches to the end of the infinitive: ducharme.",
         "translation": "I want to shower before dinner."
       },
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce la oración al español.",
+        "prompt": "Translate to Spanish.",
         "source": "We brush our teeth every morning.",
         "answer": "Nos cepillamos los dientes todas las mañanas.",
         "altAnswers": [
@@ -8654,7 +8667,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Todas las mañanas nos cepillamos los dientes.",
           "Todas las mañanas nos lavamos los dientes."
         ],
-        "explanation": "Cepillarse en presente: nosotros nos cepillamos."
+        "explanation": "Cepillarse in the present: nosotros nos cepillamos. Spanish uses los dientes, not our teeth, because nos already shows whose."
       }
     ]
   },
@@ -8662,14 +8675,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "reflexive-verbs-drill-2",
     "level": "A2",
     "number": 45,
-    "title": "Verbos Reflexivos y Rutina Diaria: Práctica Extra, Part 2 of 3",
-    "summary": "Esta lección ofrece práctica adicional con los verbos reflexivos y el vocabulario de la rutina diaria ya estudiados.",
+    "title": "Reflexive Verbs and Daily Routine: Extra Practice, Part 2 of 3",
+    "summary": "Extra practice with reflexive pronouns, their placement with infinitives and gerunds, reflexive verbs in the preterite, and reciprocal nos/se.",
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Verbos comunes de la rutina en presente",
+        "heading": "Common routine verbs in the present",
         "body": [
-          "Recuerda los verbos de la rutina diaria: despertarse, vestirse, acostarse y cepillarse los dientes."
+          "Remember the daily routine verbs: despertarse, vestirse, acostarse and cepillarse los dientes."
         ],
         "examples": [
           {
@@ -8689,7 +8702,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           {
             "type": "translate",
             "direction": "en-es",
-            "prompt": "Traduce la oración al español.",
+            "prompt": "Translate to Spanish.",
             "source": "He goes to bed at eleven at night.",
             "answer": "Él se acuesta a las once de la noche.",
             "altAnswers": [
@@ -8701,7 +8714,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "multi-select",
-            "question": "¿Cuáles son verbos reflexivos de la rutina diaria?",
+            "question": "Which are reflexive daily routine verbs?",
             "options": [
               "despertarse",
               "comer",
@@ -8718,9 +8731,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Los verbos reflexivos en pretérito",
+        "heading": "Reflexive verbs in the preterite",
         "body": [
-          "Recuerda que en pretérito el pronombre reflexivo se mantiene delante del verbo conjugado."
+          "Remember that in the preterite the reflexive pronoun still goes before the conjugated verb."
         ],
         "examples": [
           {
@@ -8739,19 +8752,19 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Anoche ellos ___ acostaron a medianoche.",
             "answer": "se",
-            "hint": "pronombre reflexivo para 'ellos'",
-            "explanation": "El pronombre 'se' se usa con la tercera persona plural."
+            "hint": "reflexive pronoun for ellos",
+            "explanation": "The third person plural (ellos, ellas, ustedes) takes se."
           },
           {
             "type": "translate",
             "direction": "es-en",
-            "prompt": "Traduce la oración al inglés.",
+            "prompt": "Translate to English.",
             "source": "Me desperté tarde esta mañana.",
             "answer": "I woke up late this morning.",
-            "explanation": "Despertarse en pretérito: yo me desperté."
+            "explanation": "Despertarse in the preterite: yo me desperté."
           }
         ]
       }
@@ -8760,7 +8773,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Traduce la oración al inglés.",
+        "prompt": "Translate to English.",
         "source": "Los niños se acuestan a las nueve.",
         "answer": "The children go to bed at nine.",
         "explanation": "Acostarse (o → ue) means to go to bed: los niños se acuestan."
@@ -8768,7 +8781,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce la oración al español.",
+        "prompt": "Translate to Spanish.",
         "source": "She got up very early yesterday.",
         "answer": "Ella se levantó muy temprano ayer.",
         "altAnswers": [
@@ -8777,19 +8790,19 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Ayer ella se levantó muy temprano.",
           "Ella ayer se levantó muy temprano."
         ],
-        "explanation": "Levantarse en pretérito: ella se levantó."
+        "explanation": "Levantarse in the preterite: ella se levantó."
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Nosotros ___ despertamos con el ruido del despertador.",
         "answer": "nos",
-        "hint": "primera persona plural",
-        "explanation": "Con 'nosotros' se usa el pronombre reflexivo 'nos'."
+        "hint": "first person plural",
+        "explanation": "Nosotros takes the reflexive pronoun nos."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál oración usa correctamente el pronombre con el gerundio?",
+        "question": "Which sentence correctly says \"She is taking a shower\" (ella, ducharse)?",
         "options": [
           "Está me duchando.",
           "Está duchándome.",
@@ -8797,11 +8810,11 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Se está duchándo."
         ],
         "correctIndex": 2,
-        "explanation": "For él/ella the pronoun is se, and it attaches to the gerund, which then needs an accent: duchándose. \"Está me duchando\" puts it in the middle, \"duchándome\" is yo, and \"Se está duchándo\" adds an accent that's only needed when the pronoun is attached."
+        "explanation": "For ella the reflexive pronoun is se, and it attaches to the gerund, which then needs an accent: duchándose. \"Está me duchando\" puts the pronoun between the verbs, \"Está duchándome\" would mean she is showering me, and \"Se está duchándo\" adds an accent that's only needed when the pronoun is attached."
       },
       {
         "type": "multi-select",
-        "question": "¿Cuáles oraciones están en pretérito?",
+        "question": "Which sentences are in the preterite?",
         "options": [
           "Me levanto temprano.",
           "Me levanté temprano.",
@@ -8816,7 +8829,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "matching",
-        "instructions": "Relaciona cada elemento con su pareja correcta.",
+        "instructions": "Match each item with its pair.",
         "pairs": [
           {
             "left": "despertarse",
@@ -8835,7 +8848,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "right": "to brush one's teeth"
           }
         ],
-        "explanation": "Estos son los verbos reflexivos más comunes de la rutina diaria."
+        "explanation": "These are the most common reflexive verbs for a daily routine."
       }
     ]
   },
@@ -8843,14 +8856,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "reflexive-verbs-drill-3",
     "level": "A2",
     "number": 46,
-    "title": "Verbos Reflexivos y Rutina Diaria: Práctica Extra, Part 3 of 3",
-    "summary": "Esta lección ofrece práctica adicional con los verbos reflexivos y el vocabulario de la rutina diaria ya estudiados.",
+    "title": "Reflexive Verbs and Daily Routine: Extra Practice, Part 3 of 3",
+    "summary": "Extra practice with reflexive pronouns, their placement with infinitives and gerunds, reflexive verbs in the preterite, and reciprocal nos/se.",
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Verbos que cambian de significado con el pronombre reflexivo",
+        "heading": "Verbs that change meaning with the reflexive pronoun",
         "body": [
-          "Recuerda que algunos verbos cambian de significado según lleven o no el pronombre reflexivo."
+          "Remember that some verbs change meaning depending on whether they take the reflexive pronoun."
         ],
         "examples": [
           {
@@ -8873,7 +8886,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "matching",
-            "instructions": "Relaciona cada elemento con su pareja correcta.",
+            "instructions": "Match each item with its pair.",
             "pairs": [
               {
                 "left": "ir",
@@ -8892,11 +8905,11 @@ const A2_BASE_LESSONS: Lesson[] = [
                 "right": "to fall asleep"
               }
             ],
-            "explanation": "El pronombre reflexivo cambia el significado del verbo base."
+            "explanation": "The reflexive pronoun changes the meaning of the base verb: ir = to go, irse = to leave; dormir = to sleep, dormirse = to fall asleep."
           },
           {
             "type": "multiple-choice",
-            "question": "¿Qué significa 'ponerse' en 'Me pongo el abrigo'?",
+            "question": "What does ponerse mean in 'Me pongo el abrigo'?",
             "options": [
               "to put something somewhere",
               "to put on (clothing)",
@@ -8909,9 +8922,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "El uso recíproco de los pronombres reflexivos",
+        "heading": "Reciprocal use of reflexive pronouns",
         "body": [
-          "Recuerda que 'nos' y 'se' también expresan una acción mutua entre dos o más personas."
+          "Remember that nos and se can also express a mutual action between two or more people (each other)."
         ],
         "examples": [
           {
@@ -8930,11 +8943,11 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Los amigos ___ abrazan cuando se encuentran.",
             "answer": "se",
-            "hint": "acción mutua entre ellos",
-            "explanation": "'Se' indica una acción recíproca entre los amigos."
+            "hint": "a mutual action between them",
+            "explanation": "Se shows a reciprocal action: the friends hug each other."
           }
         ]
       }
@@ -8942,7 +8955,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "matching",
-        "instructions": "Relaciona cada elemento con su pareja correcta.",
+        "instructions": "Match each item with its pair.",
         "pairs": [
           {
             "left": "ir",
@@ -8961,20 +8974,20 @@ const A2_BASE_LESSONS: Lesson[] = [
             "right": "to put on"
           }
         ],
-        "explanation": "El pronombre reflexivo cambia el significado de estos verbos."
+        "explanation": "The reflexive pronoun changes the meaning of these verbs: ir = to go, irse = to leave; poner = to put, ponerse = to put on."
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Mis padres ___ escriben mensajes todos los días.",
         "answer": "se",
-        "hint": "acción recíproca",
-        "explanation": "'Se' indica que la acción es mutua entre los padres."
+        "hint": "reciprocal action",
+        "explanation": "Se shows that the action is mutual: my parents write messages to each other."
       },
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce la oración al español.",
+        "prompt": "Translate to Spanish.",
         "source": "We see each other every weekend.",
         "answer": "Nos vemos todos los fines de semana.",
         "altAnswers": [
@@ -8982,11 +8995,11 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Nosotros nos vemos todos los fines de semana.",
           "Todos los fines de semana nos vemos."
         ],
-        "explanation": "El uso recíproco de 'nos' expresa una acción mutua."
+        "explanation": "Reciprocal nos expresses a mutual action: we see each other."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración.",
+        "prompt": "Put the words in order to make a sentence.",
         "words": [
           "Voy",
           "a",
@@ -8995,12 +9008,12 @@ const A2_BASE_LESSONS: Lesson[] = [
           "de",
           "salir"
         ],
-        "explanation": "El pronombre 'me' se une al infinitivo 'vestirme'.",
+        "explanation": "The pronoun me attaches to the infinitive: vestirme.",
         "translation": "I'm going to get dressed before going out."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué oración expresa la misma idea que 'Voy a levantarme temprano'?",
+        "question": "Which sentence means the same as 'Voy a levantarme temprano'?",
         "options": [
           "Me voy a levantar temprano.",
           "Voy me a levantar temprano.",
@@ -9012,11 +9025,11 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Anoche nosotros ___ dormimos muy tarde viendo una película.",
         "answer": "nos",
-        "hint": "pronombre reflexivo para 'nosotros'",
-        "explanation": "Dormirse en pretérito: nosotros nos dormimos."
+        "hint": "reflexive pronoun for nosotros",
+        "explanation": "Dormirse in the preterite: nosotros nos dormimos (we fell asleep)."
       }
     ]
   },
@@ -9024,14 +9037,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "comparisons-superlatives-drill-1",
     "level": "A2",
     "number": 47,
-    "title": "Comparaciones y Superlativos: Práctica Extra, Part 1 of 3",
-    "summary": "Práctica adicional de comparaciones y superlativos ya vistos: más/menos...que, tan...como, comparativos irregulares, y superlativos regulares y absolutos.",
+    "title": "Comparisons and Superlatives: Extra Practice, Part 1 of 3",
+    "summary": "Extra practice with más/menos… que, tan/tanto… como, mejor/peor/mayor/menor, el más… de and -ísimo.",
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Comparaciones de superioridad: más...que",
+        "heading": "Comparisons of superiority: más...que",
         "body": [
-          "Para comparar dos elementos donde uno destaca más en una cualidad, usa más + adjetivo/sustantivo + que."
+          "To say that one thing has more of a quality than another, use más + adjective/noun + que."
         ],
         "examples": [
           {
@@ -9046,18 +9059,18 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
-            "sentence": "Esta pizza es ___ deliciosa que la otra.",
+            "prompt": "Complete the sentence with the correct form.",
+            "sentence": "Esta pizza es ___ deliciosa que la otra. (more)",
             "answer": "más",
             "hint": "more...than",
-            "explanation": "\"Más...que\" expresa que un elemento supera al otro en la cualidad mencionada."
+            "explanation": "Más...que says that one thing has more of the quality than the other: más deliciosa que."
           }
         ]
       },
       {
-        "heading": "Comparaciones de inferioridad: menos...que",
+        "heading": "Comparisons of inferiority: menos...que",
         "body": [
-          "Para comparar dos elementos donde uno tiene menos de una cualidad, usa menos + adjetivo/sustantivo + que."
+          "To say that one thing has less of a quality than another, use menos + adjective/noun + que."
         ],
         "examples": [
           {
@@ -9072,7 +9085,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué oración expresa una comparación de inferioridad?",
+            "question": "Which sentence expresses a comparison of inferiority (less... than)?",
             "options": [
               "Ana es menos tímida que su hermana.",
               "Ana es tan tímida como su hermana.",
@@ -9088,23 +9101,23 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
-        "sentence": "Este restaurante es ___ caro que aquel.",
+        "prompt": "Complete the sentence with the correct form.",
+        "sentence": "Este restaurante es ___ caro que aquel. (more expensive)",
         "answer": "más",
         "hint": "more...than",
-        "explanation": "\"Más...que\" es la comparación de superioridad."
+        "explanation": "Más...que is the comparison of superiority: más caro que = more expensive than."
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
-        "sentence": "Mi primo es ___ alto que su hermano.",
+        "prompt": "Complete the sentence with the correct form.",
+        "sentence": "Mi primo es ___ alto que su hermano. (less tall)",
         "answer": "menos",
         "hint": "less...than",
-        "explanation": "\"Menos...que\" es la comparación de inferioridad."
+        "explanation": "Menos...que is the comparison of inferiority: menos alto que = less tall than."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es la forma correcta? \"Este flan es ___ dulce como aquel.\"",
+        "question": "Which is correct? \"Este flan es ___ dulce como aquel.\"",
         "options": [
           "tan",
           "tanto",
@@ -9116,15 +9129,15 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Tengo ___ hermanas como primos.",
         "answer": "tantas",
         "hint": "as many sisters as",
-        "explanation": "\"Tantas\" concuerda en género y número con \"hermanas\" (femenino plural)."
+        "explanation": "Tantas agrees in gender and number with hermanas (feminine plural)."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es el comparativo irregular de \"malo\"?",
+        "question": "What is the irregular comparative of \"malo\"?",
         "options": [
           "peor",
           "más malo",
@@ -9136,12 +9149,12 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Mi abuelo es ___ que mi padre.",
         "answer": "mayor",
         "altAnswers": ["más viejo"],
         "hint": "older, referring to age",
-        "explanation": "Para la edad de las personas lo normal es \"mayor\"; \"más viejo\" existe, pero suena más directo."
+        "explanation": "For people's age the normal word is mayor; más viejo exists but sounds blunter."
       }
     ]
   },
@@ -9149,14 +9162,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "comparisons-superlatives-drill-2",
     "level": "A2",
     "number": 48,
-    "title": "Comparaciones y Superlativos: Práctica Extra, Part 2 of 3",
-    "summary": "Práctica adicional de comparaciones y superlativos ya vistos: más/menos...que, tan...como, comparativos irregulares, y superlativos regulares y absolutos.",
+    "title": "Comparisons and Superlatives: Extra Practice, Part 2 of 3",
+    "summary": "Extra practice with más/menos… que, tan/tanto… como, mejor/peor/mayor/menor, el más… de and -ísimo.",
     "duration": "9 min",
     "sections": [
       {
-        "heading": "Comparaciones de igualdad: tan...como y tanto/a/os/as...como",
+        "heading": "Comparisons of equality: tan...como and tanto/a/os/as...como",
         "body": [
-          "Para comparar elementos iguales, usa tan + adjetivo/adverbio + como, o tanto/a/os/as + sustantivo + como."
+          "To say two things are equal, use tan + adjective/adverb + como, or tanto/a/os/as + noun + como."
         ],
         "examples": [
           {
@@ -9171,26 +9184,26 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Este mercado es ___ barato como el otro.",
             "answer": "tan",
             "hint": "as...as",
-            "explanation": "\"Tan\" se usa con adjetivos y adverbios; \"como\" se mantiene fijo."
+            "explanation": "Tan goes with adjectives and adverbs, and it is always followed by como."
           },
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Ella tiene ___ dinero como su hermano.",
             "answer": "tanto",
             "hint": "as much money as",
-            "explanation": "Con sustantivos se usa tanto/a/os/as, que concuerda en género y número; aquí concuerda con \"dinero\" (masculino singular)."
+            "explanation": "With nouns use tanto/a/os/as, which agrees in gender and number; here it agrees with dinero (masculine singular): tanto."
           }
         ]
       },
       {
-        "heading": "Comparativos irregulares: mejor, peor, mayor, menor",
+        "heading": "Irregular comparatives: mejor, peor, mayor, menor",
         "body": [
-          "Los adjetivos bueno, malo, viejo y joven tienen formas comparativas irregulares: mejor, peor, mayor y menor."
+          "The adjectives bueno, malo, viejo and joven have irregular comparative forms: mejor, peor, mayor and menor."
         ],
         "examples": [
           {
@@ -9205,18 +9218,18 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
-            "sentence": "Mi hermana ___ tiene diez años.",
+            "prompt": "Complete the sentence with the correct form.",
+            "sentence": "Mi hermana ___ tiene diez años. (younger)",
             "answer": "menor",
             "hint": "younger",
-            "explanation": "\"Menor\" es la forma irregular de joven cuando se refiere a la edad de una persona."
+            "explanation": "Menor (younger) is the irregular comparative of joven when it refers to a person's age: mi hermana menor."
           }
         ]
       },
       {
-        "heading": "Superlativos regulares: el/la/los/las más...de",
+        "heading": "Regular superlatives: el/la/los/las más...de",
         "body": [
-          "El superlativo regular usa el/la/los/las + más/menos + adjetivo + de para señalar el extremo de un grupo."
+          "The regular superlative uses el/la/los/las + más/menos + adjective + de to single out the extreme of a group."
         ],
         "examples": [
           {
@@ -9231,10 +9244,10 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Este es ___ plato más sabroso del restaurante.",
             "answer": "el",
-            "explanation": "El artículo concuerda con \"plato\" (masculino singular): el plato."
+            "explanation": "The article agrees with plato (masculine singular): el plato."
           }
         ]
       }
@@ -9242,14 +9255,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Estas son ___ tiendas más baratas de la ciudad.",
         "answer": "las",
-        "explanation": "El artículo concuerda con \"tiendas\" (femenino plural): las tiendas."
+        "explanation": "The article agrees with tiendas (feminine plural): las tiendas."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál oración es un superlativo correcto?",
+        "question": "Which sentence is a correct superlative?",
         "options": [
           "Es el pastel más rico de la panadería.",
           "Es el pastel muy rico de la panadería.",
@@ -9261,7 +9274,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es la forma correcta del superlativo absoluto de \"rico\"?",
+        "question": "What is the correct absolute superlative of \"rico\"?",
         "options": [
           "riquísimo",
           "ricísimo",
@@ -9273,15 +9286,15 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "La película fue ___. (aburrido)",
         "answer": "aburridísima",
         "hint": "extremely boring (aburrido → -ísimo)",
-        "explanation": "\"Aburrido\" pierde la -o final y añade -ísima para concordar con \"película\" (femenino singular)."
+        "explanation": "Aburrido drops the final -o and adds -ísima to agree with película (feminine singular): aburridísima."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración.",
+        "prompt": "Put the words in order to make a sentence.",
         "words": [
           "Madrid",
           "es",
@@ -9290,12 +9303,12 @@ const A2_BASE_LESSONS: Lesson[] = [
           "que",
           "Toledo"
         ],
-        "explanation": "Comparación de superioridad: más + adjetivo + que.",
+        "explanation": "Comparison of superiority: más + adjective + que.",
         "translation": "Madrid is bigger than Toledo."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración.",
+        "prompt": "Put the words in order to make a sentence.",
         "words": [
           "Esta",
           "sopa",
@@ -9305,7 +9318,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "como",
           "esa"
         ],
-        "explanation": "Comparación de igualdad: tan + adjetivo + como.",
+        "explanation": "Comparison of equality: tan + adjective + como.",
         "translation": "This soup is as tasty as that one."
       }
     ]
@@ -9314,14 +9327,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "comparisons-superlatives-drill-3",
     "level": "A2",
     "number": 49,
-    "title": "Comparaciones y Superlativos: Práctica Extra, Part 3 of 3",
-    "summary": "Práctica adicional de comparaciones y superlativos ya vistos: más/menos...que, tan...como, comparativos irregulares, y superlativos regulares y absolutos.",
+    "title": "Comparisons and Superlatives: Extra Practice, Part 3 of 3",
+    "summary": "Extra practice with más/menos… que, tan/tanto… como, mejor/peor/mayor/menor, el más… de and -ísimo.",
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Superlativos absolutos: -ísimo/a",
+        "heading": "Absolute superlatives: -ísimo/a",
         "body": [
-          "El superlativo absoluto añade -ísimo/a/os/as al adjetivo, quitando la vocal final, para expresar \"muy + adjetivo\" sin comparar con nada."
+          "The absolute superlative drops the adjective's final vowel and adds -ísimo/a/os/as. It means very + adjective, without comparing with anything."
         ],
         "examples": [
           {
@@ -9336,7 +9349,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cómo se dice \"extremely good\" con el superlativo absoluto?",
+            "question": "How do you say \"extremely good\" with the absolute superlative?",
             "options": [
               "buenísimo",
               "más bueno",
@@ -9349,9 +9362,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Práctica mixta: elige la estructura correcta",
+        "heading": "Mixed practice: choose the right structure",
         "body": [
-          "Con estas estructuras ya puedes elegir la comparación correcta según el contexto: superioridad, inferioridad, igualdad, irregulares y los dos tipos de superlativo."
+          "Now choose the right structure for the context: more, less, equal, the irregular forms, and the two kinds of superlative."
         ],
         "examples": [
           {
@@ -9366,23 +9379,23 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué estructura necesitas para decir \"my sister is the youngest of the family\"?",
+            "question": "Which structure do you need to say \"my sister is the youngest in the family\"?",
             "options": [
-              "superlativo con la forma irregular \"menor\"",
-              "comparativo de igualdad",
-              "comparativo de inferioridad",
-              "superlativo absoluto"
+              "a superlative with the irregular form menor",
+              "a comparison of equality",
+              "a comparison of inferiority",
+              "the absolute superlative (-ísimo)"
             ],
             "correctIndex": 0,
             "explanation": "\"The youngest\" is a superlative (la ... de), and for age Spanish uses the irregular form menor: mi hermana es la menor de la familia. It isn't a comparison of equality or inferiority, and the absolute superlative (-ísimo) doesn't compare with a group."
           },
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
-            "sentence": "Esta hamburguesa es ___ grande de todo el menú.",
+            "prompt": "Complete the sentence with the correct form.",
+            "sentence": "Esta hamburguesa es ___ grande de todo el menú. (the biggest)",
             "answer": "la más",
             "hint": "the biggest",
-            "explanation": "El superlativo regular usa el/la más + adjetivo + de para señalar el extremo del grupo."
+            "explanation": "The regular superlative uses el/la más + adjective + de to single out the extreme of a group: la más grande de todo el menú."
           }
         ]
       }
@@ -9391,16 +9404,16 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce la oración al español.",
+        "prompt": "Translate to Spanish.",
         "source": "This jacket is cheaper than that one.",
         "answer": "Esta chaqueta es más barata que esa.",
         "altAnswers": ["Esta chaqueta es más barata que aquella."],
-        "explanation": "\"Cheaper than\" se traduce como más barata que, con concordancia femenina en \"chaqueta\"."
+        "explanation": "Cheaper than is más barata que, feminine to agree with chaqueta."
       },
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Traduce la oración al inglés.",
+        "prompt": "Translate to English.",
         "source": "Mi hermana menor es más alta que yo.",
         "answer": "My younger sister is taller than me.",
         "altAnswers": [
@@ -9409,11 +9422,11 @@ const A2_BASE_LESSONS: Lesson[] = [
           "My little sister is taller than I am.",
           "My younger sister is taller than I."
         ],
-        "explanation": "\"Menor\" es el comparativo irregular de joven, y \"más alta que\" es una comparación de superioridad regular."
+        "explanation": "Menor is the irregular comparative of joven (younger), and más alta que is a regular comparison: taller than."
       },
       {
         "type": "matching",
-        "instructions": "Relaciona cada elemento con su pareja correcta.",
+        "instructions": "Match each item with its pair.",
         "pairs": [
           {
             "left": "más...que",
@@ -9440,11 +9453,11 @@ const A2_BASE_LESSONS: Lesson[] = [
             "right": "extremely..."
           }
         ],
-        "explanation": "Estas seis estructuras cubren todos los tipos de comparación y superlativo del nivel Elemental."
+        "explanation": "These six structures cover every kind of comparison and superlative at the Elementary level."
       },
       {
         "type": "multi-select",
-        "question": "¿Qué palabras son comparativos irregulares? (Elige todas las correctas)",
+        "question": "Which words are irregular comparatives? (Choose all that apply)",
         "options": [
           "mejor",
           "más caro",
@@ -9461,11 +9474,11 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
-        "sentence": "De todos mis primos, Carlos es ___ inteligente.",
+        "prompt": "Complete the sentence with the correct form.",
+        "sentence": "De todos mis primos, Carlos es ___ inteligente. (the most)",
         "answer": "el más",
         "hint": "the most intelligent",
-        "explanation": "Para señalar el extremo dentro de un grupo se usa el superlativo regular: el/la más + adjetivo."
+        "explanation": "To single out the extreme within a group, use the regular superlative: el/la más + adjective: el más inteligente."
       }
     ]
   },
@@ -9473,14 +9486,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "future-tense-drill-1",
     "level": "A2",
     "number": 50,
-    "title": "El Futuro: Práctica Extra, Part 1 of 3",
-    "summary": "Esta lección es práctica adicional para reforzar el futuro con ir a + infinitivo y el futuro simple, ya presentados en lecciones anteriores.",
+    "title": "The Future: Extra Practice, Part 1 of 3",
+    "summary": "Extra practice with ir a + infinitive and the simple future, including the irregular stems (tendr-, saldr-, har-, dir-…) and the future of probability.",
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Ir a + infinitivo: planes cercanos",
+        "heading": "Ir a + infinitive: near-future plans",
         "body": [
-          "Para hablar de planes o decisiones ya tomadas para el futuro cercano, se usa el presente de ir + a + infinitivo."
+          "For plans and decisions already made for the near future, use the present of ir + a + infinitive."
         ],
         "examples": [
           {
@@ -9495,15 +9508,15 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Nosotros ___ a viajar a México en diciembre.",
             "answer": "vamos",
-            "hint": "presente de 'ir', forma de nosotros",
-            "explanation": "Con 'ir a + infinitivo', el verbo 'ir' se conjuga en presente: nosotros vamos."
+            "hint": "present of ir, nosotros form",
+            "explanation": "In ir a + infinitive, ir is conjugated in the present: nosotros vamos."
           },
           {
             "type": "multiple-choice",
-            "question": "¿Cuál oración expresa un plan cercano con 'ir a + infinitivo'?",
+            "question": "Which sentence expresses a near-future plan with ir a + infinitive?",
             "options": [
               "Ella va a cocinar la cena.",
               "Ella cocinará la cena.",
@@ -9516,9 +9529,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Formación regular del futuro simple",
+        "heading": "Forming the regular simple future",
         "body": [
-          "El futuro simple se forma añadiendo las terminaciones -é, -ás, -á, -emos, -éis, -án directamente al infinitivo, sin importar si el verbo es -ar, -er o -ir."
+          "The simple future adds the endings -é, -ás, -á, -emos, -éis, -án straight onto the infinitive, whether the verb ends in -ar, -er or -ir."
         ],
         "examples": [
           {
@@ -9533,15 +9546,15 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Yo ___ (comprar) un regalo para mi hermana.",
             "answer": "compraré",
-            "explanation": "Futuro regular: infinitivo + -é → compraré."
+            "explanation": "Regular future: infinitive + -é → compraré."
           },
           {
             "type": "translate",
             "direction": "en-es",
-            "prompt": "Traduce la oración al español.",
+            "prompt": "Translate to Spanish.",
             "source": "We will travel next summer.",
             "answer": "Viajaremos el próximo verano.",
             "altAnswers": [
@@ -9550,7 +9563,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "El verano que viene viajaremos.",
               "Nosotros viajaremos el próximo verano."
             ],
-            "explanation": "Futuro regular, forma de nosotros: viajar + -emos."
+            "explanation": "Regular future, nosotros form: viajar + -emos = viajaremos."
           }
         ]
       }
@@ -9558,7 +9571,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es la forma correcta del futuro para 'yo' con el verbo 'viajar'?",
+        "question": "What is the correct future form of viajar for yo?",
         "options": [
           "viajaré",
           "viajaría",
@@ -9570,36 +9583,36 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Esta noche, mis padres ___ a cenar en un restaurante italiano.",
         "answer": "van",
-        "hint": "presente de 'ir', forma de ellos",
-        "explanation": "'ir a + infinitivo' requiere el presente de 'ir'; con 'mis padres' (ellos) es 'van'."
+        "hint": "present of ir, ellos form",
+        "explanation": "Ir a + infinitive needs the present of ir; with mis padres (ellos) it is van."
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Con más práctica, ___ (poder) hablar español con fluidez.",
         "answer": "podré",
-        "explanation": "'poder' pierde la 'e' en el futuro: podr- + é = podré."
+        "explanation": "Poder drops the e in the future: podr- + é = podré."
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "El próximo mes, nosotros ___ (tener) más tiempo libre.",
         "answer": "tendremos",
-        "explanation": "'tener' añade una 'd': tendr- + emos = tendremos."
+        "explanation": "Tener adds a d: tendr- + emos = tendremos."
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "¿___ (hacer) tú la tarea esta tarde?",
         "answer": "Harás",
-        "explanation": "'hacer' tiene una raíz corta en el futuro: har- + ás = harás."
+        "explanation": "Hacer has a short future stem: har- + ás = harás."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es la raíz correcta del futuro para 'saber'?",
+        "question": "What is the correct future stem of saber?",
         "options": [
           "sabr-",
           "saber-",
@@ -9615,14 +9628,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "future-tense-drill-2",
     "level": "A2",
     "number": 51,
-    "title": "El Futuro: Práctica Extra, Part 2 of 3",
-    "summary": "Esta lección es práctica adicional para reforzar el futuro con ir a + infinitivo y el futuro simple, ya presentados en lecciones anteriores.",
+    "title": "The Future: Extra Practice, Part 2 of 3",
+    "summary": "Extra practice with ir a + infinitive and the simple future, including the irregular stems (tendr-, saldr-, har-, dir-…) and the future of probability.",
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Raíces irregulares que pierden la vocal",
+        "heading": "Irregular stems that drop a vowel",
         "body": [
-          "Algunos verbos pierden la vocal del infinitivo antes de añadir las terminaciones del futuro: poder → podr-, saber → sabr-, querer → querr-, haber → habr-."
+          "Some verbs drop the infinitive's vowel before the future endings: poder → podr-, saber → sabr-, querer → querr-, haber → habr-."
         ],
         "examples": [
           {
@@ -9637,7 +9650,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es la raíz correcta del futuro para 'querer'?",
+            "question": "What is the correct future stem of querer?",
             "options": [
               "querr-",
               "querer-",
@@ -9649,17 +9662,17 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Ella no ___ (saber) la noticia hasta mañana.",
             "answer": "sabrá",
-            "explanation": "'saber' → sabr- + á = sabrá."
+            "explanation": "Saber → sabr- + á = sabrá."
           }
         ]
       },
       {
-        "heading": "Raíces irregulares que añaden una d",
+        "heading": "Irregular stems that add a d",
         "body": [
-          "Otros verbos añaden una 'd' entre la raíz y las terminaciones del futuro: poner → pondr-, tener → tendr-, salir → saldr-, venir → vendr-."
+          "Other verbs add a d between the stem and the future endings: poner → pondr-, tener → tendr-, salir → saldr-, venir → vendr-."
         ],
         "examples": [
           {
@@ -9674,14 +9687,14 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Yo ___ (tener) que trabajar el sábado.",
             "answer": "tendré",
-            "explanation": "'tener' → tendr- + é = tendré."
+            "explanation": "Tener → tendr- + é = tendré."
           },
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es la forma correcta del futuro para 'salir' con 'nosotros'?",
+            "question": "What is the correct future form of salir for nosotros?",
             "options": [
               "saldremos",
               "saliremos",
@@ -9694,9 +9707,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Raíces irregulares acortadas",
+        "heading": "Shortened irregular stems",
         "body": [
-          "Decir y hacer tienen raíces muy cortas e irregulares en el futuro: decir → dir-, hacer → har-."
+          "Decir and hacer have very short irregular future stems: decir → dir-, hacer → har-."
         ],
         "examples": [
           {
@@ -9711,19 +9724,19 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "¿Qué ___ (hacer) tú este fin de semana?",
             "answer": "harás",
-            "explanation": "'hacer' tiene una raíz corta en el futuro: har- + ás = harás."
+            "explanation": "Hacer has a short future stem: har- + ás = harás."
           },
           {
             "type": "translate",
             "direction": "es-en",
-            "prompt": "Traduce la oración al inglés.",
+            "prompt": "Translate to English.",
             "source": "Te lo diré mañana.",
             "answer": "I will tell it to you tomorrow.",
             "altAnswers": ["I'll tell you tomorrow.", "I will tell you tomorrow.", "I'll tell it to you tomorrow.", "I'll tell you it tomorrow."],
-            "explanation": "'decir' → dir- + é = diré."
+            "explanation": "Decir → dir- + é = diré."
           }
         ]
       }
@@ -9732,32 +9745,32 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce la oración al español.",
+        "prompt": "Translate to Spanish.",
         "source": "It will probably rain tomorrow.",
         "answer": "Probablemente lloverá mañana.",
         "altAnswers": ["Mañana probablemente lloverá.", "Probablemente mañana lloverá.", "Seguramente lloverá mañana.", "Mañana seguramente lloverá."],
-        "explanation": "El futuro simple 'lloverá' expresa una predicción."
+        "explanation": "The simple future lloverá expresses a prediction."
       },
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Traduce la oración al inglés.",
+        "prompt": "Translate to English.",
         "source": "Vamos a visitar a mis abuelos el domingo.",
         "answer": "We are going to visit my grandparents on Sunday.",
-        "explanation": "'vamos a visitar' es 'ir a + infinitivo' en primera persona plural."
+        "explanation": "Vamos a visitar is ir a + infinitive in the first person plural: we are going to visit."
       },
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce la oración al español.",
+        "prompt": "Translate to Spanish.",
         "source": "I will call you as soon as I arrive.",
         "answer": "Te llamaré en cuanto llegue.",
         "altAnswers": ["Te llamaré tan pronto como llegue.", "Te llamaré apenas llegue."],
-        "explanation": "'Llamaré' es el futuro simple de 'llamar'. Después de 'en cuanto' con sentido futuro se usa el subjuntivo (llegue); apréndelo como bloque por ahora."
+        "explanation": "Llamaré is the simple future of llamar. After en cuanto with a future meaning, Spanish uses the subjunctive (llegue); learn en cuanto llegue as a chunk for now."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración.",
+        "prompt": "Put the words in order to make a sentence.",
         "words": [
           "Nosotros",
           "estudiaremos",
@@ -9765,12 +9778,12 @@ const A2_BASE_LESSONS: Lesson[] = [
           "el",
           "examen"
         ],
-        "explanation": "El sujeto va primero, seguido del verbo en futuro y el complemento.",
+        "explanation": "The subject comes first, then the future verb and the rest of the sentence.",
         "translation": "We will study for the exam."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración.",
+        "prompt": "Put the words in order to make a sentence.",
         "words": [
           "Ella",
           "va",
@@ -9779,17 +9792,17 @@ const A2_BASE_LESSONS: Lesson[] = [
           "un",
           "coche"
         ],
-        "explanation": "La estructura es sujeto + ir (presente) + a + infinitivo + complemento.",
+        "explanation": "The pattern is subject + ir (present) + a + infinitive + object.",
         "translation": "She is going to buy a car."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué expresa la oración '¿Dónde estará Juan?' en este contexto?",
+        "question": "Juan hasn't arrived and nobody knows where he is. What does '¿Dónde estará Juan?' express here?",
         "options": [
-          "Una suposición sobre dónde está Juan ahora",
-          "Una orden para que Juan venga",
-          "Un plan futuro confirmado",
-          "Una acción terminada en el pasado"
+          "A guess about where Juan is now",
+          "An order for Juan to come",
+          "A confirmed future plan",
+          "A finished action in the past"
         ],
         "correctIndex": 0,
         "explanation": "The future can express a guess about the present: ¿Dónde estará Juan? = where can Juan be? It's not an order, a confirmed plan or a finished action."
@@ -9800,14 +9813,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "future-tense-drill-3",
     "level": "A2",
     "number": 52,
-    "title": "El Futuro: Práctica Extra, Part 3 of 3",
-    "summary": "Esta lección es práctica adicional para reforzar el futuro con ir a + infinitivo y el futuro simple, ya presentados en lecciones anteriores.",
+    "title": "The Future: Extra Practice, Part 3 of 3",
+    "summary": "Extra practice with ir a + infinitive and the simple future, including the irregular stems (tendr-, saldr-, har-, dir-…) and the future of probability.",
     "duration": "7 min",
     "sections": [
       {
-        "heading": "El futuro para predicciones y probabilidad",
+        "heading": "The future for predictions and probability",
         "body": [
-          "El futuro simple también sirve para hacer predicciones y expresar suposiciones sobre el presente o el futuro."
+          "The simple future is also used for predictions and for guesses about the present or the future."
         ],
         "examples": [
           {
@@ -9822,29 +9835,29 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué expresa la oración '¿Dónde estará mi teléfono?'?",
+            "question": "What does '¿Dónde estará mi teléfono?' express?",
             "options": [
-              "Una suposición sobre el presente",
-              "Una orden directa",
-              "Un plan confirmado para mañana",
-              "Una acción terminada en el pasado"
+              "A guess about the present",
+              "A direct order",
+              "A confirmed plan for tomorrow",
+              "A finished action in the past"
             ],
             "correctIndex": 0,
             "explanation": "The future of probability is a guess about now: ¿dónde estará? = where do you think it is? It's not an order, a plan for tomorrow or a finished action."
           },
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Según el pronóstico, ___ (nevar) este fin de semana.",
             "answer": "nevará",
-            "explanation": "Predicción con futuro simple: nevar + -á = nevará."
+            "explanation": "A prediction with the simple future: nevar + -á = nevará."
           }
         ]
       },
       {
-        "heading": "Práctica mixta: ir a + infinitivo o futuro simple",
+        "heading": "Mixed practice: ir a + infinitive or the simple future",
         "body": [
-          "En una conversación real se alterna entre ir a + infinitivo para planes inmediatos y el futuro simple para promesas, predicciones o eventos más lejanos."
+          "In real conversation, people switch between ir a + infinitive for immediate plans and the simple future for promises, predictions or more distant events."
         ],
         "examples": [
           {
@@ -9859,7 +9872,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multi-select",
-            "question": "¿Qué oraciones usan el futuro simple (no 'ir a')? (Elige todas las correctas)",
+            "question": "Which sentences use the simple future (not ir a)? (Choose all that apply)",
             "options": [
               "Iré al gimnasio mañana.",
               "Voy a limpiar la casa.",
@@ -9874,7 +9887,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "word-order",
-            "prompt": "Ordena las palabras para formar una oración.",
+            "prompt": "Put the words in order to make a sentence.",
             "words": [
               "Mañana",
               "estudiaré",
@@ -9882,7 +9895,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               "la",
               "tarde"
             ],
-            "explanation": "El adverbio de tiempo puede ir al inicio de la oración: Mañana estudiaré toda la tarde.",
+            "explanation": "The time expression can go at the start of the sentence: Mañana estudiaré toda la tarde.",
             "translation": "Tomorrow I'll study all afternoon.",
             "altOrders": [["Estudiaré", "toda", "la", "tarde", "mañana"]]
           }
@@ -9892,7 +9905,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Qué verbos tienen una raíz irregular en el futuro? (Elige todas las correctas)",
+        "question": "Which verbs have an irregular future stem? (Choose all that apply)",
         "options": [
           "tener",
           "hablar",
@@ -9905,11 +9918,11 @@ const A2_BASE_LESSONS: Lesson[] = [
           2,
           4
         ],
-        "explanation": "'tener', 'hacer' y 'salir' tienen raíces irregulares (tendr-, har-, saldr-); 'hablar' y 'comer' son regulares."
+        "explanation": "Tener, hacer and salir have irregular stems (tendr-, har-, saldr-); hablar and comer are regular."
       },
       {
         "type": "matching",
-        "instructions": "Relaciona cada elemento con su pareja correcta.",
+        "instructions": "Match each item with its pair.",
         "pairs": [
           {
             "left": "Iré al cine el viernes.",
@@ -9928,19 +9941,19 @@ const A2_BASE_LESSONS: Lesson[] = [
             "right": "What will you do tomorrow?"
           }
         ],
-        "explanation": "Cada oración en español combina con su traducción correcta al inglés."
+        "explanation": "Iré and tendrán are the simple future (will), vamos a cenar is ir a + infinitive (going to), and harás is hacer's future (stem har-)."
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Mira esas nubes negras — ___ a llover pronto.",
         "answer": "va",
-        "hint": "presente de 'ir', forma impersonal",
-        "explanation": "Con el uso impersonal ('va a llover'), 'ir' se conjuga en tercera persona singular: va."
+        "hint": "present of ir, impersonal form",
+        "explanation": "In the impersonal va a llover, ir is in the third person singular: va."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es la forma correcta de 'decir' en futuro para 'tú'?",
+        "question": "What is the correct future form of decir for tú?",
         "options": [
           "dirás",
           "decirás",
@@ -9953,10 +9966,10 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Traduce la oración al inglés.",
+        "prompt": "Translate to English.",
         "source": "Voy a llamar al médico, pero no sé si tendré tiempo mañana.",
         "answer": "I'm going to call the doctor, but I don't know if I'll have time tomorrow.",
-        "explanation": "La oración combina 'ir a + infinitivo' para un plan inmediato con el futuro simple 'tendré' para una incertidumbre futura."
+        "explanation": "The sentence combines ir a + infinitive for an immediate plan with the simple future tendré for something uncertain later."
       }
     ]
   },
@@ -9964,14 +9977,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "por-vs-para-drill-1",
     "level": "A2",
     "number": 53,
-    "title": "Por vs. Para: Práctica Extra, Part 1 of 3",
-    "summary": "Practica el uso de “por” y “para” en contextos cotidianos con ejercicios de repaso, sin nueva teoría.",
+    "title": "Por vs. Para: Extra Practice, Part 1 of 3",
+    "summary": "Extra practice with por (duration, cause, price, route, means) and para (deadline, destination, purpose, recipient).",
     "duration": "9 min",
     "sections": [
       {
-        "heading": "Por: duración de tiempo",
+        "heading": "Por: duration",
         "body": [
-          "Usamos “por” para expresar cuánto tiempo dura una acción.",
+          "Por can express how long an action lasts.",
           "Between por and para, only por can express duration. But in everyday Spanish the most common options are no preposition at all (Estudié español dos años) or durante (Estudié español durante dos años), so those are never wrong."
         ],
         "examples": [
@@ -9987,16 +10000,16 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Trabajé en esa oficina ___ cinco años.",
             "answer": "por",
             "altAnswers": ["durante"],
-            "hint": "duración de tiempo",
+            "hint": "duration",
             "explanation": "Por can mark how long the action lasted. Durante works too, and many speakers would simply say Trabajé en esa oficina cinco años."
           },
           {
             "type": "multiple-choice",
-            "question": "¿Qué oración expresa correctamente la duración de una acción?",
+            "question": "Which sentence correctly expresses how long an action lasted?",
             "options": [
               "Viajamos por tres semanas.",
               "Viajamos para tres semanas.",
@@ -10009,9 +10022,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Por: causa o razón",
+        "heading": "Por: cause or reason",
         "body": [
-          "Usamos “por” para indicar la causa o el motivo de una acción, es decir, “a causa de”."
+          "Por gives the cause or reason for an action: because of."
         ],
         "examples": [
           {
@@ -10026,18 +10039,18 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Cancelaron el partido ___ la tormenta.",
             "answer": "por",
-            "hint": "causa",
-            "explanation": "“Por” introduce la causa de algo: por la tormenta."
+            "hint": "cause",
+            "explanation": "Por introduces the cause: por la tormenta = because of the storm."
           }
         ]
       },
       {
-        "heading": "Por: intercambio y precio",
+        "heading": "Por: exchange and price",
         "body": [
-          "Usamos “por” para hablar de un intercambio, especialmente cuando se trata de dinero o de cambiar una cosa por otra."
+          "Por marks an exchange, especially money paid for something or one thing swapped for another."
         ],
         "examples": [
           {
@@ -10052,7 +10065,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál oración expresa un intercambio de dinero?",
+            "question": "Which sentence expresses paying money for something?",
             "options": [
               "Pagué diez euros por el libro.",
               "Pagué diez euros para el libro.",
@@ -10064,11 +10077,11 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Te doy quince dólares ___ esa camisa.",
             "answer": "por",
-            "hint": "intercambio de dinero",
-            "explanation": "El dinero que se paga a cambio de algo se introduce con “por”."
+            "hint": "money in exchange",
+            "explanation": "Money paid in exchange for something is introduced by por."
           }
         ]
       }
@@ -10076,11 +10089,11 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Viví en Chile ___ tres años.",
         "answer": "por",
         "altAnswers": ["durante"],
-        "hint": "duración",
+        "hint": "duration",
         "explanation": "Por can mark how long the action lasted. Durante is just as good, and Viví en Chile tres años, with no preposition, is the most common of all."
       },
       {
@@ -10096,22 +10109,22 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Traduce la oración al inglés.",
+        "prompt": "Translate to English.",
         "source": "Compré el coche por ocho mil dólares.",
         "answer": "I bought the car for eight thousand dollars.",
-        "explanation": "“Por” se usa aquí porque indica el precio pagado a cambio del coche."
+        "explanation": "Por is used here because it gives the price paid in exchange for the car."
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Necesito la tarea ___ el lunes.",
         "answer": "para",
-        "hint": "fecha límite",
-        "explanation": "“Para” marca el plazo o la fecha límite."
+        "hint": "deadline",
+        "explanation": "Para marks a deadline: para el lunes = by Monday."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración.",
+        "prompt": "Put the words in order to make a sentence.",
         "words": [
           "Corrimos",
           "por",
@@ -10120,7 +10133,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "esta",
           "mañana"
         ],
-        "explanation": "“Por” describe el movimiento a través de un lugar.",
+        "explanation": "Por describes movement through a place: por el parque.",
         "translation": "We ran through the park this morning.",
         "altOrders": [["Esta", "mañana", "corrimos", "por", "el", "parque"]]
       },
@@ -10140,14 +10153,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "por-vs-para-drill-2",
     "level": "A2",
     "number": 54,
-    "title": "Por vs. Para: Práctica Extra, Part 2 of 3",
-    "summary": "Practica el uso de “por” y “para” en contextos cotidianos con ejercicios de repaso, sin nueva teoría.",
+    "title": "Por vs. Para: Extra Practice, Part 2 of 3",
+    "summary": "Extra practice with por (duration, cause, price, route, means) and para (deadline, destination, purpose, recipient).",
     "duration": "8 min",
     "sections": [
       {
-        "heading": "Por: movimiento a través de un lugar",
+        "heading": "Por: movement through a place",
         "body": [
-          "Usamos “por” para describir un movimiento a través de, por, o alrededor de un lugar, sin un destino específico."
+          "Por describes movement through, along or around a place, without a specific destination."
         ],
         "examples": [
           {
@@ -10162,18 +10175,18 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Pasamos ___ el centro antes de llegar al hotel.",
             "answer": "por",
-            "hint": "movimiento a través de un lugar",
-            "explanation": "“Por” describe el movimiento a través de un lugar, sin destino fijo."
+            "hint": "movement through a place",
+            "explanation": "Por describes movement through a place, not a destination: pasamos por el centro."
           }
         ]
       },
       {
-        "heading": "Por: medio o manera",
+        "heading": "Por: means",
         "body": [
-          "Usamos “por” para indicar el medio por el cual se hace algo, como por teléfono, por correo o por internet."
+          "Por gives the means by which something is done: por teléfono, por correo, por internet."
         ],
         "examples": [
           {
@@ -10188,7 +10201,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál oración indica el medio por el cual se hace algo?",
+            "question": "Which sentence gives the means by which something is done?",
             "options": [
               "Hablamos por teléfono todos los días.",
               "Hablamos para teléfono todos los días.",
@@ -10201,9 +10214,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Para: fecha límite",
+        "heading": "Para: deadline",
         "body": [
-          "Usamos “para” para indicar una fecha límite o el momento en que algo debe estar listo."
+          "Para gives a deadline: the time by which something must be ready."
         ],
         "examples": [
           {
@@ -10218,15 +10231,15 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "La tarea es ___ el lunes.",
             "answer": "para",
-            "hint": "fecha límite",
-            "explanation": "“Para” introduce el plazo o la fecha límite: para el lunes."
+            "hint": "deadline",
+            "explanation": "Para introduces the deadline: para el lunes = by Monday."
           },
           {
             "type": "multiple-choice",
-            "question": "¿Cuál oración indica una fecha límite?",
+            "question": "Which sentence gives a deadline?",
             "options": [
               "Necesito los documentos para mañana.",
               "Necesito los documentos por mañana.",
@@ -10242,19 +10255,19 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Mandé el mensaje ___ correo electrónico.",
         "answer": "por",
-        "hint": "medio",
-        "explanation": "El medio de comunicación se expresa con “por”."
+        "hint": "means",
+        "explanation": "The means of communication takes por: por correo electrónico."
       },
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce la oración al español.",
+        "prompt": "Translate to Spanish.",
         "source": "This letter is for my grandmother.",
         "answer": "Esta carta es para mi abuela.",
-        "explanation": "“Para” indica el destinatario de algo."
+        "explanation": "Para marks the recipient: para mi abuela."
       },
       {
         "type": "multiple-choice",
@@ -10272,12 +10285,12 @@ const A2_BASE_LESSONS: Lesson[] = [
         "sentence": "Salen ___ Buenos Aires el sábado.",
         "en": "They leave [for] Buenos Aires on Saturday.",
         "answer": "para",
-        "hint": "destino",
-        "explanation": "“Para” indica el destino de un viaje."
+        "hint": "destination",
+        "explanation": "Para marks the destination of a trip: salen para Buenos Aires."
       },
       {
         "type": "matching",
-        "instructions": "Relaciona cada elemento con su pareja correcta.",
+        "instructions": "Match each item with its pair.",
         "pairs": [
           {
             "left": "por fin",
@@ -10304,7 +10317,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "right": "that's why"
           }
         ],
-        "explanation": "Estas son expresiones fijas comunes con “por” y “para”."
+        "explanation": "These are common fixed expressions with por and para; learn them as whole chunks."
       },
       {
         "type": "multiple-choice",
@@ -10322,14 +10335,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "por-vs-para-drill-3",
     "level": "A2",
     "number": 55,
-    "title": "Por vs. Para: Práctica Extra, Part 3 of 3",
-    "summary": "Practica el uso de “por” y “para” en contextos cotidianos con ejercicios de repaso, sin nueva teoría.",
+    "title": "Por vs. Para: Extra Practice, Part 3 of 3",
+    "summary": "Extra practice with por (duration, cause, price, route, means) and para (deadline, destination, purpose, recipient).",
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Para: destino y propósito",
+        "heading": "Para: destination and purpose",
         "body": [
-          "Usamos “para” para indicar un destino o el propósito de una acción, es decir, “con el fin de”."
+          "Para gives a destination or the purpose of an action: in order to."
         ],
         "examples": [
           {
@@ -10344,7 +10357,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál oración expresa el propósito de una acción?",
+            "question": "Which sentence expresses the purpose of an action?",
             "options": [
               "Ahorro dinero para viajar.",
               "Ahorro dinero por viajar.",
@@ -10357,9 +10370,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Para: destinatario y expresiones fijas",
+        "heading": "Para: recipient, and fixed expressions",
         "body": [
-          "Usamos “para” para indicar el destinatario de algo, y además existen expresiones fijas con “por” y “para” que conviene memorizar, como por fin, por favor, por supuesto, para siempre y para nada."
+          "Para marks the recipient of something. There are also fixed expressions with por and para worth memorizing: por fin, por favor, por supuesto, para siempre and para nada."
         ],
         "examples": [
           {
@@ -10378,7 +10391,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué expresión significa “not at all” en inglés?",
+            "question": "Which expression means “not at all”?",
             "options": [
               "para nada",
               "por fin",
@@ -10390,11 +10403,11 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Este correo electrónico es ___ mi jefe.",
             "answer": "para",
-            "hint": "destinatario",
-            "explanation": "“Para” indica el destinatario, es decir, para quién es algo."
+            "hint": "recipient",
+            "explanation": "Para marks the recipient: who something is for."
           }
         ]
       }
@@ -10402,23 +10415,23 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Este café es ___ ti.",
         "answer": "para",
-        "hint": "destinatario",
-        "explanation": "“Para” indica para quién es algo."
+        "hint": "recipient",
+        "explanation": "Para says who something is for: para ti."
       },
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Traduce la oración al inglés.",
+        "prompt": "Translate to English.",
         "source": "Fuimos al mercado por pan.",
         "answer": "We went to the market for bread.",
-        "explanation": "“Ir por algo” significa ir a buscar algo; “por” expresa el motivo del viaje."
+        "explanation": "Ir por algo means to go and get something; por gives the reason for the trip."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración.",
+        "prompt": "Put the words in order to make a sentence.",
         "words": [
           "Cierra",
           "la",
@@ -10426,7 +10439,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "por",
           "favor"
         ],
-        "explanation": "“Por favor” es una expresión fija que significa “please”.",
+        "explanation": "Por favor is a fixed expression meaning please.",
         "translation": "Close the door, please.",
         "altOrders": [["Por", "favor,", "cierra", "la", "puerta"]]
       },
@@ -10442,19 +10455,19 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Te doy veinte dólares ___ ese libro.",
         "answer": "por",
-        "hint": "intercambio",
-        "explanation": "El dinero pagado a cambio de algo se expresa con “por”."
+        "hint": "exchange",
+        "explanation": "Money paid in exchange for something takes por: veinte dólares por ese libro."
       },
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce la oración al español.",
+        "prompt": "Translate to Spanish.",
         "source": "I need this by Monday.",
         "answer": "Necesito esto para el lunes.",
-        "explanation": "“Para” marca la fecha límite en la que algo debe estar listo."
+        "explanation": "Para marks the deadline by which something must be ready: para el lunes."
       }
     ]
   },
@@ -10462,14 +10475,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "personal-a-negation-mente-drill-1",
     "level": "A2",
     "number": 56,
-    "title": "La A Personal, Negación y Adverbios en -mente: Práctica Extra, Part 1 of 3",
-    "summary": "Esta lección es una práctica adicional que combina tres temas ya estudiados: la a personal, las palabras de negación y los adverbios terminados en -mente.",
+    "title": "Personal A, Negation and -mente Adverbs: Extra Practice, Part 1 of 3",
+    "summary": "Extra practice with the personal a, negative words and double negation, and -mente adverbs.",
     "duration": "8 min",
     "sections": [
       {
-        "heading": "La a personal con personas específicas",
+        "heading": "The personal a with specific people",
         "body": [
-          "Recuerda usar la a personal cuando el objeto directo es una persona específica y conocida."
+          "Remember to use the personal a when the direct object is a specific, known person."
         ],
         "examples": [
           {
@@ -10484,15 +10497,15 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Visito ___ mi abuela todos los domingos.",
             "answer": "a",
-            "hint": "el objeto directo es una persona específica",
-            "explanation": "Con personas específicas y conocidas, el objeto directo lleva la a personal."
+            "hint": "the direct object is a specific person",
+            "explanation": "A specific, known person as the direct object takes the personal a: visito a mi abuela."
           },
           {
             "type": "multiple-choice",
-            "question": "¿Cuál oración usa correctamente la a personal?",
+            "question": "Which sentence uses the personal a correctly?",
             "options": [
               "Veo a el gato en la calle.",
               "Llamo a mi médico cada mes.",
@@ -10505,9 +10518,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Excepciones de la a personal: tener y personas indefinidas",
+        "heading": "Exceptions to the personal a: tener and non-specific people",
         "body": [
-          "Con el verbo tener y con personas indefinidas o no específicas, normalmente se omite la a personal."
+          "With the verb tener, and with non-specific people, the personal a is normally left out."
         ],
         "examples": [
           {
@@ -10522,7 +10535,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué oración NO necesita la a personal?",
+            "question": "Which sentence does NOT need the personal a?",
             "options": [
               "Tengo dos primos en México.",
               "Veo a mi profesora en la cafetería.",
@@ -10534,15 +10547,15 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "multiple-choice",
-            "question": "Con el verbo tener, ¿cuándo se usa generalmente la a personal?",
+            "question": "With the verb tener, when is the personal a generally used?",
             "options": [
-              "Siempre, sin excepción.",
-              "Casi nunca; normalmente se omite.",
-              "Solo los fines de semana.",
-              "Solo con nombres propios."
+              "Always, without exception.",
+              "Almost never; it is usually left out.",
+              "Only with people.",
+              "Only with proper names."
             ],
             "correctIndex": 1,
-            "explanation": "At this level, the rule is that tener usually doesn't take the personal a: tengo dos hermanos. So it's not \"always\", and it has nothing to do with weekends or proper names."
+            "explanation": "At this level, the rule is that tener usually doesn't take the personal a, even with people or names: tengo dos hermanos. So it's not \"always\", \"only with people\" or \"only with proper names\"."
           }
         ]
       }
@@ -10550,7 +10563,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Cuál oración usa la a personal correctamente?",
+        "question": "Which sentence uses the personal a correctly?",
         "options": [
           "Conozco a tu vecino desde hace años.",
           "Conozco a tu casa desde hace años.",
@@ -10562,23 +10575,23 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "No conozco ___ nadie en esta ciudad todavía.",
         "answer": "a",
-        "hint": "doble negación + a personal con 'nadie'",
-        "explanation": "'Nadie' se refiere a una persona, así que también lleva la a personal: 'a nadie'."
+        "hint": "double negation + personal a with nadie",
+        "explanation": "Nadie refers to a person, so it also takes the personal a: a nadie."
       },
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Traduce la oración al inglés.",
+        "prompt": "Translate to English.",
         "source": "Ella nunca llega tarde a las citas.",
         "answer": "She never arrives late to appointments.",
         "explanation": "Nunca goes before the verb without no: nunca llega = never arrives."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración.",
+        "prompt": "Put the words in order to make a sentence.",
         "words": [
           "Veo",
           "a",
@@ -10588,13 +10601,13 @@ const A2_BASE_LESSONS: Lesson[] = [
           "la",
           "fiesta"
         ],
-        "explanation": "El orden es verbo + a personal + objeto directo + complemento.",
+        "explanation": "The order is verb + personal a + direct object + the rest.",
         "translation": "I see my brother at the party.",
         "altOrders": [["En", "la", "fiesta", "veo", "a", "mi", "hermano"]]
       },
       {
         "type": "matching",
-        "instructions": "Relaciona cada elemento con su pareja correcta.",
+        "instructions": "Match each item with its pair.",
         "pairs": [
           {
             "left": "alguien",
@@ -10625,7 +10638,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "Completa: '¿Buscas a alguien?' — 'No, no busco ___.'",
+        "question": "Complete: '¿Buscas a alguien?' — 'No, no busco ___.'",
         "options": [
           "nadie",
           "a nadie",
@@ -10633,7 +10646,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "a alguien"
         ],
         "correctIndex": 1,
-        "explanation": "'Nadie' se refiere a una persona, así que lleva la a personal: 'a nadie'."
+        "explanation": "Nadie refers to a person, so it takes the personal a: a nadie."
       }
     ]
   },
@@ -10641,14 +10654,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "personal-a-negation-mente-drill-2",
     "level": "A2",
     "number": 57,
-    "title": "La A Personal, Negación y Adverbios en -mente: Práctica Extra, Part 2 of 3",
-    "summary": "Esta lección es una práctica adicional que combina tres temas ya estudiados: la a personal, las palabras de negación y los adverbios terminados en -mente.",
+    "title": "Personal A, Negation and -mente Adverbs: Extra Practice, Part 2 of 3",
+    "summary": "Extra practice with the personal a, negative words and double negation, and -mente adverbs.",
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Palabras negativas y afirmativas básicas",
+        "heading": "Basic negative and positive words",
         "body": [
-          "Las parejas opuestas más comunes son alguien/nadie, algo/nada, siempre/nunca y alguno/ninguno."
+          "The most common opposite pairs are alguien/nadie, algo/nada, siempre/nunca and alguno/ninguno."
         ],
         "examples": [
           {
@@ -10663,15 +10676,15 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "No tengo ___ que decir en la reunión.",
             "answer": "nada",
-            "hint": "opuesto de 'algo'",
-            "explanation": "'Nada' es la forma negativa de 'algo'."
+            "hint": "the opposite of algo",
+            "explanation": "Nada (nothing) is the negative of algo (something)."
           },
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es el opuesto de 'siempre'?",
+            "question": "What is the opposite of siempre?",
             "options": [
               "nunca",
               "nadie",
@@ -10684,9 +10697,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "La doble negación: no + verbo + palabra negativa",
+        "heading": "Double negation: no + verb + negative word",
         "body": [
-          "Cuando la palabra negativa va después del verbo, es obligatorio poner 'no' antes del verbo."
+          "When the negative word comes after the verb, no must go before the verb."
         ],
         "examples": [
           {
@@ -10701,15 +10714,15 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "___ voy nunca a ese restaurante.",
             "answer": "No",
-            "hint": "la doble negación necesita 'no' antes del verbo",
-            "explanation": "Cuando 'nunca' va después del verbo, se necesita 'no' antes."
+            "hint": "double negation needs no before the verb",
+            "explanation": "When nunca comes after the verb, no is needed before it: No voy nunca."
           },
           {
             "type": "multiple-choice",
-            "question": "¿Cuál oración tiene la doble negación correcta?",
+            "question": "Which sentence has correct double negation?",
             "options": [
               "No como nada antes de dormir.",
               "Como no nada antes de dormir.",
@@ -10725,16 +10738,16 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la oración con la forma correcta.",
+        "prompt": "Complete the sentence with the correct form.",
         "sentence": "Mi padre habla muy ___ cuando está enojado.",
         "answer": "tranquilamente",
-        "hint": "forma femenina de 'tranquilo' + mente",
+        "hint": "feminine form of tranquilo + mente",
         "explanation": "Adverbs in -mente are built on the feminine form: tranquila → tranquilamente."
       },
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce la oración al español.",
+        "prompt": "Translate to Spanish.",
         "source": "I don't have any patience today.",
         "answer": "No tengo ninguna paciencia hoy.",
         "altAnswers": ["Hoy no tengo ninguna paciencia.", "No tengo nada de paciencia hoy.", "Hoy no tengo nada de paciencia."],
@@ -10742,7 +10755,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración.",
+        "prompt": "Put the words in order to make a sentence.",
         "words": [
           "Nadie",
           "viene",
@@ -10750,12 +10763,12 @@ const A2_BASE_LESSONS: Lesson[] = [
           "la",
           "reunión"
         ],
-        "explanation": "Cuando la palabra negativa va antes del verbo, no se usa 'no'.",
+        "explanation": "When the negative word comes before the verb, no is not used.",
         "translation": "Nobody is coming to the meeting."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué oración es incorrecta?",
+        "question": "Which sentence is incorrect?",
         "options": [
           "No veo a nadie en la calle.",
           "No tengo a ningún problema.",
@@ -10771,13 +10784,13 @@ const A2_BASE_LESSONS: Lesson[] = [
         "sentence": "Escribió el informe clara y ___.",
         "en": "He wrote the report clearly and [carefully].",
         "answer": "cuidadosamente",
-        "hint": "solo el segundo adverbio termina en -mente",
+        "hint": "only the second adverb ends in -mente",
         "explanation": "When two -mente adverbs are joined by y, only the last keeps -mente: clara y cuidadosamente."
       },
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Traduce la oración al inglés.",
+        "prompt": "Translate to English.",
         "source": "Busco a mi amiga; no la veo por ningún lado.",
         "answer": "I'm looking for my friend; I don't see her anywhere.",
         "explanation": "No... por ningún lado = not anywhere. Buscar takes the personal a before a person: busco a mi amiga."
@@ -10788,14 +10801,14 @@ const A2_BASE_LESSONS: Lesson[] = [
     "slug": "personal-a-negation-mente-drill-3",
     "level": "A2",
     "number": 58,
-    "title": "La A Personal, Negación y Adverbios en -mente: Práctica Extra, Part 3 of 3",
-    "summary": "Esta lección es una práctica adicional que combina tres temas ya estudiados: la a personal, las palabras de negación y los adverbios terminados en -mente.",
+    "title": "Personal A, Negation and -mente Adverbs: Extra Practice, Part 3 of 3",
+    "summary": "Extra practice with the personal a, negative words and double negation, and -mente adverbs.",
     "duration": "9 min",
     "sections": [
       {
-        "heading": "Palabras negativas antes del verbo, sin 'no'",
+        "heading": "Negative words before the verb, without no",
         "body": [
-          "Cuando la palabra negativa se coloca antes del verbo, no se usa 'no'."
+          "When the negative word goes before the verb, no is not used."
         ],
         "examples": [
           {
@@ -10810,7 +10823,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál oración es correcta?",
+            "question": "Which sentence is correct?",
             "options": [
               "No nadie viene a la fiesta.",
               "Nadie viene a la fiesta.",
@@ -10822,18 +10835,18 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
-            "sentence": "___ estudia los sábados en mi familia.",
+            "prompt": "Complete the sentence with the correct form.",
+            "sentence": "___ estudia los sábados en mi familia. (nobody)",
             "answer": "Nadie",
-            "hint": "palabra negativa antes del verbo, sin 'no'",
+            "hint": "negative word before the verb, without no",
             "explanation": "Nadie at the start of the sentence doesn't need no."
           }
         ]
       },
       {
-        "heading": "Formación de adverbios en -mente",
+        "heading": "Forming -mente adverbs",
         "body": [
-          "Para formar un adverbio en -mente, se añade -mente a la forma femenina singular del adjetivo."
+          "To form a -mente adverb, add -mente to the feminine singular form of the adjective."
         ],
         "examples": [
           {
@@ -10848,15 +10861,15 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Completa la oración con la forma correcta.",
+            "prompt": "Complete the sentence with the correct form.",
             "sentence": "Ella habla muy ___ en las reuniones.",
             "answer": "claramente",
-            "hint": "adjetivo 'clara' + mente",
+            "hint": "adjective clara + mente",
             "explanation": "Adverbs in -mente are built on the feminine form: clara → claramente."
           },
           {
             "type": "multiple-choice",
-            "question": "¿Cuál es el adverbio correcto de 'feliz'?",
+            "question": "What is the correct adverb from feliz?",
             "options": [
               "felizmente",
               "felizamente",
@@ -10869,9 +10882,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Dos adverbios en -mente unidos por 'y'",
+        "heading": "Two -mente adverbs joined by y",
         "body": [
-          "Cuando dos adverbios en -mente se unen con 'y', solo el segundo lleva la terminación -mente."
+          "When two -mente adverbs are joined by y, only the second one keeps the -mente ending."
         ],
         "examples": [
           {
@@ -10890,12 +10903,12 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "Me explicó el problema lenta y ___.",
             "en": "She explained the problem to me slowly and [carefully].",
             "answer": "cuidadosamente",
-            "hint": "solo el segundo adverbio lleva -mente",
+            "hint": "only the second adverb takes -mente",
             "explanation": "When two -mente adverbs are joined by y, only the last keeps -mente: lenta y cuidadosamente."
           },
           {
             "type": "multiple-choice",
-            "question": "¿Cuál oración es correcta?",
+            "question": "Which sentence is correct?",
             "options": [
               "Trabaja rápidamente y eficaz.",
               "Trabaja rápida y eficazmente.",
@@ -10911,7 +10924,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "matching",
-        "instructions": "Relaciona cada elemento con su pareja correcta.",
+        "instructions": "Match each item with its pair.",
         "pairs": [
           {
             "left": "rápido",
@@ -10942,7 +10955,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál oración combina correctamente la a personal y la negación?",
+        "question": "Which sentence combines the personal a and negation correctly?",
         "options": [
           "No veo nadie en el parque.",
           "No veo a nadie en el parque.",
@@ -10958,12 +10971,12 @@ const A2_BASE_LESSONS: Lesson[] = [
         "sentence": "___ tengo tiempo para descansar entre semana.",
         "en": "I [never] have time to rest during the week.",
         "answer": "Nunca",
-        "hint": "palabra negativa antes del verbo, sin 'no'",
+        "hint": "negative word before the verb, without no",
         "explanation": "Nunca before the verb replaces no. (No tengo tiempo nunca would say the same thing.)"
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración.",
+        "prompt": "Put the words in order to make a sentence.",
         "words": [
           "El",
           "profesor",
@@ -10972,20 +10985,20 @@ const A2_BASE_LESSONS: Lesson[] = [
           "y",
           "sinceramente"
         ],
-        "explanation": "El primer adverbio pierde -mente cuando se une al segundo con 'y'.",
+        "explanation": "The first adverb drops -mente when it is joined to the second by y.",
         "translation": "The teacher spoke clearly and sincerely."
       },
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce la oración al español.",
+        "prompt": "Translate to Spanish.",
         "source": "I always visit my grandmother, but my brother never visits her.",
         "answer": "Siempre visito a mi abuela, pero mi hermano nunca la visita.",
         "explanation": "Nunca goes before the verb with no extra no; la replaces a mi abuela, and visitar takes the personal a before a person."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es la forma correcta de decir 'sincerely and calmly' en español?",
+        "question": "What is the correct way to say 'sincerely and calmly' in Spanish?",
         "options": [
           "sincera y tranquilamente",
           "sinceramente y tranquila",
@@ -11002,7 +11015,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 59,
     "title": "Elementary Vocabulary Practice, Part 1 of 5",
-    "summary": "Test yourself on all 300 words from the Elementary vocabulary lists, grouped by lesson.",
+    "summary": "Review the 60 words from the Travel & Trips and Time Expressions lists, then use them in practice.",
     "duration": "9 min",
     "sections": [
       {
@@ -11324,7 +11337,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce al español.",
+        "prompt": "Translate to Spanish.",
         "source": "the departure (from Unit 1's vocabulary)",
         "answer": "la salida",
         "explanation": "La salida means the departure (also the exit); it's feminine."
@@ -11336,7 +11349,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 60,
     "title": "Elementary Vocabulary Practice, Part 2 of 5",
-    "summary": "Test yourself on all 300 words from the Elementary vocabulary lists, grouped by lesson.",
+    "summary": "Review the 60 words from the Childhood & Memories and Weather & Seasons vocabulary lists.",
     "duration": "10 min",
     "sections": [
       {
@@ -11685,7 +11698,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 61,
     "title": "Elementary Vocabulary Practice, Part 3 of 5",
-    "summary": "Test yourself on all 300 words from the Elementary vocabulary lists, grouped by lesson.",
+    "summary": "Review the 60 words from the Shopping & Objects and Communication & Technology vocabulary lists.",
     "duration": "10 min",
     "sections": [
       {
@@ -11716,7 +11729,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "la rebaja",
-                "right": "the discount"
+                "right": "the price reduction"
               },
               {
                 "left": "caro",
@@ -11990,32 +12003,30 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Qué palabras describen la rutina diaria? (Elige todas las correctas)",
+        "question": "Which words are related to shopping? (Choose all that apply)",
         "options": [
-          "despertarse",
+          "el recibo",
           "el vuelo",
-          "cepillarse",
-          "acostarse"
+          "el probador",
+          "la rebaja"
         ],
         "correctIndexes": [
           0,
           2,
           3
         ],
-        "explanation": "\"El vuelo\" (the flight) belongs to the travel theme, not the daily routine."
+        "explanation": "El recibo (the receipt), el probador (the fitting room) and la rebaja (the sale) are shopping words. \"El vuelo\" (the flight) belongs to the travel theme."
       },
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce al español.",
-        "source": "as much as / as many as (comparing quantities)",
-        "answer": "tanto como",
+        "prompt": "Translate to Spanish.",
+        "source": "cash",
+        "answer": "el efectivo",
         "altAnswers": [
-          "tanta como",
-          "tantos como",
-          "tantas como"
+          "efectivo"
         ],
-        "explanation": "This phrase compares equal quantities of a noun -- tanto/a/os/as agrees in gender and number with the noun it modifies."
+        "explanation": "El efectivo = cash: pagar en efectivo = to pay in cash."
       }
     ]
   },
@@ -12024,7 +12035,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 62,
     "title": "Elementary Vocabulary Practice, Part 4 of 5",
-    "summary": "Test yourself on all 300 words from the Elementary vocabulary lists, grouped by lesson.",
+    "summary": "Review the 60 words from the Body & Daily Routine and Clothing & Sizes vocabulary lists.",
     "duration": "10 min",
     "sections": [
       {
@@ -12356,7 +12367,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué palabra significa \"the neighbor\"?",
+        "question": "Which word means \"the neighbor\"?",
         "options": [
           "el vecino",
           "el barrio",
@@ -12368,7 +12379,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multi-select",
-        "question": "¿Qué palabras se relacionan con la tecnología? (Elige todas las correctas)",
+        "question": "Which words are related to technology? (Choose all that apply)",
         "options": [
           "descargar",
           "la pantalla",
@@ -12412,7 +12423,7 @@ const A2_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "el empleo",
-                "right": "the employment"
+                "right": "the job / employment"
               },
               {
                 "left": "la entrevista",
@@ -12695,49 +12706,49 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce al español.",
+        "prompt": "Translate to Spanish.",
         "source": "the appointment (at the doctor)",
         "answer": "la cita",
         "explanation": "La cita means the appointment (also a date); it's feminine."
       },
       {
         "type": "matching",
-        "instructions": "Match each clothing word to its meaning.",
+        "instructions": "Match each word to its meaning.",
         "pairs": [
           {
-            "left": "la bufanda",
-            "right": "the scarf"
+            "left": "la entrevista",
+            "right": "the interview"
           },
           {
-            "left": "los guantes",
-            "right": "the gloves"
+            "left": "el sueldo",
+            "right": "the salary"
           },
           {
-            "left": "el cinturón",
-            "right": "the belt"
+            "left": "la receta",
+            "right": "the prescription"
           },
           {
-            "left": "quedar bien",
-            "right": "to fit well"
+            "left": "la tos",
+            "right": "the cough"
           },
           {
-            "left": "de moda",
-            "right": "in style"
+            "left": "jubilarse",
+            "right": "to retire"
           }
         ],
-        "explanation": "These five words describe clothing and fit."
+        "explanation": "Three words from the Work list (la entrevista, el sueldo, jubilarse) and two from the Health list (la receta, la tos)."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué significa \"últimamente\"?",
+        "question": "What does \"empeorar\" mean?",
         "options": [
-          "lately",
-          "last night",
-          "next",
-          "each"
+          "to get worse",
+          "to improve",
+          "to get sick",
+          "to breathe"
         ],
         "correctIndex": 0,
-        "explanation": "Últimamente means lately. Last night is anoche, next is próximo, and each is cada."
+        "explanation": "Empeorar means to get worse; mejorar is to improve, enfermarse to get sick and respirar to breathe."
       }
     ]
   },
@@ -12785,7 +12796,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es la forma correcta de \"hacer\" para \"ellos\" en pretérito?",
+        "question": "What is the correct preterite form of hacer for ellos?",
         "options": [
           "hicieron",
           "hacieron",
@@ -12800,11 +12811,11 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Conjugate the verb.",
         "sentence": "¿___ (tener) tú tiempo para llamarme ayer?",
         "answer": "Tuviste",
-        "explanation": "Tener toma la raíz irregular tuv- en el pretérito."
+        "explanation": "Tener takes the irregular stem tuv- in the preterite."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cómo se dice \"they said\"?",
+        "question": "How do you say \"they said\"?",
         "options": [
           "dijieron",
           "dijeron",
@@ -12819,11 +12830,11 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Conjugate the verb.",
         "sentence": "De niña, yo ___ (jugar, imperfecto) en el parque todos los días.",
         "answer": "jugaba",
-        "explanation": "Acción habitual del pasado: imperfecto."
+        "explanation": "A habitual past action takes the imperfect."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es la forma irregular de \"ser\" en imperfecto, nosotros?",
+        "question": "What is the irregular imperfect form of ser for nosotros?",
         "options": [
           "fuimos",
           "éramos",
@@ -12838,30 +12849,30 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Conjugate the verb.",
         "sentence": "Nosotros ___ (ir, imperfecto) a la playa cada verano.",
         "answer": "íbamos",
-        "explanation": "Ir es uno de los tres verbos irregulares en el imperfecto: íbamos."
+        "explanation": "Ir is one of the three irregular verbs in the imperfect: íbamos."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué tiempo verbal describe una acción interrumpida en progreso?",
+        "question": "Which tense describes an action in progress that gets interrupted?",
         "options": [
-          "El pretérito",
-          "El imperfecto",
-          "El futuro",
-          "El presente"
+          "The preterite",
+          "The imperfect",
+          "The future",
+          "The present"
         ],
         "correctIndex": 1,
         "explanation": "The imperfect describes an action in progress that gets interrupted (veía la tele cuando...). The preterite is the interruption itself, and the future and present don't describe the past."
       },
       {
         "type": "fill-blank",
-        "prompt": "Elige el tiempo correcto.",
+        "prompt": "Choose the correct tense.",
         "sentence": "___ (llover, imperfecto) cuando salimos de casa.",
         "answer": "Llovía",
-        "explanation": "La lluvia continua en el fondo va en imperfecto."
+        "explanation": "Ongoing rain in the background takes the imperfect."
       },
       {
         "type": "multi-select",
-        "question": "¿Qué palabras señalan el pretérito? (Elige todas las correctas)",
+        "question": "Which words signal the preterite? (Choose all that apply)",
         "options": [
           "ayer",
           "siempre",
@@ -12877,14 +12888,14 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Reemplaza el objeto directo.",
+        "prompt": "Replace the direct object with a pronoun.",
         "sentence": "¿Compraste el pan? Sí, ___ compré.",
         "answer": "lo",
-        "explanation": "\"El pan\" es masculino singular: lo."
+        "explanation": "El pan is masculine singular: lo."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es correcto?",
+        "question": "Which is correct?",
         "options": [
           "Voy a leerlo.",
           "Voy a lo leer.",
@@ -12926,21 +12937,21 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Reemplaza el objeto directo.",
+        "prompt": "Replace the direct object with a pronoun.",
         "sentence": "¿Ves a mis primas? Sí, ___ veo.",
         "answer": "las",
-        "explanation": "\"Mis primas\" es femenino plural: las."
+        "explanation": "Mis primas is feminine plural: las."
       },
       {
         "type": "fill-blank",
-        "prompt": "Elige el pronombre de objeto indirecto correcto.",
+        "prompt": "Choose the correct indirect object pronoun.",
         "sentence": "___ escribo un correo a mi jefe. (a él)",
         "answer": "Le",
-        "explanation": "\"A él\" corresponde al pronombre le."
+        "explanation": "A él (to him) corresponds to the pronoun le."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál verbo casi siempre lleva objeto indirecto?",
+        "question": "Which verb almost always takes an indirect object?",
         "options": [
           "correr",
           "dormir",
@@ -12955,11 +12966,11 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Conjugate the reflexive verb.",
         "sentence": "Yo ___ (despertarse) muy temprano los lunes.",
         "answer": "me despierto",
-        "explanation": "Despertarse: e→ie, más el pronombre reflexivo me."
+        "explanation": "Despertarse: e→ie, plus the reflexive pronoun me."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál oración es reflexiva?",
+        "question": "Which sentence is reflexive?",
         "options": [
           "Lavo el carro.",
           "Me lavo las manos.",
@@ -12974,18 +12985,18 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Conjugate the reflexive verb.",
         "sentence": "Ellos ___ (acostarse) muy tarde los viernes.",
         "answer": "se acuestan",
-        "explanation": "Acostarse: o→ue, más el pronombre reflexivo se."
+        "explanation": "Acostarse: o→ue, plus the reflexive pronoun se."
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa la comparación.",
+        "prompt": "Complete the comparison.",
         "sentence": "Mi casa es ___ grande como la tuya. (as...as)",
         "answer": "tan",
-        "explanation": "Tan + adjetivo + como expresa igualdad: tan grande como la tuya."
+        "explanation": "Tan + adjective + como expresses equality: tan grande como la tuya."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cómo se dice \"older\" (comparativo irregular)?",
+        "question": "How do you say \"older\" (irregular comparative)?",
         "options": [
           "más viejo",
           "mayor",
@@ -12997,14 +13008,14 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa el superlativo.",
+        "prompt": "Complete the superlative.",
         "sentence": "Este es ___ restaurante más caro de la ciudad.",
         "answer": "el",
-        "explanation": "El artículo concuerda con \"restaurante\", masculino: el."
+        "explanation": "The article agrees with restaurante, which is masculine: el."
       },
       {
         "type": "multi-select",
-        "question": "¿Qué adjetivos tienen comparativos irregulares? (Elige todas las correctas)",
+        "question": "Which adjectives have irregular comparatives? (Choose all that apply)",
         "options": [
           "bueno",
           "malo",
@@ -13023,11 +13034,11 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Conjugate the verb in the future.",
         "sentence": "Mañana yo ___ (llamar) al médico.",
         "answer": "llamaré",
-        "explanation": "El futuro regular agrega -é al infinitivo: llamaré."
+        "explanation": "The regular future adds -é to the infinitive: llamaré."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es la raíz irregular de \"poner\" en futuro?",
+        "question": "What is the irregular future stem of poner?",
         "options": [
           "pon-",
           "pond-",
@@ -13078,11 +13089,11 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Conjugate the verb in the future.",
         "sentence": "¿Qué ___ (hacer) tú este fin de semana?",
         "answer": "harás",
-        "explanation": "El futuro irregular de hacer usa la raíz har-: harás."
+        "explanation": "Hacer's irregular future uses the stem har-: harás."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué expresión se usa típicamente con el futuro?",
+        "question": "Which expression typically goes with the future?",
         "options": [
           "ayer",
           "anoche",
@@ -13094,33 +13105,33 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Elige por o para.",
+        "prompt": "Complete with por or para.",
         "sentence": "Este regalo es ___ mi mamá.",
         "answer": "para",
-        "explanation": "\"Para\" indica el destinatario del regalo."
+        "explanation": "Para marks who the gift is for (the recipient)."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué preposición expresa duración de tiempo?",
+        "question": "Which preposition can express duration?",
         "options": [
           "para",
           "por",
-          "las dos",
-          "ninguna"
+          "both",
+          "neither"
         ],
         "correctIndex": 1,
         "explanation": "Of the two, por is the one that can express duration: estudié por tres horas. In everyday speech natives more often say estudié tres horas or estudié durante tres horas."
       },
       {
         "type": "fill-blank",
-        "prompt": "Elige por o para.",
+        "prompt": "Complete with por or para.",
         "sentence": "Salimos ___ Barcelona el lunes.",
         "answer": "para",
         "explanation": "Para marks a destination: salimos para Barcelona. Salir de would mean leaving from Barcelona."
       },
       {
         "type": "multi-select",
-        "question": "¿Qué expresiones fijas usan \"por\"? (Elige todas las correctas)",
+        "question": "Which fixed expressions use por? (Choose all that apply)",
         "options": [
           "por favor",
           "por eso",
@@ -13136,7 +13147,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras.",
+        "prompt": "Put the words in order.",
         "words": [
           "Cuando",
           "era",
@@ -13146,12 +13157,12 @@ const A2_BASE_LESSONS: Lesson[] = [
           "una",
           "granja"
         ],
-        "explanation": "Imperfecto para descripción de fondo de la niñez.",
+        "explanation": "The imperfect describes the background of childhood: era, vivía.",
         "translation": "When I was a boy, I lived on a farm."
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras.",
+        "prompt": "Put the words in order.",
         "words": [
           "Ayer",
           "compré",
@@ -13161,7 +13172,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "mi",
           "hermano"
         ],
-        "explanation": "Pretérito para una acción completa y puntual.",
+        "explanation": "The preterite is for a single completed action: compré.",
         "translation": "Yesterday I bought a gift for my brother."
       },
       {
@@ -13229,7 +13240,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "En el recreo, Marta come sola en el patio. De repente, un chico se acerca. Se llama Diego y tiene una carpeta llena de dibujos. \"¿Puedo sentarme aquí?\", pregunta. Marta dice que sí y le muestra su propio cuaderno de dibujos.",
           "Diego mira los dibujos de Marta y dice: \"¡Son fantásticos! ¿Te gusta dibujar animales?\" Marta sonríe por primera vez ese día. Los dos hablan sobre sus dibujos favoritos y descubren que a ambos les gusta el arte.",
           "Después del recreo, Diego invita a Marta a sentarse con su grupo de amigos en el almuerzo. Marta conoce a otros tres estudiantes: Ana, Pablo y Sofía. Todos son simpáticos y hacen muchas preguntas sobre su ciudad antigua.",
-          "Al final del día, Marta camina hacia el carro de su mamá con una sonrisa grande. \"¿Cómo estuvo tu primer día?\", pregunta su mamá. \"Fue difícil por la mañana, pero ahora tengo nuevos amigos,\" responde Marta. \"Se llaman Diego, Ana, Pablo y Sofía.\"",
+          "Al final del día, Marta camina hacia el carro de su mamá con una sonrisa grande. \"¿Cómo estuvo tu primer día?\", pregunta su mamá. \"Fue difícil por la mañana, pero ahora tengo nuevos amigos\", responde Marta. \"Se llaman Diego, Ana, Pablo y Sofía.\"",
           "Esa noche, Marta escribe en su diario sobre su nuevo amigo Diego y sus dibujos. Piensa que quizás la escuela nueva no es tan mala. Mañana va a llevar más dibujos para mostrarle a Diego y a sus nuevos amigos."
         ]
       }
@@ -13288,9 +13299,9 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Un sábado por la tarde, Tomás lleva a Toby al parque como siempre. De repente, un gato cruza el camino y Toby corre muy rápido detrás de él. Tomás grita \"¡Toby, vuelve!\", pero el perro no lo escucha y desaparece entre los árboles.",
           "Tomás busca a Toby por todo el parque, pero no lo encuentra. Está muy triste y empieza a llorar. Su hermana lo ayuda a hacer carteles con una foto de Toby para poner en las calles del barrio.",
           "Mientras tanto, una mujer llamada Rosa camina por su jardín y ve un perro pequeño y marrón cerca de su casa. El perro tiene hambre y está asustado. Rosa le da un poco de agua y comida, y el perro se calma poco a poco.",
-          "Rosa mira el collar del perro y ve un número de teléfono. Ella llama inmediatamente a la familia de Tomás. \"Encontré a un perro marrón con un collar azul,\" dice Rosa. \"Creo que es de ustedes.\"",
+          "Rosa mira el collar del perro y ve un número de teléfono. Ella llama inmediatamente a la familia de Tomás. \"Encontré a un perro marrón con un collar azul\", dice Rosa. \"Creo que es de ustedes.\"",
           "La mamá de Tomás recibe la llamada y le dice a Tomás la buena noticia. Toda la familia va rápidamente a la casa de Rosa. Cuando Tomás ve a Toby, corre hacia él y lo abraza fuerte. Toby mueve la cola con mucha alegría.",
-          "Tomás le da las gracias a Rosa muchas veces. \"Usted es muy amable,\" dice Tomás. Rosa sonríe y responde: \"Me gustan mucho los animales. Estoy feliz de ayudar.\" La familia de Tomás decide invitar a Rosa a tomar un café la próxima semana.",
+          "Tomás le da las gracias a Rosa muchas veces. \"Usted es muy amable\", dice Tomás. Rosa sonríe y responde: \"Me gustan mucho los animales. Estoy feliz de ayudar.\" La familia de Tomás decide invitar a Rosa a tomar un café la próxima semana.",
           "Desde ese día, Tomás siempre le pone a Toby un collar más seguro y nunca lo deja correr sin correa en el parque. También visita a Rosa de vez en cuando con Toby, y los dos se hacen buenos amigos del barrio."
         ]
       }
@@ -13352,7 +13363,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Cuando llega la noche, todos se sientan alrededor de una fogata grande. La profesora tuesta malvaviscos y los estudiantes cuentan historias divertidas. Carla canta una canción y todos la acompañan. El cielo está lleno de estrellas y nadie quiere dormir todavía.",
           "A la mañana siguiente, empieza a llover mucho. Los estudiantes tienen que quedarse dentro de las tiendas. Al principio están tristes porque no pueden caminar por el bosque, pero después juegan a las cartas y cuentan chistes dentro de la tienda.",
           "Por la tarde, la lluvia para y sale el sol. Todos salen de las tiendas y juegan un partido de fútbol en un campo cerca del lago. Marco anota el gol de la victoria y todo el grupo celebra con mucha alegría.",
-          "Cuando el autobús regresa a la escuela, los estudiantes están cansados pero muy contentos. \"Fue el mejor viaje de mi vida,\" dice Marco. La señora Vidal sonríe y dice que el próximo año van a organizar otro campamento todavía más grande."
+          "Cuando el autobús regresa a la escuela, los estudiantes están cansados pero muy contentos. \"Fue el mejor viaje de mi vida\", dice Marco. La señora Vidal sonríe y dice que el próximo año van a organizar otro campamento todavía más grande."
         ]
       }
     ],
@@ -13408,12 +13419,12 @@ const A2_BASE_LESSONS: Lesson[] = [
         "body": [
           "Lucía y Mateo son hermanos, pero siempre compiten por todo. Compiten por quién come más rápido, quién corre más rápido y quién saca mejores notas en la escuela. Sus padres están cansados de las peleas constantes entre ellos.",
           "Un día, la profesora anuncia un proyecto especial de ciencias. Los estudiantes tienen que trabajar en parejas y construir un modelo del sistema solar. La profesora decide las parejas, y Lucía y Mateo tienen que trabajar juntos.",
-          "Al principio, los dos hermanos no están contentos. \"Yo quiero hacer el sol,\" dice Lucía. \"No, yo quiero hacer el sol,\" responde Mateo. Discuten durante media hora sin decidir nada, y no empiezan el proyecto.",
-          "Esa noche, su papá habla con ellos. \"Ustedes son un buen equipo cuando no compiten,\" dice. \"¿Por qué no prueban a trabajar juntos por una vez?\" Lucía y Mateo se miran y deciden intentarlo.",
+          "Al principio, los dos hermanos no están contentos. \"Yo quiero hacer el sol\", dice Lucía. \"No, yo quiero hacer el sol\", responde Mateo. Discuten durante media hora sin decidir nada, y no empiezan el proyecto.",
+          "Esa noche, su papá habla con ellos. \"Ustedes son un buen equipo cuando no compiten\", dice. \"¿Por qué no prueban a trabajar juntos por una vez?\" Lucía y Mateo se miran y deciden intentarlo.",
           "Al día siguiente, dividen las tareas de una manera diferente. Lucía pinta los planetas porque le gusta el arte. Mateo escribe la información sobre cada planeta porque le gusta leer y escribir. Los dos trabajan en la mesa de la cocina toda la tarde.",
           "Poco a poco, los hermanos empiezan a hablar sin pelear. Mateo ayuda a Lucía a pintar los anillos de Saturno, y Lucía le da ideas a Mateo para su presentación. Los dos se ríen cuando el planeta Marte se cae de la mesa.",
           "El día de la presentación, Lucía y Mateo muestran su modelo del sistema solar a toda la clase. Es el proyecto más colorido y organizado del salón. La profesora les da la nota más alta de la clase.",
-          "Después de la escuela, Lucía y Mateo caminan juntos a casa con el modelo. \"Trabajamos bien juntos,\" dice Mateo. \"Sí, deberíamos hacerlo más,\" responde Lucía. Desde ese día, los hermanos todavía compiten un poco, pero también se ayudan mucho más."
+          "Después de la escuela, Lucía y Mateo caminan juntos a casa con el modelo. \"Trabajamos bien juntos\", dice Mateo. \"Sí, deberíamos hacerlo más\", responde Lucía. Desde ese día, los hermanos todavía compiten un poco, pero también se ayudan mucho más."
         ]
       }
     ],
@@ -13468,13 +13479,13 @@ const A2_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "La familia Ramírez sale de vacaciones a la playa. El viaje dura seis horas en carro, y todos están emocionados. Los dos hijos, Elena y Javier, juegan videojuegos en el asiento trasero y cantan canciones con sus padres.",
-          "Después de tres horas de viaje, el carro empieza a hacer un ruido extraño. El papá, Roberto, mira el motor con cara de preocupación. \"Creo que tenemos un problema,\" dice. El carro para completamente en una carretera pequeña, lejos de la ciudad.",
+          "Después de tres horas de viaje, el carro empieza a hacer un ruido extraño. El papá, Roberto, mira el motor con cara de preocupación. \"Creo que tenemos un problema\", dice. El carro para completamente en una carretera pequeña, lejos de la ciudad.",
           "La familia no tiene señal de teléfono y no sabe qué hacer. Javier está nervioso porque no hay nadie cerca. Después de veinte minutos, un camión pasa por la carretera y el conductor para para ayudar.",
-          "El conductor se llama Carlos y vive en un pueblo pequeño cerca de allí. \"Puedo llevarlos al taller de mi primo,\" dice Carlos. La familia sube al camión con las maletas, y Carlos los lleva al pueblo.",
-          "El taller está cerrado los domingos, pero el mecánico, que se llama Pedro, vive al lado y decide ayudar de todas formas. Pedro revisa el motor y encuentra el problema rápidamente. \"Necesito una pieza nueva, pero la tengo en mi taller,\" dice.",
+          "El conductor se llama Carlos y vive en un pueblo pequeño cerca de allí. \"Puedo llevarlos al taller de mi primo\", dice Carlos. La familia sube al camión con las maletas, y Carlos los lleva al pueblo.",
+          "El taller está cerrado los domingos, pero el mecánico, que se llama Pedro, vive al lado y decide ayudar de todas formas. Pedro revisa el motor y encuentra el problema rápidamente. \"Necesito una pieza nueva, pero la tengo en mi taller\", dice.",
           "Mientras Pedro repara el carro, la familia camina por el pueblo. Descubren una plaza pequeña con una heladería y compran helados de chocolate. Elena habla con unos niños del pueblo y juegan a la pelota en la plaza.",
-          "Después de dos horas, Pedro termina de reparar el carro. \"Ya está listo,\" dice con una sonrisa. Roberto le paga y le da las gracias muchas veces. La familia también le da las gracias a Carlos por su ayuda.",
-          "Finalmente, la familia llega a la playa por la noche, más tarde de lo planeado. Pero todos están de buen humor. \"El problema del carro fue malo, pero conocimos a personas muy buenas,\" dice la mamá. Elena está de acuerdo: fue un día diferente, pero divertido."
+          "Después de dos horas, Pedro termina de reparar el carro. \"Ya está listo\", dice con una sonrisa. Roberto le paga y le da las gracias muchas veces. La familia también le da las gracias a Carlos por su ayuda.",
+          "Finalmente, la familia llega a la playa por la noche, más tarde de lo planeado. Pero todos están de buen humor. \"El problema del carro fue malo, pero conocimos a personas muy buenas\", dice la mamá. Elena está de acuerdo: fue un día diferente, pero divertido."
         ]
       }
     ],
@@ -13529,8 +13540,8 @@ const A2_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "Valentina quiere participar en el show de talentos de su escuela. A ella le encanta cantar, pero solo canta en su habitación, nunca delante de otras personas. Su mejor amiga, Camila, la anima a inscribirse en el show.",
-          "\"Tienes una voz hermosa,\" dice Camila. \"A todos les va a encantar tu canción.\" Valentina está nerviosa, pero finalmente decide participar. Escribe su nombre en la lista y elige una canción sobre la amistad.",
-          "Durante las siguientes dos semanas, Valentina practica todos los días después de la escuela. Camila la escucha y le da consejos. A veces Valentina quiere abandonar porque tiene miedo de olvidar la letra en frente de todos.",
+          "\"Tienes una voz hermosa\", dice Camila. \"A todos les va a encantar tu canción.\" Valentina está nerviosa, pero finalmente decide participar. Escribe su nombre en la lista y elige una canción sobre la amistad.",
+          "Durante las siguientes dos semanas, Valentina practica todos los días después de la escuela. Camila la escucha y le da consejos. A veces Valentina quiere abandonar porque tiene miedo de olvidar la letra delante de todos.",
           "La noche del show de talentos, el auditorio está lleno de estudiantes, profesores y padres. Valentina espera detrás del escenario con las manos frías y el corazón acelerado. Ve a otros estudiantes bailar, tocar el piano y hacer magia.",
           "Cuando el presentador dice su nombre, Valentina camina hacia el escenario muy despacio. Mira al público y ve a Camila en la primera fila, sonriendo y levantando el pulgar. Eso le da un poco de confianza.",
           "La música empieza, y Valentina abre la boca para cantar. Al principio, su voz tiembla un poco, pero luego se relaja y canta con todo su corazón. El público escucha en silencio y algunos empiezan a sonreír.",
@@ -13592,7 +13603,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Andrés y su compañera de clase, Julia, tienen que hacer un proyecto para la feria de ciencias. Deciden estudiar cómo crecen las plantas con diferentes tipos de luz. Compran tres plantas pequeñas y las ponen en lugares diferentes de la casa de Andrés.",
           "La primera planta está cerca de la ventana con mucha luz del sol. La segunda planta está en una habitación con poca luz. La tercera planta está en un armario oscuro, sin luz. Andrés y Julia riegan las tres plantas todos los días.",
           "Durante dos semanas, los dos amigos escriben notas sobre el crecimiento de cada planta. La planta con mucha luz crece rápido y tiene hojas verdes y grandes. La planta con poca luz crece más despacio. La planta sin luz empieza a ponerse amarilla.",
-          "Una semana antes de la feria, Julia se pone nerviosa. \"Nuestras fotos no son muy claras,\" dice. \"Necesitamos un cartel mejor.\" Los dos deciden hacer un cartel nuevo con fotos más grandes y gráficos de colores para mostrar los resultados.",
+          "Una semana antes de la feria, Julia se pone nerviosa. \"Nuestras fotos no son muy claras\", dice. \"Necesitamos un cartel mejor.\" Los dos deciden hacer un cartel nuevo con fotos más grandes y gráficos de colores para mostrar los resultados.",
           "El día antes de la feria, Andrés practica su presentación frente al espejo. Explica por qué las plantas necesitan luz para crecer bien. Julia practica también, y los dos se ayudan a recordar todos los detalles importantes.",
           "El día de la feria, muchos estudiantes muestran sus proyectos en el gimnasio de la escuela. Hay proyectos sobre volcanes, robots y el clima. Andrés y Julia ponen sus tres plantas en la mesa junto con su cartel colorido.",
           "Los jueces caminan por el gimnasio y hacen preguntas a cada estudiante. Cuando llegan a la mesa de Andrés y Julia, los dos explican su experimento con mucha confianza. Los jueces sonríen y anotan algo en su lista.",
@@ -13654,10 +13665,10 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Cuando el grupo entra en la sala de dinosaurios, Bruno se queda mirando un esqueleto enorme. Es el más grande que ha visto en su vida. Lee cada palabra del cartel y no se da cuenta de que su clase ya sale de la sala.",
           "Unos minutos después, Bruno mira a su alrededor y no ve a nadie de su clase. Empieza a sentirse un poco asustado. Camina por varios pasillos, pero no encuentra a sus compañeros ni a su profesor.",
           "Una guía del museo, llamada Marisol, ve a Bruno solo cerca de la sala de arte. \"¿Estás perdido?\", le pregunta con voz amable. Bruno le explica que perdió a su clase mientras miraba los dinosaurios.",
-          "Marisol saca su radio y habla con otros trabajadores del museo. \"Tenemos un estudiante perdido de la escuela San Martín,\" dice. Mientras esperan noticias, Marisol le muestra a Bruno una sala con objetos de Egipto antiguo para calmarlo.",
+          "Marisol saca su radio y habla con otros trabajadores del museo. \"Tenemos un estudiante perdido de la escuela San Martín\", dice. Mientras esperan noticias, Marisol le muestra a Bruno una sala con objetos de Egipto antiguo para calmarlo.",
           "Después de diez minutos, otro trabajador encuentra al señor Fernández, que está buscando a Bruno con mucha preocupación. El profesor corre hacia la sala de Egipto y abraza a Bruno con alivio. \"¡No puedes separarte del grupo así!\", le dice, pero también está feliz de encontrarlo.",
           "Bruno le da las gracias a Marisol por su ayuda y le pregunta sobre los dinosaurios. Marisol le cuenta datos interesantes sobre el esqueleto que él estaba mirando. Bruno escucha con mucha atención y hace muchas preguntas más.",
-          "Durante el resto de la visita, Bruno camina siempre cerca de su profesor. En el autobús de regreso a la escuela, les cuenta a sus amigos toda la aventura. \"Me perdí, pero conocí a una guía muy simpática que sabe todo sobre dinosaurios,\" dice con una sonrisa."
+          "Durante el resto de la visita, Bruno camina siempre cerca de su profesor. En el autobús de regreso a la escuela, les cuenta a sus amigos toda la aventura. \"Me perdí, pero conocí a una guía muy simpática que sabe todo sobre dinosaurios\", dice con una sonrisa."
         ]
       }
     ],
@@ -13715,10 +13726,10 @@ const A2_BASE_LESSONS: Lesson[] = [
           "El sábado por la mañana, el abuelo saca dos kayaks pequeños del garaje. \"¿Quién quiere ir al lago conmigo?\", pregunta. Nico corre inmediatamente hacia el agua, pero Sara se queda cerca de la casa, mirando el lago desde lejos.",
           "\"¿Qué pasa, Sara?\", pregunta su abuela. Sara explica que tiene miedo del agua profunda porque no sabe nadar muy bien. Su abuela la abraza y le dice: \"No tienes que hacerlo hoy. Podemos caminar por la orilla del lago.\"",
           "Sara y su abuela caminan por la orilla mientras Nico y el abuelo reman en los kayaks. Sara observa cómo su primo se divierte en el agua, y poco a poco empieza a sentir curiosidad en lugar de miedo.",
-          "Por la tarde, el abuelo le ofrece a Sara un chaleco salvavidas especial. \"Este chaleco te ayuda a flotar. Podemos empezar en la parte del lago donde el agua no es profunda,\" dice. Sara piensa un momento y decide intentarlo.",
+          "Por la tarde, el abuelo le ofrece a Sara un chaleco salvavidas especial. \"Este chaleco te ayuda a flotar. Podemos empezar en la parte del lago donde el agua no es profunda\", dice. Sara piensa un momento y decide intentarlo.",
           "Con el chaleco puesto, Sara entra al agua poco a poco, primero hasta las rodillas y después hasta la cintura. El abuelo está a su lado todo el tiempo. Al principio, Sara está muy tensa, pero después de unos minutos empieza a relajarse.",
           "Nico rema hasta donde está Sara y le ofrece subir a su kayak por un momento. Sara se sube con cuidado y los dos primos reman juntos cerca de la orilla. Sara sonríe y dice: \"¡Esto no es tan malo!\"",
-          "El domingo, antes de regresar a casa, Sara nada un poco más lejos con su chaleco salvavidas, sin ayuda de nadie. Su abuela la aplaude desde la orilla. \"Estoy muy orgullosa de ti,\" dice. Sara se siente valiente y ya no tiene tanto miedo del lago."
+          "El domingo, antes de regresar a casa, Sara nada un poco más lejos con su chaleco salvavidas, sin ayuda de nadie. Su abuela la aplaude desde la orilla. \"Estoy muy orgullosa de ti\", dice. Sara se siente valiente y ya no tiene tanto miedo del lago."
         ]
       }
     ],
@@ -13774,12 +13785,12 @@ const A2_BASE_LESSONS: Lesson[] = [
         "body": [
           "Cada año, la escuela organiza una competencia de cocina para recaudar dinero para la biblioteca. Los estudiantes preparan postres y los venden en el patio. Este año, Emma y su amigo Leo deciden participar, pero en equipos diferentes.",
           "Emma decide hacer un pastel de chocolate con fresas. Practica la receta tres veces en su casa con la ayuda de su papá. Leo, por su parte, decide hacer galletas de limón, una receta secreta de su abuela.",
-          "Los dos amigos hablan sobre la competencia todos los días en la escuela. \"Mi pastel va a ser mejor,\" dice Emma, riendo. \"No, mis galletas van a ganar,\" responde Leo. Es una competencia amistosa, sin problemas entre ellos.",
+          "Los dos amigos hablan sobre la competencia todos los días en la escuela. \"Mi pastel va a ser mejor\", dice Emma, riendo. \"No, mis galletas van a ganar\", responde Leo. Es una competencia amistosa, sin problemas entre ellos.",
           "El día antes de la competencia, Emma tiene un problema grande. El horno de su casa se rompe y no puede terminar su pastel. Está muy preocupada porque no tiene tiempo para comprar otro horno o ir a otra casa.",
-          "Leo se entera del problema de Emma por mensaje de texto. Sin pensarlo mucho, decide ir a la casa de Emma con los ingredientes para sus galletas. \"Vamos a mi casa a cocinar los dos,\" dice Leo.",
+          "Leo se entera del problema de Emma por mensaje de texto. Sin pensarlo mucho, decide invitar a Emma a cocinar en su casa. \"Vamos a mi casa a cocinar los dos\", dice Leo.",
           "Emma y Leo pasan la tarde en la cocina de Leo. Preparan el pastel de chocolate y las galletas de limón juntos, ayudándose el uno al otro. Se ríen mucho y también prueban un poco de la masa antes de hornear todo.",
           "El día de la competencia, Emma y Leo llegan con sus dos postres. Muchos estudiantes compran el pastel y las galletas, y todos dicen que están deliciosos. Al final del día, el director anuncia que las galletas de Leo ganan el primer premio.",
-          "Emma se alegra por su amigo, sin ningún problema. \"Gracias por ayudarme. Sin ti, no habría podido terminar mi pastel,\" dice Emma. Leo responde: \"Y tú me ayudaste mucho con la masa de las galletas.\" Los dos deciden que el próximo año van a competir juntos, como un solo equipo."
+          "Emma se alegra por su amigo, sin ningún problema. \"Gracias por ayudarme. Sin ti, no habría podido terminar mi pastel\", dice Emma. Leo responde: \"Y tú me ayudaste mucho con la masa de las galletas.\" Los dos deciden que el próximo año van a competir juntos, como un solo equipo."
         ]
       }
     ],
@@ -13806,7 +13817,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "He enters the contest for her"
         ],
         "correctIndex": 1,
-        "explanation": "\"Vamos a mi casa a cocinar los dos,\" dice Leo — Leo says let's go to my house to cook together."
+        "explanation": "\"Vamos a mi casa a cocinar los dos\", dice Leo — Leo says let's go to my house to cook together."
       },
       {
         "type": "multiple-choice",
@@ -13840,7 +13851,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "El club organiza un pequeño torneo entre los estudiantes. Iker juega su primera partida contra una chica llamada Valeria, que es una de las mejores jugadoras del club. Iker juega con cuidado, pero después de cuarenta minutos, pierde la partida.",
           "Al principio, Iker se siente un poco triste por perder. Pero Valeria le dice: \"Jugaste muy bien para ser nuevo. Mira, aquí cometiste un pequeño error.\" Valeria le muestra el error con paciencia, y esto ayuda a Iker a entender mejor el juego.",
           "Iker sigue practicando cada semana, tanto en el parque con el señor Ortiz como en el club de la escuela. Poco a poco, gana más partidas y aprende nuevas estrategias. Sus compañeros del club notan que mejora rápidamente cada mes.",
-          "Tres meses después, Iker participa en otro torneo del club y gana su primera partida contra un estudiante mayor. Corre a contarle la noticia al señor Ortiz ese domingo. \"Sabía que ibas a mejorar mucho,\" dice el señor Ortiz con orgullo. Iker sonríe: el ajedrez ya es su pasatiempo favorito."
+          "Tres meses después, Iker participa en otro torneo del club y gana su primera partida contra un estudiante mayor. Corre a contarle la noticia al señor Ortiz ese domingo. \"Sabía que ibas a mejorar mucho\", dice el señor Ortiz con orgullo. Iker sonríe: el ajedrez ya es su pasatiempo favorito."
         ]
       }
     ],
@@ -13897,10 +13908,10 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Nora y Bea son mejores amigas desde hace cinco años. Todos los viernes, se juntan para ver películas en la casa de una de las dos. Pero un viernes, algo extraño pasa entre ellas.",
           "Nora le envía un mensaje a Bea para invitarla a su casa a las cinco de la tarde. Espera toda la tarde, pero Bea nunca llega ni responde el mensaje. Nora se siente triste y un poco enojada.",
           "El lunes en la escuela, Nora ve a Bea en el pasillo, pero no le habla. Bea nota que Nora está distante y le pregunta: \"¿Está todo bien?\" Nora responde con voz seria: \"No fuiste a mi casa el viernes y ni siquiera respondiste mi mensaje.\"",
-          "Bea se sorprende mucho. \"¿Qué mensaje? Yo no recibí nada de ti,\" dice. Nora no le cree al principio porque piensa que Bea solo busca una excusa. Las dos amigas no se hablan durante toda la semana, y ambas están tristes por la situación.",
-          "El sábado, la mamá de Bea encuentra el teléfono viejo de Bea en un cajón. \"Creo que tu teléfono nuevo tiene un problema con los mensajes,\" dice. Bea revisa la configuración de su teléfono y descubre que los mensajes de Nora nunca llegaron por un error técnico.",
-          "Bea llama a Nora inmediatamente y le explica todo. \"Mi teléfono tenía un problema. Nunca vi tus mensajes, lo prometo,\" dice Bea. Nora escucha con atención y se da cuenta de que juzgó a su amiga sin tener toda la información.",
-          "\"Siento mucho no haberte creído,\" dice Nora. \"Debí preguntarte primero antes de enojarme.\" Bea responde: \"Está bien, yo también entiendo por qué pensaste eso.\" Las dos amigas se ríen un poco, aliviadas de resolver el problema.",
+          "Bea se sorprende mucho. \"¿Qué mensaje? Yo no recibí nada de ti\", dice. Nora no le cree al principio porque piensa que Bea solo busca una excusa. Las dos amigas no se hablan durante toda la semana, y ambas están tristes por la situación.",
+          "El sábado, la mamá de Bea encuentra el teléfono viejo de Bea en un cajón. \"Creo que tu teléfono nuevo tiene un problema con los mensajes\", dice. Bea revisa la configuración de su teléfono y descubre que los mensajes de Nora nunca llegaron por un error técnico.",
+          "Bea llama a Nora inmediatamente y le explica todo. \"Mi teléfono tenía un problema. Nunca vi tus mensajes, lo prometo\", dice Bea. Nora escucha con atención y se da cuenta de que juzgó a su amiga sin tener toda la información.",
+          "\"Siento mucho no haberte creído\", dice Nora. \"Debí preguntarte primero antes de enojarme.\" Bea responde: \"Está bien, yo también entiendo por qué pensaste eso.\" Las dos amigas se ríen un poco, aliviadas de resolver el problema.",
           "El viernes siguiente, Nora y Bea se juntan de nuevo para ver una película, como siempre. Esta vez, las dos deciden llamarse por teléfono en lugar de solo enviar mensajes, para evitar otro malentendido. Su amistad es más fuerte después de este pequeño problema."
         ]
       }
@@ -13956,13 +13967,13 @@ const A2_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "Los hermanos Dani y Paula quieren organizar una fiesta sorpresa para el cumpleaños de su mamá. Su mamá trabaja mucho y nunca tiene tiempo para celebrar su propio cumpleaños. Los dos hermanos deciden cambiar eso este año.",
-          "Primero, hablan en secreto con su papá, quien está muy contento con la idea. \"Podemos invitar a los tíos y a los abuelos,\" sugiere Dani. Paula escribe una lista de invitados mientras su papá piensa en cómo mantener a mamá ocupada ese día.",
+          "Primero, hablan en secreto con su papá, quien está muy contento con la idea. \"Podemos invitar a los tíos y a los abuelos\", sugiere Dani. Paula escribe una lista de invitados mientras su papá piensa en cómo mantener a mamá ocupada ese día.",
           "Durante dos semanas, los hermanos planean todo con mucho cuidado. Compran globos y decoraciones cuando su mamá no está en casa. Esconden todo en el garaje para que ella no encuentre nada por accidente.",
           "El día del cumpleaños, el papá lleva a su esposa a comer a un restaurante especial, mientras Dani y Paula preparan la casa con la ayuda de sus abuelos. Cuelgan globos de colores, ponen una mesa larga y hacen un cartel grande que dice \"¡Feliz cumpleaños, mamá!\"",
           "Paula intenta hacer un pastel de vainilla, pero se le olvida poner un ingrediente importante y el pastel no sube bien en el horno. Dani la ayuda a arreglarlo con un poco de crema y frutas encima, y el pastel se ve bonito de todas formas.",
           "A las siete de la tarde, todos los invitados llegan a la casa y se esconden detrás del sofá. Cuando el papá y la mamá entran por la puerta, todos gritan \"¡Sorpresa!\" al mismo tiempo. La mamá se lleva las manos a la cara, sorprendida y emocionada.",
-          "\"No puedo creer que hayan hecho todo esto,\" dice la mamá con lágrimas de felicidad. Abraza a Dani y a Paula muy fuerte. Todos cantan la canción de cumpleaños y comen el pastel, que sabe mejor de lo que parece.",
-          "Después de la fiesta, la mamá les da las gracias a sus hijos por el esfuerzo y el cariño. \"Este es el mejor cumpleaños que he tenido en años,\" dice. Dani y Paula deciden que van a organizar una fiesta sorpresa cada año a partir de ahora."
+          "\"No puedo creer que hayan hecho todo esto\", dice la mamá con lágrimas de felicidad. Abraza a Dani y a Paula muy fuerte. Todos cantan la canción de cumpleaños y comen el pastel, que sabe mejor de lo que parece.",
+          "Después de la fiesta, la mamá les da las gracias a sus hijos por el esfuerzo y el cariño. \"Este es el mejor cumpleaños que he tenido en años\", dice. Dani y Paula deciden que van a organizar una fiesta sorpresa cada año a partir de ahora."
         ]
       }
     ],
@@ -14017,12 +14028,12 @@ const A2_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "La familia Vega está de vacaciones en un pequeño pueblo junto a la playa. Los niños, Rafael e Isabel, esperan todo el año para nadar en el mar y construir castillos de arena. Pero el primer día de las vacaciones, empieza a llover mucho.",
-          "Rafael mira por la ventana con cara triste. \"No podemos ir a la playa,\" dice. Isabel también está desanimada porque planeaba jugar al vóleibol con otros niños del hotel. Sus padres ven a los dos niños tristes y deciden hacer algo diferente.",
-          "\"Si no podemos ir afuera, vamos a tener un día de juegos aquí dentro,\" dice su papá con una sonrisa grande. Saca una baraja de cartas y un juego de mesa que trajo por si acaso. Los niños se animan un poco al escuchar la idea.",
+          "Rafael mira por la ventana con cara triste. \"No podemos ir a la playa\", dice. Isabel también está desanimada porque planeaba jugar al vóleibol con otros niños del hotel. Sus padres ven a los dos niños tristes y deciden hacer algo diferente.",
+          "\"Si no podemos ir afuera, vamos a tener un día de juegos aquí dentro\", dice su papá con una sonrisa grande. Saca una baraja de cartas y un juego de mesa que trajo por si acaso. Los niños se animan un poco al escuchar la idea.",
           "Primero, la familia juega varias partidas de un juego de mesa sobre piratas. Isabel gana dos veces y celebra con un baile chistoso. Rafael se enoja un poco al principio, pero después se ríe también porque el baile de su hermana es muy gracioso.",
           "Después de los juegos, la mamá propone cocinar algo especial en la pequeña cocina del hotel. Los cuatro preparan pizza casera con ingredientes que compraron en el mercado el día anterior. Isabel pone demasiado queso, y todos se ríen de su pizza gigante.",
           "Por la tarde, la lluvia sigue muy fuerte, así que la familia decide ver una película en la habitación del hotel usando la computadora del papá. Todos se sientan juntos en la cama grande, comen la pizza y ven una película de aventuras.",
-          "Cuando termina la película, Rafael dice: \"Este día no fue tan malo como pensaba.\" Isabel está de acuerdo. \"Me divertí mucho, aunque no fuimos a la playa,\" dice. Los padres se miran felices porque el plan improvisado funcionó muy bien.",
+          "Cuando termina la película, Rafael dice: \"Este día no fue tan malo como pensaba.\" Isabel está de acuerdo. \"Me divertí mucho, aunque no fuimos a la playa\", dice. Los padres se miran felices porque el plan improvisado funcionó muy bien.",
           "Al día siguiente, el sol sale y la familia finalmente va a la playa. Nadan en el mar y construyen un castillo de arena enorme. Pero esa noche, en la cena, todos hablan sobre el día de lluvia como uno de los mejores recuerdos del viaje."
         ]
       }
@@ -14079,10 +14090,10 @@ const A2_BASE_LESSONS: Lesson[] = [
         "body": [
           "Martina recibe una gatita nueva de regalo de sus papás. La gatita es gris con ojos verdes, y Martina decide llamarla Luna. Desde el primer día, Luna duerme en la cama de Martina y juega con una pelota de lana por toda la casa.",
           "Una semana después, la mamá de Martina dice que Luna necesita ir al veterinario para un chequeo. Martina se pone nerviosa porque nunca ha llevado a un animal al doctor. \"¿Le va a doler algo a Luna?\", pregunta con preocupación.",
-          "Su mamá le explica que el veterinario solo va a revisar que Luna esté sana y le va a poner unas vacunas importantes. \"Las vacunas protegen a Luna de enfermedades,\" dice su mamá. \"Es normal sentir un poco de miedo, pero es algo bueno para ella.\"",
+          "Su mamá le explica que el veterinario solo va a revisar que Luna esté sana y le va a poner unas vacunas importantes. \"Las vacunas protegen a Luna de enfermedades\", dice su mamá. \"Es normal sentir un poco de miedo, pero es algo bueno para ella.\"",
           "El día de la cita, Martina pone a Luna en una caja de transporte especial. Luna maúlla mucho durante el viaje en carro porque no le gusta estar encerrada. Martina habla con ella suavemente todo el camino para calmarla.",
           "En la clínica veterinaria, hay otros animales esperando: un perro grande, dos gatos y un conejo. Luna se esconde en el fondo de la caja, asustada por los ruidos. Martina la acaricia a través de la puerta de la caja y le dice que todo va a estar bien.",
-          "Cuando llega su turno, la veterinaria, la doctora Ríos, examina a Luna con mucho cuidado. Revisa sus ojos, sus oídos y su corazón con un instrumento especial. \"Luna está muy sana,\" dice la doctora Ríos con una sonrisa.",
+          "Cuando llega su turno, la veterinaria, la doctora Ríos, examina a Luna con mucho cuidado. Revisa sus ojos, sus oídos y su corazón con un instrumento especial. \"Luna está muy sana\", dice la doctora Ríos con una sonrisa.",
           "Después, la doctora le pone dos vacunas pequeñas a Luna. La gatita maúlla un poco, pero no parece sentir mucho dolor. Martina la sostiene con cuidado durante todo el proceso y le habla con voz dulce.",
           "Al final de la visita, la doctora le da a Martina algunos consejos sobre cómo cuidar a Luna. Martina se siente orgullosa porque ayudó a su gatita durante una experiencia difícil. En el camino de regreso a casa, Luna ya está más tranquila, y Martina promete llevarla al veterinario cada año sin miedo."
         ]
@@ -14139,13 +14150,13 @@ const A2_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "El parque del barrio de Teo está lleno de basura desde hace meses. Botellas de plástico, papeles y bolsas cubren el césped donde antes los niños jugaban fútbol. Teo y sus amigos, Yolanda y Simón, están tristes por el estado del parque.",
-          "\"Deberíamos hacer algo,\" dice Yolanda un día después de la escuela. Los tres amigos deciden organizar un día de limpieza para todo el barrio. Hacen carteles con marcadores de colores e invitan a los vecinos a participar el sábado siguiente.",
+          "\"Deberíamos hacer algo\", dice Yolanda un día después de la escuela. Los tres amigos deciden organizar un día de limpieza para todo el barrio. Hacen carteles con marcadores de colores e invitan a los vecinos a participar el sábado siguiente.",
           "Al principio, Teo tiene miedo de que nadie llegue al evento. Pasa toda la semana poniendo carteles en las puertas de las casas cercanas. También le pide ayuda a la señora del supermercado, quien acepta donar bolsas de basura y guantes para los voluntarios.",
           "El sábado por la mañana, Teo, Yolanda y Simón llegan al parque temprano con nervios. Poco a poco, empiezan a llegar vecinos: familias con niños, una pareja de ancianos y hasta el dueño de la panadería con café gratis para todos.",
           "Todos trabajan juntos durante tres horas. Recogen botellas, papeles y bolsas plásticas del césped y de debajo de los árboles. Los niños más pequeños ayudan a poner la basura en bolsas grandes, mientras los adultos cargan las bolsas hasta los camiones de basura.",
           "Durante la limpieza, encuentran una parte del parque que nadie usaba porque estaba cubierta de plantas y basura. Después de limpiarla, descubren un pequeño espacio con bancos de madera, perfecto para sentarse y descansar. \"¡No sabía que esto estaba aquí!\", dice Simón sorprendido.",
           "Al final del día, el parque se ve completamente diferente. El césped está limpio, los bancos están listos para usarse, y todos los vecinos están orgullosos de su trabajo. El dueño de la panadería trae más café y pan para celebrar.",
-          "Esa tarde, Teo mira el parque limpio con una sonrisa enorme. \"Hicimos esto entre todos,\" dice a sus amigos. Yolanda propone organizar una limpieza cada tres meses para mantener el parque bonito, y todos los vecinos presentes están de acuerdo con la idea."
+          "Esa tarde, Teo mira el parque limpio con una sonrisa enorme. \"Hicimos esto entre todos\", dice a sus amigos. Yolanda propone organizar una limpieza cada tres meses para mantener el parque bonito, y todos los vecinos presentes están de acuerdo con la idea."
         ]
       }
     ],
@@ -14202,11 +14213,11 @@ const A2_BASE_LESSONS: Lesson[] = [
           "La escuela de Alicia prepara una obra de teatro sobre un reino mágico. Alicia consigue el papel principal: una princesa valiente que salva su reino. Al principio, está muy emocionada, pero después empieza a sentir miedo de olvidar sus líneas.",
           "Los ensayos empiezan tres semanas antes de la función. Cada tarde, los estudiantes practican en el auditorio de la escuela. Alicia lee su guion muchas veces en casa, pero cuando está en el escenario, se pone nerviosa y olvida las palabras.",
           "Durante un ensayo importante, Alicia olvida completamente una parte larga de su diálogo. Se queda parada en silencio frente a sus compañeros, sin saber qué decir. Algunos estudiantes se ríen un poco, y Alicia siente ganas de llorar.",
-          "El profesor de teatro, el señor Cabrera, para el ensayo y habla con Alicia en privado. \"A todos nos pasa esto al principio,\" le dice con calma. \"Vamos a practicar tu parte más despacio, paso a paso.\" Alicia respira profundo y decide seguir intentándolo.",
+          "El profesor de teatro, el señor Cabrera, para el ensayo y habla con Alicia en privado. \"A todos nos pasa esto al principio\", le dice con calma. \"Vamos a practicar tu parte más despacio, paso a paso.\" Alicia respira profundo y decide seguir intentándolo.",
           "Su amigo Diego, que también actúa en la obra, le ofrece ayuda. Todas las tardes después de los ensayos, los dos practican las líneas de Alicia en el patio de la escuela. Diego actúa como los otros personajes para ayudarla a recordar cuándo debe hablar.",
           "Poco a poco, Alicia mejora mucho. Empieza a recordar sus líneas sin mirar el guion y se mueve por el escenario con más confianza. El señor Cabrera nota el cambio y le dice: \"Estás lista para la función.\"",
           "La noche de la función, el auditorio está lleno de padres y estudiantes. Alicia espera detrás del telón con el corazón acelerado, pero también recuerda las palabras de Diego: \"Tú puedes hacerlo, solo respira.\" Cuando sale al escenario, se siente más tranquila de lo que esperaba.",
-          "Alicia actúa toda la obra sin olvidar ni una sola línea. Al final, el público aplaude fuerte y ella hace una reverencia con una sonrisa enorme. Después de la función, abraza a Diego. \"Gracias por ayudarme tanto,\" dice Alicia, feliz y orgullosa de sí misma."
+          "Alicia actúa toda la obra sin olvidar ni una sola línea. Al final, el público aplaude fuerte y ella hace una reverencia con una sonrisa enorme. Después de la función, abraza a Diego. \"Gracias por ayudarme tanto\", dice Alicia, feliz y orgullosa de sí misma."
         ]
       }
     ],
@@ -14261,9 +14272,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "Valeria pasa el verano en la casa de su abuela en el campo. Cada tarde, ve a su abuela sentada en el porche, tejiendo con dos agujas largas y lana de colores. Valeria siempre tiene curiosidad, pero nunca pregunta cómo se hace.",
-          "Un día, Valeria finalmente pregunta: \"Abuela, ¿me puedes enseñar a tejer?\" Su abuela sonríe con alegría porque nadie en la familia le ha pedido esto antes. \"Por supuesto, mi amor. Vamos a empezar mañana,\" responde.",
-          "A la mañana siguiente, la abuela le da a Valeria dos agujas pequeñas y un poco de lana azul. \"Primero, tienes que aprender el punto básico,\" explica la abuela. Le muestra cómo mover las agujas despacio, paso a paso.",
-          "Al principio, es muy difícil para Valeria. Sus manos no se mueven de la manera correcta, y la lana se enreda varias veces. Se frustra y quiere dejar de intentarlo. \"No puedo hacerlo,\" dice, tirando las agujas al sofá.",
+          "Un día, Valeria finalmente pregunta: \"Abuela, ¿me puedes enseñar a tejer?\" Su abuela sonríe con alegría porque nadie en la familia le ha pedido esto antes. \"Por supuesto, mi amor. Vamos a empezar mañana\", responde.",
+          "A la mañana siguiente, la abuela le da a Valeria dos agujas pequeñas y un poco de lana azul. \"Primero, tienes que aprender el punto básico\", explica la abuela. Le muestra cómo mover las agujas despacio, paso a paso.",
+          "Al principio, es muy difícil para Valeria. Sus manos no se mueven de la manera correcta, y la lana se enreda varias veces. Se frustra y quiere dejar de intentarlo. \"No puedo hacerlo\", dice, tirando las agujas al sofá.",
           "Su abuela la mira con paciencia y dice: \"Cuando yo aprendí, también cometí muchos errores. Necesitas práctica, no perfección.\" Valeria recoge las agujas de nuevo y sigue practicando, aunque las primeras filas de su tejido no son perfectas.",
           "Durante las siguientes semanas, Valeria practica todos los días con su abuela. Poco a poco, sus manos se mueven más rápido y con más seguridad. Un día, se da cuenta de que puede tejer sin mirar constantemente sus manos.",
           "Al final del verano, Valeria termina su primer proyecto: una bufanda pequeña de color azul con algunos errores, pero hecha con mucho amor. Decide dársela a su mamá como regalo cuando regrese a casa.",
@@ -14321,14 +14332,14 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "Óscar quiere comprar una bicicleta nueva, pero no tiene suficiente dinero ahorrado. Su hermana Renata tiene una idea: \"¿Por qué no ponemos un puesto de limonada en frente de la casa?\" Óscar piensa que es una buena idea y acepta ayudar.",
+          "Óscar quiere comprar una bicicleta nueva, pero no tiene suficiente dinero ahorrado. Su hermana Renata tiene una idea: \"¿Por qué no ponemos un puesto de limonada delante de la casa?\" Óscar piensa que es una buena idea y acepta ayudar.",
           "Los dos hermanos hacen una lista de lo que necesitan: limones, azúcar, agua, vasos de papel y una mesa pequeña. Le piden dinero prestado a su mamá para comprar los ingredientes, y prometen devolverlo con las ganancias del negocio.",
           "El sábado por la mañana, Óscar y Renata preparan la limonada en la cocina. Exprimen muchos limones y mezclan el jugo con azúcar y agua fría. Renata prueba la mezcla varias veces hasta que sabe perfecta, ni muy ácida ni muy dulce.",
-          "Ponen la mesa en frente de su casa con un cartel que dice \"Limonada fría: un dólar el vaso.\" Al principio, no pasa casi nadie por la calle, y los hermanos se preocupan un poco. \"Quizás nadie va a comprar,\" dice Óscar con tristeza.",
-          "Después de una hora, un vecino que camina con su perro se detiene y compra dos vasos de limonada. \"Está deliciosa,\" dice, y les da una moneda extra de propina. Los hermanos se emocionan mucho y deciden gritar \"¡Limonada fría!\" para atraer a más clientes.",
+          "Ponen la mesa delante de su casa con un cartel que dice \"Limonada fría: un dólar el vaso.\" Al principio, no pasa casi nadie por la calle, y los hermanos se preocupan un poco. \"Quizás nadie va a comprar\", dice Óscar con tristeza.",
+          "Después de una hora, un vecino que camina con su perro se detiene y compra dos vasos de limonada. \"Está deliciosa\", dice, y les da una moneda extra de propina. Los hermanos se emocionan mucho y deciden gritar \"¡Limonada fría!\" para atraer a más clientes.",
           "Poco a poco, más personas se detienen: unos niños en bicicleta, una señora que va al mercado y hasta el cartero. Renata anota cuánto dinero ganan en un cuaderno pequeño. Al final del día, tienen quince dólares en la caja de dinero.",
           "Al día siguiente, deciden poner el puesto otra vez porque el primer día fue un éxito. Esta vez, agregan galletas caseras para vender junto con la limonada. Ganan todavía más dinero que el día anterior, y Óscar está cada vez más cerca de comprar su bicicleta.",
-          "Después de tres fines de semana, Óscar finalmente tiene suficiente dinero para su bicicleta nueva. Le da las gracias a Renata por su idea y por toda su ayuda. \"Fuimos un buen equipo de negocios,\" dice Renata, riendo. Los hermanos deciden seguir vendiendo limonada los fines de semana, solo por diversión."
+          "Después de tres fines de semana, Óscar finalmente tiene suficiente dinero para su bicicleta nueva. Le da las gracias a Renata por su idea y por toda su ayuda. \"Fuimos un buen equipo de negocios\", dice Renata, riendo. Los hermanos deciden seguir vendiendo limonada los fines de semana, solo por diversión."
         ]
       }
     ],
@@ -14384,9 +14395,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         "body": [
           "La familia Solís viaja a México para visitar a unos parientes. Es el primer viaje de Camila fuera de su país, y todo le parece nuevo y emocionante. Un día, su tía los lleva a un mercado grande y colorido en el centro de la ciudad.",
           "Cuando Camila entra al mercado, ve puestos llenos de frutas de colores que nunca ha probado: mango, guayaba y tamarindo. También hay puestos con telas bordadas, sombreros y artesanías de madera. El mercado tiene mucha gente y muchos ruidos diferentes.",
-          "Su tía le explica que en el mercado, a veces se puede negociar el precio de las cosas. \"Si el vendedor dice un precio alto, puedes ofrecer un poco menos,\" dice su tía. Camila piensa que es una idea interesante, muy diferente de las tiendas de su país.",
+          "Su tía le explica que en el mercado, a veces se puede negociar el precio de las cosas. \"Si el vendedor dice un precio alto, puedes ofrecer un poco menos\", dice su tía. Camila piensa que es una idea interesante, muy diferente de las tiendas de su país.",
           "En un puesto de artesanías, Camila ve una pequeña muñeca de tela hecha a mano. Le pregunta el precio al vendedor, un señor mayor con una sonrisa amable. El señor le dice un precio, y con la ayuda de su tía, Camila ofrece un poco menos.",
-          "El vendedor se ríe y acepta el precio nuevo. \"Tienes buen ojo para el arte,\" le dice a Camila. Ella paga con el dinero que trajo de su casa y guarda la muñeca con mucho cuidado en su mochila.",
+          "El vendedor se ríe y acepta el precio nuevo. \"Tienes buen ojo para el arte\", le dice a Camila. Ella paga con el dinero que trajo de su casa y guarda la muñeca con mucho cuidado en su mochila.",
           "Después, la familia se detiene en un puesto de comida donde una señora prepara tacos frescos. Camila prueba un taco de queso por primera vez y le encanta el sabor. También prueba un jugo de tamarindo, que al principio le parece raro, pero después le gusta mucho.",
           "Mientras comen, Camila conoce a una niña llamada Ximena, la hija de la vendedora de comida. Las dos niñas hablan sobre sus juegos favoritos y descubren que a ambas les gusta dibujar. Ximena le muestra a Camila algunos dibujos que hizo esa mañana.",
           "Antes de irse, Camila le promete a Ximena que va a escribirle cartas cuando regrese a su país. Guarda la dirección en un papel dentro de su mochila, junto a la muñeca de tela. En el camino de regreso a la casa de sus parientes, Camila piensa que este mercado fue la mejor parte de todo el viaje."
@@ -14446,9 +14457,9 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Los abuelos de Elena, Rosa y Antonio, celebraban cincuenta años de casados. Toda la familia decidió organizar una fiesta sorpresa en el jardín de la casa. Elena y su hermano Pablo ayudaron a preparar todo.",
           "El sábado por la mañana, Elena colgó globos azules y blancos en el jardín. Su mamá cocinó un pastel grande con flores de azúcar. Pablo llamó a todos los primos para invitarlos.",
           "A las cuatro de la tarde, los abuelos llegaron a la casa. Pensaban que iban a comer un almuerzo tranquilo con su hija. Cuando abrieron la puerta del jardín, treinta personas gritaron: \"¡Felicidades!\"",
-          "La abuela Rosa se puso muy emocionada y empezó a llorar de alegría. El abuelo Antonio la abrazó y le dio un beso. \"No sabíamos nada de esto,\" dijo él con una sonrisa grande.",
+          "La abuela Rosa se puso muy emocionada y empezó a llorar de alegría. El abuelo Antonio la abrazó y le dio un beso. \"No sabíamos nada de esto\", dijo él con una sonrisa grande.",
           "Durante la fiesta, la familia miró fotos viejas de la boda de los abuelos. En las fotos, Rosa llevaba un vestido blanco muy simple y Antonio tenía el pelo negro. Todos se rieron mucho al ver la ropa antigua.",
-          "Elena le dio a su abuela un álbum nuevo con fotos de toda la familia. La abuela lo abrió despacio y miró cada foto con cuidado. \"Este es el mejor regalo,\" le dijo a Elena.",
+          "Elena le dio a su abuela un álbum nuevo con fotos de toda la familia. La abuela lo abrió despacio y miró cada foto con cuidado. \"Este es el mejor regalo\", le dijo a Elena.",
           "Después de comer el pastel, los abuelos bailaron una canción lenta en el centro del jardín. Todos los invitados los miraron y aplaudieron. Fue un momento muy especial para la familia.",
           "Al final de la noche, el abuelo Antonio dio las gracias a todos por venir. Dijo que cincuenta años con Rosa habían pasado muy rápido. La familia prometió celebrar juntos otra fiesta en el futuro."
         ]
@@ -14510,7 +14521,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 88,
     "title": "El bebé nuevo de la familia",
-    "summary": "A boy learns to be a patient big cousin when his aunt brings home a new baby.",
+    "summary": "A boy meets his newborn cousin and finds a way to help his tired aunt.",
     "duration": "6 min",
     "sections": [
       {
@@ -14519,10 +14530,10 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Diego tenía ocho años y esperaba con mucha emoción la llegada de su primo nuevo. Su tía Carmen estaba embarazada de nueve meses. Toda la familia hablaba del bebé todos los días.",
           "Un domingo por la mañana, el teléfono sonó muy temprano. Era el tío Luis, y dijo que el bebé había nacido esa noche en el hospital. Toda la familia se puso muy contenta con la noticia.",
           "La familia fue al hospital para conocer al nuevo bebé. Se llamaba Mateo y era muy pequeño. Diego lo miró con los ojos muy abiertos.",
-          "\"¿Puedo cargarlo?\" preguntó Diego con cuidado. La tía Carmen le dijo que sí, pero le explicó que debía sentarse primero. Diego se sentó despacio y su tía le puso al bebé en los brazos.",
-          "Mateo abrió los ojos y miró a Diego por un momento. Diego sonrió y le habló muy bajito. \"Voy a ser tu primo favorito,\" le dijo con una voz suave.",
+          "\"¿Puedo cargarlo?\" preguntó Diego con cuidado. La tía Carmen le dijo que sí, pero le explicó que debía sentarse primero. Diego se sentó despacio y su tía le puso el bebé en los brazos.",
+          "Mateo abrió los ojos y miró a Diego por un momento. Diego sonrió y le habló muy bajito. \"Voy a ser tu primo favorito\", le dijo con una voz suave.",
           "Los primeros días, el bebé lloraba mucho por la noche. La tía Carmen estaba cansada, y Diego decidió ayudarla. Fue a la tienda para comprarle flores y una tarjeta.",
-          "Cuando Diego le dio las flores, la tía Carmen se puso muy contenta. \"Eres un primo muy bueno,\" le dijo, y lo abrazó fuerte. Diego se sintió muy orgulloso de sí mismo.",
+          "Cuando Diego le dio las flores, la tía Carmen se puso muy contenta. \"Eres un primo muy bueno\", le dijo, y lo abrazó fuerte. Diego se sintió muy orgulloso de sí mismo.",
           "Con el tiempo, Mateo creció rápido y empezó a sonreír más. Diego lo visitaba cada fin de semana y jugaba con él. En el futuro, Diego le enseñará a andar en bicicleta."
         ]
       }
@@ -14594,7 +14605,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Tomás quería hacer huevos y pan tostado. Camila quería preparar jugo de naranja y fruta. Los dos trabajaron juntos, pero Tomás rompió un plato sin querer.",
           "El ruido del plato despertó a su mamá. Ella bajó las escaleras rápidamente porque pensaba que algo malo pasaba en la cocina.",
           "Cuando su mamá entró en la cocina, vio a sus hijos con jugo de naranja en la ropa y el piso un poco sucio. Camila le dijo: \"¡Sorpresa! Feliz Día de las Madres, mamá.\" Su mamá se rio y los abrazó a los dos.",
-          "\"No importa el plato roto,\" dijo su mamá. \"Este es el mejor regalo del mundo.\" Se sentaron los tres juntos a la mesa para comer.",
+          "\"No importa el plato roto\", dijo su mamá. \"Este es el mejor regalo del mundo.\" Se sentaron los tres juntos a la mesa para comer.",
           "El desayuno no era perfecto, pero a su mamá le encantó cada parte. Los huevos estaban un poco quemados, y el jugo era muy dulce. Aun así, su mamá comió todo con una sonrisa grande.",
           "Después de comer, su mamá les dio las gracias por el esfuerzo. Camila y Tomás prometieron hacer el desayuno otra vez el próximo año. Fue una mañana perfecta para toda la familia."
         ]
@@ -14737,11 +14748,11 @@ const A2_BASE_LESSONS: Lesson[] = [
         "body": [
           "El tío José vivía en Argentina desde hacía quince años. Trabajaba allí como ingeniero y casi nunca podía visitar a la familia. Por fin, un mes de julio, José compró un boleto de avión para ver a sus hermanos y sobrinos.",
           "Cuando la familia recibió la noticia, todos se pusieron muy contentos. Los niños, Valentina y Bruno, no conocían a su tío en persona; solo lo veían por videollamada.",
-          "La familia limpió la casa y preparó el cuarto de invitados para José. Valentina hizo un cartel grande que decía \"Bienvenido, tío José\" con letras de colores. Bruno ayudó a colgar el cartel en la puerta.",
+          "La familia limpió la casa y preparó el cuarto de invitados para José. Valentina hizo un cartel grande que decía \"Bienvenido, tío José\" con letras de colores. Bruno la ayudó a enrollarlo para llevarlo al aeropuerto.",
           "El día de la llegada, toda la familia fue al aeropuerto por la tarde. Esperaron cerca de una hora porque el avión llegó tarde. Cuando José finalmente salió, todos corrieron hacia él.",
-          "José abrazó a sus hermanos primero y después se arrodilló para saludar a los niños. \"Ustedes son más altos que en las fotos,\" dijo con una sonrisa. Valentina le dio el cartel que ella misma pintó.",
+          "José abrazó a sus hermanos primero y después se arrodilló para saludar a los niños. \"Ustedes son más altos que en las fotos\", dijo con una sonrisa. Valentina le dio el cartel que ella misma pintó.",
           "En casa, la abuela preparó la comida favorita de José: empanadas y arroz con pollo. Todos se sentaron juntos a la mesa y hablaron por horas. José contó historias divertidas de su vida en Argentina.",
-          "Durante las dos semanas de visita, José llevó a los niños al zoológico y al cine. Les enseñó palabras nuevas en un acento diferente al de ellos. Bruno decidió que quería visitar Argentina algún día.",
+          "Durante las dos semanas de visita, José llevó a los niños al zoológico y al cine. Les enseñó palabras nuevas con un acento diferente al de ellos. Bruno decidió que quería visitar Argentina algún día.",
           "El día en que José regresó a su país, todos lloraron un poco en el aeropuerto. José prometió que la próxima visita iba a ser más pronto. La familia esperará su regreso con mucha alegría."
         ]
       }
@@ -14811,10 +14822,10 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Mi prima Valeria se casaba con su novio Andrés en junio, y yo estaba muy emocionada. Valeria me pidió ser la niña de las flores en la boda. Nunca antes había hecho algo tan importante en una fiesta.",
           "Dos semanas antes de la boda, fui con mi mamá a comprar mi vestido. Elegimos un vestido rosado con una cinta blanca en la cintura. Me quedaba un poco largo, así que una costurera lo arregló.",
           "La noche antes de la boda, no pude dormir bien porque estaba nerviosa. Pensaba en caminar por el pasillo delante de cien personas. Tenía miedo de tropezar con el vestido.",
-          "El día de la boda, mi tía me ayudó a peinarme y me puso flores pequeñas en el pelo. Me dio una canasta llena de pétalos de rosa. \"Camina despacio y sonríe,\" me dijo con cariño.",
+          "El día de la boda, mi tía me ayudó a peinarme y me puso flores pequeñas en el pelo. Me dio una canasta llena de pétalos de rosa. \"Camina despacio y sonríe\", me dijo con cariño.",
           "Cuando la música empezó, caminé por el pasillo muy despacio. Tiré los pétalos con las dos manos, como practicamos en casa. Todos los invitados me miraron y sonrieron.",
           "Llegué al frente sin ningún problema, y me senté al lado de mi mamá. Valeria entró después, más bonita que nunca, con un vestido blanco largo. Andrés la miraba con los ojos llenos de lágrimas.",
-          "Durante la fiesta, bailé mucho con mis primos y comí un pedazo enorme de pastel. Valeria me buscó y me dio las gracias por hacer todo tan bien. \"Fuiste la mejor niña de las flores,\" me dijo.",
+          "Durante la fiesta, bailé mucho con mis primos y comí un pedazo enorme de pastel. Valeria me buscó y me dio las gracias por hacer todo tan bien. \"Fuiste la mejor niña de las flores\", me dijo.",
           "Esa noche, volví a casa muy cansada pero feliz. Guardé unos pétalos de rosa en una caja como recuerdo. Fue uno de los días más especiales de mi vida."
         ]
       }
@@ -14883,9 +14894,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         "body": [
           "En la fiesta de cumpleaños de su amigo Iván, Samuel comió tres pedazos de pastel de chocolate. También comió muchos dulces y tomó dos vasos de refresco. Nadie le dijo que parara.",
           "Esa noche, Samuel empezó a sentir un dolor fuerte en el estómago. Se acostó en la cama, pero el dolor no desaparecía. Fue a la habitación de sus papás y les dijo que se sentía muy mal.",
-          "Su mamá le tocó la frente y vio que no tenía fiebre. \"Creo que comiste demasiado dulce,\" le dijo con calma. Aun así, decidieron llevarlo al médico por la mañana, porque el dolor era muy fuerte.",
+          "Su mamá le tocó la frente y vio que no tenía fiebre. \"Creo que comiste demasiado dulce\", le dijo con calma. Aun así, decidieron llevarlo al médico por la mañana, porque el dolor era muy fuerte.",
           "En el consultorio, la doctora le preguntó a Samuel qué comió en la fiesta. Él le contó todo, un poco avergonzado. La doctora sonrió y le explicó que su estómago necesitaba descansar.",
-          "\"No es nada serio,\" dijo la doctora. \"Solo debes comer menos azúcar por unos días.\" Le recomendó tomar mucha agua y comer cosas suaves, como arroz y plátano.",
+          "\"No es nada serio\", dijo la doctora. \"Solo debes comer menos azúcar por unos días.\" Le recomendó tomar mucha agua y comer cosas suaves, como arroz y plátano.",
           "Samuel siguió los consejos de la doctora durante toda la semana. Comió sopa, arroz y frutas, y evitó los dulces por completo. Poco a poco, el dolor de estómago desapareció.",
           "La próxima vez que fue a una fiesta, Samuel recordó lo que pasó. Comió solo un pedazo de pastel y tomó agua en vez de refresco. Se sintió mucho mejor al día siguiente.",
           "Ahora, Samuel siempre piensa antes de comer demasiado dulce. Les explica a sus amigos por qué es importante comer con moderación. Aprendió una lección importante sobre cuidar su cuerpo."
@@ -14957,7 +14968,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "A Lucía le encantaba andar en patineta en el parque cerca de su casa. Practicaba todos los días después de la escuela con sus amigos. Un sábado, intentó un truco nuevo que vio en un video.",
           "Cuando saltó con la patineta, perdió el equilibrio y cayó al suelo. Sintió un dolor muy fuerte en el tobillo derecho. No podía pararse sin ayuda.",
           "Sus amigos corrieron a buscar a la mamá de Lucía, que estaba sentada en un banco cerca. Ella vio el tobillo hinchado de su hija y decidió llevarla al hospital inmediatamente. Lucía lloraba un poco por el dolor.",
-          "En el hospital, un doctor le tomó una radiografía del pie. Le explicó que el tobillo no estaba roto, pero sí estaba torcido. \"Vas a necesitar muletas por dos semanas,\" le dijo el doctor.",
+          "En el hospital, un doctor le tomó una radiografía del pie. Le explicó que el tobillo no estaba roto, pero sí estaba torcido. \"Vas a necesitar muletas por dos semanas\", le dijo el doctor.",
           "Al principio, caminar con muletas era muy difícil para Lucía. Se caía a veces y sus brazos se cansaban rápido. Su hermano mayor le enseñó a moverse mejor por la casa.",
           "Durante esas dos semanas, Lucía no pudo ir al parque ni andar en patineta. Sus amigos la visitaban después de la escuela y le contaban las noticias. Le trajeron su tarea todos los días.",
           "Poco a poco, el tobillo mejoró y el dolor desapareció. Cuando volvió al doctor, él le dijo que ya podía caminar sin muletas. Lucía se sintió muy feliz de recuperar su libertad.",
@@ -15028,13 +15039,13 @@ const A2_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "Marco se despertó un lunes con dolor de cabeza y mucho frío. Se levantó de la cama, pero las piernas le temblaban un poco. Fue a la cocina y le dijo a su mamá que no se sentía bien.",
-          "Su mamá le puso una mano en la frente y sintió que tenía mucha fiebre. Le tomó la temperatura con un termómetro: treinta y nueve grados. \"Tienes gripe,\" le dijo. \"Hoy no vas a la escuela.\"",
+          "Su mamá le puso una mano en la frente y sintió que tenía mucha fiebre. Le tomó la temperatura con un termómetro: treinta y nueve grados. \"Tienes gripe\", le dijo. \"Hoy no vas a la escuela.\"",
           "El problema era que esa tarde, la fiesta de cumpleaños de su primo Bruno era en el club del barrio. Marco esperaba esa fiesta desde hacía semanas.",
-          "Marco le pidió a su mamá ir a la fiesta, pero ella le explicó que necesitaba descansar. \"Si vas así, puedes contagiar a tus primos,\" le dijo con cariño. Marco se puso triste, pero entendió la razón.",
+          "Marco le pidió a su mamá ir a la fiesta, pero ella le explicó que necesitaba descansar. \"Si vas así, puedes contagiar a tus primos\", le dijo con cariño. Marco se puso triste, pero entendió la razón.",
           "Su abuela llegó por la tarde para cuidarlo mientras sus papás trabajaban. Le preparó una sopa caliente de pollo y le trajo té con miel y limón. También le puso una manta suave sobre las piernas.",
           "Bruno lo llamó por teléfono desde la fiesta para contarle todo. Le dijo que había guardado un pedazo de pastel para él. Marco se rio un poco, aunque todavía se sentía mal.",
           "Al día siguiente, Marco se sintió mucho mejor gracias al descanso y la sopa de su abuela. La fiebre bajó y pudo comer normalmente otra vez. Su abuela le dijo que el cuerpo necesita tiempo para curarse.",
-          "El fin de semana, Bruno visitó a Marco y le trajo el pedazo de pastel prometido. Los dos primos comieron juntos y hablaron de la fiesta. Marco prometió que la próxima vez no se perdería ninguna fiesta."
+          "El fin de semana, Bruno visitó a Marco y le trajo el pedazo de pastel prometido. Los dos primos comieron juntos y hablaron de la fiesta. Marco dijo que esperaba no perderse la próxima fiesta."
         ]
       }
     ],
@@ -15102,10 +15113,10 @@ const A2_BASE_LESSONS: Lesson[] = [
         "body": [
           "En la cena de Navidad, la abuela de Paula preparó un plato nuevo con camarones. Paula nunca comía camarones en casa, así que quería probarlos.",
           "Después de comer unos camarones, Paula sintió que la boca le picaba un poco. Unos minutos después, le salieron manchas rojas en el cuello y los brazos. Le costaba respirar bien.",
-          "Su papá vio las manchas y se asustó mucho. \"Vamos al hospital ahora mismo,\" dijo, y todos salieron rápido de la casa. En el carro, Paula tenía miedo porque nunca se había sentido así.",
+          "Su papá vio las manchas y se asustó mucho. \"Vamos al hospital ahora mismo\", dijo, y todos salieron rápido de la casa. En el carro, Paula tenía miedo porque nunca se había sentido así.",
           "En el hospital, un doctor le dio una medicina rápidamente para bajar la reacción. Poco a poco, la picazón desapareció y Paula pudo respirar mejor. El doctor le explicó que era alérgica a los mariscos.",
-          "\"Debes evitar los camarones y otros mariscos para siempre,\" le dijo el doctor. También le dio una tarjeta con información sobre su alergia, para llevarla siempre. Sus papás escucharon todo con mucha atención.",
-          "De vuelta en casa, la abuela se sintió muy mal por lo que pasó. \"No lo sabíamos,\" le dijo a Paula, y la abrazó fuerte. Paula le dijo que no era culpa de nadie.",
+          "\"Debes evitar los camarones y otros mariscos para siempre\", le dijo el doctor. También le dio una tarjeta con información sobre su alergia, para llevarla siempre. Sus papás escucharon todo con mucha atención.",
+          "De vuelta en casa, la abuela se sintió muy mal por lo que pasó. \"No lo sabíamos\", le dijo a Paula, y la abrazó fuerte. Paula le dijo que no era culpa de nadie.",
           "Desde ese día, la familia siempre le pregunta al mesero en los restaurantes si la comida tiene mariscos. Paula aprendió a leer las etiquetas de los alimentos con cuidado. Su mamá guarda la tarjeta del doctor en su bolso siempre.",
           "Ahora, Paula sabe cuidarse mejor y no le tiene miedo a comer cosas nuevas. Solo pregunta primero qué ingredientes tienen. En el futuro, ella misma revisará cada plato antes de probarlo."
         ]
@@ -15174,10 +15185,10 @@ const A2_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "Un día en la escuela, Andrés sintió algo raro cuando comió una manzana. Uno de sus dientes de abajo se movía un poco. Se tocó el diente con la lengua durante toda la clase.",
-          "Cuando llegó a casa, le contó a su mamá sobre el diente flojo. Ella se lo miró con cuidado y le dijo que era normal a su edad. \"Vas a perder varios dientes este año,\" le explicó con una sonrisa.",
+          "Cuando llegó a casa, le contó a su mamá sobre el diente flojo. Ella se lo miró con cuidado y le dijo que era normal a su edad. \"Vas a perder varios dientes este año\", le explicó con una sonrisa.",
           "Andrés tenía un poco de miedo de que le doliera mucho al caerse el diente. Su hermana mayor le dijo que a ella no le dolió nada cuando perdió los suyos. Aun así, Andrés estaba nervioso.",
           "Durante una semana, el diente se movió cada vez más. Andrés comía con mucho cuidado para no tocarlo. Por las noches, jugaba con el diente con la lengua sin querer.",
-          "Como el diente no se caía solo, sus papás decidieron llevarlo al dentista. En el consultorio, la dentista lo examinó y le dijo que el diente ya estaba muy flojo. \"Esto no va a doler,\" le prometió.",
+          "Como el diente no se caía solo, sus papás decidieron llevarlo al dentista. En el consultorio, la dentista lo examinó y le dijo que el diente ya estaba muy flojo. \"Esto no va a doler\", le prometió.",
           "La dentista puso un poco de algodón y sacó el diente rápidamente. Andrés sintió solo una pequeña molestia, nada del otro mundo. Se sorprendió de lo fácil que fue todo.",
           "Esa noche, Andrés puso el diente debajo de la almohada, como le contó su abuela. Por la mañana, encontró una moneda en su lugar. Se puso muy contento con la sorpresa.",
           "Ahora, Andrés ya no tiene miedo de perder dientes. Cada vez que siente uno flojo, se lo muestra a su mamá con orgullo. Sabe que pronto tendrá una sonrisa completamente nueva."
@@ -15247,8 +15258,8 @@ const A2_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "Sofía recibía dos dólares cada semana por ayudar en casa. En vez de gastar el dinero en dulces, decidió guardarlo en una alcancía en forma de cerdo. Quería comprarle un regalo especial a su papá.",
-          "El cumpleaños de su papá era en tres meses, y Sofía calculó cuánto dinero necesitaba. Vio en una tienda una gorra de su equipo de fútbol favorito por veinte dólares. Empezó a ahorrar con mucha disciplina.",
-          "Cada semana, Sofía ponía su dinero en la alcancía y la agitaba para escuchar las monedas. A veces quería comprar chicles o revistas, pero se controlaba. \"Es para mi papá,\" se decía a sí misma.",
+          "El cumpleaños de su papá era dentro de tres meses, y Sofía calculó cuánto dinero necesitaba. Vio en una tienda una gorra de su equipo de fútbol favorito por veinte dólares. Empezó a ahorrar con mucha disciplina.",
+          "Cada semana, Sofía ponía su dinero en la alcancía y la agitaba para escuchar las monedas. A veces quería comprar chicles o revistas, pero se controlaba. \"Es para mi papá\", se decía a sí misma.",
           "Un mes antes del cumpleaños, Sofía contó todo el dinero de la alcancía. Tenía dieciséis dólares, todavía no era suficiente. Le pidió a su mamá trabajo extra para ganar más dinero.",
           "Su mamá le pagó por ayudar a organizar el garaje durante dos sábados. Con ese dinero extra, Sofía por fin llegó a los veinte dólares. Se sintió muy orgullosa de su esfuerzo.",
           "El día antes del cumpleaños, Sofía fue a la tienda con su mamá. Compró la gorra y pidió que la envolvieran en papel de regalo azul. Caminó a casa con una sonrisa enorme.",
@@ -15320,11 +15331,11 @@ const A2_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "Este mes, la familia de Bruno necesitaba gastar menos dinero en comida. Su mamá le explicó que iban a hacer una lista antes de ir al supermercado. Bruno quería ayudar a ahorrar dinero.",
-          "El sábado, Bruno y su mamá fueron al supermercado con la lista y cien dólares en efectivo. \"Solo podemos comprar lo que está en la lista,\" le dijo su mamá. Bruno llevó el carrito con cuidado.",
+          "El sábado, Bruno y su mamá fueron al supermercado con la lista y cien dólares en efectivo. \"Solo podemos comprar lo que está en la lista\", le dijo su mamá. Bruno llevó el carrito con cuidado.",
           "En el pasillo de las frutas, Bruno vio dos tipos de manzanas: unas más caras y otras más baratas. Le preguntó a su mamá por qué había tanta diferencia de precio. Ella le explicó que las manzanas caras venían de otro país.",
           "Decidieron comprar las manzanas más baratas porque sabían casi igual de ricas. Bruno empezó a comparar precios en cada pasillo, como un juego. Encontró arroz más barato en una marca diferente.",
-          "En la caja, la cajera sumó todo el precio de las compras. El total fue noventa y dos dólares, menos de lo que esperaban gastar. Su mamá le sonrió a Bruno y le dijo que había ayudado mucho.",
-          "De regreso a casa, su mamá le dio a Bruno los ocho dólares que sobraron. \"Puedes guardarlos o gastarlos en algo pequeño,\" le dijo. Bruno decidió guardarlos para el futuro.",
+          "En la caja, la cajera sumó el precio de todas las compras. El total fue noventa y dos dólares, menos de lo que esperaban gastar. Su mamá le sonrió a Bruno y le dijo que había ayudado mucho.",
+          "De regreso a casa, su mamá le dio a Bruno los ocho dólares que sobraron. \"Puedes guardarlos o gastarlos en algo pequeño\", le dijo. Bruno decidió guardarlos para el futuro.",
           "Esa noche, cocinaron juntos con todo lo que compraron. Bruno se sintió orgulloso porque ayudó a su familia a ahorrar dinero. Su mamá le dijo: \"Voy a ir contigo al supermercado cada semana.\"",
           "Desde ese día, Bruno siempre revisa los precios antes de poner algo en el carrito. Aprendió que comparar precios es una manera fácil de ahorrar. Ahora, ayuda a su mamá con la lista cada semana."
         ]
@@ -15397,7 +15408,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Camila se puso un poco triste porque quería exactamente el color rosado. Su mamá le dijo: \"A veces no podemos tener todo lo que queremos. ¿Cuál de estos dos te gusta más?\" Camila pensó un momento.",
           "Se probó los zapatos morados primero y caminó por la tienda. Después se probó los azules, que le quedaban un poco más cómodos. Decidió que los azules eran mejores para correr.",
           "El vendedor le explicó a la mamá de Camila el precio de cada par. Los zapatos azules costaban treinta y cinco dólares, un poco menos que los otros. Su mamá pagó con tarjeta y le dio las gracias al vendedor.",
-          "De camino a casa, Camila miraba sus zapatos nuevos con curiosidad. Ya no estaba triste por el color; le gustaban mucho la comodidad y la forma. \"Son más ligeros que mis zapatos viejos,\" le dijo a su mamá.",
+          "De camino a casa, Camila miraba sus zapatos nuevos con curiosidad. Ya no estaba triste por el color; le gustaban mucho la comodidad y la forma. \"Son más ligeros que mis zapatos viejos\", le dijo a su mamá.",
           "El lunes, Camila llevó los zapatos nuevos a la escuela por primera vez. Corrió en el recreo y sintió que sus pies estaban muy cómodos. Valentina le dijo que los zapatos azules se veían geniales también.",
           "Camila aprendió que no siempre podemos elegir exactamente lo que queremos, pero podemos encontrar algo igual de bueno. Ahora cuida mucho sus zapatos nuevos para que le duren más tiempo. Los usa casi todos los días para jugar y correr."
         ]
@@ -15472,7 +15483,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "\"¿Puedes bajar el precio a tres dólares?\" preguntó el hombre. Iván pensó un momento y decidió aceptar, porque igual ya no usaba esa bicicleta. Le dio las gracias y guardó el dinero con cuidado.",
           "Durante todo el día, muchos vecinos pasaron por la venta. Daniela era muy buena hablando con los clientes y explicando los precios. Al final de la tarde, vendieron casi todo lo que tenían.",
           "Contaron el dinero juntos en la cocina: sesenta y cinco dólares en total. No era suficiente para la bicicleta completa, pero era un buen comienzo. Su papá prometió pagar la otra mitad si ellos ahorraban el resto.",
-          "Iván guardó el dinero en un sobre especial y siguió ahorrando cada semana. Dos meses después, por fin compró la bicicleta que quería. Recordó que trabajar y vender cosas juntos con su hermana fue divertido."
+          "Iván guardó el dinero en un sobre especial y siguió ahorrando cada semana. Dos meses después, por fin compró la bicicleta que quería. Recordó que trabajar y vender cosas junto con su hermana fue divertido."
         ]
       }
     ],
@@ -15611,12 +15622,12 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "Una familia nueva se mudó a la casa de al lado el mes pasado. Emilia los veía desde su ventana, pero era muy tímida para saludarlos. Tenían una hija más o menos de su edad.",
+          "Una familia nueva se mudó a la casa de al lado el mes pasado. Emilia los veía desde su ventana, pero era demasiado tímida para saludarlos. Tenían una hija más o menos de su edad.",
           "Un día, mientras Emilia jugaba sola en el jardín, escuchó una voz al otro lado de la cerca. \"Hola, me llamo Zoe. ¿Quieres jugar?\" Emilia se puso nerviosa, pero le respondió que sí.",
           "Zoe le contó que su familia se mudó desde otra ciudad por el trabajo de su papá. Extrañaba a sus amigos antiguos y no conocía a nadie en el barrio todavía. Emilia le dijo que ella podía ser su nueva amiga.",
           "Las dos niñas empezaron a jugar juntas casi todos los días después de la escuela. Emilia le enseñó a Zoe los mejores lugares del parque cercano. Zoe le enseñó a Emilia un juego nuevo con cartas.",
           "Un fin de semana, la mamá de Zoe invitó a Emilia y a su familia a cenar. Comieron comida diferente a la que Emilia conocía, con especias que Emilia nunca había probado.",
-          "Durante la cena, las dos familias hablaron y se rieron mucho. Los papás de Emilia y de Zoe descubrieron que trabajaban cerca uno del otro. Todos se sintieron muy cómodos, como si se conocieran desde hace tiempo.",
+          "Durante la cena, las dos familias hablaron y se rieron mucho. Los papás de Emilia y de Zoe descubrieron que trabajaban cerca uno del otro. Todos se sintieron muy cómodos, como si se conocieran desde hacía tiempo.",
           "Con el paso de las semanas, Emilia y Zoe se hicieron mejores amigas. Se sentaban juntas en el autobús y compartían el almuerzo en la escuela. Zoe ya no se sentía tan sola en el barrio nuevo.",
           "Ahora, las dos familias organizan cenas juntas cada mes. Emilia aprendió que ser un poco valiente al principio puede traer una gran amistad. Está muy contenta de tener a Zoe como su vecina y mejor amiga."
         ]
@@ -15633,7 +15644,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Indifferent"
         ],
         "correctIndex": 1,
-        "explanation": "The story says \"era muy tímida para saludarlos\" (she was too shy to say hello to them)."
+        "explanation": "The story says \"era demasiado tímida para saludarlos\" (she was too shy to say hello to them)."
       },
       {
         "type": "multiple-choice",
@@ -15686,7 +15697,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "body": [
           "La señora Rosa vivía sola en la casa azul al final de la calle. Su esposo había muerto hacía dos años, y sus hijos vivían muy lejos. Los niños del barrio casi nunca hablaban con ella.",
           "Un día, Mateo y su hermana Luna la vieron sentada sola en su porche, mirando la calle. Decidieron acercarse y saludarla. \"Buenas tardes, señora Rosa. ¿Cómo está?\" preguntó Luna con timidez.",
-          "La señora Rosa sonrió, sorprendida de que alguien le hablara. Les contó que antes era maestra de escuela primaria, hace muchos años. Los niños se sentaron en las escaleras del porche y escucharon sus historias.",
+          "La señora Rosa sonrió, sorprendida de que alguien le hablara. Les contó que antes era maestra de escuela primaria, hacía muchos años. Los niños se sentaron en las escaleras del porche y escucharon sus historias.",
           "Desde ese día, Mateo y Luna empezaron a visitarla dos veces por semana. A veces le llevaban galletas que hacían con su mamá. Otras veces, solo se sentaban a hablar de la escuela y de sus amigos.",
           "La señora Rosa les enseñó a jugar dominó, un juego que ella jugaba de niña. Al principio los niños perdían casi siempre, pero poco a poco aprendieron los trucos del juego.",
           "Con el tiempo, Mateo y Luna la ayudaron también con pequeñas tareas, como regar las plantas y sacar la basura. La señora Rosa les daba las gracias con una gran sonrisa cada vez. Ya no se sentía tan sola como antes.",
@@ -15763,7 +15774,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Una vecina les dijo que escuchó un maullido cerca del árbol grande del parque. Elena y Marcos corrieron hacia allí y miraron entre las ramas. No vieron nada al principio, pero escucharon el mismo sonido.",
           "Marcos miró hacia arriba y vio a Simón atrapado en una rama alta del árbol. El gato estaba asustado y no quería bajar solo. Elena corrió a buscar al señor Díaz inmediatamente.",
           "El señor Díaz llegó con una escalera que le prestó otro vecino. Subió despacio y con cuidado agarró a Simón entre sus brazos. Todos los que estaban mirando aplaudieron cuando bajó del árbol sano y salvo.",
-          "El señor Díaz les dio las gracias a Elena y a Marcos por su ayuda. Les regaló galletas caseras que su esposa preparó esa misma tarde. \"Ustedes son los mejores vecinos que puede tener alguien,\" les dijo.",
+          "El señor Díaz les dio las gracias a Elena y a Marcos por su ayuda. Les regaló galletas caseras que su esposa preparó esa misma tarde. \"Ustedes son los mejores vecinos que puede tener alguien\", les dijo.",
           "Desde ese día, el señor Díaz siempre cierra bien la puerta del jardín. Simón se quedó dentro de la casa, más seguro que antes. Todo el barrio recuerda ese día como el momento en que trabajaron juntos para ayudar a un vecino."
         ]
       }
@@ -15835,7 +15846,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Cada familia decidió traer algo diferente para la fiesta. Los García trajeron música y luces de colores. La familia de Valentina preparó un pastel enorme con el nombre del señor Fernández escrito con crema.",
           "Valentina y otros niños del edificio hicieron un cartel gigante que decía \"Gracias, señor Fernández, por treinta años.\" Lo colgaron en la pared de la azotea junto con globos amarillos. Todo se veía muy bonito para la ocasión.",
           "El día de la fiesta, le pidieron al señor Fernández que subiera a la azotea para \"revisar algo\". Cuando abrió la puerta, todos los vecinos gritaron: \"¡Sorpresa!\" El señor Fernández se quedó con la boca abierta.",
-          "\"No puedo creer que hicieran esto por mí,\" dijo, muy emocionado. Caminó por la azotea y saludó a cada familia con un abrazo. Varios vecinos le contaron historias de los años que vivieron allí.",
+          "\"No puedo creer que hicieran esto por mí\", dijo, muy emocionado. Caminó por la azotea y saludó a cada familia con un abrazo. Varios vecinos le contaron historias de los años que vivieron allí.",
           "Durante la fiesta, comieron el pastel y bailaron música de todos los tiempos. Los niños jugaron juntos mientras los adultos conversaban en grupos pequeños. Fue la primera vez que todo el edificio se reunió así.",
           "Al final de la noche, el señor Fernández les agradeció a todos por hacer del edificio un verdadero hogar. Prometió que iba a visitar el edificio de vez en cuando, aunque ya no era el portero. Todos los vecinos lo despidieron con un aplauso enorme."
         ]
@@ -16053,7 +16064,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "El entrenador eligió a Mateo para tirar el último penalti. Mateo estaba muy nervioso, pero caminó hacia la pelota con confianza. Pateó la pelota, pero el portero de Las Águilas la atajó.",
           "Los Tigres perdieron el campeonato en los penaltis. Mateo se sintió muy triste y pensó que era culpa suya. Se sentó solo en el campo y no quería hablar con nadie.",
           "Sus compañeros de equipo caminaron hacia él. —No es tu culpa —le dijo su amigo Lucas—. Jugamos juntos como equipo, y ganamos y perdemos juntos también.",
-          "El entrenador Vega también lo animó. —Ustedes jugaron mejor que el año pasado —dijo con una sonrisa—. El próximo año, entrenaremos más y volveremos a la final. Mateo se sintió mejor y sonrió con sus amigos."
+          "El entrenador Vega también lo animó. —Ustedes jugaron mejor que el año pasado —dijo con una sonrisa—. El próximo año, entrenaremos más y volveremos a la final. —Mateo se sintió mejor y sonrió con sus amigos."
         ]
       }
     ],
@@ -16123,7 +16134,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Ese verano, la mamá de Sofía decidió inscribirla en clases de natación. Sofía no quería ir. —No me gusta el agua —le dijo a su mamá—. Tengo miedo.",
           "El primer día de clase, Sofía conoció a su instructora, la señorita Laura. La instructora era muy paciente y le explicó que iban a empezar despacio, en la parte poco profunda de la piscina.",
           "Durante las primeras clases, Sofía solo practicaba cómo poner la cara en el agua y cómo mover los brazos. No entraba en la parte profunda. Poco a poco, se sentía más segura.",
-          "Después de dos semanas, la señorita Laura le dijo: —Hoy vamos a nadar juntas hasta el otro lado de la piscina. Sofía tenía miedo, pero confiaba en su instructora.",
+          "Después de dos semanas, la señorita Laura le dijo: —Hoy vamos a nadar juntas hasta el otro lado de la piscina. —Sofía tenía miedo, pero confiaba en su instructora.",
           "Sofía respiró profundamente y empezó a nadar. Movió los brazos y las piernas como en sus clases. Cuando llegó al otro lado, no lo podía creer. Nadó sola por primera vez.",
           "Al final del verano, Sofía ya nadaba mejor que muchas de sus amigas. Ahora le encantaba ir a la piscina todos los días. Su miedo al agua desapareció completamente."
         ]
@@ -16194,10 +16205,10 @@ const A2_BASE_LESSONS: Lesson[] = [
           "En la escuela de Ana, había un día especial cada año: el día de atletismo. Los estudiantes participaban en carreras, saltos y otros deportes. Este año, Ana iba a correr en la carrera de relevos con tres compañeros: Pablo, Rosa e Iván.",
           "El equipo se llamaba Los Rápidos y practicó todas las tardes durante un mes. Cada persona corría una parte de la carrera y después le pasaba el bastón al siguiente corredor. Iván siempre corría el último y era el más rápido del grupo.",
           "El día de la carrera, muchos padres y maestros miraban desde las gradas. Ana corrió primero y le pasó el bastón a Pablo sin problemas. Pero cuando Pablo corría muy rápido, se puso nervioso y dejó caer el bastón al suelo.",
-          "Pablo se detuvo por un segundo, muy avergonzado. Rosa, que esperaba el bastón, le gritó: —¡No pasa nada, Pablo! ¡Recógelo y sigue corriendo! Pablo tomó el bastón otra vez y corrió más rápido que antes.",
+          "Pablo se detuvo por un segundo, muy avergonzado. Rosa, que esperaba el bastón, le gritó: —¡No pasa nada, Pablo! ¡Recógelo y sigue corriendo! —Pablo tomó el bastón otra vez y corrió más rápido que antes.",
           "Rosa recibió el bastón y corrió su parte con mucha energía. Después, le pasó el bastón a Iván, el corredor más rápido del equipo. Iván corrió con todas sus fuerzas hasta la línea de meta.",
           "Los Rápidos terminaron en tercer lugar, no en primer lugar. Pablo estaba triste por el error con el bastón y pensaba que la culpa era suya.",
-          "Pero sus compañeros no estaban enojados. —Corriste muy bien después de la caída —le dijo Ana—. El tercer lugar es un premio también. Pablo sonrió, y todo el equipo celebró juntos con un abrazo grupal."
+          "Pero sus compañeros no estaban enojados. —Corriste muy bien después de la caída —le dijo Ana—. El tercer lugar es un premio también. —Pablo sonrió, y todos celebraron juntos con un abrazo grupal."
         ]
       }
     ],
@@ -16485,7 +16496,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Su papá se sentó con ella en una roca grande. Le dio agua y una fruta. —Cada persona necesita descansar a veces —le explicó—. Después de descansar, vas a sentirte mejor.",
           "Después de quince minutos de descanso, Renata se sintió con más energía. Decidió continuar, aunque caminaba más lento que antes. Su papá caminaba a su lado y la animaba con cada paso.",
           "Por fin, después de cuatro horas, llegaron a la cima de la montaña. Desde allí, podían ver todo el valle, los ríos y los pueblos pequeños abajo. La vista era increíble.",
-          "Renata se sentó en una roca y miró el paisaje con una sonrisa grande. —Valió la pena caminar tanto —dijo—. Ahora entiendo por qué te gusta tanto la montaña, papá. Los dos comieron sus sándwiches y disfrutaron del momento juntos."
+          "Renata se sentó en una roca y miró el paisaje con una sonrisa grande. —Valió la pena caminar tanto —dijo—. Ahora entiendo por qué te gusta tanto la montaña, papá. —Los dos comieron sus sándwiches y disfrutaron del momento juntos."
         ]
       }
     ],
@@ -16555,8 +16566,8 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Cuando Sam llegó, los dos niños empezaron a jugar juntos. Al principio, Leo quería jugar solo con el mejor control, el nuevo. Le dio a Sam el control viejo, que no funcionaba muy bien.",
           "Sam se sintió un poco mal, pero no dijo nada al principio. Después de media hora, Sam perdió el juego varias veces porque su control no respondía bien. —Este control es difícil de usar —le dijo a Leo, un poco frustrado.",
           "Leo se dio cuenta de que estaba siendo egoísta con su mejor amigo. Pensó un momento y comprendió que la situación no era justa. Decidió cambiar los controles.",
-          "—Toma, usa el control nuevo —le dijo Leo a Sam—. Es más justo si compartimos. Sam sonrió y aceptó el control nuevo con gusto.",
-          "Con el control nuevo, Sam jugó mucho mejor y ganó varios niveles del juego. Los dos amigos se rieron mucho y trabajaron juntos como equipo para pasar la parte más difícil del juego.",
+          "—Toma, usa el control nuevo —le dijo Leo a Sam—. Es más justo si compartimos. —Sam sonrió y aceptó el control nuevo con gusto.",
+          "Con el control nuevo, Sam jugó mucho mejor y superó varios niveles del juego. Los dos amigos se rieron mucho y trabajaron juntos como equipo para pasar la parte más difícil del juego.",
           "Al final de la tarde, Leo entendió algo importante: los videojuegos son más divertidos cuando los amigos comparten y juegan de manera justa. Desde ese día, Leo y Sam siempre alternaban quién usaba el control nuevo."
         ]
       }
@@ -17130,7 +17141,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "La familia de Mía viajaba a otro país para visitar a unos parientes. Durante el viaje, tuvieron que esperar en un aeropuerto muy grande para cambiar de avión. Mía tenía doce años y su hermano menor, Toby, tenía siete.",
           "Mientras esperaban su próximo vuelo, la mamá de Mía fue a comprar comida en una tienda cerca de la puerta. Les dijo a los niños: —Quédense aquí, sentados, no se muevan.",
           "Pero Toby vio una tienda de juguetes al otro lado del pasillo y, sin pensarlo, caminó hacia allí para mirar los aviones de juguete. Cuando Mía se dio cuenta, su hermano ya no estaba en su asiento.",
-          "Mía sintió mucho miedo. Buscó a Toby por todos lados, pero no lo encontraba entre la multitud de gente. Recordó un consejo de su papá: —Si tienes un problema, busca a un empleado del aeropuerto. Decidió hacer exactamente eso.",
+          "Mía sintió mucho miedo. Buscó a Toby por todos lados, pero no lo encontraba entre la multitud de gente. Recordó un consejo de su papá: —Si tienes un problema, busca a un empleado del aeropuerto. —Decidió hacer exactamente eso.",
           "Una empleada con un uniforme azul escuchó la historia de Mía. Inmediatamente, usó su radio para hablar con otros empleados sobre un niño perdido de siete años. En pocos minutos, encontraron a Toby mirando los aviones por una ventana grande.",
           "Toby no sabía que había un problema. Estaba muy feliz mirando los aviones despegar y aterrizar. No entendía por qué su hermana y la empleada parecían tan preocupadas.",
           "Cuando la mamá regresó con la comida, Mía le contó todo lo que pasó. La mamá abrazó fuerte a los dos niños y le explicó a Toby por qué era importante quedarse cerca de la familia en lugares grandes como el aeropuerto. Desde ese día, Toby siempre caminaba de la mano de su hermana en los aeropuertos."
@@ -17160,7 +17171,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "She looked for an airport employee to ask for help"
         ],
         "correctIndex": 3,
-        "explanation": "The text says \"Si tienes un problema, busca a un empleado del aeropuerto. Decidió hacer exactamente eso\" (If you have a problem, look for an airport employee. She decided to do exactly that)."
+        "explanation": "The text says \"Si tienes un problema, busca a un empleado del aeropuerto. —Decidió hacer exactamente eso\" (If you have a problem, look for an airport employee. She decided to do exactly that)."
       },
       {
         "type": "multiple-choice",

@@ -515,7 +515,7 @@ export const A2_GAPS: AnchoredLesson[] = [
         "Levantarse → levanta + te = levántate. The accent keeps the stress on TAN now that the word is longer."
       ),
       toEs(
-        "Call me tomorrow.",
+        "Call me tomorrow. (to a friend)",
         "Llámame mañana.",
         "Llama + me = llámame, written as one word with an accent on the first a.",
         ["Mañana llámame.", "Llámame mañana, por favor."]
@@ -568,7 +568,7 @@ export const A2_GAPS: AnchoredLesson[] = [
         "The eight irregular commands",
         [
           "Eight very common verbs have a short, irregular tú command. They're worth learning as a list: decir → di, hacer → haz, ir → ve, poner → pon, salir → sal, ser → sé, tener → ten, venir → ven.",
-          "A trick many learners use: most of them are the infinitive with the ending chopped off: pon(er), sal(ir), ten(er), ven(ir).",
+          "A trick many learners use: half of them are the infinitive with the ending chopped off: pon(er), sal(ir), ten(er), ven(ir).",
           "Verbs built on them do the same: mantener → mantén, proponer → propón, deshacer → deshaz.",
         ],
         [
@@ -691,7 +691,7 @@ export const A2_GAPS: AnchoredLesson[] = [
         ["Vete a casa y descansa.", "Ve a tu casa y descansa.", "Vete a tu casa y descansa."]
       ),
       toEs(
-        "Tell me the truth.",
+        "Tell me the truth. (to a friend)",
         "Dime la verdad.",
         "Di + me = dime, one word, no accent.",
         ["Dime la verdad, por favor.", "Por favor, dime la verdad."]
@@ -822,14 +822,12 @@ export const A2_GAPS: AnchoredLesson[] = [
         "cerquita",
         "Let's walk, the park is [really close].",
         "Cerca + -ita = cerquita (c → qu before i). The diminutive makes it sound even closer.",
-        ["cerca"]
       ),
       fe(
         "Mi hermana tiene un ___ negro que se llama Coco.",
         "perrito",
         "My sister has a black [little dog] that's called Coco.",
         "Perro → perrito: drop -o, add -ito. Perro is masculine, so the diminutive stays masculine.",
-        ["perro"]
       ),
       fe(
         "¿Me esperas un ___? Ya casi estoy.",
@@ -1463,7 +1461,6 @@ export const A2_GAPS: AnchoredLesson[] = [
         "queréis",
         "Guys, [do you want] to come to dinner on Saturday?",
         "Talking to a group of friends in Spain: vosotros queréis. In Latin America: ¿quieren venir?",
-        ["quieren"]
       ),
       fe(
         "(Argentina) ¿Vos ___ de Córdoba?",

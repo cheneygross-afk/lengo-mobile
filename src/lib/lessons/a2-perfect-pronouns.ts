@@ -70,7 +70,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       ),
     ],
     [
-      fe("¿___ el correo de la jefa?", "Has leído", "[Have you read] the boss's email?", "haber (has) + leído. Leído takes an accent so the í is its own syllable."),
+      fe("¿___ el correo de la jefa?", "Has leído", "[Have you read] the boss's email? (tú)", "haber (has) + leído. Leído takes an accent so the í is its own syllable."),
       fe("Mis padres ___ a Madrid esta mañana.", "han llegado", "My parents [have arrived] in Madrid this morning.", "han + llegado."),
       fe("Este mes ___ dos kilos.", "he perdido", "This month [I've lost] two kilos.", "he + perdido: -er verbs take -ido."),
       fe("¿Ustedes ya ___ el museo?", "han visitado", "[Have you visited] the museum yet? (ustedes)", "han + visitado."),
@@ -256,7 +256,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       fe("¿Alguna vez ___ en Chile?", "has vivido", "[Have you ever lived] in Chile? (tú)", "Experience → present perfect, everywhere."),
       toEs("Yesterday I went out with my friends.", "Ayer salí con mis amigos.", "Ayer → preterite.", ["Ayer salí con mis amigas.", "Salí con mis amigos ayer."]),
       toEs("This year we've saved a lot of money.", "Este año hemos ahorrado mucho dinero.", "Este año → present perfect.", ["Este año ahorramos mucho dinero.", "Hemos ahorrado mucho dinero este año."]),
-      toEs("Have you ever been to Spain? — Yes, I went in 2018.", "¿Alguna vez has estado en España? —Sí, fui en 2018.", "The experience → he estado; the date → fui.", ["¿Has estado en España alguna vez? —Sí, fui en 2018.", "¿Has estado alguna vez en España? —Sí, fui en 2018."]),
+      toEs("Have you (tú) ever been to Spain? — Yes, I went in 2018.", "¿Alguna vez has estado en España? —Sí, fui en 2018.", "The experience → he estado; the date → fui.", ["¿Has estado en España alguna vez? —Sí, fui en 2018.", "¿Has estado alguna vez en España? —Sí, fui en 2018."]),
       toEn("Hoy no he hecho nada, pero ayer limpié toda la casa.", "Today I haven't done anything, but yesterday I cleaned the whole house.", "Hoy → he hecho; ayer → limpié.", ["Today I've done nothing, but yesterday I cleaned the whole house.", "Today I didn't do anything, but yesterday I cleaned the whole house."]),
       mt(
         "Match each time word to the tense it goes with.",
@@ -428,7 +428,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
     ],
     [
       fe("Los soldados ___ durante tres días.", "lucharon", "The soldiers [fought] for three days.", "luchar → lucharon."),
-      fe("¿Dónde ___ el dinero?", "escondiste", "Where did you [hide] the money?", "esconder → escondiste. Ocultar means the same.", ["ocultaste"]),
+      fe("¿Dónde ___ el dinero?", "escondiste", "Where did you [hide] the money? (tú)", "esconder → escondiste. Ocultar means the same.", ["ocultaste"]),
       fe("La policía no tiene ninguna ___.", "pista", "The police don't have a single [lead].", "la pista = the lead, the clue."),
       toEs("They fought for freedom.", "Lucharon por la libertad.", "luchar por = to fight for.", ["Ellos lucharon por la libertad."]),
       toEs("The fire destroyed the house.", "El fuego destruyó la casa.", "destruir → destruyó, with a y.", ["El incendio destruyó la casa."]),
@@ -691,7 +691,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       ),
       sec(
         "With commands",
-        "With a yes command, the pair always joins the end: dímelo (tell me it), dáselo (give it to him). With a no command, it goes before: no me lo digas.",
+        "With a yes command, the pair always joins the end: dímelo (tell me it), dáselo (give it to him). With a no command (a form you'll learn properly at the Intermediate level; for now just recognize it), the pair goes before the verb: no me lo digas.",
         [
           ["¿El secreto? Dímelo.", "The secret? Tell it to me."],
           ["¿El paquete? Dáselo al vecino.", "The package? Give it to the neighbor."],

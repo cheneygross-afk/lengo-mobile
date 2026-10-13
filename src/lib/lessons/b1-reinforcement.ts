@@ -1655,7 +1655,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
           ["Se venden entradas.", "Tickets on sale."],
           ["¿Cómo se escribe tu nombre?", "How do you spell your name?"],
         ],
-        "El se impersonal suele traducirse con «they», «one» o la pasiva en inglés."
+        "El se impersonal y el se pasivo suelen traducirse con «they», «one», «you» o la pasiva en inglés."
       ),
       wo("En esta ciudad se sale mucho por la noche.", "Impersonal: sin sustantivo, verbo en singular.", "In this city people go out a lot at night."),
     ]
@@ -1880,7 +1880,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Elige mi/tu o mío/tuyo.", "Querida ___: te escribo desde París.", "mía", "Detrás del sustantivo implícito (querida amiga mía) → mía."),
+      fb("Elige la forma correcta.", "Una amiga ___ vive en París. (yo)", "mía", "Detrás del sustantivo se usa la forma tónica, que concuerda con «amiga»: una amiga mía."),
       fb("Elige la forma correcta.", "Este no es ___ coche; es el de mi hermano.", "mi", "Delante del sustantivo se usa la forma átona: mi coche."),
       fb("Elige la forma correcta.", "Tu casa es grande, pero la ___ tiene jardín. (yo)", "mía", "En lugar del sustantivo → la mía."),
       fb("Elige la forma correcta.", "Unos compañeros ___ me ayudaron. (yo)", "míos", "Detrás del sustantivo → míos."),
@@ -2090,7 +2090,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Responde a Marta.", "Fui yo; la cambié porque ___ un error en los datos. (haber, pluscuamperfecto)", "había habido", "Haber en pluscuamperfecto: había habido."),
       fb("Completa con un relativo.", "El informe ___ enviaste está perfecto.", "que", "Sin preposición, el relativo es «que»: el informe que enviaste."),
-      fb("Completa con dos pronombres.", "¿La presentación nueva? ___ la mando ahora mismo a todos. (a ellos)", "Se", "Les + la → se la."),
+      fb("Completa con el pronombre que falta.", "¿La presentación nueva? ___ la mando ahora mismo a todos. (a ellos)", "Se", "Les + la → se la."),
       fb("Completa con un posesivo.", "Mi parte está lista. ¿Y la ___? (vosotros)", "vuestra", "La parte → la vuestra."),
       ms(
         "¿Qué frases son correctas?",
@@ -2098,7 +2098,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         [0, 1, 2],
         "«Nunca había vido algo así» es incorrecta: el participio de ver es visto. Las otras usan bien el perfecto, el se pasivo y con quien."
       ),
-      toEs("Nobody had told me it, so I didn't know it.", "Nadie me lo había dicho, así que no lo sabía.", "Pluscuamperfecto + dos pronombres + imperfecto.", ["Nadie me lo había dicho, por eso no lo sabía.", "Nadie me lo había dicho y no lo sabía."]),
+      toEs("Nobody had told me, so I didn't know.", "Nadie me lo había dicho, así que no lo sabía.", "Pluscuamperfecto + dos pronombres + imperfecto.", ["Nadie me lo había dicho, por eso no lo sabía.", "Nadie me lo había dicho y no lo sabía."]),
       wo("Lo que más me ha gustado del proyecto es el equipo.", "Lo que + pretérito perfecto.", "What I've liked most about the project is the team."),
     ]
   ),
@@ -2269,7 +2269,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         ],
         [
           mt(
-            "Relaciona cada persona con lo que quiere.",
+            "Relaciona cada persona con lo que opina o desea.",
             [
               ["Papá", "ir a la playa"],
               ["Mamá", "duda que haya hotel"],
@@ -2743,9 +2743,9 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         [
           mc(
             "Corrige: «Si me llamarías, te contaría todo.»",
-            ["Si me llamas, te lo contaré todo.", "Si me llamarías, te lo contarías.", "Si me llamaré, te lo contaría.", "No hay error."],
+            ["Si me llamaras, te lo contaría todo.", "Si me llamarías, te lo contarías.", "Si me llamaré, te lo contaría.", "No hay error."],
             0,
-            "Tras el «si» de condición nunca va el condicional; en B1, para una condición real: si + presente + futuro: si me llamas, te lo contaré. «Si me llamaré» usa futuro y la frase original sí tiene error."
+            "Tras el «si» de condición nunca va el condicional; la frase es irreal, así que lleva imperfecto de subjuntivo: si me llamaras, te lo contaría todo. (Como condición real sería: si me llamas, te lo contaré.) «Si me llamaré» usa futuro y la frase original sí tiene error."
           ),
         ]
       ),
@@ -2767,7 +2767,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         "En estilo indirecto (dijo que…) el futuro pasa a condicional; venir usa la raíz vendr-: vendría. «Veniría» y «vendríe» no existen, y «vendrá… ayer» mezcla tiempos."
       ),
       toEs("It would be better to leave now.", "Sería mejor salir ahora.", "«It would be» = sería + infinitivo.", ["Sería mejor irnos ahora.", "Sería mejor irse ahora.", "Sería mejor marcharnos ahora."]),
-      wo("En tu lugar yo no le contaría nada a nadie.", "Condicional + doble negación.", "In your place I wouldn't tell anyone anything."),
+      wo("En tu lugar yo no le contaría nada a nadie.", "Condicional + doble negación.", "If I were you, I wouldn't tell anyone anything."),
     ]
   ),
   L(
@@ -2800,7 +2800,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Dilema 3: ves a alguien robar en una tienda. ¿Qué harías?", "Yo ___ al guardia de seguridad. (avisar)", "avisaría", "Condicional."),
+      fb("Dilema 3: ves a alguien robar en una tienda. ¿Qué harías?", "Yo ___ al guardia de seguridad. (avisar)", "avisaría", "Es una situación imaginada, así que va en condicional: infinitivo completo + -ía (no el futuro avisaré)."),
       fb("Dilema 4: ¿aceptarías un trabajo que odias por mucho dinero?", "Sí, pero solo lo ___ un año. (hacer)", "haría", "Hacer → haría."),
       fb("Dilema 5: ¿qué le dirías a un amigo que canta fatal?", "Le ___ la verdad con cariño. (decir)", "diría", "Decir → diría."),
       mt(
@@ -3317,7 +3317,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
           ["El que toca la guitarra", "mi primo Luis"],
           ["La que lleva sombrero", "mi tía Rosa"],
           ["Los que bailan", "los novios"],
-          ["Con quien hablo en la foto", "mi mejor amiga"],
+          ["La que habla conmigo en la foto", "mi mejor amiga"],
         ],
         "El/la/los que + verbo para identificar."
       ),
@@ -3474,7 +3474,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         "Con usted, después de ser, se usa «suya»; para el otro dueño se aclara con «de él». «Su» necesita sustantivo detrás, la tercera repite posesivos y «tuya» es de tú."
       ),
       toEs("Your (vosotros) cups are in the box; ours are on the table.", "Vuestras tazas están en la caja; las nuestras están en la mesa.", "Delante del sustantivo, el adjetivo posesivo (vuestras tazas); sin sustantivo, artículo + pronombre (las nuestras).", ["Vuestras tazas están en la caja, las nuestras están en la mesa."]),
-      wo("Al final nos quedamos con lo mejor de cada uno.", "Lo + adjetivo = the best (things).", "In the end we kept the best of each person's things."),
+      wo("Al final nos quedamos con lo mejor de cada uno.", "Lo + adjetivo = the best (things); «de cada uno» = each person's.", "In the end we kept the best of each person's things."),
     ]
   ),
   L(
@@ -4001,7 +4001,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     [
       mc(
         "Escena 4: la despedida. «¡Que te vaya muy bien!» significa…",
-        ["All the best! / Good luck!", "Go away!", "It went very well!", "Go well yesterday!"],
+        ["All the best! Good luck!", "Go away!", "It went very well!", "Go well yesterday!"],
         0,
         "Que + subjuntivo expresa un deseo: ¡Que te vaya muy bien! = All the best! No significa «Go away!» (¡Vete!) ni habla del pasado."
       ),
@@ -4036,7 +4036,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
           ["I had already eaten. → Ya había comido.", "(pluscuamperfecto)"],
         ],
         [
-          toEs("I hope it doesn't rain tomorrow.", "Espero que no llueva mañana.", "«Esperar que» → subjuntivo; nevar/llover: no llueva.", ["Ojalá que no llueva mañana.", "Ojalá no llueva mañana.", "Espero que mañana no llueva."]),
+          toEs("I hope it doesn't rain tomorrow.", "Espero que no llueva mañana.", "«Esperar que» → subjuntivo; llover (o → ue): no llueva.", ["Ojalá que no llueva mañana.", "Ojalá no llueva mañana.", "Espero que mañana no llueva."]),
         ]
       ),
     ],
@@ -4182,7 +4182,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         "¿Qué frases son correctas?",
         ["Te lo explico luego.", "La casa en la que nací ya no existe.", "Esas llaves son suyas.", "Me los prestó quien lo conocí."],
         [0, 1, 2],
-        "«Me los prestó quien lo conocí» no tiene sentido: el verbo no concuerda con «quien»."
+        "«Me los prestó quien lo conocí» está mal construida: sobra «lo», y «quien» (sujeto de prestó) no casa con un verbo en primera persona. Correcto: Me los prestó alguien a quien conocí."
       ),
       mc(
         "«Give it (the book) to the woman who is at reception.» (tú)",
@@ -4341,7 +4341,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("La reclamación de Tomás.", "El aire acondicionado no ___ en toda la semana. (funcionar)", "funcionó", "Periodo cerrado → pretérito (también: no funcionaba, como descripción)."),
+      { ...fb("La reclamación de Tomás.", "El aire acondicionado no ___ en toda la semana. (funcionar)", "funcionó", "Periodo cerrado → pretérito (también: no funcionaba, como descripción)."), altAnswers: ["funcionaba"] },
       fb("La reclamación de Tomás.", "Me molesta que nadie lo ___ arreglado. (haber)", "haya", "Molestar que + perfecto de subjuntivo."),
       fb("La reclamación de Tomás.", "Les pido que me ___ una parte del importe. (reembolsar)", "reembolsen", "Pedir que + subjuntivo."),
       mc(
@@ -5030,7 +5030,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         "¿Qué frase es la más cortés?",
         ["Le agradecería que revisara la factura.", "¡Pague ya!", "Me debe dinero.", "Revise la factura, rápido."],
         0,
-        "«Le agradecería que…» usa usted y el condicional de cortesía (con imperfecto de subjuntivo, que verás en B2). «¡Pague ya!», «Me debe dinero» y «Revise la factura, rápido» son directos o bruscos."
+        "«Le agradecería que…» usa usted y el condicional de cortesía (con imperfecto de subjuntivo, que verás en el nivel Avanzado). «¡Pague ya!», «Me debe dinero» y «Revise la factura, rápido» son directos o bruscos."
       ),
       ms(
         "¿Qué frases son correctas en un correo formal?",
@@ -5072,8 +5072,8 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         [
           ["Ha sido culpa mía.", "admitir"],
           ["Lo siento muchísimo.", "disculparse"],
-          ["Lo arreglaré hoy mismo.", "prometer"],
-          ["No volverá a pasar.", "tranquilizar"],
+          ["Lo arreglaré hoy mismo.", "ofrecer una solución"],
+          ["No volverá a pasar.", "prometer"],
         ],
         "Pasos de una buena disculpa."
       ),
@@ -5161,7 +5161,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Peticiones con condicional, subjuntivo o mandato."
       ),
-      toEs("I'm sorry, I didn't know that you could hear it.", "Lo siento, no sabía que se oía.", "«You could hear it» en general = se oía (se impersonal en imperfecto).", ["Lo siento, no sabía que se escuchaba.", "Perdona, no sabía que se oía."]),
+      toEs("I'm sorry, I didn't know that you could hear it.", "Lo siento, no sabía que se oía.", "«You could hear it» en general = se oía (se impersonal en imperfecto).", ["Lo siento, no sabía que se escuchaba.", "Perdona, no sabía que se oía.", "Lo siento, no sabía que se podía oír.", "Perdona, no sabía que se podía oír.", "Lo siento, no sabía que se podía escuchar."]),
       wo("Al final nos hicimos amigos del vecino de arriba.", "Hacerse amigos + del (de + el).", "In the end we became friends with the upstairs neighbor."),
     ]
   ),
@@ -5941,7 +5941,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Lo que él contaba",
-        "Contar lo que alguien decía: me contaba que + imperfecto; me dijo que + pluscuamperfecto; me prometió que + condicional.",
+        "Contar lo que alguien decía: me contaba/me dijo que + imperfecto (lo que pasaba entonces) o pluscuamperfecto (lo que había pasado antes); me prometió que + condicional (lo que iba a pasar).",
         [
           ["Mi padre me contaba que había cruzado el país en bici.", "My father used to tell me he had crossed the country by bike."],
           ["Me prometió que algún día lo haríamos juntos.", "He promised me that one day we'd do it together."],

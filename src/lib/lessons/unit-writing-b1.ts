@@ -72,7 +72,7 @@ export const B1_UNIT_WRITING: Record<string, WriteExercise> = {
   ),
   "b1r-contrast-future-conditional": t(
     "¿Qué harías con un millón de euros? Escribe qué harías primero, a quién ayudarías y qué no cambiarías nunca. Termina con un consejo a un amigo con «yo que tú…».",
-    ["Al menos cinco verbos en condicional", "Al menos dos condicionales irregulares (haría, tendría, podría, diría…)", "Yo que tú / yo en tu lugar + condicional", "Una frase con futuro para comparar (cuando tenga… / el año que viene…)"],
+    ["Al menos cinco verbos en condicional", "Al menos dos condicionales irregulares (haría, tendría, podría, diría…)", "Yo que tú / yo en tu lugar + condicional", "Una frase con futuro para comparar (el año que viene…, seguro que…)"],
     "Con un millón de euros, primero dejaría de trabajar unos meses y viajaría por Sudamérica. Le compraría una casa a mi madre y ayudaría a una asociación de mi barrio. No cambiaría a mis amigos ni mi ciudad: seguiría viviendo aquí. Mi amigo Luis quiere gastarlo todo en coches. Yo que tú, guardaría una parte. Pero el año que viene, seguro que seguiremos sin millones.",
     "El condicional imagina (viajaría, compraría); el futuro predice lo real (seguiremos). Yo que tú + condicional para aconsejar: guardaría una parte."
   ),
@@ -212,7 +212,7 @@ export const B1_UNIT_WRITING: Record<string, WriteExercise> = {
     "Escribe sobre un cambio importante en tu vida: cómo era tu vida antes, qué pasó, cómo ha cambiado desde entonces y qué esperas del futuro.",
     ["Imperfecto e indefinido para el antes y el cambio", "Pretérito perfecto para desde entonces", "Espero que / ojalá + subjuntivo", "Al menos un conector (sin embargo, por eso, desde entonces)"],
     "Hace tres años vivía en una gran ciudad y trabajaba en un banco. Estaba siempre estresado y casi no veía a mi familia. Un día decidí dejarlo todo y me mudé a un pueblo cerca de la costa. Desde entonces he abierto una pequeña librería y he aprendido a vivir más despacio. Espero que el negocio siga creciendo y ojalá nunca tenga que volver.",
-    "Antes (vivía, estaba), el cambio (decidí, me mudé), desde entonces (he abierto) y el futuro (espero que siga, ojalá no tenga)."
+    "Antes (vivía, estaba), el cambio (decidí, me mudé), desde entonces (he abierto) y el futuro (espero que siga, ojalá nunca tenga)."
   ),
   "b1r-challenge-subjunctive-gauntlet": t(
     "Escribe una carta a un estudiante que va a empezar el nivel Intermedio. Cuéntale qué te ha costado más, qué te ha ayudado y dale consejos con subjuntivo y mandatos.",

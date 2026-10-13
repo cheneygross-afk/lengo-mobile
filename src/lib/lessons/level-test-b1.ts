@@ -169,14 +169,14 @@ export const LEVEL_TEST_B1: LevelTest = {
           "Una acción anterior a otra pasada: pluscuamperfecto, había empezado.",
           ["había comenzado"]
         ),
-        fe("Quiero que ___ conmigo.", "vengas", "I want [you to come] with me.", "Querer que + otro sujeto: subjuntivo, vengas (venga, de usted).", ["venga"]),
+        fe("Quiero que ___ conmigo.", "vengas", "I want [you to come] with me.", "Querer que + otro sujeto: subjuntivo, vengas (venga, de usted; vengáis/vengan, en plural).", ["venga", "vengáis", "vengan"]),
         fe("Es posible que ___ mañana.", "llueva", "It's possible that [it will rain] tomorrow.", "Es posible que + subjuntivo: llueva."),
         fe("Ojalá ___ buen tiempo el sábado.", "haga", "I hope [it's] nice weather on Saturday.", "Ojalá + subjuntivo; el tiempo usa hacer: haga buen tiempo."),
         fe("No creo que ellos ___ la verdad.", "sepan", "I don't think they [know] the truth.", "No creo que + subjuntivo: saber → sepan."),
-        fe("Me alegro de que ___ aquí.", "estés", "I'm glad [you're] here.", "Emoción + que: subjuntivo, estés (esté, de usted).", ["esté"]),
+        fe("Me alegro de que ___ aquí.", "estés", "I'm glad [you're] here.", "Emoción + que: subjuntivo, estés (esté, de usted; estéis/estén, en plural).", ["esté", "estéis", "estén"]),
         fe("Te aconsejo que ___ más agua.", "bebas", "I advise you [to drink] more water.", "Aconsejar que + subjuntivo: bebas (o tomes).", ["tomes"]),
-        fe("¡___ la puerta, por favor!", "Cierra", "[Close] the door, please!", "Imperativo de tú: cierra (cierre, de usted).", ["Cierre"]),
-        fe("No ___ eso, es peligroso.", "toques", "Don't [touch] that, it's dangerous.", "El imperativo negativo usa el subjuntivo: no toques.", ["toque"]),
+        fe("¡___ la puerta, por favor!", "Cierra", "[Close] the door, please!", "Imperativo de tú: cierra (cierre, de usted; cerrad/cierren, en plural).", ["Cierre", "Cerrad", "Cierren"]),
+        fe("No ___ eso, es peligroso.", "toques", "Don't [touch] that, it's dangerous.", "El imperativo negativo usa el subjuntivo: no toques (toque, de usted; toquéis/toquen, en plural).", ["toque", "toquéis", "toquen"]),
         fe("Señora, ___ aquí, por favor.", "siéntese", "Madam, [sit down] here, please.", "Imperativo de usted con pronombre unido: siéntese."),
         fe(
           "¿___ la ventana, por favor?",

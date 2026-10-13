@@ -388,7 +388,7 @@ export const C1C2_MORE_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "la buganvilla", en: "bougainvillea", forms: ["buganvillas"] },
     { es: "el camisón", en: "nightgown", forms: ["camisones"] },
     { es: "canadiense", en: "Canadian", forms: ["canadiense"] },
-    { es: "coqueto", en: "charming, flirtatious", forms: ["coqueta"] },
+    { es: "coqueto", en: "vain about one's looks, flirtatious", forms: ["coqueta"] },
     { es: "envuelto", en: "wrapped", forms: ["envuelta"] },
     { es: "extraviado", en: "lost, stray", forms: ["extraviadas"] },
     { es: "frotarse", en: "to rub", forms: ["frotándose"] },

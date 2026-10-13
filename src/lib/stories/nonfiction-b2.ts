@@ -152,7 +152,7 @@ export const B2_NONFICTION: Story[] = [
       "La historia comienza con fray Juan de Zumárraga, primer obispo de México, que llevaba años pidiendo a la Corona una imprenta. Su objetivo era práctico: los frailes necesitaban catecismos, gramáticas y manuales para evangelizar a una población enorme que hablaba decenas de lenguas distintas. Copiar todos esos textos a mano era lento y caro.",
       "En 1539, un impresor de Sevilla, Juan Cromberger, firmó un contrato para enviar un taller a Nueva España. Al frente estaba su empleado Juan Pablos, un italiano de Brescia que cruzó el Atlántico con su mujer, unas cuantas cajas de tipos de metal y una prensa de madera. Se instaló cerca de la plaza mayor, en una casa que todavía puede visitarse.",
       "Los primeros títulos fueron sobre todo religiosos, pero no solo en castellano. La imprenta mexicana publicó pronto obras en náhuatl, la lengua de los mexicas, y más tarde en purépecha, otomí y otras lenguas indígenas. Algunos de esos vocabularios y gramáticas son hoy fuentes valiosísimas para los lingüistas.",
-      "La actividad, en cambio, estaba muy controlada. Durante décadas, imprimir requería una licencia de las autoridades, y la Inquisición vigilaba que no circularan ideas consideradas peligrosas. Aun así, a finales del siglo XVI ya funcionaban varias imprentas en la ciudad, y en 1584 se instaló otra en Lima.",
+      "Eso sí, la actividad estaba muy controlada. Durante décadas, imprimir requería una licencia de las autoridades, y la Inquisición vigilaba que no circularan ideas consideradas peligrosas. Aun así, a finales del siglo XVI ya funcionaban varias imprentas en la ciudad, y en 1584 se instaló otra en Lima.",
       "De aquellos primeros años se conservan muy pocos ejemplares. Algunos de los libros impresos por Juan Pablos solo se conocen por referencias en documentos de la época. Los que sobreviven, repartidos entre bibliotecas de México, España y Estados Unidos, recuerdan que la historia del libro en América empezó en español, y también en las lenguas que ya se hablaban allí.",
     ],
     questions: [
@@ -288,7 +288,7 @@ export const B2_NONFICTION: Story[] = [
     paragraphs: [
       "Llegas al aeropuerto, miras la pantalla y ves la palabra que nadie quiere ver: «cancelado». Antes de resignarte, conviene saber que, si tu vuelo sale de un aeropuerto de la Unión Europea, o llega a uno con una aerolínea europea, la normativa comunitaria te protege.",
       "Lo primero es la asistencia. Mientras esperas, la compañía debe ofrecerte comida y bebida en proporción al tiempo de espera, la posibilidad de comunicarte y, si tienes que pasar la noche, alojamiento y transporte hasta el hotel. Si no lo hace y pagas tú, guarda todos los tiques: podrás reclamar esos gastos más tarde.",
-      "Además, puedes elegir entre el reembolso del billete o un transporte alternativo hasta tu destino lo antes posible. No aceptes un bono para otro viaje si prefieres el dinero: el reembolso en efectivo o en la tarjeta es un derecho, no un favor.",
+      "Además, puedes elegir entre el reembolso del billete y un transporte alternativo hasta tu destino lo antes posible. No aceptes un bono para otro viaje si prefieres el dinero: el reembolso en efectivo o en la tarjeta es un derecho, no un favor.",
       "En muchos casos, también tienes derecho a una compensación económica, que depende de la distancia: 250 euros para vuelos de hasta 1.500 kilómetros, 400 euros para vuelos de entre 1.500 y 3.500 kilómetros y 600 euros para distancias mayores. Lo mismo se aplica si llegas a tu destino con más de tres horas de retraso. La aerolínea solo se libra de pagar si demuestra que hubo «circunstancias extraordinarias», como una tormenta o el cierre del espacio aéreo, o si te avisó de la cancelación con más de catorce días de antelación.",
       "Para reclamar, dirígete primero a la aerolínea por escrito, a través de su formulario web o en el mostrador del aeropuerto, donde puedes pedir la hoja de reclamaciones. Indica el número de vuelo, la fecha, lo que ocurrió y la cantidad que solicitas. Si en un plazo razonable no responde o rechaza la reclamación sin justificarlo, puedes acudir al organismo nacional de aviación civil o a un servicio de consumo.",
       "Existen también empresas que reclaman por ti a cambio de un porcentaje de la indemnización. Pueden ahorrarte trabajo, pero no son imprescindibles: con paciencia y los documentos adecuados, la mayoría de los pasajeros puede hacerlo por su cuenta.",
@@ -349,7 +349,7 @@ export const B2_NONFICTION: Story[] = [
       },
       {
         question: "Who does the writer say he does NOT blame?",
-        options: ["Investors", "Tourists and all owners individually", "The city council", "His neighbors"],
+        options: ["Investors", "Tourists, and not every owner", "The city council", "His neighbors"],
         correctIndex: 1,
         explanation:
           "\"No escribo esto contra los turistas... Tampoco culpo a todos los propietarios.\"",

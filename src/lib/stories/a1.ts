@@ -5,7 +5,7 @@ import type { Story } from "./types";
 export const A1_STORIES: Story[] = [
   ...A1_STARTER_STORIES,
   {
-    slug: "school-day-math-test",
+    slug: "marta-driving-test",
     level: "A1",
     title: "El examen de conducir",
     subtitle:
@@ -94,11 +94,11 @@ export const A1_STORIES: Story[] = [
     subtitle:
       "A boy adopts a new puppy and patiently teaches it to sit.",
     paragraphs: [
-      "Tomás tiene ocho años y siempre quiere un perro. Un día, su familia va a un refugio de animales. Allí, Tomás ve un cachorro pequeño y marrón. El cachorro mueve la cola y Tomás sonríe mucho.",
+      "Tomás tiene ocho años y quiere un perro desde hace mucho tiempo. Un día, su familia va a un refugio de animales. Allí, Tomás ve un cachorro pequeño y marrón. El cachorro mueve la cola y Tomás sonríe mucho.",
       "La familia decide llevar al cachorro a casa. Tomás lo llama Rocky porque es fuerte y valiente. Rocky corre por toda la casa y huele todos los muebles. Al principio, Rocky está un poco nervioso.",
       "Cada día, Tomás juega con Rocky en el jardín. Le da agua fresca y comida especial para cachorros. Rocky empieza a conocer a Tomás y ya no tiene miedo. Rápidamente, los dos se hacen muy buenos amigos.",
       "Tomás quiere enseñar un truco a Rocky. Todos los días, dice \"siéntate\" y le da un premio pequeño. Al principio, Rocky no entiende y solo salta. Pero Tomás tiene paciencia y practica cada tarde.",
-      "Después de dos semanas, algo increíble pasa. Tomás dice \"siéntate\" y Rocky se sienta al instante. Tomás grita de alegría y abraza a su perro. Toda la familia celebra el nuevo truco de Rocky.",
+      "Después de dos semanas, pasa algo increíble. Tomás dice \"siéntate\" y Rocky se sienta al instante. Tomás grita de alegría y abraza a su perro. Toda la familia celebra el nuevo truco de Rocky.",
       "Ahora, Rocky sabe muchos trucos más. Tomás está muy orgulloso de su perro inteligente. Cada noche, Rocky duerme cerca de la cama de Tomás. Los dos son una familia perfecta.",
     ],
     questions: [
@@ -171,11 +171,11 @@ export const A1_STORIES: Story[] = [
       "A boy visits his grandmother and learns the secret ingredient in her famous vegetable soup.",
     paragraphs: [
       "Cada domingo, Andrés visita a su abuela Rosa. Su abuela vive en una casa pequeña con un jardín bonito. Ella siempre prepara una sopa de verduras muy famosa. Toda la familia dice que es la mejor sopa del mundo.",
-      "Hoy, Andrés quiere aprender a preparar la sopa. Su abuela sonríe y le dice \"¡Vamos a cocinar juntos!\" Primero, lavan las verduras: zanahorias, papas y cebollas. Andrés corta las verduras con mucho cuidado.",
+      "Hoy, Andrés quiere aprender a preparar la sopa. Su abuela sonríe y le dice: \"¡Vamos a cocinar juntos!\" Primero, lavan las verduras: zanahorias, papas y cebollas. Andrés corta las verduras con mucho cuidado.",
       "La abuela Rosa pone las verduras en una olla grande con agua. También agrega sal y un poco de pimienta. Andrés pregunta cuál es el secreto de la sopa. Su abuela solo sonríe y no responde todavía.",
       "Mientras la sopa se cocina, la casa huele muy bien. Andrés y su abuela hablan sobre la escuela y los amigos. Después de una hora, la sopa está lista para comer. La abuela sirve dos platos calientes.",
       "Antes de comer, la abuela toma un frasco pequeño de la cocina. Dentro hay hierbas frescas de su jardín. \"Este es mi secreto\", dice ella, y pone las hierbas en la sopa. Andrés prueba la sopa y sonríe mucho.",
-      "\"¡Está deliciosa, abuela!\" dice Andrés con la boca llena. Su abuela le da un abrazo grande y feliz. Ahora, Andrés también conoce el secreto de la sopa. Los domingos con su abuela son sus días favoritos.",
+      "\"¡Está deliciosa, abuela!\", dice Andrés con la boca llena. Su abuela le da un abrazo grande y feliz. Ahora, Andrés también conoce el secreto de la sopa. Los domingos con su abuela son sus días favoritos.",
     ],
     questions: [
       {
@@ -209,8 +209,8 @@ export const A1_STORIES: Story[] = [
       "A boy who always sits on the bench finally gets his chance to play and score.",
     paragraphs: [
       "Marcos juega en el equipo de fútbol de su escuela. Le gusta mucho el fútbol, pero casi nunca juega en los partidos. Generalmente, se sienta en el banco y mira a sus compañeros. Marcos sueña con meter un gol algún día.",
-      "Hoy es el partido más importante del año. El entrenador mira a todos los jugadores en el banco. De repente, dice el nombre de Marcos. \"¡Marcos, entra al partido!\" grita el entrenador.",
-      "Marcos corre al campo con el corazón acelerado. Sus compañeros le pasan el balón varias veces. Él corre rápido y practica lo que aprende en los entrenamientos. El público grita y anima a todo el equipo.",
+      "Hoy es el partido más importante del año. El entrenador mira a todos los jugadores en el banco. De repente, dice el nombre de Marcos. \"¡Marcos, entra al partido!\", grita el entrenador.",
+      "Marcos corre al campo con el corazón acelerado. Sus compañeros le pasan el balón varias veces. Él corre rápido y pone en práctica lo que aprende en los entrenamientos. El público grita y anima a todo el equipo.",
       "En el segundo tiempo, un compañero pasa el balón a Marcos. Marcos ve la portería y respira profundo. Con mucha fuerza, patea el balón hacia la portería. ¡El balón entra! Es un gol.",
       "Todo el estadio grita de alegría. Los compañeros de Marcos corren hacia él y lo abrazan. El entrenador sonríe desde el banco y aplaude fuerte. Marcos no puede creerlo: ¡por fin mete un gol!",
       "Después del partido, la familia de Marcos lo espera afuera. Su papá le da un abrazo enorme y está muy orgulloso. Esa noche, Marcos duerme con una sonrisa en la cara. Es el mejor día de su vida como futbolista.",
@@ -285,7 +285,7 @@ export const A1_STORIES: Story[] = [
       "A boy helps his elderly neighbor fix his fence and discovers a new friendship.",
     paragraphs: [
       "El señor Martín es el vecino de Diego. Es un hombre mayor que vive solo en la casa de al lado. Un día, Diego ve que la cerca del jardín del señor Martín está rota. El señor Martín intenta arreglarla, pero es difícil para él.",
-      "Diego decide ayudar a su vecino. \"Señor Martín, ¿puedo ayudarlo?\" pregunta Diego con una sonrisa. El señor Martín está sorprendido, pero acepta la ayuda con gusto. Los dos empiezan a trabajar juntos en la cerca.",
+      "Diego decide ayudar a su vecino. \"Señor Martín, ¿puedo ayudarlo?\", pregunta Diego con una sonrisa. El señor Martín está sorprendido, pero acepta la ayuda con gusto. Los dos empiezan a trabajar juntos en la cerca.",
       "Diego sostiene las tablas de madera mientras el señor Martín usa el martillo. Trabajan por dos horas bajo el sol de la tarde. El señor Martín cuenta historias interesantes de su juventud. Diego escucha con mucha atención y hace preguntas.",
       "Finalmente, la cerca está reparada y está muy bien. El señor Martín está muy agradecido con Diego. \"Eres un buen chico\", dice él. Después trae limonada fría para los dos. Están en el jardín y hablan un poco más.",
       "Desde ese día, Diego visita al señor Martín cada semana. A veces lo ayuda con el jardín o con las compras. Los sábados, el señor Martín enseña ajedrez a Diego. Ya no está solo, y Diego tiene un nuevo amigo especial.",
@@ -325,7 +325,7 @@ export const A1_STORIES: Story[] = [
       "El abuelo de Valentina tiene un jardín grande detrás de su casa. Cada primavera, planta tomates, lechuga y flores de colores. Este año, Valentina quiere ayudar por primera vez. Su abuelo está muy contento con la idea.",
       "Un sábado de abril, el abuelo le da a Valentina unas semillas de tomate. \"Estas semillas necesitan tierra, agua y sol\", explica el abuelo. Valentina hace un hoyo pequeño en la tierra con sus manos. Con cuidado, pone las semillas y las cubre.",
       "Cada mañana, Valentina va al jardín antes de la escuela. Riega las plantas con una regadera pequeña y verde. También quita las hierbas malas cerca de las semillas. El abuelo le enseña a cuidar las plantas cada día.",
-      "Después de dos semanas, Valentina ve algo verde en la tierra. Son las primeras hojas pequeñas de sus plantas de tomate. Ella salta de alegría y llama a su abuelo rápidamente. \"¡Mira, abuelo, mis plantas crecen!\" grita Valentina.",
+      "Después de dos semanas, Valentina ve algo verde en la tierra. Son las primeras hojas pequeñas de sus plantas de tomate. Ella salta de alegría y llama a su abuelo rápidamente. \"¡Mira, abuelo, mis plantas crecen!\", grita Valentina.",
       "Durante el verano, las plantas crecen mucho más altas. Aparecen flores amarillas y después pequeños tomates verdes. Valentina cuenta los tomates todos los días con mucha emoción. Poco a poco, los tomates cambian de color a rojo.",
       "En agosto, Valentina y su abuelo cosechan los primeros tomates. Los llevan a la cocina y preparan una ensalada fresca. Toda la familia come la ensalada y dice que es deliciosa. Valentina se siente muy orgullosa de su primer jardín.",
     ],
@@ -453,8 +453,8 @@ export const A1_STORIES: Story[] = [
       "A boy helps his mother shop at the outdoor market and discovers a new fruit he loves.",
     paragraphs: [
       "Todos los sábados, Mateo va al mercado con su mamá. El mercado está lleno de colores, olores y sonidos. Hay puestos de frutas, verduras, flores y pan fresco. Mateo lleva una bolsa de tela para las compras.",
-      "Primero, van al puesto de frutas. La mamá de Mateo compra manzanas, plátanos y naranjas. El vendedor sonríe y tiene una fruta pequeña para Mateo. \"¿Qué fruta es esta?\" pregunta Mateo con curiosidad.",
-      "\"Se llama mango\", responde el vendedor amablemente. Mateo prueba el mango y le encanta el sabor dulce. Le pide a su mamá que compre varios mangos para la casa. Su mamá dice que sí y compra una bolsa llena.",
+      "Primero, van al puesto de frutas. La mamá de Mateo compra manzanas, plátanos y naranjas. El vendedor sonríe y tiene una fruta pequeña para Mateo. \"¿Qué fruta es esta?\", pregunta Mateo con curiosidad.",
+      "\"Se llama mango\", responde el vendedor amablemente. Mateo prueba el mango y le encanta el sabor dulce. Le pide a su mamá varios mangos para la casa. Su mamá dice que sí y compra una bolsa llena.",
       "Después, caminan hacia el puesto de verduras. Compran tomates, zanahorias y una lechuga grande. El vendedor de verduras conoce a la mamá de Mateo desde hace años. Hablan un momento sobre el clima y la familia.",
       "Mateo también quiere comprar flores para su abuela. En el puesto de flores, escoge unas flores amarillas bonitas. Su mamá paga por las flores y Mateo las carga con cuidado. Las flores huelen muy dulce en sus manos.",
       "Al final, compran pan fresco de una panadería pequeña. Caminan a casa con las bolsas llenas de comida. Mateo piensa en el mango delicioso todo el camino. Esa tarde, come mango con toda su familia y sonríe feliz.",
@@ -493,7 +493,7 @@ export const A1_STORIES: Story[] = [
       "Isabel quiere una cometa desde hace mucho tiempo. Su papá tiene una idea especial para el fin de semana. \"Vamos a hacer una cometa nosotros mismos\", dice él con entusiasmo. Isabel salta de alegría con la idea.",
       "El sábado por la mañana, buscan materiales en casa. Usan papel de colores, dos palos de madera y un poco de cuerda. Isabel dibuja estrellas y soles en el papel. Su papá ata los palos con mucho cuidado.",
       "Después de una hora de trabajo, la cometa está lista. Es amarilla y azul, con una cola larga de tela. Isabel está muy orgullosa de su cometa hecha en casa. Los dos caminan al parque cerca de su casa.",
-      "En el parque, hace mucho viento ese día. Isabel sostiene la cometa mientras su papá sostiene la cuerda. \"¡Corre!\" dice su papá, y los dos corren juntos por el pasto. La cometa empieza a subir poco a poco hacia el cielo.",
+      "En el parque, hace mucho viento ese día. Isabel sostiene la cometa mientras su papá sostiene la cuerda. \"¡Corre!\", dice su papá, y los dos corren juntos por el pasto. La cometa empieza a subir poco a poco hacia el cielo.",
       "De repente, un viento fuerte levanta la cometa muy alto. Isabel grita de emoción y sostiene la cuerda con fuerza. La cometa vuela sobre los árboles, bajo las nubes blancas. Otros niños del parque miran la cometa con admiración.",
       "Después de volar la cometa por una hora, caminan a casa cansados pero felices. Isabel dice que su cometa es la mejor del parque. Su papá sonríe y le da un abrazo grande. Esa noche, Isabel sueña con volar su cometa otra vez.",
     ],
@@ -568,7 +568,7 @@ export const A1_STORIES: Story[] = [
     paragraphs: [
       "Cada domingo, la familia de Julián se reúne para cenar juntos. Hoy es especial porque sus primos de otra ciudad vienen de visita. Julián está un poco nervioso porque no conoce bien a su primo Emilio. Julián es tímido con personas nuevas.",
       "La mamá de Julián prepara arroz, pollo y una ensalada grande. La casa huele muy rico toda la tarde. Julián ayuda a poner los platos y los vasos en la mesa. Su hermana pone las servilletas al lado de cada plato.",
-      "Cuando llegan los primos, Julián se esconde un poco detrás de su papá. Emilio tiene la misma edad que Julián y lleva una pelota de fútbol. \"¿Quieres jugar antes de cenar?\" pregunta Emilio con una sonrisa amable. Julián dice que sí y los dos van al jardín.",
+      "Cuando llegan los primos, Julián se esconde un poco detrás de su papá. Emilio tiene la misma edad que Julián y lleva una pelota de fútbol. \"¿Quieres jugar antes de cenar?\", pregunta Emilio con una sonrisa amable. Julián dice que sí y los dos van al jardín.",
       "Los dos primos juegan fútbol por veinte minutos antes de cenar. Se ríen mucho y se hacen amigos rápidamente. Julián ya no se siente tímido con Emilio. Los dos hablan de sus juegos favoritos mientras juegan.",
       "A la hora de cenar, toda la familia se sienta junta en la mesa grande. Hay mucha comida deliciosa y muchas conversaciones alegres. Julián se sienta al lado de Emilio y comparten historias divertidas. El abuelo cuenta un chiste y todos ríen mucho.",
       "Después de la cena, todos comen un pastel de manzana. Julián y Emilio prometen jugar fútbol otra vez pronto. La familia se despide con abrazos grandes en la puerta. Julián piensa que los domingos en familia son los mejores días.",
@@ -652,7 +652,7 @@ export const A1_STORIES: Story[] = [
     paragraphs: [
       "Sara es una estudiante nueva en la escuela. Su familia vive en la ciudad desde hace solo una semana. Sara no conoce a nadie y se siente muy sola. El primer día de clases, ella está muy nerviosa.",
       "En la clase, la maestra presenta a Sara a todos los estudiantes. Algunos niños sonríen, pero Sara no habla mucho. A la hora del almuerzo, Sara se sienta sola en una mesa. Saca su cuaderno y empieza a dibujar un gato.",
-      "Una niña llamada Julia ve el dibujo de Sara desde otra mesa. Julia se acerca con curiosidad. \"¡Qué bonito dibujo!\" dice Julia con una sonrisa. \"¿Te gusta dibujar?\" pregunta ella a Sara.",
+      "Una niña llamada Julia ve el dibujo de Sara desde otra mesa. Julia se acerca con curiosidad. \"¡Qué bonito dibujo!\", dice Julia con una sonrisa. \"¿Te gusta dibujar?\", pregunta ella a Sara.",
       "Sara sonríe por primera vez ese día. \"Sí, me encanta dibujar animales\", responde Sara con más confianza. Julia se sienta a su lado y saca su propio cuaderno. Las dos empiezan a dibujar juntas y hablan sobre sus animales favoritos.",
       "Julia invita a Sara a jugar en el recreo con sus otras amigas. Sara está un poco nerviosa, pero acepta la invitación. Las niñas juegan y se ríen mucho en el patio. Sara ya no se siente tan sola como antes.",
       "Al final del día, Sara camina a casa con una sonrisa grande. Le cuenta a su mamá sobre su nueva amiga Julia. Su mamá está muy contenta de escuchar la buena noticia. Sara piensa que su nueva escuela puede ser un buen lugar.",
@@ -691,7 +691,7 @@ export const A1_STORIES: Story[] = [
       "La familia Ruiz decide acampar en las montañas por primera vez. Empacan una tienda de campaña, sacos de dormir y linternas. Los niños, Pedro y Lola, están muy emocionados por la aventura. El viaje en coche dura casi tres horas.",
       "Cuando llegan, el papá arma la tienda de campaña cerca de un río. Lola ayuda a recoger piedras y ramas pequeñas para el campamento. Pedro explora el área cerca de los árboles altos. El aire de la montaña es fresco y limpio.",
       "Por la tarde, cocinan salchichas en una fogata pequeña. Todos se sientan alrededor del fuego y cuentan historias. De repente, empieza a llover fuerte y todos corren a la tienda. La familia está un poco triste porque quiere ver las estrellas.",
-      "Dentro de la tienda, juegan a las cartas mientras escuchan la lluvia. Después de una hora, la lluvia para completamente. El papá sale primero y mira hacia arriba con sorpresa. \"¡Vengan rápido, miren el cielo!\" grita él muy emocionado.",
+      "Dentro de la tienda, juegan a las cartas mientras escuchan la lluvia. Después de una hora, la lluvia para completamente. El papá sale primero y mira hacia arriba con sorpresa. \"¡Vengan rápido, miren el cielo!\", grita él muy emocionado.",
       "Toda la familia sale de la tienda y mira hacia arriba. El cielo está lleno de estrellas brillantes, más que nunca antes. Lola cuenta las estrellas y Pedro busca la Luna entre las nubes. Nunca ven un cielo tan hermoso en la ciudad.",
       "Esa noche, duermen en la tienda escuchando los sonidos del bosque. Al día siguiente, caminan cerca del río antes de volver a casa. Pedro dice que quiere acampar otra vez el próximo verano. Toda la familia está de acuerdo con una gran sonrisa.",
     ],
@@ -731,7 +731,7 @@ export const A1_STORIES: Story[] = [
       "Durante las primeras semanas, Diego solo aprende tres acordes simples. Practica todos los días después de la escuela, aunque a veces se frustra. Un día, no puede tocar un acorde correctamente y quiere dejar la guitarra. \"Esto es muy difícil\", piensa Diego con tristeza.",
       "Su hermana mayor escucha su frustración y decide ayudar. \"Al principio es difícil para todos los músicos\", le dice ella con paciencia. Ella le muestra un video de sus canciones favoritas. Diego decide intentarlo una vez más con más calma.",
       "Poco a poco, los dedos de Diego se sienten más fuertes. Los acordes ya no son tan difíciles como antes. Después de dos meses de práctica, Diego puede tocar una canción completa. Se siente muy orgulloso de su progreso.",
-      "En la siguiente clase, Diego toca la canción para Rafael. Su maestro sonríe y aplaude con mucho entusiasmo. \"¡Excelente trabajo, Diego!\" dice Rafael feliz. Esa noche, Diego toca la canción para toda su familia en la sala.",
+      "En la siguiente clase, Diego toca la canción para Rafael. Su maestro sonríe y aplaude con mucho entusiasmo. \"¡Excelente trabajo, Diego!\", dice Rafael feliz. Esa noche, Diego toca la canción para toda su familia en la sala.",
     ],
     questions: [
       {
@@ -765,7 +765,7 @@ export const A1_STORIES: Story[] = [
       "A boy who has never seen snow before wakes up to a white world and builds his first snowman.",
     paragraphs: [
       "Iker vive en una ciudad donde nunca nieva. Un día de invierno, su familia se muda a un pueblo en las montañas. Iker escucha que allí a veces nieva mucho. Él nunca ha visto la nieve en persona.",
-      "Una noche, el cielo está muy gris y hace mucho frío. Iker se duerme pensando en la posibilidad de nieve. A la mañana siguiente, algo diferente pasa cuando abre los ojos. La luz que entra por la ventana es muy blanca y brillante.",
+      "Una noche, el cielo está muy gris y hace mucho frío. Iker se duerme pensando en la posibilidad de nieve. A la mañana siguiente, pasa algo diferente cuando abre los ojos. La luz que entra por la ventana es muy blanca y brillante.",
       "Iker corre a la ventana y no puede creer lo que ve. ¡Todo el pueblo está cubierto de nieve blanca! Los árboles, los techos y las calles están completamente blancos. Iker grita de alegría y despierta a toda su familia.",
       "Rápidamente, Iker se pone un abrigo, botas y guantes calientes. Sale al jardín y siente la nieve fría bajo sus pies por primera vez. Su hermana pequeña sale también con una sonrisa enorme. Los dos deciden construir un muñeco de nieve juntos.",
       "Primero, hacen una bola grande de nieve para el cuerpo. Después, hacen una bola más pequeña para la cabeza. Usan piedras pequeñas para los ojos y una zanahoria para la nariz. El muñeco de nieve queda muy gracioso y bonito.",
@@ -806,9 +806,9 @@ export const A1_STORIES: Story[] = [
       "Papá saca los huevos, la harina y el azúcar. Los niños ayudan en la cocina. Ana mezcla la harina con el azúcar. Su hermano Luis rompe los huevos.",
       "Papá pone el pastel en el horno. Pronto, el pastel huele muy bien. Los niños esperan con mucha paciencia. Miran el reloj todo el tiempo.",
       "Después de una hora, el pastel está listo. Es grande y tiene un color marrón bonito. Papá lo saca del horno con cuidado.",
-      "Ana decora el pastel con fresas rojas. Luis escribe \"Feliz Cumpleaños\" con chocolate blanco. El pastel está precioso.",
+      "Ana decora el pastel con fresas rojas. Luis escribe \"Feliz cumpleaños\" con chocolate blanco. El pastel está precioso.",
       "Mamá entra en la cocina. Ve el pastel y sonríe. \"¡Qué sorpresa tan bonita!\", dice mamá. Ella está muy feliz.",
-      "Toda la familia come el pastel juntos. Mamá dice que es el mejor pastel del mundo. Es un día perfecto para la familia.",
+      "Toda la familia come el pastel junta. Mamá dice que es el mejor pastel del mundo. Es un día perfecto para la familia.",
     ],
     questions: [
       {
@@ -944,7 +944,7 @@ export const A1_STORIES: Story[] = [
       "Papá mezcla la harina, la leche y los huevos en un bol grande. Diego revuelve la mezcla con una cuchara. Su hermana Lucía pone la sartén en el fuego.",
       "Papá pone un poco de mantequilla en la sartén. La cocina huele muy rico. Los panqueques empiezan a cocinarse.",
       "Diego quiere panqueques con forma de corazón. Papá hace un panqueque especial para él. Lucía prefiere panqueques redondos y grandes.",
-      "Los panqueques están listos en pocos minutos. Son dorados y suaves. Toda la familia pone la mesa juntos.",
+      "Los panqueques están listos en pocos minutos. Son dorados y suaves. Toda la familia pone la mesa junta.",
       "Diego pone miel en sus panqueques. Lucía prefiere fresas y azúcar. A mamá le gustan los panqueques con mantequilla.",
       "La familia desayuna junta y habla del fin de semana. Es un sábado perfecto. Diego ya quiere hacer panqueques otra vez.",
     ],
@@ -1357,7 +1357,7 @@ export const A1_STORIES: Story[] = [
       "Adrián tiene un pez dorado. Se llama Sol. Sol vive en una pecera pequeña en su cuarto.",
       "Un sábado, Adrián decide limpiar la pecera. El agua está un poco sucia. Sol nada de un lado a otro.",
       "Adrián pone a Sol en un vaso con agua limpia por un momento. Luego, limpia la pecera con cuidado. Quita las piedras y las lava bien.",
-      "Mamá tiene una idea buena. \"¿Por qué no compramos una pecera más grande?\", pregunta mamá. Adrián está muy feliz con la idea.",
+      "Mamá tiene una buena idea. \"¿Por qué no compramos una pecera más grande?\", pregunta mamá. Adrián está muy feliz con la idea.",
       "Van juntos a la tienda de mascotas. Compran una pecera grande y bonita. También compran piedras de colores nuevas.",
       "En casa, Adrián prepara la pecera nueva. Pone agua limpia y las piedras de colores. Todo está listo para Sol.",
       "Adrián pone a Sol en su nueva casa. El pez nada feliz por todo el espacio. Ahora Sol tiene una pecera mucho más grande.",
@@ -1372,10 +1372,10 @@ export const A1_STORIES: Story[] = [
       },
       {
         question: "What does Adrián do with the fish while cleaning the tank?",
-        options: ["He puts the fish in a cup of clean water", "He lets the fish swim in the sink", "He gives the fish to a neighbor", "He empties the tank without moving the fish"],
+        options: ["He puts the fish in a glass of clean water", "He lets the fish swim in the sink", "He gives the fish to a neighbor", "He empties the tank without moving the fish"],
         correctIndex: 0,
         explanation:
-          "It says \"Adrián pone a Sol en un vaso con agua limpia por un momento\" (Adrián puts Sol in a cup with clean water for a moment).",
+          "It says \"Adrián pone a Sol en un vaso con agua limpia por un momento\" (Adrián puts Sol in a glass of clean water for a moment).",
       },
       {
         question: "What does mamá suggest?",
@@ -1585,7 +1585,7 @@ export const A1_STORIES: Story[] = [
       "A family's pet hamster gets out of its cage and hides somewhere in the house.",
     paragraphs: [
       "Leo tiene un hámster pequeño. Se llama Nuez. Nuez vive en una jaula en el cuarto de Leo.",
-      "Una tarde, Leo abre la jaula para darle comida a Nuez. Por un momento, no cierra bien la puerta. Nuez sale de la jaula muy rápido.",
+      "Una tarde, Leo abre la jaula para darle comida a Nuez. Por descuido, no cierra bien la puerta. Nuez sale de la jaula muy rápido.",
       "\"¡Mamá, Nuez no está en la jaula!\", grita Leo asustado. Toda la familia empieza a buscar al hámster por la casa.",
       "Papá mira debajo de los muebles con una linterna. Mamá busca en la cocina. Leo busca en su propio cuarto con mucho cuidado.",
       "Su hermana pequeña, Vera, tiene una idea. \"Los hámsters buscan comida\", dice Vera. Pone unas semillas en el suelo cerca de la jaula.",
@@ -1630,7 +1630,7 @@ export const A1_STORIES: Story[] = [
     subtitle:
       "A family makes homemade pizza together, each person choosing their own toppings.",
     paragraphs: [
-      "Los viernes por la noche son especiales en casa de Marta. Toda la familia hace pizza juntos. Es una tradición que les gusta mucho.",
+      "Los viernes por la noche son especiales en casa de Marta. Toda la familia hace pizza junta. Es una tradición que les gusta mucho.",
       "Mamá prepara la masa con harina, agua y un poco de sal. La masa es suave y elástica. Los niños ayudan a estirarla en la mesa.",
       "Cada persona elige sus ingredientes favoritos. A Marta le gusta el queso y el jamón. A su hermano Pablo le gustan los champiñones.",
       "Papá pone salsa de tomate en la masa. Después, cada niño pone sus ingredientes en su parte de la pizza. La pizza tiene muchos colores.",
@@ -1644,7 +1644,7 @@ export const A1_STORIES: Story[] = [
         options: ["Sunday mornings", "Friday nights", "Wednesday afternoons", "Saturday lunch"],
         correctIndex: 1,
         explanation:
-          "The story says \"Los viernes por la noche son especiales en casa de Marta. Toda la familia hace pizza juntos\" (Friday nights are special at Marta's house; the whole family makes pizza together).",
+          "The story says \"Los viernes por la noche son especiales en casa de Marta. Toda la familia hace pizza junta\" (Friday nights are special at Marta's house; the whole family makes pizza together).",
       },
       {
         question: "What does mamá make the dough with?",
@@ -1815,10 +1815,10 @@ export const A1_STORIES: Story[] = [
     subtitle:
       "A shy new student named Pablo auditions for the school play and wins an important role.",
     paragraphs: [
-      "En la clase de teatro, la profesora anuncia una obra nueva. La obra se llama \"El rey y el zorro.\" Todos los estudiantes quieren un papel.",
+      "En la clase de teatro, la profesora anuncia una obra nueva. La obra se llama \"El rey y el zorro\". Todos los estudiantes quieren un papel.",
       "Pablo es un estudiante nuevo en la clase de teatro. Él es un poco tímido, pero le gusta mucho actuar. Pablo practica todos los días en casa.",
       "La profesora organiza las audiciones. Cada estudiante lee unas líneas frente a la clase. Pablo está nervioso, pero respira profundo.",
-      "Cuando es el turno de Pablo, él lee las líneas del zorro. Habla con voz fuerte y clara. Sus compañeros escuchan con atención.",
+      "Cuando es el turno de Pablo, él lee el texto del zorro. Habla con voz fuerte y clara. Sus compañeros escuchan con atención.",
       "La profesora sonríe después de la audición de Pablo. \"Tienes mucho talento\", dice ella. Pablo está muy sorprendido.",
       "Al día siguiente, la profesora anuncia los papeles. Pablo va a ser el zorro en la obra. Sus compañeros lo felicitan.",
       "Pablo llama a su familia con la buena noticia. Está muy feliz y un poco nervioso también. Ahora practica sus líneas cada noche.",
@@ -1829,7 +1829,7 @@ export const A1_STORIES: Story[] = [
         options: ["El rey y el zorro", "El lobo y la luna", "La reina del mar", "El gato negro"],
         correctIndex: 0,
         explanation:
-          "The story says \"La obra se llama 'El rey y el zorro.'\"",
+          "The story says \"La obra se llama 'El rey y el zorro'.\"",
       },
       {
         question: "How is Pablo described?",
@@ -1909,7 +1909,7 @@ export const A1_STORIES: Story[] = [
     paragraphs: [
       "Carlos busca su estuche de lápices por toda la clase. No está en su mochila. No está debajo de la mesa tampoco.",
       "Carlos está muy preocupado porque el estuche es un regalo de su abuela. Tiene lápices de colores y una goma especial adentro. Sin el estuche, Carlos no puede terminar su dibujo.",
-      "Su amiga Rosa ve la cara triste de Carlos. \"¿Qué buscas?\" pregunta Rosa. Carlos explica el problema con voz baja.",
+      "Su amiga Rosa ve la cara triste de Carlos. \"¿Qué buscas?\", pregunta Rosa. Carlos explica el problema con voz baja.",
       "Rosa decide ayudar a Carlos. Los dos buscan en la biblioteca y en el patio. No encuentran el estuche en ningún lugar.",
       "Rosa tiene una idea. \"¿Le prestaste tu estuche a alguien hoy?\", pregunta ella. Carlos recuerda algo importante de repente.",
       "Carlos le prestó su estuche a Miguel durante la clase de arte. Los dos amigos caminan hacia la mesa de Miguel. El estuche está ahí, debajo de un papel.",
@@ -2002,7 +2002,7 @@ export const A1_STORIES: Story[] = [
       "Hugo quiere estar en el equipo de baloncesto de la escuela. Las pruebas son el lunes por la tarde. Hugo practica los tiros todos los días en el parque.",
       "En las pruebas, hay veinte estudiantes en la cancha. El entrenador explica los ejercicios. Todos corren, saltan y practican tiros.",
       "Hugo está nervioso porque no es muy alto. Pero él corre muy rápido y pasa el balón bien. El entrenador observa con atención.",
-      "Durante un ejercicio, Hugo pasa el balón a su compañero en el momento perfecto. El equipo anota un punto. El entrenador sonríe y escribe algo en su papel.",
+      "Durante un ejercicio, Hugo pasa el balón a su compañero en el momento perfecto. El equipo anota una canasta. El entrenador sonríe y escribe algo en su papel.",
       "Al final de las pruebas, el entrenador habla con cada estudiante. \"Tu velocidad es muy buena\", dice el entrenador a Hugo. Hugo está feliz con el comentario.",
       "Al día siguiente, la escuela publica la lista del equipo. Hugo busca su nombre con nervios. ¡Su nombre está en la lista!",
       "Hugo llama a sus padres con la buena noticia. Su familia está muy orgullosa de él. Ahora Hugo practica cada día para el primer partido.",
@@ -2050,7 +2050,7 @@ export const A1_STORIES: Story[] = [
       "Tomás sostiene la bicicleta mientras Vera se sube. Vera pone los pies en los pedales con cuidado. Está un poco nerviosa al principio.",
       "\"No mires el suelo, mira adelante\", dice Tomás. Vera mira hacia el camino. Empieza a pedalear despacio.",
       "Tomás corre al lado de la bicicleta y sostiene el asiento. Poco a poco, Vera pedalea más rápido. De repente, Tomás suelta la bicicleta sin decir nada.",
-      "Vera monta sola por unos segundos. Luego mira hacia atrás y ve a Tomás lejos. \"¡Estoy montando sola!\" grita ella muy emocionada.",
+      "Vera monta sola por unos segundos. Luego mira hacia atrás y ve a Tomás lejos. \"¡Estoy montando sola!\", grita ella muy emocionada.",
       "Vera practica en el parque toda la tarde. Ahora monta su bicicleta con mucha confianza. Está muy orgullosa de su nuevo talento.",
     ],
     questions: [
@@ -2091,7 +2091,7 @@ export const A1_STORIES: Story[] = [
     subtitle:
       "Isabel draws a dolphin for the town library's drawing contest and wins second place.",
     paragraphs: [
-      "La biblioteca del pueblo organiza un concurso de dibujo. El tema es \"Mi animal favorito.\" Isabel decide dibujar un delfín.",
+      "La biblioteca del pueblo organiza un concurso de dibujo. El tema es \"Mi animal favorito\". Isabel decide dibujar un delfín.",
       "Isabel practica su dibujo muchas veces en casa. Usa lápices de colores azul y gris. Su mamá la ayuda con los detalles del agua.",
       "El día del concurso, muchos niños llegan a la biblioteca con sus dibujos. Hay dibujos de perros, gatos, leones y pájaros. Isabel pone su dibujo en la mesa con los otros.",
       "Un grupo de jueces camina por la sala. Miran cada dibujo con cuidado. Isabel espera con las manos juntas.",
@@ -2105,7 +2105,7 @@ export const A1_STORIES: Story[] = [
         options: ["My family", "My favorite animal", "My city", "My favorite food"],
         correctIndex: 1,
         explanation:
-          "The story says \"El tema es 'Mi animal favorito.'\"",
+          "The story says \"El tema es 'Mi animal favorito'.\"",
       },
       {
         question: "What animal does Isabel draw?",
@@ -2277,9 +2277,9 @@ export const A1_STORIES: Story[] = [
     paragraphs: [
       "En la esquina de la calle hay una panadería pequeña. El panadero se llama don Alberto. Todas las mañanas, el olor a pan llega hasta la casa de Lucía.",
       "Un sábado, Lucía decide visitar la panadería sola por primera vez. Lucía tiene dinero y una lista corta de su mamá. Lucía camina con mucho cuidado.",
-      "Dentro de la panadería, hay pan de muchas formas y colores. Don Alberto saluda a Lucía con una sonrisa grande. \"¿Qué necesitas hoy?\" pregunta él.",
+      "Dentro de la panadería, hay pan de muchas formas y colores. Don Alberto saluda a Lucía con una sonrisa grande. \"¿Qué necesitas hoy?\", pregunta él.",
       "Lucía mira su lista: dos panes y unos pasteles pequeños. Ella señala los pasteles en el estante. Don Alberto los pone en una bolsa de papel.",
-      "Lucía cuenta el dinero con cuidado, como enseña su mamá. Don Alberto cuenta el cambio en voz alta. Lucía guarda las monedas en su bolsillo.",
+      "Lucía cuenta el dinero con cuidado, como le enseña su mamá. Don Alberto cuenta el cambio en voz alta. Lucía guarda las monedas en su bolsillo.",
       "\"Gracias, y buen trabajo hoy\", dice don Alberto. Lucía sonríe orgullosa. Camina de vuelta a casa con la bolsa de pan.",
       "En casa, su mamá abre la bolsa y ve todo correcto. \"¡Es un trabajo perfecto!\", dice su mamá. Lucía está muy contenta con su primera visita sola.",
     ],
@@ -2457,7 +2457,7 @@ export const A1_STORIES: Story[] = [
     level: "A1",
     title: "Vacaciones en la ciudad",
     subtitle:
-      "Diego explores a big city on vacation, visiting an art museum and riding a rooftop-less tour bus.",
+      "Diego explores a big city on vacation, visiting an art museum and riding an open-top tour bus.",
     paragraphs: [
       "Diego y su familia pasan unas vacaciones en una ciudad grande. Se quedan en un hotel cerca del centro. Diego nunca ha visto edificios tan altos.",
       "El primer día, ellos caminan por las calles llenas de gente. Hay tiendas, restaurantes y músicos en las esquinas. Diego mira todo con los ojos muy abiertos.",
@@ -2507,7 +2507,7 @@ export const A1_STORIES: Story[] = [
     paragraphs: [
       "La clase de Rosa visita el acuario de la ciudad. Todos los estudiantes están muy emocionados. El acuario tiene peces de muchos colores.",
       "Primero, los estudiantes ven un tanque enorme con tiburones. Los tiburones nadan lento y tranquilo. Rosa está un poco nerviosa, pero también fascinada.",
-      "Después, caminan hacia una sala con pulpos. Un pulpo cambia de color frente a los estudiantes. \"¡Es mágico!\" dice Rosa muy sorprendida.",
+      "Después, caminan hacia una sala con pulpos. Un pulpo cambia de color frente a los estudiantes. \"¡Es mágico!\", dice Rosa muy sorprendida.",
       "En otra sala, hay un tanque especial donde los niños pueden tocar estrellas de mar. Rosa toca una estrella de mar con mucho cuidado. La estrella se siente dura y un poco áspera.",
       "Un guía del acuario habla sobre los pingüinos. Los pingüinos nadan rápido en el agua fría. Rosa ríe cuando un pingüino salta fuera del agua.",
       "A la hora del almuerzo, la clase come cerca de un tanque grande con tortugas marinas. Las tortugas nadan despacio cerca del vidrio. Rosa observa una tortuga mientras come su sándwich.",
@@ -2777,7 +2777,7 @@ export const A1_STORIES: Story[] = [
       "Hugo y Mateo son hermanos. Hugo tiene nueve años y Mateo tiene seis. Hoy es viernes y su tía Lola los lleva al cine. Es la primera vez que Mateo va al cine.",
       "El cine está en el centro de la ciudad. Es un edificio grande con muchas luces. Hay mucha gente en la puerta. Tía Lola compra tres entradas para una película de animales.",
       "Antes de entrar, tía Lola compra palomitas y tres refrescos. Las palomitas están calientes y saladas. Mateo come muchas palomitas antes de entrar en la sala.",
-      "La sala es muy oscura y la pantalla es enorme. Mateo tiene un poco de miedo. Hugo da la mano a su hermano y dice: \"Tranquilo, es solo una película.\"",
+      "La sala está muy oscura y la pantalla es enorme. Mateo tiene un poco de miedo. Hugo da la mano a su hermano y dice: \"Tranquilo, es solo una película.\"",
       "La película es sobre un oso que busca a su familia en el bosque. Es divertida y un poco triste también. En una parte, el oso llora y Mateo llora también. Tía Lola tiene un pañuelo para él.",
       "Al final, el oso encuentra a su familia. Todos en la sala aplauden. Mateo aplaude muy fuerte y grita: \"¡Bravo, oso!\" Unas personas ríen también.",
       "En la calle, tía Lola pregunta: \"¿Qué es lo mejor de la noche?\" \"La película\", dice Hugo. Mateo piensa un momento. \"Lo mejor es estar con ustedes\", dice. Tía Lola lo abraza.",
@@ -2795,7 +2795,7 @@ export const A1_STORIES: Story[] = [
         options: ["He holds his hand and tells him to relax", "He buys him more popcorn", "He takes him outside", "He turns on a flashlight"],
         correctIndex: 0,
         explanation:
-          "\"Hugo le da la mano y le dice: 'Tranquilo, es solo una película.'\"",
+          "\"Hugo da la mano a su hermano y dice: 'Tranquilo, es solo una película.'\"",
       },
       {
         question: "What is the movie about?",
@@ -3300,7 +3300,7 @@ export const A1_STORIES: Story[] = [
     paragraphs: [
       "Los sábados hay una clase de pintura en el parque. La profesora se llama Marina. Rocío tiene doce años y va a la clase por primera vez con su amiga Clara.",
       "Rocío no pinta bien, o eso piensa ella. Clara pinta muy bien. Sus dibujos son perfectos. Rocío tiene miedo de pintar mal delante de las otras personas.",
-      "Marina da a cada estudiante un papel grande, pinceles y pinturas de colores. \"Hoy pintamos el lago\", dice. En el lago hay patos, árboles y un puente pequeño.",
+      "Marina da a cada estudiante un papel grande, pinceles y pinturas de colores. \"Hoy pintamos el lago\", dice. En el lago hay patos y un puente pequeño, y alrededor hay árboles.",
       "Clara pinta el lago exactamente como es. Rocío intenta pintar el puente, pero la línea no está recta. Ella está frustrada. Quiere romper el papel.",
       "Entonces, Rocío tiene una idea. Pinta el agua de color morado y el cielo de color naranja. Pinta los patos grandes, con colores fuertes. No es un lago real. Es un lago de fantasía.",
       "Marina camina entre los estudiantes y mira el papel de Rocío. Se queda allí un minuto. \"Este lago es muy especial\", dice. \"Tiene tu personalidad.\" Todos los estudiantes miran la pintura de Rocío.",
@@ -3439,7 +3439,7 @@ export const A1_STORIES: Story[] = [
       "Esta noche es especial. En la televisión dicen que hay una lluvia de estrellas. Sara vive en la ciudad, pero hoy duerme en la casa de su abuelo, en el campo.",
       "El abuelo dice: \"En la ciudad hay muchas luces y no ves bien las estrellas. Aquí, en el campo, todo está oscuro. Es perfecto.\"",
       "A las once de la noche, Sara y su abuelo salen al jardín. Llevan dos sillas, una manta y chocolate caliente. Hace un poco de frío.",
-      "Sara mira el cielo. ¡Hay miles de estrellas! El abuelo le enseña algunas. \"Esa es la estrella polar\", dice. \"Y esas siete estrellas forman la Osa Mayor.\"",
+      "Sara mira el cielo. ¡Hay miles de estrellas! El abuelo le enseña algunas. \"Esa es la Estrella Polar\", dice. \"Y esas siete estrellas forman la Osa Mayor.\"",
       "Esperan diez minutos. De repente, una luz cruza el cielo muy rápido. \"¡Una estrella fugaz!\", grita Sara. Después ven otra, y otra más. Sara cuenta doce estrellas fugaces.",
       "\"Cuando ves una estrella fugaz, pides un deseo\", explica el abuelo. Sara cierra los ojos y pide un deseo en silencio. El abuelo también pide un deseo.",
       "A medianoche, Sara tiene mucho sueño. En la cama, pregunta: \"Abuelo, ¿cuál es tu deseo?\" El abuelo sonríe. \"Mi deseo es ver más estrellas contigo\", dice. Sara sonríe también. Es el mismo deseo que ella tiene.",
@@ -3481,7 +3481,7 @@ export const A1_STORIES: Story[] = [
       "Papá dice: \"No abrimos esta ventana ahora. Los pájaros necesitan tranquilidad.\" Toda la familia habla en voz baja en la cocina.",
       "Dos semanas después, Martín escucha un sonido: \"pío, pío, pío\". ¡Hay cuatro pajaritos en el nido! No tienen plumas y tienen la boca muy abierta. Siempre tienen hambre.",
       "Los papás pájaro traen gusanos e insectos todo el día. Los pajaritos crecen rápido. Ahora tienen plumas grises. Martín hace dibujos de los pajaritos en un cuaderno.",
-      "Un día de abril, los pajaritos saltan del nido y vuelan. Primero vuelan mal, pero luego vuelan bien. El nido está vacío. Martín está un poco triste. Pero su mamá dice: \"Tal vez vuelven el año que viene.\" Martín guarda su cuaderno para esperar la primavera.",
+      "Un día de abril, los pajaritos saltan del nido y vuelan. Primero vuelan mal, pero luego vuelan bien. El nido está vacío. Martín está un poco triste. Pero su mamá dice: \"Tal vez vuelven el año que viene.\" Martín guarda su cuaderno y espera la primavera.",
     ],
     questions: [
       {
@@ -3571,7 +3571,7 @@ export const A1_STORIES: Story[] = [
       "En el autobús, Marina lee un libro. La historia es muy interesante. Cuando llega a su parada, baja muy rápido del autobús. ¡Su paraguas está en el asiento!",
       "Marina corre a la escuela bajo la lluvia. Llega mojada y triste. \"Mi paraguas favorito\", dice a su amiga Lucía. \"No voy a verlo nunca más.\"",
       "Al día siguiente, Marina sube al mismo autobús a la misma hora. Un señor mayor con sombrero está sentado delante. Tiene un paraguas amarillo con puntos blancos en la mano.",
-      "El señor mira a Marina y sonríe. \"¿Es tuyo este paraguas?\", pregunta. \"Está conmigo desde ayer. Sé que tomas este autobús todos los días.\"",
+      "El señor mira a Marina y sonríe. \"¿Es tuyo este paraguas?\", pregunta. \"Lo tengo desde ayer. Sé que tomas este autobús todos los días.\"",
       "Marina no puede creerlo. \"¡Sí, es mío! ¡Muchas gracias!\", dice. El señor se llama don Felipe. Él también toma el autobús todas las mañanas para ir al mercado.",
       "Ahora, Marina y don Felipe hablan todos los días en el autobús. Él cuenta historias de su juventud y ella habla de sus libros. Marina no vuelve a olvidar su paraguas nunca más.",
     ],
@@ -3700,8 +3700,8 @@ export const A1_STORIES: Story[] = [
     paragraphs: [
       "En la casa de la familia Ruiz, el sábado por la mañana es para limpiar. A nadie le gusta. Los niños, Carlos y Elena, siempre dicen: \"¡Qué aburrido!\"",
       "Este sábado, papá tiene una idea nueva. Escribe seis tareas en papeles pequeños. Hay que barrer la cocina, limpiar el baño y sacar la basura. También hay que ordenar la sala, regar las plantas y lavar los platos.",
-      "Los niños toman dos papeles de una caja y los padres, uno. Carlos tiene el baño y la basura. Elena tiene las plantas y la sala. Mamá tiene la cocina y papá tiene los platos.",
-      "Después, papá pone música muy alta en la sala. \"Tenemos una hora\", dice. \"La persona que termina primero elige la cena de esta noche.\" ¡Ahora es un juego!",
+      "Cada niño toma dos papeles de una caja, y cada padre, uno. Carlos tiene el baño y la basura. Elena tiene las plantas y la sala. Mamá tiene la cocina y papá tiene los platos.",
+      "Después, papá pone música muy alta en la sala. \"Tenemos una hora\", dice. \"El primero en terminar elige la cena de esta noche.\" ¡Ahora es un juego!",
       "Todos trabajan rápido. Elena baila mientras ordena los cojines del sofá. Carlos canta en el baño con la escoba en la mano. Mamá barre al ritmo de la música.",
       "Elena termina primero, en cuarenta minutos. Pero luego ayuda a Carlos con la basura. Después, todos ayudan a papá con los platos. A las once, la casa está limpia y brillante.",
       "Elena elige la cena: pizza casera. Por la tarde, toda la familia prepara la pizza junta. \"¿El próximo sábado jugamos otra vez?\", pregunta Carlos. Por primera vez, a los niños les gusta el día de limpieza.",
@@ -3712,14 +3712,14 @@ export const A1_STORIES: Story[] = [
         options: ["Mom decides", "They pick papers from a box", "They vote", "The oldest chooses first"],
         correctIndex: 1,
         explanation:
-          "\"Los niños toman dos papeles de una caja y los padres, uno.\"",
+          "\"Cada niño toma dos papeles de una caja, y cada padre, uno.\"",
       },
       {
         question: "What is the prize for finishing first?",
         options: ["Money", "No chores next week", "Choosing tonight's dinner", "A new toy"],
         correctIndex: 2,
         explanation:
-          "\"La persona que termina primero elige la cena de esta noche.\"",
+          "\"El primero en terminar elige la cena de esta noche.\"",
       },
       {
         question: "What does Elena do after she finishes first?",
@@ -3742,7 +3742,7 @@ export const A1_STORIES: Story[] = [
       "En la cafetería, una compañera, Lucía, mira la mochila. \"¡Qué mochila tan antigua!\", dice. Otros compañeros sonríen. Raúl está un poco triste.",
       "Por la tarde, Raúl llama a su abuelo por teléfono. \"Abuelo, necesito una mochila nueva\", dice. El abuelo responde: \"Primero, abre el bolsillo pequeño de atrás.\"",
       "Raúl no conoce ese bolsillo. Dentro hay un papel viejo. Es un mapa dibujado a mano. \"Es el mapa de mi pueblo\", explica el abuelo. \"Esa mochila tiene cuarenta años de trabajo.\"",
-      "El abuelo habla mucho de su pueblo: el río, el mercado, la panadería de la plaza. Raúl escucha con mucha atención. Es una hora de teléfono muy bonita.",
+      "El abuelo habla mucho de su pueblo: el río, el mercado, la panadería de la plaza. Raúl escucha con mucha atención. Hablan una hora por teléfono y es una conversación muy bonita.",
       "Al día siguiente, Raúl lleva la mochila vieja a la oficina. Enseña el mapa a Lucía. \"¡Qué bonito!\", dice ella. \"Mi mochila no tiene historias.\" Ahora Raúl está orgulloso de su mochila.",
     ],
     questions: [
