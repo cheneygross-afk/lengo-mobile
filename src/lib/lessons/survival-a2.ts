@@ -1260,7 +1260,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         "Match each reaction to when you'd use it.",
         [
           ["¡Qué pena!", "Someone tells you bad news."],
-          ["¡Qué suerte!", "Someone tells you good luck they had."],
+          ["¡Qué suerte!", "Someone tells you about their good luck."],
           ["¡No me digas!", "You hear something surprising."],
           ["Te dejo.", "You want to end the conversation."],
         ],

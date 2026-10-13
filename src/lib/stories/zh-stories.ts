@@ -326,7 +326,7 @@ export const ZH_STORIES: ZhStory[] = [
       },
       {
         zh: "钱包 里 不但 有 两百 多 块 钱 ， 而且 有 她 的 身份证 、 银行卡 和 几 张 名片 。 她 越 想 越 着急 ， 一 晚上 都 没 睡 好 。",
-        pinyin: "qiánbāo lǐ búdàn yǒu liǎngbǎi duō kuài qián ， érqiě yǒu tā de shēnfènzhèng 、 yínhángkǎ hé jǐ zhāng míngpiàn 。 tā yuè xiǎng yuè zháojí ， yì wǎnshang dōu méi shuì hǎo 。",
+        pinyin: "qiánbāo li búdàn yǒu liǎngbǎi duō kuài qián ， érqiě yǒu tā de shēnfènzhèng 、 yínhángkǎ hé jǐ zhāng míngpiàn 。 tā yuè xiǎng yuè zháojí ， yì wǎnshang dōu méi shuì hǎo 。",
         en: "There wasn't just two hundred-odd kuai in it, but her ID card, her bank card and a few business cards too. The more she thought about it the more worried she got, and she slept badly all night.",
       },
       {
@@ -336,12 +336,12 @@ export const ZH_STORIES: ZhStory[] = [
       },
       {
         zh: "“ 您好 ， 请问 您 是 陈静 吗 ？ 我 是 昨天 那 位 出租车 司机 。 您 的 钱包 掉 在 我 车 上 了 ， 我 是 从 里面 的 名片 上 找到 您 的 电话 的 。 ”",
-        pinyin: "“ nínhǎo ， qǐngwèn nín shì Chén_Jìng ma ？ wǒ shì zuótiān nà wèi chūzūchē sījī 。 nín de qiánbāo diào zài wǒ chē shàng le ， wǒ shì cóng lǐmiàn de míngpiàn shàng zhǎodào nín de diànhuà de 。 ”",
+        pinyin: "“ nínhǎo ， qǐngwèn nín shì Chén_Jìng ma ？ wǒ shì zuótiān nà wèi chūzūchē sījī 。 nín de qiánbāo diào zài wǒ chē shang le ， wǒ shì cóng lǐmiàn de míngpiàn shang zhǎodào nín de diànhuà de 。 ”",
         en: "\"Hello, is this Chen Jing? I'm the taxi driver from yesterday. Your wallet fell out in my car. I found your number on the business cards inside.\"",
       },
       {
         zh: "一个 小时 以后 ， 司机 把 钱包 送 来 了 。 里面 的 东西 一样 都 没 少 。 陈静 想 给 他 两百 块 钱 表示 感谢 ， 可是 他 怎么 也 不 要 。",
-        pinyin: "yí_ge xiǎoshí yǐhòu ， sījī bǎ qiánbāo sòng lái le 。 lǐmiàn de dōngxi yíyàng dōu méi shǎo 。 Chén_Jìng xiǎng gěi tā liǎngbǎi kuài qián biǎoshì gǎnxiè ， kěshì tā zěnme yě bú yào 。",
+        pinyin: "yí_ge xiǎoshí yǐhòu ， sījī bǎ qiánbāo sòng lai le 。 lǐmiàn de dōngxi yíyàng dōu méi shǎo 。 Chén_Jìng xiǎng gěi tā liǎngbǎi kuài qián biǎoshì gǎnxiè ， kěshì tā zěnme yě bú yào 。",
         en: "An hour later the driver brought the wallet over. Not a single thing was missing. Chen Jing wanted to give him two hundred kuai to say thank you, but he wouldn't take it, however hard she tried.",
       },
       {
@@ -426,7 +426,7 @@ export const ZH_STORIES: ZhStory[] = [
       },
       {
         zh: "果然 ， 一个 星期 以后 ， 豆豆 开始 在 阳台 上 晒 太阳 了 。 现在 ， 我 和 豆豆 都 觉得 这里 就是 我们 的 家 。",
-        pinyin: "guǒrán ， yí_ge xīngqī yǐhòu ， Dòudou kāishǐ zài yángtái shàng shài tàiyáng le 。 xiànzài ， wǒ hé Dòudou dōu juéde zhèlǐ jiùshì wǒmen de jiā 。",
+        pinyin: "guǒrán ， yí_ge xīngqī yǐhòu ， Dòudou kāishǐ zài yángtái shang shài tàiyáng le 。 xiànzài ， wǒ hé Dòudou dōu juéde zhèlǐ jiùshì wǒmen de jiā 。",
         en: "Sure enough, a week later Doudou started sunbathing on the balcony. Now Doudou and I both feel this is our home.",
       },
     ],

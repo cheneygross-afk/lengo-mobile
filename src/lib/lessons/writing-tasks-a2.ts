@@ -321,7 +321,7 @@ export const A2_WRITING_TASKS: UnitWriting = {
         "Más / menos… que"
       ],
       "modelAnswer": "Mi hermana Laura es dos años mayor que yo. Ella es mucho más alta y cocina mejor que nadie en la familia. Yo soy peor en la cocina, pero juego al fútbol mejor que ella. Las dos somos tan desordenadas como nuestro padre. Laura es más seria que yo, pero es mi mejor amiga.",
-      "explanation": "Mayor, menor, mejor and peor replace más viejo, más joven, más bueno and más malo. Tan + adjective + como shows that two people are the same."
+      "explanation": "Mayor, menor, mejor and peor are the usual comparatives for age and quality (más joven is also fine; más viejo can sound blunt). Tan + adjective + como shows that two people are the same."
     }
   ],
   "a2r-mission-predictions": [
@@ -494,10 +494,10 @@ export const A2_WRITING_TASKS: UnitWriting = {
         "Hace… que + present",
         "Desde hace + time",
         "Hace + time with the preterite (ago)",
-        "Muy and mucho used correctly"
+        "Present tense for something still going on"
       ],
       "modelAnswer": "¡Hola! Me llamo Kenji y soy de Osaka. Llegué a Valencia hace dos años por trabajo. Hace un año que estudio español en una academia, y desde hace tres meses voy a clases de conversación. Me gusta mucho hablar, pero todavía estoy muy nervioso al teléfono. ¡Busco a alguien para practicar!",
-      "explanation": "Hace un año que estudio and voy desde hace tres meses describe something still going on (present tense); llegué hace dos años means ago (preterite). Muy goes with adjectives (muy nervioso), mucho with verbs (me gusta mucho)."
+      "explanation": "Hace un año que estudio and voy desde hace tres meses describe something still going on (present tense); llegué hace dos años means ago (preterite)."
     }
   ],
   "a2s-hotel": [

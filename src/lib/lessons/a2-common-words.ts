@@ -130,9 +130,9 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         ],
         "Five high-frequency words for guessing and judging."
       ),
-      fb("Complete the sentence.", "¿Estás de ___ con Luis?", "acuerdo", "Estar de acuerdo con = to agree with."),
+      fb("Complete: \"Do you agree with Luis?\"", "¿Estás de ___ con Luis?", "acuerdo", "Estar de acuerdo con = to agree with."),
       fb("Complete: \"The meeting is supposed to start at three.\"", "Se ___ que la reunión empieza a las tres.", "supone", "Se supone que = it's supposed to."),
-      toEs("Maybe you're right.", "Quizá tienes razón.", "Quizá and quizás are both correct.", ["Quizás tienes razón.", "Quizá tengas razón.", "Quizás tengas razón."]),
+      toEs("Maybe you're right.", "Quizá tienes razón.", "Quizá and quizás are both correct.", ["Quizás tienes razón.", "Quizá tengas razón.", "Quizás tengas razón.", "Quizá tiene razón.", "Quizás tiene razón.", "Quizá tienen razón.", "Quizás tienen razón."]),
       toEn("Es imposible saberlo.", "It's impossible to know.", "Es imposible + infinitive = it's impossible to...", ["It is impossible to know.", "It's impossible to know it."]),
       toEn("¿Qué significa «raro»?", "What does «raro» mean?", "¿Qué significa...? = What does ... mean? Raro means strange.", ["What does raro mean?", "What does \"raro\" mean?"]),
       mc(
@@ -910,8 +910,8 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
       fb("Complete the sentence.", "El ___ de este restaurante es excelente; los camareros son muy amables.", "servicio", "El servicio means the service in a restaurant."),
       fb("Complete the sentence.", "Mi padre tiene un pequeño ___ en el centro: una panadería.", "negocio", "Un negocio means a business, like a bakery."),
       fb("Complete the sentence.", "El ___ de metro de esta ciudad es muy moderno.", "sistema", "El sistema is masculine even though it ends in -a."),
-      toEs("The situation is very serious.", "La situación es muy grave.", "La situación (feminine, accent on the o).", ["La situación es muy seria.", "La situacion es muy grave."]),
-      toEs("I need more information about the situation.", "Necesito más información sobre la situación.", "Información is uncountable, so it stays singular: más información.", ["Yo necesito más información sobre la situación.", "Necesito mas informacion sobre la situacion."]),
+      toEs("The situation is very serious.", "La situación es muy grave.", "La situación (feminine, accent on the o).", ["La situación es muy seria."]),
+      toEs("I need more information about the situation.", "Necesito más información sobre la situación.", "Información is uncountable, so it stays singular: más información.", ["Yo necesito más información sobre la situación."]),
       toEn("El gobierno no dio información oficial.", "The government didn't give official information.", "Oficial comes after the noun in Spanish: información oficial.", ["The government did not give official information.", "The government gave no official information."]),
       wo("Mi hermano viaja a Madrid por negocios.", "Por negocios = on business.", "My brother travels to Madrid on business."),
       mc(
@@ -954,7 +954,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
           ["Usamos energía solar en casa.", "We use solar energy at home."],
         ],
         [
-          fb("Complete the sentence.", "Después de dormir bien, tengo mucha ___.", "energía", "La energía = energy. Don't forget the accent on the í."),
+          { ...fb("How do you say the bold words in Spanish?", "Después de dormir bien, tengo mucha ___.", "energía", "La energía = energy. Don't forget the accent on the í."), en: "After a good night's sleep, I have a lot of [energy]." },
           mc(
             "Which part of the body do you think with?",
             ["el cerebro", "el corazón", "el estómago", "el pulmón"],
@@ -992,7 +992,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
           ["En Navidad comemos con toda la familia.", "At Christmas we eat with the whole family."],
         ],
         [
-          fb("Complete the sentence.", "Por favor, saca la ___ antes de las ocho.", "basura", "Sacar la basura = to take out the trash."),
+          { ...fb("How do you say the bold words in Spanish?", "Por favor, saca la ___ antes de las ocho.", "basura", "Sacar la basura = to take out the trash."), en: "Please take out the [trash] before eight." },
         ]
       ),
       sec(
@@ -1030,10 +1030,10 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         ],
         "Everyday nouns."
       ),
-      fb("Complete the sentence.", "Ganó la medalla de ___ en los Juegos Olímpicos.", "oro", "La medalla de oro = the gold medal."),
-      fb("Complete the sentence.", "Mi prima monta a ___ todos los sábados.", "caballo", "Montar a caballo = to ride a horse."),
+      { ...fb("How do you say the bold words in Spanish?", "Ganó la medalla de ___ en los Juegos Olímpicos.", "oro", "La medalla de oro = the gold medal."), en: "She won the [gold] medal at the Olympic Games." },
+      { ...fb("How do you say the bold words in Spanish?", "Mi prima monta a ___ todos los sábados.", "caballo", "Montar a caballo = to ride a horse."), en: "My cousin rides a [horse] every Saturday." },
       toEs("Merry Christmas!", "¡Feliz Navidad!", "Navidad is written with a capital N.", ["Feliz Navidad", "Feliz Navidad!"]),
-      toEs("These shoes hurt me.", "Estos zapatos me hacen daño.", "Hacer daño means to hurt, and the thing that hurts is the subject: estos zapatos me hacen daño.", ["Estos zapatos me hacen daño", "Estos zapatos me duelen."]),
+      toEs("These shoes hurt me.", "Estos zapatos me hacen daño.", "Hacer daño means to hurt, and the thing that hurts is the subject: estos zapatos me hacen daño.", ["Estos zapatos me hacen daño", "Estos zapatos me lastiman."]),
       toEn("No tengo fuerza para correr más.", "I don't have the strength to run anymore.", "La fuerza means strength; tener fuerza para + infinitive = to have the strength to.", ["I don't have the strength to run any more.", "I have no strength to run anymore.", "I don't have the strength to run more."]),
       wo("Leo novelas en el tren para matar el tiempo.", "Para + infinitive: para matar el tiempo = to kill time.", "I read novels on the train to kill time."),
       mc(
@@ -1042,9 +1042,9 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         0,
         "The set phrase is sacar la basura (to take out the trash). \"Hacer\", \"poner\" and \"dar\" don't go with basura this way."
       ),
-      fb("Complete the sentence.", "En la última ___ de la película, los dos amigos se despiden.", "escena", "La escena means the scene."),
+      { ...fb("How do you say the bold words in Spanish?", "En la última ___ de la película, los dos amigos se despiden.", "escena", "La escena means the scene."), en: "In the last [scene] of the film, the two friends say goodbye." },
       wo("El cerebro necesita agua y descanso.", "El cerebro = the brain.", "The brain needs water and rest."),
-      fb("Complete the sentence.", "¿Qué haces en ___? Normalmente cenamos con mis abuelos.", "Navidad", "Navidad is Christmas: en Navidad = at Christmas."),
+      { ...fb("How do you say the bold words in Spanish?", "¿Qué haces en ___? Normalmente cenamos con mis abuelos.", "Navidad", "Navidad is Christmas: en Navidad = at Christmas."), en: "What do you do at [Christmas]? We usually have dinner with my grandparents." },
       toEn("En la película, nadie sabe quién mató al rey.", "In the movie, nobody knows who killed the king.", "Mató = killed (preterite of matar).", ["In the film, nobody knows who killed the king.", "In the movie, no one knows who killed the king."]),
       toEs("They gave blood at the hospital.", "Donaron sangre en el hospital.", "Donar sangre = to give blood.", ["Ellos donaron sangre en el hospital.", "Dieron sangre en el hospital."]),
       toEs("I pushed the door with all my strength.", "Empujé la puerta con toda mi fuerza.", "Con toda mi fuerza = with all my strength.", ["Empujé la puerta con todas mis fuerzas."]),

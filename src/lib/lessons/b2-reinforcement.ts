@@ -2074,7 +2074,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "Si yo fuera tú, … / Yo en tu lugar, … / Yo que tú, … + condicional. Las tres significan «If I were you».",
         [
           ["Si yo fuera tú, hablaría con tu jefe.", "If I were you, I'd talk to your boss."],
-          ["Yo en tu lugar, no le diría nada todavía.", "In your place, I wouldn't tell him anything yet."],
+          ["Yo en tu lugar, no le diría nada todavía.", "If I were you, I wouldn't tell him anything yet."],
         ],
         [
           fb("Aconseja.", "Yo que tú, ___ un poco antes de decidir. (esperar)", "esperaría", "Condicional."),
@@ -2102,7 +2102,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "Tras el «si» condicional nunca va condicional: «Si yo fuera tú». «Si yo sería tú» es incorrecta; «yo en tu lugar» y «yo que tú» son fórmulas correctas."
       ),
       toEs("If I were you, I wouldn't buy that car.", "Si yo fuera tú, no compraría ese coche.", "Si yo fuera tú + condicional.", ["Yo que tú, no compraría ese coche.", "Yo en tu lugar, no compraría ese coche.", "Si fuera tú, no compraría ese coche."]),
-      wo("Yo en tu lugar le diría exactamente lo que piensas.", "Yo en tu lugar + condicional.", "In your place I'd tell him exactly what you think."),
+      wo("Yo en tu lugar le diría exactamente lo que piensas.", "Yo en tu lugar + condicional.", "If I were you, I'd tell him exactly what you think."),
     ]
   ),
   L(

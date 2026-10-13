@@ -147,7 +147,7 @@ export const A1_IRREGULARS: AnchoredLesson[] = [
       fe("Mi madre siempre ___ que trabajo demasiado.", "dice", "My mother always [says] I work too much.", "decir → dice: e → i for él/ella."),
       fe("Nosotros no ___ la música desde aquí.", "oímos", "We can't [hear] the music from here.", "oír → oímos, with an accent on the í."),
       toEs("I'm coming from work and I'm hungry.", "Vengo del trabajo y tengo hambre.", "venir → vengo, tener → tengo: both yo forms end in -go.", ["Vengo del trabajo y tengo mucha hambre."]),
-      toEs("What do you say? Yes or no?", "¿Qué dices? ¿Sí o no?", "decir → dices: e → i for tú.", ["¿Qué dices tú? ¿Sí o no?"]),
+      toEs("What do you (informal) say? Yes or no?", "¿Qué dices? ¿Sí o no?", "decir → dices: e → i for tú.", ["¿Qué dices tú? ¿Sí o no?"]),
       toEs("I always tell the truth.", "Siempre digo la verdad.", "decir → digo (yo).", ["Yo siempre digo la verdad.", "Digo siempre la verdad."]),
       toEn("No oigo bien, el tren hace mucho ruido.", "I can't hear well, the train is making a lot of noise.", "Oigo = I hear; hace ruido = makes noise.", ["I don't hear well, the train is making a lot of noise.", "I can't hear well, the train makes a lot of noise."]),
       ms(
@@ -239,7 +239,7 @@ export const A1_IRREGULARS: AnchoredLesson[] = [
   L(
     "a1-irregulars-conocer",
     "Conocer and Parecer: Conozco, Parezco",
-    "Verbs in -cer add a z in the yo form. Conocer also brings a little a before people.",
+    "Most verbs ending in a vowel + -cer (conocer, parecer) add a z in the yo form. Conocer also brings a little a before people.",
     "8 min",
     [
       sec(
@@ -478,7 +478,7 @@ export const A1_IRREGULARS: AnchoredLesson[] = [
     [
       sec(
         "Morning",
-        "Read Sofía's first morning. Notice the yo forms: salgo, traigo, conozco, sé, digo.",
+        "Read Sofía's first morning. Notice the yo forms: salgo, traigo, conozco, sé.",
         [
           ["Hoy es mi primer día en una empresa nueva.", "Today is my first day at a new company."],
           ["Salgo de casa a las ocho y traigo un café para el camino.", "I leave home at eight and bring a coffee for the way."],
@@ -501,7 +501,7 @@ export const A1_IRREGULARS: AnchoredLesson[] = [
       ),
       sec(
         "Afternoon",
-        "The afternoon brings meetings, a problem and a plan. Pongo, oigo, doy, tengo que, puedo.",
+        "The afternoon brings meetings, a problem and a plan. Pongo, oigo, digo, doy, puedo.",
         [
           ["A las dos tenemos una reunión con todo el equipo.", "At two we have a meeting with the whole team."],
           ["Pongo el teléfono en silencio, pero no oigo bien: hay mucho ruido.", "I put my phone on silent, but I can't hear well: there's a lot of noise."],

@@ -203,7 +203,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "Problema ends in -a but is masculine, and \"a problem\" needs the indefinite article: un problema. \"Una\" and \"la\" are feminine, and \"el problema\" means the problem."
       ),
       fb("Complete with the correct definite article.", "___ foto de mi familia está en la mesa.", "La", "Foto is short for fotografía, which is feminine → la foto."),
-      toEs("The maps are on the table.", "Los mapas están en la mesa.", "Mapa is masculine → el mapa, plural los mapas.", ["Los mapas estan en la mesa."]),
+      toEs("The maps are on the table.", "Los mapas están en la mesa.", "Mapa is masculine → el mapa, plural los mapas."),
       toEn("Unas chicas hablan español.", "Some girls speak Spanish.", "Unas is the feminine plural of un/una and means some: unas chicas = some girls.", ["A few girls speak Spanish.", "Some girls are speaking Spanish."]),
       mc(
         "Which pair is correct?",
@@ -793,7 +793,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
     "ser-vs-estar-mastery-check",
     "a1r-error-hunt-ser-estar",
     "Error Hunt: Ser or Estar?",
-    "Ten learner sentences, some right, some wrong. Diagnose each one before you fix it.",
+    "Learner sentences, some right, some wrong. Diagnose each one before you fix it.",
     "8 min",
     [
       sec(
@@ -1121,7 +1121,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Complete the time (2:40, using menos).", "Son las tres ___ veinte.", "menos", "2:40 is twenty minutes before three: las tres menos veinte."),
+      fb("Complete the time (2:40).", "Son las tres ___ veinte.", "menos", "2:40 is twenty minutes before three: las tres menos veinte."),
       mc(
         "How do you say 1:05?",
         ["Es la una y cinco.", "Son la una y cinco.", "Son las una y cinco.", "Es las una y cinco."],
@@ -1266,7 +1266,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "Question words always carry an accent: qué, quién, dónde, cuándo, cómo, cuánto. Without the accent they're connectors: que (that), donde (where, in a statement), cuando (when, in a statement).",
         [
           ["¿Dónde vives? — Vivo donde vive mi abuela.", "Where do you live? — I live where my grandmother lives."],
-          ["¿Qué comes? — Creo que como pasta.", "What are you eating? — I think that I'm eating pasta."],
+          ["¿Qué quieres? — Creo que quiero pasta.", "What do you want? — I think I want pasta."],
         ],
         [
           ms(
@@ -1882,8 +1882,8 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
             "Match each phrase from the postcard to the reason for its verb.",
             [
               ["Estoy en Oaxaca", "location"],
-              ["La ciudad es preciosa", "characteristic"],
-              ["Es pequeño", "description of size"],
+              ["La ciudad es preciosa", "characteristic (beauty)"],
+              ["Es pequeño", "characteristic (size)"],
               ["Estoy un poco enfermo", "temporary condition"],
             ],
             "Location and temporary conditions → estar. Characteristics and descriptions → ser."
@@ -2179,7 +2179,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
           ["—Son muy bonitos, pero son caros.", "They're very nice, but they're expensive."],
         ],
         [
-          fb("Complete with the color (rojo).", "Me gustan esas faldas ___.", "rojas", "Faldas is feminine plural → rojas."),
+          fb("Complete with the color (rojo).", "Me gustan esas faldas ___.", "rojas", "The color takes -as to match faldas, not rojos."),
         ]
       ),
       sec(
@@ -2620,7 +2620,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
           ["El domingo voy a estar en casa porque va a hacer frío.", "On Sunday I'm going to be at home because it's going to be cold."],
         ],
         [
-          fb("Complete the plan.", "El sábado hace sol, así que ___ a jugar al tenis.", "vamos", "Nosotros → vamos a + infinitive."),
+          { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "El sábado hace sol, así que ___ a jugar al tenis.", answer: "vamos", en: "On Saturday it's sunny, so [we're going] to play tennis.", explanation: "Nosotros → vamos a + infinitive." },
         ]
       ),
     ],
@@ -2992,7 +2992,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "Techo, pared, estante, alfombra — all from the Beginner home vocabulary."
       ),
       fb("Complete the sentence.", "Cocino en la ___.", "cocina", "Cocinar (to cook) → la cocina (the kitchen)."),
-      fb("Complete the sentence.", "Los libros están en el ___.", "estante", "Books go on a shelf → el estante."),
+      { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "Los libros están en el ___.", answer: "estante", en: "The books are on the [shelf].", explanation: "Books go on a shelf → el estante." },
       toEs("There is a mirror in the bathroom.", "Hay un espejo en el baño.", "Hay + un + noun for existence.", ["En el baño hay un espejo."]),
       toEn("La manta está dentro del armario.", "The blanket is inside the wardrobe.", "Dentro de means inside, and de + el contracts to del: dentro del armario.", ["The blanket is inside the closet.", "The blanket is in the wardrobe."]),
       wo("Mi dormitorio es pequeño pero tiene una ventana grande.", "Ser for size; tener for what the room has.", "My bedroom is small but it has a big window."),

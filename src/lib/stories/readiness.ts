@@ -22,7 +22,7 @@ export const A1_STORY_READINESS: Record<string, StoryReadiness> = {
   "starter-mi-hermana-en-lima": { afterLesson: 30, unknownPct: 0 },
   "starter-el-fin-de-semana": { afterLesson: 63, unknownPct: 0 },
   "starter-en-el-medico": { afterLesson: 42, unknownPct: 0 },
-  "school-day-math-test": { afterLesson: 59, unknownPct: 1.1 },
+  "marta-driving-test": { afterLesson: 59, unknownPct: 1.1 },
   "family-beach-trip": { afterLesson: 38, unknownPct: 3.5 },
   "new-puppy-first-trick": { afterLesson: 42, unknownPct: 4.4 },
   "surprise-birthday-party": { afterLesson: 50, unknownPct: 2.3 },

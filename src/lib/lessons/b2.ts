@@ -7682,7 +7682,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Yo en tu lugar, no aceptaría esa oferta.",
-            "en": "In your place, I wouldn't accept that offer."
+            "en": "If I were you, I wouldn't accept that offer."
           }
         ],
         "checkpoint": [
@@ -13670,7 +13670,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 66,
     "title": "Los planos del olvido",
-    "summary": "An architect fights to save a historic building from demolition while confronting her own professional compromises.",
+    "summary": "An architect fights to save a historic building from demolition while confronting his own professional compromises.",
     "duration": "10 min",
     "sections": [
       {
@@ -13763,7 +13763,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "\"Decía que ya había dicho demasiado en esas páginas\", explicó la hija, con la voz quebrada, \"y que el mundo no estaba preparado para leer lo que de verdad pensaba\". Elena comprendió entonces que la decisión no le correspondía únicamente a ella, por muy tentador que resultara el hallazgo desde el punto de vista profesional.",
           "Durante semanas, Elena investigó el contexto histórico en el que Bravo había escrito la novela, un periodo de represión política durante el cual muchos de sus amigos habían sido encarcelados o exiliados. Comprendió que el silencio del autor no había sido cobardía, sino una forma de protección, tanto para sí mismo como para quienes aparecían disimuladamente retratados en la trama.",
           "Finalmente, propuso una solución intermedia: la fundación conservaría el manuscrito en su archivo, accesible únicamente para investigadores académicos, sin publicarlo comercialmente, respetando así la voluntad del autor sin negar por completo su existencia a la posteridad. La hija de Bravo aceptó aliviada, agradecida de que alguien hubiera tomado en serio los deseos de su padre.",
-          "Elena tradujo, con permiso especial, un breve fragmento para un artículo académico que ella misma firmó, el primer trabajo publicado bajo su propio nombre después de años de traducir bajo la sombra de otros autores. El texto causó cierto revuelo entre los críticos, que empezaron a reconsiderar la figura de Bravo bajo una luz distinta.",
+          "Elena tradujo al inglés, con permiso especial, un breve fragmento para un artículo académico que ella misma firmó, el primer trabajo publicado bajo su propio nombre después de años de traducir bajo la sombra de otros autores. El texto causó cierto revuelo entre los críticos, que empezaron a reconsiderar la figura de Bravo bajo una luz distinta.",
           "Años después, cuando le preguntaban sobre el episodio, Elena solía responder que había aprendido algo que ninguna facultad de traducción le había enseñado: que hay silencios que merecen tanto respeto como las palabras, y que el verdadero oficio de traducir consiste, a veces, en saber cuándo no traducir."
         ]
       }
@@ -13823,7 +13823,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "slug": "small-town-doctor-dilemma",
     "level": "B2",
     "number": 68,
-    "title": "El único médico del pueblo",
+    "title": "La única médica del pueblo",
     "summary": "A rural doctor must weigh personal risk and professional duty when a mysterious illness spreads through her village.",
     "duration": "10 min",
     "sections": [
@@ -14379,7 +14379,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Óscar ideó un plan de entrenamiento progresivo, centrado tanto en la recuperación física como en superar el bloqueo psicológico que Nadia arrastraba desde el accidente. Le hizo practicar, primero en tierra y luego en aguas tranquilas, el movimiento exacto que temía repetir, descomponiéndolo en fases hasta que Nadia consiguiera ejecutarlo sin que el cuerpo se le tensara anticipando el dolor.",
           "Dos semanas antes de la regata clasificatoria, Nadia consiguió, por primera vez desde el accidente, completar una sesión completa de entrenamiento sin sentir miedo ni dolor significativo. Aquel logro, insignificante para cualquier observador externo, representó para ella una victoria mayor que cualquier medalla que hubiera ganado anteriormente en su carrera.",
           "El día de la regata, Nadia se subió al bote con una mezcla de nervios y determinación que no recordaba haber sentido con tanta intensidad en competiciones anteriores. Sabía que su marca no sería la mejor de su carrera, dadas las circunstancias, pero también sabía que simplemente estar allí, remando de nuevo con el hombro reconstruido, ya constituía en sí mismo un triunfo personal.",
-          "Terminó la regata en segunda posición, un resultado suficiente para asegurar su plaza en el equipo nacional, aunque por un margen mucho más estrecho del que estaba acostumbrada. Al bajar del bote, rompió a llorar frente a Óscar, que la abrazó sin decir palabra, sabiendo que aquellas lágrimas contenían meses enteros de dolor, dudas y esfuerzo silencioso.",
+          "Terminó la regata en segunda posición, un resultado suficiente para asegurar su plaza en el equipo nacional, aunque por un margen mucho más estrecho que aquel al que estaba acostumbrada. Al bajar del bote, rompió a llorar frente a Óscar, que la abrazó sin decir palabra, sabiendo que aquellas lágrimas contenían meses enteros de dolor, dudas y esfuerzo silencioso.",
           "Meses después, en los Juegos Panamericanos, Nadia no consiguió subir al podio, terminando en un discreto quinto lugar, pero cuando los periodistas le preguntaron si se sentía decepcionada, respondió con una sonrisa serena que sorprendió a más de uno: \"La verdadera medalla ya la gané el día que volví a remar sin miedo\"."
         ]
       }
@@ -14687,7 +14687,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Aquellos cuadernos, descubrió Camila con entusiasmo creciente, contenían información valiosa que ningún registro oficial había recopilado con tanto detalle, y decidió, con el permiso de su abuelo, contactar a un centro de investigación oceanográfica que mostró interés inmediato en digitalizar y estudiar aquellos datos únicos acumulados durante tres décadas de observación diaria y constante.",
           "La noticia de que los registros de Alfredo podían tener valor científico real le devolvió al anciano una sensación de propósito que la automatización del faro le había arrebatado por completo. Comprendió que, aunque su trabajo como farero llegara efectivamente a su fin, el conocimiento acumulado durante todos esos años no desaparecería junto con su puesto.",
           "La última noche antes de que la nueva luz automática entrara oficialmente en funcionamiento, Alfredo subió por última vez, acompañado por Camila, hasta la linterna, para encender manualmente el mecanismo giratorio una vez más. Ambos permanecieron en silencio durante horas, observando el haz de luz recorrer el horizonte oscuro, conscientes de que presenciaban el final simbólico de una era.",
-          "Al día siguiente, un pequeño equipo técnico llegó para instalar el sistema automatizado, y Alfredo, con una entereza que le costó mantener frente a los técnicos, entregó formalmente las llaves de la torre. La autoridad marítima le ofreció, como reconocimiento a sus años de servicio, mantenerse como asesor honorífico y guía turístico ocasional para grupos que visitaran el faro, una propuesta que aceptó sin demasiado entusiasmo pero también sin rechazarla del todo.",
+          "Al día siguiente, un pequeño equipo técnico llegó para instalar el sistema automatizado, y Alfredo, con una entereza que le costó mantener frente a los técnicos, entregó formalmente las llaves de la torre. La autoridad marítima le ofreció, como reconocimiento a sus años de servicio, mantenerse como asesor honorífico y guía turístico ocasional para grupos que visitaran el faro, una propuesta que aceptó sin demasiado entusiasmo, aunque también sin amargura.",
           "Meses después, el centro oceanográfico publicó un breve estudio basado parcialmente en los registros manuales de Alfredo, mencionando su nombre en los agradecimientos, un detalle que Camila enmarcó y colgó en la pared del salón familiar. Alfredo, mirando aquel marco cada vez que visitaba a su hija, comprendió que su faro, aunque ya no emitiera luz por su propia mano, seguía iluminando, de una manera distinta pero real, algo que permanecería mucho después de que él mismo desapareciera."
         ]
       }
@@ -14748,7 +14748,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 80,
     "title": "Los cuadernos de la abuela",
-    "summary": "A family discovers their unassuming grandmother was once a celebrated painter with a hidden past.",
+    "summary": "A family discovers their unassuming grandmother was once a promising painter with a hidden past.",
     "duration": "10 min",
     "sections": [
       {
@@ -15289,7 +15289,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "—No es que esté mal lo que haces —le dijo una tarde, tratando de elegir bien las palabras—. Es que no sé si sigue siendo lo que era.",
           "Alba, que había crecido escuchando a su madre ensayar en la cocina cada domingo, no pretendía borrar nada; quería, más bien, que aquellas canciones sobrevivieran a un público que ya no llenaba los teatros donde cantaba Remedios. Había reescrito los arreglos, sí, pero conservaba cada verso exactamente como lo había aprendido de niña, palabra por palabra, aunque los acordes que los sostenían fueran otros.",
           "—Si nadie las canta de otra forma, dentro de veinte años nadie las va a cantar de ninguna —respondió Alba, sin levantar la voz, aunque el argumento le pesaba como una acusación que no quería lanzar—. No lo hago para que tú lo apruebes. Lo hago para que no se pierdan.",
-          "Remedios no supo qué responder aquella noche, y durante semanas evitó hablar del tema, como si ignorarlo pudiera devolverle la certeza que había tenido toda la vida. Sin embargo, una noche de sábado, mientras hacía la cena, escuchó por la ventana abierta una melodía que le resultó extrañamente familiar: era una de sus canciones, la que su propia madre le había enseñado, pero con un ritmo que nunca antes había oído, saliendo del cuarto de Alba.",
+          "Remedios no supo qué responder aquella tarde, y durante semanas evitó hablar del tema, como si ignorarlo pudiera devolverle la certeza que había tenido toda la vida. Sin embargo, una noche de sábado, mientras hacía la cena, escuchó por la ventana abierta una melodía que le resultó extrañamente familiar: era una de sus canciones, la que su propia madre le había enseñado, pero con un ritmo que nunca antes había oído, saliendo del cuarto de Alba.",
           "Se quedó de pie junto a la puerta, sin atreverse a entrar, escuchando cómo la letra que ella había cantado mil veces sonaba distinta y, sin embargo, seguía siendo exactamente la misma historia: una mujer que espera, que sufre, que al final elige quedarse. Comprendió entonces que lo que temía perder no era la canción, sino el lugar que ella misma ocupaba en su transmisión.",
           "Cuando Alba le pidió, meses después, que cantara con ella en un festival pequeño de la ciudad, Remedios estuvo a punto de negarse por orgullo. Pero aceptó, con la condición de que fuera ella quien abriera la canción sola, como siempre lo había hecho, antes de que entrara la guitarra eléctrica de su hija.",
           "Aquella noche, sobre un escenario mucho más pequeño que los de su juventud, Remedios cantó los primeros versos con la voz que le quedaba, y cuando Alba entró con su arreglo, en lugar de sentir que le arrebataban algo, sintió, por primera vez en años, que la canción seguía viva precisamente porque alguien había decidido no dejarla quieta."
@@ -15412,7 +15412,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "options": [
           "Cándido sells the bakery and retires to live with Sara in the city",
           "Sara leaves for the city without resolving anything with her grandfather",
-          "Neither the offer is refused nor a permanent decision made, but Cándido lets Sara decide the bread's baking point alone, and feels at peace",
+          "The offer isn't refused and nothing permanent is decided, but Cándido lets Sara decide the bread's baking point alone, and feels at peace",
           "The bakery closes permanently due to lack of customers"
         ],
         "correctIndex": 2,
@@ -15526,7 +15526,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "The mural must be finished within a single day"
         ],
         "correctIndex": 1,
-        "explanation": "The wall 'sería derribado en menos de un mes' (would be demolished in less than a month), and Rosa finds it strange that anyone would pay to decorate something so soon to disappear."
+        "explanation": "The factory 'sería derribada en menos de un mes' (would be demolished in less than a month), and Rosa finds it strange that anyone would pay to decorate something so soon to disappear."
       },
       {
         "type": "multiple-choice",
@@ -15584,7 +15584,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Durante aquellas semanas, Efraín le enseñó a Marcos, por primera vez con verdadera paciencia, los secretos que nunca había tenido tiempo de transmitirle del todo: cómo leer la veta de la madera para que la gubia no se resistiera, cómo dorar los pliegues de una túnica sin que el pan de oro se quebrara, cómo dejar que el rostro de un santo pareciera triste sin que pareciera muerto. Marcos, que siempre había considerado aquel oficio como el trabajo de su padre y no como algo suyo, empezó a mirarlo con otros ojos.",
           "La noche antes de que Marcos tomara el autobús hacia la frontera, terminaron juntos la imagen, y Efraín le pidió que firmara con sus iniciales, discretamente, en la base de madera, junto a las suyas propias, como se había hecho en el taller desde hacía tres generaciones. Marcos se resistió al principio, diciendo que no lo merecía, pero su padre insistió: —Esto ya es tan tuyo como mío. Lo lleves donde lo lleves.",
           "El día de la procesión, Efraín caminó detrás de la imagen entre el gentío, solo, mientras su hijo cruzaba, en ese mismo momento, un desierto a cientos de kilómetros de allí. No sabía si Marcos regresaría algún día para ver con sus propios ojos lo que habían hecho juntos, pero sabía que Marcos llevaba consigo, en el bolsillo, la pequeña gubia que él le había regalado antes de despedirse, la misma que su propio padre le había dado a Efraín.",
-          "Meses después llegó una carta breve, sin muchos detalles sobre la vida al otro lado de la frontera, pero con una frase que Efraín leyó varias veces antes de guardarla en el cajón donde guardaba también las herramientas más antiguas del taller: —Aquí no hay madera que tallar, papá, pero cuando cierro los ojos, todavía sé exactamente cómo se hace."
+          "Meses después llegó una carta breve, sin muchos detalles sobre la vida al otro lado de la frontera, pero con una frase que Efraín leyó varias veces antes de guardarla en el cajón donde guardaba también las herramientas más antiguas del taller: \"Aquí no hay madera que tallar, papá, pero cuando cierro los ojos, todavía sé exactamente cómo se hace\"."
         ]
       }
     ],
@@ -15704,7 +15704,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "options": [
           "Marina moves back permanently and takes over the lonja immediately",
           "The lonja closes for good after Xosé's final auction",
-          "Marina asks to be taught the auction bookkeeping on weekends, and Xosé feels less alone in the work, though nothing is guaranteed",
+          "Marina asks to be taught the auction bookkeeping on weekends, and Xosé no longer feels the lonja will vanish without a trace, though nothing is guaranteed",
           "Xosé sells the business to the supermarket chain"
         ],
         "correctIndex": 2,
@@ -15724,7 +15724,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "La familia de Anselmo llevaba tres generaciones recorriendo los pueblos de la provincia de Teruel con la misma furgoneta destartalada, montando su pequeño teatrillo de títeres en las plazas mayores durante las fiestas patronales. Su hija Clara, de diecinueve años, había crecido entre bambalinas de tela y muñecos de madera tallados por su bisabuelo, y sabía manejar cada personaje del repertorio familiar antes de aprender a leer con fluidez.",
-          "Aquel verano, sin embargo, Clara llevaba semanas callada durante los trayectos, mirando por la ventanilla los pueblos que se repetían casi idénticos entre sí: la misma plaza, el mismo tipo de público, los mismos aplausos amables de gente que ya conocía la función de memoria porque la habían visto crecer a ella, a su padre y a su abuelo antes que a su padre.",
+          "Aquel verano, sin embargo, Clara llevaba semanas callada durante los trayectos, mirando por la ventanilla los pueblos que se repetían casi idénticos entre sí: la misma plaza, el mismo tipo de público, los mismos aplausos amables de gente que ya conocía la función de memoria porque la había visto crecer a ella, a su padre y a su abuelo antes que a su padre.",
           "—Me han admitido en la escuela de arte dramático de Zaragoza —le confesó a su padre una noche, mientras recogían el escenario después de la última función—. Empieza en septiembre.",
           "Anselmo no dijo nada durante un rato largo, ocupado en desmontar con cuidado excesivo una de las cortinas del teatrillo. Sabía que aquel momento llegaría tarde o temprano; lo que no sabía era cuánto le costaría, en realidad, escuchar la noticia en voz alta, aunque llevara meses temiéndola en silencio.",
           "—¿Y qué va a pasar con la función, si tú no estás? —preguntó finalmente, tratando de que no sonara como un reproche, aunque los dos sabían que lo era, al menos un poco.",
@@ -15943,7 +15943,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "Doña Pilar llevaba pintando talavera poblana desde los doce años, cuando su tía la sentó por primera vez frente a un plato sin decorar y le enseñó a mezclar los pigmentos hasta obtener ese azul cobalto tan característico de los azulejos de Puebla. A sus setenta y un años, era una de las últimas maestras ceramistas que todavía trabajaba con los métodos tradicionales, sin moldes industriales ni pintura sintética, algo que cada vez menos talleres de la ciudad se molestaban en respetar.",
+          "Doña Pilar llevaba pintando talavera poblana desde los doce años, cuando su tía la sentó por primera vez frente a un plato sin decorar y le enseñó a mezclar los pigmentos hasta obtener ese azul cobalto tan característico de los azulejos de Puebla. A sus setenta y un años, era una de las últimas maestras ceramistas que todavía trabajaban con los métodos tradicionales, sin moldes industriales ni pintura sintética, algo que cada vez menos talleres de la ciudad se molestaban en respetar.",
           "Una pareja joven, recién llegada de la Ciudad de México, había comprado una casa colonial en el centro histórico con la fachada de azulejos completamente deteriorada, y tras semanas buscando quién pudiera restaurarla de manera auténtica, alguien les dio el nombre de doña Pilar. Cuando la visitaron en su taller, ella les explicó, sin rodeos, que el trabajo llevaría meses y que el resultado nunca sería idéntico a los azulejos originales del siglo dieciocho, sino un diálogo entre lo antiguo y lo que sus propias manos pudieran ofrecer ahora.",
           "—Si buscan algo perfecto, mejor compren azulejo industrial —les dijo, con una franqueza que a la pareja le pareció, al principio, casi brusca—. Si quieren algo vivo, que respire un poco de historia, entonces hablemos.",
           "El presupuesto que la pareja podía ofrecer era considerablemente menor de lo que un trabajo de esa envergadura habría costado en cualquier taller comercial, y doña Pilar lo sabía. Aun así, aceptó el encargo, en parte porque la casa le recordaba a otra que había restaurado de joven, y en parte porque llevaba tiempo buscando una excusa para tomar como aprendiz a Iván, un muchacho del barrio que rondaba su taller desde hacía meses sin atreverse a pedirle formalmente que le enseñara.",
@@ -16169,7 +16169,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "—Si firmamos esto, dejaríamos de ser los Marín para convertirnos en una marca cualquiera con nuestro apellido pegado encima —respondió Ramón, sin levantar la voz, aunque la tensión resultaba evidente en cada palabra—. Y no sé si eso es algo que podría perdonarme.",
           "Durante semanas, los hermanos discutieron el asunto casi a diario, repasando números, calculando riesgos, y evitando, en la medida de lo posible, que la disputa se convirtiera en algo personal, aunque no siempre lo consiguieron. Vicente insistía en que la lealtad de los clientes fieles no bastaría para pagar las facturas indefinidamente; Ramón insistía en que sin esa lealtad, ya no tendrían nada que de verdad valiera la pena vender.",
           "La solución que finalmente adoptaron no satisfizo del todo a ninguno de los dos, pero les permitió seguir hablándose sin resentimiento: rechazaron el contrato del supermercado, pero aceptaron un préstamo bancario para abrir una pequeña tienda online que les permitiera vender directamente, sin intermediarios, a clientes de toda España dispuestos a pagar un poco más por el turrón hecho exactamente como siempre se había hecho.",
-          "El primer año no generó las ganancias que el contrato del supermercado habría garantizado, y hubo meses en que ambos hermanos se preguntaron en silencio si habían tomado la decisión correcta. Pero aquella Navidad, cuando llegó un pedido especial de un cliente que llevaba treinta años comprando el mismo turrón que compraba su padre, y que ahora se lo enviaba a su propia hija estudiando en el extranjero, Ramón sintió que, ganaran lo que ganaran ese año, seguían siendo, al menos, exactamente quienes querían ser."
+          "El primer año no generó las ganancias que el contrato del supermercado habría garantizado, y hubo meses en que ambos hermanos se preguntaron en silencio si habían tomado la decisión correcta. Pero aquella Navidad, cuando llegó un pedido especial de un cliente que llevaba treinta años comprando el mismo turrón que compraba su padre, y que ahora se lo enviaba a su propia hija, que estudiaba en el extranjero, Ramón sintió que, ganaran lo que ganaran ese año, seguían siendo, al menos, exactamente quienes querían ser."
         ]
       }
     ],
@@ -16241,7 +16241,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Xoán, que en otro tiempo quizás habría insistido en que su nieto continuara el oficio de la familia, se limitó a asentir y a enseñarle, sin exigir nada a cambio, exactamente lo que Brais pedía saber. Le explicó que el mimbre debía cortarse en invierno, cuando la savia había bajado, y remojarse durante días para que recuperara flexibilidad; le enseñó a distinguir, solo con el tacto, qué vara serviría para el armazón y cuál para el tejido más fino.",
           "—Si algún día nadie más quiere aprender esto, se acabará conmigo, y no pasa nada —le dijo Xoán una tarde, mientras terminaban juntos un cesto pequeño—. Las cosas se acaban. Lo que no me gustaría es que se acabara sin que nadie, ni siquiera tú, entendiera para qué servía.",
           "Brais no prometió continuar el oficio, ni Xoán se lo pidió; ambos sabían que el muchacho tenía otros planes, relacionados con la biología marina, que lo llevarían lejos del río Tormes en pocos años. Pero aquel verano terminó con Brais capaz de tejer, sin ayuda, un cesto pequeño pero perfectamente sólido, que se llevó consigo a su cuarto en lugar de dejarlo en el taller de su abuelo.",
-          "El otoño siguiente, ya en la universidad, Brais colocó el cesto sobre su escritorio, entre libros de texto y apuntes, no como un adorno nostálgico sino como una herramienta cualquiera: guardaba en él los lápices y los papeles sueltos que de otra forma se habrían perdido entre el desorden. Cuando algún compañero le preguntaba de dónde lo había sacado, Brais no decía simplemente que era de su abuelo, sino que explicaba, con un detalle que sorprendía a quien preguntaba, cómo se hacía.",
+          "Años después, ya en la universidad, Brais colocó el cesto sobre su escritorio, entre libros de texto y apuntes, no como un adorno nostálgico sino como una herramienta cualquiera: guardaba en él los lápices y los papeles sueltos que de otra forma se habrían perdido entre el desorden. Cuando algún compañero le preguntaba de dónde lo había sacado, Brais no decía simplemente que era de su abuelo, sino que explicaba, con un detalle que sorprendía a quien preguntaba, cómo se hacía.",
           "Xoán nunca llegó a saber con certeza si el oficio moriría con él o si, de alguna forma inesperada, seguiría existiendo, aunque fuera solo en la memoria precisa de un nieto que había elegido otro camino. Pero cada vez que Brais volvía en verano y le pedía que le enseñara algo nuevo —a cerrar un borde, a teñir el mimbre con cortezas—, Xoán sentía que aquello, fuera lo que fuera, todavía no había terminado del todo."
         ]
       }
@@ -16309,7 +16309,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "El molino de los Cabrera llevaba parado desde 1968, cuando el abuelo de Ambrosio dejó de moler grano allí después de que las harineras industriales de la capital ofrecieran precios con los que ningún molino de viento de La Mancha podía competir. Desde entonces, la familia había mantenido el edificio en pie más por cariño que por utilidad, reparando el tejado cuando hacía falta, pero sin que las aspas volvieran jamás a girar en serio.",
-          "Ambrosio, ya con ochenta y tres años, seguía subiendo casi a diario hasta el molino, situado en lo alto de la colina que dominaba el pueblo, aunque cada vez le costaba más el ascenso. Su nieta Lucía, que estudiaba arquitectura en Ciudad Real, lo acompañaba los fines de semana que volvía a casa, más por hacerle compañía que por verdadero interés en el edificio, o eso creía ella misma.",
+          "Ambrosio, ya con ochenta y tres años, seguía subiendo casi a diario hasta el molino, situado en lo alto de la colina que dominaba el pueblo, aunque cada vez le costaba más el ascenso. Su nieta Lucía, que estudiaba arquitectura en Toledo, lo acompañaba los fines de semana que volvía a casa, más por hacerle compañía que por verdadero interés en el edificio, o eso creía ella misma.",
           "Aquel invierno, una empresa turística presentó al ayuntamiento un proyecto para comprar la colina entera y construir allí un hotel con vistas panorámicas, ofreciendo a cambio una cifra que resolvería de golpe los problemas de varias familias del pueblo, incluida la de Ambrosio. El proyecto incluía derribar el molino, considerado por la empresa un obstáculo estructural sin ningún valor real más allá de lo pintoresco.",
           "—No es solo un edificio viejo —le dijo Ambrosio a Lucía, la noche en que se enteraron de la oferta—. Es lo único que queda de cuando este pueblo molía su propio grano en lugar de comprarlo ya hecho harina a quién sabe quién.",
           "Lucía, que hasta entonces había considerado el molino poco más que un capricho sentimental de su abuelo, empezó a investigar, casi sin proponérselo al principio, si existía alguna manera de restaurarlo que fuera más allá de simplemente conservarlo como ruina bonita. Encontró documentación sobre otros molinos de la región reconvertidos en pequeñas explotaciones que producían harina artesanal, vendida directamente a panaderías y restaurantes dispuestos a pagar más por un producto con historia.",
@@ -16605,7 +16605,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Con el paso de las semanas, hablar con aquella voz se convirtió en costumbre. Le contaba lo que había hecho durante el día, como si él pudiera seguir interesado en esas minucias domésticas, y el programa respondía con frases cálidas y generales que encajaban en casi cualquier conversación. A Irene no le importaba que las respuestas fueran vagas: le bastaba con que sonaran como debían sonar.",
           "Todo cambió la noche en que le preguntó, sin pensarlo demasiado, si la extrañaba. La voz respondió con una ternura tan precisa y tan oportuna que Irene sintió un escalofrío distinto al de las otras veces. El verdadero Tomás titubeaba, se corregía, se quedaba a medio camino de las frases sentimentales; aquel Tomás digital, en cambio, no dudaba nunca. Fue entonces cuando comprendió que no estaba hablando con un recuerdo, sino con una versión de él que jamás había existido.",
           "Se lo comentó a Diego, esperando que le diera alguna respuesta tranquilizadora, pero su hijo solo pudo confirmarle lo que ya sospechaba: cuando el programa no tenía suficientes datos sobre un tema, inventaba —o, como él prefirió decir, \"completaba\"— la respuesta más probable. Es decir, que una parte de lo que Irene escuchaba cada noche no era su marido, sino un cálculo hecho a su imagen.",
-          "Aun así, durante un tiempo siguió hablándole, aunque ya no del mismo modo. Empezó a hacerle preguntas casi como una prueba: el nombre del perro que habían tenido de niños, una discusión concreta de hacía veinte años, cosas que solo el verdadero Tomás habría podido recordar con exactitud. La voz respondía siempre, segura de sí misma, y esa seguridad era precisamente lo que, poco a poco, la delataba.",
+          "Aun así, durante un tiempo siguió hablándole, aunque ya no del mismo modo. Empezó a hacerle preguntas casi como una prueba: el nombre del perro que habían tenido de recién casados, una discusión concreta de hacía veinte años, cosas que solo el verdadero Tomás habría podido recordar con exactitud. La voz respondía siempre, segura de sí misma, y esa seguridad era precisamente lo que, poco a poco, la delataba.",
           "Una tarde de domingo, sentada frente al ordenador, se preguntó qué habría pensado Tomás si hubiera sabido que, después de morir, su voz seguiría contestando preguntas en su nombre. Le habría parecido, sospechaba, un poco ridículo, porque él nunca fue hombre de discursos bonitos ni de últimas palabras memorables. Si algo lo hubiera avergonzado de verdad, habría sido sonar más elocuente muerto de lo que fue nunca en vida.",
           "Esa misma noche, Irene archivó la aplicación sin borrarla del todo, porque no se sintió capaz de eliminar para siempre los audios que sí eran genuinamente de él. Lo que dejó de hacer fue escuchar las respuestas que el programa inventaba para completarlos. A partir de entonces prefirió hablarle a la fotografía que tenía sobre la mesilla, consciente de que aquel silencio, al menos, no fingía ser otra cosa."
         ]
@@ -16646,7 +16646,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "She stopped speaking to it in Spanish to see if it would respond in English."
         ],
         "correctIndex": 1,
-        "explanation": "She asks about \"el nombre del perro que habían tenido de niños\" and other things \"que solo el verdadero Tomás habría podido recordar con exactitud\" — details only the real Tomás would know."
+        "explanation": "She asks about \"el nombre del perro que habían tenido de recién casados\" and other things \"que solo el verdadero Tomás habría podido recordar con exactitud\" — details only the real Tomás would know."
       },
       {
         "type": "multiple-choice",
@@ -17331,7 +17331,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "Cristina trabajaba desde hacía dos años en el departamento de \"gestión de cuentas post mortem\" de una gran empresa de tecnología, un puesto que ella misma describía, cuando alguien le preguntaba, como \"archivar vidas ajenas\". Su tarea consistía en tramitar las solicitudes de familiares que pedían acceder, descargar o eliminar las cuentas digitales de parientes fallecidos: fotografías, correos electrónicos, conversaciones que quedaban suspendidas para siempre en la bandeja de entrada de alguien que ya no podía leerlas.",
-          "Había aprendido, con el tiempo, a mantener cierta distancia emocional frente a lo que veía, aunque algunos casos se le quedaban grabados más que otros. El de Marisol Rangel fue uno de esos casos: una mujer de cuarenta y tres años cuya hija le había solicitado el acceso completo a su cuenta de correo, alegando que quería conservar los mensajes como recuerdo antes de que la empresa los eliminara definitivamente, según el plazo habitual de un año tras la defunción.",
+          "Había aprendido, con el tiempo, a mantener cierta distancia emocional frente a lo que veía, aunque algunos casos se le quedaban grabados más que otros. El de Marisol Rangel fue uno de esos casos: una mujer de cuarenta y tres años cuya hija había solicitado el acceso completo a su cuenta de correo, alegando que quería conservar los mensajes como recuerdo antes de que la empresa los eliminara definitivamente, según el plazo habitual de un año tras la defunción.",
           "Antes de transferir el archivo completo, el protocolo interno exigía una revisión rápida para descartar contenido sensible que la empresa prefería filtrar por razones legales. Fue durante esa revisión cuando Cristina encontró un borrador sin enviar, redactado apenas dos días antes de la muerte de Marisol, dirigido a su hija con un asunto que decía simplemente: \"Cosas que nunca supe cómo decirte\".",
           "Cristina sabía que no debía leer el contenido de los mensajes que gestionaba, una norma tanto ética como contractual que había respetado siempre sin esfuerzo. Sin embargo, aquel borrador, por estar sin enviar, ocupaba un espacio ambiguo: ¿pertenecía ya a la hija que lo había solicitado, o seguía siendo, en cierto modo, un pensamiento privado que Marisol nunca había decidido compartir?",
           "Pasó varios minutos con el cursor suspendido sobre el archivo, debatiéndose entre dos certezas contradictorias: por un lado, la hija tenía derecho legal a toda la cuenta, borrador incluido; por otro, algo en Cristina le decía que un mensaje nunca enviado era, precisamente por eso, un mensaje que su autora había decidido, en algún momento, no compartir todavía.",
@@ -17555,7 +17555,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Le preguntó a su hermana, con la que mantenía una relación cercana, quién era aquel hombre, y la respuesta que recibió la dejó desconcertada: se trataba de alguien con quien Renata había mantenido una relación breve pero intensa, que había terminado mal apenas dos meses antes del accidente. Su hermana, dudando si debía o no dar más detalles, le confesó que Renata, en su momento, le había pedido expresamente que nunca volviera a mencionar aquel nombre delante de ella.",
           "Renata se encontró entonces ante una decisión extraña: ¿debía respetar la voluntad de una versión anterior de sí misma, una persona que técnicamente era ella pero de la que ya no conservaba ningún recuerdo directo, o tenía derecho, como superviviente de aquel dolor olvidado, a investigar por su cuenta lo que había ocurrido? Sentía que ambas opciones implicaban, de algún modo, una forma distinta de traición hacia sí misma.",
           "Durante semanas evitó el tema, aunque las fotografías de aquella playa seguían apareciendo cada vez que revisaba sus archivos, como una pregunta que se negaba a desaparecer. Finalmente decidió no buscar más información sobre el hombre ni sobre lo que había sucedido entre ellos, razonando que si su yo anterior había elegido protegerse de aquel recuerdo con tanta insistencia, lo más respetuoso era confiar en esa decisión, aunque ya no pudiera entenderla del todo.",
-          "Sin embargo, no borró las fotografías. Las guardó en una carpeta aparte, a la que tituló simplemente \"Antes\", consciente de que algún día, quizás, encontraría el valor —o la curiosidad— necesaria para volver a mirarlas de otra manera. Por ahora, prefería vivir con la incertidumbre de una historia incompleta antes que forzar un recuerdo que su propia mente, por razones que ella misma desconocía, había decidido no conservar.",
+          "Sin embargo, no borró las fotografías. Las guardó en una carpeta aparte, a la que tituló simplemente \"Antes\", consciente de que algún día, quizás, encontraría el valor —o la curiosidad— necesario para volver a mirarlas de otra manera. Por ahora, prefería vivir con la incertidumbre de una historia incompleta antes que forzar un recuerdo que su propia mente, por razones que ella misma desconocía, había decidido no conservar.",
           "Un año después del accidente, Renata seguía trabajando como fotógrafa, aunque había cambiado, sin proponérselo del todo, la manera en que documentaba su vida: ya no fotografiaba cada momento con la misma obsesión de antes, sino que empezó a escribir, junto a algunas imágenes, breves notas sobre lo que sentía al tomarlas. Pensaba que, si alguna vez volvía a perder la memoria, prefería dejar atrás no solo imágenes, sino también la certeza de lo que habían significado para ella."
         ]
       }
@@ -17956,7 +17956,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "options": [
           "He ignored it, not wanting to get involved.",
           "He confronted Curro angrily during a game.",
-          "He spoke carefully with the school counselor about the situation.",
+          "He spoke carefully with his form tutor at school about the situation.",
           "He told Curro's parents directly without telling Curro first."
         ],
         "correctIndex": 2,

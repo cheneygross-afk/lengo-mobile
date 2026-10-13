@@ -75,7 +75,7 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "la confianza", en: "confidence", forms: ["confianza"] },
     { es: "el consejo", en: "advice", forms: ["consejos"] },
     { es: "elegir", en: "to choose", forms: ["elige"] },
-    { es: "en frente de", en: "in front of", forms: ["frente"] },
+    { es: "delante de", en: "in front of", forms: ["delante"] },
     { es: "inscribirse", en: "to sign up", forms: ["inscribirse"] },
     { es: "la letra", en: "lyrics", forms: ["letra"] },
     { es: "la magia", en: "magic", forms: ["magia"] },
@@ -277,7 +277,7 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
   "lemonade-stand-business": [
     { es: "la limonada", en: "lemonade", forms: ["limonada", "limones"] },
     { es: "detenerse", en: "to stop", forms: ["detiene", "detienen"] },
-    { es: "en frente de", en: "in front of", forms: ["frente"] },
+    { es: "delante de", en: "in front of", forms: ["delante"] },
     { es: "la mezcla", en: "mixture", forms: ["mezcla", "mezclan"] },
     { es: "el negocio", en: "business", forms: ["negocio", "negocios"] },
     { es: "suficiente", en: "enough", forms: ["suficiente"] },
@@ -338,7 +338,7 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "el acento", en: "accent", forms: ["acento"] },
     { es: "la alegría", en: "joy", forms: ["alegría"] },
     { es: "arrodillarse", en: "to kneel down", forms: ["arrodilló"] },
-    { es: "colgar", en: "to hang", forms: ["colgar"] },
+    { es: "enrollar", en: "to roll up", forms: ["enrollarlo"] },
   ],
   "la-boda-de-mi-prima": [
     { es: "la canasta", en: "basket", forms: ["canasta"] },
@@ -381,7 +381,7 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "curarse", en: "to heal", forms: ["curarse"] },
     { es: "la frente", en: "forehead", forms: ["frente"] },
     { es: "el limón", en: "lemon", forms: ["limón"] },
-    { es: "perderse", en: "to miss", forms: ["perdería"] },
+    { es: "perderse", en: "to miss", forms: ["perderse"] },
   ],
   "la-alergia-nueva": [
     { es: "el camarón", en: "shrimp", forms: ["camarones"] },
@@ -850,7 +850,7 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "la frutería", en: "fruit shop", forms: ["frutería"] },
     { es: "la pegatina", en: "sticker", forms: ["pegatina"] },
     { es: "el quiosco", en: "newsstand", forms: ["quiosco"] },
-    { es: "atar", en: "to lock up", forms: ["ataba"] },
+    { es: "atar", en: "to tie, fasten (here: lock up)", forms: ["ataba"] },
   ],
   "the-school-vegetable-garden": [
     { es: "el huerto", en: "vegetable garden", forms: ["huerto"] },

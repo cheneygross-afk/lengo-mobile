@@ -55,7 +55,7 @@ export const A1_STARTER_STORIES: Story[] = [
         question: "How many bedrooms does Luis's flat have?",
         options: ["One", "Two", "Three", "None"],
         correctIndex: 0,
-        explanation: "\"Tiene una habitación\": one room.",
+        explanation: "\"Tiene una habitación\": one bedroom.",
       },
       {
         question: "What can Luis see from the kitchen window?",

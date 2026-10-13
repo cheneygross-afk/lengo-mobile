@@ -279,7 +279,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
             0,
             "She says \"Ayudaba a mi madre y jugaba... en el río\": she helped her mother and played at the river. TV, a shop and the library aren't mentioned."
           ),
-          fb("Complete the question.", "—¿Cómo ___ tu casa? —Era blanca y muy vieja.", "era", "Descriptions in the past take the imperfect, and ser's imperfect is era."),
+          fb("Complete: \"—What was your house like? —White and very old.\"", "—¿Cómo ___ tu casa? —Blanca y muy vieja.", "era", "Descriptions in the past take the imperfect, and ser's imperfect is era."),
         ]
       ),
       sec(
@@ -736,7 +736,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "What vs. to whom",
-        "Lo/la replace the thing (or person) that directly receives the action. Le replaces the person who receives the thing. Test: can you add \"to\" in English (give to, send to, say to)? Then it's usually le. Careful: \"wait for\" and \"look for\" are direct in Spanish (la espero, lo busco).",
+        "Lo/la replace the thing (or person) that directly receives the action. Le replaces the person who receives the thing. Test: can you add \"to\" in English (give to, send to, say to)? Then it's usually le. Careful: \"wait for\", \"look for\" and \"listen to\" are direct in Spanish (la espero, lo busco, la escucho).",
         [
           ["Veo a Pedro. → Lo veo.", "I see Pedro. → I see him. (direct)"],
           ["Escribo a Pedro. → Le escribo.", "I write to Pedro. → I write to him. (indirect)"],
@@ -795,7 +795,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         [
           ["Ayer me desperté tarde porque no sonó la alarma.", "Yesterday I woke up late because the alarm didn't go off."],
           ["Me duché en dos minutos y me vestí muy rápido.", "I showered in two minutes and got dressed really fast."],
-          ["No me peiné y me olvidé las llaves.", "I didn't comb my hair and I forgot my keys."],
+          ["No me peiné y me olvidé de las llaves.", "I didn't comb my hair and I forgot my keys."],
         ],
         [
           fb("Continue the story.", "Mi compañero de piso también ___ tarde. (levantarse)", "se levantó", "Él → se levantó."),
@@ -887,7 +887,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Poner/ponerse and llamar/llamarse change meaning with se."
       ),
-      fb("With or without se?", "El profesor habla tanto que los estudiantes ___ duermen.", "se", "Falling asleep → dormirse: se duermen."),
+      fb("With or without se?", "El profesor habla tanto que los estudiantes ___ duermen. (they fall asleep)", "se", "Falling asleep → dormirse: se duermen."),
       mc("\"My dog sleeps on the sofa all afternoon.\" (just sleeping, not falling asleep)", ["Mi perro duerme en el sofá toda la tarde.", "Mi perro se duerme en el sofá toda la tarde.", "Mi perro le duerme en el sofá toda la tarde.", "Mi perro se dormí en el sofá toda la tarde."], 0, "Plain sleeping is dormir with no se: duerme. \"Se duerme\" means he falls asleep, \"le duerme\" isn't Spanish, and \"se dormí\" mixes se with the yo form."),
       mc(
         "\"I wash my hands.\"",
@@ -986,7 +986,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       ),
       sec(
         "Mayor and menor",
-        "With people's ages, mayor (older) and menor (younger) are the usual choice. Más joven is also fine; más viejo can sound blunt. Mayor and menor are already comparative, so they never take más: ✗ más menor.",
+        "With people's ages, mayor (older) and menor (younger) are the usual choice. Más joven is also fine; más viejo can sound blunt. Mayor and menor are already comparative, so in a comparison they don't take más: ✗ más menor que yo.",
         [
           ["Mi hermano es mayor que yo.", "My brother is older than me."],
           ["Soy el menor de la familia.", "I'm the youngest in the family."],
@@ -1358,7 +1358,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "La radio is a thing, so escucho la radio, without a. The other three are correct: people take a, and tener usually doesn't."
       ),
       toEs("I'm going to invite Pedro and Laura to the party.", "Voy a invitar a Pedro y a Laura a la fiesta.", "Personal a before each person; a la fiesta is a destination.", ["Voy a invitar a Pedro y Laura a la fiesta."]),
-      wo("¿Conoces a alguien que hable japonés?", "Alguien as a direct object takes personal a.", "Do you know anyone who speaks Japanese?"),
+      wo("¿Conoces a alguien en Japón?", "Alguien as a direct object takes personal a.", "Do you know anyone in Japan?"),
     ]
   ),
   L(
@@ -1593,7 +1593,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     "at-the-restaurant-2",
     "a2r-spiral-telling-stories",
     "Spiral Review: Elementary So Far — Telling Stories",
-    "Lessons 1–9 revisited: tell a complete past-tense story with regular and irregular preterites, the imperfect, and both together.",
+    "The Elementary past tenses revisited: tell a complete past-tense story with regular and irregular preterites, the imperfect, and both together.",
     "9 min",
     [
       sec(
@@ -1654,7 +1654,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
           ["Ana: ¿Quién trae las bebidas? Yo no puedo traerlas.", "Who's bringing the drinks? I can't bring them."],
           ["Leo: Yo las traigo. Y le compraré un pastel a Marta para su cumpleaños.", "I'll bring them. And I'll buy Marta a cake for her birthday."],
           ["Ana: ¡Genial! El parque nuevo es más bonito que el viejo.", "Great! The new park is nicer than the old one."],
-          ["Leo: Sí, pero no hay ninguna sombra. Nos levantaremos temprano para buscar sitio.", "Yes, but there's no shade at all. We'll get up early to find a spot."],
+          ["Leo: Sí, pero no hay nada de sombra. Nos levantaremos temprano para buscar sitio.", "Yes, but there's no shade at all. We'll get up early to find a spot."],
         ],
         [
           mc(
@@ -2166,7 +2166,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
           ["emocionarse", "to get emotional"],
           ["enamorarse", "to fall in love"],
         ],
-        "All take reflexive pronouns."
+        "Each takes a reflexive pronoun that matches the subject: me afeito, te maquillas, se emociona, nos enamoramos."
       ),
       mc(
         "\"We have to leave now!\"",
@@ -2344,9 +2344,9 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
           ["Es el peor producto que compré.", "1 star"],
           ["Está bien, pero es un poco caro.", "3 stars"],
           ["¡Buenísimo! Lo recomiendo.", "5 stars"],
-          ["Funciona, pero hay mejores opciones.", "2 stars"],
+          ["Funciona mal y la batería dura poquísimo.", "2 stars"],
         ],
-        "Peor = worst, buenísimo = excellent."
+        "Peor = worst (1 star); funciona mal and poquísimo are clearly negative (2 stars); bien, pero… is mixed (3 stars); buenísimo = excellent (5 stars)."
       ),
       mc(
         "\"The coffee maker is less noisy than the old one.\"",
@@ -2722,7 +2722,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Core Elementary travel vocabulary."
       ),
-      fb("Complete the sentence.", "Antes de viajar al extranjero, necesitas un ___ válido.", "pasaporte", "To travel abroad you need a valid passport: un pasaporte válido."),
+      { ...fb("How do you say the bold words in Spanish?", "Antes de viajar al extranjero, necesitas un ___ válido.", "pasaporte", "To travel abroad you need a valid passport: un pasaporte válido."), en: "Before traveling abroad, you need a valid [passport]." },
       fb("Complete the sentence.", "Al llegar al hotel, ___ la maleta y dormimos. (deshacer, nosotros, preterite)", "deshicimos", "Deshacer follows hacer: deshicimos."),
       toEs("We missed the flight and slept at the airport.", "Perdimos el vuelo y dormimos en el aeropuerto.", "Perder = to miss (a flight, a train).", []),
       toEn("¿Me puede decir a qué hora sale el próximo tren?", "Can you tell me what time the next train leaves?", "Polite usted question; próximo = next.", ["Could you tell me what time the next train leaves?"]),
@@ -2872,7 +2872,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       mc("Odd one out:", ["el codo", "la rodilla", "el tobillo", "el cepillo"], 3, "Codo, rodilla and tobillo are body parts; el cepillo is a brush."),
-      fb("Complete the sentence.", "Hace frío; ponte los guantes en las ___.", "manos", "Gloves go on your hands: las manos (feminine despite the -o)."),
+      { ...fb("How do you say the bold words in Spanish?", "Siempre me lavo las ___ antes de comer.", "manos", "Las manos (feminine despite the -o); with a reflexive verb, Spanish uses las, not mis: me lavo las manos."), en: "I always wash my [hands] before eating." },
       fb("Complete the sentence.", "Después de la ducha, ___ seco el pelo. (yo)", "me", "Secarse with yo takes me: me seco el pelo."),
       ms(
         "Which are parts of the face?",
@@ -3110,7 +3110,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "Preterite, future, direct object pronoun, para for recipients."
       ),
-      toEs("What did you use to do on weekends when you lived in Madrid?", "¿Qué hacías los fines de semana cuando vivías en Madrid?", "Past habits and past situations both take the imperfect: hacías, vivías.", ["¿Qué hacías los fines de semana cuando vivías en Madrid?"]),
+      toEs("What did you use to do on weekends when you lived in Madrid?", "¿Qué hacías los fines de semana cuando vivías en Madrid?", "Past habits and past situations both take the imperfect: hacías, vivías.", ["¿Qué solías hacer los fines de semana cuando vivías en Madrid?"]),
       wo("Me alegro mucho de verte después de tanto tiempo.", "Alegrarse de + infinitive; tanto agrees with tiempo.", "I'm really happy to see you after so long."),
     ]
   ),
@@ -3139,7 +3139,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       toEs("I'll call you tomorrow to tell you the news.", "Te llamaré mañana para contarte la noticia.", "Future + para + infinitive with attached pronoun.", ["Te llamaré mañana para decirte la noticia.", "Mañana te llamaré para contarte la noticia.", "Te voy a llamar mañana para contarte la noticia."]),
       toEn("Nunca le dije nada a nadie.", "I never told anybody anything.", "Spanish stacks negatives; English uses one.", ["I never said anything to anyone.", "I never told anyone anything."]),
       toEn("Se me olvidaron las llaves en el coche.", "I forgot my keys in the car.", "Se me olvidaron = I (accidentally) forgot.", ["I left my keys in the car.", "I forgot the keys in the car."]),
-      toEn("Estuvimos en Chile por dos semanas.", "We were in Chile for two weeks.", "Por for duration; a closed period → preterite.", ["We were in Chile for two weeks."]),
+      toEn("Estuvimos en Chile por dos semanas.", "We were in Chile for two weeks.", "Por for duration; a closed period → preterite.", ["We spent two weeks in Chile."]),
       toEn("Mientras mi madre cocinaba, mi padre ponía la mesa.", "While my mother was cooking, my father was setting the table.", "Two simultaneous background actions → imperfect.", ["While my mom cooked, my dad set the table.", "While my mother cooked, my father set the table."]),
     ]
   ),
@@ -3343,7 +3343,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         [0, 1, 3],
         "Marco danced much worse than the teacher (\"Yo, no tanto\"), so \"Marco bailó tan bien como la profesora\" is false."
       ),
-      toEs("The city is bigger and noisier than I thought.", "La ciudad es más grande y más ruidosa de lo que pensaba.", "With a clause after a comparison, use de lo que.", ["La ciudad es más grande y ruidosa de lo que pensaba."]),
+      toEs("The city is bigger and noisier than my city.", "La ciudad es más grande y más ruidosa que mi ciudad.", "Más + adjective + que for each comparison; the adjectives agree with ciudad (feminine): grande, ruidosa.", ["La ciudad es más grande y ruidosa que mi ciudad."]),
       wo("Nunca he comido una carne tan rica como aquí.", "Tan + adjective + como; nunca he comido = I have never eaten (present perfect).", "I have never eaten meat as good as here."),
     ]
   ),
@@ -3426,7 +3426,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Replace the underlined words.", "Presté mi bici a mis primos. → ___ la presté.", "Se", "Les + la → se la."),
+      fb("Replace «mi bici» and «a mis primos» with pronouns.", "Presté mi bici a mis primos. → ___ la presté.", "Se", "Les + la → se la."),
       fb("Replace the object.", "¿Viste las noticias? → Sí, ___ vi.", "las", "Las noticias is feminine plural, so las."),
       fb("Add the reflexive pronoun.", "Mis padres ___ casaron en 1990.", "se", "Casarse with ellos takes se: se casaron."),
       fb("Attach the pronoun.", "Voy a comprar el vestido. → Voy a ___.", "comprarlo", "El vestido is masculine, so lo, attached to the infinitive: comprarlo."),
@@ -3450,7 +3450,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     "a2-comprehensive-review-3",
     "a2r-challenge-past-gauntlet",
     "Elementary Challenge: The Past-Tense Gauntlet",
-    "Twelve rapid decisions: preterite or imperfect, regular or irregular — no hints.",
+    "Ten rapid decisions: preterite or imperfect, regular or irregular.",
     "8 min",
     [
       sec(

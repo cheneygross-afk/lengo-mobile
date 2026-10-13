@@ -671,7 +671,8 @@ export const B1_GAPS: AnchoredLesson[] = [
             "En mi familia no hay nadie que ___ tocar el piano.",
             "sepa",
             "In my family there's nobody who [can] play the piano.",
-            "No hay nadie que...: el antecedente no existe, así que subjuntivo. Saber → sepa (irregular)."
+            "No hay nadie que...: el antecedente no existe, así que subjuntivo. Saber → sepa (irregular); saber + infinitivo = know how to. «Pueda» también es correcto.",
+            ["pueda"]
           ),
         ]
       ),
@@ -807,7 +808,7 @@ export const B1_GAPS: AnchoredLesson[] = [
         [
           "Olvidé las llaves y se me olvidaron las llaves son correctas, pero no dicen lo mismo. Con el se accidental, la acción parece algo que te pasó, no algo que hiciste.",
           "Compara: Rompí el plato (puede sonar a que lo hiciste a propósito o que asumes la acción) / Se me rompió el plato (fue un accidente).",
-          "Por eso es tan útil para disculparse: Perdón, se me hizo tarde. Se me pasó la hora. Se me fue la cabeza (my mind went blank).",
+          "Por eso es tan útil para disculparse: Perdón, se me hizo tarde. Se me pasó la hora. Se me fue de la cabeza (it slipped my mind).",
           "Para dar énfasis o aclarar quién, añade a + persona: A mí se me olvidó, pero a ella no.",
         ],
         [

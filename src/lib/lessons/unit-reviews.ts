@@ -117,7 +117,9 @@ function usableEn(en: string | undefined, es: string): en is string {
     t.length <= 110 &&
     words(t) >= 2 &&
     !/[/()[\]→=_…*✗✓:;"«»“”]|\.\.\.|--/.test(t) &&
-    !/[áéíóúñ¿¡]/i.test(t) &&
+    !/[¿¡]/.test(t) &&
+    // Accents mark Spanish, except in a name inside the sentence ("Hi Andrés").
+    !t.split(/\s+/).some((w, i) => /[áéíóúñ]/i.test(w) && (i === 0 || !/^\p{Lu}/u.test(w))) &&
     ENGLISH_WORD.test(t) &&
     t.toLowerCase() !== es.toLowerCase()
   );

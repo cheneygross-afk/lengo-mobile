@@ -593,8 +593,8 @@ export const B1_WRITING_TASKS: UnitWriting = {
         "Se valorará + experiencia o idiomas",
         "Datos de contacto"
       ],
-      "modelAnswer": "Se buscan camareros para el verano. Restaurante en la playa de Salou necesita dos camareros y un ayudante de cocina de junio a septiembre. Se requiere experiencia mínima de un año y disponibilidad para trabajar los fines de semana. Se valorará el conocimiento de inglés o francés. Se ofrecen contrato de tres meses, buen ambiente y comida incluida. Los interesados pueden enviar su currículum a empleo@lamarina.es.",
-      "explanation": "Los anuncios de trabajo usan el se pasivo y el verbo concuerda con el sustantivo: se buscan camareros, se requiere experiencia, se ofrecen contrato, buen ambiente y comida."
+      "modelAnswer": "Se buscan camareros para el verano. Restaurante en la playa de Salou necesita dos camareros y un ayudante de cocina de junio a septiembre. Se requiere experiencia mínima de un año y disponibilidad para trabajar los fines de semana. Se valorará el conocimiento de inglés o francés. Se ofrece contrato de tres meses, buen ambiente y comida incluida. Los interesados pueden enviar su currículum a empleo@lamarina.es.",
+      "explanation": "Los anuncios de trabajo usan el se pasivo y el verbo concuerda con el sustantivo: se buscan camareros, se requiere experiencia. Con varios sustantivos en singular detrás del verbo, lo normal es el singular: se ofrece contrato, buen ambiente y comida."
     }
   ],
   "b1r-tema-reclamar-pago": [

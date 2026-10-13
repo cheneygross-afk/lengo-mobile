@@ -266,7 +266,7 @@ export const A2_NONFICTION: Story[] = [
       "Un anuncio típico dice algo así: «Alquilo piso exterior, 2 hab., 1 baño, 65 m², amueblado, 850 €/mes, gastos aparte». «Exterior» significa que las ventanas dan a la calle. «Hab.» son habitaciones. «Amueblado» quiere decir que tiene muebles.",
       "Los «gastos» son la electricidad, el agua, el gas e internet. Si el anuncio dice «gastos incluidos», no pagas nada más. Si dice «gastos aparte», tienes que pagarlos tú. También hay «gastos de comunidad», para la limpieza del edificio y el ascensor.",
       "Normalmente, el propietario pide una fianza, que en España es de un mes. Muchas veces pide también un mes por adelantado y, a veces, un contrato de trabajo o tus últimas nóminas. Si alquilas con una agencia, puede haber otro pago.",
-      "Antes de firmar el contrato, visita el piso. Abre los grifos, mira las ventanas y pregunta por la calefacción. Haz fotos de todo: si algo está roto, es mejor tenerlo escrito desde el primer día.",
+      "Antes de firmar el contrato, visita el piso. Abre los grifos, mira las ventanas y pregunta por la calefacción. Haz fotos de todo: si algo está roto, es mejor tener pruebas desde el primer día.",
     ],
     questions: [
       {
@@ -288,7 +288,7 @@ export const A2_NONFICTION: Story[] = [
         options: ["To post them online", "To have proof if something is broken", "Because the owner asks", "To show your friends"],
         correctIndex: 1,
         explanation:
-          "\"Si algo está roto, es mejor tenerlo escrito desde el primer día.\"",
+          "\"Si algo está roto, es mejor tener pruebas desde el primer día.\"",
       },
     ],
   },

@@ -308,7 +308,7 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
         ["All of our agents are busy at the moment.", "All our agents are busy right now.", "All our agents are currently busy.", "All of our agents are currently busy."]
       ),
       mc(
-        "En México contestas el teléfono. ¿Qué es lo más típico decir?",
+        "En México contestas el teléfono. ¿Qué se suele decir?",
         ["¿Bueno?", "¿Diga?", "¿Aló?", "¿Qué onda?"],
         0,
         "En México se contesta con ¿Bueno? En España, ¿Diga? o ¿Sí?; en muchos países de Sudamérica, ¿Aló?"
@@ -814,7 +814,7 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
             "Disculpe, pero creo que hay un ___ en la factura.",
             "error",
             "Excuse me, but I think there's a [mistake] on the invoice.",
-            "Un error = a mistake. Una equivocación también es posible.",
+            "Un error = a mistake. También vale «un fallo».",
             ["fallo"]
           ),
         ]

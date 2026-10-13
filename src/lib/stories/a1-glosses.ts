@@ -5,7 +5,7 @@ import type { StoryGloss } from "./types";
 // English glosses for the A1 stories, keyed by story slug. See glosses.ts.
 export const A1_STORY_GLOSSES: Record<string, StoryGloss[]> = {
   ...A1_STARTER_GLOSSES,
-  "school-day-math-test": [
+  "marta-driving-test": [
     { es: "la señal", en: "sign", forms: ["señales"] },
     { es: "conducir", en: "to drive", forms: ["conduce", "conducir"] },
     { es: "decir", en: "to say", forms: ["dice"] },
@@ -211,7 +211,7 @@ export const A1_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "enseñar", en: "to teach", forms: ["enseña"] },
     { es: "explicar", en: "to explain", forms: ["explica"] },
     { es: "gritar", en: "to shout", forms: ["grita"] },
-    { es: "la hierba", en: "weed (hierba mala)", forms: ["hierbas"] },
+    { es: "las hierbas malas", en: "weeds", forms: ["hierbas"] },
     { es: "la hoja", en: "leaf", forms: ["hojas"] },
     { es: "orgulloso", en: "proud", forms: ["orgullosa"] },
     { es: "poner", en: "to put", forms: ["pone"] },
@@ -848,6 +848,7 @@ export const A1_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "frente a", en: "in front of", forms: ["frente"] },
     { es: "organizar", en: "to organize", forms: ["organiza"] },
     { es: "el papel", en: "role", forms: ["papel"] },
+    { es: "el texto", en: "script, lines", forms: ["texto"] },
     { es: "profundo", en: "deeply", forms: ["profundo"] },
     { es: "respirar", en: "to breathe", forms: ["respira"] },
     { es: "siguiente", en: "next, following", forms: ["siguiente"] },
@@ -1552,7 +1553,7 @@ export const A1_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "la boca", en: "mouth", forms: ["boca"] },
     { es: "construir", en: "to build", forms: ["construyendo"] },
     { es: "crecer", en: "to grow", forms: ["crecen"] },
-    { es: "esperar", en: "to wait for", forms: ["esperar"] },
+    { es: "esperar", en: "to wait for", forms: ["espera"] },
     { es: "la forma", en: "shape", forms: ["forma"] },
     { es: "guardar", en: "to put away", forms: ["guarda"] },
     { es: "el gusano", en: "worm", forms: ["gusanos"] },

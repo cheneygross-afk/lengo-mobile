@@ -9,10 +9,10 @@ export const DRILLS_A1_4: Record<string, Exercise[]> = {
   "question-words-drill-2": [
     toEs("When is the party?", "¿Cuándo es la fiesta?", "Cuándo asks 'when' and keeps its accent in a question; don't drop the opening ¿."),
     toEs("How is your mother?", "¿Cómo está tu madre?", "Cómo asks 'how', and estar is used for how someone is doing.", ["¿Cómo está tu mamá?"]),
-    toEs("How many cats do you have?", "¿Cuántos gatos tienes?", "Gatos is masculine plural, so cuánto becomes cuántos."),
+    toEs("How many cats do you (informal) have?", "¿Cuántos gatos tienes?", "Gatos is masculine plural, so cuánto becomes cuántos."),
     toEs("How much milk is there?", "¿Cuánta leche hay?", "Leche is feminine singular, so it's cuánta, not cuánto."),
     toEs("How many tables are there?", "¿Cuántas mesas hay?", "Mesas is feminine plural, so cuánto becomes cuántas."),
-    toEs("Why are you sad?", "¿Por qué estás triste?", "Por qué asks for a reason. Written as two words with an accent in questions, unlike porque ('because')."),
+    toEs("Why are you (informal) sad?", "¿Por qué estás triste?", "Por qué asks for a reason. Written as two words with an accent in questions, unlike porque ('because')."),
     toEs("What is the key for?", "¿Para qué es la llave?", "Para qué asks about purpose ('what for'); por qué would ask for a cause.", ["¿Para qué sirve la llave?"]),
     toEs("I don't know when the class starts.", "No sé cuándo empieza la clase.", "Cuándo keeps its accent even inside a sentence when it introduces an indirect question."),
     fe("¿___ cuesta la camisa?", "Cuánto", "[How much] does the shirt cost?", "With costar, 'how much' is the fixed form cuánto: there's no noun for it to agree with."),
@@ -26,10 +26,10 @@ export const DRILLS_A1_4: Record<string, Exercise[]> = {
   "question-words-drill-3": [
     toEs("Who is she?", "¿Quién es ella?", "Quién asks 'who' about one person and needs its accent and the opening ¿."),
     toEs("Who are they? (men)", "¿Quiénes son ellos?", "For more than one person, use the plural quiénes with son."),
-    toEs("Where do you live?", "¿Dónde vives?", "Dónde asks for a location; it keeps its accent in every question."),
-    toEs("Where are you going?", "¿Adónde vas?", "With ir (movement toward a place) use adónde, not plain dónde.", ["¿A dónde vas?"]),
+    toEs("Where do you (informal) live?", "¿Dónde vives?", "Dónde asks for a location; it keeps its accent in every question."),
+    toEs("Where are you (informal) going?", "¿Adónde vas?", "With ir (movement toward a place) the standard choice is adónde (or a dónde); plain dónde is heard in speech, but adónde is preferred.", ["¿A dónde vas?"]),
     toEs("How many people are coming?", "¿Cuántas personas vienen?", "Personas is feminine plural, so cuánto becomes cuántas."),
-    toEs("What do you want to eat?", "¿Qué quieres comer?", "Qué asks 'what' before a verb; cuál would mean 'which one'."),
+    toEs("What do you (informal) want to eat?", "¿Qué quieres comer?", "Qué asks 'what' before a verb; cuál would mean 'which one'."),
     toEs("I know where he lives.", "Sé dónde vive.", "Dónde keeps its accent even inside a statement when it means 'where' in a hidden question.", ["Yo sé dónde vive."]),
     toEs("When do you (formal) work?", "¿Cuándo trabaja usted?", "Cuándo for 'when'; the formal 'you' takes the él/ella verb form.", ["¿Cuándo trabaja?"]),
     fe("No sé ___ se llama la profesora.", "cómo", "I don't know [what] the teacher's name is.", "Names are asked with cómo se llama, literally 'how is she called', so 'what' here is cómo, with an accent."),
@@ -59,8 +59,8 @@ export const DRILLS_A1_4: Record<string, Exercise[]> = {
 
   "a1r-contrast-que-cual-donde": [
     toEs("What is gazpacho?", "¿Qué es el gazpacho?", "Asking for a definition takes qué es.", ["¿Qué es gazpacho?"]),
-    toEs("What is your favorite city?", "¿Cuál es tu ciudad favorita?", "You're asking which specific city, so it's cuál es, not qué es."),
-    toEs("What is your last name?", "¿Cuál es tu apellido?", "Names, numbers and addresses are specific answers, so 'what is' becomes cuál es."),
+    toEs("What is your (informal) favorite city?", "¿Cuál es tu ciudad favorita?", "You're asking which specific city, so it's cuál es, not qué es."),
+    toEs("What is your (informal) last name?", "¿Cuál es tu apellido?", "Names, numbers and addresses are specific answers, so 'what is' becomes cuál es."),
     toEs("What is a museum?", "¿Qué es un museo?", "A definition question takes qué es."),
     toEs("Where is the station?", "¿Dónde está la estación?", "Location with estar takes plain dónde."),
     toEs("Where are your parents going?", "¿Adónde van tus padres?", "Ir means movement toward a place, so use adónde.", ["¿A dónde van tus padres?"]),
@@ -158,7 +158,7 @@ export const DRILLS_A1_4: Record<string, Exercise[]> = {
   "tener-ir-hacer-hay-drill-1": [
     toEs("I have a cat.", "Tengo un gato.", "Tener is irregular in the yo form: tengo, not teno."),
     toEs("We have two cars.", "Tenemos dos coches.", "Tenemos is the regular-looking nosotros form; no stem change.", ["Tenemos dos carros."]),
-    toEs("Are you cold?", "¿Tienes frío?", "Feeling cold is tener frío, not estar frío."),
+    toEs("Are you (informal) cold?", "¿Tienes frío?", "Feeling cold is tener frío, not estar frío."),
     toEs("My brother is thirty years old.", "Mi hermano tiene treinta años.", "Age uses tener + años; es treinta años is the classic mistake."),
     toEs("We are in a hurry.", "Tenemos prisa.", "'To be in a hurry' is tener prisa.", ["Tenemos apuro."]),
     toEs("She goes to school.", "Ella va a la escuela.", "Ir is irregular: ella va.", ["Ella va al colegio."]),
@@ -174,7 +174,7 @@ export const DRILLS_A1_4: Record<string, Exercise[]> = {
 
   "tener-ir-hacer-hay-drill-2": [
     toEs("I'm going to cook tonight.", "Voy a cocinar esta noche.", "Plans use ir a + infinitive; don't leave out the a.", ["Esta noche voy a cocinar."]),
-    toEs("Are you going to study tomorrow?", "¿Vas a estudiar mañana?", "Conjugate ir (vas) and keep the second verb in the infinitive."),
+    toEs("Are you (informal) going to study tomorrow?", "¿Vas a estudiar mañana?", "Conjugate ir (vas) and keep the second verb in the infinitive."),
     toEs("We're going to visit Peru.", "Vamos a visitar Perú.", "Vamos a + infinitive; the infinitive never changes.", ["Vamos a visitar el Perú."]),
     toEs("I make the bed.", "Hago la cama.", "Hacer is irregular only in the yo form: hago.", ["Hago mi cama."]),
     toEs("What are you all doing? (Spain)", "¿Qué hacéis?", "The vosotros form of hacer is hacéis, with an accent.", ["¿Qué hacéis vosotros?"]),
@@ -205,12 +205,12 @@ export const DRILLS_A1_4: Record<string, Exercise[]> = {
   ],
 
   "a1r-error-hunt-tener-ir-hacer-hay": [
-    toEs("Correct: «Soy veinticinco años.»", "Tengo veinticinco años.", "Age uses tener, not ser."),
-    toEs("Correct: «Es calor hoy.»", "Hace calor hoy.", "Weather uses hace, not es.", ["Hoy hace calor."]),
-    toEs("Correct: «Están tres libros en la mesa.»", "Hay tres libros en la mesa.", "To say something exists, use hay, not están."),
-    toEs("Correct: «Voy comer pizza.»", "Voy a comer pizza.", "Ir a + infinitive needs the a."),
-    toEs("Correct: «Vamos a bailamos.»", "Vamos a bailar.", "Only ir is conjugated; the second verb stays an infinitive."),
-    toEs("Correct: «Estoy miedo.»", "Tengo miedo.", "Fear is tener miedo, not estar."),
+    toEs("Correct: «Soy veinticinco años.» (I'm twenty-five.)", "Tengo veinticinco años.", "Age uses tener, not ser."),
+    toEs("Correct: «Es calor hoy.» (It's hot today.)", "Hace calor hoy.", "Weather uses hace, not es.", ["Hoy hace calor."]),
+    toEs("Correct: «Están tres libros en la mesa.» (There are three books on the table.)", "Hay tres libros en la mesa.", "To say something exists, use hay, not están."),
+    toEs("Correct: «Voy comer pizza.» (I'm going to eat pizza.)", "Voy a comer pizza.", "Ir a + infinitive needs the a."),
+    toEs("Correct: «Vamos a bailamos.» (Let's dance.)", "Vamos a bailar.", "Only ir is conjugated; the second verb stays an infinitive."),
+    toEs("Correct: «Estoy miedo.» (I'm scared.)", "Tengo miedo.", "Fear is tener miedo, not estar."),
     toEs("I'm cold.", "Tengo frío.", "A person feeling cold is tener frío; estoy frío would mean you are cold to the touch."),
     toEs("It's cold. (the weather)", "Hace frío.", "Weather is hace frío; es frío is the English-style mistake."),
     toEs("There are many cars.", "Hay muchos coches.", "'There are' is hay, never son or están.", ["Hay muchos carros."]),
@@ -273,7 +273,7 @@ export const DRILLS_A1_4: Record<string, Exercise[]> = {
     toEs("On Saturday I'm free.", "El sábado estoy libre.", "One Saturday, so el sábado; being free is estar libre.", ["Estoy libre el sábado."]),
     toEs("The meeting is on Thursday at ten.", "La reunión es el jueves a las diez.", "El jueves for 'on Thursday', a las diez for 'at ten'."),
     toEs("We go to the market on Sundays.", "Vamos al mercado los domingos.", "Every Sunday is los domingos; days stay lowercase.", ["Los domingos vamos al mercado."]),
-    toEs("Do you study on Thursdays?", "¿Estudias los jueves?", "A regular habit takes the plural los jueves."),
+    toEs("Do you (informal) study on Thursdays?", "¿Estudias los jueves?", "A regular habit takes the plural los jueves."),
     fe("___ lunes tengo clase de inglés.", "Los", "[On] Mondays I have English class.", "Every Monday is los lunes; en lunes is wrong."),
     fe("Trabajo de lunes ___ jueves.", "a", "I work Monday [to] Thursday.", "Ranges use de... a..."),
     fe("Este ___ voy a la playa.", "sábado", "This [Saturday] I'm going to the beach.", "Days of the week are lowercase in Spanish."),
@@ -313,7 +313,7 @@ export const DRILLS_A1_4: Record<string, Exercise[]> = {
 
   "a1-final-review-2": [
     toEs("We live in a small house.", "Vivimos en una casa pequeña.", "-ir verbs use -imos for nosotros; pequeña agrees with casa."),
-    toEs("Do you drink coffee?", "¿Bebes café?", "-er verbs take -es for tú.", ["¿Tomas café?"]),
+    toEs("Do you (informal) drink coffee?", "¿Bebes café?", "-er verbs take -es for tú.", ["¿Tomas café?"]),
     toEs("My sister is tall, but today she is sick.", "Mi hermana es alta, pero hoy está enferma.", "Ser for a lasting trait (alta), estar for a temporary state (enferma).", ["Mi hermana es alta, pero está enferma hoy."]),
     toEs("The bank is near the park.", "El banco está cerca del parque.", "Location takes estar; de + el contracts to del."),
     toEs("Our friends are from Peru.", "Nuestros amigos son de Perú.", "Nuestro agrees with amigos (masculine plural), not with 'we'.", ["Nuestros amigos son del Perú."]),
@@ -324,7 +324,7 @@ export const DRILLS_A1_4: Record<string, Exercise[]> = {
   ],
 
   "a1-final-review-3": [
-    toEs("How many brothers do you have?", "¿Cuántos hermanos tienes?", "Cuántos agrees with hermanos; tener for having."),
+    toEs("How many brothers do you (informal) have?", "¿Cuántos hermanos tienes?", "Cuántos agrees with hermanos; tener for having."),
     toEs("When is the concert?", "¿Cuándo es el concierto?", "Cuándo with an accent asks 'when'; events take es."),
     toEs("They like to play soccer.", "Les gusta jugar al fútbol.", "An infinitive takes singular gusta; 'they' is les.", ["A ellos les gusta jugar al fútbol.", "Les gusta jugar fútbol.", "A ellos les gusta jugar fútbol."]),
     toEs("I have to work tomorrow.", "Tengo que trabajar mañana.", "Obligation is tener que + infinitive.", ["Mañana tengo que trabajar."]),
@@ -336,15 +336,15 @@ export const DRILLS_A1_4: Record<string, Exercise[]> = {
   ],
 
   "a1r-challenge-mixed-error-hunt": [
-    toEs("Correct: «Ellas son cansadas.»", "Ellas están cansadas.", "Being tired is a temporary state: estar, not ser."),
-    toEs("Correct: «Me gusta las fresas.»", "Me gustan las fresas.", "Las fresas is plural, so gustan."),
-    toEs("Correct: «Voy a el parque.»", "Voy al parque.", "A + el must contract to al."),
-    toEs("Correct: «La casa es de el profesor.»", "La casa es del profesor.", "De + el must contract to del."),
-    toEs("Correct: «Mi amigos son de Chile.»", "Mis amigos son de Chile.", "A possessive agrees with the thing owned: amigos is plural, so mis."),
-    toEs("Correct: «El mesa es grande.»", "La mesa es grande.", "Mesa is feminine, so la."),
-    toEs("Correct: «Ella tiene un perro negra.»", "Ella tiene un perro negro.", "The adjective agrees with perro (masculine), not with ella."),
-    toEs("Correct: «Nosotros vivemos en Lima.»", "Nosotros vivimos en Lima.", "Vivir is an -ir verb, so nosotros takes -imos."),
-    toEs("Correct: «Mi padre es en la oficina.»", "Mi padre está en la oficina.", "Location of a person or thing takes estar."),
+    toEs("Correct: «Ellas son cansadas.» (They're tired.)", "Ellas están cansadas.", "Being tired is a temporary state: estar, not ser."),
+    toEs("Correct: «Me gusta las fresas.» (I like strawberries.)", "Me gustan las fresas.", "Las fresas is plural, so gustan."),
+    toEs("Correct: «Voy a el parque.» (I'm going to the park.)", "Voy al parque.", "A + el must contract to al."),
+    toEs("Correct: «La casa es de el profesor.» (The house is the teacher's.)", "La casa es del profesor.", "De + el must contract to del."),
+    toEs("Correct: «Mi amigos son de Chile.» (My friends are from Chile.)", "Mis amigos son de Chile.", "A possessive agrees with the thing owned: amigos is plural, so mis."),
+    toEs("Correct: «El mesa es grande.» (The table is big.)", "La mesa es grande.", "Mesa is feminine, so la."),
+    toEs("Correct: «Ella tiene un perro negra.» (She has a black dog.)", "Ella tiene un perro negro.", "The adjective agrees with perro (masculine), not with ella."),
+    toEs("Correct: «Nosotros vivemos en Lima.» (We live in Lima.)", "Nosotros vivimos en Lima.", "Vivir is an -ir verb, so nosotros takes -imos."),
+    toEs("Correct: «Mi padre es en la oficina.» (My father is at the office.)", "Mi padre está en la oficina.", "Location of a person or thing takes estar."),
     fe("A mi hermano le ___ los gatos. (learner wrote: gusta)", "gustan", "My brother [likes] cats.", "The verb agrees with los gatos, so gustan."),
     fe("Hoy ___ mucho calor. (learner wrote: es)", "hace", "Today [it's] very hot.", "Weather uses hace."),
     fe("Las chicas ___ muy simpáticas. (learner wrote: es)", "son", "The girls [are] very nice.", "Plural subject, so son; personality takes ser."),
@@ -355,7 +355,7 @@ export const DRILLS_A1_4: Record<string, Exercise[]> = {
   "a1r-challenge-dialogue-marathon": [
     toEs("Hi, I'm Ana. I'm from Peru.", "Hola, soy Ana. Soy de Perú.", "Ser for both name and origin (soy de...).", ["Hola, me llamo Ana. Soy de Perú.", "Hola, soy Ana. Soy del Perú.", "Hola, me llamo Ana. Soy del Perú."]),
     toEs("Nice to meet you. How old are you?", "Mucho gusto. ¿Cuántos años tienes?", "Age is asked with cuántos años + tener.", ["Encantado. ¿Cuántos años tienes?", "Encantada. ¿Cuántos años tienes?"]),
-    toEs("What are you going to do on Sunday?", "¿Qué vas a hacer el domingo?", "Plans use ir a + infinitive; 'on Sunday' is el domingo."),
+    toEs("What are you (informal) going to do on Sunday?", "¿Qué vas a hacer el domingo?", "Plans use ir a + infinitive; 'on Sunday' is el domingo."),
     toEs("I'm going to go to the beach. I love the sea.", "Voy a ir a la playa. Me encanta el mar.", "Ir a + ir is fine; el mar is singular, so encanta."),
     toEs("How much are these tomatoes?", "¿Cuánto cuestan estos tomates?", "Plural tomates takes cuestan and the demonstrative estos."),
     fe("¿Cuánto cuestan ___ manzanas?", "esas", "How much are [those] apples?", "Ese/esa/esos/esas for 'that/those'; manzanas is feminine plural."),

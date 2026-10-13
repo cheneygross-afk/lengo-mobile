@@ -472,15 +472,18 @@ const B1_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras.",
         "words": [
-          "Espero",
+          "Me",
+          "alegra",
           "que",
-          "tengas",
-          "un",
-          "buen",
-          "viaje."
+          "te",
+          "sientas",
+          "orgulloso",
+          "de",
+          "tu",
+          "trabajo."
         ],
-        "explanation": "Espero que + subjuntivo expresa un deseo.",
-        "translation": "I hope you have a good trip."
+        "explanation": "Me alegra que + subjuntivo expresa una emoción; sentirse → te sientas (e → ie). Sentirse orgulloso = to feel proud.",
+        "translation": "I'm glad you feel proud of your work."
       },
       {
         "type": "multiple-choice",
@@ -1065,12 +1068,14 @@ const B1_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "en-es",
         "prompt": "Translate to Spanish.",
-        "source": "I'm surprised that they haven't called.",
-        "answer": "Me sorprende que no hayan llamado.",
+        "source": "I'm surprised that they don't call.",
+        "answer": "Me sorprende que no llamen.",
         "altAnswers": [
-          "Me sorprende que ellos no hayan llamado."
+          "Me sorprende que ellos no llamen.",
+          "Me extraña que no llamen.",
+          "Me extraña que ellos no llamen."
         ],
-        "explanation": "\"Sorprender\" es un verbo de emoción; activa el subjuntivo en la cláusula siguiente: que no hayan llamado. «Hayan» es haber en subjuntivo; con el participio forma el perfecto de subjuntivo (hayan llamado, hayan llegado) para algo que ya ha ocurrido."
+        "explanation": "\"Sorprender\" es un verbo de emoción; activa el subjuntivo en la cláusula siguiente: que no llamen (llamar → llamen)."
       },
       {
         "type": "translate",
@@ -1080,7 +1085,11 @@ const B1_BASE_LESSONS: Lesson[] = [
         "answer": "What a shame that you haven't found a job yet.",
         "altAnswers": [
           "It's a shame you still haven't found a job.",
-          "What a pity you haven't found work yet."
+          "What a pity you haven't found work yet.",
+          "What a shame that you still can't find a job.",
+          "What a shame you still can't find a job.",
+          "What a shame you still can't find work.",
+          "It's a shame you still can't find a job."
         ],
         "explanation": "\"Qué lástima que\" expresa una reacción emocional y requiere subjuntivo: encuentres."
       },
@@ -1192,13 +1201,13 @@ const B1_BASE_LESSONS: Lesson[] = [
         "type": "multiple-choice",
         "question": "¿Cuál es la mejor traducción de \"Dudamos que el plan funcione\"?",
         "options": [
-          "We doubt the plan works.",
+          "We know the plan works.",
           "We doubt that the plan will work.",
           "We don't doubt the plan works.",
           "We doubted the plan worked."
         ],
         "correctIndex": 1,
-        "explanation": "«Dudamos que» va con subjuntivo, y el presente de subjuntivo puede referirse al futuro: we doubt (that) the plan will work. «We don't doubt» dice lo contrario y «We doubted... worked» está en pasado."
+        "explanation": "«Dudamos que» va con subjuntivo, y el presente de subjuntivo puede referirse al futuro: we doubt (that) the plan will work. «We know» expresa certeza (saber), «We don't doubt» dice lo contrario y «We doubted... worked» está en pasado."
       },
       {
         "type": "word-order",
@@ -1419,7 +1428,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 7,
     "title": "Subjunctive with Impersonal Expressions & Ojalá, Part 2 of 2",
-    "summary": "Learn 50 words about nature and the environment and use them to express hopes with ojalá.",
+    "summary": "Learn 50 words about nature and the environment, perfect for expressing hopes and needs with ojalá and es necesario que.",
     "duration": "7 min",
     "sections": [
       {
@@ -2213,14 +2222,17 @@ const B1_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras.",
         "words": [
-          "No",
-          "te",
-          "preocupes",
-          "por",
-          "eso."
+          "Pica",
+          "la",
+          "cebolla",
+          "y",
+          "fríela",
+          "a",
+          "fuego",
+          "lento."
         ],
-        "explanation": "El mandato negativo de tú (reflexivo) usa el subjuntivo con el pronombre antes.",
-        "translation": "Don't worry about that."
+        "explanation": "Mandatos de tú en una receta: picar → pica, freír → fríe. En el mandato afirmativo el pronombre va pegado al final: fríela.",
+        "translation": "Chop the onion and fry it over low heat."
       },
       {
         "type": "multiple-choice",
@@ -2843,15 +2855,15 @@ const B1_BASE_LESSONS: Lesson[] = [
             "question": "¿Qué oraciones usan \"si\" correctamente con una condición incierta? (Elige todas las correctas)",
             "options": [
               "Si gano la lotería, viajaré por el mundo.",
-              "Cuando gano dinero, lo ahorro.",
+              "Si ganaré la lotería, viajaré por el mundo.",
               "Si tengo tiempo libre, leo.",
-              "Cuando tengo tiempo libre, leo."
+              "Si tenga tiempo libre, leo."
             ],
             "correctIndexes": [
               0,
               2
             ],
-            "explanation": "«Si» presenta condiciones inciertas: si gano la lotería, si tengo tiempo. Las frases con «cuando» (cuando gano dinero, cuando tengo tiempo) describen rutinas seguras, no condiciones."
+            "explanation": "Después de «si» (condición real o probable) va el presente de indicativo: si gano la lotería, si tengo tiempo. «Si ganaré» (futuro) y «si tenga» (subjuntivo) son incorrectas: el futuro puede ir en el resultado (viajaré), pero nunca detrás de «si»."
           }
         ]
       },
@@ -3210,13 +3222,15 @@ const B1_BASE_LESSONS: Lesson[] = [
         "words": [
           "Si",
           "no",
-          "entiendes,",
-          "pregúntale",
-          "al",
-          "profesor."
+          "entregas",
+          "el",
+          "ensayo,",
+          "reprobarás",
+          "la",
+          "materia."
         ],
-        "explanation": "Si + presente, + mandato.",
-        "translation": "If you don't understand, ask the teacher."
+        "explanation": "Si + presente, + futuro: si no entregas el ensayo, reprobarás la materia (en España: suspenderás la asignatura).",
+        "translation": "If you don't hand in the essay, you'll fail the subject."
       },
       {
         "type": "multiple-choice",
@@ -3260,7 +3274,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           {
             "type": "fill-blank",
             "prompt": "Conjuga el verbo en pretérito perfecto.",
-            "sentence": "Nosotros ___ (vivir) aquí por diez años.",
+            "sentence": "Nosotros ___ (vivir) aquí durante diez años.",
             "answer": "hemos vivido",
             "explanation": "Haber (hemos) más el participio de vivir (vivido): hemos vivido."
           }
@@ -3325,7 +3339,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Posición de los pronombres",
         "body": [
-          "Los pronombres de objeto (directo, indirecto, reflexivo) siempre van antes de \"haber\" — nunca entre haber y el participio."
+          "Los pronombres de objeto (directo, indirecto, reflexivo) siempre van antes de \"haber\" conjugado — nunca entre haber y el participio."
         ],
         "examples": [
           {
@@ -3351,7 +3365,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               0,
               3
             ],
-            "explanation": "Con el pretérito perfecto, el pronombre va antes de haber: «Lo he visto», «Ya me he levantado». «He lo visto» y «He visto lo» son incorrectas porque nada puede ir entre haber y el participio, ni detrás."
+            "explanation": "Con el pretérito perfecto, el pronombre va antes de haber: «Lo he visto», «Ya me he levantado». «He lo visto» y «He visto lo» son incorrectas porque el pronombre no puede ir entre haber y el participio, ni detrás del participio."
           }
         ]
       },
@@ -3710,13 +3724,18 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Ordena las palabras.",
         "words": [
           "Nunca",
+          "me",
           "he",
-          "estado",
-          "en",
-          "Japón."
+          "atrevido",
+          "a",
+          "correr",
+          "un",
+          "riesgo",
+          "tan",
+          "grande."
         ],
-        "explanation": "Nunca + haber + participio.",
-        "translation": "I have never been to Japan."
+        "explanation": "Nunca + pronombre + haber + participio: nunca me he atrevido. Atreverse a + infinitivo; correr un riesgo = to take a risk.",
+        "translation": "I have never dared to take such a big risk."
       },
       {
         "type": "multiple-choice",
@@ -3725,7 +3744,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Antes de haber",
           "Entre haber y el participio",
           "Después del participio",
-          "No se puede usar pronombres"
+          "No se pueden usar pronombres"
         ],
         "correctIndex": 0,
         "explanation": "Con el pretérito perfecto, el pronombre siempre va antes de haber: lo he visto. No puede ir entre haber y el participio (he lo visto) ni después del participio (he visto lo)."
@@ -4198,7 +4217,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "«Ya», «nunca antes» y «todavía no» sitúan una acción antes de otro momento pasado, por eso acompañan al pluscuamperfecto. «Mañana» es una expresión de futuro."
+        "explanation": "«Ya», «nunca antes» y «todavía no» aparecen a menudo con el pluscuamperfecto (Cuando llegué, ya había salido), aunque también con el perfecto (ya he comido); «mañana» es futuro y no encaja con un tiempo pasado."
       },
       {
         "type": "word-order",
@@ -4816,8 +4835,9 @@ const B1_BASE_LESSONS: Lesson[] = [
         "direction": "es-en",
         "prompt": "Translate to English.",
         "source": "Lo que me molesta es la impuntualidad.",
-        "answer": "What bothers me is unpunctuality.",
+        "answer": "What bothers me is a lack of punctuality.",
         "altAnswers": [
+          "What bothers me is unpunctuality.",
           "What annoys me is lateness.",
           "What bothers me is people being late."
         ],
@@ -5940,11 +5960,10 @@ const B1_BASE_LESSONS: Lesson[] = [
           "coche",
           "rojo",
           "es",
-          "el",
           "nuestro"
         ],
         "translation": "The red car is ours.",
-        "explanation": "El pronombre posesivo 'el nuestro' concuerda en género y número con 'coche' (masculino singular)."
+        "explanation": "Después de ser, para decir de quién es algo, el posesivo va sin artículo y concuerda con 'coche': es nuestro («es el nuestro» = cuál de varios)."
       },
       {
         "type": "matching",
@@ -6034,7 +6053,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "heading": "El mandato afirmativo: quita la -r, añade -d",
         "body": [
           "Para formar el mandato afirmativo de vosotros se toma el infinitivo, se elimina la -r final y se añade una -d: hablar → hablad, comer → comed, vivir → vivid.",
-          "Esta regla no tiene excepciones, ni siquiera con los verbos que son irregulares en el mandato de tú: decir → decid, hacer → haced, ir → id, ser → sed, tener → tened, venir → venid."
+          "Esta regla vale para todos los verbos, incluso para los que son irregulares en el mandato de tú: decir → decid, hacer → haced, ir → id, ser → sed, tener → tened, venir → venid. (Solo cambia cuando se añade el pronombre os: lo verás en la parte 2.)"
         ],
         "examples": [
           {
@@ -6080,21 +6099,23 @@ const B1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa con el mandato afirmativo de vosotros (reflexivo).",
-        "sentence": "Niños, ___ (bañarse) antes de cenar.",
-        "answer": "bañaos",
-        "explanation": "bañar + os, con pérdida de la -d final: bañad + os → bañaos."
+        "prompt": "Completa con el mandato afirmativo de vosotros.",
+        "sentence": "Niños, ___ (poner) la mesa antes de cenar.",
+        "answer": "poned",
+        "explanation": "Se quita la -r del infinitivo 'poner' y se añade -d: poned (aunque el mandato de tú es irregular, «pon»)."
       },
       {
         "type": "translate",
         "direction": "en-es",
         "prompt": "Traduce el mandato al español usando la forma de vosotros.",
-        "source": "Don't be late, guys.",
-        "answer": "No lleguéis tarde, chicos.",
+        "source": "Arrive early, guys.",
+        "answer": "Llegad pronto, chicos.",
         "altAnswers": [
-          "No lleguéis tarde, chavales."
+          "Llegad temprano, chicos.",
+          "Llegad pronto, chavales.",
+          "Llegad temprano, chavales."
         ],
-        "explanation": "El mandato negativo de vosotros usa el presente de subjuntivo: llegar → lleguéis."
+        "explanation": "Mandato afirmativo de vosotros: se quita la -r del infinitivo y se añade -d: llegar → llegad."
       }
     ]
   },
@@ -6957,7 +6978,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           {
             "type": "translate",
             "direction": "en-es",
-            "prompt": "Traduce la oración usando el subjuntivo.",
+            "prompt": "Traduce la oración al español.",
             "source": "I'm sorry that you can't come.",
             "answer": "Siento que no puedas venir.",
             "altAnswers": [
@@ -7155,7 +7176,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce usando una expresión impersonal + subjuntivo.",
+        "prompt": "Traduce al español.",
         "source": "It's a shame that you can't travel with us.",
         "answer": "Es una lástima que no puedas viajar con nosotros.",
         "altAnswers": [
@@ -8392,7 +8413,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 41,
     "title": "El Condicional: Práctica Extra, Part 1 of 3",
-    "summary": "Esta lección es práctica adicional del condicional — repaso y repetición, no una introducción nueva al tema.",
+    "summary": "Practica la formación del condicional: terminaciones regulares (-ía, -ías…) y las raíces irregulares que comparte con el futuro (tendr-, dir-, har-, podr-…).",
     "duration": "7 min",
     "sections": [
       {
@@ -8535,7 +8556,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 42,
     "title": "El Condicional: Práctica Extra, Part 2 of 3",
-    "summary": "Esta lección es práctica adicional del condicional — repaso y repetición, no una introducción nueva al tema.",
+    "summary": "Practica tres usos del condicional: situaciones hipotéticas (si tuviera…, viajaría), peticiones corteses (¿podrías…?, me gustaría) y consejos con «yo que tú».",
     "duration": "8 min",
     "sections": [
       {
@@ -8678,16 +8699,16 @@ const B1_BASE_LESSONS: Lesson[] = [
           "el",
           "trabajo"
         ],
-        "translation": "In your place, I would accept the job.",
+        "translation": "If I were you, I would accept the job.",
         "explanation": "\"Yo en tu lugar\" introduce el consejo, seguido del verbo en condicional: \"aceptaría el trabajo\"."
       },
       {
         "type": "fill-blank",
-        "prompt": "Completa con el condicional de especulación sobre el pasado.",
-        "sentence": "No contestó el teléfono; ___ (estar) ocupado, supongo.",
-        "answer": "estaría",
-        "hint": "conjetura sobre el pasado",
-        "explanation": "El condicional aquí no habla del futuro sino de una conjetura sobre el pasado: \"estaría ocupado\" equivale a \"probablemente estaba ocupado\"."
+        "prompt": "Completa el consejo con el condicional.",
+        "sentence": "Yo que tú, ___ (ir) al médico hoy mismo.",
+        "answer": "iría",
+        "hint": "consejo con yo que tú",
+        "explanation": "Tras «yo que tú» el consejo va en condicional: iría (infinitivo completo ir + -ía)."
       }
     ]
   },
@@ -8696,13 +8717,13 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 43,
     "title": "El Condicional: Práctica Extra, Part 3 of 3",
-    "summary": "Esta lección es práctica adicional del condicional — repaso y repetición, no una introducción nueva al tema.",
+    "summary": "Usa el condicional para conjeturas sobre el pasado (serían las diez) y distínguelo del futuro y del imperfecto según el contexto.",
     "duration": "7 min",
     "sections": [
       {
         "heading": "Especular sobre el pasado",
         "body": [
-          "El condicional también expresa conjeturas sobre el pasado, como preguntarse qué pasaría o qué hora sería en aquel momento."
+          "El condicional también expresa conjeturas sobre el pasado (Serían las diez = probablemente eran las diez) y el futuro visto desde el pasado (Me pregunté qué pasaría)."
         ],
         "examples": [
           {
@@ -8770,8 +8791,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         "direction": "es-en",
         "prompt": "Traduce la oración al inglés.",
         "source": "Me pregunté qué pasaría si le contara la verdad.",
-        "answer": "I wondered what would happen if I told him/her the truth.",
-        "explanation": "\"Qué pasaría\" es el condicional usado para especular sobre un resultado posible, pasado o hipotético."
+        "answer": "I wondered what would happen if I told him the truth.",
+        "altAnswers": [
+          "I wondered what would happen if I told her the truth.",
+          "I wondered what would happen if I told you the truth."
+        ],
+        "explanation": "\"Qué pasaría\" es el condicional como futuro visto desde el pasado: después de \"me pregunté\", lo que iba a pasar se expresa en condicional. \"Le\" puede ser him, her o you (usted)."
       },
       {
         "type": "multi-select",
@@ -8852,7 +8877,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 44,
     "title": "Oraciones con Si: Práctica Extra, Part 1 of 3",
-    "summary": "Esta lección es práctica adicional para reforzar las oraciones con si de condición real o posible, ya presentadas anteriormente en el curso.",
+    "summary": "Practica si + presente con resultado en presente (hábitos y verdades generales) o en futuro e imperativo (condiciones reales sobre el futuro).",
     "duration": "7 min",
     "sections": [
       {
@@ -8885,7 +8910,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "presente + subjuntivo"
             ],
             "correctIndex": 0,
-            "explanation": "Para hábitos y verdades generales se usa presente + presente: si llueve, me quedo en casa. «Imperfecto + condicional» no es una combinación correcta con si, y «presente + subjuntivo» tampoco."
+            "explanation": "Para hábitos y verdades generales se usa presente + presente: si llueve, me quedo en casa. «Imperfecto de subjuntivo + condicional» (si tuviera, viajaría) es correcto, pero expresa una hipótesis, no un hábito; y tras si nunca va el presente de subjuntivo."
           },
           {
             "type": "fill-blank",
@@ -9007,7 +9032,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 45,
     "title": "Oraciones con Si: Práctica Extra, Part 2 of 3",
-    "summary": "Esta lección es práctica adicional para reforzar las oraciones con si de condición real o posible, ya presentadas anteriormente en el curso.",
+    "summary": "Practica si + presente + ir a + infinitivo, distingue si / sí / si («whether») y usa expresiones fijas como si quieres o si te parece bien.",
     "duration": "8 min",
     "sections": [
       {
@@ -9207,7 +9232,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 46,
     "title": "Oraciones con Si: Práctica Extra, Part 3 of 3",
-    "summary": "Esta lección es práctica adicional para reforzar las oraciones con si de condición real o posible, ya presentadas anteriormente en el curso.",
+    "summary": "Practica el orden de las cláusulas con si (y cuándo lleva coma) y construye oraciones completas de condición real.",
     "duration": "8 min",
     "sections": [
       {
@@ -9334,10 +9359,10 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa la oración con la expresión fija correcta.",
-        "sentence": "___ (si quieres / si sí), podemos ver una película esta noche.",
+        "sentence": "___ (si quieres / sí quieres), podemos ver una película esta noche.",
         "answer": "Si quieres",
         "hint": "expresión fija para ofrecer algo",
-        "explanation": "'Si quieres' es la expresión fija correcta para hacer una sugerencia amable; 'si sí' no existe."
+        "explanation": "'Si quieres' es la expresión fija correcta para hacer una sugerencia amable: es una condición, así que «si» va sin tilde. «Sí» con tilde es el adverbio de afirmación y aquí no tiene sentido."
       },
       {
         "type": "translate",
@@ -9388,7 +9413,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 47,
     "title": "El Pretérito Perfecto y el Pluscuamperfecto: Práctica Extra, Part 1 of 3",
-    "summary": "Practica más el pretérito perfecto y el pluscuamperfecto, dos tiempos que ya conoces, con ejercicios extra de repaso.",
+    "summary": "Practica la formación del pretérito perfecto (he, has, ha… + participio) con participios regulares e irregulares.",
     "duration": "8 min",
     "sections": [
       {
@@ -9581,7 +9606,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 48,
     "title": "El Pretérito Perfecto y el Pluscuamperfecto: Práctica Extra, Part 2 of 3",
-    "summary": "Practica más el pretérito perfecto y el pluscuamperfecto, dos tiempos que ya conoces, con ejercicios extra de repaso.",
+    "summary": "Usa el pretérito perfecto para acciones recientes (ya, todavía no) y forma el pluscuamperfecto (había + participio) para lo anterior a otro pasado.",
     "duration": "7 min",
     "sections": [
       {
@@ -9703,7 +9728,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 49,
     "title": "El Pretérito Perfecto y el Pluscuamperfecto: Práctica Extra, Part 3 of 3",
-    "summary": "Practica más el pretérito perfecto y el pluscuamperfecto, dos tiempos que ya conoces, con ejercicios extra de repaso.",
+    "summary": "Elige entre pretérito perfecto, indefinido y pluscuamperfecto según el marcador temporal y el punto de referencia en el pasado.",
     "duration": "7 min",
     "sections": [
       {
@@ -9833,13 +9858,13 @@ const B1_BASE_LESSONS: Lesson[] = [
         "type": "multiple-choice",
         "question": "Completa: 'Ayer ___ a mi abuela; hoy ___ a mis primos.'",
         "options": [
-          "visité / he visto",
-          "he visitado / vi",
-          "había visitado / veo",
-          "visito / he visto"
+          "visité … he visto",
+          "he visitado … vi",
+          "había visitado … veo",
+          "visito … he visto"
         ],
         "correctIndex": 0,
-        "explanation": "Con «ayer» (tiempo terminado) se usa el indefinido: visité. Con «hoy» (tiempo que incluye el presente) se usa el pretérito perfecto: he visto. «He visitado / vi» invierte los tiempos, y «visito» o «veo» son presente."
+        "explanation": "Con «ayer» (tiempo terminado) se usa el indefinido: visité. Con «hoy» (tiempo que incluye el presente) se usa el pretérito perfecto: he visto. «He visitado … vi» invierte los tiempos, y «visito» o «veo» son presente."
       },
       {
         "type": "fill-blank",
@@ -9855,7 +9880,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 50,
     "title": "Los Pronombres Relativos: Práctica Extra, Part 1 of 3",
-    "summary": "Esta lección es práctica adicional para reforzar el uso de los pronombres relativos ya estudiados, sin introducir reglas nuevas.",
+    "summary": "Practica que, quien/quienes y donde: cuándo se usa cada uno según el antecedente, la preposición y las comas.",
     "duration": "7 min",
     "sections": [
       {
@@ -9997,7 +10022,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "sentence": "Mis padres, a ___ quiero mucho, viven en el campo.",
         "answer": "quienes",
         "hint": "Persona plural después de una preposición.",
-        "explanation": "Con la preposición 'a' y un antecedente de personas en plural, corresponde 'quienes'."
+        "explanation": "Tras la a personal (querer a alguien) y con un antecedente de personas en plural, corresponde 'quienes'."
       }
     ]
   },
@@ -10006,7 +10031,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 51,
     "title": "Los Pronombres Relativos: Práctica Extra, Part 2 of 3",
-    "summary": "Esta lección es práctica adicional para reforzar el uso de los pronombres relativos ya estudiados, sin introducir reglas nuevas.",
+    "summary": "Practica el que / la que para distinguir, lo que para ideas, donde para lugares y cuyo para posesión.",
     "duration": "8 min",
     "sections": [
       {
@@ -10187,7 +10212,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 52,
     "title": "Los Pronombres Relativos: Práctica Extra, Part 3 of 3",
-    "summary": "Esta lección es práctica adicional para reforzar el uso de los pronombres relativos ya estudiados, sin introducir reglas nuevas.",
+    "summary": "Practica cuyo/cuya/cuyos/cuyas (concuerdan con lo poseído) y elige el relativo correcto en frases mezcladas.",
     "duration": "7 min",
     "sections": [
       {
@@ -10255,7 +10280,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "profesor"
             ],
             "translation": "The man whom I met yesterday is my professor.",
-            "explanation": "Con antecedente de persona y preposición 'a', el orden correcto usa 'a quien' antes del verbo 'conocí'."
+            "explanation": "Con «quien» como objeto directo de persona hace falta la a personal (conocer a alguien): a quien conocí. También vale: el hombre que conocí ayer."
           },
           {
             "type": "matching",
@@ -10299,7 +10324,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "profesor"
         ],
         "translation": "The man whom I met yesterday is my professor.",
-        "explanation": "Con antecedente de persona y preposición 'a', se usa 'a quien' antes del verbo."
+        "explanation": "Con «quien» como objeto directo de persona hace falta la a personal: a quien conocí. También es correcto y muy frecuente: el hombre que conocí ayer."
       },
       {
         "type": "word-order",
@@ -10374,7 +10399,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 53,
     "title": "Voz Pasiva y Pronombres Posesivos: Práctica Extra, Part 1 of 3",
-    "summary": "Esta lección de repaso combina práctica adicional de la voz pasiva (con 'ser' y con 'se') y de los pronombres posesivos tónicos, dos temas ya vistos anteriormente.",
+    "summary": "Practica la pasiva con ser + participio concordado y la pasiva con se, y distínguela del se impersonal.",
     "duration": "7 min",
     "sections": [
       {
@@ -10529,7 +10554,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 54,
     "title": "Voz Pasiva y Pronombres Posesivos: Práctica Extra, Part 2 of 3",
-    "summary": "Esta lección de repaso combina práctica adicional de la voz pasiva (con 'ser' y con 'se') y de los pronombres posesivos tónicos, dos temas ya vistos anteriormente.",
+    "summary": "Distingue pasiva refleja y se impersonal, y usa los posesivos tónicos (mío, tuyo, suyo…) para sustituir al sustantivo.",
     "duration": "7 min",
     "sections": [
       {
@@ -10588,7 +10613,7 @@ const B1_BASE_LESSONS: Lesson[] = [
             "en": "These keys are yours."
           },
           {
-            "es": "El coche rojo es el nuestro.",
+            "es": "El coche rojo es nuestro.",
             "en": "The red car is ours."
           }
         ],
@@ -10653,7 +10678,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "sentence": "Tenemos que llevar ___ documentos; los tuyos ya están listos. (nosotros)",
         "answer": "nuestros",
         "hint": "posesivo átono, va antes del sustantivo",
-        "explanation": "Antes del sustantivo se usa siempre la forma átona corta: 'nuestros documentos', no la tónica 'los nuestros documentos'."
+        "explanation": "Delante del sustantivo el posesivo va sin artículo: 'nuestros documentos'. Nuestro/vuestro tienen la misma forma en las dos posiciones; 'los nuestros' solo sustituye al sustantivo (como 'los tuyos')."
       },
       {
         "type": "multi-select",
@@ -10707,7 +10732,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 55,
     "title": "Voz Pasiva y Pronombres Posesivos: Práctica Extra, Part 3 of 3",
-    "summary": "Esta lección de repaso combina práctica adicional de la voz pasiva (con 'ser' y con 'se') y de los pronombres posesivos tónicos, dos temas ya vistos anteriormente.",
+    "summary": "Practica el posesivo tónico pospuesto (un amigo mío) frente al átono (mi amigo) y combina pasiva y posesivos en frases mixtas.",
     "duration": "8 min",
     "sections": [
       {
@@ -10769,14 +10794,14 @@ const B1_BASE_LESSONS: Lesson[] = [
               "tu",
               "tuya",
               "mis",
-              "nuestro"
+              "míos"
             ],
             "correctIndexes": [
               1,
               3,
               5
             ],
-            "explanation": "Las formas tónicas o largas son 'suyo', 'tuya' y 'nuestro'. 'Su', 'tu' y 'mis' son formas átonas cortas que siempre van antes del sustantivo."
+            "explanation": "Las formas tónicas o largas son 'suyo', 'tuya' y 'míos'. 'Su', 'tu' y 'mis' son formas átonas cortas que siempre van antes del sustantivo. (Nuestro y vuestro tienen la misma forma en las dos posiciones.)"
           }
         ]
       },
@@ -12235,27 +12260,27 @@ const B1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Qué palabras se relacionan con la cocina? (Elige todas las correctas)",
+        "question": "¿Qué palabras se relacionan con el dinero? (Elige todas las correctas)",
         "options": [
+          "la deuda",
           "picar",
-          "la factura",
-          "hervir",
-          "el horno"
+          "el préstamo",
+          "la factura"
         ],
         "correctIndexes": [
           0,
           2,
           3
         ],
-        "explanation": "\"La factura\" (the bill) pertenece al tema de finanzas, no de cocina."
+        "explanation": "\"Picar\" (to chop) pertenece al tema de la cocina, no de las finanzas. La deuda, el préstamo y la factura son palabras de dinero."
       },
       {
         "type": "translate",
         "direction": "en-es",
         "prompt": "Traduce al español.",
-        "source": "the milestone",
-        "answer": "el hito",
-        "explanation": "«El hito» es un momento o logro importante dentro de un proceso: un hito histórico, el primer hito del proyecto."
+        "source": "the budget",
+        "answer": "el presupuesto",
+        "explanation": "«El presupuesto» es el dinero que planeas gastar: hacer un presupuesto, el presupuesto del mes."
       }
     ]
   },
@@ -12264,13 +12289,13 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 61,
     "title": "B1 Vocabulary Practice, Part 6 of 10",
-    "summary": "Test yourself on all 500 words from the B1 vocabulary lists, grouped by lesson.",
+    "summary": "Test yourself on the 50 education words from B1 vocabulary list 6 (la beca, matricularse, el plagio…).",
     "duration": "8 min",
     "sections": [
       {
         "heading": "La educación",
         "body": [
-          "Las 50 palabras de la Lección 6, agrupadas para repasar."
+          "Las 50 palabras de educación de la lección «Simple If-Clauses: Si + Presente, Part 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -12514,30 +12539,30 @@ const B1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "matching",
-        "instructions": "Empareja cada palabra sobre la naturaleza con su significado.",
+        "instructions": "Empareja cada palabra sobre la educación con su significado.",
         "pairs": [
           {
-            "left": "el bosque",
-            "right": "the forest"
+            "left": "la beca",
+            "right": "the scholarship"
           },
           {
-            "left": "la sequía",
-            "right": "the drought"
+            "left": "la asignatura",
+            "right": "the subject"
           },
           {
-            "left": "sostenible",
-            "right": "sustainable"
+            "left": "entregar",
+            "right": "to hand in"
           },
           {
-            "left": "preservar",
-            "right": "to preserve"
+            "left": "el plagio",
+            "right": "plagiarism"
           },
           {
-            "left": "el ecosistema",
-            "right": "the ecosystem"
+            "left": "tomar apuntes",
+            "right": "to take notes"
           }
         ],
-        "explanation": "Estas cinco palabras describen la naturaleza y su cuidado."
+        "explanation": "Cinco palabras de la lista de educación: la beca, la asignatura, entregar (un trabajo), el plagio y tomar apuntes."
       }
     ]
   },
@@ -12546,13 +12571,13 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 62,
     "title": "B1 Vocabulary Practice, Part 7 of 10",
-    "summary": "Test yourself on all 500 words from the B1 vocabulary lists, grouped by lesson.",
+    "summary": "Test yourself on the 50 life-experience words from B1 vocabulary list 7 (el logro, atreverse a, el hito…).",
     "duration": "8 min",
     "sections": [
       {
         "heading": "Experiencias de vida",
         "body": [
-          "Las 50 palabras de la Lección 7, agrupadas para repasar."
+          "Las 50 palabras sobre experiencias de vida de la lección «Present Perfect: Pretérito Perfecto, Part 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -12813,13 +12838,13 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 63,
     "title": "B1 Vocabulary Practice, Part 8 of 10",
-    "summary": "Test yourself on all 500 words from the B1 vocabulary lists, grouped by lesson.",
+    "summary": "Test yourself on the 50 news-and-events words from B1 vocabulary list 8 (el titular, la polémica, el veredicto…).",
     "duration": "8 min",
     "sections": [
       {
         "heading": "Noticias y sucesos",
         "body": [
-          "Las 50 palabras de la Lección 8, agrupadas para repasar."
+          "Las 50 palabras sobre noticias y sucesos de la lección «Past Perfect: Pluscuamperfecto, Part 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -13092,7 +13117,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 64,
     "title": "B1 Vocabulary Practice, Part 9 of 10",
-    "summary": "Test yourself on all 500 words from the B1 vocabulary lists, grouped by lesson.",
+    "summary": "Repasa las 50 palabras de la Lección 9: la ciudad y las direcciones.",
     "duration": "8 min",
     "sections": [
       {
@@ -13342,30 +13367,30 @@ const B1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "matching",
-        "instructions": "Empareja cada palabra sobre las noticias con su significado.",
+        "instructions": "Empareja cada palabra sobre la ciudad con su significado.",
         "pairs": [
           {
-            "left": "el titular",
-            "right": "the headline"
+            "left": "la acera",
+            "right": "the sidewalk"
           },
           {
-            "left": "la polémica",
-            "right": "the controversy"
+            "left": "el semáforo",
+            "right": "the traffic light"
           },
           {
-            "left": "evacuar",
-            "right": "to evacuate"
+            "left": "el ayuntamiento",
+            "right": "the city hall"
           },
           {
-            "left": "aprobar una ley",
-            "right": "to pass a law"
+            "left": "las afueras",
+            "right": "the outskirts"
           },
           {
-            "left": "desatar",
-            "right": "to trigger"
+            "left": "perderse",
+            "right": "to get lost"
           }
         ],
-        "explanation": "Estas cinco palabras aparecen frecuentemente en las noticias."
+        "explanation": "Cinco palabras de la ciudad y las direcciones que se usan a diario."
       }
     ]
   },
@@ -13641,13 +13666,13 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 66,
     "title": "B1 Comprehensive Review, Part 1 of 3",
-    "summary": "Recap the present subjunctive: its forms and its use after wishes, doubt, emotion, impersonal expressions and ojalá, then check it with a short mixed set of exercises.",
+    "summary": "Recap the present subjunctive (wishes, doubt, emotion, impersonal expressions, ojalá), then check it in a mixed set that also revisits commands, the conditional and si-clauses.",
     "duration": "7 min",
     "sections": [
       {
         "heading": "Present Subjunctive: Formation",
         "body": [
-          "El subjuntivo expresa deseos, dudas y emociones, casi siempre después de \"que\". Regulares: quita la -o de yo, agrega terminaciones opuestas. Seis verbos irregulares: sea, esté, vaya, sepa, dé, haya."
+          "El subjuntivo expresa deseos, dudas y emociones, casi siempre después de \"que\". Regulares: quita la -o de yo, agrega terminaciones opuestas. Seis verbos no siguen la regla de la forma yo: sea, esté, vaya, sepa, dé, haya."
         ]
       },
       {
@@ -13773,7 +13798,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 67,
     "title": "B1 Comprehensive Review, Part 2 of 3",
-    "summary": "Recap commands, the conditional, si + present and the present perfect, then check them with a short mixed set of exercises.",
+    "summary": "Recap commands, the conditional, si + present and the present perfect, then practise si-clauses, the perfect and pluperfect, relatives and the passive in a mixed set.",
     "duration": "7 min",
     "sections": [
       {
@@ -13861,7 +13886,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           1,
           3
         ],
-        "explanation": "«Ya», «nunca antes» y «todavía no» sitúan una acción antes de otro momento pasado, por eso acompañan al pluscuamperfecto. «Mañana» es una expresión de futuro."
+        "explanation": "«Ya», «nunca antes» y «todavía no» aparecen a menudo con el pluscuamperfecto (Cuando llegué, ya había salido), aunque también con el perfecto (ya he comido); «mañana» es futuro y no encaja con un tiempo pasado."
       },
       {
         "type": "fill-blank",
@@ -13904,7 +13929,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 68,
     "title": "B1 Comprehensive Review, Part 3 of 3",
-    "summary": "Recap the pluperfect, relative pronouns and the passive and impersonal se, then check them with a short mixed set of exercises.",
+    "summary": "Recap the pluperfect, relative pronouns and the passive and impersonal se, then check them in a mixed set that also revisits the subjunctive and si-clauses.",
     "duration": "7 min",
     "sections": [
       {
@@ -14256,7 +14281,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "El concurso tenía tres etapas y ofrecía como premio una beca para estudiar en una escuela de gastronomía. Andrés admiraba mucho a un chef famoso de la televisión, y por eso pensó que la mejor estrategia era copiar exactamente sus recetas para impresionar a los jueces.",
           "Durante las semanas antes del concurso, Andrés practicó una receta complicada de pasta italiana que había visto en un programa de televisión. Su madre le preguntó por qué no preparaba algo relacionado con su propia cultura, pero Andrés insistió en que los jueces preferirían algo más \"sofisticado\".",
           "El día de la primera ronda, Andrés se puso muy nervioso al ver a los otros competidores, todos preparando platos elegantes con ingredientes que él nunca había usado. Cuando llegó su turno, cocinó la pasta italiana, pero se equivocó con las cantidades de sal y el plato quedó demasiado salado.",
-          "Los jueces probaron su plato con expresiones serias. Uno de ellos, la chef Patricia, le preguntó por qué un joven de Oaxaca había decidido cocinar un plato italiano en lugar de algo más personal. Andrés no supo qué responder y se sintió muy avergonzado frente a todos.",
+          "Los jueces probaron su plato con expresiones serias. Una de ellos, la chef Patricia, le preguntó por qué un joven de Oaxaca había decidido cocinar un plato italiano en lugar de algo más personal. Andrés no supo qué responder y se sintió muy avergonzado frente a todos.",
           "Aunque no fue eliminado en esa primera ronda, Andrés quedó en último lugar entre los finalistas que avanzaron. Esa noche, mientras cenaba en silencio con su madre, ella le dijo con cariño: \"Espero que la próxima vez cocines algo que realmente venga de tu corazón, no de la televisión\".",
           "Las palabras de su madre lo hicieron reflexionar durante varios días. Recordó las tardes de su infancia preparando mole con su abuela, mezclando chiles, chocolate y especias durante horas hasta lograr el sabor perfecto. Decidió que, para la segunda ronda, cocinaría ese plato familiar.",
           "Practicó la receta de su abuela varias veces, ajustando pequeños detalles con la ayuda de su madre. Cada vez que probaba el mole, recordaba historias de su familia y sentía que estaba cocinando algo con verdadero significado, no solo para impresionar a los jueces.",
@@ -14383,7 +14408,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "En la ciudad de Medellín, los equipos juveniles Águilas y Halcones eran rivales desde hacía años. Cada vez que jugaban entre ellos, los partidos terminaban con gritos, discusiones y, a veces, jugadores expulsados por el árbitro. Los aficionados de ambos equipos también se llevaban muy mal.",
-          "Un día, el club deportivo del barrio anunció que el hospital infantil de la ciudad necesitaba dinero urgente para comprar equipo médico nuevo. Para ayudar, organizarían un partido solidario, pero con una condición especial: los jugadores de Águilas y Halcones tendrían que combinarse en un solo equipo mixto.",
+          "Un día, el club deportivo del barrio anunció que el hospital infantil de la ciudad necesitaba dinero con urgencia para comprar equipo médico nuevo. Para ayudar, organizarían un partido solidario, pero con una condición especial: los jugadores de Águilas y Halcones tendrían que combinarse en un solo equipo mixto.",
           "La noticia no le gustó a nadie al principio. Sebastián, el capitán de Águilas, dijo que sería imposible jugar en el mismo equipo que sus rivales de toda la vida. Nicolás, el capitán de Halcones, pensaba exactamente lo mismo, y durante el primer entrenamiento conjunto, casi nadie se hablaba.",
           "El entrenador encargado del equipo combinado, don Fabio, notó la tensión enseguida. \"Espero que todos recuerden por qué estamos aquí\", les dijo a los jugadores reunidos. \"No estamos jugando por orgullo esta vez, sino por los niños del hospital\". Sus palabras, sin embargo, no cambiaron mucho el ambiente esa primera semana.",
           "Durante los entrenamientos, Sebastián y Nicolás competían constantemente por ser el líder del equipo, dando órdenes contradictorias a sus compañeros. Esto causó confusión en la cancha y varios errores durante los ejercicios. Los demás jugadores empezaron a frustrarse con la actitud de ambos capitanes.",
@@ -14451,7 +14476,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Hizo carteles a mano con su número de teléfono y los pegó en los postes de luz de su calle. También le pidió a su madre que compartiera la información en el grupo de vecinos del barrio. En menos de una semana, ya tenía tres clientes interesados en contratar sus servicios.",
           "El primer cliente fue la señora Beatriz, dueña de un perro grande y muy enérgico llamado Rocco. Martín pensó que sería un paseo fácil, pero Rocco tiraba tan fuerte de la correa que casi lo hizo caer varias veces. Al final del primer paseo, Martín estaba agotado y con las manos rojas.",
           "El segundo cliente fue el señor Osvaldo, quien tenía dos perros pequeños que se peleaban constantemente entre ellos. Martín tuvo que aprender rápidamente a separarlos cada vez que se enojaban por cualquier cosa, algo que no había previsto cuando empezó el negocio.",
-          "Después de dos semanas, Martín se dio cuenta de que ganar dinero paseando perros era mucho más difícil de lo que había imaginado al principio. Llegaba a casa cansado, con la ropa sucia y a veces con pequeñas mordidas de correa en las manos. Pensó en dejar el negocio por completo.",
+          "Después de dos semanas, Martín se dio cuenta de que ganar dinero paseando perros era mucho más difícil de lo que había imaginado al principio. Llegaba a casa cansado, con la ropa sucia y a veces con pequeñas marcas de la correa en las manos. Pensó en dejar el negocio por completo.",
           "Su padre, al notar su frustración, le preguntó por qué había querido empezar el negocio originalmente. Martín le recordó su sueño de comprar una bicicleta nueva, y su padre le dijo: \"Todo negocio tiene problemas al principio. Lo importante es que aprendas a resolverlos, no que te rindas enseguida\".",
           "Motivado por el consejo de su padre, Martín decidió investigar más sobre el comportamiento de los perros. Miró varios videos en internet sobre cómo pasear perros nerviosos y aprendió técnicas simples, como usar una correa más corta o llevar pequeños premios para calmarlos durante el paseo.",
           "La próxima vez que paseó a Rocco, Martín aplicó las nuevas técnicas y notó una gran diferencia: el perro caminaba mucho más tranquilo a su lado. Con los perros del señor Osvaldo, empezó a pasearlos por separado en distintos horarios, lo cual eliminó por completo las peleas entre ellos.",
@@ -14522,7 +14547,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Julieta, aunque de mal humor, salió de la tienda y se quedó completamente sorprendida por la vista. Los dos hermanos se sentaron juntos, en silencio, observando cómo el cielo cambiaba de color mientras salía el sol detrás de las montañas.",
           "Esa mañana, Ricardo finalmente logró encender la fogata, y toda la familia cocinó huevos y pan juntos, riéndose de los errores del día anterior. Sin pantallas ni distracciones, empezaron a contar historias antiguas de la familia que ni Julieta ni Bruno conocían bien.",
           "Durante el resto del fin de semana, la familia caminó por senderos cercanos, nadó en un lago frío y jugó juegos de cartas por las noches, iluminados solo por linternas. Julieta admitió, sorprendida de sí misma, que no había pensado en su teléfono en horas.",
-          "El día que regresaron a casa, Bruno preguntó si podían repetir el campamento el próximo verano. Julieta, sonriendo, dijo que estaba de acuerdo, siempre y cuando encendieran la fogata más rápido esta vez.",
+          "El día que regresaron a casa, Bruno preguntó si podían repetir el campamento el próximo verano. Julieta, sonriendo, dijo que estaba de acuerdo, siempre y cuando encendieran la fogata más rápido la próxima vez.",
           "Ricardo y Verónica se miraron con satisfacción, sabiendo que, a pesar del comienzo difícil, habían logrado exactamente lo que esperaban: acercar a la familia de una manera que la vida moderna casi nunca permitía."
         ]
       }
@@ -14579,7 +14604,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "body": [
           "Faltaban solo tres días para el examen final de biología, y Renata sentía que el mundo se le venía encima. Era una estudiante aplicada del último año de secundaria en Lima, pero esta vez el temario era enorme y sentía que no le alcanzaría el tiempo para prepararse bien.",
           "Renata había decidido estudiar todas las noches hasta muy tarde, durmiendo solo cuatro o cinco horas, y tomando muchas bebidas con cafeína para mantenerse despierta. Pensaba que, cuanto más estudiara, mejor le iría en el examen, sin importar cómo se sintiera físicamente.",
-          "El segundo día antes del examen, Renata se sintió mareada durante la clase de historia y tuvo que salir del salón para tomar aire. Su amigo Joaquín, que se sentaba a su lado, la siguió al pasillo, preocupado por lo que acababa de pasar.",
+          "Dos días antes del examen, Renata se sintió mareada durante la clase de historia y tuvo que salir del salón para tomar aire. Su amigo Joaquín, que se sentaba a su lado, la siguió al pasillo, preocupado por lo que acababa de pasar.",
           "\"¿Estás bien?\", le preguntó Joaquín. Renata le explicó que apenas había dormido en los últimos días y que sentía mucha ansiedad por el examen. Joaquín, que también había pasado por situaciones parecidas en el pasado, le sugirió que hablaran con calma sobre lo que estaba sucediendo.",
           "Joaquín le contó que el año anterior él también había estudiado de esa manera para un examen importante, y que terminó enfermándose justo el día del examen por el estrés y la falta de sueño. \"Aprendí que dormir bien es tan importante como estudiar\", le dijo.",
           "Renata admitió que tenía miedo de no aprobar el examen y decepcionar a sus padres, quienes esperaban que ella entrara a la universidad con buenas calificaciones. Joaquín le recordó que sus padres probablemente preferirían que ella estuviera sana antes que exhausta y enferma por el estrés.",
@@ -14653,7 +14678,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Inspirada por las cartas verdaderas de su bisabuela, Antonia sintió unas ganas enormes de escribir de nuevo. Decidió escribir un nuevo cuento, esta vez basado libremente en la historia de su bisabuela, mezclando hechos reales con elementos inventados por ella.",
           "Escribió este segundo cuento con más cuidado que nunca, pidiéndole a Felipe que lo leyera y le diera su opinión honesta antes de enviarlo. Felipe sugirió algunos cambios pequeños, y Antonia los aceptó, entendiendo que la crítica constructiva podía mejorar su trabajo.",
           "Cuando terminó el cuento, Antonia decidió enviarlo a la misma revista, aunque sentía mucho miedo de recibir otro rechazo. Esta vez, sin embargo, no revisó su correo obsesivamente cada hora; siguió escribiendo otras historias mientras esperaba la respuesta.",
-          "Tres semanas después, recibió un correo electrónico que comenzaba con las palabras: \"Nos complace informarle que su cuento ha sido seleccionado para publicación\". Antonia gritó de alegría y corrió a abrazar a Felipe, quien le recordó que su persistencia finalmente había dado frutos."
+          "Tres semanas después, recibió un correo electrónico que comenzaba con las palabras: \"Nos complace informarle que su cuento ha sido seleccionado para su publicación\". Antonia gritó de alegría y corrió a abrazar a Felipe, quien le recordó que su persistencia finalmente había dado frutos."
         ]
       }
     ],
@@ -14718,7 +14743,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Un día, Emilia les contó a sus padres sobre Café durante la cena, explicándoles con detalle todo el progreso que habían logrado juntos. Su madre notó cuánto le brillaban los ojos a Emilia al hablar del perro y le preguntó si le gustaría que ellos consideraran adoptarlo.",
           "Emilia se emocionó tanto con la idea que casi no pudo hablar durante un momento. Sus padres decidieron visitar el refugio ese fin de semana para conocer a Café en persona y hablar con Marisol sobre lo que implicaría cuidar a un perro con ese tipo de necesidades especiales.",
           "Después de la visita, y tras varias conversaciones sobre la responsabilidad que representaba, los padres de Emilia decidieron adoptar a Café oficialmente. Marisol les explicó los cuidados especiales que necesitaría durante los primeros meses en su nuevo hogar.",
-          "El día que Café llegó a su nueva casa, se escondió debajo de una mesa durante horas, pero esa noche, cuando Emilia se sentó cerca sin presionarlo, el perro finalmente salió y se acostó a su lado. Emilia supo en ese momento que había encontrado no solo un compañero para Café, sino también una amistad que duraría toda la vida."
+          "El día que Café llegó a su nueva casa, se escondió debajo de una mesa durante horas, pero esa noche, cuando Emilia se sentó cerca sin presionarlo, el perro finalmente salió y se acostó a su lado. Emilia supo en ese momento que había encontrado no solo un hogar para Café, sino también una amistad que duraría toda la vida."
         ]
       }
     ],
@@ -14903,13 +14928,13 @@ const B1_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "El grupo de teatro comunitario de un pequeño pueblo en Costa Rica llevaba dos meses preparando una obra sobre la historia local, escrita especialmente para celebrar el aniversario del pueblo. Todos los actores eran vecinos voluntarios, desde estudiantes hasta jubilados, y ensayaban tres veces por semana en el salón municipal.",
-          "Daniel, un profesor de historia de cuarenta años, tenía el papel principal: un fundador ficticio del pueblo que enfrentaba grandes desafíos para construir una comunidad próspera. Había memorizado todas sus líneas y practicaba sus escenas incluso en su casa, frente al espejo del baño.",
+          "Daniel, un profesor de historia de cuarenta años, tenía el papel principal: un fundador ficticio del pueblo que enfrentaba grandes desafíos para construir una comunidad próspera. Había memorizado todo su texto y practicaba sus escenas incluso en su casa, frente al espejo del baño.",
           "Cinco días antes del estreno, Daniel recibió una llamada urgente de su hermana: su padre había sufrido una caída y necesitaba que Daniel viajara inmediatamente a otra ciudad para ayudar a cuidarlo durante su recuperación. Sin dudarlo, Daniel empacó una maleta y se fue esa misma tarde.",
           "La directora de la obra, una mujer enérgica llamada Rocío, se enteró de la noticia esa noche y sintió que el proyecto entero se derrumbaba. Sin un actor principal y con solo cinco días para el estreno, parecía imposible encontrar una solución a tiempo.",
           "Rocío reunió al elenco al día siguiente para explicar la situación. Algunos actores sugirieron cancelar la función, pero otros, especialmente los más jóvenes, insistieron en que debían intentar encontrar una solución antes de rendirse por completo.",
           "Valeria, la hija adolescente de Rocío, quien ayudaba con el vestuario de la obra, se ofreció a intentar el papel principal. Aunque nunca había actuado antes en un escenario grande, había memorizado accidentalmente muchas de las líneas de Daniel simplemente por escucharlas tantas veces durante los ensayos.",
           "Al principio, Rocío dudó de la idea, preocupada porque el papel había sido escrito para un hombre adulto. Sin embargo, después de pensarlo, decidió que podían hacer pequeños ajustes al guion para que el personaje funcionara igual de bien interpretado por una joven.",
-          "Durante los siguientes cuatro días, todo el elenco trabajó horas extra para ayudar a Valeria a prepararse. Practicaron todas las tardes después de la escuela y hasta los fines de semana, ajustando algunos diálogos y asegurándose de que Valeria se sintiera cómoda con los movimientos en el escenario.",
+          "Durante los siguientes cuatro días, todo el elenco trabajó horas extra para ayudar a Valeria a prepararse. Practicaron todas las tardes después de la escuela e incluso el fin de semana, ajustando algunos diálogos y asegurándose de que Valeria se sintiera cómoda con los movimientos en el escenario.",
           "Valeria estaba nerviosa, especialmente porque sabía que mucha gente del pueblo, incluidos sus propios compañeros de escuela, asistiría al estreno. Rocío le recordó que lo más importante no era ser perfecta, sino contar la historia con sinceridad y esfuerzo genuino.",
           "La noche del estreno llegó rápidamente. El salón municipal estaba completamente lleno, con casi todos los vecinos del pueblo sentados esperando ansiosamente el inicio de la función. Valeria, detrás del telón, sentía que las piernas le temblaban, pero respiró profundo y recordó todo lo que había practicado.",
           "La obra comenzó, y para sorpresa de todos, incluida ella misma, Valeria interpretó su papel con una energía y una emoción genuinas que conmovieron al público. Al final de la función, el pueblo entero se puso de pie para aplaudir, y varios vecinos tenían lágrimas en los ojos.",
@@ -14969,14 +14994,14 @@ const B1_BASE_LESSONS: Lesson[] = [
         "body": [
           "Marta tenía quince años y era una de las nadadoras más prometedoras de su club deportivo en Sevilla. Llevaba años entrenando cada mañana antes de ir a la escuela, con la esperanza de clasificar algún día para el campeonato regional de natación.",
           "Casi tres meses antes del campeonato más importante de su carrera, Marta sintió un dolor agudo en el hombro durante un entrenamiento. El médico del equipo le explicó que tenía una pequeña lesión en el hombro, probablemente causada por el uso excesivo, y que necesitaría descansar al menos seis semanas para recuperarse completamente.",
-          "La noticia fue devastadora para Marta. El campeonato regional era justo cinco semanas después de la fecha límite de recuperación, y ella temía no tener suficiente tiempo para volver a entrenar al nivel necesario para competir bien. Pensó en ignorar el consejo médico y seguir entrenando de todos modos.",
+          "La noticia fue devastadora para Marta. El campeonato regional era justo cinco semanas después del final previsto de su recuperación, y ella temía no tener suficiente tiempo para volver a entrenar al nivel necesario para competir bien. Pensó en ignorar el consejo médico y seguir entrenando de todos modos.",
           "Su entrenador, Ignacio, notó la frustración de Marta durante la siguiente semana. \"Sé que quieres competir\", le dijo, \"pero si sigues nadando con esa lesión, podrías empeorarla tanto que no puedas competir nunca más de la misma manera\". Sus palabras asustaron a Marta, pero también la hicieron reflexionar seriamente.",
           "Marta decidió seguir el consejo médico, aunque le resultó muy difícil quedarse fuera del agua durante las primeras semanas. Veía a sus compañeros de equipo entrenar todos los días mientras ella solo podía hacer ejercicios suaves de rehabilitación con una fisioterapeuta llamada Susana.",
           "Susana le explicó a Marta que la paciencia era la parte más difícil de cualquier recuperación, pero también la más importante. \"Es mejor que llegues al campeonato con un ochenta por ciento de tu fuerza normal que arriesgarte a no llegar en absoluto\", le dijo durante una de sus sesiones de terapia.",
-          "Durante las semanas de recuperación, Marta encontró formas alternativas de mantenerse involucrada con el equipo. Ayudaba a cronometrar los entrenamientos de sus compañeros y estudiaba videos de sus propias competencias anteriores para analizar su técnica sin forzar el hombro lesionado.",
+          "Durante las semanas de recuperación, Marta encontró formas alternativas de mantenerse involucrada con el equipo. Ayudaba a cronometrar los entrenamientos de sus compañeros y estudiaba vídeos de sus propias competiciones anteriores para analizar su técnica sin forzar el hombro lesionado.",
           "Después de seis semanas, el médico finalmente le dio permiso a Marta para volver al agua, aunque le advirtió que debía aumentar la intensidad de sus entrenamientos poco a poco, sin precipitarse, para evitar una nueva lesión.",
-          "Con solo cinco semanas antes del campeonato, Ignacio ajustó el plan de entrenamiento de Marta, enfocándose en recuperar la técnica y la resistencia sin sobrecargar el hombro. Algunos días eran frustrantes para Marta, porque sentía que no avanzaba tan rápido como quería.",
-          "Una semana antes de la competencia, Marta nadó una prueba de tiempo y descubrió que, aunque su tiempo no era su mejor marca personal, estaba mucho más cerca de su nivel normal de lo que había esperado. Esto le dio confianza para el campeonato.",
+          "A solo cinco semanas del campeonato, Ignacio ajustó el plan de entrenamiento de Marta, enfocándose en recuperar la técnica y la resistencia sin sobrecargar el hombro. Algunos días eran frustrantes para Marta, porque sentía que no avanzaba tan rápido como quería.",
+          "Una semana antes de la competición, Marta nadó una prueba de tiempo y descubrió que, aunque su tiempo no era su mejor marca personal, estaba mucho más cerca de su nivel normal de lo que había esperado. Esto le dio confianza para el campeonato.",
           "El día del campeonato regional, Marta compitió en su prueba favorita, los doscientos metros de estilo libre. Aunque no ganó la medalla de oro, terminó en tercer lugar, un resultado que la llenó de orgullo considerando todo lo que había pasado en los últimos meses.",
           "Después de la carrera, Ignacio le dijo que estaba más orgulloso de cómo había manejado su recuperación que del resultado de la carrera misma. Marta entendió que había aprendido algo más valioso que ganar una medalla: la importancia de escuchar a su cuerpo y ser paciente con el proceso de sanación."
         ]
@@ -15098,9 +15123,9 @@ const B1_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "Después de doce años sin verse en persona, la familia Rivas se reunió finalmente en la casa de la abuela Consuelo, en un pueblo cerca de Cuenca, Ecuador. La ocasión era el cumpleaños número ochenta de la abuela, y todos sus hijos, nietos y bisnietos viajaron desde diferentes países para celebrar juntos.",
-          "Sofía, de catorce años, apenas recordaba a algunos de sus tíos, ya que su familia se había mudado a Canadá hacía unos cinco años. Estaba emocionada pero también nerviosa por conocer mejor a parientes que solo había visto en fotografías y videollamadas ocasionales durante los años anteriores.",
+          "Sofía, de catorce años, apenas recordaba a algunos de sus tíos, ya que su familia se había mudado a Canadá hacía unos doce años. Estaba emocionada pero también nerviosa por conocer mejor a parientes que solo había visto en fotografías y videollamadas ocasionales durante los años anteriores.",
           "Sin embargo, no todos en la familia estaban tan emocionados por la reunión. Sofía notó una tensión extraña entre su padre, Ernesto, y su tío Gustavo, quienes casi no se hablaban directamente y evitaban quedarse solos en la misma habitación durante los primeros días.",
-          "Cuando Sofía le preguntó a su madre sobre la situación, ella le explicó que Ernesto y Gustavo habían tenido una fuerte discusión hace más de una década, relacionada con dinero y con decisiones sobre el cuidado de su padre, el abuelo de Sofía, quien había fallecido varios años atrás.",
+          "Cuando Sofía le preguntó a su madre sobre la situación, ella le explicó que Ernesto y Gustavo habían tenido una fuerte discusión hacía más de una década, relacionada con dinero y con decisiones sobre el cuidado de su padre, el abuelo de Sofía, quien había fallecido varios años atrás.",
           "\"Espero que esta reunión los ayude a resolver las cosas\", le dijo su madre, \"pero no puedo prometerte que será fácil\". Sofía se sintió preocupada de que la celebración del cumpleaños de su abuela pudiera arruinarse por un conflicto entre su padre y su tío.",
           "Durante los primeros dos días, la familia disfrutó de comidas tradicionales, juegos y largas conversaciones sobre recuerdos de infancia. Sin embargo, la tensión entre Ernesto y Gustavo era evidente para todos, especialmente cuando ambos evitaban sentarse cerca el uno del otro durante las cenas familiares.",
           "La abuela Consuelo, a pesar de su edad avanzada, notó rápidamente lo que estaba pasando entre sus dos hijos. La noche antes de su cumpleaños oficial, pidió hablar con Ernesto y Gustavo a solas en la cocina, mientras el resto de la familia jugaba cartas en la sala.",
@@ -15123,7 +15148,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Gustavo missed the grandmother's birthday before"
         ],
         "correctIndex": 1,
-        "explanation": "The mother explains they \"habían tenido una fuerte discusión hace más de una década, relacionada con dinero y con decisiones sobre el cuidado de su padre.\""
+        "explanation": "The mother explains they \"habían tenido una fuerte discusión hacía más de una década, relacionada con dinero y con decisiones sobre el cuidado de su padre.\""
       },
       {
         "type": "multiple-choice",
@@ -15227,7 +15252,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "Camilo era el editor jefe del periódico escolar de su instituto en Santiago, Chile, un pequeño boletín mensual llamado \"La Voz Estudiantil\" que la mayoría de los estudiantes leía distraídamente entre clases. Su sueño era publicar alguna vez una historia que realmente le importara a todo el colegio.",
+          "Camilo era el editor jefe del periódico escolar de su colegio en Santiago, Chile, un pequeño boletín mensual llamado \"La Voz Estudiantil\" que la mayoría de los estudiantes leía distraídamente entre clases. Su sueño era publicar alguna vez una historia que realmente le importara a todo el colegio.",
           "Un lunes, un rumor comenzó a circular rápidamente por los pasillos: se decía que el director del colegio planeaba cancelar el viaje de graduación de los estudiantes de último año debido a problemas de presupuesto. Los estudiantes de cuarto año estaban indignados y algunos incluso hablaban de organizar una protesta.",
           "Camilo, junto con su compañera de periódico, Antonella, decidió investigar si el rumor era realmente cierto antes de que la situación se saliera de control. \"No podemos simplemente repetir lo que la gente dice\", explicó Antonella. \"Como periodistas, necesitamos verificar los hechos primero\".",
           "Los dos estudiantes solicitaron una entrevista con el director del colegio, el señor Fuentes, quien aceptó reunirse con ellos esa misma semana. Antes de la entrevista, Camilo y Antonella prepararon una lista cuidadosa de preguntas específicas sobre el presupuesto y el viaje de graduación.",
@@ -15271,10 +15296,10 @@ const B1_BASE_LESSONS: Lesson[] = [
         "type": "multiple-choice",
         "question": "What was the headline of Camilo and Antonella's published article?",
         "options": [
-          "\"The Principal Resigns\"",
+          "\"El director renuncia\"",
           "\"El viaje de graduación no será cancelado: la verdad detrás del rumor\"",
-          "\"Budget Cuts Hit Our School\"",
-          "\"Students Protest Graduation Trip\""
+          "\"Recortes de presupuesto en nuestro colegio\"",
+          "\"Los estudiantes protestan por el viaje de graduación\""
         ],
         "correctIndex": 1,
         "explanation": "The article's headline was \"El viaje de graduación no será cancelado: la verdad detrás del rumor.\""
@@ -15293,7 +15318,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "En el barrio de La Candelaria, en el centro de Bogotá, existía desde hacía quince años un jardín comunitario donde los vecinos cultivaban vegetales, flores y hierbas juntos. El jardín era especialmente importante para las familias que vivían en apartamentos pequeños sin espacio propio para plantar nada.",
-          "Un día, apareció un aviso oficial pegado en la entrada del jardín: la alcaldía local había aprobado un proyecto para convertir el terreno en un estacionamiento público, ya que consideraban que el barrio necesitaba más espacios para vehículos. Los vecinos se enteraron con mucha sorpresa y tristeza.",
+          "Un día, apareció un aviso oficial pegado en la entrada del jardín: la alcaldía local había aprobado un proyecto para convertir el terreno en un estacionamiento público, ya que consideraba que el barrio necesitaba más espacios para vehículos. Los vecinos se enteraron con mucha sorpresa y tristeza.",
           "Isabela, una estudiante universitaria de veinte años que había ayudado a cuidar el jardín desde niña junto a su abuela, se sintió profundamente afectada por la noticia. Su abuela, doña Marlene, había sido una de las fundadoras originales del jardín y siempre decía que ese pequeño espacio verde le recordaba a su pueblo natal.",
           "Isabela decidió que no permitiría que el jardín desapareciera sin luchar primero. Organizó una reunión urgente con los demás vecinos que participaban en el cuidado del jardín, para discutir qué podían hacer antes de que comenzara la construcción del estacionamiento.",
           "Durante la reunión, algunos vecinos se mostraron pesimistas, diciendo que era imposible cambiar las decisiones de la alcaldía una vez aprobadas. Sin embargo, don Rafael, un vecino mayor que también ayudaba en el jardín, sugirió que organizaran una petición firmada por todos los residentes del barrio.",
@@ -15430,7 +15455,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "Diego trabajaba como diseñador web independiente desde hacía dos años. Le gustaba la libertad de elegir sus propios horarios, pero también sabía que ese tipo de trabajo tenía sus riesgos. Uno de esos riesgos apareció cuando terminó un proyecto grande para una clienta llamada la señora Rojas, dueña de una tienda de ropa. Ella le había pedido un sitio web completo, con tienda en línea incluida, y él había trabajado casi dos meses sin parar.",
+          "Diego trabajaba como diseñador web independiente desde hacía dos años. Le gustaba la libertad de elegir sus propios horarios, pero también sabía que ese tipo de trabajo tenía sus riesgos. Uno de esos riesgos apareció cuando terminó un proyecto grande para una clienta, la señora Rojas, dueña de una tienda de ropa. Ella le había pedido un sitio web completo, con tienda en línea incluida, y él había trabajado casi dos meses sin parar.",
           "Cuando entregó el proyecto, la señora Rojas quedó muy contenta y le prometió que pagaría la factura en una semana. Diego confiaba en ella, así que no se preocupó al principio. Sin embargo, pasaron dos semanas y el dinero nunca llegó a su cuenta. Le escribió un mensaje educado, preguntando si todo estaba bien con el pago.",
           "La señora Rojas respondió que había tenido problemas con el banco y que le pagaría pronto. Diego decidió esperar, porque entendía que a veces surgen complicaciones inesperadas. Pero pasó otro mes, y luego otro, sin ninguna noticia clara sobre el pago. Empezó a preguntarse si la clienta realmente tenía la intención de pagarle.",
           "Un amigo, que también trabajaba de forma independiente, le sugirió hablar con un abogado. \"Es normal que un cliente pague tarde alguna vez\", le dijo, \"pero no es normal que no pague nada después de tres meses\". Diego sabía que su amigo tenía razón, aunque le daba miedo perder a la clienta si insistía demasiado.",
@@ -15800,9 +15825,9 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Tomás se sintió herido por esas palabras. Para él, la panadería no era solo un negocio; era el lugar donde había pasado su infancia, ayudando a su padre a hacer pan cada madrugada. \"Es importante que entiendas que esto significa más para mí que el dinero\", le respondió, con la voz cargada de emoción.",
           "Durante varios días, los hermanos apenas se hablaron, aunque compartían la misma casa mientras arreglaban los papeles de la herencia. Una noche, mientras revisaban viejas fotografías de la panadería, Ana encontró una carta que su padre había escrito años atrás, en la que explicaba por qué había abierto el negocio: quería crear un lugar donde la gente del barrio pudiera reunirse cada mañana.",
           "Leer esa carta cambió la manera en que Ana veía la situación. Se dio cuenta de que, aunque su vida estaba en otra ciudad, todavía le importaba lo que su padre había construido. Le propuso a Tomás una idea distinta: ella invertiría dinero para modernizar la panadería, y él se encargaría de dirigirla día a día.",
-          "Tomás escuchó la propuesta con sorpresa; no esperaba un cambio de opinión tan rápido en su hermana. \"¿Estás segura de que quieres hacer esto?\" le preguntó. Ana asintió. \"Si trabajamos juntos\", dijo, \"la panadería tendrá un futuro mejor del que ninguno de los dos imagina solo\".",
+          "Tomás escuchó la propuesta con sorpresa; no esperaba un cambio de opinión tan rápido en su hermana. \"¿Estás segura de que quieres hacer esto?\" le preguntó. Ana asintió. \"Si trabajamos juntos\", dijo, \"la panadería tendrá un futuro mejor del que ninguno de los dos podría darle solo\".",
           "Con el acuerdo hecho, empezaron a planear los cambios: pintarían el local, comprarían un horno nuevo y añadirían algunos productos modernos a la carta tradicional. Tomás sugirió mantener las recetas originales de su padre, porque eran las que la gente del barrio más apreciaba. Ana estuvo de acuerdo enseguida.",
-          "Meses después, la panadería reabrió con una pequeña fiesta a la que asistieron muchos vecinos que habían conocido a su padre durante años. Ana y Tomás, trabajando codo a codo detrás del mostrador, se dieron cuenta de que habían recuperado no solo un negocio familiar, sino también su relación de hermanos. El cartel de la entrada seguía diciendo el mismo nombre de siempre: \"Panadería López, desde hace treinta años\"."
+          "Meses después, la panadería reabrió con una pequeña fiesta a la que asistieron muchos vecinos que habían conocido a su padre durante años. Ana y Tomás, trabajando codo a codo detrás del mostrador, se dieron cuenta de que habían recuperado no solo un negocio familiar, sino también su relación de hermanos. El cartel de la entrada seguía diciendo el mismo nombre de siempre: \"Panadería López, desde 1994\"."
         ]
       }
     ],
@@ -15945,7 +15970,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Lucía llevaba cinco años viviendo en ese apartamento, el primero que había alquilado sola después de terminar la universidad. Dos meses le parecían un tiempo terriblemente corto para encontrar otro lugar, sobre todo con los precios de alquiler tan altos que había en la ciudad. Esa noche, no pudo dormir pensando en qué hacer.",
           "Al día siguiente, decidió hablar con sus vecinos para saber si a ellos también les había llegado el mismo aviso. Descubrió que, en efecto, todos los inquilinos del edificio habían recibido la misma carta. \"Es mejor que hablemos con un abogado antes de tomar cualquier decisión\", sugirió uno de los vecinos, un hombre mayor llamado don Ernesto.",
           "Juntos, organizaron una reunión con una abogada especializada en temas de vivienda. Ella les explicó que, según la ley, el dueño no podía echarlos de un día para otro sin respetar ciertos plazos y derechos que protegían a los inquilinos. \"Ustedes tienen más tiempo del que el dueño quiere hacerles creer\", les aseguró la abogada.",
-          "Con esta información, Lucía y sus vecinos escribieron una carta conjunta al dueño en la que pedían más tiempo para organizar la mudanza y el cumplimiento de los plazos legales. Firmaron la carta todos los inquilinos del edificio, mostrando que actuaban unidos.",
+          "Con esta información, Lucía y sus vecinos escribieron una carta conjunta al dueño en la que pedían más tiempo para organizar la mudanza y exigían el cumplimiento de los plazos legales. Firmaron la carta todos los inquilinos del edificio, mostrando que actuaban unidos.",
           "El dueño, sorprendido por la respuesta organizada de los inquilinos, aceptó reunirse con ellos. Durante la reunión, se mostró menos agresivo de lo que Lucía esperaba, y finalmente accedió a extender el plazo a cuatro meses, en vez de los dos que había propuesto originalmente. También prometió ayudar a los inquilinos que necesitaran una carta de referencia para alquilar en otro lugar.",
           "Con más tiempo, Lucía pudo buscar un nuevo apartamento con calma, sin la presión de encontrar algo en solo unas semanas. Visitó varios lugares antes de decidirse por uno cerca de su trabajo, un poco más pequeño, pero con un alquiler razonable. Sus vecinos, mientras tanto, también encontraron nuevos hogares, algunos incluso en el mismo barrio.",
           "El día de la mudanza, varios vecinos se ayudaron mutuamente a cargar cajas y muebles, como si fueran una pequeña familia que se despedía. Lucía entendió que, aunque había perdido su apartamento, había ganado algo valioso: la certeza de que, cuando la gente se organiza, puede defender sus derechos de manera efectiva."
@@ -16310,7 +16335,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Su piso, que antes le parecía cómodo, ahora a veces le parecía una jaula silenciosa. Trabajaba desde la mesa de la cocina, rodeado de las mismas paredes todos los días, y las videollamadas con sus compañeros, aunque frecuentes, no sustituían del todo el contacto real. Notaba que le costaba concentrarse y que se sentía más cansado que antes, a pesar de trabajar las mismas horas.",
           "Un día, la empresa anunció que, a partir del mes siguiente, todos los empleados debían volver a la oficina al menos tres días por semana. La noticia generó reacciones muy distintas entre sus compañeros: algunos se alegraron, mientras que otros protestaron, argumentando que perderían la flexibilidad que tanto valoraban.",
           "Fernando no sabía bien qué sentir. Por un lado, echaba de menos el contacto humano; por otro, temía perder la comodidad de trabajar en pijama y sin tener que pasar una hora en el transporte público cada día. \"Es normal que tengas sentimientos encontrados\", le dijo su jefa durante una reunión individual, \"a casi todo el equipo le pasa lo mismo\".",
-          "El primer día que volvió a la oficina, Fernando se sorprendió de cuánto había cambiado el ambiente: había caras nuevas que solo conocía por videollamada, y la oficina, antes ruidosa, ahora tenía un diseño más abierto, pensado para fomentar la colaboración. Se sentó junto a un compañero al que apenas conocía en persona, y hablaron durante el almuerzo sobre proyectos que nunca habían discutido a fondo por videollamada.",
+          "El primer día que volvió a la oficina, Fernando se sorprendió de cuánto había cambiado el ambiente: había caras nuevas que solo conocía por videollamada, y la oficina, antes llena de despachos cerrados, ahora tenía un diseño más abierto, pensado para fomentar la colaboración. Se sentó junto a un compañero al que apenas conocía en persona, y hablaron durante el almuerzo sobre proyectos que nunca habían discutido a fondo por videollamada.",
           "A lo largo de las semanas siguientes, Fernando notó algo que no esperaba: ciertas conversaciones espontáneas, esas que surgen simplemente por estar en el mismo espacio, resolvían problemas mucho más rápido que largas cadenas de mensajes escritos. También descubrió que extrañaba menos su casa de lo que había imaginado, porque los días en la oficina le daban una estructura que había perdido durante el trabajo remoto.",
           "Sin embargo, seguía valorando los días que trabajaba desde casa, sobre todo para tareas que requerían concentración total sin interrupciones. Llegó a la conclusión de que ni el trabajo completamente remoto ni la oficina de siempre eran la solución perfecta; lo ideal, para él, era un equilibrio entre ambos.",
           "Meses después, cuando un amigo le preguntó si prefería trabajar desde casa o en la oficina, Fernando respondió que ya no pensaba en términos tan extremos. \"Lo que de verdad importa\", dijo, \"no es el lugar donde trabajas, sino sentir que perteneces a un equipo de verdad, y eso a veces se construye mejor cara a cara\"."
@@ -16408,7 +16433,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "question": "What almost made Claudia give up the challenge in week two?",
         "options": [
           "She missed an important work email",
-          "She found out about a party she wasn't invited to via message, and felt excluded",
+          "She heard from a friend about a party she hadn't been invited to directly by message, and felt excluded",
           "Her phone broke completely",
           "She got lost without GPS"
         ],
@@ -16454,7 +16479,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "body": [
           "Ricardo estaba desayunando cuando recibió un correo electrónico que parecía ser de su banco. El mensaje decía que su cuenta había sido bloqueada por actividad sospechosa y que debía hacer clic en un enlace para verificar su identidad inmediatamente. El corazón le dio un vuelco; sin pensarlo mucho, abrió el enlace desde su teléfono.",
           "La página que se abrió parecía idéntica al sitio web de su banco: mismo logotipo, mismos colores, mismo diseño. Le pedía que introdujera su número de cuenta, su contraseña y el código de seguridad de su tarjeta. Justo cuando estaba a punto de escribir la contraseña, notó algo extraño en la dirección web: no terminaba como el sitio oficial del banco, sino con una serie de letras y números que no reconocía.",
-          "Se detuvo de golpe, con el dedo todavía sobre la pantalla. Recordó que, en el trabajo, les habían explicado que nunca se debía introducir información bancaria a través de un enlace recibido por correo. Cerró la aplicación inmediatamente y decidió llamar directamente al número oficial del banco, el que tenía guardado desde hacía años, en vez de usar cualquier número que apareciera en el correo.",
+          "Se detuvo de golpe, con el dedo todavía sobre la pantalla. Recordó que, en el trabajo, les habían explicado que nunca se debía introducir información bancaria a través de un enlace recibido por correo. Cerró la página inmediatamente y decidió llamar directamente al número oficial del banco, el que tenía guardado desde hacía años, en vez de usar cualquier número que apareciera en el correo.",
           "La persona que atendió la llamada le confirmó lo que ya sospechaba: el banco nunca enviaba correos pidiendo contraseñas ni códigos de seguridad, y su cuenta no tenía ningún problema real. Era un intento de estafa, diseñado para parecer completamente oficial. Ricardo sintió un gran alivio, mezclado con cierto enfado por haber estado a punto de caer en la trampa.",
           "Esa misma tarde, decidió llamar a su madre, que también tenía cuenta en el mismo banco, para explicarle cómo reconocer este tipo de estafas. \"Revisa siempre bien la dirección del remitente\", le dijo, \"y nunca hagas clic en enlaces de correos inesperados, por muy oficiales que parezcan\".",
           "Dos semanas después, su madre lo llamó, un poco nerviosa, porque había recibido un mensaje de texto muy parecido, esta vez fingiendo ser de la empresa de electricidad. Gracias al consejo de Ricardo, se dio cuenta de inmediato de que algo no encajaba y no hizo clic en el enlace. En vez de eso, llamó a la empresa directamente para confirmar que todo estaba en orden.",
@@ -16529,7 +16554,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Valeria, una joven que había jugado bajo esos árboles de niña, se sintió indignada al leer el cartel. Esa misma tarde, empezó a hablar con sus vecinos, tocando puertas y explicando lo que planeaba hacer el ayuntamiento. Muchos compartían su preocupación, aunque algunos, sobre todo los que tenían dificultades para aparcar cada noche, entendían la necesidad de más espacio.",
           "Valeria decidió organizar una reunión en la plaza misma, bajo los árboles que querían proteger. \"Es importante que todos escuchemos las distintas opiniones antes de que se tome una decisión definitiva\", dijo al abrir la reunión. Muchos vecinos asistieron, algunos a favor del aparcamiento y otros completamente en contra.",
           "Durante la reunión, surgieron ideas interesantes. Un hombre mayor propuso buscar un terreno alternativo para el aparcamiento, lejos de los árboles de la plaza. Otra vecina sugirió reducir el número de plazas planeadas: así, el proyecto cortaría solo dos o tres árboles en vez de los diez.",
-          "Con estas ideas recogidas, Valeria y un pequeño grupo de vecinos prepararon una propuesta formal para presentar en el ayuntamiento. Reunieron firmas de apoyo por todo el barrio y consiguieron más de quinientas en menos de una semana. \"Si el ayuntamiento ve que la comunidad está organizada, es más probable que consideren otras opciones\", explicó Valeria a los vecinos que la ayudaban.",
+          "Con estas ideas recogidas, Valeria y un pequeño grupo de vecinos prepararon una propuesta formal para presentar en el ayuntamiento. Reunieron firmas de apoyo por todo el barrio y consiguieron más de quinientas en menos de una semana. \"Si el ayuntamiento ve que la comunidad está organizada, es más probable que considere otras opciones\", explicó Valeria a los vecinos que la ayudaban.",
           "La reunión con el ayuntamiento fue tensa al principio. El representante municipal explicó que el proyecto ya estaba aprobado y que cambiarlo por completo sería complicado. Sin embargo, después de escuchar la propuesta de reducir el número de árboles cortados y de buscar espacio adicional en un terreno cercano que estaba sin uso, aceptó revisar el plan.",
           "Tres semanas después, el ayuntamiento anunció una versión modificada del proyecto: se construiría un aparcamiento más pequeño, usando parte del terreno cercano, y solo se cortarían dos árboles, los que estaban más dañados por una enfermedad que ya afectaba sus raíces. Los demás árboles de la plaza se quedarían exactamente donde siempre habían estado.",
           "El día en que empezaron las obras, Valeria fue a observar, un poco nerviosa todavía. Cuando vio que los ocho árboles principales permanecían intactos, sintió un gran alivio. Aprendió que, cuando los vecinos se organizan y proponen soluciones concretas en vez de solo quejarse, es más fácil que las autoridades escuchen y cambien de opinión."
@@ -16674,7 +16699,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Todo empezó con un proyecto escolar. Mateo, de trece años, tenía que investigar cuánta comida se desperdiciaba en su propia casa durante una semana, y presentar los resultados en clase de ciencias. Su profesora les había pedido anotar, cada día, todo lo que su familia tiraba a la basura sin comer.",
           "Al final de la semana, Mateo quedó impresionado por la cantidad de comida que su familia había desperdiciado: pan duro, verduras que se habían echado a perder en el frigorífico, arroz sobrante que nadie había querido recalentar. Le mostró la lista a su madre, Teresa, que se sorprendió tanto como él al ver todo junto.",
           "\"Deberíamos hacer algo con esto\", dijo Mateo, entusiasmado con la idea de mejorar su proyecto. Teresa estuvo de acuerdo y propuso empezar a hacer compost con los restos de comida, en vez de tirarlo todo a la basura normal. Buscaron información en internet sobre cómo construir una caja de compost sencilla para el pequeño patio de la casa.",
-          "El padre de Mateo, Julio, se mostró escéptico al principio. \"¿No va a oler mal?\" preguntó, mirando con desconfianza la caja de madera que habían comprado. Teresa le explicó que, si se hacía correctamente, el compost no debía oler mal, y que además reducirían mucho la cantidad de basura que sacaban cada semana.",
+          "El padre de Mateo, Julio, se mostró escéptico al principio. \"¿No va a oler mal?\" preguntó, mirando con desconfianza la caja de madera que habían construido. Teresa le explicó que, si se hacía correctamente, el compost no debía oler mal, y que además reducirían mucho la cantidad de basura que sacaban cada semana.",
           "Durante el primer mes, la familia tuvo que aprender qué restos de comida podían ponerse en la caja de compost y cuáles no. Mateo se convirtió en el experto de la casa, revisando en internet cada duda que surgía. \"No se debe echar carne ni productos lácteos\", explicaba a sus padres, \"solo restos de frutas, verduras, café y cáscaras de huevo\".",
           "Poco a poco, la caja de compost se convirtió en parte de la rutina diaria de la familia. Julio, que al principio dudaba del proyecto, terminó siendo quien más cuidaba la caja, revisándola cada tarde al volver del trabajo. Le sorprendía cuánto había cambiado su actitud hacia algo que, meses atrás, le parecía una pérdida de tiempo.",
           "Cuando Mateo presentó su proyecto final en clase, no solo mostró los datos de cuánta comida se había desperdiciado antes, sino también cuánto había disminuido después de empezar a compostar y de planificar mejor las comidas de la semana. Su profesora quedó tan impresionada que le pidió compartir la experiencia con el resto de la escuela.",
@@ -16890,7 +16915,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "Cuando Andrés cumplió cuarenta años, no sintió ganas de celebrar. Su médico le había dicho que el colesterol estaba muy alto y que debía hacer más ejercicio. Andrés nunca había corrido más de diez minutos seguidos, pero esa noche, después de la fiesta, tomó una decisión: correría un maratón antes de cumplir los cuarenta y uno.",
-          "Al principio, correr era un desastre. Le costaba respirar después de cinco minutos y sus piernas le dolían durante días. Su esposa, Lucía, le dijo: \"Empieza poco a poco, no corras tan rápido el primer mes\". Andrés hizo caso y bajó el ritmo, y poco a poco empezó a notar cambios.",
+          "Al principio, correr era un desastre. Le costaba respirar después de cinco minutos y le dolían las piernas durante días. Su esposa, Lucía, le dijo: \"Empieza poco a poco, no corras tan rápido el primer mes\". Andrés hizo caso y bajó el ritmo, y poco a poco empezó a notar cambios.",
           "Se apuntó a un grupo de corredores que se reunía los sábados en el parque. Allí conoció a personas de todas las edades que también habían empezado tarde. \"Es normal que al principio te sientas ridículo\", le dijo una compañera del grupo, \"todos hemos pasado por eso\". Con el grupo, correr se volvió menos solitario y más divertido.",
           "Después de tres meses, Andrés ya podía correr diez kilómetros sin parar. Había perdido peso y dormía mejor que antes. Nunca había imaginado que correr pudiera hacerlo sentir tan bien, ni física ni mentalmente. Lo que más le sorprendía era lo mucho que había cambiado su forma de pensar sobre sí mismo.",
           "Sin embargo, dos semanas antes del maratón, Andrés se lesionó el tobillo durante un entrenamiento. El médico le recomendó que no corriera durante diez días. Andrés estaba desesperado: si no entrenaba, temía no poder terminar la carrera. Su entrenador le dijo: \"Descansa ahora, o te arrepentirás después\".",
@@ -17274,7 +17299,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "How did Diego feel playing guitar in front of others for the first time?",
+        "question": "How did Diego feel playing guitar at the second rehearsal?",
         "options": [
           "Completely confident",
           "Relaxed: for once he didn't feel he was dying of embarrassment",
@@ -17327,7 +17352,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Cada martes por la tarde, Rosa y Valentina se sentaban en la cocina de la mujer mayor, rodeadas de café y galletas caseras. Rosa nunca había tenido tanta paciencia consigo misma como la que Valentina le pedía que tuviera. \"Lee esta frase despacio, no te preocupes si te equivocas\", le repetía Valentina cada vez que Rosa dudaba.",
           "Después de tres meses, Rosa leyó sola, por primera vez en su vida, una carta que su nieto le había enviado desde otra ciudad. Lloró durante varios minutos sin poder hablar, mientras Valentina la abrazaba en silencio. \"Nunca pensé que a mis setenta y ocho años iba a poder leer una carta de mi nieto yo sola\", le dijo finalmente.",
           "Valentina, por su parte, aprendió algo que ningún libro de la universidad le había enseñado: la paciencia y el valor de alguien que empieza de cero sin sentir vergüenza. Rosa le contaba historias de su vida en el campo, de cuando era joven, de las cosas que había vivido y que jamás había escrito porque no sabía cómo hacerlo.",
-          "Un año después, Rosa había empezado a escribir, con letra insegura pero clara, un cuaderno con recuerdos de su vida para sus nietos. \"Ojalá hubiera aprendido esto hace cincuenta años\", le dijo a Valentina un día, aunque también reconoció que nunca es tarde para aprender algo tan importante. Valentina supo entonces que aquel voluntariado le había cambiado la vida a las dos."
+          "Un año después, Rosa había empezado a escribir, con letra insegura pero clara, un cuaderno con recuerdos de su vida para sus nietos. \"Ojalá hubiera aprendido esto hace cincuenta años\", le dijo a Valentina un día, aunque también reconoció que nunca es tarde para aprender algo tan importante. Valentina supo entonces que aquel voluntariado les había cambiado la vida a las dos."
         ]
       }
     ],
@@ -17613,7 +17638,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Esa misma tarde, Nadia publicó un mensaje en el grupo de WhatsApp del barrio: \"Mañana a las nueve voy a limpiar la playa, quien quiera venir es bienvenido\". No esperaba que apareciera casi nadie, pero a la mañana siguiente, más de treinta personas llegaron con guantes, bolsas y ganas de ayudar.",
           "Entre los voluntarios estaba Hugo, un pescador jubilado que conocía esa playa desde niño. \"Es una pena que el mar nos devuelva ahora lo que nosotros mismos le hemos tirado durante años\", dijo mientras recogía una red vieja. Sus palabras hicieron que varios voluntarios se quedaran pensando en silencio mientras seguían trabajando.",
           "Durante toda la mañana, el grupo llenó más de cien bolsas de basura, separando el plástico del vidrio y de los restos de pesca. Nadia nunca había visto tanta gente desconocida trabajar junta con tanta energía por algo que no les daba ningún beneficio personal. Lo que empezó como un mensaje rápido en un grupo de móvil se había convertido en algo mucho más grande.",
-          "Al mediodía, cuando la playa por fin volvió a estar limpia, alguien propuso que hicieran la limpieza cada primer sábado de mes, no solo después de tormentas. \"Hagámoslo un grupo fijo\", propuso Hugo, \"así no esperamos a que llegue otra tormenta para actuar\". Varios voluntarios intercambiaron números de teléfono para organizar la siguiente cita.",
+          "Al mediodía, cuando la playa por fin volvió a estar limpia, alguien propuso que hicieran la limpieza cada primer sábado de mes, no solo después de tormentas. \"Convirtámoslo en un grupo fijo\", dijo Hugo, \"así no esperamos a que llegue otra tormenta para actuar\". Varios voluntarios intercambiaron números de teléfono para organizar la siguiente cita.",
           "Con el paso de los meses, el pequeño grupo creció hasta convertirse en una asociación con nombre propio, que organizaba limpiezas y también charlas en el colegio del pueblo sobre el cuidado del mar. Nadia, que nunca había organizado nada parecido, se convirtió en la coordinadora sin haberlo planeado.",
           "Un año después de aquella primera tormenta, la playa se mantenía limpia casi todo el tiempo, gracias al trabajo constante del grupo. \"Si aquella tormenta no hubiera pasado, quizás nunca nos habríamos conocido todos nosotros\", le dijo Hugo a Nadia una mañana, mientras recogían las últimas bolsas. Nadia estuvo de acuerdo: a veces, hasta los desastres traen algo bueno con ellos."
         ]
@@ -17654,7 +17679,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Move their efforts to a different beach"
         ],
         "correctIndex": 1,
-        "explanation": "Hugo proposes, \"Hagámoslo un grupo fijo...así no esperamos a que llegue otra tormenta para actuar\" (Let's make this a regular group...that way we don't wait for another storm to act)."
+        "explanation": "Hugo proposes, \"Convirtámoslo en un grupo fijo...así no esperamos a que llegue otra tormenta para actuar\" (Let's make this a regular group...that way we don't wait for another storm to act)."
       },
       {
         "type": "multiple-choice",
@@ -17747,7 +17772,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 122,
     "title": "El buceo en la isla",
-    "summary": "A man terrified of deep water forces himself to get a scuba diving certification during a trip meant to help him move past fear.",
+    "summary": "A man terrified of deep water forces himself to get a scuba diving certification during a holiday with friends, and finally moves past his fear.",
     "duration": "7 min",
     "sections": [
       {
@@ -17825,7 +17850,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "Cuando el padre de Bruno murió, entre sus cosas encontró una bicicleta vieja, guardada en el garaje desde hacía años. Su padre le había contado muchas veces, de joven, que había recorrido en bicicleta los quinientos kilómetros entre su pueblo natal y la ciudad donde después había vivido toda su vida. Bruno siempre había pensado que era una historia exagerada.",
+          "Cuando el padre de Bruno murió, Bruno encontró entre sus cosas una bicicleta vieja, guardada en el garaje desde hacía años. Su padre le había contado muchas veces que, de joven, había recorrido en bicicleta los quinientos kilómetros entre su pueblo natal y la ciudad donde después había vivido toda su vida. Bruno siempre había pensado que era una historia exagerada.",
           "Un año después de la muerte de su padre, Bruno decidió arreglar la bicicleta y hacer él mismo esa misma ruta. Sus amigos pensaban que era una idea un poco extraña, pero Bruno sentía que necesitaba hacerlo, aunque no supiera explicar exactamente por qué. Compró un mapa antiguo de la zona y empezó a planear el viaje.",
           "El primer día de viaje fue duro: la bicicleta, aunque reparada, era mucho más pesada que las bicicletas modernas, y las piernas de Bruno no estaban acostumbradas a tanto esfuerzo. Un hombre que lo vio pasar por un pueblo pequeño le preguntó adónde iba. \"Sigo el camino que hizo mi padre hace cuarenta años\", le contestó Bruno, y el hombre, emocionado, le ofreció agua y pan para el viaje.",
           "Durante los siguientes días, Bruno pasó por pueblos que su padre le había mencionado en sus historias, algunos de los cuales apenas existían ya. En uno de ellos, una mujer mayor recordó a un joven con el mismo apellido que había pasado por allí décadas atrás. \"Es posible que fuera tu padre\", le dijo la mujer, \"aquí no pasa mucha gente en bicicleta\".",

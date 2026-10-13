@@ -15,10 +15,10 @@ export const A1_WRITING_TASKS: UnitWriting = {
         "Ser for names and origin (es Ana, son de Inglaterra)",
         "El, la, los, las to point people out (la profesora, los chicos)",
         "At least three adjectives that agree in gender and number",
-        "Nationality adjectives (alemanas, inglés…)"
+        "Origin with ser + de (es de Chile, son de Alemania)"
       ],
-      "modelAnswer": "Es una foto de mi clase de español. La profesora es Ana. Es de Chile y es muy simpática. Los chicos altos son Tom y Ben. Son ingleses. Las chicas morenas son Mia y Lena. Son alemanas y muy inteligentes. ¡Es una clase internacional!",
-      "explanation": "Every adjective matches its noun: la profesora es simpática, los chicos altos, las chicas morenas, son alemanas. Nationalities are adjectives too, so they agree and take no capital letter."
+      "modelAnswer": "Es una foto de mi clase de español. La profesora es Ana. Es de Chile y es muy simpática. Los chicos altos son Tom y Ben. Son de Inglaterra. Las chicas morenas son Mia y Lena. Son de Alemania y son muy inteligentes. ¡Es una clase internacional!",
+      "explanation": "Every adjective matches its noun: la profesora es simpática, los chicos altos, las chicas morenas, son inteligentes. Origin uses ser + de: son de Alemania."
     }
   ],
   "sounds-r-rr": [
@@ -34,7 +34,7 @@ export const A1_WRITING_TASKS: UnitWriting = {
         "Ser + adjectives that agree"
       ],
       "modelAnswer": "Mi perro se llama Rufo. Es un perro pequeño y marrón. Es muy rápido, pero un poco raro. Es el perro de mi amigo Roberto. Roberto es simpático y Rufo es muy listo. ¡Es un perro perfecto!",
-      "explanation": "Trill the rr (perro, marrón) and every r at the start of a word (Rufo, rápido, raro, Roberto). Between vowels a single r is one quick tap: pero, Roberto, perfecto."
+      "explanation": "Trill the rr (perro, marrón) and every r at the start of a word (Rufo, rápido, raro, Roberto). A single r between vowels or at the end of a syllable is one quick tap: pero, caro, the second r of Roberto, perfecto."
     }
   ],
   "sounds-ll-y-c-z-s": [
@@ -56,7 +56,7 @@ export const A1_WRITING_TASKS: UnitWriting = {
   "present-tense-er-ir-verbs-2": [
     {
       "type": "write",
-      "prompt": "Write a short email to a new pen pal. Say where and who you live with, what you eat and drink, what you read and what you're learning, then ask two questions.",
+      "prompt": "Write a short email to a new pen pal. Say where you live and who with, what you eat and drink and when (por la mañana, por la tarde), what you read and what you're learning, then ask two questions.",
       "minWords": 20,
       "maxWords": 50,
       "rubric": [

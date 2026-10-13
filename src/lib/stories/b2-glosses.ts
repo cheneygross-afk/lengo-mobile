@@ -369,7 +369,7 @@ export const B2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "acercarse", en: "to approach", forms: ["acercaba"] },
     { es: "la angustia", en: "anguish", forms: ["angustia"] },
     { es: "anticipar", en: "to anticipate", forms: ["anticipando"] },
-    { es: "arrastrar", en: "to carry with", forms: ["arrastraba"] },
+    { es: "arrastrar", en: "to carry around, drag", forms: ["arrastraba"] },
     { es: "atravesar", en: "to go through", forms: ["atravesaba"] },
     { es: "el bloqueo", en: "block", forms: ["bloqueo"] },
     { es: "la circunstancia", en: "circumstance", forms: ["circunstancias"] },

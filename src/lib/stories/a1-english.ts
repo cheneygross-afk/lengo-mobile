@@ -7,7 +7,7 @@ import { A1_STARTER_ENGLISH } from "./a1-starter";
 
 export const A1_STORY_ENGLISH: Record<string, string[]> = {
   ...A1_STARTER_ENGLISH,
-  "school-day-math-test": [
+  "marta-driving-test": [
     "Marta is thirty-two years old and doesn't have a driver's license. Today is Monday, and she has the theory test. Marta is very nervous. She doesn't sleep well the night before the test.",
     "In the morning, Marta goes to the test center with her friend Pablo. Pablo drives every day. \"Road signs aren't a monster,\" Pablo says with a smile. Marta smiles a little, but she is still scared.",
     "There are thirty people in the room. A woman hands out the tests. Marta reads the first questions. They're about traffic signs, and Marta studies the signs every day. She takes a deep breath and begins.",
@@ -50,7 +50,7 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
   "first-soccer-goal": [
     "Marcos plays on his school's soccer team. He really likes soccer, but he almost never plays in the games. Usually, he sits on the bench and watches his teammates. Marcos dreams of scoring a goal someday.",
     "Today is the most important game of the year. The coach looks at all the players on the bench. Suddenly, he says Marcos's name. \"Marcos, get in the game!\" the coach shouts.",
-    "Marcos runs onto the field with his heart racing. His teammates pass him the ball several times. He runs fast and does what he learns at practice. The crowd shouts and cheers on the whole team.",
+    "Marcos runs onto the field with his heart racing. His teammates pass him the ball several times. He runs fast and puts into practice what he learns in training. The crowd shouts and cheers on the whole team.",
     "In the second half, a teammate passes the ball to Marcos. Marcos sees the goal and takes a deep breath. With all his strength, he kicks the ball toward the goal. The ball goes in! It's a goal.",
     "The whole stadium shouts with joy. Marcos's teammates run to him and hug him. The coach smiles from the bench and claps loudly. Marcos can't believe it: he finally scores a goal!",
     "After the game, Marcos's family waits for him outside. His dad gives him a huge hug and is very proud. That night, Marcos sleeps with a smile on his face. It's the best day of his life as a soccer player.",
@@ -100,7 +100,7 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
   "saturday-at-the-market": [
     "Every Saturday, Mateo goes to the market with his mom. The market is full of colors, smells and sounds. There are stalls with fruit, vegetables, flowers and fresh bread. Mateo carries a cloth bag for the shopping.",
     "First, they go to the fruit stall. Mateo's mom buys apples, bananas and oranges. The seller smiles and has a small fruit for Mateo. \"What fruit is this?\" Mateo asks curiously.",
-    "\"It's called a mango,\" the seller answers kindly. Mateo tries the mango and loves its sweet taste. He asks his mom to buy several mangoes for the house. His mom says yes and buys a full bag.",
+    "\"It's called a mango,\" the seller answers kindly. Mateo tries the mango and loves its sweet taste. He asks his mom for several mangoes for the house. His mom says yes and buys a full bag.",
     "Next, they walk over to the vegetable stall. They buy tomatoes, carrots and a big head of lettuce. The vegetable seller has known Mateo's mom for years. They talk for a moment about the weather and the family.",
     "Mateo also wants to buy flowers for his grandmother. At the flower stall, he chooses some pretty yellow flowers. His mom pays for the flowers and Mateo carries them carefully. The flowers smell very sweet in his hands.",
     "Finally, they buy fresh bread from a small bakery. They walk home with their bags full of food. Mateo thinks about the delicious mango the whole way. That afternoon, he eats mango with his whole family and smiles happily.",
@@ -325,7 +325,7 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
   ],
   "el-hamster-escapa": [
     "Leo has a little hamster. Its name is Nuez. Nuez lives in a cage in Leo's room.",
-    "One afternoon, Leo opens the cage to give Nuez some food. For a moment, he doesn't close the door properly. Nuez gets out of the cage very fast.",
+    "One afternoon, Leo opens the cage to give Nuez some food. Carelessly, he doesn't close the door properly. Nuez gets out of the cage very fast.",
     "\"Mom, Nuez isn't in the cage!\" Leo shouts, frightened. The whole family starts looking for the hamster around the house.",
     "Dad looks under the furniture with a flashlight. Mom looks in the kitchen. Leo searches his own room very carefully.",
     "His little sister, Vera, has an idea. \"Hamsters look for food,\" Vera says. She puts some seeds on the floor near the cage.",
@@ -409,7 +409,7 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
     "Hugo wants to be on the school basketball team. Tryouts are on Monday afternoon. Hugo practices his shots every day in the park.",
     "At the tryouts, there are twenty students on the court. The coach explains the drills. Everyone runs, jumps and practices shooting.",
     "Hugo is nervous because he isn't very tall. But he runs very fast and passes the ball well. The coach watches closely.",
-    "During one drill, Hugo passes the ball to a teammate at the perfect moment. The team scores a point. The coach smiles and writes something on his paper.",
+    "During one drill, Hugo passes the ball to a teammate at the perfect moment. The team scores a basket. The coach smiles and writes something on his paper.",
     "At the end of the tryouts, the coach talks to each student. \"Your speed is very good,\" the coach tells Hugo. Hugo is happy with the comment.",
     "The next day, the school posts the team list. Hugo nervously looks for his name. His name is on the list!",
     "Hugo calls his parents with the good news. His family is very proud of him. Now Hugo practices every day for the first game.",
@@ -669,7 +669,7 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
   "painting-class-in-the-park": [
     "On Saturdays there is a painting class in the park. The teacher's name is Marina. Rocío is twelve years old, and she is going to the class for the first time with her friend Clara.",
     "Rocío doesn't paint well, or that's what she thinks. Clara paints very well. Her drawings are perfect. Rocío is afraid of painting badly in front of the other people.",
-    "Marina gives each student a big sheet of paper, brushes and colored paints. \"Today we're painting the lake,\" she says. On the lake there are ducks, trees and a small bridge.",
+    "Marina gives each student a big sheet of paper, brushes and colored paints. \"Today we're painting the lake,\" she says. On the lake there are ducks and a small bridge, and there are trees all around.",
     "Clara paints the lake exactly as it is. Rocío tries to paint the bridge, but the line isn't straight. She is frustrated. She wants to tear up the paper.",
     "Then Rocío has an idea. She paints the water purple and the sky orange. She paints the ducks big, in strong colors. It isn't a real lake. It's a fantasy lake.",
     "Marina walks between the students and looks at Rocío's paper. She stays there for a minute. \"This lake is very special,\" she says. \"It has your personality.\" All the students look at Rocío's painting.",
@@ -750,7 +750,7 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
   "saturday-house-cleaning": [
     "In the Ruiz family's house, Saturday morning is for cleaning. Nobody likes it. The kids, Carlos and Elena, always say, \"How boring!\"",
     "This Saturday, Dad has a new idea. He writes six chores on little pieces of paper. Someone has to sweep the kitchen, clean the bathroom and take out the trash. Someone also has to tidy the living room, water the plants and wash the dishes.",
-    "The kids each take two pieces of paper from a box, and the parents take one. Carlos gets the bathroom and the trash. Elena gets the plants and the living room. Mom gets the kitchen and Dad gets the dishes.",
+    "Each child takes two pieces of paper from a box, and each parent takes one. Carlos gets the bathroom and the trash. Elena gets the plants and the living room. Mom gets the kitchen and Dad gets the dishes.",
     "Then Dad puts on very loud music in the living room. \"We have one hour,\" he says. \"Whoever finishes first chooses tonight's dinner.\" Now it's a game!",
     "Everyone works fast. Elena dances while she straightens the sofa cushions. Carlos sings in the bathroom with the broom in his hand. Mom sweeps to the beat of the music.",
     "Elena finishes first, in forty minutes. But then she helps Carlos with the trash. After that, everyone helps Dad with the dishes. By eleven o'clock, the house is clean and sparkling.",
@@ -761,8 +761,8 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
     "Raúl's backpack is old and brown. It's made of leather and has lots of pockets. It's his grandfather's backpack. Raúl thinks it's a bit ugly.",
     "In the cafeteria, a coworker, Lucía, looks at the backpack. \"What an old-fashioned backpack!\" she says. Other coworkers smile. Raúl is a little sad.",
     "In the afternoon, Raúl calls his grandfather on the phone. \"Grandpa, I need a new backpack,\" he says. His grandfather answers: \"First, open the small pocket at the back.\"",
-    "Raúl doesn't know that pocket. Inside there's an old piece of paper. It's a hand-drawn map. \"It's the map of my village,\" his grandfather explains. \"That backpack has forty years of work in it.\"",
-    "His grandfather talks a lot about his village: the river, the market, the bakery on the square. Raúl listens very carefully. It's a lovely hour on the phone.",
+    "Raúl didn't know about that pocket. Inside there's an old piece of paper. It's a hand-drawn map. \"It's the map of my village,\" his grandfather explains. \"That backpack has forty years of work in it.\"",
+    "His grandfather talks a lot about his village: the river, the market, the bakery on the square. Raúl listens very carefully. They talk for an hour on the phone, and it's a lovely conversation.",
     "The next day, Raúl takes the old backpack to the office. He shows the map to Lucía. \"How lovely!\" she says. \"My backpack doesn't have any stories.\" Now Raúl is proud of his backpack.",
   ],
   "aunt-rosas-piano": [
