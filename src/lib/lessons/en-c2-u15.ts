@@ -317,7 +317,7 @@ export const EN_C2_U15: Lesson[] = [
         ],
         examples: [
           { es: "That brings me to my second point.", en: "Esto me lleva a mi segundo punto." },
-          { es: "Which brings me to the question of cost.", en: "Lo que me lleva a la cuestión del coste." },
+          { es: "Which brings me to the question of cost.", en: "Lo que me lleva a la cuestión del costo." },
           { es: "Let's turn now to the timeline.", en: "Pasemos ahora al calendario." },
           { es: "Moving on to the results of the pilot...", en: "Pasando a los resultados de la prueba piloto..." },
           { es: "So much for the problem. Now let's look at the solution.", en: "Hasta aquí el problema. Ahora veamos la solución." },
@@ -389,7 +389,7 @@ export const EN_C2_U15: Lesson[] = [
           "A recap should be shorter than what it summarizes: one sentence per point, no new information.",
         ],
         examples: [
-          { es: "So, to recap: costs are up and margins are down.", en: "Así que, en resumen: los costes han subido y los márgenes han bajado." },
+          { es: "So, to recap: costs are up and margins are down.", en: "Así que, en resumen: los costos han subido y los márgenes han bajado." },
           { es: "Let me just sum up what we've seen so far.", en: "Permítanme resumir lo que hemos visto hasta ahora." },
           { es: "In a nutshell, the pilot worked.", en: "En pocas palabras, la prueba piloto funcionó." },
           { es: "So the key point here is this: customers want speed, not discounts.", en: "Así que la idea clave es esta: los clientes quieren rapidez, no descuentos." },
@@ -501,7 +501,7 @@ export const EN_C2_U15: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Which", "brings", "me", "to", "the", "question", "of", "cost."],
-        translation: "Lo que me lleva a la cuestión del coste.",
+        translation: "Lo que me lleva a la cuestión del costo.",
         explanation: "\"Which brings me to...\" refers back to everything you have just said and links it to the next point.",
       },
       {
@@ -622,7 +622,7 @@ export const EN_C2_U15: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«Los costes aumentaron un 8 %.» Which is correct?",
+            question: "«Los costos aumentaron un 8 %.» Which is correct?",
             options: ["Costs increased by 8%.", "Costs increased in 8%.", "Costs increased an 8%.", "Costs increased on 8%."],
             correctIndex: 0,
             explanation: "The size of a change takes \"by\". *Increased in 8% is the most frequent Spanish-speaker error in presentations.",
@@ -646,7 +646,7 @@ export const EN_C2_U15: Lesson[] = [
           "In speech, \"tick up\" and \"tick down\" describe very small moves, and \"a blip\" is a brief, unimportant irregularity: \"The fall in March was just a blip.\"",
         ],
         examples: [
-          { es: "There was a slight increase in costs.", en: "Hubo un ligero aumento de los costes." },
+          { es: "There was a slight increase in costs.", en: "Hubo un ligero aumento de los costos." },
           { es: "Profits fell sharply in the second half.", en: "Los beneficios cayeron bruscamente en el segundo semestre." },
           { es: "We've seen steady growth for five years.", en: "Hemos tenido un crecimiento constante durante cinco años." },
           { es: "Prices remained stable throughout the period.", en: "Los precios se mantuvieron estables durante todo el periodo." },
@@ -686,7 +686,7 @@ export const EN_C2_U15: Lesson[] = [
           "Big numbers are a classic trap. English \"a billion\" is «mil millones», and \"a trillion\" is «un billón». English uses a decimal point and a comma for thousands: 3.5 is \"three point five\", and 1,200 is \"one thousand two hundred\" or \"twelve hundred\". After a number, \"million\" and \"billion\" take no -s: \"two million dollars\", not *two millions dollars.",
         ],
         examples: [
-          { es: "The rate rose from 10% to 12%, an increase of two percentage points.", en: "El tipo pasó del 10 % al 12 %, un aumento de dos puntos porcentuales." },
+          { es: "The rate rose from 10% to 12%, an increase of two percentage points.", en: "La tasa pasó del 10 % al 12 %, un aumento de dos puntos porcentuales." },
           { es: "A high percentage of users never open the app again.", en: "Un alto porcentaje de usuarios no vuelve a abrir la aplicación." },
           { es: "The project cost 3.5 billion dollars.", en: "El proyecto costó 3.500 millones de dólares." },
           { es: "Public debt is now over one trillion euros.", en: "La deuda pública supera ya el billón de euros." },
@@ -925,7 +925,7 @@ export const EN_C2_U15: Lesson[] = [
           "\"Would you consider + -ing / noun?\" is the classic counteroffer: \"Would you consider extending the warranty?\" After \"consider\", English uses the -ing form, never *consider to extend.",
         ],
         examples: [
-          { es: "That's a bit beyond our budget.", en: "Eso se nos va un poco de presupuesto." },
+          { es: "That's a bit beyond our budget.", en: "Eso excede un poco nuestro presupuesto." },
           { es: "We're looking for something closer to 40,000.", en: "Buscamos algo más cercano a los 40.000." },
           { es: "Would you consider extending the warranty to three years?", en: "¿Se plantearían ampliar la garantía a tres años?" },
           { es: "I'm not sure we'd be able to go that high.", en: "No sé si podríamos llegar tan alto." },
@@ -955,7 +955,7 @@ export const EN_C2_U15: Lesson[] = [
               "We can't, sorry, is impossible.",
             ],
             correctIndex: 0,
-            explanation: "A softened rejection plus a concrete alternative keeps things moving. The last option also drops the subject (*is impossible), a typical Spanish-speaker error.",
+            explanation: "A softened rejection plus a concrete alternative keeps things moving. \"We can't, sorry, is impossible\" also drops the subject (*is impossible), a typical Spanish-speaker error.",
           },
         ],
       },
@@ -1039,7 +1039,7 @@ export const EN_C2_U15: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Me temo que eso se nos va un poco de presupuesto.",
+        source: "Me temo que eso excede un poco nuestro presupuesto.",
         answer: "I'm afraid that's a bit beyond our budget.",
         altAnswers: alts(
           ["I'm afraid that's"],
@@ -1169,7 +1169,7 @@ export const EN_C2_U15: Lesson[] = [
               "Imagine a world where everything is better.",
             ],
             correctIndex: 0,
-            explanation: "Investors need the problem and its size immediately. The last option is a hook with no content: vague claims irritate investors.",
+            explanation: "Investors need the problem and its size immediately. \"Imagine a world where everything is better\" is a hook with no content: vague claims irritate investors.",
           },
         ],
       },
@@ -1260,7 +1260,7 @@ export const EN_C2_U15: Lesson[] = [
           "Thank you to everybody, and to the organization, and to my family.",
         ],
         correctIndex: 0,
-        explanation: "A short, surprising story suits a conference. The second is an investor ask, the third is an internal update and the fourth wastes the opening.",
+        explanation: "A short, surprising story suits a conference. The valuation line is an investor ask, the Q3 report is an internal update and the list of thanks wastes the opening.",
       },
       {
         type: "translate",
@@ -1379,7 +1379,7 @@ export const EN_C2_U15: Lesson[] = [
           "Vary the frames so you do not repeat \"next\" eight times: \"That brings me to...\", \"Let's turn now to...\", \"This raises the question of...\", \"So where does that leave us?\", \"With that in mind, let's look at...\".",
         ],
         examples: [
-          { es: "So that's why costs went up.", en: "Así que por eso subieron los costes." },
+          { es: "So that's why costs went up.", en: "Así que por eso subieron los costos." },
           { es: "This raises the question of who should pay for it.", en: "Esto plantea la cuestión de quién debería pagarlo." },
           { es: "So where does that leave us?", en: "Entonces, ¿en qué situación nos deja esto?" },
           { es: "With that in mind, let's look at the options.", en: "Teniendo esto en cuenta, veamos las opciones." },
@@ -1487,7 +1487,7 @@ export const EN_C2_U15: Lesson[] = [
         heading: "Signposting online",
         body: [
           "Online, the audience cannot see your face or the room, so signposting must be even more explicit: tell them what you are doing on screen. \"I'll share my screen.\", \"Can everyone see my screen?\", \"Can you all hear me OK?\", \"I'll stop sharing now so we can see each other.\"",
-          "Technical problems have fixed phrases: \"I think you're on mute.\" («estás silenciado»), \"You're breaking up.\" («se te corta»), \"You froze for a second.\" («te has quedado congelado»), \"Could you say that again? The connection dropped.\"",
+          "Technical problems have fixed phrases: \"I think you're on mute.\" («estás silenciado»), \"You're breaking up.\" («se te corta»), \"You froze for a second.\" («te quedaste congelado»), \"Could you say that again? The connection dropped.\"",
           "Invite participation explicitly: \"Feel free to drop your questions in the chat.\", \"I'll pause here for questions.\", \"Just unmute and jump in.\"",
         ],
         examples: [
@@ -1567,10 +1567,10 @@ export const EN_C2_U15: Lesson[] = [
         instructions: "Match each online phrase with its meaning.",
         pairs: [
           { left: "You're on mute.", right: "Tienes el micrófono silenciado." },
-          { left: "You froze.", right: "Te has quedado congelado." },
+          { left: "You froze.", right: "Te quedaste congelado." },
           { left: "I'll share my screen.", right: "Voy a compartir pantalla." },
           { left: "Just jump in.", right: "Intervengan cuando quieran." },
-          { left: "The connection dropped.", right: "Se ha caído la conexión." },
+          { left: "The connection dropped.", right: "Se cayó la conexión." },
         ],
         explanation: "These fixed phrases are used daily in remote work; the English rarely matches the Spanish word for word.",
       },
@@ -1671,7 +1671,7 @@ export const EN_C2_U15: Lesson[] = [
         ],
         examples: [
           { es: "Seven fifty would be very difficult for us, I'm afraid.", en: "Me temo que siete cincuenta nos resultaría muy difícil." },
-          { es: "Our costs have gone up a lot this year.", en: "Nuestros costes han subido mucho este año." },
+          { es: "Our costs have gone up a lot this year.", en: "Nuestros costos han subido mucho este año." },
           { es: "I completely understand, and we really value the quality of your coffee.", en: "Lo entiendo perfectamente, y valoramos mucho la calidad de su café." },
           { es: "But we need to make the numbers work.", en: "Pero necesitamos que las cuentas salgan." },
           { es: "I hear what you're saying, but that's not something we could agree to.", en: "Entiendo lo que dices, pero no es algo que podamos aceptar." },
@@ -1912,7 +1912,7 @@ export const EN_C2_U15: Lesson[] = [
           "When a Spanish speaker gives every syllable equal weight, the result sounds monotonous and, to native ears, oddly emphatic everywhere and nowhere. Reducing the small words is not lazy: it is what makes the important words stand out.",
         ],
         examples: [
-          { es: "We need to cut costs by the end of the year.", en: "Tenemos que reducir costes antes de fin de año." },
+          { es: "We need to cut costs by the end of the year.", en: "Tenemos que reducir costos antes de fin de año." },
           { es: "Sales have doubled since we launched the app.", en: "Las ventas se han duplicado desde que lanzamos la aplicación." },
           { es: "We can't afford to wait.", en: "No podemos permitirnos esperar." },
           { es: "I'd like to thank you for coming.", en: "Me gustaría darles las gracias por venir." },
@@ -1946,7 +1946,7 @@ export const EN_C2_U15: Lesson[] = [
           "The same sentence changes meaning with stress: \"WE didn't approve the budget\" (someone else did); \"We didn't approve the BUDGET\" (we approved something else).",
         ],
         examples: [
-          { es: "I said March, not May.", en: "He dicho marzo, no mayo." },
+          { es: "I said March, not May.", en: "Dije marzo, no mayo." },
           { es: "We didn't lose customers; we lost money.", en: "No perdimos clientes; lo que perdimos fue dinero." },
           { es: "The price isn't the problem. The delivery time is.", en: "El problema no es el precio, sino el plazo de entrega." },
           { es: "It wasn't our idea. It was theirs.", en: "No fue idea nuestra, sino suya." },
@@ -2156,7 +2156,7 @@ export const EN_C2_U15: Lesson[] = [
         ],
         examples: [
           { es: "For those of you who don't know me, I've spent ten years in renewable energy.", en: "Para quienes no me conozcan, llevo diez años en el sector de las energías renovables." },
-          { es: "That brings me to the question of cost.", en: "Esto me lleva a la cuestión del coste." },
+          { es: "That brings me to the question of cost.", en: "Esto me lleva a la cuestión del costo." },
           { es: "So, to recap: demand is up, but margins are down.", en: "Así que, recapitulando: la demanda ha subido, pero los márgenes han bajado." },
         ],
         checkpoint: [
@@ -2202,16 +2202,16 @@ export const EN_C2_U15: Lesson[] = [
           "In delivery, stress content words, use contrastive stress for corrections, respect noun and verb stress pairs (IN-crease, in-CREASE) and pause between thought groups.",
         ],
         examples: [
-          { es: "Costs rose by 6% to 4.2 million dollars.", en: "Los costes subieron un 6 %, hasta los 4,2 millones de dólares." },
+          { es: "Costs rose by 6% to 4.2 million dollars.", en: "Los costos subieron un 6 %, hasta los 4,2 millones de dólares." },
           { es: "If you could pay in advance, we'd be prepared to waive the delivery fee.", en: "Si pudieran pagar por adelantado, estaríamos dispuestos a no cobrar los gastos de envío." },
-          { es: "That's a bit beyond our budget.", en: "Eso se nos va un poco de presupuesto." },
+          { es: "That's a bit beyond our budget.", en: "Eso excede un poco nuestro presupuesto." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Los costes subieron un 6 %, hasta los 4,2 millones de dólares.",
+            source: "Los costos subieron un 6 %, hasta los 4,2 millones de dólares.",
             answer: "Costs rose by 6% to 4.2 million dollars.",
             altAnswers: alts(
               ["Costs"],

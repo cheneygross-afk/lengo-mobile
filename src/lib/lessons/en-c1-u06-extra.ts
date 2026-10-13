@@ -406,7 +406,7 @@ export const EN_C1_U06_EXTRA: Lesson[] = [
           { left: "although", right: "+ subject + verb (a clause)" },
           { left: "despite", right: "+ noun or -ing form" },
           { left: "however", right: "starts a new sentence, + comma" },
-          { left: "in spite of", right: "+ noun or -ing form, with «of»" },
+          { left: "in spite of", right: "+ noun or -ing form, with \"of\"" },
         ],
         explanation: "\"Although\" is a conjunction, \"despite\" and \"in spite of\" are prepositions, and \"however\" is a sentence adverb, so each one fits a different kind of structure.",
       },
@@ -578,7 +578,7 @@ export const EN_C1_U06_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "It's a lovely flat. ___, it's a bit noisy at night.",
+            sentence: "It's a lovely apartment. ___, it's a bit noisy at night.",
             answer: "Mind you",
             altAnswers: ["Then again", "Having said that", "That said"],
             en: "Es un departamento precioso. [Eso sí], es un poco ruidoso por la noche.",
@@ -598,13 +598,13 @@ export const EN_C1_U06_EXTRA: Lesson[] = [
         body: [
           "«Bueno» as a marker is never \"good\". When you hesitate or partly disagree, it is \"well\": \"Well, I'm not sure about that.\" When you close a topic or return to the main story, it is \"anyway\": \"Anyway, where was I?\" When you accept something reluctantly, it is \"OK\" or \"fine\".",
           "Spanish speakers often start every sentence with \"so\" or \"well\" because they use «pues» and «bueno» constantly. Use \"so\" for a real conclusion or to open a new topic (\"So, what did you decide?\"), and vary with other markers where they fit.",
-          "\"Still\" keeps your conclusion in spite of a problem and normally starts the sentence: \"Still, we had fun.\" \"Anyway\" can do the same job at the end of the sentence: \"We had fun anyway.\" («lo pasamos bien de todas formas»).",
+          "\"Still\" keeps your conclusion in spite of a problem and normally starts the sentence: \"Still, we had fun.\" \"Anyway\" can do the same job at the end of the sentence: \"We had fun anyway.\" («la pasamos bien de todas formas»).",
         ],
         examples: [
           { es: "Well, I'm not sure that's a good idea.", en: "Bueno, no sé si es buena idea." },
           { es: "Anyway, where was I?", en: "Bueno, ¿por dónde iba?" },
-          { es: "It rained the whole week. Still, we had a great time.", en: "Llovió toda la semana. Aun así, lo pasamos genial." },
-          { es: "We had a great time anyway.", en: "Lo pasamos genial de todas formas." },
+          { es: "It rained the whole week. Still, we had a great time.", en: "Llovió toda la semana. Aun así, la pasamos genial." },
+          { es: "We had a great time anyway.", en: "La pasamos genial de todas formas." },
           { es: "As I say, I'm happy to help if you need me.", en: "Como te digo, encantado de ayudar si me necesitas." },
         ],
         checkpoint: [

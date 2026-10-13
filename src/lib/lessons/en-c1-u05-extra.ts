@@ -62,7 +62,7 @@ export const EN_C1_U05_EXTRA: Lesson[] = [
           "\"Probable\" works only with \"it\": \"It is probable that...\". English needs the subject \"it\": *Is probable that is a Spanish word order. A person cannot be \"probable\": *He is probable to come is wrong; use \"likely\".",
         ],
         examples: [
-          { es: "Interest rates are likely to rise.", en: "Es probable que suban los tipos de interés." },
+          { es: "Interest rates are likely to rise.", en: "Es probable que suban las tasas de interés." },
           { es: "It is probable that the project will be delayed.", en: "Es probable que el proyecto se retrase." },
           { es: "He will likely arrive late.", en: "Probablemente llegará tarde." },
           { es: "They are unlikely to accept the offer.", en: "Es poco probable que acepten la oferta." },

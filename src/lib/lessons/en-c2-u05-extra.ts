@@ -54,7 +54,7 @@ export const EN_C2_U05_EXTRA: Lesson[] = [
         heading: "Real equivalents, false equivalents and twisted proverbs",
         body: [
           "Some refranes have close English twins: \"Like father, like son\" for «De tal palo, tal astilla»; \"Better late than never\" for «Más vale tarde que nunca». Others only partly match: «En boca cerrada no entran moscas» is closer to \"Least said, soonest mended\" or \"Silence is golden\" than to anything with flies.",
-          "Headlines and ads love twisted proverbs: \"Where there's a will, there's a lawyer\", \"Too many cooks? Not in our kitchen\". The joke only works if the reader knows the original, so recognising the base form is the real skill.",
+          "Headlines and ads love twisted proverbs: \"Where there's a will, there's a lawyer\", \"Too many cooks? Not in our kitchen\". The joke only works if the reader knows the original, so recognizing the base form is the real skill.",
           "When a proverb has no equivalent, say the idea plainly rather than inventing one: «Cría cuervos y te sacarán los ojos» → \"Be careful who you help; they may turn on you\", or the idiom \"bite the hand that feeds you\".",
         ],
         examples: [
@@ -74,7 +74,7 @@ export const EN_C2_U05_EXTRA: Lesson[] = [
               "The eyes are the window to the soul.",
             ],
             correctIndex: 0,
-            explanation: "The British proverb matches the Spanish one closely. The second option is a literal translation, the third a garbled version of \"Out of sight, out of mind\", and the fourth means something else.",
+            explanation: "The British proverb matches the Spanish one closely. \"Eyes that don't see, heart that doesn't feel\" is a literal translation, \"Out of sight, out of heart\" a garbled version of \"Out of sight, out of mind\", and the fourth means something else.",
           },
         ],
       },
@@ -117,11 +117,11 @@ export const EN_C2_U05_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "No cantes victoria antes de tiempo: el partido aún no ha terminado.",
-        answer: "Don't count your chickens before they hatch: the match isn't over yet.",
+        answer: "Don't count your chickens before they hatch: the game isn't over yet.",
         altAnswers: [
           "Don't count your chickens before they hatch: the match hasn't finished yet.",
           "Don't count your chickens before they hatch: the match isn't over.",
-          "Don't count your chickens before they hatch: the game isn't over yet.",
+          "Don't count your chickens before they hatch: the match isn't over yet.",
           "Don't count your chickens before they hatch: the game hasn't finished yet.",
           "Don't count your chickens before they hatch: the game isn't over.",
           "Don't count your chickens before they're hatched: the match isn't over yet.",

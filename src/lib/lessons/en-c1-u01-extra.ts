@@ -624,7 +624,7 @@ export const EN_C1_U01_EXTRA: Lesson[] = [
           "Only yesterday found I out.",
         ],
         correctIndex: 0,
-        explanation: "Inversion after \"only\" and \"not until\" is formal or dramatic. In casual speech, keep \"only\" in the middle: \"I only found out yesterday\". The last option is never correct.",
+        explanation: "Inversion after \"only\" and \"not until\" is formal or dramatic. In casual speech, keep \"only\" in the middle: \"I only found out yesterday\". *Only yesterday found I out is never correct.",
       },
       {
         type: "speak",
@@ -914,7 +914,7 @@ export const EN_C1_U01_EXTRA: Lesson[] = [
           { left: "At no time", right: "En ningún momento" },
           { left: "In no time", right: "En un santiamén" },
         ],
-        explanation: "The first three invert because they mean \"never\". \"In no time\" means \"very quickly\" and does not invert.",
+        explanation: "\"Under no circumstances\" and \"at no time\" invert because they are negative. \"In no time\" means \"very quickly\" and does not invert.",
       },
       {
         type: "translate",

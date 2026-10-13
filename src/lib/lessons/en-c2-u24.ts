@@ -692,7 +692,7 @@ export const EN_C2_U24: Lesson[] = [
         body: [
           "\"Was/were to have\" + past participle describes a plan or arrangement that did not take place: \"The wedding was to have taken place in May, but the bride fell ill.\" The perfect infinitive tells the reader immediately that the plan failed.",
           "The less formal equivalents are \"was going to\" (+ \"but\") and \"was supposed to\": \"The wedding was going to be in May, but...\". Spanish usually says «iba a» or «estaba previsto que», and the failure is shown only by context, so learners rarely think of \"was to have\".",
-          "Do not confuse it with \"would have\" + participle, which is conditional: \"The wedding would have taken place in May if the bride had not fallen ill.\" Both describe the same unrealised event from different angles.",
+          "Do not confuse it with \"would have\" + participle, which is conditional: \"The wedding would have taken place in May if the bride had not fallen ill.\" Both describe the same unrealized event from different angles.",
         ],
         examples: [
           { es: "The wedding was to have taken place in May, but the bride fell ill.", en: "La boda iba a celebrarse en mayo, pero la novia enfermó." },
@@ -757,7 +757,7 @@ export const EN_C2_U24: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "La cumbre iba a celebrarse en Ginebra, pero se canceló en el último momento.",
-        answer: "The summit was to have taken place in Geneva, but it was cancelled at the last minute.",
+        answer: "The summit was to have taken place in Geneva, but it was canceled at the last minute.",
         altAnswers: [
           "The summit was to have been held in Geneva, but it was cancelled at the last minute.",
           "The summit was going to take place in Geneva, but it was cancelled at the last minute.",
@@ -1454,7 +1454,7 @@ export const EN_C2_U24: Lesson[] = [
       {
         heading: "Would: repeated actions only",
         body: [
-          "\"Would\" + infinitive also describes past habits, with a more literary, nostalgic flavour: \"Every spring the shepherds would drive their flocks north.\" But it has one strict limit: it only works with repeated ACTIONS, never with states. *The king would be very rich and *They would have a large estate are wrong as descriptions of past states; English needs \"was\" / \"used to be\" and \"had\" / \"used to have\".",
+          "\"Would\" + infinitive also describes past habits, with a more literary, nostalgic flavor: \"Every spring the shepherds would drive their flocks north.\" But it has one strict limit: it only works with repeated ACTIONS, never with states. *The king would be very rich and *They would have a large estate are wrong as descriptions of past states; English needs \"was\" / \"used to be\" and \"had\" / \"used to have\".",
           "This is a typical advanced-level slip for Spanish speakers, because the conditional «sería» and the «imperfecto» «era» are both available in Spanish narration (the «condicional de rumor» or of probability: «Serían las diez»). In English, \"He would be poor\" can only mean a hypothesis or a future in the past, never «era pobre».",
           "\"Would\" usually needs a time frame already set up by the context or by \"used to\". Writers often open with \"used to\" and continue with \"would\": \"The monks used to rise before dawn. They would pray, then they would work in the fields until noon.\" In the negative, \"would not\" usually means refusal («no quería»), so for negative habits prefer \"did not\" or \"never used to\".",
         ],
@@ -1498,7 +1498,7 @@ export const EN_C2_U24: Lesson[] = [
       {
         heading: "Don't let the past continuous run on",
         body: [
-          "The past continuous needs a frame: a moment or another event that the action was in progress at, or a parallel action. \"At midnight the guards were changing shifts\" works; *In the eighteenth century, people were traveling by horse does not, because there is no moment, only a long era. Use the past simple or \"used to\": \"In the eighteenth century, people travelled by horse.\"",
+          "The past continuous needs a frame: a moment or another event that the action was in progress at, or a parallel action. \"At midnight the guards were changing shifts\" works; *In the eighteenth century, people were traveling by horse does not, because there is no moment, only a long era. Use the past simple or \"used to\": \"In the eighteenth century, people traveled by horse.\"",
           "The past continuous with \"always\" or \"constantly\" does express repeated actions, but with an emotional coloring, usually irritation: \"The ambassador was always complaining about the food.\" Use it on purpose, not as a neutral habit marker.",
           "A useful test: ask «¿en ese preciso momento?». If the answer is yes, the past continuous fits. If the «imperfecto» describes a period, a habit or a state, it almost certainly does not.",
         ],
@@ -1603,7 +1603,7 @@ export const EN_C2_U24: Lesson[] = [
           "When the revolution broke out, the tsar was vacationing in Crimea.",
           "When the revolution broke out, the czar was vacationing in Crimea.",
         ],
-        explanation: "\"Was on holiday\" (American: \"on vacation\") describes the situation at the moment of the event; the event itself, \"broke out\", is in the past simple.",
+        explanation: "\"Was on vacation\" (British: \"on holiday\") describes the situation at the moment of the event; the event itself, \"broke out\", is in the past simple.",
       },
       {
         type: "matching",
@@ -1669,7 +1669,7 @@ export const EN_C2_U24: Lesson[] = [
           "Uses the past simple for states and general facts.",
           "Does not use the past continuous without a specific moment of reference.",
         ],
-        modelAnswer: "In medieval villages, life used to follow the seasons. Most families were poor and owned very little. In spring the men would plow the fields, and in autumn the whole village would help with the harvest. On feast days people would dance in the square. Few villagers could read, and most of them never travelled further than the nearest market town.",
+        modelAnswer: "In medieval villages, life used to follow the seasons. Most families were poor and owned very little. In spring the men would plow the fields, and in autumn the whole village would help with the harvest. On feast days people would dance in the square. Few villagers could read, and most of them never traveled further than the nearest market town.",
         explanation: "\"Would\" carries the repeated actions (plow, help, dance), while states like \"were poor\", \"owned\" and \"could read\" stay in the past simple.",
       },
       {
@@ -1768,10 +1768,10 @@ export const EN_C2_U24: Lesson[] = [
         ],
       },
       {
-        heading: "The continuous for effect: irritation, temporariness, behaviour",
+        heading: "The continuous for effect: irritation, temporariness, behavior",
         body: [
           "\"Always\", \"constantly\" or \"forever\" + present continuous does not just describe a habit; it complains about it: \"He is always interrupting me.\" Compare the neutral \"He always interrupts me\". Spanish expresses the same tone with «siempre está...» or «no para de...».",
-          "The continuous also marks something as temporary, in contrast with a permanent state: \"I live in Madrid\" (my home) vs \"I am living in Madrid this year\" (a temporary arrangement). Even \"be\" can go in the continuous to describe behaviour at the moment: \"You are being silly\" means you are acting silly now, not that you are a silly person. Compare «Eres tonto» with «Estás haciendo el tonto».",
+          "The continuous also marks something as temporary, in contrast with a permanent state: \"I live in Madrid\" (my home) vs \"I am living in Madrid this year\" (a temporary arrangement). Even \"be\" can go in the continuous to describe behavior at the moment: \"You are being silly\" means you are acting silly now, not that you are a silly person. Compare «Eres tonto» with «Estás haciendo el tonto».",
           "Remember that English uses the present continuous for fixed future arrangements, where Spanish uses the plain present: «Mañana ceno con mis suegros» is \"I am having dinner with my in-laws tomorrow\", not *I have dinner with my in-laws tomorrow.",
         ],
         examples: [
@@ -1784,7 +1784,7 @@ export const EN_C2_U24: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence complains about someone's behaviour rather than simply describing a habit?",
+            question: "Which sentence complains about someone's behavior rather than simply describing a habit?",
             options: [
               "My neighbor is always playing the drums at midnight.",
               "My neighbor always plays the drums on Sundays.",
@@ -1800,7 +1800,7 @@ export const EN_C2_U24: Lesson[] = [
             sentence: "Stop it. You ___ ridiculous.",
             answer: "are being",
             en: "Para ya. [Estás siendo] ridículo.",
-            explanation: "\"Be\" in the continuous describes temporary behaviour (acting ridiculous now), not a permanent quality: \"You are being ridiculous\".",
+            explanation: "\"Be\" in the continuous describes temporary behavior (acting ridiculous now), not a permanent quality: \"You are being ridiculous\".",
           },
         ],
       },
@@ -1809,7 +1809,7 @@ export const EN_C2_U24: Lesson[] = [
         body: [
           "Many verbs that are normally stative have a second, dynamic meaning that does take the continuous. \"I think you are right\" (opinion) vs \"I am thinking of moving to Lisbon\" (considering). \"She sees the problem\" (understands) vs \"She is seeing someone\" (dating). \"The soup tastes salty\" vs \"The chef is tasting the soup\". \"We have a house\" vs \"We are having a party\".",
           "Some states can also be put in the continuous to sound softer or more tentative, especially in speech and marketing: \"I am loving this weather\", \"We are hoping you can join us.\" Use these deliberately; in formal writing, the simple form is safer.",
-          "Finally, the historic present tells past events in the present simple to make them vivid, both in jokes and anecdotes (\"So I walk into the office and my boss says...\") and in history writing (\"In 1492 Columbus sets sail from Palos\"). Whatever tense you choose, keep it consistent within the passage; Spanish narrators switch more freely than English ones.",
+          "Finally, the historic present tells past events in the present simple to make them vivid, both in jokes and anecdotes (\"So I walk into the office and my boss says...\") and in timelines or dramatized popular history (\"1492: Columbus sets sail from Palos\"), though formal history essays normally stay in the past. Whatever tense you choose, keep it consistent within the passage; Spanish narrators switch more freely than English ones.",
         ],
         examples: [
           { es: "I am thinking of moving to Lisbon.", en: "Estoy pensando en mudarme a Lisboa." },
@@ -1895,13 +1895,13 @@ export const EN_C2_U24: Lesson[] = [
           "My boss is constantly changing his mind at the last moment.",
           "My boss is constantly changing her mind at the last moment.",
         ],
-        explanation: "\"Always\" + present continuous expresses irritation at a repeated behaviour, exactly like «siempre está...». Note \"change your mind\" for «cambiar de opinión».",
+        explanation: "\"Always\" + present continuous expresses irritation at a repeated behavior, exactly like «siempre está...». Note \"change your mind\" for «cambiar de opinión».",
       },
       {
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "No nos vemos desde la boda de Lucia.",
+        source: "No nos vemos desde la boda de Lucía.",
         answer: "We have not seen each other since Lucia's wedding.",
         altAnswers: [
           "We have not seen one another since Lucia's wedding.",
@@ -1918,7 +1918,7 @@ export const EN_C2_U24: Lesson[] = [
           { left: "He is a difficult person.", right: "Es una persona difícil." },
           { left: "He is being difficult.", right: "Se está poniendo difícil." },
         ],
-        explanation: "The stative form describes understanding or a permanent quality; the continuous describes an activity or behaviour at the moment.",
+        explanation: "The stative form describes understanding or a permanent quality; the continuous describes an activity or behavior at the moment.",
       },
       {
         type: "fill-blank",
@@ -2299,7 +2299,7 @@ export const EN_C2_U24: Lesson[] = [
           "Hedges at least one claim with \"might\", \"could\" or a phrase like \"it is doubtful whether\".",
           "Never uses \"would\" in the if-clause.",
         ],
-        modelAnswer: "Had the Spanish Armada reached England in 1588, the course of European history might have changed. A Catholic England could have joined forces with Spain, and the Protestant Reformation might have remained a northern German affair. If England had not survived as an independent naval power, English would probably not be the global language it is today. Even so, it is doubtful whether Spain could have held the island for long, given its commitments in Flanders and the Americas.",
+        modelAnswer: "Had the Spanish Armada reached England in 1588, the course of European history might have changed. A Catholic England could have joined forces with Spain, and the Protestant cause might have collapsed in the Netherlands as well. If England had not survived as an independent naval power, English would probably not be the global language it is today. Even so, it is doubtful whether Spain could have held the island for long, given its commitments in Flanders and the Americas.",
         explanation: "The model combines an inverted third conditional, a mixed conditional (\"had not survived... would not be\") and a closing hedge.",
       },
       {

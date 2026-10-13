@@ -1327,7 +1327,7 @@ export const EN_C1_U10_DRILLS: Lesson[] = [
       {
         heading: "Recap: fixed order, fixed comparison",
         body: [
-          "Binomials never change order: \"pros and cons\", \"safe and sound\", \"odds and ends\", \"give and take\", \"sick and tired\", \"by and large\" (in general). Some are the reverse of Spanish: \"black and white\", \"sooner or later\", \"back and forth\", \"bread and butter\"; others keep the Spanish order: \"more or less\", \"ladies and gentlemen\", \"trial and error\".",
+          "Binomials never change order: \"pros and cons\", \"safe and sound\", \"odds and ends\", \"give and take\", \"sick and tired\", \"by and large\" (in general). Some are the reverse of Spanish: \"black and white\", \"sooner or later\", \"back and forth\"; others keep the Spanish order: \"bread and butter\", \"more or less\", \"ladies and gentlemen\", \"trial and error\".",
           "Similes use \"as + adjective + as\" or \"like + noun\": \"as cool as a cucumber\", \"as clear as mud\" (ironic), \"as deaf as a post\", \"as good as gold\", \"sleep like a log\", \"like a fish out of water\". Spanish «más sordo que una tapia» never becomes *more deaf than a wall.",
         ],
         examples: [
@@ -2438,7 +2438,7 @@ export const EN_C1_U10_DRILLS: Lesson[] = [
         answer: "once in a blue moon",
         altAnswers: ["only once in a blue moon"],
         en: "Mi tío nos visita [muy de vez en cuando].",
-        explanation: "MOON → \"once in a blue moon\". *Once in the blue moon would lose the mark: the article is \"a\".",
+        explanation: "MOON → \"once in a blue moon\". *Once in the blue moon would be marked wrong: the article is \"a\".",
       },
       {
         type: "fill-blank",
@@ -2782,7 +2782,7 @@ export const EN_C1_U10_DRILLS: Lesson[] = [
         text: "I'm a people person, so I'd love a job working with customers.",
         prompt: "In a job interview, say: «Se me da bien tratar con la gente, así que me encantaría un trabajo de atención al cliente.»",
         tip: "Stress \"PEOple person\" as one unit, and \"LOVE\" in \"I'd love\".",
-        explanation: "\"A people person\" is a perfect CV and interview phrase for someone good with people.",
+        explanation: "\"A people person\" is a perfect résumé and interview phrase for someone good with people.",
       },
       {
         type: "translate",

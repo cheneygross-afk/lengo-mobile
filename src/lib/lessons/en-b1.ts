@@ -65,40 +65,68 @@ import { EN_B1_U25_EXTRA } from "./en-b1-u25-extra";
 import { EN_B1_U26_EXTRA } from "./en-b1-u26-extra";
 import { EN_B1_U27_EXTRA } from "./en-b1-u27-extra";
 import { EN_B1_U28_EXTRA } from "./en-b1-u28-extra";
+import { EN_B1_U01_DRILLS } from "./en-b1-u01-drills";
+import { EN_B1_U02_DRILLS } from "./en-b1-u02-drills";
+import { EN_B1_U03_DRILLS } from "./en-b1-u03-drills";
+import { EN_B1_U04_DRILLS } from "./en-b1-u04-drills";
+import { EN_B1_U05_DRILLS } from "./en-b1-u05-drills";
+import { EN_B1_U06_DRILLS } from "./en-b1-u06-drills";
+import { EN_B1_U07_DRILLS } from "./en-b1-u07-drills";
+import { EN_B1_U08_DRILLS } from "./en-b1-u08-drills";
+import { EN_B1_U09_DRILLS } from "./en-b1-u09-drills";
+import { EN_B1_U10_DRILLS } from "./en-b1-u10-drills";
+import { EN_B1_U11_DRILLS } from "./en-b1-u11-drills";
+import { EN_B1_U12_DRILLS } from "./en-b1-u12-drills";
+import { EN_B1_U13_DRILLS } from "./en-b1-u13-drills";
+import { EN_B1_U14_DRILLS } from "./en-b1-u14-drills";
+import { EN_B1_U15_DRILLS } from "./en-b1-u15-drills";
+import { EN_B1_U16_DRILLS } from "./en-b1-u16-drills";
+import { EN_B1_U17_DRILLS } from "./en-b1-u17-drills";
+import { EN_B1_U18_DRILLS } from "./en-b1-u18-drills";
+import { EN_B1_U19_DRILLS } from "./en-b1-u19-drills";
+import { EN_B1_U20_DRILLS } from "./en-b1-u20-drills";
+import { EN_B1_U21_DRILLS } from "./en-b1-u21-drills";
+import { EN_B1_U22_DRILLS } from "./en-b1-u22-drills";
+import { EN_B1_U23_DRILLS } from "./en-b1-u23-drills";
+import { EN_B1_U24_DRILLS } from "./en-b1-u24-drills";
+import { EN_B1_U25_DRILLS } from "./en-b1-u25-drills";
+import { EN_B1_U26_DRILLS } from "./en-b1-u26-drills";
+import { EN_B1_U27_DRILLS } from "./en-b1-u27-drills";
+import { EN_B1_U28_DRILLS } from "./en-b1-u28-drills";
 
 // English for Spanish speakers (beta), B1. Conventions as in en-a1.ts, except that from B1 up
 // the teaching text is in English (Spanish words in «guillemets»), mirroring
 // the Spanish course's switch to Spanish at B1.
 
 const UNITS: EnglishUnitDef[] = [
-  { id: "u01", title: "The Present Perfect Continuous", description: "Talk about actions that started in the past and are still going on, with for, since and how long.", lessons: [...EN_B1_U01, ...EN_B1_U01_EXTRA] },
-  { id: "u02", title: "Present Perfect or Past Simple?", description: "Choose between have done and did, the classic problem for Spanish speakers.", lessons: [...EN_B1_U02, ...EN_B1_U02_EXTRA] },
-  { id: "u03", title: "Narrative Tenses and the Past Perfect", description: "Tell stories with the past simple, past continuous and past perfect.", lessons: [...EN_B1_U03, ...EN_B1_U03_EXTRA] },
-  { id: "u04", title: "Past Habits and Getting Used to Things", description: "Talk about past habits and new routines with used to, would, be used to and get used to.", lessons: [...EN_B1_U04, ...EN_B1_U04_EXTRA] },
-  { id: "u05", title: "The Future in All Its Forms", description: "Talk about plans, predictions and arrangements, and use the future continuous and future perfect.", lessons: [...EN_B1_U05, ...EN_B1_U05_EXTRA] },
-  { id: "u06", title: "Time Clauses and Real Conditions", description: "Use the present after when, as soon as, unless and in case.", lessons: [...EN_B1_U06, ...EN_B1_U06_EXTRA] },
-  { id: "u07", title: "Verb Tenses Review", description: "Mix every tense you have learned in this level so far.", lessons: [...EN_B1_U07, ...EN_B1_U07_EXTRA] },
-  { id: "u08", title: "The Second Conditional", description: "Talk about imaginary situations: if I had..., I would...", lessons: [...EN_B1_U08, ...EN_B1_U08_EXTRA] },
-  { id: "u09", title: "The Third Conditional and Wishes", description: "Talk about an imaginary past and what you would like to change.", lessons: [...EN_B1_U09, ...EN_B1_U09_EXTRA] },
-  { id: "u10", title: "Conditionals in Practice", description: "Use all the conditionals together in real situations.", lessons: [...EN_B1_U10, ...EN_B1_U10_EXTRA] },
-  { id: "u11", title: "Obligation, Prohibition and Advice", description: "Give rules and advice with must, have to, don't have to, should, ought to and had better.", lessons: [...EN_B1_U11, ...EN_B1_U11_EXTRA] },
-  { id: "u12", title: "Ability, Possibility and Deduction", description: "Talk about ability and possibility, and make deductions with could, be able to, might and must.", lessons: [...EN_B1_U12, ...EN_B1_U12_EXTRA] },
-  { id: "u13", title: "Modal Verbs in Practice", description: "Make requests and ask for permission with modals in real situations.", lessons: [...EN_B1_U13, ...EN_B1_U13_EXTRA] },
-  { id: "u14", title: "The Passive Voice, Part 1", description: "Use the passive when the action matters more than who does it.", lessons: [...EN_B1_U14, ...EN_B1_U14_EXTRA] },
-  { id: "u15", title: "The Passive Voice, Part 2, and the Causative", description: "Use have something done and other useful passive structures.", lessons: [...EN_B1_U15, ...EN_B1_U15_EXTRA] },
-  { id: "u16", title: "Defining Relative Clauses", description: "Define people, things and places with who, which, that, where and whose.", lessons: [...EN_B1_U16, ...EN_B1_U16_EXTRA] },
-  { id: "u17", title: "Non-Defining Relative Clauses and What", description: "Add extra information with non-defining relative clauses, what, and which at the end of a sentence.", lessons: [...EN_B1_U17, ...EN_B1_U17_EXTRA] },
-  { id: "u18", title: "Review: The First Half of the Level", description: "A spiral review of tenses, conditionals, modals, the passive and relative clauses.", lessons: [...EN_B1_U18, ...EN_B1_U18_EXTRA] },
-  { id: "u19", title: "Reported Speech: Statements", description: "Report what other people said with said, told and backshifted tenses.", lessons: [...EN_B1_U19, ...EN_B1_U19_EXTRA] },
-  { id: "u20", title: "Reported Speech: Questions and Commands", description: "Report questions and commands, and use a range of reporting verbs.", lessons: [...EN_B1_U20, ...EN_B1_U20_EXTRA] },
-  { id: "u21", title: "Gerunds and Infinitives", description: "Use verb patterns like enjoy doing and want to do, and -ing after prepositions.", lessons: [...EN_B1_U21, ...EN_B1_U21_EXTRA] },
-  { id: "u22", title: "Verb Patterns in Practice", description: "Use remember, stop and try; make and let; and like doing vs would like to.", lessons: [...EN_B1_U22, ...EN_B1_U22_EXTRA] },
-  { id: "u23", title: "Advanced Questions", description: "Ask indirect questions, subject questions and question tags, and answer with so do I.", lessons: [...EN_B1_U23, ...EN_B1_U23_EXTRA] },
-  { id: "u24", title: "Quantifiers and Intensifiers", description: "Use too, enough, so, such and a wider range of quantifiers.", lessons: [...EN_B1_U24, ...EN_B1_U24_EXTRA] },
-  { id: "u25", title: "Articles and Nouns", description: "Choose between the and no article, handle uncountable nouns and make verbs agree.", lessons: [...EN_B1_U25, ...EN_B1_U25_EXTRA] },
-  { id: "u26", title: "Phrasal Verbs, Make, Do and Get", description: "Use the most common English verbs and the combinations they form.", lessons: [...EN_B1_U26, ...EN_B1_U26_EXTRA] },
-  { id: "u27", title: "Adjectives, Adverbs and Comparisons", description: "Use -ed and -ing adjectives, put adjectives in order and make advanced comparisons.", lessons: [...EN_B1_U27, ...EN_B1_U27_EXTRA] },
-  { id: "u28", title: "Linking Words and Writing", description: "Connect ideas in writing with although, despite, however and so that.", lessons: [...EN_B1_U28, ...EN_B1_U28_EXTRA] },
+  { id: "u01", title: "The Present Perfect Continuous", description: "Talk about actions that started in the past and are still going on, with for, since and how long.", lessons: [...EN_B1_U01, ...EN_B1_U01_DRILLS, ...EN_B1_U01_EXTRA] },
+  { id: "u02", title: "Present Perfect or Past Simple?", description: "Choose between have done and did, the classic problem for Spanish speakers.", lessons: [...EN_B1_U02, ...EN_B1_U02_DRILLS, ...EN_B1_U02_EXTRA] },
+  { id: "u03", title: "Narrative Tenses and the Past Perfect", description: "Tell stories with the past simple, past continuous and past perfect.", lessons: [...EN_B1_U03, ...EN_B1_U03_DRILLS, ...EN_B1_U03_EXTRA] },
+  { id: "u04", title: "Past Habits and Getting Used to Things", description: "Talk about past habits and new routines with used to, would, be used to and get used to.", lessons: [...EN_B1_U04, ...EN_B1_U04_DRILLS, ...EN_B1_U04_EXTRA] },
+  { id: "u05", title: "The Future in All Its Forms", description: "Talk about plans, predictions and arrangements, and use the future continuous and future perfect.", lessons: [...EN_B1_U05, ...EN_B1_U05_DRILLS, ...EN_B1_U05_EXTRA] },
+  { id: "u06", title: "Time Clauses and Real Conditions", description: "Use the present after when, as soon as, unless and in case.", lessons: [...EN_B1_U06, ...EN_B1_U06_DRILLS, ...EN_B1_U06_EXTRA] },
+  { id: "u07", title: "Verb Tenses Review", description: "Mix every tense you have learned in this level so far.", lessons: [...EN_B1_U07, ...EN_B1_U07_DRILLS, ...EN_B1_U07_EXTRA] },
+  { id: "u08", title: "The Second Conditional", description: "Talk about imaginary situations: if I had..., I would...", lessons: [...EN_B1_U08, ...EN_B1_U08_DRILLS, ...EN_B1_U08_EXTRA] },
+  { id: "u09", title: "The Third Conditional and Wishes", description: "Talk about an imaginary past and what you would like to change.", lessons: [...EN_B1_U09, ...EN_B1_U09_DRILLS, ...EN_B1_U09_EXTRA] },
+  { id: "u10", title: "Conditionals in Practice", description: "Use all the conditionals together in real situations.", lessons: [...EN_B1_U10, ...EN_B1_U10_DRILLS, ...EN_B1_U10_EXTRA] },
+  { id: "u11", title: "Obligation, Prohibition and Advice", description: "Give rules and advice with must, have to, don't have to, should, ought to and had better.", lessons: [...EN_B1_U11, ...EN_B1_U11_DRILLS, ...EN_B1_U11_EXTRA] },
+  { id: "u12", title: "Ability, Possibility and Deduction", description: "Talk about ability and possibility, and make deductions with could, be able to, might and must.", lessons: [...EN_B1_U12, ...EN_B1_U12_DRILLS, ...EN_B1_U12_EXTRA] },
+  { id: "u13", title: "Modal Verbs in Practice", description: "Make requests and ask for permission with modals in real situations.", lessons: [...EN_B1_U13, ...EN_B1_U13_DRILLS, ...EN_B1_U13_EXTRA] },
+  { id: "u14", title: "The Passive Voice, Part 1", description: "Use the passive when the action matters more than who does it.", lessons: [...EN_B1_U14, ...EN_B1_U14_DRILLS, ...EN_B1_U14_EXTRA] },
+  { id: "u15", title: "The Passive Voice, Part 2, and the Causative", description: "Use have something done and other useful passive structures.", lessons: [...EN_B1_U15, ...EN_B1_U15_DRILLS, ...EN_B1_U15_EXTRA] },
+  { id: "u16", title: "Defining Relative Clauses", description: "Define people, things and places with who, which, that, where and whose.", lessons: [...EN_B1_U16, ...EN_B1_U16_DRILLS, ...EN_B1_U16_EXTRA] },
+  { id: "u17", title: "Non-Defining Relative Clauses and What", description: "Add extra information with non-defining relative clauses, what, and which at the end of a sentence.", lessons: [...EN_B1_U17, ...EN_B1_U17_DRILLS, ...EN_B1_U17_EXTRA] },
+  { id: "u18", title: "Review: The First Half of the Level", description: "A spiral review of tenses, conditionals, modals, the passive and relative clauses.", lessons: [...EN_B1_U18, ...EN_B1_U18_DRILLS, ...EN_B1_U18_EXTRA] },
+  { id: "u19", title: "Reported Speech: Statements", description: "Report what other people said with said, told and backshifted tenses.", lessons: [...EN_B1_U19, ...EN_B1_U19_DRILLS, ...EN_B1_U19_EXTRA] },
+  { id: "u20", title: "Reported Speech: Questions and Commands", description: "Report questions and commands, and use a range of reporting verbs.", lessons: [...EN_B1_U20, ...EN_B1_U20_DRILLS, ...EN_B1_U20_EXTRA] },
+  { id: "u21", title: "Gerunds and Infinitives", description: "Use verb patterns like enjoy doing and want to do, and -ing after prepositions.", lessons: [...EN_B1_U21, ...EN_B1_U21_DRILLS, ...EN_B1_U21_EXTRA] },
+  { id: "u22", title: "Verb Patterns in Practice", description: "Use remember, stop and try; make and let; and like doing vs would like to.", lessons: [...EN_B1_U22, ...EN_B1_U22_DRILLS, ...EN_B1_U22_EXTRA] },
+  { id: "u23", title: "Advanced Questions", description: "Ask indirect questions, subject questions and question tags, and answer with so do I.", lessons: [...EN_B1_U23, ...EN_B1_U23_DRILLS, ...EN_B1_U23_EXTRA] },
+  { id: "u24", title: "Quantifiers and Intensifiers", description: "Use too, enough, so, such and a wider range of quantifiers.", lessons: [...EN_B1_U24, ...EN_B1_U24_DRILLS, ...EN_B1_U24_EXTRA] },
+  { id: "u25", title: "Articles and Nouns", description: "Choose between the and no article, handle uncountable nouns and make verbs agree.", lessons: [...EN_B1_U25, ...EN_B1_U25_DRILLS, ...EN_B1_U25_EXTRA] },
+  { id: "u26", title: "Phrasal Verbs, Make, Do and Get", description: "Use the most common English verbs and the combinations they form.", lessons: [...EN_B1_U26, ...EN_B1_U26_DRILLS, ...EN_B1_U26_EXTRA] },
+  { id: "u27", title: "Adjectives, Adverbs and Comparisons", description: "Use -ed and -ing adjectives, put adjectives in order and make advanced comparisons.", lessons: [...EN_B1_U27, ...EN_B1_U27_DRILLS, ...EN_B1_U27_EXTRA] },
+  { id: "u28", title: "Linking Words and Writing", description: "Connect ideas in writing with although, despite, however and so that.", lessons: [...EN_B1_U28, ...EN_B1_U28_DRILLS, ...EN_B1_U28_EXTRA] },
   { id: "u29", title: "Review: The Second Half of the Level", description: "A spiral review of reported speech, verb patterns, questions and nouns.", lessons: EN_B1_U29 },
   { id: "u30", title: "Real-Life Situations: Phone Calls, Banks and Apartments", description: "Role-play everyday tasks in English: phone calls, banking and renting an apartment.", lessons: EN_B1_U30 },
   { id: "u31", title: "Real-Life Situations: Offices, Stores and Work", description: "Handle paperwork, complaints, returns and job interviews in English.", lessons: EN_B1_U31 },

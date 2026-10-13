@@ -26,7 +26,7 @@ export const EN_C1_U02_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "It was Maria who called, not her sister.", en: "Fue Maria quien llamó, no su hermana." },
-          { es: "It was the kids who left the tap running.", en: "Fueron los niños los que dejaron el grifo abierto." },
+          { es: "It was the kids who left the faucet running.", en: "Fueron los niños los que dejaron la llave abierta." },
           { es: "It's not the heat that bothers me, it's the humidity.", en: "No es el calor lo que me molesta, es la humedad." },
           { es: "It's not talent but hard work that makes the difference.", en: "No es el talento sino el esfuerzo lo que marca la diferencia." },
           { es: "Was it your idea to paint the kitchen green?", en: "¿Fue idea tuya pintar la cocina de verde?" },
@@ -482,7 +482,7 @@ export const EN_C1_U02_EXTRA: Lesson[] = [
           "More volunteers are what we need.",
         ],
         correctIndex: 0,
-        explanation: "The first option has no main verb. \"Is\" and \"are\" are both accepted with a plural focus, and the reversed order is also correct.",
+        explanation: "\"What we need more volunteers\" has no main verb. \"Is\" and \"are\" are both accepted with a plural focus, and the reversed order is also correct.",
       },
       {
         type: "fill-blank",
@@ -869,7 +869,7 @@ export const EN_C1_U02_EXTRA: Lesson[] = [
           { es: "What we need is a clear plan.", en: "Lo que necesitamos es un plan claro." },
           { es: "I did lock the door! Go and check.", en: "¡Que sí que cerré la puerta con llave! Ve a comprobarlo." },
           { es: "Much as I'd like to help, I can't this week.", en: "Aunque me encantaría ayudar, esta semana no puedo." },
-          { es: "Never before has the company faced such a challenge.", en: "Nunca antes se había enfrentado la empresa a semejante reto." },
+          { es: "Never before has the company faced such a challenge.", en: "Nunca antes se ha enfrentado la empresa a semejante reto." },
         ],
         checkpoint: [
           {
@@ -922,7 +922,7 @@ export const EN_C1_U02_EXTRA: Lesson[] = [
               "I did need some help.",
             ],
             correctIndex: 0,
-            explanation: "The first option mixes a wh-cleft, an it-cleft and emphatic \"did\" in one sentence. Choose one structure.",
+            explanation: "\"What it was that I really did need was some help\" mixes a wh-cleft, an it-cleft and emphatic \"did\" in one sentence. Choose one structure.",
           },
         ],
       },
@@ -938,7 +938,7 @@ export const EN_C1_U02_EXTRA: Lesson[] = [
           "So difficult the year was for the company.",
         ],
         correctIndex: 0,
-        explanation: "Formal writing is where inversion shines: \"Never before has...\". The second repeats the subject, the third is a pointless cleft, and the fourth is incomplete.",
+        explanation: "Formal writing is where inversion shines: \"Never before has...\". The other options repeat the subject, add a pointless cleft, or are incomplete.",
       },
       {
         type: "multiple-choice",

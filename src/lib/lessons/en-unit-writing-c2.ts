@@ -103,7 +103,7 @@ Dr. Emma Clarke`,
 
 So we bit the bullet and rebuilt the stand from scratch with whatever we could find. Tom knew someone who ran a print shop, and she pulled out all the stops to print new banners overnight. I spent the evening cutting cardboard and, to be honest, by midnight I was running on fumes.
 
-On the morning of the fair, the stand looked surprisingly good, if a little home-made. Then, at the eleventh hour, the original panels arrived. By then we had grown fond of our improvised version, so we kept it. To our amazement, visitors loved it: several told us it really stood out from the slick, identical stands around us. Our manager was over the moon, and the whole episode turned out to be a blessing in disguise, because the company now commissions a similar handmade design every year.
+On the morning of the fair, the stand looked surprisingly good, if a little homemade. Then, at the eleventh hour, the original panels arrived. By then we had grown fond of our improvised version, so we kept it. To our amazement, visitors loved it: several told us it really stood out from the slick, identical stands around us. Our manager was over the moon, and the whole episode turned out to be a blessing in disguise, because the company now commissions a similar handmade design every year.
 
 The lesson I took away is that you shouldn't count your chickens before they hatch. Then again, you shouldn't give up on them too early either.`,
     `Idioms are fixed expressions: "at the eleventh hour", "bite the bullet" and "a blessing in disguise" lose their meaning if a word is changed. Translating Spanish idioms literally produces calques: «no hay mal que por bien no venga» becomes "every cloud has a silver lining" or "a blessing in disguise", and «estar con el agua al cuello» is "be up to your neck in it".`
@@ -132,7 +132,7 @@ Margaret`,
     `English speakers often half-quote a proverb ("the grass is always greener...") because everyone knows the ending, and proverbs keep old grammar ("He who hesitates is lost", "Nothing ventured, nothing gained"). Use the English equivalent, not a translation: «más vale pájaro en mano que ciento volando» is "a bird in the hand is worth two in the bush".`
   ),
   u06: t(
-    `Write a short, affectionate speech for a colleague's farewell party. Include at least one pun, one clear example of understatement and some gentle irony, and make sure the humour stays kind.`,
+    `Write a short, affectionate speech for a colleague's farewell party. Include at least one pun, one clear example of understatement and some gentle irony, and make sure the humor stays kind.`,
     [
       `At least one pun that plays on a double meaning`,
       `Understatement or deadpan ("not ideal" for a disaster)`,
@@ -150,7 +150,7 @@ He is also, as many of you know, a keen cyclist. He rides to work in all weather
 Joking aside, Daniel has been the person we all went to when something didn't add up, whether in a spreadsheet or in life. He was patient with every new hire, including me, and I am fairly sure he quietly fixed half of my formulas without ever mentioning it.
 
 So, Daniel, we will miss you, and that is putting it mildly. Please raise your glasses: to Daniel, and to a retirement that will, I'm reliably informed, be only slightly less thrilling than a budget meeting.`,
-    `A pun exploits two meanings at once ("a job that really counted", "didn't add up"), and understatement says far less than the truth ("that's not ideal" about a crashed server), a hallmark of British humour. Irony works only if the audience can see the gap between the words and the facts; note also that «gracioso» is "funny", while "graceful" means elegant.`
+    `A pun exploits two meanings at once ("a job that really counted", "didn't add up"), and understatement says far less than the truth ("that's not ideal" about a crashed server), a hallmark of British humor. Irony works only if the audience can see the gap between the words and the facts; note also that «gracioso» is "funny", while "graceful" means elegant.`
   ),
   u07: t(
     `Describe the town or city where you grew up as it was then and as it is now. Use figurative language deliberately: at least one conceptual metaphor, one simile, one example of personification, one of metonymy and one hyperbole, without mixing your metaphors.`,
@@ -283,7 +283,7 @@ Overall, the interview was informative, but listeners should bear in mind that D
     `A good summary keeps the data apart from the speaker's interpretation and signals stance through reporting verbs: "argued", "acknowledged" and "insisted" say far more than "said". Spanish speakers often write *the 18% of the traffic; in English a change is expressed as "traffic fell by 18 percent", with no article.`
   ),
   u13: t(
-    `Write a short argumentative essay on whether homework should be abolished in primary schools. Take a clear position, concede at least one opposing point before refuting it, use learned connectors, and identify a logical fallacy in the opposing case.`,
+    `Write a short argumentative essay on whether homework should be abolished in elementary schools. Take a clear position, concede at least one opposing point before refuting it, use learned connectors, and identify a logical fallacy in the opposing case.`,
     [
       `A clear thesis and a logical structure`,
       `At least one concession followed by a refutation ("Admittedly... It does not follow, however, that...")`,
@@ -309,7 +309,7 @@ Granted, schools should not simply leave families to their own devices. Instead 
     ],
     `Ladies and gentlemen, over the past hour my opponents have told you that a ban on private cars in the old town would ruin businesses, punish families and turn our historic center into a museum. Let me answer each of those fears in turn.
 
-First, business. Cities that have pedestrianized their centers, from Pontevedra to Ghent, have generally seen footfall rise, not fall. People do not shop from behind a windscreen; they shop on foot. Second, families. It is our children who breathe the fumes at the school gates, and it is our elderly neighbors who are afraid to cross the street. A ban does not punish families; it protects them. Third, the museum. A museum is a place where nothing moves. A street full of cafes, cyclists and children playing is the very opposite.
+First, business. Cities that have pedestrianized their centers, from Pontevedra to Ghent, have generally seen foot traffic rise, not fall. People do not shop from behind a windshield; they shop on foot. Second, families. It is our children who breathe the fumes at the school gates, and it is our elderly neighbors who are afraid to cross the street. A ban does not punish families; it protects them. Third, the museum. A museum is a place where nothing moves. A street full of cafes, cyclists and children playing is the very opposite.
 
 I have worked as a children's nurse in this city for fifteen years. I have treated children whose asthma flares up every time the traffic builds, and I have seen what a single car-free Sunday does for them.
 
@@ -355,11 +355,11 @@ Thank you for your time on Tuesday. I thought the meeting was very productive, a
 
 2. Contract length. In return for the reduced price, we have agreed to a two-year contract instead of the twelve months we initially proposed. Either party may terminate the contract with ninety days' written notice after the first year.
 
-3. Delivery. You will deliver every two weeks to our warehouse in Valencia. Should a delivery arrive more than three working days late, a discount of 5 percent will apply to that order.
+3. Delivery. You will deliver every two weeks to our warehouse in Valencia. Should a delivery arrive more than three business days late, a discount of 5 percent will apply to that order.
 
 4. Payment. We agreed to payment within forty-five days of invoice, as a compromise between your standard thirty days and our usual sixty.
 
-Two points remain unresolved. First, you were going to check whether the price can be fixed for the full two years or only for the first. Second, we still need to agree who will bear the cost of the new printing plates. Could you let me know your position on both by Friday 14 June?
+Two points remain unresolved. First, you were going to check whether the price can be fixed for the full two years or only for the first. Second, we still need to agree who will bear the cost of the new printing plates. Could you let me know your position on both by Friday, June 14?
 
 Once these are settled, our legal team will draw up the contract for signature. Please let me know if any of the above does not reflect your understanding.
 
@@ -423,7 +423,7 @@ So, is it worth it? Absolutely. Just don't do it to be useful. Do it to be a beg
     `Negative inversion ("Not since childhood had I felt", "Never have I learned") and clefts ("It is the experience... that makes") put the key idea in focus, while hypophora raises a question in order to answer it. Inversion needs the auxiliary before the subject: *Never I have learned follows Spanish word order and is wrong in English.`
   ),
   u20: t(
-    `Write a one-minute speech for a neighborhood meeting opposing the council's plan to turn an empty plot into a car park instead of a community garden. Reply directly to a rhetorical question the council has asked, use feigned doubt and an attitude tag, and end with a memorable line.`,
+    `Write a one-minute speech for a neighborhood meeting opposing the council's plan to turn an empty plot into a parking lot instead of a community garden. Reply directly to a rhetorical question the council has asked, use feigned doubt and an attitude tag, and end with a memorable line.`,
     [
       `The opponents' rhetorical question quoted and answered`,
       `Feigned doubt ("I may be wrong, but...") used ironically`,
@@ -474,7 +474,7 @@ As a result, we fulfilled ninety-seven percent of our orders on time over the ho
 
 I am writing to apply for the position of Senior Communications Officer at Greenway Housing, as advertised on your website. Having spent the last six years in communications for non-profit organizations, most recently at a regional network of food banks, I was delighted to see a role that combines public engagement with work I care about deeply.
 
-In my current position, I lead a team of three and manage all external communications, from press relations to our social media channels. Two achievements seem particularly relevant to your needs. First, I redesigned our volunteer recruitment campaign, replacing generic appeals with short video stories from existing volunteers. Within a year, sign-ups rose by 60 per cent, and the proportion of volunteers still active after six months rose from roughly half to over two thirds. Second, when a supplier scandal threatened our reputation in 2023, I coordinated our response, briefing journalists, drafting statements and keeping donors informed. Donations actually rose that quarter, which I believe reflects the value of being open early.
+In my current position, I lead a team of three and manage all external communications, from press relations to our social media channels. Two achievements seem particularly relevant to your needs. First, I redesigned our volunteer recruitment campaign, replacing generic appeals with short video stories from existing volunteers. Within a year, sign-ups rose by 60 percent, and the proportion of volunteers still active after six months rose from roughly half to over two thirds. Second, when a supplier scandal threatened our reputation in 2023, I coordinated our response, briefing journalists, drafting statements and keeping donors informed. Donations actually rose that quarter, which I believe reflects the value of being open early.
 
 Your advertisement emphasizes the need to rebuild trust with tenants after recent changes in management. This is exactly the kind of challenge I enjoy: listening carefully, explaining decisions clearly and making sure people feel heard rather than managed. I am also a native Spanish speaker, which I understand would be an asset given the communities you serve.
 
@@ -547,7 +547,7 @@ There followed, in the mid-1840s, a period of feverish speculation that contempo
 The third phase, roughly from 1850 to the 1870s, was one of consolidation. Smaller companies were absorbed into larger ones, timetables were standardized, and the railways came to shape everyday life in ways that would have been unthinkable a generation earlier. A single national time was itself, to a large extent, a by-product of the need to coordinate trains.
 
 Historians continue to debate the economic impact of the railways. Some have argued that their contribution to growth has been overstated, since canals and roads could have carried much of the same traffic. Nevertheless, their social and cultural consequences are difficult to dispute: they shrank distances, created the commuter and, in a very real sense, invented the modern timetable.`,
-    `A historian's voice periodizes, links cause and consequence ("It was only with... that...") and hedges judgement ("perhaps", "Some have argued"). Note the formal inversion "There followed a period of...", and remember that "history" in general takes no article: «la historia nos enseña» is "history teaches us", not *the history teaches us.`
+    `A historian's voice periodizes, links cause and consequence ("It was only with... that...") and hedges judgment ("perhaps", "Some have argued"). Note the formal inversion "There followed a period of...", and remember that "history" in general takes no article: «la historia nos enseña» is "history teaches us", not *the history teaches us.`
   ),
   u26: t(
     `Write a popular-science explainer for a general magazine about a scientific hypothesis, for example the idea that sleep allows the brain to clear away waste. Present the hypothesis, the evidence and its limits, hedge your claims appropriately, and make the idea accessible with an analogy.`,
@@ -683,7 +683,7 @@ Overall, the company remains fundamentally sound, but these results underline it
     ],
     `The radio had been crackling all afternoon, the way it always did before a storm, but Grandpa said it was just the old set getting tired.
 
-"Like me," he said, and laughed, and coughed for a long time afterwards.
+"Like me," he said, and laughed, and coughed for a long time afterward.
 
 I was twelve that summer, and the island smelled of salt, diesel and the lavender soap he kept by the sink. Every evening we climbed the hundred and four steps of the lighthouse together. He counted them aloud. I counted his breaths between them, though I never told him that.
 

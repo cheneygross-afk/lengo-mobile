@@ -352,7 +352,7 @@ export const EN_C2_U13_EXTRA: Lesson[] = [
           "At least one negative or passive subjunctive (\"not be\", \"be limited\").",
           "No *suggest someone to or backshifted forms.",
         ],
-        modelAnswer: "Dear Councillors,\n\nOn behalf of the residents of Park Street, we request that work on the construction site be limited to the hours of 8 a.m. to 6 p.m. We also ask that heavy machinery not be used on weekends. Furthermore, it is essential that the company provide a contact number for complaints, and we recommend that an inspector visit the site every month.\n\nYours faithfully,\nThe Park Street Residents' Committee",
+        modelAnswer: "Dear Council Members,\n\nOn behalf of the residents of Park Street, we request that work on the construction site be limited to the hours of 8 a.m. to 6 p.m. We also ask that heavy machinery not be used on weekends. Furthermore, it is essential that the company provide a contact number for complaints, and we recommend that an inspector visit the site every month.\n\nSincerely,\nThe Park Street Residents' Committee",
         explanation: "The model uses \"request that work be limited\", \"ask that machinery not be used\", \"essential that the company provide\" and \"recommend that an inspector visit\".",
       },
       {
@@ -679,9 +679,9 @@ export const EN_C2_U13_EXTRA: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["Had", "I", "not", "seen", "the", "sign,", "I", "would", "have", "got", "lost."],
+        words: ["Had", "I", "not", "seen", "the", "sign,", "I", "would", "have", "gotten", "lost."],
         translation: "Si no hubiera visto el cartel, me habría perdido.",
-        altOrders: [["I", "would", "have", "got", "lost", "had", "I", "not", "seen", "the", "sign"]],
+        altOrders: [["I", "would", "have", "gotten", "lost", "had", "I", "not", "seen", "the", "sign"]],
         explanation: "In the inverted negative, \"not\" follows the subject: \"Had I not seen\". *Hadn't I seen is not used in formal conditionals.",
       },
       {
@@ -814,7 +814,7 @@ export const EN_C2_U13_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Were we to accept these terms, we would lose all our influence.",
-        tip: "\"Were\" is stressed at the start of an inverted conditional: /ˈwɜː wi tu əkˈsept/. Don't reduce it to the weak /wə/.",
+        tip: "\"Were\" is stressed at the start of an inverted conditional: /ˈwɝ wi tu əkˈsɛpt/. Don't reduce it to the weak /wɚ/.",
         explanation: "Opening with \"Were we to...\" sounds measured and authoritative, which is why it is common in negotiations and debates.",
       },
     ],

@@ -283,7 +283,7 @@ export const EN_C2_U24_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Cuando por fin encontraron a los supervivientes, llevaban cinco días sin comer.",
+        source: "Cuando por fin encontraron a los sobrevivientes, llevaban cinco días sin comer.",
         answer: "When they finally found the survivors, they hadn't eaten for five days.",
         altAnswers: [
           "When they finally found the survivors, they had gone five days without food.",
@@ -418,7 +418,7 @@ export const EN_C2_U24_EXTRA: Lesson[] = [
         body: [
           "\"Be used to\" means «estar acostumbrado a» and \"get used to\" means «acostumbrarse a». Here \"to\" is a preposition, so it is followed by a noun or an -ing form: \"I'm used to working at night\", \"You'll get used to the noise\".",
           "Compare: \"I used to work at night\" (antes trabajaba de noche: no longer) and \"I'm used to working at night\" (estoy acostumbrado). *I'm used to work at night mixes the two.",
-          "Both work in any tense: \"I wasn't used to the heat\", \"It took me months to get used to driving on the left\", \"Have you got used to the new system?\".",
+          "Both work in any tense: \"I wasn't used to the heat\", \"It took me months to get used to driving on the left\", \"Have you gotten used to the new system?\".",
         ],
         examples: [
           {
@@ -1140,7 +1140,7 @@ export const EN_C2_U24_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "\"The talks ___ in Vienna, but they were cancelled at the last minute.\" Which form is best in formal historical writing?",
+            question: "\"The talks ___ in Vienna, but they were canceled at the last minute.\" Which form is best in formal historical writing?",
             options: ["were to have been held", "would be held", "are held", "were held"],
             correctIndex: 0,
             explanation: "\"Was/were to have\" + participle is the formal way to describe a plan that did not happen. \"Were held\" contradicts the cancellation.",

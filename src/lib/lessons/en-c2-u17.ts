@@ -87,7 +87,7 @@ export const EN_C2_U17: Lesson[] = [
               "According to the report, the policy was, \"a qualified success\".",
             ],
             correctIndex: 0,
-            explanation: "In American English the period goes inside the closing quotation mark. The second option is British (logical) style, the third uses Spanish angle quotes, and the comma before a quotation blended into the sentence is wrong in any style.",
+            explanation: "In American English the period goes inside the closing quotation mark. The version with the period outside is British (logical) style, the one with «» uses Spanish angle quotes, and the comma before a quotation blended into the sentence is wrong in any style.",
           },
           {
             type: "multiple-choice",
@@ -255,7 +255,7 @@ export const EN_C2_U17: Lesson[] = [
           "She called the plan - unworkable.",
         ],
         correctIndex: 0,
-        explanation: "British publishers often use single quotation marks and logical punctuation, so the full stop goes outside. The second sentence is the American equivalent; angle quotes and dashes are Spanish conventions.",
+        explanation: "British publishers often use single quotation marks and logical punctuation, so the full stop goes outside. The version with double quotation marks and the period inside is the American equivalent; angle quotes and dashes are Spanish conventions.",
       },
       {
         type: "fill-blank",
@@ -899,7 +899,7 @@ export const EN_C2_U17: Lesson[] = [
         question: "Which in-text citation is in MLA style?",
         options: ["(Moore 112)", "(Moore, 2020, p. 112)", "(Moore 2020, p. 112)", "(Moore, p. 112, 2020)"],
         correctIndex: 0,
-        explanation: "MLA gives author and page only, with no comma and no \"p.\". The second is APA and the third a typical Harvard form.",
+        explanation: "MLA gives author and page only, with no comma and no \"p.\". (Moore, 2020, p. 112) is APA and (Moore 2020, p. 112) a typical Harvard form.",
       },
       {
         type: "multiple-choice",
@@ -1041,7 +1041,7 @@ export const EN_C2_U17: Lesson[] = [
         body: [
           "\"Ibid.\" (from \"ibidem\", in the same place) means the source is the same as in the previous note: \"Ibid., 45\" if the page changes. It must refer to the note immediately before; if another source intervenes, you cannot use it. Spanish uses «ibid.» or «íd.» the same way.",
           "\"Op. cit.\" (in the work cited) follows an author's name to refer back to a work cited earlier: \"Smith, op. cit., 112\". It is now discouraged: Chicago prefers a shortened citation with author and short title, which the reader can find without hunting back through the notes. \"Loc. cit.\" (in the place cited) is almost obsolete.",
-          "\"Passim\" (here and there) means a topic is mentioned throughout a range: \"pp. 30-55 passim\". \"Et seq.\" or \"ff.\" means \"and the following pages\". In modern writing, none of these abbreviations is italicised.",
+          "\"Passim\" (here and there) means a topic is mentioned throughout a range: \"pp. 30-55 passim\". \"Et seq.\" or \"ff.\" means \"and the following pages\". In modern writing, none of these abbreviations is italicized.",
         ],
         examples: [
           { es: "Ibid., 45.", en: "Ibíd., p. 45. (misma fuente que la nota anterior, otra página)" },
@@ -1300,7 +1300,7 @@ export const EN_C2_U17: Lesson[] = [
           "Uses any abbreviation (\"cf.\", \"e.g.\", \"i.e.\") correctly",
           "Keeps a formal, concise register",
         ],
-        modelAnswer: "For a fuller discussion of the novel's reception in Madrid, see chapter 4 below; cf. Moore, who reads the same reviews as evidence of indifference rather than hostility. I am grateful to Dr Emma Hall for drawing my attention to the serialized first edition. All translations are my own unless otherwise stated.",
+        modelAnswer: "For a fuller discussion of the novel's reception in Madrid, see chapter 4 below; cf. Moore, who reads the same reviews as evidence of indifference rather than hostility. I am grateful to Dr. Emma Hall for drawing my attention to the serialized first edition. All translations are my own unless otherwise stated.",
         explanation: "A good discursive note does several small jobs in very few words: it signposts, situates your view against others, acknowledges help and clarifies your method.",
       },
     ],
@@ -1551,7 +1551,7 @@ export const EN_C2_U17: Lesson[] = [
           "Her contention that the treaty was illegal it is widely accepted.",
         ],
         correctIndex: 0,
-        explanation: "Reporting nouns take a that-clause directly. The last option repeats the subject with \"it\", a common error after a long subject.",
+        explanation: "Reporting nouns take a that-clause directly. The version ending \"illegal it is widely accepted\" repeats the subject with \"it\", a common error after a long subject.",
       },
       {
         type: "fill-blank",
@@ -1676,7 +1676,7 @@ export const EN_C2_U17: Lesson[] = [
               "Clark proves that the reform increased inequality.",
             ],
             correctIndex: 0,
-            explanation: "The first option changes structure and wording and keeps the hedge (\"seems\"). The second and third are patchwriting or unmarked quotation, and the fourth upgrades \"appears\" to \"proves\".",
+            explanation: "The \"According to Clark\" version changes structure and wording and keeps the hedge (\"seems\"). The versions that keep \"far from... deepened it\" are patchwriting or unmarked quotation, and \"Clark proves\" upgrades \"appears\" to \"proves\".",
           },
           {
             type: "translate",
@@ -1818,7 +1818,7 @@ export const EN_C2_U17: Lesson[] = [
               "The authors claim that they may have underestimated the effect.",
             ],
             correctIndex: 0,
-            explanation: "\"Acknowledge\" fits a self-critical admission, and \"may have\" keeps the hedge. The second and third options remove it, and \"claim\" casts doubt on an admission, which makes no sense.",
+            explanation: "\"Acknowledge\" fits a self-critical admission, and \"may have\" keeps the hedge. \"Admit that they underestimated\" and \"show that\" remove it, and \"claim\" casts doubt on an admission, which makes no sense.",
           },
           {
             type: "translate",
@@ -1994,7 +1994,7 @@ export const EN_C2_U17: Lesson[] = [
         ],
         examples: [
           { es: "The minister stated that the plan would be ready the following year.", en: "El ministro afirmó que el plan estaría listo al año siguiente." },
-          { es: "Several interviewees said that they had never been consulted.", en: "Varios entrevistados dijeron que nunca les habían consultado." },
+          { es: "Several interviewees said that they had never been consulted.", en: "Varios entrevistados dijeron que nunca los habían consultado." },
           { es: "She told the committee that the data could not be released.", en: "Dijo a la comisión que los datos no podían hacerse públicos." },
           { es: "Participants were told to close their eyes.", en: "Se pidió a los participantes que cerraran los ojos." },
           { es: "He admitted that he had seen the letter the day before.", en: "Admitió que había visto la carta el día anterior." },
@@ -2004,7 +2004,7 @@ export const EN_C2_U17: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Varios entrevistados dijeron que nunca les habían consultado.",
+            source: "Varios entrevistados dijeron que nunca los habían consultado.",
             answer: "Several interviewees said that they had never been consulted.",
             altAnswers: [
               "Several interviewees said they had never been consulted.",
@@ -2997,7 +2997,7 @@ export const EN_C2_U17: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Write a short paragraph (a mini literature review) on whether homework improves learning, using these sources: Patel (2018) found a small positive effect in secondary schools; Brown and Lee (2020) found no effect in primary schools; a teachers' union leaflet says homework \"destroys family life\". Cite in APA style, choose reporting verbs that show your stance and finish with your own view.",
+        prompt: "Write a short paragraph (a mini literature review) on whether homework improves learning, using these sources: Patel (2018) found a small positive effect in high schools; Brown and Lee (2020) found no effect in elementary schools; a teachers' union leaflet says homework \"destroys family life\". Cite in APA style, choose reporting verbs that show your stance and finish with your own view.",
         minWords: 80,
         maxWords: 150,
         rubric: [
@@ -3007,7 +3007,7 @@ export const EN_C2_U17: Lesson[] = [
           "Integrates the leaflet's phrase as a partial quotation with correct punctuation",
           "Ends with the writer's own view introduced with \"In my view\" or similar, not \"according to me\"",
         ],
-        modelAnswer: "The evidence on homework is less clear-cut than public debate suggests. Patel (2018) found a small positive effect on attainment in secondary schools, whereas Brown and Lee (2020) found no measurable effect among primary pupils. Taken together, these studies suggest that the benefits of homework, if any, depend on age. Some opponents go much further: one teachers' union leaflet claims that homework \"destroys family life,\" although it offers no evidence for this assertion. In my view, the research supports limiting homework in primary schools rather than abolishing it altogether.",
+        modelAnswer: "The evidence on homework is less clear-cut than public debate suggests. Patel (2018) found a small positive effect on attainment in high schools, whereas Brown and Lee (2020) found no measurable effect among elementary school students. Taken together, these studies suggest that the benefits of homework, if any, depend on age. Some opponents go much further: one teachers' union leaflet claims that homework \"destroys family life,\" although it offers no evidence for this assertion. In my view, the research supports limiting homework in elementary schools rather than abolishing it altogether.",
         explanation: "A strong mini review moves from specific findings (past) to an overall picture (present), signals stance through verbs, and closes in the writer's own voice.",
       },
     ],

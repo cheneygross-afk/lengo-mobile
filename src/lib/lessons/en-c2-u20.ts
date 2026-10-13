@@ -914,7 +914,7 @@ export const EN_C2_U20: Lesson[] = [
       {
         heading: "The detective's toolkit",
         body: [
-          "To analyse a speech you need names for the devices. Anaphora: repeating the opening words of successive clauses (\"we shall fight... we shall fight...\"). Tricolon: three parallel items. Antithesis: two opposed ideas in parallel form (\"not by X but by Y\"). Chiasmus: a reversal of the order of words (\"ask not what A can do for B, ask what B can do for A\").",
+          "To analyze a speech you need names for the devices. Anaphora: repeating the opening words of successive clauses (\"we shall fight... we shall fight...\"). Tricolon: three parallel items. Antithesis: two opposed ideas in parallel form (\"not by X but by Y\"). Chiasmus: a reversal of the order of words (\"ask not what A can do for B, ask what B can do for A\").",
           "Add the devices from the previous lessons: rhetorical questions, hypophora, fronting and negative inversion. Most great speeches combine three or four of them in a single passage.",
           "Spanish rhetoric uses the same devices («anáfora», «antítesis», «quiasmo»), so the terms will feel familiar. Just watch the stress: \"anaphora\" is /əˈnæfərə/ and \"antithesis\" is /ænˈtɪθəsɪs/, both stressed on the second syllable.",
         ],
@@ -1659,7 +1659,7 @@ export const EN_C2_U20: Lesson[] = [
       {
         heading: "Emphasis structures",
         body: [
-          "Clefts focus one element: \"What we need is time.\" (wh-cleft), \"It was the cost that worried them.\" (it-cleft). Spanish does the same with «Lo que necesitamos es tiempo» and «Fue el precio lo que les preocupó», so the structures transfer well; just remember the English verb agrees with what follows (\"What we need are clear rules\" is also heard, but \"is\" is safer).",
+          "Clefts focus one element: \"What we need is time.\" (wh-cleft), \"It was the cost that worried them.\" (it-cleft). Spanish does the same with «Lo que necesitamos es tiempo» and «Fue el precio lo que les preocupó», so the structures transfer well; just remember that the verb after a wh-clause is normally singular: \"What we need is clear rules\" (\"What we need are clear rules\" is also heard).",
           "Negative and restrictive adverbials at the start trigger inversion: \"Never have we had a better chance.\", \"Not only did it fail, it cost a fortune.\", \"Only then did we understand.\", \"Little did they know...\". The auxiliary comes before the subject, just as in a question.",
           "Fronting moves an object or complement to the start for contrast: \"This we cannot accept.\", \"That I can promise you.\" Use it sparingly: once per speech is plenty.",
         ],
@@ -2349,7 +2349,7 @@ export const EN_C2_U20: Lesson[] = [
           { left: "Never has the choice been clearer.", right: "inversión negativa" },
           { left: "faster, fairer and cheaper", right: "tricolon" },
         ],
-        explanation: "Recognizing the device is the first step in both analysing a speech and replying to an opponent.",
+        explanation: "Recognizing the device is the first step in both analyzing a speech and replying to an opponent.",
       },
       {
         type: "multiple-choice",

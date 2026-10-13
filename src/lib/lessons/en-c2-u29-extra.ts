@@ -129,7 +129,7 @@ export const EN_C2_U29_EXTRA: Lesson[] = [
         sentence: "I wish you ___ interrupting me all the time.",
         answer: "would stop",
         altAnswers: ["'d stop"],
-        en: "A ver si [dejas] de interrumpirme todo el rato.",
+        en: "A ver si [dejas] de interrumpirme todo el tiempo.",
         explanation: "Irritation at someone else's repeated behavior: \"wish\" + \"would\". This is the one case where \"would\" belongs after \"wish\".",
       },
       {

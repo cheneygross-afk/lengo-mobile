@@ -25,7 +25,7 @@ export const EN_C2_U02_EXTRA: Lesson[] = [
           { es: "The Contractor shall complete the works by 31 May.", en: "El Contratista finalizará las obras a más tardar el 31 de mayo." },
           { es: "The Client may cancel the order at any time before dispatch.", en: "El Cliente podrá cancelar el pedido en cualquier momento antes del envío." },
           { es: "The Tenant shall not keep pets on the premises.", en: "El Arrendatario no podrá tener mascotas en el inmueble." },
-          { es: "The Employee is entitled to 25 days' paid holiday.", en: "El Empleado tiene derecho a 25 días de vacaciones retribuidas." },
+          { es: "The Employee is entitled to 25 days' paid vacation.", en: "El Empleado tiene derecho a 25 días de vacaciones retribuidas." },
           { es: "The Supplier is not obliged to accept returns after 30 days.", en: "El Proveedor no está obligado a aceptar devoluciones pasados 30 días." },
         ],
         checkpoint: [
@@ -397,7 +397,7 @@ export const EN_C2_U02_EXTRA: Lesson[] = [
           { es: "The goods were packed in accordance with the regulations.", en: "La mercancía se embaló conforme a la normativa." },
           { es: "With regard to your complaint, we have opened an investigation.", en: "En relación con su queja, hemos abierto una investigación." },
           { es: "All prices are subject to change without notice.", en: "Todos los precios están sujetos a cambios sin previo aviso." },
-          { es: "I am writing on behalf of my client, Ms Ruiz.", en: "Le escribo en nombre de mi clienta, la Sra. Ruiz." },
+          { es: "I am writing on behalf of my client, Ms. Ruiz.", en: "Le escribo en nombre de mi clienta, la Sra. Ruiz." },
           { es: "The new rules apply with effect from 1 January.", en: "Las nuevas normas se aplican con efecto desde el 1 de enero." },
         ],
         checkpoint: [
@@ -426,7 +426,7 @@ export const EN_C2_U02_EXTRA: Lesson[] = [
       {
         heading: "Choosing the right phrase, and when to keep it plain",
         body: [
-          "\"In respect of\" is very formal and mostly British (\"fees in respect of services\"); \"with regard to\" and \"regarding\" are safe everywhere. *With regards to is common in speech but is still criticised in formal writing.",
+          "\"In respect of\" is very formal and mostly British (\"fees in respect of services\"); \"with regard to\" and \"regarding\" are safe everywhere. *With regards to is common in speech but is still criticized in formal writing.",
           "\"By virtue of\" gives the legal basis or reason: \"by virtue of her position\". \"Subject to\" makes something conditional: \"subject to approval\" = only if it is approved.",
           "Outside contracts, plainer words are often better: \"before\" for \"prior to\", \"about\" for \"with regard to\", \"under\" for \"pursuant to\". A Mastery writer matches the phrase to the register instead of using it everywhere.",
         ],
@@ -547,7 +547,7 @@ export const EN_C2_U02_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "Ms Lopez is appointed Head of Legal ___ 1 March.",
+        sentence: "Ms. Lopez is appointed Head of Legal ___ 1 March.",
         answer: "with effect from",
         altAnswers: ["effective from", "as of", "as from", "effective"],
         en: "Se nombra a la Sra. Lopez directora de la asesoría jurídica [con efecto desde el] 1 de marzo.",

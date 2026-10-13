@@ -425,7 +425,7 @@ export const EN_C2_U31: Lesson[] = [
       {
         heading: "Profit: gross, operating and net",
         body: [
-          "Careful with «beneficios»: in accounts it is \"profit\" or \"profits\", never *benefits. English \"benefits\" are advantages, or perks and welfare payments («prestaciones»). A company \"makes a profit\" or \"makes a loss\" (US also \"posts a loss\"); it never *wins money.",
+          "Careful with «beneficios»: in accounts it is \"profit\" or \"profits\", never *benefits. English \"benefits\" are advantages, or perks and welfare payments («prestaciones»). A company \"makes a profit\" and \"posts a loss\" or \"loses money\" (British also \"makes a loss\"); it never *wins money.",
           "\"Gross profit\" is revenue minus the direct cost of producing what you sold (\"cost of sales\" or \"cost of goods sold\"). Subtract \"operating costs\" (also \"operating expenses\" or \"overheads\", US \"overhead\": rent, salaries, marketing) and you get \"operating profit\". After interest and tax, what remains is \"net profit\", called \"net income\" or \"earnings\" in the US and \"the bottom line\" in journalism.",
           "A \"margin\" is profit as a percentage of revenue: \"a gross margin of 60%\", \"an operating margin of 12%\". Margins can be \"healthy\", \"wafer-thin\" or \"razor-thin\", and when costs rise faster than prices they are \"squeezed\" or \"eroded\". A firm that neither makes nor loses money \"breaks even\".",
         ],
@@ -1376,7 +1376,7 @@ export const EN_C2_U31: Lesson[] = [
           { left: "upwards of", right: "más de" },
           { left: "one in four", right: "uno de cada cuatro" },
         ],
-        explanation: "The first two are the costliest pair: English \"billion\" is a thousand million, and Spanish «billón» is an English \"trillion\".",
+        explanation: "\"Billion\" and \"trillion\" are the costliest pair: English \"billion\" is a thousand million, and Spanish «billón» is an English \"trillion\".",
       },
       {
         type: "speak",
@@ -1975,7 +1975,7 @@ export const EN_C2_U31: Lesson[] = [
           "Following the crisis, the bank shed thousands of jobs.",
           "In the aftermath of the crisis, the bank shed thousands of jobs.",
         ],
-        explanation: "«A raíz de» is \"in the wake of\" or \"following\". «Recortar empleos» is \"cut\", \"shed\" or \"axe\" jobs.",
+        explanation: "«A raíz de» is \"in the wake of\" or \"following\". «Recortar empleos» is \"cut\", \"shed\" or \"ax\" jobs.",
       },
       {
         type: "fill-blank",
@@ -2719,7 +2719,7 @@ export const EN_C2_U31: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Cada cliente nos cuesta unos 200 dólares captarlo.",
+        source: "Captar cada cliente nos cuesta unos 200 dólares.",
         answer: "Each customer costs us about 200 dollars to acquire.",
         altAnswers: [
           "Each customer costs us around 200 dollars to acquire.",

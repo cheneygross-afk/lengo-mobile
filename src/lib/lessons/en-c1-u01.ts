@@ -157,8 +157,8 @@ export const EN_C1_U01: Lesson[] = [
         answer: "Never will I forgive him.",
         altAnswers: [
           "I will never forgive him.",
-          "Never will I forgive her.",
-          "I will never forgive her.",
+
+
         ],
         explanation: "«Jamás» is strong, so the inverted \"Never will I forgive him\" captures the emphasis well. The neutral \"I will never forgive him\" is also correct.",
       },
@@ -901,7 +901,7 @@ export const EN_C1_U01: Lesson[] = [
       {
         heading: "Key-word transformations",
         body: [
-          "In the Cambridge C1 Advanced exam (Part 4), you rewrite a sentence using a given word so that it means the same. Inversion is a favorite: the word given is often NEVER, ONLY, SOONER, UNTIL or LITTLE.",
+          "In the Cambridge Advanced exam (Part 4), you rewrite a sentence using a given word so that it means the same. Inversion is a favorite: the word given is often NEVER, ONLY, SOONER, UNTIL or LITTLE.",
           "For example: \"I had no idea he was married\" (LITTLE) becomes \"Little did I know he was married\". \"As soon as I got in the shower, the doorbell rang\" (SOONER) becomes \"No sooner had I gotten in the shower than the doorbell rang\".",
           "Keep the meaning and the time frame identical. Check the tense of the auxiliary against the original sentence.",
         ],
@@ -1157,7 +1157,7 @@ export const EN_C1_U01: Lesson[] = [
         ],
       },
       {
-        heading: "Positive adverbs never invert",
+        heading: "Positive adverbs don't trigger negative inversion",
         body: [
           "Spanish speakers who have just learned inversion sometimes start inverting after every fronted adverb. Don't. Positive adverbs of frequency, time and place keep normal order: \"Often I go running before work\", \"Sometimes we eat out\", \"Yesterday I saw Tom\", \"Not far away there was a small bar\".",
           "Only negative or restrictive words trigger inversion: never, rarely, seldom, hardly, little, not, no, only. *Often do I go running is wrong.",
@@ -1984,7 +1984,7 @@ export const EN_C1_U01: Lesson[] = [
               "Should the goods arrives damaged, the customer must notify us within seven days.",
             ],
             correctIndex: 0,
-            explanation: "\"Should\" + subject + base verb is the formal register of contracts. The second option is correct but far too informal for this text type.",
+            explanation: "\"Should\" + subject + base verb is the formal register of contracts. \"If the stuff gets broken on the way, just let us know\" is correct but far too informal for this text type.",
           },
         ],
       },
@@ -2177,7 +2177,7 @@ export const EN_C1_U01: Lesson[] = [
           "Formal register: no contractions, polite but firm.",
           "A clear request at the end (refund, explanation, compensation).",
         ],
-        modelAnswer: "To Whom It May Concern: I am writing to complain about my recent stay. When I arrived, I was told that my room was not available. At no time was I informed of this before my arrival. Had I been told in advance, I would have booked another hotel. I would therefore like a full refund. Should you require a copy of my booking confirmation, I will be happy to send it. Yours faithfully, Ana Torres",
+        modelAnswer: "To Whom It May Concern: I am writing to complain about my recent stay. When I arrived, I was told that my room was not available. At no time was I informed of this before my arrival. Had I been told in advance, I would have booked another hotel. I would therefore like a full refund. Should you require a copy of my booking confirmation, I will be happy to send it. Sincerely, Ana Torres",
         explanation: "A strong complaint combines a clear account of facts, firm inverted structures and a precise request.",
       },
     ],
@@ -2474,7 +2474,7 @@ export const EN_C1_U01: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "No sooner had we ordered ___ the waiter brought the food.",
             answer: "than",
-            en: "Apenas habíamos pedido [cuando] el camarero trajo la comida.",
+            en: "Apenas habíamos pedido [cuando] el mesero trajo la comida.",
             explanation: "Spanish says «cuando», but \"no sooner\" always pairs with \"than\", never *when.",
           },
         ],

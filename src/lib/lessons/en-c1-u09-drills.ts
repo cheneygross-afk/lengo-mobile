@@ -398,7 +398,7 @@ export const EN_C1_U09_DRILLS: Lesson[] = [
           { left: "tomar medidas", right: "take steps" },
           { left: "hacer daño", right: "do harm" },
         ],
-        explanation: "Only \"take steps\" uses the verb Spanish would suggest. For the others, learn the noun together with its English verb.",
+        explanation: "Only \"take steps\" and \"do harm\" use the verb Spanish would suggest. For the others, learn the noun together with its English verb.",
       },
       {
         type: "translate",
@@ -2505,7 +2505,7 @@ export const EN_C1_U09_DRILLS: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["I'll", "look", "into", "it", "and", "get", "back", "to", "you."],
-        translation: "Lo miro y te digo algo.",
+        translation: "Lo reviso y te aviso.",
         explanation: "In conversation, \"look into it\" is the natural version of \"investigate\". \"Get back to you\" means «responderte más tarde».",
       },
       {
@@ -2544,7 +2544,7 @@ export const EN_C1_U09_DRILLS: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Montó su propia empresa de diseño a los treinta años.",
+        source: "Fundó su propia empresa de diseño a los treinta años.",
         answer: "She set up her own design company at thirty.",
         altAnswers: [
           "He set up his own design company at thirty.",
@@ -2613,7 +2613,7 @@ export const EN_C1_U09_DRILLS: Lesson[] = [
       {
         type: "speak",
         text: "I'll find out what time the store closes.",
-        prompt: "Say it in English to a friend: «Me entero de a qué hora cierra la tienda.»",
+        prompt: "Say it in English to a friend: «Voy a averiguar a qué hora cierra la tienda.»",
         tip: "Link \"find out\" /faɪndaʊt/ and stress \"CLOSes\" /ˈkloʊzɪz/, with a /z/ sound.",
         explanation: "\"Find out\" is the natural spoken verb. *I'll ascertain what time the store closes would sound comic.",
       },
@@ -2861,7 +2861,7 @@ export const EN_C1_U09_DRILLS: Lesson[] = [
         sentence: "Profits ___ 8% last year.",
         answer: "rose by",
         altAnswers: ["increased by", "went up by", "grew by"],
-        en: "Los beneficios [subieron un] 8 % el año pasado.",
+        en: "Las ganancias [subieron un] 8 % el año pasado.",
         explanation: "\"Rise by\" + the difference. *Rose in 8% is a calque of «subir en un 8 %».",
       },
       {
@@ -3006,7 +3006,7 @@ export const EN_C1_U09_DRILLS: Lesson[] = [
         options: [
           "It's highly unlikely that the heatwave will end before Sunday.",
           "It's very improbable that the heatwave will end before Sunday.",
-          "It's highly unlikely that the heatwave ends before Sunday.",
+          "It's highly unlikely that the heatwave end before Sunday.",
           "It's deeply unlikely that the heatwave will end before Sunday.",
         ],
         correctIndex: 0,

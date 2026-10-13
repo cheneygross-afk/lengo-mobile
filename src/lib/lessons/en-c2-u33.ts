@@ -19,7 +19,7 @@ export const EN_C2_U33: Lesson[] = [
         heading: "Legal, contract and medical English",
         body: [
           "Legal English prefers \"shall\" for obligations, \"may\" for permissions and fixed formulas such as \"notwithstanding\", \"subject to\" and \"in breach of\". Remember that a party \"terminates\" a contract («rescindir»), \"is liable for\" damages («responder de») and \"waives\" a right («renunciar a»).",
-          "In medical English, the false friends are the usual trap: «constipado» is \"have a cold\" (\"constipated\" means «estreñido»), a «receta» is a \"prescription\" and «intoxicación alimentaria» is \"food poisoning\". Patients \"are diagnosed with\" a condition, never *diagnosed of.",
+          "In medical English, the false friends are the usual trap: «constipado» (Spain; Latin America «resfriado») is \"have a cold\" (\"constipated\" means «estreñido»), a «receta» is a \"prescription\" and «intoxicación alimentaria» is \"food poisoning\". Patients \"are diagnosed with\" a condition, never *diagnosed of.",
           "Both fields love the passive and nominalization: \"Payment shall be made within thirty days\", \"The patient was admitted for observation.\"",
         ],
         examples: [
@@ -27,7 +27,7 @@ export const EN_C2_U33: Lesson[] = [
           { es: "Notwithstanding the above, either party may terminate this agreement.", en: "No obstante lo anterior, cualquiera de las partes podrá rescindir este contrato." },
           { es: "The supplier is in breach of contract.", en: "El proveedor ha incumplido el contrato." },
           { es: "She was diagnosed with diabetes last year.", en: "Le diagnosticaron diabetes el año pasado." },
-          { es: "I've got a bad cold.", en: "Estoy muy constipado." },
+          { es: "I've got a bad cold.", en: "Estoy muy resfriado." },
           { es: "The doctor wrote me a prescription for antibiotics.", en: "El médico me hizo una receta de antibióticos." },
         ],
         checkpoint: [

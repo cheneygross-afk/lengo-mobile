@@ -162,7 +162,7 @@ export const EN_C1_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You are writing to a company's general address and have no name. What is the best modern opening?",
+        question: "You are writing to a company's general address and have no name. Which opening is correct?",
         options: ["Dear Sir or Madam,", "Dear Sirs,", "Estimated Sirs,", "Hey there,"],
         correctIndex: 0,
         explanation: "\"Dear Sir or Madam\" is formal and inclusive. \"Dear Sirs\" is outdated, \"Estimated\" is a calque, and \"Hey there\" is far too casual.",
@@ -257,13 +257,13 @@ export const EN_C1_U13: Lesson[] = [
       {
         heading: "Stating your purpose",
         body: [
-          "An English email gets to the point in the first sentence. The two workhorse patterns are \"I am writing to\" + verb (\"I am writing to request a copy of my contract\") and \"I am writing with regard to\" + noun (\"I am writing with regard to your invoice of 3 May\"). \"Regarding\", \"in connection with\" and \"concerning\" work the same way.",
+          "An English email gets to the point in the first sentence. The two workhorse patterns are \"I am writing to\" + verb (\"I am writing to request a copy of my contract\") and \"I am writing with regard to\" + noun (\"I am writing with regard to your invoice of May 3\"). \"Regarding\", \"in connection with\" and \"concerning\" work the same way.",
           "If there has already been contact, link to it: \"Further to our phone call this morning, ...\" or \"Following our meeting on Tuesday, ...\". These replace Spanish openings like «En relación con nuestra conversación...».",
           "«Me pongo en contacto con usted para...» is simply \"I am writing to...\". American business English also uses \"I am reaching out to...\", which some readers find a little corporate. Avoid *I write you for ask: the present continuous is the norm here, and purpose is expressed with \"to\" + verb, never \"for\" + verb. In a formal email, write \"I am writing to you\" rather than \"I am writing you\", which is informal American usage.",
         ],
         examples: [
           { es: "I am writing to request a copy of my contract.", en: "Le escribo para solicitar una copia de mi contrato." },
-          { es: "I am writing with regard to your invoice of 3 May.", en: "Le escribo en relación con su factura del 3 de mayo." },
+          { es: "I am writing with regard to your invoice of May 3.", en: "Le escribo en relación con su factura del 3 de mayo." },
           { es: "I am writing to inquire about your summer courses.", en: "Le escribo para informarme sobre sus cursos de verano." },
           { es: "Further to our phone call this morning, I can confirm the delivery date.", en: "En relación con nuestra llamada de esta mañana, le confirmo la fecha de entrega." },
           { es: "Following our meeting on Tuesday, I am sending you the revised contract.", en: "Tras nuestra reunión del martes, le envío el contrato revisado." },
@@ -291,7 +291,7 @@ export const EN_C1_U13: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "I am writing ___ your invoice of 3 May.",
+            sentence: "I am writing ___ your invoice of May 3.",
             answer: "with regard to",
             altAnswers: ["regarding", "in connection with", "concerning", "about", "in regard to", "with reference to", "in relation to"],
             en: "Le escribo [en relación con] su factura del 3 de mayo.",
@@ -592,10 +592,10 @@ export const EN_C1_U13: Lesson[] = [
         body: [
           "A confirmation email is short and precise: date, time, place, who, and anything the other person needs to bring or do. \"I am writing to confirm...\" or, less formally, \"Just to confirm, ...\" opens it.",
           "\"As agreed\" (= «según lo acordado») and \"as discussed\" link the email to an earlier conversation. End by inviting correction: \"Please let me know if anything has changed.\"",
-          "Times and dates are a classic trap: write \"Thursday, 12 June, at 10 a.m.\" in full rather than \"12/6\", which Americans read as December 6.",
+          "Times and dates are a classic trap: write \"Thursday, June 12, at 10 a.m.\" in full rather than \"12/6\", which Americans read as December 6.",
         ],
         examples: [
-          { es: "I am writing to confirm our meeting on Thursday, 12 June, at 10 a.m.", en: "Le escribo para confirmar nuestra reunión del jueves 12 de junio a las 10 de la mañana." },
+          { es: "I am writing to confirm our meeting on Thursday, June 12, at 10 a.m.", en: "Le escribo para confirmar nuestra reunión del jueves 12 de junio a las 10 de la mañana." },
           { es: "Just to confirm, the training will take place in Room 4.", en: "Solo para confirmar: la formación será en la sala 4." },
           { es: "As agreed, we will deliver the goods on Monday.", en: "Según lo acordado, entregaremos la mercancía el lunes." },
           { es: "As discussed, I have copied Tom on this email.", en: "Como hablamos, he puesto a Tom en copia." },
@@ -621,7 +621,7 @@ export const EN_C1_U13: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which date format is the safest in an email to an international client?",
-            options: ["Thursday, 12 June", "12/6", "6/12", "the 12th of the 6th"],
+            options: ["Thursday, June 12", "12/6", "6/12", "the 12th of the 6th"],
             correctIndex: 0,
             explanation: "\"12/6\" means June 12 in Europe but December 6 in the US. Writing the month as a word avoids any confusion.",
           },
@@ -630,8 +630,8 @@ export const EN_C1_U13: Lesson[] = [
       {
         heading: "Rescheduling",
         body: [
-          "To move a meeting, say what has changed (briefly), apologise once, and propose an alternative so the other person only has to say yes. \"Something has come up\" is the natural equivalent of «me ha surgido un imprevisto».",
-          "\"Would Friday at 10 work for you instead?\" or \"Would Friday at 10 suit you?\" (more British) offers a new time politely. Avoid over-apologising: one \"Apologies for any inconvenience\" or \"Sorry for the short notice\" is enough.",
+          "To move a meeting, say what has changed (briefly), apologize once, and propose an alternative so the other person only has to say yes. \"Something has come up\" is the natural equivalent of «me ha surgido un imprevisto».",
+          "\"Would Friday at 10 work for you instead?\" or \"Would Friday at 10 suit you?\" (more British) offers a new time politely. Avoid over-apologizing: one \"Apologies for any inconvenience\" or \"Sorry for the short notice\" is enough.",
         ],
         examples: [
           { es: "Unfortunately, something has come up and I won't be able to make our meeting on Thursday.", en: "Lamentablemente, me ha surgido un imprevisto y no podré asistir a nuestra reunión del jueves." },
@@ -803,7 +803,7 @@ export const EN_C1_U13: Lesson[] = [
           "Please excuse the short notice.",
           "Sorry about the short notice.",
         ],
-        explanation: "\"Short notice\" is the fixed expression for «poco margen de aviso». Apologise once; there is no need to repeat it.",
+        explanation: "\"Short notice\" is the fixed expression for «poco margen de aviso». Apologize once; there is no need to repeat it.",
       },
       {
         type: "word-order",
@@ -828,13 +828,13 @@ export const EN_C1_U13: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "You have a meeting with a client, Ms. Grant, on Wednesday at 11 a.m., but you have to move it. Write an email apologising, explaining briefly and proposing two alternative times.",
+        prompt: "You have a meeting with a client, Ms. Grant, on Wednesday at 11 a.m., but you have to move it. Write an email apologizing, explaining briefly and proposing two alternative times.",
         minWords: 70,
         maxWords: 120,
         rubric: [
           "Opens with \"Dear Ms. Grant\" or \"Hi\" + first name if appropriate",
           "Explains the change briefly (for example, \"something has come up\")",
-          "Apologises once, without over-apologising",
+          "Apologizes once, without over-apologizing",
           "Proposes two specific alternatives with \"Would... work for you?\" or similar",
           "Closes with a suitable sign-off",
         ],
@@ -1060,7 +1060,7 @@ export const EN_C1_U13: Lesson[] = [
         question: "A colleague writes: \"Hi, do you have the link for the 3 p.m. call?\" What is the best reply?",
         options: [
           "Hi Lucia, yes, here it is: [link]. See you at 3!",
-          "Dear Ms. Moreno, I am writing with regard to your enquiry. Please find attached the link. Yours sincerely,",
+          "Dear Ms. Moreno, I am writing with regard to your inquiry. Please find attached the link. Yours sincerely,",
           "To whom it may concern, the link is below.",
           "link",
         ],
@@ -1104,13 +1104,13 @@ export const EN_C1_U13: Lesson[] = [
       {
         heading: "The four moves of a complaint",
         body: [
-          "A complaint that gets results is organised, not emotional. It usually has four moves: background (what you bought or booked, when, reference number), facts (what went wrong, stated objectively), impact (what it has cost you in money, time or trouble), and the desired outcome (what you want them to do, and by when).",
+          "A complaint that gets results is organized, not emotional. It usually has four moves: background (what you bought or booked, when, reference number), facts (what went wrong, stated objectively), impact (what it has cost you in money, time or trouble), and the desired outcome (what you want them to do, and by when).",
           "Two false friends lurk here. A «reclamación» is a \"complaint\"; \"reclamation\" means recovering land or materials. And «reclamar» is \"complain\" or \"claim\" (\"claim a refund\"), never *reclaim in this sense.",
           "Open with the purpose: \"I am writing to complain about...\" or, slightly softer, \"I am writing to express my dissatisfaction with...\".",
         ],
         examples: [
           { es: "I am writing to complain about the service I received at your Madrid branch.", en: "Le escribo para presentar una queja sobre el servicio que recibí en su sucursal de Madrid." },
-          { es: "On 4 March, I ordered a washing machine (order number 88123).", en: "El 4 de marzo pedí una lavadora (número de pedido 88123)." },
+          { es: "On March 4, I ordered a washing machine (order number 88123).", en: "El 4 de marzo pedí una lavadora (número de pedido 88123)." },
           { es: "When it arrived, the door was cracked.", en: "Cuando llegó, la puerta estaba rajada." },
           { es: "As a result, I have been without a washing machine for two weeks.", en: "Como consecuencia, llevo dos semanas sin lavadora." },
           { es: "I would like you to replace the machine as soon as possible.", en: "Quisiera que sustituyeran la máquina lo antes posible." },
@@ -1139,7 +1139,7 @@ export const EN_C1_U13: Lesson[] = [
             question: "Which sentence belongs in the \"impact\" part of a complaint?",
             options: [
               "As a result, I had to pay for a hotel for two extra nights.",
-              "On 4 March, I booked a flight to Lima.",
+              "On March 4, I booked a flight to Lima.",
               "I would like a full refund.",
               "I am writing to complain about my recent flight.",
             ],
@@ -1202,13 +1202,13 @@ export const EN_C1_U13: Lesson[] = [
         heading: "Stating the outcome and the next step",
         body: [
           "Do not make the reader guess what you want. Name the outcome (a refund, a replacement, a repair, compensation, an apology) and a reasonable deadline: \"I would therefore ask you to refund the full amount within 14 days.\"",
-          "If this is not your first complaint, you can state the next step calmly: \"If I do not hear from you by 30 April, I will have no choice but to take the matter further.\" Said politely, this is far more effective than an angry threat.",
+          "If this is not your first complaint, you can state the next step calmly: \"If I do not hear from you by April 30, I will have no choice but to take the matter further.\" Said politely, this is far more effective than an angry threat.",
           "End on a cooperative note: \"I trust you will deal with this matter promptly.\" or \"I look forward to your prompt reply.\"",
         ],
         examples: [
           { es: "I would therefore ask you to refund the full amount within 14 days.", en: "Por lo tanto, le ruego que me reembolse el importe íntegro en un plazo de 14 días." },
           { es: "I would like a replacement or a full refund.", en: "Quisiera un reemplazo o el reembolso íntegro." },
-          { es: "If I do not hear from you by 30 April, I will have no choice but to take the matter further.", en: "Si no tengo noticias suyas antes del 30 de abril, no me quedará más remedio que llevar el asunto más lejos." },
+          { es: "If I do not hear from you by April 30, I will have no choice but to take the matter further.", en: "Si no tengo noticias suyas antes del 30 de abril, no me quedará más remedio que emprender otras acciones." },
           { es: "I trust you will deal with this matter promptly.", en: "Confío en que resolverán este asunto con prontitud." },
         ],
         checkpoint: [
@@ -1336,7 +1336,7 @@ export const EN_C1_U13: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "You booked a hotel room with a sea view for three nights, but you were given a room facing the car park, and the air conditioning did not work. Reception said nothing could be done. Write a complaint to the hotel manager.",
+        prompt: "You booked a hotel room with a sea view for three nights, but you were given a room facing the parking lot, and the air conditioning did not work. Reception said nothing could be done. Write a complaint to the hotel manager.",
         minWords: 110,
         maxWords: 170,
         rubric: [
@@ -1347,7 +1347,7 @@ export const EN_C1_U13: Lesson[] = [
           "Requests a specific outcome with a deadline",
           "Uses firm but polite language (for example \"I was disappointed to find\", \"I would ask you to\")",
         ],
-        modelAnswer: "Subject: Complaint: booking HX4471, 12-15 August\n\nDear Sir or Madam,\n\nI am writing to complain about my recent stay at your hotel from 12 to 15 August (booking reference HX4471).\n\nI had booked and paid for a double room with a sea view. On arrival, however, I was given a room facing the car park. To make matters worse, the air conditioning did not work, and the room was extremely hot at night. When I raised the issue at reception, I was told that nothing could be done.\n\nAs a result, I slept very badly for three nights and was unable to enjoy a holiday I had been looking forward to for months.\n\nI would therefore ask you to refund the difference between the room I paid for and the room I was given, and to offer some compensation for the inconvenience. I would appreciate a reply within 14 days.\n\nYours faithfully,\nCarlos Romero",
+        modelAnswer: "Subject: Complaint: booking HX4471, August 12-15\n\nDear Sir or Madam,\n\nI am writing to complain about my recent stay at your hotel from August 12 to 15 (booking reference HX4471).\n\nI had booked and paid for a double room with a sea view. On arrival, however, I was given a room facing the parking lot. To make matters worse, the air conditioning did not work, and the room was extremely hot at night. When I raised the issue at reception, I was told that nothing could be done.\n\nAs a result, I slept very badly for three nights and was unable to enjoy a vacation I had been looking forward to for months.\n\nI would therefore ask you to refund the difference between the room I paid for and the room I was given, and to offer some compensation for the inconvenience. I would appreciate a reply within 14 days.\n\nYours faithfully,\nCarlos Romero",
         explanation: "Notice the order: purpose, background, facts, impact, outcome. The firmness comes from facts and a clear request, not from strong adjectives.",
       },
     ],
@@ -1398,7 +1398,7 @@ export const EN_C1_U13: Lesson[] = [
         body: [
           "Formal apologies: \"Please accept our apologies for the delay.\", \"We apologize for any inconvenience caused.\", \"I am very sorry for the mistake.\" \"Apologize\" takes \"for\" + the problem and \"to\" + the person: \"We apologize to our customers for the delay\" (never *apologize the delay).",
           "«Disculpe las molestias» is a trap: *Sorry for the inconveniences sounds wrong, because in this phrase \"inconvenience\" is uncountable. Say \"Sorry for the inconvenience\" or \"We apologize for any inconvenience (this may have caused)\".",
-          "\"Apologize\" is the American spelling; British English prefers \"apologise\". Both are correct, as long as you are consistent.",
+          "\"Apologize\" is the American spelling; British English prefers \"apologize\". Both are correct, as long as you are consistent.",
         ],
         examples: [
           { es: "Please accept our apologies for the delay.", en: "Le rogamos que acepte nuestras disculpas por el retraso." },
@@ -1496,7 +1496,7 @@ export const EN_C1_U13: Lesson[] = [
       {
         heading: "Offering a solution",
         body: [
-          "The most important part of the reply is what you will do. Be concrete: \"We have issued a full refund, which should appear in your account within five working days.\" or \"We will send a replacement by express delivery tomorrow.\"",
+          "The most important part of the reply is what you will do. Be concrete: \"We have issued a full refund, which should appear in your account within five business days.\" or \"We will send a replacement by express delivery tomorrow.\"",
           "\"As a gesture of goodwill\" introduces something extra that you are not obliged to give: a discount, a voucher, a free night. Then reassure: \"We have taken steps to ensure this does not happen again.\"",
           "Close by keeping the door open: \"Please let me know if there is anything else I can do.\" or \"We hope to have the opportunity to welcome you again.\"",
         ],
@@ -1613,7 +1613,7 @@ export const EN_C1_U13: Lesson[] = [
           { left: "This was our mistake.", right: "El error fue nuestro." },
           { left: "We have issued a full refund.", right: "Le hemos reembolsado el importe íntegro." },
         ],
-        explanation: "Acknowledge, apologise, take responsibility, solve: the four steps of a good reply.",
+        explanation: "Acknowledge, apologize, take responsibility, solve: the four steps of a good reply.",
       },
       {
         type: "word-order",
@@ -1664,10 +1664,10 @@ export const EN_C1_U13: Lesson[] = [
     duration: "12 min",
     sections: [
       {
-        heading: "Making an enquiry",
+        heading: "Making an inquiry",
         body: [
-          "An enquiry is a request for information. British English writes \"enquiry\" and \"enquire\"; American English prefers \"inquiry\" and \"inquire\". \"I would like to enquire about...\" and \"I am writing to ask whether...\" are typical openings.",
-          "Polite enquiries often use indirect questions: \"Could you tell me whether the price includes VAT?\", \"I was wondering if you could tell me...\". Remember: after \"whether\" or \"if\", use statement word order, with no auxiliary \"do\". Write \"whether the price includes VAT\", not *whether does the price include VAT.",
+          "An inquiry is a request for information. British English writes \"enquiry\" and \"enquire\"; American English prefers \"inquiry\" and \"inquire\". \"I would like to inquire about...\" and \"I am writing to ask whether...\" are typical openings.",
+          "Polite inquiries often use indirect questions: \"Could you tell me whether the price includes VAT?\", \"I was wondering if you could tell me...\". Remember: after \"whether\" or \"if\", use statement word order, with no auxiliary \"do\". Write \"whether the price includes VAT\", not *whether does the price include VAT.",
         ],
         examples: [
           { es: "I would like to inquire about the availability of your conference rooms.", en: "Quisiera informarme sobre la disponibilidad de sus salas de conferencias." },
@@ -1701,12 +1701,12 @@ export const EN_C1_U13: Lesson[] = [
       {
         heading: "The first follow-up: gentle",
         body: [
-          "If someone has not replied after a few days, the first follow-up should assume good faith: they are busy, the email got buried. Typical openings: \"Just following up on my email of 3 May.\", \"I'm just checking in on...\", \"I wanted to check whether you had received...\".",
+          "If someone has not replied after a few days, the first follow-up should assume good faith: they are busy, the email got buried. Typical openings: \"Just following up on my email of May 3.\", \"I'm just checking in on...\", \"I wanted to check whether you had received...\".",
           "\"I was wondering whether you had had a chance to look at the proposal\" is very polite. The past tenses do not refer to the past: they create distance, and distance in English sounds polite. The same thing happens in Spanish with «quería preguntarle».",
           "Make it easy to reply: repeat the key question in one line, or attach the original email again.",
         ],
         examples: [
-          { es: "Just following up on my email of 3 May.", en: "Le escribo para dar seguimiento a mi correo del 3 de mayo." },
+          { es: "Just following up on my email of May 3.", en: "Le escribo para dar seguimiento a mi correo del 3 de mayo." },
           { es: "I'm just checking in on the status of our order.", en: "Solo quería saber cómo va nuestro pedido." },
           { es: "I was wondering whether you had had a chance to look at the proposal.", en: "Quería saber si había tenido ocasión de revisar la propuesta." },
           { es: "I wanted to check whether you had received my invoice.", en: "Quería confirmar si había recibido mi factura." },
@@ -1745,9 +1745,9 @@ export const EN_C1_U13: Lesson[] = [
         ],
         examples: [
           { es: "I'm writing again regarding the contract, as I haven't yet received a reply.", en: "Le escribo de nuevo sobre el contrato, ya que aún no he recibido respuesta." },
-          { es: "Could you let me know by Friday, as we need to finalise the order?", en: "¿Podría decírmelo antes del viernes? Necesitamos cerrar el pedido." },
+          { es: "Could you let me know by Friday, as we need to finalize the order?", en: "¿Podría decírmelo antes del viernes? Necesitamos cerrar el pedido." },
           { es: "Would it be easier to discuss this by phone?", en: "¿Sería más fácil hablarlo por teléfono?" },
-          { es: "As mentioned in my previous email, the deadline is 30 June.", en: "Como le comentaba en mi correo anterior, el plazo vence el 30 de junio." },
+          { es: "As mentioned in my previous email, the deadline is June 30.", en: "Como le comentaba en mi correo anterior, el plazo vence el 30 de junio." },
           { es: "To recap, we need your approval before we can proceed.", en: "En resumen, necesitamos su aprobación para seguir adelante." },
         ],
         checkpoint: [
@@ -1755,10 +1755,10 @@ export const EN_C1_U13: Lesson[] = [
             type: "multiple-choice",
             question: "Which sentence repeats information without sounding passive-aggressive?",
             options: [
-              "As mentioned in my previous email, the deadline is 30 June.",
-              "As per my last email, the deadline is 30 June.",
-              "As I already told you, the deadline is 30 June.",
-              "Did you not read my email? The deadline is 30 June.",
+              "As mentioned in my previous email, the deadline is June 30.",
+              "As per my last email, the deadline is June 30.",
+              "As I already told you, the deadline is June 30.",
+              "Did you not read my email? The deadline is June 30.",
             ],
             correctIndex: 0,
             explanation: "\"As mentioned in my previous email\" is neutral. \"As per my last email\" and \"As I already told you\" imply the reader was careless.",
@@ -1929,7 +1929,7 @@ export const EN_C1_U13: Lesson[] = [
         options: [
           "Politely asking for an update on the contract.",
           "Checking in at a hotel.",
-          "Cancelling the contract.",
+          "Canceling the contract.",
           "Complaining angrily about the contract.",
         ],
         correctIndex: 0,
@@ -1999,8 +1999,8 @@ export const EN_C1_U13: Lesson[] = [
         heading: "Evidence, not adjectives",
         body: [
           "Spanish CVs often list qualities: «persona responsable, dinámica, proactiva, con capacidad de trabajo en equipo». In English these empty adjectives are ignored, because everyone claims them. *I am a responsible and dynamic person proves nothing.",
-          "Show the quality through a concrete achievement, ideally with a number: instead of \"I am very organised\", write \"I coordinated a conference for 400 delegates, on time and under budget.\" Instead of \"I am good with customers\", write \"I raised our customer satisfaction score from 72% to 89%.\"",
-          "Match each achievement to something the job advert asks for. The reader should be able to tick off their requirements as they read.",
+          "Show the quality through a concrete achievement, ideally with a number: instead of \"I am very organized\", write \"I coordinated a conference for 400 delegates, on time and under budget.\" Instead of \"I am good with customers\", write \"I raised our customer satisfaction score from 72% to 89%.\"",
+          "Match each achievement to something the job ad asks for. The reader should be able to check off their requirements as they read.",
         ],
         examples: [
           { es: "I coordinated a conference for 400 delegates, on time and under budget.", en: "Coordiné un congreso para 400 asistentes, a tiempo y sin superar el presupuesto." },
@@ -2226,7 +2226,7 @@ export const EN_C1_U13: Lesson[] = [
           "Expresses experience correctly (\"X years of experience in\")",
           "Closes by inviting an interview and thanking the reader",
         ],
-        modelAnswer: "Dear Hiring Manager,\n\nI am writing to apply for the position of Events Coordinator, as advertised on your website. With four years of experience in hospitality and event planning, I believe I could make a strong contribution to your team.\n\nIn my current role at a conference centre in Valencia, I organise around forty corporate events a year. Last year I coordinated a three-day congress for 600 delegates, delivering it on time and 8% under budget. I also introduced an online registration system that cut check-in queues from twenty minutes to under five, and our client satisfaction score rose from 81% to 93%.\n\nI would welcome the opportunity to discuss how my experience could benefit your hotels. I am available for an interview at your convenience. Thank you for considering my application.\n\nKind regards,\nLucia Moreno",
+        modelAnswer: "Dear Hiring Manager,\n\nI am writing to apply for the position of Events Coordinator, as advertised on your website. With four years of experience in hospitality and event planning, I believe I could make a strong contribution to your team.\n\nIn my current role at a conference center in Valencia, I organize around forty corporate events a year. Last year I coordinated a three-day congress for 600 delegates, delivering it on time and 8% under budget. I also introduced an online registration system that cut check-in lines from twenty minutes to under five, and our client satisfaction score rose from 81% to 93%.\n\nI would welcome the opportunity to discuss how my experience could benefit your hotels. I am available for an interview at your convenience. Thank you for considering my application.\n\nKind regards,\nLucia Moreno",
         explanation: "Notice how each claim is backed by a number, and how the letter never says \"I am a responsible person\".",
       },
     ],
@@ -2338,7 +2338,7 @@ export const EN_C1_U13: Lesson[] = [
             options: [
               "Hi Mr. Hayes, yes, it shipped this morning. You should receive it on Thursday.",
               "hey!! yep shipped lol",
-              "Dear Mr. Hayes, I am writing with regard to your enquiry. I hereby inform you that the goods have been dispatched.",
+              "Dear Mr. Hayes, I am writing with regard to your inquiry. I hereby inform you that the goods have been dispatched.",
               "shipped thx",
             ],
             correctIndex: 0,
@@ -2350,11 +2350,11 @@ export const EN_C1_U13: Lesson[] = [
         heading: "Out-of-office messages",
         body: [
           "An out-of-office reply says when you are away, when you will be back, and who to contact in the meantime. Keep it short and avoid personal details.",
-          "Typical wording: \"Thank you for your email. I am out of the office until Monday, 14 July, with limited access to email. For urgent matters, please contact Tom Hayes at tom.hayes@example.com.\" \"On vacation\" is American; \"on holiday\" is British.",
+          "Typical wording: \"Thank you for your email. I am out of the office until Monday, July 14, with limited access to email. For urgent matters, please contact Tom Hayes at tom.hayes@example.com.\" \"On vacation\" is American; \"on holiday\" is British.",
           "«Estaré fuera de la oficina» is \"I will be out of the office\" (not *I will be outside the office, which means physically standing outside the building).",
         ],
         examples: [
-          { es: "Thank you for your email. I am out of the office until Monday, 14 July.", en: "Gracias por su correo. Estoy fuera de la oficina hasta el lunes 14 de julio." },
+          { es: "Thank you for your email. I am out of the office until Monday, July 14.", en: "Gracias por su correo. Estoy fuera de la oficina hasta el lunes 14 de julio." },
           { es: "I will have limited access to email.", en: "Tendré acceso limitado al correo." },
           { es: "For urgent matters, please contact Tom Hayes.", en: "Para asuntos urgentes, póngase en contacto con Tom Hayes." },
           { es: "I will reply to your message when I return.", en: "Responderé a su mensaje a mi regreso." },
@@ -2400,7 +2400,7 @@ export const EN_C1_U13: Lesson[] = [
         source: "Encantado de ayudar.",
         answer: "Happy to help.",
         altAnswers: ["I'm happy to help.", "Glad to help.", "I'm glad to help.", "Glad I could help.", "Happy to help!", "Always happy to help."],
-        explanation: "\"Happy to help\" is the friendly professional reply to thanks. \"Encantado\" is rarely \"enchanted\" in this context.",
+        explanation: "\"Happy to help\" is the friendly professional reply to thanks. «Encantado» is rarely \"enchanted\" in this context.",
       },
       {
         type: "multiple-choice",
@@ -2553,7 +2553,7 @@ export const EN_C1_U13: Lesson[] = [
       {
         heading: "Short and informal: Best, Thanks, Cheers",
         body: [
-          "\"Best\" and \"Best wishes\" are friendly and common with colleagues and regular contacts. \"Thanks\" or \"Many thanks\" works as a sign-off when you have asked for something. \"Thanks in advance\" is common, but some readers find it presumptuous, as if the favour were already agreed.",
+          "\"Best\" and \"Best wishes\" are friendly and common with colleagues and regular contacts. \"Thanks\" or \"Many thanks\" works as a sign-off when you have asked for something. \"Thanks in advance\" is common, but some readers find it presumptuous, as if the favor were already agreed.",
           "\"Cheers\" is a friendly sign-off in British and Australian English, but it is informal and can sound odd to American readers. Use it only with people you know well.",
           "Spanish «Un abrazo» or «Besos» do not translate into professional English: *Hugs or *Kisses would be strange with a colleague. With someone you know well, \"All the best\", \"Take care\" or \"Best wishes\" carry the same warmth.",
         ],
@@ -2593,7 +2593,7 @@ export const EN_C1_U13: Lesson[] = [
             question: "Which sign-off is punctuated correctly?",
             options: ["Kind regards,", "Kind Regards,", "Kind regards.", "kind regards"],
             correctIndex: 0,
-            explanation: "Capital letter on the first word only, followed by a comma. No full stop.",
+            explanation: "Capital letter on the first word only, followed by a comma. No period.",
           },
         ],
       },
@@ -2635,7 +2635,7 @@ export const EN_C1_U13: Lesson[] = [
       {
         type: "translate",
         direction: "es-en",
-        prompt: "Translate into English. (End of an email asking a colleague for a favour.)",
+        prompt: "Translate into English. (End of an email asking a colleague for a favor.)",
         source: "Muchas gracias,",
         answer: "Many thanks,",
         altAnswers: ["Thanks so much,", "Thank you very much,", "Thanks a lot,", "Thank you so much,", "Thanks very much,", "Many thanks!"],
@@ -2777,7 +2777,7 @@ export const EN_C1_U13: Lesson[] = [
       {
         heading: "Punctuation and layout",
         body: [
-          "Sign-offs: capital on the first word only (\"Best regards\", not *Best Regards), a comma after it (not a full stop: *Best regards.), and your name on the next line, not on the same line.",
+          "Sign-offs: capital on the first word only (\"Best regards\", not *Best Regards), a comma after it (not a period: *Best regards.), and your name on the next line, not on the same line.",
           "Greeting: a comma after the name in English, where Spanish uses a colon. The email itself starts with a capital letter on the next line.",
           "Spanish speakers also tend to write very long paragraphs and very long sentences joined by commas. Split them: one point per paragraph, a blank line between paragraphs.",
         ],
@@ -3015,7 +3015,7 @@ export const EN_C1_U13: Lesson[] = [
               "Dear Sir, the contract.",
             ],
             correctIndex: 0,
-            explanation: "It removes the accusation and the order but keeps the urgency through a concrete deadline and reason. Option two loses the urgency, which changes the meaning.",
+            explanation: "It removes the accusation and the order but keeps the urgency through a concrete deadline and reason. Removing the deadline would lose the urgency, which changes the meaning.",
           },
         ],
       },
@@ -3029,7 +3029,7 @@ export const EN_C1_U13: Lesson[] = [
         examples: [
           { es: "I am writing to let you know that your application has been approved.", en: "Por medio de la presente le comunico que su solicitud ha sido aprobada." },
           { es: "Could you get back to me by Friday?", en: "¿Podría responderme antes del viernes? (en vez de *Kindly revert by Friday)" },
-          { es: "The course starts on 3 March.", en: "El curso comienza el 3 de marzo. (mejor que \"commences\")" },
+          { es: "The course starts on March 3.", en: "El curso comienza el 3 de marzo. (mejor que \"commences\")" },
           { es: "We will help you with the paperwork.", en: "Le ayudaremos con los trámites." },
         ],
         checkpoint: [
@@ -3253,7 +3253,7 @@ export const EN_C1_U13: Lesson[] = [
           "States the consequence calmly (for example, a pause in services)",
           "Uses a consistent register from greeting to sign-off",
         ],
-        modelAnswer: "Subject: Third reminder: invoice 2204\n\nDear Mr. Hayes,\n\nI'm writing again regarding invoice 2204, which is still outstanding. This is our third reminder.\n\nI would be grateful if you could arrange payment by Friday, 14 June. Unfortunately, if we do not receive payment by then, we will have to pause work on your account until the invoice is settled.\n\nIf there is a problem with the invoice, please let me know and I will be happy to help.\n\nKind regards,\nAna Ruiz",
+        modelAnswer: "Subject: Third reminder: invoice 2204\n\nDear Mr. Hayes,\n\nI'm writing again regarding invoice 2204, which is still outstanding. This is our third reminder.\n\nI would be grateful if you could arrange payment by Friday, June 14. Unfortunately, if we do not receive payment by then, we will have to pause work on your account until the invoice is settled.\n\nIf there is a problem with the invoice, please let me know and I will be happy to help.\n\nKind regards,\nAna Ruiz",
         explanation: "The meaning is unchanged (unpaid invoice, third reminder, consequence), but the tone is firm and professional.",
       },
     ],
@@ -3263,7 +3263,7 @@ export const EN_C1_U13: Lesson[] = [
     level: "EN-C1",
     number: 13,
     title: "Spiral Review: Inversion, Hedging and Politeness in Emails",
-    summary: "Conditional inversion (\"Should you require...\"), hedging, polite distancing and nominalisation, mixed together so you decide which structure each email needs.",
+    summary: "Conditional inversion (\"Should you require...\"), hedging, polite distancing and nominalization, mixed together so you decide which structure each email needs.",
     duration: "12 min",
     sections: [
       {
@@ -3311,13 +3311,13 @@ export const EN_C1_U13: Lesson[] = [
         heading: "Hedging in emails",
         body: [
           "Hedging is invaluable when something has gone wrong and you are not sure whose fault it is. \"There seems to have been a misunderstanding\" names the problem without blaming anyone. \"It would appear that the payment has not gone through\" is softer than \"Your payment failed\".",
-          "You can also hedge about yourself: \"I may have misunderstood\", \"Unless I'm mistaken, the deadline was 30 June.\" These give the other person room to correct you without losing face.",
+          "You can also hedge about yourself: \"I may have misunderstood\", \"Unless I'm mistaken, the deadline was June 30.\" These give the other person room to correct you without losing face.",
         ],
         examples: [
           { es: "There seems to have been a misunderstanding.", en: "Parece que ha habido un malentendido." },
           { es: "It would appear that the payment has not gone through.", en: "Al parecer, el pago no se ha realizado." },
           { es: "I may have misunderstood your last email.", en: "Puede que haya entendido mal su último correo." },
-          { es: "Unless I'm mistaken, the deadline was 30 June.", en: "Si no me equivoco, el plazo era el 30 de junio." },
+          { es: "Unless I'm mistaken, the deadline was June 30.", en: "Si no me equivoco, el plazo era el 30 de junio." },
         ],
         checkpoint: [
           {
@@ -3372,10 +3372,10 @@ export const EN_C1_U13: Lesson[] = [
         ],
       },
       {
-        heading: "Nominalisation",
+        heading: "Nominalization",
         body: [
-          "Formal emails often turn verbs into nouns: \"Because you cancelled your order...\" becomes \"Following the cancellation of your order...\"; \"when we receive your payment\" becomes \"upon receipt of payment\"; \"We are sorry we took so long to reply\" becomes \"We apologize for the delay in responding\".",
-          "Nominalisation sounds impersonal and objective, which is useful in official messages and in complaints. Overused, it becomes heavy and vague. Use it for formal, institutional emails, and prefer verbs when you want to sound direct and human.",
+          "Formal emails often turn verbs into nouns: \"Because you canceled your order...\" becomes \"Following the cancellation of your order...\"; \"when we receive your payment\" becomes \"upon receipt of payment\"; \"We are sorry we took so long to reply\" becomes \"We apologize for the delay in responding\".",
+          "Nominalization sounds impersonal and objective, which is useful in official messages and in complaints. Overused, it becomes heavy and vague. Use it for formal, institutional emails, and prefer verbs when you want to sound direct and human.",
         ],
         examples: [
           { es: "Following the cancellation of your order, we have issued a refund.", en: "Tras la cancelación de su pedido, le hemos reembolsado el importe." },
@@ -3390,7 +3390,7 @@ export const EN_C1_U13: Lesson[] = [
             sentence: "Your tickets will be sent upon ___ of payment.",
             answer: "receipt",
             en: "Le enviaremos las entradas en cuanto [recibamos] el pago.",
-            explanation: "\"Upon receipt of\" is the nominalised, formal version of \"when we receive\". \"Receipt\" here is the act of receiving, not «el recibo» or «el tique».",
+            explanation: "\"Upon receipt of\" is the nominalized, formal version of \"when we receive\". \"Receipt\" here is the act of receiving, not «el recibo» or «el tique».",
           },
         ],
       },
@@ -3478,7 +3478,7 @@ export const EN_C1_U13: Lesson[] = [
           "I apologize for my delay in responding.",
           "I'm sorry for the delay in replying.",
         ],
-        explanation: "\"The delay in responding\" is a nominalised, formal way of saying «haber tardado en responder».",
+        explanation: "\"The delay in responding\" is a nominalized, formal way of saying «haber tardado en responder».",
       },
       {
         type: "multiple-choice",
@@ -3516,7 +3516,7 @@ export const EN_C1_U13: Lesson[] = [
           { left: "Following the cancellation of your order...", right: "Como ha cancelado su pedido..." },
           { left: "There seems to have been a misunderstanding.", right: "Parece que ha habido un malentendido." },
         ],
-        explanation: "Inversion, nominalisation and hedging all make an email more formal and less personal.",
+        explanation: "Inversion, nominalization and hedging all make an email more formal and less personal.",
       },
       {
         type: "word-order",

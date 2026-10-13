@@ -692,7 +692,7 @@ export const EN_C2_U10: Lesson[] = [
         ],
         examples: [
           { es: "Can I give you a ballpark? Adding payments is another six weeks, give or take.", en: "¿Te doy una cifra aproximada? Añadir los pagos son otras seis semanas, más o menos." },
-          { es: "And something in the ballpark of 30,000 dollars in extra costs.", en: "Y unos 30.000 dólares de costes adicionales, más o menos." },
+          { es: "And something in the ballpark of 30,000 dollars in extra costs.", en: "Y unos 30.000 dólares de costos adicionales, más o menos." },
           { es: "OK. What are the quick wins here?", en: "De acuerdo. ¿Qué podemos conseguir rápido?" },
           { es: "The login fixes are low-hanging fruit. We can ship those this week.", en: "Los arreglos del inicio de sesión son lo más fácil. Podemos sacarlos esta semana." },
           { es: "Can we take the budget question offline?", en: "¿Podemos hablar lo del presupuesto aparte?" },
@@ -751,7 +751,7 @@ export const EN_C2_U10: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Sofia suggests launching on 1 June without payments. You agree completely. What do you say?",
+            question: "Sofia suggests launching on June 1 without payments. You agree completely. What do you say?",
             options: [
               "I'm on board with that.",
               "Let's circle back to that.",
@@ -781,7 +781,7 @@ export const EN_C2_U10: Lesson[] = [
         ],
         examples: [
           { es: "So, to recap: we launch on the first of June without payments.", en: "Entonces, resumiendo: lanzamos el 1 de junio sin pagos." },
-          { es: "It was agreed that the app will launch on 1 June without the payment feature.", en: "Se acordó que la aplicación se lanzará el 1 de junio sin la función de pago." },
+          { es: "It was agreed that the app will launch on June 1 without the payment feature.", en: "Se acordó que la aplicación se lanzará el 1 de junio sin la función de pago." },
           { es: "Action: Lucia to release the login fixes by Friday.", en: "Tarea: Lucia publicará los arreglos del inicio de sesión antes del viernes." },
           { es: "Sofia and Carlos will discuss the budget separately.", en: "Sofia y Carlos hablarán del presupuesto por separado." },
           { es: "The team will return to the payment feature on Thursday.", en: "El equipo retomará la función de pago el jueves." },
@@ -803,6 +803,12 @@ export const EN_C2_U10: Lesson[] = [
               "The team agreed to launch the app on 1 June without the payment feature.",
               "We agreed to launch the app on 1 June without the payment feature.",
               "It was decided to launch the app on 1 June without the payment feature.",
+              "It was agreed that the app would launch on June 1 without the payment feature.",
+              "It was agreed that the app would be launched on June 1 without the payment feature.",
+              "It was agreed to launch the application on June 1 without the payment feature.",
+              "The team agreed to launch the app on June 1 without the payment feature.",
+              "We agreed to launch the app on June 1 without the payment feature.",
+              "It was decided to launch the app on June 1 without the payment feature.",
             ],
             explanation: "«Se acordó» is \"It was agreed\" (never *It was accorded). In minutes, plain verbs replace the idioms used in the meeting.",
           },
@@ -923,7 +929,7 @@ export const EN_C2_U10: Lesson[] = [
       {
         type: "dictation",
         audio: "Let's put a pin in that and come back to it on Thursday.",
-        explanation: "\"Put a pin in that\" means to pause a topic and return to it later, like a pin on a noticeboard.",
+        explanation: "\"Put a pin in that\" means to pause a topic and return to it later, like a pin on a bulletin board.",
       },
       {
         type: "speak",
@@ -957,7 +963,7 @@ export const EN_C2_U10: Lesson[] = [
           { es: "As a result, about 40% of this week's orders will be delivered late.", en: "En consecuencia, alrededor del 40% de los pedidos de esta semana se entregarán con retraso." },
           { es: "We have found two new suppliers and expect normal service within ten days.", en: "Hemos encontrado dos proveedores nuevos y esperamos volver a la normalidad en diez días." },
           { es: "This month's results will show a loss.", en: "Los resultados de este mes reflejarán pérdidas." },
-          { es: "I will send another update on Friday 14 June.", en: "Enviaré otra actualización el viernes 14 de junio." },
+          { es: "I will send another update on Friday, June 14.", en: "Enviaré otra actualización el viernes 14 de junio." },
         ],
         checkpoint: [
           {
@@ -1028,15 +1034,15 @@ export const EN_C2_U10: Lesson[] = [
         heading: "Version 2: the international update",
         body: [
           "Now the same update must go to partners in Germany, Brazil, Japan and Mexico, most of whom read English as a second language. Idioms are the first thing to remove: \"went belly up\" could be read literally, and sports images (baseball especially) mean nothing to many readers.",
-          "Further rules for an international audience: prefer one clear verb to a phrasal verb when the meaning is not obvious (\"postpone\" rather than \"put off\", \"continue\" rather than \"carry on\"); write dates in full (\"Friday 14 June\", never 6/14 or 14/6); keep one idea per sentence; avoid humor, irony and cultural references.",
+          "Further rules for an international audience: prefer one clear verb to a phrasal verb when the meaning is not obvious (\"postpone\" rather than \"put off\", \"continue\" rather than \"carry on\"); write dates in full (\"Friday, June 14\" in American style or \"Friday 14 June\" in British style, never 6/14 or 14/6); keep one idea per sentence; avoid humor, irony and cultural references.",
           "This is one area where Spanish speakers have an advantage: Latin-based verbs like \"continue\", \"resolve\" and \"postpone\" are often clearer to international readers than Anglo-Saxon phrasal verbs. Use that advantage, but do not overdo it: *We proceed to inform you remains stiff in any version.",
         ],
         examples: [
-          { es: "Our main packaging supplier closed its business on Tuesday 4 June.", en: "Nuestro principal proveedor de embalaje cerró su negocio el martes 4 de junio." },
+          { es: "Our main packaging supplier closed its business on Tuesday, June 4.", en: "Nuestro principal proveedor de embalaje cerró su negocio el martes 4 de junio." },
           { es: "We have had to solve many urgent problems this week.", en: "Esta semana hemos tenido que resolver muchos problemas urgentes." },
           { es: "We will make a loss this month, but our financial position remains strong.", en: "Este mes tendremos pérdidas, pero nuestra situación financiera sigue siendo sólida." },
           { es: "We have postponed the new product launch until July.", en: "Hemos aplazado el lanzamiento del nuevo producto hasta julio." },
-          { es: "I will send you another update on Friday 14 June.", en: "Les enviaré otra actualización el viernes 14 de junio." },
+          { es: "I will send you another update on Friday, June 14.", en: "Les enviaré otra actualización el viernes 14 de junio." },
         ],
         checkpoint: [
           {
@@ -1049,7 +1055,7 @@ export const EN_C2_U10: Lesson[] = [
               "Bottom line: we're in the red, but nowhere near belly up.",
             ],
             correctIndex: 0,
-            explanation: "The first sentence has no idioms and states the facts directly. The others depend on images that a second-language reader may misread.",
+            explanation: "\"We will make a loss this month, but our financial position remains strong\" has no idioms and states the facts directly. The others depend on images that a second-language reader may misread.",
           },
           {
             type: "translate",
@@ -1197,7 +1203,7 @@ export const EN_C2_U10: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which date format is safest in an email to partners in the US and Europe?",
-        options: ["Friday 14 June", "6/14", "14/6", "next Friday"],
+        options: ["Friday, June 14", "6/14", "14/6", "next Friday"],
         correctIndex: 0,
         explanation: "Numeric dates are read differently in the US (month first) and Europe (day first), and \"next Friday\" is ambiguous even among native speakers.",
       },
@@ -1219,7 +1225,7 @@ export const EN_C2_U10: Lesson[] = [
           "Uses a full, unambiguous date for the next update",
           "Keeps a polite, warm tone without being stiff",
         ],
-        modelAnswer: "Dear partners, I am writing to inform you that our main packaging supplier closed its business on Tuesday 4 June. Since then, our team has been working to solve the resulting delivery problems. We will make a loss this month, but our financial position remains strong. All customers will receive their orders, although some deliveries will arrive a few days late. Thank you for your patience. I will send you another update on Friday 14 June.",
+        modelAnswer: "Dear partners, I am writing to inform you that our main packaging supplier closed its business on Tuesday, June 4. Since then, our team has been working to solve the resulting delivery problems. We will make a loss this month, but our financial position remains strong. All customers will receive their orders, although some deliveries will arrive a few days late. Thank you for your patience. I will send you another update on Friday, June 14.",
         explanation: "\"I am writing to inform you\" is acceptable in a formal email; *We inform you that is not. Each idiom has become a plain verb.",
       },
     ],
@@ -1298,7 +1304,7 @@ export const EN_C2_U10: Lesson[] = [
         body: [
           "\"Bandwidth\" is the capacity of a network connection. In office jargon it means time or capacity to take on work: \"I don't have the bandwidth\" means \"I don't have time\". A colleague reading literally may wonder what the internet has to do with it.",
           "\"A deep dive\" is a detailed analysis: «un análisis en profundidad». \"Let's do a deep dive into the numbers\" is clearer as \"Let's look at the numbers in detail\". The phrase is useful when it labels a specific long session, empty when it means any discussion.",
-          "\"Going forward\" means \"from now on\" or \"in future\": «en adelante», «de cara al futuro». It is often redundant: in \"Going forward, we will send weekly reports\", \"will\" already shows the future. Use \"from now on\" when you mean a change from today, or delete it.",
+          "\"Going forward\" means \"from now on\" or \"in the future\": «en adelante», «de cara al futuro». It is often redundant: in \"Going forward, we will send weekly reports\", \"will\" already shows the future. Use \"from now on\" when you mean a change from today, or delete it.",
         ],
         examples: [
           { es: "I'm afraid I don't have the bandwidth for another project.", en: "Me temo que no tengo margen para otro proyecto." },
@@ -1332,7 +1338,7 @@ export const EN_C2_U10: Lesson[] = [
             sentence: "___, all expenses must be approved by your manager.",
             answer: "From now on",
             altAnswers: ["Going forward", "In future", "In the future", "From today"],
-            en: "[A partir de ahora], todos los gastos deben ser aprobados por tu responsable.",
+            en: "[A partir de ahora], todos los gastos deben ser aprobados por tu jefe.",
             explanation: "\"From now on\" marks a change starting today. \"Going forward\" means the same but is a common target of jargon complaints.",
           },
         ],
@@ -1346,7 +1352,7 @@ export const EN_C2_U10: Lesson[] = [
         ],
         examples: [
           { es: "We're building an MVP to test with ten customers.", en: "Estamos creando un producto mínimo viable para probarlo con diez clientes." },
-          { es: "The company is rightsizing its European operations.", en: "La empresa está ajustando su plantilla en Europa. (eufemismo de despidos)" },
+          { es: "The company is rightsizing its European operations.", en: "La empresa está ajustando su personal en Europa. (eufemismo de despidos)" },
           { es: "The company is cutting 200 jobs in Europe.", en: "La empresa va a eliminar 200 puestos de trabajo en Europa." },
           { es: "Could you explain what you mean by bandwidth?", en: "¿Podrías explicar qué quieres decir con «bandwidth»?" },
         ],
@@ -1371,7 +1377,7 @@ export const EN_C2_U10: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Hagamos un análisis a fondo de los costes.",
+        source: "Hagamos un análisis a fondo de los costos.",
         answer: "Let's look at the costs in detail.",
         altAnswers: [
           "Let's do a deep dive into the costs.",
@@ -1474,7 +1480,7 @@ export const EN_C2_U10: Lesson[] = [
           "Going forward, let's align on invoices with Carlos by EOW.",
         ],
         correctIndex: 0,
-        explanation: "The first option uses plain verbs and a clear deadline. \"EOW\" (end of week), \"own\" and \"align on\" are further jargon.",
+        explanation: "\"From now on, please send all invoices to Carlos by Friday\" uses plain verbs and a clear deadline. \"EOW\" (end of week), \"own\" and \"align on\" are further jargon.",
       },
       {
         type: "word-order",
@@ -1512,7 +1518,7 @@ export const EN_C2_U10: Lesson[] = [
         ],
         examples: [
           { es: "The current price is 40 dollars.", en: "El precio actual es de 40 dólares." },
-          { es: "The actual cost was much higher than the estimate.", en: "El coste real fue mucho más alto que el presupuestado." },
+          { es: "The actual cost was much higher than the estimate.", en: "El costo real fue mucho más alto que el presupuestado." },
           { es: "We currently work with three suppliers.", en: "Actualmente trabajamos con tres proveedores." },
           { es: "Actually, the meeting is on Thursday, not Wednesday.", en: "En realidad, la reunión es el jueves, no el miércoles." },
           { es: "After months of talks, they eventually signed the deal.", en: "Tras meses de negociaciones, al final firmaron el acuerdo." },
@@ -1655,7 +1661,7 @@ export const EN_C2_U10: Lesson[] = [
         heading: "Carpeta, éxito, realizar and sensible",
         body: [
           "A «carpeta» is a \"folder\", physical or digital. A \"carpet\" is an «alfombra». \"Exit\" is «salida»; «éxito» is \"success\", and «tener éxito» is \"succeed\" or \"be successful\".",
-          "\"Realise\" (US \"realize\") means to become aware of something: «darse cuenta». «Realizar» is \"carry out\", \"do\", \"make\" or \"conduct\", depending on the noun: «realizar un pago» is \"make a payment\", «realizar un estudio» is \"carry out a study\" or \"conduct a study\", «realizar un pedido» is \"place an order\". In business English \"realise\" also means to achieve (\"realise a profit\", \"realise your potential\"), which makes the confusion even easier.",
+          "\"Realize\" (British also \"realise\") means to become aware of something: «darse cuenta». «Realizar» is \"carry out\", \"do\", \"make\" or \"conduct\", depending on the noun: «realizar un pago» is \"make a payment\", «realizar un estudio» is \"carry out a study\" or \"conduct a study\", «realizar un pedido» is \"place an order\". In business English \"realize\" also means to achieve (\"realize a profit\", \"realize your potential\"), which makes the confusion even easier.",
           "\"Sensible\" means reasonable, showing good judgment: «sensato». «Sensible» is \"sensitive\": «datos sensibles» are \"sensitive data\", «un tema sensible» is \"a sensitive issue\".",
         ],
         examples: [
@@ -1724,7 +1730,7 @@ export const EN_C2_U10: Lesson[] = [
         sentence: "The ___ cost of the project was twice the budget.",
         answer: "actual",
         altAnswers: ["real"],
-        en: "El coste [real] del proyecto fue el doble del presupuesto.",
+        en: "El costo [real] del proyecto fue el doble del presupuesto.",
         explanation: "\"Actual\" means real. If you meant «actual» (current), you would write \"the current cost\".",
       },
       {
@@ -1924,7 +1930,7 @@ export const EN_C2_U10: Lesson[] = [
           { es: "The committee devised a new strategy.", en: "El comité ideó una nueva estrategia." },
           { es: "I didn't want to bring up the subject of money.", en: "No quería sacar el tema del dinero." },
           { es: "We need to cut down on costs.", en: "Tenemos que reducir gastos." },
-          { es: "Women make up 60 percent of the workforce.", en: "Las mujeres constituyen el 60 % de la plantilla." },
+          { es: "Women make up 60 percent of the workforce.", en: "Las mujeres constituyen el 60 % del personal." },
         ],
         checkpoint: [
           {
@@ -1970,7 +1976,7 @@ export const EN_C2_U10: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into formal written English, using Latinate verbs.",
-            source: "La empresa rechazó la propuesta y decidió reducir costes.",
+            source: "La empresa rechazó la propuesta y decidió reducir costos.",
             answer: "The company rejected the proposal and decided to reduce costs.",
             altAnswers: [
               "The company declined the proposal and decided to reduce costs.",
@@ -1997,7 +2003,7 @@ export const EN_C2_U10: Lesson[] = [
           { es: "Can you set up a meeting with the client?", en: "¿Puedes organizar una reunión con el cliente?" },
           { es: "I found out the train had been canceled.", en: "Me enteré de que habían cancelado el tren." },
           { es: "The offer was good, but she turned it down.", en: "La oferta era buena, pero la rechazó." },
-          { es: "We'll look into it tomorrow.", en: "Lo miraremos mañana." },
+          { es: "We'll look into it tomorrow.", en: "Lo revisaremos mañana." },
           { es: "The survey was conducted among 2,000 adults.", en: "La encuesta se realizó entre 2.000 adultos." },
         ],
         checkpoint: [
@@ -2172,7 +2178,7 @@ export const EN_C2_U10: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Rewrite this spoken message as a short formal notice for the company intranet, replacing phrasal verbs with more formal equivalents where appropriate: \"Hi all, just to let you know we've had to put off the training session because the trainer's off sick. We're looking into other dates and we'll let you know once we've sorted it out. Sorry about that!\"",
+        prompt: "Rewrite this spoken message as a short formal notice for the company intranet, replacing phrasal verbs with more formal equivalents where appropriate: \"Hi all, just to let you know we've had to put off the training session because the trainer's out sick. We're looking into other dates and we'll let you know once we've sorted it out. Sorry about that!\"",
         minWords: 40,
         maxWords: 80,
         rubric: [
@@ -2603,7 +2609,7 @@ export const EN_C2_U10: Lesson[] = [
           "The topic is set aside to be discussed later.",
           "The topic is marked as approved.",
           "The topic is canceled permanently.",
-          "Someone writes the topic on a noticeboard.",
+          "Someone writes the topic on a bulletin board.",
         ],
         correctIndex: 0,
         explanation: "\"Put a pin in it\" means to pause a topic and return to it later, like \"park it\" or \"circle back to it\".",

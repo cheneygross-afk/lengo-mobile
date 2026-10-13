@@ -51,7 +51,7 @@ export const EN_C2_U14: Lesson[] = [
               "It is wrong and it is dangerous.",
             ],
             correctIndex: 0,
-            explanation: "An ascending tricolon saves the longest, heaviest item for last. The second option puts the climax first, the third is a padded list of five, and the fourth has only two items.",
+            explanation: "An ascending tricolon saves the longest, heaviest item for last. Putting the cost first spends the climax too early, a list of five sounds padded, and two items do not make a tricolon.",
           },
         ],
       },
@@ -79,6 +79,8 @@ export const EN_C2_U14: Lesson[] = [
             answer: "Healthcare is not a cost but an investment.",
             altAnswers: [
               "Healthcare is not an expense but an investment.",
+              "Public health is not a cost but an investment.",
+              "Public health is not an expense but an investment.",
               "Health care is not a cost but an investment.",
               "Health care is not an expense but an investment.",
               "Healthcare is not a cost, it is an investment.",
@@ -565,7 +567,7 @@ export const EN_C2_U14: Lesson[] = [
           "A concrete human image rather than abstract emotional words",
           "A smooth transition between appeals",
         ],
-        modelAnswer: "I have taught in primary schools for eighteen years, and I can tell you that a hungry child cannot learn. Nearly one in four children in this city now arrives at school without breakfast. Those are the numbers. But behind them is a nine-year-old who puts her head on the desk at eleven o'clock, not because she is lazy, but because she has not eaten since lunch the day before. A free meal costs less than a textbook. It may matter more.",
+        modelAnswer: "I have taught in elementary schools for eighteen years, and I can tell you that a hungry child cannot learn. Nearly one in four children in this city now arrives at school without breakfast. Those are the numbers. But behind them is a nine-year-old who puts her head on the desk at eleven o'clock, not because she is lazy, but because she has not eaten since lunch the day before. A free meal costs less than a textbook. It may matter more.",
         explanation: "The model moves from ethos (eighteen years of teaching) to logos (one in four) to pathos (one child), using \"Those are the numbers. But...\" as the hinge.",
       },
     ],
@@ -622,7 +624,7 @@ export const EN_C2_U14: Lesson[] = [
               "So that is all I wanted to say about trust, thank you.",
             ],
             correctIndex: 0,
-            explanation: "\"Ultimately\" signals the end and the claim is stated firmly. The second hedges twice (\"I think\", \"maybe\"), the third misuses \"definitively\" for «en definitiva», and the fourth trails off.",
+            explanation: "\"Ultimately\" signals the end and the claim is stated firmly. The \"In conclusion\" version hedges twice (\"I think\", \"maybe\"), \"Definitively\" misuses the word for «en definitiva», and \"So that is all I wanted to say\" trails off.",
           },
         ],
       },
@@ -695,7 +697,7 @@ export const EN_C2_U14: Lesson[] = [
             sentence: "We ___ the council to keep the library open.",
             answer: "call on",
             altAnswers: ["urge", "ask", "appeal to"],
-            en: "[Hacemos un llamado] al ayuntamiento para que mantenga abierta la biblioteca.",
+            en: "[Hacemos un llamado] al concejo municipal para que mantenga abierta la biblioteca.",
             explanation: "«Hacer un llamado a alguien para que...» is \"call on someone to...\" (or \"appeal to someone to...\"). Note the infinitive, not a «para que» clause.",
           },
         ],
@@ -842,7 +844,7 @@ export const EN_C2_U14: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Rewrite this weak ending into a strong one (two to four sentences): \"In conclusion, I think that the city should maybe invest more in public transport, because it is important.\"",
+        prompt: "Rewrite this weak ending into a strong one (two to four sentences): \"In conclusion, I think that the city should maybe invest more in public transportation, because it is important.\"",
         minWords: 25,
         maxWords: 70,
         rubric: [
@@ -851,7 +853,7 @@ export const EN_C2_U14: Lesson[] = [
           "Includes a specific call to action",
           "Ends on a short, memorable line",
         ],
-        modelAnswer: "Ultimately, the question is not whether we can afford better public transport. It is whether we can afford another decade of gridlock. Vote for the investment tonight. Our streets, our air and our time depend on it.",
+        modelAnswer: "Ultimately, the question is not whether we can afford better public transportation. It is whether we can afford another decade of gridlock. Vote for the investment tonight. Our streets, our air and our time depend on it.",
         explanation: "The model replaces the hedge with \"Ultimately\", uses an antithesis, makes a concrete call to action and ends on a tricolon.",
       },
     ],
@@ -1145,7 +1147,7 @@ export const EN_C2_U14: Lesson[] = [
           { es: "Mark: Point of information!", en: "Mark: ¡Punto de información!" },
           { es: "Elena: I'll give way.", en: "Elena: Acepto la interrupción." },
           { es: "Mark: Isn't it true that hospitals cannot simply close on Fridays?", en: "Mark: ¿No es cierto que los hospitales no pueden simplemente cerrar los viernes?" },
-          { es: "Elena: I'll grant you that hospitals need rotas. But rotas already exist, and that is precisely how a four-day week would work there.", en: "Elena: Le concedo que los hospitales necesitan turnos. Pero los turnos ya existen, y así es precisamente como funcionaría allí la semana de cuatro días." },
+          { es: "Elena: I'll grant you that hospitals need shift schedules. But shift schedules already exist, and that is precisely how a four-day week would work there.", en: "Elena: Le concedo que los hospitales necesitan turnos. Pero los turnos ya existen, y así es precisamente como funcionaría allí la semana de cuatro días." },
           { es: "Elena: Which brings me back to productivity.", en: "Elena: Lo cual me devuelve a la productividad." },
         ],
         checkpoint: [
@@ -1153,13 +1155,13 @@ export const EN_C2_U14: Lesson[] = [
             type: "multiple-choice",
             question: "In Elena's answer, what does she concede, and what does she keep?",
             options: [
-              "She concedes that hospitals need rotas, but keeps her claim that the four-day week can work.",
+              "She concedes that hospitals need shift schedules, but keeps her claim that the four-day week can work.",
               "She concedes that the four-day week will not work in hospitals.",
               "She refuses to accept Mark's point.",
               "She changes her position to support the opposition.",
             ],
             correctIndex: 0,
-            explanation: "A graceful concession accepts a fact (\"hospitals need rotas\") and shows it does not damage the main argument.",
+            explanation: "A graceful concession accepts a fact (\"hospitals need shift schedules\") and shows it does not damage the main argument.",
           },
         ],
       },
@@ -1171,11 +1173,11 @@ export const EN_C2_U14: Lesson[] = [
           "\"As far as it goes\" is a sharp Mastery phrase: \"That's true as far as it goes\" means «es cierto, pero se queda corto».",
         ],
         examples: [
-          { es: "I'll grant you that the costs are high.", en: "Le concedo que los costes son elevados." },
+          { es: "I'll grant you that the costs are high.", en: "Le concedo que los costos son elevados." },
           { es: "I concede that the first year will be difficult.", en: "Reconozco que el primer año será difícil. (incorrecto: *I concede you that)" },
           { es: "My opponent is quite right that some sectors are different.", en: "Mi oponente tiene toda la razón en que algunos sectores son diferentes." },
           { es: "That's true as far as it goes, but it misses the bigger picture.", en: "Eso es cierto hasta cierto punto, pero pasa por alto el panorama general." },
-          { es: "Granted, the pilot schemes were small.", en: "Es cierto que los programas piloto fueron pequeños." },
+          { es: "Granted, the pilot programs were small.", en: "Es cierto que los programas piloto fueron pequeños." },
           { es: "Fair point. Even so, the results were consistent.", en: "Buena observación. Aun así, los resultados fueron coherentes." },
         ],
         checkpoint: [
@@ -1295,13 +1297,13 @@ export const EN_C2_U14: Lesson[] = [
           "I concede you that, and I withdraw my argument.",
         ],
         correctIndex: 0,
-        explanation: "Short concession, clear pivot, and an antithesis to finish. The second is a calque and surrenders, the third concedes nothing, and the fourth is ungrammatical and surrenders.",
+        explanation: "Short concession, clear pivot, and an antithesis to finish. \"You have reason\" is a calque and surrenders, \"completely wrong\" concedes nothing, and *I concede you that is ungrammatical and surrenders.",
       },
       {
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Es cierto que los costes iniciales son altos; aun así, el ahorro a largo plazo es innegable.",
+        source: "Es cierto que los costos iniciales son altos; aun así, el ahorro a largo plazo es innegable.",
         answer: "Granted, the initial costs are high; even so, the long-term savings are undeniable.",
         altAnswers: [
           "It's true that the initial costs are high; even so, the long-term savings are undeniable.",
@@ -1431,7 +1433,7 @@ export const EN_C2_U14: Lesson[] = [
           { es: "Higher taxes reduce consumption; conversely, subsidies tend to increase it.", en: "Los impuestos altos reducen el consumo; por el contrario, las subvenciones tienden a aumentarlo." },
           { es: "If we trust the data on crime, by the same token we must trust the data on poverty.", en: "Si confiamos en los datos sobre delincuencia, por la misma razón debemos confiar en los datos sobre pobreza." },
           { es: "Notwithstanding these concerns, the bill was passed.", en: "No obstante estas reservas, el proyecto de ley fue aprobado." },
-          { es: "The scheme is cheap. Moreover, it is easy to run.", en: "El plan es barato. Además, es fácil de gestionar. (en un texto formal, mejor que \"Besides\")" },
+          { es: "The plan is cheap. Moreover, it is easy to run.", en: "El plan es barato. Además, es fácil de gestionar. (en un texto formal, mejor que \"Besides\")" },
         ],
         checkpoint: [
           {
@@ -1484,7 +1486,7 @@ export const EN_C2_U14: Lesson[] = [
             sentence: "The council wants to reduce traffic. ___, it will double the bus service.",
             answer: "To that end",
             altAnswers: ["To this end", "With that in mind", "With this in mind", "With that aim"],
-            en: "El ayuntamiento quiere reducir el tráfico. [Con ese fin], duplicará el servicio de autobuses.",
+            en: "El concejo municipal quiere reducir el tráfico. [Con ese fin], duplicará el servicio de autobuses.",
             explanation: "\"To that end\" (or \"To this end\") links a goal to the measures that serve it.",
           },
           {
@@ -1653,7 +1655,7 @@ export const EN_C2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A student writes: *The rent is too high. Besides, the flat is in a good location. What is the problem?",
+        question: "A student writes: *The rent is too high. Besides, the apartment is in a good location. What is the problem?",
         options: [
           "\"Besides\" adds a reason in the same direction, but here the second idea is a point in favor, so a contrast linker such as \"That said\" is needed.",
           "\"Besides\" must always come at the end of the sentence.",
@@ -1661,7 +1663,7 @@ export const EN_C2_U14: Lesson[] = [
           "\"Besides\" can only be used with numbers.",
         ],
         correctIndex: 0,
-        explanation: "The two ideas pull in opposite directions, so the linker must signal contrast: \"The rent is too high. That said, the flat is in a good location.\"",
+        explanation: "The two ideas pull in opposite directions, so the linker must signal contrast: \"The rent is too high. That said, the apartment is in a good location.\"",
       },
       {
         type: "translate",
@@ -1743,7 +1745,7 @@ export const EN_C2_U14: Lesson[] = [
           "No *in the other hand, *at the end for «al final» or *besides for formal «además»",
           "Correct punctuation around \"however\" and similar linkers",
         ],
-        modelAnswer: "Banning cars from city centers would cut pollution and noise. That said, shopkeepers fear losing customers who drive in from the suburbs. Such concerns are understandable, but evidence from several cities suggests otherwise: footfall often rises once streets are pedestrianized. This pattern has a simple explanation. Pedestrians linger; drivers do not. Cities should therefore phase in restrictions gradually and, to that end, improve public transport first, thereby giving suburban shoppers a genuine alternative.",
+        modelAnswer: "Banning cars from city centers would cut pollution and noise. That said, store owners fear losing customers who drive in from the suburbs. Such concerns are understandable, but evidence from several cities suggests otherwise: foot traffic often rises once streets are pedestrianized. This pattern has a simple explanation. Pedestrians linger; drivers do not. Cities should therefore phase in restrictions gradually and, to that end, improve public transportation first, thereby giving suburban shoppers a genuine alternative.",
         explanation: "The model uses \"That said\", \"Such concerns\", \"This pattern\", \"to that end\" and \"thereby\", each with a clear logical job.",
       },
     ],
@@ -1896,8 +1898,8 @@ export const EN_C2_U14: Lesson[] = [
           "In a debate, choosing the verb is an argument in itself: \"My opponent asserts, without any evidence, that...\" undermines before you have even replied. Use this deliberately, and be fair when you summarize the other side.",
         ],
         examples: [
-          { es: "My opponent claims that the scheme is self-funding.", en: "Mi oponente afirma (sin que esté demostrado) que el plan se autofinancia." },
-          { es: "As the report points out, the costs have doubled.", en: "Como señala el informe, los costes se han duplicado." },
+          { es: "My opponent claims that the plan is self-funding.", en: "Mi oponente afirma (sin que esté demostrado) que el plan se autofinancia." },
+          { es: "As the report points out, the costs have doubled.", en: "Como señala el informe, los costos se han duplicado." },
           { es: "Even its supporters concede that the plan is risky.", en: "Hasta sus defensores reconocen que el plan es arriesgado." },
           { es: "He asserts, without a shred of evidence, that crime is rising.", en: "Afirma, sin la menor prueba, que la delincuencia está aumentando." },
         ],
@@ -2120,7 +2122,7 @@ export const EN_C2_U14: Lesson[] = [
           { es: "He said he would call, but he never did.", en: "Dijo que llamaría, pero nunca lo hizo." },
           { es: "I've never been to Lima. Neither has my sister.", en: "Nunca he estado en Lima. Mi hermana tampoco." },
           { es: "She works on Saturdays, and so does her husband.", en: "Ella trabaja los sábados, y su marido también." },
-          { es: "You've left the door open. So I have!", en: "Te has dejado la puerta abierta. ¡Anda, es verdad!" },
+          { es: "You've left the door open. So I have!", en: "Dejaste la puerta abierta. ¡Ah, es cierto!" },
         ],
         checkpoint: [
           {
@@ -2330,9 +2332,9 @@ export const EN_C2_U14: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Ella prefiere los carros eléctricos a los de gasolina.",
-        answer: "She prefers electric cars to petrol ones.",
+        answer: "She prefers electric cars to gas ones.",
         altAnswers: [
-          "She prefers electric cars to gas ones.",
+          "She prefers electric cars to petrol ones.",
           "She prefers electric cars to gasoline ones.",
           "She prefers electric cars to petrol cars.",
           "She prefers electric cars to gas cars.",
@@ -2437,9 +2439,9 @@ export const EN_C2_U14: Lesson[] = [
           "Useful frames: \"The opposition's case rests on...\", \"What they have not explained is...\", \"On balance...\", \"This outweighs that because...\", \"The burden was on them to show..., and they have not\".",
         ],
         examples: [
-          { es: "The opposition's entire case rests on cost.", en: "Todo el planteamiento de la oposición se basa en el coste." },
+          { es: "The opposition's entire case rests on cost.", en: "Todo el planteamiento de la oposición se basa en el costo." },
           { es: "What they have not explained is who pays for the pollution.", en: "Lo que no han explicado es quién paga la contaminación." },
-          { es: "Even if their figures are right, the benefits outweigh the costs.", en: "Aunque sus cifras sean correctas, los beneficios superan a los costes." },
+          { es: "Even if their figures are right, the benefits outweigh the costs.", en: "Aunque sus cifras sean correctas, los beneficios superan a los costos." },
           { es: "The burden was on them to show a better alternative, and they have not.", en: "Les correspondía demostrar una alternativa mejor, y no lo han hecho." },
         ],
         checkpoint: [
@@ -2447,7 +2449,7 @@ export const EN_C2_U14: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Aunque sus cifras sean correctas, los beneficios superan con creces a los costes.",
+            source: "Aunque sus cifras sean correctas, los beneficios superan con creces a los costos.",
             answer: "Even if their figures are correct, the benefits far outweigh the costs.",
             altAnswers: [
               "Even if their figures are right, the benefits far outweigh the costs.",
@@ -2535,7 +2537,7 @@ export const EN_C2_U14: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Lo que no han explicado es quién paga el coste de no hacer nada.",
+        source: "Lo que no han explicado es quién paga el costo de no hacer nada.",
         answer: "What they have not explained is who pays the cost of doing nothing.",
         altAnswers: [
           "What they haven't explained is who pays the cost of doing nothing.",

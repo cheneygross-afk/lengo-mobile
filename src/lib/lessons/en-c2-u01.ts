@@ -179,7 +179,7 @@ export const EN_C2_U01: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "The decision was taken ___ the available data.",
+        sentence: "The decision was made ___ the available data.",
         answer: "on the basis of",
         altAnswers: ["based on"],
         en: "La decisión se tomó [en base a] los datos disponibles.",
@@ -665,9 +665,9 @@ export const EN_C2_U01: Lesson[] = [
           "A \"witness\" testifies, or gives evidence, under oath. «Prueba» in court is usually \"evidence\", an uncountable noun: \"a piece of evidence\", \"new evidence\", never *an evidence or *evidences.",
         ],
         examples: [
-          { es: "The judge adjourned the hearing until Monday.", en: "El juez aplazó la vista hasta el lunes." },
+          { es: "The judge adjourned the hearing until Monday.", en: "El juez aplazó la audiencia hasta el lunes." },
           { es: "She was appointed to the Supreme Court as an associate justice.", en: "Fue nombrada magistrada del Tribunal Supremo." },
-          { es: "He appeared before the magistrates charged with careless driving.", en: "Compareció ante los jueces legos acusado de conducción imprudente." },
+          { es: "He appeared before the magistrates charged with careless driving.", en: "Compareció ante los jueces legos acusado de manejo imprudente." },
           { es: "The jury returned a verdict of not guilty.", en: "El jurado emitió un veredicto de no culpabilidad." },
           { es: "Two witnesses testified that they had seen him at the scene.", en: "Dos testigos declararon que lo habían visto en el lugar de los hechos." },
           { es: "The police found a crucial piece of evidence.", en: "La policía encontró una prueba crucial." },
@@ -910,7 +910,7 @@ export const EN_C2_U01: Lesson[] = [
         heading: "Starting a case",
         body: [
           "Verb + noun collocations are what make legal English sound native. In civil cases you \"file a claim\", \"file a lawsuit\" (US), \"bring a case\" or \"bring an action\" against someone; in everyday English you \"take someone to court\" or \"sue\" them.",
-          "In criminal cases, the police \"arrest\" a suspect and then \"charge\" them with an offence; the victim may \"press charges\" (insist that the case goes ahead). To tell the police about a crime is to \"report\" it: \"I reported the theft to the police\".",
+          "In criminal cases, the police \"arrest\" a suspect and then \"charge\" them with an offense; the victim may \"press charges\" (insist that the case goes ahead). To tell the police about a crime is to \"report\" it: \"I reported the theft to the police\".",
           "Typical Spanish-influenced errors: *put a case (from «poner una demanda»), *put a denunciation (from «poner una denuncia») and *declare oneself guilty (from «declararse culpable»). Say \"bring a case\", \"report something to the police\" or \"file a complaint\", and \"plead guilty\". English \"denunciation\" means public condemnation.",
           "Before the trial the defendant \"pleads guilty\" or \"pleads not guilty\". In the US the past tense \"pled\" is also common. A guilty plea usually means there is no full trial.",
         ],
@@ -954,7 +954,7 @@ export const EN_C2_U01: Lesson[] = [
           { es: "The defense lawyer cross-examined the main witness.", en: "El abogado defensor sometió al testigo principal a un contrainterrogatorio." },
           { es: "Objection sustained.", en: "Ha lugar." },
           { es: "Objection overruled.", en: "No ha lugar." },
-          { es: "The hearing was adjourned until next week.", en: "La vista se aplazó hasta la semana que viene." },
+          { es: "The hearing was adjourned until next week.", en: "La audiencia se aplazó hasta la semana que viene." },
           { es: "The witness took the stand and swore to tell the truth.", en: "El testigo subió al estrado y juró decir la verdad." },
           { es: "After two days of deliberation, the jury reached a verdict.", en: "Tras dos días de deliberación, el jurado llegó a un veredicto." },
         ],
@@ -1065,7 +1065,7 @@ export const EN_C2_U01: Lesson[] = [
         pairs: [
           { left: "file a claim", right: "presentar una demanda" },
           { left: "cross-examine", right: "contrainterrogar" },
-          { left: "adjourn", right: "aplazar la vista" },
+          { left: "adjourn", right: "aplazar la audiencia" },
           { left: "overrule", right: "desestimar (una objeción)" },
           { left: "acquit", right: "absolver" },
           { left: "uphold", right: "confirmar (una resolución)" },
@@ -1102,7 +1102,7 @@ export const EN_C2_U01: Lesson[] = [
         options: [
           "Ha rechazado la objeción y el testigo debe responder.",
           "Ha aceptado la objeción y el testigo no tiene que responder.",
-          "Ha aplazado la vista.",
+          "Ha aplazado la audiencia.",
           "Ha expulsado al testigo de la sala.",
         ],
         correctIndex: 0,
@@ -1273,8 +1273,8 @@ export const EN_C2_U01: Lesson[] = [
           "Going the other way, the main moves are: replace the person with a defined term, turn verbs into nouns where it helps, use \"shall\" or \"must\" for duties, use the passive when the agent is obvious, and use the established formula instead of improvising one.",
         ],
         examples: [
-          { es: "The Tenant shall, within 14 days of receipt of an invoice, reimburse the Landlord for the cost of repairs.", en: "El arrendatario deberá reembolsar al arrendador el coste de las reparaciones en un plazo de 14 días desde la recepción de la factura." },
-          { es: "You must pay the landlord back for repairs within 14 days of getting the invoice.", en: "Debe devolver al casero el coste de las reparaciones en los 14 días siguientes a recibir la factura." },
+          { es: "The Tenant shall, within 14 days of receipt of an invoice, reimburse the Landlord for the cost of repairs.", en: "El arrendatario deberá reembolsar al arrendador el costo de las reparaciones en un plazo de 14 días desde la recepción de la factura." },
+          { es: "You must pay the landlord back for repairs within 14 days of getting the invoice.", en: "Debe devolver al casero el costo de las reparaciones en los 14 días siguientes a recibir la factura." },
           { es: "Cancellations made less than 48 hours prior to the appointment will incur the full fee.", en: "Las cancelaciones efectuadas con menos de 48 horas de antelación conllevarán el cobro de la tarifa completa." },
           { es: "If you cancel less than 48 hours before your appointment, we will charge the full fee.", en: "Si cancela con menos de 48 horas de antelación, le cobraremos la tarifa completa." },
         ],
@@ -1289,7 +1289,7 @@ export const EN_C2_U01: Lesson[] = [
               "We may suspend your account if you move.",
             ],
             correctIndex: 0,
-            explanation: "Only the first keeps the 30-day limit, the condition (not telling us) and the discretion (\"may\", not \"will\").",
+            explanation: "Only \"If you move and do not tell us within 30 days, we may suspend your account\" keeps the 30-day limit, the condition (not telling us) and the discretion (\"may\", not \"will\").",
           },
         ],
       },
@@ -1360,7 +1360,7 @@ export const EN_C2_U01: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Your request will be processed upon ___ of the completed form.",
         answer: "receipt",
-        en: "Su solicitud se tramitará una vez [recibido] el formulario cumplimentado.",
+        en: "Su solicitud se tramitará una vez [recibido] el formulario completado.",
         explanation: "\"Upon receipt of\" is the nominal formula for «una vez recibido». The p in \"receipt\" is silent.",
       },
       {
@@ -1728,7 +1728,7 @@ export const EN_C2_U01: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "He has been charged ___ reckless driving.",
             answer: "with",
-            en: "Ha sido acusado formalmente [de] conducción temeraria.",
+            en: "Ha sido acusado formalmente [de] manejo temerario.",
             explanation: "\"Charge\" takes \"with\"; \"accuse\" and \"convict\" take \"of\".",
           },
           {
@@ -1749,7 +1749,7 @@ export const EN_C2_U01: Lesson[] = [
         ],
         examples: [
           { es: "Crime has fallen in most big cities.", en: "La delincuencia ha bajado en la mayoría de las grandes ciudades." },
-          { es: "It is an offense to drive without a valid license.", en: "Manejar sin un permiso válido es una infracción penal." },
+          { es: "It is an offense to drive without a valid license.", en: "Manejar sin una licencia válida es una infracción penal." },
           { es: "Shoplifting is usually charged as a misdemeanor.", en: "El hurto en tiendas suele imputarse como delito leve." },
           { es: "Armed robbery is a felony in every US state.", en: "El robo a mano armada es un delito grave en todos los estados de EE. UU." },
           { es: "He committed the offense while he was on bail.", en: "Cometió el delito mientras estaba en libertad bajo fianza." },
@@ -2197,7 +2197,7 @@ export const EN_C2_U01: Lesson[] = [
         type: "listen-choose",
         audio: "It is hereby ordered that the defendant be released on bail.",
         question: "What has the court decided?",
-        options: ["Que el acusado quede en libertad bajo fianza.", "Que el acusado ingrese en prisión.", "Que se aplace la vista.", "Que el acusado pague una multa."],
+        options: ["Que el acusado quede en libertad bajo fianza.", "Que el acusado ingrese en prisión.", "Que se aplace la audiencia.", "Que el acusado pague una multa."],
         correctIndex: 0,
         explanation: "\"Released on bail\" = «en libertad bajo fianza».",
       },
@@ -2211,7 +2211,7 @@ export const EN_C2_U01: Lesson[] = [
       {
         type: "speak",
         text: "It is recommended that the notice be displayed in a prominent place.",
-        tip: "Keep that and be unstressed and put the main stress on DIS-played and PROM-inent.",
+        tip: "Keep that and be unstressed and put the main stress on dis-PLAYED and PROM-inent.",
         explanation: "In speech, the subjunctive \"be\" is weak; the stress falls on the content words.",
       },
       {
@@ -2435,7 +2435,7 @@ export const EN_C2_U01: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "The decision was taken ___ the expert's report.",
+        sentence: "The decision was made ___ the expert's report.",
         answer: "on the basis of",
         altAnswers: ["based on"],
         en: "La decisión se tomó [en base al] informe del perito.",

@@ -673,7 +673,7 @@ export const EN_C1_U11_EXTRA: Lesson[] = [
     exercises: [
       {
         type: "multiple-choice",
-        question: "«Me robaron la cartera en el metro.» Choose the correct translation.",
+        question: "«Me robaron la billetera en el metro.» Choose the correct translation.",
         options: [
           "My wallet was stolen on the subway.",
           "My wallet was robbed on the subway.",
@@ -832,7 +832,7 @@ export const EN_C1_U11_EXTRA: Lesson[] = [
           "I'm tired; I'm going to go lie down for a while.",
           "I'm tired; I'm going to go and lie down for a while.",
         ],
-        explanation: "«Tumbarse» is \"lie down\" (lie, lay, lain), with no object. *Lay down for a while is a very common mistake, even among native speakers, but it is not correct in careful English.",
+        explanation: "«Acostarse» (for a rest) is \"lie down\" (lie, lay, lain), with no object. *Lay down for a while is a very common mistake, even among native speakers, but it is not correct in careful English.",
       },
       {
         type: "fill-blank",

@@ -276,7 +276,7 @@ export const EN_C1_U03_DRILLS: Lesson[] = [
         type: "speak",
         prompt: "Say in English: «La aprobación del presupuesto llevó semanas.»",
         text: "The approval of the budget took weeks.",
-        tip: "Stress the second syllable: a-PPROV-al.",
+        tip: "Stress the second syllable: a-PROOV-al.",
         explanation: "\"Approve\" > \"approval\" (-al). *Approbation and *approvation are calques of «aprobación».",
       },
       {
@@ -663,7 +663,7 @@ export const EN_C1_U03_DRILLS: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "The lack of investment in public transport is worrying.",
+        audio: "The lack of investment in public transportation is worrying.",
         explanation: "Two noun + preposition pairs: \"lack of\" (like «falta de») and \"investment in\" (not *investment on).",
       },
       {
@@ -2399,7 +2399,7 @@ export const EN_C1_U03_DRILLS: Lesson[] = [
           "It has been reported that burglaries have been increased.",
         ],
         correctIndex: 0,
-        explanation: "All hide the doer, but the first says it in seven words. Do not stack \"it has been reported\" and \"there has been\".",
+        explanation: "All hide the doer, but \"An increase in burglaries has been reported\" says it in seven words. Do not stack \"it has been reported\" and \"there has been\".",
       },
       {
         type: "translate",

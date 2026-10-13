@@ -69,7 +69,7 @@ export const EN_C2_U14_EXTRA: Lesson[] = [
           "\"Albeit\" means \"although\" but is followed by an adjective, adverb or prepositional phrase, not a full clause: \"a small, albeit significant, improvement\"; \"The plan worked, albeit slowly.\" *Albeit it was slow is wrong.",
         ],
         examples: [
-          { es: "While I accept your point about cost, I don't think it settles the matter.", en: "Aunque acepto lo que dice sobre el coste, no creo que eso zanje la cuestión." },
+          { es: "While I accept your point about cost, I don't think it settles the matter.", en: "Aunque acepto lo que dice sobre el costo, no creo que eso zanje la cuestión." },
           { es: "The north voted in favor, whereas the south was firmly against.", en: "El norte votó a favor, mientras que el sur estaba claramente en contra." },
           { es: "The data are incomplete. Be that as it may, we have to make a decision today.", en: "Los datos están incompletos. Sea como sea, hoy tenemos que tomar una decisión." },
           { es: "The reform was popular. Even so, it failed to pass.", en: "La reforma era popular. Aun así, no salió adelante." },

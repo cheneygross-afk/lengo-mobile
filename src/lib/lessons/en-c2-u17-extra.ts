@@ -131,7 +131,7 @@ export const EN_C2_U17_EXTRA: Lesson[] = [
         options: [
           "Could you explain the procedure to me?",
           "Could you explain me the procedure?",
-          "Could you explain to me the procedure?",
+          "Could you explain the procedure me?",
           "Could you explain me about the procedure?",
         ],
         correctIndex: 0,

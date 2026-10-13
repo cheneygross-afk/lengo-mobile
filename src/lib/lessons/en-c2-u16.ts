@@ -68,7 +68,7 @@ export const EN_C2_U16: Lesson[] = [
         ],
         examples: [
           { es: "Slow down; you're rushing the conclusion.", en: "Ve más despacio; estás acelerando la conclusión." },
-          { es: "Could you speak up a little? We can't hear you at the back.", en: "¿Podrías hablar un poco más alto? Desde el fondo no te oímos." },
+          { es: "Could you speak up a little? We can't hear you in the back.", en: "¿Podrías hablar un poco más alto? Desde el fondo no te oímos." },
           { es: "You need to project your voice in a room this size.", en: "En una sala de este tamaño tienes que proyectar la voz." },
           { es: "He tends to mumble when he's nervous.", en: "Cuando está nervioso tiende a hablar entre dientes." },
           { es: "Try to enunciate more clearly.", en: "Intenta vocalizar mejor." },
@@ -89,10 +89,10 @@ export const EN_C2_U16: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "¿Podrías hablar un poco más alto? Desde el fondo no te oímos.",
-            answer: "Could you speak up a little? We can't hear you at the back.",
+            answer: "Could you speak up a little? We can't hear you in the back.",
             altAnswers: [
               "Could you speak up a bit? We can't hear you at the back.",
-              "Could you speak up a little? We can't hear you in the back.",
+              "Could you speak up a little? We can't hear you at the back.",
               "Could you speak up a bit? We can't hear you in the back.",
               "Could you speak a little louder? We can't hear you at the back.",
               "Could you speak a bit louder? We can't hear you at the back.",
@@ -442,7 +442,7 @@ export const EN_C2_U16: Lesson[] = [
           "You can also postpone: \"I'm actually going to cover that in a moment\", \"Can I come back to that once I've shown you the figures?\". Note \"come back to\" («retomar», «volver sobre»), which sounds more natural here than the more formal \"return to the question\".",
         ],
         examples: [
-          { es: "Just so I'm clear, are you asking about the cost or the timeline?", en: "Para asegurarme de que lo entiendo: ¿pregunta por el coste o por los plazos?" },
+          { es: "Just so I'm clear, are you asking about the cost or the timeline?", en: "Para asegurarme de que lo entiendo: ¿pregunta por el costo o por los plazos?" },
           { es: "If I understand you correctly, you're saying the pilot was too small.", en: "Si no le he entendido mal, dice usted que el piloto fue demasiado pequeño." },
           { es: "That's a great question; let me think about how best to put it.", en: "Muy buena pregunta; déjeme pensar cómo explicarlo mejor." },
           { es: "Could you say a little more about what you mean by risk?", en: "¿Podría concretar un poco qué entiende por riesgo?" },
@@ -509,13 +509,13 @@ export const EN_C2_U16: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "No tengo esa cifra a mano, pero le contesto antes del viernes.",
-            answer: "I don't have that figure to hand, but I'll get back to you by Friday.",
+            answer: "I don't have that number in front of me, but I'll get back to you by Friday.",
             altAnswers: [
               "I don't have that figure on hand, but I'll get back to you by Friday.",
               "I don't have that number to hand, but I'll get back to you by Friday.",
               "I don't have that number on hand, but I'll get back to you by Friday.",
               "I don't have that figure in front of me, but I'll get back to you by Friday.",
-              "I don't have that number in front of me, but I'll get back to you by Friday.",
+              "I don't have that figure to hand, but I'll get back to you by Friday.",
               "I don't have that figure to hand, but I'll get back to you before Friday.",
               "I don't have that figure on hand, but I'll get back to you before Friday.",
               "I don't have that number on hand, but I'll get back to you before Friday.",
@@ -594,7 +594,7 @@ export const EN_C2_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Para asegurarme de que lo entiendo: ¿pregunta por el coste o por los plazos?",
+        source: "Para asegurarme de que lo entiendo: ¿pregunta por el costo o por los plazos?",
         answer: "Just so I'm clear, are you asking about the cost or the timeline?",
         altAnswers: [
           "Just so I'm clear, are you asking about the cost or the timing?",
@@ -768,7 +768,7 @@ export const EN_C2_U16: Lesson[] = [
         ],
         examples: [
           { es: "We seem to have reached an impasse.", en: "Parece que hemos llegado a un punto muerto." },
-          { es: "We're going round in circles.", en: "Estamos dando vueltas a lo mismo." },
+          { es: "We're going around in circles.", en: "Estamos dando vueltas a lo mismo." },
           { es: "Price is the main sticking point.", en: "El precio es el principal escollo." },
           { es: "The talks have stalled over the delivery dates.", en: "Las negociaciones se han estancado por las fechas de entrega." },
           { es: "We need to find a way to break the deadlock.", en: "Tenemos que encontrar la manera de desbloquear la situación." },
@@ -820,7 +820,7 @@ export const EN_C2_U16: Lesson[] = [
           "Hypothetical proposals keep you from committing too early: \"What if we were to extend the contract to three years?\", \"Suppose we covered the shipping costs. Would that help?\". \"Were to\" makes the idea sound exploratory rather than like a firm offer.",
         ],
         examples: [
-          { es: "Let's park that for now and come back to it later.", en: "Dejemos eso estacionado por ahora y volvamos a ello más tarde." },
+          { es: "Let's park that for now and come back to it later.", en: "Dejemos eso en pausa por ahora y volvamos a ello más tarde." },
           { es: "Can we put that to one side for a moment?", en: "¿Podemos dejar eso de lado un momento?" },
           { es: "What would it take to get this deal over the line?", en: "¿Qué haría falta para cerrar este acuerdo?" },
           { es: "What would you need from us to make this work?", en: "¿Qué necesitarían de nosotros para que esto funcione?" },
@@ -1482,7 +1482,7 @@ export const EN_C2_U16: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "You have just agreed a deal with a client: 2,000 units at 18 dollars each, delivery in two batches (1 March and 1 April), payment within 30 days of each delivery, and a one-year warranty. The deal still needs approval from your legal team. Write the follow-up email.",
+        prompt: "You have just agreed on a deal with a client: 2,000 units at 18 dollars each, delivery in two batches (1 March and 1 April), payment within 30 days of each delivery, and a one-year warranty. The deal still needs approval from your legal team. Write the follow-up email.",
         minWords: 90,
         maxWords: 160,
         rubric: [
@@ -1492,7 +1492,7 @@ export const EN_C2_U16: Lesson[] = [
           "Flags that the deal is \"subject to\" legal review or contract",
           "Asks the client to confirm the summary and closes courteously",
         ],
-        modelAnswer: "Dear Ms Lopez,\n\nThank you for your time this morning. Further to our meeting, please find below a summary of what we agreed.\n\n1. Volume and price: 2,000 units at $18 per unit, excluding tax.\n2. Delivery: in two batches of 1,000 units, by 1 March and by 1 April 2027.\n3. Payment: each delivery will be invoiced separately and paid within 30 days of receipt.\n4. Warranty: all units will carry a one-year warranty from the date of delivery.\n\nPlease note that this agreement is subject to review by our legal team, and we expect to send you the draft contract by 15 February.\n\nCould you confirm that this reflects your understanding? If I've missed anything, please let me know.\n\nMany thanks again for a productive meeting.\n\nBest regards,\nCarlos Ruiz",
+        modelAnswer: "Dear Ms. Lopez,\n\nThank you for your time this morning. Further to our meeting, please find below a summary of what we agreed.\n\n1. Volume and price: 2,000 units at $18 per unit, excluding tax.\n2. Delivery: in two batches of 1,000 units, by 1 March and by 1 April 2027.\n3. Payment: each delivery will be invoiced separately and paid within 30 days of receipt.\n4. Warranty: all units will carry a one-year warranty from the date of delivery.\n\nPlease note that this agreement is subject to review by our legal team, and we expect to send you the draft contract by 15 February.\n\nCould you confirm that this reflects your understanding? If I've missed anything, please let me know.\n\nMany thanks again for a productive meeting.\n\nBest regards,\nCarlos Ruiz",
         explanation: "A good summary is numbered, precise and explicit about what is still conditional, and it ends by asking for confirmation.",
       },
     ],
@@ -1508,7 +1508,7 @@ export const EN_C2_U16: Lesson[] = [
       {
         heading: "Stage 1: opening and positions",
         body: [
-          "Lucia opens by building rapport and agreeing the agenda: \"Thanks for making the time. Before we get into the detail, shall we agree on what we'd like to cover today?\" Setting the agenda together signals cooperation from the first minute.",
+          "Lucia opens by building rapport and agreeing on the agenda: \"Thanks for making the time. Before we get into the detail, shall we agree on what we'd like to cover today?\" Setting the agenda together signals cooperation from the first minute.",
           "Then each side states its position without locking itself in: \"Our starting point is 40 dollars per room per year\", \"We're hoping to reach agreement on price and the rollout today\". \"Starting point\" tells the other side that there is room to move; \"final offer\" this early would close doors.",
           "Notice how Emma signals her own constraints: \"I should say up front that our budget is fairly tight this year\". \"Up front\" («de entrada», «desde el principio») is a useful Mastery adverb for being transparent.",
         ],
@@ -1566,7 +1566,7 @@ export const EN_C2_U16: Lesson[] = [
       {
         heading: "Stage 2: the sticking point",
         body: [
-          "Emma's company wants 32 dollars; Lucia can't go below 36 without a longer commitment. They are going round in circles, so Lucia names the problem and parks it: \"It sounds like price is the real sticking point. Can we park that for a moment and look at the rollout first?\"",
+          "Emma's company wants 32 dollars; Lucia can't go below 36 without a longer commitment. They are going around in circles, so Lucia names the problem and parks it: \"It sounds like price is the real sticking point. Can we park that for a moment and look at the rollout first?\"",
           "They quickly agree that the platform will go live in 20 hotels first and then in the remaining 60. With that agreed, Lucia reframes: \"What would it take for you to commit to all 80 hotels for three years?\"",
           "Emma answers with a condition of her own: \"If you could bring the price down to 34 dollars, I think I could sell a three-year deal internally\". \"Sell something internally\" («convencer a los de dentro») means persuading your own management.",
         ],
@@ -1619,7 +1619,7 @@ export const EN_C2_U16: Lesson[] = [
         ],
         examples: [
           { es: "We could go to 34, provided you commit to three years and pay annually in advance.", en: "Podríamos bajar a 34, siempre que se comprometan a tres años y paguen anualmente por adelantado." },
-          { es: "Could you include the staff training at no extra cost?", en: "¿Podrían incluir la formación del personal sin coste adicional?" },
+          { es: "Could you include the staff training at no extra cost?", en: "¿Podrían incluir la capacitación del personal sin costo adicional?" },
           { es: "Are we close to something we can both live with?", en: "¿Estamos cerca de algo que podamos aceptar ambas partes?" },
           { es: "So, do we have a deal?", en: "Entonces, ¿trato hecho?" },
           { es: "I think we can live with that.", en: "Creo que podemos aceptarlo." },
@@ -1630,7 +1630,7 @@ export const EN_C2_U16: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "¿Podrían incluir la formación del personal sin coste adicional?",
+            source: "¿Podrían incluir la formación del personal sin costo adicional?",
             answer: "Could you include the staff training at no extra cost?",
             altAnswers: [
               "Could you include staff training at no extra cost?",
@@ -1650,7 +1650,7 @@ export const EN_C2_U16: Lesson[] = [
               "Could you throw in the staff training at no extra cost?",
               "Could you include the staff training at no extra cost to us?",
             ],
-            explanation: "«Sin coste adicional» is \"at no extra cost\" or \"at no additional cost\". «La formación» here is \"training\", never *formation.",
+            explanation: "«Sin costo adicional» is \"at no extra cost\" or \"at no additional cost\". «La formación» here is \"training\", never *formation.",
           },
           {
             type: "multiple-choice",
@@ -1863,7 +1863,7 @@ export const EN_C2_U16: Lesson[] = [
           "Includes \"subject to contract\" and the approval condition",
           "Asks for confirmation and names the next step",
         ],
-        modelAnswer: "Dear Emma,\n\nThank you again for a very productive meeting this morning. As agreed, please find below a summary of the main terms.\n\n1. Term: a three-year contract covering all 80 hotels.\n2. Price: 35 dollars per room for year one and 34 dollars per room for years two and three, payable annually in advance.\n3. Rollout: phase 1 (20 hotels) will go live by 1 October; phase 2 (the remaining 60 hotels) will go live by 1 February.\n4. Training: staff training will be included at no extra cost.\n\nThis summary is subject to contract and to final approval by your director.\n\nCould you confirm that this reflects your understanding? Once you do, our legal team will draft the contract and send it to you within ten working days.\n\nI'm really pleased we got there, and I look forward to working with you.\n\nBest regards,\nLucia",
+        modelAnswer: "Dear Emma,\n\nThank you again for a very productive meeting this morning. As agreed, please find below a summary of the main terms.\n\n1. Term: a three-year contract covering all 80 hotels.\n2. Price: 35 dollars per room for year one and 34 dollars per room for years two and three, payable annually in advance.\n3. Rollout: phase 1 (20 hotels) will go live by 1 October; phase 2 (the remaining 60 hotels) will go live by 1 February.\n4. Training: staff training will be included at no extra cost.\n\nThis summary is subject to contract and to final approval by your director.\n\nCould you confirm that this reflects your understanding? Once you do, our legal team will draft the contract and send it to you within ten business days.\n\nI'm really pleased we got there, and I look forward to working with you.\n\nBest regards,\nLucia",
         explanation: "The summary turns a spoken agreement into a precise shared record: numbered terms, clear dates, explicit conditions and a request for confirmation.",
       },
     ],
@@ -1931,7 +1931,7 @@ export const EN_C2_U16: Lesson[] = [
               "Basically, um, yes, sort of.",
             ],
             correctIndex: 0,
-            explanation: "Answer first, then add useful context. The second option buries the answer, the third is passive-aggressive and the fourth is full of fillers.",
+            explanation: "Answer first, then add useful context. Explaining the history first buries the answer, \"if you were listening\" is passive-aggressive and \"Basically, um, yes, sort of\" is full of fillers.",
           },
         ],
       },
@@ -1994,7 +1994,7 @@ export const EN_C2_U16: Lesson[] = [
         ],
         examples: [
           { es: "I understand why people are worried.", en: "Entiendo que la gente esté preocupada." },
-          { es: "I'd question the assumption that this is about cutting jobs.", en: "Yo cuestionaría la premisa de que esto se trata de recortar empleos." },
+          { es: "I'd question the assumption that this is about cutting jobs.", en: "Yo cuestionaría la premisa de que se trata de recortar empleos." },
           { es: "What I can tell you is that no one will lose their job as a result of this change.", en: "Lo que sí puedo decirle es que nadie perderá su empleo como consecuencia de este cambio." },
           { es: "If I could just finish my answer...", en: "Si me permite terminar la respuesta..." },
           { es: "That's a fair challenge, and I'll answer it directly.", en: "Es una objeción razonable, y le voy a responder directamente." },
@@ -2242,7 +2242,7 @@ export const EN_C2_U16: Lesson[] = [
           "Bridges to concrete facts (\"What I can tell you is...\")",
           "Ends by checking or offering a follow-up",
         ],
-        modelAnswer: "I understand why people might see it that way, especially after last year's changes. But I'd question the assumption that this is about shifting costs onto staff. What I can tell you is that the daily meal allowance is actually going up by 15%, and that claims will now be reimbursed within five working days instead of thirty. I'm happy to go through any specific cases with you afterwards. Does that address your concern?",
+        modelAnswer: "I understand why people might see it that way, especially after last year's changes. But I'd question the assumption that this is about shifting costs onto staff. What I can tell you is that the daily meal allowance is actually going up by 15%, and that claims will now be reimbursed within five business days instead of thirty. I'm happy to go through any specific cases with you afterwards. Does that address your concern?",
         explanation: "Acknowledge, question the premise, bridge to facts and offer a follow-up: this sequence works for almost any hostile question.",
       },
     ],
@@ -2417,7 +2417,7 @@ export const EN_C2_U16: Lesson[] = [
               "We don't do that.",
             ],
             correctIndex: 0,
-            explanation: "\"I'm afraid\" softens the refusal and \"outside our remit\" is formal. \"Not really our call\" suits colleagues; the last two are curt.",
+            explanation: "\"I'm afraid\" softens the refusal and \"outside our remit\" is formal. \"Not really our call\" suits colleagues; \"No can do, sorry\" and \"We don't do that\" are curt.",
           },
         ],
       },
@@ -2613,7 +2613,7 @@ export const EN_C2_U16: Lesson[] = [
           "Keeps the key information clear: 15% discount, problem with price and delivery date, request for a new offer",
           "Uses a formal but natural register for a new client, without over-hedging",
         ],
-        modelAnswer: "Dear Mr Hall,\n\nThank you for your offer. Having looked at it carefully, I'm afraid the price is somewhat above what we had budgeted, and we'd be looking for a reduction of around 15%. The proposed delivery date would also be very difficult for us to work with. I was wondering if you might be able to send us a revised offer that takes these two points into account.\n\nMany thanks in advance.\n\nBest regards,\nAna Torres",
+        modelAnswer: "Dear Mr. Hall,\n\nThank you for your offer. Having looked at it carefully, I'm afraid the price is somewhat above what we had budgeted, and we'd be looking for a reduction of around 15%. The proposed delivery date would also be very difficult for us to work with. I was wondering if you might be able to send us a revised offer that takes these two points into account.\n\nMany thanks in advance.\n\nBest regards,\nAna Torres",
         explanation: "The rewrite keeps every demand but frames each one tentatively: the message is just as clear, and much more likely to get a positive response.",
       },
     ],
@@ -2635,7 +2635,7 @@ export const EN_C2_U16: Lesson[] = [
         examples: [
           { es: "She came across as assured and well prepared.", en: "Dio la impresión de estar segura y bien preparada." },
           { es: "Pause for a second and let that sink in.", en: "Haz una pausa de un segundo y deja que cale." },
-          { es: "Just so I'm clear, are you asking about the cost?", en: "Para asegurarme de que lo entiendo: ¿pregunta por el coste?" },
+          { es: "Just so I'm clear, are you asking about the cost?", en: "Para asegurarme de que lo entiendo: ¿pregunta por el costo?" },
           { es: "I don't have that figure to hand, but I'll get back to you.", en: "No tengo esa cifra a mano, pero le contesto más adelante." },
         ],
         checkpoint: [
@@ -2692,7 +2692,7 @@ export const EN_C2_U16: Lesson[] = [
         ],
         examples: [
           { es: "We seem to have reached an impasse.", en: "Parece que hemos llegado a un punto muerto." },
-          { es: "Let's park that for now and come back to it later.", en: "Dejemos eso estacionado por ahora y volvamos a ello más tarde." },
+          { es: "Let's park that for now and come back to it later.", en: "Dejemos eso en pausa por ahora y volvamos a ello más tarde." },
           { es: "We can move on price if you can move on volume.", en: "Podemos ceder en el precio si ustedes ceden en el volumen." },
           { es: "I think we can live with that.", en: "Creo que podemos aceptarlo." },
         ],
@@ -2980,7 +2980,7 @@ export const EN_C2_U16: Lesson[] = [
           "Uses \"will\" for obligations and flags the conditions (\"in principle\", \"subject to\")",
           "Asks for confirmation and closes courteously",
         ],
-        modelAnswer: "Dear Mr Bennett,\n\nThank you for your time this morning. Further to our meeting, please find below a summary of what we agreed in principle.\n\n1. Order: 500 laptops at $780 per unit.\n2. Delivery: all units will be delivered to our Madrid office by 15 September.\n3. Payment: we will pay within 45 days of delivery.\n4. Warranty: each laptop will include a three-year warranty at no extra cost.\n\nPlease note that this agreement is subject to approval by our finance director, which we expect to have by the end of next week.\n\nCould you confirm that this reflects your understanding? If I've missed anything, please let me know.\n\nI look forward to hearing from you.\n\nBest regards,\nSofia Navarro",
+        modelAnswer: "Dear Mr. Bennett,\n\nThank you for your time this morning. Further to our meeting, please find below a summary of what we agreed in principle.\n\n1. Order: 500 laptops at $780 per unit.\n2. Delivery: all units will be delivered to our Madrid office by 15 September.\n3. Payment: we will pay within 45 days of delivery.\n4. Warranty: each laptop will include a three-year warranty at no extra cost.\n\nPlease note that this agreement is subject to approval by our finance director, which we expect to have by the end of next week.\n\nCould you confirm that this reflects your understanding? If I've missed anything, please let me know.\n\nI look forward to hearing from you.\n\nBest regards,\nSofia Navarro",
         explanation: "The email shows the whole unit in action: precise terms, clear obligations, explicit conditions and a request for confirmation.",
       },
     ],

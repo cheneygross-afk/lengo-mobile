@@ -1950,7 +1950,7 @@ export const EN_C1_U04_DRILLS: Lesson[] = [
       },
       {
         type: "speak",
-        prompt: "Say in English: «Probamos dos proveedores; el primero era más barato, pero el segundo era más fiable.»",
+        prompt: "Say in English: «Probamos dos proveedores; el primero era más barato, pero el segundo era más confiable.»",
         text: "We tried two suppliers; the former was cheaper, but the latter was more reliable.",
         tip: "Stress the contrast: the FORmer, the LATter. In American English the t in \"latter\" sounds like a quick d.",
         explanation: "\"The former\" and \"the latter\" in the same sentence make a neat contrast between two items.",

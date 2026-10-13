@@ -539,7 +539,7 @@ export const EN_C1_U05: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "The minister is believed ___ for months.",
         answer: "to have been negotiating",
-        en: "Se cree que el ministro [llevaba meses negociando].",
+        en: "Se cree que el ministro [lleva meses negociando].",
         explanation: "An activity that had been going on for a period: perfect continuous infinitive, \"to have been negotiating\".",
       },
       {
@@ -707,7 +707,7 @@ export const EN_C1_U05: Lesson[] = [
               "The crisis might possibly have perhaps affected some sectors.",
             ],
             correctIndex: 0,
-            explanation: "\"Appears to have affected\" plus \"most\" fits strong but incomplete evidence. The last option stacks hedges and sounds evasive.",
+            explanation: "\"Appears to have affected\" plus \"most\" fits strong but incomplete evidence. \"Might possibly have perhaps\" stacks hedges and sounds evasive.",
           },
         ],
       },
@@ -1055,7 +1055,7 @@ export const EN_C1_U05: Lesson[] = [
           "Children tend to pick up languages faster than adults.",
           "Children tend to pick up languages more quickly than adults.",
         ],
-        explanation: "«Suelen» in a generalisation is \"tend to\". No article before \"children\" or \"adults\" in a general statement.",
+        explanation: "«Suelen» in a generalization is \"tend to\". No article before \"children\" or \"adults\" in a general statement.",
       },
       {
         type: "multiple-choice",
@@ -2494,7 +2494,7 @@ export const EN_C1_U05: Lesson[] = [
               "There were a lot of things that changed because of the campaign.",
             ],
             correctIndex: 0,
-            explanation: "The first option says exactly what happened (sales, 10%, first quarter) and hedges only how sure we are (\"may\", \"around\").",
+            explanation: "The \"may have increased sales\" option says exactly what happened (sales, 10%, first quarter) and hedges only how sure we are (\"may\", \"around\").",
           },
         ],
       },
@@ -2998,7 +2998,7 @@ export const EN_C1_U05: Lesson[] = [
     level: "EN-C1",
     number: 11,
     title: "Transformations: Hedging and Likelihood",
-    summary: "Key-word transformations with LIKELY, BOUND, SAID, THOUGHT, WELL and ODDS, as in Cambridge C1 Advanced, plus rewriting statements to raise or lower certainty.",
+    summary: "Key-word transformations with LIKELY, BOUND, SAID, THOUGHT, WELL and ODDS, as in the Cambridge Advanced exam, plus rewriting statements to raise or lower certainty.",
     duration: "12 min",
     sections: [
       {
@@ -3214,7 +3214,7 @@ export const EN_C1_U05: Lesson[] = [
           "The study is bound to show that sugar causes hyperactivity.",
         ],
         correctIndex: 0,
-        explanation: "\"Would seem to suggest a link\" keeps the topic (sugar and hyperactivity) but makes a much weaker claim. The third option is vague, not hedged.",
+        explanation: "\"Would seem to suggest a link\" keeps the topic (sugar and hyperactivity) but makes a much weaker claim. \"Says something about sugar in some way\" is vague, not hedged.",
       },
       {
         type: "fill-blank",

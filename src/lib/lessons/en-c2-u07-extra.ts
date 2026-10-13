@@ -22,7 +22,7 @@ export const EN_C2_U07_EXTRA: Lesson[] = [
         body: [
           "Many collocations are frozen metaphors. Arguments get hot (\"a heated debate\", \"a fiery exchange\"), complaints arrive like water (\"a flood\", \"a wave\", \"a torrent of complaints\"), criticism falls like weather or gunfire (\"a storm\", \"a barrage of criticism\"), understanding is holding something (\"grasp an idea\") and knowledge is light (\"shed light on\", \"cast doubt on\").",
           "Spanish often uses a related image, but the details differ. «Una lluvia de críticas» is \"a storm\" or \"a barrage of criticism\", never *a rain of criticism. «Arrojar luz sobre» is \"shed light on\" (\"throw light on\" also exists, but less often). «Arrojar dudas sobre» is \"cast doubt on\". «Captar una idea» is \"grasp\" or \"get\" it, not *capture it.",
-          "A bright future is \"bright\" or \"promising\", while «un futuro brillante» rendered as *a brilliant future sounds odd: \"brilliant\" praises achievements, not prospects.",
+          "A bright future is \"bright\" or \"promising\", so «un futuro brillante» is most naturally \"a bright future\"; \"a brilliant future\" exists but is much less common.",
         ],
         examples: [
           { es: "The debate became quite heated after the break.", en: "El debate se volvió bastante acalorado después de la pausa." },
@@ -75,7 +75,7 @@ export const EN_C2_U07_EXTRA: Lesson[] = [
           { es: "Losing the keys again was the last straw.", en: "Volver a perder las llaves fue la gota que colmó el vaso." },
           { es: "My advice fell on deaf ears.", en: "Mis consejos cayeron en saco roto." },
           { es: "The rumor spread like wildfire.", en: "El rumor corrió como la pólvora." },
-          { es: "The council has given the green light to the new park.", en: "El ayuntamiento ha dado luz verde al nuevo parque." },
+          { es: "The council has given the green light to the new park.", en: "El municipio ha dado luz verde al nuevo parque." },
         ],
         checkpoint: [
           {

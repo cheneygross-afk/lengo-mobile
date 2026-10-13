@@ -604,8 +604,8 @@ export const EN_C2_U25: Lesson[] = [
       {
         heading: "Nominalization: turning verbs into nouns",
         body: [
-          "Academic English often turns actions into nouns: \"The army withdrew\" becomes \"the withdrawal of the army\"; \"they expanded the railways\" becomes \"the expansion of the railways\". Nominalisation packs information and lets the writer make the event the subject of the next sentence: \"The withdrawal of the army left the city defenceless.\"",
-          "Common nominalisations in history: collapse, decline, expansion, withdrawal, emergence, rise, fall, abolition, introduction, failure, refusal, outbreak (of war), signing (of a treaty).",
+          "Academic English often turns actions into nouns: \"The army withdrew\" becomes \"the withdrawal of the army\"; \"they expanded the railways\" becomes \"the expansion of the railways\". Nominalization packs information and lets the writer make the event the subject of the next sentence: \"The withdrawal of the army left the city defenseless.\"",
+          "Common nominalizations in history: collapse, decline, expansion, withdrawal, emergence, rise, fall, abolition, introduction, failure, refusal, outbreak (of war), signing (of a treaty).",
           "Spanish does this too («la retirada del ejército»), so the structure is familiar. The difference is the preposition: English normally uses \"of\" and keeps the agent with \"by\": \"the abolition of slavery by Parliament\", \"the refusal of the king to negotiate\" or \"the king's refusal to negotiate\".",
         ],
         examples: [
@@ -651,9 +651,9 @@ export const EN_C2_U25: Lesson[] = [
       {
         heading: "Long noun phrases, and keeping prose readable",
         body: [
-          "Nominalisation produces long noun phrases with pre- and post-modifiers: \"the rapid expansion of the cotton industry in northern England in the early nineteenth century\". These are powerful but heavy; two in one sentence can exhaust the reader.",
+          "Nominalization produces long noun phrases with pre- and post-modifiers: \"the rapid expansion of the cotton industry in northern England in the early nineteenth century\". These are powerful but heavy; two in one sentence can exhaust the reader.",
           "Spanish strings of «de» (la crisis de la deuda de los estados del sur de Europa) should not be copied word for word. English can use noun + noun compounds (\"the debt crisis\") and possessives, but avoid stacking more than three nouns: *the 1848 French workers uprising suppression is unreadable; write \"the suppression of the French workers' uprising of 1848\".",
-          "The best historical prose alternates: a dense, nominalised sentence to state a process, followed by a short sentence with a concrete subject and an active verb. \"The rapid expansion of the cotton industry drew thousands into the towns. Families left the land.\"",
+          "The best historical prose alternates: a dense, nominalized sentence to state a process, followed by a short sentence with a concrete subject and an active verb. \"The rapid expansion of the cotton industry drew thousands into the towns. Families left the land.\"",
         ],
         examples: [
           { es: "The rapid expansion of the cotton industry drew thousands into the towns.", en: "La rápida expansión de la industria algodonera atrajo a miles de personas a las ciudades." },
@@ -673,7 +673,7 @@ export const EN_C2_U25: Lesson[] = [
               "the Spanish 1866 banks system collapse",
             ],
             correctIndex: 0,
-            explanation: "One nominalisation with \"of\", a short compound (\"banking system\") and the date at the end. Avoid long stacks of nouns and chains of \"of\".",
+            explanation: "One nominalization with \"of\", a short compound (\"banking system\") and the date at the end. Avoid long stacks of nouns and chains of \"of\".",
           },
         ],
       },
@@ -699,7 +699,7 @@ export const EN_C2_U25: Lesson[] = [
           "Railway expansion transformed the country's economy.",
           "The expansion of the railways transformed the national economy.",
         ],
-        explanation: "«Ferrocarril» as a system is usually plural, \"the railways\" (British) or \"the railroads\" (American). The nominalised subject \"the expansion of...\" mirrors the Spanish.",
+        explanation: "«Ferrocarril» as a system is usually plural, \"the railways\" (British) or \"the railroads\" (American). The nominalized subject \"the expansion of...\" mirrors the Spanish.",
       },
       {
         type: "multiple-choice",
@@ -792,17 +792,17 @@ export const EN_C2_U25: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Rewrite this stiff paragraph in natural academic English (40-70 words), mixing nominalised and simple sentences: The war commenced in 1618. Subsequently it was extended to other states. Many people were terminated. It was terminated in 1648 by a treaty that was signed by the participants.",
+        prompt: "Rewrite this stiff paragraph in natural academic English (40-70 words), mixing nominalized and simple sentences: The war commenced in 1618. Subsequently it was extended to other states. Many people were terminated. It was terminated in 1648 by a treaty that was signed by the participants.",
         minWords: 40,
         maxWords: 70,
         rubric: [
           "Replaces \"commenced\" and \"terminated\" with natural verbs.",
-          "Uses at least one nominalisation (the outbreak of, the signing of, the expansion of).",
+          "Uses at least one nominalization (the outbreak of, the signing of, the expansion of).",
           "Avoids the euphemism \"terminated\" for people (uses \"died\" or \"were killed\").",
           "Uses a precise connector instead of \"subsequently\" chains.",
         ],
         modelAnswer: "The Thirty Years' War began in 1618 as a local revolt in Bohemia. Its rapid spread to other states turned it into a European conflict. Millions died, many from famine and disease rather than in battle. The signing of the Peace of Westphalia in 1648 finally brought the fighting to an end.",
-        explanation: "Natural verbs, one or two nominalisations and concrete subjects make formal prose both authoritative and readable.",
+        explanation: "Natural verbs, one or two nominalizations and concrete subjects make formal prose both authoritative and readable.",
       },
     ],
   },
@@ -2649,7 +2649,7 @@ export const EN_C2_U25: Lesson[] = [
           "Includes hedging or evaluation (it is widely held that, arguably, there is little evidence).",
           "Uses precise historical vocabulary with correct collocations (seize power, wage war, sign a treaty).",
           "Names periods and dates correctly (the 1820s, the early nineteenth century).",
-          "Balances nominalised sentences with short, concrete ones.",
+          "Balances nominalized sentences with short, concrete ones.",
         ],
         modelAnswer: "In the early nineteenth century, Spain's American empire collapsed with remarkable speed. In the wake of the French invasion of 1808, local juntas seized power in several colonial capitals, ostensibly in the name of the captive king. By the 1820s, most of the mainland had declared independence. It is widely held that the Spanish monarchy was too weak to wage war across an ocean; there is little evidence to suggest that a political compromise was ever seriously considered. Thereafter, only Cuba and Puerto Rico remained. The empire had arguably been in decline for a century.",
         explanation: "A strong answer combines all five skills of the unit in a single, readable paragraph.",

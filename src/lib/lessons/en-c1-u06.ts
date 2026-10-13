@@ -444,7 +444,7 @@ export const EN_C1_U06: Lesson[] = [
         sentence: "It rained the whole weekend. ___, we had a great time.",
         answer: "Still",
         altAnswers: ["Even so", "All the same", "Nevertheless", "Having said that", "That said", "Nonetheless", "But still"],
-        en: "Llovió todo el fin de semana. [Aun así], lo pasamos genial.",
+        en: "Llovió todo el fin de semana. [Aun así], la pasamos genial.",
         explanation: "\"Still\" at the start means «aun así»: the second fact remains true despite the first.",
       },
       {
@@ -1562,7 +1562,7 @@ export const EN_C1_U06: Lesson[] = [
           "Firstly, prices rose. Secondly, moreover, wages stagnated. Lastly, consumption fell.",
         ],
         correctIndex: 0,
-        explanation: "The first version links ideas through structure (\"while\") and a summary noun (\"this squeeze\"), instead of piling up connectors.",
+        explanation: "The \"while\" + \"this squeeze\" version links ideas through structure (\"while\") and a summary noun (\"this squeeze\"), instead of piling up connectors.",
       },
       {
         type: "fill-blank",
@@ -2260,7 +2260,7 @@ export const EN_C1_U06: Lesson[] = [
       {
         type: "speak",
         text: "Actually, I'm currently working on it. I'll finish it eventually.",
-        tip: "\"Actually\" has three syllables (AK-choo-uh-lee), often reduced to two in fast speech (AK-shlee).",
+        tip: "\"Actually\" has four syllables (AK-choo-uh-lee), often reduced to three or even two in fast speech (AK-shlee).",
         explanation: "Three false friends in one sentence: \"actually\" (en realidad), \"currently\" (actualmente), \"eventually\" (al final).",
       },
     ],
@@ -2335,7 +2335,7 @@ export const EN_C1_U06: Lesson[] = [
         ],
         examples: [
           { es: "The exam wasn't difficult. On the contrary, it was surprisingly easy.", en: "El examen no fue difícil. Al contrario, fue sorprendentemente fácil." },
-          { es: "\"You must be bored.\" \"On the contrary, I'm having a great time.\"", en: "«Te estarás aburriendo.» «Al contrario, me lo estoy pasando genial.»" },
+          { es: "\"You must be bored.\" \"On the contrary, I'm having a great time.\"", en: "«Te estarás aburriendo.» «Al contrario, la estoy pasando genial.»" },
           { es: "Madrid is very dry. Galicia, by contrast, is one of the rainiest regions in Europe.", en: "Madrid es muy seca. Galicia, por el contrario, es una de las regiones más lluviosas de Europa." },
           { es: "Contrary to popular belief, bats are not blind.", en: "En contra de lo que se suele creer, los murciélagos no son ciegos." },
           { es: "\"Was she upset?\" \"Quite the opposite. She was delighted.\"", en: "«¿Se disgustó?» «Todo lo contrario. Estaba encantada.»" },
@@ -2773,7 +2773,7 @@ export const EN_C1_U06: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El producto es fiable; sin embargo, es demasiado caro para la mayoría de los clientes.",
+        source: "El producto es confiable; sin embargo, es demasiado caro para la mayoría de los clientes.",
         answer: "The product is reliable; however, it is too expensive for most customers.",
         altAnswers: [
           "The product is reliable. However, it is too expensive for most customers.",
@@ -2899,7 +2899,7 @@ export const EN_C1_U06: Lesson[] = [
     level: "EN-C1",
     number: 11,
     title: "Transformations: Combining Sentences",
-    summary: "Combining pairs of sentences with whereas, albeit, thereby, hence, notwithstanding and even so, and rewriting a text with more precise connectors, keeping the meaning exactly the same, as in Cambridge C1 Advanced key-word transformations.",
+    summary: "Combining pairs of sentences with whereas, albeit, thereby, hence, notwithstanding and even so, and rewriting a text with more precise connectors, keeping the meaning exactly the same, as in Cambridge Advanced key-word transformations.",
     duration: "12 min",
     sections: [
       {
@@ -3192,8 +3192,8 @@ export const EN_C1_U06: Lesson[] = [
     slug: "c1-spiral-linking-words",
     level: "EN-C1",
     number: 12,
-    title: "Spiral Review: Upper Intermediate Linking Words at the Advanced level",
-    summary: "Back to although, despite, so that, in order to, as long as and unless, and up to their Advanced alternatives: notwithstanding, so as to, in order that, provided that and on condition that. Mixed practice so you decide which structure each context needs.",
+    title: "Spiral Review: Linking Words from Upper Intermediate to Advanced",
+    summary: "Back to although, despite, so that, in order to, as long as and unless, and on to their more formal Advanced alternatives: notwithstanding, so as to, in order that, provided that and on condition that. Mixed practice so you decide which structure each context needs.",
     duration: "12 min",
     sections: [
       {

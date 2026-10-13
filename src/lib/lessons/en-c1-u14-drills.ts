@@ -691,9 +691,9 @@ export const EN_C1_U14_DRILLS: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Los carriles bici, en cambio, son baratos y rápidos de construir.",
-        answer: "Cycle lanes, by contrast, are cheap and quick to build.",
+        answer: "Bike lanes, by contrast, are cheap and quick to build.",
         altAnswers: [
-          "Bike lanes, by contrast, are cheap and quick to build.",
+          "Cycle lanes, by contrast, are cheap and quick to build.",
           "Bike lanes, in contrast, are cheap and quick to build.",
           "Cycle lanes, in contrast, are cheap and quick to build.",
           "Bike lanes, on the other hand, are cheap and quick to build.",
@@ -1527,7 +1527,7 @@ export const EN_C1_U14_DRILLS: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Why do proposals use \"would\" so much (\"The app would reduce queues\")?",
+        question: "Why do proposals use \"would\" so much (\"The app would reduce lines\")?",
         options: [
           "Because the plan has not happened yet.",
           "Because \"would\" is the past of \"will\".",
@@ -1558,9 +1558,9 @@ export const EN_C1_U14_DRILLS: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "El proyecto beneficiaría tanto a los estudiantes como a los profesores.",
-        answer: "The scheme would benefit both students and teachers.",
+        answer: "The project would benefit both students and teachers.",
         altAnswers: [
-          "The project would benefit both students and teachers.",
+          "The scheme would benefit both students and teachers.",
           "The scheme would benefit both students and staff.",
           "The project would benefit both the students and the teachers.",
           "The scheme would benefit both the students and the teachers.",
@@ -2806,7 +2806,7 @@ export const EN_C1_U14_DRILLS: Lesson[] = [
         type: "speak",
         text: "He dropped out of college and started his own company.",
         prompt: "Say in English: «Dejó la universidad y fundó su propia empresa.»",
-        tip: "Link \"dropped out of\": /drɒptaʊtəv/.",
+        tip: "Link \"dropped out of\": /drɑptaʊtəv/.",
         explanation: "\"Drop out of\" + \"college\" (American usage).",
       },
       {

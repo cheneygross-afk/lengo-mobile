@@ -881,7 +881,7 @@ export const EN_C1_U02: Lesson[] = [
             prompt: "Translate into English.",
             source: "Fue en París donde se conocieron mis padres.",
             answer: "It was in Paris that my parents met.",
-            altAnswers: ["It was in Paris where my parents met.", "It was Paris where my parents met."],
+            altAnswers: ["It was Paris where my parents met."],
             explanation: "It-cleft focusing a place: \"It was in Paris that ...\". Remember \"parents\" means «padres», not «parientes». (Review: Part 1.)",
           },
         ],
@@ -1565,7 +1565,7 @@ export const EN_C1_U02: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Por cansados que estuvieran, siguieron andando.",
+        source: "Por cansados que estuvieran, siguieron caminando.",
         answer: "Tired as they were, they kept walking.",
         altAnswers: [
           "Tired as they were, they kept on walking.",
@@ -2099,7 +2099,7 @@ export const EN_C1_U02: Lesson[] = [
         sentence: "Expensive ___ it is, the course is worth every penny.",
         answer: "as",
         altAnswers: ["though"],
-        en: "[Por muy] caro que sea, el curso merece la pena.",
+        en: "[Por muy] caro que sea, el curso vale la pena.",
         explanation: "Concessive fronting acknowledges the other side: \"Expensive as it is, ...\".",
       },
       {

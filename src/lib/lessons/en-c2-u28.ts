@@ -715,7 +715,7 @@ export const EN_C2_U28: Lesson[] = [
       {
         heading: "Premises and conclusions",
         body: [
-          "In logic, an \"argument\" is not a quarrel but a set of statements in which some (the \"premises\") are offered as reasons for another (the \"conclusion\"). Be careful with the false friends: «una discusión» in the sense of a heated exchange is \"an argument\" or \"a row\", while \"a discussion\" in English is a calm exchange of views.",
+          "In logic, an \"argument\" is not a quarrel but a set of statements in which some (the \"premises\") are offered as reasons for another (the \"conclusion\"). Be careful with the false friends: «una discusión» in the sense of a heated exchange is \"an argument\" or \"a fight\" (British English also says \"a row\"), while \"a discussion\" in English is a calm exchange of views.",
           "Conclusions are flagged by \"therefore\", \"hence\", \"thus\", \"so\", \"it follows that\" and \"which means that\". Premises are flagged by \"since\", \"because\", \"given that\", \"for\" and \"in view of the fact that\". Spotting these signposts is the first step in reconstructing any argument.",
           "We say that premises \"support\" a conclusion, that a conclusion \"follows from\" the premises (not *follows of), and that someone \"draws\" or \"reaches\" a conclusion (not *takes a conclusion, a calque of «sacar una conclusión»). A premise that is needed but not stated is an \"unstated\" or \"hidden assumption\".",
         ],
@@ -1389,7 +1389,7 @@ export const EN_C2_U28: Lesson[] = [
         heading: "Three ways to generalize: tigers, the tiger, a tiger",
         body: [
           "English has three ways to talk about a whole class, and they are not interchangeable. The zero article with a plural (or an uncountable noun) is the everyday choice: \"Tigers are endangered\", \"Philosophers disagree about free will\". Spanish says «Los tigres están en peligro», and the calque *The tigers are endangered means only a particular group of tigers.",
-          "\"The\" + singular noun presents the class as a single type, typical of scientific, encyclopaedic or formal style: \"The tiger is the largest of the big cats\", \"The printing press transformed Europe\". It works best with animals, plants, inventions and instruments, not with ordinary groups of people (*The teenager is often rebellious sounds odd; say \"Teenagers are often rebellious\").",
+          "\"The\" + singular noun presents the class as a single type, typical of scientific, encyclopedic or formal style: \"The tiger is the largest of the big cats\", \"The printing press transformed Europe\". It works best with animals, plants, inventions and instruments, not with ordinary groups of people (*The teenager is often rebellious sounds odd; say \"Teenagers are often rebellious\").",
           "\"A\" + singular noun means any single member, and is used in definitions and statements about what is true of each one: \"A philosopher is someone who questions assumptions\", \"A tiger can eat 40 kilos of meat in one night\". It cannot be used for facts about the class as a whole: *A tiger is endangered is wrong, because no single tiger is endangered as a species.",
         ],
         examples: [

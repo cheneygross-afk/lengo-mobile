@@ -9,14 +9,14 @@ export const EN_C1_U10: Lesson[] = [
     level: "EN-C1",
     number: 1,
     title: "Everyday Idioms, Part 1 of 2",
-    summary: "High-frequency idioms with body parts, colours and animals: \"get cold feet\", \"pull someone's leg\", \"once in a blue moon\", \"see red\", \"the elephant in the room\", \"let the cat out of the bag\". Why their form never changes.",
+    summary: "High-frequency idioms with body parts, colors and animals: \"get cold feet\", \"pull someone's leg\", \"once in a blue moon\", \"see red\", \"the elephant in the room\", \"let the cat out of the bag\". Why their form never changes.",
     duration: "12 min",
     sections: [
       {
         heading: "Idioms are fixed: don't touch the words",
         body: [
           "An idiom is a group of words whose meaning is not the sum of its parts: \"a piece of cake\" is not about cake, it means «pan comido», something very easy. Native speakers store idioms as single units, so they notice immediately when one word is wrong.",
-          "That is why the form is fixed. You cannot pluralise (*a piece of cakes), change the article (*let a cat out of the bag) or swap a word for a synonym (*pull somebody's foot). The verb, however, changes tense normally: \"She got cold feet\", \"He's pulling your leg\".",
+          "That is why the form is fixed. You cannot pluralize (*a piece of cakes), change the article (*let a cat out of the bag) or swap a word for a synonym (*pull somebody's foot). The verb, however, changes tense normally: \"She got cold feet\", \"He's pulling your leg\".",
           "Idioms also have a register. Most of the ones in this unit are informal or neutral: perfect in conversation, emails to colleagues and journalism, but usually out of place in an academic essay. And frequency matters: learn the idioms people really use today, not the old-fashioned ones that still fill some textbooks.",
         ],
         examples: [
@@ -83,14 +83,14 @@ export const EN_C1_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Colour idioms",
+        heading: "Color idioms",
         body: [
           "\"Once in a blue moon\" means «muy de vez en cuando, de higos a brevas». It goes at the end of the clause: \"I only see him once in a blue moon\".",
           "\"See red\" is to become suddenly very angry, like «ponerse hecho una furia». \"Out of the blue\" means unexpectedly, without warning («de repente, sin avisar»): \"She called me out of the blue after ten years\".",
           "Do not confuse the two blue idioms: \"once in a blue moon\" is about frequency (rarely), \"out of the blue\" is about surprise (suddenly).",
         ],
         examples: [
-          { es: "We only eat out once in a blue moon.", en: "Solo comemos fuera muy de vez en cuando." },
+          { es: "We only eat out once in a blue moon.", en: "Solo comemos afuera muy de vez en cuando." },
           { es: "When he called me a liar, I saw red.", en: "Cuando me llamó mentiroso, me puse hecho una furia." },
           { es: "She called me out of the blue after ten years.", en: "Me llamó de repente después de diez años." },
           { es: "The offer came out of the blue.", en: "La oferta llegó sin previo aviso." },
@@ -121,7 +121,7 @@ export const EN_C1_U10: Lesson[] = [
           { es: "Nobody mentioned the elephant in the room: the budget cuts.", en: "Nadie mencionó el tema que todos evitaban: los recortes." },
           { es: "Let's address the elephant in the room.", en: "Hablemos de lo que nadie se atreve a mencionar." },
           { es: "It was supposed to be a surprise, but Tom let the cat out of the bag.", en: "Iba a ser una sorpresa, pero Tom se fue de la lengua." },
-          { es: "Who let the cat out of the bag?", en: "¿Quién se ha ido de la lengua?" },
+          { es: "Who let the cat out of the bag?", en: "¿Quién se fue de la lengua?" },
         ],
         checkpoint: [
           {
@@ -279,7 +279,7 @@ export const EN_C1_U10: Lesson[] = [
           "\"Call it a day\" means to stop working for the day, or to stop an activity: \"It's seven o'clock. Let's call it a day\". \"The ball is in your court\" means that it is now your turn to act or decide.",
         ],
         examples: [
-          { es: "The builders cut corners, and now the roof leaks.", en: "Los obreros escatimaron en calidad y ahora el tejado tiene goteras." },
+          { es: "The builders cut corners, and now the roof leaks.", en: "Los obreros escatimaron en calidad y ahora el techo tiene goteras." },
           { es: "Let's make sure we're all on the same page.", en: "Asegurémonos de que todos estamos de acuerdo." },
           { es: "It's late. Let's call it a day.", en: "Es tarde. Dejémoslo por hoy." },
           { es: "We've made our offer, so the ball is in their court.", en: "Ya hemos hecho nuestra oferta, así que ahora les toca a ellos." },
@@ -549,7 +549,7 @@ export const EN_C1_U10: Lesson[] = [
     level: "EN-C1",
     number: 3,
     title: "Idioms in Practice",
-    summary: "Recognise idioms in conversations, headlines and articles, work out their meaning from context, and use a few naturally without overloading your speech.",
+    summary: "Recognize idioms in conversations, headlines and articles, work out their meaning from context, and use a few naturally without overloading your speech.",
     duration: "12 min",
     sections: [
       {
@@ -584,7 +584,7 @@ export const EN_C1_U10: Lesson[] = [
         heading: "Idioms in headlines and articles",
         body: [
           "Journalists love idioms because they are short and vivid. A headline like \"Government drags its feet on housing\" means the government is acting too slowly on purpose, «da largas».",
-          "Headlines often play with idioms by changing one word, a pun: \"Bakery profits rise\" or \"Car makers in the fast lane\". Recognising the original idiom is part of understanding the joke.",
+          "Headlines often play with idioms by changing one word, a pun: \"Bakery profits rise\" or \"Car makers in the fast lane\". Recognizing the original idiom is part of understanding the joke.",
           "Other frequent idioms in the news: \"the tip of the iceberg\" (a small visible part of a bigger problem), \"a U-turn\" (a complete change of policy, «un giro de 180 grados»), \"in hot water\" (in trouble) and \"a drop in the ocean\" («una gota en el océano», too small to make a difference).",
         ],
         examples: [
@@ -613,12 +613,12 @@ export const EN_C1_U10: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Headline: \"Council drags its feet over new bike lanes.\" What is the council doing?",
+            question: "Headline: \"City drags its feet over new bike lanes.\" What is the city doing?",
             options: [
               "Delaying the bike lanes deliberately.",
               "Walking to inspect the bike lanes.",
               "Building the bike lanes very quickly.",
-              "Cancelling the bike lanes for good.",
+              "Canceling the bike lanes for good.",
             ],
             correctIndex: 0,
             explanation: "\"Drag your feet\" means to act slowly because you don't really want to do something, like «dar largas».",
@@ -629,7 +629,7 @@ export const EN_C1_U10: Lesson[] = [
         heading: "Using idioms naturally, not too much",
         body: [
           "A common Advanced trap is idiom overload: learners who have just studied a list try to use five in one paragraph. To a native ear, \"It was raining cats and dogs, but I kept my chin up because it was a piece of cake\" sounds like a parody.",
-          "Use one idiom where it does real work: to add humour, to summarise a situation quickly, or to sound relaxed. One well-placed idiom in a conversation is worth more than five forced ones.",
+          "Use one idiom where it does real work: to add humor, to summarize a situation quickly, or to sound relaxed. One well-placed idiom in a conversation is worth more than five forced ones.",
           "Also prefer current idioms. \"It's raining cats and dogs\" is understood but sounds dated or childish to many speakers; \"It's pouring\" is what most people actually say.",
         ],
         examples: [
@@ -717,7 +717,7 @@ export const EN_C1_U10: Lesson[] = [
         answer: "in hot water",
         altAnswers: ["in trouble", "in deep water"],
         en: "El senador [está metido en un lío] tras sus comentarios sobre los inmigrantes.",
-        explanation: "\"In hot water\" means in trouble, usually because of something you said or did. It is a favourite of headline writers.",
+        explanation: "\"In hot water\" means in trouble, usually because of something you said or did. It is a favorite of headline writers.",
       },
       {
         type: "matching",
@@ -761,7 +761,7 @@ export const EN_C1_U10: Lesson[] = [
           "The tone is relaxed and conversational",
           "The rest of the language is natural and accurate",
         ],
-        modelAnswer: "Pretty hectic, to be honest! We were working against the clock all week to finish a report for a client. On Thursday I realised I'd forgotten to include last year's figures, so I really dropped the ball there, but we fixed it and sent it off on Friday. Now I'm just looking forward to the weekend.",
+        modelAnswer: "Pretty hectic, to be honest! We were working against the clock all week to finish a report for a client. On Thursday I realized I'd forgotten to include last year's figures, so I really dropped the ball there, but we fixed it and sent it off on Friday. Now I'm just looking forward to the weekend.",
         explanation: "Two idioms, each doing real work, inside otherwise plain, natural English: that is how native speakers use them.",
       },
       {
@@ -872,7 +872,7 @@ export const EN_C1_U10: Lesson[] = [
           "Similarly, «estar hasta las narices» is \"be fed up (with)\" or \"be sick and tired (of)\"; «dar gato por liebre» is \"rip someone off\"; «ser uña y carne» is \"be joined at the hip\" or \"be as thick as thieves\".",
         ],
         examples: [
-          { es: "Sorry, what did you say? I was miles away.", en: "Perdona, ¿qué has dicho? Estaba en las nubes." },
+          { es: "Sorry, what did you say? I was miles away.", en: "Perdona, ¿qué dijiste? Estaba en las nubes." },
           { es: "You need to get your act together.", en: "Tienes que ponerte las pilas." },
           { es: "The driving test was a breeze.", en: "El examen de manejo fue pan comido." },
           { es: "I'm fed up with this noise.", en: "Estoy hasta las narices de este ruido." },
@@ -1105,7 +1105,7 @@ export const EN_C1_U10: Lesson[] = [
       {
         heading: "Pairs whose order is the opposite of Spanish",
         body: [
-          "Watch out for pairs that Spanish says in the opposite order. «Blanco y negro» is \"black and white\". «Tarde o temprano» is \"sooner or later\". «De acá para allá» is \"back and forth\" or \"to and fro\". «Pan con mantequilla» is \"bread and butter\".",
+          "Watch out for pairs that Spanish says in the opposite order. «Blanco y negro» is \"black and white\". «Tarde o temprano» is \"sooner or later\". «De acá para allá» is \"back and forth\" or \"to and fro\". «Papá y mamá» is \"Mom and Dad\".",
           "Some pairs keep the Spanish order: \"more or less\" («más o menos»), \"ladies and gentlemen\" («damas y caballeros»), \"trial and error\" («prueba y error»), \"rich and poor\". So you cannot rely on Spanish: learn each pair.",
           "\"Bread and butter\" can also be figurative: \"Weddings are our bread and butter\" means weddings are our main source of income. \"Ups and downs\" («altibajos») and \"now and then\" («de vez en cuando») are also very frequent.",
         ],
@@ -1330,7 +1330,7 @@ export const EN_C1_U10: Lesson[] = [
       {
         heading: "Argument is war",
         body: [
-          "English talks about arguments as if they were battles. You \"attack\" or \"defend\" a position, \"shoot down\" an idea, \"demolish\" an argument, \"win\" or \"lose\" a debate, and criticism can be \"on target\". These are not idioms to memorise one by one, but a system: once you see it, the verbs make sense.",
+          "English talks about arguments as if they were battles. You \"attack\" or \"defend\" a position, \"shoot down\" an idea, \"demolish\" an argument, \"win\" or \"lose\" a debate, and criticism can be \"on target\". These are not idioms to memorize one by one, but a system: once you see it, the verbs make sense.",
           "Spanish shares much of this system («defender una postura», «atacar un argumento»), so it feels familiar. The difference is in the verbs: «rebatir» is often \"refute\" or \"counter\", and «echar por tierra» a proposal is \"shoot down\" or \"demolish\".",
           "\"Shoot down\" is separable: \"They shot down my idea\" or \"They shot my idea down\"; with a pronoun, only \"They shot it down\".",
         ],
@@ -2286,7 +2286,7 @@ export const EN_C1_U10: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Perdona, no te he oído. Estaba en las nubes.",
+        source: "Perdona, no te oí. Estaba en las nubes.",
         answer: "Sorry, I didn't hear you. I was miles away.",
         altAnswers: [
           "Sorry, I didn't hear you. I was daydreaming.",
@@ -2341,9 +2341,9 @@ export const EN_C1_U10: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["I", "really", "put", "my", "foot", "in", "it."],
+        words: ["I", "really", "put", "my", "foot", "in", "my", "mouth."],
         translation: "Metí la pata de verdad.",
-        explanation: "«Meter la pata» is \"put your foot in it\", with a possessive. *Put the leg is a literal translation.",
+        explanation: "«Meter la pata» is \"put your foot in your mouth\" (British: \"put your foot in it\"), with a possessive. *Put the leg is a literal translation.",
       },
       {
         type: "speak",
@@ -2365,7 +2365,7 @@ export const EN_C1_U10: Lesson[] = [
         heading: "How idiom transformations work",
         body: [
           "In a key-word transformation you get a sentence, a key word (for example CAKE) and a second sentence to complete. Exam writers love idioms here, because the key word only makes sense inside a fixed phrase: \"The test was very easy\" (CAKE) becomes \"The test was a piece of cake\".",
-          "Three rules: keep the key word unchanged, keep every detail of the meaning (tense, negation, who does what), and use the idiom in its exact fixed form. Changing \"once in a blue moon\" to *once in the blue moon loses the mark.",
+          "Three rules: keep the key word unchanged, keep every detail of the meaning (tense, negation, who does what), and use the idiom in its exact fixed form. Changing \"once in a blue moon\" to *once in the blue moon loses the point.",
           "Read the key word as a clue: FEET points to \"get cold feet\" or \"drag your feet\"; COURT to \"the ball is in your court\"; ENDS to \"make ends meet\"; CORNERS to \"cut corners\".",
         ],
         examples: [
@@ -2392,7 +2392,7 @@ export const EN_C1_U10: Lesson[] = [
       {
         heading: "Keep the meaning: tense, negation, subject",
         body: [
-          "The most common way to lose marks is to change the meaning slightly. If the original is in the past, the idiom must be in the past: \"She became too nervous to sign\" becomes \"She got cold feet\", not \"She gets cold feet\".",
+          "The most common way to lose points is to change the meaning slightly. If the original is in the past, the idiom must be in the past: \"She became too nervous to sign\" becomes \"She got cold feet\", not \"She gets cold feet\".",
           "Negation must be carried over too: \"They don't have enough money for basic needs\" becomes \"They can't make ends meet\" or \"They're struggling to make ends meet\". Losing the negative reverses the meaning.",
           "And watch the subject. \"You have to decide now\" (COURT) is \"The ball is in your court\": the idiom moves \"you\" into a possessive, but the person who must act stays the same.",
         ],
@@ -2520,7 +2520,7 @@ export const EN_C1_U10: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "Before we sign, let's weigh up the ___.",
+        sentence: "Before we sign, let's weigh the ___.",
         answer: "pros and cons",
         altAnswers: ["advantages and disadvantages"],
         en: "Antes de firmar, sopesemos [los pros y los contras].",
@@ -2848,7 +2848,7 @@ export const EN_C1_U10: Lesson[] = [
           "\"Get away with\" often appears in the fixed phrase \"get away with murder\", meaning to do bad things without being punished: \"Her kids get away with murder\".",
         ],
         examples: [
-          { es: "He cheated in the exam and got away with it.", en: "Copió en el examen y no le pasó nada." },
+          { es: "He cheated on the exam and got away with it.", en: "Copió en el examen y no le pasó nada." },
           { es: "I can't put up with this noise any longer.", en: "No aguanto más este ruido." },
           { es: "The project came up against strong opposition.", en: "El proyecto se topó con una fuerte oposición." },
           { es: "You have to face up to your responsibilities.", en: "Tienes que asumir tus responsabilidades." },
@@ -2892,7 +2892,7 @@ export const EN_C1_U10: Lesson[] = [
         body: [
           "\"Run out of steam\" means to lose energy or enthusiasm, «perder fuelle, quedarse sin fuerzas»: \"The campaign ran out of steam after a month\". It comes from steam engines and is used for people, projects and economies.",
           "\"Fall through\" is used for plans and deals that fail to happen, «venirse abajo, irse al traste»: \"The sale of the house fell through\". It is intransitive: it has no object and no passive.",
-          "\"Play down\" means to make something seem less important than it is, «quitarle hierro, restar importancia»: \"The minister played down the risks\". Its opposite is \"play up\" (emphasise).",
+          "\"Play down\" means to make something seem less important than it is, «quitarle hierro, restar importancia»: \"The minister played down the risks\". Its opposite is \"play up\" (emphasize).",
         ],
         examples: [
           { es: "The campaign ran out of steam after a month.", en: "La campaña perdió fuelle al cabo de un mes." },
@@ -3113,7 +3113,7 @@ export const EN_C1_U10: Lesson[] = [
         heading: "Positive qualities",
         body: [
           "\"Down-to-earth\" describes someone practical and unpretentious, «sencillo, con los pies en la tierra»: \"For a famous actor, he's very down-to-earth\". \"Level-headed\" is calm and sensible in difficult situations, «sensato, equilibrado».",
-          "\"A people person\" is someone who enjoys and is good at dealing with people, perfect for a CV or a job interview. \"Easy-going\" or \"laid-back\" means relaxed and tolerant, «tranquilo, de trato fácil».",
+          "\"A people person\" is someone who enjoys and is good at dealing with people, perfect for a résumé or a job interview. \"Easy-going\" or \"laid-back\" means relaxed and tolerant, «tranquilo, de trato fácil».",
           "Compound adjectives like \"down-to-earth\" and \"level-headed\" take hyphens before a noun (\"a level-headed manager\"). After the verb, \"down-to-earth\" is often written without hyphens too.",
         ],
         examples: [
@@ -3162,7 +3162,7 @@ export const EN_C1_U10: Lesson[] = [
           { es: "Don't trust him; he's completely two-faced.", en: "No te fíes de él; es un falso." },
           { es: "She's so conceited.", en: "Es muy creída." },
           { es: "My brother is as stubborn as a mule.", en: "Mi hermano es más terco que una mula." },
-          { es: "Our neighbour is a real pain in the neck.", en: "Nuestro vecino es un auténtico pesado." },
+          { es: "Our neighbor is a real pain in the neck.", en: "Nuestro vecino es un auténtico pesado." },
           { es: "She's an outspoken critic of the government.", en: "Es una crítica franca y abierta del Gobierno." },
           { es: "Stop being so bossy!", en: "¡Deja de ser tan mandón!" },
         ],
@@ -3313,7 +3313,7 @@ export const EN_C1_U10: Lesson[] = [
         question: "In a job interview you want to say «Se me da muy bien trabajar con la gente». Which is most natural?",
         options: ["I'm a real people person.", "I'm a very people man.", "I'm a person of people.", "I'm very sympathetic with people."],
         correctIndex: 0,
-        explanation: "\"A people person\" is a fixed, very common expression on CVs and in interviews.",
+        explanation: "\"A people person\" is a fixed, very common expression on résumés and in interviews.",
       },
       {
         type: "translate",
@@ -3394,7 +3394,7 @@ export const EN_C1_U10: Lesson[] = [
           "Uses \"nice\" or \"friendly\" (not \"sympathetic\") for «simpático» if needed",
           "Gives a short example or detail to support each quality",
         ],
-        modelAnswer: "My uncle Diego is one of the most down-to-earth people I know: even though he runs a successful company, he still drives an old car and eats lunch with his employees. He's also very level-headed, so the whole family calls him when there's a crisis. On the other hand, he can be as stubborn as a mule. Once he's made up his mind, nothing will change it, which can be a real pain in the neck when you're planning a holiday with him.",
+        modelAnswer: "My uncle Diego is one of the most down-to-earth people I know: even though he runs a successful company, he still drives an old car and eats lunch with his employees. He's also very level-headed, so the whole family calls him when there's a crisis. On the other hand, he can be as stubborn as a mule. Once he's made up his mind, nothing will change it, which can be a real pain in the neck when you're planning a vacation with him.",
         explanation: "Notice how each quality is supported by a concrete detail, which makes the description natural and convincing.",
       },
     ],

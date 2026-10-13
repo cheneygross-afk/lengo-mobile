@@ -54,7 +54,7 @@ export const EN_C1_U10_EXTRA: Lesson[] = [
           { es: "Those shoes cost me an arm and a leg.", en: "Esos zapatos me costaron un ojo de la cara." },
           { es: "Who spilled the beans about the wedding?", en: "¿Quién se fue de la lengua con lo de la boda?" },
           { es: "I really put my foot in it at dinner.", en: "Metí la pata hasta el fondo en la cena." },
-          { es: "Sorry, I was miles away. What did you say?", en: "Perdona, estaba en las nubes. ¿Qué has dicho?" },
+          { es: "Sorry, I was miles away. What did you say?", en: "Perdona, estaba en las nubes. ¿Qué dijiste?" },
           { es: "The test was a piece of cake.", en: "El examen fue pan comido." },
         ],
         checkpoint: [

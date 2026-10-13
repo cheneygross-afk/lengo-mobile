@@ -28,7 +28,7 @@ export const EN_C2_U12_EXTRA: Lesson[] = [
           { es: "Minister resigns over expenses row", en: "El ministro dimite por la polémica de los gastos." },
           { es: "PM to visit flood-hit towns", en: "El primer ministro visitará los pueblos afectados por las inundaciones." },
           { es: "Two held after bank raid", en: "Dos detenidos tras el atraco al banco." },
-          { es: "Council to axe 200 jobs", en: "El ayuntamiento suprimirá 200 puestos de trabajo." },
+          { es: "Council to axe 200 jobs", en: "El concejo municipal suprimirá 200 puestos de trabajo." },
           { es: "School meal price rise anger", en: "Indignación por la subida del precio de los comedores escolares." },
         ],
         checkpoint: [
@@ -88,12 +88,12 @@ export const EN_C2_U12_EXTRA: Lesson[] = [
     exercises: [
       {
         type: "multiple-choice",
-        question: "What does \"Teacher attacked in car park\" mean?",
+        question: "What does \"Teacher attacked in parking lot\" mean?",
         options: [
-          "Someone attacked a teacher in a car park.",
-          "A teacher attacked someone in a car park.",
-          "A teacher will be attacked in a car park.",
-          "A teacher criticized a car park.",
+          "Someone attacked a teacher in a parking lot.",
+          "A teacher attacked someone in a parking lot.",
+          "A teacher will be attacked in a parking lot.",
+          "A teacher criticized a parking lot.",
         ],
         correctIndex: 0,
         explanation: "A bare past participle in a headline is a passive: \"(A) teacher (was) attacked\". Reading it as active is a common misinterpretation.",
@@ -192,8 +192,9 @@ export const EN_C2_U12_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "El alcalde ha prometido limitar las rentas vacacionales.",
-        answer: "The mayor has promised to limit holiday rentals.",
+        answer: "The mayor has promised to limit vacation rentals.",
         altAnswers: [
+          "The mayor has promised to limit holiday rentals.",
           "The mayor has promised to limit tourist apartments.",
           "The mayor has promised to restrict holiday rentals.",
           "The mayor has promised to restrict tourist apartments.",
@@ -211,7 +212,7 @@ export const EN_C2_U12_EXTRA: Lesson[] = [
           "The mayor promised to limit holiday rentals.",
           "The mayor vowed to curb holiday rentals.",
         ],
-        explanation: "The headline version would be \"Mayor vows to curb holiday lets\": \"vow\" for «prometer» and \"curb\" for «limitar».",
+        explanation: "The headline version would be \"Mayor vows to curb vacation rentals\": \"vow\" for «prometer» and \"curb\" for «limitar».",
       },
       {
         type: "fill-blank",

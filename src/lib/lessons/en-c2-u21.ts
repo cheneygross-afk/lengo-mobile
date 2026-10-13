@@ -1073,7 +1073,7 @@ export const EN_C2_U21: Lesson[] = [
       {
         type: "speak",
         text: "First, I analyzed the data. Then I set up a weekly call with the client, and complaints fell by forty percent.",
-        tip: "Mark the steps with a short pause after \"First\" and \"Then\". In \"analyzed\" the -ed sounds /d/: /ANalaizd/, one syllable at the end, not /analaized/.",
+        tip: "Mark the steps with a short pause after \"First\" and \"Then\". In \"analyzed\" the -ed sounds /d/: /ˈænəlaɪzd/, with no extra syllable at the end (not *analy-zed).",
         explanation: "Clear signposting and a confident final figure make a STAR answer easy to follow.",
       },
       {
@@ -1193,7 +1193,7 @@ export const EN_C2_U21: Lesson[] = [
               ["when my manager", "when my boss"],
               ["went on leave.", "went on sick leave.", "went on medical leave.", "went off sick."],
             ),
-            explanation: "«Hacerse cargo de» is \"take charge of\" or \"take over\". «Irse de baja» is \"go on leave\" (sick leave, maternity leave...).",
+            explanation: "«Hacerse cargo de» is \"take charge of\" or \"take over\". «Irse de licencia» is \"go on leave\" (sick leave, maternity leave...).",
           },
           {
             type: "fill-blank",
@@ -1866,7 +1866,7 @@ export const EN_C2_U21: Lesson[] = [
         heading: "Instead of get",
         body: [
           "\"Get\" is perfectly natural in conversation, but in an interview or a cover letter a precise verb sounds more capable. Choose by meaning: \"secure\" (funding, a contract, a deal: with effort, against competition), \"earn\" (a promotion, a reputation, a degree: deserved by your work), \"obtain\" (a permit, a certificate, data: formal), \"acquire\" (skills, knowledge, a company), \"gain\" (experience, insight, access).",
-          "Spanish speakers often say *win experience, from «ganar experiencia». English says \"gain experience\". Similarly, «sacar una buena nota» is \"get a good grade\" or \"achieve a high mark\", and «obtener un título» is \"earn a degree\" or \"obtain a qualification\".",
+          "Spanish speakers often say *win experience, from «ganar experiencia». English says \"gain experience\". Similarly, «sacar una buena nota» is \"get a good grade\" or \"achieve a high grade\", and «obtener un título» is \"earn a degree\" or \"obtain a qualification\".",
           "Do not overcorrect: \"I got the job\" or \"I got promoted\" is fine in speech. Precision matters most when you describe achievements.",
         ],
         examples: [
@@ -2301,7 +2301,7 @@ export const EN_C2_U21: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "___ in three countries, I am comfortable working with diverse teams.",
             answer: "Having lived",
-            altAnswers: ["Having worked"],
+            altAnswers: [],
             en: "[Como he vivido] en tres países, me siento cómodo trabajando con equipos diversos.",
             explanation: "The perfect participle \"having\" + past participle gives the reason and shows it came first.",
           },

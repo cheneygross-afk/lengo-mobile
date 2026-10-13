@@ -107,7 +107,7 @@ export const EN_C2_U23_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "You studied all weekend, and then the exam was cancelled. Which sentence fits best?",
+            question: "You studied all weekend, and then the exam was canceled. Which sentence fits best?",
             options: [
               "I needn't have studied so hard.",
               "I didn't need to study, so I didn't.",
@@ -463,7 +463,7 @@ export const EN_C2_U23_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "¡Podrías haberme avisado de que la reunión se había cancelado!",
-        answer: "You could have told me the meeting had been cancelled!",
+        answer: "You could have told me the meeting had been canceled!",
         altAnswers: [
           "You could have told me the meeting had been called off!",
           "You could have told me that the meeting had been cancelled!",
@@ -513,7 +513,7 @@ export const EN_C2_U23_EXTRA: Lesson[] = [
           "You could at least have said that the meeting had been cancelled!",
           "You could at least have said that the meeting had been called off!",
         ],
-        explanation: "\"Could have\" or \"might have\" + participle is an irritated reproach. The pluperfect passive \"had been cancelled\" places the cancellation before the moment you weren't told.",
+        explanation: "\"Could have\" or \"might have\" + participle is an irritated reproach. The pluperfect passive \"had been canceled\" places the cancellation before the moment you weren't told.",
       },
       {
         type: "multiple-choice",
