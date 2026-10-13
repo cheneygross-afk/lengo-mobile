@@ -1,6 +1,6 @@
 // The German course's stories in the app (synced from the website into
 // ./de), loaded on demand like the German lessons (lessons/german.ts): the
-// stories with their English translations and glosses are about 2 MB, which
+// stories with their glosses are large, which
 // only German readers need. Story levelPaths are the website's ("de/a1" ...
 // "de/c2"), so read-tracking and highlights line up across both; German
 // story slugs all start with "de-", so they never collide with Spanish ones.
@@ -10,8 +10,6 @@ import type { GermanStoryLevel } from "./de";
 export type GermanStories = {
   levels: GermanStoryLevel[];
   glosses: (slug: string) => StoryGloss[];
-  /** One English paragraph per story paragraph, or null. */
-  english: (slug: string, paragraphCount: number) => string[] | null;
 };
 
 let loading: Promise<GermanStories> | null = null;
@@ -19,12 +17,11 @@ let loaded: GermanStories | null = null;
 
 export function loadGermanStories(): Promise<GermanStories> {
   if (!loading) {
-    loading = Promise.all([import("./de"), import("./de/de-glosses"), import("./de/de-translations")]).then(
-      ([stories, glosses, english]) => {
+    loading = Promise.all([import("./de"), import("./de/de-glosses")]).then(
+      ([stories, glosses]) => {
         loaded = {
           levels: stories.DE_STORY_LEVELS,
           glosses: glosses.germanStoryGlosses,
-          english: english.germanStoryEnglish,
         };
         return loaded;
       }

@@ -44,6 +44,8 @@ import { EN_A2_U16_EXTRA } from "./en-a2-u16-extra";
 import { EN_A2_U17_EXTRA } from "./en-a2-u17-extra";
 import { EN_A2_U18_EXTRA } from "./en-a2-u18-extra";
 import { EN_A2_U20_EXTRA } from "./en-a2-u20-extra";
+import { EN_A2_WRITING } from "./en-a2-writing";
+import { withUnitWriting } from "./unitWriting";
 
 // English for Spanish speakers (beta), A2. Conventions as in en-a1.ts.
 
@@ -74,5 +76,5 @@ const UNITS: EnglishUnitDef[] = [
 ];
 
 const LEVEL = buildEnglishLevel("en/a2", UNITS);
-export const EN_A2_LESSONS: Lesson[] = LEVEL.lessons;
+export const EN_A2_LESSONS: Lesson[] = withUnitWriting(LEVEL.lessons, EN_A2_WRITING);
 export const EN_A2_UNITS: UnitOutline[] = LEVEL.units;

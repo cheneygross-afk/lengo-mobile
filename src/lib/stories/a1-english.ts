@@ -1,7 +1,7 @@
 // Synced from cheneygross-afk/lengo:src/lib/stories/a1-english.ts by scripts/sync-content.mjs -- edit it there, not here.
 import { A1_STARTER_ENGLISH } from "./a1-starter";
 // English translations of the A1 stories, one per paragraph, keyed by
-// story slug -- shown under each paragraph by the "Show English" toggle.
+// story slug -- reference data, no longer shown on the page (see english.ts).
 // Keep each list the same length as the story's paragraphs (`npm run
 // check-content` checks) and update it whenever a paragraph changes.
 

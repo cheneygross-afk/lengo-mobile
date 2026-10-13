@@ -6,10 +6,10 @@ import { FR_B2_STORY_ENGLISH } from "./fr-b2-translations";
 import { FR_C1_STORY_ENGLISH } from "./fr-c1-translations";
 import { FR_C2_STORY_ENGLISH } from "./fr-c2-translations";
 
-// English translations for the "Show translation" toggle on the French
-// course's stories: off by default at every level, so readers try the
-// French first (the choice is kept per level on their device, see
-// FR_STORY_TRANSLATION_STORAGE_KEY in ../englishPrefs.ts).
+// English translations of the French course's stories.
+// No longer shown on the story pages: the user decided (2026-10-12) that
+// readings have no whole-text translation, only word meanings on tap.
+// Kept as reference data (the course checkers still validate it).
 
 export const FR_STORY_ENGLISH: Record<string, string[]> = {
   ...FR_A1_STORY_ENGLISH,

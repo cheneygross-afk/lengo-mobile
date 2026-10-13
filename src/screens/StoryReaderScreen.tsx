@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { View, Text, ScrollView, Pressable, StyleSheet, ActivityIndicator } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
@@ -9,8 +9,6 @@ import HighlightableText from "@/components/HighlightableText";
 import { langForLevelPath, readAloud, speechChunks, stopReadAloud } from "@/lib/speech";
 import { glossKey, glossLookup, storyGlosses, storyKeyWords } from "@/lib/stories/glosses";
 import TapText from "@/components/TapText";
-import { STORY_ENGLISH_STORAGE_KEY, showEnglishFor, storyEnglish } from "@/lib/stories/english";
-import { readJSON, writeJSON } from "@/lib/storage/asyncStore";
 import type { StoryGloss } from "@/lib/stories/types";
 import { useAuth } from "@/lib/auth/AuthContext";
 import { supabase } from "@/lib/supabase/client";
@@ -45,8 +43,8 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
   const { slug } = route.params;
   // A French- or German-course story (slug "fr-..."/"de-...", levelPath
   // "fr/a1"/"de/a1" ...) comes from that course's stories, loaded on demand
-  // (stories/courseStories.ts): text in the course language, an English
-  // translation, English questions.
+  // (stories/courseStories.ts): text in the course language and
+  // English questions.
   const storyCourse = storyCourseOf(slug, route.params.levelPath);
   const courseConfig = storyCourse ? STORY_COURSES[storyCourse] : null;
   const courseStory = !!courseConfig;
@@ -98,36 +96,9 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
     () => (story ? story.paragraphs.flatMap((p, pi) => speechChunks(p).map((text) => ({ text, pi }))) : []),
     [story]
   );
-  // "Show English" (A1/A2 stories with a translation): off by default at
-  // every level, remembered per level on this device. French and German
-  // stories all have one ("Show translation"), remembered under their own key.
-  const english = useMemo(
-    () =>
-      story
-        ? courseStory
-          ? courseStories?.english(story.slug, story.paragraphs.length) ?? null
-          : storyEnglish(story.slug, story.paragraphs.length)
-        : null,
-    [story, courseStory, courseStories]
-  );
-  const englishPrefKey = courseConfig ? courseConfig.translationStorageKey : STORY_ENGLISH_STORAGE_KEY;
-  const [englishPrefs, setEnglishPrefs] = useState<Record<string, boolean> | null>(null);
-  useEffect(() => {
-    let cancelled = false;
-    readJSON<Record<string, boolean>>(englishPrefKey, {}).then((p) => {
-      if (!cancelled) setEnglishPrefs(p);
-    });
-    return () => {
-      cancelled = true;
-    };
-  }, [englishPrefKey]);
-  const showEnglish = !!english && !!story && showEnglishFor(story.level, englishPrefs);
-  function toggleEnglish() {
-    if (!story) return;
-    const next = { ...(englishPrefs ?? {}), [story.level]: !showEnglish };
-    setEnglishPrefs(next);
-    void writeJSON(englishPrefKey, next);
-  }
+  // No translation of the whole text (user decision, 2026-10-12): readers
+  // tap any word for its meaning instead -- a dotted word's gloss, any
+  // other word looked up by the translator (showMeaning).
   const [playing, setPlaying] = useState<number | null>(null);
   const [shownGloss, setShownGloss] = useState<StoryGloss | null>(null);
   const [showWordList, setShowWordList] = useState(false);
@@ -207,6 +178,29 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
       await saveFlashcards(all);
     }
     setSaveNotice({ es, message: `Saved to flashcards: ${en}` });
+  }
+
+  // A tapped word's meaning: its gloss when it has one, otherwise the
+  // translator's first sense. Only the latest tap is shown.
+  const lastTap = useRef(0);
+  async function showMeaning(word: string) {
+    setSaveNotice(null);
+    const key = glossKey(word);
+    if (!key) return;
+    const tap = ++lastTap.current;
+    const gloss = lookup.get(key);
+    if (gloss) {
+      setShownGloss(gloss);
+      return;
+    }
+    setShownGloss(null);
+    setSaveNotice({ es: key, message: "Looking it up…" });
+    const outcome = await fetchTranslation(key, courseConfig ? courseConfig.direction : "es-en");
+    if (tap !== lastTap.current) return;
+    if (outcome.ok) {
+      setSaveNotice(null);
+      setShownGloss({ es: key, en: outcome.result.senses[0].translation, forms: [key] });
+    } else setSaveNotice({ es: key, message: outcome.error });
   }
 
   async function saveLongPressedWord(word: string) {
@@ -329,18 +323,6 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
           <Pressable style={s.listenButton} onPress={toggleListen} accessibilityRole="button">
             <Text style={s.listenButtonText}>{playing != null ? "■ Stop" : "▶ Listen to the story"}</Text>
           </Pressable>
-          {english ? (
-            <Pressable
-              style={s.listenButton}
-              onPress={toggleEnglish}
-              accessibilityRole="button"
-              accessibilityState={{ selected: showEnglish }}
-            >
-              <Text style={s.listenButtonText}>
-                {courseStory ? (showEnglish ? "Hide translation" : "Show translation") : showEnglish ? "Hide English" : "Show English"}
-              </Text>
-            </Pressable>
-          ) : null}
         </View>
 
         {keyWords.length > 0 && (
@@ -369,7 +351,7 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
                   <TapText text={g.es} lang={langForLevelPath(levelPath)} mode="target" style={s.wordEs} /> · {g.en}
                 </Text>
               ))}
-            {!showWordList && <Text style={s.wordHint}>Tap a dotted word in the story for its meaning.</Text>}
+            {!showWordList && <Text style={s.wordHint}>Tap any word in the story for its meaning (dotted words are the new ones).</Text>}
           </View>
         )}
         <Text style={s.saveHint}>Long-press any word to save it to your flashcards.</Text>
@@ -390,15 +372,9 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
                   onAdd={(start, end, selected) => addHighlight(blockKey, p, start, end, selected)}
                   onRemove={removeHighlight}
                   isMarked={(word) => lookup.has(glossKey(word))}
-                  onWordTap={(word) => {
-                    setSaveNotice(null);
-                    setShownGloss(lookup.get(glossKey(word)) ?? null);
-                  }}
+                  onWordTap={(word) => void showMeaning(word)}
                   onWordLongPress={saveLongPressedWord}
                 />
-                {showEnglish && english?.[i] ? (
-                  <TapText text={english[i]} lang="en-US" mode="english" style={s.english} />
-                ) : null}
                 <Pressable
                   onPress={() => listenFrom(i)}
                   accessibilityRole="button"
@@ -488,7 +464,6 @@ const s = StyleSheet.create({
   playingParagraph: { backgroundColor: "#FDE68A99", borderRadius: 6, marginHorizontal: -6, paddingHorizontal: 6 },
   fromHere: { fontSize: 12, color: "#00000066", marginTop: 4 },
   listenRow: { flexDirection: "row", flexWrap: "wrap", gap: 8, marginBottom: 12 },
-  english: { fontSize: 14, color: "#00000099", lineHeight: 20, marginTop: 4 },
   listenButton: { borderWidth: 1, borderColor: "#00000033", borderRadius: 999, paddingVertical: 8, paddingHorizontal: 16 },
   listenButtonText: { fontSize: 14, fontWeight: "600", color: "#000" },
   wordBox: { borderWidth: 1, borderColor: "#00000022", borderRadius: 12, padding: 12, marginBottom: 16, gap: 4 },

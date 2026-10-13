@@ -5,7 +5,6 @@
 import type { Story, StoryGloss } from "./types";
 import { findFrenchStory, frenchStoriesIfLoaded, isFrenchStorySlug, loadFrenchStories } from "./french";
 import { findGermanStory, germanStoriesIfLoaded, isGermanStorySlug, loadGermanStories } from "./german";
-import { FR_STORY_TRANSLATION_STORAGE_KEY, DE_STORY_TRANSLATION_STORAGE_KEY } from "./englishPrefs";
 import { FRENCH_LANG, GERMAN_LANG, type SpeechLang } from "@/lib/speech";
 
 export type StoryCourse = "fr" | "de";
@@ -20,8 +19,6 @@ export type CourseStoryLevel = {
 export type CourseStories = {
   levels: CourseStoryLevel[];
   glosses: (slug: string) => StoryGloss[];
-  /** One English paragraph per story paragraph, or null. */
-  english: (slug: string, paragraphCount: number) => string[] | null;
 };
 
 export type StoryCourseConfig = {
@@ -31,8 +28,6 @@ export type StoryCourseConfig = {
   lang: SpeechLang;
   /** The translator direction for a tapped word. */
   direction: "fr-en" | "de-en";
-  /** Where the "Show translation" choice is kept (per level). */
-  translationStorageKey: string;
   /** The story levels whose key words are listed under the text. */
   keyWordLevels: string[];
   load: () => Promise<CourseStories>;
@@ -50,7 +45,6 @@ export const STORY_COURSES: Record<StoryCourse, StoryCourseConfig> = {
     name: "French",
     lang: FRENCH_LANG,
     direction: "fr-en",
-    translationStorageKey: FR_STORY_TRANSLATION_STORAGE_KEY,
     keyWordLevels: ["FR-A1", "FR-A2"],
     load: loadFrenchStories,
     ifLoaded: frenchStoriesIfLoaded,
@@ -62,7 +56,6 @@ export const STORY_COURSES: Record<StoryCourse, StoryCourseConfig> = {
     name: "German",
     lang: GERMAN_LANG,
     direction: "de-en",
-    translationStorageKey: DE_STORY_TRANSLATION_STORAGE_KEY,
     keyWordLevels: ["DE-A1", "DE-A2"],
     load: loadGermanStories,
     ifLoaded: germanStoriesIfLoaded,

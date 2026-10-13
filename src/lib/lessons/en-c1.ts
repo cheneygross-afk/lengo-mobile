@@ -36,28 +36,44 @@ import { EN_C1_U13_EXTRA } from "./en-c1-u13-extra";
 import { EN_C1_U14_EXTRA } from "./en-c1-u14-extra";
 import { EN_C1_U15_EXTRA } from "./en-c1-u15-extra";
 import { EN_C1_U16_EXTRA } from "./en-c1-u16-extra";
+import { EN_C1_U01_DRILLS } from "./en-c1-u01-drills";
+import { EN_C1_U02_DRILLS } from "./en-c1-u02-drills";
+import { EN_C1_U03_DRILLS } from "./en-c1-u03-drills";
+import { EN_C1_U04_DRILLS } from "./en-c1-u04-drills";
+import { EN_C1_U05_DRILLS } from "./en-c1-u05-drills";
+import { EN_C1_U06_DRILLS } from "./en-c1-u06-drills";
+import { EN_C1_U07_DRILLS } from "./en-c1-u07-drills";
+import { EN_C1_U08_DRILLS } from "./en-c1-u08-drills";
+import { EN_C1_U09_DRILLS } from "./en-c1-u09-drills";
+import { EN_C1_U10_DRILLS } from "./en-c1-u10-drills";
+import { EN_C1_U11_DRILLS } from "./en-c1-u11-drills";
+import { EN_C1_U12_DRILLS } from "./en-c1-u12-drills";
+import { EN_C1_U13_DRILLS } from "./en-c1-u13-drills";
+import { EN_C1_U14_DRILLS } from "./en-c1-u14-drills";
+import { EN_C1_U15_DRILLS } from "./en-c1-u15-drills";
+import { EN_C1_U16_DRILLS } from "./en-c1-u16-drills";
 
 // English for Spanish speakers (beta), C1. Conventions as in en-a1.ts, except that from B1 up
 // the teaching text is in English (Spanish words in «guillemets»), mirroring
 // the Spanish course's switch to Spanish at B1.
 
 const UNITS: EnglishUnitDef[] = [
-  { id: "u01", title: "Inversion", description: "Use negative, conditional and emphatic inversion for formal, rhetorical English.", lessons: [...EN_C1_U01, ...EN_C1_U01_EXTRA] },
-  { id: "u02", title: "Cleft Sentences and Emphasis", description: "Highlight information with cleft sentences, fronting and other emphatic structures.", lessons: [...EN_C1_U02, ...EN_C1_U02_EXTRA] },
-  { id: "u03", title: "Nominalization", description: "Turn verbs and adjectives into nouns for a compact, formal style.", lessons: [...EN_C1_U03, ...EN_C1_U03_EXTRA] },
-  { id: "u04", title: "Ellipsis, Substitution and Cohesion", description: "Avoid repetition with so, do so, one and ellipsis, and link a text together with reference words.", lessons: [...EN_C1_U04, ...EN_C1_U04_EXTRA] },
-  { id: "u05", title: "Hedging and Probability", description: "Hedge, distance yourself and express degrees of certainty in speech and writing.", lessons: [...EN_C1_U05, ...EN_C1_U05_EXTRA] },
-  { id: "u06", title: "Discourse Markers", description: "Organize, qualify and connect what you say and write with spoken and written discourse markers.", lessons: [...EN_C1_U06, ...EN_C1_U06_EXTRA] },
-  { id: "u07", title: "Participle Clauses and Advanced Relative Clauses", description: "Build complex sentences with participle clauses, absolute constructions and formal relative clauses.", lessons: [...EN_C1_U07, ...EN_C1_U07_EXTRA] },
-  { id: "u08", title: "Unreal Past and the Subjunctive", description: "Use the unreal past beyond conditionals, and the English subjunctive.", lessons: [...EN_C1_U08, ...EN_C1_U08_EXTRA] },
-  { id: "u09", title: "Collocations", description: "Combine words naturally: verb + noun, adjective + noun and dependent prepositions.", lessons: [...EN_C1_U09, ...EN_C1_U09_EXTRA] },
-  { id: "u10", title: "Idioms and Figurative Language", description: "Use idioms, binomials, similes and metaphors from everyday English.", lessons: [...EN_C1_U10, ...EN_C1_U10_EXTRA] },
-  { id: "u11", title: "Word Formation and False Friends", description: "Use prefixes, suffixes and compounds, and avoid advanced false friends.", lessons: [...EN_C1_U11, ...EN_C1_U11_EXTRA] },
-  { id: "u12", title: "Formal and Informal Register", description: "Adapt your tone with the right level of formality, politeness and indirectness.", lessons: [...EN_C1_U12, ...EN_C1_U12_EXTRA] },
-  { id: "u13", title: "Formal Emails and Letters", description: "Write emails, complaints, applications and cover letters in professional English.", lessons: [...EN_C1_U13, ...EN_C1_U13_EXTRA] },
-  { id: "u14", title: "Reports, Proposals and Essays", description: "Structure and write essays, reports, proposals and reviews in the right style.", lessons: [...EN_C1_U14, ...EN_C1_U14_EXTRA] },
-  { id: "u15", title: "Professional English", description: "Handle meetings, presentations, negotiations and feedback at work.", lessons: [...EN_C1_U15, ...EN_C1_U15_EXTRA] },
-  { id: "u16", title: "Varieties of English", description: "Understand British, American and other world Englishes.", lessons: [...EN_C1_U16, ...EN_C1_U16_EXTRA] },
+  { id: "u01", title: "Inversion", description: "Use negative, conditional and emphatic inversion for formal, rhetorical English.", lessons: [...EN_C1_U01, ...EN_C1_U01_DRILLS, ...EN_C1_U01_EXTRA] },
+  { id: "u02", title: "Cleft Sentences and Emphasis", description: "Highlight information with cleft sentences, fronting and other emphatic structures.", lessons: [...EN_C1_U02, ...EN_C1_U02_DRILLS, ...EN_C1_U02_EXTRA] },
+  { id: "u03", title: "Nominalization", description: "Turn verbs and adjectives into nouns for a compact, formal style.", lessons: [...EN_C1_U03, ...EN_C1_U03_DRILLS, ...EN_C1_U03_EXTRA] },
+  { id: "u04", title: "Ellipsis, Substitution and Cohesion", description: "Avoid repetition with so, do so, one and ellipsis, and link a text together with reference words.", lessons: [...EN_C1_U04, ...EN_C1_U04_DRILLS, ...EN_C1_U04_EXTRA] },
+  { id: "u05", title: "Hedging and Probability", description: "Hedge, distance yourself and express degrees of certainty in speech and writing.", lessons: [...EN_C1_U05, ...EN_C1_U05_DRILLS, ...EN_C1_U05_EXTRA] },
+  { id: "u06", title: "Discourse Markers", description: "Organize, qualify and connect what you say and write with spoken and written discourse markers.", lessons: [...EN_C1_U06, ...EN_C1_U06_DRILLS, ...EN_C1_U06_EXTRA] },
+  { id: "u07", title: "Participle Clauses and Advanced Relative Clauses", description: "Build complex sentences with participle clauses, absolute constructions and formal relative clauses.", lessons: [...EN_C1_U07, ...EN_C1_U07_DRILLS, ...EN_C1_U07_EXTRA] },
+  { id: "u08", title: "Unreal Past and the Subjunctive", description: "Use the unreal past beyond conditionals, and the English subjunctive.", lessons: [...EN_C1_U08, ...EN_C1_U08_DRILLS, ...EN_C1_U08_EXTRA] },
+  { id: "u09", title: "Collocations", description: "Combine words naturally: verb + noun, adjective + noun and dependent prepositions.", lessons: [...EN_C1_U09, ...EN_C1_U09_DRILLS, ...EN_C1_U09_EXTRA] },
+  { id: "u10", title: "Idioms and Figurative Language", description: "Use idioms, binomials, similes and metaphors from everyday English.", lessons: [...EN_C1_U10, ...EN_C1_U10_DRILLS, ...EN_C1_U10_EXTRA] },
+  { id: "u11", title: "Word Formation and False Friends", description: "Use prefixes, suffixes and compounds, and avoid advanced false friends.", lessons: [...EN_C1_U11, ...EN_C1_U11_DRILLS, ...EN_C1_U11_EXTRA] },
+  { id: "u12", title: "Formal and Informal Register", description: "Adapt your tone with the right level of formality, politeness and indirectness.", lessons: [...EN_C1_U12, ...EN_C1_U12_DRILLS, ...EN_C1_U12_EXTRA] },
+  { id: "u13", title: "Formal Emails and Letters", description: "Write emails, complaints, applications and cover letters in professional English.", lessons: [...EN_C1_U13, ...EN_C1_U13_DRILLS, ...EN_C1_U13_EXTRA] },
+  { id: "u14", title: "Reports, Proposals and Essays", description: "Structure and write essays, reports, proposals and reviews in the right style.", lessons: [...EN_C1_U14, ...EN_C1_U14_DRILLS, ...EN_C1_U14_EXTRA] },
+  { id: "u15", title: "Professional English", description: "Handle meetings, presentations, negotiations and feedback at work.", lessons: [...EN_C1_U15, ...EN_C1_U15_DRILLS, ...EN_C1_U15_EXTRA] },
+  { id: "u16", title: "Varieties of English", description: "Understand British, American and other world Englishes.", lessons: [...EN_C1_U16, ...EN_C1_U16_DRILLS, ...EN_C1_U16_EXTRA] },
   { id: "u17", title: "Level Review", description: "A cumulative review of everything in this level.", lessons: EN_C1_U17 },
   { id: "u18", title: "Level Challenges and Final Exam", description: "Every structure in this level with no hints, and the level's final exam.", lessons: EN_C1_U18 },
 ];

@@ -32,7 +32,7 @@ function frenchSpacing(text: string): string {
     .replace(/« /g, `«${NBSP}`);
 }
 
-function spaced<T>(value: T): T {
+export function spaced<T>(value: T): T {
   if (typeof value === "string") return frenchSpacing(value) as T;
   if (Array.isArray(value)) return value.map(spaced) as T;
   if (value && typeof value === "object") {
