@@ -854,7 +854,7 @@ export const EN_C1_U12_DRILLS: Lesson[] = [
         type: "speak",
         prompt: "Say it to your manager: «Quería comentarte que el proyecto va con retraso.»",
         text: "I wanted to flag that the project is behind schedule.",
-        tip: "\"I wanted to\" is often reduced to /aɪ ˈwɒnɪdə/; stress \"FLAG\" and \"SCHEDule\".",
+        tip: "\"I wanted to\" is often reduced to /aɪ ˈwɑnɪdə/; stress \"FLAG\" and \"SCHEDule\".",
         explanation: "Writing or speaking up to a manager: \"I wanted to flag\" is polite and professional, between \"Heads-up\" and \"Please be advised\".",
       },
       {
@@ -1870,8 +1870,8 @@ export const EN_C1_U12_DRILLS: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the bold words in formal English.",
         sentence: "I am writing to ___ about the summer course.",
-        answer: "enquire",
-        altAnswers: ["inquire"],
+        answer: "inquire",
+        altAnswers: ["enquire"],
         en: "Le escribo para [informarme] sobre el curso de verano.",
         explanation: "\"Enquire\" (British) or \"inquire\" (American) + \"about\" is the formal verb. In speech: \"ask about\".",
       },
@@ -1887,7 +1887,7 @@ export const EN_C1_U12_DRILLS: Lesson[] = [
           "I called to ask about the flat.",
           "I called about the apartment.",
         ],
-        explanation: "In speech, \"ask about\". \"I called to enquire about the apartment\" is not wrong, but it is very formal for a chat.",
+        explanation: "In speech, \"ask about\". \"I called to inquire about the apartment\" is not wrong, but it is very formal for a chat.",
       },
       {
         type: "multiple-choice",
@@ -2150,7 +2150,7 @@ export const EN_C1_U12_DRILLS: Lesson[] = [
         prompt: "Say it on the phone, in neutral English: «Llamo para preguntar si todavía tienen habitaciones libres.»",
         text: "I'm calling to ask if you still have any rooms available.",
         tip: "\"I'm calling to ask\": stress \"ASK\" and \"ROOMS\"; \"available\" is stressed on the second syllable.",
-        explanation: "Neutral spoken English: \"ask if\" rather than \"enquire whether\", and a contraction.",
+        explanation: "Neutral spoken English: \"ask if\" rather than \"inquire whether\", and a contraction.",
       },
       {
         type: "dictation",
@@ -2355,7 +2355,7 @@ export const EN_C1_U12_DRILLS: Lesson[] = [
           "That she was giving an order",
         ],
         correctIndex: 0,
-        explanation: "\"Point out\" presents the information as a fact the others had missed. A reporting verb is also a judgement.",
+        explanation: "\"Point out\" presents the information as a fact the others had missed. A reporting verb is also a judgment.",
       },
       {
         type: "dictation",
@@ -2562,7 +2562,6 @@ export const EN_C1_U12_DRILLS: Lesson[] = [
         altAnswers: [
           "They really have to do something about poverty.",
           "They've really got to do something about poverty.",
-          "They really need to do something about the poverty.",
         ],
         explanation: "In conversation, \"do something about\" replaces formal \"tackle\" or \"address\". Same topic, different register.",
       },
@@ -2879,7 +2878,7 @@ export const EN_C1_U12_DRILLS: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["I", "look", "forward", "to", "meeting", "you", "next", "week."],
-        translation: "Tengo muchas ganas de conocerle la semana que viene.",
+        translation: "Tengo muchas ganas de conocerlo la semana que viene.",
         explanation: "\"Look forward to\" + -ing. It is a standard, polite closing in neutral and formal emails.",
       },
       {

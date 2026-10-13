@@ -90,7 +90,7 @@ export const EN_C2_U32: Lesson[] = [
               "A noise was heard by him, and then a stop was made by him near the door.",
             ],
             correctIndex: 0,
-            explanation: "Short, separate sentences in a consistent tense speed up the pace. The second version slows time down, the third mixes tenses and uses comma splices, and the fourth buries the action in passives.",
+            explanation: "Short, separate sentences in a consistent tense speed up the pace. The long version slows time down, the comma-spliced one mixes tenses, and the passive one buries the action.",
           },
           {
             type: "translate",
@@ -226,7 +226,7 @@ export const EN_C2_U32: Lesson[] = [
           "She looks at the photo. She had met him in Rome, he was working in a bookstore, he smiles at her every morning.",
         ],
         correctIndex: 0,
-        explanation: "One past perfect (\"had met\") marks the jump back; then the simple past carries the flashback. The second loses the time shift, the third never leaves the past perfect, and the fourth mixes tenses with comma splices.",
+        explanation: "One past perfect (\"had met\") marks the jump back; then the simple past carries the flashback. The other versions lose the time shift, never leave the past perfect, or mix tenses with comma splices.",
       },
       {
         type: "fill-blank",
@@ -311,7 +311,7 @@ export const EN_C2_U32: Lesson[] = [
           { es: "She stared at her coffee until it went cold.", en: "Se quedó mirando el café hasta que se enfrió. (en vez de \"She was sad.\")" },
           { es: "He checked his watch twice in the same minute.", en: "Miró el reloj dos veces en el mismo minuto. (en vez de \"He was nervous.\")" },
           { es: "Her mother watered down the milk to make it last.", en: "Su madre aguaba la leche para que durara más. (en vez de \"They were poor.\")" },
-          { es: "The children's drawings were still on the fridge, faded and curling at the edges.", en: "Los dibujos de los niños seguían en la nevera, descoloridos y con los bordes doblados." },
+          { es: "The children's drawings were still on the fridge, faded and curling at the edges.", en: "Los dibujos de los niños seguían en el refrigerador, descoloridos y con los bordes doblados." },
           { es: "He laughed a little too loudly at the boss's joke.", en: "Se rio un poco demasiado fuerte del chiste del jefe." },
         ],
         checkpoint: [
@@ -484,7 +484,7 @@ export const EN_C2_U32: Lesson[] = [
         pairs: [
           { left: "creak", right: "chirriar, crujir (una puerta, la madera)" },
           { left: "rustle", right: "susurrar (las hojas, el papel)" },
-          { left: "hum", right: "zumbar (una nevera, un motor)" },
+          { left: "hum", right: "zumbar (un refrigerador, un motor)" },
           { left: "hiss", right: "silbar, sisear (el vapor, una serpiente)" },
           { left: "flicker", right: "parpadear (una vela, una luz)" },
         ],
@@ -1850,7 +1850,7 @@ export const EN_C2_U32: Lesson[] = [
           "It was a normal day, like all the other days.",
         ],
         correctIndex: 0,
-        explanation: "The first line raises a question (who is the boy, why five to seven?) and establishes a pattern that the story can break.",
+        explanation: "The bakery line raises a question (who is the boy, why five to seven?) and establishes a pattern that the story can break.",
       },
       {
         type: "translate",
@@ -1873,13 +1873,13 @@ export const EN_C2_U32: Lesson[] = [
         type: "multiple-choice",
         question: "You are at 112 words. Which cut keeps the story intact?",
         options: [
-          "Change \"She started to slowly walk towards the door\" to \"She edged towards the door.\"",
+          "Change \"She started to slowly walk toward the door\" to \"She edged toward the door.\"",
           "Delete the hook.",
           "Delete the turn and keep the background.",
           "Replace the final image with a one-line moral.",
         ],
         correctIndex: 0,
-        explanation: "One precise verb (\"edged\") replaces \"started to slowly walk\", saving four words and sharpening the image.",
+        explanation: "One precise verb (\"edged\") replaces \"started to slowly walk\", saving three words and sharpening the image.",
       },
       {
         type: "fill-blank",
@@ -2181,7 +2181,7 @@ export const EN_C2_U32: Lesson[] = [
           "\"So. Emma.\"",
         ],
         correctIndex: 0,
-        explanation: "The first line states the feelings outright. The others let jealousy show through irony, a pointed question or silence.",
+        explanation: "The jealous, insecure line states the feelings outright. The others let jealousy show through irony, a pointed question or silence.",
       },
       {
         type: "multiple-choice",

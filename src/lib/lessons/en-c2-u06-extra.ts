@@ -298,7 +298,7 @@ export const EN_C2_U06_EXTRA: Lesson[] = [
           "You must pronounce \"ship\" and \"sheep\" clearly otherwise the joke doesn't work.",
           "You must pronounce \"ship\" and \"sheep\" clearly otherwise the joke won't work.",
         ],
-        explanation: "\"Pronounce\" takes a direct object: \"pronounce ship correctly\", without *pronounce well. \"Or\" / \"otherwise\" = «o, si no».",
+        explanation: "\"Pronounce\" takes a direct object (\"pronounce ship correctly\"), and «bien» here is most naturally \"properly\", \"correctly\" or \"clearly\". \"Or\" / \"otherwise\" = «o, si no».",
       },
       {
         type: "speak",
@@ -399,7 +399,7 @@ export const EN_C2_U06_EXTRA: Lesson[] = [
         type: "dictation",
         audio: "Why was the math book sad? It had too many problems.",
         altAnswers: ["Why was the maths book sad? It had too many problems."],
-        explanation: "\"Problems\" are both exercises in a maths book and personal troubles. British English says \"maths book\".",
+        explanation: "\"Problems\" are both exercises in a math book and personal troubles. British English says \"maths book\".",
       },
     ],
   },

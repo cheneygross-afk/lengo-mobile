@@ -55,7 +55,7 @@ export const EN_C2_U04_EXTRA: Lesson[] = [
       {
         heading: "Do or make? And other verb slips",
         body: [
-          "Many idioms depend on a verb that Spanish would choose differently: \"make ends meet\" («llegar a fin de mes»), \"make a fuss\" («armar un escándalo»), \"do someone a favor\" («hacer un favor»), \"make the most of\" («aprovechar al máximo»), \"take something with a pinch of salt\" («tomar con pinzas»), \"pay attention\" (not *make attention).",
+          "Many idioms depend on a verb that Spanish would choose differently: \"make ends meet\" («llegar a fin de mes»), \"make a fuss\" («armar un escándalo»), \"do someone a favor\" («hacer un favor»), \"make the most of\" («aprovechar al máximo»), \"take something with a grain of salt\" («tomar con pinzas»), \"pay attention\" (not *make attention).",
           "Mixing two idioms (*We'll burn that bridge when we come to it) is a well-known slip. It can be funny on purpose, but in serious writing it looks careless.",
         ],
         examples: [
@@ -86,7 +86,7 @@ export const EN_C2_U04_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Esa reforma nos va a costar un ojo de la cara.",
+        source: "Esa remodelación nos va a costar un ojo de la cara.",
         answer: "That renovation is going to cost us an arm and a leg.",
         altAnswers: [
           "That renovation is going to cost us a fortune.",
@@ -237,7 +237,7 @@ export const EN_C2_U04_EXTRA: Lesson[] = [
         question: "Choose the correct verb: Could you ___ me a favor?",
         options: ["do", "make", "give", "take"],
         correctIndex: 0,
-        explanation: "English \"does\" a favor: \"do someone a favor\". *Make me a favour copies «hacer».",
+        explanation: "English \"does\" a favor: \"do someone a favor\". *Make me a favor copies «hacer».",
       },
       {
         type: "translate",

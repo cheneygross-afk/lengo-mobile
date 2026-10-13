@@ -12,7 +12,7 @@ export const EN_C2_U05: Lesson[] = [
     level: "EN-C2",
     number: 1,
     title: "Proverbs and sayings, Part 1 of 3: the half-quoted proverb",
-    summary: "Native speakers often say only the first half of a proverb and let you finish it: \"When in Rome...\", \"Speak of the devil...\", \"If the cap fits...\", \"Birds of a feather...\", \"Every cloud...\". Learn the missing halves, what they mean and how to recognise them in conversation.",
+    summary: "Native speakers often say only the first half of a proverb and let you finish it: \"When in Rome...\", \"Speak of the devil...\", \"If the cap fits...\", \"Birds of a feather...\", \"Every cloud...\". Learn the missing halves, what they mean and how to recognize them in conversation.",
     duration: "11 min",
     sections: [
       {
@@ -88,9 +88,9 @@ export const EN_C2_U05: Lesson[] = [
       {
         heading: "More halves you will hear every week",
         body: [
-          "\"The early bird...\" (catches the worm): starting early pays off. \"Too many cooks...\" (spoil the broth): too many people in charge ruin a job. \"People who live in glass houses...\" (shouldn't throw stones): do not criticise others for faults you have yourself.",
+          "\"The early bird...\" (catches the worm): starting early pays off. \"Too many cooks...\" (spoil the broth): too many people in charge ruin a job. \"People who live in glass houses...\" (shouldn't throw stones): do not criticize others for faults you have yourself.",
           "\"You can lead a horse to water...\" (but you can't make it drink): you can give someone an opportunity but you cannot force them to take it. \"Don't count your chickens...\" (before they hatch): do not celebrate a result before it happens, like «no vendas la piel del oso antes de cazarlo». \"When the going gets tough...\" (the tough get going): strong people work harder when things get difficult.",
-          "Some halves now live on as ordinary noun phrases: \"Look for the silver lining\", \"They're birds of a feather\", \"I'm an early bird\" (a morning person), \"It was a case of too many cooks\". Recognising the proverb behind them is part of understanding the sentence.",
+          "Some halves now live on as ordinary noun phrases: \"Look for the silver lining\", \"They're birds of a feather\", \"I'm an early bird\" (a morning person), \"It was a case of too many cooks\". Recognizing the proverb behind them is part of understanding the sentence.",
         ],
         examples: [
           { es: "The early bird catches the worm.", en: "A quien madruga, Dios le ayuda." },
@@ -188,7 +188,7 @@ export const EN_C2_U05: Lesson[] = [
         prompt: "Put the words in order.",
         words: ["People", "who", "live", "in", "glass", "houses", "shouldn't", "throw", "stones."],
         translation: "Quien tenga tejado de vidrio, que no tire piedras al del vecino.",
-        explanation: "The proverb warns against criticising others for faults you share. Spanish has the same image with «tejado de vidrio».",
+        explanation: "The proverb warns against criticizing others for faults you share. Spanish has the same image with «tejado de vidrio».",
       },
       {
         type: "translate",
@@ -318,7 +318,7 @@ export const EN_C2_U05: Lesson[] = [
         heading: "Old endings and the subjunctive",
         body: [
           "\"Pride goeth before a fall\" keeps the old third-person ending \"-eth\" (\"goeth\" = \"goes\", \"hath\" = \"has\", \"doth\" = \"does\"). It comes from the King James Bible (\"Pride goeth before destruction, and an haughty spirit before a fall\"). Most people today say \"Pride goes before a fall\"; using \"goeth\" is either a quotation or a joke.",
-          "Several sayings keep the present subjunctive, the bare verb with no -s: \"Come what may\" («pase lo que pase»), \"Be that as it may\" («sea como sea», conceding a point), \"So be it\", \"Suffice it to say\" and \"Far be it from me to criticise, but...\", an ironic preface to a criticism. Do not \"correct\" them to *Comes what may or *Suffices it to say.",
+          "Several sayings keep the present subjunctive, the bare verb with no -s: \"Come what may\" («pase lo que pase»), \"Be that as it may\" («sea como sea», conceding a point), \"So be it\", \"Suffice it to say\" and \"Far be it from me to criticize, but...\", an ironic preface to a criticism. Do not \"correct\" them to *Comes what may or *Suffices it to say.",
           "\"Needs must\" (short for \"needs must when the devil drives\") uses \"needs\" as an old adverb meaning \"necessarily\": you do something unpleasant because you have no choice. It is mainly British; Americans more often say \"You do what you have to do\".",
         ],
         examples: [
@@ -435,7 +435,7 @@ export const EN_C2_U05: Lesson[] = [
         prompt: "Put the words in order.",
         words: ["Far", "be", "it", "from", "me", "to", "criticize,", "but", "that", "was", "a", "mistake."],
         translation: "No es que yo quiera criticar, pero eso fue un error.",
-        explanation: "\"Far be it from me to...\" is an old subjunctive used ironically: the speaker is about to criticise anyway.",
+        explanation: "\"Far be it from me to...\" is an old subjunctive used ironically: the speaker is about to criticize anyway.",
       },
       {
         type: "multiple-choice",
@@ -519,7 +519,7 @@ export const EN_C2_U05: Lesson[] = [
         body: [
           "Some sayings are ironic from the start. \"No good deed goes unpunished\" is a cynical comment when helping someone gets you into trouble; it turns the moral \"virtue is its own reward\" upside down. \"Be careful what you wish for\" warns that getting what you want can be a disaster. \"The road to hell is paved with good intentions\" says that meaning well is not enough.",
           "Others are made ironic by context. \"Great minds think alike\" is said jokingly when two people have the same idea; the cheeky reply is the forgotten second half, \"...and fools seldom differ\". \"Ignorance is bliss\" can be sincere or sarcastic, depending on the tone.",
-          "Anti-proverbs twist a familiar proverb for humour: \"Never put off till tomorrow what you can do the day after tomorrow\" (attributed to Mark Twain), \"If at first you don't succeed, give up\", \"Where there's a will, there's a relative\" (from \"Where there's a will, there's a way\"). The joke only works if the listener knows the original, so they are a good test of Mastery comprehension.",
+          "Anti-proverbs twist a familiar proverb for humor: \"Never put off till tomorrow what you can do the day after tomorrow\" (attributed to Mark Twain), \"If at first you don't succeed, give up\", \"Where there's a will, there's a relative\" (from \"Where there's a will, there's a way\"). The joke only works if the listener knows the original, so they are a good test of Mastery comprehension.",
         ],
         examples: [
           { es: "I covered her shift and now I'm the one in trouble. No good deed goes unpunished.", en: "Le cubrí el turno y ahora el que tiene problemas soy yo. Así me pagan." },
@@ -547,7 +547,7 @@ export const EN_C2_U05: Lesson[] = [
               "I lent her money and now she won't speak to me. No good deed goes unpunished.",
               "I lent him some money and now he isn't speaking to me. No good deed goes unpunished.",
             ],
-            explanation: "The ironic «así me lo agradece» is \"No good deed goes unpunished\". Remember the false friend: «prestar» is \"lend\" when you give, \"borrow\" when you receive.",
+            explanation: "The ironic «así me lo agradece» is \"No good deed goes unpunished\". Remember: «prestar» is \"lend\" (you give); «pedir prestado» is \"borrow\" (you receive).",
           },
           {
             type: "multiple-choice",
@@ -568,7 +568,7 @@ export const EN_C2_U05: Lesson[] = [
         body: [
           "Because proverbs contradict each other, the skill is to choose the one that fits your argument. Arguing for caution? \"Look before you leap\", \"Better safe than sorry\", \"Fools rush in\" (short for \"Fools rush in where angels fear to tread\"). Arguing for action? \"He who hesitates is lost\", \"Strike while the iron is hot\", \"Nothing ventured, nothing gained\".",
           "To counter someone else's proverb, English often uses \"Then again, ...\" or \"But they also say...\": \"Sure, look before you leap. But then again, he who hesitates is lost.\" This sounds wry and well read rather than preachy.",
-          "Match the proverb to the situation precisely. \"Strike while the iron is hot\" is about a favourable moment that will pass; \"The early bird catches the worm\" is about being early compared with others. They are close, but not interchangeable.",
+          "Match the proverb to the situation precisely. \"Strike while the iron is hot\" is about a favorable moment that will pass; \"The early bird catches the worm\" is about being early compared with others. They are close, but not interchangeable.",
         ],
         examples: [
           { es: "Better safe than sorry.", en: "Más vale prevenir que curar." },
@@ -721,7 +721,7 @@ export const EN_C2_U05: Lesson[] = [
         body: [
           "Many refranes have an English counterpart that says the same thing with a different image. «A quien madruga, Dios le ayuda» is \"The early bird catches the worm\": no God, but a bird. «Más vale pájaro en mano que ciento volando» is \"A bird in the hand is worth two in the bush\": the birds survive, but only two, and they are in a bush.",
           "«Dime con quién andas y te diré quién eres» is \"A man is known by the company he keeps\", which sounds formal and a little old; in conversation people more often say \"You are who you hang out with\" or quote \"Birds of a feather...\". «En casa de herrero, cuchillo de palo» is \"The cobbler's children go barefoot\" (also \"the shoemaker's children\"): the blacksmith becomes a shoemaker.",
-          "Never translate the Spanish image word for word. *Who gets up early, God helps him is not English, and an English listener will not recognise it as a proverb at all.",
+          "Never translate the Spanish image word for word. *Who gets up early, God helps him is not English, and an English listener will not recognize it as a proverb at all.",
         ],
         examples: [
           { es: "The early bird catches the worm.", en: "A quien madruga, Dios le ayuda." },
@@ -788,7 +788,7 @@ export const EN_C2_U05: Lesson[] = [
             source: "Cuando el río suena, agua lleva.",
             answer: "Where there's smoke, there's fire.",
             altAnswers: ["There's no smoke without fire.", "No smoke without fire."],
-            explanation: "English swaps the noisy river for smoke: if there is a rumour, there is probably some truth in it.",
+            explanation: "English swaps the noisy river for smoke: if there is a rumor, there is probably some truth in it.",
           },
         ],
       },
@@ -873,7 +873,7 @@ export const EN_C2_U05: Lesson[] = [
         sentence: "It's a free upgrade, so stop complaining. Don't look a gift horse ___.",
         answer: "in the mouth",
         en: "Es una mejora gratis, así que deja de quejarte. A caballo regalado [no le mires el diente].",
-        explanation: "English looks in the horse's mouth rather than at its tooth, but the idea is identical: do not criticise a gift.",
+        explanation: "English looks in the horse's mouth rather than at its tooth, but the idea is identical: do not criticize a gift.",
       },
       {
         type: "translate",
@@ -944,7 +944,7 @@ export const EN_C2_U05: Lesson[] = [
           "It started a long time ago.",
         ],
         correctIndex: 0,
-        explanation: "\"There's no smoke without fire\" = «Cuando el río suena, agua lleva»: a rumour usually has some basis.",
+        explanation: "\"There's no smoke without fire\" = «Cuando el río suena, agua lleva»: a rumor usually has some basis.",
       },
       {
         type: "write",
@@ -1122,7 +1122,7 @@ export const EN_C2_U05: Lesson[] = [
           "Every cloud has a silver lining, as says the saying.",
         ],
         correctIndex: 0,
-        explanation: "Shortened and hedged with \"as they say\", the proverb sounds current. The second option is pompous, and the others contain calques from Spanish.",
+        explanation: "Shortened and hedged with \"as they say\", the proverb sounds current. \"As the ancient proverb wisely states\" is pompous, and the \"Like the proverb says\" and \"as says the saying\" versions contain calques from Spanish.",
       },
       {
         type: "translate",
@@ -1188,7 +1188,7 @@ export const EN_C2_U05: Lesson[] = [
           "Ironically, because the phrase is a well-worn cliche.",
           "Seriously, to claim the phrase as their own.",
           "To show they are quoting a specific book.",
-          "To criticise someone else's choice of words.",
+          "To criticize someone else's choice of words.",
         ],
         correctIndex: 0,
         explanation: "\"To coin a phrase\" after a cliche is a wink: the speaker knows the saying is anything but original.",
@@ -1327,7 +1327,7 @@ export const EN_C2_U05: Lesson[] = [
               "Every cloud has a silver lining.",
             ],
             correctIndex: 0,
-            explanation: "With grief, a proverb must not hurry or dismiss the reader. The first option is gentle and gives permission; the others sound brisk or even cruel.",
+            explanation: "With grief, a proverb must not hurry or dismiss the reader. \"There's no timetable for grief\" is gentle and gives permission; the others sound brisk or even cruel.",
           },
         ],
       },
@@ -1515,7 +1515,7 @@ export const EN_C2_U05: Lesson[] = [
         body: [
           "In real conversation, idioms and proverbs mix freely, and proverbs are usually cut short. Read this exchange: \"I've applied for twelve jobs and heard nothing.\" \"Well, Rome wasn't built in a day.\" \"I know, but I'm running out of steam.\" \"Keep going. The early bird...\" \"...and all that, yes.\"",
           "\"...and all that\" is a handy way to finish someone else's half-proverb without repeating it. \"Rome wasn't built in a day\" matches «No se ganó Zamora en una hora»; \"run out of steam\" is «quedarse sin fuerzas».",
-          "When a Spanish refrán comes to mind mid-conversation, reach for the English equivalent if there is one, or paraphrase it if there isn't. A quick check: would an English speaker recognise the image? If not, translate the meaning, not the picture.",
+          "When a Spanish refrán comes to mind mid-conversation, reach for the English equivalent if there is one, or paraphrase it if there isn't. A quick check: would an English speaker recognize the image? If not, translate the meaning, not the picture.",
         ],
         examples: [
           { es: "Rome wasn't built in a day.", en: "No se ganó Zamora en una hora." },
@@ -1878,7 +1878,7 @@ export const EN_C2_U05: Lesson[] = [
         type: "multiple-choice",
         question: "Which is the best equivalent of «Ojos que no ven, corazón que no siente»?",
         options: [
-          "What the eye doesn't see, the heart doesn't grieve over.",
+          "What you don't know can't hurt you.",
           "Out of sight, out of mind.",
           "Love is blind.",
           "Seeing is believing.",

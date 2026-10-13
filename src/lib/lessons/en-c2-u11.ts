@@ -99,7 +99,7 @@ export const EN_C2_U11: Lesson[] = [
         ],
         examples: [
           { es: "The eventual winner was a 17-year-old.", en: "Quien acabó ganando fue un chico de 17 años." },
-          { es: "The actual cost was twice the estimate.", en: "El coste real fue el doble de lo previsto." },
+          { es: "The actual cost was twice the estimate.", en: "El costo real fue el doble de lo previsto." },
           { es: "That's a very sensible decision.", en: "Es una decisión muy sensata." },
           { es: "He's a notorious liar.", en: "Es un mentiroso de sobra conocido. (connotación negativa)" },
           { es: "There were no casualties.", en: "No hubo víctimas (ni muertos ni heridos)." },
@@ -110,7 +110,7 @@ export const EN_C2_U11: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "El coste real fue el doble de lo previsto.",
+            source: "El costo real fue el doble de lo previsto.",
             answer: "The actual cost was twice the estimate.",
             altAnswers: [
               "The actual cost was double the estimate.",
@@ -359,7 +359,7 @@ export const EN_C2_U11: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "A professor writes: \"Smith's argument is elegant, rigorous and, frankly, a load of rubbish.\" What does the shift at the end signal?",
+            question: "A professor writes: \"Smith's argument is elegant, rigorous and, frankly, a load of garbage.\" What does the shift at the end signal?",
             options: [
               "Her real, strongly negative opinion, delivered with humor",
               "That she fully agrees with Smith",
@@ -367,7 +367,7 @@ export const EN_C2_U11: Lesson[] = [
               "That she has misunderstood Smith",
             ],
             correctIndex: 0,
-            explanation: "The formal praise sets up an expectation; \"frankly\" and the slang \"a load of rubbish\" break it. The drop in register is where her real opinion lies.",
+            explanation: "The formal praise sets up an expectation; \"frankly\" and the slang \"a load of garbage\" break it. The drop in register is where her real opinion lies.",
           },
           {
             type: "translate",
@@ -406,7 +406,7 @@ export const EN_C2_U11: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Your flatmate usually texts you things like \"hey u ok?\". Today she writes: \"I would be grateful if you could clean the kitchen at your earliest convenience.\" What is she telling you?",
+            question: "Your roommate usually texts you things like \"hey u ok?\". Today she writes: \"I would be grateful if you could clean the kitchen at your earliest convenience.\" What is she telling you?",
             options: ["She is annoyed with you.", "She is in a hurry to go out.", "She has decided to be more polite from now on.", "She is practicing her formal English."],
             correctIndex: 0,
             explanation: "The jump from her usual casual style to office-letter formality creates distance. Between friends, sudden formality almost always signals irritation.",
@@ -436,18 +436,18 @@ export const EN_C2_U11: Lesson[] = [
       {
         heading: "Reading the relationship",
         body: [
-          "Register also tells you about the relationship between people, and how it changes. In a novel or a meeting, notice when someone moves from \"Mr Hughes\" to \"David\", or from \"Would you mind...?\" to \"Can you...?\", or the other way round. Moving down usually means growing closeness; moving up, a cooling or a conflict.",
+          "Register also tells you about the relationship between people, and how it changes. In a novel or a meeting, notice when someone moves from \"Mr. Hughes\" to \"David\", or from \"Would you mind...?\" to \"Can you...?\", or the other way round. Moving down usually means growing closeness; moving up, a cooling or a conflict.",
           "When you spot a shift, ask three questions. Is it deliberate? Who is it aimed at? What attitude does it reveal: humor, contempt, affection, anger? The answer is often the real point of the passage, and Mastery comprehension questions love to test it.",
         ],
         examples: [
-          { es: "Mr Hughes, could I possibly have a word?", en: "Señor Hughes, ¿podría hablar un momento con usted?" },
+          { es: "Mr. Hughes, could I possibly have a word?", en: "Señor Hughes, ¿podría hablar un momento con usted?" },
           { es: "David, got a sec?", en: "David, ¿tienes un segundo?" },
           { es: "Right, listen up, everyone.", en: "A ver, escuchen todos." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "In a novel, a character who has called her boss \"Jim\" for years suddenly writes to him: \"Dear Mr Carter, I hereby tender my resignation.\" What does the shift most likely show?",
+            question: "In a novel, a character who has called her boss \"Jim\" for years suddenly writes to him: \"Dear Mr. Carter, I hereby tender my resignation.\" What does the shift most likely show?",
             options: ["The relationship has broken down.", "She has just been promoted.", "She has forgotten his first name.", "She is joking with him."],
             correctIndex: 0,
             explanation: "Moving from a first name to a title plus ultra-formal phrasing (\"hereby tender\") marks a cold, final distance between them.",
@@ -476,7 +476,7 @@ export const EN_C2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence would you expect on a notice in an upmarket hotel?",
+        question: "Which sentence would you expect on a notice in an upscale hotel?",
         options: [
           "Guests are kindly reminded that breakfast ends at ten.",
           "Just so you know, breakfast is done at ten.",
@@ -587,7 +587,7 @@ export const EN_C2_U11: Lesson[] = [
           "Makes the complaint clear without insults",
           "States what you expect to happen next",
         ],
-        modelAnswer: "Dear Laura,\n\nI wanted to thank you for presenting the quarterly analysis at yesterday's meeting. I was, however, somewhat surprised to note that my name was not mentioned, as was also the case in March. I would appreciate it if, in future, the authorship of any material I have prepared could be acknowledged. I trust this will not present any difficulty.\n\nKind regards,\nDiego",
+        modelAnswer: "Dear Laura,\n\nI wanted to thank you for presenting the quarterly analysis at yesterday's meeting. I was, however, somewhat surprised to note that my name was not mentioned, as was also the case in March. I would appreciate it if, in the future, the authorship of any material I have prepared could be acknowledged. I trust this will not present any difficulty.\n\nKind regards,\nDiego",
         explanation: "The irritation lies in the gap between the cold, formal language and the friendly relationship. \"I trust this will not present any difficulty\" is polite on the surface and firm underneath.",
       },
       {
@@ -837,7 +837,7 @@ export const EN_C2_U11: Lesson[] = [
       {
         type: "speak",
         text: "I should've known you'd be here.",
-        tip: "Say \"should've\" as one weak syllable plus a schwa (SHUD-əv), and link \"known you'd\" smoothly. Stress \"known\" and \"here\".",
+        tip: "Say \"should've\" as two quick syllables, the second just a schwa (SHUD-əv), and link \"known you'd\" smoothly. Stress \"known\" and \"here\".",
         explanation: "Producing the reductions yourself is the fastest way to start hearing them.",
       },
     ],
@@ -1916,7 +1916,7 @@ export const EN_C2_U11: Lesson[] = [
       {
         type: "speak",
         text: "What are you going to do about it?",
-        tip: "Try the natural fast version: \"whaddaya gonna do aboudit\". Stress only \"what\", \"do\" and \"it\".",
+        tip: "Try the natural fast version: \"whaddaya gonna do aboudit\". Stress only \"what\" and, most strongly, \"do\"; \"about it\" stays light.",
         explanation: "Saying the reduced form aloud trains your ear to recognize it at full speed.",
       },
     ],
@@ -1936,7 +1936,7 @@ export const EN_C2_U11: Lesson[] = [
         heading: "Weak forms: let the small words shrink",
         body: [
           "Spanish is syllable-timed: every syllable takes roughly the same time, and «de», «a» and «para» keep their full vowels. English is stress-timed: the stressed syllables come at fairly regular intervals and everything in between is squeezed. To make that work, grammar words use weak forms with a schwa /ə/.",
-          "The most important weak forms: \"to\" /tə/, \"for\" /fə/, \"of\" /əv/ (often just /ə/), \"and\" /ən/ or /n/, \"can\" /kən/, \"was\" /wəz/, \"were\" /wə/, \"at\" /ət/, \"from\" /frəm/, \"them\" /ðəm/, \"some\" /səm/, \"a\" /ə/, \"the\" /ðə/. In \"a cup of tea\" only \"cup\" and \"tea\" are strong: a CUP ə TEA.",
+          "The most important weak forms: \"to\" /tə/, \"for\" /fər/ (British /fə/), \"of\" /əv/ (often just /ə/), \"and\" /ən/ or /n/, \"can\" /kən/, \"was\" /wəz/, \"were\" /wər/ (British /wə/), \"at\" /ət/, \"from\" /frəm/, \"them\" /ðəm/, \"some\" /səm/, \"a\" /ə/, \"the\" /ðə/. In \"a cup of tea\" only \"cup\" and \"tea\" are strong: a CUP ə TEA.",
           "Use the strong form when the word is stressed for contrast or comes at the end of a sentence: \"Where are you FROM?\" /frɒm/ or /frʌm/, \"Yes, I CAN\" /kæn/, \"It's FOR you, not FROM you\". Saying \"I can swim\" with a full /kæn/ can even be misheard as \"I can't swim\" in American English.",
         ],
         examples: [
@@ -2017,7 +2017,7 @@ export const EN_C2_U11: Lesson[] = [
           { es: "They live next door.", en: "Viven en la casa de al lado. (nex door)" },
           { es: "I went out last night.", en: "Salí anoche. (las night)" },
           { es: "There were ten boys in the green park.", en: "Había diez chicos en el parque verde. (tem boys, greem park)" },
-          { es: "Did you see that?", en: "¿Has visto eso? (didja)" },
+          { es: "Did you see that?", en: "¿Viste eso? (didja)" },
           { es: "Would you like a sandwich?", en: "¿Quieres un sándwich? (wouldja, sanwich)" },
         ],
         checkpoint: [
@@ -2060,14 +2060,14 @@ export const EN_C2_U11: Lesson[] = [
         body: [
           "The extra e: Spanish words can't begin with s + consonant, so Spanish speakers add a vowel: *Espain, *espeak, *estudent, *eschool. This adds a syllable and breaks the rhythm. Trick: link the s to the previous word. \"I'm from Spain\" → I'm from-Spain, with the s straight after \"from\", or start with a long hiss: sss-pain.",
           "Final consonant clusters: Spanish rarely ends words in two or three consonants, so learners drop or add sounds in \"months\", \"texts\", \"asked\", \"world\". Native speakers simplify too (\"texts\" often sounds like tex), but they never add a vowel. It is better to drop a t than to add an e.",
-          "Equal syllables: reading word by word, with every syllable full and the same length, is the strongest marker of a Spanish accent in English. Practice by tapping on the stressed syllables only and fitting the rest in between: \"I WANT tə GO tə thə BEACH ət the WEEKEND\".",
+          "Equal syllables: reading word by word, with every syllable full and the same length, is the strongest marker of a Spanish accent in English. Practice by tapping on the stressed syllables only and fitting the rest in between: \"I WANT tə GO tə thə BEACH ən thə WEEKEND\".",
         ],
         examples: [
           { es: "I'm from Spain, but I study in Scotland.", en: "Soy de España, pero estudio en Escocia. (sin e antes de s)" },
           { es: "She speaks Spanish at school.", en: "Habla español en el colegio. (sin e antes de s)" },
           { es: "I sent you three texts last month.", en: "Te envié tres mensajes el mes pasado." },
           { es: "He asked me about the world map.", en: "Me preguntó por el mapa del mundo." },
-          { es: "I want to go to the beach at the weekend.", en: "Quiero ir a la playa el fin de semana." },
+          { es: "I want to go to the beach on the weekend.", en: "Quiero ir a la playa el fin de semana." },
         ],
         checkpoint: [
           {
@@ -2709,7 +2709,7 @@ export const EN_C2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Read: \"The man helped by the volunteers was taken to hospital.\" Who helped whom?",
+        question: "Read: \"The man helped by the volunteers was taken to the hospital.\" Who helped whom?",
         options: ["The volunteers helped the man.", "The man helped the volunteers.", "The hospital helped the man.", "The man helped himself."],
         correctIndex: 0,
         explanation: "\"Helped by the volunteers\" is a reduced passive relative (\"who was helped by...\"). The main verb is \"was taken\".",
@@ -2816,7 +2816,7 @@ export const EN_C2_U11: Lesson[] = [
         ],
         examples: [
           { es: "Actually, the actual figure was lower.", en: "En realidad, la cifra real fue más baja." },
-          { es: "The eventual cost was enormous.", en: "El coste final fue enorme." },
+          { es: "The eventual cost was enormous.", en: "El costo final fue enorme." },
           { es: "He's fastidious about punctuation.", en: "Es muy meticuloso con la puntuación." },
         ],
         checkpoint: [
@@ -2845,7 +2845,7 @@ export const EN_C2_U11: Lesson[] = [
           "Ask what the shift reveals about the speaker's attitude and relationship: that is often the real point of the passage.",
         ],
         examples: [
-          { es: "How kind of you to join us.", en: "Qué amable por tu parte acompañarnos. (ironía, si llega tarde)" },
+          { es: "How kind of you to join us.", en: "Qué amable de tu parte acompañarnos. (ironía, si llega tarde)" },
           { es: "Long story short, it didn't work.", en: "En resumidas cuentas, no funcionó." },
           { es: "I would appreciate it if you could knock first.", en: "Te agradecería que llamaras antes de entrar. (molestia)" },
         ],
@@ -2868,7 +2868,7 @@ export const EN_C2_U11: Lesson[] = [
         examples: [
           { es: "Did you get the tickets?", en: "¿Conseguiste las entradas? (se oye \"didja\")" },
           { es: "I'm going to call you later.", en: "Te voy a llamar más tarde. (se oye \"gonna\")" },
-          { es: "Sorry, I didn't catch that.", en: "Perdona, no te he entendido." },
+          { es: "Sorry, I didn't catch that.", en: "Perdona, no te entendí." },
         ],
         checkpoint: [
           {

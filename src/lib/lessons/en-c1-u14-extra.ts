@@ -17,7 +17,7 @@ export const EN_C1_U14_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: comma splices, semicolons and colons",
         body: [
-          "Spanish tolerates long chains of clauses joined by commas. English does not: two complete sentences joined only by a comma are a comma splice (*The data is old, we need a new survey). Fix it with a full stop, a semicolon, or a conjunction such as \"and\", \"but\" or \"so\".",
+          "Spanish tolerates long chains of clauses joined by commas. English does not: two complete sentences joined only by a comma are a comma splice (*The data is old, we need a new survey). Fix it with a period, a semicolon, or a conjunction such as \"and\", \"but\" or \"so\".",
           "\"However\", \"therefore\" and \"moreover\" are adverbs, not conjunctions, so they cannot join two clauses with a comma. Write \"...old; however, we...\" or \"...old. However, we...\", never *old, however we...",
           "A colon comes after a complete clause and introduces an explanation, an example or a list: \"There is only one option: to raise prices.\" Use semicolons to separate list items that already contain commas: \"Lima, Peru; Quito, Ecuador; and Bogota, Colombia\".",
         ],
@@ -39,7 +39,7 @@ export const EN_C1_U14_EXTRA: Lesson[] = [
               "The survey was small, however, the results were consistent.",
             ],
             correctIndex: 0,
-            explanation: "\"However\" cannot join two clauses with commas. Use a semicolon (or a full stop) before it and a comma after it.",
+            explanation: "\"However\" cannot join two clauses with commas. Use a semicolon (or a period) before it and a comma after it.",
           },
           {
             type: "multi-select",
@@ -60,7 +60,7 @@ export const EN_C1_U14_EXTRA: Lesson[] = [
         body: [
           "Non-defining clauses (extra information) go between commas and use \"who\" or \"which\", never \"that\": \"My sister, who lives in Toronto, is an engineer.\" Defining clauses (they identify which one) take no commas.",
           "Put a comma after an introductory phrase (\"In 2019, the company...\"), but never between a subject and its verb, however long the subject is, and never before \"that\" in reported speech: \"The report shows that sales have fallen\", not *shows, that.",
-          "English capitalises days, months, languages, nationalities and adjectives from them: \"Monday\", \"April\", \"a Spanish course\". Quotation marks are \"...\", not «...», and in American English the full stop or comma goes inside them: She said, \"We're ready.\"",
+          "English capitalizes days, months, languages, nationalities and adjectives from them: \"Monday\", \"April\", \"a Spanish course\". Quotation marks are \"...\", not «...», and in American English the period or comma goes inside them: She said, \"We're ready.\"",
         ],
         examples: [
           { es: "My sister, who lives in Toronto, is an engineer.", en: "Mi hermana, que vive en Toronto, es ingeniera." },
@@ -108,7 +108,7 @@ export const EN_C1_U14_EXTRA: Lesson[] = [
           "The train was late, however we missed the opening talk.",
         ],
         correctIndex: 0,
-        explanation: "Two complete sentences need a full stop, a semicolon or a conjunction. \"Therefore\" and \"however\" are adverbs, so a comma before them is not enough.",
+        explanation: "Two complete sentences need a period, a semicolon or a conjunction. \"Therefore\" and \"however\" are adverbs, so a comma before them is not enough.",
       },
       {
         type: "translate",
@@ -150,7 +150,7 @@ export const EN_C1_U14_EXTRA: Lesson[] = [
           "The project was costly. However, the board approved it.",
           "The project was costly. However, the board of directors approved it.",
         ],
-        explanation: "\"However\" after a semicolon or a full stop, with a comma after it. Joining with only commas (*expensive, however the board...) is a comma splice.",
+        explanation: "\"However\" after a semicolon or a period, with a comma after it. Joining with only commas (*expensive, however the board...) is a comma splice.",
       },
       {
         type: "multiple-choice",
@@ -511,7 +511,7 @@ export const EN_C1_U14_EXTRA: Lesson[] = [
     level: "EN-C1",
     number: 2,
     title: "Extra Practice: Saying It in Other Words",
-    summary: "Drill paraphrasing and summarising: change the word class, the voice or the structure while keeping the meaning, and report sources precisely with \"argue\", \"claim\", \"acknowledge\" and \"point out\" instead of \"says that\" every time.",
+    summary: "Drill paraphrasing and summarizing: change the word class, the voice or the structure while keeping the meaning, and report sources precisely with \"argue\", \"claim\", \"acknowledge\" and \"point out\" instead of \"says that\" every time.",
     duration: "12 min",
     sections: [
       {
@@ -553,7 +553,7 @@ export const EN_C1_U14_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: reporting verbs",
         body: [
-          "\"Says that\" for every source makes a summary flat. Choose the verb that shows the writer's position: \"argue\" or \"maintain\" (give reasons for a view), \"claim\" (state something that may not be true), \"acknowledge\" or \"concede\" (accept a point against you), \"point out\" (draw attention to a fact), \"conclude\" (reach a final judgement).",
+          "\"Says that\" for every source makes a summary flat. Choose the verb that shows the writer's position: \"argue\" or \"maintain\" (give reasons for a view), \"claim\" (state something that may not be true), \"acknowledge\" or \"concede\" (accept a point against you), \"point out\" (draw attention to a fact), \"conclude\" (reach a final judgment).",
           "All of these take \"that\" + clause: \"The authors acknowledge that the sample was small.\" \"Suggest\" takes \"that\" or -ing, but never *suggest to: \"They suggest using a larger sample.\"",
           "«Según el autor» is \"According to the author\", followed by the idea itself, not *According to the author, he says...",
         ],
@@ -1142,7 +1142,7 @@ export const EN_C1_U14_EXTRA: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Summarise this paragraph in your own words in 40-70 words, using at least two different reporting verbs: \"A recent study of 2,000 office workers found that people who worked from home two days a week reported less stress and slept longer. However, the authors note that participants chose their own schedules, so the results may not apply to everyone. They recommend further research with randomly assigned groups.\"",
+        prompt: "Summarize this paragraph in your own words in 40-70 words, using at least two different reporting verbs: \"A recent study of 2,000 office workers found that people who worked from home two days a week reported less stress and slept longer. However, the authors note that participants chose their own schedules, so the results may not apply to everyone. They recommend further research with randomly assigned groups.\"",
         minWords: 40,
         maxWords: 70,
         rubric: [
@@ -1151,7 +1151,7 @@ export const EN_C1_U14_EXTRA: Lesson[] = [
           "Uses at least two reporting verbs (\"find\", \"acknowledge\", \"point out\", \"suggest\", \"recommend\"...)",
           "Changes structures, not just single words (for example a noun instead of a verb, or a passive)",
         ],
-        modelAnswer: "According to a large study of office employees, working remotely for part of the week is linked to lower stress levels and more sleep. The researchers acknowledge, however, that the participants decided their own working patterns, which limits how far the findings can be generalised. They therefore suggest repeating the study with groups assigned at random.",
+        modelAnswer: "According to a large study of office employees, working remotely for part of the week is linked to lower stress levels and more sleep. The researchers acknowledge, however, that the participants decided their own working patterns, which limits how far the findings can be generalized. They therefore suggest repeating the study with groups assigned at random.",
         explanation: "The model keeps the finding and the limitation, uses \"acknowledge\" and \"suggest\", and rewrites the structures instead of swapping single words.",
       },
     ],

@@ -210,7 +210,7 @@ export const EN_C2_U18: Lesson[] = [
           "Since the spread of home working, people find it harder to tell where their job ends and their personal life begins.",
         ],
         correctIndex: 0,
-        explanation: "Only the first version has a new structure, the same meaning and a citation. The second and third are patchwriting; the fourth has no citation, so it plagiarizes the idea.",
+        explanation: "Only the \"Since the spread of home working\" version with (Ruiz, 2022) has a new structure, the same meaning and a citation. The two \"blurred... boundary/line\" versions are patchwriting, and the uncited version plagiarizes the idea.",
       },
       {
         type: "fill-blank",
@@ -341,7 +341,7 @@ export const EN_C2_U18: Lesson[] = [
           "Everything that merely supports the claim (examples, anecdotes, statistics, repetitions, digressions) is a candidate for deletion. Keep a figure only if the argument depends on it.",
         ],
         examples: [
-          { es: "The main claim is that four-day weeks raise productivity without raising costs.", en: "La idea principal es que la semana de cuatro días aumenta la productividad sin aumentar los costes." },
+          { es: "The main claim is that four-day weeks raise productivity without raising costs.", en: "La idea principal es que la semana de cuatro días aumenta la productividad sin aumentar los costos." },
           { es: "The case studies are there to support the claim, not to be summarized.", en: "Los estudios de caso están para respaldar la tesis, no para resumirse." },
           { es: "In a nutshell, the author argues that cities should be designed for pedestrians.", en: "En pocas palabras, el autor sostiene que las ciudades deberían diseñarse para los peatones." },
           { es: "The article boils down to one idea: prevention is cheaper than cure.", en: "El artículo se reduce a una idea: más vale prevenir que curar." },
@@ -363,7 +363,7 @@ export const EN_C2_U18: Lesson[] = [
               "In a summary, examples and anecdotes are usually not needed.",
               "Examples and anecdotes are usually unnecessary in a summary.",
             ],
-            explanation: "«Sobrar» in this sense is \"to be unnecessary\" or \"superfluous\", or \"can be left out\". Generalisations in English drop the article: \"examples and anecdotes\". Note that «resumen» is \"summary\", never \"resume\", which is a CV in American English.",
+            explanation: "«Sobrar» in this sense is \"to be unnecessary\" or \"superfluous\", or \"can be left out\". Generalizations in English drop the article: \"examples and anecdotes\". Note that «resumen» is \"summary\", never \"resume\", which is a CV in American English.",
           },
         ],
       },
@@ -519,7 +519,7 @@ export const EN_C2_U18: Lesson[] = [
           "Lopez (2023) argues that remote work benefits working parents.",
         ],
         correctIndex: 0,
-        explanation: "The summary must keep the key qualification (\"only where employers offer flexible hours\"). The last option drops it; the second overstates; the third reports an example instead of the claim.",
+        explanation: "The summary must keep the key qualification (\"only where employers offer flexible hours\"). Dropping it distorts the claim; saying the article \"proves\" remote work is \"good for everyone\" overstates it; describing one interviewed mother reports an example instead of the claim.",
       },
       {
         type: "translate",
@@ -579,7 +579,7 @@ export const EN_C2_U18: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Summarize the following text in ONE sentence of 25 to 40 words, using an appropriate reporting verb and keeping the key qualification. Text (Novak, 2022): \"Over the past decade, many cities have introduced bike-sharing schemes. In Paris, for instance, usage tripled between 2015 and 2020. Our analysis of 40 European cities shows that such schemes reduce short car journeys, but only where they are combined with protected bike lanes. In cities without safe infrastructure, the schemes mostly replace walking or public transport rather than driving.\"",
+        prompt: "Summarize the following text in ONE sentence of 25 to 40 words, using an appropriate reporting verb and keeping the key qualification. Text (Novak, 2022): \"Over the past decade, many cities have introduced bike-sharing programs. In Paris, for instance, usage tripled between 2015 and 2020. Our analysis of 40 European cities shows that such schemes reduce short car journeys, but only where they are combined with protected bike lanes. In cities without safe infrastructure, the schemes mostly replace walking or public transport rather than driving.\"",
         minWords: 25,
         maxWords: 40,
         rubric: [
@@ -663,7 +663,7 @@ export const EN_C2_U18: Lesson[] = [
         examples: [
           { es: "The literature falls into two broad strands.", en: "La bibliografía se divide en dos grandes líneas." },
           { es: "This review is organized around three themes.", en: "Esta revisión se organiza en torno a tres temas." },
-          { es: "A second strand of research examines the cost of treatment.", en: "Una segunda línea de investigación examina el coste del tratamiento." },
+          { es: "A second strand of research examines the cost of treatment.", en: "Una segunda línea de investigación examina el costo del tratamiento." },
           { es: "Early studies focused almost exclusively on urban schools.", en: "Los primeros estudios se centraron casi exclusivamente en las escuelas urbanas." },
           { es: "More recent work has shifted attention to rural areas.", en: "Los trabajos más recientes han desplazado la atención hacia las zonas rurales." },
         ],
@@ -695,7 +695,7 @@ export const EN_C2_U18: Lesson[] = [
       {
         heading: "Identifying the gap",
         body: [
-          "The core of a literature review is the gap: what previous research has missed, got wrong or left unresolved. English has a fixed repertoire for it: \"Little attention has been paid to...\", \"...has received scant attention\", \"...remains poorly understood\", \"...has yet to be examined\", \"To date, no study has...\", \"Few studies have...\".",
+          "The core of a literature review is the gap: what previous research has missed, gotten wrong or left unresolved. English has a fixed repertoire for it: \"Little attention has been paid to...\", \"...has received scant attention\", \"...remains poorly understood\", \"...has yet to be examined\", \"To date, no study has...\", \"Few studies have...\".",
           "Notice the tense: the present perfect (\"has been paid\", \"have examined\") links past research to the present situation. For one specific study, use the past (\"Smith (2015) found...\"); for current consensus, the present (\"It is widely accepted that...\").",
           "Watch two traps. \"Few studies\" (almost none) is not \"a few studies\" (some). And «se ha prestado poca atención» needs the preposition \"to\": attention is paid to something.",
         ],
@@ -886,7 +886,7 @@ export const EN_C2_U18: Lesson[] = [
           "Several studies had linked noise to poor sleep; Kim (2019), for example, has been finding that night traffic doubled awakenings.",
         ],
         correctIndex: 0,
-        explanation: "The present perfect sums up a body of research that is still relevant (\"have linked\"); the past reports a specific dated study (\"Kim (2019) found\"). A date in brackets rules out the present perfect.",
+        explanation: "The present perfect sums up a body of research that is still relevant (\"have linked\"); the past reports a specific dated study (\"Kim (2019) found\"). A specific dated study is normally reported in the past.",
       },
       {
         type: "translate",
@@ -934,7 +934,7 @@ export const EN_C2_U18: Lesson[] = [
         examples: [
           { es: "Smith (2015) found that homework improves results. Jones (2018) found that homework has no effect.", en: "Descripción: dos fuentes yuxtapuestas." },
           { es: "Evidence on homework is mixed: while Smith (2015) reports gains, Jones (2018) finds no effect.", en: "Síntesis: una idea y dos fuentes relacionadas. (Los datos sobre las tareas escolares no son concluyentes.)" },
-          { es: "The discrepancy may reflect differences in the age of the pupils studied.", en: "La discrepancia puede deberse a la diferencia de edad de los alumnos estudiados." },
+          { es: "The discrepancy may reflect differences in the age of the students studied.", en: "La discrepancia puede deberse a la diferencia de edad de los alumnos estudiados." },
           { es: "A synthesis grid lists sources in rows and themes in columns.", en: "Una tabla de síntesis pone las fuentes en filas y los temas en columnas." },
         ],
         checkpoint: [
@@ -948,7 +948,7 @@ export const EN_C2_U18: Lesson[] = [
               "Another study on this topic is Chen (2021).",
             ],
             correctIndex: 0,
-            explanation: "The first sentence relates two sources: a point of agreement (longer hours) and a point of disagreement (well-being). The others describe a single source in isolation.",
+            explanation: "The sentence about Ortiz and Chen relates two sources: a point of agreement (longer hours) and a point of disagreement (well-being). The others describe a single source in isolation.",
           },
         ],
       },
@@ -1213,7 +1213,7 @@ export const EN_C2_U18: Lesson[] = [
               "Higher education should not have been expanded.",
             ],
             correctIndex: 0,
-            explanation: "The \"although\" clause is a concession and the \"since\" clause is the reason; the main clause carries the claim. The last option is not in the source at all.",
+            explanation: "The \"although\" clause is a concession and the \"since\" clause is the reason; the main clause carries the claim. The idea that higher education should not have been expanded is not in the source at all.",
           },
           {
             type: "translate",
@@ -1300,7 +1300,7 @@ export const EN_C2_U18: Lesson[] = [
               "While more low-income students now reach university, employers' preference for a few elite institutions means graduates' earnings remain largely unequal.",
             ],
             correctIndex: 0,
-            explanation: "The first keeps all three parts, the same strength and the citation. The second exaggerates, the third is patchwriting, and the fourth has no citation.",
+            explanation: "The \"contends that while...\" version keeps all three parts, the same strength and the citation. \"Completely failed\" exaggerates, the \"Although the growth...\" version is patchwriting, and the identical version without \"Haddad (2020) contends\" has no citation.",
           },
         ],
       },
@@ -1391,9 +1391,9 @@ export const EN_C2_U18: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["Opening", "university", "to", "poorer", "students", "has", "barely", "reduced", "the", "gap."],
+        words: ["Opening", "universities", "to", "poorer", "students", "has", "barely", "reduced", "the", "gap."],
         translation: "Abrir la universidad a estudiantes con menos recursos apenas ha reducido la brecha.",
-        explanation: "An -ing clause (\"Opening university to poorer students\") works as the subject; \"barely\" goes between the auxiliary and the participle.",
+        explanation: "An -ing clause (\"Opening universities to poorer students\") works as the subject; \"barely\" goes between the auxiliary and the participle.",
       },
       {
         type: "translate",
@@ -1501,7 +1501,7 @@ export const EN_C2_U18: Lesson[] = [
         body: [
           "A colon comes after a complete clause and announces what follows: an explanation, a list, a quotation or a striking conclusion. \"There was only one problem: nobody had read the report.\" The test: the words before the colon must be able to stand as a sentence. So no colon after \"such as\", \"include\" or a verb: *The team includes: Ana, Tom and Emma.",
           "Spanish uses a colon after the greeting in letters («Estimada Sra. López:»). In American business letters a colon is also used (\"Dear Ms. Lopez:\"), but in emails and British English a comma is standard (\"Dear Ms Lopez,\").",
-          "The dash (—) sets off an interruption, an aside or a dramatic final element: \"The plan was simple — and doomed from the start.\" A pair of dashes works like brackets but with more emphasis. Remember that in English the dash is NOT used to introduce dialogue as the Spanish «raya» is; English dialogue goes in quotation marks.",
+          "The dash (—) sets off an interruption, an aside or a dramatic final element: \"The plan was simple — and doomed from the start.\" A pair of dashes works like parentheses but with more emphasis. Remember that in English the dash is NOT used to introduce dialogue as the Spanish «raya» is; English dialogue goes in quotation marks.",
         ],
         examples: [
           { es: "There was only one problem: nobody had read the report.", en: "Había un único problema: nadie había leído el informe." },
@@ -1521,7 +1521,7 @@ export const EN_C2_U18: Lesson[] = [
               "We visited cities such as: Rome and Paris.",
             ],
             correctIndex: 0,
-            explanation: "Only in the first does a complete clause come before the colon. After \"were\", \"includes\" and \"such as\" the sentence is unfinished, so no colon.",
+            explanation: "Only in \"She had one ambition\" does a complete clause come before the colon. After \"were\", \"includes\" and \"such as\" the sentence is unfinished, so no colon.",
           },
         ],
       },
@@ -1530,7 +1530,7 @@ export const EN_C2_U18: Lesson[] = [
         body: [
           "Commas around a relative clause change what it means. \"My brother who lives in Lima is a doctor\" (defining: I have more than one brother; this one lives in Lima). \"My brother, who lives in Lima, is a doctor\" (non-defining: I have one brother, and by the way he lives in Lima). Spanish works the same way, but learners often leave the commas out in English.",
           "The Oxford (or serial) comma is the comma before \"and\" in a list of three or more: \"red, white, and blue\". American style guides usually use it; British writers often don't. Use it when it removes ambiguity: \"I'd like to thank my parents, Ana Ruiz, and God\" (three people) versus \"my parents, Ana Ruiz and God\" (which can read as if Ana Ruiz and God were the parents).",
-          "Quotations: English uses \"double quotes\" (US) or 'single quotes' (UK), never «comillas latinas». A short quotation is introduced by a comma, a longer or more formal one by a colon. In American English, commas and full stops go inside the closing quotation mark: \"I disagree,\" she said.",
+          "Quotations: English uses \"double quotes\" (US) or 'single quotes' (UK), never «comillas latinas». A short quotation is introduced by a comma, a longer or more formal one by a colon. In American English, commas and periods go inside the closing quotation mark: \"I disagree,\" she said.",
         ],
         examples: [
           { es: "The students who passed the exam received a certificate.", en: "Los estudiantes que aprobaron el examen recibieron un certificado. (solo esos)" },
@@ -2095,7 +2095,7 @@ export const EN_C2_U18: Lesson[] = [
               "the committee which the report was sent",
             ],
             correctIndex: 0,
-            explanation: "After a preposition: \"which\" for things, \"whom\" for people. \"That\" can never follow a preposition, and the last option has lost the preposition.",
+            explanation: "After a preposition: \"which\" for things, \"whom\" for people. \"That\" can never follow a preposition, and \"the committee which the report was sent\" has lost the preposition.",
           },
         ],
       },
@@ -2147,15 +2147,15 @@ export const EN_C2_U18: Lesson[] = [
       {
         heading: "Whereby, whose for things, and which for a whole clause",
         body: [
-          "\"Whereby\" («mediante el cual», «por el que») introduces a system, arrangement or process: \"a scheme whereby employees can buy shares\". It is formal and very common in academic and legal English.",
+          "\"Whereby\" («mediante el cual», «por el que») introduces a system, arrangement or process: \"a program whereby employees can buy shares\". It is formal and very common in academic and legal English.",
           "\"Whose\" works for things as well as people: \"a theory whose implications are still debated\", \"a city whose population has doubled\". Spanish speakers often avoid it and write the clumsy *the implications of which theory or *a city that its population.",
           "When the relative refers to a whole clause, English uses \", which\": \"He resigned without notice, which surprised everyone.\" This is the most important Spanish-speaker error in the lesson: «lo que» is NOT *what here. \"What\" means «lo que» only at the start of a noun clause with no antecedent: \"What surprised everyone was his silence.\"",
         ],
         examples: [
-          { es: "The company introduced a scheme whereby staff can work from abroad.", en: "La empresa introdujo un sistema mediante el cual el personal puede trabajar desde el extranjero." },
+          { es: "The company introduced a program whereby staff can work from abroad.", en: "La empresa introdujo un sistema mediante el cual el personal puede trabajar desde el extranjero." },
           { es: "It is a theory whose implications are still debated.", en: "Es una teoría cuyas implicaciones todavía se debaten." },
           { es: "This is a city whose population has doubled in twenty years.", en: "Es una ciudad cuya población se ha duplicado en veinte años." },
-          { es: "He resigned without notice, which surprised everyone.", en: "Dimitió sin previo aviso, lo que sorprendió a todos." },
+          { es: "He resigned without notice, which surprised everyone.", en: "Renunció sin previo aviso, lo que sorprendió a todos." },
           { es: "What surprised everyone was his silence.", en: "Lo que sorprendió a todos fue su silencio." },
           { es: "The results were inconclusive, which is why we repeated the trial.", en: "Los resultados no fueron concluyentes, por lo que repetimos el ensayo." },
         ],
@@ -2358,7 +2358,7 @@ export const EN_C2_U18: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["The", "talks", "may", "collapse,", "in", "which", "case", "prices", "will", "rise"],
+        words: ["The", "talks", "may", "collapse,", "in", "which", "case", "prices", "will", "rise."],
         translation: "Puede que las negociaciones fracasen, en cuyo caso los precios subirán.",
         explanation: "\"In which case\" follows a comma and introduces the consequence of the situation just described.",
       },
@@ -2490,13 +2490,14 @@ export const EN_C2_U18: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "Para cubrir esta laguna, este estudio examina a alumnos de secundaria durante dos cursos escolares.",
-            answer: "To address this gap, the present study examines secondary pupils over two school years.",
+            answer: "To address this gap, the present study examines secondary school students over two school years.",
             altAnswers: [
               "To address this gap, this study examines secondary pupils over two school years.",
               "To fill this gap, the present study examines secondary pupils over two school years.",
               "To fill this gap, this study examines secondary pupils over two school years.",
               "To address this gap, the present study examines secondary school pupils over two school years.",
-              "To address this gap, the present study examines secondary school students over two school years.",
+              "To address this gap, the present study examines secondary pupils over two school years.",
+              "To address this gap, the present study examines high school students over two school years.",
               "To address this gap, the present study examines secondary students over two school years.",
               "To fill this gap, this study examines secondary school students over two school years.",
               "To address this gap, the present study examines secondary pupils over two academic years.",
@@ -2569,7 +2570,7 @@ export const EN_C2_U18: Lesson[] = [
           "In 2016, Green wrote an article. In 2018, Alvarez wrote another one.",
         ],
         correctIndex: 0,
-        explanation: "The first option states the theme and the consensus, with a fair hedge. The others are source-by-source description or contain the *a research / *researches errors.",
+        explanation: "\"A growing body of research suggests...\" states the theme and the consensus, with a fair hedge. The others are source-by-source description or contain the *a research / *researches errors.",
       },
       {
         type: "translate",
@@ -2765,7 +2766,7 @@ export const EN_C2_U18: Lesson[] = [
           "The island now depends heavily on tourism, a shift that has come at a high environmental price.",
         ],
         correctIndex: 0,
-        explanation: "The first version changes the structure, keeps both the claim and the cost, and cites the source. The second and third are patchwriting; the fourth has no citation.",
+        explanation: "\"According to Silva (2019)...\" changes the structure, keeps both the claim and the cost, and cites the source. The two versions that begin \"Tourism has...\" are patchwriting; the version without \"According to Silva\" has no citation.",
       },
       {
         type: "translate",

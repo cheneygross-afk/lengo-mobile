@@ -56,12 +56,12 @@ export const EN_C1_U13_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: references, requests, attachments and the last line",
         body: [
-          "To refer to earlier contact, use \"With regard to\" or \"Regarding\" + noun (\"With regard to your enquiry\"), or \"Further to\" + an earlier conversation or email (\"Further to our call this morning\"). \"Further to\" is formal British; \"Following\" works everywhere. Avoid *In relation with and *Referring to your email, which sound translated.",
+          "To refer to earlier contact, use \"With regard to\" or \"Regarding\" + noun (\"With regard to your inquiry\"), or \"Further to\" + an earlier conversation or email (\"Further to our call this morning\"). \"Further to\" is formal British; \"Following\" works everywhere. Avoid *In relation with and *Referring to your email, which sound translated.",
           "\"Attach\" does not take an indirect object: *I attach you the report is wrong. Say \"Please find attached the report\", \"I have attached the report\" or simply \"The report is attached\".",
           "For polite requests: \"I would be grateful if you could...\" or \"I would appreciate it if you could...\" (with \"it\"). Close with \"Please do not hesitate to contact me if...\" or \"I look forward to hearing from you.\"",
         ],
         examples: [
-          { es: "With regard to your enquiry, the course starts on May 4.", en: "Con respecto a su consulta, el curso empieza el 4 de mayo." },
+          { es: "With regard to your inquiry, the course starts on May 4.", en: "Con respecto a su consulta, el curso empieza el 4 de mayo." },
           { es: "Further to our call this morning, here are the figures.", en: "Tras nuestra llamada de esta mañana, le envío las cifras." },
           { es: "Please find attached the updated price list.", en: "Le adjunto la lista de precios actualizada. (incorrecto: *I attach you)" },
           { es: "I would appreciate it if you could reply by Friday.", en: "Le agradecería que respondiera antes del viernes." },
@@ -655,8 +655,8 @@ export const EN_C1_U13_EXTRA: Lesson[] = [
           "Mentions the attachment correctly (\"Please find attached...\", not *I attach you)",
           "Ends with \"I look forward to hearing from you.\" and a sign-off that matches the opening",
         ],
-        modelAnswer: "Dear Admissions Team,\n\nI am writing to enquire about your intensive summer course in English. I would be grateful if you could tell me the exact dates of the July and August sessions and the total price, including materials.\n\nI am currently at the Upper Intermediate level and would like to reach Advanced before applying to a university abroad. Please find attached my most recent certificate so that you can place me in the right group.\n\nCould you also let me know whether accommodation with a host family is available?\n\nThank you in advance for your help. I look forward to hearing from you.\n\nKind regards,\nAndrea Molina",
-        explanation: "A model of a short formal enquiry: clear purpose, polite requests, a correct attachment line and a closing that matches the opening.",
+        modelAnswer: "Dear Admissions Team,\n\nI am writing to inquire about your intensive summer course in English. I would be grateful if you could tell me the exact dates of the July and August sessions and the total price, including materials.\n\nI am currently at the Upper Intermediate level and would like to reach Advanced before applying to a university abroad. Please find attached my most recent certificate so that you can place me in the right group.\n\nCould you also let me know whether accommodation with a host family is available?\n\nThank you in advance for your help. I look forward to hearing from you.\n\nKind regards,\nAndrea Molina",
+        explanation: "A model of a short formal inquiry: clear purpose, polite requests, a correct attachment line and a closing that matches the opening.",
       },
     ],
   },

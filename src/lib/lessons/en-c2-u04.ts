@@ -84,7 +84,7 @@ export const EN_C2_U04: Lesson[] = [
             question: "Which passive sentence keeps its idiomatic meaning?",
             options: [
               "Strings were pulled to get her a place at the school.",
-              "The bucket was kicked by old Mr Jones last week.",
+              "The bucket was kicked by old Mr. Jones last week.",
               "My leg was pulled by my cousin all evening.",
               "A candle can't be held to the original film.",
             ],
@@ -106,7 +106,7 @@ export const EN_C2_U04: Lesson[] = [
         heading: "Register and attitude",
         body: [
           "Every idiom carries a register and an attitude, and choosing the wrong one is a Mastery mistake even when the meaning is right. \"Kick the bucket\" is flippant: perfect for a dead lawnmower or a joke, offensive in a condolence card, where you need \"pass away\" or simply \"die\". Spanish has the same scale: «estirar la pata» versus «fallecer».",
-          "Attitude matters as much as formality. \"Jump on the bandwagon\" («subirse al carro») is always critical: it implies that people join something because it is fashionable, not because they believe in it. \"Cut corners\" criticises saving time or money at the expense of quality, and \"a wet blanket\" («un aguafiestas») is an insult. Compare idioms with a positive attitude, such as \"go the extra mile\" («esforzarse más de lo exigido») or \"break new ground\".",
+          "Attitude matters as much as formality. \"Jump on the bandwagon\" («subirse al carro») is always critical: it implies that people join something because it is fashionable, not because they believe in it. \"Cut corners\" criticizes saving time or money at the expense of quality, and \"a wet blanket\" («un aguafiestas») is an insult. Compare idioms with a positive attitude, such as \"go the extra mile\" («esforzarse más de lo exigido») or \"break new ground\".",
           "Some idioms are neutral enough for journalism and business: \"a bone of contention\" («la manzana de la discordia»), \"the tip of the iceberg\", \"a level playing field\". Others are firmly informal: \"a piece of cake\", \"spill the beans\", \"be over the moon\".",
         ],
         examples: [
@@ -150,7 +150,7 @@ export const EN_C2_U04: Lesson[] = [
               "I don't want to jump on the bandwagon simply because everyone else is doing it.",
               "I don't want to jump on the bandwagon only because everyone else is doing it.",
             ],
-            explanation: "«Subirse al carro» is \"jump on the bandwagon\", with the same critical attitude: following the crowd rather than your own judgement.",
+            explanation: "«Subirse al carro» is \"jump on the bandwagon\", with the same critical attitude: following the crowd rather than your own judgment.",
           },
         ],
       },
@@ -203,7 +203,7 @@ export const EN_C2_U04: Lesson[] = [
           "Without evidence, the company doesn't have a case.",
           "Without proof, the company doesn't have a case.",
         ],
-        explanation: "\"Not have a leg to stand on\" means to have no valid argument or defence. It lives in the negative; *The company has a leg to stand on sounds wrong.",
+        explanation: "\"Not have a leg to stand on\" means to have no valid argument or defense. It lives in the negative; *The company has a leg to stand on sounds wrong.",
       },
       {
         type: "fill-blank",
@@ -236,7 +236,7 @@ export const EN_C2_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which idiom criticises people for following a trend without conviction?",
+        question: "Which idiom criticizes people for following a trend without conviction?",
         options: [
           "jump on the bandwagon",
           "break new ground",
@@ -335,7 +335,7 @@ export const EN_C2_U04: Lesson[] = [
     level: "EN-C2",
     number: 2,
     title: "Idioms, Part 2 of 3: the regional map",
-    summary: "British, American, Irish and Australian idioms: pairs that say the same thing with different words (take the biscuit / take the cake, a spanner / a monkey wrench), baseball idioms from the US, and local colour from Ireland and Australia. How to choose the right idiom for your audience.",
+    summary: "British, American, Irish and Australian idioms: pairs that say the same thing with different words (take the biscuit / take the cake, a spanner / a monkey wrench), baseball idioms from the US, and local color from Ireland and Australia. How to choose the right idiom for your audience.",
     duration: "12 min",
     sections: [
       {
@@ -399,7 +399,7 @@ export const EN_C2_U04: Lesson[] = [
         ],
         examples: [
           { es: "The product launch was a real home run.", en: "El lanzamiento del producto fue un éxito rotundo." },
-          { es: "Can you give me a ballpark figure for the renovation?", en: "¿Me puedes dar una cifra aproximada para la reforma?" },
+          { es: "Can you give me a ballpark figure for the renovation?", en: "¿Me puedes dar una cifra aproximada para la remodelación?" },
           { es: "If you think he did it for the money, you're way off base.", en: "Si crees que lo hizo por dinero, vas muy desencaminado." },
           { es: "When the manager quit, Lucia stepped up to the plate.", en: "Cuando el gerente dimitió, Lucia dio un paso al frente." },
           { es: "Her question came completely out of left field.", en: "Su pregunta salió de la nada." },
@@ -433,13 +433,13 @@ export const EN_C2_U04: Lesson[] = [
       {
         heading: "Ireland and Australia",
         body: [
-          "Irish English has its own idioms and set phrases. \"The craic\" (pronounced \"crack\") is fun and good company: \"The craic was mighty\" means the night was great fun. \"Giving out\" means complaining or scolding: \"My mother was giving out to me for coming home late\" («me estuvo echando la bronca»). \"Grand\" means fine or OK, often with reservations, and \"Sure look\" expresses resignation, roughly «qué le vamos a hacer».",
-          "Australian English is famous for colourful idioms. \"Fair dinkum\" means genuine, honest or true («auténtico», «de verdad»): \"He's a fair dinkum bloke\", or as a question, \"Fair dinkum?\" («¿en serio?»). \"She'll be right\" means everything will be fine («todo saldrá bien»). \"Flat out like a lizard drinking\" means extremely busy, and \"a few sandwiches short of a picnic\" (also British) means not very intelligent.",
+          "Irish English has its own idioms and set phrases. \"The craic\" (pronounced \"crack\") is fun and good company: \"The craic was mighty\" means the night was great fun. \"Giving out\" means complaining or scolding: \"My mother was giving out to me for coming home late\" («me estuvo regañando»). \"Grand\" means fine or OK, often with reservations, and \"Sure look\" expresses resignation, roughly «qué le vamos a hacer».",
+          "Australian English is famous for colorful idioms. \"Fair dinkum\" means genuine, honest or true («auténtico», «de verdad»): \"He's a fair dinkum bloke\", or as a question, \"Fair dinkum?\" («¿en serio?»). \"She'll be right\" means everything will be fine («todo saldrá bien»). \"Flat out like a lizard drinking\" means extremely busy, and \"a few sandwiches short of a picnic\" (also British) means not very intelligent.",
           "Use these with care. A Spanish speaker saying \"fair dinkum\" in London or Chicago sounds like someone imitating a film; in Sydney it may sound charming or forced. At the Mastery level your main goal with regional idioms is to understand them, and to produce them only when you are part of that community.",
         ],
         examples: [
           { es: "We went to the pub after the match and the craic was great.", en: "Fuimos al pub después del partido y lo pasamos genial. (irlandés)" },
-          { es: "My boss was giving out to me about the report all morning.", en: "Mi jefe estuvo echándome la bronca por el informe toda la mañana. (irlandés)" },
+          { es: "My boss was giving out to me about the report all morning.", en: "Mi jefe estuvo regañándome por el informe toda la mañana. (irlandés)" },
           { es: "Fair dinkum, mate, there was a kangaroo in the garden.", en: "En serio, amigo, había un canguro en el jardín. (australiano)" },
           { es: "Don't worry about the tent, she'll be right.", en: "No te preocupes por la tienda de campaña, todo saldrá bien. (australiano)" },
           { es: "I've been flat out like a lizard drinking all week.", en: "He estado a tope de trabajo toda la semana. (australiano, humorístico)" },
@@ -452,7 +452,7 @@ export const EN_C2_U04: Lesson[] = [
             options: [
               "¿En serio? ¿De verdad?",
               "¿Es justo?",
-              "¿Quedamos para cenar?",
+              "¿Nos vemos para cenar?",
               "¿Estás cansado?",
             ],
             correctIndex: 0,
@@ -462,7 +462,7 @@ export const EN_C2_U04: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into Irish English.",
-            source: "Mi madre me echó la bronca por llegar tarde a casa.",
+            source: "Mi madre me regañó por llegar tarde a casa.",
             answer: "My mother gave out to me for coming home late.",
             altAnswers: [
               "My mother was giving out to me for coming home late.",
@@ -482,7 +482,7 @@ export const EN_C2_U04: Lesson[] = [
         body: [
           "When you write for one country, use its variety: \"knock on wood\" and \"take the cake\" for a US client, \"touch wood\" and \"take the biscuit\" for a British one. Consistency matters as much as choice; switching between \"under the rug\" and \"under the carpet\" in the same email looks careless.",
           "When you write for an international audience (a global team, non-native colleagues, a conference), prefer idioms that are transparent and widely known, such as \"the tip of the iceberg\" or \"a win-win situation\", or skip the idiom altogether. Heavily local images like \"a sticky wicket\" (cricket) or \"out of left field\" (baseball) are a barrier for anyone who does not know the sport.",
-          "A practical rule: if you would need to explain the idiom to half your readers, choose a plain word instead. Clarity beats colour.",
+          "A practical rule: if you would need to explain the idiom to half your readers, choose a plain word instead. Clarity beats color.",
         ],
         examples: [
           { es: "So far the project is on schedule, touch wood.", en: "De momento el proyecto va según lo previsto, toco madera. (para un público británico)" },
@@ -562,7 +562,7 @@ export const EN_C2_U04: Lesson[] = [
           { left: "take the biscuit", right: "británico: ser el colmo" },
           { left: "she'll be right", right: "australiano: todo saldrá bien" },
         ],
-        explanation: "Recognising where an idiom comes from tells you when it is safe to use it and how it will sound to your listener.",
+        explanation: "Recognizing where an idiom comes from tells you when it is safe to use it and how it will sound to your listener.",
       },
       {
         type: "translate",
@@ -613,7 +613,7 @@ export const EN_C2_U04: Lesson[] = [
           "I'd take what he's saying with a pinch of salt.",
           "I'd take what she's saying with a grain of salt.",
         ],
-        explanation: "«Tomarse algo con pinzas» is \"take something with a pinch of salt\" (UK) or \"with a grain of salt\" (US): treat it with scepticism.",
+        explanation: "«Tomarse algo con pinzas» is \"take something with a pinch of salt\" (UK) or \"with a grain of salt\" (US): treat it with skepticism.",
       },
       {
         type: "listen-choose",
@@ -661,8 +661,8 @@ export const EN_C2_U04: Lesson[] = [
       {
         heading: "Twisted idioms in headlines",
         body: [
-          "Headline writers, especially in the British press, love to take a well-known idiom and swap one word for something topical. The reader recognises the original, notices the change and enjoys the double meaning. A row between celebrities at a fashionable bar might become \"A storm in a cocktail glass\", playing on \"a storm in a teacup\" («una tormenta en un vaso de agua»): the story is trivial, and it happened over cocktails.",
-          "Other typical patterns: \"Out of the frying pan, into the fryer\" for a chef who leaves one troubled restaurant for another; \"The early bird catches the bus\" for a story about cheaper morning fares; \"Every cloud has a silver lining\" turned into \"Every crowd has a silver lining\" for a festival that made a profit despite the rain. The twist only works if the original idiom is instantly recognisable, which is why journalists use the most common ones.",
+          "Headline writers, especially in the British press, love to take a well-known idiom and swap one word for something topical. The reader recognizes the original, notices the change and enjoys the double meaning. A row between celebrities at a fashionable bar might become \"A storm in a cocktail glass\", playing on \"a storm in a teacup\" («una tormenta en un vaso de agua»): the story is trivial, and it happened over cocktails.",
+          "Other typical patterns: \"Out of the frying pan, into the fryer\" for a chef who leaves one troubled restaurant for another; \"The early bird catches the bus\" for a story about cheaper morning fares; \"Every cloud has a silver lining\" turned into \"Every crowd has a silver lining\" for a festival that made a profit despite the rain. The twist only works if the original idiom is instantly recognizable, which is why journalists use the most common ones.",
           "To decode a twisted idiom, do three things: identify the original (\"a storm in a teacup\"), notice which word changed (\"teacup\" became \"cocktail glass\"), and ask how the new word connects to the story. The meaning of the original usually survives: the headline still says the row is trivial.",
         ],
         examples: [
@@ -801,14 +801,14 @@ export const EN_C2_U04: Lesson[] = [
         heading: "Irony: when an idiom changes its register",
         body: [
           "An idiom used sincerely in one context can be used ironically in another, and the irony shifts its meaning and register. \"The icing on the cake\" («la guinda del pastel») normally means a final pleasant extra, but after a disastrous day, \"And then it started to rain. That was the icing on the cake\" means the final blow. Spanish does exactly the same with «la guinda».",
-          "Speakers also signal irony by exaggerating a formal idiom in a trivial situation: calling a sibling's theft of the last cookie \"a stab in the back\" is mock-tragic. And writers sometimes literalise an idiom for humour: \"The minister has finally let the cat out of the bag, and it turns out to be a very large cat\" keeps the image alive to suggest the secret is bigger than expected.",
-          "\"Went down like a lead balloon\" (British; American \"went over like a lead balloon\") means a joke or proposal was received very badly, and it is almost always used with a wry, self-mocking tone. Recognising irony depends on context and intonation, which is why it is easy to miss in a second language.",
+          "Speakers also signal irony by exaggerating a formal idiom in a trivial situation: calling a sibling's theft of the last cookie \"a stab in the back\" is mock-tragic. And writers sometimes literalize an idiom for humor: \"The minister has finally let the cat out of the bag, and it turns out to be a very large cat\" keeps the image alive to suggest the secret is bigger than expected.",
+          "\"Went down like a lead balloon\" (British; American \"went over like a lead balloon\") means a joke or proposal was received very badly, and it is almost always used with a wry, self-mocking tone. Recognizing irony depends on context and intonation, which is why it is easy to miss in a second language.",
         ],
         examples: [
           { es: "I lost my wallet, missed the train, and then it started to rain. That was the icing on the cake.", en: "Perdí la cartera, perdí el tren y encima empezó a llover. Fue la guinda del pastel. (irónico)" },
           { es: "Winning the award was the icing on the cake after a great year.", en: "Ganar el premio fue la guinda del pastel tras un año estupendo. (sincero)" },
           { es: "You ate the last cookie? What a stab in the back.", en: "¿Te comiste la última galleta? Qué puñalada trapera. (en broma)" },
-          { es: "My joke about the budget went down like a lead balloon.", en: "Mi chiste sobre el presupuesto cayó fatal." },
+          { es: "My joke about the budget went down like a lead balloon.", en: "Mi chiste sobre el presupuesto cayó muy mal." },
           { es: "Well, that's just great. Thanks a bunch.", en: "Pues genial. Muchas gracias, ¿eh? (irónico)" },
         ],
         checkpoint: [
@@ -897,7 +897,7 @@ export const EN_C2_U04: Lesson[] = [
         options: [
           "A match decided in the final seconds.",
           "A team that wins easily from the start.",
-          "A project cancelled before it began.",
+          "A project canceled before it began.",
           "A meeting held by video call.",
         ],
         correctIndex: 0,
@@ -927,7 +927,7 @@ export const EN_C2_U04: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["My", "proposal", "went", "down", "like", "a", "lead", "balloon."],
-        translation: "Mi propuesta cayó fatal.",
+        translation: "Mi propuesta cayó muy mal.",
         explanation: "A balloon made of lead cannot fly, so \"go down like a lead balloon\" (US \"go over like a lead balloon\") means to be received very badly.",
       },
       {
@@ -1249,9 +1249,9 @@ export const EN_C2_U04: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "No puedes estar en misa y repicando: o trabajas a tiempo completo o cuidas de los niños.",
-        answer: "You can't have your cake and eat it: either you work full-time or you look after the kids.",
+        answer: "You can't have your cake and eat it too: either you work full-time or you look after the kids.",
         altAnswers: [
-          "You can't have your cake and eat it too: either you work full-time or you look after the kids.",
+          "You can't have your cake and eat it: either you work full-time or you look after the kids.",
           "You can't have your cake and eat it: either you work full-time or you look after the children.",
           "You can't have your cake and eat it too: either you work full-time or you look after the children.",
           "You can't have your cake and eat it: either you work full-time or you take care of the kids.",
@@ -1649,18 +1649,18 @@ export const EN_C2_U04: Lesson[] = [
     level: "EN-C2",
     number: 6,
     title: "Idioms in practice: when not to use them",
-    summary: "Idioms can sound clichéd, too informal or dated. Decide whether an idiom fits an academic essay, a business email or a chat, replace overused clichés such as at the end of the day and think outside the box, and recognise expressions like raining cats and dogs that natives rarely use.",
+    summary: "Idioms can sound clichéd, too informal or dated. Decide whether an idiom fits an academic essay, a business email or a chat, replace overused clichés such as at the end of the day and think outside the box, and recognize expressions like raining cats and dogs that natives rarely use.",
     duration: "11 min",
     sections: [
       {
         heading: "Three registers: essay, email, chat",
         body: [
-          "In academic writing, idioms are almost always out of place. Examiners and journal editors expect precise, literal language, so \"a drop in the ocean\" becomes \"negligible\" or \"insignificant\", \"the tip of the iceberg\" becomes \"a small part of a much larger problem\", and \"a double-edged sword\" becomes \"has both advantages and disadvantages\". A few semi-fixed metaphors (\"a level playing field\", \"a vicious circle\") are acceptable because they function as technical terms.",
+          "In academic writing, idioms are almost always out of place. Examiners and journal editors expect precise, literal language, so \"a drop in the bucket\" becomes \"negligible\" or \"insignificant\", \"the tip of the iceberg\" becomes \"a small part of a much larger problem\", and \"a double-edged sword\" becomes \"has both advantages and disadvantages\". A few semi-fixed metaphors (\"a level playing field\", \"a vicious circle\") are acceptable because they function as technical terms.",
           "In a business email, moderate idioms are fine and can make you sound natural: \"on the same page\", \"a ballpark figure\", \"get the ball rolling\", \"keep someone in the loop\". Avoid slangy or humorous ones (\"kick the bucket\", \"a few sandwiches short of a picnic\") and anything that could sound sarcastic.",
           "In a chat with friends, almost anything goes, but even here one idiom per message is plenty. Overloading a casual message with idioms makes you sound like a textbook, not a native speaker.",
         ],
         examples: [
-          { es: "The funding increase is negligible compared with the scale of the problem.", en: "El aumento de la financiación es insignificante en comparación con la magnitud del problema. (ensayo; en vez de \"a drop in the ocean\")" },
+          { es: "The funding increase is negligible compared with the scale of the problem.", en: "El aumento de la financiación es insignificante en comparación con la magnitud del problema. (ensayo; en vez de \"a drop in the bucket\")" },
           { es: "Social media has both advantages and disadvantages for teenagers.", en: "Las redes sociales tienen ventajas e inconvenientes para los adolescentes. (ensayo; en vez de \"a double-edged sword\")" },
           { es: "Poverty and poor health often form a vicious circle.", en: "La pobreza y la mala salud suelen formar un círculo vicioso. (aceptable en un ensayo)" },
           { es: "Just to make sure we're on the same page, the deadline is Friday.", en: "Para asegurarnos de que estamos de acuerdo: la fecha límite es el viernes. (correo de trabajo)" },
@@ -1673,12 +1673,12 @@ export const EN_C2_U04: Lesson[] = [
             question: "Which sentence suits an academic essay on climate policy?",
             options: [
               "Current emissions cuts represent only a small fraction of what is required.",
-              "Current emissions cuts are just a drop in the ocean.",
+              "Current emissions cuts are just a drop in the bucket.",
               "Current emissions cuts are a piece of cake compared with what is needed.",
               "At the end of the day, emissions cuts are the tip of the iceberg.",
             ],
             correctIndex: 0,
-            explanation: "Academic writing prefers literal, precise wording. \"A drop in the ocean\" is fine in journalism but too informal for an essay; the third option also distorts the meaning.",
+            explanation: "Academic writing prefers literal, precise wording. \"A drop in the bucket\" is fine in journalism but too informal for an essay, and calling the cuts \"a piece of cake\" also distorts the meaning.",
           },
           {
             type: "translate",
@@ -1753,7 +1753,7 @@ export const EN_C2_U04: Lesson[] = [
               "At the end of the day, we need to think outside the box.",
             ],
             correctIndex: 0,
-            explanation: "Plain wording is clearer and avoids the most criticised business cliché. Stacking clichés, as in the last two options, makes it worse.",
+            explanation: "Plain wording is clearer and avoids the most criticized business cliché. Stacking clichés, as in \"think outside the box and push the envelope\", makes it worse.",
           },
         ],
       },
@@ -1831,7 +1831,7 @@ export const EN_C2_U04: Lesson[] = [
           "These measures are insignificant compared with the magnitude of the crisis.",
           "These measures are negligible compared with the magnitude of the crisis.",
         ],
-        explanation: "In an essay, \"negligible\" or \"insignificant\" is better than the idiom \"a drop in the ocean\", which belongs to journalism and conversation.",
+        explanation: "In an essay, \"negligible\" or \"insignificant\" is better than the idiom \"a drop in the bucket\", which belongs to journalism and conversation.",
       },
       {
         type: "multiple-choice",
@@ -1920,7 +1920,7 @@ export const EN_C2_U04: Lesson[] = [
           "At the end of the day, I can't think outside the box tonight.",
         ],
         correctIndex: 0,
-        explanation: "\"Rain check?\" is a short, current idiom for postponing. The second stacks dated idioms, the third is far too formal and the fourth is cliché nonsense.",
+        explanation: "\"Rain check?\" is a short, current idiom for postponing. The \"cats and dogs\" reply stacks dated idioms, \"I regret to inform you\" is far too formal, and \"think outside the box tonight\" is cliché nonsense.",
       },
       {
         type: "word-order",
@@ -2124,7 +2124,7 @@ export const EN_C2_U04: Lesson[] = [
               "The ball is in their court of the matter now.",
             ],
             correctIndex: 0,
-            explanation: "One idiom, placed at the end of a plain sentence, sounds native. The second and third options stack idioms; the last breaks the fixed form.",
+            explanation: "One idiom, placed at the end of a plain sentence, sounds native. The replies with \"bitten the bullet\" and \"back to square one\" stack idioms, and \"in their court of the matter\" breaks the fixed form.",
           },
         ],
       },
@@ -2304,7 +2304,7 @@ export const EN_C2_U04: Lesson[] = [
           { es: "Whether he knew or not is a moot point now.", en: "Si lo sabía o no ya es una cuestión irrelevante. (incorrecto: *a mute point)" },
           { es: "Our city is a case in point.", en: "Nuestra ciudad es un buen ejemplo de ello. (incorrecto: *case and point)" },
           { es: "It's a dog-eat-dog world out there.", en: "Allá afuera es la ley de la selva. (incorrecto: *doggy-dog world)" },
-          { es: "The intern was made the scapegoat for the error.", en: "Convirtieron al estudiante en prácticas en el chivo expiatorio del error." },
+          { es: "The intern was made the scapegoat for the error.", en: "Convirtieron al pasante en el chivo expiatorio del error." },
           { es: "The director gave her free rein to redesign the website.", en: "El director le dio carta blanca para rediseñar la web. (incorrecto: *free reign)" },
         ],
         checkpoint: [
@@ -2333,7 +2333,7 @@ export const EN_C2_U04: Lesson[] = [
       {
         heading: "Accepted variants versus mistakes",
         body: [
-          "Not every variant is a mistake. \"I could care less\" is a widespread informal American version of \"I couldn't care less\" («me importa un bledo»). Logically it says the opposite, and many people criticise it, but it is established in casual US speech. For a learner, \"I couldn't care less\" is always the safe choice, and the only one accepted in British English.",
+          "Not every variant is a mistake. \"I could care less\" is a widespread informal American version of \"I couldn't care less\" («me importa un bledo»). Logically it says the opposite, and many people criticize it, but it is established in casual US speech. For a learner, \"I couldn't care less\" is always the safe choice, and the only one accepted in British English.",
           "\"A whole nother\" (as in \"That's a whole nother story\") is a playful, informal American form, common in speech but not in careful writing, where you should use \"a whole other\" or \"another... entirely\". \"Hone in on\" is now so common in the US that many dictionaries list it beside the original \"home in on\" (to focus on a target, like a homing missile), but editors still prefer \"home in on\".",
           "Some variants are simply British versus American: \"a different kettle of fish\" is mainly British, \"a whole different ballgame\" mainly American; both are correct. \"Spilt\" and \"spilled\" are both fine. The real mistakes are the ones that break the image or the meaning, like *nip it in the butt.",
         ],
@@ -2362,7 +2362,7 @@ export const EN_C2_U04: Lesson[] = [
               "I don't care at all what the press says.",
               "I really couldn't care less what the press says.",
             ],
-            explanation: "\"I couldn't care less\" is the standard form everywhere. The American informal \"I could care less\" means the same but is widely criticised, so avoid it in writing.",
+            explanation: "\"I couldn't care less\" is the standard form everywhere. The American informal \"I could care less\" means the same but is widely criticized, so avoid it in writing.",
           },
           {
             type: "multiple-choice",
@@ -2424,7 +2424,7 @@ export const EN_C2_U04: Lesson[] = [
               "He burned his bridges with the company.",
             ],
             correctIndex: 0,
-            explanation: "The first sentence blends \"cross that bridge when we come to it\" with \"burn your bridges\". Unless you are joking on purpose, use one or the other.",
+            explanation: "\"We'll burn that bridge when we come to it\" blends \"cross that bridge when we come to it\" with \"burn your bridges\". Unless you are joking on purpose, use one or the other.",
           },
         ],
       },
@@ -2629,7 +2629,7 @@ export const EN_C2_U04: Lesson[] = [
         heading: "Recap: form, grammar and register",
         body: [
           "Idioms are frozen blocks: only the tense and the possessive slot normally change (\"pull my leg\", \"put her foot in it\"). Some tolerate the passive because their parts have meaning (\"strings were pulled\"), others do not (\"kick the bucket\"), and many live in the negative (\"can't hold a candle to\", \"won't lift a finger\").",
-          "Every idiom has a register and an attitude: \"pass away\" for condolences, \"kick the bucket\" for jokes; \"jump on the bandwagon\" to criticise, \"go the extra mile\" to praise.",
+          "Every idiom has a register and an attitude: \"pass away\" for condolences, \"kick the bucket\" for jokes; \"jump on the bandwagon\" to criticize, \"go the extra mile\" to praise.",
         ],
         examples: [
           { es: "The remake can't hold a candle to the original.", en: "La nueva versión no tiene ni punto de comparación con la original." },
@@ -2654,13 +2654,13 @@ export const EN_C2_U04: Lesson[] = [
       {
         heading: "Recap: regions, press and play",
         body: [
-          "British and American English often say the same thing with a different word: \"take the biscuit\" / \"take the cake\", \"touch wood\" / \"knock on wood\", \"a spanner\" / \"a monkey wrench\". Irish and Australian English add their own colour (\"the craic\", \"fair dinkum\").",
+          "British and American English often say the same thing with a different word: \"take the biscuit\" / \"take the cake\", \"touch wood\" / \"knock on wood\", \"a spanner\" / \"a monkey wrench\". Irish and Australian English add their own color (\"the craic\", \"fair dinkum\").",
           "Headline writers twist idioms by replacing a word (\"a storm in a cocktail glass\"), and sport and games give everyday English its strategy idioms (\"call someone's bluff\", \"throw in the towel\", \"a sticky wicket\"). Irony can flip a positive idiom like \"the icing on the cake\" into a final blow.",
         ],
         examples: [
           { es: "We're on schedule so far, knock on wood.", en: "De momento vamos según lo previsto, toco madera." },
           { es: "The union called the company's bluff.", en: "El sindicato le vio el farol a la empresa." },
-          { es: "And then the printer broke. The icing on the cake!", en: "Y encima se estropeó la impresora. ¡La guinda del pastel! (irónico)" },
+          { es: "And then the printer broke. The icing on the cake!", en: "Y encima se descompuso la impresora. ¡La guinda del pastel! (irónico)" },
         ],
         checkpoint: [
           {
@@ -2752,7 +2752,7 @@ export const EN_C2_U04: Lesson[] = [
           "The supplier's delay has thrown a wrench in the spanner.",
         ],
         correctIndex: 0,
-        explanation: "British English says \"spanner\"; American English \"monkey wrench\". The last two blend both and are wrong everywhere.",
+        explanation: "British English says \"spanner\"; American English \"monkey wrench\". \"A monkey spanner\" and \"a wrench in the spanner\" blend both and are wrong everywhere.",
       },
       {
         type: "translate",
@@ -2788,7 +2788,7 @@ export const EN_C2_U04: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English for an academic essay.",
-        source: "La subida del salario mínimo es insignificante frente al aumento del coste de la vida.",
+        source: "La subida del salario mínimo es insignificante frente al aumento del costo de la vida.",
         answer: "The rise in the minimum wage is negligible compared with the increase in the cost of living.",
         altAnswers: [
           "The rise in the minimum wage is negligible compared to the increase in the cost of living.",
@@ -2805,7 +2805,7 @@ export const EN_C2_U04: Lesson[] = [
           "The increase in the minimum wage is negligible in comparison with the rise in the cost of living.",
           "The rise in the minimum wage is negligible in comparison with the increase in the cost of living.",
         ],
-        explanation: "In academic writing, \"negligible\" or \"insignificant\" replaces the idiom \"a drop in the ocean\".",
+        explanation: "In academic writing, \"negligible\" or \"insignificant\" replaces the idiom \"a drop in the bucket\".",
       },
       {
         type: "matching",
@@ -2814,10 +2814,10 @@ export const EN_C2_U04: Lesson[] = [
           { left: "fair dinkum", right: "auténtico, de verdad (australiano)" },
           { left: "on a sticky wicket", right: "en un aprieto (británico)" },
           { left: "out of left field", right: "inesperado, salido de la nada (estadounidense)" },
-          { left: "give out to someone", right: "echarle la bronca a alguien (irlandés)" },
+          { left: "give out to someone", right: "regañar a alguien (irlandés)" },
           { left: "keep your cards close to your chest", right: "no soltar prenda" },
         ],
-        explanation: "Recognising the region and the source of an idiom tells you when and with whom to use it.",
+        explanation: "Recognizing the region and the source of an idiom tells you when and with whom to use it.",
       },
       {
         type: "translate",

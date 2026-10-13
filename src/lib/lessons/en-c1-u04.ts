@@ -827,7 +827,7 @@ export const EN_C1_U04: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Hemos comparado dos portátiles; el segundo es más ligero, pero el primero tiene más batería.",
+        source: "Hemos comparado dos laptops; el segundo es más ligero, pero el primero tiene más batería.",
         answer: "We compared two laptops; the latter is lighter, but the former has a longer battery life.",
         altAnswers: ["We've compared two laptops; the latter is lighter, but the former has a longer battery life.", "We compared two laptops; the second one is lighter, but the first one has a longer battery life.", "We've compared two laptops; the second one is lighter, but the first one has a longer battery life.", "We compared two laptops; the second is lighter, but the first has a longer battery life.", "We compared two laptops; the latter is lighter, but the former has better battery life.", "We've compared two laptops; the latter is lighter, but the former has better battery life.", "We compared two laptops; the second one is lighter, but the first one has better battery life.", "We compared two laptops; the latter is lighter, but the former has more battery life.", "We compared two laptops; the second one is lighter, but the first one has more battery life.", "We've compared two laptops; the second is lighter, but the first has a longer battery life."],
         explanation: "For two items, \"the former\" and \"the latter\" (formal) or \"the first one\" and \"the second one\" all work. *The last one would be odd with only two. (Review: Ellipsis and Substitution in Practice.)",
@@ -888,12 +888,12 @@ export const EN_C1_U04: Lesson[] = [
         heading: "Common patterns",
         body: [
           "Dropped \"I\" (+ auxiliary): \"Told you so.\", \"Can't complain.\", \"Hope you're well.\", \"Must be nice.\", \"Haven't seen you for ages.\", \"Don't know.\"",
-          "Dropped \"Do you / Are you / Have you\" in questions: \"Want a lift?\", \"Ready?\", \"Seen my keys?\", \"Coming?\", \"Got a minute?\"",
+          "Dropped \"Do you / Are you / Have you\" in questions: \"Want a ride?\", \"Ready?\", \"Seen my keys?\", \"Coming?\", \"Got a minute?\"",
           "Dropped \"It's / There's / That's\": \"No wonder.\", \"Not bad.\", \"Nice to meet you.\", \"Good point.\", \"Any questions?\", \"Serves you right.\"",
         ],
         examples: [
           { es: "Can't complain.", en: "No me puedo quejar." },
-          { es: "Seen my keys anywhere?", en: "¿Has visto mis llaves por algún sitio?" },
+          { es: "Seen my keys anywhere?", en: "¿Has visto mis llaves por algún lado?" },
           { es: "Coming?", en: "¿Vienes?" },
           { es: "No wonder you're tired.", en: "Con razón estás cansado." },
           { es: "Serves him right.", en: "Se lo tiene merecido." },
@@ -924,7 +924,7 @@ export const EN_C1_U04: Lesson[] = [
           { es: "Running late, be there in ten.", en: "Voy con retraso, llego en diez minutos." },
           { es: "Left the keys on the table.", en: "Te he dejado las llaves en la mesa." },
           { es: "Hope all is well.", en: "Espero que todo vaya bien." },
-          { es: "Thanks for yesterday. Had a great time.", en: "Gracias por lo de ayer. Me lo pasé genial." },
+          { es: "Thanks for yesterday. Had a great time.", en: "Gracias por lo de ayer. La pasé genial." },
         ],
         checkpoint: [
           {
@@ -1440,7 +1440,7 @@ export const EN_C1_U04: Lesson[] = [
               "The company launched a new app. Was downloaded a million times in a week, a success nobody had expected.",
             ],
             correctIndex: 0,
-            explanation: "The first version repeats \"the app\" once for clarity and sums up with \"a success\". The others repeat too much, overuse \"it\", or drop the subject.",
+            explanation: "The correct version repeats \"the app\" once for clarity and sums up with \"a success\". The others repeat too much, overuse \"it\", or drop the subject.",
           },
         ],
       },
@@ -1762,7 +1762,7 @@ export const EN_C1_U04: Lesson[] = [
       {
         heading: "The method: find the repeated part, then pick the tool",
         body: [
-          "Cambridge C1 Advanced key-word transformations often test exactly this: say the same thing with a given word, and change nothing in the meaning. Start by underlining what is repeated.",
+          "Cambridge Advanced key-word transformations often test exactly this: say the same thing with a given word, and change nothing in the meaning. Start by underlining what is repeated.",
           "Repeated clause after think or hope: \"so\" or \"not\". Repeated verb phrase: an auxiliary or modal, or \"do so\" in formal writing. Repeated countable noun with an adjective: \"one/ones\". Repeated noun + of: \"that of / those of\". Repeated idea: \"this\" + summary noun.",
           "Then check the meaning. \"I don't think so\" and \"I think not\" mean the same, but \"I hope so\" and \"I think so\" do not: one expresses a wish, the other an opinion.",
         ],
@@ -2059,7 +2059,7 @@ export const EN_C1_U04: Lesson[] = [
           "Remote work saves commuting time. The latter is valued by parents for their families.",
         ],
         correctIndex: 0,
-        explanation: "The first uses a summary noun and a relative clause. The others repeat too much, use unclear pronouns, or misuse \"the latter\". (Review: Reference and Cohesion in Practice.)",
+        explanation: "The best version uses a summary noun and a relative clause. The others repeat too much, use unclear pronouns, or misuse \"the latter\". (Review: Reference and Cohesion in Practice.)",
       },
       {
         type: "write",
@@ -2282,7 +2282,7 @@ export const EN_C1_U04: Lesson[] = [
         heading: "Starting and building relationships",
         body: [
           "An \"acquaintance\" is someone you know, but not well («un conocido»). Spanish speakers often say *a known; the right word is \"an acquaintance\" or simply \"someone I know\".",
-          "If two people \"hit it off\", they like each other immediately: \"We hit it off straight away.\" \"Rapport\" (pronounced \"ra-POR\", the t is silent) is a relationship of mutual understanding: \"She has a great rapport with her students.\" We \"build\", \"establish\" or \"develop\" rapport.",
+          "If two people \"hit it off\", they like each other immediately: \"We hit it off right away.\" \"Rapport\" (pronounced \"ra-POR\", the t is silent) is a relationship of mutual understanding: \"She has a great rapport with her students.\" We \"build\", \"establish\" or \"develop\" rapport.",
         ],
         examples: [
           { es: "He's not a friend, just an acquaintance.", en: "No es un amigo, solo un conocido." },
@@ -2294,7 +2294,7 @@ export const EN_C1_U04: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "I didn't expect to like her, but we ___ straight away.",
+            sentence: "I didn't expect to like her, but we ___ right away.",
             answer: "hit it off",
             en: "No esperaba que me cayera bien, pero [congeniamos] enseguida.",
             explanation: "\"Hit it off\" (past: hit it off) means to like each other immediately. It is informal and very common.",
@@ -2386,7 +2386,7 @@ export const EN_C1_U04: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Lo conocí en un congreso y congeniamos enseguida.",
-        answer: "I met him at a conference and we hit it off straight away.",
+        answer: "I met him at a conference and we hit it off right away.",
         altAnswers: ["I met him at a conference and we hit it off right away.", "I met him at a conference and we hit it off immediately.", "I met him at a conference, and we hit it off straight away.", "I met him at a conference, and we hit it off right away.", "I met him at a conference and we got on straight away.", "I met him at a conference and we got along right away.", "I met him at a conference and we clicked right away.", "I met him at a conference and we clicked immediately.", "I met him at a conference and we hit it off at once.", "I met him at a convention and we hit it off right away."],
         explanation: "«Congeniar» = \"hit it off\", \"get on/along\" or informally \"click\". «Congreso» here is a \"conference\", not *congress.",
       },
@@ -2427,7 +2427,7 @@ export const EN_C1_U04: Lesson[] = [
         minWords: 60,
         maxWords: 90,
         rubric: ["Explains how the relationship began", "Explains how and why it changed", "Uses at least four words from the lesson correctly", "Uses \"relatives\" or \"parents\" correctly if family is mentioned"],
-        modelAnswer: "I met Sofia on my first day at university, and we hit it off straight away. For years we were inseparable, and her close-knit family treated me like one of their relatives. After graduating, she moved to Canada and we slowly drifted apart. We never fell out; we just stopped calling. Looking back, I think I took our friendship for granted. Last year I sent her a message, and we are now rebuilding the rapport we used to have.",
+        modelAnswer: "I met Sofia on my first day at university, and we hit it off right away. For years we were inseparable, and her close-knit family treated me like one of their relatives. After graduating, she moved to Canada and we slowly drifted apart. We never fell out; we just stopped calling. Looking back, I think I took our friendship for granted. Last year I sent her a message, and we are now rebuilding the rapport we used to have.",
         explanation: "The model uses hit it off, close-knit, relatives, drift apart, fall out, take for granted and rapport.",
       },
     ],

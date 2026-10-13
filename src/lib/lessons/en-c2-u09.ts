@@ -19,7 +19,7 @@ export const EN_C2_U09: Lesson[] = [
         heading: "What a mess! What awful weather!",
         body: [
           "Spanish has one all-purpose exclamation, «¡Qué...!», which works with nouns, adjectives and adverbs alike. English splits it in two. With a NOUN, use \"what\": \"What a mess!\", \"What a view!\", \"What an idiot!\". With an ADJECTIVE or ADVERB on its own, use \"how\": \"How odd!\", \"How beautiful!\".",
-          "The noun pattern follows the ordinary rules for articles. A singular countable noun needs \"a\" or \"an\": \"What a day!\", never *What day! (which sounds like a question about the date). Uncountable and plural nouns take no article: \"What awful weather!\", \"What lovely flowers!\", \"What rubbish!\".",
+          "The noun pattern follows the ordinary rules for articles. A singular countable noun needs \"a\" or \"an\": \"What a day!\", never *What day! (which sounds like a question about the date). Uncountable and plural nouns take no article: \"What awful weather!\", \"What lovely flowers!\", \"What nonsense!\".",
           "This is where Spanish speakers trip: \"news\", \"advice\", \"luck\", \"weather\", \"information\" and \"progress\" are uncountable in English, so «¡Qué noticia!» is \"What news!\" or, more naturally, \"What great news!\" or \"That's amazing news!\", never *What a news! Likewise «¡Qué suerte!» is \"What luck!\" or \"How lucky!\", never *What a luck!",
           "You can add an adjective in the middle, and that is in fact the most common use: «¡Qué casa más bonita!» is \"What a beautiful house!\". English has no equivalent of «más» here: *What a house more beautiful! is impossible.",
         ],
@@ -389,7 +389,7 @@ export const EN_C2_U09: Lesson[] = [
           { es: "Whoever told you that?", en: "¿Pero quién te ha dicho eso?" },
           { es: "What the heck is going on?", en: "¿Qué demonios está pasando?" },
           { es: "Oh, for goodness' sake!", en: "¡Por el amor de Dios!" },
-          { es: "Damn, I've missed the train.", en: "Mierda, perdí el tren." },
+          { es: "Damn, I missed the train.", en: "Mierda, perdí el tren." },
         ],
         checkpoint: [
           {
@@ -500,7 +500,7 @@ export const EN_C2_U09: Lesson[] = [
           "Uses emphatic do, does or did with the base form.",
           "Mixes congratulations with sadness about the departure in a natural, informal tone.",
         ],
-        modelAnswer: "No way! What amazing news! You absolutely deserve it after all that hard work. I'm genuinely thrilled for you, though I do wish it weren't so far away. Next month already? How fast everything happens. It's such a shame we won't have our Friday coffees any more, but I will come and visit, I promise. Let's have a proper send-off before you go!",
+        modelAnswer: "No way! What amazing news! You absolutely deserve it after all that hard work. I'm genuinely thrilled for you, though I do wish it weren't so far away. Next month already? How fast everything happens. It's such a shame we won't have our Friday coffees anymore, but I will come and visit, I promise. Let's have a proper send-off before you go!",
         explanation: "The model mixes \"what\" + uncountable noun, \"absolutely\" + \"deserve\", emphatic \"do wish\" and \"will come\" with stress, and \"such a shame\".",
       },
     ],
@@ -711,7 +711,7 @@ export const EN_C2_U09: Lesson[] = [
     slug: "c2-exclamations-dialogue-reactions",
     level: "EN-C2",
     number: 4,
-    title: "Dialogue lab: reactions and back-channelling",
+    title: "Dialogue lab: reactions and back-channeling",
     summary: "The small noises and phrases that show you are listening: echo questions (Did he? Have you?), sympathy and agreement tokens (Oh, that's a shame; Tell me about it; Fair enough), and why *Ah, yes? does not work.",
     duration: "11 min",
     sections: [
@@ -787,7 +787,7 @@ export const EN_C2_U09: Lesson[] = [
       {
         heading: "Keeping the conversation going",
         body: [
-          "Back-channelling is the stream of small signals that tells a speaker you are following: \"Mm-hmm\", \"Uh-huh\", \"Right\", \"Yeah\", \"I see\", \"OK\", \"Sure\". English speakers use them more often and more quietly than many Spanish speakers expect; silence on the phone can make them ask \"Are you still there?\".",
+          "Back-channeling is the stream of small signals that tells a speaker you are following: \"Mm-hmm\", \"Uh-huh\", \"Right\", \"Yeah\", \"I see\", \"OK\", \"Sure\". English speakers use them more often and more quietly than many Spanish speakers expect; silence on the phone can make them ask \"Are you still there?\".",
           "To push for more: \"And then what?\", \"What happened next?\", \"So what did you do?\", \"Go on\". To show you are processing: \"Hang on, so...\", \"Wait, so you're saying...\". These replace Spanish «¿Y?», «¿Y entonces?», «A ver, a ver».",
           "Avoid \"Yes, yes, yes\" in quick repetition: it can sound impatient («ya, ya, ya»). And do not answer news with a bare \"OK\" in a flat tone, which can sound cold; add an echo question or a reaction token.",
         ],
@@ -832,7 +832,7 @@ export const EN_C2_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A colleague explains he can't come to the meeting because his child is ill. What is the most natural reply?",
+        question: "A colleague explains he can't come to the meeting because his child is sick. What is the most natural reply?",
         options: ["Fair enough. I hope she feels better soon.", "Tell me about it.", "You don't say!", "Ah, yes?"],
         correctIndex: 0,
         explanation: "\"Fair enough\" accepts his reason; then add a kind wish. \"Tell me about it\" would mean you share the experience.",
@@ -938,7 +938,7 @@ export const EN_C2_U09: Lesson[] = [
             question: "Which phrase has the natural word order?",
             options: ["a little lovely cafe", "a lovely little cafe", "a cafe little lovely", "a lovely cafe little"],
             correctIndex: 1,
-            explanation: "Opinion adjectives come before \"little\": \"a lovely little cafe\", \"a nice little flat\".",
+            explanation: "Opinion adjectives come before \"little\": \"a lovely little cafe\", \"a nice little apartment\".",
           },
         ],
       },
@@ -974,7 +974,7 @@ export const EN_C2_U09: Lesson[] = [
       {
         heading: "Brekkie and arvo: Australian clippings",
         body: [
-          "Australian English is famous for its clip-and-add habit: the word is shortened and given -ie, -y or -o. \"Brekkie\" (breakfast), \"arvo\" (afternoon), \"barbie\" (barbecue), \"sunnies\" (sunglasses), \"servo\" (petrol station), \"ambo\" (paramedic), \"Aussie\" itself.",
+          "Australian English is famous for its clip-and-add habit: the word is shortened and given -ie, -y or -o. \"Brekkie\" (breakfast), \"arvo\" (afternoon), \"barbie\" (barbecue), \"sunnies\" (sunglasses), \"servo\" (gas station), \"ambo\" (paramedic), \"Aussie\" itself.",
           "Some of these have spread across the English-speaking world (\"brekkie\", \"barbie\"), but most mark you as Australian. Recognize them; use them only if you live there or are joking.",
           "Spanish speakers sometimes hear these as diminutives, but their function is informality and in-group friendliness, not smallness: a \"barbie\" is not a small barbecue.",
         ],
@@ -1027,7 +1027,7 @@ export const EN_C2_U09: Lesson[] = [
             answer: "nice and warm",
             altAnswers: ["nice and cosy", "nice and toasty", "lovely and warm", "snug"],
             en: "Abrígate bien y estarás [calentito].",
-            explanation: "\"Nice and\" + adjective conveys the cosy, approving tone of «-ito»: \"nice and warm\", \"nice and quiet\".",
+            explanation: "\"Nice and\" + adjective conveys the cozy, approving tone of «-ito»: \"nice and warm\", \"nice and quiet\".",
           },
         ],
       },
@@ -1219,7 +1219,7 @@ export const EN_C2_U09: Lesson[] = [
         heading: "Pejoratives: solterón, casucha, -ish and -y",
         body: [
           "«-ón», «-ucho», «-aco» and «-ejo» often add contempt. English again uses words, not suffixes. «Un solterón» is \"a confirmed bachelor\" or \"an old bachelor\"; avoid the female equivalent \"old maid\", which is dated and offensive. «Una casucha» is \"a hovel\" or \"a shabby little house\"; «un cuartucho» is \"a poky little room\"; «un pueblucho» is \"a dump\" or \"a one-horse town\".",
-          "Character nouns in «-ón» usually become adjectives or compounds in English: «mandón» is \"bossy\", «llorón» is \"a crybaby\" or \"whiny\", «comilón» is \"a big eater\", «dormilón» is \"a sleepyhead\", «chismoso» is \"nosy\".",
+          "Character nouns in «-ón» usually become adjectives or compounds in English: «mandón» is \"bossy\", «llorón» is \"a crybaby\" or \"whiny\", «comilón» is \"a big eater\", «dormilón» is \"a sleepyhead\", «preguntón» is \"nosy\".",
           "Two small suffixes do evaluative work. \"-y\" forms judgmental adjectives: \"bossy\", \"pushy\", \"nosy\", \"preachy\", \"flashy\". \"-ish\" softens or blurs: \"biggish\", \"tallish\", \"sevenish\" (around seven), \"childish\" (pejorative, «infantil»), as opposed to \"childlike\" (positive, «inocente»).",
         ],
         examples: [
@@ -1299,7 +1299,7 @@ export const EN_C2_U09: Lesson[] = [
         type: "matching",
         instructions: "Match each Spanish word with its English equivalent.",
         pairs: [
-          { left: "nosy", right: "chismoso" },
+          { left: "nosy", right: "preguntón" },
           { left: "a big eater", right: "comilón" },
           { left: "sleepyhead", right: "dormilón" },
           { left: "a poky little room", right: "un cuartucho" },
@@ -1337,7 +1337,7 @@ export const EN_C2_U09: Lesson[] = [
         type: "speak",
         text: "He scored a stunning goal in the last minute. What a screamer!",
         tip: "Stress \"STUNning\" and \"SCREAMer\" and let \"What a screamer!\" fall in pitch, as an exclamation.",
-        explanation: "\"A screamer\" is football slang for a spectacular, powerful goal: «un golazo».",
+        explanation: "\"A screamer\" is British soccer slang for a spectacular, powerful goal: «un golazo».",
       },
     ],
   },
@@ -1412,7 +1412,7 @@ export const EN_C2_U09: Lesson[] = [
             source: "Castigarlo sería contraproducente.",
             answer: "Punishing him would be counterproductive.",
             altAnswers: ["Punishing him would be counter-productive.", "It would be counterproductive to punish him.", "It would be counter-productive to punish him.", "To punish him would be counterproductive.", "Punishing it would be counterproductive.", "Punishing her would be counterproductive."],
-            explanation: "«Contraproducente» = \"counterproductive\": \"counter-\" means against. Spanish uses a gerund-like infinitive subject; English prefers the -ing form or \"It would be... to\".",
+            explanation: "«Contraproducente» = \"counterproductive\": \"counter-\" means against. Spanish uses an infinitive as the subject («Castigarlo»); English prefers the -ing form or \"It would be... to\".",
           },
           {
             type: "fill-blank",
@@ -1465,7 +1465,7 @@ export const EN_C2_U09: Lesson[] = [
         body: [
           "Adding a suffix often moves the stress, and the vowels change with it. \"PHOtograph\" → \"phoTOgrapher\" → \"photoGRAPHic\"; \"POLitics\" → \"poLITical\" → \"poliTIcian\"; \"eCONomy\" → \"ecoNOMic\".",
           "Some reliable patterns: words ending in \"-ic\", \"-ical\", \"-ian\", \"-tion\" and \"-sion\" stress the syllable just before the suffix (\"ecoNOMic\", \"poliTIcian\", \"eduCAtion\"). Words in \"-graphy\", \"-logy\", \"-cracy\" and \"-ity\" stress the third syllable from the end (\"phoTOGraphy\", \"biOLogy\", \"deMOCracy\", \"aBILity\").",
-          "Spanish speakers tend to keep the stress of the Spanish cognate (*demoCRAcy, after «democracia»; *photoGRAPHer, after «fotógrafo»). Unstressed vowels in English usually reduce to a schwa, so the shift is very audible.",
+          "Spanish speakers tend to keep the stress of the Spanish cognate (*demoCRAcy, after «democracia»; *poLItician, after «político»). Unstressed vowels in English usually reduce to a schwa, so the shift is very audible.",
         ],
         examples: [
           { es: "photograph, photographer, photographic", en: "fotografía, fotógrafo, fotográfico" },
@@ -1594,7 +1594,7 @@ export const EN_C2_U09: Lesson[] = [
         heading: "Why stress matters more in English than in Spanish",
         body: [
           "In Spanish, an unstressed vowel keeps its quality: the three a's of «Panamá» all sound like /a/. In English, unstressed vowels usually shrink to a quick, neutral schwa /ə/. So when the stress moves, the whole word changes shape: in \"photograph\" the second o is a weak schwa, but in \"photography\" it is the strong, stressed vowel.",
-          "This is why wrong stress causes real misunderstandings, not just an accent. A listener searches for words by their stressed syllable; if you say \"develOPment\" (ve-LOP) instead of deVELopment, they may not recognize the word at all, even if every sound is correct.",
+          "This is why wrong stress causes real misunderstandings, not just an accent. A listener searches for words by their stressed syllable; if you say de-vel-OP-ment instead of de-VEL-op-ment, they may not recognize the word at all, even if every sound is correct.",
           "In this lesson, capital letters in the explanations show the stressed syllable (PHO-to-graph). A dictionary marks it with a raised tick before the syllable: /ˈfoʊtəɡræf/.",
         ],
         examples: [
@@ -1692,8 +1692,8 @@ export const EN_C2_U09: Lesson[] = [
       {
         heading: "Cognates that give you away",
         body: [
-          "The most frequent stress errors come from Spanish cognates that end in a stressed syllable. English pushes the stress to the front: HOS-pi-tal («hospital»), A-ni-mal, GE-ne-ral, NA-tu-ral, CA-pi-tal, TO-tal, LO-cal, NOR-mal, ME-tal, CA-na-da («Canadá»), IN-dus-try («industria»), CA-te-go-ry («categoría»), DE-mo-crat («demócrata»).",
-          "Another group drops a syllable altogether in normal speech: \"comfortable\" is COMF-ta-ble (three syllables), \"vegetable\" VEJ-ta-ble, \"interesting\" IN-tres-ting, \"chocolate\" CHOC-lit, \"different\" DIF-rent, \"every\" EV-ry, \"family\" FAM-ly. Saying all five syllables of \"comfortable\" with stress on \"-ta-\" is a strong Spanish marker.",
+          "The most frequent stress errors come from Spanish cognates that are stressed later in the word. English pushes the stress to the front: HOS-pi-tal («hospital»), A-ni-mal, GE-ne-ral, NA-tu-ral, CA-pi-tal, TO-tal, LO-cal, NOR-mal, ME-tal, CA-na-da («Canadá»), IN-dus-try («industria»), CA-te-go-ry («categoría»), DE-mo-crat («demócrata»).",
+          "Another group drops a syllable altogether in normal speech: \"comfortable\" is COMF-ta-ble (three syllables), \"vegetable\" VEJ-ta-ble, \"interesting\" IN-tres-ting, \"chocolate\" CHOC-lit, \"different\" DIF-rent, \"every\" EV-ry, \"family\" FAM-ly. Saying all four syllables of \"comfortable\" with stress on \"-ta-\" is a strong Spanish marker.",
           "Watch also verbs ending in \"-ine\": de-TER-mine and ex-A-mine (not like «determinar» or «examinar»). And remember that British and American English sometimes differ: UK ad-VER-tise-ment, US ad-ver-TISE-ment.",
         ],
         examples: [
@@ -1902,7 +1902,7 @@ export const EN_C2_U09: Lesson[] = [
         prompt: "Translate into English.",
         source: "Aprobé de pura chiripa.",
         answer: "I passed by sheer luck.",
-        altAnswers: ["I passed by pure luck.", "I passed through sheer luck.", "I passed through pure luck.", "I passed by a sheer fluke.", "I passed by a fluke.", "It was sheer luck that I passed.", "It was pure luck that I passed.", "I only passed by sheer luck.", "I only passed by pure luck.", "I passed by complete luck.", "It was a complete fluke that I passed.", "It was a fluke that I passed.", "I passed out of sheer luck.", "I passed out of pure luck.", "I passed by pure chance.", "I passed by sheer chance."],
+        altAnswers: ["I passed by pure luck.", "I passed through sheer luck.", "I passed through pure luck.", "I passed by a sheer fluke.", "I passed by a fluke.", "It was sheer luck that I passed.", "It was pure luck that I passed.", "I only passed by sheer luck.", "I only passed by pure luck.", "I passed by complete luck.", "It was a complete fluke that I passed.", "It was a fluke that I passed.", "I passed out of sheer luck.", "I passed by pure chance.", "I passed by sheer chance."],
         explanation: "«De pura chiripa» = \"by sheer luck\" or \"by a fluke\". \"Sheer\" and \"pure\" intensify nouns.",
       },
       {

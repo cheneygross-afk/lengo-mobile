@@ -364,13 +364,13 @@ export const EN_C1_U08_EXTRA: Lesson[] = [
             type: "multiple-choice",
             question: "«Ya es hora de que busques departamento.» Which is correct?",
             options: [
-              "It's time you looked for a flat.",
-              "It's time you look for a flat.",
-              "It's time that you will look for a flat.",
-              "It's time you to look for a flat.",
+              "It's time you looked for an apartment.",
+              "It's time you look for an apartment.",
+              "It's time that you will look for an apartment.",
+              "It's time you to look for an apartment.",
             ],
             correctIndex: 0,
-            explanation: "\"It's time\" + subject + past simple. The Spanish present subjunctive pushes learners towards *you look.",
+            explanation: "\"It's time\" + subject + past simple. The Spanish present subjunctive pushes learners toward *you look.",
           },
           {
             type: "fill-blank",
@@ -395,7 +395,7 @@ export const EN_C1_U08_EXTRA: Lesson[] = [
           { es: "He acts as though he were the boss.", en: "Actúa como si fuera el jefe." },
           { es: "She spoke as if nothing had happened.", en: "Habló como si no hubiera pasado nada." },
           { es: "You look as if you haven't slept for days.", en: "Tienes cara de no haber dormido en días." },
-          { es: "Don't look at me as though I were mad.", en: "No me mires como si estuviera loco." },
+          { es: "Don't look at me as though I were crazy.", en: "No me mires como si estuviera loco." },
         ],
         checkpoint: [
           {
@@ -435,10 +435,10 @@ export const EN_C1_U08_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Ya va siendo hora de que el ayuntamiento haga algo con el tráfico.",
-        answer: "It's high time the council did something about the traffic.",
+        source: "Ya va siendo hora de que el municipio haga algo con el tráfico.",
+        answer: "It's high time the city council did something about the traffic.",
         altAnswers: [
-          "It's high time the city council did something about the traffic.",
+          "It's high time the council did something about the traffic.",
           "It's high time the town council did something about the traffic.",
           "It's high time the city did something about the traffic.",
           "It's about time the council did something about the traffic.",
@@ -715,7 +715,7 @@ export const EN_C1_U08_EXTRA: Lesson[] = [
           { es: "The doctor recommended that she take a few days off.", en: "El médico le recomendó que se tomara unos días libres." },
           { es: "They insisted that he pay the full amount.", en: "Insistieron en que pagara la cantidad completa." },
           { es: "It is essential that every candidate be interviewed in person.", en: "Es imprescindible que se entreviste en persona a todos los candidatos." },
-          { es: "The law requires that all drivers carry a valid licence.", en: "La ley exige que todos los conductores lleven una licencia válida." },
+          { es: "The law requires that all drivers carry a valid license.", en: "La ley exige que todos los conductores lleven una licencia válida." },
         ],
         checkpoint: [
           {
@@ -830,7 +830,7 @@ export const EN_C1_U08_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Recomendamos que todos los empleados reciban formación en seguridad.",
+        source: "Recomendamos que todos los empleados reciban capacitación en seguridad.",
         answer: "We recommend that all employees receive safety training.",
         altAnswers: [
           "We recommend that all employees receive training in safety.",
@@ -877,7 +877,7 @@ export const EN_C1_U08_EXTRA: Lesson[] = [
         sentence: "The regulations require that every visitor ___ an ID badge.",
         answer: "wear",
         altAnswers: ["should wear", "carry", "should carry"],
-        en: "La normativa exige que todos los visitantes [lleven] una acreditación.",
+        en: "El reglamento exige que todos los visitantes [lleven] una credencial.",
         explanation: "\"Require that\" + base form for all persons: \"every visitor wear\", not *wears.",
       },
       {
@@ -1501,14 +1501,14 @@ export const EN_C1_U08_EXTRA: Lesson[] = [
         body: [
           "\"But for\" + noun phrase means «de no ser por / si no hubiera sido por» and is usually followed by a conditional: \"But for your help, I would have failed.\" It is a preposition, so it cannot take a clause: *But for he helped me is wrong. Use \"If it hadn't been for his help\" or \"If he hadn't helped me\".",
           "\"Otherwise\" means «si no / de lo contrario» and comes after a statement of what must happen: \"Hurry up, otherwise we'll be late.\" In writing, it often starts a new sentence or follows a semicolon.",
-          "\"Or else\" is the informal equivalent, often with a hint of threat: \"Hand it in by Friday, or else you'll lose marks.\" \"Or else!\" on its own is a playful or serious warning.",
+          "\"Or else\" is the informal equivalent, often with a hint of threat: \"Hand it in by Friday, or else you'll lose points.\" \"Or else!\" on its own is a playful or serious warning.",
         ],
         examples: [
           { es: "But for the traffic, we would have arrived on time.", en: "De no ser por el tráfico, habríamos llegado a tiempo." },
           { es: "If it hadn't been for her advice, I would have made a big mistake.", en: "Si no hubiera sido por su consejo, habría cometido un gran error." },
           { es: "Write it down; otherwise you'll forget.", en: "Apúntalo; si no, se te olvidará." },
           { es: "We need to leave now, or else we'll miss the start.", en: "Tenemos que irnos ya, o nos perderemos el principio." },
-          { es: "Assuming the weather holds, we'll eat outside.", en: "Suponiendo que se mantenga el buen tiempo, comeremos fuera." },
+          { es: "Assuming the weather holds, we'll eat outside.", en: "Suponiendo que se mantenga el buen tiempo, comeremos afuera." },
         ],
         checkpoint: [
           {

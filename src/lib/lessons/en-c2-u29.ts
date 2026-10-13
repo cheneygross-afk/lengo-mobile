@@ -355,7 +355,7 @@ export const EN_C2_U29: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "She looked out of the window with a ___ expression.",
+            sentence: "She looked out the window with a ___ expression.",
             answer: "wistful",
             altAnswers: ["melancholy", "nostalgic", "pensive"],
             en: "Miraba por la ventana con una expresión [melancólica].",
@@ -456,7 +456,7 @@ export const EN_C2_U29: Lesson[] = [
         heading: "Before and after: apprehensive and crestfallen",
         body: [
           "\"Apprehensive\" is worried about something that is going to happen: an interview, an operation, a difficult conversation. It is a false friend: «aprensivo» in Spanish means a hypochondriac or someone squeamish. In English that would be \"squeamish\" or \"a hypochondriac\".",
-          "\"Crestfallen\" is the sudden disappointment you see on someone's face when their hopes collapse. English also says \"his face fell\" (se le cayó la cara / se le borró la sonrisa).",
+          "\"Crestfallen\" is the sudden disappointment you see on someone's face when their hopes collapse. English also says \"his face fell\" (se le cambió la cara / se le borró la sonrisa).",
           "These words are ideal for describing other people from the outside: you can see that someone is crestfallen, sheepish or exasperated, while \"disappointed\", \"embarrassed\" or \"annoyed\" describe more what they feel inside.",
         ],
         examples: [
@@ -549,7 +549,7 @@ export const EN_C2_U29: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Many employees feel ___ of the new managers.",
         answer: "resentful",
-        altAnswers: ["bitter about", "bitter toward"],
+        altAnswers: [],
         en: "Muchos empleados [les guardan rencor] a los nuevos jefes.",
         explanation: "\"Resentful of\" someone or something: lasting bitterness at being treated unfairly.",
       },
@@ -792,7 +792,7 @@ export const EN_C2_U29: Lesson[] = [
       {
         heading: "Clinical words in casual talk: use them with care",
         body: [
-          "Many people use diagnostic terms loosely: \"I'm so OCD about my desk\", \"The weather is so bipolar\", \"I was totally depressed when the shop was closed\". These uses are common, but many people find them insensitive because they trivialize real conditions.",
+          "Many people use diagnostic terms loosely: \"I'm so OCD about my desk\", \"The weather is so bipolar\", \"I was totally depressed when the store was closed\". These uses are common, but many people find them insensitive because they trivialize real conditions.",
           "Precise everyday alternatives are better and sound more sophisticated: \"I'm very particular about my desk\" or \"I'm a bit of a neat freak\"; \"The weather keeps changing\"; \"I was really disappointed\" or \"I was gutted\" (British).",
           "When talking about real conditions, current English puts the person first or uses neutral phrasing: \"someone with depression\", \"she lives with anxiety\", \"he was diagnosed with ADHD\". \"Commit suicide\" is increasingly replaced by \"die by suicide\" or \"take their own life\".",
         ],
@@ -941,9 +941,11 @@ export const EN_C2_U29: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Me llevé un chasco tremendo cuando suspendieron el partido.",
-        answer: "I was really disappointed when the match was called off.",
+        answer: "I was really disappointed when the game was called off.",
         altAnswers: [
-          "I was really disappointed when the game was called off.",
+          "I was really disappointed when the match was called off.",
+          "I was very disappointed when the game was called off.",
+          "I was very disappointed when the match was called off.",
           "I was really disappointed when they called off the match.",
           "I was really disappointed when they called off the game.",
           "I was really disappointed when the match was canceled.",
@@ -1353,7 +1355,7 @@ export const EN_C2_U29: Lesson[] = [
         body: [
           "\"Preoccupied\" means «absorto» or «distraído», with your mind on something else: \"She seemed preoccupied during dinner.\" It does not mean worried. «Preocupado» is \"worried\" or \"concerned\".",
           "\"Deception\" means «engaño»: \"The whole scheme was based on deception.\" «Decepción» is \"disappointment\", and «decepcionar» is \"disappoint\" or \"let down\". *It was a big deception sounds like fraud, not like sadness.",
-          "Two more to keep an eye on: \"pretend\" means «fingir» (not «pretender», which is \"intend\" or \"aim\"), and \"to be constipated\" means «estar estreñido», not «estar constipado» (\"have a cold\").",
+          "Two more to keep an eye on: \"pretend\" means «fingir» (not «pretender», which is \"intend\" or \"aim\"), and \"to be constipated\" means «estar estreñido», not «estar resfriado» (\"have a cold\"; in Spain also «estar constipado»).",
         ],
         examples: [
           { es: "You look preoccupied. Is everything all right?", en: "Te veo distraído. ¿Va todo bien?" },
@@ -2168,10 +2170,10 @@ export const EN_C2_U29: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "Se encogió de hombros y miró por la ventana.",
-            answer: "She shrugged and looked out of the window.",
+            answer: "She shrugged and looked out the window.",
             altAnswers: [
               "He shrugged and looked out of the window.",
-              "She shrugged and looked out the window.",
+              "She shrugged and looked out of the window.",
               "He shrugged and looked out the window.",
               "She shrugged and stared out of the window.",
               "He shrugged and stared out of the window.",

@@ -71,7 +71,7 @@ export const EN_C2_U15_EXTRA: Lesson[] = [
         examples: [
           { es: "Let's turn now to the results.", en: "Pasemos ahora a los resultados. (acento en \"results\")" },
           { es: "That leads me to my third point.", en: "Eso me lleva a mi tercer punto. (acento en \"third\")" },
-          { es: "We didn't cut prices; we cut costs.", en: "No bajamos los precios; recortamos los costes. (contraste: \"prices\" / \"costs\")" },
+          { es: "We didn't cut prices; we cut costs.", en: "No bajamos los precios; recortamos los costos. (contraste: \"prices\" / \"costs\")" },
           { es: "If you remember one thing from today, remember this.", en: "Si recuerdan una sola cosa de hoy, que sea esta." },
           { es: "It isn't a technical problem. It's a people problem.", en: "No es un problema técnico. Es un problema de personas." },
         ],
@@ -124,7 +124,7 @@ export const EN_C2_U15_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Hasta ahora, hemos visto que los costes están bajo control.",
+        source: "Hasta ahora, hemos visto que los costos están bajo control.",
         answer: "So far, we've seen that costs are under control.",
         altAnswers: [
           "So far we have seen that costs are under control.",

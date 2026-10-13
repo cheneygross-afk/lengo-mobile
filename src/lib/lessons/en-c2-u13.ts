@@ -172,7 +172,7 @@ export const EN_C2_U13: Lesson[] = [
         ],
         examples: [
           { es: "There's some truth in that, but it's only part of the story.", en: "Algo de verdad hay en eso, pero es solo parte de la historia." },
-          { es: "You have a point. Even so, the costs outweigh the benefits.", en: "Tienes razón en parte. Aun así, los costes superan a los beneficios." },
+          { es: "You have a point. Even so, the costs outweigh the benefits.", en: "Tienes razón en parte. Aun así, los costos superan a los beneficios." },
           { es: "That may well be true, but it doesn't follow that we should ban it.", en: "Puede que sea verdad, pero de ahí no se deduce que debamos prohibirlo." },
           { es: "I accept the premise entirely; it's the conclusion I take issue with.", en: "Acepto la premisa por completo; es con la conclusión con la que no estoy de acuerdo." },
           { es: "Admittedly, the policy is popular. Popularity, however, is not evidence.", en: "Hay que reconocer que la política es popular. La popularidad, sin embargo, no es una prueba." },
@@ -226,7 +226,7 @@ export const EN_C2_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "Your proposal ___ the fact that the building is listed.",
+        sentence: "Your proposal ___ the fact that the building is a protected landmark.",
         answer: "overlooks",
         altAnswers: ["ignores", "fails to take into account", "disregards", "fails to consider"],
         en: "Tu propuesta [pasa por alto] el hecho de que el edificio está protegido.",
@@ -449,7 +449,7 @@ export const EN_C2_U13: Lesson[] = [
             sentence: "The reform was a success ___ it cut costs.",
             answer: "insofar as",
             altAnswers: ["in so far as", "inasmuch as", "to the extent that"],
-            en: "La reforma fue un éxito [en la medida en que] redujo los costes.",
+            en: "La reforma fue un éxito [en la medida en que] redujo los costos.",
             explanation: "«En la medida en que» limits the scope of the claim: \"insofar as\" or \"to the extent that\".",
           },
         ],
@@ -827,7 +827,7 @@ export const EN_C2_U13: Lesson[] = [
               "This law is unjust, according to most legal scholars.",
             ],
             correctIndex: 0,
-            explanation: "\"Unjust because it is unfair\" simply restates the claim as its own reason: circular reasoning. The second option gives a real reason, the third uses \"raises the question\", and the fourth appeals to authority.",
+            explanation: "\"Unjust because it is unfair\" simply restates the claim as its own reason: circular reasoning. \"Because it punishes people for being poor\" gives a real reason, \"which raises the question\" is not an argument at all, and \"according to most legal scholars\" appeals to authority.",
           },
           {
             type: "translate",
@@ -931,7 +931,7 @@ export const EN_C2_U13: Lesson[] = [
           "These figures beg the question of why costs have risen so fast.",
         ],
         correctIndex: 0,
-        explanation: "Only the first option assumes what it claims to prove. The other three mean \"raise the question\", the popular use that many editors correct.",
+        explanation: "Only the definition of a good leader as someone who leads well assumes what it claims to prove. The other three mean \"raise the question\", the popular use that many editors correct.",
       },
       {
         type: "translate",
@@ -970,7 +970,7 @@ export const EN_C2_U13: Lesson[] = [
           "Each example is clear and realistic",
           "Uses \"raises the question\" correctly if it appears",
         ],
-        modelAnswer: "A false dilemma presents only two options when more exist, so the listener feels forced to choose: \"Either we build the new motorway or the town dies.\" In reality, the town could invest in rail or tourism. An ad hominem attack targets the person rather than the argument, as if a flaw in the speaker made their reasoning wrong: \"Don't listen to her views on housing; she's never even owned a home.\" Whether she owns a home has no bearing on whether her argument is sound.",
+        modelAnswer: "A false dilemma presents only two options when more exist, so the listener feels forced to choose: \"Either we build the new highway or the town dies.\" In reality, the town could invest in rail or tourism. An ad hominem attack targets the person rather than the argument, as if a flaw in the speaker made their reasoning wrong: \"Don't listen to her views on housing; she's never even owned a home.\" Whether she owns a home has no bearing on whether her argument is sound.",
         explanation: "A good definition says not only what the fallacy does but why it fails as reasoning.",
       },
     ],
@@ -1121,7 +1121,7 @@ export const EN_C2_U13: Lesson[] = [
           "A weak argument usually fails in one of four ways: the claim is vague (\"Technology is bad\"), the reasons are missing, the evidence is anecdotal (\"My cousin...\"), or the obvious objection is never answered. Repair it by making the claim specific, adding a reason, replacing the anecdote with data, and pre-empting the objection.",
         ],
         examples: [
-          { es: "On balance, the benefits clearly outweigh the costs.", en: "En conjunto, los beneficios superan claramente a los costes." },
+          { es: "On balance, the benefits clearly outweigh the costs.", en: "En conjunto, los beneficios superan claramente a los costos." },
           { es: "In light of the above, the proposal should be adopted.", en: "A la luz de lo expuesto, debería adoptarse la propuesta." },
           { es: "All things considered, it was the right decision.", en: "Bien mirado, fue la decisión correcta." },
           { es: "In the end, the committee rejected the plan.", en: "Al final, el comité rechazó el plan." },
@@ -1193,7 +1193,7 @@ export const EN_C2_U13: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Sin embargo, esta objeción no tiene en cuenta el coste de no hacer nada.",
+        source: "Sin embargo, esta objeción no tiene en cuenta el costo de no hacer nada.",
         answer: "However, this objection fails to take into account the cost of doing nothing.",
         altAnswers: [
           "However, this objection does not take into account the cost of doing nothing.",
@@ -1254,7 +1254,7 @@ export const EN_C2_U13: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Pasando ahora a la cuestión del coste, el panorama es menos claro.",
+        source: "Pasando ahora a la cuestión del costo, el panorama es menos claro.",
         answer: "Turning now to the question of cost, the picture is less clear.",
         altAnswers: [
           "Turning now to the issue of cost, the picture is less clear.",
@@ -1727,7 +1727,7 @@ export const EN_C2_U13: Lesson[] = [
               "Tell me about it!",
             ],
             correctIndex: 0,
-            explanation: "In a seminar, disagreement should target the evidence and be precise. The other options are too blunt or, in the last case, signal agreement.",
+            explanation: "In a seminar, disagreement should target the evidence and be precise. The other options are too blunt or, like \"Tell me about it!\", signal agreement.",
           },
         ],
       },
@@ -2185,7 +2185,7 @@ export const EN_C2_U13: Lesson[] = [
         examples: [
           { es: "Suppose we accept that the figures are correct. What follows?", en: "Supongamos que aceptamos que las cifras son correctas. ¿Qué se deduce de ello?" },
           { es: "Let us suppose, for the sake of argument, that you are right.", en: "Supongamos, a efectos dialécticos, que tienes razón." },
-          { es: "The reform hasn't reduced costs. If anything, it has increased them.", en: "La reforma no ha reducido los costes. En todo caso, los ha aumentado." },
+          { es: "The reform hasn't reduced costs. If anything, it has increased them.", en: "La reforma no ha reducido los costos. En todo caso, los ha aumentado." },
           { es: "If anything, the situation is worse than before.", en: "Si acaso, la situación es peor que antes." },
           { es: "Suppose we raised the price. Would anyone notice?", en: "Supongamos que subiéramos el precio. ¿Lo notaría alguien?" },
         ],
@@ -2425,7 +2425,7 @@ export const EN_C2_U13: Lesson[] = [
           "Uses \"if anything\" or \"suppose\" to advance the argument",
           "Ends with a clear proposal",
         ],
-        modelAnswer: "Had we acted ten years ago, our air would already be cleaner. Suppose we accept that some shops will lose customers at first; experience from other cities suggests that, if anything, footfall rises once streets are pedestrianized. Should the scheme fail, it can be reversed. I therefore propose that private cars be banned from the historic center for a one-year trial, and that the results be published in full.",
+        modelAnswer: "Had we acted ten years ago, our air would already be cleaner. Suppose we accept that some shops will lose customers at first; experience from other cities suggests that, if anything, foot traffic rises once streets are pedestrianized. Should the scheme fail, it can be reversed. I therefore propose that private cars be banned from the historic center for a one-year trial, and that the results be published in full.",
         explanation: "Conditionals and the subjunctive let you argue about possibilities and make proposals with precision and authority.",
       },
     ],
@@ -2457,7 +2457,7 @@ export const EN_C2_U13: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Hay que reconocer que es caro. Aun así, merece la pena.",
+            source: "Hay que reconocer que es caro. Aun así, vale la pena.",
             answer: "Admittedly, it's expensive. Even so, it's worth it.",
             altAnswers: [
               "Admittedly, it is expensive. Even so, it is worth it.",
@@ -2472,7 +2472,7 @@ export const EN_C2_U13: Lesson[] = [
               "Granted, it's costly. Even so, it's worth it.",
               "Admittedly, it's expensive. Even so, it's worth the money.",
             ],
-            explanation: "Concession (\"Admittedly\") + pivot (\"Even so\"). «Merecer la pena» is \"be worth it\", never *deserve the pain.",
+            explanation: "Concession (\"Admittedly\") + pivot (\"Even so\"). «Valer la pena» is \"be worth it\".",
           },
         ],
       },
@@ -2511,7 +2511,7 @@ export const EN_C2_U13: Lesson[] = [
         examples: [
           { es: "Critics will argue that it's too expensive.", en: "Los críticos dirán que es demasiado caro." },
           { es: "I take your point, but I see it differently.", en: "Entiendo lo que dices, pero yo lo veo de otra manera." },
-          { es: "On balance, the benefits outweigh the costs.", en: "En conjunto, los beneficios superan a los costes." },
+          { es: "On balance, the benefits outweigh the costs.", en: "En conjunto, los beneficios superan a los costos." },
         ],
         checkpoint: [
           {

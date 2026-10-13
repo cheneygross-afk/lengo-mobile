@@ -177,7 +177,7 @@ export const EN_C2_U23: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "I think we both need ___.",
         answer: "a breather",
-        altAnswers: ["a break", "a breath", "a moment", "a pause"],
+        altAnswers: ["a break", "a breather", "a moment", "a pause"],
         en: "Creo que los dos necesitamos [un respiro].",
         explanation: "\"A breather\" is the idiomatic word for a short pause to recover, informal but perfectly acceptable at work.",
       },
@@ -274,7 +274,7 @@ export const EN_C2_U23: Lesson[] = [
         body: [
           "In a dispute you can recognize that someone's feelings are real, or that their argument makes sense from where they stand, without accepting that they are right. Keeping these two things apart is one of the most useful skills in negotiation, customer service and management.",
           "Acknowledging phrases: \"I hear what you're saying\", \"I hear you\", \"I understand why you'd see it that way\", \"I can see where you're coming from\", \"I can see why that would be upsetting\". None of them says \"you're right\".",
-          "Spanish «tienes razón» is a concession; «te entiendo» is not. English works the same way, but learners sometimes say \"You're right\" as a mere politeness, the way «vale» or «claro» can fill a pause. In English that can later be quoted back as an admission.",
+          "Spanish «tienes razón» is a concession; «te entiendo» is not. English works the same way, but learners sometimes say \"You're right\" as a mere politeness, the way «claro» or «sí, sí» can fill a pause. In English that can later be quoted back as an admission.",
         ],
         examples: [
           { es: "I hear what you're saying.", en: "Entiendo lo que dices. (no implica estar de acuerdo)" },
@@ -352,7 +352,7 @@ export const EN_C2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which continuation keeps the other person's point alive instead of cancelling it?",
+            question: "Which continuation keeps the other person's point alive instead of canceling it?",
             options: [
               "That's a fair point, and we also need to think about cost.",
               "That's a fair point, but it's irrelevant.",
@@ -501,7 +501,7 @@ export const EN_C2_U23: Lesson[] = [
         type: "speak",
         text: "That's a fair point, and I think we also need to look at the budget.",
         tip: "Do not pause or stress \"and\": let it flow, so it sounds like an addition, not an objection.",
-        explanation: "\"That's a fair point, and...\" grants their argument and adds yours without cancelling theirs.",
+        explanation: "\"That's a fair point, and...\" grants their argument and adds yours without canceling theirs.",
       },
     ],
   },
@@ -1063,15 +1063,15 @@ export const EN_C2_U23: Lesson[] = [
     level: "EN-C2",
     number: 5,
     title: "Conflict resolution, Part 5 of 7: I-statements and difficult feedback",
-    summary: "Giving critical feedback without blame: describing behavior instead of character, real and fake I-statements, the situation-behaviour-impact model and softeners such as I wonder whether...",
+    summary: "Giving critical feedback without blame: describing behavior instead of character, real and fake I-statements, the situation-behavior-impact model and softeners such as I wonder whether...",
     duration: "12 min",
     sections: [
       {
         heading: "Describe the behavior, not the person",
         body: [
           "Criticism that targets character (\"You're so disorganized\", \"You're lazy\", \"You never listen\") forces the other person to defend their identity, so the conversation stops being about the problem.",
-          "Feedback that describes observable behaviour is harder to argue with and easier to act on: \"The last two reports arrived after the deadline\", \"In the meeting, you checked your phone while Ana was presenting\".",
-          "Spanish often uses «ser» + adjective or a noun label for behaviour («eres un desastre», «eres un impuntual»). Translated literally, these sound much harsher in English than they may feel in Spanish. Translate the facts instead.",
+          "Feedback that describes observable behavior is harder to argue with and easier to act on: \"The last two reports arrived after the deadline\", \"In the meeting, you checked your phone while Ana was presenting\".",
+          "Spanish often uses «ser» + adjective or a noun label for behavior («eres un desastre», «eres un impuntual»). Translated literally, these sound much harsher in English than they may feel in Spanish. Translate the facts instead.",
         ],
         examples: [
           { es: "You're so disorganized.", en: "Eres un desastre. (ataca a la persona)" },
@@ -1098,7 +1098,7 @@ export const EN_C2_U23: Lesson[] = [
       {
         heading: "Real and fake I-statements",
         body: [
-          "An I-statement reports your own reaction instead of judging the other person: \"I feel + emotion + when + behaviour (+ because + impact)\". For example: \"I feel frustrated when meetings start late, because I lose time I'd planned for other work.\"",
+          "An I-statement reports your own reaction instead of judging the other person: \"I feel + emotion + when + behavior (+ because + impact)\". For example: \"I feel frustrated when meetings start late, because I lose time I'd planned for other work.\"",
           "Beware the fake I-statement: \"I feel that you're lazy\" or \"I feel like you don't care\". \"Feel that\" and \"feel like\" introduce an opinion, so these are just accusations with \"I\" in front. A true I-statement uses an emotion word: frustrated, worried, stressed, let down, undervalued.",
           "Spanish «siento que no me escuchas» is the same trap. Even \"I feel that my ideas aren't being heard\" still passes a verdict; \"I feel frustrated when I can't finish my point\" does not.",
         ],
@@ -1140,7 +1140,7 @@ export const EN_C2_U23: Lesson[] = [
       {
         heading: "Situation, behavior, impact",
         body: [
-          "The situation-behaviour-impact (SBI) model gives feedback a clear shape. Situation: when and where (\"In yesterday's client meeting\"). Behaviour: what the person did, as a camera would record it (\"you interrupted Ana three times\"). Impact: the effect (\"and she didn't get to present her figures\").",
+          "The situation-behavior-impact (SBI) model gives feedback a clear shape. Situation: when and where (\"In yesterday's client meeting\"). Behavior: what the person did, as a camera would record it (\"you interrupted Ana three times\"). Impact: the effect (\"and she didn't get to present her figures\").",
           "Then open the conversation instead of closing it: \"How did you see it?\", \"Was there something going on that I'm not aware of?\", \"What do you think would help?\".",
           "SBI works for positive feedback too, and it is more convincing than a vague \"Great job\": \"In the presentation, you answered the CFO's questions with the exact figures, and it really reassured the client.\"",
         ],
@@ -1167,7 +1167,7 @@ export const EN_C2_U23: Lesson[] = [
               "You interrupted Ana three times at yesterday's meeting.",
               "You interrupted Ana three times at the meeting yesterday.",
             ]),
-            explanation: "Situation and behaviour, stated as plain facts with the past simple. \"Yesterday's meeting\" is more natural than *the meeting of yesterday.",
+            explanation: "Situation and behavior, stated as plain facts with the past simple. \"Yesterday's meeting\" is more natural than *the meeting of yesterday.",
           },
         ],
       },
@@ -1176,7 +1176,7 @@ export const EN_C2_U23: Lesson[] = [
         body: [
           "Softeners make difficult feedback easier to hear without hiding the message: \"I've noticed that...\", \"I wonder whether...\", \"It might help if...\", \"Would you be open to...?\", \"Have you thought about...?\".",
           "The past continuous softens even more: \"I was wondering if we could talk about the deadlines\" is gentler than \"I want to talk about the deadlines\". «Me preguntaba si» works the same way in Spanish.",
-          "Do not soften so much that the message disappears. After the softener, the behaviour and the request should still be unmistakable.",
+          "Do not soften so much that the message disappears. After the softener, the behavior and the request should still be unmistakable.",
         ],
         examples: [
           { es: "I've noticed that you've been quieter in meetings lately.", en: "He notado que últimamente hablas menos en las reuniones." },
@@ -1225,7 +1225,7 @@ export const EN_C2_U23: Lesson[] = [
           "Everyone thinks you're disorganized.",
         ],
         correctIndex: 0,
-        explanation: "The first describes specific behaviour and its impact. The others label the person, and \"I feel that\" is a fake I-statement.",
+        explanation: "The first describes specific behavior and its impact. The others label the person, and \"I feel that\" is a fake I-statement.",
       },
       {
         type: "translate",
@@ -1287,7 +1287,7 @@ export const EN_C2_U23: Lesson[] = [
         question: "In the SBI model, which part is \"so the client had to wait an extra week for the proposal\"?",
         options: ["Impact", "Situation", "Behavior", "Request"],
         correctIndex: 0,
-        explanation: "The impact is the consequence of the behaviour: here, the effect on the client.",
+        explanation: "The impact is the consequence of the behavior: here, the effect on the client.",
       },
       {
         type: "dictation",
@@ -1296,11 +1296,11 @@ export const EN_C2_U23: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "A colleague, Carlos, has arrived late to the last four team meetings, and twice the team has had to repeat the main points for him. Write what you would say to him in a private conversation, using the situation-behaviour-impact model, an I-statement and an open question.",
+        prompt: "A colleague, Carlos, has arrived late to the last four team meetings, and twice the team has had to repeat the main points for him. Write what you would say to him in a private conversation, using the situation-behavior-impact model, an I-statement and an open question.",
         minWords: 60,
         maxWords: 110,
         rubric: [
-          "Describes the situation and the behaviour as specific facts, with no labels",
+          "Describes the situation and the behavior as specific facts, with no labels",
           "States the impact on the team",
           "Includes a genuine I-statement (feel + emotion), not \"I feel that you...\"",
           "Ends with an open question or an invitation to find a solution together",
@@ -1356,7 +1356,7 @@ export const EN_C2_U23: Lesson[] = [
             answer: "ground rules",
             altAnswers: ["basic rules", "rules"],
             en: "Acordemos unas [normas básicas] antes de empezar.",
-            explanation: "\"Ground rules\" are the basic rules of behaviour for a meeting or process.",
+            explanation: "\"Ground rules\" are the basic rules of behavior for a meeting or process.",
           },
         ],
       },
@@ -1370,7 +1370,7 @@ export const EN_C2_U23: Lesson[] = [
         examples: [
           { es: "So what I'm hearing is that you felt left out of the decision.", en: "Entonces, lo que oigo es que te sentiste excluido de la decisión." },
           { es: "So you'd like to have more say in decisions.", en: "O sea, que te gustaría tener más voz en las decisiones." },
-          { es: "It sounds like what matters to you is reliability.", en: "Parece que lo que te importa es la fiabilidad." },
+          { es: "It sounds like what matters to you is reliability.", en: "Parece que lo que te importa es la confiabilidad." },
           { es: "If I've understood correctly, your main concern is the workload.", en: "Si lo he entendido bien, tu principal preocupación es la carga de trabajo." },
           { es: "Have I got that right?", en: "¿Lo he entendido bien?" },
         ],
@@ -1932,7 +1932,7 @@ export const EN_C2_U23: Lesson[] = [
           { es: "Sorry about that. I'll fix it now.", en: "Perdona. Lo arreglo ahora mismo." },
           { es: "Apologies for the delay in getting back to you.", en: "Disculpa la tardanza en responderte." },
           { es: "I'm sorry to hear that.", en: "Siento oír eso. / Cuánto lo siento." },
-          { es: "I'm so sorry for your loss.", en: "Te acompaño en el sentimiento." },
+          { es: "I'm so sorry for your loss.", en: "Lamento mucho tu pérdida." },
         ],
         checkpoint: [
           {
@@ -2347,7 +2347,7 @@ export const EN_C2_U23: Lesson[] = [
       {
         type: "speak",
         text: "I wish I hadn't said that. I should have stayed calm.",
-        tip: "Use the weak forms: \"hadn't\" /ˈhædnt/ and \"should've\" /ˈʃʊdəv/, linked smoothly to the next word.",
+        tip: "Use the contractions: \"hadn't\" /ˈhædnt/ and \"should've\" /ˈʃʊdəv/, linked smoothly to the next word.",
         explanation: "Combining a wish and a \"should have\" is a natural way to admit regret after an argument.",
       },
     ],
@@ -2365,7 +2365,7 @@ export const EN_C2_U23: Lesson[] = [
       {
         heading: "Past obligation and necessity: had to, needn't have, didn't need to",
         body: [
-          "\"Must\" has no past form for obligation. «Tuve que» / «tenía que» is \"had to\": \"I had to cancel the meeting.\" *I must cancel the meeting yesterday is impossible, and \"I must have cancelled it\" means «seguro que la cancelé», a deduction.",
+          "\"Must\" has no past form for obligation. «Tuve que» / «tenía que» is \"had to\": \"I had to cancel the meeting.\" *I must cancel the meeting yesterday is impossible, and \"I must have canceled it\" means «seguro que la cancelé», a deduction.",
           "Quick reminder from the spiral review: \"needn't have\" + participle = you did it, but it was unnecessary («no hacía falta que lo hicieras»). \"Didn't need to\" + infinitive usually means it was unnecessary, and often that you therefore didn't do it.",
           "In a conflict this distinction matters: \"You needn't have apologized\" is generous («no hacía falta que te disculparas»); \"You didn't need to shout\" is a reproach.",
         ],
@@ -2445,12 +2445,12 @@ export const EN_C2_U23: Lesson[] = [
       {
         heading: "Might as well, could do with, would have liked to",
         body: [
-          "\"Might as well\" / \"may as well\" suggests something because there is no better option or nothing to lose: «ya puestos», «total, que...». \"The train's cancelled, so we might as well get a coffee.\" It sounds relaxed, sometimes resigned.",
+          "\"Might as well\" / \"may as well\" suggests something because there is no better option or nothing to lose: «ya puestos», «total, que...». \"The train's canceled, so we might as well get a coffee.\" It sounds relaxed, sometimes resigned.",
           "\"Could do with\" + noun means «no me vendría mal», «me hace falta»: \"I could do with a break.\" It is softer and more natural than \"I need\".",
           "\"Would have liked to\" + infinitive expresses a past wish that wasn't fulfilled: \"I would have liked to explain my side\" («me habría gustado explicar mi versión»). Avoid the double perfect *would have liked to have explained in careful writing; it is common in speech but redundant.",
         ],
         examples: [
-          { es: "The meeting's been cancelled, so we might as well go home.", en: "Han cancelado la reunión, así que ya puestos nos vamos a casa." },
+          { es: "The meeting's been canceled, so we might as well go home.", en: "Han cancelado la reunión, así que ya puestos nos vamos a casa." },
           { es: "We may as well start; they're not coming.", en: "Total, que podemos empezar; no van a venir." },
           { es: "I could do with a coffee.", en: "No me vendría mal un café." },
           { es: "This office could do with a coat of paint.", en: "A esta oficina le hace falta una mano de pintura." },
@@ -2481,14 +2481,14 @@ export const EN_C2_U23: Lesson[] = [
               "We must as well walk.",
             ],
             correctIndex: 0,
-            explanation: "\"Might as well\" = there is no better option, so let's do it. \"We might walk as well\" means «puede que también vayamos andando».",
+            explanation: "\"Might as well\" = there is no better option, so let's do it. \"We might walk as well\" means «puede que también vayamos caminando».",
           },
         ],
       },
       {
         heading: "Dare, need, and the many faces of «poder»",
         body: [
-          "\"Dare\" and \"need\" can behave like modals, mostly in negatives and questions, with no \"to\" and no -s: \"How dare you!\", \"I daren't tell him\", \"Need I say more?\", \"You needn't worry.\" They also work as ordinary verbs: \"I don't dare to tell him\", \"You don't need to worry.\"",
+          "\"Dare\" and \"need\" can behave like modals, mostly in negatives and questions, with no \"to\" and no -s: \"How dare you!\", \"I daren't tell him\" (mainly British; Americans usually say \"I don't dare tell him\"), \"Need I say more?\", \"You needn't worry.\" They also work as ordinary verbs: \"I don't dare to tell him\", \"You don't need to worry.\"",
           "«Poder» is translated in many ways, and learners over-use \"can\". Possibility is \"may\", \"might\" or \"could\": «Puede que llueva» = \"It may rain\" (never *It can rain, which means it is possible in general). Past ability on one occasion is \"managed to\" or \"was able to\": «Por fin pude hablar con ella» = \"I finally managed to speak to her\" (*I finally could speak to her sounds wrong).",
           "«Podrías haberme avisado» is a reproach: \"You could have warned me.\" «Pudo haber sido peor» is \"It could have been worse.\" «No pude evitarlo» is \"I couldn't help it.\"",
         ],
@@ -2705,7 +2705,7 @@ export const EN_C2_U23: Lesson[] = [
         body: [
           "A real apology names the action, owns it, recognizes the impact and offers repair. Non-apologies hide behind \"if\", \"but\", \"you feel\" or the passive (\"Mistakes were made\").",
           "To find middle ground, explore interests, propose tentatively (\"What if we...?\") and use \"meet halfway\", \"split the difference\" and \"give and take\". Remember: a \"compromise\" is a mutual concession; «compromiso» is usually \"commitment\" or \"plans\".",
-          "Give feedback with facts and genuine I-statements (\"I feel\" + emotion), following situation, behaviour and impact, and soften with \"I was wondering if...\".",
+          "Give feedback with facts and genuine I-statements (\"I feel\" + emotion), following situation, behavior and impact, and soften with \"I was wondering if...\".",
         ],
         examples: [
           { es: "I'm sorry I missed the deadline. That's on me.", en: "Siento no haber cumplido el plazo. Es culpa mía." },
@@ -2810,7 +2810,7 @@ export const EN_C2_U23: Lesson[] = [
           ["I felt ignored", "I felt left out", "I felt sidelined", "I felt overlooked"],
           ["when the decision was made without consulting me.", "when the decision was taken without consulting me.", "when the decision was made without me being consulted.", "when the decision was taken without me being consulted.", "when the decision was made without my being consulted.", "when the decision was made without anyone consulting me.", "when they made the decision without consulting me.", "when the decision was made without asking me.", "when they made the decision without asking me."],
         ),
-        explanation: "A genuine I-statement: \"I felt\" + emotion + \"when\" + specific behaviour. «Tomar una decisión» is \"make a decision\" (\"take\" is also used in British English).",
+        explanation: "A genuine I-statement: \"I felt\" + emotion + \"when\" + specific behavior. «Tomar una decisión» is \"make a decision\" (\"take\" is also used in British English).",
       },
       {
         type: "translate",

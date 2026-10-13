@@ -26,7 +26,7 @@ export const EN_C1_U09_EXTRA: Lesson[] = [
         examples: [
           { es: "It took her months to make the decision.", en: "Tardó meses en tomar la decisión. (incorrecto: *do the decision)" },
           { es: "We're doing research on air quality.", en: "Estamos investigando la calidad del aire. (incorrecto: *making researches)" },
-          { es: "I'm taking my final exam on Monday.", en: "El lunes hago el examen final. (incorrecto: *making my exam)" },
+          { es: "I'm taking my final exam on Monday.", en: "El lunes presento el examen final. (incorrecto: *making my exam)" },
           { es: "Let's have a coffee before the meeting.", en: "Tomemos un café antes de la reunión." },
           { es: "We worked all weekend to meet the deadline.", en: "Trabajamos todo el fin de semana para cumplir el plazo." },
         ],
@@ -47,7 +47,7 @@ export const EN_C1_U09_EXTRA: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Si no cumplimos el plazo, perderemos el cliente.",
+            source: "Si no cumplimos el plazo, perderemos al cliente.",
             answer: "If we don't meet the deadline, we'll lose the client.",
             altAnswers: [
               "If we don't meet the deadline, we will lose the customer.",
@@ -60,19 +60,19 @@ export const EN_C1_U09_EXTRA: Lesson[] = [
               "We'll lose the client if we miss the deadline.",
               "We'll lose the customer if we miss the deadline.",
             ],
-            explanation: "«Cumplir un plazo» is \"meet a deadline\"; the opposite is \"miss a deadline\". *Fulfil a deadline and *comply a deadline are calques.",
+            explanation: "«Cumplir un plazo» is \"meet a deadline\"; the opposite is \"miss a deadline\". *Fulfill a deadline and *comply a deadline are calques.",
           },
         ],
       },
       {
         heading: "Exams, harm and coffee: three classic traps",
         body: [
-          "A student \"takes\" an exam (British English also says \"sits\" an exam); a teacher \"sets\" or \"gives\" one. If you \"pass\" an exam, you get a good enough mark: «aprobar». So *I'm passing my exam tomorrow does not mean «mañana hago el examen».",
+          "A student \"takes\" an exam (British English also says \"sits\" an exam); a teacher \"sets\" or \"gives\" one. If you \"pass\" an exam, you get a good enough grade: «aprobar». So *I'm passing my exam tomorrow does not mean «mañana hago el examen».",
           "«Hacer daño» depends on the meaning. Physical pain is \"hurt\": \"My back hurts\", \"You're hurting me\". General negative effects are \"do harm\" or \"do damage\": \"A little sugar won't do you any harm\". Never *make damage or *make harm.",
           "«Tomar un café» is \"have a coffee\" (or informally \"grab a coffee\" or \"get a coffee\"). *Take a coffee sounds as if you are picking up a cup and carrying it away.",
         ],
         examples: [
-          { es: "She took the exam again and passed.", en: "Volvió a hacer el examen y aprobó." },
+          { es: "She took the exam again and passed.", en: "Volvió a presentar el examen y aprobó." },
           { es: "A bit of exercise never did anyone any harm.", en: "Un poco de ejercicio nunca le ha hecho daño a nadie." },
           { es: "Careful, you're hurting me!", en: "¡Cuidado, me estás haciendo daño!" },
           { es: "Do you want to grab a coffee?", en: "¿Quieres tomar un café?" },
@@ -358,7 +358,7 @@ export const EN_C1_U09_EXTRA: Lesson[] = [
           "*Strong rain and *big traffic are understood, but they sound foreign. In formal writing, \"big\" also sounds too casual with abstract nouns: write \"a high risk\", \"a major problem\", \"a significant increase\".",
         ],
         examples: [
-          { es: "The match was cancelled because of heavy rain.", en: "Suspendieron el partido por las fuertes lluvias. (incorrecto: *strong rain)" },
+          { es: "The game was canceled because of heavy rain.", en: "Suspendieron el partido por las fuertes lluvias. (incorrecto: *strong rain)" },
           { es: "He speaks English with a strong Scottish accent.", en: "Habla inglés con un fuerte acento escocés." },
           { es: "Patients with diabetes are at high risk.", en: "Los pacientes con diabetes corren un riesgo alto." },
           { es: "There has been a sharp fall in sales.", en: "Ha habido una fuerte caída de las ventas." },
@@ -561,12 +561,12 @@ export const EN_C1_U09_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Correct the learner: *There was a strong rain all night, so the match was cancelled.",
+        question: "Correct the learner: *There was a strong rain all night, so the game was canceled.",
         options: [
-          "There was heavy rain all night, so the match was cancelled.",
-          "There was a big rain all night, so the match was cancelled.",
-          "There was a thick rain all night, so the match was cancelled.",
-          "There was a powerful rain all night, so the match was cancelled.",
+          "There was heavy rain all night, so the game was canceled.",
+          "There was a big rain all night, so the game was canceled.",
+          "There was a thick rain all night, so the game was canceled.",
+          "There was a powerful rain all night, so the game was canceled.",
         ],
         correctIndex: 0,
         explanation: "Rain, snow and traffic are \"heavy\". \"Rain\" is normally uncountable, so drop the \"a\" too.",
@@ -816,7 +816,7 @@ export const EN_C1_U09_EXTRA: Lesson[] = [
           { left: "rely on", right: "contar con" },
           { left: "object to", right: "oponerse a" },
         ],
-        explanation: "None of these prepositions matches the Spanish one: \"keen on\", \"succeed in\", \"rely on\", \"object to\". Learn them as chunks.",
+        explanation: "These four prepositions don't match the Spanish one: \"keen on\", \"succeed in\", \"rely on\", \"object to\". Learn them as chunks.",
       },
       {
         type: "multiple-choice",

@@ -1316,7 +1316,7 @@ export const EN_C1_U05_DRILLS: Lesson[] = [
         "likelihood",
         "[Con toda probabilidad], la tienda cerrará antes de Navidad.",
         [],
-        "\"In all likelihood\" is formal and means «casi con seguridad». *In all probability exists too, but \"likelihood\" is the fixed phrase here.",
+        "\"In all likelihood\" is formal and means «casi con seguridad». \"In all probability\" also exists, but \"likelihood\" is the more common fixed phrase.",
       ),
       wo(
         "The odds are that interest rates will fall.",

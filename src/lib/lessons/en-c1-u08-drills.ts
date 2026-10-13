@@ -638,10 +638,10 @@ export const EN_C1_U08_DRILLS: Lesson[] = [
           "I won't go unless you don't come with me.",
           "I won't go unless you will come with me.",
           "I won't go unless you come with me.",
-          "I won't go if you won't come with me.",
+          "I won't go unless you won't come with me.",
         ],
         correctIndex: 2,
-        explanation: "\"Unless\" contains the negative already, so *unless you don't come has a double negative. \"I won't go if you don't come with me\" is the other correct option.",
+        explanation: "\"Unless\" contains the negative already, so *unless you don't come has a double negative. \"I won't go if you don't come with me\" would also be correct.",
       },
       {
         type: "translate",
@@ -1751,7 +1751,7 @@ export const EN_C1_U08_DRILLS: Lesson[] = [
         source: "¿Y cómo piensas pagarlo?",
         answer: "And how do you propose to pay for it?",
         altAnswers: ["How do you propose to pay for it?"],
-        explanation: "\"Propose\" + to-infinitive means «pensar hacer», «tener la intención de», often in a slightly sceptical question. Note \"pay FOR it\".",
+        explanation: "\"Propose\" + to-infinitive means «pensar hacer», «tener la intención de», often in a slightly skeptical question. Note \"pay FOR it\".",
       },
       {
         type: "fill-blank",
@@ -2050,7 +2050,7 @@ export const EN_C1_U08_DRILLS: Lesson[] = [
         question: "Complete: \"If I ___ you, I'd take the job.\"",
         options: ["was", "am", "were", "would be"],
         correctIndex: 2,
-        explanation: "\"If I were you\" is a fixed phrase for advice: \"was\" is not used in it, even informally. «Yo que tú» / «si fuera tú».",
+        explanation: "\"If I were you\" is the standard fixed phrase for advice: \"If I was you\" is heard in casual speech but sounds careless, so always use \"were\" here. «Yo que tú» / «si fuera tú».",
       },
       {
         type: "fill-blank",
@@ -2348,7 +2348,7 @@ export const EN_C1_U08_DRILLS: Lesson[] = [
           "street",
           "overnight.",
         ],
-        translation: "El ayuntamiento pidió que los vecinos no estacionaran en la calle durante la noche.",
+        translation: "El municipio pidió que los vecinos no estacionaran en la calle durante la noche.",
         explanation: "Negative subjunctive: \"not\" + base form, no \"do\": \"not park\". *didn't park would make it a past fact.",
       },
       {
@@ -3208,8 +3208,6 @@ export const EN_C1_U08_DRILLS: Lesson[] = [
           "If I could speak English better, I would have got that job.",
           "If I were better at English, I would have gotten that job.",
           "If I were better at English, I would have got that job.",
-          "If I were better at English better, I would have gotten that job.",
-          "If I were better at English better, I would have got that job.",
         ],
         explanation: "Mixed conditional: a present condition (\"If I spoke\", a general fact) with a past result (\"would have gotten\").",
       },

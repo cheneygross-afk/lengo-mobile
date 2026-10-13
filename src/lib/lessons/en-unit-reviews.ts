@@ -24,7 +24,8 @@ import { EN_C2_UNIT_WRITING } from "./en-unit-writing-c2";
 //     writing section;
 //   - EN-A1..EN-B2: a 6-question unit quiz from the unit's lessons' final
 //     reviews (up to four from its optional practice lessons, which most
-//     learners haven't seen, the rest from the required lessons);
+//     learners haven't seen, the rest from the required lessons; the
+//     unit's required drills replace the optional lessons when it has them);
 //     EN-C1/C2: three Spanish-to-English translations instead (up to two
 //     from the optional lessons).
 // Sentences for dictation and speaking also come from the optional
@@ -167,9 +168,12 @@ export function withEnglishUnitReview(
     strict: false,
     matched: true,
   };
-  // The unit's optional practice lessons (-extra, -more): fresh variants
-  // of the same grammar, used before the required lessons' own items.
-  const variants = lessons.filter((l) => l.optional && !l.unitReview);
+  // Fresh variants of the unit's grammar, used before the core lessons'
+  // own items: the unit's required drills when it has them (they only
+  // use what the unit teaches), otherwise its optional practice lessons
+  // (-extra, -more), which sometimes go beyond the core lessons.
+  const drills = material.filter((l) => /-unit-drill-\d+$/.test(l.slug));
+  const variants = drills.length ? drills : lessons.filter((l) => l.optional && !l.unitReview);
   const review = buildUnitReview(
     profile,
     { number: unit.number, title: unit.title, lessons: material, variants },

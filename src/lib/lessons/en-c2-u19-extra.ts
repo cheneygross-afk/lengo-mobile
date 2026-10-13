@@ -662,7 +662,7 @@ export const EN_C2_U19_EXTRA: Lesson[] = [
           { es: "Into the room walked the guest of honor.", en: "En la sala entró el invitado de honor." },
           { es: "Here comes the bus.", en: "Ahí viene el autobús." },
           { es: "Off they went, without saying goodbye.", en: "Y se fueron, sin despedirse." },
-          { es: "On the desk lay a sealed envelope.", en: "Sobre la mesa había un sobre cerrado." },
+          { es: "On the desk lay a sealed envelope.", en: "Sobre el escritorio había un sobre cerrado." },
         ],
         checkpoint: [
           {
@@ -875,7 +875,7 @@ export const EN_C2_U19_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Y allá que se fueron, sin decirle nada a nadie.",
+        source: "Y se fueron sin decirle nada a nadie.",
         answer: "Off they went, without saying anything to anyone.",
         altAnswers: [
           "Off they went, without telling anyone.",

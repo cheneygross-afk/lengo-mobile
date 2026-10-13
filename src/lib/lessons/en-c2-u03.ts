@@ -341,7 +341,7 @@ export const EN_C2_U03: Lesson[] = [
         heading: "Two vocabularies for one body",
         body: [
           "English medicine runs on two parallel vocabularies. The clinical one is Latin and Greek, and it looks very familiar to you: \"hypertension\", \"myocardial infarction\", \"epistaxis\", \"herpes zoster\". The lay one is mostly Germanic and everyday: \"high blood pressure\", \"heart attack\", \"nosebleed\", \"shingles\".",
-          "In Spanish the gap is much smaller: patients themselves say «hipertensión», «infarto» or «ictus». So Spanish speakers instinctively choose the Latinate word in English, and an English-speaking patient may not understand it, or may find it cold and alarming. Telling a worried mother that her son has \"epistaxis\" is accurate and useless.",
+          "In Spanish the gap is much smaller: patients themselves say «hipertensión», «infarto» or «ictus» (in Latin America, «derrame cerebral»). So Spanish speakers instinctively choose the Latinate word in English, and an English-speaking patient may not understand it, or may find it cold and alarming. Telling a worried mother that her son has \"epistaxis\" is accurate and useless.",
           "The rule of thumb: with patients and their families, use the lay term (and add the clinical one only if it will appear on paperwork they will read). With colleagues, in notes and in referral letters, use the clinical term.",
         ],
         examples: [
@@ -375,7 +375,7 @@ export const EN_C2_U03: Lesson[] = [
         ],
         examples: [
           { es: "She has high blood pressure.", en: "Tiene la presión alta." },
-          { es: "My grandfather had a stroke last year.", en: "Mi abuelo tuvo un ictus el año pasado." },
+          { es: "My grandfather had a stroke last year.", en: "Mi abuelo tuvo un derrame cerebral el año pasado." },
           { es: "Shingles can be very painful, especially in older people.", en: "El herpes zóster puede ser muy doloroso, sobre todo en personas mayores." },
           { es: "Did you have chickenpox as a child?", en: "¿Pasó la varicela de pequeño?" },
           { es: "Kidney stones are among the most painful conditions there are.", en: "Los cálculos renales están entre las dolencias más dolorosas que existen." },
@@ -446,7 +446,7 @@ export const EN_C2_U03: Lesson[] = [
         body: [
           "Good clinicians translate between the two vocabularies aloud. A common pattern is clinical term + plain gloss: \"You have what we call atrial fibrillation, which means your heart is beating irregularly.\" Or the reverse, plain first and then the term the patient will see on their papers: \"You've got an irregular heartbeat; on your letter it'll say atrial fibrillation.\"",
           "Useful frames: \"what we call...\", \"which means...\", \"in other words...\", \"the medical name for it is...\", \"you might see it written as...\". These soften the jargon and show respect for the patient.",
-          "The reverse also matters: when writing to a colleague, translate the patient's words into clinical ones. \"My heart was going like the clappers\" becomes \"palpitations\"; \"I came over all funny\" becomes \"presyncope\" or \"a near-faint\" depending on what the history reveals.",
+          "The reverse also matters: when writing to a colleague, translate the patient's words into clinical ones. \"My heart was going like the clappers\" (British, informal) becomes \"palpitations\"; \"I came over all funny\" becomes \"presyncope\" or \"a near-faint\" depending on what the history reveals.",
         ],
         examples: [
           { es: "You have what we call atrial fibrillation, which means your heart is beating irregularly.", en: "Tiene lo que llamamos fibrilación auricular, es decir, que el corazón le late de forma irregular." },
@@ -482,7 +482,7 @@ export const EN_C2_U03: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "A mi abuela le dio un ictus y ahora no puede mover el brazo derecho.",
+        source: "A mi abuela le dio un derrame cerebral y ahora no puede mover el brazo derecho.",
         answer: "My grandmother had a stroke, and now she can't move her right arm.",
         altAnswers: [
           "My grandmother had a stroke and now she can't move her right arm.",
@@ -1887,17 +1887,17 @@ export const EN_C2_U03: Lesson[] = [
         body: [
           "Skin: \"a rash\" («sarpullido», «erupción»), \"itching\" or \"itchy\" («picor»), \"a blister\" («ampolla»), \"a lump\" («bulto»), \"swelling\" («hinchazón»). Note that \"swelling\" is a noun (\"There's some swelling\") and \"swollen\" the adjective (\"My ankle is swollen\").",
           "Nerves: \"numbness\" or \"numb\" («entumecimiento», «dormido»), \"tingling\" («hormigueo»), \"pins and needles\", \"dizziness\" or \"dizzy\" («mareo»), \"lightheaded\" («aturdido», feeling faint), \"faint\" («desmayarse»), \"blurred vision\".",
-          "Chest and lungs: \"shortness of breath\", \"breathless\", \"wheezing\" («pitos», «sibilancias»), \"palpitations\", \"a tight chest\". Stomach: \"nausea\" or \"feel sick\" (UK) / \"feel nauseous\" (US), \"vomiting\" or \"throw up\" (informal), \"diarrhea\", \"bloating\" («hinchazón abdominal»), \"heartburn\".",
+          "Chest and lungs: \"shortness of breath\", \"breathless\", \"wheezing\" («silbidos», «sibilancias»), \"palpitations\", \"a tight chest\". Stomach: \"nausea\" or \"feel sick\" (UK) / \"feel nauseous\" (US), \"vomiting\" or \"throw up\" (informal), \"diarrhea\", \"bloating\" («hinchazón abdominal»), \"heartburn\".",
           "«Mareo» needs care: if the room spins, it is \"dizzy\" (clinically \"vertigo\"); if you feel you might vomit, it is \"nauseous\" or \"sick\"; on a boat or in a car, it is \"seasick\" or \"carsick\".",
         ],
         examples: [
-          { es: "I've come out in a rash on my arms.", en: "Me ha salido un sarpullido en los brazos." },
+          { es: "I've broken out in a rash on my arms.", en: "Me ha salido un sarpullido en los brazos." },
           { es: "My ankle is really swollen.", en: "Tengo el tobillo muy hinchado." },
           { es: "My left hand has gone numb.", en: "Se me ha dormido la mano izquierda." },
           { es: "I get a tingling feeling in my toes.", en: "Noto un hormigueo en los dedos de los pies." },
           { es: "I felt lightheaded and thought I was going to faint.", en: "Me sentí aturdido y pensé que me iba a desmayar." },
           { es: "She gets breathless climbing the stairs.", en: "Se queda sin aliento al subir las escaleras." },
-          { es: "I always get carsick on long journeys.", en: "Siempre me mareo en el carro en los viajes largos." },
+          { es: "I always get carsick on long trips.", en: "Siempre me mareo en el carro en los viajes largos." },
         ],
         checkpoint: [
           {
@@ -1934,7 +1934,7 @@ export const EN_C2_U03: Lesson[] = [
           { es: "I sprained my wrist playing volleyball.", en: "Me hice un esguince en la muñeca jugando al voleibol." },
           { es: "She twisted her ankle on the stairs.", en: "Se torció el tobillo en las escaleras." },
           { es: "He kicked me in the shin.", en: "Me dio una patada en la espinilla." },
-          { es: "I've pulled a muscle in my calf.", en: "Me ha dado un tirón en el gemelo." },
+          { es: "I've pulled a muscle in my calf.", en: "Me dio un tirón en la pantorrilla." },
           { es: "Alcohol damages the liver.", en: "El alcohol daña el hígado." },
           { es: "I've hurt my big toe.", en: "Me he hecho daño en el dedo gordo del pie." },
         ],
@@ -1980,10 +1980,10 @@ export const EN_C2_U03: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "I've come out in an itchy ___ all over my back.",
+        sentence: "I've broken out in an itchy ___ all over my back.",
         answer: "rash",
         en: "Me ha salido un [sarpullido] que pica por toda la espalda.",
-        explanation: "\"Come out in a rash\" is the natural verb phrase; a rash can be \"itchy\", \"red\" or \"raised\".",
+        explanation: "\"Break out in a rash\" is the natural verb phrase (British English also says \"come out in a rash\"); a rash can be \"itchy\", \"red\" or \"raised\".",
       },
       {
         type: "translate",
@@ -2018,7 +2018,7 @@ export const EN_C2_U03: Lesson[] = [
         type: "matching",
         instructions: "Match each symptom with its Spanish equivalent.",
         pairs: [
-          { left: "wheezing", right: "pitos al respirar" },
+          { left: "wheezing", right: "silbidos al respirar" },
           { left: "bloating", right: "hinchazón abdominal" },
           { left: "blister", right: "ampolla" },
           { left: "lightheaded", right: "aturdido, a punto de desmayarse" },
@@ -2102,7 +2102,7 @@ export const EN_C2_U03: Lesson[] = [
         ],
         examples: [
           { es: "I've got a cold.", en: "Estoy constipado. (incorrecto: *I'm constipated)" },
-          { es: "I'm all stuffed up and I can't breathe through my nose.", en: "Tengo la nariz taponada y no puedo respirar por ella." },
+          { es: "I'm all stuffed up and I can't breathe through my nose.", en: "Tengo la nariz tapada y no puedo respirar por ella." },
           { es: "I've been constipated for four days.", en: "Llevo cuatro días estreñido." },
           { es: "We all got food poisoning at the wedding.", en: "Todos tuvimos una intoxicación alimentaria en la boda." },
           { es: "He was arrested for driving while intoxicated.", en: "Lo detuvieron por manejar en estado de embriaguez." },
@@ -2389,7 +2389,7 @@ export const EN_C2_U03: Lesson[] = [
         options: [
           "Está estreñido desde que empezó las pastillas nuevas.",
           "Está resfriado desde que empezó las pastillas nuevas.",
-          "Tiene la nariz taponada por las pastillas nuevas.",
+          "Tiene la nariz tapada por las pastillas nuevas.",
           "Se ha intoxicado con las pastillas nuevas.",
         ],
         correctIndex: 0,
@@ -2414,7 +2414,7 @@ export const EN_C2_U03: Lesson[] = [
           "Spanish has the same resources («podría tratarse de», «es compatible con», «no se puede descartar»), but the collocations differ. «Compatible con» is \"consistent with\" or \"in keeping with\" far more often than \"compatible with\".",
         ],
         examples: [
-          { es: "It may well be a viral infection.", en: "Es muy posible que sea una infección vírica." },
+          { es: "It may well be a viral infection.", en: "Es muy posible que sea una infección viral." },
           { es: "The findings are consistent with pneumonia.", en: "Los hallazgos son compatibles con una neumonía." },
           { es: "The X-ray is suggestive of a fracture.", en: "La radiografía sugiere una fractura." },
           { es: "We can't rule out an infection at this stage.", en: "En esta fase no podemos descartar una infección." },
@@ -2463,7 +2463,7 @@ export const EN_C2_U03: Lesson[] = [
             sentence: "It ___ be a heart problem; your ECG and blood tests are completely normal.",
             answer: "can't",
             altAnswers: ["cannot", "can not", "couldn't", "must not"],
-            en: "[No puede] ser un problema de corazón; el electro y los análisis son completamente normales.",
+            en: "[No puede] ser un problema de corazón; el electrocardiograma y los análisis son completamente normales.",
             explanation: "Negative deduction uses \"can't\". *Mustn't would mean that something is forbidden.",
           },
           {
@@ -2537,7 +2537,7 @@ export const EN_C2_U03: Lesson[] = [
           { es: "Appearances are highly suggestive of a fracture.", en: "La imagen es altamente sugestiva de fractura." },
           { es: "The shadow may represent a small area of infection.", en: "La sombra podría corresponder a una pequeña zona de infección." },
           { es: "A small fracture cannot be excluded.", en: "No se puede descartar una pequeña fractura." },
-          { es: "Likely viral. Advised rest and fluids.", en: "Probablemente vírico. Se recomienda reposo y líquidos." },
+          { es: "Likely viral. Advised rest and fluids.", en: "Probablemente viral. Se recomienda reposo y líquidos." },
         ],
         checkpoint: [
           {
@@ -2585,7 +2585,7 @@ export const EN_C2_U03: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Es muy posible que sea una infección vírica, así que de momento no le voy a recetar antibióticos.",
+        source: "Es muy posible que sea una infección viral, así que de momento no le voy a recetar antibióticos.",
         answer: "It may well be a viral infection, so I'm not going to prescribe antibiotics for now.",
         altAnswers: [
           "It may well be a viral infection, so I won't prescribe antibiotics for now.",

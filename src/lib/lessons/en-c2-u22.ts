@@ -144,7 +144,7 @@ export const EN_C2_U22: Lesson[] = [
         body: [
           "\"Why are you leaving your current job?\" is a test of discretion, not of honesty about your boss. Criticizing a previous employer, however justified, makes the interviewer wonder what you will say about them in two years' time.",
           "Frame every move as a move towards something, not away from something: more responsibility, a different sector, an international team, the chance to use a skill you rarely use now. Keep it short and positive.",
-          "If there really was a problem (a restructuring, a cancelled project, a change of direction), name it neutrally and move on: \"The company went through a restructuring and my role changed significantly.\" \"We had different views on the direction of the team.\"",
+          "If there really was a problem (a restructuring, a canceled project, a change of direction), name it neutrally and move on: \"The company went through a restructuring and my role changed significantly.\" \"We had different views on the direction of the team.\"",
         ],
         examples: [
           { es: "I've learned a great deal there, but I'm ready for a new challenge.", en: "He aprendido muchísimo allí, pero estoy preparado para un nuevo reto." },
@@ -415,7 +415,7 @@ export const EN_C2_U22: Lesson[] = [
           "Watch \"I look forward to hearing from you\": \"to\" is a preposition here, so the verb takes -ing. *I look forward to hear from you is one of the most frequent errors in letters by Spanish speakers.",
         ],
         examples: [
-          { es: "Dear Ms Patel,", en: "Estimada Sra. Patel:" },
+          { es: "Dear Ms. Patel,", en: "Estimada Sra. Patel:" },
           { es: "I am writing to apply for the position of Data Analyst advertised on your website.", en: "Le escribo para presentar mi candidatura al puesto de analista de datos anunciado en su página web." },
           { es: "I would welcome the opportunity to discuss my application in more detail.", en: "Me encantaría tener la oportunidad de hablar de mi candidatura con más detalle." },
           { es: "I look forward to hearing from you.", en: "Quedo a la espera de su respuesta." },
@@ -817,7 +817,7 @@ export const EN_C2_U22: Lesson[] = [
         heading: "Responding to the offer",
         body: [
           "The call comes: \"We'd like to offer you the position.\" Show enthusiasm, but do not accept on the spot unless the offer is exactly what you want. In English-speaking business cultures it is normal to ask for the details in writing and for a little time to consider them.",
-          "Three useful moves: thank them warmly (\"That's wonderful news, thank you\"), ask for the written offer (\"Could you send me the full details in writing?\") and ask for time with a concrete deadline (\"Would it be all right if I came back to you by Friday?\").",
+          "Three useful moves: thank them warmly (\"That's wonderful news, thank you\"), ask for the written offer (\"Could you send me the full details in writing?\") and ask for time with a concrete deadline (\"Would it be all right if I got back to you by Friday?\").",
           "Note the past tense in \"Would it be all right if I came back to you...?\": this unreal past makes the request more tentative and polite. \"Would it be OK if I get back to you on Friday?\" is also common in speech.",
         ],
         examples: [
@@ -1093,7 +1093,7 @@ export const EN_C2_U22: Lesson[] = [
     level: "EN-C2",
     number: 5,
     title: "In practice: video interviews and small talk",
-    summary: "The softer moments that shape a first impression: opening small talk, technical hiccups on video calls, panel interviews and assessment-centre tasks.",
+    summary: "The softer moments that shape a first impression: opening small talk, technical hiccups on video calls, panel interviews and assessment-center tasks.",
     duration: "11 min",
     sections: [
       {
@@ -1220,9 +1220,9 @@ export const EN_C2_U22: Lesson[] = [
         ],
       },
       {
-        heading: "Assessment centres",
+        heading: "Assessment centers",
         body: [
-          "For graduate schemes and many corporate roles, the interview is one part of an \"assessment centre\" (US: \"assessment day\"): a half day or full day of tasks such as a group exercise, a case study, a presentation and an in-tray (or inbox) exercise in which you prioritize a pile of emails.",
+          "For graduate schemes and many corporate roles, the interview is one part of an \"assessment center\" (also called an \"assessment day\"): a half day or full day of tasks such as a group exercise, a case study, a presentation and an in-tray (or inbox) exercise in which you prioritize a pile of emails.",
           "In group exercises, assessors watch how you collaborate, not how much you talk. Useful moves: building on others (\"Building on what Sofia said...\"), inviting quieter people in (\"Diego, what do you think?\"), keeping time (\"We've got about ten minutes left, so shall we agree on a recommendation?\") and disagreeing gently (\"I see your point, but I wonder if...\").",
           "Avoid interrupting with a bare \"No, no, no\", a common way of taking the floor in Spanish conversation. In English it sounds aggressive. \"Sorry, can I just come in here?\" is the polite way to take a turn.",
         ],
@@ -1318,7 +1318,7 @@ export const EN_C2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In an assessment-centre group task, which contribution would impress the assessors most?",
+        question: "In an assessment-center group task, which contribution would impress the assessors most?",
         options: [
           "Diego, we haven't heard from you yet. What do you think?",
           "No, no, no, that's wrong. Listen to me.",
@@ -1800,7 +1800,7 @@ export const EN_C2_U22: Lesson[] = [
         heading: "Stage 4: salary, questions and closing",
         body: [
           "\"What are your salary expectations?\" Give a researched range anchored in value: \"Based on my research and the scope of the role, I'm looking for something in the region of 65,000 to 70,000 euros.\" «Alrededor de» is \"in the region of\" or \"around\".",
-          "\"Do you have any questions for us?\" Always say yes. Ask about the role, the team and success: \"What would success look like in the first six months?\" \"What are the biggest challenges the team is facing right now?\" Avoid asking about holidays at this stage.",
+          "\"Do you have any questions for us?\" Always say yes. Ask about the role, the team and success: \"What would success look like in the first six months?\" \"What are the biggest challenges the team is facing right now?\" Avoid asking about vacation time at this stage.",
           "Close with thanks, a short summary of your fit and the next steps: \"Thank you, I've really enjoyed the conversation. It's confirmed that this is the kind of role I'm looking for. What are the next steps?\" Then send a short thank-you email within 24 hours.",
         ],
         examples: [

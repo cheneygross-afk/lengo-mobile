@@ -103,7 +103,7 @@ export const EN_C2_U12: Lesson[] = [
         examples: [
           { es: "Scan the article for the year the company was founded.", en: "Busca en el artículo el año en que se fundó la empresa." },
           { es: "Prices climbed by 4.2 percent last year.", en: "Los precios subieron un 4,2 por ciento el año pasado." },
-          { es: "The project has a price tag of 1.5 billion dollars.", en: "El proyecto tiene un coste de 1.500 millones de dólares." },
+          { es: "The project has a price tag of 1.5 billion dollars.", en: "El proyecto tiene un costo de 1.500 millones de dólares." },
           { es: "Her name jumped out at me from the list.", en: "Su nombre me saltó a la vista en la lista." },
           { es: "Look for synonyms, not just the exact word in the question.", en: "Busca sinónimos, no solo la palabra exacta de la pregunta." },
         ],
@@ -142,7 +142,7 @@ export const EN_C2_U12: Lesson[] = [
         body: [
           "Close reading is slow on purpose: you attend to every qualifier (\"almost\", \"largely\", \"not necessarily\"), every pronoun and every connector, because at this level the meaning often hangs on them. \"Hardly anyone agreed\" and \"Almost everyone agreed\" share most of their words and say the opposite.",
           "Under time pressure, combine the modes: skim to map the text, scan to find the part that answers your question, then read that part closely. Candidates who read everything closely run out of time; those who only skim answer the question they expected, not the one they were asked.",
-          "Useful verbs: \"pore over\" (study with great attention, «estudiar a fondo»), \"leaf through\" or \"flick through\" (turn pages quickly, «hojear»), \"browse\" (look through without a fixed aim) and \"plough through\" (get through something long and dull, «tragarse»).",
+          "Useful verbs: \"pore over\" (study with great attention, «estudiar a fondo»), \"leaf through\" or \"flick through\" (turn pages quickly, «hojear»), \"browse\" (look through without a fixed aim) and \"plow through\" (get through something long and dull, «tragarse»).",
         ],
         examples: [
           { es: "He pored over the small print for an hour.", en: "Se pasó una hora estudiando a fondo la letra pequeña." },
@@ -190,7 +190,7 @@ export const EN_C2_U12: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Lee el informe por encima y dime si merece la pena.",
+        source: "Lee el informe por encima y dime si vale la pena.",
         answer: "Skim the report and tell me if it's worth reading.",
         altAnswers: [
           "Skim the report and tell me whether it's worth reading.",
@@ -370,7 +370,7 @@ export const EN_C2_U12: Lesson[] = [
               "Unemployment fell to a disappointing 6 percent in June.",
             ],
             correctIndex: 0,
-            explanation: "Only the first sentence can be checked without sharing anyone's judgment. \"Welcome\", \"predictably\" and \"disappointing\" add the writer's evaluation to the same figure.",
+            explanation: "Only \"Unemployment fell to 6 percent in June\" can be checked without sharing anyone's judgment. \"Welcome\", \"predictably\" and \"disappointing\" add the writer's evaluation to the same figure.",
           },
           {
             type: "translate",
@@ -552,7 +552,7 @@ export const EN_C2_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Looking out at the flooded car park, she said: \"Another triumph of urban planning.\" Her tone is best described as...",
+        question: "Looking out at the flooded parking lot, she said: \"Another triumph of urban planning.\" Her tone is best described as...",
         options: ["sardonic", "even-handed", "wistful", "measured"],
         correctIndex: 0,
         explanation: "She says the opposite of what she means in order to mock: that is sardonic. \"Even-handed\" and \"measured\" describe fairness and calm; \"wistful\" describes nostalgia.",
@@ -727,14 +727,14 @@ export const EN_C2_U12: Lesson[] = [
         body: [
           "Radio interviewers interrupt to keep answers short and to challenge. Typical phrases: \"Can I just stop you there?\", \"Sorry to interrupt, but...\", \"If I could just come in here\", \"With respect, that wasn't the question\".",
           "Guests defend their turn: \"If I could just finish\", \"Let me finish my point\", \"Hear me out\", \"As I was saying\". When two people speak at once, the content usually comes back a moment later, introduced by \"As I was saying\" or \"The point I was making is\", so do not panic if you miss the overlap.",
-          "Spanish «déjeme terminar» is \"let me finish\"; «perdone que le interrumpa» is \"sorry to interrupt\"; «con todo respeto» is \"with respect\" or \"with all due respect\", which in British broadcasting often introduces open disagreement.",
+          "Spanish «déjeme terminar» is \"let me finish\"; «perdone que lo interrumpa» is \"sorry to interrupt\"; «con todo respeto» is \"with respect\" or \"with all due respect\", which in British broadcasting often introduces open disagreement.",
         ],
         examples: [
-          { es: "Can I just stop you there?", en: "¿Puedo interrumpirle un momento?" },
+          { es: "Can I just stop you there?", en: "¿Puedo interrumpirlo un momento?" },
           { es: "With respect, that wasn't the question.", en: "Con todo respeto, esa no era la pregunta." },
           { es: "If I could just finish my point.", en: "Si me deja terminar lo que estaba diciendo." },
           { es: "Hear me out.", en: "Escúcheme hasta el final." },
-          { es: "As I was saying, the costs have doubled.", en: "Como iba diciendo, los costes se han duplicado." },
+          { es: "As I was saying, the costs have doubled.", en: "Como iba diciendo, los costos se han duplicado." },
         ],
         checkpoint: [
           {
@@ -755,7 +755,7 @@ export const EN_C2_U12: Lesson[] = [
               "Sorry to interrupt, but that does not answer my question.",
               "I'm sorry to interrupt, but that's not an answer to my question.",
             ],
-            explanation: "«Perdone que le/la interrumpa» is \"sorry to interrupt (you)\". English needs no pronoun to show the person's gender, and \"answer\" takes a direct object: *answer to my question is a Spanish calque.",
+            explanation: "«Perdone que lo/la interrumpa» is \"sorry to interrupt (you)\". English needs no pronoun to show the person's gender, and \"answer\" takes a direct object: *answer to my question is a Spanish calque.",
           },
           {
             type: "fill-blank",
@@ -899,7 +899,7 @@ export const EN_C2_U12: Lesson[] = [
         sentence: "___, the costs have doubled since last year.",
         answer: "As I was saying",
         altAnswers: ["As I said", "Like I was saying", "As I was saying before"],
-        en: "[Como iba diciendo], los costes se han duplicado desde el año pasado.",
+        en: "[Como iba diciendo], los costos se han duplicado desde el año pasado.",
         explanation: "\"As I was saying\" reclaims the floor after an interruption and signals that the main point is coming back.",
       },
       {
@@ -907,7 +907,7 @@ export const EN_C2_U12: Lesson[] = [
         question: "Which reply is a firm denial?",
         options: ["I don't accept that.", "I wouldn't put it quite like that.", "I take your point.", "That's a matter for the inquiry."],
         correctIndex: 0,
-        explanation: "\"I don't accept that\" rejects the claim outright. The second option is a soft denial, the third a concession and the fourth an evasion.",
+        explanation: "\"I don't accept that\" rejects the claim outright. \"I wouldn't put it quite like that\" is a soft denial, \"I take your point\" a concession and \"That's a matter for the inquiry\" an evasion.",
       },
       {
         type: "dictation",
@@ -1219,8 +1219,9 @@ export const EN_C2_U12: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Tomen nota: el examen se ha adelantado al lunes.",
-        answer: "Take note: the exam has been brought forward to Monday.",
+        answer: "Take note: the exam has been moved up to Monday.",
         altAnswers: [
+          "Take note: the exam has been brought forward to Monday.",
           "Please take note: the exam has been brought forward to Monday.",
           "Take note: the exam has been moved forward to Monday.",
           "Take note: the exam has been moved up to Monday.",
@@ -1251,7 +1252,7 @@ export const EN_C2_U12: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Expand these lecture notes into a short paragraph of full sentences: \"Industrial Rev. (UK, approx. 1760-1840) → urbanisation ↑; working conditions poor, e.g. 14-hr days; N.B. child labour common until 1833 Factory Act.\"",
+        prompt: "Expand these lecture notes into a short paragraph of full sentences: \"Industrial Rev. (UK, approx. 1760-1840) → urbanization ↑; working conditions poor, e.g. 14-hr days; N.B. child labor common until 1833 Factory Act.\"",
         minWords: 50,
         maxWords: 100,
         rubric: [
@@ -1379,14 +1380,14 @@ export const EN_C2_U12: Lesson[] = [
         heading: "Part three: the evasion",
         body: [
           "In part three Adams asks a yes/no question about the future. Price refuses to speculate, then changes the subject. Adams repeats the question in a narrower form (\"Can you rule out an increase?\") and finally states the implication herself.",
-          "\"Rule out\" means «descartar». \"Nobody can rule anything out for ever\" is a typical non-answer: true, but beside the point. Adams's last line, \"So that's a no\", is a reformulation that pins him down.",
+          "\"Rule out\" means «descartar». \"Nobody can rule anything out forever\" is a typical non-answer: true, but beside the point. Adams's last line, \"So that's a no\", is a reformulation that pins him down.",
           "In a neutral summary you would not write that he \"admitted the charge would rise\" (he did not) or that he \"dodged the question\" (an evaluation). You would write that he \"declined to rule out an increase\".",
         ],
         examples: [
           { es: "Adams: Will the charge go up next year?", en: "Adams: ¿Subirá el cargo el año que viene?" },
           { es: "Price: I'm not going to speculate about future budgets. What I can tell you is that the charge is fair.", en: "Price: No voy a especular sobre presupuestos futuros. Lo que sí puedo decirle es que el cargo es justo." },
           { es: "Adams: That's not what I asked. Can you rule out an increase?", en: "Adams: Eso no es lo que le pregunté. ¿Puede descartar una subida?" },
-          { es: "Price: Look, nobody can rule anything out for ever. What matters is that people see results.", en: "Price: Mire, nadie puede descartar nada para siempre. Lo que importa es que la gente vea resultados." },
+          { es: "Price: Look, nobody can rule anything out forever. What matters is that people see results.", en: "Price: Mire, nadie puede descartar nada para siempre. Lo que importa es que la gente vea resultados." },
           { es: "Adams: So that's a no. You can't rule it out.", en: "Adams: O sea, que no. No puede descartarlo." },
         ],
         checkpoint: [
@@ -1479,7 +1480,7 @@ export const EN_C2_U12: Lesson[] = [
       },
       {
         type: "listen-choose",
-        audio: "Look, nobody can rule anything out for ever. What matters is that people see results.",
+        audio: "Look, nobody can rule anything out forever. What matters is that people see results.",
         question: "Which question is the speaker avoiding?",
         options: ["Whether the charge will increase", "Whether traffic has risen", "Whether the charge is fair", "Whether buses will improve"],
         correctIndex: 0,
@@ -1598,7 +1599,7 @@ export const EN_C2_U12: Lesson[] = [
       {
         heading: "The introduction: setting up your page",
         body: [
-          "Your mission: take notes from a short lecture by Dr Helen Ward on urban heat islands, then write a summary. Read each part as if you were hearing it, and note only what you would really write down.",
+          "Your mission: take notes from a short lecture by Dr. Helen Ward on urban heat islands, then write a summary. Read each part as if you were hearing it, and note only what you would really write down.",
           "The introduction usually gives you the skeleton of the whole talk. Here Dr Ward announces three parts (what heat islands are, why they form, what cities can do), so your page should already have three headings before she says another word.",
           "Definitions and figures go straight into the notes. \"Put simply\" introduces a definition; \"as much as\" introduces an upper limit, which you can note with \"up to\".",
         ],
@@ -1849,7 +1850,6 @@ export const EN_C2_U12: Lesson[] = [
           "She offered two solutions: cool roofs and green infrastructure.",
           "He proposed two solutions: cool roofs and green infrastructure.",
           "He suggested two solutions: cool roofs and green infrastructure.",
-          "She proposed two solutions: cool roofs and a green infrastructure.",
         ],
         explanation: "Generic plural nouns take no article in English: \"cool roofs\", not *the cool roofs. \"Infrastructure\" is uncountable.",
       },
@@ -1890,7 +1890,7 @@ export const EN_C2_U12: Lesson[] = [
         examples: [
           { es: "Both texts discuss the impact of mass tourism on historic cities.", en: "Ambos textos tratan el impacto del turismo masivo en las ciudades históricas." },
           { es: "The first writer argues that tourism brings vital revenue.", en: "El primer autor sostiene que el turismo aporta unos ingresos vitales." },
-          { es: "The second text, by contrast, focuses on its social cost.", en: "El segundo texto, en cambio, se centra en su coste social." },
+          { es: "The second text, by contrast, focuses on its social cost.", en: "El segundo texto, en cambio, se centra en su costo social." },
           { es: "Neither writer suggests banning tourists altogether.", en: "Ninguno de los dos autores propone prohibir el turismo por completo." },
           { es: "Summarize the key points of both texts in no more than 80 words.", en: "Resume las ideas clave de ambos textos en un máximo de 80 palabras." },
         ],
@@ -2002,7 +2002,7 @@ export const EN_C2_U12: Lesson[] = [
             sentence: "___ the first text stresses the benefits, the second focuses on the costs.",
             answer: "Whereas",
             altAnswers: ["While", "Whilst"],
-            en: "[Mientras que] el primer texto destaca los beneficios, el segundo se centra en los costes.",
+            en: "[Mientras que] el primer texto destaca los beneficios, el segundo se centra en los costos.",
             explanation: "\"Whereas\" or \"while\" sets two contrasting ideas side by side in one sentence, which is exactly what merging two texts requires.",
           },
         ],
@@ -2063,7 +2063,7 @@ export const EN_C2_U12: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mientras que el primer autor destaca los beneficios económicos, el segundo se centra en el coste social.",
+        source: "Mientras que el primer autor destaca los beneficios económicos, el segundo se centra en el costo social.",
         answer: "Whereas the first writer stresses the economic benefits, the second focuses on the social cost.",
         altAnswers: [
           "While the first writer stresses the economic benefits, the second focuses on the social cost.",
@@ -2091,7 +2091,7 @@ export const EN_C2_U12: Lesson[] = [
           "Shops depend on the money that visitors spend, for example bars.",
         ],
         correctIndex: 0,
-        explanation: "The list becomes one general term (\"local businesses\"), the verb changes (\"rely on\") and the clause becomes a noun phrase (\"tourist spending\"). The second copies, the third adds opinion, the fourth keeps the list.",
+        explanation: "The list becomes one general term (\"local businesses\"), the verb changes (\"rely on\") and the clause becomes a noun phrase (\"tourist spending\"). The version that repeats \"Shops, bars, cafes and hotels\" copies, the one with \"In my opinion\" adds an opinion, and the one with \"for example bars\" keeps the list.",
       },
       {
         type: "fill-blank",
@@ -2106,8 +2106,9 @@ export const EN_C2_U12: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "El auge de las rentas vacacionales ha encarecido la vivienda para los residentes.",
-        answer: "The boom in holiday rentals has made housing more expensive for residents.",
+        answer: "The boom in vacation rentals has made housing more expensive for residents.",
         altAnswers: [
+          "The boom in holiday rentals has made housing more expensive for residents.",
           "The rise in holiday rentals has made housing more expensive for residents.",
           "The growth in holiday rentals has made housing more expensive for residents.",
           "The boom in holiday lets has made housing more expensive for residents.",
@@ -2218,7 +2219,7 @@ export const EN_C2_U12: Lesson[] = [
         examples: [
           { es: "Minister quits", en: "Dimite el ministro." },
           { es: "PM to visit Madrid", en: "El primer ministro visitará Madrid." },
-          { es: "Three hurt in motorway crash", en: "Tres heridos en un accidente en la autopista." },
+          { es: "Three hurt in highway crash", en: "Tres heridos en un accidente en la autopista." },
           { es: "Strike will go ahead: union", en: "La huelga seguirá adelante, según el sindicato." },
           { es: "Storms, floods to hit coast", en: "Tormentas e inundaciones azotarán la costa." },
         ],
@@ -2296,7 +2297,7 @@ export const EN_C2_U12: Lesson[] = [
         heading: "Noun stacks and ambiguity",
         body: [
           "To save space, headlines pile nouns on top of each other: \"Council tax rise row\" means a row (dispute) about a rise in council tax. Read noun stacks from right to left: the last noun is the head, and everything before it describes it.",
-          "Note \"row\" in British headlines: it means a dispute and rhymes with \"cow\", not with \"go\". Other favourite nouns are \"bid\" (attempt), \"probe\" (investigation), \"clash\" (confrontation or disagreement), \"blow\" (setback) and \"boost\" (help or improvement).",
+          "Note \"row\" in British headlines: it means a dispute and rhymes with \"cow\", not with \"go\". Other favorite nouns are \"bid\" (attempt), \"probe\" (investigation), \"clash\" (confrontation or disagreement), \"blow\" (setback) and \"boost\" (help or improvement).",
           "The compression can create ambiguity, sometimes comic: \"Police help dog bite victim\" is about a victim of a dog bite, not police helping a dog. When a headline seems absurd, try reading a different word as the verb.",
         ],
         examples: [
@@ -2585,7 +2586,7 @@ export const EN_C2_U12: Lesson[] = [
           "In lectures, signposts give you the structure (\"I'd like to turn now to\"), the emphasis (\"The key point here is\") and the digressions (\"Incidentally\", \"But I digress\"). Abbreviations such as \"e.g.\", \"i.e.\" and \"cf.\" keep your notes fast, as long as you can expand them later.",
         ],
         examples: [
-          { es: "Asked about the cost, she declined to give a figure.", en: "Preguntada por el coste, no quiso dar una cifra." },
+          { es: "Asked about the cost, she declined to give a figure.", en: "Preguntada por el costo, no quiso dar una cifra." },
           { es: "The key point here is that the two trends are linked.", en: "Lo importante aquí es que las dos tendencias están relacionadas." },
           { es: "Several factors, e.g. price and distance, affect demand.", en: "Varios factores, p. ej. el precio y la distancia, influyen en la demanda." },
         ],
@@ -2660,7 +2661,7 @@ export const EN_C2_U12: Lesson[] = [
           "The minister defended the policy on Tuesday.",
         ],
         correctIndex: 0,
-        explanation: "\"Reckless\" is a judgment, stated without attribution. The third option attributes the same judgment to critics, which is a reportable fact.",
+        explanation: "\"Reckless\" is a judgment, stated without attribution. \"Critics describe the policy as reckless\" attributes the same judgment to critics, which is a reportable fact.",
       },
       {
         type: "fill-blank",
@@ -2707,7 +2708,7 @@ export const EN_C2_U12: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Preguntada por el coste, no quiso dar una cifra.",
+        source: "Preguntada por el costo, no quiso dar una cifra.",
         answer: "Asked about the cost, she declined to give a figure.",
         altAnswers: [
           "Asked about the cost, she refused to give a figure.",
@@ -2767,7 +2768,7 @@ export const EN_C2_U12: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Can", "I", "just", "stop", "you", "there?"],
-        translation: "¿Puedo interrumpirle un momento?",
+        translation: "¿Puedo interrumpirlo un momento?",
         explanation: "\"Can I just stop you there?\" is the standard polite interruption in broadcast interviews; \"just\" softens it.",
       },
       {

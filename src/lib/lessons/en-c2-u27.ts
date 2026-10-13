@@ -918,7 +918,7 @@ export const EN_C2_U27: Lesson[] = [
       {
         heading: "Effects: what the warming does",
         body: [
-          "Learn the effects as fixed phrases: \"rising sea levels\" (or \"sea-level rise\"), \"extreme weather events\", \"heatwaves\", \"droughts\", \"wildfires\", \"floods\" and \"flash floods\", \"crop failures\", \"water shortages\", \"melting glaciers\" and \"ocean acidification\".",
+          "Learn the effects as fixed phrases: \"rising sea levels\" (or \"sea-level rise\"), \"extreme weather events\", \"heat waves\", \"droughts\", \"wildfires\", \"floods\" and \"flash floods\", \"crop failures\", \"water shortages\", \"melting glaciers\" and \"ocean acidification\".",
           "Spanish speakers tend to translate every «incendio forestal» as \"forest fire\". That is correct, but news reports in the US, Canada and Australia say \"wildfire\" far more, especially when fire spreads across scrub, grassland or hills. Similarly «ola de calor» is \"heat wave\" (written as one word, \"heatwave\", in British English).",
           "Human consequences: people are \"displaced\" by floods; \"climate migrants\" or \"climate refugees\" leave areas that become \"uninhabitable\"; \"food security\" is \"under threat\". Note that \"climate refugee\" has no legal status, so careful writers often prefer \"climate migrant\" or \"people displaced by climate change\".",
         ],
@@ -936,7 +936,7 @@ export const EN_C2_U27: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "Las olas de calor son cada vez más frecuentes.",
-            answer: "Heatwaves are becoming more and more frequent.",
+            answer: "Heat waves are becoming more and more frequent.",
             altAnswers: alts(
               ["Heatwaves", "Heat waves"],
               ["are becoming", "are getting"],
@@ -1007,7 +1007,7 @@ export const EN_C2_U27: Lesson[] = [
         ],
         examples: [
           { es: "Offshore wind farms produce more power because the wind is stronger at sea.", en: "Los parques eólicos marinos producen más energía porque el viento es más fuerte en el mar." },
-          { es: "The town's coal-fired power station closed five years ago.", en: "La central térmica de carbón del pueblo cerró hace cinco años." },
+          { es: "The town's coal-fired power plant closed five years ago.", en: "La central térmica de carbón del pueblo cerró hace cinco años." },
           { es: "Solar power is intermittent, so we need better energy storage.", en: "La energía solar es intermitente, así que necesitamos un mejor almacenamiento de energía." },
           { es: "The new solar farm will be connected to the grid next month.", en: "La nueva planta solar se conectará a la red el mes que viene." },
           { es: "Nuclear power remains deeply controversial in Germany.", en: "La energía nuclear sigue siendo muy polémica en Alemania." },
@@ -1247,7 +1247,7 @@ export const EN_C2_U27: Lesson[] = [
         body: [
           "Nouns have their own prepositions, and they often differ from the verb. «El impacto en» is \"an impact on\" (also \"an effect on\", \"an influence on\"). «La solución al problema» is \"the solution to the problem\", not *the solution of. Likewise \"the key to\", \"the answer to\", \"an alternative to\", \"a threat to\", \"an approach to\".",
           "Words for change take \"in\" for the thing that changes and \"of\" for the amount: \"a rise in emissions of 5%\", \"a fall in unemployment\", \"an increase in prices\". Spanish «un aumento de las emisiones» tempts learners into *an increase of emissions.",
-          "Other useful pairs: \"demand for\" («demanda de»), \"a need for\", \"a reason for\", \"damage to\" («daños a / en»), \"a cause of\", \"an attitude towards\", \"a debate about / on\", \"respect for\".",
+          "Other useful pairs: \"demand for\" («demanda de»), \"a need for\", \"a reason for\", \"damage to\" («daños a / en»), \"a cause of\", \"an attitude toward\", \"a debate about / on\", \"respect for\".",
         ],
         examples: [
           { es: "Deforestation has a huge impact on local rainfall.", en: "La deforestación tiene un enorme impacto en las lluvias locales." },
@@ -1559,7 +1559,7 @@ export const EN_C2_U27: Lesson[] = [
               "Everyone knows environmental campaigners hate cars.",
             ],
             correctIndex: 0,
-            explanation: "The first option replaces the slur with a neutral label, the absolute with \"some\", and the imputed motive with a stated demand.",
+            explanation: "The correct option replaces the slur with a neutral label, the absolute with \"some\", and the imputed motive with a stated demand.",
           },
         ],
       },
@@ -1587,7 +1587,7 @@ export const EN_C2_U27: Lesson[] = [
               "This minister is completely destroying our schools.",
             ],
             correctIndex: 0,
-            explanation: "The first option replaces the loaded verb with a checkable fact. The second empties the criticism, the third is a euphemism, and the fourth is even more inflammatory.",
+            explanation: "The correct option replaces the loaded verb with a checkable fact. The others empty the criticism, use a euphemism or are even more inflammatory.",
           },
           {
             type: "translate",
@@ -1629,7 +1629,7 @@ export const EN_C2_U27: Lesson[] = [
           "Some say things about the opposition and the recovery.",
         ],
         correctIndex: 0,
-        explanation: "The first option states a verifiable action. The second and fourth say almost nothing; the third keeps the imputed motive.",
+        explanation: "The correct option states a verifiable action. The others say almost nothing or keep the imputed motive.",
       },
       {
         type: "fill-blank",
@@ -1993,7 +1993,7 @@ export const EN_C2_U27: Lesson[] = [
           "The campaign seeks to make young people more aware of recycling.",
           "The campaign aims to raise young people's awareness about recycling.",
         ],
-        explanation: "«Concienciar» has no single-verb equivalent; the collocation is \"raise awareness of / about\". *Make conscience is a calque.",
+        explanation: "«Concientizar» has no single-verb equivalent; the collocation is \"raise awareness of / about\". *Make conscience is a calque.",
       },
       {
         type: "word-order",
@@ -2213,7 +2213,7 @@ export const EN_C2_U27: Lesson[] = [
               "Two officials are said to have been suspended.",
             ],
             correctIndex: 0,
-            explanation: "Only the first names an official source that confirms the fact. The other three are reported, not verified.",
+            explanation: "Only the correct option names an official source that confirms the fact. The other three are reported, not verified.",
           },
           {
             type: "translate",
@@ -2462,7 +2462,7 @@ export const EN_C2_U27: Lesson[] = [
               "The eco-fanatics on the council want to punish drivers.",
             ],
             correctIndex: 0,
-            explanation: "The first sentence is emotive through concrete consequences, not through labels. The others rely on insults or loaded adjectives.",
+            explanation: "The correct sentence is emotive through concrete consequences, not through labels. The others rely on insults or loaded adjectives.",
           },
           {
             type: "translate",
@@ -2747,7 +2747,7 @@ export const EN_C2_U27: Lesson[] = [
           "The government is recklessly forcing through its disastrous climate law.",
         ],
         correctIndex: 0,
-        explanation: "The first option keeps both claims (speed, job losses) but describes and attributes them. The second is evasive, the third is a euphemism, the fourth is still loaded.",
+        explanation: "The correct option keeps both claims (speed, job losses) but describes and attributes them. The others are evasive, euphemistic or still loaded.",
       },
       {
         type: "translate",

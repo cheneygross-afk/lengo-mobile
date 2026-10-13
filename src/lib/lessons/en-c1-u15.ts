@@ -83,7 +83,7 @@ export const EN_C1_U15: Lesson[] = [
               "Excuse me, I interrupt you.",
             ],
             correctIndex: 0,
-            explanation: "\"Can I just come in here?\" asks permission and \"just\" minimises the interruption. \"I want to say something\" is a literal translation of «Quiero decir una cosa» and sounds like a demand.",
+            explanation: "\"Can I just come in here?\" asks permission and \"just\" minimizes the interruption. \"I want to say something\" is a literal translation of «Quiero decir una cosa» and sounds like a demand.",
           },
           {
             type: "translate",
@@ -292,7 +292,7 @@ export const EN_C1_U15: Lesson[] = [
         type: "speak",
         text: "Sorry to interrupt, but can I just come in here?",
         tip: "Stress \"SORry\" and \"JUST\"; link \"come in\" so it sounds like \"comin\". A light, rising tone sounds friendly.",
-        explanation: "Practise this until it comes out automatically: it is the phrase you will need most in real meetings.",
+        explanation: "Practice this until it comes out automatically: it is the phrase you will need most in real meetings.",
       },
     ],
   },
@@ -404,9 +404,9 @@ export const EN_C1_U15: Lesson[] = [
         ],
       },
       {
-        heading: "Summarising and confirming action points",
+        heading: "Summarizing and confirming action points",
         body: [
-          "A meeting is not over until everyone knows who is doing what. The chair summarises: \"So, to recap, ...\", \"Let me just sum up what we've agreed\", \"Let's run through the action points\".",
+          "A meeting is not over until everyone knows who is doing what. The chair summarizes: \"So, to recap, ...\", \"Let me just sum up what we've agreed\", \"Let's run through the action points\".",
           "Action points use clear future forms and names: \"Diego will send the revised figures by Friday\", \"Emma's going to follow up with the client\". \"Follow up (with someone)\" means «hacer el seguimiento» or «volver a contactar». \"Who's going to take this on?\" asks for a volunteer.",
           "Close with a check and a thank-you: \"Does that work for everyone?\", \"Is there any other business?\" (\"AOB\" on written agendas, «asuntos varios»), \"Thanks, everyone. Let's wrap it up there\".",
         ],
@@ -595,7 +595,7 @@ export const EN_C1_U15: Lesson[] = [
     level: "EN-C1",
     number: 3,
     title: "Meetings in Practice",
-    summary: "Work through realistic meeting transcripts: choose the right turn at the right moment, soften disagreement without losing your point, and summarise what was decided.",
+    summary: "Work through realistic meeting transcripts: choose the right turn at the right moment, soften disagreement without losing your point, and summarize what was decided.",
     duration: "11 min",
     sections: [
       {
@@ -603,7 +603,7 @@ export const EN_C1_U15: Lesson[] = [
         body: [
           "Read this extract from a weekly team meeting. Ana is chairing. Tom: \"...and the new coffee machine is terrible, by the way.\" Lucia: \"Oh, I know, it's so slow.\" Ana: \"Ha, I agree, but let's park that for now. Getting back to the agenda, we need to decide on the trade fair.\"",
           "Ana uses two moves: a friendly acknowledgement (\"I agree\") so nobody feels told off, and then a redirect. Without the acknowledgement, \"Let's get back to the agenda\" alone could sound cold.",
-          "Now notice when NOT to park something. If Tom had said \"The client has just cancelled the contract\", parking it would be absurd: an urgent issue that changes everything goes to the top of the agenda (\"OK, that changes things. Let's deal with that first\").",
+          "Now notice when NOT to park something. If Tom had said \"The client has just canceled the contract\", parking it would be absurd: an urgent issue that changes everything goes to the top of the agenda (\"OK, that changes things. Let's deal with that first\").",
         ],
         examples: [
           { es: "Ha, I agree, but let's park that for now.", en: "Ja, estoy de acuerdo, pero dejémoslo de momento." },
@@ -680,7 +680,7 @@ export const EN_C1_U15: Lesson[] = [
       {
         heading: "Transcript 3: closing with a clear outcome",
         body: [
-          "Compare two endings. Ending A: \"OK, so, good meeting. Let's talk soon.\" Ending B: \"So, to recap: we'll trial the four-day week with the design team from 1 March. Carlos will draft a proposal for HR by next Friday, and Emma will check client cover. Does that work for everyone?\"",
+          "Compare two endings. Ending A: \"OK, so, good meeting. Let's talk soon.\" Ending B: \"So, to recap: we'll trial the four-day week with the design team from March 1. Carlos will draft a proposal for HR by next Friday, and Emma will check client cover. Does that work for everyone?\"",
           "Ending A sounds friendly, but a week later nobody will remember who promised what. Ending B is a model Advanced summary: the decision, then each action point with a name and a deadline, then a check for agreement.",
           "If something was not decided, say so explicitly: \"We didn't reach a decision on the budget, so let's pick that up next week\". \"Pick up\" means to continue a topic later.",
         ],
@@ -761,7 +761,7 @@ export const EN_C1_U15: Lesson[] = [
         answer: "trial",
         altAnswers: ["test", "pilot", "try", "try out", "test out"],
         en: "¿Podríamos [probarlo] primero con un solo equipo?",
-        explanation: "\"Trial\" and \"pilot\" can be verbs in business English: \"to trial / pilot a scheme\". Suggesting a small trial is a classic way to turn a \"no\" into a \"not yet\".",
+        explanation: "\"Trial\" and \"pilot\" can be verbs in business English: \"to trial / pilot a program\". Suggesting a small trial is a classic way to turn a \"no\" into a \"not yet\".",
       },
       {
         type: "multiple-choice",
@@ -1005,7 +1005,7 @@ export const EN_C1_U15: Lesson[] = [
               "Costs peaked in June and then leveled off.",
               "Costs arrived to the maximum in June and then stayed stable.",
               "Costs made a peak in June and then were stables.",
-              "Costs touched the top in June and then stabilised them.",
+              "Costs touched the top in June and then stabilized them.",
             ],
             correctIndex: 0,
             explanation: "\"Peak\" is a verb (\"peaked in June\") and \"level off\" means to stop rising or falling. Adjectives never take plural -s in English (*stables).",
@@ -1119,7 +1119,7 @@ export const EN_C1_U15: Lesson[] = [
           "First of all, I'll look at the problem, and then I'll move on to possible solutions.",
           "First, I'm going to look at the problem, and then I'll move on to possible solutions.",
         ],
-        explanation: "«Pasar a» in a talk is \"move on to\" or \"turn to\". \"Look at\" is more natural than \"analyse\" in an outline, but both are correct.",
+        explanation: "«Pasar a» in a talk is \"move on to\" or \"turn to\". \"Look at\" is more natural than \"analyze\" in an outline, but both are correct.",
       },
       {
         type: "fill-blank",
@@ -1154,8 +1154,8 @@ export const EN_C1_U15: Lesson[] = [
       {
         heading: "Closing with a call to action",
         body: [
-          "Many Spanish speakers end with «Y eso es todo», translated as \"That's all\". In English it sounds abrupt, as if you have run out of things to say. A strong close has three steps: signal the end, summarise the key message, and ask for something.",
-          "Signal: \"To sum up...\", \"To wrap up...\", \"So, to bring things to a close...\". Summarise: \"The key takeaway is this: ...\", \"If you remember one thing from today, it should be...\". Ask: \"So what I'm asking you today is to approve the pilot\", \"I'd encourage you all to...\".",
+          "Many Spanish speakers end with «Y eso es todo», translated as \"That's all\". In English it sounds abrupt, as if you have run out of things to say. A strong close has three steps: signal the end, summarize the key message, and ask for something.",
+          "Signal: \"To sum up...\", \"To wrap up...\", \"So, to bring things to a close...\". Summarize: \"The key takeaway is this: ...\", \"If you remember one thing from today, it should be...\". Ask: \"So what I'm asking you today is to approve the pilot\", \"I'd encourage you all to...\".",
           "Then hand over to the audience: \"Thank you. I'd be happy to take any questions\" or \"I'll now open it up to questions\". \"Thank you for your attention\" is correct but a little old-fashioned; \"Thanks for listening\" is more common.",
         ],
         examples: [
@@ -1400,12 +1400,12 @@ export const EN_C1_U15: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Write the closing of a short presentation proposing a new customer-service chatbot: signal the end, summarise the key message and finish with a clear call to action and an invitation to ask questions.",
+        prompt: "Write the closing of a short presentation proposing a new customer-service chatbot: signal the end, summarize the key message and finish with a clear call to action and an invitation to ask questions.",
         minWords: 40,
         maxWords: 80,
         rubric: [
           "Signals the end (\"To sum up\", \"To wrap up\")",
-          "Summarises one key message, not everything",
+          "Summarizes one key message, not everything",
           "Includes a specific call to action (\"What I'm asking you today is to...\")",
           "Invites questions politely and avoids \"That's all\"",
         ],
@@ -1446,7 +1446,7 @@ export const EN_C1_U15: Lesson[] = [
               "Main points, outline, hook, summary, purpose, call to action",
             ],
             correctIndex: 0,
-            explanation: "Grab attention, say why you are speaking, give the map, deliver the points, then summarise and ask for action.",
+            explanation: "Grab attention, say why you are speaking, give the map, deliver the points, then summarize and ask for action.",
           },
           {
             type: "translate",
@@ -1977,7 +1977,7 @@ export const EN_C1_U15: Lesson[] = [
           "Suggests a compromise or middle ground",
           "Ends by moving towards agreement",
         ],
-        modelAnswer: "Thank you for your proposal. I'm afraid a 15% discount would be difficult for us at this stage. However, if you could commit to a three-year licence, we'd be willing to reduce the price by 8% and include free training for your team. I think that would be a fair compromise. Should you wish to go ahead, we can send over a draft contract this week.",
+        modelAnswer: "Thank you for your proposal. I'm afraid a 15% discount would be difficult for us at this stage. However, if you could commit to a three-year license, we'd be willing to reduce the price by 8% and include free training for your team. I think that would be a fair compromise. Should you wish to go ahead, we can send over a draft contract this week.",
         explanation: "The pattern soft refusal, conditional offer, path to agreement keeps the negotiation moving.",
       },
     ],
@@ -1993,7 +1993,7 @@ export const EN_C1_U15: Lesson[] = [
       {
         heading: "Specific praise",
         body: [
-          "\"Good job\" is friendly but tells the person nothing. Useful praise names the behaviour and its effect: \"The way you handled the client's objections was really effective: she signed the same day\".",
+          "\"Good job\" is friendly but tells the person nothing. Useful praise names the behavior and its effect: \"The way you handled the client's objections was really effective: she signed the same day\".",
           "Collocations to get right: you \"do a good job\" (never *make a good job), you \"did really well\", and a piece of work can be \"spot on\" (exactly right) or \"really thorough\" (complete and careful). «Hiciste un trabajo excelente» is \"You did an excellent job\".",
           "Another false friend: «Me gustó tu presentación, fue muy actual» is not \"actual\". Use \"up to date\" or \"topical\". In English, \"actual\" means «real» or «concreto».",
         ],
@@ -2146,7 +2146,7 @@ export const EN_C1_U15: Lesson[] = [
           "The ending didn't entirely convince me.",
           "The end didn't quite work for me.",
         ],
-        explanation: "«No terminar de convencer» is best rendered with \"not quite\": \"didn't quite work for me\". It criticises gently and makes it a personal reaction (\"for me\").",
+        explanation: "«No terminar de convencer» is best rendered with \"not quite\": \"didn't quite work for me\". It criticizes gently and makes it a personal reaction (\"for me\").",
       },
       {
         type: "multiple-choice",
@@ -2188,7 +2188,7 @@ export const EN_C1_U15: Lesson[] = [
           "One thing we should consider is the tone of the email.",
           "One thing to consider is the email's tone.",
         ],
-        explanation: "\"One thing to consider is...\" introduces criticism as a point for reflection rather than a judgement.",
+        explanation: "\"One thing to consider is...\" introduces criticism as a point for reflection rather than a judgment.",
       },
       {
         type: "matching",
@@ -2796,11 +2796,11 @@ export const EN_C1_U15: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "You chaired a negotiation meeting with a supplier. Write a short follow-up email that summarises what was agreed, lists two action points with names and deadlines, and closes politely.",
+        prompt: "You chaired a negotiation meeting with a supplier. Write a short follow-up email that summarizes what was agreed, lists two action points with names and deadlines, and closes politely.",
         minWords: 60,
         maxWords: 110,
         rubric: [
-          "Summarises the agreement clearly (\"As agreed in today's meeting...\", \"To recap...\")",
+          "Summarizes the agreement clearly (\"As agreed in today's meeting...\", \"To recap...\")",
           "Includes at least one conditional term (\"provided that\", \"as long as\")",
           "Lists two action points with a person and a deadline (\"by\")",
           "Uses a polite, professional close",
@@ -2965,12 +2965,12 @@ export const EN_C1_U15: Lesson[] = [
         body: [
           "Some errors are not grammatical but social. *I want that you send me the report is wrong grammatically (\"want\" + object + infinitive) and too direct. \"I want you to send me the report\" is correct but bossy. In a professional email: \"Could you send me the report?\" or \"Would you mind sending me the report?\".",
           "Openings: \"Hi guys\" is fine with close colleagues, but not with a new client or a senior manager: use \"Hi Ms. Smith\", \"Dear Mr. Jones\" or \"Hi everyone\". \"Dear Sir\" with no name sounds old-fashioned today. Closings: \"Best regards\" or \"Kind regards\" in formal emails, \"Thanks\" or \"Best\" in internal ones.",
-          "Over-formality is a slip too: \"I hereby inform you that the meeting is cancelled\" is legal language. \"Just to let you know, the meeting has been cancelled\" is the natural professional version.",
+          "Over-formality is a slip too: \"I hereby inform you that the meeting is canceled\" is legal language. \"Just to let you know, the meeting has been canceled\" is the natural professional version.",
         ],
         examples: [
           { es: "Could you send me the report by Friday?", en: "¿Me podrías enviar el informe antes del viernes?" },
           { es: "Would you mind sending me the report?", en: "¿Te importaría enviarme el informe?" },
-          { es: "Hi everyone, just to let you know, the meeting has been cancelled.", en: "Hola a todos: les comunico que se ha cancelado la reunión." },
+          { es: "Hi everyone, just to let you know, the meeting has been canceled.", en: "Hola a todos: les comunico que se ha cancelado la reunión." },
           { es: "Dear Ms. Smith, thank you for your email.", en: "Estimada Sra. Smith: gracias por su correo." },
           { es: "Kind regards, Lucia", en: "Un saludo, Lucia" },
         ],
@@ -3167,7 +3167,7 @@ export const EN_C1_U15: Lesson[] = [
         heading: "Polite requests and distancing",
         body: [
           "English makes requests more polite by adding distance: past tense, continuous aspect and modal verbs. Compare \"I want to ask you something\" (direct), \"I wanted to ask you something\" (softer) and \"I was wondering if you could help me\" (very polite). The past here does not mean past time.",
-          "Other patterns: \"Would you mind + -ing?\", \"Would it be possible to...?\", \"Do you think you could...?\", \"I'd appreciate it if you could...\". Spanish uses the conditional and «¿Te importaría...?» in the same way, so the logic is familiar; the forms are what you need to automatise.",
+          "Other patterns: \"Would you mind + -ing?\", \"Would it be possible to...?\", \"Do you think you could...?\", \"I'd appreciate it if you could...\". Spanish uses the conditional and «¿Te importaría...?» in the same way, so the logic is familiar; the forms are what you need to make automatic.",
           "Careful with the answer to \"Would you mind...?\": \"No, not at all\" means «no me importa», so it is a yes to the request.",
         ],
         examples: [
@@ -3219,7 +3219,7 @@ export const EN_C1_U15: Lesson[] = [
         body: [
           "When you suggest a change at work, a conditional frames it as an option rather than a correction: \"It might be better if we sent it on Monday\", \"Wouldn't it make more sense to...?\", \"If we moved the deadline, we could add more tests\".",
           "\"It might be better if\" + past simple, and \"It would be better to\" + infinitive, are the two key patterns. Spanish uses the imperfect subjunctive here («Sería mejor que lo enviáramos el lunes»); English uses the past simple.",
-          "For past situations, the third conditional lets you criticise gently: \"If we had checked the figures, we wouldn't have lost the client\". \"We\" instead of \"you\" shares the responsibility, a very common softener in feedback.",
+          "For past situations, the third conditional lets you criticize gently: \"If we had checked the figures, we wouldn't have lost the client\". \"We\" instead of \"you\" shares the responsibility, a very common softener in feedback.",
         ],
         examples: [
           { es: "It might be better if we sent it on Monday.", en: "Quizá sería mejor que lo enviáramos el lunes." },
@@ -3404,7 +3404,7 @@ export const EN_C1_U15: Lesson[] = [
           { left: "Had we known, we'd have called.", right: "inverted conditional" },
           { left: "This would seem to suggest a problem.", right: "hedging" },
         ],
-        explanation: "In real emails and meetings these structures are mixed. Recognising each one helps you choose the right one for each situation.",
+        explanation: "In real emails and meetings these structures are mixed. Recognizing each one helps you choose the right one for each situation.",
       },
       {
         type: "translate",
@@ -3488,7 +3488,7 @@ export const EN_C1_U15: Lesson[] = [
           "Uses a conditional to present an alternative (\"If we moved..., we could...\")",
           "Uses a subjunctive or an inverted conditional (\"Should you...\", \"It's essential that...\")",
         ],
-        modelAnswer: "Hi Diego,\n\nI was wondering if it would be possible to move the project deadline from 10 to 24 March. The supplier's delay would seem to affect most of our testing schedule. If we moved the deadline by two weeks, we could run the full set of tests and avoid problems after launch. It's essential that the client receive a stable version.\n\nShould you prefer to keep the original date, I'd suggest we reduce the scope instead.\n\nBest regards,\nSofia",
+        modelAnswer: "Hi Diego,\n\nI was wondering if it would be possible to move the project deadline from March 10 to March 24. The supplier's delay would seem to affect most of our testing schedule. If we moved the deadline by two weeks, we could run the full set of tests and avoid problems after launch. It's essential that the client receive a stable version.\n\nShould you prefer to keep the original date, I'd suggest we reduce the scope instead.\n\nBest regards,\nSofia",
         explanation: "A real workplace email rarely uses just one structure: the skill is to combine them naturally.",
       },
     ],
@@ -3512,7 +3512,7 @@ export const EN_C1_U15: Lesson[] = [
           { es: "The company generated record revenue last year.", en: "La empresa generó unos ingresos récord el año pasado." },
           { es: "Our profit margin fell to 8%.", en: "Nuestro margen de beneficio bajó al 8 %." },
           { es: "We made a loss in the first quarter but broke even by June.", en: "Tuvimos pérdidas en el primer trimestre, pero en junio cubrimos gastos." },
-          { es: "Staff turnover is very high in the hotel industry.", en: "La rotación de personal es muy alta en la hostelería." },
+          { es: "Staff turnover is very high in the hotel industry.", en: "La rotación de personal es muy alta en la industria hotelera." },
           { es: "The startup turned a profit in its second year.", en: "La startup obtuvo beneficios en su segundo año." },
         ],
         checkpoint: [
@@ -3602,16 +3602,16 @@ export const EN_C1_U15: Lesson[] = [
       {
         heading: "The wider economy: recession, inflation, supply chains",
         body: [
-          "A \"recession\" is a period when the economy shrinks («recesión»); a \"downturn\" or \"slowdown\" is milder. \"Inflation\" is rising prices («inflación»); \"interest rates\" («tipos de interés») are what central banks raise to fight it. \"Unemployment\" is «desempleo» or «paro».",
+          "A \"recession\" is a period when the economy shrinks («recesión»); a \"downturn\" or \"slowdown\" is milder. \"Inflation\" is rising prices («inflación»); \"interest rates\" («tasas de interés») are what central banks raise to fight it. \"Unemployment\" is «desempleo» or «paro».",
           "A \"supply chain\" («cadena de suministro») is the network that takes a product from raw materials to the customer. To \"outsource\" is to pay another company to do part of your work («externalizar», «subcontratar»): \"We outsource our customer service to an agency\".",
           "Also distinguish \"economy\" (the economic system of a country: «la economía española» = \"the Spanish economy\") from \"economics\" (the academic subject). And \"economic\" (related to the economy) from \"economical\" (cheap to run, «económico» in the sense of saving money): \"an economic crisis\", \"an economical car\".",
         ],
         examples: [
           { es: "Many economists fear a recession next year.", en: "Muchos economistas temen una recesión el año que viene." },
-          { es: "The central bank raised interest rates to fight inflation.", en: "El banco central subió los tipos de interés para combatir la inflación." },
+          { es: "The central bank raised interest rates to fight inflation.", en: "El banco central subió las tasas de interés para combatir la inflación." },
           { es: "The pandemic disrupted global supply chains.", en: "La pandemia alteró las cadenas de suministro mundiales." },
           { es: "We outsource our customer service to an agency.", en: "Externalizamos la atención al cliente a una agencia." },
-          { es: "She studied economics at university.", en: "Estudió Economía en la universidad." },
+          { es: "She studied economics in college.", en: "Estudió Economía en la universidad." },
           { es: "This model is more economical to run.", en: "Este modelo tiene un mantenimiento más económico." },
         ],
         checkpoint: [
@@ -3619,7 +3619,7 @@ export const EN_C1_U15: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "El banco central subió los tipos de interés para combatir la inflación.",
+            source: "El banco central subió las tasas de interés para combatir la inflación.",
             answer: "The central bank raised interest rates to fight inflation.",
             altAnswers: [
               "The central bank raised interest rates to combat inflation.",
@@ -3830,7 +3830,7 @@ export const EN_C1_U15: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Write a short paragraph for a company newsletter summarising the year: revenue, profit, a merger or new partnership, and a challenge (for example inflation or supply chain problems). Use at least six words from this lesson.",
+        prompt: "Write a short paragraph for a company newsletter summarizing the year: revenue, profit, a merger or new partnership, and a challenge (for example inflation or supply chain problems). Use at least six words from this lesson.",
         minWords: 60,
         maxWords: 110,
         rubric: [

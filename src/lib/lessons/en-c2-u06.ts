@@ -127,9 +127,9 @@ export const EN_C2_U06: Lesson[] = [
       {
         heading: "Talking about jokes",
         body: [
-          "At the Mastery level you also need the language for discussing humour: \"It's a play on words\", \"It's a pun on the two meanings of interest\", \"The joke hinges on...\", \"It plays on the fact that...\", \"the punchline\" (the final line that delivers the joke), \"a groaner\" and \"a dad joke\" (a corny, innocent pun of the kind fathers are supposed to love).",
+          "At the Mastery level you also need the language for discussing humor: \"It's a play on words\", \"It's a pun on the two meanings of interest\", \"The joke hinges on...\", \"It plays on the fact that...\", \"the punchline\" (the final line that delivers the joke), \"a groaner\" and \"a dad joke\" (a corny, innocent pun of the kind fathers are supposed to love).",
           "If you don't understand, say \"I don't get it\". «No lo capto» is \"I don't get it\", never *I don't catch it. To understand a joke is to \"get\" it; you \"tell\" or \"crack\" a joke; and «gastar una broma» is \"to play a joke\" or \"play a prank on someone\", not *to make a joke to someone.",
-          "A joke that is too obvious or too old is \"corny\", \"cheesy\" or \"lame\". Explaining a joke is famously said to kill it, so when you analyse one, do it lightly: \"It's a pun on dough, which also means money.\"",
+          "A joke that is too obvious or too old is \"corny\", \"cheesy\" or \"lame\". Explaining a joke is famously said to kill it, so when you analyze one, do it lightly: \"It's a pun on dough, which also means money.\"",
         ],
         examples: [
           { es: "I don't get it. What's the joke?", en: "No lo entiendo. ¿Dónde está la gracia?" },
@@ -281,15 +281,15 @@ export const EN_C2_U06: Lesson[] = [
     slug: "c2-humour-2",
     level: "EN-C2",
     number: 2,
-    title: "Humour and wordplay, Part 2 of 3: irony, understatement and deadpan",
+    title: "Humor and wordplay, Part 2 of 3: irony, understatement and deadpan",
     summary: "British understatement (It's a bit chilly at minus ten, not bad meaning very good), litotes, deadpan delivery and dry irony: what the speaker really means and the cues that tell you not to take it literally.",
     duration: "12 min",
     sections: [
       {
         heading: "Understatement: saying less than you mean",
         body: [
-          "Understatement means describing something as much smaller, milder or less important than it really is. It is a pillar of British humour and is common in American English too: \"It's a bit chilly\" at minus ten, \"It was a bit of a disaster\" about a total disaster, \"I'm slightly worried\" when you are panicking.",
-          "Spanish humour tends to go the other way, towards exaggeration («hace un frío que te mueres», «me muero de hambre»). So Spanish speakers often take English understatement literally and underestimate how strongly the speaker feels. If a colleague says the presentation \"could have gone better\", they may mean it was awful.",
+          "Understatement means describing something as much smaller, milder or less important than it really is. It is a pillar of British humor and is common in American English too: \"It's a bit chilly\" at minus ten, \"It was a bit of a disaster\" about a total disaster, \"I'm slightly worried\" when you are panicking.",
+          "Spanish humor tends to go the other way, towards exaggeration («hace un frío que te mueres», «me muero de hambre»). So Spanish speakers often take English understatement literally and underestimate how strongly the speaker feels. If a colleague says the presentation \"could have gone better\", they may mean it was awful.",
           "The usual markers are softeners that sound too small for the situation: \"a bit\", \"slightly\", \"rather\", \"somewhat\", \"a touch\", \"a little\", \"not ideal\", \"not great\". When the softener and the facts do not match, you are probably hearing understatement.",
         ],
         examples: [
@@ -362,14 +362,14 @@ export const EN_C2_U06: Lesson[] = [
         heading: "Deadpan and dry irony",
         body: [
           "Verbal irony means saying the opposite of what you mean and expecting the listener to notice. \"Lovely weather\" in pouring rain, \"Well, that went well\" after a disaster, \"Oh, perfect\" when your bus drives past without stopping.",
-          "Deadpan is the delivery that often goes with it: a completely straight face and flat voice, with no laugh or wink to signal the joke. Dry humour is the same idea in a quieter, understated form. British and Irish speakers use it constantly, and many Americans associate it with British comedy.",
+          "Deadpan is the delivery that often goes with it: a completely straight face and flat voice, with no laugh or wink to signal the joke. Dry humor is the same idea in a quieter, understated form. British and Irish speakers use it constantly, and many Americans associate it with British comedy.",
           "Because deadpan gives you no obvious signal, Spanish speakers sometimes answer ironic remarks literally (\"Really? I think it's terrible weather\"). Look for the cues: the words clash with the obvious facts; words like \"great\", \"brilliant\", \"perfect\", \"lovely\" or \"just what I needed\" in a bad situation; a flat or drawn-out intonation; and a slight pause before or after.",
         ],
         examples: [
           { es: "Lovely weather for a picnic.", en: "Qué tiempo tan estupendo para un pícnic (dicho mientras diluvia)." },
           { es: "Well, that went well.", en: "Bueno, pues ha salido de maravilla (después de un fracaso evidente)." },
           { es: "Oh, brilliant. The printer's jammed again.", en: "Ay, genial. La impresora se ha vuelto a atascar." },
-          { es: "A flat tire on the way to my job interview. Just what I needed.", en: "Un pinchazo de camino a la entrevista de trabajo. Justo lo que necesitaba." },
+          { es: "A flat tire on the way to my job interview. Just what I needed.", en: "Una llanta ponchada de camino a la entrevista de trabajo. Justo lo que necesitaba." },
           { es: "Another meeting about reducing the number of meetings. Can't wait.", en: "Otra reunión para reducir el número de reuniones. Estoy deseando." },
         ],
         checkpoint: [
@@ -537,14 +537,14 @@ export const EN_C2_U06: Lesson[] = [
     slug: "c2-humour-3",
     level: "EN-C2",
     number: 3,
-    title: "Humour and wordplay, Part 3 of 3: humour across the English-speaking world",
+    title: "Humor and wordplay, Part 3 of 3: humor across the English-speaking world",
     summary: "British self-deprecation, American exaggeration and set-up/punchline jokes, Irish storytelling, Australian banter and taking the mickey, and which kinds of joke travel badly.",
     duration: "12 min",
     sections: [
       {
         heading: "Britain: self-deprecation and not taking yourself seriously",
         body: [
-          "Self-deprecation means making fun of yourself: your skills, your bad luck, your own country. British speakers use it to seem modest and approachable, and it is often the first kind of humour a newcomer meets: \"I'm hopeless with technology\", \"My cooking has been known to set off the smoke alarm\", \"We're British, we queue for fun.\"",
+          "Self-deprecation means making fun of yourself: your skills, your bad luck, your own country. British speakers use it to seem modest and approachable, and it is often the first kind of humor a newcomer meets: \"I'm hopeless with technology\", \"My cooking has been known to set off the smoke alarm\", \"We're British, we queue for fun.\"",
           "It is not a real confession of weakness. Someone who says \"Oh, I just dabble in the piano\" may be an excellent pianist, and the polite reaction is to contradict them lightly or laugh along, not to agree (\"Yes, your playing isn't very good\").",
           "The flip side is that open boasting sounds odd in Britain. Spanish speakers who list their achievements confidently, which is perfectly normal in many contexts at home, may come across as arrogant; a self-deprecating touch (\"I got lucky\") softens it.",
         ],
@@ -582,8 +582,8 @@ export const EN_C2_U06: Lesson[] = [
       {
         heading: "The United States: exaggeration and the set-up and punchline",
         body: [
-          "American humour is broadly more explicit than British humour. Its classic tool is exaggeration (hyperbole), often in the tall-tale tradition: \"It was so hot the chickens were laying hard-boiled eggs\", \"I've told you a million times.\"",
-          "The structured joke is also central: a set-up that builds an expectation and a punchline that breaks it. Stand-up comedy, late-night TV monologues and sitcoms run on this rhythm, and Americans often signal humour more clearly, with a smile or a change of voice, so irony is easier to spot.",
+          "American humor is broadly more explicit than British humor. Its classic tool is exaggeration (hyperbole), often in the tall-tale tradition: \"It was so hot the chickens were laying hard-boiled eggs\", \"I've told you a million times.\"",
+          "The structured joke is also central: a set-up that builds an expectation and a punchline that breaks it. Stand-up comedy, late-night TV monologues and sitcoms run on this rhythm, and Americans often signal humor more clearly, with a smile or a change of voice, so irony is easier to spot.",
           "Formula jokes are part of everyday culture: \"knock-knock\" jokes for children, and frames like \"I've got good news and bad news\". Knowing the frames helps you recognize that a joke has started.",
         ],
         examples: [
@@ -621,8 +621,8 @@ export const EN_C2_U06: Lesson[] = [
       {
         heading: "Ireland and Australia: storytelling and banter",
         body: [
-          "Irish humour is famous for storytelling: long, meandering anecdotes full of digressions, where the pleasure is in the telling as much as the ending. \"The craic\" (pronounced like \"crack\") means fun, good company and conversation: \"What's the craic?\" means \"What's new?\", and \"The craic was mighty\" means you had a great time. Friends also \"slag\" each other: tease affectionately.",
-          "Australian humour is direct, irreverent and full of banter. A tall man may be nicknamed \"Shorty\" and a red-haired one \"Bluey\": the nickname is the opposite of the truth. Australians and Britons both \"take the mickey\" (also \"take the mick\" or \"take the Mickey\"), which means to tease or make fun of someone, usually in a friendly way.",
+          "Irish humor is famous for storytelling: long, meandering anecdotes full of digressions, where the pleasure is in the telling as much as the ending. \"The craic\" (pronounced like \"crack\") means fun, good company and conversation: \"What's the craic?\" means \"What's new?\", and \"The craic was mighty\" means you had a great time. Friends also \"slag\" each other: tease affectionately.",
+          "Australian humor is direct, irreverent and full of banter. A tall man may be nicknamed \"Shorty\" and a red-haired one \"Bluey\": the nickname is the opposite of the truth. Australians and Britons both \"take the mickey\" (also \"take the mick\" or \"take the Mickey\"), which means to tease or make fun of someone, usually in a friendly way.",
           "In both cultures, being teased is often a sign of acceptance. The worst reaction is to look hurt or to explain seriously why the teasing is unfair; the best is to laugh and give some back. You will practice that in the banter lesson of this unit.",
         ],
         examples: [
@@ -648,8 +648,8 @@ export const EN_C2_U06: Lesson[] = [
       {
         heading: "Jokes that travel badly",
         body: [
-          "Some humour crosses borders easily: slapstick, absurd situations, gentle self-deprecation. Other kinds travel badly. Puns rarely survive translation, because the double meaning belongs to one language. Irony and deadpan are risky with people who do not know you or are not native speakers, especially in writing, where there is no tone of voice.",
-          "Cultural references (a TV show, a politician, a local stereotype) leave outsiders confused, and teasing that is friendly in Sydney may sound rude in a first meeting with a Japanese or German client. In international settings, native speakers often switch to more explicit humour, or none at all.",
+          "Some humor crosses borders easily: slapstick, absurd situations, gentle self-deprecation. Other kinds travel badly. Puns rarely survive translation, because the double meaning belongs to one language. Irony and deadpan are risky with people who do not know you or are not native speakers, especially in writing, where there is no tone of voice.",
+          "Cultural references (a TV show, a politician, a local stereotype) leave outsiders confused, and teasing that is friendly in Sydney may sound rude in a first meeting with a Japanese or German client. In international settings, native speakers often switch to more explicit humor, or none at all.",
           "The same applies to you. Spanish jokes built on «doble sentido» or regional references usually need too much explanation, and irony in an email can be read as a real complaint. When in doubt, choose warmth over wit, and add a clear signal (\"Just kidding!\", a smiley in informal writing) if the joke could be misread.",
         ],
         examples: [
@@ -898,7 +898,7 @@ export const EN_C2_U06: Lesson[] = [
       {
         heading: "Polysemy in ambiguous headlines",
         body: [
-          "Headline English drops articles and auxiliaries, which makes every word that can be a noun or a verb potentially ambiguous. Collections of accidental double meanings are a popular genre of humour, and editors also create deliberate ones.",
+          "Headline English drops articles and auxiliaries, which makes every word that can be a noun or a verb potentially ambiguous. Collections of accidental double meanings are a popular genre of humor, and editors also create deliberate ones.",
           "\"Red tape holds up new bridge\": \"hold up\" can mean delay or physically support. \"Eye drops off shelf\": \"drops\" can be a noun (eye drops, the medicine) or a verb (an eye falls off a shelf). \"Squad helps dog bite victim\": does the squad help a person bitten by a dog, or help a dog to bite a victim? \"Stolen painting found by tree\": was the tree a detective?",
           "To explain them, use the language of polysemy: \"hold up has two senses here\", \"drops can be read as a noun or a verb\", \"by can mean next to or by the agent of\".",
         ],
@@ -1121,7 +1121,7 @@ export const EN_C2_U06: Lesson[] = [
         body: [
           "The same words can be warm or cutting. Ask four questions: Who is the target, a situation or a person? What is the relationship: friends, equals, or a boss and an employee? Can the target answer back? And is there an audience?",
           "\"Nice of you to join us\" from a friend when you arrive late to dinner is banter; from a teacher to a late student in front of the class it is a sarcastic rebuke. Teasing between equals who can reply is usually friendly; sarcasm from someone with power, or in public, often is not.",
-          "Signs that a remark is friendly: the speaker smiles or laughs, the target is something trivial (your old phone, your football team), and the speaker accepts teasing in return. Signs that it is hostile: it touches something the person is sensitive about, it is repeated after the person shows discomfort, or it comes with \"No offence, but...\".",
+          "Signs that a remark is friendly: the speaker smiles or laughs, the target is something trivial (your old phone, your football team), and the speaker accepts teasing in return. Signs that it is hostile: it touches something the person is sensitive about, it is repeated after the person shows discomfort, or it comes with \"No offense, but...\".",
         ],
         examples: [
           { es: "Nice of you to join us.", en: "Qué amable de tu parte acompañarnos (a quien llega tarde)." },
@@ -1217,7 +1217,7 @@ export const EN_C2_U06: Lesson[] = [
           "\"You don't say!\" (after hearing something obvious)",
         ],
         correctIndex: 0,
-        explanation: "Only the first matches the facts. The others say something positive or surprised about a situation that is negative or obvious.",
+        explanation: "Only the remark about the two-hour film matches the facts. The others say something positive or surprised about a situation that is negative or obvious.",
       },
       {
         type: "listen-choose",
@@ -1232,7 +1232,7 @@ export const EN_C2_U06: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Hubo muchas pullas amistosas entre los dos equipos antes del partido.",
-        answer: "There was a lot of friendly banter between the two teams before the match.",
+        answer: "There was a lot of friendly banter between the two teams before the game.",
         altAnswers: alts(
           ["There was a lot of friendly banter", "There was lots of friendly banter", "There was plenty of friendly banter"],
           ["between the two teams"],
@@ -1337,7 +1337,7 @@ export const EN_C2_U06: Lesson[] = [
               "\"I'm sorry you don't like it. I will change it.\"",
             ],
             correctIndex: 0,
-            explanation: "\"I'll have you know...\" plays mock-offended and keeps the joke going. The second reply is overly literal, and the last two take the teasing as real criticism.",
+            explanation: "\"I'll have you know...\" plays mock-offended and keeps the joke going. \"I got dressed with the light on\" is overly literal, and the other two take the teasing as real criticism.",
           },
         ],
       },
@@ -1370,7 +1370,7 @@ export const EN_C2_U06: Lesson[] = [
         body: [
           "Banter goes too far when it touches something the person is genuinely sensitive about (appearance, family, money, a real failure), when it continues after the person stops laughing, or when it becomes one-sided, with the same person always the target.",
           "To stop it calmly: \"OK, that's enough now\", \"All right, point taken\", \"Let's leave it there\", \"That's a bit below the belt\". If you went too far yourself, apologize simply and sincerely: \"Sorry, that was out of line\", \"I didn't mean it like that\", \"I went too far there.\"",
-          "Avoid \"Can't you take a joke?\": it blames the other person for being hurt and usually makes things worse. \"Take a joke\" means to accept teasing without getting upset; it is fine to say about yourself (\"I can take a joke\") but not as a defence.",
+          "Avoid \"Can't you take a joke?\": it blames the other person for being hurt and usually makes things worse. \"Take a joke\" means to accept teasing without getting upset; it is fine to say about yourself (\"I can take a joke\") but not as a defense.",
         ],
         examples: [
           { es: "All right, point taken. Let's leave it there.", en: "Está bien, ya entendí. Dejémoslo ahí." },
@@ -1443,7 +1443,7 @@ export const EN_C2_U06: Lesson[] = [
           { left: "Sorry, that was out of line.", right: "disculparse por haberse pasado" },
           { left: "OK, that's enough now.", right: "poner fin a la broma" },
         ],
-        explanation: "The first three keep the banter alive; the last two are for when it has gone too far.",
+        explanation: "\"Look who's talking!\", \"Guilty as charged\" and \"Rub it in, why don't you?\" keep the banter alive; the apology and \"OK, that's enough now\" are for when it has gone too far.",
       },
       {
         type: "translate",
@@ -1467,14 +1467,14 @@ export const EN_C2_U06: Lesson[] = [
           "\"Ha ha. Yes, I shovel coal into it every morning.\"",
         ],
         correctIndex: 0,
-        explanation: "Answering the joke as a real question kills it. The others play along: mock offence, turning it around, and exaggerating the joke.",
+        explanation: "Answering the joke as a real question kills it. The others play along: mock offense, turning it around, and exaggerating the joke.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["I", "walked", "right", "into", "that", "one."],
         translation: "Me la has puesto en bandeja y he caído.",
-        explanation: "\"I walked right into that one\" admits, with good humour, that you gave the other person an easy opportunity to tease you.",
+        explanation: "\"I walked right into that one\" admits, with good humor, that you gave the other person an easy opportunity to tease you.",
       },
       {
         type: "listen-choose",
@@ -1487,7 +1487,7 @@ export const EN_C2_U06: Lesson[] = [
           "She doesn't understand the joke.",
         ],
         correctIndex: 0,
-        explanation: "\"What can I say?\" plus an absurd defence shows she enjoys the joke. That is the ideal response to friendly teasing.",
+        explanation: "\"What can I say?\" plus an absurd defense shows she enjoys the joke. That is the ideal response to friendly teasing.",
       },
       {
         type: "write",
@@ -1496,7 +1496,7 @@ export const EN_C2_U06: Lesson[] = [
         maxWords: 100,
         rubric: [
           "Tom's line is clearly friendly teasing, not an insult",
-          "Your comeback uses a natural strategy (exaggerate, turn it around, mock offence)",
+          "Your comeback uses a natural strategy (exaggerate, turn it around, mock offense)",
           "Lines are short and natural, with no serious explanation of the defeat",
           "The final line ends the exchange warmly (for example, by changing the subject)",
           "Everything stays good-natured and family-friendly",
@@ -1639,7 +1639,7 @@ export const EN_C2_U06: Lesson[] = [
           { es: "She was gutted when she didn't get the job.", en: "Se quedó destrozada cuando no le dieron el trabajo. (UK)" },
           { es: "That neighborhood looks a bit sketchy at night.", en: "Ese barrio parece medio peligroso de noche. (US)" },
           { es: "We just hung out at Tom's place.", en: "Estuvimos en casa de Tom pasando el rato." },
-          { es: "Filling in this form is a real pain.", en: "Llenar este formulario es una lata." },
+          { es: "Filling out this form is a real pain.", en: "Llenar este formulario es una lata." },
         ],
         checkpoint: [
           {
@@ -1674,7 +1674,7 @@ export const EN_C2_U06: Lesson[] = [
             pairs: [
               { left: "gutted (UK)", right: "muy decepcionado" },
               { left: "chuffed (UK)", right: "muy contento" },
-              { left: "sketchy (US)", right: "poco fiable, de mala pinta" },
+              { left: "sketchy (US)", right: "poco confiable, de mala pinta" },
               { left: "a pain", right: "una lata, un fastidio" },
               { left: "hang out", right: "pasar el rato" },
             ],
@@ -1790,9 +1790,9 @@ export const EN_C2_U06: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into informal spoken English.",
         source: "Se quedó destrozado cuando perdió su equipo.",
-        answer: "He was gutted when his team lost.",
+        answer: "He was devastated when his team lost.",
         altAnswers: [
-          "He was devastated when his team lost.",
+          "He was gutted when his team lost.",
           "He was really upset when his team lost.",
           "He was so upset when his team lost.",
           "He was crushed when his team lost.",
@@ -2063,7 +2063,7 @@ export const EN_C2_U06: Lesson[] = [
           { left: "complement", right: "complemento, algo que encaja bien" },
           { left: "compliment", right: "cumplido, halago" },
         ],
-        explanation: "Spanish uses one word for each of the first two pairs («económico», «histórico»), so English forces a choice that Spanish does not.",
+        explanation: "Spanish uses one word for each of the economic and historic pairs («económico», «histórico»), so English forces a choice that Spanish does not.",
       },
       {
         type: "translate",
@@ -2139,8 +2139,8 @@ export const EN_C2_U06: Lesson[] = [
     slug: "c2-humour-mastery-check",
     level: "EN-C2",
     number: 8,
-    title: "Mastery check: humour and wordplay",
-    summary: "A hint-free check of the whole unit: explaining puns, decoding irony and understatement, classifying humour, choosing comebacks and the unit's confusable words.",
+    title: "Mastery check: humor and wordplay",
+    summary: "A hint-free check of the whole unit: explaining puns, decoding irony and understatement, classifying humor, choosing comebacks and the unit's confusable words.",
     duration: "12 min",
     sections: [
       {
@@ -2241,7 +2241,7 @@ export const EN_C2_U06: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match each remark with the type of humour it shows.",
+        instructions: "Match each remark with the type of humor it shows.",
         pairs: [
           { left: "It was so cold the polar bears wore scarves.", right: "hipérbole" },
           { left: "I'm hopeless at parking; I need two spaces.", right: "autocrítica humorística" },

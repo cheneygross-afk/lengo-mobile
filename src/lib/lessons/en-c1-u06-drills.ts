@@ -123,7 +123,7 @@ export const EN_C1_U06_DRILLS: Lesson[] = [
         "In speech, \"then\" as a marker goes at the end of a question that follows from what was said. \"Therefore\" and \"consequently\" are written markers.",
       ),
       tr(
-        "¿Y entonces a qué hora quedamos?",
+        "¿Y entonces a qué hora nos vemos?",
         "What time are we meeting, then?",
         [
           "So what time are we meeting?",
@@ -134,7 +134,7 @@ export const EN_C1_U06_DRILLS: Lesson[] = [
           "What time shall we meet, then?",
           "What time do we meet, then?",
         ],
-        "«¿Y entonces...?» = \"So...?\" at the start or \"..., then?\" at the end. «Quedar» for a meeting is \"meet\".",
+        "«¿Y entonces...?» = \"So...?\" at the start or \"..., then?\" at the end. «Vernos» for a meeting is \"meet\".",
       ),
       fb(
         "___, I'd better get back to work.",
@@ -736,7 +736,7 @@ export const EN_C1_U06_DRILLS: Lesson[] = [
       fb(
         "The software is reliable. ___, it is expensive to maintain.",
         "However",
-        "El software es fiable. [Sin embargo], es caro de mantener.",
+        "El software es confiable. [Sin embargo], es caro de mantener.",
         ["That said", "On the other hand"],
         "\"However\" simply contrasts two facts in separate sentences, followed by a comma.",
       ),
@@ -1037,7 +1037,7 @@ export const EN_C1_U06_DRILLS: Lesson[] = [
         "«Si bien» + adjective is \"albeit\". With a full clause (\"it was noisy\"), switch to \"although\" or \"though\".",
       ),
       dt(
-        "Some cities have improved their public transport, whereas others have done very little.",
+        "Some cities have improved their public transportation, whereas others have done very little.",
         "\"Whereas\" links two contrasting facts; listen for the plural \"others have\".",
       ),
       wo(
@@ -2130,7 +2130,7 @@ export const EN_C1_U06_DRILLS: Lesson[] = [
           "Costs rose by 12%, therefore the project was scaled back.",
         ],
         0,
-        "A formal result marker in a new sentence. The last option is a comma splice: \"therefore\" can't follow a comma alone.",
+        "A formal result marker in a new sentence. \"Costs rose by 12%, therefore...\" is a comma splice: \"therefore\" can't follow a comma alone.",
       ),
       fb(
         "I've got a great ___ of news: I got the job!",

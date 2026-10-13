@@ -22,7 +22,7 @@ export const EN_C1_U12_EXTRA: Lesson[] = [
         heading: "Quick recap: phrasal verb or Latinate verb?",
         body: [
           "English often has two words for one idea: a short, usually phrasal, everyday verb and a longer Latin-origin one. \"Find out\" / \"ascertain\", \"put off\" / \"postpone\", \"go up\" / \"increase\", \"set up\" / \"establish\", \"carry on\" / \"continue\", \"get in touch\" / \"contact\", \"buy\" / \"purchase\", \"need\" / \"require\".",
-          "Spanish speakers tend to pick the Latinate word because it looks like Spanish («posponer», «obtener», «requerir»). In writing that is often fine, but in conversation it sounds stiff: say \"We had to put it off\", not \"We had to postpone it\" over coffee. And watch the false friend: *I will assist to the meeting should be \"I'll be at the meeting\" or, formally, \"I will attend the meeting\".",
+          "Spanish speakers tend to pick the Latinate word because it looks like Spanish («posponer», «obtener», «requerir»). In writing that is often fine, but in conversation it sounds stiff: \"We had to put it off\" usually sounds more natural over coffee than \"We had to postpone it\". And watch the false friend: *I will assist to the meeting should be \"I'll be at the meeting\" or, formally, \"I will attend the meeting\".",
         ],
         examples: [
           { es: "I'll find out and let you know.", en: "Lo averiguo y te digo. (conversación)" },
@@ -261,7 +261,7 @@ export const EN_C1_U12_EXTRA: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["We", "regret", "to", "inform", "you", "that", "the", "event", "has", "been", "cancelled."],
+        words: ["We", "regret", "to", "inform", "you", "that", "the", "event", "has", "been", "canceled."],
         translation: "Lamentamos informarle de que el evento ha sido cancelado.",
         explanation: "\"We regret to inform you that...\" is a very formal written opening for bad news. In speech you'd say \"I'm sorry, but...\".",
       },
@@ -404,7 +404,7 @@ export const EN_C1_U12_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Would you mind ___ the heating? It's boiling in here.",
         answer: "turning down",
-        altAnswers: ["turning off", "switching off", "lowering", "turning the heating down"],
+        altAnswers: ["turning off", "switching off", "lowering"],
         en: "¿Te importaría [bajar] la calefacción? Aquí hace muchísimo calor.",
         explanation: "\"Would you mind\" + -ing: \"turning down\". The phrasal verb \"turn down\" means «bajar» (volume, heat).",
       },

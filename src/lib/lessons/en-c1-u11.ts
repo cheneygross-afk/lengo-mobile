@@ -152,7 +152,7 @@ export const EN_C1_U11: Lesson[] = [
             source: "Mi hermana trabaja por su cuenta desde 2019.",
             answer: "My sister has been self-employed since 2019.",
             altAnswers: ["My sister has been freelance since 2019.", "My sister has been a freelancer since 2019.", "My sister has worked freelance since 2019.", "My sister has been working freelance since 2019."],
-            explanation: "«Autónomo» is \"self-employed\" (or \"freelance\"). With «desde», English needs the present perfect: \"has been\", not \"is\".",
+            explanation: "«Trabajar por su cuenta» is \"be self-employed\" (or \"freelance\"). With «desde», English needs the present perfect: \"has been\", not \"is\".",
           },
           {
             type: "multiple-choice",
@@ -198,7 +198,7 @@ export const EN_C1_U11: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Creo que has entendido mal lo que dije.",
+        source: "Creo que entendiste mal lo que dije.",
         answer: "I think you misunderstood what I said.",
         altAnswers: ["I think you've misunderstood what I said.", "I think you have misunderstood what I said.", "I think you misunderstood what I was saying.", "I think you've misunderstood what I was saying."],
         explanation: "«Entender mal» is one verb in English: \"misunderstand\". \"mis-\" means wrongly.",
@@ -316,7 +316,7 @@ export const EN_C1_U11: Lesson[] = [
           { es: "Could you clarify what you mean?", en: "¿Podrías aclarar lo que quieres decir?" },
           { es: "The new law aims to simplify the process.", en: "La nueva ley pretende simplificar el proceso." },
           { es: "They're going to widen the road.", en: "Van a ensanchar la carretera." },
-          { es: "Travelling broadens the mind.", en: "Viajar amplía la mente." },
+          { es: "Traveling broadens the mind.", en: "Viajar amplía la mente." },
           { es: "The situation worsened during the night.", en: "La situación empeoró durante la noche." },
           { es: "This agreement will strengthen ties between the two countries.", en: "Este acuerdo fortalecerá los lazos entre los dos países." },
         ],
@@ -1005,14 +1005,14 @@ export const EN_C1_U11: Lesson[] = [
         ],
       },
       {
-        heading: "A two-week holiday: numbers in compounds",
+        heading: "A two-week vacation: numbers in compounds",
         body: [
-          "When a number + noun goes before another noun as an adjective, the noun stays singular, because adjectives in English are never plural: \"a two-week holiday\", \"a five-minute walk\", \"a ten-year-old girl\", \"a three-hour meeting\", \"a 20-dollar bill\".",
-          "Spanish speakers almost always say *a two-weeks holiday or *a ten-years-old girl, influenced both by Spanish «de dos semanas» and by the plural in \"two weeks\". Compare: \"The holiday lasted two weeks\" (plural, a normal noun phrase) but \"a two-week holiday\" (singular, an adjective).",
+          "When a number + noun goes before another noun as an adjective, the noun stays singular, because adjectives in English are never plural: \"a two-week vacation\", \"a five-minute walk\", \"a ten-year-old girl\", \"a three-hour meeting\", \"a 20-dollar bill\".",
+          "Spanish speakers almost always say *a two-weeks vacation or *a ten-years-old girl, influenced both by Spanish «de dos semanas» and by the plural in \"two weeks\". Compare: \"The vacation lasted two weeks\" (plural, a normal noun phrase) but \"a two-week vacation\" (singular, an adjective).",
           "An alternative with the possessive is common in British English: \"two weeks' holiday\", \"an hour's drive\", \"a day's work\".",
         ],
         examples: [
-          { es: "We're going on a two-week holiday to Greece.", en: "Nos vamos de vacaciones dos semanas a Grecia. (incorrecto: *a two-weeks holiday)" },
+          { es: "We're going on a two-week vacation to Greece.", en: "Nos vamos de vacaciones dos semanas a Grecia. (incorrecto: *a two-weeks vacation)" },
           { es: "It's a five-minute walk from the station.", en: "Está a cinco minutos caminando de la estación." },
           { es: "They have a ten-year-old daughter.", en: "Tienen una hija de diez años." },
           { es: "Their daughter is ten years old.", en: "Su hija tiene diez años." },
@@ -1080,7 +1080,7 @@ export const EN_C1_U11: Lesson[] = [
         body: [
           "Compound nouns are usually stressed on the first part: \"BREAKthrough\", \"OUTcome\", \"SETback\", \"GREENhouse\", \"BLACKboard\". This is how English tells a compound from an adjective + noun: a \"GREENhouse\" («invernadero») is not the same as a green \"HOUSE\" («una casa verde»).",
           "Compound adjectives are usually stressed on the second part when they stand alone: \"well-KNOWN\", \"open-MINDed\", \"old-FASHioned\". Before a stressed noun the stress often moves forward to avoid two strong beats together: \"a WELL-known WRIter\".",
-          "Spanish speakers tend to stress the last word of everything, so compound nouns can sound like two separate words. Practise leaning on the first part.",
+          "Spanish speakers tend to stress the last word of everything, so compound nouns can sound like two separate words. Practice leaning on the first part.",
         ],
         examples: [
           { es: "It was a real breakthrough.", en: "Fue un verdadero avance." },
@@ -1336,7 +1336,7 @@ export const EN_C1_U11: Lesson[] = [
         ],
         examples: [
           { es: "Put the documents in the blue folder.", en: "Pon los documentos en la carpeta azul." },
-          { es: "We've just had a new carpet fitted.", en: "Acabamos de poner alfombra nueva." },
+          { es: "We just had new carpet installed.", en: "Acabamos de poner alfombra nueva." },
           { es: "I bought it at a bookstore near the university.", en: "Lo compré en una librería cerca de la universidad." },
           { es: "The concert was a huge success.", en: "El concierto fue un éxito enorme." },
           { es: "The film was a real disappointment.", en: "La película fue una auténtica decepción." },
@@ -1500,7 +1500,7 @@ export const EN_C1_U11: Lesson[] = [
         heading: "Health and safety: casualty, constipated, preservative, molest",
         body: [
           "A \"casualty\" is a person killed or injured in an accident or a war («víctima», «herido», «baja»): \"There were no casualties\". It has nothing to do with «casualidad», which is \"coincidence\" or \"chance\": «¡Qué casualidad!» is \"What a coincidence!\". In British English, \"Casualty\" is also the hospital's emergency department (\"the ER\" in the US).",
-          "\"Constipated\" means «estreñido». If you have a cold, say \"I have a cold\" or \"I'm congested\" («estoy constipado», «tengo la nariz tapada»).",
+          "\"Constipated\" means «estreñido». If you have a cold, say \"I have a cold\" or \"I'm congested\" («estoy resfriado», «estoy constipado», «tengo la nariz tapada»).",
           "A \"preservative\" is «conservante»: \"no artificial preservatives\". «Preservativo» is \"condom\". And \"molest\" is a very serious word: it means to sexually abuse someone. «Molestar» is \"bother\", \"annoy\" or \"disturb\": «No me molestes» is \"Don't bother me\", and «¿Le molesta si...?» is \"Do you mind if...?\".",
         ],
         examples: [
@@ -1941,7 +1941,7 @@ export const EN_C1_U11: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "El ayuntamiento va a introducir nuevas normas de estacionamiento.",
+            source: "El municipio va a introducir nuevas normas de estacionamiento.",
             answer: "The city council is going to introduce new parking rules.",
             altAnswers: [
               "The council is going to introduce new parking rules.",
@@ -2421,7 +2421,7 @@ export const EN_C1_U11: Lesson[] = [
           { es: "It would be sensible to wait.", en: "Sería sensato esperar." },
           { es: "This is very sensitive information.", en: "Es información muy delicada." },
           { es: "I keep losing my glasses.", en: "No paro de perder los lentes." },
-          { es: "These trousers are too loose.", en: "Estos pantalones me quedan demasiado holgados." },
+          { es: "These pants are too loose on me.", en: "Estos pantalones me quedan demasiado holgados." },
           { es: "One of the screws is loose.", en: "Uno de los tornillos está flojo." },
         ],
         checkpoint: [
@@ -2674,7 +2674,7 @@ export const EN_C1_U11: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "___ has fallen for the third year in a row.",
             answer: "Unemployment",
-            en: "El [paro] ha bajado por tercer año consecutivo.",
+            en: "El [desempleo] ha bajado por tercer año consecutivo.",
             explanation: "The problem is \"unemployment\" (noun). \"The unemployed\" are the people without a job.",
           },
         ],
@@ -2877,7 +2877,7 @@ export const EN_C1_U11: Lesson[] = [
       {
         heading: "Adjectives into nouns",
         body: [
-          "Adjectives can be nominalised too, with the suffixes from this unit: \"complex\" → \"complexity\", \"available\" → \"availability\", \"likely\" → \"likelihood\", \"aware\" → \"awareness\", \"important\" → \"importance\", \"efficient\" → \"efficiency\", \"scarce\" → \"scarcity\".",
+          "Adjectives can be nominalized too, with the suffixes from this unit: \"complex\" → \"complexity\", \"available\" → \"availability\", \"likely\" → \"likelihood\", \"aware\" → \"awareness\", \"important\" → \"importance\", \"efficient\" → \"efficiency\", \"scarce\" → \"scarcity\".",
           "Compare: \"Because the system is so complex, few people use it\" (neutral) and \"The complexity of the system discourages users\" (formal). The second is shorter and puts the key idea at the start of the sentence.",
         ],
         examples: [
@@ -2902,12 +2902,12 @@ export const EN_C1_U11: Lesson[] = [
         heading: "Linking words that need a noun",
         body: [
           "This is where Upper Intermediate linking words come back. \"Because\", \"although\" and \"after\" are followed by a clause (subject + verb). \"Because of\", \"due to\", \"owing to\", \"despite\", \"in spite of\" and \"following\" are followed by a noun or an -ing form.",
-          "So nominalisation and linking go together: \"Although it rained, the match went ahead\" → \"Despite the rain, the match went ahead\". \"The flight was delayed because there was a strike\" → \"The flight was delayed due to a strike\".",
+          "So nominalization and linking go together: \"Although it rained, the match went ahead\" → \"Despite the rain, the match went ahead\". \"The flight was delayed because there was a strike\" → \"The flight was delayed due to a strike\".",
           "The typical Spanish-speaker error is mixing the two: *despite it rained, *due to the workers went on strike. In Spanish, «a pesar de que llovió» and «a pesar de la lluvia» both start with «a pesar de», which hides the difference.",
         ],
         examples: [
           { es: "Despite the rain, the match went ahead.", en: "A pesar de la lluvia, el partido se jugó." },
-          { es: "The flight was cancelled due to a strike.", en: "El vuelo se canceló debido a una huelga." },
+          { es: "The flight was canceled due to a strike.", en: "El vuelo se canceló debido a una huelga." },
           { es: "Following the merger, 200 jobs were cut.", en: "Tras la fusión, se eliminaron 200 puestos de trabajo." },
           { es: "Owing to the high demand, tickets are limited.", en: "Debido a la gran demanda, las entradas son limitadas." },
           { es: "In spite of his injury, he finished the race.", en: "A pesar de la lesión, terminó la carrera." },
@@ -2943,7 +2943,7 @@ export const EN_C1_U11: Lesson[] = [
               "All the flights were cancelled because of the strike.",
               "All flights were cancelled owing to the strike.",
             ],
-            explanation: "«Debido a» + noun = \"due to\", \"because of\" or \"owing to\" + noun. «Se cancelaron» = passive \"were cancelled\".",
+            explanation: "«Debido a» + noun = \"due to\", \"because of\" or \"owing to\" + noun. «Se cancelaron» = passive \"were canceled\".",
           },
         ],
       },
@@ -2952,7 +2952,7 @@ export const EN_C1_U11: Lesson[] = [
         body: [
           "A formal rewrite usually combines all three skills. Neutral: \"The company grew quickly, but because it didn't plan carefully, it lost a lot of money.\" Formal: \"Despite its rapid growth, the company's lack of careful planning led to heavy losses.\"",
           "Look at the changes: \"grew quickly\" → \"rapid growth\" (verb → noun, adverb → adjective), \"didn't plan\" → \"lack of planning\", \"lost money\" → \"losses\", and \"but because\" → \"despite\" + \"led to\".",
-          "Don't overdo it. A good formal paragraph still has verbs. Two or three nominalisations per sentence is usually the limit before the text becomes hard to read.",
+          "Don't overdo it. A good formal paragraph still has verbs. Two or three nominalizations per sentence is usually the limit before the text becomes hard to read.",
         ],
         examples: [
           { es: "Despite its rapid growth, the company suffered heavy losses.", en: "A pesar de su rápido crecimiento, la empresa sufrió grandes pérdidas." },
@@ -3103,11 +3103,11 @@ export const EN_C1_U11: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Rewrite this informal paragraph in a formal register (50-80 words), using at least three nominalisations and two linking words that take a noun: \"The council decided to close the library because it didn't have enough money. People protested a lot, but the council didn't change its mind. Now kids have nowhere to study after school.\"",
+        prompt: "Rewrite this informal paragraph in a formal register (50-80 words), using at least three nominalizations and two linking words that take a noun: \"The council decided to close the library because it didn't have enough money. People protested a lot, but the council didn't change its mind. Now kids have nowhere to study after school.\"",
         minWords: 50,
         maxWords: 80,
         rubric: [
-          "At least three nominalisations (e.g. decision, closure, lack, protests, refusal)",
+          "At least three nominalizations (e.g. decision, closure, lack, protests, refusal)",
           "At least two linking words followed by a noun (due to, despite, following, owing to)",
           "No linking word wrongly followed by a full clause",
           "Formal vocabulary instead of \"kids\" and \"a lot\"",

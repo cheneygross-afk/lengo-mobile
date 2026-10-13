@@ -409,7 +409,7 @@ export const EN_C1_U15_EXTRA: Lesson[] = [
           "Disagreeing politely",
           "Agreeing completely",
           "Interrupting to ask a question",
-          "Summarising the meeting",
+          "Summarizing the meeting",
         ],
         correctIndex: 0,
         explanation: "\"With respect\" + \"I'm not sure\" is a polite formula for disagreement. Note that \"with respect\" signals disagreement, not admiration.",

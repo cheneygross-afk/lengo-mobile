@@ -904,7 +904,6 @@ export const EN_C1_U16: Lesson[] = [
         answer: "My mum has organised a party for 3 May.",
         altAnswers: [
           "My mum has organised a party for the 3rd of May.",
-          "My mum has organised a party for May 3rd.",
           "My mother has organised a party for 3 May.",
           "My mother has organised a party for the 3rd of May.",
           "My mum's organised a party for 3 May.",
@@ -4028,7 +4027,7 @@ export const EN_C1_U16: Lesson[] = [
         prompt: "Write the bold words in American English.",
         sentence: "Don't forget to put the baby's ___ in the bag.",
         answer: "diapers",
-        altAnswers: ["diaper", "pacifier"],
+        altAnswers: ["diaper"],
         en: "No olvides meter los [pañales] del bebé en la bolsa.",
         explanation: "American \"diapers\", British \"nappies\".",
       },

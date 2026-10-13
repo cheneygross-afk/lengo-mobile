@@ -123,7 +123,7 @@ export const EN_C2_U18_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Profits showed an increase ___ 12% compared with last year.",
         answer: "of",
-        en: "Los beneficios registraron un aumento [del] 12 % con respecto al año pasado.",
+        en: "Las ganancias registraron un aumento [del] 12 % con respecto al año pasado.",
         explanation: "\"Of\" introduces the size of the change (\"an increase of 12%\"); \"in\" introduces what changes (\"an increase in profits\").",
       },
       {
@@ -164,7 +164,7 @@ export const EN_C2_U18_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "La negativa del ministro a dimitir provocó una crisis de gobierno.",
+        source: "La negativa del ministro a renunciar provocó una crisis de gobierno.",
         answer: "The minister's refusal to resign triggered a government crisis.",
         altAnswers: [
           "The minister's refusal to resign sparked a government crisis.",
@@ -570,7 +570,7 @@ export const EN_C2_U18_EXTRA: Lesson[] = [
           "The water shortage has been aggravated by the increase in agricultural consumption.",
           "The shortage of water has worsened because of the increase in agricultural consumption.",
         ],
-        explanation: "«Agravarse» is \"worsen\" or \"get worse\"; \"aggravate\" is mostly used in the passive or about medical conditions. \"Increase in\", not *increase of.",
+        explanation: "«Agravarse» is \"worsen\" or \"get worse\"; \"aggravate\" always needs an object (\"X aggravated the shortage\", or the passive \"has been aggravated\"), so *the shortage has aggravated is wrong. \"Increase in\", not *increase of.",
       },
       {
         type: "multiple-choice",

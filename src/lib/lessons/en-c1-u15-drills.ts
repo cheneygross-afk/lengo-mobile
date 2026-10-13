@@ -624,7 +624,7 @@ export const EN_C1_U15_DRILLS: Lesson[] = [
       },
       {
         type: "listen-choose",
-        audio: "So what you're saying is that we should wait until the autumn?",
+        audio: "So what you're saying is that we should wait until the fall?",
         question: "What is the speaker doing?",
         options: [
           "Checking that they understood correctly",
@@ -764,7 +764,7 @@ export const EN_C1_U15_DRILLS: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "An urgent message arrives during the meeting: the client has cancelled the contract. What should the chair say?",
+        question: "An urgent message arrives during the meeting: the client has canceled the contract. What should the chair say?",
         options: [
           "OK, that changes things. Let's deal with that first.",
           "Let's park that for now.",
@@ -1014,7 +1014,7 @@ export const EN_C1_U15_DRILLS: Lesson[] = [
         answer: "mentioned",
         altAnswers: ["said"],
         en: "Como [mencioné] antes, el mercado está cambiando rápido.",
-        explanation: "\"As I mentioned earlier\" links back to a previous point. *As I mentioned before it is also wrong: there is no \"it\" after \"as\".",
+        explanation: "\"As I mentioned earlier\" links back to a previous point. \"As I mentioned it before\" is also wrong: there is no \"it\" after \"as\".",
       },
       {
         type: "dictation",
@@ -1277,9 +1277,9 @@ export const EN_C1_U15_DRILLS: Lesson[] = [
       {
         heading: "Recap: the end of a talk and the key messages",
         body: [
-          "Don't end with \"That's all\". Signal (\"To sum up...\"), summarise (\"The key takeaway is...\") and ask (\"So what I'm asking you today is to...\"), then \"I'd be happy to take any questions\".",
+          "Don't end with \"That's all\". Signal (\"To sum up...\"), summarize (\"The key takeaway is...\") and ask (\"So what I'm asking you today is to...\"), then \"I'd be happy to take any questions\".",
           "With questions: buy time (\"Thanks for raising that\"), check (\"If I understand your question correctly...\"), admit gaps (\"Let me get back to you on that\") or deflect (\"I'm afraid that's outside the scope of today's talk\").",
-          "Emphasise with clefts: \"What I'd like to stress is...\", \"It's the timing that worries me\" (never *What me worries is). Hedge claims: \"Our figures suggest...\", \"roughly\", \"just under half\", \"It's fair to say that...\".",
+          "Emphasize with clefts: \"What I'd like to stress is...\", \"It's the timing that worries me\" (never *What me worries is). Hedge claims: \"Our figures suggest...\", \"roughly\", \"just under half\", \"It's fair to say that...\".",
         ],
         examples: [
           { es: "The key takeaway is this: we can't afford to wait.", en: "La idea clave es esta: no podemos permitirnos esperar." },
@@ -1300,7 +1300,7 @@ export const EN_C1_U15_DRILLS: Lesson[] = [
           "So, I have nothing more to say, that's everything.",
         ],
         correctIndex: 0,
-        explanation: "A strong close signals the end, summarises and asks for something. «Y eso es todo» translated as \"That's all\" sounds abrupt, as if you ran out of things to say.",
+        explanation: "A strong close signals the end, summarizes and asks for something. «Y eso es todo» translated as \"That's all\" sounds abrupt, as if you ran out of things to say.",
       },
       {
         type: "fill-blank",
@@ -1456,7 +1456,7 @@ export const EN_C1_U15_DRILLS: Lesson[] = [
           "It's the quality, not the price, that concerns our clients.",
           "It is the quality, not the price, that worries our customers.",
         ],
-        explanation: "\"It's X that...\" puts X in focus. Spanish «lo que» becomes \"that\" (or \"which\" is wrong here), and the verb agrees with the focused noun.",
+        explanation: "\"It's X that...\" puts X in focus. Spanish «lo que» becomes \"that\" (\"which\" is wrong here), and the verb agrees with the focused noun.",
       },
       {
         type: "translate",
@@ -1510,7 +1510,7 @@ export const EN_C1_U15_DRILLS: Lesson[] = [
         sentence: "It's ___ to say that the first version had some problems.",
         answer: "fair",
         en: "[Se puede] decir que la primera versión tuvo algunos problemas.",
-        explanation: "\"It's fair to say that...\" admits a point honestly without dramatising it.",
+        explanation: "\"It's fair to say that...\" admits a point honestly without dramatizing it.",
       },
       {
         type: "dictation",
@@ -1579,7 +1579,7 @@ export const EN_C1_U15_DRILLS: Lesson[] = [
           "So far, we've looked at productivity and costs. Lastly, let me turn to wellbeing.",
           "So far, we have looked at productivity and costs. Finally, let me turn to wellbeing.",
         ],
-        explanation: "\"So far\" + present perfect summarises the talk up to now; \"Finally, let me turn to...\" signposts the last section.",
+        explanation: "\"So far\" + present perfect summarizes the talk up to now; \"Finally, let me turn to...\" signposts the last section.",
       },
       {
         type: "fill-blank",
@@ -2300,7 +2300,7 @@ export const EN_C1_U15_DRILLS: Lesson[] = [
           { left: "*Can you give me some informations?", right: "Can you give me some information?" },
           { left: "*She gave me a good advice.", right: "She gave me a good piece of advice." },
           { left: "*I work here since 2020.", right: "I've worked here since 2020." },
-          { left: "*Actually, I live in Bogotá.", right: "Currently, I live in Bogotá." },
+          { left: "*Actually, I live in Bogotá.", right: "Currently, I live in Bogota." },
           { left: "*Let's make a pause.", right: "Let's take a break." },
         ],
         explanation: "Uncountable nouns, the present perfect with \"since\", the false friend \"actually\" (= «en realidad») and the collocation \"take a break\".",
@@ -2711,6 +2711,7 @@ export const EN_C1_U15_DRILLS: Lesson[] = [
         type: "fill-blank",
         prompt: "Complete with the missing word.",
         sentence: "I'd appreciate ___ if you could reply by Friday.",
+        en: "Le [agradecería] que respondiera antes del viernes.",
         answer: "it",
         explanation: "\"I'd appreciate it if you could...\" needs \"it\". *I'd appreciate if you could is a very common error.",
       },

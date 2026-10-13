@@ -8,7 +8,7 @@ export const EN_C1_U03: Lesson[] = [
     slug: "c1-nominalisation-1",
     level: "EN-C1",
     number: 1,
-    title: "Nominalisation, Part 1 of 2",
+    title: "Nominalization, Part 1 of 2",
     summary: "Turn verbs and adjectives into nouns (decide > decision, refuse > refusal, able > ability) to pack more information into a formal sentence, and choose the right suffix.",
     duration: "12 min",
     sections: [
@@ -315,7 +315,7 @@ export const EN_C1_U03: Lesson[] = [
     slug: "c1-nominalisation-2",
     level: "EN-C1",
     number: 2,
-    title: "Nominalisation, Part 2 of 2",
+    title: "Nominalization, Part 2 of 2",
     summary: "Build longer noun phrases: the right preposition after the noun (an increase in, a solution to, the impact on), 's or of, and noun compounds like \"customer satisfaction survey\".",
     duration: "12 min",
     sections: [
@@ -619,7 +619,7 @@ export const EN_C1_U03: Lesson[] = [
     slug: "c1-nominalisation-in-practice",
     level: "EN-C1",
     number: 3,
-    title: "Nominalisation in Practice",
+    title: "Nominalization in Practice",
     summary: "Rewrite verbal sentences in nominal style for reports, abstracts and headlines (\"The sharp rise in prices led to a fall in sales\"), read nominal texts for meaning, and decide when the style fits.",
     duration: "12 min",
     sections: [
@@ -908,7 +908,7 @@ export const EN_C1_U03: Lesson[] = [
     slug: "c1-mastery-nominalisation",
     level: "EN-C1",
     number: 4,
-    title: "Mastery Check: Nominalisation",
+    title: "Mastery Check: Nominalization",
     summary: "A no-hints check on noun forms, noun + preposition combinations and compressing clauses into noun phrases.",
     duration: "12 min",
     sections: [
@@ -916,7 +916,7 @@ export const EN_C1_U03: Lesson[] = [
         heading: "Recap: noun forms",
         body: [
           "The suffixes to watch are -al (refusal, approval, arrival, survival, denial, withdrawal), -ure (failure, closure, departure) and -ness (awareness, weakness). These are the ones Spanish does not help with.",
-          "If you get these items wrong, go back to Nominalisation, Part 1 of 2.",
+          "If you get these items wrong, go back to Nominalization, Part 1 of 2.",
         ],
         examples: [
           { es: "her refusal to comment", en: "su negativa a hacer comentarios" },
@@ -930,7 +930,7 @@ export const EN_C1_U03: Lesson[] = [
             sentence: "Her ___ to the post came as a surprise.",
             answer: "appointment",
             en: "Su [nombramiento] para el puesto fue una sorpresa.",
-            explanation: "\"Appoint\" > \"appointment\" (-ment). If this was hard, revisit Nominalisation, Part 1 of 2.",
+            explanation: "\"Appoint\" > \"appointment\" (-ment). If this was hard, revisit Nominalization, Part 1 of 2.",
           },
         ],
       },
@@ -938,7 +938,7 @@ export const EN_C1_U03: Lesson[] = [
         heading: "Recap: noun + preposition",
         body: [
           "Change nouns take \"in\" (an increase in, a fall in). \"For\": demand, need, reason. \"To\": solution, answer, access, threat. \"On\": impact, effect, influence, ban. Use 's with people, organizations and time, \"of\" with things and ideas, and reverse Spanish «de» chains into compounds.",
-          "If you get these items wrong, go back to Nominalisation, Part 2 of 2.",
+          "If you get these items wrong, go back to Nominalization, Part 2 of 2.",
         ],
         examples: [
           { es: "a sharp increase in demand", en: "un fuerte aumento de la demanda" },
@@ -952,7 +952,7 @@ export const EN_C1_U03: Lesson[] = [
             sentence: "The decision had a huge effect ___ staff morale.",
             answer: "on",
             en: "La decisión tuvo un efecto enorme [en] la moral del personal.",
-            explanation: "\"Effect on\", \"impact on\", \"influence on\". If this was hard, revisit Nominalisation, Part 2 of 2.",
+            explanation: "\"Effect on\", \"impact on\", \"influence on\". If this was hard, revisit Nominalization, Part 2 of 2.",
           },
         ],
       },
@@ -960,7 +960,7 @@ export const EN_C1_U03: Lesson[] = [
         heading: "Recap: compressing clauses",
         body: [
           "To compress two clauses, turn verbs into nouns, adverbs into adjectives, subjects into possessives, and link the noun phrases with \"led to\", \"resulted in\", \"was due to\" or \"following\".",
-          "If you get these items wrong, go back to Nominalisation in Practice.",
+          "If you get these items wrong, go back to Nominalization in Practice.",
         ],
         examples: [
           { es: "The tourists' late arrival led to a shorter tour.", en: "Los turistas llegaron tarde, así que la visita fue más corta." },
@@ -977,7 +977,7 @@ export const EN_C1_U03: Lesson[] = [
               "The arrivement of the tourists late led to a shorter tour.",
             ],
             correctIndex: 0,
-            explanation: "\"Late\" is an adjective before the noun: \"late arrival\". \"Lately\" means «últimamente». If this was hard, revisit Nominalisation in Practice.",
+            explanation: "\"Late\" is an adjective before the noun: \"late arrival\". \"Lately\" means «últimamente». If this was hard, revisit Nominalization in Practice.",
           },
         ],
       },
@@ -1307,7 +1307,7 @@ export const EN_C1_U03: Lesson[] = [
         answer: "fill out",
         altAnswers: ["fill in", "complete"],
         en: "Por favor, [llene] el formulario y envíelo.",
-        explanation: "«Cumplimentar» is \"fill out\" (American), \"fill in\" (British) or \"complete\". Never *cumplimentate or *implement.",
+        explanation: "«Llenar» (or «cumplimentar») is \"fill out\" (American), \"fill in\" (British) or \"complete\". Never *cumplimentate or *implement.",
       },
       {
         type: "translate",
@@ -1526,7 +1526,7 @@ export const EN_C1_U03: Lesson[] = [
               "The love is all you need.",
             ],
             correctIndex: 0,
-            explanation: "Only the first refers to something specific (\"we saw in the documentary\"). The others are general and need no article: \"Crime has fallen\", \"Poverty is...\", \"Love is all you need\".",
+            explanation: "Only \"The crime we saw in the documentary\" refers to something specific (\"we saw in the documentary\"). The others are general and need no article: \"Crime has fallen\", \"Poverty is...\", \"Love is all you need\".",
           },
         ],
       },
@@ -2447,7 +2447,7 @@ export const EN_C1_U03: Lesson[] = [
       {
         heading: "How the transformation works",
         body: [
-          "In a key-word transformation (Cambridge C1 Advanced, Part 4), you rewrite a sentence using a given word so that the meaning stays the same. Very often the word is a noun, and the original sentence has a verb or an adjective: \"She refused, which surprised us\" (REFUSAL) > \"Her refusal surprised us\".",
+          "In a key-word transformation (Cambridge Advanced, Part 4), you rewrite a sentence using a given word so that the meaning stays the same. Very often the word is a noun, and the original sentence has a verb or an adjective: \"She refused, which surprised us\" (REFUSAL) > \"Her refusal surprised us\".",
           "When the verb becomes a noun, everything around it adjusts: the subject becomes a possessive (she > her), the adverb becomes an adjective (quickly > quick), and the object follows a preposition (decide on a plan > the decision on the plan).",
           "Always check the preposition that the noun needs and whether the noun needs an article. Many marks are lost on \"the\" and \"of\", not on the noun itself.",
         ],
@@ -2677,7 +2677,7 @@ export const EN_C1_U03: Lesson[] = [
     slug: "c1-spiral-nominalisation-passive",
     level: "EN-C1",
     number: 11,
-    title: "Spiral Review: Passives and Nominalisation",
+    title: "Spiral Review: Passives and Nominalization",
     summary: "Combine Upper Intermediate passives and impersonal reporting with nominal style (\"It has been decided that...\" vs \"A decision has been made to...\") and choose the most impersonal, concise option.",
     duration: "12 min",
     sections: [
@@ -2774,7 +2774,7 @@ export const EN_C1_U03: Lesson[] = [
               "There has been a report of the occurrence of an increase of thefts.",
             ],
             correctIndex: 0,
-            explanation: "Nominal subject + short passive. The second option is correct but wordy; the fourth piles up nouns and uses *increase of.",
+            explanation: "Nominal subject + short passive. \"It has been reported that there has been...\" is correct but wordy; \"There has been a report of...\" piles up nouns and uses *increase of.",
           },
         ],
       },
@@ -2831,7 +2831,7 @@ export const EN_C1_U03: Lesson[] = [
           "It has been made a decision to close the factory.",
         ],
         correctIndex: 0,
-        explanation: "\"A decision has been made to\" + infinitive. *Decision of closing is a calque, and the third option changes who decides.",
+        explanation: "\"A decision has been made to\" + infinitive. *Decision of closing is a calque, and \"The factory has decided to close\" changes who decides.",
       },
       {
         type: "translate",

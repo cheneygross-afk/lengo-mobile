@@ -24,7 +24,7 @@ export const EN_C2_U01_EXTRA: Lesson[] = [
         examples: [
           { es: "The notice shall be deemed to have been received on the third day after posting.", en: "La notificación se considerará recibida al tercer día de su envío por correo." },
           { es: "Nothing in this clause shall be construed as a waiver of rights.", en: "Nada de lo dispuesto en esta cláusula se interpretará como una renuncia de derechos." },
-          { es: "Your licence is hereby revoked.", en: "Por la presente se revoca su licencia." },
+          { es: "Your license is hereby revoked.", en: "Por la presente se revoca su licencia." },
           { es: "The requirement may be waived in exceptional circumstances.", en: "En circunstancias excepcionales se podrá dispensar de este requisito." },
           { es: "All applications must be submitted in writing.", en: "Todas las solicitudes deberán presentarse por escrito." },
         ],
@@ -60,7 +60,7 @@ export const EN_C2_U01_EXTRA: Lesson[] = [
           "Courts \"hold\" (rule on a point of law) and \"find\" (decide facts): \"It was held that the clause was unfair\", \"The company was found to have acted negligently.\" Use the perfect infinitive (\"to have acted\") for an earlier action.",
         ],
         examples: [
-          { es: "Everyone charged with an offence is presumed innocent until proven guilty.", en: "Toda persona acusada de un delito se presume inocente mientras no se pruebe su culpabilidad." },
+          { es: "Everyone charged with an offense is presumed innocent until proven guilty.", en: "Toda persona acusada de un delito se presume inocente mientras no se pruebe su culpabilidad." },
           { es: "It was held that the clause was unenforceable.", en: "Se dictaminó que la cláusula no era exigible." },
           { es: "The company was found to have breached the regulations.", en: "Se determinó que la empresa había infringido la normativa." },
           { es: "The tenant shall be deemed to have accepted the inventory.", en: "Se entenderá que el inquilino ha aceptado el inventario." },
@@ -678,7 +678,7 @@ export const EN_C2_U01_EXTRA: Lesson[] = [
           "Avoids invented subjects such as It will consider that...",
           "Keeps a consistent formal register throughout.",
         ],
-        modelAnswer: "Your parking permit is hereby revoked with immediate effect owing to non-payment of the annual fee. If no reply is received within 14 days of the date of this notice, you shall be deemed to have accepted this decision. The parking space may not be used from Monday 3 March onwards, and any vehicle left there shall be removed at the owner's expense.",
+        modelAnswer: "Your parking permit is hereby revoked with immediate effect owing to non-payment of the annual fee. If no reply is received within 14 days of the date of this notice, you shall be deemed to have accepted this decision. The parking space may not be used from Monday, March 3, onward, and any vehicle left there shall be removed at the owner's expense.",
         explanation: "A formal notice removes the people (\"we\", \"you didn't\") and puts the action in the passive: \"is hereby revoked\", \"shall be deemed\", \"may not be used\".",
       },
     ],
@@ -735,7 +735,7 @@ export const EN_C2_U01_EXTRA: Lesson[] = [
         body: [
           "\"Whereas\" introduces the recitals at the start of a contract («considerando que», «exponen»): \"WHEREAS the Seller owns the property...\". In ordinary prose it means «mientras que»: \"She prefers tea, whereas he drinks coffee.\"",
           "\"Notwithstanding\" is normally a preposition meaning «no obstante lo dispuesto en», «a pesar de», so it needs an object: \"notwithstanding clause 4\", \"notwithstanding the foregoing\". As a plain linker for «no obstante» use \"however\" or \"nevertheless\".",
-          "\"Pursuant to\" = «de conformidad con, en virtud de»; \"in lieu of\" = «en lugar de» (\"pay in lieu of notice\"); \"inter alia\" = «entre otras cosas», usually placed after the verb: \"The report criticises, inter alia, the lack of oversight.\"",
+          "\"Pursuant to\" = «de conformidad con, en virtud de»; \"in lieu of\" = «en lugar de» (\"pay in lieu of notice\"); \"inter alia\" = «entre otras cosas», usually placed after the verb: \"The report criticizes, inter alia, the lack of oversight.\"",
         ],
         examples: [
           { es: "Notwithstanding clause 7, either party may terminate this Agreement at any time.", en: "No obstante lo dispuesto en la cláusula 7, cualquiera de las partes podrá resolver el presente Contrato en cualquier momento." },
@@ -978,7 +978,7 @@ export const EN_C2_U01_EXTRA: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match the formulae to their meanings.",
+        instructions: "Match the formulas to their meanings.",
         pairs: [
           { left: "hereby", right: "por la presente" },
           { left: "herein", right: "en el presente documento" },
@@ -987,7 +987,7 @@ export const EN_C2_U01_EXTRA: Lesson[] = [
           { left: "in lieu of", right: "en lugar de" },
           { left: "inter alia", right: "entre otras cosas" },
         ],
-        explanation: "These are the most frequent formulae in contracts and official letters; recognise them all, and use them only in genuinely legal texts.",
+        explanation: "These are the most frequent formulas in contracts and official letters; recognize them all, and use them only in genuinely legal texts.",
       },
       {
         type: "fill-blank",
@@ -995,7 +995,7 @@ export const EN_C2_U01_EXTRA: Lesson[] = [
         sentence: "The committee examined, ___, the cost of the project and its environmental impact.",
         answer: "inter alia",
         altAnswers: ["among other things"],
-        en: "El comité examinó, [entre otras cosas], el coste del proyecto y su impacto ambiental.",
+        en: "El comité examinó, [entre otras cosas], el costo del proyecto y su impacto ambiental.",
         explanation: "\"Inter alia\" (Latin, «entre otras cosas») usually sits between commas after the verb, signalling that the list is not complete.",
       },
       {
@@ -1160,7 +1160,7 @@ export const EN_C2_U01_EXTRA: Lesson[] = [
       },
       {
         type: "speak",
-        text: "I hereby give notice of my intention to leave the property on the thirtieth of June.",
+        text: "I hereby give notice of my intention to leave the property on June thirtieth.",
         tip: "\"Hereby\" is stressed on the second syllable: here-BY. Link \"notice of\" and \"intention to\" smoothly, without stopping between the words.",
         explanation: "A formal spoken notice: \"hereby\" before the verb, then \"notice of\" + noun.",
       },

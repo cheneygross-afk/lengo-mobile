@@ -13,7 +13,7 @@ export const EN_C1_U17: Lesson[] = [
     duration: "12 min",
     sections: [
       {
-        heading: "Inversion: the auxiliary jumps the queue",
+        heading: "Inversion: the auxiliary cuts in line",
         body: [
           "After a fronted negative or restrictive expression (\"Never\", \"Rarely\", \"Seldom\", \"Not only\", \"No sooner\", \"Hardly\", \"Little\", \"Not until\", \"Only then\", \"Under no circumstances\"), English uses question order: auxiliary + subject. If there is no auxiliary, add \"do\", \"does\" or \"did\": \"Little did she know\".",
           "Spanish has no such rule («Nunca he visto nada igual»), so the typical error is to front the adverb and keep normal order: *Never I have seen such a mess. The other classic slip is the wrong partner word: \"No sooner ... than\", but \"Hardly / Scarcely ... when\".",
@@ -56,13 +56,13 @@ export const EN_C1_U17: Lesson[] = [
         heading: "Clefts: putting the spotlight on one element",
         body: [
           "An it-cleft (\"It was Ana who found the error\") picks out one element and contrasts it with others. Use \"who\" or \"that\" for people and \"that\" for everything else. For times and places, \"that\" is the safe choice: \"It was in 2019 that we met\".",
-          "A wh-cleft (\"What I need is a holiday\") delays the key information to the end, where English puts the news. Do not add a second subject: *What I need it is a holiday. An all-cleft (\"All I want is some peace\") means «lo único que».",
+          "A wh-cleft (\"What I need is a vacation\") delays the key information to the end, where English puts the news. Do not add a second subject: *What I need it is a vacation. An all-cleft (\"All I want is some peace\") means «lo único que».",
           "Spanish «Es que...» is not *Is that... In speech use \"The thing is...\", \"It's just that...\" or simply give the reason: \"The thing is, I'm really tired\".",
         ],
         examples: [
           { es: "It was Ana who found the error.", en: "Fue Ana quien encontró el error." },
           { es: "It was in 2019 that we first met.", en: "Fue en 2019 cuando nos conocimos." },
-          { es: "What I need is a long holiday.", en: "Lo que necesito son unas largas vacaciones." },
+          { es: "What I need is a long vacation.", en: "Lo que necesito son unas largas vacaciones." },
           { es: "All I want is some peace and quiet.", en: "Lo único que quiero es un poco de tranquilidad." },
           { es: "What happened was that the server crashed.", en: "Lo que pasó fue que se cayó el servidor." },
           { es: "The thing is, I don't have time.", en: "Es que no tengo tiempo. (incorrecto: *Is that I don't have time)" },
@@ -202,10 +202,10 @@ export const EN_C1_U17: Lesson[] = [
         type: "multiple-choice",
         question: "You arrive late to a meeting and want to explain. Which is the most natural?",
         options: [
-          "The thing is, the train was cancelled.",
-          "Is that the train was cancelled.",
-          "It is that the train was cancelled.",
-          "Is because the train was cancelled.",
+          "The thing is, the train was canceled.",
+          "Is that the train was canceled.",
+          "It is that the train was canceled.",
+          "Is because the train was canceled.",
         ],
         correctIndex: 0,
         explanation: "«Es que...» becomes \"The thing is...\" or \"It's just that...\". *Is that... has no subject and is a word-for-word calque.",
@@ -281,7 +281,7 @@ export const EN_C1_U17: Lesson[] = [
           { es: "There has been a sharp rise in prices.", en: "Ha habido una fuerte subida de los precios." },
           { es: "We still need a solution to the problem.", en: "Todavía necesitamos una solución al problema." },
           { es: "The reason for the delay is unclear.", en: "No está claro el motivo del retraso." },
-          { es: "Public awareness of the issue has grown.", en: "Ha aumentado la concienciación pública sobre el tema." },
+          { es: "Public awareness of the issue has grown.", en: "Ha aumentado la concientización pública sobre el tema." },
         ],
         checkpoint: [
           {
@@ -343,7 +343,7 @@ export const EN_C1_U17: Lesson[] = [
         body: [
           "English avoids repetition with auxiliaries (\"She can't swim, but I can\"), \"so\" and \"not\" after verbs of thinking (\"I think so\", \"I hope not\", \"I'm afraid so\") and \"one/ones\" for countable nouns (\"the red one\"). «Creo que sí» is \"I think so\", never *I think yes; «creo que no» is usually \"I don't think so\".",
           "\"So do I\" and \"Neither do I\" agree with the auxiliary of the first sentence: \"I've finished.\" \"So have I.\" In speech, \"Me too\" and \"Me neither\" are fine.",
-          "To refer back to a whole idea, use \"this\" + a summarising noun: \"This decision\", \"This trend\", \"This approach\". \"The former\" and \"the latter\" refer to the first and second of two items.",
+          "To refer back to a whole idea, use \"this\" + a summarizing noun: \"This decision\", \"This trend\", \"This approach\". \"The former\" and \"the latter\" refer to the first and second of two items.",
         ],
         examples: [
           { es: "Will it rain tomorrow? I hope not.", en: "¿Lloverá mañana? Espero que no." },
@@ -356,7 +356,7 @@ export const EN_C1_U17: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "\"Is the meeting cancelled?\" \"I'm ___.\"",
+            sentence: "\"Is the meeting canceled?\" \"I'm ___.\"",
             answer: "afraid so",
             en: "\"¿Se ha cancelado la reunión?\" \"[Me temo que sí].\"",
             explanation: "\"I'm afraid so\" = «me temo que sí»; \"I'm afraid not\" = «me temo que no». \"So\" replaces the whole clause.",
@@ -469,7 +469,7 @@ export const EN_C1_U17: Lesson[] = [
           "The government announced cutbacks. This measure caused protests.",
           "The government announced cutbacks. This measure led to protests.",
         ],
-        explanation: "\"This\" + a summarising noun (\"measure\", \"move\") links back to the whole previous sentence, which is clearer than a bare \"this\" or \"it\".",
+        explanation: "\"This\" + a summarizing noun (\"measure\", \"move\") links back to the whole previous sentence, which is clearer than a bare \"this\" or \"it\".",
       },
       {
         type: "word-order",
@@ -560,9 +560,9 @@ export const EN_C1_U17: Lesson[] = [
       {
         heading: "Markers in speech and writing",
         body: [
-          "Spoken markers organise conversation: \"anyway\" (bueno, en fin), \"mind you\" (aunque, eso sí), \"I mean\" (o sea), \"by the way\" (por cierto), \"as I was saying\" (como iba diciendo). Written markers belong to formal texts: \"however\", \"nevertheless\", \"moreover\", \"whereas\", \"consequently\".",
+          "Spoken markers organize conversation: \"anyway\" (bueno, en fin), \"mind you\" (aunque, eso sí), \"I mean\" (o sea), \"by the way\" (por cierto), \"as I was saying\" (como iba diciendo). Written markers belong to formal texts: \"however\", \"nevertheless\", \"moreover\", \"whereas\", \"consequently\".",
           "False friends: \"actually\" = «en realidad» (not «actualmente», which is \"currently\" or \"at the moment\"); \"eventually\" = «al final, con el tiempo» (not «eventualmente», which is \"possibly\" or \"if necessary\").",
-          "\"On the other hand\" adds a contrasting point (por otro lado). \"On the contrary\" rejects what was just said (al contrario): \"It wasn't boring. On the contrary, it was fascinating.\" \"However\" needs a full stop or semicolon before it when it joins two sentences: \"It was cheap; however, it broke.\"",
+          "\"On the other hand\" adds a contrasting point (por otro lado). \"On the contrary\" rejects what was just said (al contrario): \"It wasn't boring. On the contrary, it was fascinating.\" \"However\" needs a period or semicolon before it when it joins two sentences: \"It was cheap; however, it broke.\"",
         ],
         examples: [
           { es: "Actually, I've never been to London.", en: "En realidad, nunca he estado en Londres." },
@@ -721,7 +721,7 @@ export const EN_C1_U17: Lesson[] = [
           "The company tends to employ young people; however, this is changing.",
           "The company tends to recruit young people; however, this is changing.",
         ],
-        explanation: "\"Tend to\" is a hedge (= «soler / tender a»). \"However\" joins two sentences with a semicolon or full stop, not a comma.",
+        explanation: "\"Tend to\" is a hedge (= «soler / tender a»). \"However\" joins two sentences with a semicolon or period, not a comma.",
       },
       {
         type: "speak",
@@ -1323,7 +1323,7 @@ export const EN_C1_U17: Lesson[] = [
         heading: "Formal emails",
         body: [
           "Open with \"Dear\" + title + surname (\"Dear Ms. Lopez,\"), or \"Dear Sir or Madam,\" if you do not know the name. Never *Dear Mr. Carlos: titles go with surnames only.",
-          "Key formulas: \"I am writing to enquire about / complain about / apply for...\", \"Please find attached...\" (not *Find attached you will find), \"I would be grateful if you could...\", \"I look forward to hearing from you\". After \"look forward to\", use -ing: *I look forward to hear is one of the most common mistakes.",
+          "Key formulas: \"I am writing to inquire about / complain about / apply for...\", \"Please find attached...\" (not *Find attached you will find), \"I would be grateful if you could...\", \"I look forward to hearing from you\". After \"look forward to\", use -ing: *I look forward to hear is one of the most common mistakes.",
           "Close with \"Yours sincerely\" (name known) or \"Yours faithfully\" (Dear Sir or Madam) in British English; \"Sincerely\" in American English; \"Best regards\" or \"Kind regards\" for most business emails.",
         ],
         examples: [
@@ -1350,7 +1350,7 @@ export const EN_C1_U17: Lesson[] = [
         body: [
           "Essays need a clear position and balanced argument: \"It could be argued that...\", \"While it is true that..., ...\", \"On balance, ...\", \"In conclusion, ...\". Avoid the double opinion *In my opinion, I think: choose one.",
           "Reports and proposals are impersonal and practical: \"The aim of this report is to...\", \"It is recommended that the company (should) invest...\", \"The findings indicate that...\". Headings and short paragraphs are expected.",
-          "Punctuation: do not join two sentences with a comma (*The results were good, however they were expensive). Use a full stop or a semicolon before \"however\", or a conjunction (\"but\").",
+          "Punctuation: do not join two sentences with a comma (*The results were good, however they were expensive). Use a period or a semicolon before \"however\", or a conjunction (\"but\").",
         ],
         examples: [
           { es: "It could be argued that tourism does more harm than good.", en: "Se podría argumentar que el turismo hace más mal que bien." },
@@ -1451,7 +1451,7 @@ export const EN_C1_U17: Lesson[] = [
           "The plan is ambitious, however, it is affordable.",
         ],
         correctIndex: 0,
-        explanation: "\"However\" between two sentences needs a semicolon (or full stop) before it and a comma after it. A comma alone creates a comma splice.",
+        explanation: "\"However\" between two sentences needs a semicolon (or period) before it and a comma after it. A comma alone creates a comma splice.",
       },
       {
         type: "translate",
@@ -1747,7 +1747,7 @@ export const EN_C1_U17: Lesson[] = [
         body: [
           "Third conditional (unreal past): \"If I had known, I would have come.\" Mixed conditional (past cause, present result): \"If I had studied medicine, I would be a doctor now.\" The \"if\" clause never takes \"would\": *If I would have known is the most persistent Upper Intermediate error among Spanish speakers, because Spanish speech sometimes says «si lo habría sabido».",
           "At the Advanced level, the same meaning often appears inverted: \"Had I known, I would have come.\" It is the same grammar with \"if\" removed.",
-          "\"Wish\" and \"If only\" step one tense back: present regret > past (\"I wish I had more time\"), past regret > past perfect (\"If only I had listened\"). \"Wish + would\" is for complaints about other people's behaviour: \"I wish you would stop interrupting\". *I wish I would have is wrong.",
+          "\"Wish\" and \"If only\" step one tense back: present regret > past (\"I wish I had more time\"), past regret > past perfect (\"If only I had listened\"). \"Wish + would\" is for complaints about other people's behavior: \"I wish you would stop interrupting\". *I wish I would have is wrong.",
         ],
         examples: [
           { es: "If I had known, I would have come.", en: "Si lo hubiera sabido, habría venido. (incorrecto: *If I would have known)" },
@@ -2546,14 +2546,14 @@ export const EN_C1_U17: Lesson[] = [
     level: "EN-C1",
     number: 11,
     title: "Text Detective: Analyzing an Authentic Text",
-    summary: "Read a short article about remote work and spot the Advanced features in it: inversion, clefts, hedging, nominalisation and discourse markers, with a pointer to the unit to revisit for each.",
+    summary: "Read a short article about remote work and spot the Advanced features in it: inversion, clefts, hedging, nominalization and discourse markers, with a pointer to the unit to revisit for each.",
     duration: "12 min",
     sections: [
       {
         heading: "The text: paragraph 1",
         body: [
           "Read the first paragraph of an article about remote work, sentence by sentence. Each sentence contains at least one Advanced feature from this level.",
-          "Notice the opening: a negative inversion (Unit 1) grabs attention, and a nominalisation (Unit 3) packs a whole event into a noun phrase.",
+          "Notice the opening: a negative inversion (Unit 1) grabs attention, and a nominalization (Unit 3) packs a whole event into a noun phrase.",
         ],
         examples: [
           { es: "Rarely has a change in working habits spread so quickly.", en: "Pocas veces un cambio en los hábitos de trabajo se ha extendido tan rápido." },
@@ -2580,7 +2580,7 @@ export const EN_C1_U17: Lesson[] = [
       {
         heading: "The text: paragraph 2",
         body: [
-          "The second paragraph is more cautious. The writer uses hedging (Unit 5) to avoid overclaiming, and written discourse markers (Unit 6) to organise the argument.",
+          "The second paragraph is more cautious. The writer uses hedging (Unit 5) to avoid overclaiming, and written discourse markers (Unit 6) to organize the argument.",
           "Look also at the participle clause and the relative clause with a quantifier (Unit 7).",
         ],
         examples: [
@@ -2603,7 +2603,7 @@ export const EN_C1_U17: Lesson[] = [
         heading: "The text: paragraph 3",
         body: [
           "The conclusion uses a conditional inversion (Unit 1), an it-cleft (Unit 2), and a formal recommendation with the subjunctive (Unit 8).",
-          "Notice how \"This trend\" refers back to the whole previous idea (Unit 4): a summarising noun is clearer than a bare \"this\".",
+          "Notice how \"This trend\" refers back to the whole previous idea (Unit 4): a summarizing noun is clearer than a bare \"this\".",
         ],
         examples: [
           { es: "This trend is unlikely to reverse.", en: "Es poco probable que esta tendencia se invierta." },
@@ -2692,7 +2692,7 @@ export const EN_C1_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence from the text uses a summarising noun to refer back to a previous idea?",
+        question: "Which sentence from the text uses a summarizing noun to refer back to a previous idea?",
         options: ["This trend is unlikely to reverse.", "However, the evidence is far from conclusive.", "Should companies ignore it, they risk losing talent.", "Rarely has a change spread so quickly."],
         correctIndex: 0,
         explanation: "\"This trend\" packages the whole previous paragraph into one noun phrase. Revisit Unit 4.",
@@ -2751,14 +2751,14 @@ export const EN_C1_U17: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Write a short paragraph (an article conclusion) about online education. Include at least one inversion, one cleft, one hedge and one summarising noun (\"This trend\", \"This shift\"...).",
+        prompt: "Write a short paragraph (an article conclusion) about online education. Include at least one inversion, one cleft, one hedge and one summarizing noun (\"This trend\", \"This shift\"...).",
         minWords: 60,
         maxWords: 110,
         rubric: [
           "Includes one negative or conditional inversion",
           "Includes one it-cleft or wh-cleft",
           "Includes at least one hedge (appear, tend to, may, it is widely believed...)",
-          "Refers back with \"this\" + a summarising noun",
+          "Refers back with \"this\" + a summarizing noun",
           "Uses general abstract nouns without \"the\" (education, technology...)",
         ],
         modelAnswer: "Never before have so many people studied online. This shift appears to have made education more accessible, particularly for adults with jobs and families. What remains unclear, however, is whether online learners achieve the same results as those in a classroom. Should universities wish to keep their students, they may need to combine the flexibility of online courses with the personal contact of traditional teaching.",

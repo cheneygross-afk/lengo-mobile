@@ -1446,7 +1446,7 @@ export const EN_C2_U30: Lesson[] = [
         examples: [
           { es: "The leaves rustled in the wind.", en: "Las hojas susurraban con el viento." },
           { es: "The stairs creaked under his weight.", en: "La escalera crujía bajo su peso." },
-          { es: "The fridge hummed in the empty kitchen.", en: "La nevera zumbaba en la cocina vacía." },
+          { es: "The fridge hummed in the empty kitchen.", en: "El refrigerador zumbaba en la cocina vacía." },
           { es: "The book fell to the floor with a dull thud.", en: "El libro cayó al suelo con un golpe sordo." },
           { es: "Plates clattered in the kitchen.", en: "Los platos repiqueteaban en la cocina." },
           { es: "The fire crackled in the hearth.", en: "El fuego crepitaba en la chimenea." },
@@ -1487,7 +1487,7 @@ export const EN_C2_U30: Lesson[] = [
           "These verbs take a direction: \"trudge home\", \"dart across the street\", \"stagger into the room\", \"stroll along the beach\". Spanish usually puts the direction in the verb («cruzar corriendo»), while English puts the manner in the verb and the direction in a particle: «cruzó la calle corriendo» = \"she ran across the street\" or \"she darted across the street\".",
         ],
         examples: [
-          { es: "We strolled along the seafront after dinner.", en: "Paseamos por el paseo marítimo después de cenar." },
+          { es: "We strolled along the waterfront after dinner.", en: "Paseamos por el paseo marítimo después de cenar." },
           { es: "The soldiers trudged through the mud for hours.", en: "Los soldados caminaron penosamente por el barro durante horas." },
           { es: "He staggered into the room, clutching his side.", en: "Entró en la habitación tambaleándose, sujetándose el costado." },
           { es: "A cat darted across the road.", en: "Un gato cruzó la carretera como una flecha." },
@@ -1507,7 +1507,7 @@ export const EN_C2_U30: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "After the match, the fans ___ home through the rain.",
+            sentence: "After the game, the fans ___ home through the rain.",
             answer: "trudged",
             altAnswers: ["plodded", "slogged", "tramped", "trudged back"],
             en: "Después del partido, los aficionados [volvieron penosamente] a casa bajo la lluvia.",
@@ -1604,7 +1604,7 @@ export const EN_C2_U30: Lesson[] = [
         question: "What did the narrator hear?",
         options: [
           "El crujido de una tabla del suelo.",
-          "El zumbido de una nevera.",
+          "El zumbido de un refrigerador.",
           "Unos pasos rápidos en la escalera.",
           "Un golpe en la puerta.",
         ],
@@ -1673,7 +1673,7 @@ export const EN_C2_U30: Lesson[] = [
         heading: "Useful language for each move",
         body: [
           "Hooks: \"Few films this year have been as eagerly awaited as...\", \"On paper, X should not work.\", \"There is a moment, about halfway through, when...\". Summary: \"The film follows...\", \"The novel centers on...\", \"Set in..., it tells the story of...\".",
-          "Analysis: \"Where the film really excels is in...\", \"X is particularly effective at...\", \"The weak link is...\", \"This is most evident in the scene where...\". Verdict: \"Flawed but essential\", \"Not quite a masterpiece, but...\", \"Well worth seeing/reading/visiting\", \"Give this one a miss\".",
+          "Analysis: \"Where the film really excels is in...\", \"X is particularly effective at...\", \"The weak link is...\", \"This is most evident in the scene where...\". Verdict: \"Flawed but essential\", \"Not quite a masterpiece, but...\", \"Well worth seeing/reading/visiting\", \"Give this one a miss\" (British; American reviewers say \"Skip this one\").",
           "Spanish speakers often begin with *In this review I am going to talk about... English reviews never announce themselves: start directly with the hook. And «recomiendo verla» is \"I'd recommend seeing it\" or \"I recommend it\", never *I recommend to see it.",
         ],
         examples: [

@@ -301,7 +301,7 @@ export const EN_C2_U07: Lesson[] = [
       {
         heading: "Places that stand for institutions",
         body: [
-          "Metonymy names something by something closely associated with it. The commonest type in the news is a place standing for the people who work there. Spanish does it too («la Moncloa», «Bruselas», «el Vaticano»), so the device is familiar; what you need is the code.",
+          "Metonymy names something by something closely associated with it. The commonest type in the news is a place standing for the people who work there. Spanish does it too («la Casa Rosada», «Bruselas», «el Vaticano»), so the device is familiar; what you need is the code.",
           "In the UK, \"Downing Street\" or \"Number 10\" is the Prime Minister and their office, \"Whitehall\" is the civil service, \"Westminster\" is Parliament and political life in general, and \"the City\" is London's financial district. In the US, \"the White House\" is the President's administration, \"Capitol Hill\" is Congress, \"the Pentagon\" is the Defense Department, \"Wall Street\" is the financial industry, \"Hollywood\" is the film industry and \"Silicon Valley\" is the tech industry.",
           "Capitals are used the same way: \"Washington and Beijing\" are the two governments, \"Brussels\" is the EU, \"Moscow\" or \"the Kremlin\" is the Russian government. The verb is singular: \"Downing Street has denied the reports\".",
         ],
@@ -494,7 +494,7 @@ export const EN_C2_U07: Lesson[] = [
           "The staff of a cathedral",
         ],
         correctIndex: 0,
-        explanation: "\"Westminster\" is the seat of Parliament, so it stands for the political class, much as Spanish journalists write «la Carrera de San Jerónimo» for Congress.",
+        explanation: "\"Westminster\" is the seat of Parliament, so it stands for the political class, much as Mexican journalists write «San Lázaro» for the Chamber of Deputies.",
       },
       {
         type: "translate",
@@ -563,7 +563,7 @@ export const EN_C2_U07: Lesson[] = [
     level: "EN-C2",
     number: 3,
     title: "Figurative language, Part 3 of 3: figures of the literary tradition",
-    summary: "Litotes, zeugma, chiasmus, oxymoron, antithesis, synaesthesia and the transferred epithet: identify each figure in English literature and speeches, and use them in your own writing.",
+    summary: "Litotes, zeugma, chiasmus, oxymoron, antithesis, synesthesia and the transferred epithet: identify each figure in English literature and speeches, and use them in your own writing.",
     duration: "12 min",
     sections: [
       {
@@ -601,7 +601,7 @@ export const EN_C2_U07: Lesson[] = [
               "Finishing the project in a month was no small feat.",
               "Delivering the project in a month was no mean feat.",
             ],
-            explanation: "«No ser moco de pavo» is litotes: \"no mean feat\", \"no small feat\". The subject is a gerund: \"Getting...\", not *To get... was.",
+            explanation: "«No ser moco de pavo» is litotes: \"no mean feat\", \"no small feat\". The most natural subject is a gerund (\"Getting...\"); an infinitive subject (\"To get... was\") is possible but stiff.",
           },
         ],
       },
@@ -675,7 +675,7 @@ export const EN_C2_U07: Lesson[] = [
       {
         heading: "Synesthesia and the transferred epithet",
         body: [
-          "Synaesthesia describes one sense in terms of another: a \"loud\" shirt (sight described as sound), a \"warm\" voice (sound as touch), \"sharp\" cheese (taste as touch), a \"sweet\" melody (sound as taste). Spanish also has «colores chillones» and «una voz cálida», but the specific adjectives differ: «colores chillones» are \"loud\" or \"garish\" colors, not *screaming colors.",
+          "Synesthesia describes one sense in terms of another: a \"loud\" shirt (sight described as sound), a \"warm\" voice (sound as touch), \"sharp\" cheese (taste as touch), a \"sweet\" melody (sound as taste). Spanish also has «colores chillones» and «una voz cálida», but the specific adjectives differ: «colores chillones» are \"loud\" or \"garish\" colors, not *screaming colors.",
           "In a transferred epithet, an adjective describing a person's state is attached to something else: \"a sleepless night\" (the person did not sleep, not the night), \"a nervous laugh\", \"an angry letter\", \"a hopeful glance\". Spanish uses some of these naturally («una noche en vela», «una risa nerviosa»).",
           "In literature, the transferred epithet adds subtlety: \"He lit a thoughtful cigarette\" suggests the man is thoughtful without saying so. Used once, it is elegant; used often, it becomes a mannerism.",
         ],
@@ -790,7 +790,7 @@ export const EN_C2_U07: Lesson[] = [
           "He wore a brightly colored tie.",
           "He had on a loud tie.",
         ],
-        explanation: "English describes over-bright colors with a sound adjective, \"loud\" (synaesthesia). \"Garish\" is the literal alternative; *screaming colors is a calque.",
+        explanation: "English describes over-bright colors with a sound adjective, \"loud\" (synesthesia). \"Garish\" is the literal alternative; *screaming colors is a calque.",
       },
       {
         type: "word-order",
@@ -1695,7 +1695,7 @@ export const EN_C2_U07: Lesson[] = [
           "Headline grammar: no articles, present simple or to-infinitive",
           "The explanation names the figure and its effect",
         ],
-        modelAnswer: "1) City council cancels plan for new bus lanes. 2) Town hall slams the brakes on bus lanes. 3) \"Slam the brakes on\" is a driving metaphor that fits a transport story and suggests a sudden, forceful decision, while \"town hall\" is metonymy for the council.",
+        modelAnswer: "1) City council cancels plan for new bus lanes. 2) City Hall slams the brakes on bus lanes. 3) \"Slam the brakes on\" is a driving metaphor that fits a transport story and suggests a sudden, forceful decision, while \"City Hall\" is metonymy for the council.",
         explanation: "A good figurative headline keeps one image linked to the topic, so the reader decodes it instantly.",
       },
     ],
@@ -2196,16 +2196,16 @@ export const EN_C2_U07: Lesson[] = [
               "The rain soaked me to the skin as I rushed to the station.",
             ],
             correctIndex: 0,
-            explanation: "In the first sentence, the subject of the main clause is \"the rain\", so it seems that the rain was rushing to the station.",
+            explanation: "In \"Rushing to the station, the rain soaked me to the skin\", the subject of the main clause is \"the rain\", so it seems that the rain was rushing to the station.",
           },
         ],
       },
       {
         heading: "From naming to analyzing",
         body: [
-          "Compare two comments on \"The city slept under a blanket of fog\". Naming: \"The writer uses personification and metaphor\". Analysing: \"By making the city sleep under a blanket of fog, the writer suggests a peaceful, protected stillness that the next scene will shatter\".",
+          "Compare two comments on \"The city slept under a blanket of fog\". Naming: \"The writer uses personification and metaphor\". Analyzing: \"By making the city sleep under a blanket of fog, the writer suggests a peaceful, protected stillness that the next scene will shatter\".",
           "A useful pattern: \"By + -ing (the device), the writer + verb of effect + (what)\". Verbs of effect: suggests, conveys, evokes, emphasizes, foreshadows, undercuts, heightens.",
-          "Spanish commentary («comentario de texto») often lists figures; English-language essays value the link between figure and meaning. One device well analysed is worth more than five merely named.",
+          "Spanish commentary («comentario de texto») often lists figures; English-language essays value the link between figure and meaning. One device well analyzed is worth more than five merely named.",
         ],
         examples: [
           { es: "By personifying the city, the writer suggests a peaceful stillness.", en: "Al personificar la ciudad, el autor sugiere una quietud apacible." },
@@ -2429,7 +2429,7 @@ export const EN_C2_U07: Lesson[] = [
       {
         heading: "Recap: literary figures and similes",
         body: [
-          "Litotes (\"no mean feat\"), zeugma (\"lost her keys and her temper\"), chiasmus (\"eat to live, don't live to eat\"), oxymoron (\"an open secret\"), antithesis (\"the best of times, the worst of times\"), synaesthesia (\"a loud shirt\") and the transferred epithet (\"a sleepless night\").",
+          "Litotes (\"no mean feat\"), zeugma (\"lost her keys and her temper\"), chiasmus (\"eat to live, don't live to eat\"), oxymoron (\"an open secret\"), antithesis (\"the best of times, the worst of times\"), synesthesia (\"a loud shirt\") and the transferred epithet (\"a sleepless night\").",
           "Fixed similes use \"as...as\" (\"as fit as a fiddle\") or \"like\" (\"like a fish out of water\"). \"As\" + noun is a role (\"work as a nurse\"); \"like\" + noun is a comparison (\"sing like an angel\"). Before a clause, formal English uses \"as\" or \"as if\".",
         ],
         examples: [
@@ -2562,7 +2562,7 @@ export const EN_C2_U07: Lesson[] = [
           { left: "a loud tie", right: "sinestesia" },
           { left: "The economy stumbled.", right: "personificación" },
         ],
-        explanation: "Each figure has a typical form: one verb with two senses (zeugma), contradictory words (oxymoron), understatement by negation (litotes), mixed senses (synaesthesia), and human actions for abstract things (personification).",
+        explanation: "Each figure has a typical form: one verb with two senses (zeugma), contradictory words (oxymoron), understatement by negation (litotes), mixed senses (synesthesia), and human actions for abstract things (personification).",
       },
       {
         type: "translate",

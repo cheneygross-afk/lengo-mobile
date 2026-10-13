@@ -257,7 +257,7 @@ export const EN_C1_U04_EXTRA: Lesson[] = [
           { es: "I don't like this shirt; I prefer the blue one.", en: "No me gusta esta camisa; prefiero la azul." },
           { es: "These shoes are too small. Do you have any bigger ones?", en: "Estos zapatos me quedan pequeños. ¿Tiene unos más grandes?" },
           { es: "Which one is yours? The one on the left.", en: "¿Cuál es el tuyo? El de la izquierda." },
-          { es: "My laptop is old, but Ana's is new.", en: "Mi portátil es viejo, pero el de Ana es nuevo." },
+          { es: "My laptop is old, but Ana's is new.", en: "Mi laptop es vieja, pero la de Ana es nueva." },
         ],
         checkpoint: [
           {
@@ -319,7 +319,7 @@ export const EN_C1_U04_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "This laptop is really slow. I need a new ___.",
         answer: "one",
-        en: "Este portátil va muy lento. Necesito [uno] nuevo.",
+        en: "Esta computadora anda muy lenta. Necesito [una] nueva.",
         explanation: "\"A new one\" replaces \"a new laptop\". Without \"one\" (*I need a new) the sentence is incomplete.",
       },
       {

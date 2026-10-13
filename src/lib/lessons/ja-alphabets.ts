@@ -7,7 +7,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 1,
     "title": "How Hiragana Works",
-    "summary": "The essentials before you learn a single character: what hiragana is for, and why romaji is a crutch, not a destination.",
+    "summary": "You'll be able to explain what hiragana is for, why it is read one way almost every time, and why to read kana rather than romaji.",
     "duration": "6 min",
     "sections": [
       {
@@ -69,7 +69,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 2,
     "title": "Hiragana Vowels: あ い う え お",
-    "summary": "The five vowel sounds everything else in hiragana is built from. Learn them cold before moving on.",
+    "summary": "You'll be able to read and pronounce あ い う え お, the five vowels almost every other hiragana is built on, and simple words like あい and いえ.",
     "duration": "10 min",
     "sections": [
       {
@@ -229,7 +229,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "number": 3,
     "title": "Vowel Speed Drill",
     "optional": true,
-    "summary": "No new characters. Pure repetition of あ い う え お until they're automatic -- skip this if the previous lesson already felt easy.",
+    "summary": "You'll be able to recognize あ い う え お instantly and in any order, without stopping to think. No new characters; skip this if the vowels already feel easy.",
     "duration": "8 min",
     "sections": [
       {
@@ -874,7 +874,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 8,
     "title": "Vowels–N Row Speed Drill, Part 1 of 2",
-    "summary": "No new characters. Every hiragana from あ through の, drilled together -- the first 25 characters, half the syllabary.",
+    "summary": "You'll be able to read the vowels and the K and S rows quickly, in short words like かき, あさ and すし. No new characters.",
     "duration": "7 min",
     "sections": [
       {
@@ -999,7 +999,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 9,
     "title": "Vowels–N Row Speed Drill, Part 2 of 2",
-    "summary": "No new characters. Every hiragana from あ through の, drilled together -- the first 25 characters, half the syllabary.",
+    "summary": "You'll be able to read the T and N rows and all 25 characters so far, mixed, in words like いぬ and さかな. No new characters.",
     "duration": "5 min",
     "sections": [
       {
@@ -1620,7 +1620,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 14,
     "title": "Full Hiragana Base Speed Drill, Part 1 of 2",
-    "summary": "No new characters. All 46 base hiragana, mixed together -- the real test of whether they're automatic yet.",
+    "summary": "You'll be able to read the H, M, Y, R and W rows quickly, in words like はな, やま and ゆき. No new characters.",
     "duration": "6 min",
     "sections": [
       {
@@ -1696,7 +1696,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 15,
     "title": "Full Hiragana Base Speed Drill, Part 2 of 2",
-    "summary": "No new characters. All 46 base hiragana, mixed together -- the real test of whether they're automatic yet.",
+    "summary": "You'll be able to read all 46 base hiragana in random order and in words like にほん and せんせい. No new characters.",
     "duration": "9 min",
     "sections": [
       {
@@ -1996,6 +1996,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
             "prompt": "Give the romaji reading for きょう, a word meaning \"today.\"",
             "sentence": "きょう means \"today\" and is read ___.",
             "answer": "kyou",
+            "altAnswers": ["kyō"],
             "explanation": "き + small ょ = kyo, plus う to lengthen it: kyou."
           },
           {
@@ -2040,6 +2041,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
             "prompt": "Give the romaji reading for がっこう, a word meaning \"school.\"",
             "sentence": "がっこう means \"school\" and is read ___.",
             "answer": "gakkou",
+            "altAnswers": ["gakkō"],
             "explanation": "が (ga) + small っ (held pause) + こ (ko) + う (lengthens it) = gakkou."
           },
           {
@@ -2095,7 +2097,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 18,
     "title": "Hiragana Mastery Drill, Part 1 of 2",
-    "summary": "No new characters. Base rows, voiced sounds, combinations, long vowels, and the small っ -- all mixed together, the last hiragana checkpoint before katakana.",
+    "summary": "You'll be able to read voiced sounds and combinations such as だ, ぽ and じゅ quickly, in words like でんわ and きょう. No new characters.",
     "duration": "8 min",
     "sections": [
       {
@@ -2178,6 +2180,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
         "prompt": "Give the romaji reading for きょう, a word meaning \"today.\"",
         "sentence": "きょう means \"today\" and is read ___.",
         "answer": "kyou",
+        "altAnswers": ["kyō"],
         "explanation": "き + small ょ = kyo, lengthened by う: kyou."
       },
       {
@@ -2195,7 +2198,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 19,
     "title": "Hiragana Mastery Drill, Part 2 of 2",
-    "summary": "No new characters. Base rows, voiced sounds, combinations, long vowels, and the small っ -- all mixed together, the last hiragana checkpoint before katakana.",
+    "summary": "You'll be able to read long vowels and the small っ in real words like きって and がっこう. No new characters; the last check before katakana.",
     "duration": "7 min",
     "sections": [
       {
@@ -2216,6 +2219,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
             "prompt": "Give the romaji reading for がっこう, a word meaning \"school.\"",
             "sentence": "がっこう means \"school\" and is read ___.",
             "answer": "gakkou",
+            "altAnswers": ["gakkō"],
             "explanation": "Small っ before k, plus う lengthening こ: gakkou."
           },
           {
@@ -2358,17 +2362,17 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Give the romaji reading for カメラ, a word meaning \"camera.\"",
-        "sentence": "カメラ means \"camera\" and is read ___.",
-        "answer": "kamera",
-        "explanation": "カ (ka) + メ (me) + ラ (ra) = kamera."
+        "prompt": "Give the romaji reading for テニス, a word meaning \"tennis.\"",
+        "sentence": "テニス means \"tennis\" and is read ___.",
+        "answer": "tenisu",
+        "explanation": "テ (te) + ニ (ni) + ス (su) = tenisu. Every character here comes from the rows in this lesson."
       },
       {
         "type": "fill-blank",
-        "prompt": "Give the romaji reading for テレビ, a word meaning \"TV.\"",
-        "sentence": "テレビ means \"TV\" and is read ___.",
-        "answer": "terebi",
-        "explanation": "テ (te) + レ (re) + ビ (bi) = terebi."
+        "prompt": "Give the romaji reading for テキスト, a word meaning \"textbook.\"",
+        "sentence": "テキスト means \"textbook\" and is read ___.",
+        "answer": "tekisuto",
+        "explanation": "テ (te) + キ (ki) + ス (su) + ト (to) = tekisuto. Note ス and ト: in loanwords they often stand for a bare s or t sound."
       }
     ]
   },
@@ -2457,7 +2461,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
             "prompt": "Give the romaji reading for ベッド, a word meaning \"bed.\"",
             "sentence": "ベッド means \"bed\" and is read ___.",
             "answer": "beddo",
-            "explanation": "べ (be) + small ッ (held pause) + ド (do) = beddo."
+            "explanation": "ベ (be) + small ッ (held pause) + ド (do) = beddo."
           },
           {
             "type": "matching",
@@ -2520,7 +2524,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 22,
     "title": "Katakana Speed Drill, Part 1 of 2",
-    "summary": "No new sounds. Every katakana shape, drilled -- plus cross-checks against the hiragana you already know, since the sounds are identical.",
+    "summary": "You'll be able to read katakana shapes in random order and in words like ホテル. No new sounds.",
     "duration": "4 min",
     "sections": [
       {
@@ -2602,7 +2606,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 23,
     "title": "Katakana Speed Drill, Part 2 of 2",
-    "summary": "No new sounds. Every katakana shape, drilled -- plus cross-checks against the hiragana you already know, since the sounds are identical.",
+    "summary": "You'll be able to match each katakana to the hiragana with the same sound and read words like ラジオ and タクシー. No new sounds.",
     "duration": "8 min",
     "sections": [
       {
@@ -2668,7 +2672,8 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
         "prompt": "Give the romaji reading for タクシー, a word meaning \"taxi.\"",
         "sentence": "タクシー means \"taxi\" and is read ___.",
         "answer": "takushii",
-        "explanation": "タ (ta) + ク (ku) + シ (shi) + ー (lengthens it) = takushii."
+        "altAnswers": ["takushī"],
+        "explanation": "タ (ta) + ク (ku) + シ (shi) + ー = takushii. The dash ー is katakana's long-vowel mark (covered properly in the next main lesson): it stretches シ to shii."
       },
       {
         "type": "matching",
@@ -2725,6 +2730,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
             "prompt": "Give the romaji reading for コーヒー, a word meaning \"coffee.\"",
             "sentence": "コーヒー means \"coffee\" and is read ___.",
             "answer": "koohii",
+            "altAnswers": ["kōhī"],
             "explanation": "コ (ko) + ー (lengthens it) + ヒ (hi) + ー (lengthens it) = koohii."
           },
           {
@@ -2828,6 +2834,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
             "prompt": "Give the romaji reading for インターネット, a word meaning \"internet.\"",
             "sentence": "インターネット means \"internet\" and is read ___.",
             "answer": "intaanetto",
+            "altAnswers": ["intānetto"],
             "explanation": "イン (in) + ター (taa) + ネッ (ne, held) + ト (to) = intaanetto."
           },
           {
@@ -2855,6 +2862,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
             "prompt": "Give the romaji reading for がっこう, a word meaning \"school\" (hiragana).",
             "sentence": "がっこう means \"school\" and is read ___.",
             "answer": "gakkou",
+            "altAnswers": ["gakkō"],
             "explanation": "Hiragana review: small っ = a held pause."
           },
           {

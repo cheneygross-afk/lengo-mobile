@@ -342,7 +342,7 @@ export const EN_C1_U09: Lesson[] = [
         ],
         examples: [
           { es: "I'm not willing to take that risk.", en: "No estoy dispuesto a asumir ese riesgo. (incorrecto: *assume that risk)" },
-          { es: "You run the risk of losing your deposit.", en: "Corres el riesgo de perder la fianza." },
+          { es: "You run the risk of losing your deposit.", en: "Corres el riesgo de perder el depósito." },
           { es: "These chemicals pose a serious threat to wildlife.", en: "Estas sustancias químicas suponen una grave amenaza para la fauna." },
           { es: "An aging population poses a huge challenge.", en: "El envejecimiento de la población supone un enorme reto." },
           { es: "The new director assumed responsibility for the department.", en: "La nueva directora asumió la responsabilidad del departamento." },
@@ -373,7 +373,7 @@ export const EN_C1_U09: Lesson[] = [
             sentence: "Investors who ___ can also lose a lot.",
             answer: "take risks",
             altAnswers: ["take a lot of risks", "take big risks", "run risks"],
-            en: "Los inversores que [asumen riesgos] también pueden perder mucho.",
+            en: "Los inversionistas que [asumen riesgos] también pueden perder mucho.",
             explanation: "«Asumir riesgos» is \"take risks\". *Assume risks only appears in technical finance and insurance English.",
           },
         ],
@@ -717,7 +717,7 @@ export const EN_C1_U09: Lesson[] = [
           { es: "We had a quick meeting this morning.", en: "Esta mañana tuvimos una reunión rápida." },
           { es: "Can you sort out the problem with the printer?", en: "¿Puedes solucionar el problema de la impresora?" },
           { es: "She came up with a brilliant idea.", en: "Se le ocurrió una idea genial." },
-          { es: "I'll look into it and get back to you.", en: "Lo miro y te digo algo." },
+          { es: "I'll look into it and get back to you.", en: "Lo reviso y te aviso." },
           { es: "The committee will investigate the matter.", en: "El comité investigará el asunto." },
         ],
         checkpoint: [
@@ -1156,7 +1156,7 @@ export const EN_C1_U09: Lesson[] = [
         ],
         examples: [
           { es: "The store offers a wide range of products.", en: "La tienda ofrece una amplia gama de productos." },
-          { es: "Nurses play a vital role in the health system.", en: "Las enfermeras desempeñan un papel vital en el sistema sanitario." },
+          { es: "Nurses play a vital role in the health system.", en: "Las enfermeras desempeñan un papel vital en el sistema de salud." },
           { es: "Loneliness among older people is a growing concern.", en: "La soledad de las personas mayores es una preocupación creciente." },
           { es: "There has been a sharp increase in rents.", en: "Ha habido un fuerte aumento de los alquileres." },
           { es: "The proposal has widespread support.", en: "La propuesta cuenta con un amplio apoyo." },
@@ -1337,7 +1337,7 @@ export const EN_C1_U09: Lesson[] = [
         examples: [
           { es: "I'm very tired.", en: "Estoy muy cansado." },
           { es: "I'm absolutely exhausted.", en: "Estoy agotadísimo. (incorrecto: *very exhausted)" },
-          { es: "It's extremely cold outside.", en: "Hace muchísimo frío fuera." },
+          { es: "It's extremely cold outside.", en: "Hace muchísimo frío afuera." },
           { es: "It's absolutely freezing in here.", en: "Aquí adentro hace muchísimo frío." },
           { es: "That's completely impossible.", en: "Eso es completamente imposible. (incorrecto: *very impossible)" },
           { es: "The food was really delicious.", en: "La comida estaba buenísima." },
@@ -1740,7 +1740,7 @@ export const EN_C1_U09: Lesson[] = [
         sentence: "Our electricity bill was ___ than last winter.",
         answer: "slightly higher",
         altAnswers: ["a little higher", "a bit higher", "marginally higher", "somewhat higher"],
-        en: "Nuestra factura de la luz fue [ligeramente más alta] que el invierno pasado.",
+        en: "Nuestra cuenta de luz fue [ligeramente más alta] que el invierno pasado.",
         explanation: "\"Slightly\" + comparative describes a small difference. For a big one: \"significantly\", \"much\" or \"far higher\".",
       },
       {
@@ -1781,7 +1781,7 @@ export const EN_C1_U09: Lesson[] = [
         sentence: "The old town is ___.",
         answer: "well worth a visit",
         altAnswers: ["well worth visiting", "definitely worth a visit", "definitely worth visiting", "really worth a visit", "really worth visiting", "worth a visit", "worth visiting"],
-        en: "El casco antiguo [vale mucho la pena visitarlo].",
+        en: "El centro histórico [vale mucho la pena visitarlo].",
         explanation: "«Valer la pena» is \"be worth\" + noun or -ing; \"well\" intensifies it: \"well worth a visit\".",
       },
       {
@@ -1871,7 +1871,7 @@ export const EN_C1_U09: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the missing word.",
-            sentence: "Flights were cancelled due to ___ snow.",
+            sentence: "Flights were canceled due to ___ snow.",
             answer: "heavy",
             explanation: "Snow and rain are \"heavy\". Review Part 1: Heavy and strong.",
           },
@@ -2157,7 +2157,7 @@ export const EN_C1_U09: Lesson[] = [
           { es: "Who's in charge of the project?", en: "¿Quién está a cargo del proyecto?" },
           { es: "These species are at risk of extinction.", en: "Estas especies están en peligro de extinción." },
           { es: "Most people are in favor of the change.", en: "La mayoría de la gente está a favor del cambio." },
-          { es: "The storm caused serious damage to the roof.", en: "La tormenta causó graves daños en el tejado." },
+          { es: "The storm caused serious damage to the roof.", en: "La tormenta causó graves daños en el techo." },
         ],
         checkpoint: [
           {
@@ -2179,7 +2179,7 @@ export const EN_C1_U09: Lesson[] = [
           "Remember also that «asistir» is \"attend\" (go to), while \"assist\" means «ayudar»: a false friend inside a preposition trap.",
         ],
         examples: [
-          { es: "She entered the room without knocking.", en: "Entró en la habitación sin llamar. (incorrecto: *entered in the room)" },
+          { es: "She entered the room without knocking.", en: "Entró en la habitación sin tocar. (incorrecto: *entered in the room)" },
           { es: "We need to discuss the budget.", en: "Tenemos que hablar del presupuesto. (incorrecto: *discuss about)" },
           { es: "He married his childhood sweetheart.", en: "Se casó con su novia de la infancia." },
           { es: "More than 200 people attended the conference.", en: "Más de 200 personas asistieron al congreso." },
@@ -2514,7 +2514,7 @@ export const EN_C1_U09: Lesson[] = [
           "Register: phrasal verbs are neutral and very common in speech, journalism and even reports. In very formal or academic writing, a Latinate verb is sometimes preferred: bring about = cause / effect, carry out = conduct / perform, rule out = exclude, put forward = propose, come up with = devise, play down = minimize / downplay, account for = explain / represent. Use the phrasal verb in speech; consider the Latinate one in a formal essay.",
         ],
         examples: [
-          { es: "It's a good idea, but we can't carry it out without funding.", en: "Es una buena idea, pero no podemos llevarla a cabo sin financiación." },
+          { es: "It's a good idea, but we can't carry it out without funding.", en: "Es una buena idea, pero no podemos llevarla a cabo sin financiamiento." },
           { es: "The possibility was considered, but the police ruled it out.", en: "Se consideró la posibilidad, pero la policía la descartó." },
           { es: "He has a plan, but he can't get it across.", en: "Tiene un plan, pero no consigue transmitirlo." },
           { es: "Nobody expected the solution, but she came up with it in minutes.", en: "Nadie esperaba la solución, pero a ella se le ocurrió en minutos." },
@@ -2584,7 +2584,7 @@ export const EN_C1_U09: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "The plan sounded great, but the funding ___ and the project was canceled.",
         answer: "fell through",
-        en: "El plan sonaba genial, pero la financiación [se vino abajo] y el proyecto se canceló.",
+        en: "El plan sonaba genial, pero el financiamiento [se vino abajo] y el proyecto se canceló.",
         altAnswers: ["collapsed"],
         explanation: "\"Fall through\" = fail to happen (deals, plans, funding). It has no object.",
       },
@@ -2620,7 +2620,7 @@ export const EN_C1_U09: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Rebuscando en el desván, me encontré con unas cartas de mi abuela.",
+        source: "Rebuscando en el ático, me encontré con unas cartas de mi abuela.",
         answer: "Going through the attic, I came across some letters from my grandmother.",
         altAnswers: [
           "Looking through the attic, I came across some letters from my grandmother.",
@@ -3152,7 +3152,7 @@ export const EN_C1_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the correct version of: *There was a strong traffic on the motorway.",
+        question: "Which is the correct version of: *There was a strong traffic on the highway.",
         options: [
           "There was heavy traffic on the highway.",
           "There was a heavy traffic on the highway.",
@@ -3160,7 +3160,7 @@ export const EN_C1_U09: Lesson[] = [
           "There was big traffic on the highway.",
         ],
         correctIndex: 0,
-        explanation: "Traffic is \"heavy\", and it's uncountable: no \"a\". (\"Motorway\" is British; \"highway\" or \"freeway\" is American.)",
+        explanation: "Traffic is \"heavy\", and it's uncountable: no \"a\".",
       },
       {
         type: "translate",
@@ -3252,7 +3252,7 @@ export const EN_C1_U09: Lesson[] = [
           { es: "The police are investigating the incident.", en: "La policía está investigando el incidente." },
           { es: "We had to put off the meeting until next week.", en: "Tuvimos que aplazar la reunión hasta la semana que viene." },
           { es: "The meeting has been postponed until further notice.", en: "La reunión se ha aplazado hasta nuevo aviso." },
-          { es: "She set up her own company at 25.", en: "Montó su propia empresa a los 25 años." },
+          { es: "She set up her own company at 25.", en: "Fundó su propia empresa a los 25 años." },
           { es: "The company was established in 1998.", en: "La empresa se fundó en 1998." },
         ],
         checkpoint: [
@@ -3313,7 +3313,7 @@ export const EN_C1_U09: Lesson[] = [
         examples: [
           { es: "We need to cut down on costs.", en: "Tenemos que recortar gastos." },
           { es: "The company aims to reduce operating costs.", en: "La empresa pretende reducir los costos operativos." },
-          { es: "I'll find out what time the movie starts.", en: "Me entero de a qué hora empieza la película." },
+          { es: "I'll find out what time the movie starts.", en: "Voy a averiguar a qué hora empieza la película." },
           { es: "The committee will determine the final budget.", en: "El comité determinará el presupuesto final." },
           { es: "As the report points out, sales have fallen.", en: "Como señala el informe, las ventas han bajado." },
         ],
@@ -3338,7 +3338,7 @@ export const EN_C1_U09: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English (informal chat).",
-        source: "Tranquila, lo miro y te digo algo.",
+        source: "Tranquila, lo reviso y te aviso.",
         answer: "Don't worry, I'll look into it and get back to you.",
         altAnswers: [
           "Don't worry, I'll look into it and let you know.",
@@ -3570,7 +3570,7 @@ export const EN_C1_U09: Lesson[] = [
         ],
         examples: [
           { es: "The river burst its banks after days of rain.", en: "El río se desbordó tras días de lluvia." },
-          { es: "A landslide blocked the road to the village.", en: "Un desprendimiento de tierras cortó la carretera al pueblo." },
+          { es: "A landslide blocked the road to the village.", en: "Un deslizamiento de tierra bloqueó la carretera al pueblo." },
           { es: "The storm hit the coast on Tuesday night.", en: "La tormenta azotó la costa el martes por la noche." },
           { es: "We took shelter under a tree.", en: "Nos refugiamos debajo de un árbol." },
           { es: "The road winds through rolling hills.", en: "La carretera serpentea entre colinas onduladas." },
@@ -3756,7 +3756,7 @@ export const EN_C1_U09: Lesson[] = [
           { es: "There has been a surge in demand for bicycles.", en: "Ha habido un repunte en la demanda de bicicletas." },
           { es: "The company expanded into three new markets.", en: "La empresa se expandió a tres nuevos mercados." },
           { es: "Sales rose sharply in December.", en: "Las ventas subieron bruscamente en diciembre." },
-          { es: "Profits increased by 12% to $3 million.", en: "Los beneficios aumentaron un 12%, hasta los 3 millones de dólares. (incorrecto: *increased in 12%)" },
+          { es: "Profits increased by 12% to $3 million.", en: "Las ganancias aumentaron un 12%, hasta los 3 millones de dólares. (incorrecto: *increased in 12%)" },
           { es: "The population grew steadily throughout the century.", en: "La población creció de forma constante a lo largo del siglo." },
         ],
         checkpoint: [

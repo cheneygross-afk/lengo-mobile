@@ -369,7 +369,7 @@ export const EN_C1_U07_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Al llegar a la estación, me di cuenta de que había olvidado la cartera.",
+        source: "Al llegar a la estación, me di cuenta de que había olvidado la billetera.",
         answer: "Arriving at the station, I realized I had forgotten my wallet.",
         altAnswers: [
           "Arriving at the station, I realized I had left my wallet.",
@@ -825,7 +825,7 @@ export const EN_C1_U07_EXTRA: Lesson[] = [
           { es: "The person to whom this letter is addressed has moved.", en: "La persona a la que va dirigida esta carta se ha mudado." },
           { es: "This is the town in which I grew up.", en: "Este es el pueblo en el que crecí." },
           { es: "This is the town where I grew up.", en: "Este es el pueblo donde crecí." },
-          { es: "The issue with which we are concerned is funding.", en: "El asunto que nos ocupa es la financiación." },
+          { es: "The issue with which we are concerned is funding.", en: "El asunto que nos ocupa es el financiamiento." },
         ],
         checkpoint: [
           {
@@ -862,7 +862,7 @@ export const EN_C1_U07_EXTRA: Lesson[] = [
           { es: "She has three brothers, two of whom live abroad.", en: "Tiene tres hermanos, dos de los cuales viven en el extranjero." },
           { es: "We received forty applications, none of which met the requirements.", en: "Recibimos cuarenta solicitudes, ninguna de las cuales cumplía los requisitos." },
           { es: "The audience, most of whom were students, applauded loudly.", en: "El público, en su mayoría estudiantes, aplaudió con fuerza." },
-          { es: "It's a company whose profits have doubled in two years.", en: "Es una empresa cuyos beneficios se han duplicado en dos años." },
+          { es: "It's a company whose profits have doubled in two years.", en: "Es una empresa cuyas ganancias se han duplicado en dos años." },
           { es: "They set up a system whereby users can report problems anonymously.", en: "Crearon un sistema mediante el cual los usuarios pueden denunciar problemas de forma anónima." },
         ],
         checkpoint: [
@@ -1147,7 +1147,7 @@ export const EN_C1_U07_EXTRA: Lesson[] = [
         answer: "after whom",
         altAnswers: ["for whom"],
         en: "El astrónomo [en cuyo honor] se bautizó el cometa murió en 1910.",
-        explanation: "\"Name something after someone\" (British) or \"for someone\" (American). Fronted: \"after whom\" or \"for whom\".",
+        explanation: "\"Name something after someone\" (both varieties; American English also says \"for someone\"). Fronted: \"after whom\" or \"for whom\".",
       },
       {
         type: "matching",
@@ -1269,7 +1269,7 @@ export const EN_C1_U07_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "My brother, who lives in Leeds, is a nurse.", en: "Mi hermano, que vive en Leeds, es enfermero." },
-          { es: "The flat that we rented last summer was tiny.", en: "El departamento que alquilamos el verano pasado era diminuto." },
+          { es: "The apartment that we rented last summer was tiny.", en: "El departamento que alquilamos el verano pasado era diminuto." },
           { es: "Madrid, which is the capital of Spain, is very lively.", en: "Madrid, que es la capital de España, es muy animada." },
           { es: "The employees who refused to sign were dismissed.", en: "Los empleados que se negaron a firmar fueron despedidos." },
           { es: "The employees, who refused to sign, were dismissed.", en: "Los empleados, que se negaron a firmar, fueron despedidos." },
@@ -1315,7 +1315,7 @@ export const EN_C1_U07_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "___ I need right now is a long holiday.",
+            sentence: "___ I need right now is a long vacation.",
             answer: "What",
             en: "[Lo que] necesito ahora mismo son unas largas vacaciones.",
             explanation: "«Lo que» meaning «la cosa que», with no antecedent, is \"what\".",
@@ -1328,7 +1328,7 @@ export const EN_C1_U07_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Suspendió el examen, lo que no sorprendió a nadie.",
+        source: "Reprobó el examen, lo que no sorprendió a nadie.",
         answer: "He failed the exam, which didn't surprise anyone.",
         altAnswers: [
           "He failed the exam, which didn't surprise anybody.",
@@ -1642,7 +1642,7 @@ export const EN_C1_U07_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Los que quieran participar deben apuntarse.",
+        source: "Los que quieran participar deben inscribirse.",
         answer: "Those who want to take part must sign up.",
         altAnswers: [
           "Those who want to take part must register.",

@@ -653,7 +653,7 @@ export const EN_C1_U11_DRILLS: Lesson[] = [
         type: "speak",
         text: "She's a photographer, and photography is her whole life.",
         tip: "\"phoTOgrapher\", \"phoTOgraphy\": both stressed on the second syllable, with a weak first syllable /fə/.",
-        explanation: "Practise keeping the stress where English puts it, not where Spanish «fotógrafa» and «fotografía» put it.",
+        explanation: "Practice keeping the stress where English puts it, not where Spanish «fotógrafa» and «fotografía» put it.",
       },
       {
         type: "fill-blank",
@@ -2125,7 +2125,7 @@ export const EN_C1_U11_DRILLS: Lesson[] = [
         ],
         examples: [
           { es: "The strike affected thousands of travelers.", en: "La huelga afectó a miles de viajeros." },
-          { es: "Unemployment rose, so the bank raised interest rates.", en: "El desempleo subió, así que el banco subió los tipos de interés." },
+          { es: "Unemployment rose, so the bank raised interest rates.", en: "El desempleo subió, así que el banco subió las tasas de interés." },
           { es: "I prefer classical music to pop.", en: "Prefiero la música clásica al pop." },
           { es: "Always back up your data.", en: "Haz siempre una copia de seguridad de tus datos." },
         ],

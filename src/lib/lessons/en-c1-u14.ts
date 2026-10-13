@@ -46,7 +46,7 @@ export const EN_C1_U14: Lesson[] = [
         body: [
           "A thesis statement is one sentence that answers the question and can be argued against. \"Technology has advantages and disadvantages\" is not a thesis: nobody would disagree. \"Although technology isolates some people, its benefits for education far outweigh its costs\" is a thesis.",
           "Spanish speakers often write *In my opinion, I think that..., a copy of «en mi opinión, creo que...». In English this is redundant: choose one. \"In my view, cities should...\" or \"I believe that cities should...\" is enough.",
-          "In a formal essay you can also state your position impersonally: \"This essay will argue that...\" or simply state the claim: \"Cities should ban cars from their centres.\"",
+          "In a formal essay you can also state your position impersonally: \"This essay will argue that...\" or simply state the claim: \"Cities should ban cars from their centers.\"",
         ],
         examples: [
           { es: "In my view, cities should ban cars from their centers.", en: "En mi opinión, las ciudades deberían prohibir los carros en el centro. (incorrecto: *In my opinion I think...)" },
@@ -312,14 +312,14 @@ export const EN_C1_U14: Lesson[] = [
         heading: "Presenting views: It could be argued that...",
         body: [
           "Good essays present ideas without always saying who holds them. \"It could be argued that...\", \"It is often claimed that...\" and \"It is widely believed that...\" are the English equivalents of «se podría argumentar que», «a menudo se afirma que» and «se suele pensar que».",
-          "To attribute a view to a group, use \"Critics maintain that...\", \"Supporters of the scheme argue that...\", \"Proponents of X claim that...\". \"Maintain\" here means «sostener». Avoid *Some people say that... in every paragraph: it sounds repetitive and below Advanced level.",
+          "To attribute a view to a group, use \"Critics maintain that...\", \"Supporters of the plan argue that...\", \"Proponents of X claim that...\". \"Maintain\" here means «sostener». Avoid *Some people say that... in every paragraph: it sounds repetitive and below Advanced level.",
           "\"There is a strong case for...\" (+ noun or -ing) means «hay buenas razones para...». The opposite is \"There is little case for...\". Note the preposition: a case \"for\" something, not *a case to do something.",
         ],
         examples: [
           { es: "It could be argued that exams measure memory rather than ability.", en: "Se podría argumentar que los exámenes miden la memoria más que la capacidad." },
           { es: "It is often claimed that young people read less than ever.", en: "A menudo se afirma que los jóvenes leen menos que nunca." },
           { es: "Critics maintain that the policy has failed.", en: "Los críticos sostienen que la política ha fracasado." },
-          { es: "Supporters of the scheme argue that it will create jobs.", en: "Los defensores del proyecto argumentan que creará empleo." },
+          { es: "Supporters of the plan argue that it will create jobs.", en: "Los defensores del proyecto argumentan que creará empleo." },
           { es: "There is a strong case for raising the minimum wage.", en: "Hay buenas razones para subir el salario mínimo." },
           { es: "There is a strong case for a tax on sugary drinks.", en: "Hay buenos argumentos a favor de un impuesto sobre las bebidas azucaradas." },
         ],
@@ -364,7 +364,7 @@ export const EN_C1_U14: Lesson[] = [
         examples: [
           { es: "While it is true that cars pollute, many people have no alternative.", en: "Si bien es cierto que los carros contaminan, mucha gente no tiene alternativa." },
           { es: "Admittedly, the evidence is limited. Nevertheless, it points in one direction.", en: "Es cierto que los datos son limitados. Aun así, apuntan en una dirección." },
-          { es: "Granted, the scheme is expensive, but the alternative is worse.", en: "De acuerdo, el plan es caro, pero la alternativa es peor." },
+          { es: "Granted, the plan is expensive, but the alternative is worse.", en: "De acuerdo, el plan es caro, pero la alternativa es peor." },
           { es: "Despite its high cost, the project is worth pursuing.", en: "A pesar de su elevado costo, vale la pena seguir con el proyecto." },
           { es: "This is not to say that technology is harmful.", en: "Esto no quiere decir que la tecnología sea perjudicial." },
         ],
@@ -435,7 +435,7 @@ export const EN_C1_U14: Lesson[] = [
               "In short, the advantages outweigh the disadvantages.",
               "On balance, the pros outweigh the cons.",
             ],
-            explanation: "\"On balance\" signals a judgement after weighing both sides. \"Outweigh\" takes a direct object: never *outweigh to or *are superior to the disadvantages.",
+            explanation: "\"On balance\" signals a judgment after weighing both sides. \"Outweigh\" takes a direct object: never *outweigh to or *are superior to the disadvantages.",
           },
           {
             type: "fill-blank",
@@ -451,7 +451,7 @@ export const EN_C1_U14: Lesson[] = [
       {
         heading: "Personal and impersonal voice",
         body: [
-          "An Advanced essay asks for your opinion, so \"I\" is allowed, but use it with care. A good balance is impersonal language in the body (\"It could be argued...\", \"This suggests...\") and a personal voice where you give your judgement: \"I would argue that...\", \"In my view, ...\", \"I am convinced that...\".",
+          "An Advanced essay asks for your opinion, so \"I\" is allowed, but use it with care. A good balance is impersonal language in the body (\"It could be argued...\", \"This suggests...\") and a personal voice where you give your judgment: \"I would argue that...\", \"In my view, ...\", \"I am convinced that...\".",
           "\"I would argue that\" is softer and more academic than \"I think\". Avoid repeating \"I think\" in every paragraph and avoid chatty markers like \"well\", \"you know\" or \"so, basically\".",
           "Be careful with general \"we\" and \"you\". Spanish uses «nosotros» freely («hoy en día vivimos...»); in English, \"we\" is fine for society as a whole, but \"you\" (\"you can't trust the news\") is too conversational for an essay. Use \"people\", \"one\" or the passive instead.",
         ],
@@ -728,14 +728,14 @@ export const EN_C1_U14: Lesson[] = [
               "It is too short to be a paragraph.",
             ],
             correctIndex: 0,
-            explanation: "The content is fine; the problem is organisation. A topic sentence, separate sentences and a closing link turn the same ideas into an Advanced paragraph.",
+            explanation: "The content is fine; the problem is organization. A topic sentence, separate sentences and a closing link turn the same ideas into an Advanced paragraph.",
           },
         ],
       },
       {
         heading: "Upgrading with Advanced structures",
         body: [
-          "Once the paragraph is clear, a few Advanced structures can make it sharper. Three that work well in essays are nominalisation (\"the introduction of tolls\" instead of \"when they introduced tolls\"), \"not only... but also\" (with inversion at the start of a sentence: \"Not only do tolls reduce traffic, but they also raise money\") and cleft sentences (\"What cities need is...\").",
+          "Once the paragraph is clear, a few Advanced structures can make it sharper. Three that work well in essays are nominalization (\"the introduction of tolls\" instead of \"when they introduced tolls\"), \"not only... but also\" (with inversion at the start of a sentence: \"Not only do tolls reduce traffic, but they also raise money\") and cleft sentences (\"What cities need is...\").",
           "Use them to add precision or emphasis, not decoration. One inversion and one cleft in a 250-word essay is impressive; five in one paragraph sounds forced and the examiner notices.",
           "If a structure makes your sentence harder to follow, or you are not sure of the grammar, use the simpler version. Accuracy counts as much as range.",
         ],
@@ -796,9 +796,9 @@ export const EN_C1_U14: Lesson[] = [
         ],
         examples: [
           { es: "Another key factor is the cost of housing.", en: "Otro factor clave es el costo de la vivienda." },
-          { es: "Moreover, the scheme would pay for itself within ten years.", en: "Además, el plan se amortizaría en diez años." },
+          { es: "Moreover, the plan would pay for itself within ten years.", en: "Además, el plan se amortizaría en diez años." },
           { es: "By contrast, cycle lanes benefit only a minority.", en: "En cambio, los carriles bici solo benefician a una minoría." },
-          { es: "As a result, many residents have moved out of the centre.", en: "Como consecuencia, muchos vecinos se han ido del centro." },
+          { es: "As a result, many residents have moved out of the center.", en: "Como consecuencia, muchos vecinos se han ido del centro." },
         ],
         checkpoint: [
           {
@@ -863,7 +863,7 @@ export const EN_C1_U14: Lesson[] = [
           "The introduction of road tolls led to a sharp drop in traffic.",
           "The introduction of tolls brought about a sharp drop in traffic.",
         ],
-        explanation: "Nominalisation (\"the introduction of\") is typical of formal writing. «Provocar» here is \"lead to\" or \"result in\"; «descenso de» is \"a drop in\" (preposition \"in\", not *of).",
+        explanation: "Nominalization (\"the introduction of\") is typical of formal writing. «Provocar» here is \"lead to\" or \"result in\"; «descenso de» is \"a drop in\" (preposition \"in\", not *of).",
       },
       {
         type: "fill-blank",
@@ -930,9 +930,9 @@ export const EN_C1_U14: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Además, el plan se amortizaría en diez años.",
-        answer: "Moreover, the scheme would pay for itself within ten years.",
+        answer: "Moreover, the plan would pay for itself within ten years.",
         altAnswers: [
-          "Moreover, the plan would pay for itself within ten years.",
+          "Moreover, the scheme would pay for itself within ten years.",
           "Moreover, the scheme would pay for itself in ten years.",
           "Moreover, the plan would pay for itself in ten years.",
           "Furthermore, the scheme would pay for itself within ten years.",
@@ -944,7 +944,7 @@ export const EN_C1_U14: Lesson[] = [
           "Moreover, the project would pay for itself within ten years.",
           "Moreover, the plan would pay for itself in ten years' time.",
         ],
-        explanation: "«Amortizarse» is \"pay for itself\". \"Moreover\" fits because this is a further point in favour of the same argument.",
+        explanation: "«Amortizarse» is \"pay for itself\". \"Moreover\" fits because this is a further point in favor of the same argument.",
       },
       {
         type: "write",
@@ -955,10 +955,10 @@ export const EN_C1_U14: Lesson[] = [
           "Starts with a clear topic sentence",
           "Supports the point with an example or evidence",
           "Includes and answers a counterargument (e.g. \"Admittedly... However...\")",
-          "Uses at least one Advanced structure naturally (cleft, inversion or nominalisation)",
+          "Uses at least one Advanced structure naturally (cleft, inversion or nominalization)",
           "Uses linkers only where the relationship is real",
         ],
-        modelAnswer: "The strongest argument for taxing air travel is that it makes the true cost of flying visible. At present, a weekend flight to another European capital can cost less than a train ticket to a nearby city, which encourages unnecessary trips. When Sweden introduced a tax on air travel in 2018, the number of domestic passengers began to fall. Admittedly, such taxes hit low-income families hardest, since wealthy travellers will simply pay more. However, this objection could be addressed by exempting a first return flight each year or by reinvesting the revenue in cheaper rail travel. What matters most is that prices begin to reflect environmental damage; without that signal, behaviour is unlikely to change.",
+        modelAnswer: "The strongest argument for taxing air travel is that it makes the true cost of flying visible. At present, a weekend flight to another European capital can cost less than a train ticket to a nearby city, which encourages unnecessary trips. When Sweden introduced a tax on air travel in 2018, the number of domestic passengers began to fall. Admittedly, such taxes hit low-income families hardest, since wealthy travelers will simply pay more. However, this objection could be addressed by exempting a first return flight each year or by reinvesting the revenue in cheaper rail travel. What matters most is that prices begin to reflect environmental damage; without that signal, behavior is unlikely to change.",
         explanation: "Topic sentence, evidence, a fair counterargument with an answer, and a link back to the thesis: a complete Advanced paragraph.",
       },
     ],
@@ -968,13 +968,13 @@ export const EN_C1_U14: Lesson[] = [
     level: "EN-C1",
     number: 4,
     title: "Mastery Check: Essay Writing",
-    summary: "No hints this time: show that you can structure an essay, use the language of argument and organise paragraphs. Each answer tells you which lesson to revisit if you get it wrong.",
+    summary: "No hints this time: show that you can structure an essay, use the language of argument and organize paragraphs. Each answer tells you which lesson to revisit if you get it wrong.",
     duration: "12 min",
     sections: [
       {
         heading: "How this check works",
         body: [
-          "This lesson tests the whole unit on essays: structure (thesis, topic sentences, evidence, counterarguments), the language of argument (impersonal openers, concession, conclusions) and paragraph organisation.",
+          "This lesson tests the whole unit on essays: structure (thesis, topic sentences, evidence, counterarguments), the language of argument (impersonal openers, concession, conclusions) and paragraph organization.",
           "There are no reminders before the questions. After each one, the explanation names the part of the unit to revisit: Part 1 (structure), Part 2 (language of argument) or In Practice (planning and choosing structures).",
           "Translate naturally, as you would in a real essay. Several answers are usually possible.",
         ],
@@ -1102,7 +1102,7 @@ export const EN_C1_U14: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "___, the advantages of the scheme outweigh its costs.",
+        sentence: "___, the advantages of the plan outweigh its costs.",
         answer: "On balance",
         altAnswers: ["All things considered", "Taking everything into account", "All in all", "Ultimately", "Overall"],
         en: "[En definitiva], las ventajas del proyecto superan sus costos.",
@@ -1241,7 +1241,7 @@ export const EN_C1_U14: Lesson[] = [
           "Spanish-speaking students often write reports like letters or speeches, with a greeting and a chatty opening. A report has no greeting and no sign-off.",
         ],
         examples: [
-          { es: "Report on the use of the staff canteen", en: "Informe sobre el uso del comedor de la empresa" },
+          { es: "Report on the use of the staff cafeteria", en: "Informe sobre el uso del comedor de la empresa" },
           { es: "Introduction", en: "Introducción" },
           { es: "Findings", en: "Resultados / Conclusiones del estudio" },
           { es: "Recommendations", en: "Recomendaciones" },
@@ -1259,7 +1259,7 @@ export const EN_C1_U14: Lesson[] = [
               "Jokes to keep the reader interested",
             ],
             correctIndexes: [0, 1, 2],
-            explanation: "Reports are organised for quick reading: title, headings, neutral tone and recommendations. Greetings and jokes belong to letters and informal articles.",
+            explanation: "Reports are organized for quick reading: title, headings, neutral tone and recommendations. Greetings and jokes belong to letters and informal articles.",
           },
         ],
       },
@@ -1267,7 +1267,7 @@ export const EN_C1_U14: Lesson[] = [
         heading: "Opening a report: purpose, not greetings",
         body: [
           "The introduction states the purpose of the report in one or two sentences: \"The aim of this report is to...\", \"The purpose of this report is to...\", \"This report examines/outlines/evaluates...\". It may add how the information was gathered: \"...based on a survey of 120 employees\".",
-          "Avoid the typical opening *Hello, I am going to tell you about the canteen. It sounds like a presentation to friends. Also avoid *In this report I will talk about...: \"talk\" is spoken language. Prefer \"This report outlines...\" or \"This report assesses...\".",
+          "Avoid the typical opening *Hello, I am going to tell you about the cafeteria. It sounds like a presentation to friends. Also avoid *In this report I will talk about...: \"talk\" is spoken language. Prefer \"This report outlines...\" or \"This report assesses...\".",
           "Note the structure: \"The aim of this report is to\" + infinitive. Not *The aim of this report is evaluate (missing \"to\"), and not *The objective of this report is evaluating.",
         ],
         examples: [
@@ -1296,7 +1296,7 @@ export const EN_C1_U14: Lesson[] = [
               "The goal of this report is to evaluate the new training programme.",
               "The objective of this report is to assess the new training programme.",
             ],
-            explanation: "\"The aim/purpose of this report is to\" + infinitive. \"Training programme\" is British spelling; Americans write \"program\".",
+            explanation: "\"The aim/purpose of this report is to\" + infinitive. \"Training program\" is British spelling; Americans write \"program\".",
           },
           {
             type: "multiple-choice",
@@ -1320,7 +1320,7 @@ export const EN_C1_U14: Lesson[] = [
           "Watch the Spanish article. «La mayoría de los encuestados» is \"most respondents\" or \"the majority of respondents\", never *the most of the respondents. And «los encuestados» are \"respondents\" or \"those surveyed\", not *the surveyed.",
         ],
         examples: [
-          { es: "It was found that the canteen is overcrowded at lunchtime.", en: "Se observó que el comedor está saturado a la hora de comer." },
+          { es: "It was found that the cafeteria is overcrowded at lunchtime.", en: "Se observó que el comedor está saturado a la hora de comer." },
           { es: "The majority of respondents were satisfied with the service.", en: "La mayoría de los encuestados estaban satisfechos con el servicio." },
           { es: "A significant minority complained about the prices.", en: "Una minoría considerable se quejó de los precios." },
           { es: "Most staff felt that the opening hours were too short.", en: "La mayoría del personal opinaba que el horario era demasiado reducido." },
@@ -1351,7 +1351,7 @@ export const EN_C1_U14: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "It was ___ that the canteen is overcrowded at lunchtime.",
+            sentence: "It was ___ that the cafeteria is overcrowded at lunchtime.",
             answer: "found",
             altAnswers: ["observed", "noted"],
             en: "[Se observó] que el comedor está saturado a la hora de comer.",
@@ -1364,7 +1364,7 @@ export const EN_C1_U14: Lesson[] = [
         body: [
           "Headings should be short and informative: \"Current situation\", \"Staff opinions\", \"Recommendations\". Avoid full sentences or questions as headings in a formal report.",
           "Bullet points are useful for lists of findings or recommendations, but each bullet must be grammatically parallel: all noun phrases, or all sentences starting with a verb. Don't use bullets for the whole report; the introduction and conclusion stay in full sentences.",
-          "The recommendations follow logically from the findings: \"In the light of these findings, it is recommended that...\", \"The following measures are suggested:\". In Part 2 you will practise this language in detail.",
+          "The recommendations follow logically from the findings: \"In the light of these findings, it is recommended that...\", \"The following measures are suggested:\". In Part 2 you will practice this language in detail.",
         ],
         examples: [
           { es: "In light of these findings, the following measures are suggested:", en: "A la vista de estos resultados, se proponen las siguientes medidas:" },
@@ -1697,12 +1697,12 @@ export const EN_C1_U14: Lesson[] = [
         heading: "The structure of a proposal",
         body: [
           "A proposal is a report that looks forward: it suggests a plan and tries to persuade the reader to accept it. A typical structure is Introduction (purpose), Current situation, Proposed changes (or \"Suggestions\"), Benefits, and Conclusion.",
-          "The tone is formal but more persuasive than a report: \"This proposal sets out a plan to...\", \"The scheme would benefit both staff and customers\", \"I am confident that these measures would...\". The conditional \"would\" is key, because the plan has not happened yet.",
+          "The tone is formal but more persuasive than a report: \"This proposal sets out a plan to...\", \"The plan would benefit both staff and customers\", \"I am confident that these measures would...\". The conditional \"would\" is key, because the plan has not happened yet.",
           "Finish with a clear request or summary: \"I would therefore urge the committee to approve the proposal.\"",
         ],
         examples: [
           { es: "This proposal sets out a plan to reduce energy costs.", en: "Esta propuesta presenta un plan para reducir los costos energéticos." },
-          { es: "The scheme would benefit both staff and customers.", en: "El proyecto beneficiaría tanto al personal como a los clientes." },
+          { es: "The plan would benefit both staff and customers.", en: "El proyecto beneficiaría tanto al personal como a los clientes." },
           { es: "The initial outlay would be recovered within two years.", en: "La inversión inicial se recuperaría en dos años." },
           { es: "I would therefore urge the committee to approve the proposal.", en: "Por tanto, insto al comité a que apruebe la propuesta." },
         ],
@@ -1710,7 +1710,7 @@ export const EN_C1_U14: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "The scheme ___ both staff and customers.",
+            sentence: "The plan ___ both staff and customers.",
             answer: "would benefit",
             en: "El proyecto [beneficiaría] tanto al personal como a los clientes.",
             explanation: "A proposal describes a plan that has not happened, so it uses \"would\". \"Benefit\" takes a direct object: not *benefit to the staff.",
@@ -1886,13 +1886,13 @@ export const EN_C1_U14: Lesson[] = [
       {
         heading: "From notes to findings",
         body: [
-          "Your manager, Emma, sends you her notes from a staff survey about the company canteen: \"200 staff surveyed. 62% say queues too long at 1 pm. 45% want healthier food. Prices OK for most (78%). Only 12% use canteen after 2 pm. Several comments about noise.\" She asks for a short report.",
-          "Notes use fragments; a report needs full, impersonal sentences. \"62% say queues too long\" becomes \"Almost two thirds of respondents (62%) complained about long queues at 1 pm\". \"Prices OK for most\" becomes \"The vast majority (78%) considered prices reasonable\".",
-          "Vary the way you express numbers so the report doesn't become a list of percentages: \"almost two thirds\", \"just under half\", \"the vast majority\", \"a small minority\". Give the exact figure in brackets when precision matters.",
+          "Your manager, Emma, sends you her notes from a staff survey about the company cafeteria: \"200 staff surveyed. 62% say lines too long at 1 pm. 45% want healthier food. Prices OK for most (78%). Only 12% use cafeteria after 2 pm. Several comments about noise.\" She asks for a short report.",
+          "Notes use fragments; a report needs full, impersonal sentences. \"62% say lines too long\" becomes \"Almost two thirds of respondents (62%) complained about long lines at 1 pm\". \"Prices OK for most\" becomes \"The vast majority (78%) considered prices reasonable\".",
+          "Vary the way you express numbers so the report doesn't become a list of percentages: \"almost two thirds\", \"just under half\", \"the vast majority\", \"a small minority\". Give the exact figure in parentheses when precision matters.",
         ],
         examples: [
           { es: "The survey was completed by 200 members of staff.", en: "La encuesta la completaron 200 empleados." },
-          { es: "Almost two thirds of respondents (62%) complained about long queues at 1 pm.", en: "Casi dos tercios de los encuestados (62 %) se quejaron de las colas a la una." },
+          { es: "Almost two thirds of respondents (62%) complained about long lines at 1 pm.", en: "Casi dos tercios de los encuestados (62 %) se quejaron de las colas a la una." },
           { es: "Just under half would like healthier options.", en: "Algo menos de la mitad querría opciones más saludables." },
           { es: "The vast majority considered prices reasonable.", en: "La gran mayoría consideró razonables los precios." },
           { es: "A number of respondents also mentioned the noise.", en: "Varios encuestados también mencionaron el ruido." },
@@ -1938,7 +1938,7 @@ export const EN_C1_U14: Lesson[] = [
       {
         heading: "Putting a chart into words",
         body: [
-          "The report also includes a chart of canteen users per day: 2021, 310; 2022, 420; 2023, 455 (the highest point); 2024, 380. You do not describe every number. Pick out the overall trend, the highest and lowest points and any change of direction.",
+          "The report also includes a chart of cafeteria users per day: 2021, 310; 2022, 420; 2023, 455 (the highest point); 2024, 380. You do not describe every number. Pick out the overall trend, the highest and lowest points and any change of direction.",
           "A good description: \"Daily use rose steadily from 310 in 2021 to a peak of 455 in 2023, before falling to 380 in 2024.\" One sentence covers four figures.",
           "Use \"before\" + -ing or \"before\" + clause to show a change of direction, and \"while\" or \"whereas\" to compare two sets of data: \"Lunchtime use increased, whereas evening use remained flat.\"",
         ],
@@ -1986,12 +1986,12 @@ export const EN_C1_U14: Lesson[] = [
         heading: "From report to proposal",
         body: [
           "Emma replies: \"Great report. Could you turn it into a proposal for the board? They'll want to know what we should do, what it would cost and why it's worth it.\"",
-          "A proposal reuses the findings but changes the focus. The headings become Introduction, Current situation, Proposed changes, Expected benefits, Conclusion. The verbs move from past and present (\"62% complained\") to the conditional (\"A pre-order app would reduce queues\").",
+          "A proposal reuses the findings but changes the focus. The headings become Introduction, Current situation, Proposed changes, Expected benefits, Conclusion. The verbs move from past and present (\"62% complained\") to the conditional (\"A pre-order app would reduce lines\").",
           "In a proposal a personal voice is acceptable and often more persuasive: \"I would propose that...\", \"I am confident that...\". Keep it formal: no contractions, no exclamation marks.",
         ],
         examples: [
-          { es: "This proposal sets out three measures to improve the canteen.", en: "Esta propuesta presenta tres medidas para mejorar el comedor." },
-          { es: "A pre-order app would reduce queues at peak times.", en: "Una aplicación de pedidos por adelantado reduciría las filas en las horas pico." },
+          { es: "This proposal sets out three measures to improve the cafeteria.", en: "Esta propuesta presenta tres medidas para mejorar el comedor." },
+          { es: "A pre-order app would reduce lines at peak times.", en: "Una aplicación de pedidos por adelantado reduciría las filas en las horas pico." },
           { es: "Staggering lunch breaks would spread demand more evenly.", en: "Escalonar las pausas para comer repartiría mejor la demanda." },
           { es: "The total cost is estimated at 8,000 euros.", en: "Se calcula que el costo total será de 8.000 euros." },
           { es: "I am confident that these changes would be welcomed by staff.", en: "Estoy convencido de que el personal acogería bien estos cambios." },
@@ -2028,7 +2028,7 @@ export const EN_C1_U14: Lesson[] = [
         examples: [
           { es: "Staff complained about the noise.", en: "El personal se quejó del ruido." },
           { es: "Several suggestions were made regarding the menu.", en: "Se hicieron varias sugerencias sobre el menú." },
-          { es: "Please find attached the report on the canteen survey.", en: "Adjunto el informe sobre la encuesta del comedor." },
+          { es: "Please find attached the report on the cafeteria survey.", en: "Adjunto el informe sobre la encuesta del comedor." },
         ],
         checkpoint: [
           {
@@ -2060,11 +2060,11 @@ export const EN_C1_U14: Lesson[] = [
           "Almost two-thirds of respondents complained about the queues.",
           "Nearly two-thirds of respondents complained about the queues.",
           "Almost two thirds of those surveyed complained about the queues.",
-          "Almost two thirds of respondents complained about the lines.",
+          "Almost two thirds of respondents complained about the queues.",
           "Almost two thirds of respondents complained about the long queues.",
           "Almost two thirds of respondents complained about queuing.",
         ],
-        explanation: "\"Almost/nearly two thirds of\" is a natural alternative to a bare percentage. «Quejarse de» is \"complain about\", not *complain of the queues.",
+        explanation: "\"Almost/nearly two thirds of\" is a natural alternative to a bare percentage. «Quejarse de» is \"complain about\", not *complain of the lines.",
       },
       {
         type: "multiple-choice",
@@ -2101,7 +2101,7 @@ export const EN_C1_U14: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "A pre-order app ___ queues at peak times.",
+        sentence: "A pre-order app ___ lines at peak times.",
         answer: "would reduce",
         altAnswers: ["would cut", "would shorten", "could reduce"],
         en: "Una aplicación de pedidos por adelantado [reduciría] las filas en las horas pico.",
@@ -2142,7 +2142,7 @@ export const EN_C1_U14: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match each section of the canteen proposal with its content.",
+        instructions: "Match each section of the cafeteria proposal with its content.",
         pairs: [
           { left: "Current situation", right: "long lines and complaints about noise" },
           { left: "Proposed changes", right: "an ordering app and staggered breaks" },
@@ -2182,7 +2182,7 @@ export const EN_C1_U14: Lesson[] = [
           "Uses report verbs such as \"complained\", \"considered\", \"it was found that\"",
           "Does not include recommendations yet",
         ],
-        modelAnswer: "Findings\nThe survey was completed by 150 students. The most common complaint concerned the lack of power sockets, mentioned by 70% of respondents. Just over half (52%) felt that the opening hours were too short, as the library currently closes at 8 pm. By contrast, the vast majority (81%) were satisfied with the wifi connection. It was also found that very few students use the library on Saturdays (9%). Finally, a number of respondents complained about noise on the second floor, which suggests that the quiet areas are not clearly defined.",
+        modelAnswer: "Findings\nThe survey was completed by 150 students. The most common complaint concerned the lack of outlets, mentioned by 70% of respondents. Just over half (52%) felt that the opening hours were too short, as the library currently closes at 8 pm. By contrast, the vast majority (81%) were satisfied with the wifi connection. It was also found that very few students use the library on Saturdays (9%). Finally, a number of respondents complained about noise on the second floor, which suggests that the quiet areas are not clearly defined.",
         explanation: "Clear heading, varied ways of expressing numbers, impersonal verbs and no recommendations: those come in the next section.",
       },
     ],
@@ -2377,7 +2377,7 @@ export const EN_C1_U14: Lesson[] = [
           "Sales rose sharply in January before levelling off.",
           "Sales rose sharply in January and then levelled out.",
         ],
-        explanation: "\"Rise sharply\" for a sudden increase; \"level off\" or \"stabilise\" when the line flattens. Revisit Part 2 (describing trends).",
+        explanation: "\"Rise sharply\" for a sudden increase; \"level off\" or \"stabilize\" when the line flattens. Revisit Part 2 (describing trends).",
       },
       {
         type: "multiple-choice",
@@ -2436,7 +2436,7 @@ export const EN_C1_U14: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Write the Recommendations section of a report (70 to 100 words) for a sports centre whose survey found: long waits for the pool, broken lockers, and requests for evening yoga classes.",
+        prompt: "Write the Recommendations section of a report (70 to 100 words) for a sports center whose survey found: long waits for the pool, broken lockers, and requests for evening yoga classes.",
         minWords: 70,
         maxWords: 100,
         rubric: [
@@ -2446,7 +2446,7 @@ export const EN_C1_U14: Lesson[] = [
           "Each recommendation follows from a finding",
           "Uses \"would\" to describe expected benefits",
         ],
-        modelAnswer: "Recommendations\nIn the light of these findings, the following measures are recommended. Firstly, it is recommended that the centre introduce an online booking system for the pool, which would reduce waiting times at peak hours. Secondly, the broken lockers should be repaired or replaced as a matter of urgency, since this issue affects every member. Finally, I would suggest offering two evening yoga classes on a trial basis. If demand proved strong, these could become a permanent part of the timetable.",
+        modelAnswer: "Recommendations\nIn the light of these findings, the following measures are recommended. Firstly, it is recommended that the center introduce an online booking system for the pool, which would reduce waiting times at peak hours. Secondly, the broken lockers should be repaired or replaced as a matter of urgency, since this issue affects every member. Finally, I would suggest offering two evening yoga classes on a trial basis. If demand proved strong, these could become a permanent part of the timetable.",
         explanation: "Recommendations linked to findings, formal patterns and \"would\" for results. If this was hard, revisit Part 2 and In Practice.",
       },
     ],
@@ -2471,7 +2471,7 @@ export const EN_C1_U14: Lesson[] = [
           { es: "Who hasn't dreamed of giving it all up and moving to the coast?", en: "¿Quién no ha soñado con dejarlo todo e irse a vivir a la costa?" },
           { es: "So, is it worth the hype?", en: "Entonces, ¿está a la altura de tanta expectación?" },
           { es: "Imagine waking up to the sound of the sea.", en: "Imagina despertarte con el sonido del mar." },
-          { es: "Three hours. That's how long I queued for a table.", en: "Tres horas: eso es lo que estuve haciendo cola para conseguir mesa." },
+          { es: "Three hours. That's how long I waited in line for a table.", en: "Tres horas: eso es lo que estuve haciendo cola para conseguir mesa." },
         ],
         checkpoint: [
           {
@@ -2484,7 +2484,7 @@ export const EN_C1_U14: Lesson[] = [
               "There are approximately 7,000 languages in the world, which are spoken in many countries.",
             ],
             correctIndex: 0,
-            explanation: "A rhetorical question that describes a situation readers recognise pulls them in. The others are flat, announce the topic or start with background.",
+            explanation: "A rhetorical question that describes a situation readers recognize pulls them in. The others are flat, announce the topic or start with background.",
           },
           {
             type: "translate",
@@ -2557,7 +2557,7 @@ export const EN_C1_U14: Lesson[] = [
       {
         heading: "Personal voice and the recommendation",
         body: [
-          "A review mixes description with your reaction: \"What struck me most was...\", \"I found the second half rather slow\", \"I couldn't put it down\". Don't just summarise the plot; readers want your judgement.",
+          "A review mixes description with your reaction: \"What struck me most was...\", \"I found the second half rather slow\", \"I couldn't put it down\". Don't just summarize the plot; readers want your judgment.",
           "Balance praise and criticism: \"While the acting is superb, the script lets it down\". The verb \"let down\" (fallar, decepcionar) is very useful in reviews.",
           "Finish with a clear recommendation and say who it is for: \"I would thoroughly recommend it to anyone who...\", \"Well worth a visit\", \"If you're a fan of..., don't miss it\", or the opposite: \"Give it a miss\", \"Save your money\".",
         ],
@@ -2597,7 +2597,7 @@ export const EN_C1_U14: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "The new exhibition is well ___ a visit.",
             answer: "worth",
-            en: "La nueva exposición [merece] mucho la pena.",
+            en: "La nueva exposición [vale] mucho la pena.",
             explanation: "\"Well worth\" + noun or -ing: \"well worth a visit\", \"well worth seeing\". Not *worth to visit.",
           },
         ],
@@ -2688,7 +2688,7 @@ export const EN_C1_U14: Lesson[] = [
         answer: "bland",
         altAnswers: ["tasteless", "flavourless", "insipid"],
         en: "Por desgracia, la comida era [sosa] y demasiado cara.",
-        explanation: "\"Bland\" describes food without much flavour. Avoid *very normal or *not very good when you can be precise.",
+        explanation: "\"Bland\" describes food without much flavor. Avoid *very normal or *not very good when you can be precise.",
       },
       {
         type: "matching",
@@ -2727,7 +2727,7 @@ export const EN_C1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You are writing a review for a website for young travellers. Which closing line is most appropriate?",
+        question: "You are writing a review for a website for young travelers. Which closing line is most appropriate?",
         options: [
           "If you're after a cheap, lively place to stay, look no further.",
           "In conclusion, the hostel has been evaluated and found to be satisfactory.",
@@ -2779,12 +2779,12 @@ export const EN_C1_U14: Lesson[] = [
           "Ends with a clear recommendation saying who it is for",
         ],
         modelAnswer: "Looking for a novel you won't be able to put down? Then try The Silent Patient. The premise is simple but gripping: a famous painter shoots her husband and then never speaks again. What struck me most was how cleverly the author drip-feeds information, so that every chapter ends with a small, unsettling surprise. The writing itself is plain, almost bland at times, and a couple of the minor characters feel rather flat. However, the final twist is so audacious that I immediately wanted to start again from page one. If you enjoy psychological thrillers and have a long train journey ahead of you, I would thoroughly recommend it. Just don't read it late at night.",
-        explanation: "A hook, specific details, balanced judgement and a targeted recommendation: everything a flat review lacks.",
+        explanation: "A hook, specific details, balanced judgment and a targeted recommendation: everything a flat review lacks.",
       },
     ],
   },
   {
-    slug: "c1-summarising-paraphrasing",
+    slug: "c1-summarizing-paraphrasing",
     level: "EN-C1",
     number: 10,
     title: "Summarizing and Paraphrasing",
@@ -2794,7 +2794,7 @@ export const EN_C1_U14: Lesson[] = [
       {
         heading: "Reporting verbs: more than \"say\"",
         body: [
-          "When you summarise a text, the reporting verb tells the reader what kind of statement it was. \"Claim\" and \"assert\" present something as true, often with a hint of doubt from you. \"Argue\" and \"contend\" introduce a reasoned position. \"Maintain\" means the writer insists despite opposition.",
+          "When you summarize a text, the reporting verb tells the reader what kind of statement it was. \"Claim\" and \"assert\" present something as true, often with a hint of doubt from you. \"Argue\" and \"contend\" introduce a reasoned position. \"Maintain\" means the writer insists despite opposition.",
           "\"Acknowledge\" and \"concede\" mean the writer admits something that weakens their own position: \"The author concedes that the sample was small\". \"Point out\" introduces a fact the reader may not have considered.",
           "All of these take a \"that\" clause: \"She argues that...\", \"He concedes that...\". Never *argue about that or *claim to that. Some also take a noun: \"acknowledge the problem\", \"concede the point\".",
         ],
@@ -2833,7 +2833,7 @@ export const EN_C1_U14: Lesson[] = [
               "The author acknowledges the need for more research.",
               "The author acknowledges the need for further research.",
             ],
-            explanation: "«Reconocer» something is \"acknowledge\" or \"admit\" (\"recognise\" usually means identifying). \"Research\" is uncountable: never *researches.",
+            explanation: "«Reconocer» something is \"acknowledge\" or \"admit\" (\"recognize\" usually means identifying). \"Research\" is uncountable: never *researches.",
           },
         ],
       },
@@ -2882,16 +2882,16 @@ export const EN_C1_U14: Lesson[] = [
               "A sharp increase in prices followed the reform.",
               "A sharp rise in prices followed the reform.",
             ],
-            explanation: "This is a paraphrase by nominalisation and passive: \"Prices rose sharply\" becomes \"a sharp increase in prices\". Note \"increase in\", not *of.",
+            explanation: "This is a paraphrase by nominalization and passive: \"Prices rose sharply\" becomes \"a sharp increase in prices\". Note \"increase in\", not *of.",
           },
         ],
       },
       {
-        heading: "Summarising, and the false friend \"resume\"",
+        heading: "Summarizing, and the false friend \"resume\"",
         body: [
           "A summary keeps the main ideas and drops examples, repetitions and details. Start by identifying the writer's main claim, then the two or three supporting points. Write them in your own words, linked logically, with a reporting verb at the start: \"In the article, Smith argues that...\".",
           "Useful frames: \"The writer's main point is that...\", \"According to the author, ...\", \"The text examines...\", \"In short, ...\", \"To sum up, ...\".",
-          "Careful: «resumir» is \"summarise\" (or \"sum up\"). The English verb \"resume\" means «reanudar»: \"The meeting will resume after lunch\". And in American English, a \"resume\" (sometimes written with accents, as in French) is a CV. *Can you resume the text? is a classic mistake.",
+          "Careful: «resumir» is \"summarize\" (or \"sum up\"). The English verb \"resume\" means «reanudar»: \"The meeting will resume after lunch\". And in American English, a \"resume\" (sometimes written with accents, as in French) is a CV. *Can you resume the text? is a classic mistake.",
         ],
         examples: [
           { es: "In the article, the author argues that remote work increases productivity.", en: "En el artículo, el autor sostiene que el teletrabajo aumenta la productividad." },
@@ -2956,13 +2956,13 @@ export const EN_C1_U14: Lesson[] = [
         type: "multiple-choice",
         question: "A colleague writes: *Could you resume the main points of the meeting for Diego? What should she write?",
         options: [
-          "Could you summarise the main points of the meeting for Diego?",
+          "Could you summarize the main points of the meeting for Diego?",
           "Could you resume the main points of the meeting for Diego?",
           "Could you resumen the main points of the meeting for Diego?",
           "Could you abstract the main points of the meeting to Diego?",
         ],
         correctIndex: 0,
-        explanation: "«Resumir» is \"summarise\". \"Resume\" means to start again after a pause.",
+        explanation: "«Resumir» is \"summarize\". \"Resume\" means to start again after a pause.",
       },
       {
         type: "translate",
@@ -3008,7 +3008,7 @@ export const EN_C1_U14: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Admite que la muestra era pequeña, pero sostiene que los resultados son fiables.",
+        source: "Admite que la muestra era pequeña, pero sostiene que los resultados son confiables.",
         answer: "She concedes that the sample was small, but maintains that the results are reliable.",
         altAnswers: [
           "He concedes that the sample was small, but maintains that the results are reliable.",
@@ -3080,7 +3080,7 @@ export const EN_C1_U14: Lesson[] = [
           "Includes the main claim and the two other points",
           "Uses at least two reporting verbs accurately (e.g. \"argue\", \"acknowledge\", \"point out\")",
           "Does not translate word for word: changes structure and vocabulary",
-          "Uses \"summarise\" correctly if needed, never \"resume\"",
+          "Uses \"summarize\" correctly if needed, never \"resume\"",
           "Keeps the original level of certainty",
         ],
         modelAnswer: "A recent study suggests that teenagers who get less than seven hours' sleep tend to do worse in exams. Although the researchers acknowledge that their sample was limited, they argue that secondary schools should start later in the day. However, other experts point out that late-night phone use, rather than early start times, may be the real cause of the problem.",
@@ -3093,15 +3093,15 @@ export const EN_C1_U14: Lesson[] = [
     level: "EN-C1",
     number: 11,
     title: "Advanced Punctuation",
-    summary: "Stop the comma splice, use semicolons, colons and dashes with confidence, decide on the Oxford comma, and capitalise nationalities, languages, days and titles.",
+    summary: "Stop the comma splice, use semicolons, colons and dashes with confidence, decide on the Oxford comma, and capitalize nationalities, languages, days and titles.",
     duration: "12 min",
     sections: [
       {
         heading: "The comma splice",
         body: [
           "Spanish often joins two complete sentences with a comma: «Llegué tarde, el tren se retrasó». In English this is a comma splice, and it is one of the clearest signs of non-native writing: *I arrived late, the train was delayed.",
-          "Four ways to fix it: a full stop (\"I arrived late. The train was delayed.\"), a semicolon (\"I arrived late; the train was delayed.\"), a conjunction (\"I arrived late because the train was delayed.\") or a subordinate structure (\"Delayed by the train, I arrived late.\").",
-          "The most frequent splice involves \"however\": *The plan is good, however it is expensive. \"However\" is an adverb, not a conjunction, so it needs a full stop or a semicolon before it: \"The plan is good; however, it is expensive.\" The same applies to \"therefore\", \"moreover\" and \"otherwise\".",
+          "Four ways to fix it: a period (\"I arrived late. The train was delayed.\"), a semicolon (\"I arrived late; the train was delayed.\"), a conjunction (\"I arrived late because the train was delayed.\") or a subordinate structure (\"Delayed by the train, I arrived late.\").",
+          "The most frequent splice involves \"however\": *The plan is good, however it is expensive. \"However\" is an adverb, not a conjunction, so it needs a period or a semicolon before it: \"The plan is good; however, it is expensive.\" The same applies to \"therefore\", \"moreover\" and \"otherwise\".",
         ],
         examples: [
           { es: "I arrived late. The train was delayed.", en: "Llegué tarde, el tren se retrasó." },
@@ -3121,7 +3121,7 @@ export const EN_C1_U14: Lesson[] = [
               "The results were promising however, the sample was small.",
             ],
             correctIndex: 0,
-            explanation: "\"However\" cannot join two sentences with a comma. Use a semicolon (or a full stop) before it and a comma after it.",
+            explanation: "\"However\" cannot join two sentences with a comma. Use a semicolon (or a period) before it and a comma after it.",
           },
           {
             type: "translate",
@@ -3148,7 +3148,7 @@ export const EN_C1_U14: Lesson[] = [
               "She didn't attend the meeting because she was ill.",
               "He missed the meeting because he was ill.",
             ],
-            explanation: "The Spanish comma joins two sentences. In English, use \"because\", a semicolon or a full stop, never a comma alone.",
+            explanation: "The Spanish comma joins two sentences. In English, use \"because\", a semicolon or a period, never a comma alone.",
           },
         ],
       },
@@ -3212,9 +3212,9 @@ export const EN_C1_U14: Lesson[] = [
       {
         heading: "Capital letters: Monday, English, the President",
         body: [
-          "Spanish writes days, months, nationalities and languages in lower case («lunes», «abril», «español», «inglés»). English capitalises them all: \"Monday\", \"April\", \"Spanish\", \"English\". This includes adjectives: \"a French film\", \"Mexican food\", \"my English teacher\". Seasons stay lower case: \"spring\", \"winter\".",
-          "Titles before a name are capitalised (\"President Lopez\", \"Professor Smith\", \"Doctor Ruiz\"), and job titles referring to a specific office often are too (\"the President of Chile\"). A general use is lower case: \"She wants to be a doctor.\"",
-          "Titles of books, films and articles usually capitalise every main word (title case): \"The Lord of the Rings\", \"One Hundred Years of Solitude\". Short articles, prepositions and conjunctions stay lower case unless they come first. Spanish capitalises only the first word («Cien años de soledad»).",
+          "Spanish writes days, months, nationalities and languages in lower case («lunes», «abril», «español», «inglés»). English capitalizes them all: \"Monday\", \"April\", \"Spanish\", \"English\". This includes adjectives: \"a French film\", \"Mexican food\", \"my English teacher\". Seasons stay lower case: \"spring\", \"winter\".",
+          "Titles before a name are capitalized (\"President Lopez\", \"Professor Smith\", \"Doctor Ruiz\"), and job titles referring to a specific office often are too (\"the President of Chile\"). A general use is lower case: \"She wants to be a doctor.\"",
+          "Titles of books, films and articles usually capitalize every main word (title case): \"The Lord of the Rings\", \"One Hundred Years of Solitude\". Short articles, prepositions and conjunctions stay lower case unless they come first. Spanish capitalizes only the first word («Cien años de soledad»).",
         ],
         examples: [
           { es: "The course starts on Monday, April 3.", en: "El curso empieza el lunes 3 de abril." },
@@ -3279,7 +3279,7 @@ export const EN_C1_U14: Lesson[] = [
           "Some students thrive online, but others need a classroom.",
           "Some students do very well online, but others need a classroom.",
         ],
-        explanation: "Two closely related sentences: a semicolon, a full stop, or a conjunction such as \"while\" or \"but\". A comma alone would be a splice.",
+        explanation: "Two closely related sentences: a semicolon, a period, or a conjunction such as \"while\" or \"but\". A comma alone would be a splice.",
       },
       {
         type: "fill-blank",
@@ -3291,7 +3291,7 @@ export const EN_C1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correctly capitalised?",
+        question: "Which sentence is correctly capitalized?",
         options: [
           "We usually go to Italy in the spring, not in August.",
           "We usually go to italy in the Spring, not in august.",
@@ -3320,7 +3320,7 @@ export const EN_C1_U14: Lesson[] = [
           "Prices have risen; therefore, demand has declined.",
           "Prices have increased; therefore, demand has fallen.",
         ],
-        explanation: "\"Therefore\" is an adverb like \"however\": a semicolon or full stop before it, not just a comma. \"So\" is a conjunction and can follow a comma.",
+        explanation: "\"Therefore\" is an adverb like \"however\": a semicolon or period before it, not just a comma. \"So\" is a conjunction and can follow a comma.",
       },
       {
         type: "multiple-choice",
@@ -3378,7 +3378,7 @@ export const EN_C1_U14: Lesson[] = [
           "Have you ever read One Hundred Years of Solitude in English?",
           "Have you read 100 Years of Solitude in English?",
         ],
-        explanation: "English title case capitalises the main words (\"One Hundred Years of Solitude\") but not short prepositions like \"of\". And \"English\" always takes a capital.",
+        explanation: "English title case capitalizes the main words (\"One Hundred Years of Solitude\") but not short prepositions like \"of\". And \"English\" always takes a capital.",
       },
       {
         type: "speak",
@@ -3482,9 +3482,9 @@ export const EN_C1_U14: Lesson[] = [
       {
         heading: "Error 3: false friends",
         body: [
-          "From the student's report: *Actually, the 40% of the employees assist to the training courses, and eventually the company will realize a new formation programme.",
+          "From the student's report: *Actually, the 40% of the employees assist to the training courses, and eventually the company will realize a new formation program.",
           "\"Actually\" means «en realidad», not «actualmente» (\"currently\", \"at present\"). \"Eventually\" means «finalmente, con el tiempo», not «eventualmente» (\"possibly\", \"if necessary\"). \"Assist\" means «ayudar»; «asistir a» is \"attend\" (no preposition).",
-          "\"Realize\" means «darse cuenta»; «realizar» is \"carry out\", \"conduct\" or simply \"do\". «Formación» is \"training\" (\"formation\" is a geological or military term). Corrected: \"At present, 40% of employees attend training courses, and the company may launch a new training programme.\"",
+          "\"Realize\" means «darse cuenta»; «realizar» is \"carry out\", \"conduct\" or simply \"do\". «Formación» is \"training\" (\"formation\" is a geological or military term). Corrected: \"At present, 40% of employees attend training courses, and the company may launch a new training program.\"",
         ],
         examples: [
           { es: "At present, 40% of employees attend training courses.", en: "Actualmente, el 40 % de los empleados asiste a cursos de formación." },
@@ -3673,7 +3673,7 @@ export const EN_C1_U14: Lesson[] = [
           "The proposal is interesting, on the contrary it is too expensive.",
         ],
         correctIndex: 0,
-        explanation: "A comma before \"however\" creates a comma splice. Use a semicolon or a full stop.",
+        explanation: "A comma before \"however\" creates a comma splice. Use a semicolon or a period.",
       },
       {
         type: "translate",
@@ -3746,15 +3746,15 @@ export const EN_C1_U14: Lesson[] = [
     level: "EN-C1",
     number: 13,
     title: "Spiral Review: Writing with Advanced Structures",
-    summary: "Nominalisation, hedging, discourse markers, participle clauses and inversion, all working together in one piece of writing. You decide which structure each sentence needs.",
+    summary: "Nominalization, hedging, discourse markers, participle clauses and inversion, all working together in one piece of writing. You decide which structure each sentence needs.",
     duration: "12 min",
     sections: [
       {
-        heading: "Nominalisation: from verbs to nouns",
+        heading: "Nominalization: from verbs to nouns",
         body: [
           "Formal writing often turns verbs and adjectives into nouns: \"Prices rose\" becomes \"the rise in prices\"; \"The council decided to close the library\" becomes \"the council's decision to close the library\". This packs more information into one sentence and makes it sound objective.",
           "It also lets you replace a whole clause with a phrase: \"because prices rose\" becomes \"due to the rise in prices\"; \"after the factory closed\" becomes \"following the closure of the factory\".",
-          "Don't overdo it: a chain of nouns (\"the implementation of the improvement of the evaluation process\") is hard to read. One or two nominalisations per sentence is plenty.",
+          "Don't overdo it: a chain of nouns (\"the implementation of the improvement of the evaluation process\") is hard to read. One or two nominalizations per sentence is plenty.",
         ],
         examples: [
           { es: "The rise in prices has hit low-income families hardest.", en: "La subida de los precios ha afectado sobre todo a las familias con menos ingresos." },
@@ -3782,7 +3782,7 @@ export const EN_C1_U14: Lesson[] = [
               "After the factory closed, unemployment skyrocketed.",
               "Following the closure of the plant, unemployment soared.",
             ],
-            explanation: "«El cierre» is the nominalisation \"the closure\" (not *the close). «Dispararse» is \"soar\", \"rocket\" or \"shoot up\". \"Unemployment\" takes no article.",
+            explanation: "«El cierre» is the nominalization \"the closure\" (not *the close). «Dispararse» is \"soar\", \"rocket\" or \"shoot up\". \"Unemployment\" takes no article.",
           },
         ],
       },
@@ -3790,7 +3790,7 @@ export const EN_C1_U14: Lesson[] = [
         heading: "Hedging and discourse markers",
         body: [
           "Hedging adjusts how certain you sound: \"appears to\", \"tends to\", \"is likely to\", \"may\", \"arguably\", \"to some extent\". Use it whenever your evidence is not conclusive.",
-          "Discourse markers show the logic between sentences: addition (\"Moreover\", \"In addition\"), contrast (\"However\", \"Nevertheless\", \"Whereas\"), result (\"Consequently\", \"As a result\"), concession (\"Admittedly\"). Choose them by function, and remember that adverbs like \"however\" and \"consequently\" need a full stop or semicolon before them.",
+          "Discourse markers show the logic between sentences: addition (\"Moreover\", \"In addition\"), contrast (\"However\", \"Nevertheless\", \"Whereas\"), result (\"Consequently\", \"As a result\"), concession (\"Admittedly\"). Choose them by function, and remember that adverbs like \"however\" and \"consequently\" need a period or semicolon before them.",
           "Together, hedges and markers make a text sound measured and easy to follow: \"Consequently, demand appears to have fallen, although the figures are, to some extent, provisional.\"",
         ],
         examples: [
@@ -3825,12 +3825,12 @@ export const EN_C1_U14: Lesson[] = [
       {
         heading: "Participle clauses and inversion",
         body: [
-          "Participle clauses condense two actions with the same subject: \"Having analysed the data, the team drew three conclusions\"; \"Faced with rising costs, many firms cut staff\". The subject of the main clause must be the one doing the participle: *Having analysed the data, three conclusions were drawn is a dangling participle (the conclusions did not analyse anything).",
-          "Negative inversion adds emphasis at the start of a sentence: \"Not only does the scheme save money, but it also...\", \"Rarely has a policy been so unpopular\", \"Only by working together can we solve this\". Use it once or twice in a formal text, not in every paragraph.",
+          "Participle clauses condense two actions with the same subject: \"Having analyzed the data, the team drew three conclusions\"; \"Faced with rising costs, many firms cut staff\". The subject of the main clause must be the one doing the participle: *Having analyzed the data, three conclusions were drawn is a dangling participle (the conclusions did not analyze anything).",
+          "Negative inversion adds emphasis at the start of a sentence: \"Not only does the plan save money, but it also...\", \"Rarely has a policy been so unpopular\", \"Only by working together can we solve this\". Use it once or twice in a formal text, not in every paragraph.",
           "Both structures are typical of Advanced writing, but they must be accurate. If you are unsure of the subject or the auxiliary, write the simpler version.",
         ],
         examples: [
-          { es: "Having analysed the data, the team drew three conclusions.", en: "Después de analizar los datos, el equipo sacó tres conclusiones." },
+          { es: "Having analyzed the data, the team drew three conclusions.", en: "Después de analizar los datos, el equipo sacó tres conclusiones." },
           { es: "Faced with rising costs, many firms cut staff.", en: "Ante el aumento de los costos, muchas empresas recortaron plantilla." },
           { es: "Rarely has a policy been so unpopular.", en: "Pocas veces una política ha sido tan impopular." },
           { es: "Only by working together can we solve this problem.", en: "Solo trabajando juntos podremos resolver este problema." },
@@ -3840,13 +3840,13 @@ export const EN_C1_U14: Lesson[] = [
             type: "multiple-choice",
             question: "Which sentence is correct?",
             options: [
-              "Having analysed the data, the researchers drew three conclusions.",
-              "Having analysed the data, three conclusions were drawn.",
-              "Having analysed the data, it was concluded three things.",
-              "Analysed the data, the researchers drew three conclusions.",
+              "Having analyzed the data, the researchers drew three conclusions.",
+              "Having analyzed the data, three conclusions were drawn.",
+              "Having analyzed the data, it was concluded three things.",
+              "Analyzed the data, the researchers drew three conclusions.",
             ],
             correctIndex: 0,
-            explanation: "The subject of the main clause (\"the researchers\") must be the one who analysed the data. Otherwise the participle \"dangles\".",
+            explanation: "The subject of the main clause (\"the researchers\") must be the one who analyzed the data. Otherwise the participle \"dangles\".",
           },
           {
             type: "translate",
@@ -3871,22 +3871,22 @@ export const EN_C1_U14: Lesson[] = [
       {
         heading: "Putting it all together",
         body: [
-          "Here is a plain paragraph: \"Rents went up a lot because tourists came. Young people had to leave the centre. The council did something in 2022 but it didn't work very well. They must work with residents.\"",
-          "And an Advanced version: \"The influx of tourists has led to a sharp rise in rents. Priced out of the centre, many young people have moved to the suburbs. Although the council introduced a cap on holiday lets in 2022, the measure appears to have had only a limited effect. Only by working closely with residents is the council likely to find a lasting solution.\"",
-          "Look at what each change does: nominalisation (\"the influx of tourists\", \"a sharp rise in rents\"), a participle clause (\"Priced out of the centre\"), a concession (\"Although\"), a hedge (\"appears to have had\") and an inversion (\"Only by... is the council likely\"). Every structure has a purpose.",
+          "Here is a plain paragraph: \"Rents went up a lot because tourists came. Young people had to leave the center. The council did something in 2022 but it didn't work very well. They must work with residents.\"",
+          "And an Advanced version: \"The influx of tourists has led to a sharp rise in rents. Priced out of the center, many young people have moved to the suburbs. Although the council introduced a cap on vacation rentals in 2022, the measure appears to have had only a limited effect. Only by working closely with residents is the council likely to find a lasting solution.\"",
+          "Look at what each change does: nominalization (\"the influx of tourists\", \"a sharp rise in rents\"), a participle clause (\"Priced out of the center\"), a concession (\"Although\"), a hedge (\"appears to have had\") and an inversion (\"Only by... is the council likely\"). Every structure has a purpose.",
         ],
         examples: [
           { es: "The influx of tourists has led to a sharp rise in rents.", en: "La llegada masiva de turistas ha provocado una fuerte subida de los alquileres." },
-          { es: "Priced out of the centre, many young people have moved to the suburbs.", en: "Expulsados del centro por los precios, muchos jóvenes se han ido a las afueras." },
+          { es: "Priced out of the center, many young people have moved to the suburbs.", en: "Expulsados del centro por los precios, muchos jóvenes se han ido a las afueras." },
           { es: "The measure appears to have had only a limited effect.", en: "Parece que la medida ha tenido un efecto muy limitado." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "In the Advanced version, which structure does \"Priced out of the centre\" use?",
+            question: "In the Advanced version, which structure does \"Priced out of the center\" use?",
             options: ["A participle clause", "An inversion", "A hedge", "A cleft sentence"],
             correctIndex: 0,
-            explanation: "\"Priced out of the centre\" is a past participle clause whose subject is the same as the main clause: \"many young people\".",
+            explanation: "\"Priced out of the center\" is a past participle clause whose subject is the same as the main clause: \"many young people\".",
           },
         ],
       },
@@ -3910,7 +3910,7 @@ export const EN_C1_U14: Lesson[] = [
           "The council's decision to close the library drew widespread criticism.",
           "The council's decision to close the library was criticised a lot.",
         ],
-        explanation: "Nominalisation (\"the council's decision to\") plus \"widely criticised\", the natural collocation for «muy criticado» (by many people).",
+        explanation: "Nominalization (\"the council's decision to\") plus \"widely criticized\", the natural collocation for «muy criticado» (by many people).",
       },
       {
         type: "translate",
@@ -3967,7 +3967,7 @@ export const EN_C1_U14: Lesson[] = [
         answer: "tend to",
         altAnswers: ["usually", "generally", "typically", "often"],
         en: "Los usuarios mayores [suelen] preferir los periódicos impresos.",
-        explanation: "\"Tend to\" is a hedge that turns a generalisation into a tendency: the natural way to say «suelen» in formal writing.",
+        explanation: "\"Tend to\" is a hedge that turns a generalization into a tendency: the natural way to say «suelen» in formal writing.",
       },
       {
         type: "translate",
@@ -4038,18 +4038,18 @@ export const EN_C1_U14: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Rewrite this plain paragraph in formal Advanced English (60 to 90 words), using at least one nominalisation, one hedge, one discourse marker and either a participle clause or an inversion: «Mucha gente compra por internet, por eso cierran las tiendas pequeñas. Los ayuntamientos han hecho campañas, pero no han funcionado mucho. Tienen que bajar los impuestos a los comercios.».",
+        prompt: "Rewrite this plain paragraph in formal Advanced English (60 to 90 words), using at least one nominalization, one hedge, one discourse marker and either a participle clause or an inversion: «Mucha gente compra por internet, por eso cierran las tiendas pequeñas. Los ayuntamientos han hecho campañas, pero no han funcionado mucho. Tienen que bajar los impuestos a los comercios.».",
         minWords: 60,
         maxWords: 90,
         rubric: [
-          "At least one nominalisation (e.g. \"the growth of online shopping\")",
+          "At least one nominalization (e.g. \"the growth of online shopping\")",
           "At least one hedge (e.g. \"appear to\", \"is likely to\")",
           "At least one discourse marker used by function",
           "A participle clause or an inversion, used accurately",
           "Formal register, no comma splices",
         ],
         modelAnswer: "The rapid growth of online shopping has led to the closure of many small shops. Faced with this trend, several local councils have launched campaigns to promote local businesses. However, these initiatives appear to have had only a limited impact. Only by reducing taxes on independent retailers are councils likely to reverse the decline, since high fixed costs remain the main obstacle to their survival.",
-        explanation: "Nominalisation, a participle clause, a contrast marker, a hedge and an inversion, each doing a specific job.",
+        explanation: "Nominalization, a participle clause, a contrast marker, a hedge and an inversion, each doing a specific job.",
       },
     ],
   },
@@ -4119,9 +4119,9 @@ export const EN_C1_U14: Lesson[] = [
         examples: [
           { es: "The first lecture is at nine in the main hall.", en: "La primera clase magistral es a las nueve en el salón de actos." },
           { es: "There is a long reading list for this module.", en: "Hay una larga lista de lecturas para esta asignatura." },
-          { es: "Coursework accounts for 40% of the final mark.", en: "Los trabajos del curso suponen el 40 % de la nota final." },
+          { es: "Coursework accounts for 40% of the final grade.", en: "Los trabajos del curso suponen el 40 % de la nota final." },
           { es: "I have to hand in my dissertation in May.", en: "Tengo que entregar el trabajo de fin de grado en mayo." },
-          { es: "She passed all her exams with flying colours.", en: "Aprobó todos los exámenes con muy buena nota." },
+          { es: "She passed all her exams with flying colors.", en: "Aprobó todos los exámenes con muy buena nota." },
           { es: "Continuous assessment reduces exam stress.", en: "La evaluación continua reduce el estrés de los exámenes." },
         ],
         checkpoint: [
@@ -4360,7 +4360,7 @@ export const EN_C1_U14: Lesson[] = [
           "Lifelong learning is essential in a changing employment market.",
           "Lifelong learning is essential in a constantly changing job market.",
         ],
-        explanation: "«Formación continua» is \"lifelong learning\" or \"continuing education\". «Mercado laboral» is \"job market\" or \"labour market\".",
+        explanation: "«Formación continua» is \"lifelong learning\" or \"continuing education\". «Mercado laboral» is \"job market\" or \"labor market\".",
       },
       {
         type: "word-order",
@@ -4395,7 +4395,7 @@ export const EN_C1_U14: Lesson[] = [
         type: "speak",
         text: "She did a degree in Law and then enrolled in a master's in Human Rights.",
         tip: "\"Degree\" has a long /i/ sound at the end: de-GREE. \"Law\" rhymes with \"saw\": no «au» diphthong as in Spanish.",
-        explanation: "\"Degree\" for «carrera», \"enrol on\" for «matricularse en».",
+        explanation: "\"Degree\" for «carrera», \"enroll in\" for «matricularse en».",
       },
     ],
   },

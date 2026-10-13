@@ -50,10 +50,10 @@ export const EN_C1_U08: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "It's high time the council ___ the potholes in this street.",
+            sentence: "It's high time the city ___ the potholes in this street.",
             answer: "fixed",
             altAnswers: ["repaired", "filled", "filled in"],
-            en: "Ya va siendo hora de que el ayuntamiento [arregle] los baches de esta calle.",
+            en: "Ya va siendo hora de que el municipio [arregle] los baches de esta calle.",
             explanation: "«Arregle» is a present subjunctive in Spanish, but after \"It's high time\" English needs the past simple: \"fixed\".",
           },
         ],
@@ -418,14 +418,14 @@ export const EN_C1_U08: Lesson[] = [
           { es: "But for your help, we would have failed.", en: "De no ser por tu ayuda, habríamos fracasado." },
           { es: "If it hadn't been for the rain, we'd have won.", en: "Si no hubiera sido por la lluvia, habríamos ganado." },
           { es: "Hurry up, otherwise we'll miss the train.", en: "Apúrate; si no, perderemos el tren." },
-          { es: "I had a map; otherwise I would have got lost.", en: "Tenía un mapa; de lo contrario, me habría perdido." },
+          { es: "I had a map; otherwise I would have gotten lost.", en: "Tenía un mapa; de lo contrario, me habría perdido." },
           { es: "Write it down, or else you'll forget.", en: "Apúntalo, que si no se te olvida." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "___ the goalkeeper, they would have lost five-nil.",
+            sentence: "___ the goalkeeper, they would have lost five to nothing.",
             answer: "But for",
             altAnswers: ["If it hadn't been for", "If it had not been for", "Without", "Had it not been for", "Were it not for"],
             en: "[De no ser por] el portero, habrían perdido cinco a cero.",
@@ -628,7 +628,7 @@ export const EN_C1_U08: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Write the house rules for a friend who is staying in your flat while you are away. Use at least four of: as long as, provided, unless, in case, otherwise, even if.",
+        prompt: "Write the house rules for a friend who is staying in your apartment while you are away. Use at least four of: as long as, provided, unless, in case, otherwise, even if.",
         minWords: 60,
         maxWords: 110,
         rubric: [
@@ -637,7 +637,7 @@ export const EN_C1_U08: Lesson[] = [
           "No double negative with unless",
           "Uses \"in case\" only for precautions",
         ],
-        modelAnswer: "You can use anything in the kitchen as long as you wash up afterwards. Feel free to invite friends over, provided they leave before midnight. Please don't touch the thermostat unless it gets really cold. I've left a spare key under the plant in case you lock yourself out. Water the plants twice a week; otherwise they'll die. And even if the neighbour knocks, don't let him borrow my drill!",
+        modelAnswer: "You can use anything in the kitchen as long as you wash up afterwards. Feel free to invite friends over, provided they leave before midnight. Please don't touch the thermostat unless it gets really cold. I've left a spare key under the plant in case you lock yourself out. Water the plants twice a week; otherwise they'll die. And even if the neighbor knocks, don't let him borrow my drill!",
         explanation: "Each conditional alternative has its own nuance: a requirement (as long as, provided), an exception (unless), a precaution (in case) and a consequence (otherwise).",
       },
     ],
@@ -691,15 +691,15 @@ export const EN_C1_U08: Lesson[] = [
         heading: "Complaining and refusing politely",
         body: [
           "\"I'd rather you didn't\" is the classic polite refusal: it says no without the word \"no\". \"I'd rather we didn't\" is even softer, because it includes the speaker.",
-          "\"It's about time\" + past is a complaint about something that is late: \"It's about time they fixed the lift\". Alone, \"About time!\" or \"It's about time!\" is what people say when something finally happens.",
-          "A tense moment between flatmates. Emma: \"Do you mind if Diego stays for a couple of weeks?\" Carlos: \"Honestly, I'd rather he didn't. It's about time we talked about guests, actually. Last month it was as if we had three flatmates, not two.\"",
+          "\"It's about time\" + past is a complaint about something that is late: \"It's about time they fixed the elevator\". Alone, \"About time!\" or \"It's about time!\" is what people say when something finally happens.",
+          "A tense moment between roommates. Emma: \"Do you mind if Diego stays for a couple of weeks?\" Carlos: \"Honestly, I'd rather he didn't. It's about time we talked about guests, actually. Last month it was as if we had three roommates, not two.\"",
         ],
         examples: [
           { es: "Honestly, I'd rather he didn't.", en: "Sinceramente, preferiría que no." },
           { es: "I'd rather we didn't mention it to the client.", en: "Preferiría que no se lo mencionáramos al cliente." },
-          { es: "It's about time they fixed the lift.", en: "Ya era hora de que arreglaran el ascensor." },
+          { es: "It's about time they fixed the elevator.", en: "Ya era hora de que arreglaran el ascensor." },
           { es: "About time!", en: "¡Ya era hora!" },
-          { es: "It was as if we had three flatmates, not two.", en: "Era como si tuviéramos tres compañeros de departamento, no dos." },
+          { es: "It was as if we had three roommates, not two.", en: "Era como si tuviéramos tres compañeros de departamento, no dos." },
         ],
         checkpoint: [
           {
@@ -738,7 +738,7 @@ export const EN_C1_U08: Lesson[] = [
       {
         heading: "When the unreal past does not fit",
         body: [
-          "Do not overuse these structures. \"It's time to\" + infinitive is the neutral choice when no particular person is criticised: \"It's time to go\", \"It's time to rethink our strategy\". \"It's time we rethought our strategy\" adds a sense that we are late.",
+          "Do not overuse these structures. \"It's time to\" + infinitive is the neutral choice when no particular person is criticized: \"It's time to go\", \"It's time to rethink our strategy\". \"It's time we rethought our strategy\" adds a sense that we are late.",
           "\"I'd rather\" + bare infinitive is for your own preference: \"I'd rather not say\" (not *I'd rather I didn't say). The past is only for someone else.",
           "\"As if\" + present is right when the comparison may well be true: \"It looks as if the client is going to sign\". And \"What if\" + present is the natural choice for a real risk: \"What if the server crashes during the demo?\". Using the past there would make the risk sound unlikely.",
         ],
@@ -899,7 +899,7 @@ export const EN_C1_U08: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Your neighbour plays loud music late every night. Write a short, polite but firm message to them. Use \"I'd rather you didn't\", \"it's time\" + past, and \"what if\" or \"suppose\".",
+        prompt: "Your neighbor plays loud music late every night. Write a short, polite but firm message to them. Use \"I'd rather you didn't\", \"it's time\" + past, and \"what if\" or \"suppose\".",
         minWords: 50,
         maxWords: 100,
         rubric: [
@@ -1516,7 +1516,7 @@ export const EN_C1_U08: Lesson[] = [
           { es: "Be that as it may, we still need the money.", en: "Sea como sea, seguimos necesitando el dinero." },
           { es: "If they want to leave, so be it.", en: "Si quieren irse, que así sea." },
           { es: "Come what may, I'll be there.", en: "Pase lo que pase, estaré allí." },
-          { es: "We can work at the weekend if need be.", en: "Podemos trabajar el fin de semana si hace falta." },
+          { es: "We can work on the weekend if need be.", en: "Podemos trabajar el fin de semana si hace falta." },
           { es: "Heaven forbid that anything should happen to her!", en: "¡Dios no quiera que le pase nada!" },
         ],
         checkpoint: [
@@ -1536,7 +1536,7 @@ export const EN_C1_U08: Lesson[] = [
       {
         heading: "Suffice it to say, far be it from me, as it were",
         body: [
-          "\"Suffice it to say (that)\" means «baste decir que», «digamos que»: you summarise something instead of giving the details. \"Suffice it to say, he didn't get the job\".",
+          "\"Suffice it to say (that)\" means «baste decir que», «digamos que»: you summarize something instead of giving the details. \"Suffice it to say, he didn't get the job\".",
           "\"Far be it from me to...\" means «lejos de mí...», «no seré yo quien...». It introduces a criticism while pretending not to make one, so it is often ironic: \"Far be it from me to tell you how to run your business, but...\".",
           "\"As it were\" means «por así decirlo»: it signals that a word is used in an unusual or metaphorical way. \"He's the brains of the operation, as it were\". Do not confuse it with \"as it was\", which is literal.",
         ],
@@ -1579,7 +1579,7 @@ export const EN_C1_U08: Lesson[] = [
         examples: [
           { es: "Even so, we still need the money.", en: "Aun así, seguimos necesitando el dinero." },
           { es: "Fine. If they want to leave, let them.", en: "De acuerdo. Si quieren irse, que se vayan." },
-          { es: "We can work at the weekend if necessary.", en: "Podemos trabajar el fin de semana si es necesario." },
+          { es: "We can work on the weekend if necessary.", en: "Podemos trabajar el fin de semana si es necesario." },
           { es: "Let's just say the party got out of hand.", en: "Digamos que la fiesta se descontroló." },
         ],
         checkpoint: [
@@ -1715,7 +1715,7 @@ export const EN_C1_U08: Lesson[] = [
       {
         type: "dictation",
         audio: "Suffice it to say, the plan didn't work.",
-        explanation: "\"Suffice it to say\" summarises without details. Note the word order: \"suffice it\", not \"it suffices\".",
+        explanation: "\"Suffice it to say\" summarizes without details. Note the word order: \"suffice it\", not \"it suffices\".",
       },
       {
         type: "translate",
@@ -1787,15 +1787,15 @@ export const EN_C1_U08: Lesson[] = [
       {
         heading: "Minutes and formal decisions",
         body: [
-          "Meeting minutes report what was proposed, demanded or agreed, so they use the subjunctive after past verbs. Remember that it does not backshift: \"Ms Lopez proposed that the budget be increased\", not \"was increased\".",
-          "An extract: \"Mr Smith moved that the item be deferred to the next meeting. The chair requested that all members submit their comments in writing. It was agreed that the committee meet again on 3 May.\"",
+          "Meeting minutes report what was proposed, demanded or agreed, so they use the subjunctive after past verbs. Remember that it does not backshift: \"Ms. Lopez proposed that the budget be increased\", not \"was increased\".",
+          "An extract: \"Mr. Smith moved that the item be deferred to the next meeting. The chair requested that all members submit their comments in writing. It was agreed that the committee meet again on May 3.\"",
           "\"Agree\" is special: \"It was agreed that the committee meet / would meet / should meet\" are all used. \"Resolve\" (in formal decisions) also takes the subjunctive: \"The board resolved that the dividend be paid in June\".",
         ],
         examples: [
-          { es: "Ms Lopez proposed that the budget be increased.", en: "La Sra. López propuso que se aumentara el presupuesto." },
-          { es: "Mr Smith moved that the item be deferred to the next meeting.", en: "El Sr. Smith propuso que el punto se aplazara a la siguiente reunión." },
+          { es: "Ms. Lopez proposed that the budget be increased.", en: "La Sra. López propuso que se aumentara el presupuesto." },
+          { es: "Mr. Smith moved that the item be deferred to the next meeting.", en: "El Sr. Smith propuso que el punto se aplazara a la siguiente reunión." },
           { es: "The chair requested that all members submit their comments in writing.", en: "El presidente pidió que todos los miembros presentaran sus comentarios por escrito." },
-          { es: "It was agreed that the committee meet again on 3 May.", en: "Se acordó que el comité volviera a reunirse el 3 de mayo." },
+          { es: "It was agreed that the committee meet again on May 3.", en: "Se acordó que el comité volviera a reunirse el 3 de mayo." },
           { es: "The board resolved that the dividend be paid in June.", en: "El consejo resolvió que el dividendo se pagara en junio." },
         ],
         checkpoint: [
@@ -1821,7 +1821,7 @@ export const EN_C1_U08: Lesson[] = [
           { es: "They asked that he leave the room.", en: "Pidieron que saliera de la sala. (formal)" },
           { es: "They asked him to leave the room.", en: "Le pidieron que saliera de la sala." },
           { es: "The manager urged us to hurry.", en: "El jefe nos instó a apurarnos." },
-          { es: "The manager suggested that we hurry.", en: "El jefe sugirió que nos diéramos prisa." },
+          { es: "The manager suggested that we hurry.", en: "El jefe sugirió que nos apuráramos." },
           { es: "It is essential for every candidate to bring ID.", en: "Es imprescindible que todos los candidatos traigan su documento de identidad." },
         ],
         checkpoint: [
@@ -2021,7 +2021,7 @@ export const EN_C1_U08: Lesson[] = [
           "No object + infinitive after suggest, propose or demand",
           "Formal, impersonal report style",
         ],
-        modelAnswer: "In light of these findings, we recommend that the company review its salary bands within the next six months. It is essential that exit interviews be carried out with every departing employee, and that the results be shared with senior management. We further propose that a mentoring scheme be introduced for new staff. Finally, it is vital that line managers receive training in giving feedback, as poor management was the most frequently cited reason for leaving.",
+        modelAnswer: "In light of these findings, we recommend that the company review its salary bands within the next six months. It is essential that exit interviews be carried out with every departing employee, and that the results be shared with senior management. We further propose that a mentoring program be introduced for new staff. Finally, it is vital that line managers receive training in giving feedback, as poor management was the most frequently cited reason for leaving.",
         explanation: "Reports combine active and passive subjunctives to make firm but impersonal recommendations.",
       },
     ],
@@ -2161,7 +2161,7 @@ export const EN_C1_U08: Lesson[] = [
         question: "In which sentence is the subjunctive NOT appropriate?",
         options: [
           "The figures suggest that demand be falling.",
-          "We suggest that the order be cancelled.",
+          "We suggest that the order be canceled.",
           "It is essential that he be present.",
           "She requested that her name be removed.",
         ],
@@ -2666,7 +2666,7 @@ export const EN_C1_U08: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "The guide recommended ___ the museum early to avoid the queues.",
+            sentence: "The guide recommended ___ the museum early to avoid the lines.",
             answer: "visiting",
             altAnswers: ["going to", "getting to"],
             en: "El guía recomendó [visitar] el museo temprano para evitar las colas.",
@@ -2678,7 +2678,7 @@ export const EN_C1_U08: Lesson[] = [
         heading: "Propose: -ing, that-clause, or to-infinitive with a different meaning",
         body: [
           "\"Propose\" (formal) takes -ing or a that-clause, like \"suggest\": \"I propose postponing the vote\", \"I propose that the vote be postponed\". It sounds more official, typical of meetings and formal writing.",
-          "\"Propose\" + to-infinitive is correct, but it means «tener la intención de», «pensar hacer»: \"How do you propose to pay for it?\" («¿y cómo piensas pagarlo?»). It is often a slightly sceptical question.",
+          "\"Propose\" + to-infinitive is correct, but it means «tener la intención de», «pensar hacer»: \"How do you propose to pay for it?\" («¿y cómo piensas pagarlo?»). It is often a slightly skeptical question.",
           "And of course \"propose (to someone)\" also means asking someone to marry you: \"He proposed to her in Paris\".",
         ],
         examples: [
@@ -2699,7 +2699,7 @@ export const EN_C1_U08: Lesson[] = [
               "¿Propones que vayamos sin carro?",
             ],
             correctIndex: 0,
-            explanation: "\"Propose to\" + infinitive means «pensar», «tener la intención de». The question often sounds sceptical.",
+            explanation: "\"Propose to\" + infinitive means «pensar», «tener la intención de». The question often sounds skeptical.",
           },
         ],
       },
@@ -2842,7 +2842,7 @@ export const EN_C1_U08: Lesson[] = [
           "So how are you going to convince them?",
           "So how do you plan to convince them?",
         ],
-        explanation: "\"Propose to\" + infinitive means «pensar hacer», often sceptically. \"Plan to\" and \"intend to\" are neutral alternatives.",
+        explanation: "\"Propose to\" + infinitive means «pensar hacer», often skeptically. \"Plan to\" and \"intend to\" are neutral alternatives.",
       },
       {
         type: "matching",
@@ -2945,7 +2945,7 @@ export const EN_C1_U08: Lesson[] = [
         examples: [
           { es: "He talks as if he knew everything.", en: "Habla como si lo supiera todo. (y no lo sabe)" },
           { es: "It looks as if it's going to rain.", en: "Parece que va a llover. (es probable)" },
-          { es: "You look as if you need a holiday.", en: "Parece que necesitas unas vacaciones." },
+          { es: "You look as if you need a vacation.", en: "Parece que necesitas unas vacaciones." },
         ],
         checkpoint: [
           {
@@ -3175,7 +3175,7 @@ export const EN_C1_U08: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Here is a learner's email: *Dear Ms Grant, In case you need more information, I suggest you to call me. I'd rather you don't send letters, because it's time we use email. Unless you don't agree, I will send the documents tomorrow. Rewrite it correctly and naturally.",
+        prompt: "Here is a learner's email: *Dear Ms. Grant, In case you need more information, I suggest you to call me. I'd rather you don't send letters, because it's time we use email. Unless you don't agree, I will send the documents tomorrow. Rewrite it correctly and naturally.",
         minWords: 35,
         maxWords: 80,
         rubric: [
@@ -3184,7 +3184,7 @@ export const EN_C1_U08: Lesson[] = [
           "Uses past simple after \"would rather\" and \"it's time\"",
           "Removes the double negative after \"unless\"",
         ],
-        modelAnswer: "Dear Ms Grant, If you need any more information, I suggest you call me. I'd rather you didn't send letters, as I think it's time we used email. Unless you disagree, I will send the documents tomorrow. Best regards, Carlos",
+        modelAnswer: "Dear Ms. Grant, If you need any more information, I suggest you call me. I'd rather you didn't send letters, as I think it's time we used email. Unless you disagree, I will send the documents tomorrow. Best regards, Carlos",
         explanation: "Each error comes from copying a Spanish subjunctive or «en caso de que» directly into English.",
       },
     ],
@@ -3201,12 +3201,12 @@ export const EN_C1_U08: Lesson[] = [
         heading: "How key-word transformations work",
         body: [
           "In the C1 Advanced exam (Reading and Use of English, Part 4), you get a sentence, a key word in capitals and a second sentence with a gap. You must complete the gap with three to six words, including the key word, without changing it, so that the second sentence means exactly the same as the first.",
-          "Conditionals and the unreal past are favourite targets, because one meaning can be expressed in several structures: \"If you don't hurry\" = \"Unless you hurry\" = \"Hurry, otherwise\". The trap is usually a small detail: a negative that disappears, a tense that must change, or a preposition.",
+          "Conditionals and the unreal past are favorite targets, because one meaning can be expressed in several structures: \"If you don't hurry\" = \"Unless you hurry\" = \"Hurry, otherwise\". The trap is usually a small detail: a negative that disappears, a tense that must change, or a preposition.",
           "Strategy: identify the structure the key word needs (UNLESS: affirmative verb; RATHER: past tense; BUT FOR: noun phrase), check what the first sentence really means, and count your words. Contractions count as two words in the exam.",
         ],
         examples: [
           { es: "If you don't hurry, you'll be late.", en: "Si no te apuras, llegarás tarde." },
-          { es: "Unless you hurry, you'll be late.", en: "A menos que te des prisa, llegarás tarde." },
+          { es: "Unless you hurry, you'll be late.", en: "A menos que te apures, llegarás tarde." },
           { es: "Hurry, otherwise you'll be late.", en: "Apúrate; si no, llegarás tarde." },
         ],
         checkpoint: [
@@ -3260,7 +3260,7 @@ export const EN_C1_U08: Lesson[] = [
         ],
         examples: [
           { es: "I'd rather you didn't smoke in the car.", en: "Preferiría que no fumaras en el carro." },
-          { es: "It's high time you started revising.", en: "Ya va siendo hora de que empieces a repasar." },
+          { es: "It's high time you started studying.", en: "Ya va siendo hora de que empieces a repasar." },
           { es: "He behaves as if he were the boss.", en: "Se comporta como si fuera el jefe." },
           { es: "Suppose you lost your passport. What would you do?", en: "Pongamos que perdieras el pasaporte. ¿Qué harías?" },
         ],
@@ -3277,7 +3277,7 @@ export const EN_C1_U08: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Complete the second sentence so that it means the same as the first. Use the word in capitals (TIME).",
-            sentence: "You should have started revising weeks ago. / It's high ___ revising.",
+            sentence: "You should have started studying weeks ago. / It's high ___ studying.",
             answer: "time you started",
             altAnswers: ["time you began"],
             en: "[Ya va siendo hora de que empieces] a repasar.",
@@ -3428,7 +3428,7 @@ export const EN_C1_U08: Lesson[] = [
         body: [
           "All unreal structures follow the same logic: one step back in tense for unreality. Present or future unreality takes a past simple (\"If I had time\", \"I wish I knew\", \"It's time we left\", \"I'd rather you stayed\"). Past unreality takes a past perfect (\"If I had known\", \"I wish I hadn't said that\", \"I'd rather you hadn't told him\", \"as if he had seen a ghost\").",
           "Mixed conditionals combine the two time frames: a past condition with a present result (\"If I had taken that job, I would be rich now\"), or a present condition with a past result (\"If I were braver, I would have said something\").",
-          "\"Wish\" + \"would\" is different: it expresses irritation about someone else's behaviour or a wish for change: \"I wish you would stop interrupting\". Do not use it about yourself (*I wish I would).",
+          "\"Wish\" + \"would\" is different: it expresses irritation about someone else's behavior or a wish for change: \"I wish you would stop interrupting\". Do not use it about yourself (*I wish I would).",
         ],
         examples: [
           { es: "I wish I knew the answer.", en: "Ojalá supiera la respuesta." },
@@ -3560,7 +3560,7 @@ export const EN_C1_U08: Lesson[] = [
           "I wish you'd stop checking your phone when I'm talking.",
           "I wish you would stop checking your phone when I'm talking.",
         ],
-        explanation: "Irritation at someone else's behaviour: \"I wish you would\" + infinitive.",
+        explanation: "Irritation at someone else's behavior: \"I wish you would\" + infinitive.",
       },
       {
         type: "multiple-choice",
@@ -3781,9 +3781,10 @@ export const EN_C1_U08: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Los vecinos demandaron al ayuntamiento por el ruido.",
-            answer: "The residents sued the council over the noise.",
+            source: "Los vecinos demandaron al municipio por el ruido.",
+            answer: "The residents sued the city over the noise.",
             altAnswers: [
+              "The residents sued the council over the noise.",
               "The residents sued the council because of the noise.",
               "The residents sued the city council over the noise.",
               "The residents sued the city council because of the noise.",
@@ -3961,7 +3962,7 @@ export const EN_C1_U08: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "The defence lawyer says they will ___ the decision.",
+        sentence: "The defense attorney says they will ___ the decision.",
         answer: "appeal",
         altAnswers: ["appeal against", "challenge"],
         en: "El abogado defensor dice que van a [recurrir] la decisión.",

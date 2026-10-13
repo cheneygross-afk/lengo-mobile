@@ -21,7 +21,7 @@ export const EN_C2_U11_EXTRA: Lesson[] = [
         heading: "Quick recap: the small words shrink",
         body: [
           "Spanish gives every syllable roughly the same length, so Spanish speakers listen for full vowels in every word. English is stress-timed: content words (nouns, main verbs, adjectives) are stressed, and the function words between them shrink to a schwa /ə/ or almost nothing.",
-          "The most frequent weak forms: \"of\" /əv/ or /ə/, \"to\" /tə/, \"for\" /fə/, \"can\" /kən/, \"was\" /wəz/, \"were\" /wə/, \"have\" /əv/, \"them\" /ðəm/ or /əm/, \"and\" /ən/ or /n/, \"at\" /ət/. In \"a cup of tea\" you hear /ə ˈkʌp ə ˈtiː/: the \"of\" is just a schwa.",
+          "The most frequent weak forms: \"of\" /əv/ or /ə/, \"to\" /tə/, \"for\" /fər/ (British /fə/), \"can\" /kən/, \"was\" /wəz/, \"were\" /wər/ (British /wə/), \"have\" /əv/, \"them\" /ðəm/ or /əm/, \"and\" /ən/ or /n/, \"at\" /ət/. In \"a cup of tea\" you hear /ə ˈkʌp ə ˈtiː/: the \"of\" is just a schwa.",
           "A useful trick: \"can\" is weak /kən/ in positive sentences, while \"can't\" keeps its full vowel /kɑːnt/ (UK) or /kænt/ (US). So if you hear a clear, long vowel, it is probably negative, even when the final t is barely audible.",
         ],
         examples: [
@@ -59,12 +59,12 @@ export const EN_C2_U11_EXTRA: Lesson[] = [
       {
         heading: "Linking, elision and assimilation",
         body: [
-          "Linking: a final consonant joins the next vowel, so \"an apple\" sounds like \"a napple\" and \"turn it off\" like \"tur ni toff\". Between vowels English inserts a small /j/, /w/ or (in British English) /r/: \"go on\" /ɡəʊ wɒn/, \"far away\" /fɑːr əˈweɪ/.",
-          "Elision: /t/ and /d/ between consonants often disappear: \"next door\" /neks dɔː/, \"last night\" /lɑːs naɪt/, \"old man\" /əʊl mæn/. Assimilation: sounds change to suit their neighbors: \"ten past\" /tem pɑːst/, \"would you\" /ˈwʊdʒu/, \"don't you\" /ˈdəʊntʃu/, \"did you\" /ˈdɪdʒə/.",
+          "Linking: a final consonant joins the next vowel, so \"an apple\" sounds like \"a napple\" and \"turn it off\" like \"tur ni toff\". Between vowels English inserts a small /j/, /w/ or (in British English) /r/: \"go on\" /ɡoʊ wɑn/, \"far away\" (British) /fɑːr əˈweɪ/.",
+          "Elision: /t/ and /d/ between consonants often disappear: \"next door\" /nɛks dɔr/, \"last night\" /læs naɪt/, \"old man\" /oʊl mæn/. Assimilation: sounds change to suit their neighbors: \"ten past\" /tɛm pæst/, \"would you\" /ˈwʊdʒu/, \"don't you\" /ˈdoʊntʃu/, \"did you\" /ˈdɪdʒə/.",
           "The informal spellings \"gonna\" (going to), \"wanna\" (want to), \"gotta\" (got to), \"lemme\" (let me) and \"dunno\" (don't know) show these processes. Recognize them in speech and song lyrics, but do not write them in formal texts.",
         ],
         examples: [
-          { es: "Turn it off, please.", en: "Apágalo, por favor. (suena /ˈtɜː nɪ ˈtɒf/)" },
+          { es: "Turn it off, please.", en: "Apágalo, por favor. (suena /ˈtɜr nɪ ˈtɔf/)" },
           { es: "Did you see the game last night?", en: "¿Viste el partido anoche? (\"did you\" suena /ˈdɪdʒə/)" },
           { es: "Let me think about it.", en: "Déjame pensarlo. (suena \"lemme\")" },
           { es: "I'm going to call her later.", en: "La voy a llamar más tarde. (suena \"gonna\")" },
@@ -84,8 +84,8 @@ export const EN_C2_U11_EXTRA: Lesson[] = [
     exercises: [
       {
         type: "dictation",
-        audio: "I was going to ask them for a lift.",
-        explanation: "Weak forms: \"was\" /wəz/, \"to\" /tə/, \"them\" /ðəm/, \"for\" /fə/, \"a\" /ə/. Only \"going\", \"ask\" and \"lift\" carry stress.",
+        audio: "I was going to ask them for a ride.",
+        explanation: "Weak forms: \"was\" /wəz/, \"to\" /tə/, \"them\" /ðəm/, \"for\" /fər/, \"a\" /ə/. Only \"going\", \"ask\" and \"ride\" carry stress.",
       },
       {
         type: "listen-choose",
@@ -102,7 +102,7 @@ export const EN_C2_U11_EXTRA: Lesson[] = [
         source: "Deberías habérselo dicho.",
         answer: "You should have told him.",
         altAnswers: ["You should have told her.", "You should have told them.", "You ought to have told him.", "You ought to have told her.", "You ought to have told them."],
-        explanation: "In speech \"should have told him\" is /ˈʃʊdəv ˈtəʊld ɪm/: \"have\" and \"him\" lose their h. Never write *should of.",
+        explanation: "In speech \"should have told him\" is /ˈʃʊdəv ˈtoʊld ɪm/: \"have\" and \"him\" lose their h. Never write *should of.",
       },
       {
         type: "listen-choose",
@@ -120,7 +120,7 @@ export const EN_C2_U11_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "What do you want to do this weekend?",
-        explanation: "In casual speech this sounds like /ˈwɒdʒə ˈwɒnə du/: \"what do you\" merges, and \"want to\" becomes \"wanna\".",
+        explanation: "In casual speech this sounds like /ˈwʌdʒə ˈwɑnə du/: \"what do you\" merges, and \"want to\" becomes \"wanna\".",
       },
       {
         type: "multiple-choice",
@@ -136,7 +136,7 @@ export const EN_C2_U11_EXTRA: Lesson[] = [
         source: "¿Qué vas a hacer esta noche?",
         answer: "What are you going to do tonight?",
         altAnswers: ["What are you doing tonight?", "What are you going to do this evening?", "What are you doing this evening?", "What will you do tonight?"],
-        explanation: "In speech you will hear something like /ˈwɒtʃə ˈɡʌnə du təˈnaɪt/: \"what are you\" shrinks to \"whatcha\" and \"going to\" to \"gonna\".",
+        explanation: "In speech you will hear something like /ˈwʌtʃə ˈɡʌnə du təˈnaɪt/: \"what are you\" shrinks to \"whatcha\" and \"going to\" to \"gonna\".",
       },
       {
         type: "dictation",
@@ -154,7 +154,7 @@ export const EN_C2_U11_EXTRA: Lesson[] = [
           "Where you will be later.",
         ],
         correctIndex: 0,
-        explanation: "\"Were\" is weak /wə/, so \"where were you\" sounds like /weə wə ju/. The past form tells you the question is about a moment in the past.",
+        explanation: "\"Were\" is weak /wər/, so \"where were you\" sounds like /wɛr wər jə/. The past form tells you the question is about a moment in the past.",
       },
       {
         type: "translate",
@@ -163,7 +163,7 @@ export const EN_C2_U11_EXTRA: Lesson[] = [
         source: "¿Quieres venir con nosotros?",
         answer: "Do you want to come with us?",
         altAnswers: ["Would you like to come with us?", "Do you want to come along with us?", "Do you want to come along?", "Would you like to come along?", "Would you like to join us?", "Do you want to join us?"],
-        explanation: "Fast speech: /dʒə ˈwɒnə ˈkʌm wɪð əs/. \"Do you\" can shrink to /dʒə/, \"want to\" to \"wanna\", and \"us\" is weak /əs/.",
+        explanation: "Fast speech: /dʒə ˈwɑnə ˈkʌm wɪð əs/. \"Do you\" can shrink to /dʒə/, \"want to\" to \"wanna\", and \"us\" is weak /əs/.",
       },
       {
         type: "matching",
@@ -182,14 +182,14 @@ export const EN_C2_U11_EXTRA: Lesson[] = [
         type: "dictation",
         audio: "I'd have gone if I'd known you were there.",
         altAnswers: ["I would have gone if I had known you were there."],
-        explanation: "Both \"'d\" and \"have\" almost vanish: /aɪd əv ˈɡɒn/. The weak \"were\" /wə/ at the end is also easy to miss.",
+        explanation: "Both \"'d\" and \"have\" almost vanish: /aɪd əv ˈɡɔn/. The weak \"were\" /wər/ at the end is also easy to miss.",
       },
       {
         type: "multiple-choice",
         question: "Which phrase has a sound that disappears (elision) in normal speech?",
         options: ["next door", "big apple", "go on", "see it"],
         correctIndex: 0,
-        explanation: "In \"next door\" the /t/ between /ks/ and /d/ disappears: /neks dɔː/. The other phrases link (\"bi gapple\") or insert a glide (\"go won\", \"see yit\").",
+        explanation: "In \"next door\" the /t/ between /ks/ and /d/ disappears: /nɛks dɔr/. The other phrases link (\"bi gapple\") or insert a glide (\"go won\", \"see yit\").",
       },
       {
         type: "translate",
@@ -198,7 +198,7 @@ export const EN_C2_U11_EXTRA: Lesson[] = [
         source: "Le pedí que esperara un momento.",
         answer: "I asked her to wait a moment.",
         altAnswers: ["I asked him to wait a moment.", "I asked her to wait for a moment.", "I asked him to wait for a moment.", "I asked her to wait a minute.", "I asked him to wait a minute.", "I asked her to wait a second.", "I asked him to wait a second.", "I asked them to wait a moment."],
-        explanation: "Spoken: /aɪ ˈɑːskt ə tə ˈweɪt ə ˈməʊmənt/. \"Her\" loses its h and shrinks to /ə/, just like \"to\" and \"a\". Listening for \"asked\" and \"wait\" gives you the meaning.",
+        explanation: "Spoken: /aɪ ˈæskt ər tə ˈweɪt ə ˈmoʊmənt/. \"Her\" loses its h and shrinks to /ər/, just like \"to\" and \"a\". Listening for \"asked\" and \"wait\" gives you the meaning.",
       },
       {
         type: "listen-choose",
@@ -216,12 +216,12 @@ export const EN_C2_U11_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "We're going to have to wait and see.",
-        explanation: "/wɪə ˈɡʌnə ˈhæftə ˈweɪt n ˈsiː/: \"going to\" becomes \"gonna\", \"have to\" becomes /ˈhæftə/ and \"and\" shrinks to /n/.",
+        explanation: "/wɪr ˈɡʌnə ˈhæftə ˈweɪt n ˈsi/: \"going to\" becomes \"gonna\", \"have to\" becomes /ˈhæftə/ and \"and\" shrinks to /n/.",
       },
       {
         type: "speak",
         text: "I was going to ask you, but you'd already gone.",
-        tip: "Stress only \"going\", \"ask\", \"already\" and \"gone\". Let \"was\", \"to\" and \"you\" shrink: /aɪ wəz ˈɡəʊɪŋ tə ˈɑːsk ju/.",
+        tip: "Stress only \"going\", \"ask\", \"already\" and \"gone\". Let \"was\", \"to\" and \"you\" shrink: /aɪ wəz ˈɡoʊɪŋ tə ˈæsk ju/.",
         explanation: "Producing weak forms yourself is the best way to start hearing them.",
       },
     ],

@@ -208,7 +208,7 @@ export const EN_C2_U19: Lesson[] = [
         sentence: "It's freezing, but ___? We're on vacation.",
         answer: "who cares",
         altAnswers: ["what does it matter", "so what", "what difference does it make"],
-        en: "Hace un frío que pela, pero [¿qué más da?] Estamos de vacaciones.",
+        en: "Hace muchísimo frío, pero [¿qué más da?] Estamos de vacaciones.",
         explanation: "Dismissive «¿qué más da?» is \"who cares?\" or \"what does it matter?\". English never says *what more gives.",
       },
       {
@@ -289,7 +289,7 @@ export const EN_C2_U19: Lesson[] = [
           "Who cares?",
         ],
         correctIndex: 0,
-        explanation: "Only the first asks for information that the speaker lacks. The others express indignation, surprise and indifference.",
+        explanation: "Only \"Who's picking up the kids today?\" asks for information that the speaker lacks. \"Who do you think you are?\", \"Who would have thought it?\" and \"Who cares?\" express indignation, surprise and indifference.",
       },
       {
         type: "speak",
@@ -315,7 +315,7 @@ export const EN_C2_U19: Lesson[] = [
         body: [
           "Hypophora is a question the speaker asks and then answers at once. Unlike a rhetorical question, it does expect an answer: the speaker's own. \"So what does this mean for us? It means we have to rethink the budget.\"",
           "It is a signposting device. It announces the next point, makes the audience ask the question in their own heads, and then satisfies their curiosity. That is why it is everywhere in speeches, lectures, talks and opinion columns.",
-          "Spanish uses it too, often with «pues» or a bare «que»: «¿Y qué significa esto? Pues que...». In English, do not translate «pues» as *well or *then, and do not start the answer with a bare *That...: answer with a full clause, \"It means that...\", or a clear fragment such as \"Because...\".",
+          "Spanish uses it too, often with «pues» or a bare «que»: «¿Y qué significa esto? Pues que...». In English, a filler such as \"Well,\" is fine in speech, but do not let it replace the answer, and do not start the answer with a bare *That...: answer with a full clause, \"It means that...\", or a clear fragment such as \"Because...\".",
         ],
         examples: [
           { es: "So what does this mean for us? It means we have to rethink the budget.", en: "¿Y esto qué significa para nosotros? Pues que tenemos que replantearnos el presupuesto." },

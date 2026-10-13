@@ -476,11 +476,11 @@ export const EN_C2_U03_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "The rash appears to be an allergic reaction.", en: "La erupción parece ser una reacción alérgica." },
-          { es: "The symptoms are consistent with a viral infection.", en: "Los síntomas son compatibles con una infección vírica." },
+          { es: "The symptoms are consistent with a viral infection.", en: "Los síntomas son compatibles con una infección viral." },
           { es: "These results may indicate early kidney damage.", en: "Estos resultados podrían indicar un daño renal incipiente." },
           { es: "A fracture cannot be ruled out at this stage.", en: "En este momento no se puede descartar una fractura." },
           { es: "There is some evidence that the drug reduces relapse rates.", en: "Hay ciertos indicios de que el fármaco reduce las tasas de recaída." },
-          { es: "She will probably need physiotherapy.", en: "Probablemente necesitará fisioterapia." },
+          { es: "She will probably need physical therapy.", en: "Probablemente necesitará fisioterapia." },
         ],
         checkpoint: [
           {
@@ -518,7 +518,7 @@ export const EN_C2_U03_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "The patient is likely to make a full recovery.", en: "Es probable que el paciente se recupere por completo." },
-          { es: "The tumour is unlikely to be malignant.", en: "Es poco probable que el tumor sea maligno." },
+          { es: "The tumor is unlikely to be malignant.", en: "Es poco probable que el tumor sea maligno." },
           { es: "The data suggest a link between sleep and blood pressure.", en: "Los datos apuntan a una relación entre el sueño y la presión arterial." },
           { es: "He will most likely be discharged tomorrow.", en: "Lo más probable es que le den el alta mañana." },
         ],
@@ -577,10 +577,10 @@ export const EN_C2_U03_EXTRA: Lesson[] = [
         type: "multiple-choice",
         question: "Which sentence is grammatically correct?",
         options: [
-          "He will probably have to stay in hospital.",
-          "He has probably to stay in hospital.",
-          "He probably has to staying in hospital.",
-          "He will have probably to stay in hospital.",
+          "He will probably have to stay in the hospital.",
+          "He has probably to stay in the hospital.",
+          "He probably has to staying in the hospital.",
+          "He will have probably to stay in the hospital.",
         ],
         correctIndex: 0,
         explanation: "\"Probably\" goes after the first auxiliary (\"will probably\") and the obligation is \"have to\" + base form. *He has probably to stay splits \"has to\".",
@@ -645,12 +645,12 @@ export const EN_C2_U03_EXTRA: Lesson[] = [
         question: "A junior doctor thinks «Tiene que ser una apendicitis» before any imaging. Which wording is most appropriate for the notes?",
         options: [
           "Presentation suggestive of appendicitis; ultrasound requested.",
-          "It must be appendicitis, one hundred per cent.",
+          "It must be appendicitis, one hundred percent.",
           "It is possible that can be appendicitis.",
           "It might possibly perhaps be appendicitis.",
         ],
         correctIndex: 0,
-        explanation: "Notes hedge until tests confirm: \"suggestive of\". The second option is over-certain, the third is ungrammatical, and the fourth stacks three hedges.",
+        explanation: "Notes hedge until tests confirm: \"suggestive of\". \"It must be appendicitis, one hundred percent\" is over-certain, \"It is possible that can be appendicitis\" is ungrammatical, and \"It might possibly perhaps be appendicitis\" stacks three hedges.",
       },
       {
         type: "translate",
