@@ -5,6 +5,8 @@ import { addPractice } from "./practice";
 import { C1_PRACTICE } from "./c1-practice";
 import { C1_GAPS } from "./c1-gaps";
 import { C1_REINFORCEMENT } from "./c1-reinforcement";
+import { C1_WRITING_TASKS } from "./writing-tasks-c1";
+import { withUnitWriting } from "./unitWriting";
 
 const C1_BASE_LESSONS: Lesson[] = [
   {
@@ -16078,7 +16080,7 @@ const C1_BASE_LESSONS: Lesson[] = [
 // sequencing.ts applies the course order (moved topics, spread-out
 // vocabulary, optional Extra Practice) after weaving.
 // c1-practice.ts adds questions to the lessons that had too few.
-export const C1_LESSONS: Lesson[] = addPractice(
+export const C1_LESSONS: Lesson[] = withUnitWriting(addPractice(
   buildLevel("C1", C1_BASE_LESSONS, [...C1_REINFORCEMENT, ...C1_GAPS]),
   C1_PRACTICE
-);
+), C1_WRITING_TASKS);

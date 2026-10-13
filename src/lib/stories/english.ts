@@ -2,10 +2,9 @@
 import { A1_STORY_ENGLISH } from "./a1-english";
 import { A2_STORY_ENGLISH } from "./a2-english";
 
-// English translations for the "Show English" toggle on A1/A2 stories:
-// off by default at every level, so readers try the Spanish first.
-// The reader's on/off choice is handled in englishPrefs.ts, which holds
-// no translations, so a page can use it without bundling them all.
+// English translations of the A1/A2 stories. Kept as reference data but
+// no longer shown on the story pages: the user decided (2026-10-12) that
+// readings have no whole-text translation, only word meanings on tap.
 
 export const STORY_ENGLISH: Record<string, string[]> = { ...A1_STORY_ENGLISH, ...A2_STORY_ENGLISH };
 
@@ -15,5 +14,3 @@ export function storyEnglish(slug: string, paragraphCount: number): string[] | n
   const en = STORY_ENGLISH[slug];
   return en && en.length === paragraphCount ? en : null;
 }
-
-export { STORY_ENGLISH_STORAGE_KEY, showEnglishByDefault, showEnglishFor } from "./englishPrefs";

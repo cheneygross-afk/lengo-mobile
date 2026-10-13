@@ -1,6 +1,6 @@
 // The French course's stories in the app (synced from the website into
 // ./fr), loaded on demand like the French lessons (lessons/french.ts): the
-// stories with their English translations and glosses are about 2 MB, which
+// stories with their glosses are large, which
 // only French readers need. Story levelPaths are the website's ("fr/a1" ...
 // "fr/c2"), so read-tracking and highlights line up across both; French
 // story slugs all start with "fr-", so they never collide with Spanish ones.
@@ -10,8 +10,6 @@ import type { FrenchStoryLevel } from "./fr";
 export type FrenchStories = {
   levels: FrenchStoryLevel[];
   glosses: (slug: string) => StoryGloss[];
-  /** One English paragraph per story paragraph, or null. */
-  english: (slug: string, paragraphCount: number) => string[] | null;
 };
 
 let loading: Promise<FrenchStories> | null = null;
@@ -19,12 +17,11 @@ let loaded: FrenchStories | null = null;
 
 export function loadFrenchStories(): Promise<FrenchStories> {
   if (!loading) {
-    loading = Promise.all([import("./fr"), import("./fr/fr-glosses"), import("./fr/fr-translations")]).then(
-      ([stories, glosses, english]) => {
+    loading = Promise.all([import("./fr"), import("./fr/fr-glosses")]).then(
+      ([stories, glosses]) => {
         loaded = {
           levels: stories.FR_STORY_LEVELS,
           glosses: glosses.frenchStoryGlosses,
-          english: english.frenchStoryEnglish,
         };
         return loaded;
       }

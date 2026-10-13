@@ -22,8 +22,6 @@ const EN = {
   keyWords: "Key words in this story",
   listen: "▶ Listen to the story",
   stop: "■ Stop",
-  showTranslation: "Show English",
-  hideTranslation: "Hide English",
   tapA: "Tap a",
   dottedWord: "dotted word",
   forItsMeaning: "for its meaning.",
@@ -72,8 +70,6 @@ const ES: StoryUi = {
   keyWords: "Palabras clave de esta historia",
   listen: "▶ Escuchar la historia",
   stop: "■ Parar",
-  showTranslation: "Mostrar traducción",
-  hideTranslation: "Ocultar traducción",
   tapA: "Toca una",
   dottedWord: "palabra subrayada",
   forItsMeaning: "para ver su significado.",
@@ -103,16 +99,13 @@ const ES: StoryUi = {
   read: "Leer →",
 };
 
-// The French course (English-speaking readers): English labels, a
-// neutral "translation" toggle, and links within its own stories pages.
+// The French course (English-speaking readers): English labels and links within its own stories pages.
 const FR: StoryUi = {
   ...EN,
   back: (level) => `← ${level} stories`,
   backTo: (level) => `Back to ${level} stories`,
   moreHeading: (level) => `More ${level} stories`,
   allLink: (level) => `All ${level} stories →`,
-  showTranslation: "Show translation",
-  hideTranslation: "Hide translation",
 };
 
 export function storyUi(levelPath: string): StoryUi {
