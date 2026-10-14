@@ -506,7 +506,7 @@ export const DRILLS_A1_1: Record<string, Exercise[]> = {
     fe("Tú ___ cansada hoy.", "estás", "You (informal, to a woman) [are] tired today.", "A temporary state → estar."),
     fe("La sopa ___ fría.", "está", "The soup [is] cold.", "Temperature of food or drink right now → estar."),
     mc("Which is correct for 'The store is far away'?", ["La tienda es lejos.", "La tienda está lejos."], 1, "Location → estar."),
-    mc("El concierto ___ en el parque.", ["es", "está"], 0, "Events take ser for where they happen. Where a person or thing is takes estar."),
+    mc("El concierto ___ en el parque. (The concert is in the park.)", ["es", "está"], 0, "Events take ser for where they happen. Where a person or thing is takes estar."),
     toEs("I am from Mexico.", "Soy de México.", "Origin → ser."),
     toEs("The hospital is far away.", "El hospital está lejos.", "Location → estar."),
     toEs("She is tall.", "Es alta.", "A lasting trait → ser."),

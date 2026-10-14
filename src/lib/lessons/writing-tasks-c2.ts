@@ -146,7 +146,7 @@ export const C2_WRITING_TASKS: UnitWriting = {
         "Registro de consultorio: cercano pero respetuoso"
       ],
       "modelAnswer": "Querida Elena: Entiendo tus dudas, porque ninguna de las dos opciones es mala. Tu familia te dirá que más vale pájaro en mano que ciento volando, y no le falta razón: un contrato fijo no se encuentra todos los días. Sin embargo, tienes veintiocho años y ninguna atadura, y ya sabes lo que dicen: quien no se arriesga… Una experiencia en el extranjero puede abrirte puertas que aquí tardarían años en aparecer. Antes de decidirte, haz números, pregunta a quien haya trabajado en esa empresa y comprueba si podrías volver dentro de un tiempo. Como dice el refrán, a grandes males, grandes remedios, pero tu situación no es ningún mal: es una oportunidad. Elijas lo que elijas, hazlo sin miedo. Un abrazo, Marisa",
-      "explanation": "Los refranes se integran con fórmulas (tu familia te dirá que…, ya sabes lo que dicen, como dice el refrán) y uno se cita solo a medias (quien no se arriesga…, no pasa la mar), porque el lector conoce la segunda parte. Los refranes contradictorios reflejan las dos opciones del dilema."
+      "explanation": "Los refranes se integran con fórmulas (tu familia te dirá que…, ya sabes lo que dicen, como dice el refrán) y uno se cita solo a medias (quien no se arriesga…, no cruza el río), porque el lector conoce la segunda parte. Los refranes contradictorios reflejan las dos opciones del dilema."
     }
   ],
   "c2r-humor-irony-contrast": [
@@ -284,7 +284,7 @@ export const C2_WRITING_TASKS: UnitWriting = {
       "minWords": 80,
       "maxWords": 140,
       "rubric": [
-        "Al menos cuatro modismos empresariales (dar luz verde, tirarse a la piscina, ponerse las pilas…)",
+        "Al menos cuatro modismos empresariales (poner las cartas sobre la mesa, dar el visto bueno, apostar fuerte, sacar adelante…)",
         "Información clara: qué se ha decidido y qué se espera del equipo",
         "Registro profesional pero cercano",
         "Un cierre motivador"
@@ -348,7 +348,7 @@ export const C2_WRITING_TASKS: UnitWriting = {
       "minWords": 80,
       "maxWords": 140,
       "rubric": [
-        "Las tres estrategias nombradas y diferenciadas (lectura global, lectura selectiva, lectura detallada)",
+        "Las tres estrategias nombradas y diferenciadas (lectura global, lectura selectiva, lectura intensiva)",
         "Un ejemplo de tarea para cada estrategia",
         "Conectores que organicen los consejos",
         "Registro informal entre compañeros"
@@ -497,7 +497,7 @@ export const C2_WRITING_TASKS: UnitWriting = {
         "Registro informal y tono anecdótico",
         "Un desenlace claro: el acuerdo alcanzado"
       ],
-      "modelAnswer": "¡Hola, Rober! Ya tengo coche, y te cuento cómo lo conseguí, porque me siento como un negociador profesional. El vendedor pedía 9.000 euros, una clásica estrategia de anclaje para que todo lo demás nos pareciera barato. Yo ya había decidido que mi límite infranqueable eran 7.500, pero no se lo dije, claro. Primero sondeé sus intenciones: me contó que se mudaba al extranjero y necesitaba venderlo pronto. Entonces saqué mi as bajo la manga: tenía otro coche parecido visto, a 7.800. Él bajó a 8.200 y yo subí a 7.500. Al final llegamos a una cesión mutua: 7.700, con las ruedas nuevas incluidas. Un trato beneficioso para ambas partes, como dicen los manuales. Este finde te llevo a dar una vuelta. Un abrazo, Hugo",
+      "modelAnswer": "¡Hola, Rober! Ya tengo coche, y te cuento cómo lo conseguí, porque me siento como un negociador profesional. El vendedor pedía 9.000 euros, una clásica estrategia de anclaje para que todo lo demás nos pareciera barato. Yo ya había decidido que mi límite infranqueable eran 8.000, pero no se lo dije, claro. Primero sondeé sus intenciones: me contó que se mudaba al extranjero y necesitaba venderlo pronto. Entonces saqué mi as bajo la manga: tenía visto otro coche parecido, a 7.800. Él bajó a 8.200 y yo subí a 7.500. Al final llegamos a una cesión mutua: 7.700, con las ruedas nuevas incluidas. Un trato beneficioso para ambas partes, como dicen los manuales. Este finde te llevo a dar una vuelta. Un abrazo, Hugo",
       "explanation": "La anécdota usa el vocabulario técnico en un registro informal: la estrategia de anclaje (un primer precio alto), el límite infranqueable, sondear las intenciones, el as bajo la manga y la cesión mutua. La narración en pretérito indefinido sigue el orden de la negociación hasta el acuerdo."
     }
   ],
@@ -625,8 +625,8 @@ export const C2_WRITING_TASKS: UnitWriting = {
         "Una explicación clara del error de razonamiento",
         "Formato de carta al director"
       ],
-      "modelAnswer": "Señor director: El titular de ayer, «Los que desayunan chocolate son más inteligentes», merece algunas preguntas. ¿Cuántos participantes tenía el estudio? Según la propia noticia, cuarenta, una muestra a todas luces insuficiente. ¿Había grupo de control? No se menciona. ¿Se tuvo en cuenta el nivel socioeconómico de los participantes, que influye tanto en la dieta como en los resultados escolares? Tampoco. El estudio, en el mejor de los casos, encuentra una correlación, pero el titular la convierte en causalidad. ¿Acaso los niños que comen más fruta son más altos porque la fruta hace crecer, o porque sus familias tienen más recursos? Divulgar ciencia exige rigor, no titulares llamativos. Atentamente, Clara Montes, profesora de Biología",
-      "explanation": "La carta distingue correlación de causalidad y señala los problemas metodológicos (una muestra pequeña, la falta de grupo de control, un posible sesgo socioeconómico). Las preguntas retóricas, encadenadas en serie, guían al lector hacia la conclusión."
+      "modelAnswer": "Señor director: El titular de ayer, «Los que desayunan chocolate son más inteligentes», merece algunas preguntas. ¿Cuántos participantes tenía el estudio? Según la propia noticia, cuarenta, una muestra a todas luces insuficiente. ¿Hubo grupo de control? No se menciona. ¿Hubo seguimiento más allá de unas pocas semanas? Tampoco. ¿Hubo algún control del nivel socioeconómico de los participantes, que influye tanto en la dieta como en los resultados escolares? Nada de eso. El estudio, en el mejor de los casos, encuentra una correlación, pero el titular la convierte en causalidad. ¿Acaso los niños que comen más fruta son más altos porque la fruta hace crecer, o porque sus familias tienen más recursos? Divulgar ciencia exige rigor, no titulares llamativos. Atentamente, Clara Montes, profesora de Biología",
+      "explanation": "La carta distingue correlación de causalidad y señala los problemas metodológicos (una muestra pequeña, la falta de grupo de control, un posible sesgo socioeconómico). Las preguntas retóricas, encadenadas en serie anafórica («¿Hubo…? ¿Hubo…? ¿Hubo…?»), guían al lector hacia la conclusión."
     }
   ],
   "c2r-interview-strengths-tone": [
@@ -738,7 +738,7 @@ export const C2_WRITING_TASKS: UnitWriting = {
         "Registro culto y objetivo"
       ],
       "modelAnswer": "Elvira Castaño nació en 1871 en un pueblo minero de León, hija de un capataz que apenas sabía leer. Nadie habría imaginado entonces que aquella niña estaba llamada a convertirse en la primera catedrática de Química de la universidad española. A los dieciséis años se trasladó a Madrid, donde estudió con permiso especial, pues las mujeres necesitaban entonces una autorización para matricularse. Allí conoció a Ramón Ibarra, el que fuera su maestro y, años después, su principal rival académico. Su tesis sobre los compuestos del hierro, publicada en 1898, habría de abrirle las puertas de los laboratorios europeos. Tres décadas más tarde, sería ella quien formara a la siguiente generación de químicas españolas. Murió en 1949, sin ver reconocida del todo su obra.",
-      "explanation": "La semblanza anticipa el futuro desde el pasado con estaba llamada a, habría de y sería. «El que fuera su maestro» equivale a «el que había sido», un uso culto y periodístico del imperfecto de subjuntivo. La narración avanza con fechas y en un registro objetivo."
+      "explanation": "La semblanza anticipa el futuro desde el pasado con estaba llamada a, habría de y sería. «El que fuera su maestro» equivale a «el que había sido», un uso culto y periodístico de la forma en -ra con valor de indicativo (no de subjuntivo). La narración avanza con fechas y en un registro objetivo."
     }
   ],
   "historical-narrative-5": [
@@ -834,7 +834,7 @@ export const C2_WRITING_TASKS: UnitWriting = {
         "Estructura de noticia: titular y entradilla con lo esencial"
       ],
       "modelAnswer": "El Parlamento aprueba la ley de costas con el apoyo de tres grupos. El Parlamento regional ha aprobado este jueves la nueva ley de protección del litoral, tras ocho meses de tramitación. La norma salió adelante con 48 votos a favor y 31 en contra. Con su entrada en vigor, se prohibirán las nuevas construcciones a menos de doscientos metros de la costa y se ampliará la superficie de dunas protegidas. La aprobación del texto ha sido recibida con satisfacción por las organizaciones ecologistas, aunque el sector hotelero ha reclamado la apertura de un periodo de diálogo para suavizar su aplicación. Según fuentes del Gobierno regional, la ley afectaría a más de trescientos proyectos urbanísticos ya autorizados, cuya revisión podría prolongarse durante años.",
-      "explanation": "La noticia usa la pasiva refleja para las medidas (se prohibirán, se ampliará), nominalizaciones que condensan la información (la aprobación, la presentación, la revisión) y el condicional de rumor (afectaría), atribuido a una fuente, para un dato no confirmado."
+      "explanation": "La noticia usa la pasiva refleja para las medidas (se prohibirán, se ampliará), nominalizaciones que condensan la información (la aprobación, la tramitación, la entrada en vigor, la revisión) y el condicional de rumor (afectaría), atribuido a una fuente, para un dato no confirmado."
     }
   ],
   "c2r-philosophy-free-will-debate": [
@@ -865,7 +865,7 @@ export const C2_WRITING_TASKS: UnitWriting = {
         "Al menos una objeción con un contraejemplo",
         "Vocabulario lógico (premisa, silogismo, falacia, válido, inferir)"
       ],
-      "modelAnswer": "El razonamiento adopta la forma de un silogismo: la primera premisa afirma que todo lo natural es bueno; la segunda, que la agricultura ecológica es natural; y de ambas se infiere la conclusión de que la agricultura ecológica es buena. Desde el punto de vista formal, el argumento es válido: si las premisas fueran verdaderas, la conclusión lo sería necesariamente. Sin embargo, validez no equivale a verdad. La primera premisa es claramente falsa: los terremotos o la cicuta son naturales y nadie los consideraría buenos. Se trata de la llamada falacia naturalista o apelación a la naturaleza. Además, la segunda premisa es discutible, ya que cualquier forma de agricultura supone una intervención humana. En consecuencia, el argumento, aunque válido, no es sólido.",
+      "modelAnswer": "El razonamiento adopta la forma de un silogismo: la primera premisa afirma que todo lo natural es bueno; la segunda, que la agricultura ecológica es natural; y de ambas se infiere la conclusión de que la agricultura ecológica es buena. Desde el punto de vista formal, el argumento es válido: si las premisas fueran verdaderas, la conclusión lo sería necesariamente. Sin embargo, validez no equivale a verdad. La primera premisa es claramente falsa: los terremotos o la cicuta son naturales y nadie los consideraría buenos. Se trata de la llamada apelación a la naturaleza (que no debe confundirse con la «falacia naturalista» de Moore). Además, la segunda premisa es discutible, ya que cualquier forma de agricultura supone una intervención humana. En consecuencia, el argumento, aunque válido, no es sólido.",
       "explanation": "El análisis distingue validez (la conclusión se sigue de las premisas) y verdad (las premisas son ciertas). Los contraejemplos (los terremotos, la cicuta) refutan la primera premisa, y el vocabulario lógico (silogismo, se infiere, falacia, sólido) da precisión al comentario."
     }
   ],

@@ -14,7 +14,7 @@ const { fe, sec } = authoring("es");
 export const LEVEL_TEST_C1: LevelTest = {
   title: "Prueba de nivel Maestría: ¿listo para el nivel Profesional y Académico?",
   summary:
-    "La prueba final del nivel Maestría: comprensión de lectura y auditiva, gramática y vocabulario escribiendo en español, y un texto argumentativo. 46 preguntas sobre lo que se enseña en el nivel Maestría; se aprueba con un 70%.",
+    "La prueba final del nivel Maestría: comprensión de lectura y auditiva, gramática y vocabulario escribiendo en español, y un texto argumentativo. 46 preguntas sobre lo que se enseña en el nivel Maestría; se aprueba con un 70 %.",
   duration: "60 min",
   sections: [
     readingSection(
@@ -47,8 +47,8 @@ export const LEVEL_TEST_C1: LevelTest = {
           "«El reto… no radica tanto en frenar el fenómeno como en gestionar sus consecuencias de manera equitativa.»",
         ],
         [
-          "«No radica tanto en frenar el fenómeno como en gestionarlo» significa que…",
-          ["lo importante es gestionarlo más que frenarlo", "hay que frenarlo y gestionarlo por igual", "es imposible gestionarlo", "lo principal es frenarlo"],
+          "«No radica tanto en frenar el fenómeno como en gestionar sus consecuencias» significa que…",
+          ["lo importante es gestionar sus consecuencias más que frenarlo", "hay que frenarlo y gestionar sus consecuencias por igual", "es imposible gestionar sus consecuencias", "lo principal es frenarlo"],
           "«No tanto A como B» da más peso a B.",
         ],
       ]
@@ -212,7 +212,7 @@ export const LEVEL_TEST_C1: LevelTest = {
           "Conjetura sobre un pasado reciente: futuro compuesto, habré puesto.",
           ["habré dejado"]
         ),
-        fe("Fue entonces ___ comprendí todo.", "cuando", "It was then [that] I understood everything.", "En la oración hendida con un adverbio de tiempo, el relativo es cuando (no «que»)."),
+        fe("Fue entonces ___ comprendí todo.", "cuando", "It was then [that] I understood everything.", "En la oración hendida con un adverbio de tiempo, la norma culta prefiere cuando: fue entonces cuando. «Fue entonces que» es frecuente en América, pero se evita en registro cuidado."),
         fe("¡Lo ___ que es tu hermano!", "alto", "How [tall] your brother is!", "Lo + adjetivo + que, con valor ponderativo: ¡lo alto que es!"),
         fe("Vos ___ muy buena persona.", "sos", "You [are] a very good person. (vos)", "Voseo: vos sos (tú eres)."),
         fe("Vos ___ razón.", "tenés", "You [are] right. (vos)", "Voseo: vos tenés razón (tú tienes)."),

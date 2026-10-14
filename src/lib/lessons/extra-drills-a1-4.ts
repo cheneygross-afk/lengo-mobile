@@ -20,7 +20,7 @@ export const DRILLS_A1_4: Record<string, Exercise[]> = {
     fe("¿___ quieres aprender inglés? —Para trabajar en Londres.", "Para qué", "[What] do you want to learn English [for]? —To work in London.", "The answer gives a purpose (para trabajar...), so the question is para qué, not por qué."),
     fe("¿___ llegas tan tarde? —Porque hay mucho tráfico.", "Por qué", "[Why] are you arriving so late? —Because there's a lot of traffic.", "The answer gives a cause (porque...), so the question is por qué."),
     wo("¿Cuántas horas trabajas al día?", "Cuántas agrees with horas (feminine plural) and comes first, then the verb.", "How many hours do you work a day?"),
-    mc("¿ ___ vas al mercado? — 'Para comprar fruta.'", ["Por qué", "Para qué", "Cuándo", "Cuánto"], 1, "The answer starts with para + infinitive (a goal), so the question asks para qué."),
+    mc("Which question word fits? «¿___ vas al mercado? —Para comprar fruta.»", ["Por qué", "Para qué", "Cuándo", "Cuánto"], 1, "The answer starts with para + infinitive (a goal), so the question asks para qué."),
   ],
 
   "question-words-drill-3": [
@@ -71,7 +71,7 @@ export const DRILLS_A1_4: Record<string, Exercise[]> = {
     fe("¿___ vive tu abuela?", "Dónde", "[Where] does your grandmother live?", "Vivir is not a movement verb, so plain dónde."),
     fe("¿___ va el tren?", "Adónde", "[Where] is the train going [to]?", "Ir points to a destination, so adónde.", ["A dónde"]),
     wo("¿Cuál es tu bebida favorita?", "A favorite is one specific choice, so cuál es, not qué es.", "What is your favorite drink?"),
-    mc("\"¿___ eres?\" —Soy de Bolivia.", ["¿Dónde", "¿Adónde", "¿De dónde", "¿Cuál"], 2, "The answer gives origin (soy de...), so de dónde; dónde is location and adónde is destination."),
+    mc("Which question word fits? «¿___ eres? —Soy de Bolivia.»", ["¿Dónde", "¿Adónde", "¿De dónde", "¿Cuál"], 2, "The answer gives origin (soy de...), so de dónde; dónde is location and adónde is destination."),
   ],
 
   "gustar-drill-1": [
@@ -233,7 +233,7 @@ export const DRILLS_A1_4: Record<string, Exercise[]> = {
     fe("Hay ___ personas en el tren.", "quinientas", "There are [five hundred] people on the train.", "500 is irregular (quinientos) and agrees with personas: quinientas."),
     fe("La bicicleta cuesta ___ dólares.", "mil doscientos", "The bike costs [one thousand two hundred] dollars.", "Mil never takes un in front: mil doscientos, not un mil."),
     wo("Hay veintiún platos en la mesa", "Veintiuno shortens to veintiún before a masculine noun.", "There are twenty-one plates on the table"),
-    mc("'300 houses' (casa, feminine) is:", ["trescientos casas", "trescientas casas", "tres cientas casas", "trecientas casas"], 1, "One word, and it agrees with casas: trescientas."),
+    mc("'300 houses' is:", ["trescientos casas", "trescientas casas", "tres cientas casas", "trecientas casas"], 1, "One word, and it agrees with casas, which is feminine: trescientas."),
   ],
 
   "numbers-time-drill-2": [

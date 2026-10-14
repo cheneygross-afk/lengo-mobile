@@ -805,7 +805,7 @@ export const ZH_GUIDES_C1: ZhGrammarGuide[] = [
         wrong: "我在北京大学毕业。",
         right: "我毕业于北京大学。",
         rightPinyin: "Wǒ bìyè yú Běijīng Dàxué.",
-        why: "毕业 takes 于 after it (or speech says 我是北京大学毕业的). 在…毕业 sounds wrong.",
+        why: "毕业 takes 于 after it (or speech says 我是北京大学毕业的). 在…毕业 is heard in casual speech, but in formal writing it reads as loose; 毕业于 is the standard written form.",
       },
       {
         wrong: "至于价格很便宜。",

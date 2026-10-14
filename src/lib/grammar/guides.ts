@@ -770,10 +770,10 @@ const CORE_GUIDES: GrammarGuide[] = [
       {
         heading: "Where pronouns go",
         body: [
-          "Attach pronouns to the end of an affirmative command, adding an accent to keep the stress. Put them before the verb in a negative command.",
+          "Attach pronouns to the end of an affirmative command, adding an accent when the stress would otherwise fall on the third-to-last syllable or earlier (dímelo, siéntate, but dame, hazlo). Put them before the verb in a negative command.",
         ],
         examples: [
-          { es: "Dímelo. / No me lo digas.", en: "Tell me. / Don't tell me." },
+          { es: "Dímelo. / No me lo digas.", en: "Tell me (it). / Don't tell me (it)." },
           { es: "Siéntate. / No te sientes.", en: "Sit down. / Don't sit down." },
         ],
       },

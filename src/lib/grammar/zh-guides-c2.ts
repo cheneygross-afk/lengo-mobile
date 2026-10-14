@@ -662,7 +662,7 @@ export const ZH_GUIDES_C2: ZhGrammarGuide[] = [
         examples: [
           { zh: "究其原因，主要是缺乏有效的管理。", pinyin: "Jiū qí yuányīn, zhǔyào shì quēfá yǒuxiào de guǎnlǐ.", en: "If we look into the reasons, it is mainly a lack of effective management." },
           { zh: "这一结论在一定程度上仍有待验证。", pinyin: "Zhè yì jiélùn zài yídìng chéngdù shang réng yǒudài yànzhèng.", en: "To some extent, this conclusion still remains to be verified." },
-          { zh: "正如鲁迅所说，世上本没有路，走的人多了，也便成了路。", pinyin: "Zhèngrú Lǔ Xùn suǒ shuō, shì shang běn méiyǒu lù, zǒu de rén duō le, yě biàn chéngle lù.", en: "As Lu Xun said, there were no roads in the world to begin with; when enough people walk a way, it becomes a road." },
+          { zh: "正如鲁迅所说，地上本没有路，走的人多了，也便成了路。", pinyin: "Zhèngrú Lǔ Xùn suǒ shuō, dì shang běn méiyǒu lù, zǒu de rén duō le, yě biàn chéngle lù.", en: "As Lu Xun said, there was no road on the ground to begin with; when enough people walk a way, it becomes a road." },
         ],
       },
       {

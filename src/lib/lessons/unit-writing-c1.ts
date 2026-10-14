@@ -28,7 +28,7 @@ export const C1_UNIT_WRITING: Record<string, WriteExercise> = {
     "La nominalización convierte acciones en sustantivos (cerrar → el cierre, decidir → la decisión, reabrir → la reapertura) y da al texto un tono objetivo y formal."
   ),
   "gerund-infinitive-advanced-part-1-1": t(
-    "Describe la trayectoria de una persona constante que conoces. Usa perífrasis de gerundio (llevar, seguir, ir, venir) y de infinitivo (acabar de, volver a, dejar de, llegar a).",
+    "Describe la trayectoria de una persona constante que conoces. Usa perífrasis de gerundio (llevar, seguir, ir, venir) y de infinitivo (acabar de, volver a, dejar de).",
     ["Al menos tres perífrasis de gerundio", "Al menos tres perífrasis de infinitivo", "Un infinitivo como sustantivo (el viajar…)", "Uso correcto, sin gerundio de posterioridad"],
     "Mi vecina Elvira lleva cuarenta años dando clases de piano en su casa. Empezó con dos alumnos y, poco a poco, fue ganando fama en el barrio. Aunque los médicos le recomendaron que dejara de trabajar, sigue enseñando todas las tardes. Viene diciendo desde hace años que se jubilará, pero siempre vuelve a aceptar alumnos nuevos. Para ella, el enseñar es una forma de vivir. Algunos de sus estudiantes han llegado a tocar en el Teatro Real, y acaba de recibir un homenaje del ayuntamiento.",
     "Llevar + gerundio (duración), ir + gerundio (progreso), seguir + gerundio (continuidad), venir + gerundio (repetición hasta ahora); dejar de, volver a, llegar a y acabar de + infinitivo."

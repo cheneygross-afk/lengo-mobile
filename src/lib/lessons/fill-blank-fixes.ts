@@ -2,6 +2,7 @@
 import { fillBlankKey } from "./fill-blank-english";
 import { FILL_BLANK_FIXES_LOWER } from "./fill-blank-fixes-lower";
 import { FILL_BLANK_FIXES_UPPER } from "./fill-blank-fixes-upper";
+import { BEGINNER_BLANK_ALTS } from "./fill-blank-english-beginner";
 
 // Corrections to fill-blank exercises that are easier to keep beside the
 // content than inside it: extra accepted answers, and a reworded English
@@ -20,5 +21,9 @@ export const FILL_BLANK_FIXES: Record<string, BlankFix> = {
   ...FILL_BLANK_FIXES_LOWER,
   ...FILL_BLANK_FIXES_UPPER,
 };
+for (const [key, { alts }] of Object.entries(BEGINNER_BLANK_ALTS)) {
+  const fix = FILL_BLANK_FIXES[key];
+  FILL_BLANK_FIXES[key] = { ...fix, alts: [...(fix?.alts ?? []), ...alts] };
+}
 
 export { fillBlankKey };

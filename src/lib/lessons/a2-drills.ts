@@ -4084,8 +4084,8 @@ export const A2_DRILLS: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("A or nothing? (write a, al, or –)", "Visité ___ mis abuelos el domingo.", "a", "Mis abuelos are specific people as direct object, so the personal a: visité a mis abuelos."),
-      fb("A or nothing? (write a, al, or –)", "Llamé ___ fontanero para arreglar la ducha.", "al", "Specific person: a + el = al."),
+      fb("A or nothing? (write a, al, or –): \"I visited my grandparents on Sunday.\"", "Visité ___ mis abuelos el domingo.", "a", "Mis abuelos are specific people as direct object, so the personal a: visité a mis abuelos."),
+      fb("A or nothing? (write a, al, or –): \"I called the plumber to fix the shower.\"", "Llamé ___ fontanero para arreglar la ducha.", "al", "Specific person: a + el = al."),
       mc(
         "«Busco ___ camarero.» (any waiter)",
         ["un (no a)", "a un", "al", "a el"],
@@ -4129,12 +4129,12 @@ export const A2_DRILLS: AnchoredLesson[] = [
           ["Buscaba una farmacia.", "She was looking for a pharmacy."],
         ],
         [
-          fb("Fix it (write the missing word).", "Ayer vi ___ Marta en el centro.", "a", "Marta is a specific person, so the personal a: vi a Marta."),
+          fb("Fix it (write the missing word): \"Yesterday I saw Marta in town.\"", "Ayer vi ___ Marta en el centro.", "a", "Marta is a specific person, so the personal a: vi a Marta."),
         ]
       ),
     ],
     [
-      fb("Fix it (write the word that should be there).", "Luego llamamos ___ su hermano.", "a", "Su hermano is a specific person, so the personal a: llamamos a su hermano."),
+      fb("Fix it (write the word that should be there): \"Then we called his brother.\"", "Luego llamamos ___ su hermano.", "a", "Su hermano is a specific person, so the personal a: llamamos a su hermano."),
       mc(
         "«Ella buscaba a una farmacia» — what's wrong?",
         ["The a is extra: a pharmacy is a thing.", "Nothing.", "It should be al.", "It should be en."],
@@ -4147,8 +4147,8 @@ export const A2_DRILLS: AnchoredLesson[] = [
         0,
         "A cathedral is a place, so no personal a: visitamos la catedral. \"Al\" would still add a, the sentence does need fixing, and visitar does take objects."
       ),
-      fb("Fix it.", "No conozco ___ nadie aquí.", "a", "Nadie as direct object takes the personal a: no conozco a nadie."),
-      fb("Fix it.", "¿Invitaste ___ tus compañeros?", "a", "Tus compañeros are specific people, so the personal a: invitaste a tus compañeros."),
+      fb("Fix it: \"I don't know anyone here.\"", "No conozco ___ nadie aquí.", "a", "Nadie as direct object takes the personal a: no conozco a nadie."),
+      fb("Fix it: \"Did you invite your classmates?\"", "¿Invitaste ___ tus compañeros?", "a", "Tus compañeros are specific people, so the personal a: invitaste a tus compañeros."),
       ms(
         "Which sentences are correct?",
         ["Llevo a los niños al colegio.", "Llevo la mochila al colegio.", "Llevo a la mochila al colegio.", "Llevo los niños al colegio."],

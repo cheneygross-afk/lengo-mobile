@@ -111,7 +111,7 @@ export const DELE_A1_LECTURA: ExamPaper = {
         { n: 8, question: "La bicicleta…", options: ["es vieja.", "cuesta noventa euros.", "es roja."], answer: 1, source: 2, explanation: "\"Bicicleta azul, casi nueva. 90 euros.\"" },
         { n: 9, question: "Las clases de guitarra son…", options: ["para adultos.", "dos días a la semana.", "por la mañana."], answer: 1, source: 3, explanation: "\"Martes y jueves\": two days a week, for children, in the afternoon." },
         { n: 10, question: "En el restaurante El Patio, el menú…", options: ["incluye la bebida.", "es solo los fines de semana.", "cuesta veinte euros."], answer: 0, source: 4, explanation: "\"Primer plato, segundo plato, postre y bebida\" for 12 euros, Monday to Friday." },
-        { n: 11, question: "Elena dice que…", options: ["no hay clase de yoga el jueves.", "ella está enferma.", "la clase es el jueves."], answer: 0, source: 5, explanation: "\"El jueves no hay clase de yoga. La profesora está enferma.\"" },
+        { n: 11, question: "Elena dice que…", options: ["no hay clase de yoga el jueves.", "está enferma.", "la clase es el jueves."], answer: 0, source: 5, explanation: "\"El jueves no hay clase de yoga. La profesora está enferma.\"" },
       ],
     },
     {
@@ -140,7 +140,7 @@ export const DELE_A1_LECTURA: ExamPaper = {
         {
           title: "Mi semana en Málaga",
           body:
-            "El lunes llego a Málaga en tren a las once de la mañana. Por la tarde quiero ver los cuadros de Picasso. El martes por la mañana voy a comprar fruta y pescado fresco, y por la tarde voy a nadar en el mar. El miércoles quiero leer y estudiar un poco en un sitio tranquilo. El jueves por la noche ceno con unos amigos: ¡tienen pescado muy bueno! El viernes quiero ver una película en español.",
+            "El lunes llego a Málaga en tren a las once de la mañana. Por la tarde quiero ver los cuadros de Picasso. El martes por la mañana voy a comprar fruta y pescado fresco, y por la tarde voy a nadar en el mar. El miércoles quiero leer y estudiar un poco en un sitio tranquilo. El jueves por la noche ceno con unos amigos en un restaurante: ¡el pescado es muy bueno! El viernes quiero ver una película en español.",
         },
       ],
       layout: "select",

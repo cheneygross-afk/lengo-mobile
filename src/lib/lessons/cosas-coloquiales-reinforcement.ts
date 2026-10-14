@@ -53,7 +53,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
           ["Día de Muertos", "México"],
           ["Fallas", "Valencia"],
         ],
-        "Geografía festiva."
+        "San Fermín se celebra en Pamplona, el Inti Raymi en Cusco (Perú), el Día de Muertos en México y las Fallas en Valencia."
       ),
       fb("Completa.", "El 6 de enero se come el ___ de Reyes.", "roscón", "Se dice «roscón de Reyes» en España; en México es «rosca de Reyes». Es el dulce típico del 6 de enero."),
       { ...fb("Completa.", "Las flores naranjas de las ofrendas se llaman ___. (nombre de origen náhuatl; también «flor de muerto»)", "cempasúchil", "Flor típica del Día de Muertos; también se escribe cempoalxóchitl."), altAnswers: ["cempoalxóchitl", "cempasúchitl", "cempazúchil"] },
@@ -194,7 +194,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
           ["merienda", "comida ligera por la tarde"],
           ["tapeo", "ir de bar en bar comiendo tapas"],
         ],
-        "Momentos gastronómicos."
+        "El aperitivo va antes de comer, la sobremesa después, la merienda por la tarde, y el tapeo consiste en ir de bar en bar comiendo tapas."
       ),
       fb("Completa.", "Nos quedamos de ___ hasta que se hizo de noche.", "sobremesa", "«Quedarse de sobremesa» es seguir charlando en la mesa después de comer."),
       fb("Completa.", "Esta tarde vamos a ___ por el centro: de bar en bar, una tapa en cada uno. (ir de tapas, infinitivo)", "tapear", "«Tapear» es ir de bar en bar tomando tapas; tras «vamos a» va el infinitivo."),
@@ -255,7 +255,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         [0, 1, 2],
         "Elogiar la comida, quedarse a la sobremesa e insistir en pagar son gestos esperados de buena educación. Levantarse sin despedirse, en cambio, se considera descortés."
       ),
-      wo("Esta vez no te dejo pagar, que la última invitaste tú.", "«No te dejo pagar» (dejar + infinitivo) rechaza que el otro pague; «que» introduce la justificación coloquial (= porque) e «invitar» es pagar por otros.", "This time I won't let you pay, since you treated last time."),
+      wo("Esta vez no te dejo pagar, que la última vez invitaste tú.", "«No te dejo pagar» (dejar + infinitivo) rechaza que el otro pague; «que» introduce la justificación coloquial (= porque) e «invitar» es pagar por otros.", "This time I won't let you pay, since you treated last time."),
     ]
   ),
   L(
@@ -299,7 +299,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
           ["¿Ya? Quédate un poco más.", "resistencia"],
           ["Venga, lo he pasado genial.", "despedida final"],
         ],
-        "Fases de la despedida."
+        "«Ya me voy yendo» anuncia la salida, «¿Ya? Quédate un poco más» es la resistencia del anfitrión y «Venga, lo he pasado genial» cierra la despedida de verdad."
       ),
       toEs("Well, I'd better get going.", "Bueno, ya me voy yendo.", "«Me voy yendo» es la fórmula coloquial para empezar a despedirse, con el gerundio que suaviza la marcha.", ["Bueno, me voy yendo.", "Bueno, me tengo que ir yendo."]),
       wo("Venga, que lo he pasado genial; a la próxima invito yo.", "«Venga» marca el cierre definitivo; «que lo he pasado genial» justifica la despedida con «que» causal, y «a la próxima invito yo» deja abierto el reencuentro.", "Come on, I've had a great time; next time it's on me."),
@@ -338,7 +338,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
           ["pasar la pelota", "transferir la responsabilidad"],
           ["en el descuento", "en el último momento"],
         ],
-        "Metáforas futbolísticas."
+        "Echar balones fuera = esquivar una responsabilidad; meterle un gol a alguien = engañarlo; pasar la pelota = traspasar la responsabilidad a otro; en el descuento = en el último momento."
       ),
       fb("Completa.", "Aprobamos el presupuesto en el ___: a las 23:59.", "descuento", "«En el descuento» (el tiempo añadido del partido) significa en el último momento."),
       fb("Completa.", "El ministro echó balones ___ cuando le preguntaron por la crisis.", "fuera", "«Echar balones fuera» es eludir una pregunta o una responsabilidad, como el jugador que despeja sin más."),
@@ -394,7 +394,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
           ["hinchada", "aficionados de un equipo"],
           ["cabezazo", "golpe al balón con la cabeza"],
         ],
-        "Léxico futbolístico."
+        "El contragolpe es un ataque rápido tras recuperar el balón, la hinchada son los aficionados de un equipo y el cabezazo es un golpe al balón con la cabeza."
       ),
       toEs("What a goal! A goal from another planet!", "¡Qué golazo! ¡Un gol de otro planeta!", "«Golazo» (aumentativo) y «de otro planeta» son hipérboles típicas de la narración deportiva.", ["¡Menudo golazo! ¡Un gol de otro planeta!", "¡Qué golazo, de otro planeta!"]),
       wo("La hinchada no para de cantar en ningún momento del partido.", "«La hinchada» es un colectivo singular, así que el verbo va en singular («no para»); «no parar de» + infinitivo = no dejar de hacer algo.", "The fans don't stop singing for a moment during the match."),
@@ -433,7 +433,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
           ["ranchera", "México"],
           ["flamenco", "Andalucía"],
         ],
-        "Mapa musical."
+        "El vallenato es colombiano (con acordeón), la bachata dominicana, la ranchera mexicana y el flamenco andaluz."
       ),
       fb("Completa.", "En flamenco, el que canta es el ___.", "cantaor", "En el flamenco se dice «cantaor/cantaora» (con la -d- caída) para quien canta flamenco; «cantante» es el término general."),
       fb("Completa.", "Cuando una actuación emociona profundamente se dice que tiene ___.", "duende", "«Tener duende» es tener ese encanto misterioso que conmueve, sobre todo en el flamenco."),
@@ -481,7 +481,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
           ["morfar", "comer"],
           ["gozar", "disfrutar bailando"],
         ],
-        "Jerga musical."
+        "Janguear (Puerto Rico) = salir de fiesta; parcero (Colombia) = amigo; morfar (lunfardo rioplatense) = comer; gozar (en la salsa) = disfrutar bailando."
       ),
       fb("Completa (lunfardo).", "La ___ del barrio bailaba como nadie. (mujer)", "mina", "En lunfardo, «mina» significa mujer; es muy frecuente en las letras de tango."),
       fb("Completa (salsa).", "¡A ___ se ha dicho! Que suene la orquesta. (disfrutar bailando)", "gozar", "«¡A gozar!» es el grito típico de la salsa para disfrutar bailando; tras «a» va el infinitivo."),
@@ -581,7 +581,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
           ["lentejas", "abundancia"],
           ["agua por la ventana", "alejar lo malo"],
         ],
-        "Rituales de Año Nuevo."
+        "La maleta vacía atrae los viajes, la ropa interior roja el amor, las lentejas la abundancia, y tirar agua por la ventana aleja lo malo del año viejo."
       ),
       mc(
         "«Creer sin creer del todo» describe…",
@@ -654,7 +654,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "Restar importancia: «¿Esto? Si me costó dos euros», «Qué va, es viejísimo». Devolver: «Pues anda que tú, que estás estupenda». Agradecer con humildad: «Gracias, eres muy amable», «Eso es que me miras con buenos ojos» (mirar a alguien con buenos ojos = verlo con simpatía). Aceptarlo sin más («Sí, lo sé») puede sonar arrogante en muchos contextos.",
         [
           ["—¡Qué bien cocinas! —Qué va, es una receta facilísima.", "—You cook so well! —Oh no, it's a super easy recipe."],
-          ["Eso es que me miras con buenos ojos.", "You're just seeing me kindly."],
+          ["Eso es que me miras con buenos ojos.", "You just see me through kind eyes."],
         ],
         [
           mc(
@@ -683,7 +683,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
           ["Pues anda que tú…", "devolver el cumplido"],
           ["Gracias, eres muy amable.", "agradecer con humildad"],
         ],
-        "Estrategias de cortesía."
+        "«Si es viejísimo» quita valor al objeto elogiado, «Pues anda que tú» devuelve el elogio y «Eres muy amable» agradece sin presumir."
       ),
       toEs("You're just being kind.", "Eres muy amable.", "Ante un cumplido se responde con modestia, atribuyéndolo a la amabilidad o el cariño del otro.", ["Qué amable eres.", "Lo dices porque me quieres.", "Eso es que me miras con buenos ojos.", "Me miras con buenos ojos."]),
       wo("Qué va, si esta camisa la compré en un mercadillo.", "«Qué va» resta importancia al cumplido y el «si» enfático introduce la justificación; el objeto antepuesto «esta camisa» se retoma con «la».", "Oh no, I bought this shirt at a street market."),

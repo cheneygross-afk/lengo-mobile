@@ -2393,7 +2393,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
         [0, 2, 3],
         "El condicional termina en -ía: vendría, pondríamos, sabríais. «Vendrá» termina en -á: es futuro."
       ),
-      toEs("I'll call you tomorrow. / I would call her.", "Te llamaré mañana. / Yo la llamaría.", "«Will» → futuro (llamaré); «would» → condicional (llamaría).", ["Mañana te llamaré. / Yo la llamaría."]),
+      toEs("I'll call you tomorrow. I would call her.", "Te llamaré mañana. Yo la llamaría.", "«Will» → futuro (llamaré); «would» → condicional (llamaría).", ["Mañana te llamaré. Yo la llamaría.", "Te llamaré mañana. La llamaría.", "Mañana te llamaré. La llamaría."]),
     ]
   ),
   L(
@@ -7097,7 +7097,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
   L(
     "el-abuelo-y-el-telefono",
     "b1d-rep-imperativo-afirmativo-negativo-tu",
-    "Pares mínimos: habla / no hables",
+    "Pares mínimos: habla / no hables (repaso)",
     "Repaso espaciado: el negativo de tú cambia de forma.",
     "5 min",
     [
@@ -7479,7 +7479,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
       fb("Transforma.", "Pon la radio. → Quiero que ___ la radio.", "pongas", "«Quiero que» pide subjuntivo: pon → pongas (desde pongo)."),
       fb("Transforma.", "Venid a comer. → Quiero que ___ a comer.", "vengáis", "«Quiero que» pide subjuntivo: venid → vengáis (desde vengo)."),
       fb("Transforma.", "Siéntese, por favor. → Le ruego que ___.", "se siente", "Con «le ruego que» + subjuntivo, el pronombre va delante del verbo: que se siente."),
-      toEs("Tell me the truth. / I want you to tell me the truth.", "Dime la verdad. / Quiero que me digas la verdad.", "La orden directa usa el imperativo (dime); con «quiero que», el subjuntivo (me digas).", ["Dime la verdad. Quiero que me digas la verdad."]),
+      toEs("Tell me the truth. I want you to tell me the truth.", "Dime la verdad. Quiero que me digas la verdad.", "La orden directa usa el imperativo (dime); con «quiero que», el subjuntivo (me digas).", []),
     ]
   ),
   L(
@@ -8560,7 +8560,7 @@ export const B1_DRILLS: AnchoredLesson[] = [
   L(
     "la-playa-despues-de-la-tormenta",
     "b1d-rep-condicional-si-habla",
-    "Preguntas y respuestas: ¿qué harías tú?",
+    "Preguntas y respuestas: ¿qué harías tú? (repaso)",
     "Repaso espaciado: el condicional para hablar de lo que harías.",
     "6 min",
     [

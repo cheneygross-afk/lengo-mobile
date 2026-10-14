@@ -11,14 +11,14 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
     "level": "C1/C2",
     "number": 1,
     "title": "Fiestas y Tradiciones del Mundo Hispano, Part 1 of 3",
-    "summary": "Un recorrido por las celebraciones que marcan el calendario cultural hispano —su origen, sus rituales y el lenguaje coloquial que las acompaña— para entender no solo qué se festeja, sino por qué importa tanto.",
+    "summary": "Aprende expresiones festivas como estar de fiesta, armar la fiesta o ponerse las botas, y el vocabulario y el sentido del Día de los Muertos mexicano: la ofrenda, el pan de muerto y las calaveras literarias.",
     "duration": "8 min",
     "sections": [
       {
         "heading": "El calendario festivo como mapa cultural",
         "body": [
           "En el mundo hispano, el calendario no organiza solo el trabajo y el descanso: marca un ciclo de celebraciones que cada comunidad hereda, adapta y defiende como parte de su identidad. Entender una fiesta no es solo saber su fecha, sino entender qué necesidad colectiva satisface: honrar a los muertos, cerrar un ciclo agrícola, celebrar la fe o simplemente reunir a la familia.",
-          "Lo que sorprende a quien aprende español desde fuera es la cantidad de vocabulario cotidiano que nace directamente de estas celebraciones. Expresiones que hoy se usan sin pensar en su origen festivo —para describir un ambiente animado, una reunión numerosa o una época de abundancia— vienen casi siempre de una fiesta concreta."
+          "Lo que sorprende a quien aprende español desde fuera es la cantidad de vocabulario cotidiano que nace directamente de estas celebraciones. Expresiones que hoy se usan sin pensar en su origen festivo —para describir un ambiente animado, una reunión numerosa o una época de abundancia— se asocian a menudo con las fiestas, aunque no siempre nazcan de una fiesta concreta."
         ],
         "examples": [
           {
@@ -119,7 +119,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
     "level": "C1/C2",
     "number": 2,
     "title": "Fiestas y Tradiciones del Mundo Hispano, Part 2 of 3",
-    "summary": "Un recorrido por las celebraciones que marcan el calendario cultural hispano —su origen, sus rituales y el lenguaje coloquial que las acompaña— para entender no solo qué se festeja, sino por qué importa tanto.",
+    "summary": "Descubre el vocabulario de la Semana Santa, la Nochevieja, el carnaval y las fiestas patronales, y expresiones como «la procesión va por dentro» y «echar la casa por la ventana».",
     "duration": "8 min",
     "sections": [
       {
@@ -241,7 +241,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "right": "vestirse con un traje que oculta la identidad"
           }
         ],
-        "explanation": "Cada expresión conserva un significado fijo ligado a su origen festivo, aunque hoy se use también fuera del contexto de la celebración original."
+        "explanation": "Ponerse las botas = darse un atracón o disfrutar a lo grande; la procesión va por dentro = sufrir sin mostrarlo; el santo patrón es la figura que protege al pueblo; disfrazarse = ponerse un disfraz, como en carnaval."
       }
     ]
   },
@@ -250,7 +250,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
     "level": "C1/C2",
     "number": 3,
     "title": "Fiestas y Tradiciones del Mundo Hispano, Part 3 of 3",
-    "summary": "Un recorrido por las celebraciones que marcan el calendario cultural hispano —su origen, sus rituales y el lenguaje coloquial que las acompaña— para entender no solo qué se festeja, sino por qué importa tanto.",
+    "summary": "Escucha en una conversación real las expresiones festivas de las partes 1 y 2 y repasa todo el vocabulario de fiestas y tradiciones.",
     "duration": "5 min",
     "sections": [
       {
@@ -259,7 +259,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "Renata: ¿Ya tienes planes para el 31?",
           "Iker: Sí, vamos a casa de mis suegros. Mi suegra siempre echa la casa por la ventana esa noche.",
           "Renata: Qué envidia. Nosotros vamos a quedarnos tranquilos, aunque no me voy a perder las doce uvas por nada del mundo.",
-          "Iker: Jaja, entiendo. Por cierto, ¿al final fuiste a la procesión del Jueves Santo?",
+          "Iker: Jaja, entiendo. Por cierto, ¿este año fuiste a la procesión del Jueves Santo?",
           "Renata: Fui, pero como espectadora nada más. Mi tía sí participó, y te juro que a ella la procesión le va por dentro: parece tranquila pero se emociona muchísimo cada año.",
           "Iker: Se nota que para tu familia es algo muy serio.",
           "Renata: Totalmente. Y ya en marzo nos vamos de fiestas patronales al pueblo de mi abuelo: esa sí que es una semana entera de ponerse las botas."
@@ -350,7 +350,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "ventana."
         ],
         "translation": "My grandmother always spares no expense.",
-        "explanation": "El orden correcto es «Mi abuela siempre echa la casa por la ventana», que expresa gastar sin límite para celebrar algo con generosidad."
+        "explanation": "«Siempre» va delante del verbo, y la expresión fija «echar la casa por la ventana» (gastar sin reparar en gastos para celebrar algo) no se separa; el verbo concuerda con «mi abuela»: echa."
       },
       {
         "type": "translate",
@@ -372,7 +372,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
     "level": "C1/C2",
     "number": 4,
     "title": "La Sobremesa y la Cultura de la Comida, Part 1 of 3",
-    "summary": "La comida en el mundo hispano es tanto un ritual social como un idioma propio: explora la sobremesa, los horarios, las normas tácitas de la mesa y las expresiones coloquiales que nacen de comer en compañía.",
+    "summary": "Descubre qué es la sobremesa, los horarios de comida en España y Latinoamérica, y expresiones como hacer sobremesa, picar algo o irse de tapas.",
     "duration": "8 min",
     "sections": [
       {
@@ -477,7 +477,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
     "level": "C1/C2",
     "number": 5,
     "title": "La Sobremesa y la Cultura de la Comida, Part 2 of 3",
-    "summary": "La comida en el mundo hispano es tanto un ritual social como un idioma propio: explora la sobremesa, los horarios, las normas tácitas de la mesa y las expresiones coloquiales que nacen de comer en compañía.",
+    "summary": "Aprende las normas tácitas de la mesa (repetir, llevarse las sobras, estoy que reviento) y metáforas culinarias como ser pan comido o encontrar a su media naranja.",
     "duration": "7 min",
     "sections": [
       {
@@ -564,7 +564,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
               "comido."
             ],
             "translation": "This exam is going to be a piece of cake.",
-            "explanation": "El orden correcto es «Este examen va a ser pan comido», usando la expresión que significa que algo será muy fácil."
+            "explanation": "«Ir a» + infinitivo (va a ser) expresa el futuro, y «pan comido» (algo muy fácil, como «a piece of cake») funciona como atributo de «ser» detrás del verbo."
           }
         ]
       }
@@ -606,7 +606,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "right": "guardar la comida que sobró"
           }
         ],
-        "explanation": "Cada expresión conserva un significado propio, muchas veces alejado del sentido literal de sus palabras relacionadas con la comida."
+        "explanation": "«Ser pan comido» = ser facilísimo; la «media naranja» es la pareja ideal; el aperitivo se toma antes de comer; llevarse las sobras es llevarse lo que ha quedado de la comida."
       }
     ]
   },
@@ -615,7 +615,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
     "level": "C1/C2",
     "number": 6,
     "title": "La Sobremesa y la Cultura de la Comida, Part 3 of 3",
-    "summary": "La comida en el mundo hispano es tanto un ritual social como un idioma propio: explora la sobremesa, los horarios, las normas tácitas de la mesa y las expresiones coloquiales que nacen de comer en compañía.",
+    "summary": "Escucha en una conversación real las expresiones de comida y sobremesa y repasa todo el vocabulario de la serie.",
     "duration": "6 min",
     "sections": [
       {
@@ -709,7 +709,9 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "answer": "Nos quedamos de sobremesa charlando dos horas más.",
         "altAnswers": [
           "Hicimos sobremesa charlando dos horas más",
-          "Alargamos la sobremesa charlando dos horas más"
+          "Alargamos la sobremesa charlando dos horas más",
+          "Nos quedamos de sobremesa dos horas más.",
+          "Alargamos la sobremesa dos horas más."
         ],
         "explanation": "Quedarse de sobremesa o hacer sobremesa describe exactamente permanecer en la mesa conversando después de comer."
       },
@@ -728,7 +730,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "centro."
         ],
         "translation": "On Sunday we went out for tapas around downtown.",
-        "explanation": "El orden correcto es «El domingo nos fuimos de tapas por el centro», usando la expresión que describe salir a comer raciones pequeñas en varios bares."
+        "explanation": "«Irse de tapas» es una expresión fija (irse de + plural: de tapas, de cañas) que describe salir a comer raciones pequeñas en varios bares; el complemento de tiempo «el domingo» abre la frase y «por el centro» indica el recorrido."
       }
     ]
   },
@@ -737,7 +739,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
     "level": "C1/C2",
     "number": 7,
     "title": "Fútbol y Pasión Popular: El Lenguaje del Deporte, Part 1 of 2",
-    "summary": "El fútbol desborda el estadio y se instala en el lenguaje cotidiano del mundo hispano: descubre cómo sus metáforas explican política, trabajo y vida social, mucho más allá del marcador.",
+    "summary": "Aprende metáforas futbolísticas de la vida diaria (meterle un gol a alguien, pasar la pelota, jugar en otra liga) y el vocabulario de la afición: la hinchada, el clásico, ser hincha de.",
     "duration": "9 min",
     "sections": [
       {
@@ -857,13 +859,13 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
     "level": "C1/C2",
     "number": 8,
     "title": "Fútbol y Pasión Popular: El Lenguaje del Deporte, Part 2 of 2",
-    "summary": "El fútbol desborda el estadio y se instala en el lenguaje cotidiano del mundo hispano: descubre cómo sus metáforas explican política, trabajo y vida social, mucho más allá del marcador.",
+    "summary": "Descubre las imágenes de los comentaristas que han pasado al habla cotidiana (remontar, un partido de infarto, estar en fuera de juego) y repasa todas las expresiones futbolísticas.",
     "duration": "10 min",
     "sections": [
       {
         "heading": "Del comentarista al político: metáforas prestadas",
         "body": [
-          "Los periodistas deportivos han desarrollado un registro propio, lleno de imágenes dramáticas —\"un partido de infarto\", \"jugarse todo a una carta\", \"remontar el marcador\"— que después migra hacia otros ámbitos. Un político puede \"remontar\" en las encuestas, un estudiante puede \"jugarse todo\" en un examen final, y una empresa puede vivir \"un cierre de año de infarto\".",
+          "Los periodistas deportivos han desarrollado un registro propio, lleno de imágenes dramáticas —\"un partido de infarto\", \"remontar el marcador\", \"dejarse la piel\"— que después migra hacia otros ámbitos. Un político puede \"remontar\" en las encuestas, un estudiante puede \"dejarse la piel\" en un examen final, y una empresa puede vivir \"un cierre de año de infarto\".",
           "Esta circulación constante entre el lenguaje deportivo y el resto de la vida pública demuestra que el fútbol no compite con otros ámbitos culturales: los alimenta. Reconocer el origen deportivo de una expresión, aunque se use fuera del campo, ayuda a captar toda la intensidad emocional que conlleva."
         ],
         "examples": [
@@ -1006,7 +1008,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "right": "actuar sin notar que la situación cambió"
           }
         ],
-        "explanation": "Cada expresión conserva su origen futbolístico aunque hoy se use ampliamente fuera del campo de juego."
+        "explanation": "Pasar la pelota = delegar algo incómodo; jugarse todo a una carta (imagen de los naipes, no del fútbol) = arriesgarlo todo; el clásico = el gran partido entre los dos equipos rivales; estar en fuera de juego = no enterarse de que la situación ha cambiado."
       },
       {
         "type": "word-order",
@@ -1022,7 +1024,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "carta."
         ],
         "translation": "The coach risked everything on one decision.",
-        "explanation": "El orden correcto es «El entrenador se jugó todo a una carta», usando la expresión que significa arriesgarlo todo en una sola decisión."
+        "explanation": "«Jugarse» es pronominal (se jugó) y la expresión fija «jugarse todo a una carta», tomada de los juegos de naipes, significa arriesgarlo todo en una sola decisión."
       },
       {
         "type": "translate",
@@ -1042,7 +1044,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
     "level": "C1/C2",
     "number": 9,
     "title": "Música, Baile e Identidad Regional, Part 1 of 2",
-    "summary": "Del tango al reguetón, cada ritmo del mundo hispano cuenta la historia de la región que lo creó. Explora esos géneros, su vocabulario y las expresiones coloquiales que han pasado del baile al habla cotidiana.",
+    "summary": "Aprende expresiones del baile (tener sabor, bailar pegado, no tener oído) y el mundo del tango: el lunfardo, el arrabal y el bandoneón.",
     "duration": "10 min",
     "sections": [
       {
@@ -1062,7 +1064,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "bailar pegado",
-            "en": "bailar muy cerca de la pareja, típico de géneros como la salsa o el bolero"
+            "en": "bailar muy cerca de la pareja, típico de géneros como el bolero o la bachata"
           },
           {
             "es": "no tener oído",
@@ -1112,8 +1114,8 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           {
             "type": "fill-blank",
             "prompt": "Completa la palabra que designa el argot popular rioplatense asociado históricamente al tango.",
-            "sentence": "Muchas de las palabras que usan hoy los porteños vienen de ___, el argot que nació con el tango.",
-            "answer": "el lunfardo",
+            "sentence": "Muchas de las palabras que usan hoy los porteños vienen del ___, el argot que nació con el tango.",
+            "answer": "lunfardo",
             "hint": "Es un argot popular nacido de la inmigración en Buenos Aires y Montevideo.",
             "explanation": "El lunfardo es el argot popular rioplatense nacido de la inmigración, históricamente asociado al tango y muy presente en sus letras."
           }
@@ -1162,13 +1164,13 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
     "level": "C1/C2",
     "number": 10,
     "title": "Música, Baile e Identidad Regional, Part 2 of 2",
-    "summary": "Del tango al reguetón, cada ritmo del mundo hispano cuenta la historia de la región que lo creó. Explora esos géneros, su vocabulario y las expresiones coloquiales que han pasado del baile al habla cotidiana.",
+    "summary": "Descubre la jerga de fiesta de la salsa, la cumbia y el reguetón (prender la fiesta, soltarse el pelo, estar pegado, el perreo) y repasa todo el vocabulario musical.",
     "duration": "10 min",
     "sections": [
       {
         "heading": "Salsa, cumbia y reguetón: del Caribe al mundo",
         "body": [
-          "La salsa, nacida de la fusión de ritmos afrocaribeños en Nueva York y Cuba, se convirtió en lenguaje común de fiesta en toda Latinoamérica. La cumbia, originaria de Colombia, se adaptó tanto en México como en Argentina hasta generar variantes regionales casi irreconocibles entre sí. Más recientemente, el reguetón, surgido en Puerto Rico, rompió fronteras nacionales para convertirse en la banda sonora panhispana de una generación entera.",
+          "La salsa, nacida en Nueva York de la fusión de ritmos cubanos y puertorriqueños, se convirtió en lenguaje común de fiesta en toda Latinoamérica. La cumbia, originaria de Colombia, se adaptó tanto en México como en Argentina hasta generar variantes regionales casi irreconocibles entre sí. Más recientemente, el reguetón, surgido en Puerto Rico, rompió fronteras nacionales para convertirse en la banda sonora panhispana de una generación entera.",
           "Estos géneros comparten algo más que el ritmo: cada uno ha generado su propio vocabulario de baile y fiesta que circula libremente entre países, prueba de que la música sigue siendo uno de los puentes culturales más fuertes del mundo hispano."
         ],
         "examples": [
@@ -1327,7 +1329,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "fiestas."
         ],
         "translation": "That song is all the rage at every party.",
-        "explanation": "El orden correcto es «Esa canción está pegada en todas las fiestas», usando la expresión latinoamericana que significa estar de moda o sonar constantemente (en España se diría más bien «esa canción está pegando fuerte»)."
+        "explanation": "«Estar pegada» se construye con «estar» y concuerda con «canción»; «en todas las fiestas» va detrás. Es la expresión latinoamericana que significa estar de moda o sonar constantemente (en España se diría más bien «esa canción está pegando fuerte»)."
       },
       {
         "type": "translate",
@@ -1347,13 +1349,13 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
     "level": "C1/C2",
     "number": 11,
     "title": "Supersticiones y Creencias Populares, Part 1 of 2",
-    "summary": "Desde tocar madera hasta la mala sombra del martes trece, recorre las supersticiones más extendidas del mundo hispano y las expresiones coloquiales que revelan cuánto siguen vivas en el habla diaria.",
+    "summary": "Aprende las supersticiones más comunes y sus expresiones: tocar madera, ser gafe, el martes trece («ni te cases ni te embarques») y estar en racha.",
     "duration": "9 min",
     "sections": [
       {
         "heading": "Creer sin creer del todo",
         "body": [
-          "La mayoría de los hispanohablantes dirá que no cree en supersticiones y, sin embargo, tocará madera después de decir que algo va bien, evitará pasar bajo una escalera o dudará antes de regalar un cuchillo sin recibir una moneda a cambio. Esta contradicción no es hipocresía: es la manera en que una cultura conserva rituales heredados incluso después de que la creencia original se ha debilitado.",
+          "La mayoría de los hispanohablantes dirá que no cree en supersticiones y, sin embargo, tocará madera después de decir que algo va bien, evitará pasar bajo una escalera o dudará antes de regalar un cuchillo sin recibir una moneda a cambio. Esta contradicción no es hipocresía: es la manera en que una cultura conserva rituales heredados incluso después de que la creencia original se haya debilitado.",
           "Entender estas costumbres no requiere creer en ellas, pero sí reconocerlas, porque aparecen constantemente en conversaciones informales, chistes y hasta decisiones cotidianas —como evitar programar una boda o una mudanza en una fecha considerada de mala suerte—."
         ],
         "examples": [
@@ -1431,12 +1433,12 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "question": "Cada vez que tu primo organiza un viaje, algo sale mal: se cancela el vuelo, pierde el equipaje o se enferma. ¿Qué palabra describe esa reputación?",
         "options": [
           "ser gafe",
-          "de buen agüero",
+          "tocar madera",
           "ser mano de santo",
-          "cruzar los dedos"
+          "estar en racha"
         ],
         "correctIndex": 0,
-        "explanation": "«Ser gafe» (España) es atraer la mala suerte de forma habitual, la fama del primo; en Argentina y Uruguay se diría que es mufa o yeta. «De buen agüero» es lo contrario (buen presagio), «ser mano de santo» es ser un remedio infalible y «cruzar los dedos» es desear suerte."
+        "explanation": "«Ser gafe» (España) es atraer la mala suerte de forma habitual, la fama del primo; en Argentina y Uruguay se diría que es mufa o yeta. «Tocar madera» es un gesto para ahuyentar la mala suerte, «ser mano de santo» es ser un remedio infalible y «estar en racha» es encadenar éxitos."
       },
       {
         "type": "fill-blank",
@@ -1470,7 +1472,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
     "level": "C1/C2",
     "number": 12,
     "title": "Supersticiones y Creencias Populares, Part 2 of 2",
-    "summary": "Desde tocar madera hasta la mala sombra del martes trece, recorre las supersticiones más extendidas del mundo hispano y las expresiones coloquiales que revelan cuánto siguen vivas en el habla diaria.",
+    "summary": "Descubre el vocabulario de los rituales de protección (el mal de ojo, el amuleto, pedir un deseo, de buen o mal agüero, por si las moscas) y repasa todas las expresiones de la serie.",
     "duration": "10 min",
     "sections": [
       {
@@ -1658,7 +1660,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
     "level": "C1/C2",
     "number": 13,
     "title": "Piropos, Cortesía y Trato Social, Part 1 of 2",
-    "summary": "Explora las normas de cortesía, los piropos y las formas de trato en el mundo hispanohablante: cómo saludar, halagar, pedir favores y comportarse como invitado.",
+    "summary": "Descubre cómo funcionan hoy los piropos, cuándo usar tú, usted o don/doña y cómo proponer el tuteo, y las reglas no escritas para ser buen invitado.",
     "duration": "10 min",
     "sections": [
       {
@@ -1789,7 +1791,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
     "level": "C1/C2",
     "number": 14,
     "title": "Piropos, Cortesía y Trato Social, Part 2 of 2",
-    "summary": "Explora las normas de cortesía, los piropos y las formas de trato en el mundo hispanohablante: cómo saludar, halagar, pedir favores y comportarse como invitado.",
+    "summary": "Aprende a responder con modestia a un cumplido (qué va), a suavizar peticiones (no sé si podrías, si no es mucha molestia) y a manejar las despedidas largas.",
     "duration": "9 min",
     "sections": [
       {
@@ -1893,7 +1895,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "right": "Reforzar una petición de antemano"
           }
         ],
-        "explanation": "Cada frase cumple una función social fija dentro del ritual de cortesía en el que se usa."
+        "explanation": "«¿Nos tuteamos?» propone pasar al tú; «Cualquier cosa me avisas» cierra la despedida dejando la puerta abierta; «No, no hace falta, solo tú» quita importancia a la oferta del invitado; «Te lo agradecería muchísimo» agradece por adelantado y refuerza la petición."
       },
       {
         "type": "word-order",

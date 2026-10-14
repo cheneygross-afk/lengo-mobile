@@ -496,7 +496,7 @@ export const ZH_STORIES: ZhStory[] = [
       },
       {
         zh: "不过 ， 让 他 感动 的 事 也 不 少 。 有 位 老奶奶 每 次 都 在 门口 放 一 瓶 水 ， 旁边 留 一 张 纸条 ： “ 小伙子 ， 辛苦 了 。 ” 虽然 老周 早就 不是 “ 小伙子 ” 了 ， 可 他 每 次 都 笑 得 很 开心 。",
-        pinyin: "bùguò ， ràng tā gǎndòng de shì yě bù shǎo 。 yǒu wèi lǎo_nǎinai měi cì dōu zài ménkǒu fàng yì píng shuǐ ， pángbiān liú yì zhāng zhǐtiáo ： “ xiǎohuǒzi ， xīnkǔ le 。 ” suīrán Lǎo_Zhōu zǎojiù bú_shì “ xiǎohuǒzi ” le ， kě tā měi cì dōu xiào de hěn kāixīn 。",
+        pinyin: "búguò ， ràng tā gǎndòng de shì yě bù shǎo 。 yǒu wèi lǎo_nǎinai měi cì dōu zài ménkǒu fàng yì píng shuǐ ， pángbiān liú yì zhāng zhǐtiáo ： “ xiǎohuǒzi ， xīnkǔ le 。 ” suīrán Lǎo_Zhōu zǎojiù bú_shì “ xiǎohuǒzi ” le ， kě tā měi cì dōu xiào de hěn kāixīn 。",
         en: "Still, plenty of things move him too. One old woman always leaves a bottle of water by her door, with a note next to it: \"Young man, thank you for your hard work.\" Lao Zhou stopped being a \"young man\" long ago, but it makes him smile every time.",
       },
       {

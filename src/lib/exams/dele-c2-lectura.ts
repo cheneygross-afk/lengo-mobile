@@ -44,7 +44,7 @@ export const DELE_C2_LECTURA: ExamPaper = {
         { n: 3, question: "", options: ["derogar", "rescindir", "desterrar"], answer: 2, explanation: "Desterrar es expulsar o eliminar por completo. Derogar se dice de una ley y rescindir, de un contrato." },
         { n: 4, question: "", options: ["eco", "cargo", "alarde"], answer: 0, explanation: "Hacerse eco de algo: recogerlo y difundirlo. Hacerse cargo es responsabilizarse, y hacer alarde, presumir." },
         { n: 5, question: "", options: ["concederse", "permitirse", "otorgarse"], answer: 1, explanation: "La locución fija es «permitirse el lujo de»." },
-        { n: 6, question: "", options: ["primera instancia", "toda instancia", "última instancia"], answer: 2, explanation: "«En última instancia» = en el fondo, al final. «En primera instancia» es un término procesal y «en toda instancia» no existe como locución." },
+        { n: 6, question: "", options: ["primera instancia", "toda instancia", "última instancia"], answer: 2, explanation: "«En última instancia» = en el fondo, al final. «En primera instancia» significa 'en un primer momento' (además de ser término procesal), lo contrario de la conclusión que pide el texto, y «en toda instancia» no existe como locución." },
       ],
     },
     {

@@ -1011,10 +1011,10 @@ export const ZH_GUIDES_B1: ZhGrammarGuide[] = [
       {
         heading: "不论…都: no matter",
         body: [
-          "不论 (bùlùn) + a question word, A 还是 B, or A-not-A, then 都 / 也 in the main clause. 无论 is more formal; 不管 is the everyday spoken form.",
+          "不论 (búlùn) + a question word, A 还是 B, or A-not-A, then 都 / 也 in the main clause. 无论 is more formal; 不管 is the everyday spoken form.",
         ],
         examples: [
-          { zh: "不论天气怎么样，他都去跑步。", pinyin: "Bùlùn tiānqì zěnmeyàng, tā dōu qù pǎo bù.", en: "Whatever the weather, he goes running." },
+          { zh: "不论天气怎么样，他都去跑步。", pinyin: "Búlùn tiānqì zěnmeyàng, tā dōu qù pǎo bù.", en: "Whatever the weather, he goes running." },
           { zh: "不管你去不去，我都去。", pinyin: "Bùguǎn nǐ qù bu qù, wǒ dōu qù.", en: "Whether you go or not, I'm going." },
         ],
       },
@@ -1035,7 +1035,7 @@ export const ZH_GUIDES_B1: ZhGrammarGuide[] = [
       {
         wrong: "不论天气怎么样，他去跑步。",
         right: "不论天气怎么样，他都去跑步。",
-        rightPinyin: "Bùlùn tiānqì zěnmeyàng, tā dōu qù pǎo bù.",
+        rightPinyin: "Búlùn tiānqì zěnmeyàng, tā dōu qù pǎo bù.",
         why: "不论 needs 都 (or 也) in the main clause.",
       },
     ],

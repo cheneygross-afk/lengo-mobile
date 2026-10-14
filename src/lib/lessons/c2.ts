@@ -153,7 +153,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "El aparato del proceso judicial y la resolución administrativa",
         "body": [
           "El vocabulario propio del proceso judicial distingue con cuidado los distintos papeles y momentos de un litigio: el demandante es quien inicia una acción legal contra otra persona, denominada demandado; la resolución que pone fin a un proceso ante un tribunal recibe el nombre de sentencia, y la parte de ella que contiene la decisión se denomina fallo. Cada uno de estos términos designa una realidad procesal precisa que no admite sinónimos intercambiables sin riesgo de imprecisión.",
-          "Fuera del ámbito estrictamente judicial, la administración pública emplea su propio vocabulario para sus actuaciones: una resolución administrativa resuelve un trámite iniciado por un particular, mientras que una notificación fehaciente certifica que dicha resolución ha llegado efectivamente a conocimiento del interesado. El plazo perentorio que suele acompañar estas notificaciones indica un límite temporal que, una vez vencido, extingue el derecho a actuar, salvo que se conceda una prórroga expresa."
+          "Fuera del ámbito estrictamente judicial, la administración pública emplea su propio vocabulario para sus actuaciones: una resolución administrativa resuelve un trámite iniciado por un particular, mientras que una notificación fehaciente certifica que dicha resolución ha llegado efectivamente a conocimiento del interesado. El plazo perentorio que suele acompañar estas notificaciones indica un límite temporal improrrogable que, una vez vencido, extingue el derecho a actuar."
         ],
         "examples": [
           {
@@ -319,15 +319,15 @@ const C2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué ocurre, según lo estudiado, cuando vence un plazo perentorio sin que se conceda una prórroga?",
+        "question": "¿Qué ocurre, según lo estudiado, cuando vence un plazo perentorio?",
         "options": [
           "El plazo se renueva automáticamente sin necesidad de ninguna solicitud.",
-          "El derecho a actuar se extingue, salvo que se conceda expresamente una prórroga.",
+          "El derecho a actuar se extingue, sin posibilidad de prórroga.",
           "El trámite queda suspendido de forma indefinida sin consecuencias legales.",
           "La resolución pierde toda validez legal de manera automática."
         ],
         "correctIndex": 1,
-        "explanation": "Un plazo perentorio indica un límite temporal que, una vez vencido, extingue el derecho a actuar, salvo que se conceda una prórroga expresa antes de su vencimiento. El plazo no se renueva solo, el trámite no queda suspendido sin consecuencias y lo que se pierde es el derecho a actuar, no la validez de la resolución."
+        "explanation": "Un plazo perentorio indica un límite temporal improrrogable que, una vez vencido, extingue el derecho a actuar. El plazo no se renueva solo, el trámite no queda suspendido sin consecuencias y lo que se pierde es el derecho a actuar, no la validez de la resolución."
       },
       {
         "type": "multi-select",
@@ -500,7 +500,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué permite, según el texto, la responsabilidad solidaria en un contrato?",
+            "question": "¿Qué permite, según lo estudiado, la responsabilidad solidaria en un contrato?",
             "options": [
               "Repartir obligatoriamente la obligación entre todos los obligados por partes iguales",
               "Exigir el cumplimiento íntegro de una obligación a cualquiera de los obligados",
@@ -642,7 +642,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Qué consecuencia tiene, según lo estudiado, el vencimiento de un plazo perentorio sin que se conceda una prórroga?",
+        "question": "¿Qué consecuencia tiene, según lo estudiado, el vencimiento de un plazo perentorio?",
         "options": [
           "El derecho a actuar se extingue",
           "El plazo se renueva automáticamente sin necesidad de solicitud",
@@ -650,7 +650,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "La resolución administrativa pierde toda validez legal"
         ],
         "correctIndex": 0,
-        "explanation": "Una vez vencido un plazo perentorio, el derecho a actuar se extingue, salvo que se conceda una prórroga expresa. El plazo no se renueva automáticamente, el trámite no queda suspendido sin más y la resolución no pierde su validez."
+        "explanation": "Una vez vencido un plazo perentorio, el derecho a actuar se extingue, porque ese plazo no admite prórroga. El plazo no se renueva automáticamente, el trámite no queda suspendido sin más y la resolución no pierde su validez."
       }
     ]
   },
@@ -2469,7 +2469,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "la pulla",
-            "en": "comentario irónico y punzante dicho con intención de burla suave"
+            "en": "comentario irónico y punzante con que se zahiere o se pica a alguien de forma indirecta"
           }
         ],
         "checkpoint": [
@@ -2825,7 +2825,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "la pulla",
-            "en": "comentario irónico y punzante dicho con intención de burla suave"
+            "en": "comentario irónico y punzante con que se zahiere o se pica a alguien de forma indirecta"
           },
           {
             "es": "la carcajada",
@@ -3374,13 +3374,13 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 27,
     "title": "Eufemismos y Lenguaje Indirecto, Part 1 of 3",
-    "summary": "Aprende cómo el eufemismo (y su contrario, el disfemismo) suaviza la muerte y el dinero: pasar a mejor vida, estar en números rojos, apretarse el cinturón.",
+    "summary": "Aprende cómo el eufemismo suaviza los temas de la muerte y el dinero (pasar a mejor vida, estar en números rojos, apretarse el cinturón) y en qué se diferencia de su contrario, el disfemismo.",
     "duration": "7 min",
     "sections": [
       {
         "heading": "La función social del eufemismo: proteger la imagen y evitar el conflicto",
         "body": [
-          "El eufemismo sustituye una expresión considerada demasiado directa, dura o de mal gusto por otra más suave, con el fin de proteger la imagen del hablante, del oyente o de un tercero, y de mantener la armonía social en situaciones delicadas. Su función no es engañar, sino suavizar el impacto emocional de ciertos temas sin renunciar a comunicarlos.",
+          "El eufemismo sustituye una expresión considerada demasiado directa, dura o de mal gusto por otra más suave, con el fin de proteger la imagen del hablante, del oyente o de un tercero, y de mantener la armonía social en situaciones delicadas. Su función principal no es engañar, sino suavizar el impacto emocional de ciertos temas sin renunciar a comunicarlos, aunque a veces se use para maquillar la realidad.",
           "El fenómeno opuesto es el disfemismo, una expresión deliberadamente cruda o despectiva que sustituye a un término neutro, empleada precisamente para provocar, distanciarse emocionalmente de algo o mostrar desprecio. Entender ambos extremos ayuda a calibrar el nivel de suavidad o dureza que un hablante elige de manera consciente al referirse a un tema sensible."
         ],
         "examples": [
@@ -3553,7 +3553,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "uso de muchas palabras para expresar algo que podría decirse de forma más directa"
           },
           {
-            "es": "hablar entre líneas",
+            "es": "decir algo entre líneas",
             "en": "comunicar un mensaje sin decirlo explícitamente, dejando que el interlocutor lo deduzca"
           },
           {
@@ -3769,7 +3769,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "evitar la palabra directa y precisa para referirse a algo incómodo"
           },
           {
-            "es": "hablar entre líneas",
+            "es": "decir algo entre líneas",
             "en": "comunicar un mensaje sin decirlo explícitamente, dejando que el interlocutor lo deduzca"
           },
           {
@@ -3914,6 +3914,10 @@ const C2_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la exclamación que expresa incredulidad ante algo difícil de aceptar como cierto.",
             "sentence": "¡___! Pensé que ese proyecto ya se había cancelado hace meses.",
             "answer": "no puede ser",
+            "altAnswers": [
+              "no me lo puedo creer",
+              "no me digas"
+            ],
             "explanation": "No puede ser expresa incredulidad ante un hecho que parece imposible, y encaja con la sorpresa al enterarse de que el proyecto seguía activo.",
             "hint": "Piensa en una expresión que niega la posibilidad de algo que acaba de escucharse."
           }
@@ -4283,7 +4287,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 32,
     "title": "Diminutivos, Aumentativos y su Valor Expresivo, Part 1 of 2",
-    "summary": "Reconoce el valor afectivo, irónico y despectivo del diminutivo, y el aumentativo que expresa torpeza o admiración (manazas, golazo, buenísimo).",
+    "summary": "Reconoce el valor afectivo, irónico y despectivo del diminutivo, y el aumentativo y el superlativo, que expresan torpeza, admiración o intensidad (manazas, golazo, buenísimo).",
     "duration": "10 min",
     "sections": [
       {
@@ -4735,7 +4739,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 34,
     "title": "Modismos del Mundo de los Negocios, Part 1 of 2",
-    "summary": "Un repertorio de modismos idiomáticos del español profesional para negociar, aprobar proyectos, asumir riesgos y gestionar momentos de crisis con la naturalidad de un hablante nativo del mundo empresarial.",
+    "summary": "Un repertorio de modismos del español profesional para negociar (poner las cartas sobre la mesa, ir al grano), aprobar y sacar adelante proyectos (dar el visto bueno, poner en marcha) y asumir riesgos (apostar fuerte, jugársela) con la naturalidad de un hablante nativo del mundo empresarial.",
     "duration": "10 min",
     "sections": [
       {
@@ -4815,6 +4819,11 @@ const C2_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa el modismo que indica la aprobación formal de algo antes de que continúe a la siguiente etapa.",
             "sentence": "La directora ya ___ para lanzar la nueva campaña la próxima semana.",
             "answer": "dio el visto bueno",
+            "altAnswers": [
+              "ha dado el visto bueno",
+              "dio luz verde",
+              "ha dado luz verde"
+            ],
             "explanation": "Dar el visto bueno significa aprobar formalmente algo antes de que avance a la siguiente etapa, en este caso el lanzamiento de la campaña.",
             "hint": "Piensa en la expresión que se usa cuando un superior aprueba oficialmente un plan."
           }
@@ -4885,6 +4894,9 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa el modismo que indica aprobar formalmente una propuesta.",
         "sentence": "Después de meses de reuniones, la dirección por fin decidió ___ al acuerdo con el proveedor.",
         "answer": "dar el visto bueno",
+        "altAnswers": [
+          "dar luz verde"
+        ],
         "explanation": "«Dar el visto bueno» significa aprobar algo de forma oficial, adecuado para el final de una larga negociación."
       },
       {
@@ -4909,7 +4921,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 35,
     "title": "Modismos del Mundo de los Negocios, Part 2 of 2",
-    "summary": "Un repertorio de modismos idiomáticos del español profesional para negociar, aprobar proyectos, asumir riesgos y gestionar momentos de crisis con la naturalidad de un hablante nativo del mundo empresarial.",
+    "summary": "Un repertorio de modismos del español profesional para gestionar crisis y cambios de rumbo (tirar de la manta, dar un giro de ciento ochenta grados, dar palos de ciego) y repasar el banco completo de modismos de negocios en un diálogo modelo.",
     "duration": "10 min",
     "sections": [
       {
@@ -5200,7 +5212,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "a pesar de",
-            "en": "un conector que anuncia una relación de contraste inminente"
+            "en": "un conector concesivo que anuncia un hecho contrario a lo esperado"
           }
         ]
       }
@@ -5311,12 +5323,12 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la frase sobre la lectura de textos densos.",
-        "sentence": "Un texto avanzado suele omitir los conectores explícitos y confiar en que el lector ___ por sí mismo la relación lógica entre las ideas.",
-        "answer": "reconstruya",
-        "altAnswers": ["deduzca", "infiera", "establezca"],
-        "explanation": "La prosa madura confía en la capacidad del lector de reconstruir las conexiones lógicas implícitas.",
-        "hint": "forma del subjuntivo de un verbo que significa recomponer algo"
+        "prompt": "Completa la frase sobre los cambios de registro.",
+        "sentence": "Un cambio brusco de registro suele servir para ___ cercanía, ironía o distancia.",
+        "answer": "marcar",
+        "altAnswers": ["transmitir", "expresar", "mostrar", "indicar", "señalar", "comunicar"],
+        "explanation": "El paso de un registro a otro dentro del mismo discurso no es casual: suele marcar cercanía (bajar el registro), ironía (citar con retintín) o distancia (pasar al usted).",
+        "hint": "infinitivo de un verbo que significa señalar o poner de manifiesto"
       }
     ]
   },
@@ -5466,23 +5478,23 @@ const C2_BASE_LESSONS: Lesson[] = [
         "instructions": "Relaciona cada término con su definición.",
         "pairs": [
           {
-            "left": "el subtexto",
-            "right": "el significado implícito que subyace bajo las palabras literales"
+            "left": "la sinalefa entre palabras",
+            "right": "la fusión fónica del final de una palabra con el inicio de la siguiente"
           },
           {
             "left": "la economía de conectores",
             "right": "el uso deliberadamente escaso de enlaces explícitos en la prosa madura"
           },
           {
-            "left": "la escucha activa",
-            "right": "la atención plena y consciente a lo que dice el interlocutor"
+            "left": "anclarse en las palabras clave",
+            "right": "concentrar la atención en los sustantivos y verbos de mayor peso semántico"
           },
           {
-            "left": "el sobreentendido",
-            "right": "la idea que se da por supuesta sin expresarla de forma directa"
+            "left": "dar por compartido un conocimiento",
+            "right": "asumir que el lector ya posee cierta información sin necesidad de explicarla"
           }
         ],
-        "explanation": "Estos cuatro conceptos describen cómo se construye y se percibe lo que un texto o un hablante no dice de forma explícita."
+        "explanation": "Estos cuatro conceptos resumen la lección: lo que la prosa madura no explicita (conectores, saber compartido) y cómo seguir el habla nativa rápida (sinalefa, palabras clave)."
       }
     ]
   },
@@ -5638,7 +5650,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "la carga semántica",
-            "en": "conjunto de significados y asociaciones que porta una palabra más allá de su definición literal"
+            "en": "el peso de significado que aporta una palabra al enunciado (mayor en sustantivos y verbos que en artículos o preposiciones)"
           },
           {
             "es": "la denotación",
@@ -6002,12 +6014,11 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa la fórmula de desacuerdo respetuoso.",
-        "sentence": "No comparto del todo esa ___, aunque entiendo de dónde parte.",
-        "answer": "lectura",
-        "altAnswers": ["opinión", "interpretación", "visión", "postura"],
-        "explanation": "«No comparto del todo esa lectura» es una fórmula que matiza un desacuerdo sin resultar hostil hacia el interlocutor.",
-        "hint": "sinónimo de interpretación"
+        "prompt": "Completa con el nombre de la falacia.",
+        "sentence": "Apelar al prestigio de alguien sin aportar pruebas es una falacia de ___.",
+        "answer": "autoridad",
+        "explanation": "La falacia de autoridad invoca el prestigio de alguien como si bastara para zanjar una cuestión, sin aportar evidencia empírica.",
+        "hint": "lo que tiene un experto reconocido"
       }
     ]
   },
@@ -6116,6 +6127,10 @@ const C2_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la fórmula de desacuerdo respetuoso.",
             "sentence": "___ tu argumento, pero creo que pasa por alto un factor decisivo.",
             "answer": "Entiendo",
+            "altAnswers": [
+              "Comprendo",
+              "Respeto"
+            ],
             "explanation": "La fórmula «entiendo tu argumento, pero...» reconoce la postura ajena antes de introducir el propio contraargumento, sin resultar hostil.",
             "hint": "verbo en primera persona que expresa comprensión"
           }
@@ -6254,7 +6269,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 51,
     "title": "El Debate y la Argumentación Persuasiva, Part 8 of 9",
-    "summary": "Vocabulario del debate y la persuasión: concesión, refutación, réplica y otros términos clave.",
+    "summary": "Vocabulario del debate y la persuasión: conceder, contrarrestar, desestimar, el sofisma, las premisas, la elocuencia y los nombres de las falacias.",
     "duration": "5 min",
     "sections": [
       {
@@ -6946,7 +6961,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 59,
     "title": "Presentaciones Orales y Negociación, Part 7 of 8",
-    "summary": "Vocabulario de las presentaciones y la negociación.",
+    "summary": "Aprende el léxico clave para estructurar una presentación (guion, hilo conductor, rematar la exposición) y para negociar (contraoferta, margen de maniobra, escollo, punto muerto, zanjar).",
     "duration": "5 min",
     "sections": [
       {
@@ -7634,7 +7649,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 67,
     "title": "Citas, Referencias y Estilo de Citación, Part 7 of 8",
-    "summary": "Vocabulario de las citas y referencias.",
+    "summary": "Aprende el léxico básico de la citación: tipos de cita (textual, indirecta), fuentes primarias y secundarias, fórmulas de atribución (según, de acuerdo con, como bien señala) y términos como glosar, remitir o integridad académica.",
     "duration": "5 min",
     "sections": [
       {
@@ -8100,13 +8115,13 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La anáfora y la reiteración interrogativa",
         "body": [
-          "Cuando una misma estructura de pregunta se repite al inicio de frases sucesivas, se produce una anáfora interrogativa que intensifica notablemente el efecto persuasivo del discurso. La reiteración interrogativa —«¿quién ha de responder por esto? ¿quién ha de asumir las consecuencias? ¿quién ha de rendir cuentas?»— construye un clímax discursivo que va acumulando tensión con cada nueva pregunta, hasta desembocar en la idea central que el orador quiere fijar en la memoria del público.",
+          "Cuando una misma estructura de pregunta se repite al inicio de frases sucesivas, se produce una anáfora interrogativa que intensifica notablemente el efecto persuasivo del discurso. La reiteración interrogativa —«¿Quién ha de responder por esto? ¿Quién ha de asumir las consecuencias? ¿Quién ha de rendir cuentas?»— construye un clímax discursivo que va acumulando tensión con cada nueva pregunta, hasta desembocar en la idea central que el orador quiere fijar en la memoria del público.",
           "Este recurso funciona especialmente bien en el cierre de un discurso o de un párrafo argumentativo, porque el ritmo acelerado de preguntas encadenadas transmite urgencia e indignación, dos emociones que refuerzan considerablemente la fuerza persuasiva del mensaje. La pregunta retórica encadenada exige, sin embargo, un control estricto del ritmo: demasiadas repeticiones diluyen el efecto en lugar de intensificarlo.",
           "El eco discursivo que genera la anáfora interrogativa también facilita la memorización del mensaje por parte del oyente, ya que la estructura repetida actúa como un patrón reconocible que el público retiene con más facilidad que una sucesión de ideas inconexas."
         ],
         "examples": [
           {
-            "es": "¿quién ha de responder? ¿quién ha de rendir cuentas?",
+            "es": "¿Quién ha de responder? ¿Quién ha de rendir cuentas?",
             "en": "una anáfora interrogativa que construye un clímax discursivo mediante la repetición"
           },
           {
@@ -8126,7 +8141,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la definición del recurso retórico.",
         "sentence": "La ___ interrogativa repite la misma estructura de pregunta al inicio de frases sucesivas.",
         "answer": "anáfora",
-        "explanation": "La anáfora interrogativa encadena preguntas que empiezan igual («¿quién ha de…? ¿quién ha de…?») y construye un clímax que intensifica el efecto persuasivo.",
+        "explanation": "La anáfora interrogativa encadena preguntas que empiezan igual («¿Quién ha de…? ¿Quién ha de…?») y construye un clímax que intensifica el efecto persuasivo.",
         "hint": "figura de repetición al inicio de frase"
       }
     ]
@@ -8298,7 +8313,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 74,
     "title": "Preguntas Retóricas y Estructuras de Énfasis, Part 6 of 7",
-    "summary": "Vocabulario de las preguntas retóricas.",
+    "summary": "Aprende los términos para analizar el énfasis interrogativo: pregunta retórica y capciosa, hipófora, interpelación, duda retórica, pregunta ecoica, reiteración interrogativa y clímax discursivo.",
     "duration": "7 min",
     "sections": [
       {
@@ -8731,7 +8746,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "un resultado cuantificable",
-            "en": "un desenlace medible que demuestra de forma objetiva el desempeño destacado del candidato"
+            "en": "un desenlace medible que demuestra de forma objetiva el desempeño del candidato"
           },
           {
             "es": "preparar varios relatos de antemano",
@@ -8785,7 +8800,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "Cerrar la entrevista: preguntas propias y pretensión salarial",
         "body": [
           "El cierre de la entrevista suele incluir un momento en que el propio candidato puede formular preguntas, y desaprovechar esa oportunidad transmite una falta de interés genuino por el puesto. Preguntar por el margen de crecimiento dentro de la empresa, por la formación continua que ofrece la organización o por el ambiente laboral del equipo demuestra una motivación intrínseca que va más allá del mero interés económico.",
-          "La pregunta sobre la pretensión salarial exige una respuesta preparada de antemano, basada en una investigación previa sobre el rango habitual para ese puesto y ese sector. Responder con una cifra excesivamente vaga —«lo que ustedes consideren justo»— transmite inseguridad, mientras que una cifra bien fundamentada, acompañada de cierta flexibilidad, refleja profesionalidad y capacidad de negociación.",
+          "La pregunta sobre la pretensión salarial exige una respuesta preparada de antemano, basada en una investigación previa sobre el rango habitual para ese puesto y ese sector. Responder de forma excesivamente vaga —«lo que ustedes consideren justo»— transmite inseguridad, mientras que una cifra bien fundamentada, acompañada de cierta flexibilidad, refleja profesionalidad y capacidad de negociación.",
           "Es recomendable cerrar la conversación reiterando brevemente el propio compromiso laboral y el valor añadido que se aportaría al equipo, sin extenderse demasiado, ya que un cierre conciso y seguro deja una impresión final mucho más sólida que una despedida titubeante o excesivamente prolongada."
         ],
         "examples": [
@@ -8837,19 +8852,20 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración sobre el punto de mejora.",
+        "prompt": "Ordena las palabras para formar una oración sobre la pretensión salarial.",
         "words": [
-          "Reconocer",
-          "un",
-          "punto",
-          "de",
-          "mejora",
-          "exige",
-          "honestidad",
-          "estratégica"
+          "Una",
+          "cifra",
+          "bien",
+          "fundamentada,",
+          "con",
+          "cierta",
+          "flexibilidad,",
+          "refleja",
+          "profesionalidad"
         ],
-        "translation": "Acknowledging an area for improvement requires strategic honesty.",
-        "explanation": "El sujeto (Reconocer un punto de mejora) precede al verbo (exige) y a su complemento directo."
+        "translation": "A well-founded figure, with some flexibility, reflects professionalism.",
+        "explanation": "El sujeto (Una cifra bien fundamentada) va delante del verbo (refleja); el inciso «con cierta flexibilidad» va entre comas."
       }
     ]
   },
@@ -8907,7 +8923,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 81,
     "title": "Español para Entrevistas de Trabajo, Part 6 of 7",
-    "summary": "Vocabulario de las entrevistas de trabajo.",
+    "summary": "Aprende el vocabulario clave para hablar en una entrevista de tus fortalezas, puntos de mejora, trayectoria y condiciones (disponibilidad, pretensión salarial).",
     "duration": "7 min",
     "sections": [
       {
@@ -9011,7 +9027,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 82,
     "title": "Español para Entrevistas de Trabajo, Part 7 of 7",
-    "summary": "Más vocabulario de la entrevista de trabajo.",
+    "summary": "Amplía el vocabulario de la entrevista: cualidades del candidato (proactividad, iniciativa), su recorrido (trayectoria, formación continua) y el formato (entrevista por competencias).",
     "duration": "4 min",
     "sections": [
       {
@@ -9159,7 +9175,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Sé trabajar bajo presión.",
           "Trabajo bien bajo presión"
         ],
-        "explanation": "Afrontar la presión: mantener un buen desempeño en circunstancias exigentes."
+        "explanation": "«Trabajar / rendir bien bajo presión»: «bajo presión» es la colocación fija (no «en presión»); en la lección, esta cualidad se llama «afrontar la presión»: mantener un buen desempeño en circunstancias exigentes."
       }
     ]
   },
@@ -9417,21 +9433,22 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración sobre la mediación.",
+        "prompt": "Ordena las palabras para formar una oración sobre la disculpa.",
         "words": [
-          "Reconocer",
-          "la",
-          "perspectiva",
-          "ajena",
+          "Una",
+          "disculpa",
+          "sincera",
           "no",
-          "exige",
-          "renunciar",
+          "traslada",
+          "la",
+          "culpa",
           "a",
           "la",
-          "propia"
+          "otra",
+          "parte"
         ],
-        "translation": "Acknowledging the other person's perspective does not require giving up your own.",
-        "explanation": "El sujeto (Reconocer la perspectiva ajena) precede a la negación (no) y al verbo (exige) con su complemento."
+        "translation": "A sincere apology does not shift the blame onto the other person.",
+        "explanation": "El sujeto (Una disculpa sincera) precede a la negación (no) y al verbo (traslada); «trasladar la culpa a» alguien."
       }
     ]
   },
@@ -9939,7 +9956,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "El pretérito anterior: un tiempo para reconocer",
         "body": [
           "El pretérito anterior («hubo terminado», «hubieron llegado») expresa una acción inmediatamente anterior a otra pasada. Aparece casi siempre tras conectores temporales de anterioridad inmediata: «cuando», «apenas», «no bien», «tan pronto como», «así que», «luego que», «una vez que», «después (de) que»: «Apenas hubo firmado el tratado, se retiró a su finca».",
-          "Hoy es casi exclusivo de la lengua literaria y de la historiografía de estilo clásico. En el habla y en la prosa actual se sustituye por el indefinido («Apenas firmó el tratado…»), por el pluscuamperfecto («Apenas había firmado…», que marca anterioridad sin inmediatez) o por construcciones como «nada más firmar» o «una vez firmado». Un hablante C2 debe reconocerlo, no necesariamente usarlo."
+          "Hoy es casi exclusivo de la lengua literaria y de la historiografía de estilo clásico. En el habla y en la prosa actual se sustituye por el indefinido («Apenas firmó el tratado…»), por el pluscuamperfecto («Apenas había firmado…», donde la inmediatez la aporta el conector «apenas») o por construcciones como «nada más firmar» o «una vez firmado». Un hablante C2 debe reconocerlo, no necesariamente usarlo."
         ],
         "examples": [
           {
@@ -9974,7 +9991,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "Pluscuamperfecto: la anterioridad que no es inmediata",
         "body": [
           "El pluscuamperfecto («había firmado») sitúa un hecho antes de otro pasado, sin exigir inmediatez y sin necesidad de conector: «Cuando llegaron los refuerzos, la ciudad ya se había rendido». Es el tiempo del antecedente, de la explicación retrospectiva: «El rey, que había jurado la Constitución, la derogó en 1814».",
-          "Diferencia: «Apenas hubo firmado, se retiró» = se retiró justo después; «Cuando se retiró, ya había firmado» = firmó en algún momento anterior. Y el pluscuamperfecto no se usa tras «apenas» con la misma fuerza de inmediatez que el pretérito anterior, aunque hoy es frecuente: «Apenas había firmado cuando…»."
+          "Diferencia: «Apenas hubo firmado, se retiró» = se retiró justo después; «Cuando se retiró, ya había firmado» = firmó en algún momento anterior. Tras «apenas», el pluscuamperfecto es hoy la opción habitual y conserva la inmediatez gracias al conector: «Apenas había firmado cuando…»."
         ],
         "examples": [
           {
@@ -11423,7 +11440,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "fill-blank",
-            "prompt": "Completa con el término que designa la incapacidad de otros equipos de obtener el mismo resultado.",
+            "prompt": "Completa con el término que designa la capacidad de otros equipos de obtener de nuevo el mismo resultado.",
             "sentence": "La llamada crisis de ___ ha obligado a muchas disciplinas a revisar sus estándares de publicación.",
             "answer": "reproducibilidad",
             "explanation": "El texto menciona explícitamente la crisis de reproducibilidad como un problema que afecta a numerosas disciplinas científicas.",
@@ -12562,21 +12579,19 @@ const C2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración sobre la ética.",
+        "prompt": "Ordena las palabras para formar una oración sobre la validez lógica.",
         "words": [
-          "La",
-          "ética",
-          "examina",
-          "críticamente",
-          "los",
-          "fundamentos",
+          "Un",
+          "argumento",
+          "válido",
+          "puede",
+          "partir",
           "de",
-          "las",
-          "normas",
-          "morales."
+          "premisas",
+          "falsas."
         ],
-        "translation": "Ethics critically examines the foundations of moral norms.",
-        "explanation": "La oración resume la distinción entre la moral, como conjunto de costumbres vigentes, y la ética, como reflexión crítica sobre ellas."
+        "translation": "A valid argument can start from false premises.",
+        "explanation": "La validez concierne a la forma del razonamiento, no a la verdad de las premisas; el sujeto (Un argumento válido) va delante de «puede partir de»."
       }
     ]
   },
@@ -13579,7 +13594,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "el libreto",
-            "en": "texto escrito que sirve de base para una obra teatral, cinematográfica o televisiva"
+            "en": "texto de una ópera, una zarzuela o un musical; en América, también el guion de cine, radio o televisión"
           },
           {
             "es": "el montaje",
@@ -14463,7 +14478,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "En la práctica",
         "body": [
-          "Editora: Tu primer borrador tiene una prosa cuidada, pero el clímax se siente desconectado del resto. ¿Qué tensión narrativa lo prepara?",
+          "Editora: Tu primer borrador tiene una prosa cuidada, pero el clímax parece desconectado del resto. ¿Qué tensión narrativa lo prepara?",
           "Escritor: Sinceramente, ninguna todavía. Lo escribí primero y pensaba sembrar la prefiguración necesaria después.",
           "Editora: Ese orden puede funcionar, pero revisa cada escena anterior para plantar al menos un indicio que, en retrospectiva, justifique ese giro.",
           "Escritor: ¿Y qué opinas de la voz narrativa? Dudo entre un narrador confiable y uno más ambiguo.",
@@ -14664,7 +14679,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "Locuciones adverbiales de uso culto",
         "body": [
           "En el nivel Profesional y Académico no basta con reconocer una locución: hay que saber su matiz exacto. «A regañadientes» es hacer algo de mala gana pero hacerlo; «a pie juntillas» es creer algo sin la menor duda (casi siempre con «creer» o «seguir»); «a bote pronto» es responder sin haberlo pensado; «a troche y moche» es repartir algo sin orden ni medida; «de buenas a primeras» es de repente, sin aviso; «a ojo de buen cubero» es calcular a ojo, sin medir.",
-          "Todas se entienden en todo el mundo hispano, aunque «a bote pronto» y «a troche y moche» son sobre todo peninsulares, y aparecen tanto en la conversación como en la prensa. Son fijas: no se dice «a pie junto» ni «a regañadiente»."
+          "Todas las conoce un hablante culto de España, pero «a bote pronto», «a troche y moche» y «a ojo de buen cubero» son sobre todo peninsulares y en América pueden no entenderse; aparecen tanto en la conversación como en la prensa. Son fijas: no se dice «a pie junto» ni «a regañadiente»."
         ],
         "examples": [
           {
@@ -14919,7 +14934,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Variantes del mismo modismo",
         "body": [
-          "A veces el modismo es el mismo con una pieza cambiada: «buscarle tres pies al gato» (general) y «buscarle la quinta pata al gato» (Río de la Plata, también en otras zonas de América) = complicar algo innecesariamente o buscar problemas donde no los hay. «A caballo regalado no le mires el diente» se oye en México como «…no se le ve colmillo». «Tirar la toalla» es general; en México también se dice «pedir cacao» (rendirse).",
+          "A veces el modismo es el mismo con una pieza cambiada: «buscarle tres pies al gato» (general) y «buscarle la quinta pata al gato» (Río de la Plata, también en otras zonas de América) = complicar algo innecesariamente o buscar problemas donde no los hay. «A caballo regalado no le mires el diente» se oye en México como «A caballo dado no se le ve colmillo» (en otras zonas de América, «…no se le mira el colmillo»). «Tirar la toalla» es general; en México también se dice «pedir cacao» (rendirse).",
           "Hay modismos claramente peninsulares que en América pueden no entenderse: «echar balones fuera» (eludir una responsabilidad), «tirar de la manta» (destapar un asunto turbio), «estar en la luna de Valencia» (estar distraído), «tener enchufe» (en gran parte de América: «tener palanca»).",
           "Y otros claramente americanos: «dar papaya» (Colombia: dar facilidades para que te engañen o te roben), «dar el avión» (México: fingir que se escucha o se está de acuerdo), «ponerse la camiseta» (Río de la Plata, Chile: comprometerse con un grupo o empresa)."
         ],
@@ -17029,7 +17044,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "pairs": [
           {
             "left": "crecimiento negativo",
-            "right": "recesión"
+            "right": "contracción de la economía"
           },
           {
             "left": "ajuste de plantilla",
@@ -17561,7 +17576,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "«El hecho de que el ministro no ___ comparecido no significa que oculte algo.»",
+        "question": "«El hecho de que el ministro no ___ comparecido no significa que oculte algo.» (valoras un hecho que todos conocen)",
         "options": [
           "haya",
           "ha",
@@ -18138,7 +18153,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "type": "multiple-choice",
             "question": "Versión nominal de informe para «Vendimos menos porque subieron los precios»:",
             "options": [
-              "La reducción de las ventas obedeció al encarecimiento de los precios.",
+              "La reducción de las ventas obedeció al encarecimiento de los productos.",
               "Vendimos menos porque los precios subieron.",
               "Como subieron los precios, las ventas bajaron un poco.",
               "Hubo menos ventas por lo de los precios."
@@ -18369,7 +18384,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Varios diputados formularon preguntas por escrito.",
-            "en": "Several MPs put written questions."
+            "en": "Several MPs tabled written questions."
           },
           {
             "es": "Nunca llegó a ejercer la abogacía.",
@@ -18476,7 +18491,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "sentence": "Varios diputados ___ preguntas por escrito.",
         "answer": "formularon",
         "explanation": "«formular»: expresar con precisión una pregunta, una queja, una teoría o una objeción.",
-        "en": "Several MPs [put] written questions.",
+        "en": "Several MPs [tabled] written questions.",
         "altAnswers": [
           "plantearon"
         ]
@@ -20523,12 +20538,12 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "Verbos engañosos",
         "body": [
           "El sentido inglés se ha colado en el uso, pero en registro cuidado conviene respetar el sentido español.",
-          "«ignorar»: no saber algo (no «no hacer caso», que es «hacer caso omiso de»).",
+          "«ignorar»: no saber algo (el sentido de «no hacer caso» ya está admitido, pero en registro cuidado se prefiere «hacer caso omiso de»).",
           "«asumir»: aceptar una responsabilidad o un cargo (no «suponer», to assume).",
           "«realizar»: hacer, efectuar (no «darse cuenta», to realize).",
           "«soportar»: aguantar algo molesto (no «apoyar», to support).",
           "«aplicar»: poner algo en práctica o sobre algo (para un puesto se dice «solicitar» o «postularse»).",
-          "«evidencia»: certeza clara y manifiesta (para el sentido judicial del inglés «evidence» se dice «prueba»).",
+          "«evidencia»: certeza clara y manifiesta (en sentido judicial el DLE ya admite «evidencia», pero lo habitual sigue siendo «prueba»).",
           "«argumento»: razonamiento, o trama de una obra (una pelea es «discusión»)."
         ],
         "examples": [
@@ -20568,7 +20583,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "pairs": [
               {
                 "left": "ignorar",
-                "right": "no saber algo (no «no hacer caso», que es «hacer caso omiso de»)"
+                "right": "no saber algo (para «no hacer caso», mejor «hacer caso omiso de»)"
               },
               {
                 "left": "asumir",
@@ -20667,7 +20682,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "aplicar"
         ],
         "correctIndex": 3,
-        "explanation": "«aplicar» significa poner algo en práctica o sobre algo (para un puesto se dice «solicitar» o «postularse»). En cambio, «evidencia» significa certeza clara y manifiesta (para el sentido judicial del inglés «evidence» se dice «prueba»); «injuria» significa agravio u ofensa grave de palabra (una lesión física es «lesión»); «asumir» significa aceptar una responsabilidad o un cargo (no «suponer», to assume)."
+        "explanation": "«aplicar» significa poner algo en práctica o sobre algo (para un puesto se dice «solicitar» o «postularse»). En cambio, «evidencia» significa certeza clara y manifiesta (en sentido judicial el DLE ya admite «evidencia», pero lo habitual sigue siendo «prueba»); «injuria» significa agravio u ofensa grave de palabra (una lesión física es «lesión»); «asumir» significa aceptar una responsabilidad o un cargo (no «suponer», to assume)."
       },
       {
         "type": "multiple-choice",
@@ -20694,7 +20709,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con la palabra adecuada.",
         "sentence": "La fiscalía no presentó ___ suficientes.",
         "answer": "pruebas",
-        "explanation": "«evidencia»: certeza clara y manifiesta (para el sentido judicial del inglés «evidence» se dice «prueba»).",
+        "explanation": "«evidencia»: certeza clara y manifiesta (en sentido judicial el DLE ya admite «evidencia», pero lo habitual sigue siendo «prueba»).",
         "en": "The prosecution did not present sufficient [evidence].",
         "altAnswers": [
           "indicios"
@@ -20777,7 +20792,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "terminado."
         ],
         "translation": "I didn't know that the deadline had passed.",
-        "explanation": "«ignorar»: no saber algo (no «no hacer caso», que es «hacer caso omiso de»)."
+        "explanation": "«ignorar»: no saber algo (el sentido de «no hacer caso» ya está admitido, pero en registro cuidado se prefiere «hacer caso omiso de»)."
       }
     ]
   },
@@ -20937,7 +20952,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "rudo"
         ],
         "correctIndex": 2,
-        "explanation": "«casual» significa fortuito, que ocurre por azar (la ropa informal es «ropa informal»). En cambio, «rudo» significa tosco, áspero, sin pulir (el maleducado es «grosero»); «jugar un rol» significa calco de «to play a role»; en registro cuidado, «desempeñar un papel»; «suceso» significa acontecimiento, sobre todo desgraciado (el logro es «éxito»)."
+        "explanation": "«casual» significa fortuito, que ocurre por azar (la ropa informal es «ropa informal»). En cambio, «rudo» significa tosco, áspero, sin pulir (el maleducado es «grosero»); «jugar un rol» es un calco de «to play a role»; en registro cuidado, «desempeñar un papel»; «suceso» significa acontecimiento, sobre todo desgraciado (el logro es «éxito»)."
       },
       {
         "type": "multiple-choice",
@@ -20949,7 +20964,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "a nivel de"
         ],
         "correctIndex": 3,
-        "explanation": "«a nivel de» significa calco que solo es correcto con altura o jerarquía; en los demás casos, «en cuanto a», «en el ámbito de». En cambio, «recordar» significa traer a la memoria (registrar sonido o imagen es «grabar»); «introducir» significa meter algo dentro o empezar a usarlo (a una persona se la «presenta»); «desgracia» significa suceso adverso, infortunio (la deshonra es «deshonra»)."
+        "explanation": "«a nivel de» es un calco que solo es correcto con altura o jerarquía; en los demás casos, «en cuanto a», «en el ámbito de». En cambio, «recordar» significa traer a la memoria (registrar sonido o imagen es «grabar»); «introducir» significa meter algo dentro o empezar a usarlo (a una persona se la «presenta»); «desgracia» significa suceso adverso, infortunio (la deshonra es «deshonra»)."
       },
       {
         "type": "fill-blank",
@@ -21136,7 +21151,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Latinismos adaptados y de uso frecuente",
         "body": [
-          "Algunos se han adaptado a la ortografía española y ya llevan tilde o plural español.",
+          "Algunos se han adaptado a la ortografía española («cuórum»); otros, como «motu proprio», «per capita», «a priori» o «modus operandi», siguen siendo locuciones latinas y se escriben sin tilde.",
           "«motu proprio»: por propia iniciativa (no «de motu propio»).",
           "«lapsus»: error involuntario al hablar o escribir.",
           "«cuórum»: número mínimo de miembros presentes para que una votación sea válida (forma adaptada de «quorum»).",
@@ -21885,7 +21900,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 155,
     "title": "Vocabulario C2: colocaciones verbo + sustantivo, Part 14 of 30",
-    "summary": "Albergar esperanzas, abrigar dudas, cosechar éxitos, sembrar la discordia, zanjar una polémica, acatar una orden, entablar conversación, conciliar el sueño, aunar esfuerzos: el verbo que un nativo elige sin pensar.",
+    "summary": "Albergar esperanzas, abrigar dudas, cosechar éxitos, sembrar la discordia, tender una trampa, acatar una orden, entablar conversación, conciliar el sueño, aunar esfuerzos: el verbo que un nativo elige sin pensar.",
     "duration": "10 min",
     "sections": [
       {
@@ -22161,7 +22176,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 156,
     "title": "Vocabulario C2: adjetivos que intensifican, Part 15 of 30",
-    "summary": "Error garrafal, ignorancia supina, silencio sepulcral, pobreza de solemnidad, fe ciega, odio visceral, crítica demoledora, empeño denodado: las colocaciones intensivas que suenan nativas.",
+    "summary": "Error garrafal, ignorancia supina, silencio sepulcral, pobre de solemnidad, fe ciega, odio visceral, crítica demoledora, empeño denodado: las colocaciones intensivas que suenan nativas.",
     "duration": "10 min",
     "sections": [
       {
@@ -23661,10 +23676,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "sentence": "Dejó un ___ a la biblioteca municipal.",
         "answer": "legado",
         "explanation": "«el legado»: bien concreto que el testador deja a alguien en su testamento.",
-        "en": "She left a [bequest] to the town library.",
-        "altAnswers": [
-          "donativo"
-        ]
+        "en": "She left a [bequest] to the town library."
       },
       {
         "type": "fill-blank",
@@ -25218,7 +25230,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Cerciórese de que la puerta queda cerrada.",
-            "en": "Make sure the door is locked."
+            "en": "Make sure the door is shut."
           },
           {
             "es": "La empresa se desentendió de los trabajadores afectados.",
@@ -25899,7 +25911,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "sentence": "Bruselas da un ___ de orejas a Madrid por el déficit.",
         "answer": "tirón",
         "explanation": "«el tirón de orejas»: reprimenda o advertencia.",
-        "en": "Brussels gives Madrid a [slap on the wrist] over the deficit."
+        "en": "Brussels gives Madrid a slap on the wrist (literally, a [tug] of the ears) over the deficit."
       },
       {
         "type": "fill-blank",
@@ -26840,7 +26852,6 @@ const C2_BASE_LESSONS: Lesson[] = [
         "answer": "Estimado señor",
         "altAnswers": [
           "Estimada señora",
-          "Estimados señores",
           "Distinguido señor",
           "Distinguida señora",
           "Muy señor mío",
@@ -27032,7 +27043,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué modismo de negocios significa hablar directamente sin rodeos?",
+        "question": "¿Qué modismo de negocios significa centrarse en lo esencial sin perder tiempo en preámbulos?",
         "options": [
           "ir al grano",
           "dar el visto bueno",

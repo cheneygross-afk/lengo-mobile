@@ -36,8 +36,8 @@ export const CAN_DO_STATEMENTS: Record<SpanishLevelPath, CanDoStatement[]> = {
     },
     {
       skill: "conversation",
-      en: "Order food and drink, ask for prices and quantities, and handle numbers, times and dates.",
-      es: "Pedir comida y bebida, preguntar precios y cantidades, y manejar números, horas y fechas.",
+      en: "Ask for prices and quantities, and handle numbers, times and dates.",
+      es: "Preguntar precios y cantidades, y manejar números, horas y fechas.",
     },
     {
       skill: "listening",
@@ -68,13 +68,13 @@ export const CAN_DO_STATEMENTS: Record<SpanishLevelPath, CanDoStatement[]> = {
     },
     {
       skill: "conversation",
-      en: "Get by in everyday transactions: shopping, transport, the doctor's, the bank and booking a room.",
-      es: "Desenvolverte en gestiones cotidianas: compras, transporte, el médico, el banco y reservar una habitación.",
+      en: "Get by in everyday transactions: shopping, transport, the doctor's, the post office and booking a room.",
+      es: "Desenvolverte en gestiones cotidianas: compras, transporte, el médico, correos y reservar una habitación.",
     },
     {
       skill: "conversation",
       en: "Make, accept and turn down invitations, and arrange when and where to meet.",
-      es: "Hacer, aceptar y rechazar invitaciones, y quedar en cuándo y dónde veros.",
+      es: "Hacer, aceptar y rechazar invitaciones, y quedar: decidir cuándo y dónde veros.",
     },
     {
       skill: "listening",

@@ -42,7 +42,7 @@ export const A2_GUIDES: GrammarGuide[] = [
       {
         heading: "When there is no personal a",
         body: [
-          "Leave it out when the person is unspecified or hypothetical (often after buscar or necesitar with un/una), and usually after tener and hay, even with people (though tener takes a with a specific person: Tengo a mi madre en el hospital).",
+          "Leave it out when the person is unspecified or hypothetical (often after buscar or necesitar with un/una), after hay (always), and usually after tener, even with people (though tener takes a with a specific person: Tengo a mi madre en el hospital).",
           "Don't confuse it with the a of direction (Voy a Madrid) or with the a before an indirect object (Le doy el libro a Ana), which is always there.",
         ],
         examples: [
@@ -508,7 +508,7 @@ export const A2_GUIDES: GrammarGuide[] = [
       {
         heading: "Before or after the verb",
         body: [
-          "A negative word can go before the verb, with no \"no\", or after it, with \"no\" before the verb. Both are correct; the second is more common in speech.",
+          "A negative word can go before the verb, with no \"no\", or after it, with \"no\" before the verb. Both are correct and both are common; putting the negative word first is a little more emphatic.",
         ],
         examples: [
           { es: "Nadie vino. / No vino nadie.", en: "Nobody came." },
@@ -650,7 +650,7 @@ export const A2_GUIDES: GrammarGuide[] = [
     readingLevelPath: "a2",
     intro: [
       "Spanish accent marks aren't decoration. The written accent (la tilde) tells you which syllable is stressed when the word breaks the default pattern, and it tells apart pairs like tú (you) and tu (your).",
-      "The rules are completely regular. Once you know where a word is stressed, you can always tell whether it needs an accent.",
+      "The rules are very regular. Once you know where a word is stressed, you can almost always tell whether it needs an accent; the exceptions are a short list of diacritic pairs like tú/tu.",
     ],
     sections: [
       {

@@ -359,7 +359,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         [0, 1, 2],
         "Aparecen el «se» impersonal, el participio absoluto y el subjuntivo en fórmula fija. No hay voseo, impropio del estilo administrativo."
       ),
-      wo("Transcurrido dicho plazo, se le tendrá por desistido de su solicitud.", "Participio absoluto + fórmula.", "Once this period has elapsed, you will be deemed to have withdrawn your application."),
+      wo("Transcurrido dicho plazo, se le tendrá por desistido de su solicitud.", "«Transcurrido dicho plazo» es un participio absoluto (= cuando haya transcurrido) y «se le tendrá por desistido» es la fórmula administrativa de «you will be deemed to have withdrawn».", "Once this period has elapsed, you will be deemed to have withdrawn your application."),
     ]
   ),
   L(
@@ -423,7 +423,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "La gramática del texto legal",
-        "Participio absoluto: «Leída la presente, la firman…». Futuro deóntico (= deberá): «El arrendatario abonará…». Subjuntivo en condiciones hipotéticas: «En caso de que alguna de las partes incumpliere/incumpla…» (el futuro de subjuntivo —incumpliere— sobrevive solo en textos jurídicos). Se impersonal: «Se hace constar que…».",
+        "Participio absoluto: «Leída la presente, la firman…». Futuro deóntico (= deberá): «El arrendatario abonará…». Subjuntivo en condiciones hipotéticas: «En caso de que alguna de las partes incumpliere/incumpla…» (el futuro de subjuntivo —incumpliere— sobrevive casi solo en textos jurídicos y en fórmulas fijas como «sea como fuere»). Se impersonal: «Se hace constar que…».",
         [
           ["Leído el presente documento, las partes lo firman.", "Having read this document, the parties sign it."],
           ["En caso de que el comprador no abone el precio…", "Should the buyer fail to pay the price…"],
@@ -550,7 +550,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Estructura de la anamnesis."
       ),
       toEs("I'm allergic to penicillin and I take medication for blood pressure.", "Soy alérgico a la penicilina y tomo medicación para la tensión.", "«Ser alérgico a» + sustancia; «la tensión» es la forma habitual de España para la presión arterial.", ["Soy alérgica a la penicilina y tomo medicación para la tensión.", "Soy alérgico a la penicilina y tomo medicación para la presión arterial.", "Soy alérgico a la penicilina y tomo pastillas para la tensión."]),
-      wo("¿Desde cuándo tiene usted estas molestias?", "Pregunta clínica.", "How long have you had this discomfort?"),
+      wo("¿Desde cuándo tiene usted estas molestias?", "«¿Desde cuándo + presente?» pregunta por algo que empezó y continúa (en inglés, «have you had»); el médico trata al paciente de usted.", "How long have you had this discomfort?"),
     ]
   ),
   L(
@@ -696,7 +696,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "El seguimiento lo hará Cardiología dentro de un mes. No lo hará Urgencias al día siguiente, ni el médico de familia en un año, y sí hay seguimiento."
       ),
-      wo("Se recomienda control por su médico de familia en quince días.", "Recomendación del informe.", "Follow-up with the family doctor in two weeks is recommended."),
+      wo("Se recomienda control por su médico de familia en quince días.", "Fórmula típica de las recomendaciones de un informe: «se recomienda» (se impersonal) + «control por» + profesional + plazo («en quince días»).", "Follow-up with the family doctor in two weeks is recommended."),
     ]
   ),
   L(
@@ -708,7 +708,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "La comunicación compasiva",
-        "Preparar: «Me gustaría hablar con usted de los resultados». Atenuar: «Los resultados no son todo lo buenos que esperábamos». Explicar sin tecnicismos. Abrir espacio: «¿Quiere que le explique algo más?». Subjuntivo de deseo y apoyo: «Es normal que se sienta así», «Haremos todo lo posible para que esté cómodo».",
+        "Preparar: «Me gustaría hablar con usted de los resultados». Atenuar: «Los resultados no son todo lo buenos que esperábamos». Explicar sin tecnicismos. Abrir espacio: «¿Quiere que le explique algo más?». Subjuntivo de valoración y finalidad: «Es normal que se sienta así», «Haremos todo lo posible para que esté cómodo».",
         [
           ["Es normal que tenga miedo.", "It's normal for you to be afraid."],
           ["Los resultados no son todo lo buenos que esperábamos.", "The results are not as good as we had hoped."],
@@ -740,7 +740,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "«Querer que» con sujetos distintos exige subjuntivo: «que se lo expliquemos». «Explicamos» y «explicaremos» son indicativo, y el infinitivo no va tras «que»."
       ),
       toEs("It's normal for you to feel overwhelmed.", "Es normal que se sienta abrumado.", "«Es normal que» valora un hecho y exige subjuntivo: «que se sienta».", ["Es normal que se sienta abrumada.", "Es normal que te sientas abrumado."]),
-      wo("Vamos a hacer todo lo posible para que se encuentre bien.", "Para que + subjuntivo.", "We're going to do everything we can so that you feel well."),
+      wo("Vamos a hacer todo lo posible para que se encuentre bien.", "«Para que» con sujeto distinto (nosotros hacemos / usted se encuentra) exige subjuntivo: «se encuentre».", "We're going to do everything we can so that you feel well."),
     ]
   ),
   L(
@@ -832,7 +832,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "«Poner los puntos sobre las íes», «en tela de juicio» y «a grandes rasgos» son aptos para el registro formal. «Ponerse las botas» (darse un atracón o aprovecharse) es coloquial."
       ),
       toEs("His version was called into question.", "Su versión fue puesta en tela de juicio.", "«Poner en tela de juicio» traduce «call into question»; en pasiva, «fue puesta en tela de juicio».", ["Su versión se puso en tela de juicio.", "Pusieron en tela de juicio su versión."]),
-      wo("Antes de seguir, conviene poner los puntos sobre las íes.", "Modismo culto.", "Before going on, we should make things perfectly clear."),
+      wo("Antes de seguir, conviene poner los puntos sobre las íes.", "«Poner los puntos sobre las íes» (aclarar algo sin ambigüedad) es apto incluso en registro formal; «conviene + infinitivo» expresa la recomendación.", "Before going on, we should make things perfectly clear."),
     ]
   ),
   L(
@@ -928,7 +928,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Modismos cotidianos."
       ),
       toEs("It completely slipped my mind.", "Se me fue el santo al cielo.", "«Írsele el santo al cielo a alguien» es olvidarse por completo de algo.", ["Se me fue completamente el santo al cielo.", "Se me olvidó por completo."]),
-      wo("El jefe hizo la vista gorda con el retraso de ayer.", "Hacer la vista gorda.", "The boss turned a blind eye to yesterday's delay."),
+      wo("El jefe hizo la vista gorda con el retraso de ayer.", "«Hacer la vista gorda» (fingir no ver algo indebido) es fijo: solo se conjuga el verbo («hizo»), y lo tolerado va con «con» o «ante».", "The boss turned a blind eye to yesterday's delay."),
     ]
   ),
   L(
@@ -975,7 +975,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "El refrán critica que falte algo justo donde debería abundar (el herrero no tiene cuchillo de hierro). No critica a los herreros, ni a la madera, ni la pobreza en general."
       ),
       toEs("Birds of a feather flock together.", "Dios los cría y ellos se juntan.", "«Dios los cría y ellos se juntan» es el refrán equivalente a «Birds of a feather flock together».", ["Cada oveja con su pareja."]),
-      wo("Quien siembra vientos recoge tempestades.", "Refrán sobre las consecuencias.", "Sow the wind and reap the whirlwind."),
+      wo("Quien siembra vientos recoge tempestades.", "Refrán bimembre (siembra/recoge, vientos/tempestades): quien provoca conflictos acaba sufriendo consecuencias mucho mayores.", "Sow the wind and reap the whirlwind."),
     ]
   ),
   L(
@@ -1027,7 +1027,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Refranes contradictorios."
       ),
       toEs("Nothing ventured, nothing gained.", "Quien no se arriesga no cruza el río.", "«Quien no se arriesga no cruza el río» es el refrán equivalente a «Nothing ventured, nothing gained».", ["Quien no arriesga no gana."]),
-      wo("No por mucho madrugar amanece más temprano.", "Refrán de paciencia.", "Getting up early won't make the sun rise sooner."),
+      wo("No por mucho madrugar amanece más temprano.", "«No por + infinitivo» niega que esa causa produzca el efecto: forzar las cosas no las adelanta. Es el contrapunto de «A quien madruga, Dios le ayuda».", "Getting up early won't make the sun rise sooner."),
     ]
   ),
   L(
@@ -1076,7 +1076,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Se dice solo la mitad porque el oyente la completa mentalmente: es conocimiento compartido. No es que la segunda parte sea vulgar, ni que no la sepan, ni es obligatorio."
       ),
       toEs("Actions speak louder than words.", "Obras son amores, que no buenas razones.", "«Obras son amores, que no buenas razones» es el refrán equivalente a «Actions speak louder than words».", ["Obras son amores y no buenas razones."]),
-      wo("Ya lo decía mi abuela: el que la sigue la consigue.", "Introductor + refrán.", "As my grandmother used to say: if at first you don't succeed, try again."),
+      wo("Ya lo decía mi abuela: el que la sigue la consigue.", "«Ya lo decía mi abuela:» introduce el refrán con naturalidad; «el que la sigue la consigue» significa que perseverar da resultado.", "As my grandmother used to say: if at first you don't succeed, try again."),
     ]
   ),
   L(
@@ -1177,8 +1177,8 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         [0, 1, 2],
         "La polisemia, la homofonía y la dilogía (una palabra con dos sentidos a la vez) producen doble sentido. Los sinónimos exactos no crean ambigüedad."
       ),
-      toEn("Tiene muchos problemas, como mi libro de matemáticas.", "He has a lot of problems, like my math book.", "«Problems» mantiene en inglés el doble sentido de ejercicios y preocupaciones, así que el juego se conserva.", ["He's got a lot of problems, like my maths book."]),
-      wo("La gracia del chiste está en que la palabra tiene dos sentidos.", "Explicación del mecanismo.", "The joke works because the word has two meanings."),
+      toEn("Tiene muchos problemas, como mi libro de matemáticas.", "He has a lot of problems, like my math book.", "«Problems» mantiene en inglés el doble sentido de ejercicios y preocupaciones, así que el juego se conserva.", ["He's got a lot of problems, like my maths book.", "She has a lot of problems, like my math book.", "She's got a lot of problems, like my maths book."]),
+      wo("La gracia del chiste está en que la palabra tiene dos sentidos.", "«La gracia está en que…» es la fórmula para explicar un chiste; «sentido» equivale aquí a acepción o significado.", "The joke works because the word has two meanings."),
     ]
   ),
   L(
@@ -1227,7 +1227,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "La contradicción con la situación, la entonación marcada y exclamaciones como «¡Qué bien!» delatan la ironía. El subjuntivo es un modo verbal y no tiene relación con ella."
       ),
       toEs("Great, just what I needed: another bill.", "Genial, justo lo que necesitaba: otra factura.", "Se dice «genial» o «estupendo» cuando es lo contrario: ironía; «lo que me faltaba» es una fórmula típica.", ["Estupendo, justo lo que me faltaba: otra factura.", "Genial, lo que me faltaba: otra factura."]),
-      wo("¡Menudo favor me has hecho contándoselo a todos!", "Ironía con menudo.", "Some favor you did me telling everyone!"),
+      wo("¡Menudo favor me has hecho contándoselo a todos!", "«¡Menudo/a + sustantivo!» suele ser irónico: aquí el «favor» es en realidad un perjuicio; el gerundio «contándoselo» explica cómo.", "Some favor you did me telling everyone!"),
     ]
   ),
   L(
@@ -1376,7 +1376,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "«Mi jefe es un ogro» y «La vida es sueño» identifican dos términos sin nexo: son metáforas. «Corre como el viento» es un símil y «Este mes voy a la playa» es literal."
       ),
       toEs("His words were a slap in the face.", "Sus palabras fueron una bofetada.", "Metáfora: las palabras «fueron» una bofetada, sin nexo comparativo.", ["Sus palabras fueron una bofetada en la cara.", "Sus palabras fueron como una bofetada."]),
-      wo("La noticia cayó como un jarro de agua fría.", "Símil lexicalizado.", "The news came as a bucket of cold water."),
+      wo("La noticia cayó como un jarro de agua fría.", "Símil lexicalizado: «caer como un jarro de agua fría» es una comparación fija con «como» para una decepción repentina.", "The news came as a bucket of cold water."),
     ]
   ),
   L(
@@ -1433,7 +1433,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Metonimia y sinécdoque."
       ),
       toEs("Washington has not responded yet.", "Washington todavía no ha respondido.", "Metonimia de lugar por institución: «Washington» = el gobierno de EE. UU.", ["Washington aún no ha respondido.", "Washington no ha respondido todavía."]),
-      wo("En el museo había un Goya que nadie había visto antes.", "Autor por obra.", "In the museum there was a Goya nobody had seen before."),
+      wo("En el museo había un Goya que nadie había visto antes.", "Metonimia de autor por obra: «un Goya» = un cuadro de Goya; el artículo indefinido convierte el nombre propio en nombre de objeto.", "In the museum there was a Goya nobody had seen before."),
     ]
   ),
   L(
@@ -1541,7 +1541,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "euphemisms-indirect-1",
     "c2r-euphemism-decode",
     "Detective de textos: descifrar el eufemismo",
-    "«Nos ha dejado», «persona de edad avanzada», «reajuste de plantilla»: traduce el eufemismo a lo que realmente dice.",
+    "«Nos ha dejado», «persona de edad avanzada», «crecimiento negativo»: traduce el eufemismo a lo que realmente dice.",
     "7 min",
     [
       sec(
@@ -1724,7 +1724,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "«Al menos vivió muchos años» minimiza el dolor ajeno y conviene evitarla. «Siento mucho tu pérdida», «Pienso en ti…» y «Cuenta conmigo…» son fórmulas de apoyo adecuadas."
       ),
       toEs("I'm very sorry for your loss.", "Siento mucho tu pérdida.", "Fórmula de pésame: «Siento mucho tu/su pérdida»; «lamento» es algo más formal.", ["Siento mucho su pérdida.", "Lamento mucho tu pérdida."]),
-      wo("Pienso mucho en ti y en tu familia en estos momentos tan difíciles.", "Mensaje de apoyo.", "I'm thinking of you and your family at this very difficult time."),
+      wo("Pienso mucho en ti y en tu familia en estos momentos tan difíciles.", "Fórmula de apoyo: «pensar en alguien» (con «en») y «en estos momentos tan difíciles» aluden a la pérdida sin nombrarla.", "I'm thinking of you and your family at this very difficult time."),
     ]
   ),
   L(
@@ -1736,7 +1736,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Cuatro familias",
-        "Negar con fuerza: ¡Ni hablar!, ¡Ni loco!, ¡Ni de broma!, ¡Qué va!, ¡Ni en sueños! Sorpresa: ¡No me digas!, ¡Anda!, ¡Hala!, ¡Madre mía!, ¡No puede ser! Reforzar: ¡Y tanto!, ¡Ya lo creo!, ¡Claro que sí!, ¡Por supuesto! Resignación: ¡Qué le vamos a hacer!, ¡Vaya por Dios!, ¡Lo que faltaba!, ¡Paciencia!",
+        "Negar con fuerza: ¡Ni hablar!, ¡Ni loco!, ¡Ni de broma!, ¡Qué va!, ¡Ni en sueños! Sorpresa: ¡No me digas!, ¡Anda!, ¡Hala!, ¡Madre mía!, ¡No puede ser! Reforzar: ¡Y tanto!, ¡Ya lo creo!, ¡Claro que sí!, ¡Por supuesto! Resignación: ¡Qué le vamos a hacer!, ¡Vaya por Dios!, ¡Paciencia! Fastidio: ¡Lo que faltaba!",
         [
           ["—¿Te presto dinero para la moto? —¡Ni loca!", "—Shall I lend you money for the motorbike? —No way!"],
           ["—¿Estás cansado? —¡Y tanto!", "—Are you tired? —You bet!"],
@@ -1826,7 +1826,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Escala: «No» es neutro, «Ni hablar» ya es enfático y «Ni muerto» es hiperbólico, el más fuerte. Las demás ordenaciones colocan «Ni muerto» antes que alguna de las formas más suaves."
       ),
       toEs("—Do you mind? —Not at all.", "—¿Te importa? —Para nada.", "«Para nada» y «En absoluto» responden negativamente a «¿Te importa?», es decir, dan permiso.", ["—¿Te importa? —En absoluto.", "—¿Le importa? —En absoluto.", "—¿Te molesta? —Para nada."]),
-      wo("En absoluto, puede usted quedarse el tiempo que quiera.", "En absoluto formal.", "Not at all, you can stay as long as you like."),
+      wo("En absoluto, puede usted quedarse el tiempo que quiera.", "«En absoluto» niega con cortesía (= no me molesta nada) y es apto con usted; «el tiempo que quiera» va en subjuntivo porque esa duración no está determinada.", "Not at all, you can stay as long as you like."),
     ]
   ),
   L(
@@ -1875,7 +1875,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
       fb("Completa.", "—He perdido el tren. —Bueno, ___ se le va a hacer.", "qué", "«Qué se le va a hacer» es una fórmula de resignación con «qué» interrogativo-exclamativo."),
       fb("Completa.", "—Me ha tocado la lotería. —¿En ___? ¡No me lo creo!", "serio", "«¿En serio?» expresa sorpresa o incredulidad ante una noticia."),
       toEs("What nerve!", "¡Qué morro!", "«¡Qué morro!» y «¡Qué cara!» critican el descaro (coloquial, España); «¡Qué descaro!» es neutro.", ["¡Qué cara!", "¡Qué cara más dura!", "¡Qué descaro!"]),
-      wo("¡No me digas que has vuelto a perder las llaves!", "Sorpresa con reproche.", "Don't tell me you've lost your keys again!"),
+      wo("¡No me digas que has vuelto a perder las llaves!", "«¡No me digas que + indicativo!» expresa sorpresa con reproche; «volver a + infinitivo» = hacer algo otra vez.", "Don't tell me you've lost your keys again!"),
     ]
   ),
   L(
@@ -1928,7 +1928,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "En México, «ahorita» depende del contexto: puede significar «ahora mismo» o «dentro de un rato» (a veces largo). No significa «nunca», «ayer» ni «muy tarde» de forma literal."
       ),
       toEs("Would you like a little coffee? (affectionate)", "¿Quieres un cafecito?", "Diminutivo afectivo: «un cafecito» es hospitalario y cálido, muy frecuente en América.", ["¿Te apetece un cafecito?", "¿Quiere un cafecito?"]),
-      wo("Tengo un trabajillo los sábados para sacarme un dinerillo.", "Diminutivos minimizadores.", "I have a little job on Saturdays to earn a bit of money."),
+      wo("Tengo un trabajillo los sábados para sacarme un dinerillo.", "«Trabajillo» y «dinerillo» (-illo) restan importancia: un trabajo menor y una cantidad modesta; «sacarse un dinero» = ganarlo.", "I have a little job on Saturdays to earn a bit of money."),
     ]
   ),
   L(
@@ -1988,7 +1988,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Geografía y lexicalización",
-        "Regionales: -ico (Aragón, Murcia, Costa Rica, Cuba: «chiquitico»), -ín (Asturias, León: «guapín»), -ete (Cataluña, Levante: «amiguete»), -ito (general, muy intenso en México y Andes: «ahoritita»). Lexicalizados: palabras que ya no se sienten diminutivas: bolsillo, ventanilla, cigarrillo, mesilla, pañuelo, panecillo, bocadillo, zapatilla.",
+        "Regionales: -ico (Aragón, Murcia, Costa Rica, Cuba: «chiquitico»), -ín (Asturias, León: «guapín»), -ete (más productivo en Cataluña y Levante, aunque voces como «amiguete» se usan en toda España), -ito (general, muy intenso en México y Andes: «ahoritita»). Lexicalizados: palabras que ya no se sienten diminutivas: bolsillo, ventanilla, cigarrillo, mesilla, pañuelo, panecillo, bocadillo, zapatilla.",
         [
           ["Pura vida, mae, espéreme un momentico. (Costa Rica)", "All good, man, just give me a moment."],
           ["¿Dónde dejé el cargador? En la mesilla.", "Where did I leave the charger? On the nightstand."],
@@ -2006,9 +2006,9 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       mc(
         "¿Qué palabra está lexicalizada (ya no significa «pequeño»)?",
-        ["ventanilla", "casita", "perrito", "mesita"],
+        ["ventanilla", "casita", "perrito", "gatito"],
         0,
-        "«Ventanilla» está lexicalizada: designa la ventana de un vehículo o de atención al público, no una ventana pequeña. «Casita», «perrito» y «mesita» siguen siendo diminutivos con valor de tamaño o afecto."
+        "«Ventanilla» está lexicalizada: designa la ventana de un vehículo o de atención al público, no una ventana pequeña. «Casita», «perrito» y «gatito» siguen siendo diminutivos con valor de tamaño o afecto."
       ),
       mc(
         "«Qué guapín vas hoy» suena típico de…",
@@ -2030,7 +2030,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "El diminutivo -ico tras t (momentico) es típico de Colombia, Costa Rica, Venezuela y Cuba. En Argentina, España central y Chile se diría «momentito»."
       ),
-      wo("Tengo un amiguete que te puede echar una mano.", "Sufijo -ete.", "I've got a mate who can give you a hand."),
+      wo("Tengo un amiguete que te puede echar una mano.", "«Amiguete» (-ete) es un diminutivo coloquial con matiz jocoso o de camaradería; «echar una mano» = ayudar.", "I've got a mate who can give you a hand."),
     ]
   ),
   L(
@@ -2228,8 +2228,8 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         [0, 1, 2],
         "Los conectores de contraste, los prefijos y sufijos y las paráfrasis cercanas dan pistas sobre el significado. El número de sílabas no dice nada del sentido de una palabra."
       ),
-      fb("Deduce por morfología.", "Algo que no se puede creer es ___. (in- + creer + -ble)", "increíble", "in- (negación) + creer + -ble (que se puede): increíble, con tilde en la í del hiato."),
-      wo("No era timidez, sino una profunda desconfianza hacia los desconocidos.", "Contraste que aclara significado.", "It wasn't shyness but a deep mistrust of strangers."),
+      fb("Deduce por morfología.", "Algo que no se puede creer es ___. (in- + creer + -ble)", "increíble", "in- (negación) + cre(er) + -ible (que se puede): increíble, con tilde en la í del hiato."),
+      wo("No era timidez, sino una profunda desconfianza hacia los desconocidos.", "«No era X, sino Y»: «sino» corrige la negación y la segunda parte aclara el sentido de la primera; el adjetivo «profunda» va delante del sustantivo.", "It wasn't shyness but a deep mistrust of strangers."),
     ]
   ),
   L(
@@ -2278,7 +2278,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Un cambio repentino de registro puede indicar enfado o distancia, complicidad o ironía. Cambiar de registro no implica cambiar de idioma."
       ),
       toEs("Since when are we on first-name terms?", "¿Desde cuándo nos tuteamos?", "«Tutearse» es tratarse de tú; la pregunta irónica rechaza una confianza que no se ha concedido.", ["¿Desde cuándo nos tuteamos usted y yo?"]),
-      wo("Cuando se enfada con su hermano, de repente empieza a hablarle de usted.", "Cambio de registro.", "When she gets angry with her brother, she suddenly starts using usted with him."),
+      wo("Cuando se enfada con su hermano, de repente empieza a hablarle de usted.", "«Hablarle de usted» (le = a su hermano) marca distancia; «empezar a» + infinitivo, y «de repente» suele ir antes del verbo.", "When she gets angry with her brother, she suddenly starts using usted with him."),
     ]
   ),
   L(
@@ -2434,7 +2434,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         [0, 1, 2],
         "El condicional «no hablaría» atenúa, el matiz «eso sí» introduce una salvedad y la reformulación «distinto, que no es lo mismo» corrige la premisa sin confrontar. Los insultos serían lo contrario, y la socióloga no insulta."
       ),
-      wo("Cada generación crea su propia jerga para diferenciarse de la anterior.", "Idea del texto.", "Each generation creates its own slang to set itself apart from the previous one."),
+      wo("Cada generación crea su propia jerga para diferenciarse de la anterior.", "«Diferenciarse de» es pronominal y rige «de»; «la anterior» retoma «generación» sin repetirla.", "Each generation creates its own slang to set itself apart from the previous one."),
     ]
   ),
   L(
@@ -2486,7 +2486,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
       fb("Completa.", "La oración ___ suele resumir el contenido del párrafo. (del tema)", "temática", "La oración temática es la que resume la idea principal del párrafo, a menudo al principio."),
       fb("Completa.", "Para una lectura global, conviene mirar primero el título y los ___ párrafos. (inicial y final)", "primeros", "En la lectura global se miran el título, los primeros párrafos y los últimos, donde suelen estar la tesis y las conclusiones."),
       toEs("I skimmed the article to get the general idea.", "Hice una lectura global del artículo para captar la idea general.", "«Leer por encima» o «echar un vistazo» es la lectura global (skim); «lectura global» es el término técnico.", ["Leí el artículo por encima para captar la idea general.", "Eché un vistazo al artículo para captar la idea general."]),
-      wo("Una lectura selectiva basta para encontrar la fecha de entrega.", "Estrategia adecuada.", "Scanning is enough to find the due date."),
+      wo("Una lectura selectiva basta para encontrar la fecha de entrega.", "Lectura selectiva (scanning): buscar un dato concreto, como una fecha, sin leer todo el texto; «bastar para» + infinitivo.", "Scanning is enough to find the due date."),
     ]
   ),
   L(
@@ -3188,7 +3188,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Hipótesis.", "¿Y si ___ el plazo de entrega a cambio de un precio menor? (ampliar, nosotros)", "ampliáramos", "¿Y si + imperfecto de subjuntivo?"),
+      fb("Hipótesis.", "¿Y si ___ el plazo de entrega a cambio de un precio menor? (ampliar, nosotros)", "ampliáramos", "¿Y si + imperfecto de subjuntivo? suena más hipotético y cortés; ¿Y si + presente (ampliamos)? también es correcto y más directo."),
       fb("Resumen.", "Hemos ___ mucho; solo nos queda cerrar el precio. (avanzar)", "avanzado", "Pretérito perfecto (hemos avanzado) para hacer balance de lo logrado hasta ahora."),
       fb("Pausa.", "Propongo que lo ___ con nuestros equipos y lo retomemos mañana. (consultar, nosotros)", "consultemos", "«Proponer que» (proponer una acción) va siempre con subjuntivo: consultemos."),
       mc(
@@ -3203,7 +3203,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "«Estar en un punto muerto» es estar estancado: la negociación no avanza. No tiene nada que ver con una muerte, no hay acuerdo y no falta ningún documento."
       ),
-      toEs("What if we met halfway?", "¿Y si nos encontráramos a medio camino?", "Hipótesis negociadora con «¿Y si…?» + imperfecto de subjuntivo: «¿Y si nos encontráramos a medio camino?».", ["¿Y si llegáramos a un punto intermedio?", "¿Y si partiéramos la diferencia?"]),
+      toEs("What if we met halfway?", "¿Y si nos encontráramos a medio camino?", "Hipótesis negociadora con «¿Y si…?» + imperfecto de subjuntivo: «¿Y si nos encontráramos a medio camino?». Con presente de indicativo («¿Y si nos encontramos…?») es igual de correcto y más directo.", ["¿Y si llegáramos a un punto intermedio?", "¿Y si partiéramos la diferencia?", "¿Y si nos encontramos a medio camino?"]),
       wo("Hemos avanzado mucho; solo nos falta acordar el calendario.", "Resumir acuerdos parciales.", "We've made a lot of progress; we only need to agree on the schedule."),
     ]
   ),
@@ -3634,7 +3634,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Del C1 al C2",
-        "Si el verbo introductor está en pasado, los tiempos retroceden: «Los datos confirman…» → El autor afirmó que los datos confirmaban… Si el verbo es de influencia, subjuntivo: «Revisen la metodología» → El autor recomendó que se revisara la metodología. Con verbo en presente, no hay retroceso: El autor afirma que los datos confirman…",
+        "Si el verbo introductor está en pasado, los tiempos suelen retroceder (aunque puede mantenerse el presente si lo dicho sigue vigente): «Los datos confirman…» → El autor afirmó que los datos confirmaban… Si el verbo es de influencia, subjuntivo: «Revisen la metodología» → El autor recomendó que se revisara la metodología. Con verbo en presente, no hay retroceso: El autor afirma que los datos confirman…",
         [
           ["Sánchez recomendó que se ampliara la muestra.", "Sánchez recommended that the sample be expanded."],
           ["La autora afirmó que el fenómeno había comenzado antes.", "The author stated that the phenomenon had begun earlier."],
@@ -3650,7 +3650,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Retroceso temporal.", "«El método es fiable.» → Afirmó que el método ___ fiable.", "era", "Con verbo introductor en pasado, el presente pasa a imperfecto: «es» → «era»."),
+      fb("Retroceso temporal.", "«El método es fiable.» → Afirmó que el método ___ fiable.", "era", "Con verbo introductor en pasado, el presente suele pasar a imperfecto: «es» → «era». También se acepta «es» si lo dicho sigue vigente."),
       fb("Retroceso temporal.", "«Hemos encontrado pruebas.» → Declararon que ___ encontrado pruebas.", "habían", "Con verbo introductor en pasado, el perfecto pasa a pluscuamperfecto: «hemos encontrado» → «habían encontrado»."),
       mc(
         "«Se necesita más investigación.» → La autora señala que…",
@@ -3963,7 +3963,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Mapa de figuras",
-        "De pensamiento: pregunta retórica, hipófora, interpelación, duda fingida, antítesis, hipérbole. De repetición: anáfora, tríada, paralelismo. De significado: metáfora, metonimia, sinécdoque. Saber nombrarlas permite analizar discursos y, sobre todo, usarlas con intención.",
+        "De pensamiento: pregunta retórica, hipófora, interpelación, duda fingida, antítesis, hipérbole. De repetición: anáfora, paralelismo. De acumulación: tríada. De significado: metáfora, metonimia, sinécdoque. Saber nombrarlas permite analizar discursos y, sobre todo, usarlas con intención.",
         [
           ["Unos trabajan de sol a sol; otros viven de las rentas.", "Antithesis."],
         ],
@@ -4056,7 +4056,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "«Se me da bien analizar datos; mi último informe se adoptó como modelo» es la única que equilibra fortaleza y prueba."
       ),
       toEs("I'd say my main strength is adaptability.", "Diría que mi principal fortaleza es la capacidad de adaptación.", "El condicional «Diría que» atenúa la autopromoción y suena más modesto.", ["Diría que mi mayor fortaleza es la adaptabilidad.", "Diría que mi principal fortaleza es la adaptabilidad."]),
-      wo("En mi último puesto coordiné un equipo de ocho personas.", "Evidencia concreta.", "In my last job I coordinated a team of eight people."),
+      wo("En mi último puesto coordiné un equipo de ocho personas.", "Evidencia concreta: el indefinido (coordiné) presenta un logro cerrado y la cifra (ocho personas) lo hace verificable; el complemento de lugar abre la frase.", "In my last job I coordinated a team of eight people."),
     ]
   ),
   L(
@@ -4083,7 +4083,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Completa.", "Me ___ organizar mi tiempo cuando empecé a trabajar. (costar, imperfecto)", "costaba", "«Costarle algo a alguien» = resultarle difícil; imperfecto para una dificultad pasada y habitual."),
+      { ...fb("Completa.", "Me ___ organizar mi tiempo cuando empecé a trabajar. (costar, imperfecto)", "costaba", "«Costarle algo a alguien» = resultarle difícil; imperfecto para una dificultad pasada y habitual. También es correcto el indefinido «me costó», que presenta esa etapa como cerrada."), altAnswers: ["costó"] },
       fb("Completa.", "Para mejorarlo, me ___ a un curso de oratoria. (apuntarse, pretérito)", "apunté", "Pretérito indefinido (me apunté) para una acción concreta de mejora ya realizada."),
       fb("Completa.", "Es un aspecto en el que sigo ___. (trabajar, gerundio)", "trabajando", "«Seguir + gerundio» expresa que la acción continúa: sigo trabajando."),
       mc(
@@ -4099,7 +4099,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "En atención al cliente, ponerse nervioso con los clientes afecta a la competencia central del puesto. Delegar, las hojas de cálculo o hablar en reuniones grandes son aspectos secundarios para ese puesto."
       ),
       toEs("It used to be hard for me to say no, but I've learned to prioritize.", "Me costaba decir que no, pero he aprendido a priorizar.", "«Me costaba» (imperfecto) para la dificultad pasada + «he aprendido» (perfecto) para el cambio logrado.", ["Antes me costaba decir que no, pero he aprendido a priorizar.", "Me resultaba difícil decir que no, pero he aprendido a priorizar."]),
-      wo("Es un aspecto que he mejorado mucho en los últimos dos años.", "Mostrar evolución.", "It's something I've improved a lot over the last two years."),
+      wo("Es un aspecto que he mejorado mucho en los últimos dos años.", "Mostrar evolución: el pretérito perfecto (he mejorado) conecta el progreso con el presente, reforzado por «en los últimos dos años».", "It's something I've improved a lot over the last two years."),
     ]
   ),
   L(
@@ -4128,13 +4128,13 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       mc(
-        "«El equipo estaba desmotivado y los plazos se acumulaban.»",
+        "¿A qué parte del relato STAR corresponde «El equipo estaba desmotivado y los plazos se acumulaban»?",
         ["situación", "acción", "resultado", "tarea"],
         0,
         "Describir el estado de cosas en imperfecto (estaba desmotivado, se acumulaban) es la situación. No hay ninguna acción del candidato, ni resultado, ni una tarea encomendada."
       ),
       mc(
-        "«Al final, entregamos el proyecto con una semana de antelación.»",
+        "¿A qué parte del relato STAR corresponde «Al final, entregamos el proyecto con una semana de antelación»?",
         ["resultado", "situación", "tarea", "acción"],
         0,
         "«Al final, entregamos…» es el desenlace: el resultado. La situación es el contexto inicial, la tarea el objetivo y la acción lo que hiciste para lograrlo."
@@ -4148,7 +4148,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "El método STAR sigue el orden lógico: situación → tarea → acción → resultado. Las demás ordenaciones empiezan por el final o por la acción, lo que desorienta al entrevistador."
       ),
-      wo("Me encargaron reducir los costes sin despedir a nadie.", "Tarea.", "I was asked to cut costs without laying anyone off."),
+      wo("Me encargaron reducir los costes sin despedir a nadie.", "Tarea: «Me encargaron + infinitivo» (3.ª persona del plural impersonal) presenta el objetivo asignado; «sin + infinitivo» añade la condición, y «nadie» va tras el verbo negado.", "I was asked to cut costs without laying anyone off."),
     ]
   ),
   L(
@@ -4192,7 +4192,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "«No, ninguna» desaprovecha la oportunidad de mostrar interés. Preguntar por los próximos pasos, cómo se mide el éxito o qué valoran en el equipo son buenas respuestas."
       ),
       toEs("What would a typical day look like in this role?", "¿Cómo sería un día típico en este puesto?", "El condicional (sería) plantea la pregunta de forma cortés e hipotética.", ["¿Cómo sería un día normal en este puesto?", "¿Cómo es un día típico en este puesto?"]),
-      wo("Según mi experiencia, mis expectativas se sitúan en torno a los cuarenta mil euros.", "Expectativa salarial.", "Based on my experience, my expectations are around forty thousand euros."),
+      wo("Según mi experiencia, mis expectativas se sitúan en torno a los cuarenta mil euros.", "«Situarse en torno a» + cantidad da una cifra aproximada; «Según mi experiencia» la justifica, como pide una respuesta salarial bien fundamentada.", "Based on my experience, my expectations are around forty thousand euros."),
     ]
   ),
   L(
@@ -4235,7 +4235,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "La mejor respuesta muestra encaje con la empresa: qué te atrae y qué puedes aportar. Necesitar dinero, la cercanía a casa o no haber entrado en otro sitio son motivos que no convencen."
       ),
       toEs("I was looking for new professional challenges.", "Buscaba nuevos retos profesionales.", "Motivo positivo: «Buscaba nuevos retos / desafíos profesionales» (imperfecto que describe el motivo).", ["Buscaba nuevos desafíos profesionales.", "Estaba buscando nuevos retos profesionales."]),
-      wo("Creo que mi experiencia encaja perfectamente con lo que buscan.", "Encaje.", "I think my experience fits perfectly with what you're looking for."),
+      wo("Creo que mi experiencia encaja perfectamente con lo que buscan.", "Encaje: «encajar con» + «lo que buscan» (relativo neutro; ustedes) vincula tu perfil con lo que necesita la empresa.", "I think my experience fits perfectly with what you're looking for."),
     ]
   ),
   L(
@@ -4283,7 +4283,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Trabajo en equipo, orientación a resultados y liderazgo son competencias (capacidades). La jornada parcial es una condición laboral, no una competencia."
       ),
       toEs("I'm available to start immediately.", "Tengo disponibilidad de incorporación inmediata.", "Léxico profesional: «disponibilidad de incorporación inmediata» o «puedo incorporarme de inmediato».", ["Puedo incorporarme de inmediato.", "Tengo disponibilidad inmediata."]),
-      wo("El proceso de selección consta de tres entrevistas y una prueba práctica.", "Léxico del proceso.", "The selection process consists of three interviews and a practical test."),
+      wo("El proceso de selección consta de tres entrevistas y una prueba práctica.", "«Constar de» (no «consistir de» ni «constar en») introduce las partes de un todo: el proceso consta de tres entrevistas y una prueba.", "The selection process consists of three interviews and a practical test."),
     ]
   ),
   L(
@@ -4321,7 +4321,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Preguntar cómo se mide el éxito en el puesto muestra interés profesional. «¿Hay cafetería?» es trivial, «¿Esto es todo?» suena impaciente y «¿Cuándo cobro?» se centra solo en el dinero."
       ),
       toEs("I've been working in logistics for six years.", "Llevo seis años trabajando en logística.", "«Llevar + tiempo + gerundio» o «Hace + tiempo + que + presente» para acciones que continúan.", ["Llevo seis años en el sector de la logística.", "Hace seis años que trabajo en logística."]),
-      wo("Muchas gracias por su tiempo; quedo a la espera de sus noticias.", "Cierre.", "Thank you very much for your time; I look forward to hearing from you."),
+      wo("Muchas gracias por su tiempo; quedo a la espera de sus noticias.", "Cierre formal: «quedo a la espera de sus noticias» es la fórmula cortés (usted) para indicar que esperas su respuesta.", "Thank you very much for your time; I look forward to hearing from you."),
     ]
   ),
   L(
@@ -4377,7 +4377,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Reconocer ≠ dar la razón",
-        "Fórmulas: «Entiendo que desde tu posición lo veas así», «Tiene sentido que te moleste», «Veo tu punto; al mismo tiempo, para mí es importante…», «Los dos queremos lo mismo: …». Evitar el «pero» que anula todo lo anterior; mejor «y», «al mismo tiempo», «a la vez».",
+        "Fórmulas: «Entiendo que desde tu posición lo veas así», «Tiene sentido que te moleste», «Entiendo tu punto de vista; al mismo tiempo, para mí es importante…», «Los dos queremos lo mismo: …». Evitar el «pero» que anula todo lo anterior; mejor «y», «al mismo tiempo», «a la vez».",
         [
           ["Entiendo que desde tu lugar lo veas así; al mismo tiempo, yo necesito…", "I understand that from where you stand you see it that way; at the same time, I need…"],
           ["Los dos queremos que el proyecto salga bien.", "We both want the project to succeed."],
@@ -4395,7 +4395,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Completa.", "Entiendo que desde tu posición lo ___ así. (ver, tú)", "veas", "«Entender que» con valor de aceptar el punto de vista ajeno lleva subjuntivo: veas."),
       fb("Completa.", "Tiene sentido que te ___ esta decisión. (molestar)", "moleste", "«Tener sentido que» es una valoración y exige subjuntivo: moleste."),
-      fb("Completa.", "Veo tu punto; al ___ tiempo, para mí es clave la calidad.", "mismo", "«Al mismo tiempo» añade tu postura sin anular la del otro, a diferencia de «pero»."),
+      fb("Completa.", "Entiendo tu punto de vista; al ___ tiempo, para mí es clave la calidad.", "mismo", "«Al mismo tiempo» añade tu postura sin anular la del otro, a diferencia de «pero»."),
       mc(
         "¿Por qué evitar «Te entiendo, pero…»?",
         ["porque el «pero» suele anular el reconocimiento", "porque «pero» solo se usa en registro escrito", "porque obliga a dar la razón al otro", "porque suena demasiado informal"],
@@ -4551,7 +4551,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         [0, 1, 2],
         "Aparecen el establecimiento de normas, la reformulación y la identificación del interés común. Imponer una sanción no forma parte de la mediación y no ocurre en el texto."
       ),
-      wo("Si te entiendo bien, lo que te preocupa es no sentirte valorada.", "Reformulación.", "If I understand you correctly, what worries you is not feeling valued."),
+      wo("Si te entiendo bien, lo que te preocupa es no sentirte valorada.", "Reformulación: «Si te entiendo bien» comprueba tu interpretación y «lo que te preocupa es + infinitivo» resume la necesidad del otro sin juzgarla.", "If I understand you correctly, what worries you is not feeling valued."),
     ]
   ),
   L(
@@ -4628,7 +4628,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Valoración.", "Es normal que ___ enfadados. (estar, vosotros)", "estéis", "Las valoraciones como «Es normal que» exigen subjuntivo: estéis."),
-      fb("Hipótesis.", "¿Y si ___ un turno cada uno? (probar, nosotros)", "probáramos", "¿Y si + imperfecto de subjuntivo?"),
+      { ...fb("Hipótesis.", "¿Y si ___ un turno cada uno? (probar, nosotros)", "probáramos", "«¿Y si + imperfecto de subjuntivo?» (probáramos) o, más directo, «¿Y si + presente de indicativo?» (probamos)."), altAnswers: ["probamos"] },
       fb("Deseo.", "Ojalá ___ llegar a un acuerdo hoy. (poder, nosotros)", "podamos", "«Ojalá» + presente de subjuntivo expresa un deseo posible: podamos."),
       fb("Condición.", "Siempre que los dos ___ de acuerdo, lo firmamos. (estar, vosotros)", "estéis", "«Siempre que» con valor condicional exige subjuntivo: estéis."),
       mc(
@@ -4739,7 +4739,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "«Efeméride» es el acontecimiento que se recuerda en su aniversario. No significa «efímero»: las otras frases lo usan con ese sentido erróneo.",
       ),
-      { ...fb("Corrige la forma verbal para el valor de pasado.", "Murió en el palacio que ___ residencia de los virreyes. (ser, valor de «había sido»)", "fuera", "Solo la forma en -ra conserva el valor de pluscuamperfecto de indicativo en el registro culto: «que fuera residencia». «Fuese» no tiene este valor."), en: "He died in the palace that [had been] the viceroys' residence.", altAnswers: ["había sido", "fue"] },
+      { ...fb("Completa con la forma en -ra con valor de pluscuamperfecto.", "Murió en el palacio que ___ residencia de los virreyes. (ser, valor de «había sido»)", "fuera", "Solo la forma en -ra conserva el valor de pluscuamperfecto de indicativo en el registro culto: «que fuera residencia». «Fuese» no tiene este valor."), en: "He died in the palace that [had been] the viceroys' residence.", altAnswers: ["había sido", "fue"] },
       ms(
         "¿Qué frases son correctas en un texto académico?",
         ["Apenas hubo firmado el tratado, el rey partió hacia Lisboa.", "Según las actas, el concejo votó en contra.", "El general habría huido, según fuentes no confirmadas.", "En 1605 se publica el Quijote y en 1615 se publicará la segunda parte.", "En 1605 se publica el Quijote y en 1615 se publicaba la segunda parte."],
@@ -4952,7 +4952,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Anticipación.", "Aquel error le ___ la vida. (costar, condicional)", "costaría", "Condicional de posterioridad (costaría): el historiador anticipa lo que pasaría después."),
       fb("Anticipación.", "Nadie imaginaba que la guerra ___ a durar tanto. (ir, imperfecto)", "iba", "«Iba a + infinitivo» expresa el futuro visto desde el pasado, como el condicional."),
-      fb("Valoración.", "A la ___, la reforma resultó un fracaso.", "postre", "A la postre = al final."),
+      fb("Valoración.", "A la ___, la reforma resultó un fracaso.", "postre", "«A la postre» (culto) = al final, en último término: presenta el desenlace visto con perspectiva y suele cerrar el relato."),
       mc(
         "«Paradójicamente, el tratado de paz sembró la semilla de la siguiente guerra.» El adverbio expresa…",
         ["una valoración del historiador", "una fecha", "un lugar", "una cita"],
@@ -5256,7 +5256,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Las analogías, la voz activa y explicar para qué sirve algo acercan la ciencia al lector. Acumular siglas sin explicar lo aleja."
       ),
       toEs("Researchers found that these genes were less active.", "Los investigadores comprobaron que estos genes estaban menos activos.", "Divulgación en voz activa: «Los investigadores comprobaron / descubrieron que…».", ["Los investigadores descubrieron que estos genes se activaban menos.", "Los investigadores comprobaron que estos genes se activaban menos."]),
-      wo("El hallazgo es prometedor, pero todavía queda mucho por investigar.", "Cautela divulgativa.", "The finding is promising, but there is still much to research."),
+      wo("El hallazgo es prometedor, pero todavía queda mucho por investigar.", "Cautela divulgativa: «quedar mucho por + infinitivo» indica lo que aún falta y matiza el «prometedor».", "The finding is promising, but there is still much to research."),
     ]
   ),
   L(
@@ -5300,7 +5300,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "El titular riguroso matiza (estudio en ratones, «abre una nueva vía»). «Descubierta la cura», «vivir 200 años» exageran y «no saben nada» tergiversa lo dicho."
       ),
       toEs("What are the next steps of your research?", "¿Cuáles son los próximos pasos de su investigación?", "Pregunta periodística formal (usted): «¿Cuáles son los próximos / siguientes pasos de su investigación?».", ["¿Cuáles son los siguientes pasos de su investigación?"]),
-      wo("Es pronto para hablar de aplicaciones clínicas, pero los resultados son alentadores.", "Respuesta matizada.", "It's too early to talk about clinical applications, but the results are encouraging."),
+      wo("Es pronto para hablar de aplicaciones clínicas, pero los resultados son alentadores.", "Respuesta matizada: «Es pronto para + infinitivo» frena las expectativas y «pero» introduce la valoración positiva (alentadores).", "It's too early to talk about clinical applications, but the results are encouraging."),
     ]
   ),
   L(
@@ -5348,7 +5348,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Sustituir el carbón por energía solar reduce emisiones: es mitigación. Construir diques, cultivos resistentes a la sequía y trasladar poblaciones son medidas de adaptación a los efectos."
       ),
       toEs("Rich countries should bear a greater share of the responsibility.", "Los países ricos deberían asumir una mayor parte de la responsabilidad.", "«Asumir / cargar con una mayor parte de la responsabilidad»; el condicional «deberían» expresa recomendación.", ["Los países ricos deberían asumir una parte mayor de la responsabilidad.", "Los países ricos deberían cargar con una mayor parte de la responsabilidad."]),
-      wo("La transición energética no puede dejar atrás a las regiones mineras.", "Transición justa.", "The energy transition cannot leave mining regions behind."),
+      wo("La transición energética no puede dejar atrás a las regiones mineras.", "Transición justa: «dejar atrás a» alguien es abandonarlo en un cambio; «no puede» expresa una exigencia, no una imposibilidad.", "The energy transition cannot leave mining regions behind."),
     ]
   ),
   L(
@@ -5397,7 +5397,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Que el electorado se agrupe en bandos cada vez más cerrados es la polarización. El consenso es lo contrario, la abstención es no votar y la mayoría absoluta es un resultado electoral."
       ),
       toEs("We share the goal, but we propose a different path.", "Compartimos el objetivo, pero proponemos otro camino.", "Lenguaje deliberativo: compartir el objetivo y proponer otro camino u otra vía.", ["Compartimos el objetivo, aunque proponemos otro camino.", "Compartimos el objetivo, pero proponemos una vía distinta."]),
-      wo("A nuestro juicio, esa medida tendría consecuencias no deseadas.", "Discrepancia argumentada.", "In our view, that measure would have unintended consequences."),
+      wo("A nuestro juicio, esa medida tendría consecuencias no deseadas.", "«A nuestro juicio» presenta la crítica como opinión, y el condicional (tendría) la formula como previsión, no como acusación.", "In our view, that measure would have unintended consequences."),
     ]
   ),
   L(
@@ -5579,7 +5579,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "En sentido filosófico, lo trascendente está más allá del mundo sensible. No es lo que es muy importante (sentido coloquial de «trascendental»), ni lo cotidiano, ni lo material."
       ),
       toEs("Epistemology studies the limits of knowledge.", "La epistemología estudia los límites del conocimiento.", "La epistemología es la rama de la filosofía que estudia el conocimiento y sus límites.", ["La epistemología estudia los límites del saber."]),
-      wo("Para el idealismo, la realidad depende de la mente que la percibe.", "Idealismo.", "For idealism, reality depends on the mind that perceives it."),
+      wo("Para el idealismo, la realidad depende de la mente que la percibe.", "Idealismo: la realidad «depende de» la mente; el pronombre «la» (la percibe) retoma «la realidad» y va delante del verbo conjugado.", "For idealism, reality depends on the mind that perceives it."),
     ]
   ),
   L(
@@ -5627,7 +5627,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "«Por tanto», «en consecuencia» y «luego» introducen una conclusión. «Sin embargo» expresa contraste."
       ),
       toEs("If our choices were random, they would not be ours.", "Si nuestras decisiones fueran aleatorias, no serían nuestras.", "Condicional irreal: si + imperfecto de subjuntivo (fueran / fuesen) + condicional.", ["Si nuestras elecciones fueran aleatorias, no serían nuestras.", "Si nuestras decisiones fuesen aleatorias, no serían nuestras."]),
-      wo("Luego la libertad requiere algo más que la simple ausencia de causas.", "Conclusión con luego.", "Therefore freedom requires more than the mere absence of causes."),
+      wo("Luego la libertad requiere algo más que la simple ausencia de causas.", "«Luego», a principio de oración, es un conector consecutivo culto equivalente a «por tanto» (no el adverbio temporal «después»).", "Therefore freedom requires more than the mere absence of causes."),
     ]
   ),
   L(
@@ -5670,7 +5670,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Responder a una objeción exige un conector de contraste: «sin embargo». «Asimismo» añade, «por ejemplo» ejemplifica y «en primer lugar» ordena."
       ),
       toEs("It is worth distinguishing between having options and being free.", "Conviene distinguir entre tener opciones y ser libre.", "Distinción conceptual: «Conviene / Cabe distinguir entre A y B».", ["Conviene diferenciar entre tener opciones y ser libre.", "Cabe distinguir entre tener opciones y ser libre."]),
-      wo("Tener más opciones no implica necesariamente ser más libre.", "Tesis matizada.", "Having more options does not necessarily mean being freer."),
+      wo("Tener más opciones no implica necesariamente ser más libre.", "Tesis matizada: «no implica necesariamente» niega una relación automática entre opciones y libertad sin descartarla del todo; los infinitivos funcionan como sustantivos.", "Having more options does not necessarily mean being freer."),
     ]
   ),
   L(
@@ -5717,7 +5717,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Mecanismos de defensa."
       ),
       toEs("I feel a mixture of pride and fear.", "Siento una mezcla de orgullo y miedo.", "Ambivalencia: «Siento una mezcla de orgullo y miedo / temor».", ["Siento una mezcla de orgullo y temor.", "Tengo una mezcla de orgullo y miedo."]),
-      wo("Para reducir la disonancia, se convenció de que no había otra opción.", "Racionalización.", "To reduce the dissonance, he convinced himself there was no other option."),
+      wo("Para reducir la disonancia, se convenció de que no había otra opción.", "Racionalización: «convencerse de que» + indicativo (había) muestra cómo la persona se justifica para reducir la disonancia.", "To reduce the dissonance, he convinced himself there was no other option."),
     ]
   ),
   L(
@@ -5795,7 +5795,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Precisa.", "No es exactamente tristeza; es más ___ una especie de vacío.", "bien", "«Más bien» introduce una corrección matizada de lo anterior."),
       fb("Valida.", "Es comprensible que te ___ así. (sentir)", "sientas", "Una valoración («Es comprensible que») exige subjuntivo: sientas."),
-      fb("Refleja.", "Parece que te sientes ___ entre dos lealtades. (con sentimientos opuestos)", "dividido", "«Sentirse dividido» = tener sentimientos opuestos entre dos opciones."),
+      { ...fb("Refleja.", "Parece que te sientes ___ entre dos lealtades. (con sentimientos opuestos)", "dividido", "«Sentirse dividido» = tener sentimientos opuestos entre dos opciones."), altAnswers: ["dividida"] },
       mc(
         "«Siento que por un lado la admiro y por otro me molesta.» El terapeuta responde:",
         ["Parece que sientes ambivalencia hacia ella.", "Eso está mal.", "Deberías quererla.", "Olvídalo."],
@@ -5853,7 +5853,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Los gestos significativos, el estilo indirecto libre y las metáforas muestran emociones. Nombrarla con un adjetivo genérico es «decir», no «mostrar»."
       ),
       toEs("She let the coffee go cold without tasting it.", "Dejó que el café se enfriara sin probarlo.", "Mostrar sin nombrar: «Dejó que el café se enfriara» (dejar que + subjuntivo) o «Dejó enfriar el café».", ["Dejó que se enfriara el café sin probarlo.", "Dejó enfriar el café sin probarlo."]),
-      wo("Guardó la carta sin abrirla y se quedó mirando la lluvia.", "Mostrar, no decir.", "She put the letter away unopened and stood watching the rain."),
+      wo("Guardó la carta sin abrirla y se quedó mirando la lluvia.", "Mostrar, no decir: «sin + infinitivo + pronombre» (sin abrirla) y «quedarse + gerundio» (se quedó mirando) sugieren la emoción con gestos.", "She put the letter away unopened and stood watching the rain."),
     ]
   ),
   L(
@@ -5889,7 +5889,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
           ["deus ex machina", "solución forzada y externa"],
           ["arco del personaje", "evolución a lo largo de la obra"],
         ],
-        "Léxico crítico."
+        "La peripecia es un giro de la acción; la verosimilitud, la credibilidad interna; el deus ex machina, una solución forzada que llega desde fuera; y el arco, la transformación del personaje."
       ),
       fb("Completa.", "El ___ llega en el capítulo final, cuando todo se resuelve.", "desenlace", "El desenlace es la parte final de la trama en la que se resuelve el conflicto."),
       fb("Completa.", "El narrador ___ conoce los pensamientos de todos los personajes.", "omnisciente", "El narrador omnisciente lo sabe todo, también los pensamientos de los personajes."),
@@ -5901,7 +5901,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Una solución externa, forzada e inesperada que resuelve el conflicto es un deus ex machina. No es un arco del personaje (evolución), ni una prolepsis (anticipación), ni un personaje redondo."
       ),
       toEs("The ending feels forced and implausible.", "El desenlace resulta forzado e inverosímil.", "Crítica literaria: «resultar + adjetivo» (forzado, inverosímil) para valorar el desenlace.", ["El final resulta forzado e inverosímil.", "El desenlace parece forzado e inverosímil."]),
-      wo("La protagonista es un personaje redondo con un arco muy bien construido.", "Léxico crítico.", "The protagonist is a round character with a very well-built arc."),
+      wo("La protagonista es un personaje redondo con un arco muy bien construido.", "«Personaje redondo» = complejo y que evoluciona; «con un arco muy bien construido» añade la valoración, con «muy bien» delante del participio.", "The protagonist is a round character with a very well-built arc."),
     ]
   ),
   L(
@@ -5937,7 +5937,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
           ["puesta en escena", "disposición de todo lo que aparece ante la cámara"],
           ["fotografía", "luz, color y textura de la imagen"],
         ],
-        "Léxico cinematográfico."
+        "No confundas montaje (cómo se ordenan y encadenan los planos) con encuadre (qué entra en cada plano); la puesta en escena es lo que se coloca ante la cámara y la fotografía, cómo se ilumina y colorea."
       ),
       mc(
         "«Pausado hasta la exasperación» es una valoración…",
@@ -5952,9 +5952,9 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "La fórmula «para algunos… para otros…» presenta una opinión dividida. «Sin duda alguna», «todo el mundo piensa» y «nadie cree» expresan unanimidad."
       ),
       fb("Completa según el texto.", "La directora ___ por planos fijos y largos. (elegir con decisión)", "apuesta", "«Apostar por» algo es elegirlo con decisión como opción estética."),
-      fb("Completa.", "Un plano ___ (sin cortes) acompaña a la protagonista por el pasillo.", "secuencia", "Plano secuencia = plano largo sin cortes."),
+      fb("Completa.", "Un plano ___ (plano largo rodado en una sola toma, sin cortes) acompaña a la protagonista por el pasillo.", "secuencia", "Plano secuencia = plano largo rodado en una sola toma, sin cortes."),
       toEs("The editing only speeds up in the final third.", "El montaje solo se acelera en el último tercio.", "Crítica de cine: el montaje «se acelera» o «gana ritmo» en el último tercio.", ["El montaje solo gana ritmo en el último tercio."]),
-      wo("La fotografía de tonos fríos subraya la soledad de la protagonista.", "Análisis de la fotografía.", "The cold-toned cinematography underlines the protagonist's loneliness."),
+      wo("La fotografía de tonos fríos subraya la soledad de la protagonista.", "«De tonos fríos» complementa a «fotografía»; «subrayar» (realzar) es el verbo típico de la crítica para decir qué efecto produce un recurso.", "The cold-toned cinematography underlines the protagonist's loneliness."),
     ]
   ),
   L(
@@ -5998,7 +5998,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "«Magistral», «lograda» y «conmovedora» son elogiosos. «Prescindible» es negativo: la obra no aporta nada."
       ),
       toEs("Despite its flaws, it's a moving film.", "Pese a sus defectos, es una película conmovedora.", "Valoración matizada: «Pese a / A pesar de sus defectos» + elogio.", ["A pesar de sus defectos, es una película conmovedora.", "Pese a sus fallos, es una película conmovedora."]),
-      wo("Sin llegar a ser una obra maestra, la novela es notable.", "Valoración matizada.", "Without being a masterpiece, the novel is remarkable."),
+      wo("Sin llegar a ser una obra maestra, la novela es notable.", "«Sin llegar a + infinitivo» concede que la obra no alcanza el máximo y prepara un elogio moderado («notable»): así se gradúa el juicio.", "Without being a masterpiece, the novel is remarkable."),
     ]
   ),
   L(
@@ -6027,7 +6027,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Síntesis.", "Sin ___ el final, basta decir que nada es lo que parece. (revelar)", "desvelar", "«Desvelar» es revelar algo oculto; «sin + infinitivo» evita destripar el final."),
-      fb("Valoración.", "Con ___, la película se hace larga en su segunda mitad.", "todo", "Con todo = a pesar de ello."),
+      fb("Completa con el matizador concesivo (= a pesar de ello).", "Con ___, la película se hace larga en su segunda mitad.", "todo", "Con todo = a pesar de ello."),
       fb("Recomendación.", "___ para los amantes de la novela negra. (que no debe faltar)", "Imprescindible", "«Imprescindible para» recomienda la obra con fuerza a un público concreto."),
       mc(
         "Mejor entrada para una reseña:",
@@ -6042,7 +6042,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Una buena reseña da contexto, analiza algún aspecto técnico y valora con matices. Explicar el final completo es destripar la obra."
       ),
       toEs("A must-see for lovers of social cinema.", "Imprescindible para los amantes del cine social.", "Recomendación enfática: «Imprescindible para los amantes de…», propio de reseñas.", []),
-      wo("Tras su celebrada ópera prima, el director vuelve con un drama más ambicioso.", "Entrada de reseña.", "After his celebrated debut, the director returns with a more ambitious drama."),
+      wo("Tras su celebrada ópera prima, el director vuelve con un drama más ambicioso.", "«Tras + sustantivo» sitúa la obra en la trayectoria del autor; «ópera prima» = primera obra, y el adjetivo valorativo «celebrada» va antepuesto, como es habitual en la prensa cultural.", "After his celebrated debut, the director returns with a more ambitious drama."),
     ]
   ),
   L(
@@ -6089,7 +6089,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Ojo a la dirección: «A desencadena B» e «A incide en B» van de la causa al efecto, pero «B se deriva de A» va del efecto a la causa."
       ),
       toEs("The drought caused a rise in olive oil prices.", "La sequía provocó una subida del precio del aceite.", "Causa-efecto: «provocar / causar una subida o un aumento de» + precio.", ["La sequía provocó un aumento del precio del aceite.", "La sequía causó una subida del precio del aceite de oliva."]),
-      wo("La caída de la demanda se tradujo en una bajada generalizada de precios.", "Traducirse en.", "The drop in demand translated into a general fall in prices."),
+      wo("La caída de la demanda se tradujo en una bajada generalizada de precios.", "«Traducirse en» (pronominal, con «en») = tener como resultado; el indefinido «se tradujo» presenta un efecto ya producido.", "The drop in demand translated into a general fall in prices."),
     ]
   ),
   L(
@@ -6138,17 +6138,17 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
           ["poder adquisitivo", "capacidad de compra del dinero"],
           ["tipos de interés", "precio del dinero prestado"],
         ],
-        "Léxico económico."
+        "El IPC mide la evolución de los precios de consumo; el poder adquisitivo, lo que se puede comprar con un salario; los tipos de interés, lo que cuesta pedir dinero prestado."
       ),
       toEs("Wages have barely grown by 2%.", "Los salarios apenas han crecido un 2 %.", "Dato económico: «apenas» + perfecto (han crecido) + cantidad sin preposición: un 2 %.", ["Los sueldos apenas han subido un 2 %.", "Los salarios apenas han crecido un dos por ciento."]),
-      wo("El banco central no descarta bajar los tipos de interés en verano.", "Previsión.", "The central bank doesn't rule out cutting interest rates in summer."),
+      wo("El banco central no descarta bajar los tipos de interés en verano.", "«No descartar + infinitivo» presenta una posibilidad sin comprometerse; el complemento temporal «en verano» va al final.", "The central bank doesn't rule out cutting interest rates in summer."),
     ]
   ),
   L(
     "business-economics-spanish-3",
     "c2r-econ-merger-dialogue",
     "Laboratorio de diálogo: analizar una fusión",
-    "Un analista explica en la radio una fusión entre aerolíneas: sinergias, cuota de mercado, competencia y consumidores.",
+    "Aprende el léxico para analizar una fusión en la prensa: opa, sinergias, cuota de mercado, posición dominante, cotización y efectos para el consumidor.",
     "7 min",
     [
       sec(
@@ -6185,7 +6185,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Una posición dominante reduce la competencia: precios más altos y menos opciones para el consumidor. Por eso no bajan los precios ni hay más competencia, y el riesgo no es nulo."
       ),
       toEs("The competition authority could block the merger.", "La autoridad de la competencia podría bloquear la fusión.", "«La autoridad de (la) competencia» es el organismo que puede bloquear o autorizar fusiones.", ["La autoridad de competencia podría bloquear la fusión.", "Las autoridades de competencia podrían bloquear la fusión."]),
-      wo("La operación dará lugar a la mayor aerolínea del país.", "Dar lugar a.", "The deal will give rise to the country's largest airline."),
+      wo("La operación dará lugar a la mayor aerolínea del país.", "«Dar lugar a» = originar, tener como resultado; «la mayor aerolínea del país» es un superlativo relativo (la + mayor + de).", "The deal will give rise to the country's largest airline."),
     ]
   ),
   L(
@@ -6409,7 +6409,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "La brevedad extrema, la elipsis y el final con giro o abierto definen el microrrelato. Muchos personajes y subtramas no caben en tan poco espacio."
       ),
       toEs("When she opened the door, nobody was there. Again.", "Cuando abrió la puerta, no había nadie. Otra vez.", "Microrrelato: la elipsis y el cierre breve («Otra vez» o «De nuevo») sugieren una historia que se repite.", ["Cuando abrió la puerta, no había nadie. De nuevo."]),
-      wo("Guardó la última carta sin abrirla, como todas las anteriores.", "Giro final por elipsis.", "She put the last letter away unopened, like all the ones before."),
+      wo("Guardó la última carta sin abrirla, como todas las anteriores.", "«Sin + infinitivo + pronombre» (sin abrirla) y «como todas las anteriores» sugieren, sin decirlo, una historia que se repite: la elipsis deja que el lector la imagine.", "She put the last letter away unopened, like all the ones before."),
     ]
   ),
   L(
@@ -6618,7 +6618,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Refranes cuyo sentido no se deduce de sus palabras.",
       ),
       toEn("¿Ahora te disculpas? A buenas horas, mangas verdes.", "Now you apologise? A bit late for that.", "Se traduce la función (reproche por la tardanza), no las palabras.", ["Now you're apologizing? It's a bit late for that.", "Now you apologise? Too little, too late.", "Now you apologize? Too little, too late."]),
-      wo("Ya se sabe que por la boca muere el pez.", "Refrán introducido con «ya se sabe que».", "Everyone knows that loose lips sink ships."),
+      wo("Ya se sabe que por la boca muere el pez.", "Refrán introducido con «ya se sabe que».", "Everyone knows that people who talk too much end up paying for it."),
     ]
   ),
   L(
@@ -7284,7 +7284,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
       ),
       fb("Completa (presión cortés).", "Me ___ que no podemos bajar más. (temer)", "temo", "«Me temo que» + indicativo suaviza una negativa firme (presión cortés)."),
       fb("Completa (ceder).", "Podríamos aceptarlo siempre ___ ustedes asuman el transporte.", "que", "«Siempre que» + subjuntivo (asuman) condiciona una concesión."),
-      fb("Completa (subjuntivo).", "Aceptaríamos con tal de que el pago se ___ en 30 días. (realizar)", "realice", "Con tal de que + subjuntivo."),
+      fb("Completa (subjuntivo).", "Aceptaríamos con tal de que el pago se ___ en 30 días. (realizar)", "realice", "Con tal de que + subjuntivo: tras el condicional «aceptaríamos» lo más habitual es el imperfecto (se realizara), aunque el presente (se realice) también es posible si la condición se ve como futura."),
       ms(
         "¿Qué fórmulas cierran una negociación?",
         ["Entonces, ¿cerramos el acuerdo así?", "Les enviaré el borrador mañana.", "¿Estamos de acuerdo en estos puntos?", "¿Qué margen tienen?"],
@@ -7504,9 +7504,9 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         [
           mc(
             "Sustituye: «hacer una pregunta»",
-            ["formular una pregunta", "realizar una pregunta a hecho", "poner una pregunta", "tener una pregunta hecha"],
+            ["formular una pregunta", "dar una pregunta", "poner una pregunta", "tener una pregunta hecha"],
             0,
-            "«Formular» o «plantear» una pregunta es más preciso que «hacer». «Poner una pregunta» es un calco o coloquialismo, y las otras dos opciones son agramaticales."
+            "«Formular» o «plantear» una pregunta es más preciso que «hacer». «Poner una pregunta» es un calco o coloquialismo, «dar una pregunta» no es una colocación del español y «tener una pregunta hecha» no significa preguntar."
           ),
         ]
       ),
@@ -7520,7 +7520,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         [
           ["tener éxito", "cosechar éxito"],
           ["decir una opinión", "manifestar una opinión"],
-          ["hacer un esfuerzo", "realizar un esfuerzo"],
+          ["dar una explicación", "ofrecer una explicación"],
           ["tener un problema", "afrontar un problema"],
         ],
         "Verbos precisos."
@@ -7532,7 +7532,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "«Afrontó numerosas dificultades» sustituye verbos comodín por un verbo y un sustantivo precisos. «Hizo», «Puso» y «Dio» problemas cambian el sentido (causarlos) y siguen siendo imprecisos."
       ),
       toEs("The report was drawn up by an independent committee.", "El informe fue elaborado por un comité independiente.", "«Elaborar» un informe es más preciso que «hacer»; puede ir en pasiva o activa.", ["El informe lo elaboró un comité independiente.", "Un comité independiente elaboró el informe."]),
-      wo("La directora manifestó su satisfacción por los resultados obtenidos.", "Registro elevado.", "The director expressed her satisfaction with the results obtained."),
+      wo("La directora manifestó su satisfacción por los resultados obtenidos.", "«Manifestar» sustituye a «decir/expresar» en registro formal; la satisfacción se siente «por» (o «con») algo.", "The director expressed her satisfaction with the results obtained."),
     ]
   ),
   L(
@@ -7580,7 +7580,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "«Cometer un delito», «contraer matrimonio» y «desempeñar un cargo» son colocaciones correctas. «Cometer» solo va con algo negativo; un éxito se cosecha o se logra."
       ),
       toEs("The decision sparked widespread interest.", "La decisión suscitó un gran interés.", "Colocación culta: «suscitar / despertar interés».", ["La decisión despertó un gran interés.", "La decisión suscitó un interés generalizado."]),
-      wo("Aún albergamos la esperanza de encontrar supervivientes.", "Albergar esperanzas.", "We still hold out hope of finding survivors."),
+      wo("Aún albergamos la esperanza de encontrar supervivientes.", "Colocación culta «albergar la esperanza de + infinitivo»; «aún» lleva tilde porque equivale a «todavía».", "We still hold out hope of finding survivors."),
     ]
   ),
   L(
@@ -7912,7 +7912,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "Según la ortografía actual, ex- se escribe unido y sin guion a una sola palabra (exministro); ante una expresión de varias palabras va separado: «el ex primer ministro». Por eso «el exprimer ministro» y las formas con guion son incorrectas."
       ),
-      wo("Los expertos advierten de que no conviene sobrecargar el sistema.", "Prefijo sobre-.", "Experts warn that the system should not be overloaded."),
+      wo("Los expertos advierten de que no conviene sobrecargar el sistema.", "Prefijo sobre- (exceso): sobrecargar = cargar en exceso. «Advertir de que» + indicativo y «no conviene» + infinitivo.", "Experts warn that the system should not be overloaded."),
     ]
   ),
   L(
@@ -8141,7 +8141,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "«Se pegó un castañazo» es un coloquialismo de España que choca con el tono jurídico de «el demandante» y «como consecuencia del deficiente estado». Las otras frases mantienen un registro único y coherente."
       ),
       toEs("The plaintiff suffered a fracture as a result of the fall.", "El demandante sufrió una fractura como consecuencia de la caída.", "«Como consecuencia de» (o «a consecuencia de») es el nexo causal propio del registro jurídico, y «sufrir una fractura» es la colocación estándar.", ["El demandante sufrió una fractura a consecuencia de la caída.", "El demandante sufrió una fractura como resultado de la caída."]),
-      wo("Un vecino demanda a su comunidad tras romperse la muñeca en la escalera.", "Titular periodístico.", "Resident sues his building after breaking his wrist on the stairs."),
+      wo("Un vecino demanda a su comunidad tras romperse la muñeca en la escalera.", "El titular usa presente («demanda») para un hecho reciente y «tras + infinitivo» para la causa; con partes del cuerpo se usa artículo, no posesivo («romperse la muñeca»).", "Resident sues his building after breaking his wrist on the stairs."),
     ]
   ),
   L(

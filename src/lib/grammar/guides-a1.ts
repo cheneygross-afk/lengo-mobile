@@ -561,7 +561,7 @@ export const A1_GUIDES: GrammarGuide[] = [
         heading: "Yo-go verbs and other irregular yo forms",
         body: [
           "These verbs are regular except for yo (tener, venir and decir also change their stem, and oír adds y: oyes, oye): hacer → hago, poner → pongo, salir → salgo, traer → traigo, caer → caigo, oír → oigo, venir → vengo, decir → digo.",
-          "Other verbs with only an irregular yo: saber → sé, dar → doy, ver → veo, conocer → conozco (and most verbs in -cer/-cir: conduzco, ofrezco, traduzco).",
+          "Other verbs with only an irregular yo: saber → sé, dar → doy, ver → veo, conocer → conozco (and most verbs ending in a vowel + -cer/-cir: conduzco, ofrezco, traduzco).",
         ],
         examples: [
           { es: "Hago la cena y pongo la mesa.", en: "I make dinner and set the table." },

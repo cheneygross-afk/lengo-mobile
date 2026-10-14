@@ -852,7 +852,7 @@ export const VIDEO_QUIZZES: Record<string, VideoQuiz> = {
         ],
         answerIndex: 1,
         explanation:
-          "Later she warns that many learners say 'estás', but after 'espero que' you need 'estés', with an E.",
+          "Later she warns that many learners say 'estás', but after 'espero que' you need 'estés', with an E. That form is the subjunctive, taught at the Intermediate level; for now, learn 'espero que estés bien' as a set phrase.",
         atSeconds: 1325,
       },
     ],

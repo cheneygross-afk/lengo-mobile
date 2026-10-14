@@ -53,7 +53,7 @@ export const DELE_C1_LECTURA: ExamPaper = {
           question: "En cuanto a los gastos, la Fundación…",
           options: [
             "paga el material necesario para el proyecto.",
-            "devuelve parte del coste del viaje.",
+            "reembolsa el viaje hasta un límite.",
             "abona una cantidad libre de impuestos.",
           ],
           answer: 1,

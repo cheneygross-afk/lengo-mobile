@@ -94,7 +94,7 @@ export const DRILLS_A2_10: Record<string, Exercise[]> = {
     mc("\"El año pasado hacemos un viaje a Perú.\" What's wrong?", ["Hacemos should be hicimos.", "Pasado should be pasada.", "A should be para.", "Nothing."], 0, "El año pasado points to a finished event, so the preterite hicimos."),
     toEs("I asked her a question.", "Le hice una pregunta.", "She receives the question: indirect object le. 'La hice' is a common error."),
     toEs("Yesterday we had to leave early.", "Ayer tuvimos que salir temprano.", "Ayer marks one event, and tener has an irregular preterite stem tuv-: tuvimos, not 'tenimos'.", ["Ayer tuvimos que irnos temprano.", "Tuvimos que salir temprano ayer.", "Ayer tuvimos que salir pronto."]),
-    fe("Esta mañana vi ___ tu hermana en el mercado.", "a", "This morning I saw your sister at the market.", "A person as direct object needs the personal a: vi a tu hermana."),
+    fe("Esta mañana vi ___ tu hermana en el mercado.", "a", "This morning I saw [your sister] at the market.", "A person as direct object needs the personal a: vi a tu hermana."),
     fe("Mañana te ___ la verdad.", "diré", "Tomorrow I [will tell] you the truth.", "Decir's future stem is dir-: diré, not 'deciré'."),
     fe("Estudio mucho ___ aprobar el examen.", "para", "I study a lot [in order to] pass the exam.", "Purpose + infinitive takes para, not por."),
     toEs("Nobody said anything.", "Nadie dijo nada.", "Decir is irregular in the preterite (dijo), and nadie needs nada, not 'algo'."),

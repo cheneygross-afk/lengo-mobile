@@ -1005,7 +1005,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           2,
           3
         ],
-        "explanation": "\"Porque\" introduce una causa, no un momento, así que no sigue el patrón de \"cuando\": normalmente lleva indicativo (salvo en la negación de la causa: no porque sea fácil, sino…)."
+        "explanation": "\"En cuanto\", \"tan pronto como\" y \"hasta que\" son conjunciones temporales como \"cuando\": con referencia al futuro llevan subjuntivo (en cuanto llegues, hasta que vuelvas). \"Porque\" introduce una causa, no un momento, así que no sigue el patrón de \"cuando\": normalmente lleva indicativo (salvo en la negación de la causa: no porque sea fácil, sino…)."
       },
       {
         "type": "word-order",
@@ -1104,7 +1104,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La secuencia de tiempos",
         "body": [
-          "Por lo general, cuando el verbo principal está en presente, se usa subjuntivo presente en la cláusula subordinada (pero puede ir imperfecto si la acción es pasada: «No creo que lo supiera»). Cuando el verbo principal está en un tiempo pasado (pretérito, imperfecto, condicional), se usa el imperfecto de subjuntivo."
+          "Por lo general, cuando el verbo principal está en presente, se usa subjuntivo presente en la cláusula subordinada (pero puede ir imperfecto si la acción es pasada: «No creo que lo supiera»). Cuando el verbo principal está en pasado (indefinido, imperfecto, pluscuamperfecto) o en condicional, se usa el imperfecto de subjuntivo."
         ],
         "examples": [
           {
@@ -3373,7 +3373,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Elige el verbo correcto.",
+            "prompt": "Conjuga haber en pasado.",
             "sentence": "___ (haber) mucha gente en la fiesta anoche.",
             "answer": "Había",
             "altAnswers": [
@@ -3827,6 +3827,9 @@ const B2_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración.",
             "sentence": "Cuando escuchó la noticia, ___ (ponerse) muy triste.",
             "answer": "se puso",
+            "altAnswers": [
+              "se quedó"
+            ],
             "explanation": "Ponerse describe un cambio emocional repentino: se puso triste."
           }
         ]
@@ -5134,7 +5137,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Adverbios enfáticos al inicio: jamás, nunca, apenas",
         "body": [
-          "Adverbios como jamás, nunca, apenas o tampoco pueden ir al principio de la oración para darles relieve; en esa posición sustituyen a \"no\" (Jamás había visto algo así = No había visto jamás algo así). A diferencia del inglés (Never had I seen...), el español no exige ninguna inversión especial: el sujeto puede ir antes o después del verbo con el mismo adverbio (Yo jamás he dicho eso / Jamás he dicho yo eso)."
+          "Adverbios como jamás, nunca, apenas o tampoco pueden ir al principio de la oración para darles relieve; en esa posición sustituyen a \"no\" (Jamás había visto nada así = No había visto jamás nada así). A diferencia del inglés (Never had I seen...), el español no exige ninguna inversión especial: el sujeto puede ir antes o después del verbo con el mismo adverbio (Yo jamás he dicho eso / Jamás he dicho yo eso)."
         ],
         "examples": [
           {
@@ -5142,11 +5145,11 @@ const B2_BASE_LESSONS: Lesson[] = [
             "en": "I had barely arrived when the phone rang."
           },
           {
-            "es": "Jamás había visto algo tan hermoso.",
+            "es": "Jamás había visto nada tan hermoso.",
             "en": "I had never seen anything so beautiful."
           },
           {
-            "es": "No había visto jamás algo tan hermoso.",
+            "es": "No había visto jamás nada tan hermoso.",
             "en": "I had never ever seen anything so beautiful."
           }
         ],
@@ -5575,7 +5578,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "examples": [
           {
             "es": "El hombre cuya casa visitamos es mi abuelo.",
-            "en": "the man whose house we visited"
+            "en": "The man whose house we visited is my grandfather."
           },
           {
             "es": "La empresa cuyos empleados protestaron cerró la semana pasada.",
@@ -5583,11 +5586,11 @@ const B2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "El escritor cuyas novelas ganaron el premio nacional es colombiano.",
-            "en": "the writer whose novels won the national award"
+            "en": "The writer whose novels won the national award is Colombian."
           },
           {
             "es": "La actriz cuyo esposo dirige la película llegó tarde.",
-            "en": "the actress whose husband directs the film"
+            "en": "The actress whose husband is directing the film arrived late."
           }
         ],
         "checkpoint": [
@@ -5609,15 +5612,15 @@ const B2_BASE_LESSONS: Lesson[] = [
         "examples": [
           {
             "es": "Este es el contrato según el cual debemos pagar en treinta días.",
-            "en": "the contract according to which we must pay within thirty days"
+            "en": "This is the contract according to which we must pay within thirty days."
           },
           {
             "es": "La reunión durante la cual se tomó la decisión duró tres horas.",
-            "en": "the meeting during which the decision was made"
+            "en": "The meeting during which the decision was made lasted three hours."
           },
           {
             "es": "Los documentos sin los cuales no podemos continuar se perdieron.",
-            "en": "the documents without which we cannot continue"
+            "en": "The documents without which we cannot continue were lost."
           },
           {
             "es": "Las jefas para las cuales trabajo son muy amables.",
@@ -5706,7 +5709,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "examples": [
           {
             "es": "La casa que compramos es enorme.",
-            "en": "the house that we bought"
+            "en": "The house that we bought is huge."
           },
           {
             "es": "El hijo de mi vecina, el cual estudia medicina, vino a cenar.",
@@ -8684,8 +8687,9 @@ const B2_BASE_LESSONS: Lesson[] = [
         "direction": "es-en",
         "prompt": "Traduce la oración al inglés.",
         "source": "Me preguntó dónde había puesto las llaves.",
-        "answer": "He/She asked me where I had put the keys.",
+        "answer": "He asked me where I had put the keys.",
         "altAnswers": [
+          "She asked me where I had put the keys.",
           "She asked me where I'd put the keys."
         ],
         "explanation": "'Preguntó dónde' introduce una pregunta abierta, y 'había puesto' corresponde al pluscuamperfecto del pretérito original 'puse'."
@@ -9298,8 +9302,8 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Hay una fiesta esta noche; la fiesta es en el club y está muy cerca de aquí.",
-            "en": "There's a party tonight; the party is at the club and it's very close to here."
+            "es": "Hay una fiesta esta noche; la fiesta es en el club, que está muy cerca de aquí.",
+            "en": "There's a party tonight; the party is at the club, which is very close to here."
           }
         ],
         "checkpoint": [
@@ -9920,7 +9924,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Contraste I: sin embargo / no obstante",
         "body": [
-          "Sin embargo y no obstante introducen un contraste fuerte, suelen ir entre comas y son propios de un registro formal o escrito."
+          "Sin embargo y no obstante introducen un contraste fuerte y suelen ir entre comas; «no obstante» es propio de un registro formal o escrito, mientras que «sin embargo» es neutro y se usa también al hablar."
         ],
         "examples": [
           {
@@ -10258,7 +10262,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración con el conector de consecuencia adecuado.",
         "sentence": "El sistema falló varias veces, ___ tuvimos que reiniciar el servidor por completo.",
         "answer": "de modo que",
-        "altAnswers": ["de manera que", "por lo que"],
+        "altAnswers": ["de manera que", "por lo que", "así que"],
         "hint": "Conector formal de consecuencia, similar a 'así que' pero más técnico.",
         "explanation": "'De modo que' introduce una consecuencia directa, con un registro algo más formal que 'así que'."
       }
@@ -10442,7 +10446,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El arte y la literatura",
         "body": [
-          "Las 50 palabras de la lección «Subjuntivo en Cláusulas Adjetivas, Parte 2 de 2», agrupadas para repasar."
+          "Las 50 palabras de la lección «Subjuntivo en Cláusulas Adjetivas, Part 2 of 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -10712,7 +10716,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La política y el gobierno",
         "body": [
-          "Las 50 palabras de la lección «Subjuntivo en Cláusulas Adverbiales, Parte 2 de 2», agrupadas para repasar."
+          "Las 50 palabras de la lección «Subjuntivo en Cláusulas Adverbiales, Part 2 of 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -10974,7 +10978,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Los sueños y la imaginación",
         "body": [
-          "Las 50 palabras de la lección «Imperfecto de Subjuntivo y Secuencia de Tiempos, Parte 2 de 2», agrupadas para repasar."
+          "Las 50 palabras de la lección «Imperfecto de Subjuntivo y Secuencia de Tiempos, Part 2 of 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -11256,7 +11260,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La tecnología y la inteligencia artificial",
         "body": [
-          "Las 50 palabras de la lección «Cláusulas Hipotéticas con Si, Parte 2 de 2», agrupadas para repasar."
+          "Las 50 palabras de la lección «Cláusulas Hipotéticas con Si, Part 2 of 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -11523,7 +11527,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Los arrepentimientos y las decisiones de vida",
         "body": [
-          "Las 50 palabras de la lección «Condicional Perfecto y Pluscuamperfecto de Subjuntivo, Parte 2 de 2», agrupadas para repasar."
+          "Las 50 palabras de la lección «Condicional Perfecto y Pluscuamperfecto de Subjuntivo, Part 2 of 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -11805,7 +11809,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El periodismo y los medios de comunicación",
         "body": [
-          "Las 50 palabras de la lección «El Estilo Indirecto, Parte 2 de 2», agrupadas para repasar."
+          "Las 50 palabras de la lección «El Estilo Indirecto, Part 2 of 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -12087,7 +12091,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La psicología y la personalidad",
         "body": [
-          "Las 50 palabras de la lección «Ser, Estar y Haber: Usos Matizados, Parte 2 de 2», agrupadas para repasar."
+          "Las 50 palabras de la lección «Ser, Estar y Haber: Usos Matizados, Part 2 of 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -12370,7 +12374,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El desarrollo personal y el cambio",
         "body": [
-          "Las 50 palabras de la lección «Verbos de Cambio, Parte 2 de 2», agrupadas para repasar."
+          "Las 50 palabras de la lección «Verbos de Cambio, Part 2 of 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -12632,7 +12636,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El debate y la argumentación",
         "body": [
-          "Las 50 palabras de la lección «Conectores Avanzados, Parte 2 de 2», agrupadas para repasar."
+          "Las 50 palabras de la lección «Conectores Avanzados, Part 2 of 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -12914,7 +12918,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La música y las artes escénicas",
         "body": [
-          "Las 50 palabras de la lección «Énfasis y Orden de Palabras, Parte 2 de 2», agrupadas para repasar."
+          "Las 50 palabras de la lección «Énfasis y Orden de Palabras, Part 2 of 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -13420,7 +13424,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "Nunca",
           "había",
           "visto",
-          "algo",
+          "nada",
           "tan",
           "hermoso."
         ],
@@ -13440,7 +13444,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Verbos de Cambio",
         "body": [
-          "Volverse indica un cambio a menudo repentino o involuntario (se volvió loco). Hacerse implica esfuerzo o elección (se hizo médico). Ponerse describe cambios emocionales o físicos temporales (se puso nervioso). Convertirse en indica una transformación más completa (se convirtió en líder)."
+          "Volverse indica un cambio de carácter o cualidad, involuntario y más o menos duradero, a menudo gradual (se volvió loco, se volvió más paciente). Hacerse implica esfuerzo o elección (se hizo médico). Ponerse describe cambios emocionales o físicos temporales (se puso nervioso). Convertirse en indica una transformación más completa (se convirtió en líder)."
         ]
       },
       {
@@ -13515,7 +13519,7 @@ const B2_BASE_LESSONS: Lesson[] = [
             "right": "reportar lo que alguien más dijo"
           }
         ],
-        "explanation": "Cada estructura gramatical del nivel Avanzado tiene un uso comunicativo específico."
+        "explanation": "Fíjate en el contexto: presente o futuro → subjuntivo presente; verbo principal en pasado → imperfecto de subjuntivo; cortesía o hipótesis → condicional; pasado irreal → pluscuamperfecto de subjuntivo; palabras de otra persona → estilo indirecto."
       },
       {
         "type": "multi-select",

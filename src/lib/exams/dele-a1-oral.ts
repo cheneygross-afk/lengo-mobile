@@ -63,7 +63,7 @@ export const DELE_A1_ORAL: ExamPaper = {
       instructions: "Diálogos basados en imágenes. Usted y el entrevistador hablan en cuatro situaciones. Duración: 2 o 3 minutos.",
       instructionsEn: "Short dialogues based on pictures: you and the examiner talk in four situations, 2-3 minutes in all.",
       speak: {
-        prompt: "Usted está en una cafetería, en la calle y en una tienda de ropa. Pida, pregunte y conteste lo que necesita en cada situación.",
+        prompt: "Usted está en una cafetería, en la calle y en una tienda de ropa, y una persona le pregunta la hora. Pida, pregunte y conteste lo que necesita en cada situación.",
         material: [
           { title: "Imagen 1", body: "Una cafetería. En la barra hay cafés, zumos y bocadillos con sus precios." },
           { title: "Imagen 2", body: "Una calle con un banco, una farmacia y una parada de autobús." },

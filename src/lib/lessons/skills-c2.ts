@@ -200,7 +200,7 @@ export const C2_SKILLS: Record<string, Exercise[]> = {
         "Una conclusión que sitúe la obra en su contexto o frente a otras",
       ],
       "Con «El invierno de los otros», su cuarta novela, Marta Iglesias abandona el tono intimista que la dio a conocer y se adentra en el territorio, siempre resbaladizo, de la novela coral. La apuesta es arriesgada y, en buena medida, acertada. A lo largo de una sola noche de nevada, seis vecinos de un edificio madrileño quedan incomunicados, y la autora aprovecha el encierro para ir desvelando, capítulo a capítulo, lo que cada uno oculta a los demás. Lo más logrado es la construcción de las voces: cada narrador tiene un ritmo y un léxico propios, hasta el punto de que el lector reconoce quién habla antes de leer su nombre. Menos convincente resulta el desenlace, que resuelve con prisa y cierta complacencia las tensiones acumuladas durante trescientas páginas. Aun así, estamos ante una novela ambiciosa, de prosa depurada y mirada compasiva, que confirma a Iglesias como una de las voces más interesantes de su generación.",
-      "La reseña de nivel Profesional y Académico informa sin resumir en exceso, analiza un aspecto con precisión (las voces narrativas) y matiza la valoración: arriesgada y acertada en buena medida, menos convincente el desenlace, aun así ambiciosa. Los adjetivos evaluativos (arriesgada, acertada, ambiciosa, depurada, compasiva) evitan el vago «bueno»."
+      "La reseña informa sin resumir en exceso, analiza un aspecto con precisión (las voces narrativas) y matiza la valoración: arriesgada y acertada en buena medida, menos convincente el desenlace, aun así ambiciosa. Los adjetivos evaluativos (arriesgada, acertada, ambiciosa, depurada, compasiva) evitan el vago «bueno»."
     ),
   ],
   "c2r-mission-instancia": [
@@ -228,8 +228,8 @@ export const C2_SKILLS: Record<string, Exercise[]> = {
         "Economía de lenguaje: ninguna palabra sobra",
         "Un giro final que obligue a releer",
       ],
-      "Mudanza. La casa nueva olía a pintura y a promesas. Colocamos los muebles, colgamos los cuadros y, por la noche, mi hija me preguntó por qué había un reloj de más en el pasillo. No le di importancia: los niños ven cosas. Durante semanas, el reloj marcó una hora distinta de la nuestra, siempre adelantada, siempre la misma: las cuatro y diez. Hoy, a las cuatro y diez, ha sonado el timbre. Al otro lado de la puerta, una familia idéntica a la nuestra sonreía con las cajas en la mano. —Venimos a entrar —dijo el hombre, con mi voz.",
-      "El microrrelato vive de la economía y del giro: el reloj que nadie colocó es el indicio sembrado al principio y la hora repetida lo carga de tensión, hasta que el final (una familia idéntica que viene a entrar) obliga a releerlo. El título, «Mudanza», cambia de sentido al acabar."
+      "Mudanza. La casa nueva olía a pintura y a promesas. Colocamos los muebles, colgamos los cuadros y, por la noche, mi hija me preguntó por qué había un reloj de más en el pasillo. No le di importancia: los niños ven cosas. Durante semanas, el reloj marcó una hora distinta de la nuestra, siempre adelantada, siempre la misma: las cuatro y diez. Hoy, a las cuatro y diez, ha sonado el timbre. Al otro lado de la puerta, una familia idéntica a la nuestra sonreía con las cajas en la mano. —Venimos a instalarnos —dijo el hombre, con mi voz.",
+      "El microrrelato vive de la economía y del giro: el reloj que nadie colocó es el indicio sembrado al principio y la hora repetida lo carga de tensión, hasta que el final (una familia idéntica que viene a instalarse) obliga a releerlo. El título, «Mudanza», cambia de sentido al acabar."
     ),
   ],
 };

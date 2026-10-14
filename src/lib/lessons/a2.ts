@@ -2003,7 +2003,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "Cuando leí la carta, ___ (saber) la verdad por primera vez.",
+        "question": "Cuando leí la carta, ___ (saber) la verdad por primera vez. (When I read the letter, I found out the truth for the first time.)",
         "options": [
           "sabía",
           "supe",
@@ -4811,10 +4811,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Complete the sentence with the personal a if it's needed.",
+            "prompt": "Complete the sentence with the personal a if it's needed: \"I visit my grandmother on Sundays.\"",
             "sentence": "Visito ___ mi abuela los domingos.",
             "answer": "a",
-            "hint": "The direct object is a specific person.",
             "explanation": "Mi abuela is a specific person and the direct object of visitar, so it takes the personal a."
           }
         ]
@@ -5027,10 +5026,9 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Complete with a or al, or leave the blank empty if nothing is needed.",
+        "prompt": "Complete with a or al, or leave the blank empty if nothing is needed: \"I look after my grandparents at weekends.\"",
         "sentence": "Cuido ___ mis abuelos los fines de semana.",
         "answer": "a",
-        "hint": "Mis abuelos are specific people.",
         "explanation": "Mis abuelos are specific people and the direct object of cuidar, so you use the personal a: Cuido a mis abuelos."
       },
       {
@@ -5125,7 +5123,6 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Complete with the correct double negative.",
             "sentence": "___ como nada antes de las ocho de la mañana.",
             "answer": "No",
-            "hint": "The negative word nada comes after the verb.",
             "explanation": "Nada comes after the verb (como), so the sentence needs no before the verb: No como nada."
           }
         ]
@@ -5192,7 +5189,6 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Complete the sentence with the correct negative word.",
         "sentence": "No hay ___ estudiante en la clase hoy; todos están enfermos.",
         "answer": "ningún",
-        "hint": "Estudiante is masculine singular.",
         "explanation": "Ninguno shortens to ningún before a masculine singular noun: ningún estudiante."
       },
       {
@@ -6421,7 +6417,8 @@ const A2_BASE_LESSONS: Lesson[] = [
         "answer": "Soy vegetariano. ¿Tiene algo sin carne?",
         "altAnswers": [
           "Soy vegetariana. ¿Tiene algo sin carne?",
-          "Soy vegetariano/a. ¿Tienen algo sin carne?"
+          "Soy vegetariano. ¿Tienen algo sin carne?",
+          "Soy vegetariana. ¿Tienen algo sin carne?"
         ],
         "explanation": "Soy vegetariano/a states a dietary restriction, and ¿Tiene algo sin carne? asks what's available."
       },
@@ -8030,7 +8027,6 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Complete the sentence with the correct form.",
             "sentence": "¿El pastel? Mi madre ___ preparó para la fiesta.",
             "answer": "lo",
-            "hint": "el pastel → masculine singular",
             "explanation": "El pastel is masculine singular, so it is replaced by lo."
           }
         ]
@@ -8126,7 +8122,6 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Complete the sentence with the correct form.",
         "sentence": "Compro flores para mi novia. → ___ compro para mi novia.",
         "answer": "Las",
-        "hint": "flores = feminine plural",
         "explanation": "Flores is feminine plural, so it is replaced by las."
       },
       {
@@ -8134,7 +8129,6 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Complete the sentence with the correct form.",
         "sentence": "Mi jefe ___ manda un correo a los clientes todos los lunes.",
         "answer": "les",
-        "hint": "a los clientes = plural indirect object",
         "explanation": "A los clientes is a plural indirect object, so the pronoun is les."
       },
       {
@@ -8197,8 +8191,7 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Complete the sentence with the correct form.",
             "sentence": "Ana está terminando la tarea. → Ana está terminándo___.",
             "answer": "la",
-            "hint": "direct object: la tarea (feminine)",
-            "explanation": "When the pronoun attaches to the gerund, the verb needs a written accent: terminándola."
+            "explanation": "When the pronoun attaches to the gerund, the verb needs a written accent: terminándola. La tarea is feminine singular, so the pronoun is la."
           }
         ]
       },
@@ -8341,7 +8334,6 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Complete the sentence with the correct form.",
             "sentence": "¿Mis llaves? ___ presto ahora mismo. (to you)",
             "answer": "Te las",
-            "hint": "indirect object (te) + direct object (las llaves)",
             "explanation": "The indirect pronoun goes before the direct one: te (to you) + las (the keys) → te las presto."
           }
         ]
@@ -8420,8 +8412,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Complete the sentence with the correct form.",
         "sentence": "¡Ábre___ ahora! (la puerta)",
         "answer": "la",
-        "hint": "affirmative command + feminine direct object",
-        "explanation": "In affirmative commands, the pronoun attaches to the end of the verb: ábrela."
+        "explanation": "In affirmative commands, the pronoun attaches to the end of the verb: ábrela. La puerta is feminine singular, so the pronoun is la."
       },
       {
         "type": "multiple-choice",
@@ -8455,8 +8446,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Complete the sentence with the correct form.",
         "sentence": "Necesito hablar con Marta. Voy a llamar___ hoy.",
         "answer": "la",
-        "hint": "a Marta = feminine direct object",
-        "explanation": "With an infinitive, the pronoun can attach to the end: llamarla."
+        "explanation": "With an infinitive, the pronoun can attach to the end: llamarla. Marta is a feminine singular direct object, so the pronoun is la."
       },
       {
         "type": "word-order",
@@ -8504,10 +8494,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Complete the sentence with the correct form.",
+            "prompt": "Complete with the reflexive pronoun.",
             "sentence": "Ella ___ ducha antes de desayunar.",
             "answer": "se",
-            "hint": "reflexive pronoun for ella",
             "explanation": "The third person singular (él, ella, usted) takes the reflexive pronoun se."
           },
           {
@@ -8590,10 +8579,9 @@ const A2_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "fill-blank",
-            "prompt": "Complete the sentence with the correct form.",
+            "prompt": "Complete with the reflexive pronoun.",
             "sentence": "Estoy vistiéndo___ para la fiesta.",
             "answer": "me",
-            "hint": "pronoun attached to the gerund",
             "explanation": "With a gerund, the pronoun can attach to the end: vistiéndome (the accent keeps the stress on -dien-)."
           }
         ]
@@ -8602,18 +8590,16 @@ const A2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Complete the sentence with the correct form.",
+        "prompt": "Complete with the reflexive pronoun.",
         "sentence": "Yo ___ levanto a las siete todos los días.",
         "answer": "me",
-        "hint": "first person singular",
         "explanation": "Yo takes the reflexive pronoun me."
       },
       {
         "type": "fill-blank",
-        "prompt": "Complete the sentence with the correct form.",
+        "prompt": "Complete with the reflexive pronoun.",
         "sentence": "¿A qué hora ___ acuestas normalmente?",
         "answer": "te",
-        "hint": "second person singular",
         "explanation": "Tú takes the reflexive pronoun te."
       },
       {
@@ -8752,10 +8738,9 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "fill-blank",
-            "prompt": "Complete the sentence with the correct form.",
+            "prompt": "Complete with the reflexive pronoun.",
             "sentence": "Anoche ellos ___ acostaron a medianoche.",
             "answer": "se",
-            "hint": "reflexive pronoun for ellos",
             "explanation": "The third person plural (ellos, ellas, ustedes) takes se."
           },
           {
@@ -8794,10 +8779,9 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "fill-blank",
-        "prompt": "Complete the sentence with the correct form.",
+        "prompt": "Complete with the reflexive pronoun.",
         "sentence": "Nosotros ___ despertamos con el ruido del despertador.",
         "answer": "nos",
-        "hint": "first person plural",
         "explanation": "Nosotros takes the reflexive pronoun nos."
       },
       {
@@ -8946,7 +8930,6 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Complete the sentence with the correct form.",
             "sentence": "Los amigos ___ abrazan cuando se encuentran.",
             "answer": "se",
-            "hint": "a mutual action between them",
             "explanation": "Se shows a reciprocal action: the friends hug each other."
           }
         ]
@@ -8981,7 +8964,6 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Complete the sentence with the correct form.",
         "sentence": "Mis padres ___ escriben mensajes todos los días.",
         "answer": "se",
-        "hint": "reciprocal action",
         "explanation": "Se shows that the action is mutual: my parents write messages to each other."
       },
       {
@@ -9028,7 +9010,6 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Complete the sentence with the correct form.",
         "sentence": "Anoche nosotros ___ dormimos muy tarde viendo una película.",
         "answer": "nos",
-        "hint": "reflexive pronoun for nosotros",
         "explanation": "Dormirse in the preterite: nosotros nos dormimos (we fell asleep)."
       }
     ]
@@ -10004,7 +9985,6 @@ const A2_BASE_LESSONS: Lesson[] = [
             "sentence": "Trabajé en esa oficina ___ cinco años.",
             "answer": "por",
             "altAnswers": ["durante"],
-            "hint": "duration",
             "explanation": "Por can mark how long the action lasted. Durante works too, and many speakers would simply say Trabajé en esa oficina cinco años."
           },
           {
@@ -10042,7 +10022,6 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Complete the sentence with the correct form.",
             "sentence": "Cancelaron el partido ___ la tormenta.",
             "answer": "por",
-            "hint": "cause",
             "explanation": "Por introduces the cause: por la tormenta = because of the storm."
           }
         ]
@@ -10080,7 +10059,6 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Complete the sentence with the correct form.",
             "sentence": "Te doy quince dólares ___ esa camisa.",
             "answer": "por",
-            "hint": "money in exchange",
             "explanation": "Money paid in exchange for something is introduced by por."
           }
         ]
@@ -10093,12 +10071,11 @@ const A2_BASE_LESSONS: Lesson[] = [
         "sentence": "Viví en Chile ___ tres años.",
         "answer": "por",
         "altAnswers": ["durante"],
-        "hint": "duration",
         "explanation": "Por can mark how long the action lasted. Durante is just as good, and Viví en Chile tres años, with no preposition, is the most common of all."
       },
       {
         "type": "multiple-choice",
-        "question": "No fuimos al partido ___ la lluvia.",
+        "question": "No fuimos al partido ___ la lluvia. (We didn't go to the game because of the rain.)",
         "options": [
           "por",
           "para"
@@ -10119,7 +10096,6 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Complete the sentence with the correct form.",
         "sentence": "Necesito la tarea ___ el lunes.",
         "answer": "para",
-        "hint": "deadline",
         "explanation": "Para marks a deadline: para el lunes = by Monday."
       },
       {
@@ -10139,7 +10115,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "Voy al gimnasio ___ mantenerme en forma.",
+        "question": "Voy al gimnasio ___ mantenerme en forma. (I go to the gym to stay in shape.)",
         "options": [
           "por",
           "para"
@@ -10178,7 +10154,6 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Complete the sentence with the correct form.",
             "sentence": "Pasamos ___ el centro antes de llegar al hotel.",
             "answer": "por",
-            "hint": "movement through a place",
             "explanation": "Por describes movement through a place, not a destination: pasamos por el centro."
           }
         ]
@@ -10234,7 +10209,6 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Complete the sentence with the correct form.",
             "sentence": "La tarea es ___ el lunes.",
             "answer": "para",
-            "hint": "deadline",
             "explanation": "Para introduces the deadline: para el lunes = by Monday."
           },
           {
@@ -10258,7 +10232,6 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Complete the sentence with the correct form.",
         "sentence": "Mandé el mensaje ___ correo electrónico.",
         "answer": "por",
-        "hint": "means",
         "explanation": "The means of communication takes por: por correo electrónico."
       },
       {
@@ -10271,7 +10244,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "Cambié mi teléfono viejo ___ uno nuevo.",
+        "question": "Cambié mi teléfono viejo ___ uno nuevo. (I swapped my old phone for a new one.)",
         "options": [
           "por",
           "para"
@@ -10285,7 +10258,6 @@ const A2_BASE_LESSONS: Lesson[] = [
         "sentence": "Salen ___ Buenos Aires el sábado.",
         "en": "They leave [for] Buenos Aires on Saturday.",
         "answer": "para",
-        "hint": "destination",
         "explanation": "Para marks the destination of a trip: salen para Buenos Aires."
       },
       {
@@ -10321,7 +10293,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "Trabajo ___ una empresa de tecnología.",
+        "question": "Trabajo ___ una empresa de tecnología. (I work for a tech company.)",
         "options": [
           "por",
           "para"
@@ -10406,7 +10378,6 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Complete the sentence with the correct form.",
             "sentence": "Este correo electrónico es ___ mi jefe.",
             "answer": "para",
-            "hint": "recipient",
             "explanation": "Para marks the recipient: who something is for."
           }
         ]
@@ -10418,7 +10389,6 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Complete the sentence with the correct form.",
         "sentence": "Este café es ___ ti.",
         "answer": "para",
-        "hint": "recipient",
         "explanation": "Para says who something is for: para ti."
       },
       {
@@ -10445,7 +10415,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "Pasamos ___ el puente para llegar al centro.",
+        "question": "Pasamos ___ el puente para llegar al centro. (We went across the bridge to get downtown.)",
         "options": [
           "por",
           "para"
@@ -10458,7 +10428,6 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Complete the sentence with the correct form.",
         "sentence": "Te doy veinte dólares ___ ese libro.",
         "answer": "por",
-        "hint": "exchange",
         "explanation": "Money paid in exchange for something takes por: veinte dólares por ese libro."
       },
       {
@@ -10500,7 +10469,6 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Complete the sentence with the correct form.",
             "sentence": "Visito ___ mi abuela todos los domingos.",
             "answer": "a",
-            "hint": "the direct object is a specific person",
             "explanation": "A specific, known person as the direct object takes the personal a: visito a mi abuela."
           },
           {
@@ -10578,7 +10546,6 @@ const A2_BASE_LESSONS: Lesson[] = [
         "prompt": "Complete the sentence with the correct form.",
         "sentence": "No conozco ___ nadie en esta ciudad todavía.",
         "answer": "a",
-        "hint": "double negation + personal a with nadie",
         "explanation": "Nadie refers to a person, so it also takes the personal a: a nadie."
       },
       {
@@ -10717,7 +10684,6 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Complete the sentence with the correct form.",
             "sentence": "___ voy nunca a ese restaurante.",
             "answer": "No",
-            "hint": "double negation needs no before the verb",
             "explanation": "When nunca comes after the verb, no is needed before it: No voy nunca."
           },
           {
@@ -10838,7 +10804,6 @@ const A2_BASE_LESSONS: Lesson[] = [
             "prompt": "Complete the sentence with the correct form.",
             "sentence": "___ estudia los sábados en mi familia. (nobody)",
             "answer": "Nadie",
-            "hint": "negative word before the verb, without no",
             "explanation": "Nadie at the start of the sentence doesn't need no."
           }
         ]
@@ -10971,7 +10936,6 @@ const A2_BASE_LESSONS: Lesson[] = [
         "sentence": "___ tengo tiempo para descansar entre semana.",
         "en": "I [never] have time to rest during the week.",
         "answer": "Nunca",
-        "hint": "negative word before the verb, without no",
         "explanation": "Nunca before the verb replaces no. (No tengo tiempo nunca would say the same thing.)"
       },
       {
@@ -12996,7 +12960,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "How do you say \"older\" (irregular comparative)?",
+        "question": "How do you say \"older\" in \"my older sister\"?",
         "options": [
           "más viejo",
           "mayor",
@@ -13004,7 +12968,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "menos joven"
         ],
         "correctIndex": 1,
-        "explanation": "For people's age, older is mayor. \"Más viejo\" exists but sounds blunt, \"más grande\" is bigger, and \"menos joven\" means less young."
+        "explanation": "Mayor is an irregular comparative. For people's age, older is mayor. \"Más viejo\" exists but sounds blunt, \"más grande\" is bigger, and \"menos joven\" means less young."
       },
       {
         "type": "fill-blank",

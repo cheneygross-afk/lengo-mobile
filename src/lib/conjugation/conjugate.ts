@@ -239,13 +239,15 @@ function simpleForms(spec: VerbSpec, mode: Mode): Simple {
       vosotros: base.slice(0, -1) + "d",
       ellos: spres.ellos,
     };
+    // "no" before each accepted form (no yergas / no irgas).
+    const no = (f: string) => eachAlt(f, (x) => `no ${x}`);
     impNeg = {
-      tu: `no ${spres.tu}`,
-      vos: `no ${spres.tu}`,
-      el: `no ${spres.el}`,
-      nos: `no ${spres.nos}`,
-      vosotros: `no ${spres.vosotros}`,
-      ellos: `no ${spres.ellos}`,
+      tu: no(spres.tu),
+      vos: no(spres.tu),
+      el: no(spres.el),
+      nos: no(spres.nos),
+      vosotros: no(spres.vosotros),
+      ellos: no(spres.ellos),
     };
   }
   impAff = applyOver(impAff, over.impAff);

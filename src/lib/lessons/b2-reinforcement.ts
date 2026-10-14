@@ -227,7 +227,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     "subjunctive-adverbial-clauses-2",
     "b2r-mission-plan-event",
     "Misión real: organizar un evento",
-    "Planifica una boda, un congreso o una fiesta sorpresa con para que, antes de que, en cuanto, siempre que y a menos que.",
+    "Planifica una fiesta sorpresa con conjunciones que piden subjuntivo: para que, antes de que, en cuanto, a menos que, siempre que, con tal de que, en caso de que y no sea que.",
     "8 min",
     [
       sec(
@@ -396,10 +396,10 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "El imperfecto de subjuntivo sale del indefinido: «dijeron» → «dijera», «trajeron» → «trajera», «anduvieron» → «anduviera». «Poniera» es incorrecta: de «pusieron» sale «pusiera»."
       ),
       mc(
-        "¿Cuál es correcta?",
+        "¿Cuál transmite en pasado el consejo «No te preocupes»?",
         ["Le dije que no se preocupara.", "Le dije que no se preocupará.", "Le dije que no se preocupaba.", "Le digo que no se preocupara."],
         0,
-        "Una orden en estilo indirecto en pasado va en imperfecto de subjuntivo: «que no se preocupara». «Se preocupará» es futuro de indicativo, y «Le digo que no se preocupara» mezcla presente e imperfecto."
+        "Un consejo u orden en estilo indirecto en pasado va en imperfecto de subjuntivo: «que no se preocupara». «Se preocupará» es futuro de indicativo; «no se preocupaba» informaría de un hecho (que no estaba preocupado), no de un consejo; y «Le digo que no se preocupara» mezcla presente e imperfecto."
       ),
       toEs("I wish they had more time.", "Ojalá tuvieran más tiempo.", "Ojalá + imperfecto de subjuntivo para un deseo irreal en el presente.", ["Ojalá que tuvieran más tiempo.", "Ojalá tuviesen más tiempo."]),
       wo("Nadie esperaba que el equipo ganara la final.", "Principal en pasado → imperfecto de subjuntivo.", "Nobody expected the team to win the final."),
@@ -647,7 +647,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
           ["Si no me hubiera mudado a Chile, ahora no hablaría español.", "If I hadn't moved to Chile, I wouldn't speak Spanish now."],
         ],
         [
-          fb("Continúa la cadena.", "Si no hablara español, no ___ en esta empresa. (trabajar, yo; ahora)", "trabajaría", "Consecuencia presente → condicional simple."),
+          fb("Continúa la cadena.", "Si no hablara español, no ___ en esta empresa. (trabajar, yo; ahora)", "trabajaría", "Hipótesis sobre el presente (si + imperfecto de subjuntivo): consecuencia presente → condicional simple."),
         ]
       ),
     ],
@@ -2324,7 +2324,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         [
           ["Mamá dice que la cena está lista.", "Mom says dinner is ready. (information)"],
           ["Mamá dice que pongas la mesa.", "Mom says to set the table. (order)"],
-          ["Me escribió que llegaba tarde. / Me escribió que lo esperara.", "He wrote that he was late. / He wrote me to wait for him."],
+          ["Me escribió que llegaba tarde. / Me escribió que lo esperara.", "He wrote that he was late. / He wrote asking me to wait for him."],
         ],
         [
           mc(
@@ -2352,7 +2352,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "El modo cambia el sentido del verbo de habla."
       ),
       toEs("The teacher says (that) we should read chapter three.", "La profesora dice que leamos el capítulo tres.", "Cuando «decir» transmite una orden, va con subjuntivo: «dice que leamos».", ["El profesor dice que leamos el capítulo tres.", "La profesora dice que tenemos que leer el capítulo tres."]),
-      wo("Me escribió que la esperara en la puerta del cine.", "Escribir que + imperfecto de subjuntivo (orden).", "She wrote me to wait for her at the cinema door."),
+      wo("Me escribió que la esperara en la puerta del cine.", "Escribir que + imperfecto de subjuntivo (orden).", "She wrote asking me to wait for her at the cinema door."),
     ]
   ),
   L(
@@ -3260,7 +3260,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
           ["Me dijo que lo sentía.", "estilo indirecto"],
           ["Fue él quien empezó.", "énfasis"],
         ],
-        "Cuatro funciones del nivel Avanzado."
+        "«Ojalá» + pluscuamperfecto de subjuntivo lamenta el pasado; «yo en tu lugar» + condicional aconseja; «me dijo que» reporta las palabras de otro; «fue él quien» destaca al sujeto."
       ),
       toEs("I wish we had talked earlier.", "Ojalá hubiéramos hablado antes.", "«Ojalá» + pluscuamperfecto de subjuntivo expresa lamento por algo pasado.", ["Ojalá hubiésemos hablado antes.", "Ojalá que hubiéramos hablado antes."]),
       wo("No es que no te quiera, es que necesito tiempo.", "No es que + subjuntivo, es que + indicativo.", "It's not that I don't love you, it's that I need time."),
@@ -3352,7 +3352,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
       fb("Modo y tiempo.", "Me alegré de que ___ el premio. (ganar, tú)", "ganaras", "Pasado → imperfecto."),
       fb("Modo y tiempo.", "Cuando ___ joven, viajaba mucho. (ser, yo)", "era", "Hábito pasado → indicativo."),
       fb("Modo y tiempo.", "Cuando ___ mayor, viajaré mucho. (ser, yo)", "sea", "Futuro → subjuntivo."),
-      fb("Modo y tiempo.", "Salimos sin que nadie nos ___. (ver)", "viera", "Sin que + imperfecto (pasado)."),
+      fb("Modo y tiempo.", "Salimos sin que nadie nos ___. (ver)", "viera", "Sin que + subjuntivo; imperfecto porque el verbo principal (salimos) está en pasado."),
       fb("Modo y tiempo.", "No es verdad que ___ tanto dinero. (ganar, él)", "gane", "Negación de certeza."),
       fb("Modo y tiempo.", "Es evidente que ___ razón. (tener, tú)", "tienes", "Certeza → indicativo."),
       mc(
@@ -3483,7 +3483,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
           ["huérfano", "quedarse"],
           ["en un símbolo nacional", "convertirse"],
         ],
-        "Rápido, voluntario, resultado, transformación."
+        "Ponerse: cambio rápido y pasajero (rojo); hacerse: cambio voluntario o por esfuerzo (socio); quedarse: resultado de una pérdida (huérfano); convertirse en: transformación completa (un símbolo)."
       ),
       toEs("There was an accident and the road is closed.", "Hubo un accidente y la carretera está cortada.", "«Hubo» presenta un suceso puntual y «está cortada» describe el resultado.", ["Ha habido un accidente y la carretera está cortada.", "Hubo un accidente y la carretera está cerrada."]),
     ]
@@ -3683,7 +3683,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         ],
         [
           fb("Completa.", "Sus padres no querían que ___ la receta de la abuela. (cambiar, ella)", "cambiara", "Querer (pasado) + imperfecto de subjuntivo."),
-          fb("Completa.", "Busca un sabor que nadie ___ probado antes. (haber)", "haya", "Antecedente inexistente + perfecto de subjuntivo."),
+          fb("Completa.", "Busca un sabor que nadie ___ probado antes. (haber)", "haya", "Antecedente desconocido (busca un sabor que quizá no exista) + perfecto de subjuntivo."),
         ]
       ),
     ],
@@ -3799,7 +3799,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     "siblings-dividing-inheritance",
     "b2r-tema-herencia",
     "Repaso temático: repartir una herencia",
-    "Objetos con memoria, desacuerdos entre hermanos y decisiones difíciles — el nivel Avanzado en un conflicto familiar.",
+    "Objetos con memoria, desacuerdos entre hermanos y decisiones difíciles — proponer, discrepar y conceder (propongo que, no creo que, aunque): repaso del nivel Avanzado.",
     "7 min",
     [
       sec(
@@ -3879,7 +3879,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     "teacher-last-year",
     "b2r-tema-jubilacion",
     "Repaso temático: el último año en el aula",
-    "Jubilación, legado y despedidas — recuerdos, deseos y balances con el nivel Avanzado.",
+    "Jubilación, legado y despedidas — hacer balance con perfecto, imperfecto, condicional perfecto y ojalá: repaso del nivel Avanzado.",
     "7 min",
     [
       sec(
@@ -4262,7 +4262,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     "lo-que-no-se-hereda",
     "b2r-tema-tierra-familia",
     "Repaso temático: la tierra de la familia",
-    "Olivares, campos y decisiones entre generaciones — lo que se hereda y lo que no.",
+    "Olivares, campos y decisiones entre generaciones — deseos con ojalá, hipótesis con si y recuerdos en imperfecto: repaso del nivel Avanzado.",
     "7 min",
     [
       sec(
@@ -4279,7 +4279,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Completa.", "Aunque ___ poco dinero, este campo vale mucho para nosotros. (dar)", "da", "Aunque + indicativo (hecho)."),
+      { ...fb("Completa.", "Aunque ___ poco dinero, este campo vale mucho para nosotros. (dar)", "da", "Aunque + indicativo (hecho)."), altAnswers: ["dé", "deja", "deje"] },
       fb("Completa.", "No hay nadie en la familia que ___ cultivar olivos. (saber)", "sepa", "Antecedente inexistente."),
       fb("Completa.", "Lo que se hereda no es solo la tierra, ___ también la responsabilidad.", "sino", "«No solo…, sino también…» suma una segunda idea a la primera."),
       mc(
@@ -4314,7 +4314,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         ],
         [
           fb("Completa.", "Lo que me duele es que no ___ las letras originales. (respetar, ella)", "respete", "Lo que + doler que + subjuntivo."),
-          fb("Completa.", "Aunque la ___ con guitarra eléctrica, la emoción es la misma. (cantar, ella; hecho)", "canta", "Aunque + indicativo (hecho)."),
+          { ...fb("Completa.", "Aunque la ___ con guitarra eléctrica, la emoción es la misma. (cantar, ella; hecho)", "canta", "Aunque + indicativo (hecho)."), altAnswers: ["cante"] },
         ]
       ),
     ],
@@ -4497,7 +4497,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Completa.", "Me dijeron que ___ libre de elegir. (ser, yo)", "era", "Estilo indirecto: presente → imperfecto."),
       fb("Completa.", "Aunque me ___ otro trabajo, no lo aceptaría. (ofrecer, ellos)", "ofrecieran", "Aunque + imperfecto de subjuntivo (hipótesis)."),
-      fb("Completa.", "Fue mi madre ___ me enseñó a mover las marionetas.", "quien", "En las hendidas de persona se usa «quien» (o «la que»): «Fue mi madre quien…»."),
+      fb("Completa.", "Fue mi madre ___ me enseñó a mover las marionetas.", "quien", "Para destacar a una persona con «fue… quien» se usa «quien» (o «la que»): «Fue mi madre quien…»."),
       mt(
         "Relaciona cada palabra con su significado.",
         [
