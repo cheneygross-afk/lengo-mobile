@@ -362,10 +362,10 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       fb("Complete with estar in the imperfect.", "La tienda ___ cerrada cuando llegamos.", "estaba", "A state in the background → estaba."),
       fb("Complete with ser in the imperfect.", "Las clases de la señora Ruiz ___ muy interesantes.", "eran", "Description in the past → eran."),
       mc(
-        "\"There were many people.\" (background description)",
+        "\"When we arrived, there were a lot of people.\" How do you say \"there were a lot of people\"?",
         ["Había mucha gente.", "Habían mucha gente.", "Hubo mucha gente.", "Estaba mucha gente."],
         0,
-        "Hay becomes había in the imperfect, and like hay it stays singular: había mucha gente. \"Habían\" is a common mistake, \"hubo\" is preterite (a one-time event), and \"estaba\" can't express existence."
+        "Hay becomes había in the imperfect, and like hay it stays singular: había mucha gente. \"Habían\" is a common mistake, \"hubo\" is preterite (a one-time event), and \"estaba\" can't express existence. Describing the scene is background, so imperfect."
       ),
       ms(
         "Which sentences are correct?",
@@ -426,7 +426,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "The arrival is a single event (preterite llegó), and the playing was already happening (imperfect jugaba). The wrong pairs make the arrival ongoing or the playing a completed event."
       ),
       ms(
-        "Which of these sentences are background (imperfect)?",
+        "Which of these sentences are background?",
         ["Hacía frío.", "Tomás abrió la puerta.", "El perro era pequeño y negro.", "El chico devolvió la bici."],
         [0, 2],
         "Hacía frío (weather) and era pequeño (description) are background, so imperfect. \"Abrió\" and \"devolvió\" are events that move the story, so preterite."
@@ -1956,7 +1956,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "Mientras + imperfect gives the ongoing action (hablábamos), and the preterite gives what happened (trajo). The wrong options use the present hablamos or the imperfect traía for the single event."
       ),
       ms(
-        "Which sentences are scene-setting (imperfect)?",
+        "Which sentences are scene-setting?",
         ["No había luz en ninguna calle.", "Mamá encontró las velas.", "El perro tenía miedo.", "Encendimos las velas."],
         [0, 2],
         "No había luz and el perro tenía miedo set the scene, so imperfect. Finding and lighting the candles are plot events, so preterite."

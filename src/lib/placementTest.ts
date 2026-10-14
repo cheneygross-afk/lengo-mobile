@@ -109,7 +109,7 @@ export const ROUTER_QUESTIONS: PlacementQuestion[] = [
     "A1",
     "grammar",
     "ser-vs-estar-drill-1",
-    "La sopa ___ muy caliente ahora mismo.",
+    "Choose the right verb: La sopa ___ muy caliente ahora mismo.",
     ["es", "está", "son", "están"],
     1,
     "How hot the soup is right now is a temporary condition, so it takes estar: \"La sopa está muy caliente.\""

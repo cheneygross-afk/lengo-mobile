@@ -117,8 +117,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "La ayuda es simultánea o posterior al deseo, no anterior a él."
           },
           {
-            "es": "Quería que me hubieras ayudado antes de la mudanza.",
-            "en": "La ayuda debía haberse dado antes del momento del deseo."
+            "es": "Esperaba que ya me hubieras ayudado con la mudanza.",
+            "en": "La ayuda se esperaba ya realizada en el momento de la espera: es anterior al verbo principal."
           },
           {
             "es": "Dudaba que hubiera terminado el informe a tiempo.",
@@ -275,7 +275,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "No implica que estés equivocado.",
-            "en": "El hablante distancia su juicio del de la otra persona."
+            "en": "Se niega una implicación lógica: de lo dicho no se sigue que el otro esté equivocado."
           },
           {
             "es": "No es que no quiera ayudarte.",
@@ -462,7 +462,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "la locución verbal",
-            "en": "expresión fija formada por varias palabras que funciona como una sola unidad de significado"
+            "en": "expresión fija de varias palabras que funciona como un verbo («llevar a cabo», «echar de menos»)"
           },
           {
             "es": "la enunciación",
@@ -1058,7 +1058,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué función cumple «el hecho de que» en la oración «el hecho de que hayan cerrado la fábrica afectó a toda la región»?",
+            "question": "¿Qué función cumple «el hecho de que» en la oración «el hecho de que cerraran la fábrica afectó a toda la región»?",
             "options": [
               "Introduce una pregunta indirecta.",
               "Convierte toda la proposición en un bloque nominal que funciona como sujeto.",
@@ -1523,8 +1523,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "hecho",
           "de",
           "que",
-          "hayan",
-          "cerrado",
+          "cerraran",
           "la",
           "fábrica",
           "afectó",
@@ -1533,7 +1532,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "región"
         ],
         "translation": "The fact that they closed the factory affected the region.",
-        "explanation": "«El hecho de que hayan cerrado la fábrica» nominaliza toda la proposición, que funciona como sujeto de «afectó»."
+        "explanation": "«El hecho de que cerraran la fábrica» nominaliza toda la proposición, que funciona como sujeto de «afectó»."
       }
     ]
   },
@@ -2773,8 +2772,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "El agente aporta información relevante sobre quién realizó la acción."
           },
           {
-            "es": "La decisión fue tomada tras meses de negociación.",
-            "en": "El agente se omite porque no resulta relevante para el mensaje."
+            "es": "La decisión fue tomada por el consejo tras meses de negociación.",
+            "en": "El agente se expresa porque es relevante; sin él, lo natural sería la pasiva refleja: «La decisión se tomó tras meses de negociación»."
           }
         ],
         "checkpoint": [
@@ -4449,19 +4448,19 @@ const C1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración con «para» de finalidad en un contexto profesional.",
+        "prompt": "Ordena las palabras para formar una oración con la fórmula fija «por lo pronto».",
         "words": [
-          "se",
-          "creó",
-          "un",
-          "comité",
-          "para",
-          "supervisar",
+          "por",
+          "lo",
+          "pronto",
+          "mantendremos",
           "el",
-          "cumplimiento"
+          "horario",
+          "actual"
         ],
-        "translation": "A committee was set up to monitor compliance.",
-        "explanation": "«Para supervisar el cumplimiento» expresa el propósito por el cual se creó el comité."
+        "altOrders": [["mantendremos", "el", "horario", "actual", "por", "lo", "pronto"]],
+        "translation": "For now, we'll keep the current schedule.",
+        "explanation": "«Por lo pronto» es una fórmula fija que señala una decisión provisional mientras se aclara la situación."
       }
     ]
   },
@@ -4877,18 +4876,18 @@ const C1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Cuáles de las siguientes oraciones describen un estado circunstancial y no un rasgo estable de carácter?",
+        "question": "¿Cuáles de las siguientes oraciones usan correctamente «hay» o «estar» según la determinación del sustantivo?",
         "options": [
-          "Está interesada en el nuevo proyecto.",
-          "Es una persona muy interesada, siempre calcula su beneficio.",
-          "Se puso violento durante la discusión de ayer.",
-          "Es un hombre violento, siempre ha sido así."
+          "Hay una farmacia al final de la calle.",
+          "Las llaves están en el cajón de la entrada.",
+          "Hay las llaves en el cajón de la entrada.",
+          "Está un problema con la factura."
         ],
         "correctIndexes": [
           0,
-          2
+          1
         ],
-        "explanation": "«Estar interesada» y «estar violento» describen estados puntuales y circunstanciales; las otras dos oraciones, con «ser», atribuyen rasgos estables de carácter."
+        "explanation": "«Hay» presenta algo nuevo, con sustantivo indeterminado («una farmacia», «un problema»); «estar» localiza algo ya identificado, con sustantivo determinado («las llaves»). Por eso «hay las llaves» y «está un problema» son incorrectas: lo correcto es «las llaves están…» y «hay un problema…»."
       },
       {
         "type": "fill-blank",
@@ -6041,7 +6040,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "«Dar con» exige siempre un sujeto plural."
         ],
         "correctIndex": 1,
-        "explanation": "«Dar con algo» presupone un esfuerzo o una búsqueda previa que culmina en un hallazgo; «encontrarse con alguien», en cambio, describe un encuentro que puede ser fortuito, sin ninguna búsqueda deliberada de por medio. No son sinónimos, «encontrarse con» se usa sobre todo con personas y «dar con» admite cualquier sujeto, singular o plural."
+        "explanation": "«Dar con algo» presupone un esfuerzo o una búsqueda previa que culmina en un hallazgo; «encontrarse con alguien», en cambio, describe un encuentro que puede ser fortuito, sin ninguna búsqueda deliberada de por medio. No son sinónimos: «encontrarse con» se usa tanto con personas como con cosas o situaciones («me encontré con un problema»), y «dar con» admite cualquier sujeto, singular o plural."
       },
       {
         "type": "matching",
@@ -6247,7 +6246,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "concertar",
-            "en": "acordar de mutuo acuerdo el lugar, la hora o los términos de algo"
+            "en": "fijar de común acuerdo el lugar, la hora o los términos de algo"
           },
           {
             "es": "dar con",
@@ -6609,7 +6608,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "El plan es ambicioso y bien diseñado. Ahora bien, su coste sigue siendo un obstáculo.",
+            "es": "El plan es ambicioso y está bien diseñado. Ahora bien, su coste sigue siendo un obstáculo.",
             "en": "Se acepta el mérito del plan antes de introducir una limitación relevante."
           },
           {
@@ -6636,7 +6635,7 @@ const C1_BASE_LESSONS: Lesson[] = [
               "Se usa exclusivamente para resumir todo el texto."
             ],
             "correctIndex": 1,
-            "explanation": "«Ahora bien» señala que el hablante concede el punto anterior antes de introducir una consideración que lo matiza, sin negarlo por completo. No es una oposición frontal (como «sin embargo» tajante o «al contrario»), no cierra el argumento y no resume el texto."
+            "explanation": "«Ahora bien» señala que el hablante concede el punto anterior antes de introducir una consideración que lo matiza, sin negarlo por completo. No es una oposición frontal (como «al contrario» o un «pero» tajante), no cierra el argumento y no resume el texto."
           }
         ]
       }
@@ -6820,7 +6819,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Se comprometió a terminarlo a tiempo, a riesgo de tener que trabajar todo el fin de semana.",
-            "en": "Consecuencia negativa asumida como posible por el hablante."
+            "en": "Consecuencia negativa asumida como posible por el propio sujeto."
           }
         ],
         "checkpoint": [
@@ -7707,7 +7706,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "heading": "Deber de más infinitivo frente a deber más infinitivo",
         "body": [
           "La norma académica tradicional distingue con nitidez «deber» + infinitivo, que expresa obligación, de «deber de» + infinitivo, que expresa conjetura o probabilidad. Esta distinción, aunque clara en la teoría gramatical, se ha erosionado considerablemente en el uso real de la lengua: en el habla espontánea, incluso entre hablantes cultos, «deber» sin «de» se emplea con frecuencia para expresar conjetura, generando una superposición que los propios gramáticos reconocen como generalizada.",
-          "A pesar de esta erosión en el uso oral, el registro escrito formal sigue recomendando mantener la distinción original: reservar «deber» sin preposición para la obligación, y «deber de» para la conjetura. Un hablante que domina este nivel debe conocer ambos matices para poder aplicar la forma correcta según el registro y el contexto comunicativo, sin caer en la hipercorrección de rechazar por completo un uso que, aunque no ideal desde la norma, resulta plenamente comprensible y frecuente en el habla cotidiana."
+          "A pesar de esta erosión en el uso oral, el registro escrito formal sigue recomendando mantener la distinción original: reservar «deber» sin preposición para la obligación, y «deber de» para la conjetura. Un hablante que domina este nivel debe conocer ambos matices para poder aplicar la forma correcta según el registro y el contexto comunicativo, sin caer en la hipercorrección de rechazar «deber» + infinitivo con valor de conjetura, que la propia norma académica admite («Deben ser las cinco»). Lo que la norma sí censura es lo contrario: «deber de» con valor de obligación («✗ Debes de entregarlo hoy» → «Debes entregarlo hoy»), un error muy frecuente incluso entre nativos."
         ],
         "examples": [
           {
@@ -8647,7 +8646,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "heading": "La conjugación voseante en el presente y el imperativo",
         "body": [
           "La marca más reconocible del voseo aparece en el presente de indicativo, donde la forma verbal se acentúa en la última sílaba y pierde el diptongo característico de la conjugación tuteante: vos tenés, vos podés, vos querés, frente a tú tienes, tú puedes, tú quieres. Esta desinencia aguda —terminada en -ás, -és o -ís según la conjugación— es la que delata de inmediato a un hablante voseante ante cualquier oído entrenado.",
-          "El imperativo sigue una lógica parecida y resulta, de hecho, más regular que el tuteante: vení, tené, decí, conservan el acento en la misma sílaba que el infinitivo, sin las irregularidades que complican el imperativo de tú, como ven o ten. En cambio, otros tiempos verbales —el pretérito, el futuro, el subjuntivo— no presentan, en la norma culta, diferencias con la conjugación tuteante (en el habla coloquial se oyen formas como «que tengás»), por lo que el voseo, lejos de ser un sistema paralelo completo, se concentra sobre todo en el presente y el imperativo."
+          "El imperativo sigue una lógica parecida y resulta, de hecho, más regular que el tuteante: vení, tené y decí conservan el acento en la misma sílaba que el infinitivo, sin las irregularidades que complican el imperativo de tú, como ven o ten. En cambio, otros tiempos verbales —el pretérito, el futuro, el subjuntivo— no presentan, en la norma culta, diferencias con la conjugación tuteante (en el habla coloquial se oyen formas como «que tengás»), por lo que el voseo, lejos de ser un sistema paralelo completo, se concentra sobre todo en el presente y el imperativo."
         ],
         "examples": [
           {
@@ -8927,7 +8926,9 @@ const C1_BASE_LESSONS: Lesson[] = [
         "source": "Where are you from? Do you speak Portuguese too?",
         "answer": "¿De dónde sos vos? ¿Hablás portugués también?",
         "altAnswers": [
-          "¿Vos de dónde sos? ¿También hablás portugués?"
+          "¿Vos de dónde sos? ¿También hablás portugués?",
+          "¿De dónde sos? ¿Hablás portugués también?",
+          "¿De dónde sos? ¿También hablás portugués?"
         ],
         "explanation": "«Sos» y «hablás» son las formas voseantes de «ser» y «hablar» en presente, ambas propias del voseo: «sos» sustituye a «eres» y «hablás» lleva el acento en la última sílaba (tú «hablas»)."
       },
@@ -9218,7 +9219,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "el arcaísmo",
-            "en": "la palabra o construcción antigua que se conserva en el uso actual"
+            "en": "la palabra o construcción anticuada, propia de otra época, que ya apenas se usa"
           },
           {
             "es": "la vigencia",
@@ -10664,12 +10665,12 @@ const C1_BASE_LESSONS: Lesson[] = [
         "question": "¿Cuál de las siguientes fórmulas resulta apropiada para abrir un correo formal dirigido a una autoridad?",
         "options": [
           "Qué tal, ¿cómo va todo?",
-          "Estimada señora, por medio de la presente...",
+          "Estimada señora: por medio de la presente...",
           "Hola, te escribo para...",
           "Buenas, cuéntame"
         ],
         "correctIndex": 1,
-        "explanation": "Estimada señora, por medio de la presente constituye una fórmula de apertura solemne, adecuada para un escrito dirigido a una autoridad. «Qué tal, ¿cómo va todo?», «Hola, te escribo para…» y «Buenas, cuéntame» son informales y tutean, inadecuados para una autoridad."
+        "explanation": "«Estimada señora: por medio de la presente…» constituye una fórmula de apertura solemne, adecuada para un escrito dirigido a una autoridad. «Qué tal, ¿cómo va todo?», «Hola, te escribo para…» y «Buenas, cuéntame» son informales y tutean, inadecuados para una autoridad."
       }
     ]
   },
@@ -11120,7 +11121,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "Según el texto, ¿qué ocurre cuando un escrito formal abusa de fórmulas fijas sin aportar contenido concreto?",
+        "question": "Según la definición de «formulismo» (el uso excesivo de fórmulas fijas), ¿qué ocurre cuando un escrito formal abusa de fórmulas fijas sin aportar contenido concreto?",
         "options": [
           "El escrito se vuelve más persuasivo automáticamente",
           "El texto resulta hueco, cargado de solemnidad pero vacío de sustancia",
@@ -11381,6 +11382,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Reescribe la idea evitando la primera persona, según la convención académica estudiada.",
         "sentence": "En vez de decir 'pienso que el modelo económico ha fracasado', el registro académico prefiere decir que el modelo económico ___ haber fracasado.",
         "answer": "parece",
+        "altAnswers": ["parecería", "podría"],
         "hint": "Piensa en un verbo que atenúe la certeza de la afirmación sin recurrir a la primera persona.",
         "explanation": "«Parece haber fracasado» desplaza el énfasis desde el autor individual hacia el razonamiento mismo, y añade además un matiz de atenuación propio del discurso académico maduro."
       },
@@ -11401,6 +11403,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con el conector que introduzca una objeción frente a lo afirmado anteriormente.",
         "sentence": "El primer estudio no halló resultados significativos; ___, un análisis posterior con una muestra mayor sí confirmó la hipótesis inicial.",
         "answer": "sin embargo",
+        "altAnswers": ["no obstante", "ahora bien", "con todo"],
         "hint": "Se necesita un conector que introduzca un matiz u objeción, no una conclusión.",
         "explanation": "«Sin embargo» introduce aquí una objeción o un matiz frente a la afirmación anterior, señalando que un estudio posterior contradijo el resultado del primero."
       },
@@ -11409,6 +11412,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con el conector que introduzca una conclusión derivada de lo anterior.",
         "sentence": "El estudio empleó una muestra representativa y un diseño metodológico riguroso; ___, sus conclusiones merecen una consideración seria.",
         "answer": "por consiguiente",
+        "altAnswers": ["en consecuencia", "por tanto", "por lo tanto", "por ende", "así pues"],
         "hint": "Se necesita un conector que señale una conclusión que se desprende de lo anterior.",
         "explanation": "«Por consiguiente» señala precisamente una conclusión que se desprende lógicamente del razonamiento anterior, a diferencia de conectores como «sin embargo», que introducirían una objeción."
       },
@@ -11563,10 +11567,10 @@ const C1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Por qué el registro académico en español prefiere evitar sistemáticamente la primera persona del singular?",
+        "question": "¿Por qué el registro académico en español tiende a evitar la primera persona del singular?",
         "options": [
           "Porque la primera persona del singular es gramaticalmente incorrecta en cualquier contexto formal.",
-          "Porque busca presentar el argumento como sostenido por la evidencia y la lógica, y no como una simple opinión personal del autor, sin renunciar por ello a la responsabilidad intelectual sobre lo afirmado.",
+          "Porque busca presentar el argumento como sostenido por la evidencia y no como una opinión personal del autor.",
           "Porque el español académico carece de formas verbales en primera persona.",
           "Porque el uso de la primera persona está reservado exclusivamente a la poesía."
         ],
@@ -11621,6 +11625,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración con una expresión de atenuación adecuada al registro académico.",
             "sentence": "Los resultados obtenidos ___ que la hipótesis inicial era, al menos parcialmente, acertada.",
             "answer": "sugieren",
+            "altAnswers": ["parecen indicar", "parecen sugerir", "apuntan a", "indican"],
             "explanation": "La expresión los resultados sugieren atenúa la afirmación y refleja la reserva epistémica propia del discurso académico maduro.",
             "hint": "Piensa en un verbo que comunique una conclusión probable sin presentarla como certeza absoluta."
           }
@@ -11658,7 +11663,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "body": [
           "Introducción: el presente ensayo sostiene que la expansión del comercio digital ha modificado sustancialmente los hábitos de consumo en la región durante la última década.",
           "En primer lugar, cabe señalar que los datos disponibles sugieren un crecimiento sostenido de las transacciones realizadas por medios electrónicos.",
-          "Asimismo, se observa que este fenómeno no ha afectado por igual a todos los sectores de la población, lo cual introduce una limitación importante al alcance de esta conclusión.",
+          "Ahora bien, se observa que este fenómeno no ha afectado por igual a todos los sectores de la población, lo cual introduce una limitación importante al alcance de esta conclusión.",
           "Por otra parte, conviene reconocer que existen interpretaciones alternativas: algunos autores atribuyen este cambio principalmente a factores demográficos, y no exclusivamente tecnológicos.",
           "No obstante, la evidencia recopilada permite sostener que ambos factores actúan de manera complementaria, más que excluyente.",
           "En consecuencia, resulta razonable afirmar que cualquier análisis futuro debería considerar la interacción entre ambas variables, y no privilegiar una sobre la otra.",
@@ -12110,7 +12115,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 123,
     "title": "Matices Avanzados del Subjuntivo: Práctica Extra, Part 2 of 3",
-    "summary": "Practica usos avanzados y sutiles del subjuntivo: quizás/tal vez, por muy...que, exclamaciones independientes, el hecho de que, no porque, y expresiones fijas como sea como sea o cueste lo que cueste.",
+    "summary": "Practica el subjuntivo en exclamaciones independientes («¡Que tengas buen viaje!»), tras «el hecho de que» y en «no porque… sino porque».",
     "duration": "8 min",
     "sections": [
       {
@@ -12614,7 +12619,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 126,
     "title": "La Nominalización: Práctica Extra, Part 2 of 3",
-    "summary": "Practica cómo convertir adjetivos y verbos en sustantivos abstractos usando 'lo + adjetivo', 'el/la + infinitivo' y sufijos como -dad, -ción, -miento y -eza, para lograr una escritura más sofisticada y compacta.",
+    "summary": "Practica los sufijos que convierten adjetivos y verbos en sustantivos abstractos: -dad/-tad (la libertad), -ción/-sión (la organización) y -miento (el crecimiento).",
     "duration": "9 min",
     "sections": [
       {
@@ -12827,7 +12832,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 127,
     "title": "La Nominalización: Práctica Extra, Part 3 of 3",
-    "summary": "Practica cómo convertir adjetivos y verbos en sustantivos abstractos usando 'lo + adjetivo', 'el/la + infinitivo' y sufijos como -dad, -ción, -miento y -eza, para lograr una escritura más sofisticada y compacta.",
+    "summary": "Practica los sufijos -eza y -ura (la belleza, la tristeza) y la nominalización en la escritura formal, que comprime una cláusula entera en un sustantivo («la rápida decisión del gobierno»).",
     "duration": "6 min",
     "sections": [
       {
@@ -13050,10 +13055,11 @@ const C1_BASE_LESSONS: Lesson[] = [
         "direction": "es-en",
         "prompt": "Traduce la oración al inglés.",
         "source": "Bajó las escaleras corriendo porque llegaba tarde.",
-        "answer": "He/She ran down the stairs because he/she was running late.",
+        "answer": "He ran down the stairs because he was running late.",
         "altAnswers": [
-          "He/She went down the stairs running because he/she was late.",
-          "She ran down the stairs because she was running late."
+          "She ran down the stairs because she was running late.",
+          "He went down the stairs running because he was late.",
+          "She went down the stairs running because she was late."
         ],
         "explanation": "El gerundio 'corriendo' describe cómo bajó las escaleras; en inglés se traduce con 'ran down' o con '-ing' según el contexto."
       },
@@ -13092,7 +13098,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 129,
     "title": "Gerundio vs. Infinitivo: Práctica Extra, Part 2 of 3",
-    "summary": "Practica las distinciones avanzadas entre el gerundio y el infinitivo: acciones simultáneas, el error del gerundio de posterioridad, el infinitivo tras preposición, el infinitivo como sujeto y las construcciones verbales que exigen una u otra forma.",
+    "summary": "Practica el infinitivo tras preposición («antes de salir»), el infinitivo como sujeto («Fumar es malo») y seguir/continuar + gerundio.",
     "duration": "8 min",
     "sections": [
       {
@@ -13271,7 +13277,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 130,
     "title": "Gerundio vs. Infinitivo: Práctica Extra, Part 3 of 3",
-    "summary": "Practica las distinciones avanzadas entre el gerundio y el infinitivo: acciones simultáneas, el error del gerundio de posterioridad, el infinitivo tras preposición, el infinitivo como sujeto y las construcciones verbales que exigen una u otra forma.",
+    "summary": "Practica empezar a / dejar de + infinitivo frente a ir / venir / llevar + gerundio, y repasa todas las distinciones entre gerundio e infinitivo.",
     "duration": "9 min",
     "sections": [
       {
@@ -13383,9 +13389,11 @@ const C1_BASE_LESSONS: Lesson[] = [
         "direction": "es-en",
         "prompt": "Traduce la oración al inglés.",
         "source": "Viajar por el mundo es su mayor sueño.",
-        "answer": "Traveling around the world is his/her greatest dream.",
+        "answer": "Traveling around the world is his greatest dream.",
         "altAnswers": [
-          "To travel around the world is his/her greatest dream."
+          "Traveling around the world is her greatest dream.",
+          "To travel around the world is his greatest dream.",
+          "To travel around the world is her greatest dream."
         ],
         "explanation": "El infinitivo español como sujeto de la oración equivale al gerundio inglés ('-ing') o al infinitivo con 'to'."
       },
@@ -13735,7 +13743,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "right": "Se impersonal con verbo de comunicación"
           }
         ],
-        "explanation": "La voz pasiva con ser usa 'ser + participio' y suele mencionar el agente; la pasiva refleja usa 'se' con un sujeto paciente que concuerda en número; el se impersonal usa 'se' con el verbo siempre en singular y sin sujeto paciente claro."
+        "explanation": "La voz pasiva con ser usa 'ser + participio' y puede mencionar el agente con 'por'; la pasiva refleja usa 'se' con un sujeto paciente que concuerda en número; el se impersonal usa 'se' con el verbo siempre en singular y sin sujeto paciente claro."
       },
       {
         "type": "multi-select",
@@ -14597,7 +14605,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 138,
     "title": "Ser, Estar y Haber: Casos Límite: Práctica Extra, Part 2 of 3",
-    "summary": "Práctica intensiva de los usos más avanzados y ambiguos de ser, estar y haber: participios con matiz de acción o estado, la pasiva progresiva 'estar siendo', el precio fijo frente al precio variable, los adjetivos de percepción subjetiva y las fórmulas idiomáticas del registro formal.",
+    "summary": "Practica ser y estar con precios («son veinte euros» / «está a doce euros el kilo»), con adjetivos de percepción subjetiva («está guapísima») y en fórmulas formales como «tener a bien» y «ha lugar».",
     "duration": "8 min",
     "sections": [
       {
@@ -14778,13 +14786,13 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 139,
     "title": "Ser, Estar y Haber: Casos Límite: Práctica Extra, Part 3 of 3",
-    "summary": "Práctica intensiva de los usos más avanzados y ambiguos de ser, estar y haber: participios con matiz de acción o estado, la pasiva progresiva 'estar siendo', el precio fijo frente al precio variable, los adjetivos de percepción subjetiva y las fórmulas idiomáticas del registro formal.",
+    "summary": "Practica ser para ubicar eventos frente a estar para lugares y objetos, «estar siendo» + adjetivo para cualidades pasajeras, y un repaso integrador de todos los casos límite.",
     "duration": "9 min",
     "sections": [
       {
         "heading": "Ser y estar con la ubicación de eventos frente a objetos",
         "body": [
-          "Para localizar un evento se usa 'ser', pero para localizar un objeto, un lugar o una persona se usa siempre 'estar'."
+          "Para localizar un evento se usa 'ser', pero para localizar un objeto, un lugar o una persona ya identificados se usa 'estar' (para presentar algo no identificado, 'hay')."
         ],
         "examples": [
           {
@@ -15197,7 +15205,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 141,
     "title": "Verbos con Preposición Fija: Práctica Extra, Part 2 of 3",
-    "summary": "Practica de forma intensiva los verbos preposicionales avanzados del español —soñar con, consistir en, fijarse en, depender de, negarse a, entre otros— con énfasis en los pares que cambian de sentido según la preposición.",
+    "summary": "Practica los verbos con CON (soñar con, contar con, dar con) y el contraste entre pensar EN (tener en mente) y pensar DE (opinar).",
     "duration": "7 min",
     "sections": [
       {
@@ -15317,7 +15325,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál oración usa correctamente el sentido de orientación espacial?",
+        "question": "¿Cuál oración usa correctamente «dar a» para indicar hacia dónde está orientado un lugar?",
         "options": [
           "La cocina da con el jardín.",
           "La cocina da al jardín.",
@@ -15348,7 +15356,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 142,
     "title": "Verbos con Preposición Fija: Práctica Extra, Part 3 of 3",
-    "summary": "Practica de forma intensiva los verbos preposicionales avanzados del español —soñar con, consistir en, fijarse en, depender de, negarse a, entre otros— con énfasis en los pares que cambian de sentido según la preposición.",
+    "summary": "Practica el contraste dar CON (encontrar) / dar A (estar orientado hacia) y repasa los verbos que rigen DE, EN, A y CON.",
     "duration": "9 min",
     "sections": [
       {
@@ -15736,7 +15744,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 144,
     "title": "El Voseo Rioplatense: Práctica Extra, Part 2 of 3",
-    "summary": "Ejercicios de repaso y repetición sobre el voseo: presente indicativo, imperativo y subjuntivo con vos, además de los pronombres y posesivos que no cambian respecto a tú.",
+    "summary": "Practica el imperativo afirmativo de vos (hablá, volvé), el imperativo negativo y el presente de subjuntivo con vos (no hables, que vengas).",
     "duration": "8 min",
     "sections": [
       {
@@ -15913,7 +15921,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 145,
     "title": "El Voseo Rioplatense: Práctica Extra, Part 3 of 3",
-    "summary": "Ejercicios de repaso y repetición sobre el voseo: presente indicativo, imperativo y subjuntivo con vos, además de los pronombres y posesivos que no cambian respecto a tú.",
+    "summary": "Practica los pronombres y posesivos que no cambian con vos (te, tu, tuyo; pero «con vos» en lugar de «contigo») y aprende a reconocer el voseo frente al tuteo.",
     "duration": "8 min",
     "sections": [
       {

@@ -505,7 +505,7 @@ export const DRILLS_A1_3: Record<string, Exercise[]> = {
     fe("¿___ vas esta noche?", "Adónde", "[Where] are you going tonight?", "Motion towards: adónde.", ["A dónde"]),
     toEs("Where is the bathroom?", "¿Dónde está el baño?", "Fixed location: dónde."),
     toEs("Where does your (informal) sister live?", "¿Dónde vive tu hermana?", "Vivir is not motion: dónde, not adónde."),
-    mc("¿___ son tus zapatos, los negros o los marrones?", ["Qué", "Cuáles", "Quiénes", "Cuál"], 1, "Picking from a set of plural options: cuáles."),
+    mc("Which question word fits? «¿___ son tus zapatos, los negros o los marrones?»", ["Qué", "Cuáles", "Quiénes", "Cuál"], 1, "Picking from a set of plural options: cuáles."),
     toEs("Which is your (informal) favorite color?", "¿Cuál es tu color favorito?", "Picking one out of all colors: cuál.", ["¿Cuál es tu color preferido?"]),
     toEs("Who are those girls (far away)?", "¿Quiénes son aquellas chicas?", "Several people: quiénes."),
     toEs("What does «barrio» mean?", "¿Qué significa «barrio»?", "Asking for a meaning: qué."),

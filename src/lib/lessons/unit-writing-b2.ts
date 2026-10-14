@@ -19,7 +19,7 @@ export const B2_UNIT_WRITING: Record<string, WriteExercise> = {
   "b2r-contrast-antecedent": t(
     "Compara a dos profesores: uno que tuviste de verdad y el profesor ideal que te gustaría tener. Alterna indicativo y subjuntivo en las oraciones de relativo.",
     ["Relativos en indicativo para el profesor real (tuve una profesora que…)", "Relativos en subjuntivo para el ideal (quiero un profesor que…)", "Al menos un caso de no hay nadie que / no conozco a nadie que", "Un conector de contraste"],
-    "En el instituto tuve una profesora de Historia que contaba anécdotas increíbles y que nos hacía pensar. Nunca he conocido a nadie que explique tan bien. En cambio, mi profesor ideal de idiomas sería alguien que hable poco y que deje hablar a los alumnos, que corrija sin interrumpir y que proponga temas que nos interesen de verdad. No hay ningún método que funcione para todos, pero un buen profesor es aquel que se adapta.",
+    "En el instituto tuve una profesora de Historia que contaba anécdotas increíbles y que nos hacía pensar. Nunca he conocido a nadie que explique tan bien. En cambio, mi profesor ideal de idiomas es alguien que hable poco y que deje hablar a los alumnos, que corrija sin interrumpir y que proponga temas que nos interesen de verdad. No hay ningún método que funcione para todos, pero un buen profesor es aquel que se adapta.",
     "Antecedente conocido: indicativo (una profesora que contaba). Antecedente buscado, ideal o negado: subjuntivo (alguien que hable, no hay ningún método que funcione)."
   ),
   "subjunctive-adverbial-clauses-1": t(

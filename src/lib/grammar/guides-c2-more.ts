@@ -590,7 +590,7 @@ export const C2_MORE_GUIDES: GrammarGuide[] = [
     readingLevelPath: "c1c2",
     intro: [
       "Spanish tenses don't only place events in time. Many uses tell you how the speaker relates to what they say: how sure they are, how polite they want to be, or whether they're quoting someone else. These are the modal uses of tenses.",
-      "You met the future and conditional of probability at the Mastery level (serán las tres). This guide covers the rest.",
+      "You met the future and conditional of probability earlier in the course (serán las tres). This guide covers the rest.",
     ],
     sections: [
       {

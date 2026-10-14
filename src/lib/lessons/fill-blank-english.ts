@@ -7,6 +7,8 @@
 // words in bold, and the note (verb, tense, person) is shown with the
 // explanation after the learner answers.
 
+import { BEGINNER_BLANK_ENGLISH } from "./fill-blank-english-beginner";
+
 export function fillBlankKey(sentence: string, answer: string): string {
   return `${sentence}\u0000${answer}`;
 }
@@ -122,7 +124,7 @@ const ENTRIES: [sentence: string, answer: string, en: string, note: string][] = 
   ["A pesar de que ___ (ser) tarde, decidieron continuar la reunión.", "era", "Even though it [was] late, they decided to continue the meeting.", "ser → era: imperfect indicative (known fact), impersonal"],
   ["A tus amigos (Latinoamérica): «No ___ tarde.» (llegar, ustedes)", "lleguen", "To your friends (Latin America): \"Don't [be] late.\" (ustedes)", "llegar → lleguen: negative imperative, ustedes (llegar tarde)"],
   ["Aceptaremos a menos que el precio ___. (subir)", "suba", "We'll accept unless the price [goes up].", "subir → suba: present subjunctive (a menos que)"],
-  ["Aceptaríamos con tal de que el pago se ___ en 30 días. (realizar)", "realice", "We would accept provided that payment [is made] within 30 days.", "realizar → se realice: present subjunctive (after 'con tal de que')"],
+  ["Aceptaríamos con tal de que el pago se ___ en 30 días. (realizar)", "realice", "We would accept provided that payment [is made] within 30 days.", "realizar → se realice (or se realizara): subjunctive after 'con tal de que'"],
   ["Aceptaríamos siempre que el plazo ___ de 60 días. (ser)", "fuera", "We would accept as long as the deadline [were] 60 days.", "ser → fuera: imperfect subjunctive (after 'siempre que' + conditional)"],
   ["Aceptó el encargo aunque le ___ muy poco. (pagar, ellos; hecho)", "pagaban", "She accepted the commission even though they [paid] her very little.", "pagar → pagaban: imperfect indicative, ellos (aunque + fact)"],
   ["Actúa como si no ___ nada. (pasar — antes)", "hubiera pasado", "She acts as if nothing [had happened].", "pasar → hubiera pasado: pluperfect subjunctive (como si, prior event)"],
@@ -161,7 +163,7 @@ const ENTRIES: [sentence: string, answer: string, en: string, note: string][] = 
   ["Al terminar, ___ el examen. (entregar + me)", "entréguenme", "When you finish, [hand me] the exam (ustedes).", "entregar + me → entréguenme: imperative, ustedes, pronoun attached"],
   ["Al ver al público, la cantante ___ muy nerviosa. (ponerse, pretérito)", "se puso", "On seeing the audience, the singer [got] very nervous.", "ponerse → se puso: preterite, ella (sudden temporary change)"],
   ["Al ver el precio, se ___ nerviosa. (ponerse/volverse, indefinido)", "puso", "When she saw the price, she [got] nervous.", "ponerse → puso: preterite, ella (temporary emotional change)"],
-  ["Algo que no se puede creer es ___. (in- + creer + -ble)", "increíble", "Something you can't believe is [incredible].", "creer → increíble: in- + cre- + -íble"],
+  ["Algo que no se puede creer es ___. (in- + creer + -ble)", "increíble", "Something you can't believe is [incredible].", "creer → increíble: adjective (that can't be believed)"],
   ["Alguien ___ (romper) la ventana de la cocina.", "ha roto", "Someone [has broken] the kitchen window.", "romper → ha roto: present perfect, 3rd person (irregular participle)"],
   ["Alguien ___ la ventana durante la noche. (abrir, pluscuamperfecto)", "había abierto", "Someone [had opened] the window during the night.", "abrir → había abierto: pluperfect, él (irregular participle)"],
   ["Alguien empieza a comer: ¡Que ___! (aprovechar)", "aproveche", "Someone starts eating: [Enjoy] your meal! (set phrase, 'que...')", "aprovechar → que aproveche: set phrase, present subjunctive"],
@@ -251,7 +253,7 @@ const ENTRIES: [sentence: string, answer: string, en: string, note: string][] = 
   ["Aquí se ___ muchos idiomas. (hablar)", "hablan", "Many languages [are spoken] here.", "hablar → hablan: present, plural (passive 'se' with plural noun)"],
   ["Aquí se ___ platos muy picantes. (cenar)", "cenan", "Here very spicy dishes [are eaten] for dinner.", "cenar → se cenan: passive se, plural (platos)"],
   ["Aquí se ___ tarde. (cenar)", "cena", "Here people [have dinner] late.", "cenar → se cena: impersonal se"],
-  ["Aseguró que las obras no ___ más de dos meses. (durar)", "durarían", "She assured that the works [wouldn't last] more than two months.", "durar → durarían: conditional, ellas (reported future)"],
+  ["Aseguró que las obras no ___ más de dos meses. (durar)", "durarían", "She gave assurances that the work [wouldn't last] more than two months.", "durar → durarían: conditional, ellas (reported future)"],
   ["Aun admitiendo que ___ así, eso no justifica la medida. (ser)", "sea", "Even admitting that it [is] so, that doesn't justify the measure.", "ser → sea: present subjunctive (aun admitiendo que)"],
   ["Aun si ___ razón, no deberías hablarle así. (tener, tú)", "tuvieras", "Even if you [were] right, you shouldn't talk to him like that (tú).", "tener → tuvieras (razón): imperfect subjunctive, tú (aun si)"],
   ["Aunque ___ (llover) mañana, la excursión se mantiene.", "llueva", "Even if it [rains] tomorrow, the excursion is still on.", "llover → llueva: present subjunctive (hypothetical objection)"],
@@ -676,7 +678,7 @@ const ENTRIES: [sentence: string, answer: string, en: string, note: string][] = 
   ["El acusado insistió en que no ___ nada. (hacer, pluscuamperfecto de indicativo)", "había hecho", "The defendant insisted that he [hadn't done] anything.", "hacer → había hecho: pluperfect indicative, él"],
   ["El agua se ___ en hielo. (convertir, presente)", "convierte", "Water [turns] into ice.", "convertir(se) → convierte: present, él (se convierte en)"],
   ["El aire acondicionado no ___ en toda la semana. (funcionar)", "funcionó", "The air conditioning [didn't work] all week.", "funcionar → funcionó: preterite (bounded period)"],
-  ["El alcalde aseguró que las obras ___ antes del verano. (terminar)", "terminarían", "The mayor assured that the works [would finish] before summer.", "terminar → terminarían: conditional, ellas (reported future)"],
+  ["El alcalde aseguró que las obras ___ antes del verano. (terminar)", "terminarían", "The mayor gave assurances that the work [would be finished] before summer.", "terminar → terminarían: conditional, ellas (reported future)"],
   ["El alcalde prometió que ___ más árboles. (plantar, ellos)", "plantarían", "The mayor promised that they [would plant] more trees.", "plantar → plantarían: conditional, ellos (future in reported past speech)"],
   ["El antiguo mercado ___ en un centro cultural. (convertirse, perfecto)", "se ha convertido", "The old market [has turned into] a cultural centre.", "convertirse → se ha convertido: present perfect"],
   ["El anuncio de que la fábrica ___ generó protestas. (cerrar, condicional)", "cerraría", "The announcement that the factory [would close] sparked protests.", "cerrar → cerraría: conditional (future in the past)"],
@@ -969,7 +971,7 @@ const ENTRIES: [sentence: string, answer: string, en: string, note: string][] = 
   ["Era necesario que lo ___. (saber, tú)", "supieras", "It was necessary that you [knew] it (tú).", "saber → supieras: imperfect subjunctive, tú (era necesario que)"],
   ["Era normal que ___ con ellos por todo. (discutir, yo)", "discutiera", "It was normal for me to [argue] with them about everything.", "discutir → discutiera: imperfect subjunctive, yo (after 'era normal que')"],
   ["Era probable que el vuelo se ___. (retrasar)", "retrasara", "The flight was likely to [be delayed] (retrasarse).", "retrasar(se) → se retrasara: imperfect subjunctive (era probable que)"],
-  ["Era raro que no ___ nadie. (oír)", "oyera", "It was strange that nobody [heard] anything.", "oír → oyera: imperfect subjunctive (after 'era raro que')"],
+  ["Era raro que nadie ___ nada. (oír)", "oyera", "It was strange that nobody [heard] anything.", "oír → oyera: imperfect subjunctive (after 'era raro que')"],
   ["Es a ella a ___ tienes que pedir perdón. (el alumno puso: que)", "quien", "It's her [whom] you have to apologize to.", "quien: relative pronoun for a person in a cleft sentence"],
   ["Es bueno que los niños ___ al aire libre. (jugar)", "jueguen", "It's good for children to [play] outdoors.", "jugar → jueguen: present subjunctive, ellos; u→ue, g→gu"],
   ["Es caro; ___, merece la pena. (nevertheless)", "no obstante", "It's expensive; [nevertheless], it's worth it.", "no obstante = nevertheless (contrast connector)"],
@@ -1547,7 +1549,7 @@ const ENTRIES: [sentence: string, answer: string, en: string, note: string][] = 
   ["Les pido que ___ los informes antes del viernes. (enviar)", "envíen", "I ask you to [send] the reports before Friday (ustedes).", "enviar → envíen: present subjunctive, ustedes; accent í"],
   ["Les pido que me ___ una parte del importe. (reembolsar)", "reembolsen", "I ask that you [refund] me part of the amount. (ustedes)", "reembolsar → reembolsen: present subjunctive, ustedes (after 'les pido que')"],
   ["Les ruego que ___ cuanto antes. (responder)", "respondan", "I kindly ask you to [reply] as soon as possible (ustedes).", "responder → respondan: present subjunctive, ustedes"],
-  ["Leyó la primera línea y ___ que el corazón se le detenía. (sentir, pretérito)", "sintió", "She read the first line and [felt] her heart stop.", "sentir → sintió: preterite, ella (e→i stem change)"],
+  ["Leyó la primera línea y ___ que el corazón se le detenía. (sentir, pretérito)", "sintió", "He read the first line and [felt] his heart stop.", "sentir → sintió: preterite, él (e→i stem change)"],
   ["Limpiar el filtro ___ un paño húmedo. (usar, gerundio)", "usando", "Clean the filter [using] a damp cloth.", "usar → usando: gerund (manner)"],
   ["Llamamos a mi tía para que nos ___ dormir en su casa. (dejar)", "dejara", "We called my aunt so that she [would let] us sleep at her place.", "dejar → dejara: imperfect subjunctive, ella (para que, past)"],
   ["Lleva dos horas ___ el teléfono. (buscar)", "buscando", "He's been [looking for] the phone for two hours.", "buscar → buscando: gerund after 'llevar' + time"],
@@ -1663,7 +1665,7 @@ const ENTRIES: [sentence: string, answer: string, en: string, note: string][] = 
   ["Mañana ___ temprano. (ir a levantarse, yo)", "me voy a levantar", "Tomorrow I'm [going to get up] early.", "ir a + levantarse → me voy a levantar: near future, yo"],
   ["Mañana ___ temprano. (salir, yo)", "saldré", "Tomorrow I [will leave] early.", "salir → saldré: future, yo (irregular stem saldr-)"],
   ["Mañana mis amigos ___ a cenar. (venir)", "vendrán", "Tomorrow my friends [will come] for dinner.", "venir → vendrán: future, ellos (irregular stem vendr-)"],
-  ["Mañana mismo ___ el primer tren a Valparaíso. (tomar, condicional)", "tomaría", "First thing tomorrow she [would take] the first train to Valparaíso.", "tomar → tomaría: conditional (future in the past), ella"],
+  ["Mañana mismo ___ el primer tren a Valparaíso. (tomar, condicional)", "tomaría", "First thing tomorrow he [would take] the first train to Valparaíso.", "tomar → tomaría: conditional (future in the past), él"],
   ["Mañana se ___ los resultados del concurso. (conocer)", "conocerán", "Tomorrow the contest results [will be known].", "conocer → se conocerán: passive se, future, plural"],
   ["Mañana yo ___ (llamar) al médico.", "llamaré", "Tomorrow I [will call] the doctor.", "llamar → llamaré: future, yo"],
   ["Me ___ al oído que no me fiara de él. (decir en voz muy baja, indefinido)", "susurró", "She [whispered] in my ear not to trust him.", "susurrar → susurró: preterite"],
@@ -1955,7 +1957,7 @@ const ENTRIES: [sentence: string, answer: string, en: string, note: string][] = 
   ["Mi tía quería que nos ___ una semana. (quedar)", "quedáramos", "My aunt wanted us to [stay] for a week.", "quedar(se) → (nos) quedáramos: imperfect subjunctive, nosotros"],
   ["Mi vecino siempre viaja: ___ mucho dinero. (tener)", "tendrá", "My neighbor is always traveling: he [must have] a lot of money.", "tener → tendrá: future of probability, él"],
   ["Mi última pareja era una persona que ___ demasiado. (trabajar, imperfecto)", "trabajaba", "My last partner was a person who [worked] too much.", "trabajar → trabajaba: imperfect, él/ella (known person, description)"],
-  ["Mi último compañero, que ___, no era ideal. (roncar, imperfecto)", "roncaba", "My last flatmate, who [snored], wasn't ideal.", "roncar → roncaba: imperfect indicative (known antecedent)"],
+  ["Mi último compañero, que ___, no era ideal. (roncar, imperfecto)", "roncaba", "My last travel companion, who [snored], wasn't ideal.", "roncar → roncaba: imperfect indicative (known antecedent)"],
   ["Mientras Andrés ___ en el restaurante, empezó a llover. (cenar)", "cenaba", "While Andrés [was having dinner] at the restaurant, it started to rain.", "cenar → cenaba: imperfect, él (ongoing background action)"],
   ["Mientras Daniel ___, leía el menú. (esperar)", "esperaba", "While Daniel [was waiting], he read the menu.", "esperar → esperaba: imperfect, él"],
   ["Mientras ___ el mapa, empezó a llover. (mirar, nosotros)", "mirábamos", "While we [were looking at] the map, it started to rain.", "mirar → mirábamos: imperfect, nosotros (ongoing background)"],
@@ -2553,7 +2555,7 @@ const ENTRIES: [sentence: string, answer: string, en: string, note: string][] = 
   ["Nuestros padres querían que (nosotros) ___ (ser) felices.", "fuéramos", "Our parents wanted us [to be] happy.", "ser → fuéramos: imperfect subjunctive, nosotros"],
   ["Queríamos que ___ buen tiempo. (hacer)", "hiciera", "We wanted the weather to [be] good (hacer).", "hacer → hiciera: imperfect subjunctive (queríamos que)"],
   ["Queríamos un hotel que ___ piscina. (tener)", "tuviera", "We wanted a hotel that [had] a pool.", "tener → tuviera: imperfect subjunctive (unknown antecedent, past)"],
-  ["Queríamos un pueblo donde nadie nos ___. (conocer)", "conociera", "We wanted a village where nobody [knew] us.", "conocer → conociera: imperfect subjunctive (unknown antecedent, past)"],
+  ["Queremos un pueblo donde nadie nos ___. (conocer)", "conozca", "We want a village where nobody [knows] us.", "conocer → conozca: present subjunctive (unknown antecedent)"],
   ["Queríamos una canción que ___ fácil de recordar. (ser)", "fuera", "We wanted a song that [was] easy to remember.", "ser → fuera: imperfect subjunctive (desired, past)"],
   ["Quien ___ la norma será sancionado. (el alumno puso: inflija)", "infrinja", "Whoever [breaks] the rule will be penalized.", "infringir → infrinja: present subjunctive (not 'inflija')"],
   ["Quien ___ las normas será sancionado. (violar)", "infrinja", "Whoever [breaks] the rules will be penalized.", "infringir → infrinja: present subjunctive (future reference after 'quien')"],
@@ -2605,7 +2607,7 @@ const ENTRIES: [sentence: string, answer: string, en: string, note: string][] = 
   ["Qué pena que el pan ___ tan caro. (estar)", "esté", "What a shame that bread [is] so expensive.", "estar → esté: present subjunctive (after 'qué pena que')"],
   ["Quédate con él hasta que se ___. (dormir)", "duerma", "Stay with him until he [falls asleep].", "dormir(se) → se duerma: present subjunctive (hasta que)"],
   ["Rebatió las tesis de su ___ una por una. (rival)", "contrincante", "He refuted his [opponent]'s arguments one by one.", "contrincante: rival in a debate or contest"],
-  ["Recibí una carta ___ informaba del cambio. (el alumno puso: carta informando)", "que", "I received a letter [that] informed me of the change.", "que: relative pronoun (not a gerund 'informando')"],
+  ["Recibí una carta ___ me informaba del cambio. (el alumno puso: carta informándome)", "que", "I received a letter [that] informed me of the change.", "que: relative pronoun (not a gerund 'informando')"],
   ["Recoge todo antes de que ___ tus padres. (volver)", "vuelvan", "Tidy everything up before your parents [come back] (tú).", "volver → vuelvan: present subjunctive, ellos (antes de que)"],
   ["Recoge tus cosas antes de que ___ tu madre. (volver)", "vuelva", "Pick up your things before your mother [gets back].", "volver → vuelva: present subjunctive (antes de que)"],
   ["Recomiendo este hotel a cualquiera que ___ dormir poco. (querer)", "quiera", "I recommend this hotel to anyone who [wants] to sleep little.", "querer → quiera: present subjunctive (a cualquiera que)"],
@@ -2619,7 +2621,7 @@ const ENTRIES: [sentence: string, answer: string, en: string, note: string][] = 
   ["Saldremos en cuanto ___ el viento. (amainar)", "amaine", "We'll set off as soon as the wind [dies down].", "amainar → amaine: present subjunctive (en cuanto + future)"],
   ["Saldré contigo a menos que ___ que trabajar. (tener, yo)", "tenga", "I'll go out with you unless I [have] to work.", "tener → tenga: present subjunctive, yo (a menos que + future)"],
   ["Saldría contigo a menos que ___ que trabajar. (tener, yo)", "tuviera", "I'd go out with you unless I [had] to work.", "tener → tuviera: imperfect subjunctive, yo (a menos que + conditional)"],
-  ["Salimos sin que nadie nos ___. (ver)", "viera", "We left without anyone [seeing] us.", "ver → viera: imperfect subjunctive (always after 'sin que')"],
+  ["Salimos sin que nadie nos ___. (ver)", "viera", "We left without anyone [seeing] us.", "ver → viera: imperfect subjunctive (sin que always takes the subjunctive; imperfect because the main verb salimos is past)"],
   ["Salió de casa sin que sus padres lo ___. (notar)", "notaran", "He left the house without his parents [noticing].", "notar → notaran: imperfect subjunctive, ellos (sin que, past)"],
   ["Salió sin que la ___. (ver, nosotros)", "viéramos", "She left without us [seeing] her.", "ver → viéramos: imperfect subjunctive, nosotros (sin que)"],
   ["Sara manifestó que no ___ de acuerdo. (estar)", "estaba", "Sara stated that she [didn't agree].", "estar → estaba: imperfect, ella (estar de acuerdo, reported speech)"],
@@ -2673,7 +2675,7 @@ const ENTRIES: [sentence: string, answer: string, en: string, note: string][] = 
   ["Se ___ precios si compras varias cosas. (negociar)", "negocian", "Prices [are negotiated] if you buy several things.", "negociar → se negocian: passive se, plural"],
   ["Se ___ profesor. (hacerse, indefinido)", "hizo", "He [became] a teacher.", "hacerse → hizo: preterite, él (profession)"],
   ["Se ___ pálido al ver la sangre. (indefinido)", "puso", "He [turned] pale when he saw the blood.", "ponerse → puso: preterite, él (ponerse pálido)"],
-  ["Se ___ que el nuevo horario entre en vigor el lunes. (prever)", "prevé", "It [is expected] that the new schedule will take effect on Monday.", "prever → prevé: present, impersonal 'se'"],
+  ["Se ___ que el nuevo horario entre en vigor el lunes. (prever)", "prevé", "It [is expected] that the new schedule will take effect on Monday.", "prever → prevé: present, 3rd person singular"],
   ["Se ___ quemó la cena mientras hablaba por teléfono. (a mí)", "me", "Dinner got burned on [me] while I was on the phone.", "me: indirect object in accidental 'se' (se me quemó)"],
   ["Se ___ recepcionista para hotel. (buscar)", "busca", "Receptionist [wanted] for hotel.", "buscar → se busca: passive se, singular"],
   ["Se ___ rico con el negocio. (indefinido)", "hizo", "He [got] rich with the business.", "hacerse → hizo: preterite, él (hacerse rico)"],
@@ -2752,7 +2754,7 @@ const ENTRIES: [sentence: string, answer: string, en: string, note: string][] = 
   ["Si ___ buen tiempo, saldremos. (hacer)", "hace", "If the weather [is] nice, we'll go out.", "hacer → hace: present indicative (si + present)"],
   ["Si ___ cada día, hablaré mejor. (practicar, yo)", "practico", "If I [practice] every day, I'll speak better.", "practicar → practico: present indicative, yo (after 'si')"],
   ["Si ___ cambiar de profesión, sería carpintero. (poder)", "pudiera", "If I [could] change profession, I'd be a carpenter.", "poder → pudiera: imperfect subjunctive, yo (si + unreal)"],
-  ["Si ___ caso a mi profesora… (hacer)", "hubiera hecho", "If I [had listened] to my teacher…", "hacer → hubiera hecho: pluperfect subjunctive, yo (hacer caso)"],
+  ["Si ___ caso a mi profesora… (hacer)", "hubiera hecho", "If I [had listened] to my teacher… (hacer caso)", "hacer → hubiera hecho: pluperfect subjunctive, yo (hacer caso)"],
   ["Si ___ coche, no dependería del tren. (tener, yo)", "tuviera", "If I [had] a car, I wouldn't depend on the train.", "tener → tuviera: imperfect subjunctive, yo (si + unreal)"],
   ["Si ___ dinero, me compraría una casa. (tener, yo)", "tuviera", "If I [had] money, I'd buy a house.", "tener → tuviera: imperfect subjunctive, yo (si + unreal present)"],
   ["Si ___ dinero, viajaré a Chile. (ahorrar, yo)", "ahorro", "If I [save] money, I'll travel to Chile.", "ahorrar → ahorro: present indicative, yo (si + present)"],
@@ -2999,7 +3001,7 @@ const ENTRIES: [sentence: string, answer: string, en: string, note: string][] = 
   ["Si no encuentras las llaves, ___ al portero. (llamar, tú)", "llama", "If you can't find the keys, [call] the doorman. (tú)", "llamar → llama: affirmative command, tú"],
   ["Si no estudias, ___ el examen. (suspender, futuro)", "suspenderás", "If you don't study, you['ll fail] the exam. (tú)", "suspender → suspenderás: future, tú"],
   ["Si no estudias, no ___. (aprobar, futuro)", "aprobarás", "If you don't study, you [won't pass] (tú).", "aprobar → aprobarás: future, tú"],
-  ["Si no hablara español, no ___ en esta empresa. (trabajar, yo; ahora)", "trabajaría", "If I didn't speak Spanish, I [wouldn't work] at this company now.", "trabajar → trabajaría: conditional, yo (present result of mixed conditional)"],
+  ["Si no hablara español, no ___ en esta empresa. (trabajar, yo; ahora)", "trabajaría", "If I didn't speak Spanish, I [wouldn't work] at this company now.", "trabajar → trabajaría: conditional, yo (hypothesis about the present: si + imperfect subjunctive)"],
   ["Si no hacemos nada, lo ___ en un aparcamiento. (convertir, ellos, futuro)", "convertirán", "If we don't do anything, they['ll turn] it into a parking lot.", "convertir → convertirán: future, ellos"],
   ["Si no hubiera coches, ___ en bici a todas partes. (ir)", "iría", "If there were no cars, I [would go] everywhere by bike.", "ir → iría: conditional, yo"],
   ["Si no hubiera coches, las ciudades ___ más silenciosas. (ser)", "serían", "If there were no cars, cities [would be] quieter.", "ser → serían: conditional, ellas"],
@@ -3126,7 +3128,7 @@ const ENTRIES: [sentence: string, answer: string, en: string, note: string][] = 
   ["Siento mucho que ___ tarde. (llegar, tú)", "llegues", "I'm very sorry that you [are] late (tú).", "llegar → llegues: present subjunctive, tú (different subject)"],
   ["Siento mucho que no te ___ el puesto. (dar, ellos)", "hayan dado", "I'm so sorry they [haven't given] you the job.", "dar → hayan dado: present perfect subjunctive, ellos (after 'sentir que')"],
   ["Siento mucho que te ___ la espalda. (doler)", "duela", "I'm very sorry that your back [hurts]. (tú)", "doler → duela: present subjunctive (after 'siento que')"],
-  ["Siento no ___ a tu cumpleaños. (venir)", "haber venido", "I'm sorry I [didn't come] to your birthday.", "venir → haber venido: perfect infinitive (after 'siento no')"],
+  ["Siento no ___ a tu cumpleaños. (ir)", "haber ido", "I'm sorry I [didn't come] to your birthday.", "ir → haber ido: perfect infinitive (after 'siento no')"],
   ["Siento que ___ este problema. (tener, tú)", "tengas", "I'm sorry you [have] this problem (tú).", "tener → tengas: present subjunctive, tú"],
   ["Siento que ___ que trabajar el fin de semana por mi culpa. (tener, ustedes)", "tengan", "I'm sorry you [have] to work the weekend because of me. (ustedes)", "tener → tengan: present subjunctive, ustedes (after 'siento que')"],
   ["Siento que alguien me ___ desde hace rato. (observar, presente continuo)", "está observando", "I have a feeling someone [is watching] me, and has been for a while.", "observar → está observando: present progressive, él"],
@@ -3911,7 +3913,7 @@ const ENTRIES: [sentence: string, answer: string, en: string, note: string][] = 
   ["—No fui a la entrevista. —Yo ___. (ir)", "habría ido", "—I didn't go to the interview. —I [would have gone].", "ir → habría ido: conditional perfect, yo"],
   ["—No le dije la verdad. —Yo se la ___. (decir)", "habría dicho", "—I didn't tell him the truth. —I [would have told] him.", "decir → habría dicho: conditional perfect, yo"],
   ["—No puedo ir a la fiesta. —¡Qué pena que no ___ ir! (poder)", "puedas", "\"I can't go to the party.\" \"What a shame you [can't] go!\"", "poder → puedas: present subjunctive, tú (after 'qué pena que')"],
-  ["—No sé qué estudiar. —Yo en tu lugar, ___ lo que me gusta. (elegir)", "elegiría", "—I don't know what to study. —If I were you, I [would choose] what I like.", "elegir → elegiría: conditional, yo (yo en tu lugar)"],
+  ["—No sé qué estudiar. —Yo en tu lugar, ___ lo que te guste. (elegir)", "elegiría", "—I don't know what to study. —If I were you, I [would choose] what you enjoy.", "elegir → elegiría: conditional, yo (yo en tu lugar)"],
   ["—No tengo dinero. —Yo que tú, no ___ de vacaciones. (salir)", "saldría", "\"I have no money.\" \"If I were you, I [wouldn't go] on holiday.\"", "salir → saldría: conditional, yo; irregular stem saldr-"],
   ["—No, no conozco a nadie que las ___. (arreglar)", "arregle", "—No, I don't know anyone who [fixes] them.", "arreglar → arregle: present subjunctive (nonexistent antecedent)"],
   ["—No, no conozco a ninguno que ___ los domingos. (trabajar)", "trabaje", "—No, I don't know any who [works] on Sundays.", "trabajar → trabaje: present subjunctive (negated antecedent)"],
@@ -4092,5 +4094,5 @@ const ENTRIES: [sentence: string, answer: string, en: string, note: string][] = 
 ];
 
 export const FILL_BLANK_ENGLISH: Record<string, [en: string, note: string]> = Object.fromEntries(
-  ENTRIES.map(([sentence, answer, en, note]) => [fillBlankKey(sentence, answer), [en, note]])
+  [...ENTRIES, ...BEGINNER_BLANK_ENGLISH].map(([sentence, answer, en, note]) => [fillBlankKey(sentence, answer), [en, note]])
 );

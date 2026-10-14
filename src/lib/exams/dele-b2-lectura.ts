@@ -9,7 +9,7 @@ const T3_FRAGMENTS = [
   "A. Lo curioso es que, cuanto más aumentaba la oferta, menos satisfechos se declaraban los consumidores.",
   "B. Nadie discute, por tanto, que tener donde elegir sea mejor que no tener ninguna alternativa.",
   "C. Sin embargo, solo el 3 % de esos visitantes acabó comprando un tarro.",
-  "D. Esta sensación tiene un nombre: el coste de oportunidad.",
+  "D. Esta renuncia tiene un nombre: el coste de oportunidad.",
   "E. Por eso la mayoría de los clientes prefiere hoy las tiendas con más variedad.",
   "F. Por eso los expertos recomiendan comprar siempre en tiendas pequeñas.",
   "G. A este fenómeno el psicólogo Barry Schwartz lo bautizó como \"la paradoja de la elección\".",
@@ -141,7 +141,7 @@ export const DELE_B2_LECTURA: ExamPaper = {
         { n: 7, question: "¿Quién cambió de profesión porque no encontraba trabajo en la suya?", options: T2_PEOPLE, answer: 3, explanation: "Andrés envió cientos de currículos sin respuesta: \"no fue una decisión, fue una necesidad\"." },
         { n: 8, question: "¿Quién pensó en abandonar la formación?", options: T2_PEOPLE, answer: 1, explanation: "Tomás: \"en segundo, estuve a punto de dejarlo\"." },
         { n: 9, question: "¿Quién gana más dinero ahora que antes?", options: T2_PEOPLE, answer: 2, explanation: "Luciana gana el triple que como profesora." },
-        { n: 10, question: "¿Quién descubrió una habilidad que no sabía que tenía?", options: T2_PEOPLE, answer: 3, explanation: "Andrés descubrió que le encanta hablar en público." },
+        { n: 10, question: "¿Quién descubrió que le gusta algo que nunca habría imaginado?", options: T2_PEOPLE, answer: 3, explanation: "Andrés descubrió que le encanta hablar en público." },
         { n: 11, question: "¿Quién empezó su nueva actividad por una situación familiar?", options: T2_PEOPLE, answer: 0, explanation: "Irene empezó a hacer pan mientras cuidaba a su padre enfermo." },
         { n: 12, question: "¿Quién sigue manteniendo algo de su antigua profesión?", options: T2_PEOPLE, answer: 2, explanation: "Luciana da clases gratuitas de programación dos tardes a la semana." },
         { n: 13, question: "¿Quién estudió junto a personas mucho más jóvenes?", options: T2_PEOPLE, answer: 1, explanation: "Tomás tenía \"compañeros de veinte años\"." },
@@ -159,7 +159,7 @@ export const DELE_B2_LECTURA: ExamPaper = {
           title: "¿Demasiado donde elegir?",
           body:
             "Durante décadas, la economía partió de una idea aparentemente indiscutible: cuantas más opciones tenga una persona, más libre y más feliz será. (17) Pero ¿qué ocurre cuando las alternativas se cuentan por cientos?\n\n" +
-            "En el año 2000, dos investigadores de las universidades de Columbia y Stanford montaron un puesto de mermeladas en un supermercado de California. Un día ofrecían veinticuatro sabores para probar; otro día, solo seis. El puesto grande atrajo a más curiosos, como era de esperar. (18) Entre quienes se habían acercado al puesto pequeño, en cambio, un 30 % acabó comprando.\n\n" +
+            "En 1995, dos investigadores de las universidades de Columbia y Stanford montaron un puesto de mermeladas en un supermercado de California. Un día ofrecían veinticuatro sabores para probar; otro día, solo seis. El puesto grande atrajo a más curiosos, como era de esperar. (18) Entre quienes se habían acercado al puesto pequeño, en cambio, un 30 % acabó comprando.\n\n" +
             "El experimento se convirtió en un clásico. (19) Según el psicólogo estadounidense, el exceso de posibilidades no nos libera, sino que nos paraliza: tememos equivocarnos, dejamos la decisión para más tarde y, si finalmente elegimos, nos quedamos con la duda de si otra opción habría sido mejor.\n\n" +
             "Cada vez que optamos por algo, renunciamos a todo lo demás. (20) Cuantas más alternativas descartamos, más pesa en nuestra mente lo que hemos dejado atrás, y menos disfrutamos de lo que hemos elegido.\n\n" +
             "Los datos del consumo parecen confirmarlo. En las últimas décadas, el número de productos de un supermercado medio se ha multiplicado. (21) Algunas cadenas lo han entendido y han reducido las variedades de un mismo producto, con resultados positivos en sus ventas.\n\n" +
@@ -201,7 +201,7 @@ export const DELE_B2_LECTURA: ExamPaper = {
         { n: 29, question: "", options: ["por", "para", "con"], answer: 0, explanation: "Sustituir algo por otra cosa." },
         { n: 30, question: "", options: ["más", "menos", "tantas"], answer: 1, explanation: "Si la jornada continua sustituye a la partida, cada vez hay menos empresas que dejan tiempo." },
         { n: 31, question: "", options: ["sino", "pero", "así que"], answer: 1, explanation: "Es verdad que…, pero…: se admite un hecho y se le opone otro. \"Sino\" necesita una negación antes." },
-        { n: 32, question: "", options: ["piensen", "piensa", "pensara"], answer: 1, explanation: "\"Hay quien\" + indicativo cuando se afirma que esas personas existen. Quien es singular, así que el verbo va en singular." },
+        { n: 32, question: "", options: ["piensen", "piensa", "pensara"], answer: 1, explanation: "Quien es singular, así que el verbo va en singular: «piensen» no concuerda. Con \"hay quien\" también es posible el subjuntivo singular («hay quien piense»), pero no está entre las opciones, y «pensara» no encaja con el presente del texto." },
         { n: 33, question: "", options: ["hacemos", "hiciéramos", "hubiéramos hecho"], answer: 1, explanation: "Condicional hipotética de presente: si + imperfecto de subjuntivo, condicional (seríamos)." },
         { n: 34, question: "", options: ["donde", "cuando", "que"], answer: 0, explanation: "Relativo de lugar referido a Japón." },
         { n: 35, question: "", options: ["durmieran", "duerman", "dormirán"], answer: 1, explanation: "Aunque + subjuntivo presenta un hecho ya sabido (solo uno de cada cinco españoles duerme la siesta a diario) que no impide lo que se afirma después." },

@@ -396,7 +396,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("La organización ___ reducir la jornada laboral.", "aboga por", "The organization [advocates] reducing working hours.", "Abogar por: defender públicamente una idea.", ["defiende", "propugna"]),
   ],
   "prepositional-verbs-part-2-mastery-check": [
-    fe("Antes de firmar, ___ que todas las cifras fueran correctas.", "se cercioró de", "Before signing, she [made sure] that all the figures were correct.", "Cerciorarse de que: comprobar algo para tener la seguridad de que es cierto.", ["se aseguró de", "comprobó"]),
+    fe("Antes de firmar, ___ que todas las cifras eran correctas.", "se cercioró de", "Before signing, she [made sure] that all the figures were correct.", "Cerciorarse de que: comprobar algo para tener la seguridad de que es cierto.", ["se aseguró de", "comprobó"]),
   ],
   "c1r-mission-cover-letter-verbs": [
     fe("___ cinco años de experiencia en el sector.", "Cuento con", "[I have] five years' experience in the sector.", "En una carta de motivación, «contar con» es más formal que «tener».", ["Tengo"]),
@@ -575,7 +575,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
   "voseo-part-1-3": [
     fe("¿Vos ___ que va a llover?", "pensás", "[Do you think] it's going to rain? (vos)", "Presente voseante sin diptongo: pensás (tú piensas).", ["creés"]),
     fe("Señora, ¿___ dónde queda la estación?", "sabe", "Ma'am, [do you know] where the station is? (usted)", "El voseo no elimina el usted: con desconocidos o mayores se sigue usando."),
-    fe("Esto es para ___, che.", "vos", "This is for [you], mate. (vos)", "Tras preposición se usa vos (para vos, con vos), no ti ni contigo."),
+    fe("Esto es para ___, che.", "vos", "This is for [you], mate. (Buenos Aires, informal)", "Tras preposición se usa vos (para vos, con vos), no ti ni contigo."),
   ],
   "c1r-transform-tu-to-vos": [
     fe("¿Por qué no te ___ un rato?", "sentás", "Why don't you [sit down] for a while? (vos)", "Presente voseante de sentarse: te sentás (tú te sientas)."),
@@ -744,7 +744,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
   ],
   "academic-essay-writing-part-1-3": [
     fe("De estos datos ___ que la medida fue eficaz.", "se desprende", "[It follows] from these data that the measure was effective.", "«Desprenderse de»: deducirse de algo.", ["se deduce", "se infiere", "se concluye"]),
-    fe("La muestra fue pequeña; ___, los resultados deben tomarse con cautela.", "por consiguiente", "The sample was small; [consequently], the results should be treated with caution.", "Conector de consecuencia.", ["en consecuencia", "por lo tanto", "por tanto", "por ende"]),
+    fe("La muestra fue pequeña; ___, los resultados deben tomarse con cautela.", "por consiguiente", "The sample was small; [consequently], the results should be treated with caution.", "La muestra pequeña es la causa y la cautela su consecuencia, así que va un conector consecutivo («por consiguiente»), no uno de contraste como «sin embargo».", ["en consecuencia", "por lo tanto", "por tanto", "por ende"]),
   ],
   "academic-essay-writing-part-1-mastery-check": [
     fe("___, conviene señalar las limitaciones metodológicas del estudio.", "Asimismo", "[Likewise], it is worth pointing out the study's methodological limitations.", "«Asimismo» añade un argumento sin contradecir el anterior.", ["Además", "Igualmente", "Del mismo modo"]),
@@ -783,7 +783,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
 
   // ---- Desafíos C1 ---------------------------------------------------------
   "c1r-challenge-connector-chain": [
-    fe("El turismo aporta riqueza. ___, su crecimiento descontrolado encarece la vivienda.", "No obstante", "Tourism brings wealth. [Nevertheless], its uncontrolled growth drives up housing costs.", "Conector de contraste.", ["Sin embargo", "Ahora bien", "Con todo"]),
+    fe("El turismo aporta riqueza. ___, su crecimiento descontrolado encarece la vivienda.", "No obstante", "Tourism brings wealth. [Nevertheless], its uncontrolled growth drives up housing costs.", "La segunda idea (encarece la vivienda) se opone a la primera (aporta riqueza), así que hace falta un conector de contraste como «no obstante» o «sin embargo», seguido de coma.", ["Sin embargo", "Ahora bien", "Con todo"]),
     fe("Muchos vecinos abandonan el centro; ___, es necesario regularlo.", "por todo ello", "Many residents are leaving the center; [for all these reasons], it needs to be regulated.", "Conector de conclusión que recoge todo lo anterior.", ["por ello", "por eso", "por consiguiente", "por lo tanto", "en consecuencia"]),
   ],
   "c1r-challenge-build-the-sentence": [

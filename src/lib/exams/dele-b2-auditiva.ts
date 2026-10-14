@@ -70,7 +70,7 @@ export const DELE_B2_AUDITIVA: ExamPaper = {
           label: "Conversación 5",
           lines: [
             { voice: "f", text: "Doctor, llevo una semana con este dolor de espalda y las pastillas no me hacen nada." },
-            { voice: "m", text: "Por lo que me cuenta, es muscular. Más que medicación, le vendría bien hacer ejercicios suaves. Le voy a mandar al fisioterapeuta y, si en quince días no mejora, le hacemos una resonancia." },
+            { voice: "m", text: "Por lo que me cuenta, es muscular. Más que medicación, le vendría bien hacer ejercicios suaves. La voy a mandar al fisioterapeuta y, si en quince días no mejora, le hacemos una resonancia." },
           ],
         },
         {

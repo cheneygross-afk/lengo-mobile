@@ -121,7 +121,7 @@ export const DELE_A2_LECTURA: ExamPaper = {
           n: 7,
           source: 1,
           question: "Texto 2. Pablo le dice a su madre que…",
-          options: ["va a volver con el padre de Javi.", "necesita que lo recoja a las ocho.", "no ha lavado la ropa."],
+          options: ["va a volver con el padre de Javi.", "necesita que lo recoja a las ocho.", "ha lavado la ropa."],
           answer: 0,
           explanation: "\"Su padre nos trae a casa después, sobre las ocho\": Javi's father is bringing him home, so his mother doesn't need to pick him up.",
         },

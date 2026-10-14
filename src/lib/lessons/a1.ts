@@ -423,9 +423,9 @@ const A1_BASE_LESSONS: Lesson[] = [
         "direction": "es-en",
         "prompt": "Translate this sentence to English.",
         "source": "Buenas tardes, ¿cómo está usted?",
-        "answer": "Good afternoon, how are you (formal)?",
+        "answer": "Good afternoon, how are you?",
         "altAnswers": [
-          "Good afternoon, how are you?"
+          "Good afternoon, how are you doing?"
         ],
         "explanation": "\"Usted\" is the formal \"you\" — used with strangers, elders, or in professional settings."
       }
@@ -565,7 +565,6 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Fill in the correct definite article.",
         "sentence": "___ chicas están aquí. (the girls)",
         "answer": "las",
-        "hint": "feminine plural",
         "explanation": "\"Las\" is used before feminine plural nouns."
       },
       {
@@ -573,7 +572,6 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Fill in the correct indefinite article.",
         "sentence": "Necesito ___ libro. (a book)",
         "answer": "un",
-        "hint": "masculine singular",
         "explanation": "\"Un\" is used before masculine singular nouns."
       }
     ]
@@ -623,7 +621,6 @@ const A1_BASE_LESSONS: Lesson[] = [
             "prompt": "Complete with the correct preposition.",
             "sentence": "El libro es ___ Pedro. (of / belonging to)",
             "answer": "de",
-            "hint": "possession",
             "explanation": "\"De\" expresses possession: \"el libro es de Pedro\" = \"the book is Pedro's\"."
           }
         ]
@@ -748,7 +745,6 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Write the plural of \"la flor\".",
         "sentence": "la flor → ___",
         "answer": "las flores",
-        "hint": "consonant ending → add -es",
         "explanation": "Nouns ending in a consonant add -es in the plural: flor → flores."
       },
       {
@@ -840,7 +836,6 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Fill in the correct indefinite article.",
         "sentence": "Tengo ___ gato pequeño.",
         "answer": "un",
-        "hint": "masculine singular",
         "explanation": "\"Un\" precedes a masculine singular noun like gato."
       },
       {
@@ -895,7 +890,6 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Fill in the correct definite article.",
         "sentence": "___ lámparas son de mi amigo.",
         "answer": "Las",
-        "hint": "feminine plural",
         "explanation": "Lámpara is feminine, so its plural definite article is las."
       },
       {
@@ -2169,7 +2163,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "María ___ doctora.",
+        "question": "María ___ doctora. (María is a doctor.)",
         "options": [
           "es",
           "está",
@@ -2181,7 +2175,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "El café ___ caliente.",
+        "question": "El café ___ caliente. (The coffee is hot.)",
         "options": [
           "es",
           "está",
@@ -2408,7 +2402,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "Mi hermano ___ ingeniero.",
+        "question": "Mi hermano ___ ingeniero. (My brother is an engineer.)",
         "options": [
           "es",
           "está",
@@ -2473,7 +2467,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "Esta sopa ___ muy rica hoy.",
+        "question": "Esta sopa ___ muy rica hoy. (This soup tastes really good today.)",
         "options": [
           "es",
           "está",
@@ -3191,7 +3185,6 @@ const A1_BASE_LESSONS: Lesson[] = [
             "prompt": "Fill in the correct form of \"one\".",
             "sentence": "Quiero ___ café, por favor.",
             "answer": "un",
-            "hint": "\"Café\" is masculine — uno shortens before a masculine noun",
             "explanation": "Before a masculine singular noun, uno drops its final -o and becomes un: un café."
           }
         ]
@@ -3325,7 +3318,6 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Fill in the correct form of \"one\".",
         "sentence": "Hay treinta y ___ chicas en la clase de español.",
         "answer": "una",
-        "hint": "Chicas is feminine plural",
         "explanation": "When a compound number ending in uno comes before a feminine noun, it takes the feminine form: treinta y una chicas."
       }
     ]
@@ -3406,7 +3398,6 @@ const A1_BASE_LESSONS: Lesson[] = [
             "prompt": "Fill in the missing word to say it's 3:45 (quarter to four).",
             "sentence": "Son las cuatro ___ cuarto.",
             "answer": "menos",
-            "hint": "Spanish counts down to the next hour for the last fifteen minutes.",
             "explanation": "Menos cuarto means \"quarter to\" — you use the upcoming hour (cuatro) minus a quarter, not the current hour (tres) plus 45 minutes."
           }
         ]
@@ -3472,7 +3463,6 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Say \"It's one o'clock.\"",
         "sentence": "___ la una.",
         "answer": "Es",
-        "hint": "One o'clock is the only hour that uses the singular verb.",
         "explanation": "La una is singular, so it pairs with es: Es la una."
       },
       {
@@ -3603,7 +3593,6 @@ const A1_BASE_LESSONS: Lesson[] = [
             "prompt": "Complete the answer: \"At what time is the party?\" — \"The party is at ten.\"",
             "sentence": "La fiesta es ___ las diez.",
             "answer": "a",
-            "hint": "Use the preposition that pairs with a time, not the verb ser.",
             "explanation": "When stating at what time something happens, use a (a la una / a las + hour), not es/son, which are reserved for simply stating the current time."
           }
         ]
@@ -4036,7 +4025,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "Which possessive correctly matches \"our family\" (familia is feminine)?",
+        "question": "Which possessive correctly matches \"our family\"?",
         "options": [
           "nuestro familia",
           "nuestra familia",
@@ -4108,7 +4097,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "Ana pregunta: ¿Por qué ___ tú tan feliz hoy?",
+        "question": "Ana pregunta: ¿Por qué ___ tú tan feliz hoy? (Ana asks: Why are you so happy today?)",
         "options": [
           "eres",
           "estás",
@@ -5189,7 +5178,6 @@ const A1_BASE_LESSONS: Lesson[] = [
             "prompt": "Your friend is holding some keys. Ask about them using the demonstrative for \"near the listener\".",
             "sentence": "¿Son tuyas ___ llaves?",
             "answer": "esas",
-            "hint": "\"Llaves\" is feminine plural, and the keys are near the other person.",
             "explanation": "\"Llaves\" is feminine plural and close to the listener, so it takes \"esas\": esas llaves."
           }
         ]
@@ -5256,7 +5244,6 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Fill in the demonstrative for something near the person you're talking to.",
         "sentence": "¿Me pasas ___ tazas, por favor? (the cups next to you)",
         "answer": "esas",
-        "hint": "\"Tazas\" is feminine plural, and it's near the listener, not the speaker.",
         "explanation": "\"Tazas\" is feminine plural and close to the listener, so the correct form is \"esas\": esas tazas."
       },
       {
@@ -5517,7 +5504,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Carlos ___ ingeniero y ___ de Colombia.",
+            "question": "Carlos ___ ingeniero y ___ de Colombia. (Carlos is an engineer and he is from Colombia.)",
             "options": [
               "es / es",
               "está / está",
@@ -5587,7 +5574,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "multiple-choice",
-            "question": "¿Dónde ___ el baño?",
+            "question": "¿Dónde ___ el baño? (Where is the bathroom?)",
             "options": [
               "es",
               "está",
@@ -5603,7 +5590,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "Yo ___ estudiante de medicina.",
+        "question": "Yo ___ estudiante de medicina. (I am a medical student.)",
         "options": [
           "soy",
           "estoy",
@@ -5615,7 +5602,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "La leche ___ en el refrigerador.",
+        "question": "La leche ___ en el refrigerador. (The milk is in the fridge.)",
         "options": [
           "es",
           "está",
@@ -5803,7 +5790,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "Esa película ___ muy aburrida; nadie la termina de ver.",
+        "question": "Esa película ___ muy aburrida; nadie la termina de ver. (That film is really boring; nobody watches it to the end.)",
         "options": [
           "es",
           "está",
@@ -5815,7 +5802,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "Después de la reunión larga, todos nosotros ___ aburridos.",
+        "question": "Después de la reunión larga, todos nosotros ___ aburridos. (After the long meeting, we are all bored.)",
         "options": [
           "somos",
           "estamos",
@@ -5873,7 +5860,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Mis padres ___ en casa ahora.",
+            "question": "Mis padres ___ en casa ahora. (My parents are at home now.)",
             "options": [
               "son",
               "están",
@@ -5885,7 +5872,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "multiple-choice",
-            "question": "Este restaurante ___ muy bueno; siempre tiene comida deliciosa.",
+            "question": "Este restaurante ___ muy bueno; siempre tiene comida deliciosa. (This restaurant is very good; it always has delicious food.)",
             "options": [
               "es",
               "está",
@@ -5983,7 +5970,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué hora ___?",
+        "question": "¿Qué hora ___? (What time is it?)",
         "options": [
           "es",
           "está",
@@ -6358,8 +6345,8 @@ const A1_BASE_LESSONS: Lesson[] = [
         "direction": "es-en",
         "prompt": "Translate this sentence to English.",
         "source": "Ellas escriben cartas a sus amigos.",
-        "answer": "They (fem.) write letters to their friends.",
-        "explanation": "Escriben is the ellas (-en) form of the regular -ir verb escribir."
+        "answer": "They write letters to their friends.",
+        "explanation": "Escriben is the ellas (-en) form of the regular -ir verb escribir. Ellas is a feminine 'they' (a group of women); English has just 'they'."
       }
     ]
   },
@@ -6569,7 +6556,6 @@ const A1_BASE_LESSONS: Lesson[] = [
             "prompt": "Fill in the correct definite article.",
             "sentence": "___ problema es grande.",
             "answer": "El",
-            "hint": "'Problema' ends in -a but is masculine.",
             "explanation": "'Problema' comes from Greek and is masculine despite ending in -a: 'el problema'."
           }
         ]
@@ -6628,7 +6614,6 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Fill in the correct definite article.",
         "sentence": "___ universidad es grande.",
         "answer": "La",
-        "hint": "'Universidad' is feminine, even though it starts with 'u'.",
         "explanation": "'Universidad' is feminine (words ending in -dad are feminine), so it takes 'la'."
       },
       {
@@ -6643,7 +6628,6 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Give the plural form.",
         "sentence": "la voz → las ___",
         "answer": "voces",
-        "hint": "z changes to c before -es",
         "explanation": "Words ending in -z change z to c and add -es: 'voz' → 'voces'."
       },
       {
@@ -6724,7 +6708,6 @@ const A1_BASE_LESSONS: Lesson[] = [
             "prompt": "Give the plural form.",
             "sentence": "el lápiz → los ___",
             "answer": "lápices",
-            "hint": "z changes to c before -es",
             "explanation": "Words ending in -z change z to c and add -es: 'lápiz' → 'lápices'."
           }
         ]
@@ -7593,7 +7576,6 @@ const A1_BASE_LESSONS: Lesson[] = [
             "prompt": "Complete the question with quién or quiénes.",
             "sentence": "¿ ___ es tu profesora de español?",
             "answer": "Quién",
-            "hint": "The answer is one person.",
             "explanation": "Quién is singular — you're asking about a single teacher."
           },
           {
@@ -7671,7 +7653,6 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Complete the question with quién or quiénes.",
         "sentence": "¿ ___ es tu profesora?",
         "answer": "Quién",
-        "hint": "One teacher is expected in the answer.",
         "explanation": "Quién is singular, matching a one-person answer."
       },
       {
@@ -7691,7 +7672,6 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Complete the question with dónde or adónde.",
         "sentence": "¿ ___ trabajas?",
         "answer": "Dónde",
-        "hint": "This asks about the location of your job, not motion toward it.",
         "explanation": "Dónde asks about a static location; 'trabajar' isn't a verb of motion."
       },
       {
@@ -7766,7 +7746,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿ ___ tiempo necesitas? (tiempo — masculine, singular)",
+            "question": "¿ ___ tiempo necesitas? (How much time do you need?)",
             "options": [
               "Cuánta",
               "Cuántos",
@@ -7831,7 +7811,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿ ___ te sientes hoy? — 'Un poco cansado.'",
+        "question": "¿ ___ te sientes hoy? — 'Un poco cansado.' (How do you feel today? — A bit tired.)",
         "options": [
           "Qué",
           "Cuál",
@@ -7861,7 +7841,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿ ___ dinero necesitas? (dinero — masculine, singular)",
+        "question": "¿ ___ dinero necesitas? (How much money do you need?)",
         "options": [
           "Cuánta",
           "Cuántos",
@@ -7880,7 +7860,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿ ___ años tienes? (años — masculine, plural)",
+        "question": "¿ ___ años tienes? (How old are you?)",
         "options": [
           "Cuánto",
           "Cuánta",
@@ -7969,7 +7949,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿ ___ vive tu hermano? — 'En Madrid.'",
+            "question": "¿ ___ vive tu hermano? — 'En Madrid.' (Where does your brother live? — In Madrid.)",
             "options": [
               "Adónde",
               "Dónde",
@@ -7981,7 +7961,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "multiple-choice",
-            "question": "¿ ___ cuesta el boleto? — 'Veinte dólares.'",
+            "question": "¿ ___ cuesta el boleto? — 'Veinte dólares.' (How much is the ticket? — Twenty dollars.)",
             "options": [
               "Cuál",
               "Qué",
@@ -8009,7 +7989,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿ ___ sirve este botón? — 'Para apagar la luz.'",
+        "question": "¿ ___ sirve este botón? — 'Para apagar la luz.' (What is this button for? — To turn off the light.)",
         "options": [
           "Por qué",
           "Para qué",
@@ -8369,7 +8349,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "multiple-choice",
-            "question": "Which is correct for \"The movies interest me\" (plural)?",
+            "question": "Which is correct for \"The movies interest me\"?",
             "options": [
               "Me interesa las películas.",
               "Me interesan las películas.",
@@ -8899,7 +8879,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           {
             "type": "translate",
             "direction": "en-es",
-            "prompt": "Translate using ir a + infinitive.",
+            "prompt": "Translate to Spanish.",
             "source": "They are going to work tomorrow.",
             "answer": "Van a trabajar mañana.",
             "altAnswers": [
@@ -9002,7 +8982,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Translate using ir a + infinitive.",
+        "prompt": "Translate to Spanish.",
         "source": "She is going to read a book.",
         "answer": "Va a leer un libro.",
         "altAnswers": [
@@ -9185,7 +9165,6 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Choose the right verb: tener or hacer?",
         "sentence": "Nosotros ___ mucho frío en invierno.",
         "answer": "tenemos",
-        "hint": "personal feeling of cold uses tener",
         "explanation": "For a person feeling cold, use tener frío; for weather, use hacer frío. Here nosotros tenemos frío = we are cold."
       },
       {
@@ -9345,7 +9324,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "\"31 chairs\" (silla, feminine) is:",
+            "question": "\"31 chairs\" is:",
             "options": [
               "treinta y uno sillas",
               "treinta y un sillas",
@@ -9420,7 +9399,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multi-select",
-        "question": "Which numbers correctly agree with personas (feminine)?",
+        "question": "Which numbers correctly agree with personas?",
         "options": [
           "doscientas personas",
           "doscientos personas",
@@ -9431,7 +9410,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Hundreds from 200 to 900 agree in gender with the noun: doscientas and trescientas personas. \"Doscientos\" and \"quinientos\" are the masculine forms, so they don't match personas."
+        "explanation": "Hundreds from 200 to 900 agree in gender with the noun, and personas is feminine: doscientas and trescientas personas. \"Doscientos\" and \"quinientos\" are the masculine forms, so they don't match personas."
       }
     ]
   },
@@ -9469,7 +9448,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "\"the third day\" (día, masculine) is:",
+            "question": "\"the third day\" is:",
             "options": [
               "el tercero día",
               "el tercer día",
@@ -9616,7 +9595,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "\"The first exercise\" (ejercicio, masculine) is:",
+        "question": "\"The first exercise\" is:",
         "options": [
           "el primero ejercicio",
           "el primer ejercicio",
@@ -10156,9 +10135,8 @@ const A1_BASE_LESSONS: Lesson[] = [
         "direction": "en-es",
         "prompt": "Translate to Spanish.",
         "source": "neighbor",
-        "answer": "vecino/a",
+        "answer": "vecino",
         "altAnswers": [
-          "vecino",
           "vecina"
         ],
         "explanation": "From the People & occupations list (from the 'Greetings, Subject Pronouns & Ser' lesson)."
@@ -10526,8 +10504,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "source": "worried",
         "answer": "preocupado",
         "altAnswers": [
-          "preocupada",
-          "preocupado/a"
+          "preocupada"
         ],
         "explanation": "From the Feelings & states list (from the 'Ser vs. Estar' lesson)."
       }

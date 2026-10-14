@@ -80,7 +80,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     "subjunctive-mastery-review-2",
     "c1r-error-hunt-tense-concordance",
     "Caza de errores: la concordancia temporal",
-    "Subjuntivos que no respetan el eje temporal — diagnostica y corrige en textos auténticos.",
+    "Subjuntivos que no respetan el eje temporal — diagnostica y corrige en frases de nivel avanzado.",
     "7 min",
     [
       sec(
@@ -102,7 +102,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Corrige.", "Nos exigieron que ___ antes del viernes. (entregar, nosotros; el alumno escribió: entreguemos)", "entregáramos", "«Exigieron» está en pasado, así que la acción posterior va en imperfecto de subjuntivo: «entregáramos», no «entreguemos»."),
-      fb("Corrige.", "Es probable que ya ___ la noticia. (saber, ellos; el alumno escribió: supieran)", "sepan", "«Es probable» está en presente y se refiere a lo que ya saben ahora, así que pide presente de subjuntivo («sepan»); «supieran» solo concordaría con un verbo principal en pasado («era probable que ya lo supieran»)."),
+      fb("Corrige.", "Es probable que ya ___ la noticia. (saber, ellos; el alumno escribió: supieran)", "sepan", "«Es probable» está en presente y la frase habla de lo que ya saben ahora, así que lo natural es el presente de subjuntivo («sepan»). «Supieran» solo encajaría si la frase se refiriera a un momento pasado («es probable que ya la supieran cuando llegamos») o con un verbo principal en pasado («era probable que ya lo supieran»)."),
       { ...fb("Corrige.", "No me pareció normal que nadie lo ___ antes. (notar; el alumno escribió: note)", "hubiera notado", "Acción anterior a «pareció» (pasado): pluscuamperfecto de subjuntivo, «hubiera notado» (también vale «notara»), no «note»."), altAnswers: ["hubiese notado", "notara", "notase"] },
       ms(
         "¿Qué frases respetan la concordancia?",
@@ -451,7 +451,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Concede y refuta.", "Reconozco que ___ razón en parte; sin embargo, olvidas un dato clave. (tener, tú)", "tienes", "«Reconocer que» presenta algo como cierto y rige indicativo: «reconozco que tienes razón»."),
       fb("Concede y refuta.", "Aun admitiendo que ___ así, eso no justifica la medida. (ser)", "sea", "Aun admitiendo que + subjuntivo (hipótesis concedida)."),
-      fb("Concede y refuta.", "Por más ___ se repita, no es verdad.", "que", "La locución concesiva es «por más que» (o «por mucho que»), siempre con «que»."),
+      fb("Completa la locución concesiva.", "Por más ___ se repita, no es verdad.", "que", "La locución concesiva es «por más que» (o «por mucho que»), siempre con «que»."),
       mc(
         "¿Qué respuesta concede y refuta a la vez?",
         ["No te niego que sea caro, pero a largo plazo se ahorra.", "Es caro y ya está.", "No, no es caro.", "Tienes razón, lo dejamos."],
@@ -1055,9 +1055,9 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       ms(
         "¿Qué instrucciones son correctas?",
-        ["No sumergir en agua.", "Cargar la batería antes del primer uso.", "Volver a pulsar para apagar.", "Enchufando el aparato antes de limpiarlo."],
+        ["No sumergir en agua.", "Cargar la batería antes del primer uso.", "Volver a pulsar para apagar.", "Desenchufando el aparato antes de limpiarlo."],
         [0, 1, 2],
-        "En las instrucciones se usa el infinitivo (desenchufar el aparato antes de limpiarlo), no el gerundio; «enchufando el aparato…» no funciona como instrucción."
+        "En las instrucciones se usa el infinitivo (desenchufar el aparato antes de limpiarlo), no el gerundio; «desenchufando el aparato…» no funciona como instrucción."
       ),
       toEs("Keep pressing until you hear a beep.", "Seguir pulsando hasta oír un pitido.", "Infinitivo de instrucción + seguir + gerundio + hasta + infinitivo.", ["Mantener pulsado hasta oír un pitido.", "Siga pulsando hasta que oiga un pitido.", "Sigue pulsando hasta oír un pitido.", "Sigue pulsando hasta que oigas un pitido.", "Siga pulsando hasta oír un pitido.", "Mantenga pulsado hasta oír un pitido.", "Mantén pulsado hasta oír un pitido."]),
       wo("Desconectar el aparato antes de limpiarlo.", "Infinitivo + antes de + infinitivo con pronombre.", "Unplug the device before cleaning it."),
@@ -1186,7 +1186,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "Con «a» + personas, el «se» es impersonal y el verbo queda en singular: «Se ha detenido a los autores». «Se han detenido a…» mezcla plural con la «a» personal, «Se ha detenidos» hace concordar el participio y «detenieron» no existe (el pretérito es «detuvieron»)."
       ),
-      toEs("The injured were taken to the hospital.", "Se trasladó a los heridos al hospital.", "A + personas → se impersonal en singular.", ["Los heridos fueron trasladados al hospital.", "Se llevó a los heridos al hospital."]),
+      toEs("The injured were taken to the hospital.", "Se trasladó a los heridos al hospital.", "A + personas → se impersonal en singular.", ["Los heridos fueron trasladados al hospital.", "Se llevó a los heridos al hospital.", "Los heridos fueron llevados al hospital."]),
       wo("Se ruega a los pasajeros que mantengan sus pertenencias vigiladas.", "Se impersonal + a + personas + que + subjuntivo.", "Passengers are requested to keep an eye on their belongings."),
     ]
   ),
@@ -1254,7 +1254,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Completa el comunicado.", "Se ___ que el nuevo horario entre en vigor el lunes. (prever)", "prevé", "«Se prevé que» va en singular porque su sujeto es la oración que sigue (pasiva refleja con sujeto oracional)."),
+      fb("Completa el comunicado.", "Se ___ que el nuevo horario entre en vigor el lunes. (prever)", "prevé", "«Se prevé que» va siempre en singular: lo que sigue es una oración (que + subjuntivo), no un sustantivo plural con el que el verbo pueda concordar."),
       fb("Completa el comunicado.", "Se ___ disculpas a los usuarios por las molestias. (pedir, presente)", "piden", "Pasiva refleja: el sujeto es «disculpas» (plural), así que «se piden»."),
       fb("Completa el comunicado.", "Hasta el momento no se ___ incidencias. (registrar, perfecto)", "han registrado", "Pasiva refleja en perfecto que concuerda con «incidencias» (plural): «se han registrado»."),
       mt(
@@ -2170,7 +2170,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
           ["negarse", "a"],
           ["consistir", "en"],
         ],
-        "Régimen preposicional."
+        "Estas preposiciones no se deducen del significado: se memorizan con el verbo. Ojo al calco del inglés: «depender de» (no «en», de «depend on»), «consistir en» (no «de», de «consist of»)."
       ),
       toEs("It depends on the weather.", "Depende del tiempo.", "Depender de + el → del.", ["Depende del clima.", "Eso depende del tiempo."]),
       wo("Tardó más de una hora en darse cuenta del error.", "Tardar en + darse cuenta de.", "It took him more than an hour to notice the mistake."),
@@ -2331,7 +2331,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
           ["contar", "con"],
           ["especializarse", "en"],
         ],
-        "Régimen verbal del lenguaje profesional."
+        "Cada verbo fija su preposición: aspirar a un puesto, encargarse de una tarea, contar con experiencia, especializarse en un área."
       ),
       toEs("I'm confident that I can contribute to the company's growth.", "Confío en que puedo contribuir al crecimiento de la empresa.", "Confiar en que + indicativo cuando se presenta como certeza («confío en que puedo») o + subjuntivo cuando expresa esperanza («confío en que pueda»); contribuir a.", ["Confío en que pueda contribuir al crecimiento de la empresa.", "Confío en poder contribuir al crecimiento de la empresa.", "Estoy seguro de que puedo contribuir al crecimiento de la empresa."]),
       wo("Quedo a la espera de sus noticias y les agradezco su atención.", "Quedar a la espera de.", "I look forward to hearing from you and thank you for your attention."),
@@ -2449,7 +2449,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         [0, 1, 3],
         "«Cabe destacar» no lleva «de», así que «Cabe de destacar que…» es incorrecta. Las demás usan bien las fórmulas: «cabe destacar», «conviene tener en cuenta» y «es preciso señalar»."
       ),
-      toEs("It should be noted that the survey was anonymous.", "Cabe señalar que la encuesta fue anónima.", "«Cabe señalar que» introduce un dato que se presenta como hecho, por eso lleva indicativo.", ["Conviene precisar que la encuesta fue anónima.", "Hay que señalar que la encuesta era anónima."]),
+      toEs("It should be noted that the survey was anonymous.", "Cabe señalar que la encuesta fue anónima.", "«Cabe señalar que» introduce un dato que se presenta como hecho, por eso lleva indicativo.", ["Conviene precisar que la encuesta fue anónima.", "Hay que señalar que la encuesta era anónima.", "Cabe señalar que la encuesta era anónima.", "Conviene señalar que la encuesta fue anónima.", "Hay que señalar que la encuesta fue anónima.", "Cabe destacar que la encuesta fue anónima."]),
       wo("Cabe destacar que ningún participante abandonó el estudio.", "Cabe destacar + indicativo.", "It is worth highlighting that no participant left the study."),
     ]
   ),
@@ -2525,7 +2525,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Corrige.", "Es obligatorio llevar casco, ___ pena de sanción. (el alumno escribió: sobre)", "bajo", "La fórmula normativa es «bajo pena de» + sustantivo (con la amenaza de una sanción)."),
       fb("Corrige.", "Hay que decidir hoy, ___ pena de perder la oferta. (registro literario; el alumno escribió: sin)", "so", "«So pena de» es la variante culta y arcaizante de «bajo pena de»; «so» significa «bajo»."),
-      fb("Corrige.", "A riesgo de ___ repetitivo, insisto en este punto. (ser; el alumno escribió: siendo)", "ser", "Tras una preposición («de») el verbo va en infinitivo, no en gerundio: «a riesgo de ser»."),
+      fb("Corrige.", "A riesgo de ___ repetitivo, insisto en este punto. (el alumno escribió: siendo)", "ser", "Tras una preposición («de») el verbo va en infinitivo, no en gerundio: «a riesgo de ser»."),
       mc(
         "¿Qué frase es propia del lenguaje jurídico?",
         ["Queda prohibida la reproducción total o parcial, bajo pena de sanción.", "No lo copies o te la cargas.", "A riesgo de copiarlo, lo copio.", "So pena de copia, copia."],
@@ -2651,7 +2651,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Destaca el lugar.", "Fue en este bar ___ se firmó el acuerdo.", "donde", "Si el elemento destacado es un lugar, la hendida usa «donde»."),
-      fb("Destaca a la persona.", "Es tu hermano ___ tiene que disculparse, no tú.", "quien", "Persona → quien (o el que)."),
+      { ...fb("Destaca a la persona.", "Es tu hermano ___ tiene que disculparse, no tú.", "quien", "Persona → quien (o el que)."), altAnswers: ["el que"] },
       fb("Destaca el modo.", "Es con paciencia ___ se aprende un idioma.", "como", "Si el elemento destacado es un modo, la hendida usa «como»."),
       mc(
         "Transforma: «Me preocupa el presupuesto.» (destaca «el presupuesto»)",
@@ -2700,9 +2700,9 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "Para destacar un concepto no personal se usa «lo que»: «lo que me preocupa es el plazo». «Que» solo no funciona como sujeto, «el cual» necesita antecedente y «cuyo» es posesivo."
       ),
-      fb("Completa la réplica.", "—¿Lo escribió Cervantes? —No, fue Lope ___ lo escribió.", "quien", "Persona → quien (o el que)."),
+      { ...fb("Completa la réplica.", "—¿Lo escribió Cervantes? —No, fue Lope ___ lo escribió.", "quien", "Persona → quien (o el que)."), altAnswers: ["el que"] },
       fb("Completa la réplica.", "—¿Os conocisteis en Madrid? —No, fue en Lima ___ nos conocimos.", "donde", "Si se destaca un lugar («en Lima»), el relativo de la hendida es «donde»."),
-      fb("Completa la réplica.", "—¿Lo arreglaste con cinta? —No, fue con pegamento ___ lo arreglé.", "como", "Si se destaca el modo o el instrumento («con pegamento»), la hendida usa «como»."),
+      { ...fb("Completa la réplica.", "—¿Lo arreglaste con cinta? —No, fue con pegamento ___ lo arreglé.", "como", "Si se destaca el modo o el instrumento («con pegamento»), la hendida usa «como»; también vale repetir la preposición: «con lo que», «con el que»."), altAnswers: ["con lo que", "con el que"] },
       ms(
         "¿Qué réplicas son correctas? «—Lo rompió el gato.»",
         ["No, fue el perro el que lo rompió.", "No, fue el perro quien lo rompió.", "No, fue el perro donde lo rompió.", "No, fue el perro cual lo rompió."],
@@ -3066,7 +3066,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         "«Serían dos personas», «Habrán discutido» y «Estará escondido» son conjeturas (condicional y futuro). «La cafetera está caliente» es un hecho observado, no una suposición."
       ),
       fb("Completa.", "Cuando llegó la policía, el sospechoso ya ___ huido. (haber, conjetura sobre pasado anterior)", "habría", "Conjetura sobre una acción anterior a otro pasado («cuando llegó la policía»): condicional compuesto, «habría huido»."),
-      toEs("Someone must have warned him.", "Alguien lo habrá avisado.", "El futuro perfecto traduce «must have» + participio en conjeturas: «lo habrá avisado».", ["Alguien le habrá avisado.", "Alguien le habría avisado."]),
+      toEs("Someone must have warned him.", "Alguien lo habrá avisado.", "El futuro perfecto traduce «must have» + participio en conjeturas: «lo habrá avisado».", ["Alguien le habrá avisado.", "Alguien debe de haberlo avisado.", "Alguien debe de haberle avisado.", "Alguien debió de avisarlo.", "Alguien debió de avisarle."]),
       wo("No habrán ido muy lejos con tanta lluvia.", "Conjetura negativa.", "They can't have gone very far in this rain."),
     ]
   ),
@@ -3151,7 +3151,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         "«Deber» + infinitivo (sin «de») expresa obligación. La probabilidad se expresa con «deber de» + infinitivo («debe de estar en casa»); no hay concesión ni deseo."
       ),
       mt(
-        "Relaciona cada forma con el modo que exige.",
+        "Relaciona cada forma con la forma verbal que exige.",
         [
           ["a lo mejor", "indicativo"],
           ["puede que", "subjuntivo"],
@@ -3248,7 +3248,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         [0, 1, 2],
         "«Trátame de tú», «Puede tutearme» y «¿Nos tuteamos?» proponen el tú. «Háblenos de usted» pide mantener el usted, justo lo contrario."
       ),
-      toEs("Please, call me tú.", "Por favor, trátame de tú.", "«Tratar de tú» (o «tutear») traduce «call me tú»: «trátame de tú».", ["Por favor, tutéame.", "Por favor, puedes tutearme."]),
+      toEs("Please, call me tú.", "Por favor, trátame de tú.", "«Tratar de tú» (o «tutear») traduce «call me tú»: «trátame de tú».", ["Por favor, tutéame.", "Por favor, puedes tutearme.", "Por favor, háblame de tú."]),
       wo("Si le parece bien, podemos tutearnos a partir de ahora.", "Propuesta formal de tuteo.", "If it's all right with you, we can use tú from now on."),
     ]
   ),
@@ -3508,7 +3508,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Corrige.", "Vos ___ razón. (el alumno puso: tienés)", "tenés", "El presente de vos no diptonga: «tenés», no «tienés»."),
       fb("Corrige.", "¿Vos ___ de Córdoba? (el alumno puso: eres)", "sos", "El presente de vos de «ser» es «sos»; «eres» es la forma de tú."),
-      fb("Corrige.", "Este regalo es para ___. (el alumno puso: ti)", "vos", "Tras preposición, en zonas voseantes se usa «vos», no «ti»: «para vos»."),
+      fb("Corrige.", "Este regalo es para ___. (contexto rioplatense, con vos; el alumno puso: ti)", "vos", "Tras preposición, en zonas voseantes se usa «vos», no «ti»: «para vos»."),
       fb("Corrige la tilde.", "___, que te vas a caer. (el alumno puso: Agarráte)", "Agarrate", "«Agarrá» + «te» forma una palabra llana terminada en vocal: «agarrate», sin tilde."),
       ms(
         "¿Qué formas son correctas en el voseo rioplatense?",
@@ -3760,7 +3760,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         [0, 1, 2],
         "«Móvil» (España), «celular» y «cel» (América) designan el teléfono portátil. «Ordenador» es la computadora."
       ),
-      toEs("I'll drive; you look at the map. (América)", "Yo manejo; tú mira el mapa.", "En América se dice «manejar» por «conducir».", ["Yo manejo, tú mira el mapa.", "Manejo yo; tú mira el mapa."]),
+      toEs("I'll drive; you look at the map. (América)", "Yo manejo; tú mira el mapa.", "En América se dice «manejar» por «conducir».", ["Yo manejo, tú mira el mapa.", "Manejo yo; tú mira el mapa.", "Yo manejo y tú miras el mapa.", "Yo manejo; tú miras el mapa.", "Yo manejo, tú miras el mapa."]),
       wo("En Colombia le dicen carro y en Chile le dicen auto.", "Variación léxica.", "In Colombia they call it carro and in Chile they call it auto."),
     ]
   ),
@@ -4451,8 +4451,8 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "«Hace un tiempo les compré una cosa que no va bien» no da fecha, producto ni problema concretos. Las demás incluyen una fecha, un modelo, un número de factura o una cita concreta."
       ),
-      toEs("I would be grateful if you could refund the amount.", "Les agradecería que me reembolsaran el importe.", "«Agradecería» + «que» + imperfecto de subjuntivo: «que me reembolsaran el importe».", ["Le agradecería que me reembolsara el importe.", "Les agradecería que me devolvieran el importe."]),
-      wo("Adjunto copia de la factura y fotografías del producto dañado.", "Documentación de la reclamación.", "I am attaching a copy of the invoice and photos of the damaged product."),
+      toEs("I would be grateful if you could refund the amount.", "Les agradecería que me reembolsaran el importe.", "«Agradecería» + «que» + imperfecto de subjuntivo: «que me reembolsaran el importe».", ["Le agradecería que me reembolsara el importe.", "Les agradecería que me devolvieran el importe.", "Les agradecería que pudieran reembolsarme el importe.", "Le agradecería que pudiera reembolsarme el importe."]),
+      wo("Adjunto copia de la factura y fotografías del producto dañado.", "«Adjunto» (adjuntar, yo) abre la frase; en este estilo administrativo se omite el artículo ante «copia», y «dañado» concuerda con «producto».", "I am attaching a copy of the invoice and photos of the damaged product."),
     ]
   ),
   L(
@@ -4499,7 +4499,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         "En «Adjunto le envío el informe», «adjunto» es adjetivo y concuerda con «el informe» (masculino singular); con otro sustantivo cambiaría: «Adjunta le envío la factura» (también es posible «Le envío adjunto el informe»). «Adjunta» y «adjuntos» no concuerdan con «el informe», y «adjuntado» no se usa en esta fórmula."
       ),
       toEs("I am attaching my CV and a cover letter.", "Adjunto mi currículum y una carta de presentación.", "«Adjuntar» es el verbo para enviar documentos anexos: «adjunto mi currículum».", ["Le adjunto mi currículum y una carta de presentación.", "Adjunto mi CV y una carta de presentación."]),
-      wo("Le remito su solicitud al departamento de recursos humanos.", "Remitir = derivar.", "I'm referring your request to the human resources department."),
+      wo("Le remito su solicitud al departamento de recursos humanos.", "«Remitir» es derivar algo formalmente a otra instancia; el orden es «le» + verbo + objeto («su solicitud») + destino («al departamento…»).", "I'm referring your request to the human resources department."),
     ]
   ),
   L(
@@ -4543,7 +4543,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         "Mencionar un tema concreto de la entrevista personaliza el correo. Repetir el CV entero cansa, preguntar el salario de entrada parece interesado y escribir en mayúsculas equivale a gritar."
       ),
       toEs("Thank you for your time yesterday. (formal)", "Le agradezco el tiempo que me dedicó ayer.", "«Agradecer» + «le» (usted): «le agradezco el tiempo que me dedicó».", ["Le agradezco su tiempo ayer.", "Gracias por el tiempo que me dedicó ayer."]),
-      wo("Me resultó muy interesante conocer los proyectos del departamento.", "Recuerdo concreto.", "I found it very interesting to learn about the department's projects."),
+      wo("Me resultó muy interesante conocer los proyectos del departamento.", "«Resultar» funciona como «gustar»: «me resultó muy interesante» + infinitivo como sujeto («conocer los proyectos»). Mencionar un detalle concreto personaliza el correo.", "I found it very interesting to learn about the department's projects."),
     ]
   ),
   L(
@@ -4586,8 +4586,8 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "La locución formal es «a tal efecto» (= con ese fin). «A tal caso» no existe (sería «en tal caso»), «a tal fin de» sobra la preposición y «a tal manera» no se usa."
       ),
-      toEs("We would be grateful if you could confirm your attendance.", "Le agradeceríamos que confirmara su asistencia.", "«Agradeceríamos» (condicional) + «que» + imperfecto de subjuntivo: «que confirmara».", ["Les agradeceríamos que confirmaran su asistencia.", "Agradeceríamos que confirmara su asistencia."]),
-      wo("Por consiguiente, le rogamos que regularice la situación cuanto antes.", "Conector + subjuntivo.", "Consequently, we ask you to settle the matter as soon as possible."),
+      toEs("We would be grateful if you could confirm your attendance.", "Le agradeceríamos que confirmara su asistencia.", "«Agradeceríamos» (condicional) + «que» + imperfecto de subjuntivo: «que confirmara».", ["Les agradeceríamos que confirmaran su asistencia.", "Agradeceríamos que confirmara su asistencia.", "Le agradeceríamos que pudiera confirmar su asistencia.", "Les agradeceríamos que pudieran confirmar su asistencia."]),
+      wo("Por consiguiente, le rogamos que regularice la situación cuanto antes.", "«Por consiguiente» introduce la consecuencia y va seguido de coma; «rogar que» expresa una petición y exige subjuntivo: «que regularice».", "Consequently, we ask you to settle the matter as soon as possible."),
     ]
   ),
   L(
@@ -4631,7 +4631,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         "El «se» + verbo, el plural de modestia («consideramos») y los sujetos no humanos («este estudio muestra») despersonalizan. «Yo opino que» es explícitamente personal."
       ),
       toEs("It has been shown that sleep improves memory.", "Se ha demostrado que el sueño mejora la memoria.", "Pasiva refleja en perfecto: «se ha demostrado que…», sin mencionar quién lo demostró.", ["Se ha comprobado que el sueño mejora la memoria.", "Está demostrado que el sueño mejora la memoria."]),
-      wo("Cabe señalar que la muestra es relativamente reducida.", "Expresión impersonal + atenuación.", "It should be noted that the sample is relatively small."),
+      wo("Cabe señalar que la muestra es relativamente reducida.", "«Cabe señalar que» es impersonal (evita el «yo») y «relativamente reducida» atenúa la crítica; tras él va indicativo («es») porque se afirma un hecho.", "It should be noted that the sample is relatively small."),
     ]
   ),
   L(
@@ -4682,7 +4682,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       { ...fb("Completa.", "Para refutar el contraargumento: «___, esta objeción no tiene en cuenta…»", "Sin embargo", "«Sin embargo» (o «no obstante», «ahora bien») introduce el contraste con el que se refuta la objeción."), altAnswers: ["No obstante", "Ahora bien"] },
       { ...fb("Completa.", "Los datos ___ esta hipótesis: el 80 % de los casos coincide. (apoyar)", "apoyan", "Los datos «apoyan» (o «respaldan») una hipótesis cuando la confirman; el verbo concuerda con «los datos»."), altAnswers: ["respaldan", "sustentan", "confirman"] },
-      toEs("It could be argued that the cost is too high.", "Podría objetarse que el coste es demasiado alto.", "«Podría objetarse que» (condicional + «se») anticipa una objeción de forma impersonal.", ["Podría argumentarse que el coste es demasiado alto.", "Podría objetarse que el costo es demasiado alto."]),
+      toEs("It could be argued that the cost is too high.", "Podría objetarse que el coste es demasiado alto.", "«Podría objetarse que» (condicional + «se») anticipa una objeción de forma impersonal.", ["Podría argumentarse que el coste es demasiado alto.", "Podría objetarse que el costo es demasiado alto.", "Se podría argumentar que el coste es demasiado alto.", "Se podría objetar que el coste es demasiado alto.", "Se podría argumentar que el costo es demasiado alto.", "Cabría objetar que el coste es demasiado alto."]),
       wo("La evidencia disponible respalda la tesis principal del ensayo.", "«Respaldar» (= apoyar) concuerda con el sujeto singular «la evidencia disponible»; los adjetivos «disponible» y «principal» van detrás del sustantivo.", "The available evidence supports the essay's main thesis."),
     ]
   ),
@@ -5172,7 +5172,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Corrige.", "Recibí una carta ___ informaba del cambio. (el alumno puso: carta informando)", "que", "El gerundio no puede especificar un sustantivo («carta informando»); se usa una relativa: «que informaba»."),
+      fb("Corrige.", "Recibí una carta ___ me informaba del cambio. (el alumno puso: carta informándome)", "que", "El gerundio no puede especificar un sustantivo («carta informándome»); se usa una relativa: «que me informaba»."),
       fb("Corrige.", "Se graduó en 2010 y ___ a trabajar en Chile en 2012. (el alumno puso: …, empezando a trabajar)", "empezó", "Una acción posterior se expresa con verbo conjugado, no con gerundio: «y empezó a trabajar»."),
       mc(
         "Versión correcta de «Hubo un incendio, resultando heridas tres personas»:",
@@ -5234,7 +5234,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
           ["seguir + ger.", "continuidad"],
           ["acabar de + inf.", "pasado inmediato"],
         ],
-        "Perífrasis aspectuales."
+        "«Volver a» repite la acción, «llegar a» indica que se alcanza un punto (culminación), «seguir» + gerundio la continúa y «acabar de» marca un pasado inmediato."
       ),
       toEs("She has been working here for ten years.", "Lleva diez años trabajando aquí.", "«Llevar» + tiempo + gerundio traduce «has been -ing for».", ["Lleva trabajando aquí diez años.", "Hace diez años que trabaja aquí."]),
       wo("Nunca llegó a entender por qué se fue.", "«Llegar a» + infinitivo marca la culminación de un proceso; con «nunca» indica que no culminó: «nunca llegó a entender» (= never managed to understand).", "He never came to understand why she left."),
@@ -5453,7 +5453,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
           ["este mes", "aquel mes"],
           ["ahora", "en ese momento"],
         ],
-        "Deícticos en estilo indirecto."
+        "Al contar desde otro momento, las referencias al «ahora» del hablante se desplazan: mañana → al día siguiente, ayer → el día anterior, este → aquel, ahora → en ese momento."
       ),
       toEs("She told me she would come back the next day.", "Me dijo que volvería al día siguiente.", "El futuro pasa a condicional («volvería») y «tomorrow» a «al día siguiente».", ["Me dijo que regresaría al día siguiente.", "Me contó que volvería al día siguiente."]),
       wo("Nos advirtió que no tocáramos nada hasta que llegara la policía.", "La orden «No toquéis nada» pasa a imperfecto de subjuntivo tras «advirtió que» («no tocáramos»), y «hasta que» con acción posterior también lleva subjuntivo: «llegara».", "He warned us not to touch anything until the police arrived."),
@@ -5510,8 +5510,8 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
         "Las preguntas y exclamaciones del personaje, los tiempos del pasado del narrador y la ausencia de verbo introductor caracterizan el indirecto libre. Las comillas y los guiones son del estilo directo."
       ),
       fb("Pasa a indirecto libre.", "Pensó: «¿Me habrá mentido?» → ¿Le ___ mentido?", "habría", "El futuro perfecto de conjetura pasa a condicional perfecto: «¿Le habría mentido?»."),
-      fb("Pasa a indirecto libre.", "Pensó: «Mañana se lo digo» → Al día siguiente se lo ___.", "diría", "Presente con valor futuro → condicional."),
-      wo("¿Y si nadie se acordaba de su cumpleaños?", "Pregunta del personaje en indirecto libre.", "What if nobody remembered her birthday?"),
+      fb("Pasa a indirecto libre.", "Pensó: «Mañana se lo digo» → Mañana se lo ___.", "diría", "Presente con valor futuro → condicional; a diferencia del estilo indirecto, el indirecto libre conserva los deícticos del personaje («mañana»)."),
+      wo("¿Y si nadie se acordaba de su cumpleaños?", "La pregunta del personaje aparece sin verbo introductor y con el tiempo del narrador («se acordaba», no «se acuerda»); «acordarse» rige «de».", "What if nobody remembered her birthday?"),
     ]
   ),
   L(
@@ -5599,7 +5599,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
           ["Es atento.", "Es amable."],
           ["Está atento.", "Presta atención."],
         ],
-        "Ser/estar cambian el sentido."
+        "Con «ser» se describe un rasgo (vivo = espabilado; atento = amable) y con «estar» un estado (vivo = no muerto; atento = prestando atención)."
       ),
       toEs("This soup is delicious.", "Esta sopa está riquísima.", "«Estar rico» significa estar sabroso; «ser rico» es tener mucho dinero.", ["Esta sopa está muy rica.", "Esta sopa está deliciosa.", "Esta sopa está rica."]),
       wo("Estamos muy orgullosos de todo lo que has conseguido.", "«Estar orgulloso de» expresa satisfacción por algo («ser orgulloso» sería un rasgo de carácter); el adjetivo concuerda con «nosotros»: orgullosos.", "We're very proud of everything you've achieved."),
@@ -5709,9 +5709,9 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Completa.", "Esa es la ciudad ___ la que siempre he soñado.", "con", "El relativo conserva la preposición del verbo: «soñar con» → «con la que»."),
-      fb("Completa.", "Es un tema ___ el que no me gusta hablar.", "del", "Hablar de + el que → del que."),
+      fb("Completa.", "Es un tema ___ que no me gusta hablar.", "del", "Hablar de + el que → del que."),
       fb("Completa.", "Son los recursos ___ los que contamos.", "con", "«Contar con» → «con los que»: la preposición del verbo va delante del relativo."),
-      fb("Completa.", "Es el error ___ el que más me arrepiento.", "del", "«Arrepentirse de» → «del que» (de + el que)."),
+      fb("Completa.", "Es el error ___ que más me arrepiento.", "del", "«Arrepentirse de» → «del que» (de + el que)."),
       mc(
         "Corrige: «Es el amigo que te hablé.»",
         ["Es el amigo del que te hablé.", "Es el amigo que te hablé de.", "Es el amigo quien te hablé.", "Es el amigo cual te hablé."],
@@ -5759,7 +5759,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
           ["atreverse", "a"],
           ["conformarse", "con"],
         ],
-        "Régimen de pronominales."
+        "Cada verbo pronominal tiene su preposición fija, que no se deduce del inglés: fiarse de (trust), fijarse en (notice), atreverse a (dare to), conformarse con (settle for)."
       ),
       toEs("I forgot to buy bread.", "Se me olvidó comprar pan.", "«Se me olvidó» presenta el olvido como involuntario; también vale «me olvidé de».", ["Me olvidé de comprar pan.", "Olvidé comprar pan."]),
       wo("Nunca se queja de nada aunque trabaja muchísimo.", "«Quejarse» rige «de» («de nada»); con «nunca» antes del verbo no hace falta «no». «Aunque» + indicativo presenta el hecho como real: «trabaja».", "She never complains about anything even though she works a lot."),
@@ -5840,7 +5840,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
           ["dámelo", "dámelo"],
           ["ven", "vení"],
         ],
-        "Imperativos voseantes."
+        "El imperativo de vos se forma quitando la -r del infinitivo (decí, callá, vení); con un pronombre la palabra queda llana y sin tilde (decime, callate), y con dos lleva tilde (decímelo, dámelo)."
       ),
       ms(
         "¿Qué formas están bien acentuadas?",
@@ -6022,7 +6022,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
           ["Lamento informarle del retraso.", "la jefa"],
           ["El retraso podría deberse a varios factores.", "un lector académico"],
         ],
-        "Registro según destinatario."
+        "«Tío» marca el registro coloquial entre amigos; «Lamento informarle» (usted) es la fórmula formal ante una superiora; «podría deberse a» atenúa, como pide el registro académico."
       ),
       { ...fb("Registro formal.", "Lamento ___ que la entrega se retrasará. (comunicar + le)", "comunicarle", "«Lamento comunicarle que» es la fórmula formal para dar una mala noticia; «le» (usted) va unido al infinitivo."), altAnswers: ["informarle", "informarle de"] },
       fb("Registro académico.", "La ___ de fondos explicaría el retraso. (faltar, sustantivo)", "falta", "La nominalización de «faltar» es «la falta», propia del registro académico."),
@@ -6073,7 +6073,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
       toEs("They must have left already.", "Ya se habrán ido.", "El futuro perfecto expresa una conjetura sobre algo ya ocurrido: «ya se habrán ido».", ["Ya se habrán marchado.", "Ya deben de haberse ido.", "Se habrán ido ya."]),
       toEn("Es de eso de lo que quería hablarte.", "That's what I wanted to talk to you about.", "La hendida «es de eso de lo que…» repite la preposición; en inglés la preposición va al final: «talk to you about».", ["That is what I wanted to talk to you about.", "It's that that I wanted to talk to you about."]),
       toEn("Como no llegues a tiempo, nos vamos sin ti.", "If you don't arrive on time, we're leaving without you.", "«Como» + subjuntivo al principio expresa una condición con tono de amenaza: «if you don't…».", ["If you're not on time, we're leaving without you.", "If you don't get here on time, we'll leave without you."]),
-      toEn("Por más que lo intento, no me sale.", "However hard I try, I can't do it.", "Por más que + indicativo (hecho real).", ["No matter how hard I try, I can't do it.", "However much I try, I can't get it right."]),
+      toEn("Por más que lo intento, no me sale.", "However hard I try, I can't do it.", "«Por más que» + indicativo («lo intento») presenta el esfuerzo como un hecho real y repetido; «no me sale» significa que no se consigue hacerlo.", ["No matter how hard I try, I can't do it.", "However much I try, I can't get it right."]),
       toEs("It's not that I don't care; I'm exhausted.", "No es que no me importe; es que estoy agotado.", "«No es que» + subjuntivo niega la razón aparente; «es que» da la verdadera.", ["No es que no me importe, es que estoy agotado.", "No es que no me importe; estoy agotada."]),
     ]
   ),
@@ -6086,7 +6086,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Criterios finales",
-        "Información nueva vs. conocida (aunque). Real vs. virtual (antecedentes). Mismo sujeto → infinitivo («Quiero ir»). Emoción, valoración, voluntad → subjuntivo. Verbos de percepción/opinión afirmados → indicativo; negados → subjuntivo («No creo que venga»). Temporales con futuro → subjuntivo.",
+        "Información nueva vs. conocida (aunque). Real vs. virtual (antecedentes). Mismo sujeto → infinitivo («Quiero ir»). Emoción, valoración, voluntad → subjuntivo. Verbos de opinión afirmados → indicativo; negados → normalmente subjuntivo («No creo que venga»). Temporales con futuro → subjuntivo.",
         [
           ["No creo que sea tan grave.", "I don't think it's that serious."],
           ["Creo que es grave.", "I think it's serious."],
@@ -6169,7 +6169,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
           ["asimismo", "adición"],
           ["en definitiva", "conclusión"],
         ],
-        "Mapa de conectores."
+        "«No obstante» opone una idea a la anterior, «por consiguiente» introduce su consecuencia, «asimismo» añade otra en la misma línea y «en definitiva» cierra con una conclusión."
       ),
       ms(
         "¿Qué conectores expresan contraste?",
@@ -6412,7 +6412,7 @@ export const C1_REINFORCEMENT: AnchoredLesson[] = [
       fb("Motivo.", "Me ___ a ustedes para solicitar la beca.", "dirijo", "«Dirigirse a» alguien es la fórmula formal de apertura: «me dirijo a ustedes»."),
       fb("Argumento (adición).", "Cuento con experiencia en el sector. ___, he publicado dos artículos.", "Asimismo", "«Asimismo» (= además) añade un argumento en registro formal."),
       fb("Petición.", "Les agradecería que ___ en cuenta mi solicitud. (tener)", "tuvieran", "«Agradecería» (condicional) + «que» exige imperfecto de subjuntivo: «tuvieran»."),
-      { ...fb("Documentos.", "Encontrarán ___ mi currículum y dos cartas de recomendación.", "adjuntos", "Concordancia con currículum y cartas (masculino plural); también es frecuente el invariable «adjunto»."), altAnswers: ["adjunto"] },
+      fb("Documentos.", "Encontrarán ___ mi currículum y dos cartas de recomendación.", "adjuntos", "«Adjunto» es adjetivo y concuerda con lo adjuntado (currículum y cartas → masculino plural): «adjuntos». El uso invariable («Encontrarán adjunto…» con plural) se oye, pero la norma lo desaconseja."),
       fb("Cierre.", "Quedo a la ___ de su respuesta.", "espera", "«Quedar a la espera de» es la fórmula fija de cierre para anunciar que se aguarda respuesta."),
       mc(
         "Despedida adecuada:",

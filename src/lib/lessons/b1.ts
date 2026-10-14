@@ -7903,7 +7903,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "Quizás ella ___ a la fiesta esta noche.",
+        "question": "¿Qué forma expresa más duda? Quizás ella ___ a la fiesta esta noche.",
         "options": [
           "venga",
           "viene",
@@ -12295,7 +12295,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La educación",
         "body": [
-          "Las 50 palabras de educación de la lección «Simple If-Clauses: Si + Presente, Part 2», agrupadas para repasar."
+          "Las 50 palabras de educación de la lección «Simple If-Clauses: Si + Presente, Part 2 of 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -12577,7 +12577,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Experiencias de vida",
         "body": [
-          "Las 50 palabras sobre experiencias de vida de la lección «Present Perfect: Pretérito Perfecto, Part 2», agrupadas para repasar."
+          "Las 50 palabras sobre experiencias de vida de la lección «Present Perfect: Pretérito Perfecto, Part 2 of 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -12844,7 +12844,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Noticias y sucesos",
         "body": [
-          "Las 50 palabras sobre noticias y sucesos de la lección «Past Perfect: Pluscuamperfecto, Part 2», agrupadas para repasar."
+          "Las 50 palabras sobre noticias y sucesos de la lección «Past Perfect: Pluscuamperfecto, Part 2 of 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -13117,13 +13117,13 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 64,
     "title": "B1 Vocabulary Practice, Part 9 of 10",
-    "summary": "Repasa las 50 palabras de la Lección 9: la ciudad y las direcciones.",
+    "summary": "Repasa las 50 palabras de la ciudad y las direcciones de la lección «Relative Pronouns: Que, Quien, El Que, Lo Que, Part 2 of 2».",
     "duration": "8 min",
     "sections": [
       {
         "heading": "La ciudad y las direcciones",
         "body": [
-          "Las 50 palabras de la Lección 9, agrupadas para repasar."
+          "Las 50 palabras de la ciudad y las direcciones de la lección «Relative Pronouns: Que, Quien, El Que, Lo Que, Part 2 of 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {
@@ -13399,13 +13399,13 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 65,
     "title": "B1 Vocabulary Practice, Part 10 of 10",
-    "summary": "Repasa las 50 palabras de la Lección 10: los negocios y el mundo del trabajo.",
+    "summary": "Repasa las 50 palabras de los negocios y el mundo del trabajo de la lección «Passive Voice & Impersonal Se, Part 2 of 2».",
     "duration": "8 min",
     "sections": [
       {
         "heading": "Negocios y el trabajo",
         "body": [
-          "Las 50 palabras de la Lección 10, agrupadas para repasar."
+          "Las 50 palabras de los negocios y el mundo del trabajo de la lección «Passive Voice & Impersonal Se, Part 2 of 2», agrupadas para repasar."
         ],
         "checkpoint": [
           {

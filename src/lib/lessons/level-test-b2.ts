@@ -13,7 +13,7 @@ const { fe, sec } = authoring("es");
 export const LEVEL_TEST_B2: LevelTest = {
   title: "Prueba de nivel Avanzado: ¿listo para el nivel Maestría?",
   summary:
-    "La prueba final del nivel Avanzado: comprensión de lectura y auditiva, gramática y vocabulario escribiendo en español, y un texto de opinión. 46 preguntas sobre lo que se enseña en el nivel Avanzado; se aprueba con un 70%.",
+    "La prueba final del nivel Avanzado: comprensión de lectura y auditiva, gramática y vocabulario escribiendo en español, y un texto de opinión. 46 preguntas sobre lo que se enseña en el nivel Avanzado; se aprueba con un 70 %.",
   duration: "55 min",
   sections: [
     readingSection(
@@ -154,7 +154,7 @@ export const LEVEL_TEST_B2: LevelTest = {
         fe("Busco a alguien que ___ chino.", "hable", "I'm looking for someone who [speaks] Chinese.", "Alguien desconocido o que quizá no existe: subjuntivo, hable."),
         fe("No hay nadie que ___ la respuesta.", "sepa", "There's no one who [knows] the answer.", "Antecedente negativo (nadie): subjuntivo, sepa."),
         fe("Te lo digo para que lo ___.", "sepas", "I'm telling you so that [you know].", "Para que + subjuntivo: sepas."),
-        fe("Cuando ___ mayor, viviré en el campo.", "sea", "When [I'm] older, I'll live in the country.", "Cuando + futuro: subjuntivo, sea."),
+        fe("Cuando ___ mayor, viviré en el campo.", "sea", "When [I'm] older, I'll live in the country.", "Cuando referido al futuro lleva subjuntivo, nunca futuro: cuando sea mayor (no «cuando seré»)."),
         fe("Aunque ___ mañana, iremos a la playa.", "llueva", "Even if [it rains] tomorrow, we'll go to the beach.", "Aunque + algo hipotético: subjuntivo, llueva."),
         fe("Antes de que ___ los invitados, limpia la casa.", "lleguen", "Before the guests [arrive], clean the house.", "Antes de que siempre pide subjuntivo: lleguen.", ["vengan"]),
         fe("Mi madre quería que yo ___ medicina.", "estudiara", "My mother wanted me [to study] medicine.", "Verbo principal en pasado: imperfecto de subjuntivo, estudiara (o estudiase).", ["estudiase"]),

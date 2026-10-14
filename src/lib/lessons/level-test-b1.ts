@@ -14,7 +14,7 @@ const { fe, sec } = authoring("es");
 export const LEVEL_TEST_B1: LevelTest = {
   title: "Prueba de nivel Intermedio: ¿listo para el nivel Avanzado?",
   summary:
-    "La prueba final del nivel Intermedio: comprensión de lectura y auditiva, gramática y vocabulario escribiendo en español, y un correo. 46 preguntas sobre lo que se enseña en el nivel Intermedio; se aprueba con un 70%.",
+    "La prueba final del nivel Intermedio: comprensión de lectura y auditiva, gramática y vocabulario escribiendo en español, y un correo. 46 preguntas sobre lo que se enseña en el nivel Intermedio; se aprueba con un 70 %.",
   duration: "50 min",
   sections: [
     readingSection(
@@ -77,7 +77,7 @@ export const LEVEL_TEST_B1: LevelTest = {
           ["Se donará a una asociación del barrio", "Se venderá", "Se quedará en el garaje", "Se la quedará el portero"],
           "«Después de esa fecha, se donará a una asociación del barrio.»",
         ],
-        ["¿Hasta cuándo se puede recoger la bicicleta?", ["Hasta el día 15", "Hasta el lunes", "Hasta las dos", "Hasta final de mes"], "«Hable con el portero antes del día 15.»"],
+        ["¿Antes de qué fecha hay que reclamar la bicicleta?", ["Antes del día 15", "Antes del lunes", "Antes de las dos", "Antes de final de mes"], "«Hable con el portero antes del día 15.»"],
         [
           "¿Qué está prohibido?",
           ["Dejar basura en la escalera", "Aparcar bicicletas en el garaje", "Hablar con el portero", "Usar el agua por la mañana"],
@@ -154,13 +154,13 @@ export const LEVEL_TEST_B1: LevelTest = {
       "Escribe en español las palabras en negrita. Se aceptan pequeños errores de tildes, con una nota.",
       [],
       [
-        fe("Esta semana ___ mucho.", "he trabajado", "This week [I have worked] a lot.", "Esta semana (un periodo que no ha terminado) pide el pretérito perfecto: he trabajado."),
+        fe("Esta semana ___ mucho.", "he trabajado", "This week [I have worked] a lot.", "Esta semana (un periodo que no ha terminado) pide en España el pretérito perfecto: he trabajado; en gran parte de América se usa el indefinido: trabajé.", ["trabajé"]),
         fe(
           "¿Alguna vez ___ a México?",
           "has estado",
           "[Have you] ever [been] to Mexico?",
-          "Experiencias: pretérito perfecto, has estado o has ido (usted ha estado).",
-          ["has ido", "ha estado", "ha ido"]
+          "Experiencias: en España, pretérito perfecto, has estado o has ido (usted ha estado); en gran parte de América, el indefinido: ¿alguna vez fuiste a México?",
+          ["has ido", "ha estado", "ha ido", "fuiste", "fue"]
         ),
         fe(
           "Cuando llegué, la película ya ___.",

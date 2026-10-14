@@ -265,8 +265,8 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   "listening-reading-strategies-3": [
     fe("En pocos segundos pasó del registro formal al ___.", "coloquial", "In a few seconds he went from formal register to [colloquial].", "Registro coloquial frente a formal o culto.", ["informal", "familiar"]),
     fe("Ese cambio de tono revela su verdadera ___.", "intención", "That change of tone reveals his true [intention].", "El cambio de registro suele tener una intención comunicativa.", ["actitud"]),
-    fe("En los textos cultos, el lector debe deducir la ___ entre las ideas.", "relación", "In formal texts, the reader must work out the [connection] between ideas.", "Las conexiones lógicas a menudo están implícitas.", ["conexión", "relación lógica"]),
-    fe("Este artículo no usa ___: las ideas aparecen simplemente yuxtapuestas.", "conectores", "This article doesn't use [connectors]: the ideas are simply juxtaposed.", "Conectores como «sin embargo» o «por tanto» explicitan la relación lógica.", ["nexos", "marcadores", "marcadores discursivos"]),
+    fe("Pasar del tú al usted en mitad de una discusión sirve para marcar ___.", "distancia", "Switching from tú to usted in the middle of an argument serves to mark [distance].", "Subir el registro (pasar al usted) marca distancia o frialdad; bajarlo genera cercanía.", ["frialdad"]),
+    fe("Repitió mis palabras con ___ para burlarse de mí.", "retintín", "He repeated my words [with a sarcastic edge] to make fun of me.", "«Citar con retintín»: reproducir las palabras de otro con un matiz irónico en la entonación.", ["ironía", "sorna", "sarcasmo"]),
   ],
   "c2r-strategy-implicit-connections": [
     fe("Prometió cambiar; ___, a las tres semanas volvió a las andadas.", "sin embargo", "He promised to change; [however], three weeks later he was back to his old ways.", "El conector explicita el contraste implícito.", ["no obstante", "aun así", "pero"]),
@@ -277,7 +277,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Hay que leer ___ para captar la crítica.", "entre líneas", "You have to read [between the lines] to catch the criticism.", "«Leer entre líneas»: captar lo implícito."),
   ],
   "c2r-strategy-fast-speech": [
-    fe("En el habla rápida, mucha gente pronuncia «cansado» como «___».", "cansao", "In fast speech, many people pronounce «cansado» as «[cansao]».", "Caída de la -d- intervocálica en los participios en -ado.", ["cansa'o"]),
+    fe("En el habla rápida, mucha gente pronuncia «cansado» sin la -d-, es decir, «___».", "cansao", "In fast speech, many people pronounce «cansado» without the -d-, that is, [in its reduced form].", "Caída de la -d- intervocálica en los participios en -ado.", ["cansa'o"]),
     fe("Ese ___ no te sirve en un correo formal.", "registro", "That [register] isn't suitable for a formal email.", "Las reducciones orales pertenecen al registro coloquial.", ["estilo"]),
   ],
   "listening-reading-strategies-5": [
@@ -298,7 +298,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Más allá de la denotación, la palabra tiene una ___ negativa.", "connotación", "Beyond its denotation, the word has a negative [connotation].", "Connotación: valor subjetivo o asociativo de una palabra."),
   ],
   "c2r-strategy-note-taking": [
-    fe("Al tomar notas, conviene usar ___ para ir más rápido.", "abreviaturas", "When taking notes, it's best to use [abbreviations] to go faster.", "Abreviaturas como «xq» (porque) o «tb» (también).", ["abreviaciones", "siglas"]),
+    fe("Al tomar notas, conviene usar ___ para ir más rápido.", "abreviaturas", "When taking notes, it's best to use [abbreviations] to go faster.", "Abreviaturas como «xq» (porque) o «tb» (también).", ["abreviaciones"]),
   ],
   "listening-reading-strategies-8": [
     fe("«O sea» introduce una ___ de lo que acabas de decir.", "reformulación", "«O sea» introduces a [rephrasing] of what you just said.", "Marcadores de reformulación: «es decir», «o sea», «dicho de otro modo».", ["aclaración", "paráfrasis"]),
@@ -426,7 +426,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Una biografía de Bolívar es una fuente ___.", "secundaria", "A biography of Bolívar is a [secondary] source.", "Las fuentes secundarias interpretan o comentan las primarias."),
   ],
   "citations-references-4": [
-    fe("El autor ___ que el método era fiable, aunque no aporta pruebas.", "pretende", "The author [claims] the method was reliable, though he provides no evidence.", "«Pretender» como verbo de atribución expresa distancia crítica.", ["asegura", "alega"]),
+    fe("El autor ___ que el método era fiable, aunque no aporta pruebas.", "pretende", "The author [claims] the method was reliable, though he provides no evidence.", "«Pretender» como verbo de atribución expresa distancia crítica; «afirma» o «sostiene» son más neutros.", ["asegura", "alega", "afirma", "sostiene"]),
     fe("Todas las fuentes del estudio forman su ___ documental.", "corpus", "All the study's sources make up its documentary [corpus].", "«Corpus»: conjunto de documentos analizados."),
     fe("Una buena paráfrasis ___ la estructura del original.", "reorganiza", "A good paraphrase [reorganizes] the structure of the original.", "Parafrasear no es cambiar solo algunas palabras.", ["cambia", "modifica", "transforma"]),
   ],
@@ -608,7 +608,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   "science-technology-spanish-3": [
     fe("El algoritmo reproduce un ___ presente en los datos.", "sesgo", "The algorithm reproduces a [bias] present in the data.", "«Sesgo algorítmico».", ["prejuicio"]),
     fe("Nadie entiende cómo decide: es una caja ___.", "negra", "Nobody understands how it decides: it's a [black box].", "«Caja negra»: sistema cuyo funcionamiento interno es opaco."),
-    fe("La doctora publica sus ___ para que otros puedan comprobarlos.", "protocolos", "The doctor publishes her [protocols] so that others can check them.", "Ciencia abierta: publicar métodos y datos.", ["datos", "métodos", "resultados"]),
+    fe("La doctora publica sus ___ para que otros puedan comprobarlos.", "protocolos", "The doctor publishes her [protocols] so that others can check them.", "Ciencia abierta: publicar métodos y datos.", ["métodos"]),
   ],
   "c2r-science-popularize": [
     fe("El hallazgo es prometedor, pero todavía queda mucho por ___.", "investigar", "The finding is promising, but there's still a lot to [research].", "«Quedar mucho por + infinitivo».", ["hacer", "estudiar"]),
@@ -675,7 +675,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   "art-film-literature-criticism-3": [
     fe("Publicó una ___ muy dura de la novela.", "reseña", "She published a very harsh [review] of the novel.", "«Reseña (crítica)»: texto breve que valora una obra.", ["crítica"]),
     fe("El ___ de la película me pareció forzado.", "desenlace", "I found the film's [ending] forced.", "«Desenlace»: resolución final de la trama.", ["final"]),
-    fe("Su juicio ___ se basa en argumentos, no en gustos.", "crítico", "His [critical] judgment is based on arguments, not on tastes.", "«Juicio crítico»: valoración razonada."),
+    fe("Su juicio ___ se basa en argumentos, no en gustos.", "crítico", "His [critical] judgment is based on arguments, not on taste.", "«Juicio crítico»: valoración razonada."),
   ],
   "business-economics-spanish-1": [
     fe("Si la oferta supera a la ___, los precios bajan.", "demanda", "If supply exceeds [demand], prices fall.", "Ley de la oferta y la demanda."),
@@ -688,7 +688,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   "business-economics-spanish-3": [
     fe("Este año el Estado ha cerrado con ___: ha gastado más de lo que ha ingresado.", "déficit", "This year the state ended with a [deficit]: it spent more than it took in.", "Déficit frente a superávit."),
     fe("La fusión podría crear un ___ en algunas rutas.", "monopolio", "The merger could create a [monopoly] on some routes.", "Monopolio: un solo proveedor domina el mercado."),
-    fe("El banco central ha subido los tipos de ___.", "interés", "The central bank has raised interest [rates].", "«Tipos de interés» (España) o «tasas de interés» (América)."),
+    fe("El banco central ha subido los tipos de ___.", "interés", "The central bank has raised [interest] rates.", "«Tipos de interés» (España) o «tasas de interés» (América)."),
   ],
   "creative-writing-techniques-1": [
     fe("Desde el primer capítulo, el autor ___ el final con pequeños indicios.", "prefigura", "From the first chapter, the author [foreshadows] the ending with small clues.", "Prefigurar: anticipar sutilmente un hecho posterior.", ["anticipa", "presagia"]),
@@ -719,7 +719,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   ],
   "c2r-challenge-text-detective": [
     fe("En palabras ___, el concejal afirmó que el proyecto mejorará la movilidad.", "textuales", "In his [exact] words, the councillor stated that the project will improve mobility.", "«En palabras textuales»: cita literal.", ["literales"]),
-    fe("Es cierto que el tráfico es un problema; ___, talar el parque no es la solución.", "ahora bien", "It's true that traffic is a problem; [that said], cutting down the park is not the solution.", "Concesión seguida de refutación.", ["sin embargo", "no obstante"]),
+    fe("Es cierto que el tráfico es un problema; ___, talar el parque no es la solución.", "ahora bien", "It's true that traffic is a problem; [that said], cutting down the park is not the solution.", "«Es cierto que…; ahora bien, …»: se concede un punto y se introduce la objeción. «Dicho esto», «sin embargo» y «no obstante» cumplen la misma función.", ["sin embargo", "no obstante", "dicho esto", "aun así"]),
   ],
   "c2r-challenge-argue-to-the-limit": [
     fe("Mis intereses no ___ los datos.", "invalidan", "My interests don't [invalidate] the data.", "«Invalidar» = quitar validez: la réplica separa los intereses de la persona del valor de los datos, que es como se desactiva un ad hominem.", ["anulan", "desmienten"]),

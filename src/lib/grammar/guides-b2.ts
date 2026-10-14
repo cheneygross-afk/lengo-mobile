@@ -76,9 +76,9 @@ export const B2_GUIDES: GrammarGuide[] = [
         why: "A denied antecedent always takes the subjunctive.",
       },
       {
-        wrong: "Busco la médica que me atendió. / Busco a un médico que atienda los domingos.",
-        right: "Busco a la médica que me atendió. / Busco un médico que atienda los domingos.",
-        why: "Drop the personal a for an unspecified person; keep it for a specific one.",
+        wrong: "Busco la médica que me atendió.",
+        right: "Busco a la médica que me atendió.",
+        why: "A specific, known person needs the personal a. (With an unspecified person it's optional: Busco (a) un médico que atienda los domingos.)",
       },
     ],
     faqs: [
@@ -147,7 +147,7 @@ export const B2_GUIDES: GrammarGuide[] = [
       {
         heading: "Cause and consequence stay indicative",
         body: [
-          "Porque, ya que, puesto que, como (at the start) and así que state facts, so they take the indicative. No porque + subjunctive denies a cause: No lo digo porque sea tu amigo.",
+          "Porque, ya que, puesto que, causal como (at the start) and así que state facts, so they take the indicative. (Como + subjunctive is a different, conditional use: Como no vengas, me enfado.) No porque + subjunctive denies a cause: No lo digo porque sea tu amigo.",
         ],
         examples: [
           { es: "Como no llegabas, empezamos sin ti.", en: "Since you hadn't turned up, we started without you." },
@@ -359,9 +359,9 @@ export const B2_GUIDES: GrammarGuide[] = [
         why: "Once the moment has passed, the future and \"mañana\" both shift.",
       },
       {
-        wrong: "Me preguntó que si tenía hambre.",
+        wrong: "Me preguntó que tenía hambre.",
         right: "Me preguntó si tenía hambre.",
-        why: "Que si is grammatical and very common in speech, but careful written Spanish uses si alone.",
+        why: "A reported yes/no question needs si; que alone turns it into a statement. (Que si is also common in speech, but careful writing uses si alone.)",
       },
       {
         wrong: "Me dijo que cierro la puerta.",

@@ -488,7 +488,7 @@ export const DRILLS_A2_9: Record<string, Exercise[]> = {
     toEs("I'm as tired as you. (informal)", "Estoy tan cansado como tú.", "Tan + adjective + como.", ["Estoy tan cansada como tú."]),
     fe("Mañana ___ temprano para tomar el tren.", "saldré", "Tomorrow I [will leave] early to catch the train.", "Salir has the future stem saldr-."),
     toEs("We'll know the results on Friday.", "Sabremos los resultados el viernes.", "Saber has the future stem sabr-.", ["El viernes sabremos los resultados."]),
-    mc("«Estudié ___ tres horas.» (duration)", ["por", "para"], 0, "Duration can take por (or no preposition, or durante). Para would mean a deadline."),
+    mc("«Estudié ___ tres horas.» (I studied for three hours.)", ["por", "para"], 0, "Duration can take por (or no preposition, or durante). Para would mean a deadline."),
     toEs("I need the dress by Saturday.", "Necesito el vestido para el sábado.", "Para for a deadline."),
     wo("Mañana me pondré el traje nuevo", "Future pondré (stem pondr-), reflexive ponerse.", "Tomorrow I'll put on the new suit"),
     toEs("Thank you for the help; of course I'll help you too. (informal)", "Gracias por la ayuda; por supuesto, yo también te ayudaré.", "Gracias por; por supuesto (fixed expression); future ayudaré.", ["Gracias por la ayuda; por supuesto que yo también te ayudaré.", "Gracias por la ayuda; claro que yo también te ayudaré.", "Gracias por tu ayuda; por supuesto, yo también te ayudaré."]),

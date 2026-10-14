@@ -63,7 +63,7 @@ export const DELE_C2_AUDITIVA: ExamPaper = {
       items: [
         { n: 7, question: "La nueva norma supone un retroceso.", options: SPEAKERS, answer: 0, explanation: "Marta: «A mí me parece un paso atrás.»" },
         { n: 8, question: "Echa de menos el contacto personal con los compañeros.", options: SPEAKERS, answer: 1, explanation: "Julián: «Echo de menos tomar un café con alguien de carne y hueso.»" },
-        { n: 9, question: "El trayecto hasta la oficina es demasiado largo.", options: SPEAKERS, answer: 0, explanation: "Marta: «Pasarme hora y media en el tren para hacer videollamadas.»" },
+        { n: 9, question: "No le compensa el tiempo que tarda en llegar a la oficina.", options: SPEAKERS, answer: 0, explanation: "Marta: «Pasarme hora y media en el tren para hacer videollamadas.»" },
         { n: 10, question: "Propone organizar los días presenciales por equipos.", options: SPEAKERS, answer: 1, explanation: "Julián: «Habría que organizar los equipos por días.» (Marta está de acuerdo, pero lo propone él.)" },
         { n: 11, question: "Los datos muestran que se rinde igual en casa.", options: SPEAKERS, answer: 0, explanation: "Marta: «La productividad no ha bajado; las cifras lo dicen.»" },
         { n: 12, question: "Los empleados nuevos han tenido más dificultades.", options: SPEAKERS, answer: 1, explanation: "Julián: «A los que entraron durante el teletrabajo les ha costado mucho más integrarse.»" },

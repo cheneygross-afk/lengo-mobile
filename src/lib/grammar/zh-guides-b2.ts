@@ -585,7 +585,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
     ],
     faqs: [
       {
-        q: "Why is 起来 sometimes written apart, as in 说不出话来?",
+        q: "Why are 出来 and 起来 sometimes split, as in 说不出话来 and 下起雨来?",
         a: "With an object, a compound directional complement splits around it: 说出 + 话 + 来. The same happens with 下起雨来.",
       },
       {

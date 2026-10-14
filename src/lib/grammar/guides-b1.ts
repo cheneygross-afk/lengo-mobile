@@ -298,7 +298,7 @@ export const B1_GUIDES: GrammarGuide[] = [
     faqs: [
       {
         q: "Is quisiera more polite than querría?",
-        a: "Quisiera (imperfect subjunctive) is the most common polite \"I'd like\" and sounds very natural. Querría is correct but less frequent; me gustaría is the everyday choice.",
+        a: "Quisiera (imperfect subjunctive) is a very common, slightly formal polite \"I'd like.\" Querría is correct but less frequent; me gustaría is the everyday choice.",
       },
       {
         q: "How do I say \"would have\"?",
@@ -590,7 +590,7 @@ export const B1_GUIDES: GrammarGuide[] = [
         why: "Negative vosotros commands use the subjunctive.",
       },
       {
-        wrong: "Sentados. / Sentados os.",
+        wrong: "Sentados os.",
         right: "Sentaos.",
         why: "The -d drops before os: sentad + os = sentaos.",
       },
