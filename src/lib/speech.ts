@@ -39,6 +39,22 @@ export const GERMAN_LANG: SpeechLang = "de-DE";
 // The Brazilian Portuguese beta (lessons/pt-*.ts), spoken by Google's pt-BR voices.
 export const PORTUGUESE_LANG: SpeechLang = "pt-BR";
 
+// The course languages taught in English (French, German, Portuguese,
+// Japanese, Chinese) name their language in English input hints; the
+// Spanish course and the English course keep their Spanish hints.
+const ENGLISH_TAUGHT_NAMES: Partial<Record<SpeechLang, string>> = {
+  "fr-FR": "French",
+  "de-DE": "German",
+  "pt-BR": "Portuguese",
+  "ja-JP": "Japanese",
+  "zh-CN": "Chinese",
+};
+
+/** The language's English name when its course is taught in English, else null. */
+export function englishTaughtName(lang: SpeechLang): string | null {
+  return ENGLISH_TAUGHT_NAMES[lang] ?? null;
+}
+
 // The two ways language is keyed elsewhere in the app: a flashcard/story
 // "levelPath" like "a1" or "ja-a1", or a Lesson's own "level" like "A1"
 // or "JA-A1"/"JA-Alphabets"/"JA-B1".

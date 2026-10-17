@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { View, Text, Pressable, TextInput, StyleSheet, type StyleProp, type TextStyle } from "react-native";
 import type { Exercise } from "@/lib/lessons/types";
-import { speak, SPANISH_LANG, type SpeechLang } from "@/lib/speech";
+import { englishTaughtName, speak, SPANISH_LANG, type SpeechLang } from "@/lib/speech";
 import TapText, { isTargetText } from "@/components/TapText";
 import { isSpanishText } from "@/lib/spanishVoice";
 import {
@@ -467,7 +467,13 @@ function Translate({
         autoComplete="off"
         textContentType="none"
         style={[s.textInput, checked && (correct ? s.inputCorrect : s.inputWrong)]}
-        placeholder={exercise.direction === "es-en" ? "Translate to English…" : "Traduce al español…"}
+        placeholder={
+          exercise.direction === "es-en"
+            ? "Translate to English…"
+            : englishTaughtName(lang)
+              ? `Translate to ${englishTaughtName(lang)}…`
+              : "Traduce al español…"
+        }
       />
       {checked && (
         <AnswerCompare
