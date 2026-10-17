@@ -13,7 +13,7 @@ import {
   type AudioPlayer,
 } from "expo-audio";
 import type { DictationExercise, ListenChooseExercise, SpeakExercise, WriteExercise } from "@/lib/lessons/types";
-import { setRecordingMode, speak, stopSpeaking, type SpeechLang } from "@/lib/speech";
+import { englishTaughtName, setRecordingMode, speak, stopSpeaking, type SpeechLang } from "@/lib/speech";
 import { AnswerCompare } from "@/components/AnswerCompare";
 import TapText, { isTargetText } from "@/components/TapText";
 import { dictationAnswer, gradeDictation, optionOrder } from "@/lib/grading";
@@ -139,7 +139,7 @@ export function Dictation({
         autoCorrect={false}
         autoComplete="off"
         textContentType="none"
-        placeholder="Escribe lo que oyes…"
+        placeholder={englishTaughtName(lang) ? "Type what you hear…" : "Escribe lo que oyes…"}
         style={[s.textInput, checked && (correct ? s.inputCorrect : s.inputWrong)]}
       />
       {checked && !correct && (
@@ -309,7 +309,7 @@ export function Speak({
       )}
       {mic === "recording" && (
         <Text style={s.recording}>
-          {respond ? "Recording… say it in Spanish, then tap Stop." : "Recording… say the sentence, then tap Stop."}
+          {respond ? `Recording… say it in ${englishTaughtName(lang) ?? "Spanish"}, then tap Stop.` : "Recording… say the sentence, then tap Stop."}
         </Text>
       )}
       {mic === "unavailable" && !checked && (
@@ -420,7 +420,7 @@ export function Write({
         multiline
         autoCapitalize="sentences"
         autoCorrect={false}
-        placeholder="Escribe aquí…"
+        placeholder={englishTaughtName(lang) ? "Write here…" : "Escribe aquí…"}
         style={[s.textInput, s.textArea]}
       />
       <Text style={[s.wordCount, !inRange && s.wordCountOff]}>
