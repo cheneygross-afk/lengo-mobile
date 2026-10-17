@@ -238,20 +238,20 @@ export default function ReviewDrillScreen({ route, navigation }: Props) {
 }
 
 const s = StyleSheet.create({
-  screen: { flex: 1, backgroundColor: "#FAF6F1" },
+  screen: { flex: 1, backgroundColor: "#FAF7F2" },
   content: { padding: 20, paddingBottom: 40 },
-  kicker: { fontSize: 11, fontWeight: "700", letterSpacing: 0.5, textTransform: "uppercase", color: "#7A1F1F", marginBottom: 6 },
-  title: { fontSize: 24, fontWeight: "800", color: "#000", marginBottom: 10 },
-  body: { fontSize: 15, lineHeight: 22, color: "#000000cc", marginBottom: 10 },
-  badge: { fontSize: 12, color: "#00000066", textTransform: "uppercase", marginBottom: 4, fontWeight: "600" },
-  bigBtn: { backgroundColor: "#7A1F1F", borderRadius: 999, paddingVertical: 15, alignItems: "center", marginTop: 18 },
+  kicker: { fontSize: 11, fontWeight: "700", letterSpacing: 0.5, textTransform: "uppercase", color: "#8B0000", marginBottom: 6 },
+  title: { fontSize: 24, fontWeight: "800", color: "#2A1513", marginBottom: 10 },
+  body: { fontSize: 15, lineHeight: 22, color: "#2A1513cc", marginBottom: 10 },
+  badge: { fontSize: 12, color: "#2A151366", textTransform: "uppercase", marginBottom: 4, fontWeight: "600" },
+  bigBtn: { backgroundColor: "#8B0000", borderRadius: 999, paddingVertical: 15, alignItems: "center", marginTop: 18 },
   bigBtnText: { color: "#fff", fontWeight: "700", fontSize: 16 },
   completeWrap: { alignItems: "center", paddingTop: 40 },
   completeBadge: {
     width: 84,
     height: 84,
     borderRadius: 42,
-    backgroundColor: "#7A1F1F",
+    backgroundColor: "#8B0000",
     alignItems: "center",
     justifyContent: "center",
     marginBottom: 18,
@@ -271,5 +271,5 @@ const s = StyleSheet.create({
   feedbackTitle: { fontSize: 16, fontWeight: "800", marginBottom: 4 },
   feedbackTitleCorrect: { color: "#15803d" },
   feedbackTitleWrong: { color: "#b91c1c" },
-  feedbackBody: { fontSize: 13.5, color: "#000000cc", lineHeight: 19 },
+  feedbackBody: { fontSize: 13.5, color: "#2A1513cc", lineHeight: 19 },
 });

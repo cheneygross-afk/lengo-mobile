@@ -120,25 +120,25 @@ function SpanishGrammarList({ navigation }: Props) {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "#FAF6F1" },
+  container: { flex: 1, backgroundColor: "#FAF7F2" },
   loading: { alignItems: "center", justifyContent: "center" },
   content: { padding: 20, paddingBottom: 40 },
-  subtitle: { fontSize: 14, color: "#00000099", marginBottom: 8 },
+  subtitle: { fontSize: 14, color: "#2A151399", marginBottom: 8 },
   sectionHeader: {
     fontSize: 13,
     fontWeight: "800",
-    color: "#00000066",
+    color: "#2A151366",
     letterSpacing: 0.5,
     marginTop: 18,
     marginBottom: 10,
   },
   card: {
     borderWidth: 1,
-    borderColor: "#00000018",
+    borderColor: "#2A151318",
     borderRadius: 14,
     padding: 16,
     backgroundColor: "#fff",
   },
-  cardTitle: { fontSize: 16, fontWeight: "700", color: "#000", marginBottom: 4 },
-  cardBody: { fontSize: 13.5, color: "#00000099", lineHeight: 19 },
+  cardTitle: { fontSize: 16, fontWeight: "700", color: "#2A1513", marginBottom: 4 },
+  cardBody: { fontSize: 13.5, color: "#2A151399", lineHeight: 19 },
 });

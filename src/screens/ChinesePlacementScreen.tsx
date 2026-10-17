@@ -157,16 +157,16 @@ export default function ChinesePlacementScreen({ navigation }: Props) {
 }
 
 const s = StyleSheet.create({
-  screen: { flex: 1, backgroundColor: "#FAF6F1" },
+  screen: { flex: 1, backgroundColor: "#FAF7F2" },
   content: { padding: 20, paddingBottom: 40 },
-  kicker: { fontSize: 11, fontWeight: "700", letterSpacing: 0.5, textTransform: "uppercase", color: "#7A1F1F", marginBottom: 6 },
-  title: { fontSize: 24, fontWeight: "800", color: "#000", marginBottom: 10 },
-  body: { fontSize: 15, lineHeight: 22, color: "#000000cc", marginBottom: 10 },
-  note: { fontSize: 13, color: "#00000099", marginBottom: 4 },
-  badge: { fontSize: 12, color: "#00000066", textTransform: "uppercase", marginBottom: 4, fontWeight: "600" },
-  bigBtn: { backgroundColor: "#7A1F1F", borderRadius: 999, paddingVertical: 15, alignItems: "center", marginTop: 18 },
+  kicker: { fontSize: 11, fontWeight: "700", letterSpacing: 0.5, textTransform: "uppercase", color: "#8B0000", marginBottom: 6 },
+  title: { fontSize: 24, fontWeight: "800", color: "#2A1513", marginBottom: 10 },
+  body: { fontSize: 15, lineHeight: 22, color: "#2A1513cc", marginBottom: 10 },
+  note: { fontSize: 13, color: "#2A151399", marginBottom: 4 },
+  badge: { fontSize: 12, color: "#2A151366", textTransform: "uppercase", marginBottom: 4, fontWeight: "600" },
+  bigBtn: { backgroundColor: "#8B0000", borderRadius: 999, paddingVertical: 15, alignItems: "center", marginTop: 18 },
   bigBtnText: { color: "#fff", fontWeight: "700", fontSize: 16 },
   linkBtn: { paddingVertical: 14, alignItems: "center" },
-  linkBtnText: { color: "#7A1F1F", fontWeight: "600", fontSize: 15 },
+  linkBtnText: { color: "#8B0000", fontWeight: "600", fontSize: 15 },
   center: { alignItems: "stretch", paddingTop: 30 },
 });

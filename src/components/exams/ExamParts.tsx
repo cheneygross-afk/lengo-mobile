@@ -19,7 +19,7 @@ import type { WriteExercise } from "@/lib/lessons/types";
 // (useExamCourse, examCourse.ts), which is Spanish unless a French or German
 // exam screen says otherwise.
 export const LANG = SPANISH_LANG;
-export const BRAND = "#7A1F1F";
+export const BRAND = "#8B0000";
 export const EXAM_PLAYS = 2;
 const LETTERS = "abcdefghijklmnopqrstuvwxyz";
 
@@ -466,45 +466,45 @@ export function WriteTask({
 }
 
 export const s = StyleSheet.create({
-  card: { backgroundColor: "#fff", borderRadius: 12, borderWidth: 1, borderColor: "#00000014", padding: 14, gap: 8 },
+  card: { backgroundColor: "#fff", borderRadius: 12, borderWidth: 1, borderColor: "#2A151314", padding: 14, gap: 8 },
   cardChosen: { borderColor: BRAND },
-  cardTitle: { fontSize: 15, fontWeight: "700", color: "#000" },
-  body: { fontSize: 15, lineHeight: 22, color: "#000" },
-  muted: { fontSize: 13, color: "#00000099", lineHeight: 18 },
+  cardTitle: { fontSize: 15, fontWeight: "700", color: "#2A1513" },
+  body: { fontSize: 15, lineHeight: 22, color: "#2A1513" },
+  muted: { fontSize: 13, color: "#2A151399", lineHeight: 18 },
   good: { fontSize: 13, color: "#15803d" },
-  overline: { fontSize: 11, letterSpacing: 1, color: "#00000066" },
-  question: { fontSize: 15, fontWeight: "600", color: "#000", lineHeight: 21 },
+  overline: { fontSize: 11, letterSpacing: 1, color: "#2A151366" },
+  question: { fontSize: 15, fontWeight: "600", color: "#2A1513", lineHeight: 21 },
   rowCenter: { flexDirection: "row", alignItems: "center", flexWrap: "wrap", gap: 10 },
   rowTop: { flexDirection: "row", alignItems: "flex-start", gap: 8 },
   flex1: { flex: 1 },
   gap6: { gap: 6 },
   gap12: { gap: 12 },
   gap16: { gap: 16 },
-  audioLabel: { fontSize: 14, fontWeight: "600", color: "#000" },
-  transcript: { borderTopWidth: 1, borderTopColor: "#00000014", paddingTop: 8, gap: 4 },
-  sharedBox: { backgroundColor: "#0000000a", borderRadius: 10, padding: 12, gap: 4 },
+  audioLabel: { fontSize: 14, fontWeight: "600", color: "#2A1513" },
+  transcript: { borderTopWidth: 1, borderTopColor: "#2A151314", paddingTop: 8, gap: 4 },
+  sharedBox: { backgroundColor: "#2A15130a", borderRadius: 10, padding: 12, gap: 4 },
   chips: { flexDirection: "row", flexWrap: "wrap", gap: 8 },
-  chip: { minWidth: 40, alignItems: "center", borderWidth: 1, borderColor: "#00000022", borderRadius: 8, paddingVertical: 8, paddingHorizontal: 10 },
-  option: { borderWidth: 1, borderColor: "#00000022", borderRadius: 8, paddingVertical: 10, paddingHorizontal: 12 },
-  optionSelected: { borderColor: BRAND, backgroundColor: "#7A1F1F14" },
+  chip: { minWidth: 40, alignItems: "center", borderWidth: 1, borderColor: "#2A151322", borderRadius: 8, paddingVertical: 8, paddingHorizontal: 10 },
+  option: { borderWidth: 1, borderColor: "#2A151322", borderRadius: 8, paddingVertical: 10, paddingHorizontal: 12 },
+  optionSelected: { borderColor: BRAND, backgroundColor: "#8B000014" },
   optionCorrect: { borderColor: "#16a34a", backgroundColor: "#16a34a1a" },
   optionWrong: { borderColor: "#dc2626", backgroundColor: "#dc26261a" },
-  optionText: { fontSize: 15, color: "#000" },
+  optionText: { fontSize: 15, color: "#2A1513" },
   explain: { borderRadius: 8, padding: 10, gap: 4 },
   explainRight: { backgroundColor: "#16a34a1a" },
   explainWrong: { backgroundColor: "#dc26261a" },
-  explainTitle: { fontSize: 14, fontWeight: "600", color: "#000" },
-  explainBody: { fontSize: 13, color: "#000000aa", lineHeight: 18 },
+  explainTitle: { fontSize: 14, fontWeight: "600", color: "#2A1513" },
+  explainBody: { fontSize: 13, color: "#2A1513aa", lineHeight: 18 },
   primaryBtn: { backgroundColor: BRAND, borderRadius: 999, paddingVertical: 9, paddingHorizontal: 16, alignSelf: "flex-start" },
   primaryBtnText: { color: "#fff", fontWeight: "700" },
-  secondaryBtn: { borderWidth: 1, borderColor: "#00000030", borderRadius: 999, paddingVertical: 8, paddingHorizontal: 14, alignSelf: "flex-start" },
-  secondaryBtnText: { fontSize: 14, color: "#000" },
+  secondaryBtn: { borderWidth: 1, borderColor: "#2A151330", borderRadius: 999, paddingVertical: 8, paddingHorizontal: 14, alignSelf: "flex-start" },
+  secondaryBtnText: { fontSize: 14, color: "#2A1513" },
   disabled: { opacity: 0.4 },
-  timer: { fontSize: 24, fontWeight: "700", color: "#000", fontVariant: ["tabular-nums"] },
+  timer: { fontSize: 24, fontWeight: "700", color: "#2A1513", fontVariant: ["tabular-nums"] },
   timerHot: { color: "#b91c1c" },
   speaker: { fontSize: 16 },
   link: { color: BRAND, fontWeight: "700", fontSize: 14 },
-  markBtn: { width: 40, height: 40, borderRadius: 20, borderWidth: 1, borderColor: "#00000030", alignItems: "center", justifyContent: "center" },
+  markBtn: { width: 40, height: 40, borderRadius: 20, borderWidth: 1, borderColor: "#2A151330", alignItems: "center", justifyContent: "center" },
   markBtnOn: { backgroundColor: BRAND, borderColor: BRAND },
   markTextOn: { color: "#fff", fontWeight: "700" },
 });

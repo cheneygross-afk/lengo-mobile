@@ -422,19 +422,19 @@ export default function TodayReviewScreen({ navigation, route }: Props) {
 }
 
 const s = StyleSheet.create({
-  screen: { flex: 1, backgroundColor: "#FAF6F1" },
+  screen: { flex: 1, backgroundColor: "#FAF7F2" },
   content: { padding: 20, paddingBottom: 40 },
-  kicker: { fontSize: 11, fontWeight: "700", letterSpacing: 0.5, textTransform: "uppercase", color: "#7A1F1F", marginBottom: 6 },
-  title: { fontSize: 24, fontWeight: "800", color: "#000", marginBottom: 6 },
-  body: { fontSize: 15, lineHeight: 22, color: "#000000cc", marginBottom: 6 },
-  muted: { fontSize: 13.5, lineHeight: 19, color: "#00000080", marginBottom: 6 },
-  badge: { fontSize: 12, color: "#00000066", textTransform: "uppercase", marginBottom: 4, fontWeight: "600" },
-  bigBtn: { backgroundColor: "#7A1F1F", borderRadius: 999, paddingVertical: 15, alignItems: "center", marginTop: 18 },
+  kicker: { fontSize: 11, fontWeight: "700", letterSpacing: 0.5, textTransform: "uppercase", color: "#8B0000", marginBottom: 6 },
+  title: { fontSize: 24, fontWeight: "800", color: "#2A1513", marginBottom: 6 },
+  body: { fontSize: 15, lineHeight: 22, color: "#2A1513cc", marginBottom: 6 },
+  muted: { fontSize: 13.5, lineHeight: 19, color: "#2A151380", marginBottom: 6 },
+  badge: { fontSize: 12, color: "#2A151366", textTransform: "uppercase", marginBottom: 4, fontWeight: "600" },
+  bigBtn: { backgroundColor: "#8B0000", borderRadius: 999, paddingVertical: 15, alignItems: "center", marginTop: 18 },
   bigBtnText: { color: "#fff", fontWeight: "700", fontSize: 16 },
-  outlineBtn: { borderWidth: 1.5, borderColor: "#7A1F1F", borderRadius: 999, paddingVertical: 13, alignItems: "center", marginTop: 12 },
-  outlineBtnText: { color: "#7A1F1F", fontWeight: "700", fontSize: 15 },
+  outlineBtn: { borderWidth: 1.5, borderColor: "#8B0000", borderRadius: 999, paddingVertical: 13, alignItems: "center", marginTop: 12 },
+  outlineBtnText: { color: "#8B0000", fontWeight: "700", fontSize: 15 },
   linkRow: { marginTop: 22, alignItems: "center" },
-  link: { color: "#00000080", fontSize: 14, textDecorationLine: "underline" },
+  link: { color: "#2A151380", fontSize: 14, textDecorationLine: "underline" },
   doneBox: { borderRadius: 14, borderWidth: 1, borderColor: "#16a34a55", backgroundColor: "#16a34a12", padding: 14, marginBottom: 20 },
   doneTitle: { fontSize: 16, fontWeight: "800", color: "#15803d", marginBottom: 4 },
   feedbackSheet: {
@@ -452,5 +452,5 @@ const s = StyleSheet.create({
   feedbackTitle: { fontSize: 16, fontWeight: "800", marginBottom: 4 },
   feedbackTitleCorrect: { color: "#15803d" },
   feedbackTitleWrong: { color: "#b91c1c" },
-  feedbackBody: { fontSize: 13.5, color: "#000000cc", lineHeight: 19 },
+  feedbackBody: { fontSize: 13.5, color: "#2A1513cc", lineHeight: 19 },
 });

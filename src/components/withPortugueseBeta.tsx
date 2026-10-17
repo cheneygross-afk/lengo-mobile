@@ -39,6 +39,6 @@ export function withPortugueseBeta<P extends { route: { params?: unknown } }>(
 }
 
 const styles = StyleSheet.create({
-  wrap: { flex: 1, alignItems: "center", justifyContent: "center", padding: 24, backgroundColor: "#FAF6F1" },
+  wrap: { flex: 1, alignItems: "center", justifyContent: "center", padding: 24, backgroundColor: "#FAF7F2" },
   text: { fontSize: 16, color: "#555", textAlign: "center" },
 });

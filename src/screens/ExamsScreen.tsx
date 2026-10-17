@@ -10,7 +10,7 @@ import type { Exam } from "@/lib/exams/types";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Exams">;
 
-const BRAND = "#7A1F1F";
+const BRAND = "#8B0000";
 
 // Mobile port of the website's /exams page: one full-length DELE practice
 // exam per level (src/lib/exams, synced from the website). With course
@@ -128,26 +128,26 @@ function PortugueseExams({ exams, onOpen }: { exams: Exam[]; onOpen: (slug: stri
 }
 
 const s = StyleSheet.create({
-  screen: { flex: 1, backgroundColor: "#FAF6F1" },
+  screen: { flex: 1, backgroundColor: "#FAF7F2" },
   loading: { alignItems: "center", justifyContent: "center" },
   content: { padding: 20, gap: 14, paddingBottom: 40 },
-  intro: { fontSize: 14, color: "#00000099", lineHeight: 20 },
-  card: { backgroundColor: "#fff", borderRadius: 14, borderWidth: 1, borderColor: "#00000014", padding: 16, gap: 4 },
+  intro: { fontSize: 14, color: "#2A151399", lineHeight: 20 },
+  card: { backgroundColor: "#fff", borderRadius: 14, borderWidth: 1, borderColor: "#2A151314", padding: 16, gap: 4 },
   titleRow: { flexDirection: "row", alignItems: "center", gap: 8 },
   badge: {
     fontSize: 12,
     fontWeight: "700",
     color: BRAND,
-    backgroundColor: "#7A1F1F14",
+    backgroundColor: "#8B000014",
     borderRadius: 999,
     paddingHorizontal: 8,
     paddingVertical: 2,
     overflow: "hidden",
   },
-  title: { fontSize: 17, fontWeight: "700", color: "#000", flexShrink: 1 },
-  meta: { fontSize: 13, color: "#00000066" },
-  description: { fontSize: 14, color: "#000000aa", lineHeight: 20 },
-  note: { fontSize: 12, color: "#00000066", lineHeight: 17 },
-  kicker: { fontSize: 11, letterSpacing: 0.8, color: "#00000066", textTransform: "uppercase" },
-  section: { fontSize: 17, fontWeight: "700", color: "#000", marginTop: 6 },
+  title: { fontSize: 17, fontWeight: "700", color: "#2A1513", flexShrink: 1 },
+  meta: { fontSize: 13, color: "#2A151366" },
+  description: { fontSize: 14, color: "#2A1513aa", lineHeight: 20 },
+  note: { fontSize: 12, color: "#2A151366", lineHeight: 17 },
+  kicker: { fontSize: 11, letterSpacing: 0.8, color: "#2A151366", textTransform: "uppercase" },
+  section: { fontSize: 17, fontWeight: "700", color: "#2A1513", marginTop: 6 },
 });

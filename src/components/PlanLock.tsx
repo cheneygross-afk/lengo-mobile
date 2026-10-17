@@ -45,11 +45,11 @@ export default function PlanLock({
 }
 
 const s = StyleSheet.create({
-  wrap: { flex: 1, alignItems: "center", justifyContent: "center", padding: 24, backgroundColor: "#FAF6F1" },
+  wrap: { flex: 1, alignItems: "center", justifyContent: "center", padding: 24, backgroundColor: "#FAF7F2" },
   lock: { fontSize: 32, marginBottom: 12 },
-  title: { fontSize: 22, fontWeight: "700", color: "#000", textAlign: "center", marginBottom: 8 },
+  title: { fontSize: 22, fontWeight: "700", color: "#2A1513", textAlign: "center", marginBottom: 8 },
   body: { fontSize: 15, color: "#333", textAlign: "center", lineHeight: 22, marginBottom: 20, maxWidth: 360 },
-  btn: { backgroundColor: "#7A1F1F", borderRadius: 999, paddingVertical: 14, paddingHorizontal: 28 },
+  btn: { backgroundColor: "#8B0000", borderRadius: 999, paddingVertical: 14, paddingHorizontal: 28 },
   btnDisabled: { opacity: 0.6 },
   btnText: { color: "#fff", fontSize: 16, fontWeight: "600" },
   note: { marginTop: 10, fontSize: 12, color: "#666", textAlign: "center" },

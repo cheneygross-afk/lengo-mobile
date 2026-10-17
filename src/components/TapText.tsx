@@ -181,5 +181,5 @@ export default function TapText({
 }
 
 const styles = StyleSheet.create({
-  bold: { fontWeight: "700", color: "#000" },
+  bold: { fontWeight: "700", color: "#2A1513" },
 });

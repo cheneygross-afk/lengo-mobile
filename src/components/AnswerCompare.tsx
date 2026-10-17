@@ -60,8 +60,8 @@ export function AnswerCompare({
 
 const s = StyleSheet.create({
   box: { marginTop: 8, gap: 4 },
-  line: { fontSize: 14, color: "#000" },
-  label: { color: "#00000099" },
+  line: { fontSize: 14, color: "#2A1513" },
+  label: { color: "#2A151399" },
   value: { fontWeight: "600" },
   wrong: { color: "#b91c1c" },
   right: { color: "#15803d" },

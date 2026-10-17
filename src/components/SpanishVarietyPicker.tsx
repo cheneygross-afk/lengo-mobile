@@ -51,19 +51,19 @@ export default function SpanishVarietyPicker() {
 
 const s = StyleSheet.create({
   wrap: { marginTop: 20 },
-  label: { fontSize: 14, fontWeight: "600", color: "#000" },
+  label: { fontSize: 14, fontWeight: "600", color: "#2A1513" },
   row: { flexDirection: "row", gap: 10, marginTop: 10, flexWrap: "wrap" },
   pill: {
     borderWidth: 1,
-    borderColor: "#00000022",
+    borderColor: "#2A151322",
     borderRadius: 999,
     paddingVertical: 9,
     paddingHorizontal: 18,
     backgroundColor: "#fff",
   },
-  pillActive: { backgroundColor: "#000", borderColor: "#000" },
-  pillText: { fontSize: 14, fontWeight: "600", color: "#000" },
+  pillActive: { backgroundColor: "#2A1513", borderColor: "#2A1513" },
+  pillText: { fontSize: 14, fontWeight: "600", color: "#2A1513" },
   pillTextActive: { color: "#fff" },
-  sub: { fontSize: 12.5, color: "#00000099", marginTop: 10, lineHeight: 17 },
+  sub: { fontSize: 12.5, color: "#2A151399", marginTop: 10, lineHeight: 17 },
   error: { fontSize: 13, color: "#b91c1c", marginTop: 6 },
 });

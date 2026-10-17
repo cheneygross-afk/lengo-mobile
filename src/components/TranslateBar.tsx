@@ -235,7 +235,7 @@ export default function TranslateBar({ language }: { language: "es" | "ja" | "fr
           </View>
           <ScrollView style={s.panelScroll} keyboardShouldPersistTaps="handled">
             {loading ? (
-              <ActivityIndicator style={{ marginVertical: 12 }} color="#7A1F1F" />
+              <ActivityIndicator style={{ marginVertical: 12 }} color="#8B0000" />
             ) : error ? (
               <Text style={s.panelMuted}>{error}</Text>
             ) : result && result.senses.length ? (
@@ -307,7 +307,7 @@ export default function TranslateBar({ language }: { language: "es" | "ja" | "fr
           }}
           onBlur={() => setFocused(false)}
           placeholder="Translate…"
-          placeholderTextColor="#00000040"
+          placeholderTextColor="#2A151340"
           style={s.input}
         />
         {query.trim().length > 0 && (
@@ -332,7 +332,7 @@ const s = StyleSheet.create({
     left: 0,
     right: 0,
     bottom: 0,
-    backgroundColor: "#FAF6F1",
+    backgroundColor: "#FAF7F2",
   },
   // Full-height, tap-anywhere-else scrim: only shown while the input has
   // focus, sits behind the bar/panel (they're declared after it, so they
@@ -364,7 +364,7 @@ const s = StyleSheet.create({
     elevation: 4,
   },
   pill: {
-    backgroundColor: "#7A1F1F",
+    backgroundColor: "#8B0000",
     borderRadius: 16,
     paddingVertical: 8,
     paddingHorizontal: 12,
@@ -379,7 +379,7 @@ const s = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-  swapBtnText: { fontSize: 15, color: "#7A1F1F" },
+  swapBtnText: { fontSize: 15, color: "#8B0000" },
 
   panel: {
     marginHorizontal: 14,
@@ -395,7 +395,7 @@ const s = StyleSheet.create({
     elevation: 6,
   },
   panelHeader: { flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginBottom: 10 },
-  panelHeading: { fontSize: 11, fontWeight: "700", letterSpacing: 0.6, textTransform: "uppercase", color: "#7A1F1F", opacity: 0.8 },
+  panelHeading: { fontSize: 11, fontWeight: "700", letterSpacing: 0.6, textTransform: "uppercase", color: "#8B0000", opacity: 0.8 },
   panelCloseBtn: {
     width: 22,
     height: 22,
@@ -404,18 +404,18 @@ const s = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-  panelClose: { fontSize: 11, color: "#00000066" },
+  panelClose: { fontSize: 11, color: "#2A151366" },
   panelScroll: { maxHeight: 260 },
-  panelMuted: { color: "#00000066", fontSize: 14, paddingVertical: 4 },
+  panelMuted: { color: "#2A151366", fontSize: 14, paddingVertical: 4 },
 
   sense: { paddingVertical: 10 },
   senseDivider: { borderTopWidth: 1, borderTopColor: "#F1EBE3" },
   senseTop: { flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start", gap: 10 },
   senseTextWrap: { flex: 1 },
   senseTranslation: { fontSize: 18, fontWeight: "700", color: "#1A1512" },
-  senseMeta: { fontSize: 12, color: "#00000066", marginTop: 3 },
-  senseExample: { fontSize: 12.5, color: "#00000090", marginTop: 8, fontStyle: "italic" },
-  senseExampleArrow: { color: "#00000055", fontStyle: "normal" },
+  senseMeta: { fontSize: 12, color: "#2A151366", marginTop: 3 },
+  senseExample: { fontSize: 12.5, color: "#2A151390", marginTop: 8, fontStyle: "italic" },
+  senseExampleArrow: { color: "#2A151355", fontStyle: "normal" },
   saveBtn: {
     backgroundColor: "rgba(122,31,31,0.08)",
     borderRadius: 999,
@@ -423,7 +423,7 @@ const s = StyleSheet.create({
     paddingHorizontal: 12,
   },
   saveBtnSaved: { backgroundColor: "#F1EBE3" },
-  saveBtnText: { fontSize: 11, color: "#7A1F1F", fontWeight: "700" },
-  saveBtnTextSaved: { color: "#00000044" },
-  sourceLabel: { fontSize: 10.5, color: "#00000045", marginTop: 12, paddingTop: 12, borderTopWidth: 1, borderTopColor: "#F1EBE3" },
+  saveBtnText: { fontSize: 11, color: "#8B0000", fontWeight: "700" },
+  saveBtnTextSaved: { color: "#2A151344" },
+  sourceLabel: { fontSize: 10.5, color: "#2A151345", marginTop: 12, paddingTop: 12, borderTopWidth: 1, borderTopColor: "#F1EBE3" },
 });
