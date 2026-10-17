@@ -4,10 +4,12 @@
 // website uses, so completions, highlights and cards sync -- "en/..." the
 // English-for-Spanish-speakers beta (website-only for now; its cards still
 // arrive here through sync, so they must never be mistaken for Spanish),
-// "de/..." (or "de") the German course -- anything else Spanish. Flashcards, review lists, Today's review and Home each
+// "de/..." (or "de") the German course, "pt/..." (or "pt") the Brazilian
+// Portuguese beta (only the beta accounts see it, lib/portugueseBeta.ts) --
+// anything else Spanish. Flashcards, review lists, Today's review and Home each
 // show one course at a time, and ask here instead of testing prefixes
 // themselves.
-export type CourseId = "es" | "ja" | "zh" | "fr" | "en" | "de";
+export type CourseId = "es" | "ja" | "zh" | "fr" | "en" | "de" | "pt";
 
 export function courseOfLevelPath(levelPath: string): CourseId {
   if (levelPath.startsWith("ja")) return "ja";
@@ -15,6 +17,7 @@ export function courseOfLevelPath(levelPath: string): CourseId {
   if (isFrenchLevelPath(levelPath)) return "fr";
   if (levelPath === "en" || levelPath.startsWith("en/")) return "en";
   if (isGermanLevelPath(levelPath)) return "de";
+  if (isPortugueseLevelPath(levelPath)) return "pt";
   return "es";
 }
 
@@ -30,7 +33,13 @@ export function isGermanLevelPath(levelPath: string): boolean {
   return levelPath === "de" || levelPath.startsWith("de/");
 }
 
+/** True for the Brazilian Portuguese beta's levelPaths: "pt/a1" ... "pt/c2",
+ * and "pt" itself (flashcards written by hand in the Portuguese deck). */
+export function isPortugueseLevelPath(levelPath: string): boolean {
+  return levelPath === "pt" || levelPath.startsWith("pt/");
+}
+
 /** The course's language as an English name ("Spanish", "Japanese" ...). */
 export function courseName(course: CourseId): string {
-  return { es: "Spanish", fr: "French", de: "German", ja: "Japanese", zh: "Chinese", en: "English" }[course];
+  return { es: "Spanish", fr: "French", de: "German", pt: "Portuguese", ja: "Japanese", zh: "Chinese", en: "English" }[course];
 }

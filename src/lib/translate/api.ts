@@ -2,10 +2,11 @@ import { supabase } from "@/lib/supabase/client";
 
 // Mobile port of the web app's TranslateSearch direction-detection and
 // fetch logic (src/components/TranslateSearch.tsx). Now covers both
-// tracks the app offers -- Spanish, French, German and the Japanese beta -- same as the
+// tracks the app offers -- Spanish, French, German, the Japanese beta and the
+// Brazilian Portuguese beta -- same as the
 // website: which pair is active follows whichever language is selected
 // on Home, not a fixed Spanish/English pair.
-export type Direction = "en-es" | "es-en" | "en-ja" | "ja-en" | "en-fr" | "fr-en" | "en-de" | "de-en";
+export type Direction = "en-es" | "es-en" | "en-ja" | "ja-en" | "en-fr" | "fr-en" | "en-de" | "de-en" | "en-pt" | "pt-en";
 
 export type TranslationSense = {
   translation: string;
@@ -77,12 +78,30 @@ function detectGermanDirection(text: string): Direction {
   return COMMON_GERMAN_WORDS.has(firstWord) ? "de-en" : "en-de";
 }
 
+// Words that start a Brazilian Portuguese phrase far more often than an
+// English one (the website's TranslateSearch list).
+const COMMON_PORTUGUESE_WORDS = new Set([
+  "o", "a", "os", "as", "um", "uma", "e", "é", "eu", "você", "ele", "ela", "nós", "eles", "elas", "não", "sim",
+  "do", "da", "no", "na", "com", "para", "pra", "que", "muito", "obrigado", "obrigada", "oi", "olá", "tchau",
+  "estou", "está", "tenho", "tem", "vou", "vai", "meu", "minha", "isso", "esse", "essa", "como", "onde",
+]);
+
+/** Which way a Portuguese-course lookup goes: Portuguese in (by its letters
+ * or first word), else English to Portuguese. */
+function detectPortugueseDirection(text: string): Direction {
+  if (/[ãõçâêôàáéíóú]/i.test(text)) return "pt-en";
+  const firstWord = text.trim().split(/\s+/)[0]?.toLowerCase() ?? "";
+  return COMMON_PORTUGUESE_WORDS.has(firstWord) ? "pt-en" : "en-pt";
+}
+
 // `context` is which language is selected on Home -- absent any
 // script/vocabulary signal (plain ASCII, nothing recognized as Spanish),
 // this decides whether typing falls back to "en-es" or "en-ja". The
-// French and German courses have their own pairs (en-fr / fr-en, en-de / de-en).
-export function detectDirection(text: string, context: "es" | "ja" | "fr" | "de"): Direction {
+// French and German courses and the Portuguese beta have their own pairs
+// (en-fr / fr-en, en-de / de-en, en-pt / pt-en).
+export function detectDirection(text: string, context: "es" | "ja" | "fr" | "de" | "pt"): Direction {
   if (context === "fr") return detectFrenchDirection(text);
+  if (context === "pt") return detectPortugueseDirection(text);
   if (context === "de") return detectGermanDirection(text);
   const japaneseContext = context === "ja";
   if (JAPANESE_SCRIPT.test(text)) return "ja-en";
@@ -110,6 +129,10 @@ export function swapDirection(direction: Direction): Direction {
       return "de-en";
     case "de-en":
       return "en-de";
+    case "en-pt":
+      return "pt-en";
+    case "pt-en":
+      return "en-pt";
   }
 }
 
@@ -131,6 +154,10 @@ export function directionPillLabel(direction: Direction): string {
       return "EN→DE";
     case "de-en":
       return "DE→EN";
+    case "en-pt":
+      return "EN→PT";
+    case "pt-en":
+      return "PT→EN";
   }
 }
 
@@ -152,6 +179,10 @@ export function directionHeading(direction: Direction): string {
       return "English → German";
     case "de-en":
       return "German → English";
+    case "en-pt":
+      return "English → Portuguese";
+    case "pt-en":
+      return "Portuguese → English";
   }
 }
 

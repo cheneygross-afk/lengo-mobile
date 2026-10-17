@@ -49,10 +49,17 @@ const FRENCH_LETTERS = /[àâæçéèêëîïôœùûüÿ]/i;
 // Likewise the letters only German uses. Same rule as the website's TapText.
 const GERMAN_LETTERS = /[äöüß]/i;
 
+// And the letters that mark a Brazilian Portuguese word in English text:
+// the tildes, circumflexes, grave a, ç and the acute vowels (the website's
+// TapText uses only the first ones; "está", "é", "avó" and "maçã" are
+// Portuguese too, and the course's English never writes them).
+const PORTUGUESE_LETTERS = /[ãõâêôàçáéíóú]/i;
+
 /** Whether a word in mixed text is (probably) in the target language. */
 function looksTargetWord(word: string, lang: SpeechLang): boolean {
   if (lang === "fr-FR") return FRENCH_LETTERS.test(word);
   if (lang === "de-DE") return GERMAN_LETTERS.test(word);
+  if (lang === "pt-BR") return PORTUGUESE_LETTERS.test(word);
   return looksSpanishWord(word);
 }
 
@@ -62,7 +69,7 @@ function looksTargetWord(word: string, lang: SpeechLang): boolean {
 // (lib/spanishVoice.ts), the same rule as the website.
 const isSpanishLang = (lang: SpeechLang) => lang === "es-ES" || lang === "es-US";
 
-const LATIN_SCRIPT_TARGETS: SpeechLang[] = ["es-ES", "fr-FR", "de-DE"];
+const LATIN_SCRIPT_TARGETS: SpeechLang[] = ["es-ES", "fr-FR", "de-DE", "pt-BR"];
 
 type Piece = { text: string; lang: SpeechLang | null; bold: boolean };
 

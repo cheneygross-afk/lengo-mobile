@@ -25,7 +25,7 @@ import {
 } from "@/lib/translate/api";
 import { buildCustomFlashcardEntry, loadFlashcards, saveFlashcards } from "@/lib/flashcards/store";
 import TapText from "@/components/TapText";
-import { ENGLISH_LANG, FRENCH_LANG, GERMAN_LANG, JAPANESE_LANG, SPANISH_LANG, type SpeechLang } from "@/lib/speech";
+import { ENGLISH_LANG, FRENCH_LANG, GERMAN_LANG, JAPANESE_LANG, PORTUGUESE_LANG, SPANISH_LANG, type SpeechLang } from "@/lib/speech";
 
 // The voice for one side of a direction ("en-de" -> English, then German):
 // the course language's words in a result are tap-to-hear, English isn't.
@@ -35,6 +35,7 @@ const SIDE_LANG: Record<string, SpeechLang> = {
   ja: JAPANESE_LANG,
   fr: FRENCH_LANG,
   de: GERMAN_LANG,
+  pt: PORTUGUESE_LANG,
 };
 
 function ResultText({ text, side, style }: { text: string; side: string; style: object }) {
@@ -94,7 +95,7 @@ function convertJapaneseInput(
   return toHiragana(raw);
 }
 
-export default function TranslateBar({ language }: { language: "es" | "ja" | "fr" | "de" }) {
+export default function TranslateBar({ language }: { language: "es" | "ja" | "fr" | "de" | "pt" }) {
   const [query, setQuery] = useState("");
   const [manualOverride, setManualOverride] = useState<Direction | null>(null);
   const direction = manualOverride ?? detectDirection(query, language);
@@ -161,12 +162,13 @@ export default function TranslateBar({ language }: { language: "es" | "ja" | "fr
     const isJapanese = result.direction === "en-ja" || result.direction === "ja-en";
     const isFrench = result.direction === "en-fr" || result.direction === "fr-en";
     const isGerman = result.direction === "en-de" || result.direction === "de-en";
+    const isPortuguese = result.direction === "en-pt" || result.direction === "pt-en";
     // The flashcards store's "es" field always holds the foreign-language
     // term (Spanish or Japanese) and "en" holds the English side,
     // regardless of which direction this lookup ran in -- same
     // convention the website's TranslateSearch uses.
     const foreignIsTranslation =
-      result.direction === "en-es" || result.direction === "en-ja" || result.direction === "en-fr" || result.direction === "en-de";
+      result.direction === "en-es" || result.direction === "en-ja" || result.direction === "en-fr" || result.direction === "en-de" || result.direction === "en-pt";
     const [es, en] = foreignIsTranslation ? [sense.translation, result.input] : [result.input, sense.translation];
     const note = sense.example ? `e.g. "${sense.example.source}"` : sense.note;
     const entry = buildCustomFlashcardEntry({
@@ -178,9 +180,10 @@ export default function TranslateBar({ language }: { language: "es" | "ja" | "fr
       // same as one typed there directly (see levelPath / FlashcardsScreen).
       // A French one goes in the French deck ("fr", as the website files
       // hand-written French cards).
-      // A German one goes in the German deck ("de"), the same way.
-      levelPath: isJapanese ? "ja" : isFrench ? "fr" : isGerman ? "de" : undefined,
-      guessPos: !isJapanese && !isFrench && !isGerman,
+      // A German one goes in the German deck ("de"), the same way, and a
+      // Portuguese one in the Portuguese deck ("pt"), never the Spanish one.
+      levelPath: isJapanese ? "ja" : isFrench ? "fr" : isGerman ? "de" : isPortuguese ? "pt" : undefined,
+      guessPos: !isJapanese && !isFrench && !isGerman && !isPortuguese,
     });
     const map = await loadFlashcards();
     map[entry.id] = entry;

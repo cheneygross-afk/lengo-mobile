@@ -5,12 +5,19 @@ import type { FrenchStoryLevel } from "@/lib/stories/fr";
 import type { ExamCourse } from "@/components/exams/examCourse";
 import type { GermanLevelKey } from "@/lib/lessons/german";
 import type { GermanStoryLevel } from "@/lib/stories/de";
+import type { PortugueseLevelKey } from "@/lib/lessons/portuguese";
+import type { PortugueseStoryLevel } from "@/lib/stories/pt";
 
 type FrenchStoryLevelPath = FrenchStoryLevel["path"];
 type GermanStoryLevelPath = GermanStoryLevel["path"];
+type PortugueseStoryLevelPath = PortugueseStoryLevel["path"];
 
 // The course a shared screen (review, flashcards, study tools) is showing.
-export type CourseLang = "es" | "ja" | "zh" | "fr" | "de";
+// "pt" is the Brazilian Portuguese beta, for the beta accounts only
+// (RootNavigator's portugueseOnly guard turns everyone else away).
+export type CourseLang = "es" | "ja" | "zh" | "fr" | "de" | "pt";
+// The courses with stories, Today's review and Study Tools of their own.
+export type ToolsLang = "es" | "fr" | "de" | "pt";
 
 export type AppStackParamList = {
   Home: undefined;
@@ -25,10 +32,15 @@ export type AppStackParamList = {
   // The German course's level picker (A1-C2 + Colloquial German &
   // Culture) -- see GermanLevelsScreen. Open to every account, like French.
   GermanLevels: undefined;
+  // The Brazilian Portuguese beta's level picker (A1-C2) -- see
+  // PortugueseLevelsScreen. Only the beta accounts (lib/portugueseBeta.ts).
+  PortugueseLevels: undefined;
   // A Spanish/Japanese/Chinese module by moduleKey, a French level by
   // frenchLevel or a German level by germanLevel (French and German lessons
   // load on demand, see lessons/french.ts and lessons/german.ts).
-  LessonList: { moduleKey?: LessonModuleKey; frenchLevel?: FrenchLevelKey; germanLevel?: GermanLevelKey } | undefined;
+  LessonList:
+    | { moduleKey?: LessonModuleKey; frenchLevel?: FrenchLevelKey; germanLevel?: GermanLevelKey; portugueseLevel?: PortugueseLevelKey }
+    | undefined;
   // levelPath is passed for French and German lessons ("fr/a1", "de/a1" ...):
   // their slugs can repeat a Spanish lesson's, and their level is loaded on demand.
   LessonRunner: { slug: string; levelPath?: string };
@@ -46,11 +58,17 @@ export type AppStackParamList = {
   // routes here; each level opens ReadingsList for that level.
   // lang "fr" shows the French course's stories (src/lib/stories/fr), "de"
   // the German course's (src/lib/stories/de).
-  ReadingLevels: { lang?: "es" | "fr" | "de" } | undefined;
+  // "pt" the Portuguese beta's (src/lib/stories/pt).
+  ReadingLevels: { lang?: ToolsLang } | undefined;
   // levelPath defaults to "a1" when omitted; French levels are "fr/a1" ...,
   // German ones germanLevel.
   ReadingsList:
-    | { levelPath?: ReadingLevelPath; frenchLevel?: FrenchStoryLevelPath; germanLevel?: GermanStoryLevelPath }
+    | {
+        levelPath?: ReadingLevelPath;
+        frenchLevel?: FrenchStoryLevelPath;
+        germanLevel?: GermanStoryLevelPath;
+        portugueseLevel?: PortugueseStoryLevelPath;
+      }
     | undefined;
   // levelPath is passed for French and German stories, whose slugs live in their own
   // (lazily loaded) collection.
@@ -80,22 +98,25 @@ export type AppStackParamList = {
   // (dailyReview.ts) -- see TodayReviewScreen. Spanish only.
   // lang "fr": the French course's own (missed questions + flashcards).
   // lang "de": the German course's, the same way.
-  TodayReview: { lang?: "es" | "fr" | "de" } | undefined;
+  TodayReview: { lang?: ToolsLang } | undefined;
   // Hub for the Spanish reference/practice tools below (grammar,
   // conjugation, DELE practice, glossary) plus the placement test.
   // lang "fr": the French course's tools (grammar, conjugation, DELF/DALF,
-  // glossary, placement); lang "de" the German course's (Goethe-Zertifikat).
-  StudyTools: { lang?: "es" | "fr" | "de" } | undefined;
+  // glossary, placement); lang "de" the German course's (Goethe-Zertifikat);
+  // lang "pt" the Portuguese beta's (Celpe-Bras).
+  StudyTools: { lang?: ToolsLang } | undefined;
   // Grammar guides (src/lib/grammar, synced from the website) -- the
   // list, then one guide by slug.
-  Grammar: { lang?: "es" | "fr" | "de" } | undefined;
-  GrammarGuide: { slug: string; lang?: "es" | "fr" | "de" };
+  Grammar: { lang?: ToolsLang } | undefined;
+  GrammarGuide: { slug: string; lang?: ToolsLang };
   // The website's placement test, with its results screen.
   Placement: undefined;
   // The French course's placement test (src/lib/fr-placementTest.ts).
   FrenchPlacement: undefined;
   // The German course's placement test (src/lib/de-placementTest.ts).
   GermanPlacement: undefined;
+  // The Portuguese beta's placement test (src/lib/pt-placementTest.ts).
+  PortuguesePlacement: undefined;
   // "Test out" of a unit (units.ts) -- see UnitTestScreen.
   UnitTest: { levelPath: string; unitId: string };
   // Reference tools (src/lib/conjugation, src/lib/glossary, synced from
@@ -110,14 +131,18 @@ export type AppStackParamList = {
   // The German counterparts (src/lib/de-conjugation, src/lib/de-tools).
   GermanConjugation: { verb?: string } | undefined;
   GermanGlossary: undefined;
+  // The Portuguese beta's counterparts (src/lib/pt-conjugation, src/lib/pt-tools).
+  PortugueseConjugation: { verb?: string } | undefined;
+  PortugueseGlossary: undefined;
   // DELE practice exams (src/lib/exams, synced from the website): the
   // list, one exam's overview and results, and one paper.
   // course "fr": the DELF/DALF practice exams (src/lib/exams/fr); "de" the
-  // Goethe-Zertifikat ones (src/lib/exams/de).
+  // Goethe-Zertifikat ones (src/lib/exams/de); "pt" the Celpe-Bras ones
+  // (src/lib/exams/pt).
   Exams: { course?: ExamCourse } | undefined;
   // Writing practice (the website's Writing page): open writing tasks per
   // level, marked by the AI writing feedback.
-  Writing: { lang?: "es" | "fr" | "de" | "ja" | "zh" } | undefined;
+  Writing: { lang?: "es" | "fr" | "de" | "pt" | "ja" | "zh" } | undefined;
   Exam: { slug: string; course?: ExamCourse };
   ExamPaper: { slug: string; paperId: string; course?: ExamCourse };
 };

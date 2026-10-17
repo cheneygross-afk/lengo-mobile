@@ -12,32 +12,52 @@ import { displayTitle, spanishLevel } from "@/lib/lessons/levels";
 import { loadFlashcards } from "@/lib/flashcards/store";
 import { getDueCardsForToday, loadPrefsLocal, syncPrefs } from "@/lib/learnerPrefs";
 import { getStudySummary, syncStudyDays } from "@/lib/studyDays";
-import { getFrenchReviewCounts, getGermanReviewCounts, getTodaysReviewCounts, seedScheduleFromCompletions } from "@/lib/todaysReview";
+import {
+  getFrenchReviewCounts,
+  getGermanReviewCounts,
+  getPortugueseReviewCounts,
+  getTodaysReviewCounts,
+  seedScheduleFromCompletions } from "@/lib/todaysReview";
 import { todaysReviewTotal } from "@/lib/dailyReview";
 import { SPANISH_LEVEL_ORDER, nextLessonToContinue, type ContinueLesson, type LearnerPrefs } from "@/lib/learnerPlan";
 import { formatMinutes } from "@/lib/duration";
 import { courseOfLevelPath } from "@/lib/courses";
 import { FRENCH_LEVELS, loadFrenchLevel, nextFrenchLesson } from "@/lib/lessons/french";
 import { GERMAN_LEVELS, loadGermanLevel, nextGermanLesson } from "@/lib/lessons/german";
+import { PORTUGUESE_LEVELS, loadPortugueseLevel, nextPortugueseLesson } from "@/lib/lessons/portuguese";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Home">;
 
-type Language = "es" | "fr" | "de" | "ja" | "zh";
+// "pt" (Brazilian Portuguese) is a private beta: its pill, cards and
+// counts appear only for the beta account (useAuth().portugueseBeta).
+type Language = "es" | "fr" | "de" | "pt" | "ja" | "zh";
 
-// French's and German's "Continue" card: the next lesson on its path,
-// worked out only while that course is selected (its lessons load on
-// demand, lessons/french.ts and lessons/german.ts).
+// French's, German's and Portuguese's "Continue" card: the next lesson on
+// its path, worked out only while that course is selected (its lessons
+// load on demand, lessons/french.ts, lessons/german.ts, lessons/portuguese.ts).
 type CourseNext = { slug: string; levelPath: string; label: string; number: number; title: string } | null;
 
-async function loadCourseNext(course: "fr" | "de", fromCloud: boolean): Promise<CourseNext> {
-  const levels = course === "fr" ? FRENCH_LEVELS : GERMAN_LEVELS;
+type LazyCourse = "fr" | "de" | "pt";
+
+async function loadCourseNext(course: LazyCourse, fromCloud: boolean): Promise<CourseNext> {
+  const levels: { levelPath: string }[] = course === "fr" ? FRENCH_LEVELS : course === "de" ? GERMAN_LEVELS : PORTUGUESE_LEVELS;
   const maps = await Promise.all(
     levels.map((l) => (fromCloud ? syncCompletedMapFromCloud(l.levelPath) : getCompletedMap(l.levelPath)))
   );
   const completed = Object.fromEntries(levels.map((l, i) => [l.levelPath, maps[i]]));
-  const found = course === "fr" ? await nextFrenchLesson(completed) : await nextGermanLesson(completed);
+  const found =
+    course === "fr"
+      ? await nextFrenchLesson(completed)
+      : course === "de"
+        ? await nextGermanLesson(completed)
+        : await nextPortugueseLesson(completed);
   if (!found) return null;
-  const data = course === "fr" ? await loadFrenchLevel(found.level.key) : await loadGermanLevel(found.level.key);
+  const data =
+    course === "fr"
+      ? await loadFrenchLevel(found.level.key as Parameters<typeof loadFrenchLevel>[0])
+      : course === "de"
+        ? await loadGermanLevel(found.level.key as Parameters<typeof loadGermanLevel>[0])
+        : await loadPortugueseLevel(found.level.key as Parameters<typeof loadPortugueseLevel>[0]);
   return {
     slug: found.lesson.slug,
     levelPath: found.level.levelPath,
@@ -67,7 +87,7 @@ type Summary = {
   minutesToday: number;
 };
 
-async function loadSummary(fromCloud: boolean): Promise<Summary> {
+async function loadSummary(fromCloud: boolean, portugueseBeta: boolean): Promise<Summary> {
   const prefs = fromCloud ? await syncPrefs() : await loadPrefsLocal();
   const maps = await Promise.all(
     SPANISH_LEVEL_ORDER.map((lp) => (fromCloud ? syncCompletedMapFromCloud(lp) : getCompletedMap(lp)))
@@ -88,6 +108,7 @@ async function loadSummary(fromCloud: boolean): Promise<Summary> {
       es: todaysReviewTotal(await getTodaysReviewCounts()),
       fr: todaysReviewTotal(await getFrenchReviewCounts()),
       de: todaysReviewTotal(await getGermanReviewCounts()),
+      pt: portugueseBeta ? todaysReviewTotal(await getPortugueseReviewCounts()) : 0,
       ja: (await getDueCardsForToday(ja, prefs)).length,
       zh: (await getDueCardsForToday(zh, prefs)).length,
     },
@@ -98,17 +119,20 @@ async function loadSummary(fromCloud: boolean): Promise<Summary> {
 }
 
 export default function HomeScreen({ navigation }: Props) {
-  const { session } = useAuth();
+  const { session, portugueseBeta } = useAuth();
   const [language, setLanguage] = useState<Language>("es");
 
   useFocusEffect(
     useCallback(() => {
       readJSON<Language>(LANGUAGE_STORAGE_KEY, "es").then((saved) => {
         // Every course is open to every account (lessons are gated one by
-        // one, with a free opening).
-        setLanguage(saved === "ja" || saved === "zh" || saved === "fr" || saved === "de" ? saved : "es");
+        // one, with a free opening) -- except the Portuguese beta, which a
+        // saved "pt" opens only for the beta account.
+        setLanguage(
+          saved === "ja" || saved === "zh" || saved === "fr" || saved === "de" || (saved === "pt" && portugueseBeta) ? saved : "es"
+        );
       });
-    }, [])
+    }, [portugueseBeta])
   );
 
   const [summary, setSummary] = useState<Summary | null>(null);
@@ -121,12 +145,12 @@ export default function HomeScreen({ navigation }: Props) {
       (async () => {
         // Local numbers right away; the first focus also merges in the
         // account's prefs and lesson completions from the website.
-        const local = await loadSummary(false);
+        const local = await loadSummary(false, portugueseBeta);
         if (cancelled) return;
         setSummary(local);
         if (syncedRef.current) return;
         syncedRef.current = true;
-        const synced = await loadSummary(true);
+        const synced = await loadSummary(true, portugueseBeta);
         if (cancelled) return;
         setSummary(synced);
         // First run: set up a starting level and daily goal -- unless
@@ -140,17 +164,17 @@ export default function HomeScreen({ navigation }: Props) {
       return () => {
         cancelled = true;
       };
-    }, [navigation])
+    }, [navigation, portugueseBeta])
   );
 
-  // French's or German's continue card, read while that course is
+  // French's, German's or Portuguese's continue card, read while that course is
   // selected: local completions first, then once more with the account's
   // merged in.
-  const [courseNext, setCourseNext] = useState<{ course: "fr" | "de"; next: CourseNext } | undefined>(undefined);
+  const [courseNext, setCourseNext] = useState<{ course: LazyCourse; next: CourseNext } | undefined>(undefined);
   const courseSyncedRef = useRef<Record<string, boolean>>({});
   useFocusEffect(
     useCallback(() => {
-      if (language !== "fr" && language !== "de") return;
+      if (language !== "fr" && language !== "de" && language !== "pt") return;
       const course = language;
       let cancelled = false;
       (async () => {
@@ -190,6 +214,9 @@ export default function HomeScreen({ navigation }: Props) {
             <LangPill label="Spanish" active={language === "es"} onPress={() => selectLanguage("es")} />
             <LangPill label="French" active={language === "fr"} onPress={() => selectLanguage("fr")} />
             <LangPill label="German" active={language === "de"} onPress={() => selectLanguage("de")} />
+            {portugueseBeta && (
+              <LangPill label="Portuguese" active={language === "pt"} onPress={() => selectLanguage("pt")} />
+            )}
             <LangPill label="Japanese" active={language === "ja"} onPress={() => selectLanguage("ja")} />
             <LangPill label="Chinese" active={language === "zh"} onPress={() => selectLanguage("zh")} />
           </View>
@@ -232,7 +259,9 @@ export default function HomeScreen({ navigation }: Props) {
             ) : (
               <Pressable
                 style={styles.continueCard}
-                onPress={() => navigation.navigate(courseNext.course === "fr" ? "FrenchLevels" : "GermanLevels")}
+                onPress={() => navigation.navigate(
+                    courseNext.course === "fr" ? "FrenchLevels" : courseNext.course === "de" ? "GermanLevels" : "PortugueseLevels"
+                  )}
               >
                 <Text style={styles.continueLabel}>All caught up</Text>
                 <Text style={styles.continueTitle}>Every required lesson from A1 to C2 is done.</Text>
@@ -259,12 +288,12 @@ export default function HomeScreen({ navigation }: Props) {
                 onPress={() =>
                   language === "es"
                     ? navigation.navigate("TodayReview")
-                    : language === "fr" || language === "de"
+                    : language === "fr" || language === "de" || language === "pt"
                       ? navigation.navigate("TodayReview", { lang: language })
                       : navigation.navigate("Flashcards", { lang: language })
                 }
               >
-                <Text style={styles.statLabel}>{language === "es" || language === "fr" || language === "de" ? "Review" : "Due"}</Text>
+                <Text style={styles.statLabel}>{language === "es" || language === "fr" || language === "de" || language === "pt" ? "Review" : "Due"}</Text>
                 <Text style={styles.statValue}>{dueCount}</Text>
                 <Text style={styles.statHint}>{dueCount > 0 ? "Review →" : "Caught up"}</Text>
               </Pressable>
@@ -294,6 +323,11 @@ export default function HomeScreen({ navigation }: Props) {
               <Pressable style={styles.card} onPress={() => navigation.navigate("GermanLevels")}>
                 <Text style={styles.cardTitle}>Lessons</Text>
                 <Text style={styles.cardBody}>Structured lessons, from beginner (A1) to mastery (C2).</Text>
+              </Pressable>
+            ) : language === "pt" ? (
+              <Pressable style={styles.card} onPress={() => navigation.navigate("PortugueseLevels")}>
+                <Text style={styles.cardTitle}>Lessons</Text>
+                <Text style={styles.cardBody}>Brazilian Portuguese, from beginner (A1) to mastery (C2). Beta.</Text>
               </Pressable>
             ) : language === "ja" ? (
               <Pressable style={styles.card} onPress={() => navigation.navigate("JapaneseLevels")}>
@@ -331,12 +365,18 @@ export default function HomeScreen({ navigation }: Props) {
                 <Text style={styles.cardBody}>Graded short stories with audio, translations and comprehension questions.</Text>
               </Pressable>
             )}
+            {language === "pt" && (
+              <Pressable style={styles.card} onPress={() => navigation.navigate("ReadingLevels", { lang: "pt" })}>
+                <Text style={styles.cardTitle}>Stories</Text>
+                <Text style={styles.cardBody}>Graded short stories with audio and comprehension questions. Tap any word for its meaning.</Text>
+              </Pressable>
+            )}
 
-            {language === "fr" || language === "de" ? (
+            {language === "fr" || language === "de" || language === "pt" ? (
               <Pressable style={styles.card} onPress={() => navigation.navigate("TodayReview", { lang: language })}>
                 <Text style={styles.cardTitle}>Today&apos;s review</Text>
                 <Text style={styles.cardBody}>
-                  Questions you missed in your {language === "fr" ? "French" : "German"} lessons, then flashcards due today.
+                  Questions you missed in your {language === "fr" ? "French" : language === "de" ? "German" : "Portuguese"} lessons, then flashcards due today.
                 </Text>
               </Pressable>
             ) : language === "es" ? (
@@ -385,6 +425,14 @@ export default function HomeScreen({ navigation }: Props) {
                 </Text>
               </Pressable>
             )}
+            {language === "pt" && (
+              <Pressable style={styles.card} onPress={() => navigation.navigate("StudyTools", { lang: "pt" })}>
+                <Text style={styles.cardTitle}>Study Tools</Text>
+                <Text style={styles.cardBody}>
+                  Grammar guides, verb conjugation, Celpe-Bras practice, vocabulary and the glossary.
+                </Text>
+              </Pressable>
+            )}
           </View>
         </View>
 
@@ -400,7 +448,7 @@ export default function HomeScreen({ navigation }: Props) {
           in it, covers whatever's behind it instead of shifting/
           squeezing this screen's own layout -- nothing here needs to
           react to it opening. */}
-      {/* The translator covers Spanish, French, German and Japanese. */}
+      {/* The translator covers Spanish, French, German, Portuguese and Japanese. */}
       {language !== "zh" && <TranslateBar language={language} />}
     </View>
   );

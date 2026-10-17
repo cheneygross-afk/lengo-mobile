@@ -15,9 +15,10 @@ import {
   goethePassMarkExplanation,
   goetheResult,
 } from "@/lib/exams/de/scoring";
+import { CELPE_BANDS, celpePassMarkExplanation, celpeResult, isPractice } from "@/lib/exams/pt/scoring";
 import { useCourseExams } from "@/components/exams/useCourseExams";
 import TapText from "@/components/TapText";
-import { GERMAN_LANG } from "@/lib/speech";
+import { GERMAN_LANG, PORTUGUESE_LANG } from "@/lib/speech";
 import type { Exam } from "@/lib/exams/types";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Exam">;
@@ -32,7 +33,119 @@ export default function ExamScreen(props: Props) {
   const course = props.route.params.course;
   if (course === "fr") return <FrenchExamScreen {...props} />;
   if (course === "de") return <GermanExamScreen {...props} />;
+  if (course === "pt") return <PortugueseExamScreen {...props} />;
   return <SpanishExamScreen {...props} />;
+}
+
+const celpeEnLevel = (level: string | null) => CELPE_BANDS.find((b) => b.level === level)?.en;
+
+// A Celpe-Bras practice exam of the Brazilian Portuguese beta (the
+// website's /lessons/pt/tools/celpe-bras/[slug]), or the Deep End A2
+// practice test: the two parts, how the real exam is marked -- a 0-5 mark
+// per part, the weaker part setting the certificate level -- and the
+// latest scores (the website's CelpeBrasResults).
+function PortugueseExamScreen({ navigation, route }: Props) {
+  const exams = useCourseExams("pt");
+  const exam: Exam | undefined = exams?.find((e) => e.slug === route.params.slug);
+  const [scores, setScores] = useState<Record<string, number | undefined>>({});
+
+  useFocusEffect(
+    useCallback(() => {
+      if (exam) void loadExamScores(exam.slug).then(setScores);
+    }, [exam])
+  );
+
+  if (!exams) {
+    return (
+      <View style={[s.screen, s.loading]}>
+        <ActivityIndicator />
+      </View>
+    );
+  }
+  if (!exam) {
+    return (
+      <View style={s.screen}>
+        <Text style={[s.intro, { padding: 20 }]}>This exam isn&apos;t available.</Text>
+      </View>
+    );
+  }
+
+  const practice = isPractice(exam);
+  const result = celpeResult(exam, scores);
+  const anyScore = Object.keys(scores).length > 0;
+  const verdict = result.practice
+    ? result.complete
+      ? (result.finalMark ?? 0) >= 3
+        ? "You handle A2 tasks comfortably: you're ready to start working towards B1 and the Celpe-Bras."
+        : "Not yet comfortable at A2: aim for about 3 out of 5 on every task before moving on."
+      : "Finish both parts for a verdict."
+    : result.complete
+      ? result.level
+        ? `Overall: "${result.level}" (${celpeEnLevel(result.level)}), set by your weaker part.`
+        : `Below the 2.00 needed for the lowest certificate, "Intermediário", in at least one part.`
+      : "Finish both parts for an overall level: the weaker part decides it.";
+
+  return (
+    <ScrollView style={s.screen} contentContainerStyle={s.content}>
+      <Text style={s.h1}>{exam.title}</Text>
+      {practice ? (
+        <Text style={s.note}>
+          Deep End practice, not a Celpe-Bras exam: an A2 test in the Celpe-Bras&apos;s integrated style, with no certificate level.
+        </Text>
+      ) : null}
+      <TapText text={exam.description} lang={PORTUGUESE_LANG} mode="mixed" style={s.intro} />
+
+      {exam.papers.map((paper, i) => {
+        const points = scores[paper.id];
+        return (
+          <Pressable
+            key={paper.id}
+            style={s.card}
+            onPress={() => navigation.navigate("ExamPaper", { slug: exam.slug, paperId: paper.id, course: "pt" })}
+          >
+            <Text style={s.overline}>
+              PART {i + 1} · {KIND_LABEL[paper.kind].toUpperCase()}
+            </Text>
+            <TapText text={paper.title} lang={PORTUGUESE_LANG} mode="target" style={s.title} />
+            <Text style={s.meta}>
+              {formatMinutes(paper.minutes)} · {paper.tasks.length} task{paper.tasks.length === 1 ? "" : "s"}
+            </Text>
+            {points !== undefined ? (
+              <Text style={s.score}>
+                Last attempt: {points}/{PAPER_POINTS}
+              </Text>
+            ) : null}
+          </Pressable>
+        );
+      })}
+
+      {anyScore ? (
+        <View style={s.card}>
+          <Text style={s.h2}>Your results</Text>
+          {result.papers.map(({ paper, points, mark, level }) => (
+            <Text key={paper.id} style={s.body}>
+              <TapText text={paper.title} lang={PORTUGUESE_LANG} mode="target" style={s.body} />:{" "}
+              {points === null ? "not done yet" : `${points}/${PAPER_POINTS} · mark ${mark?.toFixed(2)} of 5`}
+              {points !== null && !result.practice ? (
+                <Text style={{ color: level ? "#15803d" : "#b91c1c" }}>
+                  {" "}
+                  · {level ? <TapText text={level} lang={PORTUGUESE_LANG} mode="target" /> : "no certificate level"}
+                </Text>
+              ) : null}
+            </Text>
+          ))}
+          <TapText text={verdict} lang={PORTUGUESE_LANG} mode="mixed" style={[s.body, s.bold]} />
+        </View>
+      ) : null}
+
+      <Text style={s.h2}>How it&apos;s marked</Text>
+      <TapText text={celpePassMarkExplanation(exam)} lang={PORTUGUESE_LANG} mode="mixed" style={s.body} />
+      <Text style={s.body}>
+        Here, every task gets a mark from 1 to 5 -- from the writing feedback when it&apos;s available, otherwise your own honest
+        comparison with the model answer. A task you don&apos;t mark counts as 0. Scores are saved on this device.
+      </Text>
+    </ScrollView>
+  );
 }
 
 // A Goethe-Zertifikat practice exam (the website's /lessons/de/tools/goethe/[slug]):
@@ -340,4 +453,5 @@ const s = StyleSheet.create({
   title: { fontSize: 16, fontWeight: "700", color: "#000" },
   meta: { fontSize: 13, color: "#00000077" },
   score: { fontSize: 13, color: BRAND, fontWeight: "600" },
+  note: { fontSize: 13, color: "#000", backgroundColor: "#f59e0b1a", borderRadius: 8, paddingHorizontal: 10, paddingVertical: 8 },
 });

@@ -21,10 +21,12 @@ type Row = { kind: "story"; story: Story } | { kind: "book"; reading: Reading };
 export default function ReadingsListScreen(props: Props) {
   if (props.route.params?.frenchLevel) return <CourseStoriesList {...props} course="fr" path={props.route.params.frenchLevel} />;
   if (props.route.params?.germanLevel) return <CourseStoriesList {...props} course="de" path={props.route.params.germanLevel} />;
+  if (props.route.params?.portugueseLevel)
+    return <CourseStoriesList {...props} course="pt" path={props.route.params.portugueseLevel} />;
   return <SpanishReadingsList {...props} />;
 }
 
-// One French or German level's stories (lib/stories/courseStories.ts), read ones ticked.
+// One French, German or Portuguese level's stories (lib/stories/courseStories.ts), read ones ticked.
 function CourseStoriesList({ navigation, course, path }: Props & { course: StoryCourse; path: string }) {
   const config = STORY_COURSES[course];
   const [data, setData] = useState<CourseStories | null>(config.ifLoaded);
@@ -61,7 +63,9 @@ function CourseStoriesList({ navigation, course, path }: Props & { course: Story
           <Text style={styles.sectionTitle}>
             {level.label} · {level.name}
           </Text>
-          <Text style={styles.sectionSubtitle}>{level.stories.length} stories with audio, translation and questions</Text>
+          <Text style={styles.sectionSubtitle}>
+            {level.stories.length} stories with audio{course === "pt" ? "" : ", translation"} and questions
+          </Text>
         </View>
       }
       renderItem={({ item }) => (

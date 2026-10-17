@@ -18,11 +18,13 @@ import { LEVEL_WATCH_VIDEOS } from "@/lib/lessons/lessonVideos";
 import type { SpanishLevelPath } from "@/lib/lessons/levels";
 import { frenchLevelIfLoaded, frenchLevelInfo, loadFrenchLevel } from "@/lib/lessons/french";
 import { germanLevelIfLoaded, germanLevelInfo, loadGermanLevel } from "@/lib/lessons/german";
+import { loadPortugueseLevel, portugueseLevelIfLoaded, portugueseLevelInfo } from "@/lib/lessons/portuguese";
 import { planCovers, useAuth } from "@/lib/auth/AuthContext";
 import { courseOfLevelPath } from "@/lib/courses";
 import { freeSlugs } from "@/lib/freeLessons";
 
-// A French or German level, loaded on demand (lessons/french.ts, lessons/german.ts).
+// A French, German or Portuguese level, loaded on demand (lessons/french.ts,
+// lessons/german.ts, lessons/portuguese.ts).
 type LazyLevelData = { levelPath: string; lessons: Lesson[]; units: ModuleUnit[] };
 
 type Props = NativeStackScreenProps<AppStackParamList, "LessonList">;
@@ -46,18 +48,32 @@ type Section = { key: string; unit?: ModuleUnit; title: string; data: Row[] };
 // the item bank, and their can-do statements ticked off from progress.
 // The Japanese beta's modules (see JapaneseLevelsScreen) stay one flat
 // list. A French level (route param frenchLevel) or German level
-// (germanLevel) shows its units the same way, once its lessons have loaded
-// (lessons/french.ts, lessons/german.ts).
+// (germanLevel) or Brazilian Portuguese beta level (portugueseLevel) shows
+// its units the same way, once its lessons have loaded (lessons/french.ts,
+// lessons/german.ts, lessons/portuguese.ts).
 export default function LessonListScreen({ navigation, route }: Props) {
   const frenchKey = route.params?.frenchLevel ?? null;
   const germanKey = route.params?.germanLevel ?? null;
-  // The French or German level shown, if any: "fr/a1", "de/b2" ...
-  const lazyInfo = frenchKey ? frenchLevelInfo(frenchKey) : germanKey ? germanLevelInfo(germanKey) : null;
+  const portugueseKey = route.params?.portugueseLevel ?? null;
+  // The French, German or Portuguese level shown, if any: "fr/a1", "de/b2", "pt/c1" ...
+  const lazyInfo = frenchKey
+    ? frenchLevelInfo(frenchKey)
+    : germanKey
+      ? germanLevelInfo(germanKey)
+      : portugueseKey
+        ? portugueseLevelInfo(portugueseKey)
+        : null;
   const lazyLevelPath = lazyInfo?.levelPath ?? null;
   // Unused for a French or German level (its data comes from lazyData below).
   const moduleKey: LessonModuleKey = route.params?.moduleKey ?? "a1";
   const [lazyData, setLazyData] = useState<LazyLevelData | null>(() =>
-    frenchKey ? frenchLevelIfLoaded(frenchKey) ?? null : germanKey ? germanLevelIfLoaded(germanKey) ?? null : null
+    frenchKey
+      ? frenchLevelIfLoaded(frenchKey) ?? null
+      : germanKey
+        ? germanLevelIfLoaded(germanKey) ?? null
+        : portugueseKey
+          ? portugueseLevelIfLoaded(portugueseKey) ?? null
+          : null
   );
   useEffect(() => {
     if (!lazyLevelPath || lazyData?.levelPath === lazyLevelPath) return;
@@ -66,19 +82,21 @@ export default function LessonListScreen({ navigation, route }: Props) {
       ? loadFrenchLevel(frenchKey)
       : germanKey
         ? loadGermanLevel(germanKey)
-        : null;
+        : portugueseKey
+          ? loadPortugueseLevel(portugueseKey)
+          : null;
     load?.then((data) => {
       if (!cancelled) setLazyData(data);
     });
     return () => {
       cancelled = true;
     };
-  }, [frenchKey, germanKey, lazyLevelPath, lazyData?.levelPath]);
+  }, [frenchKey, germanKey, portugueseKey, lazyLevelPath, lazyData?.levelPath]);
   const source: Pick<LessonSource, "levelPath" | "title" | "lessons" | "units" | "canDo"> = useMemo(() => {
     if (!lazyInfo) return LESSON_SOURCES[moduleKey];
     return { levelPath: lazyInfo.levelPath, title: lazyInfo.label, lessons: lazyData?.lessons ?? [], units: lazyData?.units };
   }, [lazyInfo, moduleKey, lazyData]);
-  // French and German lessons are opened with their levelPath (see LessonRunner).
+  // French, German and Portuguese lessons are opened with their levelPath (see LessonRunner).
   // Without a plan for this course, only the free opening is open
   // (lib/freeLessons.ts); the rest show a lock.
   const { lessonsCourses } = useAuth();

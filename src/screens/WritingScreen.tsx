@@ -10,17 +10,19 @@ import type { WriteExercise } from "@/lib/lessons/types";
 import { longPrompts, longRange, type PromptLevel } from "@/lib/writingPrompts";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Writing">;
-type Lang = "es" | "fr" | "de" | "ja" | "zh";
+type Lang = "es" | "fr" | "de" | "pt" | "ja" | "zh";
 
 // Writing practice: the website's Writing page (/writing,
 // /lessons/<course>/tools/writing) for the app. Open writing tasks for
 // each level, from a few sentences to a couple of pages, marked by the AI
 // writing feedback. src/lib/writingPrompts.ts is a copy of the website's
-// file. Spanish, French and German need a plan, like on the website.
+// file. Spanish, French and German need a plan, like on the website;
+// Portuguese is the beta account's only (planCovers).
 const COURSE: Record<Lang, { name: string; speech: SpeechLang; prefix: string }> = {
   es: { name: "Spanish", speech: "es-ES", prefix: "" },
   fr: { name: "French", speech: "fr-FR", prefix: "FR-" },
   de: { name: "German", speech: "de-DE", prefix: "DE-" },
+  pt: { name: "Portuguese", speech: "pt-BR", prefix: "PT-" },
   ja: { name: "Japanese", speech: "ja-JP", prefix: "JA-" },
   zh: { name: "Chinese", speech: "zh-CN", prefix: "ZH-" },
 };
@@ -47,7 +49,7 @@ export default function WritingScreen({ route, navigation }: Props) {
     navigation.setOptions({ title: `${course.name} writing` });
   }, [navigation, course.name]);
 
-  if ((lang === "es" || lang === "fr" || lang === "de") && !planCovers(lessonsCourses, lang)) {
+  if ((lang === "es" || lang === "fr" || lang === "de" || lang === "pt") && !planCovers(lessonsCourses, lang)) {
     return <PlanLock course={lang} kind="tool" />;
   }
 

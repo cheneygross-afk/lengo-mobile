@@ -12,8 +12,10 @@ import type { GrammarGuide } from "@/lib/grammar/types";
 import { GUIDE_COURSES, type CourseGuide, type GuideCourse } from "@/lib/grammar/courseGuides";
 import type { FrenchLevelKey } from "@/lib/lessons/french";
 import type { GermanLevelKey } from "@/lib/lessons/german";
+import type { PortugueseLevelKey } from "@/lib/lessons/portuguese";
 import type { FrenchStoryLevel } from "@/lib/stories/fr";
 import type { GermanStoryLevel } from "@/lib/stories/de";
+import type { PortugueseStoryLevel } from "@/lib/stories/pt";
 
 type Props = NativeStackScreenProps<AppStackParamList, "GrammarGuide">;
 
@@ -31,7 +33,7 @@ const LESSONS_FOR_LEVEL: Record<string, LessonModuleKey> = {
 // word by word in whichever language each word is in.
 export default function GrammarGuideScreen(props: Props) {
   const lang = props.route.params.lang;
-  return lang === "fr" || lang === "de" ? (
+  return lang === "fr" || lang === "de" || lang === "pt" ? (
     <CourseGrammarGuideScreen {...props} course={lang} />
   ) : (
     <SpanishGrammarGuideScreen {...props} />
@@ -77,8 +79,8 @@ function SpanishGrammarGuideScreen({ route, navigation }: Props) {
   );
 }
 
-// A French or German grammar guide (lib/grammar/courseGuides.ts, loaded on
-// demand): the same layout, read in that course's voice, with links into
+// A French, German or Portuguese grammar guide (lib/grammar/courseGuides.ts,
+// loaded on demand): the same layout, read in that course's voice, with links into
 // its own lessons and stories.
 function CourseGrammarGuideScreen({ route, navigation, course }: Props & { course: GuideCourse }) {
   const config = GUIDE_COURSES[course];
@@ -110,6 +112,10 @@ function CourseGrammarGuideScreen({ route, navigation, course }: Props & { cours
   const key = guide.level.toLowerCase();
   const levelPath = `${course}/${key}`;
   const firstLesson = guide.lessons[0];
+  // Portuguese lesson slugs start with their own level ("a1-daily-routine"),
+  // which a guide one level up can link to.
+  const lessonLevelPath =
+    course === "pt" && firstLesson && /^(a1|a2|b1|b2|c1|c2)-/.test(firstLesson) ? `pt/${firstLesson.slice(0, 2)}` : levelPath;
   const related = guide.related
     .map((slug) => guides.find((g) => g.slug === slug))
     .filter((g): g is CourseGuide => !!g);
@@ -120,10 +126,14 @@ function CourseGrammarGuideScreen({ route, navigation, course }: Props & { cours
       practiceLabel={firstLesson ? "Practice this in lessons" : `Practice with the ${guide.level} lessons`}
       onPractice={() =>
         firstLesson
-          ? navigation.navigate("LessonRunner", { slug: firstLesson, levelPath })
+          ? navigation.navigate("LessonRunner", { slug: firstLesson, levelPath: lessonLevelPath })
           : navigation.navigate(
               "LessonList",
-              course === "fr" ? { frenchLevel: key as FrenchLevelKey } : { germanLevel: key as GermanLevelKey }
+              course === "fr"
+                ? { frenchLevel: key as FrenchLevelKey }
+                : course === "pt"
+                  ? { portugueseLevel: key as PortugueseLevelKey }
+                  : { germanLevel: key as GermanLevelKey }
             )
       }
       storyLabel={`Read a ${guide.level} story`}
@@ -132,7 +142,9 @@ function CourseGrammarGuideScreen({ route, navigation, course }: Props & { cours
           "ReadingsList",
           course === "fr"
             ? { frenchLevel: key as FrenchStoryLevel["path"] }
-            : { germanLevel: key as GermanStoryLevel["path"] }
+            : course === "pt"
+              ? { portugueseLevel: key as PortugueseStoryLevel["path"] }
+              : { germanLevel: key as GermanStoryLevel["path"] }
         )
       }
       related={related}
