@@ -493,7 +493,7 @@ export const PT_C2_U30: Lesson[] = [
               "Desliga o aparelho e aguarda dez segundos.",
             ],
             correctIndex: 2,
-            explanation: "A manual keeps the uniform \"você\" imperative: \"desligue\", \"aguarde\". The second and fourth options use speech forms or mix the two.",
+            explanation: "A manual keeps the uniform \"você\" imperative: \"desligue\", \"aguarde\". The other options use speech forms or mix the two.",
           },
           {
             type: "speak",
@@ -948,7 +948,7 @@ export const PT_C2_U30: Lesson[] = [
         options: [
           "Uma chuva pesada atingiu a zona sul.",
           "Uma chuva forte atingiu a zona sul.",
-          "Uma chuva grossa atingiu a zona sul.",
+          "Uma chuva gorda atingiu a zona sul.",
           "Uma chuva intensiva atingiu a zona sul.",
         ],
         correctIndex: 1,
@@ -2198,7 +2198,7 @@ export const PT_C2_U30: Lesson[] = [
       {
         heading: "A paragraph to edit",
         body: [
-          "Edit this paragraph from a company newsletter in Curitiba: \"Fazem três meses que a empresa interviu no projeto de infra-estrutura. A medida implica em custos, mas visa a redução dos atrasos. Se a equipe se propor a cumprir os prazos, entregaremos os relatórios a tempo. Seguem anexo as fotos da obra.\" There are eight errors. The exercises below take them one by one, in new sentences.",
+          "Edit this paragraph from a company newsletter in Curitiba: \"Fazem três meses que a empresa interviu no projeto de infra-estrutura. A medida implica em custos, mas visa a redução dos atrasos. Se a equipe se propor a cumprir os prazos, entregaremos os relatórios a tempo. Seguem anexo as fotos da obra.\" There are seven errors. The exercises below take them one by one, in new sentences.",
           "The fixed version: \"Faz três meses que a empresa interveio no projeto de infraestrutura. A medida implica custos, mas visa à redução dos atrasos. Se a equipe se propuser a cumprir os prazos, entregaremos os relatórios a tempo. Seguem anexas as fotos da obra.\"",
         ],
         examples: [

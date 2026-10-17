@@ -339,7 +339,6 @@ export const PT_C1_U14_EXTRA: Lesson[] = [
         en: "The neighbour's daughter, [who] is a teacher, helped us.",
         sentence: "A filha do vizinho, ___ é professora, nos ajudou.",
         answer: "a qual",
-        altAnswers: ["que"],
         explanation: "\"A qual\" agrees with \"a filha\" and removes the ambiguity.",
       },
       {

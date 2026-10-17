@@ -108,6 +108,7 @@ export const PT_A2_U08_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "What are you going to do on Saturday? (to a friend)",
         answer: "O que você vai fazer no sábado?",
+        altAnswers: ["Você vai fazer o que no sábado?", "O que é que você vai fazer no sábado?"],
         explanation: "\"Vai fazer\" for plans.",
       },
       {
@@ -137,6 +138,7 @@ export const PT_A2_U08_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: Next year I'm going to learn to swim.",
         words: ["No", "ano", "que", "vem", "eu", "vou", "aprender", "a", "nadar."],
+        altOrders: [["Eu", "vou", "aprender", "a", "nadar", "no", "ano", "que", "vem."]],
         translation: "Next year I'm going to learn to swim.",
         explanation: "\"Aprender a\" + infinitive; \"no ano que vem\" is next year.",
       },
@@ -458,6 +460,7 @@ export const PT_A2_U08_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: Tomorrow I'm going to make a cake.",
         words: ["Amanhã", "eu", "vou", "fazer", "um", "bolo."],
+        altOrders: [["Eu", "vou", "fazer", "um", "bolo", "amanhã."]],
         translation: "Tomorrow I'm going to make a cake.",
         explanation: "\"Vou fazer\" for a plan.",
       },

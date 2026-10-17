@@ -268,7 +268,6 @@ export const PT_B2_U17: Lesson[] = [
             prompt: "Put the words in order to say: In your place, I'd look for another apartment.",
             words: ["Eu,", "no seu lugar,", "procuraria", "outro", "apartamento."],
             translation: "In your place, I'd look for another apartment.",
-            altOrders: [["No seu lugar,", "eu,", "procuraria", "outro", "apartamento."]],
             explanation: "\"Eu, no seu lugar,\" + conditional: the phrase replaces the whole se-clause.",
           },
           {
@@ -1418,7 +1417,6 @@ export const PT_B2_U17: Lesson[] = [
         prompt: "Put the words in order to say: In your place, I'd try talking to him.",
         words: ["Eu,", "no seu lugar,", "tentaria", "conversar", "com ele."],
         translation: "In your place, I'd try talking to him.",
-        altOrders: [["No seu lugar,", "eu,", "tentaria", "conversar", "com ele."]],
         explanation: "\"Tentar\" + infinitive = to try doing something.",
       },
       {

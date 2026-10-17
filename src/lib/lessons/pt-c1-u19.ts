@@ -1250,7 +1250,6 @@ export const PT_C1_U19: Lesson[] = [
           "O deslizamento de terra deixou vinte famílias desabrigadas.",
           "O deslizamento deixou vinte famílias sem casa.",
           "O deslizamento de terra deixou vinte famílias sem casa.",
-          "O deslizamento de terra deixou vinte famílias desalojadas.",
         ],
         explanation: "\"Deixar\" plus the adjective, which agrees with \"famílias\": \"desabrigadas\".",
       },

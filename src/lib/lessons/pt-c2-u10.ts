@@ -2484,7 +2484,7 @@ export const PT_C2_U10: Lesson[] = [
         en: "I used to speak [as if] I were apologising for existing.",
         sentence: "Eu falava ___ pedisse desculpas por existir.",
         answer: "como se",
-        explanation: "\"Como se\" always takes the imperfect subjunctive for a present-time image: \"como se pedisse\". The writer looks at their past self from outside.",
+        explanation: "\"Como se\" takes the imperfect subjunctive for an image at the same time as the main verb: \"falava como se pedisse\". For an earlier action it would be \"como se tivesse pedido\". The writer looks at their past self from outside.",
       },
       {
         type: "fill-blank",

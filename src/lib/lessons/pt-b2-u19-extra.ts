@@ -43,7 +43,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
             en: "It's possible that the shop [is] closed.",
             sentence: "Pode ser que a loja ___ fechada.",
             answer: "esteja",
-            explanation: "\"Pode ser que\" + subjunctive.",
+            explanation: "\"Pode ser que\" (it may be that) expresses possibility, so it takes the subjunctive: \"esteja\".",
           },
           {
             type: "listen-choose",
@@ -69,7 +69,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
         source: "I know you're busy.",
         answer: "Sei que você está ocupado.",
         altAnswers: ["Eu sei que você está ocupado.", "Sei que você está ocupada.", "Eu sei que você está ocupada.", "Sei que o senhor está ocupado.", "Sei que a senhora está ocupada."],
-        explanation: "\"Sei que\": a fact, indicative.",
+        explanation: "\"Saber que\" introduces a fact, so the verb stays in the indicative: \"está\".",
       },
       {
         type: "translate",
@@ -84,7 +84,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
           "Espero que você não esteja ocupado demais.",
           "Espero que você não esteja ocupada demais.",
         ],
-        explanation: "\"Espero que\": subjunctive \"esteja\".",
+        explanation: "\"Esperar que\" expresses a hope, so it takes the present subjunctive: \"não esteja\".",
       },
       {
         type: "translate",
@@ -93,7 +93,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
         source: "Maybe they've already eaten.",
         answer: "Talvez eles já tenham comido.",
         altAnswers: ["Talvez elas já tenham comido.", "Eles já comeram, talvez."],
-        explanation: "\"Talvez\" first: \"tenham comido\".",
+        explanation: "\"Talvez\" before the verb takes the subjunctive; for a finished action use the perfect subjunctive: \"tenham comido\".",
       },
       {
         type: "translate",
@@ -108,7 +108,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
           "Provavelmente eles chegam atrasados.",
           "Provavelmente elas vão chegar atrasadas.",
         ],
-        explanation: "\"Provavelmente\" + indicative.",
+        explanation: "\"Provavelmente\" doesn't trigger the subjunctive, so the verb stays indicative: \"vão chegar\".",
       },
       {
         type: "translate",
@@ -143,7 +143,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
         en: "I didn't know they [had] a dog.",
         sentence: "Não sabia que eles ___ cachorro.",
         answer: "tinham",
-        explanation: "\"Não sabia que\" + indicative.",
+        explanation: "\"Não sabia que\" reports a fact you learned, so it keeps the indicative: \"tinham\".",
       },
       {
         type: "fill-blank",
@@ -161,7 +161,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
         source: "Do you think it'll be cold in Gramado?",
         answer: "Você acha que vai fazer frio em Gramado?",
         altAnswers: ["Vocês acham que vai fazer frio em Gramado?", "O senhor acha que vai fazer frio em Gramado?", "A senhora acha que vai fazer frio em Gramado?"],
-        explanation: "A question keeps the indicative.",
+        explanation: "\"Você acha que\" as a question keeps the indicative: \"vai fazer frio\". Weather uses \"fazer\".",
       },
       {
         type: "translate",
@@ -170,7 +170,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
         source: "There's nobody here who can fix the car.",
         answer: "Não tem ninguém aqui que possa consertar o carro.",
         altAnswers: ["Não há ninguém aqui que possa consertar o carro.", "Não tem ninguém aqui que saiba consertar o carro.", "Não há ninguém aqui que saiba consertar o carro."],
-        explanation: "\"Ninguém que\": subjunctive.",
+        explanation: "\"Ninguém que\" describes someone who may not exist, so the relative clause takes the subjunctive: \"possa\".",
       },
       {
         type: "multiple-choice",
@@ -189,19 +189,19 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: I doubt the shop is open now.",
         words: ["Duvido", "que", "a loja", "esteja", "aberta", "agora."],
         translation: "I doubt the shop is open now.",
-        explanation: "\"Duvido que\" + subjunctive.",
+        explanation: "\"Duvidar que\" expresses doubt and takes the subjunctive: \"esteja aberta\".",
       },
       {
         type: "dictation",
         audio: "Talvez a gente precise de mais cadeiras.",
-        explanation: "\"Talvez\" + subjunctive \"precise\".",
+        explanation: "\"Talvez\" before the verb takes the subjunctive: \"a gente precise\", with the ele form for \"a gente\".",
       },
       {
         type: "speak",
         text: "Não tenho certeza de que ele venha.",
         prompt: "Say it in Portuguese: I'm not sure he'll come.",
         tip: "\"Venha\": the nh is like ny in canyon.",
-        explanation: "Negated certainty: subjunctive \"venha\".",
+        explanation: "\"Não tenho certeza de que\" negates certainty, so it takes the subjunctive: \"venha\".",
       },
     ],
   },
@@ -244,7 +244,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
             sentence: "Eles pediram que eu ___.",
             answer: "esperasse",
             altAnswers: ["aguardasse"],
-            explanation: "Past trigger: \"esperasse\".",
+            explanation: "A past trigger (\"pediram que\") takes the imperfect subjunctive: \"esperasse\".",
           },
         ],
       },
@@ -264,7 +264,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
           "Quando você tiver um tempinho, lê meu e-mail.",
           "Quando você tiver um tempinho, leia meu e-mail.",
         ],
-        explanation: "One future moment: \"tiver\".",
+        explanation: "\"Quando\" with a future moment takes the future subjunctive: \"tiver\". \"Lê\" is the casual imperative.",
       },
       {
         type: "translate",
@@ -273,7 +273,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
         source: "I was hoping they would invite me.",
         answer: "Eu esperava que eles me convidassem.",
         altAnswers: ["Esperava que eles me convidassem.", "Eu esperava que elas me convidassem."],
-        explanation: "Past trigger: \"convidassem\".",
+        explanation: "A past trigger (\"esperava que\") takes the imperfect subjunctive: \"convidassem\"; \"me\" goes before the verb.",
       },
       {
         type: "translate",
@@ -300,7 +300,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
         source: "Whoever needs a lift can come with me.",
         answer: "Quem precisar de carona pode vir comigo.",
         altAnswers: ["Quem precisar de uma carona pode vir comigo.", "Quem precisar de carona pode ir comigo."],
-        explanation: "Open relative: \"precisar\".",
+        explanation: "\"Quem\" referring to anyone in the future takes the future subjunctive: \"quem precisar\".",
       },
       {
         type: "translate",
@@ -331,7 +331,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
         en: "As soon as they [arrive], we'll start.",
         sentence: "Assim que eles ___, a gente começa.",
         answer: "chegarem",
-        explanation: "One future event: \"chegarem\".",
+        explanation: "\"Assim que\" with a future event takes the future subjunctive: \"chegarem\" for \"eles\".",
       },
       {
         type: "fill-blank",
@@ -340,7 +340,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
         sentence: "Eu duvidava que ele ___ a verdade.",
         answer: "dissesse",
         altAnswers: ["falasse"],
-        explanation: "Past doubt: \"dissesse\".",
+        explanation: "A past doubt (\"duvidava que\") takes the imperfect subjunctive: \"dissesse\".",
       },
       {
         type: "translate",
@@ -364,7 +364,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
           "Se quiser, podemos ir juntos.",
           "Se você quiser, a gente pode ir juntos.",
         ],
-        explanation: "Likely future: \"quiser\".",
+        explanation: "A likely future condition takes \"se\" + future subjunctive: \"quiser\", from \"querer\".",
       },
       {
         type: "matching",
@@ -388,14 +388,14 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
           "If she got the job, I'd celebrate.",
         ],
         correctIndex: 0,
-        explanation: "Past trigger \"torcia\" + \"conseguisse\".",
+        explanation: "\"Torcer para que\" (to root for) takes the subjunctive; with past \"torcia\" it is the imperfect: \"conseguisse\".",
       },
       {
         type: "speak",
         text: "Quando ela conseguir a vaga, vai se mudar.",
         prompt: "Say it in Portuguese: When she gets the job, she'll move.",
         tip: "\"Conseguir\": the u is silent, con-se-GIR.",
-        explanation: "\"Quando\" + future subjunctive \"conseguir\".",
+        explanation: "\"Quando\" with a future event takes the future subjunctive: \"conseguir\", the same form as the infinitive for regular verbs.",
       },
     ],
   },
@@ -430,7 +430,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
             source: "I'm saving to travel.",
             answer: "Estou economizando para viajar.",
             altAnswers: ["Eu estou economizando para viajar.", "Estou juntando dinheiro para viajar.", "Estou economizando pra viajar.", "Estou guardando dinheiro para viajar."],
-            explanation: "Same subject: \"para\" + infinitive.",
+            explanation: "When the subject doesn't change, use \"para\" + plain infinitive: \"estou economizando para viajar\".",
           },
           {
             type: "fill-blank",
@@ -452,7 +452,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
         source: "We want to buy a house.",
         answer: "Queremos comprar uma casa.",
         altAnswers: ["Nós queremos comprar uma casa.", "A gente quer comprar uma casa."],
-        explanation: "Same subject: infinitive.",
+        explanation: "With the same subject, \"querer\" takes a plain infinitive: \"queremos comprar\".",
       },
       {
         type: "translate",
@@ -470,7 +470,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
         source: "Read the instructions before you start.",
         answer: "Lê as instruções antes de começar.",
         altAnswers: ["Leia as instruções antes de começar.", "Lê as instruções antes de você começar.", "Leia as instruções antes de você começar."],
-        explanation: "Same subject: \"antes de\" + infinitive.",
+        explanation: "With the same subject, use \"antes de\" + infinitive: \"antes de começar\". \"Lê\" is the casual imperative.",
       },
       {
         type: "translate",
@@ -514,7 +514,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
         sentence: "É importante ___ muita água.",
         answer: "beber",
         altAnswers: ["tomar"],
-        explanation: "A general statement: plain infinitive.",
+        explanation: "A general statement with no specific subject takes the plain infinitive: \"é importante beber\".",
       },
       {
         type: "fill-blank",
@@ -532,7 +532,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
         sentence: "Deixei o portão aberto ___.",
         answer: "para eles entrarem",
         altAnswers: ["para que eles entrassem", "pra eles entrarem", "para elas entrarem"],
-        explanation: "A new subject: \"para eles entrarem\".",
+        explanation: "A new subject after \"para\" uses the personal infinitive: \"para eles entrarem\".",
       },
       {
         type: "translate",
@@ -574,7 +574,7 @@ export const PT_B2_U19_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Ela trabalha muito para os filhos estudarem.",
-        explanation: "Personal infinitive \"estudarem\" with a new subject.",
+        explanation: "The subject changes (\"os filhos\"), so \"para\" takes the personal infinitive: \"estudarem\".",
       },
       {
         type: "speak",

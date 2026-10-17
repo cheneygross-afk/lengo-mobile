@@ -1402,7 +1402,7 @@ export const PT_C2_U02: Lesson[] = [
             source: "That's not humour, it's recreational racism.",
             answer: "Isso não é humor, é racismo recreativo.",
             altAnswers: ["Isso não é humor, isso é racismo recreativo.", "Isso não é piada, é racismo recreativo."],
-            explanation: "\"Racismo recreativo\" is the established term in Brazilian debate; the adjective follows the noun, as \"recreational\" can't in English word order.",
+            explanation: "\"Racismo recreativo\" is the established term in Brazilian debate; the adjective follows the noun, the reverse of English order (recreational racism).",
           },
           {
             type: "fill-blank",

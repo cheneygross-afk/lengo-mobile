@@ -407,7 +407,7 @@ export const PT_A2_U15_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "A week ago, I lost my house key.",
         answer: "Há uma semana, eu perdi a chave de casa.",
-        altAnswers: ["Há uma semana, perdi a chave de casa.", "Faz uma semana, eu perdi a chave de casa.", "Eu perdi a chave de casa há uma semana.", "Perdi a chave de casa há uma semana.", "Uma semana atrás, eu perdi a chave de casa."],
+        altAnswers: ["Há uma semana, perdi a chave de casa.", "Faz uma semana que eu perdi a chave de casa.", "Eu perdi a chave de casa há uma semana.", "Perdi a chave de casa há uma semana.", "Uma semana atrás, eu perdi a chave de casa."],
         explanation: "\"Há\" + time = ago; \"perdi\" is the event.",
       },
       {
@@ -461,7 +461,7 @@ export const PT_A2_U15_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "It was midnight when the phone rang.",
         answer: "Era meia-noite quando o telefone tocou.",
-        altAnswers: ["Era meia-noite quando o celular tocou.", "Era meia noite quando o telefone tocou."],
+        altAnswers: ["Era meia-noite quando o celular tocou."],
         explanation: "\"Era meia-noite\" is singular, unlike \"eram duas horas\". The ring is the event.",
       },
       {

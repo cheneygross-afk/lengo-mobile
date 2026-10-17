@@ -699,7 +699,7 @@ export const PT_C2_U07: Lesson[] = [
         type: "speak",
         text: "A Selic está em dez vírgula setenta e cinco por cento ao ano.",
         prompt: "Say it in Portuguese: The Selic is at 10.75% a year.",
-        tip: "Read the decimal comma as \"vírgula\", and stress the second syllable: VÍR-gu-la. The \"ão\" in \"ano\" has no nasal ending; \"ao\" is said like 'ow'.",
+        tip: "Read the decimal comma as \"vírgula\", stressed on the first syllable: VÍR-gu-la. In \"ao ano\", \"ao\" is said like 'ow', with no nasal sound.",
         explanation: "A rate is \"em\" a figure, read with \"vírgula\", and quoted \"ao ano\".",
       },
       {

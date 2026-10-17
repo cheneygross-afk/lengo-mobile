@@ -770,7 +770,7 @@ export const PT_B2_U06: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "It started raining at five.",
             answer: "Começou a chover às cinco.",
-            altAnswers: ["Começou a chover às cinco horas.", "Começou a chover as cinco."],
+            altAnswers: ["Começou a chover às cinco horas."],
             explanation: "\"Chover\" is a verb, so \"a chover\" has no crase. \"Às cinco\" does, because \"horas\" is feminine and takes the article.",
           },
           {

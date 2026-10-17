@@ -1057,7 +1057,7 @@ export const PT_B1_U03: Lesson[] = [
           {
             type: "speak",
             text: "Pode ser que chova amanhã.",
-            tip: "The ch in chova sounds like English sh, and its o is closed, like ô.",
+            tip: "The ch in chova sounds like English sh, and the stress falls on the first syllable: CHO-va.",
             explanation: "\"Pode ser que\" always takes the subjunctive: \"chova\", from \"chover\".",
           },
         ],
@@ -1783,6 +1783,7 @@ export const PT_B1_U03: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "It's important to sleep well.",
         answer: "É importante dormir bem.",
+        altAnswers: ["Dormir bem é importante."],
         explanation: "General advice for anyone takes the bare infinitive, with no \"que\". \"*É importante que dormir bem\" mixes two patterns.",
       },
       {

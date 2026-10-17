@@ -597,7 +597,7 @@ export const PT_A1_U01_EXTRA: Lesson[] = [
         heading: "Você or o senhor: a quick recap",
         body: [
           "\"Você\" is the everyday you for friends, classmates, colleagues and people your age. \"O senhor\" (to a man) and \"a senhora\" (to a woman) show respect to older people, customers and strangers in formal settings. For several people: \"vocês\", or \"os senhores\" / \"as senhoras\" to be polite.",
-          "All of them take the ele/ela form of the verb: \"você é\", \"o senhor é\", \"a senhora é\"; \"vocês são\", \"os senhores são\". Don't match the verb to English you: \"o senhor são\" and \"você sou\" are always wrong.",
+          "The singular ones take the ele/ela form of the verb (\"você é\", \"o senhor é\", \"a senhora é\"), and the plural ones take the eles/elas form (\"vocês são\", \"os senhores são\"). Don't match the verb to English you: \"o senhor são\" and \"você sou\" are always wrong.",
           "With a first name, \"seu\" (to a man) and \"Dona\" (to a woman) add the same respect: \"seu Antônio\", \"Dona Maria\".",
         ],
         examples: [
@@ -698,6 +698,7 @@ export const PT_A1_U01_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: Are you Brazilian too? (to an older woman)",
         words: ["A", "senhora", "também", "é", "brasileira?"],
         translation: "Are you Brazilian too? (to an older woman)",
+        altOrders: [["A", "senhora", "é", "brasileira", "também?"]],
         explanation: "\"Também\" usually goes before the verb: \"a senhora também é\". The nationality agrees with her: \"brasileira\".",
       },
       {

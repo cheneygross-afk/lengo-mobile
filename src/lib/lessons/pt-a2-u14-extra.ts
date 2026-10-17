@@ -91,7 +91,7 @@ export const PT_A2_U14_EXTRA: Lesson[] = [
         source: "She found out yesterday.",
         answer: "Ela soube ontem.",
         altAnswers: ["Ela ficou sabendo ontem."],
-        explanation: "\"Soube\" = found out.",
+        explanation: "In the perfeito, \"saber\" means found out: \"ela soube ontem\" is one moment. \"Ela sabia\" would mean she already knew.",
       },
       {
         type: "translate",
@@ -99,7 +99,7 @@ export const PT_A2_U14_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "It was hot and we were tired, so we went home.",
         answer: "Fazia calor e nós estávamos cansados, então fomos para casa.",
-        altAnswers: ["Estava calor e estávamos cansados, então fomos para casa.", "Fazia calor e a gente estava cansado, então foi pra casa.", "Fazia calor e estávamos cansados, então fomos pra casa."],
+        altAnswers: ["Estava calor e estávamos cansados, então fomos para casa.", "Fazia calor e a gente estava cansado, então a gente foi pra casa.", "Fazia calor e estávamos cansados, então fomos pra casa."],
         explanation: "Two backgrounds, then the decision as an event.",
       },
       {
@@ -138,6 +138,7 @@ export const PT_A2_U14_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: I was sleeping when the phone rang.",
         words: ["Eu", "estava", "dormindo", "quando", "o", "telefone", "tocou."],
+        altOrders: [["Quando", "o", "telefone", "tocou.", "Eu", "estava", "dormindo"]],
         translation: "I was sleeping when the phone rang.",
         explanation: "Background + interrupting event.",
       },
@@ -187,7 +188,7 @@ export const PT_A2_U14_EXTRA: Lesson[] = [
           { es: "O apartamento que eu aluguei fica perto do metrô.", en: "The flat I rented is near the metro." },
           { es: "Essa é a cidade onde eu nasci.", en: "This is the city where I was born." },
           { es: "Não entendi o que você disse.", en: "I didn't understand what you said." },
-          { es: "Ela me deu um presente pelo meu aniversário.", en: "She gave me a present for my birthday." },
+          { es: "Ela me deu um presente de aniversário.", en: "She gave me a birthday present." },
           { es: "A amiga com quem eu viajei mora em Natal.", en: "The friend I travelled with lives in Natal." },
         ],
         checkpoint: [
@@ -242,10 +243,10 @@ export const PT_A2_U14_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "This is for you, from me.",
-        answer: "Isso é para você, de mim.",
-        altAnswers: ["Isso é pra você, de mim."],
-        explanation: "\"Para você\", \"de mim\".",
+        source: "This coffee is for me, not for you.",
+        answer: "Esse café é para mim, não para você.",
+        altAnswers: ["Esse café é pra mim, não pra você.", "Este café é para mim, não para você.", "Esse café é para mim, não é para você."],
+        explanation: "After a preposition, me is \"mim\" (\"para mim\", never \"para eu\" here), while you stays \"você\".",
       },
       {
         type: "translate",
@@ -271,7 +272,7 @@ export const PT_A2_U14_EXTRA: Lesson[] = [
         source: "Can you come with me?",
         answer: "Você pode vir comigo?",
         altAnswers: ["Pode vir comigo?"],
-        explanation: "\"Comigo\".",
+        explanation: "\"Com\" + \"mim\" fuses into \"comigo\"; \"com mim\" doesn't exist. \"Pode vir\" = can come, with \"vir\" in the infinitive.",
       },
       {
         type: "fill-blank",

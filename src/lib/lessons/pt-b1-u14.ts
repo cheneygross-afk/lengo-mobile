@@ -1333,7 +1333,7 @@ export const PT_B1_U14: Lesson[] = [
           "A senhora tem razão, o trânsito de São Paulo é um pesadelo.",
           "Vocês têm razão, o trânsito de São Paulo é um pesadelo.",
         ],
-        explanation: "To be right is \"ter razão\", never \"ser\" or \"estar\" + an adjective. With \"vocês\" it becomes \"têm\", with the circumflex.",
+        explanation: "To be right is \"ter razão\", never \"ser razão\" (\"você está certo\" also works). With \"vocês\" it becomes \"têm\", with the circumflex.",
       },
       {
         type: "fill-blank",
@@ -2069,7 +2069,6 @@ export const PT_B1_U14: Lesson[] = [
             prompt: "Put the words in order to say: On top of that, the buses are late every day.",
             words: ["Além", "disso,", "os", "ônibus", "atrasam", "todos os dias."],
             translation: "On top of that, the buses are late every day.",
-            altOrders: [["Os", "ônibus", "atrasam", "todos os dias.", "Além", "disso,"]],
             explanation: "\"Além disso\" adds a new reason and usually opens the sentence, followed by a comma. \"Ônibus\" is the same in the singular and plural, so \"os ônibus\" shows the plural.",
           },
         ],
@@ -2493,5 +2492,5 @@ export const PT_B1_U14_WRITING: WriteExercise = {
     "End with a question that invites a reply, such as \"Você não acha que...?\"",
   ],
   modelAnswer: "Oi, Rafael! Li seu comentário sobre fechar a rua principal do bairro para carros aos domingos, mas discordo em parte. Na minha opinião, a ideia é ótima para as famílias: as crianças andam de bicicleta e todo mundo aproveita a cidade a pé. Além disso, as lojas e os cafés da região ganham mais clientes. Por outro lado, não concordo que a prefeitura feche a rua sem pensar no transporte. Acredito que é necessário ter mais ônibus e metrô nesses dias, porque muita gente trabalha no domingo. Você diz que o trânsito vai piorar nas ruas vizinhas. Até certo ponto, você tem razão, mas depende do planejamento. Você não acha que vale a pena testar a ideia por alguns meses antes de decidir?",
-  explanation: "Belief verbs take the indicative (\"acredito que é necessário\"), but a negated opinion takes the subjunctive (\"não concordo que a prefeitura feche\", not \"fecha\"). \"Concordar\" and \"discordar\" stand alone or take \"com\" plus a person (\"concordo com você\"). Hedges like \"até certo ponto\" and \"depende de\" soften a point, and closing with \"Você não acha que...?\" keeps the discussion open without sounding aggressive.",
+  explanation: "Belief verbs take the indicative (\"acredito que é necessário\"), but a negated opinion takes the subjunctive (\"não concordo que a prefeitura feche\", not \"fecha\"). \"Concordar\" takes \"com\" and \"discordar\" takes \"de\" before a person or idea (\"concordo com você\", \"discordo dessa ideia\"), and both can also stand alone. Hedges like \"até certo ponto\" and \"depende de\" soften a point, and closing with \"Você não acha que...?\" keeps the discussion open without sounding aggressive.",
 };

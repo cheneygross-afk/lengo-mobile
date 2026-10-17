@@ -85,7 +85,7 @@ export const PT_B2_U16: Lesson[] = [
             en: "If I [had] more money, I'd travel more.",
             sentence: "Se eu ___ mais dinheiro, viajaria mais.",
             answer: "tivesse",
-            explanation: "An imaginary condition takes the imperfect subjunctive with the conditional in the main clause: \"tivesse... viajaria\". \"Tinha\" is spoken only in casual speech, and \"tiver\" would make it a real plan.",
+            explanation: "An imaginary condition takes the imperfect subjunctive with the conditional in the main clause: \"tivesse... viajaria\". \"Tinha\" appears only in casual speech, and \"tiver\" would make it a real plan.",
           },
           {
             type: "multiple-choice",
@@ -364,7 +364,7 @@ export const PT_B2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Você devia ter me avisado.",
-            tip: "The d before i in \"devia\" sounds like the j in jeans: djeVIa.",
+            tip: "The unstressed e in \"devia\" often sounds like i, so the d sounds like the j in jeans: dji-VI-a.",
             explanation: "\"Devia ter\" + participle is the everyday reproach: you should have.",
           },
         ],
@@ -724,7 +724,7 @@ export const PT_B2_U16: Lesson[] = [
         type: "speak",
         text: "Precisamos analisá-lo antes de sexta-feira.",
         prompt: "Say it in Portuguese: We need to analyse it before Friday.",
-        tip: "Stress the lá in analisá-lo, and the t in sexta sounds like ch before the final a: SES-ta.",
+        tip: "Stress the lá in analisá-lo, and the x in \"sexta\" sounds like s (sh in Rio): SES-ta.",
         explanation: "\"Analisar\" + \"o\" = \"analisá-lo\": the -r drops and the accent marks the stressed a.",
       },
     ],
@@ -1702,7 +1702,7 @@ export const PT_B2_U16: Lesson[] = [
         type: "speak",
         text: "A proibição do celular em sala de aula é necessária, mas insuficiente.",
         prompt: "Say it in Portuguese: Banning phones in the classroom is necessary but insufficient.",
-        tip: "The two nasal vowels of \"proibição\" end in ão, with no n at the end. Stress \"ne-ces-SÁ-ria\".",
+        tip: "\"Proibição\" ends in a nasal ão, with no n at the end: proi-bi-SÃO. Stress \"ne-ces-SÁ-ria\".",
         explanation: "A thesis in one sentence. The adjectives agree with \"a proibição\": \"necessária\", and \"insuficiente\" has the same form for both genders.",
       },
       {
@@ -2142,7 +2142,7 @@ export const PT_B2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Trata-se, afinal, de uma questão de cidadania.",
-            tip: "Keep the hyphenated \"trata-se\" as one word, stressed on TRA. The \"d\" of \"cidadania\" sounds like the j in jeep before i.",
+            tip: "Keep the hyphenated \"trata-se\" as one word, stressed on TRA. Stress \"cidadania\" on NI: si-da-da-NI-a.",
             explanation: "\"Trata-se de\" is the impersonal opening of formal writing. The pronoun goes after the verb because nothing comes before it.",
           },
         ],

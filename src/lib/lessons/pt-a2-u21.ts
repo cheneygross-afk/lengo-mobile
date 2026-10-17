@@ -670,6 +670,7 @@ export const PT_A2_U21: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: I'm going to go to bed early today.",
         words: ["Hoje", "eu", "vou", "me", "deitar", "cedo."],
+        altOrders: [["eu", "vou", "me", "deitar", "cedo.", "Hoje"]],
         translation: "I'm going to go to bed early today.",
         explanation: "In the future the reflexive pronoun goes before the infinitive: \"vou me deitar\".",
       },
@@ -1043,7 +1044,7 @@ export const PT_A2_U21: Lesson[] = [
         heading: "With the landlord and the police",
         body: [
           "To report a problem, describe the state with the present or imperfeito and the event with the perfeito: \"o chuveiro não está funcionando\", \"a luz acabou ontem à noite\". Then ask for action politely: \"quando o senhor pode mandar alguém?\".",
-          "At the police station, you \"faz um boletim de ocorrência\" (file a police report). Tell what happened: \"eu estava saindo do metrô quando um homem pegou minha bolsa\". For an unknown thief, use they: \"roubaram meu celular\".",
+          "At the police station, the phrase is \"fazer um boletim de ocorrência\" (to file a police report): \"eu queria fazer um BO\". Tell what happened: \"eu estava saindo do metrô quando um homem pegou minha bolsa\". For an unknown thief, use they: \"roubaram meu celular\".",
         ],
         examples: [
           { es: "Seu Antônio, o chuveiro não está funcionando.", en: "Mr Antônio, the shower isn't working." },
@@ -1599,6 +1600,7 @@ export const PT_A2_U21: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: I'm going to pay by transfer on Friday.",
         words: ["Vou", "pagar", "por", "transferência", "na", "sexta-feira."],
+        altOrders: [["na", "sexta-feira.", "Vou", "pagar", "por", "transferência"]],
         translation: "I'm going to pay by transfer on Friday.",
         explanation: "\"Por\" for the means; \"na sexta-feira\" for the day.",
       },

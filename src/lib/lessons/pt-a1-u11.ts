@@ -625,7 +625,7 @@ export const PT_A1_U11: Lesson[] = [
         examples: [
           { es: "Boa tarde! Pegue o prato ali.", en: "Good afternoon! Take a plate over there." },
           { es: "É por quilo?", en: "Is it pay by weight?" },
-          { es: "O quilo é setenta e nove e noventa.", en: "It's seventy-nine ninety per kilo." },
+          { es: "O quilo é trinta e nove e noventa.", en: "It's thirty-nine ninety per kilo." },
           { es: "Quatrocentos e cinquenta gramas, dezoito reais.", en: "Four hundred and fifty grams, eighteen reais." },
           { es: "Aqui está a comanda.", en: "Here's your slip." },
         ],
@@ -2021,7 +2021,7 @@ export const PT_A1_U11: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Meu nome é Tom, T-O-M. O sobrenome é Clark.",
+        text: "Meu nome é Tom: tê, ó, eme. O sobrenome é Clark.",
         prompt: "Say it in Portuguese: My name is Tom, T-O-M. My surname is Clark.",
         tip: "Letters in Portuguese: T is tê, O is ó, M is eme.",
         explanation: "Spelling your name is the most common form-filling task.",
@@ -2225,9 +2225,9 @@ export const PT_A1_U11: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Perdi meu passaporte. Onde é a polícia?",
+        text: "Perdi meu passaporte. Onde é a delegacia?",
         prompt: "Say it in Portuguese: I've lost my passport. Where's the police station?",
-        tip: "Polícia: po-LÍ-cia, stress on the second syllable.",
+        tip: "Delegacia (police station): de-le-ga-SI-a, stress on the i.",
         explanation: "\"Perdi\" as a chunk, \"onde é\" for a place.",
       },
     ],
@@ -2399,7 +2399,7 @@ export const PT_A1_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence has no mistake?",
+        question: "The bill is R$ 320. Which sentence has no mistake?",
         options: ["São trezentos e vinte reais.", "São trezentos reais e vinte.", "São trezentas e vinte reais.", "São trezentos e vinte real."],
         correctIndex: 0,
         explanation: "R$ 320: the full number before \"reais\", masculine because \"real\" is masculine.",

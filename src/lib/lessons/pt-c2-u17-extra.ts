@@ -46,7 +46,7 @@ export const PT_C2_U17_EXTRA: Lesson[] = [
           {
             type: "speak",
             text: "Essa sala é um forno!",
-            tip: "Open the o of \"forno\" slightly: FOR-nu.",
+            tip: "The o of \"forno\" is closed in the singular, FÔR-nu; it opens only in the plural, \"fornos\".",
             explanation: "Metaphor and hyperbole in one: the room is not literally an oven.",
           },
         ],

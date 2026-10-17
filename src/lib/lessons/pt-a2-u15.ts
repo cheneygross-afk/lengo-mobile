@@ -984,7 +984,7 @@ export const PT_A2_U15: Lesson[] = [
         heading: "Interrupted actions and plans that failed",
         body: [
           "\"Estava\" + gerúndio is the action in progress; \"quando\" + perfeito cuts in: \"eu estava cozinhando quando a luz acabou\". Don't swap them: *eu cozinhei quando a luz estava acabando says something else entirely.",
-          "\"Ia\" + infinitive is the plan that didn't happen, usually followed by \"mas\": \"eu ia te ligar, mas esqueci\" is the one everyone says. Compare \"fui\" (went) and \"ia\" (was going to).",
+          "\"Ia\" + infinitive is the plan that didn't happen, usually followed by \"mas\": \"eu ia ligar, mas esqueci\" is the one everyone says. Compare \"fui\" (went) and \"ia\" (was going to).",
         ],
         examples: [
           { es: "Eu estava cozinhando quando a luz acabou.", en: "I was cooking when the power went out." },
@@ -1929,6 +1929,7 @@ export const PT_A2_U15: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: When I was a child, I went to the beach a lot.",
         words: ["Quando", "eu", "era", "criança,", "ia", "muito", "à praia."],
+        altOrders: [["ia", "muito", "à praia.", "Quando", "eu", "era", "criança,"]],
         translation: "When I was a child, I went to the beach a lot.",
         explanation: "\"Era criança\" is a stage of life; \"ia muito\" is a habit. Both imperfeito.",
       },

@@ -975,7 +975,7 @@ export const PT_A1_U06: Lesson[] = [
           { es: "O filme começa às oito.", en: "The film starts at eight." },
           { es: "A padaria abre às seis e meia.", en: "The bakery opens at half past six." },
           { es: "A reunião é ao meio-dia.", en: "The meeting is at noon." },
-          { es: "O ônibus para Curitiba parte às 22h15.", en: "The bus to Curitiba leaves at 22:15." },
+          { es: "O ônibus para Curitiba parte às vinte e duas e quinze.", en: "The bus to Curitiba leaves at 22:15." },
         ],
         checkpoint: [
           {

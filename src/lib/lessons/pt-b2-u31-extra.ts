@@ -620,7 +620,7 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
         type: "speak",
         text: "Não acho que as multas sejam suficientes; é preciso investir em educação.",
         prompt: "Say it in Portuguese: I don't think fines are enough; we need to invest in education.",
-        tip: "Sejam ends in a nasal ão: SE-jão. Educação: e-du-ka-SÃO.",
+        tip: "Sejam has a closed ê and a nasal ão ending: SÊ-jãw. Educação: e-du-ka-SÃO.",
         explanation: "Opinion with \"não acho que\" + subjunctive, then a proposal with the impersonal \"é preciso\".",
       },
       {

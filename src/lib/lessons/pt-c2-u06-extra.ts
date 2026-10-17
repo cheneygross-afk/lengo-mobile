@@ -35,8 +35,8 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
             prompt: "Translate into Portuguese, as a rhetorical question.",
             source: "How long will we wait?",
             answer: "Até quando vamos esperar?",
-            altAnswers: ["Até quando esperaremos?", "Até quando nós vamos esperar?"],
-            explanation: "\"Até quando\" for rhetorical force.",
+            altAnswers: ["Até quando esperaremos?", "Até quando nós vamos esperar?", "Até quando a gente vai esperar?"],
+            explanation: "\"Até quando\" (literally until when) gives the question its indignant, rhetorical force; \"vamos esperar\" is the natural spoken future.",
           },
           {
             type: "fill-blank",
@@ -45,7 +45,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
             sentence: "___ que é impossível.",
             answer: "Alguns dirão",
             altAnswers: ["Muitos dirão", "Haverá quem diga"],
-            explanation: "Prolepse anticipates the objection.",
+            explanation: "Prolepse states the objection before anyone else can: \"Alguns dirão que\" uses the formal future. \"Haverá quem diga\" takes the subjunctive because those people are hypothetical.",
           },
           {
             type: "listen-choose",
@@ -53,7 +53,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
             question: "Which part of the speech is this?",
             options: ["The peroração (closing appeal).", "The exórdio (opening).", "The narração (facts).", "A question from the audience."],
             correctIndex: 0,
-            explanation: "A final call to action.",
+            explanation: "\"Por isso, peço a cada um de vocês\" turns to the audience with a request, and the negative imperative \"não desistam\" is the call to action of the closing.",
           },
         ],
       },
@@ -66,7 +66,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
         source: "Dear colleagues, it is an honour to be here.",
         answer: "Caros colegas, é uma honra estar aqui.",
         altAnswers: ["Prezados colegas, é uma honra estar aqui.", "Caros colegas, é uma honra estar aqui hoje."],
-        explanation: "Exórdio.",
+        explanation: "The exórdio greets and honours the occasion. \"Caros\" or \"prezados colegas\" is the formal vocative, and \"é uma honra estar aqui\" needs no \"de\" before the infinitive.",
       },
       {
         type: "translate",
@@ -74,7 +74,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese, using anaphora.",
         source: "We need courage, we need unity, we need hope.",
         answer: "Precisamos de coragem, precisamos de união, precisamos de esperança.",
-        explanation: "Repeated opening, three items.",
+        explanation: "Anaphora plus a triad: \"precisamos de\" repeated three times, with no \"nós\". \"Precisar\" takes \"de\" before each noun.",
       },
       {
         type: "translate",
@@ -83,7 +83,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
         source: "Some will say it's too expensive. But expensive is doing nothing.",
         answer: "Alguns dirão que é caro demais. Mas caro é não fazer nada.",
         altAnswers: ["Alguns dirão que é muito caro. Mas caro é não fazer nada.", "Muitos dirão que é caro demais. Mas caro é não fazer nada."],
-        explanation: "Answer the objection first.",
+        explanation: "State the objection with \"alguns dirão que\", then turn it round: fronting \"caro\" in \"caro é não fazer nada\" makes the rebuttal land.",
       },
       {
         type: "translate",
@@ -92,7 +92,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
         source: "Who among us has never made a mistake?",
         answer: "Quem de nós nunca errou?",
         altAnswers: ["Quem entre nós nunca cometeu um erro?", "Quem de nós nunca cometeu um erro?"],
-        explanation: "A question that needs no answer.",
+        explanation: "A rhetorical question that pulls the speaker into the audience: \"Quem de nós nunca...?\". The English present perfect with never is the simple perfeito \"errou\".",
       },
       {
         type: "translate",
@@ -101,7 +101,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
         source: "That's why I invite you all to join us.",
         answer: "Por isso, convido todos vocês a se juntarem a nós.",
         altAnswers: ["Por isso, convido todos a se juntarem a nós.", "Por isso, convido vocês a se unirem a nós."],
-        explanation: "Peroração with the personal infinitive.",
+        explanation: "\"Convidar alguém a\" + infinitive; the personal infinitive \"se juntarem\" agrees with \"vocês\". \"Por isso\" signals the closing appeal.",
       },
       {
         type: "translate",
@@ -110,7 +110,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
         source: "This plan is simple, cheap and effective.",
         answer: "Este plano é simples, barato e eficaz.",
         altAnswers: ["Esse plano é simples, barato e eficaz.", "Este plano é simples, barato e eficiente."],
-        explanation: "Three adjectives for rhythm.",
+        explanation: "Three adjectives build a rhythmic triad, linked by \"e\" before the last. \"Eficaz\" means effective; \"eficiente\" is also accepted.",
       },
       {
         type: "fill-blank",
@@ -118,7 +118,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
         en: "[Ladies and gentlemen], good evening.",
         sentence: "___, boa noite.",
         answer: "Senhoras e senhores",
-        explanation: "Formal opening.",
+        explanation: "\"Senhoras e senhores\" is the formal opening vocative; the greeting \"boa noite\" follows it.",
       },
       {
         type: "fill-blank",
@@ -126,33 +126,33 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
         en: "[How long] will we accept this?",
         sentence: "___ vamos aceitar isso?",
         answer: "Até quando",
-        explanation: "Rhetorical question.",
+        explanation: "\"Até quando\" opens an indignant rhetorical question: how much longer.",
       },
       {
         type: "multiple-choice",
         question: "Which sentence uses prolepse?",
         options: ["Alguns dirão que não é o momento. Eu digo que o momento é agora.", "Senhoras e senhores, boa noite.", "Queremos paz, queremos justiça.", "Obrigado a todos."],
         correctIndex: 0,
-        explanation: "It anticipates and answers an objection.",
+        explanation: "Prolepse anticipates an objection (\"Alguns dirão que...\") and answers it at once (\"Eu digo que...\"). The other options are an opening, an anaphora and a thank-you.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: Who among us has never doubted?",
         words: ["Quem", "de", "nós", "nunca", "duvidou?"],
         translation: "Who among us has never doubted?",
-        explanation: "Rhetorical question.",
+        explanation: "\"Quem de nós nunca...?\" is a rhetorical question that includes the speaker; \"duvidou\" is the perfeito.",
       },
       {
         type: "dictation",
         audio: "Queremos escolas, queremos hospitais, queremos respeito.",
-        explanation: "Anaphora.",
+        explanation: "Anaphora: the verb \"queremos\" opens each item, with no \"nós\", and the most abstract item, \"respeito\", comes last.",
       },
       {
         type: "speak",
         text: "Alguns dirão que é impossível. Eu digo que é necessário.",
         prompt: "Say it with conviction: Some will say it's impossible. I say it's necessary.",
         tip: "Pause after the first sentence.",
-        explanation: "Prolepse and antithesis.",
+        explanation: "Prolepse and antithesis together: \"Alguns dirão\" sets up the objection, and \"Eu digo\" answers it, with \"impossível\" against \"necessário\".",
       },
       {
         type: "matching",
@@ -164,7 +164,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
           { left: "anáfora", right: "repeated opening words" },
           { left: "prolepse", right: "answering an objection in advance" },
         ],
-        explanation: "Rhetoric.",
+        explanation: "The three parts of a speech (exórdio, narração, peroração) and two devices: anáfora repeats the opening words, prolepse answers an objection in advance.",
       },
     ],
   },
@@ -181,7 +181,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
       {
         heading: "Debate and questions",
         body: [
-          "Formal debate: \"peço a palavra\" (I ask for the floor), \"com a palavra, o deputado X\" (the floor goes to), \"tem a palavra\", \"direito de resposta\" / \"réplica\" (reply), \"tréplica\" (rejoinder), \"questão de ordem\" (point of order), \"pela ordem\", \"o tempo de Vossa Excelência se esgotou\".",
+          "Formal debate: \"peço a palavra\" (I ask for the floor), \"com a palavra, o deputado X\" (the floor goes to), \"tem a palavra\", \"réplica\" (reply), \"tréplica\" (rejoinder), \"direito de resposta\" (right of reply after a personal attack), \"questão de ordem\" (point of order), \"pela ordem\", \"o tempo de Vossa Excelência se esgotou\".",
           "Handling questions: \"Obrigado pela pergunta\", \"É uma excelente questão\", \"Se entendi bem, a sua pergunta é...\", \"Permita-me discordar\", \"Com todo o respeito, os dados mostram o contrário\", \"Vou responder em duas partes\".",
         ],
         examples: [
@@ -200,7 +200,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
             source: "The floor goes to the minister.",
             answer: "Com a palavra, o ministro.",
             altAnswers: ["Com a palavra, a ministra.", "Tem a palavra o ministro."],
-            explanation: "Chairing formula.",
+            explanation: "The chair announces the next speaker with the verbless formula \"Com a palavra, o ministro\" or \"Tem a palavra o ministro\", subject after the verb.",
           },
           {
             type: "fill-blank",
@@ -209,7 +209,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
             sentence: "___, discordo.",
             answer: "Com todo o respeito",
             altAnswers: ["Com todo respeito"],
-            explanation: "Polite disagreement.",
+            explanation: "\"Com todo o respeito\" (or \"com todo respeito\") is the fixed cushion before a disagreement; \"discordo\" comes straight after.",
           },
           {
             type: "listen-choose",
@@ -217,7 +217,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
             question: "What is the speaker asking for?",
             options: ["The right to reply.", "A break.", "The end of the debate.", "A vote."],
             correctIndex: 0,
-            explanation: "\"Direito de resposta\" = right of reply.",
+            explanation: "\"Direito de resposta\" is the right of reply granted after a personal attack, requested with \"peço\".",
           },
         ],
       },
@@ -230,7 +230,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
         source: "Madam President, I ask for the floor.",
         answer: "Senhora presidente, peço a palavra.",
         altAnswers: ["Senhora presidenta, peço a palavra."],
-        explanation: "\"Pedir a palavra\".",
+        explanation: "The fixed formula is \"pedir a palavra\", addressed to the chair. \"Presidenta\" is also used for women in Brazil.",
       },
       {
         type: "translate",
@@ -239,7 +239,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
         source: "Thank you for the question; it's an excellent point.",
         answer: "Obrigado pela pergunta; é um ponto excelente.",
         altAnswers: ["Obrigada pela pergunta; é um ponto excelente.", "Obrigado pela pergunta; é uma excelente questão."],
-        explanation: "Acknowledging the question.",
+        explanation: "Thank first (\"obrigado\" or \"obrigada\", agreeing with the speaker, + \"pela pergunta\"), then acknowledge the point before answering.",
       },
       {
         type: "translate",
@@ -248,7 +248,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
         source: "If I understood correctly, you are asking about the deadline.",
         answer: "Se entendi bem, você está perguntando sobre o prazo.",
         altAnswers: ["Se entendi bem, a sua pergunta é sobre o prazo.", "Se entendi bem, o senhor está perguntando sobre o prazo.", "Se entendi bem, a senhora está perguntando sobre o prazo."],
-        explanation: "Reformulating the question.",
+        explanation: "\"Se entendi bem\" reformulates the question before you answer. Use \"o senhor\" or \"a senhora\" in a formal setting; \"você\" in a relaxed one.",
       },
       {
         type: "translate",
@@ -257,7 +257,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
         source: "Allow me to disagree.",
         answer: "Permita-me discordar.",
         altAnswers: ["Me permita discordar.", "Peço licença para discordar."],
-        explanation: "Formal, with ênclise.",
+        explanation: "\"Permita-me discordar\" is the formal fixed phrase, with the pronoun after the verb (ênclise). \"Me permita discordar\" is the everyday Brazilian order.",
       },
       {
         type: "translate",
@@ -266,7 +266,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
         source: "Your Excellency's time has run out.",
         answer: "O tempo de Vossa Excelência se esgotou.",
         altAnswers: ["O tempo de Vossa Excelência esgotou-se.", "O tempo de Vossa Excelência acabou."],
-        explanation: "Chairing a parliamentary debate.",
+        explanation: "\"Vossa Excelência\" takes a third-person verb: \"o tempo de Vossa Excelência se esgotou\". \"Esgotar-se\" means to run out.",
       },
       {
         type: "translate",
@@ -275,7 +275,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
         source: "I'll answer in two parts.",
         answer: "Vou responder em duas partes.",
         altAnswers: ["Responderei em duas partes."],
-        explanation: "Structuring the answer.",
+        explanation: "Announcing the structure of your answer (\"em duas partes\") helps the listener follow; \"vou responder\" is the spoken future.",
       },
       {
         type: "fill-blank",
@@ -284,7 +284,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
         sentence: "___, senhor presidente!",
         answer: "Questão de ordem",
         altAnswers: ["Pela ordem"],
-        explanation: "Interrupting on procedure.",
+        explanation: "\"Questão de ordem\" raises a procedural objection. \"Pela ordem\" is the shorter call for the floor out of turn.",
       },
       {
         type: "fill-blank",
@@ -292,33 +292,33 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
         en: "After the reply comes the [rejoinder].",
         sentence: "Depois da réplica vem a ___.",
         answer: "tréplica",
-        explanation: "Reply, then rejoinder.",
+        explanation: "In a Brazilian debate the \"réplica\" (rebuttal) is followed by the \"tréplica\", the final counter-reply from the one who answered.",
       },
       {
         type: "multiple-choice",
         question: "An audience member asks a hostile question. Which response is most effective?",
         options: ["Obrigado pela pergunta. Com todo o respeito, os números mostram outra realidade.", "Que pergunta boba.", "Não vou responder isso.", "Você não entendeu nada."],
         correctIndex: 0,
-        explanation: "Acknowledge, then counter with evidence.",
+        explanation: "Thank, then disagree with evidence: \"com todo o respeito\" cushions it, and \"os números mostram\" moves the argument to facts. The others attack the person or refuse.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: The floor goes to the senator.",
         words: ["Com", "a", "palavra,", "o", "senador."],
         translation: "The floor goes to the senator.",
-        explanation: "Chairing formula.",
+        explanation: "\"Com a palavra, o senador\": the chair's verbless formula giving the floor.",
       },
       {
         type: "dictation",
         audio: "Com todo o respeito, os dados mostram o contrário.",
-        explanation: "Polite counter-argument.",
+        explanation: "\"Com todo o respeito\" cushions the disagreement; \"os dados\" is plural, so \"mostram\".",
       },
       {
         type: "speak",
         text: "Senhor presidente, peço a palavra.",
         prompt: "Say it in formal Portuguese: Mr President, I ask for the floor.",
         tip: "Palavra: pa-LA-vra.",
-        explanation: "Requesting the floor.",
+        explanation: "\"Pedir a palavra\" asks the chair for the floor; \"Senhor presidente\" opens every remark in formal debate.",
       },
       {
         type: "matching",
@@ -330,7 +330,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
           { left: "a tréplica", right: "the rejoinder" },
           { left: "questão de ordem", right: "point of order" },
         ],
-        explanation: "Debate language.",
+        explanation: "The core debate formulas: asking for the floor, giving it, the two rebuttal turns and the procedural objection.",
       },
     ],
   },
@@ -656,7 +656,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
         type: "speak",
         text: "Questão de ordem, Senhor Presidente: a votação não pode ocorrer sem quórum.",
         prompt: "Raise a point of order aloud: the vote can't take place without a quorum.",
-        tip: "Stress the procedural words: QUES-tão de OR-dem, QUÓ-rum.",
+        tip: "Stress the procedural words: ques-TÃO de OR-dem, QUÓ-rum.",
         explanation: "A point of order is about procedure, not the merits of the bill.",
       },
       {
@@ -685,7 +685,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese, to a woman senator.",
         source: "Thank you for the question, Senator.",
         answer: "Agradeço a pergunta, senadora.",
-        altAnswers: ["Obrigado pela pergunta, senadora.", "Obrigada pela pergunta, senadora.", "Agradeço pela pergunta, senadora."],
+        altAnswers: ["Obrigado pela pergunta, senadora.", "Obrigada pela pergunta, senadora.", "Agradeço pela pergunta, senadora.", "Agradeço a pergunta, senador.", "Obrigado pela pergunta, senador.", "Obrigada pela pergunta, senador."],
         explanation: "\"Agradecer\" takes the thing as a direct object: \"agradeço a pergunta\", no crase.",
       },
       {
@@ -703,7 +703,7 @@ export const PT_C2_U06_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese, to an older woman in the audience.",
         source: "You're partly right, but the cost can't be ignored.",
         answer: "A senhora tem razão em parte, mas o custo não pode ser ignorado.",
-        altAnswers: ["A senhora tem razão em parte, mas não se pode ignorar o custo.", "A senhora tem certa razão, mas o custo não pode ser ignorado.", "A senhora tem razão em parte, mas não dá para ignorar o custo."],
+        altAnswers: ["A senhora tem razão em parte, mas não se pode ignorar o custo.", "A senhora tem certa razão, mas o custo não pode ser ignorado.", "A senhora tem razão em parte, mas não dá para ignorar o custo.", "O senhor tem razão em parte, mas o custo não pode ser ignorado.", "Você tem razão em parte, mas o custo não pode ser ignorado."],
         explanation: "Concede, then pivot with \"mas\".",
       },
       {

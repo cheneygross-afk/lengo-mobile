@@ -2367,7 +2367,7 @@ export const PT_B2_U08: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "We regret that the event has been cancelled. (formal notice)",
         answer: "Lamentamos que o evento tenha sido cancelado.",
-        altAnswers: ["Nós lamentamos que o evento tenha sido cancelado.", "Lamentamos que o evento tenha sido adiado e cancelado."],
+        altAnswers: ["Nós lamentamos que o evento tenha sido cancelado."],
         explanation: "An emotion verb takes the subjunctive, and the cancellation is already done, so it takes the perfect subjunctive: \"tenha sido cancelado\". \"Lamentar\" is the formal choice over \"sentir muito\".",
       },
       {

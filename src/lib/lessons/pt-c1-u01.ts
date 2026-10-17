@@ -527,6 +527,7 @@ export const PT_C1_U01: Lesson[] = [
             en: "[Whatever] the reasons, we need an answer.",
             sentence: "___ as razões, precisamos de uma resposta.",
             answer: "Sejam quais forem",
+            altAnswers: ["Quaisquer que sejam"],
             explanation: "\"As razões\" is plural, so both verbs agree: \"sejam quais forem\". \"Seja qual for as razões\" is a common slip in formal writing.",
           },
           {
@@ -685,7 +686,7 @@ export const PT_C1_U01: Lesson[] = [
         type: "speak",
         text: "Haja o que houver, nós vamos estar juntos.",
         prompt: "Say it in Portuguese: Come what may, we'll be together.",
-        tip: "The h in haja and houver is silent, and the ou in houver sounds like a closed ô: o-VÊR.",
+        tip: "The h in haja and houver is silent, and the ou in houver sounds like a closed ô, and the stressed e is open: o-VÉR.",
         explanation: "\"Haja o que houver\" keeps the old future subjunctive of \"haver\" frozen inside the phrase.",
       },
       {
@@ -2363,6 +2364,7 @@ export const PT_C1_U01: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "As far as I know, he's in Curitiba.",
             answer: "Que eu saiba, ele está em Curitiba.",
+            altAnswers: ["Ele está em Curitiba, que eu saiba.", "Pelo que eu sei, ele está em Curitiba.", "Pelo que sei, ele está em Curitiba.", "Até onde eu sei, ele está em Curitiba."],
             explanation: "\"Que eu saiba\" is frozen in the subjunctive. \"Que eu sei\" is a common learner slip.",
           },
           {

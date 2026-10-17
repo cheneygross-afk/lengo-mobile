@@ -1990,7 +1990,7 @@ export const PT_C1_U08: Lesson[] = [
             source: "Even Dona Maria came to the party.",
             answer: "Até a Dona Maria veio à festa.",
             altAnswers: ["Até Dona Maria veio à festa.", "Até a Dona Maria foi à festa.", "Até Dona Maria foi à festa.", "Até a Dona Maria apareceu na festa.", "Até Dona Maria apareceu na festa."],
-            explanation: "\"Até\" right before the subject means even. Placed elsewhere it would focus something else: \"Ela veio até à festa\" would stress the party.",
+            explanation: "\"Até\" right before the subject means even. Placed before the verb it would focus the action instead: \"A Dona Maria até veio à festa\" means she even came, on top of everything else.",
           },
           {
             type: "translate",

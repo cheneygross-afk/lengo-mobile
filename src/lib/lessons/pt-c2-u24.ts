@@ -742,7 +742,7 @@ export const PT_C2_U24: Lesson[] = [
       {
         heading: "Crisis statements: agency and responsibility",
         body: [
-          "Agency is a choice. \"Erramos\" takes responsibility; \"foram cometidos erros\" hides who erred; \"houve uma falha\" turns the error into an event. A credible \"nota oficial\" names the fact, takes responsibility where it belongs, says what is being done and what comes next: \"Lamentamos profundamente\", \"assumimos a responsabilidade\", \"estamos apurando as causas\", \"pedimos desculpas pelo transtorno\".",
+          "Agency is a choice. \"Erramos\" takes responsibility; \"foram cometidos erros\" hides who erred; \"houve uma falha\" turns the error into an event. A credible \"nota oficial\" names the fact, takes responsibility where it belongs, says what is being done and what comes next: \"Lamentamos profundamente\", \"assumimos a responsabilidade\", \"estamos apurando as causas\", \"pedimos desculpas aos afetados\".",
           "What never to say: \"lamentamos se alguém se sentiu ofendido\" (an apology that blames the offended), \"o caso é isolado\" before you know, and speculation about causes. In a press conference, \"ainda não temos essa informação, mas vamos divulgá-la assim que tivermos\" beats an improvised answer.",
         ],
         examples: [
@@ -1528,7 +1528,7 @@ export const PT_C2_U24: Lesson[] = [
         prompt: "Write it for the mayor's speech.",
         source: "I want to thank the firefighters, the doctors and the neighbours who helped.",
         answer: "Quero agradecer aos bombeiros, aos médicos e aos vizinhos que ajudaram.",
-        altAnswers: ["Quero agradecer aos bombeiros, aos médicos e aos vizinhos que ajudaram.", "Eu quero agradecer aos bombeiros, aos médicos e aos vizinhos que ajudaram.", "Quero agradecer os bombeiros, os médicos e os vizinhos que ajudaram.", "Agradeço aos bombeiros, aos médicos e aos vizinhos que ajudaram."],
+        altAnswers: ["Eu quero agradecer aos bombeiros, aos médicos e aos vizinhos que ajudaram.", "Quero agradecer os bombeiros, os médicos e os vizinhos que ajudaram.", "Agradeço aos bombeiros, aos médicos e aos vizinhos que ajudaram."],
         explanation: "\"Agradecer a alguém\" in the norm; \"agradecer alguém\" is common in speech. A triad of thanks opens the speech.",
       },
       {

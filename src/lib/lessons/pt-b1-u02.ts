@@ -367,7 +367,7 @@ export const PT_B1_U02: Lesson[] = [
           {
             type: "speak",
             text: "Tomara que a gente possa viajar em julho.",
-            tip: "Keep the double s in possa hard, like English s, never like a z. Make the ss in possa sound like the s in sun.",
+            tip: "Make the ss in possa sound like the s in sun, never like a z.",
             explanation: "\"A gente\" takes the ele form, so \"a gente possa\".",
           },
         ],
@@ -1132,7 +1132,7 @@ export const PT_B1_U02: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "I'd rather we go by car.",
         answer: "Prefiro que a gente vá de carro.",
-        altAnswers: ["Prefiro que nós vamos de carro."],
+        altAnswers: ["Prefiro que nós vamos de carro.", "Eu prefiro que a gente vá de carro.", "Eu prefiro que nós vamos de carro."],
         explanation: "\"Prefiro que\" triggers the subjunctive: \"a gente vá\", or \"nós vamos\", which looks like the indicative.",
       },
       {
@@ -1782,6 +1782,7 @@ export const PT_B1_U02: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "May you be very happy! (to a friend)",
             answer: "Que você seja muito feliz!",
+            altAnswers: ["Espero que você seja muito feliz!", "Tomara que você seja muito feliz!"],
             explanation: "A wish starting with \"que\" always takes the subjunctive, and happiness in life is lasting, so the verb is \"seja\". *\"Que você está feliz\" is the slip to avoid.",
           },
           {

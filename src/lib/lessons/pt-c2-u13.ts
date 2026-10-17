@@ -400,7 +400,6 @@ export const PT_C2_U13: Lesson[] = [
         prompt: "Put the words in order to say: The spelling helps to date the document.",
         words: ["A", "grafia", "ajuda", "a", "datar", "o", "documento."],
         translation: "The spelling helps to date the document.",
-        altOrders: [["A", "grafia", "ajuda", "o", "a", "datar", "documento."]],
         explanation: "\"Ajudar a\" + infinitive: to help to do something. \"Datar\" = to date, as archivists do.",
       },
       {
@@ -436,10 +435,10 @@ export const PT_C2_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in current spelling: \"O vôo para a Bahia foi freqüente naquele anno.\"",
-        source: "The flight to Bahia was frequent that year.",
-        answer: "O voo para a Bahia foi frequente naquele ano.",
-        explanation: "\"Vôo\" loses its circumflex and \"freqüente\" its trema (Acordo), and \"anno\" its double n (1943). \"Bahia\" keeps its traditional h.",
+        prompt: "Rewrite in current spelling: \"Os vôos para a Bahia eram freqüentes naquele ano.\"",
+        source: "Flights to Bahia were frequent that year.",
+        answer: "Os voos para a Bahia eram frequentes naquele ano.",
+        explanation: "The Acordo removed the circumflex of \"vôos\" and the trema of \"freqüentes\", so this spelling dates the text to between 1943 and 2009. \"Bahia\" keeps its traditional h.",
       },
       {
         type: "speak",
@@ -1787,6 +1786,7 @@ export const PT_C2_U13: Lesson[] = [
             prompt: "Update the spelling only: \"Hontem realizou-se no theatro a festa dos orphãos.\"",
             source: "Yesterday the orphans' party was held at the theatre.",
             answer: "Ontem realizou-se no teatro a festa dos órfãos.",
+            altAnswers: ["Ontem, realizou-se no teatro a festa dos órfãos."],
             explanation: "An updated version changes letters and accents and leaves the syntax alone, enclisis included: \"realizou-se\" stays.",
           },
           {
@@ -1999,6 +1999,7 @@ export const PT_C2_U13: Lesson[] = [
             en: "[I hope] this finds you in good health.",
             sentence: "___ que esta te vá encontrar com saúde.",
             answer: "Estimo",
+            altAnswers: ["Espero"],
             explanation: "\"Estimar que\" + subjunctive (\"vá\") is the old letter-writer's I hope that. Today: \"Espero que você esteja bem\".",
           },
           {

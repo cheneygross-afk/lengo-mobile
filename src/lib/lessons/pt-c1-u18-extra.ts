@@ -459,7 +459,7 @@ export const PT_C1_U18_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "My grandfather is very thin since the illness. (concerned)",
+        source: "My grandfather has been very thin since his illness. (concerned)",
         answer: "Meu avô está muito magro desde a doença.",
         altAnswers: ["O meu avô está muito magro desde a doença.", "Meu avô está muito magro depois da doença.", "O meu avô está muito magro depois da doença.", "Meu avô emagreceu muito desde a doença."],
         explanation: "\"Magro\" is neutral and fits concern; \"esbelto\" would be a compliment.",

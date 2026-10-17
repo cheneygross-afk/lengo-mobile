@@ -450,7 +450,7 @@ export const PT_A2_U04_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "She [used to play] the piano.",
+        en: "She [used to] play the piano.",
         sentence: "Ela ___ tocar piano.",
         answer: "costumava",
         explanation: "\"Costumava\" + infinitive is another way to say used to.",
@@ -466,6 +466,7 @@ export const PT_A2_U04_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: In the old days we walked to school.",
         words: ["Antigamente", "a", "gente", "ia", "a", "pé", "para", "a", "escola."],
+        altOrders: [["Antigamente", "a", "gente", "ia", "para", "a", "escola", "a", "pé."], ["A", "gente", "ia", "a", "pé", "para", "a", "escola", "antigamente."]],
         translation: "In the old days we walked to school.",
         explanation: "\"Ir a pé\" is to walk (somewhere).",
       },

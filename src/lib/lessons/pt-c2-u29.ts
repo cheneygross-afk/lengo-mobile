@@ -239,7 +239,7 @@ export const PT_C2_U29: Lesson[] = [
         type: "speak",
         text: "O novo anti-inflamatório ainda está na fase de pré-testes.",
         prompt: "Say it in Portuguese: The new anti-inflammatory is still in pre-testing.",
-        tip: "In \"anti-inflamatória\" say both i's: the hyphen marks two separate vowels, not one long one.",
+        tip: "In \"anti-inflamatório\" say both i's: the hyphen marks two separate vowels, not one long one.",
         explanation: "\"Anti-inflamatório\" (same vowel) and \"pré-testes\" (stressed pré-) both take a hyphen.",
       },
       {
@@ -1890,7 +1890,7 @@ export const PT_C2_U29: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "The dark green shirts sold out.",
         answer: "As camisas verde-escuras esgotaram.",
-        altAnswers: ["As camisas verde-escuras se esgotaram.", "As camisas verde-escuras acabaram.", "As camisas verde-escuro esgotaram."],
+        altAnswers: ["As camisas verde-escuras se esgotaram.", "As camisas verde-escuras acabaram."],
         explanation: "Adjective + adjective: only the last agrees, \"verde-escuras\". With a noun (\"verde-musgo\") it would stay invariable.",
       },
       {

@@ -44,6 +44,7 @@ export const PT_A2_U07_EXTRA: Lesson[] = [
             en: "She's [as tall as] her brother.",
             sentence: "Ela é ___ o irmão.",
             answer: "tão alta quanto",
+            altAnswers: ["tão alta como"],
             explanation: "\"Tão\" + adjective + \"quanto\"; \"alta\" agrees with her.",
           },
           {
@@ -91,6 +92,7 @@ export const PT_A2_U07_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "She works as much as I do.",
         answer: "Ela trabalha tanto quanto eu.",
+        altAnswers: ["Ela trabalha tanto como eu."],
         explanation: "With a verb, \"tanto quanto\" doesn't change.",
       },
       {
@@ -117,6 +119,7 @@ export const PT_A2_U07_EXTRA: Lesson[] = [
         en: "We drank [as much water as] them.",
         sentence: "Nós bebemos ___ eles.",
         answer: "tanta água quanto",
+        altAnswers: ["tanta água como"],
         explanation: "\"Água\" is feminine: \"tanta água\".",
       },
       {
@@ -236,6 +239,7 @@ export const PT_A2_U07_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "He's the best player on the team.",
         answer: "Ele é o melhor jogador do time.",
+        altAnswers: ["É o melhor jogador do time.", "Ele é o melhor jogador da equipe."],
         explanation: "\"O melhor\" + \"do time\".",
       },
       {
@@ -253,6 +257,7 @@ export const PT_A2_U07_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "It's the cheapest hotel in the city.",
         answer: "É o hotel mais barato da cidade.",
+        altAnswers: ["Esse é o hotel mais barato da cidade."],
         explanation: "The superlative: \"o hotel mais barato\" + \"da cidade\".",
       },
       {

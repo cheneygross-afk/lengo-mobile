@@ -112,7 +112,7 @@ export const PT_A2_U19: Lesson[] = [
           {
             type: "speak",
             text: "Meu marido é carioca e eu sou paulista.",
-            tip: "In carioca the first a is open and the final a is soft: ca-ri-Ó-ca.",
+            tip: "Carioca is stressed on the open Ó: ca-ri-Ó-ca, and the final a is soft.",
             explanation: "\"Carioca\" and \"paulista\" end in -a for men and women alike.",
           },
         ],
@@ -250,7 +250,7 @@ export const PT_A2_U19: Lesson[] = [
       {
         heading: "A fantasia: se fantasiar",
         body: [
-          "False friend alert: \"a fantasia\" is a costume. For a daydream or a fantasy story, Brazilians say \"o sonho\" or \"a imaginação\". The verb is reflexive: \"se fantasiar de\" (to dress up as). \"Eu me fantasiei de pirata\", \"ela vai se fantasiar de abelha\", with the pronoun before the verb or between the two verbs, as in Unit 11.",
+          "False friend alert: \"a fantasia\" is a costume. For a daydream or a fantasy story, Brazilians say \"o sonho\" or \"a imaginação\". The verb is reflexive: \"se fantasiar de\" (to dress up as). \"Eu me fantasiei de pirata\", \"ela vai se fantasiar de abelha\", with the pronoun before the verb or between the two verbs, as in the reflexive verbs unit.",
           "Carnaval talk uses \"divertir-se\" a lot: \"a gente se divertiu muito\" (we had a great time). After four days of partying comes \"a ressaca\", the hangover.",
         ],
         examples: [
@@ -699,7 +699,7 @@ export const PT_A2_U19: Lesson[] = [
           {
             type: "speak",
             text: "O melhor pão de queijo é o de Minas.",
-            tip: "In pão the ão is nasal; queijo is KEY-zhoo.",
+            tip: "In pão the ão is nasal; queijo is KAY-zhoo.",
             explanation: "\"O melhor\" + noun is the superlative; \"o de Minas\" means the one from Minas.",
           },
         ],
@@ -1038,7 +1038,7 @@ export const PT_A2_U19: Lesson[] = [
         heading: "Samba, forró, sertanejo: prefiro...",
         body: [
           "The big styles: \"o samba\" (Rio, Carnaval), \"a bossa nova\" (soft, from the late 1950s), \"o forró\" (Nordeste, danced in couples to the accordion), \"o sertanejo\" (country music, the most played in Brazil today), \"a MPB\" (\"música popular brasileira\", artists like Caetano Veloso and Elis Regina) and \"o axé\" (Bahia's Carnaval music).",
-          "Give your taste with \"prefiro\" and compare: \"prefiro forró, é mais animado do que bossa nova\", \"o sertanejo é menos interessante para mim\". \"Para mim\" means in my opinion, as in Unit 10.",
+          "Give your taste with \"prefiro\" and compare: \"prefiro forró, é mais animado do que bossa nova\", \"o sertanejo é menos interessante para mim\". \"Para mim\" means in my opinion, as in the por and para unit.",
         ],
         examples: [
           { es: "Eu prefiro forró, é mais animado.", en: "I prefer forró; it's livelier." },
@@ -1136,7 +1136,7 @@ export const PT_A2_U19: Lesson[] = [
       {
         type: "dictation",
         audio: "O Brasil ganhou a Copa cinco vezes.",
-        explanation: "\"Vezes\" is the plural of \"vez\" (time, occasion): z becomes z + es.",
+        explanation: "\"Vezes\" is the plural of \"vez\" (time, occasion): words ending in z add -es.",
       },
       {
         type: "speak",
@@ -1584,7 +1584,7 @@ export const PT_A2_U19: Lesson[] = [
           { es: "Aqui o açaí é salgado, não doce.", en: "Here açaí is savoury, not sweet." },
           { es: "Os paraenses tomam açaí com peixe frito e farinha.", en: "People from Pará have açaí with fried fish and cassava flour." },
           { es: "O tacacá vem quente, numa cuia.", en: "Tacacá comes hot, in a gourd bowl." },
-          { es: "O jambu faz a boca tremer.", en: "Jambu makes your mouth tingle." },
+          { es: "O jambu faz a boca formigar.", en: "Jambu makes your mouth tingle." },
           { es: "As barracas de tacacá abrem no fim da tarde.", en: "The tacacá stalls open in the late afternoon." },
         ],
         checkpoint: [
@@ -1700,9 +1700,9 @@ export const PT_A2_U19: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into Portuguese.",
         source: "Jambu makes your mouth tingle.",
-        answer: "O jambu faz a boca tremer.",
-        altAnswers: ["Jambu faz a boca tremer.", "O jambu faz a boca formigar.", "O jambu deixa a boca dormente."],
-        explanation: "\"Fazer\" + noun + infinitive: \"faz a boca tremer\". Portuguese says the mouth, not your mouth.",
+        answer: "O jambu faz a boca formigar.",
+        altAnswers: ["Jambu faz a boca formigar.", "O jambu deixa a boca formigando.", "O jambu deixa a boca dormente.", "O jambu faz a boca tremer."],
+        explanation: "\"Fazer\" + noun + infinitive: \"faz a boca formigar\" (literally makes the mouth tingle like ants, from \"formiga\"). Portuguese says the mouth, not your mouth.",
       },
       {
         type: "listen-choose",
@@ -1885,6 +1885,7 @@ export const PT_A2_U19: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: We came back from Pernambuco on Sunday.",
         words: ["A", "gente", "voltou", "de", "Pernambuco", "no", "domingo."],
+        altOrders: [["no", "domingo.", "A", "gente", "voltou", "de", "Pernambuco"]],
         translation: "We came back from Pernambuco on Sunday.",
         explanation: "\"De Pernambuco\" without an article; \"no domingo\" for a specific day.",
       },
@@ -2075,6 +2076,7 @@ export const PT_A2_U19: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: Next year I'm going to dress up as a bee.",
         words: ["No", "ano", "que", "vem", "vou", "me", "fantasiar", "de", "abelha."],
+        altOrders: [["vou", "me", "fantasiar", "de", "abelha.", "No", "ano", "que", "vem"]],
         translation: "Next year I'm going to dress up as a bee.",
         explanation: "\"Vou me fantasiar\": the pronoun between the verbs, matching eu.",
       },
@@ -2324,7 +2326,7 @@ export const PT_A2_U19: Lesson[] = [
       {
         heading: "Regions and food, with comparatives",
         body: [
-          "No new grammar here: mix the unit's culture with everything from Units 1-11. Remember the article with states (\"na Bahia\", \"em Minas\"), lowercase gentílicos and months, and comparatives with \"mais... do que\", \"melhor\", \"maior\".",
+          "No new grammar here: mix the unit's culture with everything from the earlier A2 units. Remember the article with states (\"na Bahia\", \"em Minas\"), lowercase gentílicos and months, and comparatives with \"mais... do que\", \"melhor\", \"maior\".",
         ],
         examples: [
           { es: "O Nordeste é mais quente do que o Sul.", en: "The Northeast is hotter than the South." },

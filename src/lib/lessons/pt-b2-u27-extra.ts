@@ -361,7 +361,7 @@ export const PT_B2_U27_EXTRA: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "The petition was handed to the mayor.",
             answer: "O abaixo-assinado foi entregue ao prefeito.",
-            altAnswers: ["O abaixo-assinado foi entregue à prefeita.", "Entregaram o abaixo-assinado ao prefeito.", "O abaixo-assinado foi entregado ao prefeito."],
+            altAnswers: ["O abaixo-assinado foi entregue à prefeita.", "Entregaram o abaixo-assinado ao prefeito."],
             explanation: "\"Entregue\" is the usual participle with \"ser\".",
           },
           {

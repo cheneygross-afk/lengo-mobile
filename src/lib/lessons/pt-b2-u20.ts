@@ -1221,7 +1221,6 @@ export const PT_B2_U20: Lesson[] = [
         prompt: "Put the words in order to say: He asked if I could help him.",
         words: ["Ele", "perguntou", "se", "eu", "podia", "ajudar", "ele."],
         translation: "He asked if I could help him.",
-        altOrders: [["Ele", "perguntou", "se", "eu", "podia", "ele", "ajudar."]],
         explanation: "\"Perguntou se\" + \"podia\"; speech puts \"ele\" after the verb as the object.",
       },
       {
@@ -2203,7 +2202,7 @@ export const PT_B2_U20: Lesson[] = [
         type: "speak",
         text: "Ele perguntou se eu queria carona.",
         prompt: "Say it in Portuguese: He asked if I wanted a lift.",
-        tip: "\"Carona\": open o, ca-RÔ-na in most accents, with a soft r.",
+        tip: "\"Carona\": the o is closed and slightly nasal before n, ca-RÔ-na, with a soft tapped r.",
         explanation: "\"Perguntou se\" + imperfeito \"queria\".",
       },
     ],

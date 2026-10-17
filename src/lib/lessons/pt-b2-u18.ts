@@ -1346,7 +1346,7 @@ export const PT_B2_U18: Lesson[] = [
           {
             type: "speak",
             text: "Preciso bloquear meu cartão agora mesmo.",
-            tip: "Bloquear: blo-KI-ar, the qu sounds like k.",
+            tip: "Bloquear: blo-ki-AR, with the stress on the final -ar; the qu sounds like k.",
             explanation: "\"Preciso\" + infinitive for an urgent request.",
           },
         ],

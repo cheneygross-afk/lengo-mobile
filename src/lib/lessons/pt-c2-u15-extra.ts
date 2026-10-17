@@ -438,7 +438,6 @@ export const PT_C2_U15_EXTRA: Lesson[] = [
         altAnswers: [
           "Meu Deus, o que ela fazia ali àquela hora?",
           "Meu Deus, o que ela estava fazendo lá àquela hora?",
-          "Meu Deus, o que ela estava fazendo ali aquela hora?",
           "Meu Deus, o que ela estava fazendo ali naquela hora?",
           "Meu Deus, o que ela fazia ali naquela hora?",
         ],

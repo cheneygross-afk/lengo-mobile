@@ -1496,7 +1496,7 @@ export const PT_B2_U09: Lesson[] = [
         heading: "At the airport: oxe, eita and visse",
         body: [
           "Lucas, a paulistano, lands in Recife, and his friend Camila picks him up. You already know all the grammar. What changes first is a set of small words that carry a lot of meaning. \"Oxe\" (or \"oxente\") signals surprise or mild disbelief, close to 'what?!' or 'come on'. \"Eita\" is 'whoa', for anything striking, good or bad.",
-          "\"Visse?\" closes a sentence the way \"né?\" does in São Paulo: it checks that you agree, or it softens advice. It's a fossil of an old past form of \"ver\", but nobody hears it that way now. As a visitor, go easy: one well-timed \"oxe\" sounds friendly, but five sound like a parody.",
+          "\"Visse?\" closes a sentence the way \"né?\" does in São Paulo: it checks that you agree, or it softens advice. It comes from \"tu visse\", the Pernambuco past of \"ver\" (standard \"tu viste\": did you see?), but nobody hears it as a verb any more. As a visitor, go easy: one well-timed \"oxe\" sounds friendly, but five sound like a parody.",
         ],
         examples: [
           { es: "Oxe, você já chegou? O voo não era às onze?", en: "What, you're here already? Wasn't your flight at eleven?" },
@@ -1676,8 +1676,8 @@ export const PT_B2_U09: Lesson[] = [
         en: "Do you want fried [cassava] or rice?",
         sentence: "Você quer ___ frita ou arroz?",
         answer: "macaxeira",
-        altAnswers: ["mandioca", "aipim"],
-        explanation: "All three are correct; \"macaxeira\" is what you'll hear in Recife. All are feminine, hence \"frita\". The adjective is feminine, so \"aipim\", which is masculine, fits less well here.",
+        altAnswers: ["mandioca"],
+        explanation: "\"Macaxeira\" is what you'll hear in Recife, and \"mandioca\" is understood everywhere. Both are feminine, hence \"frita\". \"Aipim\" is masculine, so it would need \"aipim frito\".",
       },
       {
         type: "word-order",

@@ -2272,7 +2272,7 @@ export const PT_C2_U14: Lesson[] = [
         source: "I'm not envious, I'm proud of you.",
         answer: "Não estou com inveja, estou orgulhoso de você.",
         altAnswers: ["Não estou com inveja, estou orgulhosa de você.", "Não é inveja, é orgulho de você.", "Não tenho inveja, tenho orgulho de você.", "Não estou com inveja; tenho orgulho de você.", "Não é inveja: eu tenho orgulho de você."],
-        explanation: "\"Inveja\" vs \"orgulho de\": two feelings English might both call proud-jealous in banter.",
+        explanation: "\"Inveja\" vs \"orgulho de\": \"inveja\" is wanting what the other person has, \"ter orgulho de\" is taking pride in them, so the second clause corrects the first.",
       },
       {
         type: "translate",

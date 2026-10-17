@@ -575,8 +575,8 @@ export const PT_B1_U27: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "The woman I spoke to was very kind.",
         answer: "A mulher com quem eu falei foi muito gentil.",
-        altAnswers: ["A mulher com quem falei foi muito gentil.", "A moça com quem eu falei foi muito gentil.", "A moça com quem falei foi muito gentil.", "A mulher com quem eu falei foi muito simpática.", "A mulher com quem falei foi muito simpática.", "A senhora com quem eu falei foi muito gentil.", "A mulher com quem eu conversei foi muito gentil.", "A mulher com quem conversei foi muito gentil."],
-        explanation: "\"Falar com\" + a person gives \"com quem\". \"Foi\" because it's a verdict on one conversation.",
+        altAnswers: ["A mulher com quem falei foi muito gentil.", "A moça com quem eu falei foi muito gentil.", "A moça com quem falei foi muito gentil.", "A mulher com quem eu falei foi muito simpática.", "A mulher com quem falei foi muito simpática.", "A senhora com quem eu falei foi muito gentil.", "A mulher com quem eu conversei foi muito gentil.", "A mulher com quem conversei foi muito gentil.", "A mulher com quem eu falei era muito gentil.", "A mulher com quem falei era muito gentil.", "A moça com quem eu falei era muito gentil.", "A mulher com quem eu falei era muito simpática."],
+        explanation: "\"Falar com\" + a person gives \"com quem\". \"Foi\" judges how she was in that one conversation; \"era\" describes her as a person and also works.",
       },
       {
         type: "translate",
@@ -767,7 +767,7 @@ export const PT_B1_U27: Lesson[] = [
           {
             type: "speak",
             text: "De quem é esse carro?",
-            tip: "\"De\" sounds like the j in jeep before the next word: \"dji KEN\".",
+            tip: "In Rio and São Paulo, \"de\" sounds like dji, as in jeep, and \"quem\" ends in a nasal ey sound: dji-KEY.",
             explanation: "\"De quem é...?\" is the only way to ask whose.",
           },
         ],
@@ -1719,7 +1719,6 @@ export const PT_B1_U27: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: The hotel where we stayed was beautiful.",
         words: ["O", "hotel", "onde", "ficamos", "era", "lindo."],
-        altOrders: [["O", "hotel", "onde", "ficamos", "lindo", "era."]],
         translation: "The hotel where we stayed was beautiful.",
         explanation: "\"Onde\" for a place; \"era\" describes it.",
       },

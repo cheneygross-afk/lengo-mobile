@@ -1888,7 +1888,7 @@ export const PT_B2_U03: Lesson[] = [
         type: "speak",
         text: "Quando você chegar na rodoviária, me liga.",
         prompt: "Say it in Portuguese: When you get to the bus station, call me.",
-        tip: "In \"rodoviária\" the d before i sounds like the j in jeep: ro-djo-vi-Á-ria.",
+        tip: "In \"rodoviária\" the d stays a plain d and the o after it sounds like u: ro-du-vi-Á-ria.",
         explanation: "\"Quando\" + future subjunctive (\"chegar\"), then the casual command \"me liga\".",
       },
       {
@@ -1987,11 +1987,11 @@ export const PT_B2_U03: Lesson[] = [
             options: [
               "Se você pode amanhã, a gente se encontra.",
               "Se chove, a rua alaga.",
-              "Se ela vem no domingo, faço um bolo.",
+              "Se ela ter tempo no domingo, faço um bolo.",
               "Se eles podem na sexta, marcamos a reunião.",
             ],
             correctIndex: 1,
-            explanation: "\"Se chove, a rua alaga\" is a general truth, so the present is right. The others are about one future day and need \"puder\", \"vier\" and \"puderem\".",
+            explanation: "\"Se chove, a rua alaga\" is a general truth, so the present is right. The others are about one future day and need \"puder\", \"tiver\" and \"puderem\".",
           },
           {
             type: "translate",

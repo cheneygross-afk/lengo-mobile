@@ -138,7 +138,7 @@ export const PT_B2_U11: Lesson[] = [
             en: "Can I [give it some thought] over the weekend?",
             sentence: "Posso ___ no fim de semana?",
             answer: "dar uma pensada",
-            altAnswers: ["pensar", "pensar melhor", "dar uma pensadinha"],
+            altAnswers: ["pensar", "pensar melhor", "dar uma pensadinha", "pensar nisso", "dar uma pensada nisso"],
             explanation: "\"Dar uma pensada\" softens \"pensar\": you're promising to think, without making it a big deal.",
           },
           {
@@ -700,7 +700,7 @@ export const PT_B2_U11: Lesson[] = [
         type: "speak",
         text: "Você pode me quebrar um galho? Esqueci meu carregador.",
         prompt: "Say it in Portuguese: Can you help me out? I forgot my charger.",
-        tip: "In \"galho\" the lh is like the lli in million, with no separate l. Make the r in \"quebrar\" and \"carregador\" a quick tap, but the rr in \"carregador\" an h-like sound.",
+        tip: "In \"galho\" the lh is like the lli in million, with no separate l. The r after b in \"quebrar\" is a quick tap, and its final r is soft or dropped; the rr in \"carregador\" is an h-like sound.",
         explanation: "\"Me quebra um galho\" or \"você pode me quebrar um galho\" is the friendly way to ask for a favour.",
       },
       {

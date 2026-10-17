@@ -199,7 +199,7 @@ export const PT_B2_U27: Lesson[] = [
         type: "speak",
         text: "Meu filho está no nono ano do ensino fundamental.",
         prompt: "Say it in Portuguese: My son is in the ninth year of primary and middle school.",
-        tip: "Nono is NO-nu with an open o, and fundamental ends in a soft u sound: fun-da-men-TAU.",
+        tip: "Nono is NÔ-nu with a closed o, and fundamental ends in a soft u sound: fun-da-men-TAU.",
         explanation: "\"Estar no\" + ordinal + \"ano\". The ninth year is the last year of \"ensino fundamental\".",
       },
       {
@@ -1852,7 +1852,7 @@ export const PT_B2_U27: Lesson[] = [
         type: "speak",
         text: "Veto derrubado: a lei entra em vigor em janeiro.",
         prompt: "Read the headline aloud: Veto overturned: the law comes into force in January.",
-        tip: "Vigor: VI-gor, with the stress on the first syllable.",
+        tip: "Vigor: vi-GOR, stressed on the last syllable, like every word ending in r.",
         explanation: "Headlines drop \"foi\": \"veto derrubado\" = \"o veto foi derrubado\".",
       },
       {

@@ -146,9 +146,9 @@ export const PT_A2_U21_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Choose the right pair: Eu ___ que a loja ___ às oito, mas ela já estava fechada.",
-        options: ["achava / fechava", "achei / fechou", "acho / fecha", "achei / fechava"],
+        options: ["achava / fechava", "achei / fechou", "acho / fecha", "acho / fechou"],
         correctIndex: 0,
-        explanation: "A belief you held at the time and a usual schedule: both imperfeito.",
+        explanation: "A belief you held at the time and a usual schedule: both imperfeito. In speech you'll also hear \"eu achei que a loja fechava\"; the key is \"fechava\", a usual closing time.",
       },
       {
         type: "listen-choose",

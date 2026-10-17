@@ -1696,7 +1696,7 @@ export const PT_C1_U18: Lesson[] = [
           { es: "Então, como correu a reunião?", en: "So, how did the meeting go? (Rui)" },
           { es: "Correu bem, mas foi meio cansativa.", en: "It went well, but it was a bit tiring. (Camila)" },
           { es: "Desculpa, não entendi. Pode repetir mais devagar?", en: "Sorry, I didn't catch that. Could you say it again more slowly? (Camila)" },
-          { es: "Aqui a gente fala um pouco mais rápido, não é?", en: "We speak a bit faster here, don't we? (Rui)" },
+          { es: "Aqui falamos um pouco mais depressa, não é?", en: "We speak a bit faster here, don't we? (Rui)" },
         ],
         checkpoint: [
           {
@@ -1910,7 +1910,7 @@ export const PT_C1_U18: Lesson[] = [
         heading: "Step 1: The claim and the figure",
         body: [
           "The notes read: \"Brasil desperdiça muita comida. Embrapa: uns 40 kg por pessoa por ano. Gente passa fome.\" The first job is to turn the figure into a cautious, sourced claim. Spoken \"uns 40 kg\" becomes \"cerca de 40 quilos\", and the source goes up front: \"Segundo a Embrapa, cada brasileiro desperdiça cerca de 40 quilos de comida por ano.\"",
-          "If the figure is an estimate, say so with the future of probability or a hedge: \"Estima-se que...\" or \"o desperdício seria ainda maior nas grandes cidades\". The conditional of rumour (\"seria\") shows you're reporting, not claiming it yourself.",
+          "If the figure is an estimate, say so with a hedge or the conditional of report: \"Estima-se que...\" or \"o desperdício seria ainda maior nas grandes cidades\". The conditional of rumour (\"seria\") shows you're reporting, not claiming it yourself.",
         ],
         examples: [
           { es: "Segundo a Embrapa, cada brasileiro desperdiça cerca de 40 quilos de comida por ano.", en: "According to Embrapa, each Brazilian wastes around 40 kilos of food a year." },

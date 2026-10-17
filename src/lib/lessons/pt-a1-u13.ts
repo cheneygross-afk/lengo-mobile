@@ -1810,7 +1810,7 @@ export const PT_A1_U13: Lesson[] = [
         type: "listen-choose",
         audio: "Vou à feira a pé.",
         question: "What did you hear?",
-        options: ["Vou à feira a pé.", "Vou a feira à pé.", "Vou na feira a pé.", "Vou à feira de pé."],
+        options: ["Vou à feira a pé.", "Vou à praia a pé.", "Vou na feira a pé.", "Vou à feira de pé."],
         correctIndex: 0,
         explanation: "\"À feira\" with a crase, \"a pé\" without.",
       },

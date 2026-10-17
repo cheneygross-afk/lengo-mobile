@@ -48,7 +48,7 @@ export const PT_A1_U05_EXTRA: Lesson[] = [
             type: "listen-choose",
             audio: "Vocês abrem a porta?",
             question: "What did you hear?",
-            options: ["Vocês abrem a porta?", "Você abre a porta?", "Nós abrimos a porta.", "Vocês abrem a porta."],
+            options: ["Vocês abrem a porta?", "Você abre a porta?", "Nós abrimos a porta.", "Eles abrem a porta."],
             correctIndex: 0,
             explanation: "\"Vocês abrem\" with a rising voice: a question to several people.",
           },

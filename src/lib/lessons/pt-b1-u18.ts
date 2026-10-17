@@ -272,7 +272,7 @@ export const PT_B1_U18: Lesson[] = [
             source: "Rafael said he would bring dessert.",
             answer: "O Rafael disse que traria a sobremesa.",
             altAnswers: ["Rafael disse que traria a sobremesa.", "O Rafael disse que ia trazer a sobremesa.", "Rafael disse que ia trazer a sobremesa.", "O Rafael falou que traria a sobremesa.", "O Rafael falou que ia trazer a sobremesa."],
-            explanation: "The future seen from the past takes the conditional: \"traria\", one of the three shortened stems (never \"traria\" built as \"trazeria\"). In speech \"ia trazer\" is just as natural.",
+            explanation: "The future seen from the past takes the conditional: \"traria\", one of the three shortened stems (never \"trazeria\"). In speech \"ia trazer\" is just as natural.",
           },
           {
             type: "multiple-choice",
@@ -2050,7 +2050,7 @@ export const PT_B1_U18: Lesson[] = [
         type: "speak",
         text: "Na minha opinião, sim, porque a cidade está muito congestionada.",
         prompt: "Say it in Portuguese: In my opinion, yes, because the city is very congested.",
-        tip: "Nasalise \"minha\" and \"tão\"-like sounds. In \"opinião\", let the ão go through your nose with no n at the end.",
+        tip: "The nh in \"minha\" is like the ny in canyon. In \"opinião\", let the ão go through your nose with no n at the end.",
         explanation: "An opinion plus a reason with \"porque\". \"Está congestionada\" uses estar for the current state.",
       },
     ],

@@ -276,7 +276,6 @@ export const PT_B2_U15: Lesson[] = [
         prompt: "Put the words in order to say: The film hadn't started yet when we went in.",
         words: ["O filme", "ainda não", "tinha começado", "quando", "entramos."],
         translation: "The film hadn't started yet when we went in.",
-        altOrders: [["Quando", "entramos.", "O filme", "ainda não", "tinha começado"]],
         explanation: "\"Ainda não\" goes right before \"tinha começado\", which steps back from the moment you went in.",
       },
       {

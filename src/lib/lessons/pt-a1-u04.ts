@@ -194,7 +194,7 @@ export const PT_A1_U04: Lesson[] = [
       {
         type: "dictation",
         audio: "Onde você mora?",
-        explanation: "\"Onde\" + \"você\" + \"mora\": no extra word for do. The final o in \"mora\" is open, MÓ-ra.",
+        explanation: "\"Onde\" + \"você\" + \"mora\": no extra word for do. The o in \"mora\" is open: MÓ-ra.",
       },
       {
         type: "speak",
@@ -328,7 +328,6 @@ export const PT_A1_U04: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "She buys bread at the bakery.",
             answer: "Ela compra pão na padaria.",
-            altAnswers: ["Ela compra pão na padaria"],
             explanation: "\"Comprar\" is regular, so the ela form is \"compra\". \"Na padaria\" is em + a: at the bakery.",
           },
           {
@@ -1012,7 +1011,7 @@ export const PT_A1_U04: Lesson[] = [
           {
             type: "speak",
             text: "Estou com fome.",
-            tip: "\"Com\" is a nasal o: close your lips at the end without a clear m sound.",
+            tip: "\"Com\" is a nasal o: don't close your lips into a full m.",
             explanation: "\"Estou com fome\": estar com + noun for how you feel right now.",
           },
         ],

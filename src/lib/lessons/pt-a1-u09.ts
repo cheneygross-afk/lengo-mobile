@@ -90,7 +90,7 @@ export const PT_A1_U09: Lesson[] = [
         heading: "De que cor é? Asking about colour",
         body: [
           "To ask what colour something is, use the chunk \"De que cor é...?\", literally 'of what colour is...?': \"De que cor é o carro?\" For a plural, \"De que cor são os sapatos?\" The answer is simply \"é azul\" or \"são pretos\", with the colour agreeing.",
-          "\"Cor\" (colour) is feminine: \"a cor\", \"uma cor bonita\". Words like \"escuro\" (dark) and \"claro\" (light) can follow a colour: \"azul-claro\", \"verde-escuro\". These compound colours stay the same in every form: \"as camisas azul-claro\".",
+          "\"Cor\" (colour) is feminine: \"a cor\", \"uma cor bonita\". Words like \"escuro\" (dark) and \"claro\" (light) can follow a colour: \"azul-claro\", \"verde-escuro\". In these compound colours only the second word agrees: \"as camisas azul-claras\", \"os olhos verde-escuros\".",
         ],
         examples: [
           { es: "De que cor é o carro?", en: "What colour is the car?" },
@@ -1243,13 +1243,13 @@ export const PT_A1_U09: Lesson[] = [
         heading: "Ela é alta, tem cabelo curto, está cansada",
         body: [
           "Ask three questions about any English sentence with is or has. Is it what the person is like? \"É\". Is it something they have, like hair, eyes or an age? \"Tem\". Is it how or where they are right now? \"Está\".",
-          "Age is the big trap: Portuguese counts the years you have. \"Ele tem trinta anos\", never \"*ele é trinta anos\". Height is the opposite: \"ele é alto\", not \"*ele tem alto\".",
+          "Age is the big trap: Portuguese counts the years you have. \"Ele tem vinte anos\", never \"*ele é vinte anos\". Height is the opposite: \"ele é alto\", not \"*ele tem alto\".",
         ],
         examples: [
           { es: "A Beatriz é alta.", en: "Beatriz is tall." },
           { es: "Ela tem cabelo curto.", en: "She has short hair." },
           { es: "Ela está cansada hoje.", en: "She's tired today." },
-          { es: "O Rafael tem trinta anos.", en: "Rafael is thirty." },
+          { es: "O Rafael tem dezenove anos.", en: "Rafael is nineteen." },
           { es: "Ele é engenheiro e está no trabalho.", en: "He's an engineer and he's at work." },
         ],
         checkpoint: [
@@ -1345,10 +1345,10 @@ export const PT_A1_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Rafael is thirty.",
-        answer: "O Rafael tem trinta anos.",
-        altAnswers: ["Rafael tem trinta anos.", "O Rafael tem 30 anos."],
-        explanation: "Age with \"ter\": \"tem trinta anos\".",
+        source: "Rafael is nineteen.",
+        answer: "O Rafael tem dezenove anos.",
+        altAnswers: ["Rafael tem dezenove anos.", "O Rafael tem 19 anos."],
+        explanation: "Age with \"ter\": \"tem dezenove anos\".",
       },
       {
         type: "translate",
@@ -2220,7 +2220,7 @@ export const PT_A1_U09: Lesson[] = [
           { es: "A Fernanda é baixa e tem cabelo ruivo.", en: "Fernanda is short and has red hair." },
           { es: "O Thiago é de Recife e trabalha como dentista.", en: "Thiago is from Recife and works as a dentist." },
           { es: "Ele está de camisa azul e está muito animado.", en: "He's wearing a blue shirt and he's very excited." },
-          { es: "A Carla tem trinta anos e fala inglês.", en: "Carla is thirty and speaks English." },
+          { es: "A Carla tem vinte anos e fala inglês.", en: "Carla is twenty and speaks English." },
           { es: "Ela é bem engraçada, mas hoje está cansada.", en: "She's really funny, but today she's tired." },
         ],
         checkpoint: [
@@ -2285,9 +2285,9 @@ export const PT_A1_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Carla is thirty and speaks English.",
-        answer: "A Carla tem trinta anos e fala inglês.",
-        altAnswers: ["Carla tem trinta anos e fala inglês.", "A Carla tem 30 anos e fala inglês."],
+        source: "Carla is twenty and speaks English.",
+        answer: "A Carla tem vinte anos e fala inglês.",
+        altAnswers: ["Carla tem vinte anos e fala inglês.", "A Carla tem 20 anos e fala inglês."],
         explanation: "Age with \"ter\"; \"fala\" is the ela form of \"falar\".",
       },
       {
@@ -2344,7 +2344,7 @@ export const PT_A1_U09: Lesson[] = [
       {
         type: "multiple-choice",
         question: "A guest asks what Fernanda is like. What's the best answer?",
-        options: ["Ela é simpática e meio tímida.", "Ela está na cozinha.", "Ela tem trinta anos.", "Ela está de vestido."],
+        options: ["Ela é simpática e meio tímida.", "Ela está na cozinha.", "Ela tem vinte anos.", "Ela está de vestido."],
         correctIndex: 0,
         explanation: "\"Como ela é?\" asks about her personality or looks, so \"ser\" + adjectives.",
       },
@@ -2382,6 +2382,6 @@ export const PT_A1_U09_WRITING: WriteExercise = {
     "Uses \"estar de\" for today's clothes and \"estar\" for how she feels (\"está de casaco vermelho\", \"está cansada\")",
     "Makes every adjective and colour agree with its noun (\"calça preta\", \"olhos azuis\")",
   ],
-  modelAnswer: "Oi, Carlos! A Laura é americana e tem vinte e cinco anos. Ela é alta e magra, tem cabelo loiro e comprido e olhos azuis. Ela é muito simpática, mas é meio tímida. Hoje ela está de calça preta e casaco vermelho e tem uma mochila verde. Ela está cansada e com fome! Obrigada!",
-  explanation: "Portuguese splits English is and has across three verbs: \"ser\" for lasting traits (\"é alta\", \"é simpática\"), \"ter\" for age, hair and eyes (\"tem vinte e cinco anos\", \"tem olhos azuis\"), and \"estar\" for clothes and feelings right now (\"está de casaco vermelho\", \"está cansada\"). Colours follow the noun and agree (\"calça preta\", \"olhos azuis\"), and one pair of trousers is singular: \"calça\".",
+  modelAnswer: "Oi, Carlos! A Laura é americana e tem vinte anos. Ela é alta e magra, tem cabelo loiro e comprido e olhos azuis. Ela é muito simpática, mas é meio tímida. Hoje ela está de calça preta e casaco vermelho e tem uma mochila verde. Ela está cansada e com fome! Obrigada!",
+  explanation: "Portuguese splits English is and has across three verbs: \"ser\" for lasting traits (\"é alta\", \"é simpática\"), \"ter\" for age, hair and eyes (\"tem vinte anos\", \"tem olhos azuis\"), and \"estar\" for clothes and feelings right now (\"está de casaco vermelho\", \"está cansada\"). Colours follow the noun and agree (\"calça preta\", \"olhos azuis\"), and one pair of trousers is singular: \"calça\".",
 };

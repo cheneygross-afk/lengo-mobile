@@ -860,7 +860,7 @@ export const PT_A1_U10: Lesson[] = [
       {
         heading: "Trago, traz: to bring",
         body: [
-          "\"Trazer\" (to bring) is irregular in the eu form and the ele form: \"eu trago\", \"você traz\", then regular \"nós trazemos\", \"eles trazem\". Learners say \"*eu trazo\"; the g of \"trago\" has to be memorised, like \"faço\" and \"digo\".",
+          "\"Trazer\" (to bring) is irregular in the eu form and the ele form: \"eu trago\", \"você traz\", then regular \"nós trazemos\", \"eles trazem\". Learners say \"*eu trazo\"; the g of \"trago\" has to be memorised, like \"faço\" and \"ouço\".",
           "\"Trazer\" means bringing toward where the speaker is, just as \"vir\" is coming here. It's the verb for a barbecue invitation: \"eu trago a cerveja\".",
         ],
         examples: [

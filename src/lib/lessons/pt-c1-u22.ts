@@ -1298,7 +1298,7 @@ export const PT_C1_U22: Lesson[] = [
             type: "listen-choose",
             audio: "Em decorrência das enchentes, mais de mil famílias ficaram desalojadas.",
             question: "What does it mean?",
-            options: ["As a result of the floods, over a thousand families were made homeless.", "Despite the floods, over a thousand families stayed at home.", "Over a thousand families caused the floods.", "Over a thousand families were evacuated before the floods."],
+            options: ["As a result of the floods, over a thousand families were forced out of their homes.", "Despite the floods, over a thousand families stayed at home.", "Over a thousand families caused the floods.", "Over a thousand families were evacuated before the floods."],
             correctIndex: 0,
             explanation: "\"Em decorrência de\" marks the cause; \"desalojadas\" means forced out of their homes.",
           },

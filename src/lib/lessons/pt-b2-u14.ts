@@ -1888,7 +1888,7 @@ export const PT_B2_U14: Lesson[] = [
           "Careful editors also avoid the passive \"o filme foi assistido por milhões\", because the verb takes an indirect complement. \"Ver\" takes no preposition, so \"o filme foi visto por milhões\" and \"vi o filme\" get round the problem.",
         ],
         examples: [
-          { es: "Assisti ao documentário sobre a Bossa Nova.", en: "I watched the documentary about Bossa Nova." },
+          { es: "Assisti ao documentário sobre a bossa nova.", en: "I watched the documentary about bossa nova." },
           { es: "Você já assistiu à nova montagem da peça?", en: "Have you seen the new production of the play?" },
           { es: "A série a que assistimos se passa em Recife.", en: "The series we watched is set in Recife." },
           { es: "O filme foi visto por mais de dois milhões de pessoas.", en: "The film was seen by more than two million people." },
@@ -2081,7 +2081,7 @@ export const PT_B2_U14: Lesson[] = [
         type: "speak",
         text: "O filme vale a pena, o final é emocionante.",
         prompt: "Say it in Portuguese: The film is worth it, the ending is thrilling.",
-        tip: "The final -te of emocionante sounds like chee, and the ão in emocionante is not there: it's e-mo-sio-NAN-tchi.",
+        tip: "The final -te of \"emocionante\" sounds like chee: e-mo-sio-NAN-tchi.",
         explanation: "\"Vale a pena\" and \"emocionante\" are natural review language, and neither is slang.",
       },
       {

@@ -460,7 +460,6 @@ export const PT_B1_U16: Lesson[] = [
         answer: "Três quartos dos funcionários trabalham de casa.",
         altAnswers: [
           "Três quartos dos funcionários trabalham em casa.",
-          "Três quartos dos funcionários trabalha de casa.",
           "Três quartos dos funcionários trabalham de home office.",
         ],
         explanation: "\"Três quartos dos funcionários\": fraction + \"de\" + article. The plural verb agrees with \"funcionários\".",

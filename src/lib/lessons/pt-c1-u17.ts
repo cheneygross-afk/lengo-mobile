@@ -509,7 +509,7 @@ export const PT_C1_U17: Lesson[] = [
         heading: "The vanishing -r and the weak -s",
         body: [
           "The final -r of infinitives disappears in almost everyone's casual speech: \"vou comprar\" sounds like \"vou comprá\", and \"vamos comer\" like \"vamo comê\". The stress stays on the last syllable, which is how you still recognise the infinitive: \"comprá\" is not \"compra\". Final -r in other words (\"mar\", \"amor\") weakens too, but it survives more often.",
-          "Final -s weakens in a few very frequent words: \"vamos\" becomes \"vamo\", and \"a gente vamo\" is heard alongside it. Plural -s marked only on the first word (\"as coisa\", \"os menino\") is also common, but it carries strong social stigma: recognise it, don't copy it. Educated speakers drop the -r freely and keep the plural -s.",
+          "Final -s weakens in a few very frequent words: \"vamos\" becomes \"vamo\", and \"a gente vamo\" is heard too, though, like \"a gente vamos\", it sounds uneducated. Plural -s marked only on the first word (\"as coisa\", \"os menino\") is also common, but it carries strong social stigma: recognise it, don't copy it. Educated speakers drop the -r freely and keep the plural -s.",
           "Don't spell the dropped -r (\"comprá\") except to imitate speech in dialogue or a joke. In any other text, even a WhatsApp message, the -r stays: \"vou comprar\".",
         ],
         examples: [
@@ -1350,7 +1350,7 @@ export const PT_C1_U17: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "I've sort of lost interest in the course. (casual)",
             answer: "Eu meio que perdi o interesse no curso.",
-            altAnswers: ["Meio que perdi o interesse no curso.", "Eu meio que perdi o interesse pelo curso.", "Meio que perdi o interesse pelo curso.", "Eu meio que perdi o interesse do curso."],
+            altAnswers: ["Meio que perdi o interesse no curso.", "Eu meio que perdi o interesse pelo curso.", "Meio que perdi o interesse pelo curso."],
             explanation: "\"Meio que\" goes right before the verb and softens the whole statement.",
           },
           {

@@ -406,6 +406,7 @@ export const PT_A2_U22: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: Next year I'm going to come back for Carnival.",
         words: ["Ano", "que", "vem", "eu", "vou", "voltar", "para", "o", "Carnaval."],
+        altOrders: [["eu", "vou", "voltar", "para", "o", "Carnaval.", "Ano", "que", "vem"]],
         translation: "Next year I'm going to come back for Carnival.",
         explanation: "Plans: \"vou\" + infinitive; \"ano que vem\" is next year.",
       },
@@ -746,7 +747,7 @@ export const PT_A2_U22: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The museum is open [from] ten [to] five.",
+            en: "The museum is open [from] ten to five.",
             sentence: "O museu fica aberto ___ dez às cinco.",
             answer: "das",
             explanation: "Clock ranges: \"das... às\" (de + as, a + as), because hours are feminine.",
@@ -1038,13 +1039,12 @@ export const PT_A2_U22: Lesson[] = [
         en: "[Be] patient, please.",
         sentence: "___ paciente, por favor.",
         answer: "Seja",
-        altAnswers: ["Tenha"],
         explanation: "The command of \"ser\" is irregular: \"seja\". \"Tenha paciência\" is another way to say it.",
       },
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I have [as many] books [as] you.",
+        en: "I have [as many] books as you.",
         sentence: "Eu tenho ___ livros quanto você.",
         answer: "tantos",
         explanation: "With a noun, \"tanto\" agrees: \"tantos livros\".",
@@ -2207,7 +2207,7 @@ export const PT_A2_U22: Lesson[] = [
         heading: "The past, under control",
         body: [
           "B1 builds new tenses on top of the A2 past, so these must be automatic: the perfeito for events, the imperfeito for background and habits, \"estava\" + gerund for interrupted actions, \"ia\" + infinitive for plans, and the irregular pasts (\"fiz\", \"tive\", \"disse\", \"trouxe\", \"pude\", \"vim\").",
-          "If any item here feels slow, go back to Units 1-5 before starting B1: the next level assumes these forms without thinking.",
+          "If any item here feels slow, go back to the past-tense units at the start of A2 before starting B1: the next level assumes these forms without thinking.",
         ],
         examples: [
           { es: "Ele disse que trouxe tudo.", en: "He said he brought everything." },

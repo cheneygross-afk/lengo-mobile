@@ -301,7 +301,7 @@ export const PT_A1_U01: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "She's very nice.",
             answer: "Ela é muito simpática.",
-            altAnswers: ["Ela é muito legal.", "Ela é simpática."],
+            altAnswers: ["Ela é muito legal."],
             explanation: "Character is part of who someone is, so \"ser\": \"ela é\". \"Simpática\" ends in -a because it describes a woman.",
           },
         ],
@@ -1958,7 +1958,6 @@ export const PT_A1_U01: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "Thank you very much! (said by a woman)",
         answer: "Muito obrigada!",
-        altAnswers: ["Obrigada!"],
         explanation: "A woman says \"obrigada\". *\"Muito obrigado\" from a woman is the mistake.",
       },
       {

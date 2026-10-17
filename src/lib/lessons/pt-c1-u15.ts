@@ -879,7 +879,7 @@ export const PT_C1_U15: Lesson[] = [
       {
         heading: "Reading a headline",
         body: [
-          "Brazilian headlines have their own grammar. They drop articles, use the present for past events and the infinitive for planned ones: \"BC sobe juros\" (the Central Bank has raised rates), \"Governo vai reajustar salário mínimo\" or simply \"Governo deve reajustar\" (expected to).",
+          "Brazilian headlines have their own grammar. They drop articles, use the present for past events and \"ir\" or \"dever\" + infinitive for planned ones: \"BC sobe juros\" (the Central Bank has raised rates), \"Governo vai reajustar salário mínimo\" or simply \"Governo deve reajustar\" (expected to).",
           "Abbreviations are everywhere: \"BC\", \"PIB\", \"IR\", \"INSS\". The conditional you met in Unit 2 signals an unconfirmed claim: \"Ministro teria pedido demissão\" (the minister has reportedly resigned). Read headlines with \"deve\" and \"teria\" as probability, not fact.",
           "To retell a headline in full prose, put back the article and the tense: \"BC corta Selic para 10%\" becomes \"O Banco Central cortou a taxa Selic para 10%\".",
         ],
@@ -1926,7 +1926,7 @@ export const PT_C1_U15: Lesson[] = [
           "Hoje eu ganho oito mil reais brutos, CLT.",
           "Atualmente recebo oito mil brutos, CLT.",
         ],
-        explanation: "\"Atualmente\" means currently, which is right here. Always give the regime: \"CLT\" or \"PJ\".",
+        explanation: "\"Hoje\" or \"atualmente\" (currently, not actually) both work here. Always give the regime: \"CLT\" or \"PJ\".",
       },
       {
         type: "fill-blank",

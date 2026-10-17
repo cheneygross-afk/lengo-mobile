@@ -215,7 +215,7 @@ export const PT_B2_U28_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "The bill slip is due tomorrow.",
         answer: "O boleto vence amanhã.",
-        altAnswers: ["O boleto vai vencer amanhã.", "O boleto vence amanhã de manhã."],
+        altAnswers: ["O boleto vai vencer amanhã."],
         explanation: "\"Vencer\" is to fall due.",
       },
       {

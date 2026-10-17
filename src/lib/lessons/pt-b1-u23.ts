@@ -697,7 +697,7 @@ export const PT_B1_U23: Lesson[] = [
             en: "It's lucas [at] hotmail dot com.",
             sentence: "É lucas ___ hotmail ponto com.",
             answer: "arroba",
-            explanation: "The @ sign is \"arroba\".",
+            explanation: "The @ sign is \"arroba\" and the dot is \"ponto\": \"lucas arroba hotmail ponto com\". Say e-mail addresses this way on the phone.",
           },
           {
             type: "speak",
@@ -775,7 +775,7 @@ export const PT_B1_U23: Lesson[] = [
         source: "Souza with a z, not with an s.",
         answer: "Souza com zê, não com esse.",
         altAnswers: ["Souza com z, não com s.", "Souza com zê e não com esse."],
-        explanation: "The letter names: \"zê\" for z and \"esse\" for s.",
+        explanation: "Letter names matter when you spell on the phone: z is \"zê\" and s is \"esse\". \"Com zê\" tells the agent which spelling to type.",
       },
       {
         type: "listen-choose",
@@ -987,7 +987,7 @@ export const PT_B1_U23: Lesson[] = [
           { left: "aguarde", right: "please hold" },
           { left: "digite", right: "press, key in" },
         ],
-        explanation: "The core words of any SAC call.",
+        explanation: "These are the core words of any SAC call: \"o atendente\" answers, gives you \"o protocolo\" and looks up \"o pedido\". \"Aguarde\" and \"digite\" are the recorded menu commands.",
       },
     ],
   },
@@ -1177,7 +1177,7 @@ export const PT_B1_U23: Lesson[] = [
       {
         type: "dictation",
         audio: "O produto veio com defeito.",
-        explanation: "\"Veio com defeito\": arrived faulty.",
+        explanation: "\"Veio com defeito\" means it arrived faulty. \"Veio\" is the perfeito of \"vir\", the usual verb for how a delivery came.",
       },
       {
         type: "matching",
@@ -1341,7 +1341,7 @@ export const PT_B1_U23: Lesson[] = [
         sentence: "___ me confirmar o horário da visita?",
         answer: "Poderia",
         altAnswers: ["O senhor poderia", "A senhora poderia", "Você poderia"],
-        explanation: "The conditional \"poderia\" is the formal could.",
+        explanation: "The conditional \"poderia\" is the formal could, right for a written or call-centre request. \"Pode\" would sound too casual here.",
       },
       {
         type: "translate",
@@ -1373,7 +1373,7 @@ export const PT_B1_U23: Lesson[] = [
         text: "Você podia me ajudar com isso?",
         prompt: "Say it in Portuguese: Could you help me with this? (to a colleague)",
         tip: "Stress po-DI-a, with the d before i sounding like a j: \"podjia\".",
-        explanation: "\"Podia\" is the soft everyday request between colleagues.",
+        explanation: "\"Podia\" (imperfeito) is the soft everyday request between colleagues: politer than \"pode\", less stiff than \"poderia\".",
       },
       {
         type: "dictation",
@@ -1795,7 +1795,7 @@ export const PT_B1_U23: Lesson[] = [
           { es: "Você poderia me dizer onde fica a agência?", en: "Could you tell me where the branch is?" },
           { es: "Poderia me dizer o seu nome completo?", en: "Could you tell me your full name?" },
           { es: "Eu gostaria de abrir uma conta.", en: "I'd like to open an account." },
-          { es: "Eu queria abrir uma conta.", en: "I wanted to open an account." },
+          { es: "Eu queria abrir uma conta.", en: "I'd like to open an account. (spoken, softer)" },
           { es: "Nós gostaríamos de cancelar a assinatura.", en: "We'd like to cancel the subscription." },
         ],
         checkpoint: [
@@ -2086,7 +2086,7 @@ export const PT_B1_U23: Lesson[] = [
             text: "Caso contrário, vou registrar uma reclamação no Procon.",
             prompt: "Say it in Portuguese: Otherwise, I will file a complaint with Procon.",
             tip: "Procon is stressed on the last syllable: pro-CON, with a nasal o.",
-            explanation: "\"Caso contrário\" is the formal otherwise.",
+            explanation: "\"Caso contrário\" is the formal otherwise, at home in complaints and e-mails. In speech you'd say \"senão\".",
           },
         ],
       },
@@ -2234,7 +2234,7 @@ export const PT_B1_U23: Lesson[] = [
             source: "The payment slip was due yesterday.",
             answer: "O boleto venceu ontem.",
             altAnswers: ["O boleto vencia ontem.", "O vencimento do boleto foi ontem."],
-            explanation: "\"Vencer\" in the perfeito: \"venceu\".",
+            explanation: "\"Vencer\" in the perfeito, \"venceu\": the due date has passed. \"Vencia\" is possible too but less usual for a single date.",
           },
           {
             type: "fill-blank",
@@ -2349,7 +2349,7 @@ export const PT_B1_U23: Lesson[] = [
       {
         type: "dictation",
         audio: "Preciso que vocês resolvam isso hoje.",
-        explanation: "\"Preciso que\" + subjunctive \"resolvam\".",
+        explanation: "Different subjects after \"preciso que\", so the subjunctive: \"resolver\" → \"resolvam\". Watch the -am ending: \"resolvem\" is the indicative slip.",
       },
       {
         type: "matching",
@@ -2361,7 +2361,7 @@ export const PT_B1_U23: Lesson[] = [
           { left: "Posso ajudar em algo mais?", right: "Is there anything else I can help with?" },
           { left: "A ligação caiu.", right: "The call dropped." },
         ],
-        explanation: "The phone formulas from across the unit.",
+        explanation: "The phone formulas from across the unit: \"pois não?\" opens, \"é da parte de quem?\" asks who's calling, and \"posso ajudar em algo mais?\" closes.",
       },
     ],
   },
@@ -2378,6 +2378,6 @@ export const PT_B1_U23_WRITING: WriteExercise = {
     "Say what you want with \"quero que\", \"peço que\" or \"preciso que\" + present subjunctive, and add a condition with \"caso\" + subjunctive",
     "Use the unit's vocabulary: \"pedido\", \"protocolo\", \"veio com defeito\", \"troca\", \"estorno\" or \"parcelas\"",
   ],
-  modelAnswer: "Prezados, meu nome é Laura Smith e escrevo sobre o pedido número 77215. No dia 3 de maio comprei uma cafeteira no site de vocês e parcelei em cinco vezes sem juros no cartão de crédito. O prazo de entrega era de cinco dias úteis, mas a encomenda só chegou no dia 15 e veio com defeito: a máquina não liga. Já liguei para o SAC no dia 16 (protocolo 4471), mas até agora ninguém entrou em contato. Gostaria de saber se vocês podem fazer a troca e quanto tempo ela demora. Peço que vocês enviem uma cafeteira nova até sexta-feira. Caso não seja possível, quero que façam o estorno das parcelas. Poderia me informar também se preciso devolver a máquina pelos Correios? Aguardo uma resposta. Atenciosamente, Laura Smith",
+  modelAnswer: "Prezados, meu nome é Laura Smith e escrevo sobre o pedido número 77215. No dia 3 de maio comprei uma cafeteira no site de vocês e parcelei em cinco vezes sem juros no cartão de crédito. O prazo de entrega era de cinco dias úteis, mas a encomenda só chegou no dia 15 e veio com defeito: a máquina não liga. Já liguei para o SAC no dia 16 (protocolo 4471), mas até agora ninguém entrou em contato. Gostaria de saber se vocês podem fazer a troca e quanto tempo ela demora. Peço que vocês enviem uma cafeteira nova até sexta-feira. Caso não seja possível, quero que façam o estorno das parcelas. Poderiam me informar também se preciso devolver a máquina pelos Correios? Aguardo uma resposta. Atenciosamente, Laura Smith",
   explanation: "Formal requests use the conditional (\"gostaria de\", \"poderia\"). Indirect questions keep statement order and use \"se\" for whether (\"gostaria de saber se vocês podem\", \"quanto tempo ela demora\"). What you want the company to do takes \"peço que\" / \"quero que\" + present subjunctive (\"enviem\", \"façam\"), and \"caso\" also takes the subjunctive (\"caso não seja possível\"). The story itself is in the perfeito (\"comprei\", \"chegou\", \"liguei\") and imperfeito (\"o prazo era\").",
 };

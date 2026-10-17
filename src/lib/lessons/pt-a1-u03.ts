@@ -192,7 +192,6 @@ export const PT_A1_U03: Lesson[] = [
         prompt: "Put the words in order to say: Ana is a friend from Manaus.",
         words: ["A", "Ana", "é", "uma", "amiga", "de", "Manaus."],
         translation: "Ana is a friend from Manaus.",
-        altOrders: [["Ana", "é", "uma", "amiga", "de", "Manaus.", "A"]],
         explanation: "\"A Ana\" is the Brazilian article before a name, and a female friend is \"uma amiga\".",
       },
       {
@@ -908,7 +907,7 @@ export const PT_A1_U03: Lesson[] = [
         type: "speak",
         text: "Estamos no trabalho.",
         prompt: "Say it in Portuguese: We're at work.",
-        tip: "Nasalise the -mos ending only slightly and stress es-TA-mos.",
+        tip: "Stress the middle syllable, es-TA-mos: the a before m is slightly nasal, and the final o sounds like u.",
         explanation: "\"Estamos\" already means we are, so \"nós\" isn't needed. \"No trabalho\" is at work.",
       },
       {

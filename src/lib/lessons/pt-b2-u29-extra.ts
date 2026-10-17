@@ -286,9 +286,9 @@ export const PT_B2_U29_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into Portuguese.",
         source: "We spent New Year's Eve on the beach, dressed in white.",
-        answer: "A gente passou o réveillon na praia, vestido de branco.",
-        altAnswers: ["Nós passamos o réveillon na praia, vestidos de branco.", "Passamos o réveillon na praia, vestidos de branco.", "A gente passou o réveillon na praia, de branco.", "Nós passamos o réveillon na praia, de branco.", "Passamos o réveillon na praia, de branco.", "Nós passamos o réveillon na praia vestidos de branco."],
-        explanation: "\"De branco\" avoids the agreement question; with \"nós\", \"vestidos\".",
+        answer: "A gente passou o réveillon na praia, vestidos de branco.",
+        altAnswers: ["A gente passou o réveillon na praia, vestido de branco.", "Nós passamos o réveillon na praia, vestidos de branco.", "Passamos o réveillon na praia, vestidos de branco.", "A gente passou o réveillon na praia, de branco.", "Nós passamos o réveillon na praia, de branco.", "Passamos o réveillon na praia, de branco.", "Nós passamos o réveillon na praia vestidos de branco."],
+        explanation: "With \"a gente\" the verb is singular, but the participle usually agrees with the people meant: \"vestidos\". \"De branco\" alone avoids the question.",
       },
       {
         type: "translate",

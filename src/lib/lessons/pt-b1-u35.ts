@@ -53,7 +53,7 @@ export const PT_B1_U35: Lesson[] = [
             sentence: "Depois que as crianças ___, a gente viu um filme.",
             answer: "dormiram",
             altAnswers: ["pegaram no sono", "adormeceram"],
-            explanation: "\"Depois que\" + a past fact takes the indicative. Only \"antes que\" and \"até que\" force the subjunctive.",
+            explanation: "\"Depois que\" + a past fact takes the indicative. Among the time words, \"antes que\" always takes the subjunctive, while \"depois que\" and \"quando\" take it only for the future.",
           },
         ],
       },
@@ -1150,7 +1150,7 @@ export const PT_B1_U35: Lesson[] = [
       {
         heading: "A night at the UPA",
         body: [
-          "At midnight you get a fever and stomach pain, so you go to the UPA (Unidade de Pronto Atendimento), the public urgent care centre of the SUS. First comes the \"triagem\": a nurse asks about symptoms and gives you a coloured wristband. Red is an emergency, yellow urgent, green less urgent, blue not urgent, so a green band means a long wait.",
+          "At midnight you get a fever and stomach pain, so you go to the UPA (Unidade de Pronto Atendimento), the public urgent care centre of the SUS. First comes the \"triagem\": a nurse asks about symptoms and gives you a coloured wristband. Red is an emergency, orange very urgent, yellow urgent, green less urgent, blue not urgent, so a green band means a long wait.",
           "Describe symptoms with \"estou com\" (\"estou com febre\", \"estou com dor de barriga\"), duration with \"desde\" and \"faz\" (\"faz duas horas que estou vomitando\"), and the episode with the perfeito (\"comi camarão no jantar\").",
         ],
         examples: [
@@ -1305,6 +1305,7 @@ export const PT_B1_U35: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: Out of nowhere, forró started playing.",
         words: ["Do", "nada,", "começou", "a", "tocar", "forró."],
+        altOrders: [["Começou", "a", "tocar", "forró.", "Do", "nada,"]],
         translation: "Out of nowhere, forró started playing.",
         explanation: "\"Do nada\" is the spoken suddenly; \"começar a\" + infinitive keeps its \"a\".",
       },
@@ -1559,6 +1560,7 @@ export const PT_B1_U35: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: To speak to an agent, press 9.",
         words: ["Para", "falar", "com", "um", "atendente,", "digite", "9."],
+        altOrders: [["digite", "9.", "Para", "falar", "com", "um", "atendente,"]],
         translation: "To speak to an agent, press 9.",
         explanation: "\"Para\" + infinitive for purpose; \"digite\" (type) is the menu's imperative.",
       },

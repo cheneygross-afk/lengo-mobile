@@ -77,6 +77,7 @@ export const PT_A1_U06_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "Where are you from? (to an older man)",
         answer: "De onde o senhor é?",
+        altAnswers: ["O senhor é de onde?"],
         explanation: "\"De\" moves to the front with \"onde\", and \"o senhor\" takes \"é\".",
       },
       {
@@ -157,7 +158,7 @@ export const PT_A1_U06_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "You want to know a new colleague's name. What do you ask?",
-        options: ["Qual é o seu nome?", "O que é o seu nome?", "Quem é o seu nome?", "Como é o seu nome?"],
+        options: ["Qual é o seu nome?", "O que é o seu nome?", "Quem é o seu nome?", "Quanto é o seu nome?"],
         correctIndex: 0,
         explanation: "Brazilians ask a name with \"qual é...?\". \"Como você se chama?\" also works.",
       },
@@ -400,6 +401,7 @@ export const PT_A1_U06_EXTRA: Lesson[] = [
             en: "The film starts [at eight].",
             sentence: "O filme começa ___.",
             answer: "às oito",
+            altAnswers: ["às oito horas"],
             explanation: "\"Às\" + the hour for at what time.",
           },
           {
@@ -429,6 +431,7 @@ export const PT_A1_U06_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "It's a quarter to six.",
         answer: "São quinze para as seis.",
+        altAnswers: ["Quinze para as seis."],
         explanation: "\"Para\" + \"as\" + the hour for minutes before it.",
       },
       {

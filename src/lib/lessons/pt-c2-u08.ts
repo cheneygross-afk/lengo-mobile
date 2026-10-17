@@ -379,7 +379,7 @@ export const PT_C2_U08: Lesson[] = [
         heading: "Eles chegou, nós vai: agreement on the verb",
         body: [
           "The same economy reaches the verb. Popular speech often uses the third-person singular with any plural subject: \"eles chegou\", \"os vizinho reclamou\", \"nós vai\". With \"a gente\" the reverse happens: \"a gente vamos\", where the plural meaning pulls the verb into the nós form. Both are strongly stigmatised at school and in hiring, and that is exactly why sociolinguists study them.",
-          "Salience applies here too. Agreement survives more often where the plural verb sounds very different from the singular. \"Eles é\" is rarer than \"eles fala\", because \"é\" and \"são\" share nothing, while \"fala\" and \"falam\" differ only by a faint nasal. When the subject comes after the verb, almost everyone drops agreement. \"Chegou as encomendas\" and \"faltou três alunos\" come easily even from educated speakers, because the verb is said before the plural subject appears.",
+          "Salience applies here too. Agreement survives more often where the plural verb sounds very different from the singular. \"Eles é\" is rarer than \"eles fala\", because \"é\" and \"são\" share nothing, while \"fala\" and \"falam\" differ only by a faint nasal. When the subject comes after the verb, agreement drops far more often. \"Chegou as encomendas\" and \"faltou três alunos\" come easily even from educated speakers, because the verb is said before the plural subject appears.",
         ],
         examples: [
           { es: "Eles chegou cedo e foi embora.", en: "They arrived early and left. (popular speech)" },
@@ -837,7 +837,7 @@ export const PT_C2_U08: Lesson[] = [
         prompt: "Put the words in order to say: Portuguese isn't harder than other languages.",
         words: ["O", "português", "não", "é", "mais", "difícil", "que", "outras línguas."],
         translation: "Portuguese isn't harder than other languages.",
-        explanation: "Bagno's myth number two, refuted: \"mais difícil que\" (or \"do que\"). Language names take the article in Portuguese: \"o português\".",
+        explanation: "One of Bagno's myths, refuted: \"mais difícil que\" (or \"do que\"). Language names take the article in Portuguese: \"o português\".",
       },
       {
         type: "dictation",

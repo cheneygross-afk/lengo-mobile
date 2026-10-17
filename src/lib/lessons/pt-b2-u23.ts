@@ -121,7 +121,7 @@ export const PT_B2_U23: Lesson[] = [
           {
             type: "speak",
             text: "Que pena que você não possa vir!",
-            tip: "Stress PO in \"possa\" with an open o, and let \"pena\" sound nasal: PEH-na.",
+            tip: "Stress PO in \"possa\" with an open o, and let the closed ê of \"pena\" sound nasal: PÊ-na.",
             explanation: "The subjunctive after \"que pena que\" is the B2 detail Brazilians notice.",
           },
         ],
@@ -2094,7 +2094,7 @@ export const PT_B2_U23: Lesson[] = [
             prompt: "A learner wrote \"Que pena que você não vem amanhã.\" Translate the English correctly.",
             source: "What a shame you're not coming tomorrow.",
             answer: "Que pena que você não venha amanhã.",
-            altAnswers: ["Que pena que você não vai vir amanhã.", "Que pena que o senhor não venha amanhã.", "Que pena que a senhora não venha amanhã.", "Que pena que vocês não venham amanhã."],
+            altAnswers: ["Que pena que o senhor não venha amanhã.", "Que pena que a senhora não venha amanhã.", "Que pena que vocês não venham amanhã."],
             explanation: "\"Que pena que\" + present subjunctive: \"venha\", not \"vem\".",
           },
           {

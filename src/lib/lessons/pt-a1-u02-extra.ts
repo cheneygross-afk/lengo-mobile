@@ -86,7 +86,7 @@ export const PT_A1_U02_EXTRA: Lesson[] = [
         en: "[My mother] is a teacher.",
         sentence: "___ é professora.",
         answer: "Minha mãe",
-        altAnswers: ["Mãe"],
+        altAnswers: ["A minha mãe"],
         explanation: "\"Mãe\" is a nasal a gliding into i, like 'eye' through the nose. \"Minha\" has the nh of canyon.",
       },
       {
@@ -614,7 +614,7 @@ export const PT_A1_U02_EXTRA: Lesson[] = [
           },
           {
             type: "listen-choose",
-            audio: "Agá, e, ele, e, ene, a.",
+            audio: "Agá, é, ele, é, ene, a.",
             question: "What name is being spelled?",
             options: ["Helena", "Elena", "Heleno", "Halena"],
             correctIndex: 0,

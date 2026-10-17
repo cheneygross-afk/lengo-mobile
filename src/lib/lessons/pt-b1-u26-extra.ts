@@ -467,7 +467,8 @@ export const PT_B1_U26_EXTRA: Lesson[] = [
         en: "I [was] really happy with the result.",
         sentence: "Eu ___ muito feliz com o resultado.",
         answer: "fiquei",
-        explanation: "A reaction: \"ficar\" + adjective.",
+        altAnswers: ["estava"],
+        explanation: "A reaction to the result: \"ficar\" + adjective, \"fiquei muito feliz\". \"Estava\" also works, but it describes your state rather than your reaction.",
       },
       {
         type: "multiple-choice",

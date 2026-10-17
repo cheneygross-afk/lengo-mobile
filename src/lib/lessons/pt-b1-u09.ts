@@ -1356,7 +1356,7 @@ export const PT_B1_U09: Lesson[] = [
             question: "What does it mean?",
             options: ["She left without them seeing.", "She left without seeing them.", "They left without her seeing.", "She left before they saw."],
             correctIndex: 0,
-            explanation: "\"Sem eles verem\": \"eles\" is the subject of \"verem\", so they are the ones not seeing. Without seeing them would be \"sem ver eles\".",
+            explanation: "\"Sem eles verem\": \"eles\" is the subject of \"verem\", so they are the ones not seeing. Without seeing them would be \"sem vê-los\" in writing, or \"sem ver eles\" in speech.",
           },
           {
             type: "word-order",
@@ -1585,7 +1585,7 @@ export const PT_B1_U09: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "Let's wait until you all finish your coffee.",
             answer: "Vamos esperar até vocês terminarem o café.",
-            altAnswers: ["Vamos esperar até vocês terminarem o cafézinho.", "A gente espera até vocês terminarem o café.", "Vamos esperar até que vocês terminem o café.", "Vamos esperar vocês terminarem o café."],
+            altAnswers: ["Vamos esperar até vocês terminarem o cafezinho.", "A gente espera até vocês terminarem o café.", "Vamos esperar até que vocês terminem o café.", "Vamos esperar vocês terminarem o café."],
             explanation: "The subject changes (we wait, you finish), so \"até vocês terminarem\". \"Até que vocês terminem\" says the same with the subjunctive.",
           },
           {
@@ -1905,7 +1905,7 @@ export const PT_B1_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "The teacher reminds the class: The students must hand in the work by Friday. Which sentence gets it right?",
         options: [
           "Os alunos devem entregar o trabalho até sexta.",
           "Os alunos devem entregarem o trabalho até sexta.",

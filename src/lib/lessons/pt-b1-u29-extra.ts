@@ -133,6 +133,7 @@ export const PT_B1_U29_EXTRA: Lesson[] = [
         en: "He [skipped class] to watch the game.",
         sentence: "Ele ___ para ver o jogo.",
         answer: "matou aula",
+        altAnswers: ["matou a aula"],
         explanation: "\"Matar aula\" is to skip class.",
       },
       {
@@ -308,6 +309,7 @@ export const PT_B1_U29_EXTRA: Lesson[] = [
         en: "She [created an account] on the website.",
         sentence: "Ela ___ no site.",
         answer: "criou uma conta",
+        altAnswers: ["fez uma conta", "abriu uma conta"],
         explanation: "\"Criar uma conta\".",
       },
       {
@@ -489,6 +491,7 @@ export const PT_B1_U29_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: In case the phone freezes, restart it.",
         words: ["Caso", "o", "celular", "trave,", "reinicie."],
+        altOrders: [["reinicie.", "Caso", "o", "celular", "trave,"]],
         translation: "In case the phone freezes, restart it.",
         explanation: "\"Caso\" + subjunctive: \"trave\".",
       },

@@ -841,7 +841,7 @@ export const PT_B1_U15: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "We need the documents for the meeting. (WhatsApp to a colleague)",
         answer: "A gente precisa dos documentos pra reunião.",
-        altAnswers: ["A gente precisa dos documentos para a reunião.", "A gente precisa dos documentos pra a reunião."],
+        altAnswers: ["A gente precisa dos documentos para a reunião."],
         explanation: "In chat, \"a gente\" takes the ele/ela form \"precisa\", and \"para a\" shrinks to \"pra\".",
       },
       {
@@ -1954,7 +1954,7 @@ export const PT_B1_U15: Lesson[] = [
         type: "speak",
         text: "Prezado Senhor, escrevo para solicitar informações.",
         prompt: "Say it in Portuguese: Dear Sir, I am writing to request information.",
-        tip: "Make the õe in informações nasal, and give the s between vowels in Prezado's ending no z: it's pre-ZA-du.",
+        tip: "Make the õe in informações nasal, and say the z in Prezado as a real z: pre-ZA-du, with the final o as u.",
         explanation: "Opening plus purpose in one breath: \"Prezado Senhor\" + \"escrevo para\" + infinitive.",
       },
       {

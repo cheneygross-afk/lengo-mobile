@@ -1607,7 +1607,7 @@ export const PT_C2_U09: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "The kids were rather sleepy at midnight.",
         answer: "As crianças estavam meio sonolentas à meia-noite.",
-        altAnswers: ["À meia-noite as crianças estavam meio sonolentas.", "As crianças estavam meio sonolentas à meia-noite."],
+        altAnswers: ["À meia-noite as crianças estavam meio sonolentas.", "À meia-noite, as crianças estavam meio sonolentas."],
         explanation: "Both forms appear in one sentence. \"Meio\" is the adverb and stays invariable before \"sonolentas\". \"Meia\" in \"meia-noite\" is the adjective half, and \"à\" is crase before a feminine time expression.",
       },
       {

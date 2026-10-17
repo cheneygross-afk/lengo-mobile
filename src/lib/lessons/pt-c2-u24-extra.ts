@@ -33,7 +33,7 @@ export const PT_C2_U24_EXTRA: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "Eventually, the two companies reached an agreement.",
             answer: "Por fim, as duas empresas chegaram a um acordo.",
-            altAnswers: ["Finalmente, as duas empresas chegaram a um acordo.", "No fim, as duas empresas chegaram a um acordo.", "No final, as duas empresas chegaram a um acordo.", "Afinal, as duas empresas chegaram a um acordo."],
+            altAnswers: ["Finalmente, as duas empresas chegaram a um acordo.", "No fim, as duas empresas chegaram a um acordo.", "No final, as duas empresas chegaram a um acordo.", "Com o tempo, as duas empresas chegaram a um acordo."],
             explanation: "'Eventually' is \"por fim\" or \"finalmente\"; an agreement is an \"acordo\".",
           },
           {
