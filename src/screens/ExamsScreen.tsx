@@ -4,6 +4,9 @@ import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { useCourseExams } from "@/components/exams/useCourseExams";
 import { formatMinutes } from "@/lib/exams/scoring";
+import TapText from "@/components/TapText";
+import { PORTUGUESE_LANG } from "@/lib/speech";
+import type { Exam } from "@/lib/exams/types";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Exams">;
 
@@ -13,13 +16,16 @@ const BRAND = "#7A1F1F";
 // exam per level (src/lib/exams, synced from the website). With course
 // "fr", the French course's DELF/DALF exams (src/lib/exams/fr), as on the
 // website's /lessons/fr/tools/delf; with "de", the German course's
-// Goethe-Zertifikat exams (src/lib/exams/de, /lessons/de/tools/goethe).
+// Goethe-Zertifikat exams (src/lib/exams/de, /lessons/de/tools/goethe);
+// with "pt", the Portuguese beta's Celpe-Bras exams and the Deep End A2
+// practice test (src/lib/exams/pt, /lessons/pt/tools/celpe-bras).
 export default function ExamsScreen({ navigation, route }: Props) {
   const course = route.params?.course ?? "es";
   const exams = useCourseExams(course);
   useLayoutEffect(() => {
     if (course === "fr") navigation.setOptions({ title: "DELF & DALF practice" });
     if (course === "de") navigation.setOptions({ title: "Goethe-Zertifikat practice" });
+    if (course === "pt") navigation.setOptions({ title: "Celpe-Bras practice" });
   }, [navigation, course]);
   if (!exams) {
     return (
@@ -28,6 +34,7 @@ export default function ExamsScreen({ navigation, route }: Props) {
       </View>
     );
   }
+  if (course === "pt") return <PortugueseExams exams={exams} onOpen={(slug) => navigation.navigate("Exam", { slug, course: "pt" })} />;
   return (
     <ScrollView style={s.screen} contentContainerStyle={s.content}>
       <Text style={s.intro}>
@@ -67,6 +74,59 @@ export default function ExamsScreen({ navigation, route }: Props) {
   );
 }
 
+// The website's /lessons/pt/tools/celpe-bras: the four Celpe-Bras practice
+// exams (one exam for everyone, as the real Celpe-Bras is) and, below them,
+// the Deep End A2 practice test for learners not yet at B1.
+function PortugueseExams({ exams, onOpen }: { exams: Exam[]; onOpen: (slug: string) => void }) {
+  const isPractice = (e: Exam) => e.slug === "pt-pratica-a2";
+  const card = (exam: Exam) => {
+    const total = exam.papers.reduce((m, p) => m + p.minutes, 0);
+    const tasks = exam.papers.reduce((m, p) => m + p.tasks.length, 0);
+    return (
+      <Pressable key={exam.slug} style={s.card} onPress={() => onOpen(exam.slug)}>
+        <Text style={s.kicker}>{isPractice(exam) ? "Deep End A2 practice (not Celpe-Bras)" : "Celpe-Bras"}</Text>
+        <Text style={s.title}>{exam.title}</Text>
+        <TapText text={exam.description} lang={PORTUGUESE_LANG} mode="mixed" style={s.description} />
+        <Text style={s.meta}>
+          {exam.papers.length} parts · about {formatMinutes(total)} · {tasks} tasks, writing and speaking
+        </Text>
+      </Pressable>
+    );
+  };
+  const practice = exams.filter(isPractice);
+  return (
+    <ScrollView style={s.screen} contentContainerStyle={s.content}>
+      <TapText
+        text={`Full-length practice exams in the format of the Celpe-Bras, Brazil's official certificate of Portuguese for foreigners. It's one exam for every candidate: the "Parte Coletiva" asks you to write four texts, each for a stated reader and purpose, from a video, a recording and two reading texts, and the "Parte Individual" is a 20-minute conversation with an examiner.`}
+        lang={PORTUGUESE_LANG}
+        mode="mixed"
+        style={s.intro}
+      />
+      <Text style={s.intro}>
+        Writing gets feedback on your text against the Celpe-Bras criteria, and speaking gives you the examiner&apos;s questions,
+        timers and a model answer. Take a part untimed to practise, or switch on timed mode to rehearse the real thing.
+      </Text>
+      <Text style={s.section}>Celpe-Bras practice exams</Text>
+      {exams.filter((e) => !isPractice(e)).map(card)}
+      {practice.length > 0 ? (
+        <>
+          <Text style={s.section}>Not at B1 yet? Deep End practice</Text>
+          <Text style={s.intro}>
+            The Celpe-Bras has no A1 or A2 level. This shorter test is Deep End practice at A2 in the same integrated style, to get
+            used to writing for a reader from something you heard or read. It is not a Celpe-Bras exam and gives no certificate
+            level.
+          </Text>
+          {practice.map(card)}
+        </>
+      ) : null}
+      <Text style={s.note}>
+        The Celpe-Bras is an exam of Inep, for Brazil&apos;s Ministry of Education. These practice exams are written by Deep End and
+        are not official exam material.
+      </Text>
+    </ScrollView>
+  );
+}
+
 const s = StyleSheet.create({
   screen: { flex: 1, backgroundColor: "#FAF6F1" },
   loading: { alignItems: "center", justifyContent: "center" },
@@ -88,4 +148,6 @@ const s = StyleSheet.create({
   meta: { fontSize: 13, color: "#00000066" },
   description: { fontSize: 14, color: "#000000aa", lineHeight: 20 },
   note: { fontSize: 12, color: "#00000066", lineHeight: 17 },
+  kicker: { fontSize: 11, letterSpacing: 0.8, color: "#00000066", textTransform: "uppercase" },
+  section: { fontSize: 17, fontWeight: "700", color: "#000", marginTop: 6 },
 });

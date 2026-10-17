@@ -70,7 +70,7 @@ export const EN_B2_U10: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Me han robado la cartera.",
+            source: "Me robaron la billetera.",
             answer: "My wallet has been stolen.",
             altAnswers: [
               "Someone has stolen my wallet.",
@@ -92,7 +92,7 @@ export const EN_B2_U10: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "When I got to the station, the train ___ .",
             answer: "had been canceled",
-            altAnswers: ["had already been cancelled", "had been called off"],
+            altAnswers: ["had already been canceled", "had already been cancelled", "had been called off"],
             en: "Cuando llegué a la estación, [habían cancelado] el tren.",
             explanation: "The cancellation happened before I arrived: past perfect passive, \"had been\" + participle.",
           },
@@ -124,7 +124,7 @@ export const EN_B2_U10: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence means «están reparando mi portátil»?",
+            question: "Which sentence means «están reparando mi laptop»?",
             options: ["My laptop is being repaired.", "My laptop is repairing.", "My laptop is being repair.", "My laptop is been repaired."],
             correctIndex: 0,
             explanation: "Continuous passive: \"is being\" + participle. \"Is repairing\" makes the laptop the repairer, and \"is been\" mixes two tenses.",
@@ -345,7 +345,7 @@ export const EN_B2_U10: Lesson[] = [
         examples: [
           { es: "I should have been told about the change.", en: "Me deberían haber avisado del cambio." },
           { es: "The accident could have been avoided.", en: "El accidente se podría haber evitado." },
-          { es: "The keys must have been left in the car.", en: "Las llaves se han debido de quedar en el carro." },
+          { es: "The keys must have been left in the car.", en: "Las llaves se deben de haber quedado en el carro." },
           { es: "The letter might have been sent to the wrong address.", en: "Puede que la carta se enviara a la dirección equivocada." },
           { es: "The report should have been finished yesterday.", en: "El informe se tendría que haber terminado ayer." },
         ],
@@ -447,7 +447,7 @@ export const EN_B2_U10: Lesson[] = [
             prompt: "Translate into English.",
             source: "Se casaron el año pasado.",
             answer: "They got married last year.",
-            altAnswers: ["They married last year.", "They were married last year."],
+            altAnswers: ["They married last year."],
             explanation: "«Casarse» is \"get married\". \"We are married\" describes the state; \"we got married\" describes the event.",
           },
           {
@@ -540,7 +540,7 @@ export const EN_B2_U10: Lesson[] = [
         sentence: "The roof ___ before winter.",
         answer: "needs to be repaired",
         altAnswers: ["needs repairing", "needs to be fixed", "needs fixing", "has to be repaired", "has to be fixed", "must be repaired", "must be fixed"],
-        en: "[Hay que reparar] el tejado antes del invierno.",
+        en: "[Hay que reparar] el techo antes del invierno.",
         explanation: "«Hay que» + verb about a thing: \"needs to be\" + participle, or \"needs\" + -ing.",
       },
       {
@@ -649,7 +649,7 @@ export const EN_B2_U10: Lesson[] = [
           { es: "English is spoken here.", en: "Aquí se habla inglés." },
           { es: "Spanish is spoken in more than twenty countries.", en: "Se habla español en más de veinte países." },
           { es: "Two engineers were hired last week.", en: "Se contrató a dos ingenieros la semana pasada." },
-          { es: "We were told to wait outside.", en: "Nos dijeron que esperáramos fuera." },
+          { es: "We were told to wait outside.", en: "Nos dijeron que esperáramos afuera." },
           { es: "She was offered a job in Boston.", en: "Le ofrecieron un trabajo en Boston." },
           { es: "I was given a key to the office.", en: "Me dieron una llave de la oficina." },
         ],
@@ -1332,7 +1332,7 @@ export const EN_B2_U10: Lesson[] = [
           { es: "Two men have been arrested after a robbery.", en: "Han detenido a dos hombres tras un robo." },
           { es: "Bridge to be closed for repairs.", en: "Cerrarán el puente por obras." },
           { es: "The bridge is going to be closed for repairs.", en: "Van a cerrar el puente por obras." },
-          { es: "Lost painting found in attic.", en: "Hallan en un desván un cuadro desaparecido." },
+          { es: "Lost painting found in attic.", en: "Hallan en un ático un cuadro desaparecido." },
         ],
         checkpoint: [
           {
@@ -1509,7 +1509,7 @@ export const EN_B2_U10: Lesson[] = [
           "«¿Ya está arreglado?» can be \"Is it fixed yet?\" (the state now) or \"Has it been fixed yet?\" (the action). Both are fine.",
         ],
         examples: [
-          { es: "Has my laptop been repaired yet?", en: "¿Ya han arreglado mi portátil?" },
+          { es: "Has my laptop been repaired yet?", en: "¿Ya arreglaron mi laptop?" },
           { es: "Has my order been shipped?", en: "¿Ya se ha enviado mi pedido?" },
           { es: "When will it be delivered?", en: "¿Cuándo lo entregarán?" },
           { es: "Is it still being repaired?", en: "¿Todavía lo están reparando?" },
@@ -1667,7 +1667,7 @@ export const EN_B2_U10: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Ya han arreglado mi portátil?",
+        source: "¿Ya arreglaron mi laptop?",
         answer: "Has my laptop been fixed yet?",
         altAnswers: [
           "Has my laptop been repaired yet?",
@@ -1884,8 +1884,8 @@ export const EN_B2_U10: Lesson[] = [
         examples: [
           { es: "The candidates are chosen by their parties.", en: "Los partidos eligen a los candidatos." },
           { es: "Debates are held on TV.", en: "Se celebran debates en la tele." },
-          { es: "Votes are cast at polling stations.", en: "Se vota en los colegios electorales." },
-          { es: "The ballots are counted after the polls close.", en: "Las papeletas se cuentan cuando cierran los colegios electorales." },
+          { es: "Votes are cast at polling stations.", en: "Se vota en los centros de votación." },
+          { es: "The ballots are counted after the polls close.", en: "Las boletas se cuentan cuando cierran los centros de votación." },
           { es: "The new government is sworn in.", en: "El nuevo gobierno toma posesión." },
         ],
         checkpoint: [
@@ -1981,7 +1981,7 @@ export const EN_B2_U10: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Las papeletas se cuentan a mano.",
+        source: "Las boletas se cuentan a mano.",
         answer: "The ballots are counted by hand.",
         altAnswers: [
           "Ballots are counted by hand.",
@@ -2213,7 +2213,7 @@ export const EN_B2_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Me robaron la cartera en el metro.» Which sentence is correct?",
+        question: "«Me robaron la billetera en el metro.» Which sentence is correct?",
         options: [
           "My wallet got stolen on the subway.",
           "My wallet stole on the subway.",

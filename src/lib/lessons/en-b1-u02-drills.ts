@@ -141,7 +141,7 @@ export const EN_B1_U02_DRILLS: Lesson[] = [
       ], "\"Tom's gone home\" = \"Tom has gone home\": he left and is not here now. Note \"go home\" without \"to\"."),
       fb("Police ___ two men after the robbery in the city center.", "have arrested", "La policía [ha detenido] a dos hombres tras el robo en el centro.",
         "The news opens with the present perfect. \"Police\" is always plural, so \"have arrested\", never *the police has."),
-      tr("Un incendio ha destruido una fábrica en Lima. Empezó a las dos de la mañana.", "A fire has destroyed a factory in Lima. It started at two {in the morning|a.m.|o'clock in the morning}.",
+      tr("Un incendio ha destruido una fábrica en Lima. Empezó a las dos de la mañana.", "A fire has destroyed a factory in Lima. It started at two {in the morning.|a.m.|o'clock in the morning.}",
         "The news pattern: present perfect for the headline fact (\"has destroyed\"), past simple for the details with a time (\"It started at two\")."),
       mc("Prices ___ by ten percent this year.", ["have risen", "have rised", "have rose", "has risen"],
         "\"This year\" is not finished, so the present perfect. \"Rise, rose, risen\": the participle is \"risen\". \"Prices\" is plural, so \"have\", not \"has\"."),

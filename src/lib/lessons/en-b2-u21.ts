@@ -1331,7 +1331,8 @@ export const EN_B2_U21: Lesson[] = [
             answer: "Neither of them has a garage.",
             altAnswers: alts(
               "Neither of them has a garage.",
-              "Neither {of them|one|one of them} {has|have} {a garage|parking|a parking space|a parking spot}.",
+              "Neither {of them|one of them} {has|have} {a garage|parking|a parking space|a parking spot}.",
+              "Neither one has {a garage|parking|a parking space|a parking spot}.",
             ),
             explanation: "\"Neither of them\" + positive verb. \"Neither of them doesn't have\" is a double negative.",
           },
@@ -1567,7 +1568,7 @@ export const EN_B2_U21: Lesson[] = [
           "Before you finish, check the classic errors: no double comparatives, \"fewer\" with countable nouns, \"every\" + singular, and no \"the\" with general ideas: \"Life is more relaxed\", not *The life is more relaxed.",
         ],
         examples: [
-          { es: "There are plenty of parks, but hardly any bike lanes.", en: "Hay parques de sobra, pero casi ningún carril bici." },
+          { es: "There are plenty of parks, but hardly any bike lanes.", en: "Hay parques de sobra, pero casi ninguna ciclovía." },
           { es: "My hometown gets far fewer tourists than the capital.", en: "Mi ciudad recibe muchísimos menos turistas que la capital." },
           { es: "Life is much more relaxed in a small town.", en: "La vida es mucho más tranquila en una ciudad pequeña. (incorrecto: *The life)" },
           { es: "All in all, I'd rather live by the sea.", en: "En definitiva, prefiero vivir junto al mar." },

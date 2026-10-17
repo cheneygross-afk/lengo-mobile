@@ -486,7 +486,7 @@ export const EN_B1_U06_EXTRA: Lesson[] = [
           "Like \"if\", \"unless\" takes the present for the future. Spanish uses the subjunctive («a menos que llame»), but English says \"unless she calls\", never *unless she will call.",
         ],
         examples: [
-          { es: "I won't buy it unless it's on sale.", en: "No lo compraré a menos que esté rebajado." },
+          { es: "I won't buy it unless it's on sale.", en: "No lo compraré a menos que esté en oferta." },
           { es: "Unless we leave now, we'll miss the train.", en: "Si no salimos ya, perderemos el tren." },
           { es: "He never calls unless he needs money.", en: "Nunca llama a menos que necesite dinero." },
           { es: "Don't open the door unless you know who it is.", en: "No abras la puerta a menos que sepas quién es." },
@@ -608,7 +608,7 @@ export const EN_B1_U06_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Te dejo mi portátil con tal de que lo cuides.",
+        source: "Te presto mi laptop con tal de que la cuides.",
         answer: "I'll lend you my laptop as long as you take care of it.",
         altAnswers: ["I'll lend you my laptop provided that you take care of it.", "I'll lend you my laptop provided you take care of it.", "I'll lend you my laptop as long as you look after it.", "I'll lend you my laptop provided that you look after it.", "I'll lend you my laptop if you take care of it.", "I'll lend you my laptop as long as you're careful with it.", "You can borrow my laptop as long as you take care of it.", "You can borrow my laptop as long as you look after it.", "I'll lend you my laptop so long as you take care of it."],
         explanation: "«Con tal de que» = \"as long as\" / \"provided that\" + present. The Spanish present «te dejo» is an offer, so \"I'll lend you\". «Dejar» here is \"lend\", not \"leave\".",
@@ -803,7 +803,7 @@ export const EN_B1_U06_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "I took my laptop ___ I had time to work on the train.",
         answer: "in case",
-        en: "Me llevé el portátil [por si] tenía tiempo de trabajar en el tren.",
+        en: "Me llevé la laptop [por si] tenía tiempo de trabajar en el tren.",
         explanation: "A past precaution: \"in case\" + past simple (\"in case I had time\").",
       },
       {

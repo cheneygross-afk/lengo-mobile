@@ -575,7 +575,7 @@ export const EN_A2_U12_EXTRA: Lesson[] = [
         instructions: "Une cada verbo con la forma que lo sigue.",
         pairs: [
           { left: "enjoy", right: "-ing" },
-          { left: "want", right: "to + verbo" },
+          { left: "stop", right: "-ing (dejar de hacer algo)" },
           { left: "would like", right: "solo to + verbo" },
           { left: "like", right: "-ing o to + verbo" },
         ],

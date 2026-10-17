@@ -1,13 +1,15 @@
-// The French and German courses' stories behind one interface, for the
-// shared story screens (ReadingLevels, ReadingsList, StoryReader). Each
-// course's stories load on demand (stories/french.ts, stories/german.ts):
+// The French and German courses' and the Brazilian Portuguese beta's
+// stories behind one interface, for the shared story screens
+// (ReadingLevels, ReadingsList, StoryReader). Each course's stories load on
+// demand (stories/french.ts, stories/german.ts, stories/portuguese.ts):
 // only that course's readers need them.
 import type { Story, StoryGloss } from "./types";
 import { findFrenchStory, frenchStoriesIfLoaded, isFrenchStorySlug, loadFrenchStories } from "./french";
 import { findGermanStory, germanStoriesIfLoaded, isGermanStorySlug, loadGermanStories } from "./german";
-import { FRENCH_LANG, GERMAN_LANG, type SpeechLang } from "@/lib/speech";
+import { findPortugueseStory, isPortugueseStorySlug, loadPortugueseStories, portugueseStoriesIfLoaded } from "./portuguese";
+import { FRENCH_LANG, GERMAN_LANG, PORTUGUESE_LANG, type SpeechLang } from "@/lib/speech";
 
-export type StoryCourse = "fr" | "de";
+export type StoryCourse = "fr" | "de" | "pt";
 
 export type CourseStoryLevel = {
   path: "a1" | "a2" | "b1" | "b2" | "c1" | "c2";
@@ -23,11 +25,11 @@ export type CourseStories = {
 
 export type StoryCourseConfig = {
   course: StoryCourse;
-  /** "French", "German". */
+  /** "French", "German", "Portuguese". */
   name: string;
   lang: SpeechLang;
   /** The translator direction for a tapped word. */
-  direction: "fr-en" | "de-en";
+  direction: "fr-en" | "de-en" | "pt-en";
   /** The story levels whose key words are listed under the text. */
   keyWordLevels: string[];
   load: () => Promise<CourseStories>;
@@ -62,6 +64,17 @@ export const STORY_COURSES: Record<StoryCourse, StoryCourseConfig> = {
     find: findGermanStory,
     isSlug: isGermanStorySlug,
   },
+  pt: {
+    course: "pt",
+    name: "Portuguese",
+    lang: PORTUGUESE_LANG,
+    direction: "pt-en",
+    keyWordLevels: ["PT-A1", "PT-A2"],
+    load: loadPortugueseStories,
+    ifLoaded: portugueseStoriesIfLoaded,
+    find: findPortugueseStory,
+    isSlug: isPortugueseStorySlug,
+  },
 };
 
 /** The course a story belongs to, from its slug or levelPath; null for a
@@ -69,5 +82,6 @@ export const STORY_COURSES: Record<StoryCourse, StoryCourseConfig> = {
 export function storyCourseOf(slug: string, levelPath?: string): StoryCourse | null {
   if (isFrenchStorySlug(slug) || levelPath?.startsWith("fr/")) return "fr";
   if (isGermanStorySlug(slug) || levelPath?.startsWith("de/")) return "de";
+  if (isPortugueseStorySlug(slug) || levelPath?.startsWith("pt/")) return "pt";
   return null;
 }

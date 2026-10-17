@@ -1,0 +1,412 @@
+// Synced from cheneygross-afk/lengo:src/lib/lessons/en-b2-u18-drills.ts by scripts/sync-content.mjs -- edit it there, not here.
+import type { Exercise, Lesson } from "./types";
+
+// Required drill lessons for EN-B2 unit u18 (formal writing: emails, register, essays, paragraphs, reviews, reports, complaints and cover letters): a short recap, then graded practice.
+
+const SLUG = "en-b2-formal-writing";
+
+// ---- small authoring helpers (local to this file) ----------------------
+// Answer patterns use {a|b|} for alternatives; every combination is
+// accepted, and the first combination is the main answer.
+function x(p: string): string[] {
+  const m = p.match(/\{([^{}]*)\}/);
+  if (!m || m.index === undefined) return [p.replace(/\s+/g, " ").replace(/\s+([,.!?;])/g, "$1").trim()];
+  const out: string[] = [];
+  for (const opt of m[1].split("|")) out.push(...x(p.slice(0, m.index) + opt + p.slice(m.index + m[0].length)));
+  return out;
+}
+function xs(ps: string | string[]): string[] {
+  return [...new Set((Array.isArray(ps) ? ps : [ps]).flatMap(x))];
+}
+const tr = (source: string, answers: string | string[], explanation: string, prompt = "Translate into English."): Exercise => {
+  const [answer, ...alts] = xs(answers);
+  return { type: "translate", direction: "es-en", prompt, source, answer, ...(alts.length ? { altAnswers: alts } : {}), explanation };
+};
+const fb = (sentence: string, answers: string | string[], en: string, explanation: string): Exercise => {
+  const [answer, ...alts] = xs(answers);
+  return { type: "fill-blank", prompt: "Write the bold words in English.", sentence, answer, en, ...(alts.length ? { altAnswers: alts } : {}), explanation };
+};
+const mc = (question: string, options: string[], explanation: string): Exercise => ({ type: "multiple-choice", question, options, correctIndex: 0, explanation });
+const wo = (sentence: string, translation: string, explanation: string, alts?: string[]): Exercise => ({
+  type: "word-order",
+  prompt: "Put the words in order.",
+  words: sentence.split(" "),
+  translation,
+  ...(alts ? { altOrders: alts.map((a) => a.split(" ")) } : {}),
+  explanation,
+});
+const dc = (audio: string, explanation: string): Exercise => ({ type: "dictation", audio, explanation });
+const lc = (audio: string, options: string[], explanation: string, question = "What does it mean?"): Exercise => ({ type: "listen-choose", audio, question, options, correctIndex: 0, explanation });
+const sp = (text: string, explanation: string, tip?: string, prompt?: string): Exercise => ({ type: "speak", text, ...(prompt ? { prompt } : {}), ...(tip ? { tip } : {}), explanation });
+const mt = (instructions: string, pairs: [string, string][], explanation: string): Exercise => ({ type: "matching", instructions, pairs: pairs.map(([left, right]) => ({ left, right })), explanation });
+
+const SECONDS: Record<Exercise["type"], number> = {
+  "multiple-choice": 15, "multi-select": 20, "listen-choose": 20, "fill-blank": 20, translate: 30,
+  "word-order": 25, matching: 30, dictation: 30, speak: 25, write: 300,
+};
+const lesson = (
+  n: number,
+  title: string,
+  summary: string,
+  heading: string,
+  body: string[],
+  examples: [string, string][],
+  exercises: Exercise[],
+): Lesson => ({
+  slug: `${SLUG}-unit-drill-${n}`,
+  level: "EN-B2",
+  number: n,
+  title: `Drill: ${title}`,
+  summary,
+  duration: `${Math.round((exercises.reduce((s, e) => s + SECONDS[e.type], 0) + 40) / 60)} min`,
+  sections: [{ heading, body, examples: examples.map(([es, en]) => ({ es, en })) }],
+  exercises,
+});
+
+export const EN_B2_U18_DRILLS: Lesson[] = [
+  // ---------------------------------------------------------------------
+  // Drill 1. Formal emails, register, opinion essays
+  // ---------------------------------------------------------------------
+  lesson(
+    1,
+    "Formal Emails, Register and Opinions",
+    "You will be able to open, request and close a formal email, switch between formal and informal vocabulary, and state and support an opinion in an essay.",
+    "Recap: fixed formulas and the right register",
+    [
+      "Formal emails: \"Dear Ms. + surname\", \"I am writing to\" + verb (never *I write you for), \"I would be grateful if you could...\", \"Please find attached...\", \"I look forward to hearing from you\" (-ing after \"to\"). Formal register prefers \"receive\", \"request\", \"postpone\", \"attend\" (not *assist to) and no contractions.",
+      "Essays: one opinion phrase per sentence (\"In my view,\" not *In my opinion, I think; never *according to me), \"Firstly,\" not *At first, \"Moreover,\" or \"What is more,\" to add, \"On the other hand\" (not *on the other side) and \"To sum up,\" or \"All things considered,\" to finish.",
+    ],
+    [
+      ["I am writing to request a copy of my invoice.", "Le escribo para solicitar una copia de mi factura."],
+      ["I would appreciate it if you could call me back.", "Le agradecería que me devolviera la llamada."],
+      ["The meeting has been postponed until Thursday.", "La reunión se ha aplazado hasta el jueves."],
+      ["All things considered, the plan is worth trying.", "Teniendo todo en cuenta, vale la pena probar el plan."],
+    ],
+    [
+      fb("Dear Mr. Lopez, I am writing ___ ask about the apartment you advertised.", "to", "Estimado Sr. Lopez: Le escribo [para] preguntar por el departamento que anunció.",
+        "\"I am writing to\" + verb. Purpose before a verb is \"to\", never *for ask."),
+      fb("I would be grateful ___ you could send me the timetable.", "if", "Le agradecería [que] me enviara el horario.",
+        "\"I would be grateful if you could\" + base verb. English never uses *grateful that you send."),
+      fb("I would ___ if you could reply by Monday.", ["appreciate it", "be grateful"], "[Le agradecería] que respondiera antes del lunes.",
+        "\"Appreciate\" needs an object: \"I would appreciate it if...\". Without \"it\" the sentence is incomplete."),
+      fb("Please find ___ the signed contract.", "attached", "[Le adjunto] el contrato firmado.",
+        "\"Please find attached...\" is the classic formula. *I attach you the contract is wrong: you attach a document, not a person."),
+      fb("I look forward to ___ from you.", "hearing", "Quedo a la espera de [su respuesta].",
+        "\"To\" is a preposition here, so it takes -ing: \"look forward to hearing\"."),
+      fb("Last month I ___ a training course in Denver.", "attended", "El mes pasado [asistí a] un curso de capacitación en Denver.",
+        "«Asistir a» = \"attend\" (no preposition). \"Assist\" means «ayudar»."),
+      fb("Our prices will ___ by 5% in January.", ["increase", "rise", "go up"], "Nuestros precios [subirán] un 5 % en enero.",
+        "Formal register: \"increase\" is the Latinate partner of \"go up\"."),
+      mc("You don't know the name of the person. How do you start a formal email?", [
+        "Dear Sir or Madam,",
+        "Dear Ms. Laura,",
+        "Esteemed Sir,",
+        "Hi there!",
+      ], "Without a name: \"Dear Sir or Madam\" (or \"Dear Hiring Manager\"). The title goes with the surname, and «Estimado» is \"Dear\", not *Esteemed."),
+      mc("Which is the most formal way to say \"We need to look into the problem\"?", [
+        "We need to investigate the problem.",
+        "We gotta check out the problem.",
+        "We need to look into the stuff.",
+        "We need to find out the problem.",
+      ], "\"Look into\" → \"investigate\" in formal register. \"Stuff\" and \"gotta\" are informal."),
+      mc("Which sentence is correct in an essay?", [
+        "In my view, cities should have more bike lanes.",
+        "In my opinion, I think cities should have more bike lanes.",
+        "According to me, cities should have more bike lanes.",
+        "I am agree that cities should have more bike lanes.",
+      ], "One opinion phrase is enough. *According to me doesn't exist, and \"agree\" is a verb (no \"am\")."),
+      mc("You are starting the first argument of your essay. Which linker do you use?", [
+        "Firstly,",
+        "At first,",
+        "On the other side,",
+        "Resuming,",
+      ], "\"Firstly\" lists arguments. \"At first\" = «al principio» (in contrast to later); *on the other side and *Resuming are not linkers."),
+      mt("Match each informal verb with its formal partner.", [
+        ["ask for", "request"],
+        ["put off", "postpone"],
+        ["buy", "purchase"],
+        ["help", "assist"],
+        ["find out", "discover"],
+      ], "Formal writing prefers the single Latin-based verb; everyday speech prefers the phrasal verb."),
+      tr("Le escribo para solicitar información sobre sus cursos de verano.", ["I am writing to request information about your summer courses.", "I am writing to {ask for|request} {some |}information {about|on|regarding} your summer courses.", "I am writing to inquire about your summer courses.", "I am writing to enquire about your summer courses."],
+        "«Le escribo para» = \"I am writing to\". \"Information\" is uncountable: no -s."),
+      tr("Le escribo en respuesta a su anuncio.", ["I am writing in response to your {advertisement|ad|advert}.", "I am writing {with regard to|regarding} your {advertisement|ad|advert}."],
+        "\"In response to\" + noun. Not *I write you for."),
+      tr("Le agradecería que me enviara el contrato antes del viernes.", ["I would be grateful if you could send me the contract {before|by} Friday.", "I would appreciate it if you could send me the contract {before|by} Friday.", "I would be grateful if you could send the contract to me {before|by} Friday."],
+        "«Le agradecería que» + subjunctive = \"I would be grateful if you could\" + base verb."),
+      tr("¿Podría confirmarme la fecha de la reunión, por favor?", ["Could you please confirm the date of the meeting?", "Could you confirm the date of the meeting, please?", "Could you please confirm the meeting date?", "Could you confirm the meeting date, please?", "Would you please confirm the date of the meeting?"],
+        "\"Could you please...?\" is the polite request. \"Confirm\" takes the thing directly: no \"me\"."),
+      tr("No dude en ponerse en contacto conmigo si tiene alguna pregunta.", ["Please do not hesitate to contact me if you have any questions.", "Do not hesitate to contact me if you have any questions.", "Please don't hesitate to contact me if you have any questions."],
+        "\"Contact\" takes a direct object: \"contact me\", not *contact with me."),
+      tr("Recibimos su solicitud el martes.", ["We received your application on Tuesday.", "We received your request on Tuesday."],
+        "Formal \"receive\" instead of \"get\". Days take \"on\"."),
+      tr("En mi opinión, los colegios deberían empezar más tarde.", ["In my opinion, schools should start later.", "In my view, schools should start later.", "I believe {that |}schools should start later.", "In my opinion, schools should {begin|start} later."],
+        "One opinion phrase only. *In my opinion, I think... repeats the idea."),
+      tr("Según los expertos, el problema va a empeorar.", ["According to experts, the problem is going to get worse.", "According to {the |}experts, the problem will get worse.", "According to {the |}experts, the problem is going to {get worse|worsen}."],
+        "\"According to\" introduces someone else's view, never your own (*according to me)."),
+      tr("Además de ahorrar dinero, el teletrabajo reduce el tráfico.", ["In addition to saving money, {remote work|working from home|teleworking} reduces traffic.", "Besides saving money, {remote work|working from home|teleworking} reduces traffic."],
+        "\"In addition to\" is a preposition, so -ing follows: \"saving\", not *in addition to save."),
+      tr("Por otro lado, trabajar desde casa puede ser solitario.", ["On the other hand, working from home can be lonely.", "On the other hand, working from home can be {isolating|lonesome}."],
+        "«Por otro lado» = \"On the other hand\", not *On the other side. A gerund (\"working\") is the subject."),
+      wo("I am writing to confirm my reservation for May 12.", "Le escribo para confirmar mi reserva para el 12 de mayo.",
+        "\"I am writing to\" + verb: the standard first line."),
+      wo("Moreover, public transport reduces pollution in cities.", "Además, el transporte público reduce la contaminación en las ciudades.",
+        "\"Moreover\" starts the sentence, followed by a comma."),
+      wo("I was wondering if you could help me.", "Me preguntaba si podría ayudarme.",
+        "An indirect, polite request: \"I was wondering if you could...\"."),
+      lc("Further to our phone conversation, I am sending you the details.", ["En relación con nuestra conversación telefónica, le envío los detalles.", "Antes de nuestra llamada, le mandaré los detalles.", "Después de la llamada, le pediré los detalles.", "Le llamaré por teléfono para darle más detalles."],
+        "\"Further to\" + noun = «en relación con» a previous contact."),
+      lc("It appears that there has been a mistake with my order.", ["Parece que ha habido un error en mi pedido.", "Usted cometió un error con mi pedido.", "Apareció un error en mi pedido.", "Quiero cambiar mi pedido."],
+        "\"It appears that...\" is an impersonal, polite way to point out a problem, softer than \"You made a mistake\"."),
+      dc("I would be grateful if you could send me further information.",
+        "\"Grateful if you could\" + base verb. \"Information\" has no plural."),
+      dc("To sum up, the advantages clearly outweigh the disadvantages.",
+        "\"To sum up\" introduces the conclusion. \"Outweigh\" = «superar» in importance."),
+      dc("Please find attached a copy of my resume.",
+        "\"Please find attached\" + document. In American English a CV is a \"resume\"."),
+      sp("I look forward to hearing from you.",
+        "\"Look forward to\" + -ing: \"hearing\", never *to hear.",
+        "Stress \"forward\" and \"hearing\"."),
+      sp("I would appreciate it if you could reply by Friday.",
+        "Don't forget \"it\" after \"appreciate\".",
+        undefined, "Say it in English: «Le agradecería que respondiera antes del viernes.»"),
+      tr("Asistí a una conferencia en Miami y me gustaría solicitar el certificado.", ["I attended a conference in Miami and I would like to request the certificate.", "I attended a conference in Miami and would like to request the certificate.", "I attended a {conference|lecture|talk} in Miami and I would like to {ask for|request} the certificate."],
+        "Trap mix: «asistir a» = \"attend\" (not *assisted to) and \"would like to request\" (formal)."),
+      tr("Quisiera que me explicara el procedimiento.", ["I would like you to explain the procedure to me.", "Could you {please |}explain the procedure to me?", "I would be grateful if you could explain the procedure to me."],
+        "Trap mix: *I would like that you explain is wrong: \"would like\" + person + to-infinitive. And \"explain it to me\", never *explain me."),
+      mc("Which closing is correct for a formal email?", [
+        "Thank you for your time and consideration. Sincerely, Laura Diaz",
+        "Waiting for your answer. Kisses, Laura",
+        "I look forward to hear from you. Best regards, Laura Diaz",
+        "Thanks a lot, bye! Sincerely, Laura Diaz",
+      ], "Formal closing + \"Sincerely\" + full name. *Waiting for your answer sounds impatient, *look forward to hear is wrong, and mixing \"bye!\" with \"Sincerely\" mixes registers."),
+    ],
+  ),
+  // ---------------------------------------------------------------------
+  // Drill 2. Paragraphs and reference words, reviews, reports
+  // ---------------------------------------------------------------------
+  lesson(
+    2,
+    "Paragraphs, Reviews and Reports",
+    "You will be able to link sentences with reference words, write precise reviews and recommendations, and use impersonal language and quantities in a report.",
+    "Recap: reference words, evaluation and impersonal facts",
+    [
+      "Paragraphs: put the main idea first, avoid repeating nouns with \"this decision\", \"these changes\", \"such a + noun\" (never *a such) and \"the former / the latter\", and avoid comma splices. Every sentence needs a subject: \"It is important to...\".",
+      "Reviews: the story is the \"plot\" (not *argument); the film is \"disappointing\", you are \"disappointed\"; \"worth\" + -ing (never *worth to see); \"I recommend seeing it\", not *I recommend you to see. Reports: \"It was found that...\" (never *Was found that), \"most people\" (not *the most of people), \"It is recommended that the store open earlier\".",
+    ],
+    [
+      ["The town built a new bridge. This project took three years.", "El pueblo construyó un puente nuevo. Este proyecto tomó tres años."],
+      ["The museum is well worth a visit.", "Vale mucho la pena visitar el museo."],
+      ["It was found that most staff prefer flexible hours.", "Se descubrió que la mayoría del personal prefiere un horario flexible."],
+      ["It is recommended that the library hire two more assistants.", "Se recomienda que la biblioteca contrate a dos asistentes más."],
+    ],
+    [
+      fb("The company moved its offices to the suburbs. ___ decision surprised many employees.", "This", "La empresa trasladó sus oficinas a las afueras. [Esta] decisión sorprendió a muchos empleados.",
+        "\"This\" + a summarizing noun refers back to the whole idea and avoids repeating it."),
+      fb("Nobody expected ___ a long delay.", "such", "Nadie esperaba un retraso [tan] largo.",
+        "\"Such a\" + adjective + noun. Not *a such long delay."),
+      fb("We could take the train or the bus. The ___ is faster, but the latter is cheaper.", "former", "Podíamos tomar el tren o el autobús. El [primero] es más rápido, pero el segundo es más barato.",
+        "\"The former\" = the first of two items (the train); \"the latter\" = the second."),
+      fb("___ important to check your work before you send it.", ["It is", "It's"], "[Es] importante revisar tu trabajo antes de enviarlo.",
+        "English always needs a subject. Impersonal sentences use the dummy subject \"it\"."),
+      fb("The ___ of the novel is quite simple, but the characters are fascinating.", "plot", "El [argumento] de la novela es bastante sencillo, pero los personajes son fascinantes.",
+        "False friend: «argumento» of a story = \"plot\". An \"argument\" is a reason in a debate or a fight."),
+      fb("The ending was really ___. I expected much more.", "disappointing", "El final fue realmente [decepcionante]. Esperaba mucho más.",
+        "The thing that causes the feeling takes -ing: \"disappointing\". The person feels \"disappointed\"."),
+      fb("The new exhibit is definitely worth ___.", ["seeing", "visiting"], "Definitivamente vale la pena [ver] la nueva exposición.",
+        "\"Worth\" + -ing or a noun. Never *worth to see."),
+      fb("It was found ___ most customers pay by phone.", "that", "Se descubrió [que] la mayoría de los clientes paga con el celular.",
+        "\"It was found that...\" is the impersonal report formula."),
+      mc("Which sentence is correct?", [
+        "Most people check their email before breakfast.",
+        "The most of people check their email before breakfast.",
+        "Most of people check their email before breakfast.",
+        "The most people checks their email before breakfast.",
+      ], "«La mayoría de la gente» = \"most people\". \"Most of\" only goes before a determiner (\"most of the people\")."),
+      mc("Which sentence is correct?", [
+        "I recommend booking your tickets online.",
+        "I recommend you to book your tickets online.",
+        "I recommend to book your tickets online.",
+        "I recommend you booking your tickets online.",
+      ], "\"Recommend\" + -ing, or \"recommend that you book\". Not *recommend you to book."),
+      mc("Which sentence is correct?", [
+        "I was bored during the second half of the movie.",
+        "I was boring during the second half of the movie.",
+        "The movie was bored in the second half.",
+        "I was very boring with the movie.",
+      ], "The person feels \"bored\"; the movie is \"boring\". *I was boring means you were the dull one."),
+      mc("Which is a run-on sentence (a comma splice)?", [
+        "The room was dirty, the staff were rude, we left the next day.",
+        "The room was dirty and the staff were rude, so we left the next day.",
+        "The room was dirty. The staff were rude. We left the next day.",
+        "The room was dirty; the staff were rude. We left the next day.",
+      ], "Three sentences joined only by commas is a run-on. Use periods, semicolons or linkers like \"and\" and \"so\"."),
+      mt("Match each review adjective with its meaning.", [
+        ["gripping", "absorbente, trepidante"],
+        ["far-fetched", "inverosímil"],
+        ["overrated", "sobrevalorado"],
+        ["bland", "soso, sin sabor"],
+        ["thought-provoking", "que hace pensar"],
+      ], "Precise adjectives make a review credible; avoid \"good\", \"bad\" and \"nice\"."),
+      tr("La ciudad cerró dos hospitales. Esta medida provocó muchas protestas.", ["The city closed two hospitals. This measure {caused|led to|sparked} {many|a lot of} protests.", "The city closed two hospitals. This decision {caused|led to|sparked} {many|a lot of} protests."],
+        "\"This measure\" sums up the previous sentence instead of repeating it."),
+      tr("Nunca había visto una ciudad tan limpia.", ["I had never seen such a clean city.", "I'd never seen such a clean city.", "I had never seen a city {that|so} clean."],
+        "\"Such a\" + adjective + noun. *A such clean city is wrong."),
+      tr("La película está ambientada en Chicago en los años noventa.", ["The {movie|film} is set in Chicago in the {1990s|nineties|'90s|90s}."],
+        "«Estar ambientada en» = \"be set in\"."),
+      tr("El protagonista hace una actuación excepcional.", ["The lead actor gives an {outstanding|exceptional} performance.", "The {main|leading} actor gives an {outstanding|exceptional} performance.", "The {lead|main} {actor|actress} gives an {outstanding|exceptional} performance."],
+        "«Actuación» = \"performance\"; you \"give\" a performance."),
+      tr("Recomiendo mucho este restaurante a cualquiera a quien le guste la comida picante.", ["I'd highly recommend this restaurant to anyone who likes spicy food.", "I {highly recommend|would highly recommend|strongly recommend} this restaurant to anyone who {likes|loves|enjoys} spicy food."],
+        "\"Recommend\" + thing + \"to\" + person. \"Anyone who...\" introduces the right reader."),
+      tr("El único inconveniente es el precio.", ["The only drawback is the price.", "The only {downside|disadvantage|problem} is the price.", "My only complaint is the price."],
+        "Balanced criticism: \"The only drawback is...\"."),
+      tr("El objetivo de este informe es evaluar el nuevo sistema de pagos.", ["The aim of this report is to {evaluate|assess} the new payment system.", "The purpose of this report is to {evaluate|assess} the new payment system."],
+        "\"The aim of this report is to\" + base verb."),
+      tr("Se realizó una encuesta entre 300 clientes.", ["A survey was carried out among 300 customers.", "A survey was {conducted|done} among 300 {customers|clients}.", "A survey was carried out among 300 clients."],
+        "Reports use the passive. «Realizar» = \"carry out\" or \"conduct\", not *realize."),
+      tr("Más de la mitad de los empleados trabaja desde casa los viernes.", ["Over half of the {employees|staff} work from home on Fridays.", "More than half of the {employees|staff} work from home on Fridays.", "{Over|More than} half {of the|the} employees work from home on Fridays."],
+        "\"Over half of\" + plural noun + plural verb."),
+      tr("Se recomienda que la empresa contrate más personal.", ["It is recommended that the company hire more staff.", "It is recommended that the company should hire more {staff|employees|people}.", "It is recommended that the company hire more {employees|people}."],
+        "\"It is recommended that\" + base form (\"hire\", even with a singular subject), or \"should hire\"."),
+      wo("For these reasons, many people prefer to shop online.", "Por estas razones, mucha gente prefiere comprar en línea.",
+        "\"For these reasons\" closes a paragraph by summing up the supporting ideas."),
+      wo("The majority of respondents were happy with the service.", "La mayoría de los encuestados estaban contentos con el servicio.",
+        "\"The majority of\" + plural noun usually takes a plural verb: \"were\"."),
+      wo("Despite its slow start, the series becomes really gripping.", "A pesar de su comienzo lento, la serie se vuelve realmente absorbente.",
+        "\"Despite\" + noun phrase (\"its slow start\"), then the positive point."),
+      lc("Although the plot is predictable, the acting is superb.", ["Aunque el argumento es predecible, la actuación es magnífica.", "Como el argumento es predecible, la actuación es mala.", "La actuación es predecible, pero el argumento es magnífico.", "El argumento no es predecible y la actuación es buena."],
+        "Balanced criticism: concede a weakness with \"although\", then praise."),
+      lc("It is clear that more parking spaces are needed.", ["Está claro que se necesitan más plazas de estacionamiento.", "Está claro que sobran plazas de estacionamiento.", "Necesito estacionar más cerca.", "No está claro si se necesitan más plazas."],
+        "\"It is clear that...\" + passive \"are needed\": impersonal report language."),
+      dc("The city introduced new bike lanes. These changes were very popular.",
+        "\"These changes\" refers back to the bike lanes, so the noun isn't repeated."),
+      dc("It's a must-see for anyone who loves science fiction.",
+        "\"A must-see\" = something you shouldn't miss."),
+      sp("I'd highly recommend it to anyone who enjoys a good mystery.",
+        "\"Recommend it to\" + person.",
+        "\"I'd\" is short: say it like \"eyed\"."),
+      sp("It was found that most students study late at night.",
+        "Impersonal report language: \"It was found that...\".",
+        undefined, "Say it in English: «Se descubrió que la mayoría de los estudiantes estudia tarde por la noche.»"),
+      tr("Se descubrió que la mayoría de la gente no lee las condiciones.", ["It was found that most people {don't|do not} read the {terms and conditions|terms|conditions}.", "It was found that the majority of people {don't|do not} read the {terms and conditions|terms|conditions}."],
+        "Trap mix: *Was found that has no subject, and *the most of people is wrong. \"It was found that most people...\"."),
+      tr("Vale la pena ver la película, aunque el final es un poco decepcionante.", ["The {movie|film} is worth seeing, although the ending is {a little|a bit|somewhat|slightly} disappointing.", "It's worth seeing the {movie|film}, although the ending is {a little|a bit|somewhat|slightly} disappointing.", "The {movie|film} is worth watching, although the ending is {a little|a bit|somewhat|slightly} disappointing."],
+        "Trap mix: \"worth\" + -ing (not *worth to see), and \"disappointing\" for the thing that disappoints."),
+    ],
+  ),
+  // ---------------------------------------------------------------------
+  // Drill 3. Error hunt, complaint email, cover letter; whole-unit mix
+  // ---------------------------------------------------------------------
+  lesson(
+    3,
+    "Complaints, Cover Letters and Common Errors",
+    "You will be able to fix the typical formal-writing errors, write a firm complaint with passives and reported promises, and present your experience in a cover letter.",
+    "Recap: fix the transfer errors, then be firm and specific",
+    [
+      "Fix the classics: *I want that you send → \"I would like you to send\"; *I am agree → \"I agree\"; *explain me → \"explain it to me\"; *informations, *advices → \"information\", \"advice\"; *assist to → \"attend\"; \"depend on\", \"consist of\", \"interested in\". Keep one register from greeting to sign-off.",
+      "Complaints: passives (\"I was charged twice\"), reported promises (\"I was assured that it would arrive...\"), \"Had I known..., I would not have...\" and \"Unless I receive...\". Cover letters: \"apply for\" a job, \"I have worked in... for five years\", \"currently\" (not *actually), \"eventually\" = «al final», a \"degree\" (not *career) and \"an internship\".",
+    ],
+    [
+      ["I was promised a replacement within a week.", "Me prometieron un reemplazo en una semana."],
+      ["Had I known about the fee, I would have canceled earlier.", "De haber sabido lo de la comisión, habría cancelado antes."],
+      ["I have worked in sales for six years.", "Trabajo en ventas desde hace seis años."],
+      ["I have a degree in business from the University of Lima.", "Tengo un título en administración por la Universidad de Lima."],
+    ],
+    [
+      fb("Could you give me some ___ about the parking rules?", "information", "¿Podría darme [información] sobre las reglas de estacionamiento?",
+        "\"Information\" is uncountable: no -s, no \"an\". *some informations is wrong."),
+      fb("The price ___ on the size of the group.", "depends", "El precio [depende] del tamaño del grupo.",
+        "\"Depend on\", not *depend of."),
+      fb("Could you explain the new rules ___?", "to me", "¿Podría [explicarme] las nuevas reglas?",
+        "\"Explain\" + thing + \"to\" + person. *Explain me the rules is wrong."),
+      fb("The headphones I ordered turned out to be ___.", ["faulty", "defective"], "Los audífonos que pedí resultaron ser [defectuosos].",
+        "«Defectuoso» = \"faulty\" or \"defective\"."),
+      fb("I was ___ that the package would arrive within three days.", ["assured", "told", "promised"], "Me [aseguraron] que el paquete llegaría en tres días.",
+        "Passive reporting verb: \"I was assured that...\" holds the company to its promise. Note the backshift: \"would arrive\"."),
+      fb("___ I known the item was used, I would not have bought it.", "Had", "[De haber] sabido que el artículo era usado, no lo habría comprado.",
+        "Formal inversion of the third conditional: \"Had I known\" = \"If I had known\"."),
+      fb("I am writing to ___ the position of office manager.", "apply for", "Le escribo para [solicitar] el puesto de gerente de oficina.",
+        "You \"apply for\" a job and \"apply to\" a company."),
+      fb("I am ___ studying for a master's degree in finance.", ["currently", "presently"], "[Actualmente] estoy cursando una maestría en finanzas.",
+        "«Actualmente» = \"currently\". \"Actually\" means «en realidad»."),
+      mc("Which sentence is correct?", [
+        "I would like you to send me the updated invoice.",
+        "I would like that you send me the updated invoice.",
+        "I want that you send me the updated invoice.",
+        "I would like you send me the updated invoice.",
+      ], "\"Would like\" + person + to-infinitive. English never uses *would like that you..."),
+      mc("Which sentence is correct?", [
+        "Eventually, I was promoted to department manager.",
+        "Actually, I am working as a receptionist since 2023.",
+        "I have a career in economics from a public university.",
+        "I did a six-month formation at a bank.",
+      ], "\"Eventually\" = «al final». «Actualmente» is \"currently\", «carrera» is \"degree\" and «formación» is \"training\"."),
+      mc("Which sentence keeps a consistent formal register?", [
+        "Dear Mr. Green, I have not yet received the documents. Kind regards, Ana Ruiz",
+        "Dear Mr. Green, I haven't got the stuff yet. Kind regards, Ana Ruiz",
+        "Hey Mr. Green, I have not yet received the documents. Cheers, Ana",
+        "Dear Mr. Green, I have not yet received the documents. Hugs! Ana",
+      ], "Formal from start to finish: \"Dear\", no contractions, \"received\" (not \"got the stuff\") and a formal sign-off."),
+      mc("Which sentence is correct?", [
+        "Unless I receive a reply within seven days, I will contact my bank.",
+        "Unless I don't receive a reply within seven days, I will contact my bank.",
+        "Unless I will receive a reply within seven days, I contact my bank.",
+        "If I receive no reply within seven days, I contact with my bank.",
+      ], "\"Unless\" = «a menos que» + a positive verb in the present. *Unless I don't is a double negative."),
+      tr("Me cobraron dos veces el mismo artículo.", ["I was charged twice for the same item.", "I was charged twice for the same {product|article}.", "They charged me twice for the same item."],
+        "Passive \"I was charged\" focuses on what happened to you. \"Charge\" + person + \"for\" + thing."),
+      tr("Cuando llegó, la caja ya había sido abierta.", ["When it arrived, the box had already been opened.", "When it {arrived|came}, the box had already been opened."],
+        "Past perfect passive: \"had already been opened\" (it happened before the arrival)."),
+      tr("Me dijeron que enviarían un reemplazo de inmediato.", ["I was told that a replacement would be sent immediately.", "I was told {that |}a replacement would be sent {immediately|right away}.", "They told me {that |}they would send a replacement {immediately|right away}.", "I was told {that |}they would send a replacement {immediately|right away}."],
+        "Reported promise with backshift: \"will be sent\" → \"would be sent\"."),
+      tr("Me pidieron que enviara fotos de los daños.", ["I was asked to send photos of the damage.", "I was asked to send {pictures|photographs} of the damage.", "They asked me to send {photos|pictures|photographs} of the damage."],
+        "\"I was asked to\" + verb. *They asked me that I send is wrong."),
+      tr("Le agradecería un reembolso completo.", ["I would appreciate a full refund.", "I would be grateful for a full refund.", "I would appreciate {it if you could give me|receiving} a full refund."],
+        "\"I would appreciate\" + noun is a firm, polite request."),
+      tr("Si lo hubiera sabido, no habría pagado por adelantado.", ["If I had known, I would not have paid in advance.", "Had I known, I would not have paid in advance.", "If I had known, I wouldn't have paid {in advance|upfront|up front|beforehand}."],
+        "Third conditional: \"If I had known\" + \"would not have\" + participle. Formal option: \"Had I known\"."),
+      tr("Trabajo en atención al cliente desde hace cinco años.", ["I have worked in customer service for five years.", "I have been working in customer service for five years.", "I've worked in customer {service|support} for five years."],
+        "Spanish present + «desde hace» = present perfect + \"for\". *I work... since five years is wrong."),
+      tr("De 2018 a 2021 trabajé en un hotel en Cartagena.", ["From 2018 to 2021, I worked at a hotel in Cartagena.", "From 2018 to 2021 I worked {at|in} a hotel in Cartagena.", "Between 2018 and 2021, I worked {at|in} a hotel in Cartagena."],
+        "Finished period with dates: past simple \"worked\"."),
+      tr("Hice unas prácticas de seis meses en una agencia de publicidad.", ["I did a six-month internship at an advertising agency.", "I did a six-month internship {at|with|in} an {advertising|ad} agency.", "I completed a six-month internship {at|with|in} an {advertising|ad} agency."],
+        "«Prácticas» = \"an internship\". Note \"six-month\" (no -s) as an adjective."),
+      tr("Me gustaría trabajar en el extranjero para mejorar mi inglés.", ["I would like to work abroad {to|in order to} improve my English.", "I'd like to work abroad {to|in order to|so as to} improve my English."],
+        "Purpose: \"to\" / \"in order to\" + verb. Never *for improve."),
+      wo("I was assured that the product was under warranty.", "Me aseguraron que el producto estaba en garantía.",
+        "Passive reporting verb + backshift: \"is\" → \"was\"."),
+      wo("I am available for an interview at your convenience.", "Estoy disponible para una entrevista cuando le venga bien.",
+        "A standard closing line for a cover letter."),
+      wo("Thank you for your advice on my application.", "Gracias por sus consejos sobre mi solicitud.",
+        "\"Advice\" is uncountable: \"your advice\", not *your advices."),
+      lc("Had I known about the delay, I would have ordered from another store.", ["De haber sabido lo del retraso, lo habría pedido en otra tienda.", "Como sabía lo del retraso, lo pedí en otra tienda.", "Si hay retraso, lo pediré en otra tienda.", "No sabía que la tienda tenía retrasos."],
+        "\"Had I known\" = «de haber sabido»: an unreal past, so in fact the speaker didn't know."),
+      lc("I would welcome the opportunity to discuss my application further.", ["Me encantaría tener la oportunidad de hablar más a fondo de mi candidatura.", "Le doy la bienvenida a nuestra empresa.", "Quiero retirar mi solicitud.", "Agradezco que hayan hablado de mi solicitud."],
+        "A formal cover-letter close: \"I would welcome the opportunity to...\"."),
+      dc("The course consists of twelve sessions and costs four hundred dollars.",
+        "\"Consist of\", not *consist in. Numbers can be written as words or digits."),
+      dc("I worked at a hotel where I dealt with guests from all over the world.",
+        "\"Where\" for a place in a relative clause; \"deal with\" = «atender» or «tratar con»."),
+      dc("However, nothing has been sent so far.",
+        "Present perfect passive with \"so far\" («hasta ahora»)."),
+      sp("I agree with your proposal, and I would be happy to help.",
+        "\"I agree\" with no \"am\".",
+        undefined, "Say it in English: «Estoy de acuerdo con su propuesta y me encantaría ayudar.»"),
+      sp("Unless I receive a reply within ten days, I will contact a consumer organization.",
+        "\"Unless\" + positive present for a firm deadline.",
+        "Stress \"unless\" on the second syllable: un-LESS."),
+      tr("Asistí a uno de sus cursos el año pasado, pero no recibí el certificado.", ["I attended one of your courses last year, but I {did not|never} receive the certificate.", "I attended one of your courses last year, but I didn't {receive|get} the certificate.", "I attended one of your courses last year; however, I {did not|didn't} receive the certificate."],
+        "Trap mix: \"attended\" (not *assisted to), \"but\" after a comma, or \"however\" after a semicolon or period."),
+      tr("Me interesa este puesto porque me gustaría desarrollar mi carrera en una empresa internacional.", ["I am interested in this position because I would like to develop my career in an international company.", "I'm interested in this {position|job|role} because I'd like to {develop|build|grow} my career {in|at|with} an international company."],
+        "Trap mix: \"interested in\" (not *for), and here «carrera» really is \"career\" (professional life)."),
+      tr("Teniendo todo en cuenta, se recomienda que la empresa ofrezca clases de inglés.", ["All things considered, it is recommended that the company offer English classes.", "All things considered, it is recommended that the company {should offer|offer} English {classes|lessons|courses}.", "On balance, it is recommended that the company {should offer|offer} English {classes|lessons|courses}."],
+        "Trap mix: an essay conclusion linker plus report language. \"It is recommended that\" + base form (\"offer\", not *offers) or \"should offer\"."),
+      mc("Which sentence is correct?", [
+        "The flight was canceled. As a result, I was offered a voucher.",
+        "The flight was canceled, as a result I was offered a voucher.",
+        "The flight was canceled, therefore I offered a voucher.",
+        "Because the flight was canceled, so I was offered a voucher.",
+      ], "\"As a result\" starts a new sentence; the passive \"I was offered\" shows you received it; one linker per relationship."),
+    ],
+  ),
+];

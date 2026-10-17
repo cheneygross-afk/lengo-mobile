@@ -111,7 +111,7 @@ export const EN_B2_U30: Lesson[] = [
         ],
         examples: [
           { es: "You should have told me.", en: "Deberías habérmelo dicho." },
-          { es: "You could have hurt yourself.", en: "Podrías haberte hecho daño." },
+          { es: "You could have hurt yourself.", en: "Te podrías haber lastimado." },
           { es: "He must have overslept.", en: "Debe de haberse quedado dormido." },
           { es: "She can't have seen us.", en: "No puede habernos visto." },
           { es: "They might have taken the wrong road.", en: "Puede que se hayan equivocado de carretera." },
@@ -654,7 +654,7 @@ export const EN_B2_U30: Lesson[] = [
         ],
         examples: [
           { es: "Feeling tired, I went to bed early.", en: "Como estaba cansado, me acosté temprano." },
-          { es: "Built in 1890, the house needs a lot of work.", en: "Construida en 1890, la casa necesita muchas reformas." },
+          { es: "Built in 1890, the house needs a lot of work.", en: "Construida en 1890, la casa necesita muchos arreglos." },
           { es: "Having finished the report, she went home.", en: "Después de terminar el informe, se fue a casa." },
           { es: "Not knowing what to do, I called my father.", en: "Al no saber qué hacer, llamé a mi padre." },
           { es: "The woman sitting next to me was a famous singer.", en: "La mujer que estaba sentada a mi lado era una cantante famosa." },
@@ -1488,7 +1488,7 @@ export const EN_B2_U30: Lesson[] = [
           { es: "People say it's the best restaurant in town.", en: "Se dice que es el mejor restaurante de la ciudad." },
           { es: "English is spoken here.", en: "Aquí se habla inglés." },
           { es: "I forgot my keys.", en: "Se me olvidaron las llaves." },
-          { es: "The good thing is that nobody got hurt.", en: "Lo bueno es que nadie se hizo daño." },
+          { es: "The good thing is that nobody got hurt.", en: "Lo bueno es que nadie salió lastimado." },
           { es: "The hardest part was saying goodbye.", en: "Lo más difícil fue despedirse." },
           { es: "That's all I know.", en: "Eso es todo lo que sé." },
         ],
@@ -1955,7 +1955,7 @@ export const EN_B2_U30: Lesson[] = [
           { es: "The change did not happen overnight.", en: "El cambio no se produjo de la noche a la mañana." },
           { es: "They gradually extended the car-free zone.", en: "Ampliaron poco a poco la zona sin carros." },
           { es: "Residents were given special permits.", en: "A los vecinos se les dieron permisos especiales." },
-          { es: "Pedestrians tend to stop and browse.", en: "Los peatones suelen pararse a mirar escaparates." },
+          { es: "Pedestrians tend to stop and browse.", en: "Los peatones suelen detenerse a ver las vitrinas." },
         ],
         checkpoint: [
           {
@@ -2102,7 +2102,7 @@ export const EN_B2_U30: Lesson[] = [
           { left: "sharply", right: "de forma brusca y fuerte" },
           { left: "browse", right: "mirar sin prisa (en una tienda)" },
           { left: "fade", right: "ir desapareciendo" },
-          { left: "ring road", right: "ronda de circunvalación" },
+          { left: "ring road", right: "vía de circunvalación (periférico)" },
         ],
         explanation: "Working out vocabulary from context is a key Upper Intermediate reading skill: \"prices have risen sharply\", \"fear tends to fade\".",
       },
@@ -2110,7 +2110,7 @@ export const EN_B2_U30: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Los peatones suelen pararse más que los conductores.",
+        source: "Los peatones suelen detenerse más que los conductores.",
         answer: "Pedestrians tend to stop more than drivers do.",
         altAnswers: [
           "Pedestrians tend to stop more than drivers.",
@@ -2558,14 +2558,14 @@ export const EN_B2_U30: Lesson[] = [
         sentence: "When I got home, I realized I ___ my wallet at the restaurant.",
         answer: "had left",
         altAnswers: ["'d left"],
-        en: "Cuando llegué a casa, me di cuenta de que [me había dejado] la cartera en el restaurante.",
-        explanation: "The leaving happened before the realizing: past perfect. «Dejarse algo» is \"leave\", not \"forget\" + place.",
+        en: "Cuando llegué a casa, me di cuenta de que [había dejado] la cartera en el restaurante.",
+        explanation: "The leaving happened before the realizing: past perfect. «Dejar algo olvidado» is \"leave\", not \"forget\" + place.",
       },
       {
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Si hubiéramos salido antes, no estaríamos en este atasco.",
+        source: "Si hubiéramos salido antes, no estaríamos en este embotellamiento.",
         answer: "If we had left earlier, we wouldn't be in this traffic jam.",
         altAnswers: [
           "If we had left earlier, we wouldn't be stuck in this traffic jam.",
@@ -2696,7 +2696,7 @@ export const EN_B2_U30: Lesson[] = [
             prompt: "Translate into English.",
             source: "Mi hija ha salido a su abuela.",
             answer: "My daughter takes after her grandmother.",
-            altAnswers: ["My daughter takes after her grandma.", "My daughter has taken after her grandmother.", "My daughter looks like her grandmother.", "My daughter is like her grandmother."],
+            altAnswers: ["My daughter takes after her grandma.", "My daughter looks like her grandmother.", "My daughter is like her grandmother."],
             explanation: "«Salir a alguien» (resemble a relative) is \"take after\". Note it uses the present simple.",
           },
           {

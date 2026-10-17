@@ -84,7 +84,7 @@ export const EN_B1_U25: Lesson[] = [
         body: [
           "Abstract ideas (\"life\", \"love\", \"time\", \"happiness\", \"nature\", \"history\", \"society\") and uncountable things (\"music\", \"coffee\", \"money\", \"water\", \"sugar\") also take no article when you mean them in general.",
           "Spanish says «el tiempo es oro», «la historia me aburre», «el azúcar es malo». English says \"Time is money\", \"History bores me\", \"Sugar is bad for you\".",
-          "School subjects, sports, languages and meals follow the same rule: \"I study history\", \"He plays football\", \"Spanish is easy\", \"We have lunch at two\".",
+          "School subjects, sports, languages and meals follow the same rule: \"I study history\", \"He plays soccer\", \"Spanish is easy\", \"We have lunch at two\".",
         ],
         examples: [
           { es: "Time is money.", en: "El tiempo es oro." },

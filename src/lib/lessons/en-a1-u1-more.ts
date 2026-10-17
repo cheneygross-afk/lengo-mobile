@@ -24,7 +24,7 @@ export const EN_A1_U1_MORE: Lesson[] = [
           { es: "Are you and Ana sisters? Yes, we are.", en: "¿Ana y tú son hermanas? Sí." },
           { es: "Is your brother at work? No, he isn't.", en: "¿Tu hermano está en el trabajo? No." },
           { es: "Is the museum open? Yes, it is.", en: "¿El museo está abierto? Sí." },
-          { es: "Are the shops closed? No, they aren't.", en: "¿Las tiendas están cerradas? No." },
+          { es: "Are the stores closed? No, they aren't.", en: "¿Las tiendas están cerradas? No." },
           { es: "Am I right? Yes, you are.", en: "¿Tengo razón? Sí." },
         ],
         checkpoint: [

@@ -4,6 +4,7 @@ import type { Session } from "@supabase/supabase-js";
 import { supabase } from "@/lib/supabase/client";
 import { syncFlashcardsFromCloud } from "@/lib/flashcards/store";
 import type { CourseId } from "@/lib/courses";
+import { isPortugueseBetaEmail } from "@/lib/portugueseBeta";
 
 // Mobile equivalent of the web app's server-side getCurrentUserAndRole --
 // there's no server component / cookie middleware here, so session state
@@ -18,7 +19,12 @@ type AuthState = {
   // and staff; the courses picked for Focused Lessons (plus a company
   // seat's); empty without a plan. Plans are bought on the website, so
   // this reloads whenever the app comes back to the foreground.
+  // "pt" is in it only for the Brazilian Portuguese beta accounts
+  // (lib/portugueseBeta.ts, the website's allowlist): All Access doesn't
+  // open it, and nobody else is shown anything Portuguese.
   lessonsCourses: "all" | CourseId[];
+  /** Whether this account may see the Brazilian Portuguese beta. */
+  portugueseBeta: boolean;
   signOut: () => Promise<void>;
 };
 
@@ -29,6 +35,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [loading, setLoading] = useState(true);
   const [lessonsCourses, setLessonsCourses] = useState<"all" | CourseId[]>([]);
   const userId = session?.user?.id;
+  const portugueseBeta = isPortugueseBetaEmail(session?.user?.email);
 
   const loadAccess = useCallback(async () => {
     if (!userId) {
@@ -40,8 +47,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       supabase.from("profiles").select("*").eq("id", userId).single(),
       supabase.rpc("my_business"),
     ]);
-    setLessonsCourses(coursesFor(profile, business));
-  }, [userId]);
+    setLessonsCourses(coursesFor(profile, business, portugueseBeta));
+  }, [userId, portugueseBeta]);
 
   useEffect(() => {
     void loadAccess();
@@ -79,11 +86,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       session,
       loading,
       lessonsCourses,
+      portugueseBeta,
       signOut: async () => {
         await supabase.auth.signOut();
       },
     }),
-    [session, loading, lessonsCourses]
+    [session, loading, lessonsCourses, portugueseBeta]
   );
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
@@ -97,8 +105,14 @@ export function useAuth(): AuthState {
 
 type BusinessRow = { role: string; language: string | null; org_status: string };
 
-/** The website's rule (getEntitlements in lengo's src/lib/entitlements.ts). */
-function coursesFor(profile: Record<string, unknown> | null, business: unknown): "all" | CourseId[] {
+// Every course "all" opens. Not "pt": the Portuguese beta is opened by
+// the beta allowlist alone, never by a plan.
+const ALL_ACCESS_COURSES: CourseId[] = ["es", "ja", "zh", "fr", "en", "de"];
+
+/** The website's rule (getEntitlements in lengo's src/lib/entitlements.ts,
+ * plus getLessonAccess's: every Portuguese lesson is open to the beta
+ * accounts, and to nobody else). */
+function coursesFor(profile: Record<string, unknown> | null, business: unknown, portugueseBeta: boolean): "all" | CourseId[] {
   const isStaff = profile?.role === "instructor" || profile?.role === "admin";
   const languages = profile?.lessons_plan_languages as CourseId[] | null | undefined;
   let courses: "all" | CourseId[] =
@@ -112,10 +126,14 @@ function coursesFor(profile: Record<string, unknown> | null, business: unknown):
   );
   const seatCourse: CourseId | null = seat ? (seat.language === "en" ? "en" : "es") : null;
   if (seatCourse && courses !== "all" && !courses.includes(seatCourse)) courses = [...courses, seatCourse];
-  return courses;
+  const list = courses === "all" ? null : courses.filter((c) => c !== "pt");
+  if (!portugueseBeta) return list ?? "all";
+  return [...(list ?? ALL_ACCESS_COURSES), "pt"];
 }
 
 /** Whether the learner's plan opens a course. */
 export function planCovers(courses: "all" | CourseId[], course: CourseId): boolean {
+  // "all" never opens the Portuguese beta: only a beta account's list has "pt".
+  if (course === "pt") return courses !== "all" && courses.includes("pt");
   return courses === "all" || courses.includes(course);
 }

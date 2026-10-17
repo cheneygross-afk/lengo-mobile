@@ -559,7 +559,7 @@ export const EN_B1_U19_EXTRA: Lesson[] = [
         examples: [
           { es: "Emma said she loved my car.", en: "Emma dijo que le encantaba mi carro. (\"I love your car\")" },
           { es: "He told me he had seen my brother.", en: "Me dijo que había visto a mi hermano. (\"I saw your brother\")" },
-          { es: "They said their flight was late.", en: "Dijeron que su vuelo iba con retraso. (\"Our flight is late\")" },
+          { es: "They said their flight was late.", en: "Dijeron que su vuelo estaba retrasado. (\"Our flight is late\")" },
           { es: "She told us she would help us.", en: "Nos dijo que nos ayudaría. (\"I'll help you\")" },
           { es: "Diego said he needed his keys.", en: "Diego dijo que necesitaba sus llaves. (\"I need my keys\")" },
         ],
@@ -964,7 +964,7 @@ export const EN_B1_U19_EXTRA: Lesson[] = [
         instructions: "Match each report with the reason for its tense.",
         pairs: [
           { left: "She says she's busy.", right: "Verbo introductorio en presente" },
-          { left: "He said the Earth goes round the sun.", right: "Verdad general" },
+          { left: "He said the Earth goes around the sun.", right: "Verdad general" },
           { left: "She said she was married, but now she's divorced.", right: "Ya no es verdad" },
           { left: "He said he lives in Lima, and he still does.", right: "Sigue siendo verdad" },
         ],

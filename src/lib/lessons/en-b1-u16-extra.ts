@@ -263,7 +263,7 @@ export const EN_B1_U16_EXTRA: Lesson[] = [
     optional: true,
     level: "EN-B1",
     number: 2,
-    title: "Extra Practice: The Film I Saw",
+    title: "Extra Practice: The Movie I Saw",
     summary: "Drill on when you can drop who/which/that (when it is the object) and when you can't (when it is the subject), plus no extra pronoun at the end.",
     duration: "10 min",
     sections: [

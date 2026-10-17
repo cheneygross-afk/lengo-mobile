@@ -578,7 +578,7 @@ export const EN_A2_U09_DRILLS: Lesson[] = [
         type: "listen-choose",
         audio: "I don't have any plans. Maybe I'll stay home tonight.",
         question: "¿Tiene planes para esta noche?",
-        options: ["No; quizás se quede en casa.", "Sí, ya quedó con unos amigos.", "Sí, va al cine.", "Va a trabajar hasta tarde."],
+        options: ["No; quizás se quede en casa.", "Sí, ya tiene planes con unos amigos.", "Sí, va al cine.", "Va a trabajar hasta tarde."],
         correctIndex: 0,
         explanation: "\"I don't have any plans\" y \"Maybe I'll...\": está decidiendo en el momento, sin nada organizado.",
       },

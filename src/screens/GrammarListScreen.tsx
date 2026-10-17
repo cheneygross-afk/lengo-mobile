@@ -4,6 +4,7 @@ import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { GRAMMAR_GUIDES } from "@/lib/grammar/guides";
 import { GUIDE_COURSES, type CourseGuide, type GuideCourse } from "@/lib/grammar/courseGuides";
+import TapText from "@/components/TapText";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Grammar">;
 
@@ -13,16 +14,17 @@ const LEVEL_ORDER = ["A1", "A2", "B1", "B2", "C1", "C2"] as const;
 // (src/lib/grammar, synced from the website), grouped by level.
 export default function GrammarListScreen(props: Props) {
   const lang = props.route.params?.lang;
-  return lang === "fr" || lang === "de" ? (
+  return lang === "fr" || lang === "de" || lang === "pt" ? (
     <CourseGrammarList {...props} course={lang} key={lang} />
   ) : (
     <SpanishGrammarList {...props} />
   );
 }
 
-// The French or German course's grammar guides (lib/grammar/courseGuides.ts,
-// loaded on demand), by level, as on the website's /lessons/fr/tools/grammar
-// and /lessons/de/tools/grammar.
+// The French or German course's or the Portuguese beta's grammar guides
+// (lib/grammar/courseGuides.ts, loaded on demand), by level, as on the
+// website's /lessons/fr/tools/grammar, /lessons/de/tools/grammar and
+// /lessons/pt/tools/grammar.
 function CourseGrammarList({ navigation, course }: Props & { course: GuideCourse }) {
   const config = GUIDE_COURSES[course];
   const [guides, setGuides] = useState<CourseGuide[] | null>(null);
@@ -46,7 +48,7 @@ function CourseGrammarList({ navigation, course }: Props & { course: GuideCourse
     );
   }
   const sections = LEVEL_ORDER.map((level) => ({
-    title: `${level} · ${config.diploma[level]}`,
+    title: config.diploma[level] ? `${level} · ${config.diploma[level]}` : level,
     data: guides.filter((g) => g.level === level),
   })).filter((s) => s.data.length > 0);
   return (
@@ -64,10 +66,20 @@ function CourseGrammarList({ navigation, course }: Props & { course: GuideCourse
       renderSectionHeader={({ section }) => <Text style={styles.sectionHeader}>{section.title}</Text>}
       renderItem={({ item }) => (
         <Pressable style={styles.card} onPress={() => navigation.navigate("GrammarGuide", { slug: item.slug, lang: course })}>
-          <Text style={styles.cardTitle}>{item.title}</Text>
-          <Text style={styles.cardBody} numberOfLines={3}>
-            {item.description}
-          </Text>
+          {course === "pt" ? (
+            // The Portuguese beta: its words in the titles are tap-to-hear too.
+            <>
+              <TapText text={item.title} lang={config.lang} style={styles.cardTitle} />
+              <TapText text={item.description} lang={config.lang} style={styles.cardBody} />
+            </>
+          ) : (
+            <>
+              <Text style={styles.cardTitle}>{item.title}</Text>
+              <Text style={styles.cardBody} numberOfLines={3}>
+                {item.description}
+              </Text>
+            </>
+          )}
         </Pressable>
       )}
       ItemSeparatorComponent={() => <View style={{ height: 10 }} />}

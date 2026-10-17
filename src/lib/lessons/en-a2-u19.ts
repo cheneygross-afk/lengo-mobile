@@ -49,12 +49,12 @@ export const EN_A2_U19: Lesson[] = [
       {
         heading: "En el aeropuerto",
         body: [
-          "«Facturar» en el aeropuerto o «registrarse» en un hotel es \"check in\": \"We checked in two hours early\", \"We checked in to the hotel at three\". Al irte del hotel haces \"check out\".",
+          "«Hacer el check-in» (o «documentar») en el aeropuerto o «registrarse» en un hotel es \"check in\": \"We checked in two hours early\", \"We checked in to the hotel at three\". Al irte del hotel haces \"check out\".",
           "La tarjeta de embarque es \"a boarding pass\", la puerta de embarque es \"the gate\" y «embarcar» es \"board\". Si el vuelo se retrasa, decimos \"The flight is delayed\" o \"The flight was delayed\".",
           "Muy importante: «perder» un vuelo, un tren o un autobús es \"miss\", no \"lose\". \"Lose\" es «extraviar» algo: \"I lost my passport\" (perdí el pasaporte, no lo encuentro). \"I missed my flight\" (llegué tarde y el avión se fue).",
         ],
         examples: [
-          { es: "We checked in at the airport two hours early.", en: "Facturamos en el aeropuerto con dos horas de antelación." },
+          { es: "We checked in at the airport two hours early.", en: "Hicimos el check-in en el aeropuerto con dos horas de anticipación." },
           { es: "Here is your boarding pass.", en: "Aquí tiene su tarjeta de embarque." },
           { es: "The flight leaves from gate 12.", en: "El vuelo sale por la puerta 12." },
           { es: "Our flight was delayed.", en: "Nuestro vuelo se retrasó." },
@@ -204,8 +204,8 @@ export const EN_A2_U19: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "I ___ at the airport at six.",
         answer: "checked in",
-        en: "[Facturé] en el aeropuerto a las seis.",
-        explanation: "«Facturar» es \"check in\", un verbo con partícula. En pasado: \"checked in\".",
+        en: "[Hice el check-in] en el aeropuerto a las seis.",
+        explanation: "«Hacer el check-in» o «documentar» es \"check in\", un verbo con partícula. En pasado: \"checked in\".",
       },
       {
         type: "listen-choose",
@@ -1410,7 +1410,7 @@ export const EN_A2_U19: Lesson[] = [
           "\"Teacher\" es el profesor de colegio o de idiomas. \"Professor\" se usa solo para profesores universitarios. Así que tu profesora de inglés es \"my English teacher\", no *my English professor (salvo en la universidad).",
         ],
         examples: [
-          { es: "She has a degree in economics.", en: "Es licenciada en Económicas." },
+          { es: "She has a degree in economics.", en: "Es licenciada en Economía." },
           { es: "I'm studying medicine.", en: "Estudio Medicina." },
           { es: "He has a successful career.", en: "Tiene una trayectoria profesional de éxito." },
           { es: "Can I borrow your notes?", en: "¿Me dejas tus apuntes?" },
@@ -1446,7 +1446,7 @@ export const EN_A2_U19: Lesson[] = [
         examples: [
           { es: "I have to take an exam tomorrow.", en: "Mañana tengo que hacer un examen." },
           { es: "I passed!", en: "¡Aprobé!" },
-          { es: "She failed her driving test.", en: "Suspendió el examen de manejo." },
+          { es: "She failed her driving test.", en: "Reprobó el examen de manejo." },
           { es: "I got a good grade in English.", en: "Saqué buena nota en inglés." },
           { es: "I need to study for my exam.", en: "Tengo que estudiar para el examen." },
           { es: "We reviewed everything before the test.", en: "Repasamos todo antes del examen." },
@@ -1479,7 +1479,7 @@ export const EN_A2_U19: Lesson[] = [
         ],
         examples: [
           { es: "I went to school in Lima.", en: "Fui al colegio en Lima." },
-          { es: "I have a degree in English.", en: "Soy licenciada en Filología Inglesa." },
+          { es: "I have a degree in English.", en: "Soy licenciada en Inglés." },
           { es: "I didn't go to class yesterday.", en: "Ayer no fui a clase." },
           { es: "Did you pass or fail?", en: "¿Aprobaste o reprobaste?" },
         ],
@@ -1504,7 +1504,7 @@ export const EN_A2_U19: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Suspendí el examen de matemáticas.",
+        source: "Reprobé el examen de matemáticas.",
         answer: "I failed the math exam.",
         altAnswers: ["I failed my math exam.", "I failed the maths exam.", "I failed my maths exam.", "I failed the math test.", "I failed my math test."],
         explanation: "«Suspender» es \"fail\". En inglés americano, «matemáticas» es \"math\"; en británico, \"maths\".",
@@ -1920,7 +1920,7 @@ export const EN_A2_U19: Lesson[] = [
         heading: "\"What is she like?\": preguntar cómo es alguien",
         body: [
           "Para preguntar por el carácter se usa \"What is he like?\" o \"What's she like?\" («¿cómo es?»). \"How is she?\" pregunta por la salud o el estado («¿cómo está?»). En la respuesta no se repite \"like\": \"She's really nice\".",
-          "Fíjate también en \"funny\" y \"fun\": \"funny\" es «gracioso» (te hace reír) y \"fun\" es «divertido» (te lo pasas bien con esa persona o actividad): \"He's funny\", \"The party was fun\".",
+          "Fíjate también en \"funny\" y \"fun\": \"funny\" es «gracioso» (te hace reír) y \"fun\" es «divertido» (la pasas bien con esa persona o actividad): \"He's funny\", \"The party was fun\".",
         ],
         examples: [
           { es: "What's your new boss like?", en: "¿Cómo es tu nuevo jefe?" },
@@ -1935,7 +1935,7 @@ export const EN_A2_U19: Lesson[] = [
             prompt: "Ordena las palabras.",
             words: ["What", "is", "your", "teacher", "like?"],
             translation: "¿Cómo es tu profesor?",
-            explanation: "\"What + be + sujeto + like?\" pregunta por el carácter o el aspecto. \"How is your teacher?\" sería «¿cómo está?».",
+            explanation: "\"What + be + sujeto + like?\" pregunta por el carácter o la impresión general (para el físico: \"What does he look like?\"). \"How is your teacher?\" sería «¿cómo está?».",
           },
         ],
       },

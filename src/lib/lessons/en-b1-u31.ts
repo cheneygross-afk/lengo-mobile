@@ -21,7 +21,7 @@ export const EN_B1_U31: Lesson[] = [
           "Careful with dates: in the US, 03/04/1995 means March 4, not 3 April. If you're not sure, write the month as a word.",
         ],
         examples: [
-          { es: "Please fill out this form.", en: "Por favor, rellene este formulario." },
+          { es: "Please fill out this form.", en: "Por favor, llene este formulario." },
           { es: "Write your last name in block capitals.", en: "Escriba su apellido en mayúsculas." },
           { es: "What's your date of birth?", en: "¿Cuál es su fecha de nacimiento?" },
           { es: "Sign here, please.", en: "Firme aquí, por favor." },
@@ -33,10 +33,10 @@ export const EN_B1_U31: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Tengo que rellenar este formulario.",
+            source: "Tengo que llenar este formulario.",
             answer: "I have to fill out this form.",
             altAnswers: ["I have to fill in this form.", "I need to fill out this form.", "I need to fill in this form.", "I have to fill this form out.", "I have to fill this form in.", "I need to fill this form out.", "I need to fill this form in."],
-            explanation: "«Rellenar un formulario» is \"fill out\" or \"fill in\" a form. Without the particle, *fill a form sounds wrong.",
+            explanation: "«Llenar un formulario» is \"fill out\" or \"fill in\" a form. Without the particle, *fill a form sounds wrong.",
           },
           {
             type: "multiple-choice",
@@ -1125,7 +1125,7 @@ export const EN_B1_U31: Lesson[] = [
           { es: "Can I see your driver's license, please?", en: "¿Me muestra su licencia de manejar, por favor?" },
           { es: "There's a 300-dollar deposit.", en: "Hay un depósito de 300 dólares." },
           { es: "We'll put a hold on your credit card.", en: "Le bloquearemos un importe en la tarjeta de crédito." },
-          { es: "The tank is full.", en: "El depósito está lleno." },
+          { es: "The tank is full.", en: "El tanque está lleno." },
         ],
         checkpoint: [
           {
@@ -1203,7 +1203,7 @@ export const EN_B1_U31: Lesson[] = [
             sentence: "You have to return the car with a full ___.",
             answer: "tank",
             altAnswers: ["gas tank", "fuel tank"],
-            en: "Tiene que devolver el carro con el [depósito] lleno.",
+            en: "Tiene que devolver el carro con el [tanque] lleno.",
             explanation: "The fuel «depósito» is the \"tank\". \"Deposit\" is a false friend here.",
           },
         ],
@@ -1240,7 +1240,7 @@ export const EN_B1_U31: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Hay que llenar el depósito antes de devolver el carro.",
+        source: "Hay que llenar el tanque antes de devolver el carro.",
         answer: "You have to fill up the tank before you return the car.",
         altAnswers: ["You have to fill up the tank before returning the car.", "We have to fill up the tank before we return the car.", "We have to fill up the tank before returning the car.", "You need to fill up the tank before you return the car.", "You need to fill up the tank before returning the car.", "We need to fill up the tank before we return the car.", "We need to fill up the tank before returning the car.", "You have to fill the tank before you return the car.", "You have to fill the tank before returning the car.", "We have to fill the tank before returning the car.", "We have to fill the tank before we return the car.", "You have to fill the tank up before you return the car.", "You have to fill the tank up before returning the car.", "We have to fill the tank up before returning the car.", "We have to fill the tank up before we return the car."],
         explanation: "«Llenar el depósito» is \"fill (up) the tank\". After \"before\", use a clause (\"before you return\") or -ing (\"before returning\").",

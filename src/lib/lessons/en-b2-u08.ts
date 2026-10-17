@@ -143,7 +143,7 @@ export const EN_B2_U08: Lesson[] = [
           { es: "They must be having dinner.", en: "Deben de estar cenando." },
           { es: "He might be sleeping.", en: "Puede que esté durmiendo." },
           { es: "She can't be working. It's Sunday.", en: "No puede estar trabajando. Es domingo." },
-          { es: "You must be joking!", en: "¡Debes de estar de broma!" },
+          { es: "You must be joking!", en: "¡Debes de estar bromeando!" },
           { es: "The baby could be teething.", en: "Puede que al bebé le estén saliendo los dientes." },
         ],
         checkpoint: [
@@ -1248,7 +1248,7 @@ export const EN_B2_U08: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Dónde está mi cartera? Me la debo de haber dejado en el restaurante.",
+        source: "¿Dónde está mi billetera? La debo de haber dejado en el restaurante.",
         answer: "Where's my wallet? I must have left it at the restaurant.",
         altAnswers: [
           "Where's my wallet? I must have left it in the restaurant.",
@@ -1257,7 +1257,7 @@ export const EN_B2_U08: Lesson[] = [
           "Where's my purse? I must have left it in the restaurant.",
           "Where's my wallet? I must've left it at the restaurant.",
         ],
-        explanation: "A deduction about your own past action: \"must have left\". Spanish «me la debo de haber dejado» has no reflexive in English.",
+        explanation: "A deduction about your own past action: \"must have left\". Spanish «la debo de haber dejado» uses «deber de»; English uses \"must have\".",
       },
       {
         type: "multiple-choice",
@@ -1567,7 +1567,7 @@ export const EN_B2_U08: Lesson[] = [
           { es: "The thief must have known the alarm code.", en: "El ladrón debía de saber el código de la alarma." },
           { es: "A stranger can't have done it.", en: "No puede haberlo hecho un desconocido." },
           { es: "The painting must have been taken between ten and eleven.", en: "El cuadro debió de llevárselo alguien entre las diez y las once." },
-          { es: "Someone might have opened the door from inside.", en: "Puede que alguien abriera la puerta desde dentro." },
+          { es: "Someone might have opened the door from inside.", en: "Puede que alguien abriera la puerta desde adentro." },
         ],
         checkpoint: [
           {
@@ -1592,7 +1592,7 @@ export const EN_B2_U08: Lesson[] = [
           "Now reason. If the glass was outside, the window must have been broken from inside the house. So the break-in was fake: someone inside wanted it to look like a burglary.",
         ],
         examples: [
-          { es: "The window must have been broken from inside.", en: "La ventana debió de romperse desde dentro." },
+          { es: "The window must have been broken from inside.", en: "La ventana debió de romperse desde adentro." },
           { es: "Mr. Brown can't have done it. He was at a wedding.", en: "El señor Brown no puede haberlo hecho. Estaba en una boda." },
           { es: "Emma could have done it. She knew the code.", en: "Emma podría haberlo hecho. Sabía el código." },
           { es: "Tom must have been driving shortly before the police came.", en: "Tom debía de haber estado manejando poco antes de que llegara la policía." },
@@ -1898,7 +1898,7 @@ export const EN_B2_U08: Lesson[] = [
         ],
         examples: [
           { es: "He must be busy.", en: "Debe de estar ocupado." },
-          { es: "She might have been joking.", en: "Puede que estuviera de broma." },
+          { es: "She might have been joking.", en: "Puede que estuviera bromeando." },
           { es: "They can't have finished already.", en: "No pueden haber terminado ya." },
           { es: "It's bound to be expensive.", en: "Seguro que es caro." },
         ],
@@ -2096,7 +2096,7 @@ export const EN_B2_U08: Lesson[] = [
           { es: "She seems to be waiting for someone.", en: "Parece que está esperando a alguien." },
           { es: "They seem to have finished the meal.", en: "Parece que han terminado de comer." },
           { es: "It seems that the game has just ended.", en: "Parece que el partido acaba de terminar." },
-          { es: "He seems to have hurt his leg.", en: "Parece que se ha hecho daño en la pierna." },
+          { es: "He seems to have hurt his leg.", en: "Parece que se lastimó la pierna." },
         ],
         checkpoint: [
           {
@@ -2105,7 +2105,7 @@ export const EN_B2_U08: Lesson[] = [
             sentence: "The runner ___ his ankle.",
             answer: "seems to have hurt",
             altAnswers: ["seems to have twisted", "seems to have injured", "must have hurt", "looks like he's hurt", "appears to have hurt"],
-            en: "El corredor [parece que se ha hecho daño en] el tobillo.",
+            en: "El corredor [parece que se lastimó] el tobillo.",
             explanation: "\"Seem to have\" + past participle speculates about something that already happened.",
           },
         ],
@@ -2113,7 +2113,7 @@ export const EN_B2_U08: Lesson[] = [
       {
         heading: "Now and before: two kinds of speculation",
         body: [
-          "In the Upper Intermediate speaking test, you compare two photos and say what the people might be doing and how they might be feeling. Mix present and past speculation: \"They might be waiting for a train. They seem to have been there for a long time, because they look bored\".",
+          "In many speaking exams, you compare two photos and say what the people might be doing and how they might be feeling. Mix present and past speculation: \"They might be waiting for a train. They seem to have been there for a long time, because they look bored\".",
           "Useful structure: describe what you see (\"In the first photo, there are...\"), then speculate about now (\"They must be...\", \"She might be...\"), then about before (\"They must have just...\", \"It looks as if something has happened\").",
           "Compare with \"whereas\" or \"while\": \"In the first photo, the people look relaxed, whereas in the second one they seem to be under a lot of pressure\".",
         ],
@@ -2358,7 +2358,7 @@ export const EN_B2_U08: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "¡Podrías haberte hecho mucho daño!",
+            source: "¡Podrías haberte lastimado mucho!",
             answer: "You could have hurt yourself badly!",
             altAnswers: [
               "You could have really hurt yourself!",

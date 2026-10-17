@@ -265,7 +265,7 @@ export const EN_B1_U21: Lesson[] = [
         type: "speak",
         text: "Would you mind closing the door?",
         tip: "\"Would you\" sounds like \"wudja\" in natural speech. Stress \"mind\" and \"door\".",
-        explanation: "The -ing ending is a soft \"ng\" sound: don't add a \"g\" or a «e» after it.",
+        explanation: "The -ing ending is a soft \"ng\" sound: don't add a \"g\" or an «e» after it.",
       },
     ],
   },
@@ -1945,7 +1945,7 @@ export const EN_B1_U21: Lesson[] = [
             source: "No soporto hacer fila.",
             answer: "I can't stand waiting in line.",
             altAnswers: ["I can't stand standing in line.", "I can't stand queuing.", "I can't stand waiting in lines.", "I can't bear waiting in line."],
-            explanation: "\"Can't stand\" + -ing. «Hacer cola» is \"wait in line\" (US) or \"queue\" (UK).",
+            explanation: "\"Can't stand\" + -ing. «Hacer fila» is \"wait in line\" (US) or \"queue\" (UK).",
           },
         ],
       },
@@ -2164,7 +2164,7 @@ export const EN_B1_U21: Lesson[] = [
         heading: "Take up, give up and be into",
         body: [
           "\"Take up\" means «empezar a hacer» a new hobby: \"I took up painting last year\". \"Give up\" means «dejar»: \"She gave up tennis after her injury\". Both can be followed by a noun or -ing.",
-          "\"Be into\" means «gustar mucho»: \"He's really into jazz\". \"Hang out\" means «quedar» or «pasar el rato» with friends: \"We usually hang out at the park\".",
+          "\"Be into\" means «gustar mucho»: \"He's really into jazz\". \"Hang out\" means «juntarse» or «pasar el rato» with friends: \"We usually hang out at the park\".",
           "For «tiempo libre», say \"free time\" or \"spare time\". \"Hobby\" is for a regular activity you do for pleasure, like painting or collecting things.",
         ],
         examples: [

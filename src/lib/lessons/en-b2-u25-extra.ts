@@ -230,7 +230,7 @@ export const EN_B2_U25_EXTRA: Lesson[] = [
         heading: "Quick recap: \"news\" is singular and uncountable",
         body: [
           "\"News\" ends in -s but it is uncountable and takes a singular verb: \"The news is good\", \"No news is good news\". Never *a news or *the news are. For one item, say \"a piece of news\" or \"a news story\", or just \"some news\".",
-          "«Periódico» is \"newspaper\" (or \"paper\"). *Periodic is an adjective meaning «periódico» in the sense of «que se repite». «Periodista» is \"journalist\" (or \"reporter\"), and «telediario / noticiario» is \"the news\".",
+          "«Periódico» is \"newspaper\" (or \"paper\"). *Periodic is an adjective meaning «periódico» in the sense of «que se repite». «Periodista» is \"journalist\" (or \"reporter\"), and «noticiero / noticiario» is \"the news\".",
         ],
         examples: [
           { es: "The news was on when I got home.", en: "Estaba puesto el noticiero cuando llegué a casa." },
@@ -855,7 +855,7 @@ export const EN_B2_U25_EXTRA: Lesson[] = [
           "\"Look up\" a word or fact means search for it («buscar» in a dictionary or online). \"Scroll down / up\" a page («bajar / subir»). A film, album or book \"comes out\" when it is released («salir, estrenarse, publicarse»): it has no object.",
         ],
         examples: [
-          { es: "Can you turn the heating on?", en: "¿Puedes encender la calefacción?" },
+          { es: "Can you turn the heat on?", en: "¿Puedes encender la calefacción?" },
           { es: "Plug the printer in and try again.", en: "Enchufa la impresora y vuelve a intentarlo." },
           { es: "Shut down your computer before you leave.", en: "Apaga la computadora antes de irte." },
           { es: "Scroll down to the bottom of the page.", en: "Baja hasta el final de la página." },

@@ -48,6 +48,7 @@ export const EN_A2_U03_DRILLS: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "It ___ all morning.",
         answer: "was raining",
+        altAnswers: ["rained"],
         en: "[Estuvo lloviendo] toda la mañana.",
         explanation: "Para el tiempo atmosférico el sujeto es \"it\": \"It was raining\". *Was raining sin sujeto es incorrecto.",
       },

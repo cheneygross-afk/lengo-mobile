@@ -450,7 +450,7 @@ export const EN_B1_U09_EXTRA: Lesson[] = [
           "If she didn't drive so fast, she wouldn't get a ticket.",
         ],
         correctIndex: 0,
-        explanation: "Both halves flip to negative: \"hadn't driven\", \"wouldn't have gotten\". The last option is about now, not about that day.",
+        explanation: "Both halves flip to negative: \"hadn't driven\", \"wouldn't have gotten\". \"If she didn't drive so fast, she wouldn't get a ticket\" is about now, not about that day.",
       },
       {
         type: "multiple-choice",

@@ -2485,11 +2485,11 @@ export const EN_B1_U35: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "___ the city, the more stressful the life.",
+        sentence: "___ the city, the more stressful life is.",
         answer: "The bigger",
         altAnswers: ["The larger"],
         en: "[Cuanto más grande es] la ciudad, más estresante es la vida.",
-        explanation: "\"The\" + comparative, \"the\" + comparative: \"The bigger the city, the more stressful the life\".",
+        explanation: "\"The\" + comparative, \"the\" + comparative: \"The bigger the city, the more stressful life is\".",
       },
       {
         type: "multiple-choice",
@@ -2916,7 +2916,7 @@ export const EN_B1_U35: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You want to know the person who wrote this book. What do you ask?",
+        question: "You want to know who wrote this book. What do you ask?",
         options: ["Who wrote this book?", "Who did write this book?", "Who did this book write?", "Who writes did this book?"],
         correctIndex: 0,
         explanation: "Skill 5, subject questions: when \"who\" is the subject, there is no \"did\".",

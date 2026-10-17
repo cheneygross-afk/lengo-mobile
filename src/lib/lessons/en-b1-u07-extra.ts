@@ -68,7 +68,7 @@ export const EN_B1_U07_EXTRA: Lesson[] = [
             sentence: "Shh! The baby ___ a bath. Can you call back later?",
             answer: "is having",
             altAnswers: ["'s having", "is taking", "'s taking"],
-            en: "¡Chis! El bebé [se está bañando]. ¿Puedes llamar más tarde?",
+            en: "¡Shh! El bebé [se está bañando]. ¿Puedes llamar más tarde?",
             explanation: "\"Have a bath\" is an action, so the continuous is fine: \"is having a bath\".",
           },
         ],
@@ -307,7 +307,7 @@ export const EN_B1_U07_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Correct the learner: *Did you ever eat sushi?",
+        question: "Which question is correct?",
         options: ["Have you ever eaten sushi?", "Have you ever ate sushi?", "Do you ever eaten sushi?", "Had you ever eat sushi?"],
         correctIndex: 0,
         explanation: "Life experience with \"ever\" = present perfect: \"Have you ever eaten...?\". The past participle of \"eat\" is \"eaten\".",

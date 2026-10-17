@@ -69,7 +69,7 @@ export const EN_B2_U07_EXTRA: Lesson[] = [
         sentence: "I wish I ___ more money. I'd buy a new laptop.",
         answer: "had",
         altAnswers: ["earned", "made"],
-        en: "Ojalá [tuviera] más dinero. Me compraría un portátil nuevo.",
+        en: "Ojalá [tuviera] más dinero. Me compraría una laptop nueva.",
         explanation: "Present wish: past simple, \"I wish I had\". Not *I wish I have.",
       },
       {
@@ -108,8 +108,8 @@ export const EN_B2_U07_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Ojalá no hiciera tanto frío aquí.",
-        answer: "I wish it wasn't so cold here.",
-        altAnswers: ["I wish it weren't so cold here.", "If only it wasn't so cold here.", "If only it weren't so cold here.", "I wish it was not so cold here.", "I wish it were not so cold here."],
+        answer: "I wish it weren't so cold here.",
+        altAnswers: ["I wish it wasn't so cold here.", "If only it wasn't so cold here.", "If only it weren't so cold here.", "I wish it was not so cold here.", "I wish it were not so cold here."],
         explanation: "Weather with \"it\" + \"be\": «hace frío» is \"it is cold\", so the wish is \"I wish it wasn't (weren't) so cold\". Never *it didn't make so cold.",
       },
       {
@@ -326,7 +326,7 @@ export const EN_B2_U07_EXTRA: Lesson[] = [
         sentence: "I wish I ___ so much at dinner. I feel terrible.",
         answer: "hadn't eaten",
         altAnswers: ["had not eaten", "hadn't had"],
-        en: "Ojalá no [hubiera comido] tanto en la cena. Me siento fatal.",
+        en: "Ojalá no [hubiera comido] tanto en la cena. Me siento muy mal.",
         explanation: "Past regret: \"hadn't eaten\". The participle of \"eat\" is \"eaten\", not *ate.",
       },
       {
@@ -672,10 +672,10 @@ export const EN_B2_U07_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Podrías haberte hecho daño.",
+        source: "Podrías haberte lastimado.",
         answer: "You could have hurt yourself.",
         altAnswers: ["You could've hurt yourself.", "You might have hurt yourself.", "You could have been hurt.", "You could have injured yourself.", "You might have been hurt."],
-        explanation: "\"Could have\" for a danger that didn't happen. «Hacerse daño» = \"hurt yourself\".",
+        explanation: "\"Could have\" for a danger that didn't happen. «Lastimarse» = \"hurt yourself\".",
       },
       {
         type: "translate",

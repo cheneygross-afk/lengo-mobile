@@ -840,7 +840,7 @@ export const EN_B1_U26: Lesson[] = [
         heading: "At work: hand in, fill in, take over",
         body: [
           "\"Hand in\" is «entregar» homework, a report or a document to a teacher or boss: \"Please hand in your essays on Friday.\" Americans also say \"turn in\". To quit a job, you \"hand in your notice\" or \"hand in your resignation\".",
-          "\"Fill in\" a form is «rellenar»: \"Fill in this form, please.\" In the US, \"fill out\" is more common for the whole form. Both are separable: \"fill it in\", \"fill it out\".",
+          "\"Fill in\" a form is «llenar»: \"Fill in this form, please.\" In the US, \"fill out\" is more common for the whole form. Both are separable: \"fill it in\", \"fill it out\".",
           "\"Take over\" is «hacerse cargo», «tomar el control» or, for companies, «absorber»: \"Ana will take over when I retire\", \"A big company took over our firm.\" The noun is \"a takeover\".",
         ],
         examples: [
@@ -855,7 +855,7 @@ export const EN_B1_U26: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Tienes que rellenar este formulario.",
+            source: "Tienes que llenar este formulario.",
             answer: "You have to fill in this form.",
             altAnswers: ["You have to fill out this form.", "You need to fill in this form.", "You need to fill out this form.", "You have to fill this form in.", "You have to fill this form out.", "You need to fill this form out.", "You need to fill this form in.", "You must fill in this form.", "You must fill out this form."],
             explanation: "«Rellenar» a form is \"fill in\" (BrE) or \"fill out\" (AmE). Not \"refill\", which is to fill a glass again.",
@@ -1509,7 +1509,7 @@ export const EN_B1_U26: Lesson[] = [
           { es: "Let's take a ten-minute break.", en: "Hagamos un descanso de diez minutos." },
           { es: "I usually take a nap after lunch.", en: "Suelo echarme la siesta después de comer." },
           { es: "Can you take a look at my car?", en: "¿Puedes echarle un vistazo a mi carro?" },
-          { es: "We had a great time.", en: "Lo pasamos muy bien." },
+          { es: "We had a great time.", en: "La pasamos muy bien." },
         ],
         checkpoint: [
           {
@@ -2084,7 +2084,7 @@ export const EN_B1_U26: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["She", "took", "a", "photo", "and", "recorded", "a", "video."],
-        translation: "Tomó una foto y grabó un vídeo.",
+        translation: "Tomó una foto y grabó un video.",
         altOrders: [["She", "recorded", "a", "video", "and", "took", "a", "photo."]],
         explanation: "Photos are \"taken\", not *made. «Grabar» a video is \"record\" (or \"make\" / \"shoot\").",
       },
@@ -2483,7 +2483,7 @@ export const EN_B1_U26: Lesson[] = [
         question: "You're telling a friend about your weekend. Which sounds most natural?",
         options: ["The concert got canceled, so we just carried on drinking at the bar.", "The concert was canceled, so we continued consuming beverages at the bar.", "The concert got canceled, so we carried drinking on at the bar.", "The concert was canceled, so we followed drinking at the bar."],
         correctIndex: 0,
-        explanation: "\"Carry on\" + -ing is the natural choice. Option two is correct but sounds like a formal report.",
+        explanation: "\"Carry on\" + -ing is the natural choice. \"Continued consuming beverages\" is correct but sounds like a formal report.",
       },
       {
         type: "fill-blank",

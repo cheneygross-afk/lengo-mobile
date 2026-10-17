@@ -441,7 +441,7 @@ export const EN_B1_U02_EXTRA: Lesson[] = [
           "I yet haven't finished.",
         ],
         correctIndex: 0,
-        explanation: "In a negative sentence, «todavía no» is \"not ... yet\" («ya no» is \"not any more\"), with \"yet\" at the end. \"Already\" belongs in affirmatives.",
+        explanation: "In a negative sentence, «todavía no» is \"not ... yet\" («ya no» is \"not anymore\"), with \"yet\" at the end. \"Already\" belongs in affirmatives.",
       },
       {
         type: "fill-blank",
@@ -633,7 +633,7 @@ export const EN_B1_U02_EXTRA: Lesson[] = [
         prompt: "Translate into English.",
         source: "Me ha mordido un perro.",
         answer: "A dog has bitten me.",
-        altAnswers: ["A dog bit me.", "I've been bitten by a dog.", "I was bitten by a dog.", "A dog has bitten me."],
+        altAnswers: ["A dog bit me.", "I've been bitten by a dog.", "I was bitten by a dog."],
         explanation: "\"Bite, bit, bitten\". English puts the subject first: \"A dog has bitten me\", not *Has bitten me a dog.",
       },
       {
@@ -843,7 +843,7 @@ export const EN_B1_U02_EXTRA: Lesson[] = [
         prompt: "Translate into English.",
         source: "¿Dónde has estado? Te he llamado tres veces.",
         answer: "Where have you been? I've called you three times.",
-        altAnswers: ["Where have you been? I called you three times.", "Where were you? I called you three times.", "Where have you been? I've called you three times."],
+        altAnswers: ["Where have you been? I called you three times.", "Where were you? I called you three times."],
         explanation: "\"Where have you been?\" is what you say to someone who finally turns up. Here \"been\" is the participle of \"be\", not of \"go\".",
       },
       {

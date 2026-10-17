@@ -291,7 +291,7 @@ export const EN_B2_U01_EXTRA: Lesson[] = [
           "Do not overuse it. If you tell events in the order they happened, the past simple is enough: \"I got up, took a shower and left\". «Ya» goes between \"had\" and the participle: \"had already left\".",
         ],
         examples: [
-          { es: "When we got there, the film had already started.", en: "Cuando llegamos, la película ya había empezado." },
+          { es: "When we got there, the movie had already started.", en: "Cuando llegamos, la película ya había empezado." },
           { es: "She had already left when I called.", en: "Ya se había ido cuando la llamé." },
           { es: "I had never seen so much snow.", en: "Nunca había visto tanta nieve. (incorrecto: *I had never saw)" },
           { es: "I got up, took a shower and left.", en: "Me levanté, me duché y me fui." },
@@ -328,8 +328,8 @@ export const EN_B2_U01_EXTRA: Lesson[] = [
           "Spanish sometimes uses the imperfect where English needs the past perfect: «Era la primera vez que viajaba en avión» is \"It was the first time I had flown\".",
         ],
         examples: [
-          { es: "When I got home, my wife was cooking dinner.", en: "Cuando llegué, mi mujer estaba haciendo la cena." },
-          { es: "When I got home, my wife had cooked dinner.", en: "Cuando llegué, mi mujer ya había hecho la cena." },
+          { es: "When I got home, my wife was cooking dinner.", en: "Cuando llegué, mi esposa estaba haciendo la cena." },
+          { es: "When I got home, my wife had cooked dinner.", en: "Cuando llegué, mi esposa ya había hecho la cena." },
           { es: "After the guests left, we cleaned the kitchen.", en: "Después de que se fueran los invitados, limpiamos la cocina." },
           { es: "It was the first time I had flown.", en: "Era la primera vez que viajaba en avión." },
         ],
@@ -436,9 +436,9 @@ export const EN_B2_U01_EXTRA: Lesson[] = [
         type: "matching",
         instructions: "Match each English sentence with its Spanish meaning.",
         pairs: [
-          { left: "When I got home, my wife cooked dinner.", right: "Cuando llegué, mi mujer se puso a hacer la cena." },
-          { left: "When I got home, my wife had cooked dinner.", right: "Cuando llegué, mi mujer ya había hecho la cena." },
-          { left: "When I got home, my wife was cooking dinner.", right: "Cuando llegué, mi mujer estaba haciendo la cena." },
+          { left: "When I got home, my wife cooked dinner.", right: "Cuando llegué, mi esposa se puso a hacer la cena." },
+          { left: "When I got home, my wife had cooked dinner.", right: "Cuando llegué, mi esposa ya había hecho la cena." },
+          { left: "When I got home, my wife was cooking dinner.", right: "Cuando llegué, mi esposa estaba haciendo la cena." },
         ],
         explanation: "Past simple: one event after the other. Past continuous: in the middle of it. Past perfect: already finished before I arrived.",
       },
@@ -737,7 +737,7 @@ export const EN_B2_U01_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Llevaba una hora en la cola cuando abrieron la puerta.» Which is best?",
+        question: "«Llevaba una hora en la fila cuando abrieron la puerta.» Which is best?",
         options: [
           "I had been standing in line for an hour when they opened the door.",
           "I was standing in line for an hour when they opened the door.",
@@ -1064,12 +1064,12 @@ export const EN_B2_U01_EXTRA: Lesson[] = [
       {
         heading: "lie, lay, rise, raise",
         body: [
-          "\"Lie\" (tumbarse, estar tumbado) has no object: lie, lay, lain. \"Lay\" (poner, colocar) always has an object: lay, laid, laid. The trap: the past of \"lie\" is \"lay\". «Se tumbó» is \"She lay down\", not *She laid down.",
+          "\"Lie\" (acostarse, estar acostado) has no object: lie, lay, lain. \"Lay\" (poner, colocar) always has an object: lay, laid, laid. The trap: the past of \"lie\" is \"lay\". «Se acostó» is \"She lay down\", not *She laid down.",
           "\"Lie\" meaning «mentir» is regular: lie, lied, lied.",
           "\"Rise\" (subir, salir el sol) has no object: rise, rose, risen. \"Raise\" (subir algo, levantar) needs an object and is regular: \"They raised prices\", \"Prices rose\".",
         ],
         examples: [
-          { es: "She lay down on the sofa.", en: "Se tumbó en el sofá. (incorrecto: *She laid down)" },
+          { es: "She lay down on the sofa.", en: "Se acostó en el sofá. (incorrecto: *She laid down)" },
           { es: "He laid the baby in the crib.", en: "Puso al bebé en la cuna." },
           { es: "He lied about his age.", en: "Mintió sobre su edad." },
           { es: "The sun had already risen.", en: "El sol ya había salido." },
@@ -1081,7 +1081,7 @@ export const EN_B2_U01_EXTRA: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "She ___ down on the sofa because she felt dizzy.",
             answer: "lay",
-            en: "Se [tumbó] en el sofá porque estaba mareada.",
+            en: "Se [acostó] en el sofá porque estaba mareada.",
             explanation: "\"Lie down\" has no object, and its past is \"lay\": lie, lay, lain. *Laid down is a very common mistake, even among native speakers, but it is not standard.",
           },
         ],
@@ -1185,7 +1185,7 @@ export const EN_B2_U01_EXTRA: Lesson[] = [
         type: "matching",
         instructions: "Match each English verb with its Spanish meaning.",
         pairs: [
-          { left: "lie (lay, lain)", right: "tumbarse, estar tumbado" },
+          { left: "lie (lay, lain)", right: "acostarse, estar acostado" },
           { left: "lay (laid, laid)", right: "poner, colocar algo" },
           { left: "lie (lied, lied)", right: "mentir" },
           { left: "rise (rose, risen)", right: "subir, salir (sin objeto)" },
@@ -1198,7 +1198,7 @@ export const EN_B2_U01_EXTRA: Lesson[] = [
         question: "«Mintió sobre su edad.» Which is correct?",
         options: ["He lied about his age.", "He lay about his age.", "He laid about his age.", "He lain about his age."],
         correctIndex: 0,
-        explanation: "\"Lie\" meaning «mentir» is regular: lie, lied, lied. \"Lay\" is the past of \"lie\" meaning «tumbarse».",
+        explanation: "\"Lie\" meaning «mentir» is regular: lie, lied, lied. \"Lay\" is the past of \"lie\" meaning «acostarse».",
       },
       {
         type: "translate",
@@ -1284,7 +1284,7 @@ export const EN_B2_U01_EXTRA: Lesson[] = [
         heading: "Quick recap: while, during, as soon as, by the time",
         body: [
           "\"During\" is a preposition: it goes before a noun (\"during the night\", \"during the meeting\"). \"While\" is a conjunction: it goes before a subject and verb (\"while I was sleeping\"). *During I was sleeping is a typical error, because «durante» and «mientras» get mixed up.",
-          "\"As soon as\" is «en cuanto, nada más»: \"As soon as I arrived, I called her\". \"By the time\" is «para cuando»: \"By the time we got there, the store had closed\". \"Meanwhile\" is «mientras tanto» and starts a new sentence.",
+          "\"As soon as\" is «en cuanto, apenas»: \"As soon as I arrived, I called her\". \"By the time\" is «para cuando»: \"By the time we got there, the store had closed\". \"Meanwhile\" is «mientras tanto» and starts a new sentence.",
         ],
         examples: [
           { es: "I fell asleep during the movie.", en: "Me quedé dormido durante la película." },
@@ -1343,7 +1343,7 @@ export const EN_B2_U01_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Someone stole my wallet ___ I was sleeping on the train.",
         answer: "while",
-        en: "Alguien me robó la cartera [mientras] dormía en el tren.",
+        en: "Alguien me robó la billetera [mientras] dormía en el tren.",
         explanation: "A subject and verb follow (\"I was sleeping\"), so \"while\", not \"during\".",
       },
       {

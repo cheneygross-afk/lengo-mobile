@@ -55,7 +55,7 @@ export const EN_B1_U14_EXTRA: Lesson[] = [
         examples: [
           { es: "The house was built in 1920.", en: "La casa se construyó en 1920." },
           { es: "This book was written in French.", en: "Este libro se escribió en francés." },
-          { es: "The photo was taken in Lima.", en: "La foto se hizo en Lima." },
+          { es: "The photo was taken in Lima.", en: "La foto se tomó en Lima." },
           { es: "My wallet was stolen on the bus.", en: "Me robaron la cartera en el autobús." },
           { es: "The winners were chosen at random.", en: "Los ganadores se eligieron al azar." },
         ],
@@ -466,7 +466,7 @@ export const EN_B1_U14_EXTRA: Lesson[] = [
         body: [
           "When Spanish «se» talks about a thing (a house, a language, a product), English usually uses the passive with the thing as the subject: «Se vende casa» = \"House for sale\" or \"A house is being sold\"; «Aquí se habla inglés» = \"English is spoken here.\"",
           "Two typical mistakes: *It sells (a house doesn't sell anything) and *Is spoken English (English needs the subject first). And never translate «se» as \"itself\": *The church itself was built in 1500 means something else.",
-          "The verb agrees with the thing: «Se venden pisos» = \"Apartments are sold\" (or, on a sign, \"Apartments for sale\").",
+          "The verb agrees with the thing: «Se venden departamentos» = \"Apartments are sold\" (or, on a sign, \"Apartments for sale\").",
         ],
         examples: [
           { es: "English is spoken here.", en: "Aquí se habla inglés." },

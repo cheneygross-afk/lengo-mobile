@@ -345,7 +345,7 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
         question: "Which sentence sounds most natural in a casual chat between friends?",
         options: ["Let's put it off till next week.", "Let us postpone it until the following week.", "Let's put off it till next week.", "Let's put it out till next week."],
         correctIndex: 0,
-        explanation: "\"Put it off\" is everyday English. The second option is correct but sounds like a business letter; \"put off it\" has the wrong order; \"put out\" means extinguish.",
+        explanation: "\"Put it off\" is everyday English. \"Let us postpone it until the following week\" is correct but sounds like a business letter; \"put off it\" has the wrong order; \"put out\" means extinguish.",
       },
       {
         type: "translate",
@@ -446,7 +446,7 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
         examples: [
           { es: "Can I ask you a question?", en: "¿Puedo hacerte una pregunta?" },
           { es: "We took a lot of photos.", en: "Tomamos muchas fotos." },
-          { es: "We waited in line for an hour.", en: "Hicimos cola durante una hora." },
+          { es: "We waited in line for an hour.", en: "Hicimos fila durante una hora." },
         ],
         checkpoint: [
           {
@@ -899,7 +899,7 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Lo pasamos muy bien en la boda.",
+        source: "La pasamos muy bien en la boda.",
         answer: "We had a great time at the wedding.",
         altAnswers: ["We had a very good time at the wedding.", "We had a really good time at the wedding.", "We had a wonderful time at the wedding.", "We had a lot of fun at the wedding.", "We had a fantastic time at the wedding.", "We had a lovely time at the wedding.", "We had a really great time at the wedding."],
         explanation: "«Pasarlo bien» is \"have a good time\". *We passed it well is a word-for-word translation.",
@@ -976,7 +976,7 @@ export const EN_B1_U26_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Take a deep breath and pay attention.",
-        tip: "\"Breath\" (noun) ends in a soft th /θ/ like «z» in Spain; don't say it like \"breathe\" (verb).",
+        tip: "\"Breath\" (noun) ends in a soft th /θ/ (tongue between the teeth, as in \"think\"); don't say it like \"breathe\" (verb).",
         explanation: "\"Take a breath\" and \"pay attention\": two fixed collocations.",
       },
     ],

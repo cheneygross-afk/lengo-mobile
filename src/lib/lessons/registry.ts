@@ -224,8 +224,10 @@ export function findLessonBySlug(slug: string): Lesson | undefined {
 }
 
 /** True for a lesson from the Spanish course (not the Japanese or Chinese
- * betas, French or German) -- gates Spanish-only features like vosotros handling
+ * betas, French, German or Portuguese) -- gates Spanish-only features like vosotros handling
  * and listen-first. */
 export function isSpanishLessonLevel(level: string): boolean {
-  return !level.startsWith("JA") && !level.startsWith("ZH") && !level.startsWith("FR-") && !level.startsWith("DE-");
+  return (
+    !level.startsWith("JA") && !level.startsWith("ZH") && !level.startsWith("FR-") && !level.startsWith("DE-") && !level.startsWith("PT-")
+  );
 }

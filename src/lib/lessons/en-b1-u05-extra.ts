@@ -542,7 +542,7 @@ export const EN_B1_U05_EXTRA: Lesson[] = [
         question: "You want to borrow your roommate's bike. Which question is the most polite?",
         options: ["Will you be using your bike tomorrow?", "Will you use your bike tomorrow?", "Do you use your bike tomorrow?", "You use your bike tomorrow?"],
         correctIndex: 0,
-        explanation: "\"Will you be using...?\" asks about plans gently, with no pressure. \"Do you use...?\" asks about a habit, and the last option has no auxiliary.",
+        explanation: "\"Will you be using...?\" asks about plans gently, with no pressure. \"Do you use...?\" asks about a habit, and *You use your bike tomorrow? has no auxiliary.",
       },
       {
         type: "translate",

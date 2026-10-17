@@ -157,7 +157,7 @@ export const EN_B2_U16_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Echo de menos hablar español con mis amigos.",
+        source: "Extraño hablar español con mis amigos.",
         answer: "I miss speaking Spanish with my friends.",
         altAnswers: ["I miss speaking Spanish to my friends.", "I miss talking in Spanish with my friends.", "I miss talking to my friends in Spanish."],
         explanation: "\"Miss\" + -ing: \"miss speaking\".",
@@ -233,14 +233,14 @@ export const EN_B2_U16_EXTRA: Lesson[] = [
         body: [
           "remember / forget + to = an action you must do (later): \"Remember to call her\" («acuérdate de llamarla»). remember / forget + -ing = a memory of the past: \"I remember calling her\" («recuerdo haberla llamado»).",
           "stop + -ing = no longer do it: \"I stopped smoking\" («dejé de fumar»). stop + to = stop one action in order to do another: \"I stopped to smoke\" («paré para fumar»).",
-          "try + to = make an effort, maybe without success: \"Try to open it\" («intenta abrirlo»). try + -ing = do it as an experiment: \"Try restarting it\" («prueba a reiniciarlo»).",
+          "try + to = make an effort, maybe without success: \"Try to open it\" («intenta abrirlo»). try + -ing = do it as an experiment: \"Try restarting it\" («prueba reiniciarlo»).",
         ],
         examples: [
           { es: "Remember to lock the door.", en: "Acuérdate de cerrar la puerta con llave." },
           { es: "I don't remember locking the door.", en: "No recuerdo haber cerrado la puerta con llave." },
           { es: "I stopped eating meat two years ago.", en: "Dejé de comer carne hace dos años." },
           { es: "We stopped to eat something.", en: "Paramos para comer algo." },
-          { es: "Try turning it off and on again.", en: "Prueba a apagarlo y volver a encenderlo." },
+          { es: "Try turning it off and on again.", en: "Prueba apagarlo y volver a prenderlo." },
         ],
         checkpoint: [
           {
@@ -323,8 +323,8 @@ export const EN_B2_U16_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "If the door is stuck, try ___ it harder.",
         answer: "pushing",
-        en: "Si la puerta está atascada, prueba a [empujarla] más fuerte.",
-        explanation: "«Probar a» = \"try + -ing\": an experiment to see if it works.",
+        en: "Si la puerta está atascada, prueba [empujarla] más fuerte.",
+        explanation: "«Probar» + infinitive = \"try + -ing\": an experiment to see if it works.",
       },
       {
         type: "translate",
@@ -437,7 +437,7 @@ export const EN_B2_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Prueba a añadir un poco de sal.» Which is the best translation?",
+        question: "«Prueba añadir un poco de sal.» Which is the best translation?",
         options: [
           "Try adding a little salt.",
           "Try to add a little salt.",
@@ -445,7 +445,7 @@ export const EN_B2_U16_EXTRA: Lesson[] = [
           "Test adding a little salt.",
         ],
         correctIndex: 0,
-        explanation: "«Probar a» = experiment: \"try + -ing\". \"Try to add\" suggests it is difficult to add salt.",
+        explanation: "«Probar» + infinitive = experiment: \"try + -ing\". \"Try to add\" suggests it is difficult to add salt.",
       },
       {
         type: "translate",
@@ -832,7 +832,7 @@ export const EN_B2_U16_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "There ___ be a cinema here, but now it's a supermarket.",
+        sentence: "There ___ be a movie theater here, but now it's a supermarket.",
         answer: "used to",
         en: "Aquí [antes había] un cine, pero ahora es un supermercado.",
         explanation: "A past state no longer true: \"There used to be\".",
@@ -1160,7 +1160,7 @@ export const EN_B2_U16_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "I want you to tell me exactly what happened.",
-        tip: "\"Want you to\" often sounds like \"wanna-you-ta\" in fast speech: link the words.",
+        tip: "\"Want you to\" often sounds like \"WAN-chu-tuh\" in fast speech: link the words.",
         explanation: "\"Want + you + to\" replaces «quiero que me digas».",
       },
     ],
@@ -1196,7 +1196,7 @@ export const EN_B2_U16_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«Es difícil que lo entienda.» (= a mí me cuesta) Which is correct?",
+            question: "«Me cuesta entenderlo.» Which is correct?",
             options: [
               "It's difficult for me to understand it.",
               "It's difficult that I understand it.",

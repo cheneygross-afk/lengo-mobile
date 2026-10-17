@@ -318,7 +318,7 @@ export const EN_B2_U28_EXTRA: Lesson[] = [
         audio: "Money's tight this month, but we'll get by.",
         question: "What did you hear?",
         options: [
-          "Este mes vamos justos de dinero, pero nos las arreglaremos.",
+          "Este mes andamos cortos de dinero, pero nos las arreglaremos.",
           "Este mes nos han subido el sueldo, así que lo superaremos.",
           "Este mes no tenemos dinero y no podremos pasar.",
         ],
@@ -685,7 +685,7 @@ export const EN_B2_U28_EXTRA: Lesson[] = [
           { es: "I'll pick you up at seven.", en: "Te recojo a las siete." },
           { es: "Can you give me my book back?", en: "¿Me devuelves el libro?" },
           { es: "If you don't need these magazines, throw them away.", en: "Si no necesitas estas revistas, tíralas." },
-          { es: "Turn the heating on; it's freezing.", en: "Enciende la calefacción, que hace un frío que pela." },
+          { es: "Turn the heat on; it's freezing.", en: "Enciende la calefacción, que hace un frío que pela." },
         ],
         checkpoint: [
           {
@@ -905,8 +905,8 @@ export const EN_B2_U28_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Rellena este formulario y devuélvemelo.",
-        answer: "Fill in this form and give it back to me.",
+        source: "Llena este formulario y devuélvemelo.",
+        answer: "Fill out this form and give it back to me.",
         altAnswers: [
           "Fill in this form and give it back.",
           "Fill in this form and return it to me.",
@@ -1786,13 +1786,13 @@ export const EN_B2_U28_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: rise/raise, lie/lay, remember/remind, bring/take",
         body: [
-          "\"Rise\" (rose, risen) has no object: \"Prices rose\". \"Raise\" (raised) has an object: \"They raised prices\", \"Raise your hand\". In the same way, \"lie\" (lay, lain) means «tumbarse» and has no object, while \"lay\" (laid) means «poner, colocar» and needs one: \"Lay the baby on the bed\".",
-          "\"Remember\" is «acordarse»; \"remind\" is «recordarle algo a alguien» and needs a person: \"Remind me to call her\", \"This song reminds me of you\". \"Bring\" is movement towards the speaker («traer»); \"take\" is movement away («llevar»).",
+          "\"Rise\" (rose, risen) has no object: \"Prices rose\". \"Raise\" (raised) has an object: \"They raised prices\", \"Raise your hand\". In the same way, \"lie\" (lay, lain) means «acostarse, recostarse» and has no object, while \"lay\" (laid) means «poner, colocar» and needs one: \"Lay the baby on the bed\".",
+          "\"Remember\" is «acordarse»; \"remind\" is «recordarle algo a alguien» and needs a person: \"Remind me to call her\", \"This song reminds me of you\". \"Bring\" is movement toward the speaker («traer»); \"take\" is movement away («llevar»).",
         ],
         examples: [
           { es: "The sun rises in the east.", en: "El sol sale por el este." },
           { es: "They've raised the price of electricity again.", en: "Han vuelto a subir el precio de la luz." },
-          { es: "I'm going to lie down for half an hour.", en: "Me voy a tumbar media hora." },
+          { es: "I'm going to lie down for half an hour.", en: "Me voy a recostar media hora." },
           { es: "Remind me to buy bread.", en: "Recuérdame que compre pan." },
           { es: "Bring your guitar when you come.", en: "Trae la guitarra cuando vengas." },
           { es: "Take an umbrella; it's going to rain.", en: "Llévate un paraguas, que va a llover." },
@@ -1945,7 +1945,7 @@ export const EN_B2_U28_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Me voy a tumbar un rato.» Which is correct?",
+        question: "«Me voy a recostar un rato.» Which is correct?",
         options: [
           "I'm going to lie down for a while.",
           "I'm going to lay down for a while.",
@@ -2000,7 +2000,7 @@ export const EN_B2_U28_EXTRA: Lesson[] = [
           "Bring some drinks when you come.",
           "Bring some drinks when you come over.",
         ],
-        explanation: "Movement towards the speaker is \"bring\" («traer»). \"Take\" is for movement away from the speaker.",
+        explanation: "Movement toward the speaker is \"bring\" («traer»). \"Take\" is for movement away from the speaker.",
       },
       {
         type: "fill-blank",
@@ -2008,7 +2008,7 @@ export const EN_B2_U28_EXTRA: Lesson[] = [
         sentence: "Can you ___ these books back to the library for me?",
         answer: "take",
         en: "¿Puedes [llevar] estos libros a la biblioteca por mí?",
-        explanation: "Movement away from the speaker is \"take\" («llevar»). \"Bring\" would mean towards the speaker.",
+        explanation: "Movement away from the speaker is \"take\" («llevar»). \"Bring\" would mean toward the speaker.",
       },
       {
         type: "translate",

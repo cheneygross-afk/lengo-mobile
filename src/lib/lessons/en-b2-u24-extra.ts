@@ -386,7 +386,7 @@ export const EN_B2_U24_EXTRA: Lesson[] = [
           "My grandma loaned me the money for the down payment on the apartment.",
           "My grandmother lent me the money for the down payment for the apartment.",
         ],
-        explanation: "The owner of the money lends: \"lent me\" (lend, lent, lent). «La entrada» of a home is \"the down payment\" (American) or \"the deposit\" (British).",
+        explanation: "The owner of the money lends: \"lent me\" (lend, lent, lent). «El pago inicial» (also «el enganche» or, in Spain, «la entrada») of a home is \"the down payment\" (American) or \"the deposit\" (British).",
       },
       {
         type: "fill-blank",
@@ -685,7 +685,7 @@ export const EN_B2_U24_EXTRA: Lesson[] = [
         type: "matching",
         instructions: "Match the collocations with their Spanish meaning.",
         pairs: [
-          { left: "make a complaint", right: "poner una reclamación" },
+          { left: "make a complaint", right: "presentar una queja" },
           { left: "do the laundry", right: "lavar la ropa" },
           { left: "make a suggestion", right: "hacer una sugerencia" },
           { left: "do a course", right: "hacer un curso" },
@@ -979,10 +979,10 @@ export const EN_B2_U24_EXTRA: Lesson[] = [
         audio: "Youth unemployment has fallen for the third year in a row.",
         question: "What does the speaker mean?",
         options: [
-          "El paro juvenil ha bajado por tercer año consecutivo.",
-          "El paro juvenil ha subido por tercer año consecutivo.",
-          "El paro juvenil ha bajado a la tercera parte.",
-          "El paro juvenil bajó hace tres años.",
+          "El desempleo juvenil ha bajado por tercer año consecutivo.",
+          "El desempleo juvenil ha subido por tercer año consecutivo.",
+          "El desempleo juvenil ha bajado a la tercera parte.",
+          "El desempleo juvenil bajó hace tres años.",
         ],
         correctIndex: 0,
         explanation: "\"Fallen\" is «bajado», and \"in a row\" is «seguidos / consecutivos».",

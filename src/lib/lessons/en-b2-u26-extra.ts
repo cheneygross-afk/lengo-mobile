@@ -231,7 +231,7 @@ export const EN_B2_U26_EXTRA: Lesson[] = [
       {
         heading: "Quick recap: the relationship verbs",
         body: [
-          "\"Get on (well) with\" someone = «llevarse bien con» (American English also says \"get along with\"). \"Fall out with\" someone = stop being friends after an argument («enojarse, pelearse con»). \"Make up\" = become friends again («hacer las paces, reconciliarse»).",
+          "\"Get along (well) with\" someone = «llevarse bien con» (British English also says \"get on with\"). \"Fall out with\" someone = stop being friends after an argument («enojarse, pelearse con»). \"Make up\" = become friends again («hacer las paces, reconciliarse»).",
           "\"Go out with\" someone = have a romantic relationship («salir con»). \"Break up (with)\" = end it («cortar, romper con»). Then \"get engaged\" («comprometerse») and \"get married\" («casarse»).",
         ],
         examples: [
@@ -291,10 +291,10 @@ export const EN_B2_U26_EXTRA: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the bold words in English.",
         sentence: "Do you ___ with your colleagues?",
-        answer: "get on",
-        altAnswers: ["get along"],
+        answer: "get along",
+        altAnswers: ["get on"],
         en: "¿Te [llevas bien] con tus compañeros de trabajo?",
-        explanation: "\"Get on with\" (UK, US) / \"get along with\" (US) = «llevarse bien con».",
+        explanation: "\"Get along with\" (US) / \"get on with\" (UK) = «llevarse bien con».",
       },
       {
         type: "translate",
@@ -511,8 +511,8 @@ export const EN_B2_U26_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Tengo frío. ¿Puedes subir la calefacción?",
-        answer: "I'm cold. Can you turn up the heating?",
-        altAnswers: ["I'm cold. Can you turn the heating up?", "I'm cold. Could you turn up the heating?", "I'm cold. Could you turn the heating up?", "I'm cold. Can you turn up the heat?", "I'm cold. Can you turn the heat up?", "I'm cold. Could you turn up the heat?", "I'm cold. Could you turn the heat up?"],
+        answer: "I'm cold. Can you turn up the heat?",
+        altAnswers: ["I'm cold. Can you turn up the heating?", "I'm cold. Can you turn the heating up?", "I'm cold. Could you turn up the heating?", "I'm cold. Could you turn the heating up?", "I'm cold. Can you turn up the heat?", "I'm cold. Can you turn the heat up?", "I'm cold. Could you turn up the heat?", "I'm cold. Could you turn the heat up?"],
         explanation: "«Tengo frío» = \"I'm cold\" (be + adjective), never *I have cold.",
       },
       {
@@ -1022,7 +1022,7 @@ export const EN_B2_U26_EXTRA: Lesson[] = [
         source: "El examen de manejo no fue pan comido: reprobé dos veces.",
         answer: "The driving test wasn't a piece of cake: I failed twice.",
         altAnswers: ["The driving test wasn't a piece of cake. I failed twice.", "The driving test was no piece of cake: I failed twice.", "The driving test was no piece of cake. I failed twice.", "The driving test wasn't a piece of cake: I failed it twice.", "The driving test wasn't a piece of cake. I failed it twice.", "My driving test wasn't a piece of cake: I failed twice.", "My driving test wasn't a piece of cake. I failed twice."],
-        explanation: "\"A piece of cake\" works in the negative too. «Suspender» = \"fail\".",
+        explanation: "\"A piece of cake\" works in the negative too. «Reprobar» = \"fail\".",
       },
       {
         type: "word-order",
@@ -1080,7 +1080,7 @@ export const EN_B2_U26_EXTRA: Lesson[] = [
             question: "Which word is the opposite of \"patient\"?",
             options: ["impatient", "unpatient", "inpatient", "dispatient"],
             correctIndex: 0,
-            explanation: "\"In-\" becomes \"im-\" before p: \"impatient\". (An \"inpatient\" is a person who stays in hospital.)",
+            explanation: "\"In-\" becomes \"im-\" before p: \"impatient\". (An \"inpatient\" is a person who stays in the hospital.)",
           },
         ],
       },

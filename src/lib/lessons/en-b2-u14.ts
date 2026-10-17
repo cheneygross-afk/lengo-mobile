@@ -1060,7 +1060,7 @@ export const EN_B2_U14: Lesson[] = [
       {
         type: "speak",
         text: "What I like most about my job is the people.",
-        tip: "Stress \"like\", \"most\" and \"people\". The \"t\" of \"What\" is almost silent before \"I\" in fast speech.",
+        tip: "Stress \"like\", \"most\" and \"people\". In American English the \"t\" of \"What\" becomes a quick \"d\" sound before \"I\": \"wha-dai\".",
         explanation: "This \"What... is...\" structure is very common in English for highlighting the important part of the sentence.",
       },
     ],
@@ -2558,7 +2558,7 @@ export const EN_B2_U14: Lesson[] = [
       {
         type: "dictation",
         audio: "The man who denied stealing the car was arrested.",
-        explanation: "\"Denied stealing\": \"deny\" is always followed by -ing or a noun, never by \"to\".",
+        explanation: "\"Denied stealing\": \"deny\" is followed by -ing, a noun or a that-clause, never by \"to\".",
       },
     ],
   },

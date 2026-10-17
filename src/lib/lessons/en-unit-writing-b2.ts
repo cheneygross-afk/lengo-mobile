@@ -258,7 +258,7 @@ export const EN_B2_UNIT_WRITING: Record<string, WriteExercise> = {
       "\"not as... as\" at least once",
       "A \"the more..., the more...\" sentence",
       "Quantifiers: \"both\", \"neither\", \"each/every\", \"few/a few\", \"little/a little\"",
-      "A superlative with \"by far\" or \"one of the...\"",
+      "A superlative with \"in\" or \"ever\" (\"the best place in the city\", \"the best city I have ever lived in\")",
     ],
     "I have lived in both Valencia and Berlin, and they are very different places. Housing in Berlin is far more expensive than in Valencia, and it is getting worse every year. In Valencia I paid slightly less for a big apartment than I pay now for a tiny room. However, public transportation in Berlin is a lot better. Trains run every few minutes, whereas in Valencia buses are not as frequent as people would like. Neither city has a perfect climate: Valencia is too hot in summer and Berlin is far too cold in winter. The cost of living is higher in Berlin, but salaries are too. Valencia has few big companies, so there are fewer job opportunities, while Berlin has plenty. Each city has its own culture, and both are friendly to foreigners. In my experience, the longer you stay in a place, the more you like it. Still, for quality of life, Valencia is by far the best city I have ever lived in.",
     "Use \"far\", \"much\" or \"a lot\" to make a big difference and \"slightly\" or \"a bit\" for a small one: \"far more expensive\", never *very more expensive. \"Few\" is negative (not many), whereas \"a few\" is positive (some)."
@@ -290,13 +290,13 @@ export const EN_B2_UNIT_WRITING: Record<string, WriteExercise> = {
   u24: t(
     "Write an opinion piece for a local newspaper about one of these issues: the four-day working week, the rising cost of housing, or young people's salaries. Use the vocabulary of work, money and society.",
     [
-      "At least six topic words or collocations (\"earn a living\", \"cost of living\", \"pay rise\", \"unemployment\", \"taxes\"...)",
+      "At least six topic words or collocations (\"earn a living\", \"cost of living\", \"a raise\", \"unemployment\", \"taxes\"...)",
       "\"make\" and \"do\" in correct collocations (\"make a profit\", \"do business\")",
-      "At least one phrasal verb about money or work (\"pay off\", \"take on\", \"cut back on\")",
+      "At least one phrasal verb about money or work (\"pay off\", \"take on\", \"cut down on\")",
       "A clear opinion and at least one supporting example",
       "No false friends: \"actually\" does not mean «actualmente», and \"assist\" does not mean «asistir» (\"attend\")",
     ],
-    "Young people today are better educated than any generation before them, yet many of them struggle to earn a living. In my city, the average rent has doubled in ten years, while salaries have hardly changed. As a result, a lot of graduates in their late twenties still live with their parents. They are not lazy; they simply cannot afford to move out. Many companies take on young workers with short-term contracts and low wages, even when they are making a large profit. A typical graduate has to work long hours and do overtime without any hope of a pay rise. At the same time, the cost of living keeps going up, so they have to cut back on everything, from food to leisure. I believe the government should do more to help. It could lower taxes for young workers and build affordable housing. If nothing changes, our most talented young people will build their careers abroad, and the whole country will pay the price.",
+    "Young people today are better educated than any generation before them, yet many of them struggle to earn a living. In my city, the average rent has doubled in ten years, while salaries have hardly changed. As a result, a lot of graduates in their late twenties still live with their parents. They are not lazy; they simply cannot afford to move out. Many companies take on young workers with short-term contracts and low wages, even when they are making a large profit. A typical graduate has to work long hours and do overtime without any hope of a raise. At the same time, the cost of living keeps going up, so they have to cut down on everything, from food to leisure. I believe the government should do more to help. It could lower taxes for young workers and build affordable housing. If nothing changes, our most talented young people will build their careers abroad, and the whole country will pay the price.",
     "Collocations matter more than single words: you \"make a profit\" and \"make money\", but \"do business\" and \"do overtime\". Remember that \"actually\" means «en realidad», not «actualmente» (that is \"currently\" or \"nowadays\")."
   ),
   u25: t(
@@ -314,20 +314,20 @@ export const EN_B2_UNIT_WRITING: Record<string, WriteExercise> = {
   u26: t(
     "Write about a person who has had an important influence on your life or your wellbeing (a friend, a teacher, a coach). Describe their personality, your relationship and how they helped you through a difficult time.",
     [
-      "At least five words for personality and feelings (\"reliable\", \"down-to-earth\", \"anxious\", \"relieved\"...)",
+      "At least five words for personality and feelings (\"reliable\", \"easy-going\", \"overwhelmed\", \"relieved\"...)",
       "At least two adjectives or verbs with the right dependent preposition (\"proud of\", \"worried about\", \"rely on\")",
-      "At least one idiom from the unit (\"get on like a house on fire\", \"be over the moon\")",
+      "At least one idiom from the unit (\"hit it off\", \"break the ice\", \"under the weather\", \"the last straw\")",
       "No confusion of false friends (\"embarrassed\", \"sensible\", \"sensitive\")",
       "A clear structure: who, what happened, how they helped",
     ],
-    "When I was nineteen, I failed my first-year exams at university and felt completely lost. I was ashamed of myself and anxious about telling my parents. That summer I started working at a bookstore, where I met Isabel, the owner. She was sixty, down-to-earth and incredibly patient. We got on like a house on fire from the first day. Isabel was a sensible woman who never gave advice unless you asked for it, but she was a great listener. She was also very sensitive to other people's moods, and she always noticed when I was feeling low. Little by little I told her about my fears. She convinced me that one bad year didn't define me and that I could rely on myself more than I thought. In September I went back to university, and the following June I passed every exam. I was over the moon, and so was she. I'm still grateful to her, and we meet for coffee every month.",
+    "When I was nineteen, I failed my first-year exams at university and felt completely lost. I was ashamed of myself and anxious about telling my parents. That summer I started working at a bookstore, where I met Isabel, the owner. She was sixty, easy-going and incredibly patient. We hit it off from the first day. Isabel was a sensible woman who never gave advice unless you asked for it, but she was a great listener. She was also very sensitive to other people's moods, and she always noticed when I was feeling low. Little by little I told her about my fears. She convinced me that one bad year didn't define me and that I could rely on myself more than I thought. In September I went back to university, and the following June I passed every exam. I was thrilled, and so was she. I'm still grateful to her, and we meet for coffee every month.",
     "Watch the false friends: \"sensible\" means «sensato», while «sensible» is \"sensitive\"; \"embarrassed\" means «avergonzado», not «embarazada». Many adjectives need a fixed preposition: \"ashamed of\", \"anxious about\", \"grateful to\"."
   ),
   u27: t(
-    "Write about a holiday or trip you will never forget, or describe the home and neighborhood you would like to live in one day. Use the vocabulary of travel, the city and the home.",
+    "Write about a vacation or trip you will never forget, or describe the home and neighborhood you would like to live in one day. Use the vocabulary of travel, the city and the home.",
     [
       "At least six topic words or collocations (\"book a room\", \"sightseeing\", \"rush hour\", \"suburbs\", \"rent\", \"landlord\"...)",
-      "At least two phrasal verbs (\"set off\", \"check in\", \"get around\", \"put up\")",
+      "At least two phrasal verbs (\"set off\", \"check in\", \"pick up\", \"put up\")",
       "Correct use of \"trip\", \"travel\" and \"journey\"",
       "No false friends (\"carpet\", \"exit\", \"parents\")",
       "A good mix of past tenses or of future and conditional forms",

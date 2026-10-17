@@ -572,6 +572,7 @@ export const EN_A1_U5_DRILLS: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "Su hijo (de ellos) es amigo mío.",
         answer: "Their son is a friend of mine.",
+        altAnswers: ["Their son is my friend."],
         explanation: "«Su» de ellos es \"their\". Y «amigo mío» es \"a friend of mine\": en inglés hace falta el artículo \"a\".",
       },
     ],

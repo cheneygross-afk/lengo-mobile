@@ -285,13 +285,13 @@ export const EN_A1_U7: Lesson[] = [
       {
         heading: "Preguntar: \"Do you like...?\"",
         body: [
-          "Las preguntas se forman con \"do\" o \"does\", como cualquier verbo: \"Do you like coffee?\", \"Does he like football?\". Las respuestas cortas son \"Yes, I do\" y \"No, I don't\".",
+          "Las preguntas se forman con \"do\" o \"does\", como cualquier verbo: \"Do you like coffee?\", \"Does he like soccer?\". Las respuestas cortas son \"Yes, I do\" y \"No, I don't\".",
           "Un error muy típico: responder *Yes, I like. En inglés \"like\" necesita algo detrás, así que «sí, me gusta» es \"Yes, I like it\" (o \"them\" para plurales), o simplemente \"Yes, I do\".",
         ],
         examples: [
           { es: "Do you like coffee?", en: "¿Te gusta el café?" },
           { es: "Yes, I do.", en: "Sí (me gusta)." },
-          { es: "Does he like football?", en: "¿Le gusta el fútbol?" },
+          { es: "Does he like soccer?", en: "¿Le gusta el fútbol?" },
           { es: "No, he doesn't.", en: "No (no le gusta)." },
           { es: "Do you like this song? Yes, I like it.", en: "¿Te gusta esta canción? Sí, me gusta." },
           { es: "What do you like doing?", en: "¿Qué te gusta hacer?" },

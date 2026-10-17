@@ -332,13 +332,13 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
         heading: "Quick recap: renting a place",
         body: [
           "«Departamento» («piso» in Spain) is \"apartment\" in American English and \"flat\" in British English. The money you pay every month is \"rent\" (a noun and a verb: \"We rent a small apartment\"). The owner is the \"landlord\" (a woman is often called a \"landlady\"), and you are the \"tenant\".",
-          "«La fianza» is the \"deposit\" or \"security deposit\". People you share with are \"roommates\" (US) or \"flatmates\" (UK). «Los gastos» are \"bills\" or \"utilities\": \"Is the rent with bills included?\"",
+          "«El depósito» (Spain: «la fianza») is the \"deposit\" or \"security deposit\". People you share with are \"roommates\" (US) or \"flatmates\" (UK). «Los gastos» are \"bills\" or \"utilities\": \"Are bills included in the rent?\"",
         ],
         examples: [
           { es: "We rent a two-bedroom apartment near the park.", en: "Alquilamos un departamento de dos dormitorios cerca del parque." },
           { es: "The rent goes up every January.", en: "El alquiler sube cada enero." },
           { es: "Our landlord lives in the same building.", en: "Nuestro casero vive en el mismo edificio." },
-          { es: "We paid two months' rent as a deposit.", en: "Pagamos dos meses de alquiler como fianza." },
+          { es: "We paid two months' rent as a deposit.", en: "Pagamos dos meses de alquiler como depósito." },
           { es: "I share an apartment with two roommates.", en: "Comparto departamento con dos compañeros." },
         ],
         checkpoint: [
@@ -479,7 +479,7 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El casero no quiere devolvernos la fianza.",
+        source: "El casero no quiere devolvernos el depósito.",
         answer: "The landlord doesn't want to give us back our deposit.",
         altAnswers: [
           "The landlord doesn't want to give us our deposit back.",
@@ -505,7 +505,7 @@ export const EN_B2_U27_EXTRA: Lesson[] = [
           "The landlady doesn't want to return our deposit.",
           "The landlady won't give us our deposit back.",
         ],
-        explanation: "«Casero» is \"landlord\" (\"landlady\" for a woman) and «fianza» is \"deposit\". «No quiere» about a refusal is often \"won't\".",
+        explanation: "«Casero» is \"landlord\" (\"landlady\" for a woman) and «depósito» is \"deposit\". «No quiere» about a refusal is often \"won't\".",
       },
       {
         type: "matching",

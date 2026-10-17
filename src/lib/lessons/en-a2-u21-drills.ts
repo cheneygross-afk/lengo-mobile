@@ -340,7 +340,7 @@ export const EN_A2_U21_DRILLS: Lesson[] = [
         ],
         examples: [
           { es: "Excuse me, I'm afraid my steak is cold.", en: "Perdone, pero mi carne está fría." },
-          { es: "Are you free on Sunday? - I'd love to come!", en: "¿Estás libre el domingo? - ¡Me encantaría ir!" },
+          { es: "Would you like to come on Sunday? - I'd love to!", en: "¿Te gustaría venir el domingo? - ¡Me encantaría!" },
           { es: "Hi, this is Carlos. Is Emma there?", en: "Hola, soy Carlos. ¿Está Emma?" },
           { es: "Someone stole my backpack.", en: "Me robaron la mochila." },
         ],
@@ -456,10 +456,10 @@ export const EN_A2_U21_DRILLS: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "¿Cómo se dice «¿quedamos este fin de semana?»?",
+        question: "¿Cómo se dice «¿nos vemos este fin de semana?»?",
         options: ["Do you want to meet up this weekend?", "Do you want to stay this weekend?", "Do we stay this weekend?", "Shall we remain this weekend?"],
         correctIndex: 0,
-        explanation: "«Quedar» con alguien es \"meet up\" o \"hang out\". \"Stay\" es quedarse en un lugar.",
+        explanation: "«Verse» con alguien es \"meet up\" o \"hang out\". \"Stay\" es quedarse en un lugar.",
       },
       {
         type: "translate",

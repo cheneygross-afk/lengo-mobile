@@ -73,7 +73,7 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "A pesar de estudiar mucho, suspendió el examen.",
+        source: "A pesar de estudiar mucho, reprobó el examen.",
         answer: "Despite studying a lot, he failed the exam.",
         altAnswers: [
           "Despite studying a lot, she failed the exam.",
@@ -88,7 +88,7 @@ export const EN_B1_U28_EXTRA: Lesson[] = [
           "Even though he studied hard, he failed the exam.",
           "Even though she studied hard, she failed the exam.",
         ],
-        explanation: "\"Despite\" + -ing: \"despite studying\". «Suspender» is \"fail\", not *suspend.",
+        explanation: "\"Despite\" + -ing: \"despite studying\". «Reprobar» («suspender» in Spain) is \"fail\", not *suspend.",
       },
       {
         type: "multiple-choice",

@@ -1681,7 +1681,7 @@ export const EN_A1_U8_DRILLS: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "¿Cómo se dice «estoy ilusionado con el viaje»?",
+        question: "¿Cómo se dice «estoy emocionado con el viaje»?",
         options: ["I'm excited about the trip.", "I'm exciting about the trip.", "I have excited about the trip.", "I'm excite about the trip."],
         correctIndex: 0,
         explanation: "Lo que sientes, -ed: \"excited\". \"Exciting\" describiría el viaje: \"The trip is exciting\".",

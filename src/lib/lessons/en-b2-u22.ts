@@ -23,7 +23,7 @@ export const EN_B2_U22: Lesson[] = [
           { es: "What I love about my city is the light.", en: "Lo que me encanta de mi ciudad es la luz." },
           { es: "What I like most about my job is the people.", en: "Lo que más me gusta de mi trabajo es la gente. (incorrecto: *of my job)" },
           { es: "What I hate about winter is the darkness.", en: "Lo que odio del invierno es la oscuridad." },
-          { es: "What I miss most is my mom's cooking.", en: "Lo que más echo de menos es la comida de mi madre." },
+          { es: "What I miss most is my mom's cooking.", en: "Lo que más extraño es la comida de mi mamá." },
           { es: "What I need is a long vacation.", en: "Lo que necesito son unas vacaciones largas." },
         ],
         checkpoint: [
@@ -177,9 +177,9 @@ export const EN_B2_U22: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["What", "I", "miss", "most", "is", "my", "family."],
-        translation: "Lo que más echo de menos es a mi familia.",
+        translation: "Lo que más extraño es a mi familia.",
         altOrders: [["What", "I", "most", "miss", "is", "my", "family."]],
-        explanation: "What + subject + verb + most + is + focus. «Echar de menos» is \"miss\".",
+        explanation: "What + subject + verb + most + is + focus. «Extrañar» is \"miss\".",
       },
       {
         type: "translate",
@@ -200,7 +200,7 @@ export const EN_B2_U22: Lesson[] = [
         pairs: [
           { left: "What drives me crazy is...", right: "Lo que me vuelve loco es..." },
           { left: "The thing I can't stand is...", right: "Lo que no soporto es..." },
-          { left: "What I miss most is...", right: "Lo que más echo de menos es..." },
+          { left: "What I miss most is...", right: "Lo que más extraño es..." },
           { left: "What I don't mind is...", right: "Lo que no me importa es..." },
         ],
         explanation: "All four frames work the same way: the clause first, then \"is\", then the thing you want to highlight.",
@@ -540,7 +540,7 @@ export const EN_B2_U22: Lesson[] = [
         ],
         examples: [
           { es: "The paella was absolutely delicious.", en: "La paella estaba buenísima. (mejor que \"very delicious\")" },
-          { es: "The portions were huge.", en: "Las raciones eran enormes." },
+          { es: "The portions were huge.", en: "Las porciones eran enormes." },
           { es: "The soup was very tasty.", en: "La sopa estaba muy rica." },
           { es: "The dining room was absolutely freezing.", en: "El comedor estaba helado." },
           { es: "The waiters were really friendly.", en: "Los meseros eran muy simpáticos." },
@@ -632,7 +632,7 @@ export const EN_B2_U22: Lesson[] = [
         ],
         examples: [
           { es: "It's cheaper than the Italian place next door.", en: "Es más barato que el italiano de al lado. (incorrecto: *more cheap)" },
-          { es: "The portions are just as big as theirs.", en: "Las raciones son igual de grandes que las suyas." },
+          { es: "The portions are just as big as theirs.", en: "Las porciones son igual de grandes que las suyas." },
           { es: "The dessert costs the same as the coffee.", en: "El postre cuesta lo mismo que el café." },
           { es: "It was the best meal I've had this year.", en: "Fue la mejor comida que he comido este año." },
           { es: "The service was worse than last time.", en: "El servicio fue peor que la última vez." },
@@ -654,7 +654,7 @@ export const EN_B2_U22: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Las raciones son igual de grandes que en el otro restaurante.",
+            source: "Las porciones son igual de grandes que en el otro restaurante.",
             answer: "The portions are as big as in the other restaurant.",
             altAnswers: [
               "The portions are just as big as in the other restaurant.",
@@ -1144,7 +1144,7 @@ export const EN_B2_U22: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "The film was ___ boring that I left.",
+        sentence: "The movie was ___ boring that I left.",
         answer: "so",
         en: "La película era [tan] aburrida que me fui.",
         explanation: "\"So\" + adjective on its own. \"Such\" needs a noun.",
@@ -1332,7 +1332,7 @@ export const EN_B2_U22: Lesson[] = [
         ],
         examples: [
           { es: "Dinner in Spain is much later than in the US.", en: "En España se cena mucho más tarde que en Estados Unidos." },
-          { es: "Portions in the US are far bigger than in Europe.", en: "Las raciones en Estados Unidos son mucho más grandes que en Europa." },
+          { es: "Portions in the US are far bigger than in Europe.", en: "Las porciones en Estados Unidos son mucho más grandes que en Europa." },
           { es: "American coffee is not nearly as strong as Italian coffee.", en: "El café americano no es ni de lejos tan fuerte como el italiano." },
           { es: "Americans have dinner at around six.", en: "Los estadounidenses cenan hacia las seis. (incorrecto: *The Americans)" },
           { es: "Mexican food is a lot spicier than Spanish food.", en: "La comida mexicana pica mucho más que la española." },
@@ -1382,9 +1382,9 @@ export const EN_B2_U22: Lesson[] = [
           "Combine them with so and such for a really expressive description: \"What shocked me was how sweet everything was. The bread was so sweet!\"",
         ],
         examples: [
-          { es: "What surprised me most was the portion sizes.", en: "Lo que más me sorprendió fue el tamaño de las raciones." },
-          { es: "What I miss most is fresh bread.", en: "Lo que más echo de menos es el pan recién hecho." },
-          { es: "It's the bread that I miss, not the wine.", en: "Es el pan lo que echo de menos, no el vino." },
+          { es: "What surprised me most was the portion sizes.", en: "Lo que más me sorprendió fue el tamaño de las porciones." },
+          { es: "What I miss most is fresh bread.", en: "Lo que más extraño es el pan recién hecho." },
+          { es: "It's the bread that I miss, not the wine.", en: "Es el pan lo que extraño, no el vino." },
           { es: "It was in Mexico that I first tried mole.", en: "Fue en México donde probé el mole por primera vez." },
           { es: "What shocked me was how sweet everything was.", en: "Lo que me impactó fue lo dulce que era todo." },
         ],
@@ -1416,9 +1416,9 @@ export const EN_B2_U22: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "¡Me muero de hambre! ¿Comemos ya?",
-        answer: "I'm starving! Shall we eat now?",
+        answer: "I'm starving! Should we eat now?",
         altAnswers: [
-          "I'm starving! Should we eat now?",
+          "I'm starving! Shall we eat now?",
           "I'm starving! Can we eat now?",
           "I'm starving! Are we eating now?",
           "I'm starving! Shall we have lunch now?",
@@ -1437,7 +1437,7 @@ export const EN_B2_U22: Lesson[] = [
         sentence: "The portions here are ___ bigger than in my country.",
         answer: "much",
         altAnswers: ["far", "a lot", "way"],
-        en: "Las raciones aquí son [mucho] más grandes que en mi país.",
+        en: "Las porciones aquí son [mucho] más grandes que en mi país.",
         explanation: "\"Much\", \"far\" or \"a lot\" + comparative for a big difference.",
       },
       {
@@ -1485,7 +1485,7 @@ export const EN_B2_U22: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Es el pan lo que más echo de menos.",
+        source: "Es el pan lo que más extraño.",
         answer: "It's the bread that I miss most.",
         altAnswers: [
           "It's the bread I miss most.",
@@ -1494,7 +1494,7 @@ export const EN_B2_U22: Lesson[] = [
           "What I miss most is the bread.",
           "What I miss the most is the bread.",
         ],
-        explanation: "An it-cleft: It + is + focus + that + clause. «Echar de menos» is \"miss\".",
+        explanation: "An it-cleft: It + is + focus + that + clause. «Extrañar» is \"miss\".",
       },
       {
         type: "word-order",
@@ -1770,7 +1770,7 @@ export const EN_B2_U22: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Aunque el campo es precioso, echo de menos los cines.",
+        source: "Aunque el campo es precioso, extraño los cines.",
         answer: "Although the countryside is beautiful, I miss the movie theaters.",
         altAnswers: [
           "Although the countryside is beautiful, I miss the cinemas.",

@@ -949,8 +949,8 @@ export const EN_A1_U4_DRILLS: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "The cat ___ on the sofa.",
         answer: "is lying",
-        en: "El gato [está tumbado] en el sofá.",
-        explanation: "«Estar tumbado» es \"be lying\"; \"lie\" pasa a \"lying\".",
+        en: "El gato [está acostado] en el sofá.",
+        explanation: "«Estar acostado» es \"be lying\"; \"lie\" pasa a \"lying\".",
       },
       {
         type: "fill-blank",

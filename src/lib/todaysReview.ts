@@ -20,6 +20,7 @@ import { getDueConcepts, unifiedReviewEnabled } from "@/lib/attempts";
 import { DAILY_BUDGET } from "@/lib/curriculum/queue";
 import { FRENCH_LEVEL_PATHS } from "@/lib/lessons/french";
 import { GERMAN_LEVEL_PATHS } from "@/lib/lessons/german";
+import { PORTUGUESE_LEVEL_PATHS } from "@/lib/lessons/portuguese";
 
 /** Spanish tracks Today's review covers, in course order. */
 export const SPANISH_REVIEW_TRACKS = ["a1", "a2", "b1", "b2", "c1", "c2", "cosas-coloquiales"];
@@ -42,6 +43,19 @@ export async function getFrenchReviewCounts(now: number = Date.now()): Promise<T
 export async function getGermanReviewCounts(now: number = Date.now()): Promise<TodaysReviewCounts> {
   const missedLists = await Promise.all(GERMAN_LEVEL_PATHS.map((lp) => getDueMissedQuestions(lp, now)));
   const cards = Object.values(await loadFlashcards()).filter((c) => courseOfLevelPath(c.levelPath) === "de");
+  return {
+    missed: missedLists.reduce((n, l) => n + l.length, 0),
+    mix: 0,
+    cards: (await getDueCardsForToday(cards)).length,
+  };
+}
+
+/** The Brazilian Portuguese beta's own Today's review, the same way
+ * (/lessons/pt/review on the website): its missed questions, then its
+ * flashcards. */
+export async function getPortugueseReviewCounts(now: number = Date.now()): Promise<TodaysReviewCounts> {
+  const missedLists = await Promise.all(PORTUGUESE_LEVEL_PATHS.map((lp) => getDueMissedQuestions(lp, now)));
+  const cards = Object.values(await loadFlashcards()).filter((c) => courseOfLevelPath(c.levelPath) === "pt");
   return {
     missed: missedLists.reduce((n, l) => n + l.length, 0),
     mix: 0,

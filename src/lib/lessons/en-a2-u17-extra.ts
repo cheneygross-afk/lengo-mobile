@@ -855,7 +855,7 @@ export const EN_A2_U17_EXTRA: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "Ana is really good ___ languages.",
         answer: "at",
-        en: "A Ana se le dan muy bien [los] idiomas.",
+        en: "Ana es muy buena [para] los idiomas.",
         explanation: "\"Good at\" + aquello que se te da bien. Nunca *good in languages.",
       },
       {
@@ -877,7 +877,7 @@ export const EN_A2_U17_EXTRA: Lesson[] = [
         source: "Estoy preocupada por mi abuelo.",
         answer: "I'm worried about my grandfather.",
         altAnswers: ["I'm worried about my grandpa."],
-        explanation: "\"Worried about\" + persona o cosa. *Worried for es incorrecto.",
+        explanation: "\"Worried about\" + persona o cosa es lo normal. \"Worried for\" existe, pero es menos común; nunca *worried of.",
       },
     ],
   },

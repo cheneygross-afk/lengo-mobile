@@ -368,7 +368,7 @@ export const EN_A2_U18_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "«¿A quién le estás escribiendo?» ¿Cuál es correcta?",
-        options: ["Who are you writing to?", "To who are you writing?", "Who are you writing?", "Whom you are writing to?"],
+        options: ["Who are you writing to?", "To who are you writing?", "Who you are writing to?", "Whom you are writing to?"],
         correctIndex: 0,
         explanation: "«Escribir a alguien» es \"write to\", y \"to\" va al final. Sin \"to\" la pregunta queda incompleta.",
       },

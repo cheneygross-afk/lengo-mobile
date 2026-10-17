@@ -1,5 +1,5 @@
 // Synced from cheneygross-afk/lengo:src/lib/stories/storyUi.ts by scripts/sync-content.mjs -- edit it there, not here.
-import { isEnglishStoryPath, isFrenchStoryPath, isGermanStoryPath } from "./storyPaths";
+import { isEnglishStoryPath, isFrenchStoryPath, isGermanStoryPath, isPortugueseStoryPath } from "./storyPaths";
 
 // The fixed words on story pages: English for the Spanish course's free
 // readings, Spanish for the English for Spanish speakers course (whose
@@ -113,14 +113,14 @@ const FR: StoryUi = {
 };
 
 export function storyUi(levelPath: string): StoryUi {
-  // The German course reads the same as the French one.
-  if (isFrenchStoryPath(levelPath) || isGermanStoryPath(levelPath)) return FR;
+  // The German and Portuguese courses read the same as the French one.
+  if (isFrenchStoryPath(levelPath) || isGermanStoryPath(levelPath) || isPortugueseStoryPath(levelPath)) return FR;
   return isEnglishStoryPath(levelPath) ? ES : EN;
 }
 
 /** The same, picked by the story text's speech tag ("en-US" in the
  * English course, "fr-FR" in the French course). */
 export function storyUiForLang(lang: string): StoryUi {
-  if (lang.startsWith("fr") || lang.startsWith("de")) return FR;
+  if (lang.startsWith("fr") || lang.startsWith("de") || lang.startsWith("pt")) return FR;
   return lang.startsWith("en") ? ES : EN;
 }

@@ -376,7 +376,7 @@ export const EN_B1_U18_EXTRA: Lesson[] = [
         answer: "This picture was painted in the 17th century.",
         altAnswers: [
           "This painting was painted in the seventeenth century.",
-          "This picture was painted in the 17th century.",
+          "This painting was painted in the 17th century.",
           "This picture was painted in the seventeenth century.",
           "This painting was done in the 17th century.",
         ],

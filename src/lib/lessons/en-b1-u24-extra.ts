@@ -184,7 +184,7 @@ export const EN_B1_U24_EXTRA: Lesson[] = [
         sentence: "I didn't study ___, so I failed the test.",
         answer: "enough",
         altAnswers: ["hard enough"],
-        en: "No estudié [lo suficiente], así que suspendí el examen.",
+        en: "No estudié [lo suficiente], así que reprobé el examen.",
         explanation: "After a verb, \"enough\" goes at the end: \"I didn't study enough\".",
       },
       {
@@ -240,7 +240,7 @@ export const EN_B1_U24_EXTRA: Lesson[] = [
         examples: [
           { es: "I'm so tired.", en: "Estoy tan cansado." },
           { es: "It was such a good film.", en: "Fue una película tan buena." },
-          { es: "They're such nice people.", en: "Son una gente tan agradable." },
+          { es: "They're such nice people.", en: "Son personas tan agradables." },
           { es: "What a mess! Your room is such a mess.", en: "¡Qué desorden! Tu cuarto es un desastre." },
           { es: "We had such bad weather.", en: "Tuvimos un tiempo tan malo." },
           { es: "There were so many people.", en: "Había tanta gente." },

@@ -58,6 +58,35 @@ const GERMAN_TOOLS: CourseTool[] = [
   },
 ];
 
+// The Brazilian Portuguese beta's (the website's /lessons/pt/tools).
+const PORTUGUESE_TOOLS: CourseTool[] = [
+  {
+    title: "Grammar Guides",
+    body: "Short explanations of the grammar points learners get stuck on, from beginner to advanced.",
+    open: (n) => n.navigate("Grammar", { lang: "pt" }),
+  },
+  {
+    title: "Verb Conjugation",
+    body: "Full tables for any verb with the irregular forms marked, plus drills by tense.",
+    open: (n) => n.navigate("PortugueseConjugation"),
+  },
+  {
+    title: "Writing Practice",
+    body: "Write anything from a few sentences to a couple of pages and get instant feedback at your level.",
+    open: (n) => n.navigate("Writing", { lang: "pt" }),
+  },
+  {
+    title: "Celpe-Bras Exam Practice",
+    body: "Practice exams in the format of the Celpe-Bras, Brazil's official certificate, plus an A2 practice test.",
+    open: (n) => n.navigate("Exams", { course: "pt" }),
+  },
+  {
+    title: "Vocabulary & Glossary",
+    body: "Every word the course teaches by level, ready to add to your flashcards, and a search in Portuguese or English.",
+    open: (n) => n.navigate("PortugueseGlossary"),
+  },
+];
+
 // Mobile port of the website's /tools hub: the Spanish reference and
 // practice tools behind one "Study Tools" card on Home, plus the
 // placement test (most learners take it once, so it lives here and in
@@ -80,7 +109,9 @@ export default function StudyToolsScreen({ navigation, route }: Props) {
       ? { name: "French", tools: FRENCH_TOOLS, placement: "FrenchPlacement" as const }
       : lang === "de"
         ? { name: "German", tools: GERMAN_TOOLS, placement: "GermanPlacement" as const }
-        : null;
+        : lang === "pt"
+          ? { name: "Portuguese", tools: PORTUGUESE_TOOLS, placement: "PortuguesePlacement" as const }
+          : null;
   useLayoutEffect(() => {
     if (course) navigation.setOptions({ title: `${course.name} study tools` });
   }, [navigation, course?.name]);

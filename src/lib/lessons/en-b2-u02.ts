@@ -998,7 +998,7 @@ export const EN_B2_U02: Lesson[] = [
           { es: "Daniel Ross, 34, had set off on Friday to climb Mount Hood.", en: "Daniel Ross, de 34 años, había salido el viernes para subir el monte Hood." },
           { es: "He'd told his family he would be back by dinner.", en: "Le había dicho a su familia que volvería para la cena." },
           { es: "Rescuers had been searching for more than forty hours when a helicopter spotted him.", en: "Los equipos de rescate llevaban más de cuarenta horas buscando cuando un helicóptero lo divisó." },
-          { es: "He had fallen and hurt his ankle.", en: "Se había caído y se había hecho daño en el tobillo." },
+          { es: "He had fallen and hurt his ankle.", en: "Se había caído y se había lastimado el tobillo." },
           { es: "By the time they reached him, he hadn't eaten for two days.", en: "Cuando llegaron hasta él, llevaba dos días sin comer." },
         ],
         checkpoint: [
@@ -1887,7 +1887,7 @@ export const EN_B2_U02: Lesson[] = [
           { es: "After that, she started working in a laboratory.", en: "Después de eso, empezó a trabajar en un laboratorio." },
           { es: "Later on, she became the first woman professor at the Sorbonne.", en: "Más adelante, se convirtió en la primera mujer catedrática de la Sorbona." },
           { es: "By then, she had already won a Nobel Prize.", en: "Para entonces, ya había ganado un premio Nobel." },
-          { es: "After years of hard work, she eventually got her degree.", en: "Tras años de trabajo duro, finalmente se licenció." },
+          { es: "After years of hard work, she eventually got her degree.", en: "Tras años de trabajo duro, finalmente se graduó." },
           { es: "In the end, they decided to stay in France.", en: "Al final, decidieron quedarse en Francia." },
           { es: "She went back to Poland at the end of the summer.", en: "Volvió a Polonia a finales del verano." },
         ],
@@ -1967,7 +1967,7 @@ export const EN_B2_U02: Lesson[] = [
         sentence: "After years of hard work, she ___ got her degree.",
         answer: "eventually",
         altAnswers: ["finally", "at last"],
-        en: "Tras años de trabajo duro, [finalmente] se licenció.",
+        en: "Tras años de trabajo duro, [finalmente] se graduó.",
         explanation: "\"Eventually\" (or \"finally\") = after a long time. Not *in the end in the middle of this sentence.",
       },
       {

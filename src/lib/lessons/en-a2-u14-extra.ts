@@ -579,7 +579,7 @@ export const EN_A2_U14_EXTRA: Lesson[] = [
         sentence: "If you press the red button, the machine ___.",
         answer: "stops",
         en: "Si aprietas el botón rojo, la máquina [se detiene].",
-        explanation: "Es lo que pasa siempre: presente con \"-s\". «Se para» es simplemente \"stops\", sin pronombre.",
+        explanation: "Es lo que pasa siempre: presente con \"-s\". «Se detiene» es simplemente \"stops\", sin pronombre.",
       },
       {
         type: "translate",

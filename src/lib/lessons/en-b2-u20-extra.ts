@@ -85,7 +85,7 @@ export const EN_B2_U20_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Lo que pasó fue que nos dejamos las llaves dentro.",
+        source: "Lo que pasó fue que se nos quedaron las llaves adentro.",
         answer: "What happened was that we left the keys inside.",
         altAnswers: alts(
           "What happened was that we left the keys inside.",
@@ -158,7 +158,7 @@ export const EN_B2_U20_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "What I don't understand ___ why she left so early.",
         answer: "is",
-        en: "Lo que no entiendo [es] por qué se fue tan pronto.",
+        en: "Lo que no entiendo [es] por qué se fue tan temprano.",
         explanation: "The what-clause is singular, so \"is\". No \"it\" before the verb.",
       },
       {
@@ -197,7 +197,7 @@ export const EN_B2_U20_EXTRA: Lesson[] = [
           "What I mean is{ that|} we should wait.",
           "What I'm trying to say is{ that|} we should wait.",
         ),
-        explanation: "«Lo que quiero decir» = \"What I mean\". *What I want to say is understood but sounds translated.",
+        explanation: "«Lo que quiero decir» = \"What I mean\". \"What I want to say\" is possible, but \"What I mean\" is more natural.",
       },
       {
         type: "translate",
@@ -512,7 +512,7 @@ export const EN_B2_U20_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "It was ___ beautiful day that we had lunch outside.",
         answer: "such a",
-        en: "Hacía [un] día [tan] bonito que comimos fuera.",
+        en: "Hacía [un] día [tan] bonito que comimos afuera.",
         explanation: "\"Such a\" + adjective + singular noun. The \"a\" can't be dropped.",
       },
       {
@@ -951,7 +951,7 @@ export const EN_B2_U20_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Pinté el salón yo mismo.",
+        source: "Pinté la sala yo mismo.",
         answer: "I painted the living room myself.",
         altAnswers: alts(
           "I painted the living room myself.",

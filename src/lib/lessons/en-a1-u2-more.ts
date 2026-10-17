@@ -47,7 +47,7 @@ export const EN_A1_U2_MORE: Lesson[] = [
       {
         heading: "G y J, K y Q, W, Y y Z",
         body: [
-          "La \"G\" se dice «yi» y la \"J\", «yei», con el sonido de la \"j\" de \"jeans\". Son justo al revés de lo que esperas: los hispanohablantes suelen decir «ye» para la G y «jota» para la J.",
+          "La \"G\" se dice «yi» y la \"J\", «yei», con el sonido de la \"j\" de \"jeans\". Es fácil confundirlas entre sí: apréndelas en pareja y no uses los nombres españoles («ge», «jota»).",
           "La \"K\" es «kei» y la \"Q\" es «kiu». La \"W\" es \"double u\" («dábel yu») y la \"Y\" es «wai». La \"R\" es «ar», la \"H\" es «eich» y la \"V\" es «vi», con la \"v\" de \"very\".",
           "La \"Z\" se dice \"zee\" («zi») en Estados Unidos y \"zed\" en el Reino Unido. En este curso usamos la forma americana.",
         ],

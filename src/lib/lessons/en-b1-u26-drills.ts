@@ -151,7 +151,7 @@ export const EN_B1_U26_DRILLS: Lesson[] = [
         "I can't put my neighbor up with.",
         "I can't put up my neighbor.",
       ], "«Soportar» (tolerate) is \"put up with\", never split. \"Support\" is a false friend: it means «apoyar»."),
-      fb("Please ___ this form and sign it at the bottom.", ["fill in", "fill out"], "Por favor, [rellene] este formulario y fírmelo abajo.",
+      fb("Please ___ this form and sign it at the bottom.", ["fill in", "fill out"], "Por favor, [llene] este formulario y fírmelo abajo.",
         "\"Fill in\" or \"fill out\" a form (\"fill out\" is more American). Both are separable: \"fill it in\"."),
       tr("Tengo que entregar el informe el lunes.", "I have to {hand in the report|hand the report in|turn in the report|turn the report in} on Monday.",
         "«Entregar» homework or a report is \"hand in\" (or \"turn in\" in the US). With a noun, the object can go in the middle or at the end."),
@@ -215,7 +215,7 @@ export const EN_B1_U26_DRILLS: Lesson[] = [
       mt("Match the Spanish with the English collocation.", [
         ["esforzarse", "make an effort"],
         ["ganar dinero", "make money"],
-        ["hacer la compra", "do the shopping"],
+        ["hacer las compras", "do the shopping"],
         ["hacer un curso", "do a course"],
       ], "\"Make\" for things you produce or achieve (an effort, money); \"do\" for tasks and activities (the shopping, a course)."),
       tr("Estoy haciendo un curso de cocina los jueves.", "I'm {doing|taking} a {cooking course|cooking class} on Thursdays.",
@@ -283,7 +283,7 @@ export const EN_B1_U26_DRILLS: Lesson[] = [
         "Mi hermana descubrió la verdad.",
       ], "\"Find out\" is «enterarse» or «averiguar». It's the natural, everyday choice instead of \"discover\"."),
       // Traps: the whole unit
-      tr("Me tomé el día libre para hacer la compra y lavar la ropa.", ["I took the day off to do the {shopping|grocery shopping} and the laundry.", "I took the day off to do the {shopping|grocery shopping} and do the laundry."],
+      tr("Me tomé el día libre para hacer las compras y lavar la ropa.", ["I took the day off to do the {shopping|grocery shopping} and the laundry.", "I took the day off to do the {shopping|grocery shopping} and do the laundry."],
         "«Hacer la compra» and «lavar la ropa» are both \"do\": \"do the shopping\", \"do the laundry\". \"Take the day off\" for «tomarse el día libre»."),
       mc("Which sentence is correct?", [
         "I made a mistake, so I'm taking the test again.",

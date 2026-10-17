@@ -73,6 +73,15 @@ function looksEnglishNotGerman(text: string): boolean {
   return words.some((w) => ENGLISH_FUNCTION_WORDS.has(w) && !SHARED_WITH_GERMAN.has(w));
 }
 
+// English function words that are also everyday Portuguese words.
+const SHARED_WITH_PORTUGUESE = new Set(["a", "do", "for", "as"]);
+
+function looksEnglishNotPortuguese(text: string): boolean {
+  if (/[ãõçáâàéêíóôú]/i.test(text)) return false;
+  const words = text.toLowerCase().match(/[a-z]+/g) ?? [];
+  return words.some((w) => ENGLISH_FUNCTION_WORDS.has(w) && !SHARED_WITH_PORTUGUESE.has(w));
+}
+
 // Returns the tappable target-language spans within `text`. For Japanese,
 // that's every run of Japanese script. For Spanish -- which shares a
 // script with the English framing text -- quoted spans first, or (when
@@ -111,6 +120,13 @@ export function targetSpans(text: string, lang: SpeechLang): Span[] {
     const quoted = quotedSpans(text);
     if (quoted.length > 0) return quoted;
     if (text.trim() && !looksEnglishNotGerman(text)) return [{ start: 0, end: text.length, text }];
+    return [];
+  }
+  // Brazilian Portuguese the same way ("do", "a", "for" are Portuguese words too).
+  if (lang === "pt-BR") {
+    const quoted = quotedSpans(text);
+    if (quoted.length > 0) return quoted;
+    if (text.trim() && !looksEnglishNotPortuguese(text)) return [{ start: 0, end: text.length, text }];
     return [];
   }
   return [];

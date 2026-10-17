@@ -657,8 +657,8 @@ export const EN_A2_U16_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Traduce al inglés.",
         source: "¿Te interesa el fútbol?",
-        answer: "Are you interested in football?",
-        altAnswers: ["Are you interested in soccer?"],
+        answer: "Are you interested in soccer?",
+        altAnswers: ["Are you interested in football?"],
         explanation: "«Me interesa algo» cambia de estructura: \"I'm interested in something\". La persona es el sujeto y la preposición es \"in\".",
       },
       {

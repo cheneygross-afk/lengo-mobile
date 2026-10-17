@@ -1461,6 +1461,7 @@ export const EN_B1_U23: Lesson[] = [
         prompt: "Translate into English.",
         source: "¿Sabes cuánto cuesta este libro?",
         answer: "Do you know how much this book costs?",
+        altAnswers: ["Do you know how much this book is?", "Do you know what this book costs?"],
         explanation: "No \"does\" inside an indirect question: \"how much this book costs\".",
       },
       {

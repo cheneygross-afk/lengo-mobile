@@ -384,7 +384,7 @@ export const EN_B2_U10_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«Se dice que el alcalde va a dimitir.» Which is correct?",
+        question: "«Se dice que el alcalde va a renunciar.» Which is correct?",
         options: ["It is said that the mayor is going to resign.", "Is said that the mayor is going to resign.", "It says that the mayor is going to resign.", "Says that the mayor is going to resign."],
         correctIndex: 0,
         explanation: "\"It is said that...\" needs both \"it\" and the passive \"is said\". \"It says\" is used for texts: \"It says on the box...\". \"People say\" or \"They say\" are fine too.",
@@ -496,7 +496,7 @@ export const EN_B2_U10_EXTRA: Lesson[] = [
         examples: [
           { es: "I was given a prize.", en: "Me dieron un premio. (incorrecto: *To me was given a prize)" },
           { es: "My sister was offered a scholarship.", en: "A mi hermana le ofrecieron una beca." },
-          { es: "We were told to wait outside.", en: "Nos dijeron que esperáramos fuera." },
+          { es: "We were told to wait outside.", en: "Nos dijeron que esperáramos afuera." },
           { es: "The students were shown how to use the machine.", en: "A los alumnos les enseñaron a usar la máquina." },
           { es: "He was promised a raise.", en: "Le prometieron un aumento." },
         ],
@@ -520,7 +520,7 @@ export const EN_B2_U10_EXTRA: Lesson[] = [
           { es: "The children were looked after by their grandparents.", en: "A los niños los cuidaban sus abuelos." },
           { es: "Nobody likes being laughed at.", en: "A nadie le gusta que se rían de él." },
           { es: "Your complaint is being dealt with.", en: "Se está tramitando su queja." },
-          { es: "The film was talked about for weeks.", en: "Se habló de la película durante semanas." },
+          { es: "The movie was talked about for weeks.", en: "Se habló de la película durante semanas." },
         ],
         checkpoint: [
           {
@@ -603,7 +603,7 @@ export const EN_B2_U10_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Nos dijeron que esperáramos fuera.",
+        source: "Nos dijeron que esperáramos afuera.",
         answer: "We were told to wait outside.",
         altAnswers: ["They told us to wait outside."],
         explanation: "\"Tell\" + person in the passive: \"We were told to...\". *To us was told and *It was told us are wrong.",
@@ -647,9 +647,9 @@ export const EN_B2_U10_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Se habló mucho de la película.",
-        answer: "The film was talked about a lot.",
+        answer: "The movie was talked about a lot.",
         altAnswers: [
-          "The movie was talked about a lot.",
+          "The film was talked about a lot.",
           "The film was much talked about.",
           "The movie was much talked about.",
           "The film was widely talked about.",
@@ -747,7 +747,7 @@ export const EN_B2_U10_EXTRA: Lesson[] = [
           "Spanish «por» becomes \"by\": «escrito por Cervantes» is \"written by Cervantes\", not *written for Cervantes.",
         ],
         examples: [
-          { es: "My wallet was stolen.", en: "Me robaron la cartera. (no hace falta \"by someone\")" },
+          { es: "My wallet was stolen.", en: "Me robaron la billetera. (no hace falta \"by someone\")" },
           { es: "He was arrested at the airport.", en: "Lo detuvieron en el aeropuerto." },
           { es: "Don Quixote was written by Cervantes.", en: "El Quijote fue escrito por Cervantes." },
           { es: "English is spoken here.", en: "Aquí se habla inglés. (no hace falta \"by people\")" },
@@ -875,7 +875,7 @@ export const EN_B2_U10_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "The film was directed ___ a young Mexican woman.",
+        sentence: "The movie was directed ___ a young Mexican woman.",
         answer: "by",
         en: "La película fue dirigida [por] una joven mexicana.",
         explanation: "The director is the agent and new information, so include it with \"by\".",
@@ -984,7 +984,7 @@ export const EN_B2_U10_EXTRA: Lesson[] = [
           { es: "She avoided being seen.", en: "Evitó que la vieran." },
           { es: "After being arrested, he confessed.", en: "Después de que lo detuvieran, confesó." },
           { es: "The car needs washing.", en: "Hay que lavar el carro." },
-          { es: "The roof needs to be fixed.", en: "Hay que arreglar el tejado." },
+          { es: "The roof needs to be fixed.", en: "Hay que arreglar el techo." },
         ],
         checkpoint: [
           {
@@ -1013,7 +1013,7 @@ export const EN_B2_U10_EXTRA: Lesson[] = [
         sentence: "The roof ___ before winter.",
         answer: "needs to be fixed",
         altAnswers: ["needs fixing", "needs to be repaired", "needs repairing", "has to be fixed", "has to be repaired", "must be fixed", "must be repaired"],
-        en: "[Hay que arreglar] el tejado antes del invierno.",
+        en: "[Hay que arreglar] el techo antes del invierno.",
         explanation: "«Hay que» + verb with a thing as object becomes a passive: \"needs to be fixed\" or \"needs fixing\".",
       },
       {
@@ -1128,7 +1128,7 @@ export const EN_B2_U10_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Recuerdo que me llevaron al zoo de pequeño.",
+        source: "Recuerdo que me llevaron al zoológico de pequeño.",
         answer: "I remember being taken to the zoo as a child.",
         altAnswers: [
           "I remember being taken to the zoo when I was little.",

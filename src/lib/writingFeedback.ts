@@ -59,10 +59,10 @@ export function countWords(text: string): number {
 /** A1/A2 get their feedback in English; B1 and up in Spanish. The
  * English for Spanish speakers beta ("EN-A1" ...) is the mirror image:
  * Spanish at A1/A2, English from B1 up. The Japanese ("JA-...") and
- * Chinese ("ZH-..."), French ("FR-...") and German ("DE-...") courses are taught in English throughout, so their
+ * Chinese ("ZH-..."), French ("FR-...") and German ("DE-...") and Portuguese ("PT-...") courses are taught in English throughout, so their
  * feedback is always English. */
 export function feedbackLanguage(level: string): "English" | "Spanish" {
-  if (level.startsWith("JA-") || level.startsWith("ZH-") || level.startsWith("FR-") || level.startsWith("DE-")) return "English";
+  if (level.startsWith("JA-") || level.startsWith("ZH-") || level.startsWith("FR-") || level.startsWith("DE-") || level.startsWith("PT-")) return "English";
   if (level.startsWith("EN-")) return /^EN-A[12]/.test(level) ? "Spanish" : "English";
   return /^A[12]/.test(level) ? "English" : "Spanish";
 }
@@ -74,13 +74,14 @@ function writingLanguage(level: string): string {
   if (level.startsWith("ZH-")) return "Mandarin Chinese";
   if (level.startsWith("FR-")) return "French";
   if (level.startsWith("DE-")) return "German";
+  if (level.startsWith("PT-")) return "Brazilian Portuguese";
   return "Spanish";
 }
 
 /** The CEFR level without the course prefix; the Japanese kana module and
  * the Chinese pinyin module come before A1, so they're judged as A1. */
 function cefrLevel(level: string): string {
-  const bare = level.replace(/^(EN|JA|ZH|FR|DE)-/, "");
+  const bare = level.replace(/^(EN|JA|ZH|FR|DE|PT)-/, "");
   if (bare === "Culture") return "C1";
   return /^(A1|A2|B1|B2|C1|C2)/.test(bare) ? bare : "A1";
 }
@@ -96,7 +97,7 @@ export function parseWritingRequest(body: unknown): WritingFeedbackRequest | str
   if (!text) return "Nothing to check.";
   if (text.length > WRITING_MAX_CHARS) return "That's too long.";
   if (!prompt || prompt.length > 1000) return "Missing task.";
-  if (!/^((EN-|JA-|ZH-|FR-|DE-)?(A1|A2|B1|B2|C1|C2)|JA-Alphabets|ZH-Pinyin|FR-Culture|DE-Culture)/.test(level)) return "Unknown level.";
+  if (!/^((EN-|JA-|ZH-|FR-|DE-|PT-)?(A1|A2|B1|B2|C1|C2)|JA-Alphabets|ZH-Pinyin|FR-Culture|DE-Culture)/.test(level)) return "Unknown level.";
   const rubric = Array.isArray(b.rubric)
     ? b.rubric.filter((r): r is string => typeof r === "string").map((r) => r.trim()).filter(Boolean).slice(0, 10)
     : [];
@@ -162,7 +163,13 @@ export function writingSystemPrompt(level: string): string {
       ? ["Kana, kanji or a mix are all fine; don't mark a word wrong only for being written in kana."]
       : target === "Mandarin Chinese"
         ? ["Simplified or traditional characters are both fine; pinyin alone counts as Chinese at the beginner levels."]
-        : []),
+        : target === "Brazilian Portuguese"
+          ? [
+              "Judge the text by the norms of Brazilian Portuguese as written in Brazil today, and write every correction in Brazilian Portuguese.",
+              "Normal Brazilian usage is correct: você and a gente, an object pronoun before the verb (me chamo, te ligo amanhã), estar + gerund (estou fazendo), and ter for there is in informal writing. Only a formal task (an official letter, an essay) calls for the written norm, such as not starting a sentence with an object pronoun.",
+              "If the learner uses a European Portuguese form or word (estar a fazer, chamo-me in casual writing, autocarro, comboio, telemóvel), correct it to the Brazilian form and say in the reason that the original is European Portuguese. If they use a Spanish word or spelling, correct it and say so.",
+            ]
+          : []),
   ].join("\n");
 }
 

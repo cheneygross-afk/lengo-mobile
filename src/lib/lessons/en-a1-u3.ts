@@ -405,7 +405,7 @@ export const EN_A1_U3: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Une cada verbo con su forma de tercera persona.",
+        instructions: "Une cada forma de tercera persona con su significado.",
         pairs: [
           { left: "watches", right: "ve (la tele)" },
           { left: "tries", right: "intenta" },

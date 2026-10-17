@@ -1,16 +1,19 @@
-// The French and German courses' grammar guides behind one interface, for
-// the shared grammar screens. Each course's guides load on demand
-// (grammar/french.ts, grammar/german.ts); examples are normalized to
+// The French and German courses' and the Brazilian Portuguese beta's
+// grammar guides behind one interface, for the shared grammar screens. Each
+// course's guides load on demand (grammar/french.ts, grammar/german.ts,
+// grammar/portuguese.ts); examples are normalized to
 // { es, en } -- the target language and English -- the shape the guide
 // layout shares with the Spanish guides.
 import type { GrammarGuide } from "./types";
 import { DIPLOMA_FOR_LEVEL as FR_DIPLOMA_FOR_LEVEL } from "./fr-types";
 import { DIPLOMA_FOR_LEVEL as DE_DIPLOMA_FOR_LEVEL } from "./de-types";
+import { CERTIFICATE_FOR_LEVEL as PT_CERTIFICATE_FOR_LEVEL } from "./pt-types";
 import { loadFrenchGuides } from "./french";
 import { loadGermanGuides } from "./german";
-import { FRENCH_LANG, GERMAN_LANG, type SpeechLang } from "@/lib/speech";
+import { loadPortugueseGuides } from "./portuguese";
+import { FRENCH_LANG, GERMAN_LANG, PORTUGUESE_LANG, type SpeechLang } from "@/lib/speech";
 
-export type GuideCourse = "fr" | "de";
+export type GuideCourse = "fr" | "de" | "pt";
 
 type GuideLevel = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
 
@@ -24,11 +27,12 @@ export type CourseGuide = Pick<GrammarGuide, "title" | "intro" | "sections" | "m
 };
 
 export type GuideCourseConfig = {
-  /** "French", "German". */
+  /** "French", "German", "Portuguese". */
   name: string;
   lang: SpeechLang;
-  /** "DELF A1", "Goethe-Zertifikat A1" ... */
-  diploma: Record<GuideLevel, string>;
+  /** "DELF A1", "Goethe-Zertifikat A1", "Celpe-Bras Intermediário" ...;
+   * null for a level with no exam of its own (Portuguese A1 and A2). */
+  diploma: Record<GuideLevel, string | null>;
   load: () => Promise<CourseGuide[]>;
 };
 
@@ -66,6 +70,17 @@ export const GUIDE_COURSES: Record<GuideCourse, GuideCourseConfig> = {
       (await loadGermanGuides()).map((g) => ({
         ...g,
         sections: g.sections.map((sec) => ({ ...sec, examples: sec.examples?.map((ex) => ({ es: ex.de, en: ex.en })) })),
+      }))
+    ),
+  },
+  pt: {
+    name: "Portuguese",
+    lang: PORTUGUESE_LANG,
+    diploma: PT_CERTIFICATE_FOR_LEVEL,
+    load: cached("pt", async () =>
+      (await loadPortugueseGuides()).map((g) => ({
+        ...g,
+        sections: g.sections.map((sec) => ({ ...sec, examples: sec.examples?.map((ex) => ({ es: ex.pt, en: ex.en })) })),
       }))
     ),
   },

@@ -1320,7 +1320,7 @@ export const EN_B1_U29: Lesson[] = [
           "\"The following Monday\" is how we report \"next Monday\", and \"the next morning\" is the morning after. Listen for \"what to say\": question word + \"to\" + infinitive, very common after \"know\".",
         ],
         examples: [
-          { es: "At the end, the manager asked if she could start the following Monday.", en: "Al final, el director le preguntó si podía empezar el lunes siguiente." },
+          { es: "At the end of the interview, the manager asked if she could start the following Monday.", en: "Al final de la entrevista, el director le preguntó si podía empezar el lunes siguiente." },
           { es: "Sofia didn't know what to say, so she asked him to give her a day to think.", en: "Sofia no sabía qué decir, así que le pidió que le diera un día para pensarlo." },
           { es: "The next morning she called and said she would take the job.", en: "A la mañana siguiente llamó y dijo que aceptaría el trabajo." },
         ],
@@ -1932,7 +1932,7 @@ export const EN_B1_U29: Lesson[] = [
             source: "Extraño a mis compañeros.",
             answer: "I miss my colleagues.",
             altAnswers: ["I miss my coworkers.", "I miss my co-workers.", "I miss my workmates."],
-            explanation: "«Echar de menos a alguien» is \"miss someone\", with no preposition.",
+            explanation: "«Extrañar a alguien» is \"miss someone\", with no preposition.",
           },
         ],
       },

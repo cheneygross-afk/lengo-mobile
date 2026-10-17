@@ -325,7 +325,7 @@ export const EN_B1_U24_DRILLS: Lesson[] = [
       fb(
         "There's ___ coffee left. Can you buy some?",
         ["hardly any", "almost no"],
-        "No queda [casi nada de] café. ¿Puedes comprar?",
+        "No queda [casi nada de] café. ¿Puedes comprar más?",
         "\"Hardly any\" = almost none. \"Hardly\" is already negative, so no \"isn't\": not *There isn't hardly any.",
       ),
       mc(

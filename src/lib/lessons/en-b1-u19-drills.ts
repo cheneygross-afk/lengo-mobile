@@ -253,7 +253,7 @@ export const EN_B1_U19_DRILLS: Lesson[] = [
         "On the phone, «soy» = \"This is\" or \"It's\", not *I am Martin or *Here is Martin."),
       fb("Can you call me ___ when you get this?", "back", "¿Me puedes [devolver] la llamada cuando escuches esto?",
         "\"Call back\" = «devolver la llamada». \"When you get this\" = when you hear this message."),
-      tr("Llamó Ana. Quiere que le mandes el contrato.", "Ana called. She wants you to send her the contract.",
+      tr("Llamó Ana. Quiere que le mandes el contrato.", ["Ana called. She wants you to send her the contract.", "Ana called. She wants you to send the contract to her."],
         "«Quiere que» + subjunctive = \"wants you to\" + verb. Never *wants that you send."),
       tr("Te pidió que le devolvieras la llamada.", ["{He|She} asked you to call {him|her} back.", "{He|She} asked you to return {his|her} call."],
         "Requests: \"asked you to\" + verb. Not *He said you call him."),

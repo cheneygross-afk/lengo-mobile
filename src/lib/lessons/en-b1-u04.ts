@@ -2062,7 +2062,7 @@ export const EN_B1_U04: Lesson[] = [
         ],
         examples: [
           { es: "I moved to Toronto six months ago.", en: "Me mudé a Toronto hace seis meses." },
-          { es: "Back home, I used to walk everywhere.", en: "En casa iba a todas partes a pie." },
+          { es: "Back home, I used to walk everywhere.", en: "En mi país iba a todas partes a pie." },
           { es: "I'm getting used to the public transportation.", en: "Me estoy acostumbrando al transporte público." },
           { es: "I'll never get used to the winters!", en: "¡Nunca me voy a acostumbrar a los inviernos!" },
         ],
@@ -2149,7 +2149,7 @@ export const EN_B1_U04: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "En casa iba a todas partes a pie.",
+        source: "En mi país iba a todas partes a pie.",
         answer: "Back home, I used to walk everywhere.",
         altAnswers: [
           "Back home I used to walk everywhere.",

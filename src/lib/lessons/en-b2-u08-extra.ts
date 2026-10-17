@@ -318,7 +318,7 @@ export const EN_B2_U08_EXTRA: Lesson[] = [
         sentence: "I ___ my wallet at the restaurant. It's not in my bag.",
         answer: "must have left",
         altAnswers: ["must've left", "must have forgotten"],
-        en: "[Debo de haberme dejado] la cartera en el restaurante. No está en mi bolso.",
+        en: "[Debo de haber dejado] la billetera en el restaurante. No está en mi bolso.",
         explanation: "«Dejarse algo» (forget it somewhere) = \"leave\": \"must have left\".",
       },
       {
@@ -409,11 +409,11 @@ export const EN_B2_U08_EXTRA: Lesson[] = [
       {
         heading: "could have: it was possible, but it didn't happen",
         body: [
-          "\"Could have\" also talks about something that was possible but did not happen: «podría haberse hecho daño» = \"She could have hurt herself\" (but she didn't). «Podríamos haber ganado» = \"We could have won\". The context tells you which meaning you have: a guess (\"He could have taken the train; I'm not sure\") or a missed possibility (\"He could have taken the train, but he drove\").",
+          "\"Could have\" also talks about something that was possible but did not happen: «podría haberse lastimado» = \"She could have hurt herself\" (but she didn't). «Podríamos haber ganado» = \"We could have won\". The context tells you which meaning you have: a guess (\"He could have taken the train; I'm not sure\") or a missed possibility (\"He could have taken the train, but he drove\").",
           "\"Might have\" is used the same way for dangers: \"You might have been killed!\".",
         ],
         examples: [
-          { es: "She could have hurt herself.", en: "Podría haberse hecho daño." },
+          { es: "She could have hurt herself.", en: "Podría haberse lastimado." },
           { es: "We could have won if we'd played better.", en: "Podríamos haber ganado si hubiéramos jugado mejor." },
           { es: "He could have taken the train, but he drove.", en: "Podría haber ido en tren, pero fue en carro." },
           { es: "That might have been a disaster.", en: "Eso podría haber sido un desastre." },
@@ -776,7 +776,7 @@ export const EN_B2_U08_EXTRA: Lesson[] = [
           { es: "He must have gone home.", en: "Debe de haberse ido a casa. (incorrecto: *He must have go)" },
           { es: "You must be Carlos.", en: "Tú debes de ser Carlos." },
           { es: "Passengers must wear seat belts.", en: "Los pasajeros deben llevar el cinturón." },
-          { es: "I must have left it at home.", en: "Me lo debo de haber dejado en casa." },
+          { es: "I must have left it at home.", en: "Lo debo de haber dejado en casa." },
         ],
         checkpoint: [
           {
@@ -900,7 +900,7 @@ export const EN_B2_U08_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is a DEDUCTION?",
-        options: ["You must have been very happy when you heard the news.", "You must wear a helmet on the building site.", "We had to leave early.", "You mustn't touch that."],
+        options: ["You must have been very happy when you heard the news.", "You must wear a helmet on the construction site.", "We had to leave early.", "You mustn't touch that."],
         correctIndex: 0,
         explanation: "\"Must have been\" + adjective = a guess about someone's feelings in the past. The others are rules or obligations.",
       },
@@ -908,7 +908,7 @@ export const EN_B2_U08_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Debí de dejarme las llaves en la oficina.",
+        source: "Debí de dejar las llaves en la oficina.",
         answer: "I must have left my keys at the office.",
         altAnswers: ["I must have left my keys in the office.", "I must've left my keys at the office.", "I must've left my keys in the office.", "I must have left the keys at the office.", "I must have left the keys in the office.", "I must have forgotten my keys at the office."],
         explanation: "«Debí de» = a guess: \"must have left\". If it were «tuve que dejar» (obligation), it would be \"I had to leave\".",
@@ -1093,7 +1093,7 @@ export const EN_B2_U08_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¡Ni de broma se ha comido todo eso él solo!",
+        source: "¡Es imposible que se haya comido todo eso él solo!",
         answer: "There's no way he ate all that by himself!",
         altAnswers: ["There's no way he ate all that on his own!", "There's no way he's eaten all that by himself!", "There's no way he's eaten all that on his own!", "No way he ate all that by himself!", "No way did he eat all that by himself!", "There's no way he ate all of that by himself!", "He can't have eaten all that by himself!", "He can't have eaten all that on his own!"],
         explanation: "\"There's no way\" + indicative. «Él solo» = \"by himself\" / \"on his own\".",
@@ -1150,7 +1150,7 @@ export const EN_B2_U08_EXTRA: Lesson[] = [
         minWords: 50,
         maxWords: 80,
         rubric: ["Uses past deduction modals with \"have\" + participle", "Uses at least two of the phrases (I bet, There's no way, I doubt, Apparently, Judging by)", "\"Apparently\" only for reported information", "Natural, informal tone"],
-        modelAnswer: "Hi Emma, have you noticed Mr. Lee's house? Judging by the pile of mail, he must have been away for at least a week. He might have gone to visit his daughter in Chicago. Apparently, she just had a baby. There's no way he left without telling anyone, though, so I bet his son is checking on the house. I doubt anything bad has happened, but shall we knock tomorrow?",
+        modelAnswer: "Hi Emma, have you noticed Mr. Lee's house? Judging by the pile of mail, he must have been away for at least a week. He might have gone to visit his daughter in Chicago. Apparently, she just had a baby. There's no way he left without telling anyone, though, so I bet his son is checking on the house. I doubt anything bad has happened, but should we knock tomorrow?",
         explanation: "Check the participles after \"must have\" / \"might have\", and use \"apparently\" only for something you heard.",
       },
     ],

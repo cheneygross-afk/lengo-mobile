@@ -21,7 +21,7 @@ import {
 } from "@/lib/pronunciationVoice";
 import { getSpanishVariety, loadSpanishVariety, spanishSpeechLang } from "@/lib/spanishVariety";
 
-export type SpeechLang = "es-ES" | "es-US" | "ja-JP" | "en-US" | "zh-CN" | "fr-FR" | "de-DE";
+export type SpeechLang = "es-ES" | "es-US" | "ja-JP" | "en-US" | "zh-CN" | "fr-FR" | "de-DE" | "pt-BR";
 
 // Screens ask for Spanish as SPANISH_LANG (es-ES); the learner's "Spanish
 // I want to learn" setting decides which voice actually speaks it --
@@ -36,6 +36,8 @@ export const CHINESE_LANG: SpeechLang = "zh-CN";
 export const FRENCH_LANG: SpeechLang = "fr-FR";
 // The German course (lessons/de-*.ts).
 export const GERMAN_LANG: SpeechLang = "de-DE";
+// The Brazilian Portuguese beta (lessons/pt-*.ts), spoken by Google's pt-BR voices.
+export const PORTUGUESE_LANG: SpeechLang = "pt-BR";
 
 // The two ways language is keyed elsewhere in the app: a flashcard/story
 // "levelPath" like "a1" or "ja-a1", or a Lesson's own "level" like "A1"
@@ -44,6 +46,7 @@ export function langForLevelPath(levelPath: string): SpeechLang {
   if (levelPath.startsWith("zh")) return CHINESE_LANG;
   if (levelPath === "fr" || levelPath.startsWith("fr/")) return FRENCH_LANG;
   if (levelPath === "de" || levelPath.startsWith("de/")) return GERMAN_LANG;
+  if (levelPath === "pt" || levelPath.startsWith("pt/")) return PORTUGUESE_LANG;
   return levelPath.startsWith("ja") ? JAPANESE_LANG : SPANISH_LANG;
 }
 
@@ -51,6 +54,7 @@ export function langForLevel(level: string): SpeechLang {
   if (level.startsWith("ZH")) return CHINESE_LANG;
   if (level.startsWith("FR-")) return FRENCH_LANG;
   if (level.startsWith("DE-")) return GERMAN_LANG;
+  if (level.startsWith("PT-")) return PORTUGUESE_LANG;
   return level.startsWith("JA") ? JAPANESE_LANG : SPANISH_LANG;
 }
 
@@ -188,11 +192,11 @@ function loadPronunciationPrefs(): Promise<void> {
   return prefsLoadPromise;
 }
 
-// Only the course languages (Spanish, Japanese, Chinese, French, German) get generated cloud audio -- English UI text
+// Only the course languages (Spanish, Japanese, Chinese, French, German, Brazilian Portuguese) get generated cloud audio -- English UI text
 // (flashcard backs, glosses, etc.) always uses the device voice, which is
 // already fine for English and isn't worth paying to regenerate.
 function hasCloudVoice(lang: SpeechLang): boolean {
-  return lang === "es-ES" || lang === "es-US" || lang === JAPANESE_LANG || lang === CHINESE_LANG || lang === FRENCH_LANG || lang === GERMAN_LANG;
+  return lang === "es-ES" || lang === "es-US" || lang === JAPANESE_LANG || lang === CHINESE_LANG || lang === FRENCH_LANG || lang === GERMAN_LANG || lang === PORTUGUESE_LANG;
 }
 
 function voiceLang(lang: SpeechLang): SpeechLang {

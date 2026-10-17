@@ -312,7 +312,7 @@ export const EN_B2_U09_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "You should have gone to bed earlier.", en: "Deberías haberte acostado antes." },
-          { es: "I must have left my keys at work.", en: "Debo de haberme dejado las llaves en el trabajo." },
+          { es: "I must have left my keys at work.", en: "Debo de haber dejado las llaves en el trabajo." },
           { es: "They could have come with us.", en: "Podrían haber venido con nosotros." },
           { es: "She might have taken the wrong bus.", en: "Puede que haya tomado el autobús equivocado." },
         ],
@@ -478,8 +478,8 @@ export const EN_B2_U09_EXTRA: Lesson[] = [
         sentence: "Be careful! You ___ hurt.",
         answer: "could have been",
         altAnswers: ["might have been"],
-        en: "¡Ten cuidado! [Te podrías haber hecho] daño.",
-        explanation: "A danger that didn't happen: \"could have been\" + adjective. «Hacerse daño» is \"get hurt\" or \"be hurt\".",
+        en: "¡Ten cuidado! [Te podrías haber] lastimado.",
+        explanation: "A danger that didn't happen: \"could have been\" + adjective. «Lastimarse» is \"get hurt\" or \"be hurt\".",
       },
       {
         type: "dictation",

@@ -1636,7 +1636,7 @@ export const EN_B2_U17: Lesson[] = [
         ],
         examples: [
           { es: "In spite of being ill, she went to work.", en: "A pesar de estar enferma, fue a trabajar." },
-          { es: "Despite the cold, we had lunch outside.", en: "A pesar del frío, comimos fuera." },
+          { es: "Despite the cold, we had lunch outside.", en: "A pesar del frío, comimos afuera." },
           { es: "Despite the fact that she was ill, she went to work.", en: "A pesar de que estaba enferma, fue a trabajar." },
           { es: "Despite never having driven before, he did very well.", en: "A pesar de no haber manejado nunca, lo hizo muy bien." },
           { es: "In spite of his age, he runs every day.", en: "A pesar de su edad, corre todos los días." },

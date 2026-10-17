@@ -23,7 +23,7 @@ export const EN_B2_U05_EXTRA: Lesson[] = [
           "In speech both verbs contract to 'd: \"If I'd known, I'd have come.\" The first 'd is \"had\" (it's followed by a participle), the second is \"would\" (it's followed by \"have\").",
         ],
         examples: [
-          { es: "If I had known, I would have come.", en: "Si lo hubiera sabido, habría venido. (incorrecto: \"If I would have known\")" },
+          { es: "If I had known, I would have come.", en: "Si lo hubiera sabido, habría venido. (incorrecto: *If I would have known)" },
           { es: "If we had left earlier, we wouldn't have missed the train.", en: "Si hubiéramos salido antes, no habríamos perdido el tren." },
           { es: "If you had driven more slowly, you could have avoided the accident.", en: "Si hubieras manejado más despacio, podrías haber evitado el accidente." },
           { es: "If she'd called, I'd have answered.", en: "Si hubiera llamado, habría contestado. (she'd = she had; I'd = I would)" },
@@ -778,7 +778,7 @@ export const EN_B2_U05_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "I won't go unless you invite me.", en: "No iré a menos que me invites." },
-          { es: "Unless you hurry, you'll miss the train.", en: "A menos que te apures, perderás el tren. (incorrecto: \"unless you don't hurry\")" },
+          { es: "Unless you hurry, you'll miss the train.", en: "A menos que te apures, perderás el tren. (incorrecto: *unless you don't hurry)" },
           { es: "You won't understand it unless you read it twice.", en: "No lo entenderás a menos que lo leas dos veces." },
         ],
         checkpoint: [

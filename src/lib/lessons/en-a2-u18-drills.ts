@@ -275,7 +275,7 @@ export const EN_A2_U18_DRILLS: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "¿Cuánto tiempo te quedaste en Cancún y cómo era el hotel?",
         answer: "How long did you stay in Cancun and what was the hotel like?",
-        altAnswers: ["How long did you stay in Cancun, and what was the hotel like?"],
+        altAnswers: ["How long did you stay in Cancun, and what was the hotel like?", "How long did you stay in Cancun and how was the hotel?", "How long did you stay in Cancun, and how was the hotel?"],
         explanation: "Duración: \"How long did you stay\". Descripción en pasado: \"What was the hotel like?\", no *How was the hotel like.",
       },
       {

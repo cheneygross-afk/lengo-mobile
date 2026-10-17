@@ -24,7 +24,7 @@ export const EN_B2_U11: Lesson[] = [
           { es: "It is believed that the painting is a fake.", en: "Se cree que el cuadro es falso." },
           { es: "It is estimated that two million people use the app.", en: "Se calcula que dos millones de personas usan la aplicación." },
           { es: "It is expected that prices will rise next year.", en: "Se espera que los precios suban el año que viene." },
-          { es: "It was reported that the minister had resigned.", en: "Se informó de que el ministro había dimitido." },
+          { es: "It was reported that the minister had resigned.", en: "Se informó que el ministro había renunciado." },
           { es: "It is well known that sugar is bad for your teeth.", en: "Es bien sabido que el azúcar es malo para los dientes." },
         ],
         checkpoint: [
@@ -379,7 +379,7 @@ export const EN_B2_U11: Lesson[] = [
         examples: [
           { es: "I'm getting my car serviced tomorrow.", en: "Mañana me hacen la revisión del carro." },
           { es: "I've just had my eyes tested.", en: "Me acaban de revisar la vista." },
-          { es: "We're having our kitchen redone.", en: "Nos están reformando la cocina." },
+          { es: "We're having our kitchen redone.", en: "Nos están remodelando la cocina." },
           { es: "Where do you get your hair cut?", en: "¿Dónde te cortas el pelo?" },
           { es: "You should get that cough checked.", en: "Deberías hacerte ver esa tos." },
           { es: "I'm going to have my phone screen replaced.", en: "Voy a hacer que me cambien la pantalla del celular." },
@@ -479,12 +479,12 @@ export const EN_B2_U11: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Ayer me corté el pelo en la peluquería.",
-        answer: "I had my hair cut at the hairdresser's yesterday.",
+        answer: "I had my hair cut at the salon yesterday.",
         altAnswers: [
           "I got my hair cut at the hairdresser's yesterday.",
           "Yesterday I had my hair cut at the hairdresser's.",
           "Yesterday I got my hair cut at the hairdresser's.",
-          "I had my hair cut at the salon yesterday.",
+          "I had my hair cut at the hairdresser's yesterday.",
           "I got my hair cut at the salon yesterday.",
           "Yesterday I had my hair cut at the salon.",
           "Yesterday I got my hair cut at the salon.",
@@ -505,7 +505,7 @@ export const EN_B2_U11: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "A Sofia le robaron la cartera en el tren.",
+        source: "A Sofia le robaron la billetera en el tren.",
         answer: "Sofia had her wallet stolen on the train.",
         altAnswers: [
           "Sofia got her wallet stolen on the train.",
@@ -546,10 +546,10 @@ export const EN_B2_U11: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Deberías hacerte revisar la vista.",
-        answer: "You should have your eyes tested.",
+        answer: "You should have your eyes checked.",
         altAnswers: [
           "You should get your eyes tested.",
-          "You should have your eyes checked.",
+          "You should have your eyes tested.",
           "You should get your eyes checked.",
           "You should have your eyes examined.",
           "You should get your eyes examined.",
@@ -706,7 +706,7 @@ export const EN_B2_U11: Lesson[] = [
           "\"Allowed\" and \"permitted\" always take \"to\" in the active too: \"They allowed us to leave early\". So the full set is: \"let us leave\", \"allowed us to leave\", \"we were allowed to leave\".",
         ],
         examples: [
-          { es: "We were made to wait outside.", en: "Nos hicieron esperar fuera." },
+          { es: "We were made to wait outside.", en: "Nos hicieron esperar afuera." },
           { es: "She was made to apologize.", en: "La obligaron a pedir perdón." },
           { es: "We weren't allowed to take photos.", en: "No nos dejaron tomar fotos." },
           { es: "They didn't let us in.", en: "No nos dejaron entrar." },
@@ -829,7 +829,7 @@ export const EN_B2_U11: Lesson[] = [
         prompt: "Put the words in order.",
         words: ["I'll", "have", "my", "assistant", "send", "you", "the", "contract."],
         translation: "Le pediré a mi asistente que le envíe el contrato.",
-        altOrders: [["I'll", "have", "my", "assistant", "send", "the", "contract", "you."]],
+        altOrders: [],
         explanation: "\"Have\" + person + bare infinitive: arranging for someone to do a task, usually at work.",
       },
       {
@@ -977,9 +977,9 @@ export const EN_B2_U11: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Se dice que el presidente está enfermo.",
-        answer: "The president is said to be ill.",
+        answer: "The president is said to be sick.",
         altAnswers: [
-          "The president is said to be sick.",
+          "The president is said to be ill.",
           "It is said that the president is ill.",
           "It is said that the president is sick.",
           "It is said the president is ill.",
@@ -1121,13 +1121,13 @@ export const EN_B2_U11: Lesson[] = [
         heading: "Error 1: who did it?",
         body: [
           "*I'm going to cut my hair tomorrow at the salon sounds strange to a native speaker: are you taking your own scissors to the salon? If someone else does the job, use the causative: \"I'm going to get my hair cut tomorrow\".",
-          "The same goes for «me voy a hacer las uñas», «me hice una revisión», «nos arreglaron el tejado». Ask yourself: did I do it, or did a professional? If it was a professional, use \"have/get\" + object + participle.",
+          "The same goes for «me voy a hacer las uñas», «me hice una revisión», «nos arreglaron el techo». Ask yourself: did I do it, or did a professional? If it was a professional, use \"have/get\" + object + participle.",
           "Note that some services have their own simple verbs: \"I got a haircut\", \"I got a tattoo\", \"I had a checkup\". These are also correct.",
         ],
         examples: [
           { es: "I'm going to get my hair cut tomorrow.", en: "Mañana me voy a cortar el pelo. (incorrecto: *I'm going to cut my hair at the salon)" },
           { es: "I'm getting my nails done on Friday.", en: "El viernes me hago las uñas." },
-          { es: "We had the roof fixed after the storm.", en: "Nos arreglaron el tejado después de la tormenta." },
+          { es: "We had the roof fixed after the storm.", en: "Nos arreglaron el techo después de la tormenta." },
           { es: "I had a checkup last week.", en: "La semana pasada me hice un chequeo." },
         ],
         checkpoint: [
@@ -1163,7 +1163,7 @@ export const EN_B2_U11: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Le robaron el portátil en el aeropuerto.",
+            source: "Le robaron la laptop en el aeropuerto.",
             answer: "He had his laptop stolen at the airport.",
             altAnswers: [
               "She had her laptop stolen at the airport.",
@@ -1265,14 +1265,14 @@ export const EN_B2_U11: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Mañana me voy a cortar el pelo en la peluquería.",
-        answer: "I'm going to get my hair cut at the hairdresser's tomorrow.",
+        answer: "I'm going to get my hair cut at the salon tomorrow.",
         altAnswers: [
           "I'm going to have my hair cut at the hairdresser's tomorrow.",
           "Tomorrow I'm going to get my hair cut at the hairdresser's.",
           "Tomorrow I'm going to have my hair cut at the hairdresser's.",
           "I'm getting my hair cut at the hairdresser's tomorrow.",
           "I'm having my hair cut at the hairdresser's tomorrow.",
-          "I'm going to get my hair cut at the salon tomorrow.",
+          "I'm going to get my hair cut at the hairdresser's tomorrow.",
           "I'm going to have my hair cut at the salon tomorrow.",
           "Tomorrow I'm going to get my hair cut at the salon.",
           "Tomorrow I'm going to have my hair cut at the salon.",
@@ -1422,7 +1422,7 @@ export const EN_B2_U11: Lesson[] = [
         examples: [
           { es: "Emma: I need to get my birth certificate translated.", en: "Emma: Tengo que hacer traducir mi partida de nacimiento." },
           { es: "Carlos: Does it need to be certified too?", en: "Carlos: ¿También hay que certificarla?" },
-          { es: "Emma: Yes, I have to get it done by a sworn translator.", en: "Emma: Sí, la tiene que hacer un traductor jurado." },
+          { es: "Emma: Yes, I have to get it done by a sworn translator.", en: "Emma: Sí, la tiene que hacer un traductor certificado." },
           { es: "Carlos: And your passport needs to be renewed, doesn't it?", en: "Carlos: Y tu pasaporte hay que renovarlo, ¿no?" },
           { es: "Emma: Don't remind me. I still need to have my photo taken.", en: "Emma: No me lo recuerdes. Todavía tengo que tomarme la foto." },
         ],
@@ -1431,7 +1431,7 @@ export const EN_B2_U11: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Tengo que hacer traducir estos documentos.",
+            source: "Tengo que mandar a traducir estos documentos.",
             answer: "I need to get these documents translated.",
             altAnswers: [
               "I need to have these documents translated.",
@@ -1632,7 +1632,7 @@ export const EN_B2_U11: Lesson[] = [
         examples: [
           { es: "We're going to pack the books ourselves.", en: "Los libros los vamos a empaquetar nosotros." },
           { es: "We're having the furniture delivered on Saturday.", en: "El sábado nos traen los muebles." },
-          { es: "We're going to get the walls painted.", en: "Vamos a hacer pintar las paredes." },
+          { es: "We're going to get the walls painted.", en: "Vamos a mandar a pintar las paredes." },
           { es: "OK, I'll get the carpets cleaned too.", en: "Está bien, también mandaré limpiar las alfombras." },
           { es: "We'll paint the kitchen ourselves to save money.", en: "La cocina la pintaremos nosotros para ahorrar dinero." },
         ],
@@ -1683,7 +1683,7 @@ export const EN_B2_U11: Lesson[] = [
         examples: [
           { es: "We've already had the locks changed.", en: "Ya nos han cambiado las cerraduras." },
           { es: "We haven't had the internet connected yet.", en: "Todavía no nos han conectado internet." },
-          { es: "Have you had the electricity switched on?", en: "¿Ya te han dado de alta la luz?" },
+          { es: "Have you had the electricity switched on?", en: "¿Ya te conectaron la luz?" },
           { es: "We've gotten the walls painted.", en: "Ya nos han pintado las paredes. (inglés americano)" },
           { es: "By Friday we'll have had the whole place cleaned.", en: "Para el viernes ya nos habrán limpiado todo el departamento." },
         ],
@@ -1760,7 +1760,7 @@ export const EN_B2_U11: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Vamos a hacer pintar las paredes antes de mudarnos.",
+        source: "Vamos a mandar a pintar las paredes antes de mudarnos.",
         answer: "We're going to have the walls painted before we move.",
         altAnswers: [
           "We're going to get the walls painted before we move.",
@@ -1847,7 +1847,7 @@ export const EN_B2_U11: Lesson[] = [
           "We have to clean the rugs.",
           "We need to clean the rugs.",
         ],
-        explanation: "«Hay que» + thing: \"X needs cleaning\" or \"X needs to be cleaned\". Careful: \"carpet\" is «moqueta» or «alfombra», not «carpeta» (a folder).",
+        explanation: "«Hay que» + thing: \"X needs cleaning\" or \"X needs to be cleaned\". Careful: \"carpet\" is «alfombra», not «carpeta» (a folder).",
       },
       {
         type: "multiple-choice",
@@ -2192,7 +2192,7 @@ export const EN_B2_U11: Lesson[] = [
         examples: [
           { es: "The old factory has been turned into apartments.", en: "Han convertido la antigua fábrica en departamentos." },
           { es: "The main square has been pedestrianized.", en: "Se ha peatonalizado la plaza mayor." },
-          { es: "Several bike lanes have been added.", en: "Se han añadido varios carriles bici." },
+          { es: "Several bike lanes have been added.", en: "Se han agregado varias ciclovías." },
           { es: "The station is being renovated.", en: "Están renovando la estación." },
           { es: "A lot of old shops have been replaced by cafes.", en: "Muchas tiendas antiguas han sido sustituidas por cafeterías." },
         ],
@@ -2304,8 +2304,8 @@ export const EN_B2_U11: Lesson[] = [
         examples: [
           { es: "The area is expected to become a tech hub.", en: "Se espera que la zona se convierta en un polo tecnológico." },
           { es: "The tower is said to have cost twice the original budget.", en: "Se dice que la torre costó el doble del presupuesto original." },
-          { es: "We had our building renovated last year.", en: "El año pasado nos reformaron el edificio." },
-          { es: "Our neighbors are having solar panels installed.", en: "A nuestros vecinos les están instalando placas solares." },
+          { es: "We had our building renovated last year.", en: "El año pasado nos remodelaron el edificio." },
+          { es: "Our neighbors are having solar panels installed.", en: "A nuestros vecinos les están instalando paneles solares." },
         ],
         checkpoint: [
           {
@@ -2421,7 +2421,7 @@ export const EN_B2_U11: Lesson[] = [
         sentence: "Our neighbors ___ on the roof.",
         answer: "are having solar panels installed",
         altAnswers: ["are getting solar panels installed", "are having solar panels put", "are getting solar panels put"],
-        en: "A nuestros vecinos [les están instalando placas solares] en el tejado.",
+        en: "A nuestros vecinos [les están instalando paneles solares] en el techo.",
         explanation: "A service in progress: present continuous \"are having\" + object + participle.",
       },
       {

@@ -1242,7 +1242,7 @@ export const EN_B1_U12: Lesson[] = [
             prompt: "Translate into English.",
             source: "Parece nervioso.",
             answer: "He looks nervous.",
-            altAnswers: ["He seems nervous.", "She looks nervous."],
+            altAnswers: ["He seems nervous.", "You look nervous.", "You seem nervous."],
             explanation: "\"Look\" + adjective. Don't add \"like\" before \"nervous\".",
           },
         ],

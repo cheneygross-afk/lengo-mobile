@@ -19,7 +19,7 @@ import type { Lesson } from "@/lib/lessons/types";
 import { isLazyLevelPath, lazyLevelIfLoaded, loadLazyLevel } from "@/lib/lessons/lazyLevels";
 
 /** A unit from units.ts (Spanish), a module's assembled units (Chinese),
- * or a French or German level's units (once that level is loaded). */
+ * or a French, German or Portuguese level's units (once that level is loaded). */
 function lookUpUnit(levelPath: string, unitId: string): { label: string; required: Lesson[] } | undefined {
   if (isLazyLevelPath(levelPath)) return lazyLevelIfLoaded(levelPath)?.units.find((u) => u.id === unitId);
   return findUnit(levelPath, unitId) ?? LESSON_SOURCES[levelPath as LessonModuleKey]?.units?.find((u) => u.id === unitId);
@@ -49,7 +49,7 @@ type Phase = "intro" | "testing" | "saving" | "passed" | "failed";
 // markLessonCompleted a finished lesson uses, so the website sees it too.
 export default function UnitTestScreen({ route, navigation }: Props) {
   const { levelPath, unitId } = route.params;
-  // A French or German level is normally loaded already (the test is opened
+  // A French, German or Portuguese level is normally loaded already (the test is opened
   // from its lesson list); if not, it's loaded here and the unit looked up again.
   const [lazyLoads, setLazyLoads] = useState(0);
   useEffect(() => {

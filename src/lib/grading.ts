@@ -20,7 +20,9 @@ export type GradeResult = { correct: boolean; note?: string };
 // lessons/zh/pinyin.ts; "fr" (French) gets the plain rules plus a
 // forgotten hyphen as a slip ("est ce que"); "de" (German) takes ss for ß,
 // and ae/oe/ue or a missing umlaut as a slip with a note.
-export type AnswerLanguage = "es" | "en" | "zh" | "fr" | "de" | "other";
+// "pt" (Brazilian Portuguese) gets the plain rules: a missing accent or
+// tilde is a slip with a note.
+export type AnswerLanguage = "es" | "en" | "zh" | "fr" | "de" | "pt" | "other";
 
 /** Share of a lesson's questions that must be right the first time for the lesson to count as complete. */
 export const LESSON_PASS_PERCENT = 70;
@@ -363,6 +365,7 @@ export function answerLanguageFor(speechLang: string): AnswerLanguage {
   if (speechLang.startsWith("zh")) return "zh";
   if (speechLang.startsWith("fr")) return "fr";
   if (speechLang.startsWith("de")) return "de";
+  if (speechLang.startsWith("pt")) return "pt";
   return speechLang.startsWith("es") ? "es" : "other";
 }
 

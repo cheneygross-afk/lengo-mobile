@@ -98,22 +98,22 @@ export const EN_B2_U16: Lesson[] = [
         heading: "Try: make an effort, or experiment",
         body: [
           "\"Try to do\" means make an effort to do something difficult, often without success: \"I tried to open the window, but it was stuck\" («intenté abrir»).",
-          "\"Try doing\" means do something as an experiment, to see if it solves a problem: \"If you can't sleep, try drinking warm milk\" («prueba a beber»). The action itself is easy; the question is whether it works.",
-          "Spanish «intentar» usually matches \"try to\", and «probar a» matches \"try doing\". In advice, \"try\" + -ing is very common: \"Have you tried restarting it?\"",
+          "\"Try doing\" means do something as an experiment, to see if it solves a problem: \"If you can't sleep, try drinking warm milk\" («prueba beber»). The action itself is easy; the question is whether it works.",
+          "Spanish «intentar» usually matches \"try to\", and «probar» + infinitive matches \"try doing\". In advice, \"try\" + -ing is very common: \"Have you tried restarting it?\"",
         ],
         examples: [
           { es: "I tried to open the jar, but I couldn't.", en: "Intenté abrir el frasco, pero no pude." },
-          { es: "Try adding a little salt.", en: "Prueba a añadir un poco de sal." },
-          { es: "Have you tried turning it off and on again?", en: "¿Has probado a apagarlo y encenderlo otra vez?" },
+          { es: "Try adding a little salt.", en: "Prueba añadir un poco de sal." },
+          { es: "Have you tried turning it off and on again?", en: "¿Has probado apagarlo y prenderlo otra vez?" },
           { es: "She tried to stay calm.", en: "Intentó mantener la calma." },
-          { es: "If you have a headache, try drinking more water.", en: "Si te duele la cabeza, prueba a beber más agua." },
+          { es: "If you have a headache, try drinking more water.", en: "Si te duele la cabeza, prueba beber más agua." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Si no te funciona el wifi, prueba a reiniciar el router.",
+            source: "Si no te funciona el wifi, prueba reiniciar el router.",
             answer: "If your wifi isn't working, try restarting the router.",
             altAnswers: [
               "If the wifi isn't working, try restarting the router.",
@@ -124,7 +124,7 @@ export const EN_B2_U16: Lesson[] = [
               "If your wifi isn't working, try rebooting the router.",
               "If the wifi isn't working, try rebooting the router.",
             ],
-            explanation: "«Probar a» = an experiment to see if it helps, so \"try\" + -ing. \"Try to restart\" would suggest restarting is difficult.",
+            explanation: "«Probar» + infinitive = an experiment to see if it helps, so \"try\" + -ing. \"Try to restart\" would suggest restarting is difficult.",
           },
         ],
       },
@@ -217,7 +217,7 @@ export const EN_B2_U16: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "If the baby won't sleep, try ___ her a song.",
         answer: "singing",
-        en: "Si la niña no se duerme, [prueba a cantarle] una canción.",
+        en: "Si la niña no se duerme, [prueba cantarle] una canción.",
         explanation: "\"Try\" + -ing = try something as an experiment to see if it works.",
       },
       {
@@ -606,11 +606,11 @@ export const EN_B2_U16: Lesson[] = [
         ],
         examples: [
           { es: "I really enjoy dancing.", en: "Me encanta bailar. (incorrecto: *enjoy to dance)" },
-          { es: "Try to avoid driving in the rush hour.", en: "Intenta evitar manejar en hora punta." },
+          { es: "Try to avoid driving in the rush hour.", en: "Intenta evitar manejar en hora pico." },
           { es: "Do you mind closing the door?", en: "¿Te importa cerrar la puerta?" },
           { es: "Have you finished reading the book?", en: "¿Has terminado de leer el libro?" },
           { es: "She keeps calling me at night.", en: "No para de llamarme por la noche." },
-          { es: "I don't feel like going out tonight.", en: "No me apetece salir esta noche." },
+          { es: "I don't feel like going out tonight.", en: "No tengo ganas de salir esta noche." },
         ],
         checkpoint: [
           {
@@ -787,7 +787,7 @@ export const EN_B2_U16: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "I don't feel like ___ tonight. Let's order pizza.",
         answer: "cooking",
-        en: "No me apetece [cocinar] esta noche. Pidamos pizza.",
+        en: "No tengo ganas de [cocinar] esta noche. Pidamos pizza.",
         explanation: "\"Feel like\" ends in a preposition, so it takes -ing: \"feel like cooking\".",
       },
       {
@@ -844,7 +844,7 @@ export const EN_B2_U16: Lesson[] = [
           { es: "He stopped working at six.", en: "Dejó de trabajar a las seis." },
           { es: "He stopped to answer the phone.", en: "Se paró para contestar al teléfono." },
           { es: "Try to relax.", en: "Intenta relajarte." },
-          { es: "Try taking a hot bath.", en: "Prueba a darte un baño caliente." },
+          { es: "Try taking a hot bath.", en: "Prueba darte un baño caliente." },
         ],
         checkpoint: [
           {
@@ -929,7 +929,7 @@ export const EN_B2_U16: Lesson[] = [
         instructions: "Match each sentence with its meaning.",
         pairs: [
           { left: "I tried to call her.", right: "Intenté llamarla, pero no pude." },
-          { left: "I tried calling her.", right: "Probé a llamarla, por si funcionaba." },
+          { left: "I tried calling her.", right: "Probé llamarla, por si funcionaba." },
           { left: "I stopped calling her.", right: "Ya no la llamo." },
           { left: "I stopped to call her.", right: "Me paré para llamarla." },
         ],
@@ -951,7 +951,7 @@ export const EN_B2_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Nunca olvidaré conocer a mi actor favorito.",
+        source: "Nunca olvidaré el día en que conocí a mi actor favorito.",
         answer: "I'll never forget meeting my favorite actor.",
         altAnswers: ["I will never forget meeting my favorite actor.", "I'll never forget meeting my favourite actor."],
         explanation: "\"Never forget\" + -ing = a strong memory of something that happened.",
@@ -2009,7 +2009,7 @@ export const EN_B2_U16: Lesson[] = [
         sentence: "On Fridays, my dad ___ home early and take us to the movies.",
         answer: "would come",
         altAnswers: ["used to come"],
-        en: "Los viernes, mi padre [volvía] pronto a casa y nos llevaba al cine.",
+        en: "Los viernes, mi padre [volvía] temprano a casa y nos llevaba al cine.",
         explanation: "Repeated past actions: \"would\" + base form. The second verb (\"take\") shares the same \"would\".",
       },
       {
@@ -2356,7 +2356,7 @@ export const EN_B2_U16: Lesson[] = [
           { es: "I'm getting used to it, slowly.", en: "Me estoy acostumbrando, poco a poco." },
           { es: "Back home I used to wear a T-shirt in March!", en: "¡En mi país llevaba camiseta en marzo!" },
           { es: "I'm used to eating early now.", en: "Ya estoy acostumbrado a cenar temprano." },
-          { es: "What I can't get used to is shops closing so early.", en: "A lo que no me acostumbro es a que las tiendas cierren tan pronto." },
+          { es: "What I can't get used to is shops closing so early.", en: "A lo que no me acostumbro es a que las tiendas cierren tan temprano." },
         ],
         checkpoint: [
           {
@@ -2378,7 +2378,7 @@ export const EN_B2_U16: Lesson[] = [
           "\"Tried to join\" is an effort that failed; \"suggested trying\" is an experiment. \"Stopped drinking\" means he gave it up; \"stop to chat\" means they pause in order to chat.",
         ],
         examples: [
-          { es: "I tried to join a soccer team, but it was full.", en: "Intenté apuntarme a un equipo de fútbol, pero estaba lleno." },
+          { es: "I tried to join a soccer team, but it was full.", en: "Intenté inscribirme en un equipo de fútbol, pero estaba lleno." },
           { es: "A colleague suggested trying a running club.", en: "Un compañero me sugirió probar un club de corredores." },
           { es: "I've stopped drinking so much coffee.", en: "He dejado de tomar tanto café." },
           { es: "People stop to chat on the street.", en: "La gente se para a charlar en la calle." },
@@ -2489,7 +2489,7 @@ export const EN_B2_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Un amigo me sugirió apuntarme a un club de lectura.",
+        source: "Un amigo me sugirió inscribirme en un club de lectura.",
         answer: "A friend suggested joining a book club.",
         altAnswers: [
           "A friend suggested that I join a book club.",
@@ -2562,7 +2562,7 @@ export const EN_B2_U16: Lesson[] = [
           { es: "We would meet at the same bar every Friday.", en: "Nos veíamos en el mismo bar todos los viernes." },
           { es: "These days I usually go to bed at eleven.", en: "Hoy en día suelo acostarme a las once." },
           { es: "I've stopped eating junk food.", en: "He dejado de comer comida chatarra." },
-          { es: "I'm getting used to going to bed early.", en: "Me estoy acostumbrando a acostarme pronto." },
+          { es: "I'm getting used to going to bed early.", en: "Me estoy acostumbrando a acostarme temprano." },
         ],
         checkpoint: [
           {
@@ -2608,7 +2608,7 @@ export const EN_B2_U16: Lesson[] = [
         ],
         examples: [
           { es: "I've stopped checking my phone before bed.", en: "He dejado de mirar el celular antes de dormir." },
-          { es: "I've tried meditating, and it really helps.", en: "He probado a meditar y me ayuda mucho." },
+          { es: "I've tried meditating, and it really helps.", en: "He probado meditar y me ayuda mucho." },
           { es: "I'm used to cooking for myself now.", en: "Ya estoy acostumbrado a cocinar para mí." },
           { es: "I regret not starting sooner.", en: "Me arrepiento de no haber empezado antes." },
         ],
@@ -2763,7 +2763,7 @@ export const EN_B2_U16: Lesson[] = [
         ],
         examples: [
           { es: "I used to have a cat.", en: "Antes tenía un gato." },
-          { es: "We would go camping every August.", en: "Íbamos de acampada todos los agostos." },
+          { es: "We would go camping every August.", en: "Íbamos a acampar todos los agostos." },
           { es: "I'm used to the noise.", en: "Estoy acostumbrado al ruido." },
           { es: "You'll get used to it.", en: "Ya te acostumbrarás." },
         ],
@@ -2805,7 +2805,7 @@ export const EN_B2_U16: Lesson[] = [
         sentence: "If you can't sleep, try ___ your phone off an hour before bed.",
         answer: "turning",
         altAnswers: ["switching"],
-        en: "Si no puedes dormir, [prueba a apagar] el celular una hora antes de acostarte.",
+        en: "Si no puedes dormir, [prueba apagar] el celular una hora antes de acostarte.",
         explanation: "An experiment to see if it helps: \"try\" + -ing.",
       },
       {

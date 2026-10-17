@@ -1037,7 +1037,7 @@ export const EN_A2_U09_EXTRA: Lesson[] = [
         ],
       },
       {
-        heading: "Recordatorio: «¿Te ayudo?» es \"Shall I help you?\"",
+        heading: "Recordatorio: «¿Te ayudo?» es \"Do you want me to help you?\"",
         body: [
           "Para ofrecerte con una pregunta, el español usa el presente («¿te ayudo?», «¿abro la ventana?»). En inglés NO se dice *Do I help you?: se usa \"Shall I help you?\" (algo formal o británico), \"Do you want me to help you?\" o \"Can I help you?\". Todas valen.",
         ],
@@ -1051,9 +1051,9 @@ export const EN_A2_U09_EXTRA: Lesson[] = [
           {
             type: "multiple-choice",
             question: "«¿Te ayudo?» ¿Cuál es correcta?",
-            options: ["Shall I help you?", "Do I help you?", "I help you?", "Will I help you?"],
+            options: ["Do you want me to help you?", "Do I help you?", "I help you?", "Will I help you?"],
             correctIndex: 0,
-            explanation: "El ofrecimiento con pregunta es \"Shall I...?\" (o \"Do you want me to...?\"). *Do I help you? es un calco del español.",
+            explanation: "El ofrecimiento con pregunta es \"Do you want me to...?\" o \"Should I...?\" (\"Shall I...?\" es más formal o británico). *Do I help you? es un calco del español.",
           },
         ],
       },
@@ -1064,8 +1064,8 @@ export const EN_A2_U09_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Traduce al inglés.",
         source: "¿Te ayudo con las bolsas?",
-        answer: "Shall I help you with the bags?",
-        altAnswers: ["Do you want me to help you with the bags?", "Can I help you with the bags?", "Would you like me to help you with the bags?", "Should I help you with the bags?", "Shall I help you with your bags?", "Do you want me to help you with your bags?", "Can I help you with your bags?", "Would you like me to help you with your bags?"],
+        answer: "Do you want me to help you with the bags?",
+        altAnswers: ["Shall I help you with the bags?", "Can I help you with the bags?", "Would you like me to help you with the bags?", "Should I help you with the bags?", "Shall I help you with your bags?", "Do you want me to help you with your bags?", "Can I help you with your bags?", "Would you like me to help you with your bags?"],
         explanation: "Ofrecimiento: \"Shall I help you...?\" o \"Do you want me to help you...?\". Nunca *Do I help you?",
       },
       {
@@ -1099,8 +1099,8 @@ export const EN_A2_U09_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Traduce al inglés.",
         source: "¿Cierro la puerta?",
-        answer: "Shall I close the door?",
-        altAnswers: ["Do you want me to close the door?", "Should I close the door?", "Shall I shut the door?", "Can I close the door?", "Would you like me to close the door?", "Do you want me to shut the door?", "Should I shut the door?"],
+        answer: "Do you want me to close the door?",
+        altAnswers: ["Shall I close the door?", "Should I close the door?", "Shall I shut the door?", "Can I close the door?", "Would you like me to close the door?", "Do you want me to shut the door?", "Should I shut the door?"],
         explanation: "Pregunta para ofrecerse: \"Shall I...?\" o \"Do you want me to...?\". *Do I close the door? es un error.",
       },
       {
@@ -1152,8 +1152,8 @@ export const EN_A2_U09_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Traduce al inglés.",
         source: "¿Pido una pizza?",
-        answer: "Shall I order a pizza?",
-        altAnswers: ["Do you want me to order a pizza?", "Should I order a pizza?", "Can I order a pizza?", "Would you like me to order a pizza?", "Shall I order pizza?", "Do you want me to order pizza?"],
+        answer: "Do you want me to order a pizza?",
+        altAnswers: ["Shall I order a pizza?", "Should I order a pizza?", "Can I order a pizza?", "Would you like me to order a pizza?", "Shall I order pizza?", "Do you want me to order pizza?"],
         explanation: "Ofrecimiento con pregunta: \"Shall I order...?\". «Pedir» comida es \"order\", no \"ask\".",
       },
       {

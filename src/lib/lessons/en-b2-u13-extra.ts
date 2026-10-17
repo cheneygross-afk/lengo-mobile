@@ -488,8 +488,9 @@ export const EN_B2_U13_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Let's order a pizza, ___?",
         answer: "shall we",
+        altAnswers: ["OK", "okay"],
         en: "Pidamos una pizza, [¿te parece?]",
-        explanation: "\"Let's\" always takes \"shall we?\".",
+        explanation: "The standard tag after \"Let's\" is \"shall we?\"; in everyday American English, \"OK?\" is also common.",
       },
       {
         type: "translate",
@@ -646,6 +647,7 @@ export const EN_B2_U13_EXTRA: Lesson[] = [
         prompt: "Translate into English.",
         source: "¿De dónde son tus abuelos?",
         answer: "Where are your grandparents from?",
+        altAnswers: ["Where do your grandparents come from?"],
         explanation: "\"From\" always goes at the end: never *From where are your grandparents?",
       },
       {
@@ -829,7 +831,7 @@ export const EN_B2_U13_EXTRA: Lesson[] = [
         examples: [
           { es: "I've just bought a house. Have you? Congratulations!", en: "Me acabo de comprar una casa. ¿Ah, sí? ¡Felicidades!" },
           { es: "Ana doesn't eat fish. Doesn't she?", en: "Ana no come pescado. ¿Ah, no?" },
-          { es: "We met at university. Did you? I didn't know that.", en: "Nos conocimos en la universidad. ¿En serio? No lo sabía." },
+          { es: "We met in college. Did you? I didn't know that.", en: "Nos conocimos en la universidad. ¿En serio? No lo sabía." },
           { es: "I'm getting married. Are you? That's wonderful!", en: "Me caso. ¿De verdad? ¡Qué maravilla!" },
         ],
         checkpoint: [

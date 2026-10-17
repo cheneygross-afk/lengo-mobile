@@ -97,7 +97,7 @@ export const EN_B1_U28: Lesson[] = [
         ],
         examples: [
           { es: "The hotel was cheap. However, the rooms were very clean.", en: "El hotel era barato. Sin embargo, las habitaciones estaban muy limpias." },
-          { es: "I studied hard; however, I failed the exam.", en: "Estudié mucho; sin embargo, suspendí el examen." },
+          { es: "I studied hard; however, I failed the exam.", en: "Estudié mucho; sin embargo, reprobé el examen." },
           { es: "The staff was friendly. The food, however, was terrible.", en: "El personal era amable. La comida, sin embargo, era malísima." },
           { es: "Prices have gone up. However, sales are still growing.", en: "Los precios han subido. No obstante, las ventas siguen creciendo." },
           { es: "The plan is good. It's very expensive, however.", en: "El plan es bueno. Sin embargo, es muy caro." },
@@ -217,7 +217,7 @@ export const EN_B1_U28: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Estudié mucho; sin embargo, suspendí.",
+        source: "Estudié mucho; sin embargo, reprobé.",
         answer: "I studied a lot; however, I failed.",
         altAnswers: [
           "I studied hard; however, I failed.",
@@ -228,7 +228,7 @@ export const EN_B1_U28: Lesson[] = [
           "I studied a lot. However, I didn't pass.",
           "I studied hard. However, I didn't pass.",
         ],
-        explanation: "\"However\" after a semicolon or at the start of a new sentence, with a comma after it. «Suspender» an exam is \"fail\".",
+        explanation: "\"However\" after a semicolon or at the start of a new sentence, with a comma after it. «Reprobar» («suspender» in Spain) an exam is \"fail\".",
       },
       {
         type: "listen-choose",
@@ -1460,7 +1460,7 @@ export const EN_B1_U28: Lesson[] = [
         sentence: "He didn't study. ___, he failed the exam.",
         answer: "That's why",
         altAnswers: ["So", "Therefore", "As a result", "Because of that", "For that reason", "Consequently"],
-        en: "No estudió. [Por eso] suspendió el examen.",
+        en: "No estudió. [Por eso] reprobó el examen.",
         explanation: "«Por eso» is \"That's why\" (or \"So\", \"Therefore\"), never *For that.",
       },
       {
@@ -2681,7 +2681,7 @@ export const EN_B1_U28: Lesson[] = [
           "Two traps for Spanish speakers. First, «después», used alone, is \"after that\" or \"afterwards\", not \"after\": *After, we went home is wrong. Second, «al final» meaning «finalmente» is \"in the end\". \"At the end\" needs \"of\": \"at the end of the film\".",
         ],
         examples: [
-          { es: "One day, I found an old letter in the attic.", en: "Un día encontré una carta antigua en el desván." },
+          { es: "One day, I found an old letter in the attic.", en: "Un día encontré una carta antigua en el ático." },
           { es: "Suddenly, the lights went out.", en: "De repente, se fue la luz." },
           { es: "After that, we called the police.", en: "Después, llamamos a la policía." },
           { es: "As soon as I saw her, I knew something was wrong.", en: "En cuanto la vi, supe que algo iba mal." },

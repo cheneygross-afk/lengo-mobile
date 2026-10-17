@@ -278,7 +278,7 @@ export const EN_B1_U08_DRILLS: Lesson[] = [
         "Can you give me some advices?",
         "Can you give me a advice?",
       ], "\"Advice\" is uncountable: \"some advice\" or \"a piece of advice\". Never *an advice or *advices, even though Spanish says «un consejo», «consejos»."),
-      tr("Podrías pedirle ayuda a tu hermana.", "You could ask your sister for help.",
+      tr("Podrías pedirle ayuda a tu hermana.", ["You could ask your sister for help.", "You could ask your sister to help you."],
         "\"You could...\" is a soft suggestion. «Pedirle algo a alguien» is \"ask someone for something\": \"ask your sister for help\"."),
       tr("Yo no le gritaría; eso empeoraría las cosas.",
         [
@@ -299,7 +299,7 @@ export const EN_B1_U08_DRILLS: Lesson[] = [
         "«Quedarse con algo» is \"keep\". \"Stay with the money\" would mean «quedarse al lado del dinero»."),
       tr("Para ser sincero, probablemente no diría nada.", [
         "To be honest, I probably wouldn't say anything.",
-        "I probably wouldn't say anything, to be honest.",
+        "I probably wouldn't say anything, to be honest.", "Honestly, I probably wouldn't say anything.",
       ], "In negatives, \"probably\" goes before \"wouldn't\": \"I probably wouldn't\". With a negative verb, use \"anything\", not *nothing."),
       fb("I'm not sure. It depends ___ how much money is in it.", "on", "No sé. Depende [de] cuánto dinero tenga.",
         "«Depender de» is \"depend on\", never *depend of."),

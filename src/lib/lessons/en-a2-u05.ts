@@ -1417,7 +1417,7 @@ export const EN_A2_U05: Lesson[] = [
       {
         type: "speak",
         text: "She isn't here. She's gone home.",
-        tip: "\"Gone\" en Estados Unidos suena /ɡɔn/, con una o abierta, casi como «gan».",
+        tip: "\"Gone\" en Estados Unidos suele sonar /ɡɑn/, con una a abierta, casi como «gan» (otros dicen /ɡɔn/).",
         explanation: "No está aquí: \"gone\".",
       },
     ],

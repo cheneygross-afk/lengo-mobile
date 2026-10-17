@@ -395,7 +395,7 @@ export const EN_A2_U13_EXTRA: Lesson[] = [
         prompt: "Escribe en inglés las palabras en negrita.",
         sentence: "We ___ a great time at the party.",
         answer: "had",
-        en: "[Lo pasamos] genial en la fiesta.",
+        en: "[La pasamos] genial en la fiesta.",
         explanation: "«Pasarla bien» o «pasarlo bien» es \"have a good time\" o \"have a great time\"; en pasado, \"had\".",
       },
       {

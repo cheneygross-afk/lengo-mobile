@@ -644,7 +644,7 @@ export const EN_B1_U08_EXTRA: Lesson[] = [
           "If I were president, I will lower taxes.",
         ],
         correctIndex: 0,
-        explanation: "«Fuera» is imaginary: \"If I were president\" + \"would lower\". The second option would mean the speaker expects to be president.",
+        explanation: "«Fuera» is imaginary: \"If I were president\" + \"would lower\". \"If I am president, I will...\" would mean the speaker expects to be president.",
       },
       {
         type: "listen-choose",

@@ -894,8 +894,8 @@ export const EN_B1_U01_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Lo entiendo desde el principio.",
-        answer: "I've understood it since the beginning.",
-        altAnswers: ["I've understood it from the beginning.", "I've understood since the beginning.", "I've understood from the beginning.", "I've understood it from the start.", "I've understood it since the start."],
+        answer: "I've understood it from the beginning.",
+        altAnswers: ["I've understood it since the beginning.", "I've understood since the beginning.", "I've understood from the beginning.", "I've understood it from the start.", "I've understood it since the start."],
         explanation: "\"Understand\" is a state verb: \"I've understood\", not *I've been understanding. And not the present: Spanish «entiendo desde» looks back in English.",
       },
       {

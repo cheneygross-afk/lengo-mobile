@@ -1456,7 +1456,7 @@ export const EN_B1_U27: Lesson[] = [
           { es: "She did it by herself.", en: "Lo hizo ella sola." },
           { es: "Help yourself to some cake.", en: "Sírvete pastel." },
           { es: "Make yourself at home.", en: "Estás en tu casa." },
-          { es: "Did you enjoy yourselves?", en: "¿Lo pasaron bien?" },
+          { es: "Did you enjoy yourselves?", en: "¿La pasaron bien?" },
           { es: "I fixed the car myself.", en: "Arreglé el carro yo mismo." },
         ],
         checkpoint: [

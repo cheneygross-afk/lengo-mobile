@@ -55,7 +55,7 @@ export const EN_B2_U26: Lesson[] = [
       {
         heading: "Negative traits, and how to soften them",
         body: [
-          "\"Stubborn\" («terco, cabezota») describes someone who never changes their mind. \"Bossy\" («mandón») is someone who always tells others what to do. \"Moody\" means their mood changes a lot («temperamental»), \"selfish\" is «egoísta» and \"lazy\" is «vago, perezoso».",
+          "\"Stubborn\" («terco, testarudo») describes someone who never changes their mind. \"Bossy\" («mandón») is someone who always tells others what to do. \"Moody\" means their mood changes a lot («temperamental»), \"selfish\" is «egoísta» and \"lazy\" is «perezoso, flojo».",
           "In American English, \"mean\" means unkind or cruel: \"Don't be mean to your brother.\" For «tacaño», use \"stingy\" or, informally, \"cheap\". (In British English \"mean\" can also mean «tacaño».)",
           "English speakers often soften criticism: \"He can be a bit stubborn\", \"She tends to be bossy\", \"He's not very patient\". A direct \"He's lazy\" sounds stronger and less polite than you might expect.",
         ],
@@ -176,7 +176,7 @@ export const EN_B2_U26: Lesson[] = [
         answer: "stubborn",
         altAnswers: ["obstinate", "headstrong", "pig-headed"],
         en: "Es muy [terco]. Nunca cambia de opinión.",
-        explanation: "\"Stubborn\" = «terco, cabezota»: someone who refuses to change their opinion.",
+        explanation: "\"Stubborn\" = «terco, testarudo»: someone who refuses to change their opinion.",
       },
       {
         type: "matching",
@@ -393,7 +393,7 @@ export const EN_B2_U26: Lesson[] = [
           { es: "She got upset when nobody remembered her birthday.", en: "Se disgustó cuando nadie se acordó de su cumpleaños." },
           { es: "I was so relieved when I found my passport.", en: "Me sentí muy aliviado cuando encontré el pasaporte." },
           { es: "I feel overwhelmed with all this work.", en: "Me siento agobiado con todo este trabajo." },
-          { es: "It's frustrating when the internet keeps going down.", en: "Es frustrante que se caiga internet todo el rato." },
+          { es: "It's frustrating when the internet keeps going down.", en: "Es frustrante que se caiga internet todo el tiempo." },
           { es: "We were disappointed with the hotel.", en: "El hotel nos decepcionó." },
           { es: "I'm a bit annoyed with you.", en: "Estoy un poco molesto contigo." },
         ],
@@ -428,7 +428,7 @@ export const EN_B2_U26: Lesson[] = [
         heading: "Strong feelings, getting nervous and being excited",
         body: [
           "For strong emotions, use extreme adjectives with \"absolutely\" or \"really\" (not \"very\"): \"furious\" (very angry), \"terrified\" (very scared), \"thrilled\" (very happy), \"devastated\" (very sad).",
-          "\"Excited\" means happy and full of energy about something good: \"I'm so excited about the trip!\" It is a normal, everyday word, and it is the best match for «me hace mucha ilusión».",
+          "\"Excited\" means happy and full of energy about something good: \"I'm so excited about the trip!\" It is a normal, everyday word, and it is the best match for «me emociona mucho» (in Spain, «me hace mucha ilusión»).",
           "Use \"get\" for a change of feeling: \"get upset\", \"get angry\", \"get nervous\" («ponerse nervioso»). With \"feel\", there is no reflexive pronoun: \"I feel nervous\", not *I feel me nervous.",
         ],
         examples: [
@@ -620,7 +620,7 @@ export const EN_B2_U26: Lesson[] = [
           { es: "My parents don't get along.", en: "Mis padres se llevan mal." },
           { es: "We have a lot in common: we both love hiking.", en: "Tenemos mucho en común: a los dos nos encanta el senderismo." },
           { es: "We hit it off as soon as we met.", en: "Congeniamos en cuanto nos conocimos." },
-          { es: "Where did you meet your wife?", en: "¿Dónde conociste a tu mujer?" },
+          { es: "Where did you meet your wife?", en: "¿Dónde conociste a tu esposa?" },
         ],
         checkpoint: [
           {
@@ -998,7 +998,7 @@ export const EN_B2_U26: Lesson[] = [
             sentence: "The player ___ his knee in the first half.",
             answer: "injured",
             altAnswers: ["hurt"],
-            en: "El jugador [se lesionó] la rodilla en la primera parte.",
+            en: "El jugador [se lesionó] la rodilla en el primer tiempo.",
             explanation: "«Lesionarse» = \"injure\" (a verb); the noun is \"injury\". No \"himself\" is needed with a body part.",
           },
         ],

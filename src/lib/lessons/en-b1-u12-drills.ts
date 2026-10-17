@@ -101,7 +101,7 @@ export const EN_B1_U12_DRILLS: Lesson[] = [
         "I haven't can sleep well lately.",
         "I haven't been able sleep well lately.",
       ], "«No he podido» = \"haven't been able to\" + base verb. \"Can\" has no participle, and the \"to\" is needed."),
-      tr("Me gustaría poder hablar japonés.", "I{'d like| would like|'d love| would love} to be able to speak Japanese.",
+      tr("Me gustaría poder hablar japonés.", ["I{'d like| would like|'d love| would love} to be able to speak Japanese.", "I wish I could speak Japanese."],
         "After \"would like\", use \"to be able to\": *I'd like to can is impossible because \"can\" has no infinitive."),
       fb("My uncle is worried about not ___ his rent.", "being able to pay", "A mi tío le preocupa no [poder pagar] el alquiler.",
         "After a preposition (\"about\") English needs -ing: \"being able to\". Spanish keeps the infinitive «poder», English doesn't."),

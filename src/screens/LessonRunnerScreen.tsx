@@ -90,7 +90,7 @@ type Step =
 
 export default function LessonRunnerScreen({ route, navigation }: Props) {
   const { slug } = route.params;
-  // A French or German lesson comes with its levelPath ("fr/a1", "de/a1"):
+  // A French, German or Portuguese lesson comes with its levelPath ("fr/a1", "de/a1", "pt/a1"):
   // their slugs can repeat a Spanish one, and its level is loaded on demand
   // (see lessons/lazyLevels.ts) -- until it is, the screen shows a spinner.
   const lazyPath = isLazyLevelPath(route.params.levelPath) ? route.params.levelPath : null;
@@ -306,11 +306,13 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [lesson?.slug, loggedIn, levelPath]);
 
-  // A French or German lesson's highlights are its levelPath's; a Spanish
-  // one never shows a French or German lesson's that happens to share its slug.
+  // A French, German or Portuguese lesson's highlights are its levelPath's; a
+  // Spanish one never shows one of theirs that happens to share its slug.
   async function loadHighlights(lessonSlug: string): Promise<LessonHighlight[]> {
     if (lazyPath) return loadLessonHighlights(lessonSlug, levelPath);
-    return (await loadLessonHighlights(lessonSlug)).filter((h) => !h.levelPath.startsWith("fr/") && !h.levelPath.startsWith("de/"));
+    return (await loadLessonHighlights(lessonSlug)).filter(
+      (h) => !h.levelPath.startsWith("fr/") && !h.levelPath.startsWith("de/") && !h.levelPath.startsWith("pt/")
+    );
   }
 
   function highlightsFor(blockKey: string): LessonHighlight[] {

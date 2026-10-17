@@ -23,7 +23,7 @@ export const EN_A2_U06_EXTRA: Lesson[] = [
         examples: [
           { es: "I've just eaten.", en: "Acabo de comer. (incorrecto: *I just have eaten)" },
           { es: "She's already left.", en: "Ella ya se ha ido. (incorrecto: *Already she has left)" },
-          { es: "We've just got home.", en: "Acabamos de llegar a casa." },
+          { es: "We've just gotten home.", en: "Acabamos de llegar a casa." },
           { es: "I've seen that movie already.", en: "Ya he visto esa película." },
           { es: "They already paid.", en: "Ya pagaron. (muy americano)" },
         ],
