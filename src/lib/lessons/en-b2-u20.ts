@@ -1189,7 +1189,7 @@ export const EN_B2_U20: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Fuera hace muchísimo frío.",
+        source: "Afuera hace muchísimo frío.",
         answer: "It's absolutely freezing outside.",
         altAnswers: [
           "It's freezing outside.",

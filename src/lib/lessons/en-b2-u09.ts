@@ -104,8 +104,8 @@ export const EN_B2_U09: Lesson[] = [
           { es: "I could have been killed.", en: "Me podría haber matado." },
           { es: "We could have missed the flight.", en: "Podríamos haber perdido el vuelo." },
           { es: "It could have been much worse.", en: "Podría haber sido mucho peor." },
-          { es: "If I hadn't braked in time, I would have hit the car in front.", en: "Si no hubiera frenado a tiempo, habría chocado con el carro de delante." },
-          { es: "That was close!", en: "¡Por los pelos!" },
+          { es: "If I hadn't braked in time, I would have hit the car in front.", en: "Si no hubiera frenado a tiempo, habría chocado con el carro de adelante." },
+          { es: "That was close!", en: "¡Por poco!" },
           { es: "I was lucky the ice didn't break.", en: "Tuve suerte de que el hielo no se rompiera." },
         ],
         checkpoint: [
@@ -618,7 +618,7 @@ export const EN_B2_U09: Lesson[] = [
             question: "In Lucia's message, what does \"argument\" mean?",
             options: ["«discusión, pelea»", "«argumento de una historia»", "«razonamiento»", "«acuerdo»"],
             correctIndex: 0,
-            explanation: "\"Argument\" usually means a fight with words, «discusión». The plot of a film is the \"plot\", not the \"argument\". \"To argue\" is «discutir».",
+            explanation: "\"Argument\" usually means a fight with words, «discusión». The plot of a movie is the \"plot\", not the \"argument\". \"To argue\" is «discutir».",
           },
         ],
       },
@@ -779,7 +779,7 @@ export const EN_B2_U09: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Debiste de pasarlo fatal.",
+        source: "Debiste de pasarla muy mal.",
         answer: "You must have had a terrible time.",
         altAnswers: [
           "You must have had an awful time.",
@@ -890,7 +890,7 @@ export const EN_B2_U09: Lesson[] = [
         examples: [
           { es: "He must have taken the keys. They're not here.", en: "Debe de haberse llevado las llaves. No están aquí." },
           { es: "He can't have taken the keys. He was asleep.", en: "No puede haberse llevado las llaves. Estaba dormido." },
-          { es: "She must have passed. She looks so happy.", en: "Debe de haber aprobado. Se la ve muy contenta." },
+          { es: "She must have passed. She looks so happy.", en: "Debe de haber aprobado. Se ve muy contenta." },
           { es: "She can't have passed. She didn't study at all.", en: "No puede haber aprobado. No estudió nada." },
           { es: "It must have been expensive.", en: "Debió de costar caro." },
           { es: "It can't have been expensive.", en: "No puede haber sido caro." },
@@ -949,7 +949,7 @@ export const EN_B2_U09: Lesson[] = [
             sentence: "I'm not sure where my wallet is. I ___ it in the taxi.",
             answer: "might have left",
             altAnswers: ["may have left", "could have left"],
-            en: "No sé dónde está mi cartera. [Puede que me la haya dejado] en el taxi.",
+            en: "No sé dónde está mi billetera. [Puede que la haya dejado] en el taxi.",
             explanation: "A possibility about the past: \"might have\", \"may have\" or \"could have\" + participle.",
           },
         ],
@@ -1068,7 +1068,7 @@ export const EN_B2_U09: Lesson[] = [
           "They might have gone the wrong way.",
           "They may have gone the wrong way.",
           "They could have gone the wrong way.",
-          "They might have taken the wrong direction.",
+          "They might have gone the wrong way.",
         ],
         explanation: "«Puede que» + past: \"might have\", \"may have\" or \"could have\". «Equivocarse de» is often \"the wrong...\": the wrong address, the wrong way.",
       },
@@ -1401,7 +1401,7 @@ export const EN_B2_U09: Lesson[] = [
         heading: "Deduction: now and in the past",
         body: [
           "Now: \"must be\" (sure), \"might/may/could be\" (possible), \"can't be\" (impossible). Past: the same modal + \"have\" + participle: \"must have been\", \"might have been\", \"can't have been\".",
-          "Spanish often uses the future or the conditional for guesses («estará», «sería»). English never uses \"will\" or \"would\" for this.",
+          "Spanish often uses the future or the conditional for guesses («estará», «sería»). English usually uses \"must\", \"might\" or \"probably\" here; \"will\" is possible only for confident guesses (\"She\'ll be at the gym by now\").",
         ],
         examples: [
           { es: "He must be at the gym.", en: "Estará en el gimnasio." },
@@ -1692,7 +1692,7 @@ export const EN_B2_U09: Lesson[] = [
         ],
         examples: [
           { es: "If they had stayed on board, they would have survived.", en: "Si se hubieran quedado a bordo, habrían sobrevivido." },
-          { es: "The captain may have decided too quickly.", en: "Puede que el capitán decidiera demasiado deprisa." },
+          { es: "The captain may have decided too quickly.", en: "Puede que el capitán decidiera demasiado rápido." },
           { es: "They should have tied the boat to the ship.", en: "Deberían haber atado el bote al barco." },
           { es: "It is believed that they abandoned the ship.", en: "Se cree que abandonaron el barco." },
           { es: "The crew is thought to have panicked.", en: "Se cree que la tripulación entró en pánico." },
@@ -1868,7 +1868,7 @@ export const EN_B2_U09: Lesson[] = [
           "In 1975 an engineer at Kodak built one of the first digital cameras. But Kodak earned most of its money from film, so it didn't push the new technology. Looking back, Kodak shouldn't have ignored its own invention.",
         ],
         examples: [
-          { es: "Decca should have signed the Beatles.", en: "Decca debería haber fichado a los Beatles." },
+          { es: "Decca should have signed the Beatles.", en: "Decca debería haber contratado a los Beatles." },
           { es: "Blockbuster should have bought Netflix.", en: "Blockbuster debería haber comprado Netflix." },
           { es: "Kodak shouldn't have ignored its own invention.", en: "Kodak no debería haber ignorado su propio invento." },
           { es: "They should have taken the risk.", en: "Deberían haber corrido el riesgo." },
@@ -1882,7 +1882,7 @@ export const EN_B2_U09: Lesson[] = [
             source: "Deberían haber corrido el riesgo.",
             answer: "They should have taken the risk.",
             altAnswers: ["They ought to have taken the risk.", "They should have taken a risk.", "They should have taken the chance.", "They should have taken a chance."],
-            explanation: "\"Should have\" + participle for a decision that was wrong. «Correr un riesgo» is \"take a risk\", not *run a risk in this sense.",
+            explanation: "\"Should have\" + participle for a decision that was wrong. «Correr un riesgo» is \"take a risk\", (\"run the risk of\" + -ing also exists).",
           },
           {
             type: "fill-blank",
@@ -1904,7 +1904,7 @@ export const EN_B2_U09: Lesson[] = [
         ],
         examples: [
           { es: "If Blockbuster had bought Netflix, it would have controlled streaming.", en: "Si Blockbuster hubiera comprado Netflix, habría controlado el streaming." },
-          { es: "If Decca had signed the Beatles, it would have made millions.", en: "Si Decca hubiera fichado a los Beatles, habría ganado millones." },
+          { es: "If Decca had signed the Beatles, it would have made millions.", en: "Si Decca hubiera contratado a los Beatles, habría ganado millones." },
           { es: "If Kodak had invested in digital cameras, it might still be a giant today.", en: "Si Kodak hubiera invertido en cámaras digitales, quizás hoy seguiría siendo un gigante." },
           { es: "If they hadn't been so confident, they wouldn't have made that mistake.", en: "Si no hubieran estado tan seguros de sí mismos, no habrían cometido ese error." },
           { es: "Things could have been very different.", en: "Las cosas podrían haber sido muy distintas." },

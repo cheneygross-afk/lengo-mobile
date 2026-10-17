@@ -22,10 +22,17 @@ export function isGermanStoryPath(levelPath: string): boolean {
   return levelPath.startsWith("de/");
 }
 
+/** True for a Brazilian Portuguese-course story levelPath ("pt/a1"),
+ * read under the private-beta /lessons/pt/stories. */
+export function isPortugueseStoryPath(levelPath: string): boolean {
+  return levelPath.startsWith("pt/");
+}
+
 /** The story's page. */
 export function storyHref(levelPath: string, slug: string): string {
   if (isFrenchStoryPath(levelPath)) return `/lessons/fr/stories/${levelPath.slice(3)}/${slug}`;
   if (isGermanStoryPath(levelPath)) return `/lessons/de/stories/${levelPath.slice(3)}/${slug}`;
+  if (isPortugueseStoryPath(levelPath)) return `/lessons/pt/stories/${levelPath.slice(3)}/${slug}`;
   return isEnglishStoryPath(levelPath)
     ? `/lessons/en/stories/${levelPath.slice(3)}/${slug}`
     : `/readings/${levelPath}/stories/${slug}`;
@@ -35,5 +42,6 @@ export function storyHref(levelPath: string, slug: string): string {
 export function storyLevelHref(levelPath: string): string {
   if (isFrenchStoryPath(levelPath)) return `/lessons/fr/stories/${levelPath.slice(3)}`;
   if (isGermanStoryPath(levelPath)) return `/lessons/de/stories/${levelPath.slice(3)}`;
+  if (isPortugueseStoryPath(levelPath)) return `/lessons/pt/stories/${levelPath.slice(3)}`;
   return isEnglishStoryPath(levelPath) ? `/lessons/en/stories/${levelPath.slice(3)}` : `/readings/${levelPath}`;
 }

@@ -60,8 +60,8 @@ export const EN_A2_U06_DRILLS: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "Acabo de llegar a la oficina.",
         answer: "I've just arrived at the office.",
-        altAnswers: ["I just arrived at the office.", "I've just got to the office.", "I just got to the office."],
-        explanation: "Presente perfecto con \"just\": \"I've just arrived\". En Estados Unidos también se dice \"I just arrived\". Se llega \"at the office\" (un lugar concreto), no *to the office.",
+        altAnswers: ["I just arrived at the office.", "I've just got to the office.", "I've just gotten to the office.", "I just got to the office."],
+        explanation: "Presente perfecto con \"just\": \"I've just arrived\". En Estados Unidos también se dice \"I just arrived\". Con \"arrive\" se dice \"at the office\" (un lugar concreto), no *arrive to the office. Con \"get\" sí va \"to\": \"I just got to the office\".",
       },
       {
         type: "translate",
@@ -532,7 +532,7 @@ export const EN_A2_U06_DRILLS: Lesson[] = [
         source: "¿Cuándo llegaste a Canadá?",
         answer: "When did you arrive in Canada?",
         altAnswers: ["When did you get to Canada?", "When did you come to Canada?"],
-        explanation: "\"When\" siempre con pasado simple: \"When did you arrive...?\". Se llega \"in\" un país o ciudad, no *to Canada.",
+        explanation: "\"When\" siempre con pasado simple: \"When did you arrive...?\". Con \"arrive\" se usa \"in\" para un país o ciudad (no *arrive to Canada); con \"get\" o \"come\" sí va \"to\".",
       },
       {
         type: "dictation",

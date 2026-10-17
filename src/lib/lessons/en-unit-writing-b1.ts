@@ -256,7 +256,7 @@ export const EN_B1_UNIT_WRITING: Record<string, WriteExercise> = {
     "\"make\" and \"let\" are followed by the base verb with no \"to\": \"they made me do my homework\", not *made me to do. \"I remember going\" is a memory; \"Remember to go\" is something not to forget."
   ),
   u23: t(
-    "You are writing to a hotel or a language school to ask for information. Ask at least four questions politely, using indirect questions, and add one question tag at the end.",
+    "You are writing to a hotel or a language school to ask for information. Ask at least four questions politely, using indirect questions, include one direct subject question (\"Who organizes...?\"), and add one question tag at the end.",
     [
       "At least three indirect questions (\"Could you tell me where...?\", \"Do you know if...?\")",
       "Statement word order inside indirect questions",

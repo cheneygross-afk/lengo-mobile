@@ -46,7 +46,7 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
         body: [
           "For a prediction based on your opinion, use \"will\", often with \"I think\", \"probably\" or \"I'm sure\": \"I think Brazil will win\".",
           "For a prediction based on something you can see now, use \"going to\": \"Look at those clouds. It's going to rain\", \"Careful! That glass is going to fall!\".",
-          "With \"think\", English puts the negative on \"think\": «Creo que no vendrá» is \"I don't think she'll come\", not *I think she won't come (possible, but much less natural).",
+          "With \"think\", English puts the negative on \"think\": «Creo que no vendrá» is \"I don't think she'll come\", rather than \"I think she won\'t come\" (possible, but much less natural).",
         ],
         examples: [
           { es: "I think Brazil will win.", en: "Creo que ganará Brasil." },
@@ -170,7 +170,7 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
         source: "¿Qué vas a hacer este fin de semana?",
         answer: "What are you going to do this weekend?",
         altAnswers: ["What are you doing this weekend?", "What are you up to this weekend?", "What are your plans for this weekend?"],
-        explanation: "Asking about plans: \"going to\" or the present continuous. *What will you do this weekend? sounds as if you haven't planned anything.",
+        explanation: "Asking about plans: \"going to\" or the present continuous. \"What will you do this weekend?\" is possible but sounds as if you haven't planned anything.",
       },
       {
         type: "matching",
@@ -520,7 +520,7 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
         examples: [
           { es: "This time tomorrow I'll be flying to New York.", en: "Mañana a esta hora estaré volando a Nueva York." },
           { es: "Don't call at eight; we'll be having dinner.", en: "No llames a las ocho; estaremos cenando." },
-          { es: "This time next week, we'll be lying on a beach.", en: "Dentro de una semana a esta hora, estaremos tumbados en una playa." },
+          { es: "This time next week, we'll be lying on a beach.", en: "Dentro de una semana a esta hora, estaremos acostados en una playa." },
           { es: "Will you be using the car tonight?", en: "¿Vas a usar el carro esta noche?" },
         ],
         checkpoint: [
@@ -950,7 +950,7 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "I'll buy a new laptop after I get ___.",
         answer: "paid",
-        en: "Me compraré un portátil nuevo después de que me [paguen].",
+        en: "Me compraré una laptop nueva después de que me [paguen].",
         explanation: "\"Get paid\" is the natural way to say «cobrar, que me paguen». After \"after\", the present simple, not *will get paid.",
       },
       {
@@ -971,7 +971,7 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
         question: "When will the speaker tell her?",
         options: ["Immediately when she arrives.", "Before she arrives.", "A long time after she arrives.", "Only if she arrives late."],
         correctIndex: 0,
-        explanation: "\"The moment\" means «en el momento en que, nada más»: it works like \"as soon as\", with the present simple.",
+        explanation: "\"The moment\" means «en el momento en que, apenas»: it works like \"as soon as\", with the present simple.",
       },
       {
         type: "translate",
@@ -1363,7 +1363,7 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
           { es: "She'll probably be late.", en: "Probablemente llegará tarde." },
           { es: "She probably won't come.", en: "Probablemente no vendrá." },
           { es: "The plane is due to land at 6:15.", en: "Está previsto que el avión aterrice a las 6:15." },
-          { es: "The company is set to announce record profits.", en: "La empresa va a anunciar beneficios récord." },
+          { es: "The company is set to announce record profits.", en: "La empresa va a anunciar ganancias récord." },
           { es: "I was on the point of giving up.", en: "Estaba a punto de rendirme." },
         ],
         checkpoint: [
@@ -1491,7 +1491,7 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
         sentence: "The company ___ announce record profits this year.",
         answer: "is set to",
         altAnswers: ["is expected to", "is likely to", "is going to", "is due to"],
-        en: "La empresa [va a] anunciar beneficios récord este año.",
+        en: "La empresa [va a] anunciar ganancias récord este año.",
         explanation: "\"Be set to\" is typical of news headlines for something expected to happen soon.",
       },
       {
@@ -1499,10 +1499,10 @@ export const EN_B2_U03_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Estaba a punto de rendirme cuando recibí su mensaje.",
-        answer: "I was on the point of giving up when I got her message.",
+        answer: "I was about to give up when I got her message.",
         altAnswers: [
           "I was on the point of giving up when I got his message.",
-          "I was about to give up when I got her message.",
+          "I was on the point of giving up when I got her message.",
           "I was about to give up when I got his message.",
           "I was on the point of giving up when I received her message.",
           "I was on the point of giving up when I received his message.",

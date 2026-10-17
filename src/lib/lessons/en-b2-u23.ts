@@ -1312,9 +1312,9 @@ export const EN_B2_U23: Lesson[] = [
           "Spanish uses the infinitive almost everywhere, so learners say *I spend hours to watch videos. The correct pattern is \"spend time + -ing\": \"I spend hours watching videos\".",
         ],
         examples: [
-          { es: "I spend too much time scrolling through social media.", en: "Paso demasiado tiempo deslizando por las redes sociales." },
+          { es: "I spend too much time scrolling through social media.", en: "Paso demasiado tiempo revisando las redes sociales." },
           { es: "I stopped checking my email at night.", en: "Dejé de mirar el correo por la noche." },
-          { es: "I stopped to check my email.", en: "Me paré para mirar el correo." },
+          { es: "I stopped to check my email.", en: "Me detuve para revisar el correo." },
           { es: "Remember to update the app.", en: "Acuérdate de actualizar la aplicación." },
           { es: "Try turning it off and on again.", en: "Intenta apagarlo y volver a encenderlo." },
           { es: "She managed to recover all her photos.", en: "Consiguió recuperar todas sus fotos." },
@@ -1513,7 +1513,7 @@ export const EN_B2_U23: Lesson[] = [
         type: "matching",
         instructions: "Match each sentence with its meaning.",
         pairs: [
-          { left: "I stopped to answer the message.", right: "Me paré para contestar el mensaje." },
+          { left: "I stopped to answer the message.", right: "Me detuve para contestar el mensaje." },
           { left: "I stopped answering messages.", right: "Dejé de contestar mensajes." },
           { left: "I remember sending the message.", right: "Recuerdo haber enviado el mensaje." },
           { left: "Remember to send the message.", right: "Acuérdate de enviar el mensaje." },
@@ -1563,7 +1563,7 @@ export const EN_B2_U23: Lesson[] = [
         body: [
           "The basic advice verbs are \"should\" and \"ought to\": \"You should drink more water\", \"You ought to cut down on sugar\". \"Had better\" is stronger, almost a warning, and is about a specific situation: \"You'd better see a doctor about that cough\". After \"had better\" there is no \"to\": not *you had better to go.",
           "\"If I were you, I'd...\" is a friendly way to advise. And remember that \"advice\" is uncountable: \"some advice\" or \"a piece of advice\", never *an advice or *advices. The verb is \"advise\", with an s that sounds like z.",
-          "Health has some dangerous false friends. «Estar constipado» is \"to have a cold\"; \"constipated\" means «estreñido». And \"embarrassed\" means «avergonzado», not «embarazada» (\"pregnant\").",
+          "Health has some dangerous false friends. \"Constipated\" means «estreñido», never «resfriado»: in Spain «estar constipado» means \"to have a cold\", so Spaniards are especially likely to slip. And \"embarrassed\" means «avergonzado», not «embarazada» (\"pregnant\").",
         ],
         examples: [
           { es: "You should drink more water.", en: "Deberías beber más agua." },
@@ -1591,10 +1591,10 @@ export const EN_B2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say «Estoy constipado» in English?",
+            question: "How do you say «Estoy resfriado» in English?",
             options: ["I have a cold.", "I'm constipated.", "I'm cold.", "I have cold."],
             correctIndex: 0,
-            explanation: "«Constipado» is \"have a cold\" (with \"a\"). \"I'm constipated\" means «estoy estreñido», and \"I'm cold\" means «tengo frío».",
+            explanation: "«Estar resfriado» is \"have a cold\" (with \"a\"). \"I'm constipated\" is a false friend: it means «estoy estreñido». \"I'm cold\" means «tengo frío».",
           },
         ],
       },
@@ -1610,7 +1610,7 @@ export const EN_B2_U23: Lesson[] = [
           { es: "It can't be serious: you don't have a fever.", en: "No puede ser grave: no tienes fiebre." },
           { es: "It might be an allergy.", en: "Puede que sea una alergia." },
           { es: "You must have eaten something bad.", en: "Debiste de comer algo en mal estado." },
-          { es: "He might have pulled a muscle.", en: "Puede que se haya dado un tirón." },
+          { es: "He might have pulled a muscle.", en: "Puede que se haya lastimado un músculo." },
         ],
         checkpoint: [
           {
@@ -1818,7 +1818,7 @@ export const EN_B2_U23: Lesson[] = [
         body: [
           "Mixed conditionals connect different times. Past condition, present result: \"If I had studied medicine, I would be a doctor now\". Present condition (a permanent fact), past result: \"If I were more organized, I wouldn't have failed the exam\".",
           "The if-clause keeps its normal form for its time (past perfect for the past, past simple for the present) and the result clause does the same (\"would\" + infinitive for now, \"would have\" + participle for the past).",
-          "Watch the education false friends: «aprobar» is \"pass\" (\"I passed the exam\"), «suspender» is \"fail\" (\"I failed math\"). \"Approve\" means «dar el visto bueno», and \"suspend\" means «expulsar temporalmente».",
+          "Watch the education false friends: «aprobar» is \"pass\" (\"I passed the exam\"), «reprobar» (Spain: «suspender») is \"fail\" (\"I failed math\"). \"Approve\" means «dar el visto bueno», and \"suspend\" means «expulsar temporalmente».",
         ],
         examples: [
           { es: "If I had studied medicine, I would be a doctor now.", en: "Si hubiera estudiado medicina, ahora sería médico." },
@@ -2496,7 +2496,7 @@ export const EN_B2_U23: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["If", "I", "were", "taller,", "I", "would", "have", "become", "a", "basketball", "player."],
-        translation: "Si fuera más alto, me habría hecho jugador de baloncesto.",
+        translation: "Si fuera más alto, me habría hecho jugador de básquetbol.",
         altOrders: [["I", "would", "have", "become", "a", "basketball", "player", "if", "I", "were", "taller."]],
         explanation: "Mixed conditional: present condition (\"were taller\") + past result (\"would have become\").",
       },

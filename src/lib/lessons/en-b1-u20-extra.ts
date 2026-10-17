@@ -186,7 +186,7 @@ export const EN_B1_U20_EXTRA: Lesson[] = [
           "None.",
         ],
         correctIndex: 0,
-        explanation: "Correct version: \"The waiter asked us what we wanted to drink.\" No \"did\", past tense on \"wanted\", and a full stop.",
+        explanation: "Correct version: \"The waiter asked us what we wanted to drink.\" No \"did\", past tense on \"wanted\", and a period.",
       },
       {
         type: "translate",
@@ -279,7 +279,7 @@ export const EN_B1_U20_EXTRA: Lesson[] = [
             sentence: "The receptionist asked ___ we had a reservation.",
             answer: "if",
             altAnswers: ["whether"],
-            en: "La recepcionista preguntó [si] teníamos reserva.",
+            en: "La recepcionista preguntó [si] teníamos reservación.",
             explanation: "«Si» in a reported yes/no question is \"if\" or \"whether\".",
           },
         ],
@@ -1083,7 +1083,7 @@ export const EN_B1_U20_EXTRA: Lesson[] = [
         answer: "about having",
         altAnswers: ["about getting"],
         en: "Los niños se quejaron [de tener] demasiada tarea.",
-        explanation: "\"Complain about\" + -ing. «Deberes» is \"homework\", which is uncountable: \"too much homework\".",
+        explanation: "\"Complain about\" + -ing. «Tarea» is \"homework\", which is uncountable: \"too much homework\".",
       },
       {
         type: "translate",

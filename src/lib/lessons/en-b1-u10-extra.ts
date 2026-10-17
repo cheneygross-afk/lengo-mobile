@@ -236,8 +236,8 @@ export const EN_B1_U10_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Si ganara más dinero, cambiaría de carro.",
-        answer: "If I earned more money, I would change my car.",
-        altAnswers: ["If I earned more money, I would get a new car.", "If I earned more money, I would buy a new car.", "If I made more money, I would change my car.", "If I made more money, I would get a new car.", "If I made more money, I would buy a new car.", "If I earned more, I would change my car."],
+        answer: "If I earned more money, I would get a new car.",
+        altAnswers: ["If I earned more money, I would change my car.", "If I earned more money, I would buy a new car.", "If I made more money, I would change my car.", "If I made more money, I would get a new car.", "If I made more money, I would buy a new car.", "If I earned more, I would change my car."],
         explanation: "«Ganara» (unreal) = \"earned\" or \"made\"; the result is \"would\" + verb. \"Earn money\" or \"make money\", never *win money for a salary.",
       },
       {

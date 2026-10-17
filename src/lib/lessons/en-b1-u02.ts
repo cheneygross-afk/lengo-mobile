@@ -1119,7 +1119,7 @@ export const EN_B1_U02: Lesson[] = [
             prompt: "Translate into English.",
             source: "¿Alguna vez conociste a alguien famoso?",
             answer: "Have you ever met a famous person?",
-            altAnswers: ["Have you ever met anyone famous?", "Have you ever met someone famous?", "Have you ever met somebody famous?", "Have you ever met anybody famous?"],
+            altAnswers: ["Have you ever met anyone famous?", "Have you ever met someone famous?", "Have you ever met somebody famous?", "Have you ever met anybody famous?", "Did you ever meet a famous person?", "Did you ever meet anyone famous?", "Did you ever meet someone famous?"],
             explanation: "A question about your whole life takes \"Have you ever...?\". «Conocer» a person for the first time is \"meet\".",
           },
         ],

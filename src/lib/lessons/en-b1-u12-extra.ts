@@ -46,7 +46,7 @@ export const EN_B1_U12_EXTRA: Lesson[] = [
             sentence: "When she was six, she ___ play the violin.",
             answer: "could",
             altAnswers: ["was able to", "knew how to"],
-            en: "Con seis años, [sabía] tocar el violín.",
+            en: "A los seis años, [sabía] tocar el violín.",
             explanation: "A general ability over a period of her life: \"could\" + base form.",
           },
         ],
@@ -108,7 +108,7 @@ export const EN_B1_U12_EXTRA: Lesson[] = [
         source: "Mi abuela podía leer sin lentes a los noventa años.",
         answer: "My grandmother could read without glasses at ninety.",
         altAnswers: ["My grandmother could read without glasses when she was ninety.", "My grandmother could read without glasses at the age of ninety.", "My grandma could read without glasses at ninety.", "My grandma could read without glasses when she was ninety.", "At ninety, my grandmother could read without glasses.", "My grandmother was able to read without glasses at ninety.", "My grandmother was able to read without glasses when she was ninety."],
-        explanation: "A general ability at that time of her life: \"could\". «Gafas» = \"glasses\".",
+        explanation: "A general ability at that time of her life: \"could\". «Lentes» = \"glasses\".",
       },
       {
         type: "translate",

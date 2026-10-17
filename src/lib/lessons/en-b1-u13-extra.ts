@@ -45,7 +45,7 @@ export const EN_B1_U13_EXTRA: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "Would you mind ___ a photo of us?",
             answer: "taking",
-            en: "¿Te importaría [hacernos] una foto?",
+            en: "¿Te importaría [tomarnos] una foto?",
             explanation: "After \"mind\" the verb takes -ing: \"taking\". And in English you \"take\" a photo, you don't \"make\" one.",
           },
         ],

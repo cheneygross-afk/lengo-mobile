@@ -23,7 +23,7 @@ export const EN_B2_U06_EXTRA: Lesson[] = [
           "«Si no fuera por» = \"If it weren't for\" (present); «si no hubiera sido por» = \"If it hadn't been for\" (past). «Hubiera preferido» alone, without an if-clause, is \"I would have preferred\" or \"I would rather have\".",
         ],
         examples: [
-          { es: "If I had known, I would have told you.", en: "Si lo hubiera sabido, te lo hubiera dicho. (incorrecto: \"If I would have known\")" },
+          { es: "If I had known, I would have told you.", en: "Si lo hubiera sabido, te lo hubiera dicho. (incorrecto: *If I would have known)" },
           { es: "If we had left earlier, we would have arrived on time.", en: "De haber salido antes, habríamos llegado a tiempo." },
           { es: "If it weren't for you, I would still be in bed.", en: "Si no fuera por ti, seguiría en la cama." },
           { es: "If it hadn't been for the goalkeeper, we would have lost.", en: "Si no hubiera sido por el portero, habríamos perdido." },
@@ -305,11 +305,11 @@ export const EN_B2_U06_EXTRA: Lesson[] = [
           "\"It might be worth\" + -ing («quizá valga la pena») is soft and polite. \"Worth\" is followed by -ing or a noun, never by \"to\": \"It's worth visiting\", not *It's worth to visit. \"Why don't you...?\" / \"Why not...?\" are friendly suggestions.",
         ],
         examples: [
-          { es: "If I were you, I'd talk to her.", en: "Yo que tú, hablaría con ella. (incorrecto: \"If I was you, I will talk to her\")" },
+          { es: "If I were you, I'd talk to her.", en: "Yo que tú, hablaría con ella. (incorrecto: *If I was you, I will talk to her)" },
           { es: "You'd better leave now.", en: "Más vale que te vayas ya." },
           { es: "You'd better not tell anyone.", en: "Más te vale no contárselo a nadie." },
           { es: "It might be worth calling the bank before you travel.", en: "Quizá valga la pena llamar al banco antes de viajar." },
-          { es: "The museum is worth visiting.", en: "Vale la pena visitar el museo. (incorrecto: \"worth to visit\")" },
+          { es: "The museum is worth visiting.", en: "Vale la pena visitar el museo. (incorrecto: *worth to visit)" },
           { es: "Why don't you ask your brother for help?", en: "¿Por qué no le pides ayuda a tu hermano?" },
         ],
         checkpoint: [

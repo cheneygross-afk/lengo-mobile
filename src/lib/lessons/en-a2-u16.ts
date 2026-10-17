@@ -465,7 +465,7 @@ export const EN_A2_U16: Lesson[] = [
         ],
         examples: [
           { es: "I like football very much.", en: "Me gusta mucho el fútbol." },
-          { es: "I really like football.", en: "Me gusta mucho el fútbol." },
+          { es: "I really like soccer.", en: "Me gusta mucho el fútbol." },
           { es: "She speaks English well.", en: "Habla bien inglés." },
           { es: "He plays the guitar badly.", en: "Toca mal la guitarra." },
           { es: "I like this song a lot.", en: "Me gusta mucho esta canción." },
@@ -714,7 +714,7 @@ export const EN_A2_U16: Lesson[] = [
         heading: "Falsos amigos: embarrassed y excited",
         body: [
           "\"Embarrassed\" no significa «embarazada»: significa «avergonzado», «apenado» o «con vergüenza». «Embarazada» es \"pregnant\". Y \"embarrassing\" es «vergonzoso» o «que da vergüenza».",
-          "\"Excited\" tampoco es «excitado» en el sentido habitual: significa «emocionado» o «ilusionado». \"I'm so excited about the trip!\" es «¡qué ilusión me hace el viaje!». \"Exciting\" es «emocionante».",
+          "\"Excited\" tampoco es «excitado» en el sentido habitual: significa «emocionado» o «ilusionado». \"I'm so excited about the trip!\" es «¡qué emoción el viaje!». \"Exciting\" es «emocionante».",
           "Son errores que pueden crear situaciones muy incómodas, así que conviene aprenderlos bien.",
         ],
         examples: [
@@ -807,7 +807,7 @@ export const EN_A2_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Estoy muy ilusionada con el viaje.",
+        source: "Estoy muy emocionada con el viaje.",
         answer: "I'm very excited about the trip.",
         altAnswers: ["I'm really excited about the trip.", "I'm so excited about the trip.", "I'm very excited for the trip.", "I'm really excited for the trip.", "I'm so excited for the trip."],
         explanation: "«Ilusionado» o «emocionado» es \"excited\", normalmente con \"about\" (en Estados Unidos también \"for\"). No es «excitado».",
@@ -1163,7 +1163,7 @@ export const EN_A2_U16: Lesson[] = [
         body: [
           "Algunos adjetivos ya significan «muy»: \"delicious\" (muy rico), \"freezing\" (muy frío), \"boiling\" (muy caliente), \"huge\" (muy grande), \"tiny\" (muy pequeño), \"exhausted\" (muy cansado), \"starving\" (muerto de hambre), \"amazing\" y \"terrible\".",
           "Con ellos no se usa \"very\": *very delicious y *very freezing suenan mal. Se usa \"absolutely\" o \"really\": \"absolutely delicious\", \"really freezing\".",
-          "Es como en español, donde no decimos «muy delicioso» ni «muy enorme».",
+          "Aquí el inglés es más estricto que el español: decimos sin problema «muy delicioso», pero en inglés *very delicious suena mal.",
         ],
         examples: [
           { es: "The food was absolutely delicious.", en: "La comida estaba buenísima." },
@@ -1725,7 +1725,7 @@ export const EN_A2_U16: Lesson[] = [
         sentence: "The pizza looks ___.",
         answer: "good",
         altAnswers: ["great", "delicious", "nice"],
-        en: "La pizza tiene [buena] pinta.",
+        en: "La pizza se ve [buena].",
         explanation: "\"Look\" (parecer) va con adjetivo: \"looks good\", aunque en español digamos a veces «se ve bien».",
       },
       {

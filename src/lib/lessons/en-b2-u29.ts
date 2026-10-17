@@ -72,7 +72,7 @@ export const EN_B2_U29: Lesson[] = [
         examples: [
           { es: "I'm meeting Ana for lunch tomorrow.", en: "Mañana como con Ana (ya hemos quedado)." },
           { es: "The movie starts at eight.", en: "La película empieza a las ocho." },
-          { es: "This time next week I'll be lying on a beach.", en: "La semana que viene a estas horas estaré tumbado en una playa." },
+          { es: "This time next week I'll be lying on a beach.", en: "La semana que viene a estas horas estaré acostado en una playa." },
           { es: "By the end of the year, we'll have saved enough money.", en: "Para final de año habremos ahorrado suficiente dinero." },
           { es: "Call me as soon as you get home.", en: "Llámame en cuanto llegues a casa." },
           { es: "I'll help you with those bags.", en: "Te ayudo con esas bolsas." },
@@ -1898,7 +1898,7 @@ export const EN_B2_U29: Lesson[] = [
         examples: [
           { es: "It's impossible to sleep with this noise.", en: "Es imposible dormir con este ruido." },
           { es: "Parking here is illegal.", en: "Estacionar aquí es ilegal." },
-          { es: "That was very irresponsible of you.", en: "Eso fue muy irresponsable por tu parte." },
+          { es: "That was very irresponsible of you.", en: "Eso fue muy irresponsable de tu parte." },
           { es: "He's been unemployed since March.", en: "Está desempleado desde marzo." },
           { es: "I think you misunderstood me.", en: "Creo que me has entendido mal." },
           { es: "It was an unforgettable trip.", en: "Fue un viaje inolvidable." },
@@ -2135,7 +2135,7 @@ export const EN_B2_U29: Lesson[] = [
           { es: "I attended a conference in Boston.", en: "Asistí a un congreso en Boston." },
           { es: "She's currently living in Lima.", en: "Actualmente vive en Lima." },
           { es: "Tell me the truth.", en: "Dime la verdad." },
-          { es: "Can I borrow your pen?", en: "¿Me prestas el bolígrafo?" },
+          { es: "Can I borrow your pen?", en: "¿Me prestas la pluma?" },
           { es: "Remind me to call Ana.", en: "Recuérdame que llame a Ana." },
           { es: "They argued all night.", en: "Discutieron toda la noche." },
         ],

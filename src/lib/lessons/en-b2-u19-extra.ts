@@ -177,7 +177,7 @@ export const EN_B2_U19_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Me acuerdo de jugar en este parque de pequeño.",
+        source: "Me acuerdo de cuando jugaba en este parque de pequeño.",
         answer: "I remember playing in this park as a child.",
         altAnswers: alts(
           "I remember playing in this park as a child.",

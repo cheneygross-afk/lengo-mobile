@@ -267,14 +267,14 @@ export const EN_A2_U23: Lesson[] = [
         body: [
           "En este maratón acompañas a Lucia en un viaje, de diálogo en diálogo. En cada parada completas su turno con frases de supervivencia y la gramática del nivel Ganando fluidez.",
           "En inmigración te harán preguntas cortas: \"What's the purpose of your visit?\", \"How long are you staying?\", \"Where are you staying?\". Responde con frases sencillas: \"I'm here on vacation\", \"For two weeks\", \"At a hotel downtown\".",
-          "Para la duración se usa \"for\": \"for two weeks\". *During two weeks y *since two weeks son errores típicos. Y «facturar la maleta» es \"check a bag\".",
+          "Para la duración se usa \"for\": \"for two weeks\". *During two weeks y *since two weeks son errores típicos. Y «documentar la maleta» es \"check a bag\".",
         ],
         examples: [
           { es: "What's the purpose of your visit?", en: "¿Cuál es el motivo de su visita?" },
           { es: "I'm here on vacation.", en: "Estoy aquí de vacaciones." },
           { es: "How long are you staying?", en: "¿Cuánto tiempo se va a quedar?" },
           { es: "For two weeks.", en: "Dos semanas." },
-          { es: "I'd like to check this bag, please.", en: "Quisiera facturar esta maleta, por favor." },
+          { es: "I'd like to check this bag, please.", en: "Quisiera documentar esta maleta, por favor." },
           { es: "Excuse me, where's gate 12?", en: "Perdone, ¿dónde está la puerta 12?" },
         ],
         checkpoint: [
@@ -1030,7 +1030,7 @@ export const EN_A2_U23: Lesson[] = [
         type: "speak",
         text: "First we walked, then it started to rain, so we ran to a cafe.",
         tip: "La -ed de \"walked\" suena /t/ («uokt»), sin vocal extra. En \"started\" sí hay una sílaba más: «STAR-tid».",
-        explanation: "Ordenador (\"first\", \"then\") + conector (\"so\") + pasado simple.",
+        explanation: "Palabras de orden (\"first\", \"then\") + conector (\"so\") + pasado simple.",
       },
       {
         type: "write",

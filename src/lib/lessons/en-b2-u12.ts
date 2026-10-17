@@ -1455,7 +1455,7 @@ export const EN_B2_U12: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "They ___ the money from the till.",
+        sentence: "They ___ the money from the register.",
         answer: "accused him of stealing",
         altAnswers: ["accused him of taking"],
         en: "[Lo acusaron de robar] el dinero de la caja.",
@@ -1969,13 +1969,13 @@ export const EN_B2_U12: Lesson[] = [
         heading: "Informal shortcuts: She was like...",
         body: [
           "In very informal American speech, especially among young people, you'll hear \"be like\" and \"go\" to introduce a quote, often acted out: \"And she was like, I'm done with this city!\", \"And he goes, are you serious?\".",
-          "\"Be like\" can also report a feeling or reaction, not exact words: \"I was like, wow\" («yo en plan: guau»). It works like Spanish «y ella en plan...» or «y va y dice...».",
+          "\"Be like\" can also report a feeling or reaction, not exact words: \"I was like, wow\" («yo, como: guau»). It works like Spanish «y ella como que...» or «y va y dice...».",
           "Understand these forms and enjoy them in conversation, but never use them in writing, emails, exams or formal situations. There, use \"said\", \"asked\" or a precise reporting verb.",
         ],
         examples: [
-          { es: "And she was like, \"I'm done with this city!\"", en: "Y ella en plan: «¡Estoy harta de esta ciudad!»" },
+          { es: "And she was like, \"I'm done with this city!\"", en: "Y ella como: «¡Estoy harta de esta ciudad!»" },
           { es: "And he goes, \"Are you serious?\"", en: "Y va él y dice: «¿Lo dices en serio?»" },
-          { es: "I was like, wow, I did not see that coming.", en: "Yo en plan: guau, no me lo esperaba." },
+          { es: "I was like, wow, I did not see that coming.", en: "Yo, como: guau, no me lo esperaba." },
           { es: "She said she was done with the city.", en: "Dijo que estaba harta de la ciudad. (versión neutra)" },
         ],
         checkpoint: [
@@ -2277,7 +2277,7 @@ export const EN_B2_U12: Lesson[] = [
         ],
         examples: [
           { es: "Action: Mark to send the revised budget by Friday.", en: "Tarea: Mark enviará el presupuesto revisado antes del viernes." },
-          { es: "Ana offered to contact the client.", en: "Ana se ofreció a contactar con el cliente." },
+          { es: "Ana offered to contact the client.", en: "Ana se ofreció a contactar al cliente." },
           { es: "Tom undertook to review the contract.", en: "Tom se comprometió a revisar el contrato." },
           { es: "Laura confirmed that she would update the timeline.", en: "Laura confirmó que actualizaría el calendario." },
         ],
@@ -2393,9 +2393,9 @@ export const EN_B2_U12: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Ana", "offered", "to", "contact", "the", "supplier", "before", "the", "next", "meeting."],
-        translation: "Ana se ofreció a contactar con el proveedor antes de la próxima reunión.",
+        translation: "Ana se ofreció a contactar al proveedor antes de la próxima reunión.",
         altOrders: [["Before", "the", "next", "meeting,", "Ana", "offered", "to", "contact", "the", "supplier."]],
-        explanation: "\"Offer to\" + verb. Note \"contact the supplier\", with no preposition («contactar con»).",
+        explanation: "\"Offer to\" + verb. Note \"contact the supplier\", with no preposition («contactar a»).",
       },
       {
         type: "multiple-choice",

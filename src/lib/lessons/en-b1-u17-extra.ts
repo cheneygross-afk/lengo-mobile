@@ -201,10 +201,10 @@ export const EN_B1_U17_EXTRA: Lesson[] = [
         audio: "My laptop, which is very old, takes ages to start.",
         question: "What did you hear?",
         options: [
-          "Mi portátil, que es muy viejo, tarda muchísimo en encenderse.",
-          "Mi portátil nuevo arranca muy rápido.",
-          "El portátil que me compré hace años no funciona.",
-          "Mi portátil es viejo, pero funciona muy bien.",
+          "Mi laptop, que es muy vieja, tarda muchísimo en encenderse.",
+          "Mi laptop nueva arranca muy rápido.",
+          "La laptop que me compré hace años no funciona.",
+          "Mi laptop es vieja, pero funciona muy bien.",
         ],
         correctIndex: 0,
         explanation: "\"Takes ages\" = «tarda muchísimo». In speech, the commas sound like short pauses before and after the extra information.",
@@ -727,7 +727,7 @@ export const EN_B1_U17_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Las fotos que hiciste son preciosas.",
+        source: "Las fotos que tomaste son preciosas.",
         answer: "The photos you took are beautiful.",
         altAnswers: [
           "The photos that you took are beautiful.",

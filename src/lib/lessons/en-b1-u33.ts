@@ -33,8 +33,8 @@ export const EN_B1_U33: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "El personal es muy amable.",
-            answer: "The staff are very friendly.",
-            altAnswers: ["The staff is very friendly.", "The staff are very nice.", "The staff is very nice.", "The staff are very kind.", "The staff is very kind.", "The staff are really friendly.", "The staff is really friendly.", "The staff are really nice.", "The staff is really nice."],
+            answer: "The staff is very friendly.",
+            altAnswers: ["The staff are very friendly.", "The staff are very nice.", "The staff is very nice.", "The staff are very kind.", "The staff is very kind.", "The staff are really friendly.", "The staff is really friendly.", "The staff are really nice.", "The staff is really nice."],
             explanation: "«El personal» is \"the staff\", never *the personal. Americans usually say \"the staff is\", British speakers often \"the staff are\": both are fine.",
           },
           {
@@ -275,7 +275,7 @@ export const EN_B1_U33: Lesson[] = [
             source: "Vivo en un departamento en el centro.",
             answer: "I live in an apartment downtown.",
             altAnswers: ["I live in a flat downtown.", "I live in an apartment in the city center.", "I live in a flat in the city centre.", "I live in a flat in the city center.", "I live in an apartment in the city centre.", "I live in an apartment in the center.", "I live in a flat in the centre.", "I live in a flat in the town centre.", "I live in an apartment in the center of town."],
-            explanation: "«Piso» is \"apartment\" (US) or \"flat\" (UK), never *floor in this sense. «En el centro» is \"downtown\" (US) or \"in the city center\".",
+            explanation: "«Departamento» (in Spain, «piso») is \"apartment\" (US) or \"flat\" (UK); «piso» is never *floor in this sense. «En el centro» is \"downtown\" (US) or \"in the city center\".",
           },
           {
             type: "multiple-choice",
@@ -529,7 +529,7 @@ export const EN_B1_U33: Lesson[] = [
             sentence: "There's always a ___ on this road at eight.",
             answer: "traffic jam",
             en: "Siempre hay un [embotellamiento] en esta carretera a las ocho.",
-            explanation: "«Atasco» is \"traffic jam\". You can also say \"There's always a lot of traffic\".",
+            explanation: "«Embotellamiento» (in Spain, «atasco») is \"traffic jam\". You can also say \"There's always a lot of traffic\".",
           },
         ],
       },
@@ -1278,8 +1278,8 @@ export const EN_B1_U33: Lesson[] = [
           "For plans you've already made, use the present continuous: «Voy a verme con Ana mañana» is \"I'm meeting Ana tomorrow\".",
         ],
         examples: [
-          { es: "Do you want to meet up this weekend?", en: "¿Quieres quedar este fin de semana?" },
-          { es: "We usually hang out at the park after school.", en: "Solemos quedar en el parque después del colegio." },
+          { es: "Do you want to meet up this weekend?", en: "¿Quieres que nos veamos este fin de semana?" },
+          { es: "We usually hang out at the park after school.", en: "Solemos juntarnos en el parque después del colegio." },
           { es: "I'm hanging out with some friends tonight.", en: "Esta noche voy a salir con unos amigos." },
           { es: "It was great to catch up with you!", en: "¡Qué bien ponernos al día!" },
           { es: "We have so much to catch up on.", en: "Tenemos tantas cosas que contarnos." },
@@ -1345,7 +1345,7 @@ export const EN_B1_U33: Lesson[] = [
         pairs: [
           { left: "hang out", right: "pasar el rato" },
           { left: "catch up", right: "ponerse al día" },
-          { left: "meet up", right: "quedar" },
+          { left: "meet up", right: "verse, juntarse" },
           { left: "stay with someone", right: "alojarse en casa de alguien" },
         ],
         explanation: "«Quedar con» is \"meet up with\" or \"hang out with\", never *stay with.",

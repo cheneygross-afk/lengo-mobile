@@ -217,6 +217,7 @@ export const EN_A2_U14_DRILLS: Lesson[] = [
         prompt: "Traduce al inglés.",
         source: "¿Qué harás si no consigues el trabajo?",
         answer: "What will you do if you don't get the job?",
+        altAnswers: ["If you don't get the job, what will you do?", "What are you going to do if you don't get the job?"],
         explanation: "En la pregunta, \"will\" va delante del sujeto (\"will you do\"); la parte con \"if\" no cambia: presente y sin inversión.",
       },
       {

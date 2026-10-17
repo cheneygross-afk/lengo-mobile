@@ -1635,12 +1635,12 @@ export const EN_B1_U11: Lesson[] = [
         heading: "Describing your symptoms",
         body: [
           "PATIENT: \"I've had a sore throat and a fever since Monday, and I have a terrible cough.\" Notice the present perfect: \"I've had... since Monday\" = «tengo... desde el lunes». Don't say *I have a fever since Monday.",
-          "Big false friend: \"constipated\" does NOT mean «constipado». It means «estreñido». If you have a cold, say \"I have a cold\" or \"I'm congested\" / \"I have a stuffy nose\". Saying \"I'm constipated\" to an American doctor will give you a very different treatment!",
+          "Big false friend: \"constipated\" does NOT mean «constipado» (a cold in Spain, a stuffy nose in much of Latin America). It means «estreñido». If you have a cold, say \"I have a cold\" or \"I'm congested\" / \"I have a stuffy nose\". Saying \"I'm constipated\" to an American doctor will give you a very different treatment!",
           "Other useful phrases: \"It hurts here\" («me duele aquí»), \"I feel dizzy\" («estoy mareado»), \"I feel sick\" («tengo náuseas», «me siento mal»).",
         ],
         examples: [
           { es: "I've had a fever since Monday.", en: "Tengo fiebre desde el lunes." },
-          { es: "I have a cold.", en: "Estoy resfriado. / Estoy constipado." },
+          { es: "I have a cold.", en: "Estoy resfriado." },
           { es: "I'm congested.", en: "Tengo la nariz tapada." },
           { es: "It hurts here.", en: "Me duele aquí." },
           { es: "I feel dizzy.", en: "Estoy mareado." },
@@ -1649,10 +1649,10 @@ export const EN_B1_U11: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "You want to say «Estoy constipado» to a doctor. What do you say?",
+            question: "You want to say «Estoy resfriado» to a doctor. What do you say?",
             options: ["I have a cold.", "I'm constipated.", "I have a constipation.", "I'm a cold."],
             correctIndex: 0,
-            explanation: "«Constipado» = \"have a cold\". \"Constipated\" means «estreñido»: a classic false friend.",
+            explanation: "«Resfriado» = \"have a cold\". \"Constipated\" looks like «constipado» but means «estreñido»: a classic false friend.",
           },
           {
             type: "translate",
@@ -1721,10 +1721,10 @@ export const EN_B1_U11: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Estoy constipado.",
+        source: "Estoy resfriado.",
         answer: "I have a cold.",
         altAnswers: ["I've got a cold."],
-        explanation: "«Constipado» = \"have a cold\". \"I'm constipated\" means «estoy estreñido».",
+        explanation: "«Resfriado» = \"have a cold\". Don't say \"I'm constipated\": it means «estoy estreñido».",
       },
       {
         type: "fill-blank",
@@ -1860,16 +1860,16 @@ export const EN_B1_U11: Lesson[] = [
       {
         heading: "Colds, flu and other illnesses",
         body: [
-          "A \"cold\" is «un resfriado» or «un constipado»: \"I have a cold\", \"I caught a cold\". The \"flu\" is «la gripe»: Americans say \"I have the flu\", with \"the\".",
+          "A \"cold\" is «un resfriado»: \"I have a cold\", \"I caught a cold\". The \"flu\" is «la gripe»: Americans say \"I have the flu\", with \"the\".",
           "Common symptoms: \"a cough\" («tos»), \"a fever\" («fiebre», British \"a temperature\"), \"a runny nose\" («mocos»), \"a stuffy nose\" («la nariz tapada»), \"I'm sneezing\" («estornudo»).",
           "Remember the false friend: \"constipated\" = «estreñido». And in American English, \"sick\" is the normal word for «enfermo»: \"I'm sick\", \"I called in sick\". \"Ill\" is more British or formal.",
         ],
         examples: [
-          { es: "I caught a cold.", en: "Me he resfriado." },
+          { es: "I caught a cold.", en: "Me resfrié." },
           { es: "She has the flu.", en: "Tiene gripe." },
           { es: "I have a runny nose.", en: "Tengo mocos." },
           { es: "He has a high fever.", en: "Tiene mucha fiebre." },
-          { es: "I called in sick today.", en: "Hoy he llamado para decir que estoy enfermo." },
+          { es: "I called in sick today.", en: "Hoy llamé para avisar que estoy enfermo." },
         ],
         checkpoint: [
           {
@@ -1881,7 +1881,7 @@ export const EN_B1_U11: Lesson[] = [
               { left: "the flu", right: "la gripe" },
               { left: "a cough", right: "tos" },
             ],
-            explanation: "\"Constipated\" is a false friend: «constipado» is \"have a cold\".",
+            explanation: "\"Constipated\" is a false friend: it means «estreñido». «Estoy resfriado» is \"I have a cold\".",
           },
         ],
       },
@@ -1969,7 +1969,7 @@ export const EN_B1_U11: Lesson[] = [
         question: "What does \"I'm constipated\" mean?",
         options: ["Estoy estreñido.", "Estoy resfriado.", "Tengo gripe.", "Tengo la nariz tapada."],
         correctIndex: 0,
-        explanation: "\"Constipated\" = «estreñido». For «estoy constipado» say \"I have a cold\".",
+        explanation: "\"Constipated\" = «estreñido». For «estoy resfriado» say \"I have a cold\".",
       },
       {
         type: "translate",

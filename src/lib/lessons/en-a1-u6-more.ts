@@ -554,7 +554,7 @@ export const EN_A1_U6_MORE: Lesson[] = [
       {
         heading: "El carácter: friendly, funny, shy",
         body: [
-          "Para la personalidad también se usa \"to be\": \"friendly\" (simpático, amable), \"funny\" (gracioso), \"shy\" (tímido), \"nice\" (majo, agradable), \"kind\" (amable, bueno), \"quiet\" (callado, tranquilo), \"serious\" (serio).",
+          "Para la personalidad también se usa \"to be\": \"friendly\" (simpático, amable), \"funny\" (gracioso), \"shy\" (tímido), \"nice\" (agradable, buena gente), \"kind\" (amable, bueno), \"quiet\" (callado, tranquilo), \"serious\" (serio).",
           "Falso amigo: «simpático» NO es \"sympathetic\" (que significa comprensivo con un problema). Para «simpático» di \"nice\" o \"friendly\".",
           "\"Funny\" es gracioso, que te hace reír. «Divertido» como un plan o una fiesta es \"fun\": \"The party is fun.\".",
         ],

@@ -2076,7 +2076,7 @@ export const EN_B1_U01: Lesson[] = [
     slug: "b1-spiral-review-a2-tenses",
     level: "EN-B1",
     number: 11,
-    title: "Spiral Review: Gaining Fluency Tenses to the Independence level",
+    title: "Spiral Review: Gaining Fluency Tenses, One Level Up",
     summary: "Review the present perfect with ever, never, just, already and yet, the past simple and the past continuous, and combine them with the present perfect continuous.",
     duration: "12 min",
     sections: [

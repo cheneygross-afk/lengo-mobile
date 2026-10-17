@@ -201,6 +201,7 @@ export const EN_B2_U12_EXTRA: Lesson[] = [
         prompt: "Translate into English.",
         source: "Nos aconsejaron que no compráramos la casa.",
         answer: "They advised us not to buy the house.",
+        altAnswers: ["They advised us against buying the house."],
         explanation: "\"Advise\" + person + \"not to\". No that-clause, no subjunctive.",
       },
       {

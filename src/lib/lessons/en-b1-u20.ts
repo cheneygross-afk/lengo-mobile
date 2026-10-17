@@ -631,7 +631,7 @@ export const EN_B1_U20: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "The guide told ___ photos.",
         answer: "them not to take",
-        en: "El guía [les dijo que no hicieran] fotos.",
+        en: "El guía [les dijo que no tomaran] fotos.",
         explanation: "Negative order: \"told them not to\" + verb. In English you \"take\" a photo; you don't *make it.",
       },
       {
@@ -965,7 +965,7 @@ export const EN_B1_U20: Lesson[] = [
           { es: "She suggested that we go to the beach.", en: "Sugirió que fuéramos a la playa." },
           { es: "He suggested that I call her.", en: "Me sugirió que la llamara." },
           { es: "I suggested we should take a taxi.", en: "Sugerí que tomáramos un taxi." },
-          { es: "I recommend that you book early.", en: "Te recomiendo que reserves con antelación." },
+          { es: "I recommend that you book early.", en: "Te recomiendo que reserves con anticipación." },
         ],
         checkpoint: [
           {

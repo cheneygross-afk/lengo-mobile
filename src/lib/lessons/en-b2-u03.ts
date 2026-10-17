@@ -278,7 +278,7 @@ export const EN_B2_U03: Lesson[] = [
           { es: "This time tomorrow I'll be flying to Lima.", en: "Mañana a esta hora estaré volando a Lima." },
           { es: "At eight tonight we'll be having dinner.", en: "A las ocho de la noche estaremos cenando." },
           { es: "Don't call at ten. I'll be sleeping.", en: "No llames a las diez. Estaré durmiendo." },
-          { es: "This time next week she'll be lying on a beach.", en: "La semana que viene a esta hora estará tumbada en una playa." },
+          { es: "This time next week she'll be lying on a beach.", en: "La semana que viene a esta hora estará acostada en una playa." },
           { es: "I'll be seeing Tom at work tomorrow.", en: "Mañana veré a Tom en el trabajo (de todos modos)." },
         ],
         checkpoint: [
@@ -514,8 +514,8 @@ export const EN_B2_U03: Lesson[] = [
         audio: "This time next week I'll be lying on a beach.",
         question: "What did you hear?",
         options: [
-          "La semana que viene a esta hora estaré tumbado en una playa.",
-          "La semana pasada a esta hora estaba tumbado en una playa.",
+          "La semana que viene a esta hora estaré acostado en una playa.",
+          "La semana pasada a esta hora estaba acostado en una playa.",
           "La semana que viene iré a una playa.",
           "Esta semana he estado en una playa.",
         ],
@@ -837,7 +837,7 @@ export const EN_B2_U03: Lesson[] = [
         audio: "I'm having lunch with Emma tomorrow.",
         question: "What does the speaker mean?",
         options: [
-          "Mañana como con Emma (ya lo hemos quedado).",
+          "Mañana como con Emma (ya lo acordamos).",
           "Suelo comer con Emma.",
           "Ahora mismo estoy comiendo con Emma.",
           "Ayer comí con Emma.",
@@ -1552,7 +1552,7 @@ export const EN_B2_U03: Lesson[] = [
         examples: [
           { es: "By Monday I'll have finished it.", en: "Para el lunes lo tengo terminado." },
           { es: "I'll send it to you tomorrow.", en: "Te lo mando mañana." },
-          { es: "I'm seeing them on Monday.", en: "El lunes los veo (hemos quedado)." },
+          { es: "I'm seeing them on Monday.", en: "El lunes los veo (ya quedamos de vernos)." },
           { es: "The meeting starts at nine.", en: "La reunión empieza a las nueve." },
         ],
         checkpoint: [
@@ -1577,7 +1577,7 @@ export const EN_B2_U03: Lesson[] = [
     exercises: [
       {
         type: "multiple-choice",
-        question: "A message says: «I'll call you when I will finish work.» Choose the correct version.",
+        question: "A message says: *I'll call you when I will finish work. Choose the correct version.",
         options: [
           "I'll call you when I finish work.",
           "I call you when I finish work.",
@@ -1611,7 +1611,7 @@ export const EN_B2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "An email says: «I am going to can join the call tomorrow.» What is the correct version?",
+        question: "An email says: *I am going to can join the call tomorrow. What is the correct version?",
         options: [
           "I'm going to be able to join the call tomorrow.",
           "I'm going to could join the call tomorrow.",
@@ -2848,7 +2848,7 @@ export const EN_B2_U03: Lesson[] = [
         sentence: "This time next week we ___ on a beach in Mexico.",
         answer: "will be lying",
         altAnswers: ["are going to be lying"],
-        en: "La semana que viene a esta hora [estaremos tumbados] en una playa de México.",
+        en: "La semana que viene a esta hora [estaremos acostados] en una playa de México.",
         explanation: "In progress at a future moment: future continuous. \"Lie\" becomes \"lying\" (ie → y).",
       },
       {
@@ -3060,7 +3060,7 @@ export const EN_B2_U03: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Vas a usar el portátil esta tarde?",
+        source: "¿Vas a usar la laptop esta tarde?",
         answer: "Will you be using the laptop this afternoon?",
         altAnswers: [
           "Will you be using your laptop this afternoon?",

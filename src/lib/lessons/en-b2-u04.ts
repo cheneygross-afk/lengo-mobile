@@ -338,7 +338,7 @@ export const EN_B2_U04: Lesson[] = [
           { es: "I'm meeting Ana at eight.", en: "Voy a verme con Ana a las ocho." },
           { es: "Let's meet at eight outside the station.", en: "Quedamos a las ocho delante de la estación." },
           { es: "What time should we meet?", en: "¿A qué hora quedamos?" },
-          { es: "We've arranged to meet at the cafe.", en: "Hemos quedado en la cafetería." },
+          { es: "We've arranged to meet at the cafe.", en: "Quedamos de vernos en la cafetería." },
         ],
         checkpoint: [
           {
@@ -428,14 +428,14 @@ export const EN_B2_U04: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Mañana a esta hora estaré tumbada en la playa.",
+            source: "Mañana a esta hora estaré acostada en la playa.",
             answer: "This time tomorrow I'll be lying on the beach.",
             altAnswers: [
               "I'll be lying on the beach this time tomorrow.",
               "At this time tomorrow I'll be lying on the beach.",
               "This time tomorrow I'll be lying on a beach.",
             ],
-            explanation: "Something in progress at a future moment: future continuous. \"Lie\" (tumbarse) becomes \"lying\", not *laying.",
+            explanation: "Something in progress at a future moment: future continuous. \"Lie\" (acostarse) becomes \"lying\", not *laying.",
           },
         ],
       },
@@ -912,7 +912,7 @@ export const EN_B2_U04: Lesson[] = [
           "\"will be able to\" instead of *will can",
           "\"wait for\" + person, and \"hope\" + clause",
           "Present continuous for arrangements (we're going to the beach)",
-          "Future perfect after \"by the time\" for things that will be complete",
+          "Future perfect in the main clause with \"by the time\" (by the time you arrive, I\'ll have finished)",
         ],
         modelAnswer: "Hi Emma! I'm so happy you're coming to visit me next month. When you arrive, I'll be waiting for you at the airport. I'll be able to show you the old town, and on Saturday we're going to the beach with my friends. Until you come, I'll be getting the guest room ready, and by the time you arrive, I'll have finished everything! I hope you like Spanish food, because my mother is making paella on Sunday. Let me know when you know your flight number. See you soon!",
         explanation: "Check each verb against the timeline: arrangement, promise, time clause or deadline.",
@@ -1489,7 +1489,7 @@ export const EN_B2_U04: Lesson[] = [
         sentence: "When ___ enough money, I'll buy a new laptop.",
         answer: "I've saved",
         altAnswers: ["I save", "I have saved up", "I've saved up", "I save up"],
-        en: "Cuando [haya ahorrado] suficiente dinero, me compraré un portátil nuevo.",
+        en: "Cuando [haya ahorrado] suficiente dinero, me compraré una laptop nueva.",
         explanation: "«Haya ahorrado» = present perfect \"I've saved\". The present simple \"I save\" is also correct here.",
       },
       {
@@ -1617,7 +1617,7 @@ export const EN_B2_U04: Lesson[] = [
         examples: [
           { es: "At 8 p.m. I'll be having dinner.", en: "A las ocho de la tarde estaré cenando." },
           { es: "By 8 p.m. I'll have had dinner.", en: "Para las ocho de la tarde ya habré cenado." },
-          { es: "This time next week we'll be lying on a beach.", en: "La semana que viene a estas horas estaremos tumbados en una playa." },
+          { es: "This time next week we'll be lying on a beach.", en: "La semana que viene a estas horas estaremos acostados en una playa." },
           { es: "By next week we'll have finished the project.", en: "Para la semana que viene habremos terminado el proyecto." },
         ],
         checkpoint: [
@@ -1691,7 +1691,7 @@ export const EN_B2_U04: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Vas a usar el portátil esta tarde?",
+        source: "¿Vas a usar la laptop esta tarde?",
         answer: "Will you be using the laptop this afternoon?",
         altAnswers: [
           "Are you going to use the laptop this afternoon?",
@@ -1817,7 +1817,7 @@ export const EN_B2_U04: Lesson[] = [
         ],
         examples: [
           { es: "Our flight leaves at 6:15.", en: "Nuestro vuelo sale a las 6:15." },
-          { es: "Check-in closes forty minutes before departure.", en: "La facturación cierra cuarenta minutos antes de la salida." },
+          { es: "Check-in closes forty minutes before departure.", en: "El check-in cierra cuarenta minutos antes de la salida." },
           { es: "What time does the flight land?", en: "¿A qué hora aterriza el vuelo?" },
           { es: "The museum opens at ten on Sundays.", en: "Los domingos el museo abre a las diez." },
           { es: "The train is due to arrive at 9:20.", en: "Está previsto que el tren llegue a las 9:20." },
@@ -2105,7 +2105,7 @@ export const EN_B2_U04: Lesson[] = [
           { es: "They're unlikely to hire anyone before January.", en: "Es poco probable que contraten a nadie antes de enero." },
           { es: "It's likely that the company will expand.", en: "Es probable que la empresa crezca." },
           { es: "With your experience, you're bound to find something soon.", en: "Con tu experiencia, seguro que encuentras algo pronto." },
-          { es: "I might go freelance next year.", en: "Puede que me haga autónomo el año que viene." },
+          { es: "I might go freelance next year.", en: "Puede que empiece a trabajar por mi cuenta el año que viene." },
         ],
         checkpoint: [
           {
@@ -2225,7 +2225,7 @@ export const EN_B2_U04: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Para 2030 habré montado mi propia empresa.",
+        source: "Para 2030 habré creado mi propia empresa.",
         answer: "By 2030, I'll have started my own company.",
         altAnswers: [
           "By 2030, I'll have set up my own company.",
@@ -2244,7 +2244,7 @@ export const EN_B2_U04: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "With your CV, ___ an interview.",
+        sentence: "With your résumé, ___ an interview.",
         answer: "you're bound to get",
         altAnswers: ["you're sure to get", "you're certain to get", "you'll definitely get", "you'll certainly get"],
         en: "Con tu currículum, [seguro que consigues] una entrevista.",

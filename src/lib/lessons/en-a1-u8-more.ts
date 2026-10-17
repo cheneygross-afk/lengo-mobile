@@ -1714,7 +1714,7 @@ export const EN_A1_U8_MORE: Lesson[] = [
           { es: "How do you feel today?", en: "¿Cómo te sientes hoy?" },
           { es: "What's wrong? — I'm sad.", en: "¿Qué te pasa? — Estoy triste." },
           { es: "I'm sick, so I'm staying home today.", en: "Estoy enfermo, así que hoy me quedo en casa." },
-          { es: "We're excited about the trip.", en: "Estamos ilusionados con el viaje." },
+          { es: "We're excited about the trip.", en: "Estamos emocionados con el viaje." },
         ],
         checkpoint: [
           {
@@ -1797,7 +1797,7 @@ export const EN_A1_U8_MORE: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Estamos muy ilusionados con las vacaciones.",
+        source: "Estamos muy emocionados con las vacaciones.",
         answer: "We're very excited about the vacation.",
         altAnswers: ["We're really excited about the vacation.", "We're very excited about our vacation.", "We're really excited about our vacation.", "We're very excited about the holidays.", "We're very excited about the holiday.", "We're very excited about our holiday.", "We're very excited about our holidays.", "We're so excited about the vacation."],
         explanation: "«Ilusionado» es \"excited\", y se dice \"excited about\". En Reino Unido las vacaciones son \"holiday\" o \"holidays\".",

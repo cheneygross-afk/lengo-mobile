@@ -401,7 +401,7 @@ export const EN_B2_U11_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Ya te has hecho las fotos para el pasaporte?",
+        source: "¿Ya te tomaron las fotos para el pasaporte?",
         answer: "Have you had your passport photos taken yet?",
         altAnswers: [
           "Have you had your passport photo taken yet?",
@@ -536,13 +536,13 @@ export const EN_B2_U11_EXTRA: Lesson[] = [
         heading: "get + participle",
         body: [
           "In everyday English \"get\" + participle often replaces \"be\" for unexpected or unwelcome events: \"got fired\", \"got hurt\", \"got stuck\", \"got lost\", \"got arrested\", \"My bike got stolen\".",
-          "Many of these match Spanish reflexive verbs: «perderse» (get lost), «hacerse daño» (get hurt), «quedarse atascado» (get stuck), «casarse» (get married). Do not translate the «se» as *himself.",
+          "Many of these match Spanish reflexive verbs: «perderse» (get lost), «lastimarse» (get hurt), «quedarse atascado» (get stuck), «casarse» (get married). Do not translate the «se» as *himself.",
         ],
         examples: [
           { es: "We got lost in the old town.", en: "Nos perdimos en el casco antiguo." },
           { es: "She got fired last week.", en: "La despidieron la semana pasada." },
           { es: "My bike got stolen outside the gym.", en: "Me robaron la bici delante del gimnasio." },
-          { es: "He got hurt playing soccer.", en: "Se hizo daño jugando al fútbol." },
+          { es: "He got hurt playing soccer.", en: "Se lastimó jugando al fútbol." },
         ],
         checkpoint: [
           {
@@ -628,7 +628,7 @@ export const EN_B2_U11_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mi hermano se hizo daño jugando al fútbol.",
+        source: "Mi hermano se lastimó jugando al fútbol.",
         answer: "My brother got hurt playing soccer.",
         altAnswers: [
           "My brother got hurt playing football.",
@@ -641,7 +641,7 @@ export const EN_B2_U11_EXTRA: Lesson[] = [
           "My brother was injured playing soccer.",
           "My brother was injured playing football.",
         ],
-        explanation: "«Hacerse daño» is \"get hurt\" or \"hurt yourself\". In American English the sport is \"soccer\".",
+        explanation: "«Lastimarse» is \"get hurt\" or \"hurt yourself\". In American English the sport is \"soccer\".",
       },
       {
         type: "multiple-choice",
@@ -698,7 +698,7 @@ export const EN_B2_U11_EXTRA: Lesson[] = [
         instructions: "Match each English expression with its Spanish meaning.",
         pairs: [
           { left: "get lost", right: "perderse" },
-          { left: "get hurt", right: "hacerse daño" },
+          { left: "get hurt", right: "lastimarse" },
           { left: "get fired", right: "ser despedido" },
           { left: "get stuck", right: "quedarse atascado" },
         ],

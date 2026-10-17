@@ -1,0 +1,436 @@
+// Synced from cheneygross-afk/lengo:src/lib/lessons/en-b2-u25-drills.ts by scripts/sync-content.mjs -- edit it there, not here.
+import type { Exercise, Lesson } from "./types";
+
+// Required drill lessons for EN-B2 unit u25 (word webs: technology, AI, media, social media, environment, disasters, science, tech phrasal verbs, word formation): a short recap, then graded practice.
+
+// ---- small authoring helpers (local to this file) ----------------------
+// Answer patterns use {a|b|} for alternatives; every combination is
+// accepted, and the first combination is the main answer.
+function x(p: string): string[] {
+  const m = p.match(/\{([^{}]*)\}/);
+  if (!m || m.index === undefined) return [p.replace(/\s+/g, " ").replace(/\s+([,.!?;])/g, "$1").trim()];
+  const out: string[] = [];
+  for (const opt of m[1].split("|")) out.push(...x(p.slice(0, m.index) + opt + p.slice(m.index + m[0].length)));
+  return out;
+}
+function xs(ps: string | string[]): string[] {
+  return [...new Set((Array.isArray(ps) ? ps : [ps]).flatMap(x))];
+}
+const tr = (source: string, answers: string | string[], explanation: string, prompt = "Translate into English."): Exercise => {
+  const [answer, ...alts] = xs(answers);
+  return { type: "translate", direction: "es-en", prompt, source, answer, ...(alts.length ? { altAnswers: alts } : {}), explanation };
+};
+const fb = (sentence: string, answers: string | string[], en: string, explanation: string): Exercise => {
+  const [answer, ...alts] = xs(answers);
+  return { type: "fill-blank", prompt: "Write the bold words in English.", sentence, answer, en, ...(alts.length ? { altAnswers: alts } : {}), explanation };
+};
+const mc = (question: string, options: string[], explanation: string): Exercise => ({ type: "multiple-choice", question, options, correctIndex: 0, explanation });
+const wo = (sentence: string, translation: string, explanation: string, alts?: string[]): Exercise => ({
+  type: "word-order",
+  prompt: "Put the words in order.",
+  words: sentence.split(" "),
+  translation,
+  ...(alts ? { altOrders: alts.map((a) => a.split(" ")) } : {}),
+  explanation,
+});
+const dc = (audio: string, explanation: string): Exercise => ({ type: "dictation", audio, explanation });
+const lc = (audio: string, options: string[], explanation: string, question = "What does it mean?"): Exercise => ({ type: "listen-choose", audio, question, options, correctIndex: 0, explanation });
+const sp = (text: string, explanation: string, tip?: string, prompt?: string): Exercise => ({ type: "speak", text, ...(prompt ? { prompt } : {}), ...(tip ? { tip } : {}), explanation });
+const mt = (instructions: string, pairs: [string, string][], explanation: string): Exercise => ({ type: "matching", instructions, pairs: pairs.map(([left, right]) => ({ left, right })), explanation });
+
+const SECONDS: Record<Exercise["type"], number> = {
+  "multiple-choice": 15, "multi-select": 20, "listen-choose": 20, "fill-blank": 20, translate: 30,
+  "word-order": 25, matching: 30, dictation: 30, speak: 25, write: 300,
+};
+const lesson = (
+  n: number,
+  title: string,
+  summary: string,
+  heading: string,
+  body: string[],
+  examples: [string, string][],
+  exercises: Exercise[],
+): Lesson => ({
+  slug: `en-b2-tech-planet-unit-drill-${n}`,
+  level: "EN-B2",
+  number: n,
+  title: `Drill: ${title}`,
+  summary,
+  duration: `${Math.round((exercises.reduce((s, e) => s + SECONDS[e.type], 0) + 40) / 60)} min`,
+  sections: [{ heading, body, examples: examples.map(([es, en]) => ({ es, en })) }],
+  exercises,
+});
+
+export const EN_B2_U25_DRILLS: Lesson[] = [
+  // ---------------------------------------------------------------------
+  // Drill 1. Technology, AI and the future, news and media
+  // ---------------------------------------------------------------------
+  lesson(
+    1,
+    "Devices, AI and the News",
+    "You will be able to talk about devices that crash or freeze, discuss AI, data and privacy, predict with \"will have\" and \"be likely to\", and use \"news\" correctly as a singular, uncountable noun.",
+    "Recap: tech words, AI and the news",
+    [
+      "Apps \"crash\", screens \"freeze\" and websites are \"down\"; «informática» is \"computer science\" or \"IT\", and «técnica» is \"technique\". \"Data\" is uncountable, AI may \"replace\" workers (no preposition), and \"By 2035, AI will have changed...\" is the future perfect.",
+      "\"News\" is uncountable and singular: \"The news is bad\", \"some good news\", \"a story\". We say \"on the news\", \"on TV\", but \"in the newspaper\"; a video \"goes viral\".",
+    ],
+    [
+      ["My laptop froze in the middle of the meeting.", "La laptop se congeló en medio de la reunión."],
+      ["The data is stored on a server in Canada.", "Los datos se guardan en un servidor en Canadá."],
+      ["By next year, the bank will have automated half its services.", "Para el año que viene, el banco habrá automatizado la mitad de sus servicios."],
+      ["The news was terrible this morning.", "Las noticias eran terribles esta mañana."],
+    ],
+    [
+      fb("I ___ the app last week, but it keeps asking me to update it.", "downloaded", "[Descargué] la aplicación la semana pasada, pero me sigue pidiendo que la actualice.",
+        "«Descargar» = \"download\" (past: \"downloaded\"). \"Update\" is what you do afterwards to get the newest version."),
+      fb("Remember to ___ of your email on the hotel computer.", ["log out", "sign out"], "Acuérdate de [cerrar sesión] en tu correo en la computadora del hotel.",
+        "«Cerrar sesión» = \"log out\" or \"sign out\" (of an account). The opposite is \"log in\" / \"sign in\"."),
+      tr("Mi computadora se colgó y perdí el informe.", "My computer {crashed|froze} and I lost the report.",
+        "When a program or computer stops working, it \"crashes\"; if the screen just stops responding, it \"freezes\". Never *hung for «se colgó»."),
+      mc("Which sentence is correct?", [
+        "My phone froze, so I restarted it.",
+        "My phone hung, so I restarted it.",
+        "My phone freezed, so I restarted it.",
+        "My phone got frozen, so I restarted on it.",
+      ], "«Se me colgó el celular» = \"My phone froze\" (irregular past: freeze, froze, frozen). *Hung is a literal translation, and \"restart\" takes a direct object with no preposition."),
+      tr("La página web del banco está caída.", ["The bank's website is down.", "The bank website is down."],
+        "A website that isn't working is \"down\". Spanish «caído» is not *fallen here."),
+      tr("Me quedé sin batería, por eso no te contesté.", "{My phone died|My battery died|My phone ran out of battery}, {so|that's why} I didn't {answer|reply}.",
+        "«Me quedé sin batería» is naturally \"my phone died\" or \"my battery died\". «Por eso» = \"so\" or \"that's why\"."),
+      fb("There's no ___ in the basement, so I can't make any calls.", "signal", "No hay [cobertura] en el sótano, así que no puedo hacer llamadas.",
+        "«Cobertura» on a phone is \"signal\". \"Coverage\" is a media word (how much attention a story gets)."),
+      tr("Esta aplicación es muy fácil de usar.", ["This app is {very|really} user-friendly.", "This app is {very|really} easy to use."],
+        "\"User-friendly\" means easy to use. It's a compound adjective, so it never takes a plural -s: \"two user-friendly apps\"."),
+      mt("Match the English with the Spanish.", [
+        ["crash", "colgarse, dejar de funcionar"],
+        ["outdated", "desfasado"],
+        ["reliable", "confiable"],
+        ["a glitch", "un fallo pequeño y pasajero"],
+        ["wireless", "inalámbrico"],
+        ["cutting-edge", "de punta, lo más avanzado"],
+      ], "These are the core words for describing technology and its problems. \"Cutting-edge\" and \"state-of-the-art\" are the opposite of \"outdated\"."),
+      mc("Translate: «Mi hermana estudió informática.»", [
+        "My sister studied computer science.",
+        "My sister studied informatic.",
+        "My sister studied the informatics.",
+        "My sister studied technique.",
+      ], "If you studied «informática», you studied \"computer science\". \"Informatics\" is a rare academic word, and \"technique\" means «técnica» (a way of doing something)."),
+      tr("Mañana viene un técnico a arreglar la impresora.", "A technician is {coming|going to come} tomorrow to {fix|repair} the printer.",
+        "«Un técnico» (a person) is \"a technician\". \"Technique\" is a method, and \"technology\" is the field."),
+      fb("The hospital has just bought some ___ equipment.", ["state-of-the-art", "cutting-edge"], "El hospital acaba de comprar equipos [de última generación].",
+        "\"State-of-the-art\" and \"cutting-edge\" mean the most modern and advanced. Before a noun they keep their hyphens."),
+      lc("My old laptop is completely outdated.", [
+        "Mi laptop vieja está totalmente desfasada.",
+        "Mi laptop vieja está totalmente rota.",
+        "Mi laptop vieja se quedó sin batería.",
+        "Mi laptop vieja está muy bien cuidada.",
+      ], "\"Outdated\" (or \"obsolete\") means old-fashioned and no longer modern: «desfasado»."),
+      fb("The app stores all your ___ on a server in Canada.", "data", "La aplicación guarda todos tus [datos] en un servidor en Canadá.",
+        "«Datos» = \"data\", an uncountable noun in everyday English. Never *datas."),
+      mc("Which sentence is correct?", [
+        "The data is stored securely.",
+        "The datas are stored securely.",
+        "A data is stored securely.",
+        "The data is storing securely.",
+      ], "\"Data\" is normally uncountable: \"the data is\", \"a lot of data\", \"a piece of data\". *Datas and *a data don't exist, and the passive needs the participle \"stored\"."),
+      tr("Muchas empresas están automatizando las tareas repetitivas.", "Many companies are automating {repetitive|routine} tasks.",
+        "«Automatizar» = \"automate\" (noun: \"automation\"). Don't confuse it with the adjective \"automatic\". General plural nouns take no \"the\"."),
+      tr("Me preocupa mi privacidad en internet.", ["I'm worried about my privacy {online|on the internet}.", "I worry about my privacy {online|on the internet}."],
+        "«Privacidad» = \"privacy\" (US: PRY-vuh-see). «Me preocupa» becomes \"I'm worried about\" or \"I worry about\", with the person as subject."),
+      fb("Critics say the hiring software is ___ against older workers.", "biased", "Los críticos dicen que el software de contratación [está sesgado] en contra de los trabajadores mayores.",
+        "«Sesgado» = \"biased\" (BY-ust), followed by \"against\" or \"towards\". The noun is \"bias\"."),
+      mc("Translate: «La IA podría sustituir a los cajeros.»", [
+        "AI could replace cashiers.",
+        "AI could replace to cashiers.",
+        "AI could replace for cashiers.",
+        "AI could replace at the cashiers.",
+      ], "\"Replace\" takes a direct object: \"replace cashiers\". The Spanish personal «a» is never translated as *to."),
+      tr("Para 2035, la IA habrá cambiado nuestra forma de trabajar.", "By 2035, AI will have changed {the way we work|how we work|the way in which we work}.",
+        "«Habrá cambiado» = \"will have changed\" (future perfect). «Para» + a date is \"by\". «Nuestra forma de trabajar» = \"the way we work\"."),
+      fb("I promise I ___ the report by Friday.", ["will have finished", "'ll have finished", "will have done", "'ll have done"], "Te prometo que [habré terminado] el informe para el viernes.",
+        "\"Will have\" + participle says something will be complete before a future moment. \"By Friday\" = no later than Friday."),
+      mc("Complete: \"I'll be at the conference ___ Thursday, so I can't meet you before then.\"", ["until", "by", "since", "for"],
+        "\"Until\" («hasta») is for something that continues up to a moment. \"By\" («para», «como muy tarde») is for something completed before a deadline."),
+      tr("Es probable que los precios suban el año que viene.", [
+        "Prices are likely to {rise|go up} next year.",
+        "Prices will probably {rise|go up} next year.",
+        "{It's likely|It is probable} that prices will {rise|go up} next year.",
+      ], "\"Be likely to\" + verb is the most natural way to say «es probable que». Note \"will probably\": \"will\" goes before \"probably\"."),
+      wo("Chatbots probably won't replace real teachers.", "Probablemente los chatbots no van a sustituir a los profesores de verdad.",
+        "In the negative, \"probably\" goes BEFORE \"won't\". In the positive it goes after \"will\": \"will probably replace\"."),
+      sp("AI might create more jobs than it destroys.", "\"Might\" + verb for an uncertain prediction; \"create jobs\" is the standard collocation.",
+        "AI is said ay-EYE, with the stress on the second letter.", "Say it in English: Puede que la IA cree más empleos de los que destruye."),
+      fb("The news this morning ___ terrible.", "was", "Las noticias de esta mañana [eran] terribles.",
+        "\"News\" is uncountable and takes a singular verb: \"the news was\", never *the news were, even though Spanish says «las noticias eran»."),
+      tr("Tengo una buena noticia: ¡me dieron el trabajo!", "{I have|I've got} {some |}good news: I got the job!",
+        "«Una buena noticia» = \"some good news\" or just \"good news\". There is no *a good news."),
+      wo("I saw the interview on the news last night.", "Vi la entrevista en el noticiero anoche.",
+        "We say \"on the news\", \"on TV\" and \"on the radio\", but \"in the newspaper\"."),
+      tr("La boda salió en la portada de todos los periódicos.", "The wedding {made|was on} the front page of {every newspaper|all the newspapers}.",
+        "«La portada» of a newspaper is \"the front page\". A story \"makes the front page\" or \"is on the front page\"."),
+      wo("The protest didn't get much coverage on TV.", "La protesta no tuvo mucha cobertura en la tele.",
+        "«Cobertura mediática» = \"coverage\", uncountable, so \"much coverage\" in a negative. The verb is \"cover\" a story."),
+      dc("There is a lot of fake news about the vaccine online.",
+        "\"Fake news\" is uncountable, like \"news\": \"a lot of fake news\", never *many fake news."),
+      lc("Her video went viral overnight.", [
+        "Su video se hizo viral de la noche a la mañana.",
+        "Su video tenía un virus.",
+        "Subió su video por la noche.",
+        "Borraron su video en una noche.",
+      ], "A video or story that spreads very fast online \"goes viral\" (past: \"went viral\")."),
+      mc("Which sentence is correct?", [
+        "There was a sad story in the newspaper today.",
+        "There was a sad news in the newspaper today.",
+        "There was a sad new on the newspaper today.",
+        "There were some sad news on the newspaper today.",
+      ], "«Una noticia» is \"a story\" (or \"a piece of news\"), never *a news or *a new. And it's \"in the newspaper\", not *on the newspaper."),
+      tr("Los periodistas descubrieron que el algoritmo estaba sesgado.", "{The |}journalists {found out|discovered} that the algorithm was biased.",
+        "«Descubrir» meaning «enterarse» is usually \"find out\". \"Biased\" needs \"was\" here, because the reported situation is in the past."),
+      dc("By the end of the year, the website will have doubled its users.",
+        "Future perfect: \"will have\" + past participle, with \"by\" + a future moment."),
+      sp("Have you tried turning it off and on again?", "\"Try\" + -ing = test a possible solution, and \"turn it off\" puts the pronoun in the middle.",
+        "Link the words: TUR-ning-i-DOFF-and-ON-again.", "Say it in English: ¿Has probado a apagarlo y volver a encenderlo?"),
+    ],
+  ),
+  // ---------------------------------------------------------------------
+  // Drill 2. Social media, the environment, weather and disasters
+  // ---------------------------------------------------------------------
+  lesson(
+    2,
+    "Social Media, Planet and Disasters",
+    "You will be able to talk about posting, following and scrolling with the right gerund patterns, discuss pollution, recycling and renewable energy with correct articles, and report disasters with \"was hit by\" and \"were evacuated\".",
+    "Recap: online, the planet and extreme weather",
+    [
+      "We are \"on social media\" (no -s, never *in the social networks); we \"post\", \"share\", \"comment on\" a post, \"follow\", \"mute\" and \"block\". After a preposition comes -ing: \"addicted to scrolling\", \"tired of seeing ads\"; also \"spend hours checking\" and \"can't stop watching\".",
+      "\"Nature\", \"pollution\" and \"climate change\" take no article, but \"the environment\" always does. Disaster reports use the passive: \"The town was hit by a flood\", \"Hundreds of people were evacuated\"; and it's \"heavy rain\", never *strong rain.",
+    ],
+    [
+      ["I spend too much time on social media.", "Paso demasiado tiempo en las redes sociales."],
+      ["She's addicted to checking her likes.", "Está enganchada a mirar sus me gusta."],
+      ["Plastic bags are terrible for the environment.", "Las bolsas de plástico son terribles para el medio ambiente."],
+      ["The coast was hit by a hurricane last night.", "Un huracán azotó la costa anoche."],
+    ],
+    [
+      fb("My cousin is always ___ photos of her food.", "posting", "Mi prima siempre está [subiendo] fotos de su comida.",
+        "To put a photo on social media is to \"post\" it. \"Upload\" is for files in general; \"post\" is the social media verb."),
+      mc("Which sentence is correct?", [
+        "I found the recipe on social media.",
+        "I found the recipe in the social networks.",
+        "I found the recipe on the social medias.",
+        "I found the recipe in social media.",
+      ], "«En las redes sociales» = \"on social media\": no \"the\", no -s, and the preposition is \"on\"."),
+      tr("Nadie comentó la foto que subí.", "Nobody commented on the {photo|picture} {I posted|that I posted}.",
+        "\"Comment ON\" a post or photo. *Commented the photo is a direct translation of «comentar algo»."),
+      fb("Please don't ___ me in that photo. I look terrible!", "tag", "Por favor, no me [etiquetes] en esa foto. ¡Salgo horrible!",
+        "«Etiquetar» someone in a photo or post = \"tag\"."),
+      tr("Lo silencié porque publicaba demasiado.", "I muted him because he {posted|was posting} too much.",
+        "\"Mute\" = stop seeing someone's posts without them knowing. \"Block\" is stronger: they can't contact you."),
+      lc("That dance is trending all over the world.", [
+        "Ese baile es tendencia en todo el mundo.",
+        "Ese baile se está enseñando en todo el mundo.",
+        "Ese baile está pasado de moda en todo el mundo.",
+        "Ese baile está prohibido en todo el mundo.",
+      ], "Something that many people are talking about online right now is \"trending\". The noun is \"a trend\"."),
+      tr("Mi hijo se pasa horas viendo videos.", "My son spends hours watching videos.",
+        "\"Spend\" + time + -ing: \"spend hours watching\". Never *spends hours to watch or *spends hours in watching."),
+      fb("I'm addicted to ___ my notifications.", "checking", "Estoy enganchado a [mirar] mis notificaciones.",
+        "In \"addicted to\", \"to\" is a preposition, so the verb takes -ing: \"addicted to checking\", never *addicted to check."),
+      mc("Which sentence is correct?", [
+        "She's tired of seeing the same ads everywhere.",
+        "She's tired of see the same ads everywhere.",
+        "She's tired to see the same ads everywhere.",
+        "She's tired for seeing the same ads everywhere.",
+      ], "«Harta de» = \"tired of\", and after the preposition \"of\" the verb takes -ing: \"tired of seeing\"."),
+      tr("No puedo dejar de ver esta serie.", "I can't stop watching this {series|show}.",
+        "\"Can't stop\" + -ing = «no poder dejar de». \"Stop to watch\" would mean pausing in order to watch."),
+      wo("We limit the kids' screen time on school nights.", "Limitamos el tiempo de pantalla de los niños las noches de escuela.",
+        "\"Screen time\" is the time spent looking at screens. The possessive \"the kids'\" goes before it."),
+      fb("We must protect ___ for future generations.", "nature", "Debemos proteger [la naturaleza] para las futuras generaciones.",
+        "\"Nature\" in general never takes \"the\": \"protect nature\", \"love nature\". *The nature sounds wrong."),
+      mc("Complete: \"Driving less is good for ___.\"", ["the environment", "environment", "the nature", "an environment"],
+        "\"The environment\" (the natural world) always takes \"the\". \"Nature\" never does: compare \"good for nature\"."),
+      tr("La contaminación del aire es peor en invierno.", "Air pollution is worse in {the |}winter.",
+        "«Contaminación» = \"pollution\", uncountable and with no article in general statements. «Del aire» goes before as a noun: \"air pollution\"."),
+      tr("Quiero reducir mi huella de carbono.", "I want to {reduce|cut} my carbon footprint.",
+        "«Huella de carbono» = \"carbon footprint\". You \"reduce\" or \"cut\" it."),
+      mt("Match the English with the Spanish.", [
+        ["fossil fuels", "combustibles fósiles"],
+        ["greenhouse gases", "gases de efecto invernadero"],
+        ["renewable energy", "energía renovable"],
+        ["an endangered species", "una especie en peligro de extinción"],
+        ["single-use plastics", "plásticos de un solo uso"],
+        ["wildlife", "fauna, animales salvajes"],
+      ], "Key environment collocations. \"Species\" is the same in singular and plural: \"one species\", \"many species\"."),
+      fb("Our building now gets all its electricity from ___ panels.", "solar", "Nuestro edificio ahora obtiene toda la electricidad de paneles [solares].",
+        "«Paneles solares» = \"solar panels\". Adjectives never take a plural -s in English: *solars panels is wrong."),
+      tr("¿En tu ciudad reciclan el vidrio?", ["Do they recycle glass in your city?", "Is glass recycled in your city?", "Does your city recycle glass?"],
+        "\"Recycle\" (ree-SY-kul). Materials in general (glass, plastic, paper) take no \"the\". Impersonal «reciclan» can be \"they recycle\" or a passive."),
+      dc("Several species have become extinct because of deforestation.",
+        "\"Species\" has no different plural form; \"become extinct\" = «extinguirse»."),
+      sp("We should stop using single-use plastics.", "\"Stop\" + -ing = «dejar de». \"Single-use\" is a compound adjective, so no -s.",
+        "Stress \"SINGLE-use\" and \"PLAStics\".", "Say it in English: Deberíamos dejar de usar plásticos de un solo uso."),
+      fb("The south of the country has had no rain for months. It's the worst ___ in fifty years.", "drought", "El sur del país lleva meses sin lluvia. Es la peor [sequía] en cincuenta años.",
+        "«Sequía» = \"drought\", which rhymes with \"out\"."),
+      tr("Esta semana hay una ola de calor en el norte.", "{There's|There is} a heatwave in the north this week.",
+        "«Ola de calor» = \"heatwave\" (often written as one word)."),
+      mc("Which sentence is correct?", [
+        "There was heavy rain all night.",
+        "There was strong rain all night.",
+        "There was a heavy rain all night.",
+        "There were heavy rains all night.",
+      ], "The collocation is \"heavy rain\", not *strong rain (but \"strong winds\"). \"Rain\" is uncountable here, with no \"a\"."),
+      lc("The house was struck by lightning.", [
+        "Le cayó un rayo a la casa.",
+        "La casa fue golpeada por un árbol.",
+        "La casa se quedó sin luz.",
+        "La casa tembló por el trueno.",
+      ], "«Rayo» = \"lightning\" (uncountable), never *ray. \"Thunder\" is the noise; \"struck by lightning\" is the usual passive."),
+      wo("It took firefighters three days to put out the fire.", "Los bomberos tardaron tres días en apagar el incendio.",
+        "\"Put out\" a fire = «apagar». \"Wildfire\" is a fire out of control in the countryside."),
+      tr("Un terremoto muy fuerte sacudió la región anoche.", "A {powerful|strong} earthquake {shook|hit|struck} the region last night.",
+        "«Terremoto» = \"earthquake\"; the natural collocation is \"a powerful earthquake\". Irregular past: shake, shook."),
+      fb("Thousands of people ___ before the hurricane arrived.", "were evacuated", "[Evacuaron a] miles de personas antes de que llegara el huracán.",
+        "English uses the passive where Spanish uses impersonal «evacuaron»: \"people were evacuated\"."),
+      tr("La isla fue azotada por un huracán el domingo.", ["The island was {hit|struck} by a hurricane on Sunday.", "A hurricane {hit|struck} the island on Sunday."],
+        "\"Be hit by\" / \"be struck by\" are the key news verbs for disasters. Note the participles: \"hit\", \"struck\"."),
+      tr("Cientos de casas han sido destruidas por la inundación.", ["Hundreds of {homes|houses} have been destroyed by the flood.", "The flood has destroyed hundreds of {homes|houses}."],
+        "Present perfect passive: \"have been\" + participle. \"Flood\" rhymes with \"mud\". «Cientos de» = \"hundreds of\"."),
+      mc("Which sentence is correct?", [
+        "Many people were left without power after the storm.",
+        "Many people were leaved without power after the storm.",
+        "Many people stayed without power after the storm.",
+        "Many people were left without the power after the storm.",
+      ], "«Quedarse sin luz» in news English is \"be left without power\" (or \"electricity\"). The participle of \"leave\" is \"left\"."),
+      dc("Several people were injured when the bridge collapsed.",
+        "People are \"injured\" in accidents and disasters, never *hurted. «Resultar herido» = \"be injured\"."),
+      tr("Me encanta estar en la naturaleza, pero odio ver tanto plástico.", "I love {being|spending time} in nature, but I hate seeing so much plastic.",
+        "\"Nature\" without \"the\", and \"love\" / \"hate\" + -ing. «Tanto plástico» = \"so much plastic\" (uncountable)."),
+      tr("Publicó un video de la inundación y se hizo viral.", "{She|He} posted a video of the flood and it went viral.",
+        "\"Post\" a video, and it \"goes viral\" (past: \"went\"). The subject \"it\" is needed in English."),
+      sp("The more I scroll, the more anxious I feel.", "\"The\" + comparative, \"the\" + comparative = «cuanto más..., más...».",
+        "Stress \"more\", \"scroll\", \"anxious\" and \"feel\".", "Say it in English: Cuanto más deslizo, más ansioso me siento."),
+    ],
+  ),
+  // ---------------------------------------------------------------------
+  // Drill 3. Science, tech phrasal verbs, word formation + whole unit
+  // ---------------------------------------------------------------------
+  lesson(
+    3,
+    "Science, Phrasal Verbs and Word Building",
+    "You will be able to talk about research, evidence and discoveries, use tech phrasal verbs with the pronoun in the right place, build nouns and adjectives with suffixes, and combine all the vocabulary of the unit.",
+    "Recap: research, turn it on, and suffixes",
+    [
+      "\"Research\" and \"evidence\" are uncountable (no *a research, no *evidences); you \"carry out\" or \"conduct\" research, you \"discover\" what already existed and \"invent\" what is new, and «enterarse» is \"find out\". A scientist is a \"researcher\".",
+      "With separable phrasal verbs, a pronoun goes in the middle: \"turn it off\", \"look it up\", \"back them up\". Suffixes build words: \"improve\" → \"improvement\", \"aware\" → \"awareness\", \"use\" → \"useful\" / \"useless\", \"afford\" → \"affordable\". And \"sensible\" means «sensato».",
+    ],
+    [
+      ["There is no evidence that the drug is harmful.", "No hay pruebas de que el medicamento sea dañino."],
+      ["Who invented the light bulb?", "¿Quién inventó el foco?"],
+      ["The printer is still on. Can you turn it off?", "La impresora sigue encendida. ¿La puedes apagar?"],
+      ["Solar energy is becoming more affordable.", "La energía solar es cada vez más asequible."],
+    ],
+    [
+      fb("There has been a lot of ___ into the effects of social media on teenagers.", "research", "Se ha hecho mucha [investigación] sobre los efectos de las redes sociales en los adolescentes.",
+        "Scientific «investigación» is \"research\", uncountable: \"a lot of research\", never *many researches. \"Investigation\" is what the police do."),
+      mc("Which sentence is correct?", [
+        "A new study shows that walking improves memory.",
+        "A new research shows that walking improves memory.",
+        "A new investigation shows that walking improves memory.",
+        "New researches show that walking improves memory.",
+      ], "One piece of research is \"a study\". *A research and *researches are wrong, and \"investigation\" is for the police."),
+      tr("Mi tía es investigadora en una universidad.", "My aunt is a researcher at a university.",
+        "A scientist who does research is \"a researcher\". \"An investigator\" sounds like a detective. Don't forget \"a\" before a job."),
+      tr("Hicieron un experimento con plantas.", "They {did|carried out|conducted} an experiment {on|with} plants.",
+        "You \"do\", \"carry out\" or \"conduct\" an experiment. Don't confuse \"experiment\" with \"experience\" («experiencia»)."),
+      fb("We need more ___ before we can draw any conclusions.", "evidence", "Necesitamos más [pruebas] antes de poder sacar conclusiones.",
+        "«Pruebas» in science or law is \"evidence\", uncountable: \"more evidence\", \"a piece of evidence\", never *evidences."),
+      mc("Complete: \"Marie Curie ___ radium in 1898.\"", ["discovered", "invented", "found out", "developed"],
+        "Radium already existed in nature, so it was \"discovered\". You \"invent\" something new, like a machine."),
+      tr("¿Quién inventó la lavadora?", "Who invented the washing machine?",
+        "A machine didn't exist before, so it was \"invented\". «Descubrir» is never \"invent\", and «inventar» is never \"discover\"."),
+      tr("Ayer descubrí que mi vecino es médico.", ["Yesterday I found out that my neighbor is a doctor.", "I found out yesterday that my neighbor is a doctor.", "I found out that my neighbor {is|was} a doctor yesterday."],
+        "«Descubrir» meaning «enterarse» is \"find out\" (past \"found out\"). \"Discover\" is for science and formal contexts."),
+      lc("Researchers have made a major breakthrough.", [
+        "Los investigadores han logrado un gran avance.",
+        "Los investigadores han roto un acuerdo importante.",
+        "Los investigadores han hecho una pausa importante.",
+        "Los investigadores han cometido un gran error.",
+      ], "\"Make a breakthrough\" = achieve a very important discovery or advance («lograr un gran avance»)."),
+      fb("It's freezing in here. Can you ___ the heating?", "turn up", "Hace muchísimo frío aquí. ¿Puedes [subir] la calefacción?",
+        "\"Turn up\" / \"turn down\" are for volume and heating. \"Turn on\" / \"turn off\" are for switching something on or off completely."),
+      mc("Which sentence is correct?", [
+        "I don't have his number. I'll look it up.",
+        "I don't have his number. I'll look up it.",
+        "I don't have his number. I'll look it for.",
+        "I don't have his number. I'll search it up.",
+      ], "With a pronoun, separable phrasal verbs put it in the middle: \"look it up\", never *look up it."),
+      tr("La lámpara sigue encendida. ¿La puedes apagar?", "The lamp is still on. Can you {turn|switch} it off?",
+        "\"Turn off\" + pronoun = \"turn it off\". *Turn off it is always wrong."),
+      wo("Plug the charger in before the battery dies.", "Enchufa el cargador antes de que se acabe la batería.",
+        "\"Plug in\" is separable: \"plug the charger in\" or \"plug in the charger\". With a pronoun: \"plug it in\".",
+        ["Plug in the charger before the battery dies."]),
+      tr("Tardé una hora en configurar el router nuevo.", ["It took me an hour to set up the new router.", "It took me an hour to set the new router up."],
+        "«Configurar», «instalar» = \"set up\". «Tardé una hora en» = \"It took me an hour to\"."),
+      fb("Make sure you ___ your computer before you go home.", ["shut down", "turn off", "switch off"], "Asegúrate de [apagar] la computadora antes de irte a casa.",
+        "\"Shut down\" a computer = turn it off completely. A company or website can also \"shut down\" (close for good)."),
+      tr("Me inscribí en un curso de fotografía en línea.", "I signed up for an online photography course.",
+        "«Inscribirse», «registrarse» = \"sign up for\" something. The verb is two words; the noun is \"a sign-up\"."),
+      dc("Scroll down to the bottom of the page and click on the link.",
+        "\"Scroll down\" on a screen, and \"click on\" a link."),
+      fb("There has been a big ___ in the city's air quality.", "improvement", "Ha habido una gran [mejora] en la calidad del aire de la ciudad.",
+        "\"Improve\" + -ment = \"improvement\". Learn verb + noun pairs: \"develop\" → \"development\", \"pollute\" → \"pollution\"."),
+      mt("Match each word with the noun formed from it.", [
+        ["aware", "awareness"],
+        ["responsible", "responsibility"],
+        ["explain", "explanation"],
+        ["develop", "development"],
+        ["happy", "happiness"],
+        ["pronounce", "pronunciation"],
+      ], "Watch the spelling changes: happy → happiness (y becomes i), explain → explanation, pronounce → pronunciation (no \"o\" in the middle)."),
+      tr("Tenemos que concientizar sobre el reciclaje.", "We need to raise awareness {about|of} recycling.",
+        "«Concientizar» = \"raise awareness\". \"Aware\" + -ness = \"awareness\"."),
+      mc("Which word is spelled correctly?", ["successful", "successfull", "succesful", "sucessfull"],
+        "The suffix \"-ful\" has only one \"l\": \"successful\", \"useful\", \"beautiful\". The adverb doubles it: \"successfully\"."),
+      fb("Don't worry, the dog is completely ___. It won't bite.", "harmless", "No te preocupes, el perro es completamente [inofensivo]. No muerde.",
+        "\"-less\" means «sin»: \"harmless\" = without harm. The opposite is \"harmful\" («dañino»)."),
+      tr("Este cargador ya no sirve para nada.", "This charger is {completely |totally |}useless {now|these days|}.",
+        "«No sirve para nada» = \"useless\" (use + -less). The positive is \"useful\"."),
+      lc("That's a very sensible idea.", [
+        "Es una idea muy sensata.",
+        "Es una idea muy sensible.",
+        "Es una idea muy delicada.",
+        "Es una idea muy emotiva.",
+      ], "False friend: \"sensible\" means «sensato». «Sensible» (a person) is \"sensitive\"."),
+      tr("Esta laptop es muy asequible y está disponible en tres colores.", "This laptop is very affordable and {it's |it is |}available in three colors.",
+        "\"Affordable\" = «asequible» (you can afford it), and \"available\" = «disponible». Both use the suffix \"-able\"."),
+      mc("Which sentence is correct?", [
+        "I lost points for a careless mistake.",
+        "I lost points for a carefulless mistake.",
+        "I lost points for an uncareful mistake.",
+        "I lost points for a careless's mistake.",
+      ], "«Un error por descuido» = \"a careless mistake\" (care + -less). The opposite adjective is \"careful\"."),
+      tr("Se ha demostrado que la teoría era correcta.", ["The theory has been proved {correct|right}.", "The theory has been proven {correct|right}.", "It has been proved that the theory was {correct|right}.", "It has been proven that the theory was {correct|right}."],
+        "You \"prove\" a theory when you show it is true. The passive \"has been proved\" (or \"proven\") replaces Spanish «se ha demostrado»."),
+      wo("Hundreds of homes have been destroyed by the floods.", "Cientos de casas han sido destruidas por las inundaciones.",
+        "Present perfect passive for disaster news: \"have been\" + participle, with \"by\" for the cause."),
+      tr("El sitio web fue hackeado y robaron los datos de millones de usuarios.", ["The website was hacked and the data of millions of users was stolen.", "The website was hacked and {the |}data from millions of users was stolen.", "The website was hacked and millions of users' data was stolen.", "The website was hacked and they stole the data of millions of users."],
+        "News English prefers the passive: \"was hacked\", \"was stolen\". \"Data\" is uncountable, so the verb is singular: \"data was stolen\"."),
+      fb("He hasn't answered my messages. He must ___ me.", ["have blocked", "have muted"], "No contesta mis mensajes. Seguro que me [ha bloqueado].",
+        "Deduction about the past: \"must have\" + participle (= «seguro que...»). The opposite is \"can't have\", not *mustn't have."),
+      dc("Thanks to renewable energy, the city has cut its emissions by half.",
+        "\"Renewable energy\" and \"emissions\"; you \"cut\" emissions \"by half\" («a la mitad»)."),
+      mc("Which sentence is correct?", [
+        "There's a lot of fake news about climate change.",
+        "There are a lot of fake news about the climate change.",
+        "There's many fake news about climate change.",
+        "There is a fake news about the climate change.",
+      ], "Both \"fake news\" and \"climate change\" are uncountable and take no \"the\" in general statements. So: \"There's a lot of\" + singular verb."),
+      tr("Por la noche apago el celular para no pasar horas mirando las redes.", "I {turn|switch} {my phone off|off my phone} at night so I don't spend hours {checking|looking at} social media.",
+        "\"Turn off\" is separable; \"spend\" + time + -ing; and \"social media\" with no \"the\"."),
+      sp("By 2050, we will have replaced most fossil fuels with renewable energy.", "Future perfect (\"will have replaced\"), \"replace X with Y\", and the key environment collocations.",
+        "Say \"fossil\" FOSS-ul and \"renewable\" ri-NOO-uh-bul.", "Say it in English: Para 2050, habremos sustituido la mayoría de los combustibles fósiles por energía renovable."),
+      sp("A powerful earthquake hit the city, and thousands of people were evacuated.", "\"A powerful earthquake\" + active \"hit\", then the news passive \"were evacuated\".",
+        "Stress EARTH-quake and e-VAC-u-at-ed.", "Say it in English: Un fuerte terremoto azotó la ciudad y evacuaron a miles de personas."),
+    ],
+  ),
+];

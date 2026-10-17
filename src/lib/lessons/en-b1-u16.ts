@@ -1456,7 +1456,7 @@ export const EN_B1_U16: Lesson[] = [
           "The flat we're looking at is too expensive.",
           "The flat that we're looking at is too expensive.",
         ],
-        explanation: "«Mirar» is \"look at\", and \"at\" goes at the end. «Apartamento» or «piso» is \"apartment\" (\"flat\" in British English).",
+        explanation: "«Mirar» is \"look at\", and \"at\" goes at the end. «Departamento» or «apartamento» is \"apartment\" (\"flat\" in British English).",
       },
       {
         type: "translate",
@@ -2034,7 +2034,7 @@ export const EN_B1_U16: Lesson[] = [
         question: "\"It's the feeling you have when you're far from home and you miss it.\" What's the word?",
         options: ["homesickness", "jealousy", "boredom", "embarrassment"],
         correctIndex: 0,
-        explanation: "Homesickness is «nostalgia» or «morriña». Careful: \"embarrassment\" is «vergüenza», not «embarazo».",
+        explanation: "Homesickness is «nostalgia» (missing home). Careful: \"embarrassment\" is «vergüenza», not «embarazo».",
       },
       {
         type: "word-order",
@@ -2079,7 +2079,7 @@ export const EN_B1_U16: Lesson[] = [
         heading: "The one who...",
         body: [
           "When you show someone a photo, you need to say WHICH person you mean. English uses \"the one\" so you don't repeat the noun: \"Which one is your brother?\" \"The one who's wearing glasses.\"",
-          "Spanish says «el de las gafas» or «el que lleva gafas». English has no word-for-word equivalent of «el de», so use \"the one with...\" or \"the one who...\": \"the one with the beard\", \"the one who's laughing\".",
+          "Spanish says «el de lentes» or «el que usa lentes». English has no word-for-word equivalent of «el de», so use \"the one with...\" or \"the one who...\": \"the one with the beard\", \"the one who's laughing\".",
           "For clothes and accessories, use the present continuous with \"wear\": \"the one who's wearing a red dress\". Or simply \"the one in the red dress\".",
         ],
         examples: [
@@ -2391,12 +2391,12 @@ export const EN_B1_U16: Lesson[] = [
       {
         heading: "Work as, not work of",
         body: [
-          "Spanish says «trabajo de camarero». English says \"I work as a waiter\", never *I work of a waiter. And the article is needed: \"as A waiter\".",
+          "Spanish says «trabajo de mesero». English says \"I work as a waiter\", never *I work of a waiter. And the article is needed: \"as A waiter\".",
           "The most common question is \"What do you do?\" (not \"What is your work?\"). The usual answer is just \"I'm a nurse\" or \"I work as a nurse\".",
           "To talk about the place or the field: \"I work IN a hospital\", \"I work IN marketing\", \"I work FOR a bank\" (the company), \"I work AT Google\".",
         ],
         examples: [
-          { es: "I work as a waiter on weekends.", en: "Trabajo de camarero (mesero) los fines de semana." },
+          { es: "I work as a waiter on weekends.", en: "Trabajo de mesero los fines de semana." },
           { es: "What do you do? I'm a nurse.", en: "¿A qué te dedicas? Soy enfermera." },
           { es: "She works in marketing.", en: "Trabaja en marketing." },
           { es: "My father works for a bank.", en: "Mi padre trabaja para un banco." },

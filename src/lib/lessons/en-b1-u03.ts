@@ -1758,7 +1758,7 @@ export const EN_B1_U03: Lesson[] = [
         body: [
           "Wrong: *In the end of the movie, he dies. Right: \"At the end of the movie, he dies.\" Use \"at the end of\" + noun for the last part of something.",
           "Wrong: *Eventually I go to the gym (meaning «de vez en cuando»). Right: \"Occasionally I go to the gym.\" \"Eventually\" means «al final».",
-          "Wrong: *Two days ago, I had met her in a story about last year. Right: \"I had met her two days before.\" In a story, \"before\" or \"earlier\" counts back from the story moment; \"ago\" counts back from today.",
+          "Wrong (in a story about last year): *Two days ago, I had met her. Right: \"I had met her two days before.\" In a story, \"before\" or \"earlier\" counts back from the story moment; \"ago\" counts back from today.",
         ],
         examples: [
           { es: "At the end of the movie, he dies.", en: "Al final de la película, él muere." },

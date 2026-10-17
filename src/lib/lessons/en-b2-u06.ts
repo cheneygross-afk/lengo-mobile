@@ -201,8 +201,8 @@ export const EN_B2_U06: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Si mis padres no hubieran insistido, nunca habría ido a la universidad.",
-        answer: "If my parents hadn't insisted, I would never have gone to university.",
-        altAnswers: ["If my parents hadn't insisted, I'd never have gone to college.", "If my parents hadn't insisted, I never would have gone to university.", "If my parents hadn't insisted, I never would have gone to college."],
+        answer: "If my parents hadn't insisted, I would never have gone to college.",
+        altAnswers: ["If my parents hadn't insisted, I would never have gone to university.", "If my parents hadn't insisted, I'd never have gone to college.", "If my parents hadn't insisted, I never would have gone to university.", "If my parents hadn't insisted, I never would have gone to college."],
         explanation: "\"Never\" goes after \"would\" (or before it, in American English): \"would never have gone\". Americans usually say \"college\".",
       },
       {
@@ -357,12 +357,12 @@ export const EN_B2_U06: Lesson[] = [
         heading: "«En caso de que» and «por si»: if or in case?",
         body: [
           "\"In case\" in English means «por si (acaso)»: you do something now as a precaution against a possible event. \"Take an umbrella in case it rains\" = take it now, because it might rain.",
-          "\"If\" makes the action depend on the event: \"If it rains, we'll eat inside\" = we will only eat inside when it rains. So «en caso de que llueva, comeremos dentro» is \"If it rains, we'll eat inside\", not *In case it rains.",
+          "\"If\" makes the action depend on the event: \"If it rains, we'll eat inside\" = we will only eat inside when it rains. So «en caso de que llueva, comeremos adentro» is \"If it rains, we'll eat inside\", not *In case it rains.",
           "After both \"if\" and \"in case\", use the present for the future: \"in case it rains\", never *in case it will rain. Formal English also has \"in the event that\" and \"in case of\" + noun (\"In case of fire, use the stairs\").",
         ],
         examples: [
           { es: "Take an umbrella in case it rains.", en: "Llévate un paraguas por si llueve." },
-          { es: "If it rains, we'll eat inside.", en: "En caso de que llueva, comeremos dentro." },
+          { es: "If it rains, we'll eat inside.", en: "En caso de que llueva, comeremos adentro." },
           { es: "I'll write down my number in case you need anything.", en: "Te apunto mi número por si necesitas algo." },
           { es: "If you need anything, call me.", en: "En caso de que necesites algo, llámame." },
           { es: "In case of fire, use the stairs.", en: "En caso de incendio, usen las escaleras." },
@@ -379,7 +379,7 @@ export const EN_B2_U06: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "«En caso de que llueva, la fiesta será dentro.» Which is correct?",
+            question: "«En caso de que llueva, la fiesta será adentro.» Which is correct?",
             options: [
               "If it rains, the party will be inside.",
               "In case it rains, the party will be inside.",
@@ -426,7 +426,7 @@ export const EN_B2_U06: Lesson[] = [
         sentence: "I'll leave the key under the mat ___ you get home first.",
         answer: "in case",
         altAnswers: ["just in case"],
-        en: "Dejo la llave debajo del felpudo [por si] llegas tú primero.",
+        en: "Dejo la llave debajo del tapete [por si] llegas tú primero.",
         explanation: "A precaution: \"in case\". And present \"you get\" for the future.",
       },
       {
@@ -435,7 +435,7 @@ export const EN_B2_U06: Lesson[] = [
         sentence: "___ you need anything, call me.",
         answer: "If",
         en: "[En caso de que] necesites algo, llámame.",
-        explanation: "The call happens only if you need something, so \"if\". *In case you need anything, call me sounds wrong to most speakers.",
+        explanation: "The call happens only if you need something, so \"if\". In careful English \"in case\" means «por si»; \"if\" is the safe choice here.",
       },
       {
         type: "translate",
@@ -544,7 +544,7 @@ export const EN_B2_U06: Lesson[] = [
           "Corrected: \"If you need help with your CV, send me a message.\"",
         ],
         examples: [
-          { es: "If you need help with your CV, send me a message.", en: "Si necesitas ayuda con tu currículum, mándame un mensaje." },
+          { es: "If you need help with your resume, send me a message.", en: "Si necesitas ayuda con tu currículum, mándame un mensaje." },
           { es: "If it rains tomorrow, we'll cancel the trip.", en: "Si llueve mañana, cancelaremos la excursión. (incorrecto: *If it will rain)" },
           { es: "I'll call you when I get there.", en: "Te llamaré cuando llegue." },
           { es: "As long as you practice, you'll improve.", en: "Mientras practiques, mejorarás." },
@@ -553,7 +553,7 @@ export const EN_B2_U06: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "If you ___ help with your CV, send me a message.",
+            sentence: "If you ___ help with your resume, send me a message.",
             answer: "need",
             en: "Si [necesitas] ayuda con tu currículum, mándame un mensaje.",
             explanation: "Present after \"if\", even with a future meaning: \"if you need\", not *if you will need.",
@@ -804,7 +804,7 @@ export const EN_B2_U06: Lesson[] = [
         ],
         examples: [
           { es: "It might be worth calling them before you go.", en: "Quizás valga la pena llamarlos antes de ir." },
-          { es: "It's worth visiting the old town.", en: "Vale la pena visitar el casco antiguo." },
+          { es: "It's worth visiting the old town.", en: "Vale la pena visitar el centro histórico." },
           { es: "It's not worth arguing about it.", en: "No vale la pena discutir por eso." },
           { es: "The course was expensive, but it was worth it.", en: "El curso fue caro, pero valió la pena." },
         ],
@@ -832,7 +832,7 @@ export const EN_B2_U06: Lesson[] = [
           { es: "You could ask your manager for advice.", en: "Podrías pedirle consejo a tu jefe." },
           { es: "Have you thought about changing careers?", en: "¿Has pensado en cambiar de profesión?" },
           { es: "How about going for a walk?", en: "¿Qué tal si damos un paseo?" },
-          { es: "I recommend booking in advance.", en: "Te recomiendo reservar con antelación. (incorrecto: *I recommend you to book)" },
+          { es: "I recommend booking in advance.", en: "Te recomiendo reservar con anticipación. (incorrecto: *I recommend you to book)" },
         ],
         checkpoint: [
           {
@@ -1603,7 +1603,7 @@ export const EN_B2_U06: Lesson[] = [
           "Watch the false friend: \"find\" is «encontrar»; \"meet\" is «encontrarse con alguien». And \"hand in\" is to give something to an authority.",
         ],
         examples: [
-          { es: "What would you do if you found a wallet full of cash?", en: "¿Qué harías si encontraras una cartera llena de dinero?" },
+          { es: "What would you do if you found a wallet full of cash?", en: "¿Qué harías si encontraras una billetera llena de dinero?" },
           { es: "I'd hand it in to the police.", en: "La entregaría a la policía." },
           { es: "I'd try to find the owner.", en: "Intentaría encontrar al dueño." },
           { es: "I'd be tempted to keep it, but I wouldn't.", en: "Me sentiría tentado de quedármela, pero no lo haría." },
@@ -1614,7 +1614,7 @@ export const EN_B2_U06: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "¿Qué harías si encontraras una cartera llena de dinero?",
+            source: "¿Qué harías si encontraras una billetera llena de dinero?",
             answer: "What would you do if you found a wallet full of cash?",
             altAnswers: ["What would you do if you found a wallet full of money?", "What would you do if you found a purse full of money?", "What would you do if you found a purse full of cash?", "What would you do if you were to find a wallet full of money?"],
             explanation: "Imaginary situation: \"if\" + past (\"found\"), \"would\" in the question.",
@@ -1632,7 +1632,7 @@ export const EN_B2_U06: Lesson[] = [
       {
         heading: "What would you have done?",
         body: [
-          "When you discuss a real past case (a news story, a film, something a friend did), use the third conditional: \"What would you have done in her position?\" \"I would have told the truth.\"",
+          "When you discuss a real past case (a news story, a movie, something a friend did), use the third conditional: \"What would you have done in her position?\" \"I would have told the truth.\"",
           "To judge carefully, combine it with \"might have\" or \"I'm not sure\": \"I might have done the same\", \"I'm not sure what I would have done.\" Note the word order in the indirect question: \"what I would have done\", not *what would I have done.",
           "\"In her position\" / \"in his shoes\" / \"in that situation\" are natural ways to say «en su lugar», «en esa situación».",
         ],
@@ -1781,7 +1781,7 @@ export const EN_B2_U06: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Choose one dilemma: you see a colleague stealing from the company; your friend asks you to lie for them; a shop gives you too much change. Say what you would do and why. Then describe a real situation from the past and say what you would or wouldn't have done differently.",
+        prompt: "Choose one dilemma: you see a colleague stealing from the company; your friend asks you to lie for them; a store gives you too much change. Say what you would do and why. Then describe a real situation from the past and say what you would or wouldn't have done differently.",
         minWords: 60,
         maxWords: 120,
         rubric: [
@@ -1790,7 +1790,7 @@ export const EN_B2_U06: Lesson[] = [
           "Uses at least one of \"I'd be tempted to\", \"I'd rather\", \"even if\"",
           "No \"would\" in any \"if\" half",
         ],
-        modelAnswer: "If a shop gave me too much change, I'd go back and return it. I'd be tempted to keep it if it were a big supermarket, but I'd rather be honest. Last year a waiter forgot to charge us for two drinks. I didn't say anything, and I still feel bad. If I had noticed earlier, I would have told him. If I were braver, I would have gone back the next day.",
+        modelAnswer: "If a store gave me too much change, I'd go back and return it. I'd be tempted to keep it if it were a big supermarket, but I'd rather be honest. Last year a waiter forgot to charge us for two drinks. I didn't say anything, and I still feel bad. If I had noticed earlier, I would have told him. If I were braver, I would have gone back the next day.",
         explanation: "Check that imaginary present situations use past + would and past ones use past perfect + would have.",
       },
     ],

@@ -231,7 +231,7 @@ export const EN_A2_U20_DRILLS: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Voy a nadar dos veces por semana.",
+        source: "Suelo ir a nadar dos veces por semana.",
         answer: "I go swimming twice a week.",
         altAnswers: ["I swim twice a week."],
         explanation: "«Dos veces» es \"twice\", y la frecuencia va sin preposición: \"twice a week\".",
@@ -635,7 +635,7 @@ export const EN_A2_U20_DRILLS: Lesson[] = [
         type: "speak",
         text: "I'm so excited! I won a trip to Mexico.",
         tip: "\"Won\" suena igual que \"one\": «uán».",
-        explanation: "\"Excited\" = «ilusionado»; \"win\" (pasado \"won\") con un premio.",
+        explanation: "\"Excited\" = «emocionado»; \"win\" (pasado \"won\") con un premio.",
       },
       {
         type: "listen-choose",

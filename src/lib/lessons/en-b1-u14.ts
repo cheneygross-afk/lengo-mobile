@@ -117,8 +117,8 @@ export const EN_B1_U14: Lesson[] = [
         heading: "Spanish «se» is not \"it\" + verb",
         body: [
           "Spanish speakers often translate «se venden casas» as *It is sold houses or *Sells houses. Both are wrong. In English, the thing (\"houses\") becomes the subject of a passive: \"Houses are sold here.\"",
-          "Watch the verb: «se vende» or «se venden» depends on the thing, and English \"is\" or \"are\" does too. «Se habla inglés» is \"English is spoken\"; «se venden pisos» is \"Apartments are sold.\"",
-          "On a sign, English often drops the verb completely: «se venden pisos» is simply \"Apartments for sale\", and «se habla inglés» is \"English spoken here\".",
+          "Watch the verb: «se vende» or «se venden» depends on the thing, and English \"is\" or \"are\" does too. «Se habla inglés» is \"English is spoken\"; «se venden departamentos» is \"Apartments are sold.\"",
+          "On a sign, English often drops the verb completely: «se venden departamentos» is simply \"Apartments for sale\", and «se habla inglés» is \"English spoken here\".",
         ],
         examples: [
           { es: "Houses are sold here.", en: "Aquí se venden casas." },
@@ -1989,7 +1989,7 @@ export const EN_B1_U14: Lesson[] = [
       {
         heading: "Parts of the city",
         body: [
-          "«El centro» of a city is \"downtown\" in American English and \"the city centre\" in British English. Spanish speakers often say \"the centre of the city\", which sounds unnatural. Say \"I work downtown\" or \"I live in the city center.\"",
+          "«El centro» of a city is \"downtown\" in American English and \"the city centre\" in British English. Spanish speakers often say \"the center of the city\", which is correct but less natural. Say \"I work downtown\" or \"I live in the city center.\"",
           "A \"neighborhood\" (British: \"neighbourhood\") is «un barrio». The \"suburbs\" are the residential areas outside the city, often quiet and middle-class: «las afueras» or «las zonas residenciales». False friend: they are not «los suburbios» in the sense of a poor area.",
           "\"The outskirts\" is the edge of a town: \"a factory on the outskirts of Lima\".",
         ],
@@ -2008,7 +2008,7 @@ export const EN_B1_U14: Lesson[] = [
             source: "Trabajo en el centro.",
             answer: "I work downtown.",
             altAnswers: ["I work in the city center.", "I work in the city centre.", "I work in the center.", "I work in town.", "I work in the town center."],
-            explanation: "«El centro» is \"downtown\" (American, no \"in\") or \"the city center\". \"The centre of the city\" sounds unnatural.",
+            explanation: "«El centro» is \"downtown\" (American, no \"in\") or \"the city center\". \"The center of the city\" is possible but less natural.",
           },
           {
             type: "multiple-choice",
@@ -2212,7 +2212,7 @@ export const EN_B1_U14: Lesson[] = [
         rubric: [
           "Uses at least four city words (neighborhood, downtown, sidewalk, intersection, square, parking lot...)",
           "Uses at least two passives about a building (\"was built\", \"was renovated\", \"was turned into\")",
-          "Doesn't say \"the centre of the city\" or *a parking",
+          "Prefers \"downtown\" to \"the center of the city\", and never says *a parking",
         ],
         modelAnswer: "I live in a quiet neighborhood about ten minutes from downtown. The sidewalks are wide and there are lots of trees. At the end of my street there's a big intersection with a roundabout and a small square. In the square there's an old train station. It was built in 1905 and was turned into a library in 2010. It was renovated last year, and now it's my favorite place to study.",
         explanation: "Check your city vocabulary and the passives for the building's history.",

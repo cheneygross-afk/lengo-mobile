@@ -1370,7 +1370,7 @@ export const PT_A2_U09: Lesson[] = [
           { es: "Seu Antônio, fale mais devagar, por favor.", en: "Mr. Antônio, please speak more slowly." },
           { es: "Espera aí, Bia!", en: "Hang on, Bia!" },
           { es: "Espere um momentinho, por favor.", en: "Wait just a moment, please." },
-          { es: "Come mais um pouco, filho.", en: "Have a bit more, son." },
+          { es: "Come mais um pouco, filho.", en: "Have a bit more, my boy." },
           { es: "Abra a boca, por favor.", en: "Open your mouth, please. (dentist to patient)" },
         ],
         checkpoint: [

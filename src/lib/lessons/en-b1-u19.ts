@@ -1678,14 +1678,14 @@ export const EN_B1_U19: Lesson[] = [
         heading: "Starting the news",
         body: [
           "In English, people often start gossip with a short question to get attention: \"Guess what?\", \"Did you hear about Tom?\", \"You won't believe this.\"",
-          "Then they give the source with reported speech: \"Ana told me...\", \"Tom said...\", or \"I heard that...\". \"I heard\" is «me he enterado de que» or «he oído que».",
+          "Then they give the source with reported speech: \"Ana told me...\", \"Tom said...\", or \"I heard that...\". \"I heard\" is «me enteré de que» or «oí que».",
           "\"Apparently\" is very useful: it means «por lo visto» or «según parece», and it shows the news is not 100% confirmed: \"Apparently, they're getting divorced.\"",
         ],
         examples: [
-          { es: "Guess what?", en: "¿A que no sabes qué?" },
-          { es: "Did you hear about Tom?", en: "¿Te has enterado de lo de Tom?" },
+          { es: "Guess what?", en: "¿Adivina qué?" },
+          { es: "Did you hear about Tom?", en: "¿Te enteraste de lo de Tom?" },
           { es: "You won't believe this.", en: "No te lo vas a creer." },
-          { es: "I heard that Emma quit her job.", en: "Me he enterado de que Emma ha dejado el trabajo." },
+          { es: "I heard that Emma quit her job.", en: "Me enteré de que Emma dejó el trabajo." },
           { es: "Apparently, they're getting divorced.", en: "Por lo visto, se van a divorciar." },
         ],
         checkpoint: [
@@ -1693,7 +1693,7 @@ export const EN_B1_U19: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "¿Te has enterado de lo de Tom?",
+            source: "¿Te enteraste de lo de Tom?",
             answer: "Did you hear about Tom?",
             altAnswers: ["Have you heard about Tom?"],
             explanation: "«Enterarse de lo de...» is simply \"hear about...\". No word for «lo de» is needed.",
@@ -1717,7 +1717,7 @@ export const EN_B1_U19: Lesson[] = [
         examples: [
           { es: "She told me she was leaving the company.", en: "Me dijo que se iba de la empresa." },
           { es: "According to Lucia, the party was a disaster.", en: "Según Lucia, la fiesta fue un desastre." },
-          { es: "Who told you that?", en: "¿Quién te ha dicho eso?" },
+          { es: "Who told you that?", en: "¿Quién te dijo eso?" },
           { es: "What exactly did he say?", en: "¿Qué dijo exactamente?" },
           { es: "She said she's pregnant!", en: "¡Dijo que está embarazada!" },
         ],
@@ -1726,7 +1726,7 @@ export const EN_B1_U19: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "¿Quién te ha dicho eso?",
+            source: "¿Quién te dijo eso?",
             answer: "Who told you that?",
             altAnswers: ["Who said that to you?", "Who has told you that?"],
             explanation: "\"Tell\" + person: \"Who told you that?\". In American English the past simple is normal here.",
@@ -1833,8 +1833,8 @@ export const EN_B1_U19: Lesson[] = [
         sentence: "___ that Diego got the job.",
         answer: "I heard",
         altAnswers: ["I've heard"],
-        en: "[Me he enterado de] que a Diego le dieron el trabajo.",
-        explanation: "«Me he enterado de que» is \"I heard (that)\". *I enter that doesn't exist.",
+        en: "[Me enteré de] que a Diego le dieron el trabajo.",
+        explanation: "«Me enteré de que» is \"I heard (that)\". *I enter that doesn't exist.",
       },
       {
         type: "multiple-choice",
@@ -2146,14 +2146,14 @@ export const EN_B1_U19: Lesson[] = [
         heading: "Friendly talk: chat and gossip",
         body: [
           "\"Chat\" is «charlar»: a relaxed, friendly conversation. It is also a noun: \"We had a nice chat.\" \"Chat with\" a person: \"I was chatting with Ana.\"",
-          "\"Gossip\" is «cotillear» or «chismear» (verb) and «cotilleo» or «chisme» (noun). It is uncountable: \"a piece of gossip\" or just \"gossip\", not \"a gossip\" for the news. (\"A gossip\" is a person who gossips: «un cotilla», «un chismoso».)",
+          "\"Gossip\" is «chismear» (verb) and «chisme» (noun). It is uncountable: \"a piece of gossip\" or just \"gossip\", not \"a gossip\" for the news. (\"A gossip\" is a person who gossips: «un chismoso».)",
           "\"Talk to\" or \"talk with\" someone \"about\" something: \"I need to talk to you about the trip.\"",
         ],
         examples: [
           { es: "We had a nice chat.", en: "Charlamos un rato muy a gusto." },
           { es: "I was chatting with Ana.", en: "Estaba charlando con Ana." },
           { es: "Stop gossiping about your neighbors!", en: "¡Deja de chismear sobre tus vecinos!" },
-          { es: "Have you heard any gossip?", en: "¿Te has enterado de algún chisme?" },
+          { es: "Have you heard any gossip?", en: "¿Te enteraste de algún chisme?" },
           { es: "I need to talk to you about the trip.", en: "Tengo que hablar contigo del viaje." },
         ],
         checkpoint: [

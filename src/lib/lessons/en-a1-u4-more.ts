@@ -1335,7 +1335,7 @@ export const EN_A1_U4_MORE: Lesson[] = [
       },
       {
         type: "listen-choose",
-        audio: "What do you do? I'm a student, but I'm working in a shop this summer.",
+        audio: "What do you do? I'm a student, but I'm working in a store this summer.",
         question: "¿Qué has oído?",
         options: [
           "Es estudiante, pero este verano trabaja en una tienda.",

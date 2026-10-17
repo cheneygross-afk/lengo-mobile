@@ -739,7 +739,7 @@ export const EN_B2_U17_EXTRA: Lesson[] = [
         sentence: "Please speak up ___ the people at the back can hear you.",
         answer: "so that",
         altAnswers: ["so"],
-        en: "Por favor, hable más alto [para que] los de atrás puedan oírle.",
+        en: "Por favor, hable más alto [para que] los de atrás puedan oírlo.",
         explanation: "New subject («los de atrás») = \"so that\" + clause with \"can\".",
       },
       {
@@ -773,7 +773,7 @@ export const EN_B2_U17_EXTRA: Lesson[] = [
           "We went to the shop to get bread.",
           "We went to the shop to buy bread.",
         ],
-        explanation: "«A por» + noun is \"for\" + noun (\"for some bread\") or \"to get\" + noun. With a verb, only \"to\": \"to buy bread\".",
+        explanation: "«Ir por» + noun is \"for\" + noun (\"for some bread\") or \"to get\" + noun. With a verb, only \"to\": \"to buy bread\".",
       },
       {
         type: "fill-blank",

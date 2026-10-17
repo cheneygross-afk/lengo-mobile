@@ -119,7 +119,7 @@ export const EN_B1_U25_DRILLS: Lesson[] = [
         "An \"of\" phrase makes \"history\" specific: \"the history of Colombia\". With an adjective instead, there is no article: \"Colombian history\". Both are correct; *the Colombian history is not."),
       fb("___ was invented in the 1870s.", ["The telephone", "The phone"], "[El teléfono] se inventó en la década de 1870.",
         "\"The\" + singular noun for a whole type of invention: \"the telephone\", \"the wheel\", \"the bicycle\". This is the one generalization that keeps \"the\"."),
-      mc("Choose the correct option: \"My grandfather plays ___ every evening.\"", ["the guitar", "guitar", "guitars", "a guitars"],
+      mc("Choose the correct option: \"My grandfather plays ___ every evening.\"", ["the guitar", "the guitars", "guitars", "a guitars"],
         "After \"play\", musical instruments take \"the\": \"play the guitar\", \"play the piano\". Sports don't: \"play soccer\"."),
       dc("The people next door have three noisy dogs.",
         "\"The people next door\" are specific people, so \"the\"; \"people\" is plural, so \"have\", not \"has\"."),

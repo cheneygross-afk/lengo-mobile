@@ -1644,12 +1644,12 @@ export const EN_A1_U7_MORE: Lesson[] = [
       {
         heading: "Errores con like",
         body: [
-          "*I like play football está mal: detrás de \"like\" no puede ir un verbo en forma base. Se dice \"I like playing football\" o \"I like to play football\".",
+          "*I like play football está mal: detrás de \"like\" no puede ir un verbo en forma base. Se dice \"I like playing soccer\" o \"I like to play soccer\".",
           "*She like dancing también está mal: con he/she/it, \"likes\". Y en negativa, \"She doesn't like\", nunca *She don't like ni *She doesn't likes.",
           "Recuerda que en inglés la persona es el sujeto: «me gusta» es \"I like\", nunca *Me like ni *It likes me.",
         ],
         examples: [
-          { es: "I like playing football.", en: "Me gusta jugar al fútbol." },
+          { es: "I like playing soccer.", en: "Me gusta jugar al fútbol." },
           { es: "My dad likes watching TV.", en: "A mi papá le gusta ver la tele." },
           { es: "She doesn't like flying.", en: "No le gusta volar." },
           { es: "Do your kids like swimming?", en: "¿A tus hijos les gusta nadar?" },
@@ -1658,7 +1658,7 @@ export const EN_A1_U7_MORE: Lesson[] = [
           {
             type: "multiple-choice",
             question: "¿Qué frase es correcta?",
-            options: ["I like playing football.", "I like play football.", "Me like playing football.", "I likes playing football."],
+            options: ["I like playing soccer.", "I like play soccer.", "Me like playing soccer.", "I likes playing soccer."],
             correctIndex: 0,
             explanation: "\"Like\" + verbo en -ing (o \"to\" + verbo). Nunca *like play.",
           },

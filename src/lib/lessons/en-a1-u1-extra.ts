@@ -121,10 +121,10 @@ export const EN_A1_U1_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Escribe en inglés las palabras en negrita.",
-        sentence: "The shops ___ closed today.",
+        sentence: "The stores ___ closed today.",
         answer: "are",
         en: "Las tiendas [están] cerradas hoy.",
-        explanation: "\"The shops\" es plural (\"they\"), así que el verbo es \"are\".",
+        explanation: "\"The stores\" es plural (\"they\"), así que el verbo es \"are\".",
       },
       {
         type: "translate",

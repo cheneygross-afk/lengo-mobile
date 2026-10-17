@@ -1882,7 +1882,7 @@ export const EN_A2_U08: Lesson[] = [
       {
         heading: "Leer anuncios de apartamentos",
         body: [
-          "En Estados Unidos, un piso o departamento es un \"apartment\"; en Reino Unido se dice \"flat\". El alquiler es \"rent\", y \"for rent\" significa «se alquila». Un \"one-bedroom apartment\" tiene un dormitorio.",
+          "En Estados Unidos, un departamento es un \"apartment\"; en Reino Unido se dice \"flat\". El alquiler es \"rent\", y \"for rent\" significa «se alquila». Un \"one-bedroom apartment\" tiene un dormitorio.",
           "En los anuncios verás palabras como \"bright\" («luminoso»), \"quiet\" («tranquilo»), \"close to downtown\" («cerca del centro») y \"furnished\" («amueblado»). \"Downtown\" es el centro de la ciudad en Estados Unidos; en Reino Unido se dice \"the city centre\".",
           "Ojo: \"large\" significa «grande», no «largo» (que es \"long\").",
         ],

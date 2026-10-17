@@ -498,7 +498,7 @@ export const EN_B1_U24: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "We have ___ time to finish.",
         answer: "too little",
-        altAnswers: ["very little"],
+        altAnswers: [],
         en: "Tenemos [demasiado poco] tiempo para terminar.",
         explanation: "\"Time\" is uncountable, so the opposite of \"too much\" is \"too little\". \"Not enough time\" means the same.",
       },
@@ -624,7 +624,7 @@ export const EN_B1_U24: Lesson[] = [
           { es: "I have so much work this week.", en: "Tengo tanto trabajo esta semana." },
           { es: "There were so many people!", en: "¡Había tanta gente!" },
           { es: "You've bought such a lot of food.", en: "Has comprado tantísima comida." },
-          { es: "I miss you so much.", en: "Te echo mucho de menos." },
+          { es: "I miss you so much.", en: "Te extraño muchísimo." },
           { es: "The city has changed so much.", en: "La ciudad ha cambiado tanto." },
         ],
         checkpoint: [
@@ -2200,7 +2200,7 @@ export const EN_B1_U24: Lesson[] = [
         heading: "Cooking verbs",
         body: [
           "Ways of cooking with heat: \"boil\" («hervir», «cocer» in water), \"fry\" («freír»), \"bake\" («hornear»: bread, cakes, cookies), \"roast\" («asar» in the oven: meat, chicken, vegetables) and \"grill\" («asar a la parrilla»).",
-          "Preparing food: \"chop\" («picar», «cortar en trozos»), \"slice\" («cortar en rodajas o rebanadas»), \"peel\" («pelar»), \"grate\" («rallar»), \"mix\" («mezclar») and \"stir\" («remover»).",
+          "Preparing food: \"chop\" («picar», «cortar en trozos»), \"slice\" («cortar en rodajas o rebanadas»), \"peel\" («pelar»), \"grate\" («rallar»), \"mix\" («mezclar») and \"stir\" («revolver»).",
           "Careful with «cocer»: for pasta, eggs or potatoes in water, say \"boil\". And «asar» depends on how: \"roast\" in the oven, \"grill\" on a grill or barbecue.",
         ],
         examples: [

@@ -127,7 +127,7 @@ const UNITS: EnglishUnitDef[] = [
   { id: "u26", title: "Phrasal Verbs, Make, Do and Get", description: "Use the most common English verbs and the combinations they form.", lessons: [...EN_B1_U26, ...EN_B1_U26_DRILLS, ...EN_B1_U26_EXTRA] },
   { id: "u27", title: "Adjectives, Adverbs and Comparisons", description: "Use -ed and -ing adjectives, put adjectives in order and make advanced comparisons.", lessons: [...EN_B1_U27, ...EN_B1_U27_DRILLS, ...EN_B1_U27_EXTRA] },
   { id: "u28", title: "Linking Words and Writing", description: "Connect ideas in writing with although, despite, however and so that.", lessons: [...EN_B1_U28, ...EN_B1_U28_DRILLS, ...EN_B1_U28_EXTRA] },
-  { id: "u29", title: "Review: The Second Half of the Level", description: "A spiral review of reported speech, verb patterns, questions and nouns.", lessons: EN_B1_U29 },
+  { id: "u29", title: "The Second Half of the Level", description: "A spiral review of reported speech, verb patterns, questions and nouns.", lessons: EN_B1_U29 },
   { id: "u30", title: "Real-Life Situations: Phone Calls, Banks and Apartments", description: "Role-play everyday tasks in English: phone calls, banking and renting an apartment.", lessons: EN_B1_U30 },
   { id: "u31", title: "Real-Life Situations: Offices, Stores and Work", description: "Handle paperwork, complaints, returns and job interviews in English.", lessons: EN_B1_U31 },
   { id: "u32", title: "Word Networks, Part 1", description: "Learn topic vocabulary for this level and practice it in mixed exercises.", lessons: EN_B1_U32 },

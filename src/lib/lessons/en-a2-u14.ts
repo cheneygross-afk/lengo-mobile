@@ -268,7 +268,7 @@ export const EN_A2_U14: Lesson[] = [
         heading: "\"Unless\": a menos que",
         body: [
           "\"Unless\" significa «a menos que» o «si no». \"Unless you hurry\" es lo mismo que \"if you don't hurry\".",
-          "Cuidado: \"unless\" ya es negativo, así que el verbo que lo sigue va en afirmativo. El error típico es *unless you don't hurry, que dice lo contrario. Y aunque el español use subjuntivo («a menos que te des prisa»), en inglés va el presente simple: \"unless you hurry\".",
+          "Cuidado: \"unless\" ya es negativo, así que el verbo que lo sigue va en afirmativo. El error típico es *unless you don't hurry, que dice lo contrario. Y aunque el español use subjuntivo («a menos que te apures»), en inglés va el presente simple: \"unless you hurry\".",
         ],
         examples: [
           { es: "You'll miss the bus unless you hurry.", en: "Perderás el autobús si no te apuras." },

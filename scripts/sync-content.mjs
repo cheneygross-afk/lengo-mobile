@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Copies lesson, story, reading, grammar-guide, placement-test, conjugation, glossary, deck, exam and French- and German-tools content from the website repo
+// Copies lesson, story, reading, grammar-guide, placement-test, conjugation, glossary, deck, exam and French-, German- and Portuguese-tools content from the website repo
 // (cheneygross-afk/lengo) into this app, so the two can't drift apart.
 // The website is the single source of truth for course content: edit a
 // lesson there, then run this script (or let the website's "Sync content
@@ -70,11 +70,22 @@ const DIRS = {
     "lessons.ts", // static import of the full lesson list for the website's server pages
   ],
   "src/lib/de-tools/data": [],
+  // The Brazilian Portuguese beta's counterparts (shown only to the beta
+  // accounts, lib/portugueseBeta.ts): stories, Celpe-Bras practice exams,
+  // conjugation engine and the study tools' vocabulary and writing tables.
+  "src/lib/stories/pt": [],
+  "src/lib/stories/pt/batches": [],
+  "src/lib/exams/pt": [],
+  "src/lib/pt-conjugation": [],
+  "src/lib/pt-tools": [
+    "lessons.ts", // static import of the full lesson list for the website's server pages
+  ],
+  "src/lib/pt-tools/data": [],
 };
 
 // Directories whose .json files sync too. JSON can't carry the "Synced
 // from" header, so these are only hash-checked (src/content-sync.json).
-const JSON_DIRS = new Set(["src/lib/fr-tools/data", "src/lib/de-tools/data"]);
+const JSON_DIRS = new Set(["src/lib/fr-tools/data", "src/lib/de-tools/data", "src/lib/pt-tools/data"]);
 
 // The website's rebuilt Japanese course (furigana markup, A1-C2 units,
 // stories, guides, videos) is web-only for now: it's ~34MB and imports
@@ -88,7 +99,11 @@ const webOnly = (dir, name) =>
 
 // Single website files mirrored to the same path here (pure data that
 // doesn't live in one of the directories above).
-const FILES = ["src/lib/placementTest.ts", "src/lib/fr-placementTest.ts", "src/lib/de-placementTest.ts"];
+const FILES = ["src/lib/placementTest.ts", "src/lib/fr-placementTest.ts", "src/lib/de-placementTest.ts", "src/lib/pt-placementTest.ts",
+  // Who sees the Brazilian Portuguese beta: the website's allowlist, so the
+  // app shows the course to exactly the same accounts.
+  "src/lib/portugueseBeta.ts",
+];
 
 const header = (rel) =>
   `// Synced from ${SOURCE_REPO}:${rel} by scripts/sync-content.mjs -- edit it there, not here.\n`;

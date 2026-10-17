@@ -147,7 +147,7 @@ export const EN_B1_U09_DRILLS: Lesson[] = [
         "Present wish, negative: \"I wish I didn't have\". \"Homework\" is uncountable: \"so much homework\", not *so many homeworks."),
       wo("I wish my sister were here with us.", "Ojalá mi hermana estuviera aquí con nosotros.",
         "With \"be\", careful English uses \"were\" for every person after \"wish\": \"I wish my sister were here\". \"Was\" is common in speech."),
-      tr("¡Si tan solo tuviéramos más tiempo!", "If only we had more time!",
+      tr("¡Si tan solo tuviéramos más tiempo!", ["If only we had more time!", "I wish we had more time!"],
         "\"If only\" is a stronger, more emotional \"I wish\", with the same grammar: past simple for the present."),
       mc("How do you say «Ojalá hablara alemán»?", [
         "I wish I spoke German.",
@@ -287,7 +287,7 @@ export const EN_B1_U09_DRILLS: Lesson[] = [
         "If Ana hadn't checked her email, she wouldn't have seen the change of plans.",
         "If Ana checked her email, she would see the change of plans.",
         "If Ana would have checked her email, she would have seen the change of plans.",
-      ], "Reverse each fact: \"didn't check\" becomes \"had checked\" and \"didn't see\" becomes \"would have seen\". The third option is the second conditional (present)."),
+      ], "Reverse each fact: \"didn't check\" becomes \"had checked\" and \"didn't see\" becomes \"would have seen\". \"If Ana checked her email, she would see...\" is the second conditional (present)."),
       tr("Si no se hubiera quedado dormido, no habría perdido el avión.", [
           "If he hadn't overslept, he wouldn't have missed the {plane|flight}.",
           "If she hadn't overslept, she wouldn't have missed the {plane|flight}.",

@@ -214,7 +214,7 @@ export const EN_B1_U05_DRILLS: Lesson[] = [
       ], "\"Will you be\" + -ing never asks someone to do something. \"Will you drive me...?\", \"Can you...?\" and \"Could you...?\" are requests."),
       tr("¿Vas a venir a la boda?", ["Will you be coming to the wedding?", "Are you coming to the wedding?", "Are you going to come to the wedding?"],
         "\"Will you be coming...?\" is the softest and most polite way to ask. The present continuous and \"going to\" are also fine."),
-      tr("Mañana voy a ver a Pedro en clase, así que le puedo dar tu cuaderno.", ["I'll be seeing Pedro in class tomorrow, so I can give him your notebook.", "I'm seeing Pedro in class tomorrow, so I can give him your notebook."],
+      tr("Mañana voy a ver a Pedro en clase, así que le puedo dar tu cuaderno.", ["I'll be seeing Pedro in class tomorrow, so I can give him your notebook.", "I'm seeing Pedro in class tomorrow, so I can give him your notebook.", "I'm going to see Pedro in class tomorrow, so I can give him your notebook.", "I'll see Pedro in class tomorrow, so I can give him your notebook."],
         "Something that will happen anyway, as part of the routine = \"I'll be seeing\". You're not planning to see Pedro for this reason; you'll see him anyway."),
       lc("We'll be landing in Lima in about fifteen minutes.", [
         "Aterrizaremos en Lima dentro de unos quince minutos.",

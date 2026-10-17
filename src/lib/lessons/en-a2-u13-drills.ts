@@ -163,7 +163,7 @@ export const EN_A2_U13_DRILLS: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Traduce al inglés.",
-        source: "Lo pasamos muy bien en la boda.",
+        source: "La pasamos muy bien en la boda.",
         answer: "We had a great time at the wedding.",
         altAnswers: ["We had a very good time at the wedding.", "We had a really good time at the wedding.", "We had a good time at the wedding."],
         explanation: "«Pasarla bien» es \"have a good time\"; en pasado, \"had\".",

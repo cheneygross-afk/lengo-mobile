@@ -75,7 +75,7 @@ export const EN_A1_U3_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Escribe en inglés las palabras en negrita.",
-        sentence: "Lucia ___ English at university.",
+        sentence: "Lucia ___ English at the university.",
         answer: "studies",
         en: "Lucia [estudia] inglés en la universidad.",
         explanation: "Consonante + y cambia a -ies: \"study\", \"studies\".",
@@ -134,8 +134,8 @@ export const EN_A1_U3_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Traduce al inglés.",
         source: "La tienda abre a las ocho.",
-        answer: "The shop opens at eight.",
-        altAnswers: ["The store opens at eight.", "The shop opens at eight o'clock.", "The store opens at eight o'clock."],
+        answer: "The store opens at eight.",
+        altAnswers: ["The shop opens at eight.", "The store opens at eight o'clock.", "The shop opens at eight o'clock."],
         explanation: "\"The shop\" es \"it\": el verbo lleva -s, \"opens\".",
       },
       {
@@ -723,7 +723,7 @@ export const EN_A1_U3_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "I usually get up at seven, but I'm never late.",
-        tip: "\"Usually\" se pronuncia «iúyuali», con el acento al principio.",
+        tip: "\"Usually\" lleva el acento al principio (IÚ-...), y la consonante del medio suena como la «sh» pero sonora, como la «y» rioplatense: /ˈjuːʒuəli/.",
         explanation: "\"Usually\" delante del verbo y \"never\" detrás de \"be\".",
       },
     ],

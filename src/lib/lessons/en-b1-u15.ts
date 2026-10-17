@@ -488,8 +488,8 @@ export const EN_B1_U15: Lesson[] = [
           "getting my computer fixed",
           "having my computer fixed",
         ],
-        en: "Esta semana [me están arreglando el portátil].",
-        explanation: "Present continuous causative: \"I'm getting/having my laptop repaired\". «Portátil» is \"laptop\".",
+        en: "Esta semana [me están arreglando la laptop].",
+        explanation: "Present continuous causative: \"I'm getting/having my laptop repaired\".",
       },
       {
         type: "translate",
@@ -1746,7 +1746,7 @@ export const EN_B1_U15: Lesson[] = [
         body: [
           "To describe changes you can see now, without saying when, use the present perfect passive: \"has/have been\" + past participle. \"The kitchen has been painted\", \"New windows have been put in\".",
           "Use \"has been\" with a singular subject and \"have been\" with a plural one: \"The floor has been replaced\", \"The walls have been painted\". Spanish says «han pintado la cocina» with no subject; English makes the kitchen the subject.",
-          "\"Put in\" (install) is very common for windows, kitchens and floors. And careful: \"carpet\" is «moqueta» or «alfombra», not «carpeta» (that's a \"folder\").",
+          "\"Put in\" (install) is very common for windows, kitchens and floors. And careful: \"carpet\" is «alfombra», not «carpeta» (that's a \"folder\").",
         ],
         examples: [
           { es: "The kitchen has been painted.", en: "Han pintado la cocina." },
@@ -1827,7 +1827,7 @@ export const EN_B1_U15: Lesson[] = [
         heading: "Before and after",
         body: [
           "To compare, use \"used to\" for the old situation and the present perfect for the change: \"The kitchen used to be dark. Now it has been painted white\".",
-          "Useful vocabulary: \"knock down a wall\" («tirar un tabique»), \"put in\" («instalar, poner»), \"replace\" («cambiar, sustituir»), \"tiles\" («azulejos»), \"floors\" («suelos»). In American English «el piso» (the home) is \"the apartment\"; British English says \"the flat\".",
+          "Useful vocabulary: \"knock down a wall\" («tirar una pared»), \"put in\" («instalar, poner»), \"replace\" («cambiar, sustituir»), \"tiles\" («azulejos»), \"floors\" («pisos»). In Spain «el piso» can also mean the home: that is \"the apartment\" (British \"the flat\").",
           "Careful with «reformar»: \"reform\" is for laws and systems. For a home, say \"renovate\", \"redo\" or \"remodel\".",
         ],
         examples: [

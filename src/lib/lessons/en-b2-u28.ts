@@ -674,7 +674,7 @@ export const EN_B2_U28: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence means «La leche se ha estropeado»?",
+        question: "In British English, which sentence means «La leche se ha estropeado»?",
         options: ["The milk has gone off.", "The milk has gone through.", "The milk has come off.", "The milk has gone along."],
         correctIndex: 0,
         explanation: "Food \"goes off\" (British) or \"goes bad\" (American). The other options don't exist with this meaning.",
@@ -1598,7 +1598,7 @@ export const EN_B2_U28: Lesson[] = [
         heading: "Rise or raise? Lie or lay?",
         body: [
           "\"Rise\" has no object: something goes up by itself. Prices rise, the sun rises, the river rises. It is irregular: rise, rose, risen. \"Raise\" has an object: someone lifts or increases something. You raise your hand, raise prices, raise money («recaudar dinero») and, in American English, raise children («criar»). It is regular: raised.",
-          "\"Lie\" (no object) means to be in a flat position («estar tumbado», «tumbarse»): lie, lay, lain. \"Lay\" (with an object) means to put something down flat («poner», «colocar»): lay, laid, laid. \"Lay the table\" is «poner la mesa».",
+          "\"Lie\" (no object) means to be in a flat position («estar acostado», «acostarse, recostarse»): lie, lay, lain. \"Lay\" (with an object) means to put something down flat («poner», «colocar»): lay, laid, laid. \"Lay the table\" is «poner la mesa».",
           "The trap: the past of \"lie\" is \"lay\". \"Yesterday I lay on the beach\" is correct. And \"lie\" meaning «mentir» is regular: lie, lied, lied.",
         ],
         examples: [
@@ -1606,8 +1606,8 @@ export const EN_B2_U28: Lesson[] = [
           { es: "The sun rises in the east.", en: "El sol sale por el este." },
           { es: "Raise your hand if you have a question.", en: "Levanta la mano si tienes alguna pregunta." },
           { es: "They raised 3,000 dollars for charity.", en: "Recaudaron 3.000 dólares con fines benéficos." },
-          { es: "I'm going to lie down for a while.", en: "Me voy a tumbar un rato." },
-          { es: "Yesterday I lay in bed all morning.", en: "Ayer me quedé tumbado en la cama toda la mañana." },
+          { es: "I'm going to lie down for a while.", en: "Me voy a recostar un rato." },
+          { es: "Yesterday I lay in bed all morning.", en: "Ayer me quedé acostado en la cama toda la mañana." },
           { es: "She laid the baby on the bed.", en: "Acostó al bebé en la cama." },
           { es: "He lied to me.", en: "Me mintió." },
         ],
@@ -1629,7 +1629,7 @@ export const EN_B2_U28: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "I was so tired that I ___ down on the sofa.",
             answer: "lay",
-            en: "Estaba tan cansado que me [tumbé] en el sofá.",
+            en: "Estaba tan cansado que me [acosté] en el sofá.",
             explanation: "The past of \"lie\" (no object) is \"lay\". \"Laid\" is the past of \"lay\" and needs an object.",
           },
         ],
@@ -1637,7 +1637,7 @@ export const EN_B2_U28: Lesson[] = [
       {
         heading: "Lose or miss? Bring or take?",
         body: [
-          "Spanish «perder» has two English translations. \"Lose\" is for something you had and can't find, or a game you didn't win: \"lose your keys\", \"lose weight\", \"lose a match\". \"Miss\" is for something you didn't catch or attend: \"miss the bus\", \"miss a class\", \"miss an opportunity\". \"Miss\" also means «echar de menos»: \"I miss you\".",
+          "Spanish «perder» has two English translations. \"Lose\" is for something you had and can't find, or a game you didn't win: \"lose your keys\", \"lose weight\", \"lose a match\". \"Miss\" is for something you didn't catch or attend: \"miss the bus\", \"miss a class\", \"miss an opportunity\". \"Miss\" also means «extrañar»: \"I miss you\".",
           "Spelling note: \"lose\" (verb, /luːz/) is not \"loose\" (adjective, «suelto», «flojo»).",
           "\"Bring\" is movement toward the speaker or the listener («traer»): \"Bring me a glass of water\". \"Take\" is movement away, to another place («llevar»): \"Take this letter to the post office\". Spanish «llevar» is usually \"take\"; «traer» is \"bring\". When you go to someone's party, you \"bring\" something, because you move toward the listener.",
         ],
@@ -1645,7 +1645,7 @@ export const EN_B2_U28: Lesson[] = [
           { es: "I've lost my wallet.", en: "He perdido la cartera." },
           { es: "Hurry up or we'll miss the train.", en: "Apúrate o perderemos el tren." },
           { es: "I missed the meeting because I was sick.", en: "Me perdí la reunión porque estaba enfermo." },
-          { es: "I really miss my family.", en: "Echo mucho de menos a mi familia." },
+          { es: "I really miss my family.", en: "Extraño mucho a mi familia." },
           { es: "Can you bring me my glasses?", en: "¿Me traes los lentes?" },
           { es: "I'll take the kids to school.", en: "Yo llevo a los niños al colegio." },
           { es: "Should I bring anything to the party?", en: "¿Llevo algo a la fiesta?" },
@@ -1734,7 +1734,7 @@ export const EN_B2_U28: Lesson[] = [
         pairs: [
           { left: "lend", right: "prestar (dar)" },
           { left: "borrow", right: "pedir prestado" },
-          { left: "miss", right: "perder (el tren), echar de menos" },
+          { left: "miss", right: "perder (el tren), extrañar" },
           { left: "lose", right: "perder (las llaves, un partido)" },
           { left: "raise", right: "levantar, subir (algo)" },
         ],
@@ -1785,7 +1785,7 @@ export const EN_B2_U28: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Echo de menos a mis amigos de la universidad.",
+        source: "Extraño a mis amigos de la universidad.",
         answer: "I miss my friends from college.",
         altAnswers: [
           "I miss my college friends.",
@@ -1794,7 +1794,7 @@ export const EN_B2_U28: Lesson[] = [
           "I miss my uni friends.",
           "I miss my friends from uni.",
         ],
-        explanation: "«Echar de menos» = \"miss\". «Universidad» is often \"college\" in American English.",
+        explanation: "«Extrañar» = \"miss\". «Universidad» is often \"college\" in American English.",
       },
       {
         type: "fill-blank",
@@ -2265,7 +2265,7 @@ export const EN_B2_U28: Lesson[] = [
       },
       {
         type: "listen-choose",
-        audio: "I've finally got around to sorting out my photos.",
+        audio: "I've finally gotten around to sorting out my photos.",
         question: "What does the speaker mean?",
         options: [
           "Por fin he encontrado el momento de ordenar mis fotos.",
@@ -2349,7 +2349,7 @@ export const EN_B2_U28: Lesson[] = [
         ],
         examples: [
           { es: "She came down with a bad cold.", en: "Agarró un resfriado fuerte." },
-          { es: "She lay in bed all morning.", en: "Se quedó tumbada en la cama toda la mañana." },
+          { es: "She lay in bed all morning.", en: "Se quedó acostada en la cama toda la mañana." },
           { es: "She couldn't afford to lose a whole day.", en: "No podía permitirse perder un día entero." },
           { es: "I'll definitely recommend you to my colleagues.", en: "Sin duda te recomendaré a mis compañeros." },
           { es: "She made the decision to raise her rates.", en: "Tomó la decisión de subir sus tarifas." },
@@ -2551,7 +2551,7 @@ export const EN_B2_U28: Lesson[] = [
         heading: "Topic vocabulary: work, money and daily life",
         body: [
           "Quick recap of key Upper Intermediate topic words. Work: \"apply for a job\", \"get promoted\", \"meet a deadline\", \"be laid off\", \"work freelance\". Money: \"afford\", \"save up for\", \"be in debt\", \"get a refund\".",
-          "Daily life and travel: \"commute\" («ir y volver del trabajo»), \"book a table\", \"check in\", \"run errands\" («hacer recados»), \"do the chores\".",
+          "Daily life and travel: \"commute\" («ir y volver del trabajo»), \"book a table\", \"check in\", \"run errands\" («hacer mandados»), \"do the chores\".",
           "As always, learn the whole chunk: \"apply for\", not just \"apply\"; \"save up for\", not just \"save\".",
         ],
         examples: [
@@ -2808,7 +2808,7 @@ export const EN_B2_U28: Lesson[] = [
         type: "speak",
         text: "I didn't realize how much I'd missed you.",
         tip: "\"Realize\" has the stress on the first syllable: REE-uh-lize. \"I'd\" is a contraction of \"I had\".",
-        explanation: "\"Realize\" («darse cuenta») and \"miss\" («echar de menos»): two words Spanish speakers often get wrong.",
+        explanation: "\"Realize\" («darse cuenta») and \"miss\" («extrañar»): two words Spanish speakers often get wrong.",
       },
     ],
   },

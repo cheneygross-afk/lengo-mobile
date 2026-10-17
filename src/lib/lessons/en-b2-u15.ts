@@ -99,7 +99,7 @@ export const EN_B2_U15: Lesson[] = [
           "Questions about your life use the passive too: \"Where were you born?\", \"Where were you raised?\". Remember that \"born\" always goes with \"be\": \"I was born in 1995\", never *I born.",
         ],
         examples: [
-          { es: "We're having the bathroom redone at the moment.", en: "Ahora mismo nos están reformando el baño." },
+          { es: "We're having the bathroom redone at the moment.", en: "Ahora mismo nos están remodelando el baño." },
           { es: "I'm going to get my teeth whitened.", en: "Me voy a blanquear los dientes (en el dentista)." },
           { es: "I had my phone stolen on the subway.", en: "Me robaron el celular en el metro." },
           { es: "My brother had his bike stolen last week.", en: "A mi hermano le robaron la bici la semana pasada." },
@@ -1723,7 +1723,7 @@ export const EN_B2_U15: Lesson[] = [
         examples: [
           { es: "Please contact the person to whom you sent the invoice.", en: "Póngase en contacto con la persona a la que envió la factura." },
           { es: "The project on which we are working is confidential.", en: "El proyecto en el que estamos trabajando es confidencial." },
-          { es: "The colleague with whom I share an office is very tidy.", en: "La compañera con la que comparto despacho es muy ordenada." },
+          { es: "The colleague with whom I share an office is very tidy.", en: "La compañera con la que comparto oficina es muy ordenada." },
         ],
         checkpoint: [
           {
@@ -1958,7 +1958,7 @@ export const EN_B2_U15: Lesson[] = [
               "It's an app designed to help you learn languages.",
               "It's an app designed to help people learn languages.",
               "It's an app that was designed for learning languages.",
-              "It's an app designed to learn languages.",
+              
             ],
             explanation: "A past participle clause replaces \"which was designed\". Don't translate «para» + infinitive as \"for\" + infinitive: \"for learning\" or \"to help you learn\".",
           },

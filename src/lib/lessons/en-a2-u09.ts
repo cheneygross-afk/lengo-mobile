@@ -847,7 +847,7 @@ export const EN_A2_U09: Lesson[] = [
         body: [
           "En español ofrecemos ayuda con el presente: «¿Te ayudo?», «Yo lo llevo». En inglés *Do I help you? es incorrecto. Se usa \"I'll\" para ofrecerte: \"I'll help you\", \"I'll carry it\".",
           "Para ofrecerte con una pregunta, lo más común en Estados Unidos es \"Do you want me to help you?\" o \"Can I help you?\". \"Shall I help you?\" es correcto pero suena británico o algo formal.",
-          "Ojo: \"Can I help you?\" es también lo que dice un dependiente en una tienda («¿En qué puedo ayudarlo?»).",
+          "Ojo: \"Can I help you?\" es también lo que dice un vendedor en una tienda («¿En qué puedo ayudarlo?»).",
         ],
         examples: [
           { es: "I'll help you.", en: "Te ayudo." },

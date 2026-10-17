@@ -1970,7 +1970,7 @@ export const EN_B1_U05: Lesson[] = [
           "\"Screen time\" is the time you spend looking at screens: \"I want to reduce my screen time\".",
         ],
         examples: [
-          { es: "My laptop battery is dead.", en: "La batería de mi portátil está agotada." },
+          { es: "My laptop battery is dead.", en: "La batería de mi laptop está descargada." },
           { es: "I forgot my password.", en: "He olvidado mi contraseña." },
           { es: "Where's my charger?", en: "¿Dónde está mi cargador?" },
           { es: "I want to reduce my screen time.", en: "Quiero reducir el tiempo que paso delante de las pantallas." },
@@ -1983,7 +1983,7 @@ export const EN_B1_U05: Lesson[] = [
             pairs: [
               { left: "password", right: "contraseña" },
               { left: "charger", right: "cargador" },
-              { left: "laptop", right: "portátil" },
+              { left: "laptop", right: "computadora portátil" },
               { left: "screen", right: "pantalla" },
             ],
             explanation: "Basic device vocabulary. \"Laptop\" is a portable computer; \"portable\" in English is an adjective, not the noun for it.",
@@ -2124,7 +2124,7 @@ export const EN_B1_U05: Lesson[] = [
         source: "Dentro de diez años estaremos hablando con nuestros dispositivos todo el tiempo.",
         answer: "In ten years we'll be talking to our devices all the time.",
         altAnswers: ["In ten years' time we'll be talking to our devices all the time.", "We'll be talking to our devices all the time in ten years.", "In ten years we'll be talking with our devices all the time."],
-        explanation: "How life will be at a future time: future continuous. «Todo el rato» is \"all the time\".",
+        explanation: "How life will be at a future time: future continuous. «Todo el tiempo» is \"all the time\".",
       },
       {
         type: "translate",

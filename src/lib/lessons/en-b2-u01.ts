@@ -16,7 +16,7 @@ export const EN_B2_U01: Lesson[] = [
         heading: "One story, three layers",
         body: [
           "A good story in English has three layers. The past simple moves the story forward: \"I opened the door\". The past continuous paints the background, what was in progress at that moment: \"It was raining\". The past perfect jumps back to something that happened earlier: \"Someone had left the window open\".",
-          "Think of a film. The past simple is the action, the past continuous is the scenery, and the past perfect is a flashback. You can use all three in one sentence: \"It was raining when I got home, and someone had left the window open\".",
+          "Think of a movie. The past simple is the action, the past continuous is the scenery, and the past perfect is a flashback. You can use all three in one sentence: \"It was raining when I got home, and someone had left the window open\".",
           "You already know these forms from the Independence level. At the Upper Intermediate level the challenge is to choose between them quickly and naturally, especially when Spanish gives you a different signal.",
         ],
         examples: [
@@ -928,7 +928,7 @@ export const EN_B2_U01: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "She told me she ___ the email, but I never got it.",
         answer: "had written",
-        altAnswers: ["had sent"],
+        altAnswers: [],
         en: "Me dijo que [había escrito] el correo, pero nunca me llegó.",
         explanation: "\"Had\" + past participle: \"had written\", not *had wrote.",
       },
@@ -1058,7 +1058,7 @@ export const EN_B2_U01: Lesson[] = [
         ],
         examples: [
           { es: "As soon as I saw her, I knew something was wrong.", en: "En cuanto la vi, supe que algo iba mal." },
-          { es: "As soon as I had sent the email, I regretted it.", en: "Nada más enviar el correo, me arrepentí." },
+          { es: "As soon as I had sent the email, I regretted it.", en: "En cuanto envié el correo, me arrepentí." },
           { es: "After she left, I cleaned up.", en: "Después de que se fue, recogí todo." },
           { es: "Before I moved to Boston, I had never seen snow.", en: "Antes de mudarme a Boston, nunca había visto la nieve." },
           { es: "I didn't leave until I had finished the report.", en: "No me fui hasta terminar el informe." },
@@ -1293,7 +1293,7 @@ export const EN_B2_U01: Lesson[] = [
         examples: [
           { es: "And then what happened?", en: "¿Y luego qué pasó?" },
           { es: "Someone was already sleeping in our room!", en: "¡Ya había alguien durmiendo en nuestra habitación!" },
-          { es: "You're kidding!", en: "¡No me digas! / ¡Estás de broma!" },
+          { es: "You're kidding!", en: "¡No me digas! / ¡Estás bromeando!" },
           { es: "The receptionist had given us the wrong key.", en: "El recepcionista nos había dado la llave equivocada." },
           { es: "By the time they found us another room, it was two in the morning.", en: "Para cuando nos encontraron otra habitación, eran las dos de la mañana." },
         ],
@@ -1546,7 +1546,7 @@ export const EN_B2_U01: Lesson[] = [
           "You can also say \"It turned out to be\" + noun: \"The noise turned out to be the cat\".",
         ],
         examples: [
-          { es: "I had left my wallet at home.", en: "Me había dejado la cartera en casa." },
+          { es: "I had left my wallet at home.", en: "Había dejado la billetera en casa." },
           { es: "He had been following me for ten minutes.", en: "Llevaba diez minutos siguiéndome." },
           { es: "It turned out that he had been living next door the whole time.", en: "Resultó que había estado viviendo en la casa de al lado todo ese tiempo." },
           { es: "The noise turned out to be the cat.", en: "El ruido resultó ser el gato." },
@@ -1783,7 +1783,7 @@ export const EN_B2_U01: Lesson[] = [
           "Ask yourself: what had happened before the cleaner arrived? What was the situation when he came in? What explains the mud?",
         ],
         examples: [
-          { es: "When the cleaner arrived, the laptop had disappeared.", en: "Cuando llegó el de la limpieza, el portátil había desaparecido." },
+          { es: "When the cleaner arrived, the laptop had disappeared.", en: "Cuando llegó el de la limpieza, la laptop había desaparecido." },
           { es: "One of the windows was open.", en: "Una de las ventanas estaba abierta." },
           { es: "It had been raining all night.", en: "Había estado lloviendo toda la noche." },
           { es: "The footprints led to the window.", en: "Las huellas llevaban hasta la ventana." },
@@ -1805,7 +1805,7 @@ export const EN_B2_U01: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Cuando llegó el limpiador, el portátil había desaparecido.",
+            source: "Cuando llegó el limpiador, la laptop había desaparecido.",
             answer: "When the cleaner arrived, the laptop had disappeared.",
             altAnswers: [
               "When the cleaner got there, the laptop had disappeared.",
@@ -1829,7 +1829,7 @@ export const EN_B2_U01: Lesson[] = [
           "Notice how the solution is almost all past perfect: everything it explains happened before the discovery.",
         ],
         examples: [
-          { es: "Laura admitted that she had taken the laptop.", en: "Laura admitió que se había llevado el portátil." },
+          { es: "Laura admitted that she had taken the laptop.", en: "Laura admitió que se había llevado la laptop." },
           { es: "Her own computer had been crashing all week.", en: "Su propia computadora llevaba toda la semana colgándose." },
           { es: "The wind had blown the note under a cabinet.", en: "El viento había llevado la nota debajo de un armario." },
           { es: "He had been walking in the rain before work.", en: "Había estado caminando bajo la lluvia antes del trabajo." },
@@ -1907,7 +1907,7 @@ export const EN_B2_U01: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Laura admitió que se había llevado el portátil.",
+        source: "Laura admitió que se había llevado la laptop.",
         answer: "Laura admitted that she had taken the laptop.",
         altAnswers: [
           "Laura admitted she had taken the laptop.",
@@ -2273,7 +2273,7 @@ export const EN_B2_U01: Lesson[] = [
         ],
         examples: [
           { es: "One summer, something strange happened.", en: "Un verano pasó algo raro." },
-          { es: "We were playing hide-and-seek in the forest.", en: "Estábamos jugando al escondite en el bosque." },
+          { es: "We were playing hide-and-seek in the forest.", en: "Estábamos jugando a las escondidas en el bosque." },
           { es: "I was hiding behind a tree when I heard a noise.", en: "Estaba escondido detrás de un árbol cuando oí un ruido." },
           { es: "I had walked past that place a hundred times.", en: "Había pasado por ese sitio cien veces." },
           { es: "I had never noticed it before.", en: "Nunca me había fijado en ella." },
@@ -2521,7 +2521,7 @@ export const EN_B2_U01: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Llevábamos una hora en la cola cuando cerraron la taquilla.",
+        source: "Llevábamos una hora en la fila cuando cerraron la taquilla.",
         answer: "We had been waiting in line for an hour when they closed the ticket office.",
         altAnswers: [
           "We had been standing in line for an hour when they closed the ticket office.",

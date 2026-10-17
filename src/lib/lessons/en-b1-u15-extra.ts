@@ -271,7 +271,7 @@ export const EN_B1_U15_EXTRA: Lesson[] = [
           "Vamos a quitar la alfombra vieja y poner piso de madera.",
         ],
         correctIndex: 0,
-        explanation: "\"Had the carpet taken up\" = someone did it for us. Note: \"carpet\" is «moqueta» or «alfombra», not «carpeta».",
+        explanation: "\"Had the carpet taken up\" = someone did it for us. Note: \"carpet\" is «alfombra», not «carpeta».",
       },
       {
         type: "dictation",
@@ -366,7 +366,7 @@ export const EN_B1_U15_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Tengo que llevar el portátil a arreglar.",
+        source: "Tengo que llevar la laptop a arreglar.",
         answer: "I need to get my laptop fixed.",
         altAnswers: [
           "I need to get my laptop repaired.",
@@ -595,7 +595,7 @@ export const EN_B1_U15_EXTRA: Lesson[] = [
         examples: [
           { es: "She is thought to be ill.", en: "Se cree que está enferma." },
           { es: "He is believed to be hiding in the mountains.", en: "Se cree que se esconde en las montañas." },
-          { es: "He is said to have left the country.", en: "Se dice que se ha marchado del país." },
+          { es: "He is said to have left the country.", en: "Se dice que se fue del país." },
           { es: "The ship is thought to have sunk in 1820.", en: "Se cree que el barco se hundió en 1820." },
           { es: "They say it's going to rain all week.", en: "Dicen que va a llover toda la semana." },
         ],
@@ -724,7 +724,6 @@ export const EN_B1_U15_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "The missing climbers are thought ___ shelter in a cave.",
         answer: "to be taking",
-        altAnswers: ["to have taken"],
         en: "Se cree que los escaladores desaparecidos [se están refugiando] en una cueva.",
         explanation: "Action in progress now: \"to be\" + -ing. \"Take shelter\" = «refugiarse».",
       },

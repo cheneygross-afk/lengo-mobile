@@ -341,12 +341,12 @@ export const EN_A1_U2: Lesson[] = [
         heading: "\"V\" no es \"b\": \"very\" y \"berry\"",
         body: [
           "En español, «b» y «v» suenan igual. En inglés son dos sonidos distintos: la \"b\" se hace juntando los dos labios, como en español; la \"v\" se hace apoyando los dientes de arriba en el labio de abajo y dejando vibrar, como una «f» con voz.",
-          "Si dices \"very\" con «b», sonará a \"berry\" («baya»). Otros pares: \"vest\" («chaleco») y \"best\" («el mejor»), \"van\" («furgoneta») y \"ban\" («prohibir»).",
+          "Si dices \"very\" con «b», sonará a \"berry\" («baya»). Otros pares: \"vest\" («chaleco») y \"best\" («el mejor»), \"van\" («camioneta») y \"ban\" («prohibir»).",
         ],
         examples: [
           { es: "very / berry", en: "muy / baya" },
           { es: "vest / best", en: "chaleco / el mejor" },
-          { es: "van / ban", en: "furgoneta / prohibir" },
+          { es: "van / ban", en: "camioneta / prohibir" },
           { es: "vote / boat", en: "votar / barco" },
           { es: "It's very good.", en: "Es muy bueno." },
         ],

@@ -46,7 +46,7 @@ export const EN_B1_U17: Lesson[] = [
         ],
         examples: [
           { es: "My mother, who is a teacher, speaks French.", en: "Mi madre, que es profesora, habla francés." },
-          { es: "Emma, who I met at university, is getting married.", en: "Emma, a quien conocí en la universidad, se casa." },
+          { es: "Emma, who I met in college, is getting married.", en: "Emma, a quien conocí en la universidad, se casa." },
           { es: "My car, which is ten years old, still runs well.", en: "Mi carro, que tiene diez años, todavía funciona bien." },
           { es: "Our dog, which is very old, sleeps all day.", en: "Nuestro perro, que es muy viejo, duerme todo el día." },
           { es: "The Amazon, which is in South America, is a huge river.", en: "El Amazonas, que está en Sudamérica, es un río enorme." },
@@ -300,7 +300,7 @@ export const EN_B1_U17: Lesson[] = [
         heading: "Some of whom, most of which",
         body: [
           "After words of quantity (some, many, most, all, none, both, one, two...) we use \"of whom\" for people and \"of which\" for things: \"I have three brothers, two of whom live abroad.\"",
-          "Spanish says «algunos de los cuales» or «la mayoría de los cuales». Two typical mistakes: *some of who (after \"of\" it must be \"whom\") and \"some of them\" after a comma, which joins two sentences incorrectly. *I have many friends, most of them live here needs \"most of whom\", or a full stop: \"I have many friends. Most of them live here.\"",
+          "Spanish says «algunos de los cuales» or «la mayoría de los cuales». Two typical mistakes: *some of who (after \"of\" it must be \"whom\") and \"some of them\" after a comma, which joins two sentences incorrectly. *I have many friends, most of them live here needs \"most of whom\", or a period: \"I have many friends. Most of them live here.\"",
           "This structure is a bit formal, but you will see it often in writing and hear it on the news.",
         ],
         examples: [
@@ -368,7 +368,7 @@ export const EN_B1_U17: Lesson[] = [
         sentence: "There were fifty guests, most ___ I didn't know.",
         answer: "of whom",
         en: "Había cincuenta invitados, a la mayoría [de los cuales] no conocía.",
-        explanation: "Guests are people: \"most of whom\". \"Most of them\" would need a full stop before it.",
+        explanation: "Guests are people: \"most of whom\". \"Most of them\" would need a period before it.",
       },
       {
         type: "translate",
@@ -439,18 +439,18 @@ export const EN_B1_U17: Lesson[] = [
     level: "EN-B1",
     number: 3,
     title: "What vs That/Which",
-    summary: "What means the thing that: What I need is a holiday. Why English never says the thing what or everything what for Spanish lo que.",
+    summary: "\"What\" means \"the thing that\": What I need is a vacation. Why English never says the thing what or everything what for Spanish lo que.",
     duration: "11 min",
     sections: [
       {
         heading: "What = the thing that",
         body: [
-          "\"What\" can work as a relative pronoun that already contains its noun. It means \"the thing that\" or \"the things that\", like Spanish «lo que»: \"What I need is a holiday\" = «Lo que necesito son unas vacaciones».",
-          "Notice that English normally uses a singular verb after a \"what\" clause: \"What I need is a holiday\", even when Spanish says «son».",
+          "\"What\" can work as a relative pronoun that already contains its noun. It means \"the thing that\" or \"the things that\", like Spanish «lo que»: \"What I need is a vacation\" = «Lo que necesito son unas vacaciones».",
+          "Notice that English normally uses a singular verb after a \"what\" clause: \"What I need is a vacation\", even when Spanish says «son».",
           "\"What\" is very common after verbs like \"know\", \"understand\", \"say\", \"do\", \"want\" and \"like\": \"I don't understand what you mean.\" \"Do what you want.\"",
         ],
         examples: [
-          { es: "What I need is a holiday.", en: "Lo que necesito son unas vacaciones." },
+          { es: "What I need is a vacation.", en: "Lo que necesito son unas vacaciones." },
           { es: "I don't understand what you mean.", en: "No entiendo lo que quieres decir." },
           { es: "Do what you want.", en: "Haz lo que quieras." },
           { es: "Tell me what happened.", en: "Cuéntame lo que pasó." },
@@ -865,7 +865,7 @@ export const EN_B1_U17: Lesson[] = [
           { es: "The doctor who helped me was very kind.", en: "El médico que me atendió fue muy amable." },
           { es: "The shop where I work is closing.", en: "La tienda donde trabajo va a cerrar." },
           { es: "The girl whose bag was stolen called the police.", en: "La chica a la que le robaron el bolso llamó a la policía." },
-          { es: "My laptop, which I bought last year, is already broken.", en: "Mi portátil, que compré el año pasado, ya está roto." },
+          { es: "My laptop, which I bought last year, is already broken.", en: "Mi laptop, que compré el año pasado, ya está rota." },
         ],
         checkpoint: [
           {
@@ -917,7 +917,7 @@ export const EN_B1_U17: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Mi portátil, que compré el año pasado, ya está roto.",
+        source: "Mi laptop, que compré el año pasado, ya está rota.",
         answer: "My laptop, which I bought last year, is already broken.",
         explanation: "Between commas: \"which\", never \"that\", and it can't be left out.",
       },
@@ -956,7 +956,7 @@ export const EN_B1_U17: Lesson[] = [
           "I invited twenty people, most of which came.",
         ],
         correctIndex: 0,
-        explanation: "People after \"of\" in a relative clause: \"whom\". \"Most of them\" would need a full stop or \"and\".",
+        explanation: "People after \"of\" in a relative clause: \"whom\". \"Most of them\" would need a period or \"and\".",
       },
       {
         type: "fill-blank",
@@ -996,7 +996,7 @@ export const EN_B1_U17: Lesson[] = [
         source: "Tengo tres hijos, dos de los cuales viven en Londres.",
         answer: "I have three children, two of whom live in London.",
         altAnswers: ["I have three kids, two of whom live in London.", "I have three sons, two of whom live in London."],
-        explanation: "People after a number + \"of\": \"two of whom\". \"Two of them live in London\" would need a full stop or \"and\" before it.",
+        explanation: "People after a number + \"of\": \"two of whom\". \"Two of them live in London\" would need a period or \"and\" before it.",
       },
       {
         type: "word-order",
@@ -1570,15 +1570,15 @@ export const EN_B1_U17: Lesson[] = [
       {
         heading: "At the shelter: who, which and where",
         body: [
-          "An animal shelter («una protectora» or «un refugio de animales») takes care of dogs and cats that have no home. The people who help there for free are volunteers («voluntarios»).",
+          "An animal shelter («un refugio de animales») takes care of dogs and cats that have no home. The people who help there for free are volunteers («voluntarios»).",
           "Relative clauses are perfect for describing the place and the people: \"The shelter where I volunteer is run by Emma, who started it ten years ago.\"",
           "Careful with a false friend: «asistir» to a meeting is \"attend\", not \"assist\". \"Assist\" means «ayudar».",
         ],
         examples: [
-          { es: "The shelter where I volunteer is near my house.", en: "La protectora donde hago voluntariado está cerca de mi casa." },
+          { es: "The shelter where I volunteer is near my house.", en: "El refugio donde hago voluntariado está cerca de mi casa." },
           { es: "We need people who can work on weekends.", en: "Necesitamos gente que pueda trabajar los fines de semana." },
           { es: "Most of the dogs that arrive here are very scared.", en: "La mayoría de los perros que llegan aquí están muy asustados." },
-          { es: "Emma, who started the shelter, is a vet.", en: "Emma, que fundó la protectora, es veterinaria." },
+          { es: "Emma, who started the shelter, is a vet.", en: "Emma, que fundó el refugio, es veterinaria." },
           { es: "We have forty cats, most of which are old.", en: "Tenemos cuarenta gatos, la mayoría de los cuales son mayores." },
         ],
         checkpoint: [
@@ -1631,8 +1631,8 @@ export const EN_B1_U17: Lesson[] = [
         examples: [
           { es: "The dogs are walked twice a day.", en: "A los perros se les saca a pasear dos veces al día." },
           { es: "Every animal is checked by a vet.", en: "Un veterinario revisa a todos los animales." },
-          { es: "The shelter was opened in 2010.", en: "La protectora se abrió en 2010." },
-          { es: "The shelter is run by volunteers.", en: "La protectora la llevan voluntarios." },
+          { es: "The shelter was opened in 2010.", en: "El refugio se abrió en 2010." },
+          { es: "The shelter is run by volunteers.", en: "El refugio lo llevan voluntarios." },
           { es: "Last year, two hundred dogs were adopted.", en: "El año pasado se adoptaron doscientos perros." },
         ],
         checkpoint: [
@@ -1652,7 +1652,7 @@ export const EN_B1_U17: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "La protectora donde hago voluntariado está cerca de mi casa.",
+        source: "El refugio donde hago voluntariado está cerca de mi casa.",
         answer: "The shelter where I volunteer is near my house.",
         altAnswers: ["The shelter where I volunteer is close to my house.", "The shelter where I volunteer is near my home.", "The shelter where I volunteer is close to my home.", "The animal shelter where I volunteer is near my house.", "The shelter I volunteer at is near my house."],
         explanation: "\"Volunteer\" is also a verb: \"I volunteer\" = «hago voluntariado». \"Where\" for the place.",
@@ -1671,7 +1671,7 @@ export const EN_B1_U17: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Emma, ___ started the shelter, is a vet.",
         answer: "who",
-        en: "Emma, [que] fundó la protectora, es veterinaria.",
+        en: "Emma, [que] fundó el refugio, es veterinaria.",
         explanation: "A name + extra information: comma + \"who\". Never \"that\".",
       },
       {
@@ -1702,7 +1702,7 @@ export const EN_B1_U17: Lesson[] = [
         source: "Tenemos cuarenta gatos, la mayoría de los cuales son mayores.",
         answer: "We have forty cats, most of which are old.",
         altAnswers: ["We've got forty cats, most of which are old."],
-        explanation: "Animals after a quantity: \"most of which\". \"Most of them\" would need a full stop.",
+        explanation: "Animals after a quantity: \"most of which\". \"Most of them\" would need a period.",
       },
       {
         type: "fill-blank",
@@ -1716,7 +1716,7 @@ export const EN_B1_U17: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "La protectora se abrió en 2010, lo que fue una gran noticia para el barrio.",
+        source: "El refugio se abrió en 2010, lo que fue una gran noticia para el barrio.",
         answer: "The shelter was opened in 2010, which was great news for the neighborhood.",
         altAnswers: ["The shelter opened in 2010, which was great news for the neighborhood.", "The shelter was opened in 2010, which was great news for the area.", "The shelter opened in 2010, which was great news for the area.", "The shelter was opened in 2010, which was big news for the neighborhood.", "The shelter opened in 2010, which was big news for the neighborhood."],
         explanation: "Passive for the event, then comma + \"which\" for the comment. \"News\" is uncountable: no \"a\", and the verb is singular.",
@@ -1725,7 +1725,7 @@ export const EN_B1_U17: Lesson[] = [
         type: "matching",
         instructions: "Match each English word with its meaning.",
         pairs: [
-          { left: "shelter", right: "protectora, refugio" },
+          { left: "shelter", right: "refugio de animales" },
           { left: "volunteer", right: "voluntario / hacer voluntariado" },
           { left: "attend", right: "asistir (a una reunión)" },
           { left: "vet", right: "veterinario" },
@@ -1801,7 +1801,7 @@ export const EN_B1_U17: Lesson[] = [
         examples: [
           { es: "If we find a drummer, we'll start rehearsing next month.", en: "Si encontramos batería, empezaremos a ensayar el mes que viene." },
           { es: "If I could sing, I'd be the lead singer.", en: "Si supiera cantar, sería el cantante." },
-          { es: "If we had more money, we'd buy better speakers.", en: "Si tuviéramos más dinero, compraríamos mejores altavoces." },
+          { es: "If we had more money, we'd buy better speakers.", en: "Si tuviéramos más dinero, compraríamos mejores bocinas." },
           { es: "Unless we practice more, we won't be ready.", en: "A menos que ensayemos más, no estaremos listos." },
         ],
         checkpoint: [
@@ -1863,7 +1863,7 @@ export const EN_B1_U17: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Si tuviéramos más dinero, compraríamos mejores altavoces.",
+        source: "Si tuviéramos más dinero, compraríamos mejores bocinas.",
         answer: "If we had more money, we'd buy better speakers.",
         altAnswers: ["We'd buy better speakers if we had more money."],
         explanation: "Second conditional: past (\"had\") after \"if\", \"would\" in the result. Not *If we would have.",

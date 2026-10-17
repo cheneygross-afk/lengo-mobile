@@ -105,7 +105,7 @@ export const EN_B2_U27: Lesson[] = [
           { es: "The beach was nice but a bit touristy.", en: "La playa era bonita, pero un poco turística." },
           { es: "It took me four days to get over the jet lag.", en: "Tardé cuatro días en recuperarme del desfase horario." },
           { es: "We had a six-hour layover in Miami.", en: "Tuvimos una escala de seis horas en Miami." },
-          { es: "I always pack the night before.", en: "Siempre hago la maleta la noche anterior." },
+          { es: "I always pack the night before.", en: "Siempre empaco la noche anterior." },
           { es: "How much luggage are you taking?", en: "¿Cuánto equipaje llevas?" },
         ],
         checkpoint: [
@@ -284,14 +284,14 @@ export const EN_B2_U27: Lesson[] = [
         heading: "Commuting and rush hour",
         body: [
           "To \"commute\" is to travel regularly between home and work or school. It is a verb and a noun: \"I commute by train\", \"My commute takes an hour\". A \"commuter\" is a person who does it. Spanish has no single word for this, so learners often avoid it, but it is extremely common.",
-          "\"Rush hour\" is when traffic is worst (no article after \"in\" or \"during\": \"in rush hour\" or \"during rush hour\", also \"at rush hour\"). A \"traffic jam\" is «un atasco»; you are \"stuck in traffic\" or \"stuck in a traffic jam\".",
+          "\"Rush hour\" is when traffic is worst (no article after \"in\" or \"during\": \"in rush hour\" or \"during rush hour\", also \"at rush hour\"). A \"traffic jam\" is «un embotellamiento» (Spain: «un atasco»); you are \"stuck in traffic\" or \"stuck in a traffic jam\".",
           "\"Public transportation\" (American) and \"public transport\" (British) are uncountable: never *public transports. \"Transportation\" in American English is the general system; \"transport\" is the British equivalent.",
         ],
         examples: [
           { es: "I commute to work by bike.", en: "Voy y vengo del trabajo en bici." },
           { es: "My commute takes about forty minutes.", en: "Mi trayecto al trabajo dura unos cuarenta minutos." },
           { es: "The subway is packed during rush hour.", en: "El metro va lleno en hora pico." },
-          { es: "We were stuck in traffic for two hours.", en: "Estuvimos dos horas metidos en un atasco." },
+          { es: "We were stuck in traffic for two hours.", en: "Estuvimos dos horas metidos en un embotellamiento." },
           { es: "Public transportation here is cheap and reliable.", en: "El transporte público aquí es barato y confiable." },
         ],
         checkpoint: [
@@ -299,7 +299,7 @@ export const EN_B2_U27: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Me quedé atrapado en un atasco y llegué tarde.",
+            source: "Me quedé atrapado en un embotellamiento y llegué tarde.",
             answer: "I got stuck in a traffic jam and arrived late.",
             altAnswers: [
               "I got stuck in a traffic jam and I was late.",
@@ -314,7 +314,7 @@ export const EN_B2_U27: Lesson[] = [
               "I was stuck in a traffic jam and was late.",
               "I was stuck in traffic and was late.",
             ],
-            explanation: "«Quedarse atrapado en un atasco» is \"get stuck in a traffic jam\" or simply \"get stuck in traffic\".",
+            explanation: "«Quedarse atrapado en un embotellamiento» is \"get stuck in a traffic jam\" or simply \"get stuck in traffic\".",
           },
           {
             type: "fill-blank",
@@ -884,7 +884,7 @@ export const EN_B2_U27: Lesson[] = [
         examples: [
           { es: "Our landlord is very slow to fix things.", en: "Nuestro casero tarda mucho en arreglar las cosas." },
           { es: "The tenants complained about the heating.", en: "Los inquilinos se quejaron de la calefacción." },
-          { es: "We had to pay two months' rent as a deposit.", en: "Tuvimos que pagar dos meses de fianza." },
+          { es: "We had to pay two months' rent as a deposit.", en: "Tuvimos que pagar dos meses de depósito." },
           { es: "She rents out her apartment to students.", en: "Alquila su departamento a estudiantes." },
           { es: "I'm looking for a roommate.", en: "Busco compañero de cuarto." },
           { es: "We signed a one-year lease.", en: "Firmamos un contrato de alquiler de un año." },
@@ -926,22 +926,22 @@ export const EN_B2_U27: Lesson[] = [
         body: [
           "To buy a home, most people take out a \"mortgage\" (the t is silent: MOR-gij), a loan from a bank that you \"pay off\" over many years. The \"down payment\" (American) or \"deposit\" (British) is the money you pay at the start.",
           "\"Bills\" are what you pay every month. \"Utility bills\", or \"utilities\" in American English, are electricity, gas and water. Apartments are often advertised as \"utilities included\" or \"bills included\".",
-          "To improve an old home is to \"do it up\" (British) or \"fix it up\" (American), or more formally to \"renovate\" it. «Reformar» is not *reform here: \"reform\" is for laws and systems.",
+          "To improve an old home is to \"do it up\" (British) or \"fix it up\" (American), or more formally to \"renovate\" it. «Remodelar» or «reformar» is not *reform here: \"reform\" is for laws and systems.",
         ],
         examples: [
           { es: "They took out a thirty-year mortgage.", en: "Pidieron una hipoteca a treinta años." },
           { es: "We've almost paid off the mortgage.", en: "Casi hemos terminado de pagar la hipoteca." },
-          { es: "The rent is 900 dollars a month, utilities included.", en: "El alquiler son 900 dólares al mes, gastos incluidos." },
+          { es: "The rent is 900 dollars a month, utilities included.", en: "El alquiler son 900 dólares al mes, servicios incluidos." },
           { es: "Our electricity bill was huge this winter.", en: "Este invierno la factura de la luz fue enorme." },
-          { es: "They bought an old house and fixed it up.", en: "Compraron una casa vieja y la reformaron." },
-          { es: "We're renovating the kitchen.", en: "Estamos reformando la cocina." },
+          { es: "They bought an old house and fixed it up.", en: "Compraron una casa vieja y la remodelaron." },
+          { es: "We're renovating the kitchen.", en: "Estamos remodelando la cocina." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Están reformando la casa antes de mudarse.",
+            source: "Están remodelando la casa antes de mudarse.",
             answer: "They're renovating the house before they move in.",
             altAnswers: [
               "They're renovating the house before moving in.",
@@ -957,7 +957,7 @@ export const EN_B2_U27: Lesson[] = [
               "They're fixing up the house before they move.",
               "They're remodeling the house before they move in.",
             ],
-            explanation: "«Reformar» a home is \"renovate\", \"do up\" or \"fix up\", never *reform. «Mudarse» to it is \"move in\".",
+            explanation: "«Remodelar» (Spain: «reformar») a home is \"renovate\", \"do up\" or \"fix up\", never *reform. «Mudarse» to it is \"move in\".",
           },
         ],
       },
@@ -998,7 +998,7 @@ export const EN_B2_U27: Lesson[] = [
         instructions: "Match each word with its meaning.",
         pairs: [
           { left: "mortgage", right: "hipoteca" },
-          { left: "deposit", right: "fianza" },
+          { left: "deposit", right: "depósito (de garantía)" },
           { left: "lease", right: "contrato de alquiler" },
           { left: "utilities", right: "luz, agua y gas" },
           { left: "landlord", right: "casero" },
@@ -1021,7 +1021,7 @@ export const EN_B2_U27: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El alquiler incluye los gastos.",
+        source: "El alquiler incluye los servicios.",
         answer: "The rent includes utilities.",
         altAnswers: [
           "The rent includes bills.",
@@ -1073,7 +1073,7 @@ export const EN_B2_U27: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["They", "bought", "an", "old", "house", "and", "did", "it", "up."],
-        translation: "Compraron una casa vieja y la reformaron.",
+        translation: "Compraron una casa vieja y la remodelaron.",
         explanation: "With a pronoun, the particle goes after it: \"did it up\", never *did up it.",
       },
       {
@@ -1124,7 +1124,7 @@ export const EN_B2_U27: Lesson[] = [
           { es: "Make your bed before you go to school.", en: "Haz la cama antes de ir al colegio." },
           { es: "Who's doing the washing-up tonight?", en: "¿Quién lava los platos esta noche? (inglés británico)" },
           { es: "The kids made a mess in the kitchen.", en: "Los niños lo dejaron todo hecho un desastre en la cocina." },
-          { es: "I vacuum the living room twice a week.", en: "Paso la aspiradora por el salón dos veces por semana." },
+          { es: "I vacuum the living room twice a week.", en: "Paso la aspiradora por la sala dos veces por semana." },
         ],
         checkpoint: [
           {
@@ -1171,8 +1171,8 @@ export const EN_B2_U27: Lesson[] = [
           "Notice that \"put away\" and \"take out\" are separable: with a pronoun, the pronoun goes in the middle: \"put them away\", \"take it out\".",
         ],
         examples: [
-          { es: "Can you clean up your room, please?", en: "¿Puedes recoger tu cuarto, por favor?" },
-          { es: "I need to sweep the kitchen floor.", en: "Tengo que barrer el suelo de la cocina." },
+          { es: "Can you clean up your room, please?", en: "¿Puedes ordenar tu cuarto, por favor?" },
+          { es: "I need to sweep the kitchen floor.", en: "Tengo que barrer el piso de la cocina." },
           { es: "Whose turn is it to take out the trash?", en: "¿A quién le toca sacar la basura?" },
           { es: "Put the clean plates away, please.", en: "Guarda los platos limpios, por favor." },
           { es: "The shelves need dusting.", en: "Hay que quitar el polvo de las estanterías." },
@@ -1213,7 +1213,7 @@ export const EN_B2_U27: Lesson[] = [
           "Spanish often uses «me arreglaron» or «voy a arreglar» for both cases, so English learners forget the causative: \"I need to get my car fixed\" (by a mechanic), not *I need to fix my car, unless you are the mechanic.",
         ],
         examples: [
-          { es: "He put up some shelves in the living room.", en: "Puso unas estanterías en el salón." },
+          { es: "He put up some shelves in the living room.", en: "Puso unas repisas en la sala." },
           { es: "I'm terrible at DIY.", en: "Soy malísimo para el bricolaje." },
           { es: "We're having the kitchen painted next week.", en: "La semana que viene nos pintan la cocina." },
           { es: "I need to get the washing machine repaired.", en: "Tengo que llevar a arreglar la lavadora." },
@@ -1354,7 +1354,7 @@ export const EN_B2_U27: Lesson[] = [
         sentence: "The kids ___ in the living room, so they had to clean it up.",
         answer: "made a mess",
         altAnswers: ["had made a mess", "made a big mess"],
-        en: "Los niños [lo dejaron todo hecho un desastre] en el salón, así que tuvieron que recogerlo.",
+        en: "Los niños [lo dejaron todo hecho un desastre] en la sala, así que tuvieron que recogerlo.",
         explanation: "You \"make a mess\" (you create it), and then you \"clean it up\".",
       },
       {
@@ -1511,9 +1511,9 @@ export const EN_B2_U27: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "No tengo ganas de cocinar. ¿Comemos fuera?",
-            answer: "I don't feel like cooking. Shall we eat out?",
+            answer: "I don't feel like cooking. Should we eat out?",
             altAnswers: [
-              "I don't feel like cooking. Should we eat out?",
+              "I don't feel like cooking. Shall we eat out?",
               "I don't feel like cooking. Do you want to eat out?",
               "I don't feel like cooking. Why don't we eat out?",
               "I don't feel like cooking. How about eating out?",
@@ -1683,7 +1683,7 @@ export const EN_B2_U27: Lesson[] = [
           "\"Do\" goes with other activities, often individual or martial arts: \"do yoga\", \"do karate\", \"do Pilates\", \"do gymnastics\", \"do exercise\". «Practicar deporte» is usually \"play sports\" or \"do sports\" (British \"do sport\"), not *practice sport.",
         ],
         examples: [
-          { es: "I play basketball on Tuesdays.", en: "Juego al baloncesto los martes." },
+          { es: "I play basketball on Tuesdays.", en: "Juego básquetbol los martes." },
           { es: "We go swimming every weekend.", en: "Vamos a nadar todos los fines de semana." },
           { es: "She does yoga before work.", en: "Hace yoga antes de trabajar." },
           { es: "My son does karate.", en: "Mi hijo hace kárate." },
@@ -1761,7 +1761,7 @@ export const EN_B2_U27: Lesson[] = [
         heading: "Scores, referees and hobbies",
         body: [
           "You \"score\" a goal, a point or a basket: \"She scored twice\". The \"score\" is also the result: \"What's the score?\". In soccer and basketball, the official is the \"referee\"; in tennis and baseball, the \"umpire\". A \"fan\" supports a team; a \"coach\" trains it.",
-          "To start a new hobby is to \"take up\" an activity: \"I took up painting last year\". To stop doing it is to \"give it up\". «Me he apuntado a» a class or gym is \"I've signed up for\" or \"I've joined\".",
+          "To start a new hobby is to \"take up\" an activity: \"I took up painting last year\". To stop doing it is to \"give it up\". «Me inscribí en» (Spain: «me he apuntado a») a class or gym is \"I've signed up for\" or \"I've joined\".",
           "\"Work out\" is to exercise, especially at a gym: \"I work out three times a week\". The noun is \"a workout\". To \"get in shape\" or \"get fit\" is «ponerse en forma». Remember \"train\" for serious, regular preparation: \"She's training for a marathon\".",
         ],
         examples: [
@@ -1769,7 +1769,7 @@ export const EN_B2_U27: Lesson[] = [
           { es: "What's the score?", en: "¿Cómo van?" },
           { es: "The referee didn't see the foul.", en: "El árbitro no vio la falta." },
           { es: "I took up climbing last year.", en: "El año pasado empecé a escalar." },
-          { es: "I've joined a gym to get in shape.", en: "Me he apuntado a un gimnasio para ponerme en forma." },
+          { es: "I've joined a gym to get in shape.", en: "Me inscribí en un gimnasio para ponerme en forma." },
           { es: "I work out three times a week.", en: "Entreno tres veces por semana." },
         ],
         checkpoint: [
@@ -1856,7 +1856,7 @@ export const EN_B2_U27: Lesson[] = [
         type: "matching",
         instructions: "Match each word with its meaning.",
         pairs: [
-          { left: "referee", right: "árbitro (fútbol, baloncesto)" },
+          { left: "referee", right: "árbitro (fútbol, básquetbol)" },
           { left: "umpire", right: "árbitro (tenis, béisbol)" },
           { left: "coach", right: "entrenador" },
           { left: "score", right: "marcar; resultado" },
@@ -1948,7 +1948,7 @@ export const EN_B2_U27: Lesson[] = [
           { es: "We set off early to avoid the traffic.", en: "Salimos temprano para evitar el tráfico." },
           { es: "We checked in at the hotel at three.", en: "Hicimos el check-in en el hotel a las tres." },
           { es: "You have to check out of your room by eleven.", en: "Tienes que dejar la habitación antes de las once." },
-          { es: "Online check-in opens 24 hours before the flight.", en: "La facturación online se abre 24 horas antes del vuelo." },
+          { es: "Online check-in opens 24 hours before the flight.", en: "El check-in en línea se abre 24 horas antes del vuelo." },
           { es: "We need to get away for a few days.", en: "Necesitamos escaparnos unos días." },
         ],
         checkpoint: [
@@ -2127,12 +2127,12 @@ export const EN_B2_U27: Lesson[] = [
         instructions: "Match each phrasal verb with its meaning.",
         pairs: [
           { left: "set off", right: "salir, ponerse en camino" },
-          { left: "check in", right: "registrarse, facturar" },
+          { left: "check in", right: "registrarse, documentar (el equipaje)" },
           { left: "look around", right: "dar una vuelta para ver un sitio" },
           { left: "put up with", right: "aguantar" },
           { left: "drop off", right: "dejar a alguien en un sitio" },
         ],
-        explanation: "\"Check in\" works for hotels («registrarse») and airports («facturar»).",
+        explanation: "\"Check in\" works for hotels («registrarse») and airports («documentar», «hacer el check-in»).",
       },
       {
         type: "word-order",
@@ -2170,7 +2170,7 @@ export const EN_B2_U27: Lesson[] = [
         sentence: "Online ___ closes one hour before departure.",
         answer: "check-in",
         altAnswers: ["check in", "checkin"],
-        en: "La [facturación] online cierra una hora antes de la salida.",
+        en: "El [check-in] en línea cierra una hora antes de la salida.",
         explanation: "The noun \"check-in\" is written with a hyphen.",
       },
       {
@@ -2245,7 +2245,7 @@ export const EN_B2_U27: Lesson[] = [
           "Be careful with word order. The object goes BEFORE the participle: \"have the car repaired\", not *have repaired the car (that would mean you have already repaired it yourself).",
         ],
         examples: [
-          { es: "We're having the bathroom redone next month.", en: "El mes que viene nos reforman el baño." },
+          { es: "We're having the bathroom redone next month.", en: "El mes que viene nos remodelan el baño." },
           { es: "We're going to have solar panels installed.", en: "Vamos a poner paneles solares." },
           { es: "I'll get the lock changed tomorrow.", en: "Mañana mando cambiar la cerradura." },
           { es: "The landlord had the boiler replaced.", en: "El casero hizo cambiar la caldera." },
@@ -2319,7 +2319,7 @@ export const EN_B2_U27: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Nos mudamos el sábado; ya hemos alquilado una furgoneta.",
+        source: "Nos mudamos el sábado; ya rentamos una camioneta.",
         answer: "We're moving on Saturday; we've already rented a van.",
         altAnswers: [
           "We're moving on Saturday. We've already rented a van.",
@@ -2413,7 +2413,7 @@ export const EN_B2_U27: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["We're", "having", "the", "kitchen", "redone", "next", "month."],
-        translation: "El mes que viene nos reforman la cocina.",
+        translation: "El mes que viene nos remodelan la cocina.",
         altOrders: [["Next", "month", "we're", "having", "the", "kitchen", "redone."]],
         explanation: "Causative: have + object + participle. The present continuous shows an arrangement.",
       },
@@ -2514,7 +2514,7 @@ export const EN_B2_U27: Lesson[] = [
       {
         heading: "Telling the story",
         body: [
-          "A holiday story (Americans usually say \"vacation\") uses the narrative tenses: past simple for the main events, past continuous for the background, past perfect for earlier events. \"We were waiting at the gate when they announced that our flight had been canceled.\"",
+          "A vacation story (British English says \"holiday\") uses the narrative tenses: past simple for the main events, past continuous for the background, past perfect for earlier events. \"We were waiting at the gate when they announced that our flight had been canceled.\"",
           "Remember the vocabulary traps: you \"miss\" a flight, the flight is \"delayed\" or \"canceled\", you \"check in\" at the hotel, you \"go on a trip\". And for «de vacaciones», say \"on vacation\" (American) or \"on holiday\" (British), never *in vacation.",
         ],
         examples: [
@@ -2747,7 +2747,7 @@ export const EN_B2_U27: Lesson[] = [
           "We took a week to recover from the trip.",
           "It took us one week to recover from the trip.",
         ],
-        explanation: "«Tardar» + time + «en» is \"it took us\" + time + \"to\". «El viaje» is \"the trip\" (or \"the journey\" if you mean the travelling itself).",
+        explanation: "«Tardar» + time + «en» is \"it took us\" + time + \"to\". «El viaje» is \"the trip\" (or \"the journey\" if you mean the traveling itself).",
       },
       {
         type: "dictation",
@@ -2837,7 +2837,7 @@ export const EN_B2_U27: Lesson[] = [
           "A \"preservative\" is a chemical added to food to make it last longer: «un conservante». «Un preservativo» is a \"condom\". Food labels often say \"no preservatives\", meaning «sin conservantes».",
         ],
         examples: [
-          { es: "We need a new carpet for the living room.", en: "Necesitamos una alfombra nueva para el salón." },
+          { es: "We need a new carpet for the living room.", en: "Necesitamos una alfombra nueva para la sala." },
           { es: "I keep all my bills in a blue folder.", en: "Guardo todas las facturas en una carpeta azul." },
           { es: "The curtains are made of a light fabric.", en: "Las cortinas son de una tela ligera." },
           { es: "My grandfather worked in a textile factory.", en: "Mi abuelo trabajaba en una fábrica textil." },

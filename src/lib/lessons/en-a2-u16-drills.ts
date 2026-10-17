@@ -253,7 +253,7 @@ export const EN_A2_U16_DRILLS: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "¿Cómo se dice «estoy muy ilusionado con el viaje»?",
+        question: "¿Cómo se dice «estoy muy emocionado con el viaje»?",
         options: ["I'm really excited about the trip.", "I'm really exciting about the trip.", "I'm really excited in the trip.", "I'm really exciting for the trip."],
         correctIndex: 0,
         explanation: "La persona siente: \"excited\", con \"about\". \"Excited\" significa «ilusionado», «emocionado», no tiene el matiz de «excitado».",
@@ -282,7 +282,7 @@ export const EN_A2_U16_DRILLS: Lesson[] = [
         source: "Me interesa mucho la historia.",
         answer: "I'm very interested in history.",
         altAnswers: ["I'm really interested in history."],
-        explanation: "En inglés la persona es el sujeto: \"I'm interested in\". No *History interests me very much ni *interested on.",
+        explanation: "En inglés la persona es el sujeto: \"I'm interested in\". \"History interests me\" también es correcto, pero \"I'm interested in\" es lo más natural. Nunca *interested on.",
       },
       {
         type: "dictation",

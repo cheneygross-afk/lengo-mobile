@@ -25,7 +25,7 @@ export const EN_B2_U04_EXTRA: Lesson[] = [
           { es: "I'll call you later.", en: "Te llamo luego." },
           { es: "Should I open the window?", en: "¿Abro la ventana?" },
           { es: "I'm working tomorrow.", en: "Mañana trabajo." },
-          { es: "I'm going to repaint the living room.", en: "Voy a pintar el salón." },
+          { es: "I'm going to repaint the living room.", en: "Voy a pintar la sala." },
           { es: "Call me when you arrive.", en: "Llámame cuando llegues." },
         ],
         checkpoint: [
@@ -66,7 +66,7 @@ export const EN_B2_U04_EXTRA: Lesson[] = [
         examples: [
           { es: "It must be about eight.", en: "Serán las ocho." },
           { es: "She's probably at home.", en: "Estará en casa." },
-          { es: "He must be about forty.", en: "Tendrá unos cuarenta años. (incorrecto: \"He will have forty years\")" },
+          { es: "He must be about forty.", en: "Tendrá unos cuarenta años. (incorrecto: *He will have forty years)" },
           { es: "They must have missed the train.", en: "Habrán perdido el tren." },
           { es: "I wonder where my keys are.", en: "¿Dónde estarán mis llaves?" },
         ],
@@ -374,7 +374,7 @@ export const EN_B2_U04_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "By Friday we'll have hired two more people.", en: "Para el viernes habremos contratado a dos personas más." },
-          { es: "In two weeks I'll have finished the project.", en: "Dentro de dos semanas habré terminado el proyecto. (incorrecto: \"I will have finish\")" },
+          { es: "In two weeks I'll have finished the project.", en: "Dentro de dos semanas habré terminado el proyecto. (incorrecto: *I will have finish)" },
           { es: "At ten tomorrow I'll be meeting the client.", en: "Mañana a las diez estaré reunido con el cliente." },
           { es: "Will you be using the meeting room this afternoon?", en: "¿Vas a usar la sala de reuniones esta tarde?" },
           { es: "In June I'll have been here for ten years.", en: "En junio llevaré diez años aquí." },

@@ -228,13 +228,13 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
         type: "multiple-choice",
         question: "Which sentence needs commas?",
         options: [
-          "Mount Everest which is in Nepal is the highest mountain on Earth.",
+          "Mount Everest which is in the Himalayas is the highest mountain on Earth.",
           "The mountain that we climbed was very steep.",
           "People who climb mountains need good boots.",
           "The boots that I bought were too small.",
         ],
         correctIndex: 0,
-        explanation: "Mount Everest is unique, so the clause only adds information: \"Mount Everest, which is in Nepal, is...\". The others define which mountain, people or boots.",
+        explanation: "Mount Everest is unique, so the clause only adds information: \"Mount Everest, which is in the Himalayas, is...\". The others define which mountain, people or boots.",
       },
       {
         type: "translate",
@@ -996,7 +996,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "She's the colleague ___ whom I share an office.",
         answer: "with",
-        en: "Es la compañera [con] la que comparto despacho.",
+        en: "Es la compañera [con] la que comparto oficina.",
         explanation: "Formal pattern: preposition + \"whom\". You \"share something with someone\".",
       },
       {
@@ -1101,7 +1101,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "¿Qué frase es correcta?",
+            question: "Which sentence is correct?",
             options: [
               "Arriving at the station, I realized I had left my wallet at home.",
               "Arriving at the station, my wallet was at home.",
@@ -1542,6 +1542,7 @@ export const EN_B2_U14_EXTRA: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Is there anything ___ do to help?",
         answer: "I can",
+        altAnswers: ["that I can"],
         en: "¿Hay algo [que pueda] hacer para ayudar?",
         explanation: "\"Anything (that) I can do\": the pronoun is the object, so it is normally dropped. English uses \"can\", not a subjunctive.",
       },

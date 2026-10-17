@@ -8,7 +8,7 @@ export const EN_A2_WRITING: UnitWriting = {
   "a2-present-perfect-2": [
     {
       "type": "write",
-      "prompt": "Vuelves a casa y hay varios problemas. Escribe una nota a tu compañera de piso para contarle qué ha pasado y pídele ayuda con una pregunta.",
+      "prompt": "Vuelves a casa y hay varios problemas. Escribe una nota a tu compañera de departamento para contarle qué ha pasado y pídele ayuda con una pregunta.",
       "minWords": 40,
       "maxWords": 80,
       "rubric": [

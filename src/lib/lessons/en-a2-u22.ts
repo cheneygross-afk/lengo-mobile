@@ -727,7 +727,7 @@ export const EN_A2_U22: Lesson[] = [
             question: "Tu amigo dice \"I didn't like the movie.\" y quieres responder «a mí tampoco». ¿Qué dices?",
             options: ["Neither did I.", "So did I.", "Neither I did.", "I didn't too."],
             correctIndex: 0,
-            explanation: "«Yo tampoco» en pasado es \"Neither did I\", con el auxiliar antes del sujeto. \"So did I\" sería «a mí sí».",
+            explanation: "«Yo tampoco» en pasado es \"Neither did I\", con el auxiliar antes del sujeto. \"So did I\" (= «yo también») solo responde a frases afirmativas; para «a mí sí» dirías \"I did\".",
           },
         ],
       },
@@ -1410,7 +1410,7 @@ export const EN_A2_U22: Lesson[] = [
         examples: [
           { es: "I'm bored.", en: "Estoy aburrido." },
           { es: "This book is very interesting.", en: "Este libro es muy interesante." },
-          { es: "We're very excited.", en: "Estamos muy ilusionados." },
+          { es: "We're very excited.", en: "Estamos muy emocionados." },
           { es: "I don't know anything.", en: "No sé nada." },
           { es: "Nobody came.", en: "No vino nadie." },
           { es: "I never eat meat.", en: "Nunca como carne." },
@@ -1679,7 +1679,7 @@ export const EN_A2_U22: Lesson[] = [
           { es: "On Saturday we went to a concert.", en: "El sábado fuimos a un concierto." },
           { es: "First we had lunch, then we went for a walk.", en: "Primero almorzamos y después fuimos a dar un paseo." },
           { es: "It was raining, so we stayed home.", en: "Llovía, así que nos quedamos en casa." },
-          { es: "In the end, we had a great time.", en: "Al final, lo pasamos genial." },
+          { es: "In the end, we had a great time.", en: "Al final, la pasamos genial." },
         ],
         checkpoint: [
           {

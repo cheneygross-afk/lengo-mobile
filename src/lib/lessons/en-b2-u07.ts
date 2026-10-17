@@ -748,7 +748,7 @@ export const EN_B2_U07: Lesson[] = [
         examples: [
           { es: "I would have helped you, but you didn't ask.", en: "Te habría ayudado, pero no me lo pediste." },
           { es: "If you had asked, I would have helped.", en: "Si me lo hubieras pedido, te habría ayudado." },
-          { es: "She would have loved this place.", en: "Le habría encantado este sitio." },
+          { es: "She would have loved this place.", en: "Le habría encantado este lugar." },
           { es: "I wouldn't have known without you.", en: "No lo habría sabido sin ti." },
           { es: "What would you have done?", en: "¿Qué habrías hecho tú?" },
         ],
@@ -826,7 +826,7 @@ export const EN_B2_U07: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "A tu abuela le habría encantado este sitio.",
+        source: "A tu abuela le habría encantado este lugar.",
         answer: "Your grandmother would have loved this place.",
         altAnswers: ["Your grandma would have loved this place.", "Your grandmother would have loved this spot.", "Your grandma would have loved this spot."],
         explanation: "An imaginary result in the past: \"would have\" + past participle. Spanish «le encantaría» becomes a normal subject + \"love\".",
@@ -1019,7 +1019,7 @@ export const EN_B2_U07: Lesson[] = [
         sentence: "If only I ___ my phone at home!",
         answer: "hadn't left",
         altAnswers: ["had not left", "hadn't forgotten", "had not forgotten"],
-        en: "¡Ojalá no [me hubiera dejado] el celular en casa!",
+        en: "¡Ojalá no [hubiera dejado] el celular en casa!",
         explanation: "A past regret: \"if only\" + past perfect. Not *If only I didn't leave.",
       },
       {
@@ -1185,9 +1185,9 @@ export const EN_B2_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "We live in a noisy street. I wish we ___ somewhere quieter.",
+        sentence: "We live on a noisy street. I wish we ___ somewhere quieter.",
         answer: "lived",
-        en: "Vivimos en una calle ruidosa. Ojalá [viviéramos] en un sitio más tranquilo.",
+        en: "Vivimos en una calle ruidosa. Ojalá [viviéramos] en un lugar más tranquilo.",
         explanation: "Present fact, unreal wish: past simple \"lived\".",
       },
       {
@@ -1259,7 +1259,7 @@ export const EN_B2_U07: Lesson[] = [
       {
         heading: "The dialogue: after the launch",
         body: [
-          "Emma and Carlos work in the same team. Their new app launched last week and almost nobody downloaded it. Read their conversation.",
+          "Emma and Carlos work on the same team. Their new app launched last week and almost nobody downloaded it. Read their conversation.",
           "Notice how they mix structures: \"should have\" for criticism, \"wish\" for regret, and the third conditional (\"If we had..., we would have...\") for imagining a different past.",
         ],
         examples: [

@@ -659,7 +659,7 @@ export const EN_B1_U30: Lesson[] = [
         examples: [
           { es: "How much is the rent?", en: "¿Cuánto es el alquiler?" },
           { es: "Are bills included?", en: "¿Están incluidos los gastos?" },
-          { es: "Are utilities included in the rent?", en: "¿Los suministros están incluidos en el alquiler?" },
+          { es: "Are utilities included in the rent?", en: "¿Los servicios están incluidos en el alquiler?" },
           { es: "The deposit is one month's rent.", en: "El depósito es un mes de alquiler." },
           { es: "Is the apartment furnished?", en: "¿El departamento está amueblado?" },
           { es: "The lease is for twelve months.", en: "El contrato es de doce meses." },
@@ -727,7 +727,7 @@ export const EN_B1_U30: Lesson[] = [
         source: "¿Cuánto es el depósito?",
         answer: "How much is the deposit?",
         altAnswers: ["How much is the security deposit?", "What's the deposit?", "How much is the damage deposit?"],
-        explanation: "«Fianza» is \"deposit\" or \"security deposit\". \"How much is...?\" is the normal way to ask about a price.",
+        explanation: "«Depósito» (Spain also «fianza») is \"deposit\" or \"security deposit\". \"How much is...?\" is the normal way to ask about a price.",
       },
       {
         type: "translate",
@@ -1437,7 +1437,7 @@ export const EN_B1_U30: Lesson[] = [
         heading: "Buying tickets",
         body: [
           "A ticket for one direction is a \"one-way ticket\" in the US and a \"single\" in the UK. A ticket there and back is a \"round-trip ticket\" (US) or a \"return\" (UK). So: \"A round-trip ticket to Boston, please\" or \"A return to Oxford, please\".",
-          "Prices often change with the time of day. \"Peak\" times are the busy hours (rush hour), when tickets are more expensive. \"Off-peak\" tickets are cheaper. Ask: \"Is there a cheaper off-peak fare?\" The price of a ticket is a \"fare\" (= «tarifa», «precio del billete»).",
+          "Prices often change with the time of day. \"Peak\" times are the busy hours (rush hour), when tickets are more expensive. \"Off-peak\" tickets are cheaper. Ask: \"Is there a cheaper off-peak fare?\" The price of a ticket is a \"fare\" (= «tarifa», «precio del boleto»).",
           "Remember the verbs: you \"get on\" a bus or train (= «subirse») and \"get off\" (= «bajarse»). You \"take\" or \"catch\" a bus. For cars and taxis, use \"get in\" and \"get out of\".",
         ],
         examples: [

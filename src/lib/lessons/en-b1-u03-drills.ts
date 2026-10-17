@@ -219,7 +219,7 @@ export const EN_B1_U03_DRILLS: Lesson[] = [
         "She had been live in Rome for a year when she met Marco.",
         "She has been living in Rome for a year when she met Marco.",
       ], "Up to a past moment (when she met Marco) = \"had been\" + -ing + \"for\". \"Has been\" connects with now, not with the past, and *since a year is wrong in any tense."),
-      tr("Llevaba dos horas manejando cuando el carro se descompuso.", "I had been driving for two hours when the car broke down.",
+      tr("Llevaba dos horas manejando cuando el carro se descompuso.", "{I|He|She} had been driving for two hours when the car broke down.",
         "«Llevaba + tiempo + gerundio» = \"had been\" + -ing. The interruption is in the past simple: \"broke down\" («se descompuso»)."),
       tr("Hacía meses que estudiaba para ese examen.", "I had been {studying|preparing} for that {exam|test} for months.",
         "«Hacía X que + imperfecto» = \"had been\" + -ing + \"for X\". Note the two \"for\"s: \"study for an exam\" and \"for months\"."),

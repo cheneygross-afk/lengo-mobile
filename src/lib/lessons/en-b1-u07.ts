@@ -121,7 +121,7 @@ export const EN_B1_U07: Lesson[] = [
       {
         heading: "Life before: used to",
         body: [
-          "\"Used to\" + infinitive talks about past habits and states that are not true any more: \"I used to play soccer\", \"We used to live in Quito\". It is the natural translation of «solía» and of many uses of the imperfect, like «de niño jugaba al fútbol».",
+          "\"Used to\" + infinitive talks about past habits and states that are not true anymore: \"I used to play soccer\", \"We used to live in Quito\". It is the natural translation of «solía» and of many uses of the imperfect, like «de niño jugaba al fútbol».",
           "Negatives and questions use \"did\" + \"use to\", without the -d: \"I didn't use to like coffee\", \"Did you use to wear glasses?\". For a single event, use the past simple: \"I played soccer yesterday\", not *I used to play soccer yesterday.",
           "There is no present form. For present habits use the present simple, often with \"usually\": «suelo levantarme a las siete» is \"I usually get up at seven\", never *I use to get up at seven.",
         ],
@@ -591,7 +591,7 @@ export const EN_B1_U07: Lesson[] = [
     slug: "b1-error-hunt-tenses-mixed",
     level: "EN-B1",
     number: 3,
-    title: "Error Hunt: Tenses Across the Independence level",
+    title: "Error Hunt: Mixed Tenses",
     summary: "One mistake per sentence from all the Independence tense lessons: for and since, used to, when + will, had went, I have seen him yesterday and more.",
     duration: "10 min",
     sections: [
@@ -781,7 +781,7 @@ export const EN_B1_U07: Lesson[] = [
           "I use to going to the gym on Mondays.",
         ],
         correctIndex: 0,
-        explanation: "A present habit is \"usually\" + present simple. \"Used to\" would mean you don't go any more.",
+        explanation: "A present habit is \"usually\" + present simple. \"Used to\" would mean you don't go anymore.",
       },
       {
         type: "fill-blank",
@@ -1371,7 +1371,7 @@ export const EN_B1_U07: Lesson[] = [
         examples: [
           { es: "Last week I went to Ana's wedding.", en: "La semana pasada fui a la boda de Ana." },
           { es: "We danced until three in the morning.", en: "Bailamos hasta las tres de la mañana." },
-          { es: "I was driving to the wedding when my car broke down.", en: "Iba en carro a la boda cuando se me averió el carro." },
+          { es: "I was driving to the wedding when my car broke down.", en: "Iba manejando a la boda cuando se me descompuso el carro." },
           { es: "Luckily, I had brought my charger.", en: "Por suerte, me había traído el cargador." },
         ],
         checkpoint: [

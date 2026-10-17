@@ -111,7 +111,7 @@ export const EN_B2_U24: Lesson[] = [
         heading: "Day-to-day work: deadlines, workload, freelance",
         body: [
           "A \"deadline\" is the date or time when something must be finished («fecha límite», «plazo»). You \"meet\" a deadline (you finish on time) or \"miss\" it. Deadlines can be \"tight\" (very little time).",
-          "Your \"workload\" is the amount of work you have («carga de trabajo»): \"a heavy workload\". If you work for yourself and sell your services to different clients, you are \"freelance\" or \"a freelancer\" («autónomo»): \"I work freelance\", \"I'm a freelance designer\".",
+          "Your \"workload\" is the amount of work you have («carga de trabajo»): \"a heavy workload\". If you work for yourself and sell your services to different clients, you are \"freelance\" or \"a freelancer\" («independiente», «por cuenta propia»): \"I work freelance\", \"I'm a freelance designer\".",
           "Other useful collocations: \"work full-time\" / \"part-time\", \"work from home\", \"work overtime\" («hacer horas extra»), \"a nine-to-five job\".",
         ],
         examples: [
@@ -250,7 +250,7 @@ export const EN_B2_U24: Lesson[] = [
           "Soy diseñador a tiempo completo en una oficina.",
         ],
         correctIndex: 0,
-        explanation: "\"Freelance\" means self-employed («autónomo»), not «gratis» (that would be \"free\" or \"for free\").",
+        explanation: "\"Freelance\" means self-employed («independiente»), not «gratis» (that would be \"free\" or \"for free\").",
       },
       {
         type: "speak",
@@ -364,7 +364,7 @@ export const EN_B2_U24: Lesson[] = [
       {
         heading: "Numbers: profit, loss, turnover, market share",
         body: [
-          "A \"profit\" is the money a company earns after costs («beneficio»); the opposite is a \"loss\" («pérdida»). The usual verbs are \"make a profit\" and \"make a loss\" (or simply \"lose money\"). Don't translate «beneficio» as \"benefit\" here: \"benefits\" are advantages, or extras like health insurance.",
+          "A \"profit\" is the money a company earns after costs («ganancias», «utilidades»; in Spain «beneficio»); the opposite is a \"loss\" («pérdida»). The usual verbs are \"make a profit\" and \"make a loss\" (or simply \"lose money\"). Don't translate «beneficio» as \"benefit\" here: \"benefits\" are advantages, or extras like health insurance.",
           "\"Turnover\" (UK) or \"revenue\" / \"sales\" (US) is the total money a company takes in before costs («facturación»). Careful: in American English \"turnover\" usually means the rate at which employees leave («rotación de personal»).",
           "\"Market share\" is the percentage of a market a company controls («cuota de mercado»). Companies \"gain\" or \"lose\" market share.",
         ],
@@ -786,7 +786,7 @@ export const EN_B2_U24: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "«Las zapatillas estaban rebajadas.» Which is correct?",
+            question: "«Los tenis estaban rebajados.» Which is correct?",
             options: ["The sneakers were on sale.", "The sneakers were in sales.", "The sneakers were for sale.", "The sneakers were rebated."],
             correctIndex: 0,
             explanation: "\"On sale\" = reduced in price (in American English). \"For sale\" just means available to buy.",
@@ -851,14 +851,14 @@ export const EN_B2_U24: Lesson[] = [
           { es: "Apple customers show strong brand loyalty.", en: "Los clientes de Apple son muy fieles a la marca." },
           { es: "What brand is your phone?", en: "¿De qué marca es tu celular?" },
           { es: "It's worth shopping around for car insurance.", en: "Vale la pena comparar precios del seguro del carro." },
-          { es: "We went window-shopping downtown.", en: "Fuimos a mirar escaparates al centro." },
+          { es: "We went window-shopping downtown.", en: "Fuimos a ver vitrinas al centro." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "¿De qué marca son tus zapatillas?",
+            source: "¿De qué marca son tus tenis?",
             answer: "What brand are your sneakers?",
             altAnswers: ["What brand are your trainers?", "What brand are your shoes?", "What brand are your running shoes?", "Which brand are your sneakers?"],
             explanation: "«Marca» of a product is \"brand\". \"Mark\" means a sign, stain or school grade.",
@@ -868,12 +868,12 @@ export const EN_B2_U24: Lesson[] = [
       {
         heading: "Complaining",
         body: [
-          "You \"complain\" to someone \"about\" something: \"I'd like to complain about the service.\" The noun is \"a complaint\": \"make a complaint\" («poner una reclamación»).",
+          "You \"complain\" to someone \"about\" something: \"I'd like to complain about the service.\" The noun is \"a complaint\": \"make a complaint\" («presentar una queja», «poner un reclamo»).",
           "In shops and emails, polite complaints often start with \"I'm afraid...\" or \"I'm sorry, but...\": \"I'm afraid this doesn't work.\" Useful phrases: \"It's faulty\" / \"It's defective\" («tiene un defecto»), \"It arrived damaged\", \"I'd like to speak to the manager.\"",
           "Careful: «reclamar» is not \"reclaim\" in this context. \"Reclaim\" means get something back (\"reclaim your luggage\"). For complaining, use \"complain\".",
         ],
         examples: [
-          { es: "I'd like to make a complaint.", en: "Quisiera poner una reclamación." },
+          { es: "I'd like to make a complaint.", en: "Quisiera presentar una queja." },
           { es: "I'm afraid this phone is faulty.", en: "Me temo que este teléfono tiene un defecto." },
           { es: "The package arrived damaged.", en: "El paquete llegó dañado." },
           { es: "Could I speak to the manager, please?", en: "¿Podría hablar con el encargado, por favor?" },
@@ -927,7 +927,7 @@ export const EN_B2_U24: Lesson[] = [
           { left: "receipt", right: "recibo (de compra)" },
           { left: "warranty", right: "garantía" },
           { left: "brand", right: "marca" },
-          { left: "complaint", right: "reclamación, queja" },
+          { left: "complaint", right: "queja, reclamo" },
           { left: "impulse buy", right: "compra impulsiva" },
         ],
         explanation: "\"Receipt\" has a silent p; \"brand\" is not \"mark\".",
@@ -1005,8 +1005,8 @@ export const EN_B2_U24: Lesson[] = [
         heading: "Naming social problems",
         body: [
           "Most of these nouns are uncountable, so they take no article in general statements: \"Poverty is a serious problem\" (not *The poverty). Spanish uses «la pobreza», but English drops \"the\" when it talks about something in general.",
-          "Key words: \"poverty\" («pobreza»), \"inequality\" («desigualdad»), \"unemployment\" («desempleo», «paro»), \"homelessness\" (the problem of people without a home; the people are \"homeless people\" or \"the homeless\"), \"discrimination\" («discriminación»), \"crime\" («delincuencia»).",
-          "Adjectives: \"poor\", \"unequal\", \"unemployed\" («en paro»), \"homeless\". Note that \"unemployed\" is the adjective: \"He's unemployed\", never *He's in unemployment.",
+          "Key words: \"poverty\" («pobreza»), \"inequality\" («desigualdad»), \"unemployment\" («desempleo»; in Spain «paro»), \"homelessness\" (the problem of people without a home; the people are \"homeless people\" or \"the homeless\"), \"discrimination\" («discriminación»), \"crime\" («delincuencia»).",
+          "Adjectives: \"poor\", \"unequal\", \"unemployed\" («desempleado»), \"homeless\". Note that \"unemployed\" is the adjective: \"He's unemployed\", never *He's in unemployment.",
         ],
         examples: [
           { es: "Poverty affects millions of children.", en: "La pobreza afecta a millones de niños. (incorrecto: *The poverty affects...)" },
@@ -1049,7 +1049,7 @@ export const EN_B2_U24: Lesson[] = [
         heading: "Doing something about it: tackle, address, raise awareness",
         body: [
           "To deal with a problem seriously, English uses \"tackle\" («abordar», «combatir»), \"address\" (more formal) or \"deal with\": \"The government must tackle poverty.\" \"Fight\" also works: \"fight discrimination\".",
-          "\"Raise awareness\" (of / about something) means make people know about a problem («concienciar», «sensibilizar»): \"The campaign aims to raise awareness of mental health.\"",
+          "\"Raise awareness\" (of / about something) means make people know about a problem («concientizar», «sensibilizar»): \"The campaign aims to raise awareness of mental health.\"",
           "Other collocations: \"face a problem\", \"solve a problem\", \"a growing problem\", \"a serious issue\", \"help people in need\", \"donate to charity\", \"do volunteer work\" («hacer voluntariado»).",
         ],
         examples: [
@@ -1173,7 +1173,7 @@ export const EN_B2_U24: Lesson[] = [
         type: "matching",
         instructions: "Match the English with the Spanish.",
         pairs: [
-          { left: "homelessness", right: "sinhogarismo" },
+          { left: "homelessness", right: "la falta de vivienda" },
           { left: "inequality", right: "desigualdad" },
           { left: "unemployed", right: "desempleado" },
           { left: "raise awareness", right: "concientizar" },
@@ -1301,7 +1301,7 @@ export const EN_B2_U24: Lesson[] = [
         body: [
           "The \"government\" is the group that runs the country («el gobierno»). Note the n in the middle: GOV-ern-ment. The parties not in power form the \"opposition\" («la oposición»).",
           "A government \"comes to power\", \"is in power\" and \"passes laws\". A politician can \"resign\" or be \"elected\" / \"re-elected\". The \"prime minister\" leads the government in the UK, Canada and Spain; the US has a \"president\".",
-          "Collocations: \"a majority\" («mayoría»), \"a coalition\" («coalición»), \"left-wing\" / \"right-wing\" («de izquierdas / de derechas»), \"a referendum\".",
+          "Collocations: \"a majority\" («mayoría»), \"a coalition\" («coalición»), \"left-wing\" / \"right-wing\" («de izquierda / de derecha»), \"a referendum\".",
         ],
         examples: [
           { es: "The government passed a new law on housing.", en: "El gobierno aprobó una nueva ley de vivienda." },

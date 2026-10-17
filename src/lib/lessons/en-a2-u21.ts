@@ -881,7 +881,7 @@ export const EN_A2_U21: Lesson[] = [
       {
         heading: "Comprar un boleto",
         body: [
-          "Un billete de transporte es \"a ticket\". No uses \"bill\": en Estados Unidos \"bill\" es un billete de dinero o una factura.",
+          "Un boleto de transporte es \"a ticket\". No uses \"bill\": en Estados Unidos \"bill\" es un billete de dinero o una factura.",
           "«De ida» es \"one-way\" en Estados Unidos y \"single\" en Reino Unido. «De ida y vuelta» es \"round-trip\" en Estados Unidos y \"return\" en Reino Unido: \"A round-trip ticket to Boston, please\".",
           "Para preguntar el precio: \"How much is a ticket to Chicago?\". Y para el horario: \"What time is the next train to...?\".",
         ],
@@ -1107,7 +1107,7 @@ export const EN_A2_U21: Lesson[] = [
         body: [
           "\"I want a coffee\" es gramaticalmente correcto, pero a un mesero le suena brusco, como una orden. Lo natural es \"I'll have a coffee\", \"I'd like a coffee\" o, muy americano, \"Can I get a coffee?\".",
           "\"I'll have\" se usa al elegir del menú: \"I'll have the chicken, please\". Con platos concretos del menú se usa \"the\". Para pedir consejo: \"What do you recommend?\".",
-          "El camarero preguntará \"Are you ready to order?\" y, después, \"Anything else?\" o \"Anything to drink?\". Si aún no has decidido: \"Could we have a few more minutes?\".",
+          "El mesero preguntará \"Are you ready to order?\" y, después, \"Anything else?\" o \"Anything to drink?\". Si aún no has decidido: \"Could we have a few more minutes?\".",
         ],
         examples: [
           { es: "I'll have the chicken, please.", en: "Para mí, el pollo, por favor." },
@@ -1680,7 +1680,7 @@ export const EN_A2_U21: Lesson[] = [
         body: [
           "Hay muchas formas de invitar: \"Do you want to go to the movies?\" (informal), \"Would you like to come to dinner?\" (más educado), \"How about a coffee?\" y \"Why don't we go to the beach?\".",
           "\"Let's\" + verbo propone hacer algo juntos: \"Let's go out tonight\". En Reino Unido también oirás \"Do you fancy...?\": \"Do you fancy a drink?\" («¿se te antoja tomar algo?»).",
-          "Ojo con «quedar»: «¿quedamos?» se dice \"Do you want to meet up?\" o \"Do you want to hang out?\". \"Stay\" significa «quedarse en un lugar».",
+          "Ojo: «¿nos vemos?» (en España, «¿quedamos?») se dice \"Do you want to meet up?\" o \"Do you want to hang out?\". \"Stay\" significa «quedarse en un lugar».",
         ],
         examples: [
           { es: "Do you want to go to the movies?", en: "¿Quieres ir al cine?" },
@@ -1706,7 +1706,7 @@ export const EN_A2_U21: Lesson[] = [
             question: "¿Cómo dices «¿nos vemos el domingo?»?",
             options: ["Do you want to meet up on Sunday?", "Do we stay on Sunday?", "Shall we stay on Sunday?", "Do we date on Sunday?"],
             correctIndex: 0,
-            explanation: "«Quedar» con alguien es \"meet up\" o \"meet\". \"Stay\" es «quedarse» en un sitio.",
+            explanation: "«Verse» con alguien es \"meet up\" o \"meet\". \"Stay\" es «quedarse» en un sitio.",
           },
         ],
       },
@@ -1759,7 +1759,7 @@ export const EN_A2_U21: Lesson[] = [
             source: "¿A qué hora nos vemos?",
             answer: "What time should we meet?",
             altAnswers: ["What time shall we meet?", "What time do we meet?", "What time are we meeting?", "When should we meet?", "When shall we meet?", "When are we meeting?", "What time should we meet up?", "What time shall we meet up?"],
-            explanation: "«Quedar» es \"meet\". Para proponer o decidir juntos se usa \"should we\" o \"shall we\".",
+            explanation: "«Verse» es \"meet\". Para proponer o decidir juntos se usa \"should we\" o \"shall we\".",
           },
           {
             type: "fill-blank",

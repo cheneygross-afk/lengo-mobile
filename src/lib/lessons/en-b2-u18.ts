@@ -32,7 +32,7 @@ export const EN_B2_U18: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Le escribo para solicitar información sobre el máster.",
+            source: "Le escribo para solicitar información sobre la maestría.",
             answer: "I am writing to request information about the master's program.",
             altAnswers: [
               "I am writing to request information about the master's degree.",
@@ -558,7 +558,7 @@ export const EN_B2_U18: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¿Le importaría ayudarme a rellenar este formulario?",
+        source: "¿Le importaría ayudarme a llenar este formulario?",
         answer: "Would you mind helping me fill out this form?",
         altAnswers: [
           "Would you mind helping me fill in this form?",
@@ -1052,7 +1052,7 @@ export const EN_B2_U18: Lesson[] = [
           "Vary sentence length: a short sentence after two long ones gives emphasis. But each sentence should contain one clear idea, with its own subject. Remember that English sentences always need a subject: \"Is important to...\" must be \"It is important to...\".",
         ],
         examples: [
-          { es: "The service was slow and the food was cold, so we left early.", en: "El servicio era lento, la comida estaba fría y nos fuimos pronto." },
+          { es: "The service was slow and the food was cold, so we left early.", en: "El servicio era lento, la comida estaba fría y nos fuimos temprano." },
           { es: "The hotel was full. As a result, we had to find another one.", en: "El hotel estaba lleno, así que tuvimos que buscar otro." },
           { es: "Many jobs require English. For instance, flight attendants use it every day.", en: "Muchos trabajos exigen inglés. Por ejemplo, los auxiliares de vuelo lo usan a diario." },
           { es: "It is important to plan each paragraph before writing.", en: "Es importante planificar cada párrafo antes de escribir. (incorrecto: *Is important)" },
@@ -1079,7 +1079,7 @@ export const EN_B2_U18: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El ayuntamiento cerró la biblioteca. Esta decisión fue muy criticada.",
+        source: "La alcaldía cerró la biblioteca. Esta decisión fue muy criticada.",
         answer: "The city council closed the library. This decision was widely criticized.",
         altAnswers: [
           "The city council closed the library. This decision was heavily criticized.",
@@ -1291,11 +1291,11 @@ export const EN_B2_U18: Lesson[] = [
         ],
         examples: [
           { es: "I'd highly recommend this book to anyone who loves history.", en: "Recomiendo mucho este libro a cualquiera a quien le guste la historia." },
-          { es: "The exhibition is well worth a visit.", en: "Merece mucho la pena visitar la exposición." },
+          { es: "The exhibition is well worth a visit.", en: "Vale mucho la pena visitar la exposición." },
           { es: "It's definitely worth seeing on the big screen.", en: "Sin duda vale la pena verla en pantalla grande. (incorrecto: *worth to see)" },
           { es: "I recommend booking a table in advance.", en: "Recomiendo reservar mesa con antelación." },
           { es: "I recommend that you try the dessert.", en: "Te recomiendo que pruebes el postre. (incorrecto: *I recommend you to try)" },
-          { es: "If you're expecting a comedy, give it a miss.", en: "Si esperas una comedia, mejor no la veas." },
+          { es: "If you're expecting a comedy, skip it.", en: "Si esperas una comedia, mejor no la veas." },
         ],
         checkpoint: [
           {
@@ -1352,7 +1352,7 @@ export const EN_B2_U18: Lesson[] = [
           { es: "The only drawback is the noise.", en: "El único inconveniente es el ruido." },
           { es: "Although the service was slow, the food was excellent.", en: "Aunque el servicio fue lento, la comida era excelente." },
           { es: "Despite its slow start, the film becomes really gripping.", en: "A pesar de su comienzo lento, la película se vuelve realmente trepidante." },
-          { es: "If I had to find fault, it would be the length.", en: "Si tuviera que ponerle una pega, sería la duración." },
+          { es: "If I had to find fault, it would be the length.", en: "Si tuviera que ponerle un pero, sería la duración." },
           { es: "The ending is somewhat predictable.", en: "El final es algo predecible." },
         ],
         checkpoint: [
@@ -1425,7 +1425,7 @@ export const EN_B2_U18: Lesson[] = [
         sentence: "The museum is well worth ___.",
         answer: "a visit",
         altAnswers: ["visiting"],
-        en: "Merece mucho la pena [visitar] el museo.",
+        en: "Vale mucho la pena [visitar] el museo.",
         explanation: "\"Worth\" + noun (\"a visit\") or + -ing (\"visiting\"), never *worth to visit.",
       },
       {
@@ -2502,7 +2502,7 @@ export const EN_B2_U18: Lesson[] = [
           { es: "I am writing to apply for the position of customer service coordinator.", en: "Le escribo para solicitar el puesto de coordinador de atención al cliente." },
           { es: "I saw your advertisement on LinkedIn.", en: "Vi su anuncio en LinkedIn." },
           { es: "I am applying for the position advertised on your website.", en: "Solicito el puesto anunciado en su página web." },
-          { es: "I would like to be considered for the role of sales assistant.", en: "Me gustaría que me tuvieran en cuenta para el puesto de dependiente." },
+          { es: "I would like to be considered for the role of sales assistant.", en: "Me gustaría que me tuvieran en cuenta para el puesto de vendedor." },
         ],
         checkpoint: [
           {
@@ -2538,7 +2538,7 @@ export const EN_B2_U18: Lesson[] = [
           { es: "Since 2022, I have been responsible for a team of six people.", en: "Desde 2022 soy responsable de un equipo de seis personas." },
           { es: "From 2019 to 2022, I worked at a hotel in Malaga.", en: "De 2019 a 2022 trabajé en un hotel de Málaga." },
           { es: "I have extensive experience in handling complaints.", en: "Tengo amplia experiencia en la gestión de reclamaciones." },
-          { es: "I am currently working as a sales assistant.", en: "Actualmente trabajo como dependiente. (incorrecto: *Actually I work)" },
+          { es: "I am currently working as a sales assistant.", en: "Actualmente trabajo como vendedor. (incorrecto: *Actually I work)" },
         ],
         checkpoint: [
           {
@@ -2579,7 +2579,7 @@ export const EN_B2_U18: Lesson[] = [
           "More traps: «carrera» (university studies) is a \"degree\" (\"I have a degree in economics\"); \"career\" is your professional life. «Formación» is \"training\" or \"education\". «Prácticas» is an \"internship\". «Título» is a \"degree\" or \"qualification\", not a \"title\".",
         ],
         examples: [
-          { es: "I am currently studying for a master's degree in marketing.", en: "Actualmente estoy cursando un máster en marketing." },
+          { es: "I am currently studying for a master's degree in marketing.", en: "Actualmente estoy cursando una maestría en marketing." },
           { es: "Eventually, I was promoted to team leader.", en: "Al final, me ascendieron a jefe de equipo." },
           { es: "I have a degree in tourism from the University of Seville.", en: "Soy licenciado en Turismo por la Universidad de Sevilla. (incorrecto: *a career in tourism)" },
           { es: "I did a six-month internship at a travel agency.", en: "Hice seis meses de prácticas en una agencia de viajes." },
@@ -2591,7 +2591,7 @@ export const EN_B2_U18: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Estudié la carrera de Económicas y actualmente hago prácticas en un banco.",
+            source: "Estudié la carrera de Economía y actualmente hago prácticas en un banco.",
             answer: "I studied economics at university and I am currently doing an internship at a bank.",
             altAnswers: [
               "I studied economics at university and am currently doing an internship at a bank.",

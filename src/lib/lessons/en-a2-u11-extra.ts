@@ -441,7 +441,7 @@ export const EN_A2_U11_EXTRA: Lesson[] = [
             sentence: "How about ___ at the new Italian place?",
             answer: "eating",
             altAnswers: ["having dinner", "having lunch", "dining"],
-            en: "¿Qué tal si [comemos] en el sitio italiano nuevo?",
+            en: "¿Qué tal si [comemos] en el restaurante italiano nuevo?",
             explanation: "\"About\" es una preposición, así que el verbo va en -ing: \"How about eating\".",
           },
         ],

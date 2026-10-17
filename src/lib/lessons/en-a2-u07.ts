@@ -336,9 +336,9 @@ export const EN_A2_U07: Lesson[] = [
             direction: "es-en",
             prompt: "Traduce al inglés.",
             source: "¿Hay muchas tiendas en tu barrio?",
-            answer: "Are there many shops in your neighborhood?",
+            answer: "Are there many stores in your neighborhood?",
             altAnswers: [
-              "Are there many stores in your neighborhood?",
+              "Are there many shops in your neighborhood?",
               "Are there a lot of shops in your neighborhood?",
               "Are there a lot of stores in your neighborhood?",
               "Are there lots of shops in your neighborhood?",
@@ -347,7 +347,7 @@ export const EN_A2_U07: Lesson[] = [
               "Are there many shops in your area?",
               "Are there many stores in your area?",
             ],
-            explanation: "\"Shops\" es plural, así que \"many\" y \"are there\". En inglés americano también se dice \"stores\".",
+            explanation: "\"Stores\" es plural, así que \"many\" y \"are there\". En el Reino Unido se dice \"shops\".",
           },
         ],
       },
@@ -1223,16 +1223,16 @@ export const EN_A2_U07: Lesson[] = [
       {
         heading: "Pan, queso y chocolate",
         body: [
-          "Con la comida hay palabras específicas. \"A slice of\" es «una rebanada» o «una loncha»: \"a slice of bread\", \"a slice of cheese\", \"a slice of pizza\".",
-          "\"A loaf of bread\" es «un pan» entero, una barra o un pan de molde. \"A bar of chocolate\" es «una tableta de chocolate», aunque en Estados Unidos se dice más \"a chocolate bar\".",
+          "Con la comida hay palabras específicas. \"A slice of\" es «una rebanada» (o «una porción»): \"a slice of bread\", \"a slice of cheese\", \"a slice of pizza\".",
+          "\"A loaf of bread\" es «un pan» entero, una barra o un pan de molde. \"A bar of chocolate\" es «una barra de chocolate», aunque en Estados Unidos se dice más \"a chocolate bar\".",
           "\"Bread\" es incontable: «un pan» nunca es \"a bread\", sino \"a loaf of bread\", y «pan» en general es \"some bread\".",
         ],
         examples: [
           { es: "a slice of bread", en: "una rebanada de pan" },
-          { es: "two slices of cheese", en: "dos lonchas de queso" },
+          { es: "two slices of cheese", en: "dos rebanadas de queso" },
           { es: "a slice of pizza", en: "una porción de pizza" },
           { es: "a loaf of bread", en: "un pan, una barra de pan" },
-          { es: "a bar of chocolate", en: "una tableta de chocolate" },
+          { es: "a bar of chocolate", en: "una barra de chocolate" },
           { es: "a piece of cake", en: "un trozo de pastel" },
         ],
         checkpoint: [
@@ -1242,7 +1242,7 @@ export const EN_A2_U07: Lesson[] = [
             sentence: "Can I have two ___ cheese?",
             answer: "slices of",
             altAnswers: ["pieces of"],
-            en: "¿Me das dos [lonchas de] queso?",
+            en: "¿Me das dos [rebanadas de] queso?",
             explanation: "\"Cheese\" es incontable: la \"-s\" va en \"slices\", no en \"cheese\".",
           },
           {
@@ -1387,8 +1387,8 @@ export const EN_A2_U07: Lesson[] = [
         instructions: "Une cada expresión con su significado.",
         pairs: [
           { left: "a loaf of bread", right: "un pan" },
-          { left: "a bar of chocolate", right: "una tableta de chocolate" },
-          { left: "a slice of cheese", right: "una loncha de queso" },
+          { left: "a bar of chocolate", right: "una barra de chocolate" },
+          { left: "a slice of cheese", right: "una rebanada de queso" },
           { left: "a piece of information", right: "un dato" },
         ],
         explanation: "Cada incontable se cuenta con su palabra: \"loaf\", \"bar\", \"slice\", \"piece\".",

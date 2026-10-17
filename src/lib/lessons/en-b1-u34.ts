@@ -86,7 +86,7 @@ export const EN_B1_U34: Lesson[] = [
         heading: "Talking about the future",
         body: [
           "\"Will\" is for decisions made at the moment of speaking, promises and predictions: \"I'll help you.\" \"Going to\" is for plans you already have and predictions based on what you can see: \"I'm going to study medicine\", \"Look at those clouds. It's going to rain.\"",
-          "For fixed arrangements with other people (a time and a place), English prefers the present continuous: \"I'm meeting Tom on Friday.\" Spanish often uses the present («Quedo con Tom el viernes»), but *I meet Tom on Friday sounds wrong.",
+          "For fixed arrangements with other people (a time and a place), English prefers the present continuous: \"I'm meeting Tom on Friday.\" Spanish often uses the present («Me veo con Tom el viernes»), but *I meet Tom on Friday sounds wrong.",
           "After \"when\", \"as soon as\", \"before\", \"after\" and \"until\", English uses the present, not \"will\", where Spanish uses the subjunctive: «Te llamo cuando llegue» = \"I'll call you when I arrive\", not *when I will arrive.",
         ],
         examples: [

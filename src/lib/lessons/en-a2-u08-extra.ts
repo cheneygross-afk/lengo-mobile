@@ -481,7 +481,7 @@ export const EN_A2_U08_EXTRA: Lesson[] = [
             answer: "on",
             altAnswers: ["in"],
             en: "Es el jugador más alto [del] equipo.",
-            explanation: "«Del equipo» es un grupo: \"in the team\" (también \"on the team\" en Estados Unidos). No *of the team.",
+            explanation: "Con un equipo se dice \"on the team\" (en el Reino Unido, \"in the team\"). No *of the team, aunque en español sea «del equipo».",
           },
         ],
       },
