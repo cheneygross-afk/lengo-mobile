@@ -449,8 +449,17 @@ async function speakOnDevice(clean: string, lang: SpeechLang, rate = 1) {
 // already playing/speaking first so rapid taps (flipping through
 // flashcards, tapping several words) don't pile up overlapping audio.
 // `rate` below 1 slows playback down (dictation's "slow" replay).
+// A Portuguese sentence keeps its sentence punctuation, so a question
+// rises and commas pause instead of the words running together flat; its
+// clips are new anyway, so nothing already cached is lost. Single words
+// (and every other course's text) still share the stripped clip.
+function speechText(text: string, lang: SpeechLang): string {
+  if (lang === "pt-BR" && /\S\s+\S/.test(text.trim())) return text.replace(/[¿¡"“”()\[\]]/g, "").trim();
+  return stripForSpeech(text);
+}
+
 export function speak(text: string, requestedLang: SpeechLang, rate = 1) {
-  const clean = stripForSpeech(text);
+  const clean = speechText(text, requestedLang);
   if (!clean) return;
 
   stopReadAloud();
