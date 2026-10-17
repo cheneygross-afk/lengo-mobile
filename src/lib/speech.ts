@@ -385,15 +385,25 @@ const knownClips = new Set<string>();
 const generating = new Set<string>();
 
 /** Has the cloud clip made (the website's /api/pronounce) in the
- * background, so the next tap on this text plays it at once. */
-function generateInBackground(text: string, lang: SpeechLang, voice: PronunciationVoice, url: string): void {
-  if (generating.has(url)) return;
+ * background, so the next tap on this text plays it at once. Resolves
+ * the clip's url once it's made (null if it couldn't be, or is already
+ * being made for an earlier tap). */
+function generateInBackground(text: string, lang: SpeechLang, voice: PronunciationVoice, url: string): Promise<string | null> {
+  if (generating.has(url)) return Promise.resolve(null);
   generating.add(url);
-  void requestGeneration(text, lang, voice).then((generated) => {
+  return requestGeneration(text, lang, voice).then((generated) => {
     generating.delete(url);
     if (generated) knownClips.add(generated);
+    return generated;
   });
 }
+
+// How long a first tap waits for its clip to be made before the device
+// voice says it instead. In a new course (Portuguese) nearly every first
+// tap is a clip nobody has asked for yet, and without this wait the
+// learner heard the robotic device voice for each word first, then the
+// Google voice for the same word the next time.
+const GENERATION_WAIT_MS = 1500;
 
 // Asks the website's shared /api/pronounce route to render this exact
 // text (it isn't cached yet), uploading the result to storage for every
@@ -432,15 +442,24 @@ async function speakOnDevice(clean: string, lang: SpeechLang, rate = 1) {
 }
 
 // Speaks `text` in `lang`: plays the cached cloud recording when one
-// exists; the first time this exact text is ever requested anywhere, says
-// it with the device's own voice at once and has the recording made in
-// the background for next time. The device voice also covers a failed
+// exists; the first time this exact text is ever requested anywhere, has
+// the recording made and plays it if it's ready quickly, else says it
+// with the device's own voice (the recording is kept for next time). The device voice also covers a failed
 // or slow clip and languages without a cloud voice. Cancels anything
 // already playing/speaking first so rapid taps (flipping through
 // flashcards, tapping several words) don't pile up overlapping audio.
 // `rate` below 1 slows playback down (dictation's "slow" replay).
+// A Portuguese sentence keeps its sentence punctuation, so a question
+// rises and commas pause instead of the words running together flat; its
+// clips are new anyway, so nothing already cached is lost. Single words
+// (and every other course's text) still share the stripped clip.
+function speechText(text: string, lang: SpeechLang): string {
+  if (lang === "pt-BR" && /\S\s+\S/.test(text.trim())) return text.replace(/[¿¡"“”()\[\]]/g, "").trim();
+  return stripForSpeech(text);
+}
+
 export function speak(text: string, requestedLang: SpeechLang, rate = 1) {
-  const clean = stripForSpeech(text);
+  const clean = speechText(text, requestedLang);
   if (!clean) return;
 
   stopReadAloud();
@@ -473,11 +492,17 @@ export function speak(text: string, requestedLang: SpeechLang, rate = 1) {
       const cached = await clipExists(cachedUrl);
       if (run !== readAloudRun) return;
       if (!cached) {
-        // Nobody has asked for this text yet. Making the clip takes a
-        // second or two, so speak it on the device now and have the clip
-        // made for next time.
+        // Nobody has asked for this text yet. Have the clip made and play
+        // it if it's ready within GENERATION_WAIT_MS; otherwise speak it
+        // on the device (the clip still gets made for next time).
         dropCurrentPlayer();
-        generateInBackground(clean, lang, voice, cachedUrl);
+        const generated = await Promise.race([
+          generateInBackground(clean, lang, voice, cachedUrl),
+          new Promise<null>((resolve) => setTimeout(() => resolve(null), GENERATION_WAIT_MS)),
+        ]);
+        if (run !== readAloudRun) return;
+        if (generated && (await tryPlayRemote(generated, rate))) return;
+        if (run !== readAloudRun) return;
         void speakOnDevice(clean, lang, rate);
         return;
       }
