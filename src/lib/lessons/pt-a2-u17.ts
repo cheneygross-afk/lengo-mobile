@@ -57,7 +57,7 @@ export const PT_A2_U17: Lesson[] = [
         heading: "Topa?, Vem com a gente!: casual and warm",
         body: [
           "\"Topar\" means to be up for something, and it's everywhere among friends: \"Topa um churrasco no sábado?\" (up for a barbecue on Saturday?). The happy answer is \"Topo!\" You'll also hear \"Bora?\", a very casual short form of \"vamos embora\" (let's go).",
-          "The everyday imperative from Unit 9 also invites, and it sounds warm, not bossy: \"Vem com a gente!\" (come with us!), \"Aparece lá em casa!\" (drop by my place!). \"Lá em casa\" means at my place, literally there at home. \"Aparece!\" on its own is a friendly goodbye: don't be a stranger.",
+          "The everyday imperative from the commands unit also invites, and it sounds warm, not bossy: \"Vem com a gente!\" (come with us!), \"Aparece lá em casa!\" (drop by my place!). \"Lá em casa\" means at my place, literally there at home. \"Aparece!\" on its own is a friendly goodbye: don't be a stranger.",
         ],
         examples: [
           { es: "Topa um churrasco no sábado?", en: "Up for a barbecue on Saturday?" },
@@ -171,6 +171,7 @@ export const PT_A2_U17: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: Let's set up a lunch next week.",
         words: ["Vamos", "marcar", "um", "almoço", "semana", "que", "vem."],
+        altOrders: [["semana", "que", "vem.", "Vamos", "marcar", "um", "almoço"]],
         translation: "Let's set up a lunch next week.",
         explanation: "\"Marcar um almoço\" is a chunk: to arrange a lunch. \"Semana que vem\" is next week.",
       },
@@ -591,7 +592,7 @@ export const PT_A2_U17: Lesson[] = [
         question: "What did you hear?",
         options: ["Que pena!", "Que bom!", "Que fome!", "Que sorte!"],
         correctIndex: 0,
-        explanation: "\"Que pena!\" (what a shame). Listen for the open e in pena: PE-na.",
+        explanation: "\"Que pena!\" (what a shame). The e in pena is closed and nasal before the n: PÊ-na.",
       },
       {
         type: "dictation",
@@ -1490,7 +1491,7 @@ export const PT_A2_U17: Lesson[] = [
             en: "Pedro: Thiago, [bring] ice!",
             sentence: "Pedro: Thiago, ___ gelo!",
             answer: "traz",
-            altAnswers: ["traga", "leva"],
+            altAnswers: ["traga"],
             explanation: "The host asks for something to come to him, so \"trazer\": the everyday command is \"traz\".",
           },
           {
@@ -2007,7 +2008,7 @@ export const PT_A2_U17: Lesson[] = [
         type: "listen-choose",
         audio: "Imagina, não foi nada.",
         question: "What does it mean?",
-        options: ["Don't worry, it was nothing.", "Imagine, nothing happened.", "You're welcome, it's nothing.", "I can't imagine it."],
+        options: ["Don't worry, it was nothing.", "Imagine, nothing happened.", "It was nothing to do with me.", "I can't imagine it."],
         correctIndex: 0,
         explanation: "After an apology, \"imagina\" and \"não foi nada\" brush it off.",
       },

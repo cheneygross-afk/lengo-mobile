@@ -1018,7 +1018,7 @@ export const PT_B2_U02: Lesson[] = [
         body: [
           "To say that a condition would change nothing, Portuguese uses \"mesmo que\" (even if). It always takes the subjunctive. For an unlikely or imaginary situation that means the imperfect subjunctive, with the conditional in the other clause: \"mesmo que chovesse, eu iria\" (even if it rained, I'd go). As with \"se\", speech often swaps the conditional for the imperfeito: \"eu ia\".",
           "English uses ordinary tenses here (even if it rains, even if he asked), so the classic slip is \"mesmo que chove\". The verb after \"mesmo que\" is never indicative. For a real possibility, use the present subjunctive with a present or a future: \"mesmo que chova, eu vou\".",
-          "Either clause can come first. The word for even is \"mesmo\", not \"até\" (\"até que\" means until). It never agrees with the subject, so you say \"mesmo que ela quisesse\" and never \"mesma que\".",
+          "Either clause can come first. Even if is \"mesmo que\", never \"até que\", which means until. It never agrees with the subject, so you say \"mesmo que ela quisesse\" and never \"mesma que\".",
         ],
         examples: [
           { es: "Mesmo que chovesse, eu iria à praia.", en: "Even if it rained, I'd go to the beach." },
@@ -2645,7 +2645,7 @@ export const PT_B2_U02: Lesson[] = [
         en: "Even if it [rained], we'd go to the party.",
         sentence: "Mesmo que ___, a gente iria à festa.",
         answer: "chovesse",
-        explanation: "\"Mesmo que\" with an imagined situation takes the imperfect subjunctive: \"chovesse\", from \"choveu\".",
+        explanation: "\"Mesmo que\" with an imagined situation takes the imperfect subjunctive: \"chovesse\", from \"choveram\".",
       },
       {
         type: "fill-blank",
@@ -2723,7 +2723,7 @@ export const PT_B2_U02: Lesson[] = [
           { left: "Se ele viesse, eu ficaria feliz.", right: "If he came, I'd be happy." },
           { left: "Ele age como se morasse aqui.", right: "He acts as if he lived here." },
         ],
-        explanation: "\"Venha\" follows a present-looking hope. \"Viesse\" follows \"quem dera\", a past trigger, \"se\" in an unreal condition and \"como se\".",
+        explanation: "\"Tomara que\" hopes for something possible and takes the present subjunctive \"venha\". The imperfect subjunctive (\"viesse\", \"morasse\") follows \"quem dera\", a past trigger like \"pedi que\", \"se\" in an unreal condition, and \"como se\".",
       },
     ],
   },

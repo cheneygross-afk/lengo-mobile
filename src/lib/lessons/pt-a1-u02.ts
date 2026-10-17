@@ -538,7 +538,7 @@ export const PT_A1_U02: Lesson[] = [
         examples: [
           { es: "Tudo ótimo, obrigada.", en: "All great, thanks. (a woman speaking)" },
           { es: "Tchau, até amanhã!", en: "Bye, see you tomorrow!" },
-          { es: "Doce de leite, por favor.", en: "Dulce de leche, please." },
+          { es: "Doce de leite, por favor.", en: "Milk caramel, please." },
           { es: "O Diego é de Curitiba.", en: "Diego is from Curitiba." },
           { es: "Um sorvete de chocolate, por favor.", en: "A chocolate ice cream, please." },
         ],

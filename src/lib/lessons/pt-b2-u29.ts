@@ -943,7 +943,7 @@ export const PT_B2_U29: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "Caruaru and Campina Grande compete for the title of the biggest São João in the world.",
         answer: "Caruaru e Campina Grande disputam o título de maior São João do mundo.",
-        altAnswers: ["Caruaru e Campina Grande disputam o título de o maior São João do mundo.", "Caruaru e Campina Grande brigam pelo título de maior São João do mundo.", "Caruaru e Campina Grande disputam o título do maior São João do mundo."],
+        altAnswers: ["Caruaru e Campina Grande brigam pelo título de maior São João do mundo.", "Caruaru e Campina Grande disputam o título do maior São João do mundo."],
         explanation: "\"Disputar\" takes a direct object: \"disputam o título\". The superlative \"maior... do mundo\" uses \"do\", not \"no\".",
       },
       {
@@ -1000,7 +1000,7 @@ export const PT_B2_U29: Lesson[] = [
         type: "speak",
         text: "Quer dançar um forró comigo?",
         prompt: "Say it in Portuguese: Would you like to dance a forró with me?",
-        tip: "Stress the last syllable of forró: \"fo-HÓ\", with a single r that sounds like an h.",
+        tip: "Stress the last syllable of forró: \"fo-HÓ\", where the double rr sounds like an h.",
         explanation: "\"Quer dançar?\" is the normal way to ask someone to dance at an arraiá.",
       },
       {

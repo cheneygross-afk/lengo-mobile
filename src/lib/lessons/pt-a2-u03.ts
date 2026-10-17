@@ -1784,6 +1784,7 @@ export const PT_A2_U03: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: My parents came to Recife last week.",
         words: ["Meus", "pais", "vieram", "para", "Recife", "semana", "passada."],
+        altOrders: [["Semana", "passada", "meus", "pais", "vieram", "para", "Recife."]],
         translation: "My parents came to Recife last week.",
         explanation: "\"Vieram\" is the plural past of \"vir\", and \"semana que vem\" turns into \"semana passada\".",
       },
@@ -2202,7 +2203,7 @@ export const PT_A2_U03: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "Have you ever eaten feijoada?",
         answer: "Você já comeu feijoada?",
-        altAnswers: ["O senhor já comeu feijoada?", "A senhora já comeu feijoada?"],
+        altAnswers: ["O senhor já comeu feijoada?", "A senhora já comeu feijoada?", "Já comeu feijoada?"],
         explanation: "English have you ever becomes \"já\" + perfeito: \"você já comeu?\". The answer is \"já comi\" or \"ainda não\".",
       },
       {

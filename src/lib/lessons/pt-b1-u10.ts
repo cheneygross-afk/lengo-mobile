@@ -687,7 +687,7 @@ export const PT_B1_U10: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "Brazil is a country whose culture mixes many influences.",
         answer: "O Brasil é um país cuja cultura mistura muitas influências.",
-        altAnswers: ["O Brasil é um país cuja cultura mistura várias influências.", "Brasil é um país cuja cultura mistura muitas influências."],
+        altAnswers: ["O Brasil é um país cuja cultura mistura várias influências.", "O Brasil é um país cuja cultura mistura diversas influências."],
         explanation: "\"País\" is masculine, but \"cultura\" is feminine, so \"cuja\".",
       },
       {
@@ -994,7 +994,7 @@ export const PT_B1_U10: Lesson[] = [
         type: "speak",
         text: "Eu não entendi o que ele disse.",
         prompt: "Say it in Portuguese: I didn't understand what he said.",
-        tip: "The d in \"disse\" stays a plain d before e; the t in \"entendi\" is plain too, but \"di\" sounds like dji.",
+        tip: "In \"disse\" and \"entendi\" the d comes before an i sound, so it sounds like the j in jeep: DJI-si, en-ten-DJI.",
         explanation: "What he said is \"o que ele disse\", never \"que ele disse\".",
       },
       {

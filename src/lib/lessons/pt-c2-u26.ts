@@ -802,7 +802,7 @@ export const PT_C2_U26: Lesson[] = [
           {
             type: "speak",
             text: "Firmeza, meu? Bora dar um rolê.",
-            tip: "Paulistano s hisses: \"firmeza\" with a clear z, not sh.",
+            tip: "In São Paulo the r of \"firmeza\" is a light tap, not the throaty carioca r; the z stays a clear z.",
             explanation: "\"Firmeza\" as a greeting and \"meu\" as a vocative mark São Paulo.",
           },
         ],
@@ -2240,7 +2240,7 @@ export const PT_C2_U26: Lesson[] = [
           "Mostly standard spelling, with regional words and syntax; the actors do the accent.",
           "Respell every word as it sounds.",
           "Put \"oxe\" in every line.",
-          "Write the dialogue in Spanish-style spelling.",
+          "Add a footnote translating every regional word.",
         ],
         correctIndex: 0,
         explanation: "Heavy respelling is hard to read and can look mocking; the region lives in words and grammar.",
@@ -2453,8 +2453,8 @@ export const PT_C2_U26: Lesson[] = [
         direction: "en-es",
         prompt: "A transcript says: \"Agente vai no concerto do carro amanhã.\" The speaker meant a car repair. Write the correct Portuguese.",
         source: "We're going to pick up the car from the repair shop tomorrow.",
-        answer: "A gente vai no conserto do carro amanhã.",
-        altAnswers: ["A gente vai buscar o carro no conserto amanhã.", "Nós vamos buscar o carro no conserto amanhã.", "A gente vai pegar o carro no conserto amanhã."],
+        answer: "A gente vai buscar o carro no conserto amanhã.",
+        altAnswers: ["A gente vai no conserto do carro amanhã.", "Nós vamos buscar o carro no conserto amanhã.", "A gente vai pegar o carro no conserto amanhã."],
         explanation: "\"A gente\" in two words, and \"conserto\" (repair) with s.",
       },
       {

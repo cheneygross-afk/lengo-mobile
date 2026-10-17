@@ -351,7 +351,7 @@ export const PT_A1_U03_EXTRA: Lesson[] = [
         type: "speak",
         text: "Os homens e as mulheres são legais.",
         prompt: "Say it in Portuguese: The men and the women are nice.",
-        tip: "The -ns of homens is nasal, with no n or s cluster: HO-meins.",
+        tip: "The -ns of homens is nasal, with no n or s cluster, and the h is silent: Ô-meins.",
         explanation: "\"Homens\" (-ns), \"mulheres\" (-es) and \"legais\" (-is): three consonant plurals in one sentence.",
       },
       {

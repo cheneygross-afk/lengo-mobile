@@ -948,7 +948,7 @@ export const PT_A1_U12: Lesson[] = [
             type: "listen-choose",
             audio: "Ela é brasileira.",
             question: "What did you hear?",
-            options: ["Ela é brasileira.", "Ela está brasileira.", "Ela é brasileiro.", "Ela é Brasileira."],
+            options: ["Ela é brasileira.", "Ela está brasileira.", "Ela é brasileiro.", "Elas são brasileiras."],
             correctIndex: 0,
             explanation: "Nationality: \"ser\", feminine, lowercase.",
           },

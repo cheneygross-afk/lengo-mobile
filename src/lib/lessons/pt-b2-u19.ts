@@ -560,7 +560,7 @@ export const PT_B2_U19: Lesson[] = [
         body: [
           "When \"quando\" refers to one particular future moment, Portuguese uses the future subjunctive: \"quando eu chegar, te ligo\". English uses the present here (when I get there), and that's the trap: \"*quando eu chego, te ligo\" sounds like a habit, every time I arrive.",
           "The main clause can be the present, \"ir\" + infinitive, the future or an imperative: \"quando você chegar, me avisa\". Regular forms look like the infinitive (\"chegar\", \"chegarem\"); irregulars come from the eles perfeito: \"quando eu tiver tempo\", \"quando ela vier\", \"quando vocês puderem\".",
-          "English speakers who know Spanish often reach for the present subjunctive here (\"*quando eu chegue\"). Portuguese never uses it after \"quando\": the choice is only between the indicative for habits and facts and the future subjunctive for what hasn't happened yet.",
+          "Learners often reach for the present subjunctive here (\"*quando eu chegue\"). Portuguese never uses it after \"quando\": the choice is only between the indicative for habits and facts and the future subjunctive for what hasn't happened yet.",
         ],
         examples: [
           { es: "Quando eu chegar no hotel, te ligo.", en: "When I get to the hotel, I'll call you." },
@@ -2412,7 +2412,6 @@ export const PT_B2_U19: Lesson[] = [
         en: "He asked us [to arrive] early.",
         sentence: "Ele pediu que nós ___ cedo.",
         answer: "chegássemos",
-        altAnswers: ["chegassemos"],
         explanation: "A past request: imperfect subjunctive \"chegássemos\", with the accent on -ássemos.",
       },
       {

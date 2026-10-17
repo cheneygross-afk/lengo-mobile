@@ -98,7 +98,7 @@ export const PT_A2_U03_EXTRA: Lesson[] = [
         source: "We said goodbye at the station.",
         answer: "Nós dissemos tchau na estação.",
         altAnswers: ["Dissemos tchau na estação.", "Nós nos despedimos na estação.", "A gente se despediu na estação."],
-        explanation: "\"Dissemos\" for nós; \"despedir-se\" is the formal to say goodbye.",
+        explanation: "\"Dissemos\" is the nós form of \"dizer\" in the past. \"Nós nos despedimos\" (from \"despedir-se\", to say goodbye to each other) is just as natural.",
       },
       {
         type: "translate",
@@ -262,7 +262,7 @@ export const PT_A2_U03_EXTRA: Lesson[] = [
         source: "We gave a party for her.",
         answer: "Nós demos uma festa para ela.",
         altAnswers: ["Demos uma festa para ela.", "A gente deu uma festa pra ela.", "Nós fizemos uma festa para ela."],
-        explanation: "\"Demos\" is the nós form of \"dar\" in the past (the same as the present).",
+        explanation: "\"Demos\" is the nós form of \"dar\" in the past. Unlike regular verbs it differs from the present, which is \"damos\".",
       },
       {
         type: "translate",
@@ -382,7 +382,7 @@ export const PT_A2_U03_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "We [did] everything and [went] home.",
+            en: "We [did] everything and went home.",
             sentence: "Nós ___ tudo e fomos para casa.",
             answer: "fizemos",
             explanation: "\"Fizemos\" is the nós form of \"fazer\".",
@@ -455,7 +455,7 @@ export const PT_A2_U03_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The party [was] great and everyone [came].",
+        en: "The party was great and everyone [came].",
         sentence: "A festa foi ótima e todo mundo ___.",
         answer: "veio",
         explanation: "\"Todo mundo\" takes a singular verb: \"veio\".",

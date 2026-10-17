@@ -628,7 +628,6 @@ export const PT_C1_U14: Lesson[] = [
             en: "The neighbour's daughter, [who] is a doctor, helped us.",
             sentence: "A filha do vizinho, ___ é médica, nos ajudou.",
             answer: "a qual",
-            altAnswers: ["que"],
             explanation: "\"A qual\" agrees with \"a filha\" and removes the ambiguity that \"que\" would leave.",
           },
           {
@@ -963,10 +962,10 @@ export const PT_C1_U14: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The minister was blunt: I won't resign.",
-        words: ["O", "ministro", "foi", "direto:", "não", "vou", "renunciar."],
-        translation: "The minister was blunt: I won't resign.",
-        explanation: "The colon introduces what he said; in print the quotation would carry quotation marks and a capital.",
+        prompt: "Put the words in order to say: The rule was clear: nobody got in late.",
+        words: ["A", "regra", "era", "clara:", "ninguém", "entrava", "atrasado."],
+        translation: "The rule was clear: nobody got in late.",
+        explanation: "The dois-pontos announce the explanation, and a lower-case letter follows them because no proper noun or direct quotation comes next.",
       },
       {
         type: "translate",
@@ -1056,7 +1055,7 @@ export const PT_C1_U14: Lesson[] = [
           { es: "Machado e Alencar foram contemporâneos; este escreveu romances indianistas, aquele, romances urbanos.", en: "Machado and Alencar were contemporaries; the latter wrote Indianist novels, the former urban ones." },
           { es: "Entre o metrô e o ônibus, prefiro aquele: é mais rápido.", en: "Between the metro and the bus, I prefer the former: it's quicker." },
           { es: "Recife e Salvador disputam o título; esta tem mais turistas, aquela, mais pontes.", en: "Recife and Salvador compete for the title; the latter has more tourists, the former more bridges." },
-          { es: "Conversei com o diretor e com a coordenadora; a primeira concordou, o segundo, não.", en: "I spoke to the director and the coordinator; she agreed, he didn't." },
+          { es: "Conversei com o diretor e com a coordenadora; o primeiro concordou, a segunda, não.", en: "I spoke to the director and the coordinator; he agreed, she didn't." },
         ],
         checkpoint: [
           {

@@ -359,6 +359,7 @@ export const PT_C1_U03: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "Young people tend to read less.",
             answer: "Os jovens tendem a ler menos.",
+            altAnswers: ["Jovens tendem a ler menos.", "Os jovens costumam ler menos."],
             explanation: "\"Tender a\" + infinitive presents a tendency, not a rule. Don't drop the \"a\" before the infinitive.",
           },
           {

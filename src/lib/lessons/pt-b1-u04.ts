@@ -226,7 +226,7 @@ export const PT_B1_U04: Lesson[] = [
         type: "speak",
         text: "Espere aqui até que ela chegue.",
         prompt: "Say it in Portuguese: Wait here until she arrives.",
-        tip: "In \"chegue\" the u is silent, and the final e sounds like i: SHEH-gee.",
+        tip: "In \"chegue\" the u is silent and the g is hard, as in 'get'; the final e sounds like i: SHEH-ghi.",
         explanation: "\"Até que\" + subjunctive: \"chego\" → \"chegue\".",
       },
       {
@@ -1878,7 +1878,7 @@ export const PT_B1_U04: Lesson[] = [
         type: "speak",
         text: "Eu topo, a não ser que chova.",
         prompt: "Say it in Portuguese: I'm in, unless it rains.",
-        tip: "The o in \"chova\" is open, like the ó in \"avó\".",
+        tip: "Stress the first syllable of \"chova\", CHO-va, and say the ch like English sh.",
         explanation: "\"Eu topo\" accepts the invitation, and \"a não ser que\" + subjunctive \"chova\" adds the condition.",
       },
       {
@@ -2220,7 +2220,7 @@ export const PT_B1_U04: Lesson[] = [
         type: "speak",
         text: "Me liga caso você se perca.",
         prompt: "Say it in Portuguese: Call me in case you get lost.",
-        tip: "The s in caso sounds like z: CA-zu. Open the e in perca: PÉR-ca.",
+        tip: "The s in caso sounds like z: CA-zu. Stress the first syllable of perca: PER-ca.",
         explanation: "\"Caso\" + subjunctive: \"perder\" becomes \"perca\", from \"eu perco\". The pronoun goes before the verb: \"você se perca\".",
       },
     ],

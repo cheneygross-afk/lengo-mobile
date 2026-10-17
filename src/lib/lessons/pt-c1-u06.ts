@@ -1194,8 +1194,7 @@ export const PT_C1_U06: Lesson[] = [
         en: "Nine countries [belong] to the CPLP.",
         sentence: "Nove países ___ à CPLP.",
         answer: "pertencem",
-        altAnswers: ["fazem parte"],
-        explanation: "\"Pertencer a\" + \"a CPLP\" gives the crase in \"à CPLP\". \"Fazem parte\" would normally take \"da CPLP\", but it is accepted here.",
+        explanation: "\"Pertencer a\" + \"a CPLP\" gives the crase in \"à CPLP\". The verb is plural to agree with \"nove países\". \"Fazem parte\" would need \"da CPLP\" (fazer parte de), so it doesn't fit this blank.",
       },
       {
         type: "word-order",
@@ -2317,7 +2316,7 @@ export const PT_C1_U06: Lesson[] = [
       {
         type: "dictation",
         audio: "O crescimento econômico surpreendeu os analistas.",
-        explanation: "Write \"econômico\" with the Brazilian circumflex. \"Surpreendeu\" has a silent first r cluster: sur-pre-en-DEU.",
+        explanation: "Write \"econômico\" with the Brazilian circumflex. \"Surpreendeu\" has two separate e sounds in a row, both pronounced: sur-pre-en-DEU.",
       },
       {
         type: "speak",

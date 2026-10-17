@@ -961,7 +961,7 @@ export const PT_B1_U01: Lesson[] = [
         type: "speak",
         text: "Prefiro que você me ligue.",
         prompt: "Say it in Portuguese: I'd rather you called me.",
-        tip: "In \"ligue\" the u is silent: LI-gee, with the g hard and the final e like i.",
+        tip: "In \"ligue\" the u is silent: say LEE-ghee, with a hard g as in 'get' and the final e like i.",
         explanation: "I prefer, you call: \"prefiro que você me ligue\", with the pronoun before the verb as Brazilians say it.",
       },
       {
@@ -1094,7 +1094,7 @@ export const PT_B1_U01: Lesson[] = [
           { es: "Sei que ele vem amanhã.", en: "I know he's coming tomorrow." },
           { es: "Espero que ele venha amanhã.", en: "I hope he comes tomorrow." },
           { es: "A Beatriz faz o jantar toda sexta.", en: "Beatriz makes dinner every Friday." },
-          { es: "Prefiro que a Beatriz faça o jantar hoje.", en: "I'd rather Beatriz makes dinner today." },
+          { es: "Prefiro que a Beatriz faça o jantar hoje.", en: "I'd rather Beatriz made dinner today." },
           { es: "Vejo que você tem paciência.", en: "I can see you're patient." },
           { es: "Peço que você tenha paciência.", en: "I ask you to be patient." },
         ],
@@ -1111,7 +1111,7 @@ export const PT_B1_U01: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "I'd rather Beatriz [makes] dinner today.",
+            en: "I'd rather Beatriz [made] dinner today.",
             sentence: "Prefiro que a Beatriz ___ o jantar hoje.",
             answer: "faça",
             explanation: "\"Preferir que\" takes the subjunctive, built from \"faço\": \"faça\". \"Faz\" is the indicative, for a fact.",

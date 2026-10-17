@@ -150,6 +150,7 @@ export const PT_A2_U16_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: A storm hit in the afternoon.",
         words: ["Caiu", "um", "temporal", "à tarde."],
+        altOrders: [["à tarde.", "Caiu", "um", "temporal"]],
         translation: "A storm hit in the afternoon.",
         explanation: "A storm \"cai\" in Portuguese: \"caiu um temporal\".",
       },

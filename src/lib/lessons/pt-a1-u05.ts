@@ -1591,7 +1591,7 @@ export const PT_A1_U05: Lesson[] = [
         heading: "Eu faço, eu posso: the irregular eu forms",
         body: [
           "Learners often write \"*eu fazo\" and \"*eu podo\", building the eu form the regular way, like \"comer\" → \"como\". Both verbs are irregular only here: \"eu faço\" (I do, I make) and \"eu posso\" (I can). The other persons are regular: \"faz\", \"fazemos\", \"pode\", \"podemos\".",
-          "With this unit's irregular verbs, always check the eu form first. That is where they change: \"eu digo\", \"eu vejo\", \"eu venho\". The cedilla in \"faço\" keeps the s sound. Without it, the c would be read as a k.",
+          "With this unit's irregular verbs, always check the eu form first. That is where they change: \"eu vou\", \"eu vejo\", \"eu venho\". The cedilla in \"faço\" keeps the s sound. Without it, the c would be read as a k.",
         ],
         examples: [
           { es: "Hoje eu faço o jantar.", en: "I'm making dinner today." },

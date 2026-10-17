@@ -68,7 +68,7 @@ export const PT_C2_U22_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The impact was that we lost the deadline.",
+        source: "The impact was that we missed the deadline.",
         answer: "O impacto foi que perdemos o prazo.",
         altAnswers: ["O impacto foi que nós perdemos o prazo.", "O impacto foi que a gente perdeu o prazo.", "A consequência foi que perdemos o prazo."],
         explanation: "The impact is a fact, not a verdict on the person.",

@@ -249,7 +249,7 @@ export const PT_A2_U13: Lesson[] = [
       {
         heading: "Quanto custa? Quanto é? Quanto fica?",
         body: [
-          "\"Quanto custa?\" asks how much something costs. With more than one thing the verb goes plural: \"Quanto custam as bananas?\" English says how much is it for both, so the -m is easy to forget.",
+          "\"Quanto custa?\" asks how much something costs. With more than one thing the verb goes plural: \"Quanto custam as bananas?\" Learners often keep the singular \"custa\" by habit, so listen for the nasal -m of \"custam\".",
           "\"Quanto é?\" (how much is it?) is the quick everyday version, for one item or the bill. \"Quanto fica?\" asks what it comes to: the total for several things, or the price after a discount. \"Quanto fica tudo?\" is the question at the end of any shopping trip.",
           "Answer with \"custa\" or \"fica\" plus the price; for a plural amount, \"são\": \"São quarenta reais.\"",
         ],
@@ -1362,7 +1362,7 @@ export const PT_A2_U13: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Quanto custa aquela bolsa?",
+        text: "Quanto custa aquela bolsa ali?",
         prompt: "Say it in Portuguese: How much is that bag over there?",
         tip: "Stress the middle syllable, a-QUE-la, with an open é. The masculine aquele has a closed ê.",
         explanation: "\"Aquela\" agrees with \"bolsa\" and points to something far from both of you.",
@@ -1400,7 +1400,7 @@ export const PT_A2_U13: Lesson[] = [
         heading: "Chegando: uma mesa e o prato do dia",
         body: [
           "This dialogue takes place in a restaurant in Savassi, Belo Horizonte. Ana and Lucas arrive, and the waiter (\"o garçom\") greets them: \"Boa noite! Mesa para dois?\". To get his attention, Brazilians say \"moço\". For a waitress they say \"moça\".",
-          "Order with the softeners from lesson 1: \"eu queria...\" or \"eu gostaria de...\". \"Eu quero\" isn't rude, but \"queria\" sounds warmer. At lunch many places offer \"o prato do dia\" (the daily special) or \"o PF\" (\"prato feito\"), which is rice, beans, meat and salad at a fixed price.",
+          "Order with the softeners from the first lesson of this unit: \"eu queria...\" or \"eu gostaria de...\". \"Eu quero\" isn't rude, but \"queria\" sounds warmer. At lunch many places offer \"o prato do dia\" (the daily special) or \"o PF\" (\"prato feito\"), which is rice, beans, meat and salad at a fixed price.",
           "Not sure what to order? Ask \"o que você recomenda?\", or \"o que o senhor recomenda?\" to an older waiter. \"Já escolheram?\" means 'have you chosen yet?', and \"ainda não\" buys you time.",
         ],
         examples: [
@@ -2115,6 +2115,7 @@ export const PT_A2_U13: Lesson[] = [
             type: "word-order",
             prompt: "Put the words in order to say: No one called me yesterday.",
             words: ["Ninguém", "me", "ligou", "ontem."],
+            altOrders: [["ontem.", "Ninguém", "me", "ligou"]],
             translation: "No one called me yesterday.",
             explanation: "\"Ninguém\" at the start needs no \"não\". \"Me\" goes before the verb, as always in Brazilian speech.",
           },

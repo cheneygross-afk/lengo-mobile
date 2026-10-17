@@ -1258,7 +1258,7 @@ export const PT_B2_U30: Lesson[] = [
           {
             type: "speak",
             text: "Se eles conseguiram, nós também podemos.",
-            tip: "\"Conseguiram\": stress \"ram\" lightly; the ending is nasal, \"-ãw\".",
+            tip: "\"Conseguiram\": stress \"gui\", con-se-GUI-ram, and let the unstressed ending go nasal, \"-ãw\".",
             explanation: "A real past condition (\"se eles conseguiram\") used as an argument.",
           },
         ],

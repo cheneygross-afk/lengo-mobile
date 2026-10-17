@@ -16,7 +16,7 @@ export const PT_A1_U09_EXTRA: Lesson[] = [
       {
         heading: "Ser for the person, ter for hair, eyes and age",
         body: [
-          "\"Ser\" describes build and personality: \"sou alto\", \"ela é simpática\", \"somos tímidos\", \"eles são engraçados\". \"Ter\" gives hair, eyes and age: \"tenho cabelo curto\", \"ela tem olhos verdes\", \"temos trinta anos\", \"eles têm cabelo cacheado\".",
+          "\"Ser\" describes build and personality: \"sou alto\", \"ela é simpática\", \"somos tímidos\", \"eles são engraçados\". \"Ter\" gives hair, eyes and age: \"tenho cabelo curto\", \"ela tem olhos verdes\", \"temos vinte anos\", \"eles têm cabelo cacheado\".",
           "Adjectives agree with the person, \"muito\", \"bem\" and \"meio\" never change, and \"cabelo\" stays singular.",
         ],
         examples: [
@@ -80,10 +80,10 @@ export const PT_A1_U09_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "My grandfather is seventy and has white hair.",
-        answer: "O avô tem setenta anos e tem cabelo branco.",
-        altAnswers: ["O vovô tem setenta anos e tem cabelo branco.", "O avô tem setenta anos e cabelo branco.", "O avô tem 70 anos e tem cabelo branco."],
-        explanation: "Age and hair both take \"ter\". Brazilians often say \"o avô\" where English says my grandfather.",
+        source: "The grandfather is tall and has white hair.",
+        answer: "O avô é alto e tem cabelo branco.",
+        altAnswers: ["O vovô é alto e tem cabelo branco."],
+        explanation: "Height takes \"ser\" (\"é alto\") and hair takes \"ter\" (\"tem cabelo branco\").",
       },
       {
         type: "translate",

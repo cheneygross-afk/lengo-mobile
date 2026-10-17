@@ -1223,8 +1223,8 @@ export const PT_B1_U31: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Comprei na liquidação com metade do preço.",
-        explanation: "\"Com metade do preço\" means at half price. \"Pela metade do preço\" is also common.",
+        audio: "Comprei na liquidação pela metade do preço.",
+        explanation: "\"Pela metade do preço\" means at half price. \"Com cinquenta por cento de desconto\" says the same.",
       },
       {
         type: "speak",
@@ -2188,7 +2188,6 @@ export const PT_B1_U31: Lesson[] = [
             prompt: "Put the words in order to say: Let me know what you think.",
             words: ["Me", "fala", "o", "que", "você", "acha."],
             translation: "Let me know what you think.",
-            altOrders: [["Me", "fala", "o", "que", "acha", "você."]],
             explanation: "\"Me fala\" is the spoken imperative, very common between friends.",
           },
         ],

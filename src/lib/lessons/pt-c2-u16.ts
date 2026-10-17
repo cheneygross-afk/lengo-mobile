@@ -766,7 +766,7 @@ export const PT_C2_U16: Lesson[] = [
       {
         type: "dictation",
         audio: "A paleta se reduz ao verde, ao amarelo e ao azul.",
-        explanation: "\"Paleta\" (palette) has an open e: pa-LÉ-ta.",
+        explanation: "\"Paleta\" (palette) has a closed e: pa-LÊ-ta.",
       },
       {
         type: "speak",

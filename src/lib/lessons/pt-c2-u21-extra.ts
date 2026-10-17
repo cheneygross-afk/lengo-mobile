@@ -195,7 +195,7 @@ export const PT_C2_U21_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "You want to write 'Obedience is a virtue insofar as it serves justice.' Which is correct?",
-        options: ["A obediência é virtude na medida em que serve à justiça.", "A obediência é virtude à medida que serve à justiça.", "Obediência é a virtude na medida que serve justiça.", "A obediência é virtude na medida em que serve a justiça a."],
+        options: ["A obediência é virtude na medida em que serve à justiça.", "A obediência é virtude à medida que serve à justiça.", "Obediência é a virtude na medida que serve justiça.", "A obediência é virtude à medida em que serve à justiça."],
         correctIndex: 0,
         explanation: "'Insofar as' is \"na medida em que\"; \"servir a\" plus \"a justiça\" gives \"à justiça\".",
       },
@@ -203,7 +203,7 @@ export const PT_C2_U21_EXTRA: Lesson[] = [
         type: "speak",
         text: "Entende-se por liberdade a capacidade de agir sem coerção.",
         prompt: "Say it in Portuguese: By freedom we mean the capacity to act without coercion.",
-        tip: "\"Coerção\" has four syllables: co-er-SÃO, with the e and the ç kept apart.",
+        tip: "\"Coerção\" has three syllables: co-er-SÃO, with the o and the e kept apart.",
         explanation: "The generic \"se\" follows the verb at the start of a formal sentence.",
       },
       {

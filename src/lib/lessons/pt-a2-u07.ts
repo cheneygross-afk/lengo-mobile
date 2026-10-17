@@ -1122,6 +1122,7 @@ export const PT_A2_U07: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: There's a nice little bar near here.",
         words: ["Tem", "um", "barzinho", "legal", "aqui", "perto."],
+        altOrders: [["Aqui", "perto", "tem", "um", "barzinho", "legal."]],
         translation: "There's a nice little bar near here.",
         explanation: "\"Bar\" ends in a consonant, so it takes \"-zinho\": \"barzinho\". \"Tem\" is the everyday there is.",
       },
@@ -1553,6 +1554,7 @@ export const PT_A2_U07: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: For me, the smaller one is the better one.",
         words: ["Para", "mim,", "o", "menor", "é", "o", "melhor."],
+        altOrders: [["O", "menor", "é", "o", "melhor", "para", "mim,"]],
         translation: "For me, the smaller one is the better one.",
         explanation: "\"Para mim\" gives your opinion. \"O menor\" and \"o melhor\" turn the comparatives into the smaller one and the better one.",
       },
@@ -2218,6 +2220,7 @@ export const PT_A2_U07: Lesson[] = [
         en: "She was [as tired as] me.",
         sentence: "Ela estava ___ eu.",
         answer: "tão cansada quanto",
+        altAnswers: ["tão cansada como"],
         explanation: "Equality with an adjective is \"tão... quanto\", and \"cansada\" agrees with \"ela\". After \"quanto\" use \"eu\", not \"mim\".",
       },
       {

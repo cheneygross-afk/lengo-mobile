@@ -45,7 +45,7 @@ export const PT_A2_U13_EXTRA: Lesson[] = [
             sentence: "___ a conta?",
             answer: "Quanto é",
             altAnswers: ["Quanto fica", "Quanto deu"],
-            explanation: "\"Quanto é\" / \"quanto fica\" / \"quanto deu\".",
+            explanation: "\"Quanto é?\" asks the price of the bill; \"quanto fica?\" asks what it comes to, and \"quanto deu?\" (literally how much did it give?) is the everyday total.",
           },
           {
             type: "listen-choose",
@@ -110,7 +110,7 @@ export const PT_A2_U13_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "It costs one thousand two hundred reais.",
         answer: "Custa mil e duzentos reais.",
-        altAnswers: ["Custa mil duzentos reais.", "São mil e duzentos reais."],
+        altAnswers: ["São mil e duzentos reais.", "Custa R$ 1.200,00."],
         explanation: "\"Mil e duzentos\": R$ 1.200,00.",
       },
       {
@@ -119,7 +119,7 @@ export const PT_A2_U13_EXTRA: Lesson[] = [
         en: "[I'd like] the dish of the day.",
         sentence: "___ o prato do dia.",
         answer: "Eu queria",
-        altAnswers: ["Queria", "Eu gostaria do", "Vou querer"],
+        altAnswers: ["Queria", "Eu vou querer", "Vou querer"],
         explanation: "\"Queria\" (or \"vou querer\") for ordering.",
       },
       {
@@ -240,7 +240,7 @@ export const PT_A2_U13_EXTRA: Lesson[] = [
         source: "Someone left a bag here.",
         answer: "Alguém deixou uma bolsa aqui.",
         altAnswers: ["Alguém deixou uma sacola aqui."],
-        explanation: "\"Alguém\" = someone.",
+        explanation: "Someone is \"alguém\", which never changes and takes the ele/ela verb: \"alguém deixou\".",
       },
       {
         type: "translate",
@@ -249,7 +249,7 @@ export const PT_A2_U13_EXTRA: Lesson[] = [
         source: "I bought everything for the party.",
         answer: "Comprei tudo para a festa.",
         altAnswers: ["Eu comprei tudo para a festa.", "Comprei tudo pra festa."],
-        explanation: "\"Tudo\" = everything.",
+        explanation: "Everything standing alone is \"tudo\". \"Todo\" needs a noun, so \"comprei todo\" is wrong.",
       },
       {
         type: "translate",
@@ -284,7 +284,7 @@ export const PT_A2_U13_EXTRA: Lesson[] = [
         en: "I didn't see [anyone].",
         sentence: "Não vi ___.",
         answer: "ninguém",
-        explanation: "After the verb with \"não\".",
+        explanation: "In a negative sentence anyone is \"ninguém\": after the verb it needs \"não\" before the verb too (the double negative).",
       },
       {
         type: "fill-blank",
@@ -292,15 +292,14 @@ export const PT_A2_U13_EXTRA: Lesson[] = [
         en: "[Everyone] came.",
         sentence: "___ veio.",
         answer: "Todo mundo",
-        altAnswers: ["Todos"],
-        explanation: "\"Todo mundo\" takes a singular verb.",
+        explanation: "\"Todo mundo\" is grammatically singular, so it fits the singular \"veio\". \"Todos\" would need the plural \"vieram\".",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: There's no one at home.",
         words: ["Não", "tem", "ninguém", "em", "casa."],
         translation: "There's no one at home.",
-        explanation: "\"Não tem ninguém\".",
+        explanation: "\"Não\" + \"tem\" + \"ninguém\": spoken \"tem\" means there is, and \"ninguém\" after the verb needs the \"não\" in front.",
       },
       {
         type: "listen-choose",
@@ -397,7 +396,7 @@ export const PT_A2_U13_EXTRA: Lesson[] = [
         source: "How much are these shoes?",
         answer: "Quanto custam esses sapatos?",
         altAnswers: ["Quanto custa esse sapato?", "Quanto é esse sapato?", "Quanto custam estes sapatos?"],
-        explanation: "\"Esses\" in speech for these.",
+        explanation: "\"Sapatos\" is masculine plural, so \"esses\" (the everyday this/these) and the plural verb \"custam\".",
       },
       {
         type: "translate",
@@ -458,6 +457,7 @@ export const PT_A2_U13_EXTRA: Lesson[] = [
         en: "I need [this].",
         sentence: "Preciso ___.",
         answer: "disso",
+        altAnswers: ["disto"],
         explanation: "\"Precisar de\" + \"isso\" → \"disso\".",
       },
       {

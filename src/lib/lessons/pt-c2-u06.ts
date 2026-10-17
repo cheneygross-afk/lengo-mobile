@@ -815,7 +815,7 @@ export const PT_C2_U06: Lesson[] = [
         type: "speak",
         text: "Senhor Presidente, concluo em trinta segundos.",
         prompt: "Say it in Portuguese: Mr. President, I'll wrap up in thirty seconds.",
-        tip: "Pause after Presidente, whose final -e sounds like i; the d before e stays a hard d. End segundos with a soft -us.",
+        tip: "Pause after Presidente, whose final -te sounds like tchi; the d in -den- stays a hard d. End segundos with a soft -us.",
         explanation: "The present \"concluo\" promises an imminent act, which is the natural reply to a time warning.",
       },
       {
@@ -1960,7 +1960,7 @@ export const PT_C2_U06: Lesson[] = [
         type: "speak",
         text: "Agradeço à emissora pelo convite e cumprimento o prefeito.",
         prompt: "Say it in Portuguese: I thank the station for the invitation and greet the mayor.",
-        tip: "Hold the à slightly longer than a plain a; the crase is often audible in careful formal speech.",
+        tip: "In Brazil the crase sounds just like a plain a, so link \"à emissora\" smoothly. Stress cum-pri-MEN-to and keep the final -o soft.",
         explanation: "\"Agradecer a\" plus \"a emissora\" gives \"à\". \"Cumprimentar\" takes a direct object: \"cumprimento o prefeito\".",
       },
       {

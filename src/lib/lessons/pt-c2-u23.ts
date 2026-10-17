@@ -223,7 +223,7 @@ export const PT_C2_U23: Lesson[] = [
         type: "speak",
         text: "Bom dia. Gostaria de reconhecer firma neste documento, por semelhança.",
         prompt: "Say it in Portuguese: Good morning. I'd like to have my signature certified on this document, by comparison with my card.",
-        tip: "\"Reconhecer\" has an open e in the second syllable: re-co-NHE-cer.",
+        tip: "\"Reconhecer\" is stressed on the last syllable: re-co-nhe-CER, with a closed e and a soft final r.",
         explanation: "A complete counter request: greeting, \"gostaria de\", the act and the type of recognition.",
       },
       {
@@ -328,7 +328,7 @@ export const PT_C2_U23: Lesson[] = [
             type: "speak",
             text: "Quem vai ser o inventariante?",
             prompt: "Say it in Portuguese: Who's going to be the estate's administrator?",
-            tip: "Five syllables before the stress: in-ven-ta-ri-AN-te; keep the an nasal.",
+            tip: "The stress falls on AN: in-ven-ta-ri-AN-tchi; keep the an nasal and soften the final te to tchi.",
             explanation: "The \"inventariante\" represents the estate until the division is done.",
           },
         ],
@@ -2353,7 +2353,7 @@ export const PT_C2_U23: Lesson[] = [
         examples: [
           { es: "Errado: Preciso do certificado de nascimento da minha filha. Certo: Preciso da certidão de nascimento da minha filha.", en: "I need my daughter's birth certificate." },
           { es: "Errado: Entreguei a certidão médica no RH. Certo: Entreguei o atestado médico no RH.", en: "I handed my sick note in to HR." },
-          { es: "Errado: Ganhei uma certidão no fim do curso de espanhol. Certo: Ganhei um certificado no fim do curso de espanhol.", en: "I got a certificate at the end of the Spanish course." },
+          { es: "Errado: Ganhei uma certidão no fim do curso de inglês. Certo: Ganhei um certificado no fim do curso de inglês.", en: "I got a certificate at the end of my English course." },
           { es: "O banco pediu a certidão de óbito, não o atestado do hospital.", en: "The bank asked for the death certificate, not the hospital's statement." },
           { es: "A empresa exige certidão negativa de débitos trabalhistas.", en: "The company requires a certificate showing no outstanding labour debts." },
         ],

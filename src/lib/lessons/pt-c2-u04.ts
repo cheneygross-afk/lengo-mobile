@@ -516,7 +516,7 @@ export const PT_C2_U04: Lesson[] = [
         text: "O ônibus parou, mas ninguém desceu.",
         prompt: "Say it in Portuguese: The bus stopped, but no one got off.",
         tip: "Read it as verse: hold \"ninguém\" with your voice suspended, then land on \"desceu\" with a falling tone.",
-        explanation: "\"Desceu\" is the perfeito of \"descer\", to get off a bus. The open é of \"ônibus\" isn't there: \"ô\" is closed.",
+        explanation: "\"Desceu\" is the perfeito of \"descer\", to get off a bus. \"Ônibus\" has a closed ô, marked by the circumflex.",
       },
       {
         type: "translate",
@@ -803,7 +803,7 @@ export const PT_C2_U04: Lesson[] = [
         type: "speak",
         text: "A canção critica o regime sem nomeá-lo.",
         prompt: "Say it in Portuguese: The song criticises the regime without naming it.",
-        tip: "Stress no-me-Á-lo, and keep the é of critica unstressed: cri-TI-ca.",
+        tip: "Stress no-me-Á-lo. The verb \"critica\" is stressed cri-TI-ca, unlike the noun \"crítica\" (CRÍ-ti-ca).",
         explanation: "\"Nomeá-lo\": the infinitive loses its -r and takes \"lo\", the written form you'd use in an analysis.",
       },
       {
@@ -1631,7 +1631,7 @@ export const PT_C2_U04: Lesson[] = [
         body: [
           "At a sarau people react out loud, during and after the reading. Short emotional lines dominate: \"que forte!\", \"me arrepiei\" (I got goosebumps), \"esse verso me pegou\", \"mexeu comigo\". Here \"forte\" means intense or moving, and \"me pegou\" is 'it got me', 'it hit home'.",
           "When you talk to the poet afterwards, specific praise counts for more than \"gostei\". Name an image, a line or the ending: \"aquele verso sobre a laje me pegou\" shows you listened. English speakers often fall back on \"o poema foi muito interessante\", which sounds polite and a little cold, just as 'interesting' can in English.",
-          "Watch two traps. \"Sensível\" means sensitive or perceptive, not sensible (\"sensato\"), so \"um poema sensível\" is a delicate, perceptive poem. And the poem is \"emocionante\" (moving), but you are \"emocionado\" or \"emocionada\": \"fiquei emocionada\" means 'I was moved'. The opposite praise, \"piegas\", means sappy.",
+          "Watch two traps. \"Sensível\" means sensitive or perceptive, not sensible (\"sensato\"), so \"um poema sensível\" is a delicate, perceptive poem. And the poem is \"emocionante\" (moving), but you are \"emocionado\" or \"emocionada\": \"fiquei emocionada\" means 'I was moved'. The criticism to avoid, \"piegas\", means sappy.",
         ],
         examples: [
           { es: "Nossa, que forte! Me arrepiei no final.", en: "Wow, that was powerful! I got goosebumps at the end." },

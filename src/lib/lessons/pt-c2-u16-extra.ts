@@ -21,7 +21,7 @@ export const PT_C2_U16_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "O romance é engenhoso, mas os personagens são esquemáticos.", en: "The novel is ingenious, but the characters are formulaic." },
-          { es: "A estreia da cantora é nada desprezível.", en: "The singer's debut is far from negligible." },
+          { es: "A estreia da cantora não é nada desprezível.", en: "The singer's debut is far from negligible." },
           { es: "A peça não deixa de ser corajosa.", en: "The play is brave, admittedly." },
           { es: "Seria injusto chamar o disco de comercial.", en: "It would be unfair to call the album commercial." },
           { es: "Se a exposição fosse menor, seria mais forte.", en: "If the exhibition were smaller, it would be stronger." },
@@ -74,8 +74,8 @@ export const PT_C2_U16_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into Portuguese.",
         source: "The singer's debut is far from negligible.",
-        answer: "A estreia da cantora é nada desprezível.",
-        altAnswers: ["A estreia da cantora não é nada desprezível.", "O disco de estreia da cantora é nada desprezível.", "O álbum de estreia da cantora não é nada desprezível."],
+        answer: "A estreia da cantora não é nada desprezível.",
+        altAnswers: ["A estreia da cantora é nada desprezível.", "O disco de estreia da cantora é nada desprezível.", "O álbum de estreia da cantora não é nada desprezível."],
         explanation: "Litotes: denying \"desprezível\" affirms real merit.",
       },
       {

@@ -557,7 +557,7 @@ export const PT_C2_U12: Lesson[] = [
       {
         heading: "The contos: the epiphany in a sentence",
         body: [
-          "In the short stories of \"Laços de Família\" (1960), an ordinary woman meets something banal and her life cracks open. In \"Amor\", Ana sees a blind man chewing gum from a tram and drops her shopping; in \"A Galinha\", a hen about to be cooked lays an egg. Critics call this the \"epifania\" (epiphany), and Clarice builds it in the syntax: short declaratives, then a sudden long sentence that piles up clauses as perception floods in.",
+          "In the short stories of \"Laços de Família\" (1960), an ordinary woman meets something banal and her life cracks open. In \"Amor\", Ana sees a blind man chewing gum from a tram and drops her shopping; in \"Uma Galinha\", a hen about to be cooked lays an egg. Critics call this the \"epifania\" (epiphany), and Clarice builds it in the syntax: short declaratives, then a sudden long sentence that piles up clauses as perception floods in.",
           "The one-line paragraph is another tool. After pages of interior turbulence, a single short sentence lands with full weight. Her punctuation, especially the dash and the colon, opens gaps for the thought to fall into; the punctuation lesson later in the unit looks at this closely.",
           "Critical vocabulary for Clarice: \"fluxo de consciência\" (stream of consciousness), \"introspecção\", \"epifania\", \"fragmentação\", \"linguagem que se interroga\". Avoid the common essay mistake of calling her style \"confuso\" (confused). It is controlled ambiguity, and the precision of the critic should match the precision of the writer.",
         ],
@@ -1423,7 +1423,7 @@ export const PT_C2_U12: Lesson[] = [
         heading: "The run-on sentence and the missing full stop",
         body: [
           "The long sentence is a style with a long history in Portuguese, from the sermons of Padre Vieira to Raduan Nassar. It works through accumulation: commas pile up clauses, and \"e... e... e...\" repeats the conjunction (\"polissíndeto\", the figure of repeated conjunctions). The reader is carried along and can't stop to breathe, which is the effect.",
-          "Rosa does something different: his long periods are broken into many short units by commas, so they sound like speech. \"Grande Sertão: Veredas\" opens with a dialogue dash, \"— Nonada.\", and that dash never closes. The whole novel is one speech, and it ends with \"Travessia\" and the infinity sign instead of a full stop.",
+          "Rosa does something different: his long periods are broken into many short units by commas, so they sound like speech. \"Grande Sertão: Veredas\" opens with a dialogue dash, \"— Nonada.\", and that dash never closes. The whole novel is one speech, and it ends on the single word \"Travessia\", followed by the infinity sign.",
           "Clarice pushes the full stop furthest. \"Uma Aprendizagem ou O Livro dos Prazeres\" (1969) begins with a comma, as if we had walked in mid-sentence, and ends with a colon, as if the book opened onto something unwritten. When you describe such choices, name the mark and its effect: \"a vírgula inicial sugere que a história já tinha começado\".",
         ],
         examples: [
@@ -2094,7 +2094,7 @@ export const PT_C2_U12: Lesson[] = [
             en: "[I'd say] he pushed the speech of the sertão to its limit.",
             sentence: "___ que ele levou a fala do sertão ao limite.",
             answer: "Eu diria",
-            altAnswers: ["Diria", "Eu acho", "Acho"],
+            altAnswers: ["Diria"],
             explanation: "The conditional \"diria\" (from \"dizer\") softens an opinion in academic speech, as \"queria\" softens a request.",
           },
           {
@@ -2135,7 +2135,7 @@ export const PT_C2_U12: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words, as Rafael.",
-            en: "[On the one hand], the strangeness excludes people; [on the other], it forces us to read slowly.",
+            en: "[On the one hand], the strangeness excludes people; on the other, it forces us to read slowly.",
             sentence: "___, a estranheza exclui; por outro, ela obriga a gente a ler devagar.",
             answer: "Por um lado",
             explanation: "\"Por um lado... por outro (lado)\" balances two points; the second \"lado\" is usually dropped.",

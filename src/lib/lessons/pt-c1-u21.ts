@@ -210,7 +210,7 @@ export const PT_C1_U21: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct in a news report about a woman who governs Rio Grande do Norte?",
-        options: ["A governadora do Rio Grande do Norte sancionou a lei.", "A governador do Rio Grande do Norte sancionou a lei.", "O governadora do Rio Grande do Norte sancionou a lei.", "A governante estadual do Rio Grande do Norte sancionou a lei."],
+        options: ["A governadora do Rio Grande do Norte sancionou a lei.", "A governador do Rio Grande do Norte sancionou a lei.", "O governadora do Rio Grande do Norte sancionou a lei.", "A senhora governador do Rio Grande do Norte sancionou a lei."],
         correctIndex: 0,
         explanation: "Titles agree with the person: \"a governadora\". Brazilian news has used the feminine forms routinely for decades.",
       },
@@ -1123,8 +1123,8 @@ export const PT_C1_U21: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Eu me inscrevi para falar na audiência, desde que me deixem falar em português simples.",
-        prompt: "Say it in Portuguese: I signed up to speak at the hearing, as long as they let me speak in simple Portuguese.",
+        text: "Vou me inscrever para falar na audiência, desde que me deixem falar em português simples.",
+        prompt: "Say it in Portuguese: I'll sign up to speak at the hearing, as long as they let me speak in simple Portuguese.",
         explanation: "\"Desde que\" + present subjunctive (\"deixem\") sets your condition.",
       },
       {

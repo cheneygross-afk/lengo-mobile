@@ -51,7 +51,7 @@ export const PT_B1_U29: Lesson[] = [
       {
         heading: "Escola pública, escola particular, colégio",
         body: [
-          "A state school is an \"escola pública\" (run by the city or the state) and a private one is an \"escola particular\", where parents pay a \"mensalidade\" (monthly fee). Avoid \"escola privada\" in speech: it exists, but \"privada\" on its own is the everyday word for toilet.",
+          "A state school is an \"escola pública\" (run by the city or the state) and a private one is an \"escola particular\", where parents pay a \"mensalidade\" (monthly fee). \"Escola privada\" is also correct (you'll see it in the news), but \"particular\" is the everyday word, and \"privada\" on its own means toilet.",
           "\"Colégio\" is a false friend: it means school, often a private one with a name (\"Colégio Santa Maria\"), never college or university. Many public schools are called \"escola estadual\" or \"escola municipal\". In Brazil the best universities are public, while the best schools are often private, which is why the debate about access is so heated.",
         ],
         examples: [
@@ -68,8 +68,8 @@ export const PT_B1_U29: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "My children go to a private school.",
             answer: "Meus filhos estudam numa escola particular.",
-            altAnswers: ["Meus filhos estudam em uma escola particular.", "Os meus filhos estudam numa escola particular.", "Os meus filhos estudam em uma escola particular.", "Meus filhos estudam em escola particular.", "Meus filhos estudam num colégio particular.", "Meus filhos estudam em um colégio particular."],
-            explanation: "To go to a school is \"estudar em\". Private is \"particular\": \"privada\" also means toilet, so Brazilians avoid it here.",
+            altAnswers: ["Meus filhos estudam em uma escola particular.", "Os meus filhos estudam numa escola particular.", "Os meus filhos estudam em uma escola particular.", "Meus filhos estudam em escola particular.", "Meus filhos estudam num colégio particular.", "Meus filhos estudam em um colégio particular.", "Meus filhos estudam numa escola privada.", "Meus filhos estudam em uma escola privada."],
+            explanation: "To go to a school is \"estudar em\". Private is usually \"particular\" in speech; \"escola privada\" is correct but more formal (\"privada\" alone means toilet).",
           },
           {
             type: "multiple-choice",
@@ -252,6 +252,7 @@ export const PT_B1_U29: Lesson[] = [
             en: "She [got into] medicine at the federal university.",
             sentence: "Ela ___ em medicina na federal.",
             answer: "passou",
+            altAnswers: ["entrou"],
             explanation: "\"Passar em\" + course or university means to get in. \"Passar no vestibular\" is to pass the entrance exam.",
           },
         ],

@@ -1689,7 +1689,7 @@ export const PT_B1_U08: Lesson[] = [
           {
             type: "speak",
             text: "Eu já tinha ido lá antes.",
-            tip: "The nh in tinha is like the ny in canyon: TI-nya, not TI-na.",
+            tip: "The nh in tinha is like the ny in canyon: TCHI-nya, not TCHI-na. The t before i also sounds like the ch in cheese.",
             explanation: "\"Já tinha ido\": already, before another past moment.",
           },
         ],
@@ -2142,7 +2142,7 @@ export const PT_B1_U08: Lesson[] = [
             prompt: "Put the words in order to say: As soon as I noticed, I called the bank.",
             words: ["Assim", "que", "percebi,", "liguei", "para", "o", "banco."],
             translation: "As soon as I noticed, I called the bank.",
-            altOrders: [["Liguei", "para", "o", "banco", "assim", "que", "percebi,"]],
+            altOrders: [["Liguei", "para", "o", "banco", "assim", "que", "percebi."]],
             explanation: "\"Assim que\" + perfeito marks the moment things changed. Both verbs are single completed events.",
           },
         ],

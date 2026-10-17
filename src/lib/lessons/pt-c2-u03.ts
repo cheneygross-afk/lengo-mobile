@@ -182,7 +182,7 @@ export const PT_C2_U03: Lesson[] = [
         source: "Slow and steady wins the race.",
         answer: "Devagar se vai ao longe.",
         altAnswers: ["Devagar se vai longe."],
-        explanation: "\"Devagar se vai ao longe\" puts the impersonal \"se\" after \"devagar\", an old order the proverb preserves. No race and no tortoise: the Brazilian saying is about distance.",
+        explanation: "\"Devagar se vai ao longe\" fronts the adverb and uses the impersonal \"se\" (one goes far slowly), a frozen order the proverb preserves. No race and no tortoise: the Brazilian saying is about distance.",
       },
       {
         type: "translate",
@@ -1686,7 +1686,7 @@ export const PT_C2_U03: Lesson[] = [
         type: "speak",
         text: "Se Deus quiser, vai dar certo.",
         prompt: "Say it in Portuguese: God willing, it'll work out.",
-        tip: "The d in dar stays a plain d, but the t in certo before the final o is also plain. Only t and d before an i sound turn into ch and j.",
+        tip: "The d in \"dar\" and the t in \"certo\" stay plain, because no i sound follows them. Only t and d before an i sound turn into ch and j.",
         explanation: "\"Se Deus quiser\" uses the future subjunctive of \"querer\". \"Vai dar certo\" is the everyday way to say it'll work out.",
       },
       {
@@ -2275,7 +2275,7 @@ export const PT_C2_U03: Lesson[] = [
         type: "speak",
         text: "Como dizia minha avó, quem vê cara não vê coração.",
         prompt: "Say it in Portuguese: As my grandmother used to say, you can't judge a book by its cover.",
-        tip: "Keep the vowels apart: the closed ô in \"avó\"? No, it's open: a-VÓ. Then stress co-ra-ÇÃO with a nasal ending.",
+        tip: "\"Avó\" (grandma) has an open ó: a-VÓ, not the closed ô of \"avô\". Then stress co-ra-ÇÃO with a nasal ending.",
         explanation: "The proverb arrives in the grandmother's voice, with the imperfect \"dizia\" for a repeated habit.",
       },
       {

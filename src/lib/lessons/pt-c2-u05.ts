@@ -753,7 +753,7 @@ export const PT_C2_U05: Lesson[] = [
       {
         type: "dictation",
         audio: "Me disseram que a reunião foi adiada.",
-        explanation: "\"Me disseram\" renders 'I was told'. The reunion has a real direct subject, so \"foi adiada\" is a normal passive.",
+        explanation: "\"Me disseram\" renders 'I was told'. Here \"a reunião\" (the meeting) is a real direct object turned subject, so \"foi adiada\" is a normal passive agreeing with it.",
       },
       {
         type: "speak",
@@ -1160,7 +1160,7 @@ export const PT_C2_U05: Lesson[] = [
         body: [
           "Informal mediation reports the speaker in the third person: \"Ela está perguntando se...\", \"O que ele quis dizer é que...\", \"Ele pediu para a gente...\". Trained interpreters, by contrast, use the first person. Reported speech from B1 does the work, tense shifts included. Before you relay something ambiguous, check it: \"Só para confirmar: o senhor quer que...?\"",
           "Adjust the tone as well as the words. A blunt 'That won't work' relayed literally as \"Isso não vai funcionar\" can sound harsher to a Brazilian client than the speaker intended. \"Ele acha que, do jeito que está, não funciona\" carries the same content with Brazilian softness. Never invent agreement where the speaker disagreed.",
-          "Mediating a Brazilian text for English speakers reverses the gap. \"Carteira assinada\", \"13º salário\" and \"CLT\" each need an English gloss: a formally registered job with full labour rights, and a mandatory extra month's pay in December. The skill is the same: name it, anchor it, move on.",
+          "Mediating a Brazilian text for English speakers reverses the gap. \"Carteira assinada\", \"13º salário\" and \"CLT\" each need an English gloss: a formally registered job with full labour rights, a mandatory extra month's pay in December, and the labour code that guarantees both. The skill is the same: name it, anchor it, move on.",
         ],
         examples: [
           { es: "Ela está perguntando se dá para adiar a entrega para sexta.", en: "She's asking if the delivery can be pushed back to Friday." },

@@ -477,6 +477,7 @@ export const PT_A2_U02_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: I made this cake an hour ago.",
         words: ["Eu", "fiz", "esse", "bolo", "há", "uma", "hora."],
+        altOrders: [["Há", "uma", "hora", "eu", "fiz", "esse", "bolo."]],
         translation: "I made this cake an hour ago.",
         explanation: "\"Fiz\" (I made) + object + \"há uma hora\".",
       },

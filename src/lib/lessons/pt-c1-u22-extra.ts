@@ -305,7 +305,7 @@ export const PT_C1_U22_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "The floods left hundreds of families homeless.",
         answer: "As enchentes deixaram centenas de famílias desabrigadas.",
-        altAnswers: ["As enchentes deixaram centenas de famílias desalojadas.", "As enchentes deixaram centenas de famílias sem casa.", "As inundações deixaram centenas de famílias desabrigadas.", "As enchentes deixaram centenas de famílias sem moradia."],
+        altAnswers: ["As enchentes deixaram centenas de famílias sem casa.", "As inundações deixaram centenas de famílias desabrigadas.", "As enchentes deixaram centenas de famílias sem moradia."],
         explanation: "\"Desabrigados\" have lost their home; \"desalojados\" had to leave it, often temporarily.",
       },
       {

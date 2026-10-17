@@ -779,7 +779,7 @@ export const PT_C1_U04: Lesson[] = [
       {
         type: "dictation",
         audio: "Isso ocorre porque o acesso é desigual.",
-        explanation: "\"Isso ocorre porque\" introduces the cause. Mind the double c in \"acesso\" (spelled with c, then ss) and the accent on \"é\".",
+        explanation: "\"Isso ocorre porque\" introduces the cause. Mind the spelling of \"acesso\" (one c, then ss) and the accent on \"é\".",
       },
       {
         type: "translate",
@@ -799,7 +799,7 @@ export const PT_C1_U04: Lesson[] = [
         type: "speak",
         text: "Em primeiro lugar, a ausência de políticas públicas contribui para a persistência do problema.",
         prompt: "Say it in Portuguese: Firstly, the absence of public policies contributes to the persistence of the problem.",
-        tip: "Make the ão in \"ausência\" and \"persistência\" nasal on the stressed ê: au-ZÊN-cia, per-sis-TÊN-cia.",
+        tip: "Make the stressed ê nasal in \"ausência\" and \"persistência\": au-ZÊN-sia, per-sis-TÊN-sia.",
         explanation: "A model tópico frasal: an ordering connector, an agent (\"a ausência de políticas públicas\") and its effect.",
       },
       {
@@ -1842,7 +1842,7 @@ export const PT_C1_U04: Lesson[] = [
         sentence: "Se você ___ a proposta, a nota sobe bastante.",
         answer: "ajustar",
         altAnswers: ["corrigir", "consertar", "arrumar"],
-        explanation: "\"Se\" + future subjunctive for a real future condition. Regular verbs look like the infinitive: \"ajustar\". The present \"ajusta\" would be wrong after \"se\" here.",
+        explanation: "\"Se\" + future subjunctive for a real future condition. Regular verbs look like the infinitive: \"ajustar\". You may hear the present \"ajusta\" after \"se\" in casual speech, but the future subjunctive is the standard form for a future condition.",
       },
       {
         type: "word-order",

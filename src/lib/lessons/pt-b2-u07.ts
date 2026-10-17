@@ -479,7 +479,7 @@ export const PT_B2_U07: Lesson[] = [
         type: "speak",
         text: "Eu sei que é difícil. Mesmo assim, vale a pena tentar.",
         prompt: "Say it in Portuguese: I know it's hard. Even so, it's worth trying.",
-        tip: "The t in difícil is soft, and \"vale a pena\" runs together: va-li-a-pe-na.",
+        tip: "The di in difícil sounds like dji (dji-FI-siw), and \"vale a pena\" runs together: va-li-a-pe-na.",
         explanation: "\"Mesmo assim\" concedes the difficulty, and \"vale a pena\" + infinitive means it's worth doing.",
       },
       {
@@ -1350,7 +1350,7 @@ export const PT_B2_U07: Lesson[] = [
         type: "speak",
         text: "Embora seja longe, vale a pena ir.",
         prompt: "Say it in Portuguese: Although it's far, it's worth going.",
-        tip: "The \"lh\" sound isn't here, but watch \"longe\": the final -e sounds like i, and the \"g\" before e is soft, like the s in pleasure.",
+        tip: "In \"longe\" the o is nasal, the g before e is soft like the s in pleasure, and the final -e sounds like i: LÕ-ji.",
         explanation: "\"Embora\" + subjunctive \"seja\", even though the distance is a fact.",
       },
       {

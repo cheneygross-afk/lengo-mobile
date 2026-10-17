@@ -74,7 +74,7 @@ export const PT_B1_U24: Lesson[] = [
             question: "What does it mean?",
             options: ["The fever comes and goes.", "The fever has gone.", "The fever is getting worse.", "The fever came back once."],
             correctIndex: 0,
-            explanation: "\"Vai e volta\": literally goes and comes back.",
+            explanation: "\"Vai e volta\", literally goes and comes back, is the stock phrase for a symptom that comes and goes. \"Passou\" would mean it has gone.",
           },
         ],
       },
@@ -243,7 +243,7 @@ export const PT_B1_U24: Lesson[] = [
             source: "Do you have your SUS card yet?",
             answer: "Você já tem o cartão do SUS?",
             altAnswers: ["Já tem o cartão do SUS?", "Você já tem cartão do SUS?", "O senhor já tem o cartão do SUS?", "A senhora já tem o cartão do SUS?", "Você tem o cartão do SUS?"],
-            explanation: "\"Já\" in a question means yet or already.",
+            explanation: "\"Já\" in a question means yet or already: \"você já tem o cartão?\". Answer \"já\" (yes) or \"ainda não\" (not yet).",
           },
         ],
       },
@@ -330,7 +330,7 @@ export const PT_B1_U24: Lesson[] = [
         source: "My health plan is through my company.",
         answer: "O meu plano é da empresa.",
         altAnswers: ["Meu plano é da empresa.", "O meu plano de saúde é da empresa.", "Meu plano de saúde é da empresa.", "Meu convênio é da empresa.", "O meu convênio é da empresa.", "Tenho plano pela empresa."],
-        explanation: "\"Da empresa\": the company provides it.",
+        explanation: "\"Da empresa\" says the company provides the plan. \"Pela empresa\" (through the company) is also common.",
       },
       {
         type: "fill-blank",
@@ -354,7 +354,7 @@ export const PT_B1_U24: Lesson[] = [
         source: "Can you show me your plan card?",
         answer: "Pode me mostrar a carteirinha do plano?",
         altAnswers: ["Você pode me mostrar a carteirinha do plano?", "Pode me mostrar a sua carteirinha?", "Você pode me mostrar a sua carteirinha?", "O senhor pode me mostrar a carteirinha do plano?", "A senhora pode me mostrar a carteirinha do plano?", "Poderia me mostrar a carteirinha do plano?", "Pode me mostrar a carteirinha do convênio?"],
-        explanation: "The plan card is the \"carteirinha\".",
+        explanation: "The plan card is the \"carteirinha\", the little card with your plan number. Receptionists ask for it before anything else.",
       },
       {
         type: "translate",
@@ -391,7 +391,7 @@ export const PT_B1_U24: Lesson[] = [
         text: "É melhor que você vá à UPA agora.",
         prompt: "Say it in Portuguese: You'd better go to the UPA now.",
         tip: "Say UPA as a word, U-pa, not letter by letter.",
-        explanation: "\"É melhor que\" + subjunctive: \"ir\" → \"vá\".",
+        explanation: "\"É melhor que\" takes the subjunctive, and \"ir\" is irregular: \"vá\". In speech you'll also hear \"é melhor você ir\".",
       },
     ],
   },
@@ -496,7 +496,7 @@ export const PT_B1_U24: Lesson[] = [
             text: "Precisa fazer jejum de oito horas.",
             prompt: "Say it in Portuguese: You need to fast for eight hours.",
             tip: "\"Jejum\": both j's sound like the s in pleasure, and -jum ends nasal.",
-            explanation: "\"Fazer jejum\" is to fast before a test.",
+            explanation: "\"Fazer jejum\" is to fast before a test: \"jejum de oito horas\" means nothing to eat for eight hours.",
           },
         ],
       },
@@ -533,7 +533,7 @@ export const PT_B1_U24: Lesson[] = [
         question: "Your knee hurts after running. Which specialist do you book?",
         options: ["um ortopedista", "um pediatra", "um dermatologista", "um oftalmologista"],
         correctIndex: 0,
-        explanation: "Bones and joints: the \"ortopedista\".",
+        explanation: "Bones and joints belong to the \"ortopedista\". A \"pediatra\" treats children, and a \"dermatologista\" skin.",
       },
       {
         type: "translate",
@@ -542,7 +542,7 @@ export const PT_B1_U24: Lesson[] = [
         source: "The result comes out in two working days.",
         answer: "O resultado sai em dois dias úteis.",
         altAnswers: ["O resultado fica pronto em dois dias úteis.", "O resultado vai sair em dois dias úteis.", "O resultado sai em até dois dias úteis."],
-        explanation: "Results \"saem\" (come out).",
+        explanation: "Test results \"saem\" (come out): \"o resultado sai em dois dias úteis\". \"Ficar pronto\" also works.",
       },
       {
         type: "translate",
@@ -551,7 +551,7 @@ export const PT_B1_U24: Lesson[] = [
         source: "The doctor gave me a blood test form.",
         answer: "O médico me deu um pedido de exame de sangue.",
         altAnswers: ["A médica me deu um pedido de exame de sangue.", "O médico me passou um pedido de exame de sangue.", "A médica me passou um pedido de exame de sangue.", "O médico me pediu um exame de sangue.", "A médica me pediu um exame de sangue."],
-        explanation: "The lab form is the \"pedido de exame\".",
+        explanation: "The form you take to the lab is the \"pedido de exame\". \"Me deu\" or \"me passou\" both work for gave me.",
       },
       {
         type: "word-order",
@@ -579,7 +579,7 @@ export const PT_B1_U24: Lesson[] = [
         text: "Gostaria de marcar uma consulta com um clínico geral.",
         prompt: "Say it in Portuguese: I'd like to book an appointment with a GP.",
         tip: "\"Clínico\" is stressed on the first syllable: CLÍ-ni-co.",
-        explanation: "\"Marcar uma consulta\" with \"gostaria de\".",
+        explanation: "\"Gostaria de\" + \"marcar uma consulta\" is the polite way to book. A GP is a \"clínico geral\".",
       },
     ],
   },
@@ -705,7 +705,7 @@ export const PT_B1_U24: Lesson[] = [
         source: "Take on an empty stomach, in the morning.",
         answer: "Tomar em jejum, de manhã.",
         altAnswers: ["Tome em jejum, de manhã.", "Tomar em jejum pela manhã.", "Tome em jejum pela manhã.", "Tomar de manhã, em jejum."],
-        explanation: "\"Em jejum\" is on an empty stomach.",
+        explanation: "\"Em jejum\" is on an empty stomach, usually first thing in the morning. Instructions use the infinitive \"tomar\".",
       },
       {
         type: "translate",
@@ -755,7 +755,7 @@ export const PT_B1_U24: Lesson[] = [
         prompt: "Put the words in order to say: It's best if you avoid alcohol.",
         words: ["É", "bom", "que", "você", "evite", "bebida", "alcoólica."],
         translation: "It's best if you avoid alcohol.",
-        explanation: "\"É bom que\" + subjunctive \"evite\".",
+        explanation: "\"É bom que\" takes the subjunctive: \"evitar\" → \"evite\". It is a gentle way to give advice.",
       },
       {
         type: "translate",
@@ -855,7 +855,7 @@ export const PT_B1_U24: Lesson[] = [
             sentence: "Ele ___ direito.",
             answer: "não está respirando",
             altAnswers: ["não tá respirando"],
-            explanation: "What's happening right now: estar + gerund.",
+            explanation: "What's happening right now takes estar + gerund: \"não está respirando\". \"Direito\" here means properly.",
           },
           {
             type: "listen-choose",
@@ -863,7 +863,7 @@ export const PT_B1_U24: Lesson[] = [
             question: "What does it mean?",
             options: ["He's bleeding a lot.", "He's sweating a lot.", "He's breathing a lot.", "He's very scared."],
             correctIndex: 0,
-            explanation: "\"Sangrar\" is to bleed, from \"sangue\" (blood).",
+            explanation: "\"Sangrar\" is to bleed, from \"sangue\" (blood). Estar + gerund, \"está sangrando\", shows it is happening now.",
           },
         ],
       },
@@ -978,7 +978,7 @@ export const PT_B1_U24: Lesson[] = [
         type: "speak",
         text: "Ela caiu e bateu a cabeça.",
         prompt: "Say it in Portuguese: She fell and hit her head.",
-        tip: "\"Caiu\" is one syllable gliding from a to i: KAI-u.",
+        tip: "\"Caiu\" has two syllables, ca-IU: the stress falls on the i, which glides into the final u.",
         explanation: "Two events in the perfeito; the body part takes \"a\", not her.",
       },
     ],
@@ -1097,7 +1097,7 @@ export const PT_B1_U24: Lesson[] = [
         source: "I've had toothache since Saturday.",
         answer: "Estou com dor de dente desde sábado.",
         altAnswers: ["Eu estou com dor de dente desde sábado.", "Tô com dor de dente desde sábado.", "Estou com dor de dente desde o sábado."],
-        explanation: "Ongoing pain: \"estou com\" + \"desde\".",
+        explanation: "Pain that is still there takes the present \"estou com\" + \"desde\" + starting day. No perfeito composto needed.",
       },
       {
         type: "translate",
@@ -1161,7 +1161,7 @@ export const PT_B1_U24: Lesson[] = [
       {
         type: "dictation",
         audio: "Dói quando eu mastigo.",
-        explanation: "\"Dói\" from \"doer\"; \"mastigar\" is to chew.",
+        explanation: "\"Dói\" is the present of \"doer\", with the accent; \"mastigar\" is to chew. The thing that hurts is the subject.",
       },
       {
         type: "matching",
@@ -1173,7 +1173,7 @@ export const PT_B1_U24: Lesson[] = [
           { left: "a limpeza", right: "the cleaning" },
           { left: "o aparelho", right: "the braces" },
         ],
-        explanation: "The core words at a Brazilian dentist's.",
+        explanation: "The core words at a Brazilian dentist's. \"Aparelho\" is singular for braces, and \"obturação\" is also called \"restauração\".",
       },
     ],
   },
@@ -1249,7 +1249,7 @@ export const PT_B1_U24: Lesson[] = [
             sentence: "___ três dias com febre, mas agora estou bem.",
             answer: "Fiquei",
             altAnswers: ["Eu fiquei"],
-            explanation: "Finished stretch of time: perfeito \"fiquei\".",
+            explanation: "A finished stretch of time takes the perfeito: \"fiquei três dias com febre\". \"Mas agora estou bem\" confirms it's over.",
           },
           {
             type: "listen-choose",
@@ -1300,7 +1300,7 @@ export const PT_B1_U24: Lesson[] = [
         source: "I've been having chest pains.",
         answer: "Tenho sentido dores no peito.",
         altAnswers: ["Eu tenho sentido dores no peito.", "Tenho tido dores no peito.", "Eu tenho tido dores no peito.", "Tenho sentido dor no peito.", "Tenho tido dor no peito."],
-        explanation: "Repeated pain up to now: perfeito composto.",
+        explanation: "Pain that keeps coming back up to now takes the perfeito composto: \"tenho sentido\" or \"tenho tido dores\".",
       },
       {
         type: "translate",
@@ -1309,7 +1309,7 @@ export const PT_B1_U24: Lesson[] = [
         source: "I felt a pain in my chest yesterday.",
         answer: "Senti uma dor no peito ontem.",
         altAnswers: ["Eu senti uma dor no peito ontem.", "Ontem eu senti uma dor no peito.", "Ontem senti uma dor no peito.", "Senti dor no peito ontem."],
-        explanation: "\"Ontem\" marks one finished event: \"senti\".",
+        explanation: "\"Ontem\" marks one finished event, so the simple perfeito: \"senti\". The composto can't go with \"ontem\".",
       },
       {
         type: "translate",
@@ -1318,7 +1318,7 @@ export const PT_B1_U24: Lesson[] = [
         source: "I've been getting a fever every night.",
         answer: "Tenho tido febre toda noite.",
         altAnswers: ["Eu tenho tido febre toda noite.", "Tenho tido febre todas as noites.", "Eu tenho tido febre todas as noites.", "Tenho tido febre à noite."],
-        explanation: "\"Toda noite\" signals a pattern: \"tenho tido\".",
+        explanation: "\"Toda noite\" signals a repeated pattern up to now, so the composto: \"tenho tido febre toda noite\".",
       },
       {
         type: "fill-blank",
@@ -1326,7 +1326,7 @@ export const PT_B1_U24: Lesson[] = [
         en: "It [started] on Friday.",
         sentence: "___ na sexta.",
         answer: "Começou",
-        explanation: "A starting point is one event: perfeito.",
+        explanation: "When something started is one event, so the perfeito: \"começou na sexta\". \"Começava\" would describe a habit.",
       },
       {
         type: "multiple-choice",
@@ -1351,7 +1351,7 @@ export const PT_B1_U24: Lesson[] = [
         source: "I've been resting since Thursday.",
         answer: "Estou de repouso desde quinta.",
         altAnswers: ["Estou de repouso desde quinta-feira.", "Eu estou de repouso desde quinta.", "Estou descansando desde quinta.", "Eu estou descansando desde quinta.", "Estou em repouso desde quinta."],
-        explanation: "Still resting: present + \"desde\".",
+        explanation: "You are still resting, so the present + \"desde\": \"estou de repouso desde quinta\". English uses I've been.",
       },
       {
         type: "word-order",
@@ -1359,7 +1359,7 @@ export const PT_B1_U24: Lesson[] = [
         words: ["Ultimamente", "tenho", "dormido", "muito", "mal."],
         translation: "I've been sleeping badly lately.",
         altOrders: [["Tenho", "dormido", "muito", "mal", "ultimamente."]],
-        explanation: "\"Ultimamente\" + perfeito composto.",
+        explanation: "\"Ultimamente\" (lately) goes with the perfeito composto: \"tenho dormido\". It can go first or last.",
       },
       {
         type: "dictation",
@@ -1371,7 +1371,7 @@ export const PT_B1_U24: Lesson[] = [
         text: "Senti uma dor ontem, mas hoje estou bem.",
         prompt: "Say it in Portuguese: I felt a pain yesterday, but today I'm fine.",
         tip: "\"Senti\": the t before i sounds like ch, sen-CHI.",
-        explanation: "One episode \"senti\", then the present for now.",
+        explanation: "One episode in the past takes \"senti\", then the present \"estou bem\" for now. The contrast shows it's over.",
       },
     ],
   },
@@ -1437,7 +1437,7 @@ export const PT_B1_U24: Lesson[] = [
             sentence: "___ febre todo dia.",
             answer: "Tenho tido",
             altAnswers: ["Eu tenho tido"],
-            explanation: "A daily pattern up to now: \"tenho tido\".",
+            explanation: "A daily pattern up to now: \"tenho tido febre todo dia\". \"Ter\" + \"tido\" sounds odd but is normal.",
           },
           {
             type: "translate",
@@ -1500,7 +1500,7 @@ export const PT_B1_U24: Lesson[] = [
         source: "What are you feeling? (to a woman)",
         answer: "O que a senhora está sentindo?",
         altAnswers: ["O que você está sentindo?", "A senhora está sentindo o quê?", "Você está sentindo o quê?", "O que a senhora sente?"],
-        explanation: "Estar + gerund for symptoms right now.",
+        explanation: "Estar + gerund asks about symptoms right now: \"o que a senhora está sentindo?\". \"O que a senhora sente?\" is also fine.",
       },
       {
         type: "translate",
@@ -1524,7 +1524,7 @@ export const PT_B1_U24: Lesson[] = [
         question: "The doctor asks \"O senhor tem sentido dor atrás dos olhos?\" You have. What do you answer?",
         options: ["Tenho.", "Sinto ontem.", "Tive sentido.", "Sou."],
         correctIndex: 0,
-        explanation: "Answer yes by repeating the auxiliary: \"tenho\".",
+        explanation: "Answer yes by repeating the auxiliary: \"tenho\". \"Sinto ontem\" mixes tenses, and \"tive sentido\" is not how Brazilians answer this.",
       },
       {
         type: "translate",
@@ -1542,7 +1542,7 @@ export const PT_B1_U24: Lesson[] = [
         source: "Don't take anti-inflammatories, only paracetamol.",
         answer: "Não tome anti-inflamatório, só o paracetamol.",
         altAnswers: ["Não tome anti-inflamatório, só paracetamol.", "Não tome anti-inflamatórios, só paracetamol.", "Não tome anti-inflamatório, apenas paracetamol.", "Não toma anti-inflamatório, só paracetamol."],
-        explanation: "The formal negative imperative: \"não tome\".",
+        explanation: "The formal negative imperative: \"não tome\". Doctors also use the spoken \"não toma\".",
       },
       {
         type: "word-order",
@@ -1563,7 +1563,7 @@ export const PT_B1_U24: Lesson[] = [
       {
         type: "dictation",
         audio: "O que o senhor está sentindo?",
-        explanation: "The first question at any triagem.",
+        explanation: "\"O que o senhor está sentindo?\" is the first question at any triagem. Answer with \"estou com\" + symptom.",
       },
       {
         type: "speak",
@@ -1705,7 +1705,7 @@ export const PT_B1_U24: Lesson[] = [
         source: "I joined the plan in March.",
         answer: "Eu entrei no plano em março.",
         altAnswers: ["Entrei no plano em março.", "Eu aderi ao plano em março.", "Eu contratei o plano em março.", "Contratei o plano em março."],
-        explanation: "A date in the past: the perfeito \"entrei\".",
+        explanation: "A dated event in the past takes the perfeito: \"entrei no plano em março\". \"Contratei\" is also common.",
       },
       {
         type: "fill-blank",
@@ -1738,7 +1738,7 @@ export const PT_B1_U24: Lesson[] = [
         source: "Unfortunately you're still in the waiting period. (to a woman)",
         answer: "Infelizmente a senhora ainda está na carência.",
         altAnswers: ["Infelizmente você ainda está na carência.", "Infelizmente a senhora está na carência ainda.", "Infelizmente você está na carência ainda."],
-        explanation: "\"Ainda\" before the verb for still.",
+        explanation: "\"Ainda\" before the verb means still: \"ainda está na carência\". It can also come after: \"está na carência ainda\".",
       },
       {
         type: "word-order",
@@ -1759,7 +1759,7 @@ export const PT_B1_U24: Lesson[] = [
       {
         type: "dictation",
         audio: "O meu plano cobre esse exame?",
-        explanation: "\"Cobrir\" → \"cobre\": the plan covers.",
+        explanation: "\"Cobrir\" → \"cobre\": the plan covers the test. The participle is irregular: \"coberto\".",
       },
       {
         type: "speak",
@@ -1842,7 +1842,7 @@ export const PT_B1_U24: Lesson[] = [
             sentence: "Tomar um comprimido ___.",
             answer: "de oito em oito horas",
             altAnswers: ["de 8 em 8 horas", "a cada oito horas", "a cada 8 horas"],
-            explanation: "\"De oito em oito horas\": every eight hours.",
+            explanation: "\"De oito em oito horas\" means every eight hours; \"a cada oito horas\" is also correct. \"De 8 a 8\" would mean from 8 to 8.",
           },
           {
             type: "listen-choose",
@@ -1874,7 +1874,7 @@ export const PT_B1_U24: Lesson[] = [
             source: "I've got a headache.",
             answer: "Estou com dor de cabeça.",
             altAnswers: ["Eu estou com dor de cabeça.", "Tô com dor de cabeça.", "Estou com uma dor de cabeça."],
-            explanation: "The set phrase is \"estar com dor de cabeça\".",
+            explanation: "The set phrase is \"estar com dor de cabeça\". \"Tenho uma dor na minha cabeça\" is grammatical but nobody says it.",
           },
           {
             type: "translate",
@@ -1883,7 +1883,7 @@ export const PT_B1_U24: Lesson[] = [
             source: "Does this medicine need a prescription?",
             answer: "Esse remédio precisa de receita?",
             altAnswers: ["Este remédio precisa de receita?", "Precisa de receita para esse remédio?", "Esse medicamento precisa de receita?", "Precisa de receita?"],
-            explanation: "In conversation, a prescription is a \"receita\".",
+            explanation: "In conversation a prescription is a \"receita\". \"Prescrição\" belongs on boxes and leaflets.",
           },
         ],
       },
@@ -1896,7 +1896,7 @@ export const PT_B1_U24: Lesson[] = [
         source: "I've been ill since Monday.",
         answer: "Estou doente desde segunda.",
         altAnswers: ["Estou doente desde segunda-feira.", "Eu estou doente desde segunda.", "Eu estou doente desde segunda-feira."],
-        explanation: "\"Desde\" + starting point, with the present.",
+        explanation: "\"Desde\" + a starting point (\"segunda\"), with the present because you are still ill.",
       },
       {
         type: "translate",
@@ -1959,14 +1959,14 @@ export const PT_B1_U24: Lesson[] = [
       {
         type: "dictation",
         audio: "Estou com dor de cabeça.",
-        explanation: "The set phrase for a headache.",
+        explanation: "\"Estou com dor de cabeça\" is the set phrase for a headache: estar com + dor de + body part.",
       },
       {
         type: "speak",
         text: "Faz três dias que estou doente.",
         prompt: "Say it in Portuguese: I've been ill for three days.",
         tip: "\"Doente\": do-EN-te, with the final te like chi.",
-        explanation: "\"Faz\" + time + \"que\" + present.",
+        explanation: "\"Faz\" + time + \"que\" + present: the illness started three days ago and is still going on.",
       },
     ],
   },
@@ -2094,7 +2094,7 @@ export const PT_B1_U24: Lesson[] = [
         source: "Are you allergic to any medicines? (to a man)",
         answer: "O senhor tem alguma alergia a medicamentos?",
         altAnswers: ["Você tem alguma alergia a medicamentos?", "O senhor é alérgico a algum medicamento?", "Você é alérgico a algum medicamento?", "O senhor tem alergia a algum remédio?", "Você tem alergia a algum remédio?", "O senhor tem alergia a algum medicamento?"],
-        explanation: "\"Ter alergia a\" or \"ser alérgico a\".",
+        explanation: "\"Ter alergia a\" or \"ser alérgico a\". \"Alguma\" in the question means any.",
       },
       {
         type: "translate",
@@ -2103,7 +2103,7 @@ export const PT_B1_U24: Lesson[] = [
         source: "My father has diabetes and high blood pressure.",
         answer: "Meu pai tem diabetes e pressão alta.",
         altAnswers: ["O meu pai tem diabetes e pressão alta.", "Meu pai tem diabetes e hipertensão.", "O meu pai tem diabetes e hipertensão."],
-        explanation: "A living relative's condition: present \"tem\".",
+        explanation: "A living relative's condition takes the present \"tem\". For a past illness, \"teve\".",
       },
       {
         type: "fill-blank",
@@ -2157,7 +2157,7 @@ export const PT_B1_U24: Lesson[] = [
       {
         type: "dictation",
         audio: "Passei mal ontem e fui ao médico.",
-        explanation: "\"Passar mal\": to feel or be taken ill.",
+        explanation: "\"Passar mal\" is the everyday way to say you felt or were taken ill. Two events follow in the perfeito.",
       },
       {
         type: "translate",
@@ -2207,7 +2207,7 @@ export const PT_B1_U24: Lesson[] = [
             question: "What does it mean?",
             options: ["This itching hasn't gone away for ten days.", "The itching went away ten days ago.", "The itching lasted ten days.", "In ten days the itching will go away."],
             correctIndex: 0,
-            explanation: "\"Faz\" + time + present: still going on.",
+            explanation: "\"Faz\" + time + present: the itching is still going on. \"Não passa\" means it won't go away.",
           },
         ],
       },
@@ -2237,7 +2237,7 @@ export const PT_B1_U24: Lesson[] = [
             text: "Recomendo que a senhora tome o remédio em jejum.",
             prompt: "Say it in Portuguese: I recommend you take the medicine on an empty stomach. (to a woman)",
             tip: "Link \"em jejum\" into one nasal flow: ein-je-JUM.",
-            explanation: "\"Recomendar que\" + subjunctive \"tome\".",
+            explanation: "\"Recomendar que\" + subjunctive: \"tomar\" → \"tome\". \"Em jejum\" is on an empty stomach.",
           },
         ],
       },
@@ -2269,7 +2269,7 @@ export const PT_B1_U24: Lesson[] = [
             sentence: "___ dor quando mastigo.",
             answer: "Tenho sentido",
             altAnswers: ["Tenho tido", "Eu tenho sentido", "Eu tenho tido"],
-            explanation: "A repeated pain lately: perfeito composto.",
+            explanation: "A pain that keeps coming back lately takes the perfeito composto: \"tenho sentido\" or \"tenho tido\".",
           },
         ],
       },
@@ -2282,7 +2282,7 @@ export const PT_B1_U24: Lesson[] = [
         source: "Last night I was short of breath.",
         answer: "Ontem à noite tive falta de ar.",
         altAnswers: ["Ontem à noite eu tive falta de ar.", "Tive falta de ar ontem à noite.", "Ontem à noite senti falta de ar.", "Ontem de noite tive falta de ar.", "Eu tive falta de ar ontem à noite."],
-        explanation: "One night: the perfeito \"tive\" or \"senti\".",
+        explanation: "One night is one episode, so the perfeito: \"tive\" or \"senti\" falta de ar.",
       },
       {
         type: "translate",
@@ -2308,7 +2308,7 @@ export const PT_B1_U24: Lesson[] = [
         source: "I've had a sore throat since Saturday.",
         answer: "Estou com dor de garganta desde sábado.",
         altAnswers: ["Eu estou com dor de garganta desde sábado.", "Estou com dor de garganta desde o sábado.", "Tô com dor de garganta desde sábado."],
-        explanation: "Still sore: present + \"desde\".",
+        explanation: "The throat is still sore, so the present + \"desde\": \"estou com dor de garganta desde sábado\".",
       },
       {
         type: "translate",
@@ -2324,7 +2324,7 @@ export const PT_B1_U24: Lesson[] = [
         question: "Which sentence fits a single event?",
         options: ["Ela desmaiou na fila do banco.", "Ela tem desmaiado na fila do banco.", "Faz uma semana que ela desmaia.", "Ela tem tido desmaiado."],
         correctIndex: 0,
-        explanation: "One event: the perfeito \"desmaiou\".",
+        explanation: "One event takes the perfeito \"desmaiou\". \"Tem desmaiado\" would mean it keeps happening.",
       },
       {
         type: "translate",
@@ -2340,7 +2340,7 @@ export const PT_B1_U24: Lesson[] = [
         prompt: "Put the words in order to say: Is there a generic version of this medicine?",
         words: ["Tem", "genérico", "desse", "remédio?"],
         translation: "Is there a generic version of this medicine?",
-        explanation: "The everyday pharmacy question.",
+        explanation: "\"Tem genérico desse remédio?\" is the everyday pharmacy question. \"Tem\" here means is there.",
       },
       {
         type: "translate",
@@ -2354,7 +2354,7 @@ export const PT_B1_U24: Lesson[] = [
       {
         type: "dictation",
         audio: "Tenho sentido muito cansaço.",
-        explanation: "\"Tenho sentido\": a pattern lately.",
+        explanation: "\"Tenho sentido\" describes a pattern lately. Note the spelling: \"cansaço\" with ç.",
       },
       {
         type: "matching",
@@ -2366,7 +2366,7 @@ export const PT_B1_U24: Lesson[] = [
           { left: "a receita", right: "the prescription" },
           { left: "a bula", right: "the medicine leaflet" },
         ],
-        explanation: "Key places and papers from across the unit.",
+        explanation: "Key places and papers from across the unit: where to go (posto, pronto-socorro) and what you take away (atestado, receita, bula).",
       },
     ],
   },

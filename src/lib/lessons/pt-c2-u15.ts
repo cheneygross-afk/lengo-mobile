@@ -271,7 +271,7 @@ export const PT_C2_U15: Lesson[] = [
       {
         type: "dictation",
         audio: "A primeira frase já estabelece o tom.",
-        explanation: "\"Estabelece\" has four syllables, es-ta-be-LE-ce. \"Tom\" ends in a nasal vowel, with no m sound.",
+        explanation: "\"Estabelece\" has five syllables, es-ta-be-LE-ce. \"Tom\" ends in a nasal vowel, with no m sound.",
       },
       {
         type: "speak",
@@ -2266,7 +2266,7 @@ export const PT_C2_U15: Lesson[] = [
               "The driver brakes, the whole bus screams, and nobody moves.",
               "The driver braked, and everyone on the bus got off.",
               "The driver shouts at the whole bus to keep still.",
-              "The bus brakes down, and nobody helps.",
+              "The bus breaks down, and nobody helps.",
             ],
             correctIndex: 0,
             explanation: "The historical present, \"freia\", \"grita\", \"se mexe\", gives the scene the speed of the moment. \"O ônibus inteiro\" is metonymy for the passengers.",
@@ -3085,7 +3085,7 @@ export const PT_C2_U15: Lesson[] = [
           {
             type: "speak",
             text: "Segue em anexo o conto, inscrito sob o pseudônimo Maré.",
-            tip: "\"Pseudônimo\": the p is pronounced, pse-u-DÔ-ni-mo, with a closed ô.",
+            tip: "\"Pseudônimo\": the p is pronounced, pseu-DÔ-ni-mo, with a closed ô; many Brazilians slip in a light i: pi-seu-DÔ-ni-mo.",
             explanation: "\"Segue em anexo\" is the standard formula for please find attached; the verb agrees with what is attached.",
           },
         ],

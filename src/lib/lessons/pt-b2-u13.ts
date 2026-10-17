@@ -534,7 +534,7 @@ export const PT_B2_U13: Lesson[] = [
       {
         heading: "Proposta, contraproposta, prazo, condições",
         body: [
-          "A negotiation runs on a handful of nouns. You \"fazer uma proposta\" (make an offer). The other side can \"aceitar\" it, \"recusar\" it or come back with \"uma contraproposta\" (a counteroffer). When both sides agree, you \"fechar negócio\" or \"fechar o contrato\".",
+          "A negotiation runs on a handful of nouns. You make an offer (\"fazer uma proposta\"). The other side can accept it (\"aceitar\"), turn it down (\"recusar\") or come back with \"uma contraproposta\" (a counteroffer). When both sides agree, you \"fechar negócio\" or \"fechar o contrato\".",
           "\"O prazo\" is a deadline or time frame: \"o prazo de entrega\" (delivery time), \"cumprir o prazo\" (meet the deadline), \"prorrogar o prazo\" (extend it). \"As condições\" are the terms, above all \"as condições de pagamento\". Payment can be \"à vista\" (in full, up front) or \"parcelado\" (in instalments, as in \"em seis vezes\").",
           "Trap: \"o negócio\" is the deal or the business, not the negotiation, which is \"a negociação\". In a business deal Brazilians usually say \"proposta\". \"Oferta\" suggests a special price in a shop.",
         ],

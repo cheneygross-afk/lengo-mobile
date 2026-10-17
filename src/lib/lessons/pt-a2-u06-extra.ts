@@ -35,6 +35,7 @@ export const PT_A2_U06_EXTRA: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "He called me yesterday.",
             answer: "Ele me ligou ontem.",
+            altAnswers: ["Ontem ele me ligou.", "Ele ligou pra mim ontem.", "Ele ligou para mim ontem."],
             explanation: "\"Me\" before the verb: \"ele me ligou\".",
           },
           {
@@ -63,7 +64,7 @@ export const PT_A2_U06_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "I love you.",
         answer: "Eu te amo.",
-        altAnswers: ["Te amo."],
+        altAnswers: ["Te amo.", "Eu amo você.", "Amo você."],
         explanation: "\"Te amo\" is how every Brazilian says it; \"amo-te\" sounds European.",
       },
       {
@@ -90,7 +91,7 @@ export const PT_A2_U06_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "Did they see you? (to a friend)",
         answer: "Eles te viram?",
-        altAnswers: ["Elas te viram?"],
+        altAnswers: ["Elas te viram?", "Eles viram você?", "Elas viram você?"],
         explanation: "\"Te\" before \"viram\".",
       },
       {
@@ -138,6 +139,7 @@ export const PT_A2_U06_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: I'll call you later.",
         words: ["Eu", "te", "ligo", "mais", "tarde."],
+        altOrders: [["Mais", "tarde", "eu", "te", "ligo."]],
         translation: "I'll call you later.",
         explanation: "\"Te\" sits right before \"ligo\".",
       },
@@ -204,7 +206,7 @@ export const PT_A2_U06_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "We need to call [her]. (formal email)",
+            en: "We need to [call her]. (formal email)",
             sentence: "Precisamos ___.",
             answer: "ligar para ela",
             altAnswers: ["telefonar para ela", "contatá-la"],
@@ -295,6 +297,7 @@ export const PT_A2_U06_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: I'm going to visit her on Sunday. (speech)",
         words: ["Vou", "visitar", "ela", "no", "domingo."],
+        altOrders: [["No", "domingo", "vou", "visitar", "ela."]],
         translation: "I'm going to visit her on Sunday.",
         explanation: "Speech: \"visitar ela\". Writing would be \"visitá-la\".",
       },
@@ -363,6 +366,7 @@ export const PT_A2_U06_EXTRA: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "Do you want to come with me?",
             answer: "Você quer vir comigo?",
+            altAnswers: ["Quer vir comigo?"],
             explanation: "\"Com\" + \"mim\" fuses into \"comigo\".",
           },
           {

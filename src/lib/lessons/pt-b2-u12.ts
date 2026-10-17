@@ -1619,7 +1619,7 @@ export const PT_B2_U12: Lesson[] = [
         type: "speak",
         text: "É inegável que a leitura desenvolve o senso crítico.",
         prompt: "Say it in Portuguese: It is undeniable that reading develops critical thinking.",
-        tip: "Keep the é in \"crítico\" short and stressed: CRÍ-ti-ku, with the t staying hard before the unstressed i written as i.",
+        tip: "Keep the é in \"crítico\" short and stressed: CRÍ-tchi-ku: the t before i sounds like the ch in cheese, as in most of Brazil.",
         explanation: "\"É inegável que\" + indicative \"desenvolve\": a fact-style thesis that replaces \"eu acho que ler é importante\".",
       },
     ],

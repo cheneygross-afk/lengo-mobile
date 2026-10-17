@@ -16,7 +16,7 @@ export const PT_B1_U25: Lesson[] = [
         body: [
           "You now have five ways to talk about the past. A good story uses most of them, and each one answers a different question. The perfeito answers what happened next?: \"o telefone tocou\", \"eu atendi\". These are the events that move the plot forward, one after the other.",
           "The imperfeito answers what was it like?: the time, the weather, how people felt, what usually happened (\"era domingo\", \"fazia frio\", \"eu estava cansado\"). \"Estava\" + gerúndio answers what was going on at that moment?: \"eu estava cozinhando quando o telefone tocou\". The action in progress is the frame; the perfeito cuts into it.",
-          "English has the same split (it rang / I was cooking), but English often uses the simple past for background too (it was cold, I lived in Recife). Portuguese never does: background is always the imperfeito.",
+          "English has the same split (it rang / I was cooking), but English often uses the simple past for background too (it was cold, I lived in Recife). Portuguese keeps them apart: scene-setting background is always the imperfeito.",
         ],
         examples: [
           { es: "Era domingo e fazia frio em Curitiba.", en: "It was Sunday and it was cold in Curitiba." },
@@ -152,7 +152,7 @@ export const PT_B1_U25: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "We were having dinner when the power went out.",
         answer: "A gente estava jantando quando a luz acabou.",
-        altAnswers: ["Nós estávamos jantando quando a luz acabou.", "Estávamos jantando quando a luz acabou.", "A gente estava jantando quando acabou a luz.", "Nós estávamos jantando quando acabou a luz.", "Estávamos jantando quando acabou a luz.", "A gente estava jantando quando faltou luz.", "Estávamos jantando quando faltou luz."],
+        altAnswers: ["Nós estávamos jantando quando a luz acabou.", "Estávamos jantando quando a luz acabou.", "A gente estava jantando quando acabou a luz.", "Nós estávamos jantando quando acabou a luz.", "Estávamos jantando quando acabou a luz.", "A gente estava jantando quando faltou luz.", "Nós estávamos jantando quando faltou luz.", "Estávamos jantando quando faltou luz.", "A gente estava jantando quando a energia acabou.", "Estávamos jantando quando a energia acabou."],
         explanation: "Dinner in progress: \"estava jantando\". The interruption is the perfeito. Brazilians say \"a luz acabou\" or \"faltou luz\" for a power cut.",
       },
       {
@@ -1729,7 +1729,7 @@ export const PT_B1_U25: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "I was getting off the bus when it started to pour.",
             answer: "Eu estava descendo do ônibus quando começou a chover forte.",
-            altAnswers: ["Estava descendo do ônibus quando começou a chover forte.", "Eu estava descendo do ônibus quando caiu uma chuva forte.", "Estava descendo do ônibus quando caiu uma chuva forte.", "Eu estava descendo do ônibus quando começou a chover muito.", "Eu estava saindo do ônibus quando começou a chover forte."],
+            altAnswers: ["Estava descendo do ônibus quando começou a chover forte.", "Eu estava descendo do ônibus quando caiu uma chuva forte.", "Estava descendo do ônibus quando caiu uma chuva forte.", "Eu estava descendo do ônibus quando caiu uma chuva fortíssima.", "Estava descendo do ônibus quando caiu uma chuva fortíssima.", "Eu estava descendo do ônibus quando caiu um temporal.", "Eu estava descendo do ônibus quando começou a chover muito.", "Eu estava saindo do ônibus quando começou a chover forte."],
             explanation: "\"Estava descendo\" is the frame; the rain starting is the event in the perfeito.",
           },
           {

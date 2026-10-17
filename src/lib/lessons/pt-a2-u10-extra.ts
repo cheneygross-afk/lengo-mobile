@@ -116,11 +116,11 @@ export const PT_A2_U10_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Call [your] father. (casual)",
-        sentence: "Liga ___ seu pai.",
+        en: "Send a message [to] your father. (casual)",
+        sentence: "Manda uma mensagem ___ seu pai.",
         answer: "pro",
         altAnswers: ["para o"],
-        explanation: "\"Para o\" shrinks to \"pro\" in speech.",
+        explanation: "\"Para o\" shrinks to \"pro\" in speech. The o is the article before \"seu pai\", so to your father is \"pro seu pai\".",
       },
       {
         type: "fill-blank",
@@ -463,6 +463,7 @@ export const PT_A2_U10_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: I've lived in Belém since 2019.",
         words: ["Moro", "em", "Belém", "desde", "2019."],
+        altOrders: [["Desde", "2019", "moro", "em", "Belém."]],
         translation: "I've lived in Belém since 2019.",
         explanation: "Present + \"desde\" + a starting point.",
       },

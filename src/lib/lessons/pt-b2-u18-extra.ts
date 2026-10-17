@@ -63,7 +63,7 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
         source: "Do you accept rental insurance? (to the agent)",
         answer: "Vocês aceitam seguro-fiança?",
         altAnswers: ["A imobiliária aceita seguro-fiança?", "O senhor aceita seguro-fiança?", "A senhora aceita seguro-fiança?", "Vocês aceitam o seguro-fiança?", "Aceitam seguro-fiança?"],
-        explanation: "\"Vocês\" for the agency as a whole.",
+        explanation: "\"Seguro-fiança\" is rental guarantee insurance; \"vocês\" addresses the agency as a whole.",
       },
       {
         type: "translate",
@@ -72,7 +72,7 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
         source: "The rent will be adjusted every year.",
         answer: "O aluguel será reajustado todo ano.",
         altAnswers: ["O aluguel será reajustado anualmente.", "O aluguel vai ser reajustado todo ano.", "O aluguel vai ser reajustado anualmente.", "O aluguel será reajustado todos os anos.", "O aluguel tem reajuste anual."],
-        explanation: "\"Reajustar\" = to adjust (usually upwards).",
+        explanation: "\"Reajustar\" means to adjust a price, usually upwards; \"será reajustado\" is a passive agreeing with \"o aluguel\".",
       },
       {
         type: "translate",
@@ -90,7 +90,7 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
         source: "There's mould on the bedroom wall.",
         answer: "Tem mofo na parede do quarto.",
         altAnswers: ["Há mofo na parede do quarto.", "A parede do quarto está com mofo.", "A parede do quarto está mofada.", "Apareceu mofo na parede do quarto."],
-        explanation: "\"Tem\" is the everyday there is.",
+        explanation: "In speech, \"tem\" is the everyday way to say there is; \"há\" is more formal.",
       },
       {
         type: "translate",
@@ -134,7 +134,7 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
         sentence: "O horário de silêncio ___ às dez.",
         answer: "começa",
         altAnswers: ["inicia"],
-        explanation: "\"Começar\" for when something starts.",
+        explanation: "\"Começar\" says when something starts; the subject \"o horário\" is singular, so \"começa\".",
       },
       {
         type: "fill-blank",
@@ -142,21 +142,21 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
         en: "As soon as you [can], let me know. (formal)",
         sentence: "Assim que o senhor ___, me avise.",
         answer: "puder",
-        explanation: "\"Puder\": future subjunctive of \"poder\".",
+        explanation: "\"Assim que\" with a future meaning takes the future subjunctive: \"poder\" becomes \"puder\".",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: The property tax is paid by the tenant.",
         words: ["O IPTU", "fica", "por conta", "do locatário."],
         translation: "The property tax is paid by the tenant.",
-        explanation: "\"Ficar por conta de\" = to be someone's responsibility.",
+        explanation: "\"Ficar por conta de\" means to be someone's responsibility: \"o IPTU fica por conta do locatário\".",
       },
       {
         type: "multiple-choice",
         question: "Which clause is correct?",
         options: ["Se houver danos, o valor será descontado da caução.", "Caso houver danos, o valor será descontado da caução.", "Se haja danos, o valor será descontado da caução.", "Caso há danos, o valor será descontado da caução."],
         correctIndex: 0,
-        explanation: "\"Se houver\" or \"caso haja\".",
+        explanation: "\"Se\" takes the future subjunctive (\"se houver\"), while \"caso\" takes the present subjunctive (\"caso haja\").",
       },
       {
         type: "dictation",
@@ -217,7 +217,7 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
             type: "speak",
             text: "Já é a segunda vez que eu ligo.",
             tip: "Segunda: se-GUN-da, the u is nasal.",
-            explanation: "\"É a segunda vez que\" + present.",
+            explanation: "\"Já é a segunda vez que\" + present says this is the second time it has happened, a firm but polite complaint.",
           },
         ],
       },
@@ -248,7 +248,7 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
         source: "The product is still under warranty.",
         answer: "O produto ainda está na garantia.",
         altAnswers: ["O produto ainda está dentro da garantia.", "O produto ainda tem garantia.", "O produto ainda está no prazo de garantia."],
-        explanation: "\"Estar na garantia\" = to be under warranty.",
+        explanation: "\"Estar na garantia\" means to be under warranty; \"ainda\" goes before the verb.",
       },
       {
         type: "translate",
@@ -257,7 +257,7 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
         source: "I don't want store credit; I want my money back.",
         answer: "Não quero vale-troca; quero meu dinheiro de volta.",
         altAnswers: ["Não quero vale-troca; quero o meu dinheiro de volta.", "Eu não quero vale-troca; quero meu dinheiro de volta.", "Não quero crédito na loja; quero meu dinheiro de volta.", "Não quero vale-troca, quero meu dinheiro de volta.", "Não quero vale-troca; quero o reembolso.", "Não quero crédito; quero meu dinheiro de volta."],
-        explanation: "\"Dinheiro de volta\" = money back.",
+        explanation: "\"Vale-troca\" is store credit, and \"dinheiro de volta\" is money back.",
       },
       {
         type: "translate",
@@ -275,7 +275,7 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
         source: "Could you give me the reference number?",
         answer: "Poderia me passar o número do protocolo?",
         altAnswers: ["O senhor poderia me passar o número do protocolo?", "A senhora poderia me passar o número do protocolo?", "Você poderia me passar o número do protocolo?", "Pode me passar o número do protocolo?", "Poderia me passar o protocolo?", "Pode me passar o protocolo?"],
-        explanation: "\"Passar\" for giving information on the phone.",
+        explanation: "\"Passar\" is the usual verb for giving information on the phone, and \"o número do protocolo\" is the reference number.",
       },
       {
         type: "translate",
@@ -284,7 +284,7 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
         source: "If there's no reply by Friday, I'll go to Procon.",
         answer: "Se não houver resposta até sexta, vou ao Procon.",
         altAnswers: ["Se não houver resposta até sexta, eu vou ao Procon.", "Se não houver resposta até sexta-feira, vou ao Procon.", "Caso não haja resposta até sexta, vou ao Procon.", "Se não houver resposta até sexta, vou procurar o Procon.", "Se não houver retorno até sexta, vou ao Procon.", "Se não tiver resposta até sexta, vou no Procon."],
-        explanation: "\"Houver\": future subjunctive of \"haver\".",
+        explanation: "\"Se\" + future subjunctive for a future condition: \"haver\" becomes \"houver\". Procon is the consumer protection agency.",
       },
       {
         type: "fill-blank",
@@ -293,7 +293,7 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
         sentence: "Pediram que eu ___ a nota fiscal.",
         answer: "enviasse",
         altAnswers: ["mandasse"],
-        explanation: "Past \"pediram que\" + imperfect subjunctive.",
+        explanation: "A past request (\"pediram que\") takes the imperfect subjunctive: \"enviasse\".",
       },
       {
         type: "fill-blank",
@@ -302,7 +302,7 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
         sentence: "Solicito que o valor ___ integralmente.",
         answer: "seja estornado",
         altAnswers: ["seja devolvido", "seja reembolsado"],
-        explanation: "\"Solicito que\" + present subjunctive passive.",
+        explanation: "\"Solicito que\" takes the present subjunctive, here in the passive: \"seja estornado\", agreeing with \"o valor\".",
       },
       {
         type: "fill-blank",
@@ -311,21 +311,21 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
         sentence: "Eu gostaria de ___ com o gerente.",
         answer: "falar",
         altAnswers: ["conversar"],
-        explanation: "\"Gostaria de\" + infinitive.",
+        explanation: "\"Gostaria de\" + infinitive is a polite request; don't drop the \"de\".",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: I filed a complaint against the company.",
         words: ["Registrei", "uma reclamação", "contra", "a empresa."],
         translation: "I filed a complaint against the company.",
-        explanation: "A complaint \"contra\" a company.",
+        explanation: "\"Registrar uma reclamação contra\" a company is the standard phrase for filing a complaint.",
       },
       {
         type: "multiple-choice",
         question: "Which sentence is firm but not rude?",
         options: ["É a terceira vez que o pedido atrasa; preciso de uma solução até amanhã.", "Vocês são uns incompetentes.", "Vocês só sabem enrolar.", "Que empresa ridícula!"],
         correctIndex: 0,
-        explanation: "Facts and a deadline, no insults.",
+        explanation: "A firm complaint states facts and sets a deadline; insults like \"incompetentes\" or \"ridícula\" weaken it.",
       },
       {
         type: "listen-choose",
@@ -339,7 +339,7 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
         type: "speak",
         text: "Não quero vale-troca; quero meu dinheiro de volta.",
         prompt: "Say it in Portuguese: I don't want store credit; I want my money back.",
-        explanation: "Refuse the alternative, restate the request.",
+        explanation: "Refuse the alternative (\"não quero vale-troca\") and restate what you want (\"quero meu dinheiro de volta\").",
       },
     ],
   },
@@ -381,7 +381,7 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
             question: "Your phone disappeared from your table at a café, and you didn't see who took it. What do you report?",
             options: ["Furto", "Roubo", "Golpe", "Clonagem"],
             correctIndex: 0,
-            explanation: "No violence or threat: \"furto\".",
+            explanation: "Theft without violence or threat is \"furto\"; \"roubo\" involves violence or a threat.",
           },
           {
             type: "listen-choose",
@@ -402,7 +402,7 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
         source: "I think I fell for a scam.",
         answer: "Acho que caí num golpe.",
         altAnswers: ["Acho que eu caí num golpe.", "Acho que caí em um golpe.", "Acho que eu caí em um golpe.", "Acho que levei um golpe.", "Acho que sofri um golpe."],
-        explanation: "\"Cair num golpe\" or \"levar um golpe\".",
+        explanation: "\"Cair num golpe\" or \"levar um golpe\" means to fall for a scam.",
       },
       {
         type: "translate",
@@ -411,7 +411,7 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
         source: "I'd like to dispute this purchase.",
         answer: "Gostaria de contestar esta compra.",
         altAnswers: ["Eu gostaria de contestar esta compra.", "Gostaria de contestar essa compra.", "Eu gostaria de contestar essa compra.", "Quero contestar esta compra.", "Quero contestar essa compra."],
-        explanation: "\"Contestar\" = to dispute a charge.",
+        explanation: "\"Contestar\" is the verb for disputing a charge with your bank or card company.",
       },
       {
         type: "translate",
@@ -420,7 +420,7 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
         source: "My wallet was stolen on the metro.",
         answer: "Furtaram minha carteira no metrô.",
         altAnswers: ["Roubaram minha carteira no metrô.", "Furtaram a minha carteira no metrô.", "Roubaram a minha carteira no metrô.", "Minha carteira foi furtada no metrô.", "Minha carteira foi roubada no metrô.", "A minha carteira foi furtada no metrô."],
-        explanation: "Impersonal \"furtaram\" / \"roubaram\" or the passive.",
+        explanation: "Brazilians often use an impersonal third person plural: \"furtaram minha carteira\". \"Furto\" is theft without violence.",
       },
       {
         type: "translate",
@@ -456,7 +456,7 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
         source: "My residence permit expires in May.",
         answer: "Minha autorização de residência vence em maio.",
         altAnswers: ["A minha autorização de residência vence em maio.", "Minha autorização de residência vai vencer em maio.", "Minha residência vence em maio.", "Meu RNM vence em maio."],
-        explanation: "Documents \"vencem\", not *\"expiram\".",
+        explanation: "Documents, contracts and bills \"vencem\" in Brazil; \"expirar\" is understood but sounds translated, and is used mostly for passwords and sessions.",
       },
       {
         type: "fill-blank",
@@ -464,7 +464,7 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
         en: "If you [get] another call, hang up.",
         sentence: "Se o senhor ___ outra ligação, desligue.",
         answer: "receber",
-        explanation: "Future subjunctive after \"se\".",
+        explanation: "\"Se\" with a future possibility takes the future subjunctive: \"receber\", which looks like the infinitive for regular verbs.",
       },
       {
         type: "fill-blank",
@@ -472,7 +472,7 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
         en: "What's [missing] from my application?",
         sentence: "O que está ___ no meu processo?",
         answer: "faltando",
-        explanation: "\"Faltar\" = to be missing.",
+        explanation: "\"Faltar\" means to be missing; with \"estar\" + gerund: \"o que está faltando\".",
       },
       {
         type: "fill-blank",
@@ -481,14 +481,14 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
         sentence: "___ o visto no mês passado.",
         answer: "Solicitei",
         altAnswers: ["Pedi", "Eu solicitei", "Eu pedi"],
-        explanation: "\"Solicitar\", never *\"aplicar para\".",
+        explanation: "To apply for a visa is \"solicitar\" or \"pedir\" the visa; \"aplicar para\" is an anglicism.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: The birth certificate needs a sworn translation.",
         words: ["A certidão", "de nascimento", "precisa de", "tradução", "juramentada."],
         translation: "The birth certificate needs a sworn translation.",
-        explanation: "\"Precisar de\" + noun.",
+        explanation: "\"Precisar de\" + noun: \"precisa de tradução juramentada\", a sworn translation done by an official translator.",
       },
       {
         type: "multiple-choice",
@@ -500,7 +500,7 @@ export const PT_B2_U18_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Solicitei a segunda via da carteira de motorista.",
-        explanation: "\"Segunda via\" = replacement document.",
+        explanation: "\"Segunda via\" is a replacement copy of a document, and \"solicitar\" is the formal verb for requesting it.",
       },
       {
         type: "speak",

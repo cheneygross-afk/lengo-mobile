@@ -422,7 +422,6 @@ export const PT_B1_U34: Lesson[] = [
         prompt: "Put the words in order to say: Interested people, contact Rafael.",
         words: ["Interessados,", "falar", "com", "o", "Rafael."],
         translation: "Interested people, contact Rafael.",
-        altOrders: [["Interessados,", "falar", "o", "com", "Rafael."]],
         explanation: "Ads close with the infinitive as an instruction: \"interessados, falar com...\". The article before a first name is normal in much of Brazil.",
       },
       {
@@ -729,8 +728,8 @@ export const PT_B1_U34: Lesson[] = [
             en: "The council promises to create [about] thirty kilometres of bus lanes.",
             sentence: "A prefeitura promete criar ___ trinta quilômetros de faixas exclusivas.",
             answer: "cerca de",
-            altAnswers: ["aproximadamente", "uns"],
-            explanation: "\"Cerca de\" is the usual about with numbers in the news. Don't confuse it with \"perto de\", which is about place.",
+            altAnswers: ["aproximadamente", "uns", "perto de"],
+            explanation: "\"Cerca de\" is the usual about with numbers in the news. \"Perto de\" (close to) also works with numbers, but its main use is for place.",
           },
         ],
       },

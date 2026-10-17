@@ -115,9 +115,9 @@ export const PT_B1_U35_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
-        options: ["Vou te ligar antes de sair.", "Vou te ligar antes que eu saia.", "Vou te ligar antes de que saio.", "Vou te ligar antes sair."],
+        options: ["Vou te ligar antes de sair.", "Vou te ligar antes que eu saio.", "Vou te ligar antes de que saio.", "Vou te ligar antes sair."],
         correctIndex: 0,
-        explanation: "Same subject: \"antes de\" + infinitive.",
+        explanation: "Same subject: \"antes de\" + infinitive. \"Antes que\" would need the subjunctive (\"saia\"), never \"saio\".",
       },
       {
         type: "translate",
@@ -444,6 +444,7 @@ export const PT_B1_U35_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: I partly agree with you.",
         words: ["Concordo", "em", "parte", "com", "você."],
+        altOrders: [["Concordo", "com", "você.", "em", "parte"]],
         translation: "I partly agree with you.",
         explanation: "\"Concordar com\" + person.",
       },

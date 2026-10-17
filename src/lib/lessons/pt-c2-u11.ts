@@ -56,7 +56,7 @@ export const PT_C2_U11: Lesson[] = [
       {
         heading: "Vamos marcar and a gente se fala",
         body: [
-          "\"Vamos marcar!\" (let's set a date!) is the most famous empty promise in Brazil, the cousin of the English 'we should get together sometime'. Said while saying goodbye, with no day or place, it means 'I enjoyed this and I'd like to think we'll meet again'. \"Vamos marcar um chope\", \"vamos marcar um almoço\" and \"precisamos marcar\" work the same way. Brazilians joke about it themselves: \"vamos marcar\" can be answered with an ironic \"marcar\" between friends.",
+          "\"Vamos marcar!\" (let's set a date!) is the most famous empty promise in Brazil, the cousin of the English 'we should get together sometime'. Said while saying goodbye, with no day or place, it means 'I enjoyed this and I'd like to think we'll meet again'. \"Vamos marcar um chope\", \"vamos marcar um almoço\" and \"precisamos marcar\" work the same way. Brazilians joke about it themselves: \"vamos marcar\" can be answered with an ironic \"vamos marcar de marcar\" (let's set a date to set a date) between friends.",
           "\"A gente se fala\" (we'll talk) and \"a gente se vê\" (see you) are simply goodbyes. They promise no phone call. \"Qualquer coisa, me liga\" (if you need anything, call me) is a sincere but conditional offer: it means 'I'm available', not 'I expect a call'.",
           "To test a \"vamos marcar\", make it concrete, lightly: \"Bora! Que tal quinta?\" A real plan picks up at once. A formula slides away: \"essa semana tá corrida, vamos vendo\" (this week's hectic, let's see how it goes). \"Vamos vendo\" and \"vou ver\" are polite fog and usually mean no, so don't push a second time.",
         ],
@@ -1512,7 +1512,7 @@ export const PT_C2_U11: Lesson[] = [
         source: "Just a reminder that the report is due today.",
         answer: "Só para lembrar que o relatório vence hoje.",
         altAnswers: ["Só pra lembrar que o relatório vence hoje.", "Só para lembrar que o prazo do relatório é hoje.", "Só para relembrar que o relatório vence hoje.", "Só pra relembrar que o relatório vence hoje.", "Só para lembrar: o relatório vence hoje.", "Só para lembrar que o relatório deve ser entregue hoje."],
-        explanation: "\"Só para lembrar\" sounds light, but the first time. \"Vencer\" is the usual verb for a deadline or a bill falling due.",
+        explanation: "\"Só para lembrar\" sounds light the first time; sent again, it's a warning. \"Vencer\" is the usual verb for a deadline or a bill falling due.",
       },
       {
         type: "translate",
@@ -2225,8 +2225,8 @@ export const PT_C2_U11: Lesson[] = [
         en: "[Thank you for your kindness].",
         sentence: "___.",
         answer: "Obrigada pelo carinho",
-        altAnswers: ["Obrigado pelo carinho", "Muito obrigada pelo carinho", "Obrigada por ter vindo", "Obrigada", "Obrigada pela presença"],
-        explanation: "\"De nada\" answers thanks; here she is the one receiving kindness, so she thanks people. A widow says \"obrigada\".",
+        altAnswers: ["Muito obrigada pelo carinho", "Obrigada por todo o carinho", "Muito obrigada por todo o carinho"],
+        explanation: "\"De nada\" answers thanks, but here she is the one receiving kindness, so she thanks people for their \"carinho\" (affection, kindness). \"Por\" + \"o\" contracts to \"pelo\", and a widow says \"obrigada\".",
       },
       {
         type: "fill-blank",
@@ -2235,7 +2235,7 @@ export const PT_C2_U11: Lesson[] = [
         sentence: "___ a janela?",
         answer: "Quer que eu abra",
         altAnswers: ["Você quer que eu abra", "Posso abrir", "Prefere que eu abra"],
-        explanation: "The original has the wrong mood (\"abra\", not \"abre\") and the wrong direction: the host offers, the guest doesn't get orders.",
+        explanation: "The original has the wrong mood (\"querer que\" needs the subjunctive \"abra\", not \"abre\") and the wrong direction: the host offers, the guest doesn't get orders.",
       },
       {
         type: "word-order",

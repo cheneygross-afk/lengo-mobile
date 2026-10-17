@@ -1505,7 +1505,7 @@ export const PT_C2_U17: Lesson[] = [
         type: "speak",
         text: "Não é inveja, é admiração mesmo.",
         prompt: "Say it in Portuguese: It's not envy, it's genuine admiration.",
-        tip: "\"Admiração\" ends in nasal ão; \"mesmo\" closes with a soft u sound: MÊS-mu.",
+        tip: "\"Admiração\" ends in nasal ão; \"mesmo\" closes with a soft u sound, and its s sounds like z before the m: MÊZ-mu.",
         explanation: "\"Mesmo\" after a noun stresses that it's real: genuine admiration.",
       },
       {
@@ -2427,7 +2427,7 @@ export const PT_C2_U17: Lesson[] = [
         prompt: "Translate into Portuguese, as a microconto.",
         source: "Moving house. In the box marked fragile, there were only letters.",
         answer: "Mudança. Na caixa escrito frágil, só havia cartas.",
-        altAnswers: ["Mudança. Na caixa escrito frágil só havia cartas.", "Mudança. Na caixa marcada frágil, só havia cartas.", "Mudança. Na caixa escrita frágil, só havia cartas.", "Mudança. Na caixa onde estava escrito frágil, só havia cartas.", "Mudança. Na caixa escrito frágil, só tinha cartas."],
+        altAnswers: ["Mudança. Na caixa escrito frágil só havia cartas.", "Mudança. Na caixa marcada frágil, só havia cartas.", "Mudança. Na caixa onde estava escrito frágil, só havia cartas.", "Mudança. Na caixa escrito frágil, só tinha cartas."],
         explanation: "\"Havia\" (or the spoken \"tinha\") for there were. \"Escrito frágil\" is the everyday way to say marked fragile.",
       },
     ],
@@ -2652,7 +2652,7 @@ export const PT_C2_U17: Lesson[] = [
         type: "speak",
         text: "Seria injusto chamar o disco de fracasso, ainda que fique aquém do anterior.",
         prompt: "Say it in Portuguese: It would be unfair to call the album a failure, even if it falls short of the previous one.",
-        tip: "\"Aquém\" ends in the same nasal sound as \"também\": a-KÉIN, with no real n. \"Anterior\" is stressed on the last syllable.",
+        tip: "\"Aquém\" ends in the same nasal sound as \"também\": a-KẼIN, a closed nasal e with no real n. \"Anterior\" is stressed on the last syllable.",
         explanation: "Hedge, concession with the subjunctive \"fique\", and \"aquém de\": a full critic's sentence.",
       },
       {

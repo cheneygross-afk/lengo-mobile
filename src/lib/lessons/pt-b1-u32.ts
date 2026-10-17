@@ -861,10 +861,10 @@ export const PT_B1_U32: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the natural way to ask a new colleague which team they support?",
+            question: "Which is the grammatically complete way to ask a new colleague which team they support?",
             options: ["Pra que time você torce?", "Que time você torce?", "Que equipa você apoia?", "Para que time você joga?"],
             correctIndex: 0,
-            explanation: "\"Torcer para\" keeps its preposition, even at the start of the question: \"pra que time\".",
+            explanation: "\"Torcer para\" keeps its preposition, even at the start of the question: \"pra que time\". In fast speech you'll also hear \"que time você torce?\", but keep the preposition yourself.",
           },
         ],
       },
@@ -904,7 +904,7 @@ export const PT_B1_U32: Lesson[] = [
       {
         heading: "Gol, pênalti, impedimento, juiz: during the game",
         body: [
-          "The words of the match: \"gol\" (plural \"gols\"), \"pênalti\", \"impedimento\" (offside), \"falta\" (foul, or free kick), \"escanteio\" (corner), \"cartão amarelo\" and \"vermelho\". The referee is \"o juiz\" in speech and \"o árbitro\" on TV; he \"apita\" the game, and when fans dislike his decisions they shout \"ladrão!\" (thief!). Now there's also the VAR, said \"vá\".",
+          "The words of the match: \"gol\" (plural \"gols\"), \"pênalti\", \"impedimento\" (offside), \"falta\" (foul, or free kick), \"escanteio\" (corner), \"cartão amarelo\" and \"vermelho\". The referee is \"o juiz\" in speech and \"o árbitro\" on TV; he \"apita\" the game, and when fans dislike his decisions they shout \"ladrão!\" (thief!). Now there's also the VAR, said as one word, like \"bar\" with a v.",
           "After the game comes the \"zoeira\": \"zoar o rival\" means to tease the other team's fans, mercilessly, on WhatsApp and at work on Monday. A \"pé-frio\" is someone who brings bad luck.",
         ],
         examples: [
@@ -973,8 +973,7 @@ export const PT_B1_U32: Lesson[] = [
         en: "I [support] Vasco, like my grandfather.",
         sentence: "Eu ___ o Vasco, como o meu avô.",
         answer: "torço para",
-        altAnswers: ["torço pelo", "torço pro"],
-        explanation: "\"Torcer para\" / \"pelo\" / \"pro\". If you write \"torço pelo\", the article is already inside it: \"torço pelo Vasco\".",
+        explanation: "The blank is followed by \"o Vasco\", so only \"torço para\" fits here. \"Pelo\" and \"pro\" already contain the article: \"torço pelo Vasco\", \"torço pro Vasco\".",
       },
       {
         type: "translate",

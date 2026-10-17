@@ -444,7 +444,7 @@ export const PT_B1_U26: Lesson[] = [
       {
         heading: "Ando dormindo pouco: lately, casually",
         body: [
-          "\"Andar\" means to walk, but followed by a gerúndio it means to have been doing something lately: \"ando dormindo pouco\" (I've been sleeping badly lately), \"ela anda trabalhando demais\". It's very common in conversation and sounds casual and a bit emotional, often a mild complaint.",
+          "\"Andar\" means to walk, but followed by a gerúndio it means to have been doing something lately: \"ando dormindo pouco\" (I haven't been sleeping much lately), \"ela anda trabalhando demais\". It's very common in conversation and sounds casual and a bit emotional, often a mild complaint.",
           "It's close to \"tenho dormido pouco\", which you know from the perfeito composto. \"Ando\" + gerúndio is lighter and more spoken; \"tenho\" + participle is neutral and fine in writing. Both describe a recent pattern, not a single moment. Brazilian Portuguese always uses the gerúndio here: \"ando trabalhando\", never \"ando a trabalhar\", which is European.",
         ],
         examples: [
@@ -619,9 +619,9 @@ export const PT_B1_U26: Lesson[] = [
       {
         type: "multiple-choice",
         question: "You meet a friend you haven't seen for months. What's the friendly thing to say?",
-        options: ["Você anda sumido!", "Você vive sumido!", "Você acabou de sumir!", "Você está sumindo!"],
+        options: ["Você anda sumido!", "Você vai sumindo!", "Você acabou de sumir!", "Você está sumindo!"],
         correctIndex: 0,
-        explanation: "\"Andar sumido\" is the everyday long time no see.",
+        explanation: "\"Andar sumido\" is the everyday long time no see. \"Vai sumindo\" would mean you're gradually disappearing, and \"está sumindo\" that you're vanishing right now.",
       },
       {
         type: "dictation",
@@ -929,7 +929,7 @@ export const PT_B1_U26: Lesson[] = [
         heading: "Continua chovendo: still going on",
         body: [
           "\"Continuar\" + gerúndio means to carry on, to be still doing: \"continua chovendo\" (it's still raining), \"ela continua morando em Belém\". The standard form takes the gerúndio; \"continuar a\" + infinitive exists but sounds European or bookish in Brazil.",
-          "\"Ainda\" + the plain verb says nearly the same: \"ela ainda mora em Belém\". With a negative, use \"continuar sem\" + infinitive or \"continuar não\" + verb: \"continuo sem entender\" (I still don't understand).",
+          "\"Ainda\" + the plain verb says nearly the same: \"ela ainda mora em Belém\". With a negative, use \"continuar sem\" + infinitive (\"continuo sem entender\", I still don't understand) or \"ainda não\" + verb (\"ainda não entendi\").",
         ],
         examples: [
           { es: "Continua chovendo em Porto Alegre.", en: "It's still raining in Porto Alegre." },
@@ -1311,7 +1311,7 @@ export const PT_B1_U26: Lesson[] = [
             question: "When she heard the news, she became very worried. Which fits?",
             options: ["Ela ficou muito preocupada.", "Ela virou muito preocupada.", "Ela se tornou muito preocupada de repente.", "Ela era muito preocupada."],
             correctIndex: 0,
-            explanation: "A change of state with an adjective: \"ficou\". \"Virar\" goes with nouns.",
+            explanation: "A change of state with an adjective: \"ficou\". \"Virar\" goes with nouns, and \"se tornar\" is for lasting changes in formal style, not a sudden reaction.",
           },
         ],
       },
@@ -1319,7 +1319,7 @@ export const PT_B1_U26: Lesson[] = [
         heading: "Virar + noun: turning into",
         body: [
           "\"Virar\" + noun is the spoken become for a new identity, job or thing: \"ela virou professora\" (she became a teacher), \"ele virou chef\", \"a reunião virou briga\" (the meeting turned into a fight). There's no article before a profession: \"virou médico\", not \"virou um médico\".",
-          "\"Ficar\" doesn't work with a profession: *\"ficou professor\" is a classic mistake. \"Virar\" with an adjective also exists in slang (\"virou moda\", it became fashionable), but with nouns it's the safe choice. Its basic meaning is to turn: \"vire à direita\".",
+          "\"Ficar\" doesn't work with a profession: *\"ficou professor\" is a classic mistake. \"Virar\" + adjective is rare and slangy, so keep it for nouns, including set phrases like \"virou moda\" (it became fashionable). Its basic meaning is to turn: \"vire à direita\".",
         ],
         examples: [
           { es: "A Juliana virou professora de yoga.", en: "Juliana became a yoga teacher." },
@@ -1722,7 +1722,7 @@ export const PT_B1_U26: Lesson[] = [
       {
         heading: "Parar de or deixar de?",
         body: [
-          "Both mean stop doing. \"Parar de\" works for anything, a habit or an action right now: \"para de gritar!\" (stop shouting!). \"Deixar de\" is for habits and states you give up, often for good: \"deixei de fumar\", \"ela deixou de ser minha amiga\". You can't use \"deixar de\" for stopping something this second: *\"deixa de gritar\" sounds odd.",
+          "Both mean stop doing. \"Parar de\" works for anything, a habit or an action right now: \"para de gritar!\" (stop shouting!). \"Deixar de\" is for habits and states you give up, often for good: \"deixei de fumar\", \"ela deixou de ser minha amiga\". For stopping something this second, use \"parar de\": \"deixa de...\" as a command is kept for attitudes (\"deixa de bobagem!\", cut it out!), not actions.",
           "\"Deixar de\" also means to fail to, especially in \"não deixe de\" (don't miss, be sure to).",
         ],
         examples: [
@@ -2150,7 +2150,7 @@ export const PT_B1_U26: Lesson[] = [
       {
         heading: "Ando a trabalhar: the European trap",
         body: [
-          "Mistake 4: *\"ando a trabalhar muito\". In Portugal, \"andar a\" + infinitive and \"estar a\" + infinitive are normal. In Brazil they sound foreign: Brazilians always use the gerúndio, \"ando trabalhando muito\", \"estou trabalhando\". Learners who've used European materials, or who know Spanish, sometimes mix them.",
+          "Mistake 4: *\"ando a trabalhar muito\". In Portugal, \"andar a\" + infinitive and \"estar a\" + infinitive are normal. In Brazil they sound foreign: Brazilians always use the gerúndio, \"ando trabalhando muito\", \"estou trabalhando\". Learners who've used European materials sometimes mix them.",
           "The same goes for \"continuar\" and \"ficar\": \"continua chovendo\", \"fiquei esperando\". If you see \"a\" + infinitive after an auxiliary that normally takes a gerúndio, change it.",
         ],
         examples: [

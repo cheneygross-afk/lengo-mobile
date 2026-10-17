@@ -48,7 +48,7 @@ export const PT_A2_U20: Lesson[] = [
         heading: "RG, passaporte, comprovante de residência",
         body: [
           "Brazilians carry \"o RG\" (the identity card). As a foreigner, your ID is \"o passaporte\" or, if you live in Brazil, \"o RNM\" (the foreigner's registration card). Offices often ask for \"um documento com foto\" (a photo ID) and \"o comprovante de residência\" (proof of address), usually a recent electricity or internet bill in your name.",
-          "Ask politely what you need with the softeners from Unit 13: \"eu gostaria de saber quais documentos eu preciso trazer\", \"você poderia ver se está tudo certo?\". The clerk might say \"falta o comprovante\" (the proof of address is missing).",
+          "Ask politely what you need with the softeners from the shopping unit: \"eu gostaria de saber quais documentos eu preciso trazer\", \"você poderia ver se está tudo certo?\". The clerk might say \"falta o comprovante\" (the proof of address is missing).",
         ],
         examples: [
           { es: "O senhor tem um documento com foto?", en: "Do you have a photo ID, sir?" },
@@ -470,7 +470,7 @@ export const PT_A2_U20: Lesson[] = [
         heading: "O DDD: 11, 21, 31",
         body: [
           "Brazil's area codes are \"o DDD\": 11 for São Paulo, 21 for Rio, 31 for Belo Horizonte, 71 for Salvador, 61 for Brasília. A mobile number has nine digits and starts with 9, so a full number looks like (11) 98765-4321. People ask \"qual é o DDD?\" or \"é DDD 21?\".",
-          "Your chip belongs to the DDD where you bought it. Calls to another DDD used to need an operator code, so you may still hear about \"ligação interurbana\" (a long-distance call).",
+          "Your chip belongs to the DDD where you bought it. A call to another DDD is a \"ligação interurbana\" (a long-distance call); from a landline you dial 0, a carrier code and then the DDD, while mobile plans usually handle it for you.",
         ],
         examples: [
           { es: "O DDD de São Paulo é onze.", en: "São Paulo's area code is eleven." },
@@ -1067,7 +1067,7 @@ export const PT_A2_U20: Lesson[] = [
       {
         heading: "Ficou apertado, ficou ótimo",
         body: [
-          "To say how something fits, use \"ficar\" from Unit 12: \"ficou apertado\" (it's tight), \"ficou largo\" (it's loose), \"ficou curto\" (short), \"ficou ótimo em você\" (it looks great on you). The perfeito is normal here, because you're reacting to how it turned out when you put it on.",
+          "To say how something fits, use \"ficar\" from the health unit: \"ficou apertado\" (it's tight), \"ficou largo\" (it's loose), \"ficou curto\" (short), \"ficou ótimo em você\" (it looks great on you). The perfeito is normal here, because you're reacting to how it turned out when you put it on.",
           "The adjective agrees with the item: \"a calça ficou apertada\", \"os sapatos ficaram grandes\". Then ask for another option: \"tem um número maior?\", \"tem em outra cor?\", \"tem um tamanho menor?\".",
         ],
         examples: [
@@ -1107,7 +1107,7 @@ export const PT_A2_U20: Lesson[] = [
       {
         heading: "Quero trocar: a nota fiscal",
         body: [
-          "To exchange something, go back with \"a nota fiscal\" (the receipt) and say \"eu queria trocar essa camisa\" or \"eu gostaria de trocar por um tamanho maior\". \"Trocar por\" is exchange for, the same \"por\" as in Unit 10.",
+          "To exchange something, go back with \"a nota fiscal\" (the receipt) and say \"eu queria trocar essa camisa\" or \"eu gostaria de trocar por um tamanho maior\". \"Trocar por\" is exchange for, the same \"por\" of exchange you met with por and para.",
           "Ask about \"o prazo para troca\" (the exchange period) before you buy: \"qual é o prazo para troca?\". Many shops give thirty days, but they're not obliged to for things bought in person, so it's worth asking. For a gift, ask for \"uma etiqueta de troca\".",
         ],
         examples: [
@@ -1240,7 +1240,7 @@ export const PT_A2_U20: Lesson[] = [
         heading: "Marcar um horário",
         body: [
           "An appointment is \"um horário\" (at the hairdresser, the manicure, the technician) or \"uma consulta\" (with a doctor or dentist). To book is \"marcar\": \"eu queria marcar um horário para cortar o cabelo\". Most places take bookings by WhatsApp message as well as by phone.",
-          "Ask what's free with the indefinites from Unit 13: \"tem algum horário na quinta?\". The answer might be \"tenho às três\" or \"na quinta não tem nenhum, só na sexta\". Confirm with \"pode ser\" (that works) or \"fica marcado\" (it's booked).",
+          "Ask what's free with the indefinites from the shopping unit: \"tem algum horário na quinta?\". The answer might be \"tenho às três\" or \"na quinta não tem nenhum, só na sexta\". Confirm with \"pode ser\" (that works) or \"fica marcado\" (it's booked).",
         ],
         examples: [
           { es: "Eu queria marcar um horário para cortar o cabelo.", en: "I'd like to book a haircut." },
@@ -1384,7 +1384,7 @@ export const PT_A2_U20: Lesson[] = [
         source: "I got sick, so I need to cancel.",
         answer: "Eu fiquei doente, então preciso desmarcar.",
         altAnswers: ["Fiquei doente, então preciso desmarcar.", "Eu fiquei doente, então eu preciso desmarcar.", "Eu fiquei doente, por isso preciso desmarcar.", "Fiquei doente, por isso preciso desmarcar.", "Eu fiquei doente, então preciso cancelar."],
-        explanation: "\"Ficar doente\" is to get sick (Unit 12).",
+        explanation: "\"Ficar doente\" is to get sick: \"ficar\" + adjective for a change of state.",
       },
       {
         type: "word-order",
@@ -1476,7 +1476,7 @@ export const PT_A2_U20: Lesson[] = [
       {
         heading: "Parou de funcionar ontem",
         body: [
-          "To report the problem, combine the past tenses from Units 1-5. The event takes the perfeito: \"parou de funcionar ontem à noite\", \"quebrou na segunda\". What was going on at the time takes the imperfeito: \"eu estava tomando banho quando o chuveiro desligou\".",
+          "To report the problem, combine the two past tenses. The event takes the perfeito: \"parou de funcionar ontem à noite\", \"quebrou na segunda\". What was going on at the time takes the imperfeito: \"eu estava tomando banho quando o chuveiro desligou\".",
           "\"Há\" or \"faz\" gives how long ago: \"quebrou há dois dias\". And \"desde\" says since when: \"está sem água desde ontem\".",
         ],
         examples: [
@@ -1594,6 +1594,7 @@ export const PT_A2_U20: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: I was taking a shower when the shower cut out.",
         words: ["Eu", "estava", "tomando", "banho", "quando", "o", "chuveiro", "desligou."],
+        altOrders: [["Quando", "o", "chuveiro", "desligou.", "Eu", "estava", "tomando", "banho"]],
         translation: "I was taking a shower when the shower cut out.",
         explanation: "\"Estava tomando\" (in progress) is interrupted by \"desligou\" (perfeito).",
       },
@@ -2462,7 +2463,7 @@ export const PT_A2_U20: Lesson[] = [
       {
         heading: "Requests and money",
         body: [
-          "No new grammar: mix the unit's survival chunks with Units 1-13. Requests soften with \"eu queria\", \"eu gostaria de\", \"você poderia\" and \"pode\" + infinitive; indefinites need double negation (\"não tem nenhum\"); \"por\" and \"para\" merge with articles (\"pelo\", \"pela\", \"pro\").",
+          "No new grammar: mix the unit's survival chunks with everything from the earlier A2 units. Requests soften with \"eu queria\", \"eu gostaria de\", \"você poderia\" and \"pode\" + infinitive; indefinites need double negation (\"não tem nenhum\"); \"por\" and \"para\" merge with articles (\"pelo\", \"pela\", \"pro\").",
         ],
         examples: [
           { es: "Você poderia me mandar a chave Pix?", en: "Could you send me the Pix key?" },

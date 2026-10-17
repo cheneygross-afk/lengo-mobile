@@ -1501,7 +1501,7 @@ export const PT_B2_U04: Lesson[] = [
           { es: "Se você não tivesse parado para comprar café, a gente teria chegado a tempo.", en: "(Beatriz) If you hadn't stopped to buy coffee, we'd have made it in time." },
           { es: "E se você tivesse feito o check-in on-line, não teríamos ficado naquela fila.", en: "(Lucas) And if you'd checked in online, we wouldn't have been stuck in that queue." },
           { es: "Se eu soubesse do trânsito, eu tinha saído às cinco.", en: "(Lucas) If I'd known about the traffic, I'd have left at five." },
-          { es: "Teria sido muito mais fácil ir de trem.", en: "(Beatriz) It would have been much easier to go by train." },
+          { es: "Teria sido muito mais fácil pegar o voo da noite anterior.", en: "(Beatriz) It would have been much easier to take the flight the night before." },
         ],
         checkpoint: [
           {
@@ -2504,7 +2504,7 @@ export const PT_B2_U04: Lesson[] = [
             type: "speak",
             text: "Você podia ter me avisado.",
             prompt: "Say it in Portuguese: You could have warned me.",
-            tip: "In \"podia\" the d before i sounds like the j in jeans: \"po-JI-a\".",
+            tip: "In \"podia\" the d before i sounds like the j in jeans: \"po-DJI-a\".",
             explanation: "Could have = \"podia ter\" + participle, a gentle reproach.",
           },
         ],

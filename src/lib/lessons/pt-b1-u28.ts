@@ -673,7 +673,7 @@ export const PT_B1_U28: Lesson[] = [
         heading: "The B.O.: online or at the delegacia",
         body: [
           "To report a crime you \"registrar um boletim de ocorrência\", the B.O. (said \"bê-ó\"). For many cases (theft, lost documents, some scams) you can file it online at your state's \"delegacia virtual\"; for violent crimes, go to a \"delegacia\" (police station). In an emergency, call 190 for the Polícia Militar.",
-          "You'll need the B.O. for your insurance, to block your phone with the carrier and to replace stolen documents. Don't say \"*fazer uma queixa na polícia\": the natural phrase is \"registrar\" or \"fazer um B.O.\".",
+          "You'll need the B.O. for your insurance, to block your phone with the carrier and to replace stolen documents. The natural phrase is \"registrar\" or \"fazer um B.O.\"; you'll also hear \"dar queixa na polícia\" (report it to the police), but not the word-for-word \"*fazer uma queixa\".",
         ],
         examples: [
           { es: "Preciso registrar um boletim de ocorrência.", en: "I need to file a police report." },
@@ -1587,7 +1587,6 @@ export const PT_B1_U28: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order to say: They asked me to come back the following week.",
         words: ["Me", "pediram", "para", "voltar", "na", "semana", "seguinte."],
-        altOrders: [["Pediram", "para", "voltar", "me", "na", "semana", "seguinte."]],
         translation: "They asked me to come back the following week.",
         explanation: "\"Semana que vem\" becomes \"semana seguinte\" in reported speech.",
       },
@@ -1939,7 +1938,7 @@ export const PT_B1_U28: Lesson[] = [
           {
             type: "speak",
             text: "Ele me pediu para bloquear o chip.",
-            tip: "\"Chip\" is said almost like English cheap, but shorter: SHI-pi.",
+            tip: "Brazilians say chip as SHI-pi: sh as in ship, plus a short i at the end.",
             explanation: "\"Pedir para\" + infinitive reports a request.",
           },
         ],
@@ -2041,7 +2040,7 @@ export const PT_B1_U28: Lesson[] = [
       {
         heading: "Grammar slips: agreement, pelo and the tense shift",
         body: [
-          "In \"dever ser\" + participle, the participle agrees with the subject: \"os documentos devem ser apresentados\", not \"*apresentado\". The agent of a passive takes \"por\", which contracts with the article: \"o documento foi feito pelo cartório\", never \"*de o cartório\" (Spanish and English speakers both slip here).",
+          "In \"dever ser\" + participle, the participle agrees with the subject: \"os documentos devem ser apresentados\", not \"*apresentado\". The agent of a passive takes \"por\", which contracts with the article: \"o documento foi feito pelo cartório\", never \"*de o cartório\".",
           "In reported speech, shift the tense when you tell the story later: \"você tem que voltar amanhã\" becomes \"ela disse que eu tinha que voltar no dia seguinte\". \"*Ela disse que eu tenho que voltar no dia seguinte\" mixes a present verb with a shifted time word.",
         ],
         examples: [
@@ -2083,7 +2082,7 @@ export const PT_B1_U28: Lesson[] = [
       {
         heading: "Word slips: roubado, horário, B.O., solicitar",
         body: [
-          "A phone taken at knifepoint was \"roubado\", not \"*furtado\": furto has no violence. To book an appointment you \"marcar um horário\" or \"agendar\"; \"*marcar um tempo\" is a word-for-word English slip. At the police you \"registrar\" or \"fazer um B.O.\", not \"*fazer uma queixa\".",
+          "A phone taken at knifepoint was \"roubado\", not \"*furtado\": furto has no violence. To book an appointment you \"marcar um horário\" or \"agendar\"; \"*marcar um tempo\" is a word-for-word English slip. At the police you \"registrar\" or \"fazer um B.O.\" (or \"dar queixa\"), not the word-for-word \"*fazer uma queixa\".",
           "Also watch \"*aplicar para um visto\": in Portuguese you \"pedir\" or \"solicitar\" a visa. \"Aplicar\" means to apply a cream, or to invest money.",
         ],
         examples: [
@@ -2136,7 +2135,7 @@ export const PT_B1_U28: Lesson[] = [
         source: "I filed a police report.",
         answer: "Eu registrei um B.O.",
         altAnswers: ["Registrei um B.O.", "Eu fiz um B.O.", "Fiz um B.O.", "Registrei um boletim de ocorrência.", "Eu registrei um boletim de ocorrência.", "Fiz um boletim de ocorrência.", "Registrei um BO.", "Fiz um BO."],
-        explanation: "\"Registrar\" or \"fazer um B.O.\" is the phrase Brazilians use.",
+        explanation: "\"Registrar\" or \"fazer um B.O.\" is the phrase Brazilians use for filing the report. \"Fazer uma queixa\" is a word-for-word slip; the idiom is \"dar queixa na polícia\".",
       },
       {
         type: "translate",

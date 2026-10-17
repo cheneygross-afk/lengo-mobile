@@ -303,7 +303,7 @@ export const PT_B1_U22: Lesson[] = [
             en: "In case you don't [have] a guarantor, we accept a deposit.",
             sentence: "Caso você não ___ fiador, aceitamos caução.",
             answer: "tenha",
-            explanation: "\"Caso\" + subjunctive: \"tenha\".",
+            explanation: "\"Caso\" sets up a possibility, so it takes the subjunctive: \"tenho\" → \"tenha\".",
           },
         ],
       },
@@ -329,7 +329,7 @@ export const PT_B1_U22: Lesson[] = [
             source: "The rent is due on the 10th.",
             answer: "O aluguel vence no dia 10.",
             altAnswers: ["O aluguel vence todo dia 10.", "O aluguel vence dia 10.", "O aluguel vence no dia dez."],
-            explanation: "A bill that falls due \"vence\".",
+            explanation: "A bill or rent that falls due \"vence\": \"o aluguel vence no dia 10\".",
           },
           {
             type: "listen-choose",
@@ -421,7 +421,7 @@ export const PT_B1_U22: Lesson[] = [
         en: "The owner requires the tenant to [have] a guarantor.",
         sentence: "O dono exige que o inquilino ___ fiador.",
         answer: "tenha",
-        explanation: "\"Exigir que\" + subjunctive.",
+        explanation: "\"Exigir que\" + subjunctive: \"ter\" → \"tenha\" for \"o inquilino\".",
       },
       {
         type: "translate",
@@ -444,7 +444,7 @@ export const PT_B1_U22: Lesson[] = [
         source: "The rent goes up once a year.",
         answer: "O aluguel aumenta uma vez por ano.",
         altAnswers: ["O aluguel sobe uma vez por ano.", "O reajuste do aluguel é anual.", "O aluguel tem reajuste uma vez por ano."],
-        explanation: "The yearly increase is \"o reajuste\".",
+        explanation: "The yearly rent increase is \"o reajuste\"; \"aumentar\" or \"subir\" also work for goes up.",
       },
       {
         type: "fill-blank",
@@ -476,7 +476,7 @@ export const PT_B1_U22: Lesson[] = [
           "Vocês têm que fotografar tudo.",
           "Você tem que tirar foto de tudo.",
         ],
-        explanation: "\"Ter que\" + infinitive for obligation.",
+        explanation: "\"Ter que\" + infinitive expresses obligation: \"você tem que fotografar\".",
       },
       {
         type: "matching",
@@ -507,14 +507,14 @@ export const PT_B1_U22: Lesson[] = [
       {
         type: "dictation",
         audio: "O aluguel vence todo dia cinco.",
-        explanation: "\"Vencer\": to fall due.",
+        explanation: "\"Vencer\" means to fall due for bills: the rent is due on the 5th.",
       },
       {
         type: "speak",
         text: "Caso eu saia antes, tenho que pagar multa?",
         prompt: "Say it in Portuguese: If I leave early, do I have to pay a penalty?",
         tip: "Multa: the l sounds like a w, MUW-ta.",
-        explanation: "\"Caso\" + \"saia\".",
+        explanation: "\"Caso\" + subjunctive \"saia\" (from \"saio\"); \"tenho que pagar\" for the obligation.",
       },
     ],
   },
@@ -681,7 +681,7 @@ export const PT_B1_U22: Lesson[] = [
           "Será que o dono aceita cachorros?",
           "Será que a dona aceita cachorro?",
         ],
-        explanation: "\"Será que\" + indicative: I wonder if.",
+        explanation: "\"Será que\" (I wonder if) softens the question, and the verb after it stays indicative: \"aceita\".",
       },
       {
         type: "translate",
@@ -705,7 +705,7 @@ export const PT_B1_U22: Lesson[] = [
         sentence: "Dá pra ___ de novo no sábado?",
         answer: "visitar",
         altAnswers: ["ver", "vir ver"],
-        explanation: "\"Dá pra\" + infinitive.",
+        explanation: "\"Dá pra\" + infinitive is the spoken is it possible to: \"dá pra visitar de novo?\".",
       },
       {
         type: "translate",
@@ -743,7 +743,7 @@ export const PT_B1_U22: Lesson[] = [
       {
         type: "dictation",
         audio: "Posso pintar as paredes?",
-        explanation: "\"Posso\" + infinitive asks permission.",
+        explanation: "\"Posso\" + infinitive asks permission for yourself: can I paint the walls?",
       },
       {
         type: "speak",
@@ -922,7 +922,7 @@ export const PT_B1_U22: Lesson[] = [
         source: "The toilet flush isn't working.",
         answer: "A descarga não está funcionando.",
         altAnswers: ["A descarga não funciona.", "A descarga parou de funcionar."],
-        explanation: "The flush is \"a descarga\".",
+        explanation: "The toilet flush is \"a descarga\"; \"não está funcionando\" is isn't working.",
       },
       {
         type: "translate",
@@ -947,7 +947,7 @@ export const PT_B1_U22: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "The kitchen pipe is blocked.",
         answer: "O cano da cozinha está entupido.",
-        explanation: "\"Entupido\" agrees with \"o cano\".",
+        explanation: "\"Entupido\" (blocked) agrees with \"o cano\", masculine.",
       },
       {
         type: "matching",
@@ -1112,7 +1112,7 @@ export const PT_B1_U22: Lesson[] = [
         source: "The fridge won't turn on.",
         answer: "A geladeira não liga.",
         altAnswers: ["A geladeira não está ligando."],
-        explanation: "\"Não liga\": won't turn on.",
+        explanation: "\"Ligar\" is to turn on, so \"não liga\" means it won't turn on.",
       },
       {
         type: "translate",
@@ -1153,7 +1153,7 @@ export const PT_B1_U22: Lesson[] = [
         source: "The intercom has been faulty since Friday.",
         answer: "O interfone está com defeito desde sexta.",
         altAnswers: ["O interfone está com defeito desde sexta-feira.", "O interfone está com problema desde sexta.", "Desde sexta o interfone está com defeito."],
-        explanation: "\"Estar com defeito\" + \"desde\".",
+        explanation: "\"Estar com defeito\" (to be faulty) is a state that continues, so the present + \"desde\".",
       },
       {
         type: "translate",
@@ -1185,7 +1185,7 @@ export const PT_B1_U22: Lesson[] = [
         question: "You're writing to the landlord. Which sentence is right?",
         options: ["Preciso que alguém venha ver.", "Preciso que alguém vem ver.", "Preciso alguém vir ver.", "Preciso que alguém vir ver."],
         correctIndex: 0,
-        explanation: "\"Preciso que\" + subjunctive \"venha\".",
+        explanation: "\"Preciso que\" + subjunctive \"venha\". \"Vem\" is the indicative, and \"preciso alguém vir\" copies English.",
       },
       {
         type: "listen-choose",
@@ -1203,7 +1203,7 @@ export const PT_B1_U22: Lesson[] = [
       {
         type: "dictation",
         audio: "A torneira da cozinha está pingando.",
-        explanation: "\"Está pingando\": an ongoing problem.",
+        explanation: "\"Está pingando\" uses \"estar\" + gerúndio for a problem that's going on now.",
       },
       {
         type: "speak",
@@ -1309,7 +1309,7 @@ export const PT_B1_U22: Lesson[] = [
             en: "The building requires residents to [separate] their rubbish.",
             sentence: "O condomínio exige que os moradores ___ o lixo.",
             answer: "separem",
-            explanation: "\"Exigir que\" + subjunctive \"separem\".",
+            explanation: "\"Exigir que\" + subjunctive: \"separar\" → \"separem\" for \"os moradores\".",
           },
         ],
       },
@@ -1339,7 +1339,7 @@ export const PT_B1_U22: Lesson[] = [
               "Eu queria reservar o salão de festas pro sábado.",
               "Queria reservar o salão de festas pra sábado.",
             ],
-            explanation: "\"Eu queria\" is the polite I'd like.",
+            explanation: "\"Eu queria\" is the polite I'd like; \"reservar\" is to book.",
           },
           {
             type: "speak",
@@ -1384,7 +1384,7 @@ export const PT_B1_U22: Lesson[] = [
         en: "The building manager wants us to [use] the service lift.",
         sentence: "O síndico quer que a gente ___ o elevador de serviço.",
         answer: "use",
-        explanation: "\"Quer que\" + subjunctive \"use\".",
+        explanation: "\"Quer que\" + subjunctive: \"usar\" → \"use\" for \"a gente\".",
       },
       {
         type: "translate",
@@ -1393,7 +1393,7 @@ export const PT_B1_U22: Lesson[] = [
         source: "Is the party room free on the 20th?",
         answer: "O salão de festas está livre no dia 20?",
         altAnswers: ["O salão de festas está livre dia 20?", "O salão de festas está disponível no dia 20?", "O salão de festas está livre no dia vinte?"],
-        explanation: "Availability is a state: \"estar livre\".",
+        explanation: "Availability is a temporary state, so \"estar livre\".",
       },
       {
         type: "translate",
@@ -1411,7 +1411,7 @@ export const PT_B1_U22: Lesson[] = [
         source: "The delivery driver is at the front desk.",
         answer: "O entregador está na portaria.",
         altAnswers: ["A entregadora está na portaria."],
-        explanation: "\"Estar\" for where someone is right now.",
+        explanation: "\"Estar\" for where someone is right now: \"está na portaria\".",
       },
       {
         type: "fill-blank",
@@ -1419,7 +1419,7 @@ export const PT_B1_U22: Lesson[] = [
         en: "The rules ask residents to [leave] the room clean.",
         sentence: "O regimento pede que os moradores ___ o salão limpo.",
         answer: "deixem",
-        explanation: "\"Pedir que\" + subjunctive \"deixem\".",
+        explanation: "\"Pedir que\" + subjunctive: \"deixar\" → \"deixem\" for \"os moradores\".",
       },
       {
         type: "matching",
@@ -1591,7 +1591,7 @@ export const PT_B1_U22: Lesson[] = [
         source: "I rented a flat near the beach.",
         answer: "Aluguei um apartamento perto da praia.",
         altAnswers: ["Eu aluguei um apartamento perto da praia."],
-        explanation: "\"Alugar\": the everyday verb.",
+        explanation: "\"Alugar\" is the everyday verb for renting; \"locar\" belongs in contracts.",
       },
       {
         type: "translate",
@@ -1655,7 +1655,7 @@ export const PT_B1_U22: Lesson[] = [
         source: "The agency handles everything.",
         answer: "A imobiliária cuida de tudo.",
         altAnswers: ["A imobiliária resolve tudo."],
-        explanation: "\"Cuidar de\" is to take care of.",
+        explanation: "\"Cuidar de\" is to take care of; \"de\" + \"tudo\" stays \"de tudo\".",
       },
       {
         type: "fill-blank",
@@ -1695,7 +1695,7 @@ export const PT_B1_U22: Lesson[] = [
       {
         type: "dictation",
         audio: "O dono do apartamento mora em Florianópolis.",
-        explanation: "\"Dono\": the everyday word for owner.",
+        explanation: "\"Dono\" is the everyday word for owner; \"do apartamento\" is de + o.",
       },
       {
         type: "speak",
@@ -1784,7 +1784,7 @@ export const PT_B1_U22: Lesson[] = [
             en: "In case you don't [have] a bank account yet, that's fine.",
             sentence: "Caso você ainda não ___ conta no banco, tudo bem.",
             answer: "tenha",
-            explanation: "\"Caso\" + \"tenha\".",
+            explanation: "\"Caso\" + subjunctive \"tenha\": in case you don't have an account yet.",
           },
           {
             type: "listen-choose",
@@ -1859,7 +1859,7 @@ export const PT_B1_U22: Lesson[] = [
         en: "I need you to [sign] here.",
         sentence: "Preciso que você ___ aqui.",
         answer: "assine",
-        explanation: "\"Assinar\" → \"assine\".",
+        explanation: "\"Preciso que\" + subjunctive: \"assinar\" → \"assine\".",
       },
       {
         type: "translate",
@@ -1873,7 +1873,7 @@ export const PT_B1_U22: Lesson[] = [
           "Caso a seguradora não aceite, eu posso pagar uma caução.",
           "Caso a seguradora não aceite, posso dar caução.",
         ],
-        explanation: "\"Caso\" + subjunctive \"aceite\".",
+        explanation: "\"Caso\" + subjunctive \"aceite\"; the main clause \"posso pagar\" stays indicative.",
       },
       {
         type: "translate",
@@ -1882,7 +1882,7 @@ export const PT_B1_U22: Lesson[] = [
         source: "The rent comes to two thousand reais.",
         answer: "O aluguel fica em dois mil reais.",
         altAnswers: ["O aluguel fica dois mil reais.", "O aluguel é de dois mil reais.", "O aluguel fica em R$ 2.000.", "O aluguel dá dois mil reais."],
-        explanation: "\"Ficar em\" + amount: to come to.",
+        explanation: "\"Ficar em\" + amount means to come to: \"fica em dois mil reais\".",
       },
       {
         type: "translate",
@@ -1899,7 +1899,7 @@ export const PT_B1_U22: Lesson[] = [
         en: "It's important that the documents [are] in order.",
         sentence: "É importante que os documentos ___ em ordem.",
         answer: "estejam",
-        explanation: "\"É importante que\" + \"estejam\".",
+        explanation: "\"É importante que\" + subjunctive \"estejam\": being in order is a state.",
       },
       {
         type: "translate",
@@ -1908,7 +1908,7 @@ export const PT_B1_U22: Lesson[] = [
         source: "I've already got a CPF.",
         answer: "Já tenho CPF.",
         altAnswers: ["Eu já tenho CPF.", "Eu já tenho o CPF.", "Já tenho o CPF."],
-        explanation: "\"Já\" + present for already have.",
+        explanation: "\"Já\" + present means already have: \"já tenho CPF\".",
       },
       {
         type: "multiple-choice",
@@ -1938,7 +1938,7 @@ export const PT_B1_U22: Lesson[] = [
       {
         type: "dictation",
         audio: "Quanto fica tudo junto?",
-        explanation: "\"Ficar\": to come to, for a total.",
+        explanation: "\"Ficar\" means to come to when you ask about a total: \"quanto fica tudo junto?\"",
       },
       {
         type: "speak",
@@ -2040,7 +2040,7 @@ export const PT_B1_U22: Lesson[] = [
             en: "[The thing is], my son wakes up early.",
             sentence: "___ meu filho acorda cedo.",
             answer: "É que",
-            explanation: "\"É que\" introduces a reason gently.",
+            explanation: "\"É que\" introduces a reason gently, like English the thing is.",
           },
         ],
       },
@@ -2114,7 +2114,7 @@ export const PT_B1_U22: Lesson[] = [
           "Será que vocês podiam baixar o som depois das 22h?",
           "Será que você podia baixar o som depois das dez?",
         ],
-        explanation: "\"Será que\" + \"podiam\" + infinitive.",
+        explanation: "\"Será que\" + the polite imperfect \"podiam\" + infinitive makes a soft request.",
       },
       {
         type: "fill-blank",
@@ -2123,7 +2123,7 @@ export const PT_B1_U22: Lesson[] = [
         sentence: "A gente não sabia que ___ ouvir.",
         answer: "dava pra",
         altAnswers: ["dava para"],
-        explanation: "\"Dava pra\": the imperfect of \"dá pra\".",
+        explanation: "\"Dava pra\" is the imperfect of \"dá pra\": it was possible to.",
       },
       {
         type: "translate",
@@ -2132,7 +2132,7 @@ export const PT_B1_U22: Lesson[] = [
         source: "Let's hope the neighbours understand.",
         answer: "Tomara que os vizinhos entendam.",
         altAnswers: ["Espero que os vizinhos entendam.", "Eu espero que os vizinhos entendam."],
-        explanation: "\"Tomara que\" + subjunctive \"entendam\".",
+        explanation: "\"Tomara que\" + subjunctive: \"entender\" → \"entendam\" for \"os vizinhos\".",
       },
       {
         type: "translate",
@@ -2165,7 +2165,7 @@ export const PT_B1_U22: Lesson[] = [
         sentence: "Prefiro que vocês ___ comigo primeiro.",
         answer: "falem",
         altAnswers: ["conversem"],
-        explanation: "\"Prefiro que\" + subjunctive \"falem\".",
+        explanation: "\"Prefiro que\" + subjunctive: \"falar\" → \"falem\" for \"vocês\".",
       },
       {
         type: "multiple-choice",
@@ -2318,7 +2318,7 @@ export const PT_B1_U22: Lesson[] = [
             type: "speak",
             text: "O inquilino do apartamento 201 já se mudou.",
             tip: "Read 201 as duzentos e um.",
-            explanation: "\"Do\" = de + o, never \"*de o\".",
+            explanation: "\"Do\" is de + o; Portuguese never writes \"*de o\" before a noun.",
           },
         ],
       },
@@ -2378,7 +2378,7 @@ export const PT_B1_U22: Lesson[] = [
         source: "I need the electrician to come tomorrow.",
         answer: "Preciso que o eletricista venha amanhã.",
         altAnswers: ["Eu preciso que o eletricista venha amanhã."],
-        explanation: "\"Preciso que\" + \"venha\".",
+        explanation: "\"Preciso que\" + subjunctive \"venha\", from \"venho\".",
       },
       {
         type: "translate",
@@ -2395,7 +2395,7 @@ export const PT_B1_U22: Lesson[] = [
         en: "The tenant has [to pay] the property tax.",
         sentence: "É preciso que o inquilino ___ o IPTU.",
         answer: "pague",
-        explanation: "\"É preciso que\" + subjunctive \"pague\".",
+        explanation: "\"É preciso que\" + subjunctive: \"pagar\" → \"pague\", with u to keep the g hard.",
       },
       {
         type: "translate",
@@ -2434,14 +2434,14 @@ export const PT_B1_U22: Lesson[] = [
       {
         type: "dictation",
         audio: "A chave da porta ficou na portaria.",
-        explanation: "\"Da\" = de + a, \"na\" = em + a.",
+        explanation: "\"Da\" is de + a (\"da porta\") and \"na\" is em + a (\"na portaria\").",
       },
       {
         type: "speak",
         text: "Procuro um apartamento que tenha dois quartos.",
         prompt: "Say it in Portuguese: I'm looking for a flat with two bedrooms.",
         tip: "Quartos: the r before t is a light tap or a throaty sound, depending on the region.",
-        explanation: "\"Que tenha\": the flat isn't found yet.",
+        explanation: "\"Que tenha\": the flat isn't found yet, so the subjunctive.",
       },
     ],
   },
@@ -2482,7 +2482,7 @@ export const PT_B1_U22: Lesson[] = [
             en: "There's a [leak] under the kitchen sink.",
             sentence: "Tem um ___ embaixo da pia da cozinha.",
             answer: "vazamento",
-            explanation: "\"Vazamento\" (a leak), from \"vazar\".",
+            explanation: "\"Vazamento\" (a leak) comes from \"vazar\", to leak.",
           },
         ],
       },
@@ -2515,7 +2515,7 @@ export const PT_B1_U22: Lesson[] = [
             en: "It needs fixing before the water [reaches] the flat below.",
             sentence: "Tem que consertar antes que a água ___ no apartamento de baixo.",
             answer: "chegue",
-            explanation: "\"Antes que\" + subjunctive \"chegue\".",
+            explanation: "\"Antes que\" + subjunctive \"chegue\": the water hasn't reached the flat yet.",
           },
           {
             type: "listen-choose",
@@ -2612,7 +2612,7 @@ export const PT_B1_U22: Lesson[] = [
         en: "If the plumber [can] only come on Saturday, that's fine.",
         sentence: "Caso o encanador só ___ vir no sábado, tudo bem.",
         answer: "possa",
-        explanation: "\"Caso\" + subjunctive \"possa\".",
+        explanation: "\"Caso\" + subjunctive \"possa\" (from \"posso\"), then the infinitive \"vir\".",
       },
       {
         type: "translate",
@@ -2676,7 +2676,7 @@ export const PT_B1_U22: Lesson[] = [
       {
         type: "dictation",
         audio: "Infelizmente o problema piorou.",
-        explanation: "\"Piorou\": the perfeito of \"piorar\".",
+        explanation: "\"Piorou\" is the perfeito of \"piorar\" (to get worse), covering English has got worse.",
       },
       {
         type: "speak",
@@ -2736,7 +2736,7 @@ export const PT_B1_U22: Lesson[] = [
               "O corretor disse que o dono aceitava caução.",
               "A corretora disse que o dono aceitava caução.",
             ],
-            explanation: "\"Disse que\" reports, so the indicative.",
+            explanation: "\"Disse que\" reports what was said, so the indicative \"aceita\" stays.",
           },
           {
             type: "listen-choose",
@@ -2775,7 +2775,7 @@ export const PT_B1_U22: Lesson[] = [
             en: "It's urgent that someone [fixes] the gate.",
             sentence: "É urgente que alguém ___ o portão.",
             answer: "conserte",
-            explanation: "\"É urgente que\" + subjunctive.",
+            explanation: "\"É urgente que\" + subjunctive: \"consertar\" → \"conserte\".",
           },
         ],
       },
@@ -2898,7 +2898,7 @@ export const PT_B1_U22: Lesson[] = [
         sentence: "Aqui não tem nenhum encanador que ___ no domingo.",
         answer: "trabalhe",
         altAnswers: ["atenda"],
-        explanation: "\"Nenhum... que\" + subjunctive.",
+        explanation: "\"Nenhum... que\" describes something that doesn't exist, so the subjunctive \"trabalhe\".",
       },
       {
         type: "translate",
@@ -2913,7 +2913,7 @@ export const PT_B1_U22: Lesson[] = [
           "A não ser que o dono abaixe o aluguel, a gente vai se mudar.",
           "A não ser que o dono diminua o aluguel, a gente vai se mudar.",
         ],
-        explanation: "\"A não ser que\" + subjunctive \"baixe\".",
+        explanation: "\"A não ser que\" (unless) + subjunctive: \"baixar\" → \"baixe\".",
       },
       {
         type: "matching",
@@ -2926,7 +2926,7 @@ export const PT_B1_U22: Lesson[] = [
           { left: "chaveiro", right: "locksmith" },
           { left: "quitinete", right: "studio flat" },
         ],
-        explanation: "Vocabulary from across the unit.",
+        explanation: "Key words from the unit: leak, guarantor, parcel, inspection, locksmith and studio flat.",
       },
       {
         type: "listen-choose",
@@ -2944,7 +2944,7 @@ export const PT_B1_U22: Lesson[] = [
       {
         type: "dictation",
         audio: "Espero que o senhor me entenda.",
-        explanation: "\"Me\" before the subjunctive \"entenda\".",
+        explanation: "\"Espero que\" + subjunctive \"entenda\", with \"me\" before the verb.",
       },
       {
         type: "speak",

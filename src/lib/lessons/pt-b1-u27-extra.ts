@@ -88,8 +88,8 @@ export const PT_B1_U27_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into Portuguese.",
         source: "We've been eating out a lot.",
-        answer: "Temos comido fora muito.",
-        altAnswers: ["A gente tem comido fora muito.", "Nós temos comido fora muito.", "Temos comido muito fora.", "A gente tem comido muito fora.", "Temos jantado fora muito.", "A gente anda comendo muito fora."],
+        answer: "Temos comido muito fora.",
+        altAnswers: ["A gente tem comido fora muito.", "Nós temos comido fora muito.", "Temos comido fora muito.", "Nós temos comido muito fora.", "A gente tem comido muito fora.", "Temos jantado fora muito.", "A gente anda comendo muito fora."],
         explanation: "Repeated lately: \"temos comido\". \"Comer fora\" is to eat out.",
       },
       {

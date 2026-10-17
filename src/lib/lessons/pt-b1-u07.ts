@@ -295,7 +295,7 @@ export const PT_B1_U07: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "The shops have been opening on Sundays.",
             answer: "As lojas têm aberto aos domingos.",
-            altAnswers: ["As lojas têm aberto nos domingos.", "As lojas têm aberto no domingo.", "As lojas têm aberto domingo."],
+            altAnswers: ["As lojas têm aberto nos domingos.", "As lojas têm aberto aos domingos também.", "Aos domingos as lojas têm aberto."],
             explanation: "\"Abrir\" → \"aberto\". The plural subject changes \"ter\" to \"têm\", but the participle stays \"aberto\".",
           },
           {
@@ -414,8 +414,8 @@ export const PT_B1_U07: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "She's been putting on weight lately.",
         answer: "Ultimamente ela tem ganhado peso.",
-        altAnswers: ["Ela tem ganhado peso ultimamente.", "Ultimamente ela tem ganho peso.", "Ela tem ganho peso ultimamente."],
-        explanation: "\"Ganhar peso\" is to put on weight. With \"ter\", both \"ganhado\" and \"ganho\" are common in Brazil.",
+        altAnswers: ["Ela tem ganhado peso ultimamente.", "Ultimamente ela tem ganho peso.", "Ela tem ganho peso ultimamente.", "Ultimamente ela tem engordado.", "Ela tem engordado ultimamente."],
+        explanation: "\"Ganhar peso\" is to put on weight, and \"engordar\" says the same in one verb. With \"ter\", both \"ganhado\" and \"ganho\" are common in Brazil.",
       },
       {
         type: "multiple-choice",
@@ -1795,7 +1795,7 @@ export const PT_B1_U07: Lesson[] = [
             type: "speak",
             text: "Já fui a Salvador duas vezes.",
             prompt: "Say it in Portuguese: I've been to Salvador twice.",
-            tip: "Say the open ó in \"vezes\" as a closed ê: VÊ-zis, with the s between vowels as a z.",
+            tip: "\"Vezes\" has a closed ê, VÊ-zis, and the s between the vowels sounds like z.",
             explanation: "\"Já fui\": a past experience takes the simple perfeito, even with a number of times.",
           },
         ],

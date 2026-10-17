@@ -410,7 +410,7 @@ export const PT_B2_U01: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "She asked me to bring the cake.",
         answer: "Ela pediu que eu trouxesse o bolo.",
-        altAnswers: ["Ela me pediu que eu trouxesse o bolo.", "Ela pediu para eu trazer o bolo.", "Ela me pediu para trazer o bolo."],
+        altAnswers: ["Ela me pediu que eu trouxesse o bolo.", "Ela pediu para eu trazer o bolo.", "Ela me pediu para trazer o bolo.", "Ela pediu pra eu trazer o bolo.", "Ela me pediu pra trazer o bolo."],
         explanation: "\"Trouxeram\" → \"trouxesse\", with the x said like ss. In speech \"pediu para eu trazer\" is just as common.",
       },
       {
@@ -2306,7 +2306,7 @@ export const PT_B2_U01: Lesson[] = [
         type: "speak",
         text: "Todo mundo queria que você ficasse.",
         prompt: "Say it in Portuguese: Everybody wanted you to stay.",
-        tip: "Open the é in você's stressed partner word? No: keep você closed (vo-SÊ) and stress fi-CA in ficasse.",
+        tip: "Keep the ê in você closed (vo-SÊ), and stress fi-CA in ficasse with a hissing ss.",
         explanation: "\"Todo mundo\" takes the ele form \"queria\", and the past wish takes \"ficasse\".",
       },
       {

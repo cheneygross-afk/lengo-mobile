@@ -53,7 +53,7 @@ export const PT_A2_U12_EXTRA: Lesson[] = [
             question: "What does it mean?",
             options: ["I have a fever.", "I'm cold.", "I'm hungry.", "I have the flu."],
             correctIndex: 0,
-            explanation: "\"Febre\" is fever.",
+            explanation: "\"Febre\" is fever: a passing state, so \"estar com\" + the noun. Cold would be \"com frio\", the flu \"com gripe\".",
           },
         ],
       },
@@ -119,7 +119,7 @@ export const PT_A2_U12_EXTRA: Lesson[] = [
         en: "I [have a sore throat].",
         sentence: "Estou ___.",
         answer: "com dor de garganta",
-        explanation: "\"Com dor de garganta\".",
+        explanation: "A sore throat is \"dor de garganta\", with \"de\" and no article, after \"estou com\" for a state you are in now.",
       },
       {
         type: "fill-blank",
@@ -266,7 +266,7 @@ export const PT_A2_U12_EXTRA: Lesson[] = [
         source: "I have to see a dentist.",
         answer: "Tenho que ir ao dentista.",
         altAnswers: ["Eu tenho que ir ao dentista.", "Preciso ir ao dentista.", "Tenho de ir ao dentista."],
-        explanation: "\"Ir ao dentista\".",
+        explanation: "Have to is \"ter que\" + infinitive (or \"precisar\" + infinitive). To see a dentist is \"ir ao dentista\": a + o = \"ao\".",
       },
       {
         type: "translate",
@@ -430,7 +430,7 @@ export const PT_A2_U12_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "I'll take this one.",
         answer: "Fico com esse.",
-        altAnswers: ["Fico com essa.", "Vou ficar com esse.", "Vou levar esse."],
+        altAnswers: ["Eu fico com esse.", "Eu fico com essa.", "Fico com essa.", "Vou ficar com esse.", "Vou levar esse."],
         explanation: "\"Ficar com\" = keep, take (when shopping).",
       },
       {

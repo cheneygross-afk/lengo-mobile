@@ -411,10 +411,10 @@ export const PT_A2_U16: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Às sextas eu faço home office.",
+        text: "Às sextas eu trabalho de casa.",
         prompt: "Say it in Portuguese: On Fridays I work from home.",
-        tip: "Brazilians say \"home office\" with a Portuguese accent: rome-OF-fice.",
-        explanation: "\"Fazer home office\" is the everyday Brazilian phrase; \"trabalhar de casa\" also works.",
+        tip: "\"Trabalho\": the lh is like the lli in million, tra-BA-lyu.",
+        explanation: "\"Trabalhar de casa\" is to work from home; in speech you'll also hear the borrowed \"fazer home office\".",
       },
     ],
   },
@@ -1111,7 +1111,7 @@ export const PT_A2_U16: Lesson[] = [
         heading: "Personality, and comparing people",
         body: [
           "\"Simpático\" means nice, friendly, never sympathetic. \"Engraçado\" is funny, \"chato\" annoying or boring (a word you'll hear constantly), \"tímido\" shy, \"calmo\" calm, \"teimoso\" stubborn. \"Nervoso\" is nervous, but also irritable or angry: \"ele ficou nervoso comigo\".",
-          "Compare people with the Unit 7 forms: \"ela é mais engraçada do que o irmão\", \"ele é tão teimoso quanto o pai\".",
+          "Compare people with the forms from the comparisons unit: \"ela é mais engraçada do que o irmão\", \"ele é tão teimoso quanto o pai\".",
         ],
         examples: [
           { es: "O seu namorado é muito simpático.", en: "Your boyfriend is really nice." },
@@ -1963,7 +1963,7 @@ export const PT_A2_U16: Lesson[] = [
         heading: "Saber or conhecer?",
         body: [
           "A quick reminder from A1: \"saber\" is to know facts and how to do things (\"sei o endereço\", \"sei nadar\"); \"conhecer\" is to know people and places, to be familiar with them (\"conheço a Ana\", \"você conhece Salvador?\").",
-          "In the past they change meaning, as you saw in Unit 5: \"soube\" = found out, \"conheci\" = met, or visited for the first time.",
+          "In the past they change meaning, as you saw in the \"perfeito or imperfeito\" unit: \"soube\" = found out, \"conheci\" = met, or visited for the first time.",
         ],
         examples: [
           { es: "Você sabe o endereço do restaurante?", en: "Do you know the restaurant's address?" },
@@ -2340,7 +2340,7 @@ export const PT_A2_U16: Lesson[] = [
       {
         heading: "Plans and comparisons",
         body: [
-          "Weekend plans take \"vou\" + infinitive: \"no sábado vou malhar e depois vou sair com os amigos\". Comparing neighbourhoods uses Unit 7: \"o meu bairro é mais tranquilo do que o centro\", \"aqui tem tantos ônibus quanto lá\".",
+          "Weekend plans take \"vou\" + infinitive: \"no sábado vou malhar e depois vou sair com os amigos\". Comparing neighbourhoods uses the comparisons unit: \"o meu bairro é mais tranquilo do que o centro\", \"aqui tem tantos ônibus quanto lá\".",
         ],
         examples: [
           { es: "No sábado vou malhar e depois vou sair com os amigos.", en: "On Saturday I'm going to work out and then go out with friends." },
@@ -2502,6 +2502,6 @@ export const PT_A2_U16_WRITING: WriteExercise = {
     "Use at least one of the multi-use verbs correctly: \"pegar\", \"deixar\", \"dar\" (\"não deu tempo\", \"deu certo\") or \"levar\" / \"trazer\".",
     "Say what you're going to do at the weekend with \"vou\" + infinitive.",
   ],
-  modelAnswer: "Oi, Mariana! A minha semana foi bem corrida. Na segunda eu fiz hora extra até as nove e não deu tempo de jantar. Na quarta choveu muito, e quando eu estava no ponto de ônibus, a bateria do meu celular acabou! Peguei o ônibus errado e cheguei atrasado numa reunião. Pelo menos o meu chefe é simpático. Ontem eu fiz faxina na casa toda e lavei a louça da semana. No sábado vou malhar e depois vou levar os meus sobrinhos ao parque. Te mando um áudio amanhã! Beijos.",
+  modelAnswer: "Oi, Mariana! A minha semana foi bem corrida. Na segunda eu fiz hora extra até as nove e não deu tempo de jantar. Na quarta choveu muito, e quando eu estava no ponto de ônibus, a bateria do meu celular acabou! Peguei o ônibus errado e cheguei atrasado para uma reunião. Pelo menos o meu chefe é simpático. Ontem eu fiz faxina na casa toda e lavei a louça da semana. No sábado vou malhar e depois vou levar os meus sobrinhos ao parque. Te mando um áudio amanhã! Beijos.",
   explanation: "The message is built from the unit's word webs: work (\"fiz hora extra\", \"reunião\", \"chefe\"), weather (\"choveu muito\"), phones (\"a bateria acabou\", \"te mando um áudio\"), the city (\"ponto de ônibus\", \"peguei o ônibus errado\") and the house (\"fiz faxina\", \"lavei a louça\"). \"Não deu tempo de jantar\" uses \"dar\" for possibility, and \"levar\" takes the nephews away from home to the park. Past events are in the perfeito, the interrupted moment uses \"estava\" + \"quando\", and the weekend plans use \"vou\" + infinitive. \"Simpático\" means nice, not sympathetic.",
 };

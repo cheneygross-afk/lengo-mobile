@@ -488,7 +488,7 @@ export const PT_A1_U11_EXTRA: Lesson[] = [
       },
       {
         type: "speak",
-        text: "O meu nome é Kate, K-A-T-E.",
+        text: "O meu nome é Kate: cá, á, tê, é.",
         prompt: "Say it in Portuguese: My name is Kate, K-A-T-E.",
         tip: "Letters: K is cá, A is á, T is tê, E is é.",
         explanation: "Spell your name with the Portuguese alphabet.",

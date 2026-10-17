@@ -625,7 +625,7 @@ export const PT_C2_U19: Lesson[] = [
         type: "speak",
         text: "Em que pesem as críticas, o programa foi renovado.",
         prompt: "Say it in Portuguese, formally: Despite the criticism, the programme was renewed.",
-        tip: "Say \"pesem\" with a closed ê (PÊ-zeim) and make the final -em nasal.",
+        tip: "Say \"pesem\" with an open é, as in \"ela pesa\" (PÉ-zeim), and make the final -em nasal.",
         explanation: "Plural \"críticas\" means plural \"pesem\": the noun is the subject of \"pesar\".",
       },
       {
@@ -935,7 +935,6 @@ export const PT_C2_U19: Lesson[] = [
           "O projeto é bem-intencionado; porém, é inviável.",
           "O projeto é bem-intencionado, mas é inviável.",
           "O projeto é bem-intencionado; no entanto, ele é inviável.",
-          "O projeto é bem intencionado; no entanto, é inviável.",
         ],
         explanation: "\"No entanto\", \"contudo\" and \"porém\" make a formal turn; \"bem-intencionado\" keeps its hyphen.",
       },

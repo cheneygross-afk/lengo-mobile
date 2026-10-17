@@ -771,7 +771,7 @@ export const PT_C2_U18: Lesson[] = [
       {
         heading: "Nominalisation",
         body: [
-          "The most powerful condensing tool is to turn a clause into a noun phrase. \"Como os preços subiram, as vendas caíram\" (eight words, two clauses) becomes \"a alta dos preços derrubou as vendas\" (six words, one clause). \"O fato de que o governo demorou para agir\" becomes \"a demora do governo\". Portuguese has a noun for almost every verb: \"aumentar\" gives \"aumento\", \"reduzir\" gives \"redução\", \"decidir\" gives \"decisão\", \"adiar\" gives \"adiamento\", \"cair\" gives \"queda\", \"subir\" gives \"alta\" or \"aumento\", \"demorar\" gives \"demora\".",
+          "The most powerful condensing tool is to turn a clause into a noun phrase. \"Como os preços subiram, as vendas caíram\" (two clauses and a connector) becomes \"a alta dos preços derrubou as vendas\" (one clause, no connector). \"O fato de que o governo demorou para agir\" becomes \"a demora do governo\". Portuguese has a noun for almost every verb: \"aumentar\" gives \"aumento\", \"reduzir\" gives \"redução\", \"decidir\" gives \"decisão\", \"adiar\" gives \"adiamento\", \"cair\" gives \"queda\", \"subir\" gives \"alta\" or \"aumento\", \"demorar\" gives \"demora\".",
           "The subject of the verb becomes a \"de\" phrase (\"o governo demorou\" becomes \"a demora do governo\"), the object often too (\"reduziram os juros\" becomes \"a redução dos juros\"). Two \"de\" phrases in a row can confuse, so use a possessive or a different preposition: \"a decisão do Banco Central de reduzir os juros\".",
           "Don't overdo it. A paragraph made only of nouns (\"a implementação da revisão da política de redução de custos\") is the bureaucratese Brazilians call \"juridiquês\" or \"burocratês\". Nominalise where it saves a clause, keep a strong verb in each sentence.",
         ],
@@ -1976,7 +1976,7 @@ export const PT_C2_U18: Lesson[] = [
             source: "HR, on the other hand, points out that skilled staff are scarce.",
             answer: "Já o RH ressalva que falta mão de obra qualificada.",
             altAnswers: ["Já o RH ressalva que há falta de mão de obra qualificada.", "Já o RH alerta que falta mão de obra qualificada.", "O RH, por outro lado, ressalva que falta mão de obra qualificada.", "Já o RH observa que falta mão de obra qualificada."],
-            explanation: "Contrastive \"já\" switches source; \"ressalva\" reports HR's point as a caveat. \"RH\" is pronounced ÉR-re-a-GÁ.",
+            explanation: "Contrastive \"já\" switches source; \"ressalva\" reports HR's point as a caveat. \"RH\" is pronounced \"erre agá\": É-hi-a-GÁ.",
           },
           {
             type: "listen-choose",

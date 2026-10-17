@@ -1871,7 +1871,7 @@ export const PT_C2_U20: Lesson[] = [
       {
         type: "dictation",
         audio: "Amanhã a gente faz a suíte.",
-        explanation: "\"Suíte\" is a follow-up story; the accent on the i keeps it two syllables: su-Í-te.",
+        explanation: "\"Suíte\" is a follow-up story; the accent on the i keeps it three syllables, su-Í-te, not \"suí-te\".",
       },
       {
         type: "translate",
@@ -2212,7 +2212,7 @@ export const PT_C2_U20: Lesson[] = [
               "Teu lide está enterrado. A notícia está no quarto parágrafo.",
               "O lide tá enterrado. A notícia tá no quarto parágrafo.",
             ],
-            explanation: "\"Lide enterrado\" is the buried lead. In fast newsroom speech \"tá\" replaces \"está\", and Minas speakers often say \"teu\" alongside \"você\".",
+            explanation: "\"Lide enterrado\" is the buried lead. In fast newsroom speech \"tá\" replaces \"está\", and many Brazilians mix a possessive \"teu\" with \"você\".",
           },
           {
             type: "fill-blank",

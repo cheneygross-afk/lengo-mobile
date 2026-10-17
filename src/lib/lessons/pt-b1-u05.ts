@@ -1470,7 +1470,7 @@ export const PT_B1_U05: Lesson[] = [
         type: "speak",
         text: "Preciso de um fiador que more em Belo Horizonte.",
         prompt: "Say it in Portuguese: I need a guarantor who lives in Belo Horizonte.",
-        tip: "The o in more is open, as in morar: MÓ-ri.",
+        tip: "The o in more is open, as in moro: MÓ-ri.",
         explanation: "Any guarantor who fits will do, so the subjunctive \"more\".",
       },
       {

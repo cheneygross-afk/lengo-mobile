@@ -150,8 +150,7 @@ export const PT_B2_U24_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: I should have listened to you.",
         words: ["Eu", "devia", "ter", "te", "ouvido."],
         translation: "I should have listened to you.",
-        altOrders: [["Eu", "te", "devia", "ter", "ouvido."]],
-        explanation: "\"Devia ter\" + participle; the pronoun can sit before the participle or the auxiliary.",
+        explanation: "\"Devia ter\" + participle. In Brazilian speech the pronoun sits right before the participle: \"devia ter te ouvido\".",
       },
       {
         type: "multiple-choice",
@@ -469,6 +468,7 @@ export const PT_B2_U24_EXTRA: Lesson[] = [
         en: "[Send me] the photos!",
         sentence: "___ as fotos!",
         answer: "Me manda",
+        altAnswers: ["Me mande"],
         explanation: "Spoken command with the pronoun first.",
       },
       {

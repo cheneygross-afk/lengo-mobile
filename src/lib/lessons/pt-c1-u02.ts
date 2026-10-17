@@ -40,7 +40,7 @@ export const PT_C1_U02: Lesson[] = [
           {
             type: "multiple-choice",
             question: "What does \"A Beatriz estará em casa agora\" mean?",
-            options: ["Beatriz is probably at home now.", "Beatriz will be at home later.", "Beatriz was at home.", "Beatriz should be at home."],
+            options: ["Beatriz is probably at home now.", "Beatriz will be at home later.", "Beatriz was at home.", "Beatriz ought to stay at home."],
             correctIndex: 0,
             explanation: "\"Agora\" anchors the sentence in the present, so \"estará\" is conjecture: probably, must be. A real future would need a future time and usually \"vai estar\".",
           },
@@ -195,7 +195,7 @@ export const PT_C1_U02: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "I wonder what time it is.",
         answer: "Que horas serão?",
-        altAnswers: ["Que horas será que são?"],
+        altAnswers: ["Que horas será que são?", "Que horas devem ser?"],
         explanation: "\"Serão\" agrees with \"horas\" and is a guess about now. \"Que horas será que são?\" is the spoken equivalent.",
       },
       {
@@ -216,7 +216,7 @@ export const PT_C1_U02: Lesson[] = [
         type: "speak",
         text: "Ele deve ter esquecido a reunião.",
         prompt: "Say it in Portuguese: He must have forgotten the meeting.",
-        tip: "The first e in deve is closed (ê) and the final e sounds like i: DÊ-vi.",
+        tip: "The first e in deve is open (é) and the final e sounds like i: DÉ-vi.",
         explanation: "\"Deve ter esquecido\": dever + ter + participle for a guess about the past.",
       },
       {
@@ -764,7 +764,7 @@ export const PT_C1_U02: Lesson[] = [
         type: "speak",
         text: "Apesar de estarmos cansados, saímos.",
         prompt: "Say it in Portuguese: Despite being tired, we went out.",
-        tip: "The final -e of \"de\" is said as i, so the d sounds like the j in 'jeans': \"dji-is-TAR-mos\".",
+        tip: "The final -e of \"de\" is said as i, so the d sounds like the j in 'jeans': \"dji-is-TAR-mus\".",
         explanation: "\"Estarmos\" is inflected so it agrees with the plural \"cansados\" and the nós subject of \"saímos\".",
       },
       {
@@ -931,7 +931,7 @@ export const PT_C1_U02: Lesson[] = [
           {
             type: "speak",
             text: "Amanhã às dez vou estar voando para Manaus.",
-            tip: "Stress Manaus on the last syllable, ma-NAUS, and keep the d in voando clear: vo-AN-do.",
+            tip: "Stress Manaus on the last syllable, ma-NAUS, and keep the d in voando clear: vo-AN-du.",
             explanation: "A legitimate future progressive: the flight will be in progress at ten o'clock tomorrow.",
           },
         ],
@@ -1456,6 +1456,7 @@ export const PT_C1_U02: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "She had never seen the sea. (in everyday speech)",
         answer: "Ela nunca tinha visto o mar.",
+        altAnswers: ["Nunca tinha visto o mar.", "Ela nunca havia visto o mar."],
         explanation: "In a novel this would be \"nunca vira o mar\". In speech it becomes \"tinha visto\", with the irregular participle of \"ver\".",
       },
       {
@@ -2346,7 +2347,7 @@ export const PT_C1_U02: Lesson[] = [
         type: "speak",
         text: "Apesar de ter chegado atrasada, ela foi bem recebida.",
         prompt: "Say it in Portuguese: Despite arriving late, she was well received.",
-        tip: "The d in recebida is soft, almost like the th in 'this'; don't stress apesar de.",
+        tip: "The d in recebida is a plain, firm d, as in English (it only turns into a j-like sound before an i sound); don't stress apesar de.",
         explanation: "\"Embora tivesse chegado atrasada\" compresses to \"apesar de ter chegado atrasada\". \"Atrasada\" agrees with ela.",
       },
     ],
@@ -2610,9 +2611,9 @@ export const PT_C1_U02: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into Portuguese.",
         source: "Who can that be at the door?",
-        answer: "Quem será na porta?",
-        altAnswers: ["Quem será que está na porta?", "Quem estará na porta?", "Quem será?"],
-        explanation: "\"Quem será?\" is the classic future of probability: a guess about the present, not a future event.",
+        answer: "Quem estará na porta?",
+        altAnswers: ["Quem será que está na porta?", "Quem será na porta?", "Quem será?"],
+        explanation: "The future of probability guesses about the present: \"quem estará na porta?\", or simply the classic \"quem será?\". In conversation, \"quem será que está na porta?\" is the most common version.",
       },
       {
         type: "translate",
