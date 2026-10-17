@@ -1,7 +1,21 @@
 import { useLayoutEffect } from "react";
-import { View, Text, Pressable, StyleSheet, ScrollView } from "react-native";
+import { View, Text, StyleSheet, ScrollView } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
+import NavCard from "@/ui/NavCard";
+import type { IconName, Tint } from "@/ui/Icon";
+import { colors } from "@/ui/theme";
+
+// Each tool's icon and tile color, picked from its title.
+function toolLook(title: string): { icon: IconName; tint: Tint } {
+  const t = title.toLowerCase();
+  if (t.includes("grammar")) return { icon: "grammar", tint: "rose" };
+  if (t.includes("conjugation")) return { icon: "conjugation", tint: "saffron" };
+  if (t.includes("exam")) return { icon: "exam", tint: "sea" };
+  if (t.includes("glossary")) return { icon: "glossary", tint: "rose" };
+  if (t.includes("placement")) return { icon: "placement", tint: "sea" };
+  return { icon: "vocab", tint: "saffron" };
+}
 
 type Props = NativeStackScreenProps<AppStackParamList, "StudyTools">;
 
@@ -123,17 +137,11 @@ export default function StudyToolsScreen({ navigation, route }: Props) {
         </Text>
         <View style={styles.list}>
           {course.tools.map((t) => (
-            <Pressable key={t.title} style={styles.card} onPress={() => t.open(navigation)}>
-              <Text style={styles.cardTitle}>{t.title}</Text>
-              <Text style={styles.cardBody}>{t.body}</Text>
-            </Pressable>
+            <NavCard key={t.title} {...toolLook(t.title)} title={t.title} body={t.body} onPress={() => t.open(navigation)} />
           ))}
         </View>
         <Text style={styles.sectionHeader}>YOUR LEVEL</Text>
-        <Pressable style={styles.card} onPress={() => navigation.navigate(course.placement)}>
-          <Text style={styles.cardTitle}>Placement Test</Text>
-          <Text style={styles.cardBody}>Find your level, retake anytime.</Text>
-        </Pressable>
+        <NavCard icon="placement" tint="sea" title="Placement Test" body="Find your level, retake anytime." onPress={() => navigation.navigate(course.placement)} />
       </ScrollView>
     );
   }
@@ -142,41 +150,27 @@ export default function StudyToolsScreen({ navigation, route }: Props) {
       <Text style={styles.subtitle}>Reference and practice tools to use alongside your lessons, whenever you need them.</Text>
       <View style={styles.list}>
         {TOOLS.map((t) => (
-          <Pressable key={t.route} style={styles.card} onPress={() => navigation.navigate(t.route)}>
-            <Text style={styles.cardTitle}>{t.title}</Text>
-            <Text style={styles.cardBody}>{t.body}</Text>
-          </Pressable>
+          <NavCard key={t.route} {...toolLook(t.title)} title={t.title} body={t.body} onPress={() => navigation.navigate(t.route)} />
         ))}
       </View>
       <Text style={styles.sectionHeader}>YOUR LEVEL</Text>
-      <Pressable style={styles.card} onPress={() => navigation.navigate("Placement")}>
-        <Text style={styles.cardTitle}>Placement Test</Text>
-        <Text style={styles.cardBody}>Find your level, retake anytime.</Text>
-      </Pressable>
+      <NavCard icon="placement" tint="sea" title="Placement Test" body="Find your level, retake anytime." onPress={() => navigation.navigate("Placement")} />
     </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "#FAF6F1" },
+  container: { flex: 1, backgroundColor: colors.background },
   content: { padding: 20, paddingBottom: 40 },
-  subtitle: { fontSize: 14, color: "#00000099", marginBottom: 16 },
-  list: { gap: 10 },
+  subtitle: { fontSize: 15, lineHeight: 21, color: colors.inkSoft, marginBottom: 18 },
+  list: { gap: 12 },
   sectionHeader: {
-    fontSize: 13,
-    fontWeight: "800",
-    color: "#00000066",
-    letterSpacing: 0.5,
-    marginTop: 24,
+    fontSize: 12,
+    fontWeight: "700",
+    color: colors.inkMuted,
+    letterSpacing: 1.2,
+    marginTop: 26,
     marginBottom: 10,
+    marginLeft: 4,
   },
-  card: {
-    borderWidth: 1,
-    borderColor: "#00000018",
-    borderRadius: 14,
-    padding: 16,
-    backgroundColor: "#fff",
-  },
-  cardTitle: { fontSize: 16, fontWeight: "700", color: "#000", marginBottom: 4 },
-  cardBody: { fontSize: 13.5, color: "#00000099", lineHeight: 19 },
 });

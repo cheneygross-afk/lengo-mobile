@@ -71,9 +71,9 @@ export default function EmailPrefs() {
 
 const s = StyleSheet.create({
   section: { marginTop: 28, gap: 10 },
-  title: { fontSize: 15, fontWeight: "700", color: "#000" },
+  title: { fontSize: 15, fontWeight: "700", color: "#2A1513" },
   row: { flexDirection: "row", alignItems: "center", justifyContent: "space-between", gap: 12 },
   rowText: { flex: 1 },
-  label: { fontSize: 14, color: "#000" },
-  sub: { fontSize: 12.5, color: "#00000080", marginTop: 2 },
+  label: { fontSize: 14, color: "#2A1513" },
+  sub: { fontSize: 12.5, color: "#2A151380", marginTop: 2 },
 });

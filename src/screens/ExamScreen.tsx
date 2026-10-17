@@ -23,7 +23,7 @@ import type { Exam } from "@/lib/exams/types";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Exam">;
 
-const BRAND = "#7A1F1F";
+const BRAND = "#8B0000";
 const KIND_LABEL = { reading: "Reading", listening: "Listening", writing: "Writing", speaking: "Speaking" } as const;
 
 // Mobile port of the website's /exams/[slug] page: the four papers, how
@@ -440,18 +440,18 @@ function SpanishExamScreen({ navigation, route }: Props) {
 }
 
 const s = StyleSheet.create({
-  screen: { flex: 1, backgroundColor: "#FAF6F1" },
+  screen: { flex: 1, backgroundColor: "#FAF7F2" },
   loading: { alignItems: "center", justifyContent: "center" },
   content: { padding: 20, gap: 14, paddingBottom: 40 },
-  h1: { fontSize: 22, fontWeight: "700", color: "#000" },
-  h2: { fontSize: 17, fontWeight: "700", color: "#000", marginTop: 6 },
-  intro: { fontSize: 14, color: "#00000099", lineHeight: 20 },
-  body: { fontSize: 14, color: "#000000cc", lineHeight: 20 },
-  bold: { fontWeight: "700", color: "#000" },
-  card: { backgroundColor: "#fff", borderRadius: 14, borderWidth: 1, borderColor: "#00000014", padding: 16, gap: 4 },
-  overline: { fontSize: 11, letterSpacing: 0.8, color: "#00000066" },
-  title: { fontSize: 16, fontWeight: "700", color: "#000" },
-  meta: { fontSize: 13, color: "#00000077" },
+  h1: { fontSize: 22, fontWeight: "700", color: "#2A1513" },
+  h2: { fontSize: 17, fontWeight: "700", color: "#2A1513", marginTop: 6 },
+  intro: { fontSize: 14, color: "#2A151399", lineHeight: 20 },
+  body: { fontSize: 14, color: "#2A1513cc", lineHeight: 20 },
+  bold: { fontWeight: "700", color: "#2A1513" },
+  card: { backgroundColor: "#fff", borderRadius: 14, borderWidth: 1, borderColor: "#2A151314", padding: 16, gap: 4 },
+  overline: { fontSize: 11, letterSpacing: 0.8, color: "#2A151366" },
+  title: { fontSize: 16, fontWeight: "700", color: "#2A1513" },
+  meta: { fontSize: 13, color: "#2A151377" },
   score: { fontSize: 13, color: BRAND, fontWeight: "600" },
-  note: { fontSize: 13, color: "#000", backgroundColor: "#f59e0b1a", borderRadius: 8, paddingHorizontal: 10, paddingVertical: 8 },
+  note: { fontSize: 13, color: "#2A1513", backgroundColor: "#f59e0b1a", borderRadius: 8, paddingHorizontal: 10, paddingVertical: 8 },
 });

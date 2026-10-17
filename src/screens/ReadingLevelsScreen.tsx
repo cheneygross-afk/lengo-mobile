@@ -1,6 +1,7 @@
 import { useEffect, useLayoutEffect, useState } from "react";
 import { View, Text, Pressable, StyleSheet, ScrollView, ActivityIndicator } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
+import { card, cardShadow, colors, fonts } from "@/ui/theme";
 import type { AppStackParamList } from "@/navigation/types";
 import { READING_LEVELS } from "@/lib/stories/registry";
 import { STORY_COURSES, type CourseStories, type StoryCourse } from "@/lib/stories/courseStories";
@@ -108,21 +109,15 @@ function CourseStoryLevels({ navigation, course }: Props & { course: StoryCourse
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "#FAF6F1" },
+  container: { flex: 1, backgroundColor: colors.background },
   content: { padding: 20, paddingBottom: 40 },
   loading: { alignItems: "center", justifyContent: "center" },
-  subtitle: { fontSize: 14, color: "#00000099", marginBottom: 20 },
+  subtitle: { fontSize: 15, lineHeight: 21, color: colors.inkSoft, marginBottom: 20 },
   cards: { gap: 14 },
-  card: {
-    borderWidth: 1,
-    borderColor: "#00000018",
-    borderRadius: 14,
-    padding: 18,
-    backgroundColor: "#fff",
-  },
+  card: { ...card, padding: 18, paddingLeft: 20, borderLeftWidth: 5, borderLeftColor: colors.saffron },
   cardTop: { flexDirection: "row", flexWrap: "wrap", alignItems: "baseline", gap: 8, marginBottom: 6 },
-  cardCode: { fontSize: 13, fontWeight: "800", color: "#00000066" },
-  cardName: { fontSize: 18, fontWeight: "800", color: "#7A1F1F", flexShrink: 1 },
-  cardDescription: { fontSize: 14, color: "#000000cc", lineHeight: 19, marginBottom: 10 },
-  cardMeta: { fontSize: 12, color: "#00000066", textTransform: "uppercase" },
+  cardCode: { fontFamily: fonts.display, fontSize: 21, color: colors.foreground },
+  cardName: { fontSize: 14, color: colors.inkSoft, flexShrink: 1 },
+  cardDescription: { fontSize: 14, color: colors.inkSoft, lineHeight: 20, marginBottom: 10 },
+  cardMeta: { fontSize: 12, fontWeight: "600", color: colors.inkMuted },
 });

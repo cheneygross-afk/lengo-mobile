@@ -11,7 +11,7 @@ import { loadPrefsLocal } from "@/lib/learnerPrefs";
 
 type Props = NativeStackScreenProps<AppStackParamList, "PortugueseGlossary">;
 
-const BRAND = "#7A1F1F";
+const BRAND = "#8B0000";
 
 type Entry = { row: PtVocabRow; level: string; pt: string; en: string };
 
@@ -246,44 +246,44 @@ export default function PortugueseGlossaryScreen({ navigation }: Props) {
 }
 
 const s = StyleSheet.create({
-  flex: { flex: 1, backgroundColor: "#FAF6F1" },
+  flex: { flex: 1, backgroundColor: "#FAF7F2" },
   content: { padding: 20, paddingBottom: 60 },
   input: {
     borderWidth: 1,
-    borderColor: "#00000033",
+    borderColor: "#2A151333",
     borderRadius: 10,
     paddingHorizontal: 12,
     paddingVertical: 10,
     fontSize: 16,
     backgroundColor: "#fff",
-    color: "#000",
+    color: "#2A1513",
   },
   chips: { flexDirection: "row", flexWrap: "wrap", gap: 8, marginTop: 10, marginBottom: 12 },
-  chip: { borderWidth: 1, borderColor: "#00000022", borderRadius: 999, paddingHorizontal: 12, paddingVertical: 6, backgroundColor: "#fff" },
+  chip: { borderWidth: 1, borderColor: "#2A151322", borderRadius: 999, paddingHorizontal: 12, paddingVertical: 6, backgroundColor: "#fff" },
   chipOn: { backgroundColor: BRAND, borderColor: BRAND },
-  chipText: { fontSize: 13, color: "#000" },
+  chipText: { fontSize: 13, color: "#2A1513" },
   chipTextOn: { color: "#fff", fontWeight: "700" },
-  muted: { fontSize: 14, color: "#00000099" },
-  levelBox: { borderWidth: 1, borderColor: "#00000018", borderRadius: 14, padding: 14, backgroundColor: "#fff", marginBottom: 12, gap: 6 },
-  levelTitle: { fontSize: 16, fontWeight: "700", color: "#000" },
-  levelBtn: { alignSelf: "flex-start", backgroundColor: "#000", borderRadius: 999, paddingHorizontal: 14, paddingVertical: 8, marginTop: 4 },
+  muted: { fontSize: 14, color: "#2A151399" },
+  levelBox: { borderWidth: 1, borderColor: "#2A151318", borderRadius: 14, padding: 14, backgroundColor: "#fff", marginBottom: 12, gap: 6 },
+  levelTitle: { fontSize: 16, fontWeight: "700", color: "#2A1513" },
+  levelBtn: { alignSelf: "flex-start", backgroundColor: "#2A1513", borderRadius: 999, paddingHorizontal: 14, paddingVertical: 8, marginTop: 4 },
   levelBtnText: { color: "#fff", fontWeight: "700", fontSize: 13 },
-  card: { borderWidth: 1, borderColor: "#00000018", borderRadius: 14, padding: 14, backgroundColor: "#fff" },
+  card: { borderWidth: 1, borderColor: "#2A151318", borderRadius: 14, padding: 14, backgroundColor: "#fff" },
   headRow: { flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start", gap: 8 },
-  pt: { fontSize: 18, fontWeight: "700", color: "#000", flexShrink: 1 },
+  pt: { fontSize: 18, fontWeight: "700", color: "#2A1513", flexShrink: 1 },
   badge: {
     fontSize: 11,
-    color: "#00000099",
+    color: "#2A151399",
     borderWidth: 1,
-    borderColor: "#00000033",
+    borderColor: "#2A151333",
     borderRadius: 999,
     paddingHorizontal: 8,
     paddingVertical: 2,
     overflow: "hidden",
   },
-  meaning: { fontSize: 15, color: "#000000cc" },
-  source: { fontSize: 13, color: "#00000099", textDecorationLine: "underline", marginTop: 6 },
+  meaning: { fontSize: 15, color: "#2A1513cc" },
+  source: { fontSize: 13, color: "#2A151399", textDecorationLine: "underline", marginTop: 6 },
   actions: { flexDirection: "row", gap: 10, marginTop: 12, flexWrap: "wrap" },
-  action: { borderWidth: 1, borderColor: "#00000022", borderRadius: 8, paddingHorizontal: 12, paddingVertical: 7 },
-  actionText: { fontSize: 13, color: "#000", fontWeight: "600" },
+  action: { borderWidth: 1, borderColor: "#2A151322", borderRadius: 8, paddingHorizontal: 12, paddingVertical: 7 },
+  actionText: { fontSize: 13, color: "#2A1513", fontWeight: "600" },
 });

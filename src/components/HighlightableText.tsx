@@ -316,13 +316,13 @@ export default function HighlightableText({
 const styles = StyleSheet.create({
   row: { flexDirection: "row", flexWrap: "wrap", alignItems: "flex-start" },
   word: { borderRadius: 2 },
-  marked: { textDecorationLine: "underline", textDecorationStyle: "dotted", textDecorationColor: "#00000080" },
+  marked: { textDecorationLine: "underline", textDecorationStyle: "dotted", textDecorationColor: "#2A151380" },
   pillWrap: {
     position: "absolute",
     transform: [{ translateX: -24 }, { translateY: -40 }],
   },
   pillBtn: {
-    backgroundColor: "#000",
+    backgroundColor: "#2A1513",
     color: "#fff",
     fontSize: 12,
     fontWeight: "700",

@@ -10,7 +10,7 @@ import { loadPrefsLocal } from "@/lib/learnerPrefs";
 import { courseOfLevelPath } from "@/lib/courses";
 type Props = NativeStackScreenProps<AppStackParamList, "FrequencyDecks">;
 
-const BRAND = "#7A1F1F";
+const BRAND = "#8B0000";
 
 // Mobile port of the "Frequency decks" panel on the website's Flashcards
 // page: the 6,000 most frequent Spanish words (src/lib/decks, synced from
@@ -116,32 +116,32 @@ export default function FrequencyDecksScreen({ navigation }: Props) {
 }
 
 const s = StyleSheet.create({
-  screen: { flex: 1, backgroundColor: "#FAF6F1" },
+  screen: { flex: 1, backgroundColor: "#FAF7F2" },
   content: { padding: 20, gap: 14, paddingBottom: 40 },
-  intro: { fontSize: 14, color: "#00000099", lineHeight: 20 },
-  deck: { backgroundColor: "#fff", borderRadius: 14, borderWidth: 1, borderColor: "#00000014", padding: 16, gap: 4 },
+  intro: { fontSize: 14, color: "#2A151399", lineHeight: 20 },
+  deck: { backgroundColor: "#fff", borderRadius: 14, borderWidth: 1, borderColor: "#2A151314", padding: 16, gap: 4 },
   titleRow: { flexDirection: "row", alignItems: "center", gap: 8 },
   badge: {
     fontSize: 12,
     fontWeight: "700",
     color: BRAND,
-    backgroundColor: "#7A1F1F14",
+    backgroundColor: "#8B000014",
     borderRadius: 999,
     paddingHorizontal: 8,
     paddingVertical: 2,
     overflow: "hidden",
   },
-  title: { fontSize: 17, fontWeight: "700", color: "#000", flexShrink: 1 },
-  size: { fontSize: 13, color: "#00000066" },
-  description: { fontSize: 14, color: "#000000aa", lineHeight: 20 },
-  have: { fontSize: 12, color: "#00000077", marginTop: 2 },
+  title: { fontSize: 17, fontWeight: "700", color: "#2A1513", flexShrink: 1 },
+  size: { fontSize: 13, color: "#2A151366" },
+  description: { fontSize: 14, color: "#2A1513aa", lineHeight: 20 },
+  have: { fontSize: 12, color: "#2A151377", marginTop: 2 },
   buttons: { flexDirection: "row", justifyContent: "flex-end", gap: 10, marginTop: 8 },
   primary: { backgroundColor: BRAND, borderRadius: 10, paddingVertical: 10, paddingHorizontal: 16, minWidth: 110, alignItems: "center" },
   primaryText: { color: "#fff", fontWeight: "700" },
   disabled: { opacity: 0.5 },
   secondary: { borderRadius: 10, paddingVertical: 10, paddingHorizontal: 12 },
-  secondaryText: { color: "#00000088", fontWeight: "600" },
-  message: { fontSize: 14, color: "#000000cc", lineHeight: 20 },
+  secondaryText: { color: "#2A151388", fontWeight: "600" },
+  message: { fontSize: 14, color: "#2A1513cc", lineHeight: 20 },
   link: { alignSelf: "center", padding: 10 },
   linkText: { color: BRAND, fontWeight: "700" },
 });

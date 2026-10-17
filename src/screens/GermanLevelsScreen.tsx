@@ -2,6 +2,8 @@ import { useCallback, useState } from "react";
 import { View, Text, Pressable, StyleSheet, ScrollView } from "react-native";
 import { useFocusEffect } from "@react-navigation/native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
+import ProgressBar from "@/ui/ProgressBar";
+import { card, cardShadow, colors, fonts, levelColor } from "@/ui/theme";
 import type { AppStackParamList } from "@/navigation/types";
 import { getCompletedMap, syncCompletedMapFromCloud } from "@/lib/lessons/completion";
 import { displayTitle, requiredLessons } from "@/lib/lessons/levels";
@@ -18,7 +20,7 @@ import { GERMAN_LANG } from "@/lib/speech";
 
 type Props = NativeStackScreenProps<AppStackParamList, "GermanLevels">;
 
-type Next = { levelPath: GermanLevelPath; code: string; lesson: Lesson; title: string; unitLabel?: string };
+type Next = { levelPath: GermanLevelPath; label: string; lesson: Lesson; title: string; unitLabel?: string };
 
 // The German course's level picker -- mirrors the website's /lessons/de
 // page and this app's SpanishLevelsScreen: A1 through C2, lined up with the
@@ -48,7 +50,7 @@ export default function GermanLevelsScreen({ navigation }: Props) {
           if (cancelled) return;
           setNext({
             levelPath: found.level.levelPath,
-            code: found.level.code,
+            label: found.level.label,
             lesson: found.lesson,
             title: displayTitle(found.lesson, data.lessons),
             unitLabel: found.unit?.label,
@@ -81,7 +83,7 @@ export default function GermanLevelsScreen({ navigation }: Props) {
           onPress={() => navigation.navigate("LessonRunner", { slug: next.lesson.slug, levelPath: next.levelPath })}
         >
           <Text style={styles.continueKicker}>
-            {next.levelPath === "de/a1" && next.lesson.number === 1 ? "Start" : "Continue"} · {next.code}
+            {next.levelPath === "de/a1" && next.lesson.number === 1 ? "Start" : "Continue"} · {next.label}
             {next.unitLabel ? ` · ${next.unitLabel}` : ""}
           </Text>
           <Text style={styles.continueTitle}>
@@ -89,14 +91,14 @@ export default function GermanLevelsScreen({ navigation }: Props) {
           </Text>
         </Pressable>
       )}
-      {next === null && <Text style={styles.doneNote}>You've finished every required lesson from A1 to C2.</Text>}
+      {next === null && <Text style={styles.doneNote}>You've finished every required lesson from beginner to mastery.</Text>}
       <View style={styles.cards}>
-        {GERMAN_LEVELS.map((level) => {
+        {GERMAN_LEVELS.map((level, i) => {
           const count = counts[level.key];
           return (
             <Pressable
               key={level.key}
-              style={styles.card}
+              style={[styles.card, { borderLeftColor: levelColor(i) }]}
               onPress={() => navigation.navigate("LessonList", { germanLevel: level.key })}
             >
               <View style={styles.cardTop}>
@@ -104,6 +106,7 @@ export default function GermanLevelsScreen({ navigation }: Props) {
                 {level.exam ? <Text style={styles.cardExam}>{level.exam}</Text> : null}
               </View>
               <TapText text={level.description} lang={GERMAN_LANG} mode="mixed" style={styles.cardDescription} />
+              <ProgressBar done={count?.done ?? 0} total={count?.total ?? 0} color={levelColor(i)} />
               <Text style={styles.cardMeta}>
                 {count ? `${count.done} of ${count.total} required completed` : "Loading…"}
               </Text>
@@ -116,24 +119,18 @@ export default function GermanLevelsScreen({ navigation }: Props) {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "#FAF6F1" },
+  container: { flex: 1, backgroundColor: colors.background },
   content: { padding: 20, paddingBottom: 40 },
-  subtitle: { fontSize: 14, color: "#00000099", marginBottom: 20 },
-  continueCard: { backgroundColor: "#000", borderRadius: 14, padding: 16, marginBottom: 20 },
-  continueKicker: { fontSize: 11, fontWeight: "700", letterSpacing: 0.5, textTransform: "uppercase", color: "#ffffffaa" },
-  continueTitle: { fontSize: 16, fontWeight: "700", color: "#fff", marginTop: 4 },
+  subtitle: { fontSize: 15, lineHeight: 21, color: colors.inkSoft, marginBottom: 20 },
+  continueCard: { backgroundColor: colors.foreground, borderRadius: 20, padding: 18, marginBottom: 22, overflow: "hidden", ...cardShadow },
+  continueKicker: { fontSize: 11, fontWeight: "700", letterSpacing: 1, textTransform: "uppercase", color: colors.saffronSoft },
+  continueTitle: { fontFamily: fonts.display, fontSize: 19, lineHeight: 25, color: "#fff", marginTop: 6 },
   doneNote: { fontSize: 14, color: "#15803d", fontWeight: "600", marginBottom: 20 },
   cards: { gap: 14 },
-  card: {
-    borderWidth: 1,
-    borderColor: "#00000018",
-    borderRadius: 14,
-    padding: 18,
-    backgroundColor: "#fff",
-  },
+  card: { ...card, padding: 18, paddingLeft: 20, borderLeftWidth: 5, borderLeftColor: colors.saffron },
   cardTop: { flexDirection: "row", flexWrap: "wrap", alignItems: "baseline", gap: 8, marginBottom: 6 },
-  cardName: { fontSize: 18, fontWeight: "800", color: "#7A1F1F", flexShrink: 1 },
-  cardExam: { fontSize: 12, fontWeight: "700", color: "#00000066" },
-  cardDescription: { fontSize: 14, color: "#000000cc", lineHeight: 19, marginBottom: 10 },
-  cardMeta: { fontSize: 12, color: "#00000066", textTransform: "uppercase" },
+  cardName: { fontFamily: fonts.display, fontSize: 21, color: colors.ink, flexShrink: 1 },
+  cardExam: { fontSize: 12, fontWeight: "700", color: colors.sea },
+  cardDescription: { fontSize: 14, color: colors.inkSoft, lineHeight: 20, marginBottom: 12 },
+  cardMeta: { fontSize: 12, fontWeight: "600", color: colors.inkMuted, marginTop: 8 },
 });

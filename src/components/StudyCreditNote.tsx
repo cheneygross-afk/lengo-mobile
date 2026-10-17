@@ -24,5 +24,5 @@ export default function StudyCreditNote({ result, style }: { result: CreditResul
 }
 
 const s = StyleSheet.create({
-  note: { fontSize: 13, color: "#000000a0", marginTop: 6 },
+  note: { fontSize: 13, color: "#2A1513a0", marginTop: 6 },
 });

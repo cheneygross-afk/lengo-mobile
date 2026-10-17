@@ -23,7 +23,7 @@ import { LEVEL_VERBS } from "@/lib/conjugation/levelVerbs";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Conjugation">;
 
-const BRAND = "#7A1F1F";
+const BRAND = "#8B0000";
 const POPULAR = ["ser", "estar", "tener", "hacer", "ir", "decir", "poder", "querer", "saber", "venir", "pedir", "dormir"];
 const GROUPS: { title: string; tenses: TenseId[] }[] = [
   { title: "Indicative", tenses: ["pres", "pret", "impf", "fut", "pperf", "plup", "futperf"] },
@@ -197,7 +197,7 @@ function VerbTables({ infinitive, onPick }: { infinitive: string; onPick: (inf: 
         commands; elsewhere it uses the tú form.
       </Text>
       {verb.notes.map((n) => (
-        <TapText key={n} text={n} lang={SPANISH_LANG} mode="mixed" style={[s.small, { marginTop: 8, color: "#000000cc" }]} />
+        <TapText key={n} text={n} lang={SPANISH_LANG} mode="mixed" style={[s.small, { marginTop: 8, color: "#2A1513cc" }]} />
       ))}
       {GROUPS.map((g) => (
         <View key={g.title}>
@@ -353,7 +353,7 @@ function Drill() {
         </Text>
         {missed.length > 0 && <Text style={[s.muted, { marginTop: 12 }]}>To go over:</Text>}
         {missed.map((r, i) => (
-          <Text key={i} style={[s.small, { marginTop: 6, color: "#000000cc" }]}>
+          <Text key={i} style={[s.small, { marginTop: 6, color: "#2A1513cc" }]}>
             {drillTenseLabel(r.q.tense)}, <TapText text={r.q.subject} lang={SPANISH_LANG} mode="target" />:{" "}
             <TapText text={r.q.infinitive} lang={SPANISH_LANG} mode="target" /> →{" "}
             <TapText text={r.q.answers[0]} lang={SPANISH_LANG} mode="target" style={s.bold} /> (you wrote{" "}
@@ -419,64 +419,64 @@ function Drill() {
 }
 
 const s = StyleSheet.create({
-  flex: { flex: 1, backgroundColor: "#FAF6F1" },
+  flex: { flex: 1, backgroundColor: "#FAF7F2" },
   content: { padding: 20, paddingBottom: 60 },
-  tabs: { flexDirection: "row", gap: 8, paddingHorizontal: 20, paddingTop: 12, backgroundColor: "#FAF6F1" },
+  tabs: { flexDirection: "row", gap: 8, paddingHorizontal: 20, paddingTop: 12, backgroundColor: "#FAF7F2" },
   tab: { flex: 1, borderWidth: 1.5, borderColor: `${BRAND}33`, borderRadius: 999, paddingVertical: 8, alignItems: "center", backgroundColor: "#fff" },
   tabOn: { backgroundColor: BRAND, borderColor: BRAND },
   tabText: { fontSize: 14, fontWeight: "700", color: BRAND },
   tabTextOn: { color: "#fff" },
   input: {
     borderWidth: 1,
-    borderColor: "#00000033",
+    borderColor: "#2A151333",
     borderRadius: 10,
     paddingHorizontal: 12,
     paddingVertical: 10,
     fontSize: 16,
     backgroundColor: "#fff",
-    color: "#000",
+    color: "#2A1513",
   },
   inputRight: { borderColor: "#16a34a", backgroundColor: "#16a34a1a" },
   inputWrong: { borderColor: "#dc2626", backgroundColor: "#dc26261a" },
-  results: { marginTop: 8, borderWidth: 1, borderColor: "#00000018", borderRadius: 10, backgroundColor: "#fff" },
-  resultRow: { paddingHorizontal: 12, paddingVertical: 10, borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: "#00000022" },
-  resultTitle: { fontSize: 16, fontWeight: "700", color: "#000" },
-  muted: { fontSize: 14, color: "#00000099" },
-  small: { fontSize: 13, color: "#00000080" },
+  results: { marginTop: 8, borderWidth: 1, borderColor: "#2A151318", borderRadius: 10, backgroundColor: "#fff" },
+  resultRow: { paddingHorizontal: 12, paddingVertical: 10, borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: "#2A151322" },
+  resultTitle: { fontSize: 16, fontWeight: "700", color: "#2A1513" },
+  muted: { fontSize: 14, color: "#2A151399" },
+  small: { fontSize: 13, color: "#2A151380" },
   chips: { flexDirection: "row", flexWrap: "wrap", gap: 8, marginTop: 8 },
-  chip: { borderWidth: 1, borderColor: "#00000022", borderRadius: 999, paddingHorizontal: 12, paddingVertical: 6, backgroundColor: "#fff" },
+  chip: { borderWidth: 1, borderColor: "#2A151322", borderRadius: 999, paddingHorizontal: 12, paddingVertical: 6, backgroundColor: "#fff" },
   chipOn: { backgroundColor: BRAND, borderColor: BRAND },
-  chipText: { fontSize: 13, color: "#000" },
+  chipText: { fontSize: 13, color: "#2A1513" },
   chipTextOn: { color: "#fff", fontWeight: "700" },
   headRow: { flexDirection: "row", alignItems: "center", gap: 10, flexWrap: "wrap" },
-  title: { fontSize: 24, fontWeight: "800", color: "#000" },
+  title: { fontSize: 24, fontWeight: "800", color: "#2A1513" },
   badge: {
     fontSize: 12,
-    color: "#00000099",
+    color: "#2A151399",
     borderWidth: 1,
-    borderColor: "#00000033",
+    borderColor: "#2A151333",
     borderRadius: 999,
     paddingHorizontal: 8,
     paddingVertical: 2,
     overflow: "hidden",
   },
   badgeIrregular: { color: BRAND, borderColor: `${BRAND}66` },
-  link: { fontSize: 14, color: "#00000099", textDecorationLine: "underline", marginTop: 6 },
-  warning: { marginTop: 10, padding: 10, borderRadius: 10, backgroundColor: "#fef3c7", borderWidth: 1, borderColor: "#fcd34d", fontSize: 13, color: "#000" },
-  section: { fontSize: 13, fontWeight: "800", color: "#00000066", letterSpacing: 0.5, marginTop: 22, marginBottom: 8 },
-  card: { borderWidth: 1, borderColor: "#00000018", borderRadius: 14, padding: 14, backgroundColor: "#fff" },
-  cardTitle: { fontSize: 16, fontWeight: "700", color: "#000" },
+  link: { fontSize: 14, color: "#2A151399", textDecorationLine: "underline", marginTop: 6 },
+  warning: { marginTop: 10, padding: 10, borderRadius: 10, backgroundColor: "#fef3c7", borderWidth: 1, borderColor: "#fcd34d", fontSize: 13, color: "#2A1513" },
+  section: { fontSize: 13, fontWeight: "800", color: "#2A151366", letterSpacing: 0.5, marginTop: 22, marginBottom: 8 },
+  card: { borderWidth: 1, borderColor: "#2A151318", borderRadius: 14, padding: 14, backgroundColor: "#fff" },
+  cardTitle: { fontSize: 16, fontWeight: "700", color: "#2A1513" },
   row: { flexDirection: "row", alignItems: "center" },
-  person: { width: 130, fontSize: 14, color: "#00000080" },
-  form: { fontSize: 15, color: "#000" },
+  person: { width: 130, fontSize: 14, color: "#2A151380" },
+  form: { fontSize: 15, color: "#2A1513" },
   irregular: { fontSize: 15, color: BRAND, fontWeight: "700" },
-  spelling: { fontSize: 15, color: "#000", textDecorationLine: "underline", textDecorationColor: "#f59e0b" },
-  bold: { fontWeight: "700", color: "#000" },
-  subject: { fontSize: 18, color: "#000" },
+  spelling: { fontSize: 15, color: "#2A1513", textDecorationLine: "underline", textDecorationColor: "#f59e0b" },
+  bold: { fontWeight: "700", color: "#2A1513" },
+  subject: { fontSize: 18, color: "#2A1513" },
   feedback: { marginTop: 14, padding: 12, borderRadius: 10, borderWidth: 1, gap: 4 },
   feedbackRight: { backgroundColor: "#16a34a14", borderColor: "#16a34a55" },
   feedbackWrong: { backgroundColor: "#dc262614", borderColor: "#dc262655" },
-  feedbackTitle: { fontSize: 15, fontWeight: "700", color: "#000" },
+  feedbackTitle: { fontSize: 15, fontWeight: "700", color: "#2A1513" },
   button: { marginTop: 18, backgroundColor: BRAND, borderRadius: 12, paddingVertical: 13, alignItems: "center" },
   buttonText: { color: "#fff", fontSize: 16, fontWeight: "700" },
 });

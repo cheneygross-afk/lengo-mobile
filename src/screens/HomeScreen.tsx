@@ -5,6 +5,10 @@ import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { useAuth } from "@/lib/auth/AuthContext";
 import TranslateBar from "@/components/TranslateBar";
+import GlowBackground from "@/ui/GlowBackground";
+import NavCard from "@/ui/NavCard";
+import { Icon } from "@/ui/Icon";
+import { card, cardShadow, colors, fonts } from "@/ui/theme";
 import { readJSON, writeJSON } from "@/lib/storage/asyncStore";
 import { LESSON_SOURCES } from "@/lib/lessons/registry";
 import { getCompletedMap, syncCompletedMapFromCloud } from "@/lib/lessons/completion";
@@ -201,9 +205,19 @@ export default function HomeScreen({ navigation }: Props) {
   const goalPct = summary && goal ? Math.min(100, Math.round((summary.minutesToday / goal) * 100)) : 0;
   const dueCount = summary?.dueByLang[language] ?? 0;
 
+  const studyToolsBody =
+    language === "fr"
+      ? "Grammar guides, verb conjugation, DELF and DALF practice and the glossary."
+      : language === "de"
+        ? "Grammar guides, verb conjugation, Goethe-Zertifikat practice and the glossary."
+        : language === "pt"
+          ? "Grammar guides, verb conjugation, Celpe-Bras practice, vocabulary and the glossary."
+          : "Grammar guides, verb conjugation, DELE practice and the glossary.";
+
   return (
     <View style={styles.flex}>
-      <ScrollView style={styles.flex} contentContainerStyle={styles.container} keyboardShouldPersistTaps="handled">
+      <GlowBackground />
+      <ScrollView style={styles.scroll} contentContainerStyle={styles.container} keyboardShouldPersistTaps="handled">
         <View style={styles.centerSection}>
           <View style={styles.heading}>
             <Text style={styles.title}>Deep End</Text>
@@ -223,60 +237,52 @@ export default function HomeScreen({ navigation }: Props) {
 
           {summary && language === "es" && (
             summary.next ? (
-              <Pressable
-                style={styles.continueCard}
+              <ContinueCard
+                label={`Continue · ${spanishLevel(summary.next.levelPath).label} · Lesson ${summary.next.number}`}
+                title={summary.next.title}
+                cta="Start lesson"
                 onPress={() => navigation.navigate("LessonRunner", { slug: summary.next!.slug })}
-              >
-                <Text style={styles.continueLabel}>
-                  Continue · {spanishLevel(summary.next.levelPath).label} · Lesson {summary.next.number}
-                </Text>
-                <Text style={styles.continueTitle}>{summary.next.title}</Text>
-                <Text style={styles.continueCta}>Start lesson →</Text>
-              </Pressable>
+              />
             ) : (
-              <Pressable style={styles.continueCard} onPress={() => navigation.navigate("SpanishLevels")}>
-                <Text style={styles.continueLabel}>All caught up</Text>
-                <Text style={styles.continueTitle}>Every required lesson from your starting level up is done.</Text>
-              </Pressable>
+              <ContinueCard
+                label="All caught up"
+                title="Every required lesson from your starting level up is done."
+                onPress={() => navigation.navigate("SpanishLevels")}
+              />
             )
           )}
 
           {courseNext && courseNext.course === language && (
             courseNext.next ? (
-              <Pressable
-                style={styles.continueCard}
+              <ContinueCard
+                label={`Continue · ${courseNext.next.label} · Lesson ${courseNext.next.number}`}
+                title={courseNext.next.title}
+                cta="Start lesson"
                 onPress={() =>
                   courseNext.next &&
                   navigation.navigate("LessonRunner", { slug: courseNext.next.slug, levelPath: courseNext.next.levelPath })
                 }
-              >
-                <Text style={styles.continueLabel}>
-                  Continue · {courseNext.next.label} · Lesson {courseNext.next.number}
-                </Text>
-                <Text style={styles.continueTitle}>{courseNext.next.title}</Text>
-                <Text style={styles.continueCta}>Start lesson →</Text>
-              </Pressable>
+              />
             ) : (
-              <Pressable
-                style={styles.continueCard}
+              <ContinueCard
+                label="All caught up"
+                title="Every required lesson from beginner to mastery is done."
                 onPress={() => navigation.navigate(
                     courseNext.course === "fr" ? "FrenchLevels" : courseNext.course === "de" ? "GermanLevels" : "PortugueseLevels"
                   )}
-              >
-                <Text style={styles.continueLabel}>All caught up</Text>
-                <Text style={styles.continueTitle}>Every required lesson from A1 to C2 is done.</Text>
-              </Pressable>
+              />
             )
           )}
 
           {summary && (
             <View style={styles.statsRow}>
               <View style={styles.stat}>
-                <Text style={styles.statLabel}>Today</Text>
-                <Text style={styles.statValue}>
-                  {formatMinutes(summary.minutesToday)}
-                  <Text style={styles.statOf}> / {formatMinutes(goal)}</Text>
-                </Text>
+                <View style={styles.statHead}>
+                  <Icon name="clock" size={14} color={colors.sea} strokeWidth={2} />
+                  <Text style={styles.statLabel}>Today</Text>
+                </View>
+                <Text style={styles.statValue}>{formatMinutes(summary.minutesToday)}</Text>
+                <Text style={styles.statHint}>of {formatMinutes(goal)}</Text>
                 <View style={styles.bar}>
                   <View
                     style={[styles.barFill, { width: `${goalPct}%` }, goalPct >= 100 && styles.barFillDone]}
@@ -284,7 +290,7 @@ export default function HomeScreen({ navigation }: Props) {
                 </View>
               </View>
               <Pressable
-                style={styles.stat}
+                style={({ pressed }) => [styles.stat, pressed && styles.pressed]}
                 onPress={() =>
                   language === "es"
                     ? navigation.navigate("TodayReview")
@@ -293,12 +299,18 @@ export default function HomeScreen({ navigation }: Props) {
                       : navigation.navigate("Flashcards", { lang: language })
                 }
               >
-                <Text style={styles.statLabel}>{language === "es" || language === "fr" || language === "de" || language === "pt" ? "Review" : "Due"}</Text>
+                <View style={styles.statHead}>
+                  <Icon name="review" size={14} color={colors.foreground} strokeWidth={2} />
+                  <Text style={styles.statLabel}>{language === "es" || language === "fr" || language === "de" || language === "pt" ? "Review" : "Due"}</Text>
+                </View>
                 <Text style={styles.statValue}>{dueCount}</Text>
-                <Text style={styles.statHint}>{dueCount > 0 ? "Review →" : "Caught up"}</Text>
+                <Text style={[styles.statHint, dueCount > 0 && styles.statHintAction]}>{dueCount > 0 ? "Review →" : "Caught up"}</Text>
               </Pressable>
               <View style={styles.stat}>
-                <Text style={styles.statLabel}>Streak</Text>
+                <View style={styles.statHead}>
+                  <Icon name="flame" size={14} color="#B4741A" strokeWidth={2} />
+                  <Text style={styles.statLabel}>Streak</Text>
+                </View>
                 <Text style={styles.statValue}>{summary.streak}</Text>
                 <Text style={styles.statHint}>
                   {summary.streak === 1 ? "day" : "days"}
@@ -308,130 +320,97 @@ export default function HomeScreen({ navigation }: Props) {
             </View>
           )}
 
+          <Text style={styles.sectionLabel}>Your course</Text>
           <View style={styles.cards}>
             {language === "es" ? (
-              <Pressable style={styles.card} onPress={() => navigation.navigate("SpanishLevels")}>
-                <Text style={styles.cardTitle}>Lessons</Text>
-                <Text style={styles.cardBody}>Structured lessons, from beginner to advanced.</Text>
-              </Pressable>
+              <NavCard icon="lessons" title="Lessons" body="Structured lessons, from beginner to advanced." onPress={() => navigation.navigate("SpanishLevels")} />
             ) : language === "fr" ? (
-              <Pressable style={styles.card} onPress={() => navigation.navigate("FrenchLevels")}>
-                <Text style={styles.cardTitle}>Lessons</Text>
-                <Text style={styles.cardBody}>Structured lessons, from beginner (A1) to mastery (C2).</Text>
-              </Pressable>
+              <NavCard icon="lessons" title="Lessons" body="Structured lessons, from beginner to mastery." onPress={() => navigation.navigate("FrenchLevels")} />
             ) : language === "de" ? (
-              <Pressable style={styles.card} onPress={() => navigation.navigate("GermanLevels")}>
-                <Text style={styles.cardTitle}>Lessons</Text>
-                <Text style={styles.cardBody}>Structured lessons, from beginner (A1) to mastery (C2).</Text>
-              </Pressable>
+              <NavCard icon="lessons" title="Lessons" body="Structured lessons, from beginner to mastery." onPress={() => navigation.navigate("GermanLevels")} />
             ) : language === "pt" ? (
-              <Pressable style={styles.card} onPress={() => navigation.navigate("PortugueseLevels")}>
-                <Text style={styles.cardTitle}>Lessons</Text>
-                <Text style={styles.cardBody}>Brazilian Portuguese, from beginner (A1) to mastery (C2). Beta.</Text>
-              </Pressable>
+              <NavCard icon="lessons" title="Lessons" body="Brazilian Portuguese, from beginner to mastery. Beta." onPress={() => navigation.navigate("PortugueseLevels")} />
             ) : language === "ja" ? (
-              <Pressable style={styles.card} onPress={() => navigation.navigate("JapaneseLevels")}>
-                <Text style={styles.cardTitle}>Lessons</Text>
-                <Text style={styles.cardBody}>Hiragana, katakana, and A1 to B1.</Text>
-              </Pressable>
+              <NavCard icon="lessons" title="Lessons" body="Hiragana and katakana, then lessons level by level." onPress={() => navigation.navigate("JapaneseLevels")} />
             ) : (
-              <Pressable style={styles.card} onPress={() => navigation.navigate("ChineseLevels")}>
-                <Text style={styles.cardTitle}>Lessons</Text>
-                <Text style={styles.cardBody}>Pinyin and tones, then A1 Mandarin.</Text>
-              </Pressable>
+              <NavCard icon="lessons" title="Lessons" body="Pinyin and tones, then lessons level by level." onPress={() => navigation.navigate("ChineseLevels")} />
             )}
 
-            <Pressable
-              style={styles.card}
+            <NavCard
+              icon="flashcards"
+              tint="saffron"
+              title="Flashcards"
+              body="Review vocabulary due today."
               onPress={() => navigation.navigate("Flashcards", { lang: language })}
-            >
-              <Text style={styles.cardTitle}>Flashcards</Text>
-              <Text style={styles.cardBody}>Review vocabulary due today.</Text>
-            </Pressable>
+            />
 
             {/* No Japanese readings exist yet -- same as the website's own
                 Japanese nav section, which has no Readings entry -- so
                 this card is Spanish-only rather than linking to an empty
                 screen. */}
             {language === "es" && (
-              <Pressable style={styles.card} onPress={() => navigation.navigate("ReadingLevels")}>
-                <Text style={styles.cardTitle}>Readings</Text>
-                <Text style={styles.cardBody}>Free short stories and book picks -- any length.</Text>
-              </Pressable>
+              <NavCard icon="readings" tint="sea" title="Readings" body="Free short stories and book picks, any length." onPress={() => navigation.navigate("ReadingLevels")} />
             )}
             {(language === "fr" || language === "de") && (
-              <Pressable style={styles.card} onPress={() => navigation.navigate("ReadingLevels", { lang: language })}>
-                <Text style={styles.cardTitle}>Stories</Text>
-                <Text style={styles.cardBody}>Graded short stories with audio, translations and comprehension questions.</Text>
-              </Pressable>
+              <NavCard
+                icon="readings"
+                tint="sea"
+                title="Stories"
+                body="Graded short stories with audio, translations and comprehension questions."
+                onPress={() => navigation.navigate("ReadingLevels", { lang: language })}
+              />
             )}
             {language === "pt" && (
-              <Pressable style={styles.card} onPress={() => navigation.navigate("ReadingLevels", { lang: "pt" })}>
-                <Text style={styles.cardTitle}>Stories</Text>
-                <Text style={styles.cardBody}>Graded short stories with audio and comprehension questions. Tap any word for its meaning.</Text>
-              </Pressable>
+              <NavCard
+                icon="readings"
+                tint="sea"
+                title="Stories"
+                body="Graded short stories with audio and comprehension questions. Tap any word for its meaning."
+                onPress={() => navigation.navigate("ReadingLevels", { lang: "pt" })}
+              />
             )}
 
             {language === "fr" || language === "de" || language === "pt" ? (
-              <Pressable style={styles.card} onPress={() => navigation.navigate("TodayReview", { lang: language })}>
-                <Text style={styles.cardTitle}>Today&apos;s review</Text>
-                <Text style={styles.cardBody}>
-                  Questions you missed in your {language === "fr" ? "French" : language === "de" ? "German" : "Portuguese"} lessons, then flashcards due today.
-                </Text>
-              </Pressable>
+              <NavCard
+                icon="review"
+                title="Today's review"
+                body={`Questions you missed in your ${language === "fr" ? "French" : language === "de" ? "German" : "Portuguese"} lessons, then flashcards due today.`}
+                onPress={() => navigation.navigate("TodayReview", { lang: language })}
+              />
             ) : language === "es" ? (
-              <Pressable style={styles.card} onPress={() => navigation.navigate("TodayReview")}>
-                <Text style={styles.cardTitle}>Today&apos;s review</Text>
-                <Text style={styles.cardBody}>
-                  Missed questions, earlier lessons and flashcards due today, in one place.
-                </Text>
-              </Pressable>
+              <NavCard
+                icon="review"
+                title="Today's review"
+                body="Missed questions, earlier lessons and flashcards due today, in one place."
+                onPress={() => navigation.navigate("TodayReview")}
+              />
             ) : (
-              <Pressable style={styles.card} onPress={() => navigation.navigate("Review", { lang: language })}>
-                <Text style={styles.cardTitle}>Review</Text>
-                <Text style={styles.cardBody}>Lessons you saved to try again.</Text>
-              </Pressable>
+              <NavCard icon="review" title="Review" body="Lessons you saved to try again." onPress={() => navigation.navigate("Review", { lang: language })} />
             )}
 
             {/* Writing practice in every language, like the website's
                 Writing tile on each course page. */}
-            <Pressable style={styles.card} onPress={() => navigation.navigate("Writing", { lang: language })}>
-              <Text style={styles.cardTitle}>Writing</Text>
-              <Text style={styles.cardBody}>Write a few sentences or a couple of pages and get instant AI feedback at your level.</Text>
-            </Pressable>
+            <NavCard
+              icon="writing"
+              tint="saffron"
+              title="Writing"
+              body="Write a few sentences or a couple of pages and get instant AI feedback at your level."
+              onPress={() => navigation.navigate("Writing", { lang: language })}
+            />
 
-            {/* Grammar guides, verb conjugation, DELE practice and the
-                glossary (Spanish only) -- grouped behind one card, like the
-                website's Study Tools menu entry. The placement test lives
-                on that screen and in Settings rather than here: most
-                learners take it once. */}
-            {language === "es" && (
-              <Pressable style={styles.card} onPress={() => navigation.navigate("StudyTools")}>
-                <Text style={styles.cardTitle}>Study Tools</Text>
-                <Text style={styles.cardBody}>Grammar guides, verb conjugation, DELE practice and the glossary.</Text>
-              </Pressable>
-            )}
-            {language === "fr" && (
-              <Pressable style={styles.card} onPress={() => navigation.navigate("StudyTools", { lang: "fr" })}>
-                <Text style={styles.cardTitle}>Study Tools</Text>
-                <Text style={styles.cardBody}>Grammar guides, verb conjugation, DELF and DALF practice and the glossary.</Text>
-              </Pressable>
-            )}
-            {language === "de" && (
-              <Pressable style={styles.card} onPress={() => navigation.navigate("StudyTools", { lang: "de" })}>
-                <Text style={styles.cardTitle}>Study Tools</Text>
-                <Text style={styles.cardBody}>
-                  Grammar guides, verb conjugation, Goethe-Zertifikat practice and the glossary.
-                </Text>
-              </Pressable>
-            )}
-            {language === "pt" && (
-              <Pressable style={styles.card} onPress={() => navigation.navigate("StudyTools", { lang: "pt" })}>
-                <Text style={styles.cardTitle}>Study Tools</Text>
-                <Text style={styles.cardBody}>
-                  Grammar guides, verb conjugation, Celpe-Bras practice, vocabulary and the glossary.
-                </Text>
-              </Pressable>
+            {/* Grammar guides, verb conjugation, exam practice and the
+                glossary -- grouped behind one card, like the website's
+                Study Tools menu entry. The placement test lives on that
+                screen and in Settings rather than here: most learners
+                take it once. */}
+            {(language === "es" || language === "fr" || language === "de" || language === "pt") && (
+              <NavCard
+                icon="tools"
+                tint="sea"
+                title="Study Tools"
+                body={studyToolsBody}
+                onPress={() => (language === "es" ? navigation.navigate("StudyTools") : navigation.navigate("StudyTools", { lang: language }))}
+              />
             )}
           </View>
         </View>
@@ -462,65 +441,115 @@ function LangPill({ label, active, onPress }: { label: string; active: boolean; 
   );
 }
 
+// The deep-red "pick up where you left off" card, with the website's
+// saffron call-to-action pill. The circles are static decoration.
+function ContinueCard({ label, title, cta, onPress }: { label: string; title: string; cta?: string; onPress: () => void }) {
+  return (
+    <Pressable style={({ pressed }) => [styles.continueCard, pressed && styles.pressed]} onPress={onPress}>
+      <View pointerEvents="none" style={styles.continueGlowA} />
+      <View pointerEvents="none" style={styles.continueGlowB} />
+      <Text style={styles.continueLabel}>{label}</Text>
+      <Text style={styles.continueTitle}>{title}</Text>
+      {cta && (
+        <View style={styles.continueCta}>
+          <Text style={styles.continueCtaText}>{cta}</Text>
+          <Icon name="arrow" size={16} color={colors.ink} strokeWidth={2.2} />
+        </View>
+      )}
+    </Pressable>
+  );
+}
+
 const styles = StyleSheet.create({
-  flex: { flex: 1, backgroundColor: "#FAF6F1" },
+  flex: { flex: 1, backgroundColor: colors.background },
+  scroll: { flex: 1 },
   // flexGrow (not flex) so short content still centers and longer
   // content scrolls; the bottom padding clears the pinned TranslateBar.
-  container: { flexGrow: 1, paddingHorizontal: 24, paddingTop: 48, paddingBottom: 96 },
-  // Title + subtitle + the four access cards are one block, centered in
-  // the space above the sign-out link -- rather than pinned to the top,
+  container: { flexGrow: 1, paddingHorizontal: 22, paddingTop: 40, paddingBottom: 96 },
+  // Title + subtitle + the access cards are one block, centered in the
+  // space above the settings link -- rather than pinned to the top,
   // which read as "Deep End" sitting uncomfortably high with the cards
   // crowded right underneath it.
   centerSection: { flex: 1, justifyContent: "center", gap: 18 },
   heading: { alignItems: "center" },
-  title: { fontSize: 30, fontWeight: "800", color: "#7A1F1F" },
-  subtitle: { fontSize: 14, color: "#00000099", marginTop: 6 },
+  title: { fontFamily: fonts.logo, fontSize: 38, lineHeight: 58, color: colors.foreground },
+  subtitle: { fontSize: 13, color: colors.inkMuted, marginTop: 0 },
   langRow: { flexDirection: "row", flexWrap: "wrap", gap: 8, justifyContent: "center" },
   langPill: {
-    borderWidth: 1.5,
-    borderColor: "#7A1F1F33",
+    borderWidth: 1,
+    borderColor: colors.border,
     borderRadius: 999,
     paddingVertical: 8,
     paddingHorizontal: 16,
-    backgroundColor: "#fff",
+    backgroundColor: colors.card,
+    ...cardShadow,
   },
-  langPillActive: { backgroundColor: "#7A1F1F", borderColor: "#7A1F1F" },
-  langPillText: { fontSize: 13, fontWeight: "700", color: "#7A1F1F" },
+  langPillActive: { backgroundColor: colors.foreground, borderColor: colors.foreground },
+  langPillText: { fontSize: 13, fontWeight: "700", color: colors.foreground },
   langPillTextActive: { color: "#fff" },
-  cards: { gap: 14 },
+  cards: { gap: 12 },
+  sectionLabel: {
+    fontSize: 12,
+    fontWeight: "700",
+    letterSpacing: 1.2,
+    color: colors.inkMuted,
+    textTransform: "uppercase",
+    marginTop: 6,
+    marginBottom: -6,
+    marginLeft: 4,
+  },
+  pressed: { transform: [{ scale: 0.985 }], opacity: 0.92 },
   continueCard: {
-    borderRadius: 14,
-    padding: 18,
-    backgroundColor: "#7A1F1F",
+    borderRadius: 22,
+    padding: 20,
+    backgroundColor: colors.foreground,
+    overflow: "hidden",
+    ...cardShadow,
   },
-  continueLabel: { fontSize: 12, fontWeight: "700", color: "#ffffffb3", textTransform: "uppercase" },
-  continueTitle: { fontSize: 19, fontWeight: "800", color: "#fff", marginTop: 4 },
-  continueCta: { fontSize: 14, fontWeight: "700", color: "#fff", marginTop: 10 },
+  continueGlowA: {
+    position: "absolute",
+    width: 180,
+    height: 180,
+    borderRadius: 90,
+    right: -60,
+    top: -70,
+    backgroundColor: colors.saffron,
+    opacity: 0.22,
+  },
+  continueGlowB: {
+    position: "absolute",
+    width: 120,
+    height: 120,
+    borderRadius: 60,
+    right: 40,
+    bottom: -80,
+    backgroundColor: "#ffffff",
+    opacity: 0.06,
+  },
+  continueLabel: { fontSize: 11.5, fontWeight: "700", letterSpacing: 1, color: colors.saffronSoft, textTransform: "uppercase", opacity: 0.9 },
+  continueTitle: { fontFamily: fonts.display, fontSize: 22, lineHeight: 28, color: "#fff", marginTop: 6 },
+  continueCta: {
+    flexDirection: "row",
+    alignItems: "center",
+    alignSelf: "flex-start",
+    gap: 6,
+    marginTop: 16,
+    paddingVertical: 9,
+    paddingHorizontal: 16,
+    borderRadius: 999,
+    backgroundColor: colors.saffron,
+  },
+  continueCtaText: { fontSize: 14, fontWeight: "700", color: colors.ink },
   statsRow: { flexDirection: "row", gap: 10 },
-  stat: {
-    flex: 1,
-    borderWidth: 1,
-    borderColor: "#00000018",
-    borderRadius: 14,
-    padding: 12,
-    backgroundColor: "#fff",
-  },
-  statLabel: { fontSize: 11, fontWeight: "700", color: "#00000080", textTransform: "uppercase" },
-  statValue: { fontSize: 20, fontWeight: "800", color: "#000", marginTop: 4 },
-  statOf: { fontSize: 13, fontWeight: "600", color: "#00000066" },
-  statHint: { fontSize: 12, color: "#00000080", marginTop: 2 },
-  bar: { height: 5, borderRadius: 3, backgroundColor: "#0000001a", marginTop: 8, overflow: "hidden" },
-  barFill: { height: 5, borderRadius: 3, backgroundColor: "#7A1F1F" },
-  barFillDone: { backgroundColor: "#16a34a" },
-  card: {
-    borderWidth: 1,
-    borderColor: "#00000018",
-    borderRadius: 14,
-    padding: 18,
-    backgroundColor: "#fff",
-  },
-  cardTitle: { fontSize: 18, fontWeight: "700", color: "#000", marginBottom: 4 },
-  cardBody: { fontSize: 14, color: "#00000099" },
-  settingsLink: { alignItems: "center", paddingVertical: 12 },
-  settingsLinkText: { color: "#00000066", fontSize: 14, textDecorationLine: "underline" },
+  stat: { ...card, flex: 1, padding: 12 },
+  statHead: { flexDirection: "row", alignItems: "center", gap: 5 },
+  statLabel: { fontSize: 11, fontWeight: "700", letterSpacing: 0.6, color: colors.inkMuted, textTransform: "uppercase" },
+  statValue: { fontFamily: fonts.display, fontSize: 24, color: colors.ink, marginTop: 6 },
+  statHint: { fontSize: 12, color: colors.inkMuted, marginTop: 2 },
+  statHintAction: { color: colors.foreground, fontWeight: "700" },
+  bar: { height: 6, borderRadius: 3, backgroundColor: colors.saffronSoft, marginTop: 6, overflow: "hidden" },
+  barFill: { height: 6, borderRadius: 3, backgroundColor: colors.saffron },
+  barFillDone: { backgroundColor: colors.success },
+  settingsLink: { alignItems: "center", paddingVertical: 14 },
+  settingsLinkText: { color: colors.inkMuted, fontSize: 14, fontWeight: "600" },
 });

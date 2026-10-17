@@ -84,7 +84,7 @@ export default function SignupScreen({ navigation }: Props) {
           <TextInput
             style={styles.input}
             placeholder="you@example.com"
-            placeholderTextColor="#00000055"
+            placeholderTextColor="#2A151355"
             autoCapitalize="none"
             autoComplete="email"
             keyboardType="email-address"
@@ -94,7 +94,7 @@ export default function SignupScreen({ navigation }: Props) {
           <TextInput
             style={styles.input}
             placeholder="Password"
-            placeholderTextColor="#00000055"
+            placeholderTextColor="#2A151355"
             autoComplete="new-password"
             secureTextEntry
             value={password}
@@ -103,7 +103,7 @@ export default function SignupScreen({ navigation }: Props) {
           <TextInput
             style={styles.input}
             placeholder="Confirm password"
-            placeholderTextColor="#00000055"
+            placeholderTextColor="#2A151355"
             autoComplete="new-password"
             secureTextEntry
             value={confirmPassword}
@@ -136,7 +136,7 @@ export default function SignupScreen({ navigation }: Props) {
 }
 
 const styles = StyleSheet.create({
-  flex: { flex: 1, backgroundColor: "#FAF6F1" },
+  flex: { flex: 1, backgroundColor: "#FAF7F2" },
   container: { flex: 1, justifyContent: "center", paddingHorizontal: 28 },
   brand: { alignItems: "center", marginBottom: 40 },
   // Pacifico's script letters swing past the edges of the box iOS measures
@@ -147,23 +147,23 @@ const styles = StyleSheet.create({
     fontSize: 44,
     lineHeight: 72,
     paddingHorizontal: 12,
-    color: "#7A1F1F",
+    color: "#8B0000",
   },
-  tagline: { fontSize: 14, color: "#00000099", marginTop: 6 },
+  tagline: { fontSize: 14, color: "#2A151399", marginTop: 6 },
   form: { gap: 14 },
   input: {
     borderWidth: 1,
-    borderColor: "#00000022",
+    borderColor: "#2A151322",
     borderRadius: 12,
     paddingHorizontal: 16,
     paddingVertical: 14,
     fontSize: 16,
-    color: "#000",
+    color: "#2A1513",
     backgroundColor: "#fff",
   },
   error: { color: "#dc2626", fontSize: 14 },
   button: {
-    backgroundColor: "#7A1F1F",
+    backgroundColor: "#8B0000",
     borderRadius: 999,
     paddingVertical: 15,
     alignItems: "center",
@@ -172,7 +172,7 @@ const styles = StyleSheet.create({
   buttonPressed: { opacity: 0.9 },
   buttonDisabled: { opacity: 0.6 },
   buttonText: { color: "#fff", fontWeight: "600", fontSize: 16 },
-  footer: { textAlign: "center", color: "#7A1F1F", fontSize: 13, marginTop: 28, fontWeight: "600" },
-  confirmTitle: { fontSize: 20, fontWeight: "800", color: "#000", textAlign: "center", marginBottom: 10 },
-  confirmBody: { fontSize: 14, color: "#00000099", textAlign: "center", lineHeight: 20, marginBottom: 24 },
+  footer: { textAlign: "center", color: "#8B0000", fontSize: 13, marginTop: 28, fontWeight: "600" },
+  confirmTitle: { fontSize: 20, fontWeight: "800", color: "#2A1513", textAlign: "center", marginBottom: 10 },
+  confirmBody: { fontSize: 14, color: "#2A151399", textAlign: "center", lineHeight: 20, marginBottom: 24 },
 });

@@ -118,12 +118,12 @@ export default function ReviewListScreen({ navigation, route }: Props) {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "#FAF6F1" },
+  container: { flex: 1, backgroundColor: "#FAF7F2" },
   header: {
     padding: 16,
     paddingBottom: 4,
     fontSize: 13,
-    color: "#00000099",
+    color: "#2A151399",
     textTransform: "uppercase",
     letterSpacing: 0.5,
   },
@@ -136,15 +136,15 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     padding: 14,
     borderWidth: 1,
-    borderColor: "#00000012",
+    borderColor: "#2A151312",
     marginBottom: 10,
   },
   rowBody: { flex: 1 },
-  rowTitle: { fontSize: 16, fontWeight: "600", color: "#000" },
-  rowSummary: { fontSize: 13, color: "#00000099", marginTop: 2 },
+  rowTitle: { fontSize: 16, fontWeight: "600", color: "#2A1513" },
+  rowSummary: { fontSize: 13, color: "#2A151399", marginTop: 2 },
   removeBtn: { paddingVertical: 6, paddingHorizontal: 8 },
   removeBtnText: { color: "#dc2626", fontSize: 12, fontWeight: "600" },
-  emptyContainer: { flex: 1, backgroundColor: "#FAF6F1", alignItems: "center", justifyContent: "center", padding: 32 },
-  emptyTitle: { fontSize: 18, fontWeight: "700", color: "#000", marginBottom: 8 },
-  emptyBody: { fontSize: 14, color: "#00000099", textAlign: "center", lineHeight: 20 },
+  emptyContainer: { flex: 1, backgroundColor: "#FAF7F2", alignItems: "center", justifyContent: "center", padding: 32 },
+  emptyTitle: { fontSize: 18, fontWeight: "700", color: "#2A1513", marginBottom: 8 },
+  emptyBody: { fontSize: 14, color: "#2A151399", textAlign: "center", lineHeight: 20 },
 });

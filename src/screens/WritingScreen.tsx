@@ -123,18 +123,18 @@ export default function WritingScreen({ route, navigation }: Props) {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "#FAF6F1" },
+  container: { flex: 1, backgroundColor: "#FAF7F2" },
   content: { padding: 20, paddingBottom: 60 },
-  subtitle: { fontSize: 14, color: "#00000099", marginBottom: 16 },
+  subtitle: { fontSize: 14, color: "#2A151399", marginBottom: 16 },
   levels: { flexDirection: "row", flexWrap: "wrap", gap: 8, marginBottom: 16 },
-  chip: { borderWidth: 1, borderColor: "#00000025", borderRadius: 999, paddingVertical: 6, paddingHorizontal: 12, backgroundColor: "#fff" },
-  chipOn: { backgroundColor: "#000", borderColor: "#000" },
-  chipText: { fontSize: 13, color: "#000" },
+  chip: { borderWidth: 1, borderColor: "#2A151325", borderRadius: 999, paddingVertical: 6, paddingHorizontal: 12, backgroundColor: "#fff" },
+  chipOn: { backgroundColor: "#2A1513", borderColor: "#2A1513" },
+  chipText: { fontSize: 13, color: "#2A1513" },
   chipTextOn: { color: "#fff" },
   list: { gap: 10 },
-  card: { borderWidth: 1, borderColor: "#00000018", borderRadius: 14, padding: 16, backgroundColor: "#fff" },
-  meta: { fontSize: 12, color: "#00000080", marginBottom: 4, textTransform: "uppercase", letterSpacing: 0.5 },
-  cardBody: { fontSize: 14.5, color: "#000", lineHeight: 20 },
-  again: { marginTop: 10, alignSelf: "flex-start", borderWidth: 1, borderColor: "#00000040", borderRadius: 999, paddingVertical: 6, paddingHorizontal: 12 },
-  againText: { fontSize: 13, color: "#000" },
+  card: { borderWidth: 1, borderColor: "#2A151318", borderRadius: 14, padding: 16, backgroundColor: "#fff" },
+  meta: { fontSize: 12, color: "#2A151380", marginBottom: 4, textTransform: "uppercase", letterSpacing: 0.5 },
+  cardBody: { fontSize: 14.5, color: "#2A1513", lineHeight: 20 },
+  again: { marginTop: 10, alignSelf: "flex-start", borderWidth: 1, borderColor: "#2A151340", borderRadius: 999, paddingVertical: 6, paddingHorizontal: 12 },
+  againText: { fontSize: 13, color: "#2A1513" },
 });

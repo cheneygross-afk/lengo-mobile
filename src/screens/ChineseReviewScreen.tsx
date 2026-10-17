@@ -142,18 +142,18 @@ export default function ChineseReviewScreen({ navigation }: Props) {
 }
 
 const s = StyleSheet.create({
-  screen: { flex: 1, backgroundColor: "#FAF6F1" },
+  screen: { flex: 1, backgroundColor: "#FAF7F2" },
   content: { padding: 20, paddingBottom: 60 },
-  kicker: { fontSize: 12, fontWeight: "700", color: "#7A1F1F", textTransform: "uppercase", letterSpacing: 0.5, marginBottom: 6 },
-  title: { fontSize: 24, fontWeight: "800", color: "#000", marginBottom: 8 },
-  body: { fontSize: 15, color: "#000000cc", lineHeight: 21, marginBottom: 12 },
-  badge: { fontSize: 12, color: "#00000080", textTransform: "uppercase", marginBottom: 10 },
-  bigBtn: { backgroundColor: "#7A1F1F", borderRadius: 12, paddingVertical: 14, alignItems: "center", marginTop: 4 },
+  kicker: { fontSize: 12, fontWeight: "700", color: "#8B0000", textTransform: "uppercase", letterSpacing: 0.5, marginBottom: 6 },
+  title: { fontSize: 24, fontWeight: "800", color: "#2A1513", marginBottom: 8 },
+  body: { fontSize: 15, color: "#2A1513cc", lineHeight: 21, marginBottom: 12 },
+  badge: { fontSize: 12, color: "#2A151380", textTransform: "uppercase", marginBottom: 10 },
+  bigBtn: { backgroundColor: "#8B0000", borderRadius: 12, paddingVertical: 14, alignItems: "center", marginTop: 4 },
   bigBtnText: { color: "#fff", fontSize: 16, fontWeight: "700" },
   doneBox: { backgroundColor: "#16a34a14", borderRadius: 12, padding: 14, marginBottom: 18 },
   doneTitle: { fontSize: 16, fontWeight: "700", color: "#15803d", marginBottom: 4 },
   feedback: { marginTop: 16, borderRadius: 12, padding: 14 },
   feedbackRight: { backgroundColor: "#16a34a14" },
   feedbackWrong: { backgroundColor: "#dc262614" },
-  feedbackTitle: { fontSize: 16, fontWeight: "700", marginBottom: 6, color: "#000" },
+  feedbackTitle: { fontSize: 16, fontWeight: "700", marginBottom: 6, color: "#2A1513" },
 });

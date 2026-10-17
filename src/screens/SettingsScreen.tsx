@@ -287,7 +287,7 @@ export default function SettingsScreen({ navigation }: NativeStackScreenProps<Ap
           <TextInput
             style={s.input}
             placeholder="Your name"
-            placeholderTextColor="#00000055"
+            placeholderTextColor="#2A151355"
             autoCapitalize="words"
             value={fullName}
             onChangeText={(t) => {
@@ -337,7 +337,7 @@ export default function SettingsScreen({ navigation }: NativeStackScreenProps<Ap
             <TextInput
               style={s.input}
               placeholder="New password"
-              placeholderTextColor="#00000055"
+              placeholderTextColor="#2A151355"
               secureTextEntry
               autoComplete="new-password"
               value={newPassword}
@@ -349,7 +349,7 @@ export default function SettingsScreen({ navigation }: NativeStackScreenProps<Ap
             <TextInput
               style={s.input}
               placeholder="Confirm new password"
-              placeholderTextColor="#00000055"
+              placeholderTextColor="#2A151355"
               secureTextEntry
               autoComplete="new-password"
               value={confirmPassword}
@@ -512,10 +512,10 @@ export default function SettingsScreen({ navigation }: NativeStackScreenProps<Ap
 }
 
 const s = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "#FAF6F1" },
+  container: { flex: 1, backgroundColor: "#FAF7F2" },
   content: { padding: 24, paddingBottom: 48, gap: 16 },
   premiumBtn: {
-    backgroundColor: "#7A1F1F",
+    backgroundColor: "#8B0000",
     borderRadius: 14,
     paddingVertical: 16,
     paddingHorizontal: 18,
@@ -528,29 +528,29 @@ const s = StyleSheet.create({
     borderRadius: 14,
     padding: 18,
     borderWidth: 1,
-    borderColor: "#00000012",
+    borderColor: "#2A151312",
   },
-  sectionTitle: { fontSize: 15, fontWeight: "700", color: "#000" },
-  sectionSub: { fontSize: 12.5, color: "#00000099", marginTop: 4, lineHeight: 17 },
+  sectionTitle: { fontSize: 15, fontWeight: "700", color: "#2A1513" },
+  sectionSub: { fontSize: 12.5, color: "#2A151399", marginTop: 4, lineHeight: 17 },
   placementLink: { marginTop: 12, alignSelf: "flex-start", paddingVertical: 4 },
-  placementLinkText: { fontSize: 14, fontWeight: "700", color: "#7A1F1F" },
+  placementLinkText: { fontSize: 14, fontWeight: "700", color: "#8B0000" },
   fieldGroup: { marginTop: 14, gap: 6 },
-  fieldLabel: { fontSize: 12.5, fontWeight: "600", color: "#00000099" },
+  fieldLabel: { fontSize: 12.5, fontWeight: "600", color: "#2A151399" },
   input: {
     borderWidth: 1,
-    borderColor: "#00000022",
+    borderColor: "#2A151322",
     borderRadius: 12,
     paddingHorizontal: 14,
     paddingVertical: 12,
     fontSize: 15,
-    color: "#000",
+    color: "#2A1513",
     backgroundColor: "#fff",
   },
-  inputDisabled: { backgroundColor: "#00000008", justifyContent: "center" },
-  inputDisabledText: { fontSize: 15, color: "#00000099" },
+  inputDisabled: { backgroundColor: "#2A151308", justifyContent: "center" },
+  inputDisabledText: { fontSize: 15, color: "#2A151399" },
   saveRow: { flexDirection: "row", alignItems: "center", gap: 12, marginTop: 14 },
   saveBtn: {
-    backgroundColor: "#7A1F1F",
+    backgroundColor: "#8B0000",
     borderRadius: 10,
     paddingVertical: 10,
     paddingHorizontal: 18,
@@ -562,10 +562,10 @@ const s = StyleSheet.create({
   saveBtnText: { color: "#fff", fontWeight: "700", fontSize: 14 },
   savedText: { color: "#15803d", fontSize: 13, fontWeight: "600" },
   errorText: { color: "#dc2626", fontSize: 13, flexShrink: 1 },
-  cancelText: { color: "#00000099", fontSize: 14, fontWeight: "600" },
+  cancelText: { color: "#2A151399", fontSize: 14, fontWeight: "600" },
   passwordRow: { flexDirection: "row", alignItems: "center", justifyContent: "space-between", marginTop: 14 },
-  passwordDots: { fontSize: 18, letterSpacing: 2, color: "#000" },
-  passwordAction: { color: "#7A1F1F", fontSize: 14, fontWeight: "700" },
+  passwordDots: { fontSize: 18, letterSpacing: 2, color: "#2A1513" },
+  passwordAction: { color: "#8B0000", fontSize: 14, fontWeight: "700" },
   swatchRow: { flexDirection: "row", gap: 12, marginTop: 14 },
   swatch: {
     width: 36,
@@ -574,10 +574,10 @@ const s = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     borderWidth: 1,
-    borderColor: "#00000018",
+    borderColor: "#2A151318",
   },
-  swatchActive: { borderWidth: 2, borderColor: "#000" },
-  swatchCheck: { fontSize: 14, fontWeight: "800", color: "#000" },
+  swatchActive: { borderWidth: 2, borderColor: "#2A1513" },
+  swatchCheck: { fontSize: 14, fontWeight: "800", color: "#2A1513" },
   enabledRow: {
     flexDirection: "row",
     alignItems: "center",
@@ -587,23 +587,23 @@ const s = StyleSheet.create({
     marginBottom: 14,
   },
   enabledRowText: { flex: 1 },
-  enabledLabel: { fontSize: 14, fontWeight: "600", color: "#000", marginBottom: 2 },
+  enabledLabel: { fontSize: 14, fontWeight: "600", color: "#2A1513", marginBottom: 2 },
   voiceRow: { flexDirection: "row", gap: 10, marginTop: 14 },
   pillWrap: { flexDirection: "row", flexWrap: "wrap", gap: 8, marginTop: 14 },
   voicePill: {
     borderWidth: 1,
-    borderColor: "#00000022",
+    borderColor: "#2A151322",
     borderRadius: 999,
     paddingVertical: 9,
     paddingHorizontal: 18,
     backgroundColor: "#fff",
   },
-  voicePillActive: { backgroundColor: "#000", borderColor: "#000" },
-  voicePillText: { fontSize: 14, fontWeight: "600", color: "#000" },
+  voicePillActive: { backgroundColor: "#2A1513", borderColor: "#2A1513" },
+  voicePillText: { fontSize: 14, fontWeight: "600", color: "#2A1513" },
   voicePillTextActive: { color: "#fff" },
   logoutBtn: {
     borderWidth: 1,
-    borderColor: "#00000018",
+    borderColor: "#2A151318",
     borderRadius: 14,
     paddingVertical: 16,
     alignItems: "center",
@@ -613,5 +613,5 @@ const s = StyleSheet.create({
   // Deliberately low-key: small, muted, below Log out -- present and easy
   // to find in Settings (Apple requires that), but not a big red button.
   deleteAccountLink: { alignSelf: "center", paddingVertical: 6, marginTop: 4 },
-  deleteAccountText: { color: "#00000059", fontSize: 12.5, textDecorationLine: "underline" },
+  deleteAccountText: { color: "#2A151359", fontSize: 12.5, textDecorationLine: "underline" },
 });
