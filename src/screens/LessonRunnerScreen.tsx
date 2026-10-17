@@ -507,6 +507,15 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
           </Pressable>
         )}
       </View>
+      {/* Where the learner is, on every step: the lesson's level and name. */}
+      <View style={s.lessonHeader} accessibilityLabel={`Level ${shortLevel(lesson.level)}, ${shownTitle}`}>
+        <View style={s.levelBadge}>
+          <Text style={s.levelBadgeText}>{shortLevel(lesson.level)}</Text>
+        </View>
+        <View style={s.lessonHeaderTitle}>
+          <TapText text={shownTitle} lang={lang} style={s.lessonHeaderTitleText} />
+        </View>
+      </View>
 
       <ScrollView style={s.stepArea} contentContainerStyle={[s.stepContent, feedback && s.stepContentUnderSheet]} keyboardShouldPersistTaps="handled">
         {currentStep?.kind === "teach" && (
@@ -865,6 +874,11 @@ function CompleteStep({
   );
 }
 
+// The level as the learner knows it: "A1" for "FR-A1", "Pinyin" for "ZH-Pinyin".
+function shortLevel(level: string): string {
+  return level.replace(/^[A-Z]{2}-/, "");
+}
+
 const s = StyleSheet.create({
   passage: { borderWidth: 1, borderColor: "#00000018", borderRadius: 10, padding: 12, backgroundColor: "#fff", marginBottom: 14, gap: 8 },
   passageText: { fontSize: 15, lineHeight: 22, color: "#000000dd" },
@@ -874,6 +888,11 @@ const s = StyleSheet.create({
   closeBtn: { fontSize: 20, color: "#00000055", width: 22, textAlign: "center" },
   progressTrack: { flex: 1, height: 10, backgroundColor: "#00000014", borderRadius: 999, overflow: "hidden" },
   progressFill: { height: "100%", backgroundColor: "#7A1F1F", borderRadius: 999 },
+  lessonHeader: { flexDirection: "row", alignItems: "center", gap: 8, paddingHorizontal: 18, paddingBottom: 10, borderBottomWidth: 1, borderBottomColor: "#00000010" },
+  levelBadge: { backgroundColor: "#7A1F1F", borderRadius: 6, paddingHorizontal: 7, paddingVertical: 2 },
+  levelBadgeText: { color: "#fff", fontSize: 12, fontWeight: "700" },
+  lessonHeaderTitle: { flex: 1 },
+  lessonHeaderTitleText: { fontSize: 14, fontWeight: "600", color: "#000000cc" },
 
   stepArea: { flex: 1 },
   stepContent: { padding: 20, paddingBottom: 40 },
