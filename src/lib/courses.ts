@@ -5,7 +5,7 @@
 // English-for-Spanish-speakers beta (website-only for now; its cards still
 // arrive here through sync, so they must never be mistaken for Spanish),
 // "de/..." (or "de") the German course, "pt/..." (or "pt") the Brazilian
-// Portuguese beta (only the beta accounts see it, lib/portugueseBeta.ts) --
+// Portuguese course (open to every account, like French and German) --
 // anything else Spanish. Flashcards, review lists, Today's review and Home each
 // show one course at a time, and ask here instead of testing prefixes
 // themselves.
@@ -33,7 +33,7 @@ export function isGermanLevelPath(levelPath: string): boolean {
   return levelPath === "de" || levelPath.startsWith("de/");
 }
 
-/** True for the Brazilian Portuguese beta's levelPaths: "pt/a1" ... "pt/c2",
+/** True for the Brazilian Portuguese course's levelPaths: "pt/a1" ... "pt/c2",
  * and "pt" itself (flashcards written by hand in the Portuguese deck). */
 export function isPortugueseLevelPath(levelPath: string): boolean {
   return levelPath === "pt" || levelPath.startsWith("pt/");

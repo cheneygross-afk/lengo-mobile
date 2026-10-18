@@ -1,4 +1,4 @@
-// The Brazilian Portuguese beta's grammar guides (./pt-guides*.ts, synced from the website),
+// The Brazilian Portuguese course's grammar guides (./pt-guides*.ts, synced from the website),
 // loaded on demand: only the Portuguese study tools need them.
 import type { PtGrammarGuide } from "./pt-types";
 

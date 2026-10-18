@@ -1,8 +1,7 @@
-// The Brazilian Portuguese beta in the app: its levels (A1-C2), loaded one
+// The Brazilian Portuguese course in the app: its levels (A1-C2), loaded one
 // level at a time, the same way as the German course (lessons/german.ts).
-// Only the beta accounts see it (lib/portugueseBeta.ts, the website's
-// allowlist): every Portuguese screen is reached from Home's Portuguese
-// pill, which only those accounts get.
+// Open to every account, like French and German: lessons are gated one by
+// one (a plan covering Portuguese, or the free opening in freeLessons.ts).
 //
 // The lesson files are synced from the website (pt-a1.ts ... pt-c2.ts,
 // assembled there into pt-course.ts). Each level is a dynamic import(),

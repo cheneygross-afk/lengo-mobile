@@ -1,4 +1,4 @@
-// The French and German courses' and the Brazilian Portuguese beta's
+// The French and German courses' and the Brazilian Portuguese course's
 // stories behind one interface, for the shared story screens
 // (ReadingLevels, ReadingsList, StoryReader). Each course's stories load on
 // demand (stories/french.ts, stories/german.ts, stories/portuguese.ts):

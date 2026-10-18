@@ -55,7 +55,7 @@ function ptVocabCard(row: PtVocabRow, lesson: PtLessonRow): FlashcardEntry {
   };
 }
 
-// Mobile port of the Brazilian Portuguese beta's glossary and vocabulary
+// Mobile port of the Brazilian Portuguese course's glossary and vocabulary
 // pages (/lessons/pt/tools/glossary, /lessons/pt/tools/vocabulary): every
 // word and phrase the lessons teach, searchable in Portuguese or English
 // (accents optional), with the level where it's first taught. Pick a level

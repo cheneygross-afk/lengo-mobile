@@ -36,7 +36,7 @@ export const CHINESE_LANG: SpeechLang = "zh-CN";
 export const FRENCH_LANG: SpeechLang = "fr-FR";
 // The German course (lessons/de-*.ts).
 export const GERMAN_LANG: SpeechLang = "de-DE";
-// The Brazilian Portuguese beta (lessons/pt-*.ts), spoken by Google's pt-BR voices.
+// The Brazilian Portuguese course (lessons/pt-*.ts), spoken by Google's pt-BR voices.
 export const PORTUGUESE_LANG: SpeechLang = "pt-BR";
 
 // The course languages taught in English (French, German, Portuguese,

@@ -1798,7 +1798,6 @@
     "src/lib/placementTest.ts": "c6d3033c7b97eec1fb5dc80a667fd3daa3d8711ed586823846feda399737a5a0",
     "src/lib/fr-placementTest.ts": "a17b3665f42dcebbdce8146be220519650b73616ab718e2a0cd3f8d3f2714a5c",
     "src/lib/de-placementTest.ts": "3cd0fe3d42c641adbd07524be40b6af2bf654e4c7152bc9129fda9c4e8a1863d",
-    "src/lib/pt-placementTest.ts": "ccf23012fcd8da8af24217146d293a10baf8a35f3423d44554e4ffaa15cf9b03",
-    "src/lib/portugueseBeta.ts": "aee4b7cd2cedb85bcd53500c79091714d66901b8f98ae88d18802cacf9ce2b4f"
+    "src/lib/pt-placementTest.ts": "ccf23012fcd8da8af24217146d293a10baf8a35f3423d44554e4ffaa15cf9b03"
   }
 }

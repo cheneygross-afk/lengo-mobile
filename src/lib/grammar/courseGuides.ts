@@ -1,4 +1,4 @@
-// The French and German courses' and the Brazilian Portuguese beta's
+// The French and German courses' and the Brazilian Portuguese course's
 // grammar guides behind one interface, for the shared grammar screens. Each
 // course's guides load on demand (grammar/french.ts, grammar/german.ts,
 // grammar/portuguese.ts); examples are normalized to

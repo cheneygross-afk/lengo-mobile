@@ -1,5 +1,5 @@
 // The courses whose levels load on demand -- French ("fr/a1" ...), German
-// ("de/a1" ...) and the Brazilian Portuguese beta ("pt/a1" ...), see
+// ("de/a1" ...) and the Brazilian Portuguese course ("pt/a1" ...), see
 // lessons/french.ts, lessons/german.ts and lessons/portuguese.ts -- behind
 // one levelPath-keyed interface, for the screens that show a lesson from
 // either (the lesson runner, unit tests, review).

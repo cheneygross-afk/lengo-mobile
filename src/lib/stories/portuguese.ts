@@ -1,6 +1,6 @@
-// The Brazilian Portuguese beta's stories in the app (synced from the
+// The Brazilian Portuguese course's stories in the app (synced from the
 // website into ./pt), loaded on demand like the Portuguese lessons
-// (lessons/portuguese.ts): only the beta accounts read them. Story
+// (lessons/portuguese.ts); free to every account, like French and German. Story
 // levelPaths are the website's ("pt/a1" ... "pt/c2"), so read-tracking and
 // highlights line up across both; Portuguese story slugs all start with
 // "pt-", so they never collide with another course's. They have no

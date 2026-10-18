@@ -17,7 +17,7 @@ const BRAND = "#8B0000";
 // "fr", the French course's DELF/DALF exams (src/lib/exams/fr), as on the
 // website's /lessons/fr/tools/delf; with "de", the German course's
 // Goethe-Zertifikat exams (src/lib/exams/de, /lessons/de/tools/goethe);
-// with "pt", the Portuguese beta's Celpe-Bras exams and the Deep End A2
+// with "pt", the Portuguese course's Celpe-Bras exams and the Deep End A2
 // practice test (src/lib/exams/pt, /lessons/pt/tools/celpe-bras).
 export default function ExamsScreen({ navigation, route }: Props) {
   const course = route.params?.course ?? "es";

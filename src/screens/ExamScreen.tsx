@@ -39,7 +39,7 @@ export default function ExamScreen(props: Props) {
 
 const celpeEnLevel = (level: string | null) => CELPE_BANDS.find((b) => b.level === level)?.en;
 
-// A Celpe-Bras practice exam of the Brazilian Portuguese beta (the
+// A Celpe-Bras practice exam of the Brazilian Portuguese course (the
 // website's /lessons/pt/tools/celpe-bras/[slug]), or the Deep End A2
 // practice test: the two parts, how the real exam is marked -- a 0-5 mark
 // per part, the weaker part setting the certificate level -- and the

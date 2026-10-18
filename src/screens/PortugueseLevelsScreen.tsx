@@ -22,12 +22,11 @@ type Props = NativeStackScreenProps<AppStackParamList, "PortugueseLevels">;
 
 type Next = { levelPath: PortugueseLevelPath; label: string; lesson: Lesson; title: string; unitLabel?: string };
 
-// The Brazilian Portuguese beta's level picker -- mirrors the website's
+// The Brazilian Portuguese course's level picker -- mirrors the website's
 // /lessons/pt page and PortugueseLevelsScreen: A1 through C2 (B1-C2 lined up
 // with the Celpe-Bras certificate levels), with a "Continue" card for where
 // the learner left off. Each level's lessons are loaded on demand
-// (lessons/portuguese.ts), so the counts fill in as they load. Only the
-// beta accounts reach it (RootNavigator's portugueseOnly guard).
+// (lessons/portuguese.ts), so the counts fill in as they load.
 export default function PortugueseLevelsScreen({ navigation }: Props) {
   // Required lessons done / in each level; undefined until that level loads.
   const [counts, setCounts] = useState<Partial<Record<PortugueseLevelKey, { done: number; total: number }>>>({});

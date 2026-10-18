@@ -21,7 +21,7 @@ export default function GrammarListScreen(props: Props) {
   );
 }
 
-// The French or German course's or the Portuguese beta's grammar guides
+// The French or German course's or the Portuguese course's grammar guides
 // (lib/grammar/courseGuides.ts, loaded on demand), by level, as on the
 // website's /lessons/fr/tools/grammar, /lessons/de/tools/grammar and
 // /lessons/pt/tools/grammar.
@@ -67,7 +67,7 @@ function CourseGrammarList({ navigation, course }: Props & { course: GuideCourse
       renderItem={({ item }) => (
         <Pressable style={styles.card} onPress={() => navigation.navigate("GrammarGuide", { slug: item.slug, lang: course })}>
           {course === "pt" ? (
-            // The Portuguese beta: its words in the titles are tap-to-hear too.
+            // The Portuguese course: its words in the titles are tap-to-hear too.
             <>
               <TapText text={item.title} lang={config.lang} style={styles.cardTitle} />
               <TapText text={item.description} lang={config.lang} style={styles.cardBody} />
