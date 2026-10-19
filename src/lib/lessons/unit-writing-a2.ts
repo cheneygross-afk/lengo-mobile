@@ -83,7 +83,7 @@ export const A2_UNIT_WRITING: Record<string, WriteExercise> = {
     "Para looks ahead: destination, purpose, deadline, recipient. Por looks at cause and route: reason, means, duration, price or exchange."
   ),
   "a2-vocabulary-practice-3": t(
-    "Write a thank-you message to a friend who helped you move flat. Say thanks for what they did, why you're writing, and invite them to dinner. Use por and para correctly.",
+    "Write a thank-you message to a friend who helped you move house. Say thanks for what they did, why you're writing, and invite them to dinner. Use por and para correctly.",
     ["Gracias por…", "Para + infinitive for purpose", "Por for cause (por eso, por tu ayuda)", "Para for a person or a date"],
     "Querida Inés: Te escribo para darte las gracias por tu ayuda el sábado. Gracias a ti, la mudanza fue fácil. Por eso quiero invitarte a cenar a mi piso nuevo. ¿Puedes venir el viernes por la noche? Voy a cocinar algo especial para ti. ¡Gracias por todo! Un beso, Lola",
     "Gracias por + noun or infinitive. Para + infinitive says why (para darte las gracias); por la noche, por eso and por tu ayuda show cause and time."
@@ -127,7 +127,7 @@ export const A2_UNIT_WRITING: Record<string, WriteExercise> = {
   "a2-double-pronouns-me-lo": t(
     "Your friend asks for things they lent you or you promised. Answer each one using two pronouns together: who gives it, to whom, and when. Write at least four answers.",
     ["At least four double pronouns (me lo, te la, se los…)", "Le / les becomes se before lo, la, los, las", "Pronouns attached to an infinitive or command at least once", "Correct agreement with the thing"],
-    "¿Tu libro? Te lo devuelvo mañana. ¿Las fotos de la boda? Te las mando esta noche por correo. ¿La bici de tu hermano? Se la llevo el sábado. ¿Las llaves de Ana? Ya se las di ayer. Y tu chaqueta, ¿quieres que te la lleve a casa? Dímelo.",
+    "¿Tu libro? Te lo devuelvo mañana. ¿Las fotos de la boda? Te las mando esta noche por correo. ¿La bici de tu hermano? Se la llevo el sábado. ¿Las llaves de Ana? Ya se las di ayer. Y tu chaqueta, ¿te la llevo a casa? Dímelo.",
     "Indirect pronoun first, then direct: te lo, me la. Le and les become se before lo/la/los/las: se la llevo (a tu hermano). They attach to commands: dímelo."
   ),
   "a2-comprehensive-review-1": t(
@@ -139,7 +139,7 @@ export const A2_UNIT_WRITING: Record<string, WriteExercise> = {
   "a2d-cumulative-circuit-3": t(
     "Your little brother keeps borrowing your things. Write a short message telling him what to do with each thing, using commands with pronouns, and say what he did last time.",
     ["Commands with pronouns (devuélvemelo, ponla…)", "A past tense for what he did (la última vez…)", "Object pronouns in the right place", "At least six sentences"],
-    "Javi: la última vez cogiste mi cámara y la dejaste en el coche. Esta vez, por favor, devuélvemela antes del viernes. Mis auriculares, déjalos en mi mesa. Si necesitas el cargador, pídemelo primero. Y la chaqueta azul, ponla en mi armario cuando termines. Gracias.",
+    "Javi: la última vez cogiste mi cámara y la dejaste en el coche. Esta vez, por favor, devuélvemela antes del viernes. Mis auriculares, déjalos en mi mesa. Si necesitas el cargador, pídemelo primero. Y la chaqueta azul, ponla en mi armario después. Gracias.",
     "Pronouns go before a conjugated verb (la dejaste) and attach to affirmative commands (devuélvemela, déjalos, ponla)."
   ),
   "a2r-challenge-buenos-aires-1": t(

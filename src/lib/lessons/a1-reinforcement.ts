@@ -407,7 +407,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "Two women take ellas son, and both adjectives go feminine plural: altas y rubias. \"Es\" is singular, \"altos y rubios\" is masculine, and \"alta y rubia\" is singular."
       ),
-      fb("Complete with the correct article.", "___ problemas de matemáticas son difíciles.", "Los", "Problema is masculine → los problemas."),
+      fb("Complete with the correct article.", "___ problemas de matemáticas son difíciles.", "Los", "Problema ends in -a but is masculine (one of the -ma words from Greek), so its article is los."),
       fb("Complete with the correct adjective form (trabajador).", "Las doctoras son muy ___.", "trabajadoras", "-dor adjectives add -a for the feminine and -s for plural: trabajadoras."),
       ms(
         "Which sentences are correct?",
@@ -1001,12 +1001,12 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
           ["mi perro → vuestro perro", "my dog → your (you all's, Spain) dog"],
         ],
         [
-          fb("Change \"my\" to \"our.\"", "mi escuela → ___ escuela", "nuestra", "Escuela is feminine singular → nuestra."),
+          fb("Change \"my\" to \"our.\"", "mi escuela → ___ escuela", "nuestra", "Unlike mi, nuestro changes for gender as well as number, agreeing with the thing owned."),
         ]
       ),
     ],
     [
-      fb("Change \"my\" to \"our.\"", "mis hermanas → ___ hermanas", "nuestras", "Hermanas is feminine plural → nuestras."),
+      fb("Change \"my\" to \"our.\"", "mis hermanas → ___ hermanas", "nuestras", "Nuestro agrees with the thing owned in gender and number, so a feminine plural noun takes nuestras."),
       fb("Change \"your\" to \"their.\"", "tus padres → ___ padres", "sus", "Tus and sus agree with padres (plural), so sus padres."),
       fb("Make the object plural.", "nuestro profesor → ___ profesores", "nuestros", "Profesores is masculine plural, so nuestro becomes nuestros."),
       mc(
@@ -1221,7 +1221,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
           ["¿Cuántas hermanas tienes?", "How many sisters do you have?"],
         ],
         [
-          fb("Complete the question.", "¿___ libros hay en la mesa?", "Cuántos", "Libros is masculine plural → cuántos."),
+          fb("Complete the question.", "¿___ libros hay en la mesa?", "Cuántos", "Cuánto agrees with the noun it asks about: cuántos libros, cuántas casas."),
         ]
       ),
     ],
@@ -1492,9 +1492,9 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       ms(
         "Which questions could get the answer \"Mi hermana\"?",
-        ["¿Quién es la chica de la foto?", "¿Con quién vives?", "¿Dónde vives?", "¿A quién le gusta el chocolate?"],
+        ["¿Quién es la chica de la foto?", "¿Quién vive con tus padres?", "¿Dónde vives?", "¿Quién cocina en tu casa?"],
         [0, 1, 3],
-        "The answer mi hermana is a person, and all three quién questions ask about a person. \"¿Dónde vives?\" asks for a place."
+        "The answer mi hermana is a person, and all three quién questions ask about a person. \"¿Dónde vives?\" asks for a place. (¿Con quién...? or ¿A quién...? would need the preposition in the answer: con mi hermana, a mi hermana.)"
       ),
       toEs("Where is the museum? I like museums a lot.", "¿Dónde está el museo? Me gustan mucho los museos.", "Location → está; plural thing → gustan.", ["¿Dónde está el museo? Me gustan los museos mucho."]),
       wo("¿Por qué no te gusta estudiar por la noche?", "Por qué + no + pronoun + gusta + infinitive.", "Why don't you like studying at night?"),
@@ -2460,7 +2460,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "En (in) answers dónde, a (to) answers adónde, de (from) answers de dónde, and a definition answers qué es."
       ),
-      toEs("Where are you going tonight?", "¿Adónde vas esta noche?", "With movement toward a place (ir), use adónde; vas is the tú form of ir.", ["¿Adónde vas tú esta noche?", "¿A dónde vas esta noche?"]),
+      toEs("Where are you (informal) going tonight?", "¿Adónde vas esta noche?", "With movement toward a place (ir), use adónde; vas is the tú form of ir.", ["¿Adónde vas tú esta noche?", "¿A dónde vas esta noche?"]),
       wo("¿Cuál es el nombre de tu perro?", "Cuál es + the specific item.", "What's your dog's name?"),
     ]
   ),
@@ -2687,7 +2687,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Fix the verb.", "Mi abuela ___ noventa años. (learner wrote: es)", "tiene", "Age uses tener: tiene noventa años. Ser isn't used for age."),
       fb("Fix the verb.", "En verano ___ mucho calor aquí. (learner wrote: es)", "hace", "Weather uses hacer: hace calor. Es calor isn't Spanish."),
-      fb("Fix the verb.", "En mi clase ___ veinte estudiantes. (learner wrote: son)", "hay", "Hay expresses how many things exist somewhere: hay veinte estudiantes. Son would need a subject."),
+      fb("Fix the verb.", "En mi clase ___ veinte estudiantes. (learner wrote: son)", "hay", "For 'there is / there are', Spanish uses hay: en mi clase hay veinte estudiantes. Ser doesn't express existence."),
       ms(
         "Which sentences are correct?",
         ["Hay muchas tiendas en el centro.", "Voy a cocinar esta noche.", "Hace calor, tengo que beber agua.", "Tenemos que estudiamos."],
@@ -2878,7 +2878,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "Your son's son is your grandson; your aunt's son is your cousin; your parents' parents are your grandparents; your father's sister is your aunt."
       ),
       fb("Complete the sentence.", "No tengo esposa; soy ___.", "soltero", "Not married is soltero (single); a woman would say soltera."),
-      fb("Complete the sentence.", "Mis ___ son mi madre y mi padre.", "padres", "Los padres = parents (mother and father)."),
+      fb("Complete the sentence.", "Mis ___ son mi madre y mi padre.", "padres", "Padres, the masculine plural of padre, means parents: the masculine plural covers a mother and a father together."),
       toEs("My cousins live with my grandparents.", "Mis primos viven con mis abuelos.", "Masculine plurals cover mixed groups: primos and abuelos include women too.", ["Mis primas viven con mis abuelos."]),
       toEn("Mi sobrina es la hija de mi hermano.", "My niece is my brother's daughter.", "Sobrina = niece, and \"la hija de mi hermano\" = my brother's daughter.", []),
       wo("La novia de mi hermano es enfermera.", "Thing + de + owner, then ser + profession.", "My brother's girlfriend is a nurse."),
@@ -3369,7 +3369,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "Hambre is a feminine noun, so mucha hambre, and it goes with tener. \"Mucho hambre\" is masculine, \"estoy\" is the wrong verb, and \"hambre mucha\" is the wrong order."
       ),
-      fb("Finish the sentence.", "Hoy hace frío, ___ que voy a llevar un abrigo.", "así", "Así que = so (as a result)."),
+      fb("Finish the sentence.", "Hoy hace frío, ___ voy a llevar un abrigo.", "así que", "Así que (so, as a result) introduces a consequence: hace frío, así que voy a llevar un abrigo."),
     ]
   ),
   L(
@@ -3468,7 +3468,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       sec(
         "17:00 — Shopping",
-        "Emma buys a present for her mother.",
+        "Emma buys a present for her mother and is very happy with it.",
         [
           ["—Me gusta este bolso. ¿Cuánto cuesta?", "I like this bag. How much is it?"],
           ["—Cuarenta euros. ¿Y le gustan estas bufandas?", "Forty euros. And do you like these scarves?"],
@@ -3485,7 +3485,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
           ["—¡Sí! Tengo mucha hambre.", "Yes! I'm really hungry."],
         ],
         [
-          fb("Complete Lucas's reply.", "Perfecto. Hay un bar muy bueno ___ lado de mi casa.", "al", "Al lado de = next to."),
+          fb("Complete Lucas's reply.", "Perfecto. Hay un bar muy bueno ___ mi casa.", "al lado de", "Al lado de = next to; a + el contracts to al."),
         ]
       ),
     ],

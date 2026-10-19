@@ -202,7 +202,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       fe("___ no hemos recibido el paquete.", "Todavía", "We haven't received the package [yet].", "todavía no = not yet.", ["Aún"]),
       fe("Mi hermano ___ ha montado en avión.", "nunca", "My brother has [never] been on a plane.", "nunca + ha + participle."),
       toEs("I've already seen this film.", "Ya he visto esta película.", "ya + he visto.", ["He visto ya esta película.", "Ya vi esta película.", "Ya he visto esta peli."]),
-      toEs("Have you ever eaten paella?", "¿Alguna vez has comido paella?", "¿Alguna vez has + participle?", ["¿Has comido paella alguna vez?", "¿Has comido alguna vez paella?", "¿Alguna vez ha comido paella?", "¿Ha comido paella alguna vez?"]),
+      toEs("Have you ever eaten paella?", "¿Alguna vez has comido paella?", "¿Alguna vez has + participle?", ["¿Alguna vez comiste paella?", "¿Has comido paella alguna vez?", "¿Has comido alguna vez paella?", "¿Alguna vez ha comido paella?", "¿Ha comido paella alguna vez?"]),
       toEs("We haven't decided yet.", "Todavía no hemos decidido.", "todavía no + hemos decidido.", ["Aún no hemos decidido.", "No hemos decidido todavía.", "No hemos decidido aún."]),
       toEs("I've been to Mexico three times.", "He estado en México tres veces.", "estar → estado; tres veces.", ["He ido a México tres veces.", "Estuve en México tres veces."]),
       toEn("¿Alguna vez has perdido el pasaporte?", "Have you ever lost your passport?", "¿Alguna vez has…? = Have you ever…?", ["Have you ever lost the passport?"]),
@@ -234,7 +234,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       ),
       sec(
         "Spain and Latin America",
-        "In Spain, he comido is the normal past for anything earlier today: ¿Qué has hecho esta mañana? In Mexico, Colombia, Argentina and most of Latin America, people usually say ¿Qué hiciste esta mañana? and keep he comido for experiences (¿Has estado en Cuba?). You can use either; just be consistent.",
+        "In Spain, he comido is the normal past for anything earlier today: ¿Qué has hecho esta mañana? In Mexico, Colombia, Argentina and most of Latin America, people usually say ¿Qué hiciste esta mañana? and often use the preterite for experiences too (¿Alguna vez estuviste en Cuba?), alongside he comido (¿Has estado en Cuba?). You can use either; just be consistent.",
         [
           ["España: Esta mañana he desayunado tarde.", "Spain: This morning I had a late breakfast."],
           ["México: Esta mañana desayuné tarde.", "Mexico: This morning I had a late breakfast."],
@@ -253,10 +253,10 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       fe("La semana pasada ___ mucho.", "trabajé", "Last week I [worked] a lot.", "La semana pasada is over → preterite: trabajé."),
       fe("Esta semana ___ mucho.", "he trabajado", "This week I [have worked] a lot.", "Esta semana isn't over → present perfect.", ["trabajé"]),
       fe("En 2019 ___ en Chile.", "vivimos", "In 2019 we [lived] in Chile.", "A finished year → preterite: vivimos."),
-      fe("¿Alguna vez ___ en Chile?", "has vivido", "[Have you ever lived] in Chile? (tú)", "Experience → present perfect, everywhere."),
+      fe("¿Alguna vez ___ en Chile?", "has vivido", "[Have you ever lived] in Chile? (tú)", "Experience → present perfect (has vivido); much of Latin America also says ¿Alguna vez viviste en Chile?", ["viviste"]),
       toEs("Yesterday I went out with my friends.", "Ayer salí con mis amigos.", "Ayer → preterite.", ["Ayer salí con mis amigas.", "Salí con mis amigos ayer."]),
       toEs("This year we've saved a lot of money.", "Este año hemos ahorrado mucho dinero.", "Este año → present perfect.", ["Este año ahorramos mucho dinero.", "Hemos ahorrado mucho dinero este año."]),
-      toEs("Have you (tú) ever been to Spain? — Yes, I went in 2018.", "¿Alguna vez has estado en España? —Sí, fui en 2018.", "The experience → he estado; the date → fui.", ["¿Has estado en España alguna vez? —Sí, fui en 2018.", "¿Has estado alguna vez en España? —Sí, fui en 2018."]),
+      toEs("Have you (tú) ever been to Spain? — Yes, I went in 2018.", "¿Alguna vez has estado en España? —Sí, fui en 2018.", "The experience → he estado; the date → fui.", ["¿Alguna vez estuviste en España? —Sí, fui en 2018.", "¿Has estado en España alguna vez? —Sí, fui en 2018.", "¿Has estado alguna vez en España? —Sí, fui en 2018."]),
       toEn("Hoy no he hecho nada, pero ayer limpié toda la casa.", "Today I haven't done anything, but yesterday I cleaned the whole house.", "Hoy → he hecho; ayer → limpié.", ["Today I've done nothing, but yesterday I cleaned the whole house.", "Today I didn't do anything, but yesterday I cleaned the whole house."]),
       mt(
         "Match each time word to the tense it goes with.",
@@ -295,7 +295,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
     ],
     [
       fe("¿Ya ___ los billetes?", "has comprado", "[Have you bought] the tickets yet? (tú)", "has + comprado."),
-      fe("Nosotros nunca ___ un accidente.", "hemos tenido", "We [have] never [had] an accident.", "hemos + tenido."),
+      fe("Nosotros nunca ___ un accidente.", "hemos tenido", "We [have] never [had] an accident.", "hemos + tenido.", ["tuvimos"]),
       fe("¿Quién ha ___ la puerta?", "abierto", "Who has [opened] the door?", "abrir → abierto."),
       fe("El año pasado ___ a Japón.", "viajé", "Last year I [traveled] to Japan.", "A finished time → preterite."),
       toEs("I haven't seen the news yet.", "Todavía no he visto las noticias.", "todavía no + he visto.", ["Aún no he visto las noticias.", "No he visto las noticias todavía.", "No he visto las noticias aún."]),
@@ -373,8 +373,8 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
           ["el sospechoso", "the suspect"],
           ["la víctima", "the victim"],
           ["el juicio", "the trial"],
-          ["la cárcel", "the prison"],
-          ["culpable", "guilty"],
+          ["el testigo", "the witness"],
+          ["detener", "to arrest"],
         ],
         "Words you'll hear in every news bulletin."
       ),
@@ -711,9 +711,9 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       fe("¿La foto? Voy a ___ ahora.", "mandártela", "The photo? I'm going to [send it to you] now.", "mandar + te + la, joined with an accent."),
       fe("¿El café? Estoy ___.", "preparándotelo", "The coffee? I'm [making it for you].", "preparando + te + lo, accent on the á."),
       fe("¿Las llaves? ___, por favor.", "Dámelas", "The keys? [Give them to me], please.", "A yes command: da + me + las."),
-      toEs("I can't tell you (it).", "No te lo puedo decir.", "te + lo before puedo, or joined: no puedo decírtelo.", ["No puedo decírtelo."]),
+      toEs("I can't tell you (it).", "No te lo puedo decir.", "te + lo before puedo, or joined: no puedo decírtelo.", ["No puedo decírtelo.", "No se lo puedo decir.", "No puedo decírselo."]),
       toEs("Give it to me, please.", "Dámelo, por favor.", "A yes command joins the pair: dámelo.", ["Dámela, por favor.", "Démelo, por favor."]),
-      toEs("Tell it to him.", "Díselo.", "A yes command: the pair joins the end, se before lo, with an accent: díselo.", ["Díselo a él."]),
+      toEs("Tell it to him (informal).", "Díselo.", "A yes command: the pair joins the end, se before lo, with an accent: díselo.", ["Díselo a él."]),
       toEn("¿El regalo? Queremos dárselo mañana.", "The present? We want to give it to him tomorrow.", "dar + se + lo: to give it to him / her / them.", ["The present? We want to give it to her tomorrow.", "The gift? We want to give it to him tomorrow.", "The gift? We want to give it to her tomorrow.", "The present? We want to give it to them tomorrow."]),
       wo("No te lo voy a decir.", "Both pronouns before the conjugated verb.", "I'm not going to tell you."),
     ]
@@ -751,8 +751,8 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       fe("¿El sofá? ___ he vendido a una amiga.", "Se lo", "The sofa? I've sold [it to] a friend.", "le + lo → se lo."),
       fe("¿La planta? ___ han regalado los vecinos.", "Me la", "The plant? The neighbors gave [it to me].", "me + la."),
       toEs("The keys? I'll give them to him tomorrow.", "¿Las llaves? Se las doy mañana.", "le + las → se las.", ["¿Las llaves? Mañana se las doy.", "¿Las llaves? Se las daré mañana."]),
-      toEs("Will you lend me your van? — Yes, I'll lend it to you.", "¿Me prestas tu furgoneta? —Sí, te la presto.", "me / te + la.", ["¿Me prestas la furgoneta? —Sí, te la presto."]),
-      toEs("Can you bring it to us on Friday?", "¿Nos lo puedes traer el viernes?", "nos + lo before puedes, or joined: traérnoslo.", ["¿Puedes traérnoslo el viernes?", "¿Nos la puedes traer el viernes?", "¿Puedes traérnosla el viernes?"]),
+      toEs("Will you (informal) lend me your van? — Yes, I'll lend it to you.", "¿Me prestas tu furgoneta? —Sí, te la presto.", "me / te + la.", ["¿Me prestas la furgoneta? —Sí, te la presto."]),
+      toEs("Can you (informal) bring it to us on Friday?", "¿Nos lo puedes traer el viernes?", "nos + lo before puedes, or joined: traérnoslo.", ["¿Puedes traérnoslo el viernes?", "¿Nos la puedes traer el viernes?", "¿Puedes traérnosla el viernes?"]),
       toEn("¿El mapa del barrio? Te lo envío por WhatsApp.", "The neighborhood map? I'll send it to you on WhatsApp.", "te + lo.", ["The map of the neighborhood? I'll send it to you by WhatsApp."]),
       mc(
         "\"The plant? I gave it to my mother.\"",

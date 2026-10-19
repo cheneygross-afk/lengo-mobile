@@ -25,7 +25,7 @@ export const A1_CORE: AnchoredLesson[] = [
   L(
     "a1-core-verbs-everyday-actions",
     "Core Verbs: Everyday Actions",
-    "Fifteen regular and stem-changing verbs you'll use every day: perder, ganar, olvidar, sacar, enviar and more.",
+    "Seventeen regular and stem-changing verbs you'll use every day: perder, ganar, olvidar, sacar, enviar and more.",
     "9 min",
     [
       sec(
@@ -84,7 +84,7 @@ export const A1_CORE: AnchoredLesson[] = [
       fe("La película ___ a las siete.", "comienza", "The film [starts] at seven.", "comenzar → comienza: e → ie in the boot. Empezar means the same.", ["empieza"]),
       toEs("I always lose my glasses.", "Siempre pierdo mis gafas.", "perder → pierdo: e → ie. Lentes is common in Latin America.", ["Siempre pierdo las gafas.", "Siempre pierdo mis lentes.", "Siempre pierdo los lentes.", "Yo siempre pierdo mis gafas.", "Pierdo siempre mis gafas."]),
       toEs("Can you show me the room?", "¿Puedes mostrarme la habitación?", "poder + mostrar; the pronoun me goes on the end of the infinitive or before puedes.", ["¿Me puedes mostrar la habitación?", "¿Puede mostrarme la habitación?", "¿Me puede mostrar la habitación?", "¿Puedes enseñarme la habitación?", "¿Me puedes enseñar la habitación?"]),
-      toEs("I'll send you an email tonight.", "Te envío un correo esta noche.", "enviar → envío (yo). Spanish often uses the present for a plan.", ["Te envío un email esta noche.", "Esta noche te envío un correo.", "Te mando un correo esta noche."]),
+      toEs("I'll send you an email tonight.", "Te envío un correo esta noche.", "enviar → envío (yo). Spanish often uses the present for a plan.", ["Te envío un email esta noche.", "Esta noche te envío un correo.", "Te mando un correo esta noche.", "Le envío un correo esta noche.", "Esta noche le envío un correo."]),
       toEn("No consigo recordar la contraseña.", "I can't remember the password.", "conseguir + infinitive = to manage to; recordar = to remember.", ["I can't manage to remember the password.", "I can't remember my password."]),
       mt(
         "Match each verb to its meaning.",
@@ -386,7 +386,7 @@ export const A1_CORE: AnchoredLesson[] = [
         "\"My hands hurt.\"",
         ["Me duelen las manos.", "Me duele las manos.", "Me duelen mis manos.", "Yo duelo las manos."],
         0,
-        "Plural manos → duelen, with las. \"Duele\" is singular, Spanish uses las rather than mis here, and \"yo duelo\" would mean I hurt (someone)."
+        "Plural manos → duelen, with las. \"Duele\" is singular, Spanish uses las rather than mis here, and \"yo duelo\" wrongly makes the person the subject: with doler, the part that hurts is the subject."
       ),
       wo("Me duele mucho el brazo derecho.", "Me duele + mucho + the body part.", "My right arm hurts a lot."),
     ]
@@ -411,7 +411,7 @@ export const A1_CORE: AnchoredLesson[] = [
       ),
       sec(
         "Rain, snow, clouds",
-        "Llover and nevar have their own verbs: llueve (it's raining, it rains), nieva (it's snowing). For the sky, use estar: está nublado (it's cloudy), el cielo está gris.",
+        "Rain and snow don't use hace; they have their own verbs, llover and nevar: llueve (it's raining, it rains), nieva (it's snowing). For the sky, use estar: está nublado (it's cloudy), el cielo está gris.",
         [
           ["Llueve mucho en Galicia.", "It rains a lot in Galicia."],
           ["En la montaña nieva en enero.", "In the mountains it snows in January."],

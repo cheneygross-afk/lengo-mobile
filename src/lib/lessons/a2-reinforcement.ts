@@ -705,7 +705,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Complete with the indirect object pronoun.", "¿___ mandaste la invitación a tus tíos?", "Les", "A tus tíos (plural) → les."),
-      fb("Complete with the indirect object pronoun.", "Mi jefe ___ explicó el proyecto a nosotros.", "nos", "A nosotros matches the pronoun nos."),
+      fb("Complete with the indirect object pronoun.", "Mi jefe ___ explicó el proyecto.", "nos", "To us → nos, before the verb. Adding a nosotros is only for emphasis."),
       mc(
         "\"Can you (informal) send me the photos?\"",
         ["¿Me mandas las fotos?", "¿Te mandas las fotos?", "¿Me mando las fotos?", "¿Le mandas las fotos?"],
@@ -758,14 +758,14 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
           ["Le dije la verdad.", "I told her the truth."],
         ],
         [
-          fb("Replace the person.", "Pregunto a la profesora. → ___ pregunto.", "Le", "Preguntar (to ask someone) → le."),
+          fb("Replace the person.", "Pregunto a la profesora. → ___ pregunto.", "Le", "With preguntar, the person you ask receives the question, so she is an indirect object: le pregunto, not la pregunto."),
         ]
       ),
     ],
     [
-      fb("Replace the person.", "Ayudo a mi vecina. → ___ ayudo.", "La", "Ayudar takes a direct object in Spanish → la."),
-      fb("Replace the person.", "Contesto a mis padres. → ___ contesto.", "Les", "Contestar a alguien → indirect → les."),
-      fb("Replace the person.", "Invito a Carlos y a Luis. → ___ invito.", "Los", "Invitar takes a direct object → los."),
+      fb("Replace the person.", "Ayudo a mi vecina. → ___ ayudo.", "La", "Ayudar acts directly on the person (English 'help' has no 'to'), and mi vecina is feminine: la ayudo, not le ayudo."),
+      fb("Replace the person.", "Contesto a mis padres. → ___ contesto.", "Les", "With contestar, the person receives your answer, so it's an indirect object; mis padres is plural: les contesto, not los."),
+      fb("Replace the person.", "Invito a Carlos y a Luis. → ___ invito.", "Los", "Invitar acts directly on the people (no 'to' in English), and Carlos y Luis are masculine plural: los invito, not les."),
       ms(
         "Which sentences use the pronoun correctly?",
         ["Le di un regalo.", "La escribí una carta.", "Los vi en el parque.", "Le dije adiós."],
@@ -1175,7 +1175,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Complete with por or para.", "Tenemos que reservar el hotel ___ el 15 de mayo.", "para", "Para + date sets a deadline: para el 15 de mayo."),
+      fb("Complete with por or para.", "Tenemos que reservar el hotel ___ el 15 de mayo.", "para", "Para + date marks the date something is planned for or due by: para el 15 de mayo (por cannot mark this target date)."),
       fb("Complete with por or para.", "El vuelo se canceló ___ la tormenta.", "por", "Por gives the cause: se canceló por la tormenta."),
       fb("Complete with por or para.", "Te mando las fotos ___ correo electrónico.", "por", "Means of sending or communicating → por: por correo, por teléfono. (For travelling, Spanish normally says en tren, en autobús.)"),
       fb("Complete with por or para.", "Ahorro dinero ___ el viaje.", "para", "Para marks the goal: saving for the trip."),
@@ -1561,7 +1561,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
           ["—Sí, lleva. Pero se lo podemos preparar sin frutos secos.", "Yes, it does. But we can make it for you without nuts."],
         ],
         [
-          fb("Complete the request.", "¿Me trae la ensalada ___ cebolla, por favor?", "sin", "Sin means without: sin cebolla."),
+          fb("Complete the request.", "¿Me trae la ensalada ___ cebolla, por favor?", "sin", "No article after sin when you mean none at all: sin cebolla, sin hielo."),
         ]
       ),
     ],
@@ -1768,7 +1768,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Complete Lucía's post.", "El tercer día ___ a un mercado de artesanías. (ir, nosotros)", "fuimos", "Ir → fuimos."),
-      fb("Complete Lucía's post.", "Yo ___ un poncho para mi madre. (comprar)", "compré", "Yo → compré."),
+      fb("Complete Lucía's post.", "Yo ___ un poncho para mi madre. (comprar)", "compré", "The regular -ar yo preterite ends in accented -é; without the accent, compre is a different form."),
       fb("Complete Lucía's post.", "Los vendedores nos ___ muy bien. (tratar)", "trataron", "Ellos → trataron."),
       mc(
         "Which sentence would fit the blog's final paragraph?",
@@ -2060,7 +2060,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "With negative commands, the pronoun goes before the verb: ¡No le diga! \"No dígale\" attaches it as in a positive command, \"Le no diga\" puts no in the wrong place, and \"diga le\" leaves it separate."
       ),
-      toEs("I'm going to send it to you tomorrow. (the report)", "Te lo voy a mandar mañana.", "Te (to you) before lo (it) — both before the conjugated verb, or both attached.", ["Voy a mandártelo mañana.", "Te lo mando mañana.", "Te lo enviaré mañana.", "Voy a enviártelo mañana."]),
+      toEs("I'm going to send it to you (tú) tomorrow. (the report)", "Te lo voy a mandar mañana.", "Te (to you) before lo (it) — both before the conjugated verb, or both attached.", ["Voy a mandártelo mañana.", "Te lo mando mañana.", "Te lo enviaré mañana.", "Voy a enviártelo mañana."]),
       wo("¿Me estás escuchando o no?", "Me before the conjugated estar (or attached: escuchándome).", "Are you listening to me or not?"),
     ]
   ),
@@ -2532,7 +2532,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         [0, 2],
         "Para is correct for purpose (para ser enfermera) and recipient (para Luis). Thanks take por (gracias por la invitación), and traveling through a place takes por (viajé por toda Europa)."
       ),
-      toEs("I changed my shift for yours because of the concert.", "Cambié mi turno por el tuyo por el concierto.", "Exchange → por; cause → por.", ["Cambié mi turno por el tuyo a causa del concierto."]),
+      toEs("I changed my shift for yours (tú) because of the concert.", "Cambié mi turno por el tuyo por el concierto.", "Exchange → por; cause → por.", ["Cambié mi turno por el tuyo a causa del concierto."]),
       wo("Para mí, viajar por Sudamérica fue una experiencia única.", "Para mí = in my opinion; por = through.", "For me, traveling around South America was a unique experience."),
     ]
   ),
@@ -2836,7 +2836,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "Se me rompió means it broke on me (by accident), with la pantalla as the subject. The other options put me or a mí in the wrong place or make it sound like you broke it on purpose."
       ),
-      toEs("Can you send me the photo by email?", "¿Me puedes mandar la foto por correo?", "Me (to me); por correo = by email.", ["¿Me puedes enviar la foto por correo?", "¿Puedes mandarme la foto por correo?", "¿Me mandas la foto por correo electrónico?", "¿Me puedes mandar la foto por email?", "¿Me puedes mandar la foto por correo electrónico?", "¿Me puedes enviar la foto por correo electrónico?", "¿Puedes mandarme la foto por correo electrónico?", "¿Puedes enviarme la foto por correo electrónico?", "¿Puedes enviarme la foto por correo?"]),
+      toEs("Can you (informal) send me the photo by email?", "¿Me puedes mandar la foto por correo?", "Me (to me); por correo = by email.", ["¿Me puedes enviar la foto por correo?", "¿Puedes mandarme la foto por correo?", "¿Me mandas la foto por correo electrónico?", "¿Me puedes mandar la foto por email?", "¿Me puedes mandar la foto por correo electrónico?", "¿Me puedes enviar la foto por correo electrónico?", "¿Puedes mandarme la foto por correo electrónico?", "¿Puedes enviarme la foto por correo electrónico?", "¿Puedes enviarme la foto por correo?"]),
       toEn("No tengo cobertura aquí, te llamo luego.", "I don't have signal here, I'll call you later.", "Cobertura means cell coverage or signal; te llamo luego = I'll call you later.", ["I have no signal here, I'll call you later."]),
       wo("Borré todas las fotos sin querer.", "Sin querer = by accident.", "I deleted all the photos by accident."),
     ]
@@ -3426,7 +3426,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Replace «mi bici» and «a mis primos» with pronouns.", "Presté mi bici a mis primos. → ___ la presté.", "Se", "Les + la → se la."),
+      fb("Replace «mi bici» and «a mis primos» with pronouns.", "Presté mi bici a mis primos. → ___ la presté.", "Se", "Les (to my cousins) can't stand before la (my bike), so it becomes se: se la presté."),
       fb("Replace the object.", "¿Viste las noticias? → Sí, ___ vi.", "las", "Las noticias is feminine plural, so las."),
       fb("Add the reflexive pronoun.", "Mis padres ___ casaron en 1990.", "se", "Casarse with ellos takes se: se casaron."),
       fb("Attach the pronoun.", "Voy a comprar el vestido. → Voy a ___.", "comprarlo", "El vestido is masculine, so lo, attached to the infinitive: comprarlo."),
@@ -3505,7 +3505,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       fb("Complete with por or para.", "Pasaremos ___ tu casa a las siete.", "por", "Pasar por means to stop by a place: pasaremos por tu casa."),
       fb("Complete with por or para.", "Necesito el vestido ___ la boda del sábado.", "para", "Para marks the purpose or occasion: el vestido para la boda."),
       fb("Complete with the adverb (claro).", "El profesor habla muy ___.", "claramente", "Clara + -mente."),
-      fb("Complete with a negative word.", "No habrá ___ problema, te lo prometo.", "ningún", "Ningún before a masculine singular noun."),
+      fb("Complete with a negative word.", "No habrá ___ problema, te lo prometo.", "ningún", "Ninguno shortens to ningún before problema (masculine singular), and no before habrá makes the double negative."),
       mc(
         "\"This will be the best trip of our lives.\"",
         ["Este será el mejor viaje de nuestras vidas.", "Este será el más mejor viaje de nuestras vidas.", "Este será el mejor viaje en nuestras vidas.", "Este fue el mejor viaje de nuestras vidas mañana."],

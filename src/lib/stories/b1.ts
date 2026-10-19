@@ -231,7 +231,7 @@ const B1_FICTION: Story[] = [
       "Two rival youth soccer teams must combine forces for a single charity match, testing old grudges and new friendships.",
     paragraphs: [
       "En la ciudad de Medellín, los equipos juveniles Águilas y Halcones eran rivales desde hacía años. Cada vez que jugaban entre ellos, los partidos terminaban con gritos, discusiones y, a veces, jugadores expulsados por el árbitro. Los aficionados de ambos equipos también se llevaban muy mal.",
-      "Un día, el club deportivo del barrio anunció que el hospital infantil de la ciudad necesitaba dinero con urgencia para comprar equipo médico nuevo. Para ayudar, organizarían un partido solidario, pero con una condición especial: los jugadores de Águilas y Halcones tendrían que combinarse en un solo equipo mixto.",
+      "Un día, el club deportivo del barrio anunció que el hospital infantil de la ciudad necesitaba dinero con urgencia para comprar equipo médico nuevo. Para ayudar, organizarían un partido solidario, pero con una condición especial: los jugadores de Águilas y Halcones tendrían que combinarse en un solo equipo.",
       "La noticia no le gustó a nadie al principio. Sebastián, el capitán de Águilas, dijo que sería imposible jugar en el mismo equipo que sus rivales de toda la vida. Nicolás, el capitán de Halcones, pensaba exactamente lo mismo, y durante el primer entrenamiento conjunto, casi nadie se hablaba.",
       "El entrenador encargado del equipo combinado, don Fabio, notó la tensión enseguida. \"Espero que todos recuerden por qué estamos aquí\", les dijo a los jugadores reunidos. \"No estamos jugando por orgullo esta vez, sino por los niños del hospital\". Sus palabras, sin embargo, no cambiaron mucho el ambiente esa primera semana.",
       "Durante los entrenamientos, Sebastián y Nicolás competían constantemente por ser el líder del equipo, dando órdenes contradictorias a sus compañeros. Esto causó confusión en la cancha y varios errores durante los ejercicios. Los demás jugadores empezaron a frustrarse con la actitud de ambos capitanes.",
@@ -249,7 +249,7 @@ const B1_FICTION: Story[] = [
         options: ["Only girls could play", "Players from Águilas and Halcones had to form one combined team", "The match had to be played without a referee", "Ticket sales would fund new team uniforms"],
         correctIndex: 1,
         explanation:
-          "The rivals had to combine into one team: \"los jugadores de Águilas y Halcones tendrían que combinarse en un solo equipo mixto.\"",
+          "The rivals had to combine into one team: \"los jugadores de Águilas y Halcones tendrían que combinarse en un solo equipo.\"",
       },
       {
         question: "Where did Sebastián and Nicolás first have an honest conversation?",
@@ -626,7 +626,7 @@ const B1_FICTION: Story[] = [
     subtitle:
       "A young swimmer recovering from a shoulder injury must decide whether to rush back for a big competition or accept a slower path.",
     paragraphs: [
-      "Marta tenía quince años y era una de las nadadoras más prometedoras de su club deportivo en Sevilla. Llevaba años entrenando cada mañana antes de ir a la escuela, con la esperanza de clasificar algún día para el campeonato regional de natación.",
+      "Marta tenía quince años y era una de las nadadoras más prometedoras de su club deportivo en Sevilla. Llevaba años entrenando cada mañana antes de ir a la escuela, con la esperanza de clasificarse algún día para el campeonato regional de natación.",
       "Casi tres meses antes del campeonato más importante de su carrera, Marta sintió un dolor agudo en el hombro durante un entrenamiento. El médico del equipo le explicó que tenía una pequeña lesión en el hombro, probablemente causada por el uso excesivo, y que necesitaría descansar al menos seis semanas para recuperarse completamente.",
       "La noticia fue devastadora para Marta. El campeonato regional era justo cinco semanas después del final previsto de su recuperación, y ella temía no tener suficiente tiempo para volver a entrenar al nivel necesario para competir bien. Pensó en ignorar el consejo médico y seguir entrenando de todos modos.",
       "Su entrenador, Ignacio, notó la frustración de Marta durante la siguiente semana. \"Sé que quieres competir\", le dijo, \"pero si sigues nadando con esa lesión, podrías empeorarla tanto que no puedas competir nunca más de la misma manera\". Sus palabras asustaron a Marta, pero también la hicieron reflexionar seriamente.",
@@ -952,7 +952,7 @@ const B1_FICTION: Story[] = [
         options: ["He didn't need the money", "He trusted the client, who had promised to pay within a week", "He had already been paid in cash", "He forgot about the invoice"],
         correctIndex: 1,
         explanation:
-          "The señora Rojas \"le prometió que pagaría la factura en una semana\" and \"Diego confiaba en ella, así que no se preocupó al principio\" — he trusted her promise.",
+          "Señora Rojas \"le prometió que pagaría la factura en una semana\" and \"Diego confiaba en ella, así que no se preocupó al principio\" — he trusted her promise.",
       },
       {
         question: "What did Diego's friend suggest he do?",
@@ -2598,7 +2598,7 @@ const B1_FICTION: Story[] = [
       },
       {
         question: "What did Marta plan to do after returning home?",
-        options: ["Never volunteer again", "Save money to return the next year for the same project", "Move to Centroamérica permanently", "Stop working as a designer"],
+        options: ["Never volunteer again", "Save money to return the next year for the same project", "Move to Central America permanently", "Stop working as a designer"],
         correctIndex: 1,
         explanation:
           "The story says she \"ya estaba ahorrando para volver el año siguiente con el mismo proyecto\" (was already saving to return the following year for the same project).",

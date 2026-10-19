@@ -536,7 +536,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
     ],
     [
       fb("Fill in.", "El martes Laura ___ de casa a las ocho. (salir)", "salió", "Salir is regular in the preterite."),
-      fb("Fill in.", "___ el autobús y llegó a la universidad. (tomar)", "Tomó", "-AR él."),
+      fb("Fill in.", "___ el autobús y llegó a la universidad. (tomar)", "Tomó", "Regular -ar verbs take accented -ó in the él/ella preterite; without the accent, tomo means 'I take'."),
       fb("Fill in (Laura tells it).", "Yo ___ a la universidad a las nueve. (llegar)", "llegué", "-gar → -gué."),
       fb("Fill in (Laura tells it).", "___ el móvil en la mochila, pero no estaba. (buscar)", "Busqué", "-car → -qué."),
       fb("Fill in.", "Alguien lo encontró y lo ___ en la oficina. (poner)", "puso", "Poner → puso."),
@@ -565,7 +565,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
     ],
     [
       fb("Quick!", "Yo ___ el piano. (tocar)", "toqué", "-car → -qué in the yo form."),
-      fb("Quick!", "Tú ___ mucho. (trabajar)", "trabajaste", "Regular."),
+      fb("Quick!", "Tú ___ mucho. (trabajar)", "trabajaste", "The regular -ar tú preterite ends in -aste, with no final s (not trabajastes)."),
       fb("Quick!", "Ella ___ en Italia. (estar)", "estuvo", "Estar → estuv- + -o."),
       fb("Quick!", "Nosotros ___ tarde. (venir)", "vinimos", "Venir → vin- + -imos."),
       fb("Quick!", "Ustedes ___ la cena. (hacer)", "hicieron", "Hacer → hic- + -ieron."),
@@ -642,11 +642,11 @@ export const A2_DRILLS: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Complete.", "Mis profesores ___ muy estrictos. (ser)", "eran", "Ser → eran."),
-      fb("Complete.", "Los domingos ___ a misa con mis abuelos. (ir, nosotros)", "íbamos", "Ir → íbamos."),
+      fb("Complete.", "Mis profesores ___ muy estrictos. (ser)", "eran", "Describing what people were like in the past takes the imperfect, and ser is one of the three irregulars."),
+      fb("Complete.", "Los domingos ___ a misa con mis abuelos. (ir, nosotros)", "íbamos", "Los domingos marks a past habit; ir is irregular in the imperfect and íbamos carries an accent."),
       fb("Complete.", "Tú ___ a tus primos todos los veranos. (ver)", "veías", "Ver → veías: one of the three irregular imperfects."),
-      fb("Complete.", "Mi pueblo ___ muy tranquilo. (ser)", "era", "Ser → era."),
-      fb("Complete.", "Mi madre ___ al mercado todos los días. (ir)", "iba", "Ir → iba."),
+      fb("Complete.", "Mi pueblo ___ muy tranquilo. (ser)", "era", "Describing what a place was like takes the imperfect: era, not fue."),
+      fb("Complete.", "Mi madre ___ al mercado todos los días. (ir)", "iba", "Todos los días marks a past habit, and ir's imperfect is irregular: iba (no accent)."),
       ms(
         "Which forms are correct imperfects?",
         ["éramos", "íbais", "veíamos", "ibamos"],
@@ -683,7 +683,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
     ],
     [
       fb("Time.", "___ las siete de la mañana. (ser)", "Eran", "Time in the past → eran."),
-      fb("Weather.", "___ mucho calor en la calle. (hacer)", "Hacía", "Hacer → hacía."),
+      fb("Weather.", "___ mucho calor en la calle. (hacer)", "Hacía", "Weather uses hacer (hace calor), and background weather in the past takes the imperfect: hacía, not hizo."),
       fb("Age.", "Mi hermano ___ quince años. (tener)", "tenía", "Age → tener, imperfect."),
       fb("Feeling.", "Todos ___ muy cansados. (estar)", "estaban", "State → estar, imperfect."),
       fb("Description.", "La casa ___ un jardín enorme. (tener)", "tenía", "Description → imperfect."),
@@ -713,9 +713,9 @@ export const A2_DRILLS: AnchoredLesson[] = [
     ],
     [
       fb("Contrast.", "Antes mi barrio ___ muy tranquilo; ahora es muy ruidoso. (ser)", "era", "Past situation → era."),
-      fb("Contrast.", "Antes mi hermana ___ al trabajo en metro; ahora va andando. (ir)", "iba", "Ir → iba."),
+      fb("Contrast.", "Antes mi hermana ___ al trabajo en metro; ahora va andando. (ir)", "iba", "Antes + an old habit takes the imperfect; ir's imperfect is irregular: iba."),
       fb("Contrast.", "De niños, mis primos ___ en el pueblo; ahora viven en Madrid. (vivir)", "vivían", "-IR ellos → -ían."),
-      fb("Contrast.", "Antes no ___ Internet en casa; ahora sí. (haber)", "había", "Haber → había."),
+      fb("Contrast.", "Antes no ___ Internet en casa; ahora sí. (haber)", "había", "It stays singular (never habían): antes no había Internet."),
       mc(
         "«Hoy en día ___ más tiempo con mi familia.»",
         ["paso", "pasaba", "pasé", "pasaban"],
@@ -1462,7 +1462,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "preterite-vs-imperfect-drill-3",
     "a2d-speed-round-pret-imp",
     "Speed Round: Preterite or Imperfect? 9 Quick Calls",
-    "No explanations first — just decide and conjugate. The feedback tells you why.",
+    "Decide quickly between the preterite (finished event) and the imperfect (scene, habit, action in progress) and conjugate the verb; the feedback explains each choice.",
     "6 min",
     [
       sec(
@@ -1639,7 +1639,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "a2-vocabulary-practice-5",
     "a2d-fix-paragraph-travel-diary",
     "Fix the Paragraph: A Travel Diary",
-    "A diary entry from Peru with five past-tense errors (wrong tense), plus a wrong form to fix in the exercises. Fix them all.",
+    "A diary entry from Peru with five past-tense errors (wrong tense), plus several badly formed verbs to fix in the exercises. Fix them all.",
     "7 min",
     [
       sec(
@@ -1650,16 +1650,16 @@ export const A2_DRILLS: AnchoredLesson[] = [
           ["La ciudad era preciosa.", "The city was beautiful."],
         ],
         [
-          fb("Fix it.", "Hoy ___ a Cusco. (the diary says: llegábamos — one arrival)", "llegamos", "One arrival is a single event, so the preterite: llegamos, not llegábamos."),
+          fb("Fix it.", "Hoy ___ a Cusco. (the diary says: llegábamos)", "llegamos", "One arrival is a single event, so the preterite: llegamos, not llegábamos."),
         ]
       ),
     ],
     [
-      fb("Fix it.", "La ciudad ___ preciosa. (the diary says: fue — describing it)", "era", "Describing what the city was like as you saw it → imperfect. (Fue preciosa isn't impossible, but it sums the visit up as a finished experience, which sounds odd in the middle of the day's events.)"),
-      fb("Fix it.", "___ frío y había mucha gente. (the diary says: Hizo — background)", "Hacía", "Weather as background takes the imperfect: hacía frío, not hizo."),
-      { ...fb("Fix it.", "Como estábamos cansados, ___ una siesta. (the diary says: tomábamos — one nap)", "tomamos", "One nap is a single event, so the preterite: tomamos, not tomábamos."), altAnswers: ["echamos", "dormimos"] },
+      fb("Fix it.", "La ciudad ___ preciosa. (the diary says: fue)", "era", "Describing what the city was like as you saw it → imperfect. (Fue preciosa isn't impossible, but it sums the visit up as a finished experience, which sounds odd in the middle of the day's events.)"),
+      fb("Fix it.", "___ frío y había mucha gente. (the diary says: Hizo)", "Hacía", "Weather as background takes the imperfect: hacía frío, not hizo."),
+      { ...fb("Fix it.", "Como estábamos cansados, ___ una siesta. (the diary says: tomábamos)", "tomamos", "One nap is a single event, so the preterite: tomamos, not tomábamos."), altAnswers: ["echamos", "dormimos"] },
       fb("Fix it.", "Por la tarde ___ la catedral. (the diary says: visitábamos)", "visitamos", "Visiting the cathedral that afternoon is a single event, so the preterite: visitamos."),
-      fb("Fix it.", "El guía nos ___ muchas historias interesantes. (the diary says: dició)", "contó", "Dició is not a word (decir → dijo), and with historias Spanish uses contar: contó."),
+      fb("Fix it.", "El guía nos ___ que la catedral era muy antigua. (the diary says: dició)", "dijo", "Dició is not a word: decir has the irregular stem dij- in the preterite, so dijo."),
       mc(
         "Which diary sentence is correct?",
         ["Mientras cenábamos, empezó a tocar una banda.", "Mientras cenamos, empezaba a tocar una banda.", "Mientras cenábamos, empezaba a tocar una banda de repente.", "Mientras cenaron, empezó."],
@@ -1961,15 +1961,15 @@ export const A2_DRILLS: AnchoredLesson[] = [
           ["—¿Y los pantalones? —No, no los necesito.", "And the trousers? — No, I don't need them."],
         ],
         [
-          fb("Replace.", "—¿Y la camiseta? —___ quiero en azul.", "La", "La camiseta is feminine singular, so la."),
+          fb("Answer with the right object pronoun (lo, la, los, las).", "—¿Y la camiseta? —___ quiero en azul.", "La", "La camiseta is feminine singular, so la."),
         ]
       ),
     ],
     [
-      fb("Replace.", "—¿Compras los calcetines? —Sí, ___ compro.", "los", "Los calcetines is masculine plural, so los."),
-      fb("Replace.", "—¿Y las botas? —No, no ___ necesito.", "las", "Las botas → las; no before pronoun."),
-      fb("Replace.", "—¿Dónde está el probador? —___ tiene allí, a la derecha. (usted)", "Lo", "El probador is masculine singular, so lo: lo tiene allí."),
-      fb("Replace.", "—¿Pagas la cuenta con tarjeta? —No, ___ pago en efectivo.", "la", "La cuenta is feminine singular, so la."),
+      fb("Answer with the right object pronoun (lo, la, los, las).", "—¿Compras los calcetines? —Sí, ___ compro.", "los", "Los calcetines is masculine plural, so los."),
+      fb("Answer with the right object pronoun (lo, la, los, las).", "—¿Y las botas? —No, no ___ necesito.", "las", "Las botas is feminine plural; in a negative, no comes first, then the pronoun, then the verb: no las necesito."),
+      fb("Answer with the right object pronoun (lo, la, los, las).", "—¿Dónde está el probador? —___ tiene allí, a la derecha. (usted)", "Lo", "El probador is masculine singular, so lo: lo tiene allí."),
+      fb("Answer with the right object pronoun (lo, la, los, las).", "—¿Pagas la cuenta con tarjeta? —No, ___ pago en efectivo.", "la", "La cuenta is feminine singular, so la."),
       mc(
         "«—¿Compraste los regalos? —Sí, ___ compré ayer.»",
         ["los", "las", "lo", "les"],
@@ -2091,9 +2091,9 @@ export const A2_DRILLS: AnchoredLesson[] = [
         "Ayudar a alguien takes a direct object in standard Spanish: los ayudé. \"Le ayudé\" is singular (and le with ayudar is regional), and the other two are garbled."
       ),
       fb("Lo/la or le?", "Vi a Carmen en el mercado. → ___ vi en el mercado.", "La", "Ver takes a direct object, and Carmen is feminine: la vi."),
-      fb("Lo/la or le?", "Dije la verdad a Carmen. → ___ dije la verdad.", "Le", "Decir algo a alguien → le."),
+      fb("Lo/la or le?", "Dije la verdad a Carmen. → ___ dije la verdad.", "Le", "The truth is the thing said and Carmen receives it, so she is the indirect object: le dije, not la dije."),
       fb("Lo/la or le?", "Invité a Marcos a la fiesta. → ___ invité a la fiesta.", "Lo", "Invitar takes a direct object, and Marcos is masculine: lo invité."),
-      fb("Lo/la or le?", "Pregunté la hora a Marcos. → ___ pregunté la hora.", "Le", "Preguntar algo a alguien → le."),
+      fb("Lo/la or le?", "Pregunté la hora a Marcos. → ___ pregunté la hora.", "Le", "The time is what you ask and Marcos receives the question, so le pregunté, not lo pregunté."),
       mt(
         "Match each sentence with its pronoun.",
         [
@@ -2170,7 +2170,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
         0,
         "The question is about me (me), so the answer is about you: te escribí. \"Me\" would mean I wrote to myself, and \"le\" and \"lo\" are about someone else."
       ),
-      toEs("Can you lend me your pen?", "¿Me prestas tu bolígrafo?", "Me (to me) + prestas (you lend): ¿Me prestas...?", ["¿Me prestas tu boli?", "¿Me puedes prestar tu bolígrafo?"]),
+      toEs("Can you lend me your pen?", "¿Me prestas tu bolígrafo?", "Me (to me) + prestas (you lend): ¿Me prestas...?", ["¿Me prestas tu boli?", "¿Me puedes prestar tu bolígrafo?", "¿Puedes prestarme tu bolígrafo?", "¿Me puedes prestar tu boli?", "¿Puedes prestarme tu boli?"]),
       toEn("Le pedí ayuda a mi vecino.", "I asked my neighbor for help.", "Pedir algo a alguien: le pedí ayuda a mi vecino = I asked my neighbor for help.", ["I asked my neighbour for help."]),
     ]
   ),
@@ -2321,7 +2321,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
         0,
         "The pair stays together, indirect first, before the conjugated verb: te las voy a enseñar. The wrong options split the pair, reverse it, or put it after voy."
       ),
-      toEs("I'm going to explain it to you.", "Te lo voy a explicar.", "Te (to you) + lo (it), together before the conjugated verb: te lo voy a explicar.", ["Voy a explicártelo."]),
+      toEs("I'm going to explain it to you.", "Te lo voy a explicar.", "Te (to you) + lo (it), together before the conjugated verb: te lo voy a explicar.", ["Voy a explicártelo.", "Se lo voy a explicar.", "Voy a explicárselo."]),
       wo("No se lo puedo decir todavía.", "Pair before conjugated verb, negative first.", "I can't tell him yet."),
     ]
   ),
@@ -2373,7 +2373,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
           ["—¿Me prestas tu libro? —Sí, te lo presto.", "Will you lend me your book? — Yes, I'll lend it to you."],
         ],
         [
-          fb("Answer.", "—¿Le mandaste el correo al jefe? —Sí, ___ mandé.", "se lo", "Le + lo → se lo."),
+          fb("Answer.", "—¿Le mandaste el correo al jefe? —Sí, ___ mandé.", "se lo", "Le (to the boss) can't stand next to lo, so it becomes se: se lo mandé."),
         ]
       ),
     ],
@@ -2382,7 +2382,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
       fb("Answer.", "—¿Les contaste la verdad a tus padres? —No, todavía no ___ conté.", "se la", "Les + la → se la."),
       fb("Answer.", "—¿Te regalaron el reloj? —Sí, ___ regalaron mis hermanos.", "me lo", "The question says te (to you), so the answer is me (to me), and el reloj is lo: me lo regalaron."),
       fb("Answer.", "—¿Nos traes las bebidas? —Sí, ___ traigo ahora. (a vosotros)", "os las", "Answering vosotros uses os, and las bebidas is las: os las traigo."),
-      fb("Answer.", "—¿Le pediste la factura al camarero? —Sí, ___ pedí.", "se la", "Le + la → se la."),
+      fb("Answer.", "—¿Le pediste la cuenta al camarero? —Sí, ___ pedí.", "se la", "Le + la → se la."),
       mt(
         "Match question and answer.",
         [
@@ -3032,7 +3032,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
           ["El examen fue facilísimo.", "The exam was super easy."],
         ],
         [
-          fb("-ísimo.", "Este café está ___. (bueno)", "buenísimo", "Bueno + -ísimo → buenísimo (very good)."),
+          fb("Give the -ísimo form of the adjective.", "Este café está ___. (bueno)", "buenísimo", "Bueno + -ísimo → buenísimo (very good)."),
         ]
       ),
     ],
@@ -3315,7 +3315,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
         0,
         "Venir has the future stem vendr-: vendrán. \"Venirán\" treats it as regular, \"vendrían... ayer\" is conditional with a past time word, and \"vendán\" drops the r."
       ),
-      toEs("You will meet someone important.", "Conocerás a alguien importante.", "Conocer is regular in the future (conocerás), and alguien takes the personal a.", []),
+      toEs("You (tú) will meet someone important.", "Conocerás a alguien importante.", "Conocer is regular in the future (conocerás), and alguien takes the personal a.", []),
     ]
   ),
   L(
@@ -3356,7 +3356,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "future-tense-drill-3",
     "a2d-speed-round-future",
     "Speed Round: 10 Futures, No Hints",
-    "Regular and irregular futures mixed, plus one probability guess — as fast as you can.",
+    "Regular and irregular futures mixed, plus a few probability guesses — as fast as you can.",
     "5 min",
     [
       sec(
@@ -3849,7 +3849,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
         0,
         "Por lo menos means at least. \"Por eso\" is that's why, \"por fin\" finally, and \"por cierto\" by the way."
       ),
-      toEs("By the way, did you see Carlos?", "Por cierto, ¿viste a Carlos?", "Por cierto means by the way; ver a Carlos takes the personal a.", ["Por cierto, ¿has visto a Carlos?"]),
+      toEs("By the way, did you (tú) see Carlos?", "Por cierto, ¿viste a Carlos?", "Por cierto means by the way; ver a Carlos takes the personal a.", ["Por cierto, ¿has visto a Carlos?"]),
       wo("Por lo general cenamos a las nueve y media.", "Por lo general (= generally, usually) opens the sentence, followed by the present for a habit: cenamos.", "Generally we have dinner at half past nine."),
     ]
   ),
@@ -3925,7 +3925,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
       fb("Build.", "Pasamos ___ Aranjuez.", "por", "Por marks the route through a place: pasamos por Aranjuez."),
       fb("Build.", "Paramos allí ___ ver el palacio.", "para", "Para + infinitive gives the purpose: para ver el palacio."),
       fb("Build.", "Compré un recuerdo ___ mi abuela.", "para", "Para marks the recipient: para mi abuela."),
-      fb("Build.", "Lo pagué ___ muy poco dinero.", "por", "Por marks the price: por muy poco dinero."),
+      fb("Build.", "Lo compré ___ muy poco dinero.", "por", "Por marks the price: por muy poco dinero."),
       fb("Build.", "Volvimos a casa ___ la cena.", "para", "Para marks a time limit: in time for dinner."),
       wo("Mi padre trabaja por las noches para pagar mis estudios.", "Por + para.", "My father works at night to pay for my studies."),
       wo("Te llamo por teléfono para contarte una cosa.", "Por + para.", "I'm calling you on the phone to tell you something."),
@@ -3936,7 +3936,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "por-vs-para-drill-3",
     "a2d-por-para-hardest",
     "Mixed Practice: The Hardest Por/Para Cases",
-    "Para ser…, por + infinitive (because), estar para / estar por and gracias por: the cases learners miss most.",
+    "Para ser… (considering), por + infinitive (because of doing), por meaning 'per' and gracias por: the cases learners miss most.",
     "7 min",
     [
       sec(
@@ -4254,7 +4254,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
     [
       fb("Form the adverb.", "Contestó muy ___. (amable)", "amablemente", "-e adjective + -mente."),
       fb("Form the adverb.", "Lo hizo ___. (perfecto)", "perfectamente", "Perfecta + -mente."),
-      fb("Form the adverb.", "Se resolvió ___. (fácil)", "fácilmente", "Keeps the accent."),
+      fb("Form the adverb.", "Se resolvió ___. (fácil)", "fácilmente", "A -mente adverb keeps the written accent of the adjective it comes from."),
       fb("Form the adverb.", "Trabaja rápida y ___. (eficaz)", "eficazmente", "Only the last one takes -mente."),
       mc(
         "Which is the most natural?",
@@ -4394,7 +4394,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
     ],
     [
       { ...fb("Complete.", "Siga todo ___ hasta el semáforo.", "recto", "Seguir recto (or todo recto) means to go straight on."), altAnswers: ["derecho"] },
-      fb("Complete.", "Gire a la ___ en la esquina. (right)", "derecha", "Right."),
+      fb("Complete.", "Gire a la ___ en la esquina. (right)", "derecha", "The opposite is a la izquierda (to the left); both directions take a la."),
       fb("Complete.", "___ la plaza y ahí está el museo. (cross, usted)", "Cruce", "Cruzar → cruce."),
       fb("Complete.", "El banco está al ___ de la farmacia. (next to)", "lado", "Al lado de."),
       mt(
@@ -4546,7 +4546,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
     [
       fb("Complete.", "¿Los regalos? Mis padres ___ compraron ayer.", "los", "Los regalos is masculine plural, so los, before the verb."),
       fb("Complete.", "De pequeño ___ duchaba por la noche. (yo)", "me", "Ducharse with yo takes me; a childhood habit uses the imperfect: me duchaba."),
-      fb("Complete.", "¿Le dijiste la verdad a tu jefe? — Sí, ___ la dije.", "se", "Le + la → se la."),
+      fb("Complete.", "¿Le dijiste la verdad a tu jefe? — Sí, ___ la dije.", "se", "Le can't stand before la, so it becomes se: se la dije (se = to him, la = la verdad)."),
       fb("Complete.", "Ayer ___ levantamos tardísimo.", "nos", "Levantarse with nosotros takes nos: nos levantamos."),
       fb("Complete.", "Cuando sonó el teléfono, yo ___ duchaba.", "me", "Ducharse with yo takes me; the shower was in progress when the phone rang (imperfect)."),
       mc(
@@ -4682,7 +4682,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
     ],
     [
       fb("Quick!", "¿Qué ___ tu hermano ayer? (hacer)", "hizo", "Hacer → hizo (irregular preterite, no accent)."),
-      fb("Quick!", "¿El dinero? Ya ___ di a Juan. (le + lo)", "se lo", "Le + lo → se lo."),
+      fb("Quick!", "¿El dinero? Ya ___ di a Juan. (le + lo)", "se lo", "Le can't stand before lo, so it becomes se: se lo di (se = to Juan, lo = el dinero)."),
       fb("Quick!", "Me ___ las películas de miedo. (gustar)", "gustan", "Plural subject → gustan."),
       fb("Quick!", "Invité ___ mis vecinos.", "a", "Specific people as direct object take the personal a: invité a mis vecinos."),
       fb("Quick!", "Llamé a mi abuela y ___ conté todo.", "le", "Contar algo a alguien → le."),
@@ -4986,7 +4986,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
       fb("Complete.", "Ahora ___ más tranquila que antes. (ser)", "es", "Present description."),
       fb("Complete.", "Antes hablaba muy ___. (rápido → adverb)", "rápidamente", "-mente."),
       fb("Complete.", "Mi padre no es ___ alto como mi tío.", "tan", "Equality with an adjective: tan alto como."),
-      fb("Complete.", "Ayer mi hermano ___ muy cansado. (estar, all day)", "estuvo", "Delimited state → preterite."),
+      fb("Complete.", "Ayer mi hermano ___ muy cansado todo el día. (estar)", "estuvo", "Delimited state → preterite."),
       fb("Complete.", "Cuando lo vi, ___ muy nervioso. (estar)", "estaba", "State at that moment."),
       mc(
         "«Mi madre es la persona ___ generosa de la familia.»",
@@ -5110,7 +5110,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
     [
       sec(
         "Before the Intermediate level",
-        "Intermediate builds directly on this: commands use the same pronoun placement, the present perfect contrasts with the preterite, and se lo appears everywhere. If any item here feels shaky, go back to its drill lessons.",
+        "Intermediate builds directly on this: commands use the same pronouns (attached to the end of affirmative commands: dímelo), the present perfect contrasts with the preterite, and se lo appears everywhere. If any item here feels shaky, go back to its drill lessons.",
         [
           ["Ayer se lo expliqué, pero no me entendió.", "Yesterday I explained it to him, but he didn't understand me."],
         ],

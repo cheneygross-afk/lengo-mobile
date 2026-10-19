@@ -64,7 +64,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Verbos con cambios en la raíz",
         "body": [
-          "Los verbos que cambian de raíz en el presente indicativo (e→ie, o→ue, e→i) mantienen ese cambio en el subjuntivo, excepto en nosotros y vosotros.",
+          "Los verbos que cambian de raíz en el presente indicativo (e→ie, o→ue, e→i) mantienen ese cambio en el subjuntivo, excepto en nosotros y vosotros; los verbos en -ir también cambian ahí, con otra vocal (pidamos, durmamos, sintamos).",
           "querer → quiera, quieras, quiera, queramos, queráis, quieran. pedir → pida, pidas, pida, pidamos, pidáis, pidan (este cambia en todas las formas porque es -ir)."
         ],
         "examples": [
@@ -596,8 +596,8 @@ const B1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Qué bueno que hayas venido.",
-            "en": "It's great that you came."
+            "es": "Qué bueno que vengas.",
+            "en": "It's great that you're coming."
           },
           {
             "es": "Es una lástima que no puedan quedarse más tiempo.",
@@ -1216,13 +1216,13 @@ const B1_BASE_LESSONS: Lesson[] = [
           "¡Qué",
           "bueno",
           "que",
-          "hayan",
-          "llegado",
-          "sin",
-          "problemas!"
+          "puedan",
+          "venir",
+          "con",
+          "nosotros!"
         ],
-        "translation": "How great that they arrived without problems.",
-        "explanation": "\"Qué bueno que\" es una expresión de emoción/reacción: siempre lleva subjuntivo (hayan llegado). «Hayan» es haber en subjuntivo; con el participio forma el perfecto de subjuntivo (hayan llamado, hayan llegado) para algo que ya ha ocurrido."
+        "translation": "How great that they can come with us.",
+        "explanation": "\"Qué bueno que\" es una expresión de emoción/reacción: siempre lleva subjuntivo (puedan, de poder, con el cambio o→ue)."
       },
       {
         "type": "multiple-choice",
@@ -2259,7 +2259,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Formación regular",
         "body": [
-          "El condicional se forma añadiendo las mismas terminaciones al infinitivo completo, para los tres grupos de verbos: -ía, -ías, -ía, -íamos, -íais, -ían."
+          "El condicional se forma añadiendo las mismas terminaciones al infinitivo completo, para los tres grupos de verbos: -ía, -ías, -ía, -íamos, -íais, -ían. Con una condición imaginaria verás «si tuviera» (if I had) o «si pudiéramos» (if we could): por ahora apréndelos como bloque; ese tiempo (imperfecto de subjuntivo) se estudia más adelante."
         ],
         "examples": [
           {
@@ -3553,7 +3553,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "la vivencia",
-            "en": "the lived experience"
+            "en": "an experience you lived through"
           },
           {
             "es": "el hito",
@@ -3817,7 +3817,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Con expresiones de tiempo",
         "body": [
-          "Frases como ya, todavía no, y nunca antes acompañan frecuentemente al pluscuamperfecto para marcar la secuencia de eventos."
+          "Frases como ya, todavía no y nunca antes acompañan frecuentemente al pluscuamperfecto para marcar la secuencia de eventos."
         ],
         "examples": [
           {
@@ -4128,7 +4128,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "los daños",
-            "en": "the damages"
+            "en": "the damage"
           },
           {
             "es": "la reconstrucción",
@@ -4973,7 +4973,13 @@ const B1_BASE_LESSONS: Lesson[] = [
         "source": "The colleague with whom I traveled speaks four languages.",
         "answer": "La colega con la que viajé habla cuatro idiomas.",
         "altAnswers": [
-          "La colega con quien viajé habla cuatro idiomas."
+          "La colega con quien viajé habla cuatro idiomas.",
+          "El colega con el que viajé habla cuatro idiomas.",
+          "El colega con quien viajé habla cuatro idiomas.",
+          "La compañera con la que viajé habla cuatro idiomas.",
+          "La compañera con quien viajé habla cuatro idiomas.",
+          "El compañero con el que viajé habla cuatro idiomas.",
+          "El compañero con quien viajé habla cuatro idiomas."
         ],
         "explanation": "Con personas después de preposición, se puede usar \"quien\" o \"la que\"; ambas son correctas aquí."
       },
@@ -5862,7 +5868,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "en-es",
         "prompt": "Traduce la oración al español.",
-        "source": "This backpack isn't mine; it's yours.",
+        "source": "This backpack isn't mine; it's yours. (tú)",
         "answer": "Esta mochila no es mía; es tuya.",
         "altAnswers": [
           "Esta mochila no es la mía; es la tuya."
@@ -6131,7 +6137,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "heading": "Verbos reflexivos: se pierde la -d (excepto irse)",
         "body": [
           "Cuando el mandato afirmativo de vosotros se combina con un verbo reflexivo, el pronombre 'os' se pega al final, pero la -d final del verbo desaparece antes de añadir '-os'. Así, levantar + os no da 'levantados', sino 'levantaos'. Lo mismo ocurre con sentaos (sentar) y vestíos (vestir, con tilde porque la i queda sola formando hiato).",
-          "La única excepción de toda la lengua española es el verbo irse, cuyo mandato de vosotros irregular es idos, que sí conserva la -d."
+          "La gran excepción es el verbo irse, cuyo mandato de vosotros es idos, que sí conserva la -d (en el habla es muy frecuente iros, que hoy la RAE también admite)."
         ],
         "examples": [
           {
@@ -6576,7 +6582,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Los seis verbos irregulares",
         "body": [
-          "Recuerda: ser, estar, ir, saber, dar y haber no siguen ningún patrón y hay que memorizarlos."
+          "Recuerda: ser, estar, ir, saber, dar y haber no forman el subjuntivo a partir de la forma «yo» y hay que memorizarlos (dar y estar solo añaden tilde: dé, esté)."
         ],
         "examples": [
           {
@@ -6916,7 +6922,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Duda y negación: dudar que, no creer que, negar que",
         "body": [
-          "Los verbos que expresan duda o negación exigen subjuntivo, pero sus opuestos afirmativos (creer que, no dudar que) llevan indicativo."
+          "Los verbos que expresan duda o negación exigen subjuntivo, pero sus opuestos afirmativos (creer que, no dudar que) llevan normalmente indicativo («no dudar que» también admite subjuntivo)."
         ],
         "examples": [
           {
@@ -6938,8 +6944,9 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa con indicativo o subjuntivo según corresponda.",
             "sentence": "No dudo que tú ___ (ser) capaz de lograrlo.",
             "answer": "eres",
+            "altAnswers": ["seas"],
             "hint": "no dudar que + indicativo",
-            "explanation": "'No dudar que' expresa certeza, así que se usa el indicativo: eres."
+            "explanation": "'No dudar que' expresa certeza, así que lo normal es el indicativo: eres (también se admite «seas»)."
           },
           {
             "type": "multiple-choice",
@@ -7763,7 +7770,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Quizás ella ___ (venir) a la fiesta.",
+            "question": "¿Qué forma expresa más duda? Quizás ella ___ (venir) a la fiesta.",
             "options": [
               "venga",
               "viene",
@@ -7903,15 +7910,15 @@ const B1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué forma expresa más duda? Quizás ella ___ a la fiesta esta noche.",
+        "question": "¿Qué forma expresa más duda? Quizás mañana ___ por la tarde.",
         "options": [
-          "venga",
-          "viene",
-          "vendrá",
-          "vino"
+          "llueva",
+          "llueve",
+          "lloverá",
+          "llovió"
         ],
         "correctIndex": 0,
-        "explanation": "Cuando «quizás» expresa duda sobre el futuro, se prefiere el subjuntivo: quizás venga. «Viene» o «vendrá» presentan el hecho como más seguro, y «vino» habla del pasado, no de esta noche."
+        "explanation": "Cuando «quizás» expresa duda sobre el futuro, se prefiere el subjuntivo: quizás llueva. «Llueve» o «lloverá» presentan el hecho como más seguro, y «llovió» habla del pasado, no de mañana."
       },
       {
         "type": "fill-blank",
@@ -8215,7 +8222,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Dila se"
         ],
         "correctIndex": 0,
-        "explanation": "En el mandato afirmativo, los pronombres se unen al final del verbo, y le → se delante de la: di + se + la → dísela. «Se la di» es pretérito (I told it to her), «No se la digas» es negativo y «Dila se» separa y desordena los pronombres."
+        "explanation": "En el mandato afirmativo, los pronombres se unen al final del verbo, y le → se delante de la: di + se + la → dísela. «Se la di» es pretérito de dar (I gave it to her), «No se la digas» es negativo y «Dila se» separa y desordena los pronombres."
       },
       {
         "type": "fill-blank",
@@ -8268,8 +8275,8 @@ const B1_BASE_LESSONS: Lesson[] = [
             "right": "Come early. (ustedes)"
           },
           {
-            "left": "Vengamos juntos.",
-            "right": "Let's come together."
+            "left": "No vengamos tarde.",
+            "right": "Let's not come late."
           }
         ],
         "explanation": "El verbo 'venir' cambia de forma según la persona y la polaridad del mandato."
@@ -8610,6 +8617,12 @@ const B1_BASE_LESSONS: Lesson[] = [
             "prompt": "Traduce la petición cortés.",
             "source": "Could you help me with this exercise?",
             "answer": "¿Podrías ayudarme con este ejercicio?",
+            "altAnswers": [
+              "¿Podría ayudarme con este ejercicio?",
+              "¿Podrían ayudarme con este ejercicio?",
+              "¿Me podrías ayudar con este ejercicio?",
+              "¿Me podría ayudar con este ejercicio?"
+            ],
             "explanation": "\"Podrías\" (condicional de poder) suaviza la petición y suena más cortés que \"¿Puedes ayudarme?\"."
           }
         ]
@@ -9193,7 +9206,10 @@ const B1_BASE_LESSONS: Lesson[] = [
         "source": "If you don't know the answer, raise your hand.",
         "answer": "Si no sabes la respuesta, levanta la mano.",
         "altAnswers": [
-          "Si no sabes la respuesta, alza la mano."
+          "Si no sabes la respuesta, alza la mano.",
+          "Si no saben la respuesta, levanten la mano.",
+          "Si no sabéis la respuesta, levantad la mano.",
+          "Si no sabe la respuesta, levante la mano."
         ],
         "explanation": "Condición real con instrucción: presente + imperativo, 'levanta'."
       },
@@ -10313,18 +10329,18 @@ const B1_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras para formar una oración correcta.",
         "words": [
-          "El",
-          "hombre",
+          "La",
+          "mujer",
           "a",
           "quien",
-          "conocí",
+          "llamé",
           "ayer",
           "es",
           "mi",
-          "profesor"
+          "vecina"
         ],
-        "translation": "The man whom I met yesterday is my professor.",
-        "explanation": "Con «quien» como objeto directo de persona hace falta la a personal: a quien conocí. También es correcto y muy frecuente: el hombre que conocí ayer."
+        "translation": "The woman whom I called yesterday is my neighbor.",
+        "explanation": "Con «quien» como objeto directo de persona hace falta la a personal (llamar a alguien): a quien llamé. También es correcto y muy frecuente: la mujer que llamé ayer."
       },
       {
         "type": "word-order",
@@ -10346,19 +10362,19 @@ const B1_BASE_LESSONS: Lesson[] = [
         "instructions": "Une cada oración con el pronombre relativo que falta.",
         "pairs": [
           {
-            "left": "La casa ___ vivimos tiene un jardín grande.",
+            "left": "La ciudad ___ nací es pequeña.",
             "right": "donde"
           },
           {
-            "left": "El escritor ___ novelas son best-sellers vendrá.",
+            "left": "La actriz ___ películas vimos ganó un premio.",
             "right": "cuyas"
           },
           {
-            "left": "___ dijiste no tiene sentido.",
+            "left": "___ me contaste es increíble.",
             "right": "Lo que"
           },
           {
-            "left": "La persona con ___ hablé fue muy amable.",
+            "left": "El chico con ___ salgo es muy simpático.",
             "right": "quien"
           }
         ],
@@ -10723,7 +10739,8 @@ const B1_BASE_LESSONS: Lesson[] = [
           "nuestro"
         ],
         "translation": "This problem is also ours.",
-        "explanation": "El posesivo tónico 'nuestro' sustituye al sustantivo y va después del verbo 'ser': 'Este problema es también nuestro.'"
+        "altOrders": [["Este", "problema", "también", "es", "nuestro"]],
+        "explanation": "El posesivo tónico 'nuestro' va después del verbo 'ser', sin artículo: 'Este problema es también nuestro' o, con el orden más habitual, 'Este problema también es nuestro.'"
       }
     ]
   },
@@ -12700,7 +12717,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "la vivencia",
-                "right": "the lived experience"
+                "right": "an experience you lived through"
               },
               {
                 "left": "el hito",
@@ -13057,7 +13074,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "los daños",
-                "right": "the damages"
+                "right": "the damage"
               },
               {
                 "left": "la reconstrucción",
@@ -13106,9 +13123,10 @@ const B1_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "en-es",
         "prompt": "Traduce al español.",
-        "source": "the lived experience",
+        "source": "an experience you lived through",
         "answer": "la vivencia",
-        "explanation": "\"La vivencia\" significa \"the lived experience\"."
+        "altAnswers": ["la experiencia vivida", "una vivencia", "una experiencia vivida"],
+        "explanation": "\"La vivencia\" significa \"an experience you lived through\" (una experiencia vivida)."
       }
     ]
   },
@@ -14408,7 +14426,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "En la ciudad de Medellín, los equipos juveniles Águilas y Halcones eran rivales desde hacía años. Cada vez que jugaban entre ellos, los partidos terminaban con gritos, discusiones y, a veces, jugadores expulsados por el árbitro. Los aficionados de ambos equipos también se llevaban muy mal.",
-          "Un día, el club deportivo del barrio anunció que el hospital infantil de la ciudad necesitaba dinero con urgencia para comprar equipo médico nuevo. Para ayudar, organizarían un partido solidario, pero con una condición especial: los jugadores de Águilas y Halcones tendrían que combinarse en un solo equipo mixto.",
+          "Un día, el club deportivo del barrio anunció que el hospital infantil de la ciudad necesitaba dinero con urgencia para comprar equipo médico nuevo. Para ayudar, organizarían un partido solidario, pero con una condición especial: los jugadores de Águilas y Halcones tendrían que combinarse en un solo equipo.",
           "La noticia no le gustó a nadie al principio. Sebastián, el capitán de Águilas, dijo que sería imposible jugar en el mismo equipo que sus rivales de toda la vida. Nicolás, el capitán de Halcones, pensaba exactamente lo mismo, y durante el primer entrenamiento conjunto, casi nadie se hablaba.",
           "El entrenador encargado del equipo combinado, don Fabio, notó la tensión enseguida. \"Espero que todos recuerden por qué estamos aquí\", les dijo a los jugadores reunidos. \"No estamos jugando por orgullo esta vez, sino por los niños del hospital\". Sus palabras, sin embargo, no cambiaron mucho el ambiente esa primera semana.",
           "Durante los entrenamientos, Sebastián y Nicolás competían constantemente por ser el líder del equipo, dando órdenes contradictorias a sus compañeros. Esto causó confusión en la cancha y varios errores durante los ejercicios. Los demás jugadores empezaron a frustrarse con la actitud de ambos capitanes.",
@@ -14433,7 +14451,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "Ticket sales would fund new team uniforms"
         ],
         "correctIndex": 1,
-        "explanation": "The rivals had to combine into one team: \"los jugadores de Águilas y Halcones tendrían que combinarse en un solo equipo mixto.\""
+        "explanation": "The rivals had to combine into one team: \"los jugadores de Águilas y Halcones tendrían que combinarse en un solo equipo.\""
       },
       {
         "type": "multiple-choice",
@@ -14992,7 +15010,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "Marta tenía quince años y era una de las nadadoras más prometedoras de su club deportivo en Sevilla. Llevaba años entrenando cada mañana antes de ir a la escuela, con la esperanza de clasificar algún día para el campeonato regional de natación.",
+          "Marta tenía quince años y era una de las nadadoras más prometedoras de su club deportivo en Sevilla. Llevaba años entrenando cada mañana antes de ir a la escuela, con la esperanza de clasificarse algún día para el campeonato regional de natación.",
           "Casi tres meses antes del campeonato más importante de su carrera, Marta sintió un dolor agudo en el hombro durante un entrenamiento. El médico del equipo le explicó que tenía una pequeña lesión en el hombro, probablemente causada por el uso excesivo, y que necesitaría descansar al menos seis semanas para recuperarse completamente.",
           "La noticia fue devastadora para Marta. El campeonato regional era justo cinco semanas después del final previsto de su recuperación, y ella temía no tener suficiente tiempo para volver a entrenar al nivel necesario para competir bien. Pensó en ignorar el consejo médico y seguir entrenando de todos modos.",
           "Su entrenador, Ignacio, notó la frustración de Marta durante la siguiente semana. \"Sé que quieres competir\", le dijo, \"pero si sigues nadando con esa lesión, podrías empeorarla tanto que no puedas competir nunca más de la misma manera\". Sus palabras asustaron a Marta, pero también la hicieron reflexionar seriamente.",
@@ -15477,7 +15495,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "He forgot about the invoice"
         ],
         "correctIndex": 1,
-        "explanation": "The señora Rojas \"le prometió que pagaría la factura en una semana\" and \"Diego confiaba en ella, así que no se preocupó al principio\" — he trusted her promise."
+        "explanation": "Señora Rojas \"le prometió que pagaría la factura en una semana\" and \"Diego confiaba en ella, así que no se preocupó al principio\" — he trusted her promise."
       },
       {
         "type": "multiple-choice",
@@ -18047,7 +18065,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "options": [
           "Never volunteer again",
           "Save money to return the next year for the same project",
-          "Move to Centroamérica permanently",
+          "Move to Central America permanently",
           "Stop working as a designer"
         ],
         "correctIndex": 1,

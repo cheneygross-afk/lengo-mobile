@@ -49,8 +49,8 @@ export const B1_UNIT_WRITING: Record<string, WriteExercise> = {
   "b1d-corrige-impersonales": t(
     "Escribe una carta breve a tu yo de dentro de cinco años. Usa expresiones impersonales y ojalá para hablar de tus deseos y de lo que es importante para ti.",
     ["Ojalá + subjuntivo (al menos dos)", "Es importante / fundamental que + subjuntivo", "Una frase general con infinitivo", "Una frase con indicativo (es evidente que, es cierto que)"],
-    "Querida Ana del futuro: Ojalá estés bien y sigas viviendo cerca del mar. Es importante que no dejes de pintar, aunque tengas mucho trabajo. Es fundamental que tu familia esté contigo. Es cierto que la vida cambia mucho, pero es bueno tener sueños. Ojalá hayas aprendido a tocar el piano por fin. Un abrazo de la Ana de hoy.",
-    "Valoración con sujeto: subjuntivo (es importante que no dejes). Certeza: indicativo (es cierto que la vida cambia). Ojalá hayas aprendido: deseo sobre algo ya pasado."
+    "Querida Ana del futuro: Ojalá estés bien y sigas viviendo cerca del mar. Es importante que no dejes de pintar, aunque tengas mucho trabajo. Es fundamental que tu familia esté contigo. Es cierto que la vida cambia mucho, pero es bueno tener sueños. Ojalá por fin sepas tocar el piano. Un abrazo de la Ana de hoy.",
+    "Valoración con sujeto: subjuntivo (es importante que no dejes). Certeza: indicativo (es cierto que la vida cambia). Ojalá sepas: deseo sobre el futuro, con presente de subjuntivo."
   ),
   "commands-imperative-1": t(
     "Escribe las normas de una biblioteca para los usuarios. Usa mandatos de usted (afirmativos y negativos) y al menos uno de nosotros para invitar a todos.",

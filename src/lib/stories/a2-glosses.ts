@@ -364,7 +364,7 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
   "el-tobillo-torcido": [
     { es: "la patineta", en: "skateboard", forms: ["patineta"] },
     { es: "la muleta", en: "crutch", forms: ["muletas"] },
-    { es: "andar", en: "to ride (a bike); to walk, go", forms: ["anda", "andar"] },
+    { es: "andar", en: "to ride (andar en patineta = to skateboard); to walk, go", forms: ["anda", "andar"] },
     { es: "sentir", en: "to feel", forms: ["sintió"] },
     { es: "caer", en: "to fall", forms: ["cayó"] },
     { es: "desaparecer", en: "to disappear", forms: ["desapareció"] },
@@ -559,7 +559,7 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "el corredor", en: "runner", forms: ["corredor"] },
     { es: "el atletismo", en: "track and field", forms: ["atletismo"] },
     { es: "avergonzado", en: "embarrassed", forms: ["avergonzado"] },
-    { es: "la caída", en: "fall", forms: ["caída"] },
+    { es: "dejar caer", en: "to drop", forms: ["caer"] },
     { es: "la culpa", en: "fault", forms: ["culpa"] },
     { es: "detenerse", en: "to stop", forms: ["detuvo"] },
     { es: "la energía", en: "energy", forms: ["energía"] },
@@ -613,6 +613,7 @@ export const A2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "el río", en: "river", forms: ["ríos"] },
   ],
   "el-videojuego-nuevo": [
+    { es: "quedarse con", en: "to keep", forms: ["quedarse"] },
     { es: "varios", en: "several", forms: ["varias", "varios"] },
     { es: "aceptar", en: "to accept", forms: ["aceptó"] },
     { es: "alternar", en: "to take turns", forms: ["alternaban"] },

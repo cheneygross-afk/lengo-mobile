@@ -136,7 +136,7 @@ export const LEVEL_TEST_A2: LevelTest = {
       [
         fe("Ayer ___ al médico.", "fui", "Yesterday [I went] to the doctor.", "Ir → yo fui (preterite)."),
         fe("El lunes ellos ___ hasta muy tarde.", "trabajaron", "On Monday they [worked] until very late.", "Trabajar → ellos trabajaron."),
-        fe("¿Qué ___ el fin de semana pasado?", "hiciste", "What [did you do] last weekend?", "Hacer → tú hiciste (usted hizo).", ["hizo"]),
+        fe("¿Qué ___ el fin de semana pasado?", "hiciste", "What [did you do] last weekend?", "Hacer → tú hiciste (usted hizo).", ["hizo", "hicieron", "hicisteis"]),
         fe(
           "Mis padres ___ en un pueblo cuando eran jóvenes.",
           "vivían",

@@ -135,7 +135,7 @@ export const A2_NONFICTION: Story[] = [
       "El Camino de Santiago es una ruta que termina en Santiago de Compostela, en Galicia, en el noroeste de España. Según la tradición, allí está la tumba del apóstol Santiago.",
       "En la Edad Media, miles de peregrinos llegaban a Santiago desde toda Europa. Caminaban durante meses. Por el camino nacieron pueblos, iglesias, puentes y hospitales para ayudarlos.",
       "Después, durante siglos, el Camino tuvo menos peregrinos. Pero a finales del siglo XX volvió a ser popular. Hoy cientos de miles de personas lo hacen cada año, a pie o en bicicleta.",
-      "Hay muchos caminos diferentes. El más famoso es el Camino Francés, que empieza en los Pirineos y tiene unos ochocientos kilómetros. Mucha gente hace solo los últimos cien kilómetros, porque es el mínimo para recibir la «Compostela», un certificado oficial.",
+      "Hay muchos caminos diferentes. El más famoso es el Camino Francés, que empieza en los Pirineos y tiene unos ochocientos kilómetros. Mucha gente hace solo los últimos cien kilómetros a pie, porque es el mínimo para recibir la «Compostela», un certificado oficial.",
       "Los peregrinos duermen en albergues, que son baratos y sencillos. Llevan una credencial, un pequeño libro donde reciben un sello en cada pueblo. El símbolo del Camino es una concha, y las flechas amarillas en las paredes y en los árboles indican la dirección.",
       "No todos los peregrinos son religiosos. Algunos caminan por deporte, otros por la naturaleza y otros para pensar en su vida. Muchos dicen que lo mejor del Camino es la gente que conocen.",
     ],
@@ -152,7 +152,7 @@ export const A2_NONFICTION: Story[] = [
         options: ["At least the last hundred kilometers", "Eight hundred kilometers", "Ten kilometers", "There is no minimum"],
         correctIndex: 0,
         explanation:
-          "\"Los últimos cien kilómetros... es el mínimo para recibir la «Compostela».\"",
+          "\"Los últimos cien kilómetros a pie... es el mínimo para recibir la «Compostela».\"",
       },
       {
         question: "What do yellow arrows show?",

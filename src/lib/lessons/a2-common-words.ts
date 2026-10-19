@@ -67,7 +67,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
           ["Sin duda, es el mejor restaurante de la ciudad.", "Without a doubt, it's the best restaurant in the city."],
         ],
         [
-          { ...fb("Complete: \"I guess so. I'm not sure.\"", "___ que sí. No estoy seguro.", "Supongo", "Supongo que sí = I guess so / I suppose so."), altAnswers: ["Creo"] },
+          { ...fb("Complete: \"I guess so. I'm not sure.\"", "___ que sí. No estoy seguro.", "Supongo", "Also: I suppose so. Supongo is the yo form of suponer; Creo que sí (I think so) is also accepted."), altAnswers: ["Creo"] },
           mc(
             "Which word means \"maybe\"?",
             ["quizás", "supongo", "parece", "sin duda"],
@@ -91,7 +91,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
           ["Realmente no sé qué significa.", "I really don't know what it means."],
         ],
         [
-          fb("Complete: \"Actually, he doesn't live here.\"", "En ___, él no vive aquí.", "realidad", "En realidad = actually, in fact."),
+          fb("Complete: \"Actually, he doesn't live here.\"", "En ___, él no vive aquí.", "realidad", "Also: in fact. Don't use actualmente: it's a false friend meaning 'currently'."),
         ]
       ),
       sec(
@@ -130,8 +130,8 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         ],
         "Five high-frequency words for guessing and judging."
       ),
-      fb("Complete: \"Do you agree with Luis?\"", "¿Estás de ___ con Luis?", "acuerdo", "Estar de acuerdo con = to agree with."),
-      fb("Complete: \"The meeting is supposed to start at three.\"", "Se ___ que la reunión empieza a las tres.", "supone", "Se supone que = it's supposed to."),
+      fb("Complete: \"Do you agree with Luis?\"", "¿Estás de ___ con Luis?", "acuerdo", "It's a fixed phrase: always estar + de acuerdo, never ser."),
+      fb("Complete: \"The meeting is supposed to start at three.\"", "Se ___ que la reunión empieza a las tres.", "supone", "Se supone que is followed by a full sentence. Supone is the él form of suponer, used impersonally with se."),
       toEs("Maybe you're right.", "Quizá tienes razón.", "Quizá and quizás are both correct.", ["Quizás tienes razón.", "Quizá tengas razón.", "Quizás tengas razón.", "Quizá tiene razón.", "Quizás tiene razón.", "Quizá tienen razón.", "Quizás tienen razón."]),
       toEn("Es imposible saberlo.", "It's impossible to know.", "Es imposible + infinitive = it's impossible to...", ["It is impossible to know.", "It's impossible to know it."]),
       toEn("¿Qué significa «raro»?", "What does «raro» mean?", "¿Qué significa...? = What does ... mean? Raro means strange.", ["What does raro mean?", "What does \"raro\" mean?"]),
@@ -142,7 +142,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         "En realidad = actually. Actualmente is a false friend: it means \"currently\"."
       ),
       wo("Supongo que es posible terminar mañana.", "Supongo que + a full sentence; es posible + infinitive.", "I suppose it's possible to finish tomorrow."),
-      fb("Complete: \"You don't need to bring an umbrella; it's sunny.\"", "No es ___ llevar paraguas; hace sol.", "necesario", "No es necesario + infinitive = it's not necessary to..."),
+      fb("Complete: \"You don't need to bring an umbrella; it's sunny.\"", "No es ___ llevar paraguas; hace sol.", "necesario", "Necesario is an adjective, and the infinitive follows it directly: no es necesario llevar."),
       toEs("He's a true friend.", "Es un amigo verdadero.", "Verdadero means true or real. It usually follows the noun (amigo verdadero); un verdadero amigo, before the noun, is also correct and a bit more emphatic.", ["Él es un amigo verdadero.", "Es un verdadero amigo.", "Él es un verdadero amigo."]),
       mc(
         "What is someone asking when they say \"¿Qué te parece mi idea?\"",
@@ -170,7 +170,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         [
           ["Aunque llueve, vamos a salir.", "Although it's raining, we're going to go out."],
           ["Salí a correr aunque estaba cansado.", "I went running even though I was tired."],
-          ["El hotel era caro; sin embargo, la habitación era pequeña.", "The hotel was expensive; however, the room was small."],
+          ["El hotel era barato; sin embargo, la habitación era muy cómoda.", "The hotel was cheap; however, the room was very comfortable."],
           ["Estudié mucho. Sin embargo, no aprobé el examen.", "I studied a lot. However, I didn't pass the exam."],
         ],
         [
@@ -249,7 +249,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
       fb("Complete: \"It's expensive. However, I'm going to buy it.\"", "Es caro. Sin ___, lo voy a comprar.", "embargo", "Sin embargo means however, and it introduces a contrast with the previous sentence."),
       toEs("Even my grandmother came.", "Incluso vino mi abuela.", "Incluso means even, and it goes before the surprising part: incluso vino mi abuela.", ["Incluso mi abuela vino.", "Hasta vino mi abuela.", "Hasta mi abuela vino."]),
       toEn("No quiere ni siquiera probarlo.", "He doesn't even want to try it.", "Ni siquiera means not even; the whole phrase negates, so no + ni siquiera is fine in Spanish.", ["She doesn't even want to try it.", "He doesn't even want to taste it.", "She doesn't even want to taste it."]),
-      toEn("Jamás miento.", "I never lie.", "Jamás means never, a stronger nunca. It goes before the verb, with no extra no.", ["I never tell lies."]),
+      toEn("Jamás miento.", "I never lie.", "Jamás means never, a stronger nunca. Before the verb it needs no extra no (Jamás miento); after the verb you add no (No miento jamás).", ["I never tell lies."]),
       mt(
         "Match each word to its meaning.",
         [
@@ -612,7 +612,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         "Big words: paz, peligro, alma, honor",
         [
           "La paz is peace. Dejar en paz means to leave alone: ¡Déjame en paz! (Leave me alone!). El peligro is danger: en peligro (in danger), ¡Peligro! on signs.",
-          "El alma (soul) is feminine, but it takes el because it starts with a stressed a, like el agua: el alma, but el alma está tranquila. Con toda mi alma = with all my heart. El honor is honor: es un honor (it's an honor), en honor de (in honor of).",
+          "El alma (soul) is feminine, but it takes el because it starts with a stressed a, like el agua: el alma, but the adjective is still feminine: el alma está tranquila. Con toda mi alma = with all my heart. El honor is honor: es un honor (it's an honor), en honor de (in honor of).",
         ],
         [
           ["Después de la guerra, por fin llegó la paz.", "After the war, peace finally came."],

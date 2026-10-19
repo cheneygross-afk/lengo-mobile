@@ -565,7 +565,7 @@ export const B1_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "pintar", en: "to paint", forms: ["pintarían"] },
   ],
   "la-vecina-nueva": [
-    { es: "apenas", en: "only, just", forms: ["apenas"] },
+    { es: "apenas", en: "only, just; hardly", forms: ["apenas"] },
     { es: "la desconfianza", en: "distrust", forms: ["desconfianza"] },
     { es: "acercarse", en: "to approach", forms: ["acercaron"] },
     { es: "admitir", en: "to admit", forms: ["admitió"] },
@@ -928,7 +928,7 @@ export const B1_STORY_GLOSSES: Record<string, StoryGloss[]> = {
   ],
   "la-playa-despues-de-la-tormenta": [
     { es: "proponer", en: "to suggest", forms: ["propuso"] },
-    { es: "amanecer", en: "to be at daybreak", forms: ["amaneció"] },
+    { es: "amanecer", en: "to wake up (to find), appear at dawn", forms: ["amaneció"] },
     { es: "arrastrar", en: "to drag", forms: ["arrastrado"] },
     { es: "la asociación", en: "association", forms: ["asociación"] },
     { es: "el basurero", en: "garbage dump", forms: ["basurero"] },
@@ -1016,7 +1016,7 @@ export const B1_STORY_GLOSSES: Record<string, StoryGloss[]> = {
   "el-fotografo-accidental": [
     { es: "la imagen", en: "image", forms: ["imágenes"] },
     { es: "el repartidor", en: "delivery driver", forms: ["repartidor"] },
-    { es: "seguir", en: "to follow", forms: ["siguió"] },
+    { es: "seguir", en: "to follow; to keep (doing)", forms: ["siguió"] },
     { es: "acercarse", en: "to come up", forms: ["acercaron"] },
     { es: "apenas", en: "hardly", forms: ["apenas"] },
     { es: "capturar", en: "to capture", forms: ["capture"] },

@@ -277,12 +277,12 @@ export const A1_IRREGULARS: AnchoredLesson[] = [
       ),
     ],
     [
-      fe("¿___ a mi novia?", "Conoces", "[Do you know] my girlfriend?", "conocer → conoces (tú), with a before the person."),
+      fe("¿___ a mi novia?", "Conoces", "[Do you know] my girlfriend?", "conocer → conoces (tú), with a before the person.", ["Conoce", "Conocen", "Conocéis"]),
       fe("El restaurante ___ caro, pero no lo es.", "parece", "The restaurant [seems] expensive, but it isn't.", "parecer → parece."),
       fe("Mis amigos no ___ a mi familia.", "conocen", "My friends don't [know] my family.", "conocer → conocen (ellos)."),
       toEs("I know a good restaurant near here.", "Conozco un buen restaurante cerca de aquí.", "conocer → conozco: familiar with a place.", ["Yo conozco un buen restaurante cerca de aquí.", "Conozco un restaurante bueno cerca de aquí."]),
       toEs("Do you know Pedro?", "¿Conoces a Pedro?", "A specific person → a before the name.", ["¿Tú conoces a Pedro?", "¿Conoce a Pedro?", "¿Conoce usted a Pedro?"]),
-      toEs("You look happy today.", "Pareces contento hoy.", "parecer + adjective; the adjective agrees with the person.", ["Pareces contenta hoy.", "Hoy pareces contento.", "Hoy pareces contenta.", "Pareces feliz hoy.", "Hoy pareces feliz."]),
+      toEs("You look happy today.", "Pareces contento hoy.", "parecer + adjective; the adjective agrees with the person.", ["Pareces contenta hoy.", "Hoy pareces contento.", "Hoy pareces contenta.", "Pareces feliz hoy.", "Hoy pareces feliz.", "Parece contento hoy.", "Parece contenta hoy.", "Hoy parece contento.", "Hoy parece contenta.", "Parece feliz hoy.", "Hoy parece feliz."]),
       toEn("¿Qué te parece el plan?", "What do you think of the plan?", "¿Qué te parece…? asks for an opinion.", ["What do you think about the plan?", "How does the plan seem to you?"]),
       ms(
         "Which sentences need the little word a?",
@@ -309,7 +309,7 @@ export const A1_IRREGULARS: AnchoredLesson[] = [
           ["No sabemos cuándo viene el técnico.", "We don't know when the technician is coming."],
         ],
         [
-          fe("¿___ a qué hora sale el tren?", "Sabes", "[Do you know] what time the train leaves?", "A fact (a time) → saber."),
+          fe("¿___ a qué hora sale el tren?", "Sabes", "[Do you know] what time the train leaves?", "A fact (a time) → saber.", ["Sabe", "Saben", "Sabéis"]),
         ]
       ),
       sec(
@@ -344,9 +344,9 @@ export const A1_IRREGULARS: AnchoredLesson[] = [
       fe("No ___ a nadie en la fiesta.", "conozco", "I don't [know] anyone at the party.", "People → conocer, yo form conozco."),
       fe("¿Ustedes ___ dónde está el baño?", "saben", "Do you [know] where the bathroom is?", "Dónde + information → saber (ustedes: saben)."),
       fe("Ana ___ hablar alemán.", "sabe", "Ana [knows how to] speak German.", "Saber + infinitive = a skill."),
-      fe("¿___ el centro de Sevilla?", "Conoces", "[Are you familiar with] downtown Seville?", "A place you've been → conocer."),
+      fe("¿___ el centro de Sevilla?", "Conoces", "[Are you familiar with] downtown Seville?", "A place you've been → conocer.", ["Conoce", "Conocen", "Conocéis"]),
       toEs("I know that she works here.", "Sé que ella trabaja aquí.", "Saber + que + a fact.", ["Yo sé que ella trabaja aquí.", "Sé que trabaja aquí."]),
-      toEs("I don't know your husband.", "No conozco a tu marido.", "A person → conocer, plus a.", ["No conozco a tu esposo.", "Yo no conozco a tu marido.", "Yo no conozco a tu esposo."]),
+      toEs("I don't know your husband.", "No conozco a tu marido.", "A person → conocer, plus a.", ["No conozco a tu esposo.", "Yo no conozco a tu marido.", "Yo no conozco a tu esposo.", "No conozco a su marido.", "No conozco a su esposo."]),
       toEs("Do you know how to drive?", "¿Sabes conducir?", "A skill → saber + infinitive. Manejar is the usual verb in much of Latin America.", ["¿Sabes manejar?", "¿Tú sabes conducir?", "¿Tú sabes manejar?", "¿Sabe conducir?", "¿Sabe manejar?"]),
       toEs("We want to meet your parents.", "Queremos conocer a tus padres.", "Conocer a alguien = to meet someone for the first time.", ["Nosotros queremos conocer a tus padres.", "Queremos conocer a sus padres."]),
       mt(
@@ -385,10 +385,10 @@ export const A1_IRREGULARS: AnchoredLesson[] = [
       ),
     ],
     [
-      fe("¿___ por qué está cerrado el banco?", "Sabes", "[Do you know] why the bank is closed?", "Por qué + a fact → saber."),
+      fe("¿___ por qué está cerrado el banco?", "Sabes", "[Do you know] why the bank is closed?", "Por qué + a fact → saber.", ["Sabe", "Saben", "Sabéis"]),
       fe("Mis padres ___ a mi jefe.", "conocen", "My parents [know] my boss.", "A person → conocer + a."),
       fe("Yo no ___ nadar muy bien.", "sé", "I don't [know how to] swim very well.", "A skill → saber + infinitive."),
-      fe("Nosotros no ___ este restaurante.", "conocemos", "We [aren't familiar with] this restaurant.", "A place you know from experience → conocer."),
+      fe("Nosotros no ___ este restaurante.", "conocemos", "We aren't [familiar with] this restaurant.", "A place you know from experience → conocer."),
       fe("¿Usted ___ si hay una farmacia cerca?", "sabe", "[Do you know] if there's a pharmacy nearby?", "Si + a fact → saber."),
       toEs("I know where you live.", "Sé dónde vives.", "Dónde + information → saber.", ["Yo sé dónde vives.", "Sé dónde vive usted.", "Sé dónde vive."]),
       toEs("Do you know Mexico City?", "¿Conoces la Ciudad de México?", "A place → conocer, no a.", ["¿Conoces Ciudad de México?", "¿Conoce la Ciudad de México?", "¿Conoces México?", "¿Conoces la ciudad de México?"]),
@@ -458,7 +458,7 @@ export const A1_IRREGULARS: AnchoredLesson[] = [
       ),
     ],
     [
-      fe("¿___ cerrar la puerta, por favor?", "Puedes", "[Can you] close the door, please?", "poder → puedes (o → ue) + infinitive."),
+      fe("¿___ cerrar la puerta, por favor?", "Puedes", "[Can you] close the door, please?", "poder → puedes (o → ue) + infinitive.", ["Puede", "Pueden", "Podéis"]),
       fe("Mis hijos ___ ir a la playa.", "quieren", "My kids [want to] go to the beach.", "querer → quieren (e → ie) + infinitive."),
       fe("Usted ___ descansar más.", "debe", "You [should] rest more.", "deber + infinitive = should."),
       fe("Mi hermano ___ de trabajar a las tres.", "deja", "My brother [stops] working at three.", "dejar de + infinitive = to stop doing."),
@@ -517,7 +517,7 @@ export const A1_IRREGULARS: AnchoredLesson[] = [
     [
       fe("___ de casa a las ocho.", "Salgo", "[I leave] home at eight.", "salir → salgo."),
       fe("No ___ a nadie en la oficina.", "conozco", "I don't [know] anyone in the office.", "conocer → conozco, + a before people."),
-      fe("Andrés me ___ la oficina.", "enseña", "Andrés [shows] me the office.", "enseñar = to show, to teach."),
+      fe("Andrés me ___ la oficina.", "enseña", "Andrés [shows] me the office.", "enseñar = to show, to teach.", ["muestra"]),
       fe("El ordenador nuevo no ___.", "funciona", "The new computer doesn't [work].", "funcionar = to work (machines)."),
       toEs("I bring coffee for the whole team.", "Traigo café para todo el equipo.", "traer → traigo.", ["Yo traigo café para todo el equipo.", "Traigo un café para todo el equipo."]),
       toEs("I don't hear anything, there's a lot of noise.", "No oigo nada, hay mucho ruido.", "oír → oigo; no… nada = nothing.", ["Yo no oigo nada, hay mucho ruido."]),

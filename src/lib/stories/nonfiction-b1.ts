@@ -310,7 +310,7 @@ export const B1_NONFICTION: Story[] = [
       },
       {
         question: "What number do you call in a real emergency?",
-        options: ["911", "112", "091", "061"],
+        options: ["911", "112", "999", "010"],
         correctIndex: 1,
         explanation:
           "\"Llama al 112.\"",

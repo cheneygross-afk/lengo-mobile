@@ -66,7 +66,7 @@ export const DRILLS_B1_4: Record<string, Exercise[]> = {
     toEs("The singer (a woman) has cancelled her concert.", "La cantante ha cancelado su concierto.", "Pretérito perfecto: ha + cancelado. El participio no cambia con el sujeto femenino."),
     toEs("Thousands of people have protested in the centre this morning.", "Miles de personas han protestado en el centro esta mañana.", "Sujeto plural (miles de personas) → han protestado.", ["Esta mañana miles de personas han protestado en el centro."]),
     toEs("The minister has said that taxes will not go up.", "El ministro ha dicho que no subirán los impuestos.", "Decir tiene participio irregular: dicho, no «decido».", ["El ministro ha dicho que los impuestos no subirán."]),
-    fe("Esta mañana el tren ___ con dos horas de retraso.", "ha llegado", "This morning the train [arrived] two hours late.", "En España, con «esta mañana» se usa el pretérito perfecto: ha llegado."),
+    fe("Esta mañana el tren ___ con dos horas de retraso.", "ha llegado", "This morning the train [arrived] two hours late.", "En España, con «esta mañana» se usa el pretérito perfecto: ha llegado. En gran parte de Latinoamérica lo normal es el indefinido (llegó), también correcto.", ["llegó"]),
     fe("Hoy los científicos ___ un nuevo planeta.", "han descubierto", "Today scientists [have discovered] a new planet.", "Descubrir tiene participio irregular: descubierto, no «descubrido»."),
     fe("Esta semana ___ tres incendios en la región.", "ha habido", "This week there [have been] three fires in the region.", "Haber impersonal va siempre en singular: ha habido, no «han habido»."),
     fe("El equipo local ___ el partido de esta noche.", "ha ganado", "The local team [has won] tonight's match.", "Pretérito perfecto: ha + ganado, porque la noticia es de hoy."),
@@ -98,13 +98,13 @@ export const DRILLS_B1_4: Record<string, Exercise[]> = {
 
   "b1d-ronda-cortesia": [
     toEs("Could you (tú) lend me your umbrella?", "¿Me podrías prestar tu paraguas?", "Petición cortés: podrías + infinitivo. El pronombre va delante o pegado al infinitivo.", ["¿Podrías prestarme tu paraguas?", "¿Me prestarías tu paraguas?"]),
-    toEs("I'd like to try the fish.", "Me gustaría probar el pescado.", "Deseo cortés: me gustaría + infinitivo, no «me gusta».", ["Querría probar el pescado."]),
+    toEs("I'd like to try the fish.", "Me gustaría probar el pescado.", "Deseo cortés: me gustaría + infinitivo, no «me gusta».", ["Querría probar el pescado.", "Quisiera probar el pescado."]),
     toEs("Would you (usted) mind repeating your name?", "¿Le importaría repetir su nombre?", "Muy cortés: ¿Le importaría + infinitivo? Con usted, «le» y «su», no «te» ni «tu».", ["¿Le importaría a usted repetir su nombre?"]),
     toEs("Would you (tú) mind turning off the TV?", "¿Te importaría apagar la tele?", "Con tú: ¿Te importaría + infinitivo?", ["¿Te importaría apagar la televisión?"]),
     toEs("Could you (usted) tell me where the bathroom is?", "¿Podría decirme dónde está el baño?", "Con usted: podría (tercera persona). Dónde lleva tilde en la pregunta indirecta.", ["¿Me podría decir dónde está el baño?", "¿Podría decirme dónde está el servicio?", "¿Me podría decir dónde está el servicio?"]),
     toEs("We'd like to see the menu, please.", "Nos gustaría ver la carta, por favor.", "Nosotros: nos gustaría + infinitivo.", ["Nos gustaría ver el menú, por favor.", "Querríamos ver la carta, por favor.", "Querríamos ver el menú, por favor."]),
     toEs("Could you (ustedes) speak a little more quietly?", "¿Podrían hablar un poco más bajo?", "Con ustedes: podrían + infinitivo.", ["¿Podrían ustedes hablar un poco más bajo?", "¿Podrían hablar un poco más bajito?"]),
-    toEs("I'd like a coffee with milk.", "Querría un café con leche.", "Querría suaviza «quiero». Ojo: querr- con dos r.", ["Me gustaría un café con leche."]),
+    toEs("I'd like a coffee with milk.", "Querría un café con leche.", "Querría suaviza «quiero». Ojo: querr- con dos r.", ["Me gustaría un café con leche.", "Quisiera un café con leche."]),
     toEs("Would you (usted) mind signing here?", "¿Le importaría firmar aquí?", "¿Le importaría + infinitivo? es la fórmula más cortés con usted."),
     toEs("You (tú) should call your grandmother.", "Deberías llamar a tu abuela.", "Consejo suave: deberías + infinitivo. «Debes» suena más fuerte."),
     fe("¿Me ___ explicar este ejercicio?", "podrías", "[Could you] explain this exercise to me? (tú)", "Con tú: podrías (-ías), no «poderías»."),
@@ -312,7 +312,7 @@ export const DRILLS_B1_4: Record<string, Exercise[]> = {
   "b1-vocabulary-practice-4": [
     toEs("Peel the potatoes and cut them. (tú)", "Pela las patatas y córtalas.", "Pelar = to peel; cortar = to cut. Con el imperativo afirmativo, el pronombre va pegado: córtalas.", ["Pela las papas y córtalas."]),
     toEs("Chop the onion and the garlic. (tú)", "Pica la cebolla y el ajo.", "Picar = to chop. No confundas con cortar (to cut) en general.", ["Pica el ajo y la cebolla."]),
-    toEs("Heat the oil in the frying pan. (tú)", "Calienta el aceite en la sartén.", "Calentar cambia e → ie: calienta. La sartén es femenina.", ["Calienta el aceite en el sartén."]),
+    toEs("Heat the oil in the frying pan. (tú)", "Calienta el aceite en la sartén.", "Calentar cambia e → ie: calienta. «La sartén» es la forma general; en partes de América también se dice «el sartén».", ["Calienta el aceite en el sartén."]),
     toEs("Add a pinch of salt. (usted)", "Agregue una pizca de sal.", "Agregar = to add; con usted, agregue (g → gu).", ["Añada una pizca de sal."]),
     toEs("Beat the eggs with the sugar. (tú)", "Bate los huevos con el azúcar.", "Batir = to beat/whisk: bate."),
     toEs("Boil the pasta in a big pot. (tú)", "Hierve la pasta en una olla grande.", "Hervir cambia e → ie: hierve. La olla = the pot (la sartén = the frying pan).", ["Cuece la pasta en una olla grande."]),

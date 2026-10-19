@@ -83,7 +83,7 @@ export const B1_GAPS: AnchoredLesson[] = [
         [
           "El futuro perfecto también sirve para hacer una suposición sobre algo que ha pasado hace poco, igual que el futuro simple sirve para suponer sobre el presente.",
           "¿Por qué no ha venido Marta? — Se habrá dormido. (= Supongo que se ha dormido / Probablemente se ha dormido.)",
-          "Es muy frecuente en la conversación, sobre todo en España, donde el pretérito perfecto es más común. En América también se oye, pero es más frecuente «Se quedaría dormida» o «Seguro que se quedó dormida».",
+          "Es muy frecuente en la conversación, sobre todo en España, donde el pretérito perfecto es más común. En América también es habitual, aunque allí se oye mucho «Se quedaría dormida» o «Seguro que se quedó dormida».",
         ],
         [
           ["No encuentro las llaves. — Las habrás dejado en el coche.", "I can't find my keys. — You've probably left them in the car."],
@@ -163,8 +163,8 @@ export const B1_GAPS: AnchoredLesson[] = [
         "El pronombre va delante del auxiliar (lo habré), el auxiliar va en futuro (habré) y el participio de hacer es hecho."
       ),
       wo(
-        "A las cinco ya habrán cerrado la tienda.",
-        "Futuro perfecto de cerrar con el sujeto ellos (impersonal): a las cinco la tienda ya estará cerrada.",
+        "Para las cinco ya habrán cerrado la tienda.",
+        "Para + hora = 'by'. Futuro perfecto de cerrar con el sujeto ellos (impersonal): a las cinco la tienda ya estará cerrada.",
         "By five they'll have already closed the shop."
       ),
       ms(
@@ -389,7 +389,7 @@ export const B1_GAPS: AnchoredLesson[] = [
         [
           mc(
             "«When he saw the dog, the boy suddenly started running.»",
-            ["Al ver el perro, el niño se echó a correr.", "Al ver el perro, el niño se echó correr.", "Al ver el perro, el niño echó a correr de él.", "Al ver el perro, el niño dejó de correr."],
+            ["Al ver al perro, el niño se echó a correr.", "Al ver al perro, el niño se echó correr.", "Al ver al perro, el niño echó a correr de él.", "Al ver al perro, el niño dejó de correr."],
             0,
             "Echarse a + infinitivo = empezar de golpe, muy típico con correr, reír y llorar. Necesita la preposición a."
           ),
@@ -812,7 +812,7 @@ export const B1_GAPS: AnchoredLesson[] = [
           "Para dar énfasis o aclarar quién, añade a + persona: A mí se me olvidó, pero a ella no.",
         ],
         [
-          ["Perdona, se me hizo tarde.", "Sorry, I lost track of time."],
+          ["Perdona, se me hizo tarde.", "Sorry, it got late on me."],
           ["Se me pasó llamarte.", "I forgot to call you."],
           ["A mi hermana se le quemó el arroz.", "My sister burnt the rice."],
           ["¿Se te ocurre alguna idea?", "Can you think of any idea?"],
@@ -868,12 +868,15 @@ export const B1_GAPS: AnchoredLesson[] = [
         "Los documentos es plural, así que el verbo va en plural: se me olvidaron.",
         ["quedaron"]
       ),
-      fe(
-        "A Lucía se ___ cayó la taza.",
-        "le",
-        "Lucía [dropped] her cup.",
-        "A Lucía = a ella, así que se le. La a + persona se repite con el pronombre."
-      ),
+      {
+        ...fe(
+          "A Lucía se ___ cayó la taza.",
+          "le",
+          "Lucía dropped her cup.",
+          "A Lucía = a ella, así que se le. La a + persona se repite con el pronombre."
+        ),
+        prompt: "Completa con el pronombre que falta.",
+      },
       fe(
         "¿Hay pan? — No, se nos ___.",
         "acabó",

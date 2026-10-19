@@ -324,7 +324,7 @@ export const A1_STORIES: Story[] = [
     paragraphs: [
       "El abuelo de Valentina tiene un jardín grande detrás de su casa. Cada primavera, planta tomates, lechuga y flores de colores. Este año, Valentina quiere ayudar por primera vez. Su abuelo está muy contento con la idea.",
       "Un sábado de abril, el abuelo le da a Valentina unas semillas de tomate. \"Estas semillas necesitan tierra, agua y sol\", explica el abuelo. Valentina hace un hoyo pequeño en la tierra con sus manos. Con cuidado, pone las semillas y las cubre.",
-      "Cada mañana, Valentina va al jardín antes de la escuela. Riega las plantas con una regadera pequeña y verde. También quita las hierbas malas cerca de las semillas. El abuelo le enseña a cuidar las plantas cada día.",
+      "Cada mañana, Valentina va al jardín antes de la escuela. Riega las plantas con una regadera pequeña y verde. También quita las malas hierbas cerca de las semillas. El abuelo le enseña a cuidar las plantas cada día.",
       "Después de dos semanas, Valentina ve algo verde en la tierra. Son las primeras hojas pequeñas de sus plantas de tomate. Ella salta de alegría y llama a su abuelo rápidamente. \"¡Mira, abuelo, mis plantas crecen!\", grita Valentina.",
       "Durante el verano, las plantas crecen mucho más altas. Aparecen flores amarillas y después pequeños tomates verdes. Valentina cuenta los tomates todos los días con mucha emoción. Poco a poco, los tomates cambian de color a rojo.",
       "En agosto, Valentina y su abuelo cosechan los primeros tomates. Los llevan a la cocina y preparan una ensalada fresca. Toda la familia come la ensalada y dice que es deliciosa. Valentina se siente muy orgullosa de su primer jardín.",
@@ -1911,9 +1911,9 @@ export const A1_STORIES: Story[] = [
       "Carlos está muy preocupado porque el estuche es un regalo de su abuela. Tiene lápices de colores y una goma especial adentro. Sin el estuche, Carlos no puede terminar su dibujo.",
       "Su amiga Rosa ve la cara triste de Carlos. \"¿Qué buscas?\", pregunta Rosa. Carlos explica el problema con voz baja.",
       "Rosa decide ayudar a Carlos. Los dos buscan en la biblioteca y en el patio. No encuentran el estuche en ningún lugar.",
-      "Rosa tiene una idea. \"¿Le prestaste tu estuche a alguien hoy?\", pregunta ella. Carlos recuerda algo importante de repente.",
-      "Carlos le prestó su estuche a Miguel durante la clase de arte. Los dos amigos caminan hacia la mesa de Miguel. El estuche está ahí, debajo de un papel.",
-      "Miguel se disculpa porque olvidó devolver el estuche. Carlos está muy contento de tener su estuche otra vez. Rosa y Carlos son buenos amigos ahora.",
+      "Rosa tiene una idea. \"¿Tiene alguien tu estuche?\", pregunta ella. Carlos recuerda algo importante de repente.",
+      "En la clase de arte, Miguel usa el estuche de Carlos. Los dos amigos caminan hacia la mesa de Miguel. El estuche está ahí, debajo de un papel.",
+      "Miguel pide perdón y le devuelve el estuche. Carlos está muy contento de tener su estuche otra vez. Rosa y Carlos son buenos amigos ahora.",
     ],
     questions: [
       {
@@ -1939,10 +1939,10 @@ export const A1_STORIES: Story[] = [
       },
       {
         question: "Why does Miguel have the pencil case?",
-        options: ["He steals it", "Carlos lends it to him during art class", "He finds it on the floor", "It is his own pencil case"],
+        options: ["He steals it", "He uses it during art class", "He finds it on the floor", "It is his own pencil case"],
         correctIndex: 1,
         explanation:
-          "The text says \"Carlos le prestó su estuche a Miguel durante la clase de arte\" (Carlos lent his pencil case to Miguel during art class).",
+          "The text says \"En la clase de arte, Miguel usa el estuche de Carlos\" (In art class, Miguel uses Carlos's pencil case).",
       },
     ],
   },
@@ -2293,7 +2293,7 @@ export const A1_STORIES: Story[] = [
       },
       {
         question: "What is on Lucía's shopping list?",
-        options: ["Bread and milk", "Two breads and some small pastries", "Only pastries", "Fruit and bread"],
+        options: ["Bread and milk", "Two loaves of bread and some small pastries", "Only pastries", "Fruit and bread"],
         correctIndex: 1,
         explanation:
           "The text says her list has \"dos panes y unos pasteles pequeños\" (two breads and some small pastries).",
@@ -3481,7 +3481,7 @@ export const A1_STORIES: Story[] = [
       "Papá dice: \"No abrimos esta ventana ahora. Los pájaros necesitan tranquilidad.\" Toda la familia habla en voz baja en la cocina.",
       "Dos semanas después, Martín escucha un sonido: \"pío, pío, pío\". ¡Hay cuatro pajaritos en el nido! No tienen plumas y tienen la boca muy abierta. Siempre tienen hambre.",
       "Los papás pájaro traen gusanos e insectos todo el día. Los pajaritos crecen rápido. Ahora tienen plumas grises. Martín hace dibujos de los pajaritos en un cuaderno.",
-      "Un día de abril, los pajaritos saltan del nido y vuelan. Primero vuelan mal, pero luego vuelan bien. El nido está vacío. Martín está un poco triste. Pero su mamá dice: \"Tal vez vuelven el año que viene.\" Martín guarda su cuaderno y espera la primavera.",
+      "Un día de abril, los pajaritos saltan del nido y vuelan. Primero vuelan mal, pero luego vuelan bien. El nido está vacío. Martín está un poco triste. Pero su mamá dice: \"Tal vez vuelven el año que viene.\" Martín guarda su cuaderno y espera la próxima primavera.",
     ],
     questions: [
       {
