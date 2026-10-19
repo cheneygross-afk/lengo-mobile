@@ -666,7 +666,7 @@ export const FR_C1_U16: Lesson[] = [
         heading: "Scene 1: the dishes",
         body: [
           "Inès and Hugo share a flat in Nantes. Inès comes home and finds the kitchen in a mess.\n\nInès : Euh… Hugo ? C'est quoi, ce bazar ?\nHugo : Bah… j'ai fait des crêpes, en fait. Pour ce soir.\nInès : Ben oui, je vois. Mais tu comptais ranger quand, genre ?\nHugo : Bon, OK, OK. Je range, là. Tout de suite.\nInès : Non mais sérieux, c'est la troisième fois cette semaine, quoi.",
-          "\"Euh\" is pure hesitation: the speaker is looking for words or softening what comes next. \"Bah\" and \"ben\" (from \"bien\") introduce an answer that seems obvious or an embarrassed admission: \"bah… j'ai fait des crêpes\". \"Ben oui\" means \"well, obviously\", often with a touch of irony.",
+          "\"Euh\" is pure hesitation: the speaker is looking for words or softening what comes next. \"Bah\" and \"ben\" (from \"bien\") introduce an answer that seems obvious or an embarrassed admission: \"bah… j'ai fait des crêpes\". \"Ben oui\" means 'well, obviously', often with a touch of irony.",
           "\"En fait\" (actually) introduces a clarification or a correction. Many young speakers overuse it at the start of sentences, with almost no meaning. \"Bon\" marks a turning point: acceptance (\"bon, OK\"), a decision or a change of subject. \"Quoi\" at the end of a sentence (\"c'est la troisième fois, quoi\") sums up and adds emphasis, like 'you know' or 'I mean'.",
         ],
         examples: [
@@ -699,8 +699,8 @@ export const FR_C1_U16: Lesson[] = [
         heading: "Scene 2: genre and du coup",
         body: [
           "Hugo tries to change the subject.\n\nHugo : Bon, sinon, tu sais pas la meilleure ? Le proprio a appelé.\nInès : Ah bon ? Et il voulait quoi ?\nHugo : Il veut augmenter le loyer, genre de cinquante euros.\nInès : Cinquante balles ? Mais il est malade !\nHugo : Du coup, je me disais qu'on pourrait chercher un autre appart.\nInès : Attends, attends. Genre, déménager ? Maintenant ?",
-          "\"Genre\" has several jobs. It can mean \"about\" or \"something like\" before a number (\"genre de cinquante euros\" = about fifty euros). It can introduce an example or a quotation (\"il m'a dit, genre, t'es en retard\"). And as a question (\"genre, déménager ?\") it means 'you mean…?', often with disbelief. Ironic \"genre !\" alone means \"yeah, right!\".",
-          "\"Du coup\" originally means \"as a result\", but in today's speech it has become an all-purpose link: \"so\", \"then\", \"anyway\". \"Du coup, je me disais…\" introduces Hugo's conclusion. Many French people find it overused, and some teachers ban it in essays. In writing, use \"donc\", \"par conséquent\" or \"c'est pourquoi\".",
+          "\"Genre\" has several jobs. It can mean 'about' or 'something like' before a number (\"genre de cinquante euros\" = about fifty euros). It can introduce an example or a quotation (\"il m'a dit, genre, t'es en retard\"). And as a question (\"genre, déménager ?\") it means 'you mean…?', often with disbelief. Ironic \"genre !\" alone means \"yeah, right!\".",
+          "\"Du coup\" originally means 'as a result', but in today's speech it has become an all-purpose link: 'so', 'then', 'anyway'. \"Du coup, je me disais…\" introduces Hugo's conclusion. Many French people find it overused, and some teachers ban it in essays. In writing, use \"donc\", \"par conséquent\" or \"c'est pourquoi\".",
         ],
         examples: [
           { es: "Il veut augmenter le loyer, genre de cinquante euros.", en: "He wants to raise the rent by something like fifty euros." },
@@ -733,7 +733,7 @@ export const FR_C1_U16: Lesson[] = [
         body: [
           "Inès : Tu vois, le problème, c'est pas le loyer. C'est que le quartier, je l'adore, tu vois ? Le marché, la boulangerie…\nHugo : Ouais, je sais. Mais bon, cinquante euros par mois, quoi.\nInès : Bref. On en parle ce soir avec les crêpes ?\nHugo : Voilà. Bonne idée.",
           "\"Tu vois\" (or \"vous voyez\") checks the listener's attention and asks for agreement, like 'you see' or 'you know'. Repeated, it can sound insistent. \"Tu sais\" is similar. \"Bref\" (in short) cuts a story short or brings a digression back to the point. It's often used ironically to end a long rant.",
-          "\"Voilà\" closes a turn: 'that's it', \"exactly\", 'there you go'. In some speakers it ends almost every explanation. \"Ouais\" is the familiar \"oui\". \"Mais bon\" (but anyway, still) concedes a point while maintaining a reservation.",
+          "\"Voilà\" closes a turn: 'that's it', 'exactly', 'there you go'. In some speakers it ends almost every explanation. \"Ouais\" is the familiar \"oui\". \"Mais bon\" (but anyway, still) concedes a point while maintaining a reservation.",
           "None of these words are mistakes: they organise conversation, manage politeness and buy time. At the Advanced level, recognising them helps you follow natural speech. Using a few (\"bon\", \"en fait\", \"bref\", \"tu vois\") makes you sound fluent. But leave them out of written French, presentations and formal meetings, except deliberately.",
         ],
         examples: [
@@ -804,7 +804,7 @@ export const FR_C1_U16: Lesson[] = [
         en: "[Well]… I made pancakes.",
         sentence: "___… j'ai fait des crêpes.",
         answer: "Bah",
-        altAnswers: ["Ben", "Euh", "Bon"],
+        altAnswers: ["Ben", "Euh"],
         explanation: "\"Bah\" or \"ben\" introduce an awkward or obvious answer.",
       },
       {
@@ -1982,7 +1982,7 @@ export const FR_C1_U16: Lesson[] = [
         heading: "Intensifiers: grave and trop",
         body: [
           "In colloquial French, \"trop\" often doesn't mean too much: it means very or really, with a positive or neutral tone. \"C'est trop bien\" (it's really great), \"il est trop mignon\" (he's so cute). This can confuse learners: \"c'est trop cher\" (it's too expensive) still has its normal meaning, so context decides.",
-          "\"Grave\" as an adverb (really, totally) is younger slang: \"j'ai grave faim\" (I'm really hungry), \"il est grave relou\". It can also mean \"yes, totally\" as an answer: \"T'as aimé ? – Grave !\" Older speakers may find it odd; in writing it's always informal.",
+          "\"Grave\" as an adverb (really, totally) is younger slang: \"j'ai grave faim\" (I'm really hungry), \"il est grave relou\". It can also mean 'yes, totally' as an answer: \"T'as aimé ? – Grave !\" Older speakers may find it odd; in writing it's always informal.",
           "Other intensifiers: \"super\" (super content), \"hyper\" (hyper important), \"vachement\" (very, a bit dated but common: \"c'est vachement bien\"), \"carrément\" (totally, outright: \"c'est carrément nul\"; or as an answer, \"Carrément !\" = absolutely). In neutral French: \"très\", \"vraiment\", \"extrêmement\", \"particulièrement\".",
         ],
         examples: [
@@ -2418,8 +2418,7 @@ export const FR_C1_U16: Lesson[] = [
             prompt: "Translate with the future perfect of conjecture.",
             source: "She must have got the day wrong.",
             answer: "Elle se sera trompée de jour.",
-            altAnswers: ["Elle a dû se tromper de jour.", "Elle s'est sûrement trompée de jour."],
-            explanation: "Future perfect = a probable past explanation.",
+            explanation: "Future perfect = a probable past explanation. \"Elle a dû se tromper de jour\" means the same, but the prompt asks for the future perfect.",
           },
           {
             type: "translate",
@@ -2841,7 +2840,7 @@ export const FR_C1_U16: Lesson[] = [
             prompt: "Write it as a casual text message, with ellipsis.",
             source: "Couldn't come, sorry.",
             answer: "Pas pu venir, désolé.",
-            altAnswers: ["Pas pu venir, désolée.", "Pu pas venir, désolé.", "J'ai pas pu venir, désolé.", "J'ai pas pu venir, désolée."],
+            altAnswers: ["Pas pu venir, désolée.", "J'ai pas pu venir, désolé.", "J'ai pas pu venir, désolée."],
             explanation: "Subject and \"ne\" disappear in texting.",
           },
         ],

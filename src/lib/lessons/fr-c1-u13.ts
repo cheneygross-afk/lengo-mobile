@@ -254,7 +254,7 @@ export const FR_C1_U13: Lesson[] = [
         body: [
           "You learned the basic rule long ago: tu for friends and family, vous for strangers and at work. At the Advanced level you need the map of grey areas, and the map varies by milieu. In a Paris start-up, a call centre or an advertising agency, everyone says tu from the first day, including to the CEO. In a bank, a law firm, a ministry or a traditional family business, vous is the norm even between colleagues of twenty years. Teachers and pupils: vous from the pupils, often tu from primary-school teachers to children, vous again at lycée in many schools.",
           "Among young people (roughly under 30) tu is automatic, even with strangers at a party or a festival. Online, forums and social media lean heavily towards tu, but a customer-service account on X usually says vous. Sports clubs, choirs, activist groups and mountain huts tend to tutoyer by default: shared activity creates equality.",
-          "The verbs are \"tutoyer\" and \"vouvoyer\" (also \"vousoyer\", rarer): \"Elle tutoie son patron\", \"on se vouvoie encore\". The nouns are \"le tutoiement\" and \"le vouvoiement\". Not knowing which to use is so common that French has a phrase for the awkward dance of avoiding both: people build sentences with \"on\" or infinitives until someone settles the question.",
+          "The verbs are \"tutoyer\" and \"vouvoyer\" (also \"vousoyer\", rarer): \"Elle tutoie son patron\", \"on se vouvoie encore\". The nouns are \"le tutoiement\" and \"le vouvoiement\". Not knowing which to use is so common that people often dodge the question altogether, building sentences with \"on\" or infinitives until someone settles it.",
         ],
         examples: [
           { es: "Dans ma boîte, tout le monde se tutoie, même le PDG.", en: "At my company everyone says tu, even the CEO." },
@@ -359,7 +359,7 @@ export const FR_C1_U13: Lesson[] = [
         prompt: "Translate into French.",
         source: "You can say tu to me, you know.",
         answer: "Tu peux me tutoyer, tu sais.",
-        altAnswers: ["Vous pouvez me tutoyer, vous savez.", "Vous pouvez me tutoyer, tu sais."],
+        altAnswers: ["Vous pouvez me tutoyer, vous savez."],
         explanation: "The offer itself can be made in either pronoun; saying it already in tu is the warmer way. \"Me tutoyer\": the object pronoun goes before the infinitive.",
       },
       {
@@ -449,7 +449,7 @@ export const FR_C1_U13: Lesson[] = [
         heading: "Pronouns and possessives: every ton becomes votre",
         body: [
           "Switching a message from tu to vous is not just changing the subject pronoun. Every trace of the second person must follow: \"tu\" → \"vous\", \"te / t'\" → \"vous\", \"toi\" → \"vous\", \"ton / ta\" → \"votre\", \"tes\" → \"vos\", \"le tien / la tienne\" → \"le vôtre / la vôtre\". Native readers spot a stray \"ton\" in a vous message instantly, and it reads as carelessness or an accidental intimacy.",
-          "Mind the accent: \"votre\" (determiner, no accent, open o) but \"le vôtre\" (pronoun, circumflex, closed o). Likewise \"notre\" / \"le nôtre\". And \"te\" has two vous equivalents depending on its role, but they look the same: \"je te remercie\" → \"je vous remercie\", \"je te téléphone\" → \"je vous téléphone\".",
+          "Mind the accent: \"votre\" (determiner, no accent, open o) but \"le vôtre\" (pronoun, circumflex, closed o). Likewise \"notre\" / \"le nôtre\". And \"te\" becomes \"vous\" whatever its role, direct or indirect object: \"je te remercie\" → \"je vous remercie\", \"je te téléphone\" → \"je vous téléphone\".",
           "Verb endings change too, including the hidden ones: \"tu as\" → \"vous avez\", \"tu pourrais\" → \"vous pourriez\", \"tu es\" → \"vous êtes\", \"si tu veux\" → \"si vous voulez\" (or \"si vous le souhaitez\" if you raise the register at the same time).",
         ],
         examples: [
@@ -526,7 +526,7 @@ export const FR_C1_U13: Lesson[] = [
       {
         heading: "Whole messages, and back again",
         body: [
-          "Here is a message from Inès to her new neighbour, first in tu, as she wrote it to her sister by mistake, then rewritten in vous for the neighbour. Read the two side by side and follow every change: \"Coucou ! Tu es bien rentrée ? Je t'ai laissé ton colis chez moi, passe le prendre quand tu veux. Ne te dérange pas ce soir si tu es fatiguée, et dis-moi si tu as besoin de quelque chose.\" becomes \"Bonsoir Madame, vous êtes bien rentrée ? Je vous ai gardé votre colis, passez le prendre quand vous voulez. Ne vous dérangez pas ce soir si vous êtes fatiguée, et dites-moi si vous avez besoin de quoi que ce soit.\"",
+          "Here is a message from Inès to her new neighbour, first in tu, as she wrote it to her sister by mistake, then rewritten in vous for the neighbour. Read the two side by side and follow every change: \"Coucou ! Tu es bien rentrée ? Je t'ai gardé ton colis, passe le prendre quand tu veux. Ne te dérange pas ce soir si tu es fatiguée, et dis-moi si tu as besoin de quelque chose.\" becomes \"Bonsoir Madame, vous êtes bien rentrée ? Je vous ai gardé votre colis, passez le prendre quand vous voulez. Ne vous dérangez pas ce soir si vous êtes fatiguée, et dites-moi si vous avez besoin de quoi que ce soit.\"",
           "Notice that the agreement \"rentrée\" and \"fatiguée\" stays feminine singular with vous: vous de politesse addresses one person, so adjectives and participles agree with that person (the Contrast Clinic later in this unit drills this). Notice also that switching pronoun often invites a small rise in register: \"coucou\" → \"bonsoir Madame\", \"quelque chose\" → \"quoi que ce soit\".",
           "Going from vous to tu works in reverse, and it is just as important: once a colleague says \"On se tutoie ?\", their next email will be in tu, and your answer must follow without a single leftover \"votre\".",
         ],
@@ -747,7 +747,7 @@ export const FR_C1_U13: Lesson[] = [
           { es: "Hugo : Alors, cette première réunion, t'en as pensé quoi ?", en: "Hugo: So, what did you think of your first meeting?" },
           { es: "Vous : C'était intense, mais super intéressant.", en: "You: It was intense, but really interesting." },
           { es: "Hugo : Mme Garnier vouvoie tout le monde, même moi. C'est son style.", en: "Hugo: Mme Garnier says vous to everyone, even me. It's her style." },
-          { es: "Vous : Ça ne me dérange pas du tout. Je préfère ça que l'inverse !", en: "You: That doesn't bother me at all. I'd rather that than the other way round!" },
+          { es: "Vous : Ça ne me dérange pas du tout. Je préfère ça plutôt que l'inverse !", en: "You: That doesn't bother me at all. I'd rather that than the other way round!" },
           { es: "Hugo : Tu viens déjeuner avec nous ? On va au petit resto d'à côté.", en: "Hugo: Are you coming for lunch with us? We're going to the little restaurant next door." },
           { es: "Vous : Carrément ! Je prends ma veste et j'arrive.", en: "You: Absolutely! I'll grab my jacket and I'm coming." },
         ],
@@ -815,7 +815,7 @@ export const FR_C1_U13: Lesson[] = [
       },
       {
         type: "listen-choose",
-        audio: "Ça ne me dérange pas du tout, je préfère ça que l'inverse.",
+        audio: "Ça ne me dérange pas du tout, je préfère ça plutôt que l'inverse.",
         question: "What does it mean?",
         options: ["It doesn't bother me at all; I'd rather that than the opposite.", "It bothers me a bit; I'd prefer the opposite.", "I don't mind either way.", "It doesn't matter; let's swap."],
         correctIndex: 0,

@@ -102,7 +102,7 @@ export const FR_B1_U12: Lesson[] = [
           { es: "Si tu es fatigué, va te coucher.", en: "If you're tired, go to bed." },
           { es: "Si tu vois Karim, dis-lui bonjour.", en: "If you see Karim, say hello to him." },
           { es: "Si tu as soif, il y a de l'eau, sers-toi.", en: "If you're thirsty, there's water, help yourself." },
-          { es: "Si le bébé pleure, ne le réveille pas, il se rendort tout seul.", en: "If the baby cries, don't wake him, he goes back to sleep on his own." },
+          { es: "Si le bébé pleure, ne le prends pas tout de suite, il se rendort souvent tout seul.", en: "If the baby cries, don't pick him up straight away, he often goes back to sleep on his own." },
         ],
         checkpoint: [
           {
@@ -483,7 +483,7 @@ export const FR_B1_U12: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "If she doesn't want it, I'll give it to Paul. (it = la robe)",
+        source: "If she doesn't want it, I'll give it to Paul. (it = \"la robe\")",
         answer: "Si elle n'en veut pas, je la donnerai à Paul.",
         altAnswers: ["Si elle ne la veut pas, je la donnerai à Paul."],
         explanation: "\"Ne pas en vouloir\" = not want it; \"la\" for la robe.",
@@ -661,8 +661,8 @@ export const FR_B1_U12: Lesson[] = [
             options: [
               "Je pense que c'est une bonne nouvelle.",
               "Je pense que ce soit une bonne nouvelle.",
-              "Je ne pense que c'est une bonne nouvelle.",
-              "Je pense que ce serait une bonne nouvelle confirmée.",
+              "Je ne pense pas que c'est une bonne nouvelle.",
+              "Je pense que ce sois une bonne nouvelle.",
             ],
             correctIndex: 0,
             explanation: "A positive opinion: indicative \"c'est\".",
@@ -1037,7 +1037,7 @@ export const FR_B1_U12: Lesson[] = [
       {
         heading: "The invitation",
         body: [
-          "Emily is inviting her French colleagues to a garden party. Her message: « *Si tu viendras samedi, on fera un barbecue. *Si il fait beau, on mangera dehors. *Si on aura le temps, on jouera à la pétanque. » Three mistakes, and they're all classic.",
+          "Emily is inviting her French colleagues to a garden party. Her message: \"*Si tu viendras samedi, on fera un barbecue. *Si il fait beau, on mangera dehors. *Si on aura le temps, on jouera à la pétanque.\" Three mistakes, and they're all classic.",
           "Rule 1: after \"si\" meaning if, never the future (or the conditional). The future belongs in the other half of the sentence: \"Si tu viens samedi, on fera un barbecue.\"",
           "Rule 2: \"si\" + \"il\" always becomes \"s'il\": \"S'il fait beau, on mangera dehors.\"",
         ],
@@ -1083,7 +1083,7 @@ export const FR_B1_U12: Lesson[] = [
       {
         heading: "Practical details",
         body: [
-          "The second part of the invitation: « *Si vous apporterez quelque chose, apportez des desserts. *Si elle veut venir, ta copine sera la bienvenue. » The second one is actually correct! \"Si elle veut\" (present, no elision before elle) + future \"sera\".",
+          "The second part of the invitation: \"*Si vous apporterez quelque chose, apportez des desserts. Si elle veut venir, ta copine sera la bienvenue.\" The second one is actually correct! \"Si elle veut\" (present, no elision before elle) + future \"sera\".",
           "Corrected first line: \"Si vous apportez quelque chose, apportez des desserts.\" The pattern si + present + imperative is very common in invitations.",
         ],
         examples: [
@@ -1130,8 +1130,8 @@ export const FR_B1_U12: Lesson[] = [
       {
         heading: "The end of the message",
         body: [
-          "Last lines: « *Si quelqu'un aura un problème, il pourra dormir chez moi. *Si il y aura beaucoup de monde, on louera des chaises. » Corrected: \"Si quelqu'un a un problème, il pourra dormir chez moi. S'il y a beaucoup de monde, on louera des chaises.\"",
-          "A quick self-check before you send any French message: find every \"si\" and look at the verb right after it. If it ends in -ra, -rai, -rais, -rait..., it's wrong.",
+          "Last lines: \"*Si quelqu'un aura un problème, il pourra dormir chez moi. *Si il y aura beaucoup de monde, on louera des chaises.\" Corrected: \"Si quelqu'un a un problème, il pourra dormir chez moi. S'il y a beaucoup de monde, on louera des chaises.\"",
+          "A quick self-check before you send any French message: find every \"si\" and look at the verb right after it. If it's a future or conditional form (\"viendra\", \"aurai\", \"pourrais\", \"serait\"...), it's wrong. Careful with verbs like \"entrer\" or \"préparer\", whose normal forms already contain an r: \"si tu entres\" is fine.",
         ],
         examples: [
           { es: "Si quelqu'un a un problème, il pourra dormir chez moi.", en: "If anyone has a problem, they can sleep at my place." },
@@ -1629,7 +1629,7 @@ export const FR_B1_U12: Lesson[] = [
         heading: "Never the conditional after si",
         body: [
           "The rule from Part 1 holds: after \"si\" meaning if, never the future and never the conditional. \"*Si j'aurais le temps\" is a very common mistake, even among French children. The conditional goes in the other half: \"Si j'avais le temps, j'aurais...\"",
-          "A memory trick used in French schools: « Les si n'aiment pas les -rais ». (Si doesn't like -rais endings.)",
+          "A memory trick used in French schools: \"Les si n'aiment pas les -rais\". (Si doesn't like -rais endings.)",
         ],
         examples: [
           { es: "Si j'avais de l'argent, j'aurais une maison.", en: "If I had money, I'd have a house." },
@@ -1652,7 +1652,6 @@ export const FR_B1_U12: Lesson[] = [
             prompt: "Translate into French.",
             source: "If I could swim, I'd come with you. (to friends)",
             answer: "Si je savais nager, je viendrais avec vous.",
-            altAnswers: ["Si je savais nager, je viendrais avec toi."],
             explanation: "Can swim (a skill) = \"savoir nager\"; imparfait after si.",
           },
         ],
@@ -1932,7 +1931,7 @@ export const FR_B1_U12: Lesson[] = [
             prompt: "Translate into French.",
             source: "If you like, I'll take care of the shopping. (to friends)",
             answer: "Si vous voulez, je m'occupe des courses.",
-            altAnswers: ["Si vous voulez, je m'occuperai des courses.", "Si tu veux, je m'occupe des courses."],
+            altAnswers: ["Si vous voulez, je m'occuperai des courses."],
             explanation: "\"S'occuper de\": to take care of; present for an immediate offer.",
           },
           {
@@ -2121,7 +2120,7 @@ export const FR_B1_U12: Lesson[] = [
         heading: "If I lived...",
         body: [
           "Next, imagine living somewhere else: \"Si j'habitais à Paris, j'irais au théâtre tous les week-ends.\" \"Si je vivais à la campagne, j'aurais des poules.\"",
-          "\"Habiter\" and \"vivre\" both work for to live; \"vivre\" is irregular in the imparfait stem (\"je vivais\") but regular in the conditional (\"je vivrais\").",
+          "\"Habiter\" and \"vivre\" both work for to live; for \"vivre\", the imparfait comes from \"nous vivons\" (\"je vivais\") and the conditional from the infinitive minus e (\"je vivrais\").",
         ],
         examples: [
           { es: "Si j'habitais à Paris, j'irais au théâtre tous les week-ends.", en: "If I lived in Paris, I'd go to the theatre every weekend." },
@@ -2345,7 +2344,7 @@ export const FR_B1_U12: Lesson[] = [
         heading: "Errors after si",
         body: [
           "Three errors share one cause: putting a future or conditional after \"si\". \"*Si tu viendras\" → \"si tu viens\" (real condition). \"*Si j'aurais le temps\" → \"si j'avais le temps\" (imagined). \"*Si je serais riche\" → \"si j'étais riche\".",
-          "Remember the school rhyme: « Les si n'aiment pas les -rais ». The -rai / -rais forms always go in the other half of the sentence.",
+          "Remember the school rhyme: \"Les si n'aiment pas les -rais\". The -rai / -rais forms always go in the other half of the sentence.",
         ],
         examples: [
           { es: "Si tu viens, on ira au resto.", en: "If you come, we'll go to a restaurant." },

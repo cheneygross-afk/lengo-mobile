@@ -64,11 +64,10 @@ export const FR_C2_U24: Lesson[] = [
         checkpoint: [
           {
             type: "fill-blank",
-            prompt: "Write the French for the bold words.",
+            prompt: "Write the French for the bold words (passé simple).",
             en: "Napoleon [was born] in Ajaccio in 1769.",
             sentence: "Napoléon ___ à Ajaccio en 1769.",
             answer: "naquit",
-            altAnswers: ["est né"],
             explanation: "\"Naître\" has an irregular passé simple: \"il naquit\", \"ils naquirent\".",
           },
           {
@@ -145,11 +144,10 @@ export const FR_C2_U24: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Write the French for the bold words.",
+        prompt: "Write the French for the bold words (passé simple).",
         en: "They [had] four children.",
         sentence: "Ils ___ quatre enfants.",
         answer: "eurent",
-        altAnswers: ["ont eu"],
         explanation: "\"Avoir\" → \"il eut\", \"ils eurent\" (pronounced \"il u\", \"il-zur\").",
       },
       {
@@ -786,7 +784,7 @@ export const FR_C2_U24: Lesson[] = [
         source: "The general staff refused to reopen the case.",
         answer: "L'état-major refusa de rouvrir le dossier.",
         altAnswers: ["L'état-major refusa de rouvrir l'affaire.", "L'état-major refusa de réviser le dossier.", "L'état-major se refusa à rouvrir le dossier."],
-        explanation: "\"Refuser de\" + infinitive; \"rouvrir\" (to reopen) is spelled without an e after the r.",
+        explanation: "\"Refuser de\" + infinitive; \"rouvrir\" (to reopen), not \"*réouvrir*\", a common error.",
       },
       {
         type: "translate",
@@ -1113,7 +1111,7 @@ export const FR_C2_U24: Lesson[] = [
             prompt: "Translate into French (start with a past participle).",
             source: "Captured in May 1430, she was handed over to the English.",
             answer: "Capturée en mai 1430, elle fut livrée aux Anglais.",
-            altAnswers: ["Faite prisonnière en mai 1430, elle fut livrée aux Anglais.", "Capturée en mai 1430, elle fut remise aux Anglais.", "Capturée en mai 1430, elle fut vendue aux Anglais."],
+            altAnswers: ["Faite prisonnière en mai 1430, elle fut livrée aux Anglais.", "Capturée en mai 1430, elle fut remise aux Anglais."],
             explanation: "The participle agrees with the subject of the main clause (\"elle\"): \"capturée\".",
           },
           {
@@ -1397,7 +1395,7 @@ export const FR_C2_U24: Lesson[] = [
           { es: "Le 18 juin 1815, Napoléon perd à Waterloo ; il ne reverra jamais Paris en vainqueur.", en: "On 18 June 1815, Napoleon loses at Waterloo; he will never again see Paris as a victor." },
           { es: "Le 18 juin 1815, Napoléon perdit à Waterloo ; il ne reverrait jamais Paris en vainqueur.", en: "On 18 June 1815, Napoleon lost at Waterloo; he would never again see Paris as a victor." },
           { es: "L'armée avait marché toute la nuit. Au matin, la pluie cesse ; les canons se mettent à tonner.", en: "The army had marched all night. In the morning, the rain stops; the cannon begin to thunder." },
-          { es: "La bataille s'achève en déroute. Trois jours plus tard, l'empereur abdiquait pour la seconde fois.", en: "The battle ends in a rout. Three days later, the emperor abdicated for the second time." },
+          { es: "La bataille s'achève en déroute. Quatre jours plus tard, l'empereur abdiquait pour la seconde fois.", en: "The battle ends in a rout. Four days later, the emperor abdicated for the second time." },
           { es: "Il ignorait alors que ce voyage serait le dernier.", en: "He did not know then that this journey would be the last." },
           { es: "Il ignore alors que ce voyage sera le dernier.", en: "He does not know then that this journey will be the last." },
         ],
@@ -1407,7 +1405,7 @@ export const FR_C2_U24: Lesson[] = [
             question: "Which sentence keeps a coherent tense system?",
             options: ["Le 18 juin 1815, Napoléon perd à Waterloo ; il ne reverra jamais Paris en vainqueur.", "Le 18 juin 1815, Napoléon perd à Waterloo ; il ne reverrait jamais Paris en vainqueur.", "Le 18 juin 1815, Napoléon perdit à Waterloo ; il ne reverra jamais Paris en vainqueur.", "Le 18 juin 1815, Napoléon perdait à Waterloo ; il ne reverra jamais Paris en vainqueur."],
             correctIndex: 0,
-            explanation: "Present base + future flash-forward. The other options mix a present or past base with the wrong posterior tense, or use the imparfait for a single completed event.",
+            explanation: "Present base + future flash-forward. The others mix systems: a present base with the conditional, or a past base (\"perdit\", or the imparfait narratif \"perdait\") with the future.",
           },
           {
             type: "translate",
@@ -1733,7 +1731,7 @@ export const FR_C2_U24: Lesson[] = [
         type: "speak",
         text: "Le 15 juillet 1815, Napoléon monte à bord d'un navire anglais.",
         prompt: "Say it in French: On 15 July 1815, Napoleon goes aboard an English ship.",
-        tip: "\"Mil huit cent quinze\": many speakers say \"dix-huit cent quinze\" for dates; both are correct.",
+        tip: "Read the year as \"mille huit cent quinze\" (also written \"mil\" in dates); \"dix-huit cent quinze\" exists but is rare and old-fashioned in France.",
         explanation: "Présent de narration anchored by the date.",
       },
     ],
@@ -1887,7 +1885,7 @@ export const FR_C2_U24: Lesson[] = [
             prompt: "Translate into French, using the literary ne without pas.",
             source: "He did not dare say it.",
             answer: "Il n'osait le dire.",
-            altAnswers: ["Il n'osait pas le dire.", "Il n'osa le dire."],
+            altAnswers: ["Il n'osa le dire."],
             explanation: "\"Oser\" is one of the four verbs (oser, cesser, pouvoir, savoir) that can drop \"pas\".",
           },
           {
@@ -1942,7 +1940,6 @@ export const FR_C2_U24: Lesson[] = [
         en: "[It would have been better] to keep quiet.",
         sentence: "___ mieux valu se taire.",
         answer: "Il eût",
-        altAnswers: ["Il aurait"],
         explanation: "\"Il eût mieux valu\" = \"il aurait mieux valu\", the second form of the past conditional.",
       },
       {
@@ -1951,7 +1948,7 @@ export const FR_C2_U24: Lesson[] = [
         prompt: "Translate into French, using the literary ne without pas.",
         source: "She kept repeating his name.",
         answer: "Elle ne cessait de répéter son nom.",
-        altAnswers: ["Elle ne cessait pas de répéter son nom.", "Elle ne cessa de répéter son nom."],
+        altAnswers: ["Elle ne cessa de répéter son nom."],
         explanation: "\"Ne cesser de\" = to keep on doing, with \"pas\" optional in literary style.",
       },
       {

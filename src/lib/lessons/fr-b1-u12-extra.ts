@@ -651,8 +651,8 @@ export const FR_B1_U12_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "If it rains, the match will be cancelled.",
         answer: "S'il pleut, le match sera annulé.",
-        altAnswers: ["S'il pleut, on annulera le match."],
-        explanation: "Present + future passive.",
+        altAnswers: ["S'il pleut, on annulera le match.", "S'il pleut, nous annulerons le match."],
+        explanation: "Present after si, future in the result: \"sera\" + \"annulé\", used like an adjective (like \"je serais perdu\"). \"On annulera le match\" says the same thing.",
       },
       {
         type: "translate",

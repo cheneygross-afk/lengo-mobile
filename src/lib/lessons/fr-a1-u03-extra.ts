@@ -205,9 +205,9 @@ export const FR_A1_U03_EXTRA: Lesson[] = [
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
             en: "Do you [need] a taxi? (polite)",
-            sentence: "Vous avez ___ un taxi ?",
-            answer: "besoin d'",
-            explanation: "\"Avoir besoin de\", with \"de\" elided before \"un\".",
+            sentence: "Vous avez ___ d'un taxi ?",
+            answer: "besoin",
+            explanation: "\"Avoir besoin de\": need is a noun in French (\"besoin\"), so you have need of a taxi; \"de\" elides before \"un\": \"d'un taxi\".",
           },
           {
             type: "speak",
@@ -533,7 +533,7 @@ export const FR_A1_U03_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote « Je habite à Lille ». Write the correct French for: I live in Lille.",
+            prompt: "A learner wrote \"Je habite à Lille\". Write the correct French for: I live in Lille.",
             source: "I live in Lille.",
             answer: "J'habite à Lille.",
             explanation: "\"Je\" elides before the mute h of \"habite\".",
@@ -551,7 +551,7 @@ export const FR_A1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote « Il est dix ans ». Write the correct French for: He's ten.",
+        prompt: "A learner wrote \"Il est dix ans\". Write the correct French for: He's ten.",
         source: "He's ten.",
         answer: "Il a dix ans.",
         altAnswers: ["Il a 10 ans."],
@@ -560,7 +560,7 @@ export const FR_A1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote « Je aime le jazz ». Write the correct French for: I like jazz.",
+        prompt: "A learner wrote \"Je aime le jazz\". Write the correct French for: I like jazz.",
         source: "I like jazz.",
         answer: "J'aime le jazz.",
         explanation: "Élision before the vowel: \"j'aime\".",
@@ -568,7 +568,7 @@ export const FR_A1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote « Vous êtes raison ». Write the correct French for: You're right. (polite)",
+        prompt: "A learner wrote \"Vous êtes raison\". Write the correct French for: You're right. (polite)",
         source: "You're right.",
         answer: "Vous avez raison.",
         explanation: "Being right is \"avoir raison\".",
@@ -576,7 +576,7 @@ export const FR_A1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote « Je ne écoute pas la radio ». Write the correct French for: I don't listen to the radio.",
+        prompt: "A learner wrote \"Je ne écoute pas la radio\". Write the correct French for: I don't listen to the radio.",
         source: "I don't listen to the radio.",
         answer: "Je n'écoute pas la radio.",
         explanation: "\"Ne\" elides before a vowel too: \"n'écoute\".",
@@ -584,7 +584,7 @@ export const FR_A1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote « Nous sommes froid ». Write the correct French for: We're cold.",
+        prompt: "A learner wrote \"Nous sommes froid\". Write the correct French for: We're cold.",
         source: "We're cold.",
         answer: "Nous avons froid.",
         altAnswers: ["On a froid."],
@@ -593,7 +593,7 @@ export const FR_A1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote « Elle ne aime pas la plage ». Write the correct French for: She doesn't like the beach.",
+        prompt: "A learner wrote \"Elle ne aime pas la plage\". Write the correct French for: She doesn't like the beach.",
         source: "She doesn't like the beach.",
         answer: "Elle n'aime pas la plage.",
         explanation: "\"N'aime pas\" with élision.",
@@ -601,14 +601,14 @@ export const FR_A1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote « Je suis besoin d'un stylo ». Write the correct French for: I need a pen.",
+        prompt: "A learner wrote \"Je suis besoin d'un stylo\". Write the correct French for: I need a pen.",
         source: "I need a pen.",
         answer: "J'ai besoin d'un stylo.",
         explanation: "Need is \"avoir besoin de\".",
       },
       {
         type: "fill-blank",
-        prompt: "A learner wrote « Je écoute ». Write the French for the bold words.",
+        prompt: "A learner wrote \"Je écoute\". Write the French for the bold words.",
         en: "Sorry, [I'm listening]!",
         sentence: "Pardon, ___ !",
         answer: "j'écoute",
@@ -616,7 +616,7 @@ export const FR_A1_U03_EXTRA: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "A learner wrote « Les enfants sont peur ». Write the French for the bold words.",
+        prompt: "A learner wrote \"Les enfants sont peur\". Write the French for the bold words.",
         en: "The children [are scared].",
         sentence: "Les enfants ___.",
         answer: "ont peur",
@@ -624,7 +624,7 @@ export const FR_A1_U03_EXTRA: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "A learner wrote « Tu es sommeil ? ». Write the French for the bold words.",
+        prompt: "A learner wrote \"Tu es sommeil ?\". Write the French for the bold words.",
         en: "[Are you sleepy]? (to a friend)",
         sentence: "___ ?",
         answer: "Tu as sommeil",
@@ -633,7 +633,7 @@ export const FR_A1_U03_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "A learner wrote « Je arrive ». Put the words in order to say: I'm arriving in Paris.",
+        prompt: "A learner wrote \"Je arrive\". Put the words in order to say: I'm arriving in Paris.",
         words: ["J'arrive", "à", "Paris."],
         translation: "I'm arriving in Paris.",
         explanation: "\"J'arrive\": élision before the vowel.",
@@ -679,8 +679,8 @@ export const FR_A1_U03_EXTRA: Lesson[] = [
       {
         heading: "Camille and Karim compare their days",
         body: [
-          "Two friends, so \"tu\". Karim : « Tu travailles le lundi ? » Camille : « Oui, je travaille de neuf heures à cinq heures. Je commence tôt ! Et toi ? » Karim : « Moi, je ne travaille pas le lundi. J'étudie à la bibliothèque. »",
-          "Camille : « Tu manges où à midi ? » Karim : « Je mange avec des amis. Et le soir, on cuisine ensemble. » Camille : « Moi, le soir, j'ai sommeil. Je regarde un film et c'est tout ! »",
+          "Two friends, so \"tu\". Karim : \"Tu travailles le lundi ?\" Camille : \"Oui, je travaille de neuf heures à cinq heures. Je commence tôt ! Et toi ?\" Karim : \"Moi, je ne travaille pas le lundi. J'étudie à la bibliothèque.\"",
+          "Camille : \"Tu manges où à midi ?\" Karim : \"Je mange avec des amis. Et le soir, on cuisine ensemble.\" Camille : \"Moi, le soir, j'ai sommeil. Je regarde un film et c'est tout !\"",
           "Everything uses this unit's grammar: regular -er verbs, \"on\" for we, \"ne...pas\", and \"avoir sommeil\" where English says I'm sleepy. Remember the trick: the verb in the question gives you the verb for the answer.",
         ],
         examples: [
@@ -694,7 +694,7 @@ export const FR_A1_U03_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Karim asks « Tu travailles le lundi ? ». Camille works on Mondays. What does she answer?",
+            question: "Karim asks \"Tu travailles le lundi ?\". Camille works on Mondays. What does she answer?",
             options: ["Oui, je travaille le lundi.", "Oui, tu travailles le lundi.", "Oui, je suis travaille le lundi.", "Oui, je travaillons le lundi."],
             correctIndex: 0,
             explanation: "Switch \"tu\" to \"je\" and keep the verb: \"je travaille\".",
@@ -804,7 +804,7 @@ export const FR_A1_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Camille says « Le soir, j'ai sommeil ». What does Karim reply to agree that he's sleepy too?",
+        question: "Camille says \"Le soir, j'ai sommeil\". What does Karim reply to agree that he's sleepy too?",
         options: ["Moi aussi, j'ai sommeil.", "Moi aussi, je suis sommeil.", "Moi aussi, tu as sommeil.", "Moi aussi, j'ai sommeille."],
         correctIndex: 0,
         explanation: "\"Avoir sommeil\" in the je form; \"moi aussi\" means me too.",

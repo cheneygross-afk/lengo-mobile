@@ -214,8 +214,8 @@ export const FR_A2_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct French for: My luggage is in the car?",
-        options: ["Mes bagages sont dans la voiture.", "Mon bagage est dans la voiture.", "Ma bagage est dans la voiture.", "Mes bagages est dans la voiture."],
+        question: "How do you say 'My luggage is in the car'?",
+        options: ["Mes bagages sont dans la voiture.", "Mes bagage sont dans la voiture.", "Ma bagage est dans la voiture.", "Mes bagages est dans la voiture."],
         correctIndex: 0,
         explanation: "French treats luggage as plural: \"mes bagages sont\".",
       },
@@ -1414,8 +1414,8 @@ export const FR_A2_U19: Lesson[] = [
       {
         heading: "Part 1: Where is the groom?",
         body: [
-          "Thomas tells the story of his cousin Manon's wedding. « C'était le 14 juin. Il faisait un temps magnifique et tous les invités étaient très élégants. Manon se mariait avec Romain à la mairie de Dijon. Mais à 10 h, le marié n'était pas là ! »",
-          "« Romain s'est réveillé en retard : son réveil n'a pas sonné. Il s'est habillé en cinq minutes, il a pris un taxi et il est arrivé à 10 h 30, sans cravate. »",
+          "Thomas tells the story of his cousin Manon's wedding. \"C'était le 14 juin. Il faisait un temps magnifique et tous les invités étaient très élégants. Manon se mariait avec Romain à la mairie de Dijon. Mais à 10 h, le marié n'était pas là !\"",
+          "\"Romain s'est réveillé en retard : son réveil n'a pas sonné. Il s'est habillé en cinq minutes, il a pris un taxi et il est arrivé à 10 h 30, sans cravate.\"",
           "The first paragraph is all scene-setting (imparfait), even \"Manon se mariait\": it describes what was going on that day. The second is a chain of events (passé composé): \"s'est réveillé\", \"a pris\", \"est arrivé\". Note \"le marié\" (the groom) and \"la mariée\" (the bride); \"les mariés\" are the couple.",
         ],
         examples: [
@@ -1456,7 +1456,7 @@ export const FR_A2_U19: Lesson[] = [
       {
         heading: "Part 2: The rings",
         body: [
-          "« Pendant la cérémonie, le petit frère de Manon devait apporter les alliances. Mais il les a perdues ! Tout le monde les a cherchées pendant dix minutes. Finalement, c'est le chien qui les a trouvées, sous une chaise. »",
+          "\"Pendant la cérémonie, le petit frère de Manon devait apporter les alliances. Mais il les a perdues ! Tout le monde les a cherchées pendant dix minutes. Finalement, c'est le chien qui les a trouvées, sous une chaise.\"",
           "Agreement alert: \"les alliances\" (the wedding rings) is feminine plural. Every time \"les\" stands for them before \"avoir\", the participle takes -es: \"perdues\", \"cherchées\", \"trouvées\". You can't hear it with -é verbs, but you must write it.",
           "\"Devait apporter\" (was supposed to bring) is the imparfait of \"devoir\": it describes the plan, not an event. \"Pendant dix minutes\" closes the period, so \"ont cherché\" is passé composé.",
         ],
@@ -1482,7 +1482,6 @@ export const FR_A2_U19: Lesson[] = [
             prompt: "Translate into French.",
             source: "Everyone looked for them for ten minutes.",
             answer: "Tout le monde les a cherchées pendant dix minutes.",
-            altAnswers: ["Tout le monde les a cherchés pendant dix minutes."],
             explanation: "\"Chercher\" takes a direct object (no for); agreement with the preceding \"les\". \"Tout le monde\" is singular: \"a\".",
           },
           {
@@ -1498,7 +1497,7 @@ export const FR_A2_U19: Lesson[] = [
       {
         heading: "Part 3: The party and the storm",
         body: [
-          "« Le soir, il y avait une grande fête dans le jardin. Pendant que les invités dansaient, un orage a éclaté. Il a commencé à pleuvoir très fort et ma tante est tombée dans la piscine ! Mais Manon riait. Elle a dit : « C'est le plus beau jour de ma vie ! » Les mariés sont partis à minuit, sous la pluie. »",
+          "\"Le soir, il y avait une grande fête dans le jardin. Pendant que les invités dansaient, un orage a éclaté. Il a commencé à pleuvoir très fort et ma tante est tombée dans la piscine ! Mais Manon riait. Elle a dit : « C'est le plus beau jour de ma vie !\" Les mariés sont partis à minuit, sous la pluie. »",
           "\"Pendant que les invités dansaient\" (background) + \"un orage a éclaté\" (event) is the classic interruption. \"Tomber\" and \"partir\" take \"être\" and agree with the subject: \"ma tante est tombée\", \"les mariés sont partis\".",
           "\"Manon riait\" is imparfait: not a single laugh but her state while everything was going wrong.",
         ],
@@ -1647,7 +1646,7 @@ export const FR_A2_U19: Lesson[] = [
       {
         heading: "Mistakes 1 and 2: auxiliary and agreement",
         body: [
-          "Emma, an English learner, wrote this in her diary. Here is the first part, with two mistakes: « Mardi 12 juillet. Hier, nous avons arrivé à Saint-Malo en train. L'hôtel était petit mais très joli. Ma sœur est allé directement à la plage. »",
+          "Emma, an English learner, wrote this in her diary. Here is the first part, with two mistakes: \"Mardi 12 juillet. Hier, nous avons arrivé à Saint-Malo en train. L'hôtel était petit mais très joli. Ma sœur est allé directement à la plage.\"",
           "Mistake 1: \"nous avons arrivé\". \"Arriver\" is a movement verb and takes \"être\": \"nous sommes arrivés\" (or \"arrivées\" for two women). English speakers think of we have arrived and copy the have.",
           "Mistake 2: \"ma sœur est allé\". With \"être\", the participle agrees with the subject: \"ma sœur est allée\". The extra -e is silent, so it's a spelling error you only catch by checking.",
         ],
@@ -1678,7 +1677,7 @@ export const FR_A2_U19: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say 'My parents stayed at the hotel'?",
             options: ["Mes parents sont restés à l'hôtel.", "Mes parents ont restés à l'hôtel.", "Mes parents sont resté à l'hôtel.", "Mes parents ont resté à l'hôtel."],
             correctIndex: 0,
             explanation: "\"Rester\" takes \"être\" (it's on the list despite not being movement) and agrees: \"restés\".",
@@ -1688,7 +1687,7 @@ export const FR_A2_U19: Lesson[] = [
       {
         heading: "Mistakes 3 and 4: participle and tense",
         body: [
-          "Next part: « J'ai prendu beaucoup de photos des remparts. Quand j'étais petite, je suis venue ici chaque été avec mes grands-parents, alors je connaissais déjà la ville. »",
+          "Next part: \"J'ai prendu beaucoup de photos des remparts. Quand j'étais petite, je suis venue ici chaque été avec mes grands-parents, alors je connaissais déjà la ville.\"",
           "Mistake 3: \"j'ai prendu\". Learners regularise irregular participles on the model of \"vendu\" or \"attendu\". \"Prendre\" → \"pris\" (and \"apprendre\" → \"appris\", \"comprendre\" → \"compris\").",
           "Mistake 4: \"je suis venue ici chaque été\". \"Chaque été\" (every summer) signals a repeated habit in the past, so French needs the imparfait: \"je venais ici chaque été\". The passé composé would present it as one completed event.",
         ],
@@ -1730,7 +1729,7 @@ export const FR_A2_U19: Lesson[] = [
       {
         heading: "Mistakes 5 and 6: preceding object and -ert",
         body: [
-          "Last part: « Le soir, nous avons acheté des crêpes au caramel. Les crêpes ? Nous les avons mangé sur la plage. Ensuite, à l'hôtel, j'ai ouvri la fenêtre et j'ai entendu la mer. C'était parfait. »",
+          "Last part: \"Le soir, nous avons acheté des crêpes au caramel. Les crêpes ? Nous les avons mangé sur la plage. Ensuite, à l'hôtel, j'ai ouvri la fenêtre et j'ai entendu la mer. C'était parfait.\"",
           "Mistake 5: \"nous les avons mangé\". \"Les\" stands for \"les crêpes\" (feminine plural) and comes before \"avoir\", so the participle agrees: \"nous les avons mangées\".",
           "Mistake 6: \"j'ai ouvri\". \"Ouvrir\" looks like a regular -ir verb but its participle is \"ouvert\" (like \"offrir\" → \"offert\", \"découvrir\" → \"découvert\"). The fixed text: \"j'ai ouvert la fenêtre\".",
         ],
@@ -1895,7 +1894,7 @@ export const FR_A2_U19: Lesson[] = [
             prompt: "Translate into French.",
             source: "She was born in 1867.",
             answer: "Elle est née en 1867.",
-            altAnswers: ["Elle est née en mil huit cent soixante-sept."],
+            altAnswers: ["Elle est née en mille huit cent soixante-sept.", "Elle est née en mil huit cent soixante-sept."],
             explanation: "\"Naître\" takes \"être\": \"elle est née\". Years take \"en\".",
           },
           {
@@ -2618,7 +2617,7 @@ export const FR_A2_U19: Lesson[] = [
       {
         heading: "Silent agreements with être",
         body: [
-          "The story continues: « Samedi dernier, il faisait beau. Mes cousines sont venues à la maison. Nous avons décidé d'aller au lac. »",
+          "The story continues: \"Samedi dernier, il faisait beau. Mes cousines sont venues à la maison. Nous avons décidé d'aller au lac.\"",
           "\"Sont venues\": with \"être\", the participle agrees with the subject. \"Mes cousines\" is feminine plural, so -es, even though you hear nothing. Before you write, ask: auxiliary \"être\"? Then who is the subject, and is it feminine, plural, or both?",
           "\"Nous avons décidé\": with \"avoir\", there is no agreement with the subject. Don't add -s because \"nous\" is plural.",
         ],
@@ -2657,7 +2656,7 @@ export const FR_A2_U19: Lesson[] = [
       {
         heading: "Agreement with a preceding pronoun",
         body: [
-          "The end of the story: « Nous avons préparé un pique-nique et nous sommes parties à midi. Au lac, les filles se sont baignées pendant que je lisais. Le soir, j'ai pris des photos. Les photos ? Je les ai envoyées à toute la famille. »",
+          "The end of the story: \"Nous avons préparé un pique-nique et nous sommes parties à midi. Au lac, les filles se sont baignées pendant que je lisais. Le soir, j'ai pris des photos. Les photos ? Je les ai envoyées à toute la famille.\"",
           "Three spellings to catch. \"Nous sommes parties\": the narrator and her cousins are all women. \"Se sont baignées\": pronominal verb, agreement with the subject. \"Je les ai envoyées\": \"les\" (the photos) comes before \"avoir\", so the participle agrees with it.",
           "\"Je lisais\": [ɛ] ending, imparfait, an ongoing background action interrupted by nothing; it just runs alongside the swim.",
         ],
@@ -2907,7 +2906,7 @@ export const FR_A2_U19: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does « C'est une longue histoire » mean?",
+            question: "What does \"C'est une longue histoire\" mean?",
             options: ["It's a long story.", "It's a long history.", "It's a long time ago.", "It's a long book."],
             correctIndex: 0,
             explanation: "\"Une histoire\" is both story and history; here it's the set phrase it's a long story.",

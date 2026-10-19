@@ -528,7 +528,7 @@ export const FR_B1_U14: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Why is « avait perdu sa voix » in the plus-que-parfait?",
+            question: "Why is \"avait perdu sa voix\" in the plus-que-parfait?",
             options: [
               "He lost his voice before the evening of the show.",
               "He was losing his voice slowly during the show.",
@@ -649,7 +649,7 @@ export const FR_B1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Quand le rideau s'est levé, Lucas ___ sa voix. » (He had got it back an hour earlier.)",
+        question: "\"Quand le rideau s'est levé, Lucas ___ sa voix.\" (He had got it back an hour earlier.)",
         options: ["avait retrouvé", "a retrouvé", "retrouvait", "retrouverait"],
         correctIndex: 0,
         explanation: "An earlier event than the curtain rising → plus-que-parfait.",
@@ -705,7 +705,7 @@ export const FR_B1_U14: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "« Il était furieux parce que quelqu'un avait rayé sa voiture. » What happened first?",
+            question: "\"Il était furieux parce que quelqu'un avait rayé sa voiture.\" What happened first?",
             options: ["Someone scratched his car.", "He became furious.", "Both at the same time.", "We can't tell."],
             correctIndex: 0,
             explanation: "\"Avait rayé\" is plus-que-parfait: it happened before he was furious.",
@@ -737,7 +737,7 @@ export const FR_B1_U14: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "« Quand je suis rentré, les enfants avaient dîné. » What does it mean?",
+            question: "\"Quand je suis rentré, les enfants avaient dîné.\" What does it mean?",
             options: [
               "The children had eaten before I got home.",
               "The children ate after I got home.",
@@ -887,7 +887,7 @@ export const FR_B1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Elle était triste parce que son chat était mort. » Which came first?",
+        question: "\"Elle était triste parce que son chat était mort.\" Which came first?",
         options: ["The cat died.", "She was sad.", "Both at once.", "Neither: it's a hypothesis."],
         correctIndex: 0,
         explanation: "\"Était mort\" is plus-que-parfait (mourir takes être).",
@@ -1119,7 +1119,7 @@ export const FR_B1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend says: « Quand je suis arrivé, la boulangerie fermait. » What happened?",
+        question: "Your friend says: \"Quand je suis arrivé, la boulangerie fermait.\" What happened?",
         options: ["The bakery was closing as he arrived.", "The bakery had already closed.", "The bakery closed after he left.", "The bakery never opened."],
         correctIndex: 0,
         explanation: "Imparfait = in progress: they were closing up.",
@@ -1270,7 +1270,7 @@ export const FR_B1_U14: Lesson[] = [
       {
         heading: "Reported speech: il m'a dit qu'il avait fini",
         body: [
-          "A preview of reported speech: when you report in the past what someone said about an earlier action, their passé composé becomes plus-que-parfait. « J'ai fini. » → \"Il m'a dit qu'il avait fini.\" « Je suis allée chez le médecin. » → \"Elle m'a dit qu'elle était allée chez le médecin.\"",
+          "A preview of reported speech: when you report in the past what someone said about an earlier action, their passé composé becomes plus-que-parfait. \"J'ai fini.\" → \"Il m'a dit qu'il avait fini.\" \"Je suis allée chez le médecin.\" → \"Elle m'a dit qu'elle était allée chez le médecin.\"",
           "This is the same rule as above: the action came before the moment of saying.",
         ],
         examples: [
@@ -1463,7 +1463,7 @@ export const FR_B1_U14: Lesson[] = [
       {
         heading: "The suspects",
         body: [
-          "Three suspects. \"Le jardinier\" said: « J'étais chez moi, je m'étais couché tôt. » \"La nièce\" said: « Je suis arrivée à minuit, mais le tableau avait déjà disparu. » \"Le majordome\" said: « Je n'ai rien entendu, j'avais pris un somnifère. »",
+          "Three suspects. \"Le jardinier\" said: \"J'étais chez moi, je m'étais couché tôt.\" \"La nièce\" said: \"Je suis arrivée à minuit, mais le tableau avait déjà disparu.\" \"Le majordome\" said: \"Je n'ai rien entendu, j'avais pris un somnifère.\"",
           "To check an alibi, look for what each person says they had done before: \"Le jardinier s'était couché tôt.\" \"Le majordome avait pris un somnifère\" (a sleeping pill).",
         ],
         examples: [
@@ -1600,7 +1600,7 @@ export const FR_B1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The gardener says « Je m'étais couché tôt. » What is he claiming?",
+        question: "The gardener says \"Je m'étais couché tôt.\" What is he claiming?",
         options: ["He was already in bed before the theft.", "He went to bed after the theft.", "He used to go to bed early.", "He would go to bed early."],
         correctIndex: 0,
         explanation: "PQP: before the reference point, the theft.",
@@ -1704,7 +1704,7 @@ export const FR_B1_U14: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Heureusement, Karim avait pris une lampe de poche. » When did Karim take the torch?",
+            question: "\"Heureusement, Karim avait pris une lampe de poche.\" When did Karim take the torch?",
             options: ["Before they set off.", "When they got lost.", "After the hike.", "He was taking it during the hike."],
             correctIndex: 0,
             explanation: "PQP: before the moment of the story.",
@@ -1851,7 +1851,7 @@ export const FR_B1_U14: Lesson[] = [
         type: "speak",
         text: "Au bout d'une heure, nous nous sommes perdus.",
         prompt: "Say it in French: After an hour, we got lost.",
-        explanation: "\"Nous nous sommes\": four syllables, smooth.",
+        explanation: "\"Nous nous sommes\": three syllables, said smoothly.",
       },
     ],
   },
@@ -2271,7 +2271,7 @@ export const FR_B1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Shift back: « Le film a commencé. » → « Quand on est entrés, le film ___. »",
+        question: "Shift back: \"Le film a commencé.\" → \"Quand on est entrés, le film ___.\"",
         options: ["avait commencé", "a commencé", "commençait", "aurait commencé"],
         correctIndex: 0,
         explanation: "The start of the film came before entering → PQP.",
@@ -2481,7 +2481,7 @@ export const FR_B1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Soften « Éteins la télé ! » as a suggestion.",
+        question: "Soften \"Éteins la télé !\" as a suggestion.",
         options: ["Si tu éteignais la télé ?", "Si tu éteins la télé ?", "Si tu éteindrais la télé ?", "Que tu éteignes la télé ?"],
         correctIndex: 0,
         explanation: "Si + imparfait (\"éteignais\") is the gentle suggestion.",
@@ -2490,7 +2490,7 @@ export const FR_B1_U14: Lesson[] = [
         type: "listen-choose",
         audio: "J'aimerais que tu viennes.",
         question: "What did you hear?",
-        options: ["J'aimerais que tu viennes.", "J'aimerais que tu viens.", "J'aimerai que tu viennes.", "J'aimerais que tu venais."],
+        options: ["J'aimerais que tu viennes.", "J'aimerais que tu viens.", "J'aimerais que tu reviennes.", "J'aimerais que tu venais."],
         correctIndex: 0,
         explanation: "Subjunctive \"viennes\" after \"j'aimerais que\".",
       },

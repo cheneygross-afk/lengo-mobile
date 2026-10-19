@@ -16,7 +16,7 @@ export const PT_C2_U11: Lesson[] = [
       {
         heading: "Aparece lá em casa: warmth, not a plan",
         body: [
-          "Linguists call it implicature: what a sentence means beyond what it says. Brazilian social life runs on it. When a neighbour says \"aparece lá em casa\" (drop by my place) or \"passa lá qualquer dia\" (come round any day), she is telling you that she likes you. She is not inviting you to ring her bell on Tuesday. \"A casa é sua\" (my home is yours) and \"vê se não some\" (don't disappear on me) belong to the same family: warmth expressed as an offer.",
+          "Linguists call it implicature: what a sentence means beyond what it says. Brazilian social life runs on it. When a neighbor says \"aparece lá em casa\" (drop by my place) or \"passa lá qualquer dia\" (come by any day), she is telling you that she likes you. She is not inviting you to ring her bell on Tuesday. \"A casa é sua\" (my home is yours) and \"vê se não some\" (don't disappear on me) belong to the same family: warmth expressed as an offer.",
           "The trap for English speakers is to treat these as either lies or plans. They are neither. They are a ritual, like 'how are you?' in English, which nobody answers with a medical report. Turning up unannounced because someone said \"aparece\" can genuinely surprise the host, who will receive you kindly and wonder what happened.",
           "The right answer is to match the warmth, not to fix a date: \"Apareço, sim!\", \"Pode deixar!\" (count on it), \"Você também, aparece!\". All of them close the ritual politely and promise nothing either.",
         ],
@@ -39,7 +39,7 @@ export const PT_C2_U11: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Leaving a party, your host's neighbour says \"Aparece lá em casa!\" You've only just met. What's the most natural reply?",
+            question: "Leaving a party, your host's neighbor says \"Aparece lá em casa!\" You've only just met. What's the most natural reply?",
             options: ["Apareço, sim! Foi um prazer.", "Que dia e que horas?", "Não posso, desculpa.", "Obrigado, mas eu não conheço sua casa."],
             correctIndex: 0,
             explanation: "\"Aparece lá em casa\" is a ritual of goodwill, so you answer in kind: \"apareço, sim!\". Asking for a date treats the formula as a plan and can put the speaker on the spot; refusing treats it as a real invitation.",
@@ -76,7 +76,7 @@ export const PT_C2_U11: Lesson[] = [
             source: "Let's get a beer sometime!",
             answer: "Vamos marcar um chope qualquer dia!",
             altAnswers: ["Vamos marcar um chope um dia desses!", "Vamos marcar um chope qualquer dia desses!", "Bora marcar um chope qualquer dia!", "Bora marcar um chope um dia desses!", "Vamos marcar uma cerveja qualquer dia!", "Vamos marcar uma cerveja um dia desses!"],
-            explanation: "\"Marcar\" is to set a date for something, and the vague \"qualquer dia\" turns it into the classic warm formula. \"Chope\" is draught beer, the default thing to \"marcar\" with friends.",
+            explanation: "\"Marcar\" is to set a date for something, and the vague \"qualquer dia\" turns it into the classic warm formula. \"Chope\" is draft beer, the default thing to \"marcar\" with friends.",
           },
           {
             type: "fill-blank",
@@ -204,7 +204,7 @@ export const PT_C2_U11: Lesson[] = [
       {
         type: "multiple-choice",
         question: "A friend invites you to her birthday dinner on Friday, with the address. You can't go. What's the most natural reply?",
-        options: ["Poxa, sexta não vai dar! Mas vamos marcar alguma coisa só nós duas na semana que vem?", "Não posso.", "Vamos vendo.", "Aparece lá em casa!"],
+        options: ["Poxa, sexta não vai dar! Mas vamos marcar alguma coisa só a gente na semana que vem?", "Não posso.", "Vamos vendo.", "Aparece lá em casa!"],
         correctIndex: 0,
         explanation: "A sincere invitation gets a softened refusal: regret (\"poxa\"), circumstances (\"não vai dar\") and a counter-offer. A bare \"não posso\" sounds cold, and \"vamos vendo\" leaves her guessing.",
       },
@@ -217,7 +217,7 @@ export const PT_C2_U11: Lesson[] = [
         type: "speak",
         text: "Que saudade! Vamos marcar um chope qualquer dia.",
         prompt: "Say it in Portuguese: I've missed you! Let's get a beer sometime.",
-        tip: "\"Saudade\" ends in dji, and the de of \"qualquer dia\" sounds like dji too: kwaw-KÉR DJI-a.",
+        tip: "\"Saudade\" ends in dji, and the d of \"dia\" sounds like dji too: kwaw-KÉR DJI-a.",
         explanation: "\"Que saudade!\" plus \"vamos marcar\" is the most typical Brazilian goodbye between friends: warm, sincere in feeling, vague in plan.",
       },
       {
@@ -244,12 +244,12 @@ export const PT_C2_U11: Lesson[] = [
         heading: "Understatement as criticism",
         body: [
           "Brazilians rarely say a thing is ugly, bad or boring to the face of the person responsible. They choose a neutral word and let the pause do the work. \"É... diferente\" (it's... different), said of a haircut, means the speaker doesn't like it. \"Interessante\", with a flat tone and no follow-up, means unconvinced. \"É uma escolha\" (it's a choice) and \"é bem a sua cara\" (it's very you) can be compliments or quiet verdicts, depending on the face that says them.",
-          "The signal is what's missing. Real enthusiasm in Brazil is loud and specific: \"Nossa, ficou lindo! Amei a cor!\" A one-word adjective, a hesitation marked by \"é...\" or \"hum\", and no exclamation is the polite form of a negative opinion. English speakers raised on 'interesting' as faint praise will recognise the mechanism; the difference is that Brazilian enthusiasm sets a higher baseline, so falling short of it says more.",
+          "The signal is what's missing. Real enthusiasm in Brazil is loud and specific: \"Nossa, ficou lindo! Amei a cor!\" A one-word adjective, a hesitation marked by \"é...\" or \"hum\", and no exclamation is the polite form of a negative opinion. English speakers raised on 'interesting' as faint praise will recognize the mechanism; the difference is that Brazilian enthusiasm sets a higher baseline, so falling short of it says more.",
           "Tone words like \"bem\" and \"meio\" sharpen the effect: \"tá meio estranho\" (it's a bit odd) is already strong criticism. \"Não é bem o que eu imaginei\" (it's not quite what I pictured) is a polite way to say it's wrong.",
         ],
         examples: [
           { es: "Cortei o cabelo. Gostou? — É... diferente.", en: "I got my hair cut. Do you like it? — It's... different." },
-          { es: "Nossa, ficou lindo! Amei a cor!", en: "Wow, it looks gorgeous! I love the colour!" },
+          { es: "Nossa, ficou lindo! Amei a cor!", en: "Wow, it looks gorgeous! I love the color!" },
           { es: "O roteiro do filme é... interessante.", en: "The film's script is... interesting." },
           { es: "O sofá novo tá meio estranho nessa sala.", en: "The new sofa looks a bit odd in this room." },
           { es: "Não é bem o que eu imaginei para a capa.", en: "It's not quite what I pictured for the cover." },
@@ -271,7 +271,7 @@ export const PT_C2_U11: Lesson[] = [
             source: "It's not quite what I pictured.",
             answer: "Não é bem o que eu imaginei.",
             altAnswers: ["Não é bem o que imaginei.", "Não é bem o que eu tinha imaginado.", "Não é bem o que eu esperava.", "Não é exatamente o que eu imaginei."],
-            explanation: "\"Não é bem...\" (it's not quite...) is the standard softener for a negative judgement. \"Bem\" here means exactly, not well.",
+            explanation: "\"Não é bem...\" (it's not quite...) is the standard softener for a negative judgment. \"Bem\" here means exactly, not well.",
           },
           {
             type: "fill-blank",
@@ -349,7 +349,7 @@ export const PT_C2_U11: Lesson[] = [
             source: "She saw the message and didn't reply.",
             answer: "Ela visualizou e não respondeu.",
             altAnswers: ["Ela visualizou a mensagem e não respondeu.", "Ela viu a mensagem e não respondeu.", "Ela leu a mensagem e não respondeu.", "Ela visualizou e não me respondeu.", "Ela leu e não respondeu."],
-            explanation: "\"Visualizar\" is the WhatsApp verb for seeing a message (the blue ticks). \"Visualizou e não respondeu\" is a whole social genre in Brazil, usually read as a snub.",
+            explanation: "\"Visualizar\" is the WhatsApp verb for seeing a message (the blue check marks). \"Visualizou e não respondeu\" is a whole social genre in Brazil, usually read as a snub.",
           },
           {
             type: "multiple-choice",
@@ -382,7 +382,7 @@ export const PT_C2_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Wow, it looks gorgeous! I love the colour!",
+        source: "Wow, it looks gorgeous! I love the color!",
         answer: "Nossa, ficou lindo! Amei a cor!",
         altAnswers: ["Nossa, ficou linda! Amei a cor!", "Nossa, ficou lindo! Adorei a cor!", "Nossa, ficou linda! Adorei a cor!", "Nossa, está lindo! Amei a cor!", "Nossa, tá lindo! Amei a cor!"],
         explanation: "Real Brazilian praise is loud and specific: \"nossa\", \"ficou lindo\", and a detail (\"a cor\"). \"Amei\" and \"adorei\" use the past where English uses the present.",
@@ -423,7 +423,7 @@ export const PT_C2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend posts photos of her new flat. You think the decoration is awful. Which reply is the most natural Brazilian way to be kind without lying?",
+        question: "Your friend posts photos of her new apartment. You think the decoration is awful. Which reply is the most natural Brazilian way to be kind without lying?",
         options: ["Que luz linda nesse apartamento! Parabéns pela casa nova!", "A decoração é horrível.", "É... diferente.", "Normal."],
         correctIndex: 0,
         explanation: "Praising a real detail (the light) and the occasion (the new home) is warm and honest. \"É... diferente\" and \"normal\" would be read as criticism, and the bald truth would wound.",
@@ -433,7 +433,7 @@ export const PT_C2_U11: Lesson[] = [
         question: "What does \"Interessante...\" usually mean when said flatly after you explain a business idea?",
         options: ["The listener is unconvinced.", "The listener is fascinated.", "The listener wants to invest.", "The listener didn't hear you."],
         correctIndex: 0,
-        explanation: "Flat \"interessante\" with no follow-up question is polite scepticism, as in English. Real interest asks for more: \"Nossa, como assim? Me conta mais!\"",
+        explanation: "Flat \"interessante\" with no follow-up question is polite skepticism, as in English. Real interest asks for more: \"Nossa, como assim? Me conta mais!\"",
       },
       {
         type: "listen-choose",
@@ -531,7 +531,7 @@ export const PT_C2_U11: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Your guest says \"Nossa, tá um calor aqui, né?\" What do they most likely want?",
-            options: ["For you to open a window or turn on the fan.", "To talk about the weather.", "To go home.", "To complain about your flat."],
+            options: ["For you to open a window or turn on the fan.", "To talk about the weather.", "To go home.", "To complain about your apartment."],
             correctIndex: 0,
             explanation: "A remark about discomfort, plus \"né?\", is a request in disguise. The host is expected to act on it.",
           },
@@ -692,7 +692,7 @@ export const PT_C2_U11: Lesson[] = [
     slug: "c2-indirect-criticism",
     level: "PT-C2",
     number: 4,
-    title: "Criticising Without Wounding",
+    title: "Criticizing Without Wounding",
     summary: "Point out problems the Brazilian way (não sei se você reparou, talvez valha a pena rever, só um detalhe, de repente seria legal) and build the compliment sandwich.",
     duration: "18 min",
     kind: "teach",
@@ -743,14 +743,14 @@ export const PT_C2_U11: Lesson[] = [
         heading: "The compliment sandwich",
         body: [
           "The structure is familiar from management courses, but in Brazil it's simply good manners: praise, softened criticism, praise. \"Ficou muito bom! Só um detalhe: o slide três está um pouco cheio. Mas a conclusão tá excelente.\" The first slice has to be genuine and specific, or the listener hears the criticism coming.",
-          "The linking words matter. \"Só\" (just) and \"um pouco\" (a little) keep the middle slice small. \"Mas\" after the praise is dangerous, because it cancels what came before (\"ficou ótimo, mas...\"), so Brazilians often prefer a full stop and \"só um detalhe\" or \"uma sugestão\". Finishing with an offer of help (\"se quiser, eu te ajudo\") turns the critique into collaboration.",
+          "The linking words matter. \"Só\" (just) and \"um pouco\" (a little) keep the middle slice small. \"Mas\" after the praise is dangerous, because it cancels what came before (\"ficou ótimo, mas...\"), so Brazilians often prefer a period and \"só um detalhe\" or \"uma sugestão\". Finishing with an offer of help (\"se quiser, eu te ajudo\") turns the critique into collaboration.",
           "Receiving criticism has its formulas too. \"Valeu pelo toque!\" (thanks for the heads-up) and \"Boa, nem tinha visto!\" (good catch, I hadn't even seen it) close the moment gracefully. Defending yourself at length implies the critic was wrong to speak, and will make them less willing to help next time.",
         ],
         examples: [
           { es: "Ficou muito bom! Só um detalhe: o slide três está um pouco cheio.", en: "This is really good! Just one thing: slide three is a bit crowded." },
           { es: "Mas a conclusão tá excelente, parabéns.", en: "But the conclusion is excellent, well done." },
           { es: "Uma sugestão: que tal começar pelos resultados?", en: "One suggestion: how about starting with the results?" },
-          { es: "Se quiser, eu te ajudo a reorganizar.", en: "If you like, I'll help you reorganise it." },
+          { es: "Se quiser, eu te ajudo a reorganizar.", en: "If you like, I'll help you reorganize it." },
           { es: "Valeu pelo toque! Nem tinha visto.", en: "Thanks for the heads-up! I hadn't even noticed." },
           { es: "Boa! Vou corrigir agora mesmo.", en: "Good catch! I'll fix it right now." },
         ],
@@ -774,7 +774,7 @@ export const PT_C2_U11: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "If you like, [I'll help you] reorganise it.",
+            en: "If you like, [I'll help you] reorganize it.",
             sentence: "Se quiser, ___ a reorganizar.",
             answer: "eu te ajudo",
             altAnswers: ["te ajudo", "eu ajudo você", "eu posso te ajudar", "posso te ajudar"],
@@ -783,10 +783,10 @@ export const PT_C2_U11: Lesson[] = [
         ],
       },
       {
-        heading: "Questions that criticise",
+        heading: "Questions that criticize",
         body: [
           "A question is the gentlest critique of all, because it lets the other person find the problem themselves. \"Será que não seria melhor mandar amanhã?\" (wouldn't it be better to send it tomorrow?) means 'don't send it today'. \"Você não acha que ficou um pouco longo?\" (don't you think it's a bit long?) means 'cut it'. \"E se a gente tentasse de outro jeito?\" (what if we tried another way?) uses \"e se\" + imperfect subjunctive to propose an alternative without rejecting the first one.",
-          "With superiors, the question form is often the only acceptable one. \"Posso fazer uma sugestão?\" asks permission to criticise, and \"Não sei se faz sentido, mas...\" (I don't know if this makes sense, but...) lowers your own status before you raise a point.",
+          "With superiors, the question form is often the only acceptable one. \"Posso fazer uma sugestão?\" asks permission to criticize, and \"Não sei se faz sentido, mas...\" (I don't know if this makes sense, but...) lowers your own status before you raise a point.",
           "Diminutives soften content as well as form: \"um errinho\" (a tiny mistake), \"uma coisinha\", \"um pouquinho\". The trap is irony: an exaggerated diminutive (\"só um errinho de vinte páginas\") becomes sarcasm, which is the opposite of tact.",
         ],
         examples: [
@@ -934,7 +934,7 @@ export const PT_C2_U11: Lesson[] = [
         ],
         examples: [
           { es: "Que vestido lindo! — Imagina, é velhinho.", en: "What a beautiful dress! — Oh, please, it's an old thing." },
-          { es: "Nossa, que tênis bonito! — Que nada, foi baratinho.", en: "Wow, nice trainers! — Oh, not at all, they were cheap." },
+          { es: "Nossa, que tênis bonito! — Que nada, foi baratinho.", en: "Wow, nice sneakers! — Oh, not at all, they were cheap." },
           { es: "Comprei na promoção, acredita?", en: "I got it on sale, can you believe it?" },
           { es: "Essa feijoada tá divina! — Ah, foi bem simples.", en: "This feijoada is divine! — Oh, it was really simple." },
           { es: "Seu português é ótimo! — Bondade sua, ainda erro muito.", en: "Your Portuguese is great! — That's kind of you, I still make lots of mistakes." },
@@ -1013,13 +1013,13 @@ export const PT_C2_U11: Lesson[] = [
       {
         heading: "When a plain obrigado or obrigada is better",
         body: [
-          "Deflection is for friends, family and social life. At work the ritual changes. If your manager says your report was excellent, \"Imagina, foi baratinho\" makes no sense, and \"que nada\" can sound as if you disagree with her judgement. The right answer is a clear thank-you with a little shared credit: \"Obrigada! A equipe toda se dedicou muito.\"",
-          "Formal praise, such as a prize, a speech of thanks or a recommendation letter, calls for \"Muito obrigado, fico muito honrado\" (I'm very honoured) or \"Agradeço muito as palavras\" (thank you for your kind words). In job interviews and evaluations, accepting a compliment with quiet confidence is expected.",
+          "Deflection is for friends, family and social life. At work the ritual changes. If your manager says your report was excellent, \"Imagina, foi baratinho\" makes no sense, and \"que nada\" can sound as if you disagree with her judgment. The right answer is a clear thank-you with a little shared credit: \"Obrigada! A equipe toda se dedicou muito.\"",
+          "Formal praise, such as a prize, a speech of thanks or a recommendation letter, calls for \"Muito obrigado, fico muito honrado\" (I'm very honored) or \"Agradeço muito as palavras\" (thank you for your kind words). In job interviews and evaluations, accepting a compliment with quiet confidence is expected.",
           "The opposite error is accepting too baldly in social life. \"Eu sei\" (I know) in reply to \"você cozinha muito bem\" sounds arrogant in Brazil, even as a joke with someone you don't know well. \"Ah, obrigado! Eu adoro cozinhar\" accepts the praise by talking about pleasure rather than talent, a useful middle path.",
         ],
         examples: [
           { es: "Obrigada! A equipe toda se dedicou muito.", en: "Thank you! The whole team worked really hard." },
-          { es: "Muito obrigado, fico muito honrado.", en: "Thank you very much, I'm very honoured." },
+          { es: "Muito obrigado, fico muito honrado.", en: "Thank you very much, I'm very honored." },
           { es: "Agradeço muito as palavras.", en: "Thank you for your kind words." },
           { es: "Ah, obrigado! Eu adoro cozinhar.", en: "Oh, thanks! I love cooking." },
         ],
@@ -1035,7 +1035,7 @@ export const PT_C2_U11: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese (a formal speech of thanks).",
-            source: "Thank you very much, I'm very honoured.",
+            source: "Thank you very much, I'm very honored.",
             answer: "Muito obrigado, fico muito honrado.",
             altAnswers: ["Muito obrigada, fico muito honrada.", "Muito obrigado, estou muito honrado.", "Muito obrigada, estou muito honrada.", "Muito obrigado, é uma honra.", "Muito obrigada, é uma honra.", "Muito obrigado, me sinto muito honrado.", "Muito obrigada, me sinto muito honrada."],
             explanation: "\"Honrado\" agrees with the speaker, like \"obrigado\": a woman says \"obrigada\" and \"honrada\". \"Fico honrado\" is the most idiomatic.",
@@ -1057,10 +1057,10 @@ export const PT_C2_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, deflecting the compliment.",
-        source: "Wow, nice trainers! — Oh, not at all, they were cheap.",
+        source: "Wow, nice sneakers! — Oh, not at all, they were cheap.",
         answer: "Nossa, que tênis bonito! — Que nada, foi baratinho.",
         altAnswers: ["Nossa, que tênis lindo! — Que nada, foi baratinho.", "Nossa, que tênis bonito! — Imagina, foi baratinho.", "Nossa, que tênis legal! — Que nada, foi baratinho.", "Nossa, que tênis bonito! — Que nada, foi bem baratinho.", "Que tênis bonito! — Que nada, foi baratinho."],
-        explanation: "\"Tênis\" is singular in Portuguese (with a circumflex), so \"foi baratinho\" agrees with it. Downgrading the price is the commonest deflection.",
+        explanation: "\"Tênis\" is invariable, and a pair of sneakers is one \"tênis\" (singular), so \"foi baratinho\" agrees with it. Downgrading the price is the commonest deflection.",
       },
       {
         type: "translate",
@@ -1078,7 +1078,7 @@ export const PT_C2_U11: Lesson[] = [
         source: "I got it on sale, can you believe it?",
         answer: "Comprei na promoção, acredita?",
         altAnswers: ["Eu comprei na promoção, acredita?", "Comprei na promoção, dá para acreditar?", "Comprei na promoção, você acredita?", "Eu comprei na promoção, você acredita?", "Comprei em promoção, acredita?"],
-        explanation: "\"Na promoção\" (on sale) is a favourite deflection, and \"acredita?\" invites the listener into a little shared pleasure at the bargain.",
+        explanation: "\"Na promoção\" (on sale) is a favorite deflection, and \"acredita?\" invites the listener into a little shared pleasure at the bargain.",
       },
       {
         type: "fill-blank",
@@ -1239,7 +1239,7 @@ export const PT_C2_U11: Lesson[] = [
       {
         heading: "Comforting without clichés, and breaking hard news",
         body: [
-          "Some well-meant phrases hurt. \"Foi melhor assim\" (it was for the best) and \"Deus quis assim\" (God wanted it this way) can sound dismissive unless the family says them first. \"Eu sei como você se sente\" (I know how you feel) rarely helps. Better to name the person and a memory: \"A sua mãe era uma pessoa incrível. Nunca vou esquecer o bolo de fubá dela.\" Specific memories comfort; generalisations don't.",
+          "Some well-meant phrases hurt. \"Foi melhor assim\" (it was for the best) and \"Deus quis assim\" (God wanted it this way) can sound dismissive unless the family says them first. \"Eu sei como você se sente\" (I know how you feel) rarely helps. Better to name the person and a memory: \"A sua mãe era uma pessoa incrível. Nunca vou esquecer o bolo de fubá dela.\" Specific memories comfort; generalizations don't.",
           "Illness has its own phrases: \"Melhoras!\" (get well soon), \"Estimo melhoras\" (formal), \"Fica bom logo\" (casual). Never offer condolences while someone is still alive, and never use \"pêsames\" for anything but a death.",
           "Breaking bad news is prepared with a frame: \"Senta aqui um pouquinho\" (sit down for a moment), \"Infelizmente eu tenho uma notícia ruim\" (unfortunately I have bad news), \"Não sei nem como te dizer isso\" (I don't even know how to tell you this). Then say it plainly. Euphemism belongs in the frame, not the news: \"ele faleceu\" (he passed away) is clear and respectful, while \"partiu\" or \"nos deixou\" (he left us) are gentler and common in messages.",
         ],
@@ -1248,7 +1248,7 @@ export const PT_C2_U11: Lesson[] = [
           { es: "Melhoras! Qualquer coisa, me avisa.", en: "Get well soon! Let me know if you need anything." },
           { es: "Senta aqui um pouquinho. Infelizmente eu tenho uma notícia ruim.", en: "Sit down here for a moment. Unfortunately I have some bad news." },
           { es: "Não sei nem como te dizer isso.", en: "I don't even know how to tell you this." },
-          { es: "O seu Antônio faleceu ontem à noite.", en: "Mr Antônio passed away last night." },
+          { es: "O seu Antônio faleceu ontem à noite.", en: "Mr. Antônio passed away last night." },
         ],
         checkpoint: [
           {
@@ -1263,7 +1263,7 @@ export const PT_C2_U11: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Mr Antônio [passed away] last night.",
+            en: "Mr. Antônio [passed away] last night.",
             sentence: "O seu Antônio ___ ontem à noite.",
             answer: "faleceu",
             altAnswers: ["morreu", "partiu", "nos deixou"],
@@ -1273,7 +1273,7 @@ export const PT_C2_U11: Lesson[] = [
             type: "speak",
             text: "Meus sentimentos. A sua mãe era uma pessoa incrível.",
             prompt: "Offer condolences. Say it in Portuguese: I'm so sorry. Your mother was an amazing person.",
-            tip: "Keep the voice low and slow; \"sentimentos\" has three nasal syllables: sen-chi-MEN-tus.",
+            tip: "Keep the voice low and slow; \"sentimentos\" has two nasal syllables, sen and men: sen-chi-MEN-tus.",
             explanation: "The formula plus one sincere, specific sentence about the person is the best condolence of all.",
           },
         ],
@@ -1340,7 +1340,7 @@ export const PT_C2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend's grandmother has been admitted to hospital. What do you write?",
+        question: "Your friend's grandmother has been admitted to the hospital. What do you write?",
         options: ["Que ela melhore logo! Tô torcendo por vocês.", "Meus pêsames.", "Meus sentimentos a toda a família.", "Que Deus a tenha."],
         correctIndex: 0,
         explanation: "For illness, wish recovery: \"que ela melhore logo\" (subjunctive of wishing). The other three are for a death; \"que Deus a tenha\" means may God keep her (in heaven).",
@@ -1424,7 +1424,7 @@ export const PT_C2_U11: Lesson[] = [
         heading: "Fico no aguardo and the art of the follow-up",
         body: [
           "\"Fico no aguardo\" (I await your reply) ends countless Brazilian emails. On its own it's polite and neutral. After a deadline, or with \"do seu retorno\" and a date, it means 'hurry up'. \"Aguardo retorno com urgência\" removes the politeness altogether. \"Alguma novidade?\" (any news?) and \"Conseguiu ver?\" (did you get a chance to look?) are the gentle WhatsApp versions.",
-          "Courtesy formulas can also be weaponised. \"Por gentileza\" and \"Peço a gentileza de...\" (I kindly ask you to...) are civil, but stacked on top of a reminder they sound icy. Ending with a full stop matters on WhatsApp: \"Ok.\" with a period sounds cold, while \"Ok!\", \"Tranquilo!\" or \"Combinado 👍\" sound friendly.",
+          "Courtesy formulas can also be weaponized. \"Por gentileza\" and \"Peço a gentileza de...\" (I kindly ask you to...) are civil, but stacked on top of a reminder they sound icy. Ending with a period matters on WhatsApp: \"Ok.\" with a period sounds cold, while \"Ok!\", \"Tranquilo!\" or \"Combinado 👍\" sound friendly.",
           "WhatsApp groups add their own genres. \"Bom dia, pessoal! Só passando para lembrar...\" (just popping in to remind you...) is the group admin's reproach, and a message to the whole group \"quem ainda não pagou a vaquinha, por favor...\" names nobody and everybody. Silence after a direct question in a group is the strongest message of all.",
         ],
         examples: [
@@ -1456,7 +1456,7 @@ export const PT_C2_U11: Lesson[] = [
           {
             type: "listen-choose",
             audio: "Ok.",
-            question: "Your manager replies to your long WhatsApp explanation with just this, and a full stop. How is it most likely to be read?",
+            question: "Your manager replies to your long WhatsApp explanation with just this, and a period. How is it most likely to be read?",
             options: ["Cold or displeased.", "Very enthusiastic.", "Confused.", "Grateful."],
             correctIndex: 0,
             explanation: "A bare \"Ok.\" with a period reads as curt in Brazilian messaging. A warm reply would be \"Ok, obrigada!\" or \"Combinado!\"",
@@ -1466,7 +1466,7 @@ export const PT_C2_U11: Lesson[] = [
       {
         heading: "Replying calmly to subtext",
         body: [
-          "The professional reply ignores the sting and answers the substance: acknowledge, apologise briefly if you were late, give a concrete date. \"Obrigado pelo lembrete! Envio até as 15h.\" (thanks for the reminder, I'll send it by 3 p.m.) and \"Peço desculpas pela demora; segue o arquivo.\" (apologies for the delay; please find the file attached) end the exchange with the upper hand.",
+          "The professional reply ignores the sting and answers the substance: acknowledge, apologize briefly if you were late, give a concrete date. \"Obrigado pelo lembrete! Envio até as 15h.\" (thanks for the reminder, I'll send it by 3 p.m.) and \"Peço desculpas pela demora; segue o arquivo.\" (apologies for the delay; please find the file attached) end the exchange with the upper hand.",
           "Replying to subtext with open anger, such as \"Eu li, não precisa repetir!!!\" or \"Por que você copiou meu chefe?\", turns a polite reproach into a public conflict that you lose. If something needs saying, move it to a call: \"Podemos conversar rapidinho por telefone?\" (can we have a quick chat on the phone?).",
           "You can also defuse a cold message by warming the next one: \"Perfeito, obrigado por reforçar! Já está na minha agenda 😊\". The emoji is normal in Brazilian work WhatsApp, less so in email. Matching coldness with coldness, as in \"Ciente.\" (noted), is legitimate in formal correspondence, but in a friendly team it escalates.",
         ],
@@ -1492,7 +1492,7 @@ export const PT_C2_U11: Lesson[] = [
             question: "Your client writes \"Conforme já informado, aguardo o contrato assinado.\" What's the best reply?",
             options: ["Bom dia! Peço desculpas pela demora; envio o contrato assinado até amanhã às 12h.", "Eu sei, você já falou isso três vezes.", "Ok.", "Por que o tom agressivo?"],
             correctIndex: 0,
-            explanation: "Acknowledge, apologise briefly, commit to a time. The other replies react to the tone and escalate the conflict, or sound curt.",
+            explanation: "Acknowledge, apologize briefly, commit to a time. The other replies react to the tone and escalate the conflict, or sound curt.",
           },
           {
             type: "speak",
@@ -1555,12 +1555,12 @@ export const PT_C2_U11: Lesson[] = [
         prompt: "Put the words in order to say: Apologies for the delay; please find the file attached.",
         words: ["Peço", "desculpas", "pela", "demora;", "segue", "o", "arquivo."],
         translation: "Apologies for the delay; please find the file attached.",
-        explanation: "\"Pedir desculpas por\" (to apologise for) contracts to \"pela demora\". Then \"segue\" + the attachment.",
+        explanation: "\"Pedir desculpas por\" (to apologize for) contracts to \"pela demora\". Then \"segue\" + the attachment.",
       },
       {
         type: "multiple-choice",
         question: "A colleague forwards your late report to your manager \"com cópia\" and writes \"Segue novamente, conforme já solicitado.\" What has happened?",
-        options: ["She's escalating: showing your manager that she had to ask more than once.", "She's praising your report to the manager.", "She's asking the manager for help with her own work.", "She's apologising for a delay."],
+        options: ["She's escalating: showing your manager that she had to ask more than once.", "She's praising your report to the manager.", "She's asking the manager for help with her own work.", "She's apologizing for a delay."],
         correctIndex: 0,
         explanation: "Copying the boss plus \"novamente\" and \"conforme já solicitado\" is a polite escalation. The calm move is to reply with the report and a short apology.",
       },
@@ -1661,7 +1661,7 @@ export const PT_C2_U11: Lesson[] = [
           { es: "Te ligo às oito. — Tá bom!", en: "I'll call you at eight. — OK!" },
           { es: "Tá bom... faz do seu jeito.", en: "Fine... do it your way." },
           { es: "Eu nunca minto. — Tá bom, e eu sou o Papai Noel.", en: "I never lie. — Yeah, right, and I'm Santa Claus." },
-          { es: "Ele disse que estava doente. — Sei...", en: "He said he was ill. — Sure he was..." },
+          { es: "Ele disse que estava doente. — Sei...", en: "He said he was sick. — Sure he was..." },
         ],
         checkpoint: [
           {
@@ -1670,8 +1670,8 @@ export const PT_C2_U11: Lesson[] = [
             prompt: "Translate into Portuguese, using \"imagina se\".",
             source: "As if he'd help.",
             answer: "Imagina se ele ia ajudar.",
-            altAnswers: ["Imagina se ele fosse ajudar.", "Imagina se ele ajudaria.", "Imagina se ele ajudasse.", "Imagina se ele ia ajudar!", "Imagina que ele ia ajudar."],
-            explanation: "\"Imagina se\" + imperfect (\"ia ajudar\") or imperfect subjunctive (\"fosse ajudar\") dismisses an idea as absurd. Without \"se\", \"imagina!\" is just modest.",
+            altAnswers: ["Imagina se ele fosse ajudar.", "Imagina se ele ajudasse.", "Imagina se ele ia ajudar!", "Imagine se ele fosse ajudar."],
+            explanation: "\"Imagina se\" + imperfect (\"ia ajudar\") or imperfect subjunctive (\"fosse ajudar\") dismisses an idea as absurd; the imperfect is the everyday spoken choice, the subjunctive the careful one. It must be \"se\", not \"que\", and without \"se\", \"imagina!\" is just modest.",
           },
           {
             type: "multiple-choice",
@@ -1693,7 +1693,7 @@ export const PT_C2_U11: Lesson[] = [
         heading: "Cues on the screen: emoji, kkk and punctuation",
         body: [
           "In writing, irony needs help. Brazilians use the upside-down face 🙃 for 'great, just great', and the plain smile 🙂 is often read as passive-aggressive, especially by younger users, so \"Ok 🙂\" can sound tense. Laughter matters too: \"kkkk\" after a remark marks it as a joke, while \"rsrs\" is milder and older-fashioned.",
-          "Punctuation adds tone. A sentence with only a full stop, such as \"Parabéns.\", sounds cold or ironic in a chat. \"Parabéns!!! 🎉\" with exclamations and confetti is sincere. Quotation marks around a word signal scorn: \"o 'especialista' chegou\" (the so-called expert has arrived).",
+          "Punctuation adds tone. A sentence with only a period, such as \"Parabéns.\", sounds cold or ironic in a chat. \"Parabéns!!! 🎉\" with exclamations and confetti is sincere. Quotation marks around a word signal scorn: \"o 'especialista' chegou\" (the so-called expert has arrived).",
           "When you can't tell, ask lightly rather than guess: \"Isso foi ironia? kkk\" (was that irony?). And if you want your own words read straight, add warmth: \"Que ótimo, sério! Fico muito feliz por você.\" The word \"sério\" (seriously) is a sincerity marker.",
         ],
         examples: [
@@ -1727,7 +1727,7 @@ export const PT_C2_U11: Lesson[] = [
             sentence: "___? kkk",
             answer: "Isso foi ironia",
             altAnswers: ["Foi ironia", "Isso é ironia", "É ironia"],
-            explanation: "Brazilians use \"ironia\" for sarcasm in everyday speech. Asking lightly, with \"kkk\", avoids taking offence where none was meant.",
+            explanation: "Brazilians use \"ironia\" for sarcasm in everyday speech. Asking lightly, with \"kkk\", avoids taking offense where none was meant.",
           },
         ],
       },
@@ -1772,7 +1772,7 @@ export const PT_C2_U11: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "He said he was ill. — [Sure he was]...",
+        en: "He said he was sick. — [Sure he was]...",
         sentence: "Ele disse que estava doente. — ___...",
         answer: "Sei",
         altAnswers: ["Sei, sei", "Tá bom", "Sei não"],
@@ -1780,17 +1780,17 @@ export const PT_C2_U11: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say (scornfully): As if she'd apologise.",
+        prompt: "Put the words in order to say (scornfully): As if she'd apologize.",
         words: ["Imagina", "se", "ela", "fosse", "pedir", "desculpas."],
-        translation: "As if she'd apologise.",
+        translation: "As if she'd apologize.",
         explanation: "\"Imagina se\" + imperfect subjunctive (\"fosse pedir\") presents the idea as unthinkable.",
       },
       {
         type: "multiple-choice",
-        question: "Your sister texts \"Parabéns.\" with just a full stop after you tell her you've crashed her car. How is it meant?",
+        question: "Your sister texts \"Parabéns.\" with just a period after you tell her you've crashed her car. How is it meant?",
         options: ["Ironically, and coldly.", "Sincerely.", "As a birthday greeting.", "As a joke she's enjoying."],
         correctIndex: 0,
-        explanation: "Praise about bad news, with a bare full stop, is cold irony. Sincere congratulations come with exclamations and warmth.",
+        explanation: "Praise about bad news, with a bare period, is cold irony. Sincere congratulations come with exclamations and warmth.",
       },
       {
         type: "multiple-choice",
@@ -1839,7 +1839,7 @@ export const PT_C2_U11: Lesson[] = [
         heading: "Scene 1: Arriving late",
         body: [
           "It's Dona Regina's sixty-fifth birthday in Curitiba. Her daughter Camila and son-in-law Thiago arrive forty minutes late, carrying a cake from a bakery. Dona Regina greets them with a smile and a dig: \"Ah, vocês vieram! Achei que não vinham mais\" (oh, you came! I thought you weren't coming). The imperfect \"vinham\" makes it sound like a past thought, but everyone hears the reproach.",
-          "Her second remark targets the cake: \"Bolo de padaria, que prático! Hoje em dia ninguém tem tempo de fazer, né?\" Praise for practicality is a gentle criticism of not baking. Thiago could defend himself; instead he apologises lightly and changes the frame with a compliment: \"Desculpa a demora, Dona Regina! A senhora está ótima, nem parece que tá fazendo sessenta e cinco.\"",
+          "Her second remark targets the cake: \"Bolo de padaria, que prático! Hoje em dia ninguém tem tempo de fazer, né?\" Praise for practicality is a gentle criticism of not baking. Thiago could defend himself; instead he apologizes lightly and changes the frame with a compliment: \"Desculpa a demora, Dona Regina! A senhora está ótima, nem parece que tá fazendo sessenta e cinco.\"",
           "Dona Regina deflects, as expected: \"Imagina, é a maquiagem.\" But she's pleased. Notice how Thiago uses \"a senhora\" with his mother-in-law: in many Brazilian families, sons- and daughters-in-law keep this respectful form for years.",
         ],
         examples: [
@@ -1847,8 +1847,8 @@ export const PT_C2_U11: Lesson[] = [
           { es: "Bolo de padaria, que prático! Hoje em dia ninguém tem tempo de fazer, né?", en: "Dona Regina: A bakery cake, how practical! Nobody has time to bake these days, do they?" },
           { es: "Desculpa a demora, Dona Regina!", en: "Thiago: Sorry we're late, Dona Regina!" },
           { es: "A senhora está ótima, nem parece que tá fazendo sessenta e cinco.", en: "Thiago: You look wonderful, nobody would think you're turning sixty-five." },
-          { es: "Imagina, é a maquiagem.", en: "Dona Regina: Oh, please, it's the make-up." },
-          { es: "O trânsito tava impossível, mãe.", en: "Camila: The traffic was impossible, Mum." },
+          { es: "Imagina, é a maquiagem.", en: "Dona Regina: Oh, please, it's the makeup." },
+          { es: "O trânsito tava impossível, mãe.", en: "Camila: The traffic was impossible, Mom." },
         ],
         checkpoint: [
           {
@@ -1882,7 +1882,7 @@ export const PT_C2_U11: Lesson[] = [
         heading: "Scene 2: Hints around the table",
         body: [
           "At the table, the hints multiply. Tia Neusa, sitting by the window, says \"Nossa, que ventinho gelado, né?\" (what a chilly little breeze) and Thiago jumps up: \"Quer que eu feche a janela, tia?\". She accepts with \"Ai, se não for incômodo...\" (if it's no trouble), the standard way to accept an offer you prompted.",
-          "Then comes the dig every Brazilian couple knows: \"E os netos, hein? Quando vêm?\" (and the grandchildren? When are they coming?). Camila deflects with humour and a topic change: \"Calma, mãe, um passo de cada vez! Alguém quer mais salgadinho?\". Dona Regina's sister helps with \"Deixa os meninos, Regina\" (leave the kids alone).",
+          "Then comes the dig every Brazilian couple knows: \"E os netos, hein? Quando vêm?\" (and the grandchildren? When are they coming?). Camila deflects with humor and a topic change: \"Calma, mãe, um passo de cada vez! Alguém quer mais salgadinho?\". Dona Regina's sister helps with \"Deixa os meninos, Regina\" (leave the kids alone).",
           "Finally Dona Regina compares sons-in-law: \"O Marcos trouxe flores ontem, tão atencioso...\". Thiago doesn't compete. He compliments the absent rival (\"O Marcos é muito atencioso mesmo\") and adds his own gesture: \"E eu trouxe o meu violão para tocar parabéns para a senhora.\" Praising a rival generously is the most disarming reply to a comparison.",
         ],
         examples: [
@@ -1890,7 +1890,7 @@ export const PT_C2_U11: Lesson[] = [
           { es: "Quer que eu feche a janela, tia?", en: "Thiago: Shall I close the window, auntie?" },
           { es: "Ai, se não for incômodo...", en: "Tia Neusa: Oh, if it's no trouble..." },
           { es: "E os netos, hein? Quando vêm?", en: "Dona Regina: And what about grandchildren? When are they coming?" },
-          { es: "Calma, mãe, um passo de cada vez! Alguém quer mais salgadinho?", en: "Camila: Easy, Mum, one step at a time! Anyone want more snacks?" },
+          { es: "Calma, mãe, um passo de cada vez! Alguém quer mais salgadinho?", en: "Camila: Easy, Mom, one step at a time! Anyone want more snacks?" },
           { es: "O Marcos é muito atencioso mesmo. E eu trouxe o meu violão para tocar parabéns para a senhora.", en: "Thiago: Marcos really is very thoughtful. And I've brought my guitar to play happy birthday for you." },
         ],
         checkpoint: [
@@ -1918,28 +1918,28 @@ export const PT_C2_U11: Lesson[] = [
             question: "What is Camila doing?",
             options: ["Deflecting the question about grandchildren and changing the subject.", "Announcing a pregnancy.", "Asking her mother to serve the food.", "Complaining about the snacks."],
             correctIndex: 0,
-            explanation: "Humour (\"um passo de cada vez\") plus an abrupt offer of food closes the subject without confrontation.",
+            explanation: "Humor (\"um passo de cada vez\") plus an abrupt offer of food closes the subject without confrontation.",
           },
         ],
       },
       {
         heading: "Scene 3: Leaving, and the real invitation",
         body: [
-          "At nine, Camila looks at Thiago and says \"Amor, amanhã você acorda cedo, né?\" Thiago, who has the day off, understands at once: it's time to go. The hint is aimed at him, but it's also announced to the room, so the host can't take offence.",
+          "At nine, Camila looks at Thiago and says \"Amor, amanhã você acorda cedo, né?\" Thiago, who has the day off, understands at once: it's time to go. The hint is aimed at him, but it's also announced to the room, so the host can't take offense.",
           "Goodbyes are long in Brazil. Dona Regina insists once, \"Já vão? Fica mais um pouquinho!\" (leaving already? Stay a bit longer!), which is part of the ritual, not a real request. Then come the formulas: \"Aparece mais vezes, viu?\" and \"Vamos marcar um almoço\". But then she adds detail: \"Domingo que vem, meio-dia, vou fazer lasanha. Vocês vêm, né? Vou cobrar!\"",
           "Thiago reads the signals: a day, a time, a dish and \"vou cobrar\". This is a real invitation. He answers with commitment, not fog: \"Pode contar com a gente, Dona Regina. E parabéns de novo, viu?\" The party ends with harmony restored by a dozen small acts of tact.",
         ],
         examples: [
           { es: "Amor, amanhã você acorda cedo, né?", en: "Camila: Love, you've got an early start tomorrow, haven't you?" },
           { es: "Já vão? Fica mais um pouquinho!", en: "Dona Regina: Leaving already? Stay a bit longer!" },
-          { es: "Aparece mais vezes, viu?", en: "Dona Regina: Come round more often, won't you?" },
-          { es: "Domingo que vem, meio-dia, vou fazer lasanha. Vocês vêm, né? Vou cobrar!", en: "Dona Regina: Next Sunday, at noon, I'm making lasagne. You'll come, won't you? I'll hold you to it!" },
+          { es: "Aparece mais vezes, viu?", en: "Dona Regina: Come by more often, won't you?" },
+          { es: "Domingo que vem, meio-dia, vou fazer lasanha. Vocês vêm, né? Vou cobrar!", en: "Dona Regina: Next Sunday, at noon, I'm making lasagna. You'll come, won't you? I'll hold you to it!" },
           { es: "Pode contar com a gente, Dona Regina. E parabéns de novo, viu?", en: "Thiago: You can count on us, Dona Regina. And happy birthday again!" },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Is Dona Regina's lasagne invitation real?",
+            question: "Is Dona Regina's lasagna invitation real?",
             options: ["Yes: it has a day, a time, a dish and \"vou cobrar\".", "No: \"aparece mais vezes\" is just a formula.", "No: she's being ironic.", "It's impossible to tell."],
             correctIndex: 0,
             explanation: "\"Aparece mais vezes\" alone would be a ritual, but the concrete details and \"vou cobrar\" turn this into a real invitation.",
@@ -1971,7 +1971,7 @@ export const PT_C2_U11: Lesson[] = [
         source: "Nobody has time to bake these days, do they?",
         answer: "Hoje em dia ninguém tem tempo de fazer bolo, né?",
         altAnswers: ["Hoje em dia ninguém tem tempo de fazer, né?", "Hoje em dia ninguém tem tempo para fazer bolo, né?", "Hoje em dia ninguém tem tempo pra fazer bolo, né?", "Ninguém tem tempo de fazer bolo hoje em dia, né?", "Hoje em dia ninguém tem tempo de fazer bolo, não é?"],
-        explanation: "A generalisation (\"ninguém\") plus \"né?\" lets Dona Regina criticise without accusing anyone directly.",
+        explanation: "A generalization (\"ninguém\") plus \"né?\" lets Dona Regina criticize without accusing anyone directly.",
       },
       {
         type: "translate",
@@ -1986,10 +1986,10 @@ export const PT_C2_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, as Camila.",
-        source: "Easy, Mum, one step at a time!",
+        source: "Easy, Mom, one step at a time!",
         answer: "Calma, mãe, um passo de cada vez!",
         altAnswers: ["Calma, mãe, uma coisa de cada vez!", "Calma, mãe, um passo por vez!", "Calma, mãe! Um passo de cada vez!"],
-        explanation: "Humour is the softest shield against an intrusive question. \"Um passo de cada vez\" is the fixed phrase.",
+        explanation: "Humor is the softest shield against an intrusive question. \"Um passo de cada vez\" is the fixed phrase.",
       },
       {
         type: "fill-blank",
@@ -2011,9 +2011,9 @@ export const PT_C2_U11: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Come round more often, won't you?",
+        prompt: "Put the words in order to say: Come by more often, won't you?",
         words: ["Aparece", "mais", "vezes,", "viu?"],
-        translation: "Come round more often, won't you?",
+        translation: "Come by more often, won't you?",
         explanation: "\"Viu?\" softens the imperative and adds affection. Alone, \"aparece mais vezes\" is a warm formula, not a date.",
       },
       {
@@ -2038,8 +2038,8 @@ export const PT_C2_U11: Lesson[] = [
       {
         type: "speak",
         text: "Pode contar com a gente, Dona Regina. E parabéns de novo, viu?",
-        prompt: "Accept the lasagne invitation and wish her happy birthday again.",
-        tip: "\"Contar\" has a nasal on: con-TAR. \"Parabéns\" ends in a nasal diphthong: pa-ra-BÉINS.",
+        prompt: "Accept the lasagna invitation and wish her happy birthday again.",
+        tip: "\"Contar\" has a nasal on: con-TAR. \"Parabéns\" ends in a closed nasal diphthong despite the acute accent: pa-ra-BẼINS.",
         explanation: "A clear commitment answers a real invitation; repeating \"parabéns\" at the door is a Brazilian habit.",
       },
       {
@@ -2066,7 +2066,7 @@ export const PT_C2_U11: Lesson[] = [
       {
         heading: "Formulas taken literally, requests too bare",
         body: [
-          "These sentences were written by advanced learners. Most are grammatically fine; the errors are social. First: a colleague says \"vamos marcar um café!\" in the lift, and the learner replies \"Ótimo! Qual dia exatamente? Vou colocar na minha agenda agora.\" Correct Portuguese, wrong reading: the colleague offered warmth, not a meeting. Either match the ritual (\"Vamos, sim!\") or test it lightly (\"Bora! Semana que vem?\").",
+          "These sentences were written by advanced learners. Most are grammatically fine; the errors are social. First: a colleague says \"vamos marcar um café!\" in the elevator, and the learner replies \"Ótimo! Qual dia exatamente? Vou colocar na minha agenda agora.\" Correct Portuguese, wrong reading: the colleague offered warmth, not a meeting. Either match the ritual (\"Vamos, sim!\") or test it lightly (\"Bora! Semana que vem?\").",
           "Second: asked by his manager to stay late on Friday, a learner wrote \"Não.\" The answer is honest and catastrophic. A Brazilian refusal needs regret, circumstance and a counter-offer: \"Poxa, sexta não vai dar, tenho um compromisso. Mas posso chegar mais cedo na segunda.\"",
           "Third, two slips at once: \"Eu quero que você me manda o arquivo hoje.\" The verb after \"querer que\" must be subjunctive (\"mande\"), and \"eu quero que você\" sounds like an order to a colleague. The fix softens the mood and the grammar together: \"Será que daria para você me mandar o arquivo hoje?\"",
         ],
@@ -2098,18 +2098,18 @@ export const PT_C2_U11: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A colleague says \"Vamos marcar um café!\" as the lift doors close. Which reply is natural?",
+            question: "A colleague says \"Vamos marcar um café!\" as the elevator doors close. Which reply is natural?",
             options: ["Vamos, sim! Bora marcar.", "Qual dia exatamente? Vou colocar na agenda agora.", "Não tomo café.", "Por quê?"],
             correctIndex: 0,
-            explanation: "Matching the warmth is right in a passing moment. Pinning down a date in the lift treats a ritual as a plan and can embarrass the speaker.",
+            explanation: "Matching the warmth is right in a passing moment. Pinning down a date in the elevator treats a ritual as a plan and can embarrass the speaker.",
           },
         ],
       },
       {
         heading: "The wrong words for the moment",
         body: [
-          "A learner arrives at a birthday party and says \"Meus pêsames!\", confusing it with \"parabéns\". Both end in a nasal syllable and both are plural, but \"pêsames\" is only for a death. The guests laugh kindly, but it's worth practising: \"Parabéns! Muitas felicidades!\".",
-          "Another writes \"Meus sentimentos\" to a friend whose father is in hospital. Condolences for the living sound like a death sentence: the right wish is \"Melhoras para o seu pai! Tô torcendo por vocês.\" A third sends a client \"Força!\" after a death in his family; between friends it's warm, but in a formal email the register is wrong. Use \"Meus sinceros sentimentos a você e à sua família.\"",
+          "A learner arrives at a birthday party and says \"Meus pêsames!\", confusing it with \"parabéns\". Both are plural set phrases said with feeling, but \"pêsames\" is only for a death. The guests laugh kindly, but it's worth practicing: \"Parabéns! Muitas felicidades!\".",
+          "Another writes \"Meus sentimentos\" to a friend whose father is in the hospital. Condolences for the living sound like a death sentence: the right wish is \"Melhoras para o seu pai! Tô torcendo por vocês.\" A third sends a client \"Força!\" after a death in his family; between friends it's warm, but in a formal email the register is wrong. Use \"Meus sinceros sentimentos a você e à sua família.\"",
           "Praise goes wrong in the other direction. Told \"Que bolsa linda!\", a learner answers \"Sim, eu sei, é muito cara.\" Agreeing with the compliment and boasting about the price breaks two rules at once. A Brazilian would deflect (\"Imagina, foi baratinha\") or accept warmly (\"Ah, obrigada! Gostou mesmo?\").",
         ],
         examples: [
@@ -2124,11 +2124,11 @@ export const PT_C2_U11: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"Meus sentimentos\" to a friend whose father is ill. Translate the right message into Portuguese.",
+            prompt: "A learner wrote \"Meus sentimentos\" to a friend whose father is sick. Translate the right message into Portuguese.",
             source: "I hope your dad gets better soon! I'm rooting for you all.",
             answer: "Melhoras para o seu pai! Tô torcendo por vocês.",
             altAnswers: ["Melhoras para o seu pai! Estou torcendo por vocês.", "Melhoras pro seu pai! Tô torcendo por vocês.", "Melhoras para seu pai! Estou torcendo por vocês.", "Que o seu pai melhore logo! Estou torcendo por vocês.", "Que seu pai melhore logo! Tô torcendo por vocês.", "Que o seu pai melhore logo! Tô torcendo por vocês."],
-            explanation: "\"Melhoras\" is for illness and \"sentimentos\" for death. \"Torcer por\" (to root for) comes from football and is warmly used for health and exams.",
+            explanation: "\"Melhoras\" is for illness and \"sentimentos\" for death. \"Torcer por\" (to root for) comes from sports fandom and is warmly used for health and exams.",
           },
           {
             type: "fill-blank",
@@ -2143,7 +2143,7 @@ export const PT_C2_U11: Lesson[] = [
             type: "listen-choose",
             audio: "Parabéns! Muitas felicidades!",
             question: "Where would you say this?",
-            options: ["At a birthday party.", "At a velório.", "To someone who is ill.", "To apologise."],
+            options: ["At a birthday party.", "At a velório.", "To someone who is ill.", "To apologize."],
             correctIndex: 0,
             explanation: "\"Parabéns\" and \"muitas felicidades\" are the birthday formulas. \"Pêsames\" sounds similar but is only for a death.",
           },
@@ -2253,7 +2253,7 @@ export const PT_C2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A learner turned up unannounced at a neighbour's flat because she had said \"aparece lá em casa\". What went wrong?",
+        question: "A learner turned up unannounced at a neighbor's apartment because she had said \"aparece lá em casa\". What went wrong?",
         options: ["He took a ritual of warmth as a real invitation.", "He arrived too early.", "He forgot to bring a gift.", "He used \"você\" instead of \"a senhora\"."],
         correctIndex: 0,
         explanation: "\"Aparece lá em casa\" without a day or time expresses goodwill. A real invitation would have details and a follow-up.",
@@ -2295,7 +2295,7 @@ export const PT_C2_U11: Lesson[] = [
         heading: "Figures of speech doing social work",
         body: [
           "The figures of Unit 1 are the tools of tact. Euphemism softens death (\"ele nos deixou\", \"faleceu\") and criticism (\"é... diferente\"). Hyperbole powers hints (\"tô morrendo de fome\", \"tá um forno aqui\"). Irony turns praise into reproach (\"parabéns pela pontualidade\"), and understatement makes \"não é dos melhores\" (it's not the best) a polite verdict of 'bad'.",
-          "Read every remark twice: once for what it says, once for what it does. Practise with the sentences below.",
+          "Read every remark twice: once for what it says, once for what it does. Practice with the sentences below.",
         ],
         examples: [
           { es: "Ele nos deixou na semana passada.", en: "He passed away last week." },
@@ -2334,7 +2334,7 @@ export const PT_C2_U11: Lesson[] = [
       {
         heading: "Banter, idioms and proverbs in delicate moments",
         body: [
-          "Humour and shared sayings cushion delicate moments. \"Zoar\" (to tease) among friends can defuse an awkward hint, and a proverb can close a quarrel without blame: \"águas passadas não movem moinho\". An idiom can name a failure gently: \"pisei na bola\" (I messed up) is the warmest apology at work.",
+          "Humor and shared sayings cushion delicate moments. \"Zoar\" (to tease) among friends can defuse an awkward hint, and a proverb can close a quarrel without blame: \"águas passadas não movem moinho\". An idiom can name a failure gently: \"pisei na bola\" (I messed up) is the warmest apology at work.",
           "But register still rules. Teasing at a velório, an idiom in a formal condolence, or an ironic \"parabéns\" in a client email are all missteps. The skill is to know which voice the moment wants.",
         ],
         examples: [
@@ -2348,7 +2348,7 @@ export const PT_C2_U11: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into Portuguese, using a football idiom.",
+            prompt: "Translate into Portuguese, using a soccer idiom.",
             source: "I messed up, sorry. It won't happen again.",
             answer: "Pisei na bola, desculpa. Não vai se repetir.",
             altAnswers: ["Pisei na bola, desculpe. Não vai se repetir.", "Eu pisei na bola, desculpa. Não vai se repetir.", "Pisei na bola, desculpa. Não vai acontecer de novo.", "Pisei na bola, desculpe. Não vai acontecer de novo.", "Pisei na bola, foi mal. Não vai se repetir.", "Eu pisei na bola, desculpa. Isso não vai se repetir."],
@@ -2361,7 +2361,7 @@ export const PT_C2_U11: Lesson[] = [
             sentence: "Vamos ___ para a coroa de flores?",
             answer: "fazer uma vaquinha",
             altAnswers: ["fazer vaquinha"],
-            explanation: "\"Fazer uma vaquinha\" is how Brazilian colleagues organise a wreath for a velório or a gift for a birthday.",
+            explanation: "\"Fazer uma vaquinha\" is how Brazilian colleagues organize a wreath for a velório or a gift for a birthday.",
           },
           {
             type: "speak",
@@ -2438,7 +2438,7 @@ export const PT_C2_U11: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Your colleague writes \"Fico no aguardo.\" two hours after a missed deadline. What does it mean?",
-        options: ["Please hurry: you're late.", "Take your time.", "I'm on holiday.", "Thanks for your work."],
+        options: ["Please hurry: you're late.", "Take your time.", "I'm on vacation.", "Thanks for your work."],
         correctIndex: 0,
         explanation: "Neutral on its own, \"fico no aguardo\" after a deadline is a firm nudge.",
       },

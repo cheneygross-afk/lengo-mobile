@@ -265,7 +265,7 @@ export const PT_A2_U21: Lesson[] = [
       {
         type: "speak",
         text: "Quando eu era criança, eu passava as férias na casa da minha avó.",
-        prompt: "Say it in Portuguese: When I was a child, I spent the holidays at my grandmother's house.",
+        prompt: "Say it in Portuguese: When I was a child, I spent my vacations at my grandmother's house.",
         tip: "\"Avó\" (grandmother) has an open ó; \"avô\" (grandfather) has a closed ô.",
         explanation: "Childhood habits take the imperfeito: \"era\", \"passava\".",
       },
@@ -292,7 +292,7 @@ export const PT_A2_U21: Lesson[] = [
           { es: "Eu vi ele no shopping, mas ele não me viu.", en: "I saw him at the mall, but he didn't see me." },
           { es: "Esse presente é para mim?", en: "Is this present for me?" },
           { es: "O metrô é mais rápido do que o ônibus.", en: "The metro is faster than the bus." },
-          { es: "Essa pizzaria é a melhor do bairro.", en: "This pizzeria is the best in the neighbourhood." },
+          { es: "Essa pizzaria é a melhor do bairro.", en: "This pizzeria is the best in the neighborhood." },
         ],
         checkpoint: [
           {
@@ -395,7 +395,7 @@ export const PT_A2_U21: Lesson[] = [
             en: "Can you [bring] the drinks here tonight?",
             sentence: "Você pode ___ as bebidas aqui hoje à noite?",
             answer: "trazer",
-            explanation: "Coming towards the speaker is \"trazer\" (bring). \"Levar\" is taking something away to somewhere else.",
+            explanation: "Coming toward the speaker is \"trazer\" (bring). \"Levar\" is taking something away to somewhere else.",
           },
         ],
       },
@@ -414,7 +414,7 @@ export const PT_A2_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "This film is better than the book.",
+        source: "This movie is better than the book.",
         answer: "Esse filme é melhor do que o livro.",
         altAnswers: ["Esse filme é melhor que o livro.", "Este filme é melhor do que o livro.", "Este filme é melhor que o livro."],
         explanation: "Better is \"melhor\", never \"mais bom\".",
@@ -449,7 +449,7 @@ export const PT_A2_U21: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I [asked] the waiter for the bill.",
+        en: "I [asked] the waiter for the check.",
         sentence: "Eu ___ a conta ao garçom.",
         answer: "pedi",
         explanation: "Asking for something is \"pedir\"; \"perguntar\" is for questions.",
@@ -590,7 +590,7 @@ export const PT_A2_U21: Lesson[] = [
           { es: "A minha família mora na Bahia, mas eu moro em Pernambuco.", en: "My family lives in Bahia, but I live in Pernambuco." },
           { es: "Ela é mineira, e o marido dela é gaúcho.", en: "She's from Minas Gerais, and her husband is from Rio Grande do Sul." },
           { es: "Todo ano a gente se diverte muito na festa junina.", en: "Every year we have a lot of fun at the June festival." },
-          { es: "Essa é a amiga com quem eu viajei para o Pará.", en: "This is the friend I travelled to Pará with." },
+          { es: "Essa é a amiga com quem eu viajei para o Pará.", en: "This is the friend I traveled to Pará with." },
           { es: "Se faz frio, a gente fica em casa.", en: "If it's cold, we stay at home." },
         ],
         checkpoint: [
@@ -693,7 +693,7 @@ export const PT_A2_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The friend I travelled with is from Recife.",
+        source: "The friend I traveled with is from Recife.",
         answer: "A amiga com quem eu viajei é de Recife.",
         altAnswers: ["O amigo com quem eu viajei é de Recife.", "A amiga com quem viajei é de Recife.", "O amigo com quem viajei é de Recife."],
         explanation: "English leaves with at the end; Portuguese puts it first: \"com quem\".",
@@ -725,8 +725,8 @@ export const PT_A2_U21: Lesson[] = [
         ],
         examples: [
           { es: "O livro que eu comprei é ótimo.", en: "The book I bought is great." },
-          { es: "A vizinha que mora no 201 é professora.", en: "The neighbour who lives in 201 is a teacher." },
-          { es: "O bairro onde eu moro tem muitas árvores.", en: "The neighbourhood where I live has lots of trees." },
+          { es: "A vizinha que mora no 201 é professora.", en: "The neighbor who lives in 201 is a teacher." },
+          { es: "O bairro onde eu moro tem muitas árvores.", en: "The neighborhood where I live has lots of trees." },
           { es: "Não entendi o que ele disse.", en: "I didn't understand what he said." },
           { es: "A cidade que a gente visitou era linda.", en: "The city we visited was beautiful." },
         ],
@@ -780,7 +780,7 @@ export const PT_A2_U21: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The friend [I travelled with] lives in Manaus.",
+            en: "The friend [I traveled with] lives in Manaus.",
             sentence: "O amigo ___ mora em Manaus.",
             answer: "com quem eu viajei",
             altAnswers: ["com quem viajei"],
@@ -798,7 +798,7 @@ export const PT_A2_U21: Lesson[] = [
           { es: "Como estava chovendo, a gente ficou em casa.", en: "Since it was raining, we stayed at home." },
           { es: "Eu queria ir, só que não tenho dinheiro.", en: "I wanted to go, but the thing is I don't have any money." },
           { es: "O voo atrasou por causa da chuva.", en: "The flight was delayed because of the rain." },
-          { es: "Depois que o filme acabou, a gente foi jantar.", en: "After the film ended, we went to dinner." },
+          { es: "Depois que o filme acabou, a gente foi jantar.", en: "After the movie ended, we went to dinner." },
           { es: "Lave as mãos antes de comer.", en: "Wash your hands before eating." },
         ],
         checkpoint: [
@@ -824,10 +824,10 @@ export const PT_A2_U21: Lesson[] = [
             audio: "A aula foi cancelada por causa da greve.",
             question: "What does it mean?",
             options: [
-              "The class was cancelled because of the strike.",
-              "The class was cancelled, so there was a strike.",
-              "The strike was cancelled because of the class.",
-              "The class is cancelled when there's a strike.",
+              "The class was canceled because of the strike.",
+              "The class was canceled, so there was a strike.",
+              "The strike was canceled because of the class.",
+              "The class is canceled when there's a strike.",
             ],
             correctIndex: 0,
             explanation: "\"Por causa de\" + noun is because of; \"da greve\" is de + a greve.",
@@ -979,10 +979,10 @@ export const PT_A2_U21: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Can you bring the bill, please?",
+            source: "Can you bring the check, please?",
             answer: "Você pode trazer a conta, por favor?",
             altAnswers: ["Pode trazer a conta, por favor?", "O senhor pode trazer a conta, por favor?", "A senhora pode trazer a conta, por favor?", "Pode me trazer a conta, por favor?", "Você pode me trazer a conta, por favor?", "A conta, por favor."],
-            explanation: "\"Pode\" + infinitive is the polite request; the bill comes to you, so \"trazer\".",
+            explanation: "\"Pode\" + infinitive is the polite request; the check comes to you, so \"trazer\".",
           },
           {
             type: "multiple-choice",
@@ -1047,7 +1047,7 @@ export const PT_A2_U21: Lesson[] = [
           "At the police station, the phrase is \"fazer um boletim de ocorrência\" (to file a police report): \"eu queria fazer um BO\". Tell what happened: \"eu estava saindo do metrô quando um homem pegou minha bolsa\". For an unknown thief, use they: \"roubaram meu celular\".",
         ],
         examples: [
-          { es: "Seu Antônio, o chuveiro não está funcionando.", en: "Mr Antônio, the shower isn't working." },
+          { es: "Seu Antônio, o chuveiro não está funcionando.", en: "Mr. Antônio, the shower isn't working." },
           { es: "Quando o senhor pode mandar alguém?", en: "When can you send someone? (to an older man)" },
           { es: "Eu queria fazer um boletim de ocorrência.", en: "I'd like to file a police report." },
           { es: "Roubaram minha bolsa no ponto de ônibus.", en: "My bag was stolen at the bus stop." },
@@ -1099,7 +1099,7 @@ export const PT_A2_U21: Lesson[] = [
         source: "The light went out last night.",
         answer: "A luz acabou ontem à noite.",
         altAnswers: ["Ontem à noite a luz acabou.", "Faltou luz ontem à noite.", "Ontem à noite faltou luz."],
-        explanation: "A power cut in Brazil: \"a luz acabou\" or \"faltou luz\", both in the perfeito for the event.",
+        explanation: "A power outage in Brazil: \"a luz acabou\" or \"faltou luz\", both in the perfeito for the event.",
       },
       {
         type: "translate",
@@ -1226,13 +1226,13 @@ export const PT_A2_U21: Lesson[] = [
         heading: "Word traps: better, take, ask",
         body: [
           "Better and worse are \"melhor\" and \"pior\", for adjectives and adverbs alike: \"ela canta melhor do que eu\". Never \"mais bom\" or \"mais bem\" before a verb.",
-          "Take and bring depend on direction: \"levar\" away from where you are, \"trazer\" towards it. Ask splits too: \"pedir\" is to ask for something (\"pedi ajuda\"), \"perguntar\" is to ask a question (\"perguntei o preço\"). And know: \"saber\" a fact, \"conhecer\" a person or place.",
+          "Take and bring depend on direction: \"levar\" away from where you are, \"trazer\" toward it. Ask splits too: \"pedir\" is to ask for something (\"pedi ajuda\"), \"perguntar\" is to ask a question (\"perguntei o preço\"). And know: \"saber\" a fact, \"conhecer\" a person or place.",
         ],
         examples: [
           { es: "Ela canta melhor do que eu.", en: "She sings better than I do." },
           { es: "Vou levar as crianças para a escola.", en: "I'm going to take the kids to school." },
           { es: "Você pode trazer um guarda-chuva amanhã?", en: "Can you bring an umbrella tomorrow?" },
-          { es: "Eu pedi ajuda ao vizinho.", en: "I asked the neighbour for help." },
+          { es: "Eu pedi ajuda ao vizinho.", en: "I asked the neighbor for help." },
           { es: "Ele me perguntou onde fica o banco.", en: "He asked me where the bank is." },
         ],
         checkpoint: [
@@ -1250,7 +1250,7 @@ export const PT_A2_U21: Lesson[] = [
             question: "How do you say: I asked him the time?",
             options: ["Eu perguntei as horas para ele.", "Eu pedi as horas para ele.", "Eu perguntei as horas de ele.", "Eu pedi a ele as horas."],
             correctIndex: 0,
-            explanation: "A question is \"perguntar\"; \"pedir\" is for asking for things or favours.",
+            explanation: "A question is \"perguntar\"; \"pedir\" is for asking for things or favors.",
           },
         ],
       },
@@ -1337,7 +1337,7 @@ export const PT_A2_U21: Lesson[] = [
         source: "Bring your swimsuit!",
         answer: "Traz o seu biquíni!",
         altAnswers: ["Traga o seu biquíni!", "Traz seu biquíni!", "Traga seu biquíni!", "Traz a sua sunga!", "Traga a sua sunga!", "Traz sua sunga!", "Traga sua sunga!", "Traz o seu maiô!", "Traga o seu maiô!", "Traz sua roupa de banho!", "Traga sua roupa de banho!"],
-        explanation: "Towards the speaker is \"trazer\": \"traz!\" in speech, \"traga!\" in the standard form. A swimsuit is a \"biquíni\", \"maiô\" or, for men, \"sunga\".",
+        explanation: "Toward the speaker is \"trazer\": \"traz!\" in speech, \"traga!\" in the standard form. A swimsuit is a \"biquíni\", \"maiô\" or, for men, \"sunga\".",
       },
       {
         type: "fill-blank",
@@ -1405,7 +1405,7 @@ export const PT_A2_U21: Lesson[] = [
       {
         heading: "The problem: tenses, há and ficar",
         body: [
-          "Laura, an English teacher, rents a flat in Porto Alegre from seu Antônio. Her draft email opens: \"O chuveiro parava de funcionar na segunda-feira e desde três dias eu tomo banho frio.\" Two errors. The breakdown happened once, so it's the perfeito \"parou\". And how long takes \"há\" (\"há três dias\"); \"desde\" needs a starting point, as in \"desde segunda\".",
+          "Laura, an English teacher, rents an apartment in Porto Alegre from seu Antônio. Her draft email opens: \"O chuveiro parava de funcionar na segunda-feira e desde três dias eu tomo banho frio.\" Two errors. The breakdown happened once, so it's the perfeito \"parou\". And how long takes \"há\" (\"há três dias\"); \"desde\" needs a starting point, as in \"desde segunda\".",
           "Next: \"Com a água fria, eu fui doente.\" Become is \"ficar\": \"fiquei doente\". \"Fui\" means I went or I was, never I got.",
         ],
         examples: [
@@ -1413,7 +1413,7 @@ export const PT_A2_U21: Lesson[] = [
           { es: "Há três dias eu tomo banho frio.", en: "I've been having cold showers for three days." },
           { es: "Estou sem água quente desde segunda.", en: "I've had no hot water since Monday." },
           { es: "Com a água fria, eu fiquei resfriada.", en: "With the cold water, I caught a cold. (a woman speaking)" },
-          { es: "O vizinho disse que o chuveiro dele também quebrou.", en: "The neighbour said his shower broke too." },
+          { es: "O vizinho disse que o chuveiro dele também quebrou.", en: "The neighbor said his shower broke too." },
         ],
         checkpoint: [
           {
@@ -1451,7 +1451,7 @@ export const PT_A2_U21: Lesson[] = [
         ],
         examples: [
           { es: "Liguei duas vezes, mas ninguém atendeu.", en: "I called twice, but nobody answered." },
-          { es: "Eu o vi no prédio ontem.", en: "I saw you in the building yesterday. (writing, to Mr Antônio)" },
+          { es: "Eu o vi no prédio ontem.", en: "I saw you in the building yesterday. (writing, to Mr. Antônio)" },
           { es: "O pagamento deste mês vai atrasar dois dias.", en: "This month's payment is going to be two days late." },
           { es: "Vou pagar por transferência na sexta-feira.", en: "I'm going to pay by bank transfer on Friday." },
           { es: "O dinheiro é para o aluguel de março.", en: "The money is for March's rent." },
@@ -1493,14 +1493,14 @@ export const PT_A2_U21: Lesson[] = [
         heading: "Register: an email, not a chat",
         body: [
           "Laura's draft ends like a message to a friend: \"Fala comigo pra gente resolver isso. Obrigada para a atenção! Bjs, Laura\". To a landlord, write the standard forms: \"para\", not \"pra\"; \"nós\", not \"a gente\"; and the standard command \"fale\" or \"me ligue\" instead of \"fala\". Thanks take \"por\": \"obrigada pela atenção\".",
-          "Close formally with \"Atenciosamente\" (Yours sincerely), and open with \"Prezado seu Antônio\" or \"Bom dia, seu Antônio\". You may see \"ligue-me\" in very formal writing; recognise it, but \"me ligue\" is normal Brazilian usage.",
+          "Close formally with \"Atenciosamente\" (Sincerely), and open with \"Prezado seu Antônio\" or \"Bom dia, seu Antônio\". You may see \"ligue-me\" in very formal writing; recognize it, but \"me ligue\" is normal Brazilian usage.",
         ],
         examples: [
-          { es: "Prezado seu Antônio,", en: "Dear Mr Antônio," },
+          { es: "Prezado seu Antônio,", en: "Dear Mr. Antônio," },
           { es: "Por favor, me ligue amanhã de manhã.", en: "Please call me tomorrow morning." },
           { es: "Precisamos resolver isso esta semana.", en: "We need to sort this out this week." },
           { es: "Muito obrigada pela atenção.", en: "Thank you very much for your attention. (a woman writing)" },
-          { es: "Atenciosamente, Laura Smith", en: "Yours sincerely, Laura Smith" },
+          { es: "Atenciosamente, Laura Smith", en: "Sincerely, Laura Smith" },
         ],
         checkpoint: [
           {
@@ -1527,7 +1527,7 @@ export const PT_A2_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Dear Mr Antônio, the shower broke on Monday.",
+        source: "Dear Mr. Antônio, the shower broke on Monday.",
         answer: "Prezado seu Antônio, o chuveiro quebrou na segunda-feira.",
         altAnswers: ["Prezado seu Antônio, o chuveiro quebrou na segunda.", "Prezado Seu Antônio, o chuveiro quebrou na segunda-feira.", "Prezado senhor Antônio, o chuveiro quebrou na segunda-feira."],
         explanation: "\"Prezado\" opens a formal email; a one-off breakdown is the perfeito \"quebrou\".",
@@ -1554,7 +1554,7 @@ export const PT_A2_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Laura wrote \"Eu lhe vi ontem.\" Write it correctly, in an email.",
-        source: "I saw you yesterday. (to Mr Antônio)",
+        source: "I saw you yesterday. (to Mr. Antônio)",
         answer: "Eu o vi ontem.",
         altAnswers: ["Eu vi o senhor ontem.", "Vi o senhor ontem.", "Ontem eu o vi.", "Ontem eu vi o senhor."],
         explanation: "The direct object is \"o\" in writing, or simply \"o senhor\". \"Lhe\" is for to you.",
@@ -1863,7 +1863,7 @@ export const PT_A2_U21: Lesson[] = [
           { es: "No primeiro mês eu fiz muitos amigos.", en: "In the first month I made lots of friends." },
           { es: "No começo eu fiquei doente por causa do calor.", en: "At first I got sick because of the heat." },
           { es: "Eu estava dormindo quando o telefone tocou.", en: "I was sleeping when the phone rang." },
-          { es: "Ontem eu soube que a festa foi cancelada.", en: "Yesterday I found out the party was cancelled." },
+          { es: "Ontem eu soube que a festa foi cancelada.", en: "Yesterday I found out the party was canceled." },
         ],
         checkpoint: [
           {
@@ -1935,7 +1935,7 @@ export const PT_A2_U21: Lesson[] = [
               "I'm going to take my parents some cheese in Canada.",
             ],
             correctIndex: 0,
-            explanation: "\"Trazer\" is bring, towards the speaker in Salvador; \"levar\" would be take, away from here.",
+            explanation: "\"Trazer\" is bring, toward the speaker in Salvador; \"levar\" would be take, away from here.",
           },
         ],
       },
@@ -1996,7 +1996,7 @@ export const PT_A2_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Error 5. Kevin wrote \"Ontem eu sabia que a festa foi cancelada.\" Write it correctly.",
-        source: "Yesterday I found out that the party was cancelled.",
+        source: "Yesterday I found out that the party was canceled.",
         answer: "Ontem eu soube que a festa foi cancelada.",
         altAnswers: ["Ontem soube que a festa foi cancelada.", "Ontem eu fiquei sabendo que a festa foi cancelada.", "Ontem fiquei sabendo que a festa foi cancelada."],
         explanation: "Found out is \"soube\" (or \"fiquei sabendo\"); \"sabia\" means already knew.",
@@ -2041,7 +2041,7 @@ export const PT_A2_U21: Lesson[] = [
         source: "My parents are going to bring me cheese from Canada.",
         answer: "Meus pais vão me trazer queijo do Canadá.",
         altAnswers: ["Meus pais vão trazer queijo do Canadá para mim.", "Meus pais vão trazer queijo do Canadá pra mim.", "Os meus pais vão me trazer queijo do Canadá."],
-        explanation: "The cheese comes here, towards Kevin: \"trazer\".",
+        explanation: "The cheese comes here, toward Kevin: \"trazer\".",
       },
       {
         type: "translate",
@@ -2193,7 +2193,7 @@ export const PT_A2_U21: Lesson[] = [
       {
         heading: "The lost phone",
         body: [
-          "Last, Tom left his phone on a bus and goes to the bus company's lost property office. The clerk asks \"como ele é?\" (what's it like?), and Tom describes it with colours and comparisons: \"é preto, com uma capinha azul\" (a little blue case), \"um pouco maior do que esse\".",
+          "Last, Tom left his phone on a bus and goes to the bus company's lost property office. The clerk asks \"como ele é?\" (what's it like?), and Tom describes it with colors and comparisons: \"é preto, com uma capinha azul\" (a little blue case), \"um pouco maior do que esse\".",
           "The twist: they found a phone, but it isn't his: \"não, esse não é o meu\". He leaves his number with a fixed phrase: \"qualquer coisa, me liga\" (if anything comes up, call me).",
         ],
         examples: [
@@ -2330,10 +2330,10 @@ export const PT_A2_U21: Lesson[] = [
         heading: "Pronouns: eu vi ele, eu o vi",
         body: [
           "Brazilian Portuguese has two registers that live side by side. With friends, him and her are \"ele\" and \"ela\" after the verb: \"eu vi ele\". In an email to a company or an official, write \"o\" and \"a\" before the verb (\"eu o vi\"), or \"-lo\" and \"-la\" after an infinitive (\"vou ajudá-lo\").",
-          "For to you, speech says \"vou te mandar\" or \"vou mandar para você\". Formal letters may say \"vou lhe enviar\" (I will send you); recognise it, but you don't need to produce it yet. \"Para o senhor\" is always a safe polite choice.",
+          "For to you, speech says \"vou te mandar\" or \"vou mandar para você\". Formal letters may say \"vou lhe enviar\" (I will send you); recognize it, but you don't need to produce it yet. \"Para o senhor\" is always a safe polite choice.",
         ],
         examples: [
-          { es: "Eu vi ele ontem na faculdade.", en: "I saw him at university yesterday. (speech)" },
+          { es: "Eu vi ele ontem na faculdade.", en: "I saw him at college yesterday. (speech)" },
           { es: "Eu o vi ontem na reunião.", en: "I saw him at the meeting yesterday. (writing)" },
           { es: "Vou te mandar as fotos hoje.", en: "I'll send you the photos today. (speech)" },
           { es: "Vou enviar os documentos para o senhor hoje.", en: "I will send you the documents today. (writing, to a man)" },
@@ -2361,7 +2361,7 @@ export const PT_A2_U21: Lesson[] = [
       {
         heading: "Commands and small words",
         body: [
-          "Friends get the everyday command: \"fala comigo\", \"me liga\", \"vem cá\". Officials get the standard form: \"fale\", \"ligue\", \"venha\", \"entre em contato\". Very formal texts may write \"ligue-me\" or \"envie-nos\" with the pronoun after; recognise them, but write \"me ligue\".",
+          "Friends get the everyday command: \"fala comigo\", \"me liga\", \"vem cá\". Officials get the standard form: \"fale\", \"ligue\", \"venha\", \"entre em contato\". Very formal texts may write \"ligue-me\" or \"envie-nos\" with the pronoun after; recognize them, but write \"me ligue\".",
           "The small words switch too: \"pra\" and \"pro\" in messages, \"para\" and \"para o\" in writing; \"a gente\" in speech, \"nós\" (with the -mos verb) in formal text; \"tá\" becomes \"está\".",
         ],
         examples: [
@@ -2542,7 +2542,7 @@ export const PT_A2_U21: Lesson[] = [
         ],
         examples: [
           { es: "Quando eu era criança, eu morava numa cidade pequena perto de Manchester.", en: "When I was a child, I lived in a small town near Manchester." },
-          { es: "Eu era tímido, mas adorava jogar futebol.", en: "I was shy, but I loved playing football." },
+          { es: "Eu era tímido, mas adorava jogar futebol.", en: "I was shy, but I loved playing soccer." },
           { es: "Todo verão a gente ia para a praia com os meus avós.", en: "Every summer we went to the beach with my grandparents." },
           { es: "Com oito anos, eu quebrei o braço.", en: "When I was eight, I broke my arm." },
           { es: "Eu queria ser astronauta.", en: "I wanted to be an astronaut." },
@@ -2560,7 +2560,7 @@ export const PT_A2_U21: Lesson[] = [
           {
             type: "speak",
             text: "Quando eu era criança, eu adorava jogar futebol.",
-            prompt: "Say it in Portuguese: When I was a child, I loved playing football.",
+            prompt: "Say it in Portuguese: When I was a child, I loved playing soccer.",
             tip: "\"Adorava\" stresses the middle: a-do-RA-va.",
             explanation: "A lasting childhood love: imperfeito \"adorava\".",
           },
@@ -2601,7 +2601,7 @@ export const PT_A2_U21: Lesson[] = [
             type: "listen-choose",
             audio: "Eu queria entender as músicas, por isso comecei a estudar.",
             question: "Why did the speaker start studying?",
-            options: ["To understand the songs.", "To get a job in Brazil.", "Because a friend asked.", "To understand films."],
+            options: ["To understand the songs.", "To get a job in Brazil.", "Because a friend asked.", "To understand movies."],
             correctIndex: 0,
             explanation: "\"Eu queria entender as músicas\" gives the reason; \"por isso\" gives the result.",
           },
@@ -2645,7 +2645,7 @@ export const PT_A2_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "When I was ten, I wanted to be a footballer.",
+        source: "When I was ten, I wanted to be a soccer player.",
         answer: "Quando eu tinha dez anos, eu queria ser jogador de futebol.",
         altAnswers: ["Quando eu tinha dez anos, queria ser jogador de futebol.", "Quando tinha dez anos, eu queria ser jogador de futebol.", "Com dez anos, eu queria ser jogador de futebol.", "Com dez anos, queria ser jogador de futebol.", "Quando eu tinha dez anos, eu queria ser jogadora de futebol.", "Com dez anos, eu queria ser jogadora de futebol."],
         explanation: "Age: \"tinha\" + years. A wish that lasted: \"queria\".",
@@ -2663,10 +2663,10 @@ export const PT_A2_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I met my Brazilian friends at university.",
+        source: "I met my Brazilian friends at college.",
         answer: "Eu conheci os meus amigos brasileiros na faculdade.",
         altAnswers: ["Conheci os meus amigos brasileiros na faculdade.", "Eu conheci meus amigos brasileiros na faculdade.", "Conheci meus amigos brasileiros na faculdade.", "Eu conheci minhas amigas brasileiras na faculdade.", "Conheci minhas amigas brasileiras na faculdade.", "Eu conheci meus amigos brasileiros na universidade.", "Conheci meus amigos brasileiros na universidade."],
-        explanation: "Met: perfeito \"conheci\". University is usually \"faculdade\" in everyday Brazilian speech.",
+        explanation: "Met: perfeito \"conheci\". College is \"faculdade\" in everyday Brazilian speech; \"universidade\" is also correct.",
       },
       {
         type: "translate",
@@ -2751,7 +2751,7 @@ export const PT_A2_U21: Lesson[] = [
           "Each date is a one-off event, so the perfeito: \"ele nasceu em 1958\", \"ele se aposentou em 2020\" (retired). Years take \"em\"; exact days take \"no dia\": \"no dia 3 de maio de 1958\". Age at the time is \"com\" + years or \"quando tinha\" + years.",
         ],
         examples: [
-          { es: "Paulo nasceu em Recife no dia 3 de maio de 1958.", en: "Paulo was born in Recife on 3 May 1958." },
+          { es: "Paulo nasceu em Recife no dia 3 de maio de 1958.", en: "Paulo was born in Recife on May 3, 1958." },
           { es: "Em 1970, a família dele se mudou para Salvador.", en: "In 1970, his family moved to Salvador." },
           { es: "Com dezoito anos, ele começou a estudar engenharia.", en: "At eighteen, he started studying engineering." },
           { es: "Ele conheceu a Lúcia num show em 1980.", en: "He met Lúcia at a concert in 1980." },
@@ -2785,7 +2785,7 @@ export const PT_A2_U21: Lesson[] = [
           "Use the imperfeito for background between the events: \"em 1990 ele trabalhava numa construtora, por isso foi morar em Porto Alegre\".",
         ],
         examples: [
-          { es: "Depois de terminar a faculdade, ele arrumou um emprego numa construtora.", en: "After finishing university, he got a job at a construction company." },
+          { es: "Depois de terminar a faculdade, ele arrumou um emprego numa construtora.", en: "After finishing college, he got a job at a construction company." },
           { es: "Em 1990, ele foi morar em Porto Alegre por causa do trabalho.", en: "In 1990, he moved to Porto Alegre because of work." },
           { es: "A empresa que ele abriu em 1998 ganhou um prêmio em 2010.", en: "The company he opened in 1998 won a prize in 2010." },
           { es: "Dois anos depois do casamento, nasceu a Mariana.", en: "Two years after the wedding, Mariana was born." },

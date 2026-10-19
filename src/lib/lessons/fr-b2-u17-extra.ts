@@ -17,7 +17,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
         heading: "Recap: five ways to contrast",
         body: [
           "\"Mais\" joins two clauses in any register. \"Pourtant\" marks a surprise against expectations ('and yet'). \"Cependant\" and \"toutefois\" mark a neutral restriction ('however'). \"En revanche\" compares two different things ('on the other hand'), with \"par contre\" as its spoken twin. \"Alors que\" and \"tandis que\" do the comparing inside one sentence ('whereas').",
-          "Position: mais and alors que stand between the clauses; pourtant, cependant and en revanche can open the clause or follow the verb (\"il est cependant parti\").",
+          "Position: \"mais\" and \"alors que\" stand between the clauses; \"pourtant\", \"cependant\" and \"en revanche\" can open the clause or follow the verb (\"il est cependant parti\").",
         ],
         examples: [
           { es: "Elle a un excellent CV ; pourtant, personne ne l'a rappelée.", en: "She has an excellent CV; and yet nobody has called her back." },
@@ -34,7 +34,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
             source: "She has an excellent CV, and yet nobody has called her back.",
             answer: "Elle a un excellent CV, et pourtant personne ne l'a rappelée.",
             altAnswers: ["Elle a un excellent CV, pourtant personne ne l'a rappelée.", "Elle a un excellent CV ; pourtant, personne ne l'a rappelée.", "Elle a un très bon CV, et pourtant personne ne l'a rappelée.", "Elle a un très bon CV, pourtant personne ne l'a rappelée."],
-            explanation: "A good CV should bring calls: surprise, so \"pourtant\". \"Rappelée\" agrees with l' (elle).",
+            explanation: "A good CV should bring calls: surprise, so \"pourtant\". \"Rappelée\" agrees with \"l'\" (elle).",
           },
           {
             type: "fill-blank",
@@ -90,7 +90,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
         question: "'The town is lovely in summer. In winter, on the other hand, it's dead.' Which fits best in formal writing?",
         options: ["La ville est charmante en été. En hiver, en revanche, elle est morte.", "La ville est charmante en été. En hiver, pourtant, elle est morte.", "La ville est charmante en été. En hiver, d'ailleurs, elle est morte.", "La ville est charmante en été. En hiver, donc, elle est morte."],
         correctIndex: 0,
-        explanation: "Two seasons compared: \"en revanche\". Pourtant would imply a broken expectation.",
+        explanation: "Two seasons compared: \"en revanche\". \"Pourtant\" would imply a broken expectation.",
       },
       {
         type: "fill-blank",
@@ -144,7 +144,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
           { left: "Il est riche alors que son frère est pauvre.", right: "He's rich whereas his brother is poor." },
           { left: "Il est riche ; il reste cependant prudent.", right: "He's rich; he remains careful, however." },
         ],
-        explanation: "Pourtant = surprise; en revanche and alors que = comparison; cependant = restriction.",
+        explanation: "\"Pourtant\" = surprise; \"en revanche\" and \"alors que\" = comparison; \"cependant\" = restriction.",
       },
       {
         type: "listen-choose",
@@ -157,7 +157,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Elle a un excellent CV, et pourtant personne ne l'a rappelée.",
-        explanation: "\"Rappelée\": rappeler has two p and one l, and the participle agrees with l' (her), placed before avoir.",
+        explanation: "\"Rappelée\": \"rappeler\" has two p and one l, and the participle agrees with \"l'\" (her), placed before \"avoir\".",
       },
       {
         type: "speak",
@@ -179,7 +179,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
       {
         heading: "Recap: where each cause can stand",
         body: [
-          "\"Parce que\": neutral, answers pourquoi. \"Car\": written, after the main clause, never first. \"Comme\": always first. \"Puisque\": a cause the listener already knows or can't deny. \"Étant donné que\" / \"vu que\": an established fact, formal / spoken. All take the indicative.",
+          "\"Parce que\": neutral, answers \"pourquoi\". \"Car\": written, after the main clause, never first. \"Comme\": always first. \"Puisque\": a cause the listener already knows or can't deny. \"Étant donné que\" / \"vu que\": an established fact, formal / spoken. All take the indicative.",
           "Before a noun: \"grâce à\" (good result), \"à cause de\" (bad result), \"en raison de\" (neutral, official).",
         ],
         examples: [
@@ -197,7 +197,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
             source: "As the bank was closed, I paid by card.",
             answer: "Comme la banque était fermée, j'ai payé par carte.",
             altAnswers: ["Comme la banque était fermée, j'ai payé par carte bancaire.", "Étant donné que la banque était fermée, j'ai payé par carte.", "Vu que la banque était fermée, j'ai payé par carte.", "Comme la banque était fermée, j'ai payé avec ma carte."],
-            explanation: "First position: \"comme\" (never car).",
+            explanation: "First position: \"comme\" (never \"car\").",
           },
           {
             type: "translate",
@@ -205,7 +205,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
             prompt: "Translate into French (to a stranger).",
             source: "Since you insist, I'll tell you.",
             answer: "Puisque vous insistez, je vais vous le dire.",
-            altAnswers: ["Puisque vous insistez, je vous le dirai.", "Puisque vous insistez, je vais vous le dire."],
+            altAnswers: ["Puisque vous insistez, je vous le dirai."],
             explanation: "\"Puisque\": the cause is evident to both speakers (the person is insisting right now).",
           },
         ],
@@ -262,7 +262,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
         sentence: "___ il pleut, on prendra la voiture.",
         answer: "Vu qu'",
         altAnswers: ["Comme", "Puisqu'", "Étant donné qu'", "Vu qu"],
-        explanation: "\"Vu que\" is the relaxed 'seeing as'; it elides before il: \"vu qu'il\".",
+        explanation: "\"Vu que\" is the relaxed 'seeing as'; it elides before \"il\": \"vu qu'il\".",
       },
       {
         type: "translate",
@@ -271,7 +271,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
         source: "Why are you leaving? — Because I'm tired.",
         answer: "Pourquoi tu pars ? — Parce que je suis fatigué.",
         altAnswers: ["Pourquoi tu pars ? — Parce que je suis fatiguée.", "Pourquoi pars-tu ? — Parce que je suis fatigué.", "Pourquoi pars-tu ? — Parce que je suis fatiguée.", "Pourquoi vous partez ? — Parce que je suis fatigué.", "Pourquoi partez-vous ? — Parce que je suis fatigué.", "Pourquoi partez-vous ? — Parce que je suis fatiguée.", "Pourquoi est-ce que tu pars ? — Parce que je suis fatigué."],
-        explanation: "Only \"parce que\" answers pourquoi; *car je suis fatigué is impossible as an answer.",
+        explanation: "Only \"parce que\" answers \"pourquoi\"; *car je suis fatigué is impossible as an answer.",
       },
       {
         type: "translate",
@@ -305,7 +305,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
         source: "Since you know the way, you drive.",
         answer: "Puisque tu connais le chemin, c'est toi qui conduis.",
         altAnswers: ["Puisque tu connais la route, c'est toi qui conduis.", "Puisque tu connais le chemin, conduis.", "Puisque tu connais le chemin, tu conduis.", "Puisque vous connaissez le chemin, c'est vous qui conduisez."],
-        explanation: "\"Puisque\": the cause is known to both. \"C'est toi qui conduis\": the verb agrees with toi.",
+        explanation: "\"Puisque\": the cause is known to both. \"C'est toi qui conduis\": the verb agrees with \"toi\".",
       },
       {
         type: "listen-choose",
@@ -313,18 +313,18 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
         question: "What does it mean?",
         options: ["I won't come, as I have too much work.", "I won't come by car, I have too much work.", "I'll come although I have too much work.", "I didn't come because of the car."],
         correctIndex: 0,
-        explanation: "\"Car\" (the conjunction 'because') sounds like the start of \"car\" in English; here it's the cause connector.",
+        explanation: "\"Car\" here is the written cause connector ('as, because'), placed after the main clause. Don't let the English word 'car' mislead you: a car is \"une voiture\".",
       },
       {
         type: "dictation",
         audio: "Étant donné que la salle est petite, le nombre de places est limité.",
-        explanation: "\"Étant donné que\": formal cause; \"limité\" agrees with le nombre.",
+        explanation: "\"Étant donné que\": formal cause; \"limité\" agrees with \"le nombre\".",
       },
       {
         type: "speak",
         text: "Puisque vous insistez, je vais vous le dire.",
         prompt: "Say it in French to a colleague you call vous: Since you insist, I'll tell you.",
-        explanation: "\"Puisque\" + a cause both people know. In \"vous le dire\", vous comes before le.",
+        explanation: "\"Puisque\" + a cause both people know. In \"vous le dire\", \"vous\" comes before \"le\".",
       },
     ],
   },
@@ -341,7 +341,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
         heading: "Recap: the shape of a reader's letter",
         body: [
           "The issue: the town of Villeneuve plans to close its night bus line. Your letter to \"Le Courrier de Villeneuve\" opens with the fact (\"j'ai appris que...\"), states your view, gives causes (\"car\", \"étant donné que\"), adds points (\"de plus\", \"en outre\"), concedes (\"certes... cependant\") and concludes (\"c'est pourquoi\", \"en définitive\").",
-          "Keep the register formal: \"cela\" not ça, \"nous\" not on, \"en revanche\" not par contre, \"donc\" after the verb.",
+          "Keep the register formal: \"cela\" not \"ça\", \"nous\" not \"on\", \"en revanche\" not \"par contre\", \"donc\" after the verb.",
         ],
         examples: [
           { es: "J'ai appris avec surprise que la ligne de bus de nuit allait être supprimée.", en: "I was surprised to learn that the night bus line was going to be cut." },
@@ -377,7 +377,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
         source: "I was surprised to learn that the night bus line was going to be cut.",
         answer: "J'ai appris avec surprise que la ligne de bus de nuit allait être supprimée.",
         altAnswers: ["J'ai été surpris d'apprendre que la ligne de bus de nuit allait être supprimée.", "J'ai été surprise d'apprendre que la ligne de bus de nuit allait être supprimée.", "J'ai appris avec surprise que la ligne de bus de nuit serait supprimée."],
-        explanation: "\"Allait être supprimée\": near future in the past, passive; \"supprimée\" agrees with la ligne.",
+        explanation: "\"Allait être supprimée\": near future in the past, passive; \"supprimée\" agrees with \"la ligne\".",
       },
       {
         type: "translate",
@@ -454,7 +454,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
         source: "Given that the bus is the only transport at night, it must be kept.",
         answer: "Étant donné que le bus est le seul transport la nuit, il faut le garder.",
         altAnswers: ["Étant donné que le bus est le seul moyen de transport la nuit, il faut le maintenir.", "Étant donné que le bus est le seul moyen de transport la nuit, il faut le garder.", "Comme le bus est le seul transport la nuit, il faut le garder.", "Étant donné que le bus est le seul transport la nuit, il doit être maintenu."],
-        explanation: "\"Étant donné que\" + indicative (le seul + fact, so no subjunctive here: a plain statement).",
+        explanation: "\"Étant donné que\" + indicative: it presents an established fact as the basis for the conclusion \"il faut le garder\".",
       },
       {
         type: "translate",
@@ -463,7 +463,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
         source: "In addition, the line could be financed by local businesses.",
         answer: "Par ailleurs, la ligne pourrait être financée par les commerces locaux.",
         altAnswers: ["De plus, la ligne pourrait être financée par les commerces locaux.", "En outre, la ligne pourrait être financée par les commerces locaux.", "Par ailleurs, la ligne pourrait être financée par les entreprises locales."],
-        explanation: "\"Par ailleurs\" adds a proposal; passive \"être financée\" after pouvoir.",
+        explanation: "\"Par ailleurs\" adds a proposal; passive \"être financée\" after \"pouvoir\".",
       },
       {
         type: "listen-choose",
@@ -492,13 +492,13 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Transformations: Bien que → Malgré → Pourtant",
-    summary: "Express the same concession three ways: a subjunctive clause, a noun, or a separate sentence with pourtant.",
+    summary: "Express the same concession three ways: a subjunctive clause, a noun, or a separate sentence with \"pourtant\".",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: one concession, three structures",
         body: [
-          "\"Bien que\" + subjunctive takes a whole clause: \"Bien qu'il pleuve, nous sortons.\" \"Malgré\" takes a noun: \"Malgré la pluie, nous sortons.\" \"Pourtant\" (or cependant) links two independent sentences: \"Il pleut ; pourtant, nous sortons.\"",
+          "\"Bien que\" + subjunctive takes a whole clause: \"Bien qu'il pleuve, nous sortons.\" \"Malgré\" takes a noun: \"Malgré la pluie, nous sortons.\" \"Pourtant\" (or \"cependant\") links two independent sentences: \"Il pleut ; pourtant, nous sortons.\"",
           "Going from a clause to a noun often needs a related noun: \"il est fatigué\" → \"malgré sa fatigue\", \"il fait froid\" → \"malgré le froid\", \"elle est jeune\" → \"malgré son jeune âge\". Never *malgré que in careful French.",
         ],
         examples: [
@@ -513,7 +513,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French with malgré.",
+            prompt: "Translate into French with \"malgré\".",
             source: "Despite his tiredness, he keeps going.",
             answer: "Malgré sa fatigue, il continue.",
             explanation: "\"Malgré\" + noun: \"sa fatigue\" replaces the clause \"il est fatigué\".",
@@ -521,7 +521,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French with bien que.",
+            prompt: "Translate into French with \"bien que\".",
             source: "Although it's raining, we're going out.",
             answer: "Bien qu'il pleuve, nous sortons.",
             altAnswers: ["Bien qu'il pleuve, on sort.", "Quoiqu'il pleuve, nous sortons."],
@@ -534,7 +534,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French with bien que.",
+        prompt: "Translate into French with \"bien que\".",
         source: "Although she's young, she runs the company.",
         answer: "Bien qu'elle soit jeune, elle dirige l'entreprise.",
         altAnswers: ["Bien qu'elle soit jeune, elle dirige la société.", "Quoiqu'elle soit jeune, elle dirige l'entreprise."],
@@ -543,16 +543,16 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French with malgré.",
+        prompt: "Translate into French with \"malgré\".",
         source: "Despite her young age, she runs the company.",
         answer: "Malgré son jeune âge, elle dirige l'entreprise.",
         altAnswers: ["Malgré son jeune âge, elle dirige la société."],
-        explanation: "\"Malgré son jeune âge\": the noun phrase replaces \"elle est jeune\". \"Son\" because âge is masculine.",
+        explanation: "\"Malgré son jeune âge\": the noun phrase replaces \"elle est jeune\". \"Son\" because \"âge\" is masculine.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French with pourtant.",
+        prompt: "Translate into French with \"pourtant\".",
         source: "She's young, and yet she runs the company.",
         answer: "Elle est jeune, et pourtant elle dirige l'entreprise.",
         altAnswers: ["Elle est jeune, pourtant elle dirige l'entreprise.", "Elle est jeune ; elle dirige pourtant l'entreprise.", "Elle est jeune, et pourtant elle dirige la société."],
@@ -561,7 +561,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French with malgré.",
+        prompt: "Translate into French with \"malgré\".",
         source: "Despite the cold, the children played outside.",
         answer: "Malgré le froid, les enfants ont joué dehors.",
         altAnswers: ["Malgré le froid, les enfants jouaient dehors."],
@@ -570,7 +570,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French with bien que.",
+        prompt: "Translate into French with \"bien que\".",
         source: "Although it was cold, the children played outside.",
         answer: "Bien qu'il fasse froid, les enfants ont joué dehors.",
         altAnswers: ["Bien qu'il fît froid, les enfants ont joué dehors.", "Bien qu'il ait fait froid, les enfants ont joué dehors.", "Bien qu'il fasse froid, les enfants jouaient dehors."],
@@ -587,16 +587,16 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French with bien que.",
+        prompt: "Translate into French with \"bien que\".",
         source: "Although he has a lot of money, he lives simply.",
         answer: "Bien qu'il ait beaucoup d'argent, il vit simplement.",
         altAnswers: ["Bien qu'il ait beaucoup d'argent, il mène une vie simple.", "Quoiqu'il ait beaucoup d'argent, il vit simplement."],
-        explanation: "Subjunctive of avoir: \"qu'il ait\".",
+        explanation: "Subjunctive of \"avoir\": \"qu'il ait\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French with malgré.",
+        prompt: "Translate into French with \"malgré\".",
         source: "Despite his fortune, he lives simply.",
         answer: "Malgré sa fortune, il vit simplement.",
         altAnswers: ["Malgré sa fortune, il mène une vie simple.", "Malgré son argent, il vit simplement."],
@@ -612,7 +612,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French with pourtant.",
+        prompt: "Translate into French with \"pourtant\".",
         source: "The flat is small; and yet we're very happy there.",
         answer: "L'appartement est petit ; pourtant, nous y sommes très heureux.",
         altAnswers: ["L'appartement est petit, et pourtant nous y sommes très heureux.", "L'appartement est petit, pourtant on y est très heureux.", "L'appartement est petit, et pourtant on y est très heureux.", "L'appartement est petit ; nous y sommes pourtant très heureux."],
@@ -628,7 +628,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French with bien que.",
+        prompt: "Translate into French with \"bien que\".",
         source: "Although the strike continues, the concert will take place.",
         answer: "Bien que la grève continue, le concert aura lieu.",
         altAnswers: ["Bien que la grève se poursuive, le concert aura lieu.", "Quoique la grève continue, le concert aura lieu."],
@@ -645,12 +645,12 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Bien qu'il ait beaucoup d'argent, il vit simplement.",
-        explanation: "\"Qu'il ait\": subjunctive of avoir, spelt a-i-t.",
+        explanation: "\"Qu'il ait\": subjunctive of \"avoir\", spelt a-i-t.",
       },
       {
         type: "speak",
         text: "Malgré la pluie, nous sortons.",
-        prompt: "Say it in French using malgré: Despite the rain, we're going out.",
+        prompt: "Say it in French using \"malgré\": Despite the rain, we're going out.",
         explanation: "\"Malgré\" + noun: the shortest of the three structures.",
       },
     ],
@@ -774,11 +774,11 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
         source: "First we'll visit the castle, then the museum, and finally the old town.",
         answer: "D'abord, nous visiterons le château, ensuite le musée, et enfin la vieille ville.",
         altAnswers: ["D'abord, on visitera le château, ensuite le musée, et enfin la vieille ville.", "Nous visiterons d'abord le château, ensuite le musée, et enfin la vieille ville.", "D'abord, nous visiterons le château, puis le musée, et enfin la vieille ville."],
-        explanation: "The last item of a list is \"enfin\", not finalement.",
+        explanation: "The last item of a list is \"enfin\", not \"finalement\".",
       },
       {
         type: "matching",
-        instructions: "Match the English word with its French translation.",
+        instructions: "Match each French word with its real English meaning.",
         pairs: [
           { left: "en fait", right: "actually" },
           { left: "actuellement", right: "currently" },
@@ -786,7 +786,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
           { left: "éventuellement", right: "possibly" },
           { left: "en effet", right: "indeed" },
         ],
-        explanation: "The English look-alikes mean something else: actuellement is not actually, éventuellement is not eventually.",
+        explanation: "The English look-alikes mean something else: \"actuellement\" is not 'actually', \"éventuellement\" is not 'eventually'.",
       },
       {
         type: "translate",
@@ -815,7 +815,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "En fait, il n'a jamais vécu à Paris.",
-        explanation: "\"En fait\" corrects an assumption; \"vécu\" is the participle of vivre.",
+        explanation: "\"En fait\" corrects an assumption; \"vécu\" is the participle of \"vivre\".",
       },
       {
         type: "speak",
@@ -837,7 +837,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
       {
         heading: "Recap: connectors you must spell right",
         body: [
-          "Some connectors are tricky to spell: \"néanmoins\" (one n after é, ends in -oins), \"toutefois\" (one word), \"cependant\" (ends in -ant), \"en revanche\" (two words), \"par conséquent\" (é), \"c'est pourquoi\" (one word pourquoi), \"d'ailleurs\" (apostrophe, double l), \"étant donné que\" (no agreement: always donné).",
+          "Some connectors are tricky to spell: \"néanmoins\" (one word: né + an + moins), \"toutefois\" (one word), \"cependant\" (ends in -ant), \"en revanche\" (two words), \"par conséquent\" (é, ends in -ent), \"c'est pourquoi\" (\"pourquoi\" in one word), \"d'ailleurs\" (apostrophe, double l), \"étant donné que\" (no agreement: always \"donné\").",
           "Listen for the position too: in formal French they often come after the verb, so you hear them in the middle of the sentence: \"il a néanmoins accepté\".",
         ],
         examples: [
@@ -869,7 +869,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
             source: "I don't have time, and besides, I don't feel like it.",
             answer: "Je n'ai pas le temps ; d'ailleurs, je n'en ai pas envie.",
             altAnswers: ["Je n'ai pas le temps, et d'ailleurs je n'en ai pas envie.", "Je n'ai pas le temps ; du reste, je n'en ai pas envie."],
-            explanation: "\"D'ailleurs\" adds a second, supporting reason; \"en\" = de cela with avoir envie de.",
+            explanation: "\"D'ailleurs\" adds a second, supporting reason; \"en\" = \"de cela\" with \"avoir envie de\".",
           },
         ],
       },
@@ -878,7 +878,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Le loyer est élevé ; le quartier est toutefois agréable.",
-        explanation: "\"Toutefois\" is one word; it follows the verb est.",
+        explanation: "\"Toutefois\" is one word; it follows the verb \"est\".",
       },
       {
         type: "translate",
@@ -901,12 +901,12 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
         source: "Given that the deadline has passed, your application is refused.",
         answer: "Étant donné que la date limite est passée, votre demande est refusée.",
         altAnswers: ["Étant donné que la date est passée, votre demande est refusée.", "Étant donné que le délai est dépassé, votre demande est refusée.", "La date limite étant passée, votre demande est refusée.", "Comme la date limite est passée, votre demande est refusée."],
-        explanation: "\"Étant donné que\" + indicative; \"refusée\" agrees with la demande.",
+        explanation: "\"Étant donné que\" + indicative; \"refusée\" agrees with \"la demande\".",
       },
       {
         type: "dictation",
         audio: "C'est pourquoi nous avons décidé de fermer le magasin.",
-        explanation: "\"C'est pourquoi\": pourquoi in one word.",
+        explanation: "\"C'est pourquoi\": \"pourquoi\" in one word.",
       },
       {
         type: "translate",
@@ -1012,7 +1012,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
             source: "What I liked best was the acoustic version of their first hit.",
             answer: "Ce que j'ai préféré, c'est la version acoustique de leur premier tube.",
             altAnswers: ["Ce que j'ai préféré, c'était la version acoustique de leur premier tube.", "Ce que j'ai le plus aimé, c'est la version acoustique de leur premier tube.", "Ce que j'ai le plus aimé, c'était la version acoustique de leur premier tube."],
-            explanation: "\"Ce que j'ai préféré, c'est...\" highlights the object of préférer.",
+            explanation: "\"Ce que j'ai préféré, c'est...\" highlights the object of \"préférer\".",
           },
           {
             type: "speak",
@@ -1040,7 +1040,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
         source: "The support act was disappointing; the concert, on the other hand, was magical.",
         answer: "La première partie était décevante ; le concert, en revanche, a été magique.",
         altAnswers: ["La première partie était décevante ; en revanche, le concert a été magique.", "La première partie a été décevante ; le concert, en revanche, a été magique.", "La première partie était décevante ; le concert, en revanche, était magique."],
-        explanation: "Two parts of the evening compared: \"en revanche\". \"Décevante\": adjectif verbal from décevoir.",
+        explanation: "Two parts of the evening compared: \"en revanche\". \"Décevante\": verbal adjective from \"décevoir\".",
       },
       {
         type: "translate",
@@ -1129,7 +1129,7 @@ export const FR_B2_U17_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "La première partie était décevante ; le concert, en revanche, a été magique.",
-        explanation: "\"Décevante\" agrees with la première partie; \"en revanche\" in two words.",
+        explanation: "\"Décevante\" agrees with \"la première partie\"; \"en revanche\" in two words.",
       },
       {
         type: "speak",

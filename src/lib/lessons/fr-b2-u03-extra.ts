@@ -233,8 +233,8 @@ export const FR_B2_U03_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "We won't finish unless we work this weekend.",
         answer: "On ne finira pas à moins de travailler ce week-end.",
-        altAnswers: ["Nous ne finirons pas à moins de travailler ce week-end.", "On ne finira pas, à moins de travailler ce week-end.", "On ne finira pas à moins qu'on travaille ce week-end."],
-        explanation: "Same subject: \"à moins de\".",
+        altAnswers: ["Nous ne finirons pas à moins de travailler ce week-end.", "On ne finira pas, à moins de travailler ce week-end."],
+        explanation: "Same subject (we finish, we work): \"à moins de\" + infinitive, not \"à moins qu'on travaille\".",
       },
       {
         type: "translate",
@@ -293,8 +293,8 @@ export const FR_B2_U03_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "Call me before you leave. (to a friend)",
         answer: "Appelle-moi avant de partir.",
-        altAnswers: ["Appelle-moi avant que tu partes.", "Téléphone-moi avant de partir."],
-        explanation: "Same subject (you call, you leave): \"avant de partir\".",
+        altAnswers: ["Téléphone-moi avant de partir."],
+        explanation: "Same subject (you call, you leave): \"avant de partir\". \"Avant que tu partes\" is the classic same-subject mistake.",
       },
       {
         type: "translate",
@@ -412,8 +412,8 @@ export const FR_B2_U03_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into French (Lucas speaking).",
         source: "Although it's late, the concert is safe.",
-        answer: "Bien que ce soit tard, le concert est sans danger.",
-        altAnswers: ["Bien qu'il soit tard, le concert est sans danger.", "Même si c'est tard, le concert est sans danger.", "Bien que ce soit tard, le concert n'est pas dangereux."],
+        answer: "Bien qu'il soit tard, le concert est sans danger.",
+        altAnswers: ["Bien que ce soit tard, le concert est sans danger.", "Même s'il est tard, le concert est sans danger.", "Même si c'est tard, le concert est sans danger.", "Bien qu'il soit tard, le concert n'est pas dangereux."],
         explanation: "\"Bien que\" + subjunctive.",
       },
       {
@@ -579,10 +579,10 @@ export const FR_B2_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "After which conjunction is the ne explétif impossible?",
-        options: ["pour que", "avant que", "à moins que", "de peur que"],
+        question: "Which sentence is NOT correct?",
+        options: ["Je t'explique pour que tu ne comprennes.", "Partons avant qu'il ne pleuve.", "On sortira, à moins qu'il ne pleuve.", "Il se tait de peur qu'on ne se moque de lui."],
         correctIndex: 0,
-        explanation: "\"Pour que\" never takes the ne explétif.",
+        explanation: "\"Pour que\" never takes the ne explétif, so a lone \"ne\" there reads as a broken negative: say \"pour que tu comprennes\". The other three use the optional ne explétif correctly.",
       },
       {
         type: "multiple-choice",
@@ -755,8 +755,8 @@ export const FR_B2_U03_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "I'll help you on condition that you're serious. (to a friend)",
         answer: "Je t'aiderai à condition que tu sois sérieux.",
-        altAnswers: ["Je t'aiderai à condition que tu sois sérieuse.", "Je t'aide à condition que tu sois sérieux.", "Je t'aiderai à condition d'être sérieux."],
-        explanation: "\"À condition que tu sois\".",
+        altAnswers: ["Je t'aiderai à condition que tu sois sérieuse.", "Je t'aide à condition que tu sois sérieux."],
+        explanation: "Two subjects (I help, you're serious): \"à condition que tu sois\". \"À condition d'être sérieux\" would mean that I have to be serious.",
       },
       {
         type: "translate",
@@ -782,7 +782,7 @@ export const FR_B2_U03_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "I'm writing it down so that we don't forget.",
         answer: "Je le note pour qu'on n'oublie pas.",
-        altAnswers: ["Je le note pour que nous n'oubliions pas.", "Je le note pour ne pas oublier.", "Je l'écris pour qu'on n'oublie pas."],
+        altAnswers: ["Je le note pour que nous n'oubliions pas.", "Je l'écris pour qu'on n'oublie pas."],
         explanation: "\"Pour qu'on n'oublie pas\" (note \"oubliions\" with two i's for nous).",
       },
       {

@@ -17,11 +17,11 @@ export const PT_B2_U12: Lesson[] = [
         body: [
           "The \"redação\" that Brazilian schools, the ENEM and the Celpe-Bras ask for is a \"texto dissertativo-argumentativo\": a short essay that defends one position in the written norm. Its shape is fixed, and examiners mark the shape: an \"introdução\", two paragraphs of \"desenvolvimento\" and a \"conclusão\".",
           "Each paragraph has one job. The introduction presents the topic and states the thesis. Each development paragraph defends the thesis with one argument. The conclusion restates the thesis and, in the ENEM, proposes a solution. English essays often allow three body paragraphs or a closing anecdote; a Brazilian examiner expects four tight blocks and no surprises.",
-          "Write impersonally. Avoid \"eu acho\", \"a gente\" and \"pra\". The impersonal se and nominalisation from Unit 8 do this work: \"observa-se que\", \"a ampliação do acesso\".",
+          "Write impersonally. Avoid \"eu acho\", \"a gente\" and \"pra\". The impersonal se and nominalization from Unit 8 do this work: \"observa-se que\", \"a ampliação do acesso\".",
         ],
         examples: [
           { es: "No Brasil, milhões de jovens ainda não têm acesso à internet de qualidade.", en: "In Brazil, millions of young people still don't have access to good-quality internet. (introduction)" },
-          { es: "Em primeiro lugar, a falta de conexão prejudica o desempenho escolar.", en: "Firstly, the lack of connection harms school performance. (development 1)" },
+          { es: "Em primeiro lugar, a falta de conexão prejudica o desempenho escolar.", en: "First, the lack of connection harms school performance. (development 1)" },
           { es: "Além disso, o trabalho remoto exige uma conexão estável.", en: "Furthermore, remote work requires a stable connection. (development 2)" },
           { es: "Portanto, é necessário que o governo amplie o acesso à internet nas periferias.", en: "Therefore, the government needs to expand internet access in the outskirts. (conclusion)" },
           { es: "Observa-se que o problema é maior nas regiões Norte e Nordeste.", en: "It can be observed that the problem is greater in the North and Northeast." },
@@ -69,17 +69,17 @@ export const PT_B2_U12: Lesson[] = [
         examples: [
           { es: "Atualmente, o Brasil enfrenta um grave problema de mobilidade urbana.", en: "Brazil currently faces a serious urban mobility problem. (context)" },
           { es: "É inegável que as redes sociais transformaram a política brasileira.", en: "It is undeniable that social media has transformed Brazilian politics." },
-          { es: "É fundamental que o Estado invista em transporte público de qualidade.", en: "It is essential that the state invest in good public transport." },
+          { es: "É fundamental que o Estado invista em transporte público de qualidade.", en: "It is essential that the state invest in good public transportation." },
           { es: "Defende-se, neste texto, que o acesso à cultura é um direito, e não um privilégio.", en: "This text argues that access to culture is a right, not a privilege." },
           { es: "A violência urbana tem duas causas principais: a desigualdade social e a falta de políticas públicas.", en: "Urban violence has two main causes: social inequality and the lack of public policies." },
-          { es: "O trabalho remoto traz vantagens, mas exige novas leis trabalhistas.", en: "Remote work brings advantages, but it requires new labour laws." },
+          { es: "O trabalho remoto traz vantagens, mas exige novas leis trabalhistas.", en: "Remote work brings advantages, but it requires new labor laws." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "It is essential that the state invest in public transport.",
+            source: "It is essential that the state invest in public transportation.",
             answer: "É fundamental que o Estado invista em transporte público.",
             altAnswers: ["É essencial que o Estado invista em transporte público.", "É fundamental que o Estado invista no transporte público.", "É essencial que o Estado invista no transporte público."],
             explanation: "\"É fundamental que\" is an impersonal expression of necessity, so it takes the subjunctive: \"invista\", from \"invisto\". \"Estado\" takes a capital letter when it means the state as government.",
@@ -109,22 +109,22 @@ export const PT_B2_U12: Lesson[] = [
       {
         heading: "Development and conclusion",
         body: [
-          "Each development paragraph opens with a \"tópico frasal\", one sentence that states its argument. The rest of the paragraph supports it with an example, data, or cause and effect. The last sentence links back to the thesis. Keep to one argument per paragraph: two ideas squeezed into one paragraph cost marks.",
+          "Each development paragraph opens with a \"tópico frasal\", one sentence that states its argument. The rest of the paragraph supports it with an example, data, or cause and effect. The last sentence links back to the thesis. Keep to one argument per paragraph: two ideas squeezed into one paragraph cost points.",
           "Connectors signal the structure (you met them in B1 Unit 13). \"Em primeiro lugar\" opens the first argument, and \"além disso\" or \"por outro lado\" opens the second. The conclusion opens with \"portanto\", \"dessa forma\" or \"diante do exposto\" (in light of the above). It restates the thesis in new words and ends with a concrete proposal: who should do what, and how.",
         ],
         examples: [
-          { es: "Em primeiro lugar, o transporte público precário aumenta o tempo de deslocamento dos trabalhadores.", en: "Firstly, poor public transport increases workers' commuting time." },
+          { es: "Em primeiro lugar, o transporte público precário aumenta o tempo de deslocamento dos trabalhadores.", en: "First, poor public transportation increases workers' commuting time." },
           { es: "Em São Paulo, por exemplo, muitos trabalhadores passam três horas por dia no ônibus.", en: "In São Paulo, for example, many workers spend three hours a day on the bus." },
           { es: "Por outro lado, o excesso de carros piora a qualidade do ar.", en: "On the other hand, the excess of cars worsens air quality." },
           { es: "Diante do exposto, conclui-se que a mobilidade urbana exige ação imediata.", en: "In light of the above, it can be concluded that urban mobility requires immediate action." },
-          { es: "Dessa forma, cabe às prefeituras ampliar as linhas de ônibus e de metrô.", en: "Thus, it is up to city governments to expand bus and metro lines." },
+          { es: "Dessa forma, cabe às prefeituras ampliar as linhas de ônibus e de metrô.", en: "Thus, it is up to city governments to expand bus and subway lines." },
         ],
         checkpoint: [
           {
             type: "word-order",
-            prompt: "Put the words in order to say: Firstly, public transport is very expensive.",
+            prompt: "Put the words in order to say: First, public transportation is very expensive.",
             words: ["Em primeiro lugar,", "o transporte público", "é", "muito", "caro."],
-            translation: "Firstly, public transport is very expensive.",
+            translation: "First, public transportation is very expensive.",
             explanation: "\"Em primeiro lugar\" goes at the start of the paragraph's topic sentence, followed by a comma. It tells the examiner the first argument begins here.",
           },
           {
@@ -270,7 +270,7 @@ export const PT_B2_U12: Lesson[] = [
         heading: "The example: a case anyone can check",
         body: [
           "A thesis is only a claim until you back it up. The most concrete support is an example: a real case that shows the claim at work. Introduce it with \"por exemplo\", \"é o caso de\" (that's the case with), \"a exemplo de\" (following the example of) or \"basta observar\" (you only have to look at).",
-          "Pick examples the examiner could check: a city, a country, a public programme, a recent event. A personal anecdote (\"meu primo...\") carries little weight in a redação; \"a exemplo de Curitiba\" carries a lot. The preposition contracts with the article: \"é o caso da Finlândia\", \"a exemplo do Japão\".",
+          "Pick examples the examiner could check: a city, a country, a public program, a recent event. A personal anecdote (\"meu primo...\") carries little weight in a redação; \"a exemplo de Curitiba\" carries a lot. The preposition contracts with the article: \"é o caso da Finlândia\", \"a exemplo do Japão\".",
         ],
         examples: [
           { es: "Investir em professores dá resultado: é o caso da Finlândia.", en: "Investing in teachers pays off: Finland is a case in point." },
@@ -299,7 +299,7 @@ export const PT_B2_U12: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your thesis: investing in public transport reduces traffic. Which sentence supports it best in a redação?",
+            question: "Your thesis: investing in public transportation reduces traffic. Which sentence supports it best in a redação?",
             options: [
               "É o caso de Curitiba, cujo sistema de ônibus serviu de modelo para outras cidades.",
               "Meu primo pega ônibus todo dia e nunca pega trânsito.",
@@ -315,7 +315,7 @@ export const PT_B2_U12: Lesson[] = [
         heading: "Data and authority",
         body: [
           "Figures give an argument weight, but watch the false friend: \"a data\" is a date. Data is \"os dados\", always plural. Name the source first: \"segundo dados do IBGE\", \"de acordo com uma pesquisa do Datafolha\", \"conforme aponta a OMS\". A \"pesquisa\" is both research and a survey or poll.",
-          "An argument from authority borrows the voice of someone recognised in the field: \"como afirma Paulo Freire\", \"para o sociólogo Zygmunt Bauman\", or a law, \"a Constituição Federal de 1988 estabelece que...\". Paraphrase rather than misquote from memory, and remember that a popular saying (\"como diz o ditado\") is not an authority.",
+          "An argument from authority borrows the voice of someone recognized in the field: \"como afirma Paulo Freire\", \"para o sociólogo Zygmunt Bauman\", or a law, \"a Constituição Federal de 1988 estabelece que...\". Paraphrase rather than misquote from memory, and remember that a popular saying (\"como diz o ditado\") is not an authority.",
         ],
         examples: [
           { es: "Segundo dados do IBGE, a maior parte da população brasileira vive em áreas urbanas.", en: "According to IBGE figures, most of Brazil's population lives in urban areas." },
@@ -374,15 +374,14 @@ export const PT_B2_U12: Lesson[] = [
           { es: "A falta de saneamento básico provoca doenças que lotam os hospitais.", en: "The lack of basic sanitation causes diseases that fill the hospitals." },
           { es: "O uso excessivo de telas acarreta problemas de sono em crianças.", en: "Excessive screen use brings about sleep problems in children." },
           { es: "Em decorrência do aumento dos aluguéis, muitas famílias se mudaram para a periferia.", en: "As a result of rising rents, many families moved to the outskirts." },
-          { es: "O transporte público é precário; consequentemente, mais pessoas compram carro, o que agrava o trânsito.", en: "Public transport is poor; as a result, more people buy cars, which makes traffic worse." },
+          { es: "O transporte público é precário; consequentemente, mais pessoas compram carro, o que agrava o trânsito.", en: "Public transportation is poor; as a result, more people buy cars, which makes traffic worse." },
         ],
         checkpoint: [
           {
-            type: "fill-blank",
-            prompt: "Write the Portuguese for the bold words.",
-            en: "This is due [to the] lack of investment.",
-            sentence: "Isso se deve ___ falta de investimento.",
-            answer: "à",
+            type: "multiple-choice",
+            question: "Which word fills the gap? \"Isso se deve ___ falta de investimento.\" (This is due to the lack of investment.)",
+            options: ["à", "a", "ao", "da"],
+            correctIndex: 0,
             explanation: "\"Dever-se a\" + \"a falta\" gives the crase \"à\". With a masculine noun it would be \"ao\": \"se deve ao descaso\".",
           },
           {
@@ -531,7 +530,7 @@ export const PT_B2_U12: Lesson[] = [
         sentence: "A poluição do ar ___ problemas respiratórios.",
         answer: "acarreta",
         altAnswers: ["provoca", "causa", "gera", "traz"],
-        explanation: "\"Acarretar\" (to bring about) is a favourite essay verb for effects, and it takes a direct object. \"Provoca\", \"causa\" and \"gera\" also fit.",
+        explanation: "\"Acarretar\" (to bring about) is a favorite essay verb for effects, and it takes a direct object. \"Provoca\", \"causa\" and \"gera\" also fit.",
       },
       {
         type: "word-order",
@@ -649,7 +648,7 @@ export const PT_B2_U12: Lesson[] = [
         ],
         examples: [
           { es: "Contudo, é preciso considerar que muitos alunos não têm acesso à internet.", en: "However, we must bear in mind that many students have no internet access." },
-          { es: "No entanto, cabe lembrar que o transporte público ainda é precário nas periferias.", en: "However, it's worth remembering that public transport is still poor on the outskirts." },
+          { es: "No entanto, cabe lembrar que o transporte público ainda é precário nas periferias.", en: "However, it's worth remembering that public transportation is still poor on the outskirts." },
           { es: "Esse argumento ignora que a desigualdade começa na escola.", en: "This argument ignores the fact that inequality starts at school." },
           { es: "Tal visão não se sustenta, pois os dados mostram o contrário.", en: "This view doesn't hold up, because the data show the opposite." },
           { es: "Entretanto, vale ressaltar que o custo da medida seria alto.", en: "However, it should be stressed that the cost of the measure would be high." },
@@ -704,7 +703,7 @@ export const PT_B2_U12: Lesson[] = [
         examples: [
           { es: "É verdade que a medida tem custos; isso, porém, não significa que ela seja inviável.", en: "It's true that the measure has costs; that doesn't mean, however, that it's unworkable." },
           { es: "De fato, as redes sociais espalham notícias falsas.", en: "Social media do indeed spread fake news." },
-          { es: "Não se trata de negar que a tecnologia traz riscos, mas de reconhecer que ela também traz soluções.", en: "The point isn't to deny that technology brings risks, but to recognise that it also brings solutions." },
+          { es: "Não se trata de negar que a tecnologia traz riscos, mas de reconhecer que ela também traz soluções.", en: "The point isn't to deny that technology brings risks, but to recognize that it also brings solutions." },
           { es: "Por mais que a reforma custe caro, os benefícios compensam.", en: "However expensive the reform is, the benefits make up for it." },
           { es: "Ainda que o rodízio incomode os motoristas, ele reduz a poluição.", en: "Even if the rotation scheme annoys drivers, it reduces pollution." },
         ],
@@ -862,7 +861,7 @@ export const PT_B2_U12: Lesson[] = [
     level: "PT-B2",
     number: 4,
     title: "Cohesion: Not Repeating Yourself",
-    summary: "Refer back without repeating yourself, using the empty subject, pronouns, demonstratives, synonyms, hypernyms, labelling nouns like essa medida and tal problema, and connectors that sum up what came before.",
+    summary: "Refer back without repeating yourself, using the empty subject, pronouns, demonstratives, synonyms, hypernyms, labeling nouns like essa medida and tal problema, and connectors that sum up what came before.",
     duration: "15 min",
     kind: "teach",
     sections: [
@@ -878,7 +877,7 @@ export const PT_B2_U12: Lesson[] = [
           { es: "A violência urbana preocupa os brasileiros. É preciso enfrentá-la com políticas públicas.", en: "Urban violence worries Brazilians. It must be tackled with public policies." },
           { es: "Muitos jovens abandonam a escola. Isso explica parte do desemprego.", en: "Many young people drop out of school. This explains part of the unemployment." },
           { es: "O problema é este: faltam professores.", en: "The problem is this: there aren't enough teachers." },
-          { es: "O ônibus e o metrô são opções: aquele é mais barato; este, mais rápido.", en: "The bus and the metro are both options: the former is cheaper, the latter faster." },
+          { es: "O ônibus e o metrô são opções: aquele é mais barato; este, mais rápido.", en: "The bus and the subway are both options: the former is cheaper, the latter faster." },
         ],
         checkpoint: [
           {
@@ -913,17 +912,17 @@ export const PT_B2_U12: Lesson[] = [
         ],
       },
       {
-        heading: "Synonyms, hypernyms and labelling nouns",
+        heading: "Synonyms, hypernyms and labeling nouns",
         body: [
           "Repeating a noun three times in a paragraph costs points in a redação. Swap it for a synonym or a hypernym, which is a broader word for the same thing: \"o celular\" becomes \"o aparelho\", \"a dengue\" becomes \"a doença\", \"Drummond\" becomes \"o poeta\". The broader word must still point to only one thing in your text.",
-          "Labelling nouns go further and sum up a whole sentence in one phrase. After describing a new law, call it \"essa medida\". After describing traffic jams, call them \"esse problema\" or \"tal cenário\". \"Tal\" takes no article and agrees only in number: \"tal problema\", \"tais medidas\".",
+          "Labeling nouns go further and sum up a whole sentence in one phrase. After describing a new law, call it \"essa medida\". After describing traffic jams, call them \"esse problema\" or \"tal cenário\". \"Tal\" takes no article and agrees only in number: \"tal problema\", \"tais medidas\".",
           "\"O referido\" and \"o citado\" (the aforementioned) belong to reports and official texts: \"o referido projeto\". One or two per essay is plenty.",
         ],
         examples: [
           { es: "O celular mudou a rotina dos estudantes, e o aparelho já está presente até nas salas de aula.", en: "Cellphones have changed students' routines, and the device is now present even in classrooms." },
           { es: "Os casos de dengue aumentaram em Recife, e a doença já preocupa os hospitais.", en: "Dengue cases have risen in Recife, and the disease is already worrying hospitals." },
           { es: "Drummond nasceu em Itabira. O poeta mineiro transformou a cidade em tema de vários poemas.", en: "Drummond was born in Itabira. The poet from Minas made the town the subject of several poems." },
-          { es: "A prefeitura proibiu carros no centro aos domingos. Essa medida dividiu a opinião dos moradores.", en: "The city council banned cars from the centre on Sundays. This measure divided residents' opinion." },
+          { es: "A prefeitura proibiu carros no centro aos domingos. Essa medida dividiu a opinião dos moradores.", en: "The city council banned cars from the center on Sundays. This measure divided residents' opinion." },
           { es: "Muitas famílias gastam metade da renda com aluguel. Tal situação exige uma resposta do Estado.", en: "Many families spend half their income on rent. Such a situation demands a response from the state." },
           { es: "O referido projeto será votado na próxima semana.", en: "The aforementioned bill will be voted on next week." },
         ],
@@ -931,7 +930,7 @@ export const PT_B2_U12: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The council banned cars from the centre. [This measure] divided the residents.",
+            en: "The council banned cars from the center. [This measure] divided the residents.",
             sentence: "A prefeitura proibiu carros no centro. ___ dividiu os moradores.",
             answer: "Essa medida",
             altAnswers: ["Tal medida"],
@@ -951,7 +950,7 @@ export const PT_B2_U12: Lesson[] = [
             question: "Your paragraph has already said \"o celular\" twice. Which phrase refers back to it best in an essay?",
             options: ["o aparelho", "o mesmo", "a coisa", "o telefone fixo"],
             correctIndex: 0,
-            explanation: "\"O aparelho\" (the device) is a hypernym that clearly points to the cellphone. \"O mesmo\" as a pronoun is criticised, \"a coisa\" is too vague, and \"o telefone fixo\" is a different object.",
+            explanation: "\"O aparelho\" (the device) is a hypernym that clearly points to the cellphone. \"O mesmo\" as a pronoun is criticized, \"a coisa\" is too vague, and \"o telefone fixo\" is a different object.",
           },
         ],
       },
@@ -959,22 +958,22 @@ export const PT_B2_U12: Lesson[] = [
         heading: "Connectors that point back",
         body: [
           "Many connectors contain a demonstrative that sums up the previous sentence: \"diante disso\" (in view of this), \"nesse sentido\" (in this respect), \"dessa forma\" (in this way), \"por isso\" (that's why). Use the \"esse\" family here, not \"este\", because the idea is already behind you.",
-          "A trap Brazilian teachers always flag is \"o mesmo\" used as a pronoun, as in the famous lift sign \"verifique se o mesmo está parado\". It is bureaucratic and widely criticised. Use the noun, a pronoun or nothing at all.",
+          "A trap Brazilian teachers always flag is \"o mesmo\" used as a pronoun, as in the famous elevator sign \"verifique se o mesmo está parado\". It is bureaucratic and widely criticized. Use the noun, a pronoun or nothing at all.",
           "Vary your tools. A paragraph that leans only on \"isso\" repeats itself just as much as one that repeats the noun.",
         ],
         examples: [
-          { es: "O transporte público é caro e lento. Diante disso, muitos trabalhadores preferem a moto.", en: "Public transport is expensive and slow. In view of this, many workers prefer motorbikes." },
+          { es: "O transporte público é caro e lento. Diante disso, muitos trabalhadores preferem a moto.", en: "Public transportation is expensive and slow. In view of this, many workers prefer motorbikes." },
           { es: "A escola deve ensinar a ler notícias com senso crítico. Nesse sentido, a educação midiática é fundamental.", en: "Schools must teach people to read the news critically. In this respect, media literacy is essential." },
           { es: "As empresas investiram em energia solar e, dessa forma, reduziram os custos.", en: "The companies invested in solar energy and, in this way, cut their costs." },
           { es: "A reforma foi aprovada; por isso, os sindicatos marcaram uma greve.", en: "The reform was passed; that's why the unions called a strike." },
-          { es: "Antes de entrar no elevador, verifique se ele está parado neste andar.", en: "Before getting into the lift, check that it has stopped on this floor." },
+          { es: "Antes de entrar no elevador, verifique se ele está parado neste andar.", en: "Before getting into the elevator, check that it has stopped on this floor." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Public transport is slow. In view of this, many people prefer to cycle.",
+            source: "Public transportation is slow. In view of this, many people prefer to cycle.",
             answer: "O transporte público é lento. Diante disso, muitas pessoas preferem andar de bicicleta.",
             altAnswers: [
               "O transporte público é lento. Diante disso, muitas pessoas preferem ir de bicicleta.",
@@ -1031,10 +1030,10 @@ export const PT_B2_U12: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Bus and metro: [the former] is cheaper, the latter is faster.",
+        en: "Bus and subway: [the former] is cheaper, the latter is faster.",
         sentence: "Ônibus e metrô: ___ é mais barato, este é mais rápido.",
         answer: "aquele",
-        explanation: "With two items, \"aquele\" points to the one further back (the bus) and \"este\" to the nearer one (the metro).",
+        explanation: "With two items, \"aquele\" points to the one further back (the bus) and \"este\" to the nearer one (the subway).",
       },
       {
         type: "translate",
@@ -1117,10 +1116,10 @@ export const PT_B2_U12: Lesson[] = [
     duration: "15 min",
     sections: [
       {
-        heading: "Diante do exposto: signalling the end",
+        heading: "Diante do exposto: signaling the end",
         body: [
           "The conclusion of a redação is one paragraph with two jobs: restate the thesis and propose a solution. Open it with a conclusive connector so the reader knows the argument is over. The common ones are \"diante do exposto\" (in light of the above), \"portanto\", \"dessa forma\", \"em suma\" and \"conclui-se que\". \"Em conclusão\" exists but sounds translated from English.",
-          "Restate the thesis without repeating it. Suppose your introduction said \"a evasão escolar é grave\". The conclusion might say \"fica evidente que o abandono dos estudos compromete o futuro do país\", using the synonyms and nominalisations from earlier lessons. Don't add a new argument or statistic here. Anything the reader hasn't seen yet belongs in the development.",
+          "Restate the thesis without repeating it. Suppose your introduction said \"a evasão escolar é grave\". The conclusion might say \"fica evidente que o abandono dos estudos compromete o futuro do país\", using the synonyms and nominalizations from earlier lessons. Don't add a new argument or statistic here. Anything the reader hasn't seen yet belongs in the development.",
         ],
         examples: [
           { es: "Diante do exposto, fica claro que a desigualdade digital ainda exclui milhões de estudantes.", en: "In light of the above, it is clear that the digital divide still excludes millions of students." },
@@ -1161,14 +1160,14 @@ export const PT_B2_U12: Lesson[] = [
       {
         heading: "É necessário que o governo invista: the proposal",
         body: [
-          "Examiners check the proposal first. The ENEM calls it the \"proposta de intervenção\" and rewards four parts. The first is who acts (\"o governo\", \"as escolas\", \"a mídia\"). Then come what they do, how they do it (\"por meio de\", \"mediante\") and why (\"a fim de que\", \"para que\"). \"Algo deve ser feito\" names no one and loses marks.",
+          "Examiners check the proposal first. The ENEM calls it the \"proposta de intervenção\" and rewards four parts. The first is who acts (\"o governo\", \"as escolas\", \"a mídia\"). Then come what they do, how they do it (\"por meio de\", \"mediante\") and why (\"a fim de que\", \"para que\"). \"Algo deve ser feito\" names no one and loses points.",
           "Impersonal expressions with their own subject take the subjunctive, as in B1: \"é necessário que o governo invista\", \"é fundamental que as famílias participem\". With no subject, use the infinitive: \"é necessário investir\". The typical slip is the indicative, as in \"que o governo investe\". Purpose clauses with \"a fim de que\" and \"para que\" also take the subjunctive.",
           "\"Cabe a\" (it is up to) is followed by the agent and an infinitive: \"cabe ao Estado garantir\". Remember the crase before feminine agents: \"cabe à escola\", \"cabe às prefeituras\".",
         ],
         examples: [
-          { es: "É necessário que o governo invista em transporte público de qualidade.", en: "The government needs to invest in quality public transport." },
+          { es: "É necessário que o governo invista em transporte público de qualidade.", en: "The government needs to invest in quality public transportation." },
           { es: "É fundamental que as escolas ofereçam cursos de educação digital.", en: "It is essential that schools offer digital literacy courses." },
-          { es: "Cabe ao Ministério da Educação ampliar o acesso à internet nas escolas públicas.", en: "It is up to the Ministry of Education to expand internet access in state schools." },
+          { es: "Cabe ao Ministério da Educação ampliar o acesso à internet nas escolas públicas.", en: "It is up to the Ministry of Education to expand internet access in public schools." },
           { es: "Cabe à mídia divulgar campanhas contra o preconceito linguístico.", en: "It is up to the media to promote campaigns against linguistic prejudice." },
           { es: "As prefeituras devem criar ciclovias, por meio de parcerias com empresas privadas, a fim de que a população dependa menos do carro.", en: "City governments should build cycle lanes, through partnerships with private companies, so that people depend less on cars." },
           { es: "É preciso que a sociedade civil cobre ações concretas do poder público.", en: "Civil society needs to demand concrete action from the authorities." },
@@ -1195,7 +1194,7 @@ export const PT_B2_U12: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "It is necessary to invest in public transport.",
+            source: "It is necessary to invest in public transportation.",
             answer: "É necessário investir em transporte público.",
             altAnswers: [
               "É preciso investir em transporte público.",
@@ -1213,10 +1212,10 @@ export const PT_B2_U12: Lesson[] = [
           "Keep the impersonal style to the end with \"faz-se necessário\", \"deve-se\" or \"é preciso que\". \"Eu acho que\" and \"a gente tem que\" belong in conversation. In the final paragraph they undo the authority you built in the development.",
         ],
         examples: [
-          { es: "Dessa forma, será possível reduzir a evasão escolar nas periferias.", en: "In this way, it will be possible to reduce school dropout in poor neighbourhoods." },
+          { es: "Dessa forma, será possível reduzir a evasão escolar nas periferias.", en: "In this way, it will be possible to reduce school dropout in poor neighborhoods." },
           { es: "Assim, o país poderá enfrentar a crise climática com mais eficiência.", en: "Thus, the country will be able to tackle the climate crisis more effectively." },
           { es: "Somente assim os jovens terão as mesmas oportunidades, independentemente da renda da família.", en: "Only then will young people have the same opportunities, regardless of family income." },
-          { es: "Essas medidas farão com que mais jovens concluam o ensino médio.", en: "These measures will ensure that more young people finish secondary school." },
+          { es: "Essas medidas farão com que mais jovens concluam o ensino médio.", en: "These measures will ensure that more young people finish high school." },
           { es: "Faz-se necessário, portanto, que o Congresso aprove leis mais rígidas.", en: "It is therefore necessary for Congress to pass stricter laws." },
         ],
         checkpoint: [
@@ -1258,11 +1257,10 @@ export const PT_B2_U12: Lesson[] = [
         explanation: "\"É fundamental que\" with a named subject takes the subjunctive, so \"participem\", not \"participam\". \"Participar de\" is the usual Brazilian choice.",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the Portuguese for the bold words.",
-        en: "It is up [to the] school to fight bullying.",
-        sentence: "Cabe ___ escola combater o bullying.",
-        answer: "à",
+        type: "multiple-choice",
+        question: "Which word fills the gap? \"Cabe ___ escola combater o bullying.\" (It is up to the school to fight bullying.)",
+        options: ["a", "à", "ao", "na"],
+        correctIndex: 1,
         explanation: "\"Cabe a\" + \"a escola\" fuses into the crase \"à\". With a masculine agent it would be \"cabe ao governo\".",
       },
       {
@@ -1337,7 +1335,7 @@ export const PT_B2_U12: Lesson[] = [
       {
         type: "dictation",
         audio: "Cabe ao Estado garantir esse direito.",
-        explanation: "\"Cabe ao Estado\" + infinitive names the agent of the proposal. \"Estado\" is capitalised when it means the state as an institution.",
+        explanation: "\"Cabe ao Estado\" + infinitive names the agent of the proposal. \"Estado\" is capitalized when it means the state as an institution.",
       },
       {
         type: "translate",
@@ -1356,7 +1354,7 @@ export const PT_B2_U12: Lesson[] = [
         type: "speak",
         text: "Diante do exposto, é fundamental que o Estado invista em educação.",
         prompt: "Say it in Portuguese: In light of the above, it is essential that the state invest in education.",
-        tip: "Say \"diante\" as \"djiante\": the t before i sounds like ch. Keep the e of \"é\" open.",
+        tip: "Say \"diante\" as dji-AN-tchi: the d before i sounds like the j in jeep, and the final -te sounds like chee. Keep the e of \"é\" open.",
         explanation: "A conclusive connector, then an impersonal expression + \"que\" + the subjunctive \"invista\".",
       },
       {
@@ -1397,7 +1395,7 @@ export const PT_B2_U12: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "You're writing a redação on public transport. Which sentence works as an argument?",
+            question: "You're writing a redação on public transportation. Which sentence works as an argument?",
             options: [
               "Eu acho que o transporte público é péssimo.",
               "O transporte público é péssimo.",
@@ -1629,7 +1627,7 @@ export const PT_B2_U12: Lesson[] = [
     level: "PT-B2",
     number: 7,
     title: "Dialogue Lab: A Class Debate",
-    summary: "Follow a university debate on remote learning in Belo Horizonte and practise stating a thesis, rebutting politely and summarising both sides.",
+    summary: "Follow a university debate on remote learning in Belo Horizonte and practice stating a thesis, rebutting politely and summarizing both sides.",
     duration: "15 min",
     kind: "reinforce",
     format: "Dialogue Lab",
@@ -1897,7 +1895,7 @@ export const PT_B2_U12: Lesson[] = [
           "The most common slip is a thesis that opens with \"eu acho que\". A thesis is a claim you are going to prove, not a feeling, so examiners read \"eu acho\" as weak and personal. Use an impersonal frame instead: \"é inegável que\" + indicative, \"é fundamental que\" + subjunctive, or \"defende-se que\". You can also simply state the claim as a fact.",
         ],
         examples: [
-          { es: "Há muitos problemas no transporte público das grandes cidades.", en: "There are many problems with public transport in big cities." },
+          { es: "Há muitos problemas no transporte público das grandes cidades.", en: "There are many problems with public transportation in big cities." },
           { es: "É preciso repensar o modelo de ensino.", en: "The teaching model needs to be rethought." },
           { es: "É inegável que a internet transformou a educação.", en: "It is undeniable that the internet has transformed education." },
           { es: "É fundamental que o Estado invista em saneamento básico.", en: "It is essential that the state invest in basic sanitation." },
@@ -1941,13 +1939,13 @@ export const PT_B2_U12: Lesson[] = [
         heading: "Missing Links and Run-On Sentences",
         body: [
           "A paragraph of unlinked sentences reads like a list, and the examiner has to guess how the ideas relate. Each sentence should signal its relation to the one before. Use \"além disso\" to add, \"no entanto\" to contrast, \"uma vez que\" to give a cause, and \"portanto\" or \"por isso\" to draw a result.",
-          "The opposite fault is the run-on: clauses strung together with commas, or with \"e\" after \"e\". One example is \"*O trânsito piorou, as pessoas perdem horas, ninguém faz nada\". As in English, a comma alone can't join two complete sentences. Break the chain with a full stop or a connector. When \"no entanto\" or \"portanto\" opens a new clause, put a full stop or a semicolon before it.",
+          "The opposite fault is the run-on: clauses strung together with commas, or with \"e\" after \"e\". One example is \"*O trânsito piorou, as pessoas perdem horas, ninguém faz nada\". As in English, a comma alone can't join two complete sentences. Break the chain with a period or a connector. When \"no entanto\" or \"portanto\" opens a new clause, put a period or a semicolon before it.",
         ],
         examples: [
-          { es: "O trânsito piorou nos últimos anos. Por isso, muitos trabalhadores passam horas no ônibus.", en: "Traffic has got worse in recent years. That's why many workers spend hours on the bus." },
+          { es: "O trânsito piorou nos últimos anos. Por isso, muitos trabalhadores passam horas no ônibus.", en: "Traffic has gotten worse in recent years. That's why many workers spend hours on the bus." },
           { es: "Os salários subiram; no entanto, o custo de vida subiu ainda mais.", en: "Wages went up; however, the cost of living went up even more." },
           { es: "Além disso, a poluição do ar aumentou nas capitais.", en: "In addition, air pollution has increased in the state capitals." },
-          { es: "Uma vez que o transporte é precário, muitas famílias dependem do carro.", en: "Since public transport is poor, many families depend on the car." },
+          { es: "Uma vez que o transporte é precário, muitas famílias dependem do carro.", en: "Since public transportation is poor, many families depend on the car." },
           { es: "A tecnologia facilita o acesso à informação. Contudo, ela também espalha notícias falsas.", en: "Technology makes information easier to access. However, it also spreads fake news." },
         ],
         checkpoint: [
@@ -1964,12 +1962,12 @@ export const PT_B2_U12: Lesson[] = [
               "Os cursos a distância são mais baratos, mas muitos alunos desistem.",
               "Cursos a distância são mais baratos; no entanto, muitos alunos desistem.",
             ],
-            explanation: "The contrast connector does the work that a bare comma can't. Before \"no entanto\" opening a clause, use a semicolon or a full stop. \"Mas\" after a comma is also fine.",
+            explanation: "The contrast connector does the work that a bare comma can't. Before \"no entanto\" opening a clause, use a semicolon or a period. \"Mas\" after a comma is also fine.",
           },
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Rent is cheaper far from the centre. [However], most jobs are there.",
+            en: "Rent is cheaper far from the center. [However], most jobs are there.",
             sentence: "O aluguel é mais barato longe do centro. ___, a maioria dos empregos fica lá.",
             answer: "No entanto",
             altAnswers: ["Porém", "Contudo", "Entretanto", "Todavia"],
@@ -1988,7 +1986,7 @@ export const PT_B2_U12: Lesson[] = [
         heading: "Repeated Nouns and the All-Purpose \"Onde\"",
         body: [
           "Repeating the key noun in every sentence (\"a violência... a violência... a violência\") makes a text heavy. As in the cohesion lesson, refer back with a demonstrative plus a general noun (\"esse problema\", \"tal medida\") or with a synonym.",
-          "\"Onde\" refers to a place, as in \"a cidade onde nasci\". Many learners, and many Brazilians in speech, stretch it to times, situations, laws and texts: \"*um período onde\", \"*a lei onde o governo criou\". Examiners penalise this. Ask whether the antecedent is a place. If it isn't, use \"em que\" or \"no qual / na qual\", or plain \"que\" when no preposition is needed: \"um período em que\", \"a lei que o governo criou\".",
+          "\"Onde\" refers to a place, as in \"a cidade onde nasci\". Many learners, and many Brazilians in speech, stretch it to times, situations, laws and texts: \"*um período onde\", \"*a lei onde o governo criou\". Examiners penalize this. Ask whether the antecedent is a place. If it isn't, use \"em que\" or \"no qual / na qual\", or plain \"que\" when no preposition is needed: \"um período em que\", \"a lei que o governo criou\".",
         ],
         examples: [
           { es: "A violência urbana cresceu. Esse problema afeta sobretudo a periferia.", en: "Urban violence has grown. This problem mainly affects the outskirts." },
@@ -2027,7 +2025,7 @@ export const PT_B2_U12: Lesson[] = [
               "A pandemia foi um momento o qual muitas empresas fecharam.",
             ],
             correctIndex: 0,
-            explanation: "A moment is a time, so the norm wants \"em que\" (or \"no qual\"). Dropping the preposition is spoken usage. \"Aonde\" is for movement towards a place.",
+            explanation: "A moment is a time, so the norm wants \"em que\" (or \"no qual\"). Dropping the preposition is spoken usage. \"Aonde\" is for movement toward a place.",
           },
         ],
       },
@@ -2063,7 +2061,7 @@ export const PT_B2_U12: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Public transport is poor. [For that reason], many people use the car.",
+        en: "Public transportation is poor. [For that reason], many people use the car.",
         sentence: "O transporte público é precário. ___, muitas pessoas usam o carro.",
         answer: "Por isso",
         altAnswers: ["Portanto", "Assim", "Dessa forma", "Por esse motivo", "Por conseguinte"],
@@ -2140,7 +2138,7 @@ export const PT_B2_U12: Lesson[] = [
     level: "PT-B2",
     number: 9,
     title: "Build-Up: From Thesis to Essay",
-    summary: "Grow one thesis sentence into a complete redação on public transport: introduction, two development paragraphs, a counter-argument and a concluding proposal.",
+    summary: "Grow one thesis sentence into a complete redação on public transportation: introduction, two development paragraphs, a counter-argument and a concluding proposal.",
     duration: "15 min",
     sections: [
       {
@@ -2152,16 +2150,16 @@ export const PT_B2_U12: Lesson[] = [
         examples: [
           { es: "Nas grandes cidades brasileiras, milhões de pessoas passam horas no trânsito todos os dias.", en: "In Brazil's big cities, millions of people spend hours in traffic every day." },
           { es: "Segundo pesquisas recentes, muitos trabalhadores gastam mais de duas horas por dia no deslocamento.", en: "According to recent surveys, many workers spend more than two hours a day commuting." },
-          { es: "É fundamental que o poder público invista no transporte coletivo, já que ele reduz a desigualdade e a poluição.", en: "It is essential that the government invest in public transport, since it reduces inequality and pollution." },
-          { es: "Defende-se, neste texto, que o transporte público de qualidade é um direito, e não um luxo.", en: "This text argues that good public transport is a right, not a luxury." },
-          { es: "Eu acho que o transporte é um problema.", en: "I think transport is a problem. (too vague and personal for a thesis)" },
+          { es: "É fundamental que o poder público invista no transporte coletivo, já que ele reduz a desigualdade e a poluição.", en: "It is essential that the government invest in public transportation, since it reduces inequality and pollution." },
+          { es: "Defende-se, neste texto, que o transporte público de qualidade é um direito, e não um luxo.", en: "This text argues that good public transportation is a right, not a luxury." },
+          { es: "Eu acho que o transporte é um problema.", en: "I think transportation is a problem. (too vague and personal for a thesis)" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "It is essential that the government invest in public transport.",
+            source: "It is essential that the government invest in public transportation.",
             answer: "É fundamental que o governo invista no transporte público.",
             altAnswers: [
               "É essencial que o governo invista no transporte público.",
@@ -2188,7 +2186,7 @@ export const PT_B2_U12: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[It is argued] that good public transport is a right.",
+            en: "[It is argued] that good public transportation is a right.",
             sentence: "___ que o transporte público de qualidade é um direito.",
             answer: "Defende-se",
             explanation: "\"Defende-se que\" states the thesis without \"eu\". Ênclise is the written norm at the start of a sentence.",
@@ -2202,18 +2200,18 @@ export const PT_B2_U12: Lesson[] = [
           "The commonest weakness is evidence that floats free, like a nice fact about Curitiba that never explains why it supports your position. If you can't finish the sentence \"isso mostra que...\", the evidence isn't doing its job. Vary your reference words as well: say \"o transporte coletivo\" first, then \"esse serviço\", then \"tal sistema\".",
         ],
         examples: [
-          { es: "Em primeiro lugar, o transporte coletivo reduz a desigualdade social.", en: "In the first place, public transport reduces social inequality." },
+          { es: "Em primeiro lugar, o transporte coletivo reduz a desigualdade social.", en: "In the first place, public transportation reduces social inequality." },
           { es: "Quem mora na periferia depende do ônibus para chegar ao trabalho, à escola e ao hospital.", en: "People who live on the outskirts depend on the bus to get to work, school and hospital." },
           { es: "Um exemplo disso é Curitiba, cujo sistema de ônibus serve de modelo para outras cidades.", en: "One example of this is Curitiba, whose bus system serves as a model for other cities." },
           { es: "Além disso, cada ônibus cheio tira dezenas de carros das ruas, o que diminui a emissão de gases poluentes.", en: "Moreover, every full bus takes dozens of cars off the streets, which cuts polluting emissions." },
-          { es: "Dessa forma, investir em transporte é também investir no meio ambiente.", en: "In this way, investing in transport is also investing in the environment." },
+          { es: "Dessa forma, investir em transporte é também investir no meio ambiente.", en: "In this way, investing in transportation is also investing in the environment." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "In the first place, public transport reduces social inequality.",
+            source: "In the first place, public transportation reduces social inequality.",
             answer: "Em primeiro lugar, o transporte público reduz a desigualdade social.",
             altAnswers: [
               "Em primeiro lugar, o transporte coletivo reduz a desigualdade social.",
@@ -2224,9 +2222,9 @@ export const PT_B2_U12: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: In this way, investing in transport is investing in the environment.",
+            prompt: "Put the words in order to say: In this way, investing in transportation is investing in the environment.",
             words: ["Dessa forma,", "investir em transporte", "é investir", "no meio ambiente."],
-            translation: "In this way, investing in transport is investing in the environment.",
+            translation: "In this way, investing in transportation is investing in the environment.",
             explanation: "\"Dessa forma\" opens the closing sentence of the paragraph and links the evidence back to the thesis.",
           },
           {
@@ -2247,13 +2245,13 @@ export const PT_B2_U12: Lesson[] = [
       {
         heading: "Step 3: the other side, then a proposal",
         body: [
-          "The second development paragraph, or the start of the conclusion, is a good place to answer the other side. \"Embora alguns afirmem que...\" concedes the point, and \"no entanto\" turns the argument back towards your thesis. \"Embora\" takes the subjunctive, but the verb after \"afirmar que\" stays indicative.",
+          "The second development paragraph, or the start of the conclusion, is a good place to answer the other side. \"Embora alguns afirmem que...\" concedes the point, and \"no entanto\" turns the argument back toward your thesis. \"Embora\" takes the subjunctive, but the verb after \"afirmar que\" stays indicative.",
           "The conclusion restates the thesis in new words (\"diante do exposto\", \"portanto\") and ends with a concrete proposal. Brazilian examiners expect four elements: who acts (the agent), what they do, how (\"por meio de...\") and why (\"a fim de que\" or \"para que\" + subjunctive). \"O governo deve melhorar o transporte\" is too vague, because it never says how or why.",
         ],
         examples: [
           { es: "Embora alguns afirmem que essas obras são caras, o prejuízo causado pelos congestionamentos é ainda maior.", en: "Although some claim these projects are expensive, the losses caused by traffic jams are even greater." },
           { es: "No entanto, é preciso considerar que tal investimento gera empregos e movimenta a economia.", en: "However, we must consider that such investment creates jobs and boosts the economy." },
-          { es: "Diante do exposto, fica claro que o transporte coletivo deve ser prioridade.", en: "In light of the above, it is clear that public transport must be a priority." },
+          { es: "Diante do exposto, fica claro que o transporte coletivo deve ser prioridade.", en: "In light of the above, it is clear that public transportation must be a priority." },
           { es: "Portanto, cabe às prefeituras ampliar as faixas exclusivas de ônibus, por meio de parcerias com o governo federal, a fim de que o deslocamento seja mais rápido e barato.", en: "Therefore, it is up to city governments to expand bus lanes, through partnerships with the federal government, so that commuting becomes faster and cheaper." },
           { es: "É necessário que o governo invista no metrô, para que menos pessoas dependam do carro.", en: "The government needs to invest in the subway, so that fewer people depend on the car." },
         ],
@@ -2271,7 +2269,7 @@ export const PT_B2_U12: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "In light of the above, it is clear that public transport must be a priority.",
+            source: "In light of the above, it is clear that public transportation must be a priority.",
             answer: "Diante do exposto, fica claro que o transporte público deve ser prioridade.",
             altAnswers: [
               "Diante do exposto, fica claro que o transporte público deve ser uma prioridade.",
@@ -2379,7 +2377,7 @@ export const PT_B2_U12: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Public transport is cheap. [This service] also reduces pollution.",
+        en: "Public transportation is cheap. [This service] also reduces pollution.",
         sentence: "O transporte coletivo é barato. ___ também reduz a poluição.",
         answer: "Esse serviço",
         altAnswers: ["Este serviço", "Tal serviço"],
@@ -2405,8 +2403,8 @@ export const PT_B2_U12: Lesson[] = [
       {
         type: "speak",
         text: "É fundamental que as cidades priorizem o transporte coletivo.",
-        prompt: "Say it in Portuguese: It is essential that cities prioritise public transport.",
-        tip: "In \"fundamental\" and \"cidades\", the d before a or e stays a plain d. Only the final -des of \"cidades\" softens towards dji.",
+        prompt: "Say it in Portuguese: It is essential that cities prioritize public transportation.",
+        tip: "In \"fundamental\" and \"cida-\", the d before a is a plain d. The final -des of \"cidades\" sounds like djis: si-DA-djis.",
         explanation: "\"É fundamental que\" + subjunctive: \"priorizar\" → \"priorizem\". This is a thesis opener you can use in any essay.",
       },
     ],
@@ -2422,13 +2420,13 @@ export const PT_B2_U12: Lesson[] = [
       {
         heading: "Thesis and evidence",
         body: [
-          "A redação opens with a claim, not a feeling. Swap \"eu acho que\" for an impersonal frame such as \"é inegável que\", \"observa-se que\" or \"defende-se que\". The mood follows the meaning. \"É inegável que\" states a fact and takes the indicative. \"É fundamental que\" and \"é necessário que\" make a judgement and take the subjunctive.",
+          "A redação opens with a claim, not a feeling. Swap \"eu acho que\" for an impersonal frame such as \"é inegável que\", \"observa-se que\" or \"defende-se que\". The mood follows the meaning. \"É inegável que\" states a fact and takes the indicative. \"É fundamental que\" and \"é necessário que\" make a judgment and take the subjunctive.",
           "Each development paragraph backs the thesis with one kind of evidence: an example, a figure, an authority, or a cause and its effect. Then link it back to the thesis with \"isso demonstra que\" or \"prova disso é\". A figure left on its own persuades nobody.",
           "Keep the first person out. Brazilian examiners read \"eu acho\" in a thesis as informal, even when the rest of the essay is strong.",
         ],
         examples: [
           { es: "É inegável que a tecnologia transformou a educação no Brasil.", en: "It's undeniable that technology has transformed education in Brazil." },
-          { es: "É fundamental que as escolas públicas tenham acesso à internet.", en: "It's essential that state schools have internet access." },
+          { es: "É fundamental que as escolas públicas tenham acesso à internet.", en: "It's essential that public schools have internet access." },
           { es: "Observa-se que o número de leitores jovens tem crescido.", en: "The number of young readers has been growing." },
           { es: "Segundo uma pesquisa recente, metade dos estudantes usa o celular para estudar.", en: "According to a recent survey, half of students use their phones to study." },
           { es: "Prova disso é o aumento da evasão escolar nas periferias.", en: "Proof of this is the rise in school dropout in the outskirts." },
@@ -2442,7 +2440,7 @@ export const PT_B2_U12: Lesson[] = [
             source: "It's essential that the government invest in education.",
             answer: "É fundamental que o governo invista em educação.",
             altAnswers: ["É fundamental que o governo invista na educação.", "É essencial que o governo invista em educação.", "É essencial que o governo invista na educação."],
-            explanation: "\"É fundamental que\" makes a judgement, so it takes the present subjunctive: \"invista\", from \"eu invisto\". \"Investe\" is the common mistake here.",
+            explanation: "\"É fundamental que\" makes a judgment, so it takes the present subjunctive: \"invista\", from \"eu invisto\". \"Investe\" is the common mistake here.",
           },
           {
             type: "fill-blank",
@@ -2578,7 +2576,7 @@ export const PT_B2_U12: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Although public transport has improved, it is still insufficient.",
+        source: "Although public transportation has improved, it is still insufficient.",
         answer: "Embora o transporte público tenha melhorado, ele ainda é insuficiente.",
         altAnswers: [
           "Embora o transporte público tenha melhorado, ainda é insuficiente.",

@@ -17,7 +17,7 @@ export const PT_C2_U03: Lesson[] = [
         body: [
           "Brazilians use proverbs constantly, not as quaint relics but as shorthand for a whole argument. They often come with a frame: \"como diz o ditado\" (as the saying goes) or \"já dizia minha avó\" (as my grandmother used to say). Sometimes the proverb is simply dropped in as the last word on a topic. Many open with \"quem\" + present indicative, a generic whoever: \"quem não tem cão caça com gato\" (if you've no dog, hunt with a cat), said when you improvise with whatever is available.",
           "Patience gets several. \"De grão em grão a galinha enche o papo\" (grain by grain the hen fills her crop) is for saving money or slow progress. \"Devagar se vai ao longe\" (slowly you go far) encourages steady effort. \"A pressa é inimiga da perfeição\" (haste is the enemy of perfection) is aimed at someone rushing a job.",
-          "Proverbs freeze older syntax, like the impersonal \"se\" placed after \"devagar\". Never modernise them, and never translate an English proverb word for word: 'slow and steady wins the race' has no literal Brazilian twin, so reach for the local saying.",
+          "Proverbs freeze older syntax, like the impersonal \"se\" placed after \"devagar\". Never modernize them, and never translate an English proverb word for word: 'slow and steady wins the race' has no literal Brazilian twin, so reach for the local saying.",
         ],
         examples: [
           { es: "Esqueci o guarda-chuva, mas quem não tem cão caça com gato: usei uma sacola de mercado.", en: "I forgot my umbrella, but you make do with what you've got: I used a shopping bag." },
@@ -55,7 +55,7 @@ export const PT_C2_U03: Lesson[] = [
           {
             type: "speak",
             text: "De grão em grão a galinha enche o papo.",
-            tip: "Make \"grão\" fully nasal with no n at the end, nasalise the e of \"enche\", and let the final o of \"papo\" sound like u.",
+            tip: "Make \"grão\" fully nasal with no n at the end, nasalize the e of \"enche\", and let the final o of \"papo\" sound like u.",
             explanation: "\"De grão em grão\" (grain by grain) sets the slow rhythm of the proverb, so say it evenly, without rushing.",
           },
         ],
@@ -63,12 +63,12 @@ export const PT_C2_U03: Lesson[] = [
       {
         heading: "Appearances and irony",
         body: [
-          "\"Quem vê cara não vê coração\" (whoever sees the face doesn't see the heart) warns that people aren't what they seem, in both directions: the charming colleague who betrays you, the gruff neighbour who turns out kind. \"Nem tudo que reluz é ouro\" (not all that glitters is gold) applies the idea to offers and things. You'll rarely meet \"reluzir\" outside this saying.",
+          "\"Quem vê cara não vê coração\" (whoever sees the face doesn't see the heart) warns that people aren't what they seem, in both directions: the charming colleague who betrays you, the gruff neighbor who turns out kind. \"Nem tudo que reluz é ouro\" (not all that glitters is gold) applies the idea to offers and things. You'll rarely meet \"reluzir\" outside this saying.",
           "\"Em casa de ferreiro, o espeto é de pau\" (in the blacksmith's house, the skewer is wooden) points to a professional who neglects their own needs: the dentist with bad teeth, the IT expert whose laptop never works. It's the cobbler's children going barefoot, and Brazilians often say it about themselves with a laugh.",
-          "Tone matters. Among friends these proverbs sound warm and wry. Used to lecture a colleague, they can sound patronising, like quoting your grandmother in a meeting.",
+          "Tone matters. Among friends these proverbs sound warm and wry. Used to lecture a colleague, they can sound patronizing, like quoting your grandmother in a meeting.",
         ],
         examples: [
-          { es: "O vizinho novo parecia antipático, mas é um amor. Quem vê cara não vê coração.", en: "The new neighbour seemed unfriendly, but he's a sweetheart. You can't judge a book by its cover." },
+          { es: "O vizinho novo parecia antipático, mas é um amor. Quem vê cara não vê coração.", en: "The new neighbor seemed unfriendly, but he's a sweetheart. You can't judge a book by its cover." },
           { es: "Esse investimento promete lucro rápido demais. Nem tudo que reluz é ouro.", en: "That investment promises profit far too fast. All that glitters is not gold." },
           { es: "Sou eletricista e a tomada da minha cozinha está quebrada há meses. Em casa de ferreiro, o espeto é de pau.", en: "I'm an electrician and the socket in my kitchen has been broken for months. The cobbler's children go barefoot." },
           { es: "O Rafael é programador e o computador dele vive travando.", en: "Rafael is a programmer and his computer is always freezing." },
@@ -118,7 +118,7 @@ export const PT_C2_U03: Lesson[] = [
         examples: [
           { es: "Vocês brigaram há dois anos. Águas passadas não movem moinho.", en: "You two fell out two years ago. It's water under the bridge." },
           { es: "Não fique remoendo aquela entrevista: águas passadas não movem moinho.", en: "Don't keep going over that interview: what's done is done." },
-          { es: "O Lucas finalmente pediu desculpas. Antes tarde do que nunca!", en: "Lucas finally apologised. Better late than never!" },
+          { es: "O Lucas finalmente pediu desculpas. Antes tarde do que nunca!", en: "Lucas finally apologized. Better late than never!" },
           { es: "Cheguei à feira às seis e peguei as melhores frutas. Deus ajuda quem cedo madruga.", en: "I got to the market at six and got the best fruit. The early bird catches the worm." },
           { es: "Eu aceitaria a proposta. Mais vale um pássaro na mão do que dois voando.", en: "I'd take the offer. A bird in the hand is worth two in the bush." },
           { es: "Ele passou a perna em todo mundo e agora foi demitido. Quem com ferro fere com ferro será ferido.", en: "He cheated everyone and now he's been fired. What goes around comes around." },
@@ -295,7 +295,7 @@ export const PT_C2_U03: Lesson[] = [
         ],
         examples: [
           { es: "Não desista do concurso: água mole em pedra dura, tanto bate até que fura.", en: "Don't give up on the civil-service exam: keep at it and you'll get there." },
-          { es: "A fila está enorme, mas quem espera sempre alcança.", en: "The queue is huge, but good things come to those who wait." },
+          { es: "A fila está enorme, mas quem espera sempre alcança.", en: "The line is huge, but good things come to those who wait." },
           { es: "Saio de casa às cinco da manhã: Deus ajuda quem cedo madruga.", en: "I leave home at five in the morning: the early bird catches the worm." },
           { es: "Revise o contrato com calma; a pressa é inimiga da perfeição.", en: "Go over the contract carefully; haste makes waste." },
           { es: "Levei o guarda-chuva mesmo com sol. O seguro morreu de velho.", en: "I took my umbrella even though it was sunny. Better safe than sorry." },
@@ -344,7 +344,7 @@ export const PT_C2_U03: Lesson[] = [
           { es: "O filho do Gilberto também é músico. Filho de peixe, peixinho é.", en: "Gilberto's son is a musician too. Like father, like son." },
           { es: "Ele prometeu mudar, mas pau que nasce torto nunca se endireita.", en: "He promised to change, but a leopard can't change its spots." },
           { es: "Diga-me com quem andas e eu te direi quem és.", en: "Tell me who your friends are and I'll tell you who you are." },
-          { es: "O político que espalhou boatos agora é vítima deles: quem com ferro fere, com ferro será ferido.", en: "The politician who spread rumours is now their victim: he who lives by the sword dies by the sword." },
+          { es: "O político que espalhou boatos agora é vítima deles: quem com ferro fere, com ferro será ferido.", en: "The politician who spread rumors is now their victim: he who lives by the sword dies by the sword." },
           { es: "Quem semeia vento colhe tempestade.", en: "Sow the wind, reap the whirlwind." },
           { es: "O síndico grita muito, mas cão que ladra não morde.", en: "The building manager shouts a lot, but his bark is worse than his bite." },
         ],
@@ -539,13 +539,13 @@ export const PT_C2_U03: Lesson[] = [
         body: [
           "\"Dar com os burros n'água\" means to fail, to see a plan come to nothing after real effort. The image is a muleteer who drives his mules (\"burros\") into a flooded river and loses the cargo. The person is the subject and only \"dar\" changes: \"ele deu com os burros n'água\", \"vocês vão dar com os burros n'água\". A project or a deal can be the subject too. \"N'água\" is em + água; \"na água\" is also correct.",
           "The idiom carries a hint of I-told-you-so, so it turns up in warnings, often with the future subjunctive: \"se você insistir nisso, vai dar com os burros n'água\". Plain \"fracassar\" or \"não dar certo\" states the fact. The idiom adds the picture of effort poured into a river.",
-          "\"Fazer uma vaquinha\" is to pool money as a group. It covers a whip-round for a colleague's present, friends splitting the cost of a churrasco, or an online fundraiser (\"vaquinha online\"). You \"entra na vaquinha\" (chip in). The story most often told ties it to the \"jogo do bicho\", the illegal animal lottery, in which the cow is number 25.",
+          "\"Fazer uma vaquinha\" is to pool money as a group. It covers a collection for a colleague's present, friends splitting the cost of a churrasco, or an online fundraiser (\"vaquinha online\"). You \"entra na vaquinha\" (chip in). The story most often told ties it to the \"jogo do bicho\", the illegal animal lottery, in which the cow is number 25.",
         ],
         examples: [
           { es: "O restaurante do Marcelo deu com os burros n'água em menos de um ano.", en: "Marcelo's restaurant went under in less than a year." },
-          { es: "Tentamos convencer o síndico, mas demos com os burros n'água.", en: "We tried to talk the building manager round, but got nowhere." },
-          { es: "Se você abrir a loja sem pesquisar o mercado, vai dar com os burros n'água.", en: "If you open the shop without researching the market, it'll flop." },
-          { es: "O pessoal do escritório fez uma vaquinha para o presente da Dona Célia.", en: "The office had a whip-round for Dona Célia's present." },
+          { es: "Tentamos convencer o síndico, mas demos com os burros n'água.", en: "We tried to talk the building manager around, but got nowhere." },
+          { es: "Se você abrir a loja sem pesquisar o mercado, vai dar com os burros n'água.", en: "If you open the store without researching the market, it'll flop." },
+          { es: "O pessoal do escritório fez uma vaquinha para o presente da Dona Célia.", en: "The office took up a collection for Dona Célia's present." },
           { es: "Quem vai entrar na vaquinha do churrasco?", en: "Who's chipping in for the barbecue?" },
           { es: "A família fez uma vaquinha online para pagar a cirurgia.", en: "The family set up an online fundraiser to pay for the surgery." },
         ],
@@ -562,7 +562,7 @@ export const PT_C2_U03: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Let's [have a whip-round] for the barbecue.",
+            en: "Let's [take up a collection] for the barbecue.",
             sentence: "Vamos ___ para o churrasco.",
             answer: "fazer uma vaquinha",
             explanation: "\"Fazer uma vaquinha\" is to pool money as a group, always with the indefinite article.",
@@ -604,7 +604,7 @@ export const PT_C2_U03: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "When it comes to football, I'm hopeless.",
+            source: "When it comes to soccer, I'm hopeless.",
             answer: "Em futebol, eu sou um zero à esquerda.",
             altAnswers: ["Em futebol, sou um zero à esquerda.", "No futebol, eu sou um zero à esquerda.", "No futebol, sou um zero à esquerda.", "Eu sou um zero à esquerda em futebol.", "Sou um zero à esquerda em futebol.", "Eu sou um zero à esquerda no futebol.", "Sou um zero à esquerda no futebol."],
             explanation: "\"Ser um zero à esquerda\" plus \"em\" for the field. Use it about yourself and it's harmless self-deprecation. Keep the crase in \"à esquerda\".",
@@ -676,7 +676,7 @@ export const PT_C2_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Let's have a whip-round for Lucas's birthday.",
+        source: "Let's take up a collection for Lucas's birthday.",
         answer: "Vamos fazer uma vaquinha para o aniversário do Lucas.",
         altAnswers: ["Vamos fazer uma vaquinha pro aniversário do Lucas.", "Vamos fazer uma vaquinha para o aniversário de Lucas.", "Bora fazer uma vaquinha pro aniversário do Lucas.", "Bora fazer uma vaquinha para o aniversário do Lucas."],
         explanation: "\"Fazer uma vaquinha\" covers any group collection: a present, a party, a fundraiser.",
@@ -761,15 +761,15 @@ export const PT_C2_U03: Lesson[] = [
     slug: "c2-football-language",
     level: "PT-C2",
     number: 4,
-    title: "The Language of Football",
-    summary: "The football expressions Brazilians use everywhere, from pisar na bola and virar o jogo to show de bola and dar um chapéu, and where each one fits.",
+    title: "The Language of Soccer",
+    summary: "The soccer expressions Brazilians use everywhere, from pisar na bola and virar o jogo to show de bola and dar um chapéu, and where each one fits.",
     duration: "15 min",
     kind: "teach",
     sections: [
       {
         heading: "Pisar na bola, virar o jogo: mistakes and comebacks",
         body: [
-          "Football lends Brazilian Portuguese many of its everyday phrases for failure and recovery. You'll hear them in offices, newsrooms and family arguments alike. \"Pisar na bola\" (literally to step on the ball and go sprawling) means to mess up. It reaches further than drop the ball: it also covers letting someone down or breaking their trust. The person you failed takes \"com\": \"pisei na bola com você\".",
+          "Soccer lends Brazilian Portuguese many of its everyday phrases for failure and recovery. You'll hear them in offices, newsrooms and family arguments alike. \"Pisar na bola\" (literally to step on the ball and go sprawling) means to mess up. It reaches further than drop the ball: it also covers letting someone down or breaking their trust. The person you failed takes \"com\": \"pisei na bola com você\".",
           "A gaffe is \"uma bola fora\" (\"dar uma bola fora\"), and a well-judged decision is \"uma bola dentro\". \"Fazer um gol contra\" is to score an own goal: to damage your own side, much like shooting yourself in the foot.",
           "\"Virar o jogo\" is to come from behind and turn the result around. Don't confuse it with \"virar a mesa\", which means to upend the whole arrangement, often by breaking the rules. Something done at the last possible moment happens \"aos 45 do segundo tempo\", in the dying minutes of the second half. It is Brazil's eleventh hour.",
         ],
@@ -777,7 +777,7 @@ export const PT_C2_U03: Lesson[] = [
           { es: "Pisei na bola com você ontem, me desculpe.", en: "I let you down yesterday, I'm sorry." },
           { es: "O ministro deu uma bola fora na entrevista.", en: "The minister made a gaffe in the interview." },
           { es: "Contratar a Beatriz foi uma bola dentro.", en: "Hiring Beatriz was a smart move." },
-          { es: "Ao criticar os próprios eleitores, o candidato fez um gol contra.", en: "By criticising his own voters, the candidate scored an own goal." },
+          { es: "Ao criticar os próprios eleitores, o candidato fez um gol contra.", en: "By criticizing his own voters, the candidate scored an own goal." },
           { es: "A empresa estava no vermelho, mas virou o jogo em dois anos.", en: "The company was in the red, but it turned things around in two years." },
           { es: "Ele entregou o relatório aos 45 do segundo tempo.", en: "He handed in the report at the eleventh hour." },
         ],
@@ -805,7 +805,7 @@ export const PT_C2_U03: Lesson[] = [
             sentence: "O acordo foi assinado ___.",
             answer: "aos 45 do segundo tempo",
             altAnswers: ["aos quarenta e cinco do segundo tempo", "no último minuto", "no apagar das luzes"],
-            explanation: "\"Aos 45 do segundo tempo\" refers to the final minutes of the match. It is the idiomatic Brazilian way to say at the very last moment.",
+            explanation: "\"Aos 45 do segundo tempo\" refers to the final minutes of the game. It is the idiomatic Brazilian way to say at the very last moment.",
           },
         ],
       },
@@ -813,15 +813,15 @@ export const PT_C2_U03: Lesson[] = [
         heading: "Show de bola: praise and skill",
         body: [
           "\"Show de bola\" is an all-purpose informal compliment, and \"show\" alone does the same job. A film, a plan or a person can be \"show de bola\", and the phrase never changes: \"as aulas foram show de bola\". \"Bater um bolão\" means to play brilliantly, and by extension to do any job superbly. A \"gol de placa\" is a spectacular achievement. The name comes from the plaque put up at the Maracanã for a goal by Pelé in 1961.",
-          "\"Dar um chapéu\" is the move of flicking the ball over an opponent's head and collecting it behind him. Off the pitch it means to outwit someone with a clever, slightly cheeky manoeuvre, and the victim \"levou um chapéu\". \"Dar um olé\" is to run rings round someone. It comes from the crowd's cry at each humiliating dribble.",
-          "\"Tirar de letra\" means to do something difficult effortlessly. A \"de letra\" pass is a showy flick played with the back of the foot. All of these sit comfortably in conversation, in sports-flavoured journalism and in a relaxed work email. \"Show de bola\" would jar in a formal report.",
+          "\"Dar um chapéu\" is the move of flicking the ball over an opponent's head and collecting it behind him. Off the pitch it means to outwit someone with a clever, slightly cheeky maneuver, and the victim \"levou um chapéu\". \"Dar um olé\" is to run rings around someone. It comes from the crowd's cry at each humiliating dribble.",
+          "\"Tirar de letra\" means to do something difficult effortlessly. A \"de letra\" pass is a rabona, a showy kick played behind the standing leg. All of these sit comfortably in conversation, in sports-flavored journalism and in a relaxed work email. \"Show de bola\" would jar in a formal report.",
         ],
         examples: [
           { es: "A palestra de ontem foi show de bola.", en: "Yesterday's talk was brilliant." },
           { es: "O novo estagiário bateu um bolão na apresentação.", en: "The new intern did a superb job in the presentation." },
           { es: "Conseguir aquele patrocínio foi um gol de placa.", en: "Landing that sponsorship was a masterstroke." },
           { es: "A startup deu um chapéu nos grandes bancos.", en: "The startup outsmarted the big banks." },
-          { es: "No debate, a candidata deu um olé no rival.", en: "In the debate, the candidate ran rings round her rival." },
+          { es: "No debate, a candidata deu um olé no rival.", en: "In the debate, the candidate ran rings around her rival." },
           { es: "Ela tirou a entrevista de letra.", en: "She sailed through the interview." },
         ],
         checkpoint: [
@@ -932,7 +932,7 @@ export const PT_C2_U03: Lesson[] = [
         source: "After thirty years at the bank, my father retired.",
         answer: "Depois de trinta anos no banco, meu pai pendurou as chuteiras.",
         altAnswers: ["Depois de trinta anos no banco, o meu pai pendurou as chuteiras.", "Meu pai pendurou as chuteiras depois de trinta anos no banco.", "Depois de trinta anos no banco, meu pai se aposentou."],
-        explanation: "\"Pendurar as chuteiras\" is a warm, informal way to say \"se aposentar\". It works for any career, not just football.",
+        explanation: "\"Pendurar as chuteiras\" is a warm, informal way to say \"se aposentar\". It works for any career, not just soccer.",
       },
       {
         type: "word-order",
@@ -987,7 +987,7 @@ export const PT_C2_U03: Lesson[] = [
         type: "speak",
         text: "O Flamengo virou o jogo aos 45 do segundo tempo.",
         tip: "Read 45 as \"quarenta e cinco\": the e sounds like i and links the two numbers.",
-        explanation: "This is the literal football sentence behind two idioms: the comeback and the last-minute rescue.",
+        explanation: "This is the literal soccer sentence behind two idioms: the comeback and the last-minute rescue.",
       },
       {
         type: "fill-blank",
@@ -1005,14 +1005,14 @@ export const PT_C2_U03: Lesson[] = [
     level: "PT-C2",
     number: 5,
     title: "Novelas, Music and Memes",
-    summary: "Recognise and use the catchphrases from novelas, TV, songs, history and memes that Brazilians drop into conversation without naming the source.",
+    summary: "Recognize and use the catchphrases from novelas, TV, songs, history and memes that Brazilians drop into conversation without naming the source.",
     duration: "15 min",
     sections: [
       {
         heading: "Novelas and TV: lines everyone shares",
         body: [
           "For decades the eight o'clock novela on Globo held tens of millions of Brazilians in front of the same screen, so its lines became common property. \"Quem matou Odete Roitman?\", the mystery of \"Vale Tudo\" (1988), still introduces any unsolved question. Sinhozinho Malta's \"Tô certo ou tô errado?\" from \"Roque Santeiro\" (1985) ends an argument with mock authority.",
-          "Variety shows, the news and children's TV did the same. Faustão's \"Ô loco, meu!\" greets anything surprising. Boris Casoy's \"Isso é uma vergonha!\" lends itself to mock outrage. \"Castelo Rá-Tim-Bum\" left a generation saying \"Senta que lá vem história\" before a long tale. Nobody names the source: recognising it is the pleasure.",
+          "Variety shows, the news and children's TV did the same. Faustão's \"Ô loco, meu!\" greets anything surprising. Boris Casoy's \"Isso é uma vergonha!\" lends itself to mock outrage. \"Castelo Rá-Tim-Bum\" left a generation saying \"Senta que lá vem história\" before a long tale. Nobody names the source: recognizing it is the pleasure.",
           "The trap is age. A forty-year-old in Recife will laugh at \"É cilada, Bino!\", from the trucker series \"Carga Pesada\"; a teenager may just stare. Quote what your listener grew up watching, and keep the wording exact: a garbled catchphrase shows you only half know it.",
         ],
         examples: [
@@ -1045,7 +1045,7 @@ export const PT_C2_U03: Lesson[] = [
             type: "listen-choose",
             audio: "Um apartamento de frente para o mar por esse preço? É cilada, Bino!",
             question: "What does it mean?",
-            options: ["A sea-view flat at that price? It's a trap!", "A sea-view flat at that price? What a bargain!", "A sea-view flat at that price? Am I right or wrong?", "A sea-view flat at that price? It's a disgrace!"],
+            options: ["An ocean-view apartment at that price? It's a trap!", "An ocean-view apartment at that price? What a bargain!", "An ocean-view apartment at that price? Am I right or wrong?", "An ocean-view apartment at that price? It's a disgrace!"],
             correctIndex: 0,
             explanation: "\"É cilada, Bino!\" from \"Carga Pesada\" means it's a trap. \"Cilada\" is an ambush or a setup, so the speaker suspects a scam.",
           },
@@ -1055,7 +1055,7 @@ export const PT_C2_U03: Lesson[] = [
         heading: "Songs and history: lines that became maxims",
         body: [
           "Lyrics work like proverbs. Zeca Pagodinho's \"Deixa a vida me levar\" sums up going with the flow. Tom Jobim and Vinicius de Moraes's \"Tristeza não tem fim, felicidade sim\" is a wistful shrug when something good ends. Geraldo Vandré's 1968 protest song gave Brazil \"Quem sabe faz a hora, não espera acontecer\", still used to push someone to act.",
-          "History and politics are usually quoted with irony. Dom Pedro's \"Diga ao povo que fico\" (1822) turns into a joke when you decide to stay at a party. Legião Urbana's \"Que país é esse?\" voices exasperation at any absurdity. Lula's \"Nunca antes na história deste país\" is borrowed to inflate something trivial, often with the last word swapped.",
+          "History and politics are usually quoted with irony. Dom Pedro's \"Diga ao povo que fico\" (1822) turns into a joke when you decide to stay at a party. Legião Urbana's chorus \"Que país é esse?\" voices exasperation at any absurdity. Lula's \"Nunca antes na história deste país\" is borrowed to inflate something trivial, often with the last word swapped.",
           "Recent political lines carry a risk that old songs don't: they can sound like a declaration of allegiance. With people you don't know well, prefer the historical or musical ones, whose sting has worn off.",
         ],
         examples: [
@@ -1063,14 +1063,14 @@ export const PT_C2_U03: Lesson[] = [
           { es: "Para de esperar a resposta do chefe. Quem sabe faz a hora, não espera acontecer.", en: "Stop waiting for the boss to answer. Those who know make it happen; they don't wait for it." },
           { es: "Acabou o carnaval... tristeza não tem fim, felicidade sim.", en: "Carnival's over... sadness never ends, but happiness does." },
           { es: "Vocês querem que eu fique para o karaokê? Então digam ao povo que fico!", en: "You want me to stay for the karaoke? Then tell the people I'm staying!" },
-          { es: "Três horas de fila para tirar um documento? Que país é esse?", en: "A three-hour queue to get a document? What kind of country is this?" },
+          { es: "Três horas de fila para tirar um documento? Que país é esse?", en: "A three-hour line to get a document? What kind of country is this?" },
           { es: "Nunca antes na história deste escritório o café foi tão ruim.", en: "Never before in the history of this office has the coffee been so bad." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The flight was cancelled, so we stayed one more day in Salvador. [I'll just go with the flow.]",
+            en: "The flight was canceled, so we stayed one more day in Salvador. [I'll just go with the flow.]",
             sentence: "O voo foi cancelado, então ficamos mais um dia em Salvador. ___",
             answer: "Deixa a vida me levar.",
             explanation: "Zeca Pagodinho's \"Deixa a vida me levar\" is the stock way to accept a change of plans. It uses the everyday imperative \"deixa\" and the pronoun before the infinitive, as in speech.",
@@ -1082,7 +1082,7 @@ export const PT_C2_U03: Lesson[] = [
             source: "A two-hour wait at the bank? What kind of country is this?",
             answer: "Duas horas de espera no banco? Que país é esse?",
             altAnswers: ["Uma espera de duas horas no banco? Que país é esse?", "Duas horas de fila no banco? Que país é esse?", "Duas horas esperando no banco? Que país é esse?"],
-            explanation: "\"Que país é esse?\" is the Legião Urbana title, used for any absurdity. Keep \"esse\" as in the song. Saying \"este\" is correct but breaks the reference.",
+            explanation: "\"Que país é esse?\" is the chorus of the Legião Urbana song \"Que País É Este\" (1987), used for any absurdity. Keep \"esse\", as the chorus sings it. Saying \"este\" is correct but breaks the reference.",
           },
           {
             type: "multiple-choice",
@@ -1243,7 +1243,7 @@ export const PT_C2_U03: Lesson[] = [
     level: "PT-C2",
     number: 6,
     title: "Contrast Clinic: Which Proverb Fits?",
-    summary: "Tell apart proverbs with neighbouring meanings and choose the one that fits each situation.",
+    summary: "Tell apart proverbs with neighboring meanings and choose the one that fits each situation.",
     duration: "15 min",
     kind: "reinforce",
     format: "Contrast Clinic",
@@ -1292,13 +1292,13 @@ export const PT_C2_U03: Lesson[] = [
         heading: "Looking back: let it go, or too late?",
         body: [
           "\"Águas passadas não movem moinho\" closes an old matter. Water that has already flowed past can't turn the mill, so an old quarrel or an ex from college shouldn't decide anything now. \"Não adianta chorar sobre o leite derramado\" is for a recent mistake someone still regrets: the milk is on the floor, so stop lamenting and act. Use the first to make peace with the past. Use the second to stop someone moping over what just went wrong.",
-          "\"Depois da casa arrombada, tranca de ferro\" mocks precautions taken too late, like 'shutting the stable door after the horse has bolted' (\"arrombada\" is broken into, \"tranca\" is a bolt). An example is the shop that installs cameras the week after the robbery. \"Antes tarde do que nunca\" turns the tone around: lateness is forgiven because the thing finally happened. The same late action can earn either proverb, and the speaker's attitude decides which one.",
+          "\"Depois da casa arrombada, tranca de ferro\" mocks precautions taken too late, like 'shutting the stable door after the horse has bolted' (\"arrombada\" is broken into, \"tranca\" is a bolt). An example is the store that installs cameras the week after the robbery. \"Antes tarde do que nunca\" turns the tone around: lateness is forgiven because the thing finally happened. The same late action can earn either proverb, and the speaker's attitude decides which one.",
         ],
         examples: [
           { es: "Isso foi há dez anos. Águas passadas não movem moinho.", en: "That was ten years ago. It's water under the bridge." },
           { es: "O voo já saiu; não adianta chorar sobre o leite derramado. Vamos ver o próximo.", en: "The flight has already left; no use crying over spilt milk. Let's look at the next one." },
-          { es: "A loja só pôs câmeras depois do assalto. Depois da casa arrombada, tranca de ferro.", en: "The shop only put in cameras after the robbery. Talk about shutting the stable door after the horse has bolted." },
-          { es: "Ele finalmente pediu desculpas. Antes tarde do que nunca.", en: "He finally apologised. Better late than never." },
+          { es: "A loja só pôs câmeras depois do assalto. Depois da casa arrombada, tranca de ferro.", en: "The store only put in cameras after the robbery. Talk about shutting the stable door after the horse has bolted." },
+          { es: "Ele finalmente pediu desculpas. Antes tarde do que nunca.", en: "He finally apologized. Better late than never." },
           { es: "Ela ainda fala do ex da faculdade? Águas passadas...", en: "She still talks about her ex from college? That's ancient history..." },
         ],
         checkpoint: [
@@ -1330,14 +1330,14 @@ export const PT_C2_U03: Lesson[] = [
       {
         heading: "Making do, appearances and irony",
         body: [
-          "\"Quem não tem cão caça com gato\" means make do with what you have: no drill, so a nail and a hammer. It is pragmatic, not ironic. \"Em casa de ferreiro, o espeto é de pau\" is ironic. The expert neglects his own home, like the dentist whose kids have cavities. Both mention lacking the right tool, which is why learners mix them up. One is about improvising. The other is about the professional who doesn't practise at home.",
-          "\"Quem vê cara não vê coração\" warns that looks deceive in either direction: the charming neighbour who turns out to be a fraud, or the gruff one who turns out to be kind. \"Mais vale um pássaro na mão do que dois voando\" weighs certainty against promise: take the sure offer instead of waiting for two maybes.",
-          "Brazilians often say only the first half (\"Em casa de ferreiro...\"), so recognising the opening is enough to know which situation is meant.",
+          "\"Quem não tem cão caça com gato\" means make do with what you have: no drill, so a nail and a hammer. It is pragmatic, not ironic. \"Em casa de ferreiro, o espeto é de pau\" is ironic. The expert neglects his own home, like the dentist whose kids have cavities. Both mention lacking the right tool, which is why learners mix them up. One is about improvising. The other is about the professional who doesn't practice at home.",
+          "\"Quem vê cara não vê coração\" warns that looks deceive in either direction: the charming neighbor who turns out to be a fraud, or the gruff one who turns out to be kind. \"Mais vale um pássaro na mão do que dois voando\" weighs certainty against promise: take the sure offer instead of waiting for two maybes.",
+          "Brazilians often say only the first half (\"Em casa de ferreiro...\"), so recognizing the opening is enough to know which situation is meant.",
         ],
         examples: [
           { es: "Não tinha furadeira, então usei um prego e um martelo. Quem não tem cão caça com gato.", en: "I didn't have a drill, so I used a nail and a hammer. You make do with what you've got." },
           { es: "O eletricista mora numa casa cheia de fios soltos. Em casa de ferreiro, o espeto é de pau.", en: "The electrician lives in a house full of loose wires. The cobbler's children go barefoot." },
-          { es: "O vizinho parecia tão simpático e deu um golpe no prédio inteiro. Quem vê cara não vê coração.", en: "The neighbour seemed so nice, and he scammed the whole building. You can't judge a book by its cover." },
+          { es: "O vizinho parecia tão simpático e deu um golpe no prédio inteiro. Quem vê cara não vê coração.", en: "The neighbor seemed so nice, and he scammed the whole building. You can't judge a book by its cover." },
           { es: "Aceita a vaga que te ofereceram; mais vale um pássaro na mão do que dois voando.", en: "Take the job they offered you; a bird in the hand is worth two in the bush." },
           { es: "Meu pai é mecânico e o carro dele vive quebrado. Em casa de ferreiro...", en: "My dad's a mechanic and his car is always breaking down. The cobbler's children..." },
         ],
@@ -1465,7 +1465,7 @@ export const PT_C2_U03: Lesson[] = [
           { left: "De grão em grão, a galinha enche o papo.", right: "Saving a little every month" },
           { left: "A pressa é inimiga da perfeição.", right: "A report full of mistakes, sent too fast" },
           { left: "Antes tarde do que nunca.", right: "An apology that finally arrives" },
-          { left: "Quem vê cara não vê coração.", right: "A charming neighbour who turns out to be a fraud" },
+          { left: "Quem vê cara não vê coração.", right: "A charming neighbor who turns out to be a fraud" },
           { left: "Quem não tem cão caça com gato.", right: "Fixing a door with tape because there's no screwdriver" },
         ],
         explanation: "Each proverb answers one kind of situation: accumulation, haste, lateness forgiven, deceptive looks, improvising.",
@@ -1506,7 +1506,7 @@ export const PT_C2_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Tio Zé has just said \"Quem não arrisca não petisca.\" Cláudia wants to answer with a proverb in favour of caution. What does she say?",
+            question: "Tio Zé has just said \"Quem não arrisca não petisca.\" Cláudia wants to answer with a proverb in favor of caution. What does she say?",
             options: ["O seguro morreu de velho.", "Cavalo selado não passa duas vezes.", "Quem não tem cão caça com gato.", "Águas passadas não movem moinho."],
             correctIndex: 0,
             explanation: "\"O seguro morreu de velho\" is the classic reply to \"quem não arrisca não petisca\". \"Cavalo selado...\" argues for taking the chance, so it is Zé's side.",
@@ -1526,13 +1526,13 @@ export const PT_C2_U03: Lesson[] = [
         heading: "Scene 2: Diego, the past and the money",
         body: [
           "The argument moves from risk to trust. Cláudia doesn't know Diego, and she says so with an idiom: \"eu não ponho a mão no fogo por ele\" (I wouldn't vouch for him; literally, I won't put my hand in the fire for him). Rafael turns a proverb back on her. She is judging Diego by his tattoos, so \"quem vê cara não vê coração\" (appearances can deceive) cuts both ways.",
-          "Next Cláudia brings up the past: Rafael's cousin, who \"deu com os burros n'água\" (crashed and burned) with a phone shop. Rafael answers with only the first half of a proverb, \"águas passadas...\", and stops there. Leaving the ending unsaid assumes the listener knows it, so the line sounds sharper and more intimate than the full version.",
+          "Next Cláudia brings up the past: Rafael's cousin, who \"deu com os burros n'água\" (crashed and burned) with a phone store. Rafael answers with only the first half of a proverb, \"águas passadas...\", and stops there. Leaving the ending unsaid assumes the listener knows it, so the line sounds sharper and more intimate than the full version.",
           "Softeners stop the fight from turning nasty: \"com todo respeito, mãe\", \"não é bem assim\", \"calma, gente\". Tio Zé then moves the talk from risk to money by proposing \"uma vaquinha\" (everyone chips in). Idioms and proverbs let people say hard things indirectly, and the softeners let them say those things face to face.",
         ],
         examples: [
           { es: "Você conhece esse Diego há três meses. Eu não ponho a mão no fogo por ele.", en: "Cláudia: You've known this Diego for three months. I wouldn't vouch for him." },
           { es: "Com todo respeito, mãe, quem vê cara não vê coração.", en: "Rafael: With all due respect, Mom, you can't judge a book by its cover." },
-          { es: "Lembra do seu primo, que deu com os burros n'água com a loja de celular?", en: "Cláudia: Remember your cousin, who crashed and burned with that phone shop?" },
+          { es: "Lembra do seu primo, que deu com os burros n'água com a loja de celular?", en: "Cláudia: Remember your cousin, who crashed and burned with that phone store?" },
           { es: "Ah, mãe, águas passadas...", en: "Rafael: Oh, Mom, water under the bridge..." },
           { es: "Calma, gente, não é bem assim.", en: "Tio Zé: Calm down, everyone, it's not quite like that." },
           { es: "Por que a gente não faz uma vaquinha para ajudar o Rafael?", en: "Tio Zé: Why don't we all chip in to help Rafael?" },
@@ -1569,7 +1569,7 @@ export const PT_C2_U03: Lesson[] = [
         heading: "Scene 3: Dona Lurdes has the last word",
         body: [
           "Dona Lurdes has been listening in silence, which in this family means she's about to rule. She gives each side a proverb and then joins them. \"Mais vale um pássaro na mão do que dois voando\" (a bird in the hand is worth two in the bush), so Rafael keeps the bank job. But \"de grão em grão a galinha enche o papo\" (every little helps), so he starts with a stall at the \"feira\" on Saturdays and saves. If it works out, then he jumps.",
-          "She ends with a jab at Cláudia, an accountant who has never kept a budget of her own: \"em casa de ferreiro, o espeto é de pau\" (the cobbler's children go barefoot). The laugh is the point. A proverb lets you criticise someone you love in a shared, impersonal voice, and the joke releases the tension.",
+          "She ends with a jab at Cláudia, an accountant who has never kept a budget of her own: \"em casa de ferreiro, o espeto é de pau\" (the cobbler's children go barefoot). The laugh is the point. A proverb lets you criticize someone you love in a shared, impersonal voice, and the joke releases the tension.",
           "Closing lines are formulaic too. Cláudia's \"quem avisa amigo é\" (a real friend warns you) justifies her opposition after the fact, and \"se Deus quiser, vai dar certo\" ends the scene on hope. When you retell the scene, keep proverbs in the present: \"ela disse que quem avisa amigo é\". A timeless saying doesn't shift tense in reported speech.",
         ],
         examples: [
@@ -1628,7 +1628,7 @@ export const PT_C2_U03: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "My cousin [crashed and burned] with the phone shop.",
+        en: "My cousin [crashed and burned] with the phone store.",
         sentence: "Meu primo ___ com a loja de celular.",
         answer: "deu com os burros n'água",
         altAnswers: ["deu com os burros na água", "se deu mal"],
@@ -1662,7 +1662,7 @@ export const PT_C2_U03: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[Water under the bridge], Mom: the phone shop was ten years ago.",
+        en: "[Water under the bridge], Mom: the phone store was ten years ago.",
         sentence: "___, mãe: a loja de celular foi há dez anos.",
         answer: "Águas passadas",
         altAnswers: ["Águas passadas não movem moinho"],
@@ -1714,7 +1714,7 @@ export const PT_C2_U03: Lesson[] = [
       {
         heading: "Mangled proverbs: one wrong word breaks the spell",
         body: [
-          "A proverb is a frozen sentence. Brazilians recognise it by its exact words and rhythm, so a near miss stands out at once. The commonest learner slip is a synonym swap: \"a galinha enche a barriga\" for \"enche o papo\", \"o espeto é de madeira\" for \"é de pau\", \"quem vê rosto\" for \"quem vê cara\". The meaning survives, but the proverb doesn't, and the listener hears someone reciting from a list.",
+          "A proverb is a frozen sentence. Brazilians recognize it by its exact words and rhythm, so a near miss stands out at once. The commonest learner slip is a synonym swap: \"a galinha enche a barriga\" for \"enche o papo\", \"o espeto é de madeira\" for \"é de pau\", \"quem vê rosto\" for \"quem vê cara\". The meaning survives, but the proverb doesn't, and the listener hears someone reciting from a list.",
           "The second slip is the blend, where two proverbs are welded into one. \"Deus ajuda quem espera\" crosses \"Deus ajuda quem cedo madruga\" with \"quem espera sempre alcança\". Brazilians blend on purpose for a laugh, with a knowing look. Done by accident, a blend suggests you know neither proverb. Learn each proverb as one block, articles and all.",
           "Remember that truncation only works from the front. \"Quem não tem cão...\" lands because everyone knows how it ends. \"...caça com gato\" on its own leaves the listener with nothing to complete.",
         ],
@@ -1765,7 +1765,7 @@ export const PT_C2_U03: Lesson[] = [
           { es: "Eu ponho a mão no fogo pela Beatriz: ela jamais mentiria.", en: "I'd vouch for Beatriz: she'd never lie." },
           { es: "Ele prometeu me pagar na sexta, e eu fiquei a ver navios.", en: "He promised to pay me on Friday, and I was left empty-handed." },
           { es: "Vamos fazer uma vaquinha para o presente do Lucas.", en: "Let's chip in for Lucas's present." },
-          { es: "Investiram tudo na loja e deram com os burros n'água.", en: "They put everything into the shop and it went bust." },
+          { es: "Investiram tudo na loja e deram com os burros n'água.", en: "They put everything into the store and it went bust." },
           { es: "Para de tirar onda, você nem sabe nadar!", en: "Stop showing off, you can't even swim!" },
           { es: "O projeto não atingiu as metas previstas.", en: "The project didn't meet its targets. (the report version)" },
         ],
@@ -1972,15 +1972,15 @@ export const PT_C2_U03: Lesson[] = [
       {
         heading: "The crônica: start with a scene, not a thesis",
         body: [
-          "Brazil's light newspaper column is the \"crônica\": 400 to 600 words that start from something small (a queue at the \"padaria\", a broken lift, a neighbour's parrot) and end somewhere larger. The voice is first person, warm and slightly ironic. It is closer to a chat with the reader than to the C1 \"dissertação\". Rubem Braga, Fernando Sabino, Luis Fernando Verissimo and Martha Medeiros made reading one over breakfast a national habit.",
+          "Brazil's light newspaper column is the \"crônica\": 400 to 600 words that start from something small (a line at the \"padaria\", a broken elevator, a neighbor's parrot) and end somewhere larger. The voice is first person, warm and slightly ironic. It is closer to a chat with the reader than to the C1 \"dissertação\". Rubem Braga, Fernando Sabino, Luis Fernando Verissimo and Martha Medeiros made reading one over breakfast a national habit.",
           "Open inside the scene, with one concrete detail and a past tense: \"o elevador do meu prédio resolveu tirar férias\". The essay opening (\"Hoje em dia, muitas pessoas...\") kills the tone before the second line, and so does announcing the topic. Personification and understatement, from Unit 1, do most of the work.",
-          "The register is the written norm with some speech let in: \"a gente\", a neighbour's \"né?\" inside dialogue, a diminutive. The narrator still makes every verb agree and places pronouns as an editor would. The ease is crafted, not careless.",
+          "The register is the written norm with some speech let in: \"a gente\", a neighbor's \"né?\" inside dialogue, a diminutive. The narrator still makes every verb agree and places pronouns as an editor would. The ease is crafted, not careless.",
         ],
         examples: [
-          { es: "Na terça-feira, o elevador do meu prédio resolveu tirar férias.", en: "On Tuesday, the lift in my building decided to take a holiday." },
+          { es: "Na terça-feira, o elevador do meu prédio resolveu tirar férias.", en: "On Tuesday, the elevator in my building decided to take a vacation." },
           { es: "Dona Cida, do 302, foi a primeira a descobrir, com duas sacolas da feira e nenhuma paciência.", en: "Dona Cida from 302 was the first to find out, with two bags from the market and no patience at all." },
-          { es: "Tem gente que coleciona selos; meu vizinho coleciona reclamações.", en: "Some people collect stamps; my neighbour collects complaints." },
-          { es: "A fila da padaria às sete da manhã é o retrato mais fiel do Brasil.", en: "The bakery queue at seven in the morning is the most faithful portrait of Brazil." },
+          { es: "Tem gente que coleciona selos; meu vizinho coleciona reclamações.", en: "Some people collect stamps; my neighbor collects complaints." },
+          { es: "A fila da padaria às sete da manhã é o retrato mais fiel do Brasil.", en: "The bakery line at seven in the morning is the most faithful portrait of Brazil." },
           { es: "Não era a primeira vez que o síndico prometia consertar o portão.", en: "It wasn't the first time the building manager had promised to fix the gate." },
         ],
         checkpoint: [
@@ -1988,7 +1988,7 @@ export const PT_C2_U03: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "On Tuesday, the lift in my building decided to take a holiday.",
+            source: "On Tuesday, the elevator in my building decided to take a vacation.",
             answer: "Na terça-feira, o elevador do meu prédio resolveu tirar férias.",
             altAnswers: [
               "Na terça, o elevador do meu prédio resolveu tirar férias.",
@@ -1996,7 +1996,7 @@ export const PT_C2_U03: Lesson[] = [
               "Na terça, o elevador do meu prédio decidiu tirar férias.",
               "Na terça-feira, o elevador do meu prédio resolveu entrar de férias.",
             ],
-            explanation: "Personification opens the scene: the lift \"resolveu tirar férias\", in the perfeito because it is one event. \"Resolver\" sounds more like a whim than \"decidir\", which suits the ironic tone.",
+            explanation: "Personification opens the scene: the elevator \"resolveu tirar férias\", in the perfeito because it is one event. \"Resolver\" sounds more like a whim than \"decidir\", which suits the ironic tone.",
           },
           {
             type: "multiple-choice",
@@ -2039,7 +2039,7 @@ export const PT_C2_U03: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "My neighbour fixed the whole building's internet with a paper clip. If you don't have a dog...",
+            source: "My neighbor fixed the whole building's internet with a paper clip. If you don't have a dog...",
             answer: "Meu vizinho consertou a internet do prédio inteiro com um clipe. Quem não tem cão...",
             altAnswers: [
               "Meu vizinho consertou a internet do prédio todo com um clipe. Quem não tem cão...",
@@ -2066,8 +2066,8 @@ export const PT_C2_U03: Lesson[] = [
       {
         heading: "Turning the proverb",
         body: [
-          "A column that only confirms its proverb is a sermon. Test it against your scene instead: agree with it, update it or contradict it. \"Será?\" is the classic hinge, one word of doubt that turns the column round: \"Dizem que águas passadas não movem moinho. Será?\" Then let the scene answer.",
-          "Rewriting the second half is the genre's favourite joke. Keep the original's skeleton (\"quem não tem cão... quem não tem gato...\"; \"de grão em grão\" becoming \"de boleto em boleto\") so the reader still hears the proverb under the new words. If you change the structure as well, the echo is lost, and the joke goes with it.",
+          "A column that only confirms its proverb is a sermon. Test it against your scene instead: agree with it, update it or contradict it. \"Será?\" is the classic hinge, one word of doubt that turns the column around: \"Dizem que águas passadas não movem moinho. Será?\" Then let the scene answer.",
+          "Rewriting the second half is the genre's favorite joke. Keep the original's skeleton (\"quem não tem cão... quem não tem gato...\"; \"de grão em grão\" becoming \"de boleto em boleto\") so the reader still hears the proverb under the new words. If you change the structure as well, the echo is lost, and the joke goes with it.",
           "Bring the reader in with \"você\" and rhetorical questions (\"Você já reparou que...?\"). Readers come back to a \"cronista\" for that complicity, not for information.",
         ],
         examples: [
@@ -2116,22 +2116,22 @@ export const PT_C2_U03: Lesson[] = [
       {
         heading: "The closing line and the title",
         body: [
-          "Close by returning to the opening scene, now seen through the proverb: the lift, Dona Cida, the bakery queue. The callback tells the reader the column was built, not just written down.",
+          "Close by returning to the opening scene, now seen through the proverb: the elevator, Dona Cida, the bakery line. The callback tells the reader the column was built, not just written down.",
           "Keep the last line short and leave something unsaid: an image, a dry understatement, the truncated proverb, or the proverb bent one last time. \"Moral da história\" belongs to fables and \"concluindo\" to essays; both flatten a crônica.",
           "Write the title last. It is often the proverb itself or its twist (\"Quem não tem elevador...\"), and it promises the reader a joke they are about to share.",
         ],
         examples: [
-          { es: "Na sexta, o elevador voltou. Dona Cida não: agora ela só usa a escada.", en: "On Friday the lift came back. Dona Cida didn't: now she only takes the stairs." },
+          { es: "Na sexta, o elevador voltou. Dona Cida não: agora ela só usa a escada.", en: "On Friday the elevator came back. Dona Cida didn't: now she only takes the stairs." },
           { es: "O portão continua quebrado. Em casa de síndico...", en: "The gate is still broken. In the building manager's house..." },
-          { es: "Quem não tem elevador, como se vê, sobe de escada e reclama no grupo do prédio.", en: "Those without a lift, as you can see, take the stairs and complain in the building's group chat." },
-          { es: "Título: Quem não tem elevador...", en: "Title: If you don't have a lift..." },
+          { es: "Quem não tem elevador, como se vê, sobe de escada e reclama no grupo do prédio.", en: "Those without an elevator, as you can see, take the stairs and complain in the building's group chat." },
+          { es: "Título: Quem não tem elevador...", en: "Title: If you don't have an elevator..." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "On Friday, the lift came back. Dona Cida didn't.",
+            source: "On Friday, the elevator came back. Dona Cida didn't.",
             answer: "Na sexta, o elevador voltou. Dona Cida não.",
             altAnswers: [
               "Na sexta-feira, o elevador voltou. Dona Cida não.",
@@ -2148,7 +2148,7 @@ export const PT_C2_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which closing line suits a crônica about the broken lift?",
+            question: "Which closing line suits a crônica about the broken elevator?",
             options: [
               "Moral da história: devemos sempre ter paciência.",
               "Concluindo, a manutenção dos elevadores é fundamental.",
@@ -2181,7 +2181,7 @@ export const PT_C2_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Have you ever noticed that the bakery queue never moves when you're in a hurry?",
+        source: "Have you ever noticed that the bakery line never moves when you're in a hurry?",
         answer: "Você já reparou que a fila da padaria nunca anda quando você está com pressa?",
         altAnswers: [
           "Você já percebeu que a fila da padaria nunca anda quando você está com pressa?",
@@ -2189,7 +2189,7 @@ export const PT_C2_U03: Lesson[] = [
           "Já reparou que a fila da padaria nunca anda quando a gente está com pressa?",
           "Você já reparou que a fila da padaria nunca anda quando a gente está com pressa?",
         ],
-        explanation: "\"Você já reparou que...?\" pulls the reader into the column. A queue \"anda\" (moves) in Portuguese, and being in a hurry is \"estar com pressa\".",
+        explanation: "\"Você já reparou que...?\" pulls the reader into the column. A line \"anda\" (moves) in Portuguese, and being in a hurry is \"estar com pressa\".",
       },
       {
         type: "translate",
@@ -2222,7 +2222,7 @@ export const PT_C2_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Those without a lift take the stairs and complain in the building's group chat.",
+        source: "Those without an elevator take the stairs and complain in the building's group chat.",
         answer: "Quem não tem elevador sobe de escada e reclama no grupo do prédio.",
         altAnswers: [
           "Quem não tem elevador sobe pela escada e reclama no grupo do prédio.",
@@ -2249,7 +2249,7 @@ export const PT_C2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your column is about a neighbour everyone thought was grumpy, who turned out to be the kindest person in the building. Which proverb fits?",
+        question: "Your column is about a neighbor everyone thought was grumpy, who turned out to be the kindest person in the building. Which proverb fits?",
         options: [
           "Quem vê cara não vê coração.",
           "Águas passadas não movem moinho.",
@@ -2297,7 +2297,7 @@ export const PT_C2_U03: Lesson[] = [
     level: "PT-C2",
     number: 10,
     title: "Spiral Review: Shared Culture",
-    summary: "Fresh practice that mixes the unit's proverbs, idioms, football expressions and pop-culture references, with attention to tone, truncation and register.",
+    summary: "Fresh practice that mixes the unit's proverbs, idioms, soccer expressions and pop-culture references, with attention to tone, truncation and register.",
     duration: "18 min",
     sections: [
       {
@@ -2345,11 +2345,11 @@ export const PT_C2_U03: Lesson[] = [
         heading: "Idioms from the street and the pitch",
         body: [
           "The unit's advanced idioms live on images nobody sees anymore. \"Dar com os burros n'água\" is to see a plan fail. \"Ficar a ver navios\" is to be left empty-handed, a fixed phrase that keeps the old \"a\" + infinitive. \"Fazer uma vaquinha\" is to pool money and \"pôr a mão no fogo por alguém\" is to vouch for someone. \"Ser um zero à esquerda\" is to be useless, and \"tirar onda\" is to show off.",
-          "Football supplies a second vocabulary. \"Pisar na bola\" is to let someone down, \"virar o jogo\" is to turn things around, and \"show de bola\" means excellent. On the pitch, \"dar um chapéu em alguém\" is to lob the ball over a defender's head; off it, the phrase means outsmarting someone. \"Aos 45 do segundo tempo\" is the last minute, and anyone, from a judge to a baker, can \"pendurar as chuteiras\" (retire).",
+          "Soccer supplies a second vocabulary. \"Pisar na bola\" is to let someone down, \"virar o jogo\" is to turn things around, and \"show de bola\" means excellent. On the pitch, \"dar um chapéu em alguém\" is to lob the ball over a defender's head; off it, the phrase means outsmarting someone. \"Aos 45 do segundo tempo\" is the last minute, and anyone, from a judge to a baker, can \"pendurar as chuteiras\" (retire).",
           "Register still decides. \"Pisou na bola\" is fine with a manager, \"tirar onda\" is for friends, and a formal email says \"houve uma falha\".",
         ],
         examples: [
-          { es: "O plano de abrir a loja em dezembro deu com os burros n'água.", en: "The plan to open the shop in December came to nothing." },
+          { es: "O plano de abrir a loja em dezembro deu com os burros n'água.", en: "The plan to open the store in December came to nothing." },
           { es: "Ele prometeu vir e não apareceu; ficamos a ver navios.", en: "He promised to come and never showed up; we were left high and dry." },
           { es: "Vamos fazer uma vaquinha para o presente da Dona Lúcia?", en: "Shall we all chip in for Dona Lúcia's present?" },
           { es: "Eu ponho a mão no fogo pela Beatriz: ela não mentiria.", en: "I'd vouch for Beatriz: she wouldn't lie." },
@@ -2379,7 +2379,7 @@ export const PT_C2_U03: Lesson[] = [
             type: "listen-choose",
             audio: "Ele pisou na bola com a gente.",
             question: "What does it mean?",
-            options: ["He let us down.", "He played football with us.", "He kicked the ball to us.", "He showed off in front of us."],
+            options: ["He let us down.", "He played soccer with us.", "He kicked the ball to us.", "He showed off in front of us."],
             correctIndex: 0,
             explanation: "\"Pisar na bola com alguém\" is to let someone down or break their trust. Showing off would be \"tirar onda\".",
           },
@@ -2407,7 +2407,7 @@ export const PT_C2_U03: Lesson[] = [
             source: "Penalties again? My nerves can't take it! (Use Galvão Bueno's catchphrase.)",
             answer: "Pênaltis de novo? Haja coração!",
             altAnswers: ["De novo pênaltis? Haja coração!", "Pênalti de novo? Haja coração!", "Outra vez pênaltis? Haja coração!"],
-            explanation: "\"Haja coração!\" uses the subjunctive of \"haver\" as a wish: 'may there be enough heart'. It fits any tense moment, not only football.",
+            explanation: "\"Haja coração!\" uses the subjunctive of \"haver\" as a wish: 'may there be enough heart'. It fits any tense moment, not only soccer.",
           },
           {
             type: "fill-blank",
@@ -2416,7 +2416,7 @@ export const PT_C2_U03: Lesson[] = [
             sentence: "A apresentação foi ___.",
             answer: "show de bola",
             altAnswers: ["um show de bola", "um show"],
-            explanation: "\"Show de bola\" is invariable praise from football: it doesn't agree with \"apresentação\". It's informal, so keep it for colleagues you know well.",
+            explanation: "\"Show de bola\" is invariable praise from soccer: it doesn't agree with \"apresentação\". It's informal, so keep it for colleagues you know well.",
           },
           {
             type: "speak",
@@ -2478,7 +2478,7 @@ export const PT_C2_U03: Lesson[] = [
         sentence: "Meu avô ___ aos setenta anos.",
         answer: "pendurou as chuteiras",
         altAnswers: ["se aposentou"],
-        explanation: "\"Pendurar as chuteiras\" (hang up the football boots) is a warm, informal way to say \"se aposentar\", whatever the job.",
+        explanation: "\"Pendurar as chuteiras\" (hang up the soccer cleats) is a warm, informal way to say \"se aposentar\", whatever the job.",
       },
       {
         type: "word-order",
@@ -2517,7 +2517,7 @@ export const PT_C2_U03: Lesson[] = [
           { left: "show de bola", right: "brilliant" },
           { left: "aos 45 do segundo tempo", right: "at the last minute" },
         ],
-        explanation: "Four of the five come from football; \"pôr a mão no fogo\" comes from the old trial by fire.",
+        explanation: "Four of the five come from soccer; \"pôr a mão no fogo\" comes from the old trial by fire.",
       },
     ],
   },
@@ -2525,14 +2525,14 @@ export const PT_C2_U03: Lesson[] = [
 
 export const PT_C2_U03_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A neighbourhood newspaper in São Paulo has asked you for a light column (a crônica) about something that went wrong and was rescued at the last minute: a family party, a trip, a work event. Build the column around one Brazilian proverb, which you introduce at the start and return to at the end. Bring in at least two more proverbs, leaving one of them half-said so the reader completes it. Use advanced idioms and a football expression or a reference from Brazilian music or TV. Keep the tone warm and conversational. Write 250-400 words.",
+  prompt: "A neighborhood newspaper in São Paulo has asked you for a light column (a crônica) about something that went wrong and was rescued at the last minute: a family party, a trip, a work event. Build the column around one Brazilian proverb, which you introduce at the start and return to at the end. Bring in at least two more proverbs, leaving one of them half-said so the reader completes it. Use advanced idioms and a soccer expression or a reference from Brazilian music or TV. Keep the tone warm and conversational. Write 250-400 words.",
   minWords: 250,
   maxWords: 400,
   rubric: [
     "Builds the column around one \"ditado popular\" (for example \"quem não tem cão caça com gato\") and closes by returning to it, with a twist.",
     "Uses at least two more proverbs, one of them truncated so the reader finishes it (\"em casa de ferreiro...\", \"águas passadas...\").",
     "Works in at least three advanced idioms, conjugated to fit the sentence: \"fazer uma vaquinha\", \"pôr a mão no fogo\", \"dar com os burros n'água\", \"ser um zero à esquerda\", \"tirar onda\".",
-    "Includes a football expression (\"pisar na bola\", \"virar o jogo\", \"show de bola\") or a reference from music or novelas, in the light register of a crônica.",
+    "Includes a soccer expression (\"pisar na bola\", \"virar o jogo\", \"show de bola\") or a reference from music or novelas, in the light register of a crônica.",
   ],
   modelAnswer: "Quem não tem cão caça com gato\n\nMinha avó tinha um ditado para cada ocasião, e o preferido dela era \"quem não tem cão caça com gato\". Nunca entendi muito bem a lógica zoológica da coisa, mas no sábado passado, finalmente, entendi o espírito.\n\nEra o aniversário de sessenta anos do meu pai, e a família inteira resolveu fazer uma vaquinha para um churrasco surpresa. O plano era perfeito: meu irmão cuidaria da carne, minha prima traria o bolo e eu, que tenho fama de organizado, ficaria com o resto. Eu poria a mão no fogo pelo meu irmão. Pois é. Às onze da manhã ele me ligou dizendo que o açougue estava fechado e que ele tinha esquecido de encomendar a picanha. Pisou na bola feio.\n\nCom quarenta convidados chegando às duas, parecia que a gente ia dar com os burros n'água. Minha mãe, que é a calma em pessoa, só disse \"em casa de ferreiro...\" e olhou para mim, o filho que organiza eventos para os outros e não conseguiu organizar a festa do próprio pai. Doeu, mas ela tinha razão.\n\nFoi aí que entrou a vizinha, Dona Cida. Ela tinha congelado frango e linguiça para a festa junina da igreja e ofereceu tudo. Meu primo, que até então era um zero à esquerda na cozinha, descobriu um talento escondido para a churrasqueira e passou a tarde tirando onda com o avental emprestado. Meu tio pegou o violão, alguém puxou \"Trem das Onze\", e às cinco ninguém lembrava mais que faltava picanha.\n\nViramos o jogo nos acréscimos, como diria qualquer narrador de futebol. Meu pai, que não sabia de nada, chegou, chorou, comeu três espetinhos de coração e declarou que aquele tinha sido o melhor aniversário da vida dele.\n\nNo domingo, meu irmão quis se desculpar de novo. Eu disse que águas passadas não movem moinho e que o importante era que a festa tinha dado certo. Minha avó, se estivesse aqui, teria sorrido. Afinal, a gente não tinha cão. Mas que gato bom a gente encontrou.",
   explanation: "Proverbs are fixed and keep their exact wording. A well-known one can be left half-said (\"em casa de ferreiro...\") because Brazilians finish it in their heads, which sounds more native than quoting it in full. Idioms are different: their verb conjugates like any other, so \"pôr a mão no fogo\" becomes \"eu poria a mão no fogo\", \"pisar na bola\" becomes \"pisou na bola\" and \"virar o jogo\" becomes \"viramos o jogo\". The column also shows the narrative tenses a crônica needs: the futuro do pretérito for the plan (\"cuidaria\", \"traria\"), the mais-que-perfeito for what had already happened (\"tinha esquecido\", \"tinha congelado\") and a past unreal condition to close (\"se estivesse aqui, teria sorrido\")."

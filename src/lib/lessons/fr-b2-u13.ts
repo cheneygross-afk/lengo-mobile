@@ -68,7 +68,7 @@ export const FR_B2_U13: Lesson[] = [
         body: [
           "The gérondif adds a circumstance to the main verb, and context tells you which one. Simultaneity (while, as, when): \"Il écoute des podcasts en courant\". Manner or means, the English 'by + -ing': \"On apprend une langue en la pratiquant\". Condition (if): \"En partant maintenant, tu arriveras à l'heure\" = si tu pars maintenant. Sometimes cause: \"Il s'est cassé le bras en tombant de vélo\".",
           "That flexibility is why the gérondif is so useful: one compact structure replaces \"pendant que\", \"quand\", \"si\" and \"parce que\" clauses, as long as the subject is the same. It is used in speech as well as in writing, and it answers the question \"comment ?\" very naturally: \"Comment as-tu trouvé ce travail ? — En lisant les petites annonces.\"",
-          "English 'by + -ing' is always \"en\" + -ant in French, never \"par\" + anything: 'by working hard' is \"en travaillant dur\". This is one of the few cases where an English -ing really does become an -ant form.",
+          "English 'by + -ing' is always \"en\" + -ant in French, never \"par\" + -ant: 'by working hard' is \"en travaillant dur\". The one exception is after 'start' and 'end': 'I started by reading' is \"j'ai commencé par lire\", 'he ended up by laughing' is \"il a fini par rire\" (\"par\" + infinitive). This is one of the few cases where an English -ing really does become an -ant form.",
         ],
         examples: [
           { es: "Il écoute des podcasts en courant.", en: "He listens to podcasts while he runs." },
@@ -91,8 +91,8 @@ export const FR_B2_U13: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does \"En partant maintenant, tu arriveras à l'heure\" express?",
-            options: ["A condition: if you leave now", "A cause: because you left", "A contrast: although you leave now", "Something happening at the same time"],
+            question: "Which sentence means the same as \"En partant maintenant, tu arriveras à l'heure\"?",
+            options: ["Si tu pars maintenant, tu arriveras à l'heure.", "Parce que tu es parti, tu arriveras à l'heure.", "Bien que tu partes maintenant, tu arriveras à l'heure.", "Pendant que tu pars, tu arriveras à l'heure."],
             correctIndex: 0,
             explanation: "With a future in the main clause, the gérondif works like \"si tu pars maintenant\": a condition.",
           },
@@ -559,7 +559,7 @@ export const FR_B2_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence expresses a contrast (although)?",
+        question: "You want to say: Although he's very rich, he lives simply. Which sentence says it?",
         options: ["Tout en étant très riche, il vit simplement.", "En étant très riche, il vit simplement.", "En vivant simplement, il est devenu riche.", "Il vit simplement en étant riche."],
         correctIndex: 0,
         explanation: "\"Tout en\" + -ant marks the concession: although he's very rich, he lives simply.",
@@ -649,7 +649,6 @@ export const FR_B2_U13: Lesson[] = [
             prompt: "Translate into French.",
             source: "My father had hidden from us that he had a half-brother.",
             answer: "Mon père nous avait caché qu'il avait un demi-frère.",
-            altAnswers: ["Mon père nous avait caché qu'il avait un demi frère."],
             explanation: "\"Cacher quelque chose à quelqu'un\": the person is an indirect object (\"nous\"). The plus-que-parfait sets the hiding before now.",
           },
           {
@@ -665,7 +664,7 @@ export const FR_B2_U13: Lesson[] = [
       {
         heading: "The confession: reporting what was said",
         body: [
-          "Secrets come out in conversations that you then report. After a past reporting verb, the tenses shift back: « J'ai eu un enfant avant ton père » → \"Ma mère m'a avoué qu'elle avait eu un enfant avant mon père\". « Je ne t'en parlerai jamais » → \"Elle avait dit qu'elle ne m'en parlerait jamais\".",
+          "Secrets come out in conversations that you then report. After a past reporting verb, the tenses shift back: \"« J'ai eu un enfant avant ton père »\" → \"Ma mère m'a avoué qu'elle avait eu un enfant avant mon père\". \"« Je ne t'en parlerai jamais »\" → \"Elle avait dit qu'elle ne m'en parlerait jamais\".",
           "Choose a precise reporting verb: \"avouer\" (to confess), \"admettre\", \"reconnaître\" (to admit), \"nier\" (to deny: \"il a nié avoir menti\"), \"prétendre\" (to claim, a false friend), \"confier\" (to confide: \"elle m'a confié que...\"), \"révéler\".",
           "Remember: questions become \"si\" or \"ce que\", never \"est-ce que\": \"Je lui ai demandé si mon père était au courant\" and \"ce qu'elle avait ressenti\".",
         ],
@@ -689,7 +688,7 @@ export const FR_B2_U13: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« J'ai vendu la maison en secret », a dit mon grand-père. How do you report it?",
+            question: "Your grandfather said: \"« J'ai vendu la maison en secret. »\" How do you report it?",
             options: ["Mon grand-père a avoué qu'il avait vendu la maison en secret.", "Mon grand-père a avoué qu'il a vendu la maison en secret.", "Mon grand-père a avoué qu'il vendrait la maison en secret.", "Mon grand-père a avoué que j'avais vendu la maison en secret."],
             correctIndex: 0,
             explanation: "After a past reporting verb, the passé composé shifts to the plus-que-parfait, and \"je\" becomes \"il\".",
@@ -1243,10 +1242,10 @@ export const FR_B2_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which conjunction takes the indicative?",
-        options: ["tandis que", "bien que", "pour que", "avant que"],
+        question: "Which sentence is correct?",
+        options: ["Elle travaille tandis que son mari dort.", "Elle travaille bien que son mari dort.", "Elle travaille pour que son mari dort.", "Elle travaille avant que son mari dort."],
         correctIndex: 0,
-        explanation: "\"Tandis que\" contrasts two facts: indicative. The other three take the subjunctive.",
+        explanation: "\"Tandis que\" contrasts two facts, so it takes the indicative \"dort\". \"Bien que\", \"pour que\" and \"avant que\" would need the subjunctive \"dorme\".",
       },
       {
         type: "word-order",
@@ -1384,7 +1383,7 @@ export const FR_B2_U13: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which form is correct? 'des voisines ___ toujours la porte' (always slamming the door)",
+            question: "Which form is correct? \"des voisines ___ toujours la porte\" (neighbours always slamming the door)",
             options: ["claquant", "claquantes", "claquante", "claquants"],
             correctIndex: 0,
             explanation: "The -ant word has an object (\"la porte\"): it is a participle, so it stays invariable.",
@@ -1795,9 +1794,9 @@ export const FR_B2_U13: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence is correct?",
-            options: ["Il est probable qu'il neigera demain.", "Il est probable qu'il neige demain.", "Il est possible qu'il neigera demain.", "Il est possible qu'il va neiger demain."],
+            options: ["Il est probable qu'il viendra demain.", "Il est probable qu'il vienne demain.", "Il est possible qu'il viendra demain.", "Il est possible qu'il va venir demain."],
             correctIndex: 0,
-            explanation: "\"Probable\" is close to certain → indicative. \"Possible\" would need the subjunctive \"qu'il neige\".",
+            explanation: "\"Probable\" is close to certain → indicative. \"Possible\" would need the subjunctive \"qu'il vienne\".",
           },
         ],
       },

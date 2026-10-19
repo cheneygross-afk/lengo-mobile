@@ -153,7 +153,7 @@ export const PT_C2_U31_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into formal Portuguese.",
-        source: "In our neighbourhood, more than two hundred families depend on the food bank.",
+        source: "In our neighborhood, more than two hundred families depend on the food bank.",
         answer: "Em nosso bairro, mais de duzentas famílias dependem do banco de alimentos.",
         altAnswers: [
           "No nosso bairro, mais de duzentas famílias dependem do banco de alimentos.",
@@ -259,7 +259,7 @@ export const PT_C2_U31_EXTRA: Lesson[] = [
           { es: "O que me chama a atenção é a pergunta do título: ela já sugere que o paraíso está no limite.", en: "What strikes me is the question in the headline: it already suggests the paradise is at its limit." },
           { es: "Por um lado, o turismo gera renda; por outro, pode destruir justamente o que atrai os turistas.", en: "On the one hand, tourism generates income; on the other, it can destroy precisely what attracts the tourists." },
           { es: "Se eu fosse responsável pela ilha, limitaria o número de visitantes por dia.", en: "If I were in charge of the island, I'd limit the number of visitors per day." },
-          { es: "Na minha cidade aconteceu uma coisa parecida com o centro histórico.", en: "Something similar happened in my city with the historic centre." },
+          { es: "Na minha cidade aconteceu uma coisa parecida com o centro histórico.", en: "Something similar happened in my city with the historic center." },
         ],
         checkpoint: [
           {
@@ -305,7 +305,7 @@ export const PT_C2_U31_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into natural spoken Portuguese.",
-        source: "Something similar happened in my city with the historic centre.",
+        source: "Something similar happened in my city with the historic center.",
         answer: "Na minha cidade aconteceu uma coisa parecida com o centro histórico.",
         altAnswers: [
           "Na minha cidade, aconteceu uma coisa parecida com o centro histórico.",
@@ -399,7 +399,7 @@ export const PT_C2_U31_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into natural spoken Portuguese.",
-        source: "Just to give you an idea, the queue for the boat took two hours.",
+        source: "Just to give you an idea, the line for the boat took two hours.",
         answer: "Pra você ter uma ideia, a fila do barco levou duas horas.",
         altAnswers: [
           "Para você ter uma ideia, a fila do barco levou duas horas.",
@@ -465,21 +465,21 @@ export const PT_C2_U31_EXTRA: Lesson[] = [
       {
         heading: "Reading and listening",
         body: [
-          "A quick recap. The press keeps its distance with the conditional of rumour (\"teria assinado\"), with \"alegar\" and with quotation marks; irony works by juxtaposition. Legal prose obliges with \"fica vedado\" and \"deverá\", exempts with \"salvo\" and punishes with \"sob pena de\". Fast speech fuses (\"cê tá\", \"peraí\", \"bora\"), and regional voices signal themselves with a handful of words; listen for the frame and the stressed syllables.",
+          "A quick recap. The press keeps its distance with the conditional of rumor (\"teria assinado\"), with \"alegar\" and with quotation marks; irony works by juxtaposition. Legal prose obliges with \"fica vedado\" and \"deverá\", exempts with \"salvo\" and punishes with \"sob pena de\". Fast speech fuses (\"cê tá\", \"peraí\", \"bora\"), and regional voices signal themselves with a handful of words; listen for the frame and the stressed syllables.",
         ],
         examples: [
-          { es: "O vereador teria usado o carro oficial em viagens particulares.", en: "The councillor allegedly used the official car for private trips." },
+          { es: "O vereador teria usado o carro oficial em viagens particulares.", en: "The city council member allegedly used the official car for private trips." },
           { es: "A construtora alega que o atraso se deve às chuvas.", en: "The construction company claims the delay is due to the rain." },
-          { es: "Fica vedado o uso de celulares durante a prova, sob pena de eliminação do candidato.", en: "Mobile phones may not be used during the exam, on pain of the candidate's disqualification." },
-          { es: "Peraí, cê tá dizendo que o show foi cancelado?", en: "Hang on, are you saying the show's been cancelled?" },
-          { es: "Bah, tchê, que baita festa!", en: "Wow, mate, what a party! (Porto Alegre)" },
+          { es: "Fica vedado o uso de celulares durante a prova, sob pena de eliminação do candidato.", en: "Cell phones may not be used during the exam, on pain of the candidate's disqualification." },
+          { es: "Peraí, cê tá dizendo que o show foi cancelado?", en: "Hang on, are you saying the show's been canceled?" },
+          { es: "Bah, tchê, que baita festa!", en: "Wow, man, what a party! (Porto Alegre)" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, as a newspaper would.",
-            source: "The councillor allegedly used the official car for private trips.",
+            source: "The city council member allegedly used the official car for private trips.",
             answer: "O vereador teria usado o carro oficial em viagens particulares.",
             altAnswers: [
               "O vereador teria utilizado o carro oficial em viagens particulares.",
@@ -494,7 +494,7 @@ export const PT_C2_U31_EXTRA: Lesson[] = [
             audio: "Peraí, cê tá dizendo que o show foi cancelado?",
             question: "What does it mean?",
             options: [
-              "Hang on, are you saying the show's been cancelled?",
+              "Hang on, are you saying the show's been canceled?",
               "Wait there while I cancel the show.",
               "Are you telling me the show has started?",
               "I'm waiting for you to cancel the show.",
@@ -561,7 +561,7 @@ export const PT_C2_U31_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, in legal style.",
-        source: "Mobile phones may not be used during the exam, on pain of disqualification.",
+        source: "Cell phones may not be used during the exam, on pain of disqualification.",
         answer: "Fica vedado o uso de celulares durante a prova, sob pena de eliminação.",
         altAnswers: [
           "É vedado o uso de celulares durante a prova, sob pena de eliminação.",
@@ -588,7 +588,7 @@ export const PT_C2_U31_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into informal Portuguese, as a Porto Alegre speaker would.",
-        source: "Wow, mate, what a party!",
+        source: "Wow, man, what a party!",
         answer: "Bah, tchê, que baita festa!",
         altAnswers: ["Bah, tchê, que festa!", "Bah, que baita festa, tchê!", "Bah, tchê, que festa boa!", "Bah, tchê, que festaça!"],
         explanation: "\"Bah\" for surprise, \"tchê\" as the address word and \"baita\" (huge, great) as the gaúcho intensifier.",
@@ -616,7 +616,7 @@ export const PT_C2_U31_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, following the norma culta.",
-        source: "The manager aspires to the post of director.",
+        source: "The manager aspires to the position of director.",
         answer: "A gerente aspira ao cargo de diretora.",
         altAnswers: [
           "O gerente aspira ao cargo de diretor.",

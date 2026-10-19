@@ -86,7 +86,7 @@ export const FR_A1_S03_STORIES: Story[] = [
       `Madame Benali aime son travail. Elle aide les lecteurs. Un petit garçon cherche un livre sur les dinosaures. Elle trouve un livre avec de belles images. Un vieux monsieur veut un roman policier. Elle a le livre parfait pour lui.`,
       `Un étudiant arrive. Il est fatigué. « J'ai un examen de biologie lundi. » Madame Benali donne trois livres à l'étudiant et elle sourit : « Courage ! »`,
       `Le soir, la bibliothèque ferme. Madame Benali est seule. Elle prend un livre pour elle : un livre de poésie. Elle lit une page, puis deux, puis dix.`,
-      `Le gardien arrive. « Madame Benali, il est neuf heures ! » Elle rit. Elle aussi, elle est une lectrice.`,
+      `Le gardien arrive. « Madame Benali, il est neuf heures ! » Elle rit. Elle aussi, c'est une lectrice.`,
     ],
     questions: [
       {

@@ -85,7 +85,7 @@ export const DELF_B1_PO: ExamPaper = {
         ],
         examinerQuestions: [
           "Dans votre ville, est-ce que le centre est fermé aux voitures ?",
-          "Vous dites que les transports en commun sont une solution. Mais à la campagne, comment faire ?",
+          "Les transports en commun, est-ce que c'est une solution ? Et pour les gens qui habitent à la campagne ?",
           "Que pourrait-on faire pour aider les commerçants ?",
           "Et vous, comment vous déplacez-vous au quotidien ?",
         ],

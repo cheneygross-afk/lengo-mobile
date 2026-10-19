@@ -16,15 +16,15 @@ export const PT_C2_U26: Lesson[] = [
       {
         heading: "Broto, supimpa, joia: the grandparents' slang",
         body: [
-          "Slang ages faster than any other layer of a language, and in Brazil each generation's words are instantly recognisable. The 1950s and 60s, the era of the Jovem Guarda and Roberto Carlos, gave \"broto\" (a pretty young person, usually a girl), \"supimpa\" (excellent), \"pão\" (a handsome man) and \"é uma brasa, mora?\", where \"brasa\" means something hot and exciting and \"mora?\" means 'get it?'. Said today, these sound affectionately old-fashioned, or are used ironically.",
-          "The 1970s added \"joia\" (great, fine), \"bicho\" as a vocative (\"Ô, bicho, que onda!\"), \"careta\" (square, conventional), \"barra-pesada\" (rough, dangerous) and \"podes crer\" (you bet). Some words survived and lost their slang flavour: \"bacana\" and \"joia\" are still everyday words, and \"Tudo joia?\" is a normal greeting, especially among older speakers. \"Podes crer\" is interesting because it keeps a form of \"tu\" frozen in a fixed phrase.",
+          "Slang ages faster than any other layer of a language, and in Brazil each generation's words are instantly recognizable. The 1950s and 60s, the era of the Jovem Guarda and Roberto Carlos, gave \"broto\" (a pretty young person, usually a girl), \"supimpa\" (excellent), \"pão\" (a handsome man) and \"é uma brasa, mora?\", where \"brasa\" means something hot and exciting and \"mora?\" means 'get it?'. Said today, these sound affectionately old-fashioned, or are used ironically.",
+          "The 1970s added \"joia\" (great, fine), \"bicho\" as a vocative (\"Ô, bicho, que onda!\"), \"careta\" (square, conventional), \"barra-pesada\" (rough, dangerous) and \"podes crer\" (you bet). Some words survived and lost their slang flavor: \"bacana\" and \"joia\" are still everyday words, and \"Tudo joia?\" is a normal greeting, especially among older speakers. \"Podes crer\" is interesting because it keeps a form of \"tu\" frozen in a fixed phrase.",
         ],
         examples: [
           { es: "Minha avó diz que, na juventude, era o broto mais bonito da rua.", en: "My grandmother says that, when she was young, she was the prettiest girl on the street." },
           { es: "Que supimpa essa festa, hein!", en: "What a splendid party! (old-fashioned, or jokey)" },
           { es: "Tudo joia com você?", en: "Everything OK with you?" },
           { es: "Ô, bicho, não seja careta!", en: "Come on, man, don't be so square!" },
-          { es: "Esse bairro era barra-pesada nos anos setenta.", en: "This neighbourhood was rough in the seventies." },
+          { es: "Esse bairro era barra-pesada nos anos setenta.", en: "This neighborhood was rough in the seventies." },
         ],
         checkpoint: [
           {
@@ -58,7 +58,7 @@ export const PT_C2_U26: Lesson[] = [
           "Words like \"maneiro\" and \"da hora\" are still current but mark a speaker as a millennial or older in some circles. Teenagers often have their own words and treat these as their parents' slang.",
         ],
         examples: [
-          { es: "Que tênis maneiro! Onde você comprou?", en: "What cool trainers! Where did you buy them?" },
+          { es: "Que tênis maneiro! Onde você comprou?", en: "What cool sneakers! Where did you buy them?" },
           { es: "O show de ontem foi sinistro, mermão!", en: "Last night's gig was insane, bro!" },
           { es: "Essa música é muito da hora.", en: "This song is really cool." },
           { es: "A viagem foi irada, a gente quer voltar.", en: "The trip was awesome, we want to go back." },
@@ -78,9 +78,9 @@ export const PT_C2_U26: Lesson[] = [
             type: "listen-choose",
             audio: "Valeu, mano! Falou!",
             question: "What does it mean?",
-            options: ["Thanks, mate! See you!", "It was worth it, man! He spoke!", "Well done, brother! Speak up!", "Sorry, man! Talk later!"],
+            options: ["Thanks, man! See you!", "It was worth it, man! He spoke!", "Well done, brother! Speak up!", "Sorry, man! Talk later!"],
             correctIndex: 0,
-            explanation: "\"Valeu\" is thanks and \"falou\" is bye or OK. Both are past-tense verbs fossilised as slang.",
+            explanation: "\"Valeu\" is thanks and \"falou\" is bye or OK. Both are past-tense verbs fossilized as slang.",
           },
           {
             type: "fill-blank",
@@ -96,7 +96,7 @@ export const PT_C2_U26: Lesson[] = [
       {
         heading: "Cringe, ranço and dating a speaker",
         body: [
-          "In 2021 Brazilian social media had a public argument over \"cringe\": Generation Z labelled millennial habits (skinny jeans, a love of coffee, the word \"crush\") as embarrassing, and the millennials hit back. The word stuck and is used as an adjective (\"que cringe\") and a noun (\"deu cringe\"). \"Ranço\", literally rancidness, means a sudden aversion to someone: \"peguei ranço dele\" (I can't stand him any more). \"De base\" is newer and still shifting, used approvingly of someone solid or loyal: \"ela é de base\".",
+          "In 2021 Brazilian social media had a public argument over \"cringe\": Generation Z labeled millennial habits (skinny jeans, a love of coffee, the word \"crush\") as embarrassing, and the millennials hit back. The word stuck and is used as an adjective (\"que cringe\") and a noun (\"deu cringe\"). \"Ranço\", literally rancidness, means a sudden aversion to someone: \"peguei ranço dele\" (I can't stand him anymore). \"De base\" is newer and still shifting, used approvingly of someone solid or loyal: \"ela é de base\".",
           "You can date a speaker by their slang. \"Joia\" and \"bacana\" suggest someone over fifty, or a polite professional; \"irado\", \"maneiro\" and \"da hora\" suggest thirty to forty-five; \"cringe\", \"ranço\" and \"red flag\" suggest under thirty. The safest choice for a learner is the slang of your own generation, used lightly. Old slang said in earnest can sound comic, and young slang from an older speaker can sound like trying too hard.",
         ],
         examples: [
@@ -145,7 +145,7 @@ export const PT_C2_U26: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, the way a young carioca would say it.",
-        source: "What cool trainers!",
+        source: "What cool sneakers!",
         answer: "Que tênis maneiro!",
         altAnswers: ["Que tênis maneiros!", "Que tênis irado!", "Que tênis sinistro!"],
         explanation: "\"Maneiro\" is Rio's cool. \"Tênis\" is the same in singular and plural.",
@@ -154,7 +154,7 @@ export const PT_C2_U26: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "That neighbourhood used to be rough.",
+        source: "That neighborhood used to be rough.",
         answer: "Aquele bairro era barra-pesada.",
         altAnswers: ["Esse bairro era barra-pesada.", "Aquele bairro costumava ser barra-pesada.", "Aquele bairro era barra pesada."],
         explanation: "\"Barra-pesada\" (rough, dangerous) is invariable and still understood. The imperfect gives used to be.",
@@ -172,7 +172,7 @@ export const PT_C2_U26: Lesson[] = [
         type: "listen-choose",
         audio: "O show foi sinistro, cara!",
         question: "A twenty-year-old says this. What does she mean?",
-        options: ["The gig was amazing.", "The gig was frightening.", "The gig was cancelled.", "The gig was boring."],
+        options: ["The gig was amazing.", "The gig was frightening.", "The gig was canceled.", "The gig was boring."],
         correctIndex: 0,
         explanation: "In youth slang \"sinistro\" is praise, like English wicked.",
       },
@@ -180,10 +180,10 @@ export const PT_C2_U26: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Thanks for the lift! See you!",
+        source: "Thanks for the ride! See you!",
         answer: "Valeu pela carona! Falou!",
         altAnswers: ["Valeu a carona! Falou!", "Valeu pela carona, falou!", "Obrigado pela carona! Falou!", "Obrigada pela carona! Falou!"],
-        explanation: "A lift is \"carona\". \"Valeu\" and \"falou\" are the casual thanks and bye.",
+        explanation: "A ride is \"carona\". \"Valeu\" and \"falou\" are the casual thanks and bye.",
       },
       {
         type: "word-order",
@@ -276,12 +276,12 @@ export const PT_C2_U26: Lesson[] = [
       {
         heading: "Mó, maior, top, de boa, suave",
         body: [
-          "\"Mó\" is São Paulo's intensifier, a worn-down form of \"maior\". It doesn't agree and goes before nouns and adjectives: \"mó fila\" (a massive queue), \"mó legal\", \"mó calor\". \"Maior\" itself works the same way in speech: \"Tinha maior galera\" (there was a huge crowd), \"Tô com a maior preguiça\". \"Top\" is an invariable adjective: \"As fotos ficaram top\", \"um lugar top demais\".",
+          "\"Mó\" is São Paulo's intensifier, a worn-down form of \"maior\". It doesn't agree and goes before nouns and adjectives: \"mó fila\" (a huge line), \"mó legal\", \"mó calor\". \"Maior\" itself works the same way in speech: \"Tinha maior galera\" (there was a huge crowd), \"Tô com a maior preguiça\". \"Top\" is an invariable adjective: \"As fotos ficaram top\", \"um lugar top demais\".",
           "\"De boa\" means relaxed, fine, no problem: \"Tô de boa\" (I'm chilling, I'm fine), \"De boa?\" (all good?), \"Fica de boa\" (relax). \"Suave\" is used the same way: \"Tá suave\", \"É suave\" (it's easy, no stress). Both are also answers to requests: \"Pode trocar o horário? — De boa!\". \"Na moral\" (seriously, honestly) is common too: \"Na moral, esse foi o melhor show do ano.\"",
           "The trap for learners is agreement. \"Mó\" never changes (there is no \"mós\"), and \"top\" usually stays the same in the plural: \"as festas foram top\".",
         ],
         examples: [
-          { es: "Tinha mó fila na porta do show.", en: "There was a massive queue at the door of the gig." },
+          { es: "Tinha mó fila na porta do show.", en: "There was a huge line at the door of the gig." },
           { es: "Tô com a maior preguiça de sair hoje.", en: "I really can't be bothered to go out today." },
           { es: "As fotos do casamento ficaram top.", en: "The wedding photos came out great." },
           { es: "Pode chegar mais tarde, tá de boa.", en: "You can come later, no problem." },
@@ -318,7 +318,7 @@ export const PT_C2_U26: Lesson[] = [
           { es: "Cara, você não vai acreditar no que aconteceu.", en: "Dude, you won't believe what happened." },
           { es: "Mano, cê viu o jogo ontem, mano?", en: "Man, did you see the game last night?" },
           { es: "Véi, que calor é esse em Brasília?", en: "Dude, how hot is it in Brasília?" },
-          { es: "Ele é meu parça desde a escola.", en: "He's been my best mate since school." },
+          { es: "Ele é meu parça desde a escola.", en: "He's been my best friend since school." },
           { es: "Esse goleiro é o cara.", en: "That goalkeeper is the best." },
         ],
         checkpoint: [
@@ -420,7 +420,7 @@ export const PT_C2_U26: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "He's been my best mate since school.",
+        source: "He's been my best friend since school.",
         answer: "Ele é meu parça desde a escola.",
         altAnswers: ["Ele é o meu parça desde a escola.", "Ele é meu parça desde o colégio.", "Ele é meu melhor amigo desde a escola."],
         explanation: "\"Parça\" (from \"parceiro\") is slang for a close friend. Portuguese uses the present with \"desde\".",
@@ -452,15 +452,15 @@ export const PT_C2_U26: Lesson[] = [
       {
         heading: "Oxe, vixe, eita: Northeastern interjections",
         body: [
-          "The Nordeste has the most recognisable interjections in Brazil, and they carry a lot of emotional precision. \"Oxe\" or \"oxente\" expresses surprise mixed with protest: \"Oxe, e eu lá sabia?\" (how was I supposed to know?). \"Vixe\" or \"vixi\" (from \"Virgem Maria\") is 'oh no' or 'wow', often at bad news: \"Vixe, esqueci a chave.\" \"Eita\" is surprise in general and has spread all over Brazil.",
-          "Pernambuco adds the tag \"visse?\", an old form of \"viste\" (did you see?), used like \"né?\": \"Tô chegando, visse?\". In Bahia, a mother is \"mainha\" and a father \"painho\", and men call each other \"meu rei\". Each state has its own preferences, so \"visse\" places someone in Recife, \"meu rei\" in Salvador.",
+          "The Nordeste has the most recognizable interjections in Brazil, and they carry a lot of emotional precision. \"Oxe\" or \"oxente\" expresses surprise mixed with protest: \"Oxe, e eu lá sabia?\" (how was I supposed to know?). \"Vixe\" or \"vixi\" (from \"Virgem Maria\") is 'oh no' or 'wow', often at bad news: \"Vixe, esqueci a chave.\" \"Eita\" is surprise in general and has spread all over Brazil.",
+          "Pernambuco adds the tag \"visse?\", the local form of \"viste\" (tu viste, did you see?), used like \"né?\": \"Tô chegando, visse?\". In Bahia, a mother is \"mainha\" and a father \"painho\", and men call each other \"meu rei\". Each state has its own preferences, so \"visse\" places someone in Recife, \"meu rei\" in Salvador.",
         ],
         examples: [
           { es: "Oxe, e eu lá sabia que era hoje?", en: "Hey, how was I supposed to know it was today?" },
           { es: "Vixe, esqueci a chave dentro do carro.", en: "Oh no, I've left the key in the car." },
           { es: "Eita, que chuva é essa!", en: "Whoa, look at this rain!" },
           { es: "Tô chegando aí em dez minutos, visse?", en: "I'll be there in ten minutes, OK?" },
-          { es: "Mainha, a senhora viu meu celular?", en: "Mum, have you seen my phone?" },
+          { es: "Mainha, a senhora viu meu celular?", en: "Mom, have you seen my phone?" },
         ],
         checkpoint: [
           {
@@ -533,7 +533,7 @@ export const PT_C2_U26: Lesson[] = [
           { es: "Égua, mana, que calor hoje!", en: "Wow, girl, it's so hot today!" },
           { es: "O açaí dessa barraca é pai d'égua.", en: "The açaí from this stall is fantastic." },
           { es: "Deixa de leseira, menino!", en: "Stop being silly, boy!" },
-          { es: "Bora merendar alguma coisa, maninho?", en: "Shall we grab a snack, mate?" },
+          { es: "Bora merendar alguma coisa, maninho?", en: "Shall we grab a snack, man?" },
           { es: "Égua, perdi o ônibus de novo!", en: "Oh no, I've missed the bus again!" },
         ],
         checkpoint: [
@@ -621,10 +621,10 @@ export const PT_C2_U26: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[Mum], where's my shirt? (Salvador)",
+        en: "[Mom], where's my shirt? (Salvador)",
         sentence: "___, cadê minha camisa?",
         answer: "Mainha",
-        explanation: "\"Mainha\" and \"painho\" are Bahia's words for mum and dad.",
+        explanation: "\"Mainha\" and \"painho\" are Bahia's words for mom and dad.",
       },
       {
         type: "translate",
@@ -639,7 +639,7 @@ export const PT_C2_U26: Lesson[] = [
         type: "listen-choose",
         audio: "Égua, mano, o show foi pai d'égua!",
         question: "What does the speaker think of the gig?",
-        options: ["It was fantastic.", "It was awful.", "It was cancelled.", "It was too long."],
+        options: ["It was fantastic.", "It was awful.", "It was canceled.", "It was too long."],
         correctIndex: 0,
         explanation: "\"Pai d'égua\" is high praise in Pará. \"Égua\" alone is just the reaction.",
       },
@@ -705,11 +705,11 @@ export const PT_C2_U26: Lesson[] = [
       {
         heading: "Bah, tri, capaz: the South",
         body: [
-          "Rio Grande do Sul has the most distinctive speech in the South. \"Bah\" opens everything: surprise, admiration, annoyance (\"Bah, que frio!\"). \"Tchê\" is the vocative, like mate. \"Tri\" intensifies: \"tri legal\", \"tri bom\", or alone as praise: \"Tri!\" Boys and girls are \"guri\" and \"guria\"; in Paraná and Santa Catarina a boy is a \"piá\", and a spoilt city kid a \"piá de prédio\".",
+          "Rio Grande do Sul has the most distinctive speech in the South. \"Bah\" opens everything: surprise, admiration, annoyance (\"Bah, que frio!\"). \"Tchê\" is the vocative, like buddy. \"Tri\" intensifies: \"tri legal\", \"tri bom\", or alone as praise: \"Tri!\" Boys and girls are \"guri\" and \"guria\"; in Paraná and Santa Catarina a boy is a \"piá\", and a spoiled city kid a \"piá de prédio\".",
           "\"Capaz\" is the gaúcho word that misleads learners most. Standard \"é capaz de chover\" means it may rain. But the gaúcho reply \"Capaz!\" means the opposite of yes: 'no way', 'of course not', 'don't mention it'. \"Quer que eu pague? — Capaz!\" means 'Shall I pay? — Don't be silly!'. Add the bread roll \"cacetinho\" and \"bergamota\" for tangerine, and you can identify a porto-alegrense in a sentence.",
         ],
         examples: [
-          { es: "Bah, tchê, que frio!", en: "Wow, mate, it's freezing!" },
+          { es: "Bah, tchê, que frio!", en: "Wow, man, it's freezing!" },
           { es: "O churrasco foi tri bom.", en: "The barbecue was really good." },
           { es: "Quer que eu pague? — Capaz!", en: "Shall I pay? — Don't be silly!" },
           { es: "Os guris foram comprar cacetinho na padaria.", en: "The boys went to buy bread rolls at the bakery." },
@@ -728,7 +728,7 @@ export const PT_C2_U26: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, the way a gaúcho would say it.",
-            source: "Wow, mate, this barbecue is really good!",
+            source: "Wow, man, this barbecue is really good!",
             answer: "Bah, tchê, esse churrasco está tri bom!",
             altAnswers: ["Bah, tchê, esse churrasco tá tri bom!", "Bah, tchê, que churrasco tri bom!", "Bah, tchê, esse churrasco é tri bom!", "Bah, tchê, este churrasco está tri bom!"],
             explanation: "\"Bah\" reacts, \"tchê\" addresses, \"tri\" intensifies: the gaúcho trio.",
@@ -810,19 +810,19 @@ export const PT_C2_U26: Lesson[] = [
       {
         heading: "Biscoito or bolacha? Words that start arguments",
         body: [
-          "Some regional differences are national running jokes. The packet of crackers is \"biscoito\" in Rio and \"bolacha\" in São Paulo, and the argument never ends. Cassava is \"mandioca\" in São Paulo, \"aipim\" in Rio and the South, \"macaxeira\" in the Nordeste. A traffic light is \"sinal\" in Rio, \"farol\" in São Paulo, \"sinaleira\" in Porto Alegre. These words travel less than slang, so they are among the most reliable clues to where someone grew up.",
+          "Some regional differences are national running jokes. The package of cookies or crackers is \"biscoito\" in Rio and \"bolacha\" in São Paulo, and the argument never ends. Cassava is \"mandioca\" in São Paulo, \"aipim\" in Rio and the South, \"macaxeira\" in the Nordeste. A traffic light is \"sinal\" in Rio, \"farol\" in São Paulo, \"sinaleira\" in Porto Alegre. These words travel less than slang, so they are among the most reliable clues to where someone grew up.",
         ],
         examples: [
           { es: "Em São Paulo é bolacha; no Rio, é biscoito.", en: "In São Paulo it's bolacha; in Rio it's biscoito." },
           { es: "Comprei aipim pra fazer um caldo.", en: "I bought cassava to make a soup. (Rio, the South)" },
-          { es: "Vira à direita no farol.", en: "Turn right at the traffic lights. (São Paulo)" },
+          { es: "Vira à direita no farol.", en: "Turn right at the traffic light. (São Paulo)" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, the way a paulistano would say it.",
-            source: "Turn left at the traffic lights.",
+            source: "Turn left at the traffic light.",
             answer: "Vira à esquerda no farol.",
             altAnswers: ["Vire à esquerda no farol.", "Vira na esquerda no farol.", "Vira à esquerda no próximo farol."],
             explanation: "\"Farol\" is São Paulo's traffic light; a carioca says \"sinal\". \"À esquerda\" takes the crase.",
@@ -844,9 +844,9 @@ export const PT_C2_U26: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, the way someone from Curitiba would say it.",
-        source: "That boy plays football really well.",
-        answer: "Esse piá joga muito bem futebol.",
-        altAnswers: ["Esse piá joga futebol muito bem.", "Aquele piá joga futebol muito bem.", "Aquele piá joga muito bem futebol."],
+        source: "That boy plays soccer really well.",
+        answer: "Esse piá joga futebol muito bem.",
+        altAnswers: ["Esse piá joga muito bem futebol.", "Aquele piá joga futebol muito bem.", "Aquele piá joga muito bem futebol."],
         explanation: "\"Piá\" is the boy of Paraná and Santa Catarina; in Rio Grande do Sul he's a \"guri\".",
       },
       {
@@ -879,7 +879,7 @@ export const PT_C2_U26: Lesson[] = [
         type: "listen-choose",
         audio: "Bah, tchê, o jogo foi tri!",
         question: "What did the speaker think of the match?",
-        options: ["It was great.", "It was boring.", "It had three goals.", "It was cancelled."],
+        options: ["It was great.", "It was boring.", "It had three goals.", "It was canceled."],
         correctIndex: 0,
         explanation: "\"Tri\" alone is gaúcho praise. It has nothing to do with the number three here.",
       },
@@ -945,8 +945,8 @@ export const PT_C2_U26: Lesson[] = [
       {
         heading: "Literatura de cordel",
         body: [
-          "\"Literatura de cordel\" is narrative poetry printed in cheap booklets (\"folhetos\") and sold at markets in the Nordeste, traditionally hung on a string, the \"cordel\" that gives the genre its name. Covers are woodcuts (\"xilogravuras\"), a style made famous by artists like J. Borges. Leandro Gomes de Barros, at the turn of the twentieth century, was one of its founders, and in 2018 the IPHAN recognised cordel as part of Brazil's intangible cultural heritage.",
-          "Cordel was meant to be heard. Poets (\"cordelistas\") read or sang their folhetos aloud at the feira to attract buyers, and many listeners couldn't read. The themes are those of the oral tradition: the cangaceiro Lampião and Padre Cícero, love stories, fantastic tales like \"O Pavão Misterioso\", humour (\"A Chegada de Lampião no Inferno\"), and, today, news, politics and public-health campaigns. A cordel is still a natural way in Brazil to tell a story to everyone.",
+          "\"Literatura de cordel\" is narrative poetry printed in cheap booklets (\"folhetos\") and sold at markets in the Nordeste, traditionally hung on a string, the \"cordel\" that gives the genre its name. Covers are woodcuts (\"xilogravuras\"), a style made famous by artists like J. Borges. Leandro Gomes de Barros, at the turn of the twentieth century, was one of its founders, and in 2018 the IPHAN recognized cordel as part of Brazil's intangible cultural heritage.",
+          "Cordel was meant to be heard. Poets (\"cordelistas\") read or sang their folhetos aloud at the feira to attract buyers, and many listeners couldn't read. The themes are those of the oral tradition: the cangaceiro Lampião and Padre Cícero, love stories, fantastic tales like \"O Pavão Misterioso\", humor (\"A Chegada de Lampião no Inferno\"), and, today, news, politics and public-health campaigns. A cordel is still a natural way in Brazil to tell a story to everyone.",
         ],
         examples: [
           { es: "Comprei três folhetos de cordel na feira de Caruaru.", en: "I bought three cordel booklets at the Caruaru market." },
@@ -1254,7 +1254,7 @@ export const PT_C2_U26: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "As my niece would say, that film flopped.",
+            source: "As my niece would say, that movie flopped.",
             answer: "Como diz minha sobrinha, esse filme flopou.",
             altAnswers: [
               "Como diria minha sobrinha, esse filme flopou.",
@@ -1386,7 +1386,7 @@ export const PT_C2_U26: Lesson[] = [
         ],
         examples: [
           { es: "O show foi sinistro. → O show foi impressionante.", en: "The gig was insane. → The gig was impressive." },
-          { es: "Tinha mó fila. → Havia uma fila enorme.", en: "There was a massive queue. → There was a very long queue." },
+          { es: "Tinha mó fila. → Havia uma fila enorme.", en: "There was a huge line. → There was a very long line." },
           { es: "O hotel é top. → O hotel é excelente.", en: "The hotel is top. → The hotel is excellent." },
           { es: "Pode chegar mais tarde, de boa. → Pode chegar mais tarde, sem problemas.", en: "Come later, no worries. → You may arrive later, that's no problem." },
           { es: "O churrasco tava tri bom. → O churrasco estava muito bom.", en: "The barbecue was really good. (gaúcho → neutral)" },
@@ -1396,7 +1396,7 @@ export const PT_C2_U26: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Rewrite in neutral Portuguese: \"Tinha mó fila no banco.\"",
-            source: "There was a very long queue at the bank.",
+            source: "There was a very long line at the bank.",
             answer: "Havia uma fila enorme no banco.",
             altAnswers: ["Tinha uma fila enorme no banco.", "Havia uma fila muito grande no banco.", "Tinha uma fila muito grande no banco.", "A fila no banco estava enorme."],
             explanation: "\"Mó\" becomes a real adjective (\"enorme\", \"muito grande\"). \"Havia\" is more formal than \"tinha\".",
@@ -1415,12 +1415,12 @@ export const PT_C2_U26: Lesson[] = [
       {
         heading: "Verbs and nouns",
         body: [
-          "Slang verbs pack a judgement into one word. \"Mitou\" is \"se saiu muito bem\" or \"teve um desempenho brilhante\"; \"flopou\" is \"fracassou\" or \"não fez sucesso\"; \"lacrou\" is \"deu uma resposta brilhante\"; \"biscoitar\" is \"buscar atenção\" or \"pedir elogios\". Nouns shift too: \"trampo\" is \"trabalho\", \"rolê\" is \"passeio\" or \"saída\", \"parada\" is \"coisa\" or \"situação\", \"balada\" is \"festa\" or \"casa noturna\".",
+          "Slang verbs pack a judgment into one word. \"Mitou\" is \"se saiu muito bem\" or \"teve um desempenho brilhante\"; \"flopou\" is \"fracassou\" or \"não fez sucesso\"; \"lacrou\" is \"deu uma resposta brilhante\"; \"biscoitar\" is \"buscar atenção\" or \"pedir elogios\". Nouns shift too: \"trampo\" is \"trabalho\", \"rolê\" is \"passeio\" or \"saída\", \"parada\" is \"coisa\" or \"situação\", \"balada\" is \"festa\" or \"casa noturna\".",
           "The reverse direction is the creative one: turning a neutral sentence into natural slang needs the right region and generation. \"Ela se saiu muito bem na entrevista\" can become \"Ela mitou na entrevista\" for a young paulistano, \"Ela arrasou na entrevista\" for almost anyone. \"Arrasar\" is the safe bridge: informal but understood by every generation.",
         ],
         examples: [
           { es: "Ela mitou na entrevista. → Ela se saiu muito bem na entrevista.", en: "She nailed the interview. → She did very well in the interview." },
-          { es: "O filme flopou. → O filme não fez sucesso.", en: "The film flopped. → The film was not a success." },
+          { es: "O filme flopou. → O filme não fez sucesso.", en: "The movie flopped. → The movie was not a success." },
           { es: "Bora dar um rolê? → Vamos sair para passear?", en: "Shall we go out? → Shall we go for a walk?" },
           { es: "Saí do trampo tarde. → Saí do trabalho tarde.", en: "I left work late." },
           { es: "Ela arrasou na apresentação.", en: "She was brilliant in the presentation. (informal, but safe)" },
@@ -1460,18 +1460,18 @@ export const PT_C2_U26: Lesson[] = [
           "Brazilians often switch mid-conversation to change the relationship: a manager drops into slang to sound approachable, a friend switches to formal Portuguese to show irritation (\"Eu gostaria que você me devolvesse o dinheiro\"). Sudden formality between friends is a warning sign, as cold as a full name in English.",
         ],
         examples: [
-          { es: "Mano, cê pode me dar uma força?", en: "Mate, can you give me a hand?" },
+          { es: "Mano, cê pode me dar uma força?", en: "Man, can you give me a hand?" },
           { es: "Você poderia me ajudar com isso?", en: "Could you help me with this?" },
           { es: "O senhor poderia me ajudar, por favor?", en: "Could you help me, please, sir?" },
           { es: "Eu gostaria que você me devolvesse o dinheiro.", en: "I would like you to give me back the money. (cold between friends)" },
-          { es: "Mano, devolve minha grana aí quando der.", en: "Mate, give me my cash back whenever you can. (warm, same request)" },
+          { es: "Mano, devolve minha grana aí quando der.", en: "Man, give me my cash back whenever you can. (warm, same request)" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, as a friend would ask in slang.",
-            source: "Mate, can you give me a hand?",
+            source: "Man, can you give me a hand?",
             answer: "Mano, cê pode me dar uma força?",
             altAnswers: ["Mano, você pode me dar uma força?", "Cara, cê pode me dar uma força?", "Cara, você pode me dar uma força?", "Mano, me dá uma força?", "Cara, me dá uma força?"],
             explanation: "\"Dar uma força\" is the informal give a hand; \"mano\" or \"cara\" sets the friendly tone.",
@@ -1604,7 +1604,7 @@ export const PT_C2_U26: Lesson[] = [
         examples: [
           { es: "Gente, cês têm que provar esse trem.", en: "Guys, you have to try this stuff." },
           { es: "Oxe, que massa esse pão de queijo!", en: "Wow, this cheese bread is great!" },
-          { es: "Bah, tri bom, tchê!", en: "Wow, really good, mate!" },
+          { es: "Bah, tri bom, tchê!", en: "Wow, really good, man!" },
           { es: "Nó, bão demais da conta!", en: "Gosh, it's seriously good!" },
           { es: "Trem? Você chama o queijo de trem?", en: "Trem? You call the cheese a train?" },
         ],
@@ -1723,7 +1723,7 @@ export const PT_C2_U26: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, as Gustavo from Porto Alegre would say it.",
-        source: "Wow, mate, what a view!",
+        source: "Wow, man, what a view!",
         answer: "Bah, tchê, que vista!",
         altAnswers: ["Bah, tchê, que vista linda!", "Bah, que vista, tchê!", "Bah, tchê, que paisagem!"],
         explanation: "\"Bah\" and \"tchê\" frame the gaúcho reaction.",
@@ -1750,7 +1750,7 @@ export const PT_C2_U26: Lesson[] = [
         type: "listen-choose",
         audio: "Quer que eu pague? — Capaz, tchê!",
         question: "What does Gustavo mean?",
-        options: ["Don't even think about it, mate!", "Yes, you're able to, mate!", "Maybe, mate!", "I can't, mate!"],
+        options: ["Don't even think about it, man!", "Yes, you're able to, man!", "Maybe, man!", "I can't, man!"],
         correctIndex: 0,
         explanation: "The gaúcho \"Capaz!\" refuses an offer politely.",
       },
@@ -1806,7 +1806,7 @@ export const PT_C2_U26: Lesson[] = [
           "Avoid regional words completely.",
         ],
         correctIndex: 0,
-        explanation: "The teasing is reciprocal among insiders. An outsider who starts it, or ranks regions, risks causing offence.",
+        explanation: "The teasing is reciprocal among insiders. An outsider who starts it, or ranks regions, risks causing offense.",
       },
     ],
   },
@@ -1860,7 +1860,7 @@ export const PT_C2_U26: Lesson[] = [
       {
         heading: "Slang in formal writing",
         body: [
-          "Slang in a formal text is the commonest register error of advanced learners who have learnt Portuguese from friends. In a cover letter, \"Sou top em Excel\" must be \"Tenho domínio avançado de Excel\"; in a report, \"As vendas floparam\" must be \"As vendas ficaram abaixo do esperado\"; in an email to a client, \"De boa, a gente muda a data\" must be \"Sem problemas, podemos alterar a data\".",
+          "Slang in a formal text is the commonest register error of advanced learners who have learned Portuguese from friends. In a cover letter, \"Sou top em Excel\" must be \"Tenho domínio avançado de Excel\"; in a report, \"As vendas floparam\" must be \"As vendas ficaram abaixo do esperado\"; in an email to a client, \"De boa, a gente muda a data\" must be \"Sem problemas, podemos alterar a data\".",
           "Watch the small words too. \"Pra\", \"tá\", \"cê\" and \"a gente\" are standard speech but informal in writing; in formal texts write \"para\", \"está\", \"você\" (or \"o senhor\") and \"nós\". \"Valeu\" never closes a formal email; \"Obrigado\" or \"Agradeço\" does.",
         ],
         examples: [
@@ -1906,10 +1906,10 @@ export const PT_C2_U26: Lesson[] = [
         heading: "Misread meanings",
         body: [
           "The last kind of error happens in listening: a slang word read literally. \"Sinistro\" from a teenager is praise, not menace. \"Ele está irado\" can mean he's furious, but \"o show foi irado\" means it was awesome. \"Capaz!\" in the South is a refusal, not a compliment. \"Parada\" can be a bus stop or, in Rio, a thing (\"que parada é essa?\"). \"Massa\" is pasta or dough in a kitchen, but great in Recife. \"Trem\" in Minas is any thing, not a train.",
-          "The test is always the same: does the literal meaning fit the context? If a friend says the film was \"sinistro\" and is smiling, it's praise. If a gaúcho answers your thank-you with \"Capaz!\", he's being kind, not doubting you.",
+          "The test is always the same: does the literal meaning fit the context? If a friend says the movie was \"sinistro\" and is smiling, it's praise. If a gaúcho answers your thank-you with \"Capaz!\", he's being kind, not doubting you.",
         ],
         examples: [
-          { es: "O filme foi sinistro, você tem que ver!", en: "The film was amazing, you have to see it!" },
+          { es: "O filme foi sinistro, você tem que ver!", en: "The movie was amazing, you have to see it!" },
           { es: "Meu pai ficou irado quando viu a conta.", en: "My dad was furious when he saw the bill." },
           { es: "Que parada é essa no seu braço?", en: "What's that thing on your arm? (Rio)" },
           { es: "Esse trem tá pesado demais.", en: "This thing is way too heavy. (Minas)" },
@@ -2053,12 +2053,12 @@ export const PT_C2_U26: Lesson[] = [
         heading: "The brief: place and people",
         body: [
           "A streaming platform has asked you for a two-page scene for a series set in Recife or Porto Alegre: two friends meet after years apart. Start with the place, because places generate words. Recife: the Marco Zero, Boa Viagem beach, the frevo of Carnival, the heat, the \"bloco\". Porto Alegre: the \"chimarrão\" passed around, the Redenção park on Sunday, the sunset over the Guaíba, the Gre-Nal derby.",
-          "Then decide who your characters are: their age, class and neighbourhood. A twenty-year-old in Recife says \"massa\" and \"oxe\"; her grandmother might say \"arretado\" and \"meu filho\". A gaúcho student says \"bah\" and \"tri\"; his father adds \"barbaridade\". Regional speech is never only regional.",
+          "Then decide who your characters are: their age, class and neighborhood. A twenty-year-old in Recife says \"massa\" and \"oxe\"; her grandmother might say \"arretado\" and \"meu filho\". A gaúcho student says \"bah\" and \"tri\"; his father adds \"barbaridade\". Regional speech is never only regional.",
         ],
         examples: [
           { es: "Bora pro Marco Zero ver o frevo?", en: "Shall we go to the Marco Zero to see the frevo?" },
           { es: "Oxe, é você mesmo? Quanto tempo!", en: "Hey, is it really you? It's been ages!" },
-          { es: "Bah, quer um chimarrão?", en: "Hey, do you fancy a chimarrão?" },
+          { es: "Bah, quer um chimarrão?", en: "Hey, do you want a chimarrão?" },
           { es: "Domingo tem Gre-Nal, e a cidade para.", en: "On Sunday there's the Gre-Nal derby, and the city stops." },
           { es: "O pôr do sol no Guaíba é tri lindo.", en: "The sunset over the Guaíba is really beautiful." },
         ],
@@ -2067,7 +2067,7 @@ export const PT_C2_U26: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, in a gaúcho voice (leave out the subject pronoun).",
-            source: "Hey, fancy a chimarrão?",
+            source: "Hey, want a chimarrão?",
             answer: "Bah, quer um chimarrão?",
             altAnswers: ["Bah, tchê, quer um chimarrão?", "Bah, quer chimarrão?", "Tchê, quer um chimarrão?", "Bah, aceita um chimarrão?"],
             explanation: "Offering chimarrão is the gaúcho welcome. Dropping the subject avoids choosing between \"tu\" and \"você\".",
@@ -2260,7 +2260,7 @@ export const PT_C2_U26: Lesson[] = [
       {
         heading: "Media and speech",
         body: [
-          "This review mixes the genres of the last two units with the variation you studied earlier. Listen for what each genre gives you: formulas in football and the telejornal, structure in a call-in, the last version in a self-correcting áudio, the tune in an ironic \"que legal\". Variation runs underneath: \"a gente\" for \"nós\", \"tá\" and \"pra\", plural marked once in casual speech (\"as coisa tá cara\").",
+          "This review mixes the genres of the last two units with the variation you studied earlier. Listen for what each genre gives you: formulas in soccer and the telejornal, structure in a call-in, the last version in a self-correcting áudio, the tune in an ironic \"que legal\". Variation runs underneath: \"a gente\" for \"nós\", \"tá\" and \"pra\", plural marked once in casual speech (\"as coisa tá cara\").",
         ],
         examples: [
           { es: "A gente chegou no estádio aos trinta do primeiro tempo.", en: "We got to the stadium half an hour into the first half." },
@@ -2301,17 +2301,17 @@ export const PT_C2_U26: Lesson[] = [
           "Slang and regional words in one sentence place a speaker precisely. \"Mano, mó fila\" is a young paulistano; \"Bah, tri\" a gaúcho; \"Oxe, massa\" someone from Recife; \"Uai, trem\" a mineiro; \"Égua, pai d'égua\" a paraense. Register still decides when to use them, and formal writing still needs the neutral version.",
         ],
         examples: [
-          { es: "Mano, tinha mó fila no show, mas foi da hora.", en: "Man, there was a massive queue at the gig, but it was great." },
-          { es: "Bah, o show foi tri, tchê!", en: "Wow, the gig was great, mate!" },
+          { es: "Mano, tinha mó fila no show, mas foi da hora.", en: "Man, there was a huge line at the gig, but it was great." },
+          { es: "Bah, o show foi tri, tchê!", en: "Wow, the gig was great, man!" },
           { es: "Égua, mana, esse show foi pai d'égua!", en: "Wow, girl, that gig was fantastic!" },
-          { es: "O show foi excelente, apesar da fila.", en: "The show was excellent, despite the queue. (neutral)" },
+          { es: "O show foi excelente, apesar da fila.", en: "The show was excellent, despite the line. (neutral)" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Rewrite in neutral Portuguese: \"Mano, tinha mó fila, mas o show foi da hora.\"",
-            source: "There was a very long queue, but the show was excellent.",
+            source: "There was a very long line, but the show was excellent.",
             answer: "Havia uma fila enorme, mas o show foi excelente.",
             altAnswers: ["Tinha uma fila enorme, mas o show foi excelente.", "Havia uma fila muito grande, mas o show foi excelente.", "A fila estava enorme, mas o show foi ótimo.", "Havia uma fila enorme, mas o show foi ótimo."],
             explanation: "\"Mó\" becomes a real adjective and \"da hora\" a standard evaluation; \"mano\" disappears.",
@@ -2332,7 +2332,7 @@ export const PT_C2_U26: Lesson[] = [
         examples: [
           { es: "Alô, tô no ar? Aqui é do Recife, visse? A rua tá sem água faz uma semana.", en: "Hello, am I on? I'm calling from Recife, you know. The street's had no water for a week." },
           { es: "Bah, gente, nesse episódio a gente vai falar de chimarrão.", en: "Hey, everyone, in this episode we're going to talk about chimarrão." },
-          { es: "Oi, amiga! Então, é o seguinte: o trem que eu te falei chegou.", en: "Hi, love! So, here's the thing: the stuff I told you about has arrived. (a mineira's áudio)" },
+          { es: "Oi, amiga! Então, é o seguinte: o trem que eu te falei chegou.", en: "Hi, girl! So, here's the thing: the stuff I told you about has arrived. (a mineira's áudio)" },
           { es: "Mas a gente queria mais tempo, há meses que a gente pede isso.", en: "But we wanted more time, we've been asking for it for months." },
           { es: "Que legal... mais um capítulo sem o vilão.", en: "Lovely... another episode without the villain. (ironic)" },
         ],
@@ -2363,7 +2363,7 @@ export const PT_C2_U26: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Portuguese, as a football narrador.",
+        prompt: "Translate into Portuguese, as a soccer narrador.",
         source: "He passed to the number 9, who put it in the top corner!",
         answer: "Tocou para o camisa nove, que mandou no ângulo!",
         altAnswers: [

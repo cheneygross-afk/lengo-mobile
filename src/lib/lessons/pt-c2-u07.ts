@@ -17,15 +17,15 @@ export const PT_C2_U07: Lesson[] = [
         body: [
           "Brazilian procedure names the parties by role. The person who sues is the \"autor\" or \"a autora\": the plaintiff, not the author of a book. The person sued is the \"réu\", feminine \"ré\". Judgments often write \"a parte autora\" and \"a parte ré\", which sidesteps gender and number. The lawsuit is an \"ação\"; the whole case, file included, is the \"processo\".",
           "To sue is \"processar alguém\" or, in legal prose, \"ajuizar uma ação contra alguém\". In conversation people say \"entrar na Justiça\", with a capital J for the court system. In criminal cases the \"Ministério Público\" prosecutes, and its \"denúncia\" is the formal charge, not a denunciation.",
-          "\"Citação\" is a quotation in an essay but the summons in a lawsuit: \"o réu foi citado\" means he was formally served, not quoted. His written defence is the \"contestação\", filed within a \"prazo\" (deadline).",
+          "\"Citação\" is a quotation in an essay but the summons in a lawsuit: \"o réu foi citado\" means he was formally served, not quoted. His written defense is the \"contestação\", filed within a \"prazo\" (deadline).",
         ],
         examples: [
           { es: "A autora ajuizou uma ação contra o banco.", en: "The plaintiff filed a suit against the bank." },
           { es: "O réu foi citado em março.", en: "The defendant was served in March." },
-          { es: "A ré não apresentou contestação no prazo legal.", en: "The defendant filed no defence within the legal time limit." },
+          { es: "A ré não apresentou contestação no prazo legal.", en: "The defendant filed no defense within the legal time limit." },
           { es: "Ela vai entrar na Justiça contra a construtora.", en: "She's going to take the construction company to court." },
           { es: "O processo corre na 3ª Vara Cível de Curitiba.", en: "The case is being heard in the 3rd Civil Court of Curitiba." },
-          { es: "O Ministério Público denunciou o prefeito por corrupção.", en: "The prosecution service charged the mayor with corruption." },
+          { es: "O Ministério Público denunciou o prefeito por corrupção.", en: "The prosecutor's office charged the mayor with corruption." },
         ],
         checkpoint: [
           {
@@ -100,8 +100,8 @@ export const PT_C2_U07: Lesson[] = [
       {
         heading: "Reading an ementa",
         body: [
-          "Appeal decisions open with an \"ementa\", the headnote that lawyers, journalists and search engines read first. Its first block is a string of key terms in capitals, separated by full stops: type of appeal, area of law, facts, conclusion. Read it like a headline, made of nouns with no verbs. The last term (\"RECURSO DESPROVIDO\", \"SENTENÇA REFORMADA\") tells you who won.",
-          "The numbered paragraphs that follow pack in the structures of formal writing: nominalisation (\"o extravio da bagagem\" rather than 'the bag was lost'), the passive, and the reduced participle clauses you met at C1: \"comprovado o dano\", 'once the damage has been proven'. Subject inversion is frequent: \"responde a companhia aérea pelos danos\".",
+          "Appeal decisions open with an \"ementa\", the headnote that lawyers, journalists and search engines read first. Its first block is a string of key terms in capitals, separated by periods: type of appeal, area of law, facts, conclusion. Read it like a headline, made of nouns with no verbs. The last term (\"RECURSO DESPROVIDO\", \"SENTENÇA REFORMADA\") tells you who won.",
+          "The numbered paragraphs that follow pack in the structures of formal writing: nominalization (\"o extravio da bagagem\" rather than 'the bag was lost'), the passive, and the reduced participle clauses you met at C1: \"comprovado o dano\", 'once the damage has been proven'. Subject inversion is frequent: \"responde a companhia aérea pelos danos\".",
           "The legal basis comes with \"nos termos de\" (under, pursuant to) or \"com fundamento em\". The Consumer Protection Code is the \"CDC\". Articles 1 to 9 are read as ordinals (\"artigo quinto\"), from 10 on as cardinals (\"artigo catorze\"), and \"§ 1º\" is \"parágrafo primeiro\". For a non-lawyer, unpack the ementa: who sued whom, for what, and what the court decided.",
         ],
         examples: [
@@ -181,10 +181,10 @@ export const PT_C2_U07: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The defendant didn't file a defence within the legal time limit.",
+        source: "The defendant didn't file a defense within the legal time limit.",
         answer: "O réu não apresentou contestação no prazo legal.",
         altAnswers: ["A ré não apresentou contestação no prazo legal.", "A parte ré não apresentou contestação no prazo legal.", "O réu não contestou no prazo legal.", "A ré não contestou no prazo legal.", "O réu não apresentou defesa no prazo legal.", "A ré não apresentou defesa no prazo legal."],
-        explanation: "The written defence in a civil case is the \"contestação\", filed \"no prazo\". Legal Portuguese drops the article: \"apresentou contestação\".",
+        explanation: "The written defense in a civil case is the \"contestação\", filed \"no prazo\". Legal Portuguese drops the article: \"apresentou contestação\".",
       },
       {
         type: "word-order",
@@ -213,7 +213,7 @@ export const PT_C2_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your Brazilian neighbour, who isn't a lawyer, asks what happened in her case: the court dismissed the bank's appeal. What do you tell her?",
+        question: "Your Brazilian neighbor, who isn't a lawyer, asks what happened in her case: the court dismissed the bank's appeal. What do you tell her?",
         options: ["O banco recorreu, mas perdeu: a decisão a seu favor foi mantida.", "Negou-se provimento ao recurso interposto pela parte ré.", "O banco deu provimento ao recurso.", "A sentença transitou o recurso do banco."],
         correctIndex: 0,
         explanation: "Plain Portuguese for a non-lawyer: who appealed and who won. The second option is correct legalese but wrong for the listener. In the third, the bank can't \"dar provimento\": only the court allows an appeal.",
@@ -221,7 +221,7 @@ export const PT_C2_U07: Lesson[] = [
       {
         type: "dictation",
         audio: "O réu foi condenado ao pagamento de danos morais.",
-        explanation: "\"Condenar alguém ao pagamento de\" is the nominalised legal formula for ordering someone to pay. Note the accent in \"réu\".",
+        explanation: "\"Condenar alguém ao pagamento de\" is the nominalized legal formula for ordering someone to pay. Note the accent in \"réu\".",
       },
       {
         type: "speak",
@@ -263,8 +263,8 @@ export const PT_C2_U07: Lesson[] = [
         examples: [
           { es: "Paciente do sexo feminino, 47 anos, refere cefaleia há três dias.", en: "Female patient, 47, complains of a headache for the past three days." },
           { es: "Nega febre, vômitos ou alergias medicamentosas.", en: "Denies fever, vomiting or drug allergies." },
-          { es: "Ao exame físico, paciente lúcido, corado e hidratado.", en: "On examination, patient alert, of good colour and well hydrated." },
-          { es: "Evoluiu com quadro febril no segundo dia de internação.", en: "Developed a fever on the second day in hospital." },
+          { es: "Ao exame físico, paciente lúcido, corado e hidratado.", en: "On examination, patient alert, of good color and well hydrated." },
+          { es: "Evoluiu com quadro febril no segundo dia de internação.", en: "Developed a fever on the second day in the hospital." },
           { es: "Em uso de losartana 50 mg uma vez ao dia.", en: "Currently taking losartan 50 mg once a day." },
           { es: "Radiografia de tórax com imagem compatível com pneumonia.", en: "Chest X-ray showing an image consistent with pneumonia." },
         ],
@@ -288,10 +288,10 @@ export const PT_C2_U07: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Tests [consistent with] anaemia.",
+            en: "Tests [consistent with] anemia.",
             sentence: "Exames ___ anemia.",
             answer: "compatíveis com",
-            explanation: "\"Compatível\" agrees with the noun it describes, so it is \"compatíveis\" with \"exames\". The phrase is cautious: the results fit anaemia without confirming it.",
+            explanation: "\"Compatível\" agrees with the noun it describes, so it is \"compatíveis\" with \"exames\". The phrase is cautious: the results fit anemia without confirming it.",
           },
         ],
       },
@@ -332,7 +332,7 @@ export const PT_C2_U07: Lesson[] = [
             type: "listen-choose",
             audio: "Não use este medicamento sem orientação médica.",
             question: "What does it mean?",
-            options: ["Do not use this medicine without medical advice.", "Do not use this medicine with other medicines.", "Use this medicine only in hospital.", "This medicine does not need a prescription."],
+            options: ["Do not use this medicine without medical advice.", "Do not use this medicine with other medicines.", "Use this medicine only in a hospital.", "This medicine does not need a prescription."],
             correctIndex: 0,
             explanation: "\"Sem orientação médica\" means without a doctor's guidance. It's one of the standard warnings printed on almost every bula.",
           },
@@ -347,7 +347,7 @@ export const PT_C2_U07: Lesson[] = [
         ],
         examples: [
           { es: "O senhor está com pressão alta.", en: "You have high blood pressure. (plain for \"hipertensão arterial\")" },
-          { es: "A falta de ar dele piorou desde ontem.", en: "His shortness of breath has got worse since yesterday." },
+          { es: "A falta de ar dele piorou desde ontem.", en: "His shortness of breath has gotten worse since yesterday." },
           { es: "Tome o remédio de manhã, antes de comer qualquer coisa.", en: "Take the medicine in the morning, before you eat anything." },
           { es: "O raio-X indica uma pneumonia, mas o médico ainda quer confirmar.", en: "The X-ray points to pneumonia, but the doctor still wants to confirm it." },
           { es: "Ela está sentindo muita coceira e as pernas estão um pouco inchadas.", en: "She's very itchy and her legs are a bit swollen." },
@@ -365,7 +365,7 @@ export const PT_C2_U07: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "His shortness of breath has got worse.",
+            source: "His shortness of breath has gotten worse.",
             answer: "A falta de ar dele piorou.",
             altAnswers: ["A falta de ar dele ficou pior.", "A falta de ar dele está pior.", "A falta de ar dele aumentou."],
             explanation: "This is the plain version of \"piora da dispneia\". The noun \"piora\" becomes the verb \"piorou\", and \"dispneia\" becomes \"falta de ar\". \"Dele\" is the natural spoken possessive.",
@@ -396,7 +396,7 @@ export const PT_C2_U07: Lesson[] = [
         source: "This medicine is contraindicated for pregnant women.",
         answer: "Este medicamento é contraindicado para gestantes.",
         altAnswers: ["Este medicamento é contraindicado para mulheres grávidas.", "Este medicamento é contraindicado para grávidas.", "Este medicamento é contraindicado na gravidez.", "Este medicamento é contraindicado durante a gravidez."],
-        explanation: "\"Contraindicado\" is written as one word and agrees with \"medicamento\". Bulas favour \"gestantes\" or \"mulheres grávidas\".",
+        explanation: "\"Contraindicado\" is written as one word and agrees with \"medicamento\". Bulas favor \"gestantes\" or \"mulheres grávidas\".",
       },
       {
         type: "fill-blank",
@@ -543,7 +543,7 @@ export const PT_C2_U07: Lesson[] = [
         examples: [
           { es: "O Copom manteve a Selic em 10,75% ao ano.", en: "The Copom held the Selic at 10.75% a year." },
           { es: "O Banco Central cortou os juros em 0,5 ponto percentual.", en: "The Central Bank cut interest rates by 0.5 percentage points." },
-          { es: "Os juros altos encarecem o crédito e freiam o consumo.", en: "High interest rates make credit dearer and slow consumption." },
+          { es: "Os juros altos encarecem o crédito e freiam o consumo.", en: "High interest rates make credit more expensive and slow consumption." },
           { es: "O mercado espera uma alta de 25 pontos-base.", en: "The market expects a 25-basis-point hike." },
           { es: "O comunicado veio com um tom mais duro do que o esperado.", en: "The statement was more hawkish than expected." },
           { es: "O ciclo de cortes foi interrompido em junho.", en: "The cycle of rate cuts was halted in June." },
@@ -579,7 +579,7 @@ export const PT_C2_U07: Lesson[] = [
       {
         heading: "Câmbio, PIB and the language of headlines",
         body: [
-          "\"Câmbio\" is the exchange rate, reported as the price of the dollar: \"o dólar fechou em alta, cotado a R$ 5,43\". Mind the direction: when \"o dólar sobe\", the real is weakening (\"o real se desvaloriza\"). \"Frente ao\" or \"em relação ao\" sets up the comparison. Trade uses the \"dólar comercial\"; travellers pay the dearer \"dólar turismo\".",
+          "\"Câmbio\" is the exchange rate, reported as the price of the dollar: \"o dólar fechou em alta, cotado a R$ 5,43\". Mind the direction: when \"o dólar sobe\", the real is weakening (\"o real se desvaloriza\"). \"Frente ao\" or \"em relação ao\" sets up the comparison. Trade uses the \"dólar comercial\"; travellers pay the pricier \"dólar turismo\".",
           "Growth is the \"PIB\" (\"Produto Interno Bruto\"), reported by \"trimestre\". Two quarters of contraction in a row make a \"recessão técnica\". Public accounts close in \"superávit\" or \"déficit\", both accented and masculine. \"A Bolsa\" is the São Paulo stock exchange, tracked by the \"Ibovespa\".",
           "Headlines compress the chain with the nominal style from B1: a noun phrase as subject, a present-tense verb, few articles. Examples are \"Alta do dólar pressiona inflação\" and \"Queda dos juros anima a Bolsa\". Expect the journalistic conditional for unconfirmed plans too: \"o governo estudaria um novo imposto\".",
         ],
@@ -634,7 +634,7 @@ export const PT_C2_U07: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "The market expects a 25-basis-point cut.",
         answer: "O mercado espera um corte de 25 pontos-base.",
-        altAnswers: ["O mercado espera um corte de 0,25 ponto percentual.", "O mercado prevê um corte de 25 pontos-base.", "O mercado espera um corte de 25 pontos-básicos.", "O mercado aposta em um corte de 25 pontos-base."],
+        altAnswers: ["O mercado espera um corte de 0,25 ponto percentual.", "O mercado prevê um corte de 25 pontos-base.", "O mercado espera um corte de 25 pontos básicos.", "O mercado aposta em um corte de 25 pontos-base."],
         explanation: "The English noun stack becomes \"um corte de 25 pontos-base\", with the size after the noun. \"0,25 ponto percentual\" says the same thing, with \"ponto\" singular below two.",
       },
       {
@@ -671,7 +671,7 @@ export const PT_C2_U07: Lesson[] = [
         source: "Dollar's rise pushes up inflation. (newspaper headline)",
         answer: "Alta do dólar pressiona inflação.",
         altAnswers: ["Alta do dólar pressiona a inflação.", "A alta do dólar pressiona a inflação."],
-        explanation: "Headline style: the nominalised cause \"alta do dólar\" as subject, a present-tense verb and few articles. \"Pressionar\" is the go-to verb for pushing prices up.",
+        explanation: "Headline style: the nominalized cause \"alta do dólar\" as subject, a present-tense verb and few articles. \"Pressionar\" is the go-to verb for pushing prices up.",
       },
       {
         type: "translate",
@@ -772,13 +772,13 @@ export const PT_C2_U07: Lesson[] = [
         body: [
           "Academic Portuguese packs meaning into nouns: \"a ingestão de açúcar apresentou redução significativa\". Popular writing unpacks them. Turn the nouns back into verbs and give each verb a subject: \"as pessoas passaram a comer bem menos açúcar\". Swap the Latinate verb for the everyday one. \"Ingerir\" becomes \"comer\" or \"tomar\", \"realizar\" becomes \"fazer\", and \"apresentar\" usually vanishes.",
           "If a technical term has to stay, define it on the spot. The commonest tool is an apposition between commas: \"a microbiota, o conjunto de bactérias que vivem no intestino,\". \"Ou seja\", \"isto é\" and \"o que os cientistas chamam de\" also work. Define the term once and then use it freely. Redefining it in every paragraph sounds condescending.",
-          "Numbers and scales need an anchor the reader can picture. Half a millimetre becomes \"do tamanho de um grão de areia\", 33% becomes \"uma em cada três pessoas\", and an area becomes \"o equivalente a 500 campos de futebol\", the standard unit of Brazilian deforestation news. Analogies use \"funciona como\" or \"é como se\" + imperfect subjunctive. Keep to one analogy per idea, or the images start fighting.",
+          "Numbers and scales need an anchor the reader can picture. Half a millimeter becomes \"do tamanho de um grão de areia\", 33% becomes \"uma em cada três pessoas\", and an area becomes \"o equivalente a 500 campos de futebol\", the standard unit of Brazilian deforestation news. Analogies use \"funciona como\" or \"é como se\" + imperfect subjunctive. Keep to one analogy per idea, or the images start fighting.",
         ],
         examples: [
           { es: "A ingestão de açúcar apresentou redução significativa.", en: "Sugar intake showed a significant reduction. (academic style)" },
           { es: "As pessoas passaram a comer bem menos açúcar.", en: "People started eating much less sugar. (popular style)" },
           { es: "A microbiota, o conjunto de bactérias que vivem no intestino, influencia o nosso humor.", en: "The microbiota, the community of bacteria living in the gut, affects our mood." },
-          { es: "O parasita mede meio milímetro, mais ou menos o tamanho de um grão de areia.", en: "The parasite is half a millimetre long, roughly the size of a grain of sand." },
+          { es: "O parasita mede meio milímetro, mais ou menos o tamanho de um grão de areia.", en: "The parasite is half a millimeter long, roughly the size of a grain of sand." },
           { es: "Na amostra, uma em cada três pessoas tinha falta de vitamina D.", en: "In the sample, one in three people was low on vitamin D." },
           { es: "A vacina funciona como um treino: é como se o corpo ensaiasse para o ataque de verdade.", en: "The vaccine works like a training session: it's as if the body were rehearsing for the real attack." },
         ],
@@ -824,7 +824,7 @@ export const PT_C2_U07: Lesson[] = [
         ],
         examples: [
           { es: "Tomar café está associado a um risco menor de depressão.", en: "Drinking coffee is associated with a lower risk of depression." },
-          { es: "O composto reduziu tumores em camundongos, mas ainda não foi testado em humanos.", en: "The compound shrank tumours in mice but hasn't been tested in humans yet." },
+          { es: "O composto reduziu tumores em camundongos, mas ainda não foi testado em humanos.", en: "The compound shrank tumors in mice but hasn't been tested in humans yet." },
           { es: "O artigo ainda não foi revisado por pares.", en: "The paper hasn't been peer-reviewed yet." },
           { es: "Há evidências de que o exercício melhora o sono.", en: "There's evidence that exercise improves sleep." },
           { es: "A diferença foi estatisticamente significativa, mas pequena: menos de dois minutos de sono a mais por noite.", en: "The difference was statistically significant but small: under two extra minutes of sleep a night." },
@@ -948,20 +948,20 @@ export const PT_C2_U07: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The forest lost the equivalent of a thousand football pitches.",
+        prompt: "Put the words in order to say: The forest lost the equivalent of a thousand soccer fields.",
         words: ["A floresta", "perdeu", "o equivalente", "a mil", "campos de futebol."],
-        translation: "The forest lost the equivalent of a thousand football pitches.",
-        explanation: "\"O equivalente a\" + a familiar unit turns an abstract area into something readers can picture. Football pitches are the classic Brazilian yardstick.",
+        translation: "The forest lost the equivalent of a thousand soccer fields.",
+        explanation: "\"O equivalente a\" + a familiar unit turns an abstract area into something readers can picture. Soccer pitches are the classic Brazilian yardstick.",
       },
       {
         type: "listen-choose",
         audio: "O composto reduziu tumores em camundongos.",
         question: "What does it mean?",
         options: [
-          "The compound shrank tumours in mice.",
-          "The compound caused tumours in mice.",
-          "The compound shrank tumours in humans.",
-          "The compound will shrink tumours in rats.",
+          "The compound shrank tumors in mice.",
+          "The compound caused tumors in mice.",
+          "The compound shrank tumors in humans.",
+          "The compound will shrink tumors in rats.",
         ],
         correctIndex: 0,
         explanation: "\"Reduziu\" is past and means shrank or reduced. \"Camundongos\" are mice, not rats (\"ratos\") and not humans.",
@@ -1005,14 +1005,14 @@ export const PT_C2_U07: Lesson[] = [
         body: [
           "Brazilian Portuguese keeps a set of Latin expressions alive well beyond the courtroom. You'll meet them in news reports, job ads and university regulations. They never change form, take no hyphen and no accent, and careful writers put them in italics: \"uma comissão ad hoc\", \"duas vistorias in loco\", \"condição sine qua non\".",
           "Watch the meanings. The main sense of \"ad hoc\" is set up for one specific case, as in \"perito ad hoc\" (an expert appointed for a single trial). English often stretches it to mean improvised; Portuguese prefers \"improvisado\" for that. \"In loco\" means on site and is the standard term for inspections and for reporters who went to the scene. \"A priori\" is before the facts or on the face of it, and \"a posteriori\" means after them. \"Sine qua non\" marks an absolute requirement.",
-          "The classic trap is a crase. \"À priori\" is wrong, because Latin has no Portuguese article for \"a\" to merge with. The same logic rules out \"a grosso modo\": the expression is just \"grosso modo\" (roughly speaking). One Brazilian pair to know: a \"pós-graduação lato sensu\" is a specialisation or MBA, while \"stricto sensu\" means a master's or doctorate.",
+          "The classic trap is a crase. \"À priori\" is wrong, because Latin has no Portuguese article for \"a\" to merge with. The same logic rules out \"a grosso modo\": the expression is just \"grosso modo\" (roughly speaking). One Brazilian pair to know: a \"pós-graduação lato sensu\" is a specialization or MBA, while \"stricto sensu\" means a master's or doctorate.",
         ],
         examples: [
           { es: "O tribunal nomeou um perito ad hoc para avaliar o imóvel.", en: "The court appointed an expert specifically for this case to value the property." },
           { es: "A priori, não há motivo para cancelar o contrato.", en: "On the face of it, there's no reason to cancel the contract." },
           { es: "Os técnicos da prefeitura fizeram uma vistoria in loco na ponte.", en: "City engineers carried out an on-site inspection of the bridge." },
           { es: "Inglês fluente é condição sine qua non para a vaga.", en: "Fluent English is an absolute requirement for the position." },
-          { es: "Só a posteriori percebemos o tamanho do erro.", en: "Only in hindsight did we realise how big the mistake was." },
+          { es: "Só a posteriori percebemos o tamanho do erro.", en: "Only in hindsight did we realize how big the mistake was." },
         ],
         checkpoint: [
           {
@@ -1046,14 +1046,14 @@ export const PT_C2_U07: Lesson[] = [
         heading: "Data venia: the Latin of the courts",
         body: [
           "Legal Portuguese is where Latin is densest. \"Data venia\" (literally 'leave being given', i.e. with all due respect) is the ritual formula a lawyer uses before contradicting a judge or opposing counsel. Its Portuguese twin is \"com a devida vênia\". It signals disagreement, not deference: what follows is usually a demolition.",
-          "Other fixtures include \"habeas corpus\", which is masculine and invariable (\"o habeas corpus\", \"os habeas corpus\") and is \"impetrado\" rather than simply filed. There is also \"in dubio pro reo\" (doubt favours the defendant) and \"erga omnes\" (binding on everyone). Brazilians read them with Portuguese sounds: \"venia\" sounds like \"vênia\", and the h of \"habeas\" is silent.",
+          "Other fixtures include \"habeas corpus\", which is masculine and invariable (\"o habeas corpus\", \"os habeas corpus\") and is \"impetrado\" rather than simply filed. There is also \"in dubio pro reo\" (doubt favors the defendant) and \"erga omnes\" (binding on everyone). Brazilians read them with Portuguese sounds: \"venia\" sounds like \"vênia\", and the h of \"habeas\" is silent.",
           "Outside court, \"data venia\" works as a mock-solemn preface to telling someone they're wrong, the way an English speaker might say with the greatest respect. The irony only lands because most educated Brazilians know the legal formula.",
         ],
         examples: [
-          { es: "Data venia, Excelência, a defesa discorda da decisão.", en: "With all due respect, Your Honour, the defence disagrees with the ruling." },
+          { es: "Data venia, Excelência, a defesa discorda da decisão.", en: "With all due respect, Your Honor, the defense disagrees with the ruling." },
           { es: "Com a devida vênia, o argumento do nobre colega não se sustenta.", en: "With all due respect, my learned colleague's argument doesn't hold up." },
           { es: "O advogado impetrou um habeas corpus em favor do cliente.", en: "The lawyer filed for habeas corpus on behalf of his client." },
-          { es: "Sem provas suficientes, o juiz aplicou o princípio do in dubio pro reo.", en: "Without sufficient evidence, the judge applied the principle that doubt favours the defendant." },
+          { es: "Sem provas suficientes, o juiz aplicou o princípio do in dubio pro reo.", en: "Without sufficient evidence, the judge applied the principle that doubt favors the defendant." },
           { es: "Data venia, mas quem marcou essa reunião às oito da manhã nunca pegou trânsito em São Paulo.", en: "With the greatest respect, whoever scheduled this meeting for 8 a.m. has never sat in São Paulo traffic." },
         ],
         checkpoint: [
@@ -1061,7 +1061,7 @@ export const PT_C2_U07: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "With all due respect, Your Honour, the defence disagrees.",
+            source: "With all due respect, Your Honor, the defense disagrees.",
             answer: "Data venia, Excelência, a defesa discorda.",
             altAnswers: ["Com a devida vênia, Excelência, a defesa discorda.", "Data venia, Meritíssimo, a defesa discorda.", "Com a devida vênia, Meritíssimo, a defesa discorda.", "Data venia, Excelência, a defesa discorda da decisão."],
             explanation: "\"Data venia\" or \"com a devida vênia\" opens a disagreement in court. Judges are addressed as \"Excelência\" or \"Meritíssimo\".",
@@ -1086,7 +1086,7 @@ export const PT_C2_U07: Lesson[] = [
         heading: "Jargon: precision or smokescreen?",
         body: [
           "Brazilians have mocking names for each professional dialect: \"juridiquês\", \"economês\", \"mediquês\" and, for office speak, \"corporativês\". Among specialists, jargon earns its keep. A \"liminar\" is a specific provisional injunction, and replacing it with \"decisão\" loses information a colleague needs.",
-          "Jargon turns into a smokescreen when the reader is the public. Watch for Latin piled on Latin, noun chains that bury the verb, agentless passives (the nominal style from earlier lessons) and euphemisms like \"readequação do quadro\" for layoffs. Corporate speech adds anglicised filler: \"alinhar\", \"fazer um follow-up\", \"agregar valor\".",
+          "Jargon turns into a smokescreen when the reader is the public. Watch for Latin piled on Latin, noun chains that bury the verb, agentless passives (the nominal style from earlier lessons) and euphemisms like \"readequação do quadro\" for layoffs. Corporate speech adds anglicized filler: \"alinhar\", \"fazer um follow-up\", \"agregar valor\".",
           "The test is simple: who is reading, and can they act on what they read? The \"linguagem simples\" movement, now adopted by courts and several city governments, asks exactly that. Brazil's judges' association launched a campaign against \"juridiquês\" in 2005. A ruling a citizen can't understand is, in effect, a door shut in their face.",
         ],
         examples: [
@@ -1148,7 +1148,7 @@ export const PT_C2_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Only [in hindsight] did we realise how big the mistake was.",
+        en: "Only [in hindsight] did we realize how big the mistake was.",
         sentence: "Só ___ percebemos o tamanho do erro.",
         answer: "a posteriori",
         altAnswers: ["depois", "mais tarde"],
@@ -1165,17 +1165,17 @@ export const PT_C2_U07: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The university offers master's and doctoral programmes.",
+        prompt: "Put the words in order to say: The university offers master's and doctoral programs.",
         words: ["A", "universidade", "oferece", "pós-graduação", "stricto", "sensu."],
-        translation: "The university offers master's and doctoral programmes.",
-        explanation: "In Brazil, \"pós-graduação stricto sensu\" means master's and doctorate. \"Lato sensu\" covers specialisations and MBAs.",
+        translation: "The university offers master's and doctoral programs.",
+        explanation: "In Brazil, \"pós-graduação stricto sensu\" means master's and doctorate. \"Lato sensu\" covers specializations and MBAs.",
       },
       {
         type: "multiple-choice",
         question: "At work a colleague says: \"Data venia, mas quem marcou essa reunião às oito da manhã nunca pegou trânsito em São Paulo.\" What is she doing?",
-        options: ["Disagreeing with mock solemnity", "Formally objecting under labour law", "Apologising for arriving late", "Thanking the organiser"],
+        options: ["Disagreeing with mock solemnity", "Formally objecting under labor law", "Apologizing for arriving late", "Thanking the organizer"],
         correctIndex: 0,
-        explanation: "Outside court, \"data venia\" borrows the lawyer's ritual formula to criticise with playful formality, like with the greatest respect in English.",
+        explanation: "Outside court, \"data venia\" borrows the lawyer's ritual formula to criticize with playful formality, like with the greatest respect in English.",
       },
       {
         type: "dictation",
@@ -1191,7 +1191,7 @@ export const PT_C2_U07: Lesson[] = [
           { left: "a priori", right: "on the face of it" },
           { left: "sine qua non", right: "indispensable" },
           { left: "grosso modo", right: "roughly speaking" },
-          { left: "in dubio pro reo", right: "doubt favours the defendant" },
+          { left: "in dubio pro reo", right: "doubt favors the defendant" },
         ],
         explanation: "All six expressions are invariable and are written without hyphens or accents, in italics in careful texts.",
       },
@@ -1243,16 +1243,16 @@ export const PT_C2_U07: Lesson[] = [
       {
         heading: "Law: from the case file to the kitchen table",
         body: [
-          "Legal Portuguese packs actions into nouns and gives them to institutions: \"foi interposto recurso pela defesa\", \"a liminar determinou a suspensão das obras\". The plain version turns the nouns back into verbs and puts people in charge: \"os advogados recorreram\", \"o juiz mandou parar as obras\". You met nominalisation and the agentless passive in the legal lesson. Here you undo them.",
+          "Legal Portuguese packs actions into nouns and gives them to institutions: \"foi interposto recurso pela defesa\", \"a liminar determinou a suspensão das obras\". The plain version turns the nouns back into verbs and puts people in charge: \"os advogados recorreram\", \"o juiz mandou parar as obras\". You met nominalization and the agentless passive in the legal lesson. Here you undo them.",
           "Fixed formulas need translating, not just shortening. \"A sentença transitou em julgado\" means the decision is final and no appeal is left, so say exactly that. \"Nos termos do art. 5º\" becomes \"como diz o artigo 5º\". A \"liminar\" is a provisional order, and the plain version must keep the 'provisional': \"por enquanto, até o julgamento final\".",
           "Don't ban every term. Keep \"réu\" if the reader will meet it again in the news, and gloss it once: \"o réu, a pessoa processada\".",
         ],
         examples: [
-          { es: "Foi interposto recurso pela defesa.", en: "The defence lodged an appeal. (specialist)" },
+          { es: "Foi interposto recurso pela defesa.", en: "The defense lodged an appeal. (specialist)" },
           { es: "Os advogados do réu recorreram da decisão.", en: "The defendant's lawyers appealed against the decision. (plain)" },
           { es: "A sentença transitou em julgado.", en: "The judgment has become final. (specialist)" },
           { es: "A decisão é definitiva: não dá mais para recorrer.", en: "The decision is final: there's no way left to appeal. (plain)" },
-          { es: "A liminar determinou a suspensão imediata das obras.", en: "The injunction ordered the immediate suspension of the works. (specialist)" },
+          { es: "A liminar determinou a suspensão imediata das obras.", en: "The injunction ordered the immediate suspension of construction. (specialist)" },
           { es: "O juiz mandou parar as obras na hora, até o julgamento final.", en: "The judge ordered the work to stop at once, until the final ruling. (plain)" },
         ],
         checkpoint: [
@@ -1274,7 +1274,7 @@ export const PT_C2_U07: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A neighbour shows you a message from her lawyer: \"A sentença transitou em julgado.\" Which plain explanation is accurate?",
+            question: "A neighbor shows you a message from her lawyer: \"A sentença transitou em julgado.\" Which plain explanation is accurate?",
             options: [
               "A decisão é definitiva: não dá mais para recorrer.",
               "O juiz ainda vai julgar o caso.",
@@ -1287,7 +1287,7 @@ export const PT_C2_U07: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The defence [appealed] against the decision.",
+            en: "The defense [appealed] against the decision.",
             sentence: "A defesa ___ da decisão.",
             answer: "recorreu",
             explanation: "\"Recorrer de uma decisão\" is the plain verb behind the formula \"interpor recurso\". Note the preposition: \"recorrer da decisão\".",
@@ -1306,7 +1306,7 @@ export const PT_C2_U07: Lesson[] = [
           { es: "Ele está com dor de cabeça e febre.", en: "He has a headache and a fever. (plain)" },
           { es: "Posologia: 1 comprimido a cada 8 horas.", en: "Dosage: 1 tablet every 8 hours. (specialist)" },
           { es: "Tome um comprimido de oito em oito horas.", en: "Take one tablet every eight hours. (plain)" },
-          { es: "O prognóstico é favorável.", en: "The prognosis is favourable. (specialist)" },
+          { es: "O prognóstico é favorável.", en: "The prognosis is favorable. (specialist)" },
           { es: "A expectativa é que ele se recupere bem.", en: "He's expected to recover well. (plain)" },
         ],
         checkpoint: [
@@ -1350,7 +1350,7 @@ export const PT_C2_U07: Lesson[] = [
         heading: "Economics: from the bulletin to the wallet",
         body: [
           "Economic news names institutions and indicators. The plain version says what changes for the reader. \"O Copom elevou a Selic\" becomes \"o Banco Central subiu os juros, e os empréstimos vão ficar mais caros\". For a reader who has never heard of the Selic, the consequence is the content.",
-          "Replace the indicator with what it measures: \"desvalorização cambial\" is \"o dólar mais caro\", and \"retração do PIB\" is \"a economia encolheu\". Numbers stay, but they must stay exact. Never turn \"0,5 ponto percentual\" into \"0,5%\": a rate that goes from 10% to 10,5% has risen half a point, which is a 5% increase.",
+          "Replace the indicator with what it measures: \"desvalorização cambial\" is \"o dólar mais caro\", and \"retração do PIB\" is \"a economia encolheu\". Numbers stay, but they must stay exact. Never turn \"0,5 ponto percentual\" into \"0,5%\": a rate that goes from 10% to 10.5% has risen half a point, which is a 5% increase.",
         ],
         examples: [
           { es: "O Copom elevou a Selic em 0,5 ponto percentual.", en: "The Monetary Policy Committee raised the Selic rate by 0.5 percentage points. (specialist)" },
@@ -1381,7 +1381,7 @@ export const PT_C2_U07: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The Selic goes from 10% to 10,5%. Which plain sentence for the public is accurate?",
+            question: "The Selic goes from 10% to 10.5%. Which plain sentence for the public is accurate?",
             options: [
               "Os juros básicos subiram meio ponto percentual.",
               "Os juros básicos subiram 0,5%.",
@@ -1389,7 +1389,7 @@ export const PT_C2_U07: Lesson[] = [
               "Os juros básicos dobraram.",
             ],
             correctIndex: 0,
-            explanation: "A change between two rates is measured in \"pontos percentuais\". \"Subiram 0,5%\" would mean 10% became 10,05%, a common slip in rushed rewrites.",
+            explanation: "A change between two rates is measured in \"pontos percentuais\". \"Subiram 0,5%\" would mean 10% became 10.05%, a common slip in rushed rewrites.",
           },
         ],
       },
@@ -1460,7 +1460,7 @@ export const PT_C2_U07: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Side effects: nausea and headache. (on a leaflet for the public)",
+        source: "Side effects: nausea and headache. (on a pamphlet for the public)",
         answer: "Efeitos colaterais: náusea e dor de cabeça.",
         altAnswers: [
           "Efeitos colaterais: enjoo e dor de cabeça.",
@@ -1613,7 +1613,7 @@ export const PT_C2_U07: Lesson[] = [
       {
         heading: "Treatment: from the bula to the kitchen table",
         body: [
-          "The leaflet says \"posologia: 1 comprimido a cada 12 horas\". The doctor says \"um comprimido de doze em doze horas, de manhã e à noite\". \"De... em...\" is the everyday pattern for frequency, while \"a cada\" is neutral and common in writing. Linking doses to meals and routines (\"no café da manhã\", \"antes de dormir\") helps patients stick to the treatment more than any number does.",
+          "The pamphlet says \"posologia: 1 comprimido a cada 12 horas\". The doctor says \"um comprimido de doze em doze horas, de manhã e à noite\". \"De... em...\" is the everyday pattern for frequency, while \"a cada\" is neutral and common in writing. Linking doses to meals and routines (\"no café da manhã\", \"antes de dormir\") helps patients stick to the treatment more than any number does.",
           "Prohibitions come in different strengths. \"O senhor não pode parar por conta própria\" is a firm rule. \"Evite\" is advice. \"Nada de anti-inflamatório sem falar comigo\" is friendly but still a clear ban. Beatriz's \"ele afina o sangue, né?\" is the phrase most Brazilians use for an \"anticoagulante\". The doctor accepts it and adds the accurate version, \"ele evita que se formem coágulos\", without correcting her bluntly.",
           "The family's what-ifs come in the future subjunctive (\"e se ele esquecer uma dose?\") or with \"caso\" + present subjunctive, and the doctor answers in the same mood. \"Remédio\" is the word used in the room; \"medicamento\" belongs to the bula and the laudo.",
         ],
@@ -1673,7 +1673,7 @@ export const PT_C2_U07: Lesson[] = [
         ],
         examples: [
           { es: "O prognóstico é muito bom, desde que o senhor tome o remédio direitinho.", en: "The prognosis is very good, provided you take the medicine properly." },
-          { es: "Ele vai poder continuar viajando para Salvador?", en: "Will he be able to keep travelling to Salvador?" },
+          { es: "Ele vai poder continuar viajando para Salvador?", en: "Will he be able to keep traveling to Salvador?" },
           { es: "Eu entendo a preocupação de vocês; é muita informação de uma vez.", en: "I understand your concern; it's a lot of information at once." },
           { es: "O senhor pode me dizer, com suas palavras, como vai tomar o remédio?", en: "Can you tell me, in your own words, how you're going to take the medicine?" },
           { es: "Se sentir falta de ar ou dor no peito, vá direto para o pronto-socorro.", en: "If you feel short of breath or have chest pain, go straight to the emergency room." },
@@ -1830,7 +1830,7 @@ export const PT_C2_U07: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Will he be able to keep travelling to Salvador?",
+        source: "Will he be able to keep traveling to Salvador?",
         answer: "Ele vai poder continuar viajando para Salvador?",
         altAnswers: [
           "Ele pode continuar viajando para Salvador?",
@@ -1909,11 +1909,11 @@ export const PT_C2_U07: Lesson[] = [
         heading: "False friends in the clinic and the courtroom",
         body: [
           "Portuguese shares many Latin words with medical and legal English, but they often mean something else. An anxiety disorder is a \"transtorno de ansiedade\". \"Desordem\" means a mess or public disorder. In a patient text the drug is a \"medicamento\" or \"remédio\", because \"droga\" suggests illegal substances. A physician is a \"médico\", while a \"físico\" studies physics. \"Intoxicado\" means poisoned. A drunk driver is \"embriagado\".",
-          "In law, \"injúria\" is an insult, a crime against someone's honour. Physical injuries are \"lesões\", and \"lesão corporal\" is the crime of causing them. A prison sentence is a \"pena\"; the \"sentença\" is the decision that imposes it. Evidence is \"provas\". \"Evidência\" has entered medicine (\"medicina baseada em evidências\"), but in a court text it reads as an anglicism.",
+          "In law, \"injúria\" is an insult, a crime against someone's honor. Physical injuries are \"lesões\", and \"lesão corporal\" is the crime of causing them. A prison sentence is a \"pena\"; the \"sentença\" is the decision that imposes it. Evidence is \"provas\". \"Evidência\" has entered medicine (\"medicina baseada em evidências\"), but in a court text it reads as an anglicism.",
           "One trap runs the other way. \"O crime prescreveu\" has nothing to do with prescriptions: the statute of limitations has run out.",
         ],
         examples: [
-          { es: "Ela foi diagnosticada com transtorno de ansiedade generalizada.", en: "She was diagnosed with generalised anxiety disorder." },
+          { es: "Ela foi diagnosticada com transtorno de ansiedade generalizada.", en: "She was diagnosed with generalized anxiety disorder." },
           { es: "O motorista estava embriagado e foi preso em flagrante.", en: "The driver was drunk and was arrested on the spot." },
           { es: "A vítima sofreu lesões graves no acidente.", en: "The victim suffered serious injuries in the accident." },
           { es: "O réu foi condenado a uma pena de oito anos de prisão.", en: "The defendant was given an eight-year prison sentence." },
@@ -1955,7 +1955,7 @@ export const PT_C2_U07: Lesson[] = [
               "The insult charge led to a prison sentence.",
             ],
             correctIndex: 0,
-            explanation: "\"Injúria\" is an insult, a crime against honour, not an injury. \"Prescrever\" in law means to become time-barred.",
+            explanation: "\"Injúria\" is an insult, a crime against honor, not an injury. \"Prescrever\" in law means to become time-barred.",
           },
         ],
       },
@@ -1963,12 +1963,12 @@ export const PT_C2_U07: Lesson[] = [
         heading: "Register slips: too casual, too technical",
         body: [
           "A specialist text fails when a colloquial word slips in. In a ruling, a judge doesn't \"mandar\" anyone to pay. He \"determina\" the payment or \"condena\" the company \"ao pagamento\". In a medical report, a patient doesn't \"pegar\" an infection; he \"contrai\" it. An economic report doesn't say the dollar is \"nas alturas\"; it says the dollar \"registrou forte alta\".",
-          "The opposite slip is jargon in a text for the public. A leaflet for patients should say \"dor de cabeça\", \"vômito\" and \"azia\", not \"cefaleia\", \"êmese\" and \"pirose\". Keep a technical term only when the reader needs it, and explain it once.",
+          "The opposite slip is jargon in a text for the public. A pamphlet for patients should say \"dor de cabeça\", \"vômito\" and \"azia\", not \"cefaleia\", \"êmese\" and \"pirose\". Keep a technical term only when the reader needs it, and explain it once.",
           "Latinisms keep their Latin spelling, with no accents and no Portuguese adaptation: \"in loco\" (never \"em loco\"), \"a priori\", \"sine qua non\". \"Data venia\" belongs to lawyers addressing the court, not to newspaper columns.",
         ],
         examples: [
           { es: "O juiz condenou a empresa ao pagamento de indenização.", en: "The judge ordered the company to pay damages." },
-          { es: "O paciente contraiu a infecção durante a internação.", en: "The patient caught the infection while in hospital." },
+          { es: "O paciente contraiu a infecção durante a internação.", en: "The patient caught the infection while in the hospital." },
           { es: "O dólar registrou forte alta nesta terça-feira.", en: "The dollar rose sharply this Tuesday." },
           { es: "Se tiver dor de cabeça forte, procure um médico.", en: "If you get a bad headache, see a doctor." },
           { es: "A perícia foi realizada in loco.", en: "The forensic examination was carried out on site." },
@@ -1978,7 +1978,7 @@ export const PT_C2_U07: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The patient caught the infection in hospital. (in a medical report)",
+            source: "The patient caught the infection in the hospital. (in a medical report)",
             answer: "O paciente contraiu a infecção no hospital.",
             altAnswers: [
               "A paciente contraiu a infecção no hospital.",
@@ -2073,7 +2073,7 @@ export const PT_C2_U07: Lesson[] = [
         sentence: "Tome ___ após as refeições.",
         answer: "o medicamento",
         altAnswers: ["o remédio"],
-        explanation: "For patients the word is \"medicamento\" or \"remédio\". \"A droga\" in a leaflet suggests illegal drugs.",
+        explanation: "For patients the word is \"medicamento\" or \"remédio\". \"A droga\" in a pamphlet suggests illegal drugs.",
       },
       {
         type: "fill-blank",
@@ -2082,7 +2082,7 @@ export const PT_C2_U07: Lesson[] = [
         sentence: "A vítima sofreu ___ no rosto.",
         answer: "lesões",
         altAnswers: ["ferimentos"],
-        explanation: "Physical injuries are \"lesões\" or \"ferimentos\". \"Injúrias\" are insults, a crime against honour.",
+        explanation: "Physical injuries are \"lesões\" or \"ferimentos\". \"Injúrias\" are insults, a crime against honor.",
       },
       {
         type: "word-order",
@@ -2108,7 +2108,7 @@ export const PT_C2_U07: Lesson[] = [
         instructions: "Match the Portuguese to the English.",
         pairs: [
           { left: "transtorno", right: "disorder (medical)" },
-          { left: "injúria", right: "insult (a crime against honour)" },
+          { left: "injúria", right: "insult (a crime against honor)" },
           { left: "lesão", right: "injury" },
           { left: "pena", right: "prison sentence" },
           { left: "embriagado", right: "drunk" },
@@ -2135,7 +2135,7 @@ export const PT_C2_U07: Lesson[] = [
     level: "PT-C2",
     number: 9,
     title: "Real-World Mission: Explain It Simply",
-    summary: "Rewrite a medicine leaflet, a court ruling and an interest-rate story in plain Portuguese for a residents' group, without losing a single fact.",
+    summary: "Rewrite a package insert, a court ruling and an interest-rate story in plain Portuguese for a residents' group, without losing a single fact.",
     duration: "18 min",
     kind: "skills",
     format: "Real-World Mission",
@@ -2143,8 +2143,8 @@ export const PT_C2_U07: Lesson[] = [
       {
         heading: "Step 1: Unpack the nouns",
         body: [
-          "Your mission: the \"associação de moradores\" of a neighbourhood in Recife wants three texts rewritten for its WhatsApp group. The first is a passage from a medicine leaflet, the second a court decision about the water supply, the third a news item on interest rates. Brazilians call the target style \"linguagem simples\", and more and more public bodies now ask for it.",
-          "The first move undoes the nominalisation you met in every specialist register. \"A administração do medicamento deve ocorrer\" hides a simple instruction: \"tome o remédio\". Find the noun that carries the action (\"administração\", \"suspensão\", \"elevação\"), turn it back into a verb and give it a subject. The sentence shrinks, and the reader sees who does what.",
+          "Your mission: the \"associação de moradores\" of a neighborhood in Recife wants three texts rewritten for its WhatsApp group. The first is a passage from a package insert, the second a court decision about the water supply, the third a news item on interest rates. Brazilians call the target style \"linguagem simples\", and more and more public bodies now ask for it.",
+          "The first move undoes the nominalization you met in every specialist register. \"A administração do medicamento deve ocorrer\" hides a simple instruction: \"tome o remédio\". Find the noun that carries the action (\"administração\", \"suspensão\", \"elevação\"), turn it back into a verb and give it a subject. The sentence shrinks, and the reader sees who does what.",
           "Turn agentless passives around the same way, but only when you know the agent. \"Foi determinado o restabelecimento do fornecimento\" becomes \"o juiz mandou a companhia voltar a fornecer água\".",
         ],
         examples: [
@@ -2167,7 +2167,7 @@ export const PT_C2_U07: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The leaflet says: \"A suspensão do tratamento deve ser precedida de orientação médica.\" Which is the best plain version?",
+            question: "The pamphlet says: \"A suspensão do tratamento deve ser precedida de orientação médica.\" Which is the best plain version?",
             options: ["Não pare o tratamento sem falar com seu médico.", "A suspensão do tratamento precisa de orientação.", "Pare o tratamento e depois fale com seu médico.", "O tratamento não pode ser suspenso nunca."],
             correctIndex: 0,
             explanation: "\"Suspensão\" becomes the verb \"parar\", and \"precedida de orientação\" becomes \"sem falar com seu médico\". The second option is still nominal. The third reverses the order, and the fourth invents a ban.",
@@ -2193,7 +2193,7 @@ export const PT_C2_U07: Lesson[] = [
           { es: "Posologia: 1 comprimido a cada 8 horas.", en: "Specialist: Dosage: 1 tablet every 8 hours." },
           { es: "Tome 1 comprimido de 8 em 8 horas.", en: "Plain: Take 1 tablet every 8 hours." },
           { es: "Este remédio pode dar sono. Evite dirigir.", en: "This medicine can make you sleepy. Avoid driving." },
-          { es: "Um juiz deu uma decisão provisória, a chamada liminar, a favor dos moradores.", en: "A judge issued a temporary ruling, known as an injunction, in the residents' favour." },
+          { es: "Um juiz deu uma decisão provisória, a chamada liminar, a favor dos moradores.", en: "A judge issued a temporary ruling, known as an injunction, in the residents' favor." },
           { es: "A Selic, a taxa básica de juros do país, subiu de novo.", en: "The Selic, the country's base interest rate, went up again." },
         ],
         checkpoint: [
@@ -2220,7 +2220,7 @@ export const PT_C2_U07: Lesson[] = [
             source: "This medicine can make you sleepy.",
             answer: "Este remédio pode dar sono.",
             altAnswers: ["Esse remédio pode dar sono.", "Este remédio pode causar sono.", "Esse remédio pode causar sono.", "Este medicamento pode dar sono.", "Este remédio pode deixar você com sono.", "Esse remédio pode deixar você com sono.", "Este remédio pode causar sonolência."],
-            explanation: "Keep \"pode\": the leaflet says it may happen, not that it will. \"Dar sono\" is plainer than \"causar sonolência\".",
+            explanation: "Keep \"pode\": the pamphlet says it may happen, not that it will. \"Dar sono\" is plainer than \"causar sonolência\".",
           },
         ],
       },
@@ -2231,19 +2231,19 @@ export const PT_C2_U07: Lesson[] = [
           "Address the reader directly with \"você\" and the standard imperative (\"tome\", \"guarde\", \"procure\"), the form leaflets and public notices use. Conditions read naturally with the future subjunctive: \"se a febre não passar em três dias, procure o posto de saúde\". Numbers beat adjectives: \"de 8 em 8 horas\" tells the reader more than \"regularmente\".",
         ],
         examples: [
-          { es: "O que aconteceu: a Justiça mandou a companhia voltar a fornecer água ao bairro.", en: "What happened: the court ordered the company to restore water to the neighbourhood." },
+          { es: "O que aconteceu: a Justiça mandou a companhia voltar a fornecer água ao bairro.", en: "What happened: the court ordered the company to restore water to the neighborhood." },
           { es: "O que muda para você: a água deve voltar até sexta-feira.", en: "What changes for you: the water should be back by Friday." },
           { es: "O que fazer: se a água não voltar até lá, avise a associação.", en: "What to do: if the water isn't back by then, let the association know." },
           { es: "Guarde o remédio longe do calor e da umidade.", en: "Keep the medicine away from heat and humidity." },
-          { es: "Se a febre não passar em três dias, procure o posto de saúde.", en: "If the fever doesn't go away in three days, go to the health centre." },
-          { es: "Com os juros mais altos, comprar a prazo fica mais caro.", en: "With higher interest rates, buying in instalments gets more expensive." },
+          { es: "Se a febre não passar em três dias, procure o posto de saúde.", en: "If the fever doesn't go away in three days, go to the health clinic." },
+          { es: "Com os juros mais altos, comprar a prazo fica mais caro.", en: "With higher interest rates, buying in installments gets more expensive." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "If the fever doesn't go away in three days, go to the health centre.",
+            source: "If the fever doesn't go away in three days, go to the health clinic.",
             answer: "Se a febre não passar em três dias, procure o posto de saúde.",
             altAnswers: ["Se a febre não passar em três dias, vá ao posto de saúde.", "Se a febre não passar em três dias, procure um posto de saúde.", "Caso a febre não passe em três dias, procure o posto de saúde.", "Caso a febre não passe em três dias, vá ao posto de saúde."],
             explanation: "\"Se\" + future subjunctive (\"passar\") sets a real future condition, and \"procure\" gives the instruction. \"Caso\" + present subjunctive is also correct.",
@@ -2261,7 +2261,7 @@ export const PT_C2_U07: Lesson[] = [
             prompt: "Put the words in order to say: Keep the medicine away from the heat.",
             words: ["Guarde", "o remédio", "longe", "do", "calor."],
             translation: "Keep the medicine away from the heat.",
-            explanation: "The imperative comes first, as in every instruction on a leaflet. \"Longe de\" + \"o\" contracts to \"longe do\".",
+            explanation: "The imperative comes first, as in every instruction on a pamphlet. \"Longe de\" + \"o\" contracts to \"longe do\".",
           },
         ],
       },
@@ -2329,10 +2329,10 @@ export const PT_C2_U07: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "With higher interest rates, buying in instalments gets more expensive.",
+        source: "With higher interest rates, buying in installments gets more expensive.",
         answer: "Com os juros mais altos, comprar a prazo fica mais caro.",
         altAnswers: ["Com juros mais altos, comprar a prazo fica mais caro.", "Com os juros mais altos, comprar parcelado fica mais caro.", "Com juros mais altos, comprar parcelado fica mais caro.", "Com os juros mais altos, as compras a prazo ficam mais caras."],
-        explanation: "This sentence tells readers what the news means for them. \"Ficar\" + adjective expresses the change, and \"a prazo\" or \"parcelado\" is how Brazilians talk about instalments.",
+        explanation: "This sentence tells readers what the news means for them. \"Ficar\" + adjective expresses the change, and \"a prazo\" or \"parcelado\" is how Brazilians talk about installments.",
       },
       {
         type: "fill-blank",
@@ -2345,7 +2345,7 @@ export const PT_C2_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The leaflet says: \"É vedada a utilização por gestantes.\" Which is the best plain version?",
+        question: "The pamphlet says: \"É vedada a utilização por gestantes.\" Which is the best plain version?",
         options: ["Grávidas não devem usar este remédio.", "Grávidas podem usar este remédio com cuidado.", "A utilização é vedada às gestantes.", "Este remédio é proibido para mulheres."],
         correctIndex: 0,
         explanation: "\"Vedada\" becomes \"não devem usar\" and \"gestantes\" becomes \"grávidas\". The third option only reshuffles the jargon. The second softens the ban, and the fourth widens it to all women.",
@@ -2361,9 +2361,9 @@ export const PT_C2_U07: Lesson[] = [
         type: "listen-choose",
         audio: "Um juiz deu uma decisão provisória a favor dos moradores.",
         question: "What does it mean?",
-        options: ["A judge issued a temporary ruling in the residents' favour.", "A judge issued a final ruling in the residents' favour.", "A judge rejected the residents' request for now.", "The residents will appeal the judge's temporary ruling."],
+        options: ["A judge issued a temporary ruling in the residents' favor.", "A judge issued a final ruling in the residents' favor.", "A judge rejected the residents' request for now.", "The residents will appeal the judge's temporary ruling."],
         correctIndex: 0,
-        explanation: "\"Decisão provisória\" is the plain gloss of \"liminar\": temporary, not final. \"A favor dos moradores\" means in the residents' favour.",
+        explanation: "\"Decisão provisória\" is the plain gloss of \"liminar\": temporary, not final. \"A favor dos moradores\" means in the residents' favor.",
       },
       {
         type: "dictation",
@@ -2373,7 +2373,7 @@ export const PT_C2_U07: Lesson[] = [
       {
         type: "speak",
         text: "Se a febre não passar em três dias, procure o posto de saúde.",
-        prompt: "Say it in Portuguese: If the fever doesn't go away in three days, go to the health centre.",
+        prompt: "Say it in Portuguese: If the fever doesn't go away in three days, go to the health clinic.",
         tip: "\"Saúde\" has three syllables, sa-ú-de, stressed on the ú, and the final de sounds like dji in most of Brazil.",
         explanation: "This is the voice-message test: one condition, one instruction, no second breath needed.",
       },
@@ -2427,7 +2427,7 @@ export const PT_C2_U07: Lesson[] = [
           { es: "O juiz concedeu a liminar e suspendeu o despejo até o julgamento.", en: "The judge granted the injunction and suspended the eviction until the trial." },
           { es: "A ação foi julgada improcedente, e o autor vai recorrer.", en: "The claim was dismissed, and the plaintiff is going to appeal." },
           { es: "O réu foi condenado a pagar indenização por danos morais.", en: "The defendant was ordered to pay compensation for non-material damage." },
-          { es: "Nos termos da lei, o prazo para recorrer é de quinze dias úteis.", en: "Under the law, the deadline for appealing is fifteen working days." },
+          { es: "Nos termos da lei, o prazo para recorrer é de quinze dias úteis.", en: "Under the law, the deadline for appealing is fifteen business days." },
           { es: "A decisão segue a jurisprudência do STJ.", en: "The decision follows the case law of the STJ (the Superior Court of Justice)." },
         ],
         checkpoint: [
@@ -2544,7 +2544,7 @@ export const PT_C2_U07: Lesson[] = [
             source: "In principle, there is no reason to stop the treatment.",
             answer: "A priori, não há motivo para suspender o tratamento.",
             altAnswers: ["Em princípio, não há motivo para suspender o tratamento.", "A princípio, não há motivo para suspender o tratamento.", "A priori, não há motivo para interromper o tratamento.", "Em princípio, não há razão para suspender o tratamento.", "A priori, não tem motivo para suspender o tratamento."],
-            explanation: "\"A priori\" (or \"em princípio\") marks a provisional judgement. \"Suspender o tratamento\" is the clinical verb, and \"não há\" is the written norm.",
+            explanation: "\"A priori\" (or \"em princípio\") marks a provisional judgment. \"Suspender o tratamento\" is the clinical verb, and \"não há\" is the written norm.",
           },
           {
             type: "speak",
@@ -2669,9 +2669,9 @@ export const PT_C2_U07_WRITING: WriteExercise = {
   rubric: [
     "Uses at least four legal terms correctly (\"liminar\", \"autora\", \"ré\", \"recurso\", \"jurisprudência\", \"nos termos da lei\") and explains each one in everyday words.",
     "Uses and glosses at least three medical terms (\"diagnóstico\", \"quadro clínico\", \"posologia\", \"contraindicação\", \"laudo\", \"bula\") with rephrasing markers such as \"ou seja\", \"isto é\", \"em outras palavras\".",
-    "Turns specialist structures into plain prose: active verbs instead of agentless passives and heavy nominalisations, and any Latinism (\"sine qua non\", \"a priori\") followed by a plain equivalent.",
-    "Is organised for a lay reader (headline, the case, the decision, next steps, practical advice) in a clear, neutral journalistic register that speaks to the reader as \"você\"."
+    "Turns specialist structures into plain prose: active verbs instead of agentless passives and heavy nominalizations, and any Latinism (\"sine qua non\", \"a priori\") followed by a plain equivalent.",
+    "Is organized for a lay reader (headline, the case, the decision, next steps, practical advice) in a clear, neutral journalistic register that speaks to the reader as \"você\"."
   ],
   modelAnswer: "Plano de saúde é obrigado a cobrir remédio: entenda a decisão\n\nUma juíza de Campinas (SP) concedeu, na semana passada, uma liminar que obriga um plano de saúde a fornecer um medicamento de alto custo a uma paciente de 58 anos. A decisão chamou a atenção de muitos leitores, mas o texto oficial está cheio de termos técnicos. Por isso, explicamos aqui o que aconteceu em linguagem simples.\n\nO caso\nA paciente, que no processo é chamada de \"autora\", recebeu o diagnóstico de artrite reumatoide, uma doença em que o sistema de defesa do corpo ataca as articulações. Segundo o laudo médico, o quadro clínico dela (ou seja, o conjunto de sintomas e resultados de exames) piorou nos últimos meses, e os remédios tradicionais deixaram de fazer efeito. A médica receitou um medicamento injetável, com posologia de uma aplicação a cada quinze dias. Em outras palavras: uma dose a cada duas semanas.\n\nO plano, que no processo é a \"ré\", negou o pedido. Alegou que o remédio não consta do rol da ANS, a lista de tratamentos que a agência reguladora considera de cobertura obrigatória.\n\nA decisão\nA liminar é uma decisão provisória, tomada antes do fim do processo, quando esperar pode causar um dano grave ao paciente. A juíza entendeu que, nos termos da lei, o rol da ANS é uma referência básica, e não uma lista fechada: se houver comprovação científica de que o tratamento funciona, o plano pode ter de pagar por ele. Ela também citou a jurisprudência, isto é, decisões anteriores dos tribunais em casos parecidos.\n\nE agora?\nO plano ainda pode entrar com um recurso, ou seja, pedir que o Tribunal de Justiça reveja a decisão. Enquanto isso, porém, a liminar continua valendo, e o remédio deve ser entregue em até cinco dias.\n\nSe você estiver numa situação parecida, guarde a negativa do plano por escrito e o relatório do seu médico. Esses documentos são condição sine qua non, quer dizer, indispensáveis, para qualquer ação. E vale lembrar: a bula de todo medicamento traz contraindicações, situações em que ele não deve ser usado. A escolha do tratamento é sempre da equipe médica, não da Justiça.",
-  explanation: "The key skill is glossing: each specialist term (\"liminar\", \"autora\", \"ré\", \"quadro clínico\", \"posologia\", \"jurisprudência\") is followed by a plain explanation introduced by \"ou seja\", \"isto é\", \"em outras palavras\" or \"quer dizer\", or by an appositive (\"a lista de tratamentos que...\"). Court-style passives and nominalisations (\"foi deferida a tutela\") become active sentences with a clear subject (\"a juíza entendeu que\"), and the Latinism \"sine qua non\" is translated on the spot. Watch the norm forms that keep the register credible: \"não consta do rol\" (constar de), \"nos termos da lei\", and the future subjunctive in real conditions (\"se houver comprovação\", \"se você estiver\")."
+  explanation: "The key skill is glossing: each specialist term (\"liminar\", \"autora\", \"ré\", \"quadro clínico\", \"posologia\", \"jurisprudência\") is followed by a plain explanation introduced by \"ou seja\", \"isto é\", \"em outras palavras\" or \"quer dizer\", or by an appositive (\"a lista de tratamentos que...\"). Court-style passives and nominalizations (\"foi deferida a tutela\") become active sentences with a clear subject (\"a juíza entendeu que\"), and the Latinism \"sine qua non\" is translated on the spot. Watch the norm forms that keep the register credible: \"não consta do rol\" (constar de), \"nos termos da lei\", and the future subjunctive in real conditions (\"se houver comprovação\", \"se você estiver\")."
 };

@@ -46,7 +46,7 @@ export const PT_B2_S01_STORIES: Story[] = [
         options: [
           `The building's doorman refused to let Wellington in.`,
           `Seu Ademar canceled his order.`,
-          `Wellington's motorbike broke down on the Marginal.`,
+          `Wellington's motorcycle broke down on the Marginal.`,
           `Nobody answered, so Wellington went upstairs and found seu Ademar on the floor.`,
         ],
         correctIndex: 3,
@@ -55,7 +55,7 @@ export const PT_B2_S01_STORIES: Story[] = [
       {
         question: `What did seu Ademar's son offer to do?`,
         options: [
-          `Buy Wellington a new motorbike`,
+          `Buy Wellington a new motorcycle`,
           `Give him a job in Toronto`,
           `Pay for his electronics course`,
           `Write to the app to raise his rating`,
@@ -95,7 +95,7 @@ export const PT_B2_S01_STORIES: Story[] = [
         question: `Why did seu Osvaldo play at that hour?`,
         options: [
           `It was when his late wife used to go to sleep.`,
-          `He was practising for a concert.`,
+          `He was practicing for a concert.`,
           `He worked during the day and had no other time.`,
           `His grandchildren asked him to.`,
         ],
@@ -192,7 +192,7 @@ export const PT_B2_S01_STORIES: Story[] = [
     slug: "pt-o-caderno-do-fundo",
     level: "PT-B2",
     title: `O caderno do fundo`,
-    subtitle: `A Portuguese teacher at a state school on the edge of Salvador tries to understand the student who never hands in an essay.`,
+    subtitle: `A Portuguese teacher at a public school on the edge of Salvador tries to understand the student who never hands in an essay.`,
     paragraphs: [
       `Quando Luana foi aprovada no concurso para professora da rede estadual, imaginou muitas coisas, mas não imaginou o calor. A escola de Paripe, no Subúrbio Ferroviário de Salvador, tinha salas com quarenta alunos, dois ventiladores quebrados e uma vista linda para a Baía de Todos-os-Santos, que ninguém tinha tempo de olhar. Ela dava aulas de português para três turmas do segundo ano e voltava para casa toda noite rouca e convencida de que não tinha ensinado nada.`,
       `Na turma B havia um aluno que a intrigava. Davi sentava sempre na última carteira, perto da janela, e nunca entregava as redações. Não era bagunceiro nem mal-educado; pelo contrário, prestava atenção, às vezes até fazia perguntas inesperadas. Mas, quando ela pedia um texto, ele dizia que tinha esquecido, ou que não sabia o que escrever, ou simplesmente dava de ombros. Os outros professores já tinham desistido dele. “Esse aí só vem pela merenda”, comentou um colega na sala dos professores.`,
@@ -381,7 +381,7 @@ export const PT_B2_S01_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "o paredão", en: "elimination vote (in a reality show)", forms: ["paredão"] },
     { es: "amassar", en: "to knead", forms: ["amassando"] },
     { es: "ensaiar", en: "to rehearse", forms: ["ensaiado"] },
-    { es: "dobrar o quarteirão", en: "to stretch around the block (a queue)", forms: ["dobra", "quarteirão"] },
+    { es: "dobrar o quarteirão", en: "to stretch around the block (a line)", forms: ["dobra", "quarteirão"] },
     { es: "de propósito", en: "on purpose", forms: ["propósito"] },
   ],
 };

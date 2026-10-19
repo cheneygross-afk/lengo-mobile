@@ -175,6 +175,7 @@ export const FR_C2_U04: Lesson[] = [
         en: "He [is getting on my nerves] with his questions.",
         sentence: "Il me ___ avec ses questions.",
         answer: "casse les pieds",
+        altAnswers: ["tape sur les nerfs"],
         explanation: "\"Casser les pieds à quelqu'un\": \"me\" is the indirect object.",
       },
       {
@@ -302,7 +303,7 @@ export const FR_C2_U04: Lesson[] = [
         heading: "Food: salades, assiettes, oignons and carottes",
         body: [
           "French food idioms are everywhere. \"Raconter des salades\" means to tell tall stories, to spin a line: a salad is a mix of anything. \"Ne pas être dans son assiette\" means to feel out of sorts, not oneself (\"assiette\" once meant one's position or seat, not a plate). \"Ce ne sont pas tes oignons\" or \"occupe-toi de tes oignons\" means none of your business, mind your own business.",
-          "\"Les carottes sont cuites\" means it's all over, nothing more can be done. \"Avoir un cœur d'artichaut\" means to fall in love easily (every leaf goes to someone). \"Tomber comme un cheveu sur la soupe\" means to arrive at a bad moment, out of place. \"C'est la fin des haricots\" means it's the last straw, the end of everything, said half-jokingly.",
+          "\"Les carottes sont cuites\" means it's all over, nothing more can be done. \"Avoir un cœur d'artichaut\" means to fall in love easily (every leaf goes to someone). \"Tomber comme un cheveu sur la soupe\" means to arrive at a bad moment, out of place. \"C'est la fin des haricots\" means it's the end of everything, all is lost, said half-jokingly (not the last straw, which is \"la goutte d'eau qui fait déborder le vase\").",
           "A good habit: when you meet a food idiom, note its register. Most are familiar (\"occupe-toi de tes oignons\" can sound rude), some are neutral enough for the press (\"les carottes sont cuites pour le gouvernement\"), and a few are old-fashioned (\"c'est la fin des haricots\").",
         ],
         examples: [
@@ -613,7 +614,7 @@ export const FR_C2_U04: Lesson[] = [
         source: "I racked my brains all evening over this puzzle.",
         answer: "Je me suis cassé la tête toute la soirée sur ce casse-tête.",
         altAnswers: ["Je me suis cassé la tête toute la soirée sur cette énigme.", "Je me suis creusé la tête toute la soirée sur ce casse-tête.", "Je me suis creusé la tête toute la soirée sur cette énigme."],
-        explanation: "\"Se casser la tête\" or \"se creuser la tête\"; \"cassé\" is invariable (\"la tête\" follows).",
+        explanation: "\"Se casser la tête\" or \"se creuser la tête\"; \"cassé\" is invariable because the direct object \"la tête\" comes after the verb and \"me\" is only an indirect object.",
       },
       {
         type: "multiple-choice",
@@ -711,7 +712,7 @@ export const FR_C2_U04: Lesson[] = [
         heading: "Idioms built on en: s'en sortir, en avoir marre, en vouloir à",
         body: [
           "In many idiomatic verbs, \"en\" no longer refers to anything specific: it is part of the verb. \"S'en sortir\" means to cope, to manage, to get through: \"Tu t'en sors avec ton nouveau boulot ?\", \"elle s'en est bien sortie\". \"En avoir marre\" (familiar) means to be fed up: \"j'en ai marre de ce bruit\"; \"en avoir ras le bol\" is a stronger, still familiar variant, and \"en avoir assez\" the neutral one.",
-          "\"En vouloir à quelqu'un\" means to bear a grudge, to hold something against someone: \"je lui en veux de m'avoir menti\", \"ne m'en veux pas\" (don't be angry with me), \"tu m'en veux ?\". Note the pronoun order: indirect object pronoun first, then \"en\" (\"je lui en veux\", \"il m'en veut\"). In the imperative, French says \"ne m'en veux pas\" or, colloquially, \"ne m'en voulez pas\"; the formal \"ne m'en veuillez pas\" also exists.",
+          "\"En vouloir à quelqu'un\" means to bear a grudge, to hold something against someone: \"je lui en veux de m'avoir menti\", \"ne m'en veux pas\" (don't be angry with me), \"tu m'en veux ?\". Note the pronoun order: indirect object pronoun first, then \"en\" (\"je lui en veux\", \"il m'en veut\"). In the imperative, French says \"ne m'en veux pas\" (tu) and \"ne m'en voulez pas\" (vous); the more formal \"ne m'en veuillez pas\" also exists.",
           "In compound tenses, \"en\" stays before the auxiliary and the participle does not agree with it: \"Elle s'en est sortie\" (agreement with the subject through \"être\"), \"Je lui en ai voulu pendant des années.\"",
         ],
         examples: [
@@ -846,7 +847,7 @@ export const FR_C2_U04: Lesson[] = [
         prompt: "Translate into French with an idiom.",
         source: "How did you manage?",
         answer: "Comment tu t'en es sorti ?",
-        altAnswers: ["Comment t'en es-tu sorti ?", "Comment vous en êtes-vous sorti ?", "Comment t'en es-tu sortie ?", "Comment tu t'en es sortie ?", "Comment est-ce que tu t'en es sorti ?"],
+        altAnswers: ["Comment t'en es-tu sorti ?", "Comment vous en êtes-vous sorti ?", "Comment vous en êtes-vous sortie ?", "Comment vous en êtes-vous sortis ?", "Comment t'en es-tu sortie ?", "Comment tu t'en es sortie ?", "Comment est-ce que tu t'en es sorti ?"],
         explanation: "\"S'en sortir\" in the passé composé with \"être\".",
       },
       {
@@ -982,7 +983,7 @@ export const FR_C2_U04: Lesson[] = [
         heading: "Crossed idioms: two expressions, one mistake",
         body: [
           "A crossed idiom (\"une expression croisée\", \"un croisement\") blends two real French idioms. Native speakers make them too, and they are a favourite subject of language columns. \"*Se faire du mauvais sang d'encre\" mixes \"se faire du mauvais sang\" and \"se faire un sang d'encre\" (both: to worry sick). \"*Ce n'est pas la mer à sorcier\" mixes \"ce n'est pas la mer à boire\" and \"ce n'est pas sorcier\" (both: it's not that hard).",
-          "Others: \"*prendre le taureau par la queue\" (only \"par les cornes\"), \"*vendre la peau de l'ours avant de l'avoir mangé\" (the bear must be \"tué\": don't count your chickens before they hatch), and the misuse of \"tirer les marrons du feu\" to mean to profit, when it really means to do the risky work so that someone else profits (from the La Fontaine fable of the monkey and the cat). \"*Au temps pour moi\" and \"autant pour moi\" are a famous controversy: the Académie française prefers \"au temps pour moi\" (my mistake, from the military order to restart a movement), but both spellings are widely used.",
+          "Others: \"*prendre le taureau par la queue\" (only \"par les cornes\"), \"*vendre la peau de l'ours avant de l'avoir mangé\" (the bear must be \"tué\": don't count your chickens before they hatch), and the misuse of \"tirer les marrons du feu\" to mean to profit, when it really means to do the risky work so that someone else profits (from the La Fontaine fable of the monkey and the cat). \"Au temps pour moi\" versus \"autant pour moi\" is a famous controversy: the Académie française prefers \"au temps pour moi\" (my mistake, from the military order to restart a movement), but both spellings are widely used.",
           "To avoid crossed idioms, learn each idiom as a block with its verb and article, and never improvise a variation in formal speech. When unsure, use the neutral equivalent.",
         ],
         examples: [
@@ -1548,8 +1549,8 @@ export const FR_C2_U04: Lesson[] = [
         en: "This affair has [undermined] public trust.",
         sentence: "Cette affaire a ___ la confiance du public.",
         answer: "sapé",
-        altAnswers: ["miné", "ébranlé"],
-        explanation: "\"Saper\" or \"miner\" (gradual), \"ébranler\" (sudden shock).",
+        altAnswers: ["miné"],
+        explanation: "\"Saper\" or \"miner\": gradual erosion from below. \"Ébranlé\" would mean shaken by a sudden shock, not undermined.",
       },
       {
         type: "multiple-choice",
@@ -1711,8 +1712,8 @@ export const FR_C2_U04: Lesson[] = [
       {
         heading: "Register pairs and traps",
         body: [
-          "Many collocations come in a neutral and a formal version. \"Faire une erreur\" / \"commettre une erreur\". \"Commencer une discussion\" / \"engager\" or \"entamer une discussion\". \"Avoir des dettes\" / \"contracter des dettes\". \"Faire un discours\" / \"prononcer un discours\". \"Donner son avis\" / \"émettre un avis\" (an official opinion). \"Faire une promesse\" / \"tenir une promesse\" (to keep it). The formal version is expected in writing.",
-          "Traps from English: \"*prendre un cours\" is possible but \"suivre un cours\" is the standard; \"*faire une photo\" is fine in speech but \"prendre une photo\" is more common; \"passer un examen\" means to take it, not to pass it (\"réussir un examen\"); \"*payer attention\" does not exist (\"faire attention\", \"prêter attention à\"); \"*faire du sens\" is a calque (\"avoir du sens\").",
+          "Many collocations come in a neutral and a formal version. \"Faire une erreur\" / \"commettre une erreur\". \"Commencer une discussion\" / \"engager\" or \"entamer une discussion\". \"Avoir des dettes\" / \"contracter des dettes\". \"Faire un discours\" / \"prononcer un discours\". \"Donner son avis\" / \"émettre un avis\" (an official opinion). \"Faire une promesse\" / \"formuler une promesse\" (and, to keep it, \"tenir sa promesse\"). The formal version is expected in writing.",
+          "Traps from English: \"prendre un cours\" is possible but \"suivre un cours\" is the standard; \"faire une photo\" is fine in speech but \"prendre une photo\" is more common; \"passer un examen\" means to take it, not to pass it (\"réussir un examen\"); \"*payer attention\" does not exist (\"faire attention\", \"prêter attention à\"); \"*faire du sens\" is a calque (\"avoir du sens\").",
         ],
         examples: [
           { es: "La présidente a prononcé un discours émouvant.", en: "The president gave a moving speech." },
@@ -1852,7 +1853,7 @@ export const FR_C2_U04: Lesson[] = [
       {
         type: "speak",
         text: "Il faut prendre une décision et en tirer les conséquences.",
-        prompt: "Say it in French: We have to make a decision and accept the consequences.",
+        prompt: "Say it in French: We have to make a decision and act on its consequences.",
         tip: "Link \"en tirer\" smoothly: [ɑ̃ tiʁe].",
         explanation: "\"Prendre une décision\" and \"tirer les conséquences de\": two key collocations.",
       },

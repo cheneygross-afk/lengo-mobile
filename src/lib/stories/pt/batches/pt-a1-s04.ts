@@ -193,7 +193,7 @@ export const PT_A1_S04_STORIES: Story[] = [
       },
       {
         question: `What is Dona Teresa going to do on Sunday?`,
-        options: [`Return one pot to the shop`, `Teach the twins to make moqueca`, `Travel with her children`, `Have another party`],
+        options: [`Return one pot to the store`, `Teach the twins to make moqueca`, `Travel with her children`, `Have another party`],
         correctIndex: 1,
         explanation: `"No domingo, eu vou ensinar a moqueca para vocês dois."`,
       },
@@ -207,7 +207,7 @@ export const PT_A1_S04_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "caramelo", en: "caramel-colored", forms: ["caramelo"] },
     { es: "sentar", en: "to sit", forms: ["senta"] },
     { es: "o passageiro", en: "passenger", forms: ["passageiros"] },
-    { es: "o biscoito", en: "biscuit, cookie", forms: ["biscoito"] },
+    { es: "o biscoito", en: "cookie, cracker", forms: ["biscoito"] },
     { es: "o bairro", en: "neighborhood", forms: ["bairro"] },
     { es: "curioso", en: "curious", forms: ["curiosa"] },
     { es: "a calçada", en: "sidewalk", forms: ["calçada"] },
@@ -260,7 +260,7 @@ export const PT_A1_S04_GLOSSES: Record<string, StoryGloss[]> = {
   ],
   "pt-o-presente-da-dona-teresa": [
     { es: "o gêmeo", en: "twin", forms: ["gêmeos"] },
-    { es: "fazer anos", en: "to turn (an age), to have a birthday", forms: ["faz"] },
+    { es: "fazer (… anos)", en: "to turn (an age)", forms: ["faz"] },
     { es: "concordar", en: "to agree", forms: ["concordam"] },
     { es: "a viagem", en: "trip", forms: ["viagem"] },
     { es: "brigar", en: "to argue", forms: ["brigam"] },

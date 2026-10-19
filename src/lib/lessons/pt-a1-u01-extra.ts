@@ -9,7 +9,7 @@ export const PT_A1_U01_EXTRA: Lesson[] = [
     level: "PT-A1",
     number: 1,
     title: "Extra Practice: Greetings & Ser, Part 1 of 3",
-    summary: "Practise greetings and goodbyes for every time of day, together with ser in all persons.",
+    summary: "Practice greetings and goodbyes for every time of day, together with ser in all persons.",
     duration: "12 min",
     optional: true,
     kind: "drill",
@@ -63,7 +63,7 @@ export const PT_A1_U01_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Good morning, Mr. Antônio! (an older neighbour)",
+        source: "Good morning, Mr. Antônio! (an older neighbor)",
         answer: "Bom dia, seu Antônio!",
         explanation: "\"Seu\" before a first name is a warm, respectful title for an older man, as \"Dona\" is for a woman. \"Dia\" is masculine, so it's \"bom dia\", not \"boa dia\".",
       },
@@ -174,7 +174,7 @@ export const PT_A1_U01_EXTRA: Lesson[] = [
         type: "speak",
         text: "Boa noite, Dona Maria! Até amanhã!",
         prompt: "Say it in Portuguese: Good night, Dona Maria! See you tomorrow!",
-        tip: "In most of Brazil the t in noite sounds like ch: noi-tchi. Make the ã in amanhã nasal.",
+        tip: "In most of Brazil the t in noite sounds like ch: 'NOY-chee'. Make the ã in amanhã nasal.",
         explanation: "\"Boa noite\" as a goodbye after dark, with the respectful \"Dona\" before an older woman's first name.",
       },
       {
@@ -197,7 +197,7 @@ export const PT_A1_U01_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Greetings & Ser, Part 2 of 3",
-    summary: "Practise nationalities in all four forms and saying where people are from with ser de, cities and countries.",
+    summary: "Practice nationalities in all four forms and saying where people are from with ser de, cities and countries.",
     duration: "12 min",
     sections: [
       {
@@ -358,7 +358,7 @@ export const PT_A1_U01_EXTRA: Lesson[] = [
         type: "speak",
         text: "Eu sou americana, dos Estados Unidos.",
         prompt: "Say it in Portuguese: I'm American, from the United States. (as a woman)",
-        tip: "Stress es-TA-dos u-NI-dos, and let the final o sound like a short u.",
+        tip: "Stress 'es-TAH-doos oo-NEE-doos', and let the final o sound like a short u.",
         explanation: "\"Americana\" for a woman, and \"dos Estados Unidos\" because the country is masculine plural.",
       },
       {
@@ -380,7 +380,7 @@ export const PT_A1_U01_EXTRA: Lesson[] = [
     level: "PT-A1",
     number: 3,
     title: "Extra Practice: Greetings & Ser, Part 3 of 3",
-    summary: "Put greetings, ser, nationalities and jobs together into full introductions, and practise writing them and taking them down from dictation.",
+    summary: "Put greetings, ser, nationalities and jobs together into full introductions, and practice writing them and taking them down from dictation.",
     duration: "12 min",
     optional: true,
     sections: [
@@ -725,7 +725,7 @@ export const PT_A1_U01_EXTRA: Lesson[] = [
         type: "speak",
         text: "Bom dia, Dona Maria! A senhora é de Salvador?",
         prompt: "Say it in Portuguese: Good morning, Dona Maria! Are you from Salvador?",
-        tip: "The nh in senhora sounds like the ny in canyon: se-NHO-ra.",
+        tip: "The nh in senhora sounds like the ny in canyon: 'see-NYOH-rah'.",
         explanation: "\"Dona\" + first name, then \"a senhora é\" with the ele/ela verb.",
       },
       {

@@ -77,7 +77,7 @@ export const FR_C2_U21: Lesson[] = [
             prompt: "Translate into French (in an interview).",
             source: "Since I had already worked in Spain, I was given the Spanish market.",
             answer: "Comme j'avais déjà travaillé en Espagne, on m'a confié le marché espagnol.",
-            altAnswers: ["Comme j'avais déjà travaillé en Espagne, on m'a confié le marché de l'Espagne.", "Ayant déjà travaillé en Espagne, on m'a confié le marché espagnol.", "Comme j'avais déjà travaillé en Espagne, je me suis vu confier le marché espagnol.", "Comme j'avais déjà travaillé en Espagne, je me suis vue confier le marché espagnol.", "Étant donné que j'avais déjà travaillé en Espagne, on m'a confié le marché espagnol."],
+            altAnswers: ["Comme j'avais déjà travaillé en Espagne, on m'a confié le marché de l'Espagne.", "Ayant déjà travaillé en Espagne, je me suis vu confier le marché espagnol.", "Comme j'avais déjà travaillé en Espagne, je me suis vu confier le marché espagnol.", "Comme j'avais déjà travaillé en Espagne, je me suis vue confier le marché espagnol.", "Étant donné que j'avais déjà travaillé en Espagne, on m'a confié le marché espagnol."],
             explanation: "The earlier background takes the plus-que-parfait (\"j'avais travaillé\"), the event the passé composé. French prefers \"on m'a confié\" or \"je me suis vu confier\" to a passive with I as subject.",
           },
           {
@@ -228,7 +228,7 @@ export const FR_C2_U21: Lesson[] = [
         prompt: "Translate into French.",
         source: "Since I had done my internship in Canada, I was given the North American clients.",
         answer: "Comme j'avais fait mon stage au Canada, on m'a confié les clients nord-américains.",
-        altAnswers: ["Comme j'avais effectué mon stage au Canada, on m'a confié les clients nord-américains.", "Ayant fait mon stage au Canada, on m'a confié les clients nord-américains.", "Comme j'avais fait mon stage au Canada, je me suis vu confier les clients nord-américains.", "Comme j'avais fait mon stage au Canada, je me suis vue confier les clients nord-américains.", "Comme j'avais effectué mon stage au Canada, je me suis vu confier les clients nord-américains.", "Comme j'avais effectué mon stage au Canada, je me suis vue confier les clients nord-américains."],
+        altAnswers: ["Comme j'avais effectué mon stage au Canada, on m'a confié les clients nord-américains.", "Ayant fait mon stage au Canada, je me suis vu confier les clients nord-américains.", "Comme j'avais fait mon stage au Canada, je me suis vu confier les clients nord-américains.", "Comme j'avais fait mon stage au Canada, je me suis vue confier les clients nord-américains.", "Comme j'avais effectué mon stage au Canada, je me suis vu confier les clients nord-américains.", "Comme j'avais effectué mon stage au Canada, je me suis vue confier les clients nord-américains."],
         explanation: "Plus-que-parfait for the earlier background, passé composé for the step. \"Effectuer un stage\" is more formal than \"faire un stage\".",
       },
       {
@@ -638,7 +638,6 @@ export const FR_C2_U21: Lesson[] = [
         en: "Sales [went from] 1 to 1.8 million euros.",
         sentence: "Les ventes ___ 1 à 1,8 million d'euros.",
         answer: "sont passées de",
-        altAnswers: ["ont passé de"],
         explanation: "\"Passer de... à...\" for a change in figures, with \"être\" in the passé composé (agreeing with \"ventes\"). Note the decimal comma: \"1,8\".",
       },
       {
@@ -1099,8 +1098,8 @@ export const FR_C2_U21: Lesson[] = [
             prompt: "Translate into French.",
             source: "Not only did the client stay, but he also recommended us.",
             answer: "Non seulement le client est resté, mais il nous a aussi recommandés.",
-            altAnswers: ["Non seulement le client est resté, mais en plus il nous a recommandés.", "Non seulement le client est resté, mais il nous a recommandés.", "Non seulement le client est resté, mais il nous a également recommandés.", "Non seulement le client est resté, mais il nous a aussi recommandé.", "Non seulement le client est resté, mais il nous a recommandé."],
-            explanation: "\"Non seulement... mais (aussi)\" without inversion in French, unlike English Not only did... Strictly, \"recommandés\" agrees with the preceding \"nous\".",
+            altAnswers: ["Non seulement le client est resté, mais en plus il nous a recommandés.", "Non seulement le client est resté, mais il nous a recommandés.", "Non seulement le client est resté, mais il nous a également recommandés."],
+            explanation: "\"Non seulement... mais (aussi)\" without inversion in French, unlike English Not only did... The past participle \"recommandés\" agrees with the direct object \"nous\" placed before it (plural: the company's team).",
           },
         ],
       },

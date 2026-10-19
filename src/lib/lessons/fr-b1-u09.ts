@@ -1883,8 +1883,8 @@ export const FR_B1_U09: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Le marché ? Vas-y le samedi et goûtes-en les fromages.",
-        prompt: "Say it in French: The market? Go on Saturday and taste the cheeses there. (to a friend)",
+        text: "Le marché ? Vas-y le samedi. Les fromages ? Goûtes-en plusieurs.",
+        prompt: "Say it in French: The market? Go on Saturday. The cheeses? Try several. (to a friend)",
         tip: "vazi... goûtezan.",
         explanation: "Two s's that come back before y and en.",
       },

@@ -9,7 +9,7 @@ export const PT_B1_U17: Lesson[] = [
     level: "PT-B1",
     number: 1,
     title: "Tá, Tô, Cê, Pra: Spoken Reductions",
-    summary: "Recognise and use the shortened forms of everyday Brazilian speech (tô, tá, cê, pra, pro, né) and know where not to write them.",
+    summary: "Recognize and use the shortened forms of everyday Brazilian speech (tô, tá, cê, pra, pro, né) and know where not to write them.",
     duration: "12 min",
     sections: [
       {
@@ -314,7 +314,7 @@ export const PT_B1_U17: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The film starts at, like, eight.",
+            source: "The movie starts at, like, eight.",
             answer: "O filme começa tipo umas oito.",
             altAnswers: ["O filme começa tipo às oito.", "O filme começa, tipo, umas oito.", "O filme começa por volta das oito."],
             explanation: "\"Tipo umas oito\" makes the time approximate, and \"umas\" adds to the vagueness. \"Por volta das oito\" says the same thing in neutral Portuguese.",
@@ -322,7 +322,7 @@ export const PT_B1_U17: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[Look], I think we'd better take the metro.",
+            en: "[Look], I think we'd better take the subway.",
             sentence: "___, acho melhor a gente ir de metrô.",
             answer: "Olha",
             explanation: "\"Olha\" at the start prepares the listener for a suggestion or an opinion. It's the everyday command of \"olhar\", used as a softener.",
@@ -340,7 +340,7 @@ export const PT_B1_U17: Lesson[] = [
       {
         heading: "Aí and então: moving the story on",
         body: [
-          "In spoken stories Brazilians link events with \"aí\" (literally there) and \"então\" (so, then): \"Cheguei na festa, aí encontrei a Júlia, aí a gente foi embora.\" \"Aí\" is the casual and then; \"então\" sounds a bit more organised and also opens a topic: \"Então, sobre o sábado...\"",
+          "In spoken stories Brazilians link events with \"aí\" (literally there) and \"então\" (so, then): \"Cheguei na festa, aí encontrei a Júlia, aí a gente foi embora.\" \"Aí\" is the casual and then; \"então\" sounds a bit more organized and also opens a topic: \"Então, sobre o sábado...\"",
           "A run of \"aí... aí... aí\" is normal over a beer, but a written story or email uses \"depois\" (afterwards) or \"por isso\" (so, that's why). On its own, \"E aí?\" is a greeting: what's up?",
         ],
         examples: [
@@ -383,7 +383,7 @@ export const PT_B1_U17: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "It's a really quiet neighbourhood, [you know]?",
+        en: "It's a really quiet neighborhood, [you know]?",
         sentence: "É um bairro bem tranquilo, ___?",
         answer: "sabe",
         explanation: "\"Sabe?\" at the end checks that the listener is with you, like English you know?.",
@@ -605,7 +605,7 @@ export const PT_B1_U17: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Your neighbours are really nice.",
+        source: "Your neighbors are really nice.",
         answer: "Os seus vizinhos são muito legais.",
         altAnswers: ["Seus vizinhos são muito legais.", "Os seus vizinhos são muito bacanas.", "Seus vizinhos são muito bacanas."],
         explanation: "The plural of \"legal\" is \"legais\" (-al → -ais), and \"bacana\" becomes \"bacanas\". Both words stay the same for masculine and feminine nouns.",
@@ -696,7 +696,7 @@ export const PT_B1_U17: Lesson[] = [
     level: "PT-B1",
     number: 4,
     title: "Oxe, Bah, Uai: Regional Brazil",
-    summary: "Recognise the regional words and accents of Brazil: oxe and massa in the Nordeste, bah and tchê in the South, uai and trem in Minas, mano in São Paulo and the Rio s.",
+    summary: "Recognize the regional words and accents of Brazil: oxe and massa in the Nordeste, bah and tchê in the South, uai and trem in Minas, mano in São Paulo and the Rio s.",
     duration: "12 min",
     sections: [
       {
@@ -742,11 +742,11 @@ export const PT_B1_U17: Lesson[] = [
       {
         heading: "The South and Minas: bah, tchê, uai, trem",
         body: [
-          "In Rio Grande do Sul, \"bah\" opens a reaction of surprise or emphasis, and \"tchê\" addresses a friend, like mate. A boy is a \"guri\", a girl a \"guria\". Many gaúchos also use a different word for you; that's the next lesson.",
+          "In Rio Grande do Sul, \"bah\" opens a reaction of surprise or emphasis, and \"tchê\" addresses a friend, like buddy. A boy is a \"guri\", a girl a \"guria\". Many gaúchos also use a different word for you; that's the next lesson.",
           "In Minas Gerais, \"uai\" marks surprise or the obvious, like 'why' or 'well'. \"Trem\" is a train elsewhere, but a mineiro uses it for any thing at all: food, a phone, a problem. \"Sô\" (from \"senhor\") addresses anyone, and \"nó\" is a clipped \"nossa\".",
         ],
         examples: [
-          { es: "Bah, que frio, tchê!", en: "Wow, it's freezing, mate!" },
+          { es: "Bah, que frio, tchê!", en: "Wow, it's freezing, buddy!" },
           { es: "Tchê, você vai no churrasco?", en: "Mate, are you going to the barbecue?" },
           { es: "Aquela guria é minha prima.", en: "That girl is my cousin." },
           { es: "Uai, cê não sabia?", en: "Why, didn't you know?" },
@@ -758,7 +758,7 @@ export const PT_B1_U17: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "(in Porto Alegre) Wow, mate, I'm cold!",
+            source: "(in Porto Alegre) Wow, buddy, I'm cold!",
             answer: "Bah, tchê, estou com frio!",
             altAnswers: ["Bah, tchê, tô com frio!", "Bah, estou com frio, tchê!", "Bah, tô com frio, tchê!", "Bah, tchê, eu estou com frio!", "Bah, tchê, eu tô com frio!"],
             explanation: "\"Bah\" opens the reaction and \"tchê\" calls the friend. Feeling cold is still \"estar com frio\", whatever the region.",
@@ -767,7 +767,7 @@ export const PT_B1_U17: Lesson[] = [
             type: "listen-choose",
             audio: "Esse trem é muito caro.",
             question: "A friend in Belo Horizonte points at a phone. What does it mean?",
-            options: ["That thing is really expensive.", "That train is really expensive.", "That thing is really cheap.", "That shop is really expensive."],
+            options: ["That thing is really expensive.", "That train is really expensive.", "That thing is really cheap.", "That store is really expensive."],
             correctIndex: 0,
             explanation: "In Minas \"trem\" means any thing, here the phone. \"Caro\" is expensive, not cheap.",
           },
@@ -786,8 +786,8 @@ export const PT_B1_U17: Lesson[] = [
         heading: "São Paulo, Rio and the sound of the s",
         body: [
           "In São Paulo friends say \"mano\" (bro), start sentences with \"meu\" (dude) and call good things \"da hora\". Cariocas say \"caraca\" (wow), \"maneiro\" (cool, and it agrees: \"festa maneira\") and \"mermão\", a squeezed \"meu irmão\".",
-          "The Rio s is the accent everyone recognises. Before a consonant or at the end of a word it becomes the sh of she: \"festa\" sounds like FESH-ta, \"dois\" like DOISH. Before m, n, l, d and other voiced sounds it's the s of measure: \"mesmo\". Paulistas keep a plain s.",
-          "In the interior of São Paulo and Paraná, the caipira r at the end of a syllable sounds like an English r: \"porta\", \"calor\". Recognise all of this, and use it only where the people around you do.",
+          "The Rio s is the accent everyone recognizes. Before a consonant or at the end of a word it becomes the sh of she: \"festa\" sounds like FESH-ta, \"dois\" like DOISH. Before m, n, l, d and other voiced sounds it's the s of measure: \"mesmo\". Paulistas keep a plain s.",
+          "In the interior of São Paulo and Paraná, the caipira r at the end of a syllable sounds like an English r: \"porta\", \"calor\". Recognize all of this, and use it only where the people around you do.",
         ],
         examples: [
           { es: "E aí, mano, beleza?", en: "Hey, bro, all good?" },
@@ -894,7 +894,7 @@ export const PT_B1_U17: Lesson[] = [
           { left: "Mano", right: "Bro (São Paulo)" },
           { left: "Caraca!", right: "Wow! (Rio)" },
         ],
-        explanation: "Each word belongs to a region; recognise them all, and use them where people around you do.",
+        explanation: "Each word belongs to a region; recognize them all, and use them where people around you do.",
       },
       {
         type: "speak",
@@ -928,13 +928,13 @@ export const PT_B1_U17: Lesson[] = [
     level: "PT-B1",
     number: 5,
     title: "Tu in Brazil",
-    summary: "Recognise tu as millions of Brazilians use it, with the você verb in speech and with its -s forms in southern writing, while you keep saying você.",
+    summary: "Recognize tu as millions of Brazilians use it, with the você verb in speech and with its -s forms in southern writing, while you keep saying você.",
     duration: "12 min",
     sections: [
       {
         heading: "Tu vai, tu quer: tu with the você verb",
         body: [
-          "In much of Brazil, friends say \"tu\" instead of \"você\". You'll hear it in Rio Grande do Sul and Santa Catarina, across the Nordeste (Recife, Fortaleza, Natal), in the North (Manaus, Belém) and casually in Rio. In everyday speech it takes the same verb as \"você\": \"tu vai pra festa hoje?\", \"tu quer um chimarrão?\", \"tu sabe onde fica?\". There is nothing new to conjugate. Take any \"você\" sentence below, swap in \"tu\", and you have the regional version.",
+          "In much of Brazil, friends say \"tu\" instead of \"você\". You'll hear it in Rio Grande do Sul and Santa Catarina, across the Nordeste (Recife, Fortaleza, Natal), in the North (Manaus, Belém) and casually in Rio. In everyday speech it usually takes the same verb as \"você\": \"tu vai pra festa hoje?\", \"tu quer um chimarrão?\", \"tu sabe onde fica?\". There is nothing new to conjugate. Take any \"você\" sentence below, swap in \"tu\", and you have the regional version.",
           "Grammar books frown on this mix, but for millions of Brazilians it's normal informal speech, not a mistake. It stays informal: \"tu\" is for friends, family and kids. It is never for a client or anyone you'd call \"o senhor\" or \"a senhora\".",
           "Its partner words come with it: \"te\" as the object (you already use it with \"você\"), \"contigo\" (with you) and \"teu\" / \"tua\" (your).",
         ],
@@ -976,8 +976,8 @@ export const PT_B1_U17: Lesson[] = [
       {
         heading: "Tu vais, tu queres: the standard forms",
         body: [
-          "Standard grammar gives \"tu\" its own verb forms, ending in -s. Most are the \"você\" form plus -s: \"tu falas\", \"tu comes\", \"tu podes\", \"tu estás\", \"tu vais\". Learn \"tu és\", \"tu tens\" and \"tu queres\" as they are. The past has its own endings too: \"tu falaste\", \"tu foste\". Speech says \"tu falou\" and \"tu foi\" instead.",
-          "You'll read these forms in Rio Grande do Sul (letters, song lyrics, gaúcho literature) and in older books. Some speakers also use them in Belém, São Luís and along the southern border. You only need to recognise them.",
+          "Standard grammar gives \"tu\" its own verb forms, ending in -s. Most are the \"você\" form plus -s: \"tu falas\", \"tu comes\", \"tu podes\", \"tu estás\", \"tu vais\". Learn \"tu és\", \"tu tens\" and \"tu queres\" as they are. The past has its own endings too: \"tu falaste\", \"tu foste\". Most speakers say \"tu falou\" and \"tu foi\" instead, but in Belém, São Luís and Florianópolis many people use the -s forms in everyday speech too.",
+          "You'll read these forms in Rio Grande do Sul (letters, song lyrics, gaúcho literature) and in older books. Some speakers also use them in Belém, São Luís and along the southern border. You only need to recognize them.",
           "You already use some tu forms. The everyday commands \"vem!\", \"fala!\" and \"come!\" are the tu imperative, which is why \"vem cá\" sounds so warm. A letter that ends \"um abraço do teu amigo\" is also writing in tu.",
         ],
         examples: [
@@ -1142,7 +1142,7 @@ export const PT_B1_U17: Lesson[] = [
       {
         type: "speak",
         text: "Oxe, cê tá doido?",
-        tip: "Say oxe as Ô-shi: the x sounds like sh and the final e sounds like i.",
+        tip: "Say oxe as Ó-shi, with an open ó: the x sounds like sh and the final e sounds like i.",
         explanation: "This is very Nordeste: \"oxe\" for surprise. Locals would often say \"tu tá doido?\" with the same verb.",
       },
       {
@@ -1305,7 +1305,7 @@ export const PT_B1_U17: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "Who's bringing what?",
         answer: "Quem leva o quê?",
-        altAnswers: ["Quem vai levar o quê?", "Quem leva o que?"],
+        altAnswers: ["Quem vai levar o quê?"],
         explanation: "At the end of a question, \"que\" becomes \"o quê\" with a circumflex. The present \"leva\" works for a plan.",
       },
       {
@@ -1405,7 +1405,7 @@ export const PT_B1_U17: Lesson[] = [
       {
         heading: "Slang in a work email",
         body: [
-          "\"Cara\", \"valeu\", \"beleza\", \"show\" and \"de boa\" are everyday words among friends. In an email to a manager, a client or a recruiter, though, they read like 'cheers, mate' on a job application. They come across as careless, not friendly.",
+          "\"Cara\", \"valeu\", \"beleza\", \"show\" and \"de boa\" are everyday words among friends. In an email to a manager, a client or a recruiter, though, they read like 'hey, dude' on a job application. They come across as careless, not friendly.",
           "Swap each one for a neutral equivalent. Replace \"valeu\" with \"obrigado\" or \"agradeço\", \"beleza\" with \"combinado\", \"de boa\" with \"sem problema\" and \"show!\" with \"ótimo\". Keep the frame from Unit 15: \"Prezado\" or \"Olá\" to open, \"Atenciosamente\" to close.",
         ],
         examples: [
@@ -1445,7 +1445,7 @@ export const PT_B1_U17: Lesson[] = [
           { es: "O documento está em anexo.", en: "The document is attached." },
           { es: "Você poderia confirmar o horário?", en: "Could you confirm the time?" },
           { es: "Nós precisamos de mais informações para concluir o relatório.", en: "We need more information to finish the report." },
-          { es: "Não compareci porque estava doente.", en: "I didn't attend because I was ill." },
+          { es: "Não compareci porque estava doente.", en: "I didn't attend because I was sick." },
         ],
         checkpoint: [
           {
@@ -1477,7 +1477,7 @@ export const PT_B1_U17: Lesson[] = [
       {
         heading: "Too formal in a chat",
         body: [
-          "The opposite mistake is just as odd. Opening a friends' WhatsApp group with \"Prezados amigos do grupo\" sounds like a lawyer's letter. So does signing off a message to your flatmate with \"Atenciosamente\". Brazilians will read it as a joke or as coldness.",
+          "The opposite mistake is just as odd. Opening a friends' WhatsApp group with \"Prezados amigos do grupo\" sounds like a lawyer's letter. So does signing off a message to your roommate with \"Atenciosamente\". Brazilians will read it as a joke or as coldness.",
           "In a chat, write the way you speak: \"Oi, gente!\", \"E aí?\", \"Valeu!\", \"Abraço\", \"Beijos\". Save \"venho por meio deste\" and \"gostaria de solicitar\" for letters to companies, never for a message about pizza.",
         ],
         examples: [
@@ -1510,7 +1510,7 @@ export const PT_B1_U17: Lesson[] = [
         heading: "Tu with the wrong verb in writing",
         body: [
           "Across much of Brazil people say \"tu vai\" and \"tu quer\", using \"tu\" with the \"você\" form of the verb. That's normal speech and fine in a chat. In formal writing, though, \"tu vai\" counts as an error.",
-          "The fix is \"você\" with its usual verb (\"você vai\", \"você quer\"), which is correct everywhere. The standard forms \"tu vais\" and \"tu queres\" appear in writing from Rio Grande do Sul. Recognise them, but don't switch between \"tu\" and \"você\" within one text.",
+          "The fix is \"você\" with its usual verb (\"você vai\", \"você quer\"), which is correct everywhere. The standard forms \"tu vais\" and \"tu queres\" appear in careful writing, especially from the South. Recognize them, but don't switch between \"tu\" and \"você\" within one text.",
         ],
         examples: [
           { es: "Você vai à reunião amanhã?", en: "Are you going to the meeting tomorrow?" },
@@ -1562,7 +1562,7 @@ export const PT_B1_U17: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I didn't attend [because] I was ill. (email to a professor)",
+        en: "I didn't attend [because] I was sick. (email to a professor)",
         sentence: "Não compareci ___ estava doente.",
         answer: "porque",
         explanation: "\"Pq\" is chat shorthand. In formal writing, spell out \"porque\" (one word, no accent) for because.",
@@ -1697,7 +1697,7 @@ export const PT_B1_U17: Lesson[] = [
         examples: [
           { es: "Nós vamos para a praia. → A gente vai pra praia.", en: "We're going to the beach." },
           { es: "Nós nos vemos amanhã. → A gente se vê amanhã.", en: "See you tomorrow." },
-          { es: "Nós o encontramos no metrô. → A gente encontrou ele no metrô.", en: "We ran into him on the metro." },
+          { es: "Nós o encontramos no metrô. → A gente encontrou ele no metrô.", en: "We ran into him on the subway." },
           { es: "Eu a vi na feira. → Eu vi ela na feira.", en: "I saw her at the market." },
           { es: "Vou ajudá-lo com a mudança. → Vou te ajudar com a mudança.", en: "I'll help you with the move." },
           { es: "A senhora está bem? → A senhora tá bem?", en: "Are you OK? (to an older woman)" },
@@ -1828,7 +1828,7 @@ export const PT_B1_U17: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The metro is late, isn't it? (casual)",
+        source: "The subway is late, isn't it? (casual)",
         answer: "O metrô tá atrasado, né?",
         altAnswers: ["O metrô está atrasado, né?", "O metrô tá atrasado, não é?"],
         explanation: "\"Tá\" for está and the tag \"né?\" for não é? make it sound natural and spoken.",
@@ -1877,12 +1877,12 @@ export const PT_B1_U17: Lesson[] = [
         heading: "Mandando o convite: proposing the plan",
         body: [
           "A plan in a group chat starts with one short message to everyone. Open with \"gente\" or \"galera\" (guys, everyone) and make the proposal: \"bora...?\" (shall we...?, from \"vamos embora\"), \"que tal...?\" (how about...?) or \"alguém topa...?\" (is anyone up for...?). \"Topar\" means to accept a plan, so \"topo!\" is I'm up for it.",
-          "Write the way you speak, with the reductions from this unit: \"tô\", \"tá\", \"cês\", \"pra\", \"pro\". Chats also shorten words in writing: \"vc\" (você), \"tb\" (também), \"pq\" (porque), \"blz\" (beleza). Recognise them, but write whole words in the exercises; they're just as natural in a chat.",
+          "Write the way you speak, with the reductions from this unit: \"tô\", \"tá\", \"cês\", \"pra\", \"pro\". Chats also shorten words in writing: \"vc\" (você), \"tb\" (também), \"pq\" (porque), \"blz\" (beleza). Recognize them, but write whole words in the exercises; they're just as natural in a chat.",
         ],
         examples: [
           { es: "Gente, bora pra praia no sábado?", en: "Guys, shall we go to the beach on Saturday?" },
           { es: "Que tal um churrasco lá em casa no domingo?", en: "How about a barbecue at my place on Sunday?" },
-          { es: "Alguém topa uma trilha no fim de semana?", en: "Is anyone up for a hike at the weekend?" },
+          { es: "Alguém topa uma trilha no fim de semana?", en: "Is anyone up for a hike on the weekend?" },
           { es: "Galera, cês tão livres sexta à noite?", en: "Guys, are you free Friday night?" },
           { es: "Tô pensando em alugar uma casa em Ilhabela. Quem vem?", en: "I'm thinking of renting a house in Ilhabela. Who's coming?" },
           { es: "Vai ter show no Ibirapuera. Bora?", en: "There's a concert at Ibirapuera. Shall we go?" },
@@ -1965,7 +1965,7 @@ export const PT_B1_U17: Lesson[] = [
           { es: "Tipo umas oito? Aí dá tempo de pegar a estrada cedo.", en: "Around eight? That way we can hit the road early." },
           { es: "A gente se encontra onde?", en: "Where are we meeting?" },
           { es: "Eu levo a carne. Alguém leva o carvão?", en: "I'll bring the meat. Can someone bring the charcoal?" },
-          { es: "Caso chova, a gente vê um filme lá em casa.", en: "If it rains, we'll watch a film at my place." },
+          { es: "Caso chova, a gente vê um filme lá em casa.", en: "If it rains, we'll watch a movie at my place." },
           { es: "Então fica assim: sábado, nove horas, na rodoviária.", en: "So here's the plan: Saturday, nine o'clock, at the bus station." },
         ],
         checkpoint: [
@@ -1981,7 +1981,7 @@ export const PT_B1_U17: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[If] it rains, we'll watch a film.",
+            en: "[If] it rains, we'll watch a movie.",
             sentence: "___ chova, a gente vê um filme.",
             answer: "Caso",
             explanation: "\"Caso\" takes the subjunctive: \"caso chova\". With \"se\" the verb would change (\"se chover\"), so \"chova\" calls for \"caso\".",
@@ -2119,7 +2119,7 @@ export const PT_B1_U17: Lesson[] = [
           { es: "Tomara que não chova no sábado, né?", en: "Let's hope it doesn't rain on Saturday, right?" },
           { es: "Espero que esteja tudo bem por aí.", en: "I hope everything's OK where you are." },
           { es: "Eu ia adorar, mas tô sem grana.", en: "I'd love to, but I'm broke." },
-          { es: "Cê podia me dar uma carona?", en: "Could you give me a lift?" },
+          { es: "Cê podia me dar uma carona?", en: "Could you give me a ride?" },
           { es: "Se eu fosse você, eu falava com ela.", en: "If I were you, I'd talk to her." },
         ],
         checkpoint: [
@@ -2134,7 +2134,7 @@ export const PT_B1_U17: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your friend has been ill. You send a message. Which one is correct?",
+            question: "Your friend has been sick. You send a message. Which one is correct?",
             options: ["Espero que esteja tudo bem com você!", "Espero que tá tudo bem com você!", "Espero que está tudo bem com você!", "Espero que estar tudo bem com você!"],
             correctIndex: 0,
             explanation: "\"Espero que\" about someone else needs the subjunctive \"esteja\". \"Tá\" is only a short form of the indicative \"está\", so it can't stand in for \"esteja\".",
@@ -2142,7 +2142,7 @@ export const PT_B1_U17: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[Could you] give me a lift? (to a friend)",
+            en: "[Could you] give me a ride? (to a friend)",
             sentence: "___ me dar uma carona?",
             answer: "Cê podia",
             altAnswers: ["Você podia", "Você poderia", "Cê poderia", "Você pode", "Cê pode"],
@@ -2340,7 +2340,7 @@ export const PT_B1_U17: Lesson[] = [
 
 export const PT_B1_U17_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You're organising a churrasco at your place on Saturday and you're writing to your friends' WhatsApp group. Write a few chat messages in natural spoken Brazilian Portuguese. Say when it starts, who brings what, pass on some news about who's coming, explain how to get there, and say what happens if it rains. Keep it casual: this is a group chat, not an email.",
+  prompt: "You're organizing a churrasco at your place on Saturday and you're writing to your friends' WhatsApp group. Write a few chat messages in natural spoken Brazilian Portuguese. Say when it starts, who brings what, pass on some news about who's coming, explain how to get there, and say what happens if it rains. Keep it casual: this is a group chat, not an email.",
   minWords: 80,
   maxWords: 130,
   rubric: [

@@ -8,19 +8,19 @@ export const PT_C2_U13: Lesson[] = [
     level: "PT-C2",
     number: 1,
     title: "A Carta de Caminha",
-    summary: "Read Pero Vaz de Caminha's letter of 1500 in modernised and original spelling: its formulas, its older syntax, its wonder and its colonial gaze.",
+    summary: "Read Pero Vaz de Caminha's letter of 1500 in modernized and original spelling: its formulas, its older syntax, its wonder and its colonial gaze.",
     duration: "18 min",
     kind: "teach",
     sections: [
       {
         heading: "The letter and its formulas",
         body: [
-          "On 1 May 1500, at Porto Seguro, Pero Vaz de Caminha, the scribe of Pedro Álvares Cabral's fleet, finished a long letter to King Manuel I. It lay in the Torre do Tombo in Lisbon until 1817, when Padre Manuel Aires de Casal first printed it. Brazilians call it the \"certidão de nascimento do Brasil\", but read it as what it is: a report to a king about \"o achamento desta vossa terra nova\". Caminha says \"achamento\" (the finding), not \"descobrimento\", and the land belongs to the king before the first page ends.",
+          "On May 1, 1500, at Porto Seguro, Pero Vaz de Caminha, the scribe of Pedro Álvares Cabral's fleet, finished a long letter to King Manuel I. It lay in the Torre do Tombo in Lisbon until 1817, when Padre Manuel Aires de Casal first printed it. Brazilians call it the \"certidão de nascimento do Brasil\", but read it as what it is: a report to a king about \"o achamento desta vossa terra nova\". Caminha says \"achamento\" (the finding), not \"descobrimento\", and the land belongs to the king before the first page ends.",
           "The opening is pure court formula: \"Senhor, posto que o Capitão-mor desta vossa frota, e assim os outros capitães escrevam a Vossa Alteza a notícia do achamento...\". Note \"posto que\": here it means although, and the subjunctive \"escrevam\" proves it. Today's norm keeps that concessive meaning, but many Brazilians use \"posto que\" as since or because, which grammarians condemn. Caminha shows you the original sense.",
           "\"Vossa Alteza\" is a title, not a pronoun, and takes the third person, just like \"Vossa Excelência\" today.",
         ],
         examples: [
-          { es: "Caminha escreveu a carta em Porto Seguro, no dia 1º de maio de 1500.", en: "Caminha wrote the letter at Porto Seguro on 1 May 1500." },
+          { es: "Caminha escreveu a carta em Porto Seguro, no dia 1º de maio de 1500.", en: "Caminha wrote the letter at Porto Seguro on May 1, 1500." },
           { es: "A carta ficou guardada na Torre do Tombo por mais de três séculos.", en: "The letter was kept in the Torre do Tombo for more than three centuries." },
           { es: "Caminha fala em achamento, e não em descobrimento.", en: "Caminha speaks of a finding, not a discovery." },
           { es: "Posto que o capitão escrevesse ao rei, Caminha também quis dar sua notícia.", en: "Although the captain was writing to the king, Caminha also wanted to give his own account." },
@@ -48,8 +48,8 @@ export const PT_C2_U13: Lesson[] = [
       {
         heading: "Reading Caminha's syntax",
         body: [
-          "The famous sighting reads, in modernised spelling: \"Neste mesmo dia, a horas de véspera, houvemos vista de terra! Primeiramente dum grande monte, mui alto e redondo [...] ao qual monte alto o capitão pôs nome — o Monte Pascoal e à terra — a Terra da Vera Cruz!\" Four things to decode. \"Houvemos vista de\" uses \"haver\" in its old sense of to have or obtain: we caught sight of. \"Mui\" is the old short form of \"muito\" before an adjective. \"A horas de véspera\" is the hour of vespers, late afternoon. And \"ao qual monte\" repeats the noun after the relative, a Latinate habit modern prose drops (\"ao qual\" alone is enough).",
-          "Pronouns sit where modern Brazilians would never put them: \"parece-me\" opens a clause, and \"dar-se-á nela tudo\" uses mesóclise, the pronoun inside the future. Read these as you read Machado; when you modernise, move them before the verb: \"me parece\", \"tudo vai dar nela\".",
+          "The famous sighting reads, in modernized spelling: \"Neste mesmo dia, a horas de véspera, houvemos vista de terra! Primeiramente dum grande monte, mui alto e redondo [...] ao qual monte alto o capitão pôs nome — o Monte Pascoal e à terra — a Terra da Vera Cruz!\" Four things to decode. \"Houvemos vista de\" uses \"haver\" in its old sense of to have or obtain: we caught sight of. \"Mui\" is the old short form of \"muito\" before an adjective. \"A horas de véspera\" is the hour of vespers, late afternoon. And \"ao qual monte\" repeats the noun after the relative, a Latinate habit modern prose drops (\"ao qual\" alone is enough).",
+          "Pronouns sit where modern Brazilians would never put them: \"parece-me\" opens a clause, and \"dar-se-á nela tudo\" uses mesóclise, the pronoun inside the future. Read these as you read Machado; when you modernize, move them before the verb: \"me parece\", \"tudo vai dar nela\".",
         ],
         examples: [
           { es: "Neste mesmo dia, a horas de véspera, houvemos vista de terra!", en: "That same day, at the hour of vespers, we sighted land!" },
@@ -81,7 +81,7 @@ export const PT_C2_U13: Lesson[] = [
             type: "speak",
             text: "Neste mesmo dia, a horas de véspera, houvemos vista de terra!",
             tip: "The h in \"houvemos\" is silent, and \"véspera\" has an open é, stressed on the first syllable.",
-            explanation: "The sighting of Monte Pascoal on 22 April 1500, as Caminha tells it.",
+            explanation: "The sighting of Monte Pascoal on April 22, 1500, as Caminha tells it.",
           },
         ],
       },
@@ -95,7 +95,7 @@ export const PT_C2_U13: Lesson[] = [
           { es: "A feição deles é serem pardos, maneira de avermelhados, de bons rostos e bons narizes.", en: "Their appearance is brownish, a kind of reddish, with good faces and good noses." },
           { es: "Andam nus, sem cobertura alguma.", en: "They go about naked, with no covering at all." },
           { es: "Porém o melhor fruto que dela se pode tirar parece-me que será salvar esta gente.", en: "But the best fruit to be drawn from it, it seems to me, will be to save these people." },
-          { es: "A descrição revela fascínio, mas também o olhar do colonizador.", en: "The description shows fascination, but also the coloniser's gaze." },
+          { es: "A descrição revela fascínio, mas também o olhar do colonizador.", en: "The description shows fascination, but also the colonizer's gaze." },
           { es: "A frase \"em se plantando, tudo dá\" não aparece na carta.", en: "The phrase 'plant anything and it grows' doesn't appear in the letter." },
         ],
         checkpoint: [
@@ -103,7 +103,7 @@ export const PT_C2_U13: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The description reveals fascination, but also the coloniser's gaze.",
+            source: "The description reveals fascination, but also the colonizer's gaze.",
             answer: "A descrição revela fascínio, mas também o olhar do colonizador.",
             altAnswers: ["A descrição revela fascínio, mas também o olhar colonizador.", "A descrição revela fascinação, mas também o olhar do colonizador.", "A descrição mostra fascínio, mas também o olhar do colonizador.", "A descrição revela encantamento, mas também o olhar do colonizador."],
             explanation: "\"O olhar do colonizador\" is the standard phrase for the colonial gaze. \"Revelar\" is the verb of choice for what a source shows.",
@@ -121,7 +121,7 @@ export const PT_C2_U13: Lesson[] = [
         heading: "The original spelling",
         body: [
           "The manuscript opens: \"Senhor posto que o capitam moor desta vossa frota e asy os outros capitaães screpuam a vossa alteza a noua do achamento desta vossa terra noua\". Sixteenth-century scribes wrote u for v (\"noua\", \"nauegaçam\"), -am for the nasal -ão (\"capitam\"), doubled vowels for length or nasality (\"moor\", \"capitaães\"), y for i (\"asy\"), and spelled freely: one word can appear three ways on a page.",
-          "Read it aloud and most of it clicks: \"screpuam\" is \"escrevam\", \"noua\" is \"nova\" (news). Every modern edition chooses between a \"transcrição diplomática\", which keeps the original letters, and a \"versão atualizada\", which modernises the spelling. Always say which one you quote.",
+          "Read it aloud and most of it clicks: \"screpuam\" is \"escrevam\", \"noua\" is \"nova\" (news). Every modern edition chooses between a \"transcrição diplomática\", which keeps the original letters, and a \"versão atualizada\", which modernizes the spelling. Always say which one you quote.",
         ],
         examples: [
           { es: "No manuscrito, nova aparece escrito com u: noua.", en: "In the manuscript, nova is written with a u: noua." },
@@ -137,7 +137,7 @@ export const PT_C2_U13: Lesson[] = [
             source: "the news of the finding",
             answer: "a nova do achamento",
             altAnswers: ["a notícia do achamento", "a nova do descobrimento", "a notícia do descobrimento"],
-            explanation: "\"Noua\" is \"nova\" with u for v; here \"nova\" is a noun, news, as in \"boas-novas\". A modernised edition may also print \"notícia\".",
+            explanation: "\"Noua\" is \"nova\" with u for v; here \"nova\" is a noun, news, as in \"boas-novas\". A modernized edition may also print \"notícia\".",
           },
           {
             type: "fill-blank",
@@ -145,7 +145,7 @@ export const PT_C2_U13: Lesson[] = [
             en: "This edition gives the [diplomatic transcription] and the updated version.",
             sentence: "Esta edição traz a ___ e a versão atualizada.",
             answer: "transcrição diplomática",
-            explanation: "A \"transcrição diplomática\" reproduces the manuscript's letters exactly; the \"versão atualizada\" modernises them.",
+            explanation: "A \"transcrição diplomática\" reproduces the manuscript's letters exactly; the \"versão atualizada\" modernizes them.",
           },
         ],
       },
@@ -233,7 +233,7 @@ export const PT_C2_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You quote \"A feição deles é serem pardos\" from a modernised edition in an essay. What should your footnote say?",
+        question: "You quote \"A feição deles é serem pardos\" from a modernized edition in an essay. What should your footnote say?",
         options: ["That you quote the letter in updated spelling (grafia atualizada).", "That you corrected Caminha's grammar.", "That the word \"serem\" is a printing error.", "Nothing: all editions print exactly the same text."],
         correctIndex: 0,
         explanation: "Editions differ, so say \"grafia atualizada\" or \"transcrição diplomática\". The inflected infinitive \"serem\" is correct Portuguese, then and now.",
@@ -254,11 +254,11 @@ export const PT_C2_U13: Lesson[] = [
         body: [
           "Until the 1940s Brazilian printers followed an etymological spelling: words were written to show their Greek or Latin ancestry, not their sound. So \"pharmacia\" (farmácia), \"theatro\" (teatro), \"photographia\" (fotografia), \"estylo\" (estilo), \"chimica\" (química), \"chronica\" (crônica), \"commercio\" (comércio), \"anno\" (ano), \"elle\" and \"aquella\" (ele, aquela), \"sciencia\" (ciência). The letters ph, th, ch (for a k sound), y and doubled consonants are the giveaways.",
           "Other old spellings follow no etymology at all, just habit: \"assucar\" (açúcar), \"portuguez\" and \"inglez\" with z, \"mez\" (mês), \"hontem\" (ontem). And the country itself: \"Brazil\" with z appears on stamps, coins and the 1891 Constitution of the \"Estados Unidos do Brazil\". \"Brasil\" with s won officially only in the twentieth century; English kept the z.",
-          "The trap for English speakers is that many of these look normal to you: \"theatre\", \"pharmacy\", \"style\" still have th, ph and y in English. In Portuguese they are museum pieces. Never write them in your own prose.",
+          "The trap for English speakers is that many of these look normal to you: \"theater\", \"pharmacy\", \"style\" still have th, ph and y in English. In Portuguese they are museum pieces. Never write them in your own prose.",
         ],
         examples: [
-          { es: "Na esquina havia uma pharmacia com vitrine de vidro.", en: "On the corner there was a chemist's with a glass shop window. (old spelling)" },
-          { es: "O Theatro Municipal do Rio foi inaugurado em 1909.", en: "Rio's Municipal Theatre opened in 1909." },
+          { es: "Na esquina havia uma pharmacia com vitrine de vidro.", en: "On the corner there was a pharmacy with a glass shop window. (old spelling)" },
+          { es: "O Theatro Municipal do Rio foi inaugurado em 1909.", en: "Rio's Municipal Theater opened in 1909." },
           { es: "O preço do assucar subiu este anno.", en: "The price of sugar went up this year. (old spelling)" },
           { es: "A Constituição de 1891 fala nos Estados Unidos do Brazil.", en: "The 1891 Constitution speaks of the United States of Brazil." },
           { es: "Em grafia atual, chimica se escreve química.", en: "In today's spelling, chimica is written química." },
@@ -323,7 +323,7 @@ export const PT_C2_U13: Lesson[] = [
         heading: "Reading old print today",
         body: [
           "Old spellings survive where tradition protects them. Institutions keep their founding names: the Theatro Municipal, the Jornal do Commercio. The law lets people keep the spelling of their own names, which is why you meet Ruy, Luiz, Thereza and Cecília with old letters, and the state of Bahia keeps its h. Don't \"correct\" a proper name.",
-          "When you quote a pre-reform text, choose and say: \"mantida a grafia original\" or \"grafia atualizada\". Don't mix the two in one quotation. A modernised text should change spelling only: keep the vocabulary and the word order, or you are no longer quoting.",
+          "When you quote a pre-reform text, choose and say: \"mantida a grafia original\" or \"grafia atualizada\". Don't mix the two in one quotation. A modernized text should change spelling only: keep the vocabulary and the word order, or you are no longer quoting.",
           "Spelling also dates a document. Ph and th point to before the 1940s; \"êle\" and \"sôbre\" to 1943-1971; \"idéia\" and \"freqüente\" to before 2009. Archivists use these clues alongside paper, ink and typeface.",
         ],
         examples: [
@@ -345,8 +345,8 @@ export const PT_C2_U13: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "An editor modernising a 1920 article changes \"Ruy Barbosa\" to \"Rui Barbosa\" and \"pharmacia\" to \"farmácia\". What do you say?",
-            options: ["\"Farmácia\" is fine, but a person's name can keep its original spelling.", "Both changes are compulsory under the Acordo.", "Neither change is allowed in a modernised edition.", "\"Farmácia\" is wrong: it should be \"pharmácia\"."],
+            question: "An editor modernizing a 1920 article changes \"Ruy Barbosa\" to \"Rui Barbosa\" and \"pharmacia\" to \"farmácia\". What do you say?",
+            options: ["\"Farmácia\" is fine, but a person's name can keep its original spelling.", "Both changes are compulsory under the Acordo.", "Neither change is allowed in a modernized edition.", "\"Farmácia\" is wrong: it should be \"pharmácia\"."],
             correctIndex: 0,
             explanation: "Updating common words is the point of a \"grafia atualizada\". Names are a choice: many editions write \"Rui Barbosa\", but you can't call the old spelling an error.",
           },
@@ -372,7 +372,7 @@ export const PT_C2_U13: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Rewrite in modern spelling: \"A photographia do theatro saiu no jornal.\"",
-        source: "The photograph of the theatre came out in the newspaper.",
+        source: "The photograph of the theater came out in the newspaper.",
         answer: "A fotografia do teatro saiu no jornal.",
         altAnswers: ["A foto do teatro saiu no jornal."],
         explanation: "Ph becomes f and th becomes t: \"fotografia\", \"teatro\". The pronunciation never changed.",
@@ -470,11 +470,11 @@ export const PT_C2_U13: Lesson[] = [
         body: [
           "\"Vós\" is the old second-person plural, and in older formal texts it also addresses one person of rank, God or a whole people. Its verb forms end in -is: \"vós sois\", \"tendes\", \"fazeis\", \"fostes\", \"sereis\"; the imperative drops the s: \"ouvi\", \"vinde\", \"sabei\". The object pronoun is \"vos\", the possessive \"vosso\", and \"com vós\" fuses into \"convosco\". Spoken Brazilian lost all of this centuries ago, and you should never write it yourself.",
           "But every Brazilian still knows it from prayer. The \"Pai-Nosso\" goes \"Pai nosso, que estais nos céus, santificado seja o vosso nome, venha a nós o vosso reino\", and the \"Ave-Maria\" says \"o Senhor é convosco\". Read \"estais\" as \"está\" (it agrees with \"Pai\" addressed as vós), and the rest falls into place.",
-          "In sermons the preacher speaks to his congregation as \"vós\", and that is how Padre Antônio Vieira opens his \"Sermão de Santo Antônio aos Peixes\" (São Luís, 1654): \"Vós, diz Cristo, Senhor nosso, falando com os pregadores, sois o sal da terra\". To modernise, turn \"vós\" into \"vocês\" and the -is forms into third-person plurals: \"vocês são o sal da terra\".",
+          "In sermons the preacher speaks to his congregation as \"vós\", and that is how Padre Antônio Vieira opens his \"Sermão de Santo Antônio aos Peixes\" (São Luís, 1654): \"Vós, diz Cristo, Senhor nosso, falando com os pregadores, sois o sal da terra\". To modernize, turn \"vós\" into \"vocês\" and the -is forms into third-person plurals: \"vocês são o sal da terra\".",
         ],
         examples: [
           { es: "Na oração, estais corresponde ao nosso está.", en: "In the prayer, estais corresponds to our está." },
-          { es: "Vocês são o sal da terra, diz Cristo aos pregadores.", en: "'You are the salt of the earth,' Christ tells the preachers. (modernised)" },
+          { es: "Vocês são o sal da terra, diz Cristo aos pregadores.", en: "'You are the salt of the earth,' Christ tells the preachers. (modernized)" },
           { es: "O sermão foi pregado em São Luís do Maranhão em 1654.", en: "The sermon was preached in São Luís do Maranhão in 1654." },
           { es: "Convosco era a forma antiga de com vocês.", en: "Convosco was the old form of com vocês." },
         ],
@@ -482,7 +482,7 @@ export const PT_C2_U13: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Modernise into everyday Brazilian Portuguese: \"Vós sois o sal da terra.\"",
+            prompt: "Modernize into everyday Brazilian Portuguese: \"Vós sois o sal da terra.\"",
             source: "You are the salt of the earth.",
             answer: "Vocês são o sal da terra.",
             explanation: "\"Vós sois\" becomes \"vocês são\": \"vocês\" always takes the third-person plural verb.",
@@ -501,7 +501,7 @@ export const PT_C2_U13: Lesson[] = [
         body: [
           "Older and literary texts use the simple pluperfect, formed from the third-person plural preterite minus -ram plus -ra: \"chegaram\" gives \"chegara\", \"disseram\" gives \"dissera\", \"foram\" gives \"fora\". It means exactly the compound \"tinha chegado\", \"tinha dito\", \"tinha sido\". The trap: \"fora\" also means outside, and \"chegara\" looks like a future or a conditional to English eyes. Context decides.",
           "Speech keeps a few fossils of this tense: \"Quem me dera!\" (if only!), \"Pudera!\" (no wonder!), \"Tomara que...\" (I hope that...). In older prose it can even replace the conditional or the past subjunctive: \"se eu pudera\" = \"se eu pudesse\".",
-          "\"Haver de\" + infinitive expresses determination or certainty: \"hei de vencer\" (I shall win), \"há de ser\" (it must be, it will surely be). Brazilian speech still uses it, especially in the third person, but older texts use it everywhere a modern writer puts \"vou\" or \"vai\". Write \"hei de\" without a hyphen: the Acordo removed it.",
+          "\"Haver de\" + infinitive expresses determination or certainty: \"hei de vencer\" (I shall win), \"há de ser\" (it must be, it will surely be). Brazilian speech still uses it, especially in the third person, but older texts use it everywhere a modern writer puts \"vou\" or \"vai\". Write \"hei de\" without a hyphen: Brazilian spelling has never used one, and the Acordo dropped it in Portugal too.",
         ],
         examples: [
           { es: "Quando o rei chegou, o navio já partira.", en: "When the king arrived, the ship had already left." },
@@ -515,7 +515,7 @@ export const PT_C2_U13: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Modernise with the compound pluperfect: \"O navio já partira.\"",
+            prompt: "Modernize with the compound pluperfect: \"O navio já partira.\"",
             source: "The ship had already left.",
             answer: "O navio já tinha partido.",
             altAnswers: ["O navio já havia partido."],
@@ -544,20 +544,20 @@ export const PT_C2_U13: Lesson[] = [
         heading: "Cousa, mui, assaz: archaic words and Vieira's syntax",
         body: [
           "A short glossary covers most older texts: \"cousa\" (coisa), \"mui\" (muito, before an adjective), \"assaz\" (bastante, enough), \"mister\" (necessidade: \"é mister\" = it is necessary), \"outrossim\" (also, furthermore), \"destarte\" (thus), \"porquanto\" (since, because), and \"Vossa Mercê\" (Your Grace), which wore down through \"vossemecê\" and \"vosmecê\" into \"você\".",
-          "Vieira's syntax is Baroque: long, balanced sentences built on antithesis and repetition. One famous line: \"Ou é porque o sal não salga, ou porque a terra se não deixa salgar.\" Note \"se não deixa\": classical Portuguese placed the pronoun before \"não\", where today we say \"não se deixa\". Modernise the order, keep the parallelism.",
+          "Vieira's syntax is Baroque: long, balanced sentences built on antithesis and repetition. One famous line: \"Ou é porque o sal não salga, ou porque a terra se não deixa salgar.\" Note \"se não deixa\": classical Portuguese placed the pronoun before \"não\", where today we say \"não se deixa\". Modernize the order, keep the parallelism.",
         ],
         examples: [
           { es: "É cousa mui rara achar um sermão inteiro.", en: "It's a very rare thing to find a whole sermon. (archaic)" },
           { es: "É mister que se cumpra a lei.", en: "It is necessary that the law be obeyed. (archaic)" },
           { es: "Ou é porque o sal não salga, ou porque a terra se não deixa salgar.", en: "Either it is because the salt does not salt, or because the earth does not let itself be salted. (Vieira)" },
-          { es: "Ou o sal não salga, ou a terra não se deixa salgar.", en: "Either the salt doesn't salt, or the earth won't let itself be salted. (modernised)" },
+          { es: "Ou o sal não salga, ou a terra não se deixa salgar.", en: "Either the salt doesn't salt, or the earth won't let itself be salted. (modernized)" },
           { es: "Você vem de vosmecê, que era uma forma de tratamento respeitosa.", en: "Você comes from vosmecê, which was a respectful form of address." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Modernise: \"É cousa mui rara.\"",
+            prompt: "Modernize: \"É cousa mui rara.\"",
             source: "It's a very rare thing.",
             answer: "É uma coisa muito rara.",
             altAnswers: ["É coisa muito rara.", "É muito raro.", "É uma coisa raríssima.", "É coisa raríssima."],
@@ -566,7 +566,7 @@ export const PT_C2_U13: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Modernise the word order: \"a terra se não deixa salgar\".",
+            prompt: "Modernize the word order: \"a terra se não deixa salgar\".",
             source: "The earth won't let itself be salted.",
             answer: "A terra não se deixa salgar.",
             explanation: "Classical Portuguese put the pronoun before \"não\". Today \"não\" comes first and attracts the pronoun: \"não se deixa\".",
@@ -584,7 +584,7 @@ export const PT_C2_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Modernise into everyday Brazilian Portuguese: \"Vinde e vede.\"",
+        prompt: "Modernize into everyday Brazilian Portuguese: \"Vinde e vede.\"",
         source: "Come and see.",
         answer: "Venham e vejam.",
         altAnswers: ["Venham ver.", "Venham e vejam vocês mesmos."],
@@ -593,7 +593,7 @@ export const PT_C2_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Modernise with the compound pluperfect: \"Ele dissera que voltaria.\"",
+        prompt: "Modernize with the compound pluperfect: \"Ele dissera que voltaria.\"",
         source: "He had said he would come back.",
         answer: "Ele tinha dito que voltaria.",
         altAnswers: ["Ele havia dito que voltaria.", "Ele tinha dito que ia voltar.", "Ele havia dito que ia voltar."],
@@ -620,7 +620,7 @@ export const PT_C2_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Modernise: \"É mister que se cumpra a lei.\"",
+        prompt: "Modernize: \"É mister que se cumpra a lei.\"",
         source: "It is necessary that the law be obeyed.",
         answer: "É preciso que se cumpra a lei.",
         altAnswers: ["É necessário que se cumpra a lei.", "É preciso que a lei seja cumprida.", "É necessário que a lei seja cumprida.", "É preciso cumprir a lei.", "É necessário cumprir a lei."],
@@ -652,12 +652,12 @@ export const PT_C2_U13: Lesson[] = [
       {
         type: "dictation",
         audio: "Hei de voltar a São Luís.",
-        explanation: "\"Hei de\" has no hyphen since the Acordo. The resolve in it is close to English I shall.",
+        explanation: "\"Hei de\" is written without a hyphen in Brazil. The resolve in it is close to English I shall.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Modernise: \"Outrossim, Sua Majestade manda que se guarde a lei.\"",
+        prompt: "Modernize: \"Outrossim, Sua Majestade manda que se guarde a lei.\"",
         source: "Furthermore, His Majesty orders the law to be kept.",
         answer: "Além disso, o rei manda que se cumpra a lei.",
         altAnswers: ["Além disso, Sua Majestade manda que se cumpra a lei.", "Além disso, o rei manda que se guarde a lei.", "Além disso, o rei ordena que se cumpra a lei.", "Além disso, o rei ordena que a lei seja cumprida.", "Além disso, o rei manda cumprir a lei.", "Além disso, o rei determina que se cumpra a lei."],
@@ -680,7 +680,7 @@ export const PT_C2_U13: Lesson[] = [
           { left: "destarte", right: "thus (assim)" },
           { left: "porquanto", right: "since (porque)" },
         ],
-        explanation: "These words still appear in legal Portuguese and old-fashioned journalism, but in a modernised text they become \"coisa\", \"bastante\", \"além disso\", \"assim\" and \"porque\".",
+        explanation: "These words still appear in legal Portuguese and old-fashioned journalism, but in a modernized text they become \"coisa\", \"bastante\", \"além disso\", \"assim\" and \"porque\".",
       },
     ],
   },
@@ -696,14 +696,14 @@ export const PT_C2_U13: Lesson[] = [
       {
         heading: "The Lei Áurea: words that act",
         body: [
-          "On 13 May 1888 Princesa Isabel, as regent, signed Lei nº 3.353. Its \"ementa\" (the summary under the number) reads \"Declara extinta a escravidão no Brasil\", and the whole operative text is two articles: \"Art. 1º É declarada extinta desde a data desta lei a escravidão no Brasil. Art. 2º Revogam-se as disposições em contrário.\" In the original spelling: \"extincta\", \"Brazil\", \"contrario\".",
+          "On May 13, 1888 Princesa Isabel, as regent, signed Lei nº 3.353. Its \"ementa\" (the summary under the number) reads \"Declara extinta a escravidão no Brasil\", and the whole operative text is two articles: \"Art. 1º É declarada extinta desde a data desta lei a escravidão no Brasil. Art. 2º Revogam-se as disposições em contrário.\" In the original spelling: \"extincta\", \"Brazil\", \"contrario\".",
           "This is a performative: the law does what it says by saying it, so it uses the present, not the future. \"É declarada extinta\" does not report that slavery has ended; the sentence ends it. \"Revogam-se as disposições em contrário\" (all provisions to the contrary are revoked) is a passive with \"se\", and the verb agrees with its plural subject: \"revogam-se\", never \"revoga-se as disposições\".",
           "Read the silence too. The law freed about 700,000 people and offered them no land, no schooling and no compensation, while slaveholders had lobbied for compensation for themselves. Historians read the Lei Áurea as the end of a long struggle, by the enslaved, the quilombos and the abolitionists, more than as a gift from the throne.",
         ],
         examples: [
           { es: "É declarada extinta desde a data desta lei a escravidão no Brasil.", en: "Slavery in Brazil is declared extinct from the date of this law." },
           { es: "Revogam-se as disposições em contrário.", en: "All provisions to the contrary are revoked." },
-          { es: "A Lei Áurea foi assinada pela Princesa Isabel em 13 de maio de 1888.", en: "The Lei Áurea was signed by Princess Isabel on 13 May 1888." },
+          { es: "A Lei Áurea foi assinada pela Princesa Isabel em 13 de maio de 1888.", en: "The Lei Áurea was signed by Princess Isabel on May 13, 1888." },
           { es: "A lei não previu nenhuma forma de integração dos libertos.", en: "The law made no provision for integrating the freed people." },
           { es: "A abolição foi fruto de décadas de luta, e não apenas de um gesto da Coroa.", en: "Abolition was the fruit of decades of struggle, not just a gesture by the Crown." },
         ],
@@ -729,7 +729,7 @@ export const PT_C2_U13: Lesson[] = [
       {
         heading: "Fica proclamada: the decree of the Republic",
         body: [
-          "Decreto nº 1 of 15 November 1889 begins: \"Fica proclamada provisoriamente e decretada como a forma de governo da nação brasileira a República Federativa.\" \"Ficar\" + participle is the other great formula of power: from this moment on, X is. Brazilian law still uses it constantly: \"fica instituído\", \"fica proibida\", \"ficam criados\".",
+          "Decreto nº 1 of November 15, 1889 begins: \"Fica proclamada provisoriamente e decretada como a forma de governo da nação brasileira a República Federativa.\" \"Ficar\" + participle is the other great formula of power: from this moment on, X is. Brazilian law still uses it constantly: \"fica instituído\", \"fica proibida\", \"ficam criados\".",
           "The subject comes at the end, so check agreement carefully: the participle agrees with it, not with whatever stands nearest. \"Fica proibida a venda\", \"Ficam extintos os cargos\", \"Fica instituído o Dia Nacional\". English speakers, used to the subject first, tend to leave \"fica\" in the singular before a plural subject.",
         ],
         examples: [
@@ -769,8 +769,8 @@ export const PT_C2_U13: Lesson[] = [
       {
         heading: "The AI-5: legal language for repression",
         body: [
-          "The Ato Institucional nº 5, of 13 December 1968, gave the military president powers above the Constitution. Its articles use the same calm formulas. \"O Presidente da República poderá decretar o recesso do Congresso Nacional\": \"poderá\", the legal future, grants a power, and \"recesso\" (recess) is a euphemism for closing Congress. Art. 10 reads \"Fica suspensa a garantia de habeas corpus, nos casos de crimes políticos\". The act ends: \"O presente Ato Institucional entra em vigor nesta data, revogadas as disposições em contrário.\"",
-          "Note that last clause: \"revogadas as disposições em contrário\" is a participial clause, the concise legal cousin of \"revogam-se\". Critical reading means translating such formulas into their effects: censorship, suspended rights, arrests without habeas corpus. The AI-5 was revoked only from 1 January 1979.",
+          "The Ato Institucional nº 5, of December 13, 1968, gave the military president powers above the Constitution. Its articles use the same calm formulas. \"O Presidente da República poderá decretar o recesso do Congresso Nacional\": \"poderá\", the legal future, grants a power, and \"recesso\" (recess) is a euphemism for closing Congress. Art. 10 reads \"Fica suspensa a garantia de habeas corpus, nos casos de crimes políticos\". The act ends: \"O presente Ato Institucional entra em vigor nesta data, revogadas as disposições em contrário.\"",
+          "Note that last clause: \"revogadas as disposições em contrário\" is a participial clause, the concise legal cousin of \"revogam-se\". Critical reading means translating such formulas into their effects: censorship, suspended rights, arrests without habeas corpus. The AI-5 was revoked only from January 1, 1979.",
           "Today's laws open with \"Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei\" and close with \"Esta Lei entra em vigor na data de sua publicação\". Since Lei Complementar nº 95 of 1998, a law must list exactly what it revokes, so the vague \"revogam-se as disposições em contrário\" is now considered bad drafting.",
         ],
         examples: [
@@ -788,12 +788,12 @@ export const PT_C2_U13: Lesson[] = [
             source: "This Law comes into force on the date of its publication.",
             answer: "Esta Lei entra em vigor na data de sua publicação.",
             altAnswers: ["Esta lei entra em vigor na data de sua publicação.", "Esta Lei entra em vigor na data da sua publicação.", "Esta lei entra em vigor na data da sua publicação."],
-            explanation: "\"Entrar em vigor\" = to come into force. Legal texts say \"esta Lei\", capitalised, and use the present: the law speaks at the moment it acts.",
+            explanation: "\"Entrar em vigor\" = to come into force. Legal texts say \"esta Lei\", capitalized, and use the present: the law speaks at the moment it acts.",
           },
           {
             type: "multiple-choice",
             question: "In the AI-5, the president \"poderá decretar o recesso do Congresso Nacional\". What does the formula actually do?",
-            options: ["It gives the president the power to shut Congress whenever he chooses.", "It schedules Congress's annual holiday.", "It predicts that Congress will probably close.", "It asks Congress to vote on its own recess."],
+            options: ["It gives the president the power to shut Congress whenever he chooses.", "It schedules Congress's annual break.", "It predicts that Congress will probably close.", "It asks Congress to vote on its own recess."],
             correctIndex: 0,
             explanation: "\"Poderá\" grants a power, and \"recesso\" softens what it means: Congress was closed the same day the act was issued.",
           },
@@ -873,7 +873,7 @@ export const PT_C2_U13: Lesson[] = [
       {
         type: "dictation",
         audio: "Fica instituído o Dia Nacional da Consciência Negra.",
-        explanation: "\"Fica instituído\" agrees with \"o Dia Nacional\". The day is 20 November, the date of Zumbi dos Palmares's death.",
+        explanation: "\"Fica instituído\" agrees with \"o Dia Nacional\". The day is November 20, the date of Zumbi dos Palmares's death.",
       },
       {
         type: "speak",
@@ -903,22 +903,22 @@ export const PT_C2_U13: Lesson[] = [
       {
         heading: "The carta-testamento: a death as a speech",
         body: [
-          "In the early hours of 24 August 1954, under pressure from the military to resign, President Getúlio Vargas shot himself in the Palácio do Catete in Rio. He left a text, the \"carta-testamento\", read on the radio that morning. It is written to be heard: \"Lutei contra a espoliação do Brasil. Lutei contra a espoliação do povo.\" The anaphora (\"Lutei contra...\") turns a political career into a list of battles.",
+          "In the early hours of August 24, 1954, under pressure from the military to resign, President Getúlio Vargas shot himself in the Palácio do Catete in Rio. He left a text, the \"carta-testamento\", read on the radio that morning. It is written to be heard: \"Lutei contra a espoliação do Brasil. Lutei contra a espoliação do povo.\" The anaphora (\"Lutei contra...\") turns a political career into a list of battles.",
           "It addresses the people as \"vós\", the voice of sermons and proclamations: \"Eu vos dei a minha vida. Agora vos ofereço a minha morte. Nada receio.\" The antithesis of \"vida\" and \"morte\" and the short final sentence carry the weight; \"nada receio\", with the object first, sounds biblical. The text ends: \"Serenamente dou o primeiro passo no caminho da eternidade e saio da vida para entrar na História.\"",
-          "When you modernise, \"vos\" becomes \"a vocês\" or \"lhes\": \"Eu lhes dei a minha vida\". But a quotation stays as it is: the solemn pronoun is part of the effect.",
+          "When you modernize, \"vos\" becomes \"a vocês\" or \"lhes\": \"Eu lhes dei a minha vida\". But a quotation stays as it is: the solemn pronoun is part of the effect.",
         ],
         examples: [
           { es: "Lutei contra a espoliação do Brasil. Lutei contra a espoliação do povo.", en: "I fought against the plundering of Brazil. I fought against the plundering of the people." },
           { es: "Eu vos dei a minha vida. Agora vos ofereço a minha morte.", en: "I gave you my life. Now I offer you my death." },
           { es: "Nada receio.", en: "I fear nothing." },
           { es: "Saio da vida para entrar na História.", en: "I leave life to enter History." },
-          { es: "A carta foi lida no rádio na manhã do dia 24 de agosto.", en: "The letter was read on the radio on the morning of 24 August." },
+          { es: "A carta foi lida no rádio na manhã do dia 24 de agosto.", en: "The letter was read on the radio on the morning of August 24." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Modernise into everyday Brazilian Portuguese: \"Eu vos dei a minha vida.\"",
+            prompt: "Modernize into everyday Brazilian Portuguese: \"Eu vos dei a minha vida.\"",
             source: "I gave you my life.",
             answer: "Eu dei a minha vida a vocês.",
             altAnswers: ["Eu lhes dei a minha vida.", "Dei a minha vida a vocês.", "Eu dei minha vida a vocês.", "Dei minha vida a vocês.", "Eu dei a minha vida para vocês.", "Eu dei minha vida para vocês."],
@@ -970,7 +970,7 @@ export const PT_C2_U13: Lesson[] = [
       {
         heading: "Ulysses Guimarães and the Constituição cidadã",
         body: [
-          "On 5 October 1988 Ulysses Guimarães, president of the Constituent Assembly, promulgated the new Constitution, which he called the \"Constituição cidadã\" for the rights it guaranteed after twenty-one years of dictatorship. His speech is famous for its blunt short sentences: \"Temos ódio à ditadura. Ódio e nojo.\" The second sentence has no verb; the ellipsis turns it into a blow.",
+          "On October 5, 1988 Ulysses Guimarães, president of the Constituent Assembly, promulgated the new Constitution, which he called the \"Constituição cidadã\" for the rights it guaranteed after twenty-one years of dictatorship. His speech is famous for its blunt short sentences: \"Temos ódio à ditadura. Ódio e nojo.\" The second sentence has no verb; the ellipsis turns it into a blow.",
           "He defended the text without claiming it was perfect: \"A Constituição certamente não é perfeita. Ela própria o confessa ao admitir a reforma. Quanto a ela, discordar, sim. Divergir, sim. Descumprir, jamais. Afrontá-la, nunca.\" Read the structure: four bare infinitives, two permitted and two forbidden, with a gradation from \"sim\" to \"jamais\" to \"nunca\". And \"Traidor da Constituição é traidor da pátria\" repeats one word to fuse two ideas.",
           "Note \"o confessa\": the \"o\" refers to the whole previous sentence (that it isn't perfect), a neat written use of the neuter pronoun.",
         ],
@@ -995,7 +995,7 @@ export const PT_C2_U13: Lesson[] = [
           {
             type: "speak",
             text: "Temos ódio à ditadura. Ódio e nojo.",
-            tip: "Pause after \"ditadura\" and hit \"Ódio\" hard: the open ó is the stressed vowel in both \"ódio\" and \"nojo\".",
+            tip: "Pause after \"ditadura\" and hit \"Ódio\" hard: \"ódio\" has an open ó, while \"nojo\" has a closed ô: Ó-dyu, NÔ-ju.",
             explanation: "The crasis in \"à ditadura\" comes from \"ter ódio a\" + \"a ditadura\". The verbless second sentence is an ellipsis.",
           },
         ],
@@ -1097,7 +1097,7 @@ export const PT_C2_U13: Lesson[] = [
     level: "PT-C2",
     number: 6,
     title: "The Old Press",
-    summary: "Read the press of the Empire and the Republic, the abolitionist newspapers and their adverts, and the traces of censorship under the dictatorship: poems and recipes where cut stories had been.",
+    summary: "Read the press of the Empire and the Republic, the abolitionist newspapers and their ads, and the traces of censorship under the dictatorship: poems and recipes where cut stories had been.",
     duration: "17 min",
     kind: "teach",
     sections: [
@@ -1105,7 +1105,7 @@ export const PT_C2_U13: Lesson[] = [
         heading: "From 1808: the first newspapers",
         body: [
           "Printing was forbidden in colonial Brazil. It arrived with the Portuguese court in 1808, and that year saw two papers: the official \"Gazeta do Rio de Janeiro\", printed by the Impressão Régia, and the \"Correio Braziliense\", which Hipólito José da Costa printed in London precisely to escape royal control. Note the old spelling of \"Braziliense\": the Brasília daily of the same name, founded in 1960, kept it.",
-          "Nineteenth-century papers mix genres a modern reader keeps apart. The \"folhetim\" (a serialised novel at the foot of the page) ran alongside political polemic, satirical cartoons and long columns of adverts. Words to know: \"o periódico\" (any periodical), \"a gazeta\" (a newspaper, now old-fashioned), \"o redator\" (editor or writer), \"o artigo de fundo\" (leading article), \"a seção a pedidos\" (paid letters from readers).",
+          "Nineteenth-century papers mix genres a modern reader keeps apart. The \"folhetim\" (a serialized novel at the foot of the page) ran alongside political polemic, satirical cartoons and long columns of ads. Words to know: \"o periódico\" (any periodical), \"a gazeta\" (a newspaper, now old-fashioned), \"o redator\" (editor or writer), \"o artigo de fundo\" (leading article), \"a seção a pedidos\" (paid letters from readers).",
         ],
         examples: [
           { es: "A imprensa só chegou ao Brasil com a corte portuguesa, em 1808.", en: "The printing press only arrived in Brazil with the Portuguese court, in 1808." },
@@ -1121,7 +1121,7 @@ export const PT_C2_U13: Lesson[] = [
             source: "Many nineteenth-century novels first came out as newspaper serials.",
             answer: "Muitos romances do século XIX saíram primeiro em folhetim.",
             altAnswers: ["Muitos romances do século XIX foram publicados primeiro em folhetim.", "Muitos romances do século 19 saíram primeiro em folhetim.", "Muitos romances do século XIX saíram primeiro como folhetins.", "Muitos romances do século XIX foram publicados primeiro como folhetins.", "Muitos romances oitocentistas saíram primeiro em folhetim."],
-            explanation: "A \"romance\" is a novel (a false friend), and \"sair em folhetim\" is to be serialised. Centuries are written in Roman numerals: \"século XIX\".",
+            explanation: "A \"romance\" is a novel (a false friend), and \"sair em folhetim\" is to be serialized. Centuries are written in Roman numerals: \"século XIX\".",
           },
           {
             type: "multiple-choice",
@@ -1133,17 +1133,17 @@ export const PT_C2_U13: Lesson[] = [
         ],
       },
       {
-        heading: "The abolitionist press and the adverts it fought",
+        heading: "The abolitionist press and the ads it fought",
         body: [
           "From the 1870s the press was the abolitionists' main weapon. José do Patrocínio campaigned in the \"Gazeta da Tarde\" and then in his own \"Cidade do Rio\"; Joaquim Nabuco wrote \"O Abolicionismo\" (1883); Luís Gama, born free, sold into slavery as a child and later a self-taught lawyer, wrote in the São Paulo press and won freedom in court for hundreds of enslaved people.",
-          "The same newspapers printed adverts for the sale, rental and recapture of human beings, and historians read them as sources: Gilberto Freyre built a study on them. Their language survives on every street today: the impersonal \"se\" in \"vende-se\", \"aluga-se\", \"precisa-se de\", \"gratifica-se\" (a reward is offered). Note the agreement: \"vendem-se casas\", but \"precisa-se de empregados\", because \"precisar de\" has no direct object to agree with.",
-          "When you quote such adverts, keep their words and comment on them in your own: \"o anúncio reduz a pessoa escravizada a mercadoria\". Historians now prefer \"pessoa escravizada\" to \"escravo\" in their own prose, to name what was done rather than an identity.",
+          "The same newspapers printed ads for the sale, rental and recapture of human beings, and historians read them as sources: Gilberto Freyre built a study on them. Their language survives on every street today: the impersonal \"se\" in \"vende-se\", \"aluga-se\", \"precisa-se de\", \"gratifica-se\" (a reward is offered). Note the agreement: \"vendem-se casas\", but \"precisa-se de empregados\", because \"precisar de\" has no direct object to agree with.",
+          "When you quote such ads, keep their words and comment on them in your own: \"o anúncio reduz a pessoa escravizada a mercadoria\". Historians now prefer \"pessoa escravizada\" to \"escravo\" in their own prose, to name what was done rather than an identity.",
         ],
         examples: [
           { es: "José do Patrocínio fez da Gazeta da Tarde uma tribuna abolicionista.", en: "José do Patrocínio made the Gazeta da Tarde an abolitionist platform." },
           { es: "Luís Gama libertou centenas de pessoas nos tribunais.", en: "Luís Gama freed hundreds of people in the courts." },
           { es: "Os anúncios de fuga revelam a violência do sistema escravista.", en: "The runaway notices reveal the violence of the slave system." },
-          { es: "O anúncio reduz a pessoa escravizada a uma mercadoria.", en: "The advert reduces the enslaved person to a commodity." },
+          { es: "O anúncio reduz a pessoa escravizada a uma mercadoria.", en: "The ad reduces the enslaved person to a commodity." },
           { es: "Vendem-se casas; precisa-se de pedreiros.", en: "Houses for sale; bricklayers wanted." },
           { es: "Nabuco publicou O Abolicionismo em 1883.", en: "Nabuco published O Abolicionismo in 1883." },
         ],
@@ -1155,7 +1155,7 @@ export const PT_C2_U13: Lesson[] = [
             source: "The runaway notices reveal the violence of the slave system.",
             answer: "Os anúncios de fuga revelam a violência do sistema escravista.",
             altAnswers: ["Os anúncios de fuga revelam a violência da escravidão.", "Os anúncios de fuga mostram a violência do sistema escravista.", "Os anúncios de escravos fugidos revelam a violência do sistema escravista.", "Os anúncios de fuga expõem a violência do sistema escravista."],
-            explanation: "\"Anúncio de fuga\" is the historians' term for these adverts; \"escravista\" is the adjective for the system (\"sistema escravista\", \"sociedade escravista\").",
+            explanation: "\"Anúncio de fuga\" is the historians' term for these ads; \"escravista\" is the adjective for the system (\"sistema escravista\", \"sociedade escravista\").",
           },
           {
             type: "fill-blank",
@@ -1177,8 +1177,8 @@ export const PT_C2_U13: Lesson[] = [
       {
         heading: "Censorship: Camões and cake recipes",
         body: [
-          "After the AI-5, \"censura prévia\" put censors inside newsrooms. Orders came by phone or on unsigned notes in a fixed formula: \"De ordem superior, fica proibida a divulgação de...\". Some papers made the cuts visible. \"O Estado de S. Paulo\" filled the gaps with stanzas of Camões's \"Os Lusíadas\"; the \"Jornal da Tarde\" printed recipes, some of which didn't work, so readers who tried them knew something had been cut. \"O Pasquim\" fought back with humour.",
-          "For the historian, the absence is the source: \"o espaço da matéria cortada\", \"a receita no lugar da notícia\". The 1975 death of the journalist Vladimir Herzog in an army interrogation centre in São Paulo, officially called a suicide, became a turning point against the regime.",
+          "After the AI-5, \"censura prévia\" put censors inside newsrooms. Orders came by phone or on unsigned notes in a fixed formula: \"De ordem superior, fica proibida a divulgação de...\". Some papers made the cuts visible. \"O Estado de S. Paulo\" filled the gaps with stanzas of Camões's \"Os Lusíadas\"; the \"Jornal da Tarde\" printed recipes, some of which didn't work, so readers who tried them knew something had been cut. \"O Pasquim\" fought back with humor.",
+          "For the historian, the absence is the source: \"o espaço da matéria cortada\", \"a receita no lugar da notícia\". The 1975 death of the journalist Vladimir Herzog in an army interrogation center in São Paulo, officially called a suicide, became a turning point against the regime.",
         ],
         examples: [
           { es: "De ordem superior, fica proibida a divulgação de notícias sobre a greve.", en: "By order from above, the publication of news about the strike is prohibited." },
@@ -1223,10 +1223,9 @@ export const PT_C2_U13: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Rooms to let.",
+        source: "Rooms for rent.",
         answer: "Alugam-se quartos.",
-        altAnswers: ["Aluga-se quartos."],
-        explanation: "The norm makes the verb agree with the plural noun: \"alugam-se quartos\". \"Aluga-se quartos\" is everywhere on Brazilian walls and widely accepted in speech, but exam graders still mark it down.",
+        explanation: "The norm makes the verb agree with the plural noun: \"alugam-se quartos\". \"Aluga-se quartos\" is everywhere on Brazilian walls and some linguists defend it, but careful writing, exams and the Celpe-Bras expect the agreement this lesson teaches.",
       },
       {
         type: "fill-blank",
@@ -1314,14 +1313,14 @@ export const PT_C2_U13: Lesson[] = [
         heading: "O documento revela: the verbs of commentary",
         body: [
           "A commentary keeps three voices apart: what the source says, what it shows without saying, and what you conclude. For the first, \"o texto afirma\", \"o autor declara\", \"segundo o documento\". For the second, the verbs of evidence: \"o documento revela\", \"evidencia\", \"deixa entrever\" (lets us glimpse), \"permite inferir\". For the third, hedge in proportion to your evidence: \"tudo indica que\", \"é provável que\" + subjunctive, \"ao que parece\".",
-          "Two impersonal formulas organise the argument. \"Cabe\" + infinitive means it is fitting, it is our task: \"cabe contextualizar\", \"cabe ressaltar\", \"cabe ao historiador perguntar\". \"À luz de\" (in the light of) always takes the crasis before a feminine noun: \"à luz da época\", \"à luz das fontes\". Its rival \"face a\" is common but criticised; \"diante de\" is safe.",
+          "Two impersonal formulas organize the argument. \"Cabe\" + infinitive means it is fitting, it is our task: \"cabe contextualizar\", \"cabe ressaltar\", \"cabe ao historiador perguntar\". \"À luz de\" (in light of) always has the crasis, because \"luz\" itself is feminine, whatever follows: \"à luz da época\", \"à luz dos fatos\". Its rival \"face a\" is common but criticized; \"diante de\" is safe.",
           "English speakers overuse \"mostrar\" and \"dizer\". They are not wrong, but a page of them reads flat. And never write \"o documento prova\" unless it really does: historians prefer \"sugere\" and \"indica\".",
         ],
         examples: [
           { es: "O documento revela a preocupação da Coroa com o contrabando.", en: "The document reveals the Crown's concern about smuggling." },
           { es: "A carta deixa entrever o medo de uma revolta.", en: "The letter lets us glimpse the fear of a revolt." },
           { es: "Cabe contextualizar o texto antes de julgá-lo.", en: "The text should be put in context before it is judged." },
-          { es: "À luz da época, a proposta era radical.", en: "In the light of the period, the proposal was radical." },
+          { es: "À luz da época, a proposta era radical.", en: "In light of the period, the proposal was radical." },
           { es: "Tudo indica que o autor conhecia o decreto.", en: "Everything suggests that the author knew the decree." },
         ],
         checkpoint: [
@@ -1329,7 +1328,7 @@ export const PT_C2_U13: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "In the light of the period, the proposal was radical.",
+            source: "In light of the period, the proposal was radical.",
             answer: "À luz da época, a proposta era radical.",
             altAnswers: ["À luz da época, a proposta foi radical.", "A proposta era radical à luz da época.", "Para a época, a proposta era radical.", "À luz de seu tempo, a proposta era radical.", "À luz do seu tempo, a proposta era radical."],
             explanation: "\"À luz de\" needs the crasis: \"a\" (preposition) + \"a luz\". \"Para a época\" is the plainer equivalent.",
@@ -1349,7 +1348,7 @@ export const PT_C2_U13: Lesson[] = [
         heading: "Anacronismo: judging without projecting",
         body: [
           "An \"anacronismo\" projects the present onto the past: calling Caminha's fleet \"brasileira\", using \"Brasil\" as if a nation existed in 1500, or reading \"democracia\" in an imperial decree with today's meaning. The fix is often grammatical. Use the future-in-the-past \"viria a ser\": \"a terra que viria a ser o Brasil\", \"o que viria a ser chamado de...\".",
-          "Avoiding anachronism does not mean suspending judgement. You can say that slavery was a crime against humanity; what you should not do is write as if people in 1850 shared your vocabulary. Separate the period's categories (\"na linguagem da época\", \"para os contemporâneos\") from your analytical ones (\"o que hoje chamaríamos de\"). Put the period's words in quotation marks when you use them: the word \"selvagem\" between quotes shows you are reporting, not adopting it.",
+          "Avoiding anachronism does not mean suspending judgment. You can say that slavery was a crime against humanity; what you should not do is write as if people in 1850 shared your vocabulary. Separate the period's categories (\"na linguagem da época\", \"para os contemporâneos\") from your analytical ones (\"o que hoje chamaríamos de\"). Put the period's words in quotation marks when you use them: the word \"selvagem\" between quotes shows you are reporting, not adopting it.",
           "Watch the trap \"na época\": it means at the time, never in our era. \"Atualmente\" means currently, not actually (\"na verdade\"), another false friend that bites in academic prose.",
         ],
         examples: [
@@ -1387,13 +1386,13 @@ export const PT_C2_U13: Lesson[] = [
       {
         heading: "Quoting older texts: sic, [...], grifo nosso",
         body: [
-          "Square brackets (\"colchetes\") mark everything that is yours inside a quotation. \"[...]\" marks a cut. \"[sic]\" (Latin for thus) after a word says the error is in the original. A bracketed word clarifies a reference: \"ela [a Constituição] não é perfeita\". If you italicise a word for emphasis, add \"grifo nosso\" (or \"grifo meu\"); if the emphasis was there already, \"grifo do autor\". A source you read only through someone else is cited with \"apud\".",
+          "Square brackets (\"colchetes\") mark everything that is yours inside a quotation. \"[...]\" marks a cut. \"[sic]\" (Latin for thus) after a word says the error is in the original. A bracketed word clarifies a reference: \"ela [a Constituição] não é perfeita\". If you italicize a word for emphasis, add \"grifo nosso\" (or \"grifo meu\"); if the emphasis was there already, \"grifo do autor\". A source you read only through someone else is cited with \"apud\".",
           "The classic mistake with older texts is to sprinkle \"[sic]\" over every old spelling. \"Pharmacia\" in 1900 is not an error; it was the norm. Instead, say once, in a note, \"mantida a grafia original\". Keep \"[sic]\" for real slips: a wrong date, a misspelled name, a missing word.",
         ],
         examples: [
           { es: "\"A Constituição certamente não é perfeita. [...] Descumprir, jamais.\"", en: "'The Constitution is certainly not perfect. [...] Disobey it, never.' (a cut marked)" },
           { es: "\"Ela [a Constituição] própria o confessa.\"", en: "'It [the Constitution] confesses as much itself.' (a clarification)" },
-          { es: "O jornal datou a lei de 13 de maio de 1889 [sic].", en: "The newspaper dated the law 13 May 1889 [sic]. (a real error)" },
+          { es: "O jornal datou a lei de 13 de maio de 1889 [sic].", en: "The newspaper dated the law May 13, 1889 [sic]. (a real error)" },
           { es: "Mantida a grafia original em todas as citações.", en: "Original spelling kept in all quotations." },
           { es: "O grifo é nosso.", en: "The emphasis is ours." },
         ],
@@ -1409,7 +1408,7 @@ export const PT_C2_U13: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Quoting a 1905 advert, where should \"[sic]\" go: \"A pharmacia Silva vende remedios desde 1850, há 45 annos.\"?",
+            question: "Quoting a 1905 ad, where should \"[sic]\" go: \"A pharmacia Silva vende remedios desde 1850, há 45 annos.\"?",
             options: ["After \"45 annos\": 1850 to 1905 is 55 years, a real error.", "After \"pharmacia\", because it is misspelled.", "After every old spelling: \"pharmacia\", \"remedios\", \"annos\".", "Nowhere: old texts never contain errors."],
             correctIndex: 0,
             explanation: "Old spellings were correct in their time, so a note \"mantida a grafia original\" covers them. \"[Sic]\" flags a genuine slip, like the wrong arithmetic.",
@@ -1522,7 +1521,7 @@ export const PT_C2_U13: Lesson[] = [
         heading: "Disse-lhe or ele lhe disse? Pronouns then and now",
         body: [
           "Older prose puts the pronoun after the verb almost everywhere (\"disse-lhe\", \"encontrou-o\") and inside the future and conditional (\"far-se-á\", \"dir-lhe-ia\"). Modern Brazilian writing puts it before the main verb, and speech often replaces it altogether: \"ele lhe disse\" in careful prose, \"ele disse a ele\" or \"falou pra ele\" in speech.",
-          "Mesóclise has a double modern equivalent: the synthetic future without the pronoun inside (\"será feito\"), or the periphrasis with \"ir\" (\"vai ser feito\"). Pick by register: a modernised edition of a decree keeps \"será\", a version for teenagers can use \"vai\".",
+          "Mesóclise has a double modern equivalent: the synthetic future without the pronoun inside (\"será feito\"), or the periphrasis with \"ir\" (\"vai ser feito\"). Pick by register: a modernized edition of a decree keeps \"será\", a version for teenagers can use \"vai\".",
         ],
         examples: [
           { es: "Disse-lhe que partiria ao amanhecer.", en: "He told her he would leave at dawn. (older)" },
@@ -1536,7 +1535,7 @@ export const PT_C2_U13: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Modernise for a written edition: \"Far-se-á justiça.\"",
+            prompt: "Modernize for a written edition: \"Far-se-á justiça.\"",
             source: "Justice will be done.",
             answer: "Será feita justiça.",
             altAnswers: ["A justiça será feita.", "Justiça será feita.", "Vai ser feita justiça.", "A justiça vai ser feita.", "Justiça vai ser feita."],
@@ -1545,10 +1544,9 @@ export const PT_C2_U13: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Modernise for a written edition: \"Encontrou-o na igreja.\"",
+            prompt: "Modernize for a written edition: \"Encontrou-o na igreja.\"",
             source: "She found him at the church.",
             answer: "Ela o encontrou na igreja.",
-            altAnswers: ["Ela encontrou ele na igreja."],
             explanation: "Brazilian prose puts the pronoun before the verb once there's a subject: \"ela o encontrou\". \"Encontrou ele\" is normal speech, but avoid it in an edition.",
           },
         ],
@@ -1557,7 +1555,7 @@ export const PT_C2_U13: Lesson[] = [
         heading: "Chegara, havia, hei de: verbs then and now",
         body: [
           "Four contrasts cover most older verb forms. The simple pluperfect \"chegara\" becomes \"tinha chegado\". The vós forms \"sabeis\", \"vinde\" become \"vocês sabem\", \"venham\". \"Haver de\" + infinitive becomes \"ir\" + infinitive or \"dever\": \"há de chover\" is \"vai chover\" or \"deve chover\". And existential \"haver\" stays in writing (\"havia muitos feridos\") but turns into \"ter\" in speech (\"tinha muitos feridos\").",
-          "Modernising is not flattening: each old form carries a tone. \"Hei de vencer\" has resolve that \"vou vencer\" lacks; if the tone matters, keep a modern form with the same weight: \"vou vencer, custe o que custar\".",
+          "Modernizing is not flattening: each old form carries a tone. \"Hei de vencer\" has resolve that \"vou vencer\" lacks; if the tone matters, keep a modern form with the same weight: \"vou vencer, custe o que custar\".",
         ],
         examples: [
           { es: "Quando o médico chegou, o doente já falecera.", en: "When the doctor arrived, the patient had already died. (older)" },
@@ -1565,13 +1563,13 @@ export const PT_C2_U13: Lesson[] = [
           { es: "Há de chover antes do fim da colheita.", en: "It's bound to rain before the end of the harvest. (older)" },
           { es: "Deve chover antes do fim da colheita.", en: "It'll probably rain before the end of the harvest. (modern)" },
           { es: "Havia muitos feridos na praça.", en: "There were many wounded in the square. (written)" },
-          { es: "Tinha muitos feridos na praça.", en: "There were loads of wounded in the square. (spoken)" },
+          { es: "Tinha muitos feridos na praça.", en: "There were lots of wounded people in the square. (spoken)" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Modernise: \"O doente já falecera.\"",
+            prompt: "Modernize: \"O doente já falecera.\"",
             source: "The patient had already died.",
             answer: "O doente já tinha morrido.",
             altAnswers: ["O doente já tinha falecido.", "O doente já havia morrido.", "O doente já havia falecido.", "O paciente já tinha morrido.", "O paciente já tinha falecido."],
@@ -1598,7 +1596,7 @@ export const PT_C2_U13: Lesson[] = [
         heading: "Achar, fazenda, gentil: words that moved",
         body: [
           "The real traps are words that look modern but meant something else. In Caminha \"achar\" is to find (\"achamento\"); today it mostly means to think. \"Fazenda\" meant wealth or the public treasury, which is why the finance ministry is still the \"Ministério da Fazenda\"; today it is also a farm. \"Gentil\" meant noble, graceful or pretty (\"moças gentis\"); today it means kind. \"Formoso\" (beautiful) is now literary.",
-          "Some words narrowed into euphemism. In the Carta, \"vergonhas\" in the plural means the genitals: Caminha notes that the Tupiniquim show them \"com tanta inocência como em mostrar o rosto\". Read \"vergonha\" in the singular as shame, in that plural as anatomy. When you meet a familiar word in an odd context, check an etymological or historical dictionary before trusting today's sense.",
+          "Some words narrowed into euphemism. In the Carta, \"vergonhas\" in the plural means the genitals: Caminha notes that the Tupiniquim show them \"com tanta inocência como têm em mostrar o rosto\". Read \"vergonha\" in the singular as shame, in that plural as anatomy. When you meet a familiar word in an odd context, check an etymological or historical dictionary before trusting today's sense.",
         ],
         examples: [
           { es: "Caminha achou a terra, no sentido de encontrá-la.", en: "Caminha found the land, in the sense of coming upon it." },
@@ -1631,16 +1629,16 @@ export const PT_C2_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Modernise for a written edition: \"Dir-lhe-ei tudo amanhã.\"",
+        prompt: "Modernize for a written edition: \"Dir-lhe-ei tudo amanhã.\"",
         source: "I'll tell him everything tomorrow.",
         answer: "Eu lhe direi tudo amanhã.",
-        altAnswers: ["Lhe direi tudo amanhã.", "Vou lhe dizer tudo amanhã.", "Eu vou lhe dizer tudo amanhã.", "Direi tudo a ele amanhã.", "Vou dizer tudo a ele amanhã."],
-        explanation: "The mesóclise \"dir-lhe-ei\" becomes \"lhe direi\" (written Brazilian) or \"vou lhe dizer\" (neutral). Starting with \"Lhe\" is normal in Brazil, though some editors avoid it.",
+        altAnswers: ["Vou lhe dizer tudo amanhã.", "Eu vou lhe dizer tudo amanhã.", "Direi tudo a ele amanhã.", "Vou dizer tudo a ele amanhã."],
+        explanation: "The mesóclise \"dir-lhe-ei\" becomes \"lhe direi\" (written Brazilian) or \"vou lhe dizer\" (neutral). Starting a sentence with \"lhe\" is common in speech but avoided in careful writing.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Modernise: \"Vós bem sabeis que é verdade.\"",
+        prompt: "Modernize: \"Vós bem sabeis que é verdade.\"",
         source: "You know very well it's true.",
         answer: "Vocês sabem muito bem que é verdade.",
         altAnswers: ["Vocês bem sabem que é verdade.", "Vocês sabem bem que é verdade."],
@@ -1649,7 +1647,7 @@ export const PT_C2_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Modernise: \"Quando cheguei, ela já partira.\"",
+        prompt: "Modernize: \"Quando cheguei, ela já partira.\"",
         source: "When I arrived, she had already left.",
         answer: "Quando cheguei, ela já tinha partido.",
         altAnswers: ["Quando eu cheguei, ela já tinha partido.", "Quando cheguei, ela já tinha ido embora.", "Quando eu cheguei, ela já tinha ido embora.", "Quando cheguei, ela já havia partido.", "Quando eu cheguei, ela já havia partido."],
@@ -1667,7 +1665,7 @@ export const PT_C2_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Modernise: \"É cousa assaz difícil.\"",
+        prompt: "Modernize: \"É cousa assaz difícil.\"",
         source: "It's quite a difficult thing.",
         answer: "É uma coisa bastante difícil.",
         altAnswers: ["É coisa bastante difícil.", "É uma coisa muito difícil.", "É bastante difícil.", "É muito difícil.", "É uma coisa bem difícil."],
@@ -1727,7 +1725,7 @@ export const PT_C2_U13: Lesson[] = [
     slug: "c2-transform-modernise",
     level: "PT-C2",
     number: 9,
-    title: "Transformations: Modernise the Text",
+    title: "Transformations: Modernize the Text",
     summary: "Rewrite older passages in modern Brazilian Portuguese, step by step, without losing their meaning or their tone.",
     duration: "17 min",
     kind: "drill",
@@ -1750,7 +1748,7 @@ export const PT_C2_U13: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Modernise with vocês: \"Não vos deixeis enganar.\"",
+            prompt: "Modernize with vocês: \"Não vos deixeis enganar.\"",
             source: "Don't let yourselves be deceived.",
             answer: "Não se deixem enganar.",
             explanation: "The negative imperative of \"vocês\" uses the subjunctive (\"deixem\"), and the reflexive pronoun is \"se\". \"Vos\" belongs only to \"vós\".",
@@ -1758,7 +1756,7 @@ export const PT_C2_U13: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Modernise with vocês: \"Guardai a vossa fé.\"",
+            prompt: "Modernize with vocês: \"Guardai a vossa fé.\"",
             source: "Keep your faith.",
             answer: "Guardem a sua fé.",
             altAnswers: ["Guardem a fé de vocês.", "Guardem sua fé.", "Mantenham a sua fé.", "Mantenham sua fé.", "Mantenham a fé de vocês."],
@@ -1770,12 +1768,12 @@ export const PT_C2_U13: Lesson[] = [
         heading: "Spelling, syntax, paraphrase: three levels",
         body: [
           "Editors distinguish levels of intervention. A \"versão atualizada\" changes spelling only. A \"versão modernizada\" also changes syntax and archaic words. A \"paráfrase\" retells the meaning in your own words. Say which you are doing, and don't drift between them in one passage.",
-          "A 1900 newspaper item: \"Hontem, ás 3 horas da tarde, realizou-se no theatro a festa em beneficio dos orphãos.\" Updated spelling: \"Ontem, às 3 horas da tarde, realizou-se no teatro a festa em benefício dos órfãos.\" (Before 1943 the crasis was often printed \"á\".) Modernised: \"Ontem, às 3 da tarde, foi realizada no teatro a festa beneficente para os órfãos.\" Paraphrase: \"Houve uma festa beneficente no teatro, ontem à tarde.\" Note that \"realizou-se\" may stay even in the modernised version: enclisis after a time expression is still acceptable in written Brazilian, though many editors prefer \"se realizou\" or \"foi realizada\".",
+          "A 1900 newspaper item: \"Hontem, ás 3 horas da tarde, realizou-se no theatro a festa em beneficio dos orphãos.\" Updated spelling: \"Ontem, às 3 horas da tarde, realizou-se no teatro a festa em benefício dos órfãos.\" (Before 1943 the crasis was often printed \"á\".) Modernized: \"Ontem, às 3 da tarde, foi realizada no teatro a festa beneficente para os órfãos.\" Paraphrase: \"Houve uma festa beneficente no teatro, ontem à tarde.\" Note that \"realizou-se\" may stay even in the modernized version: enclisis after a time expression is still acceptable in written Brazilian, though many editors prefer \"se realizou\" or \"foi realizada\".",
         ],
         examples: [
-          { es: "Ontem, às 3 horas da tarde, realizou-se no teatro a festa em benefício dos órfãos.", en: "Yesterday at 3 p.m. the benefit for the orphans was held at the theatre. (updated spelling)" },
-          { es: "Ontem, às 3 da tarde, foi realizada no teatro a festa beneficente para os órfãos.", en: "Yesterday at 3 p.m. the charity party for the orphans took place at the theatre. (modernised)" },
-          { es: "Houve uma festa beneficente no teatro ontem à tarde.", en: "There was a charity party at the theatre yesterday afternoon. (paraphrase)" },
+          { es: "Ontem, às 3 horas da tarde, realizou-se no teatro a festa em benefício dos órfãos.", en: "Yesterday at 3 p.m. the benefit for the orphans was held at the theater. (updated spelling)" },
+          { es: "Ontem, às 3 da tarde, foi realizada no teatro a festa beneficente para os órfãos.", en: "Yesterday at 3 p.m. the charity party for the orphans took place at the theater. (modernized)" },
+          { es: "Houve uma festa beneficente no teatro ontem à tarde.", en: "There was a charity party at the theater yesterday afternoon. (paraphrase)" },
           { es: "A versão atualizada muda só a grafia.", en: "The updated version changes only the spelling." },
           { es: "A paráfrase reconta o sentido com outras palavras.", en: "A paraphrase retells the meaning in other words." },
         ],
@@ -1784,14 +1782,14 @@ export const PT_C2_U13: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Update the spelling only: \"Hontem realizou-se no theatro a festa dos orphãos.\"",
-            source: "Yesterday the orphans' party was held at the theatre.",
+            source: "Yesterday the orphans' party was held at the theater.",
             answer: "Ontem realizou-se no teatro a festa dos órfãos.",
             altAnswers: ["Ontem, realizou-se no teatro a festa dos órfãos."],
             explanation: "An updated version changes letters and accents and leaves the syntax alone, enclisis included: \"realizou-se\" stays.",
           },
           {
             type: "multiple-choice",
-            question: "An edition labelled \"grafia atualizada\" prints \"A festa foi um sucesso\" where the original reads \"A festa correu às mil maravilhas\". What's wrong?",
+            question: "An edition labeled \"grafia atualizada\" prints \"A festa foi um sucesso\" where the original reads \"A festa correu às mil maravilhas\". What's wrong?",
             options: ["It has paraphrased, not just updated the spelling.", "Nothing: updating includes simplifying idioms.", "It should have kept \"às\" as \"ás\".", "\"Sucesso\" is a false friend."],
             correctIndex: 0,
             explanation: "\"Grafia atualizada\" promises a spelling change only. Replacing the idiom is paraphrase, and it loses the original's tone.",
@@ -1806,11 +1804,11 @@ export const PT_C2_U13: Lesson[] = [
       {
         heading: "Keeping the tone",
         body: [
-          "A modernised decree should still sound like a decree. Replace each archaism with a modern word of the same register: \"outrossim\" with \"além disso\" (not \"e também\"), \"porquanto\" with \"uma vez que\" (not \"porque\" if the sentence is formal), \"é mister\" with \"é necessário\" (not \"tem que\"). Keep the \"se\" passives and the \"fica\" formulas: they are still current legal Portuguese.",
-          "Likewise a sermon modernised for a reading in church keeps its rhythm. If Vieira writes in pairs, keep the pairs: \"Ou o sal não salga, ou a terra não se deixa salgar.\"",
+          "A modernized decree should still sound like a decree. Replace each archaism with a modern word of the same register: \"outrossim\" with \"além disso\" (not \"e também\"), \"porquanto\" with \"uma vez que\" (not \"porque\" if the sentence is formal), \"é mister\" with \"é necessário\" (not \"tem que\"). Keep the \"se\" passives and the \"fica\" formulas: they are still current legal Portuguese.",
+          "Likewise a sermon modernized for a reading in church keeps its rhythm. If Vieira writes in pairs, keep the pairs: \"Ou o sal não salga, ou a terra não se deixa salgar.\"",
         ],
         examples: [
-          { es: "Além disso, fica proibida a saída de navios sem licença.", en: "Furthermore, ships may not leave without a licence. (modernised decree)" },
+          { es: "Além disso, fica proibida a saída de navios sem licença.", en: "Furthermore, ships may not leave without a license. (modernized decree)" },
           { es: "Uma vez que a lei foi publicada, deve ser cumprida.", en: "Since the law has been published, it must be obeyed." },
           { es: "É necessário que todos compareçam à câmara.", en: "Everyone must attend the council chamber." },
           { es: "Cumpra-se e publique-se.", en: "Let it be obeyed and published. (still current legal formula)" },
@@ -1820,7 +1818,7 @@ export const PT_C2_U13: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Modernise, keeping the formal tone: \"Outrossim, é mister que todos compareçam.\"",
+            prompt: "Modernize, keeping the formal tone: \"Outrossim, é mister que todos compareçam.\"",
             source: "Furthermore, it is necessary that everyone attend.",
             answer: "Além disso, é necessário que todos compareçam.",
             altAnswers: ["Além disso, é preciso que todos compareçam.", "Ademais, é necessário que todos compareçam.", "Ademais, é preciso que todos compareçam.", "Além do mais, é necessário que todos compareçam."],
@@ -1839,7 +1837,7 @@ export const PT_C2_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Modernise with vocês: \"Vinde e ouvi a palavra.\"",
+        prompt: "Modernize with vocês: \"Vinde e ouvi a palavra.\"",
         source: "Come and hear the word.",
         answer: "Venham e ouçam a palavra.",
         explanation: "\"Vinde\" → \"venham\", \"ouvi\" → \"ouçam\": the imperative for \"vocês\" borrows the present subjunctive.",
@@ -1847,7 +1845,7 @@ export const PT_C2_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Modernise with vocês: \"Sabeis vós o que fizestes?\"",
+        prompt: "Modernize with vocês: \"Sabeis vós o que fizestes?\"",
         source: "Do you know what you have done?",
         answer: "Vocês sabem o que fizeram?",
         altAnswers: ["Vocês sabem o que vocês fizeram?", "Será que vocês sabem o que fizeram?"],
@@ -1864,7 +1862,7 @@ export const PT_C2_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Modernise, keeping the formal tone: \"Porquanto a lei foi publicada, cumpra-se.\"",
+        prompt: "Modernize, keeping the formal tone: \"Porquanto a lei foi publicada, cumpra-se.\"",
         source: "Since the law has been published, let it be obeyed.",
         answer: "Uma vez que a lei foi publicada, que seja cumprida.",
         altAnswers: ["Uma vez que a lei foi publicada, deve ser cumprida.", "Como a lei foi publicada, deve ser cumprida.", "Já que a lei foi publicada, deve ser cumprida.", "Uma vez que a lei foi publicada, cumpra-se.", "Visto que a lei foi publicada, deve ser cumprida."],
@@ -1881,7 +1879,7 @@ export const PT_C2_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Modernise: \"Dar-vos-ei o que pedirdes.\"",
+        prompt: "Modernize: \"Dar-vos-ei o que pedirdes.\"",
         source: "I will give you whatever you ask for.",
         answer: "Vou dar a vocês o que pedirem.",
         altAnswers: ["Darei a vocês o que pedirem.", "Eu vou dar a vocês o que vocês pedirem.", "Eu darei a vocês o que pedirem.", "Vou dar para vocês o que pedirem.", "Eu lhes darei o que pedirem."],
@@ -1892,12 +1890,12 @@ export const PT_C2_U13: Lesson[] = [
         prompt: "Put the words in order to say: The paraphrase loses the tone of the original.",
         words: ["A", "paráfrase", "perde", "o", "tom", "do", "original."],
         translation: "The paraphrase loses the tone of the original.",
-        explanation: "\"Perder o tom\" is what happens when you retell instead of modernising.",
+        explanation: "\"Perder o tom\" is what happens when you retell instead of modernizing.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Modernise: \"Mui gentis eram as moças da aldeia.\"",
+        prompt: "Modernize: \"Mui gentis eram as moças da aldeia.\"",
         source: "The girls of the village were very graceful.",
         answer: "As moças da aldeia eram muito graciosas.",
         altAnswers: ["As moças da aldeia eram muito bonitas.", "As jovens da aldeia eram muito graciosas.", "As moças da aldeia eram muito elegantes.", "Muito graciosas eram as moças da aldeia."],
@@ -1920,7 +1918,7 @@ export const PT_C2_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Modernising a decree, which rendering of \"é mister\" keeps the register?",
+        question: "Modernizing a decree, which rendering of \"é mister\" keeps the register?",
         options: ["é necessário", "tem que", "precisa", "é tipo obrigatório"],
         correctIndex: 0,
         explanation: "\"É necessário\" (or \"é preciso\") is formal and current. \"Tem que\" and \"precisa\" sound spoken; the last option is slang.",
@@ -2020,7 +2018,7 @@ export const PT_C2_U13: Lesson[] = [
         ],
         examples: [
           { es: "A carta não está datada.", en: "The letter is undated." },
-          { es: "A lei de 28 de setembro é a Lei do Ventre Livre, de 1871.", en: "The law of 28 September is the Free Womb Law, of 1871." },
+          { es: "A lei de 28 de setembro é a Lei do Ventre Livre, de 1871.", en: "The law of September 28 is the Free Womb Law, of 1871." },
           { es: "Então a carta é posterior a 1871.", en: "So the letter is later than 1871." },
           { es: "Pelo papel e pela letra, deve ser da década de 1870.", en: "From the paper and the handwriting, it must be from the 1870s." },
         ],
@@ -2139,7 +2137,7 @@ export const PT_C2_U13: Lesson[] = [
     level: "PT-C2",
     number: 11,
     title: "Real-World Mission: A Critical Edition",
-    summary: "Transcribe, modernise and annotate a short historic document for a student edition: transcription conventions, editorial notes and a statement of criteria.",
+    summary: "Transcribe, modernize and annotate a short historic document for a student edition: transcription conventions, editorial notes and a statement of criteria.",
     duration: "18 min",
     kind: "skills",
     format: "Real-World Mission",
@@ -2147,12 +2145,12 @@ export const PT_C2_U13: Lesson[] = [
       {
         heading: "Step 1: transcribe",
         body: [
-          "Your document: a notice from the Câmara Municipal de Campinas, 1889, found in a box at the city archive: \"A Camara Municipal faz publico que, de ordem do Snr. Presidente, fica prohibido lançar aguas servidas nas ruas, sob pena de multa de 10$000.\" The task is an edition for secondary-school students: transcription, modernised text and notes.",
+          "Your document: a notice from the Câmara Municipal de Campinas, 1889, found in a box at the city archive: \"A Camara Municipal faz publico que, de ordem do Snr. Presidente, fica prohibido lançar aguas servidas nas ruas, sob pena de multa de 10$000.\" The task is an edition for high school students: transcription, modernized text and notes.",
           "A \"transcrição diplomática\" copies the letters exactly, abbreviations included. A \"transcrição semidiplomática\", the usual choice for student editions, expands abbreviations and marks the added letters in brackets or italics: \"Snr.\" becomes \"S[e]n[ho]r\". Mark what you can't read with \"[ilegível]\", damage with \"[rasgado]\", and line breaks with a vertical bar \"|\" if they matter.",
-          "Don't silently correct anything at this stage. If the scribe wrote \"Camara\" without an accent, so does your transcription; the accents come in the modernised text.",
+          "Don't silently correct anything at this stage. If the scribe wrote \"Camara\" without an accent, so does your transcription; the accents come in the modernized text.",
         ],
         examples: [
-          { es: "A Camara Municipal faz publico que fica prohibido lançar aguas servidas nas ruas.", en: "The Town Council gives public notice that throwing dirty water into the streets is prohibited. (original spelling)" },
+          { es: "A Camara Municipal faz publico que fica prohibido lançar aguas servidas nas ruas.", en: "The City Council gives public notice that throwing dirty water into the streets is prohibited. (original spelling)" },
           { es: "Na transcrição semidiplomática, as abreviaturas são desenvolvidas entre colchetes.", en: "In a semi-diplomatic transcription, abbreviations are expanded in square brackets." },
           { es: "O trecho final está ilegível por causa de um rasgo no papel.", en: "The last passage is illegible because of a tear in the paper." },
           { es: "A transcrição não corrige nada; só reproduz.", en: "The transcription corrects nothing; it only reproduces." },
@@ -2173,18 +2171,18 @@ export const PT_C2_U13: Lesson[] = [
             question: "In your transcription the scribe wrote \"prohibido\". What do you print?",
             options: ["prohibido", "proibido", "prohibido [sic]", "proíbido"],
             correctIndex: 0,
-            explanation: "A transcription reproduces the original letter for letter. \"Prohibido\" was the norm in 1889, so it needs no \"[sic]\"; \"proibido\" belongs to the modernised text.",
+            explanation: "A transcription reproduces the original letter for letter. \"Prohibido\" was the norm in 1889, so it needs no \"[sic]\"; \"proibido\" belongs to the modernized text.",
           },
         ],
       },
       {
-        heading: "Step 2: modernise and annotate",
+        heading: "Step 2: modernize and annotate",
         body: [
-          "Modernised: \"A Câmara Municipal torna público que, por ordem do senhor presidente, fica proibido jogar águas servidas nas ruas, sob pena de multa de 10 mil réis.\" You updated the spelling, replaced \"faz público\" with the current \"torna público\", and wrote out the currency: \"10$000\" is the old notation for ten thousand réis (\"dez mil-réis\").",
+          "Modernized: \"A Câmara Municipal torna público que, por ordem do senhor presidente, fica proibido jogar águas servidas nas ruas, sob pena de multa de 10 mil réis.\" You updated the spelling, replaced \"faz público\" with the current \"torna público\", and wrote out the currency: \"10$000\" is the old notation for ten thousand réis (\"dez mil-réis\").",
           "Then the notes (\"notas de rodapé\"). Their formulas: \"Trata-se de...\" (this is...), \"Refere-se a...\", \"No original, ...\", \"Leia-se...\" (read as), \"Cf.\" (compare, see). Keep each note to one fact: \"Águas servidas: trata-se das águas usadas na cozinha e na limpeza da casa. Na época, não havia rede de esgoto em Campinas.\" Students need context, not a lecture.",
         ],
         examples: [
-          { es: "A Câmara Municipal torna público que fica proibido jogar águas servidas nas ruas.", en: "The Town Council gives notice that throwing dirty water into the streets is prohibited. (modernised)" },
+          { es: "A Câmara Municipal torna público que fica proibido jogar águas servidas nas ruas.", en: "The City Council gives notice that throwing dirty water into the streets is prohibited. (modernized)" },
           { es: "Trata-se das águas usadas na cozinha e na limpeza da casa.", en: "This refers to the water used in the kitchen and for cleaning the house." },
           { es: "No original, a quantia aparece como 10$000.", en: "In the original, the sum appears as 10$000." },
           { es: "O cifrão separava os mil-réis dos réis.", en: "The dollar-like sign separated the thousands of réis from the réis." },
@@ -2203,7 +2201,7 @@ export const PT_C2_U13: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The Town Council [gives public notice] that the fine is ten thousand réis.",
+            en: "The City Council [gives public notice] that the fine is ten thousand réis.",
             sentence: "A Câmara Municipal ___ que a multa é de dez mil-réis.",
             answer: "torna público",
             altAnswers: ["faz saber", "comunica"],
@@ -2283,7 +2281,7 @@ export const PT_C2_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Modernise: \"A Camara faz publico que fica prohibido.\"",
+        prompt: "Modernize: \"A Camara faz publico que fica prohibido.\"",
         source: "The Council gives notice that it is prohibited.",
         answer: "A Câmara torna público que fica proibido.",
         altAnswers: ["A Câmara faz público que fica proibido.", "A Câmara comunica que fica proibido.", "A Câmara informa que fica proibido.", "A Câmara torna público que é proibido."],
@@ -2293,10 +2291,10 @@ export const PT_C2_U13: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "This edition is intended for secondary-school students.",
+        source: "This edition is intended for high school students.",
         answer: "Esta edição é destinada a alunos do ensino médio.",
         altAnswers: ["Esta edição se destina a alunos do ensino médio.", "Esta edição é destinada aos alunos do ensino médio.", "Esta edição se destina aos alunos do ensino médio.", "Esta edição foi pensada para alunos do ensino médio.", "Esta edição é voltada para alunos do ensino médio."],
-        explanation: "Secondary school in Brazil is the \"ensino médio\". \"Destinar-se a\" = to be intended for.",
+        explanation: "High school in Brazil is the \"ensino médio\". \"Destinar-se a\" = to be intended for.",
       },
       {
         type: "word-order",
@@ -2323,7 +2321,7 @@ export const PT_C2_U13: Lesson[] = [
       {
         type: "dictation",
         audio: "Optou-se por uma transcrição semidiplomática.",
-        explanation: "\"Semidiplomática\" is one word with no hyphen: the Acordo joins \"semi-\" to words beginning with a consonant other than h, r or s.",
+        explanation: "\"Semidiplomática\" is one word with no hyphen: after the Acordo, \"semi-\" takes a hyphen only before h or i (\"semi-internato\"), and before r or s the consonant doubles (\"semirreta\").",
       },
       {
         type: "translate",
@@ -2347,7 +2345,7 @@ export const PT_C2_U13: Lesson[] = [
 
 export const PT_C2_U13_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A history teacher in Recife is preparing a booklet of historic documents for her secondary-school students and has asked you to write the presentation of one of them: the Lei Áurea of 1888 (or another document from this unit). Write 250-400 words in Portuguese. State your editorial criteria (spelling, abbreviations, cuts), quote at least two short passages correctly, explain the document's formulas and what they do, and comment on it in its context without anachronism, saying what it reveals and what it leaves out.",
+  prompt: "A history teacher in Recife is preparing a booklet of historic documents for her high school students and has asked you to write the presentation of one of them: the Lei Áurea of 1888 (or another document from this unit). Write 250-400 words in Portuguese. State your editorial criteria (spelling, abbreviations, cuts), quote at least two short passages correctly, explain the document's formulas and what they do, and comment on it in its context without anachronism, saying what it reveals and what it leaves out.",
   minWords: 250,
   maxWords: 400,
   rubric: [

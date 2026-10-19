@@ -92,7 +92,7 @@ export const FR_B2_U24: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "I have a terrible memory.",
+            question: "Which is correct for: I have a terrible memory?",
             options: ["J'ai une mémoire terrible.", "J'ai un souvenir terrible.", "J'ai une terrible souvenance.", "Je me souviens terrible."],
             correctIndex: 0,
             explanation: "The faculty is \"la mémoire\"; \"un souvenir\" is one remembered event. (\"Une très mauvaise mémoire\" is more idiomatic still.)",
@@ -222,7 +222,7 @@ export const FR_B2_U24: Lesson[] = [
     level: "FR-B2",
     number: 2,
     title: "Word Web: Art and Literature",
-    summary: "Works, genres, techniques and criticism, from une œuvre and un recueil to un vernissage, with subjunctive relatives to praise them.",
+    summary: "Works, genres, techniques and criticism, from \"une œuvre\" and \"un recueil\" to \"un vernissage\", with subjunctive relatives to praise them.",
     duration: "15 min",
     sections: [
       {
@@ -320,7 +320,7 @@ export const FR_B2_U24: Lesson[] = [
             prompt: "Translate into French.",
             source: "It's the only book that has made me laugh out loud.",
             answer: "C'est le seul livre qui m'ait fait rire aux éclats.",
-            altAnswers: ["C'est le seul livre qui m'ait fait éclater de rire.", "C'est le seul livre qui m'ait fait rire à voix haute."],
+            altAnswers: ["C'est le seul livre qui m'ait fait éclater de rire."],
             explanation: "\"Le seul\" + subjunctive \"ait fait\".",
           },
           {
@@ -377,7 +377,7 @@ export const FR_B2_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "the most moving film I've ever seen",
+        question: "Which is correct for: the most moving film I've ever seen?",
         options: ["le film le plus bouleversant que j'aie jamais vu", "le film le plus bouleversant que j'ai jamais vu hier", "le film plus bouleversant que j'aie jamais vu", "le film le plus bouleversant dont j'aie jamais vu"],
         correctIndex: 0,
         explanation: "\"Le film le plus...\" + subjunctive relative.",
@@ -544,7 +544,7 @@ export const FR_B2_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Having children made me calmer.",
+        question: "Which is correct for: Having children made me calmer?",
         options: ["Les enfants m'ont rendu plus calme.", "Les enfants m'ont fait plus calme.", "Les enfants m'ont devenu plus calme.", "Les enfants ont rendu moi plus calme."],
         correctIndex: 0,
         explanation: "\"Rendre\" + adjective.",
@@ -582,7 +582,7 @@ export const FR_B2_U24: Lesson[] = [
     level: "FR-B2",
     number: 4,
     title: "Spiral Review: Dictation: Formal Connectors",
-    summary: "Back to Units 17-18: hear and write sentences with néanmoins, par conséquent, en outre and or.",
+    summary: "Back to Units 17-18: hear and write sentences with \"néanmoins\", \"par conséquent\", \"en outre\" and \"or\".",
     duration: "12 min",
     sections: [
       {
@@ -747,7 +747,7 @@ export const FR_B2_U24: Lesson[] = [
     level: "FR-B2",
     number: 5,
     title: "Word Web: Politics and Government",
-    summary: "Elections, laws, parties and protest, la politique vs le politique, with conjunctions and the passive to report political news.",
+    summary: "Elections, laws, parties and protest, \"la politique\" vs \"le politique\", with conjunctions and the passive to report political news.",
     duration: "15 min",
     sections: [
       {
@@ -845,7 +845,7 @@ export const FR_B2_U24: Lesson[] = [
             source: "The law was passed although many people were against it.",
             answer: "La loi a été adoptée bien que beaucoup de gens y soient opposés.",
             altAnswers: ["La loi a été adoptée bien que beaucoup de gens y aient été opposés.", "La loi a été votée bien que beaucoup de gens y soient opposés.", "La loi a été adoptée bien que beaucoup de personnes y soient opposées.", "La loi a été adoptée bien que beaucoup de gens soient contre."],
-            explanation: "Passive + \"bien que\" + subjunctive; \"y\" = to it (être opposé à).",
+            explanation: "Passive + \"bien que\" + subjunctive; \"y\" = to it (\"être opposé à\").",
           },
           {
             type: "speak",
@@ -898,11 +898,11 @@ export const FR_B2_U24: Lesson[] = [
         sentence: "Le gouvernement a reculé ___ la grève ne s'étende.",
         answer: "de peur que",
         altAnswers: ["de crainte que"],
-        explanation: "\"De peur que\" + subjunctive with ne explétif.",
+        explanation: "\"De peur que\" + subjunctive with the \"ne\" explétif.",
       },
       {
         type: "multiple-choice",
-        question: "politicians (everyday word)",
+        question: "Which is correct for: politicians (everyday word)?",
         options: ["les hommes et les femmes politiques", "les politiciens de la politique", "les politiques de la loi", "les polices"],
         correctIndex: 0,
         explanation: "\"Un homme / une femme politique\" is the neutral word; \"politicien\" is often pejorative.",
@@ -978,7 +978,7 @@ export const FR_B2_U24: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Don't let him drive. (to Inès, polite)",
+            question: "Which is correct for: Don't let him drive (to Inès, polite)?",
             options: ["Ne le laissez pas conduire.", "Ne laissez pas lui conduire.", "Ne le laissez pas de conduire.", "Ne laissez-le pas conduire."],
             correctIndex: 0,
             explanation: "Negative imperative: pronoun before the verb; \"laisser\" + infinitive directly.",
@@ -990,7 +990,7 @@ export const FR_B2_U24: Lesson[] = [
         body: [
           "That evening, Inès tells her brother: « Le médecin m'a dit que les résultats étaient bons et que papa pourrait rentrer le lendemain. Il a ajouté qu'il faudrait qu'il se repose deux semaines. Il m'a demandé s'il prenait toujours ses médicaments et ce qu'il mangeait le soir. Il m'a dit de ne pas le laisser conduire et de le rappeler vendredi. »",
           "Shifts: \"sont\" → \"étaient\"; \"pourra\" → \"pourrait\"; \"demain\" → \"le lendemain\"; \"il faudra\" → \"il faudrait\"; \"est-ce qu'il prend\" → \"s'il prenait\"; \"qu'est-ce qu'il mange\" → \"ce qu'il mangeait\"; imperatives → \"de\" + infinitive; \"votre père\" → \"papa\".",
-          "If she reports it the same day and the tomorrow is still tomorrow, \"demain\" can stay: the time words follow the real situation.",
+          "If she reports it the same day and tomorrow is still tomorrow, \"demain\" can stay: the time words follow the real situation.",
         ],
         examples: [
           { es: "Le médecin m'a dit que les résultats étaient bons.", en: "The doctor told me the results were good." },
@@ -1066,7 +1066,7 @@ export const FR_B2_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "He said he would need to rest.",
+        question: "Which is correct for: He said he would need to rest?",
         options: ["Il a dit qu'il faudrait qu'il se repose.", "Il a dit qu'il faudra qu'il se reposera.", "Il a dit qu'il faudrait qu'il se reposerait.", "Il a dit de faudrait qu'il se repose."],
         correctIndex: 0,
         explanation: "\"Il faudra\" → \"il faudrait\" + subjunctive (unchanged).",
@@ -1229,7 +1229,7 @@ export const FR_B2_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "She had her car repaired.",
+        question: "Which is correct for: She had her car repaired?",
         options: ["Elle a fait réparer sa voiture.", "Elle a fait réparée sa voiture.", "Elle a faite réparer sa voiture.", "Elle s'est fait réparer à sa voiture."],
         correctIndex: 0,
         explanation: "\"Faire\" + infinitive; no agreement.",
@@ -1274,7 +1274,7 @@ export const FR_B2_U24: Lesson[] = [
         heading: "Gérondif and present participle",
         body: [
           "The gérondif \"en\" + -ant (simultaneity, means, condition) and the present participle (written cause or a replacement for \"qui\" + verb) are invariable: \"en chantant\", \"les élèves ayant fini\".",
-          "Formation: the nous stem + -ant (\"nous finissons\" → \"finissant\"); irregulars \"ayant\", \"étant\", \"sachant\". Spelling: -geant (\"mangeant\"), -çant (\"commençant\").",
+          "Formation: the \"nous\" stem + -ant (\"nous finissons\" → \"finissant\"); irregulars \"ayant\", \"étant\", \"sachant\". Spelling: -geant (\"mangeant\"), -çant (\"commençant\").",
         ],
         examples: [
           { es: "Elle travaille en écoutant de la musique.", en: "She works while listening to music." },
@@ -1303,7 +1303,7 @@ export const FR_B2_U24: Lesson[] = [
       {
         heading: "Participle or adjective? The spelling pairs",
         body: [
-          "Some adjectives (adjectifs verbaux) are spelled differently from the participle: \"fatiguant\" (participle) vs \"fatigant\" (tiring), \"convainquant\" vs \"convaincant\", \"provoquant\" vs \"provocant\", \"différant\" vs \"différent\", \"précédant\" vs \"précédent\", \"négligeant\" vs \"négligent\".",
+          "Some adjectives (\"adjectifs verbaux\") are spelled differently from the participle: \"fatiguant\" (participle) vs \"fatigant\" (tiring), \"convainquant\" vs \"convaincant\", \"provoquant\" vs \"provocant\", \"différant\" vs \"différent\", \"précédant\" vs \"précédent\", \"négligeant\" vs \"négligent\".",
           "The adjective agrees (\"une journée fatigante\"); the participle doesn't (\"en fatiguant tout le monde\"). Test: can you add \"très\"? Then it's the adjective.",
         ],
         examples: [
@@ -1396,7 +1396,7 @@ export const FR_B2_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "the previous week",
+        question: "Which is correct for: the previous week?",
         options: ["la semaine précédente", "la semaine précédante", "la semaine précédant", "la semaine précédée"],
         correctIndex: 0,
         explanation: "Adjective \"précédent(e)\" with -ent.",
@@ -1414,7 +1414,7 @@ export const FR_B2_U24: Lesson[] = [
     level: "FR-B2",
     number: 9,
     title: "Word Web: Dreams and Imagination",
-    summary: "Rêver de, un cauchemar, une rêverie, s'imaginer, faire semblant (not prétendre!), with si and comme si to imagine.",
+    summary: "\"Rêver de\", \"un cauchemar\", \"une rêverie\", \"s'imaginer\", \"faire semblant\" (not \"prétendre\"!), with \"si\" and \"comme si\" to imagine.",
     duration: "14 min",
     sections: [
       {
@@ -1474,7 +1474,7 @@ export const FR_B2_U24: Lesson[] = [
             prompt: "Translate into French.",
             source: "She pretended not to see me.",
             answer: "Elle a fait semblant de ne pas me voir.",
-            explanation: "\"Faire semblant de\" + infinitive. *\"Elle a prétendu ne pas me voir\" would mean she claimed she didn't see me.",
+            explanation: "\"Faire semblant de\" + infinitive. \"Elle a prétendu ne pas me voir\" would mean she claimed she didn't see me.",
           },
           {
             type: "multiple-choice",
@@ -1573,7 +1573,7 @@ export const FR_B2_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You're imagining things!",
+        question: "Which is correct for: You're imagining things?",
         options: ["Tu te fais des idées !", "Tu prétends des choses !", "Tu fais semblant des idées !", "Tu rêves à des choses !"],
         correctIndex: 0,
         explanation: "\"Se faire des idées\" = to imagine things.",
@@ -1652,7 +1652,7 @@ export const FR_B2_U24: Lesson[] = [
         heading: "The old man's method",
         body: [
           "Armand's method in causatives and reported orders: \"Il le faisait démonter des réveils pendant des heures\", \"Il ne le laissait jamais partir avant d'avoir rangé\", \"Il lui a dit de revenir le lendemain, et le surlendemain\".",
-          "His expectations in the subjunctive: \"Je ne te demande pas que tu sois parfait. Je veux que tu sois là à huit heures.\" \"Il faut que tu apprennes la patience avant que je te confie une montre.\"",
+          "His expectations in the subjunctive: \"Je ne te demande pas d'être parfait. Je veux que tu sois là à huit heures.\" \"Il faut que tu apprennes la patience avant que je te confie une montre.\"",
           "The gérondif of means: \"C'est en réparant des horloges que Yanis a réparé un peu sa vie.\"",
         ],
         examples: [
@@ -1755,7 +1755,7 @@ export const FR_B2_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "He ended up passing his exam.",
+        question: "Which is correct for: He ended up passing his exam?",
         options: ["Il a fini par réussir son examen.", "Il a fini de réussir son examen.", "Il a fini à réussir son examen.", "Il a finissant réussi son examen."],
         correctIndex: 0,
         explanation: "\"Finir par\" = to end up; \"finir de\" = to finish doing.",
@@ -1839,7 +1839,7 @@ export const FR_B2_U24: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "If you come, I'll make a cake.",
+            question: "Which is correct for: If you come, I'll make a cake?",
             options: ["Si tu viens, je ferai un gâteau.", "Si tu viendras, je ferai un gâteau.", "Si tu venais, je ferai un gâteau.", "Si tu viendrais, je ferais un gâteau."],
             correctIndex: 0,
             explanation: "Real: \"si\" + présent → futur.",
@@ -1866,7 +1866,7 @@ export const FR_B2_U24: Lesson[] = [
             prompt: "Translate into French.",
             source: "Without your help, I would have failed.",
             answer: "Sans ton aide, j'aurais échoué.",
-            altAnswers: ["Sans votre aide, j'aurais échoué.", "Sans ton aide, j'aurais raté."],
+            altAnswers: ["Sans votre aide, j'aurais échoué."],
             explanation: "\"Sans\" + noun → conditionnel passé.",
           },
           {
@@ -1932,7 +1932,7 @@ export const FR_B2_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "If I had known, I would have come.",
+        question: "Which is correct for: If I had known, I would have come?",
         options: ["Si j'avais su, je serais venu.", "Si j'aurais su, je serais venu.", "Si j'avais su, je venais.", "Si j'avais su, je viendrai."],
         correctIndex: 0,
         explanation: "\"Si\" + plus-que-parfait → conditionnel passé. *\"Si j'aurais su\" is a famous error.",

@@ -8,7 +8,7 @@ export const PT_A1_U04_EXTRA: Lesson[] = [
     level: "PT-A1",
     number: 1,
     title: "Extra Practice: -AR Verbs & Ter, Part 1 of 3",
-    summary: "Practise regular -ar verbs in every person, together with gostar de and precisar de.",
+    summary: "Practice regular -ar verbs in every person, together with gostar de and precisar de.",
     duration: "12 min",
     optional: true,
     sections: [
@@ -182,7 +182,7 @@ export const PT_A1_U04_EXTRA: Lesson[] = [
         type: "speak",
         text: "Eu preciso de ajuda, por favor.",
         prompt: "Say it in Portuguese: I need help, please.",
-        tip: "pre-SI-zo: the s between vowels sounds like z.",
+        tip: "pre-SEE-zoo: the c sounds like s, the s between vowels sounds like z, and the final o like u.",
         explanation: "\"Precisar de\" before a noun.",
       },
     ],
@@ -192,7 +192,7 @@ export const PT_A1_U04_EXTRA: Lesson[] = [
     level: "PT-A1",
     number: 2,
     title: "Extra Practice: -AR Verbs & Ter, Part 2 of 3",
-    summary: "Practise ter for possession, age and obligation with tenho que, and ter fome versus estar com fome.",
+    summary: "Practice ter for possession, age and obligation with tenho que, and ter fome versus estar com fome.",
     duration: "12 min",
     optional: true,
     sections: [
@@ -378,7 +378,7 @@ export const PT_A1_U04_EXTRA: Lesson[] = [
     level: "PT-A1",
     number: 3,
     title: "Extra Practice: -AR Verbs & Ter, Part 3 of 3",
-    summary: "Practise negatives, yes/no questions and short answers that repeat the verb, written and spoken.",
+    summary: "Practice negatives, yes/no questions and short answers that repeat the verb, written and spoken.",
     duration: "12 min",
     optional: true,
     sections: [
@@ -407,7 +407,7 @@ export const PT_A1_U04_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your neighbour asks: \"Você mora aqui?\" You do. What's the natural answer?",
+            question: "Your neighbor asks: \"Você mora aqui?\" You do. What's the natural answer?",
             options: ["Moro.", "Mora.", "Sim, mora.", "Moramos."],
             correctIndex: 0,
             explanation: "Answer with the verb in the eu form: \"moro\". \"Mora\" just repeats the question's form.",

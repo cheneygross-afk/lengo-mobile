@@ -301,7 +301,7 @@ export const PT_A2_U09: Lesson[] = [
           { es: "Aguarde um momento, por favor.", en: "Please wait a moment." },
           { es: "Assine aqui, por favor.", en: "Please sign here." },
           { es: "Preencha o formulário com seus dados.", en: "Fill in the form with your details." },
-          { es: "Senhora, use o elevador da direita.", en: "Ma'am, use the lift on the right." },
+          { es: "Senhora, use o elevador da direita.", en: "Ma'am, use the elevator on the right." },
         ],
         checkpoint: [
           {
@@ -324,7 +324,7 @@ export const PT_A2_U09: Lesson[] = [
             type: "speak",
             text: "Aguarde um momento, por favor.",
             tip: "The final \"de\" in \"aguarde\" sounds like dji: a-GUAR-dji.",
-            explanation: "\"Aguardar\" → \"aguardo\" → \"aguarde\", the polite way to say wait in shops, offices and on the phone.",
+            explanation: "\"Aguardar\" → \"aguardo\" → \"aguarde\", the polite way to say wait in stores, offices and on the phone.",
           },
         ],
       },
@@ -338,7 +338,7 @@ export const PT_A2_U09: Lesson[] = [
           { es: "Empurre a porta.", en: "Push the door." },
           { es: "Puxe a porta com força.", en: "Pull the door hard." },
           { es: "Aperte o botão e aguarde.", en: "Press the button and wait." },
-          { es: "Desligue o celular durante o filme.", en: "Switch off your phone during the film." },
+          { es: "Desligue o celular durante o filme.", en: "Switch off your phone during the movie." },
           { es: "Misture o leite condensado e o chocolate.", en: "Mix the condensed milk and the chocolate." },
           { es: "Bata os ovos e acrescente o açúcar.", en: "Beat the eggs and add the sugar." },
         ],
@@ -543,7 +543,7 @@ export const PT_A2_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your mum calls from the kitchen: \"Põe a mesa!\" What does she want?",
+            question: "Your mom calls from the kitchen: \"Põe a mesa!\" What does she want?",
             options: ["Set the table!", "Clear the table!", "Sit at the table!", "Clean the table!"],
             correctIndex: 0,
             explanation: "\"Põe\" is the everyday command of \"pôr\" (to put), and \"pôr a mesa\" means to set the table. The careful form is \"ponha a mesa\".",
@@ -582,7 +582,7 @@ export const PT_A2_U09: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[Go] to reception, please. (to a hotel guest)",
+            en: "[Go] to the front desk, please. (to a hotel guest)",
             sentence: "___ até a recepção, por favor.",
             answer: "Vá",
             altAnswers: ["Vai"],
@@ -636,7 +636,7 @@ export const PT_A2_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You work at a hotel. Politely tell a guest to be at reception at eight.",
+        question: "You work at a hotel. Politely tell a guest to be at the front desk at eight.",
         options: ["Esteja na recepção às oito, por favor.", "Seja na recepção às oito, por favor.", "Está na recepção às oito, por favor.", "Estou na recepção às oito, por favor."],
         correctIndex: 0,
         explanation: "Being somewhere takes \"estar\", so the command is \"esteja\". \"Seja\" comes from \"ser\", and \"está\" is just the present.",
@@ -872,7 +872,7 @@ export const PT_A2_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend is leaving your flat and you see her keys on the table. What do you say?",
+        question: "Your friend is leaving your apartment and you see her keys on the table. What do you say?",
         options: ["Não esquece a chave!", "Esquece a chave!", "Não esqueceu a chave!", "Não esqueço a chave!"],
         correctIndex: 0,
         explanation: "\"Não esquece\" is the friendly everyday negative command. Without \"não\" it tells her to forget. \"Esqueceu\" is past and \"esqueço\" is I forget.",
@@ -999,8 +999,8 @@ export const PT_A2_U09: Lesson[] = [
       {
         heading: "Será que...?: the gentlest ask",
         body: [
-          "\"Será que\" (literally 'will it be that') turns a request into wondering out loud: \"será que você pode me ajudar?\" is like 'I wonder if you could help me'. It leaves room for a no, so it suits favours and awkward asks. It works for plain questions too: \"será que tem um banheiro aqui perto?\"",
-          "So one wish can take four tones: \"fecha a janela\" (a command), \"pode fechar a janela?\" (a request), \"você poderia fechar a janela?\" (a polite request) and \"será que você poderia fechar a janela?\" (a careful favour). To say yes, use \"claro\", \"posso, sim\" or \"pode deixar\" (leave it to me).",
+          "\"Será que\" (literally 'will it be that') turns a request into wondering out loud: \"será que você pode me ajudar?\" is like 'I wonder if you could help me'. It leaves room for a no, so it suits favors and awkward asks. It works for plain questions too: \"será que tem um banheiro aqui perto?\"",
+          "So one wish can take four tones: \"fecha a janela\" (a command), \"pode fechar a janela?\" (a request), \"você poderia fechar a janela?\" (a polite request) and \"será que você poderia fechar a janela?\" (a careful favor). To say yes, use \"claro\", \"posso, sim\" or \"pode deixar\" (leave it to me).",
         ],
         examples: [
           { es: "Será que você pode me ajudar com a mala?", en: "I wonder if you could help me with the suitcase." },
@@ -1023,7 +1023,7 @@ export const PT_A2_U09: Lesson[] = [
             type: "speak",
             text: "Será que você pode me ajudar?",
             tip: "The r in \"será\" is a quick tap, like the tt in American 'better'. Stress the last syllable: se-RÁ.",
-            explanation: "\"Será que\" makes the request a gentle wondering, so it's perfect for asking a favour.",
+            explanation: "\"Será que\" makes the request a gentle wondering, so it's perfect for asking a favor.",
           },
         ],
       },
@@ -1180,7 +1180,7 @@ export const PT_A2_U09: Lesson[] = [
           "Ordinals agree with the noun: \"o primeiro ponto\" (the first stop), \"a segunda estação\", \"a terceira rua\". \"Vire na primeira à direita\" means take the first right. Portuguese drops \"rua\" here, just as English drops street. As far as is \"até\": \"siga até a praça\".",
         ],
         examples: [
-          { es: "Pegue o metrô na estação Sé.", en: "Take the metro at Sé station." },
+          { es: "Pegue o metrô na estação Sé.", en: "Take the subway at Sé station." },
           { es: "Desça na segunda estação.", en: "Get off at the second station." },
           { es: "Pegue o ônibus 175 no ponto em frente ao banco.", en: "Take the 175 bus at the stop opposite the bank." },
           { es: "Vire na primeira à direita.", en: "Take the first right." },
@@ -1333,7 +1333,7 @@ export const PT_A2_U09: Lesson[] = [
       {
         type: "speak",
         text: "Com licença, onde fica a estação de metrô?",
-        prompt: "Say it in Portuguese: Excuse me, where is the metro station?",
+        prompt: "Say it in Portuguese: Excuse me, where is the subway station?",
         tip: "Make the ão in estação nasal, with no n at the end. The final ô in metrô is closed and stressed.",
         explanation: "\"Com licença\" means excuse me, and \"onde fica...?\" asks where a place is.",
       },
@@ -1413,7 +1413,7 @@ export const PT_A2_U09: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[Push] the door. (a sign on a shop door)",
+            en: "[Push] the door. (a sign on a store door)",
             sentence: "___ a porta.",
             answer: "Empurre",
             explanation: "Signs use the standard form: \"empurrar\" becomes \"empurre\". Don't confuse it with \"puxe\", which means pull.",
@@ -1432,21 +1432,21 @@ export const PT_A2_U09: Lesson[] = [
       {
         heading: "Don't switch halfway",
         body: [
-          "Pick one form and keep it for the whole sentence. \"Pega o metrô e desça na Sé\" changes register in the middle, like saying 'grab the metro and kindly alight at Sé'. To a friend, say \"Pega o metrô e desce na Sé\". To a stranger, say \"Pegue o metrô e desça na Sé\".",
+          "Pick one form and keep it for the whole sentence. \"Pega o metrô e desça na Sé\" changes register in the middle, like saying 'grab the subway and kindly alight at Sé'. To a friend, say \"Pega o metrô e desce na Sé\". To a stranger, say \"Pegue o metrô e desça na Sé\".",
           "Irregulars and negatives come in the same two sets. \"Vem\", \"faz\", \"traz\" and \"não esquece\" go together, and so do \"venha\", \"faça\", \"traga\" and \"não esqueça\". The pronoun stays before the verb in both: \"me ajuda\", \"me ajude\".",
         ],
         examples: [
           { es: "Vem cá e me ajuda!", en: "Come here and help me!" },
           { es: "Venha cá e me ajude, por favor.", en: "Come here and help me, please." },
-          { es: "Pega o metrô e desce na Sé.", en: "Take the metro and get off at Sé. (to a friend)" },
-          { es: "Pegue o metrô e desça na Sé.", en: "Take the metro and get off at Sé. (to a stranger)" },
+          { es: "Pega o metrô e desce na Sé.", en: "Take the subway and get off at Sé. (to a friend)" },
+          { es: "Pegue o metrô e desça na Sé.", en: "Take the subway and get off at Sé. (to a stranger)" },
           { es: "Não esqueça a chave e feche a porta.", en: "Don't forget the key, and close the door." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Take the metro and [get off] at Sé. (to a stranger)",
+            en: "Take the subway and [get off] at Sé. (to a stranger)",
             sentence: "Pegue o metrô e ___ na Sé.",
             answer: "desça",
             explanation: "\"Pegue\" is the standard form, so the second verb must match: \"desça\". \"Desce\" would switch to the everyday form halfway through.",
@@ -1492,10 +1492,10 @@ export const PT_A2_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Don't use your phone. (a sign in a cinema)",
+        source: "Don't use your phone. (a sign in a movie theater)",
         answer: "Não use o celular.",
         altAnswers: ["Não use celular.", "Não use o seu celular.", "Não use seu celular."],
-        explanation: "Signs use the standard negative: \"não use\". In Brazil a mobile phone is \"celular\".",
+        explanation: "Signs use the standard negative: \"não use\". In Brazil a cell phone is \"celular\".",
       },
       {
         type: "translate",
@@ -1546,7 +1546,7 @@ export const PT_A2_U09: Lesson[] = [
       {
         type: "speak",
         text: "Pegue o metrô e desça na Sé.",
-        prompt: "Say it in Portuguese: Take the metro and get off at Sé. (to a stranger)",
+        prompt: "Say it in Portuguese: Take the subway and get off at Sé. (to a stranger)",
         tip: "In \"pegue\" the u is silent and the é is open: PÉ-gi. The ç in \"desça\" sounds like s.",
         explanation: "Two standard forms for a stranger: \"pegue\" and \"desça\". Keep the same form for both verbs.",
       },
@@ -1584,7 +1584,7 @@ export const PT_A2_U09: Lesson[] = [
           { es: "Com licença, a senhora pode me ajudar?", en: "Excuse me, could you help me?" },
           { es: "Como eu chego na praia de Boa Viagem?", en: "How do I get to Boa Viagem beach?" },
           { es: "Onde fica o Marco Zero?", en: "Where's Marco Zero?" },
-          { es: "Desculpa, você sabe onde fica a estação de metrô?", en: "Sorry, do you know where the metro station is?" },
+          { es: "Desculpa, você sabe onde fica a estação de metrô?", en: "Sorry, do you know where the subway station is?" },
           { es: "Tem uma farmácia aqui perto?", en: "Is there a pharmacy near here?" },
         ],
         checkpoint: [
@@ -1726,7 +1726,7 @@ export const PT_A2_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Excuse me, where is the metro station?",
+        source: "Excuse me, where is the subway station?",
         answer: "Com licença, onde fica a estação de metrô?",
         altAnswers: [
           "Com licença, onde é a estação de metrô?",
@@ -2053,7 +2053,7 @@ export const PT_A2_U09: Lesson[] = [
       {
         type: "speak",
         text: "Sirva quente.",
-        prompt: "Say it in Portuguese: Serve it warm.",
+        prompt: "Say it in Portuguese: Serve it hot.",
         explanation: "\"Servir\" gives \"sirva\", built from \"eu sirvo\". The it isn't said in Portuguese.",
       },
     ],
@@ -2322,7 +2322,7 @@ export const PT_A2_U09: Lesson[] = [
 
 export const PT_A2_U09_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A friend is staying in your apartment in Recife while you're away. Write them a message: explain how to get there from the airport, tell them what to do in the apartment, ask one favour politely and warn them about one thing not to forget.",
+  prompt: "A friend is staying in your apartment in Recife while you're away. Write them a message: explain how to get there from the airport, tell them what to do in the apartment, ask one favor politely and warn them about one thing not to forget.",
   minWords: 50,
   maxWords: 100,
   rubric: [
@@ -2332,5 +2332,5 @@ export const PT_A2_U09_WRITING: WriteExercise = {
     "Put object pronouns before the command, as Brazilians do in speech: \"me manda uma mensagem\", \"me liga\".",
   ],
   modelAnswer: "Oi, Lucas! Tudo bem? No aeroporto, pega o metrô e desce na terceira estação. Sai da estação, segue em frente e vira na segunda rua à direita. Meu prédio fica ao lado de uma padaria. A chave está com o porteiro, seu Antônio: fala com ele e diz que você é meu amigo. Abre as janelas e liga o ventilador. Por favor, põe comida para a gata duas vezes por dia. Não esquece de fechar a porta da varanda! Pode regar as plantas na sexta? Qualquer coisa, me manda uma mensagem. Beijos, Ana",
-  explanation: "To a friend, Brazilians use the everyday imperative, which looks like the present \"você\" form: \"pega\", \"segue\", \"vira\", \"abre\", plus the irregular \"diz\" and \"põe\". The negative works the same way in casual speech, \"não esquece\" (the standard form is \"não esqueça\"). \"Pode regar...?\" softens a request, and the pronoun goes first in \"me manda\". In a note to an older neighbour or a client you would switch the whole message to the standard forms: \"pegue\", \"siga\", \"vire\", \"diga\", \"ponha\".",
+  explanation: "To a friend, Brazilians use the everyday imperative, which looks like the present \"você\" form: \"pega\", \"segue\", \"vira\", \"abre\", plus the irregular \"diz\" and \"põe\". The negative works the same way in casual speech, \"não esquece\" (the standard form is \"não esqueça\"). \"Pode regar...?\" softens a request, and the pronoun goes first in \"me manda\". In a note to an older neighbor or a client you would switch the whole message to the standard forms: \"pegue\", \"siga\", \"vire\", \"diga\", \"ponha\".",
 };

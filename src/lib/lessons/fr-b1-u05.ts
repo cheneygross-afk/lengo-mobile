@@ -128,7 +128,7 @@ export const FR_B1_U05: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which reply wishes Camille well correctly?",
-            options: ["Je souhaite que tout se passe bien.", "Je souhaite que tout se passera bien.", "J'espère que tout se passe bien ?", "Je souhaite que tout va bien."],
+            options: ["Je souhaite que tout se passe bien.", "Je souhaite que tout se passera bien.", "Je souhaite que tout se passerait bien.", "Je souhaite que tout va bien."],
             correctIndex: 0,
             explanation: "\"Souhaiter que\" takes the subjunctive: \"que tout se passe\". With \"espérer\" you would say \"j'espère que tout se passera bien\" (indicative).",
           },
@@ -278,7 +278,7 @@ export const FR_B1_U05: Lesson[] = [
         heading: "Paragraph 1: Settling in",
         body: [
           "Here is the first paragraph of the letter. Read it aloud and decide, for each verb, which frame Mamie uses and why.",
-          "« Tu pars dans une semaine et je pense déjà à toi. Il faut que tu trouves vite un appartement, mais il ne faut pas signer le premier bail venu. Il faut toujours visiter avant de payer. J'espère que ton chef te laissera un peu de temps pour t'installer. Il faut aussi que tu prennes une assurance pour ton logement. »",
+          "\"Tu pars dans une semaine et je pense déjà à toi. Il faut que tu trouves vite un appartement, mais il ne faut pas signer le premier bail venu. Il faut toujours visiter avant de payer. J'espère que ton chef te laissera un peu de temps pour t'installer. Il faut aussi que tu prennes une assurance pour ton logement.\"",
           "\"Il faut toujours visiter\" is a general rule (anyone should visit before paying), while \"il faut que tu prennes\" is a task for Lucas. The negative \"il ne faut pas signer\" means you mustn't sign: a warning, not 'you don't have to'. \"Le premier bail venu\" is an idiom: the first lease that comes along.",
         ],
         examples: [
@@ -318,7 +318,7 @@ export const FR_B1_U05: Lesson[] = [
       {
         heading: "Paragraph 2: Food, money and friends",
         body: [
-          "« Je sais que tu cuisines peu. Il faut que tu manges autre chose que des pâtes ! Il faut acheter des fruits au marché, c'est moins cher. Il faut que tu m'appelles le dimanche, comme ça je saurai que tout va bien. Et il faut que tu sortes un peu : il ne faut pas rester seul le soir. J'espère que tu te feras vite des amis. »",
+          "\"Je sais que tu cuisines peu. Il faut que tu manges autre chose que des pâtes ! Il faut acheter des fruits au marché, c'est moins cher. Il faut que tu m'appelles le dimanche, comme ça je saurai que tout va bien. Et il faut que tu sortes un peu : il ne faut pas rester seul le soir. J'espère que tu te feras vite des amis.\"",
           "\"Je sais que tu cuisines peu\" is a fact, so the indicative. Two verbs here show the subjunctive clearly because their stems are audible: \"que tu sortes\" (the t is pronounced, unlike \"tu sors\") and \"que tu m'appelles\" (two l's, from ils appellent).",
           "\"Se faire des amis\" is to make friends: French uses faire, not a verb like 'make', and the pronoun stays: \"tu te feras des amis\".",
         ],
@@ -596,6 +596,7 @@ export const FR_B1_U05: Lesson[] = [
         prompt: "A learner wrote \"Je souhaite que vous passez de bonnes fêtes.\" Write it correctly: I hope you have a good holiday season.",
         source: "I hope you have a good holiday season. (use souhaiter, to a group)",
         answer: "Je souhaite que vous passiez de bonnes fêtes.",
+        altAnswers: ["Je vous souhaite de bonnes fêtes."],
         explanation: "\"Souhaiter que\" + subjunctive: \"que vous passiez\" (-iez). \"Passez\" is the indicative.",
       },
       {
@@ -1261,7 +1262,7 @@ export const FR_B1_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "I'm glad to come tomorrow.",
+        source: "I'm glad to be coming tomorrow.",
         answer: "Je suis content de venir demain.",
         altAnswers: ["Je suis contente de venir demain.", "Je suis heureux de venir demain.", "Je suis heureuse de venir demain."],
         explanation: "Same subject: \"content de\" + infinitive.",
@@ -1386,7 +1387,7 @@ export const FR_B1_U05: Lesson[] = [
       {
         heading: "Ait, aie, aies, aient versus es and est",
         body: [
-          "The subjunctive of avoir also hides its endings: \"que j'aie\", \"que tu aies\", \"qu'il ait\", \"qu'ils aient\" all sound [ɛ]. And, in fast speech, so do \"es\" and \"est\" (from être). The trigger tells you which verb you need: after \"content que\", you need avoir's subjunctive if the meaning is have, être's indicative is impossible.",
+          "The subjunctive of avoir also hides its endings: \"que j'aie\", \"que tu aies\", \"qu'il ait\", \"qu'ils aient\" all sound [ɛ]. And, in fast speech, so do \"es\" and \"est\" (from être). The trigger tells you which verb you need: after \"content que\", you need avoir's subjunctive if the meaning is have; être's indicative (es, est) is impossible there.",
           "So in \"je suis contente qu'elle ait son bac\", you know: emotion trigger (subjunctive), meaning have (avoir), elle (ending -t). Three steps, one spelling.",
           "\"Que j'aie\" ends in -e: a frequent error is *que j'ai, which is the present indicative. Only \"il\" has the t.",
         ],
@@ -1548,11 +1549,11 @@ export const FR_B1_U05: Lesson[] = [
       },
       {
         type: "listen-choose",
-        audio: "Je veux qu'ils partent.",
+        audio: "Je veux qu'ils arrivent.",
         question: "What did you hear?",
-        options: ["Je veux qu'ils partent.", "Je veux qu'il parte.", "Je veux partir.", "Je veux qu'il parle."],
+        options: ["Je veux qu'ils arrivent.", "Je veux qu'il arrive.", "Je veux arriver.", "Je veux qu'il arrête."],
         correctIndex: 0,
-        explanation: "Trick question for the ear: \"qu'il parte\" and \"qu'ils partent\" sound the same. Here you only know from context; in writing, the subject decides the ending.",
+        explanation: "The liaison z in \"qu'ils_arrivent\" [kilzaʁiv] is the only sound that tells you the subject is plural; \"qu'il arrive\" has no z. Before a consonant (\"qu'il parte\" / \"qu'ils partent\"), the two are impossible to tell apart.",
       },
       {
         type: "speak",
@@ -1835,7 +1836,7 @@ export const FR_B1_U05: Lesson[] = [
         body: [
           "For nous and vous, these verbs go back to the nous stem of the present and add -ions / -iez: nous venons → que nous venions, nous prenons → que vous preniez, nous buvons → que nous buvions, nous devons → que vous deviez, nous recevons → que nous recevions.",
           "Spelling-change verbs do the same: nous appelons → que nous appelions (one l), nous achetons → que vous achetiez (no accent). The nous and vous forms look exactly like the imparfait (nous venions, vous preniez), so context tells you which one you're reading.",
-          "The classic mistake is to keep the ils stem everywhere: *que nous viennions, *que vous preniez with double n, *que nous boivions. Say them aloud: they sound wrong once you're used to the pattern.",
+          "The classic mistake is to keep the ils stem everywhere: *que nous viennions, *que vous prenniez with double n, *que nous boivions. Say them aloud: they sound wrong once you're used to the pattern.",
         ],
         examples: [
           { es: "Il faut que nous venions plus tôt demain.", en: "We need to come earlier tomorrow." },
@@ -2725,8 +2726,8 @@ export const FR_B1_U05: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "\"La victime est un homme de quarante ans.\" Why \"la\"?",
-            options: ["Victime is always feminine, whoever the person is.", "Because the victim is a woman.", "It's a mistake: it should be le victime.", "Because it's plural."],
+            question: "How do you say: The victim is a forty-year-old man.",
+            options: ["La victime est un homme de quarante ans.", "Le victime est un homme de quarante ans.", "La victime est un homme de quarante années.", "Le victime est une homme de quarante ans."],
             correctIndex: 0,
             explanation: "\"Une victime\", like \"une personne\" and \"une star\", is feminine for everyone.",
           },
@@ -2735,7 +2736,7 @@ export const FR_B1_U05: Lesson[] = [
       {
         heading: "The investigation: enquête, preuve, évidence",
         body: [
-          "\"Une enquête\" is an investigation (and also a survey): the police \"mènent l'enquête\" (lead the investigation, from mener). \"Une preuve\" is a piece of evidence, a proof: \"la police n'a aucune preuve\". \"Un indice\" is a clue.",
+          "\"Une enquête\" is an investigation (and also a survey): the police \"mène l'enquête\" (leads the investigation, from mener). \"Une preuve\" is a piece of evidence, a proof: \"la police n'a aucune preuve\". \"Un indice\" is a clue.",
           "Trap: \"une évidence\" is not evidence. It means something obvious: \"c'est une évidence\" (it's obvious), \"de toute évidence\" (obviously). For evidence, say \"des preuves\".",
           "Verbs: \"accuser quelqu'un de\" + noun or infinitive (to accuse someone of), \"soupçonner\" (to suspect), \"arrêter\" (to arrest, as well as to stop), \"interroger\" (to question).",
         ],

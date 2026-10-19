@@ -237,7 +237,7 @@ export const DELF_B2_CO: ExamPaper = {
           lines: [
             {
               voice: "f",
-              text: "Vous avez entre dix-huit et trente ans et vous avez envie de vous rendre utile ? Le service civique vous propose des missions de six à douze mois dans une association, une collectivité ou un établissement public, en France ou à l'étranger. Aucun diplôme n'est demandé : ce qui compte, c'est votre motivation. Vous recevez une indemnité mensuelle d'environ six cents euros et votre engagement est reconnu dans votre parcours, par exemple pour valider certaines formations. Toutes les missions sont sur le site du service civique.",
+              text: "Vous avez entre seize et vingt-cinq ans et vous avez envie de vous rendre utile ? Le service civique vous propose des missions de six à douze mois dans une association, une collectivité ou un établissement public, en France ou à l'étranger. Aucun diplôme n'est demandé : ce qui compte, c'est votre motivation. Vous recevez une indemnité mensuelle d'environ six cents euros et votre engagement est reconnu dans votre parcours, par exemple pour valider certaines formations. Toutes les missions sont sur le site du service civique.",
             },
           ],
         },
@@ -299,7 +299,7 @@ export const DELF_B2_CO: ExamPaper = {
           options: [
             "avoir au moins le baccalauréat.",
             "avoir déjà travaillé dans une association.",
-            "avoir entre 18 et 30 ans et être motivé.",
+            "avoir entre 16 et 25 ans et être motivé.",
           ],
           answer: 2,
           explanation: "« Aucun diplôme n'est demandé : ce qui compte, c'est votre motivation. »",

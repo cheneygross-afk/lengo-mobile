@@ -9,13 +9,13 @@ export const FR_B2_U28_WRITING: WriteExercise = {
   minWords: 120,
   maxWords: 220,
   rubric: [
-    "Has a title, an introduction with a problématique (\"on peut se demander si...\", \"dans quelle mesure...\") and a conclusion with a proposal (\"il faudrait que...\", \"en définitive\")",
+    "Has a title, an introduction with a \"problématique\" (\"on peut se demander si...\", \"dans quelle mesure...\") and a conclusion with a proposal (\"il faudrait que...\", \"en définitive\")",
     "Structures two arguments and a concession with formal connectors (\"d'une part... d'autre part\", \"en outre\", \"certes... toutefois\", \"par conséquent\")",
     "Uses the subjunctive and the conditional correctly (\"bien que\", \"il est essentiel que\", \"si la mairie interdisait..., les loyers baisseraient\")",
     "Uses precise vocabulary on tourism and housing (\"le surtourisme\", \"les locations de courte durée\", \"les habitants\", \"un logement\", \"les loyers\", \"un quartier\") and at least one emphatic structure or \"dont\"",
   ],
   modelAnswer: "Le centre-ville doit-il rester aux habitants ?\n\nDepuis dix ans, le nombre de locations de courte durée a triplé dans notre centre historique. On peut donc se demander si l'interdiction proposée par la mairie est la bonne réponse.\n\nD'une part, ces locations font flamber les loyers. Dans ma rue, une famille dont les enfants allaient à l'école du quartier a dû partir, faute de trouver un logement abordable. D'autre part, un quartier sans habitants perd son âme : les boulangeries ferment et laissent la place à des boutiques de souvenirs.\n\nCertes, les locations rapportent un revenu à certains propriétaires, et les touristes font vivre les restaurants. Toutefois, ce qui fait le charme d'une ville, ce sont justement ses habitants.\n\nPar conséquent, je soutiens le projet, à condition qu'il soit accompagné de mesures pour les petits propriétaires. Si la mairie limitait ces locations à soixante jours par an au lieu de les interdire totalement, elle trouverait peut-être un équilibre. En définitive, il est essentiel que le centre redevienne un lieu où l'on puisse vivre, et pas seulement passer.",
-  explanation: "The problématique is an indirect question (\"se demander si\"); \"d'une part... d'autre part\", \"certes... toutefois\", \"par conséquent\" and \"en définitive\" structure the argument; \"dont les enfants\" and the pseudo-cleft \"ce qui fait le charme..., ce sont\" add precision and emphasis; \"à condition qu'il soit\", \"il est essentiel que... redevienne\" and \"où l'on puisse\" take the subjunctive; \"si la mairie limitait..., elle trouverait\" is an unreal present hypothesis.",
+  explanation: "The \"problématique\" is an indirect question (\"se demander si\"); \"d'une part... d'autre part\", \"certes... toutefois\", \"par conséquent\" and \"en définitive\" structure the argument; \"dont les enfants\" and the pseudo-cleft \"ce qui fait le charme..., ce sont\" add precision and emphasis; \"à condition qu'il soit\", \"il est essentiel que... redevienne\" and \"où l'on puisse\" take the subjunctive; \"si la mairie limitait..., elle trouverait\" is an unreal present hypothesis.",
 };
 
 export const FR_B2_U28: Lesson[] = [
@@ -213,7 +213,7 @@ export const FR_B2_U28: Lesson[] = [
       {
         type: "dictation",
         audio: "Quoiqu'il ait beaucoup voyagé, il n'a jamais vu la mer.",
-        explanation: "\"Quoique\" (= bien que) + past subjunctive; distinct from \"quoi que\" (whatever).",
+        explanation: "\"Quoique\" (= \"bien que\") + past subjunctive; distinct from \"quoi que\" (whatever).",
       },
       {
         type: "speak",
@@ -636,14 +636,14 @@ export const FR_B2_U28: Lesson[] = [
     level: "FR-B2",
     number: 4,
     title: "Upper-intermediate Challenge: Gérondif, Causatives and Change",
-    summary: "En + -ant, faire and laisser + infinitive, rendre and devenir: the small forms that trip up English speakers, tested one after another.",
+    summary: "\"En\" + -ant, \"faire\" and \"laisser\" + infinitive, \"rendre\" and \"devenir\": the small forms that trip up English speakers, tested one after another.",
     duration: "15 min",
     sections: [
       {
         heading: "English -ing is not always en + -ant",
         body: [
           "English -ing has many French translations. Manner, means or simultaneity with the same subject: gérondif (\"il est entré en courant\", \"en travaillant\"). After a preposition: infinitive (\"avant de partir\", \"sans rien dire\", \"au lieu de travailler\"). After \"after\": infinitif passé (\"après avoir mangé\", \"après être arrivée\"). As a noun: infinitive or noun (\"nager est bon pour la santé\", \"la natation\").",
-          "Ongoing action: present tense or \"être en train de\" (\"je suis en train de cuisiner\"), never *je suis cuisinant. Descriptive -ing after a noun: \"qui\" + verb or a present participle in writing (\"un homme qui portait un chapeau\", \"les passagers voyageant sans billet\").",
+          "Ongoing action: present tense or \"être en train de\" (\"je suis en train de cuisiner\"), never *\"je suis cuisinant\". Descriptive -ing after a noun: \"qui\" + verb or a present participle in writing (\"un homme qui portait un chapeau\", \"les passagers voyageant sans billet\").",
           "Two classics: \"il est entré en courant\" (he ran in: French puts the movement in the verb and the manner in the gérondif), and \"c'est en forgeant qu'on devient forgeron\" (practice makes perfect).",
         ],
         examples: [
@@ -734,7 +734,7 @@ export const FR_B2_U28: Lesson[] = [
         source: "I'm cooking right now.",
         answer: "Je suis en train de cuisiner.",
         altAnswers: ["Je suis en train de faire la cuisine.", "Je cuisine en ce moment.", "Je fais la cuisine en ce moment."],
-        explanation: "\"Être en train de\" + infinitive; never *je suis cuisinant.",
+        explanation: "\"Être en train de\" + infinitive; never *\"je suis cuisinant\".",
       },
       {
         type: "translate",
@@ -751,7 +751,7 @@ export const FR_B2_U28: Lesson[] = [
         source: "Instead of complaining, help me.",
         answer: "Au lieu de te plaindre, aide-moi.",
         altAnswers: ["Au lieu de vous plaindre, aidez-moi.", "Au lieu de râler, aide-moi.", "Au lieu de râler, aidez-moi."],
-        explanation: "\"Au lieu de\" + infinitive (reflexive pronoun matches tu).",
+        explanation: "\"Au lieu de\" + infinitive (reflexive pronoun matches \"tu\").",
       },
       {
         type: "translate",
@@ -794,7 +794,7 @@ export const FR_B2_U28: Lesson[] = [
         en: "They [let him go].",
         sentence: "Ils ___.",
         answer: "l'ont laissé partir",
-        altAnswers: ["l'ont laissé s'en aller", "l'ont laissée partir"],
+        altAnswers: ["l'ont laissé s'en aller"],
         explanation: "\"Laisser\" + infinitive; pronoun before \"laisser\".",
       },
       {
@@ -1285,14 +1285,14 @@ export const FR_B2_U28: Lesson[] = [
     level: "FR-B2",
     number: 7,
     title: "Upper-intermediate Challenge: L'Essai Argumenté",
-    summary: "Build a DELF B2-style argumentative essay on overtourism step by step: a problématique, two arguments with examples, a concession and a conclusion, all held together by formal connectors.",
+    summary: "Build a DELF B2-style argumentative essay on overtourism step by step: a \"problématique\", two arguments with examples, a concession and a conclusion, all held together by formal connectors.",
     duration: "20 min",
     sections: [
       {
         heading: "L'introduction: amener le sujet et poser la problématique",
         body: [
           "A DELF B2 essay opens in three moves: \"amener le sujet\" (a fact or a figure that sets the scene), \"poser la problématique\" (the question your essay answers) and \"annoncer le plan\" (one sentence saying how you will proceed).",
-          "The problématique is usually an indirect question: \"on peut se demander si...\", \"il convient de se demander dans quelle mesure...\". Remember that an indirect question keeps statement word order and has no question mark: \"on peut se demander si le tourisme est une chance\", never \"si est-ce que\".",
+          "The \"problématique\" is usually an indirect question: \"on peut se demander si...\", \"il convient de se demander dans quelle mesure...\". Remember that an indirect question keeps statement word order and has no question mark: \"on peut se demander si le tourisme est une chance\", never \"si est-ce que\".",
           "Avoid \"je\" in the introduction. Use \"on\" or impersonal phrases (\"il s'agit de\", \"il convient de\"); your personal opinion comes later, in the arguments and the conclusion.",
         ],
         examples: [
@@ -1314,7 +1314,7 @@ export const FR_B2_U28: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is a correct problématique?",
+            question: "Which sentence is a correct \"problématique\"?",
             options: ["On peut se demander dans quelle mesure les villes doivent limiter le tourisme.", "On peut se demander est-ce que les villes doivent limiter le tourisme ?", "On peut se demander si les villes doivent-elles limiter le tourisme.", "Je me demande que les villes limitent le tourisme."],
             correctIndex: 0,
             explanation: "Indirect questions keep statement word order: no \"est-ce que\", no inversion, no question mark.",
@@ -1379,7 +1379,7 @@ export const FR_B2_U28: Lesson[] = [
         body: [
           "An Upper-intermediate essay must show that you have considered the other side. The classic pair is \"certes..., mais / toutefois / néanmoins...\": you grant a point, then you limit it. With a conjunction, use the subjunctive: \"bien que le tourisme soit utile, il...\", \"quoique ce soit...\".",
           "\"Il est vrai que\" takes the indicative (it states a fact); \"il n'en reste pas moins que\" (the fact remains that) takes the indicative too and is a strong way to return to your thesis.",
-          "The conclusion sums up (\"en définitive\", \"en somme\", \"pour conclure\"), answers the problématique clearly and opens the debate (\"une ouverture\"), often with a proposal in the conditional or with \"il faudrait que\" + subjunctive.",
+          "The conclusion sums up (\"en définitive\", \"en somme\", \"pour conclure\"), answers the \"problématique\" clearly and opens the debate (\"une ouverture\"), often with a proposal in the conditional or with \"il faudrait que\" + subjunctive.",
         ],
         examples: [
           { es: "Certes, le tourisme rapporte beaucoup d'argent ; toutefois, il ne profite pas à tout le monde.", en: "Admittedly, tourism brings in a lot of money; however, not everyone benefits from it." },
@@ -1478,7 +1478,7 @@ export const FR_B2_U28: Lesson[] = [
         sentence: "___, tout dépend de la façon dont on le gère.",
         answer: "En définitive",
         altAnswers: ["En somme", "Finalement", "Pour conclure", "En conclusion"],
-        explanation: "\"En définitive\" opens a conclusion; note \"la façon dont\" because of \"de la façon\".",
+        explanation: "\"En définitive\" opens a conclusion; note \"la façon dont\": you manage it \"d'une certaine façon\", so \"de\" becomes \"dont\".",
       },
       {
         type: "translate",
@@ -1487,7 +1487,7 @@ export const FR_B2_U28: Lesson[] = [
         source: "It remains to be seen whether travellers will change their habits.",
         answer: "Reste à savoir si les voyageurs changeront leurs habitudes.",
         altAnswers: ["Reste à savoir si les voyageurs vont changer leurs habitudes.", "Il reste à savoir si les voyageurs changeront leurs habitudes.", "Il reste à savoir si les voyageurs vont changer leurs habitudes.", "Reste à savoir si les voyageurs changeront d'habitudes."],
-        explanation: "\"Reste à savoir si\" is a classic opening for the final ouverture.",
+        explanation: "\"Reste à savoir si\" is a classic opening for the final \"ouverture\".",
       },
       {
         type: "multiple-choice",
@@ -1506,17 +1506,17 @@ export const FR_B2_U28: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "DELF B2-style essay. A magazine asks its readers: Should famous tourist sites limit the number of daily visitors? Write an argumentative essay (180-220 words): introduce the subject and a problématique, give two arguments with examples, make a concession, and conclude with a proposal.",
+        prompt: "DELF B2-style essay. A magazine asks its readers: Should famous tourist sites limit the number of daily visitors? Write an argumentative essay (180-220 words): introduce the subject and a \"problématique\", give two arguments with examples, make a concession, and conclude with a proposal.",
         minWords: 160,
         maxWords: 240,
         rubric: [
-          "Introduction with a fact, a problématique as an indirect question and an announced plan",
+          "Introduction with a fact, a \"problématique\" as an indirect question and an announced plan",
           "Two argument paragraphs, each with a connector, an idea and a precise example",
           "A concession (\"certes... toutefois\", \"bien que\" + subjunctive) followed by a return to the thesis",
-          "A conclusion that answers the problématique and opens the debate, with \"il faudrait que\" or a conditional",
+          "A conclusion that answers the \"problématique\" and opens the debate, with \"il faudrait que\" or a conditional",
         ],
         modelAnswer: "Chaque année, plus de trois millions de personnes visitent le Mont-Saint-Michel, souvent concentrées sur quelques semaines. On peut donc se demander s'il faut limiter le nombre de visiteurs quotidiens. Nous verrons d'abord les raisons de le faire, puis ses limites.\n\nD'une part, l'affluence menace les sites eux-mêmes. En effet, dans les Calanques de Marseille, le piétinement a détruit une partie de la végétation, si bien que le parc national impose désormais une réservation pendant l'été. D'autre part, la foule gâche l'expérience des visiteurs : qui a vraiment envie de découvrir Venise au milieu de vingt mille croisiéristes ?\n\nCertes, des quotas risquent de pénaliser les commerçants et de réserver les visites à ceux qui s'organisent longtemps à l'avance. Bien que cette critique soit légitime, il n'en reste pas moins qu'un site abîmé ne rapportera plus rien à personne.\n\nEn définitive, limiter l'accès me paraît nécessaire, à condition que les règles soient claires et que les tarifs restent abordables. Il faudrait aussi que les offices de tourisme mettent en valeur des lieux moins connus. Reste à savoir si les voyageurs accepteront de changer leurs habitudes.",
-        explanation: "The essay follows the DELF plan: introduction with a problématique (\"se demander s'il faut\"), two arguments with precise examples, a concession with \"certes\" and \"bien que\" + subjunctive, then \"il n'en reste pas moins que\", and a conclusion with \"à condition que\" and \"il faudrait que\" + subjunctive and an ouverture.",
+        explanation: "The essay follows the DELF plan: introduction with a \"problématique\" (\"se demander s'il faut\"), two arguments with precise examples, a concession with \"certes\" and \"bien que\" + subjunctive, then \"il n'en reste pas moins que\", and a conclusion with \"à condition que\" and \"il faudrait que\" + subjunctive and an \"ouverture\".",
       },
       {
         type: "speak",
@@ -1641,11 +1641,11 @@ export const FR_B2_U28: Lesson[] = [
             sentence: "Si nous étions partis plus tôt, nous ___ le train.",
             answer: "n'aurions pas raté",
             altAnswers: ["n'aurions pas manqué"],
-            explanation: "Si + plus-que-parfait → conditionnel passé.",
+            explanation: "\"Si\" + plus-que-parfait → conditionnel passé.",
           },
           {
             type: "multiple-choice",
-            question: "Choose the correct word: Actuellement means...",
+            question: "Choose the correct meaning: \"actuellement\" means...",
             options: ["currently", "actually", "eventually", "accurately"],
             correctIndex: 0,
             explanation: "\"Actuellement\" is a false friend: 'actually' is \"en fait\".",
@@ -1656,7 +1656,7 @@ export const FR_B2_U28: Lesson[] = [
             en: "It is the project [that] I care about most.",
             sentence: "C'est le projet ___ je tiens le plus.",
             answer: "auquel",
-            explanation: "\"Tenir à\" → à + lequel = \"auquel\".",
+            explanation: "\"Tenir à\" → \"à\" + \"lequel\" = \"auquel\".",
           },
         ],
       },
@@ -1748,7 +1748,7 @@ export const FR_B2_U28: Lesson[] = [
         source: "If I had known, I would have come with you.",
         answer: "Si j'avais su, je serais venu avec toi.",
         altAnswers: ["Si j'avais su, je serais venue avec toi.", "Si j'avais su, je serais venu avec vous.", "Si j'avais su, je serais venue avec vous.", "Si je l'avais su, je serais venu avec toi.", "Si je l'avais su, je serais venue avec toi."],
-        explanation: "Si + plus-que-parfait → conditionnel passé; \"venir\" takes \"être\".",
+        explanation: "\"Si\" + plus-que-parfait → conditionnel passé; \"venir\" takes \"être\".",
       },
       {
         type: "fill-blank",
@@ -1756,7 +1756,7 @@ export const FR_B2_U28: Lesson[] = [
         en: "The colleague [whose] office is next to mine is leaving.",
         sentence: "La collègue ___ le bureau est à côté du mien s'en va.",
         answer: "dont",
-        explanation: "\"Dont\" replaces \"de + noun\": le bureau de la collègue.",
+        explanation: "\"Dont\" replaces \"de\" + noun: \"le bureau de la collègue\".",
       },
       {
         type: "translate",

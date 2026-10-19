@@ -64,7 +64,7 @@ export const PT_A1_S02_STORIES: Story[] = [
       },
       {
         question: `Why do the friends walk for twenty minutes?`,
-        options: [`The car park is full.`, `They don't have a car.`, `They are lost.`, `They want exercise.`],
+        options: [`The parking lot is full.`, `They don't have a car.`, `They are lost.`, `They want exercise.`],
         correctIndex: 0,
         explanation: `"O estacionamento está lotado, e eles têm que andar vinte minutos."`,
       },
@@ -90,7 +90,7 @@ export const PT_A1_S02_STORIES: Story[] = [
     paragraphs: [
       `São sete e meia da manhã em João Pessoa. Joana tem uma reunião importante às oito e meia, e ela ainda está de pijama. Ela toma banho rápido, coloca um vestido e pega a bolsa.`,
       `Mas onde está a chave de casa? Ela olha na bolsa. Nada. Ela procura no sofá, embaixo da cama, no banheiro e nos bolsos do casaco. Nada. Sem a chave, ela não pode fechar a porta.`,
-      `“Calma, Joana”, ela diz para ela mesma. São quinze para as oito. Ela está com fome e decide tomar um copo de leite rápido.`,
+      `“Calma, Joana”, ela pensa. São quinze para as oito. Ela está com fome e decide tomar um copo de leite rápido.`,
       `Ela abre a geladeira e... lá está a chave, ao lado do iogurte! Joana ri sozinha. Ela pega a chave, fecha a porta e corre para o ponto de ônibus.`,
       `Às oito e vinte, ela chega ao escritório. Ela está feliz, porque está no horário. Ela abre a bolsa para pegar o celular. Nada. Joana fecha os olhos. Ela sabe exatamente onde ele está: na geladeira, ao lado do leite.`,
     ],
@@ -220,8 +220,8 @@ export const PT_A1_S02_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "o guarda-sol", en: "beach umbrella", forms: ["guarda-sol"] },
     { es: "a caixa de som", en: "speaker", forms: ["som"] },
     { es: "o protetor solar", en: "sunscreen", forms: ["protetor", "solar"] },
-    { es: "o isopor", en: "cooler (cool box)", forms: ["isopor"] },
-    { es: "o estacionamento", en: "car park", forms: ["estacionamento"] },
+    { es: "o isopor", en: "cooler (for drinks and food)", forms: ["isopor"] },
+    { es: "o estacionamento", en: "parking lot", forms: ["estacionamento"] },
     { es: "lotado", en: "packed, full", forms: ["lotado"] },
     { es: "as costas", en: "back (of the body)", forms: ["costas"] },
     { es: "a areia", en: "sand", forms: ["areia"] },

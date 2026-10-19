@@ -791,7 +791,7 @@ export const FR_A2_U23: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say 'She ate an apple'?",
             options: ["Elle a mangé une pomme.", "Elle a mangée une pomme.", "Elle est mangée une pomme.", "Elle a mangés une pomme."],
             correctIndex: 0,
             explanation: "Avoir, and the object comes after: no agreement.",
@@ -1036,9 +1036,10 @@ export const FR_A2_U23: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "Your cooking is better than mine. (to a friend)",
-        answer: "Ta cuisine est meilleure que la mienne.",
-        explanation: "\"Meilleure\" agrees with la cuisine; mine = \"la mienne\".",
+        source: "Your cooking is better than at the restaurant. (to a friend)",
+        answer: "Ta cuisine est meilleure qu'au restaurant.",
+        altAnswers: ["Ta cuisine est meilleure que celle du restaurant."],
+        explanation: "\"Meilleure\" agrees with la cuisine; que + au restaurant → \"qu'au restaurant\".",
       },
       {
         type: "translate",
@@ -1094,7 +1095,7 @@ export const FR_A2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'He drives carefully'?",
         options: ["Il conduit prudemment.", "Il conduit prudentement.", "Il prudemment conduit.", "Il conduit prudentment."],
         correctIndex: 0,
         explanation: "-ent adjectives give -emment adverbs, placed after the verb.",
@@ -1537,7 +1538,7 @@ export const FR_A2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence has no error?",
+        question: "How do you say 'She got up early and took the train'?",
         options: ["Elle s'est levée tôt et elle a pris le train.", "Elle s'a levée tôt et elle a pris le train.", "Elle s'est levé tôt et elle est pris le train.", "Elle se levait tôt et elle a prise le train."],
         correctIndex: 0,
         explanation: "Pronominal → être + agreement (\"s'est levée\"); \"prendre\" → avoir + \"pris\" with no agreement.",

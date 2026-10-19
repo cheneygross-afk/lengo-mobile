@@ -1728,7 +1728,7 @@ export const FR_A1_U08: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "We [have just eaten], we [are going to] go out.",
+        en: "We have just eaten, we [are going to] go out.",
         sentence: "Nous venons de manger, nous ___ sortir.",
         answer: "allons",
         explanation: "\"Nous allons\" + infinitive for the plan.",
@@ -1970,7 +1970,7 @@ export const FR_A1_U08: Lesson[] = [
       {
         type: "speak",
         text: "Comment on dit « bonjour » en anglais ?",
-        prompt: "Ask: How do you say 'bonjour' in English?",
+        prompt: "Ask: How do you say \"bonjour\" in English?",
         explanation: "\"Comment on dit... ?\" is the classroom question for how do you say.",
       },
     ],
@@ -2723,7 +2723,7 @@ export const FR_A1_U08: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "Is there [any] milk? — No, there isn't [any] milk.",
+        en: "Is there any milk? — No, there isn't [any] milk.",
         sentence: "Il y a du lait ? — Non, il n'y a pas ___ lait.",
         answer: "de",
         explanation: "After a negative, \"du\" becomes \"de\".",

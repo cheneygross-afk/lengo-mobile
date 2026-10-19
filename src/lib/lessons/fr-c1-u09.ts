@@ -104,7 +104,7 @@ export const FR_C1_U09: Lesson[] = [
           "A useful rule of thumb: all pronominal verbs (\"s'intéresser à\", \"s'adresser à\", \"se fier à\") and \"penser / songer à\" use \"à + stressed pronoun\". When in doubt, a dictionary entry that says \"penser à qqn\" with no 'lui' example is your clue; the y / lui choice is part of the verb, not something you can work out from English.",
         ],
         examples: [
-          { es: "Je pense souvent à elle depuis son départ.", en: "I often think about her since she left." },
+          { es: "Je pense souvent à elle depuis son départ.", en: "I've often thought about her since she left." },
           { es: "Ma grand-mère ? Je tiens énormément à elle.", en: "My grandmother? I'm extremely attached to her." },
           { es: "Pour le remboursement, adressez-vous à lui directement.", en: "For the refund, speak to him directly." },
           { es: "Tout le monde dit que je lui ressemble.", en: "Everyone says I look like him." },
@@ -399,7 +399,7 @@ export const FR_C1_U09: Lesson[] = [
         prompt: "Translate into French.",
         source: "His phone number? I don't remember it.",
         answer: "Son numéro de téléphone ? Je ne m'en souviens pas.",
-        altAnswers: ["Son numéro ? Je ne m'en souviens pas.", "Son numéro de téléphone ? Je ne m'en souviens plus.", "Son numéro ? Je ne m'en souviens plus.", "Son numéro de téléphone ? Je ne m'en rappelle pas.", "Son numéro de téléphone ? Je ne me le rappelle pas."],
+        altAnswers: ["Son numéro ? Je ne m'en souviens pas.", "Son numéro de téléphone ? Je ne m'en souviens plus.", "Son numéro ? Je ne m'en souviens plus.", "Son numéro de téléphone ? Je ne me le rappelle pas."],
         explanation: "A thing after \"se souvenir de\" becomes \"en\": \"je ne m'en souviens pas\".",
       },
       {
@@ -484,7 +484,7 @@ export const FR_C1_U09: Lesson[] = [
         heading: "Penser à / penser de; croire, croire à, croire en",
         body: [
           "\"Penser à\" is to have something in mind (to think about it, to remember to do it): \"pense à acheter du pain\". \"Penser de\" asks for an opinion and lives almost only in questions: \"Qu'est-ce que tu penses de mon projet ?\", \"Qu'en penses-tu ?\" (en = de + it). For a statement of opinion, French uses \"penser que\" or \"trouver\": \"je trouve ton projet ambitieux\", not \"*je pense de ton projet qu'il...\" (possible but heavy).",
-          "\"Croire\" has four constructions. \"Croire quelqu'un / quelque chose\": to believe a person or a statement (\"je te crois\", \"je ne crois pas cette histoire\"). \"Croire à\": to believe in the existence, truth or value of something (\"croire au Père Noël\", \"croire aux fantômes\", \"croire à un projet\"). \"Croire en\": to have faith or trust in someone (\"croire en Dieu\", \"je crois en toi\", \"croire en soi\").",
+          "\"Croire\" has three constructions. \"Croire quelqu'un / quelque chose\": to believe a person or a statement (\"je te crois\", \"je ne crois pas cette histoire\"). \"Croire à\": to believe in the existence, truth or value of something (\"croire au Père Noël\", \"croire aux fantômes\", \"croire à un projet\"). \"Croire en\": to have faith or trust in someone (\"croire en Dieu\", \"je crois en toi\", \"croire en soi\").",
           "The difference between \"croire à\" and \"croire en\" is subtle and natives overlap them, but the core is: à = I believe it exists or will work; en = I trust that person. \"Je crois en toi\" is what a coach says; \"je crois à ton projet\" is what an investor says.",
         ],
         examples: [
@@ -532,7 +532,7 @@ export const FR_C1_U09: Lesson[] = [
           "\"Manquer de\" means to lack (\"il manque de patience\", \"on manque de personnel\"), and with an infinitive, to almost do something (\"j'ai manqué de tomber\", a slightly literary equivalent of \"j'ai failli tomber\"). Finally, \"manquer\" + a direct object is to miss a train, a target, a class: \"j'ai manqué mon train\" (in speech, \"j'ai raté mon train\").",
         ],
         examples: [
-          { es: "Tu me manques terriblement depuis ton départ.", en: "I miss you terribly since you left." },
+          { es: "Tu me manques terriblement depuis ton départ.", en: "I've missed you terribly since you left." },
           { es: "Ses enfants lui manquent quand il part en mission.", en: "He misses his children when he's away on assignment." },
           { es: "Le soleil du Sud nous manque beaucoup à Lille.", en: "We really miss the southern sun in Lille." },
           { es: "Ce stagiaire ne manque pas d'idées, mais il manque de rigueur.", en: "This intern isn't short of ideas, but he lacks rigour." },
@@ -554,7 +554,7 @@ export const FR_C1_U09: Lesson[] = [
             prompt: "Translate into French.",
             source: "My parents miss their village.",
             answer: "Leur village manque à mes parents.",
-            altAnswers: ["Mes parents regrettent leur village."],
+            altAnswers: ["Leur village leur manque.", "Mes parents regrettent leur village."],
             explanation: "The village is missed, so it is the subject: \"leur village manque à mes parents\" (or \"leur village leur manque\").",
           },
           {
@@ -740,7 +740,7 @@ export const FR_C1_U09: Lesson[] = [
             prompt: "Translate into French.",
             source: "The meeting? I won't attend it.",
             answer: "La réunion ? Je n'y assisterai pas.",
-            altAnswers: ["La réunion ? Je ne vais pas y assister.", "La réunion ? Je n'y vais pas assister."],
+            altAnswers: ["La réunion ? Je ne vais pas y assister."],
             explanation: "\"Assister à\" + a thing → y, before the verb it depends on: \"je n'y assisterai pas\" / \"je ne vais pas y assister\".",
           },
           {
@@ -1888,7 +1888,7 @@ export const FR_C1_U09: Lesson[] = [
       {
         heading: "The wrong preposition",
         body: [
-          "The second family uses a preposition, but the English one. \"*Participer dans\" → \"participer à\" (take part in). \"*Dépendre sur\" → \"dépendre de\". \"*Être intéressé dans\" → \"s'intéresser à\" / \"être intéressé par\". \"*Rêver sur\" or \"*rêver à propos\" → \"rêver de\". \"*Se concentrer dans\" → \"se concentrer sur\". \"*Consister de\" → \"consister en\" (+ noun) or \"consister à\" (+ infinitive). \"*Compter sur\" is actually correct (to rely on), a rare case where French and English match.",
+          "The second family uses a preposition, but the English one. \"*Participer dans\" → \"participer à\" (take part in). \"*Dépendre sur\" → \"dépendre de\". \"*Être intéressé dans\" → \"s'intéresser à\" / \"être intéressé par\". \"*Rêver sur\" or \"*rêver à propos\" → \"rêver de\". \"*Se concentrer dans\" → \"se concentrer sur\". \"*Consister de\" → \"consister en\" (+ noun) or \"consister à\" (+ infinitive). \"Compter sur\" is actually correct (to rely on), a rare case where French and English match.",
           "These errors are hard to spot because the sentence still sounds 'prepositional': there is a word in the slot, just not the right one. The cure is the same as in the rest of this unit: learn \"participer à\", \"dépendre de\", \"se concentrer sur\" as whole units.",
           "The relative pronoun follows the preposition: \"le projet auquel j'ai participé\" (not \"*dans lequel\"), \"les facteurs dont dépend le résultat\".",
         ],
@@ -1998,7 +1998,6 @@ export const FR_C1_U09: Lesson[] = [
         en: "[I helped her] move.",
         sentence: "___ à déménager.",
         answer: "Je l'ai aidée",
-        altAnswers: ["Je l'ai aidé"],
         explanation: "\"Aider quelqu'un\" is direct: \"l'\", and the participle agrees with a feminine direct object placed before it.",
       },
       {
@@ -2419,7 +2418,7 @@ export const FR_C1_U09: Lesson[] = [
         prompt: "Translate into French.",
         source: "Let's go!",
         answer: "Allons-nous-en !",
-        altAnswers: ["On s'en va !", "Partons !"],
+        altAnswers: ["On s'en va !", "Partons !", "Allons-y !", "On y va !"],
         explanation: "Affirmative imperative: \"allons-nous-en\".",
       },
       {
@@ -2991,7 +2990,7 @@ export const FR_C1_U09: Lesson[] = [
           "Watch for the combination of a de-verb with a past infinitive, very frequent in apologies: \"je m'en veux de t'avoir fait attendre\", \"merci de m'avoir prévenu\", \"je regrette de ne pas être venu\".",
         ],
         examples: [
-          { es: "Tu nous manques beaucoup depuis que tu es partie à Montréal.", en: "We miss you a lot since you left for Montreal." },
+          { es: "Tu nous manques beaucoup depuis que tu es partie à Montréal.", en: "We've missed you a lot since you left for Montreal." },
           { es: "Je m'en veux de ne pas t'avoir appelée pour ton anniversaire.", en: "I feel bad for not calling you on your birthday." },
           { es: "Ne m'en veux pas si j'arrive en retard samedi.", en: "Don't be angry with me if I'm late on Saturday." },
           { es: "Mamie tient beaucoup à ce que tu sois là pour Noël.", en: "Grandma really wants you to be there for Christmas." },

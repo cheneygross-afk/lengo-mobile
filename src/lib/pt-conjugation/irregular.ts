@@ -96,6 +96,17 @@ export const IRREGULAR: Record<string, IrrSpec> = {
   perder: { pres: "perco perdes perde perdemos perdeis perdem" },
   valer: { pres: "valho vales vale valemos valeis valem" },
   requerer: { pres: "requeiro requeres requer requeremos requereis requerem", subj: "requeira requeiras requeira requeiramos requeirais requeiram", impTu: "requer / requere" },
+  // Like "ver" in the present only; the pretérito and participle are regular (provi, proveu, provido).
+  prover: { pres: "provejo provês provê provemos provedes proveem" },
+  // Defective: only the forms where "haver" has -av- (reavemos, reavia, reaverei), plus the pretérito family (reouve).
+  reaver: {
+    pres: "- - - reavemos reaveis -", pret: "reouve reouveste reouve reouvemos reouvestes reouveram",
+    subj: "- - - - - -",
+  },
+  // o -> u where the stem is stressed (pulo, pule, pulem; que eu pula).
+  polir: { pres: "pulo pules pule polimos polis pulem" },
+  // i -> e in tu, ele, eles (freges, frege, fregem); g -> j before a and o (frijo, frija).
+  frigir: { pres: "frijo freges frege frigimos frigis fregem" },
 };
 
 /**
@@ -158,19 +169,44 @@ export const DOUBLE_PARTICIPLES: Record<string, { ter: string[]; serEstar: strin
     ter: ["pegado", "pego"], serEstar: "pego",
     note: '"Pego" (said with an open or a closed e, depending on the region) is common in Brazilian speech with "ter" and "ser": "tinha pego", "foi pego". Careful writing keeps "pegado" with "ter".',
   },
-  eleger: { ter: ["elegido"], serEstar: "eleito" },
-  imprimir: { ter: ["imprimido"], serEstar: "impresso" },
+  eleger: {
+    ter: ["elegido", "eleito"], serEstar: "eleito",
+    note: 'With "ser" and "estar" only "eleito" ("ela foi eleita"). With "ter" the traditional form is "elegido", but "tinham eleito" is widely used and accepted in Brazil.',
+  },
+  imprimir: {
+    ter: ["imprimido"], serEstar: "impresso",
+    note: 'With "ter": "tinha imprimido". With "ser" and "estar": "impresso" ("o relatório já está impresso"). "Tinha impresso" is heard in speech; careful writing keeps "imprimido".',
+  },
   prender: { ter: ["prendido"], serEstar: "preso" },
-  acender: { ter: ["acendido"], serEstar: "aceso" },
+  acender: {
+    ter: ["acendido"], serEstar: "aceso",
+    note: 'With "ter": "tinha acendido". With "ser" and "estar": "aceso" ("a luz está acesa"). "Tinha aceso" is common in speech; careful writing keeps "acendido".',
+  },
   morrer: { ter: ["morrido"], serEstar: "morto" },
   matar: { ter: ["matado"], serEstar: "morto", note: 'With "ter": "tinham matado". With "ser" and "estar" the participle is "morto", the same as for "morrer": "ele foi morto" (he was killed).' },
-  salvar: { ter: ["salvado", "salvo"], serEstar: "salvo" },
-  soltar: { ter: ["soltado"], serEstar: "solto" },
-  limpar: { ter: ["limpado"], serEstar: "limpo" },
+  salvar: {
+    ter: ["salvado", "salvo"], serEstar: "salvo",
+    note: 'With "ter" both are correct: "tinha salvado" and "tinha salvo" (very common in Brazil, also for files: "já tinha salvo o arquivo"). With "ser" and "estar" only "salvo": "foram salvos".',
+  },
+  soltar: {
+    ter: ["soltado", "solto"], serEstar: "solto",
+    note: 'With "ter" both "tinha soltado" and "tinha solto" are used in Brazil. With "ser" and "estar" only "solto": "o cachorro está solto".',
+  },
+  limpar: {
+    ter: ["limpado"], serEstar: "limpo",
+    note: 'With "ter": "tinha limpado". With "ser" and "estar": "limpo" ("a casa está limpa"). "Tinha limpo" is very common in Brazilian speech; careful writing prefers "limpado".',
+  },
   secar: { ter: ["secado"], serEstar: "seco" },
   expulsar: { ter: ["expulsado"], serEstar: "expulso" },
   suspender: { ter: ["suspendido"], serEstar: "suspenso" },
-  fritar: { ter: ["fritado"], serEstar: "frito" },
+  fritar: {
+    ter: ["fritado", "frito"], serEstar: "frito",
+    note: 'With "ter" both "tinha fritado" and "tinha frito" are used in Brazil. With "ser" and "estar" only "frito": "o peixe foi frito", "a batata está frita".',
+  },
+  frigir: {
+    ter: ["frigido", "frito"], serEstar: "frito",
+    note: 'With "ter": "tinha frigido" or "tinha frito". With "ser" and "estar" only "frito".',
+  },
   enxugar: { ter: ["enxugado"], serEstar: "enxuto" },
   extinguir: { ter: ["extinguido"], serEstar: "extinto" },
   juntar: { ter: ["juntado"], serEstar: "junto" },
@@ -200,7 +236,7 @@ export const VERB_NOTES: Record<string, string[]> = {
   ir: [
     '"Ir" plus an infinitive is the everyday future: "vou viajar amanhã" (I\'m going to travel tomorrow). Brazilians use it far more than the futuro do presente ("viajarei"). Its pretérito is the same as that of "ser".',
   ],
-  vir: ['"Vir" means to come towards the speaker; going somewhere else is "ir". Its gerúndio and participle are both "vindo": "estou vindo" (I\'m coming), "tinha vindo" (had come).'],
+  vir: ['"Vir" means to come toward the speaker; going somewhere else is "ir". Its gerúndio and participle are both "vindo": "estou vindo" (I\'m coming), "tinha vindo" (had come).'],
   pôr: [
     '"Pôr" keeps its circumflex to tell it apart from the preposition "por"; the verbs built on it don\'t need one: "compor", "propor", "supor". In everyday Brazilian speech "botar" and "colocar" are more common.',
   ],
@@ -229,6 +265,11 @@ export const VERB_NOTES: Record<string, string[]> = {
   chover: ['Weather verbs are only used in the "ele" form: "chove", "choveu", "vai chover".'],
   doer: ['Mostly used in the "ele" and "eles" forms, with the thing that hurts as the subject: "minha cabeça dói" (my head hurts), "meus pés doem".'],
   rir: ['Like "sorrir": "rio", "ri", "riem", "que eu ria".'],
+  requerer: ['Not conjugated like "querer": the present has "requeiro" and the subjunctive "requeira", but the pretérito is regular ("requeri", "requereu") and so is everything built on it ("requeresse", "requerer").'],
+  prover: ['Like "ver" in the present ("provejo", "provê", "proveem", "que eu proveja"), but regular elsewhere: "provi", "proveu", "provido". Don\'t confuse it with "provir" (to come from: "provém", "proveio").'],
+  reaver: ['A defective verb (to get back): it only has the forms in which "haver" has -av- ("reavemos", "reavia", "reaverei") and the ones built on the pretérito ("reouve", "reouvesse", "reouver"). Where a form is missing, use "recuperar": "eu recupero".'],
+  polir: ['The o of the stem becomes u where it is stressed: "pulo", "pule", "pulem", "que eu pula", but "polimos", "poli", "polido".'],
+  frigir: ['The i of the stem becomes e in "freges", "frege", "fregem", and the g becomes j before a and o: "frijo", "que eu frija". In everyday Brazil "fritar" is the usual verb; "frigir" survives in "no frigir dos ovos" (when all is said and done).'],
   gostar: ['Always with "de": "gosto de café", "gosto de dançar" (and "de" + "o" = "do": "gosto do Rio").'],
   ficar: ['A very Brazilian verb: to stay ("fiquei em casa"), to become ("ficou nervoso"), to be located ("onde fica o banco?"), to suit ("ficou bem em você").'],
 };

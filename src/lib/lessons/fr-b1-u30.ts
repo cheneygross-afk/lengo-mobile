@@ -186,7 +186,7 @@ export const FR_B1_U30: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "At the counter, the official says: « Votre dossier est incomplet. » What does she mean?",
+        question: "At the counter, the official says: \"Votre dossier est incomplet.\" What does she mean?",
         options: ["Something is missing from your file.", "Your file has been lost.", "Your file has been accepted.", "Your file is being processed."],
         correctIndex: 0,
         explanation: "\"Incomplet\" means incomplete: you need to bring \"la pièce manquante\".",
@@ -464,7 +464,7 @@ export const FR_B1_U30: Lesson[] = [
         heading: "Letter 1: the flatmate who never washes up",
         body: [
           "Advice columns (\"le courrier du cœur\" for love problems, \"la rubrique conseils\" more generally) are a perfect place to mix the Intermediate tools. The reader explains the problem with the present and the past; the columnist answers with the conditional (\"vous devriez\", \"à votre place, je...\"), with \"il faudrait que\" + subjunctive, with si-clauses and with imperatives.",
-          "Clément writes: « Mon colocataire ne fait jamais la vaisselle. Je lui en ai déjà parlé deux fois, mais rien ne change. Je commence à en avoir assez. » The answer: « Il faudrait que vous fixiez des règles ensemble. Si j'étais vous, je proposerais un planning. Parlez-lui-en calmement, et ne lui faites pas de reproches devant vos amis. »",
+          "Clément writes: \"Mon colocataire ne fait jamais la vaisselle. Je lui en ai déjà parlé deux fois, mais rien ne change. Je commence à en avoir assez.\" The answer: \"Il faudrait que vous fixiez des règles ensemble. Si j'étais vous, je proposerais un planning. Parlez-lui-en calmement, et ne lui faites pas de reproches devant vos amis.\"",
           "Notice the imperatives with pronouns: \"parlez-lui-en\" (affirmative: verb + lui + en), \"ne lui faites pas de reproches\" (negative: pronoun before the verb).",
         ],
         examples: [
@@ -482,7 +482,6 @@ export const FR_B1_U30: Lesson[] = [
             prompt: "Translate into French.",
             source: "Talk to him about it calmly. (polite)",
             answer: "Parlez-lui-en calmement.",
-            altAnswers: ["Parlez-lui en calmement.", "Parle-lui-en calmement."],
             explanation: "Affirmative imperative: verb + \"lui\" + \"en\", joined with hyphens.",
           },
           {
@@ -499,8 +498,8 @@ export const FR_B1_U30: Lesson[] = [
       {
         heading: "Letter 2: the friend who borrowed money",
         body: [
-          "Amina writes: « Il y a six mois, j'ai prêté 500 euros à ma meilleure amie. Elle m'avait promis de me les rendre en un mois. Depuis, elle n'en parle plus. J'ai peur que notre amitié soit finie si je les lui réclame. »",
-          "The plus-que-parfait (\"elle m'avait promis\") sets the earlier promise; \"avoir peur que\" + subjunctive expresses the fear. The columnist answers: « Je comprends que vous soyez gênée. Mais une vraie amie comprendra. Demandez-les-lui simplement, sans l'accuser. Si elle ne peut pas tout rembourser, proposez-lui de payer en plusieurs fois. »",
+          "Amina writes: \"Il y a six mois, j'ai prêté 500 euros à ma meilleure amie. Elle m'avait promis de me les rendre en un mois. Depuis, elle n'en parle plus. J'ai peur que notre amitié soit finie si je les lui réclame.\"",
+          "The plus-que-parfait (\"elle m'avait promis\") sets the earlier promise; \"avoir peur que\" + subjunctive expresses the fear. The columnist answers: \"Je comprends que vous soyez gênée. Mais une vraie amie comprendra. Demandez-les-lui simplement, sans l'accuser. Si elle ne peut pas tout rembourser, proposez-lui de payer en plusieurs fois.\"",
           "Note \"je comprends que\" + subjunctive when it means I understand why / I sympathise (\"Je comprends que vous soyez gênée\"). \"Les lui\" and \"les-lui\" carry \"les\" = the 500 euros.",
         ],
         examples: [
@@ -533,8 +532,8 @@ export const FR_B1_U30: Lesson[] = [
       {
         heading: "Letter 3: the dream job abroad",
         body: [
-          "Julien writes: « On m'a proposé un poste à Montréal. C'est le travail de mes rêves, mais ma copine ne veut pas quitter Lyon. Qu'est-ce que vous feriez à ma place ? »",
-          "The columnist mixes hypotheses and real conditions: « À votre place, je ne déciderais rien tout seul. Si vous partiez sans elle, vous le regretteriez peut-être. Il est important que vous en discutiez tous les deux. Si elle accepte de venir un an, essayez ! Et si elle refuse, ne lui en voulez pas. »",
+          "Julien writes: \"On m'a proposé un poste à Montréal. C'est le travail de mes rêves, mais ma copine ne veut pas quitter Lyon. Qu'est-ce que vous feriez à ma place ?\"",
+          "The columnist mixes hypotheses and real conditions: \"À votre place, je ne déciderais rien tout seul. Si vous partiez sans elle, vous le regretteriez peut-être. Il est important que vous en discutiez tous les deux. Si elle accepte de venir un an, essayez ! Et si elle refuse, ne lui en voulez pas.\"",
           "\"En vouloir à quelqu'un\" means to hold something against someone, to be angry with them: \"Je ne t'en veux pas\" (I'm not angry with you). In the negative imperative: \"Ne lui en voulez pas\".",
         ],
         examples: [
@@ -552,7 +551,7 @@ export const FR_B1_U30: Lesson[] = [
             prompt: "Translate into French.",
             source: "What would you do in my shoes? (polite)",
             answer: "Qu'est-ce que vous feriez à ma place ?",
-            altAnswers: ["Que feriez-vous à ma place ?", "Vous feriez quoi à ma place ?", "Qu'est-ce que tu ferais à ma place ?", "Que ferais-tu à ma place ?", "Tu ferais quoi à ma place ?"],
+            altAnswers: ["Que feriez-vous à ma place ?", "Vous feriez quoi à ma place ?"],
             explanation: "\"À ma place\" = in my place; the conditional \"feriez\" for an imagined situation.",
           },
           {
@@ -573,7 +572,7 @@ export const FR_B1_U30: Lesson[] = [
         prompt: "Translate into French.",
         source: "If I were you, I'd suggest a rota. (polite)",
         answer: "Si j'étais vous, je proposerais un planning.",
-        altAnswers: ["À votre place, je proposerais un planning.", "Si j'étais toi, je proposerais un planning.", "À ta place, je proposerais un planning."],
+        altAnswers: ["À votre place, je proposerais un planning."],
         explanation: "\"Si j'étais vous\" / \"à votre place\" + conditional.",
       },
       {
@@ -649,7 +648,7 @@ export const FR_B1_U30: Lesson[] = [
         prompt: "Translate into French.",
         source: "If she can't pay it all back, suggest she pays in instalments. (polite)",
         answer: "Si elle ne peut pas tout rembourser, proposez-lui de payer en plusieurs fois.",
-        altAnswers: ["Si elle ne peut pas tout rembourser, proposez-lui de rembourser en plusieurs fois.", "Si elle ne peut pas tout rembourser, propose-lui de payer en plusieurs fois."],
+        altAnswers: ["Si elle ne peut pas tout rembourser, proposez-lui de rembourser en plusieurs fois."],
         explanation: "\"Si\" + present + imperative; \"proposer à quelqu'un de\" + infinitive.",
       },
     ],
@@ -688,7 +687,7 @@ export const FR_B1_U30: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The sales assistant offers you « un avoir ». What is it?",
+            question: "The sales assistant offers you \"un avoir\". What is it?",
             options: ["A credit note to spend in the shop", "A cash refund", "A discount on the next sale", "A repair under guarantee"],
             correctIndex: 0,
             explanation: "\"Un avoir\" is store credit: you don't get your money back, but you can spend it there.",
@@ -716,7 +715,7 @@ export const FR_B1_U30: Lesson[] = [
             prompt: "Translate into French.",
             source: "What shoe size are you? (polite)",
             answer: "Vous faites quelle pointure ?",
-            altAnswers: ["Quelle pointure faites-vous ?", "Quelle est votre pointure ?", "Vous chaussez du combien ?", "Tu fais quelle pointure ?", "Quelle pointure fais-tu ?"],
+            altAnswers: ["Quelle pointure faites-vous ?", "Quelle est votre pointure ?", "Vous chaussez du combien ?"],
             explanation: "Shoe size is \"la pointure\", never \"la taille\".",
           },
           {
@@ -998,7 +997,7 @@ export const FR_B1_U30: Lesson[] = [
         prompt: "Translate into French.",
         source: "Don't be afraid of making mistakes. (polite)",
         answer: "N'ayez pas peur de vous tromper.",
-        altAnswers: ["N'aie pas peur de te tromper.", "N'ayez pas peur de faire des erreurs.", "N'aie pas peur de faire des erreurs."],
+        altAnswers: ["N'ayez pas peur de faire des erreurs."],
         explanation: "The imperative of \"avoir\" is \"aie, ayons, ayez\"; to make a mistake is \"se tromper\".",
       },
       {
@@ -1123,7 +1122,7 @@ export const FR_B1_U30: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« La présure fait cailler le lait. » What does it mean?",
+            question: "\"La présure fait cailler le lait.\" What does it mean?",
             options: ["Rennet makes the milk curdle.", "Rennet is made from milk.", "Rennet heats the milk.", "The milk is mixed with rennet by hand."],
             correctIndex: 0,
             explanation: "\"Faire\" + infinitive = to make something happen: \"faire cailler\" = make curdle.",
@@ -1484,7 +1483,7 @@ export const FR_B1_U30: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« La chaudière est tombée en panne. » What happened?",
+            question: "\"La chaudière est tombée en panne.\" What happened?",
             options: ["The boiler broke down.", "The boiler fell over.", "The boiler is leaking.", "The boiler was replaced."],
             correctIndex: 0,
             explanation: "\"Tomber en panne\" = to break down; nothing physically falls.",
@@ -1510,9 +1509,9 @@ export const FR_B1_U30: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
-            source: "Could you come round tomorrow morning?",
+            source: "Could you come round tomorrow morning? (to a plumber)",
             answer: "Pourriez-vous passer demain matin ?",
-            altAnswers: ["Vous pourriez passer demain matin ?", "Est-ce que vous pourriez passer demain matin ?", "Pourriez-vous venir demain matin ?", "Vous pourriez venir demain matin ?", "Tu pourrais passer demain matin ?"],
+            altAnswers: ["Vous pourriez passer demain matin ?", "Est-ce que vous pourriez passer demain matin ?", "Pourriez-vous venir demain matin ?", "Vous pourriez venir demain matin ?"],
             explanation: "\"Passer\" = to drop by, come round; the conditional keeps it polite.",
           },
           {
@@ -1605,7 +1604,7 @@ export const FR_B1_U30: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Les plombs ont sauté. » What has happened?",
+        question: "\"Les plombs ont sauté.\" What has happened?",
         options: ["The fuses have blown.", "The pipes have burst.", "The plumber has left.", "The locks have been changed."],
         correctIndex: 0,
         explanation: "\"Les plombs\" (old lead fuses) \"ont sauté\" = the fuses have blown; the power is off.",
@@ -1796,7 +1795,7 @@ export const FR_B1_U30: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Mes élèves m'apprennent beaucoup de choses. » What does it mean?",
+        question: "\"Mes élèves m'apprennent beaucoup de choses.\" What does it mean?",
         options: ["My students teach me a lot.", "I teach my students a lot.", "My students learn a lot from me.", "My students learn a lot of things."],
         correctIndex: 0,
         explanation: "\"Apprendre quelque chose à quelqu'un\" = to teach; \"m'\" is the person taught.",
@@ -2063,7 +2062,7 @@ export const FR_B1_U30: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The company offers you « un CDI ». What is it?",
+            question: "The company offers you \"un CDI\". What is it?",
             options: ["A permanent contract", "A fixed-term contract", "An internship", "A temping assignment"],
             correctIndex: 0,
             explanation: "CDI = contrat à durée indéterminée, the permanent contract every French job seeker hopes for.",
@@ -2145,9 +2144,9 @@ export const FR_B1_U30: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "Tell me a bit about yourself.",
+        source: "Tell me a bit about yourself. (interviewer to candidate)",
         answer: "Parlez-moi un peu de vous.",
-        altAnswers: ["Parlez-moi de vous.", "Parle-moi un peu de toi."],
+        altAnswers: ["Parlez-moi de vous."],
         explanation: "Imperative + \"moi\"; \"de vous\" = about yourself (formal).",
       },
       {
@@ -2259,7 +2258,7 @@ export const FR_B1_U30: Lesson[] = [
             prompt: "Translate into French.",
             source: "Here is the document you need. (polite)",
             answer: "Voici le document dont vous avez besoin.",
-            altAnswers: ["Voilà le document dont vous avez besoin.", "Voici le document dont tu as besoin.", "Voilà le document dont tu as besoin."],
+            altAnswers: ["Voilà le document dont vous avez besoin."],
             explanation: "\"Avoir besoin de\" → \"dont\"; English can leave the relative out, French can't.",
           },
           {
@@ -2300,7 +2299,6 @@ export const FR_B1_U30: Lesson[] = [
             en: "The schedule? [Send it to me] as soon as it's ready. (polite)",
             sentence: "Le planning ? ___ dès qu'il sera prêt.",
             answer: "Envoyez-le-moi",
-            altAnswers: ["Envoie-le-moi"],
             explanation: "Affirmative imperative: verb + \"le\" + \"moi\". Note the future after \"dès que\".",
           },
         ],
@@ -2308,7 +2306,7 @@ export const FR_B1_U30: Lesson[] = [
       {
         heading: "Putting it together: one message",
         body: [
-          "Here's a message from a team manager, Nadia, to her assistant Romain, combining both tools: « Romain, le rapport dont on a parlé hier est prêt. Je l'ai mis dans le dossier partagé. Tu peux l'envoyer aux clients que j'ai rencontrés jeudi ? Si M. Faure te demande les chiffres, donne-les-lui, mais ne lui parle pas encore du nouveau projet. Merci ! »",
+          "Here's a message from a team manager, Nadia, to her assistant Romain, combining both tools: \"Romain, le rapport dont on a parlé hier est prêt. Je l'ai mis dans le dossier partagé. Tu peux l'envoyer aux clients que j'ai rencontrés jeudi ? Si M. Faure te demande les chiffres, donne-les-lui, mais ne lui parle pas encore du nouveau projet. Merci !\"",
           "Each pronoun points back to something clear: \"l'\" = le rapport, \"les-lui\" = les chiffres to M. Faure, \"lui\" = M. Faure. In good writing, every pronoun has a clear antecedent; if it might be ambiguous, repeat the noun.",
         ],
         examples: [
@@ -2390,7 +2388,7 @@ export const FR_B1_U30: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Des chiffres ? » Which answer means 'I haven't received any yet'?",
+        question: "\"Des chiffres ?\" Which answer means 'I haven't received any yet'?",
         options: ["Je n'en ai pas encore reçu.", "Je ne les ai pas encore reçu.", "Je n'y ai pas encore reçu.", "Je n'en ai pas encore reçus."],
         correctIndex: 0,
         explanation: "\"En\" for an indefinite quantity; the participle doesn't agree with \"en\".",
@@ -2461,7 +2459,7 @@ export const FR_B1_U30: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The agent says: « La franchise est de 800 euros. » What does it mean?",
+            question: "The agent says: \"La franchise est de 800 euros.\" What does it mean?",
             options: ["You pay up to 800 euros if the car is damaged.", "The rental costs 800 euros.", "There's an 800-euro discount.", "The fuel costs 800 euros."],
             correctIndex: 0,
             explanation: "\"La franchise\" is the excess: the amount you pay yourself in case of damage.",
@@ -2579,12 +2577,12 @@ export const FR_B1_U30: Lesson[] = [
         prompt: "Translate into French.",
         source: "Put on your high-vis vest before getting out of the car. (polite)",
         answer: "Mettez votre gilet jaune avant de sortir de la voiture.",
-        altAnswers: ["Enfilez votre gilet jaune avant de sortir de la voiture.", "Mets ton gilet jaune avant de sortir de la voiture."],
+        altAnswers: ["Enfilez votre gilet jaune avant de sortir de la voiture."],
         explanation: "\"Avant de\" + infinitive when the subject is the same; English before + -ing.",
       },
       {
         type: "multiple-choice",
-        question: "« La location de voiture » means:",
+        question: "\"La location de voiture\" means:",
         options: ["car hire", "the car's location", "the car park", "the car's position on the map"],
         correctIndex: 0,
         explanation: "False friend: \"la location\" is renting; a location is \"un emplacement\" or \"un lieu\".",
@@ -2786,7 +2784,7 @@ export const FR_B1_U30: Lesson[] = [
         prompt: "Translate into French.",
         source: "Don't worry if things don't go as planned. (polite)",
         answer: "Ne vous inquiétez pas si tout ne se passe pas comme prévu.",
-        altAnswers: ["Ne t'inquiète pas si tout ne se passe pas comme prévu.", "Ne vous inquiétez pas si les choses ne se passent pas comme prévu.", "Ne t'inquiète pas si les choses ne se passent pas comme prévu."],
+        altAnswers: ["Ne vous inquiétez pas si les choses ne se passent pas comme prévu."],
         explanation: "Negative pronominal imperative; \"se passer\" = to go, happen.",
       },
       {

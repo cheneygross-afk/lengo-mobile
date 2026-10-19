@@ -648,10 +648,10 @@ export const FR_B2_U11_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "You doubt his excuse. Which verb shows it?",
-            options: ["prétendre", "affirmer", "avouer", "promettre"],
+            question: "You doubt his excuse that he was ill. Which sentence shows your doubt?",
+            options: ["Il prétend qu'il était malade.", "Il affirme qu'il était malade.", "Il avoue qu'il était malade.", "Il a promis qu'il était malade."],
             correctIndex: 0,
-            explanation: "\"Prétendre\" casts doubt on what was said.",
+            explanation: "\"Prétendre que\" reports a claim and casts doubt on it. \"Affirmer\" is neutral and firm, \"avouer\" is an admission, and you can't \"promettre\" something about the past.",
           },
           {
             type: "translate",

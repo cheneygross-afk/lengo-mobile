@@ -32,7 +32,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
         examples: [
           { pt: "Quero que você fale mais devagar.", en: "I want you to speak more slowly." },
           { pt: "Prefiro que a gente coma em casa hoje.", en: "I'd rather we ate at home today." },
-          { pt: "A professora pede que vocês abram o livro na página dez.", en: "The teacher is asking you to open the book at page ten." },
+          { pt: "A professora pede que vocês abram o livro na página dez.", en: "The teacher is asking you to open the book to page ten." },
           { pt: "É importante que nós estudemos juntos.", en: "It's important that we study together." },
           { pt: "Tomara que eles não cheguem atrasados.", en: "I really hope they won't be late." },
         ],
@@ -64,7 +64,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
         },
         examples: [
           { pt: "Espero que você tenha um ótimo fim de semana.", en: "I hope you have a great weekend." },
-          { pt: "Minha mãe quer que eu faça o jantar hoje.", en: "My mum wants me to make dinner tonight." },
+          { pt: "Minha mãe quer que eu faça o jantar hoje.", en: "My mom wants me to make dinner tonight." },
           { pt: "Não quero que ninguém veja isso.", en: "I don't want anyone to see this." },
           { pt: "Tomara que vocês venham para o meu aniversário.", en: "I really hope you come to my birthday." },
           { pt: "Prefiro que você diga a verdade.", en: "I'd rather you told the truth." },
@@ -200,7 +200,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
         heading: `Hopes: espero que, tomara que`,
         body: [
           `"Espero que" + subjunctive is the neutral I hope: "espero que você goste" (I hope you like it). "Tomara que" is warmer and more spoken, closer to I really hope or fingers crossed: "tomara que não chova no sábado". "Tomara!" on its own means let's hope so.`,
-          `When the hope is about your own action, use "espero" + infinitive: "espero conseguir a vaga" (I hope to get the job). You will also read "oxalá" + subjunctive, an old word of Arabic origin meaning may God grant; in Brazil it is literary or playful, so recognise it but use "tomara" yourself.`,
+          `When the hope is about your own action, use "espero" + infinitive: "espero conseguir a vaga" (I hope to get the job). You will also read "oxalá" + subjunctive, an old word from Arabic, roughly if God wills; in Brazil it is literary or playful, so recognize it but use "tomara" yourself.`,
         ],
         examples: [
           { pt: "Espero que vocês gostem da comida.", en: "I hope you like the food." },
@@ -300,7 +300,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
     level: "B1",
     intro: [
       `The subjunctive also appears when you react to something, judge it, or are not sure about it. "É importante que você descanse", "Que pena que você não possa vir", "Duvido que ele aceite". The common thread: the clause is not being asserted as news; it is being evaluated, felt or questioned.`,
-      `The other side of the coin matters just as much. Belief and certainty take the indicative: "acho que ele vem", "tenho certeza que é aqui". English speakers who have just learnt the subjunctive tend to put it everywhere, including after "acho que", where it is wrong.`,
+      `The other side of the coin matters just as much. Belief and certainty take the indicative: "acho que ele vem", "tenho certeza que é aqui". English speakers who have just learned the subjunctive tend to put it everywhere, including after "acho que", where it is wrong.`,
     ],
     sections: [
       {
@@ -313,14 +313,14 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
           { pt: "É importante que você beba bastante água.", en: "It's important that you drink plenty of water." },
           { pt: "É importante beber bastante água.", en: "It's important to drink plenty of water." },
           { pt: "É melhor que a gente espere aqui.", en: "We'd better wait here." },
-          { pt: "É possível que o show seja cancelado.", en: "The concert may be cancelled." },
+          { pt: "É possível que o show seja cancelado.", en: "The concert may be canceled." },
           { pt: "É claro que ela tem razão.", en: "Of course she's right." },
         ],
       },
       {
         heading: `Emotions: fico feliz que, que pena que`,
         body: [
-          `Feelings about another person's action take the subjunctive, even when the action is a known fact: "fico feliz que você esteja aqui" (I'm glad you're here; you obviously are). Portuguese marks the clause as the object of a feeling, not as information. Common triggers: "fico feliz que", "que bom que", "que pena que", "tenho medo que", "me preocupa que", "me incomoda que", "adoro que", "odeio que".`,
+          `Feelings about another person's action take the subjunctive, even when the action is a known fact: "fico feliz que você esteja aqui" (I'm glad you're here; you obviously are). Portuguese marks the clause as the object of a feeling, not as information. Common triggers: "fico feliz que", "que bom que", "que pena que", "tenho medo que" (in careful writing "tenho medo de que"), "me preocupa que", "me incomoda que", "adoro que", "odeio que".`,
           `With one subject, use "de" + infinitive: "fico feliz de te ver" (I'm glad to see you), "tenho medo de esquecer". For something already done you'll meet "tenha" + participle: "que bom que você tenha vindo" (it's great that you came), the perfect subjunctive, taught at B2. In speech "que bom que você veio" with the indicative is very common too.`,
         ],
         examples: [
@@ -480,9 +480,9 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
           `"Caso" + present subjunctive and "se" are near-synonyms for if. In speech "se" dominates, and for a future possibility it takes the future subjunctive: "se você precisar, me liga" (taught at B2; learn it as a chunk now). "Se" + present indicative is for general truths: "se você precisa de ajuda, é só pedir". "Caso" sounds a little more careful and is common in instructions.`,
         ],
         examples: [
-          { pt: "Embora o apartamento seja pequeno, é muito bem localizado.", en: "Although the flat is small, it's very well located." },
-          { pt: "O apartamento é pequeno, mas é muito bem localizado.", en: "The flat is small, but it's very well located." },
-          { pt: "Apesar de ser pequeno, o apartamento é muito bem localizado.", en: "Despite being small, the flat is very well located." },
+          { pt: "Embora o apartamento seja pequeno, é muito bem localizado.", en: "Although the apartment is small, it's very well located." },
+          { pt: "O apartamento é pequeno, mas é muito bem localizado.", en: "The apartment is small, but it's very well located." },
+          { pt: "Apesar de ser pequeno, o apartamento é muito bem localizado.", en: "Despite being small, the apartment is very well located." },
           { pt: "Caso o sistema esteja fora do ar, ligue para este número.", en: "If the system is down, call this number." },
           { pt: "Se você precisar de alguma coisa, me avisa.", en: "If you need anything, let me know." },
         ],
@@ -565,8 +565,8 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
       "Why Brazilian Portuguese uses the subjunctive to describe people and things that may not exist (procuro um apartamento que tenha varanda, não conheço ninguém que saiba), and the indicative for known ones.",
     level: "B1",
     intro: [
-      `A relative clause usually describes something real: "moro num apartamento que tem varanda" (I live in a flat that has a balcony). But when you're looking for something, asking whether it exists, or saying it doesn't, Portuguese switches the description to the subjunctive: "procuro um apartamento que tenha varanda". The flat is still hypothetical.`,
-      `English makes no such distinction (a flat that has a balcony works for both), so this is pure Portuguese logic. The question to ask is always: does the speaker have a specific, real person or thing in mind?`,
+      `A relative clause usually describes something real: "moro num apartamento que tem varanda" (I live in an apartment that has a balcony). But when you're looking for something, asking whether it exists, or saying it doesn't, Portuguese switches the description to the subjunctive: "procuro um apartamento que tenha varanda". The apartment is still hypothetical.`,
+      `English makes no such distinction (an apartment that has a balcony works for both), so this is pure Portuguese logic. The question to ask is always: does the speaker have a specific, real person or thing in mind?`,
     ],
     sections: [
       {
@@ -585,7 +585,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
           ],
         },
         examples: [
-          { pt: "Estou procurando um apartamento que seja perto do metrô.", en: "I'm looking for a flat that's close to the metro." },
+          { pt: "Estou procurando um apartamento que seja perto do metrô.", en: "I'm looking for an apartment that's close to the subway." },
           { pt: "A empresa precisa de alguém que tenha experiência com vendas.", en: "The company needs someone with sales experience." },
           { pt: "Queremos um hotel que aceite cachorro.", en: "We want a hotel that takes dogs." },
           { pt: "Conheço um dentista que atende aos sábados.", en: "I know a dentist who sees patients on Saturdays." },
@@ -601,7 +601,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
         examples: [
           { pt: "Não conheço ninguém que more em Manaus.", en: "I don't know anyone who lives in Manaus." },
           { pt: "Não tem nada que eu possa fazer agora.", en: "There's nothing I can do now." },
-          { pt: "Não há nenhuma farmácia que esteja aberta a essa hora.", en: "There isn't a single chemist open at this time." },
+          { pt: "Não há nenhuma farmácia que esteja aberta a essa hora.", en: "There isn't a single pharmacy open at this time." },
           { pt: "Você conhece alguém que saiba consertar celular?", en: "Do you know anyone who can fix phones?" },
           { pt: "Não encontrei nenhum livro que explique isso bem.", en: "I haven't found a single book that explains this well." },
         ],
@@ -697,7 +697,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
         },
         examples: [
           { pt: "Eu gostaria de reservar uma mesa para quatro.", en: "I'd like to book a table for four." },
-          { pt: "Com mais tempo, eu viajaria pelo Nordeste inteiro.", en: "With more time, I'd travel all over the North-East." },
+          { pt: "Com mais tempo, eu viajaria pelo Nordeste inteiro.", en: "With more time, I'd travel all over the Northeast." },
           { pt: "Eu nunca diria uma coisa dessas.", en: "I would never say a thing like that." },
           { pt: "O que você faria no meu lugar?", en: "What would you do in my place?" },
           { pt: "Eles disseram que trariam a sobremesa, mas esqueceram.", en: "They said they would bring dessert, but they forgot." },
@@ -841,9 +841,9 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
         examples: [
           { pt: "Tenho dormido mal esta semana.", en: "I've been sleeping badly this week." },
           { pt: "Ela tem feito muito exercício.", en: "She's been doing a lot of exercise." },
-          { pt: "Nós temos visto muitos filmes brasileiros.", en: "We've been watching a lot of Brazilian films." },
+          { pt: "Nós temos visto muitos filmes brasileiros.", en: "We've been watching a lot of Brazilian movies." },
           { pt: "Eles têm vindo aqui todo fim de semana.", en: "They've been coming here every weekend." },
-          { pt: "Tenho gasto muito com transporte.", en: "I've been spending a lot on transport." },
+          { pt: "Tenho gasto muito com transporte.", en: "I've been spending a lot on transportation." },
         ],
       },
       {
@@ -945,8 +945,8 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
       "How to form and use the Brazilian Portuguese past perfect: tinha + participle in speech, havia + participle in writing, the simple form fizera in books and news, and how to put past events in order.",
     level: "B1",
     intro: [
-      `The mais-que-perfeito is the past of the past, the Portuguese had done: "quando cheguei, o filme já tinha começado" (when I arrived, the film had already started). It places one past event before another.`,
-      `Brazilians build it with the imperfeito of "ter" + participle in speech and most writing, and with "haver" in more formal writing. There is also a one-word form ("fizera", "chegara") that you need to recognise in literature and journalism, but not to use.`,
+      `The mais-que-perfeito is the past of the past, the Portuguese had done: "quando cheguei, o filme já tinha começado" (when I arrived, the movie had already started). It places one past event before another.`,
+      `Brazilians build it with the imperfeito of "ter" + participle in speech and most writing, and with "haver" in more formal writing. There is also a one-word form ("fizera", "chegara") that you need to recognize in literature and journalism, but not to use.`,
     ],
     sections: [
       {
@@ -964,9 +964,9 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
           ],
         },
         examples: [
-          { pt: "Quando cheguei no aeroporto, o check-in já tinha fechado.", en: "When I got to the airport, check-in had already closed." },
+          { pt: "Quando cheguei ao aeroporto, o check-in já tinha fechado.", en: "When I got to the airport, check-in had already closed." },
           { pt: "Eu nunca tinha visto o mar antes daquela viagem.", en: "I had never seen the sea before that trip." },
-          { pt: "Ela percebeu que tinha esquecido o passaporte em casa.", en: "She realised she had left her passport at home." },
+          { pt: "Ela percebeu que tinha esquecido o passaporte em casa.", en: "She realized she had left her passport at home." },
           { pt: "A gente já tinha jantado quando eles chegaram.", en: "We had already had dinner when they arrived." },
           { pt: "A empresa havia anunciado a mudança em março.", en: "The company had announced the change in March." },
         ],
@@ -981,14 +981,14 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
           { pt: "Quando cheguei, ele saiu.", en: "When I arrived, he left." },
           { pt: "Quando cheguei, ele já tinha saído.", en: "When I arrived, he had already left." },
           { pt: "Eles ainda não tinham terminado quando a luz acabou.", en: "They hadn't finished yet when the power went off." },
-          { pt: "Ninguém tinha me avisado que a loja ia fechar.", en: "Nobody had told me the shop was going to close." },
+          { pt: "Ninguém tinha me avisado que a loja ia fechar.", en: "Nobody had told me the store was going to close." },
           { pt: "Assim que terminou a reunião, ela foi embora.", en: "As soon as the meeting ended, she left." },
         ],
       },
       {
         heading: `The simple form: fizera, dissera (recognition)`,
         body: [
-          `The one-word mais-que-perfeito is built from the eles form of the perfeito by replacing "-ram" with "-ra": "fizeram" gives "fizera", "chegaram" gives "chegara", "foram" gives "fora". In Brazil it lives in novels, formal journalism and fixed expressions; in speech it sounds bookish. Learn to recognise it, and write "tinha" or "havia" + participle yourself.`,
+          `The one-word mais-que-perfeito is built from the eles form of the perfeito by replacing "-ram" with "-ra": "fizeram" gives "fizera", "chegaram" gives "chegara", "foram" gives "fora". In Brazil it lives in novels, formal journalism and fixed expressions; in speech it sounds bookish. Learn to recognize it, and write "tinha" or "havia" + participle yourself.`,
           `Some everyday expressions are fossils of this form: "Quem dera!" (if only!), "Tomara!" (let's hope so) and "Pudera!" (no wonder!) are all old mais-que-perfeitos.`,
         ],
         table: {
@@ -1208,7 +1208,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
         heading: `The preposition goes first`,
         body: [
           `If the verb in the relative clause needs a preposition ("falar de", "morar em", "trabalhar com", "gostar de"), that preposition moves to the front of the relative pronoun. With things, use "que" after short prepositions: "o assunto de que falamos", "a casa em que moro". With people, use "quem": "o colega com quem trabalho", "a amiga de quem te falei".`,
-          `In relaxed speech Brazilians very often drop the preposition: "o filme que eu te falei", "a empresa que eu trabalho". Recognise it, but in writing and the Celpe-Bras keep the preposition.`,
+          `In relaxed speech Brazilians very often drop the preposition: "o filme que eu te falei", "a empresa que eu trabalho". Recognize it, but in writing and the Celpe-Bras keep the preposition.`,
         ],
         table: {
           headers: ["Verb + preposition", "Relative clause", "Meaning"],
@@ -1262,7 +1262,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
         examples: [
           { pt: "Conheci uma escritora cujo livro ganhou o prêmio Jabuti.", en: "I met a writer whose book won the Jabuti prize." },
           { pt: "É uma empresa cuja sede fica em Belo Horizonte.", en: "It's a company whose head office is in Belo Horizonte." },
-          { pt: "Tenho uma vizinha cujos filhos tocam bateria.", en: "I have a neighbour whose children play the drums." },
+          { pt: "Tenho uma vizinha cujos filhos tocam bateria.", en: "I have a neighbor whose children play the drums." },
           { pt: "O autor de cuja obra falamos morreu em 1908.", en: "The author whose work we talked about died in 1908." },
         ],
       },
@@ -1275,7 +1275,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
         examples: [
           { pt: "Ela chegou atrasada de novo, o que irritou todo mundo.", en: "She arrived late again, which annoyed everyone." },
           { pt: "Tudo o que eu quero agora é dormir.", en: "All I want now is to sleep." },
-          { pt: "O bairro onde ela mora é bem tranquilo.", en: "The neighbourhood she lives in is very quiet." },
+          { pt: "O bairro onde ela mora é bem tranquilo.", en: "The neighborhood she lives in is very quiet." },
           { pt: "Aonde vocês vão no Carnaval?", en: "Where are you going for Carnival?" },
           { pt: "Lembro bem da época em que a gente morava no Rio.", en: "I remember the time when we lived in Rio well." },
         ],
@@ -1311,7 +1311,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
     faqs: [
       {
         q: `"Que" or "quem" for people?`,
-        a: `Without a preposition, use "que": "a moça que trabalha aqui", "o médico que eu conheci". After a preposition, use "quem" (or "o qual"): "a moça com quem eu trabalho". "Quem" without a preposition only appears in sentences like "quem sabe é ela" (the one who knows is her).`,
+        a: `Without a preposition, use "que": "a moça que trabalha aqui", "o médico que eu conheci". After a preposition, use "quem" (or "o qual"): "a moça com quem eu trabalho". "Quem" without a preposition only appears in sentences like "quem sabe é ela" (she's the one who knows).`,
       },
       {
         q: `Is dropping the preposition in speech really accepted?`,
@@ -1380,7 +1380,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
         examples: [
           { pt: "Ele perguntou se a reunião ainda estava de pé.", en: "He asked whether the meeting was still on." },
           { pt: "A moça perguntou quanto custava a passagem.", en: "The young woman asked how much the ticket cost." },
-          { pt: "Minha mãe pediu pra eu comprar pão.", en: "My mum asked me to buy bread." },
+          { pt: "Minha mãe pediu pra eu comprar pão.", en: "My mom asked me to buy bread." },
           { pt: "A professora mandou os alunos fazerem silêncio.", en: "The teacher told the students to be quiet." },
           { pt: "A empresa pede que os clientes guardem o comprovante.", en: "The company asks customers to keep the receipt." },
         ],
@@ -1406,7 +1406,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
           { pt: "Ele prometeu que ia terminar no dia seguinte.", en: "He promised he would finish the next day." },
           { pt: "Ela avisou que não ia estar no escritório naquele dia.", en: "She let us know she wouldn't be in the office that day." },
           { pt: "O cliente reclamou que tinha esperado duas horas.", en: "The customer complained that he had waited two hours." },
-          { pt: "Eles explicaram que o voo tinha sido cancelado na véspera.", en: "They explained that the flight had been cancelled the day before." },
+          { pt: "Eles explicaram que o voo tinha sido cancelado na véspera.", en: "They explained that the flight had been canceled the day before." },
         ],
       },
     ],
@@ -1423,7 +1423,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
       },
       {
         wrong: "Ela pediu que eu ligo para ela.",
-        right: "Ela pediu pra eu ligar para ela.",
+        right: "Ela pediu para eu ligar para ela.",
         why: `A request is not a fact: use "pedir para" + infinitive, or "pedir que" + subjunctive ("que eu ligasse").`,
       },
       {
@@ -1487,7 +1487,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
           { pt: "Dom Casmurro foi escrito por Machado de Assis.", en: "Dom Casmurro was written by Machado de Assis." },
           { pt: "O ladrão foi preso pela polícia ontem à noite.", en: "The thief was arrested by the police last night." },
           { pt: "A ponte vai ser reformada no ano que vem.", en: "The bridge is going to be renovated next year." },
-          { pt: "Um novo hospital está sendo construído no bairro.", en: "A new hospital is being built in the neighbourhood." },
+          { pt: "Um novo hospital está sendo construído no bairro.", en: "A new hospital is being built in the neighborhood." },
         ],
       },
       {
@@ -1498,7 +1498,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
         examples: [
           { pt: "A porta foi fechada pelo segurança.", en: "The door was closed by the security guard." },
           { pt: "A porta está fechada.", en: "The door is closed." },
-          { pt: "O jantar já está pronto e a mesa está posta.", en: "Dinner is ready and the table is laid." },
+          { pt: "O jantar já está pronto e a mesa está posta.", en: "Dinner is ready and the table is set." },
           { pt: "A conta já está paga.", en: "The bill has already been paid." },
         ],
       },
@@ -1523,7 +1523,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
           ],
         },
         examples: [
-          { pt: "O prefeito foi eleito com sessenta por cento dos votos.", en: "The mayor was elected with sixty per cent of the vote." },
+          { pt: "O prefeito foi eleito com sessenta por cento dos votos.", en: "The mayor was elected with sixty percent of the vote." },
           { pt: "O pedido já foi entregue.", en: "The order has already been delivered." },
           { pt: "Eu já tinha pago a conta quando eles chegaram.", en: "I'd already paid the bill when they arrived." },
           { pt: "A luz da sala ficou acesa a noite toda.", en: "The living-room light stayed on all night." },
@@ -1536,7 +1536,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
           `Speech drops the "se" or rephrases: "aluga apartamento", "aqui vende pão de queijo", "eles dizem que vai chover", "a gente nunca sabe", "você não pode fumar aqui". Third person plural with no subject is the most common spoken passive of all: "roubaram minha bicicleta", "me disseram que ia ter greve".`,
         ],
         examples: [
-          { pt: "Aluga-se apartamento de dois quartos.", en: "Two-bedroom flat to let." },
+          { pt: "Aluga-se apartamento de dois quartos.", en: "Two-bedroom apartment for rent." },
           { pt: "Vendem-se bicicletas usadas.", en: "Used bicycles for sale." },
           { pt: "Precisa-se de cozinheiro com experiência.", en: "Experienced cook wanted." },
           { pt: "Roubaram o celular dele no ônibus.", en: "His phone got stolen on the bus." },
@@ -1583,7 +1583,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
       },
       {
         q: `What's different in European Portuguese?`,
-        a: `European Portuguese keeps the "se" in speech ("vende-se pão", never "vende pão" alone) and makes it agree more consistently. The progressive passive is "estão a ser construídas" where Brazil says "estão sendo construídas".`,
+        a: `European Portuguese keeps the "se" in speech ("vende-se pão"; "vende pão" alone is rare there) and makes it agree more consistently. The progressive passive is "estão a ser construídas" where Brazil says "estão sendo construídas".`,
       },
     ],
     related: ["se-passive-and-impersonal-se", "preterito-perfeito-composto", "spoken-brazilian-portuguese", "register-and-the-written-norm"],
@@ -1609,7 +1609,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
     slug: "connectors-for-writing",
     title: "Além Disso, No Entanto, Portanto: Connectors",
     description:
-      "The Brazilian Portuguese connectors that organise a paragraph (adding, contrasting, cause, result, examples, sequence, conclusion), their register, their position, and the mood each one takes.",
+      "The Brazilian Portuguese connectors that organize a paragraph (adding, contrasting, cause, result, examples, sequence, conclusion), their register, their position, and the mood each one takes.",
     level: "B1",
     intro: [
       `A B1 text is judged less by its vocabulary than by how its ideas connect. The Celpe-Bras and every Brazilian workplace expect writing in which each sentence is linked to the last: "além disso" to add, "no entanto" to contrast, "já que" to give a cause, "portanto" to draw a conclusion.`,
@@ -1635,9 +1635,9 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
           ],
         },
         examples: [
-          { pt: "O apartamento é amplo. Além disso, tem uma vista linda.", en: "The flat is spacious. On top of that, it has a lovely view." },
+          { pt: "O apartamento é amplo. Além disso, tem uma vista linda.", en: "The apartment is spacious. On top of that, it has a lovely view." },
           { pt: "O curso é caro. No entanto, vale cada centavo.", en: "The course is expensive. However, it's worth every penny." },
-          { pt: "Já que você vai ao centro, pode deixar esse documento no cartório?", en: "Since you're going into town, can you drop this document off at the registry office?" },
+          { pt: "Já que você vai ao centro, pode deixar esse documento no cartório?", en: "Since you're going into town, can you drop this document off at the notary's office?" },
           { pt: "O trânsito estava parado, por isso cheguei atrasado.", en: "The traffic was at a standstill, so I arrived late." },
           { pt: "Ela fala várias línguas, inclusive japonês.", en: "She speaks several languages, including Japanese." },
         ],
@@ -1646,13 +1646,13 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
         heading: `Position and punctuation`,
         body: [
           `"Mas" always opens its clause. "Porém", "no entanto", "contudo" and "portanto" are more mobile: at the start of a sentence followed by a comma, or inside the clause between commas: "O projeto, porém, atrasou". "Como" for cause only works at the start of the sentence: "como estava cansado, fui dormir"; at the end use "porque" or "já que".`,
-          `Don't join two full sentences with just a comma when a connector or a full stop is needed: "Choveu muito, a festa foi cancelada" reads as a run-on; write "Choveu muito, por isso a festa foi cancelada" or use a full stop.`,
+          `Don't join two full sentences with just a comma when a connector or a period is needed: "Choveu muito, a festa foi cancelada" reads as a run-on; write "Choveu muito, por isso a festa foi cancelada" or use a period.`,
         ],
         examples: [
           { pt: "O projeto, porém, não foi aprovado.", en: "The project, however, was not approved." },
           { pt: "Como era feriado, os bancos estavam fechados.", en: "As it was a holiday, the banks were closed." },
           { pt: "Os bancos estavam fechados porque era feriado.", en: "The banks were closed because it was a holiday." },
-          { pt: "Choveu muito. Por isso, a festa foi cancelada.", en: "It rained a lot. So the party was cancelled." },
+          { pt: "Choveu muito. Por isso, a festa foi cancelada.", en: "It rained a lot. So the party was canceled." },
         ],
       },
       {
@@ -1707,7 +1707,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
       },
       {
         q: `"Entretanto" means meanwhile, doesn't it?`,
-        a: `In Brazil "entretanto" is a formal however, a synonym of "no entanto". The meaning meanwhile is European; in Brazil say "enquanto isso" or "nesse meio-tempo".`,
+        a: `In Brazil "entretanto" is a formal however, a synonym of "no entanto". The meaning meanwhile is mainly European (Brazilian dictionaries list it, but it is rare); in Brazil say "enquanto isso" or "nesse meio-tempo".`,
       },
       {
         q: `How many connectors should a Celpe-Bras text have?`,
@@ -1738,7 +1738,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
       "The features of everyday spoken Brazilian Portuguese: reductions like tá, tô, cê and pra, a gente for we, ele as an object, te with você, fillers like né and tipo, and how far to use them yourself.",
     level: "B1",
     intro: [
-      `The Portuguese of textbooks and the Portuguese of a São Paulo bar are the same language, but you'd be forgiven for doubting it. "Cê tá onde? Tô chegando, pera aí" is "Você está onde? Estou chegando, espere aí", said at speed. If you can't hear the reductions, you can't follow real conversations, films or voice messages.`,
+      `The Portuguese of textbooks and the Portuguese of a São Paulo bar are the same language, but you'd be forgiven for doubting it. "Cê tá onde? Tô chegando, pera aí" is "Você está onde? Estou chegando, espere aí", said at speed. If you can't hear the reductions, you can't follow real conversations, movies or voice messages.`,
       `None of this is slang or bad Portuguese: these are the normal spoken forms of educated Brazilians. The skill is knowing where they belong. Use them in conversation and chat; keep them out of emails to clients, essays and the Celpe-Bras written tasks.`,
     ],
     sections: [
@@ -1746,7 +1746,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
         heading: `Reductions: tá, tô, cê, pra`,
         body: [
           `The forms of "estar" lose their first syllable ("tá", "tô", "tava", "tão"), "você" shrinks to "cê" (and "vocês" to "cês"), and "para" becomes "pra", fused with the article into "pro" and "pra". "Em um" and "de um" become "num" and "dum". "Não é?" becomes "né?".`,
-          `In messages, people write many of these as they say them, plus abbreviations: "vc", "pq" (porque), "tb" (também), "blz" (beleza), "kkkk" (laughter). "Pra" is also accepted in informal writing, and "num" is standard Portuguese, so it can be written anywhere.`,
+          `In messages, people write many of these as they say them, plus abbreviations: "vc", "pq" (porque), "tb" (também), "blz" (beleza), "kkkk" (laughter). "Pra" is also accepted in informal writing. "Num" is correct in writing too, though formal Brazilian texts often prefer "em um".`,
         ],
         table: {
           headers: ["Written", "Spoken", "Example"],
@@ -1763,20 +1763,20 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
           { pt: "Cê tá onde? Tô te esperando há meia hora.", en: "Where are you? I've been waiting for you for half an hour." },
           { pt: "Tava pensando em ir pra praia amanhã.", en: "I was thinking of going to the beach tomorrow." },
           { pt: "Vou levar as crianças pro parque.", en: "I'm going to take the kids to the park." },
-          { pt: "Ela mora num apartamento pequenininho.", en: "She lives in a tiny flat." },
+          { pt: "Ela mora num apartamento pequenininho.", en: "She lives in a tiny apartment." },
           { pt: "Tá tudo bem? Tá, sim.", en: "Is everything OK? Yes, it is." },
         ],
       },
       {
         heading: `The spoken pronoun system`,
         body: [
-          `"A gente" (literally the people) is the normal spoken we, used by everyone, with the third-person singular verb: "a gente vai", "a gente se vê". "A gente vamos" is heavily stigmatised. In formal writing switch to "nós".`,
+          `"A gente" (literally the people) is the normal spoken we, used by everyone, with the third-person singular verb: "a gente vai", "a gente se vê". "A gente vamos" is heavily stigmatized. In formal writing switch to "nós".`,
           `As an object, speech uses "ele" and "ela" instead of "o" and "a": "eu vi ele ontem" (writing: "eu o vi ontem"). "Te" is the object pronoun for "você" in speech: "eu te ligo", "te amo", "te vejo amanhã". Mixing "você" and "te" in one sentence is normal in Brazil, though the written norm would say "eu lhe ligo" or "eu ligo para você".`,
         ],
         examples: [
           { pt: "A gente se fala depois.", en: "We'll talk later." },
-          { pt: "A gente foi ao cinema e depois jantou fora.", en: "We went to the cinema and then had dinner out." },
-          { pt: "Encontrei ela no shopping.", en: "I ran into her at the shopping centre. (speech)" },
+          { pt: "A gente foi ao cinema e depois jantou fora.", en: "We went to the movies and then had dinner out." },
+          { pt: "Encontrei ela no shopping.", en: "I ran into her at the shopping center. (speech)" },
           { pt: "Te mando o endereço por mensagem.", en: "I'll send you the address by message." },
           { pt: "Você sabe que eu te adoro, né?", en: "You know I adore you, right?" },
         ],
@@ -1785,13 +1785,13 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
         heading: `Fillers, tags and everyday slang`,
         body: [
           `"Né?" (right?) ends half the statements in Brazil and invites agreement. "Tipo" works like English like: "tipo, ele nem me respondeu". "Aí" and "então" move a story on (and then, so). "Sabe?" and "entendeu?" check the listener is following; "olha" announces what comes next.`,
-          `Everyday slang is mostly neutral and safe: "legal", "bacana" and "show" (great), "beleza" (fine, OK), "valeu" (thanks, cheers), "de boa" (chilled, fine), "nossa!" (wow), "caramba!". "Cara" (mate, dude) is very casual. Regional words ("mano" in São Paulo, "massa" in the Nordeste, "bah" in the South, "uai" in Minas) are fun to recognise but sound odd from a foreigner who overuses them.`,
+          `Everyday slang is mostly neutral and safe: "legal", "bacana" and "show" (great), "beleza" (fine, OK), "valeu" (thanks), "de boa" (chill, fine), "nossa!" (wow), "caramba!". "Cara" (dude, man) is very casual. Regional words ("mano" in São Paulo, "massa" in the Nordeste, "bah" in the South, "uai" in Minas) are fun to recognize but sound odd from a foreigner who overuses them.`,
         ],
         examples: [
           { pt: "O show foi incrível, né?", en: "The concert was amazing, wasn't it?" },
-          { pt: "Aí ele chegou e, tipo, nem falou com ninguém.", en: "Then he turned up and, like, didn't even speak to anyone." },
+          { pt: "Aí ele chegou e, tipo, nem falou com ninguém.", en: "Then he showed up and, like, didn't even speak to anyone." },
           { pt: "Beleza, então a gente se encontra às oito.", en: "OK, so we'll meet at eight." },
-          { pt: "Valeu pela ajuda, cara!", en: "Thanks for the help, mate!" },
+          { pt: "Valeu pela ajuda, cara!", en: "Thanks for the help, man!" },
           { pt: "Nossa, que calor!", en: "Wow, it's so hot!" },
         ],
       },
@@ -1825,7 +1825,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
       },
       {
         q: `What is "tu vai"?`,
-        a: `In parts of the South, the North and the Nordeste people say "tu" with the "você" form of the verb: "tu vai", "tu quer". It's normal regional speech, but this course uses "você"; recognise it rather than copy it. The B2 guide on regional variation goes further.`,
+        a: `In parts of the South, the North and the Nordeste people say "tu" with the "você" form of the verb: "tu vai", "tu quer". It's normal regional speech, but this course uses "você"; recognize it rather than copy it. The B2 guide on regional variation goes further.`,
       },
       {
         q: `Does European Portuguese reduce words the same way?`,

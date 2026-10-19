@@ -190,8 +190,8 @@ export const FR_C1_U09_EXTRA: Lesson[] = [
             prompt: "Translate into French.",
             source: "The password? I can never remember it.",
             answer: "Le mot de passe ? Je ne m'en souviens jamais.",
-            altAnswers: ["Le mot de passe ? Je ne m'en rappelle jamais.", "Le mot de passe ? Je ne me le rappelle jamais."],
-            explanation: "\"Se souvenir de\" + a thing → en.",
+            altAnswers: ["Le mot de passe ? Je ne me le rappelle jamais."],
+            explanation: "\"Se souvenir de\" + a thing → en; with \"se rappeler\" (no \"de\"), say \"je me le rappelle\".",
           },
           {
             type: "translate",

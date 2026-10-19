@@ -57,14 +57,14 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
         examples: [
           { pt: "Eu sou americano, mas moro no Brasil.", en: "I'm American, but I live in Brazil." },
           { pt: "A Beatriz é brasileira, de Porto Alegre.", en: "Beatriz is Brazilian, from Porto Alegre." },
-          { pt: "Os meus vizinhos são japoneses.", en: "My neighbours are Japanese." },
+          { pt: "Os meus vizinhos são japoneses.", en: "My neighbors are Japanese." },
           { pt: "De onde você é?", en: "Where are you from?" },
         ],
       },
       {
         heading: `Jobs without an article`,
         body: [
-          `English says I'm a teacher. Portuguese leaves out the article: "Sou professor" (a man) or "Sou professora" (a woman). Adding "um" or "uma" here is one of the most common beginner mistakes. Most job words have a masculine and a feminine form ("médico, médica", "advogado, advogada"); words in "-ista" and "-ente" stay the same ("o dentista, a dentista", "o estudante, a estudante").`,
+          `English says I'm a teacher. Portuguese leaves out the article: "Sou professor" (a man) or "Sou professora" (a woman). Adding "um" or "uma" here is one of the most common beginner mistakes. Most job words have a masculine and a feminine form ("médico, médica", "advogado, advogada"); most words in "-ista" and "-ente" stay the same and only the article changes ("o dentista, a dentista", "o estudante, a estudante").`,
           `The article comes back when you describe the person with an adjective, because then you are saying what kind of professional they are: "Ela é uma ótima médica" (she's a great doctor). To ask what someone does, say "O que você faz?" or "Qual é a sua profissão?"`,
         ],
         examples: [
@@ -382,8 +382,8 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
       {
         heading: `Você or o senhor / a senhora?`,
         body: [
-          `"Você" is the default: friends, colleagues, people your age, shop staff in a casual place. "O senhor" and "a senhora" show respect and are used with older people, with customers in a shop or hotel, with a doctor, and with anyone you would address as sir or madam in English. They take the ele/ela form of the verb: "O senhor quer um café?" (would you like a coffee, sir?).`,
-          `With first names, Brazilians use the respectful titles "Dona" for a woman and "seu" (short for "senhor") for a man: "Dona Maria", "seu Antônio". These are warm and polite at the same time, typical for a neighbour, the doorman or a friend's parents.`,
+          `"Você" is the default: friends, colleagues, people your age, store clerks in a casual place. "O senhor" and "a senhora" show respect and are used with older people, with customers in a shop or hotel, with a doctor, and with anyone you would address as sir or madam in English. They take the ele/ela form of the verb: "O senhor quer um café?" (would you like a coffee, sir?).`,
+          `With first names, Brazilians use the respectful titles "Dona" for a woman and "seu" (short for "senhor") for a man: "Dona Maria", "seu Antônio". These are warm and polite at the same time, typical for a neighbor, the doorman or a friend's parents.`,
         ],
         examples: [
           { pt: "A senhora precisa de ajuda?", en: "Do you need help, madam?" },
@@ -400,7 +400,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
         ],
         examples: [
           { pt: "É muito longe daqui.", en: "It's very far from here." },
-          { pt: "Gosto muito do seu bairro.", en: "I really like your neighbourhood." },
+          { pt: "Gosto muito do seu bairro.", en: "I really like your neighborhood." },
           { pt: "Somos brasileiros, mas moramos em Londres.", en: "We're Brazilian, but we live in London." },
           { pt: "Cadê a mochila? Ela está no carro.", en: "Where's the backpack? It's in the car." },
         ],
@@ -493,7 +493,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
           rows: [
             ["-o is masculine", "o livro, o quarto, o carro", "a foto, a moto, a tribo"],
             ["-a is feminine", "a casa, a mesa, a rua", "o dia, o mapa, o problema, o sistema"],
-            ["-ção, -dade, -agem are feminine", "a lição, a cidade, a viagem", "(none common)"],
+            ["-ção, -dade, -agem are feminine", "a lição, a cidade, a viagem", "o personagem (a personagem is also correct)"],
             ["-e and consonants: learn them", "o leite, a noite, o mar, a dor", ""],
           ],
         },
@@ -508,7 +508,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
         heading: `Plurals, including -ão`,
         body: [
           `Most nouns add -s. Nouns ending in a consonant change in regular ways: -r, -z and -s on a stressed syllable add -es ("mulher, mulheres", "luz, luzes", "país, países"); -m becomes -ns ("homem, homens"); -l becomes -is, with the accent kept or added to show the stress ("animal, animais", "papel, papéis", "farol, faróis"). Words ending in an unstressed -s do not change: "o ônibus, os ônibus", "o lápis, os lápis".`,
-          `Nouns in -ão have three plurals. Most take -ões ("a lição, as lições", "o limão, os limões"); a few take -ães ("o pão, os pães", "o alemão, os alemães") or -ãos ("a mão, as mãos", "o irmão, os irmãos", "o cidadão, os cidadãos"). When in doubt -ões is the safest guess, but the common short words are worth memorising.`,
+          `Nouns in -ão have three plurals. Most take -ões ("a lição, as lições", "o limão, os limões"); a few take -ães ("o pão, os pães", "o alemão, os alemães") or -ãos ("a mão, as mãos", "o irmão, os irmãos", "o cidadão, os cidadãos"). When in doubt -ões is the safest guess, but the common short words are worth memorizing.`,
         ],
         table: {
           headers: ["Ending", "Plural", "Examples"],
@@ -549,7 +549,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
       {
         wrong: "Os papels estão na mesa.",
         right: "Os papéis estão na mesa.",
-        why: `Nouns in -el form the plural in -éis. Portuguese never adds -s straight after an l.`,
+        why: `Nouns in -el form the plural in -éis. Words in -l don't simply add -s; the soccer word "gol, gols" is a rare exception.`,
       },
       {
         wrong: "O foto ficou boa.",
@@ -568,7 +568,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
       },
       {
         q: `Are the rules different in Portugal?`,
-        a: `Gender and plurals are the same. Portugal uses the article before names everywhere ("o João"), and a few words differ in gender or form in everyday use, but nothing you need at this level.`,
+        a: `Gender and plurals are the same. Portugal generally uses the article before names ("o João"), and a few words differ in gender or form in everyday use, but nothing you need at this level.`,
       },
     ],
     related: ["adjective-agreement", "contractions-no-na-do-da", "possessives-dele-dela"],
@@ -581,7 +581,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
       "How Portuguese adjectives agree with their noun (bonito, bonita, bonitos, bonitas), which ones never change for gender, why they usually come after the noun, and the few that change meaning before it.",
     level: "A1",
     intro: [
-      `In Portuguese an adjective takes the gender and number of the noun it describes: "um carro novo", "uma casa nova", "os carros novos", "as casas novas". English adjectives never change, so this is something to practise until it is automatic.`,
+      `In Portuguese an adjective takes the gender and number of the noun it describes: "um carro novo", "uma casa nova", "os carros novos", "as casas novas". English adjectives never change, so this is something to practice until it is automatic.`,
       `Adjectives also usually come after the noun, the opposite of English: a new car is "um carro novo". A handful of common adjectives go before it, and a few change their meaning with the position.`,
     ],
     sections: [
@@ -616,7 +616,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
         ],
         examples: [
           { pt: "O Rafael e a Bia são simpáticos.", en: "Rafael and Bia are friendly." },
-          { pt: "Tem muitas lojas novas no shopping.", en: "There are lots of new shops in the mall." },
+          { pt: "Tem muitas lojas novas no shopping.", en: "There are lots of new stores in the mall." },
           { pt: "A comida é muito boa.", en: "The food is very good." },
           { pt: "Eles estão muito cansados.", en: "They're very tired." },
         ],
@@ -624,7 +624,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
       {
         heading: `Before or after the noun`,
         body: [
-          `Most adjectives, especially colours, shapes, nationalities and anything that classifies, come after the noun: "uma camisa azul", "um restaurante japonês". A few short, common ones often come first: "bom" and "mau" ("um bom filme"), "grande" in the sense of great, "pequeno", "novo", "velho", and numbers and words like "outro", "primeiro", "último".`,
+          `Most adjectives, especially colors, shapes, nationalities and anything that classifies, come after the noun: "uma camisa azul", "um restaurante japonês". A few short, common ones often come first: "bom" and "mau" ("um bom filme"), "grande" in the sense of great, "pequeno", "novo", "velho", and numbers and words like "outro", "primeiro", "último".`,
           `With some adjectives the position changes the meaning. Before the noun the sense is more figurative or emotional; after it, literal. Learn these as pairs.`,
         ],
         table: {
@@ -663,7 +663,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
       {
         wrong: "Eu tenho um azul carro.",
         right: "Eu tenho um carro azul.",
-        why: `Colours come after the noun.`,
+        why: `Colors come after the noun.`,
       },
     ],
     faqs: [
@@ -672,8 +672,8 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
         a: `"Bom" (good) is an adjective and agrees: "um bom dia", "uma boa ideia". "Bem" (well) is an adverb and never changes: "ela fala bem", "estou bem". In the answer to "tudo bem?" you say "bem", since it describes how you are doing.`,
       },
       {
-        q: `Do colours agree too?`,
-        a: `Most do: "um carro preto, uma casa preta"; "azul" and "verde" change only for the plural ("azuis", "verdes"). Colours named after things, like "rosa" (pink) and "laranja" (orange), usually do not change at all: "camisas rosa".`,
+        q: `Do colors agree too?`,
+        a: `Most do: "um carro preto, uma casa preta"; "azul" and "verde" change only for the plural ("azuis", "verdes"). Colors named after things, like "rosa" (pink) and "laranja" (orange), usually do not change at all: "camisas rosa".`,
       },
       {
         q: `Is agreement the same in Portugal?`,
@@ -733,7 +733,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
       {
         heading: `Verbs that come with a preposition`,
         body: [
-          `Several common verbs need a little word before their object, where English has none. Learn them as a unit: "morar em" (live in), "gostar de" (like), "precisar de" (need), "assistir a" (watch, in careful Portuguese), "chegar a" or "chegar em" (arrive at). The preposition combines with the article: "moro no Rio", "gosto da praia".`,
+          `Several common verbs need a little word before their object, where English has none. Learn them as a unit: "morar em" (live in), "gostar de" (like), "precisar de" (need), "assistir a" (watch, in careful Portuguese), "chegar a" (arrive at; "chegar em" is the everyday spoken form). The preposition combines with the article: "moro no Rio", "gosto da praia".`,
           `A few verbs are almost regular but change their spelling to keep the sound: "conhecer" has "eu conheço", "ler" has "eu leio, ele lê, eles leem". Verbs like "dormir" change the vowel in the "eu" form: "eu durmo".`,
         ],
         examples: [
@@ -824,7 +824,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
         heading: `Obligation and feelings: "ter que" and "ter fome"`,
         body: [
           `"Ter que" plus an infinitive means to have to: "Tenho que acordar cedo" (I have to get up early). "Ter de" means the same and is a little more formal; in speech "ter que" is far more common.`,
-          `Some feelings use "ter" with a noun, where English uses be plus an adjective: "ter fome" (to be hungry), "ter sede" (thirsty), "ter medo" (afraid), "ter pressa" (in a hurry), "ter sorte" (lucky). In Brazil the same idea is often said with "estar com": "estou com fome". Fear and luck mostly stay with "ter": "Tenho medo de avião".`,
+          `Some feelings use "ter" with a noun, where English uses be plus an adjective: "ter fome" (to be hungry), "ter sede" (thirsty), "ter medo" (afraid), "ter pressa" (in a hurry), "ter sorte" (lucky). In Brazil the same idea is often said with "estar com": "estou com fome". With fear both are everyday: "tenho medo de avião" (a general fear) but "estou com medo" (I'm scared right now). Luck stays with "ter": "você tem sorte".`,
         ],
         examples: [
           { pt: "Amanhã eu tenho que trabalhar.", en: "Tomorrow I have to work." },
@@ -929,7 +929,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
           ],
         },
         examples: [
-          { pt: "O que você faz no fim de semana?", en: "What do you do at the weekend?" },
+          { pt: "O que você faz no fim de semana?", en: "What do you do on the weekend?" },
           { pt: "Eu quero um suco de laranja.", en: "I want an orange juice." },
           { pt: "Posso entrar?", en: "May I come in?" },
           { pt: "Ela vem do trabalho de metrô.", en: "She comes from work by subway." },
@@ -1220,7 +1220,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
       },
       {
         q: `"Catorze" or "quatorze"?`,
-        a: `Both spellings are correct in Brazil, and both are said. "Catorze" is the more common spelling.`,
+        a: `Both spellings are correct and common in Brazil, and both are pronounced the same way, with a k sound: ka-TOR-zi. Use either, but be consistent in one text.`,
       },
       {
         q: `Are the numbers different in Portugal?`,
@@ -1367,7 +1367,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
           { pt: "O livro está na mesa.", en: "The book is on the table." },
           { pt: "Eu sou do Rio Grande do Sul.", en: "I'm from Rio Grande do Sul." },
           { pt: "A gente vai à praia no domingo.", en: "We're going to the beach on Sunday." },
-          { pt: "Vou ao cinema com a Bia.", en: "I'm going to the cinema with Bia." },
+          { pt: "Vou ao cinema com a Bia.", en: "I'm going to the movies with Bia." },
           { pt: "Obrigado pela ajuda!", en: "Thanks for the help!" },
         ],
       },
@@ -1437,7 +1437,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
     faqs: [
       {
         q: `How do I know if a city takes an article?`,
-        a: `Assume it does not, and learn the exceptions as you meet them. Cities named after common nouns take one: "o Rio", "o Recife", "a Bahia" (bay, as a state), "o Porto" (in Portugal). Listen to how Brazilians say it.`,
+        a: `Assume it does not, and learn the exceptions as you meet them. Some cities named after common nouns take one: "o Rio" (river), "o Recife" (reef), "o Porto" (port, in Portugal). States are less predictable ("a Bahia", "o Ceará", but "Minas Gerais", "São Paulo" without one). Listen to how Brazilians say it.`,
       },
       {
         q: `When do I write "à"?`,
@@ -1506,7 +1506,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
       {
         wrong: "Eu estou a trabalhar.",
         right: "Eu estou trabalhando.",
-        why: `"Estar a" + infinitive is how Portugal says it. In Brazil it is always "estar" + gerúndio.`,
+        why: `"Estar a" + infinitive is how Portugal says it. Brazilian Portuguese uses "estar" + gerúndio.`,
       },
       {
         wrong: "Ela está comindo.",
@@ -1526,7 +1526,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
       },
       {
         q: `What is "gerundismo"?`,
-        a: `It is a much-mocked habit of call centres to say things like "vou estar transferindo a sua ligação" (I will be transferring your call). Brazilians find it stiff; just say "vou transferir".`,
+        a: `It is a much-mocked habit of call centers to say things like "vou estar transferindo a sua ligação" (I will be transferring your call). Brazilians find it stiff; just say "vou transferir".`,
       },
       {
         q: `How does Portugal say it?`,
@@ -1556,11 +1556,11 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
         table: {
           headers: ["After de", "Example", "Meaning"],
           rows: [
-            ["noun, general", "Gosto de futebol.", "I like football."],
-            ["o + noun", "Gosto do bairro.", "I like the neighbourhood."],
+            ["noun, general", "Gosto de futebol.", "I like soccer."],
+            ["o + noun", "Gosto do bairro.", "I like the neighborhood."],
             ["a + noun", "Ela gosta da novela.", "She likes the soap opera."],
             ["os, as + noun", "Gostamos das praias do Nordeste.", "We like the beaches in the Northeast."],
-            ["infinitive", "Vocês gostam de viajar?", "Do you like travelling?"],
+            ["infinitive", "Vocês gostam de viajar?", "Do you like traveling?"],
           ],
         },
         examples: [
@@ -1574,7 +1574,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
         heading: `Answering, and other verbs of liking`,
         body: [
           `As with other yes/no questions, answer with the verb, without "de": "Você gosta de feijoada? Gosto!" or "Não, não gosto."`,
-          `"Adorar" (to love, to adore) and "amar" (to love) take a direct object, with no "de": "Adoro samba", "Amo essa música". "Odiar" (to hate) works the same way: "Odeio trânsito". "Preferir" (to prefer) changes its vowel in the "eu" form, "prefiro", and uses "a" for the thing you like less: "Prefiro chá a café".`,
+          `"Adorar" (to love, to adore) and "amar" (to love) take a direct object, with no "de": "Adoro samba", "Amo essa música". "Odiar" (to hate) works the same way: "Odeio trânsito". "Preferir" (to prefer) changes its vowel in the "eu" form, "prefiro", and in careful Portuguese uses "a" for the thing you like less: "Prefiro chá a café". In speech you will also hear "prefiro chá do que café", which is fine in conversation but avoided in formal writing.`,
         ],
         examples: [
           { pt: "Você gosta de pagode? Gosto, mas prefiro samba.", en: "Do you like pagode? I do, but I prefer samba." },
@@ -1691,7 +1691,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
       {
         heading: `Stress and the written accents`,
         body: [
-          `Words ending in a vowel, "-s" or "-m" are stressed on the second-to-last syllable: "CA-sa", "FA-lam", "LI-vros". Words ending in "-r", "-l", "-z", "-i" or "-u" are stressed on the last: "fa-LAR", "pa-PEL", "fe-LIZ", "a-QUI". These two rules need no accent.`,
+          `Words ending in a vowel, "-s" or "-m" are stressed on the second-to-last syllable: "CA-sa", "FA-lam", "LI-vros". Words ending in "-r", "-l", "-z", "-i" or "-u" (also "-is", "-us", "-im", "-um") are stressed on the last: "fa-LAR", "pa-PEL", "fe-LIZ", "a-QUI", "jar-DIM". These two rules need no accent.`,
           `Any word that breaks the rules carries a written accent on the stressed vowel: "café", "você", "ônibus", "fácil", "lâmpada". The tilde also usually marks the stressed syllable: "irmã", "limão". So when you see an accent, stress that syllable.`,
         ],
         examples: [
@@ -1730,7 +1730,7 @@ export const PT_A1_GUIDES: PtGrammarGuide[] = [
       },
       {
         q: `Why do people from Rio say sh for "s"?`,
-        a: `In Rio, "s" at the end of a syllable sounds like sh: "mesmo", "três", "Paris". Most of Brazil says a plain s there. Both are natural Brazilian accents.`,
+        a: `In Rio, "s" at the end of a syllable sounds like sh: "mesmo", "três", "Paris". You also hear it in Florianópolis, Belém and parts of the Northeast. Most of Brazil, including São Paulo, says a plain s there. Both are natural Brazilian accents.`,
       },
       {
         q: `How different does Portugal sound?`,

@@ -32,7 +32,7 @@ export const FR_B2_U27: Lesson[] = [
         body: [
           "A relative clause takes the subjunctive when its antecedent is not established as real: something you are looking for (\"je cherche un appartement qui ait un balcon\"), something that doesn't exist (\"il n'y a rien qui puisse le consoler\"), or a question about existence (\"connais-tu quelqu'un qui sache réparer ça ?\"). When the antecedent is known and real, the indicative: \"j'ai trouvé un appartement qui a un balcon\".",
           "After \"le seul\", \"l'unique\", \"le premier\", \"le dernier\" and superlatives, the subjunctive is usual because it presents the claim as a judgement: \"c'est le meilleur film que j'aie jamais vu\". The indicative states a plain fact: \"c'est le seul qui est venu\".",
-          "With a preposition, \"lequel\" agrees and contracts: \"auquel\", \"duquel\", \"à laquelle\". For people, \"à qui\", \"avec qui\" are usual. \"La raison pour laquelle\" (the reason why) and \"le jour où\" (never *quand).",
+          "With a preposition, \"lequel\" agrees and contracts: \"auquel\", \"duquel\", \"à laquelle\". For people, \"à qui\", \"avec qui\" are usual. \"La raison pour laquelle\" (the reason why) and \"le jour où\" (never *\"quand\").",
         ],
         examples: [
           { es: "Je cherche un appartement qui ait un balcon.", en: "I'm looking for a flat with a balcony." },
@@ -196,7 +196,7 @@ export const FR_B2_U27: Lesson[] = [
         en: "That's the reason [why] I left.",
         sentence: "C'est la raison ___ je suis parti.",
         answer: "pour laquelle",
-        explanation: "\"La raison pour laquelle\", never *pourquoi.",
+        explanation: "\"La raison pour laquelle\", never *\"pourquoi\".",
       },
       {
         type: "translate",
@@ -281,7 +281,7 @@ export const FR_B2_U27: Lesson[] = [
         prompt: "Translate into French.",
         source: "I'm sorry he left.",
         answer: "Je regrette qu'il soit parti.",
-        altAnswers: ["Je suis désolé qu'il soit parti.", "Je suis désolée qu'il soit parti.", "Je regrette qu'il soit parti si tôt."],
+        altAnswers: ["Je suis désolé qu'il soit parti.", "Je suis désolée qu'il soit parti."],
         explanation: "Past subjunctive with \"être\" for \"partir\".",
       },
       {
@@ -348,7 +348,7 @@ export const FR_B2_U27: Lesson[] = [
         source: "If we had known, we would have stayed.",
         answer: "Si nous avions su, nous serions restés.",
         altAnswers: ["Si on avait su, on serait restés.", "Si nous avions su, nous serions restées.", "Si on avait su, on serait resté.", "Si on avait su, on serait restées."],
-        explanation: "Unreal past: plus-que-parfait → conditionnel passé (\"rester\" takes être).",
+        explanation: "Unreal past: plus-que-parfait → conditionnel passé (\"rester\" takes \"être\").",
       },
       {
         type: "translate",
@@ -365,7 +365,7 @@ export const FR_B2_U27: Lesson[] = [
         en: "You [should have] told me.",
         sentence: "Tu ___ me le dire.",
         answer: "aurais dû",
-        explanation: "Should have = conditionnel passé of devoir.",
+        explanation: "Should have = conditionnel passé of \"devoir\".",
       },
       {
         type: "translate",
@@ -403,7 +403,7 @@ export const FR_B2_U27: Lesson[] = [
       {
         type: "dictation",
         audio: "Je cherche quelqu'un qui puisse garder mes enfants le mercredi.",
-        explanation: "A sought person → \"puisse\" (subjunctive of pouvoir).",
+        explanation: "A sought person → \"puisse\" (subjunctive of \"pouvoir\").",
       },
       {
         type: "speak",
@@ -425,7 +425,7 @@ export const FR_B2_U27: Lesson[] = [
         heading: "Step 1: name the relation",
         body: [
           "Before choosing a word, ask what links the two ideas. Contrast or concession (the second goes against the first): \"mais\", \"cependant\", \"pourtant\", \"toutefois\", \"néanmoins\", \"en revanche\". Consequence (the second results from the first): \"donc\", \"alors\", \"par conséquent\", \"c'est pourquoi\", \"ainsi\". Addition (the second adds to the first): \"et\", \"de plus\", \"en outre\", \"par ailleurs\", \"d'ailleurs\". Cause (the second explains the first): \"parce que\", \"car\", \"puisque\", \"comme\", \"étant donné que\".",
-          "The commonest error is a connector with the wrong logic: *il pleuvait, par conséquent nous sommes sortis. Read the sentence aloud with the English equivalent: it rained, as a result we went out? The logic fails.",
+          "The commonest error is a connector with the wrong logic: *\"il pleuvait, par conséquent nous sommes sortis\". Read the sentence aloud with the English equivalent: it rained, as a result we went out? The logic fails.",
           "Register matters too: \"mais, alors, en plus, par contre\" are spoken or neutral; \"cependant, par conséquent, de plus, en revanche\" are written.",
         ],
         examples: [
@@ -482,7 +482,7 @@ export const FR_B2_U27: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Paul adore la montagne ; ___, sa femme préfère la mer. »",
+            question: "Which connector fits? « Paul adore la montagne ; ___, sa femme préfère la mer. »",
             options: ["en revanche", "pourtant", "par conséquent", "d'ailleurs"],
             correctIndex: 0,
             explanation: "Two different people compared → \"en revanche\".",
@@ -567,7 +567,7 @@ export const FR_B2_U27: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« ___ les routes étaient bloquées, le match a été reporté. »",
+        question: "Which connector fits? « ___ les routes étaient bloquées, le match a été reporté. »",
         options: ["Comme", "Car", "Donc", "Pourtant"],
         correctIndex: 0,
         explanation: "A cause at the start of the sentence → \"comme\".",
@@ -592,7 +592,7 @@ export const FR_B2_U27: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence uses « or » correctly?",
+        question: "Which sentence uses \"or\" correctly?",
         options: ["Il dit qu'il dormait. Or, on l'a vu au café.", "Tu veux du thé or du café ?", "Il dormait, or il était fatigué.", "Or il pleut, or il fait beau."],
         correctIndex: 0,
         explanation: "\"Or\" introduces a new fact that challenges the argument; English or is \"ou\".",
@@ -674,7 +674,7 @@ export const FR_B2_U27: Lesson[] = [
       {
         heading: "The gérondif and participles (Units 13-14)",
         body: [
-          "The gérondif \"en\" + -ant (from the nous stem: \"nous finissons\" → \"en finissant\"; irregular: \"en ayant\", \"en étant\", \"en sachant\") expresses simultaneity (\"en rentrant\"), manner or means (\"en travaillant dur\"), condition (\"en partant maintenant, tu arriveras à l'heure\") and cause. It must share the subject of the main verb. \"Tout en\" adds concession: \"tout en sachant que c'était risqué\".",
+          "The gérondif \"en\" + -ant (from the \"nous\" stem: \"nous finissons\" → \"en finissant\"; irregular: \"en ayant\", \"en étant\", \"en sachant\") expresses simultaneity (\"en rentrant\"), manner or means (\"en travaillant dur\"), condition (\"en partant maintenant, tu arriveras à l'heure\") and cause. It must share the subject of the main verb. \"Tout en\" adds concession: \"tout en sachant que c'était risqué\".",
           "The present participle without \"en\" is written French and replaces a relative or a cause clause: \"les étudiants souhaitant s'inscrire\", \"ne sachant pas quoi dire, il s'est tu\". It never agrees. The perfect participle \"ayant / étant\" + participle marks a completed action: \"ayant fini, elle est partie\".",
           "The adjectif verbal agrees and sometimes has a different spelling: \"fatigant\" (adjective) vs \"fatiguant\" (participle), \"convaincant\" vs \"convainquant\", \"différent\" vs \"différant\".",
         ],
@@ -751,7 +751,7 @@ export const FR_B2_U27: Lesson[] = [
         body: [
           "Connectors: contrast (\"cependant, pourtant, en revanche, néanmoins\"), cause (\"car, puisque, comme, étant donné que\"), consequence (\"donc, par conséquent, c'est pourquoi\"), addition (\"de plus, en outre, par ailleurs\"), conclusion (\"en somme, bref, en définitive\"). False friends: \"en effet\" (indeed), \"actuellement\" (currently), \"éventuellement\" (possibly).",
           "Emphasis: dislocation (\"ce film, je l'ai vu deux fois\"; \"du café, j'en bois trop\"); clefts \"c'est... qui / que\" with agreement (\"c'est toi qui as gagné\") and repeated prepositions (\"c'est à lui que je parle\"); pseudo-clefts \"ce qui / ce que / ce dont / ce à quoi..., c'est\".",
-          "Exclamations: \"qu'est-ce que c'est beau !\", \"comme il chante bien !\", \"quel talent !\", \"ce qu'il est drôle !\" (familiar); never *comment.",
+          "Exclamations: \"qu'est-ce que c'est beau !\", \"comme il chante bien !\", \"quel talent !\", \"ce qu'il est drôle !\" (familiar); never *\"comment\".",
         ],
         examples: [
           { es: "Il est très doué ; pourtant, il ne travaille jamais.", en: "He's very gifted; yet he never works." },
@@ -769,7 +769,7 @@ export const FR_B2_U27: Lesson[] = [
             source: "You're the one who won.",
             answer: "C'est toi qui as gagné.",
             altAnswers: ["C'est vous qui avez gagné."],
-            explanation: "After \"c'est toi qui\", the verb is in the tu form: \"as\".",
+            explanation: "After \"c'est toi qui\", the verb is in the \"tu\" form: \"as\".",
           },
           {
             type: "listen-choose",
@@ -797,7 +797,6 @@ export const FR_B2_U27: Lesson[] = [
         prompt: "Translate into French.",
         source: "She said she had lost her keys.",
         answer: "Elle a dit qu'elle avait perdu ses clés.",
-        altAnswers: ["Elle m'a dit qu'elle avait perdu ses clés."],
         explanation: "Passé composé → plus-que-parfait.",
       },
       {
@@ -949,7 +948,7 @@ export const FR_B2_U27: Lesson[] = [
         en: "She [took up] the violin at forty.",
         sentence: "Elle ___ violon à quarante ans.",
         answer: "s'est mise au",
-        explanation: "\"Se mettre à\" + le = \"au\"; \"mise\" agrees with \"elle\".",
+        explanation: "\"Se mettre à\" + \"le\" = \"au\"; \"mise\" agrees with \"elle\".",
       },
       {
         type: "translate",
@@ -962,7 +961,7 @@ export const FR_B2_U27: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Le film était long ; ___, il était passionnant. »",
+        question: "Which connector fits? « Le film était long ; ___, il était passionnant. »",
         options: ["cependant", "par conséquent", "en effet", "donc"],
         correctIndex: 0,
         explanation: "Contrast → \"cependant\".",
@@ -1275,7 +1274,7 @@ export const FR_B2_U27: Lesson[] = [
           {
             type: "dictation",
             audio: "Bien qu'il ait beaucoup plu, la randonnée a été magnifique.",
-            explanation: "\"Bien que\" + past subjunctive \"ait plu\" (pleuvoir); \"randonnée\" is feminine.",
+            explanation: "\"Bien que\" + past subjunctive \"ait plu\" (\"pleuvoir\"); \"randonnée\" is feminine.",
           },
           {
             type: "translate",
@@ -1284,7 +1283,7 @@ export const FR_B2_U27: Lesson[] = [
             source: "I don't think they've arrived yet.",
             answer: "Je ne pense pas qu'ils soient déjà arrivés.",
             altAnswers: ["Je ne pense pas qu'elles soient déjà arrivées.", "Je ne crois pas qu'ils soient déjà arrivés.", "Je ne crois pas qu'elles soient déjà arrivées.", "Je ne pense pas qu'ils soient encore arrivés.", "Je ne crois pas qu'ils soient encore arrivés."],
-            explanation: "Negative opinion + past subjunctive; \"arriver\" takes être, so the participle agrees.",
+            explanation: "Negative opinion + past subjunctive; \"arriver\" takes \"être\", so the participle agrees.",
           },
           {
             type: "translate",
@@ -1293,7 +1292,7 @@ export const FR_B2_U27: Lesson[] = [
             source: "If we had more time, we'd finish before summer.",
             answer: "Si nous avions plus de temps, nous finirions avant l'été.",
             altAnswers: ["Si on avait plus de temps, on finirait avant l'été.", "Si nous avions plus de temps, nous terminerions avant l'été.", "Si on avait plus de temps, on terminerait avant l'été."],
-            explanation: "Si + imparfait → conditionnel (-ions ending).",
+            explanation: "\"Si\" + imparfait → conditionnel (-ions ending).",
           },
         ],
       },
@@ -1315,7 +1314,7 @@ export const FR_B2_U27: Lesson[] = [
           {
             type: "dictation",
             audio: "Les lettres qu'il lui a écrites ont été retrouvées.",
-            explanation: "\"Écrites\" agrees with \"que\" (les lettres), placed before the verb; \"retrouvées\" agrees with the subject in the passive.",
+            explanation: "\"Écrites\" agrees with \"que\" (\"les lettres\"), placed before the verb; \"retrouvées\" agrees with the subject in the passive.",
           },
           {
             type: "translate",
@@ -1324,7 +1323,7 @@ export const FR_B2_U27: Lesson[] = [
             source: "They talked to each other for hours.",
             answer: "Ils se sont parlé pendant des heures.",
             altAnswers: ["Elles se sont parlé pendant des heures.", "Ils se sont parlé des heures.", "Elles se sont parlé des heures."],
-            explanation: "\"Se parler\" has an indirect object (parler à), so no agreement: \"parlé\".",
+            explanation: "\"Se parler\" has an indirect object (\"parler à\"), so no agreement: \"parlé\".",
           },
           {
             type: "fill-blank",
@@ -1452,7 +1451,7 @@ export const FR_B2_U27: Lesson[] = [
         prompt: "Translate into French.",
         source: "the letters she wrote",
         answer: "les lettres qu'elle a écrites",
-        explanation: "Preceding direct object \"que\" (lettres) → \"écrites\".",
+        explanation: "Preceding direct object \"que\" (\"lettres\") → \"écrites\".",
       },
       {
         type: "translate",
@@ -1485,15 +1484,15 @@ export const FR_B2_U27: Lesson[] = [
     level: "FR-B2",
     number: 6,
     title: "Upper-Intermediate Comprehensive Review, Part 3 of 3",
-    summary: "Units 21-26 revisited: dont, duquel and lequel, then the Upper-intermediate vocabulary themes from art and politics to technology, the media, psychology and debate, with a 30-question test.",
+    summary: "Units 21-26 revisited: \"dont\", \"duquel\" and \"lequel\", then the Upper-intermediate vocabulary themes from art and politics to technology, the media, psychology and debate, with a 30-question test.",
     duration: "20 min",
     sections: [
       {
         heading: "Dont in depth (Unit 21)",
         body: [
-          "\"Dont\" replaces \"de\" + antecedent. With verbs and adjectives built with \"de\": \"le livre dont je t'ai parlé\", \"l'outil dont j'ai besoin\", \"le résultat dont elle est fière\". As whose: \"l'homme dont je connais le fils\" (normal word order after dont, article not possessive). With quantities: \"trois enfants, dont deux filles\" (including).",
+          "\"Dont\" replaces \"de\" + antecedent. With verbs and adjectives built with \"de\": \"le livre dont je t'ai parlé\", \"l'outil dont j'ai besoin\", \"le résultat dont elle est fière\". As whose: \"l'homme dont je connais le fils\" (normal word order after \"dont\", article not possessive). With quantities: \"trois enfants, dont deux filles\" (including).",
           "\"Ce dont\" when there is no antecedent: \"ce dont j'ai envie, c'est de dormir\".",
-          "The classic errors: *le livre que je t'ai parlé, *dont son père, *dont le fils je connais.",
+          "The classic errors: *\"le livre que je t'ai parlé\", *\"dont son père\", *\"dont le fils je connais\".",
         ],
         examples: [
           { es: "Voici le livre dont je t'ai parlé.", en: "Here's the book I told you about." },
@@ -1545,7 +1544,7 @@ export const FR_B2_U27: Lesson[] = [
             source: "the candidates among whom we must choose",
             answer: "les candidats parmi lesquels nous devons choisir",
             altAnswers: ["les candidats parmi lesquels on doit choisir", "les candidates parmi lesquelles nous devons choisir"],
-            explanation: "After \"parmi\", always \"lesquels\", even for people (never *parmi qui).",
+            explanation: "After \"parmi\", always \"lesquels\", even for people (never *\"parmi qui\").",
           },
           {
             type: "fill-blank",
@@ -1583,7 +1582,7 @@ export const FR_B2_U27: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What is « un roman »?",
+            question: "What is \"un roman\"?",
             options: ["a novel", "a romance", "a Roman", "a short story"],
             correctIndex: 0,
             explanation: "\"Un roman\" is any novel; a short story is \"une nouvelle\".",
@@ -1705,7 +1704,7 @@ export const FR_B2_U27: Lesson[] = [
         question: "Which sentence is correct?",
         options: ["Les élèves parmi lesquels il y a des Espagnols", "Les élèves parmi qui il y a des Espagnols", "Les élèves parmi dont il y a des Espagnols", "Les élèves parmi lequel il y a des Espagnols"],
         correctIndex: 0,
-        explanation: "\"Parmi\" + \"lesquels\", never *parmi qui.",
+        explanation: "\"Parmi\" + \"lesquels\", never *\"parmi qui\".",
       },
       {
         type: "translate",
@@ -1893,8 +1892,8 @@ export const FR_B2_U27: Lesson[] = [
         heading: "Hunt 1: moods and tenses",
         body: [
           "The rules of the hunt: each sentence below was written by an advanced learner and contains exactly one error. No hint tells you where. Read each sentence twice: once for meaning, once for grammar, checking the usual suspects: mood after a trigger, tense after \"si\", agreement, preposition, word order.",
-          "Sentences to diagnose: \"*Je cherche un assistant qui sait parler arabe.\" (sought person: subjunctive \"sache\"). \"*Si j'aurais su, je serais venu.\" (no conditional after si: \"si j'avais su\"). \"*Après qu'il soit parti, on a dîné.\" (après que + indicative: \"est parti\"). \"*J'espère que tu viennes.\" (espérer + indicative: \"viendras\").",
-          "And two subtler ones: \"*Bien qu'il a raison, je ne suis pas d'accord.\" (bien que + subjunctive: \"ait\"). \"*Quand je serai à Paris, je te téléphonerais.\" (future, not conditional: \"téléphonerai\").",
+          "Sentences to diagnose: \"*Je cherche un assistant qui sait parler arabe.\" (sought person: subjunctive \"sache\"). \"*Si j'aurais su, je serais venu.\" (no conditional after \"si\": \"si j'avais su\"). \"*Après qu'il soit parti, on a dîné.\" (\"après que\" + indicative: \"est parti\"). \"*J'espère que tu viennes.\" (\"espérer\" + indicative: \"viendras\").",
+          "And two subtler ones: \"*Bien qu'il a raison, je ne suis pas d'accord.\" (\"bien que\" + subjunctive: \"ait\"). \"*Quand je serai à Paris, je te téléphonerais.\" (future, not conditional: \"téléphonerai\").",
         ],
         examples: [
           { es: "Je cherche un assistant qui sache parler arabe.", en: "I'm looking for an assistant who can speak Arabic." },
@@ -2084,7 +2083,7 @@ export const FR_B2_U27: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "One error: « Malgré qu'il fasse froid, ils sont sortis. » Write the correct French (formal).",
-        source: "Although it's cold, they went out.",
+        source: "Although it was cold, they went out.",
         answer: "Bien qu'il fasse froid, ils sont sortis.",
         altAnswers: ["Bien qu'il fasse froid, elles sont sorties.", "Malgré le froid, ils sont sortis.", "Malgré le froid, elles sont sorties.", "Quoiqu'il fasse froid, ils sont sortis."],
         explanation: "\"Bien que\" + subjunctive, or \"malgré\" + noun.",
@@ -2213,7 +2212,7 @@ export const FR_B2_U27: Lesson[] = [
             en: "We [should have] kept in touch.",
             sentence: "On ___ garder le contact.",
             answer: "aurait dû",
-            explanation: "Regret: conditionnel passé of devoir; \"on\" takes the il form.",
+            explanation: "Regret: conditionnel passé of \"devoir\"; \"on\" takes the \"il\" form.",
           },
           {
             type: "speak",
@@ -2234,7 +2233,7 @@ export const FR_B2_U27: Lesson[] = [
           { es: "La douleur est plus forte en montant les escaliers.", en: "The pain is worse when I go up the stairs." },
           { es: "Il faut que vous vous reposiez pendant au moins trois semaines.", en: "You must rest for at least three weeks." },
           { es: "Il vaudrait mieux que vous fassiez une radio avant de reprendre.", en: "It would be best if you had an X-ray before starting again." },
-          { es: "Le médecin m'a dit de ne pas courir avant que la douleur ait disparu.", en: "The doctor told me not to run until the pain has gone." },
+          { es: "Le médecin m'a dit de ne pas courir avant que la douleur ait disparu.", en: "The doctor told me not to run until the pain had gone." },
         ],
         checkpoint: [
           {
@@ -2368,7 +2367,7 @@ export const FR_B2_U27: Lesson[] = [
         source: "You're the one who wanted to study engineering!",
         answer: "C'est toi qui as voulu faire des études d'ingénieur !",
         altAnswers: ["C'est toi qui as voulu être ingénieur !", "C'est toi qui voulais faire des études d'ingénieur !", "C'est toi qui as voulu faire une école d'ingénieur !"],
-        explanation: "\"C'est toi qui\" + tu-form verb: \"as\".",
+        explanation: "\"C'est toi qui\" + \"tu\"-form verb: \"as\".",
       },
       {
         type: "word-order",
@@ -2578,7 +2577,7 @@ export const FR_B2_U27: Lesson[] = [
         prompt: "Translate into French.",
         source: "You're the ones who made the decision.",
         answer: "C'est vous qui avez pris la décision.",
-        explanation: "\"C'est vous qui\" + vous form; \"prendre une décision\".",
+        explanation: "\"C'est vous qui\" + \"vous\" form; \"prendre une décision\".",
       },
       {
         type: "translate",
@@ -2625,7 +2624,7 @@ export const FR_B2_U27: Lesson[] = [
         type: "speak",
         text: "Ce dont je suis le plus fier, c'est d'avoir appris le français.",
         prompt: "Say it in French: What I'm proudest of is having learned French.",
-        explanation: "\"Ce dont\" (fier de) + \"c'est de\" + infinitif passé.",
+        explanation: "\"Ce dont\" (\"fier de\") + \"c'est de\" + infinitif passé.",
       },
     ],
   },
@@ -2640,7 +2639,7 @@ export const FR_B2_U27: Lesson[] = [
       {
         heading: "Where the pieces go: clauses and conjunctions",
         body: [
-          "A long French sentence is built of blocks: the main clause, the subordinate clause introduced by its conjunction, and the small words (pronouns, negations, adverbs) inside each block. The conjunction always opens its clause: \"bien qu'il soit tard\", \"pour que tu comprennes\". A subordinate clause can come first or second; after it comes first, a comma.",
+          "A long French sentence is built of blocks: the main clause, the subordinate clause introduced by its conjunction, and the small words (pronouns, negations, adverbs) inside each block. The conjunction always opens its clause: \"bien qu'il soit tard\", \"pour que tu comprennes\". A subordinate clause can come first or second; when it comes first, a comma follows it.",
           "Inside each clause, object pronouns sit before the conjugated verb (\"je le lui ai dit\"), or before the infinitive when there is one (\"je vais le lui dire\"), and before \"faire\" in causatives (\"je le fais réparer\"). The order is \"me / te / se / nous / vous\" → \"le / la / les\" → \"lui / leur\" → \"y\" → \"en\".",
           "Negation wraps the conjugated verb and its pronouns: \"je ne le lui ai pas dit\"; with an infinitive, both parts come before it: \"pour ne pas le déranger\".",
         ],
@@ -2774,7 +2773,7 @@ export const FR_B2_U27: Lesson[] = [
         prompt: "Put the words in order to say: If I'd known, I would have come.",
         words: ["Si", "j'avais su,", "je", "serais", "venu."],
         translation: "If I'd known, I would have come.",
-        explanation: "Si + plus-que-parfait, then conditionnel passé.",
+        explanation: "\"Si\" + plus-que-parfait, then conditionnel passé.",
       },
       {
         type: "word-order",
@@ -2789,7 +2788,7 @@ export const FR_B2_U27: Lesson[] = [
         prompt: "Translate into French.",
         source: "I didn't give it to them.",
         answer: "Je ne le leur ai pas donné.",
-        altAnswers: ["Je ne la leur ai pas donnée.", "Je ne les leur ai pas donnés.", "Je ne les leur ai pas données."],
+        altAnswers: ["Je ne la leur ai pas donnée."],
         explanation: "\"Ne\" + \"le leur\" + auxiliary + \"pas\" + participle.",
       },
       {

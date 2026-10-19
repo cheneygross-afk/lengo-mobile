@@ -116,7 +116,7 @@ export const PT_B1_S02_STORIES: Story[] = [
       },
       {
         question: `Why did Dona Rosângela give up her nursing course?`,
-        options: [`She didn't pass the exam.`, `She opened the food stall.`, `Her own mother became ill.`, `She was afraid of Rio de Janeiro.`],
+        options: [`She didn't pass the exam.`, `She opened the food stall.`, `Her own mother got sick.`, `She was afraid of Rio de Janeiro.`],
         correctIndex: 2,
         explanation: `"Estava com a mala pronta quando a mãe dela ficou doente. Ela desistiu do curso para cuidar da mãe."`,
       },
@@ -138,7 +138,7 @@ export const PT_B1_S02_STORIES: Story[] = [
       `Diego nunca tinha tido cachorro. Era programador, trabalhava em casa e saía pouco. Mesmo assim, não teve coragem de deixar o bicho na chuva. Levou o Biscoito para o apartamento, secou o cachorro com a melhor toalha que tinha e deu a ele o frango que seria o seu almoço. O Biscoito comeu tudo, subiu no sofá e dormiu tranquilo, como um velho dono da casa.`,
       `Depois, Diego tirou uma foto e publicou nos grupos do bairro: “Encontrei este beagle na Rua dos Pinheiros. Procuro o dono ou a dona. Ele está bem, mas está comendo o meu almoço.” Em uma hora, a foto tinha sido compartilhada mais de duzentas vezes.`,
       `Enquanto esperava, Diego viu no celular mais uma mensagem da Paula, a moça com quem conversava havia um mês num aplicativo de namoro. Eles falavam todos os dias sobre livros, séries e comida. Ela era engraçada e inteligente, mas Diego já tinha cancelado dois encontros com ela, sempre com uma desculpa. A verdade era que ele morria de vergonha de conhecer pessoas ao vivo. A mensagem dizia apenas: “Hoje não posso conversar. Perdi o meu cachorro. Estou desesperada.”`,
-      `Diego sentiu um frio na barriga. Ele olhou para o Biscoito, roncando no sofá. Não podia ser. São Paulo tem doze milhões de habitantes. Então o telefone tocou. Era um número desconhecido. “Oi, eu vi a sua publicação. Acho que esse é o meu Biscoito!” A voz era de uma mulher, nervosa e alegre ao mesmo tempo. Ela disse que morava a três quarteirões e que chegaria em dez minutos.`,
+      `Diego sentiu um frio na barriga. Ele olhou para o Biscoito, roncando no sofá. Não podia ser. São Paulo tem mais de onze milhões de habitantes. Então o telefone tocou. Era um número desconhecido. “Oi, eu vi a sua publicação. Acho que esse é o meu Biscoito!” A voz era de uma mulher, nervosa e alegre ao mesmo tempo. Ela disse que morava a três quarteirões e que chegaria em dez minutos.`,
       `Quando a campainha tocou, o Biscoito pulou do sofá e correu para a porta, latindo. Diego abriu. Era ela: a Paula das fotos do aplicativo, de capa de chuva amarela e cabelo molhado. Ela abraçou o cachorro, agradeceu umas cinco vezes e só depois olhou bem para Diego. Ficou séria. “Espera aí. Você é o Diego? O Diego do aplicativo? Aquele que sempre tem uma desculpa?”`,
       `Ele ficou vermelho até as orelhas. “Sou. Desculpa. Eu ia... quer dizer...” Paula olhou para ele, depois para o cachorro, depois para a toalha cheia de pelos no chão. E começou a rir. “Pelo jeito, o Biscoito resolveu marcar o nosso encontro. Você me deve um almoço, sabia? Ou melhor, deve um almoço a ele.”`,
       `Eles almoçaram juntos naquele mesmo dia, numa padaria da esquina, com o Biscoito embaixo da mesa. Seis meses depois, o beagle tem duas casas, dois potes de ração e um dono a mais. E Diego nunca mais cancelou um encontro.`,
@@ -151,7 +151,7 @@ export const PT_B1_S02_STORIES: Story[] = [
         explanation: `"Os últimos dígitos estavam apagados."`,
       },
       {
-        question: `Why had Diego cancelled his dates with Paula?`,
+        question: `Why had Diego canceled his dates with Paula?`,
         options: [`He was too embarrassed to meet people in person.`, `He had too much work.`, `He didn't like her messages.`, `He was allergic to dogs.`],
         correctIndex: 0,
         explanation: `"A verdade era que ele morria de vergonha de conhecer pessoas ao vivo."`,
@@ -188,7 +188,7 @@ export const PT_B1_S02_STORIES: Story[] = [
     questions: [
       {
         question: `Why couldn't the headline band arrive on time?`,
-        options: [`Their flight was cancelled.`, `Their van broke down on the road.`, `The singer lost his voice.`, `They forgot the date.`],
+        options: [`Their flight was canceled.`, `Their van broke down on the road.`, `The singer lost his voice.`, `They forgot the date.`],
         correctIndex: 1,
         explanation: `The message said: "A van quebrou na estrada."`,
       },

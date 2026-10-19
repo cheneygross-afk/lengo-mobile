@@ -5,7 +5,7 @@ import type { Lesson, WriteExercise } from "./types";
 
 export const FR_B1_U17_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Write a short post (80-150 words) for a French forum thread called « Ma ville idéale ». Describe the place where you grew up or live now: what you like most about it, what annoys you, what you miss or need when you are away, and one person or place that matters to you there. Use relative pronouns and the ce forms.",
+  prompt: "Write a short post (80-150 words) for a French forum thread called \"Ma ville idéale\". Describe the place where you grew up or live now: what you like most about it, what annoys you, what you miss or need when you are away, and one person or place that matters to you there. Use relative pronouns and the ce forms.",
   minWords: 80,
   maxWords: 150,
   rubric: [
@@ -288,7 +288,7 @@ export const FR_B1_U17: Lesson[] = [
           { es: "Je suis partie du Puy-en-Velay un lundi matin, sous la pluie.", en: "I set off from Le Puy-en-Velay one Monday morning, in the rain." },
           { es: "Le sac que j'avais acheté la veille pesait déjà neuf kilos.", en: "The backpack I'd bought the day before already weighed nine kilos." },
           { es: "Le premier gîte où on a dormi était une ancienne ferme.", en: "The first hostel where we slept was an old farm." },
-          { es: "On a rencontré un Belge qui marchait depuis Liège.", en: "We met a Belgian man who'd been walking all the way from Belgium." },
+          { es: "On a rencontré un Belge qui marchait depuis Liège.", en: "We met a Belgian man who'd been walking all the way from Liege." },
           { es: "Les pèlerins qu'on a rencontrés venaient du monde entier.", en: "The pilgrims we met came from all over the world." },
           { es: "C'est un chemin dont tout le monde parle, mais que peu de gens finissent.", en: "It's a route everyone talks about, but that few people finish." },
         ],
@@ -774,7 +774,7 @@ export const FR_B1_U17: Lesson[] = [
         heading: "Highlighting: c'est de..., c'est à..., c'est que...",
         body: [
           "In the frame \"ce dont..., c'est...\" the preposition often comes back before the revealed thing: \"Ce dont j'ai besoin, c'est de repos\" (because you need \"de repos\"). With \"ce à quoi\" you can repeat \"à\" (\"c'est à mes vacances\") or drop it in relaxed speech (\"c'est mes vacances\"). With an infinitive, \"de\" is required: \"Ce dont j'ai envie, c'est de dormir.\"",
-          "When what you reveal is a whole sentence, use \"c'est que\" + the indicative: \"Ce qui m'énerve, c'est qu'il est toujours en retard.\" This is a statement of fact, so no subjunctive, even though \"ça m'énerve qu'il soit en retard\" (with an emotion verb directly) takes one.",
+          "When what you reveal is a whole sentence, use \"c'est que\" + the indicative: \"Ce qui m'énerve, c'est qu'il est toujours en retard.\" This presents it as a fact, and the indicative is always safe here; you will also hear the subjunctive after \"c'est que\" in this frame (\"c'est qu'il soit toujours en retard\"), whereas \"ça m'énerve qu'il soit en retard\" (with an emotion verb directly) always takes it.",
           "These frames are how French speakers organise an argument: \"Ce qui est intéressant, c'est que...\", \"Ce que je ne comprends pas, c'est pourquoi...\", \"Le problème, c'est que...\". Use them in your speaking and writing to sound fluent.",
         ],
         examples: [
@@ -1095,7 +1095,7 @@ export const FR_B1_U17: Lesson[] = [
         prompt: "Translate into French.",
         source: "That's what I'm counting on.",
         answer: "C'est ce sur quoi je compte.",
-        altAnswers: ["C'est sur ça que je compte."],
+        altAnswers: ["C'est sur ça que je compte.", "C'est là-dessus que je compte."],
         explanation: "\"Compter sur\" → \"ce sur quoi\": preposition + quoi for a thing.",
       },
       {
@@ -1121,9 +1121,9 @@ export const FR_B1_U17: Lesson[] = [
         type: "listen-choose",
         audio: "C'est l'homme qu'il a vu.",
         question: "What did you hear?",
-        options: ["C'est l'homme qu'il a vu.", "C'est l'homme qui l'a vu.", "C'est l'homme qui a vu.", "C'est l'homme qu'elle a vu."],
+        options: ["C'est l'homme qu'il a vu.", "C'est l'homme qu'il voit.", "C'est l'homme qui a vu.", "C'est l'homme qu'elle a vu."],
         correctIndex: 0,
-        explanation: "\"Qu'il a vu\" (that he saw) sounds very close to \"qui l'a vu\" (who saw him); the meaning is the reverse.",
+        explanation: "\"Qu'il a vu\" (that he saw): passé composé, with the l of il. Careful: \"qui l'a vu\" (who saw him) sounds the same, so only context can tell those two apart.",
       },
       {
         type: "speak",
@@ -1298,7 +1298,7 @@ export const FR_B1_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Join: « C'est une chanson. Je l'adore. » Which is right?",
+        question: "Join: \"C'est une chanson. Je l'adore.\" Which is right?",
         options: ["C'est une chanson que j'adore.", "C'est une chanson qui j'adore.", "C'est une chanson dont j'adore.", "C'est une chanson que je l'adore."],
         correctIndex: 0,
         explanation: "\"L'\" is a direct object → \"que\", and the pronoun disappears: never *que je l'adore*.",
@@ -1505,7 +1505,7 @@ export const FR_B1_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which completes « Ce ___ me plaît, c'est l'ambiance. »?",
+        question: "Which completes \"Ce ___ me plaît, c'est l'ambiance.\"?",
         options: ["qui", "que", "dont", "à quoi"],
         correctIndex: 0,
         explanation: "The ambiance pleases me: subject → \"ce qui\".",
@@ -1552,7 +1552,7 @@ export const FR_B1_U17: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the error and translate. Wrong version: « Le film j'ai vu était génial. »",
+            prompt: "Fix the error and translate. Wrong version: \"Le film j'ai vu était génial.\"",
             source: "The film I saw was great.",
             answer: "Le film que j'ai vu était génial.",
             explanation: "French can't drop the relative: \"le film que j'ai vu\".",
@@ -1560,7 +1560,7 @@ export const FR_B1_U17: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the error and translate. Wrong version: « C'est le jour quand il est né. »",
+            prompt: "Fix the error and translate. Wrong version: \"C'est le jour quand il est né.\"",
             source: "It's the day he was born.",
             answer: "C'est le jour où il est né.",
             explanation: "After a time noun, \"où\": \"le jour où\".",
@@ -1585,7 +1585,7 @@ export const FR_B1_U17: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the error and translate. Wrong version: « C'est la fille que je parle. »",
+            prompt: "Fix the error and translate. Wrong version: \"C'est la fille que je parle.\"",
             source: "That's the girl I'm talking about.",
             answer: "C'est la fille dont je parle.",
             explanation: "\"Parler de\" → \"dont\". \"Que\" is only for a direct object.",
@@ -1593,7 +1593,7 @@ export const FR_B1_U17: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the error and translate. Wrong version: « C'est l'outil dont j'ai besoin de. »",
+            prompt: "Fix the error and translate. Wrong version: \"C'est l'outil dont j'ai besoin de.\"",
             source: "It's the tool I need.",
             answer: "C'est l'outil dont j'ai besoin.",
             explanation: "\"Dont\" already includes de; don't repeat it at the end.",
@@ -1619,7 +1619,7 @@ export const FR_B1_U17: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the error and translate. Wrong version: « Les photos que j'ai pris sont floues. »",
+            prompt: "Fix the error and translate. Wrong version: \"Les photos que j'ai pris sont floues.\"",
             source: "The photos I took are blurry.",
             answer: "Les photos que j'ai prises sont floues.",
             explanation: "\"Que\" = les photos (feminine plural) before avoir → \"prises\".",
@@ -1627,7 +1627,7 @@ export const FR_B1_U17: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the error and translate. Wrong version: « Ce que me plaît, c'est la musique. »",
+            prompt: "Fix the error and translate. Wrong version: \"Ce que me plaît, c'est la musique.\"",
             source: "What I like is the music.",
             answer: "Ce qui me plaît, c'est la musique.",
             altAnswers: ["Ce que j'aime, c'est la musique.", "Ce qui me plaît c'est la musique.", "Ce que j'aime c'est la musique."],
@@ -1640,7 +1640,7 @@ export const FR_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error and translate. Wrong version: « La femme que travaille ici est ma sœur. »",
+        prompt: "Fix the error and translate. Wrong version: \"La femme que travaille ici est ma sœur.\"",
         source: "The woman who works here is my sister.",
         answer: "La femme qui travaille ici est ma sœur.",
         explanation: "The woman works: subject → \"qui\".",
@@ -1648,7 +1648,7 @@ export const FR_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error and translate. Wrong version: « Le restaurant on a mangé était cher. »",
+        prompt: "Fix the error and translate. Wrong version: \"Le restaurant on a mangé était cher.\"",
         source: "The restaurant where we ate was expensive.",
         answer: "Le restaurant où on a mangé était cher.",
         altAnswers: ["Le restaurant où nous avons mangé était cher.", "Le restaurant où on a dîné était cher.", "Le restaurant où nous avons dîné était cher."],
@@ -1657,7 +1657,7 @@ export const FR_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error and translate. Wrong version: « Je me souviens de l'été quand on est allés en Corse. »",
+        prompt: "Fix the error and translate. Wrong version: \"Je me souviens de l'été quand on est allés en Corse.\"",
         source: "I remember the summer we went to Corsica.",
         answer: "Je me souviens de l'été où on est allés en Corse.",
         altAnswers: ["Je me souviens de l'été où nous sommes allés en Corse.", "Je me rappelle l'été où on est allés en Corse.", "Je me rappelle l'été où nous sommes allés en Corse."],
@@ -1666,7 +1666,7 @@ export const FR_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error and translate. Wrong version: « C'est le prof que tout le monde a peur. »",
+        prompt: "Fix the error and translate. Wrong version: \"C'est le prof que tout le monde a peur.\"",
         source: "He's the teacher everyone is afraid of.",
         answer: "C'est le prof dont tout le monde a peur.",
         altAnswers: ["C'est le professeur dont tout le monde a peur."],
@@ -1675,7 +1675,7 @@ export const FR_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error and translate. Wrong version: « Voilà les clés dont tu avais besoin de. »",
+        prompt: "Fix the error and translate. Wrong version: \"Voilà les clés dont tu avais besoin de.\"",
         source: "Here are the keys you needed.",
         answer: "Voilà les clés dont tu avais besoin.",
         altAnswers: ["Voici les clés dont tu avais besoin.", "Voilà les clés dont vous aviez besoin.", "Voici les clés dont vous aviez besoin."],
@@ -1911,7 +1911,7 @@ export const FR_B1_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« C'est un truc qu'on met sur la tête quand on fait du vélo. » What is it?",
+        question: "\"C'est un truc qu'on met sur la tête quand on fait du vélo.\" What is it?",
         options: ["a helmet", "a hat", "a bike lock", "a hairdryer"],
         correctIndex: 0,
         explanation: "\"Un casque\": something you put on your head when cycling.",
@@ -1988,7 +1988,7 @@ export const FR_B1_U17: Lesson[] = [
         body: [
           "Opinions mix the frames from this unit with the subjunctive from earlier units. \"Ce qui m'énerve, c'est que\" + indicative (a fact), but \"Ça m'énerve que\" + subjunctive (an emotion verb directly). \"Je ne pense pas que\" + subjunctive, \"Je trouve que\" + indicative.",
           "\"Il faut que\" + subjunctive for what should happen: \"Il faut que les plateformes soient plus transparentes.\" \"J'aimerais que\" + subjunctive for wishes.",
-          "Compare: \"Ce qui m'énerve, c'est que les gens mentent\" (indicative) and \"Ça m'énerve que les gens mentent\" (subjunctive; for -er verbs the forms look the same in the singular and ils form). With être or avoir you see the difference: \"c'est que tout est faux\" vs \"ça m'énerve que tout soit faux\".",
+          "Compare: \"Ce qui m'énerve, c'est que les gens mentent\" (indicative) and \"Ça m'énerve que les gens mentent\" (subjunctive; for most verbs the ils form is the same in both moods). With être or avoir you see the difference: \"c'est que tout est faux\" vs \"ça m'énerve que tout soit faux\".",
         ],
         examples: [
           { es: "Ce qui m'énerve, c'est que tout est faux.", en: "What annoys me is that everything is fake." },
@@ -2005,7 +2005,7 @@ export const FR_B1_U17: Lesson[] = [
             prompt: "Translate into French.",
             source: "What annoys me is that everything is fake.",
             answer: "Ce qui m'énerve, c'est que tout est faux.",
-            altAnswers: ["Ce qui m'agace, c'est que tout est faux.", "Ce qui m'énerve c'est que tout est faux."],
+            altAnswers: ["Ce qui m'agace, c'est que tout est faux.", "Ce qui m'énerve c'est que tout est faux.", "Ce qui m'énerve, c'est que tout soit faux.", "Ce qui m'agace, c'est que tout soit faux."],
             explanation: "\"C'est que\" + indicative: \"tout est faux\".",
           },
           {
@@ -2112,7 +2112,7 @@ export const FR_B1_U17: Lesson[] = [
         question: "Which sentence is correct?",
         options: [
           "Ce qui m'énerve, c'est que tout le monde est sur son téléphone.",
-          "Ce qui m'énerve, c'est que tout le monde soit sur son téléphone.",
+          "Ce qui m'énerve, c'est tout le monde est sur son téléphone.",
           "Ce que m'énerve, c'est que tout le monde est sur son téléphone.",
           "Qu'est-ce qui m'énerve, c'est que tout le monde est sur son téléphone.",
         ],
@@ -2151,7 +2151,7 @@ export const FR_B1_U17: Lesson[] = [
       {
         heading: "The blog post",
         body: [
-          "Emma, an English student, wrote this post about her first month in Lyon. It has eight mistakes with relatives. Read it, then fix it sentence by sentence.",
+          "Emma, an English student, wrote this post about her first month in Lyon. It has nine mistakes with relatives. Read it, then fix it sentence by sentence.",
           "*Le mois dernier, je suis arrivée à Lyon, une ville que j'ai toujours rêvé. L'appartement j'ai trouvé est petit, mais il a une terrasse que donne sur la Saône. Le jour quand j'ai emménagé, ma voisine, une femme que le mari est boulanger, m'a apporté des croissants. Ce que m'a surpris, c'est la gentillesse des Lyonnais. Les amis que j'ai rencontré à la fac sont super. Je ne sais pas qu'est-ce que je ferais sans eux. Tout ce dont j'ai besoin de, c'est un vélo !*",
           "Mistakes 1-3 are in the first two sentences: a verb with de, a missing relative and a subject relative.",
         ],
@@ -2166,7 +2166,7 @@ export const FR_B1_U17: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix Emma's sentence: « Lyon, une ville que j'ai toujours rêvé. »",
+            prompt: "Fix Emma's sentence: \"Lyon, une ville que j'ai toujours rêvé.\"",
             source: "Lyon, a city I've always dreamt of.",
             answer: "Lyon, une ville dont j'ai toujours rêvé.",
             explanation: "\"Rêver de\" → \"dont\". \"Que\" is for a direct object only.",
@@ -2174,7 +2174,7 @@ export const FR_B1_U17: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix Emma's sentence: « L'appartement j'ai trouvé est petit, mais il a une terrasse que donne sur la Saône. »",
+            prompt: "Fix Emma's sentence: \"L'appartement j'ai trouvé est petit, mais il a une terrasse que donne sur la Saône.\"",
             source: "The flat I found is small, but it has a terrace overlooking the Saône.",
             answer: "L'appartement que j'ai trouvé est petit, mais il a une terrasse qui donne sur la Saône.",
             altAnswers: ["L'appartement que j'ai trouvé est petit mais il a une terrasse qui donne sur la Saône."],
@@ -2200,7 +2200,7 @@ export const FR_B1_U17: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix Emma's sentence: « Le jour quand j'ai emménagé, ma voisine, une femme que le mari est boulanger, m'a apporté des croissants. »",
+            prompt: "Fix Emma's sentence: \"Le jour quand j'ai emménagé, ma voisine, une femme que le mari est boulanger, m'a apporté des croissants.\"",
             source: "The day I moved in, my neighbour, a woman whose husband is a baker, brought me croissants.",
             answer: "Le jour où j'ai emménagé, ma voisine, une femme dont le mari est boulanger, m'a apporté des croissants.",
             altAnswers: ["Le jour où j'ai emménagé ma voisine, une femme dont le mari est boulanger, m'a apporté des croissants."],
@@ -2217,7 +2217,7 @@ export const FR_B1_U17: Lesson[] = [
         ],
       },
       {
-        heading: "Mistakes 7-8 and the clean version",
+        heading: "Mistakes 7-9 and the clean version",
         body: [
           "*Les amis que j'ai rencontré* → \"rencontrés\": \"que\" stands for les amis (masculine plural) before \"avoir\".",
           "*Je ne sais pas qu'est-ce que je ferais* → \"Je ne sais pas ce que je ferais\": no question form inside a statement. And *Tout ce dont j'ai besoin de* → \"Tout ce dont j'ai besoin, c'est d'un vélo\": the de moves after \"c'est\".",
@@ -2234,7 +2234,7 @@ export const FR_B1_U17: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix Emma's sentence: « Je ne sais pas qu'est-ce que je ferais sans eux. »",
+            prompt: "Fix Emma's sentence: \"Je ne sais pas qu'est-ce que je ferais sans eux.\"",
             source: "I don't know what I'd do without them.",
             answer: "Je ne sais pas ce que je ferais sans eux.",
             altAnswers: ["Je sais pas ce que je ferais sans eux."],
@@ -2243,7 +2243,7 @@ export const FR_B1_U17: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix Emma's sentence: « Tout ce dont j'ai besoin de, c'est un vélo ! »",
+            prompt: "Fix Emma's sentence: \"Tout ce dont j'ai besoin de, c'est un vélo !\"",
             source: "All I need is a bike!",
             answer: "Tout ce dont j'ai besoin, c'est d'un vélo !",
             altAnswers: ["Tout ce dont j'ai besoin, c'est un vélo !", "Tout ce dont j'ai besoin c'est d'un vélo !"],
@@ -2370,7 +2370,7 @@ export const FR_B1_U17: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« C'est un détail ___ tout dépend. » Which word, and why?",
+            question: "\"C'est un détail ___ tout dépend.\" Which word, and why?",
             options: [
               "dont, because dépendre is built with de",
               "que, because détail is the object",
@@ -2506,7 +2506,7 @@ export const FR_B1_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Le stage ___ j'ai fait l'an dernier m'a beaucoup appris. » Which word, and why?",
+        question: "\"Le stage ___ j'ai fait l'an dernier m'a beaucoup appris.\" Which word, and why?",
         options: [
           "que, because stage is the direct object of faire",
           "qui, because stage is the subject",
@@ -2518,7 +2518,7 @@ export const FR_B1_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Le collègue ___ je pense souvent est parti au Canada. » Which word, and why?",
+        question: "\"Le collègue ___ je pense souvent est parti au Canada.\" Which word, and why?",
         options: [
           "à qui, because penser is built with à + person",
           "dont, because penser is built with de",
@@ -2608,9 +2608,9 @@ export const FR_B1_U17: Lesson[] = [
             type: "listen-choose",
             audio: "C'est l'homme qui l'a aidée.",
             question: "What does it mean?",
-            options: ["He's the man who helped her.", "He's the man she helped.", "He's the man he helped.", "He's the man who helps her."],
+            options: ["He's the man who helped her.", "He's the man she helped.", "He's the man who'll help her.", "He's the man who helps her."],
             correctIndex: 0,
-            explanation: "\"Qui l'a aidée\": who helped her. The agreement -ée points to her.",
+            explanation: "\"Qui l'a aidée\": who helped her (passé composé). The man she helped would be \"l'homme qu'elle a aidé\", with the sound of elle.",
           },
           {
             type: "translate",
@@ -2626,13 +2626,13 @@ export const FR_B1_U17: Lesson[] = [
         heading: "Long sentences: one step at a time",
         body: [
           "For long sentences, write in chunks: main clause, then relative clause, then the end. Then reread for three things: the relative (qui / que / où / dont), the agreement after \"que\", and the verb endings (\"-ait\" vs \"-ais\", \"-ent\" silent).",
-          "Typical Intermediate dictation sentences mix tenses: \"La maison où mes grands-parents habitaient, et dont je me souviens si bien, a été vendue\" mixes imparfait and relatives. Don't let length scare you: every piece is grammar you know.",
+          "Typical Intermediate dictation sentences mix tenses: \"La maison où mes grands-parents habitaient, et dont je me souviens si bien, est à vendre\" mixes imparfait and relatives. Don't let length scare you: every piece is grammar you know.",
         ],
         examples: [
           { es: "La maison où mes grands-parents habitaient se trouvait au bord d'un lac.", en: "The house where my grandparents lived was by a lake." },
           { es: "Le voisin dont je t'ai parlé déménage la semaine prochaine.", en: "The neighbour I told you about is moving next week." },
           { es: "Ce que tu m'as raconté hier soir m'a empêché de dormir.", en: "What you told me last night kept me from sleeping." },
-          { es: "Les vacances qu'on avait prévues ont été annulées.", en: "The holiday we'd planned got cancelled." },
+          { es: "On a annulé les vacances qu'on avait prévues.", en: "We cancelled the holiday we'd planned." },
           { es: "C'est la seule chose dont je suis vraiment sûr.", en: "It's the only thing I'm really sure about." },
         ],
         checkpoint: [
@@ -2661,13 +2661,13 @@ export const FR_B1_U17: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "La maison où j'ai grandi a été vendue.",
-        explanation: "\"Où\" for the place; \"vendue\" agrees with la maison.",
+        audio: "La maison où j'ai grandi est à vendre.",
+        explanation: "\"Où\" for the place; \"à vendre\" = for sale.",
       },
       {
         type: "dictation",
-        audio: "C'est le témoin qui l'a vu sortir.",
-        explanation: "\"Qui l'a vu\": who saw him (the witness is the subject).",
+        audio: "Les amis qu'ils ont invités sont arrivés.",
+        explanation: "\"Qu'ils ont\": the z liaison tells you it's ils; \"invités\" agrees with les amis via \"que\".",
       },
       {
         type: "translate",
@@ -2734,7 +2734,7 @@ export const FR_B1_U17: Lesson[] = [
         type: "listen-choose",
         audio: "Le film qu'il regarde est en anglais.",
         question: "What did you hear?",
-        options: ["Le film qu'il regarde est en anglais.", "Le film qui regarde est en anglais.", "Le film qu'il regardait est en anglais.", "Le film qu'ils regardent est en anglais."],
+        options: ["Le film qu'il regarde est en anglais.", "Le film qui regarde est en anglais.", "Le film qu'il regardait est en anglais.", "Le film qu'elle regarde est en anglais."],
         correctIndex: 0,
         explanation: "\"Qu'il regarde\": the verb needs a subject, so it's qu'il, not qui.",
       },

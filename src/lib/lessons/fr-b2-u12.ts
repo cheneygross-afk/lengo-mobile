@@ -227,7 +227,7 @@ export const FR_B2_U12: Lesson[] = [
         heading: "Message 1: Grégoire, a colleague",
         body: [
           "Monday, 9 a.m.: \"« Salut, c'est Grégoire. Je suis malade aujourd'hui, je ne viendrai pas au bureau. Est-ce que tu peux prévenir Sophie ? Et dis-lui que la réunion de demain est annulée. »\" You pass it on on Tuesday.",
-          "Everything changes: \"je\" → \"il\", \"tu\" → \"je\"; \"aujourd'hui\" → \"ce jour-là\" or \"la veille\"; the yes/no question → \"si\"; the imperative → \"de\" + infinitive. And because you report it the next day, \"demain\" becomes \"aujourd'hui\": the meeting is today.",
+          "Everything changes: \"je\" → \"il\", \"tu\" → \"je\"; \"aujourd'hui\" → \"hier\" (or \"ce jour-là\" in a story told later); the yes/no question → \"si\"; the imperative → \"de\" + infinitive. And because you report it the next day, \"demain\" becomes \"aujourd'hui\": the meeting is today.",
           "In conversation, the time words follow your own point in time, not a rule: ask yourself when the day being talked about falls compared to now.",
         ],
         examples: [
@@ -261,7 +261,7 @@ export const FR_B2_U12: Lesson[] = [
         body: [
           "\"« Bonjour, c'est Madame Roux, votre propriétaire. Le plombier passera jeudi matin. Pourriez-vous être là vers neuf heures ? Qu'est-ce qui ne marche pas exactement dans la salle de bains ? Rappelez-moi quand vous aurez le temps. »\"",
           "Formal \"vous\" becomes \"je\" or \"nous\" in your report. \"Pourriez-vous\" (already conditionnel) stays \"je pourrais\". \"Qu'est-ce qui\" → \"ce qui\". \"Rappelez-moi\" → \"de la rappeler\": the pronoun changes from \"moi\" to \"la\" because she is now a third person.",
-          "\"Quand vous aurez le temps\" (futur antérieur) strictly becomes \"quand j'aurais eu le temps\" (conditionnel passé), but in everyday speech people simplify it to \"quand j'aurais le temps\".",
+          "\"Quand vous aurez le temps\" (futur simple) becomes \"quand j'aurais le temps\" (conditionnel présent), like any future after a past reporting verb. Only a futur antérieur (\"quand vous aurez fini\") would become a conditionnel passé (\"quand j'aurais fini\").",
         ],
         examples: [
           { es: "La propriétaire a appelé ce matin.", en: "The landlady rang this morning." },
@@ -1077,7 +1077,7 @@ export const FR_B2_U12: Lesson[] = [
         heading: "The draft",
         body: [
           "Thomas had a call with a client, Madame Perrin, and emails his manager a summary. His draft: \"*Madame Perrin m'a appelé ce matin. Elle a dit qu'elle n'a pas reçu la commande et qu'elle est très déçue. Elle m'a demandé est-ce que nous pouvons la livrer demain. Elle voulait savoir qu'est-ce qui s'est passé. Je lui ai dit que je vais vérifier.*\"",
-          "Five errors: three tenses that don't shift (\"n'a pas reçu\", \"est\", \"vais vérifier\"), one question with \"est-ce que\", one with \"qu'est-ce qui\". Notice also \"nous pouvons la livrer\": the client said \"vous\", so from Thomas's side it becomes \"nous\", which is right; only the tense needs fixing.",
+          "Six errors: four tenses that don't shift (\"n'a pas reçu\", \"est\", \"s'est passé\", \"vais vérifier\"), one question with \"est-ce que\", one with \"qu'est-ce qui\". Notice also \"nous pouvons la livrer\": the client said \"vous\", so from Thomas's side it becomes \"nous\", which is right; only the tense needs fixing.",
           "Corrected: \"Madame Perrin m'a appelé ce matin. Elle a dit qu'elle n'avait pas reçu la commande et qu'elle était très déçue. Elle m'a demandé si nous pouvions la livrer demain. Elle voulait savoir ce qui s'était passé. Je lui ai dit que j'allais vérifier.\" Since Thomas writes the same day, \"demain\" can stay.",
         ],
         examples: [
@@ -1145,7 +1145,7 @@ export const FR_B2_U12: Lesson[] = [
         body: [
           "A professional call summary (\"un compte rendu d'appel\") avoids repeating \"elle a dit\": use \"elle a signalé que\" (she reported that), \"elle s'est plainte de\" (she complained about), \"elle a souhaité savoir\" (she wished to know, polite), \"elle a demandé que\" + subjunctive.",
           "It also often uses nouns instead of clauses: \"Elle a demandé un remboursement\" (a refund) rather than \"elle a demandé si on pouvait la rembourser\". Both are correct; nouns are shorter.",
-          "End with what you did and what comes next: \"Je l'ai assurée que...\", \"Je me suis engagé à...\" (I committed to), \"Je la tiendrai informée\" (I'll keep her informed).",
+          "End with what you did and what comes next: \"Je lui ai assuré que...\", \"Je me suis engagé à...\" (I committed to), \"Je la tiendrai informée\" (I'll keep her informed).",
         ],
         examples: [
           { es: "La cliente a signalé que le colis était arrivé endommagé.", en: "The customer reported that the parcel had arrived damaged." },
@@ -1235,7 +1235,7 @@ export const FR_B2_U12: Lesson[] = [
         prompt: "Translate into French.",
         source: "I promised her she would get her delivery on Friday.",
         answer: "Je lui ai promis qu'elle serait livrée vendredi.",
-        altAnswers: ["Je lui ai promis qu'elle recevrait sa commande vendredi.", "Je lui ai promis qu'elle serait livrée le vendredi."],
+        altAnswers: ["Je lui ai promis qu'elle recevrait sa commande vendredi."],
         explanation: "\"Promettre que\" + conditionnel.",
       },
       {
@@ -2483,9 +2483,9 @@ export const FR_B2_U12: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Move it to the past: \"« Il faut que je parte. »\"",
-        options: ["Il fallait que je parte.", "Il fallait que je partais.", "Il fallait que je partisse.", "Il faudrait que j'étais parti."],
+        options: ["Il fallait que je parte.", "Il fallait que je partais.", "Il fallait que je pars.", "Il faudrait que j'étais parti."],
         correctIndex: 0,
-        explanation: "Only the main verb shifts in modern French.",
+        explanation: "Only the main verb shifts in modern French: \"il fallait que je parte\". \"Partais\" and \"pars\" are indicative, which \"il faut que\" never takes.",
       },
       {
         type: "dictation",

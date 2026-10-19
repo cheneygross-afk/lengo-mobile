@@ -22,7 +22,7 @@ export const PT_A1_U10: Lesson[] = [
           { es: "Eu sei o endereço.", en: "I know the address." },
           { es: "Você sabe o nome do professor?", en: "Do you know the teacher's name?" },
           { es: "Não sei.", en: "I don't know." },
-          { es: "Nós sabemos que a loja abre cedo.", en: "We know the shop opens early." },
+          { es: "Nós sabemos que a loja abre cedo.", en: "We know the store opens early." },
           { es: "Eles sabem onde é a festa.", en: "They know where the party is." },
         ],
         checkpoint: [
@@ -55,7 +55,7 @@ export const PT_A1_U10: Lesson[] = [
           { es: "Eu conheço a Beatriz.", en: "I know Beatriz." },
           { es: "Você conhece o Rio?", en: "Do you know Rio?" },
           { es: "Nós conhecemos um restaurante ótimo.", en: "We know a great restaurant." },
-          { es: "Eles não conhecem o bairro.", en: "They don't know the neighbourhood." },
+          { es: "Eles não conhecem o bairro.", en: "They don't know the neighborhood." },
           { es: "A Ana conhece muita gente.", en: "Ana knows a lot of people." },
         ],
         checkpoint: [
@@ -72,7 +72,7 @@ export const PT_A1_U10: Lesson[] = [
             type: "listen-choose",
             audio: "Eles não conhecem o bairro.",
             question: "What does it mean?",
-            options: ["They don't know the neighbourhood.", "They don't know the address.", "We don't know the neighbourhood.", "They know the neighbourhood."],
+            options: ["They don't know the neighborhood.", "They don't know the address.", "We don't know the neighborhood.", "They know the neighborhood."],
             correctIndex: 0,
             explanation: "\"Conhecem\" is the eles form, and \"o bairro\" is a place, so \"conhecer\".",
           },
@@ -154,7 +154,7 @@ export const PT_A1_U10: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[We know] that the shop opens early.",
+        en: "[We know] that the store opens early.",
         sentence: "___ que a loja abre cedo.",
         answer: "Sabemos",
         altAnswers: ["Nós sabemos"],
@@ -169,9 +169,9 @@ export const PT_A1_U10: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: They don't know the neighbourhood.",
+        prompt: "Put the words in order to say: They don't know the neighborhood.",
         words: ["Eles", "não", "conhecem", "o", "bairro."],
-        translation: "They don't know the neighbourhood.",
+        translation: "They don't know the neighborhood.",
         explanation: "\"Não\" before the verb; a place takes \"conhecer\".",
       },
       {
@@ -194,7 +194,7 @@ export const PT_A1_U10: Lesson[] = [
         type: "speak",
         text: "Você conhece a Ana?",
         prompt: "Say it in Portuguese: Do you know Ana?",
-        tip: "Conhece: co-NHE-ce, with the nh of canyon.",
+        tip: "Conhece: 'koh-NYEH-see', with the nh of canyon.",
         explanation: "A person takes \"conhecer\".",
       },
     ],
@@ -244,7 +244,7 @@ export const PT_A1_U10: Lesson[] = [
       {
         heading: "Sei, but não posso: skill or chance",
         body: [
-          "\"Poder\" from Unit 5 is for permission or a chance right now: \"posso entrar?\" (may I come in?), \"hoje não posso nadar\" (I can't swim today: I'm sick, or there's no time). The skill is still there; the situation stops you.",
+          "\"Poder\" from Unit 6 is for permission or a chance right now: \"posso entrar?\" (may I come in?), \"hoje não posso nadar\" (I can't swim today: I'm sick, or there's no time). The skill is still there; the situation stops you.",
           "So \"eu sei nadar, mas hoje não posso\" makes perfect sense: I know how, but I can't today.",
         ],
         examples: [
@@ -423,14 +423,14 @@ export const PT_A1_U10: Lesson[] = [
           { es: "Eu sei o nome.", en: "I know the name." },
           { es: "Eu conheço a Ana.", en: "I know Ana." },
           { es: "Você sabe o endereço?", en: "Do you know the address?" },
-          { es: "Você conhece o bairro?", en: "Do you know the neighbourhood?" },
+          { es: "Você conhece o bairro?", en: "Do you know the neighborhood?" },
           { es: "Sei onde ele mora.", en: "I know where he lives." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Do you [know] the neighbourhood?",
+            en: "Do you [know] the neighborhood?",
             sentence: "Você ___ o bairro?",
             answer: "conhece",
             explanation: "A place you're familiar with: \"conhecer\".",
@@ -596,8 +596,8 @@ export const PT_A1_U10: Lesson[] = [
       {
         type: "speak",
         text: "Eu sei o endereço, mas não conheço o bairro.",
-        prompt: "Say it in Portuguese: I know the address, but I don't know the neighbourhood.",
-        tip: "Bairro: the rr is the h-like sound, BAI-hu.",
+        prompt: "Say it in Portuguese: I know the address, but I don't know the neighborhood.",
+        tip: "Bairro: the rr is the h-like sound, 'BYE-hoo'.",
         explanation: "The fact with \"saber\", the place with \"conhecer\".",
       },
     ],
@@ -708,7 +708,7 @@ export const PT_A1_U10: Lesson[] = [
           {
             type: "speak",
             text: "Eu ouço música.",
-            tip: "Ouço: OU-so, the ç is an s sound.",
+            tip: "Ouço: 'OH-soo', the ç is an s sound.",
             explanation: "The eu form of \"ouvir\" is \"ouço\".",
           },
         ],
@@ -755,9 +755,9 @@ export const PT_A1_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I go out with my friends on Friday.",
-        answer: "Eu saio com os amigos na sexta.",
-        altAnswers: ["Saio com os amigos na sexta.", "Eu saio com os amigos na sexta-feira.", "Saio com os amigos na sexta-feira.", "Eu saio com meus amigos na sexta.", "Saio com meus amigos na sexta."],
+        source: "I go out with my friends on Saturday.",
+        answer: "Eu saio com os amigos no sábado.",
+        altAnswers: ["Saio com os amigos no sábado.", "Eu saio com os amigos aos sábados.", "Saio com os amigos aos sábados.", "Eu saio com meus amigos no sábado.", "Saio com meus amigos no sábado."],
         explanation: "\"Sair com\" + who you go out with. \"Os amigos\" often stands in for my friends.",
       },
       {
@@ -953,7 +953,7 @@ export const PT_A1_U10: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "It'll work out.",
         answer: "Vai dar certo.",
-        explanation: "\"Dar certo\" means to work out; \"vai\" + infinitive is the future from Unit 5.",
+        explanation: "\"Dar certo\" means to work out; \"vai\" + infinitive is the future from Unit 6.",
       },
       {
         type: "translate",
@@ -1106,7 +1106,7 @@ export const PT_A1_U10: Lesson[] = [
       {
         heading: "Pedir or perguntar?",
         body: [
-          "Ask yourself what you want back. A thing, a favour or food? \"Pedir\". An answer or information? \"Perguntar\". \"*Eu pergunto um café\" sounds as if you were asking the coffee a question.",
+          "Ask yourself what you want back. A thing, a favor or food? \"Pedir\". An answer or information? \"Perguntar\". \"*Eu pergunto um café\" sounds as if you were asking the coffee a question.",
           "One sentence can need both: \"Ela pergunta o preço e pede dois cafés.\"",
         ],
         examples: [
@@ -1182,7 +1182,7 @@ export const PT_A1_U10: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "He [asks] if the shop is open.",
+        en: "He [asks] if the store is open.",
         sentence: "Ele ___ se a loja está aberta.",
         answer: "pergunta",
         explanation: "\"Se\" (if) introduces a question: \"perguntar\".",
@@ -1237,10 +1237,10 @@ export const PT_A1_U10: Lesson[] = [
         heading: "Jogar futebol, jogar videogame",
         body: [
           "English play is two verbs in Portuguese. \"Jogar\", a regular -ar verb, is for sports and games: \"jogo futebol\", \"ela joga vôlei\", \"eles jogam videogame\", \"jogar cartas\". The sport comes straight after the verb, with no article.",
-          "Football in Brazil is \"futebol\"; American football is \"futebol americano\". On the beach you'll see \"futevôlei\", volleyball played with the feet.",
+          "Soccer in Brazil is \"futebol\"; American soccer is \"futebol americano\". On the beach you'll see \"futevôlei\", volleyball played with the feet.",
         ],
         examples: [
-          { es: "Eu jogo futebol no sábado.", en: "I play football on Saturdays." },
+          { es: "Eu jogo futebol no sábado.", en: "I play soccer on Saturdays." },
           { es: "Ela joga vôlei na praia.", en: "She plays volleyball on the beach." },
           { es: "Os meninos jogam videogame.", en: "The boys play video games." },
           { es: "Você joga tênis?", en: "Do you play tennis?" },
@@ -1307,7 +1307,7 @@ export const PT_A1_U10: Lesson[] = [
           { es: "Eu faço academia três vezes por semana.", en: "I go to the gym three times a week." },
           { es: "Ela corre no parque.", en: "She runs in the park." },
           { es: "Vocês andam de bicicleta?", en: "Do you ride bikes?" },
-          { es: "Hoje eu quero ver um filme.", en: "Today I want to watch a film." },
+          { es: "Hoje eu quero ver um filme.", en: "Today I want to watch a movie." },
         ],
         checkpoint: [
           {
@@ -1341,7 +1341,7 @@ export const PT_A1_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I play football on Saturdays.",
+        source: "I play soccer on Saturdays.",
         answer: "Eu jogo futebol no sábado.",
         altAnswers: ["Jogo futebol no sábado.", "Eu jogo futebol aos sábados.", "Jogo futebol aos sábados.", "Eu jogo futebol nos sábados."],
         explanation: "\"Jogar\" + sport, no article.",
@@ -1366,7 +1366,7 @@ export const PT_A1_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We want to go to the cinema.",
+        source: "We want to go to the movies.",
         answer: "Nós queremos ir ao cinema.",
         altAnswers: ["Queremos ir ao cinema."],
         explanation: "\"Querer\" + infinitive; \"ao\" is a + o.",
@@ -1386,7 +1386,7 @@ export const PT_A1_U10: Lesson[] = [
         en: "Do you [play] tennis?",
         sentence: "Você ___ tênis?",
         answer: "joga",
-        explanation: "Sports take \"jogar\". \"Tênis\" is the sport and also trainers.",
+        explanation: "Sports take \"jogar\". \"Tênis\" is the sport and also sneakers.",
       },
       {
         type: "fill-blank",
@@ -1399,15 +1399,15 @@ export const PT_A1_U10: Lesson[] = [
       {
         type: "multiple-choice",
         question: "A Brazilian friend says \"Eu faço academia.\" What does she mean?",
-        options: ["I go to the gym.", "I go to an academy.", "I study at university.", "I teach at a school."],
+        options: ["I go to the gym.", "I go to an academy.", "I study in college.", "I teach at a school."],
         correctIndex: 0,
         explanation: "\"Academia\" is the gym in Brazil.",
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The boys play football on the beach.",
+        prompt: "Put the words in order to say: The boys play soccer on the beach.",
         words: ["Os", "meninos", "jogam", "futebol", "na", "praia."],
-        translation: "The boys play football on the beach.",
+        translation: "The boys play soccer on the beach.",
         explanation: "\"Jogar\" + sport.",
       },
       {
@@ -1430,8 +1430,8 @@ export const PT_A1_U10: Lesson[] = [
       {
         type: "speak",
         text: "Eu jogo futebol e toco violão.",
-        prompt: "Say it in Portuguese: I play football and I play the guitar.",
-        tip: "Futebol: fu-tchi-BOL in most of Brazil, with the stress at the end.",
+        prompt: "Say it in Portuguese: I play soccer and I play the guitar.",
+        tip: "Futebol: 'foo-chee-BOL' in most of Brazil, with the stress at the end.",
         explanation: "Two different verbs for one English play.",
       },
     ],
@@ -1514,7 +1514,7 @@ export const PT_A1_U10: Lesson[] = [
       {
         heading: "Verão, inverno: Brazil's seasons",
         body: [
-          "The seasons: \"o verão\" (summer), \"o outono\" (autumn), \"o inverno\" (winter), \"a primavera\" (spring). South of the equator they are reversed: summer runs from December to March, so Brazilians spend Christmas on the beach.",
+          "The seasons: \"o verão\" (summer), \"o outono\" (fall), \"o inverno\" (winter), \"a primavera\" (spring). South of the equator they are reversed: summer runs from December to March, so Brazilians spend Christmas on the beach.",
           "Near the equator, in the Norte and Nordeste, people talk more about the rainy and dry seasons than about four seasons. In the Sul, in cities like Curitiba and Porto Alegre, winter is genuinely cold.",
         ],
         examples: [
@@ -1629,7 +1629,7 @@ export const PT_A1_U10: Lesson[] = [
         pairs: [
           { left: "o verão", right: "summer" },
           { left: "o inverno", right: "winter" },
-          { left: "o outono", right: "autumn" },
+          { left: "o outono", right: "fall" },
           { left: "a primavera", right: "spring" },
           { left: "a chuva", right: "rain" },
         ],
@@ -1695,9 +1695,9 @@ export const PT_A1_U10: Lesson[] = [
         ],
         examples: [
           { es: "Você sabe tocar violão?", en: "Can you play the guitar?" },
-          { es: "Sei, sim. Toco no fim de semana.", en: "Yes, I can. I play at the weekend." },
+          { es: "Sei, sim. Toco no fim de semana.", en: "Yes, I can. I play on the weekend." },
           { es: "Não sei tocar, mas eu canto!", en: "I can't play, but I sing!" },
-          { es: "Eu também jogo futebol com o pessoal do escritório.", en: "I also play football with the people from the office." },
+          { es: "Eu também jogo futebol com o pessoal do escritório.", en: "I also play soccer with the people from the office." },
         ],
         checkpoint: [
           {
@@ -1720,7 +1720,7 @@ export const PT_A1_U10: Lesson[] = [
             type: "listen-choose",
             audio: "Toco no fim de semana.",
             question: "What does it mean?",
-            options: ["I play at the weekend.", "I work at the weekend.", "I play football at the weekend.", "I go out at the weekend."],
+            options: ["I play on the weekend.", "I work on the weekend.", "I play soccer on the weekend.", "I go out on the weekend."],
             correctIndex: 0,
             explanation: "\"Toco\" is the eu form of \"tocar\", for an instrument.",
           },
@@ -1730,13 +1730,13 @@ export const PT_A1_U10: Lesson[] = [
         heading: "O que você faz quando sai?",
         body: [
           "Pedro asks: \"O que você faz quando sai?\" (What do you do when you go out?). Carol: \"Em Salvador, eu vou à praia e saio para dançar. Aqui ainda não conheço muitos lugares.\"",
-          "Pedro invites her: \"Na sexta o pessoal vai sair. Você quer vir?\" Carol: \"Quero, sim!\" He says \"vir\", not \"ir\", because he will be there too.",
+          "Pedro invites her: \"No sábado o pessoal vai sair. Você quer vir?\" Carol: \"Quero, sim!\" He says \"vir\", not \"ir\", because he will be there too.",
         ],
         examples: [
           { es: "O que você faz quando sai?", en: "What do you do when you go out?" },
           { es: "Eu vou à praia e saio para dançar.", en: "I go to the beach and go out dancing." },
           { es: "Aqui ainda não conheço muitos lugares.", en: "I don't know many places here yet." },
-          { es: "Na sexta o pessoal vai sair. Você quer vir?", en: "On Friday the gang is going out. Do you want to come?" },
+          { es: "No sábado o pessoal vai sair. Você quer vir?", en: "On Saturday the gang is going out. Do you want to come?" },
           { es: "Quero, sim!", en: "Yes, I'd love to!" },
         ],
         checkpoint: [
@@ -1781,7 +1781,7 @@ export const PT_A1_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I play football at the weekend.",
+        source: "I play soccer on the weekend.",
         answer: "Eu jogo futebol no fim de semana.",
         altAnswers: ["Jogo futebol no fim de semana.", "Eu jogo futebol nos fins de semana.", "Jogo futebol nos fins de semana."],
         explanation: "Sports take \"jogar\".",
@@ -2054,7 +2054,7 @@ export const PT_A1_U10: Lesson[] = [
         type: "speak",
         text: "Eu sei nadar e conheço a praia.",
         prompt: "Say it in Portuguese: I can swim and I know the beach.",
-        tip: "Nadar: na-DAR, stress on the last syllable.",
+        tip: "Nadar: 'nah-DAHR', stress on the last syllable.",
         explanation: "\"Saber\" for the skill, \"conhecer\" for the place.",
       },
     ],
@@ -2265,7 +2265,7 @@ export const PT_A1_U10: Lesson[] = [
     level: "PT-A1",
     number: 12,
     title: "Spiral Review: A Week in Florianópolis",
-    summary: "A holiday week on the island of Florianópolis: weather, places and people you know, going out, sports and music, plans and wishes.",
+    summary: "A vacation week on the island of Florianópolis: weather, places and people you know, going out, sports and music, plans and wishes.",
     duration: "12 min",
     kind: "review",
     format: "Spiral Review",
@@ -2273,7 +2273,7 @@ export const PT_A1_U10: Lesson[] = [
       {
         heading: "On the island",
         body: [
-          "Florianópolis, \"Floripa\" to Brazilians, is an island in the south famous for beaches and surfing. Use the whole unit with Unit 5: \"saber\" and \"conhecer\", the weather, \"sair\", \"jogar\" and \"tocar\", \"ir\" + infinitive, \"querer\" and \"poder\".",
+          "Florianópolis, \"Floripa\" to Brazilians, is an island in the south famous for beaches and surfing. Use the whole unit with Unit 6: \"saber\" and \"conhecer\", the weather, \"sair\", \"jogar\" and \"tocar\", \"ir\" + infinitive, \"querer\" and \"poder\".",
         ],
         examples: [
           { es: "Eu não conheço Floripa, mas sei que as praias são lindas.", en: "I haven't been to Floripa, but I know the beaches are beautiful." },
@@ -2382,7 +2382,7 @@ export const PT_A1_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The boys play football on the beach.",
+        source: "The boys play soccer on the beach.",
         answer: "Os meninos jogam futebol na praia.",
         altAnswers: ["Os garotos jogam futebol na praia."],
         explanation: "\"Jogar\" for sports.",

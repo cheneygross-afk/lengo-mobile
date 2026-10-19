@@ -677,15 +677,15 @@ export const PT_B2_U03: Lesson[] = [
         heading: "Enquanto: while, as long as, until",
         body: [
           "\"Enquanto\" + future subjunctive marks a stretch of time still to come: \"enquanto você estiver aqui, fique à vontade\". Often it means as long as: \"enquanto eu tiver saúde, vou continuar trabalhando\".",
-          "With \"não\", it becomes the everyday Brazilian way to say until: \"enquanto ele não pedir desculpas, eu não falo com ele\" (literally, while he doesn't apologise). English until has no negative, so the \"não\" inside the clause is easy to forget.",
+          "With \"não\", it becomes the everyday Brazilian way to say until: \"enquanto ele não pedir desculpas, eu não falo com ele\" (literally, while he doesn't apologize). English until has no negative, so the \"não\" inside the clause is easy to forget.",
           "For what is happening now or habitually, \"enquanto\" keeps the indicative: \"enquanto eu cozinho, ele arruma a mesa\". Ask yourself whether the period is real or hasn't started yet.",
         ],
         examples: [
           { es: "Enquanto você estiver aqui, fique à vontade.", en: "While you're here, make yourself at home." },
           { es: "Enquanto eu tiver saúde, vou continuar trabalhando.", en: "As long as I'm healthy, I'll keep working." },
-          { es: "Enquanto o Rafael estiver de férias, a Beatriz cuida do projeto.", en: "While Rafael is on holiday, Beatriz will look after the project." },
+          { es: "Enquanto o Rafael estiver de férias, a Beatriz cuida do projeto.", en: "While Rafael is on vacation, Beatriz will look after the project." },
           { es: "Ninguém sai enquanto a reunião não terminar.", en: "Nobody leaves until the meeting is over." },
-          { es: "Enquanto ele não pedir desculpas, eu não falo com ele.", en: "Until he apologises, I'm not speaking to him." },
+          { es: "Enquanto ele não pedir desculpas, eu não falo com ele.", en: "Until he apologizes, I'm not speaking to him." },
           { es: "Enquanto eu cozinho, ele arruma a mesa.", en: "While I cook, he sets the table." },
         ],
         checkpoint: [
@@ -703,10 +703,10 @@ export const PT_B2_U03: Lesson[] = [
             audio: "Enquanto ele não pedir desculpas, eu não falo com ele.",
             question: "What does it mean?",
             options: [
-              "Until he apologises, I'm not speaking to him.",
-              "While he apologises, I'm not speaking to him.",
-              "Even if he apologises, I won't speak to him.",
-              "When he apologised, I didn't speak to him.",
+              "Until he apologizes, I'm not speaking to him.",
+              "While he apologizes, I'm not speaking to him.",
+              "Even if he apologizes, I won't speak to him.",
+              "When he apologized, I didn't speak to him.",
             ],
             correctIndex: 0,
             explanation: "\"Enquanto... não\" + future subjunctive is the natural Brazilian until: the silence lasts as long as the apology doesn't come.",
@@ -849,7 +849,7 @@ export const PT_B2_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "While Rafael is on holiday, Beatriz will take care of the project.",
+        source: "While Rafael is on vacation, Beatriz will take care of the project.",
         answer: "Enquanto o Rafael estiver de férias, a Beatriz vai cuidar do projeto.",
         altAnswers: [
           "Enquanto Rafael estiver de férias, Beatriz vai cuidar do projeto.",
@@ -876,7 +876,7 @@ export const PT_B2_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Until he apologises, I'm not speaking to him.",
+        source: "Until he apologizes, I'm not speaking to him.",
         answer: "Enquanto ele não pedir desculpas, eu não falo com ele.",
         altAnswers: [
           "Enquanto ele não pedir desculpas, não falo com ele.",
@@ -969,7 +969,7 @@ export const PT_B2_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You're organising a trip. Tell the group that everyone who wants to go must sign up by Friday.",
+            question: "You're organizing a trip. Tell the group that everyone who wants to go must sign up by Friday.",
             options: ["Todos que quiserem ir devem se inscrever até sexta.", "Todos que quiser ir devem se inscrever até sexta.", "Todos que quererem ir devem se inscrever até sexta.", "Todos que quisessem ir devem se inscrever até sexta."],
             correctIndex: 0,
             explanation: "\"Todos que\" refers to a group, so the verb is plural: \"quiserem\". \"Quererem\" is the personal infinitive, and \"quisessem\" is the imperfect subjunctive, which doesn't fit a present command.",
@@ -1022,7 +1022,7 @@ export const PT_B2_U03: Lesson[] = [
       {
         heading: "Onde, como, quanto: wherever, however, as much as",
         body: [
-          "The same pattern covers place, manner and amount: \"onde você estiver\" (wherever you are), \"aonde você for\" (wherever you go), \"como preferir\" (however you like), \"quanto você puder\" (as much as you can). Keep \"onde\" for being somewhere and \"aonde\" for going.",
+          "The same pattern covers place, manner and amount: \"onde você estiver\" (wherever you are), \"aonde você for\" (wherever you go), \"como preferir\" (however you like), \"quanto você puder\" (as much as you can). In careful Portuguese, \"onde\" is for being somewhere and \"aonde\" for going; in relaxed speech many Brazilians say \"onde você for\" too.",
           "\"Como você quiser\" and \"como preferir\" politely hand someone the choice. To a customer or an older person, say \"como o senhor preferir\" or \"como a senhora preferir\". \"Quando quiser\" (whenever you like) belongs here too.",
           "Watch \"for\": it's the future subjunctive of both \"ser\" and \"ir\", so \"aonde você for\" means wherever you go, while \"como for melhor\" means however is best.",
         ],
@@ -1051,7 +1051,7 @@ export const PT_B2_U03: Lesson[] = [
             sentence: "A gente pode se encontrar onde ___.",
             answer: "você preferir",
             altAnswers: ["preferir"],
-            explanation: "The place isn't chosen yet, so \"onde\" + the future subjunctive \"preferir\". It's \"onde\", not \"aonde\": meeting isn't a movement towards somewhere.",
+            explanation: "The place isn't chosen yet, so \"onde\" + the future subjunctive \"preferir\". It's \"onde\", not \"aonde\": meeting isn't a movement toward somewhere.",
           },
           {
             type: "multiple-choice",
@@ -1227,7 +1227,7 @@ export const PT_B2_U03: Lesson[] = [
         ],
         examples: [
           { es: "Se você puder, me liga hoje à noite.", en: "If you can, call me tonight." },
-          { es: "Se precisar de alguma coisa, me chama.", en: "If you need anything, just give me a shout." },
+          { es: "Se precisar de alguma coisa, me chama.", en: "If you need anything, just let me know." },
           { es: "Se o ônibus atrasar, me manda uma mensagem.", en: "If the bus is late, send me a message." },
           { es: "Se a senhora quiser, pode esperar aqui.", en: "If you'd like, ma'am, you can wait here." },
           { es: "Se tiver dúvidas, ligue para o suporte.", en: "If you have any questions, call support." },
@@ -1331,7 +1331,7 @@ export const PT_B2_U03: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "If the payment [is] not confirmed, the order will be cancelled.",
+        en: "If the payment [is] not confirmed, the order will be canceled.",
         sentence: "Se o pagamento não ___ confirmado, o pedido será cancelado.",
         answer: "for",
         explanation: "This is a passive with \"ser\", so the future subjunctive of \"ser\" is \"for\" (foram → for). The formal written future \"será\" fits the main clause of a notice.",
@@ -1366,7 +1366,7 @@ export const PT_B2_U03: Lesson[] = [
         type: "speak",
         text: "Se você puder, me avisa.",
         prompt: "Say it in Portuguese: If you can, let me know.",
-        tip: "Stress pu-DER with a closed e; the final r is light, often just a breath.",
+        tip: "Stress pu-DÉR with an open e; the final r is light, often just a breath.",
         explanation: "\"Puder\" comes from puderam. \"Se você pode\" is the classic English-speaker slip for a future request.",
       },
       {
@@ -1450,7 +1450,7 @@ export const PT_B2_U03: Lesson[] = [
       {
         heading: "Seeing something, coming somewhere",
         body: [
-          "In a real sentence, look at what follows the verb. \"Ver\" almost always has an object: \"se você vir o recado\", \"quando eu vir a Ana\". \"Vir\" is movement, so it takes a place, a time or a way of travelling: \"quando você vier para o Rio\", \"se vier de carro\", \"quando vierem no sábado\".",
+          "In a real sentence, look at what follows the verb. \"Ver\" almost always has an object: \"se você vir o recado\", \"quando eu vir a Ana\". \"Vir\" is movement, so it takes a place, a time or a way of traveling: \"quando você vier para o Rio\", \"se vier de carro\", \"quando vierem no sábado\".",
           "Your ear helps too. \"Vir\" and \"virem\" are stressed on the i: VIR, VI-rem. \"Vier\" and \"vierem\" carry the stress on an open é after the i: vi-ÉR, vi-É-rem. If you hear that é, someone is coming.",
         ],
         examples: [
@@ -1463,7 +1463,7 @@ export const PT_B2_U03: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Your neighbour's cat has run off. How do you say: If you see my cat on the street, call me?",
+            question: "Your neighbor's cat has run off. How do you say: If you see my cat on the street, call me?",
             options: ["Se você vir meu gato na rua, me liga.", "Se você vier meu gato na rua, me liga.", "Se você ver meu gato na rua, me liga.", "Se você vem meu gato na rua, me liga."],
             correctIndex: 0,
             explanation: "Seeing something takes \"ver\", whose future subjunctive is \"vir\". \"Vier\" and \"vem\" are forms of to come, and \"se você ver\" is the infinitive slip.",
@@ -1492,7 +1492,7 @@ export const PT_B2_U03: Lesson[] = [
           "The infinitive does belong after prepositions, as the personal infinitive: \"para eu ver\", \"antes de você ver\", \"depois de eles verem\". So it's \"quando eu vir\" but \"para eu ver\", and \"quando eu vier\" but \"antes de eu vir\". One form does double duty: \"virem\" means to see after \"quando\" (\"quando eles virem\") and to come after a preposition (\"antes de eles virem\").",
         ],
         examples: [
-          { es: "Me manda uma foto quando você vir o apartamento.", en: "Send me a photo when you see the flat." },
+          { es: "Me manda uma foto quando você vir o apartamento.", en: "Send me a photo when you see the apartment." },
           { es: "Ela me mandou o link para eu ver o vídeo.", en: "She sent me the link so I could see the video." },
           { es: "Me avisa antes de vir.", en: "Let me know before you come." },
           { es: "Quando eles virem a conta, vão levar um susto.", en: "When they see the bill, they're going to get a shock." },
@@ -1685,7 +1685,7 @@ export const PT_B2_U03: Lesson[] = [
       {
         heading: "Picking her up: assim que, enquanto",
         body: [
-          "Lucas works until half past six and the bus gets in at seven, so the timing matters: \"Assim que eu sair do escritório, vou direto para a rodoviária.\" Beatriz asks what to do if she's early, and he answers: \"Enquanto você estiver esperando, pode tomar um café na lanchonete.\"",
+          "Lucas works until six thirty and the bus gets in at seven, so the timing matters: \"Assim que eu sair do escritório, vou direto para a rodoviária.\" Beatriz asks what to do if she's early, and he answers: \"Enquanto você estiver esperando, pode tomar um café na lanchonete.\"",
           "Watch the irregular stems: \"estiver\" and \"puder\" come from \"estiveram\" and \"puderam\". Learners tend to say \"enquanto você está esperando\", but that describes right now, not a wait that hasn't happened yet.",
           "Brazilians put \"te\" before the verb even when talking to \"você\": \"eu te busco\" and \"vou te buscar\" both mean I'll pick you up.",
         ],
@@ -1774,7 +1774,7 @@ export const PT_B2_U03: Lesson[] = [
           {
             type: "speak",
             text: "Fica à vontade para fazer o que quiser.",
-            tip: "Say \"quiser\" as ki-ZER, with a soft tap r at the end, often barely heard.",
+            tip: "Say \"quiser\" as ki-ZÉR, with an open e and a light r at the end, often barely heard.",
             explanation: "A standard welcome: \"ficar à vontade\" (make yourself at home) + \"o que quiser\" (whatever you want).",
           },
         ],
@@ -1961,7 +1961,7 @@ export const PT_B2_U03: Lesson[] = [
       {
         heading: "*Se você pode amanhã: se for a real future",
         body: [
-          "\"Se\" about something that may happen later works the same way: \"se você puder amanhã, me ajuda com a mudança\". \"*Se você pode amanhã\" copies if you can tomorrow word for word, and \"amanhã\" gives the mistake away. A future event needs \"puder\", not the present \"pode\".",
+          "\"Se\" about something that may happen later works the same way: \"se você puder amanhã, me ajuda com a mudança\". \"*Se você pode amanhã\" copies if you can tomorrow word for word, and \"amanhã\" gives the mistake away. You'll hear the present in relaxed speech, but in standard Portuguese a future event needs \"puder\", not \"pode\".",
           "\"Se\" + present indicative is still correct for general truths (\"se chove, a rua alaga\") and for facts about right now (\"se você pode pagar, por que está reclamando?\"). After a future \"se\", the result clause can be a present, a future or a command: \"se chover, a gente fica em casa\".",
         ],
         examples: [
@@ -1983,15 +1983,15 @@ export const PT_B2_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Only one of these sentences is correct as written. Which?",
+            question: "Only one of these sentences is correct in careful, standard Portuguese. Which?",
             options: [
               "Se você pode amanhã, a gente se encontra.",
               "Se chove, a rua alaga.",
               "Se ela ter tempo no domingo, faço um bolo.",
-              "Se eles podem na sexta, marcamos a reunião.",
+              "Se eles poderem na sexta, marcamos a reunião.",
             ],
             correctIndex: 1,
-            explanation: "\"Se chove, a rua alaga\" is a general truth, so the present is right. The others are about one future day and need \"puder\", \"tiver\" and \"puderem\".",
+            explanation: "\"Se chove, a rua alaga\" is a general truth, so the present is right. The others are about one future day and need \"puder\", \"tiver\" and \"puderem\": \"ter\" and \"poderem\" are infinitives, not the future subjunctive.",
           },
           {
             type: "translate",
@@ -2016,7 +2016,7 @@ export const PT_B2_U03: Lesson[] = [
         heading: "*Quando eu fazer, *se eu ter: irregular stems",
         body: [
           "Regular verbs set the trap. \"Quando eu chegar\" looks exactly like the infinitive, so learners reach for the infinitive of every verb. Irregular verbs show the real source, which is the eles form of the perfeito minus -am: \"fizeram\" → \"fizer\", \"tiveram\" → \"tiver\", \"souberam\" → \"souber\", \"trouxeram\" → \"trouxer\". \"*Quando eu fazer\" and \"*se eu ter tempo\" use infinitives. Say \"quando eu fizer\" and \"se eu tiver tempo\".",
-          "Brazilians slip here too in casual speech, above all with \"ver\": you'll hear \"*quando eu ver\" for \"quando eu vir\" (from \"viram\"). Recognise it, but don't write it, and keep \"vir\" (see) apart from \"vier\" (come). Plurals add -em: \"quando vocês fizerem\", \"se eles tiverem\".",
+          "Brazilians slip here too in casual speech, above all with \"ver\": you'll hear \"*quando eu ver\" for \"quando eu vir\" (from \"viram\"). Recognize it, but don't write it, and keep \"vir\" (see) apart from \"vier\" (come). Plurals add -em: \"quando vocês fizerem\", \"se eles tiverem\".",
         ],
         examples: [
           { es: "Quando eu fizer trinta anos, vou dar uma festa.", en: "When I turn thirty, I'm going to throw a party." },
@@ -2244,7 +2244,7 @@ export const PT_B2_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You're telling a friend your plan for tonight: when the film ends, you'll go home. What do you say?",
+            question: "You're telling a friend your plan for tonight: when the movie ends, you'll go home. What do you say?",
             options: [
               "Quando o filme acabar, vou para casa.",
               "Quando o filme acaba, vou para casa.",
@@ -2585,7 +2585,7 @@ export const PT_B2_U03: Lesson[] = [
           { es: "Se chover amanhã, a gente fica em casa.", en: "If it rains tomorrow, we'll stay home." },
           { es: "Se chovesse menos, eu iria a pé para o trabalho.", en: "If it rained less, I'd walk to work." },
           { es: "Quem quiser pode vir com a gente.", en: "Anyone who wants can come with us." },
-          { es: "Procuro um apartamento que tenha varanda.", en: "I'm looking for a flat with a balcony." },
+          { es: "Procuro um apartamento que tenha varanda.", en: "I'm looking for an apartment with a balcony." },
           { es: "Precisávamos de alguém que soubesse dirigir.", en: "We needed someone who could drive." },
         ],
         checkpoint: [

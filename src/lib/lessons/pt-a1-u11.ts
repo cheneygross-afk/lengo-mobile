@@ -16,7 +16,7 @@ export const PT_A1_U11: Lesson[] = [
         heading: "Não entendi. Pode repetir?",
         body: [
           "The single most useful phrase for a beginner in Brazil is \"Não entendi\" (I didn't understand / I didn't catch that). It's a past form of \"entender\", but learn it as a chunk: Brazilians say \"não entendi\" about something just said, not \"não entendo\".",
-          "Follow it with a request using \"poder\" from Unit 5: \"Pode repetir, por favor?\" (Can you repeat that, please?) and \"Mais devagar, por favor\" (More slowly, please). \"Pode\" without \"você\" is the normal polite request; add \"o senhor\" or \"a senhora\" for an older person.",
+          "Follow it with a request using \"poder\" from Unit 6: \"Pode repetir, por favor?\" (Can you repeat that, please?) and \"Mais devagar, por favor\" (More slowly, please). \"Pode\" without \"você\" is the normal polite request; add \"o senhor\" or \"a senhora\" for an older person.",
         ],
         examples: [
           { es: "Desculpa, não entendi.", en: "Sorry, I didn't catch that." },
@@ -109,7 +109,7 @@ export const PT_A1_U11: Lesson[] = [
           {
             type: "speak",
             text: "Desculpa, não entendi. Pode repetir?",
-            tip: "Entendi: en-ten-DJI, the d before i sounds like j.",
+            tip: "Entendi: 'en-ten-JEE', the d before i sounds like j.",
             explanation: "The two phrases you will use most in your first week.",
           },
         ],
@@ -611,7 +611,7 @@ export const PT_A1_U11: Lesson[] = [
     level: "PT-A1",
     number: 4,
     title: "Dialogue Lab: No Restaurante por Quilo",
-    summary: "Lunch at a pay-by-weight restaurant in Belo Horizonte: take a plate, weigh it, order a drink, eat in or take away, and pay at the till.",
+    summary: "Lunch at a pay-by-weight restaurant in Belo Horizonte: take a plate, weigh it, order a drink, eat in or get it to go, and pay at the register.",
     duration: "10 min",
     kind: "reinforce",
     format: "Dialogue Lab",
@@ -652,7 +652,7 @@ export const PT_A1_U11: Lesson[] = [
         heading: "E para beber?",
         body: [
           "A waiter comes to the table: \"E para beber?\" (And to drink?). Emma orders: \"Um suco de manga, por favor.\" The waiter checks: \"Com açúcar ou sem açúcar?\" Brazilian juices often come sweetened, so this question is common.",
-          "Emma answers: \"Sem açúcar, por favor.\" Then the waiter asks about the place: \"É para comer aqui ou para viagem?\" \"Para viagem\" is the set phrase for takeaway.",
+          "Emma answers: \"Sem açúcar, por favor.\" Then the waiter asks about the place: \"É para comer aqui ou para viagem?\" \"Para viagem\" is the set phrase for food to go.",
         ],
         examples: [
           { es: "E para beber?", en: "And to drink?" },
@@ -675,14 +675,14 @@ export const PT_A1_U11: Lesson[] = [
             question: "The waiter asks \"É para comer aqui ou para viagem?\". You want to take it away. What do you say?",
             options: ["Para viagem, por favor.", "Para aqui, por favor.", "Viagem, obrigado.", "Para comer, por favor."],
             correctIndex: 0,
-            explanation: "\"Para viagem\" is takeaway.",
+            explanation: "\"Para viagem\" means to go.",
           },
         ],
       },
       {
         heading: "No caixa",
         body: [
-          "At the \"caixa\" (the till), Emma hands over the slip. The cashier: \"Vinte e cinco reais. Crédito ou débito?\" Emma: \"Débito.\" At the end: \"Obrigada!\" \"Obrigado você! Bom almoço!\"",
+          "At the \"caixa\" (the register), Emma hands over the slip. The cashier: \"Vinte e cinco reais. Crédito ou débito?\" Emma: \"Débito.\" At the end: \"Obrigada!\" \"Obrigado você! Bom almoço!\"",
           "\"Obrigado você!\" (No, thank you!) is how Brazilians return the thanks.",
         ],
         examples: [
@@ -750,7 +750,7 @@ export const PT_A1_U11: Lesson[] = [
         en: "Is it for here or [to go]?",
         sentence: "É para comer aqui ou ___?",
         answer: "para viagem",
-        explanation: "\"Para viagem\" is the fixed phrase for takeaway.",
+        explanation: "\"Para viagem\" is the fixed phrase for food to go.",
       },
       {
         type: "fill-blank",
@@ -785,7 +785,7 @@ export const PT_A1_U11: Lesson[] = [
       {
         type: "dictation",
         audio: "Para viagem, por favor.",
-        explanation: "\"Para viagem\": takeaway.",
+        explanation: "\"Para viagem\": to go.",
       },
       {
         type: "speak",
@@ -808,7 +808,7 @@ export const PT_A1_U11: Lesson[] = [
       {
         heading: "Quanto é? Prices said aloud",
         body: [
-          "\"Quanto custa?\" asks the price of one thing: \"Quanto custa esse chapéu?\" \"Quanto é?\" asks what you owe in total, at the till or for a bill. Both are everywhere.",
+          "\"Quanto custa?\" asks the price of one thing: \"Quanto custa esse chapéu?\" \"Quanto é?\" asks what you owe in total, at the register or for a bill. Both are everywhere.",
           "Brazilians say prices without the words reais and centavos when it's clear: R$ 27,90 is \"vinte e sete e noventa\", R$ 8,50 is \"oito e cinquenta\". Round prices keep \"reais\": \"são trinta reais\". \"Real\" is singular only for R$ 1,00: \"um real\".",
         ],
         examples: [
@@ -826,7 +826,7 @@ export const PT_A1_U11: Lesson[] = [
             source: "How much is it altogether?",
             answer: "Quanto é?",
             altAnswers: ["Quanto é tudo?", "Quanto deu?", "Quanto fica?"],
-            explanation: "\"Quanto é?\" asks for the total at the till.",
+            explanation: "\"Quanto é?\" asks for the total at the register.",
           },
           {
             type: "listen-choose",
@@ -841,8 +841,8 @@ export const PT_A1_U11: Lesson[] = [
       {
         heading: "Crédito ou débito? Posso pagar com Pix?",
         body: [
-          "At the till you'll hear \"Crédito ou débito?\". Answer \"No débito\" or \"No crédito\" (on debit, on credit). The card machine is \"a maquininha\": they bring it to you, and you tap or insert your card.",
-          "Brazil's favourite way to pay is \"Pix\", an instant bank transfer by QR code: \"Posso pagar com Pix?\". You pay \"com cartão\", \"no cartão\" or \"com dinheiro\" (cash); \"*em cartão\" is a common slip.",
+          "At the register you'll hear \"Crédito ou débito?\". Answer \"No débito\" or \"No crédito\" (on debit, on credit). The card machine is \"a maquininha\": they bring it to you, and you tap or insert your card.",
+          "Brazil's favorite way to pay is \"Pix\", an instant bank transfer by QR code: \"Posso pagar com Pix?\". You pay \"com cartão\", \"no cartão\" or \"com dinheiro\" (cash); \"*em cartão\" is a common slip.",
         ],
         examples: [
           { es: "Crédito ou débito?", en: "Credit or debit?" },
@@ -874,7 +874,7 @@ export const PT_A1_U11: Lesson[] = [
         heading: "Dinheiro, troco and CPF na nota?",
         body: [
           "Paying cash? Ask \"Tem troco para cinquenta?\" (Do you have change for a fifty?). \"Troco\" is the change you get back; coins are \"moedas\".",
-          "Many shops ask \"CPF na nota?\": they want your CPF, Brazil's tax number, to print on the receipt. As a visitor, just say \"Não, obrigado\" or \"Não tenho CPF\".",
+          "Many stores ask \"CPF na nota?\": they want your CPF, Brazil's tax number, to print on the receipt. As a visitor, just say \"Não, obrigado\" or \"Não tenho CPF\".",
         ],
         examples: [
           { es: "Tem troco para cinquenta?", en: "Do you have change for a fifty?" },
@@ -970,7 +970,7 @@ export const PT_A1_U11: Lesson[] = [
         question: "The cashier asks \"CPF na nota?\" What does she want to know?",
         options: ["If you want your tax number on the receipt", "If you want a bag", "If you're paying by card", "If you have the exact change"],
         correctIndex: 0,
-        explanation: "The CPF is Brazil's tax number; shops print it on the receipt if you give it.",
+        explanation: "The CPF is Brazil's tax number; stores print it on the receipt if you give it.",
       },
       {
         type: "word-order",
@@ -1014,7 +1014,7 @@ export const PT_A1_U11: Lesson[] = [
       {
         heading: "Dois or doze? Três or treze?",
         body: [
-          "Two of the trickiest pairs: \"dois\" (2) vs \"doze\" (12), and \"três\" (3) vs \"treze\" (13). Listen for the ending: \"dois\" ends in an s sound, \"doze\" in a z and a weak i sound (DO-zi). \"Três\" is one syllable, \"treze\" two (TRE-zi).",
+          "Two of the trickiest pairs: \"dois\" (2) vs \"doze\" (12), and \"três\" (3) vs \"treze\" (13). Listen for the ending: \"dois\" ends in an s sound, \"doze\" in a z and a weak i sound ('DOH-zee'). \"Três\" is one syllable, \"treze\" two ('TRAY-zee').",
           "In prices this matters: R$ 2,50 is \"dois e cinquenta\", R$ 12,50 is \"doze e cinquenta\". In times, \"às duas\" (at two) vs \"às doze\" (at twelve). Note \"duas\": \"hora\" is feminine.",
         ],
         examples: [
@@ -1031,7 +1031,7 @@ export const PT_A1_U11: Lesson[] = [
             question: "How much is it?",
             options: ["R$ 12,50", "R$ 2,50", "R$ 2,15", "R$ 20,50"],
             correctIndex: 0,
-            explanation: "\"Doze\" (12) has two syllables, DO-zi.",
+            explanation: "\"Doze\" (12) has two syllables, 'DOH-zee'.",
           },
           {
             type: "translate",
@@ -1048,7 +1048,7 @@ export const PT_A1_U11: Lesson[] = [
         heading: "Seis, sete or meia?",
         body: [
           "\"Seis\" (6) and \"sete\" (7) are close, and in phone numbers Brazilians often say \"meia\" for six, short for \"meia dúzia\" (half a dozen), so it's not confused with \"três\". You'll hear \"meia\" for 6 but never for 16 or 60.",
-          "The teens are another trap: \"dezesseis\" (16) vs \"dezessete\" (17). Listen to the last syllable: \"-seis\" or \"-sete\" (SE-tchi).",
+          "The teens are another trap: \"dezesseis\" (16) vs \"dezessete\" (17). Listen to the last syllable: \"-seis\" or \"-sete\" ('SEH-chee').",
         ],
         examples: [
           { es: "O telefone é nove, meia, sete, dois.", en: "The number is nine, six, seven, two." },
@@ -1131,7 +1131,7 @@ export const PT_A1_U11: Lesson[] = [
         source: "That's thirteen reais.",
         answer: "São treze reais.",
         altAnswers: ["É treze reais.", "Treze reais."],
-        explanation: "\"Treze\" (13), TRE-zi, two syllables.",
+        explanation: "\"Treze\" (13), 'TRAY-zee', two syllables.",
       },
       {
         type: "translate",
@@ -1266,11 +1266,11 @@ export const PT_A1_U11: Lesson[] = [
       {
         heading: "Qual ônibus vai para o centro?",
         body: [
-          "To find the right bus: \"Qual ônibus vai para o centro?\" (Which bus goes to the centre?). At the stop, check with the driver: \"Esse ônibus vai para Copacabana?\" Learn \"esse\" (this, that) as a chunk for now.",
+          "To find the right bus: \"Qual ônibus vai para o centro?\" (Which bus goes to the center?). At the stop, check with the driver: \"Esse ônibus vai para Copacabana?\" Learn \"esse\" (this, that) as a chunk for now.",
           "For the time, ask \"A que horas sai?\" (What time does it leave?). The answer uses \"às\": \"às oito e meia\".",
         ],
         examples: [
-          { es: "Qual ônibus vai para o centro?", en: "Which bus goes to the centre?" },
+          { es: "Qual ônibus vai para o centro?", en: "Which bus goes to the center?" },
           { es: "Esse ônibus vai para Copacabana?", en: "Does this bus go to Copacabana?" },
           { es: "Vai, sim.", en: "Yes, it does." },
           { es: "A que horas sai o próximo?", en: "What time does the next one leave?" },
@@ -1300,7 +1300,7 @@ export const PT_A1_U11: Lesson[] = [
         heading: "O ponto de ônibus, táxi or app",
         body: [
           "A city bus stop is \"o ponto de ônibus\", or just \"o ponto\": \"Onde é o ponto de ônibus?\". To get off, you pull the cord or press the button and can say \"Vou descer aqui\" (I'm getting off here).",
-          "Taxis are common, but most people use a ride app: \"Vou pedir um carro pelo aplicativo\" (I'll order a car on the app). Note \"pedir\" from Unit 10.",
+          "Taxis are common, but most people use a ride app: \"Vou pedir um carro pelo aplicativo\" (I'll order a car on the app). Note \"pedir\" from Unit 7.",
         ],
         examples: [
           { es: "Onde é o ponto de ônibus?", en: "Where's the bus stop?" },
@@ -1321,7 +1321,7 @@ export const PT_A1_U11: Lesson[] = [
           {
             type: "speak",
             text: "Vou descer aqui, por favor.",
-            tip: "Descer: de-SSER, the sc sounds like s.",
+            tip: "Descer: 'deh-SEHR', the sc sounds like s.",
             explanation: "\"Ir\" + infinitive: what you're about to do.",
           },
         ],
@@ -1332,7 +1332,7 @@ export const PT_A1_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Which bus goes to the centre?",
+        source: "Which bus goes to the center?",
         answer: "Qual ônibus vai para o centro?",
         altAnswers: ["Que ônibus vai para o centro?", "Qual ônibus vai pro centro?"],
         explanation: "\"Qual\" + noun for which; \"ir para\" + destination.",
@@ -1419,7 +1419,7 @@ export const PT_A1_U11: Lesson[] = [
       {
         type: "speak",
         text: "Qual ônibus vai para o centro?",
-        prompt: "Say it in Portuguese: Which bus goes to the centre?",
+        prompt: "Say it in Portuguese: Which bus goes to the center?",
         tip: "Ônibus: Ô-ni-bus, stress on the first syllable.",
         explanation: "\"Qual\" + noun asks which.",
       },
@@ -1430,7 +1430,7 @@ export const PT_A1_U11: Lesson[] = [
     level: "PT-A1",
     number: 8,
     title: "Dialogue Lab: Na Rodoviária",
-    summary: "Buy an intercity bus ticket from Rio to Paraty: the date, the time, one way or return, window or aisle, the price and the platform.",
+    summary: "Buy an intercity bus ticket from Rio to Paraty: the date, the time, one way or round trip, window or aisle, the price and the platform.",
     duration: "10 min",
     kind: "reinforce",
     format: "Dialogue Lab",
@@ -1471,13 +1471,13 @@ export const PT_A1_U11: Lesson[] = [
       {
         heading: "Ida e volta? Janela ou corredor?",
         body: [
-          "Next: \"Só ida ou ida e volta?\" (One way or return?). Tom: \"Ida e volta. A volta é no domingo.\" Then the seat: \"Janela ou corredor?\" (Window or aisle?). \"Janela, por favor.\"",
-          "Sentences with \"ida\" and \"volta\" are about the outbound trip and the return.",
+          "Next: \"Só ida ou ida e volta?\" (One way or round trip?). Tom: \"Ida e volta. A volta é no domingo.\" Then the seat: \"Janela ou corredor?\" (Window or aisle?). \"Janela, por favor.\"",
+          "Sentences with \"ida\" and \"volta\" are about the outbound trip and the return trip.",
         ],
         examples: [
-          { es: "Só ida ou ida e volta?", en: "One way or return?" },
-          { es: "Ida e volta, por favor.", en: "Return, please." },
-          { es: "A volta é no domingo.", en: "The return is on Sunday." },
+          { es: "Só ida ou ida e volta?", en: "One way or round trip?" },
+          { es: "Ida e volta, por favor.", en: "Round trip, please." },
+          { es: "A volta é no domingo.", en: "The return trip is on Sunday." },
           { es: "Janela ou corredor?", en: "Window or aisle?" },
           { es: "Janela, por favor.", en: "Window, please." },
         ],
@@ -1485,7 +1485,7 @@ export const PT_A1_U11: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "One way or [return]?",
+            en: "One way or [round trip]?",
             sentence: "Só ida ou ___?",
             answer: "ida e volta",
             explanation: "\"Ida e volta\": there and back.",
@@ -1525,7 +1525,7 @@ export const PT_A1_U11: Lesson[] = [
             type: "speak",
             text: "Ida e volta, janela, por favor.",
             tip: "Janela: ja-NE-la, the j as in measure.",
-            explanation: "Return ticket, window seat.",
+            explanation: "Round-trip ticket, window seat.",
           },
         ],
       },
@@ -1544,7 +1544,7 @@ export const PT_A1_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "A return ticket to São Paulo, please.",
+        source: "A round-trip ticket to São Paulo, please.",
         answer: "Uma passagem de ida e volta para São Paulo, por favor.",
         altAnswers: ["Uma passagem ida e volta para São Paulo, por favor.", "Ida e volta para São Paulo, por favor."],
         explanation: "\"Passagem de ida e volta para\" + destination.",
@@ -1553,7 +1553,7 @@ export const PT_A1_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The return is on Sunday.",
+        source: "The return trip is on Sunday.",
         answer: "A volta é no domingo.",
         explanation: "\"No domingo\": on Sunday.",
       },
@@ -1621,7 +1621,7 @@ export const PT_A1_U11: Lesson[] = [
         type: "speak",
         text: "Uma passagem para Paraty, para amanhã, por favor.",
         prompt: "Say it in Portuguese: A ticket to Paraty, for tomorrow, please.",
-        tip: "Paraty: pa-ra-TCHI, the t before i sounds like ch.",
+        tip: "Paraty: 'pah-rah-CHEE', the t before i sounds like ch.",
         explanation: "\"Para\" twice: for the destination and for the day.",
       },
     ],
@@ -1672,14 +1672,14 @@ export const PT_A1_U11: Lesson[] = [
         heading: "Quarto de casal, com ar-condicionado",
         body: [
           "Rooms: \"um quarto de casal\" (a double), \"um quarto de solteiro\" (a single), \"com ar-condicionado\" (with air conditioning) or \"com ventilador\" (with a fan). \"Casal\" is a couple; \"solteiro\" is also the word for single on a form.",
-          "You'll get \"a chave\" (the key) and hear which floor: \"O quarto é no primeiro andar.\" (\"andar\" = floor). Ask \"Tem elevador?\" (Is there a lift?).",
+          "You'll get \"a chave\" (the key) and hear which floor: \"O quarto é no primeiro andar.\" (\"andar\" = floor). Brazil counts floors from \"o térreo\" (street level), so \"o primeiro andar\" is what Americans call the second floor. Ask \"Tem elevador?\" (Is there an elevator?).",
         ],
         examples: [
           { es: "Um quarto de casal com ar-condicionado.", en: "A double room with air conditioning." },
           { es: "O quarto de solteiro tem ventilador.", en: "The single room has a fan." },
           { es: "Aqui está a chave.", en: "Here's the key." },
-          { es: "O quarto é no primeiro andar.", en: "The room is on the first floor." },
-          { es: "Tem elevador?", en: "Is there a lift?" },
+          { es: "O quarto é no primeiro andar.", en: "The room is on the second floor (one floor up)." },
+          { es: "Tem elevador?", en: "Is there an elevator?" },
         ],
         checkpoint: [
           {
@@ -1721,13 +1721,13 @@ export const PT_A1_U11: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "Is breakfast included?",
             answer: "O café da manhã está incluído?",
-            altAnswers: ["O café está incluído?", "O café da manhã é incluído?", "O café da manhã está incluso?"],
+            altAnswers: ["O café está incluído?", "O café da manhã está incluso?"],
             explanation: "\"Estar incluído\": the current deal, so \"estar\".",
           },
           {
             type: "speak",
             text: "Qual é a senha do Wi-Fi?",
-            tip: "Brazilians say Wi-Fi as UAI-fai.",
+            tip: "Brazilians say Wi-Fi as 'why-FYE'.",
             explanation: "\"Senha\" is password; \"do\" is de + o.",
           },
         ],
@@ -1773,7 +1773,7 @@ export const PT_A1_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Is there a lift?",
+        source: "Is there an elevator?",
         answer: "Tem elevador?",
         altAnswers: ["Vocês têm elevador?", "Há elevador?", "Tem um elevador?"],
         explanation: "Spoken Brazilian uses \"tem\" for is there.",
@@ -1818,7 +1818,7 @@ export const PT_A1_U11: Lesson[] = [
         type: "speak",
         text: "Boa tarde! Eu tenho uma reserva para duas noites.",
         prompt: "Say it in Portuguese: Good afternoon! I have a reservation for two nights.",
-        tip: "Noites: NOI-tchis, the t before final e sounds like ch.",
+        tip: "Noites: 'NOY-cheese', the t before final e sounds like ch.",
         explanation: "The standard opening at the front desk.",
       },
     ],
@@ -1836,14 +1836,14 @@ export const PT_A1_U11: Lesson[] = [
       {
         heading: "Nome, sobrenome, data de nascimento",
         body: [
-          "Your mission: you're joining an academia in São Paulo and the receptionist fills in \"a ficha\" (the form) with you. First: \"nome\" (first name), \"sobrenome\" (surname), \"data de nascimento\" (date of birth), \"nacionalidade\", \"profissão\" and \"estado civil\" (marital status: \"solteiro\", \"casado\"; \"solteira\", \"casada\" for a woman).",
-          "Brazil writes dates day first: 05/03/1998 is the fifth of March, not May the third. Say it \"cinco do três\" or \"cinco de março\".",
+          "Your mission: you're joining an academia in São Paulo and the receptionist fills in \"a ficha\" (the form) with you. First: \"nome\" (first name), \"sobrenome\" (last name), \"data de nascimento\" (date of birth), \"nacionalidade\", \"profissão\" and \"estado civil\" (marital status: \"solteiro\", \"casado\"; \"solteira\", \"casada\" for a woman).",
+          "Brazil writes dates day first: 05/03/1998 is March 5, not May 3. Say it \"cinco do três\" or \"cinco de março\".",
         ],
         examples: [
           { es: "Qual é o seu nome?", en: "What's your first name?" },
-          { es: "E o sobrenome?", en: "And your surname?" },
+          { es: "E o sobrenome?", en: "And your last name?" },
           { es: "Qual é a sua data de nascimento?", en: "What's your date of birth?" },
-          { es: "Cinco de março de noventa e oito.", en: "The fifth of March, ninety-eight." },
+          { es: "Cinco de março de noventa e oito.", en: "March fifth, ninety-eight." },
           { es: "Sou solteira.", en: "I'm single. (a woman speaking)" },
         ],
         checkpoint: [
@@ -1859,7 +1859,7 @@ export const PT_A1_U11: Lesson[] = [
           {
             type: "multiple-choice",
             question: "A Brazilian form says your date of birth is 05/03/1998. What date is it?",
-            options: ["5 March 1998", "3 May 1998", "5 May 1998", "3 March 1998"],
+            options: ["March 5, 1998", "May 3, 1998", "May 5, 1998", "March 3, 1998"],
             correctIndex: 0,
             explanation: "Brazil writes the day first, then the month.",
           },
@@ -1868,15 +1868,15 @@ export const PT_A1_U11: Lesson[] = [
       {
         heading: "Endereço: rua, número, CEP",
         body: [
-          "The address: \"rua\" (street), \"número\", \"apartamento\", \"bairro\" (neighbourhood), \"cidade\" and \"CEP\", the postcode. Brazilians put the street first and the number after: \"Rua Augusta, 500, apartamento 32\".",
+          "The address: \"rua\" (street), \"número\", \"apartamento\", \"bairro\" (neighborhood), \"cidade\" and \"CEP\", the ZIP code. Brazilians put the street first and the number after: \"Rua Augusta, 500, apartamento 32\".",
           "You'll be asked \"Qual é o seu endereço?\" (What's your address?). Answer \"Moro na Rua...\" or just give it.",
         ],
         examples: [
           { es: "Qual é o seu endereço?", en: "What's your address?" },
           { es: "Moro na Rua Augusta, número quinhentos.", en: "I live at 500 Rua Augusta." },
-          { es: "Apartamento trinta e dois.", en: "Flat thirty-two." },
-          { es: "O bairro é a Consolação.", en: "The neighbourhood is Consolação." },
-          { es: "Qual é o CEP?", en: "What's the postcode?" },
+          { es: "Apartamento trinta e dois.", en: "Apartment thirty-two." },
+          { es: "O bairro é a Consolação.", en: "The neighborhood is Consolação." },
+          { es: "Qual é o CEP?", en: "What's the ZIP code?" },
         ],
         checkpoint: [
           {
@@ -1891,10 +1891,10 @@ export const PT_A1_U11: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "What's the [postcode]?",
+            en: "What's the [ZIP code]?",
             sentence: "Qual é o ___?",
             answer: "CEP",
-            explanation: "\"CEP\" is the Brazilian postcode.",
+            explanation: "\"CEP\" is the Brazilian ZIP code.",
           },
         ],
       },
@@ -1907,7 +1907,7 @@ export const PT_A1_U11: Lesson[] = [
         examples: [
           { es: "Qual é o seu telefone?", en: "What's your phone number?" },
           { es: "Meu e-mail é tom ponto clark arroba email ponto com.", en: "My e-mail is tom.clark@email.com." },
-          { es: "Como se escreve o sobrenome?", en: "How do you spell the surname?" },
+          { es: "Como se escreve o sobrenome?", en: "How do you spell the last name?" },
           { es: "Não tenho CPF. Posso usar o passaporte?", en: "I don't have a CPF. Can I use my passport?" },
         ],
         checkpoint: [
@@ -1936,10 +1936,10 @@ export const PT_A1_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "What's your surname?",
+        source: "What's your last name?",
         answer: "Qual é o seu sobrenome?",
         altAnswers: ["Qual o seu sobrenome?", "Qual é o sobrenome?", "E o sobrenome?"],
-        explanation: "\"Sobrenome\" is the surname; \"nome\" alone is usually the first name.",
+        explanation: "\"Sobrenome\" is the last name; \"nome\" alone is usually the first name.",
       },
       {
         type: "translate",
@@ -1954,7 +1954,7 @@ export const PT_A1_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "How do you spell the surname?",
+        source: "How do you spell the last name?",
         answer: "Como se escreve o sobrenome?",
         explanation: "\"Como se escreve...?\" asks for the spelling.",
       },
@@ -2022,7 +2022,7 @@ export const PT_A1_U11: Lesson[] = [
       {
         type: "speak",
         text: "Meu nome é Tom: tê, ó, eme. O sobrenome é Clark.",
-        prompt: "Say it in Portuguese: My name is Tom, T-O-M. My surname is Clark.",
+        prompt: "Say it in Portuguese: My name is Tom, T-O-M. My last name is Clark.",
         tip: "Letters in Portuguese: T is tê, O is ó, M is eme.",
         explanation: "Spelling your name is the most common form-filling task.",
       },
@@ -2073,7 +2073,7 @@ export const PT_A1_U11: Lesson[] = [
       {
         heading: "Não estou bem. Onde é o hospital?",
         body: [
-          "If you feel ill: \"Não estou bem\" (I'm not well) or \"Estou com dor de cabeça\" (I have a headache), using \"estar com\" from Unit 9. Ask \"Onde é o hospital?\" or \"Tem uma farmácia aqui perto?\" (Is there a pharmacy near here?). Learn \"tem\" for is there as a chunk.",
+          "If you feel ill: \"Não estou bem\" (I'm not well) or \"Estou com dor de cabeça\" (I have a headache), using \"estar com\" from Unit 5. Ask \"Onde é o hospital?\" or \"Tem uma farmácia aqui perto?\" (Is there a pharmacy near here?). Learn \"tem\" for is there as a chunk.",
           "Brazilian pharmacies (\"farmácia\" or \"drogaria\") are everywhere and pharmacists often give advice.",
         ],
         examples: [
@@ -2252,7 +2252,7 @@ export const PT_A1_U11: Lesson[] = [
           { es: "Uma passagem para Santos, por favor.", en: "A ticket to Santos, please." },
           { es: "São duzentos e cinquenta reais.", en: "That's two hundred and fifty reais." },
           { es: "O ônibus sai às duas e meia.", en: "The bus leaves at half past two." },
-          { es: "A volta é às cinco e meia.", en: "The return is at half past five." },
+          { es: "A volta é às cinco e meia.", en: "The return trip is at half past five." },
         ],
         checkpoint: [
           {
@@ -2279,7 +2279,7 @@ export const PT_A1_U11: Lesson[] = [
         heading: "Ordering and paying",
         body: [
           "\"*Um água\": \"água\" is feminine: \"uma água\". \"*Eu quero pagar em cartão\": say \"com cartão\" or \"no cartão\".",
-          "\"Quanto custa?\" asks the price of one item (\"quanto custa o suco?\"). For what you owe at the till or after a meal, Brazilians ask \"Quanto é?\" or \"A conta, por favor\" (the bill, please).",
+          "\"Quanto custa?\" asks the price of one item (\"quanto custa o suco?\"). For what you owe at the register or after a meal, Brazilians ask \"Quanto é?\" or \"A conta, por favor\" (the bill, please).",
         ],
         examples: [
           { es: "Uma água com gás, por favor.", en: "A sparkling water, please." },
@@ -2358,7 +2358,7 @@ export const PT_A1_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "A return ticket to Salvador, please.",
+        source: "A round-trip ticket to Salvador, please.",
         answer: "Uma passagem de ida e volta para Salvador, por favor.",
         altAnswers: ["Uma passagem ida e volta para Salvador, por favor.", "Ida e volta para Salvador, por favor."],
         explanation: "\"Para\" for the destination.",
@@ -2438,7 +2438,7 @@ export const PT_A1_U11: Lesson[] = [
     level: "PT-A1",
     number: 13,
     title: "Spiral Review: Your First Day in Brazil",
-    summary: "Land in Salvador, take the bus to the centre, check in, eat lunch por quilo, pay and find your way back, using everything from Units 1-6, 9 and 10.",
+    summary: "Land in Salvador, take the bus to the center, check in, eat lunch por quilo, pay and find your way back, using everything from Units 1-8.",
     duration: "12 min",
     kind: "review",
     format: "Spiral Review",
@@ -2449,7 +2449,7 @@ export const PT_A1_U11: Lesson[] = [
           "You land at Salvador airport. Find the bus, check the fare and the time, and check in at your pousada in the Pelourinho.",
         ],
         examples: [
-          { es: "Esse ônibus vai para o centro?", en: "Does this bus go to the centre?" },
+          { es: "Esse ônibus vai para o centro?", en: "Does this bus go to the center?" },
           { es: "Quanto é a passagem?", en: "How much is the fare?" },
           { es: "Desculpa, não entendi. Pode repetir?", en: "Sorry, I didn't catch that. Can you repeat it?" },
           { es: "Boa tarde! Eu tenho uma reserva para três noites.", en: "Good afternoon! I have a reservation for three nights." },
@@ -2460,7 +2460,7 @@ export const PT_A1_U11: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Does this bus go to the centre?",
+            source: "Does this bus go to the center?",
             answer: "Esse ônibus vai para o centro?",
             altAnswers: ["Este ônibus vai para o centro?", "Esse ônibus vai pro centro?"],
             explanation: "\"Ir para\" + destination.",
@@ -2566,7 +2566,7 @@ export const PT_A1_U11: Lesson[] = [
         en: "Is it for here or [to go]?",
         sentence: "É para comer aqui ou ___?",
         answer: "para viagem",
-        explanation: "\"Para viagem\": takeaway.",
+        explanation: "\"Para viagem\": to go.",
       },
       {
         type: "fill-blank",

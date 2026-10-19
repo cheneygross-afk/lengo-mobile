@@ -314,7 +314,7 @@ export const FR_A1_U04: Lesson[] = [
           {
             type: "speak",
             text: "Nous faisons du sport.",
-            tip: "Faisons is said fe-zon, not fè-zon.",
+            tip: "\"Faisons\" is said fe-zon, not fè-zon.",
             explanation: "The ai in \"faisons\" is pronounced as a weak e.",
           },
         ],
@@ -499,7 +499,7 @@ export const FR_A1_U04: Lesson[] = [
         heading: "Take a coffee, take the bus",
         body: [
           "English has, eats or drinks a meal; French \"takes\" it: \"je prends un café\" (I'm having a coffee), \"on prend le petit-déjeuner\" (we're having breakfast). In a café, \"je prends...\" is the natural way to order.",
-          "Transport is also \"prendre\": \"prendre le bus\", \"le métro\", \"le train\", \"l'avion\". Don't translate catch or get: *attraper le bus sounds odd.",
+          "Transport is also \"prendre\": \"prendre le bus\", \"le métro\", \"le train\", \"l'avion\". Don't translate catch or get word for word: \"prendre le bus\" is the everyday verb (\"attraper le bus\" exists, but only for just making it in time).",
         ],
         examples: [
           { es: "Je prends un café, s'il vous plaît.", en: "I'll have a coffee, please." },
@@ -905,7 +905,7 @@ export const FR_A1_U04: Lesson[] = [
           {
             type: "speak",
             text: "Je voudrais réserver une table.",
-            tip: "Voudrais: vou-drè.",
+            tip: "\"Voudrais\": vou-drè.",
             explanation: "\"Je voudrais\" + infinitive for a polite request.",
           },
         ],
@@ -1316,7 +1316,7 @@ export const FR_A1_U04: Lesson[] = [
         prompt: "Translate into French.",
         source: "We know Bordeaux well.",
         answer: "On connaît bien Bordeaux.",
-        altAnswers: ["Nous connaissons bien Bordeaux.", "On connait bien Bordeaux.", "On connaît Bordeaux bien."],
+        altAnswers: ["Nous connaissons bien Bordeaux.", "On connait bien Bordeaux."],
         explanation: "A city: \"connaître\". \"Bien\" usually goes right after the verb.",
       },
       {
@@ -1412,7 +1412,7 @@ export const FR_A1_U04: Lesson[] = [
         body: [
           "Mission: you're Emma, an English designer starting a new job in Lyon. You come from Manchester and you don't know the city. \"Je viens de Manchester. Je ne connais pas Lyon.\"",
           "At 8 o'clock: \"Je prends le métro. Je dois descendre à Bellecour.\" (I take the metro. I have to get off at Bellecour.) \"Descendre\" means to go down and to get off a bus or train.",
-          "At the office, the receptionist says: « Bonjour ! Vous pouvez attendre ici, s'il vous plaît ? M. Garnier arrive. » You wait: \"j'attends\".",
+          "At the office, the receptionist says: \"Bonjour ! Vous pouvez attendre ici, s'il vous plaît ? M. Garnier arrive.\" You wait: \"j'attends\".",
         ],
         examples: [
           { es: "Je viens de Manchester.", en: "I'm from Manchester." },
@@ -1443,7 +1443,7 @@ export const FR_A1_U04: Lesson[] = [
       {
         heading: "At the office",
         body: [
-          "M. Garnier, your manager, explains the day: « Le matin, nous faisons une réunion. À midi, on va au restaurant ensemble. L'après-midi, vous pouvez finir le dossier. »",
+          "M. Garnier, your manager, explains the day: \"Le matin, nous faisons une réunion. À midi, on va au restaurant ensemble. L'après-midi, vous pouvez finir le dossier.\"",
           "You don't understand everything, so you ask: \"Pardon, je ne comprends pas. Vous pouvez répéter ?\" Polite \"vous\" with a manager, and modal + infinitive.",
           "In the afternoon, you choose a desk (\"je choisis un bureau\"), you answer the phone (\"je réponds au téléphone\") and you finish at six (\"je finis à six heures\").",
         ],
@@ -1482,7 +1482,7 @@ export const FR_A1_U04: Lesson[] = [
       {
         heading: "A message to a colleague",
         body: [
-          "In the evening, you text your new colleague Julien, who is your age, so \"tu\": « Salut Julien ! Merci pour aujourd'hui. Demain, je peux venir à huit heures. Tu veux prendre un café avant la réunion ? »",
+          "In the evening, you text your new colleague Julien, who is your age, so \"tu\": \"Salut Julien ! Merci pour aujourd'hui. Demain, je peux venir à huit heures. Tu veux prendre un café avant la réunion ?\"",
           "Notice how much the modal verbs do: \"je peux venir\", \"tu veux prendre\". One conjugated verb, then an infinitive.",
         ],
         examples: [
@@ -1667,7 +1667,7 @@ export const FR_A1_U04: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "What does « Je reste à la maison » mean?",
+            question: "What does \"Je reste à la maison\" mean?",
             options: ["I'm staying at home.", "I'm resting at home.", "I'm going home.", "I'm returning home."],
             correctIndex: 0,
             explanation: "\"Rester\" is a false friend: it means to stay, not to rest.",
@@ -1714,7 +1714,7 @@ export const FR_A1_U04: Lesson[] = [
           {
             type: "speak",
             text: "J'ouvre la fenêtre.",
-            tip: "Fenêtre: fe-nètr, with an open ê.",
+            tip: "\"Fenêtre\": fe-nètr, with an open ê.",
             explanation: "\"Ouvrir\" takes -er endings: \"j'ouvre\".",
           },
         ],
@@ -1746,7 +1746,7 @@ export const FR_A1_U04: Lesson[] = [
         source: "Can you find the station? (to a friend)",
         answer: "Tu trouves la gare ?",
         altAnswers: ["Tu peux trouver la gare ?", "Est-ce que tu trouves la gare ?"],
-        explanation: "French often drops can with verbs of finding or perceiving: \"tu trouves ?\".",
+        explanation: "French often uses the plain verb where English adds can with finding, seeing and hearing: \"tu trouves la gare ?\". \"Tu peux trouver la gare ?\" is also correct.",
       },
       {
         type: "translate",

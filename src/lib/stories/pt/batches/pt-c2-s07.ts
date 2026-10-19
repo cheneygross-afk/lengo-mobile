@@ -105,7 +105,7 @@ export const PT_C2_S07_STORIES: Story[] = [
     questions: [
       {
         question: `Why were the dead, in the narrator's words, the best clients?`,
-        options: [`Because they paid more`, `Because they did not move during the long exposure`, `Because they came without families`, `Because the studio specialised in funerals`],
+        options: [`Because they paid more`, `Because they did not move during the long exposure`, `Because they came without families`, `Because the studio specialized in funerals`],
         correctIndex: 1,
         explanation: `A sitter had to stay still for forty seconds, and "os mortos eram os nossos melhores clientes. Não se mexiam."`,
       },
@@ -141,7 +141,7 @@ export const PT_C2_S07_STORIES: Story[] = [
       `O desembargador não entendia a língua geral, mas entendia que estava vivo. Nos primeiros dias, falou muito. Explicou a Raimundo que os cabanos eram uma corja de selvagens e de mestiços, que não sabiam o que queriam, que a ordem seria restabelecida em poucas semanas e que, nesse dia, cada um deles seria enforcado nas árvores da praça. Raimundo ouvia, remava e às vezes cantava baixinho uma toada em nheengatu. No quarto dia, o desembargador quis saber o que dizia a canção. Raimundo disse que falava de um rio que corre para trás. O desembargador achou aquilo uma tolice de índio e dormiu.`,
       `No sétimo dia, com febre, o desembargador viu, ou julgou ver, uma coisa que nunca contou a ninguém. Ao amanhecer, Raimundo tirou do fundo da canoa, debaixo de onde dormia, uma faca comprida, uma bandeira vermelha dobrada e um papel com um selo, que leu atentamente, mexendo os lábios. Leu. Um tapuio que lia. Depois guardou tudo de novo, voltou a remar e não disse nada. O desembargador fingiu dormir até a tarde. Não perguntou. Começou, pela primeira vez, a agradecer a farinha e a água.`,
       `Chegaram a Cametá no nono dia, perto do meio-dia. Raimundo encostou a canoa num trapiche afastado, longe dos soldados, ajudou o passageiro a descer e devolveu-lhe a touca de renda, que tinha caído no rio e ele resgatara com o remo. O desembargador, já de pé no trapiche, perguntou-lhe, quase com medo, por que o salvara. Raimundo pensou um pouco e respondeu, num português perfeito, de quem tinha sido educado pelos padres: “Porque a gente está fazendo uma revolução, doutor. Não um açougue. E porque alguém precisa ficar vivo pra escrever que fugiu sozinho.”`,
-      `O desembargador escreveu. Escreveu exatamente isso, que fugira sozinho, e acrescentou a linha sobre o tapuio rude e calado. A Cabanagem foi esmagada em 1840, com uma violência que, segundo os cálculos mais prudentes, matou um terço da população do Pará. Não se sabe o que aconteceu a Raimundo. Nas memórias do desembargador, porém, há uma frase curiosa, perdida no capítulo sobre a repressão, que nenhum historiador conseguiu explicar. Diz que, depois da guerra, ele pediu ao governo que poupassem os remadores de Cametá, “por motivos que só Deus e eu conhecemos”.`,
+      `O desembargador escreveu. Escreveu exatamente isso, que fugira sozinho, e acrescentou a linha sobre o tapuio rude e calado. A Cabanagem foi esmagada em 1840, com uma violência que, segundo estimativas correntes, matou de um quarto a um terço da população do Pará. Não se sabe o que aconteceu a Raimundo. Nas memórias do desembargador, porém, há uma frase curiosa, perdida no capítulo sobre a repressão, que nenhum historiador conseguiu explicar. Diz que, depois da guerra, ele pediu ao governo que poupassem os remadores de Cametá, “por motivos que só Deus e eu conhecemos”.`,
     ],
     questions: [
       {
@@ -174,10 +174,10 @@ export const PT_C2_S07_STORIES: Story[] = [
     slug: "pt-previsao-do-tempo",
     level: "PT-C2",
     title: `Previsão do tempo`,
-    subtitle: `On the night of 13 December 1968, as military censors take over a Rio newsroom, the paper's pedantic weatherman is asked to write a forecast he knows is scientifically wrong.`,
+    subtitle: `On the night of December 13, 1968, as military censors take over a Rio newsroom, the paper's pedantic weatherman is asked to write a forecast he knows is scientifically wrong.`,
     paragraphs: [
       `Durante vinte e dois anos, Hermes Bittencourt escreveu o boxe da previsão do tempo da Gazeta Carioca e, em todo esse tempo, nunca escreveu um adjetivo. Era uma questão de princípio. A meteorologia, dizia ele aos estagiários que ousavam sugerir “manhã agradável” ou “tarde abafada”, é uma ciência, e ciência não tem opinião sobre o tempo: tem números. Temperatura máxima, temperatura mínima, umidade relativa, direção do vento, nebulosidade em oitavos. O resto era poesia, e poesia, para Hermes, era assunto da página de literatura, dois andares acima.`,
-      `Na noite de 13 de dezembro de 1968, a redação estava estranha. Havia três homens de terno escuro sentados à mesa do editor-chefe, lendo tudo antes de descer para a oficina. O rádio tinha anunciado, no começo da noite, um ato institucional que fechava o Congresso, suspendia o habeas corpus e dava ao governo o direito de cassar quem quisesse. Os repórteres andavam em silêncio, como em velório. Matérias inteiras voltavam riscadas a lápis vermelho. Hermes, que não lia a primeira página por considerá-la sensacionalista, entregou o seu boxe às dez horas, como sempre: “Céu claro a parcialmente nublado. Máxima de 36 graus. Mínima de 24. Ventos fracos de nordeste.”`,
+      `Na noite de 13 de dezembro de 1968, a redação estava estranha. Havia três homens de terno escuro sentados à mesa do editor-chefe, lendo tudo antes de descer para a oficina. O rádio tinha anunciado, naquela noite, um ato institucional que fechava o Congresso, suspendia o habeas corpus e dava ao governo o direito de cassar quem quisesse. Os repórteres andavam em silêncio, como em velório. Matérias inteiras voltavam riscadas a lápis vermelho. Hermes, que não lia a primeira página por considerá-la sensacionalista, entregou o seu boxe às dez horas, como sempre: “Céu claro a parcialmente nublado. Máxima de 36 graus. Mínima de 24. Ventos fracos de nordeste.”`,
       `Às onze, o editor-chefe chamou-o à sala do café, longe dos homens de terno, e pediu-lhe uma coisa absurda. Queria outra previsão. Queria que ele escrevesse que o tempo estava negro, que o ar estava irrespirável, que o país estava sendo varrido por ventos fortíssimos. Hermes achou que era brincadeira. Depois achou que o editor tinha bebido. Depois entendeu, e ficou pálido, não de medo, mas de indignação científica. “Isso é mentira”, disse. “Amanhã vai fazer sol. Eu tenho os dados do aeroporto.” O editor respondeu, com uma paciência que lhe custava muito: “Seu Hermes, é a única página que eles não vão ler.”`,
       `Hermes voltou para a sua mesa e ficou meia hora olhando a folha em branco. Pensou nos vinte e dois anos sem adjetivo. Pensou na sobrinha, estudante de arquitetura, que tinha sido presa em junho numa passeata e voltado para casa sem querer contar o que acontecera. Pensou que, se escrevesse aquilo, estaria mentindo para milhares de leitores que confiavam nele para saber se levavam guarda-chuva. Pensou também que talvez nenhum desses leitores, naquela noite, estivesse realmente preocupado com chuva.`,
       `Então escreveu. Não a mentira que o editor pedira, mas uma coisa que lhe pareceu, ao mesmo tempo, honesta e criminosa. Manteve os números, todos verdadeiros, e acrescentou, pela primeira e única vez na vida, adjetivos. Escreveu que a temperatura seria sufocante. Que a visibilidade seria nula. Que a pressão estaria em alta em Brasília e em queda no resto do país. E, no lugar da temperatura mínima, onde sempre escrevia o nome do bairro mais frio da cidade, colocou o nome do palácio onde morava o presidente. Releu tudo três vezes. Tecnicamente, não havia nenhum dado falso.`,
@@ -233,11 +233,11 @@ export const PT_C2_S07_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "o quebranto", en: "illness caused by the evil eye", forms: ["quebranto"] },
     { es: "a arruda", en: "rue (herb used in folk healing)", forms: ["arruda"] },
     { es: "a cartucheira", en: "cartridge belt", forms: ["cartucheiras"] },
-    { es: "o cabra", en: "guy, tough (in the North-East)", forms: ["cabra"] },
+    { es: "o cabra", en: "guy, tough (in the Northeast)", forms: ["cabra"] },
     { es: "vosmecê", en: "you (old rural form of address)", forms: ["vosmecê"] },
     { es: "fechar o corpo", en: "to make someone's body invulnerable by prayer", forms: ["fechar", "feche", "fechado"] },
     { es: "o macaco", en: "policeman (cangaceiro slang)", forms: ["macaco"] },
-    { es: "o buço", en: "faint moustache, down on the lip", forms: ["buço"] },
+    { es: "o buço", en: "faint mustache, down on the lip", forms: ["buço"] },
     { es: "o tamborete", en: "stool", forms: ["tamborete"] },
     { es: "a volante", en: "mobile police troop that hunted cangaceiros", forms: ["volante"] },
     { es: "a grota", en: "ravine", forms: ["grota"] },
@@ -267,7 +267,7 @@ export const PT_C2_S07_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "a corja", en: "rabble, gang", forms: ["corja"] },
     { es: "a toada", en: "folk song, chant", forms: ["toada"] },
     { es: "o trapiche", en: "small wooden pier", forms: ["trapiche"] },
-    { es: "o açougue", en: "butcher's shop (here: slaughter)", forms: ["açougue"] },
+    { es: "o açougue", en: "butcher shop (here: slaughter)", forms: ["açougue"] },
   ],
   "pt-previsao-do-tempo": [
     { es: "o boxe", en: "box (a framed section in a newspaper)", forms: ["boxe"] },
@@ -280,6 +280,6 @@ export const PT_C2_S07_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "a passeata", en: "street protest march", forms: ["passeata"] },
     { es: "sufocante", en: "suffocating", forms: ["sufocante"] },
     { es: "a manchete", en: "headline", forms: ["manchetes"] },
-    { es: "o quadro de avisos", en: "noticeboard", forms: ["quadro"] },
+    { es: "o quadro de avisos", en: "bulletin board", forms: ["quadro"] },
   ],
 };

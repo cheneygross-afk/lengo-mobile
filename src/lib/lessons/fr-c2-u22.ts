@@ -84,8 +84,8 @@ export const FR_C2_U22: Lesson[] = [
             type: "speak",
             text: "Nous avons convenu d'une rupture conventionnelle en bons termes.",
             prompt: "Say it in French: We agreed on a mutual termination, on good terms.",
-            tip: "\"Convenu\" with avoir here (to agree on), not être.",
-            explanation: "\"Convenir de\" (to agree on) takes \"avoir\" in modern usage; \"rupture conventionnelle\" carries no stigma in France.",
+            tip: "\"Conventionnelle\": the t is pronounced like an s (con-van-sio-nel).",
+            explanation: "\"Convenir de\" (to agree on) traditionally takes \"être\" (\"nous sommes convenus de\"), but \"nous avons convenu de\" is now standard usage; \"rupture conventionnelle\" carries no stigma in France.",
           },
         ],
       },
@@ -264,7 +264,7 @@ export const FR_C2_U22: Lesson[] = [
         heading: "Register errors: slang, fillers and tu",
         body: [
           "The first family of errors is register. A candidate who is perfectly qualified can sink with « Ouais, alors du coup, j'ai bossé trois ans dans une boîte de com' ». Each word is a marker: \"ouais\" (yeah), \"du coup\" (so, as a filler), \"bosser\" (to work, familiar), \"une boîte\" (a firm, familiar), \"com'\" (communication, clipped). Rewritten: « J'ai travaillé trois ans dans une agence de communication. »",
-          "Spoken grammar also gives you away: dropping \"ne\" (\"je sais pas\"), \"y a\" for \"il y a\", \"chais pas\". In an interview, the full negation is expected: \"je ne sais pas\", or better, a phrase that doesn't admit ignorance so baldly: « Je ne saurais pas vous répondre précisément, mais je peux vous dire que... ». \"Je ne saurais\" (literary negation without \"pas\" after \"savoir\" in the conditional) means I couldn't say and is very polished.",
+          "Spoken grammar also gives you away: dropping \"ne\" (\"je sais pas\"), \"y a\" for \"il y a\", \"chais pas\". In an interview, the full negation is expected: \"je ne sais pas\", or better, a phrase that doesn't admit ignorance so baldly: « Je ne saurais pas vous répondre précisément, mais je peux vous dire que... ». \"Je ne saurais pas\" (the conditional of \"savoir\") means I couldn't say and is very polished; dropping \"pas\" (\"je ne saurais vous dire\") is more literary still.",
           "And \"tu\": never tutoyer an interviewer first, even in a start-up, even if they're younger, even by accident when you're tired. If they propose it (« On peut se tutoyer, si tu veux »), accept naturally, but note that some recruiters test this.",
         ],
         examples: [
@@ -273,7 +273,7 @@ export const FR_C2_U22: Lesson[] = [
           { es: "Il y avait une forte pression sur les délais.", en: "There was a lot of pressure on deadlines." },
           { es: "C'était une entreprise très dynamique.", en: "It was a very dynamic company." },
           { es: "Je ne connais pas encore ce logiciel, mais je me forme rapidement.", en: "I don't know this software yet, but I learn quickly." },
-          { es: "Pardon, je reprends : je voulais dire « vous ».", en: "Sorry, let me rephrase: I meant 'vous'." },
+          { es: "Pardon, je reprends : je voulais dire « vous ».", en: "Sorry, let me rephrase: I meant \"vous\"." },
         ],
         checkpoint: [
           {
@@ -331,7 +331,7 @@ export const FR_C2_U22: Lesson[] = [
             type: "speak",
             text: "J'ai assuré la gestion budgétaire de trois projets et le suivi des prestataires.",
             prompt: "Say it in French: I handled the budget management of three projects and the follow-up of contractors.",
-            tip: "\"Budgétaire\": bu-djé-ter, the g is soft before é.",
+            tip: "\"Budgétaire\": the g is soft before é, as in \"gérer\" (bu-jé-ter), never a hard g.",
             explanation: "Precise nouns (\"gestion budgétaire\", \"suivi des prestataires\") replace vague \"plein de trucs\".",
           },
         ],
@@ -414,7 +414,7 @@ export const FR_C2_U22: Lesson[] = [
         en: "I have [solid experience] in recruitment.",
         sentence: "J'ai ___ du recrutement.",
         answer: "une solide expérience",
-        altAnswers: ["une expérience solide", "une bonne expérience", "une solide connaissance"],
+        altAnswers: ["une expérience solide", "une bonne expérience"],
         explanation: "\"Expérience\" in this sense is singular; \"*beaucoup d'expériences*\" means many separate experiences, an anglicism here.",
       },
       {
@@ -468,7 +468,7 @@ export const FR_C2_U22: Lesson[] = [
         type: "speak",
         text: "Il m'arrive de me tromper, et dans ce cas je le reconnais rapidement.",
         prompt: "Say it in French: I sometimes make mistakes, and when I do, I own up quickly.",
-        tip: "\"Tromper\": the o is open, like in \"comme\".",
+        tip: "\"Tromper\": \"trom\" is a nasal vowel, as in \"bon\"; the m is not pronounced.",
         explanation: "Honest nuance instead of an implausible absolute; \"le\" refers to the whole idea (that I was wrong).",
       },
     ],
@@ -537,7 +537,7 @@ export const FR_C2_U22: Lesson[] = [
             prompt: "Translate into French (a woman speaking).",
             source: "I graduated from an engineering school in Toulouse.",
             answer: "Je suis diplômée d'une école d'ingénieurs à Toulouse.",
-            altAnswers: ["Je suis diplômée d'une école d'ingénieur à Toulouse.", "Je suis diplômée d'une école d'ingénieurs toulousaine.", "J'ai été diplômée d'une école d'ingénieurs à Toulouse.", "J'ai obtenu mon diplôme dans une école d'ingénieurs à Toulouse."],
+            altAnswers: ["Je suis diplômée d'une école d'ingénieur à Toulouse.", "Je suis diplômée d'une école d'ingénieurs toulousaine.", "J'ai obtenu mon diplôme dans une école d'ingénieurs à Toulouse."],
             explanation: "\"Être diplômé(e) de\" + institution. Graduate is not \"*graduer*\" in France (it's a Québec usage).",
           },
           {
@@ -1691,7 +1691,7 @@ export const FR_C2_U22: Lesson[] = [
         heading: "De facto, ipso facto, sine qua non, statu quo",
         body: [
           "\"De facto\" (in fact, as opposed to \"de jure\", in law): « Il est de facto le numéro deux du gouvernement. » \"Ipso facto\" (by that very fact, automatically): « Toute candidature incomplète sera ipso facto rejetée. » English speakers sometimes confuse the two: de facto describes a reality, ipso facto a consequence.",
-          "\"Une condition sine qua non\" is an essential condition, one without which nothing happens. It's almost always used with \"condition\" and is invariable: \"des conditions sine qua non\". The common error \"*sine qua none*\" mixes in the English none. Pronounce it \"si-né-koua-non\".",
+          "\"Une condition sine qua non\" is an essential condition, one without which nothing happens. It's almost always used with \"condition\" and is invariable: \"des conditions sine qua non\". The common error \"*sine qua none*\" mixes in the English none. Pronounce it \"si-né-koua-nonne\": the final n is sounded, not nasal.",
           "\"Le statu quo\" (the existing state of affairs) is the French spelling and form, from Latin \"in statu quo ante\". \"*Le status quo*\" is an English-influenced error that careful readers notice: « Les syndicats refusent le statu quo. » It's invariable and has no hyphen.",
         ],
         examples: [
@@ -1724,7 +1724,7 @@ export const FR_C2_U22: Lesson[] = [
             type: "speak",
             text: "La confiance est une condition sine qua non de toute négociation.",
             prompt: "Say it in French: Trust is an essential condition of any negotiation.",
-            tip: "Say \"sine qua non\" as si-né-koua-non.",
+            tip: "Say \"sine qua non\" as si-né-koua-nonne: the final n is sounded.",
             explanation: "\"Sine qua non\" follows \"condition\"; \"toute\" + singular noun = any.",
           },
         ],

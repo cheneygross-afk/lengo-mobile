@@ -21,7 +21,7 @@ export const PT_B2_U15: Lesson[] = [
         ],
         examples: [
           { es: "Era uma noite de verão e fazia muito calor.", en: "It was a summer night and it was very hot." },
-          { es: "Eu morava num apartamento pequeno em Copacabana.", en: "I lived in a small flat in Copacabana." },
+          { es: "Eu morava num apartamento pequeno em Copacabana.", en: "I lived in a small apartment in Copacabana." },
           { es: "Às onze horas, alguém bateu na porta.", en: "At eleven o'clock, someone knocked on the door." },
           { es: "Abri a porta e vi um envelope no chão.", en: "I opened the door and saw an envelope on the floor." },
           { es: "O envelope era azul e não tinha nome.", en: "The envelope was blue and had no name on it." },
@@ -101,12 +101,12 @@ export const PT_B2_U15: Lesson[] = [
         heading: "Tinha + participle: stepping further back",
         body: [
           "To mention something that happened before the moment you're narrating, step back with \"tinha\" + participle: \"quando cheguei, o trem já tinha saído\". Without it, Portuguese hears a sequence of events. \"Quando cheguei, o trem saiu\" means the train left just as you arrived.",
-          "English speakers often skip the past perfect ('I realised I left my keys'), but Portuguese narration rarely does: \"percebi que tinha deixado as chaves\". Formal writing uses \"havia\" + participle with the same meaning, and \"já\", \"ainda não\" and \"nunca\" go right before it.",
+          "English speakers often skip the past perfect ('I realized I left my keys'), but Portuguese narration rarely does: \"percebi que tinha deixado as chaves\". Formal writing uses \"havia\" + participle with the same meaning, and \"já\", \"ainda não\" and \"nunca\" go right before it.",
         ],
         examples: [
           { es: "Quando cheguei à estação, o trem já tinha saído.", en: "When I got to the station, the train had already left." },
-          { es: "Percebi que tinha deixado as chaves no táxi.", en: "I realised I'd left the keys in the taxi." },
-          { es: "Ela estava nervosa porque nunca tinha viajado sozinha.", en: "She was nervous because she'd never travelled alone." },
+          { es: "Percebi que tinha deixado as chaves no táxi.", en: "I realized I'd left the keys in the taxi." },
+          { es: "Ela estava nervosa porque nunca tinha viajado sozinha.", en: "She was nervous because she'd never traveled alone." },
           { es: "O filme ainda não tinha começado quando entramos.", en: "The film hadn't started yet when we went in." },
           { es: "A polícia descobriu que o ladrão havia fugido pela janela.", en: "The police discovered that the thief had escaped through the window." },
         ],
@@ -129,10 +129,10 @@ export const PT_B2_U15: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: I realised I'd left the keys in the taxi.",
+            prompt: "Put the words in order to say: I realized I'd left the keys in the taxi.",
             words: ["Percebi", "que", "tinha", "deixado", "as chaves", "no táxi."],
-            translation: "I realised I'd left the keys in the taxi.",
-            explanation: "Leaving the keys came before the realising, so \"tinha deixado\". English can say 'I left', but Portuguese needs the step back.",
+            translation: "I realized I'd left the keys in the taxi.",
+            explanation: "Leaving the keys came before the realizing, so \"tinha deixado\". English can say 'I left', but Portuguese needs the step back.",
           },
         ],
       },
@@ -286,9 +286,9 @@ export const PT_B2_U15: Lesson[] = [
       {
         type: "speak",
         text: "Percebi que tinha perdido a carteira.",
-        prompt: "Say it in Portuguese: I realised I'd lost my wallet.",
+        prompt: "Say it in Portuguese: I realized I'd lost my wallet.",
         tip: "The d of \"perdido\" before i sounds like the j in jeep: per-DJI-du.",
-        explanation: "Losing the wallet came before the realising, so it takes \"tinha perdido\".",
+        explanation: "Losing the wallet came before the realizing, so it takes \"tinha perdido\".",
       },
       {
         type: "matching",
@@ -362,7 +362,7 @@ export const PT_B2_U15: Lesson[] = [
           "\"Quando eu vejo\" (next thing I know) and \"e não é que...\" (and wouldn't you know it...) add drama. Ration the \"aí\": one per event is natural, three in a row sounds like a child talking, and none of it belongs in formal writing.",
         ],
         examples: [
-          { es: "Aí ele vira pra mim e pergunta se eu não reconheço ele.", en: "Then he turns to me and asks if I don't recognise him." },
+          { es: "Aí ele vira pra mim e pergunta se eu não reconheço ele.", en: "Then he turns to me and asks if I don't recognize him." },
           { es: "Do nada, uma senhora chega em mim e me dá um abraço.", en: "Out of nowhere, an older lady comes up to me and gives me a hug." },
           { es: "Quando eu vejo, o ônibus já está saindo.", en: "Next thing I know, the bus is already pulling out." },
           { es: "Eu falo assim: tudo bem, pode deixar comigo.", en: "I go: fine, leave it to me." },
@@ -419,7 +419,7 @@ export const PT_B2_U15: Lesson[] = [
           { es: "Dom Pedro proclama a independência em 1822; nove anos depois, vai abdicar do trono.", en: "Dom Pedro declares independence in 1822; nine years later, he will abdicate the throne." },
           { es: "Seleção vence a Argentina e se classifica para a Copa.", en: "Brazil beat Argentina and qualify for the World Cup." },
           { es: "No filme, Fernanda Montenegro interpreta Dora, uma mulher que escreve cartas na Central do Brasil.", en: "In the film, Fernanda Montenegro plays Dora, a woman who writes letters at Central do Brasil station." },
-          { es: "Quando entra em casa, o detetive percebe que alguém abriu a janela.", en: "When he walks into the house, the detective realises someone has opened the window." },
+          { es: "Quando entra em casa, o detetive percebe que alguém abriu a janela.", en: "When he walks into the house, the detective realizes someone has opened the window." },
         ],
         checkpoint: [
           {
@@ -581,7 +581,7 @@ export const PT_B2_U15: Lesson[] = [
         heading: "The travessão: dialogue on the page",
         body: [
           "Brazilian fiction marks spoken lines with the travessão (—), not quotation marks. Each new speaker gets a new paragraph that opens with a dash, and nothing closes the line. \"Aspas\" are kept for quotations in the press and for words cited inside a sentence.",
-          "When the narrator breaks in, a second dash sets the comment off: \"— Estou cansado — disse ele.\" A full stop at the end of the spoken part disappears before that dash. A question mark or exclamation mark stays: \"— Você vem? — perguntou ela.\" If the character keeps talking, a third dash reopens the speech.",
+          "When the narrator breaks in, a second dash sets the comment off: \"— Estou cansado — disse ele.\" A period at the end of the spoken part disappears before that dash. A question mark or exclamation mark stays: \"— Você vem? — perguntou ela.\" If the character keeps talking, a third dash reopens the speech.",
           "After the line, the reporting verb usually comes before its subject: \"disse ele\", \"respondeu a mãe\", like English said John. When the narrator announces the line instead, a colon introduces it and the dash starts a new paragraph.",
         ],
         examples: [
@@ -589,7 +589,7 @@ export const PT_B2_U15: Lesson[] = [
           { es: "— Estou cansado — disse o Rafael. — Vou dormir cedo.", en: "'I'm tired,' said Rafael. 'I'm going to bed early.'" },
           { es: "— Que susto! — gritou Dona Maria.", en: "'What a fright!' shouted Dona Maria." },
           { es: "— Não sei — respondeu ela, sem tirar os olhos do celular.", en: "'I don't know,' she replied, without taking her eyes off her phone." },
-          { es: "O motorista se virou e disse: — Sua parada é a próxima.", en: "The driver turned round and said: 'Yours is the next stop.' (on the page, the dash line starts a new paragraph)" },
+          { es: "O motorista se virou e disse: — Sua parada é a próxima.", en: "The driver turned around and said: 'Yours is the next stop.' (on the page, the dash line starts a new paragraph)" },
         ],
         checkpoint: [
           {
@@ -611,7 +611,7 @@ export const PT_B2_U15: Lesson[] = [
             source: "'I'm late,' said Lucas.",
             answer: "— Estou atrasado — disse o Lucas.",
             altAnswers: ["— Estou atrasado — disse Lucas.", "— Estou atrasado — falou o Lucas.", "— Estou atrasado — falou Lucas."],
-            explanation: "The full stop of \"Estou atrasado\" drops before the dash, and the verb comes before its subject: \"disse o Lucas\".",
+            explanation: "The period of \"Estou atrasado\" drops before the dash, and the verb comes before its subject: \"disse o Lucas\".",
           },
           {
             type: "fill-blank",
@@ -748,7 +748,7 @@ export const PT_B2_U15: Lesson[] = [
           "— Já vou — respondeu o Rafael.",
         ],
         correctIndex: 3,
-        explanation: "The full stop of the spoken part drops before the dash, the line opens with a dash, and nothing closes it after the narrator's comment.",
+        explanation: "The period of the spoken part drops before the dash, the line opens with a dash, and nothing closes it after the narrator's comment.",
       },
       {
         type: "translate",
@@ -757,7 +757,7 @@ export const PT_B2_U15: Lesson[] = [
         source: "'I don't know,' she replied.",
         answer: "— Não sei — respondeu ela.",
         altAnswers: ["— Eu não sei — respondeu ela.", "— Não sei — ela respondeu.", "— Eu não sei — ela respondeu."],
-        explanation: "\"Respondeu ela\" with the verb first is the classic order. The full stop of \"Não sei\" disappears before the dash.",
+        explanation: "\"Respondeu ela\" with the verb first is the classic order. The period of \"Não sei\" disappears before the dash.",
       },
       {
         type: "listen-choose",
@@ -861,10 +861,10 @@ export const PT_B2_U15: Lesson[] = [
             type: "multiple-choice",
             question: "A Brazilian friend says: \"De repente a gente vai a Paraty no fim de semana.\" What does she mean?",
             options: [
-              "Maybe we'll go to Paraty at the weekend.",
-              "Suddenly we went to Paraty at the weekend.",
-              "We'll go to Paraty quickly at the weekend.",
-              "We always go to Paraty at weekends.",
+              "Maybe we'll go to Paraty on the weekend.",
+              "Suddenly we went to Paraty on the weekend.",
+              "We'll go to Paraty quickly on the weekend.",
+              "We always go to Paraty on weekends.",
             ],
             correctIndex: 0,
             explanation: "With a present-tense plan, spoken \"de repente\" means maybe, not suddenly. The sudden meaning goes with a past story: \"de repente, a luz acabou\".",
@@ -888,7 +888,7 @@ export const PT_B2_U15: Lesson[] = [
           "Without a second event, \"mal\" just means barely: \"mal dormi\" (I barely slept). It sounds exactly like \"mau\", the adjective for bad (\"um mau sinal\"). Never write \"mau cheguei\".",
         ],
         examples: [
-          { es: "Mal cheguei ao escritório, o chefe me chamou.", en: "No sooner had I got to the office than my boss called me in." },
+          { es: "Mal cheguei ao escritório, o chefe me chamou.", en: "No sooner had I gotten to the office than my boss called me in." },
           { es: "Mal nos sentamos e o garçom já apareceu.", en: "We'd barely sat down when the waiter appeared." },
           { es: "Mal ela entrou, todo mundo ficou em silêncio.", en: "She'd barely walked in when everyone went quiet." },
           { es: "Nem bem saí de casa, começou a chover.", en: "I'd barely left the house when it started to rain." },
@@ -913,7 +913,7 @@ export const PT_B2_U15: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You're telling a friend what happened last night: I'd barely got home when my mother called. Which sentence is right?",
+            question: "You're telling a friend what happened last night: I'd barely gotten home when my mother called. Which sentence is right?",
             options: [
               "Mal cheguei em casa, minha mãe ligou.",
               "Mal eu chego em casa, minha mãe ligou.",
@@ -1410,16 +1410,16 @@ export const PT_B2_U15: Lesson[] = [
       {
         heading: "What a crônica is",
         body: [
-          "A \"crônica\" is a short prose piece, usually under a page, that Brazilian newspapers and magazines have printed for over a century. Despite the name, it isn't a chronicle in the English sense of a historical record. A cronista takes something tiny, like a queue, a rainy afternoon or a conversation overheard on the \"ônibus\", and finds in it something worth a few hundred words.",
+          "A \"crônica\" is a short prose piece, usually under a page, that Brazilian newspapers and magazines have printed for over a century. Despite the name, it isn't a chronicle in the English sense of a historical record. A cronista takes something tiny, like a line at the bank, a rainy afternoon or a conversation overheard on the \"ônibus\", and finds in it something worth a few hundred words.",
           "The voice is personal and conversational: first person, often speaking straight to the reader (\"você já reparou...?\"). Rubem Braga wrote lyrical, melancholy pieces about birds, the sea and Rio; Luis Fernando Verissimo wrote comic ones built on dialogue and a twist. Many Brazilians first meet literature through crônicas at school, so the genre opens a lot of cultural doors.",
         ],
         examples: [
           { es: "A crônica nasce de uma cena pequena do dia a dia.", en: "A crônica is born from a small everyday scene." },
           { es: "Rubem Braga escrevia sobre um passarinho, uma praia, uma tarde qualquer.", en: "Rubem Braga wrote about a little bird, a beach, any old afternoon." },
           { es: "Verissimo transformava uma conversa de bar numa pequena comédia.", en: "Verissimo turned a bar conversation into a little comedy." },
-          { es: "O cronista fala com o leitor como quem conversa na calçada.", en: "The cronista talks to the reader like someone chatting on the pavement." },
-          { es: "Eu estava na fila do banco quando reparei numa senhora com um guarda-chuva amarelo.", en: "I was in the queue at the bank when I noticed a lady with a yellow umbrella." },
-          { es: "Você já reparou como todo mundo olha o celular no elevador?", en: "Have you ever noticed how everyone stares at their phone in the lift?" },
+          { es: "O cronista fala com o leitor como quem conversa na calçada.", en: "The cronista talks to the reader like someone chatting on the sidewalk." },
+          { es: "Eu estava na fila do banco quando reparei numa senhora com um guarda-chuva amarelo.", en: "I was in line at the bank when I noticed a lady with a yellow umbrella." },
+          { es: "Você já reparou como todo mundo olha o celular no elevador?", en: "Have you ever noticed how everyone stares at their phone in the elevator?" },
         ],
         checkpoint: [
           {
@@ -1453,7 +1453,7 @@ export const PT_B2_U15: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[Have you ever noticed] how nobody says good morning in the lift?",
+            en: "[Have you ever noticed] how nobody says good morning in the elevator?",
             sentence: "___ como ninguém diz bom-dia no elevador?",
             answer: "Você já reparou",
             altAnswers: ["Já reparou", "Você já percebeu", "Já percebeu"],
@@ -1471,7 +1471,7 @@ export const PT_B2_U15: Lesson[] = [
           { es: "Toda manhã, às sete em ponto, o mesmo senhor entra na padaria da esquina.", en: "Every morning, at seven sharp, the same old man walks into the corner bakery." },
           { es: "Pede um pingado e um pão na chapa, sempre com as mesmas palavras.", en: "He orders a coffee with a dash of milk and a toasted roll, always in the same words." },
           { es: "Ninguém sabe o nome dele, e ele parece não se importar.", en: "Nobody knows his name, and he doesn't seem to mind." },
-          { es: "Ontem ele não apareceu, e a moça do caixa ficou olhando para a porta a manhã inteira.", en: "Yesterday he didn't show up, and the girl at the till kept looking at the door all morning." },
+          { es: "Ontem ele não apareceu, e a moça do caixa ficou olhando para a porta a manhã inteira.", en: "Yesterday he didn't show up, and the girl at the register kept looking at the door all morning." },
           { es: "Hoje ele estava lá de novo, sentado no mesmo banco, como se nada tivesse acontecido.", en: "Today he was there again, sitting on the same stool, as if nothing had happened." },
           { es: "Mal ele entrou, ela já foi preparando o pingado.", en: "He'd barely walked in when she started making his coffee." },
         ],
@@ -1644,12 +1644,12 @@ export const PT_B2_U15: Lesson[] = [
       {
         type: "dictation",
         audio: "Hoje ele voltou, como se nada tivesse acontecido.",
-        explanation: "\"Como se\" + pluperfect subjunctive: \"como se nada tivesse acontecido\" (as if nothing had happened), a favourite crônica phrase.",
+        explanation: "\"Como se\" + pluperfect subjunctive: \"como se nada tivesse acontecido\" (as if nothing had happened), a favorite crônica phrase.",
       },
       {
         type: "speak",
         text: "Você já reparou como todo mundo olha o celular no elevador?",
-        prompt: "Say it in Portuguese: Have you ever noticed how everyone stares at their phone in the lift?",
+        prompt: "Say it in Portuguese: Have you ever noticed how everyone stares at their phone in the elevator?",
         tip: "\"Reparou\" has a quick tapped r between vowels; the r at the end of \"elevador\" is light and often barely heard.",
         explanation: "Addressing the reader with \"você já reparou...?\" is the conversational voice that makes a crônica feel like a chat.",
       },
@@ -1724,14 +1724,14 @@ export const PT_B2_U15: Lesson[] = [
         heading: "Chegou or tinha chegado: what happened first",
         body: [
           "The mais-que-perfeito, \"tinha\" + participle, goes one step further back. It marks an event that was already over before another past moment. \"Quando cheguei, o filme começou\" means it started as you walked in. \"Quando cheguei, o filme já tinha começado\" means it started before you got there. The verbs are the same, but the order of events is different.",
-          "English speakers often drop 'had' ('I realised I forgot my passport'). Brazilian speech also says \"percebi que esqueci\", but a careful narrator writes \"percebi que tinha esquecido\". Words like \"já\", \"antes\" and \"ainda não\" almost always call for \"tinha\" + participle.",
+          "English speakers often drop 'had' ('I realized I forgot my passport'). Brazilian speech also says \"percebi que esqueci\", but a careful narrator writes \"percebi que tinha esquecido\". Words like \"já\", \"antes\" and \"ainda não\" almost always call for \"tinha\" + participle.",
         ],
         examples: [
-          { es: "Quando cheguei ao cinema, o filme começou.", en: "The film started just as I got to the cinema." },
-          { es: "Quando cheguei ao cinema, o filme já tinha começado.", en: "When I got to the cinema, the film had already started." },
+          { es: "Quando cheguei ao cinema, o filme começou.", en: "The film started just as I got to the movie theater." },
+          { es: "Quando cheguei ao cinema, o filme já tinha começado.", en: "When I got to the movie theater, the film had already started." },
           { es: "Liguei para a Beatriz, mas ela já tinha saído.", en: "I called Beatriz, but she'd already left." },
           { es: "O ônibus ainda não tinha chegado quando começou a chover.", en: "The bus hadn't arrived yet when it started to rain." },
-          { es: "Percebi no aeroporto que tinha esquecido o passaporte em casa.", en: "At the airport I realised I'd left my passport at home." },
+          { es: "Percebi no aeroporto que tinha esquecido o passaporte em casa.", en: "At the airport I realized I'd left my passport at home." },
         ],
         checkpoint: [
           {
@@ -1802,7 +1802,7 @@ export const PT_B2_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "When I was a child, we always spent the holidays in Salvador.",
+        source: "When I was a child, we always spent our vacations in Salvador.",
         answer: "Quando eu era criança, a gente sempre passava as férias em Salvador.",
         altAnswers: [
           "Quando eu era criança, nós sempre passávamos as férias em Salvador.",
@@ -1811,7 +1811,7 @@ export const PT_B2_U15: Lesson[] = [
           "Quando eu era criança, sempre passávamos as férias em Salvador.",
           "Quando eu era criança, a gente passava sempre as férias em Salvador.",
         ],
-        explanation: "A childhood habit takes the imperfeito twice: \"era\" and \"passava\". \"Sempre\" confirms the repetition. \"Passamos\" would report one particular holiday.",
+        explanation: "A childhood habit takes the imperfeito twice: \"era\" and \"passava\". \"Sempre\" confirms the repetition. \"Passamos\" would report one particular vacation.",
       },
       {
         type: "translate",
@@ -1938,8 +1938,8 @@ export const PT_B2_U15: Lesson[] = [
         examples: [
           { es: "Um homem entrou no ônibus e começou a cantar.", en: "A man got on the bus and started singing." },
           { es: "Um homem entra no ônibus e começa a cantar.", en: "A man gets on the bus and starts singing. (historical present, kept all the way through)" },
-          { es: "Quando eu era criança, passava as férias em Recife.", en: "When I was a kid, I spent my holidays in Recife." },
-          { es: "Quando cheguei ao cinema, o filme já tinha começado.", en: "When I got to the cinema, the film had already started." },
+          { es: "Quando eu era criança, passava as férias em Recife.", en: "When I was a kid, I spent my vacations in Recife." },
+          { es: "Quando cheguei ao cinema, o filme já tinha começado.", en: "When I got to the movie theater, the film had already started." },
           { es: "Chovia muito, e a rua estava deserta.", en: "It was raining hard, and the street was empty." },
         ],
         checkpoint: [
@@ -1955,7 +1955,7 @@ export const PT_B2_U15: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "When I got to the cinema, the film [had already started].",
+            en: "When I got to the movie theater, the film [had already started].",
             sentence: "Quando cheguei ao cinema, o filme ___.",
             answer: "já tinha começado",
             altAnswers: ["já havia começado"],
@@ -1965,10 +1965,10 @@ export const PT_B2_U15: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "When I was a kid, I spent my holidays in Recife.",
+            source: "When I was a kid, I spent my vacations in Recife.",
             answer: "Quando eu era criança, passava as férias em Recife.",
             altAnswers: ["Quando eu era criança, eu passava as férias em Recife.", "Quando era criança, passava as férias em Recife.", "Quando eu era pequeno, passava as férias em Recife.", "Quando eu era pequena, passava as férias em Recife.", "Quando eu era criança, passava minhas férias em Recife.", "Quando eu era criança, eu passava minhas férias em Recife."],
-            explanation: "Childhood is background, so \"era\", not \"fui\"; the repeated holidays are a habit, so \"passava\". \"Quando eu fui criança\" is a classic learner slip.",
+            explanation: "Childhood is background, so \"era\", not \"fui\"; the repeated vacations are a habit, so \"passava\". \"Quando eu fui criança\" is a classic learner slip.",
           },
         ],
       },
@@ -2011,7 +2011,7 @@ export const PT_B2_U15: Lesson[] = [
           "English needs no sooner... than; Portuguese needs only a comma, so don't add \"que\" or \"quando\" after the \"mal\" clause. Before a verb in a main clause, \"mal\" means barely: \"mal dormi\" (I barely slept).",
         ],
         examples: [
-          { es: "Mal entrei em casa, o telefone tocou.", en: "No sooner had I got home than the phone rang." },
+          { es: "Mal entrei em casa, o telefone tocou.", en: "No sooner had I gotten home than the phone rang." },
           { es: "Mal o show começou, caiu um temporal.", en: "The show had barely started when a storm broke." },
           { es: "Mal ela saiu, o chefe perguntou por ela.", en: "No sooner had she left than the boss asked for her." },
           { es: "Mal chegamos à praia, o tempo fechou.", en: "We'd barely reached the beach when the weather turned." },
@@ -2030,7 +2030,7 @@ export const PT_B2_U15: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[No sooner had I got] home than the phone rang.",
+            en: "[No sooner had I gotten] home than the phone rang.",
             sentence: "___ em casa, o telefone tocou.",
             answer: "Mal entrei",
             altAnswers: ["Mal eu entrei", "Mal cheguei", "Mal eu cheguei"],
@@ -2130,7 +2130,7 @@ export const PT_B2_U15: Lesson[] = [
       {
         type: "speak",
         text: "Mal entrei em casa, o telefone tocou.",
-        prompt: "Say it in Portuguese: No sooner had I got home than the phone rang.",
+        prompt: "Say it in Portuguese: No sooner had I gotten home than the phone rang.",
         tip: "The final l in mal sounds like u, so mal and mau sound the same. Pause briefly at the comma.",
         explanation: "\"Mal\" + perfeito, a comma, then the main clause in the perfeito too.",
       },
@@ -2177,7 +2177,7 @@ export const PT_B2_U15: Lesson[] = [
       {
         heading: "Step 1: Open with a habit",
         body: [
-          "A \"crônica\" is a short, first-person text about an ordinary moment: a queue, a bus ride, a neighbour. It looks small on purpose and usually ends by saying something bigger about people. In this lesson you build one, step by step, about the padaria on the corner.",
+          "A \"crônica\" is a short, first-person text about an ordinary moment: a line at the bank, a bus ride, a neighbor. It looks small on purpose and usually ends by saying something bigger about people. In this lesson you build one, step by step, about the padaria on the corner.",
           "Start with the routine, in the imperfeito: \"toda manhã eu descia até a padaria\". The imperfeito sets up a world that repeats, so the reader starts waiting for the day it breaks. Avoid \"era uma vez\" (once upon a time). A crônica should sound like a friend talking, not like a fairy tale.",
           "Keep the voice conversational. Use \"a gente\", a direct question to the reader (\"sabe aquele lugar onde...?\") and short sentences. Crônicas are printed in newspapers, but they read like speech.",
         ],
@@ -2289,7 +2289,7 @@ export const PT_B2_U15: Lesson[] = [
         heading: "Step 4: The turn and the reflection",
         body: [
           "The last paragraph steps back from the story and speaks to the reader. Switch to the present for a general truth, often with \"a gente\": \"a gente só percebe certas pessoas quando elas faltam\". This change of tense is the crônica's signature move.",
-          "A touch of regret or humour makes a good ending, and the past unreal condition does that job: \"se eu tivesse sabido, teria me despedido\". Don't spell out the moral twice. End on an image or a short line, then stop.",
+          "A touch of regret or humor makes a good ending, and the past unreal condition does that job: \"se eu tivesse sabido, teria me despedido\". Don't spell out the moral twice. End on an image or a short line, then stop.",
         ],
         examples: [
           { es: "A gente só percebe certas pessoas quando elas faltam.", en: "We only notice certain people when they're gone." },
@@ -2443,8 +2443,8 @@ export const PT_B2_U15: Lesson[] = [
         examples: [
           { es: "Chovia forte na Avenida Paulista, e fazia meia hora que a Beatriz estava esperando o ônibus.", en: "It was pouring on Avenida Paulista, and Beatriz had been waiting for the bus for half an hour." },
           { es: "Ela tinha deixado o guarda-chuva no escritório.", en: "She had left her umbrella at the office." },
-          { es: "De repente, um carro passou numa poça e molhou a calça dela inteira.", en: "Suddenly a car went through a puddle and soaked her trousers." },
-          { es: "Mal ela subiu no ônibus, o celular começou a tocar.", en: "No sooner had she got on the bus than her phone started ringing." },
+          { es: "De repente, um carro passou numa poça e molhou a calça dela inteira.", en: "Suddenly a car went through a puddle and soaked her pants." },
+          { es: "Mal ela subiu no ônibus, o celular começou a tocar.", en: "No sooner had she gotten on the bus than her phone started ringing." },
           { es: "No instante em que ela atendeu, a ligação caiu.", en: "The moment she answered, the call dropped." },
         ],
         checkpoint: [
@@ -2519,7 +2519,7 @@ export const PT_B2_U15: Lesson[] = [
           { es: "Sentada no fundo do ônibus, ela ficou olhando a chuva pela janela.", en: "Sitting at the back of the bus, she stayed there watching the rain through the window." },
           { es: "Um senhor de terno, segurando um guarda-chuva enorme, ocupava dois lugares.", en: "A man in a suit, holding a huge umbrella, was taking up two seats." },
           { es: "Ele falava alto no celular, como se estivesse sozinho no ônibus.", en: "He was talking loudly on his phone, as if he were alone on the bus." },
-          { es: "Se ela tivesse saído mais cedo, não teria ficado encharcada.", en: "If she had left earlier, she wouldn't have got soaked." },
+          { es: "Se ela tivesse saído mais cedo, não teria ficado encharcada.", en: "If she had left earlier, she wouldn't have gotten soaked." },
           { es: "Embora estivesse exausta, ela começou a rir.", en: "Although she was exhausted, she started laughing." },
         ],
         checkpoint: [
@@ -2647,7 +2647,7 @@ export const PT_B2_U15: Lesson[] = [
 
 export const PT_B2_U15_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A Brazilian culture blog is collecting short crônicas about small moments in everyday city life. Write one in Portuguese about something unexpected that you saw or that happened to you on the bus or metrô, at a padaria, in a queue or on the street. Tell it in the past, set the scene, include what someone said, and end with a short personal reflection, as a crônica usually does.",
+  prompt: "A Brazilian culture blog is collecting short crônicas about small moments in everyday city life. Write one in Portuguese about something unexpected that you saw or that happened to you on the bus or metrô, at a padaria, in line or on the street. Tell it in the past, set the scene, include what someone said, and end with a short personal reflection, as a crônica usually does.",
   minWords: 140,
   maxWords: 220,
   rubric: [

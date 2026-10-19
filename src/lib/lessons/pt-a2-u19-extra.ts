@@ -8,7 +8,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
     level: "PT-A2",
     number: 1,
     title: "Extra Practice: Brazil Up Close, Part 1 of 3",
-    summary: "Practise regions, states and gentílicos with the right article: na Bahia, no Pará, em Pernambuco, os cariocas.",
+    summary: "Practice regions, states and gentílicos with the right article: na Bahia, no Pará, em Pernambuco, os cariocas.",
     duration: "12 min",
     optional: true,
     kind: "drill",
@@ -186,7 +186,7 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Todo ano a gente pula sete ondas.", en: "Every year we jump seven waves." },
-          { es: "Quando eu era criança, a gente soltava balão na Festa Junina.", en: "When I was a kid, we used to fly paper lanterns at the Festa Junina." },
+          { es: "Quando eu era criança, a gente soltava balão na Festa Junina.", en: "When I was a kid, we used to launch paper fire balloons at the Festa Junina." },
           { es: "No Carnaval passado eu me fantasiei de astronauta.", en: "Last Carnival I dressed up as an astronaut." },
           { es: "No Natal a gente vai fazer amigo secreto.", en: "At Christmas we're going to do a Secret Santa." },
           { es: "O Réveillon foi lindo, mas estava muito cheio.", en: "New Year's Eve was beautiful, but it was very crowded." },
@@ -309,15 +309,15 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
         question: "A colleague asks how your Christmas was. It was great and you ate too much. What do you say?",
         options: ["Foi ótimo! Eu comi demais.", "Era ótimo! Eu comia demais.", "Foi ótimo! Eu como demais.", "Vai ser ótimo! Eu comi demais."],
         correctIndex: 0,
-        explanation: "A finished holiday: \"foi\" and \"comi\".",
+        explanation: "A finished vacation: \"foi\" and \"comi\".",
       },
       {
         type: "listen-choose",
         audio: "Quando eu era criança, a gente soltava balão na Festa Junina.",
         question: "What does it mean?",
-        options: ["When I was a kid, we used to fly paper lanterns at the Festa Junina.", "When I was a kid, we flew a paper lantern once at the Festa Junina.", "Next year we're going to fly paper lanterns at the Festa Junina.", "When I was a kid, we used to sell balloons at the Festa Junina."],
+        options: ["When I was a kid, we used to launch paper fire balloons at the Festa Junina.", "When I was a kid, we launched a paper fire balloon once at the Festa Junina.", "Next year we're going to launch paper fire balloons at the Festa Junina.", "When I was a kid, we used to sell balloons at the Festa Junina."],
         correctIndex: 0,
-        explanation: "\"Soltava\" is the imperfeito: a habit. Paper lanterns are now banned for fire safety.",
+        explanation: "\"Soltava\" is the imperfeito: a habit. Releasing these paper hot-air balloons has been a crime in Brazil since 1998, because they start fires.",
       },
       {
         type: "dictation",
@@ -337,15 +337,15 @@ export const PT_A2_U19_EXTRA: Lesson[] = [
     level: "PT-A2",
     number: 3,
     title: "Extra Practice: Brazil Up Close, Part 3 of 3",
-    summary: "Practise food, football, music and customs: é por quilo?, torcer para, prefiro forró, Dona and Seu.",
+    summary: "Practice food, soccer, music and customs: é por quilo?, torcer para, prefiro forró, Dona and Seu.",
     duration: "12 min",
     optional: true,
     kind: "drill",
     sections: [
       {
-        heading: "Food, football, music and manners",
+        heading: "Food, soccer, music and manners",
         body: [
-          "Food: \"é por quilo?\", \"o PF\", \"me vê uma coxinha\", \"arroz e feijão\", \"está uma delícia\". Football: \"torcer para\" a team (\"para que time você torce?\"), \"ganhar de dois a um\", \"o clássico\". Music: \"prefiro\" + style, compared with \"mais... do que\". Customs: \"Dona\" / \"Seu\" + first name with \"a senhora\" / \"o senhor\", \"aceita um cafezinho?\".",
+          "Food: \"é por quilo?\", \"o PF\", \"me vê uma coxinha\", \"arroz e feijão\", \"está uma delícia\". Soccer: \"torcer para\" a team (\"para que time você torce?\"), \"ganhar de dois a um\", \"o clássico\". Music: \"prefiro\" + style, compared with \"mais... do que\". Customs: \"Dona\" / \"Seu\" + first name with \"a senhora\" / \"o senhor\", \"aceita um cafezinho?\".",
         ],
         examples: [
           { es: "Moço, o almoço aqui é por quilo?", en: "Excuse me, is lunch here by the kilo?" },

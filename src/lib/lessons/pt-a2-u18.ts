@@ -21,7 +21,7 @@ export const PT_A2_U18: Lesson[] = [
         ],
         examples: [
           { es: "No sábado eu acordei tarde e almocei com a minha avó.", en: "On Saturday I woke up late and had lunch with my grandmother." },
-          { es: "A Bia trouxe um bolo e a gente comeu tudo.", en: "Bia brought a cake and we ate the lot." },
+          { es: "A Bia trouxe um bolo e a gente comeu tudo.", en: "Bia brought a cake and we ate it all." },
           { es: "Ontem eu fui ao mercado e vi o Lucas.", en: "Yesterday I went to the market and saw Lucas." },
           { es: "Eles vieram de Fortaleza de ônibus.", en: "They came from Fortaleza by bus." },
           { es: "Fiz o jantar e pus a mesa.", en: "I made dinner and set the table." },
@@ -31,7 +31,7 @@ export const PT_A2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Bia brought a cake and we ate the lot.",
+            source: "Bia brought a cake and we ate it all.",
             answer: "A Bia trouxe um bolo e a gente comeu tudo.",
             altAnswers: ["A Bia trouxe um bolo e nós comemos tudo.", "Bia trouxe um bolo e a gente comeu tudo.", "Bia trouxe um bolo e nós comemos tudo.", "A Bia trouxe um bolo e comemos tudo."],
             explanation: "\"Trouxe\" is the irregular perfeito of \"trazer\". \"A gente\" takes the ele form, \"comeu\".",
@@ -253,7 +253,7 @@ export const PT_A2_U18: Lesson[] = [
           { es: "O ônibus é mais barato do que o táxi.", en: "The bus is cheaper than a taxi." },
           { es: "Curitiba é tão bonita quanto Florianópolis.", en: "Curitiba is as pretty as Florianópolis." },
           { es: "Esse restaurante é melhor que aquele.", en: "This restaurant is better than that one." },
-          { es: "É o bairro mais tranquilo da cidade.", en: "It's the quietest neighbourhood in the city." },
+          { es: "É o bairro mais tranquilo da cidade.", en: "It's the quietest neighborhood in the city." },
           { es: "Vamos tomar um cafezinho rapidinho?", en: "Shall we have a quick coffee?" },
         ],
         checkpoint: [
@@ -269,7 +269,7 @@ export const PT_A2_U18: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "It's [the quietest] neighbourhood [in] the city.",
+            en: "It's [the quietest] neighborhood [in] the city.",
             sentence: "É o bairro ___ cidade.",
             answer: "mais tranquilo da",
             altAnswers: ["mais calmo da", "mais sossegado da"],
@@ -280,7 +280,7 @@ export const PT_A2_U18: Lesson[] = [
       {
         heading: "Vou viajar, viajarei: the future",
         body: [
-          "Everyday plans and predictions use \"ir\" + infinitive: \"Vou viajar em julho\", \"Acho que vai chover\". Timetables use the present: \"O voo sai às seis.\" Time words: \"amanhã\", \"semana que vem\", \"daqui a dois dias\".",
+          "Everyday plans and predictions use \"ir\" + infinitive: \"Vou viajar em julho\", \"Acho que vai chover\". Schedules use the present: \"O voo sai às seis.\" Time words: \"amanhã\", \"semana que vem\", \"daqui a dois dias\".",
           "The written future (\"viajarei\", \"comerá\", \"iremos\") appears in news, contracts and formal emails. Its three irregulars are \"farei\", \"direi\" and \"trarei\".",
         ],
         examples: [
@@ -343,7 +343,7 @@ export const PT_A2_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "My flat is smaller than yours.",
+        source: "My apartment is smaller than yours.",
         answer: "Meu apartamento é menor que o seu.",
         altAnswers: ["Meu apartamento é menor do que o seu.", "O meu apartamento é menor que o seu.", "O meu apartamento é menor do que o seu.", "Meu apê é menor que o seu."],
         explanation: "Smaller is the irregular \"menor\", not \"*mais pequeno\".",
@@ -419,7 +419,7 @@ export const PT_A2_U18: Lesson[] = [
         ],
         examples: [
           { es: "Me passa o sal, por favor?", en: "Pass me the salt, please?" },
-          { es: "Vire à esquerda e siga em frente.", en: "Turn left and go straight on." },
+          { es: "Vire à esquerda e siga em frente.", en: "Turn left and go straight ahead." },
           { es: "Não esquece o guarda-chuva!", en: "Don't forget the umbrella!" },
           { es: "Pode fechar a janela, por favor?", en: "Could you close the window, please?" },
           { es: "Traz o carregador amanhã, tá?", en: "Bring the charger tomorrow, OK?" },
@@ -503,7 +503,7 @@ export const PT_A2_U18: Lesson[] = [
             type: "speak",
             text: "A loja abre de segunda a sábado, das nove às seis.",
             prompt: "Say it in Portuguese: The shop opens Monday to Saturday, from nine to six.",
-            tip: "Seis has the ei sound of English say. The crase in às sounds like a long a.",
+            tip: "Seis has the ei sound of English say. The crase in às is only written: it sounds like as.",
             explanation: "\"De... a\" for days, \"das... às\" for hours.",
           },
         ],
@@ -523,7 +523,7 @@ export const PT_A2_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Turn left and go straight on. (to a stranger)",
+        source: "Turn left and go straight ahead. (to a stranger)",
         answer: "Vire à esquerda e siga em frente.",
         altAnswers: ["Vire à esquerda e siga reto.", "Vire à esquerda e depois siga em frente.", "O senhor vira à esquerda e segue em frente.", "A senhora vira à esquerda e segue em frente."],
         explanation: "The standard \"vire\" and \"siga\" suit a stranger; don't mix them with \"vira\" or \"segue\".",
@@ -653,7 +653,7 @@ export const PT_A2_U18: Lesson[] = [
         heading: "Station 2: fazer, dizer, trazer, pôr",
         body: [
           "\"Fazer\": faço, fiz, fazia, faz / faça. \"Dizer\": digo, disse, dizia, diz / diga. \"Trazer\": trago, trouxe, trazia, traz / traga. \"Pôr\": ponho, pus, punha, põe / ponha.",
-          "The trap is regularising: \"*eu fazi\", \"*ele trazeu\", \"*eu ponhei\". Notice the eu forms: \"faço\", \"digo\", \"trago\", \"ponho\" all feed the standard command (\"faça\", \"diga\", \"traga\", \"ponha\").",
+          "The trap is regularizing: \"*eu fazi\", \"*ele trazeu\", \"*eu ponhei\". Notice the eu forms: \"faço\", \"digo\", \"trago\", \"ponho\" all feed the standard command (\"faça\", \"diga\", \"traga\", \"ponha\").",
         ],
         examples: [
           { es: "Eu sempre faço o almoço, mas ontem a Ana fez.", en: "I always make lunch, but yesterday Ana did." },
@@ -1138,7 +1138,7 @@ export const PT_A2_U18: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "Last year I went to Recife and passed through Maceió.",
         answer: "Ano passado eu fui para Recife e passei por Maceió.",
-        altAnswers: ["No ano passado eu fui para Recife e passei por Maceió.", "Ano passado fui para Recife e passei por Maceió.", "Ano passado eu fui pra Recife e passei por Maceió.", "No ano passado fui para Recife e passei por Maceió.", "Ano passado eu fui a Recife e passei por Maceió."],
+        altAnswers: ["No ano passado eu fui para Recife e passei por Maceió.", "Ano passado fui para Recife e passei por Maceió.", "Ano passado eu fui pra Recife e passei por Maceió.", "No ano passado fui para Recife e passei por Maceió.", "Ano passado eu fui a Recife e passei por Maceió.", "Ano passado eu fui para o Recife e passei por Maceió.", "No ano passado eu fui para o Recife e passei por Maceió."],
         explanation: "\"Para\" for the destination, \"por\" for the place you go through.",
       },
       {
@@ -1676,7 +1676,7 @@ export const PT_A2_U18: Lesson[] = [
         ],
         examples: [
           { es: "Hoje ele pode, mas ontem não pôde.", en: "Today he can, but yesterday he couldn't." },
-          { es: "Passei por aqui para pôr a carta no correio.", en: "I came by here to put the letter in the post." },
+          { es: "Passei por aqui para pôr a carta no correio.", en: "I came by here to put the letter in the mail." },
           { es: "Ela chegou há dois dias.", en: "She arrived two days ago." },
           { es: "Ela chega daqui a dois dias.", en: "She arrives in two days." },
         ],
@@ -1717,7 +1717,7 @@ export const PT_A2_U18: Lesson[] = [
         examples: [
           { es: "Eu vi o Lucas na festa.", en: "I saw Lucas at the party." },
           { es: "Eu vim de Uber.", en: "I came by Uber." },
-          { es: "Ela viu o filme, mas não veio jantar.", en: "She saw the film, but didn't come to dinner." },
+          { es: "Ela viu o filme, mas não veio jantar.", en: "She saw the movie, but didn't come to dinner." },
           { es: "Eu fiz o arroz e ele fez o feijão.", en: "I made the rice and he made the beans." },
         ],
         checkpoint: [
@@ -1725,7 +1725,7 @@ export const PT_A2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "She saw the film, but didn't come to dinner.",
+            source: "She saw the movie, but didn't come to dinner.",
             answer: "Ela viu o filme, mas não veio jantar.",
             altAnswers: ["Ela viu o filme, mas não veio para o jantar.", "Ela viu o filme, mas não veio pro jantar.", "Ela assistiu o filme, mas não veio jantar.", "Ela assistiu ao filme, mas não veio jantar."],
             explanation: "\"Viu\" (ver) and \"veio\" (vir) in the same sentence.",
@@ -1766,7 +1766,7 @@ export const PT_A2_U18: Lesson[] = [
             type: "speak",
             text: "Minha avó e meu avô moravam em Florianópolis.",
             prompt: "Say it in Portuguese: My grandmother and my grandfather lived in Florianópolis.",
-            tip: "Avó: open ó, like the o in English hot. Avô: closed ô, like the o in go.",
+            tip: "Avó: open ó, like the aw in English law. Avô: closed ô, like the o in go.",
             explanation: "The accent tells you how to say it: ó open, ô closed.",
           },
         ],
@@ -1821,7 +1821,7 @@ export const PT_A2_U18: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I came by here to [put] the letter in the post.",
+        en: "I came by here to [put] the letter in the mail.",
         sentence: "Passei por aqui para ___ a carta no correio.",
         answer: "pôr",
         altAnswers: ["colocar"],
@@ -2087,7 +2087,7 @@ export const PT_A2_U18: Lesson[] = [
     level: "PT-A2",
     number: 11,
     title: "Q&A Drill: Meet a New Colleague",
-    summary: "Answer a new colleague's questions in full sentences: where you lived before, how long you've lived here, last weekend, holiday plans and how you get to work.",
+    summary: "Answer a new colleague's questions in full sentences: where you lived before, how long you've lived here, last weekend, vacation plans and how you get to work.",
     duration: "12 min",
     kind: "drill",
     format: "Q&A Drill",
@@ -2132,7 +2132,7 @@ export const PT_A2_U18: Lesson[] = [
           "\"O que você fez no fim de semana?\" Answer with the perfeito: \"Fui ao Parque Ibirapuera e almocei com uns amigos.\" Add a description in the imperfeito: \"Estava cheio, mas fazia um dia lindo.\"",
         ],
         examples: [
-          { es: "O que você fez no fim de semana?", en: "What did you do at the weekend?" },
+          { es: "O que você fez no fim de semana?", en: "What did you do on the weekend?" },
           { es: "Fui ao Ibirapuera e almocei com uns amigos.", en: "I went to Ibirapuera and had lunch with some friends." },
           { es: "Estava cheio, mas fazia um dia lindo.", en: "It was crowded, but it was a beautiful day." },
           { es: "No domingo eu fiquei em casa e vi uma série.", en: "On Sunday I stayed at home and watched a series." },
@@ -2151,20 +2151,20 @@ export const PT_A2_U18: Lesson[] = [
             type: "listen-choose",
             audio: "O que você fez no fim de semana?",
             question: "What does it mean?",
-            options: ["What did you do at the weekend?", "What are you doing at the weekend?", "What do you usually do at weekends?", "What will you do at the weekend?"],
+            options: ["What did you do on the weekend?", "What are you doing on the weekend?", "What do you usually do on weekends?", "What will you do on the weekend?"],
             correctIndex: 0,
             explanation: "\"Fez\" is the perfeito: a question about last weekend.",
           },
         ],
       },
       {
-        heading: "Holidays and getting to work",
+        heading: "Vacations and getting to work",
         body: [
           "\"O que você vai fazer nas férias?\" Answer with \"vou\" + infinitive: \"Vou viajar para o Nordeste.\"",
           "\"Como você vem para o trabalho?\" Answer with \"de\" + transport: \"Venho de metrô.\" Add the route with \"por\" and the time with \"levo\": \"Passo pela Avenida Paulista; levo uns quarenta minutos.\"",
         ],
         examples: [
-          { es: "O que você vai fazer nas férias?", en: "What are you going to do in the holidays?" },
+          { es: "O que você vai fazer nas férias?", en: "What are you going to do on vacation?" },
           { es: "Vou viajar para o Nordeste com a minha família.", en: "I'm going to travel to the Northeast with my family." },
           { es: "Como você vem para o trabalho?", en: "How do you get to work?" },
           { es: "Venho de metrô e passo pela Avenida Paulista.", en: "I come by metro and go along Avenida Paulista." },
@@ -2255,9 +2255,9 @@ export const PT_A2_U18: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: What are you going to do in the holidays?",
+        prompt: "Put the words in order to say: What are you going to do on vacation?",
         words: ["O", "que", "você", "vai", "fazer", "nas", "férias?"],
-        translation: "What are you going to do in the holidays?",
+        translation: "What are you going to do on vacation?",
         explanation: "\"Vai fazer\": the everyday future. \"Nas\" = em + as.",
       },
       {

@@ -109,7 +109,7 @@ export const PT_A1_S01_STORIES: Story[] = [
       },
       {
         question: `What do Lucas and the man talk about?`,
-        options: [`Football, Campinas and work`, `Music and films`, `Their families`, `The weather`],
+        options: [`Soccer, Campinas and work`, `Music and films`, `Their families`, `The weather`],
         correctIndex: 0,
         explanation: `"Os dois tomam café e conversam sobre futebol, sobre Campinas e sobre o trabalho."`,
       },
@@ -125,7 +125,7 @@ export const PT_A1_S01_STORIES: Story[] = [
     slug: "pt-o-gato-do-vizinho",
     level: "PT-A1",
     title: `O gato do vizinho`,
-    subtitle: `Every night a grey cat comes through Mariana's kitchen window in Porto Alegre, and her neighbor upstairs has a mystery of his own.`,
+    subtitle: `Every night a gray cat comes through Mariana's kitchen window in Porto Alegre, and her neighbor upstairs has a mystery of his own.`,
     paragraphs: [
       `Mariana mora sozinha num apartamento pequeno em Porto Alegre. Todas as noites, às dez horas, um gato cinza entra pela janela da cozinha. Ele é grande, bonito e muito calmo.`,
       `Mariana dá comida para o gato, e ele dorme no sofá com ela. Ela chama o gato de Chimarrão, porque ela adora chimarrão. Ela acha que ele não tem casa.`,
@@ -154,7 +154,7 @@ export const PT_A1_S01_STORIES: Story[] = [
       },
       {
         question: `What do the two neighbors do every Saturday now?`,
-        options: [`They drink chimarrão together.`, `They take the cat to the vet.`, `They go to the market.`, `They watch football.`],
+        options: [`They drink chimarrão together.`, `They take the cat to the vet.`, `They go to the market.`, `They watch soccer.`],
         correctIndex: 0,
         explanation: `"Os dois vizinhos tomam chimarrão juntos todo sábado."`,
       },
@@ -246,7 +246,7 @@ export const PT_A1_S01_GLOSSES: Record<string, StoryGloss[]> = {
   ],
   "pt-o-gato-do-vizinho": [
     { es: "sozinho", en: "alone", forms: ["sozinha"] },
-    { es: "cinza", en: "grey", forms: ["cinza"] },
+    { es: "cinza", en: "gray", forms: ["cinza"] },
     { es: "a janela", en: "window", forms: ["janela"] },
     { es: "o chimarrão", en: "chimarrão (hot mate tea, popular in the South)", forms: ["chimarrão"] },
     { es: "o vizinho", en: "neighbor", forms: ["vizinho", "vizinhos"] },

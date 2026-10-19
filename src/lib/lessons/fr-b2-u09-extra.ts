@@ -594,7 +594,7 @@ export const FR_B2_U09_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "'If we'd left earlier, we'd be there by now.'",
+        question: "Which sentence says 'If we'd left earlier, we'd be there by now'?",
         options: ["Si nous étions partis plus tôt, nous serions déjà arrivés.", "Si nous partions plus tôt, nous serions déjà arrivés.", "Si nous serions partis plus tôt, nous serions déjà là.", "Si nous étions partis plus tôt, nous aurions été là."],
         correctIndex: 0,
         explanation: "Being there by now: French often says \"nous serions déjà arrivés\" or \"nous serions déjà là\". The condition is past.",

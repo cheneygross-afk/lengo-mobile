@@ -751,7 +751,7 @@ export const PT_A2_U11: Lesson[] = [
         ],
         examples: [
           { es: "Nós nos encontramos no café toda sexta.", en: "We meet at the café every Friday." },
-          { es: "A gente se encontra na frente do cinema.", en: "We'll meet in front of the cinema." },
+          { es: "A gente se encontra na frente do cinema.", en: "We'll meet in front of the movie theater." },
           { es: "A gente se vê amanhã!", en: "See you tomorrow!" },
           { es: "A gente se fala mais tarde.", en: "Talk to you later." },
           { es: "Nós nos vemos pouco, mas nos falamos por mensagem.", en: "We don't see each other much, but we talk by text." },
@@ -777,7 +777,7 @@ export const PT_A2_U11: Lesson[] = [
           {
             type: "speak",
             text: "A gente se fala mais tarde.",
-            tip: "The final -te in gente sounds like 'tchee': GEN-tchi.",
+            tip: "The final -te in gente sounds like 'tchee': ZHEN-tchi (the g sounds like the s in measure).",
             explanation: "\"A gente se fala\": the everyday Brazilian way to say talk soon.",
           },
         ],
@@ -791,7 +791,7 @@ export const PT_A2_U11: Lesson[] = [
         ],
         examples: [
           { es: "A gente se conheceu numa festa em Recife.", en: "We met at a party in Recife." },
-          { es: "Eles se encontraram por acaso no metrô.", en: "They ran into each other on the metro." },
+          { es: "Eles se encontraram por acaso no metrô.", en: "They ran into each other on the subway." },
           { es: "Vamos nos encontrar na padaria às oito?", en: "Shall we meet at the bakery at eight?" },
           { es: "Os irmãos se ajudam um ao outro.", en: "The brothers help each other." },
           { es: "As duas amigas se entendem muito bem.", en: "The two friends understand each other really well." },
@@ -894,7 +894,7 @@ export const PT_A2_U11: Lesson[] = [
         type: "listen-choose",
         audio: "Eles se encontraram no metrô.",
         question: "What does it mean?",
-        options: ["They ran into each other on the metro.", "They found him on the metro.", "We ran into each other on the metro.", "They're meeting on the metro."],
+        options: ["They ran into each other on the subway.", "They found him on the subway.", "We ran into each other on the subway.", "They're meeting on the subway."],
         correctIndex: 0,
         explanation: "\"Eles se encontraram\": \"se\" with a plural subject means each other, and -aram is the plural perfeito.",
       },
@@ -1156,7 +1156,7 @@ export const PT_A2_U11: Lesson[] = [
     level: "PT-A2",
     number: 6,
     title: "Dialogue Lab: Como É o Seu Dia?",
-    summary: "Follow two colleagues in São Paulo as they compare their days, from waking up and catching the metro to lunch plans and bedtime.",
+    summary: "Follow two colleagues in São Paulo as they compare their days, from waking up and catching the subway to lunch plans and bedtime.",
     duration: "12 min",
     sections: [
       {
@@ -1169,7 +1169,7 @@ export const PT_A2_U11: Lesson[] = [
         examples: [
           { es: "Como é o seu dia?", en: "What's your day like?" },
           { es: "Eu acordo às seis e me arrumo rapidinho.", en: "I wake up at six and get ready really quickly." },
-          { es: "Pego o metrô às seis e meia.", en: "I catch the metro at six thirty." },
+          { es: "Pego o metrô às seis e meia.", en: "I catch the subway at six thirty." },
           { es: "Nossa! Eu me levanto às oito.", en: "Wow! I get up at eight." },
           { es: "Você toma café da manhã em casa?", en: "Do you have breakfast at home?" },
         ],
@@ -1185,10 +1185,10 @@ export const PT_A2_U11: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: I catch the metro at six thirty.",
+            prompt: "Put the words in order to say: I catch the subway at six thirty.",
             words: ["Pego", "o", "metrô", "às", "seis", "e", "meia."],
-            translation: "I catch the metro at six thirty.",
-            explanation: "\"Pegar o metrô\" is the everyday way to say take the metro. \"Às seis e meia\" is at six thirty, with \"às\" for clock times.",
+            translation: "I catch the subway at six thirty.",
+            explanation: "\"Pegar o metrô\" is the everyday way to say take the subway. \"Às seis e meia\" is at six thirty, with \"às\" for clock times.",
           },
         ],
       },
@@ -1202,7 +1202,7 @@ export const PT_A2_U11: Lesson[] = [
           { es: "A que horas você almoça?", en: "What time do you have lunch?" },
           { es: "Eu almoço ao meio-dia.", en: "I have lunch at noon." },
           { es: "A gente se vê no almoço?", en: "Shall we meet up at lunch?" },
-          { es: "Combinado! Te espero na recepção.", en: "Deal! I'll wait for you at reception." },
+          { es: "Combinado! Te espero na recepção.", en: "Deal! I'll wait for you at the front desk." },
           { es: "A gente se fala mais tarde.", en: "We'll talk later." },
         ],
         checkpoint: [
@@ -1343,7 +1343,7 @@ export const PT_A2_U11: Lesson[] = [
         pairs: [
           { left: "Combinado!", right: "Deal!" },
           { left: "A gente se fala.", right: "We'll talk." },
-          { left: "Pego o metrô.", right: "I take the metro." },
+          { left: "Pego o metrô.", right: "I take the subway." },
           { left: "Eu me levanto às oito.", right: "I get up at eight." },
           { left: "Vou me deitar cedo.", right: "I'm going to go to bed early." },
         ],
@@ -2014,9 +2014,9 @@ export const PT_A2_U11: Lesson[] = [
           "Match the pronoun to the person: \"eu me\", \"você se\", \"ele se\", \"nós nos\", but \"a gente se\", because \"a gente\" takes the ele form. \"Nós nos encontramos\" is both present and past, so a time word like \"ontem\" tells you which.",
         ],
         examples: [
-          { es: "Hoje eu me levantei às seis e meia.", en: "I got up at half past six today." },
+          { es: "Hoje eu me levantei às seis e meia.", en: "I got up at six thirty today." },
           { es: "A Beatriz se arrumou rapidinho e saiu.", en: "Beatriz got ready in no time and left." },
-          { es: "Ontem nós nos encontramos na frente do metrô.", en: "Yesterday we met up in front of the metro." },
+          { es: "Ontem nós nos encontramos na frente do metrô.", en: "Yesterday we met up in front of the subway." },
           { es: "A gente se conheceu numa festa em Recife.", en: "We met at a party in Recife." },
           { es: "Você se lembrou de comprar pão?", en: "Did you remember to buy bread?" },
         ],

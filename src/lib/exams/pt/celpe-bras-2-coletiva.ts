@@ -62,8 +62,8 @@ export const CELPE_BRAS_2_COLETIVA: ExamPaper = {
           minWords: 150,
           maxWords: 250,
           rubric: [
-            "\"Adequação ao contexto\": a formal letter from a parent on the parents' association to the head teacher, proposing a discussion rather than demanding a change",
-            "Uses the report: the Curitiba results (absences nearly halved, more attentive pupils, eight in ten families for the new time) and the neurologist's explanation (later body clock, eight to ten hours of sleep)",
+            "\"Adequação ao contexto\": a formal letter from a parent on the parents' association to the principal, proposing a discussion rather than demanding a change",
+            "Uses the report: the Curitiba results (absences nearly halved, more attentive students, eight in ten families for the new time) and the neurologist's explanation (later body clock, eight to ten hours of sleep)",
             "Acknowledges the difficulties the report mentions (school transport, lessons ending later, parents' working hours) and suggests a way forward",
             "\"Adequação discursiva\": a formal greeting, who is writing and why, the arguments, the difficulties, a concrete suggestion and a polite close",
             "\"Adequação linguística\": a formal register (\"Prezada Diretora\", \"a senhora\"), the subjunctive after \"propor que\" / \"sugiro que\", cause and consequence connectors (\"portanto\", \"por isso\", \"já que\")",
@@ -164,8 +164,8 @@ export const CELPE_BRAS_2_COLETIVA: ExamPaper = {
           maxWords: 250,
           rubric: [
             "\"Adequação ao contexto\": an application e-mail to the coordinator, from someone living in Salvador, meant to convince her to choose you",
-            "Answers everything the advert asks for: who you are, why you want to take part, which activity, which days and times",
-            "Shows, point by point, that you meet the requirements in the advert (over 18, four hours a week for six months, the Saturday training course, vaccinations up to date)",
+            "Answers everything the ad asks for: who you are, why you want to take part, which activity, which days and times",
+            "Shows, point by point, that you meet the requirements in the ad (over 18, four hours a week for six months, the Saturday training course, vaccinations up to date)",
             "\"Adequação discursiva\": a subject line, a formal greeting, a clear structure (presentation, motivation, activity, requirements and availability) and a formal close",
             "\"Adequação linguística\": a polite register (\"gostaria de\", \"poderia\"), the past for experience (\"fui voluntária durante três anos\"), accurate vocabulary (\"candidatura\", \"disponibilidade\", \"requisitos\")",
           ],
@@ -207,8 +207,8 @@ export const CELPE_BRAS_2_COLETIVA: ExamPaper = {
           minWords: 150,
           maxWords: 250,
           rubric: [
-            "\"Adequação ao contexto\": an advice-column reply addressed to Juliana and published for all readers: warm, never judgemental, but clear",
-            "Answers both of her questions (is she wrong? what can she do?) with the text's information: the paediatricians' limit for a six-year-old (two hours a day, supervised) and the effects of too much screen time",
+            "\"Adequação ao contexto\": an advice-column reply addressed to Juliana and published for all readers: warm, never judgmental, but clear",
+            "Answers both of her questions (is she wrong? what can she do?) with the text's information: the pediatricians' limit for a six-year-old (two hours a day, supervised) and the effects of too much screen time",
             "Turns the psychologist's advice into concrete steps for Theo (agreed rules and fixed times, no tablet as reward or punishment, alternatives, the parents' example, no screens before bed)",
             "\"Adequação discursiva\": a greeting to the reader, empathy first, the information, the advice in a clear order, an encouraging close and the columnist's signature",
             "\"Adequação linguística\": advice forms (\"experimente\", \"evite\", \"vale a pena\", \"o ideal é\"), \"se\" clauses, the subjunctive after \"recomendar que\", consistent \"você\"",

@@ -90,7 +90,7 @@ export const PT_B1_S05_STORIES: Story[] = [
     slug: "pt-o-saci-da-pousada",
     level: "PT-B1",
     title: `O Saci da pousada`,
-    subtitle: `A sceptical city man on holiday in São Luiz do Paraitinga decides to prove that the strange things happening at his guesthouse have a logical explanation.`,
+    subtitle: `A skeptical city man on vacation in São Luiz do Paraitinga decides to prove that the strange things happening at his guesthouse have a logical explanation.`,
     paragraphs: [
       `Henrique só acreditava no que podia ver. Por isso, quando chegou a São Luiz do Paraitinga, uma cidadezinha histórica no interior de São Paulo, achou graça nas lojas cheias de bonecos do Saci: o menino negro de uma perna só, com gorro vermelho e cachimbo, que gosta de fazer bagunça. “É só folclore para vender lembrancinha”, ele disse para Dona Cida, a dona da pousada. Ela apenas sorriu.`,
       `Na primeira noite, uma meia de Henrique sumiu. Só uma. Na segunda, ele encontrou o açúcar do café da manhã trocado por sal. Na terceira, o seu Zé, que cuidava dos cavalos, apareceu preocupado: alguém tinha feito tranças na crina de todos os animais. “Foi o Saci”, disse Dona Cida, tranquila, enquanto passava café. “Ele sempre faz isso quando chega gente que duvida dele.”`,
@@ -133,9 +133,9 @@ export const PT_B1_S05_STORIES: Story[] = [
     title: `As iniciais no banco`,
     subtitle: `An old man takes his granddaughter on the steam train from Ouro Preto to Mariana, looking for something he left at the station sixty years ago.`,
     paragraphs: [
-      `Seu Geraldo tinha oitenta e dois anos e um pedido especial para o aniversário: queria andar de novo no trem de Ouro Preto a Mariana. Sua neta Júlia, que morava em Belo Horizonte, achou a ideia um pouco estranha, mas reservou duas passagens na maria-fumaça, o velho trem a vapor que hoje leva turistas entre as duas cidades históricas de Minas Gerais.`,
+      `Seu Geraldo tinha oitenta e dois anos e um pedido especial para o aniversário: queria andar de novo no trem de Ouro Preto a Mariana. Sua neta Júlia, que morava em Belo Horizonte, achou a ideia um pouco estranha, mas reservou duas passagens na maria-fumaça, o velho trem a vapor que faz o passeio turístico entre as duas cidades históricas de Minas Gerais.`,
       `No vagão, enquanto o trem apitava e soltava fumaça branca, o avô olhava pela janela como uma criança. Ele explicou para Júlia que aquelas montanhas tinham sido o centro do Brasil no tempo do ouro, há trezentos anos. “Muito ouro saiu daqui para Portugal”, disse. “Mas o que eu achei de mais precioso nesta linha não foi ouro.”`,
-      `Então ele contou a história. Em 1962, quando tinha vinte anos, trabalhava como ajudante na estação de Mariana. Um dia, uma moça desceu do trem com uma mala pesada e perguntou onde ficava a igreja de São Francisco. Ele carregou a mala até a porta da igreja, depois até a casa da tia dela, e depois, durante quarenta e oito anos, carregou tudo o que ela precisou. Era Lourdes, a avó de Júlia, que tinha morrido havia cinco anos.`,
+      `Então ele contou a história. Em 1962, quando tinha vinte anos, trabalhava como ajudante na estação de Mariana. Um dia, uma moça desceu do trem com uma mala pesada e perguntou onde ficava a igreja de São Francisco. Ele carregou a mala até a porta da igreja, depois até a casa da tia dela, e depois, durante cinquenta e sete anos, carregou tudo o que ela precisou. Era Lourdes, a avó de Júlia, que tinha morrido havia cinco anos.`,
       `“Naquela semana”, continuou ele, “eu escrevi com um canivete G e L no banco de madeira da estação. Quero ver se ainda está lá.” Júlia sentiu um aperto no coração, porque sabia que a estação tinha sido reformada e que o banco provavelmente não estava mais lá.`,
       `Quando chegaram a Mariana, o medo dela se confirmou. A estação estava linda, pintada de amarelo, mas os bancos eram novos, de metal. Seu Geraldo passou a mão em cada um deles, devagar, e não disse nada. Júlia nunca tinha visto o avô tão calado.`,
       `Foi então que um funcionário da estação, um rapaz de uniforme, se aproximou e perguntou se podia ajudar. Júlia explicou a história em voz baixa. O rapaz arregalou os olhos. “Os bancos antigos não foram jogados fora”, disse. “Foram levados para a salinha do museu, ali no fundo. Querem que eu abra para vocês?”`,
@@ -151,13 +151,13 @@ export const PT_B1_S05_STORIES: Story[] = [
       },
       {
         question: `How did seu Geraldo meet Lourdes?`,
-        options: [`He carried her heavy suitcase from the station`, `They worked together at the church`, `They sat next to each other on the train`, `She was his aunt's neighbour`],
+        options: [`He carried her heavy suitcase from the station`, `They worked together at the church`, `They sat next to each other on the train`, `She was his aunt's neighbor`],
         correctIndex: 0,
         explanation: `She got off the train "com uma mala pesada" and "ele carregou a mala até a porta da igreja".`,
       },
       {
         question: `Why did Júlia feel worried before they arrived?`,
-        options: [`The train was very old.`, `She knew the station had been renovated, so the bench might not exist.`, `Her grandfather was ill.`, `They had no tickets for the return.`],
+        options: [`The train was very old.`, `She knew the station had been renovated, so the bench might not exist.`, `Her grandfather was sick.`, `They had no tickets for the return.`],
         correctIndex: 1,
         explanation: `Júlia "sabia que a estação tinha sido reformada e que o banco provavelmente não estava mais lá".`,
       },
@@ -187,7 +187,7 @@ export const PT_B1_S05_STORIES: Story[] = [
     questions: [
       {
         question: `Why did Renata write the letter as a child?`,
-        options: [`Her school asked her to.`, `She wanted a pen friend abroad.`, `Her father, a fisherman, had been lost at sea and she wanted the sea to give something back.`, `She was learning to write.`],
+        options: [`Her school asked her to.`, `She wanted a pen pal abroad.`, `Her father, a fisherman, had been lost at sea and she wanted the sea to give something back.`, `She was learning to write.`],
         correctIndex: 2,
         explanation: `She wrote: "Meu pai era pescador e o mar levou ele no ano passado. Eu quero que o mar me devolva alguma coisa".`,
       },
@@ -249,7 +249,7 @@ export const PT_B1_S05_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "a bagunça", en: "mess, mischief", forms: ["bagunça"] },
     { es: "a lembrancinha", en: "little souvenir", forms: ["lembrancinha"] },
     { es: "sumir", en: "to disappear, go missing", forms: ["sumiu"] },
-    { es: "a trança", en: "braid, plait", forms: ["tranças"] },
+    { es: "a trança", en: "braid", forms: ["tranças"] },
     { es: "a crina", en: "mane (of a horse)", forms: ["crina"] },
     { es: "a isca", en: "bait", forms: ["isca"] },
     { es: "a mangueira", en: "mango tree", forms: ["mangueira"] },
@@ -258,7 +258,7 @@ export const PT_B1_S05_GLOSSES: Record<string, StoryGloss[]> = {
   ],
   "pt-as-iniciais-no-banco": [
     { es: "a maria-fumaça", en: "steam train (informal)", forms: ["maria-fumaça"] },
-    { es: "o vagão", en: "railway carriage", forms: ["vagão"] },
+    { es: "o vagão", en: "railroad car", forms: ["vagão"] },
     { es: "apitar", en: "to whistle, toot", forms: ["apitava"] },
     { es: "o ajudante", en: "assistant, helper", forms: ["ajudante"] },
     { es: "o canivete", en: "penknife", forms: ["canivete"] },

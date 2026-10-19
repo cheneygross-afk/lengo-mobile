@@ -154,7 +154,7 @@ export const PT_C2_U18_EXTRA: Lesson[] = [
           "O estudo admite que 30% dos jovens estão desempregados.",
         ],
         correctIndex: 0,
-        explanation: "Only \"afirma\" adds no judgement. \"Admite\" would imply a reluctant concession.",
+        explanation: "Only \"afirma\" adds no judgment. \"Admite\" would imply a reluctant concession.",
       },
       {
         type: "matching",
@@ -195,7 +195,7 @@ export const PT_C2_U18_EXTRA: Lesson[] = [
       {
         heading: "Notes and condensing in brief",
         body: [
-          "Notes use \"p/\", \"c/\", \"s/\", \"q\", \"tb\", \"pq\", \"obs.\" and arrows, and run on nouns: \"aumento\", \"queda\", \"adiamento\", \"redução\". Condensing deletes framing (\"vale ressaltar que\"), examples and repetition, nominalises clauses (\"a demora do governo\") and reduces them (\"os dados coletados\", \"ao chegar\", \"concluída a obra\"). Expand everything back into full prose when the notes become a text.",
+          "Notes use \"p/\", \"c/\", \"s/\", \"q\", \"tb\", \"pq\", \"obs.\" and arrows, and run on nouns: \"aumento\", \"queda\", \"adiamento\", \"redução\". Condensing deletes framing (\"vale ressaltar que\"), examples and repetition, nominalizes clauses (\"a demora do governo\") and reduces them (\"os dados coletados\", \"ao chegar\", \"concluída a obra\"). Expand everything back into full prose when the notes become a text.",
         ],
         examples: [
           { es: "Show adiado p/ dezembro, s/ data definida.", en: "Show postponed to December, with no set date." },
@@ -293,7 +293,7 @@ export const PT_C2_U18_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, with \"ao\" + infinitive.",
-        source: "On taking office, the mayor cancelled the contract.",
+        source: "On taking office, the mayor canceled the contract.",
         answer: "Ao assumir, o prefeito cancelou o contrato.",
         altAnswers: ["Ao tomar posse, o prefeito cancelou o contrato.", "Ao assumir o cargo, o prefeito cancelou o contrato.", "Ao assumir, a prefeita cancelou o contrato.", "Ao tomar posse, a prefeita cancelou o contrato."],
         explanation: "\"Ao\" + infinitive replaces \"quando assumiu\". \"Tomar posse\" is the formal phrase for taking office.",
@@ -320,7 +320,7 @@ export const PT_C2_U18_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: The cut in interest rates boosted credit.",
         words: ["A", "redução", "dos", "juros", "estimulou", "o", "crédito."],
         translation: "The cut in interest rates boosted credit.",
-        explanation: "A nominalised subject and one strong verb.",
+        explanation: "A nominalized subject and one strong verb.",
       },
       {
         type: "multiple-choice",
@@ -373,7 +373,7 @@ export const PT_C2_U18_EXTRA: Lesson[] = [
       {
         heading: "Comparing and combining in brief",
         body: [
-          "Contrast with \"enquanto\", \"ao passo que\" (never \"*ao passo em que\"), clause-initial \"já\", \"em contrapartida\" and \"diferentemente de\". Show agreement with \"ambos os\" / \"ambas as\", \"tanto X quanto Y\" + plural verb, \"convergem quanto a\"; disagreement with \"divergem quanto a\", \"discordam sobre\", \"não há consenso sobre\". Organise by issue (\"quanto a\", \"no que diz respeito a\") and sign your own view (\"a nosso ver\").",
+          "Contrast with \"enquanto\", \"ao passo que\" (never \"*ao passo em que\"), clause-initial \"já\", \"em contrapartida\" and \"diferentemente de\". Show agreement with \"ambos os\" / \"ambas as\", \"tanto X quanto Y\" + plural verb, \"convergem quanto a\"; disagreement with \"divergem quanto a\", \"discordam sobre\", \"não há consenso sobre\". Organize by issue (\"quanto a\", \"no que diz respeito a\") and sign your own view (\"a nosso ver\").",
         ],
         examples: [
           { es: "Enquanto o Banco Central vê inflação, o mercado vê recessão.", en: "While the Central Bank sees inflation, the market sees recession." },
@@ -489,7 +489,7 @@ export const PT_C2_U18_EXTRA: Lesson[] = [
         sentence: "___ aos riscos, os relatórios convergem.",
         answer: "Quanto",
         altAnswers: ["No que diz respeito", "Em relação"],
-        explanation: "\"Quanto aos riscos\" opens a paragraph organised by issue.",
+        explanation: "\"Quanto aos riscos\" opens a paragraph organized by issue.",
       },
       {
         type: "word-order",
@@ -512,7 +512,7 @@ export const PT_C2_U18_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You have three sources on one policy. How should the synthesis be organised?",
+        question: "You have three sources on one policy. How should the synthesis be organized?",
         options: [
           "One paragraph per issue, comparing the sources in each.",
           "One paragraph per source, in the order you read them.",
@@ -520,7 +520,7 @@ export const PT_C2_U18_EXTRA: Lesson[] = [
           "Quotations from each source, without comment.",
         ],
         correctIndex: 0,
-        explanation: "A synthesis is organised by theme; per-source paragraphs are three resumos stapled together.",
+        explanation: "A synthesis is organized by theme; per-source paragraphs are three resumos stapled together.",
       },
       {
         type: "listen-choose",

@@ -38,7 +38,7 @@ export const PT_A1_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A friend points at something in a furniture shop and asks what it is. How do you say: It's a table.",
+            question: "A friend points at something in a furniture store and asks what it is. How do you say: It's a table.",
             options: ["É uma mesa.", "É um mesa.", "É o mesa.", "É a mesa."],
             correctIndex: 0,
             explanation: "\"Mesa\" is feminine, so a table is \"uma mesa\". \"É a mesa\" is correct Portuguese but means it's the table.",
@@ -98,7 +98,7 @@ export const PT_A1_U03: Lesson[] = [
         heading: "The exceptions to learn by heart",
         body: [
           "A few everyday words break the pattern. Many nouns in -ma come from Greek and are masculine: \"o problema\", \"o sistema\", \"o programa\". \"O dia\" and \"o mapa\" are masculine too, which is why it's \"bom dia\", never \"boa dia\".",
-          "Going the other way, \"a foto\" and \"a moto\" are feminine because they're short for \"a fotografia\" and \"a motocicleta\". Nouns in -ão that aren't -ção are usually masculine (\"o pão\", \"o avião\"), but \"a mão\" (the hand) is feminine.",
+          "Going the other way, \"a foto\" and \"a moto\" are feminine because they're short for \"a fotografia\" and \"a motocicleta\". Many other -ão nouns are masculine (\"o pão\", \"o avião\"), but not all: \"a mão\" (the hand) and \"a televisão\" are feminine.",
         ],
         examples: [
           { es: "Bom dia, seu Antônio!", en: "Good morning, Mr. Antônio!" },
@@ -126,9 +126,9 @@ export const PT_A1_U03: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: It's a Japanese motorbike.",
+            prompt: "Put the words in order to say: It's a Japanese motorcycle.",
             words: ["É", "uma", "moto", "japonesa."],
-            translation: "It's a Japanese motorbike.",
+            translation: "It's a Japanese motorcycle.",
             explanation: "\"Moto\" is short for \"motocicleta\", so it's feminine: \"uma moto japonesa\".",
           },
         ],
@@ -177,7 +177,7 @@ export const PT_A1_U03: Lesson[] = [
         source: "It's a cool idea.",
         answer: "É uma ideia legal.",
         altAnswers: ["É uma ideia bacana."],
-        explanation: "\"Ideia\" ends in -a and is feminine: \"uma ideia\". In Brazil it's spelt without an accent.",
+        explanation: "\"Ideia\" ends in -a and is feminine: \"uma ideia\". Since the 2009 spelling reform it's written without an accent.",
       },
       {
         type: "fill-blank",
@@ -231,7 +231,7 @@ export const PT_A1_U03: Lesson[] = [
         type: "speak",
         text: "Boa noite, Dona Maria.",
         prompt: "Say it in Portuguese: Good evening, Dona Maria.",
-        tip: "The t in noite sounds like the ch in cheese: \"noitchi\".",
+        tip: "The t in noite sounds like the ch in cheese: 'NOY-chee'.",
         explanation: "\"Noite\" is feminine, so it's \"boa noite\", while \"dia\" is masculine: \"bom dia\".",
       },
     ],
@@ -508,7 +508,7 @@ export const PT_A1_U03: Lesson[] = [
       {
         heading: "One form for both genders, and mixed groups",
         body: [
-          "Adjectives ending in -e, -l or -z have one form for both genders: \"um homem feliz\", \"uma mulher feliz\", \"um livro grande\", \"uma casa grande\". They only change in the plural, with the same endings as nouns: \"grandes\", \"felizes\", \"legais\".",
+          "Most adjectives ending in -e, -l or -z have one form for both genders: \"um homem feliz\", \"uma mulher feliz\", \"um livro grande\", \"uma casa grande\". They only change in the plural, with the same endings as nouns: \"grandes\", \"felizes\", \"legais\".",
           "For a mix of masculine and feminine nouns, or a group of men and women, use the masculine plural: \"o pai e a mãe são altos\". It's the same rule that makes a mixed group \"eles\".",
         ],
         examples: [
@@ -579,7 +579,7 @@ export const PT_A1_U03: Lesson[] = [
           {
             type: "speak",
             text: "É uma boa ideia.",
-            tip: "The o in boa is closed, like the o in 'go'. Stress ideia on the middle: i-DEI-a.",
+            tip: "The o in boa is closed, like the o in 'go'. Stress ideia on the middle, with an open é: i-DÉI-a.",
             explanation: "\"Boa\" is the feminine of \"bom\" and goes before \"ideia\", a feminine noun.",
           },
         ],
@@ -600,7 +600,7 @@ export const PT_A1_U03: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "The white houses are pretty.",
         answer: "As casas brancas são bonitas.",
-        explanation: "Every word agrees with \"casas\", feminine plural: \"as\", \"brancas\", \"bonitas\". The colour goes after the noun.",
+        explanation: "Every word agrees with \"casas\", feminine plural: \"as\", \"brancas\", \"bonitas\". The color goes after the noun.",
       },
       {
         type: "translate",
@@ -639,7 +639,7 @@ export const PT_A1_U03: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The car and the motorbike are [new].",
+        en: "The car and the motorcycle are [new].",
         sentence: "O carro e a moto são ___.",
         answer: "novos",
         explanation: "A masculine noun and a feminine noun together take the masculine plural: \"novos\".",
@@ -672,7 +672,7 @@ export const PT_A1_U03: Lesson[] = [
         type: "speak",
         text: "Curitiba é uma cidade grande.",
         prompt: "Say it in Portuguese: Curitiba is a big city.",
-        tip: "The d in cidade sounds like the j in 'jeans', and the final e is an i: ci-DA-dji.",
+        tip: "The d in cidade sounds like the j in 'jeans', and the final e is an i: 'see-DAH-jee'.",
         explanation: "After the noun, \"grande\" means big. It's the same for masculine and feminine nouns.",
       },
       {
@@ -789,7 +789,7 @@ export const PT_A1_U03: Lesson[] = [
         heading: "Where you are: em casa, no trabalho",
         body: [
           "\"Estar\" also says where someone is right now: \"estou em casa\" (I'm at home), \"ela está em Recife\". \"Em\" covers in, at and on.",
-          "Learn \"no trabalho\" (at work), \"na escola\" (at school) and \"na praia\" (at the beach) as chunks. \"No\" and \"na\" are \"em\" joined to the article; Unit 7 explains how. Most cities take plain \"em\": \"em São Paulo\".",
+          "Learn \"no trabalho\" (at work), \"na escola\" (at school) and \"na praia\" (at the beach) as chunks. \"No\" and \"na\" are \"em\" joined to the article; Unit 10 explains how. Most cities take plain \"em\": \"em São Paulo\".",
         ],
         examples: [
           { es: "Estou em casa.", en: "I'm at home." },
@@ -1130,7 +1130,7 @@ export const PT_A1_U03: Lesson[] = [
         type: "speak",
         text: "Onde está o banco?",
         prompt: "Say it in Portuguese: Where's the bank?",
-        tip: "The d in onde sounds like j before the final e, which is said as i: ON-dji.",
+        tip: "The d in onde sounds like j before the final e, which is said as i: 'ON-jee'.",
         explanation: "\"Onde está o banco?\": where comes first, then the verb, then the thing.",
       },
       {
@@ -1359,7 +1359,7 @@ export const PT_A1_U03: Lesson[] = [
         type: "speak",
         text: "Eu sou de Recife, mas estou em Curitiba.",
         prompt: "Say it in Portuguese: I'm from Recife, but I'm in Curitiba.",
-        tip: "In \"de\" the final e sounds like i, and the d before it comes out like the j in jeans: \"dji\".",
+        tip: "In \"de\" the final e sounds like i, and the d before it comes out like the j in jeans: 'jee'.",
         explanation: "\"Sou de\" for origin, \"estou em\" for where you are now.",
       },
       {
@@ -1495,7 +1495,7 @@ export const PT_A1_U03: Lesson[] = [
           {
             type: "speak",
             text: "O Rafael é de Recife, mas está em Curitiba.",
-            tip: "In most of Brazil \"de\" sounds like 'dji', and the final e of \"Recife\" sounds like an i.",
+            tip: "In most of Brazil \"de\" sounds like 'jee', and the final e of \"Recife\" sounds like an i.",
             explanation: "Origin takes \"ser de\". Where he is now takes \"estar em\". Both verbs fit in one sentence.",
           },
         ],
@@ -1609,17 +1609,17 @@ export const PT_A1_U03: Lesson[] = [
     level: "PT-A1",
     number: 8,
     title: "Spiral Review: Describing People and Places",
-    summary: "Describe a flat, a city and your friends, using articles, agreement, ser and estar together.",
+    summary: "Describe an apartment, a city and your friends, using articles, agreement, ser and estar together.",
     duration: "12 min",
     sections: [
       {
-        heading: "The flat: article, noun, adjective",
+        heading: "The apartment: article, noun, adjective",
         body: [
           "Every noun brings its article, and the adjective after it copies the noun's gender and number: \"o quarto pequeno\", \"a cozinha pequena\", \"os quartos pequenos\". Adjectives ending in -e or a consonant, like \"grande\" and \"legal\", change only for the plural: \"as salas grandes\".",
-          "Watch the exceptions from earlier in the unit: \"o problema\", \"o mapa\", \"a foto\". Then choose the verb. \"Ser\" says what the flat is like for good (\"o apartamento é novo\"). \"Estar\" says how it is today or where something is (\"a cozinha está suja\", \"a chave está na mesa\").",
+          "Watch the exceptions from earlier in the unit: \"o problema\", \"o mapa\", \"a foto\". Then choose the verb. \"Ser\" says what the apartment is like for good (\"o apartamento é novo\"). \"Estar\" says how it is today or where something is (\"a cozinha está suja\", \"a chave está na mesa\").",
         ],
         examples: [
-          { es: "O apartamento é pequeno, mas é bonito.", en: "The flat is small, but it's pretty." },
+          { es: "O apartamento é pequeno, mas é bonito.", en: "The apartment is small, but it's pretty." },
           { es: "A cozinha é nova.", en: "The kitchen is new." },
           { es: "Os quartos são grandes.", en: "The bedrooms are big." },
           { es: "As janelas estão abertas.", en: "The windows are open." },
@@ -1726,7 +1726,7 @@ export const PT_A1_U03: Lesson[] = [
           {
             type: "speak",
             text: "A Beatriz é médica e é de Recife.",
-            tip: "Open é in médica, and de sounds like dji in most of Brazil.",
+            tip: "Open é in médica, and \"de\" sounds like 'jee' in most of Brazil.",
             explanation: "Job and origin both take \"ser\", and there's no article before \"médica\".",
           },
         ],
@@ -1737,7 +1737,7 @@ export const PT_A1_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The flat is small but pretty.",
+        source: "The apartment is small but pretty.",
         answer: "O apartamento é pequeno, mas bonito.",
         altAnswers: ["O apartamento é pequeno, mas é bonito."],
         explanation: "\"Apartamento\" is masculine, so it takes \"pequeno\" and \"bonito\". A lasting description takes \"ser\".",

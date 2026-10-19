@@ -37,7 +37,7 @@ export const PT_B2_U11: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A friend asks about your trip to Salvador. The flight was cancelled and it rained every day. What do you say?",
+            question: "A friend asks about your trip to Salvador. The flight was canceled and it rained every day. What do you say?",
             options: ["Deu tudo errado.", "Funcionou tudo errado.", "Fiz tudo errado.", "Deu tudo certo."],
             correctIndex: 0,
             explanation: "\"Deu tudo errado\" means everything went wrong. \"Funcionar\" is for machines, and \"fiz tudo errado\" means you yourself did everything wrong.",
@@ -47,7 +47,7 @@ export const PT_B2_U11: Lesson[] = [
       {
         heading: "Dar um jeito and não dá",
         body: [
-          "\"Dar um jeito\" is to find a way round an obstacle, usually by improvising: \"vou dar um jeito\" (I'll sort it out). With \"em\" it means to fix or tidy something: \"dar um jeito no quarto\". It's the same \"jeito\" as in the \"jeitinho brasileiro\" from the last unit.",
+          "\"Dar um jeito\" is to find a way around an obstacle, usually by improvising: \"vou dar um jeito\" (I'll sort it out). With \"em\" it means to fix or tidy something: \"dar um jeito no quarto\". It's the same \"jeito\" as in the \"jeitinho brasileiro\" from the last unit.",
           "With no subject, \"dar\" means to be possible: \"dá para ir a pé\" (you can walk it), \"não dá\" (it's not possible, I can't). \"Não dá\" is the everyday way to say no without a long excuse. \"Dá tempo\" means there's time, and the past \"não deu\" means it didn't work out. In speech \"dá para\" becomes \"dá pra\".",
         ],
         examples: [
@@ -303,13 +303,13 @@ export const PT_B2_U11: Lesson[] = [
         heading: "Pegar mal and pegar no pé",
         body: [
           "\"Pegar mal\" means to look bad or go down badly, socially. The subject is the action, often an infinitive: \"pega mal chegar atrasado\". The opposite is \"pegar bem\", and \"fica feio\" is a common synonym of \"pega mal\".",
-          "\"Pegar no pé de alguém\" is to nag or pick on someone. The person goes in as a possessive: \"pegar no meu pé\", \"no pé dela\". \"Viver\" + gerund turns it into a constant complaint: \"minha mãe vive pegando no meu pé\" (my mum is always on my case).",
+          "\"Pegar no pé de alguém\" is to nag or pick on someone. The person goes in as a possessive: \"pegar no meu pé\", \"no pé dela\". \"Viver\" + gerund turns it into a constant complaint: \"minha mãe vive pegando no meu pé\" (my mom is always on my case).",
         ],
         examples: [
           { es: "Pega mal chegar atrasado numa entrevista de emprego.", en: "It looks bad to arrive late to a job interview." },
           { es: "O comentário dele pegou muito mal na reunião.", en: "His comment went down really badly in the meeting." },
           { es: "Mandar uma mensagem de agradecimento sempre pega bem.", en: "Sending a thank-you message always goes down well." },
-          { es: "Minha mãe vive pegando no meu pé por causa da faculdade.", en: "My mum is always on my case about university." },
+          { es: "Minha mãe vive pegando no meu pé por causa da faculdade.", en: "My mom is always on my case about university." },
           { es: "Para de pegar no pé do seu irmão!", en: "Stop picking on your brother!" },
         ],
         checkpoint: [
@@ -324,7 +324,7 @@ export const PT_B2_U11: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A colleague says the boss criticises her for every little thing. What does she say?",
+            question: "A colleague says the boss criticizes her for every little thing. What does she say?",
             options: ["O chefe vive pegando no meu pé.", "O chefe vive pegando mal comigo.", "O chefe vive me levando a sério.", "O chefe vive me fazendo falta."],
             correctIndex: 0,
             explanation: "\"Pegar no pé de alguém\" is to nag or pick on, and \"vive pegando\" makes it constant. \"Pegar mal\" describes an action that looks bad, not a person who nags.",
@@ -476,7 +476,7 @@ export const PT_B2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You're about to criticise a friend's plan and don't want to offend her. How do you start?",
+        question: "You're about to criticize a friend's plan and don't want to offend her. How do you start?",
         options: ["Não leve a mal, mas...", "Não leve a sério, mas...", "Não pegue mal, mas...", "Não faça falta, mas..."],
         correctIndex: 0,
         explanation: "\"Levar a mal\" is to take something the wrong way. \"Não leve a sério\" would tell her to ignore what you're about to say.",
@@ -535,7 +535,7 @@ export const PT_B2_U11: Lesson[] = [
             en: "In the essay I [padded it out] to reach thirty lines.",
             sentence: "Na redação, eu ___ para chegar a trinta linhas.",
             answer: "enchi linguiça",
-            explanation: "\"Encher linguiça\" is to fill space with nothing new. The idiom takes no object, so you don't add \"a\" or \"-a\": just \"enchi linguiça\".",
+            explanation: "\"Encher linguiça\" is to fill space with nothing new. The idiom takes no object and no article: just \"enchi linguiça\".",
           },
         ],
       },
@@ -547,7 +547,7 @@ export const PT_B2_U11: Lesson[] = [
         ],
         examples: [
           { es: "Depois de dez anos no banco, ela chutou o balde e abriu uma pousada em Paraty.", en: "After ten years at the bank, she said to hell with it and opened a guesthouse in Paraty." },
-          { es: "Eu estava de dieta, mas no aniversário da minha mãe chutei o balde e comi três pedaços de bolo.", en: "I was on a diet, but at my mum's birthday I gave up and ate three slices of cake." },
+          { es: "Eu estava de dieta, mas no aniversário da minha mãe chutei o balde e comi três pedaços de bolo.", en: "I was on a diet, but at my mom's birthday I gave up and ate three slices of cake." },
           { es: "Se o chefe gritar comigo de novo, eu chuto o balde.", en: "If the boss yells at me again, I'm quitting." },
           { es: "Enfiei o pé na jaca no Carnaval e agora estou sem dinheiro.", en: "I went overboard at Carnival and now I'm broke." },
           { es: "No casamento da minha prima, o tio Lucas enfiou o pé na jaca e dançou até as cinco da manhã.", en: "At my cousin's wedding, Uncle Lucas went all out and danced until five in the morning." },
@@ -584,11 +584,11 @@ export const PT_B2_U11: Lesson[] = [
       {
         heading: "Quebrar o galho, and when to keep idioms out",
         body: [
-          "\"Quebrar o galho\" (break the branch) means to get someone out of a tight spot, or to make do with an improvised fix. \"Me quebra um galho?\" is the friendly way to ask a favour. A \"quebra-galho\" is the stopgap itself, or the person everyone turns to.",
+          "\"Quebrar o galho\" (break the branch) means to get someone out of a tight spot, or to make do with an improvised fix. \"Me quebra um galho?\" is the friendly way to ask a favor. A \"quebra-galho\" is the stopgap itself, or the person everyone turns to.",
           "All five idioms are informal: perfect in conversation, messages and a relaxed meeting, but wrong in a work email or a redação. There, use the plain verbs \"passar vergonha\", \"desistir\", \"exagerar\" and \"ajudar\", or say a text \"é repetitivo\".",
         ],
         examples: [
-          { es: "Você pode me quebrar um galho e ficar com o meu cachorro no sábado?", en: "Could you do me a favour and look after my dog on Saturday?" },
+          { es: "Você pode me quebrar um galho e ficar com o meu cachorro no sábado?", en: "Could you do me a favor and look after my dog on Saturday?" },
           { es: "Não tenho chave de fenda, mas essa faca quebra o galho.", en: "I don't have a screwdriver, but this knife will do." },
           { es: "O seu Antônio é o quebra-galho do prédio: conserta tudo.", en: "Seu Antônio is the building's fix-it man: he repairs everything." },
           { es: "Valeu por quebrar o galho ontem, você me salvou!", en: "Thanks for helping me out yesterday, you saved me!" },
@@ -602,7 +602,7 @@ export const PT_B2_U11: Lesson[] = [
             source: "Can you help me out? (use quebrar o galho)",
             answer: "Você pode me quebrar um galho?",
             altAnswers: ["Pode me quebrar um galho?", "Você me quebra um galho?", "Me quebra um galho?", "Você pode quebrar um galho para mim?", "Você pode quebrar um galho pra mim?", "O senhor pode me quebrar um galho?", "A senhora pode me quebrar um galho?"],
-            explanation: "When you ask for the favour, Brazilians usually say \"um galho\" with \"me\" before the verb: \"me quebra um galho?\".",
+            explanation: "When you ask for the favor, Brazilians usually say \"um galho\" with \"me\" before the verb: \"me quebra um galho?\".",
           },
           {
             type: "multiple-choice",
@@ -687,7 +687,7 @@ export const PT_B2_U11: Lesson[] = [
         type: "listen-choose",
         audio: "Que mico, gente! Eu chamei a professora de mãe.",
         question: "What does it mean?",
-        options: ["How embarrassing, guys! I called the teacher Mum.", "What a monkey, guys! I called the teacher's mum.", "How annoying, guys! The teacher called my mum.", "How funny, guys! My mum called the teacher."],
+        options: ["How embarrassing, guys! I called the teacher Mom.", "What a monkey, guys! I called the teacher's mom.", "How annoying, guys! The teacher called my mom.", "How funny, guys! My mom called the teacher."],
         correctIndex: 0,
         explanation: "\"Que mico!\" means how embarrassing. \"Chamar alguém de\" is to call someone something.",
       },
@@ -701,7 +701,7 @@ export const PT_B2_U11: Lesson[] = [
         text: "Você pode me quebrar um galho? Esqueci meu carregador.",
         prompt: "Say it in Portuguese: Can you help me out? I forgot my charger.",
         tip: "In \"galho\" the lh is like the lli in million, with no separate l. The r after b in \"quebrar\" is a quick tap, and its final r is soft or dropped; the rr in \"carregador\" is an h-like sound.",
-        explanation: "\"Me quebra um galho\" or \"você pode me quebrar um galho\" is the friendly way to ask for a favour.",
+        explanation: "\"Me quebra um galho\" or \"você pode me quebrar um galho\" is the friendly way to ask for a favor.",
       },
       {
         type: "matching",
@@ -817,7 +817,7 @@ export const PT_B2_U11: Lesson[] = [
           "All five idioms are informal but not rude. They're right with friends, with colleagues and in a crônica, and wrong in a complaint letter or a report. Only the verb changes; every other word is frozen. \"Os olhos do rosto\" or \"o cavalo da chuva\" sounds wrong to any Brazilian.",
         ],
         examples: [
-          { es: "A minha vizinha fala pelos cotovelos no elevador.", en: "My neighbour talks my ear off in the lift." },
+          { es: "A minha vizinha fala pelos cotovelos no elevador.", en: "My neighbor talks my ear off in the elevator." },
           { es: "Quando eu era criança, falava pelos cotovelos.", en: "When I was a child, I talked nonstop." },
           { es: "O guia falou pelos cotovelos a viagem inteira.", en: "The guide talked nonstop the whole trip." },
           { es: "Desculpa, hoje eu estou falando pelos cotovelos!", en: "Sorry, I'm talking way too much today!" },
@@ -828,7 +828,7 @@ export const PT_B2_U11: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "My neighbour talks nonstop.",
+            source: "My neighbor talks nonstop.",
             answer: "Minha vizinha fala pelos cotovelos.",
             altAnswers: ["A minha vizinha fala pelos cotovelos.", "Meu vizinho fala pelos cotovelos.", "O meu vizinho fala pelos cotovelos."],
             explanation: "A habit, so the present \"fala\". \"Pelos\" is por + os, and the idiom always keeps the plural \"cotovelos\".",
@@ -982,7 +982,7 @@ export const PT_B2_U11: Lesson[] = [
             question: "Your friend texts: \"Pedi aumento e o chefe nem deu bola.\" What happened?",
             options: ["The boss paid no attention to the request.", "The boss said yes straight away.", "The boss got angry and shouted.", "The boss gave a bonus instead."],
             correctIndex: 0,
-            explanation: "\"Dar bola\" means to pay attention to, and \"nem deu bola\" means he ignored it completely. Nothing about a ball: the context is a pay rise.",
+            explanation: "\"Dar bola\" means to pay attention to, and \"nem deu bola\" means he ignored it completely. Nothing about a ball: the context is a raise.",
           },
           {
             type: "translate",
@@ -1007,14 +1007,14 @@ export const PT_B2_U11: Lesson[] = [
       {
         heading: "Saying it in plain Portuguese",
         body: [
-          "Idioms live in chats and conversation. In an email to a client, an essay or a summary you need the plain version, so practise paraphrasing. \"Ele chutou o balde\" becomes \"ele desistiu de tudo\" or \"ele perdeu a paciência\", depending on what happened.",
+          "Idioms live in chats and conversation. In an email to a client, an essay or a summary you need the plain version, so practice paraphrasing. \"Ele chutou o balde\" becomes \"ele desistiu de tudo\" or \"ele perdeu a paciência\", depending on what happened.",
           "Choose the paraphrase from the context, not from a dictionary. \"Pegou mal\" becomes \"causou uma má impressão\". \"Quebrar o galho\" becomes \"ajudar\" or \"resolver o problema provisoriamente\". In a teacher's comment, \"encher linguiça\" becomes \"escrever sem conteúdo\".",
           "Some idioms have two readings. \"Enfiar o pé na jaca\" can mean overindulging at a party or making a serious mistake. Only the surrounding sentences tell you which one is meant.",
         ],
         examples: [
           { es: "Chegar atrasado no primeiro dia pegou mal.", en: "Turning up late on the first day looked bad." },
           { es: "Chegar atrasado no primeiro dia causou uma má impressão.", en: "Arriving late on the first day made a bad impression." },
-          { es: "O vizinho quebrou o galho e me emprestou a furadeira.", en: "My neighbour helped me out and lent me his drill." },
+          { es: "O vizinho quebrou o galho e me emprestou a furadeira.", en: "My neighbor helped me out and lent me his drill." },
           { es: "No sábado, a gente enfiou o pé na jaca no churrasco.", en: "On Saturday we totally overdid it at the barbecue." },
           { es: "Metade do trabalho dele é só para encher linguiça.", en: "Half of his paper is just padding." },
         ],
@@ -1029,7 +1029,7 @@ export const PT_B2_U11: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "My neighbour [helped me out] and lent me a ladder.",
+            en: "My neighbor [helped me out] and lent me a ladder.",
             sentence: "O vizinho ___ e me emprestou uma escada.",
             answer: "quebrou o galho",
             altAnswers: ["me quebrou o galho", "me quebrou um galho", "quebrou meu galho", "quebrou o meu galho", "me ajudou"],
@@ -1053,7 +1053,7 @@ export const PT_B2_U11: Lesson[] = [
           { es: "Se eu não tivesse enfiado o pé na jaca, não estaria com dor de cabeça.", en: "If I hadn't overdone it, I wouldn't have a headache." },
           { es: "Embora ela fale pelos cotovelos, todo mundo gosta dela.", en: "Although she talks nonstop, everyone likes her." },
           { es: "Quando você ficar sabendo do resultado, me avisa.", en: "When you hear the result, let me know." },
-          { es: "O Rafael me quebrou um galho enorme ontem.", en: "Rafael did me a huge favour yesterday." },
+          { es: "O Rafael me quebrou um galho enorme ontem.", en: "Rafael did me a huge favor yesterday." },
           { es: "Pode tirar o cavalinho da chuva: o show está esgotado.", en: "You can forget about it: the show is sold out." },
         ],
         checkpoint: [
@@ -1197,16 +1197,16 @@ export const PT_B2_U11: Lesson[] = [
     format: "Contrast Clinic",
     sections: [
       {
-        heading: "Quebrar o galho: a broken branch or a favour?",
+        heading: "Quebrar o galho: a broken branch or a favor?",
         body: [
-          "Literally, \"quebrar o galho\" is to break the branch. As an idiom it means to get someone out of a tight spot, or to make do with a temporary fix: \"você quebra meu galho?\" (can you do me a favour?). The noun \"quebra-galho\" is a stopgap: the gadget, the job or the person that gets you through.",
-          "The possessive is your best clue. \"Quebrar o meu galho\" or \"quebrar um galho para alguém\" is the favour. A tree, a storm or a gardener points to a real branch, usually \"um galho\" or \"o galho da árvore\". The idiom is frozen: no \"ramo\" and no plural.",
+          "Literally, \"quebrar o galho\" is to break the branch. As an idiom it means to get someone out of a tight spot, or to make do with a temporary fix: \"você quebra meu galho?\" (can you do me a favor?). The noun \"quebra-galho\" is a stopgap: the gadget, the job or the person that gets you through.",
+          "The possessive is your best clue. \"Quebrar o meu galho\" or \"quebrar um galho para alguém\" is the favor. A tree, a storm or a gardener points to a real branch, usually \"um galho\" or \"o galho da árvore\". The idiom is frozen: no \"ramo\" and no plural.",
           "One test works for every pair in this lesson: is the object physically there? If there's no tree, no ball and no foot in the scene, it's the idiom.",
         ],
         examples: [
           { es: "O vento quebrou um galho da mangueira.", en: "The wind broke a branch off the mango tree." },
-          { es: "Você pode quebrar meu galho e me emprestar o carro amanhã?", en: "Can you do me a favour and lend me the car tomorrow?" },
-          { es: "A vizinha quebrou o nosso galho e ficou com o cachorro.", en: "The neighbour helped us out and looked after the dog." },
+          { es: "Você pode quebrar meu galho e me emprestar o carro amanhã?", en: "Can you do me a favor and lend me the car tomorrow?" },
+          { es: "A vizinha quebrou o nosso galho e ficou com o cachorro.", en: "The neighbor helped us out and looked after the dog." },
           { es: "Essa fita isolante quebra o galho até o eletricista chegar.", en: "This electrical tape will do until the electrician gets here." },
           { es: "Meu inglês não é ótimo, mas quebra o galho.", en: "My English isn't great, but it gets me by." },
         ],
@@ -1215,7 +1215,7 @@ export const PT_B2_U11: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Can you do me a favour? (to a friend)",
+            source: "Can you do me a favor? (to a friend)",
             answer: "Você pode quebrar meu galho?",
             altAnswers: ["Você pode quebrar o meu galho?", "Você quebra meu galho?", "Você quebra o meu galho?", "Pode quebrar meu galho?", "Pode quebrar o meu galho?", "Você pode me fazer um favor?", "Você me faz um favor?"],
             explanation: "\"Quebrar meu galho\": the possessive marks the idiom, because the branch is yours only in the figurative sense. \"Você pode me fazer um favor?\" is the neutral version.",
@@ -1223,7 +1223,7 @@ export const PT_B2_U11: Lesson[] = [
           {
             type: "multiple-choice",
             question: "\"Ele subiu na mangueira e quebrou o galho.\" What does it mean?",
-            options: ["He climbed the mango tree and broke the branch.", "He climbed the mango tree to do someone a favour.", "He climbed the mango tree and got by.", "He climbed the mango tree and broke his leg."],
+            options: ["He climbed the mango tree and broke the branch.", "He climbed the mango tree to do someone a favor.", "He climbed the mango tree and got by.", "He climbed the mango tree and broke his leg."],
             correctIndex: 0,
             explanation: "The tree is in the scene and nobody is being helped, so the meaning is literal. The idiom would need someone to help: \"quebrou o meu galho\".",
           },
@@ -1245,7 +1245,7 @@ export const PT_B2_U11: Lesson[] = [
           "Aimed at a person, it turns romantic. \"Ela não me deu bola\" means she didn't give me the time of day, and \"dar bola para alguém\" is to show interest, even to flirt. English speakers hear 'give the ball' and miss both meanings.",
         ],
         examples: [
-          { es: "Dei uma bola de futebol para o meu sobrinho no Natal.", en: "I gave my nephew a football for Christmas." },
+          { es: "Dei uma bola de futebol para o meu sobrinho no Natal.", en: "I gave my nephew a soccer ball for Christmas." },
           { es: "No fim do jogo, o Rafael deu a bola para o filho de um torcedor.", en: "At the end of the match, Rafael gave the ball to a fan's son." },
           { es: "Meu chefe não dá bola para as minhas ideias.", en: "My boss pays no attention to my ideas." },
           { es: "Não dá bola para o que eles falam.", en: "Don't pay any attention to what they say." },
@@ -1275,19 +1275,19 @@ export const PT_B2_U11: Lesson[] = [
             prompt: "Put the words in order to say: I gave my nephew a ball.",
             words: ["Dei", "uma", "bola", "para", "o", "meu", "sobrinho."],
             translation: "I gave my nephew a ball.",
-            explanation: "\"Uma bola\" with the article is the literal ball. Without \"uma\", the sentence would drift towards paying attention.",
+            explanation: "\"Uma bola\" with the article is the literal ball. Without \"uma\", the sentence would drift toward paying attention.",
           },
         ],
       },
       {
         heading: "Pegar no pé: a foot or a nag?",
         body: [
-          "Literally, \"pegar no pé\" is to take hold of a foot: a doctor checking a sprain, a parent tickling a baby. As an idiom, \"pegar no pé de alguém\" is to nag or pick on someone, criticising them again and again over the same thing.",
+          "Literally, \"pegar no pé\" is to take hold of a foot: a doctor checking a sprain, a parent tickling a baby. As an idiom, \"pegar no pé de alguém\" is to nag or pick on someone, criticizing them again and again over the same thing.",
           "Look for repetition (\"vive\", \"sempre\", \"ficar pegando\"), a cause (\"por causa de\", \"por tudo\") and irritation: \"para de pegar no meu pé!\" is the classic teenage protest. As with \"quebrar o galho\", the possessive names the victim: \"no meu pé\", \"no pé dela\".",
         ],
         examples: [
           { es: "O médico pegou no pé dela para ver se estava inchado.", en: "The doctor took hold of her foot to see if it was swollen." },
-          { es: "Minha mãe vive pegando no meu pé por causa do quarto bagunçado.", en: "My mum's always on at me about my messy room." },
+          { es: "Minha mãe vive pegando no meu pé por causa do quarto bagunçado.", en: "My mom's always on my case about my messy room." },
           { es: "Para de pegar no meu pé, eu já vou lavar a louça!", en: "Stop nagging me, I'm about to do the dishes!" },
           { es: "O professor pegou no pé do Rafael o semestre inteiro.", en: "The teacher picked on Rafael the whole semester." },
           { es: "Se você ficar pegando no pé dele, ele vai desistir.", en: "If you keep nagging him, he'll give up." },
@@ -1314,7 +1314,7 @@ export const PT_B2_U11: Lesson[] = [
           {
             type: "speak",
             text: "Minha mãe vive pegando no meu pé.",
-            prompt: "Say it in Portuguese: My mum's always nagging me.",
+            prompt: "Say it in Portuguese: My mom's always nagging me.",
             tip: "\"Pé\" has an open é, as in 'pet'. \"Mãe\" is a nasal diphthong, with no n at the end.",
             explanation: "\"Viver\" + gerund means to be always doing something, the typical frame for the idiom.",
           },
@@ -1326,10 +1326,10 @@ export const PT_B2_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "My neighbour helped us out.",
+        source: "My neighbor helped us out.",
         answer: "Minha vizinha quebrou o nosso galho.",
         altAnswers: ["A minha vizinha quebrou o nosso galho.", "Minha vizinha quebrou nosso galho.", "A minha vizinha quebrou nosso galho.", "Meu vizinho quebrou o nosso galho.", "O meu vizinho quebrou o nosso galho.", "Meu vizinho quebrou nosso galho.", "O meu vizinho quebrou nosso galho.", "Minha vizinha nos ajudou.", "Meu vizinho nos ajudou."],
-        explanation: "\"Quebrar o nosso galho\": the possessive marks the favour. The article before \"nosso\" is optional in Brazil.",
+        explanation: "\"Quebrar o nosso galho\": the possessive marks the favor. The article before \"nosso\" is optional in Brazil.",
       },
       {
         type: "translate",
@@ -1345,7 +1345,7 @@ export const PT_B2_U11: Lesson[] = [
         question: "You need someone to feed your cat this weekend. How do you ask a friend?",
         options: ["Você pode quebrar meu galho e dar comida para o meu gato?", "Você pode pegar no meu pé e dar comida para o meu gato?", "Você pode dar bola para o meu gato?", "Você pode quebrar o galho do meu gato?"],
         correctIndex: 0,
-        explanation: "The favour is yours, so \"quebrar meu galho\". \"Pegar no meu pé\" is to nag me, \"dar bola para o gato\" is only to pay attention to it, and \"o galho do meu gato\" makes no sense.",
+        explanation: "The favor is yours, so \"quebrar meu galho\". \"Pegar no meu pé\" is to nag me, \"dar bola para o gato\" is only to pay attention to it, and \"o galho do meu gato\" makes no sense.",
       },
       {
         type: "listen-choose",
@@ -1368,10 +1368,10 @@ export const PT_B2_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The physio took hold of my foot carefully.",
+        source: "The physical therapist took hold of my foot carefully.",
         answer: "O fisioterapeuta pegou no meu pé com cuidado.",
         altAnswers: ["A fisioterapeuta pegou no meu pé com cuidado.", "O fisioterapeuta segurou meu pé com cuidado.", "O fisioterapeuta segurou o meu pé com cuidado.", "A fisioterapeuta segurou meu pé com cuidado.", "A fisioterapeuta segurou o meu pé com cuidado.", "O fisioterapeuta pegou meu pé com cuidado.", "A fisioterapeuta pegou meu pé com cuidado."],
-        explanation: "A physio and \"com cuidado\" make the meaning literal. \"Segurar o pé\" avoids the ambiguity altogether.",
+        explanation: "A physical therapist and \"com cuidado\" make the meaning literal. \"Segurar o pé\" avoids the ambiguity altogether.",
       },
       {
         type: "translate",
@@ -1403,7 +1403,7 @@ export const PT_B2_U11: Lesson[] = [
         instructions: "Match the Portuguese to the English.",
         pairs: [
           { left: "Ele quebrou um galho da árvore.", right: "He broke a branch off the tree." },
-          { left: "Ele quebrou meu galho.", right: "He did me a favour." },
+          { left: "Ele quebrou meu galho.", right: "He did me a favor." },
           { left: "Ela me deu uma bola.", right: "She gave me a ball." },
           { left: "Ela não me deu bola.", right: "She ignored me." },
           { left: "Ele pegou no pé do bebê.", right: "He took hold of the baby's foot." },
@@ -1419,9 +1419,9 @@ export const PT_B2_U11: Lesson[] = [
       {
         type: "speak",
         text: "Você pode quebrar meu galho amanhã?",
-        prompt: "Say it in Portuguese: Can you do me a favour tomorrow?",
+        prompt: "Say it in Portuguese: Can you do me a favor tomorrow?",
         tip: "The \"lh\" in \"galho\" sounds like the lli in million. Don't say a plain l.",
-        explanation: "\"Quebrar meu galho\" is the everyday way to ask a friend for a favour.",
+        explanation: "\"Quebrar meu galho\" is the everyday way to ask a friend for a favor.",
       },
     ],
   },
@@ -1663,7 +1663,7 @@ export const PT_B2_U11: Lesson[] = [
     level: "PT-B2",
     number: 8,
     title: "Error Hunt: Idioms",
-    summary: "Find and fix the three classic idiom mistakes: a wrong word inside a fixed expression, an English idiom translated literally, and a colourful idiom in a formal text.",
+    summary: "Find and fix the three classic idiom mistakes: a wrong word inside a fixed expression, an English idiom translated literally, and a colorful idiom in a formal text.",
     duration: "15 min",
     sections: [
       {
@@ -1780,14 +1780,14 @@ export const PT_B2_U11: Lesson[] = [
       {
         heading: "Custou os olhos da cara, num e-mail formal? Register slips",
         body: [
-          "Idioms live in speech and casual writing. Neutral ones such as \"dar certo\", \"fazer falta\" and \"levar a sério\" are fine in a work email. Colourful ones like \"pagar mico\", \"pegar no pé\", \"encher linguiça\" or \"custar os olhos da cara\" sound flippant in a formal letter, a report or a complaint.",
+          "Idioms live in speech and casual writing. Neutral ones such as \"dar certo\", \"fazer falta\" and \"levar a sério\" are fine in a work email. Colorful ones like \"pagar mico\", \"pegar no pé\", \"encher linguiça\" or \"custar os olhos da cara\" sound flippant in a formal letter, a report or a complaint.",
           "The fix is the formal style from Unit 8: replace the image with its plain meaning. \"Precisamos dar um jeito no atraso\" becomes \"precisamos encontrar uma solução para o atraso\". A \"quebra-galho\" becomes \"uma solução provisória\". Telling a client \"tirem o cavalinho da chuva\" becomes \"infelizmente, não será possível...\".",
         ],
         examples: [
           { es: "Precisamos encontrar uma solução para o atraso na entrega.", en: "We need to find a solution to the delivery delay." },
           { es: "O orçamento ficou muito acima do previsto.", en: "The budget came in well above what was planned." },
           { es: "O relatório contém muitas informações irrelevantes.", en: "The report contains a lot of irrelevant information." },
-          { es: "Infelizmente, não será possível atender ao seu pedido.", en: "Unfortunately, we won't be able to fulfil your request." },
+          { es: "Infelizmente, não será possível atender ao seu pedido.", en: "Unfortunately, we won't be able to fulfill your request." },
           { es: "Adotamos uma solução provisória até a chegada da peça nova.", en: "We adopted a temporary fix until the new part arrives." },
           { es: "A experiência da Beatriz vai fazer muita falta à equipe.", en: "The team will really miss Beatriz's experience." },
         ],
@@ -1958,7 +1958,7 @@ export const PT_B2_U11: Lesson[] = [
           "Rafael is always late.",
         ],
         correctIndex: 0,
-        explanation: "\"Pegar no pé de alguém\" is to nag or criticise someone constantly. \"Viver + gerúndio\" adds the idea of all the time.",
+        explanation: "\"Pegar no pé de alguém\" is to nag or criticize someone constantly. \"Viver + gerúndio\" adds the idea of all the time.",
       },
       {
         type: "dictation",
@@ -2131,7 +2131,7 @@ export const PT_B2_U11: Lesson[] = [
         source: "Rafael is a cheapskate and never pays for the coffee.",
         answer: "O Rafael é pão-duro e nunca paga o café.",
         altAnswers: ["Rafael é pão-duro e nunca paga o café.", "O Rafael é pão-duro e nunca paga pelo café.", "O Rafael é pão-duro e nunca paga o cafezinho."],
-        explanation: "\"Ser pão-duro\" describes a trait, so it takes \"ser\". The idiom doesn't change for a woman: \"ela é pão-dura\" is also heard, but \"pão-duro\" is the fixed form.",
+        explanation: "\"Ser pão-duro\" describes a trait, so it takes \"ser\". For a woman both \"ela é pão-duro\" and \"ela é pão-dura\" are heard; the masculine is the fixed dictionary form.",
       },
       {
         type: "fill-blank",
@@ -2330,7 +2330,7 @@ export const PT_B2_U11: Lesson[] = [
         heading: "Same idea, different register",
         body: [
           "Most of these idioms belong to speech, WhatsApp and relaxed emails. In a report, a complaint or a Celpe-Bras text, swap them for neutral wording. \"Custar os olhos da cara\" becomes \"ter um custo elevado\", \"quebrar o galho\" becomes \"encontrar uma solução provisória\" and \"ficar de\" becomes \"comprometer-se a\".",
-          "The swap usually brings other formal features with it: the passive (\"o pedido não foi atendido\"), nominalisation, ênclise at the start of a sentence (\"Comprometemo-nos a...\") and \"nós\" instead of \"a gente\". \"Fazer questão de\" and \"levar a sério\" are neutral enough for both registers.",
+          "The swap usually brings other formal features with it: the passive (\"o pedido não foi atendido\"), nominalization, ênclise at the start of a sentence (\"Comprometemo-nos a...\") and \"nós\" instead of \"a gente\". \"Fazer questão de\" and \"levar a sério\" are neutral enough for both registers.",
         ],
         examples: [
           { es: "Esse celular custou os olhos da cara.", en: "This phone cost an arm and a leg." },
@@ -2517,7 +2517,7 @@ export const PT_B2_U11: Lesson[] = [
 
 export const PT_B2_U11_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A close Brazilian friend has asked how your week went, and it was chaotic: an embarrassing moment, money spent on impulse, a problem someone helped you solve. Write them an informal message telling the story, using at least five expressions from this unit, and end by suggesting you meet up at the weekend.",
+  prompt: "A close Brazilian friend has asked how your week went, and it was chaotic: an embarrassing moment, money spent on impulse, a problem someone helped you solve. Write them an informal message telling the story, using at least five expressions from this unit, and end by suggesting you meet up on the weekend.",
   minWords: 130,
   maxWords: 200,
   rubric: [

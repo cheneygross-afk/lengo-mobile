@@ -22,7 +22,7 @@ export const PT_C2_U06: Lesson[] = [
         examples: [
           { es: "Boa noite a todos e a todas.", en: "Good evening, everyone." },
           { es: "Agradeço o convite da direção e a presença de cada um de vocês.", en: "I'd like to thank the management for inviting me, and each of you for being here." },
-          { es: "É uma honra falar para uma plateia tão diversa.", en: "It's an honour to speak to such a varied audience." },
+          { es: "É uma honra falar para uma plateia tão diversa.", en: "It's an honor to speak to such a varied audience." },
           { es: "Quantos de vocês pegaram ônibus para chegar até aqui?", en: "How many of you took a bus to get here?" },
           { es: "Vou dividir esta fala em três partes.", en: "I'll divide this talk into three parts." },
         ],
@@ -63,7 +63,7 @@ export const PT_C2_U06: Lesson[] = [
           "In the \"argumentação\", number your points aloud and give each one a claim, evidence and a consequence. A classic order is strong, weaker, strongest: open with a solid point, put the weaker one in the middle, and save the best for last, where it carries into the closing. Ordinals do the signposting: \"em primeiro lugar\", \"o segundo ponto é\", \"por último\".",
         ],
         examples: [
-          { es: "Há dez anos, este bairro não tinha uma única biblioteca.", en: "Ten years ago, this neighbourhood didn't have a single library." },
+          { es: "Há dez anos, este bairro não tinha uma única biblioteca.", en: "Ten years ago, this neighborhood didn't have a single library." },
           { es: "Tudo começou com um grupo de mães que se reuniam na praça.", en: "It all started with a group of mothers who used to meet in the square." },
           { es: "Em primeiro lugar, o projeto custa menos do que parece.", en: "First, the project costs less than it seems." },
           { es: "O segundo ponto é a segurança das crianças.", en: "The second point is the children's safety." },
@@ -260,9 +260,9 @@ export const PT_C2_U06: Lesson[] = [
       {
         type: "speak",
         text: "Boa noite a todos. É uma honra estar aqui.",
-        prompt: "Say it in Portuguese: Good evening, everyone. It's an honour to be here.",
+        prompt: "Say it in Portuguese: Good evening, everyone. It's an honor to be here.",
         tip: "Keep the h in \"honra\" silent, make the é open, and pause after \"todos\".",
-        explanation: "Greet, then honour the occasion: the first two moves of a Brazilian \"exórdio\".",
+        explanation: "Greet, then honor the occasion: the first two moves of a Brazilian \"exórdio\".",
       },
       {
         type: "matching",
@@ -280,7 +280,7 @@ export const PT_C2_U06: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "May this neighbourhood never again be without a library.",
+        source: "May this neighborhood never again be without a library.",
         answer: "Que este bairro nunca mais fique sem biblioteca.",
         altAnswers: [
           "Que esse bairro nunca mais fique sem biblioteca.",
@@ -341,7 +341,7 @@ export const PT_C2_U06: Lesson[] = [
         heading: "Anaphora: repetition for the ear",
         body: [
           "You met \"anáfora\" in poetry. In a speech it has a practical job: it is a map for listeners who can't reread. Each repetition signals a new point in the same argument, and once the audience can predict it, they start to join in.",
-          "Portuguese usually repeats a verb or a set phrase, not a pronoun: \"queremos escolas, queremos hospitais, queremos respeito\". Favourite frames are \"É hora de...\", \"Chega de...\" (enough of...) and \"Não é justo que...\", which takes the subjunctive every time it comes back.",
+          "Portuguese usually repeats a verb or a set phrase, not a pronoun: \"queremos escolas, queremos hospitais, queremos respeito\". Favorite frames are \"É hora de...\", \"Chega de...\" (enough of...) and \"Não é justo que...\", which takes the subjunctive every time it comes back.",
           "Three or four rounds are enough. Pause before each repetition and vary the length of what follows, or the device turns into a chant.",
         ],
         examples: [
@@ -386,7 +386,7 @@ export const PT_C2_U06: Lesson[] = [
         ],
         examples: [
           { es: "Até quando vamos aceitar ônibus lotados e atrasados?", en: "How much longer are we going to put up with crowded, late buses?" },
-          { es: "Quem de nós nunca perdeu uma consulta por falta de transporte?", en: "Which of us has never missed an appointment for lack of transport?" },
+          { es: "Quem de nós nunca perdeu uma consulta por falta de transporte?", en: "Which of us has never missed an appointment for lack of transportation?" },
           { es: "Não foi isso que nos prometeram há quatro anos?", en: "Isn't that what they promised us four years ago?" },
           { es: "Será que estamos fazendo o suficiente pelos nossos idosos?", en: "Are we really doing enough for our elderly?" },
           { es: "E por que isso importa? Porque cada real desviado é uma escola a menos.", en: "And why does this matter? Because every real that's embezzled is one school fewer." },
@@ -581,9 +581,9 @@ export const PT_C2_U06: Lesson[] = [
         examples: [
           { es: "Senhor Presidente, peço a palavra.", en: "Mr. President, I ask for the floor." },
           { es: "Concedo a palavra ao vereador Lucas Ramos.", en: "I give the floor to Councillor Lucas Ramos." },
-          { es: "Com a palavra, a deputada Ana Costa.", en: "Deputy Ana Costa has the floor." },
+          { es: "Com a palavra, a deputada Ana Costa.", en: "Representative Ana Costa has the floor." },
           { es: "Pela ordem, Senhor Presidente!", en: "Mr. President, a procedural point!" },
-          { es: "O nobre deputado me concede um aparte?", en: "Will the honourable member yield for a moment?" },
+          { es: "O nobre deputado me concede um aparte?", en: "Will the honorable member yield for a moment?" },
         ],
         checkpoint: [
           {
@@ -605,7 +605,7 @@ export const PT_C2_U06: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Will the honourable member [grant me] a brief interruption?",
+            en: "Will the honorable member [grant me] a brief interruption?",
             sentence: "O nobre deputado ___ um aparte?",
             answer: "me concede",
             altAnswers: ["me permite", "me dá"],
@@ -665,7 +665,7 @@ export const PT_C2_U06: Lesson[] = [
           { es: "O candidato tem um minuto para a réplica.", en: "The candidate has one minute for the rebuttal." },
           { es: "Agora, trinta segundos para a tréplica.", en: "Now, thirty seconds for the final reply." },
           { es: "Peço direito de resposta, pois fui atacado pessoalmente.", en: "I request the right of reply, as I was personally attacked." },
-          { es: "O tempo do nobre senador está esgotado.", en: "The honourable senator's time is up." },
+          { es: "O tempo do nobre senador está esgotado.", en: "The honorable senator's time is up." },
           { es: "Já concluo, Senhor Presidente.", en: "I'm wrapping up, Mr. President." },
         ],
         checkpoint: [
@@ -704,10 +704,10 @@ export const PT_C2_U06: Lesson[] = [
           "Courtesy frames the attack; it doesn't soften it. \"Nobre colega\" and \"com todo o respeito\" often introduce the sharpest line of a speech. Calling a colleague a liar can count as \"quebra de decoro parlamentar\". Saying the claim \"não corresponde aos fatos\" makes the same point within the rules.",
         ],
         examples: [
-          { es: "O nobre senador está enganado.", en: "The honourable senator is mistaken." },
+          { es: "O nobre senador está enganado.", en: "The honorable senator is mistaken." },
           { es: "Com todo o respeito ao nobre colega, a sua proposta não se sustenta.", en: "With all due respect to my distinguished colleague, your proposal doesn't hold up." },
           { es: "A afirmação do nobre colega não corresponde aos fatos.", en: "My distinguished colleague's statement does not match the facts." },
-          { es: "Retiro a expressão e peço desculpas à Casa.", en: "I withdraw the remark and apologise to the House." },
+          { es: "Retiro a expressão e peço desculpas à Casa.", en: "I withdraw the remark and apologize to the House." },
         ],
         checkpoint: [
           {
@@ -776,9 +776,9 @@ export const PT_C2_U06: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I ask the honourable member to wrap up.",
+        prompt: "Put the words in order to say: I ask the honorable member to wrap up.",
         words: ["Peço", "ao", "nobre", "deputado", "que", "conclua."],
-        translation: "I ask the honourable member to wrap up.",
+        translation: "I ask the honorable member to wrap up.",
         explanation: "\"Pedir a alguém que\" + present subjunctive: \"conclua\". This is the chair's polite way of ending a speech that has run over.",
       },
       {
@@ -835,7 +835,7 @@ export const PT_C2_U06: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I won't grant the interruption, Deputy: my time is running out.",
+        source: "I won't grant the interruption, Representative: my time is running out.",
         answer: "Não concedo o aparte, deputado: meu tempo está acabando.",
         altAnswers: ["Não concedo o aparte, deputada: meu tempo está acabando.", "Não vou conceder o aparte, deputado: meu tempo está acabando.", "Não vou conceder o aparte, deputada: meu tempo está acabando.", "Não concedo o aparte, deputado: o meu tempo está acabando.", "Não concedo o aparte, deputado: meu tempo está se esgotando.", "Não concedo o aparte, deputado, porque meu tempo está acabando.", "Não concedo o aparte, deputada, porque meu tempo está acabando."],
         explanation: "The speaker decides on an \"aparte\" and may refuse it with \"não concedo\". Running short of time is the polite standard excuse.",
@@ -853,7 +853,7 @@ export const PT_C2_U06: Lesson[] = [
       {
         heading: "Receiving the question: agradeço a pergunta, se entendi bem",
         body: [
-          "Your first sentence buys a second of thinking time and shows respect. The standard formal opener is \"agradeço a pergunta\". In the norm, \"agradecer\" takes the thing as a direct object and the person with \"a\" (\"agradeço a pergunta ao senhor\"), so there is no crase. \"Agradeço pela pergunta\" is common in speech, but the direct object is the safer choice. \"Obrigado pela pergunta\" (\"obrigada\" from a woman) is warmer and just as safe. Ration \"excelente pergunta\": said every time, it sounds like stalling, and from the stage to a student it can sound patronising.",
+          "Your first sentence buys a second of thinking time and shows respect. The standard formal opener is \"agradeço a pergunta\". In the norm, \"agradecer\" takes the thing as a direct object and the person with \"a\" (\"agradeço a pergunta ao senhor\"), so there is no crase. \"Agradeço pela pergunta\" is common in speech, but the direct object is the safer choice. \"Obrigado pela pergunta\" (\"obrigada\" from a woman) is warmer and just as safe. Ration \"excelente pergunta\": said every time, it sounds like stalling, and from the stage to a student it can sound patronizing.",
           "Before answering, reformulate. It stops you answering the wrong question and lets you frame the issue in your own terms: \"se entendi bem, a senhora quer saber se...\", \"deixe-me ver se compreendi\", \"ou seja, a pergunta é...\". Formal speech allows the written ênclise of \"deixe-me\" and \"permita-me\". Keep the paraphrase neutral. \"Então o senhor está dizendo que somos incompetentes?\" is a debating trick, not a clarification, and audiences hear the difference.",
           "Then answer, and signal that you're answering: \"respondendo diretamente:\", \"vou responder em duas partes\". Give the answer first and the reasons after. \"Responder\" takes \"a\", so the form is \"responder à pergunta\". \"Responder a pergunta\" is everywhere in speech but reads as a slip in a prepared answer.",
         ],
@@ -946,24 +946,24 @@ export const PT_C2_U06: Lesson[] = [
       {
         heading: "Deflecting without dodging",
         body: [
-          "Sometimes you can't or shouldn't answer: the figures aren't to hand, the question belongs to another body, or it's a trap. Evasion done badly has names in Brazil, \"sair pela tangente\" (to dodge) and \"enrolar\" (to waffle). \"O senhor não respondeu à pergunta\" is a staple of every televised debate. Deflect openly: say why you won't answer and offer something instead.",
+          "Sometimes you can't or shouldn't answer: the figures aren't on hand, the question belongs to another body, or it's a trap. Evasion done badly has names in Brazil, \"sair pela tangente\" (to dodge) and \"enrolar\" (to waffle). \"O senhor não respondeu à pergunta\" is a staple of every televised debate. Deflect openly: say why you won't answer and offer something instead.",
           "The formulas: \"não tenho esses números em mãos, mas me comprometo a enviá-los\", \"prefiro não especular\", \"essa pergunta caberia melhor ao Ministério da Saúde\" (the conditional softens the redirect), \"essa questão foge ao escopo deste debate\". Note the split between two words: \"pergunta\" is what someone asked, and \"questão\" is the issue behind it (\"é uma questão complexa\"). You \"fazer uma pergunta\"; you never \"perguntar uma pergunta\".",
           "Then bridge back to your message: \"o que eu posso dizer é que...\", \"voltando ao ponto central...\", \"o que importa aqui é...\". A deflection without a bridge leaves a silence, and a bridge without a reason sounds like spin.",
         ],
         examples: [
-          { es: "Não tenho esses números em mãos, mas me comprometo a enviá-los ainda hoje.", en: "I don't have those figures to hand, but I'll make sure to send them today." },
+          { es: "Não tenho esses números em mãos, mas me comprometo a enviá-los ainda hoje.", en: "I don't have those figures on hand, but I'll make sure to send them today." },
           { es: "Essa pergunta caberia melhor à Secretaria de Educação.", en: "That question would be better put to the Department of Education." },
           { es: "Prefiro não especular sobre uma investigação em andamento.", en: "I'd rather not speculate about an ongoing investigation." },
           { es: "Essa questão foge ao escopo deste debate, mas posso conversar com o senhor depois.", en: "That issue is outside the scope of this debate, but I'm happy to talk to you afterwards." },
           { es: "O que eu posso dizer é que o cronograma está mantido.", en: "What I can say is that the schedule still stands." },
-          { es: "Voltando ao ponto central: a obra termina em março.", en: "Getting back to the main point: the works finish in March." },
+          { es: "Voltando ao ponto central: a obra termina em março.", en: "Getting back to the main point: construction finishes in March." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I don't have those figures to hand, but I'll send them today.",
+            source: "I don't have those figures on hand, but I'll send them today.",
             answer: "Não tenho esses números em mãos, mas vou enviá-los hoje.",
             altAnswers: [
               "Eu não tenho esses números em mãos, mas vou enviá-los hoje.",
@@ -973,7 +973,7 @@ export const PT_C2_U06: Lesson[] = [
               "Não tenho esses números em mãos, mas vou mandá-los hoje.",
               "Não tenho esses números em mãos, mas vou enviar hoje.",
             ],
-            explanation: "\"Em mãos\" is 'to hand'. After an infinitive, formal speech attaches the pronoun: the r of \"enviar\" drops, the vowel takes an accent and the pronoun gains an l, giving \"enviá-los\".",
+            explanation: "\"Em mãos\" is 'on hand'. After an infinitive, formal speech attaches the pronoun: the r of \"enviar\" drops, the vowel takes an accent and the pronoun gains an l, giving \"enviá-los\".",
           },
           {
             type: "listen-choose",
@@ -991,7 +991,7 @@ export const PT_C2_U06: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[Getting back to] the main point: the works finish in March.",
+            en: "[Getting back to] the main point: construction finishes in March.",
             sentence: "___ ao ponto central: a obra termina em março.",
             answer: "Voltando",
             altAnswers: ["Retomando"],
@@ -1091,7 +1091,7 @@ export const PT_C2_U06: Lesson[] = [
       {
         type: "speak",
         text: "Não tenho esses números em mãos, mas me comprometo a enviá-los ainda hoje.",
-        prompt: "Say it in Portuguese: I don't have those figures to hand, but I'll make sure to send them today.",
+        prompt: "Say it in Portuguese: I don't have those figures on hand, but I'll make sure to send them today.",
         tip: "Stress enviá-los on the á, and make the ão of não and the ãos of mãos nasal.",
         explanation: "This is an open deflection: give the reason (\"não tenho em mãos\"), then the offer (\"me comprometo a enviá-los\").",
       },
@@ -1174,7 +1174,7 @@ export const PT_C2_U06: Lesson[] = [
           "The register is spoken and warm, so \"a gente\", \"né\" and a teasing story all fit. But the audience runs from the bride's grandmother to her boss, so the zoeira of Unit 2 stays gentle. That means no exes, no drinking stories and no jokes only three people get. Signal the turn to sincerity with \"brincadeiras à parte\" or \"agora, falando sério\". Close with \"Vivam os noivos!\" (many say \"Viva os noivos!\", treating \"viva\" as an interjection).",
         ],
         examples: [
-          { es: "Para quem não me conhece, eu sou o Rafael, amigo do noivo desde o colégio.", en: "For those who don't know me, I'm Rafael, the groom's friend since school." },
+          { es: "Para quem não me conhece, eu sou o Rafael, amigo do noivo desde o colégio.", en: "For those who don't know me, I'm Rafael, the groom's friend since high school." },
           { es: "A Mariana sempre disse que nunca ia se casar. Pois é.", en: "Mariana always said she'd never get married. Well, here we are." },
           { es: "Brincadeiras à parte, eu nunca vi o João tão feliz.", en: "Jokes aside, I've never seen João so happy." },
           { es: "Que o amor de vocês seja sempre maior do que qualquer briga por causa da louça.", en: "May your love always be bigger than any argument about the dishes." },
@@ -1222,7 +1222,7 @@ export const PT_C2_U06: Lesson[] = [
         examples: [
           { es: "Magnífico Reitor, prezados professores, queridas famílias, boa noite.", en: "Rector, dear professors, dear families, good evening." },
           { es: "Na pessoa do Magnífico Reitor, cumprimento as demais autoridades presentes.", en: "Through the Rector, I greet all the other authorities present." },
-          { es: "Em nome da turma de Medicina de 2024, agradeço a honra de falar esta noite.", en: "On behalf of the 2024 Medicine class, thank you for the honour of speaking tonight." },
+          { es: "Em nome da turma de Medicina de 2024, agradeço a honra de falar esta noite.", en: "On behalf of the 2024 Medicine class, thank you for the honor of speaking tonight." },
           { es: "Aos nossos pais, que tantas vezes abriram mão do próprio sonho para que o nosso fosse possível, o nosso muito obrigado.", en: "To our parents, who so often gave up their own dreams so that ours could come true: thank you." },
           { es: "Chegamos até aqui, mas ninguém chegou sozinho.", en: "We made it here, but none of us made it alone." },
         ],
@@ -1252,7 +1252,7 @@ export const PT_C2_U06: Lesson[] = [
         heading: "Farewells: grief in plain words",
         body: [
           "Brazil has fewer set-piece eulogies than the US or the UK. The \"velório\" usually follows death within a day, so words are said briefly at the burial, at the \"missa de sétimo dia\" or at a later \"homenagem\". The register is the plainest of the four occasions: no protocol and no flourish.",
-          "Speak of who the person was in the imperfeito (\"ela sempre dizia\", \"ninguém saía com fome\") and of single moments in the perfeito. A soft euphemism such as \"nos deixou\" or \"partiu\" suits a speech, while \"faleceu\" belongs in notices. One specific memory moves people more than a row of adjectives, and gentle humour is welcome if it was the person's own.",
+          "Speak of who the person was in the imperfeito (\"ela sempre dizia\", \"ninguém saía com fome\") and of single moments in the perfeito. A soft euphemism such as \"nos deixou\" or \"partiu\" suits a speech, while \"faleceu\" belongs in notices. One specific memory moves people more than a row of adjectives, and gentle humor is welcome if it was the person's own.",
           "If your voice breaks, pause. \"Me desculpem\" is enough, and nobody expects composure. When you speak to the family afterwards, \"Meus sentimentos\" is the standard condolence; \"meus pêsames\" sounds more formal.",
         ],
         examples: [
@@ -1380,7 +1380,7 @@ export const PT_C2_U06: Lesson[] = [
         text: "Ela ia achar graça de ver todo mundo aqui de preto.",
         prompt: "Say it in Portuguese: She'd find it funny to see everyone here in black.",
         tip: "Run \"ia achar\" together smoothly, and let your voice fall gently at the end of the sentence.",
-        explanation: "The spoken conditional \"ia achar\" replaces \"acharia\". \"Achar graça de\" means to find something funny, and here the humour belongs to the person who died.",
+        explanation: "The spoken conditional \"ia achar\" replaces \"acharia\". \"Achar graça de\" means to find something funny, and here the humor belongs to the person who died.",
       },
       {
         type: "translate",
@@ -1466,7 +1466,7 @@ export const PT_C2_U06: Lesson[] = [
           "Written reference is where speeches fail most. \"Esta última\", \"o referido\", \"tal medida\" and \"aquele\" point back to something the reader can still see, but the listener has already lost it. Name the thing again: not \"esta última foi rejeitada\" but \"a tarifa social foi rejeitada\".",
         ],
         examples: [
-          { es: "Em primeiro lugar, cumpre analisar as causas do problema.", en: "(essay) First, the causes of the problem must be analysed." },
+          { es: "Em primeiro lugar, cumpre analisar as causas do problema.", en: "(essay) First, the causes of the problem must be analyzed." },
           { es: "Eu quero falar de três coisas hoje: a causa, o custo e a saída.", en: "(speech) I want to talk about three things today: the cause, the cost and the way out." },
           { es: "O governo propôs o passe livre e a tarifa social; esta última, contudo, foi rejeitada.", en: "(essay) The government proposed free fares and a social fare; the latter, however, was rejected." },
           { es: "O governo propôs duas coisas: o passe livre e a tarifa social. A tarifa social foi rejeitada.", en: "(speech) The government proposed two things: free fares and a social fare. The social fare was rejected." },
@@ -1611,7 +1611,7 @@ export const PT_C2_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your essay says \"Faz-se mister, outrossim, que o poder público aja.\" You're making the same point at a neighbourhood meeting. Which line carries?",
+        question: "Your essay says \"Faz-se mister, outrossim, que o poder público aja.\" You're making the same point at a neighborhood meeting. Which line carries?",
         options: [
           "E tem mais uma coisa: a prefeitura precisa agir.",
           "Outrossim, faz-se mister que a prefeitura aja.",
@@ -1694,7 +1694,7 @@ export const PT_C2_U06: Lesson[] = [
     level: "PT-C2",
     number: 7,
     title: "Dialogue Lab: O Debate",
-    summary: "Follow a televised mayoral debate in Belo Horizonte, from the mediator's rules to the closing appeal, and practise the lines candidates use to attack, defend and ask for the vote.",
+    summary: "Follow a televised mayoral debate in Belo Horizonte, from the mediator's rules to the closing appeal, and practice the lines candidates use to attack, defend and ask for the vote.",
     duration: "18 min",
     kind: "reinforce",
     format: "Dialogue Lab",
@@ -1749,13 +1749,13 @@ export const PT_C2_U06: Lesson[] = [
       {
         heading: "Primeiro bloco: the question that is an attack",
         body: [
-          "Helena opens the first block, on public transport, with a question built to corner him. She lists three promises in a triad, then asks a short question that has no comfortable answer and is sized for the evening news.",
+          "Helena opens the first block, on public transportation, with a question built to corner him. She lists three promises in a triad, then asks a short question that has no comfortable answer and is sized for the evening news.",
           "Saldanha follows the defensive routine from the lesson on handling questions: thank, reframe, and only then answer. \"Restabelecer os fatos\" and \"a candidata omite que...\" accuse without insulting. A blunt \"a senhora está mentindo\" carries more risk than in English-language debates. Under Brazilian electoral law, an offensive or knowingly false statement can earn the opponent a \"direito de resposta\": extra airtime to reply.",
           "This explains the genre's euphemisms: \"faltar com a verdade\" (to depart from the truth), \"distorcer os números\" and \"não é bem assim\" (that's not quite how it is).",
         ],
         examples: [
-          { es: "O senhor prometeu a linha 2 do metrô, prometeu ônibus novos, prometeu congelar a tarifa.", en: "You promised metro line 2, you promised new buses, you promised to freeze the fare." },
-          { es: "Quatro anos depois, onde está o metrô, prefeito?", en: "Four years on, where's the metro, Mr Mayor?" },
+          { es: "O senhor prometeu a linha 2 do metrô, prometeu ônibus novos, prometeu congelar a tarifa.", en: "You promised subway line 2, you promised new buses, you promised to freeze the fare." },
+          { es: "Quatro anos depois, onde está o metrô, prefeito?", en: "Four years on, where's the subway, Mr. Mayor?" },
           { es: "Agradeço a pergunta, mas é preciso restabelecer os fatos.", en: "Thank you for the question, but we need to set the record straight." },
           { es: "A candidata omite que a obra depende de verbas federais que nunca chegaram.", en: "The candidate leaves out that the project depends on federal funds that never arrived." },
           { es: "A candidata está faltando com a verdade, e ela sabe disso.", en: "The candidate is not telling the truth, and she knows it." },
@@ -1806,7 +1806,7 @@ export const PT_C2_U06: Lesson[] = [
           "The \"tréplica\" closes the topic, so Saldanha concedes the small point to keep the big one. He uses \"embora\" plus the subjunctive, then a \"prolepse\": he answers \"alguns dirão que é pouco\" before anyone can say it. Finally, \"se entendi bem\" lets him restate her proposal in its weakest form. Listen for that move: it is what a straw man (\"espantalho\") sounds like on air.",
         ],
         examples: [
-          { es: "Segundo o Tribunal de Contas do Estado, a obra está parada desde março de 2022.", en: "According to the State Court of Audit, the works have been at a standstill since March 2022." },
+          { es: "Segundo o Tribunal de Contas do Estado, a obra está parada desde março de 2022.", en: "According to the State Court of Audit, construction has been at a standstill since March 2022." },
           { es: "Fico feliz que o prefeito tenha descoberto o ônibus justamente agora, às vésperas da eleição.", en: "I'm glad the mayor has discovered the bus right now, on the eve of the election." },
           { es: "Embora a candidata prefira ignorar, nós renovamos metade da frota.", en: "Although the candidate prefers to ignore it, we've replaced half the fleet." },
           { es: "Alguns dirão que é pouco. É pouco, sim, e é por isso que eu quero continuar.", en: "Some will say it's not enough. It isn't, and that's exactly why I want to carry on." },
@@ -1896,7 +1896,7 @@ export const PT_C2_U06: Lesson[] = [
         source: "Each candidate will have two minutes to answer.",
         answer: "Cada candidato terá dois minutos para responder.",
         altAnswers: ["Cada candidato vai ter dois minutos para responder.", "Cada candidato terá dois minutos para a resposta.", "Cada um dos candidatos terá dois minutos para responder."],
-        explanation: "Mediators favour the written future \"terá\" when announcing rules. It sounds official, though \"vai ter\" is also correct.",
+        explanation: "Mediators favor the written future \"terá\" when announcing rules. It sounds official, though \"vai ter\" is also correct.",
       },
       {
         type: "translate",
@@ -1910,7 +1910,7 @@ export const PT_C2_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[According to] the Court of Audit, the works have been at a standstill since March.",
+        en: "[According to] the Court of Audit, construction has been at a standstill since March.",
         sentence: "___ o Tribunal de Contas, a obra está parada desde março.",
         answer: "Segundo",
         altAnswers: ["De acordo com", "Conforme"],
@@ -2030,7 +2030,7 @@ export const PT_C2_U06: Lesson[] = [
           "Read every sentence aloud before the day. If you run out of breath or lose track of the subject, your listener lost it first.",
         ],
         examples: [
-          { es: "Nós vamos abrir os postos de saúde à noite.", en: "We're going to open the health centres at night." },
+          { es: "Nós vamos abrir os postos de saúde à noite.", en: "We're going to open the health centers at night." },
           { es: "O problema é simples: faltam ônibus na periferia.", en: "The problem is simple: there aren't enough buses on the outskirts." },
           { es: "Como eu disse há pouco, esse projeto é barato e muda muito.", en: "As I said a moment ago, this project is cheap and changes a lot." },
           { es: "Isso vai ser feito ainda este ano.", en: "This will be done this very year." },
@@ -2041,7 +2041,7 @@ export const PT_C2_U06: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "We're going to open the health centres at night. (Rewrite for the ear: \"A ampliação do atendimento noturno nos postos de saúde será implementada.\")",
+            source: "We're going to open the health centers at night. (Rewrite for the ear: \"A ampliação do atendimento noturno nos postos de saúde será implementada.\")",
             answer: "Nós vamos abrir os postos de saúde à noite.",
             altAnswers: ["Vamos abrir os postos de saúde à noite.", "A gente vai abrir os postos de saúde à noite.", "Nós vamos abrir os postos de saúde de noite.", "Vamos abrir os postos de saúde de noite."],
             explanation: "The written version hides the action in two nouns, \"ampliação\" and \"implementada\", and hides the agent too. Spoken, the subject comes first and the verb carries the idea: \"nós vamos abrir\".",
@@ -2073,7 +2073,7 @@ export const PT_C2_U06: Lesson[] = [
           "The cure is not a fancier cliché but a concrete fact. Instead of \"essa obra vai fazer a diferença na vida das pessoas\", say what changes, for whom and by how much: three hundred families with running water, forty minutes less on the bus. Openings are the worst offenders. Two clichés stacked before the first real sentence will lose the room.",
         ],
         examples: [
-          { es: "Este ano, trezentas famílias do bairro passaram a ter água encanada.", en: "This year, three hundred families in the neighbourhood got running water." },
+          { es: "Este ano, trezentas famílias do bairro passaram a ter água encanada.", en: "This year, three hundred families in the neighborhood got running water." },
           { es: "Em relação ao orçamento, a situação é grave.", en: "As far as the budget goes, the situation is serious." },
           { es: "Com a nova linha, quem mora em Itaquera vai passar quarenta minutos a menos no ônibus.", en: "With the new line, people who live in Itaquera will spend forty minutes less on the bus." },
           { es: "Precisamos de ideias novas.", en: "We need new ideas." },
@@ -2091,7 +2091,7 @@ export const PT_C2_U06: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You're opening a speech at a neighbourhood association. Which first line avoids clichés?",
+            question: "You're opening a speech at a neighborhood association. Which first line avoids clichés?",
             options: ["Este ano, trezentas famílias do bairro passaram a ter água encanada.", "Nos dias de hoje, mais do que nunca, precisamos fazer a diferença.", "É com grande satisfação que venho, sem sombra de dúvida, agregar valor.", "A nível de bairro, nós precisamos pensar fora da caixa."],
             correctIndex: 0,
             explanation: "The first line gives a fact the audience can picture. The others stack stock phrases, and the last adds the norm error \"a nível de\" and a calque from English.",
@@ -2125,7 +2125,7 @@ export const PT_C2_U06: Lesson[] = [
             source: "We're going to present three proposals. (Fix the slip: \"A gente vamos apresentar três propostas.\")",
             answer: "Nós vamos apresentar três propostas.",
             altAnswers: ["Vamos apresentar três propostas.", "A gente vai apresentar três propostas."],
-            explanation: "\"A gente\" takes the ele/ela form (\"a gente vai\"), and \"nós\" takes \"vamos\". Mixing them is a stigmatised form that an audience notices at once. In a formal speech \"nós vamos\" is the safest choice.",
+            explanation: "\"A gente\" takes the ele/ela form (\"a gente vai\"), and \"nós\" takes \"vamos\". Mixing them is a stigmatized form that an audience notices at once. In a formal speech \"nós vamos\" is the safest choice.",
           },
           {
             type: "fill-blank",
@@ -2163,7 +2163,7 @@ export const PT_C2_U06: Lesson[] = [
             question: "You're ending a speech asking residents to sign a petition. Which closing is strongest?",
             options: ["Bom, acho que é isso. Obrigado, gente.", "Assinem o abaixo-assinado hoje, antes de sair daqui. Muito obrigado.", "Desculpem se eu me estendi demais. É só isso.", "E, aliás, tem mais um problema que eu ainda não mencionei..."],
             correctIndex: 1,
-            explanation: "The strong closing asks for a concrete action, then thanks the audience. The others trail off, apologise, or open a new argument when the audience is ready to leave.",
+            explanation: "The strong closing asks for a concrete action, then thanks the audience. The others trail off, apologize, or open a new argument when the audience is ready to leave.",
           },
           {
             type: "translate",
@@ -2222,7 +2222,7 @@ export const PT_C2_U06: Lesson[] = [
         type: "speak",
         text: "A praça é de todos. Vamos cuidar dela juntos.",
         prompt: "Say it in Portuguese: The square belongs to everyone. Let's look after it together.",
-        tip: "Pause after todos and land firmly on juntos. A closing line needs a full stop in the voice.",
+        tip: "Pause after todos and land firmly on juntos. A closing line needs a period in the voice.",
         explanation: "Two short sentences: a principle, then a call to action. \"Cuidar de\" plus \"ela\" contracts to \"dela\".",
       },
       {
@@ -2294,16 +2294,16 @@ export const PT_C2_U06: Lesson[] = [
       {
         heading: "The brief: three minutes, one request",
         body: [
-          "Your mission: the Câmara Municipal de Porto Alegre is holding an \"audiência pública\" on a plan to turn the Praça das Figueiras, in your neighbourhood, into a car park. The residents' association has given you three minutes at the microphone. At a calm pace that is roughly 400 words. It leaves room for one short story, two or three arguments and a closing, and nothing else.",
+          "Your mission: the Câmara Municipal de Porto Alegre is holding an \"audiência pública\" on a plan to turn the Praça das Figueiras, in your neighborhood, into a parking lot. The residents' association has given you three minutes at the microphone. At a calm pace that is roughly 400 words. It leaves room for one short story, two or three arguments and a closing, and nothing else.",
           "Use the four movements from the start of this unit as your skeleton, each with a time budget: \"exórdio\" about 30 seconds, \"narração\" 40, \"argumentação\" 80, \"peroração\" 30. Before you write a word, finish this sentence: at the end, I want the room to... Cut everything that doesn't serve that request.",
           "The opening has fifteen seconds to do three jobs. Greet the room in order of precedence (the person presiding first, then the \"vereadores\", then everyone else), say who you are, and give a reason to listen. A concrete image or a figure beats \"Gostaria de falar sobre...\". The opening joke English speakers reach for can sound flippant at a public hearing, so save it for a wedding toast.",
         ],
         examples: [
-          { es: "Senhor Presidente, senhoras vereadoras, senhores vereadores, moradores do Bom Fim: boa noite.", en: "Mr President, councillors, residents of Bom Fim: good evening." },
+          { es: "Senhor Presidente, senhoras vereadoras, senhores vereadores, moradores do Bom Fim: boa noite.", en: "Mr. President, council members, residents of Bom Fim: good evening." },
           { es: "Agradeço a oportunidade de falar em nome da Associação de Moradores.", en: "Thank you for the opportunity to speak on behalf of the Residents' Association." },
           { es: "Meu nome é Helen Carter, sou inglesa e moro no Bom Fim há doze anos.", en: "My name is Helen Carter. I'm English and I've lived in Bom Fim for twelve years." },
           { es: "Há quarenta anos, as crianças desta rua aprendem a andar de bicicleta na Praça das Figueiras.", en: "For forty years, the children on this street have learned to ride a bike in the Praça das Figueiras." },
-          { es: "Daqui a seis meses, se nada for feito, essa praça vai virar um estacionamento.", en: "Six months from now, if nothing is done, this square will become a car park." },
+          { es: "Daqui a seis meses, se nada for feito, essa praça vai virar um estacionamento.", en: "Six months from now, if nothing is done, this square will become a parking lot." },
           { es: "Venho aqui hoje com um pedido simples: que a praça continue sendo de todos.", en: "I come here today with a simple request: that the square remain everyone's." },
         ],
         checkpoint: [
@@ -2314,7 +2314,7 @@ export const PT_C2_U06: Lesson[] = [
             source: "I'm here tonight on behalf of almost two thousand residents.",
             answer: "Estou aqui esta noite em nome de quase dois mil moradores.",
             altAnswers: ["Estou aqui hoje à noite em nome de quase dois mil moradores.", "Venho aqui esta noite em nome de quase dois mil moradores.", "Estou aqui hoje em nome de quase dois mil moradores.", "Eu estou aqui esta noite em nome de quase dois mil moradores."],
-            explanation: "\"Em nome de\" is on behalf of. Leading with a round figure (\"quase dois mil\") tells the councillors in one breath why you deserve their attention.",
+            explanation: "\"Em nome de\" is on behalf of. Leading with a round figure (\"quase dois mil\") tells the council members in one breath why you deserve their attention.",
           },
           {
             type: "multiple-choice",
@@ -2346,7 +2346,7 @@ export const PT_C2_U06: Lesson[] = [
           { es: "A praça é lugar de encontro. A praça é lugar de sombra. A praça é lugar de memória.", en: "The square is a place to meet. The square is a place for shade. The square is a place of memory." },
           { es: "Semana passada, a dona Lurdes, de oitenta e dois anos, me contou que é ali que ainda encontra as amigas.", en: "Last week Dona Lurdes, who's eighty-two, told me that's where she still meets her friends." },
           { es: "Em apenas dez dias, quase dois mil moradores assinaram o abaixo-assinado.", en: "In just ten days, almost two thousand residents signed the petition." },
-          { es: "Alguns dirão que o bairro precisa de mais vagas. É verdade. Mas ninguém se muda para o Bom Fim por causa de uma vaga.", en: "Some will say the neighbourhood needs more parking. That's true. But nobody moves to Bom Fim for a parking space." },
+          { es: "Alguns dirão que o bairro precisa de mais vagas. É verdade. Mas ninguém se muda para o Bom Fim por causa de uma vaga.", en: "Some will say the neighborhood needs more parking. That's true. But nobody moves to Bom Fim for a parking space." },
           { es: "Ninguém aqui é contra o progresso; somos contra trocar sombra por asfalto.", en: "Nobody here is against progress; we're against trading shade for asphalt." },
         ],
         checkpoint: [
@@ -2379,7 +2379,7 @@ export const PT_C2_U06: Lesson[] = [
       {
         heading: "The closing: the peroração",
         body: [
-          "The last thirty seconds are what people repeat in the corridor. Signal the end (\"Para encerrar\", \"Termino com...\"), go back to your opening image, and make one concrete request: who should do what, and when. That is where \"pedir que\" + subjunctive earns its place: \"peço que os senhores votem contra\".",
+          "The last thirty seconds are what people repeat in the hallway. Signal the end (\"Para encerrar\", \"Termino com...\"), go back to your opening image, and make one concrete request: who should do what, and when. That is where \"pedir que\" + subjunctive earns its place: \"peço que os senhores votem contra\".",
           "English speakers often bring over a closing that fizzles: \"Bom, é isso\" or \"Era isso que eu tinha a dizer\". Among colleagues it's harmless. At a microphone it sounds as if you ran out of speech. End on the request or an antithesis, pause, then say \"Muito obrigado\" (or \"Muito obrigada\", agreeing with you, the speaker).",
         ],
         examples: [
@@ -2393,7 +2393,7 @@ export const PT_C2_U06: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into Portuguese. (You're addressing the councillors.)",
+            prompt: "Translate into Portuguese. (You're addressing the council members.)",
             source: "I ask that you keep the square public.",
             answer: "Peço que os senhores mantenham a praça pública.",
             altAnswers: ["Peço aos senhores que mantenham a praça pública.", "Peço que as senhoras e os senhores mantenham a praça pública.", "Peço que vocês mantenham a praça pública.", "Eu peço que os senhores mantenham a praça pública."],
@@ -2453,7 +2453,7 @@ export const PT_C2_U06: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We're not against the car park; we're against the place they chose.",
+        source: "We're not against the parking lot; we're against the place they chose.",
         answer: "Não somos contra o estacionamento; somos contra o lugar escolhido.",
         altAnswers: ["Nós não somos contra o estacionamento; somos contra o lugar escolhido.", "Não somos contra o estacionamento; somos contra o lugar que escolheram.", "Não somos contra o estacionamento; somos contra o lugar que eles escolheram.", "Não somos contra o estacionamento; somos contra o lugar que foi escolhido."],
         explanation: "The \"não somos contra X; somos contra Y\" frame concedes and redirects in one breath. \"O lugar escolhido\" is more compact than a relative clause and just as clear spoken.",
@@ -2462,7 +2462,7 @@ export const PT_C2_U06: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "A car park can be built in a month; a square takes a generation.",
+        source: "A parking lot can be built in a month; a square takes a generation.",
         answer: "Um estacionamento se constrói em um mês; uma praça leva uma geração.",
         altAnswers: ["Um estacionamento se constrói num mês; uma praça leva uma geração.", "Constrói-se um estacionamento em um mês; uma praça leva uma geração.", "Um estacionamento se faz em um mês; uma praça leva uma geração.", "Um estacionamento se constrói em um mês; uma praça demora uma geração."],
         explanation: "An antithesis built on the se passivo (\"se constrói\") with \"levar\" for how long something takes. Both halves are the same length, which is what makes it land aloud.",
@@ -2506,7 +2506,7 @@ export const PT_C2_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I ask the councillors to [visit] the square before voting.",
+        en: "I ask the council members to [visit] the square before voting.",
         sentence: "Peço que os vereadores ___ a praça antes de votar.",
         answer: "visitem",
         altAnswers: ["conheçam"],
@@ -2520,9 +2520,9 @@ export const PT_C2_U06: Lesson[] = [
       {
         type: "speak",
         text: "Senhor Presidente, senhoras vereadoras, senhores vereadores, moradores do Bom Fim: boa noite.",
-        prompt: "Say it in Portuguese: Mr President, councillors, residents of Bom Fim: good evening.",
+        prompt: "Say it in Portuguese: Mr. President, council members, residents of Bom Fim: good evening.",
         tip: "Slow down on the vocatives, keep a short pause after each one, and keep the ô in senhores closed.",
-        explanation: "Vocatives in order of precedence: the person presiding, then the councillors (women and men named), then the public. The greeting comes last.",
+        explanation: "Vocatives in order of precedence: the person presiding, then the council members (women and men named), then the public. The greeting comes last.",
       },
       {
         type: "multiple-choice",
@@ -2552,7 +2552,7 @@ export const PT_C2_U06: Lesson[] = [
         examples: [
           { es: "Boa noite a todos. Vou começar com uma pergunta: quem aqui já esperou mais de uma hora por um ônibus?", en: "Good evening, everyone. I'll start with a question: who here has ever waited more than an hour for a bus?" },
           { es: "Agradeço à Associação de Moradores pelo convite e prometo ser breve.", en: "I thank the Residents' Association for the invitation, and I promise to be brief." },
-          { es: "Vou falar de três pontos: segurança, transporte e saúde.", en: "I'm going to talk about three points: safety, transport and health." },
+          { es: "Vou falar de três pontos: segurança, transporte e saúde.", en: "I'm going to talk about three points: safety, transportation and health." },
           { es: "Voltando à pergunta do início: ninguém deveria esperar uma hora por um ônibus.", en: "Going back to the question I started with: nobody should have to wait an hour for a bus." },
           { es: "Por isso, peço o apoio de vocês na votação de quinta-feira.", en: "That's why I'm asking for your support in Thursday's vote." },
         ],
@@ -2633,7 +2633,7 @@ export const PT_C2_U06: Lesson[] = [
           "Time limits are part of the genre. When the moderator says \"tempo esgotado\", you stop, even mid-sentence, so put your strongest point first, not last.",
         ],
         examples: [
-          { es: "Peço a palavra, senhor presidente.", en: "I ask for the floor, Mr Chairman." },
+          { es: "Peço a palavra, senhor presidente.", en: "I ask for the floor, Mr. Chairman." },
           { es: "Questão de ordem: o tempo da candidata já se esgotou.", en: "Point of order: the candidate's time is already up." },
           { es: "O senhor terá dois minutos para a réplica.", en: "You will have two minutes for your reply." },
           { es: "Agradeço a pergunta e vou respondê-la em duas partes.", en: "Thank you for the question; I'll answer it in two parts." },
@@ -2802,7 +2802,7 @@ export const PT_C2_U06: Lesson[] = [
 
 export const PT_C2_U06_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Belo Horizonte City Council is holding a public hearing (audiência pública) on a proposal to turn an abandoned bus depot in your neighbourhood into a public park and community centre. Speaking for the residents' association, write the three-minute speech you will give to the councillors and the public. Write it for the ear, not the page: greet the audience formally, tell the story of the site briefly, give your arguments, answer the strongest objection, and close with a clear call to vote.",
+  prompt: "Belo Horizonte City Council is holding a public hearing (audiência pública) on a proposal to turn an abandoned bus depot in your neighborhood into a public park and community center. Speaking for the residents' association, write the three-minute speech you will give to the council members and the public. Write it for the ear, not the page: greet the audience formally, tell the story of the site briefly, give your arguments, answer the strongest objection, and close with a clear call to vote.",
   minWords: 250,
   maxWords: 400,
   rubric: [
@@ -2812,5 +2812,5 @@ export const PT_C2_U06_WRITING: WriteExercise = {
     "Persuasive modality in the formal spoken register: \"peço que esta Casa aprove\", \"que possamos ver...\", short sentences built for listening and no written-only forms such as mesóclise."
   ],
   modelAnswer: "Excelentíssimo senhor presidente da Câmara, senhoras e senhores vereadores, caros vizinhos,\n\nBoa noite. Agradeço a oportunidade de falar em nome da Associação de Moradores do Barreiro.\n\nQuero começar com uma lembrança. Há dez anos, a antiga garagem de ônibus da Rua Itaipu fechou as portas. Desde então, o que era um lugar de trabalho virou um terreno abandonado: mato alto, lixo acumulado, muros pichados. As crianças do bairro passam por ali todos os dias a caminho da escola. E todos os dias as mães atravessam a rua com medo.\n\nHoje, temos a chance de mudar essa história. A proposta que trazemos é simples: transformar aquele terreno num parque com quadra, horta comunitária e um centro cultural.\n\nPor que um parque? Em primeiro lugar, por segurança: um espaço iluminado e ocupado afasta a criminalidade. Em segundo lugar, por saúde: o Barreiro tem quase trezentos mil habitantes e pouquíssimas áreas verdes. Por fim, por convivência. Um parque é onde o idoso caminha, onde o jovem joga bola, onde a família passa o domingo.\n\nAlguns dirão que a prefeitura não tem dinheiro. Outros dirão que o terreno vale mais nas mãos de uma construtora. Eu entendo essas preocupações. Mas eu pergunto aos senhores: quanto custa um bairro sem lugar para as crianças brincarem? Quanto custa uma juventude sem ter para onde ir? O projeto pode ser feito em etapas, com parcerias e emendas, e os próprios moradores já se ofereceram para cuidar da horta.\n\nSenhoras e senhores, não estamos pedindo um favor. Estamos pedindo um direito. Não estamos pedindo um luxo. Estamos pedindo dignidade. Não estamos pedindo promessas. Estamos pedindo um voto.\n\nPor isso, peço que esta Casa aprove o projeto. Que daqui a dois anos, ao passarmos pela Rua Itaipu, possamos ver não um muro pichado, mas crianças correndo, árvores crescendo e vizinhos conversando.\n\nMuito obrigado.",
-  explanation: "The speech moves through the classical parts: the exórdio greets the audience by rank (\"Excelentíssimo senhor presidente\") and addresses the councillors as \"os senhores\" with third-person verbs, then come the narração, the argumentação and the peroração. The devices are built for the ear. The triad \"segurança, saúde, convivência\" and the anaphora \"onde... onde... onde\" and \"Não estamos pedindo... Estamos pedindo\" give the listener a rhythm to hold on to. The prolepsis \"Alguns dirão que...\" uses the future to voice the objection before an opponent can, and the rhetorical questions \"quanto custa...?\" turn it around. The close asks for action with the subjunctive: \"peço que esta Casa aprove\" is a request to a different subject, and the optative \"Que... possamos ver\" works as a wish. The personal infinitives \"para as crianças brincarem\" and \"ao passarmos\" keep the sentences short and spoken."
+  explanation: "The speech moves through the classical parts: the exórdio greets the audience by rank (\"Excelentíssimo senhor presidente\") and addresses the council members as \"os senhores\" with third-person verbs, then come the narração, the argumentação and the peroração. The devices are built for the ear. The triad \"segurança, saúde, convivência\" and the anaphora \"onde... onde... onde\" and \"Não estamos pedindo... Estamos pedindo\" give the listener a rhythm to hold on to. The prolepsis \"Alguns dirão que...\" uses the future to voice the objection before an opponent can, and the rhetorical questions \"quanto custa...?\" turn it around. The close asks for action with the subjunctive: \"peço que esta Casa aprove\" is a request to a different subject, and the optative \"Que... possamos ver\" works as a wish. The personal infinitives \"para as crianças brincarem\" and \"ao passarmos\" keep the sentences short and spoken."
 };

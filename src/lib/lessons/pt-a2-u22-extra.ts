@@ -187,16 +187,16 @@ export const PT_A2_U22_EXTRA: Lesson[] = [
         examples: [
           { es: "O voo para Fortaleza vai embarcar às vinte e uma e dez.", en: "The flight to Fortaleza will board at 21:10." },
           { es: "Senhores passageiros, o portão de embarque mudou para o portão quatro.", en: "Passengers, the boarding gate has changed to gate four." },
-          { es: "Oi, é o Marcos. Liguei pra dizer que a reunião foi cancelada.", en: "Hi, it's Marcos. I called to say the meeting has been cancelled." },
+          { es: "Oi, é o Marcos. Liguei pra dizer que a reunião foi cancelada.", en: "Hi, it's Marcos. I called to say the meeting has been canceled." },
           { es: "Aqui é da loja. O seu pedido já chegou.", en: "This is the shop. Your order has arrived." },
-          { es: "Me liga de volta no nove, meia, oito, sete, três, dois, um, zero, cinco.", en: "Call me back on 9 6 8 7 3 2 1 0 5." },
+          { es: "Me liga de volta no nove, meia, oito, sete, três, dois, um, zero, cinco.", en: "Call me back at 9 6 8 7 3 2 1 0 5." },
         ],
         checkpoint: [
           {
             type: "listen-choose",
             audio: "O portão de embarque mudou para o portão quatro.",
             question: "What changed?",
-            options: ["The boarding gate, now gate 4.", "The boarding time, now 4:00.", "The flight number.", "The flight was cancelled."],
+            options: ["The boarding gate, now gate 4.", "The boarding time, now 4:00.", "The flight number.", "The flight was canceled."],
             correctIndex: 0,
             explanation: "\"Portão\" is gate; \"quatro\" is four.",
           },
@@ -240,13 +240,13 @@ export const PT_A2_U22_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "A reunião foi cancelada por causa da chuva.",
-        explanation: "\"Foi cancelada\" (was cancelled) agrees with \"a reunião\".",
+        explanation: "\"Foi cancelada\" (was canceled) agrees with \"a reunião\".",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The meeting has been cancelled.",
+        source: "The meeting has been canceled.",
         answer: "A reunião foi cancelada.",
         altAnswers: ["Cancelaram a reunião.", "A reunião foi desmarcada.", "Desmarcaram a reunião."],
         explanation: "\"Foi cancelada\" or the impersonal \"cancelaram\".",
@@ -323,7 +323,7 @@ export const PT_A2_U22_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "You hear: Última chamada para o voo 2810 com destino a Belém. What does it mean?",
-        options: ["Final call for flight 2810 to Belém.", "The flight to Belém has landed.", "The flight to Belém is cancelled.", "Flight 2810 has arrived from Belém."],
+        options: ["Final call for flight 2810 to Belém.", "The flight to Belém has landed.", "The flight to Belém is canceled.", "Flight 2810 has arrived from Belém."],
         correctIndex: 0,
         explanation: "\"Última chamada\" is final call; \"com destino a\" is bound for.",
       },
@@ -427,7 +427,7 @@ export const PT_A2_U22_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, for an email.",
-        source: "Could you send me the timetable?",
+        source: "Could you send me the schedule?",
         answer: "O senhor poderia me enviar os horários?",
         altAnswers: ["A senhora poderia me enviar os horários?", "Você poderia me enviar os horários?", "Poderia me enviar os horários?", "O senhor poderia me mandar os horários?", "A senhora poderia me mandar os horários?", "Você poderia me mandar os horários?", "Poderia me mandar os horários?"],
         explanation: "\"Poderia\" + \"me\" + infinitive: polite and natural.",
@@ -444,7 +444,7 @@ export const PT_A2_U22_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The school [where] I study is in the centre.",
+        en: "The school [where] I study is in the center.",
         sentence: "A escola ___ eu estudo fica no centro.",
         answer: "onde",
         altAnswers: ["em que"],

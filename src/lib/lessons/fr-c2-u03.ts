@@ -241,7 +241,7 @@ export const FR_C2_U03: Lesson[] = [
         heading: "Avoir mal: where it hurts",
         body: [
           "French says where it hurts with \"avoir mal à\" + the definite article: \"j'ai mal à la tête\", \"j'ai mal au dos\", \"j'ai mal aux dents\", \"elle a mal à l'oreille droite\". The body part takes \"le / la / les\", not a possessive: \"*j'ai mal à ma tête\" is a classic English-speaker error, because French considers it obvious whose head it is. The same applies to \"se casser la jambe\", \"se tordre la cheville\" (to twist one's ankle), \"se brûler la main\".",
-          "\"Faire mal\" puts the body part or the action as subject: \"ma cheville me fait mal\", \"ça me fait mal quand j'avale\", \"ça fait mal ici\". \"Se faire mal\" means to hurt oneself: \"je me suis fait mal au genou en courant\" (the participle \"fait\" stays invariable before an infinitive or here before \"mal\"). \"Une douleur\" is the noun: \"une douleur au genou\", \"des douleurs abdominales\".",
+          "\"Faire mal\" puts the body part or the action as subject: \"ma cheville me fait mal\", \"ça me fait mal quand j'avale\", \"ça fait mal ici\". \"Se faire mal\" means to hurt oneself: \"je me suis fait mal au genou en courant\" (the participle \"fait\" stays invariable, \"elle s'est fait mal\", because \"se\" is an indirect object here). \"Une douleur\" is the noun: \"une douleur au genou\", \"des douleurs abdominales\".",
           "With a doctor, be precise about location: \"en haut à droite du ventre\", \"derrière le genou\", \"dans le bas du dos\" (lower back, the most common complaint in France: \"un lumbago\", \"un tour de reins\"), \"au creux de l'estomac\" (in the pit of the stomach), \"sur le côté gauche\".",
         ],
         examples: [
@@ -274,7 +274,7 @@ export const FR_C2_U03: Lesson[] = [
       {
         heading: "Symptoms: nausées, vertiges, courbatures... and the angine trap",
         body: [
-          "The essential list. \"Avoir des nausées\" (to feel sick), \"vomir\" (to vomit, \"des vomissements\"), \"avoir des vertiges\" (dizziness; \"la tête qui tourne\"), \"avoir des courbatures\" (aching muscles, after sport or with flu), \"avoir des frissons\" (shivers), \"avoir de la fièvre\" (\"38,5 de fièvre\"), \"tousser\" (\"une toux sèche\" / \"une toux grasse\": dry / chesty), \"avoir le nez qui coule\" or \"le nez bouché\" (runny / blocked nose), \"être enrhumé(e)\" (to have a cold), \"être essoufflé(e)\" (out of breath), \"avoir des palpitations\", \"avoir la diarrhée\", \"être constipé(e)\" (only means constipated; a blocked nose is \"le nez bouché\").",
+          "The essential list. \"Avoir des nausées\" (to feel sick), \"vomir\" (to vomit, \"des vomissements\"), \"avoir des vertiges\" (dizziness; \"la tête qui tourne\"), \"avoir des courbatures\" (aching muscles, after sport or with flu), \"avoir des frissons\" (shivers), \"avoir de la fièvre\" (\"38,5 de fièvre\"), \"tousser\" (\"une toux sèche\" / \"une toux grasse\": dry / chesty), \"avoir le nez qui coule\" or \"le nez bouché\" (runny / blocked nose), \"être enrhumé(e)\" (to have a cold), \"être essoufflé(e)\" (out of breath), \"avoir des palpitations\", \"avoir la diarrhée\", \"être constipé(e)\" (to be constipated).",
           "Now the false friends. \"Une angine\" is a sore throat infection, tonsillitis: \"j'ai une angine\" is extremely common and harmless. Angina in the cardiac sense is \"une angine de poitrine\", medically \"l'angor\". \"La grippe\" is real influenza, with high fever and aches; a cold is \"un rhume\". French speakers say \"j'ai la grippe\" less loosely than English speakers say 'I've got flu', so don't use it for a sniffle. \"Une crise de foie\" (literally a liver attack) is the French cultural name for indigestion after a rich meal: the liver is usually not involved.",
           "Note \"être malade\" (to be ill) vs \"avoir mal au cœur\": despite the words, \"j'ai mal au cœur\" usually means I feel sick (nauseous), not heart pain, which is \"une douleur dans la poitrine\" or \"une douleur thoracique\".",
         ],
@@ -934,7 +934,7 @@ export const FR_C2_U03: Lesson[] = [
         examples: [
           { es: "Le patient présente une dyspnée d'effort.", en: "The patient is breathless on exertion." },
           { es: "Elle a fait une hypoglycémie pendant la nuit.", en: "She had a hypo during the night." },
-          { es: "L'ECG montre une tachycardie à 120 battements par minute.", en: "The ECG shows a heart rate of 120 beats per minute." },
+          { es: "L'ECG montre une tachycardie à 120 battements par minute.", en: "The ECG shows tachycardia at 120 beats per minute." },
           { es: "Il se plaint de céphalées matinales et d'une asthénie importante.", en: "He complains of morning headaches and severe fatigue." },
           { es: "On note un œdème des deux chevilles.", en: "There is swelling of both ankles." },
           { es: "Depuis le Covid, elle souffre d'une anosmie partielle.", en: "Since Covid, she has partially lost her sense of smell." },
@@ -967,7 +967,7 @@ export const FR_C2_U03: Lesson[] = [
         body: [
           "French medicine runs on acronyms, and they don't match English ones. \"L'HTA\" (hypertension artérielle) = high blood pressure. \"Un AVC\" (accident vasculaire cérébral) = a stroke. \"Un IDM\" (infarctus du myocarde) = a heart attack. \"Une IRM\" (imagerie par résonance magnétique) = an MRI, note the reversed letters. \"Un ECG\" (électrocardiogramme). \"La BPCO\" = COPD. \"Le sida\" (AIDS) and \"le VIH\" (HIV). \"Les IST\" = STIs.",
           "Pronunciation: most acronyms are read letter by letter, with French letter names: AVC = \"a-vé-cé\", IRM = i + \"erre\" + \"emme\", HTA = \"ache-té-a\", ECG = \"e-cé-gé\", VIH = \"vé-i-ache\". Only those that form a pronounceable word are read as words: \"le sida\", \"le SAMU\", \"le SMUR\". Gender follows the head noun: \"un AVC\" (un accident), \"une IRM\" (une imagerie).",
-          "Tests: \"une prise de sang\" (a blood test, the act), \"un bilan sanguin\" (the set of results), \"une NFS\" (numération formule sanguine: full blood count), \"une analyse d'urine\", \"un scanner\" (CT scan; in hospital jargon \"un TDM\", tomodensitométrie), \"une radio\". You \"faites une prise de sang\" at \"le laboratoire d'analyses\" (\"le labo\"), usually \"à jeun\". \"Le scanner\" is the CT scan, never a supermarket scanner in this context.",
+          "Tests: \"une prise de sang\" (a blood test, the act), \"un bilan sanguin\" (the set of results), \"une NFS\" (numération formule sanguine: full blood count), \"une analyse d'urine\", \"un scanner\" (CT scan; in hospital jargon \"un TDM\", tomodensitométrie), \"une radio\". You have your blood taken (\"faire une prise de sang\") at \"le laboratoire d'analyses\" (\"le labo\"), usually \"à jeun\". \"Le scanner\" is the CT scan, never a supermarket scanner in this context.",
         ],
         examples: [
           { es: "Mon grand-père a fait un AVC l'année dernière.", en: "My grandfather had a stroke last year." },
@@ -1188,7 +1188,7 @@ export const FR_C2_U03: Lesson[] = [
         body: [
           "Every box contains \"la notice\" (the patient information leaflet). Its sections: \"Indications thérapeutiques\" (what it's for), \"Contre-indications\" (when not to take it), \"Mises en garde et précautions d'emploi\" (warnings), \"Interactions médicamenteuses\", \"Grossesse et allaitement\", \"Posologie\", \"Effets indésirables\" (side effects: \"les effets secondaires\" in speech), \"Conservation\" (storage: \"à conserver à l'abri de la lumière\").",
           "Now the traps. \"Une drogue\" is an illegal drug (\"la drogue\", \"se droguer\"), never a medicine: \"Je prends des drogues pour mon cœur\" would alarm your listener. Say \"des médicaments\". In the same way \"une pharmacie\" is a chemist's, and you'll never find drugs in \"un drugstore\" in France (the word exists, for a shop selling a bit of everything).",
-          "And the most embarrassing: \"un préservatif\" is a condom. A preservative in food or cosmetics is \"un conservateur\" (\"sans conservateurs\", preservative-free). Similarly, \"être constipé\" is only medical, and \"excité\" is often sexual where English 'excited' is not: say \"impatient\" or \"enthousiaste\".",
+          "And the most embarrassing: \"un préservatif\" is a condom. A preservative in food or cosmetics is \"un conservateur\" (\"sans conservateurs\", preservative-free). Similarly, \"excité\" is often sexual where English 'excited' is not: say \"impatient\" or \"enthousiaste\".",
         ],
         examples: [
           { es: "Lisez attentivement la notice avant utilisation.", en: "Read the leaflet carefully before use." },
@@ -1552,7 +1552,7 @@ export const FR_C2_U03: Lesson[] = [
           { es: "Le docteur vous a prescrit un antibiotique pour sept jours.", en: "The doctor has prescribed an antibiotic for seven days." },
           { es: "Vous n'êtes pas allergique à la pénicilline ?", en: "You're not allergic to penicillin, are you?" },
           { es: "Vous prenez d'autres médicaments en ce moment ?", en: "Are you taking any other medicines at the moment?" },
-          { es: "Un comprimé toutes les six heures au minimum.", en: "One tablet every six hours at the most often." },
+          { es: "Un comprimé toutes les six heures au minimum.", en: "One tablet every six hours, no more often." },
           { es: "Sans dépasser trois grammes par jour, soit trois comprimés.", en: "Without exceeding three grams a day, that is three tablets." },
           { es: "Le sérum physiologique est en dosettes, c'est plus pratique.", en: "The saline comes in single-dose pods, it's more practical." },
         ],
@@ -1594,7 +1594,7 @@ export const FR_C2_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into everyday French, as the pharmacist to the patient (vous).",
+            prompt: "Translate into everyday French, as the pharmacist to the patient (\"vous\").",
             source: "You must finish the box, even if you feel better before.",
             answer: "Il faut aller jusqu'au bout de la boîte, même si vous vous sentez mieux avant.",
             altAnswers: ["Il faut finir la boîte, même si vous vous sentez mieux avant.", "Vous devez finir la boîte, même si vous vous sentez mieux avant.", "Il faut terminer la boîte, même si vous allez mieux avant.", "Il faut aller jusqu'au bout du traitement, même si vous vous sentez mieux avant.", "Vous devez aller jusqu'au bout de la boîte, même si vous allez mieux avant."],
@@ -1623,7 +1623,7 @@ export const FR_C2_U03: Lesson[] = [
           { es: "Si vous voyez des plaques rouges qui grattent, arrêtez l'antibiotique et appelez le médecin.", en: "If you notice itchy red patches, stop the antibiotic and call the doctor." },
           { es: "Si la fièvre ne baisse pas au bout de trois jours, il faut reconsulter.", en: "If the fever hasn't gone down after three days, you need to see the doctor again." },
           { es: "Pour être sûr que je me suis bien fait comprendre, vous pouvez me redire comment vous allez le prendre ?", en: "Just to be sure I've explained it properly, could you tell me how you're going to take it?" },
-          { es: "Et vous, Madame, ça vous paraît clair ?", en: "And you, does it seem clear to you?" },
+          { es: "Et vous, Madame, ça vous paraît clair ?", en: "And you, madam, is that clear to you?" },
           { es: "N'hésitez pas à nous appeler. Bon rétablissement !", en: "Don't hesitate to call us. Get well soon!" },
         ],
         checkpoint: [
@@ -1668,7 +1668,7 @@ export const FR_C2_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into everyday French, as the pharmacist to the patient (vous).",
+        prompt: "Translate into everyday French, as the pharmacist to the patient (\"vous\").",
         source: "You take one tablet at breakfast and one at dinner.",
         answer: "Vous prenez un comprimé au petit-déjeuner et un au dîner.",
         altAnswers: ["Vous prenez un comprimé au petit déjeuner et un au dîner.", "Vous prendrez un comprimé au petit-déjeuner et un au dîner.", "Vous en prenez un au petit-déjeuner et un au dîner.", "Prenez un comprimé au petit-déjeuner et un au dîner."],
@@ -1771,8 +1771,8 @@ export const FR_C2_U03: Lesson[] = [
       {
         heading: "Who's who in a French hospital",
         body: [
-          "A French hospital is divided into \"services\" (departments): \"le service de cardiologie\", \"de pneumologie\", \"de gériatrie\", \"les urgences\", \"la réanimation\" (\"la réa\": intensive care), \"le bloc opératoire\" (\"le bloc\": the operating theatre). Each service is run by \"le chef de service\". \"Un praticien hospitalier\" (PH) is a senior hospital doctor, and \"le chef de clinique\" is a junior senior doctor who also teaches.",
-          "The big trap: \"un interne\" is a resident, a qualified medical graduate in specialist training who prescribes and takes night shifts (\"être de garde\"). It is not an intern. A medical student doing hospital placements is \"un externe\"; any other trainee is \"un stagiaire\" (an intern in a company, too). The ward round is \"la visite\": \"le chef passe à la visite à 10 heures\".",
+          "A French hospital is divided into \"services\" (departments): \"le service de cardiologie\", \"de pneumologie\", \"de gériatrie\", \"les urgences\", \"la réanimation\" (\"la réa\": intensive care), \"le bloc opératoire\" (\"le bloc\": the operating theatre). Each service is run by \"le chef de service\". \"Un praticien hospitalier\" (PH) is a senior hospital doctor, and \"le chef de clinique\" is a young senior doctor, just out of residency, who also teaches.",
+          "The big trap: \"un interne\" is a resident, a qualified medical graduate in specialist training who prescribes and takes night shifts (\"être de garde\"). It is not an intern. A medical student doing hospital placements is \"un externe\"; any other trainee is \"un stagiaire\" (an intern in a company, too). The ward round is \"la visite\": \"le chef fait la visite à 10 heures\".",
           "On the nursing side: \"l'infirmier / l'infirmière\" (nurse), \"l'aide-soignant(e)\" (healthcare assistant: washing, meals, comfort), \"le cadre de santé\" (ward manager, the former \"surveillante\"), \"l'ASH\" (agent des services hospitaliers: cleaning and logistics), \"le brancardier\" (porter). Patients often call every woman in a white coat \"l'infirmière\", which aides-soignantes and female doctors find tiring: read the badge.",
         ],
         examples: [
@@ -1945,9 +1945,9 @@ export const FR_C2_U03: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order to say: The head of department does the round at ten.",
-        words: ["Le chef de service", "passe", "à la visite", "à dix", "heures."],
+        words: ["Le chef de service", "fait", "la visite", "à dix", "heures."],
         translation: "The head of department does the round at ten.",
-        explanation: "\"Passer à la visite\" or \"faire la visite\": the ward round.",
+        explanation: "\"Faire la visite\": the daily ward round; you can also say \"le médecin passe pour la visite\".",
       },
       {
         type: "dictation",
@@ -2312,7 +2312,7 @@ export const FR_C2_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into everyday French, explaining to a friend (tu) about her father.",
+            prompt: "Translate into everyday French, explaining to a friend (\"tu\") about her father.",
             source: "He has to have a blood test in a month and see the cardiologist again.",
             answer: "Il doit faire une prise de sang dans un mois et revoir le cardiologue.",
             altAnswers: ["Il doit faire une prise de sang dans un mois et retourner voir le cardiologue.", "Il doit faire une prise de sang dans un mois et revoir son cardiologue.", "Il faut qu'il fasse une prise de sang dans un mois et qu'il revoie le cardiologue.", "Il doit faire une prise de sang d'ici un mois et revoir le cardiologue."],
@@ -2389,7 +2389,7 @@ export const FR_C2_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into everyday French, explaining to a friend (tu).",
+        prompt: "Translate into everyday French, explaining to a friend (\"tu\").",
         source: "Your father's heart was beating irregularly, but it went back to normal on the third day.",
         answer: "Le cœur de ton père battait de façon irrégulière, mais il est redevenu normal au troisième jour.",
         altAnswers: ["Le cœur de ton père battait de manière irrégulière, mais il est redevenu normal au troisième jour.", "Le cœur de ton père battait irrégulièrement, mais il est redevenu normal le troisième jour.", "Le cœur de ton père battait de façon irrégulière, mais son rythme est redevenu normal au troisième jour.", "Le cœur de ton père battait irrégulièrement, mais il est redevenu normal au troisième jour."],

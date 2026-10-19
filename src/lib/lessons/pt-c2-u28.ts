@@ -271,7 +271,7 @@ export const PT_C2_U28: Lesson[] = [
         examples: [
           { es: "A polícia deteve dois suspeitos no aeroporto de Guarulhos.", en: "The police detained two suspects at Guarulhos airport." },
           { es: "Este suco contém açúcar adicionado.", en: "This juice contains added sugar." },
-          { es: "As duas empresas mantêm contratos com a prefeitura.", en: "Both companies hold contracts with the city council." },
+          { es: "As duas empresas mantêm contratos com a prefeitura.", en: "Both companies hold contracts with City Hall." },
           { es: "Três deputados se abstiveram na votação.", en: "Three congressmen abstained in the vote." },
           { es: "Obtivemos a licença depois de seis meses de espera.", en: "We got the permit after waiting six months." },
         ],
@@ -304,7 +304,7 @@ export const PT_C2_U28: Lesson[] = [
         ],
         examples: [
           { es: "O juiz interveio para acalmar os ânimos.", en: "The judge stepped in to calm things down." },
-          { es: "Os bombeiros intervieram em poucos minutos.", en: "The fire brigade intervened within minutes." },
+          { es: "Os bombeiros intervieram em poucos minutos.", en: "The fire department intervened within minutes." },
           { es: "Convém chegar ao aeroporto com duas horas de antecedência.", en: "It's advisable to get to the airport two hours early." },
           { es: "Sobreveio uma crise que ninguém esperava.", en: "A crisis arose that nobody had expected." },
           { es: "A maior parte da renda provém do turismo.", en: "Most of the income comes from tourism." },
@@ -343,8 +343,8 @@ export const PT_C2_U28: Lesson[] = [
         examples: [
           { es: "O sindicato propôs uma nova rodada de negociações.", en: "The union proposed a new round of negotiations." },
           { es: "Suponho que ela já saiba da notícia.", en: "I suppose she already knows the news." },
-          { es: "A prefeitura impôs um rodízio de carros no centro.", en: "The city council imposed a car rotation scheme downtown." },
-          { es: "Os vereadores se opuseram ao projeto.", en: "The councillors opposed the bill." },
+          { es: "A prefeitura impôs um rodízio de carros no centro.", en: "City Hall imposed a car rotation scheme downtown." },
+          { es: "Os vereadores se opuseram ao projeto.", en: "The city council members opposed the bill." },
           { es: "O texto foi composto em 1922, durante a Semana de Arte Moderna.", en: "The text was written in 1922, during the Modern Art Week." },
         ],
         checkpoint: [
@@ -360,7 +360,7 @@ export const PT_C2_U28: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The councillors [opposed] the bill.",
+            en: "The city council members [opposed] the bill.",
             sentence: "Os vereadores se ___ ao projeto.",
             answer: "opuseram",
             explanation: "\"Puseram\" → \"opuseram\". \"Oporam\" is a regular-looking invention.",
@@ -464,7 +464,7 @@ export const PT_C2_U28: Lesson[] = [
         question: "What does it mean?",
         options: ["The judge stepped in to calm things down.", "The judge came in to see the crowd.", "The judge interviewed the people involved.", "The judge will intervene if tempers rise."],
         correctIndex: 0,
-        explanation: "\"Interveio\" is the preterite of \"intervir\", modelled on \"veio\". Don't confuse it with \"entrevistar\" (to interview).",
+        explanation: "\"Interveio\" is the preterite of \"intervir\", modeled on \"veio\". Don't confuse it with \"entrevistar\" (to interview).",
       },
       {
         type: "translate",
@@ -511,7 +511,7 @@ export const PT_C2_U28: Lesson[] = [
           { es: "Eu passeio com o cachorro todas as manhãs.", en: "I walk the dog every morning." },
           { es: "Nós passeamos pela orla de Copacabana no domingo.", en: "We strolled along the Copacabana seafront on Sunday." },
           { es: "Receio que não haja tempo para tudo.", en: "I'm afraid there won't be time for everything." },
-          { es: "A peça estreia em março no Teatro Municipal.", en: "The play opens in March at the Municipal Theatre." },
+          { es: "A peça estreia em março no Teatro Municipal.", en: "The play opens in March at the Municipal Theater." },
           { es: "Espero que o governador nomeie uma secretária competente.", en: "I hope the governor appoints a competent secretary." },
         ],
         checkpoint: [
@@ -544,9 +544,9 @@ export const PT_C2_U28: Lesson[] = [
         examples: [
           { es: "Eu odeio acordar cedo no sábado.", en: "I hate getting up early on Saturdays." },
           { es: "A advogada medeia o conflito entre os sócios.", en: "The lawyer is mediating the dispute between the partners." },
-          { es: "Anseio por umas férias longe do celular.", en: "I long for a holiday away from my phone." },
+          { es: "Anseio por umas férias longe do celular.", en: "I long for a vacation away from my phone." },
           { es: "Os bombeiros temem que o vento incendeie a mata.", en: "The firefighters fear the wind will set the forest alight." },
-          { es: "Nós odiamos esperar na fila do banco.", en: "We hate waiting in the queue at the bank." },
+          { es: "Nós odiamos esperar na fila do banco.", en: "We hate waiting in the line at the bank." },
         ],
         checkpoint: [
           {
@@ -617,7 +617,7 @@ export const PT_C2_U28: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "They walk around the city centre on Sundays.",
+        source: "They walk around the city center on Sundays.",
         answer: "Eles passeiam pelo centro aos domingos.",
         altAnswers: ["Elas passeiam pelo centro aos domingos.", "Eles passeiam pelo centro da cidade aos domingos.", "Elas passeiam pelo centro da cidade aos domingos.", "Passeiam pelo centro aos domingos.", "Eles passeiam no centro aos domingos."],
         explanation: "Stress on the stem: \"passeiam\".",
@@ -721,9 +721,9 @@ export const PT_C2_U28: Lesson[] = [
         ],
         examples: [
           { es: "O governo aboliu a taxa de inscrição em 2019.", en: "The government abolished the registration fee in 2019." },
-          { es: "A nova lei abole a exigência de firma reconhecida.", en: "The new law abolishes the requirement for a notarised signature." },
-          { es: "As crianças coloriram os desenhos com lápis de cor.", en: "The children coloured in the drawings with crayons." },
-          { es: "Eu pinto os desenhos com a minha filha.", en: "I colour in the drawings with my daughter." },
+          { es: "A nova lei abole a exigência de firma reconhecida.", en: "The new law abolishes the requirement for a notarized signature." },
+          { es: "As crianças coloriram os desenhos com lápis de cor.", en: "The children colored in the drawings with crayons." },
+          { es: "Eu pinto os desenhos com a minha filha.", en: "I color in the drawings with my daughter." },
           { es: "O clube baniu o torcedor violento do estádio.", en: "The club banned the violent fan from the stadium." },
         ],
         checkpoint: [
@@ -731,7 +731,7 @@ export const PT_C2_U28: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, avoiding the missing form of colorir.",
-            source: "I colour in the pictures with my son.",
+            source: "I color in the pictures with my son.",
             answer: "Eu pinto os desenhos com o meu filho.",
             altAnswers: ["Pinto os desenhos com o meu filho.", "Eu pinto os desenhos com meu filho.", "Pinto os desenhos com meu filho.", "Eu pinto as figuras com o meu filho.", "Eu pinto as figuras com meu filho."],
             explanation: "\"Colorir\" has no \"eu\" form in the present, so Brazilians say \"pinto\".",
@@ -752,10 +752,10 @@ export const PT_C2_U28: Lesson[] = [
           "\"Reaver\" (to recover, get back) is \"haver\" with a prefix but keeps only the forms where \"haver\" has a \"v\": present \"reavemos\"; preterite \"reouve\", \"reouvemos\", \"reouveram\"; \"reouvesse\", \"reouver\", \"reavia\", \"reaverá\". The preterite trap is \"eu reavi\": the form is \"eu reouve\", same as the third person, like \"eu houve\".",
         ],
         examples: [
-          { es: "A livraria do bairro faliu no ano passado.", en: "The neighbourhood bookshop went bankrupt last year." },
+          { es: "A livraria do bairro faliu no ano passado.", en: "The neighborhood bookstore went bankrupt last year." },
           { es: "A fábrica está falindo, e os salários estão atrasados.", en: "The factory is going bankrupt, and wages are overdue." },
           { es: "Nós nos precavemos contra a alta do dólar.", en: "We protect ourselves against the rise of the dollar." },
-          { es: "A família reouve as joias roubadas depois de dois anos.", en: "The family got the stolen jewellery back after two years." },
+          { es: "A família reouve as joias roubadas depois de dois anos.", en: "The family got the stolen jewelry back after two years." },
           { es: "Precaveu-se contra golpes e não abriu o link.", en: "She was on her guard against scams and didn't open the link." },
         ],
         checkpoint: [
@@ -867,7 +867,7 @@ export const PT_C2_U28: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The children [coloured in] the map.",
+        en: "The children [colored in] the map.",
         sentence: "As crianças ___ o mapa.",
         answer: "coloriram",
         altAnswers: ["pintaram"],
@@ -877,7 +877,7 @@ export const PT_C2_U28: Lesson[] = [
         type: "listen-choose",
         audio: "A família reouve as joias roubadas.",
         question: "What does it mean?",
-        options: ["The family got the stolen jewellery back.", "The family saw the stolen jewellery again.", "The family heard about the stolen jewellery.", "The family will recover the stolen jewellery."],
+        options: ["The family got the stolen jewelry back.", "The family saw the stolen jewelry again.", "The family heard about the stolen jewelry.", "The family will recover the stolen jewelry."],
         correctIndex: 0,
         explanation: "\"Reouve\": preterite of \"reaver\", to recover.",
       },
@@ -959,10 +959,10 @@ export const PT_C2_U28: Lesson[] = [
         ],
         examples: [
           { es: "Eu já tinha pago a conta quando ele chegou.", en: "I had already paid the bill when he arrived." },
-          { es: "A dívida foi paga em dez parcelas.", en: "The debt was paid in ten instalments." },
+          { es: "A dívida foi paga em dez parcelas.", en: "The debt was paid in ten installments." },
           { es: "Ela tem ganho todos os prêmios do festival.", en: "She has been winning all the festival's awards." },
-          { es: "O ladrão foi pego na saída do shopping.", en: "The thief was caught at the shopping centre exit." },
-          { es: "As encomendas foram entregues na portaria.", en: "The parcels were delivered to the front desk." },
+          { es: "O ladrão foi pego na saída do shopping.", en: "The thief was caught at the shopping center exit." },
+          { es: "As encomendas foram entregues na portaria.", en: "The packages were delivered to the front desk." },
           { es: "O ônibus tinha chegado meia hora antes.", en: "The bus had arrived half an hour earlier." },
         ],
         checkpoint: [
@@ -1010,7 +1010,7 @@ export const PT_C2_U28: Lesson[] = [
             type: "listen-choose",
             audio: "Fiquei preso no trânsito por duas horas.",
             question: "What does it mean?",
-            options: ["I was stuck in traffic for two hours.", "I was arrested in traffic two hours ago.", "I got caught speeding twice.", "I stayed in the traffic queue on purpose."],
+            options: ["I was stuck in traffic for two hours.", "I was arrested in traffic two hours ago.", "I got caught speeding twice.", "I stayed in the traffic jam on purpose."],
             correctIndex: 0,
             explanation: "\"Ficar preso\" (short participle with \"ficar\") means to be stuck, as well as to be held.",
           },
@@ -1071,9 +1071,9 @@ export const PT_C2_U28: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct in the norm?",
-        options: ["O prefeito foi elegido em 2020.", "O prefeito foi eleito em 2020.", "Os eleitores tinham eleito o prefeito.", "Os eleitores tinham elegidos o prefeito."],
+        options: ["O prefeito foi elegido em 2020.", "O prefeito foi eleito em 2020.", "A prefeita foi eleito em 2020.", "Os eleitores tinham elegidos o prefeito."],
         correctIndex: 1,
-        explanation: "\"Ser\" + \"eleito\"; with \"ter\", the norm wants \"elegido\", which never agrees.",
+        explanation: "\"Ser\" + \"eleito\", agreeing with the subject. With \"ter\" the strict norm uses \"elegido\", which never agrees, though \"tinham eleito\" is widely used.",
       },
       {
         type: "translate",
@@ -1131,8 +1131,8 @@ export const PT_C2_U28: Lesson[] = [
         ],
         examples: [
           { es: "Requeiro a juntada dos documentos anexos.", en: "I request that the attached documents be added to the file." },
-          { es: "O cargo requer experiência em gestão de equipes.", en: "The post requires experience in team management." },
-          { es: "A defesa requereu a anulação do julgamento.", en: "The defence requested that the trial be annulled." },
+          { es: "O cargo requer experiência em gestão de equipes.", en: "The position requires experience in team management." },
+          { es: "A defesa requereu a anulação do julgamento.", en: "The defense requested that the trial be annulled." },
           { es: "É preciso que o interessado requeira a certidão pessoalmente.", en: "The applicant must request the certificate in person." },
           { es: "Se o candidato requerer revisão, a banca terá dez dias para responder.", en: "If the candidate requests a review, the board will have ten days to reply." },
           { es: "Os moradores requereram a instalação de um semáforo na esquina.", en: "The residents applied for a traffic light to be installed on the corner." },
@@ -1161,15 +1161,15 @@ export const PT_C2_U28: Lesson[] = [
       {
         heading: "Prover: provejo and proveu, not prever",
         body: [
-          "\"Prover\" (to provide, supply, fill a post) follows \"ver\" in the present: \"eu provejo\", \"ele provê\", \"nós provemos\", \"eles proveem\", \"que eu proveja\". But its preterite is regular, and so is everything built on it: \"proveu\", \"proveram\", \"provesse\", \"se o Estado prover\". Its participle is \"provido\", not \"provisto\".",
-          "Set it beside \"prever\", which is a true compound of \"ver\": \"previu\", \"previsse\", \"previr\", \"previsto\". The slip \"o governo proviu\" mixes the two. The same root gives \"provimento\": in court, \"o tribunal deu provimento ao recurso\" means the court upheld the appeal, and a post \"foi provido por concurso\" was filled by public examination.",
+          "\"Prover\" (to provide, supply, fill a position) follows \"ver\" in the present: \"eu provejo\", \"ele provê\", \"nós provemos\", \"eles proveem\", \"que eu proveja\". But its preterite is regular, and so is everything built on it: \"proveu\", \"proveram\", \"provesse\", \"se o Estado prover\". Its participle is \"provido\", not \"provisto\".",
+          "Set it beside \"prever\", which is a true compound of \"ver\": \"previu\", \"previsse\", \"previr\", \"previsto\". The slip \"o governo proviu\" mixes the two. The same root gives \"provimento\": in court, \"o tribunal deu provimento ao recurso\" means the court upheld the appeal, and a position \"foi provido por concurso\" was filled by public examination.",
         ],
         examples: [
           { es: "O Estado deve prover educação de qualidade a todos.", en: "The State must provide good-quality education for all." },
-          { es: "A prefeitura proveu as escolas de computadores novos.", en: "The city council supplied the schools with new computers." },
+          { es: "A prefeitura proveu as escolas de computadores novos.", en: "City Hall supplied the schools with new computers." },
           { es: "Se a empresa prover os recursos, o projeto sai do papel.", en: "If the company provides the funds, the project will get off the ground." },
-          { es: "O cargo foi provido por concurso público.", en: "The post was filled through a public examination." },
-          { es: "O tribunal deu provimento ao recurso da defesa.", en: "The court upheld the defence's appeal." },
+          { es: "O cargo foi provido por concurso público.", en: "The position was filled through a public examination." },
+          { es: "O tribunal deu provimento ao recurso da defesa.", en: "The court upheld the defense's appeal." },
         ],
         checkpoint: [
           {
@@ -1203,7 +1203,7 @@ export const PT_C2_U28: Lesson[] = [
         ],
         examples: [
           { es: "O contribuinte reouve o valor pago a mais.", en: "The taxpayer got back the amount overpaid." },
-          { es: "Eu mobílio o apartamento aos poucos.", en: "I'm furnishing the flat bit by bit." },
+          { es: "Eu mobílio o apartamento aos poucos.", en: "I'm furnishing the apartment bit by bit." },
           { es: "Eles mobíliam os escritórios com móveis usados.", en: "They furnish the offices with second-hand furniture." },
           { es: "Mobiliamos a sala com o que tínhamos.", en: "We furnished the living room with what we had." },
         ],
@@ -1256,7 +1256,7 @@ export const PT_C2_U28: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The defence [requested] the release of the defendant.",
+        en: "The defense [requested] the release of the defendant.",
         sentence: "A defesa ___ a soltura do réu.",
         answer: "requereu",
         altAnswers: ["solicitou", "pediu"],
@@ -1319,7 +1319,7 @@ export const PT_C2_U28: Lesson[] = [
       },
       {
         type: "speak",
-        prompt: "Say it in formal Portuguese: The defence requested that the trial be annulled.",
+        prompt: "Say it in formal Portuguese: The defense requested that the trial be annulled.",
         text: "A defesa requereu a anulação do julgamento.",
         tip: "\"Requereu\": 'requeREU', stress on the final diphthong.",
         explanation: "Regular preterite of \"requerer\".",
@@ -1331,7 +1331,7 @@ export const PT_C2_U28: Lesson[] = [
     level: "PT-C2",
     number: 7,
     title: "The Imperative in Writing",
-    summary: "Write the uniform imperative of você and o senhor (faça, venha, olhe) in manuals, signs and formal texts, recognise the mixed imperative of speech and advertising (vem, faz, olha), and choose the right instruction style.",
+    summary: "Write the uniform imperative of você and o senhor (faça, venha, olhe) in manuals, signs and formal texts, recognize the mixed imperative of speech and advertising (vem, faz, olha), and choose the right instruction style.",
     duration: "16 min",
     kind: "teach",
     sections: [
@@ -1471,7 +1471,7 @@ export const PT_C2_U28: Lesson[] = [
         source: "Keep out of the reach of children.",
         answer: "Manter fora do alcance das crianças.",
         altAnswers: ["Manter longe do alcance das crianças."],
-        explanation: "Labels favour the impersonal infinitive: \"manter\".",
+        explanation: "Labels favor the impersonal infinitive: \"manter\".",
       },
       {
         type: "multiple-choice",
@@ -1565,7 +1565,7 @@ export const PT_C2_U28: Lesson[] = [
           { es: "Os folhetos foram impressos na sexta.", en: "The leaflets were printed on Friday." },
           { es: "O juiz tinha suspendido a sessão por uma hora.", en: "The judge had suspended the session for an hour." },
           { es: "A sessão foi suspensa por uma hora.", en: "The session was suspended for an hour." },
-          { es: "Os vizinhos tinham acendido a fogueira de São João.", en: "The neighbours had lit the São João bonfire." },
+          { es: "Os vizinhos tinham acendido a fogueira de São João.", en: "The neighbors had lit the São João bonfire." },
           { es: "A fogueira ainda estava acesa de manhã.", en: "The bonfire was still burning in the morning." },
         ],
         checkpoint: [
@@ -1789,7 +1789,7 @@ export const PT_C2_U28: Lesson[] = [
           { es: "O ministro propôs um novo plano de metas.", en: "The minister proposed a new plan of targets." },
           { es: "Os analistas previram inflação acima da meta.", en: "Analysts predicted inflation above target." },
           { es: "O mercado requereu garantias do Tesouro.", en: "The market demanded guarantees from the Treasury." },
-          { es: "A prefeitura proveu abrigo aos desalojados.", en: "The city council provided shelter for the displaced." },
+          { es: "A prefeitura proveu abrigo aos desalojados.", en: "City Hall provided shelter for the displaced." },
         ],
         checkpoint: [
           {
@@ -1822,7 +1822,7 @@ export const PT_C2_U28: Lesson[] = [
           { es: "Quando você vir o aviso, ligue para a central.", en: "When you see the notice, call the switchboard." },
           { es: "Se eles propuserem um acordo, vamos analisar.", en: "If they propose a settlement, we'll look at it." },
           { es: "Se o técnico revir o projeto, talvez encontre a falha.", en: "If the technician reviews the project again, he may find the flaw." },
-          { es: "Se os vizinhos se opuserem, a obra não sai.", en: "If the neighbours object, the work won't go ahead." },
+          { es: "Se os vizinhos se opuserem, a obra não sai.", en: "If the neighbors object, the work won't go ahead." },
         ],
         checkpoint: [
           {
@@ -1941,7 +1941,7 @@ export const PT_C2_U28: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Rewrite in the passive. Active version: \"A empresa tinha entregado as encomendas.\"",
-        source: "The parcels had been delivered by the company.",
+        source: "The packages had been delivered by the company.",
         answer: "As encomendas tinham sido entregues pela empresa.",
         altAnswers: ["As encomendas haviam sido entregues pela empresa."],
         explanation: "\"Entregado\" (with \"ter\") becomes \"entregues\" (after \"sido\"), agreeing.",
@@ -2024,10 +2024,10 @@ export const PT_C2_U28: Lesson[] = [
           "\"Odiar\" is a MARIO verb: \"odeio\". \"Requerer\" takes -ei- in the eu form: \"requeiro\". \"Se\" + a future case of \"ver\": \"se eu vir\". \"Reaver\" in the preterite is \"reouve\" for \"eu\" as well as \"ele\". The reader, being angry, also mixes registers, but a letter to a bank should stay formal.",
         ],
         examples: [
-          { es: "Eu odeio filas.", en: "I hate queues." },
+          { es: "Eu odeio filas.", en: "I hate lines." },
           { es: "Requeiro que o banco abra mais caixas.", en: "I request that the bank open more counters." },
           { es: "Requeiro, portanto, o reembolso da tarifa.", en: "I therefore request a refund of the fee." },
-          { es: "Se eu vir outra fila assim, mudo de banco.", en: "If I see another queue like that, I'll change banks." },
+          { es: "Se eu vir outra fila assim, mudo de banco.", en: "If I see another line like that, I'll change banks." },
           { es: "No ano passado, reouve o dinheiro de uma tarifa cobrada indevidamente.", en: "Last year I got back the money for a fee charged unduly." },
         ],
         checkpoint: [
@@ -2035,7 +2035,7 @@ export const PT_C2_U28: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Correct the reader's sentence. He wrote: \"Se eu ver outra fila assim, mudo de banco.\"",
-            source: "If I see another queue like that, I'll change banks.",
+            source: "If I see another line like that, I'll change banks.",
             answer: "Se eu vir outra fila assim, mudo de banco.",
             altAnswers: ["Se eu vir outra fila assim, vou mudar de banco.", "Se eu vir outra fila assim, mudarei de banco.", "Se vir outra fila assim, mudo de banco.", "Se eu vir outra fila dessas, mudo de banco."],
             explanation: "Future subjunctive of \"ver\": \"vir\".",
@@ -2212,7 +2212,7 @@ export const PT_C2_U28: Lesson[] = [
           { es: "Quando o vir, diga-lhe que liguei.", en: "When you see him, tell him I called." },
           { es: "Se lhe convier, podemos marcar para segunda-feira.", en: "If it suits you, we can make it Monday." },
           { es: "Assim que nos propuserem um acordo, avisaremos o senhor.", en: "As soon as they propose a settlement to us, we'll let you know." },
-          { es: "Se a mantiverem no cargo, a crise vai piorar.", en: "If they keep her in the post, the crisis will get worse." },
+          { es: "Se a mantiverem no cargo, a crise vai piorar.", en: "If they keep her in the position, the crisis will get worse." },
           { es: "Se o virem, avisem-nos imediatamente.", en: "If you see him, let us know immediately." },
         ],
         checkpoint: [
@@ -2416,7 +2416,7 @@ export const PT_C2_U28: Lesson[] = [
 
 export const PT_C2_U28_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You are a lawyer in Belo Horizonte. Your client, Mr Antônio Ferreira, owned a small shop that went bankrupt in December. Write him a formal letter after yesterday's hearing: tell him what the judge, the bank and the mediator did, what money he has recovered, and what he must do next (when to come to your office, what to bring, what not to sign). Use flawless verb forms: these are exactly the verbs that a careful client, or a judge, will notice.",
+  prompt: "You are a lawyer in Belo Horizonte. Your client, Mr. Antônio Ferreira, owned a small shop that went bankrupt in December. Write him a formal letter after yesterday's hearing: tell him what the judge, the bank and the mediator did, what money he has recovered, and what he must do next (when to come to your office, what to bring, what not to sign). Use flawless verb forms: these are exactly the verbs that a careful client, or a judge, will notice.",
   minWords: 250,
   maxWords: 400,
   rubric: [
@@ -2426,5 +2426,5 @@ export const PT_C2_U28_WRITING: WriteExercise = {
     "The uniform imperative of \"o senhor\" throughout: \"venha\", \"traga\", \"não assine\", \"avise-me\", \"encaminhe-me\"; -ear and -iar verbs correct (\"receava\", \"medeia\", \"odeia\").",
   ],
   modelAnswer: "Belo Horizonte, 12 de março de 2026.\n\nPrezado Sr. Antônio Ferreira,\n\nEscrevo para informá-lo do andamento do processo da sua empresa, que, como o senhor sabe, faliu em dezembro. Na audiência de ontem, o juiz interveio logo no início para propor um acordo entre os credores, e o banco, que até então se opunha a qualquer negociação, finalmente cedeu. A proposta foi aceita por todos os credores e será homologada na próxima semana.\n\nNinguém previu esse resultado, e confesso que eu receava o pior. A mediadora que medeia o caso desde janeiro teve papel decisivo: obteve do banco a suspensão das cobranças e garantiu que todos os documentos fossem entregues dentro do prazo.\n\nHá também uma boa notícia: o senhor reouve parte do dinheiro bloqueado. Eu já tinha requerido a liberação desses valores em fevereiro, e o tribunal deu provimento ao pedido. Os comprovantes foram impressos hoje e seguem anexos.\n\nQuanto aos próximos passos, peço que o senhor venha ao escritório na quinta-feira, às 15h. Quando vier, traga os extratos bancários dos últimos seis meses e os recibos dos fornecedores que o senhor já tinha pago. Não assine nenhum documento do banco antes de falarmos. Se o senhor vir alguma cobrança nova na sua conta, avise-me imediatamente; se o banco mantiver as cobranças, requererei ao juiz uma nova intervenção. E, caso algum credor proponha outro acordo diretamente ao senhor, encaminhe-me a proposta: convém que todas as negociações passem por mim.\n\nSei que o senhor odeia esperar, mas peço um pouco mais de paciência. Quando o acordo for homologado, o senhor poderá reabrir a loja com uma nova razão social, se lhe convier.\n\nMantê-lo-ei informado de cada novidade.\n\nAtenciosamente,\n\nBeatriz Campos\nAdvogada",
-  explanation: "Future subjunctive: \"se o senhor vir\" (ver), \"quando vier\" (vir), \"se o banco mantiver\" (manter, from \"tiver\"), \"se lhe convier\" (convir, from \"vier\"), \"quando o acordo for homologado\". \"Caso\" takes the present subjunctive: \"proponha\". Compounds in the preterite follow their bases: \"interveio\" (veio), \"previu\" (viu), \"obteve\" (teve), and \"se opunha\" is the imperfect of \"opor-se\" (punha). \"Reouve\" is the preterite of \"reaver\", modelled on \"houve\", and \"faliu\" uses a form that \"falir\" does have. \"Requerer\" is regular outside the present: \"tinha requerido\", \"requererei\". Participles: \"tinha requerido\" and \"tinha pago\" with \"ter\" (\"pago\" is now usual even there); \"foi aceita\", \"fossem entregues\", \"foram impressos\" with \"ser\", short and agreeing. -ear and -iar: \"receava\" (no i, stress on the ending), \"medeia\" and \"odeia\" (MARIO verbs). The imperative is uniform for \"o senhor\": \"venha\", \"traga\", \"não assine\", \"avise-me\", \"encaminhe-me\", with enclisis when the imperative opens its clause. The closing \"Mantê-lo-ei informado\" uses the mesóclise with the future of \"manter\".",
+  explanation: "Future subjunctive: \"se o senhor vir\" (ver), \"quando vier\" (vir), \"se o banco mantiver\" (manter, from \"tiver\"), \"se lhe convier\" (convir, from \"vier\"), \"quando o acordo for homologado\". \"Caso\" takes the present subjunctive: \"proponha\". Compounds in the preterite follow their bases: \"interveio\" (veio), \"previu\" (viu), \"obteve\" (teve), and \"se opunha\" is the imperfect of \"opor-se\" (punha). \"Reouve\" is the preterite of \"reaver\", modeled on \"houve\", and \"faliu\" uses a form that \"falir\" does have. \"Requerer\" is regular outside the present: \"tinha requerido\", \"requererei\". Participles: \"tinha requerido\" and \"tinha pago\" with \"ter\" (\"pago\" is now usual even there); \"foi aceita\", \"fossem entregues\", \"foram impressos\" with \"ser\", short and agreeing. -ear and -iar: \"receava\" (no i, stress on the ending), \"medeia\" and \"odeia\" (MARIO verbs). The imperative is uniform for \"o senhor\": \"venha\", \"traga\", \"não assine\", \"avise-me\", \"encaminhe-me\", with enclisis when the imperative opens its clause. The closing \"Mantê-lo-ei informado\" uses the mesóclise with the future of \"manter\".",
 };

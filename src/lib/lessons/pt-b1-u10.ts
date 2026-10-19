@@ -25,7 +25,7 @@ export const PT_B1_U10: Lesson[] = [
           { es: "Esse é o assunto de que falamos ontem.", en: "That's the topic we talked about yesterday." },
           { es: "O livro de que eu preciso está esgotado.", en: "The book I need is sold out." },
           { es: "É uma viagem com que eu sonho há anos.", en: "It's a trip I've been dreaming of for years." },
-          { es: "Foi o filme de que eu mais gostei.", en: "It was the film I liked most." },
+          { es: "Foi o filme de que eu mais gostei.", en: "It was the movie I liked most." },
         ],
         checkpoint: [
           {
@@ -48,7 +48,7 @@ export const PT_B1_U10: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "In an email, you want to write: It was the film I liked most. Which is correct?",
+            question: "In an email, you want to write: It was the movie I liked most. Which is correct?",
             options: ["Foi o filme de que eu mais gostei.", "Foi o filme que eu mais gostei de.", "Foi o filme do que eu mais gostei.", "Foi o filme de quem eu mais gostei."],
             correctIndex: 0,
             explanation: "\"Gostar de\" puts \"de\" before \"que\". The preposition never goes at the end, \"de\" doesn't contract with \"que\", and \"quem\" is only for people.",
@@ -60,7 +60,7 @@ export const PT_B1_U10: Lesson[] = [
         body: [
           "With things, \"que\" follows the short prepositions \"de\", \"em\", \"com\", \"a\" and \"por\". Unlike an article, \"que\" never contracts with them. You write \"de que\" and \"em que\" as two separate words.",
           "For places, \"em que\" and \"onde\" both work: \"a empresa em que trabalho\" or \"a empresa onde trabalho\". For a moment in time, use \"em que\": \"o dia em que nos conhecemos\".",
-          "In relaxed speech Brazilians often drop the preposition, as in \"o restaurante que eu te falei\" instead of \"o restaurante de que eu te falei\". Recognise it when you hear it, but keep the preposition in emails, essays and exams.",
+          "In relaxed speech Brazilians often drop the preposition, as in \"o restaurante que eu te falei\" instead of \"o restaurante de que eu te falei\". Recognize it when you hear it, but keep the preposition in emails, essays and exams.",
         ],
         examples: [
           { es: "A empresa em que a Beatriz trabalha fica em Curitiba.", en: "The company Beatriz works at is in Curitiba." },
@@ -178,9 +178,9 @@ export const PT_B1_U10: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The friend I travelled with lives in Manaus.",
+        prompt: "Put the words in order to say: The friend I traveled with lives in Manaus.",
         words: ["A", "amiga", "com", "quem", "viajei", "mora", "em", "Manaus."],
-        translation: "The friend I travelled with lives in Manaus.",
+        translation: "The friend I traveled with lives in Manaus.",
         explanation: "\"Viajar com\" + a person gives \"com quem\", placed right after \"amiga\".",
       },
       {
@@ -268,14 +268,13 @@ export const PT_B1_U10: Lesson[] = [
             en: "The company [for which] I work is in Campinas.",
             sentence: "A empresa ___ trabalho fica em Campinas.",
             answer: "para a qual",
-            altAnswers: ["para que"],
-            explanation: "\"Trabalhar para\" gives the preposition, and \"empresa\" is feminine singular, so \"para a qual\". \"Para que\" is also correct, just less formal.",
+            explanation: "\"Trabalhar para\" gives the preposition, and \"empresa\" is feminine singular, so \"para a qual\". Avoid \"para que\" here: after \"para\" careful Portuguese uses \"o qual\", and \"para que\" reads as the conjunction so that.",
           },
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The friends I travelled with live in Belo Horizonte.",
+            source: "The friends I traveled with live in Belo Horizonte.",
             answer: "Os amigos com os quais viajei moram em Belo Horizonte.",
             altAnswers: [
               "Os amigos com os quais eu viajei moram em Belo Horizonte.",
@@ -345,10 +344,10 @@ export const PT_B1_U10: Lesson[] = [
             audio: "Recebemos trinta currículos, dos quais só cinco eram bons.",
             question: "What does it mean?",
             options: [
-              "We got thirty CVs, only five of which were good.",
-              "We got thirty CVs, and five of them were bad.",
-              "We got five CVs, and only thirty were good.",
-              "We got thirty CVs from five companies.",
+              "We got thirty résumés, only five of which were good.",
+              "We got thirty résumés, and five of them were bad.",
+              "We got five résumés, and only thirty were good.",
+              "We got thirty résumés from five companies.",
             ],
             correctIndex: 0,
             explanation: "\"Dos quais\" after a group means of which: \"dos quais só cinco eram bons\", only five of which were good.",
@@ -546,7 +545,7 @@ export const PT_B1_U10: Lesson[] = [
         ],
         examples: [
           { es: "O professor cujo livro usamos é de Recife.", en: "The teacher whose book we use is from Recife." },
-          { es: "A vizinha cuja filha estuda comigo mora no terceiro andar.", en: "The neighbour whose daughter studies with me lives on the third floor." },
+          { es: "A vizinha cuja filha estuda comigo mora no terceiro andar.", en: "The neighbor whose daughter studies with me lives on the third floor." },
           { es: "Esta é a empresa cujo dono mora em Curitiba.", en: "This is the company whose owner lives in Curitiba." },
           { es: "Machado de Assis é um escritor cujos livros todo estudante lê na escola.", en: "Machado de Assis is a writer whose books every student reads at school." },
           { es: "Conheci uma moça cujo pai trabalha na Petrobras.", en: "I met a young woman whose father works at Petrobras." },
@@ -598,7 +597,7 @@ export const PT_B1_U10: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The neighbour [whose] daughter studies with me is a doctor.",
+            en: "The neighbor [whose] daughter studies with me is a doctor.",
             sentence: "O vizinho ___ filha estuda comigo é médico.",
             answer: "cuja",
             explanation: "\"Cuja\" agrees with \"filha\" (feminine singular), not with \"o vizinho\". *\"cujo filha\" is the slip of agreeing with the owner.",
@@ -629,13 +628,13 @@ export const PT_B1_U10: Lesson[] = [
       {
         heading: "No article after cujo; prepositions go before it",
         body: [
-          "Never put an article after \"cujo\". Write \"o autor cujo livro\", not *\"o autor cujo o livro\". \"Cujo\" already does the article's job, so \"cujo o\" is one of the most criticised mistakes in Brazilian writing.",
+          "Never put an article after \"cujo\". Write \"o autor cujo livro\", not *\"o autor cujo o livro\". \"Cujo\" already does the article's job, so \"cujo o\" is one of the most criticized mistakes in Brazilian writing.",
           "When the verb needs a preposition, the preposition goes before \"cujo\" and doesn't contract with it. \"Falar de\" gives \"o escritor de cujo livro eu te falei\"; \"viajar com\" gives \"o colega com cuja irmã eu viajei\". It's the same move you made with \"com quem\" and \"em que\".",
           "Whose in a question is never \"cujo\". Ask \"de quem\" instead: \"De quem é este celular?\" (Whose phone is this?).",
         ],
         examples: [
           { es: "Esse é o escritor de cujo livro eu te falei.", en: "That's the writer whose book I told you about." },
-          { es: "Aquele é o colega com cuja irmã eu viajei.", en: "That's the colleague whose sister I travelled with." },
+          { es: "Aquele é o colega com cuja irmã eu viajei.", en: "That's the colleague whose sister I traveled with." },
           { es: "Visitamos uma cidade em cujas praias quase não há turistas.", en: "We visited a town whose beaches have hardly any tourists." },
           { es: "De quem é este celular?", en: "Whose phone is this?" },
           { es: "De quem são essas chaves?", en: "Whose keys are these?" },
@@ -672,7 +671,7 @@ export const PT_B1_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "My neighbour Dona Maria, whose son plays on the school team, is from Manaus.",
+        source: "My neighbor Dona Maria, whose son plays on the school team, is from Manaus.",
         answer: "Minha vizinha Dona Maria, cujo filho joga no time da escola, é de Manaus.",
         altAnswers: [
           "A minha vizinha Dona Maria, cujo filho joga no time da escola, é de Manaus.",
@@ -702,7 +701,7 @@ export const PT_B1_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The actress whose film we saw last week is from Bahia.",
+        source: "The actress whose movie we saw last week is from Bahia.",
         answer: "A atriz cujo filme vimos semana passada é da Bahia.",
         altAnswers: [
           "A atriz cujo filme nós vimos semana passada é da Bahia.",
@@ -872,7 +871,7 @@ export const PT_B1_U10: Lesson[] = [
         body: [
           "To put the focus on something, start with \"o que\" + a clause, then \"é\": \"O que eu quero é dormir\" (what I want is to sleep). It works just like English and is everywhere when people give opinions.",
           "\"Ser\" agrees with what follows: \"O que me irrita é o trânsito\", but \"O que me irrita são os preços\". English keeps is; Portuguese switches to \"são\".",
-          "Speech says \"o que eu mais gosto é...\", dropping the \"de\" of \"gostar de\", as in \"o filme que eu falei\". In an essay, sidestep it: \"O que mais me agrada é a praia.\"",
+          "Speech says \"o que eu mais gosto é...\", dropping the \"de\" of \"gostar de\", as in \"o filme que eu falei\". Careful writing restores it at the front, \"do que eu mais gosto é...\", or sidesteps it: \"O que mais me agrada é a praia.\"",
         ],
         examples: [
           { es: "O que eu mais gosto no Rio é a praia.", en: "What I like most about Rio is the beach." },
@@ -888,8 +887,8 @@ export const PT_B1_U10: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "What I like most about Salvador is the music.",
             answer: "O que eu mais gosto em Salvador é a música.",
-            altAnswers: ["O que mais gosto em Salvador é a música.", "O que eu mais gosto de Salvador é a música.", "O que mais me agrada em Salvador é a música.", "O que eu mais gosto em Salvador é a música baiana."],
-            explanation: "Start with \"o que eu mais gosto\", then \"é\" + the thing in focus. \"Mais\" goes before \"gosto\": \"o que eu mais gosto\", not \"o que eu gosto mais\" in this frame.",
+            altAnswers: ["O que mais gosto em Salvador é a música.", "O que eu mais gosto de Salvador é a música.", "O que mais me agrada em Salvador é a música.", "O que eu mais gosto em Salvador é a música baiana.", "Do que eu mais gosto em Salvador é a música.", "Do que mais gosto em Salvador é a música."],
+            explanation: "Start with \"o que eu mais gosto\" (in careful writing, \"do que eu mais gosto\"), then \"é\" + the thing in focus. \"Mais\" goes before \"gosto\": \"o que eu mais gosto\", not \"o que eu gosto mais\" in this frame.",
           },
           {
             type: "fill-blank",
@@ -948,7 +947,7 @@ export const PT_B1_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "He apologised, which surprised everyone.",
+        source: "He apologized, which surprised everyone.",
         answer: "Ele pediu desculpas, o que surpreendeu todo mundo.",
         altAnswers: ["Ele pediu desculpas, o que surpreendeu todos.", "Ele pediu desculpas, o que surpreendeu a todos.", "Ele se desculpou, o que surpreendeu todo mundo.", "Ele se desculpou, o que surpreendeu todos.", "Ele se desculpou, o que surpreendeu a todos."],
         explanation: "\"O que\" comments on the apology as an event. Everyone in speech is \"todo mundo\"; \"todos\" or \"a todos\" is more formal.",
@@ -1115,7 +1114,7 @@ export const PT_B1_U10: Lesson[] = [
         examples: [
           { es: "Eu me lembro do dia em que a gente se conheceu.", en: "I remember the day we met." },
           { es: "2014 foi o ano em que o Brasil recebeu a Copa.", en: "2014 was the year Brazil hosted the World Cup." },
-          { es: "Na época em que eu era criança, a gente passava as férias em Recife.", en: "Back when I was a kid, we spent our holidays in Recife." },
+          { es: "Na época em que eu era criança, a gente passava as férias em Recife.", en: "Back when I was a kid, we spent our vacations in Recife." },
           { es: "É uma situação em que ninguém sabe o que fazer.", en: "It's a situation where nobody knows what to do." },
           { es: "A sala em que vamos fazer a reunião fica no terceiro andar.", en: "The room where we're having the meeting is on the third floor." },
         ],
@@ -1172,7 +1171,7 @@ export const PT_B1_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The neighbourhood where she works is very far.",
+        source: "The neighborhood where she works is very far.",
         answer: "O bairro onde ela trabalha é muito longe.",
         altAnswers: [
           "O bairro onde ela trabalha fica muito longe.",
@@ -1301,7 +1300,7 @@ export const PT_B1_U10: Lesson[] = [
         heading: "No preposition: que for people and things",
         body: [
           "When the relative is the subject or object of its clause, use \"que\" for everything: people, things and places. \"A moça que trabalha aqui\" means the girl who works here, and \"o livro que comprei\" means the book I bought.",
-          "English who pulls learners towards \"quem\", but \"*a moça quem trabalha aqui\" is wrong. With no preposition, \"quem\" stands alone with no noun before it and means 'whoever' or 'the person who': \"quem mora em São Paulo conhece o trânsito\".",
+          "English who pulls learners toward \"quem\", but \"*a moça quem trabalha aqui\" is wrong. With no preposition, \"quem\" stands alone with no noun before it and means 'whoever' or 'the person who': \"quem mora em São Paulo conhece o trânsito\".",
           "English can drop the relative (the book I bought). Portuguese can't: \"o livro que eu comprei\".",
         ],
         examples: [
@@ -1376,13 +1375,13 @@ export const PT_B1_U10: Lesson[] = [
       {
         heading: "Speech vs writing",
         body: [
-          "In relaxed speech Brazilians often drop the preposition and keep plain \"que\": \"o filme que eu te falei\". Recognise this, but in writing and formal speech put the preposition back: \"o filme de que te falei\".",
+          "In relaxed speech Brazilians often drop the preposition and keep plain \"que\": \"o filme que eu te falei\". Recognize this, but in writing and formal speech put the preposition back: \"o filme de que te falei\".",
           "What Portuguese never does is leave the preposition at the end, English-style: \"*a pessoa que eu falei com\" is impossible. Move the preposition forward or, in speech only, drop it.",
           "In writing, \"o qual\" also removes ambiguity, because it shows gender and number. In \"a irmã do Pedro, a qual mora em Recife\", only the sister can be the one in Recife.",
         ],
         examples: [
-          { es: "O filme que eu te falei está no cinema.", en: "The film I told you about is in cinemas. (casual speech)" },
-          { es: "O filme de que te falei está em cartaz.", en: "The film I told you about is showing. (careful style)" },
+          { es: "O filme que eu te falei está no cinema.", en: "The movie I told you about is in theaters. (casual speech)" },
+          { es: "O filme de que te falei está em cartaz.", en: "The movie I told you about is showing. (careful style)" },
           { es: "A pessoa com quem eu falei foi muito gentil.", en: "The person I spoke to was very kind." },
           { es: "O hotel em que ficamos era perto da praia.", en: "The hotel we stayed at was near the beach." },
           { es: "Conheci a irmã do Pedro, a qual mora em Recife.", en: "I met Pedro's sister, who lives in Recife." },
@@ -1568,10 +1567,10 @@ export const PT_B1_U10: Lesson[] = [
           "\"Cujo\" (whose) agrees with the thing owned, not with the owner: \"a Mariana, cujo irmão é chef\", \"um chef cuja comida é famosa\". No article ever follows it.",
         ],
         examples: [
-          { es: "Fui lá com a Mariana, a amiga com quem eu viajei para Salvador.", en: "I went there with Mariana, the friend I travelled to Salvador with." },
+          { es: "Fui lá com a Mariana, a amiga com quem eu viajei para Salvador.", en: "I went there with Mariana, the friend I traveled to Salvador with." },
           { es: "A Mariana, cujo irmão é chef, conhece todos os restaurantes da cidade.", en: "Mariana, whose brother is a chef, knows every restaurant in the city." },
           { es: "O chef para quem ela trabalhou abriu esse lugar no ano passado.", en: "The chef she worked for opened this place last year." },
-          { es: "É um chef cuja comida é famosa no bairro.", en: "He's a chef whose food is famous in the neighbourhood." },
+          { es: "É um chef cuja comida é famosa no bairro.", en: "He's a chef whose food is famous in the neighborhood." },
           { es: "O garçom que nos atendeu era de Recife.", en: "The waiter who served us was from Recife." },
         ],
         checkpoint: [
@@ -1579,7 +1578,7 @@ export const PT_B1_U10: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Mariana is the friend I travelled with.",
+            source: "Mariana is the friend I traveled with.",
             answer: "A Mariana é a amiga com quem eu viajei.",
             altAnswers: ["Mariana é a amiga com quem eu viajei.", "A Mariana é a amiga com quem viajei.", "Mariana é a amiga com quem viajei.", "A Mariana é a amiga com a qual eu viajei.", "Mariana é a amiga com a qual eu viajei."],
             explanation: "A person after a preposition takes \"quem\": \"com quem eu viajei\". The English end-of-sentence with has to come to the front.",
@@ -1607,8 +1606,8 @@ export const PT_B1_U10: Lesson[] = [
           "For time, use \"em que\", not \"onde\": \"na época em que eu morava lá\". And when you comment on a whole idea rather than a noun, use \"o que\": \"fica aberto até tarde, o que é ótimo\".",
         ],
         examples: [
-          { es: "Fica perto do bairro onde ela mora, em Pinheiros.", en: "It's near the neighbourhood where she lives, in Pinheiros." },
-          { es: "Pinheiros é um bairro em que há muitos bares bons.", en: "Pinheiros is a neighbourhood with lots of good bars." },
+          { es: "Fica perto do bairro onde ela mora, em Pinheiros.", en: "It's near the neighborhood where she lives, in Pinheiros." },
+          { es: "Pinheiros é um bairro em que há muitos bares bons.", en: "Pinheiros is a neighborhood with lots of good bars." },
           { es: "Depois do jantar, o bar aonde fomos estava lotado.", en: "After dinner, the bar we went to was packed." },
           { es: "Na época em que eu morava lá, eu ia toda semana.", en: "Back when I lived there, I went every week." },
           { es: "Eles fazem reserva por WhatsApp, o que facilita muito.", en: "They take bookings on WhatsApp, which makes it much easier." },
@@ -1618,7 +1617,7 @@ export const PT_B1_U10: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Pinheiros is the neighbourhood where she lives.",
+            source: "Pinheiros is the neighborhood where she lives.",
             answer: "Pinheiros é o bairro onde ela mora.",
             altAnswers: ["Pinheiros é o bairro em que ela mora.", "Pinheiros é o bairro no qual ela mora."],
             explanation: "\"Onde\" for a place where something happens; \"em que\" is the more written equivalent.",
@@ -1697,7 +1696,7 @@ export const PT_B1_U10: Lesson[] = [
         type: "listen-choose",
         audio: "O bairro onde ela mora é muito tranquilo.",
         question: "What does it mean?",
-        options: ["The neighbourhood where she lives is very quiet.", "The neighbourhood where he lives is very quiet.", "The neighbourhood she's going to is very quiet.", "She lives on a very quiet street."],
+        options: ["The neighborhood where she lives is very quiet.", "The neighborhood where he lives is very quiet.", "The neighborhood she's going to is very quiet.", "She lives on a very quiet street."],
         correctIndex: 0,
         explanation: "\"Onde ela mora\" is where she lives; \"aonde ela vai\" would be where she's going. \"Tranquilo\" here means quiet, calm.",
       },
@@ -1749,7 +1748,7 @@ export const PT_B1_U10: Lesson[] = [
         ],
         examples: [
           { es: "O escritor cujo romance ganhou o prêmio mora em Recife.", en: "The writer whose novel won the prize lives in Recife." },
-          { es: "A vizinha cuja filha estuda comigo é médica.", en: "The neighbour whose daughter studies with me is a doctor." },
+          { es: "A vizinha cuja filha estuda comigo é médica.", en: "The neighbor whose daughter studies with me is a doctor." },
           { es: "Conheci um rapaz cujos pais são de Manaus.", en: "I met a guy whose parents are from Manaus." },
           { es: "A professora cujo curso eu fiz se mudou para Curitiba.", en: "The teacher whose course I took moved to Curitiba." },
           { es: "É uma rede de padarias cujas lojas abrem aos domingos.", en: "It's a bakery chain whose shops open on Sundays." },
@@ -1790,7 +1789,7 @@ export const PT_B1_U10: Lesson[] = [
         heading: "The preposition goes in front",
         body: [
           "English parks the preposition at the end: the person I talked to. Portuguese never does; the preposition moves in front of the relative. So not \"a pessoa que eu falei com\" but \"a pessoa com quem eu falei\". Check the verb first (\"falar com\", \"gostar de\", \"trabalhar em\", \"precisar de\"): that's the preposition you move.",
-          "Reminder: \"quem\" for people, \"que\" after short prepositions, \"o qual\" / \"a qual\" after longer ones. In casual speech the preposition often just vanishes (\"o filme que eu falei\"); recognise it, but put the preposition back when you write.",
+          "Reminder: \"quem\" for people, \"que\" after short prepositions, \"o qual\" / \"a qual\" after longer ones. In casual speech the preposition often just vanishes (\"o filme que eu falei\"); recognize it, but put the preposition back when you write.",
         ],
         examples: [
           { es: "A moça com quem eu falei trabalha no banco.", en: "The woman I talked to works at the bank." },
@@ -1803,7 +1802,7 @@ export const PT_B1_U10: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The friend [I travelled with] is from Porto Alegre.",
+            en: "The friend [I traveled with] is from Porto Alegre.",
             sentence: "A amiga ___ é de Porto Alegre.",
             answer: "com quem eu viajei",
             altAnswers: ["com quem viajei", "com a qual eu viajei", "com a qual viajei"],
@@ -1811,9 +1810,9 @@ export const PT_B1_U10: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: The neighbour I need to talk to isn't home.",
+            prompt: "Put the words in order to say: The neighbor I need to talk to isn't home.",
             words: ["O", "vizinho", "com", "quem", "preciso", "falar", "não está", "em casa."],
-            translation: "The neighbour I need to talk to isn't home.",
+            translation: "The neighbor I need to talk to isn't home.",
             explanation: "\"Falar com\" gives \"com quem\", placed straight after \"vizinho\". The preposition belongs to \"falar\", but it travels to the front of the clause.",
           },
         ],
@@ -1881,7 +1880,7 @@ export const PT_B1_U10: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The flat [that] we rented is in Copacabana.",
+            en: "The apartment [that] we rented is in Copacabana.",
             sentence: "O apartamento ___ nós alugamos fica em Copacabana.",
             answer: "que",
             explanation: "The noun \"apartamento\" is right there, so plain \"que\". \"O apartamento o que nós alugamos\" is the error this lesson hunts.",
@@ -2033,7 +2032,7 @@ export const PT_B1_U10: Lesson[] = [
           "Then check the role the second mention played. As subject or object, \"que\" does the job. If it came with a preposition, the preposition moves to the front with the relative: \"quem\" for people (\"Almoço com esse colega\" → \"o colega com quem almoço\"), \"que\" or \"onde\" for places and things. English leaves the preposition at the end (the colleague I have lunch with); Portuguese never does.",
         ],
         examples: [
-          { es: "Tenho uma vizinha que é médica.", en: "I have a neighbour who's a doctor." },
+          { es: "Tenho uma vizinha que é médica.", en: "I have a neighbor who's a doctor." },
           { es: "A moça que trabalha na padaria é de Recife.", en: "The girl who works at the bakery is from Recife." },
           { es: "Comprei o livro que você me recomendou.", en: "I bought the book you recommended to me." },
           { es: "Esse é o colega com quem eu almoço todo dia.", en: "That's the colleague I have lunch with every day." },
@@ -2080,8 +2079,8 @@ export const PT_B1_U10: Lesson[] = [
         examples: [
           { es: "Tenho um amigo cuja mãe é chef.", en: "I have a friend whose mother is a chef." },
           { es: "O autor cujos livros li mora em Salvador.", en: "The author whose books I read lives in Salvador." },
-          { es: "A vizinha cujo filho estuda comigo é de Manaus.", en: "The neighbour whose son studies with me is from Manaus." },
-          { es: "Esse é o filme de que eu te falei.", en: "That's the film I told you about." },
+          { es: "A vizinha cujo filho estuda comigo é de Manaus.", en: "The neighbor whose son studies with me is from Manaus." },
+          { es: "Esse é o filme de que eu te falei.", en: "That's the movie I told you about." },
           { es: "A empresa para a qual trabalho fica em Belo Horizonte.", en: "The company I work for is in Belo Horizonte." },
           { es: "Os motivos pelos quais ela saiu são pessoais.", en: "The reasons why she left are personal." },
         ],
@@ -2098,7 +2097,7 @@ export const PT_B1_U10: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "That's the film I told you about.",
+            source: "That's the movie I told you about.",
             answer: "Esse é o filme de que eu te falei.",
             altAnswers: [
               "Esse é o filme de que te falei.",
@@ -2129,13 +2128,13 @@ export const PT_B1_U10: Lesson[] = [
         heading: "Step 3: three sentences, one line",
         body: [
           "With three sentences, hang each clause on the shared noun in turn: \"Conheci uma moça. A moça trabalha na Petrobras. O pai dela é meu professor.\" → \"Conheci uma moça cujo pai é meu professor e que trabalha na Petrobras.\" Join two clauses on the same noun with \"e\" and repeat the relative after it: \"e que\", \"e em quem\".",
-          "When the last sentence comments on everything before it, link it with a comma and \"o que\": \"Ele chegou atrasado. Isso irritou o chefe.\" → \"Ele chegou atrasado, o que irritou o chefe.\" Two relatives per sentence is a good ceiling; beyond that, a full stop reads better in Portuguese, just as in English.",
+          "When the last sentence comments on everything before it, link it with a comma and \"o que\": \"Ele chegou atrasado. Isso irritou o chefe.\" → \"Ele chegou atrasado, o que irritou o chefe.\" Two relatives per sentence is a good ceiling; beyond that, a period reads better in Portuguese, just as in English.",
         ],
         examples: [
           { es: "Conheci uma moça cujo pai é meu professor e que trabalha na Petrobras.", en: "I met a girl whose father is my teacher and who works at Petrobras." },
           { es: "O Rafael é um colega com quem trabalho há anos e em quem confio muito.", en: "Rafael is a colleague I've worked with for years and whom I trust a lot." },
           { es: "O restaurante de que te falei, cujo dono é baiano, abre aos domingos.", en: "The restaurant I told you about, whose owner is from Bahia, opens on Sundays." },
-          { es: "Procuro um apartamento que tenha varanda e que fique perto do metrô.", en: "I'm looking for a flat that has a balcony and is near the metro." },
+          { es: "Procuro um apartamento que tenha varanda e que fique perto do metrô.", en: "I'm looking for an apartment that has a balcony and is near the subway." },
           { es: "Ele chegou atrasado, o que irritou o chefe.", en: "He arrived late, which annoyed the boss." },
         ],
         checkpoint: [
@@ -2173,7 +2172,7 @@ export const PT_B1_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I have a neighbour whose son plays in a band.",
+        source: "I have a neighbor whose son plays in a band.",
         answer: "Tenho uma vizinha cujo filho toca numa banda.",
         altAnswers: [
           "Eu tenho uma vizinha cujo filho toca numa banda.",
@@ -2182,7 +2181,7 @@ export const PT_B1_U10: Lesson[] = [
           "Eu tenho um vizinho cujo filho toca numa banda.",
           "Tenho um vizinho cujo filho toca em uma banda.",
         ],
-        explanation: "\"Cujo\" agrees with \"filho\", the thing owned, whether the neighbour is \"vizinha\" or \"vizinho\".",
+        explanation: "\"Cujo\" agrees with \"filho\", the thing owned, whether the neighbor is \"vizinha\" or \"vizinho\".",
       },
       {
         type: "translate",
@@ -2225,7 +2224,7 @@ export const PT_B1_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I'm looking for a flat that has a balcony and that is close to the beach.",
+        source: "I'm looking for an apartment that has a balcony and that is close to the beach.",
         answer: "Procuro um apartamento que tenha varanda e que fique perto da praia.",
         altAnswers: [
           "Estou procurando um apartamento que tenha varanda e que fique perto da praia.",
@@ -2233,7 +2232,7 @@ export const PT_B1_U10: Lesson[] = [
           "Estou procurando um apartamento que tenha varanda e que seja perto da praia.",
           "Eu procuro um apartamento que tenha varanda e que fique perto da praia.",
         ],
-        explanation: "The flat may not exist yet, so both clauses take the subjunctive, and \"que\" is repeated after \"e\".",
+        explanation: "The apartment may not exist yet, so both clauses take the subjunctive, and \"que\" is repeated after \"e\".",
       },
       {
         type: "word-order",
@@ -2247,10 +2246,10 @@ export const PT_B1_U10: Lesson[] = [
         audio: "A vizinha cujo filho estuda comigo é de Manaus.",
         question: "What does it mean?",
         options: [
-          "The neighbour who studies with my son is from Manaus.",
-          "The neighbour whose daughter studies with me is from Manaus.",
-          "The neighbour whose son studies with me is from Manaus.",
-          "My neighbour's son, who studies in Manaus, is my friend.",
+          "The neighbor who studies with my son is from Manaus.",
+          "The neighbor whose daughter studies with me is from Manaus.",
+          "The neighbor whose son studies with me is from Manaus.",
+          "My neighbor's son, who studies in Manaus, is my friend.",
         ],
         correctIndex: 2,
         explanation: "\"Cujo filho\": whose son. The relative clause sits between \"a vizinha\" and its verb \"é\".",
@@ -2285,7 +2284,7 @@ export const PT_B1_U10: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Mariana is the friend [with whom] I travelled to Recife.",
+        en: "Mariana is the friend [with whom] I traveled to Recife.",
         sentence: "A Mariana é a amiga ___ viajei para Recife.",
         answer: "com quem",
         altAnswers: ["com a qual"],
@@ -2317,14 +2316,14 @@ export const PT_B1_U10: Lesson[] = [
       {
         heading: "Relatives in past stories",
         body: [
-          "Relatives work in every tense. The preposition the verb needs still goes in front of the relative, never at the end as in English: \"a amiga com quem eu viajei\" (the friend I travelled with).",
+          "Relatives work in every tense. The preposition the verb needs still goes in front of the relative, never at the end as in English: \"a amiga com quem eu viajei\" (the friend I traveled with).",
           "Inside the relative clause, choose the past tense as you would in any sentence. Use the perfeito for a finished event (\"o hotel onde ficamos\") and the imperfeito for background or habit (\"a rua onde eu morava\"). Use \"tinha\" + participle for something earlier still, and \"tenho\" + participle for what's been going on lately.",
           "For time, use \"em que\", not \"onde\": \"o ano em que eu me mudei\".",
         ],
         examples: [
           { es: "Esse é o restaurante em que jantamos no meu aniversário.", en: "That's the restaurant where we had dinner on my birthday." },
           { es: "A rua onde eu morava quando era criança mudou muito.", en: "The street where I lived as a kid has changed a lot." },
-          { es: "Finalmente vi o filme de que você tinha falado.", en: "I finally saw the film you'd talked about." },
+          { es: "Finalmente vi o filme de que você tinha falado.", en: "I finally saw the movie you'd talked about." },
           { es: "A colega com quem eu tenho almoçado é de Recife.", en: "The colleague I've been having lunch with is from Recife." },
           { es: "2015 foi o ano em que eu me mudei para Curitiba.", en: "2015 was the year I moved to Curitiba." },
           { es: "O hotel no qual ficamos em Salvador era perto da praia.", en: "The hotel we stayed at in Salvador was near the beach." },
@@ -2365,8 +2364,8 @@ export const PT_B1_U10: Lesson[] = [
           "Negatives and questions about whether something exists are the clearest triggers: \"não conheço ninguém em quem eu confie\", \"tem algum lugar onde a gente possa estacionar?\". Once you've found it, it's real, so the indicative follows: \"achei um apartamento que tinha varanda\".",
         ],
         examples: [
-          { es: "Procuro um professor com quem eu possa praticar conversação.", en: "I'm looking for a teacher I can practise conversation with." },
-          { es: "Encontrei uma professora com quem pratico toda semana.", en: "I found a teacher I practise with every week." },
+          { es: "Procuro um professor com quem eu possa praticar conversação.", en: "I'm looking for a teacher I can practice conversation with." },
+          { es: "Encontrei uma professora com quem pratico toda semana.", en: "I found a teacher I practice with every week." },
           { es: "Não conheço ninguém em quem eu confie tanto.", en: "I don't know anyone I trust that much." },
           { es: "Tem algum lugar aqui onde a gente possa estacionar?", en: "Is there anywhere around here we can park?" },
           { es: "Preciso de uma empresa para a qual eu possa trabalhar de casa.", en: "I need a company I can work for from home." },
@@ -2409,8 +2408,8 @@ export const PT_B1_U10: Lesson[] = [
           "The trap: English which after a comma becomes \"o que\" when it refers to the whole event, but plain \"que\" when it refers to one noun. Compare \"comprei um carro, que já quebrou\" with \"o carro quebrou, o que me irritou\".",
         ],
         examples: [
-          { es: "Conheci um escritor cujo livro eu tinha lido na faculdade.", en: "I met a writer whose book I'd read at university." },
-          { es: "A vizinha cujos filhos estudam com a minha filha se mudou ontem.", en: "The neighbour whose kids go to school with my daughter moved out yesterday." },
+          { es: "Conheci um escritor cujo livro eu tinha lido na faculdade.", en: "I met a writer whose book I'd read in college." },
+          { es: "A vizinha cujos filhos estudam com a minha filha se mudou ontem.", en: "The neighbor whose kids go to school with my daughter moved out yesterday." },
           { es: "O voo atrasou duas horas, o que me fez perder a conexão.", en: "The flight was two hours late, which made me miss my connection." },
           { es: "Ele disse que ligaria, o que não aconteceu.", en: "He said he'd call, which didn't happen." },
           { es: "Tudo o que eu tinha planejado deu errado.", en: "Everything I'd planned went wrong." },
@@ -2480,7 +2479,7 @@ export const PT_B1_U10: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I ran into the friend [with whom] I had travelled to Chile.",
+        en: "I ran into the friend [with whom] I had traveled to Chile.",
         sentence: "Encontrei por acaso a amiga ___ eu tinha viajado para o Chile.",
         answer: "com quem",
         altAnswers: ["com a qual"],
@@ -2542,7 +2541,7 @@ export const PT_B1_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I'm looking for a flat where I can have a dog.",
+        source: "I'm looking for an apartment where I can have a dog.",
         answer: "Procuro um apartamento onde eu possa ter um cachorro.",
         altAnswers: [
           "Procuro um apartamento onde possa ter um cachorro.",
@@ -2551,7 +2550,7 @@ export const PT_B1_U10: Lesson[] = [
           "Estou procurando um apartamento onde possa ter um cachorro.",
           "Estou procurando um apartamento em que eu possa ter um cachorro.",
         ],
-        explanation: "The flat isn't found yet, so the subjunctive \"possa\" after \"onde\".",
+        explanation: "The apartment isn't found yet, so the subjunctive \"possa\" after \"onde\".",
       },
       {
         type: "fill-blank",
@@ -2588,7 +2587,7 @@ export const PT_B1_U10: Lesson[] = [
 
 export const PT_B1_U10_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your Brazilian friend Beatriz is coming to visit your city. Write her a message with tips: describe your neighbourhood, a café or restaurant you love, and a friend or flatmate she'll meet. Use relative clauses to make each description precise.",
+  prompt: "Your Brazilian friend Beatriz is coming to visit your city. Write her a message with tips: describe your neighborhood, a café or restaurant you love, and a friend or roommate she'll meet. Use relative clauses to make each description precise.",
   minWords: 80,
   maxWords: 150,
   rubric: [

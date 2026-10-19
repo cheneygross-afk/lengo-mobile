@@ -343,7 +343,7 @@ export const FR_A2_U02_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A colleague asks: Vous avez eu mon message ? You did. What do you answer?",
+        question: "A colleague asks: \"Vous avez eu mon message ?\" You did. What do you answer?",
         options: ["Oui, j'ai eu votre message.", "Oui, j'ai été votre message.", "Oui, vous avez eu mon message.", "Oui, j'ai eu mon message."],
         correctIndex: 0,
         explanation: "\"Avoir\" → \"eu\"; \"mon\" → \"votre\", \"vous avez\" → \"j'ai\".",
@@ -506,10 +506,11 @@ export const FR_A2_U02_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "[It was necessary] to wait two hours.",
+        en: "[We had to] wait two hours.",
         sentence: "___ attendre deux heures.",
         answer: "Il a fallu",
-        explanation: "\"Falloir\" → \"il a fallu\" + infinitive.",
+        altAnswers: ["Nous avons dû", "On a dû"],
+        explanation: "\"Falloir\" → \"il a fallu\" + infinitive: literally 'it was necessary', the usual way to say we had to when no one in particular is meant. \"Nous avons dû\" / \"on a dû\" (from \"devoir\") are also correct.",
       },
       {
         type: "matching",
@@ -1058,7 +1059,7 @@ export const FR_A2_U02_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "At 3 p.m. I had a coffee.",
+        question: "How do you say: At 3 p.m. I had a coffee?",
         options: [
           "À quinze heures, je prends un café.",
           "À quinze heures, j'ai pris un café.",
@@ -1106,7 +1107,7 @@ export const FR_A2_U02_EXTRA: Lesson[] = [
       {
         heading: "Quick recap",
         body: [
-          "Here's the English account you'll translate, sentence by sentence: 'Last Saturday I slept until ten. I had a big breakfast and read the paper. In the afternoon I did some gardening and my neighbour gave me some tomatoes. In the evening we had friends over: I made a lasagne and we drank a good wine. We laughed a lot. I didn't wash the dishes!'",
+          "Here's the English account you'll translate, sentence by sentence: 'Last Saturday I slept until ten. I had a big breakfast and read the paper. In the afternoon I did some gardening and my neighbour gave my wife some tomatoes. In the evening we had friends over: I made a lasagne and we drank a good wine. We laughed a lot. I didn't wash the dishes!'",
           "Think about each verb before you write: which family? \"dormi\", \"pris\", \"lu\", \"fait\", \"offert\", \"bu\", \"ri\", \"lavé\".",
         ],
         examples: [
@@ -1222,10 +1223,10 @@ export const FR_A2_U02_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "Nobody watched TV.",
-        answer: "Personne n'a regardé la télé.",
-        altAnswers: ["Personne n'a regardé la télévision."],
-        explanation: "\"Personne\" as subject + \"n'a\" + participle.",
+        source: "We didn't watch TV.",
+        answer: "On n'a pas regardé la télé.",
+        altAnswers: ["Nous n'avons pas regardé la télé.", "On n'a pas regardé la télévision.", "Nous n'avons pas regardé la télévision."],
+        explanation: "\"Ne...pas\" wraps the helper: \"on n'a pas regardé\". \"La\" stays after a negative (only un/une/des/du become \"de\").",
       },
       {
         type: "fill-blank",

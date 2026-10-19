@@ -103,7 +103,7 @@ export const FR_B2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Comment tu as su que j'étais là ? » Which answer is correct?",
+        question: "A friend asks: \"« Comment tu as su que j'étais là ? »\" Which answer is correct?",
         options: ["En voyant ta voiture devant la maison.", "En voir ta voiture devant la maison.", "Voyant ta voiture, elle était devant la maison.", "En vu ta voiture devant la maison."],
         correctIndex: 0,
         explanation: "\"En voyant\": from \"nous voyons\".",
@@ -353,7 +353,7 @@ export const FR_B2_U14_EXTRA: Lesson[] = [
             source: "He asked me what interested me in the job.",
             answer: "Il m'a demandé ce qui m'intéressait dans le poste.",
             altAnswers: ["Il m'a demandé ce qui m'intéressait dans ce poste.", "Il m'a demandé ce qui m'intéressait dans le travail."],
-            explanation: "« Qu'est-ce qui » → \"ce qui\"; backshift to the imparfait.",
+            explanation: "\"Qu'est-ce qui\" → \"ce qui\"; backshift to the imparfait.",
           },
           {
             type: "fill-blank",
@@ -373,7 +373,7 @@ export const FR_B2_U14_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "He asked me whether I was ready to move.",
         answer: "Il m'a demandé si j'étais prête à déménager.",
-        altAnswers: ["Il m'a demandé si j'étais prêt à déménager.", "Elle m'a demandé si j'étais prête à déménager.", "Elle m'a demandé si j'étais prêt à déménager."],
+        altAnswers: ["Il m'a demandé si j'étais prêt à déménager."],
         explanation: "Yes/no question → \"si\" + imparfait.",
       },
       {
@@ -400,7 +400,7 @@ export const FR_B2_U14_EXTRA: Lesson[] = [
         en: "He asked me [what I was doing] at the moment.",
         sentence: "Il m'a demandé ___ en ce moment.",
         answer: "ce que je faisais",
-        explanation: "« Qu'est-ce que » → \"ce que\", no inversion, backshift.",
+        explanation: "\"Qu'est-ce que\" → \"ce que\", no inversion, backshift.",
       },
       {
         type: "translate",
@@ -451,7 +451,7 @@ export const FR_B2_U14_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "He told me to come back the next day.",
         answer: "Il m'a dit de revenir le lendemain.",
-        altAnswers: ["Il m'a demandé de revenir le lendemain.", "Elle m'a dit de revenir le lendemain."],
+        altAnswers: ["Il m'a demandé de revenir le lendemain."],
         explanation: "Reported order: \"dire de\" + infinitive; \"demain\" → \"le lendemain\".",
       },
       {
@@ -467,7 +467,7 @@ export const FR_B2_U14_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "He promised that he would call me.",
         answer: "Il m'a promis qu'il m'appellerait.",
-        altAnswers: ["Il a promis qu'il m'appellerait.", "Il m'a promis de m'appeler.", "Elle m'a promis qu'elle m'appellerait."],
+        altAnswers: ["Il a promis qu'il m'appellerait.", "Il m'a promis de m'appeler."],
         explanation: "\"Promettre que\" + conditionnel (future in the past), or \"promettre de\" + infinitive.",
       },
       {

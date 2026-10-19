@@ -67,9 +67,9 @@ export const PT_C2_U16: Lesson[] = [
       {
         heading: "Litotes: saying more by saying less",
         body: [
-          "The \"lítotes\" affirms by denying the opposite, and Brazilian criticism is full of it, because it lets a critic praise with reserve or criticise with courtesy. \"Nada desprezível\" (far from negligible) means considerable; \"não é pouca coisa\" means it's a real achievement; \"nada mal\" is a cool good.",
+          "The \"lítotes\" affirms by denying the opposite, and Brazilian criticism is full of it, because it lets a critic praise with reserve or criticize with courtesy. \"Nada desprezível\" (far from negligible) means considerable; \"não é pouca coisa\" means it's a real achievement; \"nada mal\" is a cool good.",
           "Some litotes are double-edged, and you must hear which edge cuts. \"Não deixa de ser\" + adjective concedes a quality reluctantly: \"não deixa de ser curioso\" means it is, admittedly, curious. \"Longe de ser\" denies firmly: \"longe de ser uma obra-prima\" (far from a masterpiece). \"Está aquém de\" means falls short of: \"o segundo romance está aquém do primeiro\". Its opposite is \"está à altura de\" (lives up to).",
-          "Used well, these phrases signal judgement weighed rather than shouted. Used in every sentence, they make a review sound evasive. Keep one or two for the moments that need nuance.",
+          "Used well, these phrases signal judgment weighed rather than shouted. Used in every sentence, they make a review sound evasive. Keep one or two for the moments that need nuance.",
         ],
         examples: [
           { es: "A estreia do diretor é um feito nada desprezível.", en: "The director's debut is a far from negligible achievement." },
@@ -152,7 +152,7 @@ export const PT_C2_U16: Lesson[] = [
           {
             type: "speak",
             text: "A pintora subverte o retrato oficial da família burguesa.",
-            tip: "\"Burguesa\": the u after g is silent, bur-GUE-za.",
+            tip: "\"Burguesa\": the u after g is silent, bur-GÊ-za.",
             explanation: "\"Subverter\" is a key verb of art criticism, in the present of commentary.",
           },
         ],
@@ -190,7 +190,7 @@ export const PT_C2_U16: Lesson[] = [
         sentence: "A montagem ___ texto de Nelson Rodrigues.",
         answer: "está à altura do",
         altAnswers: ["fica à altura do", "se mostra à altura do"],
-        explanation: "\"Estar à altura de\" (to live up to) is the positive twin of \"estar aquém de\". In theatre a production is \"montagem\" and the play is \"o texto\".",
+        explanation: "\"Estar à altura de\" (to live up to) is the positive twin of \"estar aquém de\". In theater a production is \"montagem\" and the play is \"o texto\".",
       },
       {
         type: "translate",
@@ -260,7 +260,7 @@ export const PT_C2_U16: Lesson[] = [
         type: "speak",
         text: "O segundo disco está aquém do primeiro.",
         prompt: "Say it in Portuguese: The second album falls short of the first.",
-        tip: "\"Aquém\" is stressed on the nasal last syllable: a-KÃY.",
+        tip: "\"Aquém\" is stressed on the nasal last syllable, a closed nasal diphthong: a-KẼIN.",
         explanation: "\"Estar aquém de\" is the critic's falls short of.",
       },
     ],
@@ -277,8 +277,8 @@ export const PT_C2_U16: Lesson[] = [
         heading: "The language of the frame",
         body: [
           "Film criticism in Portuguese has a technical vocabulary that English speakers often mistranslate. Cinematography is \"fotografia\" (\"a fotografia de Walter Carvalho\"), and the cinematographer is \"diretor de fotografia\". Editing is \"montagem\" (\"edição\" is common but less precise), the screenplay \"roteiro\", the cast \"elenco\", the score \"trilha sonora\", production design \"direção de arte\". An actor's performance is \"atuação\" or \"interpretação\", never \"performance\" in a review.",
-          "The frame has its own words: \"plano\" (shot), \"plano geral\" (wide shot), \"close\" or \"primeiro plano\", \"plano-sequência\" (a long take without a cut), \"enquadramento\" (framing), \"câmera na mão\" (hand-held), \"corte seco\" (hard cut). \"Mise-en-scène\" is used as in French, and so is its Portuguese equivalent \"encenação\".",
-          "Use these words to support a judgement, not to show off. \"O plano-sequência inicial apresenta a casa inteira e já sugere que ela vai ser invadida\" ties the technique to its effect.",
+          "The frame has its own words: \"plano\" (shot), \"plano geral\" (wide shot), \"close\" or \"primeiro plano\", \"plano-sequência\" (a long take without a cut), \"enquadramento\" (framing), \"câmera na mão\" (hand-held), \"corte seco\" (hard cut). \"Mise-en-scène\" is used as in French, alongside its Portuguese equivalent \"encenação\".",
+          "Use these words to support a judgment, not to show off. \"O plano-sequência inicial apresenta a casa inteira e já sugere que ela vai ser invadida\" ties the technique to its effect.",
         ],
         examples: [
           { es: "A fotografia, em tons de sépia, transforma o sertão numa paisagem de sonho.", en: "The cinematography, in sepia tones, turns the sertão into a dreamlike landscape." },
@@ -325,13 +325,13 @@ export const PT_C2_U16: Lesson[] = [
         body: [
           "Brazilian criticism still measures films against Cinema Novo, the movement of the 1960s that wanted to show Brazil's poverty and violence without exoticism. Its slogan, attributed to Glauber Rocha, was \"uma câmera na mão e uma ideia na cabeça\". Its key films include Nelson Pereira dos Santos's \"Vidas Secas\" (1963), from Graciliano's novel, and Glauber's \"Deus e o Diabo na Terra do Sol\" (1964). In his manifesto \"Estética da Fome\" Glauber argued that the hunger of the people should shape the film's very form.",
           "In 1990 the government closed the state film company Embrafilme, and production almost stopped. The \"retomada\" (the comeback) of the mid-1990s brought it back, and two films defined it abroad: Walter Salles's \"Central do Brasil\" (1998), with Fernanda Montenegro as a letter-writer at a Rio station, and \"Cidade de Deus\" (2002), by Fernando Meirelles and Kátia Lund, whose frantic editing and young, mostly non-professional cast made it a model and a target of debate about the \"estética da violência\".",
-          "When you write about these films, use relative clauses to fold context into analysis: \"um filme cujo protagonista é a própria favela\", \"uma estação na qual a cidade inteira passa\", \"a década em que o cinema quase acabou\".",
+          "When you write about these films, use relative clauses to fold context into analysis: \"um filme cujo protagonista é a própria favela\", \"uma estação pela qual a cidade inteira passa\", \"a década em que o cinema quase acabou\".",
         ],
         examples: [
           { es: "Glauber Rocha queria uma câmera na mão e uma ideia na cabeça.", en: "Glauber Rocha wanted a camera in hand and an idea in his head." },
           { es: "Em Vidas Secas, a luz estourada do sertão é quase um personagem.", en: "In Vidas Secas, the blown-out light of the sertão is almost a character." },
           { es: "A retomada começou numa década em que o cinema brasileiro quase acabou.", en: "The retomada began in a decade in which Brazilian cinema almost came to an end." },
-          { es: "Central do Brasil se passa numa estação na qual a cidade inteira passa.", en: "Central do Brasil takes place in a station that the whole city passes through." },
+          { es: "Central do Brasil se passa numa estação pela qual a cidade inteira passa", en: "Central do Brasil takes place in a station that the whole city passes through." },
           { es: "Cidade de Deus é um filme cujo protagonista é a própria favela.", en: "Cidade de Deus is a film whose protagonist is the favela itself." },
         ],
         checkpoint: [
@@ -363,7 +363,7 @@ export const PT_C2_U16: Lesson[] = [
             en: "Central do Brasil takes place in a station [that the whole city passes through].",
             sentence: "Central do Brasil se passa numa estação ___.",
             answer: "pela qual a cidade inteira passa",
-            altAnswers: ["por onde a cidade inteira passa", "pela qual passa a cidade inteira", "por onde passa a cidade inteira", "na qual a cidade inteira passa"],
+            altAnswers: ["por onde a cidade inteira passa", "pela qual passa a cidade inteira", "por onde passa a cidade inteira"],
             explanation: "\"Passar por\" keeps its preposition before the relative: \"pela qual\" or \"por onde\". English leaves it at the end; Portuguese can't.",
           },
         ],
@@ -373,7 +373,7 @@ export const PT_C2_U16: Lesson[] = [
         body: [
           "Contemporary Brazilian cinema gives a critic plenty to argue about. Anna Muylaert's \"Que Horas Ela Volta?\" (2015) turned a São Paulo kitchen into a map of class; Kleber Mendonça Filho and Juliano Dornelles's \"Bacurau\" (2019) mixed the western, satire and sertão violence. Walter Salles's \"Ainda Estou Aqui\" (2024), adapted from Marcelo Rubens Paiva's memoir, follows his mother Eunice after the military regime takes away her husband, the former congressman Rubens Paiva, in 1971. Fernanda Torres won a Golden Globe for the role, and in 2025 the film became the first Brazilian film to win the Oscar for best international feature.",
           "Reviews of \"Ainda Estou Aqui\" praised what it holds back: a house full of light and music in the first act, then absence, and a performance in which grief is almost never shown on the face. That is the vocabulary of the toolkit at work: \"contido\", \"sóbrio\", \"a recusa do melodrama\".",
-          "Separate fact from judgement. \"O filme foi indicado a três Oscars\" is fact; \"o filme transforma uma história privada em memória coletiva\" is judgement, and it needs an example to stand.",
+          "Separate fact from judgment. \"O filme foi indicado a três Oscars\" is fact; \"o filme transforma uma história privada em memória coletiva\" is judgment, and it needs an example to stand.",
         ],
         examples: [
           { es: "Que Horas Ela Volta? transforma uma cozinha paulistana num mapa das classes sociais.", en: "Que Horas Ela Volta? turns a São Paulo kitchen into a map of social class." },
@@ -390,11 +390,11 @@ export const PT_C2_U16: Lesson[] = [
             source: "The film turns a private story into collective memory.",
             answer: "O filme transforma uma história privada em memória coletiva.",
             altAnswers: ["O filme transforma uma história particular em memória coletiva.", "O filme converte uma história privada em memória coletiva.", "O filme transforma uma história íntima em memória coletiva."],
-            explanation: "\"Transformar... em\" is turn into. A judgement like this needs an example in the next sentence.",
+            explanation: "\"Transformar... em\" is turn into. A judgment like this needs an example in the next sentence.",
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is a judgement rather than a fact?",
+            question: "Which sentence is a judgment rather than a fact?",
             options: [
               "A atuação de Fernanda Torres é contida e devastadora.",
               "O filme foi lançado em 2024.",
@@ -518,13 +518,13 @@ export const PT_C2_U16: Lesson[] = [
       {
         type: "dictation",
         audio: "A montagem alterna o passado e o presente sem aviso.",
-        explanation: "\"Montagem\" ends in a nasal sound, mon-TA-gẽy.",
+        explanation: "\"Montagem\" ends in a nasal sound, mon-TA-zhẽi.",
       },
       {
         type: "speak",
         text: "Cidade de Deus é um filme cujo protagonista é a própria favela.",
         prompt: "Say it in Portuguese: Cidade de Deus is a film whose protagonist is the favela itself.",
-        tip: "\"Cujo\" is CU-jo, with the j as in pleasure.",
+        tip: "\"Cujo\" is KU-zhu, with the j as in pleasure.",
         explanation: "\"Cujo\" without an article, agreeing with \"protagonista\".",
       },
     ],
@@ -540,17 +540,17 @@ export const PT_C2_U16: Lesson[] = [
       {
         heading: "Describing a painting: composition and technique",
         body: [
-          "A description of a painting moves from what is seen to what it does. Start with the \"composição\": what is in the \"primeiro plano\" (foreground), the \"plano de fundo\" or \"fundo\" (background), the centre; how the eye travels; the \"escala\" of the figures. Then the technique: \"óleo sobre tela\", \"a pincelada\" (brushstroke), \"o traço\" (line), \"a paleta\" (range of colours), \"cores chapadas\" (flat colours), \"o volume\", \"a perspectiva\".",
+          "A description of a painting moves from what is seen to what it does. Start with the \"composição\": what is in the \"primeiro plano\" (foreground), the \"plano de fundo\" or \"fundo\" (background), the center; how the eye travels; the \"escala\" of the figures. Then the technique: \"óleo sobre tela\", \"a pincelada\" (brushstroke), \"o traço\" (line), \"a paleta\" (range of colors), \"cores chapadas\" (flat colors), \"o volume\", \"a perspectiva\".",
           "Tarsila do Amaral's \"Abaporu\" (1928) is the classic exercise. A huge seated figure with an enormous foot and a tiny head fills the canvas; beside it, a cactus under a yellow sun. The distortion of scale is the meaning: a body of the earth, all foot and no head. The painting gave Oswald de Andrade the impulse for the \"Manifesto Antropófago\", the idea that Brazil should devour foreign culture and digest it into something its own.",
           "Write the description in the present and let each detail carry an interpretation: \"o pé desproporcional ancora a figura no chão\", not merely \"o pé é grande\".",
         ],
         examples: [
           { es: "No primeiro plano, uma figura sentada ocupa quase toda a tela.", en: "In the foreground, a seated figure fills almost the whole canvas." },
           { es: "O pé desproporcional ancora a figura no chão.", en: "The outsized foot anchors the figure to the ground." },
-          { es: "Tarsila usa cores chapadas e formas arredondadas.", en: "Tarsila uses flat colours and rounded forms." },
+          { es: "Tarsila usa cores chapadas e formas arredondadas.", en: "Tarsila uses flat colors and rounded forms." },
           { es: "Ao lado da figura, um cacto sob um sol amarelo.", en: "Beside the figure, a cactus under a yellow sun." },
           { es: "O Abaporu deu origem ao Manifesto Antropófago.", en: "Abaporu gave rise to the Anthropophagic Manifesto." },
-          { es: "A paleta se reduz ao verde, ao amarelo e ao azul.", en: "The palette is reduced to green, yellow and blue." },
+          { es: "A paleta se reduz ao ocre, ao verde, ao amarelo e ao azul.", en: "The palette is reduced to ochre, green, yellow and blue." },
         ],
         checkpoint: [
           {
@@ -570,10 +570,10 @@ export const PT_C2_U16: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Tarsila uses [flat colours] and rounded forms.",
+            en: "Tarsila uses [flat colors] and rounded forms.",
             sentence: "Tarsila usa ___ e formas arredondadas.",
             answer: "cores chapadas",
-            explanation: "\"Cores chapadas\" are colours applied flat, without shading, one of the marks of Tarsila's modernism.",
+            explanation: "\"Cores chapadas\" are colors applied flat, without shading, one of the marks of Tarsila's modernism.",
           },
           {
             type: "listen-choose",
@@ -593,12 +593,12 @@ export const PT_C2_U16: Lesson[] = [
       {
         heading: "Portinari and painting as testimony",
         body: [
-          "Candido Portinari painted Brazil's people at work and in flight. In \"Os Retirantes\" (1944) a family of migrants escaping the drought stands against a grey sky and a ground of bones; their bodies are thin to the point of skeletons, their eyes too large. Critics speak of \"denúncia social\" (social denunciation) and of the painting as \"testemunho\". His great panels \"Guerra e Paz\" hang in the United Nations building in New York.",
+          "Candido Portinari painted Brazil's people at work and in flight. In \"Os Retirantes\" (1944) a family of migrants escaping the drought stands against a gray sky and a ground of bones; their bodies are thin to the point of skeletons, their eyes too large. Critics speak of \"denúncia social\" (social denunciation) and of the painting as \"testemunho\". His great panels \"Guerra e Paz\" hang in the United Nations building in New York.",
           "When context matters, fold it in with apposition and relative clauses rather than separate history lessons: \"Portinari, filho de imigrantes italianos que trabalhavam nos cafezais, ...\", \"uma seca da qual o país preferia não falar\".",
-          "Concessive judgement keeps you honest about a canonical artist: \"Por mais que a mensagem seja explícita, a composição nunca é panfletária\", \"Ainda que monumental, a obra não perde a delicadeza\".",
+          "Concessive judgment keeps you honest about a canonical artist: \"Por mais que a mensagem seja explícita, a composição nunca é panfletária\", \"Ainda que monumental, a obra não perde a delicadeza\".",
         ],
         examples: [
-          { es: "Em Os Retirantes, uma família de migrantes aparece contra um céu cinzento.", en: "In Os Retirantes, a family of migrants appears against a grey sky." },
+          { es: "Em Os Retirantes, uma família de migrantes aparece contra um céu cinzento.", en: "In Os Retirantes, a family of migrants appears against a gray sky." },
           { es: "Os corpos magros e os olhos enormes fazem da tela uma denúncia social.", en: "The thin bodies and enormous eyes make the canvas a social denunciation." },
           { es: "Portinari, filho de imigrantes italianos, cresceu entre cafezais.", en: "Portinari, the son of Italian immigrants, grew up among coffee plantations." },
           { es: "Por mais que a mensagem seja explícita, a composição nunca é panfletária.", en: "However explicit the message is, the composition is never propagandistic." },
@@ -640,7 +640,7 @@ export const PT_C2_U16: Lesson[] = [
         body: [
           "From the late 1950s the neoconcrete artists of Rio took art off the wall. Lygia Clark's \"Bichos\" are hinged metal sculptures that only exist fully when the visitor handles them; Hélio Oiticica's \"Parangolés\" are capes made to be worn and danced in, first by samba dancers from Mangueira. Oiticica's installation \"Tropicália\" (1967), a walk-through environment of sand, plants and a television, gave its name to the musical movement of the following year.",
           "Describing this work needs different words: \"obra participativa\", \"instalação\", \"o espectador vira participante\", \"a obra se completa no corpo de quem a veste\". The question is less what it looks like than what it makes you do.",
-          "The Bienal de São Paulo, held since 1951 in a Niemeyer pavilion in Ibirapuera Park, is where Brazilian critics test these ideas against the world. Its vocabulary: \"curadoria\" (curating), \"curador\", \"mostra\", \"núcleo\" (section), \"obra comissionada\". Critics review the curatorial argument as much as the works.",
+          "The Bienal de São Paulo, held since 1951, and since 1957 in a Niemeyer pavilion in Ibirapuera Park, is where Brazilian critics test these ideas against the world. Its vocabulary: \"curadoria\" (curating), \"curador\", \"mostra\", \"núcleo\" (section), \"obra comissionada\". Critics review the curatorial argument as much as the works.",
         ],
         examples: [
           { es: "Os Bichos de Lygia Clark só existem plenamente nas mãos do visitante.", en: "Lygia Clark's Bichos only fully exist in the visitor's hands." },
@@ -685,10 +685,10 @@ export const PT_C2_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The palette is reduced to green, yellow and blue.",
-        answer: "A paleta se reduz ao verde, ao amarelo e ao azul.",
-        altAnswers: ["A paleta se reduz a verde, amarelo e azul.", "A paleta é reduzida ao verde, ao amarelo e ao azul.", "A paleta se limita ao verde, ao amarelo e ao azul."],
-        explanation: "\"Reduzir-se a\" contracts with each article: \"ao verde, ao amarelo, ao azul\".",
+        source: "The palette is reduced to ochre, green, yellow and blue.",
+        answer: "A paleta se reduz ao ocre, ao verde, ao amarelo e ao azul.",
+        altAnswers: ["A paleta se reduz a ocre, verde, amarelo e azul.", "A paleta é reduzida ao ocre, ao verde, ao amarelo e ao azul.", "A paleta se limita ao ocre, ao verde, ao amarelo e ao azul."],
+        explanation: "\"Reduzir-se a\" contracts with each article: \"ao ocre, ao verde, ao amarelo, ao azul\". In Abaporu that means the earthy ochre of the figure, the green cactus, the yellow sun and the blue sky.",
       },
       {
         type: "fill-blank",
@@ -723,7 +723,7 @@ export const PT_C2_U16: Lesson[] = [
         options: [
           "No: it means the work preaches its message like a political leaflet.",
           "Yes: it means the work is widely reproduced.",
-          "Yes: it means the work is bold and colourful.",
+          "Yes: it means the work is bold and colorful.",
           "No: it means the work is too small.",
         ],
         correctIndex: 0,
@@ -765,8 +765,8 @@ export const PT_C2_U16: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "A paleta se reduz ao verde, ao amarelo e ao azul.",
-        explanation: "\"Paleta\" (palette) has a closed e: pa-LÊ-ta.",
+        audio: "A paleta se reduz ao ocre, ao verde, ao amarelo e ao azul.",
+        explanation: "\"Paleta\" (palette) has a closed e: pa-LÊ-ta. \"Ocre\" has an open ó: Ó-kri.",
       },
       {
         type: "speak",
@@ -824,7 +824,7 @@ export const PT_C2_U16: Lesson[] = [
             sentence: "___, o álbum tem três ou quatro canções que vão ficar.",
             answer: "Ainda que irregular",
             altAnswers: ["Embora irregular", "Apesar de irregular", "Mesmo irregular", "Ainda que seja irregular", "Embora seja irregular"],
-            explanation: "\"Ainda que\" + adjective: the concession comes first, the judgement second.",
+            explanation: "\"Ainda que\" + adjective: the concession comes first, the judgment second.",
           },
         ],
       },
@@ -877,7 +877,7 @@ export const PT_C2_U16: Lesson[] = [
         heading: "MPB, funk and rap: judging the present",
         body: [
           "\"MPB\" (música popular brasileira) began as a label for the post-bossa songwriters of the 1960s festivals, Chico Buarque, Milton Nascimento, Elis Regina, and became a loose name for sophisticated song. Funk carioca, born in the bailes of Rio's favelas, and rap from the periferia of São Paulo were long dismissed by critics, and part of contemporary criticism is about undoing that snobbery.",
-          "Racionais MC's \"Sobrevivendo no Inferno\" (1997) is now on the reading list of the Unicamp entrance exam, and Emicida's \"AmarElo\" (2019) was reviewed as a major work of the decade. Judging such records needs their own terms: \"flow\", \"rima\", \"batida\", \"sample\", \"beat\", \"crônica da periferia\". Don't measure a rap album by bossa nova's standards of harmony; ask what it does with its own tools.",
+          "Racionais MC's \"Sobrevivendo no Inferno\" (1997) was put on the reading list of the Unicamp entrance exam in 2020, and Emicida's \"AmarElo\" (2019) was reviewed as a major work of the decade. Judging such records needs their own terms: \"flow\", \"rima\", \"batida\", \"sample\", \"beat\", \"crônica da periferia\". Don't measure a rap album by bossa nova's standards of harmony; ask what it does with its own tools.",
           "Avoid a common critic's trap: praising a record for its subject alone. \"O disco fala de racismo\" is a description; \"as rimas transformam estatística em biografia\" is criticism.",
         ],
         examples: [
@@ -1020,13 +1020,13 @@ export const PT_C2_U16: Lesson[] = [
     level: "PT-C2",
     number: 5,
     title: "The Book Review",
-    summary: "Write a resenha crítica for a newspaper or magazine: presentation, summary, context and judgement, and how much plot to give away.",
+    summary: "Write a resenha crítica for a newspaper or magazine: presentation, summary, context and judgment, and how much plot to give away.",
     duration: "18 min",
     sections: [
       {
         heading: "The shape of a resenha",
         body: [
-          "A \"resenha crítica\" is a review that argues. Brazilian schools also teach the \"resenha descritiva\", which only summarises, so editors often specify the critical kind. Its usual order: a lead that grabs the reader and states or hints at the verdict; the basic data (title, author, editora, number of pages, price, often in a box called the \"ficha técnica\"); a short summary; context, such as the author's career or the book's place in a tradition; and the evaluation, supported by quotation.",
+          "A \"resenha crítica\" is a review that argues. Brazilian schools also teach the \"resenha descritiva\", which only summarizes, so editors often specify the critical kind. Its usual order: a lead that grabs the reader and states or hints at the verdict; the basic data (title, author, editora, number of pages, price, often in a box called the \"ficha técnica\"); a short summary; context, such as the author's career or the book's place in a tradition; and the evaluation, supported by quotation.",
           "The lead decides whether the review is read. \"Poucos romances de estreia chegam com tanta segurança\" (few debut novels arrive so assured) does more than \"Este livro foi publicado em 2019\". The last paragraph should land the verdict, often with a reservation: \"Mesmo com o final apressado, é um dos livros mais fortes da década.\"",
           "Know the book-world vocabulary: \"editora\" (publisher; \"editor\" is the person), \"lançamento\" (new release), \"romance de estreia\" (debut novel), \"orelha\" (the jacket flap), \"quarta capa\" (back cover), \"tradução\", \"tiragem\" (print run), and the Prêmio Jabuti, Brazil's most traditional literary prize.",
         ],
@@ -1068,7 +1068,7 @@ export const PT_C2_U16: Lesson[] = [
       {
         heading: "How much plot to give away",
         body: [
-          "Summary in a review serves the judgement; it doesn't replace it. The rule most Brazilian editors follow: tell the premise and the first act, never the turn or the ending. \"Spoiler\" is used as in English, and online reviews warn with \"alerta de spoiler\". In print, the polite formula is \"sem entregar o final\" or \"sem revelar demais\".",
+          "Summary in a review serves the judgment; it doesn't replace it. The rule most Brazilian editors follow: tell the premise and the first act, never the turn or the ending. \"Spoiler\" is used as in English, and online reviews warn with \"alerta de spoiler\". In print, the polite formula is \"sem entregar o final\" or \"sem revelar demais\".",
           "Take \"Torto Arado\" (2019), by Itamar Vieira Junior, which won the Jabuti and the Oceanos prizes. A good summary gives the premise: two sisters, Bibiana and Belonísia, grow up on a farm in the Chapada Diamantina, in Bahia, where their families work the land without owning it. An accident in childhood binds them for life. The review can say that the three parts change narrator, and that the third holds a surprise, without saying what it is.",
           "Write the summary in the present (\"as irmãs crescem\", \"a narrativa acompanha\") and keep it short: a paragraph in a review of five or six.",
         ],
@@ -1076,7 +1076,7 @@ export const PT_C2_U16: Lesson[] = [
           { es: "Sem entregar o final, basta dizer que a terceira parte muda tudo.", en: "Without giving away the ending, suffice it to say that the third part changes everything." },
           { es: "Duas irmãs crescem numa fazenda da Chapada Diamantina, na Bahia.", en: "Two sisters grow up on a farm in the Chapada Diamantina, in Bahia." },
           { es: "As famílias trabalham a terra sem nunca serem donas dela.", en: "The families work the land without ever owning it." },
-          { es: "Um acidente na infância une as duas para sempre.", en: "An accident in childhood binds the two of them for ever." },
+          { es: "Um acidente na infância une as duas para sempre.", en: "An accident in childhood binds the two of them forever." },
           { es: "A narrativa acompanha décadas da vida das irmãs.", en: "The narrative follows decades of the sisters' lives." },
         ],
         checkpoint: [
@@ -1110,7 +1110,7 @@ export const PT_C2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Duas irmãs crescem numa fazenda da Chapada Diamantina, na Bahia.",
-            tip: "\"Crescem\": the sc is a single s sound, CRE-sẽy.",
+            tip: "\"Crescem\": the sc is a single s sound, KRÉ-sẽi.",
             explanation: "The present of summary: what happens in the book whenever it's read.",
           },
         ],
@@ -1120,7 +1120,7 @@ export const PT_C2_U16: Lesson[] = [
         body: [
           "The evaluation needs evidence: quote a sentence, describe a scene, point to a structure. \"A prosa de Itamar é lírica\" is a claim; follow it with a short quotation and say what it does. Brazilian reviews introduce quotations with \"como neste trecho\", \"basta ler a abertura\", \"logo na primeira página\".",
           "Weigh strengths against weaknesses in the same paragraph rather than in two separate lists: \"Se a primeira parte impressiona pela voz, a segunda perde força ao explicar o que já estava claro.\" This \"se... , ...\" contrast (if... then, meaning while... ) is a staple of Brazilian criticism.",
-          "End with a judgement a reader can use: for whom, against what, why now. \"É leitura obrigatória para quem quer entender o Brasil rural de hoje\" commits; \"é um livro interessante\" doesn't.",
+          "End with a judgment a reader can use: for whom, against what, why now. \"É leitura obrigatória para quem quer entender o Brasil rural de hoje\" commits; \"é um livro interessante\" doesn't.",
         ],
         examples: [
           { es: "Basta ler a abertura para perceber a força da voz narrativa.", en: "You only have to read the opening to see the strength of the narrative voice." },
@@ -1188,7 +1188,7 @@ export const PT_C2_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "An accident in childhood binds the two of them for ever.",
+        source: "An accident in childhood binds the two of them forever.",
         answer: "Um acidente na infância une as duas para sempre.",
         altAnswers: ["Um acidente de infância une as duas para sempre.", "Um acidente na infância liga as duas para sempre.", "Um acidente na infância une as duas irmãs para sempre."],
         explanation: "The premise without the detail: enough to intrigue, nothing that spoils.",
@@ -1267,13 +1267,13 @@ export const PT_C2_U16: Lesson[] = [
     level: "PT-C2",
     number: 6,
     title: "Nuanced Verdicts",
-    summary: "Seria injusto dizer que, caberia perguntar se, talvez fosse o caso de, não deixa de ser, aquém das expectativas: mixed and qualified judgements with the conditional and the imperfect subjunctive.",
+    summary: "Seria injusto dizer que, caberia perguntar se, talvez fosse o caso de, não deixa de ser, aquém das expectativas: mixed and qualified judgments with the conditional and the imperfect subjunctive.",
     duration: "17 min",
     sections: [
       {
         heading: "The conditional as a critic's courtesy",
         body: [
-          "The conditional softens a verdict without emptying it. \"Seria injusto dizer que o filme é raso\" (it would be unfair to say the film is shallow) defends the work against an easy objection. \"Caberia perguntar se a montagem precisava de tanta pressa\" (one might ask whether...) criticises in the form of a question. \"Não seria exagero afirmar que\" (it wouldn't be an exaggeration to say) builds up to strong praise.",
+          "The conditional softens a verdict without emptying it. \"Seria injusto dizer que o filme é raso\" (it would be unfair to say the film is shallow) defends the work against an easy objection. \"Caberia perguntar se a montagem precisava de tanta pressa\" (one might ask whether...) criticizes in the form of a question. \"Não seria exagero afirmar que\" (it wouldn't be an exaggeration to say) builds up to strong praise.",
           "These are formulas, and they are part of educated written Portuguese, not only of criticism: you'll meet them in editorials and academic essays. In speech, the imperfeito often replaces the conditional: \"seria\" becomes \"era\" (\"era melhor cortar vinte minutos\"). In a written review, keep the conditional.",
           "Formal prose may use \"poder-se-ia\" (one could), with the pronoun inside the verb; it's correct and still common in essays, but in a newspaper column \"seria possível\" or \"daria para\" sounds less stiff.",
         ],
@@ -1372,7 +1372,7 @@ export const PT_C2_U16: Lesson[] = [
         body: [
           "Most honest reviews are mixed, and Portuguese has a set of phrases for the middle ground. \"Fica aquém das expectativas\" (falls short of expectations), \"não chega a ser\" (doesn't quite amount to: \"não chega a ser um fracasso\"), \"fica devendo\" (owes something, falls short: \"o terceiro ato fica devendo\"), \"cumpre o que promete\" (delivers on its promise, faint praise unless qualified).",
           "Build the mixed verdict as a balance in one sentence: \"Irregular, o filme não chega a ser uma decepção, mas fica aquém do que o elenco permitia.\" The adjective at the head, set off by a comma, is a nominal touch typical of Brazilian reviews.",
-          "Hedging is not hiding. A review in which every sentence is conditional (\"talvez\", \"seria\", \"caberia\") reads as if the critic were afraid of the work. Let the hedges frame one clear verdict: \"Seria injusto chamá-lo de raso, mas é, sem dúvida, um filme menor.\" Phrases like \"sem dúvida\" and \"de fato\" mark the point where the nuance ends and the judgement begins.",
+          "Hedging is not hiding. A review in which every sentence is conditional (\"talvez\", \"seria\", \"caberia\") reads as if the critic were afraid of the work. Let the hedges frame one clear verdict: \"Seria injusto chamá-lo de raso, mas é, sem dúvida, um filme menor.\" Phrases like \"sem dúvida\" and \"de fato\" mark the point where the nuance ends and the judgment begins.",
         ],
         examples: [
           { es: "O filme fica aquém das expectativas criadas pelo trailer.", en: "The film falls short of the expectations raised by the trailer." },
@@ -1462,7 +1462,7 @@ export const PT_C2_U16: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You want to criticise the editing politely, as a question. Which sentence does that?",
+        question: "You want to criticize the editing politely, as a question. Which sentence does that?",
         options: [
           "Caberia perguntar se a montagem precisava de tanta pressa.",
           "A montagem é péssima e apressada.",
@@ -1601,7 +1601,7 @@ export const PT_C2_U16: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence criticises the work?",
+            question: "Which sentence criticizes the work?",
             options: [
               "A peça é incômoda de tão mal resolvida.",
               "É um filme incômodo, no melhor sentido.",
@@ -1623,7 +1623,7 @@ export const PT_C2_U16: Lesson[] = [
         heading: "Minimal pairs: the same quality, praised or blamed",
         body: [
           "Many qualities have two names, one for when they work and one for when they don't. \"Simples\" or \"despojado\" (stripped back) is praise, \"simplório\" (simplistic) is blame. \"Sóbrio\" against \"apagado\" (dull); \"contido\" against \"frio\"; \"denso\" against \"pesado\" (heavy-going); \"ousado\" (daring) against \"pretensioso\"; \"delicado\" against \"frágil\" (flimsy); \"lírico\" against \"piegas\" (sappy).",
-          "Choosing the right member of the pair is the critic's judgement in one word. Two reviews can agree on what a film does, that it's quiet and slow, and disagree completely: \"contemplativo\" or \"arrastado\" (dragging).",
+          "Choosing the right member of the pair is the critic's judgment in one word. Two reviews can agree on what a film does, that it's quiet and slow, and disagree completely: \"contemplativo\" or \"arrastado\" (dragging).",
         ],
         examples: [
           { es: "A encenação é despojada, quase sem cenário.", en: "The staging is stripped back, with almost no set." },
@@ -1737,7 +1737,7 @@ export const PT_C2_U16: Lesson[] = [
           "It's pleasant but forgettable.",
           "It's the best beach read of the year.",
           "It's a novel set in a beach hotel.",
-          "It's too long to finish on holiday.",
+          "It's too long to finish on vacation.",
         ],
         correctIndex: 0,
         explanation: "\"Simpático\" is faint praise, and \"esquecer no hotel\" makes the irony explicit.",
@@ -1751,7 +1751,7 @@ export const PT_C2_U16: Lesson[] = [
         type: "speak",
         text: "Ninguém sai ileso da última cena.",
         prompt: "Say it in Portuguese: Nobody comes out of the last scene unscathed.",
-        tip: "\"Ileso\" has a closed ê and a z sound: i-LÊ-zo.",
+        tip: "\"Ileso\" is usually given with a closed ê and a z sound, i-LÊ-zu; an open é (i-LÉ-zu) is also widely heard.",
         explanation: "Harsh-sounding words that praise a film's power.",
       },
     ],
@@ -1770,12 +1770,12 @@ export const PT_C2_U16: Lesson[] = [
         heading: "Abrindo o episódio: first impressions",
         body: [
           "\"Plano Geral\" is a film podcast. Its hosts, Lúcia and Rafael, are reviewing \"Maré Baixa\", a new film set in Salvador about a fisherman's family after the father disappears at sea. Lúcia loved it; Rafael didn't. Podcasts open with fixed formulas: \"Sejam bem-vindos a mais um episódio\", \"hoje a gente vai falar de...\", \"sem spoilers até o fim\".",
-          "First impressions are conversational but precise. Lúcia: \"— Eu saí do cinema meio sem chão.\" (I left the cinema a bit shaken; literally, without ground.) Rafael: \"— Eu saí com sono, para ser sincero.\" The register mixes spoken forms (\"a gente\", \"pra\", \"né\") with the critic's vocabulary (\"fotografia\", \"roteiro\", \"contido\").",
+          "First impressions are conversational but precise. Lúcia: \"— Eu saí do cinema meio sem chão.\" (I left the theater a bit shaken; literally, without ground.) Rafael: \"— Eu saí com sono, para ser sincero.\" The register mixes spoken forms (\"a gente\", \"pra\", \"né\") with the critic's vocabulary (\"fotografia\", \"roteiro\", \"contido\").",
         ],
         examples: [
           { es: "— Sejam bem-vindos a mais um episódio do Plano Geral!", en: "'Welcome to another episode of Plano Geral!'" },
           { es: "— Hoje a gente vai falar de Maré Baixa, sem spoilers até o fim.", en: "'Today we're talking about Maré Baixa, with no spoilers until the end.'" },
-          { es: "— Eu saí do cinema meio sem chão.", en: "'I left the cinema a bit shaken.'" },
+          { es: "— Eu saí do cinema meio sem chão.", en: "'I left the theater a bit shaken.'" },
           { es: "— Eu saí com sono, para ser sincero.", en: "'I left half asleep, to be honest.'" },
           { es: "— A fotografia é a primeira coisa que chama a atenção.", en: "'The cinematography is the first thing that grabs you.'" },
         ],
@@ -1784,7 +1784,7 @@ export const PT_C2_U16: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, as Lúcia would say it.",
-            source: "'I left the cinema a bit shaken.'",
+            source: "'I left the theater a bit shaken.'",
             answer: "— Eu saí do cinema meio sem chão.",
             altAnswers: ["— Saí do cinema meio sem chão.", "— Eu saí do cinema meio abalada.", "— Saí do cinema meio abalada.", "— Eu saí do cinema meio abalado."],
             explanation: "\"Ficar sem chão\" (to be left without ground) is the Brazilian image for being deeply shaken. \"Meio\" here is a bit and doesn't agree.",
@@ -2008,7 +2008,7 @@ export const PT_C2_U16: Lesson[] = [
     level: "PT-C2",
     number: 9,
     title: "Error Hunt: Criticism",
-    summary: "Fix learners' reviews: plot summary instead of judgement, empty adjectives, wrong technical terms and calques like *o filme performa bem and *a atuação entrega.",
+    summary: "Fix learners' reviews: plot summary instead of judgment, empty adjectives, wrong technical terms and calques like *o filme performa bem and *a atuação entrega.",
     duration: "16 min",
     kind: "drill",
     format: "Error Hunt",
@@ -2085,7 +2085,7 @@ export const PT_C2_U16: Lesson[] = [
             sentence: "___ é simples; a montagem é que o complica.",
             answer: "O enredo",
             altAnswers: ["A trama", "O argumento"],
-            explanation: "\"Enredo\" or \"trama\" for plot. \"É que\" emphasises the subject: it's the editing that...",
+            explanation: "\"Enredo\" or \"trama\" for plot. \"É que\" emphasizes the subject: it's the editing that...",
           },
           {
             type: "listen-choose",
@@ -2103,7 +2103,7 @@ export const PT_C2_U16: Lesson[] = [
         ],
       },
       {
-        heading: "Summary instead of judgement",
+        heading: "Summary instead of judgment",
         body: [
           "The most common structural error: a review that is three paragraphs of plot and one line of verdict (\"*Gostei muito, recomendo\"). Summary should be short, in the present, and every fact should prepare an argument. Rewrite \"*Depois, a mãe vai ao mercado e encontra o vizinho\" as analysis: \"A ida ao mercado, filmada em plano-sequência, é o único momento em que a mãe respira.\"",
           "Watch the norm too: \"assistir\" meaning to watch takes \"a\" in careful writing (\"assistir ao filme\"), even though speech says \"assistir o filme\". In a published review, use \"assistir ao\".",
@@ -2273,7 +2273,7 @@ export const PT_C2_U16: Lesson[] = [
         examples: [
           { es: "Direção: Walter Salles. Elenco: Fernanda Torres, Selton Mello, Fernanda Montenegro.", en: "Directed by Walter Salles. Cast: Fernanda Torres, Selton Mello, Fernanda Montenegro." },
           { es: "Roteiro: Murilo Hauser e Heitor Lorega, a partir do livro de Marcelo Rubens Paiva.", en: "Screenplay: Murilo Hauser and Heitor Lorega, based on the book by Marcelo Rubens Paiva." },
-          { es: "Onde ver: nos cinemas e, em breve, no streaming.", en: "Where to watch: in cinemas and soon on streaming." },
+          { es: "Onde ver: nos cinemas e, em breve, no streaming.", en: "Where to watch: in theaters and soon on streaming." },
           { es: "Fernanda Torres sustenta, quase em silêncio, um filme sobre a ausência.", en: "Fernanda Torres carries, almost in silence, a film about absence." },
           { es: "Cotação: ótimo.", en: "Rating: excellent." },
         ],
@@ -2305,7 +2305,7 @@ export const PT_C2_U16: Lesson[] = [
             question: "Where in a Brazilian review page would you find \"Elenco: Fernanda Torres, Selton Mello\"?",
             options: ["In the ficha técnica.", "In the linha fina.", "In the headline.", "In the last paragraph."],
             correctIndex: 0,
-            explanation: "Facts go in the ficha técnica box, so the text itself can be about judgement.",
+            explanation: "Facts go in the ficha técnica box, so the text itself can be about judgment.",
           },
         ],
       },
@@ -2364,12 +2364,12 @@ export const PT_C2_U16: Lesson[] = [
       {
         heading: "The verdict and the edit",
         body: [
-          "Close with a judgement a reader can act on, placed in context: \"É o filme brasileiro mais importante desde Central do Brasil, e não por acaso tem a mesma atriz no centro: mãe e filha.\" That last clause turns a fact (Fernanda Montenegro, Fernanda Torres's mother, starred in Central do Brasil) into an idea.",
+          "Close with a judgment a reader can act on, placed in context: \"É o filme brasileiro mais importante desde Central do Brasil, e não por acaso tem a mesma atriz no centro: mãe e filha.\" That last clause turns a fact (Fernanda Montenegro, Fernanda Torres's mother, starred in Central do Brasil) into an idea.",
           "Then edit. Count characters with spaces; cut the adjectives that don't work; check every name, date and spelling; read it aloud. Editors in Brazil will ask you to \"enxugar\" or to \"segurar o spoiler\"; your reply to the editor is short and polite: \"Segue a versão revisada, já com 3.480 caracteres.\"",
         ],
         examples: [
           { es: "É o filme brasileiro mais importante desde Central do Brasil.", en: "It's the most important Brazilian film since Central do Brasil." },
-          { es: "Não por acaso, tem a mesma atriz no centro: mãe e filha.", en: "Not by chance, it has the same actress at its centre: mother and daughter." },
+          { es: "Não por acaso, tem a mesma atriz no centro: mãe e filha.", en: "Not by chance, it has the same actress at its center: mother and daughter." },
           { es: "Segue a versão revisada, já com 3.480 caracteres.", en: "Here's the revised version, now at 3,480 characters." },
           { es: "O editor pediu para segurar o spoiler até o último parágrafo.", en: "The editor asked me to hold back the spoiler until the last paragraph." },
           { es: "Cortei três adjetivos e uma frase inteira do segundo parágrafo.", en: "I cut three adjectives and a whole sentence from the second paragraph." },
@@ -2382,7 +2382,7 @@ export const PT_C2_U16: Lesson[] = [
             source: "Here's the revised version, now at 3,480 characters.",
             answer: "Segue a versão revisada, já com 3.480 caracteres.",
             altAnswers: ["Segue a versão revisada, agora com 3.480 caracteres.", "Segue a versão revista, já com 3.480 caracteres.", "Segue em anexo a versão revisada, já com 3.480 caracteres."],
-            explanation: "\"Segue\" is the standard here's or attached. Brazilian Portuguese writes thousands with a full stop: 3.480.",
+            explanation: "\"Segue\" is the standard here's or attached. Brazilian Portuguese writes thousands with a period: 3.480.",
           },
           {
             type: "speak",
@@ -2458,9 +2458,9 @@ export const PT_C2_U16: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: It has the same actress at its centre: mother and daughter.",
+        prompt: "Put the words in order to say: It has the same actress at its center: mother and daughter.",
         words: ["Tem", "a mesma atriz", "no centro:", "mãe", "e filha."],
-        translation: "It has the same actress at its centre: mother and daughter.",
+        translation: "It has the same actress at its center: mother and daughter.",
         explanation: "The colon introduces the twist; \"tem\" here is the film has.",
       },
       {
@@ -2503,7 +2503,7 @@ export const PT_C2_U16: Lesson[] = [
     slug: "c2-spiral-criticism",
     level: "PT-C2",
     number: 11,
-    title: "Spiral Review: Judgement and Taste",
+    title: "Spiral Review: Judgment and Taste",
     summary: "Mix criticism with the level's style analysis, prose masters, emotion vocabulary and tact: new sentences about films, books, records and exhibitions.",
     duration: "18 min",
     kind: "review",
@@ -2767,5 +2767,5 @@ export const PT_C2_U16_WRITING: WriteExercise = {
     "Ends with a hedged or nuanced verdict using the conditional or the imperfect subjunctive (\"seria injusto dizer que\", \"caberia perguntar se\", \"talvez fosse o caso de\"), with no calques (\"*entrega\", \"*performa\") and with \"assistir ao\" in the written norm.",
   ],
   modelAnswer: "A casa que se fecha\n\nFernanda Torres sustenta, quase em silêncio, um filme sobre a ausência.\n\nHá filmes que gritam a dor; \"Ainda Estou Aqui\" prefere guardá-la. O novo longa de Walter Salles, adaptado do livro de Marcelo Rubens Paiva, acompanha Eunice Paiva, mãe de cinco filhos e mulher do ex-deputado Rubens Paiva, levado de casa pelo regime militar em 1971. O tema poderia render um melodrama de denúncia. Salles faz o contrário: filma a falta.\n\nO primeiro ato é luminoso. A casa no Leblon, cujas janelas vivem abertas para o mar, é um lugar de música, de amigos, de crianças correndo com areia nos pés. Quando os agentes chegam, a câmera não sai dali, e a casa, aos poucos, se fecha: as cortinas descem, a vitrola se cala, os cômodos ficam grandes demais. É uma solução de direção nada desprezível, porque transforma um cenário em personagem.\n\nNo centro de tudo está Fernanda Torres, numa atuação contida e devastadora. Eunice quase nunca chora diante dos filhos; a dor aparece num sorriso que dura um segundo a mais, numa xícara que ela deixa esfriar. Seria injusto dizer que o filme depende só dela, mas é difícil imaginá-lo com outra atriz.\n\nAinda que o segmento final resvale no didatismo, com legendas que explicam o que o espectador já entendeu, ele não chega a comprometer o conjunto. Caberia perguntar, talvez, se o filme precisava de tantos anos de epílogo; por outro lado, é ali que aparece Fernanda Montenegro, e a presença de mãe e filha no mesmo papel dá à história uma rima que nenhum roteiro inventaria.\n\nQuem assistir ao filme esperando uma aula de história vai encontrar outra coisa: um retrato íntimo de como uma família sobrevive ao desaparecimento. É, sem exagero, o filme brasileiro mais importante desde \"Central do Brasil\". Vale o ingresso, e vale o silêncio na saída.",
-  explanation: "The model keeps the commentary in the present (\"acompanha\", \"filma\", \"se fecha\", \"sustenta\") and the facts in the past (\"levado de casa... em 1971\"). Its evaluative words are precise (\"contida\", \"devastadora\", \"luminoso\", \"didatismo\"), with a litotes (\"nada desprezível\") and a softened negative (\"não chega a comprometer\"). Apposition (\"mãe de cinco filhos e mulher do ex-deputado...\") and a relative with \"cujas\" fold context into the analysis, and the concession \"Ainda que o segmento final resvale\" takes the subjunctive. The hedges \"Seria injusto dizer que\" and \"Caberia perguntar, talvez, se\" frame a clear verdict, signalled by \"sem exagero\". Feelings are shown through details (\"um sorriso que dura um segundo a mais\", \"uma xícara que ela deixa esfriar\"), the opening antithesis announces the argument, the plot stops before the ending, and \"assistir ao filme\" follows the written norm.",
+  explanation: "The model keeps the commentary in the present (\"acompanha\", \"filma\", \"se fecha\", \"sustenta\") and the facts in the past (\"levado de casa... em 1971\"). Its evaluative words are precise (\"contida\", \"devastadora\", \"luminoso\", \"didatismo\"), with a litotes (\"nada desprezível\") and a softened negative (\"não chega a comprometer\"). Apposition (\"mãe de cinco filhos e mulher do ex-deputado...\") and a relative with \"cujas\" fold context into the analysis, and the concession \"Ainda que o segmento final resvale\" takes the subjunctive. The hedges \"Seria injusto dizer que\" and \"Caberia perguntar, talvez, se\" frame a clear verdict, signaled by \"sem exagero\". Feelings are shown through details (\"um sorriso que dura um segundo a mais\", \"uma xícara que ela deixa esfriar\"), the opening antithesis announces the argument, the plot stops before the ending, and \"assistir ao filme\" follows the written norm.",
 };

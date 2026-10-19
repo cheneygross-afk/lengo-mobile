@@ -15,14 +15,14 @@ export const PT_A2_U17: Lesson[] = [
       {
         heading: "Vamos...? and Quer...?: the two basic invitations",
         body: [
-          "The simplest invitation is \"vamos\" + infinitive with a question tone: \"Vamos tomar um café?\" (shall we get a coffee?). Without the question it's a suggestion: \"Vamos comer!\" (let's eat!). The other everyday frame is \"você quer\" + infinitive, often without \"você\": \"Quer ir ao cinema comigo?\" (do you want to go to the cinema with me?).",
+          "The simplest invitation is \"vamos\" + infinitive with a question tone: \"Vamos tomar um café?\" (shall we get a coffee?). Without the question it's a suggestion: \"Vamos comer!\" (let's eat!). The other everyday frame is \"você quer\" + infinitive, often without \"você\": \"Quer ir ao cinema comigo?\" (do you want to go to the movies with me?).",
           "The trap: \"vamos\" is also the plain present and future of \"ir\". \"Vamos viajar amanhã\" can mean let's travel tomorrow or we're going to travel tomorrow. Intonation and context decide. To state a plan, Brazilians usually say \"a gente vai\": \"A gente vai viajar amanhã\" is never an invitation.",
           "\"Comigo\" (with me) and \"com a gente\" (with us) make it personal: \"Quer almoçar comigo?\"",
         ],
         examples: [
           { es: "Vamos tomar um café?", en: "Shall we get a coffee?" },
           { es: "Vamos comer alguma coisa?", en: "Shall we get something to eat?" },
-          { es: "Você quer ir ao cinema comigo?", en: "Do you want to go to the cinema with me?" },
+          { es: "Você quer ir ao cinema comigo?", en: "Do you want to go to the movies with me?" },
           { es: "Quer almoçar com a gente hoje?", en: "Do you want to have lunch with us today?" },
           { es: "A gente vai ao show no sábado.", en: "We're going to the concert on Saturday." },
         ],
@@ -73,8 +73,8 @@ export const PT_A2_U17: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "Come with us!",
             answer: "Vem com a gente!",
-            altAnswers: ["Venha com a gente!", "Vem com nós!", "Venha conosco!", "Vem conosco!"],
-            explanation: "\"Vem\" is the everyday imperative of \"vir\"; between friends it's a warm invitation. \"Com a gente\" is the spoken with us.",
+            altAnswers: ["Venha com a gente!", "Venha conosco!", "Vem conosco!"],
+            explanation: "\"Vem\" is the everyday imperative of \"vir\"; between friends it's a warm invitation. \"Com a gente\" is the spoken with us; \"conosco\" is the careful form. Avoid \"com nós\": it is heard, but marked as uneducated.",
           },
           {
             type: "fill-blank",
@@ -126,7 +126,7 @@ export const PT_A2_U17: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Do you want to go to the cinema with me?",
+        source: "Do you want to go to the movies with me?",
         answer: "Você quer ir ao cinema comigo?",
         altAnswers: ["Quer ir ao cinema comigo?", "Você quer ir no cinema comigo?", "Quer ir no cinema comigo?", "Vamos ao cinema?", "Vamos no cinema?"],
         explanation: "\"Você quer\" + infinitive is the standard invitation. In speech \"ir no cinema\" is common; \"ir ao cinema\" is the careful form.",
@@ -219,7 +219,7 @@ export const PT_A2_U17: Lesson[] = [
           { left: "Aparece!", right: "Don't be a stranger!" },
           { left: "Vamos?", right: "Shall we?" },
         ],
-        explanation: "Short, high-frequency chunks for making plans. \"Aparece!\" as a goodbye invites someone to come round any time.",
+        explanation: "Short, high-frequency chunks for making plans. \"Aparece!\" as a goodbye invites someone to come over any time.",
       },
     ],
   },
@@ -338,7 +338,7 @@ export const PT_A2_U17: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "Of course! What time?",
         answer: "Claro! Que horas?",
-        altAnswers: ["Claro! A que horas?", "Com certeza! Que horas?", "Claro! Que horas são?"],
+        altAnswers: ["Claro! A que horas?", "Com certeza! Que horas?"],
         explanation: "\"Claro!\" accepts at once, and \"que horas?\" moves to the details.",
       },
       {
@@ -385,7 +385,7 @@ export const PT_A2_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend Mariana invites you to her birthday dinner, but you're travelling. Which reply sounds friendliest?",
+        question: "Your friend Mariana invites you to her birthday dinner, but you're traveling. Which reply sounds friendliest?",
         options: ["Poxa, não vai dar! É que eu vou viajar. Fica para a próxima!", "Não. Eu vou viajar.", "Não quero, obrigado.", "Não posso, não."],
         correctIndex: 0,
         explanation: "A soft no (\"não vai dar\"), a reason with \"é que\" and an open door (\"fica para a próxima\"). The others are correct Portuguese but sound blunt.",
@@ -432,7 +432,7 @@ export const PT_A2_U17: Lesson[] = [
         heading: "Que bom!, que pena!: good news and bad",
         body: [
           "Brazilians react out loud, and \"que\" + adjective is the core pattern. Good news: \"Que bom!\", \"Que legal!\", \"Que ótimo!\" Bad news: \"Que pena!\" (what a shame), \"Que chato!\" (how annoying), \"Que triste!\" Here \"que\" means how or what a.",
-          "Pick the reaction to the size of the news. \"Que chato\" suits a cancelled class, not a death; for real tragedy you'll learn \"sinto muito\" later in this unit. \"Ainda bem!\" means thank goodness: \"Ainda bem que deu tudo certo\" (thank goodness it all worked out).",
+          "Pick the reaction to the size of the news. \"Que chato\" suits a canceled class, not a death; for real tragedy you'll learn \"sinto muito\" later in this unit. \"Ainda bem!\" means thank goodness: \"Ainda bem que deu tudo certo\" (thank goodness it all worked out).",
         ],
         examples: [
           { es: "Você passou na prova? Que legal!", en: "You passed the exam? That's great!" },
@@ -565,10 +565,10 @@ export const PT_A2_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your colleague says her flight to Recife was cancelled. What fits best?",
+        question: "Your colleague says her flight to Recife was canceled. What fits best?",
         options: ["Poxa, que chato!", "Que legal!", "Que dia lindo!", "Ainda bem!"],
         correctIndex: 0,
-        explanation: "A cancelled flight is annoying bad news: \"poxa, que chato!\". \"Ainda bem\" means thank goodness.",
+        explanation: "A canceled flight is annoying bad news: \"poxa, que chato!\". \"Ainda bem\" means thank goodness.",
       },
       {
         type: "translate",
@@ -625,7 +625,7 @@ export const PT_A2_U17: Lesson[] = [
     level: "PT-A2",
     number: 4,
     title: "Small Talk, Brazilian Style",
-    summary: "Chat about the weather, traffic, football and the weekend, keep it going with e aí?, e você? and e a família?, and know why Brazilians chat first.",
+    summary: "Chat about the weather, traffic, soccer and the weekend, keep it going with e aí?, e você? and e a família?, and know why Brazilians chat first.",
     duration: "12 min",
     kind: "teach",
     sections: [
@@ -662,17 +662,17 @@ export const PT_A2_U17: Lesson[] = [
         ],
       },
       {
-        heading: "Para que time você torce?: football",
+        heading: "Para que time você torce?: soccer",
         body: [
           "In Brazil, \"Para que time você torce?\" (which team do you support?) is a normal question between strangers. \"Torcer para\" means to support a team, and \"o time\" is the team. Answers: \"Eu torço para o Flamengo\", \"Sou corintiano\" (I'm a Corinthians fan).",
-          "If you don't follow football, say so kindly: \"Não acompanho muito futebol\" (I don't follow football much). Then ask about the game anyway, because the person will happily tell you: \"Você viu o jogo ontem?\"",
+          "If you don't follow soccer, say so kindly: \"Não acompanho muito futebol\" (I don't follow soccer much). Then ask about the game anyway, because the person will happily tell you: \"Você viu o jogo ontem?\"",
         ],
         examples: [
           { es: "Para que time você torce?", en: "Which team do you support?" },
           { es: "Eu torço para o Grêmio.", en: "I support Grêmio." },
           { es: "Você viu o jogo ontem?", en: "Did you see the game yesterday?" },
           { es: "Que jogo, hein? Que golaço!", en: "What a game, huh? What a goal!" },
-          { es: "Não acompanho muito futebol.", en: "I don't follow football much." },
+          { es: "Não acompanho muito futebol.", en: "I don't follow soccer much." },
         ],
         checkpoint: [
           {
@@ -776,9 +776,9 @@ export const PT_A2_U17: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I don't follow football much.",
+        prompt: "Put the words in order to say: I don't follow soccer much.",
         words: ["Não", "acompanho", "muito", "futebol."],
-        translation: "I don't follow football much.",
+        translation: "I don't follow soccer much.",
         explanation: "\"Acompanhar\" is to follow (news, a team). \"Não\" goes before the verb.",
       },
       {
@@ -822,21 +822,21 @@ export const PT_A2_U17: Lesson[] = [
     level: "PT-A2",
     number: 5,
     title: "Obrigado, Desculpa, Imagina",
-    summary: "Thank people and reply to thanks with de nada, imagina and que isso, apologise with desculpa and foi sem querer, and know when only sinto muito will do.",
+    summary: "Thank people and reply to thanks with de nada, imagina and que isso, apologize with desculpa and foi sem querer, and know when only sinto muito will do.",
     duration: "12 min",
     kind: "teach",
     sections: [
       {
         heading: "Muito obrigado, obrigada pela ajuda",
         body: [
-          "\"Obrigado\" literally means obliged, so it agrees with the speaker, not with the person you thank: a man says \"obrigado\", a woman says \"obrigada\", always. Strengthen it with \"muito\": \"Muito obrigada!\" Among friends, \"Valeu!\" (thanks!, cheers!) is the casual version.",
+          "\"Obrigado\" literally means obliged, so it agrees with the speaker, not with the person you thank: a man says \"obrigado\", a woman says \"obrigada\", always. Strengthen it with \"muito\": \"Muito obrigada!\" Among friends, \"Valeu!\" (thanks!) is the casual version.",
           "To say what for, learn two chunks: \"obrigado pelo...\" before a masculine noun and \"obrigado pela...\" before a feminine one: \"Obrigada pela ajuda\" (thanks for the help), \"Obrigado pelo convite\" (thanks for the invitation). Never \"*obrigado para\": the full story of \"por\" and \"pelo\" comes in the next unit.",
         ],
         examples: [
           { es: "Muito obrigada, Dona Maria!", en: "Thank you so much, Dona Maria! (a woman speaking)" },
           { es: "Obrigado pela ajuda.", en: "Thanks for the help. (a man speaking)" },
           { es: "Obrigada pelo convite!", en: "Thanks for the invitation! (a woman speaking)" },
-          { es: "Valeu, cara!", en: "Cheers, mate!" },
+          { es: "Valeu, cara!", en: "Thanks, man!" },
           { es: "Obrigado pelo presente, adorei!", en: "Thanks for the present, I loved it!" },
         ],
         checkpoint: [
@@ -862,7 +862,7 @@ export const PT_A2_U17: Lesson[] = [
         heading: "De nada, imagina, que isso: replying",
         body: [
           "\"De nada\" (you're welcome) is always fine, and \"por nada\" is a variant. But Brazilians very often say \"Imagina!\", which doesn't mean imagine here: it's closer to don't mention it. \"Que isso!\" (oh, come on!) is just as common: it waves away the thanks as unnecessary.",
-          "Both sound warmer than \"de nada\" when someone thanks you for a real favour. \"Imagina\" is often shortened in speech to \"magina\".",
+          "Both sound warmer than \"de nada\" when someone thanks you for a real favor. \"Imagina\" is often shortened in speech to \"magina\".",
         ],
         examples: [
           { es: "De nada!", en: "You're welcome!" },
@@ -987,14 +987,14 @@ export const PT_A2_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You helped your neighbour, seu Antônio, carry his shopping. He says \"Muito obrigado!\". What's the warmest reply?",
+        question: "You helped your neighbor, seu Antônio, carry his groceries. He says \"Muito obrigado!\". What's the warmest reply?",
         options: ["Imagina!", "Desculpa!", "Sinto muito!", "Obrigado!"],
         correctIndex: 0,
         explanation: "\"Imagina!\" waves away thanks warmly. \"Desculpa\" and \"sinto muito\" are apologies.",
       },
       {
         type: "multiple-choice",
-        question: "A colleague apologises for spilling coffee on your desk. Which reply is wrong?",
+        question: "A colleague apologizes for spilling coffee on your desk. Which reply is wrong?",
         options: ["De nada!", "Tudo bem!", "Não foi nada!", "Sem problema!"],
         correctIndex: 0,
         explanation: "\"De nada\" only answers thanks. After an apology say \"tudo bem\", \"não foi nada\" or \"sem problema\".",
@@ -1065,14 +1065,14 @@ export const PT_A2_U17: Lesson[] = [
       {
         heading: "Boa viagem!, bom fim de semana!: bom and boa",
         body: [
-          "Most everyday wishes are \"bom\" or \"boa\" + noun, agreeing with the noun's gender: \"Bom fim de semana!\", \"Bom apetite!\", \"Boa viagem!\" (have a good trip), \"Boa sorte!\" (good luck), and plural \"Boas férias!\" (have a good holiday). Get the gender wrong and it jars: \"*bom viagem\".",
+          "Most everyday wishes are \"bom\" or \"boa\" + noun, agreeing with the noun's gender: \"Bom fim de semana!\", \"Bom apetite!\", \"Boa viagem!\" (have a good trip), \"Boa sorte!\" (good luck), and plural \"Boas férias!\" (have a good vacation). Get the gender wrong and it jars: \"*bom viagem\".",
           "For holidays, use \"feliz\": \"Feliz Natal!\", \"Feliz Ano Novo!\", \"Feliz Páscoa!\" The reply to any wish is \"Obrigado, pra você também!\" or simply \"Igualmente!\" (same to you).",
         ],
         examples: [
           { es: "Boa viagem! Me manda uma foto de lá.", en: "Have a good trip! Send me a photo from there." },
           { es: "Boa sorte na entrevista!", en: "Good luck with the interview!" },
           { es: "Bom fim de semana, pessoal!", en: "Have a good weekend, everyone!" },
-          { es: "Boas férias! Aproveita!", en: "Have a good holiday! Enjoy it!" },
+          { es: "Boas férias! Aproveita!", en: "Have a good vacation! Enjoy it!" },
           { es: "Feliz Natal! Igualmente!", en: "Merry Christmas! Same to you!" },
         ],
         checkpoint: [
@@ -1106,7 +1106,7 @@ export const PT_A2_U17: Lesson[] = [
           { es: "Meus sentimentos pela sua mãe.", en: "My condolences on your mother." },
           { es: "Força, amiga! Estou aqui.", en: "Stay strong, my friend! I'm here." },
           { es: "Querida Mariana, parabéns! Muita saúde, paz e felicidade!", en: "Dear Mariana, happy birthday! Wishing you health, peace and happiness!" },
-          { es: "Um abraço, João", en: "Love, João (closing a card)" },
+          { es: "Um abraço, João", en: "Hugs, João (closing a card)" },
         ],
         checkpoint: [
           {
@@ -1161,7 +1161,7 @@ export const PT_A2_U17: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Have a good holiday! Enjoy it!",
+        source: "Have a good vacation! Enjoy it!",
         answer: "Boas férias! Aproveita!",
         altAnswers: ["Boas férias! Aproveite!", "Boas férias! Aproveita bastante!", "Boas férias! Aproveite bastante!"],
         explanation: "\"Férias\" is feminine plural, so \"boas\". \"Aproveita!\" is the everyday imperative of \"aproveitar\" (to make the most of).",
@@ -1295,11 +1295,11 @@ export const PT_A2_U17: Lesson[] = [
       {
         heading: "Um momento, por favor: businesses and voice messages",
         body: [
-          "Calling a business, ask \"Posso falar com a doutora Paula?\" (may I speak to Dr Paula?). You'll hear standard forms: \"Um momento, por favor\", \"Aguarde\" (please hold), \"Vou transferir a ligação\" (I'll put you through) and \"Quem gostaria?\" (who's calling?).",
+          "Calling a business, ask \"Posso falar com a doutora Paula?\" (may I speak to Dr. Paula?). You'll hear standard forms: \"Um momento, por favor\", \"Aguarde\" (please hold), \"Vou transferir a ligação\" (I'll put you through) and \"Quem gostaria?\" (who's calling?).",
           "Brazilians love voice messages: \"mandar um áudio\" on WhatsApp is often preferred to a call. A good message has three parts: your name, the reason and a request. \"Oi, Ana, é o Rafael. Estou ligando sobre o churrasco. Me liga depois, tá? Beijo!\"",
         ],
         examples: [
-          { es: "Posso falar com a doutora Paula?", en: "May I speak to Dr Paula?" },
+          { es: "Posso falar com a doutora Paula?", en: "May I speak to Dr. Paula?" },
           { es: "Um momento, por favor. Vou transferir.", en: "One moment, please. I'll put you through." },
           { es: "Aguarde na linha, por favor.", en: "Please hold the line." },
           { es: "Estou ligando sobre a consulta de amanhã.", en: "I'm calling about tomorrow's appointment." },
@@ -1358,7 +1358,7 @@ export const PT_A2_U17: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "May I speak to Dr Paulo?",
+        source: "May I speak to Dr. Paulo?",
         answer: "Posso falar com o doutor Paulo?",
         altAnswers: ["Posso falar com o Dr. Paulo?", "Eu posso falar com o doutor Paulo?", "O doutor Paulo está?", "Por favor, posso falar com o doutor Paulo?"],
         explanation: "\"Posso falar com...?\" is the polite request; \"doutor\" takes the article \"o\".",
@@ -1639,14 +1639,14 @@ export const PT_A2_U17: Lesson[] = [
         heading: "Me dá, me passa?, pode me passar?: requests",
         body: [
           "A request can be blunt, friendly or careful. \"Me dá a água\" (give me the water) is blunt: fine from a tired parent, rude to a stranger. \"Me passa a água?\", with a rising tone, is the friendly everyday version. \"Pode me passar a água, por favor?\" is careful and safe with anyone.",
-          "At the top is \"o senhor poderia...?\" (could you, sir?), which you only need to recognise for now: you'll hear it from receptionists and in shops. English speakers often sound blunter than they mean because they translate give me literally. When in doubt, use \"pode\" + infinitive.",
+          "At the top is \"o senhor poderia...?\" (could you, sir?), which you only need to recognize for now: you'll hear it from receptionists and in shops. English speakers often sound blunter than they mean because they translate give me literally. When in doubt, use \"pode\" + infinitive.",
         ],
         examples: [
           { es: "Me dá a água.", en: "Give me the water. (blunt)" },
           { es: "Me passa a água?", en: "Pass me the water? (friendly)" },
           { es: "Pode me passar a água, por favor?", en: "Could you pass me the water, please? (careful)" },
           { es: "O senhor poderia aguardar um minuto?", en: "Could you wait a minute, sir? (very formal)" },
-          { es: "Me traz a conta, por favor?", en: "Could you bring me the bill, please?" },
+          { es: "Me traz a conta, por favor?", en: "Could you bring me the check, please?" },
         ],
         checkpoint: [
           {
@@ -1708,7 +1708,7 @@ export const PT_A2_U17: Lesson[] = [
           "Going too careful with a close friend sounds cold or ironic: \"O senhor poderia me passar o sal?\" to your brother is a joke. Going too blunt with a stranger sounds rude. Ordering in a restaurant, \"Me vê um café, por favor\" (I'll have a coffee, please) is a friendly Brazilian classic.",
         ],
         examples: [
-          { es: "Mãe, me passa o arroz?", en: "Mum, can you pass the rice?" },
+          { es: "Mãe, me passa o arroz?", en: "Mom, can you pass the rice?" },
           { es: "Moço, me vê um café, por favor.", en: "Excuse me, I'll have a coffee, please." },
           { es: "Dona Maria, a senhora pode me ajudar?", en: "Dona Maria, could you help me?" },
           { es: "Doutor, o senhor pode repetir, por favor?", en: "Doctor, could you repeat that, please?" },
@@ -1843,7 +1843,7 @@ export const PT_A2_U17: Lesson[] = [
         heading: "Thanks and apologies",
         body: [
           "Juliana writes to her host family: \"*Obrigado para o jantar!\" Two slips: a woman says \"obrigada\", and thanks for takes \"pelo\" or \"pela\", never \"para\": \"Obrigada pelo jantar!\"",
-          "Tom bumps into someone on the metrô and says \"*Eu sinto muito!\" It's far too heavy, like expressing condolences; the right word is \"Desculpa!\" When the woman then apologises to him, he replies \"*De nada\", but that only answers thanks. After an apology: \"Tudo bem!\", \"Não foi nada!\" or \"Imagina!\"",
+          "Tom bumps into someone on the metrô and says \"*Eu sinto muito!\" It's far too heavy, like expressing condolences; the right word is \"Desculpa!\" When the woman then apologizes to him, he replies \"*De nada\", but that only answers thanks. After an apology: \"Tudo bem!\", \"Não foi nada!\" or \"Imagina!\"",
         ],
         examples: [
           { es: "Obrigada pelo jantar!", en: "Thanks for dinner! (a woman speaking)" },
@@ -2094,7 +2094,7 @@ export const PT_A2_U17: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Rafael can't come because he's travelling. What's your best reply?",
+            question: "Rafael can't come because he's traveling. What's your best reply?",
             options: ["Que pena! Fica para a próxima. Boa viagem!", "Que legal! Te espero às oito.", "Ainda bem! Boa sorte!", "Tudo bem, de nada."],
             correctIndex: 0,
             explanation: "Regret (\"que pena\"), an open door and a wish that fits the reason (\"boa viagem\").",
@@ -2104,7 +2104,7 @@ export const PT_A2_U17: Lesson[] = [
       {
         heading: "Step 3: turning down a second invitation",
         body: [
-          "On Thursday your colleague Ana invites you to her birthday drinks on Friday night, the same night. Write a careful refusal: thank her, apologise, give a reason, wish her well and suggest another day.",
+          "On Thursday your colleague Ana invites you to her birthday drinks on Friday night, the same night. Write a careful refusal: thank her, apologize, give a reason, wish her well and suggest another day.",
           "\"Ana, obrigada pelo convite! Infelizmente não vou poder, é que eu já marquei um jantar lá em casa. Parabéns adiantado! Quem sabe a gente almoça junto na semana que vem?\" \"Parabéns adiantado\" means happy birthday in advance.",
         ],
         examples: [
@@ -2242,13 +2242,13 @@ export const PT_A2_U17: Lesson[] = [
         heading: "Plans in every tense",
         body: [
           "Invitations live in the past and the future too: \"A Bia me convidou para o show\" (Bia invited me to the concert), \"Vou te mandar o endereço\" (I'll send you the address). Pronouns stay before the verb or the infinitive.",
-          "Everyday commands carry the plan forward: \"Chama o Lucas também!\" (invite Lucas too!), \"Me manda uma mensagem\". In speech Brazilians often use \"chamar\" (literally to call) for invite. And \"ia\" + infinitive explains a plan that fell through: \"Eu ia, mas fiquei doente\".",
+          "Everyday commands carry the plan forward: \"Chama o Lucas também!\" (invite Lucas too!), \"Me manda uma mensagem\". In speech Brazilians often use \"chamar\" (literally to call) for invite. And \"ia\" + infinitive explains a plan that fell through: \"Eu ia, mas peguei uma gripe\".",
         ],
         examples: [
           { es: "A Bia me convidou para o show de sábado.", en: "Bia invited me to Saturday's concert." },
           { es: "Vou te mandar o endereço agora.", en: "I'll send you the address now." },
           { es: "Chama o Lucas também!", en: "Invite Lucas too!" },
-          { es: "Você vai à festa? Eu ia, mas fiquei doente.", en: "Are you going to the party? I was going to, but I got sick." },
+          { es: "Você vai à festa? Eu ia, mas peguei uma gripe.", en: "Are you going to the party? I was going to, but I caught the flu." },
           { es: "Ontem a gente marcou um café para segunda.", en: "Yesterday we arranged a coffee for Monday." },
         ],
         checkpoint: [
@@ -2281,7 +2281,7 @@ export const PT_A2_U17: Lesson[] = [
         examples: [
           { es: "O Bahia ganhou ontem! Que jogo, hein?", en: "Bahia won yesterday! What a game, huh?" },
           { es: "Eu estava saindo de casa quando ela me ligou.", en: "I was leaving home when she called me." },
-          { es: "Dizem que vai chover no fim de semana, né?", en: "They say it's going to rain at the weekend, right?" },
+          { es: "Dizem que vai chover no fim de semana, né?", en: "They say it's going to rain on the weekend, right?" },
           { es: "Que chato, a gente ia à praia!", en: "How annoying, we were going to go to the beach!" },
         ],
         checkpoint: [
@@ -2314,7 +2314,7 @@ export const PT_A2_U17: Lesson[] = [
           { es: "Desculpa, eu não te vi!", en: "Sorry, I didn't see you!" },
           { es: "Me desculpa, esqueci seu aniversário! Parabéns atrasado!", en: "I'm sorry, I forgot your birthday! Happy belated birthday!" },
           { es: "Obrigado pela carona! Me liga amanhã.", en: "Thanks for the ride! Call me tomorrow." },
-          { es: "Imagina! Eu te levo de novo na sexta.", en: "Don't mention it! I'll give you a lift again on Friday." },
+          { es: "Imagina! Eu te levo de novo na sexta.", en: "Don't mention it! I'll give you a ride again on Friday." },
         ],
         checkpoint: [
           {
@@ -2368,15 +2368,15 @@ export const PT_A2_U17: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Are you going to the party? I was going to, but I got sick.",
-        answer: "Você vai à festa? Eu ia, mas fiquei doente.",
-        altAnswers: ["Você vai na festa? Eu ia, mas fiquei doente.", "Vai à festa? Eu ia, mas fiquei doente.", "Vai na festa? Eu ia, mas fiquei doente.", "Você vai à festa? Eu ia, mas fiquei doente!", "Você vai pra festa? Eu ia, mas fiquei doente."],
-        explanation: "\"Ia\" for a plan that fell through, \"fiquei doente\" (perfeito) for what happened.",
+        source: "Are you going to the party? I was going to, but I caught the flu.",
+        answer: "Você vai à festa? Eu ia, mas peguei uma gripe.",
+        altAnswers: ["Você vai na festa? Eu ia, mas peguei uma gripe.", "Vai à festa? Eu ia, mas peguei uma gripe.", "Vai na festa? Eu ia, mas peguei uma gripe.", "Você vai pra festa? Eu ia, mas peguei uma gripe.", "Você vai à festa? Eu ia, mas peguei gripe.", "Você vai à festa? Eu ia, mas fiquei gripado.", "Você vai à festa? Eu ia, mas fiquei gripada."],
+        explanation: "\"Ia\" for a plan that fell through, \"peguei\" (perfeito, g → gu before e) for what happened.",
       },
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Don't mention it! [I'll give you a lift] again on Friday.",
+        en: "Don't mention it! [I'll give you a ride] again on Friday.",
         sentence: "Imagina! ___ de novo na sexta.",
         answer: "Eu te levo",
         altAnswers: ["Te levo", "Vou te levar", "Eu vou te levar"],
@@ -2391,7 +2391,7 @@ export const PT_A2_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A friend tells you \"Meu avô ficou doente\". What's the best reaction?",
+        question: "A friend tells you \"Meu avô está doente\". What's the best reaction?",
         options: ["Poxa, sinto muito! Melhoras pra ele.", "Que legal! Parabéns!", "Ainda bem!", "De nada!"],
         correctIndex: 0,
         explanation: "Sympathy (\"poxa, sinto muito\") and a wish (\"melhoras\") for real bad news.",

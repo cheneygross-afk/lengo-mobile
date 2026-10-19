@@ -15,7 +15,7 @@ export const FR_C2_U28: Lesson[] = [
       {
         heading: "Philosophy in French life",
         body: [
-          "France is one of the few countries where every pupil in the final year of the lycée studies philosophy, and \"l'épreuve de philosophie du bac\" (\"le bac philo\") is a national event: a four-hour written exam in June in which candidates choose between two \"sujets de dissertation\" (essay questions such as \"Peut-on être libre sans les autres ?\") and \"une explication de texte\". The subjects are published at noon and debated on radio and television the same day.",
+          "France is one of the few countries where every pupil in the final year of the lycée studies philosophy, and \"l'épreuve de philosophie du bac\" (\"le bac philo\") is a national event: a four-hour written exam in June in which candidates choose between two \"sujets de dissertation\" (essay questions such as \"Peut-on être libre sans les autres ?\") and \"une explication de texte\". The subjects are made public soon after the exam begins and are debated on radio and television the same day.",
           "Philosophy also lives outside school: \"les cafés philo\", public debates in cafés started in Paris in 1992, \"les émissions de philosophie\" on France Culture, philosophy festivals and best-selling essays. Being able to argue about \"la liberté\" or \"la vérité\" is part of French intellectual culture, and many politicians and journalists quote philosophers.",
           "The school programme is organised around \"notions\": \"la conscience\", \"l'inconscient\", \"la liberté\", \"le devoir\", \"la justice\", \"la vérité\", \"le bonheur\", \"la technique\", \"l'art\", \"le travail\", \"l'État\", \"la nature\", \"la religion\", \"le langage\", \"la raison\", \"la science\", \"le temps\". Learn them with their article: they are almost always used with \"le\" or \"la\".",
         ],
@@ -266,7 +266,7 @@ export const FR_C2_U28: Lesson[] = [
             en: "[Does that imply that] we are not responsible?",
             sentence: "___ nous ne soyons pas responsables ?",
             answer: "Cela suppose-t-il que",
-            altAnswers: ["Est-ce que cela suppose que", "Cela implique-t-il que", "Cela veut-il dire que"],
+            altAnswers: ["Est-ce que cela suppose que", "Cela implique-t-il que"],
             explanation: "\"Supposer que\" (to presuppose) + subjunctive challenges an inference without denying the premise.",
           },
           {
@@ -331,7 +331,7 @@ export const FR_C2_U28: Lesson[] = [
         ],
         examples: [
           { es: "Est-il vraiment responsable s'il a eu une enfance terrible ?", en: "Is he really responsible if he had a terrible childhood?" },
-          { es: "On peut avoir des circonstances atténuantes sans être irresponsable.", en: "You can have mitigating circumstances without being not responsible." },
+          { es: "On peut avoir des circonstances atténuantes sans être irresponsable.", en: "You can have mitigating circumstances and still be responsible." },
           { es: "Sinon, plus personne ne serait responsable de rien.", en: "Otherwise, no one would be responsible for anything any more." },
           { es: "Tu me reproches mes arguments : cela suppose bien que tu me crois libre.", en: "You criticise my arguments: that does presuppose you think I'm free." },
           { es: "Je t'accorde ce point.", en: "I'll grant you that point." },
@@ -439,7 +439,7 @@ export const FR_C2_U28: Lesson[] = [
         type: "speak",
         text: "Cela suppose-t-il que nos choix soient déterminés d'avance ?",
         prompt: "Say it in French: Does that imply that our choices are determined in advance?",
-        tip: "Suppose-t-il: the t is pronounced, su-po-ze-til.",
+        tip: "Suppose-t-il: the t is pronounced, [sypoztil].",
         explanation: "\"Supposer que\" in a question takes the subjunctive (\"soient\").",
       },
       {
@@ -672,7 +672,7 @@ export const FR_C2_U28: Lesson[] = [
         prompt: "Translate into French.",
         source: "She is a conscientious student.",
         answer: "C'est une étudiante consciencieuse.",
-        altAnswers: ["Elle est une étudiante consciencieuse.", "C'est une élève consciencieuse.", "Elle est consciencieuse."],
+        altAnswers: ["C'est une élève consciencieuse.", "Elle est consciencieuse."],
         explanation: "\"Consciencieux\" = conscientious (careful, diligent); \"conscient\" = aware.",
       },
     ],
@@ -1277,7 +1277,7 @@ export const FR_C2_U28: Lesson[] = [
         prompt: "Translate into French.",
         source: "The reasoning presupposes that knowing is better than being strong.",
         answer: "Le raisonnement présuppose que savoir vaut mieux qu'être fort.",
-        altAnswers: ["Le raisonnement présuppose que savoir est préférable à être fort.", "Le raisonnement suppose que savoir vaut mieux qu'être fort.", "Le raisonnement présuppose qu'il vaut mieux savoir qu'être fort."],
+        altAnswers: ["Le raisonnement suppose que savoir vaut mieux qu'être fort.", "Le raisonnement présuppose qu'il vaut mieux savoir qu'être fort."],
         explanation: "\"Présupposer que\" names an implicit assumption; \"valoir mieux que\" = to be better than.",
       },
       {
@@ -1431,7 +1431,7 @@ export const FR_C2_U28: Lesson[] = [
             en: "[By constantly using] the GPS, we forget how to read a map.",
             sentence: "___ le GPS, nous oublions comment lire une carte.",
             answer: "À force d'utiliser",
-            altAnswers: ["À force d'employer", "À force de nous servir du"],
+            altAnswers: ["À force d'employer"],
             explanation: "\"À force de\" + infinitive = through constantly doing; elision before a vowel.",
           },
           {
@@ -1480,7 +1480,7 @@ export const FR_C2_U28: Lesson[] = [
           {
             type: "speak",
             text: "Ainsi, la technique libère sans nécessairement rendre libre.",
-            tip: "Nécessairement: five syllables, né-ces-saire-ment.",
+            tip: "Nécessairement: four syllables, né-ces-saire-ment.",
             explanation: "A conclusion that plays on \"libérer\" and \"rendre libre\", the distinction of the paragraph.",
           },
         ],
@@ -1704,7 +1704,7 @@ export const FR_C2_U28: Lesson[] = [
           {
             type: "speak",
             text: "Il s'étira, bâilla, puis haussa les épaules.",
-            tip: "Haussa: the h is aspirated, so no liaison: il / haussa.",
+            tip: "Haussa: the h is aspirated, so il does not link to it: il / haussa.",
             explanation: "Three passé simple verbs in a row: a compact narrative of gestures.",
           },
         ],
@@ -1849,7 +1849,7 @@ export const FR_C2_U28: Lesson[] = [
             en: "She [launched] this project two years ago.",
             sentence: "Elle a ___ ce projet il y a deux ans.",
             answer: "lancé",
-            altAnswers: ["engagé", "initié"],
+            altAnswers: ["engagé"],
             explanation: "\"Lancer un projet\" is the careful choice; \"initier un projet\" is widespread but considered an anglicism.",
           },
         ],

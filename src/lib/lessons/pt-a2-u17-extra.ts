@@ -8,7 +8,7 @@ export const PT_A2_U17_EXTRA: Lesson[] = [
     level: "PT-A2",
     number: 1,
     title: "Extra Practice: Social Phrases, Part 1 of 3",
-    summary: "Practise inviting with vamos, quer and topa, accepting, and refusing softly.",
+    summary: "Practice inviting with vamos, quer and topa, accepting, and refusing softly.",
     duration: "12 min",
     optional: true,
     kind: "drill",
@@ -20,18 +20,18 @@ export const PT_A2_U17_EXTRA: Lesson[] = [
           "Accept with \"claro!\", \"vou, sim!\", \"combinado!\" or \"fechado!\". Refuse softly: \"não vai dar\", \"infelizmente não posso\", a reason with \"é que\" and \"fica para a próxima\".",
         ],
         examples: [
-          { es: "Vamos ver um filme hoje à noite?", en: "Shall we watch a film tonight?" },
+          { es: "Vamos ver um filme hoje à noite?", en: "Shall we watch a movie tonight?" },
           { es: "Topa uma pizza depois da aula?", en: "Up for a pizza after class?" },
-          { es: "Aparece lá em casa no domingo!", en: "Come round to my place on Sunday!" },
+          { es: "Aparece lá em casa no domingo!", en: "Come over to my place on Sunday!" },
           { es: "Claro! Que horas a gente marca?", en: "Of course! What time shall we say?" },
-          { es: "Poxa, hoje não dá. É que eu tenho aula.", en: "Oh, today's no good. I've got class." },
+          { es: "Poxa, hoje não dá. É que eu tenho aula.", en: "Oh, today's no good. I've have class." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Shall we watch a film tonight?",
+            source: "Shall we watch a movie tonight?",
             answer: "Vamos ver um filme hoje à noite?",
             altAnswers: ["Vamos assistir um filme hoje à noite?", "Vamos assistir a um filme hoje à noite?", "Quer ver um filme hoje à noite?", "Você quer ver um filme hoje à noite?", "Bora ver um filme hoje à noite?", "Topa ver um filme hoje à noite?"],
             explanation: "\"Vamos\" + infinitive with a question tone is shall we.",
@@ -39,7 +39,7 @@ export const PT_A2_U17_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Oh, today's no good. [The thing is], I've got class.",
+            en: "Oh, today's no good. [The thing is], I've have class.",
             sentence: "Poxa, hoje não dá. ___ eu tenho aula.",
             answer: "É que",
             explanation: "\"É que\" introduces the reason for a refusal.",
@@ -163,7 +163,7 @@ export const PT_A2_U17_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "What does \"A gente vai ao cinema hoje\" mean?",
-        options: ["We're going to the cinema today.", "Shall we go to the cinema today?", "Let's go to the cinema today!", "We went to the cinema today."],
+        options: ["We're going to the movies today.", "Shall we go to the movies today?", "Let's go to the movies today!", "We went to the movies today."],
         correctIndex: 0,
         explanation: "\"A gente vai\" states a plan; only \"vamos\" doubles as let's.",
       },
@@ -186,7 +186,7 @@ export const PT_A2_U17_EXTRA: Lesson[] = [
     level: "PT-A2",
     number: 2,
     title: "Extra Practice: Social Phrases, Part 2 of 3",
-    summary: "Practise reactions with que, small talk with né and e aí, and wishes for every occasion.",
+    summary: "Practice reactions with que, small talk with né and e aí, and wishes for every occasion.",
     duration: "12 min",
     optional: true,
     kind: "drill",
@@ -201,8 +201,8 @@ export const PT_A2_U17_EXTRA: Lesson[] = [
           { es: "Que casa linda!", en: "What a lovely house!" },
           { es: "Nossa, que frio hoje, né?", en: "Wow, it's cold today, isn't it?" },
           { es: "E as crianças, tudo bem?", en: "How are the kids?" },
-          { es: "Boa sorte na prova!", en: "Good luck in the exam!" },
-          { es: "Melhoras pra sua mãe!", en: "I hope your mum gets better soon!" },
+          { es: "Boa sorte na prova!", en: "Good luck on the exam!" },
+          { es: "Melhoras pra sua mãe!", en: "I hope your mom gets better soon!" },
         ],
         checkpoint: [
           {
@@ -217,7 +217,7 @@ export const PT_A2_U17_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[Good luck] in the exam!",
+            en: "[Good luck] on the exam!",
             sentence: "___ na prova!",
             answer: "Boa sorte",
             explanation: "\"Sorte\" is feminine: \"boa sorte\".",
@@ -364,7 +364,7 @@ export const PT_A2_U17_EXTRA: Lesson[] = [
     level: "PT-A2",
     number: 3,
     title: "Extra Practice: Social Phrases, Part 3 of 3",
-    summary: "Practise thanking, apologising and handling phone calls and voice messages.",
+    summary: "Practice thanking, apologizing and handling phone calls and voice messages.",
     duration: "12 min",
     optional: true,
     kind: "drill",
@@ -372,14 +372,14 @@ export const PT_A2_U17_EXTRA: Lesson[] = [
       {
         heading: "Thanks, sorry, alô?",
         body: [
-          "\"Obrigado\" from a man, \"obrigada\" from a woman, with \"pelo\" or \"pela\" for what for. Replies: \"de nada\", \"imagina\", \"que isso\". Apologise with \"desculpa\" (\"desculpe\" to \"o senhor\"), \"foi sem querer\"; accept with \"tudo bem\" or \"não foi nada\". Save \"sinto muito\" for real bad news.",
+          "\"Obrigado\" from a man, \"obrigada\" from a woman, with \"pelo\" or \"pela\" for what for. Replies: \"de nada\", \"imagina\", \"que isso\". Apologize with \"desculpa\" (\"desculpe\" to \"o senhor\"), \"foi sem querer\"; accept with \"tudo bem\" or \"não foi nada\". Save \"sinto muito\" for real bad news.",
           "On the phone: \"Alô?\", \"é o Rafael\", \"quem fala?\", \"pode falar agora?\", \"a ligação está ruim\", \"vou te ligar de volta\". In a voice message: name, reason, request.",
         ],
         examples: [
           { es: "Obrigada pelas flores!", en: "Thanks for the flowers! (a woman speaking)" },
           { es: "Que isso, não foi nada!", en: "Oh, come on, it was nothing!" },
           { es: "Desculpe o incômodo.", en: "Sorry to bother you." },
-          { es: "Alô? É o seu Antônio?", en: "Hello? Is that Mr Antônio?" },
+          { es: "Alô? É o seu Antônio?", en: "Hello? Is that Mr. Antônio?" },
           { es: "A ligação caiu, já te ligo.", en: "The call dropped, I'll call you right back." },
         ],
         checkpoint: [

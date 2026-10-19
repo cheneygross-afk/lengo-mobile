@@ -17,7 +17,7 @@ export const PT_B2_S02_STORIES: Story[] = [
       `Até que chegou a proposta de uma grande rede de supermercados. O valor era tão alto que a Bruna precisou ler duas vezes. Era mais do que o pai ganhava em três anos de feira. Bastava gravar um vídeo, um só, gritando um verso novo. O roteiro veio pronto, por e-mail: “Feira é coisa do passado, freguesa: o futuro tá no supermercado!” O contrato seria assinado ao vivo, numa transmissão que a rede ia fazer na própria feira, no sábado seguinte.`,
       `O seu Nivaldo passou a semana inteira calado. A Bruna achava que ele estava nervoso. No sábado, as câmeras chegaram cedo, montaram as luzes ao lado da barraca, e uma moça de terno explicou que ele só precisava ler o verso e assinar. Os outros feirantes olhavam de longe, sem dizer nada. Quando deram o sinal, o seu Nivaldo respirou fundo, olhou para a câmera e gritou, com a voz de sempre: “Supermercado tem ar-condicionado, freguesa, mas não tem ninguém que saiba o seu nome!”`,
       `Depois, devolveu a caneta para a moça de terno, pediu desculpas pelo incômodo e voltou a arrumar as mexericas. A transmissão foi cortada em segundos, mas não antes que alguém da plateia filmasse tudo com o celular. Esse vídeo, que a Bruna não postou, foi o mais assistido daquele ano em todo o Paraná.`,
-      `Hoje, a feira do Água Verde tem o dobro de barracas e um fim de semana por mês com música. O seu Nivaldo ainda posta um vídeo de vez em quando, mas só depois do meio-dia, quando a feira acaba. E a dona Ivone voltou. Disse que só volta a comprar se ele parar de rimar o nome dela com “caqui maduro”. Ele prometeu. Ninguém acredita.`,
+      `Hoje, a feira do Água Verde tem o dobro de barracas e um fim de semana por mês com música. O seu Nivaldo ainda posta um vídeo de vez em quando, mas só depois do meio-dia, quando a feira acaba. E a dona Ivone voltou. Disse que só continua comprando se ele parar de rimar o nome dela com “caqui maduro”. Ele prometeu. Ninguém acredita.`,
     ],
     questions: [
       {
@@ -26,16 +26,16 @@ export const PT_B2_S02_STORIES: Story[] = [
           `He appeared on a TV cooking show.`,
           `His daughter posted a video of him shouting rhymes at the market.`,
           `He won a poetry competition in Curitiba.`,
-          `A supermarket used him in an advert.`,
+          `A supermarket used him in an ad.`,
         ],
         correctIndex: 1,
         explanation: `Bruna "resolveu gravar" for a university project and "Postou à noite".`,
       },
       {
-        question: `What was the problem with the new queue at his stall?`,
+        question: `What was the problem with the new line at his stall?`,
         options: [
           `People came to take photos, not to buy fruit.`,
-          `The other stall holders complained about the noise.`,
+          `The other vendors complained about the noise.`,
           `There wasn't enough fruit for everyone.`,
           `The police closed the market.`,
         ],
@@ -141,7 +141,7 @@ export const PT_B2_S02_STORIES: Story[] = [
       `“Isto é seu, Rogério?”, ela perguntou, segurando o tamborim como se fosse uma prova de crime. Ele ficou vermelho e pensou em mentir, mas não conseguiu. Explicou tudo: a escola, a bateria, o Dudu, o medo de não desfilar. Esperava uma advertência. Em vez disso, ela devolveu o instrumento, olhou para o relógio e disse apenas: “Hoje o senhor pode sair às cinco.” Ele passou o resto da semana sem entender nada.`,
       `Entendeu na quinta seguinte. No meio do ensaio, a bateria parou para a entrada do primeiro casal de mestre-sala e porta-bandeira, que tinha passado meses ensaiando separado. A quadra inteira aplaudiu quando a porta-bandeira entrou rodando, com a bandeira azul da escola erguida no alto. Rogério demorou alguns segundos para reconhecê-la. Era a doutora Heloísa. E ela sorria.`,
       `Depois do ensaio, ela foi até a bateria e falou alguma coisa no ouvido do Dudu. O mestre olhou para Rogério, coçou a cabeça e riu. Ninguém nunca soube exatamente o que ela disse. O fato é que, a partir daquele dia, Rogério passou a ensaiar ao lado de um ritmista veterano, que tocava colado nele, e o Dudu passou a ter um pouco mais de paciência.`,
-      `No sábado de carnaval, a Unidos do Morro Azul entrou no Sambódromo às três da manhã. Rogério não atravessou nenhuma vez, ou, se atravessou, ninguém percebeu, porque a arquibancada cantava alto demais. Na segunda-feira de cinzas, chegou ao escritório às oito em ponto, pediu o mesmo suco no almoço e saiu às seis. Mas os colegas juram que ele passou a tarde inteira batendo o pé, num ritmo que não era o de nenhuma planilha.`,
+      `No sábado de carnaval, a Unidos do Morro Azul entrou no Sambódromo às três da manhã. Rogério não atravessou nenhuma vez, ou, se atravessou, ninguém percebeu, porque a arquibancada cantava alto demais. Na Quarta-feira de Cinzas, chegou ao escritório ao meio-dia em ponto, como manda a tradição, pediu o mesmo suco no almoço e saiu às seis. Mas os colegas juram que ele passou a tarde inteira batendo o pé, num ritmo que não era o de nenhuma planilha.`,
     ],
     questions: [
       {
@@ -245,7 +245,7 @@ export const PT_B2_S02_STORIES: Story[] = [
           `That Marcelo had sent the fake documents`,
           `That the ambulance story was true after all`,
           `That the secretary's brother-in-law had left Brazil`,
-          `A real, larger contract signed without public tender`,
+          `A real, larger contract signed without competitive bidding`,
         ],
         correctIndex: 3,
         explanation: `The department "tinha assinado, sem nenhuma licitação, um contrato verdadeiro e muito maior".`,
@@ -320,7 +320,7 @@ export const PT_B2_S02_GLOSSES: Record<string, StoryGloss[]> = {
   "pt-o-rei-do-caqui": [
     { es: "o caqui", en: "persimmon", forms: ["caqui"] },
     { es: "a feira livre", en: "open-air street market", forms: ["feira"] },
-    { es: "o feirante", en: "market stall holder", forms: ["feirantes"] },
+    { es: "o feirante", en: "market vendor", forms: ["feirantes"] },
     { es: "a mexerica", en: "tangerine", forms: ["mexerica", "mexericas"] },
     { es: "a freguesa", en: "(female) customer", forms: ["freguesa"] },
     { es: "a sogra", en: "mother-in-law", forms: ["sogra"] },
@@ -369,7 +369,7 @@ export const PT_B2_S02_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "a manchete", en: "headline", forms: ["manchete"] },
     { es: "a entrevista coletiva", en: "press conference", forms: ["coletiva"] },
     { es: "processar", en: "to sue", forms: ["processar"] },
-    { es: "a licitação", en: "public tender", forms: ["licitação"] },
+    { es: "a licitação", en: "public bidding process", forms: ["licitação"] },
     { es: "pendurar", en: "to hang up", forms: ["pendurou"] },
   ],
   "pt-o-pivo": [

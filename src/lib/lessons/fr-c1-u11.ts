@@ -154,7 +154,7 @@ export const FR_C1_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French, stressing 'of patience'.",
+        prompt: "Translate into French, putting the focus on patience.",
         source: "What he lacks is patience.",
         answer: "C'est de patience qu'il manque.",
         altAnswers: ["Ce qui lui manque, c'est la patience.", "Ce dont il manque, c'est de patience."],
@@ -613,7 +613,7 @@ export const FR_C1_U11: Lesson[] = [
         prompt: "Translate into French, focusing the reason.",
         source: "It's because I trust you that I'm asking you.",
         answer: "C'est parce que j'ai confiance en toi que je te le demande.",
-        altAnswers: ["C'est parce que je te fais confiance que je te le demande.", "C'est parce que j'ai confiance en vous que je vous le demande.", "C'est parce que je vous fais confiance que je vous le demande.", "C'est parce que je te fais confiance que je te demande."],
+        altAnswers: ["C'est parce que je te fais confiance que je te le demande.", "C'est parce que j'ai confiance en vous que je vous le demande.", "C'est parce que je vous fais confiance que je vous le demande."],
         explanation: "\"C'est parce que... que\".",
       },
       {
@@ -678,7 +678,7 @@ export const FR_C1_U11: Lesson[] = [
           { es: "SOPHIE : Au fait, merci d'avoir réservé l'appart à Biarritz !", en: "SOPHIE: By the way, thanks for booking the flat in Biarritz!" },
           { es: "KARIM : Attends, c'est pas moi qui l'ai réservé, c'est Julie.", en: "KARIM: Hang on, I didn't book it, Julie did." },
           { es: "SOPHIE : Julie ? Mais elle m'a dit que c'était toi qui t'en occupais !", en: "SOPHIE: Julie? But she told me you were the one dealing with it!" },
-          { es: "KARIM : Moi, je me suis occupé du train. L'appart, c'est elle.", en: "KARIM: I took care of the train. The flat was her." },
+          { es: "KARIM : Moi, je me suis occupé du train. L'appart, c'est elle.", en: "KARIM: I took care of the train. The flat was down to her." },
           { es: "SOPHIE : Bon. Et le train, c'est pour quel jour que tu l'as pris ?", en: "SOPHIE: Right. And the train, which day did you book it for?" },
           { es: "KARIM : C'est samedi qu'on part, pas vendredi !", en: "KARIM: We're leaving on Saturday, not Friday!" },
         ],
@@ -789,7 +789,7 @@ export const FR_C1_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "I took care of the tickets. The hotel was her.",
+        source: "I took care of the tickets. The hotel was down to her.",
         answer: "Moi, je me suis occupé des billets. L'hôtel, c'est elle.",
         altAnswers: ["Moi, je me suis occupée des billets. L'hôtel, c'est elle.", "Moi, je me suis occupé des billets ; l'hôtel, c'est elle.", "Moi, je me suis occupée des billets ; l'hôtel, c'est elle."],
         explanation: "Fronted \"moi\" and a dislocated \"l'hôtel\" do the contrastive work.",
@@ -903,8 +903,8 @@ export const FR_C1_U11: Lesson[] = [
             direction: "en-es",
             prompt: "Translate into French with right dislocation.",
             source: "Your flat is lovely! (to a friend)",
-            answer: "Il est super, ton appartement !",
-            altAnswers: ["Il est beau, ton appartement !", "Il est très beau, ton appartement !", "Il est magnifique, ton appartement !", "Il est génial, ton appart !", "Il est beau, ton appart !", "Il est super, ton appart !"],
+            answer: "Il est beau, ton appartement !",
+            altAnswers: ["Il est super, ton appartement !", "Il est joli, ton appartement !", "Il est très joli, ton appartement !", "Il est chouette, ton appartement !", "Il est très beau, ton appartement !", "Il est magnifique, ton appartement !", "Il est génial, ton appart !", "Il est beau, ton appart !", "Il est super, ton appart !"],
             explanation: "Right dislocation: pronoun \"il\" first, the noun added at the end.",
           },
           {
@@ -1106,7 +1106,7 @@ export const FR_C1_U11: Lesson[] = [
         body: [
           "\"Si\" and \"tellement\" intensify adjectives and adverbs: \"il est si gentil\", \"elle parle tellement vite\". \"Tant\" and \"tellement\" intensify verbs: \"il a tant travaillé\", \"je l'aime tellement\". With nouns: \"tant de\" / \"tellement de\": \"tant de monde\", \"tellement de travail\". \"Tellement\" works everywhere and is the most common in speech; \"si\" and \"tant\" are slightly more written.",
           "All of them open a consequence clause with \"que\": \"Il était si fatigué qu'il s'est endormi à table.\" \"J'ai tellement ri que j'en ai pleuré.\" Don't confuse this with concessive \"si... que\" + subjunctive from Unit 2 (\"si riche qu'il soit\" = however rich he is).",
-          "\"Tellement\" can also stand alone at the end of an exclamation, often with \"tellement\" + adjective omitted: \"C'est tellement mieux !\", \"Merci, c'est tellement gentil !\"",
+          "\"Tellement\" also works in exclamations with no \"que\" clause at all: \"C'est tellement mieux !\", \"Merci, c'est tellement gentil !\". In speech it can even stand alone as a reply: \"— Tu es contente ? — Tellement !\"",
         ],
         examples: [
           { es: "Elle est si discrète qu'on oublie qu'elle est là.", en: "She's so discreet that you forget she's there." },
@@ -1630,7 +1630,7 @@ export const FR_C1_U11: Lesson[] = [
         heading: "Exclamatives and dislocation errors",
         body: [
           "Exclamatives copied from English word order are another trap: \"*Comme beau c'est !\" → \"Comme c'est beau !\"; \"*Quel beau c'est !\" → \"Que c'est beau !\" or \"Quelle beauté !\"; \"*Comme est-il gentil !\" → \"Comme il est gentil !\". No inversion, no fronted adjective.",
-          "With dislocation, the error is usually a missing or wrong pronoun: \"*Ce film, j'ai vu trois fois\" → \"Ce film, je l'ai vu trois fois\"; \"*Ma sœur, je la ai parlé\" → \"Ma sœur, je lui ai parlé\"; \"*Du café, je veux\" → \"Du café, j'en veux\".",
+          "With dislocation, the error is usually a missing or wrong pronoun: \"*Ce film, j'ai vu trois fois\" → \"Ce film, je l'ai vu trois fois\"; \"*Ma sœur, je l'ai parlé\" → \"Ma sœur, je lui ai parlé\"; \"*Du café, je veux\" → \"Du café, j'en veux\".",
         ],
         examples: [
           { es: "Comme c'est beau, ce paysage !", en: "How beautiful this landscape is!" },
@@ -1703,10 +1703,10 @@ export const FR_C1_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*C'est toi à qui je pense.\" Write the most standard French for: You're the one I'm thinking about.",
+        prompt: "A learner wrote \"C'est toi à qui je pense.\" It is grammatical but unusual. Write the most standard French for: You're the one I'm thinking about.",
         source: "You're the one I'm thinking about.",
         answer: "C'est à toi que je pense.",
-        explanation: "Preposition in front, then plain \"que\".",
+        explanation: "Preposition in front, then plain \"que\": \"c'est à toi que je pense\". The \"à qui\" version is correct but rarer; \"c'est toi que je pense\" (no preposition) would be wrong.",
       },
       {
         type: "translate",
@@ -1720,7 +1720,7 @@ export const FR_C1_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Ce à quoi j'ai envie, c'est de dormir.\" Write the correct French for: What I feel like is sleeping.",
+        prompt: "A learner wrote \"*Ce à quoi j'ai envie, c'est de dormir.\" Write the correct French for: What I feel like doing is sleeping.",
         source: "What I feel like doing is sleeping.",
         answer: "Ce dont j'ai envie, c'est de dormir.",
         explanation: "\"Avoir envie de\" → \"ce dont\".",

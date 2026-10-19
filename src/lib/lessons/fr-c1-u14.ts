@@ -234,7 +234,7 @@ export const FR_C1_U14: Lesson[] = [
           { es: "Tu viens dîner mardi ?", en: "Are you coming for lunch on Tuesday? (Quebec: \"tsu\", \"mardzi\")" },
           { es: "Il a dit que c'était difficile.", en: "He said it was difficult. (Quebec: \"dzit\", \"dzifficile\")" },
           { es: "Mon petit frère étudie à Sherbrooke.", en: "My little brother studies in Sherbrooke. (\"p'tsi\", \"étsudie\")" },
-          { es: "Lundi, il pleut toujours.", en: "On Mondays it always rains. (lundzi)" },
+          { es: "Le lundi, il pleut toujours.", en: "On Mondays it always rains. (lundzi)" },
           { es: "Du pain et du lait, s'il vous plaît.", en: "Some bread and milk, please. (dzu)" },
           { es: "La table est déjà prête.", en: "The table is already set. (no change: t before a)" },
         ],
@@ -349,8 +349,8 @@ export const FR_C1_U14: Lesson[] = [
         prompt: "Translate into French.",
         source: "The snow fell all night.",
         answer: "La neige est tombée toute la nuit.",
-        altAnswers: ["La neige a tombé toute la nuit.", "Il a neigé toute la nuit."],
-        explanation: "\"Tomber\" takes être in standard French (\"est tombée\"); \"a tombé\" is a widespread Québec usage you'll hear.",
+        altAnswers: ["Il a neigé toute la nuit."],
+        explanation: "\"Tomber\" takes être in standard French (\"est tombée\"). You'll hear \"a tombé\" in casual Québec speech, but it isn't standard, so write \"est tombée\".",
       },
       {
         type: "fill-blank",
@@ -601,7 +601,7 @@ export const FR_C1_U14: Lesson[] = [
         prompt: "Translate into standard French what you heard as « Là, chu vraiment tanné. »",
         source: "Right now I'm really fed up.",
         answer: "Là, j'en ai vraiment marre.",
-        altAnswers: ["Maintenant, j'en ai vraiment marre.", "Là, je suis vraiment fatigué.", "Là, j'en ai vraiment assez.", "En ce moment, j'en ai vraiment marre.", "Là, je n'en peux vraiment plus.", "Maintenant, j'en ai vraiment assez."],
+        altAnswers: ["Maintenant, j'en ai vraiment marre.", "Là, j'en ai vraiment assez.", "En ce moment, j'en ai vraiment marre.", "Là, je n'en peux vraiment plus.", "Maintenant, j'en ai vraiment assez."],
         explanation: "\"Chu\" = \"je suis\"; \"être tanné\" (Québec) = to be fed up, \"en avoir marre\" in France.",
       },
       {
@@ -758,7 +758,7 @@ export const FR_C1_U14: Lesson[] = [
         prompt: "Translate into standard French: « A l'sait pas encore. »",
         source: "She doesn't know yet.",
         answer: "Elle ne le sait pas encore.",
-        altAnswers: ["Elle le sait pas encore.", "Elle ne sait pas encore."],
+        altAnswers: ["Elle ne sait pas encore."],
         explanation: "\"A\" = \"elle\", \"l'sait\" = \"le sait\", and the \"ne\" is dropped in speech.",
       },
       {
@@ -1187,8 +1187,7 @@ export const FR_C1_U14: Lesson[] = [
         en: "[I'm not] sure. (heard as \"chu pas\")",
         sentence: "___ sûr.",
         answer: "Je ne suis pas",
-        altAnswers: ["Je suis pas"],
-        explanation: "\"Chu pas\" = \"je (ne) suis pas\": contraction plus dropped \"ne\".",
+        explanation: "\"Chu pas\" = \"je (ne) suis pas\": contraction plus dropped \"ne\". Standard French restores the \"ne\".",
       },
       {
         type: "translate",
@@ -1251,7 +1250,7 @@ export const FR_C1_U14: Lesson[] = [
       {
         heading: "Belgian grammar and politeness",
         body: [
-          "Belgian French (spoken in Wallonia and Brussels) is very close to the French of France in writing, but its everyday speech has well-known features. The most surprising for learners: \"savoir\" for \"pouvoir\" in the sense of being able to: \"Je ne sais pas venir demain\" (I can't come tomorrow), \"Tu sais me passer le sel ?\" (Can you pass me the salt?). It's not a mistake but a regional usage, close to Dutch \"kunnen\" / \"weten\" overlap, and Belgians use it unconsciously even in fairly careful speech.",
+          "Belgian French (spoken in Wallonia and Brussels) is very close to the French of France in writing, but its everyday speech has well-known features. The most surprising for learners: \"savoir\" for \"pouvoir\" in the sense of being able to: \"Je ne sais pas venir demain\" (I can't come tomorrow), \"Tu sais me passer le sel ?\" (Can you pass me the salt?). It's not a mistake but a regional usage, often linked to contact with Dutch, and Belgians use it unconsciously even in fairly careful speech.",
           "\"S'il vous plaît\" (or \"s'il te plaît\") is used when handing something over, where French people say \"voilà\" or \"tenez\": the cashier gives you your change with \"S'il vous plaît\". It also means Sorry?, Pardon? when you didn't hear. And \"Ça va\" is used as OK, agreed: \"On se voit à huit heures ? – Ça va.\"",
           "\"Avoir facile / avoir difficile\" is another Belgicism: \"J'ai difficile de me lever le matin\" (I find it hard to get up), \"Il a facile en maths\" (maths comes easily to him). And \"endéans\" means within (a time limit) in Belgian administrative language: \"endéans les trente jours\".",
         ],
@@ -1447,7 +1446,7 @@ export const FR_C1_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "Belgians say septante and nonante, but quatre-vingts.",
+        source: "Belgians say \"septante\" and \"nonante\", but \"quatre-vingts\".",
         answer: "Les Belges disent septante et nonante, mais quatre-vingts.",
         altAnswers: ["Les Belges disent « septante » et « nonante », mais « quatre-vingts ».", "En Belgique, on dit septante et nonante, mais quatre-vingts.", "En Belgique, on dit « septante » et « nonante », mais « quatre-vingts »."],
         explanation: "\"Les Belges\" with a capital (nationality as a noun); 80 stays \"quatre-vingts\" in Belgium.",
@@ -2098,7 +2097,7 @@ export const FR_C1_U14: Lesson[] = [
         heading: "Acadie and Louisiana",
         body: [
           "Acadie is the French-speaking area of Canada's Maritime provinces, mainly New Brunswick (the only officially bilingual province), Nova Scotia and Prince Edward Island. In 1755, the British deported thousands of Acadians: \"le Grand Dérangement\". Some returned; many settled in Louisiana, where \"Acadien\" became \"Cadien\", then Cajun in English.",
-          "Acadian French keeps old features: \"je parlons\" (with \"-ons\" for the first person singular as well as plural: \"j'avons\", \"je mangeons\"), \"asteure\" (now, from \"à cette heure\"), \"icitte\" (here). In Moncton, the \"chiac\" mixes Acadian French and English: \"J'ai watché un movie hier soir, c'était right bon.\" Like nouchi or verlan, it is a marker of identity, sometimes stigmatised, sometimes celebrated by artists.",
+          "Acadian French keeps old features: \"je parlons\" (\"je\" with the \"-ons\" ending as the first person plural, meaning we: \"j'avons\", \"je mangeons\"), \"asteure\" (now, from \"à cette heure\"), \"icitte\" (here). In Moncton, the \"chiac\" mixes Acadian French and English: \"J'ai watché un movie hier soir, c'était right bon.\" Like nouchi or verlan, it is a marker of identity, sometimes stigmatised, sometimes celebrated by artists.",
           "In Louisiana, Cajun French (\"le français cadien\") and Louisiana Creole survive mainly among older speakers, with a revival through schools (immersion programmes) and music: cajun and zydeco. Phrases that have entered English: \"Laissez les bons temps rouler\" (a calque of let the good times roll), \"lagniappe\" (a small extra gift), and the term of endearment \"cher\" (\"Ça va, cher ?\").",
         ],
         examples: [

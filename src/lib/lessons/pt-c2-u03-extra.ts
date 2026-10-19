@@ -9,7 +9,7 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
     level: "PT-C2",
     number: 1,
     title: "Extra Practice: Proverbs, Part 1 of 2",
-    summary: "Practise the meaning and use of ditados populares: quem não tem cão caça com gato, de grão em grão, em casa de ferreiro, quem vê cara não vê coração, águas passadas.",
+    summary: "Practice the meaning and use of ditados populares: quem não tem cão caça com gato, de grão em grão, em casa de ferreiro, quem vê cara não vê coração, águas passadas.",
     duration: "15 min",
     optional: true,
     kind: "drill",
@@ -171,7 +171,7 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
     level: "PT-C2",
     number: 2,
     title: "Extra Practice: Proverbs, Part 2 of 2",
-    summary: "Practise advanced idioms (dar com os burros n'água, fazer uma vaquinha, ficar a ver navios, pôr a mão no fogo, zero à esquerda, tirar onda) and cultural references.",
+    summary: "Practice advanced idioms (dar com os burros n'água, fazer uma vaquinha, ficar a ver navios, pôr a mão no fogo, zero à esquerda, tirar onda) and cultural references.",
     duration: "15 min",
     optional: true,
     kind: "drill",
@@ -180,7 +180,7 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
         heading: "Idioms and references",
         body: [
           "\"Dar com os burros n'água\" (to fail, come to nothing), \"fazer uma vaquinha\" (to chip in, crowdfund), \"ficar a ver navios\" (to be left empty-handed), \"pôr a mão no fogo por alguém\" (to vouch for someone), \"ser um zero à esquerda\" (to be useless), \"tirar onda\" (to show off, or tease), \"engolir sapo\" (to put up with something in silence), \"jogar a toalha\" (to give up).",
-          "Cultural references: football (\"pisar na bola\" = to slip up; \"dar um olé\" = to run rings around), novelas (\"isso é coisa de novela\" = melodramatic), and the \"jeitinho brasileiro\" (finding a creative workaround).",
+          "Cultural references: soccer (\"pisar na bola\" = to slip up; \"dar um olé\" = to run rings around), novelas (\"isso é coisa de novela\" = melodramatic), and the \"jeitinho brasileiro\" (finding a creative workaround).",
         ],
         examples: [
           { es: "O plano deu com os burros n'água.", en: "The plan came to nothing." },
@@ -251,7 +251,7 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, using an idiom.",
-        source: "In maths, I'm completely useless.",
+        source: "In math, I'm completely useless.",
         answer: "Em matemática, eu sou um zero à esquerda.",
         altAnswers: ["Em matemática, sou um zero à esquerda.", "Sou um zero à esquerda em matemática."],
         explanation: "\"Ser um zero à esquerda\" is to be useless at something, with the crase in \"à esquerda\". \"Em\" introduces the field: \"em matemática\".",
@@ -307,7 +307,7 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Ele pisou na bola e agora quer pedir desculpas.",
-        explanation: "\"Pisar na bola\" (to slip up) is in the perfeito, \"pisou\", because it's one past event. \"Pedir desculpas\" is to apologise.",
+        explanation: "\"Pisar na bola\" (to slip up) is in the perfeito, \"pisou\", because it's one past event. \"Pedir desculpas\" is to apologize.",
       },
       {
         type: "speak",
@@ -335,15 +335,15 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
     level: "PT-C2",
     number: 3,
     title: "Extra Practice: Proverbs, Mixed Drill",
-    summary: "Practise football idioms used off the pitch and the novela, song and meme references Brazilians drop into conversation.",
+    summary: "Practice soccer idioms used off the field and the novela, song and meme references Brazilians drop into conversation.",
     duration: "15 min",
     optional: true,
     kind: "drill",
     sections: [
       {
-        heading: "Football off the pitch",
+        heading: "Soccer off the field",
         body: [
-          "\"Pisar na bola\" is to mess up or let someone down (\"pisei na bola com você\"); a gaffe is \"uma bola fora\", a smart move \"uma bola dentro\", self-harm \"um gol contra\". \"Virar o jogo\" is to turn things round; \"virar a mesa\" is to upend the whole arrangement. The last minute is \"aos 45 do segundo tempo\".",
+          "\"Pisar na bola\" is to mess up or let someone down (\"pisei na bola com você\"); a gaffe is \"uma bola fora\", a smart move \"uma bola dentro\", self-harm \"um gol contra\". \"Virar o jogo\" is to turn things around; \"virar a mesa\" is to upend the whole arrangement. The last minute is \"aos 45 do segundo tempo\".",
           "Praise: \"show de bola\" (invariable), \"bater um bolão\", \"gol de placa\", \"tirar de letra\". Tactics and quitting: \"ser escalado\", \"fazer uma tabelinha\", \"tirar o time de campo\", \"pendurar as chuteiras\", \"jogar para a torcida\". They suit conversation and a relaxed email, not a formal report.",
         ],
         examples: [
@@ -358,7 +358,7 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into Portuguese, using a football idiom.",
+            prompt: "Translate into Portuguese, using a soccer idiom.",
             source: "I let you down at the meeting; I'm sorry.",
             answer: "Pisei na bola com você na reunião; desculpa.",
             altAnswers: ["Pisei na bola com você na reunião; me desculpe.", "Eu pisei na bola com você na reunião; desculpa.", "Pisei na bola com você na reunião, desculpa.", "Pisei na bola com você na reunião; desculpe."],
@@ -377,7 +377,7 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
             type: "listen-choose",
             audio: "Os sócios tiraram o time de campo na véspera da assinatura.",
             question: "What happened?",
-            options: ["The partners pulled out just before signing.", "The partners signed early.", "The partners fired the team.", "The partners went to a football match."],
+            options: ["The partners pulled out just before signing.", "The partners signed early.", "The partners fired the team.", "The partners went to a soccer game."],
             correctIndex: 0,
             explanation: "\"Tirar o time de campo\" is to pull out of a deal or a fight.",
           },
@@ -391,7 +391,7 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Quem faz hora extra no domingo merece folga em dobro. Tô certo ou tô errado?", en: "Anyone who does overtime on Sunday deserves double time off. Am I right or am I wrong?" },
-          { es: "Um apartamento na praia por esse preço? É cilada, Bino!", en: "A beach flat at that price? It's a trap, Bino!" },
+          { es: "Um apartamento na praia por esse preço? É cilada, Bino!", en: "A beach apartment at that price? It's a trap, Bino!" },
           { es: "Para de esperar o convite: quem sabe faz a hora, não espera acontecer.", en: "Stop waiting for the invitation: those who know make it happen; they don't wait for it." },
           { es: "Já acabou, Jéssica? Então vamos votar.", en: "Are you done, Jéssica? Then let's vote." },
           { es: "O ar-condicionado quebrou em pleno janeiro, para nossa alegria.", en: "The air conditioning broke down in the middle of January, to our great joy." },
@@ -427,7 +427,7 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Portuguese, using a football idiom.",
+        prompt: "Translate into Portuguese, using a soccer idiom.",
         source: "The minister made a gaffe again.",
         answer: "O ministro deu uma bola fora de novo.",
         altAnswers: ["O ministro deu outra bola fora.", "O ministro deu mais uma bola fora.", "A ministra deu uma bola fora de novo.", "A ministra deu outra bola fora."],
@@ -436,7 +436,7 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Portuguese, using a football idiom.",
+        prompt: "Translate into Portuguese, using a soccer idiom.",
         source: "Hiring Beatriz was a smart move.",
         answer: "Contratar a Beatriz foi uma bola dentro.",
         altAnswers: ["Contratar Beatriz foi uma bola dentro."],
@@ -445,8 +445,8 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Portuguese, using a football idiom.",
-        source: "The shop was struggling, but it turned things around in a year.",
+        prompt: "Translate into Portuguese, using a soccer idiom.",
+        source: "The store was struggling, but it turned things around in a year.",
         answer: "A loja estava mal, mas virou o jogo em um ano.",
         altAnswers: ["A loja estava em crise, mas virou o jogo em um ano.", "A loja estava mal das pernas, mas virou o jogo em um ano.", "A loja estava mal, mas virou o jogo num ano."],
         explanation: "\"Virar o jogo\" is a comeback; \"virar a mesa\" would mean upending the rules.",
@@ -454,7 +454,7 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Portuguese, using a football idiom.",
+        prompt: "Translate into Portuguese, using a soccer idiom.",
         source: "She sent the proposal at the eleventh hour.",
         answer: "Ela mandou a proposta aos 45 do segundo tempo.",
         altAnswers: ["Ela enviou a proposta aos 45 do segundo tempo.", "Ela mandou a proposta aos quarenta e cinco do segundo tempo.", "Ela entregou a proposta aos 45 do segundo tempo."],
@@ -472,16 +472,16 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Portuguese, using a football idiom.",
+        prompt: "Translate into Portuguese, using a soccer idiom.",
         source: "He sailed through the exam.",
         answer: "Ele tirou a prova de letra.",
         altAnswers: ["Ele tirou o exame de letra.", "Tirou a prova de letra."],
-        explanation: "\"Tirar de letra\" comes from the showy back-heel pass.",
+        explanation: "\"Tirar de letra\" comes from the showy rabona pass (kicked behind the standing leg).",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Portuguese, using a football idiom.",
+        prompt: "Translate into Portuguese, using a soccer idiom.",
         source: "The senator is just playing to the gallery.",
         answer: "O senador está só jogando para a torcida.",
         altAnswers: ["O senador só está jogando para a torcida.", "O senador está só jogando pra torcida.", "A senadora está só jogando para a torcida.", "A senadora só está jogando para a torcida."],
@@ -490,7 +490,7 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into Portuguese, using a football idiom.",
+        prompt: "Translate into Portuguese, using a soccer idiom.",
         source: "After forty years of teaching, Dona Maria retired.",
         answer: "Depois de quarenta anos de magistério, Dona Maria pendurou as chuteiras.",
         altAnswers: ["Depois de quarenta anos de magistério, a Dona Maria pendurou as chuteiras.", "Depois de quarenta anos dando aula, Dona Maria pendurou as chuteiras.", "Depois de quarenta anos como professora, Dona Maria pendurou as chuteiras."],
@@ -546,7 +546,7 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
           { left: "fazer um gol contra", right: "to shoot yourself in the foot" },
           { left: "entrar em campo", right: "to step in personally" },
         ],
-        explanation: "Football tactics used in everyday life.",
+        explanation: "Soccer tactics used in everyday life.",
       },
     ],
   },
@@ -563,7 +563,7 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
       {
         heading: "Proverbs, word for word",
         body: [
-          "A proverb is a frozen sentence, recognised by its exact words: \"enche o papo\" (not \"a barriga\"), \"o espeto é de pau\" (not \"de madeira\"), \"quem vê cara\" (not \"rosto\"). Keep the old syntax too: \"quem cedo madruga\", \"será ferido\". In each blank below, the English in brackets is a literal gloss of the words you need.",
+          "A proverb is a frozen sentence, recognized by its exact words: \"enche o papo\" (not \"a barriga\"), \"o espeto é de pau\" (not \"de madeira\"), \"quem vê cara\" (not \"rosto\"). Keep the old syntax too: \"quem cedo madruga\", \"será ferido\". In each blank below, the English in brackets is a literal gloss of the words you need.",
           "Truncation works only from the front: \"quem não tem cão...\" lands, \"...caça com gato\" doesn't. So you need the first half to cue the proverb and the second half to understand anyone who finishes it.",
         ],
         examples: [
@@ -594,7 +594,7 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Lucas finally apologised. Better late than never!",
+            source: "Lucas finally apologized. Better late than never!",
             answer: "O Lucas finalmente pediu desculpas. Antes tarde do que nunca!",
             altAnswers: ["Lucas finalmente pediu desculpas. Antes tarde do que nunca!", "O Lucas enfim pediu desculpas. Antes tarde do que nunca!", "O Lucas finalmente pediu desculpa. Antes tarde do que nunca!"],
             explanation: "\"Antes tarde do que nunca\" greets an overdue apology, often with a teasing edge.",
@@ -654,7 +654,7 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The new neighbour looked grumpy, but he's lovely. Whoever sees the face [doesn't see the heart].",
+        en: "The new neighbor looked grumpy, but he's lovely. Whoever sees the face [doesn't see the heart].",
         sentence: "O vizinho novo parecia mal-humorado, mas é um amor. Quem vê cara ___.",
         answer: "não vê coração",
         explanation: "No articles: \"quem vê cara não vê coração\".",
@@ -687,7 +687,7 @@ export const PT_C2_U03_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The shop only put in cameras after the robbery. After the house is broken into, [an iron bolt].",
+        en: "The store only put in cameras after the robbery. After the house is broken into, [an iron bolt].",
         sentence: "A loja só instalou câmeras depois do assalto. Depois da casa arrombada, ___.",
         answer: "tranca de ferro",
         explanation: "It mocks precautions taken too late, like shutting the stable door after the horse has bolted.",

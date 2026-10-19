@@ -16,11 +16,11 @@ export const PT_A2_U16: Lesson[] = [
         heading: "Rooms and furniture",
         body: [
           "A Brazilian apartment has \"a sala\" (living room), \"o quarto\" (bedroom), \"a cozinha\", \"o banheiro\", often \"a varanda\" (balcony) and almost always \"a área de serviço\": a small laundry area off the kitchen, with the washing machine and a tank for hand-washing.",
-          "Learn each noun with its article, because gender doesn't follow English logic: \"o sofá\", \"o armário\" (cupboard, wardrobe), \"o fogão\" (cooker), but \"a estante\" (bookcase), \"a geladeira\" (fridge), \"a máquina de lavar\". Most nouns in -ão are masculine, most in -dade and -ção feminine.",
+          "Learn each noun with its article, because gender doesn't follow English logic: \"o sofá\", \"o armário\" (cabinet, closet), \"o fogão\" (stove), but \"a estante\" (bookcase), \"a geladeira\" (fridge), \"a máquina de lavar\". Most nouns in -ão are masculine, most in -dade and -ção feminine.",
         ],
         examples: [
           { es: "A sala é pequena, mas a varanda é enorme.", en: "The living room is small, but the balcony is huge." },
-          { es: "O apartamento tem dois quartos e um banheiro.", en: "The flat has two bedrooms and one bathroom." },
+          { es: "O apartamento tem dois quartos e um banheiro.", en: "The apartment has two bedrooms and one bathroom." },
           { es: "A máquina de lavar fica na área de serviço.", en: "The washing machine is in the laundry area." },
           { es: "Comprei um sofá novo para a sala.", en: "I bought a new sofa for the living room." },
           { es: "A geladeira está vazia.", en: "The fridge is empty." },
@@ -30,7 +30,7 @@ export const PT_A2_U16: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The flat has two bedrooms and one bathroom.",
+            source: "The apartment has two bedrooms and one bathroom.",
             answer: "O apartamento tem dois quartos e um banheiro.",
             altAnswers: ["O apartamento tem dois quartos e só um banheiro.", "O apê tem dois quartos e um banheiro."],
             explanation: "\"O quarto\" is the bedroom; the bathroom is \"o banheiro\" in Brazil.",
@@ -47,14 +47,14 @@ export const PT_A2_U16: Lesson[] = [
       {
         heading: "Chores: lavar a louça, passar roupa, fazer faxina",
         body: [
-          "The chores come as fixed pairs of verb and noun. \"Lavar a louça\" (do the dishes; \"a louça\" is the crockery), \"passar roupa\" (iron clothes: \"passar\" also means to iron), \"arrumar a cama\" (make the bed), \"arrumar a casa\" (tidy up), \"varrer\" (sweep), \"tirar o lixo\" (take out the rubbish).",
+          "The chores come as fixed pairs of verb and noun. \"Lavar a louça\" (do the dishes; \"a louça\" is the crockery), \"passar roupa\" (iron clothes: \"passar\" also means to iron), \"arrumar a cama\" (make the bed), \"arrumar a casa\" (tidy up), \"varrer\" (sweep), \"tirar o lixo\" (take out the trash).",
           "\"Fazer faxina\" is a proper, top-to-bottom clean. Many Brazilian households pay \"uma diarista\", a cleaner who comes for the day once or twice a week; a live-in or full-time worker is \"a empregada\".",
         ],
         examples: [
           { es: "Quem vai lavar a louça hoje?", en: "Who's going to do the dishes today?" },
           { es: "Eu odeio passar roupa.", en: "I hate ironing." },
           { es: "Toda manhã eu arrumo a cama.", en: "Every morning I make the bed." },
-          { es: "Você pode tirar o lixo?", en: "Can you take out the rubbish?" },
+          { es: "Você pode tirar o lixo?", en: "Can you take out the trash?" },
           { es: "A diarista vem às quintas para fazer faxina.", en: "The cleaner comes on Thursdays to do a deep clean." },
         ],
         checkpoint: [
@@ -95,7 +95,7 @@ export const PT_A2_U16: Lesson[] = [
         examples: [
           { es: "No sábado eu fiz faxina na casa toda.", en: "On Saturday I cleaned the whole house." },
           { es: "O João lavou a louça e eu varri a cozinha.", en: "João did the dishes and I swept the kitchen." },
-          { es: "Quem tirou o lixo? Fui eu.", en: "Who took out the rubbish? It was me." },
+          { es: "Quem tirou o lixo? Fui eu.", en: "Who took out the trash? It was me." },
           { es: "A minha irmã passou a roupa toda.", en: "My sister ironed all the clothes." },
           { es: "A gente arrumou a casa antes da festa.", en: "We tidied the house before the party." },
         ],
@@ -140,10 +140,10 @@ export const PT_A2_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Can you take out the rubbish?",
+        source: "Can you take out the trash?",
         answer: "Você pode tirar o lixo?",
         altAnswers: ["Pode tirar o lixo?", "Você pode levar o lixo para fora?", "Vocês podem tirar o lixo?", "Você pode jogar o lixo fora?"],
-        explanation: "\"Tirar o lixo\" is take out the rubbish. \"Você pode...?\" is a friendly request.",
+        explanation: "\"Tirar o lixo\" is take out the trash. \"Você pode...?\" is a friendly request.",
       },
       {
         type: "translate",
@@ -182,16 +182,16 @@ export const PT_A2_U16: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Who took out the rubbish? It was me.",
+        prompt: "Put the words in order to say: Who took out the trash? It was me.",
         words: ["Quem", "tirou", "o lixo?", "Fui", "eu."],
-        translation: "Who took out the rubbish? It was me.",
+        translation: "Who took out the trash? It was me.",
         explanation: "\"Fui eu\" (it was me) uses the perfeito of \"ser\" with \"eu\" after it.",
       },
       {
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "o fogão", right: "the cooker" },
+          { left: "o fogão", right: "the stove" },
           { left: "o armário", right: "the cupboard" },
           { left: "a estante", right: "the bookcase" },
           { left: "a varanda", right: "the balcony" },
@@ -218,7 +218,7 @@ export const PT_A2_U16: Lesson[] = [
     level: "PT-A2",
     number: 2,
     title: "Word Web: Work and the Office",
-    summary: "Trabalho and emprego, colleagues, meetings and salaries, working from home, overtime and holidays, and ganhar as both earn and win.",
+    summary: "Trabalho and emprego, colleagues, meetings and salaries, working from home, overtime, vacations and holidays, and ganhar as both earn and win.",
     duration: "12 min",
     kind: "teach",
     sections: [
@@ -242,8 +242,8 @@ export const PT_A2_U16: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "My brother is looking for a job.",
             answer: "O meu irmão está procurando emprego.",
-            altAnswers: ["Meu irmão está procurando emprego.", "O meu irmão está procurando um emprego.", "Meu irmão está procurando um emprego.", "Meu irmão tá procurando emprego."],
-            explanation: "A job as a position is \"emprego\". *Procurando trabalho is possible but less common for a regular job.",
+            altAnswers: ["Meu irmão está procurando emprego.", "O meu irmão está procurando um emprego.", "Meu irmão está procurando um emprego.", "Meu irmão tá procurando emprego.", "O meu irmão está procurando trabalho.", "Meu irmão está procurando trabalho."],
+            explanation: "A job as a position is \"emprego\". \"Procurando trabalho\" (looking for work) is also fine.",
           },
           {
             type: "multiple-choice",
@@ -258,13 +258,13 @@ export const PT_A2_U16: Lesson[] = [
         heading: "Meetings, hours and working from home",
         body: [
           "\"A reunião\" is a meeting, \"o horário\" your working hours (\"meu horário é das nove às seis\"). Working from home is \"trabalhar de casa\", or with the borrowed term Brazilians use for it, \"fazer home office\".",
-          "\"Fazer hora extra\" is to work overtime. \"Tirar férias\" is to take a holiday, always plural \"férias\". \"O feriado\" is a public holiday, like Tiradentes or Independence Day: a false friend for holiday in the sense of vacation.",
+          "\"Fazer hora extra\" is to work overtime. \"Tirar férias\" is to take a vacation, always plural \"férias\". \"O feriado\" is a public holiday, like Tiradentes or Independence Day, not a vacation.",
         ],
         examples: [
           { es: "Tenho uma reunião às três.", en: "I have a meeting at three." },
           { es: "Às sextas eu trabalho de casa.", en: "On Fridays I work from home." },
           { es: "Ontem eu fiz hora extra até as dez.", en: "Yesterday I worked overtime until ten." },
-          { es: "Vou tirar férias em janeiro.", en: "I'm going to take a holiday in January." },
+          { es: "Vou tirar férias em janeiro.", en: "I'm going to take a vacation in January." },
           { es: "Segunda é feriado, então não tem trabalho.", en: "Monday is a public holiday, so there's no work." },
         ],
         checkpoint: [
@@ -272,7 +272,7 @@ export const PT_A2_U16: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I'm going to take a holiday in January.",
+            source: "I'm going to take a vacation in January.",
             answer: "Vou tirar férias em janeiro.",
             altAnswers: ["Eu vou tirar férias em janeiro.", "Vou tirar férias no mês de janeiro.", "Em janeiro, vou tirar férias."],
             explanation: "\"Tirar férias\" (always plural) is to take time off. \"Feriado\" would be a single public holiday.",
@@ -316,7 +316,7 @@ export const PT_A2_U16: Lesson[] = [
             source: "Our team won a prize.",
             answer: "A nossa equipe ganhou um prêmio.",
             altAnswers: ["Nossa equipe ganhou um prêmio.", "O nosso time ganhou um prêmio.", "Nosso time ganhou um prêmio."],
-            explanation: "\"Ganhar\" = to win here. Brazil writes \"equipe\" and \"prêmio\" with a circumflex.",
+            explanation: "\"Ganhar\" = to win here. \"Prêmio\" takes a circumflex in Brazil.",
           },
           {
             type: "speak",
@@ -438,7 +438,7 @@ export const PT_A2_U16: Lesson[] = [
           { es: "Está chovendo de novo.", en: "It's raining again." },
           { es: "O céu está nublado.", en: "The sky is cloudy." },
           { es: "Ontem fez 38 graus em Cuiabá.", en: "Yesterday it was 38 degrees in Cuiabá." },
-          { es: "Choveu muito no fim de semana.", en: "It rained a lot at the weekend." },
+          { es: "Choveu muito no fim de semana.", en: "It rained a lot on the weekend." },
         ],
         checkpoint: [
           {
@@ -545,7 +545,7 @@ export const PT_A2_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "It rained a lot at the weekend.",
+        source: "It rained a lot on the weekend.",
         answer: "Choveu muito no fim de semana.",
         altAnswers: ["No fim de semana choveu muito.", "Choveu bastante no fim de semana.", "Choveu muito no final de semana."],
         explanation: "A finished weekend's rain, reported: perfeito \"choveu\".",
@@ -840,11 +840,11 @@ export const PT_A2_U16: Lesson[] = [
       {
         heading: "Jogar bola and torcer para",
         body: [
-          "Football is \"futebol\", and playing it casually is \"jogar bola\" (literally play ball). A match is \"o jogo\" and a team is \"o time\"; \"a seleção\" is the national team. You \"ganhar\" (win), \"perder\" (lose) or \"empatar\" (draw).",
+          "Soccer is \"futebol\", and playing it casually is \"jogar bola\" (literally play ball). A match is \"o jogo\" and a team is \"o time\"; \"a seleção\" is the national team. You \"ganhar\" (win), \"perder\" (lose) or \"empatar\" (draw).",
           "To support a team is \"torcer para\": \"eu torço para o Bahia\", \"para que time você torce?\". It's a big part of Brazilian identity: people inherit their team from their parents, and \"a torcida\" (the fans) is part of the show.",
         ],
         examples: [
-          { es: "Aos domingos a gente joga bola na praia.", en: "On Sundays we play football on the beach." },
+          { es: "Aos domingos a gente joga bola na praia.", en: "On Sundays we play soccer on the beach." },
           { es: "Para que time você torce?", en: "Which team do you support?" },
           { es: "Eu torço para o Bahia.", en: "I support Bahia." },
           { es: "O Flamengo ganhou de três a um.", en: "Flamengo won three-one." },
@@ -956,10 +956,10 @@ export const PT_A2_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "On Sundays we play football on the beach.",
+        source: "On Sundays we play soccer on the beach.",
         answer: "Aos domingos a gente joga bola na praia.",
         altAnswers: ["Aos domingos nós jogamos bola na praia.", "Aos domingos jogamos bola na praia.", "Aos domingos a gente joga futebol na praia.", "Aos domingos nós jogamos futebol na praia.", "Todo domingo a gente joga bola na praia."],
-        explanation: "\"Jogar bola\" is casual football. \"Aos domingos\" = every Sunday.",
+        explanation: "\"Jogar bola\" is casual soccer. \"Aos domingos\" = every Sunday.",
       },
       {
         type: "translate",
@@ -1015,7 +1015,7 @@ export const PT_A2_U16: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is right: He plays the piano and football?",
+        question: "Which is right: He plays the piano and soccer?",
         options: ["Ele toca piano e joga futebol.", "Ele joga piano e toca futebol.", "Ele toca piano e toca futebol.", "Ele joga piano e joga futebol."],
         correctIndex: 0,
         explanation: "\"Tocar\" for instruments, \"jogar\" for sport.",
@@ -1039,7 +1039,7 @@ export const PT_A2_U16: Lesson[] = [
     level: "PT-A2",
     number: 6,
     title: "Word Web: Friends, Family and Personality",
-    summary: "Namorar, ficar noivo, casar com, partners and neighbours, and the personality words, simpático, chato, teimoso, with comparisons.",
+    summary: "Namorar, ficar noivo, casar com, partners and neighbors, and the personality words, simpático, chato, teimoso, with comparisons.",
     duration: "12 min",
     kind: "teach",
     sections: [
@@ -1078,14 +1078,14 @@ export const PT_A2_U16: Lesson[] = [
         ],
       },
       {
-        heading: "Friends and neighbours",
+        heading: "Friends and neighbors",
         body: [
-          "\"O melhor amigo\" / \"a melhor amiga\" is your best friend; \"o vizinho\" / \"a vizinha\" your neighbour; \"o colega\" a colleague or classmate. Brazilians are generous with \"amigo\": an acquaintance you like is already \"um amigo\".",
+          "\"O melhor amigo\" / \"a melhor amiga\" is your best friend; \"o vizinho\" / \"a vizinha\" your neighbor; \"o colega\" a colleague or classmate. Brazilians are generous with \"amigo\": an acquaintance you like is already \"um amigo\".",
         ],
         examples: [
           { es: "A minha melhor amiga mora em Recife.", en: "My best friend lives in Recife." },
-          { es: "O meu vizinho é muito barulhento.", en: "My neighbour is very noisy." },
-          { es: "Eu conheci a Beatriz na faculdade.", en: "I met Beatriz at university." },
+          { es: "O meu vizinho é muito barulhento.", en: "My neighbor is very noisy." },
+          { es: "Eu conheci a Beatriz na faculdade.", en: "I met Beatriz at college." },
         ],
         checkpoint: [
           {
@@ -1101,23 +1101,23 @@ export const PT_A2_U16: Lesson[] = [
             type: "listen-choose",
             audio: "O meu vizinho é muito barulhento.",
             question: "What does it mean?",
-            options: ["My neighbour is very noisy.", "My neighbour is very nice.", "My cousin is very noisy.", "My neighbourhood is very noisy."],
+            options: ["My neighbor is very noisy.", "My neighbor is very nice.", "My cousin is very noisy.", "My neighborhood is very noisy."],
             correctIndex: 0,
-            explanation: "\"O vizinho\" is the neighbour; \"o bairro\" would be the neighbourhood.",
+            explanation: "\"O vizinho\" is the neighbor; \"o bairro\" would be the neighborhood.",
           },
         ],
       },
       {
         heading: "Personality, and comparing people",
         body: [
-          "\"Simpático\" means nice, friendly, never sympathetic. \"Engraçado\" is funny, \"chato\" annoying or boring (a word you'll hear constantly), \"tímido\" shy, \"calmo\" calm, \"teimoso\" stubborn. \"Nervoso\" is nervous, but also irritable or angry: \"ele ficou nervoso comigo\".",
+          "\"Simpático\" means nice, friendly, never sympathetic. \"Engraçado\" is funny, \"chato\" annoying or boring (a word you'll hear constantly), \"tímido\" shy, \"calmo\" calm, \"teimoso\" stubborn. \"Nervoso\" is nervous, but also irritable or angry: \"ele ficou nervoso comigo\" (he got annoyed with me). Learn \"ficar nervoso\" as a chunk for now: \"ficar\" + adjective, to get or become, comes later with health.",
           "Compare people with the forms from the comparisons unit: \"ela é mais engraçada do que o irmão\", \"ele é tão teimoso quanto o pai\".",
         ],
         examples: [
           { es: "O seu namorado é muito simpático.", en: "Your boyfriend is really nice." },
           { es: "Ela é mais engraçada do que o irmão.", en: "She's funnier than her brother." },
           { es: "Ele é tão teimoso quanto o pai.", en: "He's as stubborn as his father." },
-          { es: "Que chato! Cancelaram o show.", en: "What a pain! They cancelled the concert." },
+          { es: "Que chato! Cancelaram o show.", en: "What a pain! They canceled the concert." },
           { es: "O meu chefe ficou nervoso comigo.", en: "My boss got annoyed with me." },
         ],
         checkpoint: [
@@ -1211,9 +1211,9 @@ export const PT_A2_U16: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: My neighbour is calmer than me.",
+        prompt: "Put the words in order to say: My neighbor is calmer than me.",
         words: ["O meu", "vizinho", "é", "mais", "calmo", "do que", "eu."],
-        translation: "My neighbour is calmer than me.",
+        translation: "My neighbor is calmer than me.",
         explanation: "\"Mais calmo do que eu\": after \"do que\", the subject form \"eu\".",
       },
       {
@@ -1247,18 +1247,18 @@ export const PT_A2_U16: Lesson[] = [
     level: "PT-A2",
     number: 7,
     title: "Word Web: The City and Getting Around",
-    summary: "O centro, o bairro, a esquina, o quarteirão, traffic lights and crossings, buses and the metro, and the rush hour.",
+    summary: "O centro, o bairro, a esquina, o quarteirão, traffic lights and crosswalks, buses and the metro, and the rush hour.",
     duration: "12 min",
     kind: "teach",
     sections: [
       {
         heading: "Bairro, esquina, quarteirão",
         body: [
-          "\"O centro\" is downtown, the historic or business centre; \"o bairro\" is a neighbourhood, and Brazilians identify strongly with theirs (Copacabana, Pinheiros, Savassi). \"A esquina\" is a street corner, and \"o quarteirão\" a block: \"fica a dois quarteirões daqui\".",
+          "\"O centro\" is downtown, the historic or business center; \"o bairro\" is a neighborhood, and Brazilians identify strongly with theirs (Copacabana, Pinheiros, Savassi). \"A esquina\" is a street corner, and \"o quarteirão\" a block: \"fica a dois quarteirões daqui\".",
           "Nouns in -ão usually make their plural in -ões: \"o quarteirão\" → \"os quarteirões\", like \"a estação\" → \"as estações\".",
         ],
         examples: [
-          { es: "Eu moro num bairro tranquilo.", en: "I live in a quiet neighbourhood." },
+          { es: "Eu moro num bairro tranquilo.", en: "I live in a quiet neighborhood." },
           { es: "A farmácia fica na esquina.", en: "The pharmacy is on the corner." },
           { es: "O mercado fica a dois quarteirões daqui.", en: "The supermarket is two blocks from here." },
           { es: "Ontem eu fui ao centro de ônibus.", en: "Yesterday I went downtown by bus." },
@@ -1285,12 +1285,12 @@ export const PT_A2_U16: Lesson[] = [
       {
         heading: "Crossing the street",
         body: [
-          "A traffic light is \"o semáforo\" in writing and \"o sinal\" in speech (in São Paulo also \"o farol\"). \"A faixa de pedestres\" is the zebra crossing. Directions use the present: \"você segue reto e vira à direita no sinal\" (you go straight on and turn right at the lights).",
+          "A traffic light is \"o semáforo\" in writing and \"o sinal\" in speech (in São Paulo also \"o farol\"). \"A faixa de pedestres\" is the crosswalk. Directions use the present: \"você segue reto e vira à direita no sinal\" (you go straight ahead and turn right at the light).",
         ],
         examples: [
           { es: "O sinal está vermelho.", en: "The light is red." },
-          { es: "A gente atravessou na faixa de pedestres.", en: "We crossed at the zebra crossing." },
-          { es: "Você segue reto e vira à direita no sinal.", en: "You go straight on and turn right at the lights." },
+          { es: "A gente atravessou na faixa de pedestres.", en: "We crossed at the crosswalk." },
+          { es: "Você segue reto e vira à direita no sinal.", en: "You go straight ahead and turn right at the light." },
           { es: "O banco fica depois do segundo sinal.", en: "The bank is after the second traffic light." },
         ],
         checkpoint: [
@@ -1298,10 +1298,10 @@ export const PT_A2_U16: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "You go straight on and turn right at the lights.",
+            source: "You go straight ahead and turn right at the light.",
             answer: "Você segue reto e vira à direita no sinal.",
             altAnswers: ["Você vai reto e vira à direita no sinal.", "Segue reto e vira à direita no sinal.", "Você segue em frente e vira à direita no sinal.", "Você segue reto e vira à direita no semáforo.", "Você segue reto e vira à direita no farol."],
-            explanation: "Directions in the present with \"você\". \"No sinal\" = at the lights.",
+            explanation: "Directions in the present with \"você\". \"No sinal\" = at the light.",
           },
           {
             type: "listen-choose",
@@ -1359,10 +1359,10 @@ export const PT_A2_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I live in a quiet neighbourhood.",
+        source: "I live in a quiet neighborhood.",
         answer: "Eu moro num bairro tranquilo.",
         altAnswers: ["Moro num bairro tranquilo.", "Eu moro em um bairro tranquilo.", "Moro em um bairro tranquilo.", "Eu moro num bairro calmo.", "Moro num bairro calmo."],
-        explanation: "\"O bairro\" = neighbourhood; \"num\" = \"em\" + \"um\".",
+        explanation: "\"O bairro\" = neighborhood; \"num\" = \"em\" + \"um\".",
       },
       {
         type: "translate",
@@ -1403,11 +1403,11 @@ export const PT_A2_U16: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "We crossed at the [zebra crossing].",
+        en: "We crossed at the [crosswalk].",
         sentence: "A gente atravessou na ___.",
         answer: "faixa de pedestres",
         altAnswers: ["faixa"],
-        explanation: "\"A faixa de pedestres\" is the pedestrian crossing.",
+        explanation: "\"A faixa de pedestres\" is the crosswalk.",
       },
       {
         type: "fill-blank",
@@ -1491,13 +1491,13 @@ export const PT_A2_U16: Lesson[] = [
       {
         heading: "Deixar: leave and let",
         body: [
-          "\"Deixar\" means to leave something somewhere: \"deixei a chave em casa\" (I left the key at home). It also means to let or allow: \"a mãe dele não deixou\" (his mum didn't let him), \"o síndico não deixa cachorro no prédio\" (the building manager doesn't allow dogs).",
+          "\"Deixar\" means to leave something somewhere: \"deixei a chave em casa\" (I left the key at home). It also means to let or allow: \"a mãe dele não deixou\" (his mom didn't let him), \"o síndico não deixa cachorro no prédio\" (the building manager doesn't allow dogs).",
           "To leave a place is a different verb: \"sair\". \"Saí de casa às oito\", never *deixei a casa for an everyday departure.",
         ],
         examples: [
           { es: "Deixei a chave em casa.", en: "I left the key at home." },
-          { es: "A mãe dele não deixou ele ir à festa.", en: "His mum didn't let him go to the party." },
-          { es: "Você pode deixar o pacote com o porteiro.", en: "You can leave the parcel with the doorman." },
+          { es: "A mãe dele não deixou ele ir à festa.", en: "His mom didn't let him go to the party." },
+          { es: "Você pode deixar o pacote com o porteiro.", en: "You can leave the package with the doorman." },
           { es: "Eu saí de casa às oito.", en: "I left home at eight." },
         ],
         checkpoint: [
@@ -1512,10 +1512,10 @@ export const PT_A2_U16: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say: His mum didn't let him go?",
+            question: "How do you say: His mom didn't let him go?",
             options: ["A mãe dele não deixou ele ir.", "A mãe dele não saiu ele ir.", "A mãe dele não deu ele ir.", "A mãe dele não levou ele ir."],
             correctIndex: 0,
-            explanation: "To let someone do something is \"deixar\" + person + infinitive.",
+            explanation: "To let someone do something is \"deixar\" + person + infinitive. \"Deixou ele ir\" is how everyone says it; careful writing has \"não o deixou ir\".",
           },
         ],
       },
@@ -1574,7 +1574,7 @@ export const PT_A2_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "You can leave the parcel with the doorman.",
+        source: "You can leave the package with the doorman.",
         answer: "Você pode deixar o pacote com o porteiro.",
         altAnswers: ["Pode deixar o pacote com o porteiro.", "O senhor pode deixar o pacote com o porteiro.", "A senhora pode deixar o pacote com o porteiro.", "Você pode deixar a encomenda com o porteiro."],
         explanation: "Leaving something with someone: \"deixar\".",
@@ -1679,7 +1679,7 @@ export const PT_A2_U16: Lesson[] = [
           { es: "Eu pretendo viajar em julho.", en: "I intend to travel in July." },
           { es: "Ele fingiu que estava dormindo.", en: "He pretended he was asleep." },
           { es: "Que cheiro esquisito!", en: "What a weird smell!" },
-          { es: "O filme era meio esquisito.", en: "The film was a bit weird." },
+          { es: "O filme era meio esquisito.", en: "The movie was a bit weird." },
         ],
         checkpoint: [
           {
@@ -1703,12 +1703,12 @@ export const PT_A2_U16: Lesson[] = [
       {
         heading: "Livraria, parentes, data, costume",
         body: [
-          "\"A livraria\" is a bookshop; a library is \"a biblioteca\". \"Os parentes\" are relatives in general (cousins, aunts, uncles), not parents, which is \"os pais\".",
+          "\"A livraria\" is a bookstore; a library is \"a biblioteca\". \"Os parentes\" are relatives in general (cousins, aunts, uncles), not parents, which is \"os pais\".",
           "\"A data\" is a date on the calendar, never data. \"O costume\" is a habit or custom (\"é costume tirar o sapato em casa\"); a costume to dress up in is \"a fantasia\", as in Carnaval.",
         ],
         examples: [
-          { es: "Comprei esse livro numa livraria no centro.", en: "I bought this book at a bookshop downtown." },
-          { es: "Eu estudo na biblioteca da faculdade.", en: "I study in the university library." },
+          { es: "Comprei esse livro numa livraria no centro.", en: "I bought this book at a bookstore downtown." },
+          { es: "Eu estudo na biblioteca da faculdade.", en: "I study in the college library." },
           { es: "No Natal, todos os parentes vêm para a nossa casa.", en: "At Christmas, all the relatives come to our house." },
           { es: "Qual é a data da reunião?", en: "What's the date of the meeting?" },
           { es: "Eu comprei uma fantasia para o Carnaval.", en: "I bought a costume for Carnival." },
@@ -1718,7 +1718,7 @@ export const PT_A2_U16: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I study in the university library.",
+            source: "I study in the college library.",
             answer: "Eu estudo na biblioteca da faculdade.",
             altAnswers: ["Estudo na biblioteca da faculdade.", "Eu estudo na biblioteca da universidade.", "Estudo na biblioteca da universidade."],
             explanation: "Library = \"a biblioteca\". \"A livraria\" sells books.",
@@ -1744,13 +1744,13 @@ export const PT_A2_U16: Lesson[] = [
       {
         heading: "Assistir, atualmente, propaganda, novela",
         body: [
-          "\"Assistir\" (a) is to watch, as in TV or a film: \"assisti a um jogo\"; to assist is \"ajudar\". \"Atualmente\" means currently, nowadays, not actually, which is \"na verdade\".",
+          "\"Assistir\" (a) is to watch, as in TV or a movie: \"assisti a um jogo\"; to assist is \"ajudar\". \"Atualmente\" means currently, nowadays, not actually, which is \"na verdade\".",
           "\"A propaganda\" is advertising, the ads on TV, with no political overtone. \"A novela\" is a soap opera (the 9 p.m. novela is a national habit); a novel is \"o romance\". And \"puxa vida!\" or just \"puxa!\" is a reaction: wow, or oh no.",
         ],
         examples: [
           { es: "Eu assisti à novela das nove ontem.", en: "I watched the nine o'clock soap last night." },
           { es: "Atualmente eu moro em Curitiba.", en: "I currently live in Curitiba." },
-          { es: "Na verdade, eu não gostei do filme.", en: "Actually, I didn't like the film." },
+          { es: "Na verdade, eu não gostei do filme.", en: "Actually, I didn't like the movie." },
           { es: "Essa propaganda é muito engraçada.", en: "This ad is really funny." },
           { es: "Puxa vida, que pena!", en: "Oh no, what a shame!" },
         ],
@@ -1759,7 +1759,7 @@ export const PT_A2_U16: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Actually, I didn't like the film.",
+            source: "Actually, I didn't like the movie.",
             answer: "Na verdade, eu não gostei do filme.",
             altAnswers: ["Na verdade, não gostei do filme.", "Na verdade eu não gostei do filme.", "Na realidade, eu não gostei do filme."],
             explanation: "Actually = \"na verdade\". \"Atualmente\" means currently.",
@@ -1805,10 +1805,10 @@ export const PT_A2_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I bought this book at a bookshop downtown.",
+        source: "I bought this book at a bookstore downtown.",
         answer: "Comprei esse livro numa livraria no centro.",
         altAnswers: ["Eu comprei esse livro numa livraria no centro.", "Comprei este livro numa livraria no centro.", "Eu comprei este livro numa livraria do centro.", "Comprei esse livro em uma livraria no centro."],
-        explanation: "A bookshop is \"a livraria\"; \"a biblioteca\" lends books.",
+        explanation: "A bookstore is \"a livraria\"; \"a biblioteca\" lends books.",
       },
       {
         type: "translate",
@@ -1851,14 +1851,14 @@ export const PT_A2_U16: Lesson[] = [
           { left: "pretender", right: "to intend" },
           { left: "esquisito", right: "weird" },
           { left: "os parentes", right: "relatives" },
-          { left: "a livraria", right: "the bookshop" },
+          { left: "a livraria", right: "the bookstore" },
           { left: "atualmente", right: "currently" },
         ],
         explanation: "Six classic false friends: none of them means what it looks like in English.",
       },
       {
         type: "multiple-choice",
-        question: "A friend tells you their flight was cancelled. Which reaction fits?",
+        question: "A friend tells you their flight was canceled. Which reaction fits?",
         options: ["Puxa vida, que pena!", "Empurra vida, que pena!", "Que esquisito vida!", "Puxa, que legal!"],
         correctIndex: 0,
         explanation: "\"Puxa vida!\" reacts to bad (or surprising) news; \"que pena\" = what a shame.",
@@ -1889,7 +1889,7 @@ export const PT_A2_U16: Lesson[] = [
       {
         heading: "Levar or trazer?",
         body: [
-          "The direction decides. \"Levar\" is to take, away from where the speaker is: \"vou levar um vinho para a festa\". \"Trazer\" is to bring, towards where the speaker is: \"você pode trazer um vinho?\" (said by the host). English bring is looser, so learners overuse \"trazer\".",
+          "The direction decides. \"Levar\" is to take, away from where the speaker is: \"vou levar um vinho para a festa\". \"Trazer\" is to bring, toward where the speaker is: \"você pode trazer um vinho?\" (said by the host). English bring is looser, so learners overuse \"trazer\".",
           "Remember the irregular past of \"trazer\": \"trouxe\", \"trouxemos\", \"trouxeram\". \"Levar\" is regular: \"levei\", \"levou\".",
         ],
         examples: [
@@ -1905,7 +1905,7 @@ export const PT_A2_U16: Lesson[] = [
             question: "You're at home and phone a friend who's coming over. How do you ask them to bring bread?",
             options: ["Você pode trazer pão?", "Você pode levar pão?", "Você pode pegar pão para lá?", "Você pode perguntar pão?"],
             correctIndex: 0,
-            explanation: "Towards you, the speaker: \"trazer\".",
+            explanation: "Toward you, the speaker: \"trazer\".",
           },
           {
             type: "translate",
@@ -1914,7 +1914,7 @@ export const PT_A2_U16: Lesson[] = [
             source: "João brought a cake to the office.",
             answer: "O João trouxe um bolo para o escritório.",
             altAnswers: ["João trouxe um bolo para o escritório.", "O João trouxe um bolo pro escritório.", "O João trouxe um bolo para o trabalho."],
-            explanation: "Said by someone at the office, so towards the speaker: \"trouxe\", the irregular past of \"trazer\".",
+            explanation: "Said by someone at the office, so toward the speaker: \"trouxe\", the irregular past of \"trazer\".",
           },
         ],
       },
@@ -1926,17 +1926,17 @@ export const PT_A2_U16: Lesson[] = [
         ],
         examples: [
           { es: "Eu pedi uma pizza de calabresa.", en: "I ordered a pepperoni pizza." },
-          { es: "Ela me pediu um favor.", en: "She asked me for a favour." },
+          { es: "Ela me pediu um favor.", en: "She asked me for a favor." },
           { es: "Eu perguntei o preço do quarto.", en: "I asked the price of the room." },
           { es: "Ele perguntou onde fica o banco.", en: "He asked where the bank is." },
-          { es: "Vou pedir ajuda para a minha vizinha.", en: "I'm going to ask my neighbour for help." },
+          { es: "Vou pedir ajuda para a minha vizinha.", en: "I'm going to ask my neighbor for help." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "She asked me for a favour.",
+            source: "She asked me for a favor.",
             answer: "Ela me pediu um favor.",
             altAnswers: ["Me pediu um favor."],
             explanation: "Asking for something is \"pedir\". \"Me\" goes before the verb.",
@@ -2047,7 +2047,7 @@ export const PT_A2_U16: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I'm going to [ask] my neighbour [for help].",
+        en: "I'm going to [ask] my neighbor [for help].",
         sentence: "Vou ___ para a minha vizinha.",
         answer: "pedir ajuda",
         explanation: "Asking for help is a request: \"pedir ajuda\".",
@@ -2140,7 +2140,7 @@ export const PT_A2_U16: Lesson[] = [
         ],
         examples: [
           { es: "No sábado a gente fez faxina.", en: "On Saturday we did a big clean." },
-          { es: "Ela vai tirar férias em dezembro.", en: "She's going to take a holiday in December." },
+          { es: "Ela vai tirar férias em dezembro.", en: "She's going to take a vacation in December." },
           { es: "Ele me mandou um áudio de cinco minutos.", en: "He sent me a five-minute voice message." },
           { es: "Peguei o ônibus errado.", en: "I took the wrong bus." },
         ],
@@ -2148,7 +2148,7 @@ export const PT_A2_U16: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "She's going to [take a holiday] in December.",
+            en: "She's going to [take a vacation] in December.",
             sentence: "Ela vai ___ em dezembro.",
             answer: "tirar férias",
             explanation: "\"Tirar férias\" is the fixed pair; *tomar férias is a calque.",
@@ -2275,7 +2275,7 @@ export const PT_A2_U16: Lesson[] = [
         instructions: "Match the Portuguese to the English.",
         pairs: [
           { left: "fazer faxina", right: "to do a big clean" },
-          { left: "tirar férias", right: "to take a holiday" },
+          { left: "tirar férias", right: "to take a vacation" },
           { left: "mandar um áudio", right: "to send a voice message" },
           { left: "fazer hora extra", right: "to work overtime" },
           { left: "tirar um print", right: "to take a screenshot" },
@@ -2302,7 +2302,7 @@ export const PT_A2_U16: Lesson[] = [
     level: "PT-A2",
     number: 12,
     title: "Spiral Review: Talking About Your Life",
-    summary: "The unit's everyday words with the A2 grammar so far: past stories about home and work, weekend plans, comparing neighbourhoods and object pronouns.",
+    summary: "The unit's everyday words with the A2 grammar so far: past stories about home and work, weekend plans, comparing neighborhoods and object pronouns.",
     duration: "12 min",
     kind: "review",
     sections: [
@@ -2340,20 +2340,20 @@ export const PT_A2_U16: Lesson[] = [
       {
         heading: "Plans and comparisons",
         body: [
-          "Weekend plans take \"vou\" + infinitive: \"no sábado vou malhar e depois vou sair com os amigos\". Comparing neighbourhoods uses the comparisons unit: \"o meu bairro é mais tranquilo do que o centro\", \"aqui tem tantos ônibus quanto lá\".",
+          "Weekend plans take \"vou\" + infinitive: \"no sábado vou malhar e depois vou sair com os amigos\". Comparing neighborhoods uses the comparisons unit: \"o meu bairro é mais tranquilo do que o centro\", \"aqui tem tantos ônibus quanto lá\".",
         ],
         examples: [
           { es: "No sábado vou malhar e depois vou sair com os amigos.", en: "On Saturday I'm going to work out and then go out with friends." },
-          { es: "O meu bairro é mais tranquilo do que o centro.", en: "My neighbourhood is quieter than downtown." },
+          { es: "O meu bairro é mais tranquilo do que o centro.", en: "My neighborhood is quieter than downtown." },
           { es: "Aqui o trânsito é pior do que em Curitiba.", en: "The traffic here is worse than in Curitiba." },
-          { es: "Semana que vem eu vou tirar férias.", en: "Next week I'm going to take a holiday." },
+          { es: "Semana que vem eu vou tirar férias.", en: "Next week I'm going to take a vacation." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "My neighbourhood is quieter than downtown.",
+            source: "My neighborhood is quieter than downtown.",
             answer: "O meu bairro é mais tranquilo do que o centro.",
             altAnswers: ["Meu bairro é mais tranquilo do que o centro.", "O meu bairro é mais tranquilo que o centro.", "Meu bairro é mais tranquilo que o centro.", "O meu bairro é mais calmo do que o centro.", "Meu bairro é mais calmo que o centro."],
             explanation: "\"Mais\" + adjective + \"do que\". \"O bairro\" and \"o centro\" from the city word web.",
@@ -2439,7 +2439,7 @@ export const PT_A2_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Next week I'm going to take a holiday.",
+        source: "Next week I'm going to take a vacation.",
         answer: "Semana que vem eu vou tirar férias.",
         altAnswers: ["Semana que vem vou tirar férias.", "Na semana que vem eu vou tirar férias.", "Na semana que vem vou tirar férias.", "Eu vou tirar férias semana que vem."],
         explanation: "\"Vou tirar férias\" for the plan.",
@@ -2483,8 +2483,8 @@ export const PT_A2_U16: Lesson[] = [
       {
         type: "speak",
         text: "O meu bairro é mais tranquilo do que o centro.",
-        prompt: "Say it in Portuguese: My neighbourhood is quieter than downtown.",
-        tip: "\"Tranquilo\": the u is silent, tran-KEE-lo.",
+        prompt: "Say it in Portuguese: My neighborhood is quieter than downtown.",
+        tip: "\"Tranquilo\": the u is pronounced, tran-KWEE-lu.",
         explanation: "A comparison with \"mais... do que\".",
       },
     ],
@@ -2493,14 +2493,14 @@ export const PT_A2_U16: Lesson[] = [
 
 export const PT_A2_U16_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A Brazilian friend has asked how your life is going. Write them a message about your week: what you did at home and at work, what the weather was like, one small problem (with your phone, the bus or the traffic) and what you're going to do at the weekend.",
+  prompt: "A Brazilian friend has asked how your life is going. Write them a message about your week: what you did at home and at work, what the weather was like, one small problem (with your phone, the bus or the traffic) and what you're going to do on the weekend.",
   minWords: 60,
   maxWords: 100,
   rubric: [
     "Use at least four verb and noun pairs from the unit (\"fazer faxina\", \"lavar a louça\", \"fazer hora extra\", \"pegar o ônibus\", \"mandar um áudio\").",
     "Describe the weather with \"fazer\", \"estar\" or \"chover\" in the right past tense (\"fez muito calor\", \"choveu\", \"estava chovendo quando...\").",
     "Use at least one of the multi-use verbs correctly: \"pegar\", \"deixar\", \"dar\" (\"não deu tempo\", \"deu certo\") or \"levar\" / \"trazer\".",
-    "Say what you're going to do at the weekend with \"vou\" + infinitive.",
+    "Say what you're going to do on the weekend with \"vou\" + infinitive.",
   ],
   modelAnswer: "Oi, Mariana! A minha semana foi bem corrida. Na segunda eu fiz hora extra até as nove e não deu tempo de jantar. Na quarta choveu muito, e quando eu estava no ponto de ônibus, a bateria do meu celular acabou! Peguei o ônibus errado e cheguei atrasado para uma reunião. Pelo menos o meu chefe é simpático. Ontem eu fiz faxina na casa toda e lavei a louça da semana. No sábado vou malhar e depois vou levar os meus sobrinhos ao parque. Te mando um áudio amanhã! Beijos.",
   explanation: "The message is built from the unit's word webs: work (\"fiz hora extra\", \"reunião\", \"chefe\"), weather (\"choveu muito\"), phones (\"a bateria acabou\", \"te mando um áudio\"), the city (\"ponto de ônibus\", \"peguei o ônibus errado\") and the house (\"fiz faxina\", \"lavei a louça\"). \"Não deu tempo de jantar\" uses \"dar\" for possibility, and \"levar\" takes the nephews away from home to the park. Past events are in the perfeito, the interrupted moment uses \"estava\" + \"quando\", and the weekend plans use \"vou\" + infinitive. \"Simpático\" means nice, not sympathetic.",

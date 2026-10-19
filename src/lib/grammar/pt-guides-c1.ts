@@ -17,21 +17,21 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
       {
         heading: `Relative clauses: the one you know vs any one that fits`,
         body: [
-          `In a relative clause, the indicative says the thing exists and you have a particular one in mind. The subjunctive says you are describing a type: you don't know whether such a thing exists, or any example will do. English often makes no difference here (I'm looking for a flat that has a balcony), so English speakers default to the indicative and lose the nuance.`,
+          `In a relative clause, the indicative says the thing exists and you have a particular one in mind. The subjunctive says you are describing a type: you don't know whether such a thing exists, or any example will do. English often makes no difference here (I'm looking for an apartment that has a balcony), so English speakers default to the indicative and lose the nuance.`,
           `When the antecedent is negative ("ninguém", "nada", "nenhum") or questioned ("Você conhece alguém que...?"), the subjunctive is the norm, because nothing is being asserted to exist. "Não há ninguém que saiba" is the only written form; "que sabe" here is a slip.`,
         ],
         table: {
           headers: ["Indicative (it exists, I mean this one)", "Subjunctive (any one with this property)"],
           rows: [
-            ["Procuro um apartamento que tem varanda. (I saw it online)", "Procuro um apartamento que tenha varanda. (any flat, if there is one)"],
+            ["Procuro um apartamento que tem varanda. (I saw it online)", "Procuro um apartamento que tenha varanda. (any apartment, if there is one)"],
             ["Conheço uma pessoa que fala japonês.", "Você conhece alguém que fale japonês?"],
             ["Contratamos uma assistente que entende de contabilidade.", "Precisamos de uma assistente que entenda de contabilidade."],
             ["Tem um restaurante aqui que abre aos domingos.", "Não há nenhum restaurante aqui que abra aos domingos."],
           ],
         },
         examples: [
-          { pt: "Quero morar num bairro que seja tranquilo e tenha boas escolas.", en: "I want to live in a neighbourhood that's quiet and has good schools (whichever one that turns out to be)." },
-          { pt: "Moro num bairro que é tranquilo e tem boas escolas.", en: "I live in a neighbourhood that is quiet and has good schools." },
+          { pt: "Quero morar num bairro que seja tranquilo e tenha boas escolas.", en: "I want to live in a neighborhood that's quiet and has good schools (whichever one that turns out to be)." },
+          { pt: "Moro num bairro que é tranquilo e tem boas escolas.", en: "I live in a neighborhood that is quiet and has good schools." },
           { pt: "Não encontrei nada que me agradasse.", en: "I didn't find anything I liked." },
           { pt: "Existe algum remédio que funcione para isso?", en: "Is there any medicine that works for this?" },
         ],
@@ -40,7 +40,7 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
         heading: `Superlatives, "o único", "o primeiro"`,
         body: [
           `After a superlative or a word like "o único", "o primeiro", "o último" or "o maior", both moods occur. The indicative states your experience as a fact: "É o melhor filme que eu já vi." This is what you hear in conversation. The subjunctive frames the claim as limited by your knowledge, roughly as far as I've seen: "É o melhor filme que eu já tenha visto." It sounds more careful and more formal, and it is preferred in essays and reviews.`,
-          `With "o único que", the indicative states a fact about the world ("Ele é o único que sabe a senha": there is one person, and it's him). The subjunctive turns it into a hedged or hypothetical claim ("Ele é talvez o único que saiba a senha"). Examiners in formal writing often expect the subjunctive in evaluative statements: "a única solução que resolva o problema".`,
+          `With "o único que", the indicative states a fact about the world ("Ele é o único que sabe a senha": there is one person, and it's him). The subjunctive turns it into a hedged or hypothetical claim ("Ele é talvez o único que saiba a senha"). In formal evaluative writing the subjunctive is common in such cases: "a única solução que resolva o problema".`,
         ],
         table: {
           headers: ["Indicative (fact, speech)", "Subjunctive (hedged, formal)"],
@@ -75,7 +75,7 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
       {
         heading: `Verbs that change meaning with the mood`,
         body: [
-          `A handful of verbs take either mood, and the mood changes what the verb means. With the indicative they report or perceive; with the subjunctive they order, regret, allow or sympathise. Reading these correctly is a typical Celpe-Bras comprehension point.`,
+          `A handful of verbs take either mood, and the mood changes what the verb means. With the indicative they report or perceive; with the subjunctive they order, regret, allow or sympathize. Reading these correctly is a typical Celpe-Bras comprehension point.`,
         ],
         table: {
           headers: ["Verb", "+ indicative", "+ subjunctive"],
@@ -175,7 +175,7 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
           ],
         },
         examples: [
-          { pt: "Que eu saiba, a loja abre às nove.", en: "As far as I know, the shop opens at nine." },
+          { pt: "Que eu saiba, a loja abre às nove.", en: "As far as I know, the store opens at nine." },
           { pt: "Ninguém reclamou, que eu me lembre.", en: "Nobody complained, as far as I remember." },
           { pt: "Que se saiba, o acordo ainda não foi assinado.", en: "As far as anyone knows, the agreement hasn't been signed yet." },
         ],
@@ -211,7 +211,7 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
         heading: `Either way: "quer... quer", "seja... seja"`,
         body: [
           `"Quer... quer" (whether... or) is the subjunctive of "querer" frozen into a conjunction. Each half takes the subjunctive: "Quer chova, quer faça sol, a feira acontece." The most frequent instance is "quer queira, quer não" (whether you like it or not), often shortened to "queira ou não" in speech. In the past: "quisesse ou não".`,
-          `"Seja... seja" links two nouns or phrases: "seja no Brasil, seja no exterior" (whether in Brazil or abroad). The norm pairs "quer" with "quer" and "seja" with "seja"; mixing them ("quer... ou") is criticised by grammarians in formal texts.`,
+          `"Seja... seja" links two nouns or phrases: "seja no Brasil, seja no exterior" (whether in Brazil or abroad). The norm pairs "quer" with "quer" and "seja" with "seja"; mixing them ("quer... ou") is criticized by grammarians in formal texts.`,
         ],
         examples: [
           { pt: "Quer você goste, quer não, a decisão está tomada.", en: "Whether you like it or not, the decision has been made." },
@@ -284,7 +284,7 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
       },
       {
         q: `Can I say "aconteça o que aconteça"?`,
-        a: `No. Brazilian Portuguese uses the future subjunctive in the second slot: "aconteça o que acontecer". The pattern applies to every verb.`,
+        a: `Avoid it. The established Portuguese pattern puts the future subjunctive in the second slot: "aconteça o que acontecer". The doubled present is the Spanish pattern, and in Portuguese it sounds like a learner slip.`,
       },
       {
         q: `Is "quem me dera" related to the pluperfect?`,
@@ -309,7 +309,7 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
     level: "C1",
     intro: [
       `In everyday Brazilian speech the simple future ("farei", "estará") has almost disappeared as a way of talking about the future: people say "vou fazer". But the form is alive with another job. "Onde estará ela?" doesn't ask where she will be; it means I wonder where she is. "Serão umas cinco horas" means it must be about five.`,
-      `The conditional does the same job for the past ("Ele teria uns trinta anos" means he must have been about thirty), and the press uses it to report claims it hasn't confirmed: "O suspeito teria fugido para o interior." Recognising these uses is essential for reading; using them puts a written, educated edge on your Portuguese.`,
+      `The conditional does the same job for the past ("Ele teria uns trinta anos" means he must have been about thirty), and the press uses it to report claims it hasn't confirmed: "O suspeito teria fugido para o interior." Recognizing these uses is essential for reading; using them puts a written, educated edge on your Portuguese.`,
     ],
     sections: [
       {
@@ -388,7 +388,7 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
       },
       {
         q: `Is "deve de ser" correct?`,
-        a: `In the traditional norm, "dever de" + infinitive marks probability and "dever" alone obligation, but that distinction is no longer observed in Brazil. "Deve ser" covers both, and "deve de ser" sounds regional or old-fashioned.`,
+        a: `In the traditional norm, "dever de" + infinitive marks probability and "dever" alone obligation, but that distinction is no longer observed in Brazil. "Deve ser" covers both in writing; "deve de ser" is common in relaxed speech in many regions but is avoided in formal texts.`,
       },
       {
         q: `How do I translate the journalistic conditional into English?`,
@@ -419,7 +419,7 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
         heading: `Infinitive clauses: "ao", "sem", "por", "apesar de"`,
         body: [
           `A preposition + infinitive replaces a clause with a conjunction. If the subject of the infinitive is different from the main subject, or if you want to make it explicit, use the personal infinitive: "Ao chegarmos, a festa já tinha começado."`,
-          `In the written norm, a subject between the preposition and the infinitive doesn't contract with it: "antes de o ônibus sair", "depois de os alunos saírem". In speech, everyone says "antes do ônibus sair"; in an essay, write "de o".`,
+          `In the written norm, a subject between the preposition and the infinitive doesn't contract with it: "antes de o ônibus sair", "depois de os alunos saírem". In speech, most people say "antes do ônibus sair"; in an essay, write "de o".`,
         ],
         table: {
           headers: ["Reduced", "Full clause", "Meaning"],
@@ -441,12 +441,12 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
       {
         heading: `Gerund clauses: cause, time, condition, manner`,
         body: [
-          `A gerund clause can mean because, when, if or by. Context decides: "Estando doente, faltou à aula" (because he was ill), "Chegando ao escritório, procure a recepção" (when you get to the office), "Estudando todo dia, você passa" (if you study every day). "Sendo assim" (that being so) is a frequent connector.`,
+          `A gerund clause can mean because, when, if or by. Context decides: "Estando doente, faltou à aula" (because he was sick), "Chegando ao escritório, procure a recepção" (when you get to the office), "Estudando todo dia, você passa" (if you study every day). "Sendo assim" (that being so) is a frequent connector.`,
           `The compound gerund ("tendo" + participle) marks an action completed before the main one: "Tendo terminado o relatório, ela saiu." The firm rule: the understood subject of the gerund must be the subject of the main clause. "Andando pela rua, um carro me atropelou" says the car was walking.`,
-          `"Gerundismo" is the call-centre habit of "vou estar enviando" for "vou enviar" or "envio". It is widely mocked in Brazil; use the simple future form.`,
+          `"Gerundismo" is the call-center habit of "vou estar enviando" for "vou enviar" or "envio". It is widely mocked in Brazil; use the simple future form.`,
         ],
         examples: [
-          { pt: "Tendo analisado os dados, a equipe apresentou suas conclusões.", en: "Having analysed the data, the team presented its conclusions." },
+          { pt: "Tendo analisado os dados, a equipe apresentou suas conclusões.", en: "Having analyzed the data, the team presented its conclusions." },
           { pt: "Sendo assim, a reunião fica para a próxima semana.", en: "That being so, the meeting is moved to next week." },
           { pt: "Ela saiu correndo para não perder o ônibus.", en: "She ran out so as not to miss the bus." },
           { pt: "Não sendo possível comparecer, avise com antecedência.", en: "If you can't attend, let us know in advance." },
@@ -487,12 +487,12 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
       {
         wrong: "Ao chegar, o porteiro me cumprimentou.",
         right: "Quando cheguei, o porteiro me cumprimentou.",
-        why: `As written, the porter arrived. An infinitive clause without its own subject takes the main subject.`,
+        why: `As written, the doorman arrived. An infinitive clause without its own subject takes the main subject.`,
       },
       {
         wrong: "Vou estar enviando o arquivo amanhã.",
         right: "Vou enviar o arquivo amanhã.",
-        why: `"Gerundismo" sounds like a call-centre script. Use "vou enviar" or "envio".`,
+        why: `"Gerundismo" sounds like a call-center script. Use "vou enviar" or "envio".`,
       },
       {
         wrong: "Depois dos alunos saírem, a sala foi limpa.",
@@ -535,7 +535,7 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
     level: "C1",
     intro: [
       `In conversation, Brazilians express the past before the past with "tinha feito" ("Quando cheguei, ela já tinha saído"). Open a novel, though, and you'll find "Quando cheguei, ela já saíra." This is the simple pluperfect (mais-que-perfeito simples), a single-word tense that survives in literature, in some journalism and in a handful of fixed expressions.`,
-      `You will rarely need to produce it, but you must recognise it at once, because some of its forms look exactly like other tenses. This guide also covers the other features that make literary Portuguese read differently: the historical present, free indirect speech, and the older pronoun system of nineteenth-century writers.`,
+      `You will rarely need to produce it, but you must recognize it at once, because some of its forms look exactly like other tenses. This guide also covers the other features that make literary Portuguese read differently: the historical present, free indirect speech, and the older pronoun system of nineteenth-century writers.`,
     ],
     sections: [
       {
@@ -590,7 +590,7 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
         heading: `Older texts: "vós", ênclise and mesóclise`,
         body: [
           `Nineteenth-century Brazilian prose follows the Portuguese norm of its time. Pronouns are placed after the verb wherever no word attracts them ("Disse-lhe a verdade"), the future and conditional split around the pronoun ("dir-lhe-ia", "far-se-á"), and "vós" appears in sermons, speeches and solemn address. Machado's narrators also turn to the reader directly, calling him "leitor" or "leitora".`,
-          `The Modernists of 1922 broke with this deliberately. Oswald de Andrade's poem "Pronominais" sets the grammar book's "Dê-me um cigarro" against the Brazilian "Me dá um cigarro", and claims the second as the nation's real language. Reading older texts, recognise these forms; writing today, use the Brazilian norm of the guide on official Portuguese.`,
+          `The Modernists of 1922 broke with this deliberately. Oswald de Andrade's poem "Pronominais" sets the grammar book's "Dê-me um cigarro" against the Brazilian "Me dá um cigarro", and claims the second as the nation's real language. Reading older texts, recognize these forms; writing today, use the Brazilian norm of the guide on official Portuguese.`,
         ],
         examples: [
           { pt: "Dir-lhe-ia tudo, se ela me ouvisse.", en: "I would tell her everything, if she would listen to me." },
@@ -672,8 +672,8 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
           ],
         },
         examples: [
-          { pt: "Busca-se, com este estudo, avaliar o impacto do programa nas escolas públicas.", en: "This study seeks to assess the programme's impact on state schools." },
-          { pt: "Analisaram-se os relatórios publicados entre 2015 e 2022.", en: "The reports published between 2015 and 2022 were analysed." },
+          { pt: "Busca-se, com este estudo, avaliar o impacto do programa nas escolas públicas.", en: "This study seeks to assess the program's impact on public schools." },
+          { pt: "Analisaram-se os relatórios publicados entre 2015 e 2022.", en: "The reports published between 2015 and 2022 were analyzed." },
           { pt: "Trata-se de uma pesquisa qualitativa, de caráter exploratório.", en: "This is qualitative, exploratory research." },
         ],
       },
@@ -716,7 +716,7 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
           ],
         },
         examples: [
-          { pt: "Os resultados sugerem que o programa teve efeito positivo, sobretudo nas regiões rurais.", en: "The results suggest the programme had a positive effect, especially in rural areas." },
+          { pt: "Os resultados sugerem que o programa teve efeito positivo, sobretudo nas regiões rurais.", en: "The results suggest the program had a positive effect, especially in rural areas." },
           { pt: "É possível que a amostra reduzida tenha influenciado os resultados.", en: "The small sample may have influenced the results." },
           { pt: "Em certa medida, a crise acelerou mudanças que já estavam em curso.", en: "To some extent, the crisis accelerated changes already under way." },
         ],
@@ -725,11 +725,11 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
         heading: `Citing sources: "segundo", "para", reporting verbs`,
         body: [
           `Introduce sources with "segundo X", "de acordo com X", "conforme X" or "para X" (the last for a theoretical position: "Para Paulo Freire, ..."). Or make the author the subject with a reporting verb chosen for its nuance: "afirmar" (neutral), "defender" and "sustentar" (argue for a position), "apontar" and "ressaltar" (point out, stress), "questionar" (challenge), "refutar" (refute). The verb that follows is indicative: "Candido (2006) afirma que a literatura é um direito."`,
-          `ABNT conventions you'll see: author's surname in capitals inside parentheses "(FREIRE, 1996, p. 25)", "et al." for more than three authors, and "apud" for a source quoted through another ("Bourdieu apud Silva, 2010").`,
+          `ABNT conventions you'll see: author's surname inside parentheses, traditionally in capitals "(FREIRE, 1996, p. 25)" (the 2023 revision of NBR 10520 switched to normal capitalization, "(Freire, 1996, p. 25)", so check which version your institution follows), "et al." for more than three authors, and "apud" for a source quoted through another ("Bourdieu apud Silva, 2010").`,
         ],
         examples: [
           { pt: "Segundo Freire (1996), ensinar não é transferir conhecimento.", en: "According to Freire (1996), teaching isn't transferring knowledge." },
-          { pt: "Holanda (1995) sustenta que a cordialidade marca a sociedade brasileira.", en: "Holanda (1995) argues that cordiality characterises Brazilian society." },
+          { pt: "Holanda (1995) sustenta que a cordialidade marca a sociedade brasileira.", en: "Holanda (1995) argues that cordiality characterizes Brazilian society." },
           { pt: "Como ressalta Candido, a literatura humaniza.", en: "As Candido stresses, literature is what makes us human." },
         ],
       },
@@ -738,7 +738,7 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
       {
         wrong: "Analisou-se os questionários.",
         right: "Analisaram-se os questionários.",
-        why: `With a direct object, "se" is passive and the verb agrees with the object ("os questionários" are analysed). The singular is common in speech but marked as an error in academic texts.`,
+        why: `With a direct object, "se" is passive and the verb agrees with the object ("os questionários" are analyzed). The singular is common in speech but marked as an error in academic texts.`,
       },
       {
         wrong: "Este artigo endereça o problema da evasão.",
@@ -769,7 +769,7 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
     faqs: [
       {
         q: `Can I use "eu" in a Brazilian dissertation?`,
-        a: `It depends on the field. Hard sciences and most social sciences prefer the impersonal or "nós". Education, anthropology and some humanities accept "eu", especially in the methodology of qualitative research. Follow your programme's norms.`,
+        a: `It depends on the field. Hard sciences and most social sciences prefer the impersonal or "nós". Education, anthropology and some humanities accept "eu", especially in the methodology of qualitative research. Follow your program's norms.`,
       },
       {
         q: `"Analisou-se" or "foram analisados"?`,
@@ -840,14 +840,14 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
         heading: `Placement, punctuation and mood shifts`,
         body: [
           `"Mas" always opens its clause and is preceded by a comma. "Porém", "contudo", "todavia", "entretanto" and "no entanto" can open the sentence or move inside it, between commas: "A proposta, contudo, foi rejeitada." "Pois" before the verb means because; after the verb, between commas, it means therefore: "Choveu muito; a festa foi, pois, cancelada."`,
-          `Some connectors change meaning with the mood. "Uma vez que" + indicative is causal (since); + subjunctive it is conditional (once, as long as). "Desde que" + indicative is temporal (since); + subjunctive it means provided that. "Sem que" and "a menos que" always take the subjunctive.`,
+          `Some connectors change meaning with the mood. "Uma vez que" + indicative is causal (since); + subjunctive it is conditional (once, as long as). "Desde que" + indicative is temporal (since); + subjunctive it means provided that. "Sem que" and "a menos que" always take the subjunctive. "Logo" is a different case: an adverb (soon: "ele chega logo") or, between commas or after a comma, a connector meaning therefore ("penso, logo existo").`,
         ],
         table: {
           headers: ["Connector", "+ indicative", "+ subjunctive"],
           rows: [
             ["uma vez que", "Uma vez que o prazo acabou, ... (since)", "Uma vez que o contrato seja assinado, ... (once)"],
             ["desde que", "Desde que ele chegou, tudo mudou. (since)", "Pode ir, desde que volte cedo. (provided that)"],
-            ["logo", "Ele chega logo. (soon, adverb)", "Penso, logo existo. (therefore, connector)"],
+            ["de modo que", "Choveu, de modo que ficamos em casa. (so, result)", "Fale alto, de modo que todos ouçam. (so that)"],
           ],
         },
         examples: [
@@ -871,7 +871,7 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
           ],
         },
         examples: [
-          { pt: "Cabe ao Ministério da Educação, em parceria com as secretarias estaduais, promover oficinas de educação midiática nas escolas públicas, conduzidas por jornalistas e professores, a fim de que os jovens aprendam a identificar notícias falsas.", en: "It falls to the Ministry of Education, together with the state departments, to run media-literacy workshops in state schools, led by journalists and teachers, so that young people learn to spot fake news." },
+          { pt: "Cabe ao Ministério da Educação, em parceria com as secretarias estaduais, promover oficinas de educação midiática nas escolas públicas, conduzidas por jornalistas e professores, a fim de que os jovens aprendam a identificar notícias falsas.", en: "It falls to the Ministry of Education, together with the state departments, to run media-literacy workshops in public schools, led by journalists and teachers, so that young people learn to spot fake news." },
         ],
       },
     ],
@@ -954,7 +954,7 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
         heading: `Forms of address: "Vossa Senhoria", "Vossa Excelência"`,
         body: [
           `The pronomes de tratamento address a person indirectly, through a quality (your Lordship, your Excellency). Although they contain "vossa", the verb is always third person singular and the possessive is "sua" or "seu": "Vossa Senhoria sabe que...", "Vossa Excelência e sua equipe". Adjectives agree with the person's sex: "Vossa Excelência está enganado" (to a man).`,
-          `Use "Vossa" when speaking to the person and "Sua" when speaking about them: "Sua Excelência, o Governador, chegou." The federal Manual de Redação da Presidência da República (2018) abolished "Ilustríssimo" and "Digníssimo" and reserved "Excelentíssimo" for the heads of the three branches of power; most officials are simply addressed as "Senhor" + post. It also notes that "doutor" is an academic title, not a form of address.`,
+          `Use "Vossa" when speaking to the person and "Sua" when speaking about them: "Sua Excelência, o Governador, chegou." The federal Manual de Redação da Presidência da República (3rd edition, 2018) abolished "Ilustríssimo" and "Digníssimo" and reserved "Excelentíssimo" for the heads of the three branches of power; most officials are simply addressed as "Senhor" + post. It also notes that "doutor" is an academic title, not a form of address. A 2019 federal decree (Decreto 9.758) went further for communication with federal executive officials, prescribing plain "senhor". Courts, legislatures, many state bodies and universities, and formal private letters still use the traditional forms, so you need to recognize and use them.`,
         ],
         table: {
           headers: ["Form", "Abbreviation", "For", "Salutation"],
@@ -1009,12 +1009,12 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
       {
         heading: `The language of laws and contracts`,
         body: [
-          `Laws are divided into "artigo" (art. 1º to 9º with an ordinal, then art. 10, art. 11), "parágrafo" (§, or "parágrafo único"), "inciso" (Roman numerals) and "alínea" (letters). Their verbs are impersonal and deontic: "Fica vedado" (it is forbidden), "É facultado" (it is permitted), "Compete a" (it is the responsibility of), "Revogam-se as disposições em contrário". Conditions use the future subjunctive: "O locatário que atrasar o pagamento pagará multa de 2%."`,
+          `Laws are divided into "artigo" (art. 1º to 9º with an ordinal, then art. 10, art. 11), "parágrafo" (§, or "parágrafo único"), "inciso" (Roman numerals) and "alínea" (letters). Their verbs are impersonal and deontic: "Fica vedado" (it is forbidden), "É facultado" (it is permitted), "Compete a" (it is the responsibility of). The old closing "Revogam-se as disposições em contrário" appears in laws before 1998; since then federal drafting rules (Lei Complementar 95/1998) require the repealed laws to be listed explicitly. Conditions use the future subjunctive: "O locatário que atrasar o pagamento pagará a multa prevista no contrato."`,
           `Contracts add their own vocabulary: "as partes", "o contratante" and "o contratado", "a vigência" (term), "a rescisão" (termination), "a multa" (penalty), "o foro" (jurisdiction), and connectors like "mediante" (upon, by means of), "nos termos de" (under) and "outrossim" (furthermore).`,
         ],
         examples: [
           { pt: "Fica vedada a sublocação do imóvel sem autorização expressa do locador.", en: "Subletting the property without the landlord's express permission is forbidden." },
-          { pt: "É facultado ao consumidor desistir do contrato no prazo de sete dias.", en: "The consumer may withdraw from the contract within seven days." },
+          { pt: "É facultado ao consumidor desistir da compra feita pela internet no prazo de sete dias.", en: "Consumers may cancel an online purchase within seven days." },
           { pt: "Nos termos do art. 49 do Código de Defesa do Consumidor, o valor será devolvido.", en: "Under article 49 of the Consumer Protection Code, the amount will be refunded." },
         ],
       },
@@ -1085,7 +1085,7 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
     level: "C1",
     intro: [
       `Brazilian and European Portuguese are one language with two written standards, more different from each other than American and British English. Educated speakers understand each other's writing without effort; speech is another matter, especially for Brazilians hearing Portugal for the first time.`,
-      `This course teaches Brazilian Portuguese, and you should keep writing it. But at the Advanced level you will read Portuguese newspapers, novels and websites, meet Portuguese colleagues, and adapt texts. This guide sets out the differences so you can recognise them, without mixing them into your own Portuguese. All European forms below are labelled and quoted.`,
+      `This course teaches Brazilian Portuguese, and you should keep writing it. But at the Advanced level you will read Portuguese newspapers, novels and websites, meet Portuguese colleagues, and adapt texts. This guide sets out the differences so you can recognize them, without mixing them into your own Portuguese. All European forms below are labeled and quoted.`,
     ],
     sections: [
       {
@@ -1122,7 +1122,7 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
           rows: [
             ["trem", "\"comboio\"", "train"],
             ["ônibus", "\"autocarro\"", "bus"],
-            ["celular", "\"telemóvel\"", "mobile phone"],
+            ["celular", "\"telemóvel\"", "cell phone"],
             ["tela", "\"ecrã\"", "screen"],
             ["mouse", "\"rato\"", "computer mouse"],
             ["banheiro", "\"casa de banho\"", "bathroom"],
@@ -1131,14 +1131,14 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
             ["geladeira", "\"frigorífico\"", "fridge"],
             ["legal", "\"fixe\"", "cool"],
             ["terno", "\"fato\"", "suit (clothing)"],
-            ["fila", "\"bicha\" (in Brazil a homophobic slur)", "queue"],
+            ["fila", "\"bicha\" (in Brazil a homophobic slur)", "line (queue)"],
             ["mensalidade (escolar)", "\"propina\" (in Brazil: bribe)", "tuition fee"],
             ["garota, moça", "\"rapariga\" (offensive in parts of Brazil)", "girl"],
           ],
         },
         examples: [
-          { pt: "Pegamos o trem e depois o ônibus até o centro.", en: "We took the train and then the bus to the centre." },
-          { pt: "A fila do banco estava enorme.", en: "The queue at the bank was huge." },
+          { pt: "Pegamos o trem e depois o ônibus até o centro.", en: "We took the train and then the bus to the center." },
+          { pt: "A fila do banco estava enorme.", en: "The line at the bank was huge." },
           { pt: "Ele foi preso por receber propina.", en: "He was arrested for taking bribes." },
         ],
       },
@@ -1168,7 +1168,7 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
         heading: `Pronunciation`,
         body: [
           `European Portuguese reduces or drops unstressed vowels, so words lose syllables: "telefone" sounds roughly like "tlfon", "pequeno" like "pqueno". Brazilians pronounce every vowel clearly, which is why Portuguese people usually understand Brazilians easily (they hear Brazilian television) while the reverse is harder.`,
-          `Other cues: in Portugal (and in Rio de Janeiro) "s" before a consonant or at the end of a word sounds like "sh"; most of Brazil palatalises "t" and "d" before an "i" sound ("tia", "dia" with ch and j sounds), while Portugal doesn't; and Brazilians vocalise final "l" to a "u" sound ("Brasil" ends like "-iu"), while Portugal keeps a dark l.`,
+          `Other cues: in Portugal (and in Rio de Janeiro) "s" before a consonant or at the end of a word sounds like "sh"; most of Brazil palatalizes "t" and "d" before an "i" sound ("tia", "dia" with ch and j sounds), while Portugal doesn't; and Brazilians vocalize final "l" to a "u" sound ("Brasil" ends like "-iu"), while Portugal keeps a dark l.`,
         ],
         examples: [
           { pt: "Tia, você viu o meu telefone?", en: "Auntie, have you seen my phone?" },
@@ -1286,7 +1286,7 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
         heading: `Intensity and connotation`,
         body: [
           `"Super" and "mega" are informal intensifiers, written joined to the word ("supercaro", "megaevento"; with a hyphen before h or r: "super-rápido"). "Bem" before an adjective means quite or very ("bem caro"). Downtoners soften: "meio" (a bit; invariable as an adverb: "meio cansada"), "um pouco", "um tanto", "levemente", and the informal "meio que" (sort of). "Nada" intensifies a negative: "Não foi nada fácil."`,
-          `Near-synonyms carry different attitudes. "Magro" is neutral, "esbelto" admiring, "raquítico" negative; "persistente" praises what "teimoso" criticises; "em conta" sounds better than "barato" when you're selling. Euphemisms soften sensitive topics: "faleceu" for "morreu", "pessoa em situação de rua" for the homeless.`,
+          `Near-synonyms carry different attitudes. "Magro" is neutral, "esbelto" admiring, "raquítico" negative; "persistente" praises what "teimoso" criticizes; "em conta" sounds better than "barato" when you're selling. Euphemisms soften sensitive topics: "faleceu" for "morreu", "pessoa em situação de rua" for the homeless.`,
         ],
         table: {
           headers: ["Positive", "Neutral", "Negative"],
@@ -1307,7 +1307,7 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
         heading: `Irony, understatement and the polite no`,
         body: [
           `Brazilians rarely refuse directly. "Vou ver", "quem sabe", "vamos marcar" and "te falo depois" often mean no, or not now; "aparece lá em casa" is friendly, not necessarily an invitation with a date. Read the context and the follow-up.`,
-          `Irony is signalled by tone and stock phrases: "Que ótimo!" or "Maravilha, hein!" for bad news, "Imagina!" (don't mention it; or, ironically, as if!), "Nada como..." for something unpleasant. Understatement ("não foi dos melhores") is a common polite criticism.`,
+          `Irony is signaled by tone and stock phrases: "Que ótimo!" or "Maravilha, hein!" for bad news, "Imagina!" (don't mention it; or, ironically, as if!), "Nada como..." for something unpleasant. Understatement ("não foi dos melhores") is a common polite criticism.`,
         ],
         examples: [
           { pt: "Vou ver se consigo ir, mas acho difícil.", en: "I'll see if I can make it, but I doubt it." },
@@ -1390,10 +1390,10 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
         heading: `Topics: putting what you're talking about first`,
         body: [
           `Brazilian speech often starts with the topic, followed by a comment about it. In speech, a pronoun may pick the topic up again: "O João, ninguém aguenta ele." In writing, the object pronoun "o" takes that place ("O João, ninguém o aguenta"), or the sentence is rearranged ("Ninguém aguenta o João").`,
-          `Topic-first order is a natural way to contrast: "Café eu tomo; chá, não." It also helps to organise a conversation: "Sobre a viagem, a gente decide amanhã."`,
+          `Topic-first order is a natural way to contrast: "Café eu tomo; chá, não." It also helps to organize a conversation: "Sobre a viagem, a gente decide amanhã."`,
         ],
         examples: [
-          { pt: "Esse filme, eu nunca vi.", en: "That film, I've never seen." },
+          { pt: "Esse filme, eu nunca vi.", en: "That movie, I've never seen." },
           { pt: "Política, eu prefiro não discutir no trabalho.", en: "Politics I'd rather not discuss at work." },
           { pt: "Quanto ao orçamento, a diretoria ainda não decidiu.", en: "As for the budget, the board hasn't decided yet." },
         ],
@@ -1563,7 +1563,7 @@ export const PT_C1_GUIDES: PtGrammarGuide[] = [
             ["falsa dicotomia", "false dilemma", "Ou aprovamos a lei, ou o país quebra."],
             ["ladeira escorregadia", "slippery slope", "Hoje é o aplicativo, amanhã é a censura total."],
             ["apelo à autoridade", "appeal to authority", "Um famoso disse, então é verdade."],
-            ["generalização apressada", "hasty generalisation", "Meu vizinho foi assaltado, a cidade inteira é perigosa."],
+            ["generalização apressada", "hasty generalization", "Meu vizinho foi assaltado, a cidade inteira é perigosa."],
           ],
         },
         examples: [

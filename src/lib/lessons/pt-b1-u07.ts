@@ -24,13 +24,13 @@ export const PT_B1_U07: Lesson[] = [
           { es: "Você tem estudado para a prova?", en: "Have you been studying for the test?" },
           { es: "A Beatriz tem comido melhor.", en: "Beatriz has been eating better." },
           { es: "Nós temos assistido a muitas séries.", en: "We've been watching a lot of series." },
-          { es: "Meus pais têm viajado bastante.", en: "My parents have been travelling quite a lot." },
+          { es: "Meus pais têm viajado bastante.", en: "My parents have been traveling quite a lot." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "My parents [have been travelling] a lot.",
+            en: "My parents [have been traveling] a lot.",
             sentence: "Meus pais ___ muito.",
             answer: "têm viajado",
             explanation: "\"Pais\" is plural, so the verb is \"têm\" with the circumflex, followed by the participle \"viajado\". The participle stays the same for every person.",
@@ -318,7 +318,7 @@ export const PT_B1_U07: Lesson[] = [
         examples: [
           { es: "Tenho gasto muito com aplicativo de comida.", en: "I've been spending a lot on food delivery apps." },
           { es: "Nos últimos meses, tenho pago as contas pelo celular.", en: "Over the last few months I've been paying the bills on my phone." },
-          { es: "O Flamengo tem ganhado quase todos os jogos.", en: "Flamengo have been winning almost every game." },
+          { es: "O Flamengo tem ganhado quase todos os jogos.", en: "Flamengo has been winning almost every game." },
           { es: "Ultimamente eu tenho me sentido cansado.", en: "Lately I've been feeling tired." },
           { es: "Desde janeiro, a Beatriz tem trabalhado em casa.", en: "Since January, Beatriz has been working from home." },
           { es: "Ontem eu paguei a conta de luz.", en: "Yesterday I paid the electricity bill." },
@@ -396,7 +396,7 @@ export const PT_B1_U07: Lesson[] = [
         type: "speak",
         text: "Tenho pago tudo em dinheiro.",
         prompt: "Say it in Portuguese: I've been paying for everything in cash.",
-        tip: "The d in \"dinheiro\" before i sounds like the j in jeans: djin-YEI-ru.",
+        tip: "The d in \"dinheiro\" before i sounds like the j in jeans: dji-NYEI-ru.",
         explanation: "\"Tenho pago\": with \"ter\", Brazilians mostly use the short participle of \"pagar\".",
       },
       {
@@ -431,7 +431,7 @@ export const PT_B1_U07: Lesson[] = [
           { left: "Tenho gasto pouco.", right: "I've been spending little." },
           { left: "Ele tem dito isso.", right: "He's been saying that." },
           { left: "Elas têm aberto a loja.", right: "They've been opening the shop." },
-          { left: "Temos visto muitos filmes.", right: "We've been watching lots of films." },
+          { left: "Temos visto muitos filmes.", right: "We've been watching lots of movies." },
           { left: "Você tem vindo de carro?", right: "Have you been coming by car?" },
         ],
         explanation: "Each one is ter + an irregular participle: \"gasto\", \"dito\", \"aberto\", \"visto\", \"vindo\".",
@@ -646,7 +646,7 @@ export const PT_B1_U07: Lesson[] = [
       {
         type: "speak",
         text: "Já vi esse filme.",
-        prompt: "Say it in Portuguese: I've already seen that film.",
+        prompt: "Say it in Portuguese: I've already seen that movie.",
         tip: "Make the s in \"esse\" a clear s, not a z.",
         explanation: "One finished viewing: \"já vi\", the simple perfeito of \"ver\".",
       },
@@ -730,7 +730,7 @@ export const PT_B1_U07: Lesson[] = [
           "Mind the vowels. \"Aberto\" has an open é (a-BÉR-to), \"posto\" has a closed ô (PÔS-to), and \"feito\" rhymes with \"jeito\".",
         ],
         examples: [
-          { es: "Tenho visto a Beatriz no metrô.", en: "I've been seeing Beatriz on the metro." },
+          { es: "Tenho visto a Beatriz no metrô.", en: "I've been seeing Beatriz on the subway." },
           { es: "O Rafael tem vindo de bicicleta.", en: "Rafael has been coming by bike." },
           { es: "Estou vindo, me espera!", en: "I'm on my way, wait for me!" },
           { es: "Tenho posto menos sal na comida.", en: "I've been putting less salt in the food." },
@@ -925,7 +925,7 @@ export const PT_B1_U07: Lesson[] = [
           { es: "Como você tem passado?", en: "How have you been?" },
           { es: "Tenho trabalhado demais.", en: "I've been working way too much." },
           { es: "Você tem saído muito? Não muito, tenho ficado em casa.", en: "Have you been going out much? Not much, I've been staying home." },
-          { es: "Meus pais têm viajado bastante.", en: "My parents have been travelling quite a lot." },
+          { es: "Meus pais têm viajado bastante.", en: "My parents have been traveling quite a lot." },
         ],
         checkpoint: [
           {
@@ -1164,7 +1164,7 @@ export const PT_B1_U07: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "You run into a university friend you haven't seen in years. What do you say first?",
+            question: "You run into a college friend you haven't seen in years. What do you say first?",
             options: ["Quanto tempo!", "Quanto custa!", "Quanto tempo você tem?", "Quantos anos!"],
             correctIndex: 0,
             explanation: "\"Quanto tempo!\" is the fixed reunion phrase, long time no see. \"Quanto tempo você tem?\" asks how much time someone has.",
@@ -1208,11 +1208,11 @@ export const PT_B1_U07: Lesson[] = [
         ],
         examples: [
           { es: "E aí, o que você tem feito?", en: "So, what have you been up to?" },
-          { es: "Tenho viajado muito a trabalho.", en: "I've been travelling a lot for work." },
+          { es: "Tenho viajado muito a trabalho.", en: "I've been traveling a lot for work." },
           { es: "Tenho trabalhado demais, mas estou feliz.", en: "I've been working too much, but I'm happy." },
           { es: "Ultimamente eu tenho corrido no Parque da Redenção.", en: "Lately I've been running in Redenção Park." },
           { es: "A gente tem se falado tão pouco!", en: "We've hardly been talking at all!" },
-          { es: "Você tem visto o pessoal da faculdade?", en: "Have you been seeing the people from university?" },
+          { es: "Você tem visto o pessoal da faculdade?", en: "Have you been seeing the people from college?" },
         ],
         checkpoint: [
           {
@@ -1228,7 +1228,7 @@ export const PT_B1_U07: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I've been travelling a lot for work.",
+            source: "I've been traveling a lot for work.",
             answer: "Tenho viajado muito a trabalho.",
             altAnswers: [
               "Eu tenho viajado muito a trabalho.",
@@ -1294,7 +1294,7 @@ export const PT_B1_U07: Lesson[] = [
           {
             type: "speak",
             text: "Tomara que a gente se veja mais agora.",
-            tip: "In \"gente\" the t sounds like the ch in cheese, and the final e is a short i: GEN-chi.",
+            tip: "In \"gente\" the g sounds like the s in measure, the t like the ch in cheese, and the final e is a short i: ZHEN-tchi.",
             explanation: "\"Tomara que\" + subjunctive: \"veja\", built from \"vejo\".",
           },
         ],
@@ -1376,7 +1376,7 @@ export const PT_B1_U07: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Lately I've been running at weekends.",
+        source: "Lately I've been running on weekends.",
         answer: "Ultimamente eu tenho corrido nos fins de semana.",
         altAnswers: [
           "Ultimamente tenho corrido nos fins de semana.",
@@ -1405,7 +1405,7 @@ export const PT_B1_U07: Lesson[] = [
           "Vou viajar muito a trabalho.",
         ],
         correctIndex: 0,
-        explanation: "\"Tenho viajado\": I've been travelling. Listen for \"tenho\" (eu) rather than \"tem\" (você, ele, ela).",
+        explanation: "\"Tenho viajado\": I've been traveling. Listen for \"tenho\" (eu) rather than \"tem\" (você, ele, ela).",
       },
       {
         type: "dictation",
@@ -1416,7 +1416,7 @@ export const PT_B1_U07: Lesson[] = [
         type: "speak",
         text: "Você já conheceu minha esposa? Essa é a Laura.",
         prompt: "Say it in Portuguese: Have you met my wife? This is Laura.",
-        tip: "The s in \"esposa\" falls between vowels, so it sounds like z: es-PO-za.",
+        tip: "The s in \"esposa\" falls between vowels, so it sounds like z, and the o is closed: es-PÔ-za.",
         explanation: "\"Já conheceu\" for meeting someone, a single event. \"Essa é a...\" introduces her.",
       },
       {
@@ -1468,7 +1468,7 @@ export const PT_B1_U07: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I've seen that film twice.",
+            source: "I've seen that movie twice.",
             answer: "Já vi esse filme duas vezes.",
             altAnswers: ["Eu já vi esse filme duas vezes.", "Vi esse filme duas vezes.", "Eu vi esse filme duas vezes.", "Já vi aquele filme duas vezes.", "Eu já vi aquele filme duas vezes.", "Vi aquele filme duas vezes.", "Eu vi aquele filme duas vezes."],
             explanation: "A counted experience takes the simple perfeito \"vi\", often with \"já\". \"Tenho visto esse filme duas vezes\" is the English present perfect copied word for word.",
@@ -1580,7 +1580,7 @@ export const PT_B1_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "My neighbours [have been making] a lot of noise.",
+        en: "My neighbors [have been making] a lot of noise.",
         sentence: "Meus vizinhos ___ muito barulho.",
         answer: "têm feito",
         explanation: "Plural subject, so \"têm\" with the circumflex, and \"fazer\" has the irregular participle \"feito\". \"Tem fazido\" has both mistakes.",
@@ -1711,7 +1711,7 @@ export const PT_B1_U07: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Lucas went to the cinema last Saturday. Now you want to say he's been going to the cinema a lot lately. Which sentence works?",
+            question: "Lucas went to the movies last Saturday. Now you want to say he's been going to the movies a lot lately. Which sentence works?",
             options: ["O Lucas tem ido muito ao cinema ultimamente.", "O Lucas tem ido ao cinema no sábado passado.", "O Lucas têm ido muito ao cinema ultimamente.", "O Lucas tem indo muito ao cinema ultimamente."],
             correctIndex: 0,
             explanation: "The tense and the time marker change together: \"tem ido\" with \"ultimamente\". \"No sábado passado\" is one moment and clashes with the composto. \"Têm\" is plural, and \"indo\" is the gerund, not the participle.",
@@ -1722,13 +1722,13 @@ export const PT_B1_U07: Lesson[] = [
         heading: "Irregular participles, pronouns and não",
         body: [
           "Irregular verbs bring their short participles: \"fiz\" → \"tenho feito\", \"vi\" → \"tenho visto\", \"disse\" → \"tenho dito\", \"escrevi\" → \"tenho escrito\", \"veio\" → \"tem vindo\". \"Vindo\" is both the participle of \"vir\" and its gerund, so \"tem vindo\" is right.",
-          "In Brazilian speech an object or reflexive pronoun sits between \"ter\" and the participle: \"me senti mal\" → \"tenho me sentido mal\", \"a gente se falou\" → \"a gente tem se falado\". Putting it before \"ter\" (\"me tenho sentido\") sounds European.",
+          "In Brazilian speech an object or reflexive pronoun sits between \"ter\" and the participle: \"me senti mal\" → \"tenho me sentido mal\", \"a gente se falou\" → \"a gente tem se falado\". Putting it before \"ter\" (\"me tenho sentido\") sounds stiff in Brazil, and the hyphenated \"tenho-me sentido\" is European.",
           "\"Não\" goes before \"ter\": \"não dormi bem\" → \"não tenho dormido bem\".",
         ],
         examples: [
           { es: "O João tem feito o jantar toda noite.", en: "João has been making dinner every night." },
           { es: "Tenho visto a Mariana na feira todo sábado.", en: "I've been seeing Mariana at the market every Saturday." },
-          { es: "Minha mãe tem vindo aqui quase todo domingo.", en: "My mum has been coming here almost every Sunday." },
+          { es: "Minha mãe tem vindo aqui quase todo domingo.", en: "My mom has been coming here almost every Sunday." },
           { es: "Tenho me sentido cansada ultimamente.", en: "I've been feeling tired lately. (a woman speaking)" },
           { es: "A gente tem se falado pouco.", en: "We haven't been talking much." },
           { es: "Não tenho dormido bem nas últimas semanas.", en: "I haven't been sleeping well these last few weeks." },
@@ -1765,21 +1765,21 @@ export const PT_B1_U07: Lesson[] = [
         heading: "Lately → once, and the já trap",
         body: [
           "Going the other way, pick one occasion and give it a when: \"tenho lido muito\" → \"li um livro inteiro no fim de semana\". The simple perfeito answers when?, so it pairs with \"ontem\", \"em maio\" and \"no sábado\".",
-          "The trap: English I've been to Salvador or I've already seen that film describes one experience, so Portuguese keeps the simple perfeito: \"já fui a Salvador\", \"já vi esse filme\". \"Já\" and \"nunca\" point to the simple tense. Switch to the composto only when the meaning really becomes a repeated pattern: \"tenho ido muito a Salvador\".",
+          "The trap: English I've been to Salvador or I've already seen that movie describes one experience, so Portuguese keeps the simple perfeito: \"já fui a Salvador\", \"já vi esse filme\". \"Já\" and \"nunca\" point to the simple tense. Switch to the composto only when the meaning really becomes a repeated pattern: \"tenho ido muito a Salvador\".",
         ],
         examples: [
           { es: "Tenho lido muito ultimamente.", en: "I've been reading a lot lately." },
           { es: "Li um livro inteiro no fim de semana.", en: "I read a whole book over the weekend." },
           { es: "Já fui a Salvador duas vezes.", en: "I've been to Salvador twice." },
           { es: "Tenho ido muito a Salvador a trabalho.", en: "I've been going to Salvador a lot for work." },
-          { es: "Nunca vi esse filme.", en: "I've never seen that film." },
+          { es: "Nunca vi esse filme.", en: "I've never seen that movie." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I've already seen that film.",
+            source: "I've already seen that movie.",
             answer: "Já vi esse filme.",
             altAnswers: ["Eu já vi esse filme.", "Já vi este filme.", "Eu já vi este filme.", "Já assisti a esse filme.", "Eu já assisti a esse filme.", "Já assisti esse filme.", "Eu já assisti esse filme."],
             explanation: "One experience, so the simple perfeito with \"já\". \"Já tenho visto esse filme\" is the classic English-speaker mistake.",
@@ -1880,8 +1880,8 @@ export const PT_B1_U07: Lesson[] = [
         pairs: [
           { left: "Fiz o jantar.", right: "I made dinner." },
           { left: "Tenho feito o jantar.", right: "I've been making dinner." },
-          { left: "Já vi esse filme.", right: "I've seen that film." },
-          { left: "Tenho visto muitos filmes.", right: "I've been watching a lot of films." },
+          { left: "Já vi esse filme.", right: "I've seen that movie." },
+          { left: "Tenho visto muitos filmes.", right: "I've been watching a lot of movies." },
           { left: "Ela veio ontem.", right: "She came yesterday." },
         ],
         explanation: "The English present perfect for one experience (I've seen) is the simple perfeito. Only I've been doing becomes \"tenho feito\".",
@@ -1955,7 +1955,7 @@ export const PT_B1_U07: Lesson[] = [
           { es: "Ultimamente tenho trabalhado demais.", en: "I've been working way too much lately." },
           { es: "Tenho ido à academia três vezes por semana.", en: "I've been going to the gym three times a week." },
           { es: "Nos últimos meses, tenho feito aula de violão.", en: "For the last few months I've been taking guitar lessons." },
-          { es: "O Pedro tem viajado muito a trabalho.", en: "Pedro has been travelling a lot for work." },
+          { es: "O Pedro tem viajado muito a trabalho.", en: "Pedro has been traveling a lot for work." },
           { es: "Tenho me sentido mais tranquila aqui em Curitiba.", en: "I've been feeling calmer here in Curitiba." },
         ],
         checkpoint: [
@@ -1984,7 +1984,7 @@ export const PT_B1_U07: Lesson[] = [
           "This is where English trips you up. I've started a new job happened once, so it's \"comecei um emprego novo\". \"Tenho começado\" would mean starting over and over. The two tenses work as a pair: \"comecei lá em março e tenho gostado muito\" (I started in March and I've been really enjoying it).",
         ],
         examples: [
-          { es: "No mês passado, eu me mudei para um apartamento no centro.", en: "Last month I moved into a flat downtown." },
+          { es: "No mês passado, eu me mudei para um apartamento no centro.", en: "Last month I moved into an apartment downtown." },
           { es: "Comecei um emprego novo numa startup.", en: "I've started a new job at a startup." },
           { es: "Fui a Salvador no feriado e adorei.", en: "I went to Salvador over the holiday and loved it." },
           { es: "Você não vai acreditar: a Carol ficou noiva!", en: "You won't believe it: Carol got engaged!" },
@@ -2188,9 +2188,9 @@ export const PT_B1_U07: Lesson[] = [
           "For a situation that started in the past and is still true, the present with \"há\" or \"faz\" is the usual choice: \"moro em Curitiba há três anos\" (I've lived in Curitiba for three years).",
         ],
         examples: [
-          { es: "Semana passada eu fui ao cinema duas vezes.", en: "Last week I went to the cinema twice." },
-          { es: "Antigamente a gente ia ao cinema todo sábado.", en: "We used to go to the cinema every Saturday." },
-          { es: "Nos últimos meses tenho ido pouco ao cinema.", en: "In recent months I haven't been going to the cinema much." },
+          { es: "Semana passada eu fui ao cinema duas vezes.", en: "Last week I went to the movies twice." },
+          { es: "Antigamente a gente ia ao cinema todo sábado.", en: "We used to go to the movies every Saturday." },
+          { es: "Nos últimos meses tenho ido pouco ao cinema.", en: "In recent months I haven't been going to the movies much." },
           { es: "Desde janeiro eles têm treinado no parque.", en: "Since January they've been training in the park." },
           { es: "Moro em Curitiba há três anos.", en: "I've lived in Curitiba for three years." },
         ],

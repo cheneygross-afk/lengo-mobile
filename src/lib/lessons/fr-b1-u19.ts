@@ -860,7 +860,7 @@ export const FR_B1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Make it passive in French: « Les étudiants ont écrit la lettre. »",
+            prompt: "Make it passive in French: \"Les étudiants ont écrit la lettre.\"",
             source: "The letter was written by the students.",
             answer: "La lettre a été écrite par les étudiants.",
             explanation: "Passé composé → \"a été\"; \"écrite\" agrees with la lettre.",
@@ -868,7 +868,7 @@ export const FR_B1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Make it passive in French: « Le maire inaugurera la piscine. »",
+            prompt: "Make it passive in French: \"Le maire inaugurera la piscine.\"",
             source: "The swimming pool will be opened by the mayor.",
             answer: "La piscine sera inaugurée par le maire.",
             altAnswers: ["La piscine sera inaugurée par la maire."],
@@ -927,7 +927,7 @@ export const FR_B1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Make it active in French: « La tarte a été faite par ma fille. »",
+            prompt: "Make it active in French: \"La tarte a été faite par ma fille.\"",
             source: "My daughter made the tart.",
             answer: "Ma fille a fait la tarte.",
             explanation: "No agreement: the object comes after avoir in the active.",
@@ -935,7 +935,7 @@ export const FR_B1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Make it active in French with on: « Le concert a été annulé. »",
+            prompt: "Make it active in French with on: \"Le concert a été annulé.\"",
             source: "They cancelled the concert.",
             answer: "On a annulé le concert.",
             explanation: "No agent → \"on\" as the subject.",
@@ -947,7 +947,7 @@ export const FR_B1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Make it passive in French: « Le jury a choisi trois finalistes. »",
+        prompt: "Make it passive in French: \"Le jury a choisi trois finalistes.\"",
         source: "Three finalists were chosen by the jury.",
         answer: "Trois finalistes ont été choisis par le jury.",
         altAnswers: ["Trois finalistes ont été choisies par le jury."],
@@ -956,7 +956,7 @@ export const FR_B1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Make it passive in French: « La mairie rénovera l'école. »",
+        prompt: "Make it passive in French: \"La mairie rénovera l'école.\"",
         source: "The school will be renovated by the town hall.",
         answer: "L'école sera rénovée par la mairie.",
         explanation: "Future → \"sera rénovée\".",
@@ -964,7 +964,7 @@ export const FR_B1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Make it passive in French: « Le vent avait détruit les cabanes. »",
+        prompt: "Make it passive in French: \"Le vent avait détruit les cabanes.\"",
         source: "The huts had been destroyed by the wind.",
         answer: "Les cabanes avaient été détruites par le vent.",
         explanation: "Plus-que-parfait → \"avaient été\"; \"détruites\" agrees.",
@@ -972,7 +972,7 @@ export const FR_B1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Make it active in French: « Le bâtiment est surveillé par des caméras. »",
+        prompt: "Make it active in French: \"Le bâtiment est surveillé par des caméras.\"",
         source: "Cameras monitor the building.",
         answer: "Des caméras surveillent le bâtiment.",
         explanation: "Present passive → present active: \"surveillent\".",
@@ -995,7 +995,7 @@ export const FR_B1_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Les enfants ont décoré le sapin. » Which is the correct passive?",
+        question: "\"Les enfants ont décoré le sapin.\" Which is the correct passive?",
         options: [
           "Le sapin a été décoré par les enfants.",
           "Le sapin a décoré par les enfants.",
@@ -1173,7 +1173,8 @@ export const FR_B1_U19: Lesson[] = [
         prompt: "Translate into French.",
         source: "They were promised a bonus.",
         answer: "On leur a promis une prime.",
-        explanation: "\"Promettre à\" → \"on leur a promis\".",
+        altAnswers: ["Une prime leur a été promise."],
+        explanation: "\"Promettre à\" → \"on leur a promis\". The thing can become the subject in formal French (\"une prime leur a été promise\"), but never the people: *ils ont été promis*.",
       },
       {
         type: "translate",
@@ -1211,7 +1212,7 @@ export const FR_B1_U19: Lesson[] = [
           "Il m'a été dit que la réunion a annulé.",
         ],
         correctIndex: 0,
-        explanation: "\"On m'a dit que\"; *j'ai été dit* is impossible.",
+        explanation: "\"On m'a dit que\"; *j'ai été dit* is impossible. \"Il m'a été dit que\" exists in very formal writing, but \"la réunion a annulé\" is wrong: the meeting didn't cancel anything.",
       },
       {
         type: "word-order",
@@ -1417,7 +1418,7 @@ export const FR_B1_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does « Prière de ne pas toucher » mean?",
+        question: "What does \"Prière de ne pas toucher\" mean?",
         options: ["Please do not touch.", "Pray before touching.", "Touch gently.", "Do not pray here."],
         correctIndex: 0,
         explanation: "\"Prière de\" + infinitive is a formal please on notices.",
@@ -1740,7 +1741,7 @@ export const FR_B1_U19: Lesson[] = [
           { es: "On m'a invité à un barbecue dès la première semaine.", en: "I was invited to a barbecue in the very first week." },
           { es: "Le quartier où j'habite est entouré de vignes.", en: "The area where I live is surrounded by vineyards." },
           { es: "L'appartement que j'ai trouvé avait été rénové.", en: "The flat I found had been renovated." },
-          { es: "On m'a appris à faire des cannelés.", en: "I was taught how to make the local cakes." },
+          { es: "On m'a appris à faire des cannelés.", en: "I was taught how to make the little caramelised cakes from Bordeaux." },
         ],
         checkpoint: [
           {
@@ -1918,7 +1919,7 @@ export const FR_B1_U19: Lesson[] = [
             prompt: "Translate into French.",
             source: "The staff were promised a bonus.",
             answer: "On a promis une prime aux employés.",
-            altAnswers: ["On a promis une prime au personnel.", "On a promis une prime aux salariés."],
+            altAnswers: ["On a promis une prime au personnel.", "On a promis une prime aux salariés.", "Une prime a été promise aux employés.", "Une prime a été promise au personnel."],
             explanation: "\"Promettre à\": only \"on\" (or a named active subject) works.",
           },
           {
@@ -1994,7 +1995,8 @@ export const FR_B1_U19: Lesson[] = [
         prompt: "Translate into French.",
         source: "The situation was explained to us.",
         answer: "On nous a expliqué la situation.",
-        explanation: "\"Expliquer à\": no passive with the person → \"on nous a expliqué\".",
+        altAnswers: ["La situation nous a été expliquée."],
+        explanation: "\"Expliquer à\": no passive with the person → \"on nous a expliqué\". The thing can be the subject (\"la situation nous a été expliquée\"), but that's formal; *nous avons été expliqués* is impossible.",
       },
       {
         type: "translate",
@@ -2008,7 +2010,7 @@ export const FR_B1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Make it active in French: « Cette maison a été construite par mon grand-père. »",
+        prompt: "Make it active in French: \"Cette maison a été construite par mon grand-père.\"",
         source: "My grandfather built this house.",
         answer: "Mon grand-père a construit cette maison.",
         explanation: "Active: no agreement on \"construit\" (object after avoir).",

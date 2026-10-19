@@ -316,7 +316,7 @@ export const FR_C2_U27: Lesson[] = [
           {
             type: "speak",
             text: "Les épisodes de sécheresse se multiplient et s'intensifient.",
-            tip: "Sécheresse: sé-che-resse, three syllables.",
+            tip: "Sécheresse: the middle e is usually dropped, [seʃʁɛs].",
             explanation: "Two pronominal verbs of change: \"se multiplier\" and \"s'intensifier\".",
           },
         ],
@@ -330,7 +330,7 @@ export const FR_C2_U27: Lesson[] = [
         ],
         examples: [
           { es: "Décarboner l'industrie suppose des investissements massifs.", en: "Decarbonising industry requires massive investment." },
-          { es: "Le premier parc éolien en mer a été mis en service à Saint-Nazaire.", en: "The first offshore wind farm was commissioned at Saint-Nazaire." },
+          { es: "Le premier parc éolien en mer a été mis en service au large de Saint-Nazaire.", en: "The first offshore wind farm was commissioned off Saint-Nazaire." },
           { es: "La France tire l'essentiel de son électricité du nucléaire.", en: "France gets most of its electricity from nuclear power." },
           { es: "Le nucléaire, énergie peu émettrice mais controversée, divise l'opinion.", en: "Nuclear power, low-emission but controversial, divides public opinion." },
           { es: "Une transition juste doit accompagner les ménages modestes.", en: "A just transition must support low-income households." },
@@ -553,7 +553,7 @@ export const FR_C2_U27: Lesson[] = [
         heading: "Reading political news: the hearsay conditional and the Convention citoyenne",
         body: [
           "Political journalism reports plans and rumours with the conditional: \"le gouvernement envisagerait de recourir au 49.3\" (is said to be considering), \"l'Élysée aurait tranché\" (has reportedly decided), \"selon nos informations, le texte serait reporté\". The past conditional reports a past event not yet confirmed: \"le ministre aurait menacé de démissionner\". Attribution formulas: \"selon\", \"d'après\", \"de source parlementaire\", \"dans l'entourage du ministre\".",
-          "An experiment in deliberative democracy: \"la Convention citoyenne pour le climat\" (2019-2020) brought together 150 citizens \"tirés au sort\" (drawn by lot) to propose measures to cut emissions by at least 40 % by 2030 \"dans un esprit de justice sociale\". They produced 149 proposals; only part of them were taken up, \"sans filtre\" as the President had promised, a gap that fuelled lasting debate.",
+          "An experiment in deliberative democracy: \"la Convention citoyenne pour le climat\" (2019-2020) brought together 150 citizens \"tirés au sort\" (drawn by lot) to propose measures to cut emissions by at least 40 % by 2030 \"dans un esprit de justice sociale\". They produced 149 proposals; the President had promised to pass them on \"sans filtre\" (unfiltered), but only part of them were taken up, a gap that fuelled lasting debate.",
           "A news paragraph in that style (original): \"Selon plusieurs sources concordantes, l'exécutif envisagerait de reprendre une partie des propositions de la Convention dans un projet de loi. Le texte, qui serait présenté en Conseil des ministres à l'automne, pourrait toutefois se heurter à l'opposition du Sénat.\"",
         ],
         examples: [
@@ -691,13 +691,13 @@ export const FR_C2_U27: Lesson[] = [
       {
         heading: "The marks of polarised discourse",
         body: [
-          "Polarised discourse turns opponents into enemies. French political analysis names its techniques precisely: \"l'amalgame\" (lumping different people or ideas together: \"tous les écologistes sont des khmers verts\"), \"la diabolisation\" (portraying opponents as evil), \"le procès d'intention\" (attributing hidden bad motives: \"ils veulent détruire le pays\"), \"l'homme de paille\" (attacking a caricature of the other's position), \"le slogan\" and \"la formule choc\".",
+          "Polarised discourse turns opponents into enemies. French political analysis names its techniques precisely: \"l'amalgame\" (lumping different people or ideas together: \"tous les écologistes sont des Khmers verts\"), \"la diabolisation\" (portraying opponents as evil), \"le procès d'intention\" (attributing hidden bad motives: \"ils veulent détruire le pays\"), \"l'homme de paille\" (attacking a caricature of the other's position), \"le slogan\" and \"la formule choc\".",
           "Its grammar is recognisable: a \"nous / eux\" opposition, generalisations with \"tous\", \"toujours\", \"jamais\", hyperbolic verbs (\"détruire\", \"saccager\", \"trahir\"), dehumanising nouns, rhetorical questions that need no answer, and the definite article that turns a group into a single block: \"les élites\", \"les bobos\", \"les assistés\".",
-          "Labels are part of it. \"L'écologie punitive\", \"les khmers verts\", \"les climatosceptiques\" or \"les pollueurs\" frame a debate before it begins. Learn to recognise them, and to name the technique calmly: \"c'est un procès d'intention\", \"vous faites un amalgame\", \"ce n'est pas ce que j'ai dit\".",
+          "Labels are part of it. \"L'écologie punitive\", \"les Khmers verts\", \"les climatosceptiques\" or \"les pollueurs\" frame a debate before it begins. Learn to recognise them, and to name the technique calmly: \"c'est un procès d'intention\", \"vous faites un amalgame\", \"ce n'est pas ce que j'ai dit\".",
         ],
         examples: [
           { es: "Ils veulent détruire notre mode de vie.", en: "They want to destroy our way of life." },
-          { es: "Tous les écologistes sont des khmers verts.", en: "All environmentalists are green extremists." },
+          { es: "Tous les écologistes sont des Khmers verts.", en: "All environmentalists are green extremists." },
           { es: "C'est un procès d'intention : je n'ai jamais dit cela.", en: "You're attributing intentions to me: I never said that." },
           { es: "Vous faites un amalgame entre militants et casseurs.", en: "You're lumping activists and rioters together." },
           { es: "Les élites se moquent bien des fins de mois des Français.", en: "The elites couldn't care less about how French people make ends meet." },
@@ -775,7 +775,7 @@ export const FR_C2_U27: Lesson[] = [
         heading: "Rewriting: from polarised to deliberative",
         body: [
           "Rewriting follows four steps. Replace the hostile intention with a stated position (\"ils veulent détruire\" → \"ils proposent de\"). Replace the block (\"les écolos\", \"les élites\") with the precise actor (\"les auteurs de la proposition\", \"le gouvernement\"). Replace the hyperbole with a measurable claim (\"saccager l'économie\" → \"coûter environ deux milliards par an\"). Add a concession and a question.",
-          "Example. Polarised: « Les khmers verts veulent interdire la voiture et punir les pauvres ! » Deliberative: « Les partisans des zones à faibles émissions veulent réduire la pollution de l'air, ce qui est un objectif légitime. Mais la mesure, telle qu'elle est conçue, risque de pénaliser les ménages modestes qui n'ont pas les moyens de changer de véhicule. Comment les accompagner ? »",
+          "Example. Polarised: « Les Khmers verts veulent interdire la voiture et punir les pauvres ! » Deliberative: « Les partisans des zones à faibles émissions veulent réduire la pollution de l'air, ce qui est un objectif légitime. Mais la mesure, telle qu'elle est conçue, risque de pénaliser les ménages modestes qui n'ont pas les moyens de changer de véhicule. Comment les accompagner ? »",
           "A deliberative style is not weak: it can be firm (\"je conteste formellement ce chiffre\", \"cette mesure me paraît injuste\") while respecting the opponent. In French debate, \"respecter son adversaire\" often goes with sharp disagreement on substance.",
         ],
         examples: [
@@ -1202,7 +1202,7 @@ export const FR_C2_U27: Lesson[] = [
             source: "It would be dishonest to deny that pollution kills.",
             answer: "Il serait malhonnête de nier que la pollution tue.",
             altAnswers: ["Il serait malhonnête de nier que la pollution tue des gens.", "Il serait malhonnête de contester que la pollution tue."],
-            explanation: "A strong, fair concession. After \"nier que\" in this affirmative frame, the indicative stresses the fact is true.",
+            explanation: "A strong, fair concession. \"Nier que\" normally takes the subjunctive; the indicative is possible to stress that the fact is real, and \"tue\" has the same form in both moods.",
           },
           {
             type: "fill-blank",

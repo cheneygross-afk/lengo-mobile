@@ -8,13 +8,13 @@ export const PT_C2_U21_EXTRA: Lesson[] = [
     level: "PT-C2",
     number: 1,
     title: "Extra Practice: Philosophy, Part 1 of 3",
-    summary: "Practise articles with abstract nouns, nominalised adjectives and infinitives, and formal definitions and distinctions.",
+    summary: "Practice articles with abstract nouns, nominalized adjectives and infinitives, and formal definitions and distinctions.",
     duration: "15 min",
     optional: true,
     kind: "drill",
     sections: [
       {
-        heading: "Abstract nouns and nominalisation",
+        heading: "Abstract nouns and nominalization",
         body: [
           "A concept in general takes the article (\"a coragem é rara\"); a manner, an amount or a category is bare (\"com coragem\", \"pedir coragem\", \"isso é coragem\"); one kind or degree takes \"uma\" plus a modifier (\"uma coragem silenciosa\"). \"O\" turns an adjective or infinitive into a noun: \"o essencial\", \"o sagrado\", \"o viver\".",
         ],
@@ -23,7 +23,7 @@ export const PT_C2_U21_EXTRA: Lesson[] = [
           { es: "Ela enfrentou a doença com uma coragem silenciosa.", en: "She faced the illness with a quiet courage." },
           { es: "O essencial é invisível aos olhos.", en: "What is essential is invisible to the eye." },
           { es: "O sagrado aparece onde menos se espera.", en: "The sacred appears where you least expect it." },
-          { es: "Duvidar é o primeiro passo para pensar.", en: "Doubting is the first step towards thinking." },
+          { es: "Duvidar é o primeiro passo para pensar.", en: "Doubting is the first step toward thinking." },
         ],
         checkpoint: [
           {
@@ -65,13 +65,13 @@ export const PT_C2_U21_EXTRA: Lesson[] = [
             source: "Prudence is not the same as cowardice.",
             answer: "A prudência não se confunde com a covardia.",
             altAnswers: ["A prudência não é o mesmo que a covardia.", "Prudência não é covardia.", "A prudência não é covardia.", "A prudência não é a mesma coisa que a covardia.", "Prudência não é o mesmo que covardia."],
-            explanation: "\"Não se confunde com\" separates two neighbouring concepts.",
+            explanation: "\"Não se confunde com\" separates two neighboring concepts.",
           },
           {
             type: "listen-choose",
             audio: "A rigor, isso é uma opinião, não um argumento.",
             question: "What does it mean?",
-            options: ["Strictly speaking, that's an opinion, not an argument.", "Rigorously, that's an argument and an opinion.", "With rigour, an opinion becomes an argument.", "That opinion is a rigorous argument."],
+            options: ["Strictly speaking, that's an opinion, not an argument.", "Rigorously, that's an argument and an opinion.", "With rigor, an opinion becomes an argument.", "That opinion is a rigorous argument."],
             correctIndex: 0,
             explanation: "\"A rigor\" means strictly speaking.",
           },
@@ -118,7 +118,7 @@ export const PT_C2_U21_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Doubting is the first step towards thinking.",
+        source: "Doubting is the first step toward thinking.",
         answer: "Duvidar é o primeiro passo para pensar.",
         altAnswers: ["A dúvida é o primeiro passo para pensar.", "Duvidar é o primeiro passo para o pensamento.", "Duvidar é o primeiro passo do pensamento."],
         explanation: "The bare infinitive is the subject of a general statement.",
@@ -130,7 +130,7 @@ export const PT_C2_U21_EXTRA: Lesson[] = [
         source: "The hard part is starting.",
         answer: "O difícil é começar.",
         altAnswers: ["A parte difícil é começar.", "O mais difícil é começar."],
-        explanation: "\"O difícil\" is the nominalised adjective: the hard part.",
+        explanation: "\"O difícil\" is the nominalized adjective: the hard part.",
       },
       {
         type: "translate",
@@ -146,7 +146,7 @@ export const PT_C2_U21_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: In the poem, what is left unsaid matters most.",
         words: ["No", "poema,", "o", "não", "dito", "é", "o", "que", "mais", "importa."],
         translation: "In the poem, what is left unsaid matters most.",
-        explanation: "\"O não dito\" is the nominalised negated participle.",
+        explanation: "\"O não dito\" is the nominalized negated participle.",
       },
       {
         type: "translate",
@@ -218,7 +218,7 @@ export const PT_C2_U21_EXTRA: Lesson[] = [
     level: "PT-C2",
     number: 2,
     title: "Extra Practice: Philosophy, Part 2 of 3",
-    summary: "Practise logical connectors, naming fallacies, impersonal reasoning and the subjunctive of hypothesis in thought experiments.",
+    summary: "Practice logical connectors, naming fallacies, impersonal reasoning and the subjunctive of hypothesis in thought experiments.",
     duration: "15 min",
     optional: true,
     kind: "drill",
@@ -398,7 +398,7 @@ export const PT_C2_U21_EXTRA: Lesson[] = [
     level: "PT-C2",
     number: 3,
     title: "Extra Practice: Philosophy, Part 3 of 3",
-    summary: "Practise the vocabulary of ethics and justice and talk about Paulo Freire, Sérgio Buarque de Holanda and Ailton Krenak.",
+    summary: "Practice the vocabulary of ethics and justice and talk about Paulo Freire, Sérgio Buarque de Holanda and Ailton Krenak.",
     duration: "15 min",
     optional: true,
     kind: "drill",
@@ -406,7 +406,7 @@ export const PT_C2_U21_EXTRA: Lesson[] = [
       {
         heading: "Ethics and Brazilian thought",
         body: [
-          "\"A moral\" is morality and \"o moral\" is morale; \"a ética\" is reflection on morality or a professional code. \"Equidade\" adjusts treatment to need, \"igualdade\" treats everyone the same, and \"justamente\" usually means exactly. Freire opposes \"a educação bancária\" to dialogue; Sérgio Buarque's \"homem cordial\" acts from the heart, not politely; Krenak criticises a humanity separated from nature.",
+          "\"A moral\" is morality and \"o moral\" is morale; \"a ética\" is reflection on morality or a professional code. \"Equidade\" adjusts treatment to need, \"igualdade\" treats everyone the same, and \"justamente\" usually means exactly. Freire opposes \"a educação bancária\" to dialogue; Sérgio Buarque's \"homem cordial\" acts from the heart, not politely; Krenak criticizes a humanity separated from nature.",
         ],
         examples: [
           { es: "O moral dos voluntários continua alto.", en: "The volunteers' morale is still high." },
@@ -439,7 +439,7 @@ export const PT_C2_U21_EXTRA: Lesson[] = [
             question: "What does it mean?",
             options: ["The cordial man doesn't separate public from private.", "The polite man keeps his private life secret.", "The cordial man separates his audience from his family.", "Cordial people avoid public life."],
             correctIndex: 0,
-            explanation: "\"O público\" and \"o privado\" are nominalised adjectives naming two spheres.",
+            explanation: "\"O público\" and \"o privado\" are nominalized adjectives naming two spheres.",
           },
         ],
       },
@@ -555,13 +555,13 @@ export const PT_C2_U21_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: For the Krenak, the river is a relative.",
         words: ["Para", "os", "Krenak,", "o", "rio", "é", "um", "parente."],
         translation: "For the Krenak, the river is a relative.",
-        explanation: "\"Parente\" is a relative, not a parent. Indigenous people names are usually invariable: \"os Krenak\".",
+        explanation: "\"Parente\" is a relative, not a parent. Names of Indigenous peoples are usually invariable: \"os Krenak\".",
       },
       {
         type: "speak",
         text: "A dignidade da pessoa humana não se negocia.",
         prompt: "Say it in Portuguese: Human dignity is not negotiable.",
-        tip: "In \"dignidade\" both d's before i soften to dj: djig-ni-DA-dji.",
+        tip: "In \"dignidade\" both d's before i soften to dj, and speakers often add a vowel after the g: dji-gui-ni-DA-dji.",
         explanation: "\"A dignidade da pessoa humana\" is the constitutional phrase.",
       },
       {

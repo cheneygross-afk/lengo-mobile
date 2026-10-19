@@ -5,7 +5,7 @@ import type { Lesson, WriteExercise } from "./types";
 
 export const FR_B1_U31_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A French website asks its readers: « Faut-il interdire les voitures dans le centre des villes ? » Write a short opinion essay (80-150 words) in the DELF B1 style: give your opinion, two arguments with an example, one counter-argument, and a conclusion.",
+  prompt: "A French website asks its readers: \"Faut-il interdire les voitures dans le centre des villes ?\" Write a short opinion essay (80-150 words) in the DELF B1 style: give your opinion, two arguments with an example, one counter-argument, and a conclusion.",
   minWords: 80,
   maxWords: 150,
   rubric: [
@@ -48,13 +48,13 @@ export const FR_B1_U31: Lesson[] = [
             prompt: "Translate into French.",
             source: "I realised I'd forgotten my keys.",
             answer: "Je me suis rendu compte que j'avais oublié mes clés.",
-            altAnswers: ["Je me suis rendue compte que j'avais oublié mes clés.", "J'ai réalisé que j'avais oublié mes clés.", "Je me suis aperçu que j'avais oublié mes clés.", "Je me suis aperçue que j'avais oublié mes clés."],
+            altAnswers: ["J'ai réalisé que j'avais oublié mes clés.", "Je me suis aperçu que j'avais oublié mes clés.", "Je me suis aperçue que j'avais oublié mes clés."],
             explanation: "\"Se rendre compte que\" = to realise; the forgetting happened earlier, so plus-que-parfait \"j'avais oublié\".",
           },
           {
             type: "multiple-choice",
-            question: "« Tu vas t'en sortir. » What does it mean?",
-            options: ["You'll manage / you'll get through it.", "You're going to go out.", "You'll get out of here.", "You'll be sorted out."],
+            question: "\"Tu vas t'en sortir.\" What does it mean?",
+            options: ["You'll get through it.", "You're going to go out.", "You'll get out of here.", "You'll be sorted out."],
             correctIndex: 0,
             explanation: "\"S'en sortir\" = to cope, to get through a difficulty.",
           },
@@ -288,7 +288,7 @@ export const FR_B1_U31: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Quelle déception ! » What does it express?",
+            question: "\"Quelle déception !\" What does it express?",
             options: ["Disappointment", "Deception", "Surprise", "Relief"],
             correctIndex: 0,
             explanation: "False friend: \"la déception\" is disappointment; deceiving is \"tromper\".",
@@ -316,7 +316,7 @@ export const FR_B1_U31: Lesson[] = [
             prompt: "Translate into French.",
             source: "I'm disappointed you're leaving so early. (polite)",
             answer: "Je suis déçu que vous partiez si tôt.",
-            altAnswers: ["Je suis déçue que vous partiez si tôt.", "Je suis déçu que tu partes si tôt.", "Je suis déçue que tu partes si tôt."],
+            altAnswers: ["Je suis déçue que vous partiez si tôt."],
             explanation: "Emotion + \"que\" + subjunctive: \"partir\" → \"que vous partiez\".",
           },
           {
@@ -583,7 +583,7 @@ export const FR_B1_U31: Lesson[] = [
         prompt: "Translate into French.",
         source: "I regret not telling him more often that I loved him.",
         answer: "Je regrette de ne pas lui avoir dit plus souvent que je l'aimais.",
-        altAnswers: ["Je regrette de ne pas lui avoir dit plus souvent que je l'aimais beaucoup."],
+        altAnswers: ["Je regrette de ne pas lui avoir dit que je l'aimais plus souvent."],
         explanation: "Same subject: \"regretter de\" + past infinitive; \"ne pas\" goes before \"avoir\".",
       },
       {
@@ -1047,7 +1047,7 @@ export const FR_B1_U31: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Les dégâts sont importants. » What does it mean?",
+            question: "\"Les dégâts sont importants.\" What does it mean?",
             options: ["The damage is extensive.", "The damages are important to us.", "The degrees are high.", "The losses are minor."],
             correctIndex: 0,
             explanation: "\"Les dégâts\" = damage (plural in French); \"importants\" here means considerable.",
@@ -1263,7 +1263,7 @@ export const FR_B1_U31: Lesson[] = [
             prompt: "Translate into French.",
             source: "I'd take it to the police station.",
             answer: "Je l'apporterais au commissariat.",
-            altAnswers: ["Je le rapporterais au commissariat.", "Je l'emmènerais au commissariat.", "Je l'apporterais à la police.", "Je le rapporterais à la police.", "Je le porterais au commissariat."],
+            altAnswers: ["Je le rapporterais au commissariat.", "Je l'apporterais à la police.", "Je le rapporterais à la police.", "Je le porterais au commissariat."],
             explanation: "Conditional of \"apporter\"; \"l'\" = le portefeuille.",
           },
           {
@@ -1355,7 +1355,7 @@ export const FR_B1_U31: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend asks: « Tu prendrais l'argent ? » You'd never do it. What do you say?",
+        question: "Your friend asks: \"Tu prendrais l'argent ?\" You'd never do it. What do you say?",
         options: ["Jamais, pour rien au monde.", "Oui, bien sûr que je le prendrai.", "Je l'aurais pris.", "Ça dépendait."],
         correctIndex: 0,
         explanation: "\"Pour rien au monde\" = not for anything in the world.",
@@ -1426,7 +1426,7 @@ export const FR_B1_U31: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Une espèce menacée » is:",
+            question: "\"Une espèce menacée\" is:",
             options: ["an endangered species", "a dangerous species", "an extinct species", "a protected area"],
             correctIndex: 0,
             explanation: "\"Menacé\" = threatened, endangered. Extinct is \"disparu\".",
@@ -1606,7 +1606,7 @@ export const FR_B1_U31: Lesson[] = [
       {
         heading: "The essay and its structure",
         body: [
-          "Kevin, a learner, wrote this DELF B1 essay on the topic « Les petits gestes du quotidien peuvent-ils sauver la planète ? »: « Je pense que les petits gestes soient importants. On doit recycler. On doit prendre le vélo. Mais le gouvernement doit faire plus. Dans mon opinion, c'est les deux. » The French is understandable, but the examiner would mark down the wrong moods, the anglicisms and, above all, the lack of structure.",
+          "Kevin, a learner, wrote this DELF B1 essay on the topic \"Les petits gestes du quotidien peuvent-ils sauver la planète ?\": \"Je pense que les petits gestes soient importants. On doit recycler. On doit prendre le vélo. Mais le gouvernement doit faire plus. Dans mon opinion, c'est les deux.\" The French is understandable, but the examiner would mark down the wrong moods, the anglicisms and, above all, the lack of structure.",
           "An Intermediate essay needs connectors: to introduce (\"Aujourd'hui, ...\"), to list (\"d'abord\", \"ensuite\", \"enfin\"), to add (\"de plus\", \"en outre\", \"par ailleurs\"), to contrast (\"cependant\", \"pourtant\", \"en revanche\", \"mais\"), to give an example (\"par exemple\"), to explain (\"en effet\", \"car\"), and to conclude (\"en conclusion\", \"pour conclure\", \"finalement\").",
         ],
         examples: [
@@ -1639,8 +1639,8 @@ export const FR_B1_U31: Lesson[] = [
       {
         heading: "Fixing the moods",
         body: [
-          "Kevin's first sentence, « Je pense que les petits gestes soient importants », uses the subjunctive after an affirmative \"penser\". Correct: \"Je pense que les petits gestes sont importants\". But in the negative or with doubt, the subjunctive is right: \"Je ne pense pas qu'ils soient suffisants\", \"Je doute qu'ils puissent tout changer\".",
-          "His later sentence « Il faut que le gouvernement fait plus » needs the subjunctive: \"Il faut que le gouvernement fasse plus\". And « J'espère que les gens changent » should be \"J'espère que les gens changeront\" (indicative after espérer).",
+          "Kevin's first sentence, \"Je pense que les petits gestes soient importants\", uses the subjunctive after an affirmative \"penser\". Correct: \"Je pense que les petits gestes sont importants\". But in the negative or with doubt, the subjunctive is right: \"Je ne pense pas qu'ils soient suffisants\", \"Je doute qu'ils puissent tout changer\".",
+          "His later sentence \"Il faut que le gouvernement fait plus\" needs the subjunctive: \"Il faut que le gouvernement fasse plus\". And \"J'espère que les gens changent\" should be \"J'espère que les gens changeront\" (indicative after espérer).",
         ],
         examples: [
           { es: "Je pense que les petits gestes sont importants.", en: "I think small everyday actions are important." },
@@ -1654,7 +1654,7 @@ export const FR_B1_U31: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Kevin wrote « Il faut que le gouvernement fait plus ». Write the correct French for: The government needs to do more.",
+            prompt: "Kevin wrote \"Il faut que le gouvernement fait plus\". Write the correct French for: The government needs to do more.",
             source: "The government needs to do more.",
             answer: "Il faut que le gouvernement fasse plus.",
             altAnswers: ["Il faut que le gouvernement en fasse plus.", "Il faut que le gouvernement fasse davantage.", "Le gouvernement doit faire plus.", "Le gouvernement doit en faire plus."],
@@ -1673,7 +1673,7 @@ export const FR_B1_U31: Lesson[] = [
       {
         heading: "Fixing the anglicisms",
         body: [
-          "Kevin's « Dans mon opinion » is a calque: say \"À mon avis\", \"Selon moi\" or \"D'après moi\". « C'est les deux » should be \"Les deux sont nécessaires\". Other common anglicisms in essays: *réaliser* for to realise (use \"se rendre compte\"), *définitivement* for definitely (use \"sans aucun doute\" or \"vraiment\"; \"définitivement\" means permanently), *supporter* for to support a cause (use \"soutenir\"; \"supporter\" means to bear, tolerate), *éventuellement* for eventually (\"éventuellement\" means possibly; eventually is \"finalement\").",
+          "Kevin's \"Dans mon opinion\" is a calque: say \"À mon avis\", \"Selon moi\" or \"D'après moi\". \"C'est les deux\" should be \"Les deux sont nécessaires\". Other common anglicisms in essays: *réaliser* for to realise (use \"se rendre compte\"), *définitivement* for definitely (use \"sans aucun doute\" or \"vraiment\"; \"définitivement\" means permanently), *supporter* for to support a cause (use \"soutenir\"; \"supporter\" means to bear, tolerate), *éventuellement* for eventually (\"éventuellement\" means possibly; eventually is \"finalement\").",
           "Final tip: avoid repeating \"on doit\". Vary with \"il faut\", \"il faudrait que\", \"il est essentiel de\", \"nous devrions\".",
         ],
         examples: [
@@ -1707,7 +1707,7 @@ export const FR_B1_U31: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Kevin wrote « Dans mon opinion, c'est les deux ». Write the correct French for: In my opinion, both are necessary.",
+        prompt: "Kevin wrote \"Dans mon opinion, c'est les deux\". Write the correct French for: In my opinion, both are necessary.",
         source: "In my opinion, both are necessary.",
         answer: "À mon avis, les deux sont nécessaires.",
         altAnswers: ["Selon moi, les deux sont nécessaires.", "D'après moi, les deux sont nécessaires.", "Pour moi, les deux sont nécessaires."],
@@ -1750,7 +1750,7 @@ export const FR_B1_U31: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Je ne supporte pas le bruit. » What does it mean?",
+        question: "\"Je ne supporte pas le bruit.\" What does it mean?",
         options: ["I can't stand noise.", "I don't support noise.", "I don't make noise.", "I'm not against noise."],
         correctIndex: 0,
         explanation: "False friend: \"supporter\" = to bear, tolerate; to support (a cause, a team) is \"soutenir\" (or \"supporter\" only for a sports team).",

@@ -621,7 +621,7 @@ export const FR_C2_U25: Lesson[] = [
         en: "The fire [must have started] in the kitchens.",
         sentence: "L'incendie ___ dans les cuisines.",
         answer: "a dû se déclarer",
-        altAnswers: ["a dû commencer", "a dû partir", "a dû démarrer"],
+        altAnswers: ["a dû commencer", "a dû démarrer"],
         explanation: "\"A dû\" + infinitive: a probable past event. \"Se déclarer\" is the usual verb for a fire breaking out.",
       },
       {
@@ -730,7 +730,7 @@ export const FR_C2_U25: Lesson[] = [
         heading: "Three ways to look ahead: conditional, devait, allait",
         body: [
           "In a past narrative, the future of the characters can be expressed three ways. The conditional is neutral and the most common: \"il mourrait six ans plus tard\". \"Devoir\" in the imparfait adds a sense of destiny, of what was to happen: \"il devait mourir six ans plus tard\". \"Aller\" in the imparfait (+ infinitive) suggests imminence and inevitability: \"ce qui n'était qu'une émeute allait devenir une révolution\".",
-          "They are not fully interchangeable. \"Allait\" works best for something close or already in motion; \"devait\" for a fate, often a death or a failure; the conditional for a plain later fact. A historian can also switch to the présent de narration and use the futur historique: \"il mourra six ans plus tard\"; we come back to that in another lesson.",
+          "They are not fully interchangeable. \"Allait\" works best for something close or already in motion; \"devait\" for a fate, often a death or a failure; the conditional for a plain later fact. A historian can also switch to the présent de narration and use the futur historique: \"il mourra six ans plus tard\", as you saw in Part 4 (Unit 24).",
           "Trap: \"il devait mourir\" is ambiguous out of context: it can mean he was supposed to die (a plan), he must have died (probability) or he was to die (destiny). The time adverb (\"six ans plus tard\") usually decides; if not, choose the conditional.",
         ],
         examples: [
@@ -1618,7 +1618,7 @@ export const FR_C2_U25: Lesson[] = [
           { es: "L'Angleterre assit son hégémonie sur les mers au XVIIIe siècle.", en: "England established its supremacy at sea in the eighteenth century." },
           { es: "L'annexion de l'Alsace-Moselle en 1871 laissa une blessure durable.", en: "The annexation of Alsace-Moselle in 1871 left a lasting wound." },
           { es: "Le traité fut signé en 1919 et ratifié l'année suivante.", en: "The treaty was signed in 1919 and ratified the following year." },
-          { es: "En 1938, l'Allemagne dénonça plusieurs accords internationaux.", en: "In 1938, Germany withdrew from several international agreements." },
+          { es: "En 1936, l'Allemagne dénonça les accords de Locarno.", en: "In 1936, Germany withdrew from the Locarno agreements." },
           { es: "La décolonisation de l'Afrique subsaharienne s'accéléra en 1960.", en: "The decolonisation of sub-Saharan Africa accelerated in 1960." },
           { es: "Les relations avec l'ancienne puissance coloniale restèrent étroites.", en: "Relations with the former colonial power remained close." },
         ],
@@ -1685,8 +1685,8 @@ export const FR_C2_U25: Lesson[] = [
           {
             type: "speak",
             text: "La Restauration dura de 1814 à 1830.",
-            tip: "Read the dates as dix-huit cent quatorze and dix-huit cent trente.",
-            explanation: "French reads years either as \"mille huit cent quatorze\" or, commonly for older dates, \"dix-huit cent quatorze\".",
+            tip: "Read the dates as mille huit cent quatorze and mille huit cent trente.",
+            explanation: "French normally reads years as \"mille huit cent quatorze\"; \"dix-huit cent quatorze\" exists but is rarer in France.",
           },
         ],
       },
@@ -1779,7 +1779,7 @@ export const FR_C2_U25: Lesson[] = [
         type: "speak",
         text: "L'Angleterre assit son hégémonie sur les mers.",
         prompt: "Say it in French: England established its supremacy at sea.",
-        explanation: "\"Asseoir son hégémonie\": \"assit\" is the passé simple of asseoir; the h of hégémonie is silent and allows elision.",
+        explanation: "\"Asseoir son hégémonie\": \"assit\" is the passé simple of asseoir; the h of hégémonie is mute and allows liaison: \"son‿hégémonie\".",
       },
     ],
   },
@@ -1912,7 +1912,7 @@ export const FR_C2_U25: Lesson[] = [
           {
             type: "speak",
             text: "On a longtemps parlé pudiquement des événements d'Algérie.",
-            tip: "Pudiquement: four syllables, pu-dique-ment.",
+            tip: "Pudiquement: three syllables, pu-dique-ment.",
             explanation: "\"Pudiquement\" = euphemistically; it signals that a name hides something.",
           },
         ],
@@ -2429,7 +2429,7 @@ export const FR_C2_U25: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A friend has lost her home in a flood. Which word fits « Elle est dans la ___ la plus totale »?",
+        question: "A friend has lost her home in a flood and is grief-stricken. Which word fits « Elle est dans la ___ la plus totale »?",
         options: ["désolation", "gêne", "exaltation", "appréhension"],
         correctIndex: 0,
         explanation: "\"La désolation\" = deep grief, devastation; far stronger than \"désolée\".",
@@ -2692,7 +2692,7 @@ export const FR_C2_U25: Lesson[] = [
 
 export const FR_C2_U25_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A regional history magazine asks you for a short article (a 'rubrique histoire') about a turning point in the history of a French-speaking country or region of your choice (for example the Révolution tranquille, an independence, the Front populaire or the Liberation of a city). Narrate the events in a coherent past-tense system, give the context and the consequences with learned connectors, distinguish clearly what is established from what is only probable, and end with a short judgement or a paradox.",
+  prompt: "A regional history magazine asks you for a short article (a \"rubrique histoire\") about a turning point in the history of a French-speaking country or region of your choice (for example the Révolution tranquille, an independence, the Front populaire or the Liberation of a city). Narrate the events in a coherent past-tense system, give the context and the consequences with learned connectors, distinguish clearly what is established from what is only probable, and end with a short judgement or a paradox.",
   minWords: 250,
   maxWords: 400,
   rubric: [

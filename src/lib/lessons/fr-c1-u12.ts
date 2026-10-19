@@ -23,7 +23,7 @@ export const FR_C1_U12: Lesson[] = [
           { es: "On frappe à la porte. Ce sera ta mère.", en: "Someone's knocking. That'll be your mother." },
           { es: "Le bébé pleure ? Il aura faim.", en: "The baby's crying? He'll be hungry." },
           { es: "Il ne répond pas ? Il sera encore en réunion.", en: "He's not answering? He'll still be in a meeting." },
-          { es: "Ce colis, ce sera sans doute les livres que j'ai commandés.", en: "This parcel will probably be the books I ordered." },
+          { es: "Ce colis, ce seront sans doute les livres que j'ai commandés.", en: "This parcel will probably be the books I ordered." },
           { es: "Ne t'inquiète pas, elle sera dans les embouteillages.", en: "Don't worry, she'll be stuck in traffic." },
         ],
         checkpoint: [
@@ -94,7 +94,7 @@ export const FR_C1_U12: Lesson[] = [
         body: [
           "The trap flagged in this unit: English 'must have' has several French equivalents, and devoir is not always the best. For an off-the-cuff explanation of a small mystery, the futur antérieur is the most idiomatic: \"Il aura oublié\" sounds more natural than \"il a dû oublier\" in many contexts, and avoids the ambiguity of \"il a dû\" (had to / must have).",
           "For a stronger, logical deduction, devoir works better: \"Le sol est mouillé : il a dû pleuvoir.\" For a probability you want to state cautiously, use an adverb: \"Il a sans doute oublié\", \"il a probablement oublié\".",
-          "The futur antérieur of probability is rarely used in the negative or in questions; it's a spontaneous hypothesis. For a negative guess, French prefers \"il n'a sans doute pas compris\" or \"il n'a pas dû comprendre\".",
+          "The futur antérieur of probability is most at home in short positive statements: it's a spontaneous hypothesis. It does occur in the negative (\"il n'aura pas entendu son réveil\"), but for a negative guess French more often says \"il n'a sans doute pas compris\" or \"il n'a pas dû comprendre\".",
         ],
         examples: [
           { es: "Le sol est mouillé : il a dû pleuvoir cette nuit.", en: "The ground is wet: it must have rained last night." },
@@ -116,9 +116,9 @@ export const FR_C1_U12: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Your friend is late and you shrug: 'He'll have overslept.' Which is most natural?",
-            options: ["Il ne se sera pas réveillé.", "Il ne s'est pas réveillé, je suis sûr.", "Il ne se réveillera pas.", "Il ne s'était pas réveillé."],
+            options: ["Il aura trop dormi.", "Il a trop dormi, je suis sûr.", "Il dormira trop.", "Il avait trop dormi."],
             correctIndex: 0,
-            explanation: "A spontaneous explanation of a past event: the futur antérieur.",
+            explanation: "A spontaneous explanation of a past event: the futur antérieur \"il aura trop dormi\". The passé composé with \"je suis sûr\" states a certainty, not a guess.",
           },
         ],
       },
@@ -1333,7 +1333,7 @@ export const FR_C1_U12: Lesson[] = [
           { es: "Ses affaires sont encore là : il a dû oublier.", en: "His things are still here: he must have forgotten." },
           { es: "Selon sa femme, il aurait oublié le rendez-vous.", en: "According to his wife, he forgot the appointment." },
           { es: "Il doit oublier ce qui s'est passé pour avancer.", en: "He has to forget what happened to move on." },
-          { es: "Il doit oublier souvent ses clés, vu le nombre de doubles qu'il a.", en: "He must often forget his keys, given how many spares he has." },
+          { es: "Il doit souvent oublier ses clés, vu le nombre de doubles qu'il a.", en: "He must often forget his keys, given how many spares he has." },
         ],
         checkpoint: [
           {
@@ -1759,7 +1759,7 @@ export const FR_C1_U12: Lesson[] = [
             prompt: "Translate into French without si.",
             source: "If you'd told me, I'd have helped you.",
             answer: "Tu me l'aurais dit, je t'aurais aidé.",
-            altAnswers: ["Tu me l'aurais dit, je t'aurais aidée.", "Tu me l'aurais dit que je t'aurais aidé.", "Vous me l'auriez dit, je vous aurais aidé."],
+            altAnswers: ["Tu me l'aurais dit, je t'aurais aidée.", "Tu me l'aurais dit que je t'aurais aidé.", "Vous me l'auriez dit, je vous aurais aidé.", "Vous me l'auriez dit, je vous aurais aidée.", "Vous me l'auriez dit, je vous aurais aidés."],
             explanation: "Two past conditionals juxtaposed replace the si-clause.",
           },
           {
@@ -1971,7 +1971,7 @@ export const FR_C1_U12: Lesson[] = [
             prompt: "Translate into French using the conditional.",
             source: "You wouldn't be a little tired, by any chance?",
             answer: "Tu ne serais pas un peu fatigué, par hasard ?",
-            altAnswers: ["Tu ne serais pas un peu fatiguée, par hasard ?", "Vous ne seriez pas un peu fatigué, par hasard ?"],
+            altAnswers: ["Tu ne serais pas un peu fatiguée, par hasard ?", "Vous ne seriez pas un peu fatigué, par hasard ?", "Vous ne seriez pas un peu fatiguée, par hasard ?"],
             explanation: "Negative question in the conditional = teasing suspicion.",
           },
           {
@@ -2219,7 +2219,7 @@ export const FR_C1_U12: Lesson[] = [
           {
             type: "listen-choose",
             audio: "Je serais là si je pouvais.",
-            question: "What did you hear?",
+            question: "What does it mean?",
             options: ["I'd be there if I could.", "I'll be there tomorrow.", "I was there when I could.", "I'll be there if I can."],
             correctIndex: 0,
             explanation: "Open [ɛ] and the si-clause: conditional.",

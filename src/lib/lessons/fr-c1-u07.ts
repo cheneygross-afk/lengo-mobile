@@ -308,7 +308,7 @@ export const FR_C1_U07: Lesson[] = [
             prompt: "Translate into French.",
             source: "I'm going to Berlin for a month.",
             answer: "Je pars à Berlin pour un mois.",
-            altAnswers: ["Je vais à Berlin pour un mois.", "Je pars pour Berlin pour un mois."],
+            altAnswers: ["Je vais à Berlin pour un mois."],
             explanation: "A planned period with \"partir\": \"pour un mois\".",
           },
           {
@@ -361,7 +361,7 @@ export const FR_C1_U07: Lesson[] = [
         prompt: "Translate into French.",
         source: "Can I pay by card?",
         answer: "Je peux payer par carte ?",
-        altAnswers: ["Est-ce que je peux payer par carte ?", "Puis-je payer par carte ?", "Je peux payer par carte bancaire ?", "Puis-je payer par carte bancaire ?", "Je peux payer en carte ?"],
+        altAnswers: ["Est-ce que je peux payer par carte ?", "Puis-je payer par carte ?", "Je peux payer par carte bancaire ?", "Puis-je payer par carte bancaire ?"],
         explanation: "Means of payment: \"par carte\", \"par chèque\", \"par virement\" (but \"en espèces\").",
       },
       {
@@ -513,7 +513,7 @@ export const FR_C1_U07: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which phrase fits: '___ acceptation de votre dossier, le prêt vous sera accordé' (subject to approval)?",
+            question: "Which phrase fits \"___ acceptation de votre dossier, le prêt vous sera accordé\" (subject to approval)?",
             options: ["Sous réserve d'", "Faute d'", "En vertu d'", "À titre d'"],
             correctIndex: 0,
             explanation: "\"Sous réserve de\" = subject to a condition.",
@@ -530,7 +530,7 @@ export const FR_C1_U07: Lesson[] = [
         heading: "À titre de and a clause read in full",
         body: [
           "\"À titre de\" = as, by way of, in the capacity of: \"à titre d'exemple\" (as an example), \"à titre indicatif\" (for information only, non-binding), \"à titre gracieux\" (free of charge), \"à titre personnel\" (in a personal capacity), \"à titre de dédommagement\" (as compensation), \"une somme versée à titre de dépôt de garantie\".",
-          "Now a clause from a rental contract: « Article 4. Aux termes du présent bail, le locataire verse, à titre de dépôt de garantie, une somme de 900 euros. Conformément à la loi, celle-ci lui sera restituée dans un délai maximal de deux mois à compter de la remise des clés, déduction faite, le cas échéant, des sommes restant dues. En cas de dégradations, et à défaut d'accord entre les parties, le montant des réparations sera fixé par un expert. »",
+          "Now a clause from a rental contract: \"Article 4. Aux termes du présent bail, le locataire verse, à titre de dépôt de garantie, une somme de 900 euros. Conformément à la loi, celle-ci lui sera restituée dans un délai maximal de deux mois à compter de la remise des clés, déduction faite, le cas échéant, des sommes restant dues. En cas de dégradations, et à défaut d'accord entre les parties, le montant des réparations sera fixé par un expert.\"",
           "Every key condition hangs on a preposition: what the money is (à titre de), the legal basis (conformément à), the deadline (dans un délai de, à compter de), the condition (en cas de, à défaut de).",
         ],
         examples: [
@@ -680,7 +680,7 @@ export const FR_C1_U07: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the error: *Je suis responsable pour les achats. Write the corrected French.",
+            prompt: "Fix the error in \"*Je suis responsable pour les achats.\" and write the corrected French.",
             source: "I'm responsible for purchasing.",
             answer: "Je suis responsable des achats.",
             altAnswers: ["Je suis chargé des achats.", "Je suis chargée des achats.", "Je m'occupe des achats."],
@@ -689,7 +689,7 @@ export const FR_C1_U07: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the error: *Ça dépend sur la météo. Write the corrected French.",
+            prompt: "Fix the error in \"*Ça dépend sur la météo.\" and write the corrected French.",
             source: "It depends on the weather.",
             answer: "Ça dépend de la météo.",
             altAnswers: ["Cela dépend de la météo.", "Ça dépend du temps.", "Cela dépend du temps."],
@@ -716,7 +716,7 @@ export const FR_C1_U07: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the error: *J'ai vu ça sur le journal. Write the corrected French.",
+            prompt: "Fix the error in \"*J'ai vu ça sur le journal.\" and write the corrected French.",
             source: "I saw that in the paper.",
             answer: "J'ai vu ça dans le journal.",
             altAnswers: ["J'ai lu ça dans le journal.", "J'ai vu cela dans le journal."],
@@ -756,7 +756,7 @@ export const FR_C1_U07: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the error: *Merci pour me répondre si vite. Write the corrected French.",
+            prompt: "Fix the error in \"*Merci pour me répondre si vite.\" and write the corrected French.",
             source: "Thank you for replying so quickly.",
             answer: "Merci de m'avoir répondu si vite.",
             altAnswers: ["Merci de m'avoir répondu aussi vite.", "Merci de m'avoir répondu si rapidement.", "Merci pour votre réponse si rapide.", "Merci pour ta réponse si rapide.", "Merci de votre réponse rapide."],
@@ -776,7 +776,7 @@ export const FR_C1_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error: *Il est intéressé dans le poste. Write the corrected French.",
+        prompt: "Fix the error in \"*Il est intéressé dans le poste.\" and write the corrected French.",
         source: "He's interested in the job.",
         answer: "Il est intéressé par le poste.",
         altAnswers: ["Le poste l'intéresse."],
@@ -785,7 +785,7 @@ export const FR_C1_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error: *Elle est en charge du projet. Write the corrected French (careful style).",
+        prompt: "Fix the error in \"*Elle est en charge du projet.\" and write the corrected French (careful style).",
         source: "She's in charge of the project.",
         answer: "Elle est chargée du projet.",
         altAnswers: ["Elle est responsable du projet.", "Elle s'occupe du projet."],
@@ -794,7 +794,7 @@ export const FR_C1_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error: *Nous avons participé dans la conférence. Write the corrected French.",
+        prompt: "Fix the error in \"*Nous avons participé dans la conférence.\" and write the corrected French.",
         source: "We took part in the conference.",
         answer: "Nous avons participé à la conférence.",
         altAnswers: ["On a participé à la conférence.", "Nous avons pris part à la conférence."],
@@ -803,7 +803,7 @@ export const FR_C1_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error: *Le prix est sur le document. Write the corrected French.",
+        prompt: "Fix the error in \"*Le prix est sur le document.\" and write the corrected French.",
         source: "The price is in the document.",
         answer: "Le prix est dans le document.",
         altAnswers: ["Le prix figure dans le document.", "Le prix est indiqué dans le document."],
@@ -812,7 +812,7 @@ export const FR_C1_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error: *Au final, on a gagné. Write the corrected French (careful style).",
+        prompt: "Fix the error in \"*Au final, on a gagné.\" and write the corrected French (careful style).",
         source: "In the end, we won.",
         answer: "Finalement, nous avons gagné.",
         altAnswers: ["En fin de compte, nous avons gagné.", "Finalement, on a gagné.", "En fin de compte, on a gagné.", "Au bout du compte, nous avons gagné."],
@@ -1122,11 +1122,10 @@ export const FR_C1_U07: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
-            en: "[One in three] French people reads every day.",
-            sentence: "___ Français lit tous les jours.",
-            answer: "Un sur trois",
-            altAnswers: ["Un Français sur trois"],
-            explanation: "Proportion: \"un sur trois\" (or \"un Français sur trois\").",
+            en: "One French person [in three] reads every day.",
+            sentence: "Un Français ___ lit tous les jours.",
+            answer: "sur trois",
+            explanation: "Proportion: \"un Français sur trois\". The noun goes between \"un\" and \"sur\"; *\"un sur trois Français\" is wrong.",
           },
         ],
       },
@@ -1313,7 +1312,7 @@ export const FR_C1_U07: Lesson[] = [
         heading: "The situation and the opening",
         body: [
           "You work for an office-furniture supplier in Nantes. A client, M. Lefèvre of the firm Batiself, has ordered 25 desks and 25 chairs. You must confirm the order: quantities and materials, price per unit, delivery window, payment terms, deadlines for changes, and a contact. The email must be unambiguous, because it will serve as proof if there's a dispute.",
-          "Opening: « Monsieur, Suite à notre entretien téléphonique du 3 juin et conformément à votre bon de commande n° 4521, nous avons le plaisir de vous confirmer votre commande de 25 bureaux en chêne et de 25 fauteuils de bureau à roulettes. »",
+          "Opening: \"Monsieur, Suite à notre entretien téléphonique du 3 juin et conformément à votre bon de commande n° 4521, nous avons le plaisir de vous confirmer votre commande de 25 bureaux en chêne et de 25 fauteuils de bureau à roulettes.\"",
           "Prepositions so far: \"suite à\" (following), \"conformément à\" (in accordance with), \"de\" for type (\"fauteuils de bureau\"), \"en\" for material (\"en chêne\"), \"à\" for a feature (\"à roulettes\").",
         ],
         examples: [
@@ -1346,7 +1345,7 @@ export const FR_C1_U07: Lesson[] = [
       {
         heading: "Dates, deadlines and payment",
         body: [
-          "The core of the email: « La livraison sera effectuée dans un délai de trois semaines à compter de la réception de l'acompte, soit au plus tard le 5 juillet. Toute modification de la commande devra nous être communiquée par écrit d'ici le 15 juin. Le montant total s'élève à 12 500 euros hors taxes, soit 500 euros par poste de travail. Un acompte de 30 % est payable par virement sous huitaine ; le solde sera réglé à la livraison. »",
+          "The core of the email: \"La livraison sera effectuée dans un délai de trois semaines à compter de la réception de l'acompte, soit au plus tard le 5 juillet. Toute modification de la commande devra nous être communiquée par écrit d'ici le 15 juin. Le montant total s'élève à 12 500 euros hors taxes, soit 500 euros par poste de travail. Un acompte de 30 % est payable par virement sous huitaine ; le solde sera réglé à la livraison.\"",
           "Notice \"soit\" (that is, i.e.) to restate a figure or date precisely, and \"à la livraison\" (on delivery), \"à réception de la facture\" (on receipt of the invoice), \"à 30 jours\" (payment within 30 days).",
           "Every deadline is anchored: \"à compter de\" what? \"d'ici\" when? \"au plus tard\" which date? Ambiguity in a business email costs money.",
         ],
@@ -1388,7 +1387,7 @@ export const FR_C1_U07: Lesson[] = [
       {
         heading: "Closing: contact and courtesy",
         body: [
-          "End with the practical contact and the formula: « Pour toute question relative à cette commande, vous pouvez vous adresser à Mme Roux, chargée de clientèle, au 02 40 12 34 56 ou par courriel. Nous restons à votre disposition pour tout renseignement complémentaire. Nous vous prions d'agréer, Monsieur, l'expression de nos salutations distinguées. »",
+          "End with the practical contact and the formula: \"Pour toute question relative à cette commande, vous pouvez vous adresser à Mme Roux, chargée de clientèle, au 02 40 12 34 56 ou par courriel. Nous restons à votre disposition pour tout renseignement complémentaire. Nous vous prions d'agréer, Monsieur, l'expression de nos salutations distinguées.\"",
           "\"Relative à\" (relating to), \"s'adresser à\" (to contact), \"au\" + phone number, \"par courriel\", \"à votre disposition\". \"Chargée de clientèle\" uses \"chargé de\", not *\"en charge de\".",
         ],
         examples: [
@@ -2154,7 +2153,7 @@ export const FR_C1_U07: Lesson[] = [
       {
         heading: "The clause",
         body: [
-          "Here's article 9 of a mobile phone contract: « Article 9 – Résiliation. 9.1 L'abonné peut résilier le contrat à tout moment, par lettre recommandée avec accusé de réception ou depuis son espace client. La résiliation prend effet dans un délai de dix jours à compter de la réception de la demande par l'opérateur. 9.2 En cas de résiliation avant le terme de la période d'engagement de douze mois, l'abonné reste redevable des mensualités restant dues jusqu'à l'échéance, sous réserve des dispositions de l'article 9.3. »",
+          "Here's article 9 of a mobile phone contract: \"Article 9 – Résiliation. 9.1 L'abonné peut résilier le contrat à tout moment, par lettre recommandée avec accusé de réception ou depuis son espace client. La résiliation prend effet dans un délai de dix jours à compter de la réception de la demande par l'opérateur. 9.2 En cas de résiliation avant le terme de la période d'engagement de douze mois, l'abonné reste redevable des mensualités restant dues jusqu'à l'échéance, sous réserve des dispositions de l'article 9.3.\"",
           "Before reading the details, spot the prepositions that structure the meaning: \"à tout moment\" (at any time), \"par lettre recommandée\" (means), \"depuis son espace client\" (from: the starting point of an online action), \"dans un délai de... à compter de\" (deadline and its start), \"en cas de\" (condition), \"avant le terme de\" (before the end of), \"jusqu'à l'échéance\" (until the due date), \"sous réserve de\" (subject to).",
         ],
         examples: [
@@ -2187,7 +2186,7 @@ export const FR_C1_U07: Lesson[] = [
       {
         heading: "Exceptions and penalties",
         body: [
-          "The clause continues: « 9.3 Par dérogation à l'article 9.2, aucune somme n'est due en cas de résiliation pour motif légitime, notamment en cas de déménagement à l'étranger, de perte d'emploi ou de surendettement, sur présentation d'un justificatif. 9.4 À défaut de restitution du matériel dans un délai de trente jours suivant la résiliation, une pénalité forfaitaire de 80 euros sera facturée à l'abonné. »",
+          "The clause continues: \"9.3 Par dérogation à l'article 9.2, aucune somme n'est due en cas de résiliation pour motif légitime, notamment en cas de déménagement à l'étranger, de perte d'emploi ou de surendettement, sur présentation d'un justificatif. 9.4 À défaut de restitution du matériel dans un délai de trente jours suivant la résiliation, une pénalité forfaitaire de 80 euros sera facturée à l'abonné.\"",
           "\"Par dérogation à\" = by way of exception to. \"Pour motif légitime\" = for a legitimate reason. \"Notamment\" = in particular. \"Sur présentation de\" = upon showing. \"À défaut de restitution\" = if the equipment is not returned. \"Suivant la résiliation\" = following the termination (here 'counted from').",
           "So: if you move abroad and can prove it, you pay nothing more. If you don't return the router within 30 days, you pay 80 euros.",
         ],
@@ -2220,7 +2219,6 @@ export const FR_C1_U07: Lesson[] = [
           {
             type: "speak",
             text: "La résiliation prend effet dans un délai de dix jours.",
-            prompt: "Read this clause aloud.",
             explanation: "\"Dans un délai de\" = within.",
           },
         ],
@@ -2228,7 +2226,7 @@ export const FR_C1_U07: Lesson[] = [
       {
         heading: "Rewriting the clause in plain French",
         body: [
-          "A consumer website explains the clause in plain French: « Vous pouvez résilier quand vous voulez, par courrier recommandé ou en ligne. Votre ligne sera coupée dix jours après réception de votre demande. Si vous partez avant la fin de votre engagement d'un an, vous devrez payer les mois restants, sauf si vous avez une bonne raison (déménagement à l'étranger, perte d'emploi...) et que vous pouvez le prouver. Pensez à renvoyer votre box dans le mois, sinon on vous facturera 80 euros. »",
+          "A consumer website explains the clause in plain French: \"Vous pouvez résilier quand vous voulez, par courrier recommandé ou en ligne. Votre ligne sera coupée dix jours après réception de votre demande. Si vous partez avant la fin de votre engagement d'un an, vous devrez payer les mois restants, sauf si vous avez une bonne raison (déménagement à l'étranger, perte d'emploi...) et que vous pouvez le prouver. Pensez à renvoyer votre box dans le mois, sinon on vous facturera 80 euros.\"",
           "Compare: \"à tout moment\" → \"quand vous voulez\"; \"à compter de la réception\" → \"après réception\"; \"en cas de résiliation avant le terme\" → \"si vous partez avant la fin\"; \"pour motif légitime\" → \"si vous avez une bonne raison\"; \"à défaut de restitution\" → \"sinon\". Nominal prepositional phrases become verbs and conjunctions in plain French (Unit 3).",
         ],
         examples: [
@@ -2242,7 +2240,7 @@ export const FR_C1_U07: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite in plain French: En cas de résiliation avant le terme, les mensualités restent dues.",
+            prompt: "Translate into French (rewrite in plain French): \"En cas de résiliation avant le terme, les mensualités restent dues.\"",
             source: "If you cancel before the end, you still have to pay the monthly fees.",
             answer: "Si vous résiliez avant la fin, vous devez quand même payer les mensualités.",
             altAnswers: ["Si vous résiliez avant la fin, vous devez quand même payer les mois restants.", "Si vous résiliez avant la fin, vous devrez quand même payer les mensualités.", "Si tu résilies avant la fin, tu dois quand même payer les mensualités.", "Si vous partez avant la fin, vous devez quand même payer les mensualités."],
@@ -2290,7 +2288,7 @@ export const FR_C1_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in plain French: L'abonné peut résilier à tout moment.",
+        prompt: "Translate into French (rewrite in plain French): \"L'abonné peut résilier à tout moment.\"",
         source: "You can cancel whenever you like.",
         answer: "Vous pouvez résilier quand vous voulez.",
         altAnswers: ["Vous pouvez résilier quand vous le souhaitez.", "Tu peux résilier quand tu veux.", "Vous pouvez arrêter quand vous voulez."],
@@ -2360,7 +2358,7 @@ export const FR_C1_U07: Lesson[] = [
         heading: "Formal notices: preposition + noun",
         body: [
           "Formal French leans on prepositional phrases built around nouns, where everyday French uses verbs and conjunctions (Unit 3). \"En raison de travaux\" (because there are works), \"à la suite de la panne\" (after the breakdown), \"dans l'attente de votre réponse\" (while waiting for your reply), \"en vue de la réunion\" (for / in preparation for the meeting), \"lors de\" (during, at the time of), \"à l'occasion de\" (on the occasion of), \"compte tenu de\" (given, considering).",
-          "Combine with the passive (Unit 5): « En raison de travaux de rénovation, l'accueil sera exceptionnellement fermé du 3 au 7 mars. Lors de la réouverture, les horaires seront modifiés. Compte tenu de l'affluence attendue, il est conseillé de prendre rendez-vous. »",
+          "Combine with the passive (Unit 5): \"En raison de travaux de rénovation, l'accueil sera exceptionnellement fermé du 3 au 7 mars. Lors de la réouverture, les horaires seront modifiés. Compte tenu de l'affluence attendue, il est conseillé de prendre rendez-vous.\"",
         ],
         examples: [
           { es: "En raison de travaux, l'accueil sera fermé du 3 au 7 mars.", en: "Because of works, reception will be closed from 3 to 7 March." },
@@ -2408,7 +2406,7 @@ export const FR_C1_U07: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Say it to a friend in everyday French: Compte tenu de l'affluence, il est conseillé de réserver.",
+            prompt: "Translate into French (rewrite for a friend in everyday French): \"Compte tenu de l'affluence, il est conseillé de réserver.\"",
             source: "Since there'll be lots of people, you'd better book.",
             answer: "Comme il y aura beaucoup de monde, mieux vaut réserver.",
             altAnswers: ["Comme il y aura beaucoup de monde, il vaut mieux réserver.", "Comme il va y avoir beaucoup de monde, il vaut mieux réserver.", "Il va y avoir beaucoup de monde, donc il vaut mieux réserver.", "Comme il y aura du monde, mieux vaut réserver."],
@@ -2439,7 +2437,7 @@ export const FR_C1_U07: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite for a formal email: Je vous appelle par rapport à votre annonce.",
+            prompt: "Translate into French (rewrite for a formal email): \"Je vous appelle par rapport à votre annonce.\"",
             source: "I'm contacting you about your advert.",
             answer: "Je vous contacte au sujet de votre annonce.",
             altAnswers: ["Je vous contacte concernant votre annonce.", "Je vous écris au sujet de votre annonce.", "Je vous écris concernant votre annonce.", "Je me permets de vous contacter au sujet de votre annonce."],
@@ -2487,7 +2485,7 @@ export const FR_C1_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Say it to a friend in everyday French: Lors de la réouverture, les horaires seront modifiés.",
+        prompt: "Translate into French (rewrite for a friend in everyday French): \"Lors de la réouverture, les horaires seront modifiés.\"",
         source: "When it reopens, the hours will change.",
         answer: "Quand ça rouvrira, les horaires vont changer.",
         altAnswers: ["Quand ça va rouvrir, les horaires vont changer.", "Quand ça rouvrira, les horaires changeront.", "À la réouverture, les horaires vont changer."],
@@ -2512,7 +2510,7 @@ export const FR_C1_U07: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French (formal email).",
-        source: "I look forward to your reply.",
+        source: "I look forward to your reply. Yours faithfully.",
         answer: "Dans l'attente de votre réponse, je vous prie d'agréer mes salutations distinguées.",
         altAnswers: ["Dans l'attente de votre réponse, veuillez agréer mes salutations distinguées.", "Dans l'attente de votre réponse, je vous prie d'agréer, Madame, Monsieur, mes salutations distinguées.", "Dans l'attente de votre réponse, je vous adresse mes salutations distinguées."],
         explanation: "\"Dans l'attente de\" opens the standard closing formula.",

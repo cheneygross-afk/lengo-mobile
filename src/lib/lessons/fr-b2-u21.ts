@@ -15,7 +15,7 @@ export const FR_B2_U21_WRITING: WriteExercise = {
     "Chooses correctly between \"où\" and \"dans lequel\" / \"auquel\", and never writes *\"le jour quand\"",
   ],
   modelAnswer: "Saint-Véran est un petit village des Hautes-Alpes dont les habitants, chaque été, perpétuent une tradition vieille de plusieurs siècles : la fête des bergers. Le jour où les troupeaux montent vers les alpages, tout le village se rassemble sur la place, au centre de laquelle se dresse une fontaine en pierre.\n\nJ'y ai rencontré Marcel, un berger de soixante-dix ans dont je connaissais déjà la fille. Il m'a montré les vieux chemins le long desquels les moutons marchent depuis toujours, et la chapelle près de laquelle on bénit les bêtes. La fête, au cours de laquelle on chante des airs en occitan, dure deux jours.\n\nMais le village se vide. Sur les quarante enfants qui y vivaient en 1980, il en reste douze, dont trois seulement veulent devenir bergers. Ce dont la tradition a besoin, ce n'est pas d'argent : ce sont des jeunes. Ce à quoi Marcel pense le plus, c'est la transmission : « Si personne ne reprend les chemins, ils disparaîtront avec nous. »\n\nSans cette fête, le village perdrait bien plus qu'un folklore : il perdrait la mémoire dont il est fait.",
-  explanation: "\"Dont\" replaces de + noun: \"dont les habitants\" (the inhabitants of the village), \"dont je connaissais la fille\" (normal order after dont), \"dont trois\" (a quantity), \"dont il est fait\" (être fait de). After compound prepositions only \"lequel\" works: \"au centre de laquelle\", \"le long desquels\", \"près de laquelle\", \"au cours de laquelle\". \"Ce dont\" (avoir besoin de) and \"ce à quoi\" (penser à) introduce the pseudo-clefts, and \"le jour où\" is the only way to say the day when.",
+  explanation: "\"Dont\" replaces \"de\" + noun: \"dont les habitants\" (the inhabitants of the village), \"dont je connaissais la fille\" (normal order after \"dont\"), \"dont trois\" (a quantity), \"dont il est fait\" (\"être fait de\"). After compound prepositions only \"lequel\" works: \"au centre de laquelle\", \"le long desquels\", \"près de laquelle\", \"au cours de laquelle\". \"Ce dont\" (\"avoir besoin de\") and \"ce à quoi\" (\"penser à\") introduce the pseudo-clefts, and \"le jour où\" is the only way to say the day when.",
 };
 
 export const FR_B2_U21: Lesson[] = [
@@ -194,9 +194,9 @@ export const FR_B2_U21: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: the tradition he is most afraid of losing",
+        prompt: "Put the words in order to say: the tradition he is most afraid of",
         words: ["la", "tradition", "dont", "il", "a", "le", "plus", "peur"],
-        translation: "the tradition he is most afraid of (losing)",
+        translation: "the tradition he is most afraid of",
         explanation: "\"Avoir peur de\" → \"dont il a le plus peur\".",
       },
       {
@@ -273,7 +273,7 @@ export const FR_B2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "a woman whose husband is a fisherman",
+            question: "Which is correct for: a woman whose husband is a fisherman?",
             options: ["une femme dont le mari est pêcheur", "une femme dont la mari est pêcheur", "une femme dont son mari est pêcheur", "une femme qui le mari est pêcheur"],
             correctIndex: 0,
             explanation: "\"Le mari\": the article agrees with the noun that follows \"dont\". No possessive and no \"qui\".",
@@ -400,7 +400,7 @@ export const FR_B2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "a town whose mayor I met",
+        question: "Which is correct for: a town whose mayor I met?",
         options: ["une ville dont j'ai rencontré le maire", "une ville dont le maire j'ai rencontré", "une ville dont j'ai rencontré son maire", "une ville que j'ai rencontré le maire"],
         correctIndex: 0,
         explanation: "\"Dont\" + \"j'ai rencontré\" + \"le maire\".",
@@ -494,7 +494,7 @@ export const FR_B2_U21: Lesson[] = [
         heading: "What the old shepherd wants: subjunctive of will",
         body: [
           "Old shepherds talk about the future of the tradition with verbs of will and necessity, which you studied in Units 5-6: \"je voudrais que\", \"il faut que\", \"il est essentiel que\", \"je tiens à ce que\", \"j'aimerais que\" + subjunctive. Different subject in the second clause → \"que\" + subjunctive; same subject → infinitive.",
-          "Remember the irregular stems that come up all the time in these texts: \"qu'ils sachent\" (savoir), \"qu'ils puissent\" (pouvoir), \"qu'ils fassent\" (faire), \"qu'ils aillent\" (aller), \"qu'ils veuillent\" (vouloir), \"qu'ils prennent\" (prendre).",
+          "Remember the irregular stems that come up all the time in these texts: \"qu'ils sachent\" (\"savoir\"), \"qu'ils puissent\" (\"pouvoir\"), \"qu'ils fassent\" (\"faire\"), \"qu'ils aillent\" (\"aller\"), \"qu'ils veuillent\" (\"vouloir\"), \"qu'ils prennent\" (\"prendre\").",
           "\"Tenir à ce que\" (to be keen that, to insist that) is very French and very useful at the Upper-intermediate level: \"Je tiens à ce que mes petits-enfants connaissent les chemins.\"",
         ],
         examples: [
@@ -529,7 +529,7 @@ export const FR_B2_U21: Lesson[] = [
         heading: "In spite of everything: bien que, même si, sans que",
         body: [
           "The transhumance survives against the odds, so the texts are full of concession: \"bien que\" / \"quoique\" + subjunctive (although), \"même si\" + indicative (even if), \"malgré\" + noun (despite). Mixing up \"bien que\" and \"même si\" is the classic Upper-intermediate error: \"bien qu'il pleuve\" but \"même s'il pleut\".",
-          "\"Sans que\" + subjunctive (without someone doing something) and \"à moins que\" + subjunctive (unless) also appear naturally: \"Les brebis ne montent pas sans que le berger les accompagne.\" In careful writing, \"à moins que\" takes the ne explétif: \"à moins que l'État n'intervienne\".",
+          "\"Sans que\" + subjunctive (without someone doing something) and \"à moins que\" + subjunctive (unless) also appear naturally: \"Les brebis ne montent pas sans que le berger les accompagne.\" In careful writing, \"à moins que\" takes the \"ne\" explétif: \"à moins que l'État n'intervienne\".",
           "Same subject? Use the infinitive: \"sans + infinitif\", \"à moins de + infinitif\". \"Il est parti sans dire au revoir\", not *\"sans qu'il dise\".",
         ],
         examples: [
@@ -552,7 +552,7 @@ export const FR_B2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Even if the wolf comes back, we'll carry on.",
+            question: "Which is correct for: Even if the wolf comes back, we'll carry on?",
             options: ["Même si le loup revient, nous continuerons.", "Même si le loup revienne, nous continuerons.", "Bien que le loup revient, nous continuerons.", "Même si le loup reviendra, nous continuerons."],
             correctIndex: 0,
             explanation: "\"Même si\" + indicative present, never subjunctive and never future after \"si\".",
@@ -574,7 +574,7 @@ export const FR_B2_U21: Lesson[] = [
         source: "The shepherd wants his son to take over the flock.",
         answer: "Le berger veut que son fils reprenne le troupeau.",
         altAnswers: ["Le berger voudrait que son fils reprenne le troupeau.", "Le berger souhaite que son fils reprenne le troupeau."],
-        explanation: "\"Vouloir que\" + subjunctive: \"reprenne\" (reprendre, to take over).",
+        explanation: "\"Vouloir que\" + subjunctive: \"reprenne\" (\"reprendre\", to take over).",
       },
       {
         type: "translate",
@@ -601,7 +601,7 @@ export const FR_B2_U21: Lesson[] = [
         sentence: "Les bêtes ne partent pas, ___ ne les ait vues.",
         answer: "à moins que le vétérinaire",
         altAnswers: ["à moins que le véto"],
-        explanation: "\"À moins que\" + subjunctive, often with the ne explétif in writing: \"à moins que le vétérinaire ne les ait vues\".",
+        explanation: "\"À moins que\" + subjunctive, often with the \"ne\" explétif in writing: \"à moins que le vétérinaire ne les ait vues\".",
       },
       {
         type: "multiple-choice",
@@ -646,7 +646,7 @@ export const FR_B2_U21: Lesson[] = [
       {
         type: "dictation",
         audio: "Il faut que les jeunes puissent vivre de leur métier.",
-        explanation: "\"Il faut que\" + \"puissent\" (pouvoir). \"Vivre de\": to make a living from.",
+        explanation: "\"Il faut que\" + \"puissent\" (\"pouvoir\"). \"Vivre de\": to make a living from.",
       },
       {
         type: "speak",
@@ -661,7 +661,7 @@ export const FR_B2_U21: Lesson[] = [
     level: "FR-B2",
     number: 4,
     title: "Transformation Chain: Join Two Sentences with Dont",
-    summary: "Spot the \"son\", \"sa\", \"ses\", \"de + noun\" or \"en\" in the second sentence and fold it into one smooth sentence with dont.",
+    summary: "Spot the \"son\", \"sa\", \"ses\", \"de + noun\" or \"en\" in the second sentence and fold it into one smooth sentence with \"dont\".",
     duration: "13 min",
     sections: [
       {
@@ -845,7 +845,7 @@ export const FR_B2_U21: Lesson[] = [
       {
         type: "dictation",
         audio: "J'ai un voisin dont le chien aboie toute la nuit.",
-        explanation: "\"Dont le chien\": son chien → dont le chien.",
+        explanation: "\"Dont le chien\": \"son chien\" → \"dont le chien\".",
       },
       {
         type: "speak",
@@ -890,7 +890,7 @@ export const FR_B2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "I'm sure that this tune comes from Brittany.",
+            question: "Which is correct for: I'm sure that this tune comes from Brittany?",
             options: ["Je suis sûr que cet air vient de Bretagne.", "Je suis sûr que cet air vienne de Bretagne.", "Je ne suis pas sûr que cet air vient de Bretagne.", "Je suis sûr cet air venir de Bretagne."],
             correctIndex: 0,
             explanation: "Certainty → indicative: \"vient\".",
@@ -1005,7 +1005,7 @@ export const FR_B2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "It was you who chose this song!",
+        question: "Which is correct for: It was you who chose this song?",
         options: ["C'est toi qui as choisi cette chanson !", "C'est toi qui a choisi cette chanson !", "C'est toi que as choisi cette chanson !", "C'est tu qui as choisi cette chanson !"],
         correctIndex: 0,
         explanation: "After \"c'est toi qui\", the verb agrees with \"toi\": \"as choisi\".",
@@ -1060,15 +1060,15 @@ export const FR_B2_U21: Lesson[] = [
     level: "FR-B2",
     number: 6,
     title: "Circuit: À Côté Duquel, Près de Laquelle, Au Cours Duquel",
-    summary: "Why dont stops working after compound prepositions, and how duquel, de laquelle and desquels take over.",
+    summary: "Why \"dont\" stops working after compound prepositions, and how \"duquel\", \"de laquelle\" and \"desquels\" take over.",
     duration: "14 min",
     sections: [
       {
         heading: "Compound prepositions ending in de",
         body: [
-          "Many French prepositions are built with \"de\": \"à côté de\", \"près de\", \"loin de\", \"au milieu de\", \"au centre de\", \"autour de\", \"en face de\", \"au cours de\", \"à cause de\", \"au bord de\", \"le long de\", \"au-dessus de\", \"en haut de\", \"à l'intérieur de\", \"grâce à\" (no de, but same logic with à).",
-          "When the noun after them becomes a relative, \"dont\" is impossible, because the \"de\" belongs to a bigger preposition. You use \"de\" + lequel, contracted: \"duquel\" (masc. sing.), \"de laquelle\" (fem. sing.), \"desquels\" (masc. pl.), \"desquelles\" (fem. pl.). \"Le parc à côté duquel j'habite\", \"la place au centre de laquelle se trouve la fontaine\".",
-          "*\"Le parc à côté dont j'habite\" is the typical error. Test: if the \"de\" is glued to another word (côté, cours, cause, milieu), use \"duquel\"; if it belongs to the verb or adjective (parler de, fier de), use \"dont\".",
+          "Many French prepositions are built with \"de\": \"à côté de\", \"près de\", \"loin de\", \"au milieu de\", \"au centre de\", \"autour de\", \"en face de\", \"au cours de\", \"à cause de\", \"au bord de\", \"le long de\", \"au-dessus de\", \"en haut de\", \"à l'intérieur de\", \"grâce à\" (no \"de\", but the same logic with \"à\").",
+          "When the noun after them becomes a relative, \"dont\" is impossible, because the \"de\" belongs to a bigger preposition. You use \"de\" + \"lequel\", contracted: \"duquel\" (masc. sing.), \"de laquelle\" (fem. sing.), \"desquels\" (masc. pl.), \"desquelles\" (fem. pl.). \"Le parc à côté duquel j'habite\", \"la place au centre de laquelle se trouve la fontaine\".",
+          "*\"Le parc à côté dont j'habite\" is the typical error. Test: if the \"de\" is glued to another word (\"côté\", \"cours\", \"cause\", \"milieu\"), use \"duquel\"; if it belongs to the verb or adjective (\"parler de\", \"fier de\"), use \"dont\".",
         ],
         examples: [
           { es: "Le parc à côté duquel j'habite est fermé le soir.", en: "The park I live next to is closed in the evening." },
@@ -1087,11 +1087,11 @@ export const FR_B2_U21: Lesson[] = [
             source: "The church I live near is very old.",
             answer: "L'église près de laquelle j'habite est très ancienne.",
             altAnswers: ["L'église près de laquelle j'habite est très vieille.", "L'église à côté de laquelle j'habite est très ancienne.", "L'église à côté de laquelle j'habite est très vieille."],
-            explanation: "\"Près de\" is a compound preposition → \"près de laquelle\" (église is feminine). Never *\"près dont\".",
+            explanation: "\"Près de\" is a compound preposition → \"près de laquelle\" (\"église\" is feminine). Never *\"près dont\".",
           },
           {
             type: "multiple-choice",
-            question: "the concert during which the singer fainted",
+            question: "Which is correct for: the concert during which the singer fainted?",
             options: ["le concert au cours duquel le chanteur s'est évanoui", "le concert au cours dont le chanteur s'est évanoui", "le concert dont au cours le chanteur s'est évanoui", "le concert au cours de lequel le chanteur s'est évanoui"],
             correctIndex: 0,
             explanation: "\"Au cours de\" + \"lequel\" contracts to \"au cours duquel\".",
@@ -1124,7 +1124,7 @@ export const FR_B2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "the knife I cut the bread with",
+            question: "Which is correct for: the knife I cut the bread with?",
             options: ["le couteau avec lequel j'ai coupé le pain", "le couteau avec qui j'ai coupé le pain", "le couteau dont j'ai coupé le pain avec", "le couteau que j'ai coupé le pain avec"],
             correctIndex: 0,
             explanation: "A thing after a preposition → \"lequel\". \"Qui\" after a preposition is only for people.",
@@ -1136,7 +1136,7 @@ export const FR_B2_U21: Lesson[] = [
         body: [
           "After \"parmi\" (among) and \"entre\" (between), you always use \"lesquels / lesquelles\", even for people: \"les invités, parmi lesquels se trouvait le maire\". *\"Parmi qui\" is wrong.",
           "Notice the frequent inversion after these relatives in formal writing: \"parmi lesquels se trouvait le maire\" (subject after the verb). It sounds elegant when the subject is long or the verb is short.",
-          "Recap of contractions with à and de: \"auquel, à laquelle, auxquels, auxquelles\" / \"duquel, de laquelle, desquels, desquelles\". Only the masculine and plural forms contract; \"laquelle\" never does.",
+          "Recap of contractions with \"à\" and \"de\": \"auquel, à laquelle, auxquels, auxquelles\" / \"duquel, de laquelle, desquels, desquelles\". Only the masculine and plural forms contract; \"laquelle\" never does.",
         ],
         examples: [
           { es: "Il y avait cent invités, parmi lesquels plusieurs ministres.", en: "There were a hundred guests, among them several ministers." },
@@ -1212,7 +1212,7 @@ export const FR_B2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "the guests, among whom there was a famous singer",
+        question: "Which is correct for: the guests, among whom there was a famous singer?",
         options: ["les invités, parmi lesquels il y avait un chanteur célèbre", "les invités, parmi qui il y avait un chanteur célèbre", "les invités, dont parmi il y avait un chanteur célèbre", "les invités, parmi dont il y avait un chanteur célèbre"],
         correctIndex: 0,
         explanation: "\"Parmi\" is always followed by \"lesquels / lesquelles\".",
@@ -1306,8 +1306,8 @@ export const FR_B2_U21: Lesson[] = [
         heading: "Reported questions: si, ce que, ce qui",
         body: [
           "Yes/no questions become \"si\" (\"s'il\", but \"si elle\"): \"Tu viens ?\" → \"Il m'a demandé si je venais.\"",
-          "\"Qu'est-ce que\" becomes \"ce que\" and \"qu'est-ce qui\" becomes \"ce qui\": \"Qu'est-ce que tu fais ?\" → \"Elle m'a demandé ce que je faisais.\" Question words (où, quand, comment, pourquoi, combien) stay. No inversion and no \"est-ce que\" in an indirect question.",
-          "The commonest dictation error is writing \"ce qu'il\" when you hear \"ce qui\": \"ce qui se passait\" (subject) vs \"ce qu'il faisait\" (object + il). Check whether a subject follows.",
+          "\"Qu'est-ce que\" becomes \"ce que\" and \"qu'est-ce qui\" becomes \"ce qui\": \"Qu'est-ce que tu fais ?\" → \"Elle m'a demandé ce que je faisais.\" Question words (\"où\", \"quand\", \"comment\", \"pourquoi\", \"combien\") stay. No inversion and no \"est-ce que\" in an indirect question.",
+          "The commonest dictation error is writing \"ce qu'il\" when you hear \"ce qui\": \"ce qui se passait\" (subject) vs \"ce qu'il faisait\" (object + \"il\"). Check whether a subject follows.",
         ],
         examples: [
           { es: "Il m'a demandé si je venais à la réunion.", en: "He asked me if I was coming to the meeting." },
@@ -1483,7 +1483,7 @@ export const FR_B2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "In 1990, the last trawler left the harbour.",
+            question: "Which is correct for: In 1990, the last trawler left the harbour?",
             options: ["En 1990, le dernier chalutier a quitté le port.", "En 1990, le dernier chalutier quittait le port.", "En 1990, le dernier chalutier avait quitté le port.", "En 1990, le dernier chalutier quitterait le port."],
             correctIndex: 0,
             explanation: "A single dated event → passé composé.",
@@ -1596,7 +1596,7 @@ export const FR_B2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "the year when the storm destroyed the harbour",
+        question: "Which is correct for: the year when the storm destroyed the harbour?",
         options: ["l'année où la tempête a détruit le port", "l'année quand la tempête a détruit le port", "l'année que la tempête a détruit le port", "l'année dont la tempête a détruit le port"],
         correctIndex: 0,
         explanation: "\"Où\" after a time noun.",
@@ -1793,7 +1793,7 @@ export const FR_B2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "If the journalist hadn't published the article, nobody would have known.",
+        question: "Which is correct for: If the journalist hadn't published the article, nobody would have known?",
         options: ["Si la journaliste n'avait pas publié l'article, personne ne l'aurait su.", "Si la journaliste n'aurait pas publié l'article, personne ne l'aurait su.", "Si la journaliste ne publiait pas l'article, personne ne l'aurait su.", "Si la journaliste n'avait pas publié l'article, personne ne le saura."],
         correctIndex: 0,
         explanation: "\"Si\" + plus-que-parfait → conditionnel passé. Never a conditional after \"si\".",
@@ -1916,7 +1916,7 @@ export const FR_B2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "the shelf I put the books on",
+            question: "Which is correct for: the shelf I put the books on?",
             options: ["l'étagère sur laquelle j'ai mis les livres", "l'étagère où j'ai mis les livres sur", "l'étagère que j'ai mis les livres sur", "l'étagère dont j'ai mis les livres"],
             correctIndex: 0,
             explanation: "\"Sur\" + \"laquelle\": the preposition always goes before the relative.",
@@ -2002,7 +2002,7 @@ export const FR_B2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "I don't know what he was talking about.",
+        question: "Which is correct for: I don't know what he was talking about?",
         options: ["Je ne sais pas de quoi il parlait.", "Je ne sais pas ce qu'il parlait.", "Je ne sais pas ce dont qu'il parlait.", "Je ne sais pas qu'est-ce qu'il parlait."],
         correctIndex: 0,
         explanation: "In an indirect question, preposition + \"quoi\": \"de quoi il parlait\". (\"Ce dont il parlait\" is also correct.)",

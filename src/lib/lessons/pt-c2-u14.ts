@@ -16,7 +16,7 @@ export const PT_C2_U14: Lesson[] = [
         heading: "Mágoa: the hurt someone leaves",
         body: [
           "\"Mágoa\" is the emotional hurt caused by someone's words or actions, the kind that lingers. English splits it between hurt, sorrow and grievance; Portuguese has one precise word. The family: \"magoar\" (to hurt someone's feelings), \"magoado\" (hurt), \"magoar-se com\" (to be hurt by). You can \"guardar mágoa de alguém\" (hold on to the hurt) or \"superar a mágoa\" (get over it).",
-          "Use \"com\" for the person or the thing: \"fiquei magoado com ele\", \"ela se magoou com o comentário\". The common slip is \"magoado de\" or \"magoado por ele\": \"por\" works only for the cause, as in \"magoada por não ter sido convidada\". In Brazil \"magoar\" is almost always emotional; for a physical injury say \"machucar\": \"machuquei o joelho\". \"Ele me magoou\" is about feelings, \"ele me machucou\" about bodies (or, figuratively, about feelings too).",
+          "Use \"com\" for the person or the thing: \"fiquei magoado com ele\", \"ela se magoou com o comentário\". The common slip is \"magoado de\". With \"ficar magoado\", keep \"por\" for the cause, as in \"magoada por não ter sido convidada\"; \"por ele\" belongs to the passive (\"fui magoado por ele\"). In Brazil \"magoar\" is almost always emotional; for a physical injury say \"machucar\": \"machuquei o joelho\". \"Ele me magoou\" is about feelings, \"ele me machucou\" about bodies (or, figuratively, about feelings too).",
         ],
         examples: [
           { es: "O comentário dela me magoou muito.", en: "Her comment really hurt me." },
@@ -170,9 +170,9 @@ export const PT_C2_U14: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into Portuguese.",
         source: "Don't put the blame on me!",
-        answer: "Não bota a culpa em mim!",
-        altAnswers: ["Não ponha a culpa em mim!", "Não bote a culpa em mim!", "Não põe a culpa em mim!", "Não me culpe!", "Não jogue a culpa em mim!", "Não joga a culpa em mim!"],
-        explanation: "\"Botar\" or \"pôr a culpa em\" = to put the blame on. In speech Brazilians often use the indicative form for the negative imperative (\"não bota\").",
+        answer: "Não ponha a culpa em mim!",
+        altAnswers: ["Não bota a culpa em mim!", "Não bote a culpa em mim!", "Não põe a culpa em mim!", "Não me culpe!", "Não jogue a culpa em mim!", "Não joga a culpa em mim!"],
+        explanation: "\"Botar\" or \"pôr a culpa em\" = to put the blame on. \"Não ponha\" is the standard negative imperative; in speech Brazilians often use the indicative form instead (\"não bota\", \"não põe\").",
       },
       {
         type: "word-order",
@@ -183,7 +183,7 @@ export const PT_C2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A friend cancelled your birthday dinner at the last minute and you still feel it. Which word fits best?",
+        question: "A friend canceled your birthday dinner at the last minute and you still feel it. Which word fits best?",
         options: ["mágoa", "remorso", "culpa", "arrependimento"],
         correctIndex: 0,
         explanation: "The hurt someone else caused you is \"mágoa\". \"Remorso\", \"culpa\" and \"arrependimento\" are about your own actions.",
@@ -315,15 +315,15 @@ export const PT_C2_U14: Lesson[] = [
       {
         heading: "Orgulho or vaidade? Ansiedade or angústia?",
         body: [
-          "\"Orgulho\" is pride, good or bad. \"Tenho orgulho de você\" (I'm proud of you), \"o orgulho de ser nordestino\". But \"ele é orgulhoso\" usually means haughty, too proud to apologise. \"Vaidade\" is vanity, care for one's image; in Brazil \"ela é vaidosa\" often just means she takes care of her appearance, not a sin.",
+          "\"Orgulho\" is pride, good or bad. \"Tenho orgulho de você\" (I'm proud of you), \"o orgulho de ser nordestino\". But \"ele é orgulhoso\" usually means haughty, too proud to apologize. \"Vaidade\" is vanity, care for one's image; in Brazil \"ela é vaidosa\" often just means she takes care of her appearance, not a sin.",
           "\"Ansiedade\" is anxiety about what's coming, and also eagerness: \"estou ansioso pela viagem\" means I can't wait. \"Angústia\" is heavier: a tight, oppressive distress in the chest, sometimes without a clear cause; \"angustiado\" is the state, \"angustiante\" the situation. English anguish exists, but it's rarer than \"angústia\".",
         ],
         examples: [
           { es: "Tenho muito orgulho de você.", en: "I'm very proud of you." },
-          { es: "Ele é orgulhoso demais para pedir desculpas.", en: "He's too proud to apologise." },
+          { es: "Ele é orgulhoso demais para pedir desculpas.", en: "He's too proud to apologize." },
           { es: "Ela é vaidosa e adora se arrumar.", en: "She cares about her looks and loves getting dressed up." },
           { es: "Estou ansiosa para ver o show.", en: "I can't wait to see the concert." },
-          { es: "A espera pelo resultado foi angustiante.", en: "Waiting for the result was agonising." },
+          { es: "A espera pelo resultado foi angustiante.", en: "Waiting for the result was agonizing." },
           { es: "Senti uma angústia que eu não sabia explicar.", en: "I felt a kind of anguish I couldn't explain." },
         ],
         checkpoint: [
@@ -331,7 +331,7 @@ export const PT_C2_U14: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "He's too proud to apologise.",
+            source: "He's too proud to apologize.",
             answer: "Ele é orgulhoso demais para pedir desculpas.",
             altAnswers: ["Ele é orgulhoso demais para pedir desculpa.", "Ele é muito orgulhoso para pedir desculpas.", "Ele é orgulhoso demais pra pedir desculpas.", "Ele é orgulhoso demais para se desculpar."],
             explanation: "\"Orgulhoso\" as a trait is usually negative: haughty, stubborn. Being proud of someone is \"ter orgulho de\".",
@@ -388,7 +388,7 @@ export const PT_C2_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Waiting for the biopsy was agonising.",
+        source: "Waiting for the biopsy was agonizing.",
         answer: "A espera pela biópsia foi angustiante.",
         altAnswers: ["Esperar pela biópsia foi angustiante.", "Esperar o resultado da biópsia foi angustiante.", "A espera pelo resultado da biópsia foi angustiante.", "Esperar a biópsia foi angustiante."],
         explanation: "\"Angustiante\" describes a situation that causes \"angústia\", a heavy, oppressive anxiety.",
@@ -484,10 +484,10 @@ export const PT_C2_U14: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your friend criticises his ex's new boyfriend non-stop. Someone says \"Isso é dor de cotovelo\". What do they mean?",
+            question: "Your friend criticizes his ex's new boyfriend non-stop. Someone says \"Isso é dor de cotovelo\". What do they mean?",
             options: ["His criticism is really jealousy.", "He has hurt his elbow.", "He is grieving a death.", "He is embarrassed for the new boyfriend."],
             correctIndex: 0,
-            explanation: "\"Dor de cotovelo\" is the jealousy of the one left behind; labelling a criticism as such dismisses it as sour grapes.",
+            explanation: "\"Dor de cotovelo\" is the jealousy of the one left behind; labeling a criticism as such dismisses it as sour grapes.",
           },
         ],
       },
@@ -495,7 +495,7 @@ export const PT_C2_U14: Lesson[] = [
         heading: "Banzo: a word from slavery",
         body: [
           "\"Banzo\" names the deadly melancholy of enslaved Africans torn from their homeland: a longing so deep that, chroniclers recorded, people stopped eating, fell silent and died. The word probably comes from Kimbundu, the Bantu language of Angola, and it belongs to the history of the slave trade. Writers and musicians use it today for a deep, ancestral longing, often in conscious homage to Black Brazilian history.",
-          "Treat it with care. \"Banzo\" is not a cute synonym for \"saudade\": using it for missing your holidays empties the word of its history. In analysis: \"o banzo, a tristeza mortal dos africanos escravizados\".",
+          "Treat it with care. \"Banzo\" is not a cute synonym for \"saudade\": using it for missing your vacation empties the word of its history. In analysis: \"o banzo, a tristeza mortal dos africanos escravizados\".",
         ],
         examples: [
           { es: "Os cronistas descreviam o banzo como uma tristeza que levava à morte.", en: "Chroniclers described banzo as a sadness that led to death." },
@@ -518,7 +518,7 @@ export const PT_C2_U14: Lesson[] = [
             question: "Which use of \"banzo\" respects the word?",
             options: ["O poema fala do banzo dos africanos trazidos à força para o Brasil.", "Que banzo das minhas férias em Floripa!", "Estou com banzo porque acabou a série.", "Me deu um banzo de pizza."],
             correctIndex: 0,
-            explanation: "\"Banzo\" carries the history of the slave trade. Using it for holidays or pizza trivialises it; that's \"saudade\".",
+            explanation: "\"Banzo\" carries the history of the slave trade. Using it for vacations or pizza trivializes it; that's \"saudade\".",
           },
           {
             type: "speak",
@@ -533,7 +533,7 @@ export const PT_C2_U14: Lesson[] = [
         body: [
           "\"Vergonha alheia\" is embarrassment felt on someone else's behalf: watching a best man's disastrous speech, you feel \"vergonha alheia\". English now says cringe; Portuguese had the precise phrase first. \"Alheio\" means belonging to others, as in \"a dor alheia\" (other people's pain).",
           "\"Desalento\" is the loss of encouragement, the point where you stop trying; it is quieter than despair (\"desespero\"). It is even a statistical term: Brazil's IBGE counts the \"desalentados\", people who have given up looking for work.",
-          "\"Deslumbramento\" is dazzlement, being overwhelmed by beauty or splendour: \"o deslumbramento diante do mar\". But \"deslumbrado\" applied to a person is usually pejorative: someone carried away by new money, fame or status.",
+          "\"Deslumbramento\" is dazzlement, being overwhelmed by beauty or splendor: \"o deslumbramento diante do mar\". But \"deslumbrado\" applied to a person is usually pejorative: someone carried away by new money, fame or status.",
         ],
         examples: [
           { es: "Senti vergonha alheia durante o discurso do padrinho.", en: "I cringed for him all through the best man's speech." },
@@ -746,7 +746,7 @@ export const PT_C2_U14: Lesson[] = [
           {
             type: "speak",
             text: "Nós nos orgulhamos do trabalho da equipe.",
-            tip: "\"Nos orgulhamos\": the n of \"nos\" glides straight into the vowel: nu-zor-gu-LYA-mus.",
+            tip: "\"Nos orgulhamos\": the s of \"nos\" links to the next vowel as a z: nu-zor-gu-LYA-mus.",
             explanation: "\"Orgulhar-se de\": with \"nós\" the reflexive is \"nos\". In speech, \"a gente se orgulha\".",
           },
         ],
@@ -781,7 +781,7 @@ export const PT_C2_U14: Lesson[] = [
             en: "It bothered me that nobody [had warned] the family.",
             sentence: "Me incomodou que ninguém ___ a família.",
             answer: "tivesse avisado",
-            altAnswers: ["houvesse avisado", "avisasse"],
+            altAnswers: ["houvesse avisado"],
             explanation: "Past main verb, earlier event: pluperfect subjunctive \"tivesse avisado\".",
           },
           {
@@ -882,7 +882,7 @@ export const PT_C2_U14: Lesson[] = [
         type: "speak",
         text: "Me incomodou que ninguém tivesse avisado a família.",
         prompt: "Say it in Portuguese: It bothered me that nobody had told the family.",
-        tip: "\"Tivesse\" is stressed on \"ve\": tchi-VÉ-si, with the t before i as \"tch\".",
+        tip: "\"Tivesse\" is stressed on \"ve\", with a closed ê: tchi-VÊ-si, and the t before i as \"tch\".",
         explanation: "Past main verb, earlier event: pluperfect subjunctive.",
       },
     ],
@@ -958,7 +958,7 @@ export const PT_C2_U14: Lesson[] = [
             question: "A colleague's mother has just died. Which reaction fits the intensity?",
             options: ["Imagino que você esteja arrasado. Sinto muito.", "Imagino que você esteja um pouco chateado.", "Que chato, hein?", "Fica de boa, vai passar."],
             correctIndex: 0,
-            explanation: "A death calls for the top of the scale (\"arrasado\") and a condolence formula (Unit 11). \"Um pouco chateado\" and \"que chato\" minimise it.",
+            explanation: "A death calls for the top of the scale (\"arrasado\") and a condolence formula (Unit 11). \"Um pouco chateado\" and \"que chato\" minimize it.",
           },
           {
             type: "speak",
@@ -1097,7 +1097,7 @@ export const PT_C2_U14: Lesson[] = [
     level: "PT-C2",
     number: 6,
     title: "Talking About Mental Health",
-    summary: "Terapia, crise de ansiedade, luto, acolhimento, rede de apoio: the current, respectful Brazilian vocabulary of mental health, and the stigmatising words to avoid.",
+    summary: "Terapia, crise de ansiedade, luto, acolhimento, rede de apoio: the current, respectful Brazilian vocabulary of mental health, and the stigmatizing words to avoid.",
     duration: "17 min",
     kind: "teach",
     sections: [
@@ -1112,7 +1112,7 @@ export const PT_C2_U14: Lesson[] = [
           { es: "Faço terapia há dois anos, e isso tem me ajudado muito.", en: "I've been in therapy for two years and it's helped me a lot." },
           { es: "Ela teve uma crise de ansiedade antes da prova.", en: "She had an anxiety attack before the exam." },
           { es: "O psiquiatra ajustou a dose do remédio.", en: "The psychiatrist adjusted the dose of the medication." },
-          { es: "Ele foi afastado do trabalho por síndrome de burnout.", en: "He was signed off work with burnout." },
+          { es: "Ele foi afastado do trabalho por síndrome de burnout.", en: "He was put on medical leave for burnout." },
           { es: "O CVV atende pelo número 188, a qualquer hora.", en: "The CVV answers on 188, at any time." },
         ],
         checkpoint: [
@@ -1138,7 +1138,7 @@ export const PT_C2_U14: Lesson[] = [
         heading: "Luto, acolhimento, rede de apoio",
         body: [
           "\"Luto\" is both mourning and grief: \"estar de luto\" (to be in mourning), \"viver o luto\", \"o processo de luto\". Therapists speak of \"elaborar o luto\" (to work through grief), and a phrase you'll hear often is \"luto não tem prazo\" (grief has no deadline).",
-          "\"Acolhimento\" is central to Brazilian care language and has no tidy English equivalent: being received with warmth, listened to without judgement. \"Me senti acolhida\", \"um espaço de acolhimento\", \"acolher a dor do outro\". A \"rede de apoio\" is your support network: family, friends, professionals. Asking \"você tem uma rede de apoio?\" is a natural, caring question.",
+          "\"Acolhimento\" is central to Brazilian care language and has no tidy English equivalent: being received with warmth, listened to without judgment. \"Me senti acolhida\", \"um espaço de acolhimento\", \"acolher a dor do outro\". A \"rede de apoio\" is your support network: family, friends, professionals. Asking \"você tem uma rede de apoio?\" is a natural, caring question.",
         ],
         examples: [
           { es: "Ela ainda está de luto pela mãe.", en: "She's still in mourning for her mother." },
@@ -1176,9 +1176,9 @@ export const PT_C2_U14: Lesson[] = [
       {
         heading: "Words that hurt, and what to say instead",
         body: [
-          "Some everyday words stigmatise. Don't use \"louco\", \"doido\" or \"maluco\" for someone with a mental illness, and avoid diagnoses as insults (\"ela é bipolar\" for moody, \"sou muito TOC\" for tidy). \"Depressão é frescura\" (depression is just being fussy) is the classic stigmatising phrase. Prefer person-first language: \"uma pessoa com esquizofrenia\", \"quem vive com depressão\".",
+          "Some everyday words stigmatize. Don't use \"louco\", \"doido\" or \"maluco\" for someone with a mental illness, and avoid diagnoses as insults (\"ela é bipolar\" for moody, \"sou muito TOC\" for tidy). \"Depressão é frescura\" (depression is just being fussy) is the classic stigmatizing phrase. Prefer person-first language: \"uma pessoa com esquizofrenia\", \"quem vive com depressão\".",
           "For suicide, Brazilian press guidelines, in line with the WHO, avoid \"cometer suicídio\", because \"cometer\" suggests a crime. Say \"morreu por suicídio\" or \"tirou a própria vida\". The September awareness campaign is \"Setembro Amarelo\".",
-          "And comfort without minimising: instead of \"isso não é nada\" or \"pensa positivo\", try \"faz sentido você se sentir assim\" or \"estou aqui com você\".",
+          "And comfort without minimizing: instead of \"isso não é nada\" or \"pensa positivo\", try \"faz sentido você se sentir assim\" or \"estou aqui com você\".",
         ],
         examples: [
           { es: "Ele é uma pessoa que vive com depressão.", en: "He's a person living with depression." },
@@ -1212,10 +1212,10 @@ export const PT_C2_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "She had a panic attack on the underground.",
+        source: "She had a panic attack on the subway.",
         answer: "Ela teve uma crise de pânico no metrô.",
         altAnswers: ["Ela teve um ataque de pânico no metrô.", "Ela teve uma crise de ansiedade no metrô.", "Ela teve uma crise de pânico dentro do metrô."],
-        explanation: "\"Crise de pânico\" or \"ataque de pânico\". In Brazil the underground is the \"metrô\".",
+        explanation: "\"Crise de pânico\" or \"ataque de pânico\". In Brazil the subway is the \"metrô\".",
       },
       {
         type: "translate",
@@ -1247,7 +1247,7 @@ export const PT_C2_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "He was signed off work with burnout.",
+        source: "He was put on medical leave for burnout.",
         answer: "Ele foi afastado do trabalho por burnout.",
         altAnswers: ["Ele foi afastado do trabalho por síndrome de burnout.", "Ele foi afastado do trabalho por esgotamento.", "Ele foi afastado do trabalho por causa de burnout.", "Ele foi afastado por síndrome de burnout.", "Ele foi afastado do trabalho por esgotamento profissional."],
         explanation: "\"Ser afastado do trabalho\" = to be put on sick leave. \"Esgotamento profissional\" is the Portuguese name for burnout.",
@@ -1265,7 +1265,7 @@ export const PT_C2_U14: Lesson[] = [
         question: "A friend tells you she's been very anxious. Which reply is supportive?",
         options: ["Faz sentido você se sentir assim. Quer conversar?", "Isso é frescura, logo passa.", "Pensa positivo que melhora.", "Você está doida?"],
         correctIndex: 0,
-        explanation: "Validating the feeling and offering to listen is \"acolhimento\". The others minimise or stigmatise.",
+        explanation: "Validating the feeling and offering to listen is \"acolhimento\". The others minimize or stigmatize.",
       },
       {
         type: "translate",
@@ -1282,7 +1282,7 @@ export const PT_C2_U14: Lesson[] = [
         question: "What does it mean?",
         options: ["He's a person living with schizophrenia.", "He lives with a person who has schizophrenia.", "He's a schizophrenic, unfortunately.", "He used to have schizophrenia."],
         correctIndex: 0,
-        explanation: "Person-first language: \"uma pessoa que vive com\" rather than labelling him by the illness.",
+        explanation: "Person-first language: \"uma pessoa que vive com\" rather than labeling him by the illness.",
       },
       {
         type: "dictation",
@@ -1354,7 +1354,7 @@ export const PT_C2_U14: Lesson[] = [
           { es: "Me dá vergonha pedir ajuda.", en: "Asking for help embarrasses me." },
           { es: "Estou com raiva de você hoje.", en: "I'm angry with you today." },
           { es: "Ele tem raiva do pai até hoje.", en: "He still resents his father to this day." },
-          { es: "Me dá raiva quando furam a fila.", en: "It makes me angry when people jump the queue." },
+          { es: "Me dá raiva quando furam a fila.", en: "It makes me angry when people cut in line." },
         ],
         checkpoint: [
           {
@@ -1427,7 +1427,7 @@ export const PT_C2_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I'm so jealous of your holiday in Paraty!",
+        source: "I'm so jealous of your vacation in Paraty!",
         answer: "Que inveja das suas férias em Paraty!",
         altAnswers: ["Que inveja das tuas férias em Paraty!", "Estou com muita inveja das suas férias em Paraty!", "Tô morrendo de inveja das suas férias em Paraty!", "Que inveja das suas férias em Paraty, hein!"],
         explanation: "Wanting what a friend has, said affectionately: \"que inveja!\". \"Férias\" is always plural.",
@@ -1445,7 +1445,7 @@ export const PT_C2_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "It makes me angry when people talk during the film.",
+        source: "It makes me angry when people talk during the movie.",
         answer: "Me dá raiva quando as pessoas conversam durante o filme.",
         altAnswers: ["Me dá raiva quando falam durante o filme.", "Me irrita quando as pessoas conversam durante o filme.", "Me dá raiva quando o pessoal conversa durante o filme.", "Me dá raiva quando as pessoas falam durante o filme.", "Fico com raiva quando as pessoas conversam durante o filme."],
         explanation: "\"Me dá raiva quando\": the situation causes the anger each time.",
@@ -1480,7 +1480,7 @@ export const PT_C2_U14: Lesson[] = [
         source: "The nurse treated the patients with compassion.",
         answer: "A enfermeira tratou os pacientes com compaixão.",
         altAnswers: ["O enfermeiro tratou os pacientes com compaixão.", "A enfermeira tratava os pacientes com compaixão.", "O enfermeiro tratava os pacientes com compaixão."],
-        explanation: "\"Compaixão\" is the dignified word; \"pena\" would sound patronising here.",
+        explanation: "\"Compaixão\" is the dignified word; \"pena\" would sound patronizing here.",
       },
       {
         type: "dictation",
@@ -1521,7 +1521,7 @@ export const PT_C2_U14: Lesson[] = [
       {
         heading: "Preciso desabafar",
         body: [
-          "It's one in the morning in Porto Alegre. Beatriz has just called off her engagement and has asked Lucas, her friend since university, to come over. \"Desabafar\" (to pour your heart out, literally to let air out) is what she needs, and the Brazilian ritual starts with a request and an invitation: \"Posso te contar uma coisa?\" / \"Fala, tô aqui.\"",
+          "It's one in the morning in Porto Alegre. Beatriz has just called off her engagement and has asked Lucas, her friend since college, to come over. \"Desabafar\" (to pour your heart out, literally to let air out) is what she needs, and the Brazilian ritual starts with a request and an invitation: \"Posso te contar uma coisa?\" / \"Fala, tô aqui.\"",
           "The register is intimate speech: \"a gente\", \"tá\", \"pra\", \"te\" with \"você\". Listening phrases do much of the work: \"sem pressa\" (take your time), \"imagino\", \"nossa\", \"e aí?\" (and then?).",
         ],
         examples: [
@@ -1864,7 +1864,7 @@ export const PT_C2_U14: Lesson[] = [
         en: "It hurt me that he [hadn't called].",
         sentence: "Me doeu que ele não ___.",
         answer: "tivesse ligado",
-        altAnswers: ["ligasse", "houvesse ligado"],
+        altAnswers: ["houvesse ligado"],
         explanation: "Past emotion verb + earlier event: pluperfect subjunctive.",
       },
       {
@@ -1888,7 +1888,7 @@ export const PT_C2_U14: Lesson[] = [
         question: "A learner writes to a colleague whose father has died: \"Fiquei um pouco chateado com a notícia.\" What's the problem?",
         options: ["The intensity is far too low for a death; \"sinto muito\" or \"fiquei muito abalado\" fits.", "\"Chateado\" means bored.", "The verb should be \"estar\".", "Nothing: it's a standard condolence."],
         correctIndex: 0,
-        explanation: "\"Um pouco chateado\" suits a cancelled dinner, not a death. Condolences call for \"sinto muito\" and stronger words.",
+        explanation: "\"Um pouco chateado\" suits a canceled dinner, not a death. Condolences call for \"sinto muito\" and stronger words.",
       },
       {
         type: "translate",
@@ -1926,7 +1926,7 @@ export const PT_C2_U14: Lesson[] = [
     level: "PT-C2",
     number: 10,
     title: "Real-World Mission: A Letter You Never Sent",
-    summary: "Write a personal letter that holds a complex mix of feelings with precision: naming the feeling, holding contradictions with por mais que and não que, and closing without rancour.",
+    summary: "Write a personal letter that holds a complex mix of feelings with precision: naming the feeling, holding contradictions with por mais que and não que, and closing without rancor.",
     duration: "18 min",
     kind: "skills",
     format: "Real-World Mission",
@@ -2008,7 +2008,7 @@ export const PT_C2_U14: Lesson[] = [
         ],
       },
       {
-        heading: "Step 3: close without rancour",
+        heading: "Step 3: close without rancor",
         body: [
           "A good unsent letter ends with a position, not a verdict: \"não guardo rancor, mas também não finjo que esqueci\", \"te desejo paz, de verdade\", \"talvez um dia eu tenha coragem de te mandar esta carta\". The closing formula sets the distance: \"um abraço\" (warm but neutral), \"com carinho\", \"com amor\", or just your name.",
         ],
@@ -2033,7 +2033,7 @@ export const PT_C2_U14: Lesson[] = [
             type: "speak",
             text: "Não guardo rancor, mas também não finjo que esqueci.",
             tip: "\"Rancor\" is stressed on the last syllable: hã-KÔR, with the initial r like an h.",
-            explanation: "Two negatives balance the sentence: no grudge, no pretence.",
+            explanation: "Two negatives balance the sentence: no grudge, no pretense.",
           },
         ],
       },
@@ -2140,7 +2140,7 @@ export const PT_C2_U14: Lesson[] = [
       {
         heading: "Feelings in poetry and proverbs",
         body: [
-          "Portuguese literature has always described feelings through figures. Camões defines love by antithesis: \"Amor é fogo que arde sem se ver; / é ferida que dói, e não se sente\". Vinicius de Moraes, in the \"Soneto de Fidelidade\", wishes of love \"que não seja imortal, posto que é chama, / mas que seja infinito enquanto dure\": here \"posto que\" is causal (since it is a flame), the very use grammarians criticise, made immortal by a poet. Proverbs do the same in miniature: \"o que os olhos não veem, o coração não sente\".",
+          "Portuguese literature has always described feelings through figures. Camões defines love by antithesis: \"Amor é fogo que arde sem se ver; / é ferida que dói, e não se sente\". Vinicius de Moraes, in the \"Soneto de Fidelidade\", wishes of love \"que não seja imortal, posto que é chama, / mas que seja infinito enquanto dure\": here \"posto que\" is causal (since it is a flame), the very use grammarians criticize, made immortal by a poet. Proverbs do the same in miniature: \"o que os olhos não veem, o coração não sente\".",
         ],
         examples: [
           { es: "Amor é fogo que arde sem se ver.", en: "Love is a fire that burns unseen. (Camões)" },
@@ -2170,7 +2170,7 @@ export const PT_C2_U14: Lesson[] = [
       {
         heading: "Feelings and tact",
         body: [
-          "Unit 11's social intelligence meets this unit's precision. A condolence names the loss without minimising it (\"sinto muito pela sua perda\", \"imagino como você deve estar\"); a hint of hurt can be indirect (\"fiquei um pouco sentido, confesso\"); and \"sentido\" here means hurt, offended. Euphemism softens what is hard to say: \"ele nos deixou\", \"partiu\", \"descansou\" for died.",
+          "Unit 11's social intelligence meets this unit's precision. A condolence names the loss without minimizing it (\"sinto muito pela sua perda\", \"imagino como você deve estar\"); a hint of hurt can be indirect (\"fiquei um pouco sentido, confesso\"); and \"sentido\" here means hurt, offended. Euphemism softens what is hard to say: \"ele nos deixou\", \"partiu\", \"descansou\" for died.",
         ],
         examples: [
           { es: "Imagino como você deve estar. Sinto muito pela sua perda.", en: "I can imagine how you must be feeling. I'm so sorry for your loss." },
@@ -2186,13 +2186,13 @@ export const PT_C2_U14: Lesson[] = [
             source: "I was a little hurt, I admit.",
             answer: "Fiquei um pouco sentido, confesso.",
             altAnswers: ["Fiquei um pouco sentida, confesso.", "Confesso que fiquei um pouco sentido.", "Confesso que fiquei um pouco sentida.", "Fiquei um pouco magoado, confesso.", "Fiquei um pouco magoada, confesso."],
-            explanation: "\"Sentido\" is a soft, slightly old-fashioned hurt: tactful for a minor offence.",
+            explanation: "\"Sentido\" is a soft, slightly old-fashioned hurt: tactful for a minor offense.",
           },
           {
             type: "listen-choose",
             audio: "Seu Antônio descansou ontem à noite.",
             question: "What does it mean?",
-            options: ["Seu Antônio passed away last night.", "Seu Antônio had a good rest last night.", "Seu Antônio went on holiday last night.", "Seu Antônio stopped working last night."],
+            options: ["Seu Antônio passed away last night.", "Seu Antônio had a good rest last night.", "Seu Antônio went on vacation last night.", "Seu Antônio stopped working last night."],
             correctIndex: 0,
             explanation: "\"Descansar\" is a gentle euphemism for to die, common in condolences.",
           },
@@ -2315,7 +2315,7 @@ export const PT_C2_U14: Lesson[] = [
         type: "speak",
         text: "Não guardo rancor, mas aquilo ainda me pesa.",
         prompt: "Say it in Portuguese: I don't hold a grudge, but that still weighs on me.",
-        tip: "\"Pesa\" has a closed ê: PÊ-za.",
+        tip: "\"Pesa\" has an open é: PÉ-za.",
         explanation: "\"Pesar\" with the experiencer as object: the past still weighs on the speaker.",
       },
       {

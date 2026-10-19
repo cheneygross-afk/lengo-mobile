@@ -1190,6 +1190,10 @@ concorrer|to compete, to run (for)
 fiscalizar|to inspect, to oversee
 regulamentar|to regulate
 formular|to formulate
+prover|to provide, to supply
+reaver|to get back, to recover
+polir|to polish
+frigir|to fry (literary; usual: fritar)
 `;
 
 function parse(): PtVerbSpec[] {

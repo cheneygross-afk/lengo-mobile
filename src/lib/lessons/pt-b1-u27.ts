@@ -16,7 +16,7 @@ export const PT_B1_U27: Lesson[] = [
         heading: "Faria: the conditional once more",
         body: [
           "The futuro do pretérito adds \"-ia\", \"-íamos\", \"-iam\" to the whole infinitive: \"eu falaria\", \"nós comeríamos\", \"eles partiriam\". Only three verbs shorten the stem: \"fazer\" → \"faria\", \"dizer\" → \"diria\", \"trazer\" → \"traria\". \"*Fazeria\" and \"*dizeria\" are the classic slips.",
-          "It covers English would in four jobs: politeness (\"você poderia me ajudar?\"), imagined situations (\"com mais dinheiro, eu moraria na praia\"), advice (\"eu no seu lugar ligaria para ela\") and the future seen from the past (\"ela disse que viria\"). In conversation Brazilians often use the imperfeito instead: \"eu queria um café\", \"eu ia adorar\".",
+          "It covers English would in four jobs: politeness (\"você poderia me ajudar?\"), imagined situations (\"com mais dinheiro, eu moraria na praia\"), advice (\"eu, no seu lugar, ligaria para ela\") and the future seen from the past (\"ela disse que viria\"). In conversation Brazilians often use the imperfeito instead: \"eu queria um café\", \"eu ia adorar\".",
           "One English would is not the conditional at all: would for a past habit (when I was a kid, I would play outside) is the imperfeito, \"eu brincava\".",
         ],
         examples: [
@@ -24,7 +24,7 @@ export const PT_B1_U27: Lesson[] = [
           { es: "No seu lugar, eu faria o exame logo.", en: "If I were you, I'd get the test done right away." },
           { es: "Com mais tempo, a gente viajaria pelo Nordeste inteiro.", en: "With more time, we'd travel all over the Northeast." },
           { es: "O técnico disse que traria a peça na segunda.", en: "The technician said he'd bring the part on Monday." },
-          { es: "Quando eu era criança, eu passava as férias em Recife.", en: "When I was a kid, I'd spend the holidays in Recife." },
+          { es: "Quando eu era criança, eu passava as férias em Recife.", en: "When I was a kid, I'd spend my vacations in Recife." },
         ],
         checkpoint: [
           {
@@ -66,17 +66,17 @@ export const PT_B1_U27: Lesson[] = [
           { es: "Eu nunca tinha visto o mar antes daquela viagem.", en: "I'd never seen the sea before that trip." },
           { es: "Quando o técnico chegou, eu já tinha resolvido o problema.", en: "When the technician arrived, I'd already sorted out the problem." },
           { es: "A gente ainda não tinha jantado quando a luz acabou.", en: "We hadn't had dinner yet when the power went out." },
-          { es: "O médico havia saído quando liguei para o consultório.", en: "The doctor had left when I called the surgery." },
+          { es: "O médico havia saído quando liguei para o consultório.", en: "The doctor had left when I called the office." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "When I arrived, the film had already started.",
+            source: "When I arrived, the movie had already started.",
             answer: "Quando eu cheguei, o filme já tinha começado.",
             altAnswers: ["Quando cheguei, o filme já tinha começado.", "Quando eu cheguei, o filme já havia começado.", "Quando cheguei, o filme já havia começado."],
-            explanation: "The film started before you arrived, so \"tinha começado\". \"Já\" goes right before \"tinha\".",
+            explanation: "The movie started before you arrived, so \"tinha começado\". \"Já\" goes right before \"tinha\".",
           },
           {
             type: "multiple-choice",
@@ -323,7 +323,7 @@ export const PT_B1_U27: Lesson[] = [
         examples: [
           { es: "Eles querem sair mais cedo hoje.", en: "They want to leave earlier today." },
           { es: "Nós precisamos terminar o relatório até sexta.", en: "We need to finish the report by Friday." },
-          { es: "Vamos jantar antes de ir ao cinema.", en: "Let's have dinner before going to the cinema." },
+          { es: "Vamos jantar antes de ir ao cinema.", en: "Let's have dinner before going to the movies." },
           { es: "Quero que vocês conheçam a minha cidade.", en: "I want you to get to know my city." },
           { es: "Ela prefere que a gente chegue às oito.", en: "She'd rather we arrived at eight." },
         ],
@@ -447,7 +447,7 @@ export const PT_B1_U27: Lesson[] = [
       {
         heading: "Preposition first: em que, de que, com quem",
         body: [
-          "The preposition the verb needs moves in front of the relative: \"a cidade em que nasci\", \"o filme de que gostei\", \"a amiga com quem viajei\". English leaves it at the end (the friend I travelled with); Portuguese never does.",
+          "The preposition the verb needs moves in front of the relative: \"a cidade em que nasci\", \"o filme de que gostei\", \"a amiga com quem viajei\". English leaves it at the end (the friend I traveled with); Portuguese never does.",
           "After a preposition, things take \"que\" and people take \"quem\": \"o assunto de que falamos\", \"a pessoa de quem falamos\". With no preposition, people take plain \"que\" too: \"o vizinho que mora no 302\". In speech the preposition often vanishes (\"o filme que eu te falei\"); in writing, keep it.",
         ],
         examples: [
@@ -455,7 +455,7 @@ export const PT_B1_U27: Lesson[] = [
           { es: "Esse é o médico de quem eu te falei.", en: "That's the doctor I told you about." },
           { es: "O sócio com quem ela abriu a empresa mora em Campinas.", en: "The partner she started the company with lives in Campinas." },
           { es: "O aplicativo de que eu preciso é pago.", en: "The app I need isn't free." },
-          { es: "A vizinha que mora no 302 é enfermeira.", en: "The neighbour who lives in 302 is a nurse." },
+          { es: "A vizinha que mora no 302 é enfermeira.", en: "The neighbor who lives in 302 is a nurse." },
         ],
         checkpoint: [
           {
@@ -489,7 +489,7 @@ export const PT_B1_U27: Lesson[] = [
           { es: "A palestra durante a qual ele dormiu durou três horas.", en: "The talk he slept through lasted three hours." },
           { es: "Esses são os motivos pelos quais eu saí do emprego.", en: "Those are the reasons why I left the job." },
           { es: "Conheci um escritor cujos livros são famosos na Bahia.", en: "I met a writer whose books are famous in Bahia." },
-          { es: "A vizinha cuja filha estuda comigo é dentista.", en: "The neighbour whose daughter studies with me is a dentist." },
+          { es: "A vizinha cuja filha estuda comigo é dentista.", en: "The neighbor whose daughter studies with me is a dentist." },
         ],
         checkpoint: [
           {
@@ -525,7 +525,7 @@ export const PT_B1_U27: Lesson[] = [
           "\"O que\" refers back to a whole idea, not a noun: \"ele não ligou, o que me preocupou\". After a noun, plain \"que\" is enough: \"o carro que comprei\", never \"*o carro o que comprei\". \"Tudo o que\" means everything that, or all.",
         ],
         examples: [
-          { es: "O bairro onde a minha avó mora é muito tranquilo.", en: "The neighbourhood where my grandmother lives is very quiet." },
+          { es: "O bairro onde a minha avó mora é muito tranquilo.", en: "The neighborhood where my grandmother lives is very quiet." },
           { es: "A praia aonde a gente sempre vai fica a meia hora daqui.", en: "The beach we always go to is half an hour from here." },
           { es: "Eu me lembro bem do dia em que chegamos ao Brasil.", en: "I remember the day we arrived in Brazil well." },
           { es: "O ônibus atrasou uma hora, o que me deixou irritado.", en: "The bus was an hour late, which annoyed me." },
@@ -616,9 +616,9 @@ export const PT_B1_U27: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The friend I travelled with lives in Natal.",
+        prompt: "Put the words in order to say: The friend I traveled with lives in Natal.",
         words: ["A", "amiga", "com", "quem", "eu", "viajei", "mora", "em", "Natal."],
-        translation: "The friend I travelled with lives in Natal.",
+        translation: "The friend I traveled with lives in Natal.",
         explanation: "The preposition comes before \"quem\": \"com quem eu viajei\", never \"quem eu viajei com\".",
       },
       {
@@ -639,7 +639,7 @@ export const PT_B1_U27: Lesson[] = [
       {
         type: "speak",
         text: "Tudo o que eu quero é umas férias.",
-        prompt: "Say it in Portuguese: All I want is a holiday.",
+        prompt: "Say it in Portuguese: All I want is a vacation.",
         explanation: "\"Tudo o que\" is everything that; \"férias\" is always plural, so \"umas férias\".",
       },
     ],
@@ -649,7 +649,7 @@ export const PT_B1_U27: Lesson[] = [
     level: "PT-B1",
     number: 4,
     title: "Contrast Clinic: Cujo or De Quem?",
-    summary: "Split English whose into cujo for statements and de quem for questions, and recognise the spoken workaround a moça que o pai dela...",
+    summary: "Split English whose into cujo for statements and de quem for questions, and recognize the spoken workaround a moça que o pai dela...",
     duration: "12 min",
     kind: "reinforce",
     sections: [
@@ -661,10 +661,10 @@ export const PT_B1_U27: Lesson[] = [
           "With a preposition, the preposition goes before \"cujo\": \"a amiga em cuja casa fiquei\". This is quite formal; in speech people usually rephrase.",
         ],
         examples: [
-          { es: "O homem cujo carro bateu no meu pediu desculpas.", en: "The man whose car hit mine apologised." },
+          { es: "O homem cujo carro bateu no meu pediu desculpas.", en: "The man whose car hit mine apologized." },
           { es: "A mulher cujo filho estuda com o meu é médica.", en: "The woman whose son is at school with mine is a doctor." },
           { es: "É um país cuja cultura eu admiro muito.", en: "It's a country whose culture I really admire." },
-          { es: "Os vizinhos cujos cachorros latem a noite toda se mudaram.", en: "The neighbours whose dogs bark all night have moved out." },
+          { es: "Os vizinhos cujos cachorros latem a noite toda se mudaram.", en: "The neighbors whose dogs bark all night have moved out." },
           { es: "A amiga em cuja casa eu fiquei mora em Olinda.", en: "The friend whose house I stayed at lives in Olinda." },
         ],
         checkpoint: [
@@ -705,7 +705,7 @@ export const PT_B1_U27: Lesson[] = [
           { es: "De quem são essas chaves em cima da mesa?", en: "Whose are these keys on the table?" },
           { es: "É do seu Antônio, o porteiro.", en: "It's seu Antônio's, the doorman's." },
           { es: "Você sabe de quem é o carro na garagem?", en: "Do you know whose car that is in the garage?" },
-          { es: "Não faço ideia de quem é essa mochila.", en: "I've no idea whose backpack this is." },
+          { es: "Não faço ideia de quem é essa mochila.", en: "I have no idea whose backpack this is." },
         ],
         checkpoint: [
           {
@@ -737,7 +737,7 @@ export const PT_B1_U27: Lesson[] = [
       {
         heading: "A moça que o pai dela...: the spoken workaround",
         body: [
-          "\"Cujo\" is rare in casual speech. Many Brazilians build the clause with plain \"que\" and put a possessive later: \"a moça que o pai dela trabalha comigo\" (the girl whose father works with me). You'll hear it every day, so recognise it.",
+          "\"Cujo\" is rare in casual speech. Many Brazilians build the clause with plain \"que\" and put a possessive later: \"a moça que o pai dela trabalha comigo\" (the girl whose father works with me). You'll hear it every day, so recognize it.",
           "It counts as nonstandard, though, so don't write it in emails, exams or the Celpe-Bras. If \"cujo\" feels too formal in conversation, split the idea in two: \"conheci uma moça; o pai dela trabalha comigo\".",
         ],
         examples: [
@@ -805,7 +805,7 @@ export const PT_B1_U27: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The neighbours whose dog barks all night have moved out.",
+        source: "The neighbors whose dog barks all night have moved out.",
         answer: "Os vizinhos cujo cachorro late a noite toda se mudaram.",
         altAnswers: ["Os vizinhos cujo cachorro late a noite inteira se mudaram.", "Os vizinhos cujo cão late a noite toda se mudaram.", "Os vizinhos cujo cachorro late a noite toda mudaram."],
         explanation: "\"Cujo\" agrees with \"cachorro\" (singular), not with \"vizinhos\" (plural).",
@@ -848,7 +848,7 @@ export const PT_B1_U27: Lesson[] = [
       {
         type: "speak",
         text: "A vizinha cuja filha estuda comigo é dentista.",
-        prompt: "Say it in Portuguese: The neighbour whose daughter studies with me is a dentist.",
+        prompt: "Say it in Portuguese: The neighbor whose daughter studies with me is a dentist.",
         explanation: "\"Cuja filha\": feminine to match \"filha\".",
       },
     ],
@@ -902,7 +902,7 @@ export const PT_B1_U27: Lesson[] = [
         ],
         examples: [
           { es: "Você tem visto a Mariana?", en: "Have you been seeing Mariana?" },
-          { es: "Eles tinham posto a mesa antes de a gente chegar.", en: "They'd laid the table before we arrived." },
+          { es: "Eles tinham posto a mesa antes de a gente chegar.", en: "They'd set the table before we arrived." },
           { es: "Ela tinha escrito tudo num caderno.", en: "She'd written everything down in a notebook." },
           { es: "Quem tinha aberto a janela?", en: "Who had opened the window?" },
         ],
@@ -968,7 +968,7 @@ export const PT_B1_U27: Lesson[] = [
         examples: [
           { es: "Acabei de chegar do trabalho.", en: "I've just got back from work." },
           { es: "Ela parou de fumar no ano passado.", en: "She quit smoking last year." },
-          { es: "Voltei a jogar futebol com os amigos com quem eu jogava na escola.", en: "I've gone back to playing football with the friends I played with at school." },
+          { es: "Voltei a jogar futebol com os amigos com quem eu jogava na escola.", en: "I've gone back to playing soccer with the friends I played with at school." },
           { es: "Ando lendo um autor cujo nome eu sempre esqueço.", en: "I've been reading an author whose name I always forget." },
         ],
         checkpoint: [
@@ -1015,7 +1015,7 @@ export const PT_B1_U27: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We've been watching a lot of films.",
+        source: "We've been watching a lot of movies.",
         answer: "Temos visto muitos filmes.",
         altAnswers: ["Nós temos visto muitos filmes.", "A gente tem visto muitos filmes.", "Andamos vendo muitos filmes.", "A gente anda vendo muitos filmes.", "Nós andamos vendo muitos filmes.", "Temos assistido a muitos filmes.", "A gente tem assistido muitos filmes."],
         explanation: "Repeated up to now: \"temos visto\", with the irregular \"visto\". \"Andar\" + gerúndio is the casual version.",
@@ -1086,14 +1086,14 @@ export const PT_B1_U27: Lesson[] = [
       {
         heading: "Na recepção: what had been booked",
         body: [
-          "Camila has just checked in at a hotel in Florianópolis after a long trip from Belo Horizonte. The room she's given looks out over the car park, not the sea. She starts with the facts, using the mais-que-perfeito for what she'd arranged before arriving: \"o quarto que eu tinha reservado tinha vista para o mar\".",
+          "Camila has just checked in at a hotel in Florianópolis after a long trip from Belo Horizonte. The room she's given looks out over the parking lot, not the sea. She starts with the facts, using the mais-que-perfeito for what she'd arranged before arriving: \"o quarto que eu tinha reservado tinha vista para o mar\".",
           "Notice the two pasts of \"ter\" side by side: \"tinha reservado\" (had booked, before the arrival) and plain \"tinha\" (had, a description). Opening with \"acho que houve um engano\" (I think there's been a mistake) keeps the tone calm. \"Dar para\" is the everyday way to say a window or room faces something.",
         ],
         examples: [
           { es: "Camila: Boa noite. Acho que houve um engano com o meu quarto.", en: "Camila: Good evening. I think there's been a mistake with my room." },
           { es: "Diego: Pois não, senhora. Qual é o problema?", en: "Diego: Certainly, madam. What's the problem?" },
           { es: "Camila: O quarto que eu tinha reservado tinha vista para o mar.", en: "Camila: The room I'd booked had a sea view." },
-          { es: "Camila: O que vocês me deram dá para o estacionamento.", en: "Camila: The one you gave me looks out over the car park." },
+          { es: "Camila: O que vocês me deram dá para o estacionamento.", en: "Camila: The one you gave me looks out over the parking lot." },
           { es: "Diego: Deixa eu ver aqui no sistema. A senhora reservou pelo site?", en: "Diego: Let me check the system. Did you book through the website?" },
         ],
         checkpoint: [
@@ -1269,7 +1269,7 @@ export const PT_B1_U27: Lesson[] = [
         type: "listen-choose",
         audio: "O quarto dá para o estacionamento.",
         question: "What does it mean?",
-        options: ["The room looks out over the car park.", "The room is next to the car park entrance.", "The room comes with a parking space.", "You can park in front of the room."],
+        options: ["The room looks out over the parking lot.", "The room is next to the parking lot entrance.", "The room comes with a parking space.", "You can park in front of the room."],
         correctIndex: 0,
         explanation: "\"Dar para\" describes what a room or window faces.",
       },
@@ -1349,7 +1349,7 @@ export const PT_B1_U27: Lesson[] = [
           { es: "Tenho visitado meus pais todo domingo.", en: "I've been visiting my parents every Sunday." },
           { es: "Quando cheguei, ele já tinha saído.", en: "When I arrived, he'd already left. (not *já saiu)" },
           { es: "Todo verão a gente ia à praia em Maceió.", en: "Every summer we'd go to the beach in Maceió. (not *iria)" },
-          { es: "Você já viu esse filme?", en: "Have you seen this film?" },
+          { es: "Você já viu esse filme?", en: "Have you seen this movie?" },
         ],
         checkpoint: [
           {
@@ -1388,7 +1388,7 @@ export const PT_B1_U27: Lesson[] = [
         ],
         examples: [
           { es: "Eles querem sair cedo amanhã.", en: "They want to leave early tomorrow. (not *saírem)" },
-          { es: "É melhor vocês irem de metrô.", en: "You'd better take the metro. (not *vocês vão)" },
+          { es: "É melhor vocês irem de metrô.", en: "You'd better take the subway. (not *vocês vão)" },
           { es: "Li um livro cujo autor é de Fortaleza.", en: "I read a book whose author is from Fortaleza. (not *cujo o)" },
           { es: "A empresa para a qual eu trabalho fica em Barueri.", en: "The company I work for is in Barueri." },
           { es: "A pessoa com quem eu falei não sabia de nada.", en: "The person I spoke to didn't know anything." },
@@ -1460,7 +1460,7 @@ export const PT_B1_U27: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "A learner wrote \"*O filme o que eu vi foi ótimo.\" Write it correctly.",
-        source: "The film I saw was great.",
+        source: "The movie I saw was great.",
         answer: "O filme que eu vi foi ótimo.",
         altAnswers: ["O filme que vi foi ótimo.", "O filme a que eu assisti foi ótimo.", "O filme que eu assisti foi ótimo.", "O filme que assisti foi ótimo."],
         explanation: "After a noun, plain \"que\". \"O que\" refers to a whole idea, not to \"o filme\".",
@@ -1476,7 +1476,7 @@ export const PT_B1_U27: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "A learner wrote \"*A vizinha cuja o gato fugiu está triste.\" Write the Portuguese for the bold words.",
-        en: "The neighbour [whose] cat ran away is sad.",
+        en: "The neighbor [whose] cat ran away is sad.",
         sentence: "A vizinha ___ gato fugiu está triste.",
         answer: "cujo",
         explanation: "\"Cujo\" agrees with \"gato\" (masculine), and no article follows it.",
@@ -1596,7 +1596,7 @@ export const PT_B1_U27: Lesson[] = [
         ],
         examples: [
           { es: "O hotel onde ela ficou era no Pelourinho.", en: "The hotel where she stayed was in the Pelourinho." },
-          { es: "A amiga com quem ela viajou é de Curitiba.", en: "The friend she travelled with is from Curitiba." },
+          { es: "A amiga com quem ela viajou é de Curitiba.", en: "The friend she traveled with is from Curitiba." },
           { es: "Ela conheceu um guia cujo pai tinha um restaurante na Barra.", en: "She met a guide whose father had a restaurant in Barra." },
           { es: "Ela visitou a igreja de que a avó tinha falado.", en: "She visited the church her grandmother had talked about." },
           { es: "Choveu a semana toda, o que estragou os planos dela.", en: "It rained all week, which ruined her plans." },
@@ -1606,7 +1606,7 @@ export const PT_B1_U27: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The friend she travelled with is from Curitiba.",
+            source: "The friend she traveled with is from Curitiba.",
             answer: "A amiga com quem ela viajou é de Curitiba.",
             altAnswers: ["O amigo com quem ela viajou é de Curitiba.", "A amiga com quem viajou é de Curitiba.", "O amigo com quem viajou é de Curitiba."],
             explanation: "\"Viajar com\" + a person gives \"com quem\".",
@@ -1761,7 +1761,7 @@ export const PT_B1_U27: Lesson[] = [
         ],
         examples: [
           { es: "A minha prima abriu um café.", en: "My cousin opened a coffee shop." },
-          { es: "A minha prima abriu um café no bairro onde a gente cresceu.", en: "My cousin opened a café in the neighbourhood where we grew up." },
+          { es: "A minha prima abriu um café no bairro onde a gente cresceu.", en: "My cousin opened a café in the neighborhood where we grew up." },
           { es: "A minha prima, que morou dez anos em São Paulo, abriu um café.", en: "My cousin, who lived in São Paulo for ten years, opened a coffee shop." },
           { es: "Ela abriu um café cujo nome é uma homenagem à nossa avó.", en: "She opened a café whose name is a tribute to our grandmother." },
           { es: "O sócio com quem ela abriu o café é um amigo de infância.", en: "The partner she opened the café with is a childhood friend." },
@@ -1771,7 +1771,7 @@ export const PT_B1_U27: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "My cousin opened a café in the neighbourhood where we grew up.",
+            source: "My cousin opened a café in the neighborhood where we grew up.",
             answer: "A minha prima abriu um café no bairro onde a gente cresceu.",
             altAnswers: ["Minha prima abriu um café no bairro onde a gente cresceu.", "A minha prima abriu um café no bairro onde nós crescemos.", "Minha prima abriu um café no bairro onde nós crescemos.", "A minha prima abriu um café no bairro em que a gente cresceu.", "O meu primo abriu um café no bairro onde a gente cresceu.", "Meu primo abriu um café no bairro onde a gente cresceu.", "A minha prima abriu um café no bairro onde crescemos.", "Minha prima abriu um café no bairro em que crescemos."],
             explanation: "\"Onde\" (or \"em que\") introduces the place right after \"bairro\".",
@@ -1793,7 +1793,7 @@ export const PT_B1_U27: Lesson[] = [
           "Time phrases with the infinitive work the same way: \"depois de passar dez anos fora\" (same subject, plain), \"antes de os primeiros clientes chegarem\" (new subject, inflected).",
         ],
         examples: [
-          { es: "Ela abriu o café para os vizinhos terem um lugar para conversar.", en: "She opened the café so the neighbours would have a place to chat." },
+          { es: "Ela abriu o café para os vizinhos terem um lugar para conversar.", en: "She opened the café so the neighbors would have a place to chat." },
           { es: "Depois de passar dez anos fora, ela voltou para Belo Horizonte.", en: "After ten years away, she moved back to Belo Horizonte." },
           { es: "Ela chega às seis, antes de os primeiros clientes chegarem.", en: "She gets in at six, before the first customers arrive." },
           { es: "Ela contratou dois estudantes para eles ganharem uma renda extra.", en: "She hired two students so they could earn some extra money." },
@@ -1804,7 +1804,7 @@ export const PT_B1_U27: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "She opened the café so the neighbours would have a place to chat.",
+            source: "She opened the café so the neighbors would have a place to chat.",
             answer: "Ela abriu o café para os vizinhos terem um lugar para conversar.",
             altAnswers: ["Ela abriu o café pros vizinhos terem um lugar para conversar.", "Ela abriu o café para os vizinhos terem um lugar pra conversar.", "Abriu o café para os vizinhos terem um lugar para conversar.", "Ela abriu o café para os vizinhos terem um lugar onde conversar."],
             explanation: "A new subject after \"para\": \"os vizinhos terem\". The personal infinitive needs no change of tense.",
@@ -1834,7 +1834,7 @@ export const PT_B1_U27: Lesson[] = [
         ],
         examples: [
           { es: "Há dois meses, a minha prima abriu um café.", en: "Two months ago, my cousin opened a café." },
-          { es: "Eu adoraria trabalhar lá nos fins de semana.", en: "I'd love to work there at weekends." },
+          { es: "Eu adoraria trabalhar lá nos fins de semana.", en: "I'd love to work there on weekends." },
           { es: "No lugar dela, eu também venderia pão de queijo.", en: "In her place, I'd sell pão de queijo too." },
           { es: "O café, que tem feito muito sucesso, fica perto da praça.", en: "The café, which has been doing really well, is near the square." },
           { es: "Desde que ela abriu o café, a rua anda mais movimentada.", en: "Since she opened the café, the street has been busier." },
@@ -1863,7 +1863,7 @@ export const PT_B1_U27: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "My brother bought a flat in the building where our grandmother lived.",
+        source: "My brother bought an apartment in the building where our grandmother lived.",
         answer: "O meu irmão comprou um apartamento no prédio onde a nossa avó morava.",
         altAnswers: ["Meu irmão comprou um apartamento no prédio onde nossa avó morava.", "O meu irmão comprou um apartamento no prédio em que a nossa avó morava.", "Meu irmão comprou um apartamento no prédio em que nossa avó morava.", "O meu irmão comprou um apartamento no prédio onde a nossa avó morou.", "Meu irmão comprou um apartamento no prédio onde a nossa avó morava."],
         explanation: "\"Onde\" for the place, and the imperfeito \"morava\" for where she used to live.",
@@ -1881,7 +1881,7 @@ export const PT_B1_U27: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The neighbour whose son is an architect helped him.",
+        source: "The neighbor whose son is an architect helped him.",
         answer: "A vizinha cujo filho é arquiteto ajudou ele.",
         altAnswers: ["A vizinha cujo filho é arquiteto o ajudou.", "O vizinho cujo filho é arquiteto ajudou ele.", "O vizinho cujo filho é arquiteto o ajudou."],
         explanation: "\"Cujo\" agrees with \"filho\". In speech \"ajudou ele\"; in writing \"o ajudou\".",
@@ -1938,7 +1938,7 @@ export const PT_B1_U27: Lesson[] = [
       {
         type: "speak",
         text: "Ela abriu o café para os vizinhos terem um lugar para conversar.",
-        prompt: "Say it in Portuguese: She opened the café so the neighbours would have a place to chat.",
+        prompt: "Say it in Portuguese: She opened the café so the neighbors would have a place to chat.",
         explanation: "\"Para os vizinhos terem\": a purpose with a new subject.",
       },
     ],
@@ -1960,7 +1960,7 @@ export const PT_B1_U27: Lesson[] = [
           "Relatives make each place precise: \"o bairro onde eu moro\", \"a padaria em que eu tomo café\", \"o mercado de que te falei\". Use \"aonde\" for places you go to: \"o bar aonde a gente vai toda sexta\".",
         ],
         examples: [
-          { es: "No seu lugar, eu procuraria um apartamento na Savassi.", en: "In your shoes, I'd look for a flat in Savassi." },
+          { es: "No seu lugar, eu procuraria um apartamento na Savassi.", en: "In your shoes, I'd look for an apartment in Savassi." },
           { es: "Eu evitaria o centro tarde da noite.", en: "I'd avoid downtown late at night." },
           { es: "Valeria a pena conhecer a Pampulha num domingo.", en: "It'd be worth seeing Pampulha on a Sunday." },
           { es: "O Mercado Central, de que eu te falei, tem o melhor queijo da cidade.", en: "The Mercado Central, which I told you about, has the best cheese in town." },
@@ -2001,8 +2001,8 @@ export const PT_B1_U27: Lesson[] = [
           "Explain why with a purpose clause: \"para você não pagar caro\", \"para ela te apresentar ao pessoal\".",
         ],
         examples: [
-          { es: "A Dona Lúcia, com quem você deveria falar, conhece todo mundo no bairro.", en: "Dona Lúcia, who you should talk to, knows everyone in the neighbourhood." },
-          { es: "Tenho um colega cuja irmã é corretora de imóveis.", en: "I have a colleague whose sister is an estate agent." },
+          { es: "A Dona Lúcia, com quem você deveria falar, conhece todo mundo no bairro.", en: "Dona Lúcia, who you should talk to, knows everyone in the neighborhood." },
+          { es: "Tenho um colega cuja irmã é corretora de imóveis.", en: "I have a colleague whose sister is a real estate agent." },
           { es: "Seria bom você falar com ela para não pagar caro no aluguel.", en: "It'd be good for you to talk to her so you don't overpay on rent." },
           { es: "O Thiago, para quem eu já mandei o seu número, vai te ligar.", en: "Thiago, who I've already sent your number to, is going to call you." },
           { es: "Vou te apresentar ao pessoal com quem eu jogo vôlei.", en: "I'll introduce you to the people I play volleyball with." },
@@ -2012,10 +2012,10 @@ export const PT_B1_U27: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I have a colleague whose sister is an estate agent.",
+            source: "I have a colleague whose sister is a real estate agent.",
             answer: "Tenho um colega cuja irmã é corretora de imóveis.",
             altAnswers: ["Eu tenho um colega cuja irmã é corretora de imóveis.", "Tenho um colega cuja irmã é corretora.", "Eu tenho um colega cuja irmã é corretora.", "Tenho uma colega cuja irmã é corretora de imóveis.", "Tenho uma colega cuja irmã é corretora."],
-            explanation: "\"Cuja\" agrees with \"irmã\". An estate agent in Brazil is a \"corretor\" or \"corretora de imóveis\".",
+            explanation: "\"Cuja\" agrees with \"irmã\". A real estate agent in Brazil is a \"corretor\" or \"corretora de imóveis\".",
           },
           {
             type: "translate",
@@ -2043,7 +2043,7 @@ export const PT_B1_U27: Lesson[] = [
           "Close warmly: \"Qualquer coisa, me avisa\" (if you need anything, let me know), \"Estou te esperando!\", \"Um abraço\".",
         ],
         examples: [
-          { es: "Tenho corrido na Pampulha nos fins de semana.", en: "I've been running at Pampulha at weekends." },
+          { es: "Tenho corrido na Pampulha nos fins de semana.", en: "I've been running at Pampulha on weekends." },
           { es: "No mês passado, eu fui a Ouro Preto com uns amigos.", en: "Last month I went to Ouro Preto with some friends." },
           { es: "Voltei a tocar violão e acabei entrando numa banda.", en: "I've taken up the guitar again and ended up joining a band." },
           { es: "Acabei de começar um curso de cerâmica.", en: "I've just started a pottery course." },
@@ -2054,7 +2054,7 @@ export const PT_B1_U27: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I've been running at weekends.",
+            source: "I've been running on weekends.",
             answer: "Tenho corrido nos fins de semana.",
             altAnswers: ["Eu tenho corrido nos fins de semana.", "Ando correndo nos fins de semana.", "Eu ando correndo nos fins de semana.", "Tenho corrido aos fins de semana."],
             explanation: "A habit lately: \"tenho corrido\", or the casual \"ando correndo\".",
@@ -2073,7 +2073,7 @@ export const PT_B1_U27: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "If I were you, I'd live near the metro.",
+        source: "If I were you, I'd live near the subway.",
         answer: "No seu lugar, eu moraria perto do metrô.",
         altAnswers: ["No seu lugar, moraria perto do metrô.", "Eu no seu lugar moraria perto do metrô.", "Se eu fosse você, eu moraria perto do metrô.", "Se eu fosse você, moraria perto do metrô.", "No seu lugar, eu ia morar perto do metrô."],
         explanation: "\"No seu lugar\" or the chunk \"se eu fosse você\" + conditional.",
@@ -2166,9 +2166,9 @@ export const PT_B1_U27: Lesson[] = [
         ],
         examples: [
           { es: "Espero que a mudança dê certo.", en: "I hope the move works out." },
-          { es: "Embora o aluguel seja caro, o bairro vale a pena.", en: "Although the rent is high, the neighbourhood is worth it." },
+          { es: "Embora o aluguel seja caro, o bairro vale a pena.", en: "Although the rent is high, the neighborhood is worth it." },
           { es: "Caso você precise de alguma coisa, me liga.", en: "In case you need anything, call me." },
-          { es: "Procuro um apartamento que aceite cachorro.", en: "I'm looking for a flat that allows dogs." },
+          { es: "Procuro um apartamento que aceite cachorro.", en: "I'm looking for an apartment that allows dogs." },
           { es: "A médica recomenda que eu descanse uns dias.", en: "The doctor recommends that I rest for a few days." },
         ],
         checkpoint: [
@@ -2183,10 +2183,10 @@ export const PT_B1_U27: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You've just signed the lease on a flat with a balcony. How do you tell a friend?",
+            question: "You've just signed the lease on an apartment with a balcony. How do you tell a friend?",
             options: ["Aluguei um apartamento que tem varanda.", "Aluguei um apartamento que tenha varanda.", "Procuro um apartamento que tem varanda.", "Aluguei um apartamento quem tem varanda."],
             correctIndex: 0,
-            explanation: "The flat is real and known, so the indicative \"tem\".",
+            explanation: "The apartment is real and known, so the indicative \"tem\".",
           },
         ],
       },
@@ -2197,7 +2197,7 @@ export const PT_B1_U27: Lesson[] = [
           "For symptoms, \"tenho sentido\" describes a pattern lately, and \"faz\" + time + \"que\" + present says how long something has been going on: \"faz três dias que estou com febre\".",
         ],
         examples: [
-          { es: "Eu gostaria de abrir uma conta corrente.", en: "I'd like to open a current account." },
+          { es: "Eu gostaria de abrir uma conta corrente.", en: "I'd like to open a checking account." },
           { es: "Você sabe se a agência abre aos sábados?", en: "Do you know if the branch opens on Saturdays?" },
           { es: "Poderia me dizer quando o técnico vem?", en: "Could you tell me when the technician is coming?" },
           { es: "Tenho sentido muita tontura de manhã.", en: "I've been feeling very dizzy in the mornings." },
@@ -2241,7 +2241,7 @@ export const PT_B1_U27: Lesson[] = [
         examples: [
           { es: "Eu estava saindo de casa quando o telefone tocou.", en: "I was leaving the house when the phone rang." },
           { es: "Quase perdi o ônibus, mas o motorista me esperou.", en: "I nearly missed the bus, but the driver waited for me." },
-          { es: "O vizinho com quem eu tinha brigado me ajudou com a mudança.", en: "The neighbour I'd fallen out with helped me with the move." },
+          { es: "O vizinho com quem eu tinha brigado me ajudou com a mudança.", en: "The neighbor I'd fallen out with helped me with the move." },
           { es: "Liguei para os meus pais para eles não se preocuparem.", en: "I called my parents so they wouldn't worry." },
           { es: "Era uma noite quente e todo mundo estava na rua.", en: "It was a warm night and everyone was out on the street." },
         ],
@@ -2269,7 +2269,7 @@ export const PT_B1_U27: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I want you to meet my neighbours.",
+        source: "I want you to meet my neighbors.",
         answer: "Quero que você conheça os meus vizinhos.",
         altAnswers: ["Eu quero que você conheça os meus vizinhos.", "Quero que você conheça meus vizinhos.", "Eu quero que você conheça meus vizinhos.", "Quero que vocês conheçam os meus vizinhos.", "Quero que vocês conheçam meus vizinhos."],
         explanation: "Different subject after \"querer\": \"que\" + subjunctive \"conheça\".",

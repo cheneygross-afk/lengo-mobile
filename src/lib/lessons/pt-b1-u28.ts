@@ -22,14 +22,14 @@ export const PT_B1_U28: Lesson[] = [
           { es: "Os documentos devem ser apresentados no dia do atendimento.", en: "The documents must be presented on the day of the appointment." },
           { es: "O agendamento deve ser feito pelo site.", en: "The appointment must be booked through the website." },
           { es: "A taxa deve ser paga antes do agendamento.", en: "The fee must be paid before you book." },
-          { es: "O formulário deve ser preenchido com letra de forma.", en: "The form must be filled in in block capitals." },
-          { es: "As fotos devem ser recentes e coloridas.", en: "The photos must be recent and in colour." },
+          { es: "O formulário deve ser preenchido com letra de forma.", en: "The form must be filled out in block capitals." },
+          { es: "As fotos devem ser recentes e coloridas.", en: "The photos must be recent and in color." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The form [must be filled in] online.",
+            en: "The form [must be filled out] online.",
             sentence: "O formulário ___ online.",
             answer: "deve ser preenchido",
             altAnswers: ["tem que ser preenchido", "precisa ser preenchido"],
@@ -57,14 +57,14 @@ export const PT_B1_U28: Lesson[] = [
         heading: "Exige-se, aceita-se: the se of rules",
         body: [
           "The other formula is the se passivo: \"exige-se comprovante de residência\" (proof of address is required), \"não se aceitam cópias\" (copies are not accepted). In official texts the verb agrees with the noun: \"exigem-se dois documentos\". You'll also see \"é obrigatório\", \"é necessário\" and \"é proibido\" + infinitive.",
-          "Two phrases cause confusion. \"Original e cópia\" means bring both. A \"cópia autenticada\" is a copy certified at a \"cartório\", the notary's office Brazilians visit for stamps and signatures. \"Formulário a ser preenchido\" is a form to be filled in.",
+          "Two phrases cause confusion. \"Original e cópia\" means bring both. A \"cópia autenticada\" is a copy certified at a \"cartório\", the notary's office Brazilians visit for stamps and signatures. \"Formulário a ser preenchido\" is a form to be filled out.",
         ],
         examples: [
           { es: "Exige-se comprovante de residência atualizado.", en: "Up-to-date proof of address is required." },
           { es: "Não se aceitam documentos rasurados.", en: "Documents with crossings-out are not accepted." },
           { es: "É obrigatório apresentar original e cópia.", en: "You must bring the original and a copy." },
           { es: "A cópia deve ser autenticada em cartório.", en: "The copy must be certified at a notary's office." },
-          { es: "Segue em anexo o formulário a ser preenchido.", en: "Attached is the form to be filled in." },
+          { es: "Segue em anexo o formulário a ser preenchido.", en: "Attached is the form to be filled out." },
         ],
         checkpoint: [
           {
@@ -97,14 +97,14 @@ export const PT_B1_U28: Lesson[] = [
         heading: "Turning instructions into a to-do list",
         body: [
           "To tell a friend what to do, turn the passive back into an active sentence with \"você\" or \"a gente\": \"o agendamento deve ser feito pelo site\" becomes \"você tem que agendar pelo site\". \"Precisa\" and \"tem que\" are the spoken ways to say must.",
-          "Common verbs on these pages: \"agendar\" (book), \"comparecer\" (attend, show up), \"anexar\" (attach), \"emitir\" (issue), \"preencher\" (fill in), \"conferir\" (check). \"Dias úteis\" are working days.",
+          "Common verbs on these pages: \"agendar\" (book), \"comparecer\" (attend, show up), \"anexar\" (attach), \"emitir\" (issue), \"preencher\" (fill out), \"conferir\" (check). \"Dias úteis\" are business days.",
         ],
         examples: [
           { es: "Você tem que agendar pelo site.", en: "You have to book through the website." },
           { es: "A gente precisa levar original e cópia.", en: "We need to take the original and a copy." },
           { es: "É preciso comparecer com quinze minutos de antecedência.", en: "You must arrive fifteen minutes early." },
           { es: "Anexe o comprovante em PDF.", en: "Attach the receipt as a PDF." },
-          { es: "O documento é emitido em até cinco dias úteis.", en: "The document is issued within five working days." },
+          { es: "O documento é emitido em até cinco dias úteis.", en: "The document is issued within five business days." },
         ],
         checkpoint: [
           {
@@ -197,7 +197,7 @@ export const PT_B1_U28: Lesson[] = [
         instructions: "Match the Portuguese to the English.",
         pairs: [
           { left: "agendar", right: "to book an appointment" },
-          { left: "preencher", right: "to fill in" },
+          { left: "preencher", right: "to fill out" },
           { left: "anexar", right: "to attach" },
           { left: "emitir", right: "to issue" },
           { left: "comparecer", right: "to show up" },
@@ -209,7 +209,7 @@ export const PT_B1_U28: Lesson[] = [
         question: "A website says: \"O documento é emitido em até cinco dias úteis.\" You applied on a Friday. When could it be ready at the latest?",
         options: ["The following Friday.", "On Wednesday, five calendar days later.", "Exactly five days later, on the weekend.", "Immediately, while you wait."],
         correctIndex: 0,
-        explanation: "\"Dias úteis\" are working days, so weekends don't count. \"Em até\" means within.",
+        explanation: "\"Dias úteis\" are business days, so weekends don't count. \"Em até\" means within.",
       },
     ],
   },
@@ -258,7 +258,7 @@ export const PT_B1_U28: Lesson[] = [
       {
         heading: "Agendamento, taxa, prazo, protocolo",
         body: [
-          "The process starts online: you fill in a form, pay a fee (\"taxa\") with a GRU, a federal payment slip, and book an appointment (\"agendamento\") at a Polícia Federal office. Take printouts of everything: \"o comprovante de pagamento\", \"o formulário\", your passport and photos.",
+          "The process starts online: you fill out a form, pay a fee (\"taxa\") with a GRU, a federal payment slip, and book an appointment (\"agendamento\") at a Polícia Federal office. Take printouts of everything: \"o comprovante de pagamento\", \"o formulário\", your passport and photos.",
           "\"Prazo\" is a deadline or a processing time: \"o prazo de entrega é de trinta dias\". At the appointment you get a \"protocolo\", a receipt with a number. Keep it: it proves your application is in progress. \"Vencer\" is what a document does when it expires: \"meu visto vence em março\".",
         ],
         examples: [
@@ -423,55 +423,55 @@ export const PT_B1_U28: Lesson[] = [
     level: "PT-B1",
     number: 3,
     title: "Survival: Driving: The CNH, the Detran and Fines",
-    summary: "Drive legally in Brazil: the CNH and a foreign licence, blitz, lei seca and radar, and reading a fine notice written in the passive.",
+    summary: "Drive legally in Brazil: the CNH and a foreign license, blitz, lei seca and radar, and reading a fine notice written in the passive.",
     duration: "14 min",
     kind: "teach",
     sections: [
       {
-        heading: "The CNH and a foreign licence",
+        heading: "The CNH and a foreign license",
         body: [
-          "The Brazilian driving licence is the CNH (Carteira Nacional de Habilitação), issued by each state's Detran. As a visitor you can usually drive on your valid foreign licence for up to 180 days, ideally with an international permit or a sworn translation. Once you live here, you'll need to convert it into a CNH at the Detran.",
-          "In conversation the licence is just \"a carteira\" or \"a habilitação\": \"você tem carteira?\" means do you have a driving licence? \"Tirar a carteira\" is to get your licence, and \"dirigir\" is to drive.",
+          "The Brazilian driver's license is the CNH (Carteira Nacional de Habilitação), issued by each state's Detran. As a visitor you can usually drive on your valid foreign license for up to 180 days, ideally with an international permit or a sworn translation. Once you live here, you'll need to convert it into a CNH at the Detran.",
+          "In conversation the license is just \"a carteira\" or \"a habilitação\": \"você tem carteira?\" means do you have a driver's license? \"Tirar a carteira\" is to get your license, and \"dirigir\" is to drive.",
         ],
         examples: [
-          { es: "Você tem carteira de motorista?", en: "Do you have a driving licence?" },
-          { es: "Tirei a carteira com dezoito anos.", en: "I got my licence at eighteen." },
-          { es: "Posso dirigir com a minha carteira estrangeira por até 180 dias.", en: "I can drive on my foreign licence for up to 180 days." },
-          { es: "Para trocar a habilitação, preciso agendar no Detran.", en: "To convert my licence, I need to book an appointment at the Detran." },
-          { es: "Esqueci a CNH em casa.", en: "I left my driving licence at home." },
+          { es: "Você tem carteira de motorista?", en: "Do you have a driver's license?" },
+          { es: "Tirei a carteira com dezoito anos.", en: "I got my license at eighteen." },
+          { es: "Posso dirigir com a minha carteira estrangeira por até 180 dias.", en: "I can drive on my foreign license for up to 180 days." },
+          { es: "Para trocar a habilitação, preciso agendar no Detran.", en: "To convert my license, I need to book an appointment at the Detran." },
+          { es: "Esqueci a CNH em casa.", en: "I left my driver's license at home." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I got my licence at eighteen.",
+            source: "I got my license at eighteen.",
             answer: "Tirei a carteira com dezoito anos.",
             altAnswers: ["Eu tirei a carteira com dezoito anos.", "Tirei a carteira aos dezoito anos.", "Eu tirei a carteira aos dezoito anos.", "Tirei a habilitação com dezoito anos.", "Tirei a carteira de motorista com dezoito anos.", "Tirei carteira com dezoito anos."],
-            explanation: "\"Tirar a carteira\" is to get your licence. Age is \"com\" or \"aos\" + number + \"anos\".",
+            explanation: "\"Tirar a carteira\" is to get your license. Age is \"com\" or \"aos\" + number + \"anos\".",
           },
           {
             type: "listen-choose",
             audio: "Você tem carteira de motorista?",
             question: "What does it mean?",
-            options: ["Do you have a driving licence?", "Do you have your wallet?", "Are you a driver?", "Do you have a car?"],
+            options: ["Do you have a driver's license?", "Do you have your wallet?", "Are you a driver?", "Do you have a car?"],
             correctIndex: 0,
-            explanation: "\"Carteira\" alone can mean wallet, but \"carteira de motorista\" is a driving licence.",
+            explanation: "\"Carteira\" alone can mean wallet, but \"carteira de motorista\" is a driver's license.",
           },
         ],
       },
       {
         heading: "Multa, blitz, lei seca, radar",
         body: [
-          "A \"multa\" is a traffic fine. A \"blitz\" is a police checkpoint, where you'll be asked for \"os documentos do carro e a habilitação\". The \"lei seca\" is Brazil's zero-tolerance drink-driving law: any alcohol on the breathalyser (\"bafômetro\") means a heavy fine and a suspended licence, and refusing the test is also fined.",
+          "A \"multa\" is a traffic fine. A \"blitz\" is a police checkpoint, where you'll be asked for \"os documentos do carro e a habilitação\". The \"lei seca\" is Brazil's zero-tolerance drunk-driving law: any alcohol on the breathalyzer (\"bafômetro\") means a heavy fine and a suspended license, and refusing the test is also fined.",
           "A \"radar\" is a speed camera. Each fine adds \"pontos na carteira\", and too many points get the CNH suspended. Car owners also pay the IPVA, an annual state tax on the vehicle.",
         ],
         examples: [
           { es: "Levei uma multa por excesso de velocidade.", en: "I got a speeding fine." },
-          { es: "Tinha uma blitz da lei seca na saída do bar.", en: "There was a drink-driving checkpoint outside the bar." },
-          { es: "Recusar o bafômetro também dá multa.", en: "Refusing the breathalyser also gets you a fine." },
+          { es: "Tinha uma blitz da lei seca na saída do bar.", en: "There was a drunk-driving checkpoint outside the bar." },
+          { es: "Recusar o bafômetro também dá multa.", en: "Refusing the breathalyzer also gets you a fine." },
           { es: "Tem um radar nessa avenida, vai devagar.", en: "There's a speed camera on this avenue, slow down." },
-          { es: "Ele já tem muitos pontos na carteira.", en: "He's already got a lot of points on his licence." },
+          { es: "Ele já tem muitos pontos na carteira.", en: "He already has a lot of points on his license." },
         ],
         checkpoint: [
           {
@@ -488,7 +488,7 @@ export const PT_B1_U28: Lesson[] = [
             question: "A friend asks: \"Uma cervejinha antes de dirigir pode, né?\" What's the right answer?",
             options: ["Não, a lei seca é tolerância zero.", "Pode, uma só não dá multa.", "Pode, se for de dia.", "Não, só se tiver radar."],
             correctIndex: 0,
-            explanation: "Under the \"lei seca\" any amount of alcohol is an offence.",
+            explanation: "Under the \"lei seca\" any amount of alcohol is an offense.",
           },
           {
             type: "fill-blank",
@@ -503,12 +503,12 @@ export const PT_B1_U28: Lesson[] = [
       {
         heading: "Reading a fine: o veículo foi autuado",
         body: [
-          "The fine notice (\"notificação de autuação\") arrives by post and is written in the passive: \"o veículo foi autuado\" (the vehicle was cited), \"a infração foi registrada por equipamento eletrônico\" (recorded by a camera). The owner can name the real driver (\"indicação do condutor\") or appeal (\"recorrer\") by the date on the notice.",
+          "The fine notice (\"notificação de autuação\") arrives by mail and is written in the passive: \"o veículo foi autuado\" (the vehicle was cited), \"a infração foi registrada por equipamento eletrônico\" (recorded by a camera). The owner can name the real driver (\"indicação do condutor\") or appeal (\"recorrer\") by the date on the notice.",
           "To explain it to someone, switch to the active with the impersonal they: \"me multaram por estacionar em local proibido\" (I got fined for parking in a no-parking zone).",
         ],
         examples: [
           { es: "O veículo foi autuado na Avenida Paulista às 22h15.", en: "The vehicle was cited on Avenida Paulista at 10:15 pm." },
-          { es: "A infração foi registrada por radar.", en: "The offence was recorded by a speed camera." },
+          { es: "A infração foi registrada por radar.", en: "The offense was recorded by a speed camera." },
           { es: "O prazo para recorrer está na notificação.", en: "The deadline to appeal is on the notice." },
           { es: "Me multaram por estacionar em local proibido.", en: "I got fined for parking in a no-parking zone." },
           { es: "O condutor deve ser indicado até a data informada.", en: "The driver must be named by the date given." },
@@ -526,7 +526,7 @@ export const PT_B1_U28: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The offence [was recorded] by a speed camera.",
+            en: "The offense [was recorded] by a speed camera.",
             sentence: "A infração ___ por radar.",
             answer: "foi registrada",
             explanation: "Feminine \"registrada\" agrees with \"a infração\".",
@@ -545,10 +545,10 @@ export const PT_B1_U28: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I need to convert my licence at the Detran.",
+        source: "I need to convert my license at the Detran.",
         answer: "Preciso trocar a minha carteira no Detran.",
         altAnswers: ["Eu preciso trocar a minha carteira no Detran.", "Preciso trocar minha carteira no Detran.", "Preciso trocar a minha habilitação no Detran.", "Preciso trocar minha habilitação no Detran.", "Preciso converter a minha carteira no Detran.", "Preciso trocar a minha CNH no Detran.", "Eu preciso trocar minha habilitação no Detran."],
-        explanation: "Converting a foreign licence is usually called \"trocar\" in speech.",
+        explanation: "Converting a foreign license is usually called \"trocar\" in speech.",
       },
       {
         type: "translate",
@@ -580,7 +580,7 @@ export const PT_B1_U28: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[Refusing] the breathalyser also gets you a fine.",
+        en: "[Refusing] the breathalyzer also gets you a fine.",
         sentence: "___ o bafômetro também dá multa.",
         answer: "Recusar",
         altAnswers: ["Se recusar a fazer"],
@@ -597,9 +597,9 @@ export const PT_B1_U28: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I left my licence at home.",
+        prompt: "Put the words in order to say: I left my license at home.",
         words: ["Esqueci", "a", "minha", "habilitação", "em", "casa."],
-        translation: "I left my licence at home.",
+        translation: "I left my license at home.",
         explanation: "\"Esquecer\" + thing + place: to leave something somewhere by mistake.",
       },
       {
@@ -620,9 +620,9 @@ export const PT_B1_U28: Lesson[] = [
         pairs: [
           { left: "a multa", right: "the fine" },
           { left: "a blitz", right: "the police checkpoint" },
-          { left: "o bafômetro", right: "the breathalyser" },
+          { left: "o bafômetro", right: "the breathalyzer" },
           { left: "o radar", right: "the speed camera" },
-          { left: "a habilitação", right: "the driving licence" },
+          { left: "a habilitação", right: "the driver's license" },
         ],
         explanation: "Everyday road vocabulary; \"blitz\" is borrowed from German but used as a normal Portuguese word.",
       },
@@ -644,7 +644,7 @@ export const PT_B1_U28: Lesson[] = [
           "In conversation people say \"roubaram meu celular\" for both, but the police will ask which it was, because it changes the report. \"Ladrão\" is the general word for thief.",
         ],
         examples: [
-          { es: "Furtaram minha carteira no metrô e eu nem percebi.", en: "Someone stole my wallet on the metro and I didn't even notice." },
+          { es: "Furtaram minha carteira no metrô e eu nem percebi.", en: "Someone stole my wallet on the subway and I didn't even notice." },
           { es: "Fui assaltado na saída do show.", en: "I was mugged on my way out of the concert." },
           { es: "O ladrão roubou o celular dela com uma faca.", en: "The thief stole her phone at knifepoint." },
           { es: "Ele caiu num golpe pela internet.", en: "He fell for an online scam." },
@@ -673,7 +673,7 @@ export const PT_B1_U28: Lesson[] = [
         heading: "The B.O.: online or at the delegacia",
         body: [
           "To report a crime you \"registrar um boletim de ocorrência\", the B.O. (said \"bê-ó\"). For many cases (theft, lost documents, some scams) you can file it online at your state's \"delegacia virtual\"; for violent crimes, go to a \"delegacia\" (police station). In an emergency, call 190 for the Polícia Militar.",
-          "You'll need the B.O. for your insurance, to block your phone with the carrier and to replace stolen documents. The natural phrase is \"registrar\" or \"fazer um B.O.\"; you'll also hear \"dar queixa na polícia\" (report it to the police), but not the word-for-word \"*fazer uma queixa\".",
+          "You'll need the B.O. for your insurance, to block your phone with the carrier and to replace stolen documents. The natural phrase is \"registrar\" or \"fazer um B.O.\"; you'll also hear \"prestar queixa\" or \"dar queixa na polícia\" (report it to the police). \"Fazer uma queixa\" is understood, but sounds less idiomatic for a police report.",
         ],
         examples: [
           { es: "Preciso registrar um boletim de ocorrência.", en: "I need to file a police report." },
@@ -711,7 +711,7 @@ export const PT_B1_U28: Lesson[] = [
         examples: [
           { es: "Meu celular foi roubado ontem à noite.", en: "My phone was stolen last night." },
           { es: "Levaram minha mochila com o notebook dentro.", en: "They took my backpack with my laptop inside." },
-          { es: "Eu estava esperando o ônibus quando dois rapazes chegaram de moto.", en: "I was waiting for the bus when two guys turned up on a motorbike." },
+          { es: "Eu estava esperando o ônibus quando dois rapazes chegaram de moto.", en: "I was waiting for the bus when two guys turned up on a motorcycle." },
           { es: "Eles me ameaçaram e levaram tudo.", en: "They threatened me and took everything." },
           { es: "Felizmente, ninguém se machucou.", en: "Fortunately, nobody was hurt." },
         ],
@@ -829,7 +829,7 @@ export const PT_B1_U28: Lesson[] = [
     level: "PT-B1",
     number: 5,
     title: "Survival: Golpes: Scams to Know",
-    summary: "Recognise the fake bank call, the cloned WhatsApp, the falso boleto and the fake Pix receipt, and give warnings with the imperative and caso + subjunctive.",
+    summary: "Recognize the fake bank call, the cloned WhatsApp, the falso boleto and the fake Pix receipt, and give warnings with the imperative and caso + subjunctive.",
     duration: "14 min",
     kind: "teach",
     sections: [
@@ -872,7 +872,7 @@ export const PT_B1_U28: Lesson[] = [
           "The defence is simple: call the person on their old number, never share that code, and turn on \"verificação em duas etapas\" (two-step verification).",
         ],
         examples: [
-          { es: "Oi, mãe, troquei de número. Salva esse aqui.", en: "Hi Mum, I've changed my number. Save this one." },
+          { es: "Oi, mãe, troquei de número. Salva esse aqui.", en: "Hi Mom, I've changed my number. Save this one." },
           { es: "Você pode me fazer um Pix urgente? Te devolvo amanhã.", en: "Can you send me a Pix urgently? I'll pay you back tomorrow." },
           { es: "Liguei para o número antigo dele e ele não sabia de nada.", en: "I called his old number and he knew nothing about it." },
           { es: "Clonaram o WhatsApp da minha tia.", en: "My aunt's WhatsApp got cloned." },
@@ -1032,15 +1032,15 @@ export const PT_B1_U28: Lesson[] = [
       {
         heading: "The CDC and the direito de arrependimento",
         body: [
-          "Brazil's Código de Defesa do Consumidor (CDC) is strong and widely known. One key rule: for purchases made outside a shop (online, by phone, from a catalogue) you have seven days from delivery to change your mind, the \"direito de arrependimento\", and get all your money back, shipping included.",
-          "If you bought in person, the shop doesn't have to exchange a product just because you didn't like the colour. Many do it as a courtesy (\"troca\"), usually with the \"nota fiscal\" (the official receipt) or the label still on.",
+          "Brazil's Código de Defesa do Consumidor (CDC) is strong and widely known. One key rule: for purchases made outside a store (online, by phone, from a catalog) you have seven days from delivery to change your mind, the \"direito de arrependimento\", and get all your money back, shipping included.",
+          "If you bought in person, the store doesn't have to exchange a product just because you didn't like the color. Many do it as a courtesy (\"troca\"), usually with the \"nota fiscal\" (the official receipt) or the label still on.",
         ],
         examples: [
           { es: "Comprei pela internet e me arrependi.", en: "I bought it online and changed my mind." },
           { es: "Tenho sete dias para desistir da compra.", en: "I have seven days to cancel the purchase." },
           { es: "O valor do frete também deve ser devolvido.", en: "The shipping cost must also be refunded." },
           { es: "Guarde a nota fiscal para poder trocar.", en: "Keep the receipt so you can exchange it." },
-          { es: "Na loja física, a troca é uma cortesia.", en: "In a physical shop, an exchange is a courtesy." },
+          { es: "Na loja física, a troca é uma cortesia.", en: "In a physical store, an exchange is a courtesy." },
         ],
         checkpoint: [
           {
@@ -1065,14 +1065,14 @@ export const PT_B1_U28: Lesson[] = [
         heading: "Garantia, defeito, propaganda enganosa",
         body: [
           "The \"garantia legal\" covers defects for 30 days on non-durable goods (food, cosmetics) and 90 days on durable ones (a phone, a fridge), on top of any manufacturer's warranty. If a product \"veio com defeito\" (arrived faulty), the supplier has up to 30 days to fix it; if not, you choose a replacement, a refund or a discount.",
-          "\"Propaganda enganosa\" (misleading advertising) is illegal: the price or feature that was advertised must be honoured.",
+          "\"Propaganda enganosa\" (misleading advertising) is illegal: the price or feature that was advertised must be honored.",
         ],
         examples: [
           { es: "A geladeira veio com defeito.", en: "The fridge arrived faulty." },
           { es: "O celular ainda está na garantia.", en: "The phone is still under warranty." },
           { es: "Caso não consertem em 30 dias, posso pedir o dinheiro de volta.", en: "If they don't fix it within 30 days, I can ask for my money back." },
           { es: "Isso é propaganda enganosa.", en: "That's misleading advertising." },
-          { es: "O preço anunciado tem que ser respeitado.", en: "The advertised price has to be honoured." },
+          { es: "O preço anunciado tem que ser respeitado.", en: "The advertised price has to be honored." },
         ],
         checkpoint: [
           {
@@ -1097,7 +1097,7 @@ export const PT_B1_U28: Lesson[] = [
             type: "listen-choose",
             audio: "O preço anunciado tem que ser respeitado.",
             question: "What does it mean?",
-            options: ["The advertised price has to be honoured.", "The price has to be announced.", "You have to respect the shop's prices.", "The price will be announced soon."],
+            options: ["The advertised price has to be honored.", "The price has to be announced.", "You have to respect the store's prices.", "The price will be announced soon."],
             correctIndex: 0,
             explanation: "\"Tem que ser respeitado\": passive with \"ter que\", agreeing with \"o preço\".",
           },
@@ -1113,8 +1113,8 @@ export const PT_B1_U28: Lesson[] = [
           { es: "Vou registrar uma reclamação no Procon.", en: "I'm going to file a complaint with the Procon." },
           { es: "Reclamei no Consumidor.gov.br e a empresa respondeu em uma semana.", en: "I complained on Consumidor.gov.br and the company replied within a week." },
           { es: "Anexei a nota fiscal e os números de protocolo.", en: "I attached the receipt and the protocol numbers." },
-          { es: "Caso a loja não resolva, vou ao Procon.", en: "If the shop doesn't sort it out, I'll go to the Procon." },
-          { es: "A loja foi multada pelo Procon.", en: "The shop was fined by the Procon." },
+          { es: "Caso a loja não resolva, vou ao Procon.", en: "If the store doesn't sort it out, I'll go to the Procon." },
+          { es: "A loja foi multada pelo Procon.", en: "The store was fined by the Procon." },
         ],
         checkpoint: [
           {
@@ -1175,7 +1175,7 @@ export const PT_B1_U28: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The shop [was fined] by the Procon.",
+        en: "The store [was fined] by the Procon.",
         sentence: "A loja ___ pelo Procon.",
         answer: "foi multada",
         explanation: "Passive with agreement: \"multada\" for \"a loja\". The agent takes \"pelo\".",
@@ -1235,7 +1235,7 @@ export const PT_B1_U28: Lesson[] = [
           { es: "No Brasil, o voto é obrigatório a partir dos 18 anos.", en: "In Brazil, voting is compulsory from 18." },
           { es: "Aos 16 anos, o voto é opcional.", en: "At 16, voting is optional." },
           { es: "Você digita o número do candidato e aperta o botão verde.", en: "You type in the candidate's number and press the green button." },
-          { es: "Eu estava viajando no dia da eleição e justifiquei o voto.", en: "I was travelling on election day, so I justified my absence." },
+          { es: "Eu estava viajando no dia da eleição e justifiquei o voto.", en: "I was traveling on election day, so I justified my absence." },
           { es: "O resultado costuma sair na mesma noite.", en: "The result usually comes out the same night." },
         ],
         checkpoint: [
@@ -1260,12 +1260,12 @@ export const PT_B1_U28: Lesson[] = [
       {
         heading: "Municipal and general elections: who's who",
         body: [
-          "Elections take place every two years, alternating. In the \"eleições municipais\" you choose the \"prefeito\" (mayor) and the \"vereadores\" (city councillors). In the \"eleições gerais\" you choose the \"presidente\", your state's \"governador\", \"senadores\", \"deputados federais\" and \"deputados estaduais\". Mandates last four years, except senators, who serve eight.",
+          "Elections take place every two years, alternating. In the \"eleições municipais\" you choose the \"prefeito\" (mayor) and the \"vereadores\" (city council members). In the \"eleições gerais\" you choose the \"presidente\", your state's \"governador\", \"senadores\", \"deputados federais\" and \"deputados estaduais\". Mandates last four years, except senators, who serve eight.",
           "If no candidate for president, governor or mayor of a large city gets more than half the valid votes, there's a second round (\"segundo turno\") a few weeks later.",
         ],
         examples: [
           { es: "A prefeita foi eleita no primeiro turno.", en: "The mayor was elected in the first round." },
-          { es: "Os vereadores votam as leis da cidade.", en: "City councillors vote on the city's laws." },
+          { es: "Os vereadores votam as leis da cidade.", en: "City council members vote on the city's laws." },
           { es: "A eleição para presidente foi para o segundo turno.", en: "The presidential election went to a second round." },
           { es: "O mandato de senador é de oito anos.", en: "A senator's term is eight years." },
           { es: "Os deputados federais trabalham em Brasília.", en: "Federal deputies work in Brasília." },
@@ -1285,7 +1285,7 @@ export const PT_B1_U28: Lesson[] = [
             instructions: "Match the Portuguese to the English.",
             pairs: [
               { left: "o prefeito", right: "the mayor" },
-              { left: "o vereador", right: "the city councillor" },
+              { left: "o vereador", right: "the city council member" },
               { left: "o governador", right: "the state governor" },
               { left: "o senador", right: "the senator" },
               { left: "o segundo turno", right: "the second round" },
@@ -1348,7 +1348,7 @@ export const PT_B1_U28: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I was travelling on election day.",
+        source: "I was traveling on election day.",
         answer: "Eu estava viajando no dia da eleição.",
         altAnswers: ["Estava viajando no dia da eleição.", "Eu estava viajando no dia das eleições.", "Estava viajando no dia das eleições."],
         explanation: "In progress at that moment: \"estava viajando\".",
@@ -1366,7 +1366,7 @@ export const PT_B1_U28: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The councillors were elected for four years.",
+        source: "The council members were elected for four years.",
         answer: "Os vereadores foram eleitos por quatro anos.",
         altAnswers: ["As vereadoras foram eleitas por quatro anos.", "Os vereadores foram eleitos para quatro anos.", "Os vereadores foram eleitos para um mandato de quatro anos."],
         explanation: "Plural passive: \"foram eleitos\", agreeing with \"os vereadores\".",
@@ -1704,7 +1704,7 @@ export const PT_B1_U28: Lesson[] = [
           { es: "Roubaram meu carro na porta de casa.", en: "Someone stole my car outside my house." },
           { es: "O ladrão foi preso pela polícia uma hora depois.", en: "The thief was arrested by the police an hour later." },
           { es: "Prenderam o ladrão uma hora depois.", en: "They arrested the thief an hour later." },
-          { es: "A carteira foi encontrada numa lixeira.", en: "The wallet was found in a bin." },
+          { es: "A carteira foi encontrada numa lixeira.", en: "The wallet was found in a trash can." },
         ],
         checkpoint: [
           {
@@ -1780,7 +1780,7 @@ export const PT_B1_U28: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The wallet [was found] in a bin.",
+        en: "The wallet [was found] in a trash can.",
         sentence: "A carteira ___ numa lixeira.",
         answer: "foi encontrada",
         altAnswers: ["foi achada"],
@@ -1800,7 +1800,7 @@ export const PT_B1_U28: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Someone lifted your wallet from your pocket on the metro. How do you describe it in the B.O.?",
+        question: "Someone lifted your wallet from your pocket on the subway. How do you describe it in the B.O.?",
         options: ["Minha carteira foi furtada no metrô.", "Minha carteira foi roubada com violência no metrô.", "Fui assaltado com uma faca no metrô.", "Minha carteira furtou no metrô."],
         correctIndex: 0,
         explanation: "No violence: \"furtada\". The last option would make the wallet the thief.",
@@ -1840,7 +1840,7 @@ export const PT_B1_U28: Lesson[] = [
           { es: "Escrivão: Sinto muito. Onde a senhora estava exatamente?", en: "Officer: I'm sorry. Where exactly were you?" },
           { es: "Sarah: Eu estava em Copacabana, perto do Posto 5.", en: "Sarah: I was in Copacabana, near Posto 5." },
           { es: "Sarah: Eu tinha deixado a bolsa na cadeira e fui dar um mergulho.", en: "Sarah: I'd left my bag on the chair and gone for a swim." },
-          { es: "Sarah: Quando voltei, o celular não estava mais lá.", en: "Sarah: When I got back, the phone wasn't there any more." },
+          { es: "Sarah: Quando voltei, o celular não estava mais lá.", en: "Sarah: When I got back, the phone wasn't there anymore." },
         ],
         checkpoint: [
           {
@@ -1914,7 +1914,7 @@ export const PT_B1_U28: Lesson[] = [
           { es: "Sarah: Mas ele disse que ia registrar tudo ali mesmo.", en: "Sarah: But he said he'd register everything right there." },
           { es: "Sarah: Ele perguntou se eu tinha visto o ladrão.", en: "Sarah: He asked if I'd seen the thief." },
           { es: "Sarah: Me pediu para bloquear o chip com a operadora.", en: "Sarah: He asked me to block the SIM card with the carrier." },
-          { es: "Ana: Que azar! Mas pelo menos você já tem o B.O.", en: "Ana: What bad luck! But at least you've got the report." },
+          { es: "Ana: Que azar! Mas pelo menos você já tem o B.O.", en: "Ana: What bad luck! But at least you have the report." },
         ],
         checkpoint: [
           {
@@ -1958,10 +1958,10 @@ export const PT_B1_U28: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "When I got back, my phone wasn't there any more.",
+        source: "When I got back, my phone wasn't there anymore.",
         answer: "Quando voltei, o celular não estava mais lá.",
         altAnswers: ["Quando eu voltei, o celular não estava mais lá.", "Quando voltei, meu celular não estava mais lá.", "Quando eu voltei, meu celular não estava mais lá.", "Quando voltei, o meu celular não estava mais lá.", "Quando eu voltei, o meu celular já não estava lá."],
-        explanation: "\"Não... mais\" is not any more. \"Estava\" describes the state you found.",
+        explanation: "\"Não... mais\" is not anymore. \"Estava\" describes the state you found.",
       },
       {
         type: "translate",
@@ -2082,13 +2082,13 @@ export const PT_B1_U28: Lesson[] = [
       {
         heading: "Word slips: roubado, horário, B.O., solicitar",
         body: [
-          "A phone taken at knifepoint was \"roubado\", not \"*furtado\": furto has no violence. To book an appointment you \"marcar um horário\" or \"agendar\"; \"*marcar um tempo\" is a word-for-word English slip. At the police you \"registrar\" or \"fazer um B.O.\" (or \"dar queixa\"), not the word-for-word \"*fazer uma queixa\".",
+          "A phone taken at knifepoint was \"roubado\", not \"*furtado\": furto has no violence. To book an appointment you \"marcar um horário\" or \"agendar\"; \"*marcar um tempo\" is a word-for-word English slip. At the police you \"registrar\" or \"fazer um B.O.\" (or \"prestar queixa\", \"dar queixa\"); the word-for-word \"fazer uma queixa\" is understood but less idiomatic.",
           "Also watch \"*aplicar para um visto\": in Portuguese you \"pedir\" or \"solicitar\" a visa. \"Aplicar\" means to apply a cream, or to invest money.",
         ],
         examples: [
           { es: "Meu celular foi roubado por um homem com uma faca.", en: "My phone was stolen by a man with a knife. (not *furtado)" },
           { es: "Preciso marcar um horário no Detran.", en: "I need to book an appointment at the Detran. (not *marcar um tempo)" },
-          { es: "Fui à delegacia registrar um B.O.", en: "I went to the police station to file a report. (not *fazer uma queixa)" },
+          { es: "Fui à delegacia registrar um B.O.", en: "I went to the police station to file a report." },
           { es: "Ela solicitou um visto de trabalho.", en: "She applied for a work visa. (not *aplicou para)" },
           { es: "Você já agendou o atendimento?", en: "Have you booked the appointment yet?" },
         ],
@@ -2135,7 +2135,7 @@ export const PT_B1_U28: Lesson[] = [
         source: "I filed a police report.",
         answer: "Eu registrei um B.O.",
         altAnswers: ["Registrei um B.O.", "Eu fiz um B.O.", "Fiz um B.O.", "Registrei um boletim de ocorrência.", "Eu registrei um boletim de ocorrência.", "Fiz um boletim de ocorrência.", "Registrei um BO.", "Fiz um BO."],
-        explanation: "\"Registrar\" or \"fazer um B.O.\" is the phrase Brazilians use for filing the report. \"Fazer uma queixa\" is a word-for-word slip; the idiom is \"dar queixa na polícia\".",
+        explanation: "\"Registrar\" or \"fazer um B.O.\" is the phrase Brazilians use for filing the report. \"Prestar queixa\" and \"dar queixa na polícia\" are also idiomatic; \"fazer uma queixa\" is understood but less natural here.",
       },
       {
         type: "translate",
@@ -2167,7 +2167,7 @@ export const PT_B1_U28: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "A learner wrote \"*Os formulários devem ser preenchido.\" Write the Portuguese for the bold words.",
-        en: "The forms [must be filled in] in pen.",
+        en: "The forms [must be filled out] in pen.",
         sentence: "Os formulários ___ a caneta.",
         answer: "devem ser preenchidos",
         altAnswers: ["precisam ser preenchidos", "têm que ser preenchidos"],
@@ -2220,7 +2220,7 @@ export const PT_B1_U28: Lesson[] = [
           "Use the imperfeito for the state things were in (\"a caixa estava amassada\", \"o aparelho não ligava\") and the perfeito for the events. Give the order number (\"número do pedido\") early.",
         ],
         examples: [
-          { es: "O pedido número 48213 foi feito no dia 3 de março.", en: "Order number 48213 was placed on 3 March." },
+          { es: "O pedido número 48213 foi feito no dia 3 de março.", en: "Order number 48213 was placed on March 3." },
           { es: "O produto foi entregue no dia 10, com uma semana de atraso.", en: "The product was delivered on the 10th, a week late." },
           { es: "A caixa estava amassada e o aparelho não ligava.", en: "The box was dented and the appliance wouldn't turn on." },
           { es: "Entrei em contato com o SAC no mesmo dia.", en: "I contacted customer service the same day." },
@@ -2280,7 +2280,7 @@ export const PT_B1_U28: Lesson[] = [
             type: "listen-choose",
             audio: "Fui informada de que o protocolo tinha sido aberto.",
             question: "What does it mean?",
-            options: ["I was informed that a case had been opened.", "I informed them that I'd opened a case.", "I was told to open a case.", "They informed me the shop had opened."],
+            options: ["I was informed that a case had been opened.", "I informed them that I'd opened a case.", "I was told to open a case.", "They informed me the store had opened."],
             correctIndex: 0,
             explanation: "\"Tinha sido aberto\": the passive in the mais-que-perfeito.",
           },
@@ -2297,7 +2297,7 @@ export const PT_B1_U28: Lesson[] = [
           { es: "Peço que a empresa resolva o problema até sexta-feira.", en: "I ask the company to solve the problem by Friday." },
           { es: "De acordo com o Código de Defesa do Consumidor, tenho direito à troca.", en: "Under the Consumer Protection Code, I'm entitled to a replacement." },
           { es: "Caso o problema não seja resolvido, vou procurar o Procon.", en: "If the problem isn't solved, I'll go to the Procon." },
-          { es: "Atenciosamente, Laura Mendes", en: "Yours sincerely, Laura Mendes" },
+          { es: "Atenciosamente, Laura Mendes", en: "Sincerely, Laura Mendes" },
         ],
         checkpoint: [
           {
@@ -2320,7 +2320,7 @@ export const PT_B1_U28: Lesson[] = [
           {
             type: "speak",
             text: "Peço que a empresa resolva o problema até sexta-feira.",
-            tip: "\"Resolva\" is stressed on SOL: re-ZOL-va.",
+            tip: "\"Resolva\" is stressed on SOL, and the o is open and the l sounds like a w: re-ZÓU-va.",
             explanation: "\"Pedir que\" + subjunctive for a firm, polite request.",
           },
         ],
@@ -2331,7 +2331,7 @@ export const PT_B1_U28: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese (for the complaint).",
-        source: "The order was placed on 5 May.",
+        source: "The order was placed on May 5.",
         answer: "O pedido foi feito no dia 5 de maio.",
         altAnswers: ["O pedido foi realizado no dia 5 de maio.", "O pedido foi feito em 5 de maio.", "O pedido foi feito dia 5 de maio."],
         explanation: "Passive with \"feito\". Dates: \"no dia\" + number + \"de\" + month.",
@@ -2484,7 +2484,7 @@ export const PT_B1_U28: Lesson[] = [
             type: "listen-choose",
             audio: "Disseram que o atendimento ia ser remarcado.",
             question: "What does it mean?",
-            options: ["They said the appointment would be rescheduled.", "They said the appointment had been cancelled.", "They said I should reschedule the appointment.", "They said the appointment is today."],
+            options: ["They said the appointment would be rescheduled.", "They said the appointment had been canceled.", "They said I should reschedule the appointment.", "They said the appointment is today."],
             correctIndex: 0,
             explanation: "\"Ia ser remarcado\": the shifted form of \"vai ser remarcado\".",
           },

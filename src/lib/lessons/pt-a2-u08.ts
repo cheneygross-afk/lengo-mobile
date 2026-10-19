@@ -87,7 +87,7 @@ export const PT_A2_U08: Lesson[] = [
           {
             type: "speak",
             text: "Calma, vai dar tudo certo.",
-            tip: "The t in \"certo\" is a plain t, but the final o sounds like u: CER-tu.",
+            tip: "\"Certo\" has an open é and a final o that sounds like u: SÉR-tu.",
             explanation: "\"Vai dar certo\" is the everyday way to say it'll work out, with \"vai\" and no subject.",
           },
         ],
@@ -176,7 +176,7 @@ export const PT_A2_U08: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "They [are going to] open a shop in a month.",
+        en: "They [are going to] open a store in a month.",
         sentence: "Eles ___ abrir uma loja daqui a um mês.",
         answer: "vão",
         explanation: "\"Eles vão\": the eles form of \"ir\" ends in the nasal \"ão\". \"Daqui a um mês\" is a month from now.",
@@ -213,7 +213,7 @@ export const PT_A2_U08: Lesson[] = [
         type: "speak",
         text: "Vou te ligar amanhã.",
         prompt: "Say it in Portuguese: I'll call you tomorrow.",
-        tip: "The d in \"ligar\" isn't there, but watch \"amanhã\": the final ã is nasal, a-ma-NHÃ.",
+        tip: "Watch \"amanhã\": the final ã is nasal, a-ma-NHÃ.",
         explanation: "English I'll becomes \"vou\" + infinitive in speech, with \"te\" between the two verbs.",
       },
       {
@@ -235,7 +235,7 @@ export const PT_A2_U08: Lesson[] = [
     level: "PT-A2",
     number: 2,
     title: "The Written Future: Falarei, Comerá",
-    summary: "Recognise and use the one-word future of news, forecasts and contracts (falarei, comerá, abrirão) and its three irregulars: farei, direi, trarei.",
+    summary: "Recognize and use the one-word future of news, forecasts and contracts (falarei, comerá, abrirão) and its three irregulars: farei, direi, trarei.",
     duration: "12 min",
     sections: [
       {
@@ -480,7 +480,7 @@ export const PT_A2_U08: Lesson[] = [
           { es: "O ônibus para Curitiba sai às dez.", en: "The bus to Curitiba leaves at ten." },
           { es: "A farmácia abre às oito amanhã.", en: "The pharmacy opens at eight tomorrow." },
           { es: "O filme começa às nove e meia.", en: "The movie starts at nine thirty." },
-          { es: "O metrô fecha à meia-noite.", en: "The metro closes at midnight." },
+          { es: "O metrô fecha à meia-noite.", en: "The subway closes at midnight." },
         ],
         checkpoint: [
           {
@@ -490,7 +490,7 @@ export const PT_A2_U08: Lesson[] = [
             source: "The flight leaves at six.",
             answer: "O voo sai às seis.",
             altAnswers: ["O voo parte às seis.", "O voo vai sair às seis."],
-            explanation: "A timetable takes the simple present: \"o voo sai\". \"Voo\" has no accent in Brazilian spelling.",
+            explanation: "A schedule takes the simple present: \"o voo sai\". \"Voo\" has no accent in Brazilian spelling.",
           },
           {
             type: "listen-choose",
@@ -512,7 +512,7 @@ export const PT_A2_U08: Lesson[] = [
         examples: [
           { es: "Amanhã eu trabalho até as seis.", en: "I'm working until six tomorrow." },
           { es: "Hoje à noite a gente janta na casa da Beatriz.", en: "Tonight we're having dinner at Beatriz's place." },
-          { es: "No sábado eu jogo futebol com o Lucas.", en: "I'm playing football with Lucas on Saturday." },
+          { es: "No sábado eu jogo futebol com o Lucas.", en: "I'm playing soccer with Lucas on Saturday." },
           { es: "Semana que vem a Mariana volta de Salvador.", en: "Mariana is coming back from Salvador next week." },
           { es: "Hoje eu pago o café.", en: "I'll get the coffee today." },
           { es: "Eu te ligo amanhã de manhã.", en: "I'll call you tomorrow morning." },
@@ -551,7 +551,7 @@ export const PT_A2_U08: Lesson[] = [
           "Choose \"vou\" + infinitive when there's no time word to anchor the plan, and for predictions about things nobody schedules: \"vai chover\" (it's going to rain), not \"chove\". As the last lesson showed, \"viajarei\" belongs in writing, not in a chat about tomorrow.",
         ],
         examples: [
-          { es: "Amanhã eu viajo para Recife.", en: "I'm travelling to Recife tomorrow." },
+          { es: "Amanhã eu viajo para Recife.", en: "I'm traveling to Recife tomorrow." },
           { es: "Amanhã eu vou viajar para Recife.", en: "I'm going to travel to Recife tomorrow." },
           { es: "Vai chover hoje à tarde.", en: "It's going to rain this afternoon." },
           { es: "No ano que vem eu vou estudar mais.", en: "Next year I'm going to study more." },
@@ -569,7 +569,7 @@ export const PT_A2_U08: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You're texting a friend that you're travelling to Recife tomorrow. Which is the most natural?",
+            question: "You're texting a friend that you're traveling to Recife tomorrow. Which is the most natural?",
             options: ["Amanhã eu viajo para Recife.", "Amanhã eu viajarei para Recife.", "Amanhã eu viajei para Recife.", "Eu viajo para Recife."],
             correctIndex: 0,
             explanation: "Present + \"amanhã\" is the natural spoken plan. \"Viajarei\" is correct but stiff in a text, \"viajei\" is past, and without \"amanhã\" it sounds like a habit.",
@@ -585,13 +585,13 @@ export const PT_A2_U08: Lesson[] = [
         source: "The bus to Curitiba leaves at ten.",
         answer: "O ônibus para Curitiba sai às dez.",
         altAnswers: ["O ônibus pra Curitiba sai às dez.", "O ônibus para Curitiba parte às dez.", "O ônibus para Curitiba vai sair às dez."],
-        explanation: "A timetable: simple present \"sai\". \"Às dez\" carries the crase: a + as.",
+        explanation: "A schedule: simple present \"sai\". \"Às dez\" carries the crase: a + as.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I'm playing football on Saturday.",
+        source: "I'm playing soccer on Saturday.",
         answer: "No sábado eu jogo futebol.",
         altAnswers: ["Eu jogo futebol no sábado.", "No sábado jogo futebol.", "Jogo futebol no sábado.", "No sábado eu vou jogar futebol.", "Eu vou jogar futebol no sábado.", "Vou jogar futebol no sábado.", "No sábado vou jogar futebol."],
         explanation: "English -ing for a plan becomes the simple present \"eu jogo\" with a time word, or \"vou jogar\". Never \"estou jogando\" for Saturday.",
@@ -683,7 +683,7 @@ export const PT_A2_U08: Lesson[] = [
     level: "PT-A2",
     number: 4,
     title: "Predictions: Acho Que Vai Chover",
-    summary: "Make predictions with acho que, com certeza and provavelmente, recognise talvez chova, and understand weather forecasts spoken with vai and written with -á.",
+    summary: "Make predictions with acho que, com certeza and provavelmente, recognize talvez chova, and understand weather forecasts spoken with vai and written with -á.",
     duration: "12 min",
     kind: "teach",
     sections: [
@@ -732,14 +732,14 @@ export const PT_A2_U08: Lesson[] = [
         heading: "Com certeza, provavelmente, talvez",
         body: [
           "\"Com certeza\" (definitely) goes at the start or the end of the sentence: \"com certeza vai fazer calor\". On its own, \"com certeza!\" is an enthusiastic yes. \"Provavelmente\" (probably) goes before \"vai\" or at the start: \"ela provavelmente vai chegar tarde\".",
-          "\"Talvez\" means maybe, but a verb after it changes into a new form, the subjunctive: \"talvez chova\" (maybe it'll rain), not \"talvez vai chover\". You'll learn that form later. For now, just recognise it. Use \"talvez\" alone as an answer, and say \"acho que\" or \"provavelmente\" in your own sentences.",
+          "\"Talvez\" means maybe, but a verb after it changes into a new form, the subjunctive: \"talvez chova\" (maybe it'll rain). You'll hear \"talvez vai chover\" in casual speech, but the subjunctive is the standard form. You'll learn that form later. For now, just recognize it. Use \"talvez\" alone as an answer, and say \"acho que\" or \"provavelmente\" in your own sentences.",
         ],
         examples: [
           { es: "Com certeza vai ter fila na padaria.", en: "There's definitely going to be a line at the bakery." },
           { es: "Ela provavelmente vai chegar atrasada.", en: "She'll probably arrive late." },
           { es: "Provavelmente a gente vai ficar em casa.", en: "We'll probably stay home." },
           { es: "Você vem amanhã? Com certeza!", en: "Are you coming tomorrow? Definitely!" },
-          { es: "Talvez chova no fim de semana.", en: "Maybe it'll rain at the weekend." },
+          { es: "Talvez chova no fim de semana.", en: "Maybe it'll rain on the weekend." },
         ],
         checkpoint: [
           {
@@ -757,7 +757,7 @@ export const PT_A2_U08: Lesson[] = [
             question: "What does it mean?",
             options: ["Maybe it'll rain tomorrow.", "It's definitely going to rain tomorrow.", "It rained yesterday.", "I don't think it'll rain tomorrow."],
             correctIndex: 0,
-            explanation: "\"Talvez\" is maybe, and \"chova\" is the subjunctive of \"chover\" that follows it. Recognise it for now.",
+            explanation: "\"Talvez\" is maybe, and \"chova\" is the subjunctive of \"chover\" that follows it. Recognize it for now.",
           },
           {
             type: "fill-blank",
@@ -1199,7 +1199,7 @@ export const PT_A2_U08: Lesson[] = [
             prompt: "Put the words in order to say: The bloco sets off at four.",
             words: ["O", "bloco", "sai", "às", "quatro."],
             translation: "The bloco sets off at four.",
-            explanation: "A timetable takes the plain present: \"sai\", not \"vai sair\". \"Às quatro\": a + as before the hour.",
+            explanation: "A schedule takes the plain present: \"sai\", not \"vai sair\". \"Às quatro\": a + as before the hour.",
           },
           {
             type: "speak",
@@ -1276,7 +1276,7 @@ export const PT_A2_U08: Lesson[] = [
         sentence: "O bloco ___ às quatro.",
         answer: "sai",
         altAnswers: ["vai sair"],
-        explanation: "A fixed schedule takes the plain present: \"sai\". \"Vai sair\" is also fine, just less typical for a timetable.",
+        explanation: "A fixed schedule takes the plain present: \"sai\". \"Vai sair\" is also fine, just less typical for a schedule.",
       },
       {
         type: "translate",
@@ -1686,7 +1686,7 @@ export const PT_A2_U08: Lesson[] = [
           { es: "No ano que vem a Mariana vai estudar em Curitiba.", en: "Next year Mariana is going to study in Curitiba." },
           { es: "Eles vão chegar daqui a dois dias.", en: "They're going to arrive in two days." },
           { es: "Amanhã nós vamos estudar para a prova.", en: "Tomorrow we're going to study for the test." },
-          { es: "A gente vai ao cinema no sábado.", en: "We're going to the cinema on Saturday." },
+          { es: "A gente vai ao cinema no sábado.", en: "We're going to the movies on Saturday." },
         ],
         checkpoint: [
           {
@@ -2208,7 +2208,7 @@ export const PT_A2_U08: Lesson[] = [
             prompt: "Put the words in order to say: The bus leaves at eight.",
             words: ["O", "ônibus", "sai", "às", "oito."],
             translation: "The bus leaves at eight.",
-            explanation: "A timetable takes the simple present: \"sai\", from \"sair\".",
+            explanation: "A schedule takes the simple present: \"sai\", from \"sair\".",
           },
         ],
       },
@@ -2366,7 +2366,7 @@ export const PT_A2_U08: Lesson[] = [
         type: "speak",
         text: "Ontem eu fiquei em casa, mas amanhã eu vou sair.",
         prompt: "Say it in Portuguese: Yesterday I stayed home, but tomorrow I'm going to go out.",
-        tip: "Ontem ends in a nasal sound with no clear n or m, and the d in \"de\" before i-sounds is soft, like dj.",
+        tip: "Ontem ends in a nasal sound with no clear n or m, and the qu in \"fiquei\" is a plain k: fi-KEI.",
         explanation: "Each time word picks its tense: \"ontem\" takes the perfeito \"fiquei\", and \"amanhã\" takes \"vou\" + infinitive.",
       },
       {

@@ -94,9 +94,9 @@ export const FR_A1_U08_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "I prefer the train [to the] plane.",
-        sentence: "Je préfère le train ___ avion.",
-        answer: "à l'",
+        en: "I prefer the train [to the plane].",
+        sentence: "Je préfère le train ___.",
+        answer: "à l'avion",
         explanation: "\"Préférer X à Y\": \"à + l'avion\" stays \"à l'\".",
       },
       {
@@ -637,7 +637,7 @@ export const FR_A1_U08_EXTRA: Lesson[] = [
         type: "speak",
         text: "Nous aimons le cinéma, mais nous n'aimons pas la télé.",
         prompt: "Say it in French: We like the cinema, but we don't like TV.",
-        tip: "Nous aimons: link the s as a z.",
+        tip: "\"Nous aimons\": link the s as a z.",
         explanation: "\"Nous aimons\" / \"nous n'aimons pas\" with the same article logic.",
       },
     ],

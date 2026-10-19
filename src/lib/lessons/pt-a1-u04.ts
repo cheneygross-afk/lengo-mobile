@@ -200,7 +200,7 @@ export const PT_A1_U04: Lesson[] = [
         type: "speak",
         text: "Eu moro em Belo Horizonte.",
         prompt: "Say it in Portuguese: I live in Belo Horizonte.",
-        tip: "The final o of moro sounds like u, and the te in Horizonte sounds like tchi.",
+        tip: "The final o of moro sounds like u, and the te in Horizonte sounds like 'chee'.",
         explanation: "\"Eu moro em\" + city, with no article before \"Belo Horizonte\".",
       },
       {
@@ -235,7 +235,7 @@ export const PT_A1_U04: Lesson[] = [
           { es: "Eu gosto de café.", en: "I like coffee." },
           { es: "A Beatriz gosta de música brasileira.", en: "Beatriz likes Brazilian music." },
           { es: "Nós gostamos de cozinhar.", en: "We like cooking." },
-          { es: "Eles gostam de futebol.", en: "They like football." },
+          { es: "Eles gostam de futebol.", en: "They like soccer." },
           { es: "Você gosta de samba?", en: "Do you like samba?" },
         ],
         checkpoint: [
@@ -333,7 +333,7 @@ export const PT_A1_U04: Lesson[] = [
           {
             type: "speak",
             text: "Eu tomo café com leite.",
-            tip: "The final o in \"tomo\" sounds like u, and the t in \"leite\" sounds like ch: \"leitchi\".",
+            tip: "The final o in \"tomo\" sounds like u, and the t in \"leite\" sounds like ch: 'LAY-chee'.",
             explanation: "\"Tomar\" is the everyday verb for drinking: \"tomo café\" means I drink coffee.",
           },
           {
@@ -368,7 +368,7 @@ export const PT_A1_U04: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "They [like] football.",
+        en: "They [like] soccer.",
         sentence: "Eles ___ futebol.",
         answer: "gostam de",
         explanation: "The eles form ends in -am: \"gostam\". \"De\" is never left out after \"gostar\".",
@@ -680,7 +680,7 @@ export const PT_A1_U04: Lesson[] = [
         heading: "Tenho, tem, temos, têm: to have",
         body: [
           "\"Ter\" means to have, and it's irregular: \"eu tenho\" (I have), \"você tem\", \"ele tem\", \"ela tem\", \"nós temos\", \"vocês têm\", \"eles têm\", \"elas têm\". As with every verb, \"você\" takes the \"ele\" form and \"vocês\" the \"eles\" form.",
-          "\"Tem\" and \"têm\" sound the same in Brazil: a nasal ei sound with no n at the end. The circumflex only shows the plural in writing.",
+          "In everyday Brazilian speech \"tem\" and \"têm\" sound the same: a nasal ei sound with no n at the end. The circumflex only shows the plural in writing.",
           "For things you own, use \"ter\" with \"um\", \"uma\" or a number: \"tenho um carro\". In questions and negatives Brazilians often drop the article: \"você tem carro?\", \"não tenho carro\".",
         ],
         examples: [
@@ -715,7 +715,7 @@ export const PT_A1_U04: Lesson[] = [
         body: [
           "Zero to ten: \"zero, um, dois, três, quatro, cinco, seis, sete, oito, nove, dez\". Then \"onze, doze, treze, catorze, quinze, dezesseis, dezessete, dezoito, dezenove, vinte\". \"Catorze\" is also spelled \"quatorze\", and both are correct.",
           "Only \"um\" and \"dois\" change for gender: \"um irmão, uma irmã\", \"dois filhos, duas filhas\". English has nothing like this, so \"duas\" is the one learners forget. Every other number stays the same: \"três carros, três casas\".",
-          "Remember from Unit 2 that t before final -e sounds like ch, so \"sete\" sounds like 'setchi' and \"vinte\" like 'vintchi'.",
+          "Remember from Unit 2 that t before final -e sounds like ch, so \"sete\" sounds like 'SEH-chee' and \"vinte\" like 'VEEN-chee'.",
         ],
         examples: [
           { es: "Tenho três filhos.", en: "I have three children." },
@@ -881,7 +881,7 @@ export const PT_A1_U04: Lesson[] = [
         type: "speak",
         text: "Eu tenho vinte anos.",
         prompt: "Say it in Portuguese: I'm twenty years old.",
-        tip: "Vinte sounds like 'vintchi': the t before final -e becomes ch.",
+        tip: "Vinte sounds like 'VEEN-chee': the t before final -e becomes ch.",
         explanation: "\"Tenho vinte anos\": in Portuguese you have your age.",
       },
     ],
@@ -1126,7 +1126,7 @@ export const PT_A1_U04: Lesson[] = [
       {
         heading: "Pois não? Ordering with eu quero",
         body: [
-          "At the counter the attendant says \"Bom dia!\" or \"Pois não?\", which here means 'How can I help you?', not 'of course not'. Greet back and order with \"eu quero...\" (I'd like...), the food and \"por favor\". The verb \"querer\" comes in Unit 5; for now use \"eu quero\" as a ready-made chunk.",
+          "At the counter the attendant says \"Bom dia!\" or \"Pois não?\", which here means 'How can I help you?', not 'of course not'. Greet back and order with \"eu quero...\" (I'd like...), the food and \"por favor\". The verb \"querer\" comes in Unit 6; for now use \"eu quero\" as a ready-made chunk.",
           "In English 'I want' can sound blunt, but \"eu quero..., por favor\" is perfectly polite at a Brazilian counter. Match \"um\" or \"uma\" to the food: \"um pão de queijo\", \"uma coxinha\". A \"pão de queijo\" is a small cheese bread, the classic Brazilian breakfast snack.",
         ],
         examples: [
@@ -1297,7 +1297,7 @@ export const PT_A1_U04: Lesson[] = [
         source: "I don't have cash. Do you take cards?",
         answer: "Eu não tenho dinheiro. Vocês aceitam cartão?",
         altAnswers: ["Não tenho dinheiro. Vocês aceitam cartão?", "Eu não tenho dinheiro. Você aceita cartão?", "Não tenho dinheiro. Você aceita cartão?", "Não tenho dinheiro. O senhor aceita cartão?", "Não tenho dinheiro. A senhora aceita cartão?"],
-        explanation: "\"Não\" goes before the verb: \"não tenho\". \"Vocês aceitam\" asks the shop as a whole; you can also ask one person with \"você aceita\".",
+        explanation: "\"Não\" goes before the verb: \"não tenho\". \"Vocês aceitam\" asks the store as a whole; you can also ask one person with \"você aceita\".",
       },
       {
         type: "translate",
@@ -1359,11 +1359,11 @@ export const PT_A1_U04: Lesson[] = [
           "\"Ter\" changes the same way, but with its own forms: \"tenho\", \"tem\", \"temos\", \"têm\". Only the circumflex separates \"ele tem\" from \"eles têm\". In speech they usually sound alike, so the subject tells you which one you mean.",
         ],
         examples: [
-          { es: "Eu falo português. → Elas falam português.", en: "I speak Portuguese. → They speak Portuguese." },
-          { es: "Você mora em Curitiba. → Nós moramos em Curitiba.", en: "You live in Curitiba. → We live in Curitiba." },
-          { es: "Ele estuda medicina. → Vocês estudam medicina.", en: "He studies medicine. → You all study medicine." },
-          { es: "Ela gosta de café. → Nós gostamos de café.", en: "She likes coffee. → We like coffee." },
-          { es: "Eu tenho um carro. → Eles têm um carro.", en: "I have a car. → They have a car." },
+          { es: "Eu falo português. Elas falam português.", en: "I speak Portuguese. They speak Portuguese." },
+          { es: "Você mora em Curitiba. Nós moramos em Curitiba.", en: "You live in Curitiba. We live in Curitiba." },
+          { es: "Ele estuda medicina. Vocês estudam medicina.", en: "He studies medicine. You all study medicine." },
+          { es: "Ela gosta de café. Nós gostamos de café.", en: "She likes coffee. We like coffee." },
+          { es: "Eu tenho um carro. Eles têm um carro.", en: "I have a car. They have a car." },
         ],
         checkpoint: [
           {
@@ -1392,11 +1392,11 @@ export const PT_A1_U04: Lesson[] = [
           "Change the gender and jobs and nationalities change with it: \"ele é engenheiro\", \"ela é engenheira\". Words like \"estudante\" have one form for both, so only the article shows who you mean: \"o estudante\", \"a estudante\".",
         ],
         examples: [
-          { es: "O médico trabalha muito. → Os médicos trabalham muito.", en: "The doctor works a lot. → The doctors work a lot." },
-          { es: "A moça está cansada. → As moças estão cansadas.", en: "The girl is tired. → The girls are tired." },
-          { es: "Ele é engenheiro e mora em Salvador. → Ela é engenheira e mora em Salvador.", en: "He's an engineer and lives in Salvador. → She's an engineer and lives in Salvador." },
-          { es: "O estudante chega cedo. → As estudantes chegam cedo.", en: "The student arrives early. → The students (all women) arrive early." },
-          { es: "O cozinheiro compra pão. → Os cozinheiros compram pão.", en: "The cook buys bread. → The cooks buy bread." },
+          { es: "O médico trabalha muito. Os médicos trabalham muito.", en: "The doctor works a lot. The doctors work a lot." },
+          { es: "A moça está cansada. As moças estão cansadas.", en: "The girl is tired. The girls are tired." },
+          { es: "Ele é engenheiro e mora em Salvador. Ela é engenheira e mora em Salvador.", en: "He's an engineer and lives in Salvador. She's an engineer and lives in Salvador." },
+          { es: "O estudante chega cedo. As estudantes chegam cedo.", en: "The student arrives early. The students (all women) arrive early." },
+          { es: "O cozinheiro compra pão. Os cozinheiros compram pão.", en: "The cook buys bread. The cooks buy bread." },
         ],
         checkpoint: [
           {
@@ -1424,8 +1424,8 @@ export const PT_A1_U04: Lesson[] = [
           "Answer with the verb instead of a bare \"sim\", and switch the person. If you're asked with \"vocês\", answer with the \"nós\" form (\"Moramos.\"). If you're asked with \"você\", answer with the \"eu\" form (\"Moro.\"). A no usually has two \"não\": \"Não, não moro.\"",
         ],
         examples: [
-          { es: "Elas falam francês. → Elas não falam francês.", en: "They speak French. → They don't speak French." },
-          { es: "Nós precisamos de ajuda. → Nós não precisamos de ajuda.", en: "We need help. → We don't need help." },
+          { es: "Elas falam francês. Elas não falam francês.", en: "They speak French. They don't speak French." },
+          { es: "Nós precisamos de ajuda. Nós não precisamos de ajuda.", en: "We need help. We don't need help." },
           { es: "Vocês moram aqui? — Moramos.", en: "Do you live here? — We do." },
           { es: "Você tem filhos? — Não, não tenho.", en: "Do you have kids? — No, I don't." },
           { es: "O João cozinha bem? — Cozinha.", en: "Does João cook well? — He does." },
@@ -1442,7 +1442,7 @@ export const PT_A1_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A neighbour asks you and your sister, \"Vocês moram aqui?\" You both do. What do you answer?",
+            question: "A neighbor asks you and your sister, \"Vocês moram aqui?\" You both do. What do you answer?",
             options: ["Moramos.", "Moram.", "Moro.", "Mora."],
             correctIndex: 0,
             explanation: "The question is about \"vocês\", so the answer is about us: the \"nós\" form \"moramos\". \"Moram\" just repeats the person of the question.",
@@ -1546,7 +1546,7 @@ export const PT_A1_U04: Lesson[] = [
     level: "PT-A1",
     number: 8,
     title: "Spiral Review: A Day in São Paulo",
-    summary: "Follow Mariana through a weekday in São Paulo and practise -ar verbs, ter, negation and short answers together.",
+    summary: "Follow Mariana through a weekday in São Paulo and practice -ar verbs, ter, negation and short answers together.",
     duration: "12 min",
     sections: [
       {
@@ -1764,7 +1764,7 @@ export const PT_A1_U04: Lesson[] = [
         type: "speak",
         text: "Eu tenho vinte anos e moro em São Paulo.",
         prompt: "Say it in Portuguese: I'm twenty and I live in São Paulo.",
-        tip: "In \"vinte\" the t before final e sounds like ch: vin-tchi.",
+        tip: "In \"vinte\" the t before final e sounds like ch: 'VEEN-chee'.",
         explanation: "Age with \"ter\" (\"tenho vinte anos\") and where you live with \"morar em\".",
       },
       {

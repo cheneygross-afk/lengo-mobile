@@ -45,7 +45,7 @@ export const FR_C1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French, using a noun for the bold idea: the rise in prices.",
+            prompt: "Translate into French, using a noun for 'the rise in prices'.",
             source: "The rise in prices worries households.",
             answer: "L'augmentation des prix inquiète les ménages.",
             altAnswers: ["La hausse des prix inquiète les ménages.", "L'augmentation des prix inquiète les foyers.", "La hausse des prix inquiète les foyers."],
@@ -65,7 +65,7 @@ export const FR_C1_U03: Lesson[] = [
         body: [
           "Nouns in -tion / -sion are always feminine: \"la décision\", \"la réduction\", \"l'organisation\". Many verbs in -er form them with -ation: \"augmenter → l'augmentation\", \"organiser → l'organisation\", \"rénover → la rénovation\", \"créer → la création\", \"réparer → la réparation\".",
           "Verbs in -uire take -uction: \"réduire → la réduction\", \"produire → la production\", \"construire → la construction\", \"introduire → l'introduction\". Verbs in -ndre often give -nsion or -ntion: \"suspendre → la suspension\", \"prétendre → la prétention\", \"comprendre → la compréhension\". Others: \"décider → la décision\", \"diffuser → la diffusion\", \"inscrire → l'inscription\", \"interdire → l'interdiction\", \"élire → l'élection\".",
-          "Because these words look like English, they're easy to recognise but easy to misspell: French writes \"la connexion\" (connection), \"la réflexion\" (reflection), and double letters differ (\"l'adresse\" vs address, \"la personnalité\"). And the English -tion noun doesn't always exist in French: 'the licensing' is not \"*licenciation\" (see -ment).",
+          "Because these words look like English, they're easy to recognise but easy to misspell: French writes \"la connexion\" (connection), \"la réflexion\" (reflection), and double letters differ (\"l'adresse\" vs address, \"la personnalité\"). And the English -tion noun doesn't always exist in French: the noun from \"licencier\" (to lay off) is \"le licenciement\", not \"*la licenciation\" (see -ment).",
         ],
         examples: [
           { es: "La rénovation de la gare durera deux ans.", en: "The renovation of the station will take two years." },
@@ -89,8 +89,8 @@ export const FR_C1_U03: Lesson[] = [
             direction: "en-es",
             prompt: "Translate into French, using a noun.",
             source: "Registration closes on Friday.",
-            answer: "La clôture des inscriptions est vendredi.",
-            altAnswers: ["Les inscriptions ferment vendredi.", "Les inscriptions se terminent vendredi.", "La clôture des inscriptions aura lieu vendredi.", "Fin des inscriptions vendredi.", "Clôture des inscriptions vendredi.", "Les inscriptions sont closes vendredi."],
+            answer: "La clôture des inscriptions a lieu vendredi.",
+            altAnswers: ["Les inscriptions ferment vendredi.", "Les inscriptions se terminent vendredi.", "La clôture des inscriptions aura lieu vendredi.", "La clôture des inscriptions est fixée à vendredi.", "Fin des inscriptions vendredi.", "Clôture des inscriptions vendredi.", "Les inscriptions sont closes vendredi."],
             explanation: "\"S'inscrire\" → \"l'inscription\"; French often uses the plural \"les inscriptions\" for the process.",
           },
         ],
@@ -100,7 +100,7 @@ export const FR_C1_U03: Lesson[] = [
         body: [
           "Nouns in -ment derived from verbs are masculine: \"licencier → le licenciement\", \"développer → le développement\", \"lancer → le lancement\", \"recruter → le recrutement\", \"payer → le paiement\", \"stationner → le stationnement\", \"remplacer → le remplacement\", \"changer → le changement\". They often name the action or its result.",
           "Nouns in -age are also masculine: \"nettoyer → le nettoyage\", \"chauffer → le chauffage\", \"tourner → le tournage\" (filming), \"démarrer → le démarrage\", \"arroser → l'arrosage\", \"apprendre → l'apprentissage\", \"passer → le passage\". This suffix often names a technical process.",
-          "The famous exceptions in -age are not derived from verbs and are feminine: \"la page\", \"l'image\", \"la plage\", \"la cage\", \"la nage\", \"la rage\". Learn them as a chant. Apart from those, an -age noun is masculine, which goes against many learners' instinct: \"le chômage\", \"le fromage\", \"le courage\", \"le message\", \"le garage\".",
+          "The famous exceptions in -age are feminine (only \"la nage\" comes from a verb): \"la page\", \"l'image\", \"la plage\", \"la cage\", \"la nage\", \"la rage\". Learn them as a chant. Apart from those, an -age noun is masculine, which goes against many learners' instinct: \"le chômage\", \"le fromage\", \"le courage\", \"le message\", \"le garage\".",
         ],
         examples: [
           { es: "Le licenciement de trente salariés a provoqué une grève.", en: "The dismissal of thirty employees triggered a strike." },
@@ -287,7 +287,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         heading: "Nouns with no suffix: le choix, la baisse, la hausse",
         body: [
-          "Many very common nouns are formed from the verb stem with no suffix at all, and their gender has to be learned. Masculine: \"choisir → le choix\", \"acheter → l'achat\", \"reculer → le recul\", \"appeler → l'appel\", \"refuser → le refus\", \"accorder → l'accord\", \"débattre → le débat\", \"soutenir → le soutien\", \"retarder → le retard\", \"reporter → le report\", \"partir → le départ\", \"échouer → l'échec\".",
+          "Many very common nouns are formed from the verb stem with no suffix at all, and their gender has to be learned. Masculine: \"choisir → le choix\", \"acheter → l'achat\", \"reculer → le recul\", \"appeler → l'appel\", \"refuser → le refus\", \"accorder → l'accord\", \"débattre → le débat\", \"soutenir → le soutien\", \"retarder → le retard\", \"reporter → le report\", \"partir → le départ\".",
           "Feminine: \"baisser → la baisse\", \"hausser → la hausse\", \"demander → la demande\", \"aider → l'aide\", \"visiter → la visite\", \"marcher → la marche\", \"attendre → l'attente\", \"embaucher → l'embauche\", \"relancer → la relance\", \"chuter → la chute\".",
           "These short nouns are the staple of economic and political news: \"la baisse du chômage\", \"la hausse des taux\", \"le recul de la consommation\", \"l'appel à la grève\", \"le report du vote\". They're shorter and punchier than suffixed forms; \"la hausse\" is preferred to \"l'augmentation\" in headlines.",
         ],
@@ -478,7 +478,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         heading: "-ité and -eur: qualities, mostly feminine",
         body: [
-          "Adjectives become nouns to name a quality: 'fast' → 'speed', 'slow' → 'slowness'. French has a set of suffixes for this, and almost all of them produce feminine nouns. -ité is the most productive (English -ity): \"rapide → la rapidité\", \"sincère → la sincérité\", \"fiable → la fiabilité\", \"rentable → la rentabilité\", \"précaire → la précarité\", \"sécurisé → la sécurité\". Many adjectives in -ble give -bilité: \"responsable → la responsabilité\", \"disponible → la disponibilité\".",
+          "Adjectives become nouns to name a quality: 'fast' → 'speed', 'slow' → 'slowness'. French has a set of suffixes for this, and almost all of them produce feminine nouns. -ité is the most productive (English -ity): \"rapide → la rapidité\", \"sincère → la sincérité\", \"fiable → la fiabilité\", \"rentable → la rentabilité\", \"précaire → la précarité\", \"actif → l'activité\". Many adjectives in -ble give -bilité: \"responsable → la responsabilité\", \"disponible → la disponibilité\".",
           "Some -ité nouns drop or change letters: \"beau → la beauté\", \"fier → la fierté\", \"propre → la propreté\", \"sale → la saleté\", \"lâche → la lâcheté\", \"pauvre → la pauvreté\". Note the é ending without -it-.",
           "-eur names physical qualities and sensations, often measurements: \"lent → la lenteur\", \"grand → la grandeur\", \"large → la largeur\", \"épais → l'épaisseur\", \"doux → la douceur\", \"chaud → la chaleur\", \"frais → la fraîcheur\", \"blanc → la blancheur\". These are feminine, unlike the agent nouns in -eur (\"le chanteur\") and the exceptions \"le bonheur\", \"le malheur\", \"l'honneur\".",
         ],
@@ -539,7 +539,7 @@ export const FR_C1_U03: Lesson[] = [
             prompt: "Translate into French, using a noun.",
             source: "The accuracy of the data is essential.",
             answer: "L'exactitude des données est essentielle.",
-            altAnswers: ["La précision des données est essentielle.", "L'exactitude des données est indispensable.", "La fiabilité des données est essentielle."],
+            altAnswers: ["La précision des données est essentielle.", "L'exactitude des données est indispensable."],
             explanation: "\"Exact\" → \"l'exactitude\" (feminine, so \"essentielle\").",
           },
         ],
@@ -872,7 +872,7 @@ export const FR_C1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Turn the clause into a noun phrase: Le président est arrivé.",
+            prompt: "Translate into French (turn the clause into a noun phrase): \"Le président est arrivé.\"",
             source: "The president's arrival",
             answer: "L'arrivée du président",
             explanation: "\"Arriver\" → \"l'arrivée\"; the subject \"le président\" → \"du président\".",
@@ -905,7 +905,7 @@ export const FR_C1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Turn the clause into a noun phrase: Le chômage a légèrement baissé.",
+            prompt: "Translate into French (turn the clause into a noun phrase): \"Le chômage a légèrement baissé.\"",
             source: "The slight fall in unemployment",
             answer: "La légère baisse du chômage",
             altAnswers: ["Le léger recul du chômage", "La légère diminution du chômage"],
@@ -913,7 +913,7 @@ export const FR_C1_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which noun phrase corresponds to « La qualité s'est nettement améliorée »?",
+            question: "Which noun phrase corresponds to \"La qualité s'est nettement améliorée\"?",
             options: [
               "la nette amélioration de la qualité",
               "la nettement amélioration de la qualité",
@@ -943,7 +943,7 @@ export const FR_C1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Turn the clause into a noun phrase: Les habitants participent à la consultation.",
+            prompt: "Translate into French (turn the clause into a noun phrase): \"Les habitants participent à la consultation.\"",
             source: "Residents' participation in the consultation",
             answer: "La participation des habitants à la consultation",
             explanation: "Subject → \"des habitants\"; the indirect object keeps \"à\".",
@@ -963,7 +963,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Turn into a noun phrase: Les loyers ont fortement augmenté.",
+        prompt: "Translate into French (turn into a noun phrase): \"Les loyers ont fortement augmenté.\"",
         source: "The sharp rise in rents",
         answer: "La forte hausse des loyers",
         altAnswers: ["La forte augmentation des loyers"],
@@ -972,7 +972,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Turn into a noun phrase: Le directeur a démissionné brusquement.",
+        prompt: "Translate into French (turn into a noun phrase): \"Le directeur a démissionné brusquement.\"",
         source: "The director's abrupt resignation",
         answer: "La démission brusque du directeur",
         altAnswers: ["La brusque démission du directeur", "La démission soudaine du directeur", "La soudaine démission du directeur"],
@@ -981,7 +981,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Turn into a noun phrase: Les ventes ont nettement reculé.",
+        prompt: "Translate into French (turn into a noun phrase): \"Les ventes ont nettement reculé.\"",
         source: "The clear drop in sales",
         answer: "Le net recul des ventes",
         altAnswers: ["La nette baisse des ventes", "Le recul net des ventes", "La baisse nette des ventes"],
@@ -1001,12 +1001,11 @@ export const FR_C1_U03: Lesson[] = [
         prompt: "Translate into French, using a noun phrase as the subject.",
         source: "The government's fight against fraud is intensifying.",
         answer: "La lutte du gouvernement contre la fraude s'intensifie.",
-        altAnswers: ["La lutte contre la fraude du gouvernement s'intensifie."],
         explanation: "\"Lutter contre\" → \"la lutte contre\": the preposition stays.",
       },
       {
         type: "multiple-choice",
-        question: "Which is the noun phrase for « Les étudiants ont massivement participé au vote »?",
+        question: "Which is the noun phrase for \"Les étudiants ont massivement participé au vote\"?",
         options: [
           "la participation massive des étudiants au vote",
           "la participation massivement des étudiants au vote",
@@ -1019,7 +1018,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Turn into a noun phrase: Le maire a rapidement réagi.",
+        prompt: "Translate into French (turn into a noun phrase): \"Le maire a rapidement réagi.\"",
         source: "The mayor's swift reaction",
         answer: "La réaction rapide du maire",
         altAnswers: ["La rapide réaction du maire", "La prompte réaction du maire"],
@@ -1092,7 +1091,7 @@ export const FR_C1_U03: Lesson[] = [
             prompt: "Translate into French.",
             source: "The fact that nobody answered worries me.",
             answer: "Le fait que personne n'ait répondu m'inquiète.",
-            altAnswers: ["Le fait que personne ne réponde m'inquiète.", "Le fait que personne n'a répondu m'inquiète."],
+            altAnswers: ["Le fait que personne n'a répondu m'inquiète."],
             explanation: "\"Le fait que\" + subjunctive (reaction \"m'inquiète\"); past subjunctive for a completed event.",
           },
           {
@@ -1317,7 +1316,7 @@ export const FR_C1_U03: Lesson[] = [
             prompt: "Write a French headline (no verb) for:",
             source: "Unemployment falls in Brittany",
             answer: "Baisse du chômage en Bretagne",
-            altAnswers: ["Recul du chômage en Bretagne", "Chômage : baisse en Bretagne", "Le chômage baisse en Bretagne", "Chômage en baisse en Bretagne"],
+            altAnswers: ["Recul du chômage en Bretagne", "Chômage : baisse en Bretagne", "Chômage en baisse en Bretagne"],
             explanation: "Nominal headline: noun (\"baisse\") + \"du chômage\" + place; no article at the start.",
           },
           {
@@ -1372,7 +1371,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         heading: "Reading a headline back into a sentence",
         body: [
-          "To understand a nominal headline, rebuild the sentence: identify the noun's verb, then its subject (the \"de\" complement) and the missing tense from context. \"Report du vote sur le budget\" → \"Le vote sur le budget a été reporté\". \"Envolée des prix de l'énergie\" → \"Les prix de l'énergie s'envolent\". \"Nomination d'une femme à la tête de la BNF\" → \"Une femme a été nommée à la tête de la BNF\".",
+          "To understand a nominal headline, rebuild the sentence: identify the noun's verb, then its subject (the \"de\" complement) and the missing tense from context. \"Report du vote sur le budget\" → \"Le vote sur le budget a été reporté\". \"Envolée des prix de l'énergie\" → \"Les prix de l'énergie s'envolent\". \"Nomination d'une femme à la tête de la BnF\" → \"Une femme a été nommée à la tête de la BnF\".",
           "Watch for the passive: many nominal headlines hide an agent. \"Arrestation de deux suspects\" = two suspects have been arrested (by the police). \"Fermeture de l'usine Renault\" may mean the plant will close, is closing or has closed; the article tells you which.",
           "Being able to switch between nominal and verbal style is a DALF skill: summaries (\"synthèse\") reward compact nominal phrasing, but oral presentations sound more natural with verbs.",
         ],
@@ -1380,14 +1379,14 @@ export const FR_C1_U03: Lesson[] = [
           { es: "Report du vote sur le budget → Le vote sur le budget a été reporté.", en: "Budget vote postponed → The vote on the budget has been postponed." },
           { es: "Envolée des prix de l'énergie → Les prix de l'énergie s'envolent.", en: "Energy prices soar." },
           { es: "Arrestation de deux suspects à Marseille → Deux suspects ont été arrêtés à Marseille.", en: "Two suspects arrested in Marseille." },
-          { es: "Nomination d'une femme à la tête de la BNF → Une femme a été nommée à la tête de la BNF.", en: "Woman appointed head of the National Library." },
+          { es: "Nomination d'une femme à la tête de la BnF → Une femme a été nommée à la tête de la BnF.", en: "Woman appointed head of the National Library." },
           { es: "Rejet de l'amendement → L'amendement a été rejeté.", en: "Amendment rejected." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rebuild the full sentence behind the headline: Annulation du concert de Stromae.",
+            prompt: "Translate into French (rebuild the sentence behind the headline): \"Annulation du concert de Stromae\"",
             source: "Stromae's concert has been cancelled.",
             answer: "Le concert de Stromae a été annulé.",
             altAnswers: ["Le concert de Stromae est annulé."],
@@ -1396,7 +1395,7 @@ export const FR_C1_U03: Lesson[] = [
           {
             type: "speak",
             text: "Hausse des prix de l'énergie : les ménages inquiets.",
-            prompt: "Read the headline aloud: Energy prices rise: households worried.",
+            prompt: "Say it in French, as a headline: Energy prices rise: households worried.",
             explanation: "A typical two-part headline with a colon and no verbs.",
           },
         ],
@@ -1432,7 +1431,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rebuild the full sentence behind the headline: Report de la rentrée scolaire en Guadeloupe.",
+        prompt: "Translate into French (rebuild the sentence behind the headline): \"Report de la rentrée scolaire en Guadeloupe\"",
         source: "The start of the school year in Guadeloupe has been postponed.",
         answer: "La rentrée scolaire en Guadeloupe a été reportée.",
         altAnswers: ["La rentrée scolaire a été reportée en Guadeloupe.", "La rentrée scolaire en Guadeloupe est reportée."],
@@ -1449,7 +1448,7 @@ export const FR_C1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does the headline « Feu vert pour la ligne de TGV Bordeaux-Toulouse » mean?",
+        question: "What does the headline \"Feu vert pour la ligne de TGV Bordeaux-Toulouse\" mean?",
         options: [
           "The Bordeaux-Toulouse high-speed line gets the go-ahead.",
           "A fire broke out on the Bordeaux-Toulouse line.",
@@ -1471,7 +1470,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rebuild the full sentence behind the headline: Victoire du PSG face au Real Madrid.",
+        prompt: "Translate into French (rebuild the sentence behind the headline): \"Victoire du PSG face au Real Madrid\"",
         source: "PSG beat Real Madrid.",
         answer: "Le PSG a battu le Real Madrid.",
         altAnswers: ["Le PSG a gagné contre le Real Madrid.", "Le PSG l'a emporté face au Real Madrid.", "Le PSG a remporté la victoire face au Real Madrid."],
@@ -1504,7 +1503,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "speak",
         text: "Grève à la SNCF : report du vote.",
-        prompt: "Read the headline aloud: SNCF strike: vote postponed.",
+        prompt: "Say it in French, as a headline: SNCF strike: vote postponed.",
         tip: "Pause slightly at the colon, as a newsreader would.",
         explanation: "\"Report\" from \"reporter\" (to postpone), not 'report'.",
       },
@@ -1751,7 +1750,7 @@ export const FR_C1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Turn into a formal noun phrase: Les lampadaires ne marchent plus.",
+            prompt: "Translate into French (turn into a formal noun phrase): \"Les lampadaires ne marchent plus.\"",
             source: "The streetlight failure",
             answer: "La panne des lampadaires",
             altAnswers: ["Le dysfonctionnement des lampadaires", "La panne de l'éclairage public", "L'arrêt des lampadaires"],
@@ -1759,7 +1758,7 @@ export const FR_C1_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which phrase is the formal equivalent of « des voitures se garent n'importe comment »?",
+            question: "Which phrase is the formal equivalent of \"des voitures se garent n'importe comment\"?",
             options: ["le stationnement anarchique des véhicules", "les voitures qui se garent mal", "le garage des voitures n'importe comment", "les voitures garées comme ça"],
             correctIndex: 0,
             explanation: "\"Se garer\" → \"le stationnement\"; \"n'importe comment\" → \"anarchique\" or \"sauvage\".",
@@ -1838,7 +1837,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite formally, using a noun: Le chauffage ne marche plus depuis lundi.",
+        prompt: "Translate into French (rewrite formally, using a noun): \"Le chauffage ne marche plus depuis lundi.\"",
         source: "The heating has been out of order since Monday.",
         answer: "La panne du chauffage dure depuis lundi.",
         altAnswers: ["Le chauffage est en panne depuis lundi.", "La panne de chauffage est constatée depuis lundi.", "Le dysfonctionnement du chauffage persiste depuis lundi.", "La panne du chauffage persiste depuis lundi."],
@@ -1865,7 +1864,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite formally, using a noun: Vous n'avez pas répondu.",
+        prompt: "Translate into French (rewrite formally, using a noun): \"Vous n'avez pas répondu.\"",
         source: "In the absence of a reply from you",
         answer: "En l'absence de réponse de votre part",
         altAnswers: ["Faute de réponse de votre part", "En l'absence de votre réponse", "Sans réponse de votre part"],
@@ -1895,7 +1894,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite formally, using a noun: Les voisins font du bruit tous les soirs.",
+        prompt: "Translate into French (rewrite formally, using a noun): \"Les voisins font du bruit tous les soirs.\"",
         source: "The neighbours' noise every evening",
         answer: "Le bruit des voisins tous les soirs",
         altAnswers: ["Les nuisances sonores des voisins tous les soirs", "Le tapage des voisins tous les soirs", "Les nuisances sonores causées par les voisins tous les soirs"],
@@ -1964,14 +1963,14 @@ export const FR_C1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A report says: La licenciation de dix salariés a été annoncée. Write the correct French.",
+            prompt: "A report says: \"La licenciation de dix salariés a été annoncée.\" Write the correct French.",
             source: "The dismissal of ten employees has been announced.",
             answer: "Le licenciement de dix salariés a été annoncé.",
             explanation: "\"Licencier\" → \"le licenciement\" (masculine), so \"annoncé\" without -e.",
           },
           {
             type: "fill-blank",
-            prompt: "A report says: L'arrivement du directeur... Write the French for the bold words.",
+            prompt: "A report says: \"L'arrivement du directeur...\" Write the French for the bold words.",
             en: "[The arrival] of the director is planned for March.",
             sentence: "___ du directeur est prévue en mars.",
             answer: "L'arrivée",
@@ -2009,7 +2008,7 @@ export const FR_C1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "An email says: La développement du produit a pris du retard. Write the correct French.",
+            prompt: "An email says: \"La développement du produit a pris du retard.\" Write the correct French.",
             source: "Product development has fallen behind schedule.",
             answer: "Le développement du produit a pris du retard.",
             explanation: "-ment nouns from verbs are masculine.",
@@ -2019,7 +2018,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         heading: "Wrong noun for the meaning",
         body: [
-          "Some errors use a real French noun with the wrong meaning: \"*la location de l'usine\" for 'the location of the factory' (\"la location\" = renting; 'location' = \"l'emplacement\" / \"la situation\"). \"*Les achats de la police\" for 'arrests' (\"les arrestations\"). \"*Une demande pour 200 euros\" for 'a 200-euro demand' (\"une demande de 200 euros\").",
+          "Some errors use a real French noun with the wrong meaning: \"*la location de l'usine\" for 'the location of the factory' (\"la location\" = renting; 'location' = \"l'emplacement\" / \"la situation\"). \"*Les arrêts de deux suspects\" for 'the arrest of two suspects' (\"l'arrêt\" = a stop or a court ruling; a person's arrest is \"l'arrestation\"). \"*Une demande pour 200 euros\" for 'a 200-euro demand' (\"une demande de 200 euros\").",
           "False friends in nominal style: \"la formation\" (training, not formation), \"l'actualité\" (current events), \"la manifestation\" (demonstration or event), \"le report\" (postponement, not a report: that's \"le rapport\"), \"la délivrance\" (issuing of a document), \"la résignation\" (resignation in the sense of acceptance; quitting a job is \"la démission\").",
           "These are the slips that make an Advanced text unreliable for the reader. When you nominalise, check that the noun really means what you want.",
         ],
@@ -2054,7 +2053,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A text says: La réduisation des impôts... Write the correct French: The tax cut was voted.",
+        prompt: "A text says: \"La réduisation des impôts...\" Write the correct French: The tax cut was voted.",
         source: "The tax cut was voted.",
         answer: "La réduction des impôts a été votée.",
         altAnswers: ["La baisse des impôts a été votée."],
@@ -2063,14 +2062,14 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A text says: Le remplaçage du directeur... Write the correct French: The director's replacement is planned.",
+        prompt: "A text says: \"Le remplaçage du directeur...\" Write the correct French: The director's replacement is planned.",
         source: "The director's replacement is planned.",
         answer: "Le remplacement du directeur est prévu.",
         explanation: "\"Remplacer\" → \"le remplacement\" (-ment).",
       },
       {
         type: "fill-blank",
-        prompt: "A text says: La lancement du site... Write the French for the bold words.",
+        prompt: "A text says: \"La lancement du site...\" Write the French for the bold words.",
         en: "[The launch] of the website is a success.",
         sentence: "___ du site est un succès.",
         answer: "Le lancement",
@@ -2095,7 +2094,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A text says: La payement est refusée. Write the correct French: The payment has been refused.",
+        prompt: "A text says: \"La payement est refusée.\" Write the correct French: The payment has been refused.",
         source: "The payment has been refused.",
         answer: "Le paiement a été refusé.",
         altAnswers: ["Le paiement est refusé."],
@@ -2112,7 +2111,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A text says: Les achats de deux suspects... Write the correct French: The arrest of two suspects.",
+        prompt: "A text says \"Les arrêts de deux suspects...\" Translate into French correctly: The arrest of two suspects.",
         source: "The arrest of two suspects",
         answer: "L'arrestation de deux suspects",
         altAnswers: ["L'interpellation de deux suspects"],
@@ -2176,7 +2175,7 @@ export const FR_C1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite in plain French with a verb: La réalisation de la réparation de la toiture est prévue en juin.",
+            prompt: "Translate into French (rewrite in plain French with a verb): \"La réalisation de la réparation de la toiture est prévue en juin.\"",
             source: "We'll repair the roof in June.",
             answer: "Nous réparerons le toit en juin.",
             altAnswers: ["Nous allons réparer le toit en juin.", "On réparera le toit en juin.", "On va réparer le toit en juin.", "Le toit sera réparé en juin.", "Nous réparerons la toiture en juin."],
@@ -2214,7 +2213,7 @@ export const FR_C1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite with an active verb: Votre demande fera l'objet d'un examen attentif.",
+            prompt: "Translate into French (rewrite with an active verb): \"Votre demande fera l'objet d'un examen attentif.\"",
             source: "We will review your request carefully.",
             answer: "Nous examinerons attentivement votre demande.",
             altAnswers: ["Nous allons examiner attentivement votre demande.", "Nous examinerons votre demande attentivement.", "Nous étudierons attentivement votre demande.", "Nous étudierons votre demande avec attention."],
@@ -2249,7 +2248,7 @@ export const FR_C1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite in plain spoken French: La hausse des tarifs s'explique par l'augmentation des coûts de l'énergie.",
+            prompt: "Translate into French (rewrite in plain spoken French): \"La hausse des tarifs s'explique par l'augmentation des coûts de l'énergie.\"",
             source: "Fares are going up because energy costs more.",
             answer: "Les tarifs augmentent parce que l'énergie coûte plus cher.",
             altAnswers: ["Les tarifs augmentent parce que l'énergie est plus chère.", "Les prix augmentent parce que l'énergie coûte plus cher.", "Les tarifs augmentent car l'énergie coûte plus cher."],
@@ -2270,7 +2269,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in plain French: Il est procédé à la fermeture des portes à 18 heures.",
+        prompt: "Translate into French (rewrite in plain French): \"Il est procédé à la fermeture des portes à 18 heures.\"",
         source: "We close the doors at 6 p.m.",
         answer: "Nous fermons les portes à 18 heures.",
         altAnswers: ["On ferme les portes à 18 heures.", "Les portes ferment à 18 heures.", "Nous fermons les portes à 18 h.", "Les portes sont fermées à 18 heures."],
@@ -2279,7 +2278,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in plain French: La vérification de vos documents sera effectuée par nos services.",
+        prompt: "Translate into French (rewrite in plain French): \"La vérification de vos documents sera effectuée par nos services.\"",
         source: "Our staff will check your documents.",
         answer: "Nos services vérifieront vos documents.",
         altAnswers: ["Nos services vont vérifier vos documents.", "Nous vérifierons vos documents.", "Nos équipes vérifieront vos documents."],
@@ -2288,7 +2287,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with fewer nouns: Au niveau de la communication, il y a eu un manque de clarté.",
+        prompt: "Translate into French (rewrite with fewer nouns): \"Au niveau de la communication, il y a eu un manque de clarté.\"",
         source: "Communication wasn't clear.",
         answer: "La communication n'a pas été claire.",
         altAnswers: ["La communication n'était pas claire.", "Nous n'avons pas communiqué clairement.", "On n'a pas communiqué clairement."],
@@ -2318,7 +2317,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in plain French: L'envoi de votre carte interviendra sous quinze jours.",
+        prompt: "Translate into French (rewrite in plain French): \"L'envoi de votre carte interviendra sous quinze jours.\"",
         source: "We'll send your card within two weeks.",
         answer: "Nous vous enverrons votre carte sous quinze jours.",
         altAnswers: ["Nous enverrons votre carte sous quinze jours.", "Vous recevrez votre carte sous quinze jours.", "Nous vous enverrons votre carte d'ici quinze jours.", "Votre carte vous sera envoyée sous quinze jours."],
@@ -2327,7 +2326,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in plain French: La prise en charge des frais de transport est assurée par l'employeur.",
+        prompt: "Translate into French (rewrite in plain French): \"La prise en charge des frais de transport est assurée par l'employeur.\"",
         source: "The employer pays for travel costs.",
         answer: "L'employeur prend en charge les frais de transport.",
         altAnswers: ["L'employeur paie les frais de transport.", "L'employeur rembourse les frais de transport.", "L'employeur paye les frais de transport."],
@@ -2343,7 +2342,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in nominal (headline) style: Nous reportons la réunion à lundi.",
+        prompt: "Translate into French (rewrite in nominal (headline) style): \"Nous reportons la réunion à lundi.\"",
         source: "Meeting postponed to Monday",
         answer: "Report de la réunion à lundi",
         altAnswers: ["Report de la réunion au lundi", "Réunion reportée à lundi"],
@@ -2363,7 +2362,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in plain French: En termes de délais, la livraison est garantie sous 48 heures.",
+        prompt: "Translate into French (rewrite in plain French): \"En termes de délais, la livraison est garantie sous 48 heures.\"",
         source: "We guarantee delivery within 48 hours.",
         answer: "Nous garantissons la livraison sous 48 heures.",
         altAnswers: ["Nous vous livrons sous 48 heures.", "La livraison est garantie sous 48 heures.", "Nous garantissons une livraison sous 48 heures.", "Nous livrons sous 48 heures."],
@@ -2398,7 +2397,7 @@ export const FR_C1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rebuild the sentence behind the headline: Retraites : nouvelle mobilisation des syndicats jeudi.",
+            prompt: "Translate into French (rebuild the sentence behind the headline): \"Retraites : nouvelle mobilisation des syndicats jeudi\"",
             source: "The unions are mobilising again on Thursday over pensions.",
             answer: "Les syndicats se mobilisent de nouveau jeudi sur les retraites.",
             altAnswers: ["Les syndicats vont se mobiliser de nouveau jeudi pour les retraites.", "Les syndicats se mobilisent à nouveau jeudi contre la réforme des retraites.", "Les syndicats se mobilisent de nouveau jeudi contre la réforme des retraites.", "Les syndicats se mobiliseront de nouveau jeudi sur les retraites.", "Les syndicats se mobilisent à nouveau jeudi sur les retraites."],
@@ -2406,7 +2405,7 @@ export const FR_C1_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does « Airbus : embauche de 800 personnes d'ici juin » mean?",
+            question: "What does \"Airbus : embauche de 800 personnes d'ici juin\" mean?",
             options: ["Airbus will hire 800 people by June.", "Airbus hired 800 people last June.", "800 people left Airbus in June.", "Airbus has been hiring since June."],
             correctIndex: 0,
             explanation: "\"Embauche\" (from embaucher, to hire) + \"d'ici juin\" (by June) → future.",
@@ -2441,7 +2440,7 @@ export const FR_C1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rebuild the sentence behind the headline: Santé : forte progression des cas de grippe dans la région.",
+            prompt: "Translate into French (rebuild the sentence behind the headline): \"Santé : forte progression des cas de grippe dans la région\"",
             source: "Flu cases are rising sharply in the region.",
             answer: "Les cas de grippe progressent fortement dans la région.",
             altAnswers: ["Les cas de grippe augmentent fortement dans la région.", "Les cas de grippe sont en forte progression dans la région.", "Les cas de grippe ont fortement progressé dans la région."],
@@ -2476,7 +2475,7 @@ export const FR_C1_U03: Lesson[] = [
           {
             type: "speak",
             text: "Gratuité des transports : le conseil municipal dit oui.",
-            prompt: "Read the headline aloud: Free transport: council says yes.",
+            prompt: "Say it in French, as a headline: Free transport: council says yes.",
             explanation: "Nominal topic + colon + short verbal punchline.",
           },
         ],
@@ -2486,7 +2485,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rebuild the sentence behind the headline: Démission du directeur de l'hôpital de Nantes.",
+        prompt: "Translate into French (rebuild the sentence behind the headline): \"Démission du directeur de l'hôpital de Nantes\"",
         source: "The director of Nantes hospital has resigned.",
         answer: "Le directeur de l'hôpital de Nantes a démissionné.",
         explanation: "\"Démission\" → \"a démissionné\".",
@@ -2494,7 +2493,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rebuild the sentence behind the headline: Annulation de tous les vols au départ de Lyon.",
+        prompt: "Translate into French (rebuild the sentence behind the headline): \"Annulation de tous les vols au départ de Lyon\"",
         source: "All flights from Lyon have been cancelled.",
         answer: "Tous les vols au départ de Lyon ont été annulés.",
         altAnswers: ["Tous les vols au départ de Lyon sont annulés."],
@@ -2521,7 +2520,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rebuild the sentence behind the headline: Pau : interpellation de deux suspects.",
+        prompt: "Translate into French (rebuild the sentence behind the headline): \"Pau : interpellation de deux suspects\"",
         source: "In Pau, two suspects have been arrested.",
         answer: "À Pau, deux suspects ont été interpellés.",
         altAnswers: ["À Pau, deux suspects ont été arrêtés.", "Deux suspects ont été interpellés à Pau.", "Deux suspects ont été arrêtés à Pau."],
@@ -2529,7 +2528,7 @@ export const FR_C1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does « Rentrée : légère hausse des effectifs dans les lycées » mean?",
+        question: "What does \"Rentrée : légère hausse des effectifs dans les lycées\" mean?",
         options: [
           "New school year: slight rise in student numbers in sixth-form colleges.",
           "Back to school: lycée staff slightly increased their effort.",
@@ -2551,7 +2550,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rebuild the sentence behind the headline: Forte baisse de la fréquentation des cinémas en été.",
+        prompt: "Translate into French (rebuild the sentence behind the headline): \"Forte baisse de la fréquentation des cinémas en été\"",
         source: "Cinema attendance falls sharply in summer.",
         answer: "La fréquentation des cinémas baisse fortement en été.",
         altAnswers: ["La fréquentation des cinémas a fortement baissé en été.", "Les cinémas sont beaucoup moins fréquentés en été."],
@@ -2618,7 +2617,7 @@ export const FR_C1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite with avant + noun: Il faut finir avant que le directeur parte.",
+            prompt: "Translate into French (rewrite with avant + noun): \"Il faut finir avant que le directeur parte.\"",
             source: "We must finish before the director's departure.",
             answer: "Il faut finir avant le départ du directeur.",
             altAnswers: ["Nous devons finir avant le départ du directeur.", "Il faut terminer avant le départ du directeur."],
@@ -2627,7 +2626,7 @@ export const FR_C1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite with bien que + subjunctive: Malgré sa fatigue, elle a continué.",
+            prompt: "Translate into French (rewrite with bien que + subjunctive): \"Malgré sa fatigue, elle a continué.\"",
             source: "Although she was tired, she carried on.",
             answer: "Bien qu'elle soit fatiguée, elle a continué.",
             altAnswers: ["Bien qu'elle ait été fatiguée, elle a continué.", "Quoiqu'elle soit fatiguée, elle a continué.", "Bien que fatiguée, elle a continué."],
@@ -2662,7 +2661,7 @@ export const FR_C1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite with sans + noun: Le projet a été lancé sans que les habitants aient été consultés.",
+            prompt: "Translate into French (rewrite with sans + noun): \"Le projet a été lancé sans que les habitants aient été consultés.\"",
             source: "The project was launched without consulting residents.",
             answer: "Le projet a été lancé sans consultation des habitants.",
             altAnswers: ["Le projet a été lancé sans consultation préalable des habitants.", "Le projet a été lancé sans concertation avec les habitants.", "Le projet a été lancé sans consulter les habitants."],
@@ -2712,7 +2711,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with malgré + noun: Bien qu'il ait plu, le festival a eu lieu.",
+        prompt: "Translate into French (rewrite with malgré + noun): \"Bien qu'il ait plu, le festival a eu lieu.\"",
         source: "Despite the rain, the festival took place.",
         answer: "Malgré la pluie, le festival a eu lieu.",
         altAnswers: ["En dépit de la pluie, le festival a eu lieu."],
@@ -2721,7 +2720,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with avant que + subjunctive: Rentrons avant la tombée de la nuit.",
+        prompt: "Translate into French (rewrite with avant que + subjunctive): \"Rentrons avant la tombée de la nuit.\"",
         source: "Let's go home before night falls.",
         answer: "Rentrons avant que la nuit tombe.",
         altAnswers: ["Rentrons avant que la nuit ne tombe.", "Rentrons avant qu'il fasse nuit.", "Rentrons avant qu'il ne fasse nuit."],
@@ -2730,7 +2729,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with pour + noun: Tout le monde a travaillé pour que la soirée réussisse.",
+        prompt: "Translate into French (rewrite with pour + noun): \"Tout le monde a travaillé pour que la soirée réussisse.\"",
         source: "Everyone worked for the success of the evening.",
         answer: "Tout le monde a travaillé pour la réussite de la soirée.",
         altAnswers: ["Tout le monde a travaillé au succès de la soirée.", "Tout le monde a travaillé pour le succès de la soirée."],
@@ -2747,7 +2746,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with bien que + subjunctive: Malgré son jeune âge, il dirige l'équipe.",
+        prompt: "Translate into French (rewrite with bien que + subjunctive): \"Malgré son jeune âge, il dirige l'équipe.\"",
         source: "Although he's young, he runs the team.",
         answer: "Bien qu'il soit jeune, il dirige l'équipe.",
         altAnswers: ["Quoiqu'il soit jeune, il dirige l'équipe.", "Bien que jeune, il dirige l'équipe.", "Bien qu'il soit très jeune, il dirige l'équipe."],
@@ -2756,7 +2755,7 @@ export const FR_C1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with sans + noun: Il a signé sans qu'on l'ait prévenu.",
+        prompt: "Translate into French (rewrite with sans + noun): \"Il a signé sans qu'on l'ait prévenu.\"",
         source: "He signed without prior warning.",
         answer: "Il a signé sans avertissement préalable.",
         altAnswers: ["Il a signé sans être prévenu.", "Il a signé sans avoir été prévenu.", "Il a signé sans préavis."],
@@ -2764,7 +2763,7 @@ export const FR_C1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the noun-phrase version of « avant que les magasins ferment »?",
+        question: "Which is the noun-phrase version of \"avant que les magasins ferment\"?",
         options: ["avant la fermeture des magasins", "avant le fermement des magasins", "avant que la fermeture des magasins", "avant de fermeture des magasins"],
         correctIndex: 0,
         explanation: "\"Fermer\" → \"la fermeture\"; \"avant\" + noun directly.",

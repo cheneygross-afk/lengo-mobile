@@ -9,7 +9,7 @@ export const PT_B2_U01_EXTRA: Lesson[] = [
     level: "PT-B2",
     number: 1,
     title: "Extra Practice: Imperfect Subjunctive, Part 1 of 3",
-    summary: "Practise regular imperfect subjunctive forms: falasse, comesse, abrisse, and the accented nós forms.",
+    summary: "Practice regular imperfect subjunctive forms: falasse, comesse, abrisse, and the accented nós forms.",
     duration: "12 min",
     optional: true,
     kind: "drill",
@@ -173,7 +173,7 @@ export const PT_B2_U01_EXTRA: Lesson[] = [
     level: "PT-B2",
     number: 2,
     title: "Extra Practice: Imperfect Subjunctive, Part 2 of 3",
-    summary: "Practise irregular stems: fizesse, fosse, tivesse, pudesse, dissesse, viesse, soubesse, quisesse.",
+    summary: "Practice irregular stems: fizesse, fosse, tivesse, pudesse, dissesse, viesse, soubesse, quisesse.",
     duration: "12 min",
     optional: true,
     kind: "drill",
@@ -182,7 +182,7 @@ export const PT_B2_U01_EXTRA: Lesson[] = [
         heading: "Irregular stems",
         body: [
           "The rule never breaks, because the stem comes from the irregular perfeito: \"fizeram\" → \"fizesse\", \"foram\" → \"fosse\" (both ser and ir), \"tiveram\" → \"tivesse\", \"puderam\" → \"pudesse\", \"disseram\" → \"dissesse\", \"vieram\" → \"viesse\", \"souberam\" → \"soubesse\", \"quiseram\" → \"quisesse\", \"deram\" → \"desse\", \"estiveram\" → \"estivesse\".",
-          "So if you know the eles perfeito, you know the imperfect subjunctive. \"Se\" and \"como se\" come in the next unit; here, practise after past triggers.",
+          "So if you know the eles perfeito, you know the imperfect subjunctive. \"Se\" and \"como se\" come in the next unit; here, practice after past triggers.",
         ],
         examples: [
           { es: "Pedi que ele fizesse o relatório.", en: "I asked him to do the report." },
@@ -296,7 +296,7 @@ export const PT_B2_U01_EXTRA: Lesson[] = [
         question: "How do you complete \"Pedi que ele ___ o vinho\" (I asked him to bring the wine)?",
         options: ["trouxesse", "trazesse", "traga", "trouxe"],
         correctIndex: 0,
-        explanation: "\"Pediu\" is past, so \"trazer\" goes through its perfeito \"trouxeram\" → \"trouxesse\". \"Trazesse\" doesn't exist, \"traga\" would follow a present request, and \"trouxe\" is indicative.",
+        explanation: "\"Pedi\" is past, so \"trazer\" goes through its perfeito \"trouxeram\" → \"trouxesse\". \"Trazesse\" doesn't exist, \"traga\" would follow a present request, and \"trouxe\" is indicative.",
       },
       {
         type: "word-order",
@@ -314,7 +314,7 @@ export const PT_B2_U01_EXTRA: Lesson[] = [
         type: "speak",
         text: "Era importante que você soubesse.",
         prompt: "Say it in Portuguese: It was important that you knew.",
-        tip: "Soubesse: so-BE-si.",
+        tip: "Soubesse: so-BÉ-si, with an open é.",
         explanation: "\"Era importante que\" + imperfect subjunctive: \"souberam\" gives \"soubesse\", with an open é.",
       },
       {
@@ -337,7 +337,7 @@ export const PT_B2_U01_EXTRA: Lesson[] = [
     level: "PT-B2",
     number: 3,
     title: "Extra Practice: Imperfect Subjunctive, Part 3 of 3",
-    summary: "Practise the sequence of tenses: quero que venha vs queria que viesse, and eu queria que for polite wishes.",
+    summary: "Practice the sequence of tenses: quero que venha vs queria que viesse, and eu queria que for polite wishes.",
     duration: "12 min",
     optional: true,
     kind: "drill",

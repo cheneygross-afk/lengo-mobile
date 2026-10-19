@@ -15,7 +15,7 @@ export const FR_B1_U07: Lesson[] = [
         heading: "The leaflet: spot the problems",
         body: [
           "A pharmacy in Bordeaux has printed a leaflet about winter tiredness, but the intern who wrote it mixed up the patterns. Here is the first paragraph as printed:",
-          "« L'hiver, il est normal qu'on est fatigué. *Il est important que boire beaucoup d'eau et *il est conseillé qu'on mange des fruits. *Il est probable que vous soyez fatigué à cause du manque de lumière. »",
+          "\"L'hiver, il est normal qu'on est fatigué. *Il est important que boire beaucoup d'eau et *il est conseillé qu'on mange des fruits. *Il est probable que vous soyez fatigué à cause du manque de lumière.\"",
           "Each sentence has one mistake. 1: \"normal que\" is a judgement, so subjunctive: \"il est normal qu'on soit fatigué\". 2: with no person, use \"de\" + infinitive: \"il est important de boire\". 3: same thing: \"il est conseillé de manger\". 4: \"probable\" takes the indicative: \"il est probable que vous êtes fatigué\" (or \"que vous serez\").",
         ],
         examples: [
@@ -57,7 +57,7 @@ export const FR_B1_U07: Lesson[] = [
         heading: "Paragraph 2: advice for vous",
         body: [
           "The second paragraph speaks directly to the reader, so \"que vous\" + subjunctive is right in principle, but the intern made other slips:",
-          "« *Il vaut mieux que vous faites une promenade le matin. *Il est essentiel que vous prenez de la vitamine D si votre médecin le conseille. *Il est possible que la fatigue dure plusieurs semaines : *il est rare qu'elle est grave. »",
+          "\"*Il vaut mieux que vous faites une promenade le matin. *Il est essentiel que vous prenez de la vitamine D si votre médecin le conseille. *Il est possible que la fatigue dure plusieurs semaines : *il est rare qu'elle est grave.\"",
           "Fixes: \"il vaut mieux que vous fassiez\", \"il est essentiel que vous preniez\" (one n: nous stem), \"il est rare qu'elle soit grave\". \"Il est possible que la fatigue dure\" was already correct: \"dure\" is a subjunctive that looks like the present.",
         ],
         examples: [
@@ -99,7 +99,7 @@ export const FR_B1_U07: Lesson[] = [
         heading: "Paragraph 3: the clean version",
         body: [
           "Now the leaflet's conclusion, already corrected. Read it and notice how each frame chooses its pattern: \"il est conseillé de\" + infinitive for everyone; \"il faut que vous\" + subjunctive for the reader; \"il est clair que\" + indicative for a fact; \"n'hésitez pas à\" + infinitive (don't hesitate to).",
-          "« Il est clair que l'hiver est une saison difficile. Il est conseillé de sortir à la lumière du jour au moins trente minutes. Si vous avez des doutes, il faut que vous en parliez à votre pharmacien. N'hésitez pas à nous poser vos questions ! »",
+          "\"Il est clair que l'hiver est une saison difficile. Il est conseillé de sortir à la lumière du jour au moins trente minutes. Si vous avez des doutes, il faut que vous en parliez à votre pharmacien. N'hésitez pas à nous poser vos questions !\"",
         ],
         examples: [
           { es: "Il est clair que l'hiver est une saison difficile.", en: "Clearly winter is a difficult season." },
@@ -287,7 +287,7 @@ export const FR_B1_U07: Lesson[] = [
         body: [
           "For each sentence, name the tool and the reason. \"Peut-être qu'il neigera demain\" → adverb, indicative. \"Il est possible qu'il neige demain\" → possibility trigger, subjunctive. \"Je doute qu'il neige demain\" → doubt trigger, subjunctive.",
           "Watch out for the negative: \"il n'est pas impossible que\" (it's not impossible that) still takes the subjunctive, while \"il est certain que\" stays indicative.",
-          "Avoid the hybrid *peut-être qu'il neige demain with a subjunctive meaning in mind: with -er verbs the form looks the same, but think indicative after peut-être.",
+          "Don't be fooled by -er verbs: in \"peut-être qu'il neige demain\" (correct French, present for a near future), \"neige\" looks the same in both moods, but after peut-être it is the indicative. Test with an irregular verb: \"peut-être qu'il fait beau\", never *peut-être qu'il fasse beau.",
         ],
         examples: [
           { es: "Peut-être qu'il neigera demain.", en: "Maybe it'll snow tomorrow." },

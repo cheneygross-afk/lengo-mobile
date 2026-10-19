@@ -317,7 +317,7 @@ export const PT_B1_U09: Lesson[] = [
           "English needs for, as in it's important for us to know. Portuguese has no preposition here. The subject pronoun goes straight before the verb: \"é importante nós sabermos\".",
         ],
         examples: [
-          { es: "É melhor vocês irem de metrô.", en: "You'd better take the metro." },
+          { es: "É melhor vocês irem de metrô.", en: "You'd better take the subway." },
           { es: "É importante os alunos lerem o texto antes da aula.", en: "It's important for the students to read the text before class." },
           { es: "É bom eles terem um plano B.", en: "It's good for them to have a plan B." },
           { es: "Não é possível vocês ficarem aqui.", en: "You can't stay here." },
@@ -538,7 +538,7 @@ export const PT_B1_U09: Lesson[] = [
           { es: "Vou repetir para que vocês entendam.", en: "I'll repeat it so that you all understand." },
           { es: "Ela fala devagar para os alunos acompanharem.", en: "She speaks slowly so the students can follow." },
           { es: "Deixei a chave com o porteiro para você entrar.", en: "I left the key with the doorman so you can get in." },
-          { es: "O professor deu exemplos para nós praticarmos em casa.", en: "The teacher gave examples for us to practise at home." },
+          { es: "O professor deu exemplos para nós praticarmos em casa.", en: "The teacher gave examples for us to practice at home." },
           { es: "Me manda a foto para eu ver.", en: "Send me the photo so I can see it." },
         ],
         checkpoint: [
@@ -752,7 +752,7 @@ export const PT_B1_U09: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The teacher sent a voice message [for us to practise] the pronunciation.",
+        en: "The teacher sent a voice message [for us to practice] the pronunciation.",
         sentence: "A professora mandou um áudio ___ a pronúncia.",
         answer: "para nós praticarmos",
         altAnswers: ["pra nós praticarmos", "para a gente praticar", "pra gente praticar", "para que nós pratiquemos", "para que a gente pratique"],
@@ -902,7 +902,7 @@ export const PT_B1_U09: Lesson[] = [
           { es: "Eles querem sair hoje à noite.", en: "They want to go out tonight." },
           { es: "Vocês podem entrar.", en: "You can come in. (to several people)" },
           { es: "Elas precisam estudar mais.", en: "They need to study more." },
-          { es: "Os meninos vão jogar futebol no sábado.", en: "The boys are going to play football on Saturday." },
+          { es: "Os meninos vão jogar futebol no sábado.", en: "The boys are going to play soccer on Saturday." },
           { es: "Eles têm que trabalhar no domingo.", en: "They have to work on Sunday." },
           { es: "Nós acabamos de chegar.", en: "We've just arrived." },
         ],
@@ -918,9 +918,9 @@ export const PT_B1_U09: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: The boys are going to play football on Saturday.",
+            prompt: "Put the words in order to say: The boys are going to play soccer on Saturday.",
             words: ["Os meninos", "vão", "jogar", "futebol", "no sábado."],
-            translation: "The boys are going to play football on Saturday.",
+            translation: "The boys are going to play soccer on Saturday.",
             explanation: "The near future \"vão jogar\": \"ir\" carries the person, and \"jogar\" stays plain.",
           },
           {
@@ -990,7 +990,7 @@ export const PT_B1_U09: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "After [having dinner], we watched a film.",
+        en: "After [having dinner], we watched a movie.",
         sentence: "Depois de ___, nós vimos um filme.",
         answer: "jantar",
         altAnswers: ["jantarmos"],
@@ -1139,7 +1139,7 @@ export const PT_B1_U09: Lesson[] = [
           "The classic slip is using the present tense instead: \"é melhor vocês vão\". After these expressions the verb is still an infinitive, so it ends in -r plus the person ending: \"irem\", not \"vão\".",
         ],
         examples: [
-          { es: "É melhor vocês irem de metrô.", en: "You'd better take the metro." },
+          { es: "É melhor vocês irem de metrô.", en: "You'd better take the subway." },
           { es: "É importante nós sabermos o horário do voo.", en: "It's important for us to know the flight time." },
           { es: "Já é hora de eles dormirem.", en: "It's time for them to go to sleep." },
           { es: "É difícil nós chegarmos antes das oito.", en: "It's hard for us to get there before eight." },
@@ -1320,7 +1320,7 @@ export const PT_B1_U09: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "It's time for you to pay the rent. (to your flatmates)",
+            source: "It's time for you to pay the rent. (to your roommates)",
             answer: "É hora de vocês pagarem o aluguel.",
             explanation: "\"Vocês\" is the subject of the infinitive, so it's \"pagarem\". English for you to pay has no ending, but Portuguese needs one.",
           },
@@ -1519,7 +1519,7 @@ export const PT_B1_U09: Lesson[] = [
       {
         heading: "Friday night: é melhor vocês levarem casaco",
         body: [
-          "Beatriz is organising a weekend in Campos do Jordão, a cold mountain town in São Paulo state, with three friends. Notice how she gives advice: \"é melhor vocês levarem casaco\" (you'd better bring a coat). After \"é melhor\", \"é bom\", \"é importante\" and \"é hora de\", the infinitive carries its own subject and ending.",
+          "Beatriz is organizing a weekend in Campos do Jordão, a cold mountain town in São Paulo state, with three friends. Notice how she gives advice: \"é melhor vocês levarem casaco\" (you'd better bring a coat). After \"é melhor\", \"é bom\", \"é importante\" and \"é hora de\", the infinitive carries its own subject and ending.",
           "Watch \"a gente\": it takes the ele form, so its infinitive has no ending at all: \"é importante a gente sair cedo\". With \"nós\" you add -mos: \"é importante nós sairmos cedo\". Both are right, but friends in conversation say \"a gente\".",
         ],
         examples: [
@@ -1745,8 +1745,8 @@ export const PT_B1_U09: Lesson[] = [
           { es: "Eles querem sair mais cedo hoje.", en: "They want to leave earlier today." },
           { es: "Vocês podem entrar, a porta está aberta.", en: "You can all come in, the door's open." },
           { es: "Nós devemos chegar às oito.", en: "We should get there at eight." },
-          { es: "Os meninos vão jogar bola no sábado.", en: "The boys are going to play football on Saturday." },
-          { es: "As vizinhas têm que trabalhar no domingo.", en: "The neighbours have to work on Sunday." },
+          { es: "Os meninos vão jogar bola no sábado.", en: "The boys are going to play soccer on Saturday." },
+          { es: "As vizinhas têm que trabalhar no domingo.", en: "The neighbors have to work on Sunday." },
         ],
         checkpoint: [
           {
@@ -1761,7 +1761,7 @@ export const PT_B1_U09: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The boys [are going to play] football on Saturday.",
+            en: "The boys [are going to play] soccer on Saturday.",
             sentence: "Os meninos ___ bola no sábado.",
             answer: "vão jogar",
             explanation: "\"Ir\" + infinitive for the future: \"vão\" carries the person, so \"jogar\" stays plain, never *\"vão jogarem\".",
@@ -1811,7 +1811,7 @@ export const PT_B1_U09: Lesson[] = [
           { es: "Vamos jantar antes de eles chegarem.", en: "Let's have dinner before they arrive." },
           { es: "Depois de a reunião terminar, todo mundo foi embora.", en: "After the meeting ended, everyone left." },
           { es: "Saímos antes de o show começar.", en: "We left before the show started." },
-          { es: "O apartamento deles fica no Leblon.", en: "Their flat is in Leblon." },
+          { es: "O apartamento deles fica no Leblon.", en: "Their apartment is in Leblon." },
         ],
         checkpoint: [
           {
@@ -1844,10 +1844,10 @@ export const PT_B1_U09: Lesson[] = [
           "The twist is that \"é melhor que vocês vão\" is correct, because \"vão\" is also the subjunctive of \"ir\". So pick one structure and stick to it. Without \"que\" you need the infinitive; with \"que\" you need the subjunctive.",
         ],
         examples: [
-          { es: "É melhor vocês irem de metrô.", en: "You'd all better take the metro." },
+          { es: "É melhor vocês irem de metrô.", en: "You'd all better take the subway." },
           { es: "É importante nós sabermos o horário do voo.", en: "It's important for us to know the flight time." },
           { es: "Já é hora de as crianças dormirem.", en: "It's time for the kids to go to sleep." },
-          { es: "É melhor que vocês vão de metrô.", en: "You'd all better take the metro. (que + subjunctive)" },
+          { es: "É melhor que vocês vão de metrô.", en: "You'd all better take the subway. (que + subjunctive)" },
         ],
         checkpoint: [
           {
@@ -2024,7 +2024,7 @@ export const PT_B1_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You want to say: We'll leave without the neighbours knowing. Which is correct?",
+            question: "You want to say: We'll leave without the neighbors knowing. Which is correct?",
             options: [
               "Vamos sair sem os vizinhos saberem.",
               "Vamos sair sem os vizinhos saibam.",
@@ -2044,7 +2044,7 @@ export const PT_B1_U09: Lesson[] = [
         ],
         examples: [
           { es: "É importante nós estudarmos para a prova.", en: "It's important for us to study for the test. (from \"que nós estudemos\")" },
-          { es: "É melhor vocês irem de metrô.", en: "You guys had better take the metro. (from \"que vocês vão\")" },
+          { es: "É melhor vocês irem de metrô.", en: "You guys had better take the subway. (from \"que vocês vão\")" },
           { es: "É bom eles saberem a verdade.", en: "It's good for them to know the truth. (from \"que eles saibam\")" },
           { es: "É necessário os alunos trazerem o documento.", en: "The students need to bring their ID. (from \"que os alunos tragam\")" },
           { es: "É possível vocês chegarem antes das oito?", en: "Is it possible for you guys to get here before eight? (from \"que vocês cheguem\")" },
@@ -2080,7 +2080,7 @@ export const PT_B1_U09: Lesson[] = [
         heading: "Where the swap doesn't work",
         body: [
           "The swap only works after prepositions and impersonal expressions. After verbs of wanting, hoping and doubting, \"que\" + subjunctive is the only option: \"espero que vocês gostem\", never *\"espero vocês gostarem\"; \"quero que eles venham\", never *\"quero eles virem\".",
-          "Going the other way, a same-subject sentence never had a \"que\" version: *\"vou estudar para que eu passe\" is wrong, and the plain infinitive does the job: \"vou estudar para passar\".",
+          "Going the other way, a same-subject sentence doesn't need a \"que\" version: \"vou estudar para que eu passe\" is grammatical but heavy and unnatural, and the plain infinitive does the job: \"vou estudar para passar\".",
         ],
         examples: [
           { es: "Espero que vocês gostem do presente.", en: "I hope you guys like the present." },
@@ -2272,7 +2272,7 @@ export const PT_B1_U09: Lesson[] = [
           { es: "Vou explicar de novo para que vocês entendam.", en: "I'll explain again so that you all understand." },
           { es: "Liga para os seus pais antes de eles dormirem.", en: "Call your parents before they go to sleep." },
           { es: "Liga para os seus pais antes que eles durmam.", en: "Call your parents before they go to sleep." },
-          { es: "A gente saiu sem os vizinhos perceberem.", en: "We left without the neighbours noticing." },
+          { es: "A gente saiu sem os vizinhos perceberem.", en: "We left without the neighbors noticing." },
           { es: "Depois de vocês jantarem, a gente conversa.", en: "After you've had dinner, we'll talk." },
         ],
         checkpoint: [
@@ -2327,7 +2327,7 @@ export const PT_B1_U09: Lesson[] = [
           { es: "Caso vocês precisem, é só ligar.", en: "In case you need anything, just call." },
           { es: "Embora seja caro, vale a pena.", en: "Although it's expensive, it's worth it." },
           { es: "Apesar de eles serem jovens, trabalham muito.", en: "Although they're young, they work a lot." },
-          { es: "É melhor a gente ir de metrô.", en: "We'd better take the metro." },
+          { es: "É melhor a gente ir de metrô.", en: "We'd better take the subway." },
         ],
         checkpoint: [
           {
@@ -2365,7 +2365,7 @@ export const PT_B1_U09: Lesson[] = [
         heading: "With the B1 tenses",
         body: [
           "The personal infinitive works with any tense you know. The main verb carries the time, and the infinitive only says who does the second action: \"eles tinham saído antes de nós chegarmos\", \"temos acordado cedo para as crianças não chegarem atrasadas\".",
-          "After the conditional, the infinitive is again the easy route: \"seria bom vocês conhecerem a Bahia\". The \"que\" version needs the past subjunctive (\"seria bom que vocês conhecessem\"). Recognise it, but don't build it yet.",
+          "After the conditional, the infinitive is again the easy route: \"seria bom vocês conhecerem a Bahia\". The \"que\" version needs the past subjunctive (\"seria bom que vocês conhecessem\"). Recognize it, but don't build it yet.",
         ],
         examples: [
           { es: "Eles já tinham ido embora antes de nós chegarmos.", en: "They'd already left before we arrived." },
@@ -2407,7 +2407,7 @@ export const PT_B1_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We'd better take the metro.",
+        source: "We'd better take the subway.",
         answer: "É melhor a gente pegar o metrô.",
         altAnswers: [
           "É melhor nós pegarmos o metrô.",
@@ -2522,7 +2522,7 @@ export const PT_B1_U09: Lesson[] = [
 
 export const PT_B1_U09_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You're organising a weekend trip to Paraty for your Portuguese class. Write a message to the group (80-150 words) explaining the plan: when and where to meet, what to bring and what will happen on each day. Use the personal infinitive to say what everyone needs to do and why.",
+  prompt: "You're organizing a weekend trip to Paraty for your Portuguese class. Write a message to the group (80-150 words) explaining the plan: when and where to meet, what to bring and what will happen on each day. Use the personal infinitive to say what everyone needs to do and why.",
   minWords: 80,
   maxWords: 150,
   rubric: [

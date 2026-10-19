@@ -15,7 +15,7 @@ export const FR_C2_U17: Lesson[] = [
       {
         heading: "Les guillemets français",
         body: [
-          "French marks a quotation with \"les guillemets\" « », the angled chevrons, never with the English curly quotes. In print there is a narrow non-breaking space inside each chevron: « Je pense, donc je suis. » A French reader spots a quotation in English marks at once, the way you would spot a German „quote“ in an English essay. (In this course you type an ordinary space; the build turns it into a non-breaking one.)",
+          "French marks a quotation with \"les guillemets\" « », the angled chevrons, never with the English curly quotes. In print there is a narrow non-breaking space inside each chevron: « Je pense, donc je suis. » A French reader spots a quotation in English marks at once, and in a French text it looks foreign. (In this course you type an ordinary space; the build turns it into a non-breaking one.)",
           "The same spacing logic applies to the high punctuation marks: French puts a space before \":\", \";\", \"?\" and \"!\" and inside « ». Forgetting the space before the colon that introduces a quotation (\"Pascal écrit :\") is the commonest typographic slip of English writers, and in an academic text it looks careless.",
           "A quotation inside a quotation takes the English-style marks “ ” in French typography (the Imprimerie nationale rule), or a second pair of chevrons in some publishing houses: « Le témoin affirme : “Je n'ai rien vu.” » Choose one system and keep it throughout the document.",
           "Long quotations (more than about three lines) are not put in guillemets at all: they are set apart as a block quotation (\"une citation détachée\" or \"en retrait\"), indented and often in a smaller font, introduced by a colon. The indentation itself is the quotation mark.",
@@ -129,7 +129,6 @@ export const FR_C2_U17: Lesson[] = [
         prompt: "Translate into French, with French quotation marks.",
         source: "Rousseau writes: 'Man is born free, and everywhere he is in chains.'",
         answer: "Rousseau écrit : « L'homme est né libre, et partout il est dans les fers. »",
-        altAnswers: ["Rousseau écrit : « L'homme est né libre, et partout il est dans les chaînes. »"],
         explanation: "A complete sentence introduced by a colon: capital letter, full stop inside the guillemets, space before the colon. The original says \"dans les fers\" (in irons); a quotation is never retouched.",
       },
       {
@@ -147,7 +146,7 @@ export const FR_C2_U17: Lesson[] = [
         en: "[As Hugo emphasises], poverty is a 'social condemnation'.",
         sentence: "___, la misère est une « damnation sociale ».",
         answer: "Comme le souligne Hugo",
-        altAnswers: ["Comme le rappelle Hugo", "Comme l'écrit Hugo", "Comme Hugo le souligne"],
+        altAnswers: ["Comme Hugo le souligne"],
         explanation: "\"Comme le souligne X\": after \"comme\" the subject is inverted and \"le\" stands for the idea. The fragment is woven in, so the full stop stays outside.",
       },
       {
@@ -383,6 +382,7 @@ export const FR_C2_U17: Lesson[] = [
         prompt: "Translate into French (a historical report).",
         source: "The unions confirmed that they had signed the day before.",
         answer: "Les syndicats ont confirmé qu'ils avaient signé la veille.",
+        altAnswers: ["Les syndicats ont confirmé avoir signé la veille."],
         explanation: "Plus-que-parfait \"avaient signé\" and \"la veille\" (not \"hier\") because the report is anchored in the past.",
       },
       {
@@ -446,6 +446,7 @@ export const FR_C2_U17: Lesson[] = [
       {
         type: "dictation",
         audio: "Le journaliste lui a demandé ce qui l'avait convaincu.",
+        altAnswers: ["Le journaliste lui a demandé ce qui l'avait convaincue.", "La journaliste lui a demandé ce qui l'avait convaincu.", "La journaliste lui a demandé ce qui l'avait convaincue."],
         explanation: "\"Ce qui\" (subject) in an indirect question, then the plus-que-parfait \"l'avait convaincu\".",
       },
       {
@@ -1383,7 +1384,7 @@ export const FR_C2_U17: Lesson[] = [
       {
         heading: "Synonymy and change of structure",
         body: [
-          "A real paraphrase changes both the words and the architecture. Take an original (fictional) sentence: « Les bibliothèques de quartier, longtemps considérées comme des lieux de silence, sont devenues des espaces de sociabilité. » Changing only the words (\"Les médiathèques de proximité, considérées depuis longtemps comme des endroits silencieux, se sont transformées en lieux de rencontre\") keeps the skeleton: that is the paraphrase servile a logiciel anti-plagiat and a professor will spot.",
+          "A real paraphrase changes both the words and the architecture. Take an original (fictional) sentence: « Les bibliothèques de quartier, longtemps considérées comme des lieux de silence, sont devenues des espaces de sociabilité. » Changing only the words (\"Les médiathèques de proximité, considérées depuis longtemps comme des endroits silencieux, se sont transformées en lieux de rencontre\") keeps the skeleton: that is the paraphrase servile a professor will spot, even when the logiciel anti-plagiat does not.",
           "Change the structure as well. Turn the subject into a complement, an adjective into a clause, active into passive or the reverse, a main clause into a subordinate: \"Ce que l'on venait autrefois chercher dans les bibliothèques de quartier, c'était le silence ; on y cherche aujourd'hui la compagnie des autres (Leroux, 2023).\" Same idea, new syntax, new rhythm, source named.",
           "Synonyms in French academic prose need care: they must be exact in register and meaning. \"Lieu\", \"espace\", \"endroit\" are not interchangeable (\"endroit\" is too everyday), and a thesaurus swap can distort the claim (\"sociabilité\" is not \"convivialité\", which adds warmth). Paraphrase the idea, not the dictionary.",
         ],
@@ -1664,7 +1665,7 @@ export const FR_C2_U17: Lesson[] = [
         prompt: "The student wrote: « Comme le montre Garnier, cette généralisation brutale a révélé de profondes inégalités. » Write the corrected French, with guillemets around her words.",
         source: "As Garnier shows, 'this sudden spread revealed deep inequalities'.",
         answer: "Comme le montre Garnier, « cette généralisation brutale a révélé de profondes inégalités ».",
-        altAnswers: ["Comme le montre Garnier, « cette généralisation brutale a révélé de profondes inégalités »."],
+        altAnswers: ["Comme Garnier le montre, « cette généralisation brutale a révélé de profondes inégalités »."],
         explanation: "Her exact words need guillemets even when her name is given; the full stop goes outside because the quotation is integrated.",
       },
       {
@@ -1679,7 +1680,7 @@ export const FR_C2_U17: Lesson[] = [
       {
         type: "multiple-choice",
         question: "« Le télétravail a exposé les inégalités au grand jour. » What is the main problem if this sentence translates an uncited English blog?",
-        options: ["It is plagiarism by untranslated reference, and \"exposer\" is a calque.", "It should use the passé simple.", "It needs [sic] after inégalités.", "Nothing: translation is always original work."],
+        options: ["It is plagiarism (an unreferenced translation), and \"exposer\" is a calque.", "It should use the passé simple.", "It needs [sic] after inégalités.", "Nothing: translation is always original work."],
         correctIndex: 0,
         explanation: "Translating a source without naming it is plagiarism; \"mettre au jour\" or \"révéler\" is the idiomatic verb.",
       },

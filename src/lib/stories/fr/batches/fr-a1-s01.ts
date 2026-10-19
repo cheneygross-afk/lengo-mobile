@@ -72,7 +72,7 @@ export const FR_A1_S01_STORIES: Story[] = [
         question: `What does Madame Roux say about Caramel?`,
         options: [`He is greedy.`, `He is old.`, `He is shy.`, `He is sick.`],
         correctIndex: 0,
-        explanation: `"Il est gourmand": he loves food, so he likes Thomas's cheese.`,
+        explanation: `"Il est gourmand": he loves food. That's why she asks Thomas "Vous avez du fromage ?"`,
       },
     ],
   },

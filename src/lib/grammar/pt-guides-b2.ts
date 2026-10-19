@@ -10,14 +10,14 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
       "How to form the Brazilian Portuguese imperfect subjunctive from the eles form of the perfeito (fizeram, fizesse; foram, fosse), the accent in -ássemos, and its uses after past triggers, in polite wishes and with quem dera.",
     level: "B2",
     intro: [
-      `The imperfect subjunctive is the subjunctive's past form: "eu queria que você viesse" (I wanted you to come), "ela pediu que a gente esperasse" (she asked us to wait), "embora fosse tarde, saímos" (although it was late, we went out). Every trigger you learnt with the present subjunctive at B1 also works here, once the main verb moves into the past.`,
+      `The imperfect subjunctive is the subjunctive's past form: "eu queria que você viesse" (I wanted you to come), "ela pediu que a gente esperasse" (she asked us to wait), "embora fosse tarde, saímos" (although it was late, we went out). Every trigger you learned with the present subjunctive at B1 also works here, once the main verb moves into the past.`,
       `It is also the subjunctive of imagined situations: "se eu tivesse tempo" (if I had time), "como se nada fosse" (as if nothing were wrong). English often uses its simple past for this (if I had), which is why English speakers tend to write "se eu tinha" instead of "se eu tivesse".`,
     ],
     sections: [
       {
         heading: `Forms: the eles perfeito minus -ram, plus -sse`,
         body: [
-          `Take the eles form of the pretérito perfeito, drop "-ram" and add "-sse", "-ssemos", "-ssem". This works for every verb in the language, regular or irregular: "falaram" gives "falasse", "comeram" gives "comesse", "abriram" gives "abrisse". If you know the perfeito, there is nothing new to memorise.`,
+          `Take the eles form of the pretérito perfeito, drop "-ram" and add "-sse", "-ssemos", "-ssem". This works for every verb in the language, regular or irregular: "falaram" gives "falasse", "comeram" gives "comesse", "abriram" gives "abrisse". If you know the perfeito, there is nothing new to memorize.`,
           `The nós form takes a written accent on the vowel before "-ssemos", because the stress falls there: "falássemos", "comêssemos", "abríssemos", "fôssemos", "tivéssemos". Leaving it out is a frequent spelling mistake, even among Brazilians.`,
         ],
         table: {
@@ -33,7 +33,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
           { pt: "Eu queria que você falasse com ela.", en: "I wanted you to talk to her." },
           { pt: "Minha avó pedia que a gente comesse tudo.", en: "My grandmother used to ask us to eat everything." },
           { pt: "O guia pediu que nós chegássemos às sete.", en: "The guide asked us to arrive at seven." },
-          { pt: "Era importante que eles abrissem a loja cedo.", en: "It was important for them to open the shop early." },
+          { pt: "Era importante que eles abrissem a loja cedo.", en: "It was important for them to open the store early." },
         ],
       },
       {
@@ -80,8 +80,8 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
           { pt: "Saímos cedo para que as crianças não perdessem a escola.", en: "We left early so the children wouldn't miss school." },
           { pt: "Ele fala como se soubesse tudo.", en: "He talks as if he knew everything." },
           { pt: "Eu gostaria que vocês pensassem com calma.", en: "I'd like you to think it over calmly." },
-          { pt: "Quem dera eu tivesse férias agora!", en: "If only I had a holiday now!" },
-          { pt: "Seria bom se o governo investisse mais em transporte.", en: "It would be good if the government invested more in transport." },
+          { pt: "Quem dera eu tivesse férias agora!", en: "If only I were on vacation now!" },
+          { pt: "Seria bom se o governo investisse mais em transporte.", en: "It would be good if the government invested more in public transportation." },
         ],
       },
     ],
@@ -201,7 +201,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
       {
         heading: `When the present survives after a past verb`,
         body: [
-          `A past main verb can take the present subjunctive when the content is still valid now. A request made yesterday for something still to be done: "ela pediu que você ligue amanhã" (and she still wants it). A doubt that still holds: "eu disse que duvido que ele venha". This is normal in Brazil, but if the action is over or the request no longer stands, the imperfect is required: "ela pediu que eu ligasse e eu liguei".`,
+          `A past main verb can take the present subjunctive when the content is still valid now. A request made yesterday for something still to be done: "ela pediu que você ligue amanhã" (and she still wants it). A recommendation that still applies: "o médico recomendou que ele evite sal" (and he still should). This is normal in Brazil, but if the action is over or the request no longer stands, the imperfect is required: "ela pediu que eu ligasse e eu liguei".`,
           `In speech, people often soften the whole system with "pedir para" + infinitive, which has no tense to match: "ela pediu pra eu ligar" works for any time.`,
         ],
         examples: [
@@ -301,7 +301,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
           { pt: "Quando eu chegar em casa, te mando uma mensagem.", en: "When I get home, I'll send you a message." },
           { pt: "Se você tiver tempo, passa aqui.", en: "If you have time, drop by." },
           { pt: "Quando vocês forem a Salvador, provem o acarajé.", en: "When you go to Salvador, try acarajé." },
-          { pt: "Se der, a gente se encontra no fim de semana.", en: "If it works out, we'll meet up at the weekend." },
+          { pt: "Se der, a gente se encontra no fim de semana.", en: "If it works out, we'll meet up on the weekend." },
           { pt: "Quando eu vir a Ana, vou dar o recado.", en: "When I see Ana, I'll pass the message on." },
           { pt: "Quando a Ana vier, a gente janta.", en: "When Ana comes, we'll have dinner." },
         ],
@@ -575,7 +575,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
           { pt: "Se eu fosse você, aceitaria a proposta.", en: "If I were you, I'd accept the offer." },
           { pt: "Se eu fosse você, eu nem respondia.", en: "If I were you, I wouldn't even reply. (speech)" },
           { pt: "Se eu tiver tempo amanhã, passo na sua casa.", en: "If I have time tomorrow, I'll drop by your place." },
-          { pt: "Se eu tivesse tempo, passaria mais vezes na sua casa.", en: "If I had time, I'd come round to yours more often." },
+          { pt: "Se eu tivesse tempo, passaria mais vezes na sua casa.", en: "If I had time, I'd come by your place more often." },
         ],
       },
       {
@@ -676,12 +676,12 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
           rows: [
             ["Vende-se este carro.", "Este carro é vendido.", "This car is for sale."],
             ["Vendem-se casas.", "Casas são vendidas.", "Houses for sale."],
-            ["Alugam-se quartos.", "Quartos são alugados.", "Rooms to let."],
+            ["Alugam-se quartos.", "Quartos são alugados.", "Rooms for rent."],
             ["Discutiram-se os problemas.", "Os problemas foram discutidos.", "The problems were discussed."],
           ],
         },
         examples: [
-          { pt: "Alugam-se salas comerciais.", en: "Office units to let." },
+          { pt: "Alugam-se salas comerciais.", en: "Office space for rent." },
           { pt: "Na reunião, discutiram-se os novos prazos.", en: "The new deadlines were discussed at the meeting." },
           { pt: "Ainda não se sabem as causas do acidente.", en: "The causes of the accident are not yet known." },
           { pt: "Fizeram-se muitas promessas durante a campanha.", en: "Many promises were made during the campaign." },
@@ -698,14 +698,14 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
           { pt: "Trata-se de um problema antigo.", en: "This is an old problem." },
           { pt: "O artigo trata da desigualdade nas grandes cidades.", en: "The article is about inequality in big cities." },
           { pt: "Em Curitiba se vive bem.", en: "Life is good in Curitiba." },
-          { pt: "Não se acredita mais em promessas de campanha.", en: "People don't believe campaign promises any more." },
+          { pt: "Não se acredita mais em promessas de campanha.", en: "People don't believe campaign promises anymore." },
         ],
       },
       {
         heading: `The vende-se casas debate, and what to write`,
         body: [
           `Many Brazilians feel "vende-se casas" as someone sells houses, with "se" as an indefinite subject and "casas" as the object, so they keep the verb singular. Linguists point out that this is how the language actually works today, and signs and ads prove it. The prescriptive norm, school grammars, the vestibular and careful editors still require agreement: "vendem-se casas".`,
-          `Practical rule: in the Celpe-Bras, in formal emails and reports, make the verb agree. Recognise the singular in the street. And in speech, Brazilians mostly avoid the question altogether by dropping "se" ("aqui vende pão de queijo") or using a plural or general subject ("eles vendem", "a gente vende", "você encontra").`,
+          `Practical rule: in the Celpe-Bras, in formal emails and reports, make the verb agree. Recognize the singular in the street. And in speech, Brazilians mostly avoid the question altogether by dropping "se" ("aqui vende pão de queijo") or using a plural or general subject ("eles vendem", "a gente vende", "você encontra").`,
         ],
         table: {
           headers: ["Formal writing", "Signs and ads", "Speech"],
@@ -752,7 +752,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
       },
       {
         q: `Is it different in European Portuguese?`,
-        a: `Portugal keeps the "se" in speech ("vende-se pão aqui", never just "vende pão") and makes it agree more consistently. Dropping the "se" with a general meaning ("aqui conserta celular") is typically Brazilian.`,
+        a: `Portugal keeps the "se" in speech ("vende-se pão aqui"; plain "vende pão" is rare there) and makes it agree more consistently. Dropping the "se" with a general meaning ("aqui conserta celular") is typically Brazilian.`,
       },
     ],
     related: ["passive-voice-and-se", "pronoun-placement-in-writing", "register-and-the-written-norm", "spoken-brazilian-portuguese"],
@@ -787,7 +787,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
           { pt: "Por mais que eu tente, não consigo acordar cedo.", en: "No matter how hard I try, I can't wake up early." },
           { pt: "Por mais difícil que pareça, a solução é simples.", en: "However difficult it seems, the solution is simple." },
           { pt: "Vou terminar hoje, nem que eu tenha que virar a noite.", en: "I'll finish today, even if I have to stay up all night." },
-          { pt: "O filme é longo. Mesmo assim, vale a pena.", en: "The film is long. Even so, it's worth it." },
+          { pt: "O filme é longo. Mesmo assim, vale a pena.", en: "The movie is long. Even so, it's worth it." },
           { pt: "Não gostei muito do hotel. Se bem que o café da manhã era ótimo.", en: "I didn't like the hotel much. Mind you, breakfast was great." },
         ],
       },
@@ -799,10 +799,10 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
         ],
         examples: [
           { pt: "Uma vez que o prazo terminou, não aceitamos mais inscrições.", en: "Since the deadline has passed, we're no longer accepting applications." },
-          { pt: "Dado que a maioria mora no centro, a mudança não faz sentido.", en: "Given that most people live in the centre, the move makes no sense." },
-          { pt: "O voo foi cancelado devido ao mau tempo.", en: "The flight was cancelled due to bad weather." },
+          { pt: "Dado que a maioria mora no centro, a mudança não faz sentido.", en: "Given that most people live in the center, the move makes no sense." },
+          { pt: "O voo foi cancelado devido ao mau tempo.", en: "The flight was canceled due to bad weather." },
           { pt: "Graças ao apoio da comunidade, a escola foi reformada.", en: "Thanks to the community's support, the school was renovated." },
-          { pt: "O jogo foi adiado por causa da chuva.", en: "The match was postponed because of the rain." },
+          { pt: "O jogo foi adiado por causa da chuva.", en: "The game was postponed because of the rain." },
         ],
       },
       {
@@ -828,7 +828,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
           { pt: "Enviamos o material com antecedência a fim de que todos possam se preparar.", en: "We sent the material in advance so that everyone can prepare." },
           { pt: "Ela estava tão cansada que dormiu no ônibus.", en: "She was so tired that she fell asleep on the bus." },
           { pt: "Ele gostou tanto da cidade que se mudou para lá.", en: "He liked the city so much that he moved there." },
-          { pt: "Choveu muito, tanto que as aulas foram canceladas.", en: "It rained a lot, so much so that classes were cancelled." },
+          { pt: "Choveu muito, tanto que as aulas foram canceladas.", en: "It rained a lot, so much so that classes were canceled." },
         ],
       },
     ],
@@ -856,7 +856,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
       {
         wrong: "Graças à chuva, o jogo foi cancelado.",
         right: "Por causa da chuva, o jogo foi cancelado.",
-        why: `"Graças a" has a positive sense; a negative cause takes "por causa de" or "devido a".`,
+        why: `"Graças a" has a positive sense (with a bad cause it sounds ironic); a neutral or negative cause takes "por causa de" or "devido a".`,
       },
     ],
     faqs: [
@@ -936,7 +936,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
             ["-ar (infinitive)", "-á-lo, -á-la", "comprá-lo, ajudá-la"],
             ["-er (infinitive)", "-ê-lo, -ê-la", "fazê-lo, vendê-la"],
             ["-ir (infinitive)", "-i-lo, -i-la", "abri-lo, consegui-la"],
-            ["-s", "-lo, -la", "compramo-lo, fi-lo"],
+            ["-s, -z", "-lo, -la", "compramo-lo, fi-lo"],
             ["-m, -ão, -õe", "-no, -na", "compram-no, dão-na, põe-no"],
           ],
         },
@@ -951,7 +951,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
         heading: `Two verbs, lhe, and mesóclise`,
         body: [
           `With an auxiliary + infinitive or gerund, Brazil puts the pronoun between the verbs, attached to the main verb but written without a hyphen: "vou te dizer", "estou te esperando", "quero lhe agradecer". The norm also allows "vou dizer-lhe". With a participle the pronoun can never follow it: "tenho-o visto" or "o tenho visto" in writing, "tenho visto ele" in speech, never "tenho visto-o".`,
-          `In formal writing, "o" and "a" are the direct objects for "você", "o senhor" and "a senhora" ("gostaria de convidá-la"), "lhe" the indirect ("comunicamos-lhe que...", "gostaria de lhe agradecer"). "Lhe" as a direct object ("eu lhe vi") is a regional spoken use, not standard. Mesóclise puts the pronoun inside the future and conditional ("dir-lhe-ei", "far-se-á", "dar-te-ia"); it survives in laws and old texts, and Brazilians use it mainly as a joke. Write "eu lhe direi" or rephrase.`,
+          `In formal writing, "o" and "a" are the direct objects for "você", "o senhor" and "a senhora" ("gostaria de convidá-la"), "lhe" the indirect ("comunicamos-lhe que...", "gostaria de lhe agradecer"). "Lhe" as a direct object ("eu lhe vi") is a regional spoken use, not standard. Mesóclise puts the pronoun inside the future and conditional ("dir-lhe-ei", "far-se-á", "dar-te-ia"); it survives in laws, some very formal texts and old writing, and in conversation Brazilians use it mainly as a joke. Write "eu lhe direi" or rephrase.`,
         ],
         examples: [
           { pt: "Vou te mandar o endereço por mensagem.", en: "I'll send you the address by message." },
@@ -969,9 +969,9 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
         why: `"Não" attracts the pronoun: it goes before the verb.`,
       },
       {
-        wrong: "Me informaram que o relatório está pronto. (in a formal report)",
+        wrong: "Me informaram que o relatório está pronto.",
         right: "Informaram-me que o relatório está pronto.",
-        why: `The written norm doesn't start a sentence with a pronoun. In speech "me informaram" is normal.`,
+        why: `In a formal report: the written norm doesn't start a sentence with a pronoun. In speech "me informaram" is normal.`,
       },
       {
         wrong: "Vou fazer-lo amanhã.",
@@ -1033,7 +1033,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
       "The Brazilian Portuguese verbs whose prepositions differ from English (gostar de, pensar em, assistir a, preferir... a), the preposition before que and relatives, and the crase: when a + a becomes à, the swap test, and a, à or há.",
     level: "B2",
     intro: [
-      `Regência is the grammar of which preposition a verb takes. English and Portuguese often disagree: you like something but "gostar de" something, think about but "pensar em", marry someone but "casar com", watch a film but, in the norm, "assistir a um filme". These pairs have to be learnt verb by verb.`,
+      `Regência is the grammar of which preposition a verb takes. English and Portuguese often disagree: you like something but "gostar de" something, think about but "pensar em", marry someone but "casar com", watch a movie but, in the norm, "assistir a um filme". These pairs have to be learned verb by verb.`,
       `The crase is the grave accent in "à". It marks the fusion of the preposition "a" with the feminine article "a": "vou a + a praia" gives "vou à praia". Brazilians themselves argue about it, because "a" and "à" sound the same in Brazil; but it's tested everywhere, from school exams to the Celpe-Bras.`,
     ],
     sections: [
@@ -1071,10 +1071,10 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
       {
         heading: `The preposition before que and relatives`,
         body: [
-          `The preposition stays when the verb's complement is a clause or a relative. Before "que": "preciso de que você me ajude", "gosto de que me avisem" (written norm; speech drops it: "preciso que você me ajude"). Before relatives the preposition moves to the front: "o filme a que assisti", "a pessoa de quem gosto", "o projeto em que penso".`,
+          `The preposition stays when the verb's complement is a clause or a relative. Before "que", strict grammars keep it ("preciso de que você me ajude"), but dropping it is normal in speech and widely accepted even in careful Brazilian writing ("preciso que você me ajude"). With nouns and reflexive verbs, keep it in formal texts: "tenho certeza de que", "lembre-se de que". Before relatives the preposition moves to the front: "o filme a que assisti", "a pessoa de quem gosto", "o projeto em que penso".`,
         ],
         examples: [
-          { pt: "O filme a que assistimos ganhou vários prêmios.", en: "The film we watched won several awards." },
+          { pt: "O filme a que assistimos ganhou vários prêmios.", en: "The movie we watched won several awards." },
           { pt: "Essa é a cidade com que sempre sonhei.", en: "This is the city I always dreamed of." },
           { pt: "Tenho certeza de que ele vai gostar.", en: "I'm sure he'll like it." },
           { pt: "Lembre-se de que o prazo termina sexta-feira.", en: "Remember that the deadline is Friday." },
@@ -1099,7 +1099,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
         },
         examples: [
           { pt: "Amanhã vou à feira bem cedo.", en: "Tomorrow I'm going to the street market very early." },
-          { pt: "A reunião começa às nove e meia.", en: "The meeting starts at half past nine." },
+          { pt: "A reunião começa às nove e meia.", en: "The meeting starts at nine-thirty." },
           { pt: "Às vezes a gente almoça na padaria.", en: "Sometimes we have lunch at the bakery." },
           { pt: "Pode ficar à vontade.", en: "Make yourself at home." },
           { pt: "Ele foi a Recife a trabalho.", en: "He went to Recife on business." },
@@ -1114,7 +1114,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
           { pt: "Moro em Curitiba há cinco anos.", en: "I've lived in Curitiba for five years." },
           { pt: "O resultado sai daqui a duas semanas.", en: "The result comes out in two weeks' time." },
           { pt: "A praia fica a dez minutos daqui.", en: "The beach is ten minutes from here." },
-          { pt: "A partir de segunda, o horário muda.", en: "From Monday, the timetable changes." },
+          { pt: "A partir de segunda, o horário muda.", en: "Starting Monday, the schedule changes." },
         ],
       },
     ],
@@ -1186,7 +1186,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
     slug: "register-and-the-written-norm",
     title: "Tinha Muita Gente or Havia Muitas Pessoas? Speech and the Written Norm",
     description:
-      "How to move between spoken Brazilian Portuguese and the norma culta: ter vs haver, impersonal haver and fazer, a gente vs nós, ele vs o, pra mim fazer, formal vocabulary, the impersonal style, nominalisation and gerundismo.",
+      "How to move between spoken Brazilian Portuguese and the norma culta: ter vs haver, impersonal haver and fazer, a gente vs nós, ele vs o, pra mim fazer, formal vocabulary, the impersonal style, nominalization and gerundismo.",
     level: "B2",
     intro: [
       `Brazil has an unusually wide gap between how educated people speak and how they write formally. In speech, "tinha muita gente na festa", "a gente encontrou ele", "pra mim fazer isso" are normal; in a report the same ideas become "havia muitas pessoas", "nós o encontramos", "para eu fazer isso". The written standard is called the norma culta (or norma-padrão).`,
@@ -1212,7 +1212,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
           ],
         },
         examples: [
-          { pt: "Tinha muita gente no show ontem.", en: "There were loads of people at the concert last night. (speech)" },
+          { pt: "Tinha muita gente no show ontem.", en: "There were lots of people at the concert last night. (speech)" },
           { pt: "Havia cerca de dez mil pessoas no evento.", en: "There were about ten thousand people at the event. (written)" },
           { pt: "Nós o encontramos na recepção do hotel.", en: "We met him at the hotel reception. (written)" },
           { pt: "O gerente pediu para eu revisar o contrato.", en: "The manager asked me to review the contract." },
@@ -1226,11 +1226,11 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
           `"Fazer" for time elapsed is impersonal too: "faz dois anos que moro aqui", "fazia meses que não chovia". As an auxiliary, "haver" does agree: "eles haviam saído". Only the there is meaning is frozen in the singular.`,
         ],
         examples: [
-          { pt: "Houve muitas reclamações sobre o novo horário.", en: "There were many complaints about the new timetable." },
+          { pt: "Houve muitas reclamações sobre o novo horário.", en: "There were many complaints about the new schedule." },
           { pt: "Deve haver outras soluções.", en: "There must be other solutions." },
           { pt: "Faz três anos que trabalho nessa empresa.", en: "I've been working at this company for three years." },
           { pt: "Haverá alterações no trânsito durante o feriado.", en: "There will be changes to traffic over the holiday." },
-          { pt: "Teve um acidente na marginal hoje cedo.", en: "There was an accident on the ring road this morning. (speech)" },
+          { pt: "Teve um acidente na marginal hoje cedo.", en: "There was an accident on the Marginal expressway this morning. (speech)" },
         ],
       },
       {
@@ -1259,10 +1259,10 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
         ],
       },
       {
-        heading: `The impersonal style and nominalisation`,
+        heading: `The impersonal style and nominalization`,
         body: [
           `Reports and academic texts avoid "eu" and "a gente". They use impersonal frames with "se" or "é": "observa-se que", "nota-se que", "pode-se afirmar que", "cabe ressaltar que", "é possível concluir que". And they turn verbs into nouns, packing more into each sentence: "quando o projeto foi implementado, os custos caíram" becomes "a implementação do projeto reduziu os custos".`,
-          `Avoid gerundismo, the call-centre habit of "vou estar + gerund" for a simple future: "vou estar enviando o boleto" should be "vou enviar o boleto" or "enviarei o boleto". It is widely mocked in Brazil.`,
+          `Avoid gerundismo, the call-center habit of "vou estar + gerund" for a simple future: "vou estar enviando o boleto" should be "vou enviar o boleto" or "enviarei o boleto". It is widely mocked in Brazil.`,
         ],
         examples: [
           { pt: "Observa-se um aumento no número de usuários.", en: "An increase in the number of users can be observed." },
@@ -1296,7 +1296,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
       {
         wrong: "Vou estar enviando o relatório amanhã.",
         right: "Vou enviar o relatório amanhã.",
-        why: `Gerundismo sounds like a call-centre script. Use the plain future.`,
+        why: `Gerundismo sounds like a call-center script. Use the plain future.`,
       },
       {
         wrong: "Devem haver outras opções.",
@@ -1340,7 +1340,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
     slug: "regional-variation-in-brazil",
     title: "Tu, the Carioca S and the Caipira R: Regional Variation in Brazil",
     description:
-      "How Brazilian Portuguese varies across the country: tu in the South, North and North-East, the Rio chiado, the different r sounds, t and d before i, open vowels in the North-East, regional words and expressions, and a first look at European Portuguese.",
+      "How Brazilian Portuguese varies across the country: tu in the South, North and Northeast, the Rio chiado, the different r sounds, t and d before i, open vowels in the Northeast, regional words and expressions, and a first look at European Portuguese.",
     level: "B2",
     intro: [
       `Brazil is the size of a continent, and its Portuguese varies like English across the UK and the US: the grammar is shared, but accents, some words and a few pronoun habits change from region to region. A paulistano, a carioca, a gaúcho and a recifense understand each other perfectly, and each can tell where the others are from in a sentence.`,
@@ -1350,40 +1350,40 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
       {
         heading: `Tu across Brazil`,
         body: [
-          `"Você" is the national standard, but "tu" is alive in several regions. In most of Rio Grande do Sul, in much of the North-East and in Rio de Janeiro speech, "tu" goes with the "você" form of the verb: "tu vai", "tu quer", "tu sabe". In a few places, notably parts of Santa Catarina, Pará and Maranhão, many speakers use "tu" with its own standard ending: "tu vais", "tu queres", "tu sabes".`,
-          `Even in "você" regions, "te" and "teu" or "tua" are everywhere in speech: "te ligo", "é tua vez". That's why mixing "você" with "te" sounds normal in Brazil. In this course, write "você" with its verb; recognise the rest.`,
+          `"Você" is the national standard, but "tu" is alive in several regions. In most of Rio Grande do Sul, in much of the Northeast and in Rio de Janeiro speech, "tu" goes with the "você" form of the verb: "tu vai", "tu quer", "tu sabe". In a few places, notably parts of Santa Catarina, Pará and Maranhão, many speakers use "tu" with its own standard ending: "tu vais", "tu queres", "tu sabes".`,
+          `Even in "você" regions, "te" is everywhere in speech ("te ligo"), and in many regions "teu" and "tua" are too ("é tua vez"). That's why mixing "você" with "te" sounds normal in Brazil. In this course, write "você" with its verb; recognize the rest.`,
         ],
         table: {
           headers: ["Region", "Everyday you", "Example"],
           rows: [
-            ["São Paulo, Minas, Centre-West", "você", "Você vai à festa?"],
+            ["São Paulo, Minas, Center-West", "você", "Você vai à festa?"],
             ["Rio de Janeiro", "\"você\" and \"tu\"", "\"Tu vai à praia hoje?\""],
             ["Rio Grande do Sul", "\"tu\" with the \"você\" verb", "\"Bah, tu viu o jogo?\""],
             ["parts of Santa Catarina, Pará, Maranhão", "\"tu\" with its own verb", "\"Tu vais comigo?\""],
-            ["much of the North-East", "\"tu\" and \"você\"", "\"Oxe, tu tá doido?\""],
+            ["much of the Northeast", "\"tu\" and \"você\"", "\"Oxe, tu tá doido?\""],
           ],
         },
         examples: [
           { pt: "Você vai com a gente amanhã?", en: "Are you coming with us tomorrow? (neutral)" },
-          { pt: "Te espero na saída do metrô.", en: "I'll wait for you at the metro exit." },
+          { pt: "Te espero na saída do metrô.", en: "I'll wait for you at the subway exit." },
           { pt: "É a sua vez de pagar.", en: "It's your turn to pay." },
         ],
       },
       {
         heading: `Sounds: s, r, t and d, open vowels`,
         body: [
-          `The chiado: in Rio (and in Belém, Florianópolis and parts of the North-East) "s" at the end of a syllable sounds like English sh: "festa" sounds like 'fesh-ta', "mesmo" like 'mej-mu'. In São Paulo and most of the country it stays a plain s. The r: at the start of a word and as "rr", most Brazilians use a sound like English h ("Rio" sounds like 'Hee-oo', "carro" like 'ca-hu'). At the end of a syllable, the interior of São Paulo, Minas, Goiás and Paraná use the caipira r, close to an American r ("porta", "interior"); in the South, a tapped or trilled r is common.`,
-          `T and d before an i sound become 'tch' and 'dj' in most of Brazil: "tia" sounds like 'tchia', "dia" like 'djia', "leite" like 'leitchi'. Much of the North-East keeps a plain t and d, and Curitiba is known for a clear final "e" ('leite' with an e). North-Eastern speakers also open vowels before the stress: "Recife" with an open e, "colégio" with an open o.`,
+          `The chiado: in Rio (and in Belém, Florianópolis and parts of the Northeast) "s" at the end of a syllable sounds like English sh: "festa" sounds like 'fesh-ta', "mesmo" like 'mej-mu'. In São Paulo and most of the country it stays a plain s. The r: at the start of a word and as "rr", most Brazilians use a sound like English h ("Rio" sounds like 'Hee-oo', "carro" like 'ca-hu'). At the end of a syllable, the interior of São Paulo, Goiás, Paraná and parts of Minas use the caipira r, close to an American r ("porta", "interior"); in the South, a tapped or trilled r is common.`,
+          `T and d before an i sound become 'tch' and 'dj' in most of Brazil: "tia" sounds like 'tchia', "dia" like 'djia', "leite" like 'leitchi'. Much of the Northeast keeps a plain t and d, and Curitiba is known for a clear final "e" ('leite' with an e). Northeastern speakers also open vowels before the stress: "Recife" with an open e, "colégio" with an open o.`,
         ],
         table: {
           headers: ["Feature", "Where", "Example"],
           rows: [
             ["chiado: s as sh", "Rio, Belém, Florianópolis", "festa, três, mesmo"],
             ["h-like r at the start", "most of Brazil", "Rio, rua, carro"],
-            ["caipira r", "interior of São Paulo, Minas, Goiás, Paraná", "porta, interior, mar"],
+            ["caipira r", "interior of São Paulo, Goiás, Paraná, parts of Minas", "porta, interior, mar"],
             ["t and d as tch, dj", "most of Brazil", "tia, dia, leite, cidade"],
-            ["plain t and d", "much of the North-East", "tia, dia"],
-            ["open pre-stress vowels", "North-East", "Recife, colégio, pequeno"],
+            ["plain t and d", "much of the Northeast", "tia, dia"],
+            ["open pre-stress vowels", "Northeast", "Recife, colégio, pequeno"],
           ],
         },
         examples: [
@@ -1395,17 +1395,17 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
       {
         heading: `Regional words and expressions`,
         body: [
-          `Everyday foods and objects can have different names: cassava is "mandioca" in the South-East, "aipim" in Rio and the South, "macaxeira" in the North-East. Asking "como vocês chamam isso aqui?" is a good way to start a conversation. Expressions mark identity even more: "oxe" and "visse?" in the North-East, "bah" and "tchê" in Rio Grande do Sul, "uai" and "trem" (thing) in Minas Gerais, "mano" and "meu" in São Paulo.`,
+          `Everyday foods and objects can have different names: cassava is "mandioca" in the Southeast, "aipim" in Rio and the South, "macaxeira" in the Northeast. Asking "como vocês chamam isso aqui?" is a good way to start a conversation. Expressions mark identity even more: "oxe" and "visse?" in the Northeast, "bah" and "tchê" in Rio Grande do Sul, "uai" and "trem" (thing) in Minas Gerais, "mano" and "meu" in São Paulo.`,
         ],
         table: {
           headers: ["Thing", "Words around Brazil"],
           rows: [
             ["cassava", "mandioca, aipim, macaxeira"],
             ["traffic light", "semáforo, sinal, farol (São Paulo)"],
-            ["biscuit", "biscoito, bolacha"],
+            ["cookie, cracker", "biscoito, bolacha"],
             ["bread roll", "pão francês, cacetinho (Porto Alegre), pão de sal (Minas)"],
             ["tangerine", "tangerina, mexerica, bergamota (South)"],
-            ["pumpkin", "abóbora, jerimum (North-East)"],
+            ["pumpkin", "abóbora, jerimum (Northeast)"],
             ["kid, boy", "menino, guri (South), piá (Paraná)"],
           ],
         },
@@ -1413,7 +1413,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
           { pt: "Oxe, você ainda não provou macaxeira frita?", en: "What? You still haven't tried fried cassava?" },
           { pt: "Bah, que frio hoje!", en: "Wow, it's cold today!" },
           { pt: "Uai, cadê aquele trem que estava aqui?", en: "Hey, where's that thing that was here?" },
-          { pt: "Meu, o trânsito tá parado de novo.", en: "Mate, the traffic's at a standstill again." },
+          { pt: "Meu, o trânsito tá parado de novo.", en: "Man, the traffic's at a standstill again." },
         ],
       },
       {
@@ -1431,9 +1431,9 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
     ],
     mistakes: [
       {
-        wrong: "Tu vai ao cinema amanhã? (in a written exercise)",
+        wrong: "Tu vai ao cinema amanhã?",
         right: "Você vai ao cinema amanhã?",
-        why: `"Tu vai" is regional speech. In writing this course uses "você" with its verb.`,
+        why: `In a written exercise: "tu vai" is regional speech. In writing this course uses "você" with its verb.`,
       },
       {
         wrong: "Estou a estudar português.",
@@ -1458,7 +1458,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
       },
       {
         q: `Is any accent considered wrong?`,
-        a: `No, though Brazil has a real problem with preconceito linguístico (linguistic prejudice), especially against North-Eastern and rural accents. Linguists stress that every regional variety is fully grammatical; the norma culta is a written standard, not an accent.`,
+        a: `No, though Brazil has a real problem with preconceito linguístico (linguistic prejudice), especially against Northeastern and rural accents. Linguists stress that every regional variety is fully grammatical; the norma culta is a written standard, not an accent.`,
       },
       {
         q: `Will I understand European Portuguese?`,
@@ -1490,13 +1490,13 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
     level: "B2",
     intro: [
       `By B2 your basic gender and agreement are solid; what remains are the traps. "O problema" is masculine although it ends in "-a"; "o capital" is money but "a capital" is a city; "um velho amigo" is an old friend you've known for years, while "um amigo velho" is a friend who is old.`,
-      `These details rarely block understanding, but they are exactly what separates a fluent B2 text from an intermediate one, and they are favourite targets in exams.`,
+      `These details rarely block understanding, but they are exactly what separates a fluent B2 text from an intermediate one, and they are favorite targets in exams.`,
     ],
     sections: [
       {
         heading: `Gender traps`,
         body: [
-          `Most nouns from Greek ending in "-ma" are masculine: "o problema", "o sistema", "o tema", "o programa", "o clima", "o idioma", "o diploma", "o esquema". So are "o mapa", "o dia" and "o planeta". Nouns in "-gem" are feminine ("a viagem", "a garagem", "a mensagem"), as are most in "-dade", "-ção" and "-agem".`,
+          `Most nouns from Greek ending in "-ma" are masculine: "o problema", "o sistema", "o tema", "o programa", "o clima", "o idioma", "o diploma", "o esquema". So are "o mapa", "o dia" and "o planeta". Nouns in "-gem" are feminine ("a viagem", "a garagem", "a mensagem"; "o personagem" is the common exception, and "a personagem" is also accepted), as are most in "-dade" and "-ção".`,
           `Some nouns change meaning with gender. These are worth learning in pairs.`,
         ],
         table: {
@@ -1507,8 +1507,8 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
             ["o grama", "gram", "a grama", "grass"],
             ["o rádio", "radio set", "a rádio", "radio station"],
             ["o moral", "morale", "a moral", "morals, moral of a story"],
-            ["o caixa", "cashier, till", "a caixa", "box"],
-            ["o cura", "priest", "a cura", "cure"],
+            ["o caixa", "cashier, checkout", "a caixa", "box"],
+            ["o cura", "parish priest (rare in Brazil)", "a cura", "cure"],
           ],
         },
         examples: [
@@ -1516,14 +1516,14 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
           { pt: "Brasília é a capital do Brasil.", en: "Brasília is the capital of Brazil." },
           { pt: "Comprei duzentos gramas de queijo.", en: "I bought two hundred grams of cheese." },
           { pt: "As crianças estão brincando na grama.", en: "The children are playing on the grass." },
-          { pt: "Paga no caixa, por favor.", en: "Please pay at the till." },
+          { pt: "Paga no caixa, por favor.", en: "Please pay at the register." },
         ],
       },
       {
         heading: `Plurals: -ão and compound nouns`,
         body: [
           `Nouns in "-ão" have three plurals, and you have to learn which: most take "-ões" ("avião", "aviões"; "coração", "corações"), a few take "-ães" ("pão", "pães"; "capitão", "capitães") and a few "-ãos" ("mão", "mãos"; "irmão", "irmãos"; "cidadão", "cidadãos").`,
-          `Compound nouns with a hyphen pluralise the parts that are nouns or adjectives, not verbs or invariable words: "segunda-feira" gives "segundas-feiras", "cachorro-quente" gives "cachorros-quentes", but "guarda-chuva" gives "guarda-chuvas" ("guarda" is a verb here) and "beija-flor" gives "beija-flores". With a preposition inside, only the first noun changes: "pé de moleque", "pés de moleque".`,
+          `Compound nouns with a hyphen pluralize the parts that are nouns or adjectives, not verbs or invariable words: "segunda-feira" gives "segundas-feiras", "cachorro-quente" gives "cachorros-quentes", but "guarda-chuva" gives "guarda-chuvas" ("guarda" is a verb here) and "beija-flor" gives "beija-flores". With a preposition inside, only the first noun changes: "pé de moleque", "pés de moleque".`,
         ],
         table: {
           headers: ["Singular", "Plural", "Rule"],
@@ -1563,7 +1563,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
           ],
         },
         examples: [
-          { pt: "Ela é uma velha amiga da faculdade.", en: "She's an old friend from university." },
+          { pt: "Ela é uma velha amiga da faculdade.", en: "She's an old friend from college." },
           { pt: "Santos Dumont foi um grande inventor.", en: "Santos Dumont was a great inventor." },
           { pt: "Certo dia, ele simplesmente foi embora.", en: "One day, he simply left." },
           { pt: "Comprei um carro usado, mas para mim é um novo carro.", en: "I bought a used car, but for me it's a new car." },
@@ -1573,12 +1573,12 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
       {
         heading: `Size and attitude: carrão, jeitinho, filminho`,
         body: [
-          `Brazilian augmentatives and diminutives often express attitude more than size. "-ão" can praise ("um carrão", a great car; "um golaço", a superb goal) or simply intensify ("um calorão"). "-inho" can be affectionate ("o cafezinho"), polite ("só um minutinho"), or dismissive ("um filminho qualquer"). "O jeitinho brasileiro", the Brazilian knack for getting round rules, is a whole cultural concept in one diminutive.`,
+          `Brazilian augmentatives and diminutives often express attitude more than size. "-ão" can praise ("um carrão", a great car; "um golaço", a superb goal) or simply intensify ("um calorão"). "-inho" can be affectionate ("o cafezinho"), polite ("só um minutinho"), or dismissive ("um filminho qualquer"). "O jeitinho brasileiro", the Brazilian knack for getting around rules, is a whole cultural concept in one diminutive.`,
         ],
         examples: [
           { pt: "Nossa, que carrão!", en: "Wow, what a car!" },
           { pt: "Só um minutinho, já te atendo.", en: "Just a moment, I'll be right with you." },
-          { pt: "Foi um filminho bobo, mas a gente riu muito.", en: "It was a silly little film, but we laughed a lot." },
+          { pt: "Foi um filminho bobo, mas a gente riu muito.", en: "It was a silly little movie, but we laughed a lot." },
           { pt: "Com um jeitinho, a gente resolve.", en: "We'll sort it out somehow." },
         ],
       },
@@ -1650,14 +1650,14 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
     level: "B2",
     intro: [
       `A small set of verbs does an enormous amount of work in Brazilian Portuguese. "Dar" alone gives you "dar certo" (work out), "dar um jeito" (find a way), "não dá" (it's not possible), "dar uma olhada" (have a look). "Ficar" gives you "fiquei de ligar" (I said I'd call) and "fiquei sabendo" (I found out).`,
-      `These expressions are grammar as much as vocabulary: each has a fixed structure (a preposition, an infinitive, an article) that has to be right. And English pulls learners towards literal translations that don't exist, like "fazer uma decisão".`,
+      `These expressions are grammar as much as vocabulary: each has a fixed structure (a preposition, an infinitive, an article) that has to be right. And English pulls learners toward literal translations that don't exist, like "fazer uma decisão".`,
     ],
     sections: [
       {
         heading: `Dar: it works, it's possible, a quick action`,
         body: [
           `"Dar certo" and "dar errado" (work out, go wrong) take no object: "a viagem deu certo". "Dar para" + infinitive, usually "dá pra", means it's possible: "dá pra ir a pé?" (can you walk there?), "não dá" (it's not possible, I can't make it). With a person, use "dá pra eu", not "dá pra mim": "não dá pra eu ir hoje".`,
-          `"Dar uma" + noun describes a quick, casual action, often softening a request: "dar uma olhada" (have a look), "dar uma volta" (go for a walk or a spin), "dar uma passada" (drop by), "dar uma pensada" (give it some thought), "dar uma saída" (pop out). The noun is often made from a verb with "-ada".`,
+          `"Dar uma" + noun describes a quick, casual action, often softening a request: "dar uma olhada" (have a look), "dar uma volta" (go for a walk or a spin), "dar uma passada" (drop by), "dar uma pensada" (give it some thought), "dar uma saída" (step out). The noun is often made from a verb with "-ada".`,
         ],
         table: {
           headers: ["Expression", "Meaning", "Example"],
@@ -1669,14 +1669,14 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
             ["dar uma olhada em", "have a look at", "Dá uma olhada nesse relatório?"],
             ["dar uma passada", "drop by", "Vou dar uma passada na sua casa."],
             ["dar de cara com", "run into", "Dei de cara com meu ex no mercado."],
-            ["dar-se bem com", "get on with", "Ela se dá bem com todo mundo."],
+            ["dar-se bem com", "get along with", "Ela se dá bem com todo mundo."],
           ],
         },
         examples: [
           { pt: "No fim, deu tudo certo.", en: "In the end, it all worked out." },
           { pt: "Hoje não dá, mas amanhã eu posso.", en: "Today I can't, but tomorrow I can." },
           { pt: "Você pode dar uma olhada no meu texto?", en: "Can you have a look at my text?" },
-          { pt: "Vou dar uma saída e já volto.", en: "I'm just popping out, I'll be right back." },
+          { pt: "Vou dar uma saída e já volto.", en: "I'm just stepping out, I'll be right back." },
           { pt: "Não dá pra eu te encontrar no almoço.", en: "I can't meet you for lunch." },
         ],
       },
@@ -1687,7 +1687,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
           `"Ficar" also covers become with feelings and states ("fiquei feliz", "ficou doente"), suit ("essa cor fica bem em você"), be located ("onde fica o banheiro?"), and be postponed ("a reunião ficou para sexta"). "Ficar com" can mean keep ("pode ficar com o troco") or, between young people, hook up with.`,
         ],
         examples: [
-          { pt: "Fiquei de passar na casa da minha mãe hoje.", en: "I told my mum I'd drop by today." },
+          { pt: "Fiquei de passar na casa da minha mãe hoje.", en: "I told my mom I'd drop by today." },
           { pt: "Você ficou sabendo da notícia?", en: "Did you hear the news?" },
           { pt: "A festa ficou para o mês que vem.", en: "The party has been put off until next month." },
           { pt: "Pode ficar com o troco.", en: "Keep the change." },
@@ -1697,27 +1697,27 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
       {
         heading: `Pegar, levar, fazer, and the English traps`,
         body: [
-          `"Pegar mal" (look bad, go down badly), "pegar no pé" (nag, keep on at), "pegar fogo" (catch fire); "levar a sério" (take seriously), "levar jeito para" (have a knack for), "levar tempo" (take time); "fazer questão de" (insist on, make a point of), "fazer falta" (be missed), "fazer de conta" (pretend), "fazer sentido" (make sense).`,
-          `English collocations don't transfer. You "tomar uma decisão", not "fazer"; "tirar uma foto", not "tomar"; "perceber" something, not "realizar" it ("realizar" means carry out, fulfil); "candidatar-se a uma vaga", not "aplicar para".`,
+          `"Pegar mal" (look bad, go down badly), "pegar no pé" (nag, be on someone's case), "pegar fogo" (catch fire); "levar a sério" (take seriously), "levar jeito para" (have a knack for), "levar tempo" (take time); "fazer questão de" (insist on, make a point of), "fazer falta" (be missed), "fazer de conta" (pretend), "fazer sentido" (make sense).`,
+          `English collocations don't transfer. You "tomar uma decisão", not "fazer"; "tirar uma foto", not "tomar"; "perceber" something, not "realizar" it ("realizar" means carry out, fulfill); "candidatar-se a uma vaga", not "aplicar para".`,
         ],
         table: {
           headers: ["English", "Not", "Portuguese"],
           rows: [
             ["make a decision", "fazer uma decisão", "tomar uma decisão"],
             ["take a photo", "tomar uma foto", "tirar uma foto"],
-            ["realise", "realizar", "perceber, se dar conta"],
+            ["realize", "realizar", "perceber, se dar conta"],
             ["apply for a job", "aplicar para uma vaga", "candidatar-se a uma vaga"],
             ["pay attention", "pagar atenção", "prestar atenção"],
             ["have a good time", "ter um bom tempo", "se divertir"],
           ],
         },
         examples: [
-          { pt: "Chegar atrasado na entrevista pega muito mal.", en: "Turning up late to the interview looks really bad." },
-          { pt: "Minha mãe vive pegando no meu pé.", en: "My mum is always on at me." },
+          { pt: "Chegar atrasado na entrevista pega muito mal.", en: "Showing up late to the interview looks really bad." },
+          { pt: "Minha mãe vive pegando no meu pé.", en: "My mom is always on my case." },
           { pt: "Ela leva jeito para a música.", en: "She has a gift for music." },
           { pt: "Faço questão de pagar o jantar.", en: "I insist on paying for dinner." },
           { pt: "Você faz muita falta aqui no escritório.", en: "We really miss you here at the office." },
-          { pt: "Só percebi o erro depois de enviar o e-mail.", en: "I only realised the mistake after sending the email." },
+          { pt: "Só percebi o erro depois de enviar o e-mail.", en: "I only realized the mistake after sending the email." },
         ],
       },
     ],
@@ -1730,7 +1730,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
       {
         wrong: "Eu não realizei que era tão tarde.",
         right: "Eu não percebi que era tão tarde.",
-        why: `"Realizar" means carry out or fulfil ("realizar um sonho"). To realise is "perceber" or "se dar conta".`,
+        why: `"Realizar" means carry out or fulfill ("realizar um sonho"). To realize is "perceber" or "se dar conta".`,
       },
       {
         wrong: "Não dá pra mim ir hoje.",
@@ -1797,7 +1797,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
         },
         examples: [
           { pt: "Era domingo, e a praia estava lotada.", en: "It was Sunday, and the beach was packed." },
-          { pt: "A gente estava tomando um mate quando começou a ventar.", en: "We were having a mate tea when the wind got up." },
+          { pt: "A gente estava tomando um mate quando começou a ventar.", en: "We were having a mate tea when the wind picked up." },
           { pt: "De repente, o céu ficou escuro.", en: "Suddenly the sky went dark." },
           { pt: "Ninguém tinha olhado a previsão do tempo.", en: "Nobody had checked the weather forecast." },
           { pt: "Ainda não sabíamos que aquela tarde ia virar história de família.", en: "We didn't know yet that the afternoon would become a family story." },
@@ -1806,7 +1806,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
       {
         heading: `The historical present and time connectors`,
         body: [
-          `In spoken anecdotes Brazilians often switch to the present at the key moment, usually with "aí": "aí ele chega, olha pra mim e fala: cadê o dinheiro?". In writing, the present is also standard for plot summaries of films and books ("no filme, uma família se muda para o sertão").`,
+          `In spoken anecdotes Brazilians often switch to the present at the key moment, usually with "aí": "aí ele chega, olha pra mim e fala: cadê o dinheiro?". In writing, the present is also standard for plot summaries of movies and books ("no filme, uma família se muda para o sertão").`,
           `Connectors set the pace: "de repente" (suddenly), "de uma hora para outra" (out of the blue), "no instante em que" (the moment that), "assim que" and "logo que" (as soon as), "mal" + perfeito (no sooner had... than): "mal cheguei, começou a chover". Vary them instead of repeating "e depois".`,
         ],
         examples: [

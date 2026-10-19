@@ -417,7 +417,7 @@ export const FR_A2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does 'Dis-lui la vérité' mean?",
+        question: "What does \"Dis-lui la vérité\" mean?",
         options: ["Tell him the truth.", "He tells the truth.", "Don't tell him the truth.", "Tell me the truth."],
         correctIndex: 0,
         explanation: "Affirmative imperative with the pronoun after the verb: \"dis-lui\" = tell him (or her).",
@@ -591,7 +591,7 @@ export const FR_A2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which adverb completes 'Elle parle ___ espagnol' (fluently)?",
+        question: "Complete to say 'She speaks Spanish fluently': \"Elle parle ___ espagnol.\"",
         options: ["couramment", "courantement", "courrament", "courantment"],
         correctIndex: 0,
         explanation: "Adjectives in -ant make adverbs in -amment: \"courant → couramment\".",
@@ -801,7 +801,7 @@ export const FR_A2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The receptionist asks: 'C'est de la part de qui ?' What does she want to know?",
+        question: "The receptionist asks: \"C'est de la part de qui ?\" What does she want to know?",
         options: ["Who's calling.", "What the call is about.", "Which department you want.", "Your phone number."],
         correctIndex: 0,
         explanation: "\"De la part de\" = on behalf of; the phrase asks for your name.",
@@ -1442,7 +1442,7 @@ export const FR_A2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A learner wrote *J'ai 25 années.* What's the correct way to say I'm 25?",
+        question: "A learner wrote *J'ai 25 années.* How do you say 'I'm 25'?",
         options: ["J'ai 25 ans.", "Je suis 25 ans.", "J'ai 25 années.", "Je suis 25 années."],
         correctIndex: 0,
         explanation: "Age uses \"avoir\" + \"ans\": \"an\" counts; \"année\" is the year as a stretch of time.",
@@ -1509,7 +1509,7 @@ export const FR_A2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The doctor says 'Ce n'est pas grave.' What does she mean?",
+            question: "The doctor says \"Ce n'est pas grave.\" What does she mean?",
             options: ["It's nothing serious.", "It's very serious.", "It's not heavy.", "It's not your fault."],
             correctIndex: 0,
             explanation: "\"Grave\" means serious (a false-friend-ish word: nothing to do with a grave).",
@@ -1668,7 +1668,7 @@ export const FR_A2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your old friend asks 'Qu'est-ce que tu deviens ?' What is she asking?",
+        question: "Your old friend asks \"Qu'est-ce que tu deviens ?\" What is she asking?",
         options: ["What have you been up to?", "What will you become?", "Where are you going?", "What did you become?"],
         correctIndex: 0,
         explanation: "\"Qu'est-ce que tu deviens ?\" is the set phrase for catching up: what's new with you?",
@@ -1893,7 +1893,7 @@ export const FR_A2_U22: Lesson[] = [
         source: "We'll go there if it's sunny.",
         answer: "Nous irons s'il fait beau.",
         altAnswers: ["On ira s'il fait beau.", "S'il fait beau, nous irons.", "S'il fait beau, on ira.", "Nous y irons s'il fait beau.", "On y ira s'il fait beau."],
-        explanation: "\"Si\" + present, then the future. \"Y\" drops before the future of \"aller\": \"nous irons\", not \"nous y irons\".",
+        explanation: "\"Si\" + present, then the future. Careful French drops \"y\" before the future of \"aller\": \"nous irons\" rather than \"nous y irons\".",
       },
       {
         type: "translate",
@@ -2114,7 +2114,7 @@ export const FR_A2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I asked him to take me there'?",
         options: ["Je lui ai demandé de m'y emmener.", "Je l'ai demandé de m'y emmener.", "Je lui ai demandé de y m'emmener.", "Je lui ai demandé m'y emmener."],
         correctIndex: 0,
         explanation: "\"Demander à\" → \"lui\"; \"de\" before the infinitive; \"m'y\" in that order.",
@@ -2266,7 +2266,7 @@ export const FR_A2_U22: Lesson[] = [
         prompt: "A new story, link 1. Translate into French.",
         source: "It was a Sunday morning and the sun was shining.",
         answer: "C'était un dimanche matin et il y avait du soleil.",
-        altAnswers: ["C'était un dimanche matin et le soleil brillait.", "C'était un dimanche matin et il faisait soleil.", "C'était un dimanche matin et il faisait beau."],
+        altAnswers: ["C'était un dimanche matin et le soleil brillait.", "C'était un dimanche matin et il faisait beau."],
         explanation: "Scene: imparfait for both halves.",
       },
       {
@@ -2275,7 +2275,7 @@ export const FR_A2_U22: Lesson[] = [
         prompt: "Link 2. Translate into French.",
         source: "Chloe was having breakfast in the kitchen.",
         answer: "Chloé prenait son petit-déjeuner dans la cuisine.",
-        altAnswers: ["Chloé prenait le petit-déjeuner dans la cuisine.", "Chloé déjeunait dans la cuisine."],
+        altAnswers: ["Chloé prenait le petit-déjeuner dans la cuisine."],
         explanation: "An action in progress: imparfait.",
       },
       {

@@ -769,7 +769,7 @@ export const FR_A2_U17: Lesson[] = [
         heading: "Scene 1: La soupe est froide",
         body: [
           "Claire and Hugo are having dinner in a brasserie in Lyon. Claire's soup arrives cold. The French way to complain is to soften first: \"Excusez-moi, mais...\" (excuse me, but...), then state the problem simply: \"la soupe est froide\". No need for the long English I'm so sorry to bother you, but I think...",
-          "Claire: « Excusez-moi, monsieur ! » Serveur: « Oui, madame ? » Claire: « Excusez-moi, mais la soupe est froide. » Serveur: « Oh, je suis désolé ! Je vous en apporte une autre tout de suite. » Claire: « Merci, c'est gentil. »",
+          "Claire: \"Excusez-moi, monsieur !\" Serveur: \"Oui, madame ?\" Claire: \"Excusez-moi, mais la soupe est froide.\" Serveur: \"Oh, je suis désolé ! Je vous en apporte une autre tout de suite.\" Claire: \"Merci, c'est gentil.\"",
           "Look at the waiter's answer: \"je vous en apporte une autre\": \"vous\" is the person (to you) and \"en... une autre\" replaces \"une autre soupe\". \"Tout de suite\" means right away. \"C'est gentil\" (that's kind) is the warm way to thank someone for fixing something.",
         ],
         examples: [
@@ -792,7 +792,7 @@ export const FR_A2_U17: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The waiter says: « Je suis désolé ! Je vous en apporte une autre tout de suite. » What do you reply?",
+            question: "The waiter says: \"Je suis désolé ! Je vous en apporte une autre tout de suite.\" What do you reply?",
             options: ["Merci, c'est gentil.", "De rien, c'est gentil.", "Je vous en prie, monsieur.", "Bon appétit !"],
             correctIndex: 0,
             explanation: "He's doing you a favour, so thank him: \"Merci, c'est gentil.\" \"De rien\" answers someone else's thanks.",
@@ -803,7 +803,7 @@ export const FR_A2_U17: Lesson[] = [
             en: "[I'll bring you another one] right away.",
             sentence: "___ tout de suite.",
             answer: "Je vous en apporte une autre",
-            altAnswers: ["Je vous en apporte un autre", "Je vous en apporte une nouvelle"],
+            altAnswers: ["Je vous en apporte une nouvelle"],
             explanation: "\"Vous\" (to you) comes before \"en\" (of it), which stands for the soup; \"une autre\" stays after the verb.",
           },
         ],
@@ -811,7 +811,7 @@ export const FR_A2_U17: Lesson[] = [
       {
         heading: "Scene 2: Ce n'est pas ce que j'ai commandé",
         body: [
-          "Hugo's main course is wrong, and there are nuts in Claire's salad. Hugo: « Excusez-moi, ce n'est pas ce que j'ai commandé. J'ai demandé le poisson, pas le poulet. » Serveur: « Ah, pardon, c'est une erreur. » Hugo: « Et il y a des noix dans la salade de ma femme. Elle est allergique. » Serveur: « Je suis vraiment désolé ! Je vous change ça tout de suite. »",
+          "Hugo's main course is wrong, and there are nuts in Claire's salad. Hugo: \"Excusez-moi, ce n'est pas ce que j'ai commandé. J'ai demandé le poisson, pas le poulet.\" Serveur: \"Ah, pardon, c'est une erreur.\" Hugo: \"Et il y a des noix dans la salade de ma femme. Elle est allergique.\" Serveur: \"Je suis vraiment désolé ! Je vous change ça tout de suite.\"",
           "\"Ce n'est pas ce que j'ai commandé\" (that's not what I ordered) is a chunk worth learning whole: \"ce que\" means what (the thing that). The passé composé \"j'ai commandé\" / \"j'ai demandé\" reports what you did earlier.",
           "\"Pas le poulet\" with no \"ne\" and no verb is a normal way to correct something: \"le poisson, pas le poulet\". For an allergy, be clear and direct; \"elle est allergique\" is enough, no need to say to what again.",
         ],
@@ -855,7 +855,7 @@ export const FR_A2_U17: Lesson[] = [
       {
         heading: "Scene 3: Il y a une erreur dans l'addition",
         body: [
-          "At the end, the bill is wrong. Claire: « Excusez-moi, je crois qu'il y a une erreur. On a pris deux cafés, pas trois. » Serveur: « Vous avez raison, excusez-moi. Je vous refais l'addition. » Claire: « Ce n'est pas grave. Merci ! »",
+          "At the end, the bill is wrong. Claire: \"Excusez-moi, je crois qu'il y a une erreur. On a pris deux cafés, pas trois.\" Serveur: \"Vous avez raison, excusez-moi. Je vous refais l'addition.\" Claire: \"Ce n'est pas grave. Merci !\"",
           "\"Je crois qu'il y a une erreur\" (I think there's a mistake) is softer than \"il y a une erreur\" alone. \"Vous avez raison\" (you're right) uses \"avoir\", not \"être\": a classic trap for English speakers.",
           "To accept an apology, say \"ce n'est pas grave\" (it's no big deal), \"pas de problème\" or \"ça arrive\" (it happens). In speech you'll hear \"c'est pas grave\" without \"ne\".",
         ],
@@ -1006,7 +1006,7 @@ export const FR_A2_U17: Lesson[] = [
         heading: "Part 1: The scene (imparfait)",
         body: [
           "Léa is telling a friend about her boyfriend Julien's birthday dinner. She starts by setting the scene, so she uses the imparfait: what things were like, the weather, how people felt. Nothing happens yet.",
-          "« C'était l'anniversaire de Julien. Il pleuvait, mais nous étions de bonne humeur. Le restaurant était très chic et il y avait beaucoup de monde. Nous avions faim et Julien portait sa belle chemise blanche. »",
+          "\"C'était l'anniversaire de Julien. Il pleuvait, mais nous étions de bonne humeur. Le restaurant était très chic et il y avait beaucoup de monde. Nous avions faim et Julien portait sa belle chemise blanche.\"",
           "Every verb here is background: \"c'était\", \"il pleuvait\", \"nous étions\", \"il y avait\", \"nous avions faim\", \"il portait\". Ask yourself: is this an event that moves the story forward, or a description of the scene? Description takes the imparfait.",
         ],
         examples: [
@@ -1048,7 +1048,7 @@ export const FR_A2_U17: Lesson[] = [
       {
         heading: "Part 2: What went wrong (passé composé)",
         body: [
-          "Now the events: each one moves the story forward, so Léa switches to the passé composé. « Nous avons attendu une heure. Ensuite, le serveur est arrivé avec nos plats, mais il a renversé du vin rouge sur la chemise de Julien ! Il nous a apporté le mauvais plat, et quand j'ai demandé du pain, il n'y en avait plus. »",
+          "Now the events: each one moves the story forward, so Léa switches to the passé composé. \"Nous avons attendu une heure. Ensuite, le serveur est arrivé avec nos plats, mais il a renversé du vin rouge sur la chemise de Julien ! Il nous a apporté le mauvais plat, et quand j'ai demandé du pain, il n'y en avait plus.\"",
           "Notice the mix: \"quand j'ai demandé du pain\" is an event, but \"il n'y en avait plus\" (there wasn't any left) describes the situation at that moment, so it stays in the imparfait. \"En\" replaces \"du pain\".",
           "Watch the auxiliaries: \"arriver\" takes \"être\" (\"le serveur est arrivé\"), while \"attendre\", \"renverser\", \"apporter\" and \"demander\" take \"avoir\". In \"il nous a apporté\", the pronoun \"nous\" (to us) sits before the auxiliary.",
         ],
@@ -1091,7 +1091,7 @@ export const FR_A2_U17: Lesson[] = [
       {
         heading: "Part 3: The end of the evening",
         body: [
-          "« J'ai appelé le serveur et je lui ai expliqué le problème. Il s'est excusé, mais il ne nous a pas proposé de dessert. Et le gâteau d'anniversaire ? Ils l'ont oublié ! Finalement, nous avons payé l'addition et nous sommes partis. Sur le chemin, on a acheté une pizza et on l'a mangée dans la voiture. Julien a dit que c'était sa meilleure soirée de l'année ! »",
+          "\"J'ai appelé le serveur et je lui ai expliqué le problème. Il s'est excusé, mais il ne nous a pas proposé de dessert. Et le gâteau d'anniversaire ? Ils l'ont oublié ! Finalement, nous avons payé l'addition et nous sommes partis. Sur le chemin, on a acheté une pizza et on l'a mangée dans la voiture. Julien a dit que c'était sa meilleure soirée de l'année !\"",
           "Pronouns in the passé composé: \"je lui ai expliqué\" (to him, no agreement), \"ils l'ont oublié\" (it = the cake, masculine), and \"on l'a mangée\": here \"l'\" stands for \"la pizza\", a feminine direct object placed before \"avoir\", so the participle takes an -e.",
           "\"Partir\" takes \"être\" and agrees: \"nous sommes partis\". \"S'excuser\" is pronominal, so also \"être\": \"il s'est excusé\". Finally, after \"Julien a dit que\", the description \"c'était\" stays in the imparfait.",
         ],
@@ -1393,7 +1393,7 @@ export const FR_A2_U17: Lesson[] = [
         prompt: "Translate into French.",
         source: "It was sunny and the sea was warm.",
         answer: "Il faisait beau et la mer était chaude.",
-        altAnswers: ["Il faisait soleil et la mer était chaude.", "Il y avait du soleil et la mer était chaude."],
+        altAnswers: ["Il y avait du soleil et la mer était chaude."],
         explanation: "Two descriptions: imparfait. Note \"chaude\" for the feminine \"mer\".",
       },
       {

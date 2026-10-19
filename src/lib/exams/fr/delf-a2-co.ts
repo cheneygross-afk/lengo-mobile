@@ -139,7 +139,7 @@ export const DELF_A2_CO: ExamPaper = {
         {
           label: "Dialogue 3",
           lines: [
-            { voice: "m", text: "Monsieur, ma soupe est froide et j'attends mon plat depuis quarante minutes. Ce n'est pas normal !" },
+            { voice: "m", text: "Madame, ma soupe est froide et j'attends mon plat depuis quarante minutes. Ce n'est pas normal !" },
             { voice: "f", text: "Je suis désolée, monsieur, je vais voir en cuisine tout de suite." },
           ],
         },

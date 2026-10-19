@@ -16,7 +16,7 @@ export const PT_C2_S08_STORIES: Story[] = [
       `Lauro ficou vermelho. Ia responder que era calúnia dos jornais da oposição quando ouviu o primeiro estrondo, vindo da Praça da República. Depois outro. Depois gritos, correria, o barulho de bondes sendo virados. Um menino entrou no pátio correndo e gritou que tinham levantado barricada na Rua da Harmonia, com paralelepípedos e trilhos arrancados, e que estavam chamando aquilo de Porto Arthur, como a fortaleza da guerra dos russos com os japoneses. Os dois soldados sumiram pelo portão. Lauro ficou sozinho no pátio, de maleta na mão, no meio de quarenta portas fechadas.`,
       `Foi Tia Zefa quem o puxou para dentro. Escondeu a maleta debaixo da cama, deu-lhe um chapéu de palha e uma camisa de estivador e mandou-o sentar no banquinho e descascar mandioca, que homem descascando mandioca ninguém procura. Durante três dias, enquanto a cidade ardia, o vacinador ficou naquele quarto de quatro metros, ouvindo pelas frestas os tiros, os sinos, a cavalaria. E ouvindo Tia Zefa, que falava enquanto lavava roupa.`,
       `Contou-lhe que tinha morado vinte anos num sobrado da Rua da Prainha, até o dia em que chegaram homens com papel da prefeitura e o derrubaram para abrir uma avenida larga como as de Paris. Contou que os vizinhos foram para os morros, para os subúrbios, para a rua. Contou que ninguém lhes perguntou nada, e que agora vinham os mesmos homens, de outro uniforme, com outra agulha, sem perguntar nada outra vez. “Não é a vacina, menino”, disse ela, torcendo um lençol. “É a mão de quem vacina. O povo já conhece essa mão. Ela derruba casa, ela prende, ela vacina, e é sempre a mesma.”`,
-      `A revolta foi esmagada em uma semana. Centenas de pessoas foram presas e mandadas para o Acre nos porões de navios; a obrigatoriedade da vacina foi suspensa. Lauro voltou ao laboratório e, por quatro anos, não falou de Tia Zefa com ninguém. Em 1908, uma nova epidemia de varíola matou quase dez mil pessoas no Rio. No auge dela, numa manhã de chuva, uma mulher alta, de pano na cabeça, bateu à porta do posto sanitário onde ele trabalhava, trazendo pela mão quatro netos.`,
+      `A revolta foi esmagada em uma semana. Centenas de pessoas foram presas e mandadas para o Acre nos porões de navios; a obrigatoriedade da vacina foi suspensa. Lauro voltou ao laboratório e, por quatro anos, não falou de Tia Zefa com ninguém. Em 1908, uma nova epidemia de varíola matou milhares de pessoas no Rio. No auge dela, numa manhã de chuva, uma mulher alta, de pano na cabeça, bateu à porta do posto sanitário onde ele trabalhava, trazendo pela mão quatro netos.`,
       `Lauro foi buscar a maleta. Tia Zefa o deteve com um gesto. Disse que vinha vacinar os meninos, sim, porque não era tola, mas que vinha também cobrar uma coisa. Estendeu a mão aberta. Ele demorou um segundo a entender. Depois esterilizou a lanceta na chama, molhou-a na linfa e entregou-a a ela, com o cabo virado, como se entrega uma faca a quem se respeita. Tia Zefa vacinou os quatro netos, um por um, com mão firme, enquanto ele segurava os bracinhos. Quando terminou, devolveu-lhe a lanceta e disse apenas: “Assim, sim.”`,
     ],
     questions: [
@@ -63,7 +63,7 @@ export const PT_C2_S08_STORIES: Story[] = [
     ],
     questions: [
       {
-        question: `Why did the narrator recognise the handwriting on the papers?`,
+        question: `Why did the narrator recognize the handwriting on the papers?`,
         options: [`Because he had written them himself`, `Because it looked exactly like his own, which he had learned from his master`, `Because it was signed with his name`, `Because he had seen the governor's handwriting`],
         correctIndex: 1,
         explanation: `"reconheci a letra, porque era a minha", and he had copied his master's letters until no one could tell them apart.`,
@@ -100,7 +100,7 @@ export const PT_C2_S08_STORIES: Story[] = [
       `Relatório n.º 7, 8 de maio. “Autorização concedida. Frequentei, na quarta-feira, aula de dança na garagem de um sobrado em Irajá, ministrada por um jovem conhecido como Sapinho. Os passos têm nomes próprios, a maioria de difícil transcrição. Confirmo que a sequência é ensaiada, mas não encontrei evidência de doutrinação. O único material escrito na garagem era uma lista de discos. No sábado, consegui acompanhar a fileira inteira durante a música principal. O público aplaudiu. Uma moça de nome Sueli comentou que eu tinha jeito. Anexo a lista de discos.”`,
       `O delegado leu o relatório número sete duas vezes. Chamou Nivaldo à sala e perguntou se ele estava brincando. Nivaldo disse que não. Explicou que o movimento existia, sim, que os rapazes falavam de orgulho, de cabelo, de pele, que diziam que preto é bonito e que ninguém mais ia alisar o cabelo para arranjar emprego no centro. O delegado perguntou se isso não era subversão. Nivaldo pensou um pouco e respondeu, com toda a sinceridade, que não sabia. Que tinha crescido em Nilópolis ouvindo a mãe dizer para ele não sair de casa sem pentear aquele cabelo ruim. Que agora não sabia mais se o cabelo era ruim.`,
       `Relatório n.º 12, 26 de junho. “O baile prossegue sem incidentes. A polícia militar fez uma batida na saída, às 4h, revistando os frequentadores encostados ao muro, sem nada encontrar. Fui revistado também, por não portar documento funcional, que deixei em casa por recomendação de segurança. O soldado que me revistou chamou-me de macaco. Não reagi, conforme o treinamento. Registro que o baile em si não apresentou qualquer ameaça à ordem. A ameaça, se houve, saiu da viatura.”`,
-      `O relatório número doze nunca chegou a Brasília. O delegado guardou-o numa gaveta, transferiu Nivaldo para um setor de arquivo e mandou outro agente, mais velho e mais careca, que voltou do primeiro baile dizendo que aquilo era coisa de comunista e que a música era alta demais. O movimento continuou. Cresceu tanto que, no ano seguinte, as gravadoras descobriram que havia dinheiro nele, e os jornais do Rio deram-lhe um nome em inglês.`,
+      `O relatório número doze nunca chegou a Brasília. O delegado guardou-o numa gaveta, transferiu Nivaldo para um setor de arquivo e mandou outro agente, mais velho e mais careca, que voltou do primeiro baile dizendo que aquilo era coisa de comunista e que a música era alta demais. O movimento continuou. Cresceu tanto que, naquele mesmo ano, os jornais do Rio deram-lhe um nome em inglês, e logo as gravadoras descobriram que havia dinheiro nele.`,
       `Nivaldo pediu demissão em 1979. Abriu uma loja de discos em Madureira, perto do viaduto, e casou com Sueli. Muitos anos depois, quando os arquivos da polícia política foram abertos ao público, um pesquisador encontrou a pasta dele e foi procurá-lo para uma entrevista. Nivaldo leu os próprios relatórios em silêncio, devolveu a pasta e disse que só tinha uma correção a fazer: no relatório número quatro, onde estava escrito que não pudera apurar o conteúdo do grito em inglês. “Hoje eu sei o que eles gritavam”, disse. “Eu também gritava.”`,
     ],
     questions: [
@@ -208,7 +208,7 @@ export const PT_C2_S08_STORIES: Story[] = [
       },
       {
         question: `What did the grandfather do after that meeting?`,
-        options: [`He sold the horse for a good price.`, `He joined the white-scarf side.`, `He went back to fight again.`, `He gave the horse to the old man and stopped wearing either colour.`],
+        options: [`He sold the horse for a good price.`, `He joined the white-scarf side.`, `He went back to fight again.`, `He gave the horse to the old man and stopped wearing either color.`],
         correctIndex: 3,
         explanation: `"Eu dei o gateado pro velho", and "deixei de usar lenço vermelho [...] Branco também não."`,
       },
@@ -222,7 +222,7 @@ export const PT_C2_S08_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "a linfa", en: "vaccine lymph", forms: ["linfa"] },
     { es: "a varíola", en: "smallpox", forms: ["varíola"] },
     { es: "o cortiço", en: "slum tenement", forms: ["cortiço"] },
-    { es: "o estivador", en: "docker, stevedore", forms: ["estivadores", "estivador"] },
+    { es: "o estivador", en: "longshoreman, stevedore", forms: ["estivadores", "estivador"] },
     { es: "a soleira", en: "doorstep, threshold", forms: ["soleira"] },
     { es: "a ordenhadora", en: "milkmaid", forms: ["ordenhadoras"] },
     { es: "o estrondo", en: "loud bang", forms: ["estrondo"] },
@@ -248,7 +248,7 @@ export const PT_C2_S08_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "lotado", en: "posted, assigned (to a department)", forms: ["lotado"] },
     { es: "o delegado", en: "police chief", forms: ["delegado"] },
     { es: "o punho", en: "fist", forms: ["punho"] },
-    { es: "a boca larga", en: "flared (trousers)", forms: ["boca"] },
+    { es: "a boca larga", en: "flared (pants)", forms: ["boca"] },
     { es: "o discotecário", en: "DJ", forms: ["discotecário"] },
     { es: "apurar", en: "to find out, ascertain", forms: ["apurar"] },
     { es: "ter jeito", en: "to have a knack, be good at something", forms: ["jeito"] },

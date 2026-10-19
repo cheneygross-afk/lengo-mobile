@@ -129,7 +129,7 @@ export const FR_B2_U08_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "If your husband helped more at home, you'd be less tired.",
         answer: "Si votre mari aidait plus à la maison, vous seriez moins fatiguée.",
-        altAnswers: ["Si votre mari vous aidait plus à la maison, vous seriez moins fatiguée.", "Si votre mari aidait davantage à la maison, vous seriez moins fatiguée."],
+        altAnswers: ["Si votre mari vous aidait plus à la maison, vous seriez moins fatiguée.", "Si votre mari aidait davantage à la maison, vous seriez moins fatiguée.", "Si votre mari aidait plus à la maison, vous seriez moins fatigué.", "Si votre mari vous aidait plus à la maison, vous seriez moins fatigué."],
         explanation: "Imparfait + conditional; the reader is a woman.",
       },
       {
@@ -239,7 +239,7 @@ export const FR_B2_U08_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "She behaves as if she were the boss.",
         answer: "Elle se comporte comme si elle était la patronne.",
-        altAnswers: ["Elle se comporte comme si c'était elle la patronne.", "Elle se conduit comme si elle était la cheffe.", "Elle agit comme si elle était la patronne."],
+        altAnswers: ["Elle se comporte comme si c'était elle la patronne.", "Elle se conduit comme si elle était la cheffe.", "Elle se comporte comme si elle était la cheffe.", "Elle se comporte comme si elle était le chef.", "Elle agit comme si elle était la patronne."],
         explanation: "\"Comme si\" + imparfait.",
       },
       {
@@ -405,10 +405,11 @@ export const FR_B2_U08_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "I'm not sure whether [the shop will be] open on Sunday.",
-        sentence: "Je ne suis pas sûr que le magasin ___ ouvert dimanche.",
-        answer: "soit",
-        explanation: "Careful: after \"pas sûr que\" French uses que + subjunctive; with si (\"pas sûr si\") the future \"sera\" would be needed.",
+        en: "I don't know whether [the shop will be] open on Sunday.",
+        sentence: "Je ne sais pas si le magasin ___ ouvert dimanche.",
+        answer: "sera",
+        altAnswers: ["va être"],
+        explanation: "After \"je ne sais pas\", si means whether, so the future \"sera\" is correct. A conditional si (\"si le magasin est ouvert dimanche, j'irai\") would take the present.",
       },
       {
         type: "translate",
@@ -562,7 +563,7 @@ export const FR_B2_U08_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "And what if we didn't like it there?",
         answer: "Et si ça ne nous plaisait pas là-bas ?",
-        altAnswers: ["Et si on ne s'y plaisait pas ?", "Et si on n'aimait pas là-bas ?"],
+        altAnswers: ["Et si on ne s'y plaisait pas ?", "Et si nous ne nous y plaisions pas ?"],
         explanation: "\"Et si\" + imparfait.",
       },
       {

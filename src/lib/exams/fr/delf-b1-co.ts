@@ -113,7 +113,7 @@ export const DELF_B1_CO: ExamPaper = {
             "D'acheter un chien à sa mère.",
           ],
           answer: 0,
-          explanation: "Il va offrir « un week-end à la mer avec mon père » ; lui gardera le chien.",
+          explanation: "Il va offrir à sa mère « un week-end à la mer avec mon père » : un séjour pour ses deux parents.",
         },
       ],
     },

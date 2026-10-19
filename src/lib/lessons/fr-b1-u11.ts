@@ -38,7 +38,7 @@ export const FR_B1_U11: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
-            en: "I'd quite like [to go] to Lyon one day.",
+            en: "I [would] quite like [to go] to Lyon one day.",
             sentence: "J'___ bien à Lyon un jour.",
             answer: "irais",
             explanation: "\"Bien\" + \"un jour\": a wish, so conditional with -s.",
@@ -264,7 +264,7 @@ export const FR_B1_U11: Lesson[] = [
         heading: "The news conditional: reportedly",
         body: [
           "French journalists use the conditional to report something that hasn't been confirmed: \"Le ministre démissionnerait\" means the minister is reportedly resigning, or is said to be resigning. It's not would at all; it's a way of saying we're passing this on, we don't guarantee it.",
-          "English needs extra words (reportedly, allegedly, apparently, is said to); French needs only the ending. This is why a headline like « Le président serait malade » doesn't mean the president would be ill. It means he is reportedly ill.",
+          "English needs extra words (reportedly, allegedly, apparently, is said to); French needs only the ending. This is why a headline like \"Le président serait malade\" doesn't mean the president would be ill. It means he is reportedly ill.",
           "You'll meet this constantly in newspapers, on the radio and in TV news, so learning to recognise it is essential for the DELF B1 reading and listening papers.",
         ],
         examples: [
@@ -343,12 +343,12 @@ export const FR_B1_U11: Lesson[] = [
             question: "In my view, it's a good idea. Which is right?",
             options: [
               "Selon moi, c'est une bonne idée.",
-              "Selon moi, ce serait une bonne idée, d'après les sources.",
+              "Selon à moi, c'est une bonne idée.",
               "Selon je, c'est une bonne idée.",
-              "D'après moi, ce serait une bonne idée confirmée.",
+              "D'après je, c'est une bonne idée.",
             ],
             correctIndex: 0,
-            explanation: "A personal opinion with \"selon moi\" takes the indicative; the hearsay conditional is for other people's unconfirmed information.",
+            explanation: "\"Selon\" and \"d'après\" take a stressed pronoun (\"moi\") with no extra preposition, and a personal opinion takes the indicative.",
           },
         ],
       },
@@ -519,7 +519,7 @@ export const FR_B1_U11: Lesson[] = [
         heading: "Mistake 1: future or conditional?",
         body: [
           "Julie is an English learner of French in Montpellier, writing on a forum about plans for a new tram line. Her first sentence: \"*La ville construirait une nouvelle ligne l'année prochaine, c'est officiel.\" If it's official, it's a fact about the future: \"construira\". The conditional would make it sound like a rumour.",
-          "Then: \"*Avec le tram, je mettrai dix minutes au lieu de quarante, ce sera génial !\" Is she sure? She's imagining it, and earlier she says the project isn't decided: \"je mettrais\", \"ce serait\". The choice depends on whether the event is certain.",
+          "Then: \"Avec le tram, je mettrai dix minutes au lieu de quarante, ce sera génial !\" The line is official, but the tram isn't running yet and Julie is picturing her future commute, so the conditional fits her daydream better: \"je mettrais\", \"ce serait\". The future isn't wrong here, but it would present her guess as a certainty. The choice depends on how sure you are.",
         ],
         examples: [
           { es: "La ville construira une nouvelle ligne l'année prochaine, c'est officiel.", en: "The city will build a new line next year, it's official." },
@@ -593,7 +593,7 @@ export const FR_B1_U11: Lesson[] = [
         heading: "Mistake 3: il paraît que + conditional",
         body: [
           "Last part: \"*Il paraît que le tram serait gratuit le dimanche.\" After \"il paraît que\", use the indicative: \"Il paraît que le tram sera gratuit le dimanche.\" Or drop \"il paraît que\" and use the news conditional: \"Le tram serait gratuit le dimanche.\" One hearsay marker is enough.",
-          "Here is her corrected conclusion: « Il paraît que le tram sera gratuit le dimanche. Ce serait une excellente idée. Je voudrais remercier la mairie pour ce projet. »",
+          "Here is her corrected conclusion: \"Il paraît que le tram sera gratuit le dimanche. Ce serait une excellente idée. Je voudrais remercier la mairie pour ce projet.\"",
         ],
         examples: [
           { es: "Il paraît que le tram sera gratuit le dimanche.", en: "Apparently the tram will be free on Sundays." },
@@ -755,7 +755,7 @@ export const FR_B1_U11: Lesson[] = [
         heading: "Tu: lève-toi / ne te lève pas",
         body: [
           "Pronominal verbs in the tu imperative: affirmative puts \"toi\" after the verb with a hyphen (\"Lève-toi\", \"Dépêche-toi\", \"Assieds-toi\", \"Tais-toi\"); negative puts \"te\" before the verb (\"Ne te lève pas\", \"Ne t'inquiète pas\"). The -er verbs have no -s in either.",
-          "You already know the mechanism from this unit's pronoun work: after the verb, me and te become moi and toi; before the verb, they're me and te.",
+          "You already know the mechanism from Unit 8's pronoun work: after the verb, me and te become moi and toi; before the verb, they're me and te.",
         ],
         examples: [
           { es: "Lève-toi, il est déjà huit heures !", en: "Get up, it's already eight!" },
@@ -794,7 +794,7 @@ export const FR_B1_U11: Lesson[] = [
         ],
         examples: [
           { es: "Dépêchons-nous, le film commence.", en: "Let's hurry, the film's starting." },
-          { es: "Ne nous inquiétons pas pour rien.", en: "Let's not worry for nothing." },
+          { es: "Ne nous inquiétons pas pour rien.", en: "Let's not worry over nothing." },
           { es: "Asseyons-nous ici, il y a de l'ombre.", en: "Let's sit here, there's some shade." },
           { es: "Ne nous énervons pas.", en: "Let's not get annoyed." },
           { es: "Allons-nous-en, il pleut.", en: "Let's get out of here, it's raining." },
@@ -2183,10 +2183,11 @@ export const FR_B1_U11: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "The news [hasn't been confirmed].",
+        en: "The news [isn't confirmed yet].",
         sentence: "La nouvelle ___.",
-        answer: "n'a pas été confirmée",
-        explanation: "Passé composé of the passive; \"confirmée\" agrees with \"la nouvelle\".",
+        answer: "n'est pas encore confirmée",
+        altAnswers: ["n'a pas encore été confirmée"],
+        explanation: "\"Pas encore\" (not yet) goes around \"est\"; \"confirmée\" works like an adjective and agrees with \"la nouvelle\".",
       },
       {
         type: "word-order",
@@ -2210,7 +2211,7 @@ export const FR_B1_U11: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence means I've got two pieces of information for you?",
-        options: ["J'ai deux informations pour toi.", "J'ai deux informatio pour toi.", "J'ai deux nouvelles des infos pour toi.", "J'ai deux de l'information pour toi."],
+        options: ["J'ai deux informations pour toi.", "J'ai deux information pour toi.", "J'ai deux de l'information pour toi.", "J'ai deux des informations pour toi."],
         correctIndex: 0,
         explanation: "\"Une information\" is countable: \"deux informations\".",
       },

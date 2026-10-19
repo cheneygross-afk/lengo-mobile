@@ -279,7 +279,7 @@ export const PT_A2_U07: Lesson[] = [
           { es: "Curitiba não é tão quente quanto Recife.", en: "Curitiba isn't as hot as Recife." },
           { es: "Ela fala tão rápido quanto a mãe.", en: "She talks as fast as her mother." },
           { es: "O apartamento novo não é tão caro quanto o antigo.", en: "The new apartment isn't as expensive as the old one." },
-          { es: "O metrô é tão rápido quanto o carro?", en: "Is the metro as fast as the car?" },
+          { es: "O metrô é tão rápido quanto o carro?", en: "Is the subway as fast as the car?" },
         ],
         checkpoint: [
           {
@@ -653,7 +653,7 @@ export const PT_A2_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Lucas plays football [worse] than his brother.",
+        en: "Lucas plays soccer [worse] than his brother.",
         sentence: "O Lucas joga futebol ___ do que o irmão.",
         answer: "pior",
         explanation: "\"Joga mal\" in the comparative becomes \"joga pior\". \"Pior\" is the comparative of both \"mal\" and \"ruim\".",
@@ -705,11 +705,11 @@ export const PT_A2_U07: Lesson[] = [
         heading: "O mais... de: the most in a group",
         body: [
           "Portuguese has no -est ending. For the most, put the article before the noun and \"mais\" before the adjective: \"a cidade mais bonita\" (the most beautiful city), \"o hotel mais barato\" (the cheapest hotel). There's only one article, and it agrees with the noun. \"Menos\" gives the least: \"o bairro menos caro\".",
-          "The group comes after \"de\", where English says in or of: \"a praia mais bonita do Brasil\" (the most beautiful beach in Brazil). Saying \"no Brasil\" here is the classic English-speaker mistake. With no noun, the article stands alone: \"ela é a mais alta da turma\".",
+          "The group comes after \"de\", where English says in or of: \"a praia mais bonita do Brasil\" (the most beautiful beach in Brazil). \"Do Brasil\" is the standard choice; \"no Brasil\" is heard too, but sounds less idiomatic. With no noun, the article stands alone: \"ela é a mais alta da turma\".",
         ],
         examples: [
           { es: "O Rio é a cidade mais bonita do Brasil.", en: "Rio is the most beautiful city in Brazil." },
-          { es: "Qual é o bairro mais seguro da cidade?", en: "Which is the safest neighbourhood in the city?" },
+          { es: "Qual é o bairro mais seguro da cidade?", en: "Which is the safest neighborhood in the city?" },
           { es: "A Beatriz é a mais alta da turma.", en: "Beatriz is the tallest in the class." },
           { es: "Pedi o quarto menos barulhento do hotel.", en: "I asked for the least noisy room in the hotel." },
           { es: "Ele é o aluno mais inteligente da escola.", en: "He's the smartest student in the school." },
@@ -722,14 +722,14 @@ export const PT_A2_U07: Lesson[] = [
             source: "Copacabana is the most famous beach in Rio.",
             answer: "Copacabana é a praia mais famosa do Rio.",
             altAnswers: ["A Copacabana é a praia mais famosa do Rio."],
-            explanation: "\"A praia mais famosa\": one article, agreeing with \"praia\", and \"mais\" before the adjective. The group takes \"de\": \"do Rio\" (de + o), not \"no Rio\".",
+            explanation: "\"A praia mais famosa\": one article, agreeing with \"praia\", and \"mais\" before the adjective. The group takes \"de\": \"do Rio\" (de + o), the standard choice over \"no Rio\".",
           },
           {
             type: "multiple-choice",
             question: "How do you say: João is the oldest in the family?",
-            options: ["O João é o mais velho da família.", "O João é o mais velho na família.", "O João é mais velho da família.", "O João é o mais velho que a família."],
+            options: ["O João é o mais velho da família.", "O João é a mais velha da família.", "O João é mais velho da família.", "O João é o mais velho que a família."],
             correctIndex: 0,
-            explanation: "The superlative needs the article (\"o mais velho\") and \"de\" for the group (\"da família\"). Without \"o\" it's only a comparison, and \"na família\" copies the English in.",
+            explanation: "The superlative needs the article (\"o mais velho\") and \"de\" for the group (\"da família\"). Without \"o\" it's only a comparison, and \"a mais velha\" doesn't agree with João.",
           },
         ],
       },
@@ -843,7 +843,7 @@ export const PT_A2_U07: Lesson[] = [
         source: "Dona Maria is the oldest person in the building.",
         answer: "A Dona Maria é a pessoa mais velha do prédio.",
         altAnswers: ["Dona Maria é a pessoa mais velha do prédio."],
-        explanation: "\"Pessoa\" is feminine, so \"a pessoa mais velha\", whoever it refers to. In the building is \"do prédio\", not \"no prédio\".",
+        explanation: "\"Pessoa\" is feminine, so \"a pessoa mais velha\", whoever it refers to. In the building is normally \"do prédio\".",
       },
       {
         type: "fill-blank",
@@ -893,7 +893,7 @@ export const PT_A2_U07: Lesson[] = [
         type: "speak",
         text: "É o pior trânsito do mundo.",
         prompt: "Say it in Portuguese: It's the worst traffic in the world.",
-        tip: "Nasalise the \"trân\" in \"trânsito\", and say \"do mundo\" as one smooth chunk.",
+        tip: "Nasalize the \"trân\" in \"trânsito\", and say \"do mundo\" as one smooth chunk.",
         explanation: "\"O pior\" before the noun, and in the world is \"do mundo\".",
       },
       {
@@ -1025,12 +1025,12 @@ export const PT_A2_U07: Lesson[] = [
       {
         heading: "-ão: big, impressive or too much",
         body: [
-          "The augmentative \"-ão\" makes things big, often with admiration: \"carro\" → \"carrão\" (a great big car), \"filme\" → \"filmão\" (a great film), \"dinheiro\" → \"dinheirão\" (a fortune). Some are irregular: \"casa\" → \"casarão\" (a mansion), and \"-ão\" words are masculine: \"o casarão\".",
+          "The augmentative \"-ão\" makes things big, often with admiration: \"carro\" → \"carrão\" (a great big car), \"filme\" → \"filmão\" (a great movie), \"dinheiro\" → \"dinheirão\" (a fortune). Some are irregular: \"casa\" → \"casarão\" (a mansion), and \"-ão\" words are masculine: \"o casarão\".",
           "It can also mean too much: \"um problemão\" is a huge problem. And some have taken on a meaning of their own: a \"palavrão\" is a swear word, not a long word.",
         ],
         examples: [
           { es: "O meu tio comprou um carrão.", en: "My uncle bought a huge car." },
-          { es: "Ontem a gente viu um filmão.", en: "Yesterday we saw a fantastic film." },
+          { es: "Ontem a gente viu um filmão.", en: "Yesterday we saw a fantastic movie." },
           { es: "Eles moravam num casarão em Ouro Preto.", en: "They lived in a big old mansion in Ouro Preto." },
           { es: "A viagem custou um dinheirão.", en: "The trip cost a fortune." },
         ],
@@ -1165,7 +1165,7 @@ export const PT_A2_U07: Lesson[] = [
     level: "PT-A2",
     number: 6,
     title: "Contrast Clinic: Melhor or Mais Bom? Maior or Mais Grande?",
-    summary: "Fix the classic comparison traps: melhor and pior instead of mais bom, maior and menor instead of mais grande, and recognise mais bem before a participle.",
+    summary: "Fix the classic comparison traps: melhor and pior instead of mais bom, maior and menor instead of mais grande, and recognize mais bem before a participle.",
     duration: "12 min",
     kind: "reinforce",
     format: "Contrast Clinic",
@@ -1246,10 +1246,10 @@ export const PT_A2_U07: Lesson[] = [
         heading: "Melhor or mais bem? Before a participle",
         body: [
           "\"Mais bem\" and \"mais mal\" are correct in one place: directly before a past participle such as \"pago\" (paid), \"feito\" (done) or \"localizado\" (located). Careful writing says \"o hotel mais bem localizado\" (the best-located hotel) and \"um trabalho mais bem feito\" (a better-done job).",
-          "In speech many Brazilians say \"melhor localizado\" as well, so learn to recognise both. The rule of thumb: after a verb, always use \"melhor\". Right in front of a participle, \"mais bem\" is the textbook choice.",
+          "In speech many Brazilians say \"melhor localizado\" as well, so learn to recognize both. The rule of thumb: after a verb, always use \"melhor\". Right in front of a participle, \"mais bem\" is the textbook choice.",
         ],
         examples: [
-          { es: "Esse é o bairro mais bem localizado da cidade.", en: "This is the best-located neighbourhood in the city." },
+          { es: "Esse é o bairro mais bem localizado da cidade.", en: "This is the best-located neighborhood in the city." },
           { es: "Os médicos estão entre os profissionais mais bem pagos.", en: "Doctors are among the best-paid professionals." },
           { es: "A segunda versão do texto está mais bem escrita.", en: "The second version of the text is better written." },
           { es: "A Mariana explica melhor do que o professor.", en: "Mariana explains things better than the teacher." },
@@ -1468,8 +1468,8 @@ export const PT_A2_U07: Lesson[] = [
         heading: "Two beaches: pertinho and lindíssima",
         body: [
           "On Saturday they pick a beach: Copacabana or Prainha. \"Praia\" is feminine, so the adjectives agree even when only the name is said: \"Copacabana é mais cheia\" (more crowded), \"a Prainha é a mais bonita\".",
-          "Friends colour their opinions with diminutives: \"pertinho\" (really close), \"um pouquinho mais fria\" (a tiny bit colder). For strong praise, use \"-íssimo\": \"lindíssima\" (gorgeous).",
-          "In a superlative, the group comes after \"de\": \"a praia mais bonita do Rio\", never \"no Rio\".",
+          "Friends color their opinions with diminutives: \"pertinho\" (really close), \"um pouquinho mais fria\" (a tiny bit colder). For strong praise, use \"-íssimo\": \"lindíssima\" (gorgeous).",
+          "In a superlative, the group comes after \"de\": \"a praia mais bonita do Rio\" is more natural than \"no Rio\".",
         ],
         examples: [
           { es: "Qual praia é melhor, Copacabana ou a Prainha?", en: "(Beatriz) Which beach is better, Copacabana or Prainha?" },
@@ -1642,7 +1642,7 @@ export const PT_A2_U07: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You want to say the film was better than the book. Which sentence is correct?",
+            question: "You want to say the movie was better than the book. Which sentence is correct?",
             options: ["O filme foi melhor do que o livro.", "O filme foi mais bom do que o livro.", "O filme foi mais melhor do que o livro.", "O filme foi tão bom que o livro."],
             correctIndex: 0,
             explanation: "\"Melhor do que\". \"Mais bom\" and \"mais melhor\" are both wrong, and \"tão... que\" means so... that, not better than.",
@@ -1860,13 +1860,13 @@ export const PT_A2_U07: Lesson[] = [
         heading: "The best, the worst, and a friendly tone",
         body: [
           "One reminder: say \"melhor\", \"pior\", \"maior\" and \"menor\", never \"mais bom\" or \"mais grande\". For the top of a group, add the article and \"de\": \"a melhor universidade do Sul\". To soften it, say \"uma das melhores\" (one of the best).",
-          "A message to a friend should sound warm, and diminutives and \"-íssimo\" do that: \"pertinho da praia\" (really close to the beach), \"um apartamentinho\" (a little flat), \"lindíssimo\" (stunning). One or two per message sound natural; five sound like baby talk.",
+          "A message to a friend should sound warm, and diminutives and \"-íssimo\" do that: \"pertinho da praia\" (really close to the beach), \"um apartamentinho\" (a little apartment), \"lindíssimo\" (stunning). One or two per message sound natural; five sound like baby talk.",
         ],
         examples: [
           { es: "A comida baiana é a melhor do Brasil.", en: "Bahian food is the best in Brazil." },
           { es: "O inverno lá é pior do que aqui.", en: "The winter there is worse than here." },
           { es: "A UFPR é uma das melhores universidades do Sul.", en: "UFPR is one of the best universities in the South." },
-          { es: "Eu morei num apartamentinho pertinho da praia.", en: "I lived in a little flat really close to the beach." },
+          { es: "Eu morei num apartamentinho pertinho da praia.", en: "I lived in a little apartment really close to the beach." },
           { es: "O Pelourinho é lindíssimo.", en: "The Pelourinho is stunning." },
         ],
         checkpoint: [
@@ -1985,7 +1985,7 @@ export const PT_A2_U07: Lesson[] = [
         source: "I lived in a little apartment.",
         answer: "Eu morei num apartamentinho.",
         altAnswers: ["Morei num apartamentinho.", "Eu morei em um apartamentinho.", "Morei em um apartamentinho."],
-        explanation: "\"Apartamentinho\" adds -inho to \"apartamento\" for small and cosy. \"Num\" is em + um, the everyday contraction.",
+        explanation: "\"Apartamentinho\" adds -inho to \"apartamento\" for small and cozy. \"Num\" is em + um, the everyday contraction.",
       },
       {
         type: "translate",
@@ -2063,7 +2063,7 @@ export const PT_A2_U07: Lesson[] = [
         ],
         examples: [
           { es: "A cidade era menor do que hoje.", en: "The city was smaller than it is today." },
-          { es: "Antigamente o ônibus era mais barato que o metrô.", en: "In the old days the bus was cheaper than the metro." },
+          { es: "Antigamente o ônibus era mais barato que o metrô.", en: "In the old days the bus was cheaper than the subway." },
           { es: "Meu avô era tão alto quanto meu pai.", en: "My grandfather was as tall as my father." },
           { es: "Minha escola tinha tantos alunos quanto a sua.", en: "My school had as many students as yours." },
           { es: "O apartamento novo é melhor, mas o antigo era maior.", en: "The new apartment is better, but the old one was bigger." },
@@ -2108,7 +2108,7 @@ export const PT_A2_U07: Lesson[] = [
         heading: "The best trip: superlatives in the past",
         body: [
           "To judge a trip or a party as a whole, treat it as a finished event and use the perfeito: \"foi a melhor viagem da minha vida\". The superlative takes \"de\", which joins the article: \"o mais caro da cidade\" (de + a).",
-          "To describe the scene inside that event, go back to the imperfeito: \"o hotel era lindíssimo\", \"a comida estava ótima\". English speakers often say \"in\" here, but the best in Brazil is \"o melhor do Brasil\", never \"em\".",
+          "To describe the scene inside that event, go back to the imperfeito: \"o hotel era lindíssimo\", \"a comida estava ótima\". English says in here, but the natural Portuguese is \"o melhor do Brasil\".",
         ],
         examples: [
           { es: "Foi a melhor viagem da minha vida.", en: "It was the best trip of my life." },
@@ -2289,7 +2289,7 @@ export const PT_A2_U07: Lesson[] = [
         type: "speak",
         text: "Foi o pior dia do ano.",
         prompt: "Say it in Portuguese: It was the worst day of the year.",
-        tip: "Close the ô in \"do\" and keep \"ano\" nasal: Â-nu.",
+        tip: "\"Do\" is a quick du, and keep \"ano\" nasal: Â-nu.",
         explanation: "The day is seen as a finished whole, so \"foi\". The superlative is \"o pior\" + \"do ano\".",
       },
       {
@@ -2310,7 +2310,7 @@ export const PT_A2_U07: Lesson[] = [
 
 export const PT_A2_U07_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A Brazilian friend is choosing between two beaches or towns in Brazil for a holiday and asks for your advice. You've been to both. Write them a message (50-100 words) that compares the two places (size, price, atmosphere), says which one you think is the best, and recommends one for your friend.",
+  prompt: "A Brazilian friend is choosing between two beaches or towns in Brazil for a vacation and asks for your advice. You've been to both. Write them a message (50-100 words) that compares the two places (size, price, atmosphere), says which one you think is the best, and recommends one for your friend.",
   minWords: 50,
   maxWords: 100,
   rubric: [

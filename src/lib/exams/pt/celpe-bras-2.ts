@@ -13,6 +13,6 @@ export const CELPE_BRAS_2: Exam = {
   level: "B2",
   title: "Celpe-Bras practice exam 2",
   description:
-    "Celpe-Bras practice exam 2, on health and wellbeing: a TV report on teenagers' sleep, a radio interview on ultra-processed food, a hospital volunteering programme and an advice column on children and screens, then the oral on outdoor gyms, self-medication and meditation at work.",
+    "Celpe-Bras practice exam 2, on health and wellbeing: a TV report on teenagers' sleep, a radio interview on ultra-processed food, a hospital volunteering program and an advice column on children and screens, then the oral on outdoor gyms, self-medication and meditation at work.",
   papers: [CELPE_BRAS_2_COLETIVA, CELPE_BRAS_2_INDIVIDUAL],
 };

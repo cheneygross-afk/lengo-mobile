@@ -14,7 +14,7 @@ export const PT_C2_U22: Lesson[] = [
       {
         heading: "Observation, impact, request",
         body: [
-          "Hard feedback works when it has three parts: a fact, its effect and a request. Start with what you saw, not with a judgement of the person. \"Observei que os três últimos relatórios chegaram depois do prazo\" can be discussed; \"você é desorganizado\" can only be denied. Then the impact: \"o impacto foi que...\", \"isso fez com que...\", \"isso gerou...\". Then the request, with a date: \"preciso que, a partir do mês que vem, você...\".",
+          "Hard feedback works when it has three parts: a fact, its effect and a request. Start with what you saw, not with a judgment of the person. \"Observei que os três últimos relatórios chegaram depois do prazo\" can be discussed; \"você é desorganizado\" can only be denied. Then the impact: \"o impacto foi que...\", \"isso fez com que...\", \"isso gerou...\". Then the request, with a date: \"preciso que, a partir do mês que vem, você...\".",
           "Brazilian workplace culture puts the relationship first. Feedback is given in private (\"chamar para uma conversa\"), it opens with a sentence that names the topic (\"queria conversar com você sobre...\"), and it is often wrapped in so much softening that the message disappears. \"Seria legal se de repente você pudesse dar uma olhadinha nos prazos\" contains a conditional, \"de repente\" (maybe) and a diminutive, and no clear request at all.",
           "Invite the other side with a real question: \"O que está acontecendo?\", \"Como você vê isso?\", \"O que você acha de...?\". In careful Portuguese \"de\" stays separate before an infinitive's subject: \"o que você acha de a gente revisar o cronograma?\". In speech you'll hear \"da gente\".",
         ],
@@ -47,7 +47,7 @@ export const PT_C2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which opening gives feedback on behaviour rather than judging the person?",
+            question: "Which opening gives feedback on behavior rather than judging the person?",
             options: ["Observei que você chegou atrasado às três últimas reuniões.", "Você é muito desorganizado.", "Você nunca leva nada a sério.", "Todo mundo acha que você não se importa."],
             correctIndex: 0,
             explanation: "A dated, observable fact can be discussed. Labels (\"desorganizado\"), absolutes (\"nunca\") and anonymous opinions (\"todo mundo acha\") make the other person defensive.",
@@ -59,7 +59,7 @@ export const PT_C2_U22: Lesson[] = [
         body: [
           "The firm end of the scale states needs: \"preciso que você...\", \"é fundamental que...\", \"isso não pode se repetir\", \"não dá mais para...\". \"Conto com você para...\" (I'm counting on you to...) is firm and warm at once. It shows trust and creates an expectation in the same breath, which is why Brazilian managers use it so much.",
           "The softer end uses the conditional and the imperfect subjunctive: \"seria importante que você participasse mais\", \"eu gostaria que você revisasse\". Mind the sequence: \"preciso que\" and \"é fundamental que\" take the present subjunctive; \"seria\" and \"gostaria\" take the imperfect. From a manager, the soft form is still understood as an instruction. With someone who is struggling and needs clarity, though, it can sound optional.",
-          "Avoid \"gerundismo\", the call-centre construction \"vou estar enviando\", \"vamos estar analisando\". Brazilians mock it, and it blurs the commitment. Feedback needs verbs that commit, and dates: \"vou enviar o plano até sexta\", \"a partir de amanhã\". The same goes for the person receiving it: \"vou estar melhorando\" promises nothing.",
+          "Avoid \"gerundismo\", the call-center construction \"vou estar enviando\", \"vamos estar analisando\". Brazilians mock it, and it blurs the commitment. Feedback needs verbs that commit, and dates: \"vou enviar o plano até sexta\", \"a partir de amanhã\". The same goes for the person receiving it: \"vou estar melhorando\" promises nothing.",
         ],
         examples: [
           { es: "Preciso que você entregue a planilha até quinta-feira.", en: "I need you to hand in the spreadsheet by Thursday." },
@@ -242,7 +242,7 @@ export const PT_C2_U22: Lesson[] = [
         body: [
           "Pushback usually begins with emotion, so acknowledge the emotion first: \"entendo sua frustração\", \"faz sentido você se sentir assim\", \"eu imagino como isso deve ser difícil\". Acknowledging is not agreeing. To keep both things true, Brazilians often join them with \"e\" rather than \"mas\": \"entendo sua frustração, e ao mesmo tempo o prazo continua o mesmo\". \"Mas\" erases what came before it.",
           "Name what you're not saying, to defuse the misreading: \"não estou dizendo que você não se esforçou\", \"isso não é uma crítica a você como pessoa\". Then ask before defending: \"me conta o que aconteceu\". With \"você\", Brazilian speech places the pronoun first: \"me conta\", \"me explica\".",
-          "Avoid \"calma!\" and \"calma aí\", which inflame rather than calm. So does \"você está nervoso\": telling someone what they feel is a judgement. Lower your own voice and slow down instead. \"Vamos com calma\" includes you in the request, which makes it acceptable.",
+          "Avoid \"calma!\" and \"calma aí\", which inflame rather than calm. So does \"você está nervoso\": telling someone what they feel is a judgment. Lower your own voice and slow down instead. \"Vamos com calma\" includes you in the request, which makes it acceptable.",
         ],
         examples: [
           { es: "Entendo sua frustração, e ao mesmo tempo o prazo continua o mesmo.", en: "I understand your frustration, and at the same time the deadline hasn't changed." },
@@ -431,7 +431,7 @@ export const PT_C2_U22: Lesson[] = [
         source: "I won't accept that kind of comment.",
         answer: "Não vou aceitar esse tipo de comentário.",
         altAnswers: ["Eu não vou aceitar esse tipo de comentário.", "Não aceito esse tipo de comentário.", "Não vou admitir esse tipo de comentário.", "Não vou tolerar esse tipo de comentário."],
-        explanation: "Name the behaviour, not the person: \"esse tipo de comentário\".",
+        explanation: "Name the behavior, not the person: \"esse tipo de comentário\".",
       },
       {
         type: "dictation",
@@ -476,7 +476,7 @@ export const PT_C2_U22: Lesson[] = [
           { es: "Pelo que entendi, você sentiu que foi deixada de fora da decisão.", en: "From what I understood, you felt you were left out of the decision." },
           { es: "Se entendi bem, para você o problema foi a forma, e não o conteúdo.", en: "If I've understood, for you the problem was the way it was said, not the content." },
           { es: "Você está dizendo que ninguém te avisou da mudança, é isso?", en: "You're saying nobody told you about the change, is that right?" },
-          { es: "Você ficou com a impressão de que o seu trabalho não foi reconhecido.", en: "You were left with the impression that your work wasn't recognised." },
+          { es: "Você ficou com a impressão de que o seu trabalho não foi reconhecido.", en: "You were left with the impression that your work wasn't recognized." },
           { es: "Você sentiu que o Rafael não te passou as informações a tempo.", en: "You felt Rafael didn't pass the information on to you in time." },
         ],
         checkpoint: [
@@ -556,7 +556,7 @@ export const PT_C2_U22: Lesson[] = [
         body: [
           "Once both sides have been heard, the mediator states their shared interest: \"o que vocês dois têm em comum é...\", \"os dois querem que o projeto dê certo\", \"nenhum de vocês quer que o cliente perceba esse atrito\". \"Querer que\" takes the subjunctive: \"dê certo\" (works out), \"perceba\".",
           "Declare your role to keep trust: \"não estou aqui para decidir quem tem razão\". Then move to the future with proposals in the subjunctive: \"que tal se a gente dividisse as tarefas assim?\" (imperfect subjunctive after \"que tal se\"). Or set the rule directly: \"vamos combinar o seguinte:...\".",
-          "Close with commitments from each person, in the first person and the present or future: \"eu me comprometo a...\", \"cada um se compromete a...\". \"Comprometer-se a\" is to commit to; on its own, \"comprometer\" means to compromise or jeopardise: \"isso pode comprometer o projeto\". To compromise in a negotiation is \"chegar a um meio-termo\" or \"ceder\".",
+          "Close with commitments from each person, in the first person and the present or future: \"eu me comprometo a...\", \"cada um se compromete a...\". \"Comprometer-se a\" is to commit to; on its own, \"comprometer\" means to compromise or jeopardize: \"isso pode comprometer o projeto\". To compromise in a negotiation is \"chegar a um meio-termo\" or \"ceder\".",
         ],
         examples: [
           { es: "O que vocês dois têm em comum é a vontade de entregar um bom trabalho.", en: "What you both have in common is wanting to deliver good work." },
@@ -564,7 +564,7 @@ export const PT_C2_U22: Lesson[] = [
           { es: "Nenhum de vocês quer que o cliente perceba esse atrito.", en: "Neither of you wants the client to notice this friction." },
           { es: "Que tal se a gente dividisse as tarefas por cliente?", en: "How about we split the tasks by client?" },
           { es: "Vamos combinar o seguinte: toda mudança passa pelos dois.", en: "Let's agree on this: every change goes through both of you." },
-          { es: "Esse atrito pode comprometer o projeto inteiro.", en: "This friction could jeopardise the whole project." },
+          { es: "Esse atrito pode comprometer o projeto inteiro.", en: "This friction could jeopardize the whole project." },
         ],
         checkpoint: [
           {
@@ -651,16 +651,16 @@ export const PT_C2_U22: Lesson[] = [
         prompt: "Put the words in order to say: Each of you commits to warning the other.",
         words: ["Cada", "um", "se", "compromete", "a", "avisar", "o", "outro."],
         translation: "Each of you commits to warning the other.",
-        explanation: "\"Comprometer-se a\" plus the infinitive is to commit to. Without \"se\", \"comprometer\" means to jeopardise.",
+        explanation: "\"Comprometer-se a\" plus the infinitive is to commit to. Without \"se\", \"comprometer\" means to jeopardize.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "This friction could jeopardise the whole project.",
+        source: "This friction could jeopardize the whole project.",
         answer: "Esse atrito pode comprometer o projeto inteiro.",
         altAnswers: ["Esse atrito pode comprometer todo o projeto.", "Esse atrito poderia comprometer o projeto inteiro.", "Esse atrito poderia comprometer todo o projeto.", "Esse conflito pode comprometer o projeto inteiro.", "Esse conflito pode comprometer todo o projeto."],
-        explanation: "\"Comprometer\" without \"se\" means to jeopardise, a false friend of 'compromise'.",
+        explanation: "\"Comprometer\" without \"se\" means to jeopardize, a false friend of 'compromise'.",
       },
       {
         type: "dictation",
@@ -683,22 +683,22 @@ export const PT_C2_U22: Lesson[] = [
     level: "PT-C2",
     number: 4,
     title: "Announcing Bad News",
-    summary: "Announce restructuring and redundancies in Portuguese that is clear, humane and legally careful: reestruturação, desligamento, aviso prévio, and the promises never to make.",
+    summary: "Announce restructuring and layoffs in Portuguese that is clear, humane and legally careful: reestruturação, desligamento, aviso prévio, and the promises never to make.",
     duration: "17 min",
     sections: [
       {
         heading: "Clear first: the news in the first two sentences",
         body: [
           "Whether you're telling one person or a whole team, the news goes in the first two sentences. A frame line prepares the listener (\"infelizmente, tenho uma notícia difícil\"), and then the fact follows at once: \"a empresa decidiu encerrar as operações da unidade de Campinas\". Five minutes of context before the point is cruel, because people spend the time guessing.",
-          "Brazilian HR has a standard vocabulary. \"A reestruturação\" is restructuring. \"O desligamento\" is the neutral HR term for an employee leaving, used for dismissals too: \"o seu desligamento\". \"Demissão\" is dismissal, and \"pedir demissão\" means to resign. A \"corte de vagas\" is a job cut, and a \"PDV\" (Programa de Demissão Voluntária) is a voluntary redundancy scheme. Employees are \"colaboradores\" in corporate prose.",
-          "Euphemism has a limit. \"Desligamento\" is acceptable; \"otimização do quadro\" (optimising the headcount) is cold, and \"estamos nos reinventando\" hides the news. Name the decision and its agent: \"decidimos extinguir o seu cargo\". The passive \"o seu cargo foi extinto\" is common but distances the speaker. Use it, if at all, after you've said who decided.",
+          "Brazilian HR has a standard vocabulary. \"A reestruturação\" is restructuring. \"O desligamento\" is the neutral HR term for an employee leaving, used for dismissals too: \"o seu desligamento\". \"Demissão\" is dismissal, and \"pedir demissão\" means to resign. A \"corte de vagas\" is a job cut, and a \"PDV\" (Programa de Demissão Voluntária) is a voluntary severance program. Employees are \"colaboradores\" in corporate prose.",
+          "Euphemism has a limit. \"Desligamento\" is acceptable; \"otimização do quadro\" (optimizing the headcount) is cold, and \"estamos nos reinventando\" hides the news. Name the decision and its agent: \"decidimos extinguir o seu cargo\". The passive \"o seu cargo foi extinto\" is common but distances the speaker. Use it, if at all, after you've said who decided.",
         ],
         examples: [
           { es: "Infelizmente, tenho uma notícia difícil para dar a vocês.", en: "Unfortunately, I have some difficult news to give you." },
           { es: "A empresa decidiu encerrar as operações da unidade de Campinas em março.", en: "The company has decided to close the Campinas site in March." },
           { es: "Decidimos extinguir o seu cargo, e o seu desligamento vale a partir de hoje.", en: "We've decided to eliminate your position, and your employment ends as of today." },
           { es: "A reestruturação vai afetar cerca de cento e vinte colaboradores.", en: "The restructuring will affect about a hundred and twenty employees." },
-          { es: "Quem aderir ao PDV vai receber dois salários a mais.", en: "Anyone who joins the voluntary redundancy scheme will receive two extra months' pay." },
+          { es: "Quem aderir ao PDV vai receber dois salários a mais.", en: "Anyone who joins the voluntary severance program will receive two extra months' pay." },
         ],
         checkpoint: [
           {
@@ -738,8 +738,8 @@ export const PT_C2_U22: Lesson[] = [
           { es: "Sei que é uma notícia muito difícil, e imagino o impacto para a sua família.", en: "I know this is very hard news, and I can imagine the impact on your family." },
           { es: "Essa decisão não tem relação com o seu desempenho.", en: "This decision has nothing to do with your performance." },
           { es: "O seu aviso prévio será indenizado.", en: "You'll be paid in lieu of notice." },
-          { es: "O plano de saúde será mantido por seis meses para você e seus dependentes.", en: "Health insurance will continue for six months for you and your dependants." },
-          { es: "A empresa vai oferecer um programa de recolocação no mercado.", en: "The company will offer an outplacement programme." },
+          { es: "O plano de saúde será mantido por seis meses para você e seus dependentes.", en: "Health insurance will continue for six months for you and your dependents." },
+          { es: "A empresa vai oferecer um programa de recolocação no mercado.", en: "The company will offer an outplacement program." },
           { es: "O RH vai entrar em contato com você até quinta-feira.", en: "HR will contact you by Thursday." },
         ],
         checkpoint: [
@@ -765,7 +765,7 @@ export const PT_C2_U22: Lesson[] = [
             type: "listen-choose",
             audio: "O seu aviso prévio será indenizado.",
             question: "What does it mean?",
-            options: ["You'll be paid in lieu of notice.", "You'll have to work your notice period.", "Your previous warning has been cancelled.", "You'll be compensated for an injury."],
+            options: ["You'll be paid in lieu of notice.", "You'll have to work your notice period.", "Your previous warning has been canceled.", "You'll be compensated for an injury."],
             correctIndex: 0,
             explanation: "\"Aviso prévio indenizado\" means the notice period is paid without being worked.",
           },
@@ -774,7 +774,7 @@ export const PT_C2_U22: Lesson[] = [
       {
         heading: "Legally careful: what never to promise or say",
         body: [
-          "A dismissal conversation can end up in a labour court. Avoid promises you can't keep (\"com certeza a gente te chama de volta\"); say \"não posso garantir que haverá novas vagas\". Anchor the process in the law: \"nos termos da legislação vigente\", \"conforme a CLT\" (the labour code). Hand the details to the right channel: \"o RH vai tratar dos detalhes da rescisão\".",
+          "A dismissal conversation can end up in a labor court. Avoid promises you can't keep (\"com certeza a gente te chama de volta\"); say \"não posso garantir que haverá novas vagas\". Anchor the process in the law: \"nos termos da legislação vigente\", \"conforme a CLT\" (the labor code). Hand the details to the right channel: \"o RH vai tratar dos detalhes da rescisão\".",
           "Never mention protected characteristics, even in passing: age (\"a gente precisa de um perfil mais jovem\"), pregnancy, illness, religion. Such remarks can turn a lawful dismissal into a discriminatory one. Pregnant employees and union representatives also have legal job security, the \"estabilidade\". Don't argue the reasons either: a dismissal without cause (\"sem justa causa\") needs no justification, and inventing one creates risk.",
           "Group announcements go in the formal register: \"comunicamos que\", \"a medida afetará\", \"todos os colaboradores desligados receberão...\". Use \"comunicamos\", not \"informamos com alegria\": the tone must match the news.",
         ],
@@ -782,7 +782,7 @@ export const PT_C2_U22: Lesson[] = [
           { es: "Não posso garantir que haverá novas vagas no futuro.", en: "I can't guarantee there will be new openings in the future." },
           { es: "Todos os direitos serão pagos nos termos da legislação vigente.", en: "All entitlements will be paid in accordance with current legislation." },
           { es: "O RH vai tratar com você dos detalhes da rescisão.", en: "HR will go through the details of the termination with you." },
-          { es: "Comunicamos que a unidade de Campinas encerrará suas atividades em 31 de março.", en: "We hereby announce that the Campinas site will cease operations on 31 March." },
+          { es: "Comunicamos que a unidade de Campinas encerrará suas atividades em 31 de março.", en: "We hereby announce that the Campinas site will cease operations on March 31." },
           { es: "O desligamento é sem justa causa.", en: "The dismissal is without cause." },
         ],
         checkpoint: [
@@ -853,7 +853,7 @@ export const PT_C2_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The company will offer an outplacement programme.",
+        source: "The company will offer an outplacement program.",
         answer: "A empresa vai oferecer um programa de recolocação.",
         altAnswers: ["A empresa oferecerá um programa de recolocação.", "A empresa vai oferecer um programa de recolocação no mercado.", "A empresa oferecerá um programa de recolocação no mercado.", "A empresa vai oferecer um programa de outplacement."],
         explanation: "\"Recolocação\" is outplacement, finding a new job; the English term is also used in Brazilian HR.",
@@ -885,10 +885,10 @@ export const PT_C2_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "All entitlements will be paid under the labour code.",
+        source: "All entitlements will be paid under the labor code.",
         answer: "Todos os direitos serão pagos conforme a CLT.",
         altAnswers: ["Todos os direitos serão pagos nos termos da CLT.", "Todos os direitos serão pagos de acordo com a CLT.", "Todos os direitos vão ser pagos conforme a CLT.", "Todas as verbas serão pagas conforme a CLT."],
-        explanation: "\"A CLT\" (Consolidação das Leis do Trabalho) is Brazil's labour code; \"direitos\" are the entitlements it grants.",
+        explanation: "\"A CLT\" (Consolidação das Leis do Trabalho) is Brazil's labor code; \"direitos\" are the entitlements it grants.",
       },
       {
         type: "dictation",
@@ -902,7 +902,7 @@ export const PT_C2_U22: Lesson[] = [
     level: "PT-C2",
     number: 5,
     title: "Crisis Communication",
-    summary: "Write and speak for an organisation in a crisis: the nota oficial, the coletiva de imprensa, lamentamos, estamos apurando, assumimos a responsabilidade, and what never to say.",
+    summary: "Write and speak for an organization in a crisis: the nota oficial, the coletiva de imprensa, lamentamos, estamos apurando, assumimos a responsabilidade, and what never to say.",
     duration: "18 min",
     sections: [
       {
@@ -955,7 +955,7 @@ export const PT_C2_U22: Lesson[] = [
         ],
         examples: [
           { es: "Assumimos a responsabilidade pelo que aconteceu.", en: "We take responsibility for what happened." },
-          { es: "Pedimos desculpas a todos os clientes afetados.", en: "We apologise to all affected customers." },
+          { es: "Pedimos desculpas a todos os clientes afetados.", en: "We apologize to all affected customers." },
           { es: "Lamentamos profundamente a morte de dois trabalhadores.", en: "We deeply regret the deaths of two workers." },
           { es: "A empresa não compactua com qualquer forma de assédio.", en: "The company does not condone any form of harassment." },
           { es: "Suspendemos as operações até a conclusão da perícia.", en: "We have suspended operations until the expert inspection is complete." },
@@ -976,7 +976,7 @@ export const PT_C2_U22: Lesson[] = [
             question: "A gas leak at a factory has injured six workers. Which sentence fits the company's statement?",
             options: ["Lamentamos profundamente o acidente e vamos prestar toda a assistência aos trabalhadores feridos.", "Pedimos desculpas pelo transtorno.", "Lamentamos se alguém se sentiu prejudicado.", "Foi uma fatalidade, e isso acontece no setor."],
             correctIndex: 0,
-            explanation: "Name the event and commit to action. \"Pelo transtorno\" trivialises it, \"se alguém se sentiu\" is a non-apology, and \"fatalidade\" prejudges the cause.",
+            explanation: "Name the event and commit to action. \"Pelo transtorno\" trivializes it, \"se alguém se sentiu\" is a non-apology, and \"fatalidade\" prejudges the cause.",
           },
           {
             type: "fill-blank",
@@ -993,7 +993,7 @@ export const PT_C2_U22: Lesson[] = [
         heading: "The coletiva and what never to say",
         body: [
           "At the \"coletiva de imprensa\" (or \"entrevista coletiva\") the \"porta-voz\" reads the statement and takes questions. The rules are the ones you know from handling questions, with higher stakes. Never say \"sem comentários\", which sounds like hiding something. Say instead \"essa informação ainda não foi confirmada, e eu não vou especular\".",
-          "Four other phrases do lasting damage. \"Foi uma fatalidade\" declares an accident unavoidable before the investigation has finished. \"Isso é normal no setor\" minimises it. Blaming the victims or the \"terceirizados\" (contract workers) shifts responsibility. And a number given before it is confirmed is the one the press will quote for ever.",
+          "Four other phrases do lasting damage. \"Foi uma fatalidade\" declares an accident unavoidable before the investigation has finished. \"Isso é normal no setor\" minimizes it. Blaming the victims or the \"terceirizados\" (contract workers) shifts responsibility. And a number given before it is confirmed is the one the press will quote forever.",
           "Calm phrases for hostile questions: \"entendo a pergunta, e é legítima\", \"o que posso afirmar neste momento é...\", \"vou checar e retorno para vocês ainda hoje\". \"Retornar\" (to get back to someone) is everyday Brazilian business Portuguese.",
         ],
         examples: [
@@ -1038,7 +1038,7 @@ export const PT_C2_U22: Lesson[] = [
         source: "We deeply regret what happened.",
         answer: "Lamentamos profundamente o ocorrido.",
         altAnswers: ["Lamentamos profundamente o que aconteceu.", "Lamentamos profundamente o que ocorreu.", "Nós lamentamos profundamente o ocorrido."],
-        explanation: "\"O ocorrido\" is a nominalised participle, standard in statements. Name the event too, as soon as you can.",
+        explanation: "\"O ocorrido\" is a nominalized participle, standard in statements. Name the event too, as soon as you can.",
       },
       {
         type: "translate",
@@ -1062,10 +1062,10 @@ export const PT_C2_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We apologise to all affected customers.",
+        source: "We apologize to all affected customers.",
         answer: "Pedimos desculpas a todos os clientes afetados.",
         altAnswers: ["Pedimos desculpas a todos os clientes prejudicados.", "Nós pedimos desculpas a todos os clientes afetados.", "Pedimos perdão a todos os clientes afetados.", "Pedimos desculpas aos clientes afetados."],
-        explanation: "Apologise to people (\"a todos os clientes\"), not for the \"transtorno\", when the harm is real.",
+        explanation: "Apologize to people (\"a todos os clientes\"), not for the \"transtorno\", when the harm is real.",
       },
       {
         type: "translate",
@@ -1088,7 +1088,7 @@ export const PT_C2_U22: Lesson[] = [
         prompt: "Put the words in order to say: We have suspended operations until the inspection is finished.",
         words: ["Suspendemos", "as", "operações", "até", "a", "conclusão", "da", "perícia."],
         translation: "We have suspended operations until the inspection is finished.",
-        explanation: "A concrete action beats an adjective. \"Até a conclusão da\" nominalises 'until it's finished'.",
+        explanation: "A concrete action beats an adjective. \"Até a conclusão da\" nominalizes 'until it's finished'.",
       },
       {
         type: "translate",
@@ -1356,7 +1356,7 @@ export const PT_C2_U22: Lesson[] = [
       {
         heading: "Erramos: the active first person",
         body: [
-          "\"Erramos\" names the agent (us) and the act in a single word. It is the most accountable sentence an organisation can produce. Folha de S.Paulo has for decades run its corrections column under that heading, \"Erramos\", and the word has become the model of the register. Its relatives are \"cometemos um erro\", \"a culpa foi nossa\" and \"falhamos com vocês\" (we let you down; \"falhar com alguém\" is to fail someone).",
+          "\"Erramos\" names the agent (us) and the act in a single word. It is the most accountable sentence an organization can produce. Folha de S.Paulo has for decades run its corrections column under that heading, \"Erramos\", and the word has become the model of the register. Its relatives are \"cometemos um erro\", \"a culpa foi nossa\" and \"falhamos com vocês\" (we let you down; \"falhar com alguém\" is to fail someone).",
           "Add \"ao\" plus the infinitive to name the specific act, which is what makes the admission credible: \"erramos ao não avisar os clientes a tempo\". A vague \"erramos em algumas coisas\" admits nothing.",
           "Lawyers resist the first person because it creates exposure. Publics tend to punish evasion more than the error itself, though, and a first-person admission early often ends the story faster than a careful passive that the press then spends a week unpicking.",
         ],
@@ -1365,7 +1365,7 @@ export const PT_C2_U22: Lesson[] = [
           { es: "Erramos ao não avisar os clientes a tempo.", en: "We were wrong not to warn customers in time." },
           { es: "Falhamos com vocês, e sentimos muito.", en: "We let you down, and we're very sorry." },
           { es: "A culpa foi nossa, não do fornecedor.", en: "It was our fault, not the supplier's." },
-          { es: "Cometemos um erro de avaliação.", en: "We made an error of judgement." },
+          { es: "Cometemos um erro de avaliação.", en: "We made an error of judgment." },
         ],
         checkpoint: [
           {
@@ -1441,7 +1441,7 @@ export const PT_C2_U22: Lesson[] = [
       {
         heading: "Houve uma falha: no agent at all",
         body: [
-          "The existential sentence removes the agent entirely, so the event seems to have happened by itself: \"houve uma falha\", \"ocorreu um incidente\", \"o sistema apresentou instabilidade\". \"Instabilidade\" is the corporate favourite for an outage. It sounds technical and blames nobody.",
+          "The existential sentence removes the agent entirely, so the event seems to have happened by itself: \"houve uma falha\", \"ocorreu um incidente\", \"o sistema apresentou instabilidade\". \"Instabilidade\" is the corporate favorite for an outage. It sounds technical and blames nobody.",
           "Mind the grammar. Existential \"haver\" never goes plural: \"houve falhas\", not \"houveram falhas\", a classic slip even in official notes. \"Ocorrer\" agrees normally: \"ocorreram falhas\". \"Ter\" in the sense of there is (\"teve uma falha\") is everyday speech, not right for a statement.",
           "The agentless sentence is honest when the cause is still unknown, as long as it comes with a commitment: \"houve uma falha, e estamos apurando a causa\". Good crisis communication then climbs the ladder as the facts emerge, from \"houve uma falha\" to \"a apuração concluiu que a falha foi nossa\".",
         ],
@@ -1561,10 +1561,10 @@ export const PT_C2_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We made an error of judgement.",
+        source: "We made an error of judgment.",
         answer: "Cometemos um erro de avaliação.",
         altAnswers: ["Cometemos um erro de julgamento.", "Nós cometemos um erro de avaliação.", "Erramos na avaliação."],
-        explanation: "\"Erro de avaliação\" is the usual phrase for an error of judgement.",
+        explanation: "\"Erro de avaliação\" is the usual phrase for an error of judgment.",
       },
       {
         type: "dictation",
@@ -1586,12 +1586,12 @@ export const PT_C2_U22: Lesson[] = [
       {
         heading: "O que sabemos: the facts at 7 a.m.",
         body: [
-          "It's 7 a.m. at Arara, a fintech on Avenida Faria Lima in São Paulo. The CEO, Marina Duarte, has called a crisis committee: Thiago Nunes (tecnologia), Paulo Teixeira (jurídico) and Beatriz Lima (comunicação). During the night, someone gained unauthorised access to the customer database.",
+          "It's 7 a.m. at Arara, a fintech on Avenida Faria Lima in São Paulo. The CEO, Marina Duarte, has called a crisis committee: Thiago Nunes (tecnologia), Paulo Teixeira (jurídico) and Beatriz Lima (comunicação). During the night, someone gained unauthorized access to the customer database.",
           "Thiago reports in the technical register, with the passive and careful limits on what is known: \"foram expostos\", \"até o momento\", \"não há indícios de\" (there's no evidence of). Paulo translates the facts into legal duties under the LGPD, Brazil's data protection law. The \"incidente de segurança\" has to be reported to the ANPD (the national data authority) and to the \"titulares\", the people whose data was exposed.",
           "Marina pushes for precision. \"Quantos?\", \"quais dados?\" and \"desde quando?\" are the questions every crisis committee asks first.",
         ],
         examples: [
-          { es: "Às três da manhã, identificamos um acesso não autorizado à base de clientes.", en: "At 3 a.m. we detected unauthorised access to the customer database." },
+          { es: "Às três da manhã, identificamos um acesso não autorizado à base de clientes.", en: "At 3 a.m. we detected unauthorized access to the customer database." },
           { es: "Foram expostos nomes, CPFs e e-mails de cerca de duzentos mil clientes.", en: "The names, tax ID numbers and emails of about two hundred thousand customers were exposed." },
           { es: "Até o momento, não há indícios de que senhas tenham sido acessadas.", en: "So far there's no evidence that passwords were accessed." },
           { es: "Pela LGPD, temos que comunicar o incidente à ANPD e aos titulares.", en: "Under the LGPD, we have to report the incident to the ANPD and to the people affected." },
@@ -1628,7 +1628,7 @@ export const PT_C2_U22: Lesson[] = [
         heading: "A redação da nota: whose words?",
         body: [
           "The argument is about grammar. Paulo, the lawyer, drafts: \"Houve um incidente de segurança envolvendo dados cadastrais.\" The sentence is legally precise, since \"incidente de segurança\" is the LGPD's own term, and it has no agent. Beatriz objects that it reads like hiding: \"Se a gente não assumir, a imprensa vai assumir por nós.\"",
-          "Marina decides on a hybrid that you'll recognise from the contrast clinic. The legal term stays for precision, and the first person comes in for responsibility: \"identificamos um incidente de segurança\" and \"assumimos a responsabilidade de proteger esses dados, e falhamos\". The verb \"assumir\" plays on both meanings, to take on responsibility and to admit.",
+          "Marina decides on a hybrid that you'll recognize from the contrast clinic. The legal term stays for precision, and the first person comes in for responsibility: \"identificamos um incidente de segurança\" and \"assumimos a responsabilidade de proteger esses dados, e falhamos\". The verb \"assumir\" plays on both meanings, to take on responsibility and to admit.",
           "Then come the practical commitments in the future: \"vamos notificar individualmente cada cliente\", \"vamos oferecer monitoramento gratuito do CPF por um ano\". As Beatriz puts it, \"Promessa vaga não acalma ninguém.\"",
         ],
         examples: [
@@ -1670,7 +1670,7 @@ export const PT_C2_U22: Lesson[] = [
       {
         heading: "Ensaio da coletiva: the hard questions",
         body: [
-          "Before the 11 a.m. press conference, Beatriz plays the journalist and fires the hardest questions at Marina. \"Por que vocês demoraram oito horas para avisar?\" calls for a reason, not a defence. \"Os clientes vão ser indenizados?\" calls for honesty about what isn't decided yet. \"A Arara foi hackeada?\" calls for the precise term without hiding.",
+          "Before the 11 a.m. press conference, Beatriz plays the journalist and fires the hardest questions at Marina. \"Por que vocês demoraram oito horas para avisar?\" calls for a reason, not a defense. \"Os clientes vão ser indenizados?\" calls for honesty about what isn't decided yet. \"A Arara foi hackeada?\" calls for the precise term without hiding.",
           "Marina's answers use the tools you know: \"entendo a pergunta, e ela é legítima\", \"nossa prioridade nas primeiras horas foi conter o acesso\", \"ainda é cedo para falar em valores, mas...\", \"o que posso afirmar é...\".",
           "Paulo's last warning is about tenses and certainty. Never say \"os dados estão seguros\" in the present unless that is proven; say \"tomamos medidas para impedir novos acessos\", in the past, about what you actually did.",
         ],
@@ -1678,7 +1678,7 @@ export const PT_C2_U22: Lesson[] = [
           { es: "Por que vocês demoraram oito horas para avisar os clientes?", en: "Why did you take eight hours to tell customers?" },
           { es: "Nossa prioridade nas primeiras horas foi conter o acesso.", en: "Our priority in the first hours was to contain the breach." },
           { es: "Ainda é cedo para falar em valores, mas nenhum cliente vai ficar desamparado.", en: "It's too early to talk about amounts, but no customer will be left without support." },
-          { es: "Houve um acesso não autorizado, e a responsabilidade é nossa.", en: "There was unauthorised access, and the responsibility is ours." },
+          { es: "Houve um acesso não autorizado, e a responsabilidade é nossa.", en: "There was unauthorized access, and the responsibility is ours." },
           { es: "Tomamos medidas para impedir novos acessos.", en: "We've taken steps to prevent further access." },
         ],
         checkpoint: [
@@ -1689,7 +1689,7 @@ export const PT_C2_U22: Lesson[] = [
             source: "Our priority in the first hours was to contain the breach.",
             answer: "Nossa prioridade nas primeiras horas foi conter o acesso.",
             altAnswers: ["A nossa prioridade nas primeiras horas foi conter o acesso.", "Nossa prioridade nas primeiras horas foi conter o vazamento.", "A nossa prioridade nas primeiras horas foi conter o vazamento.", "Nas primeiras horas, nossa prioridade foi conter o acesso.", "Nas primeiras horas, nossa prioridade foi conter o vazamento."],
-            explanation: "A reason, not a defence: the priority explains the delay without denying it.",
+            explanation: "A reason, not a defense: the priority explains the delay without denying it.",
           },
           {
             type: "word-order",
@@ -1701,7 +1701,7 @@ export const PT_C2_U22: Lesson[] = [
           {
             type: "speak",
             text: "Houve um acesso não autorizado, e a responsabilidade é nossa.",
-            prompt: "Say it in Portuguese: There was unauthorised access, and the responsibility is ours.",
+            prompt: "Say it in Portuguese: There was unauthorized access, and the responsibility is ours.",
             tip: "\"Autorizado\": the au is a diphthong, au-to-ri-ZA-du.",
             explanation: "The precise term first, then the first person: no hiding behind the agentless sentence.",
           },
@@ -1713,7 +1713,7 @@ export const PT_C2_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We detected unauthorised access to the customer database.",
+        source: "We detected unauthorized access to the customer database.",
         answer: "Identificamos um acesso não autorizado à base de clientes.",
         altAnswers: ["Detectamos um acesso não autorizado à base de clientes.", "Identificamos um acesso não autorizado à base de dados de clientes.", "Detectamos um acesso não autorizado à base de dados de clientes.", "Identificamos acesso não autorizado à base de clientes."],
         explanation: "\"Acesso a\" plus \"a base\" gives the crase: \"à base de clientes\".",
@@ -1805,7 +1805,7 @@ export const PT_C2_U22: Lesson[] = [
       {
         heading: "Corporate calques",
         body: [
-          "Brazilian offices are full of English calques that careful writers and editors reject. \"Endereçar um problema\" copies 'address a problem', but \"endereçar\" means to put an address on a letter. Write \"tratar\", \"enfrentar\" or \"resolver o problema\". \"O time não performou\" copies 'perform': say \"não teve um bom desempenho\", \"não rendeu\" or \"não atingiu as metas\". \"Fazer sentido dos dados\" copies 'make sense of'; the Portuguese is \"entender\" or \"interpretar os dados\". (\"Isso faz sentido\", for something that makes sense, is fine.)",
+          "Brazilian offices are full of English calques that careful writers and editors reject. \"Endereçar um problema\" copies 'address a problem', but \"endereçar\" mainly means to address a letter or direct something to someone, and many editors reject the problem-solving sense. Write \"tratar\", \"enfrentar\" or \"resolver o problema\". \"O time não performou\" copies 'perform': say \"não teve um bom desempenho\", \"não rendeu\" or \"não atingiu as metas\". \"Fazer sentido dos dados\" copies 'make sense of'; the Portuguese is \"entender\" or \"interpretar os dados\". (\"Isso faz sentido\", for something that makes sense, is fine.)",
           "Others to catch: \"aplicar para uma vaga\" should be \"candidatar-se a uma vaga\", and \"suportar a equipe\" should be \"apoiar\", because \"suportar\" means to put up with. \"Eventualmente\" means occasionally, not eventually: 'he was eventually promoted' is \"acabou sendo promovido\" or \"no fim, foi promovido\".",
           "\"Performar\" and \"endereçar\" are so widespread that they no longer sound strange in a São Paulo meeting room. In a statement, a report or a speech, though, they mark the writer as careless, and the press quotes them with irony.",
         ],
@@ -1893,13 +1893,13 @@ export const PT_C2_U22: Lesson[] = [
         body: [
           "The opposite failures sit in tone. A cold message is one like \"comunicamos o desligamento do colaborador de matrícula 4521\", which reduces a person to a number, or the brusque \"conforme alinhado, segue a decisão\". Name the person, and acknowledge the weight of the news.",
           "A vague message hides the news. \"Estamos passando por um momento de ajustes\" may mean layoffs, \"estamos revisitando nossas prioridades\" may mean a closure, and \"vou estar verificando\" means nothing at all.",
-          "A falsely empathetic message apologises for the wrong thing or puts it back on the other person. \"Lamentamos se alguém se sentiu ofendido\" should be \"pedimos desculpas pelo comentário ofensivo\". \"Pedimos desculpas pelo transtorno\" is wrong where people were really harmed. \"Entendemos a frustração de todos\", followed by nothing concrete, is wrong too.",
+          "A falsely empathetic message apologizes for the wrong thing or puts it back on the other person. \"Lamentamos se alguém se sentiu ofendido\" should be \"pedimos desculpas pelo comentário ofensivo\". \"Pedimos desculpas pelo transtorno\" is wrong where people were really harmed. \"Entendemos a frustração de todos\", followed by nothing concrete, is wrong too.",
         ],
         examples: [
           { es: "Comunicamos, com pesar, o desligamento do nosso colega Rodrigo Alves.", en: "We are sorry to announce that our colleague Rodrigo Alves is leaving the company." },
-          { es: "Vamos fechar a loja do centro em junho, e trinta pessoas serão afetadas.", en: "We're closing the city-centre store in June, and thirty people will be affected." },
+          { es: "Vamos fechar a loja do centro em junho, e trinta pessoas serão afetadas.", en: "We're closing the city-center store in June, and thirty people will be affected." },
           { es: "Vou verificar e respondo até amanhã.", en: "I'll check and get back to you by tomorrow." },
-          { es: "Pedimos desculpas pelo comentário ofensivo publicado ontem.", en: "We apologise for the offensive comment posted yesterday." },
+          { es: "Pedimos desculpas pelo comentário ofensivo publicado ontem.", en: "We apologize for the offensive comment posted yesterday." },
           { es: "Entendemos a frustração de todos e vamos reembolsar as taxas cobradas.", en: "We understand everyone's frustration, and we will refund the fees charged." },
         ],
         checkpoint: [
@@ -1907,10 +1907,10 @@ export const PT_C2_U22: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "A company posted \"Lamentamos se alguém se sentiu ofendido.\" Translate the real apology into Portuguese.",
-            source: "We apologise for the offensive comment.",
+            source: "We apologize for the offensive comment.",
             answer: "Pedimos desculpas pelo comentário ofensivo.",
             altAnswers: ["Pedimos desculpas pelo comentário ofensivo que publicamos.", "Nós pedimos desculpas pelo comentário ofensivo.", "Pedimos perdão pelo comentário ofensivo.", "Lamentamos o comentário ofensivo e pedimos desculpas."],
-            explanation: "Apologise for what you did, not for how others felt about it.",
+            explanation: "Apologize for what you did, not for how others felt about it.",
           },
           {
             type: "multiple-choice",
@@ -1993,7 +1993,7 @@ export const PT_C2_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "A memo says \"Estamos passando por um momento de ajustes.\" Translate the clear version into Portuguese.",
-        source: "We're closing the city-centre store in June.",
+        source: "We're closing the city-center store in June.",
         answer: "Vamos fechar a loja do centro em junho.",
         altAnswers: ["Vamos fechar a loja do Centro em junho.", "Fecharemos a loja do centro em junho.", "A loja do centro vai fechar em junho.", "Vamos encerrar as atividades da loja do centro em junho."],
         explanation: "Say what, where and when. Month names are lowercase in Portuguese.",
@@ -2002,7 +2002,7 @@ export const PT_C2_U22: Lesson[] = [
         type: "listen-choose",
         audio: "Entendemos a frustração de todos e vamos reembolsar as taxas cobradas.",
         question: "What makes this sentence credible?",
-        options: ["It pairs empathy with a concrete action: refunding the fees.", "It apologises for the inconvenience.", "It blames the customers.", "It avoids saying what will happen."],
+        options: ["It pairs empathy with a concrete action: refunding the fees.", "It apologizes for the inconvenience.", "It blames the customers.", "It avoids saying what will happen."],
         correctIndex: 0,
         explanation: "Empathy without action is false empathy. The refund makes \"entendemos a frustração\" believable.",
       },
@@ -2013,7 +2013,7 @@ export const PT_C2_U22: Lesson[] = [
         source: "We are responsible, and we will compensate those affected.",
         answer: "A responsabilidade é nossa, e vamos indenizar os afetados.",
         altAnswers: ["Somos responsáveis, e vamos indenizar os afetados.", "A responsabilidade é nossa, e vamos indenizar as pessoas afetadas.", "Somos responsáveis, e vamos indenizar as pessoas afetadas.", "A responsabilidade é nossa, e indenizaremos os afetados.", "Somos responsáveis e vamos indenizar os afetados."],
-        explanation: "\"Indenizar\" is to compensate; \"os afetados\" is a nominalised participle.",
+        explanation: "\"Indenizar\" is to compensate; \"os afetados\" is a nominalized participle.",
       },
       {
         type: "dictation",
@@ -2063,7 +2063,7 @@ export const PT_C2_U22: Lesson[] = [
             sentence: "A medida foi tomada ___.",
             answer: "por precaução",
             altAnswers: ["por medida de precaução", "preventivamente"],
-            explanation: "\"Por precaução\" is honest here because nobody was hurt. In a case with victims it would sound like minimising.",
+            explanation: "\"Por precaução\" is honest here because nobody was hurt. In a case with victims it would sound like minimizing.",
           },
           {
             type: "listen-choose",
@@ -2084,7 +2084,7 @@ export const PT_C2_U22: Lesson[] = [
         ],
         examples: [
           { es: "A falha ocorreu em um equipamento da nossa linha de produção, e a responsabilidade é nossa.", en: "The fault occurred in a piece of equipment on our production line, and the responsibility is ours." },
-          { es: "Pedimos desculpas aos nossos consumidores.", en: "We apologise to our customers." },
+          { es: "Pedimos desculpas aos nossos consumidores.", en: "We apologize to our customers." },
           { es: "A linha foi interrompida e todos os equipamentos estão passando por inspeção.", en: "The line has been stopped and all equipment is being inspected." },
           { es: "Vamos instalar detectores de plástico em todas as linhas.", en: "We will install plastic detectors on every line." },
           { es: "A empresa segue à disposição e voltará a se manifestar caso haja novas informações.", en: "The company remains available and will issue a further statement if there is new information." },
@@ -2120,12 +2120,12 @@ export const PT_C2_U22: Lesson[] = [
         body: [
           "The internal message has a different register: warmer, more direct, still precise. Open with \"Pessoal,\" or \"Prezadas e prezados,\". The inclusive pair is increasingly common in Brazilian companies. Tell staff the facts before they read them in the press: \"vocês vão ver a notícia hoje, e queria que soubessem por mim primeiro\".",
           "Give instructions with \"pedimos que\" plus the subjunctive: \"pedimos que ninguém comente o caso nas redes sociais\", \"encaminhem qualquer contato da imprensa para a comunicação\". The plural imperative \"encaminhem\" (the \"vocês\" form) is direct but polite.",
-          "Recognise the people doing the work, and don't let anyone off the hook: \"agradeço à equipe da fábrica, que trabalhou a madrugada inteira\". \"Agradecer a\" with a person gives the crase before \"a equipe\". End with availability: \"minha porta está aberta para qualquer dúvida\".",
+          "Recognize the people doing the work, and don't let anyone off the hook: \"agradeço à equipe da fábrica, que trabalhou a madrugada inteira\". \"Agradecer a\" with a person gives the crase before \"a equipe\". End with availability: \"minha porta está aberta para qualquer dúvida\".",
         ],
         examples: [
           { es: "Pessoal, vocês vão ver a notícia hoje, e eu queria que soubessem por mim primeiro.", en: "Everyone, you'll see the news today, and I wanted you to hear it from me first." },
           { es: "Pedimos que ninguém comente o caso nas redes sociais.", en: "We ask that nobody comment on the case on social media." },
-          { es: "Encaminhem qualquer contato da imprensa para a área de comunicação.", en: "Please forward any press enquiries to the communications team." },
+          { es: "Encaminhem qualquer contato da imprensa para a área de comunicação.", en: "Please forward any press inquiries to the communications team." },
           { es: "Agradeço à equipe da fábrica, que trabalhou a madrugada inteira.", en: "Thank you to the factory team, who worked through the night." },
           { es: "Minha porta está aberta para qualquer dúvida.", en: "My door is open for any questions." },
         ],
@@ -2152,7 +2152,7 @@ export const PT_C2_U22: Lesson[] = [
             text: "Agradeço à equipe da fábrica, que trabalhou a madrugada inteira.",
             prompt: "Say it in Portuguese: Thank you to the factory team, who worked through the night.",
             tip: "\"Madrugada\" is the small hours: ma-dru-GA-da, with a tapped r after the d.",
-            explanation: "\"Agradecer a\" plus \"a equipe\" gives \"à equipe\". Recognising the people doing the work matters in an internal message.",
+            explanation: "\"Agradecer a\" plus \"a equipe\" gives \"à equipe\". Recognizing the people doing the work matters in an internal message.",
           },
         ],
       },
@@ -2165,7 +2165,7 @@ export const PT_C2_U22: Lesson[] = [
         source: "The company is voluntarily recalling batch 2307.",
         answer: "A empresa está realizando o recolhimento voluntário do lote 2307.",
         altAnswers: ["A empresa está fazendo o recolhimento voluntário do lote 2307.", "A empresa está realizando o recall voluntário do lote 2307.", "A empresa está fazendo o recall voluntário do lote 2307.", "A empresa está recolhendo voluntariamente o lote 2307.", "A empresa realiza o recolhimento voluntário do lote 2307."],
-        explanation: "\"Recolhimento voluntário\" or \"recall\": the nominalised phrase fits the statement register.",
+        explanation: "\"Recolhimento voluntário\" or \"recall\": the nominalized phrase fits the statement register.",
       },
       {
         type: "translate",
@@ -2198,7 +2198,7 @@ export const PT_C2_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Please forward any press enquiries to the communications team.",
+        source: "Please forward any press inquiries to the communications team.",
         answer: "Encaminhem qualquer contato da imprensa para a área de comunicação.",
         altAnswers: ["Encaminhem qualquer contato da imprensa para a comunicação.", "Por favor, encaminhem qualquer contato da imprensa para a área de comunicação.", "Encaminhem qualquer contato da imprensa à área de comunicação.", "Por favor, encaminhem qualquer contato da imprensa para a comunicação.", "Encaminhem para a área de comunicação qualquer contato da imprensa."],
         explanation: "The \"vocês\" imperative \"encaminhem\" is direct and polite in an internal message.",
@@ -2212,9 +2212,9 @@ export const PT_C2_U22: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: We apologise to our customers.",
+        prompt: "Put the words in order to say: We apologize to our customers.",
         words: ["Pedimos", "desculpas", "aos", "nossos", "consumidores."],
-        translation: "We apologise to our customers.",
+        translation: "We apologize to our customers.",
         explanation: "\"Pedir desculpas a\" plus \"os consumidores\" gives \"aos\".",
       },
       {
@@ -2258,7 +2258,7 @@ export const PT_C2_U22: Lesson[] = [
         ],
         examples: [
           { es: "Notei que a apresentação de ontem não tinha os dados do último trimestre.", en: "I noticed yesterday's presentation didn't have last quarter's figures." },
-          { es: "Entendo sua frustração, e ao mesmo tempo precisamos cumprir o contrato.", en: "I understand your frustration, and at the same time we have to honour the contract." },
+          { es: "Entendo sua frustração, e ao mesmo tempo precisamos cumprir o contrato.", en: "I understand your frustration, and at the same time we have to honor the contract." },
           { es: "O Lucas disse que não tinha recebido o briefing.", en: "Lucas said he hadn't received the brief." },
           { es: "Pelo que entendi, vocês dois querem a mesma coisa por caminhos diferentes.", en: "From what I understand, you both want the same thing by different routes." },
         ],

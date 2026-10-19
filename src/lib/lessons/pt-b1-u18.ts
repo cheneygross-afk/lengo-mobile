@@ -124,10 +124,10 @@ export const PT_B1_U18: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "I'm looking for a flat that [has] a balcony.",
+            en: "I'm looking for an apartment that [has] a balcony.",
             sentence: "Procuro um apartamento que ___ varanda.",
             answer: "tenha",
-            explanation: "You don't know yet if such a flat exists, so the subjunctive \"tenha\" (from \"tenho\"). For your own flat you'd say \"que tem varanda\".",
+            explanation: "You don't know yet if such an apartment exists, so the subjunctive \"tenha\" (from \"tenho\"). For your own apartment you'd say \"que tem varanda\".",
           },
           {
             type: "multiple-choice",
@@ -276,7 +276,7 @@ export const PT_B1_U18: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You're at a friend's flat and the room is cold. How do you politely ask her to close the window?",
+            question: "You're at a friend's apartment and the room is cold. How do you politely ask her to close the window?",
             options: ["Você poderia fechar a janela?", "Você poderá fechar a janela?", "Você pôde fechar a janela?", "Você poderia de fechar a janela?"],
             correctIndex: 0,
             explanation: "\"Poderia\" + infinitive is the polite request. \"Poderá\" is the written future, \"pôde\" means were you able to, and \"poderia\" never takes \"de\".",
@@ -335,13 +335,13 @@ export const PT_B1_U18: Lesson[] = [
         heading: "Before the past: tinha feito",
         body: [
           "\"Tinha\" plus a participle puts one past event before another: \"quando cheguei, o filme já tinha começado\". Formal writing and the news use \"havia\" instead: \"havia começado\".",
-          "Ask which event came first. Two events in sequence both take the perfeito (\"cheguei e ele saiu\"); one already finished takes \"tinha\". English often drops had, as in I realised I forgot my passport; Portuguese keeps it: \"percebi que tinha esquecido o passaporte\".",
+          "Ask which event came first. Two events in sequence both take the perfeito (\"cheguei e ele saiu\"); one already finished takes \"tinha\". English often drops had, as in I realized I forgot my passport; Portuguese keeps it: \"percebi que tinha esquecido o passaporte\".",
           "Real stories mix all three: the conditional reports a plan, the perfeito moves the action on and \"tinha\" looks further back: \"ela disse que viria, mas quando liguei, já tinha saído\".",
         ],
         examples: [
           { es: "Quando chegamos à estação, o trem já tinha partido.", en: "When we got to the station, the train had already left." },
           { es: "Eu nunca tinha visto o mar antes daquela viagem.", en: "I had never seen the sea before that trip." },
-          { es: "Percebi que tinha esquecido o passaporte em casa.", en: "I realised I'd forgotten my passport at home." },
+          { es: "Percebi que tinha esquecido o passaporte em casa.", en: "I realized I'd forgotten my passport at home." },
           { es: "A empresa havia anunciado as mudanças em março.", en: "The company had announced the changes in March." },
           { es: "Ela disse que viria, mas quando liguei, já tinha saído.", en: "She said she'd come, but when I called, she'd already left." },
         ],
@@ -350,10 +350,10 @@ export const PT_B1_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I realised I'd forgotten my passport.",
+            source: "I realized I'd forgotten my passport.",
             answer: "Percebi que tinha esquecido o passaporte.",
             altAnswers: ["Eu percebi que tinha esquecido o passaporte.", "Percebi que eu tinha esquecido o passaporte.", "Eu percebi que eu tinha esquecido o passaporte.", "Percebi que tinha esquecido meu passaporte.", "Eu percebi que tinha esquecido meu passaporte.", "Percebi que havia esquecido o passaporte.", "Eu percebi que havia esquecido o passaporte."],
-            explanation: "Forgetting came before realising, so it takes \"tinha esquecido\". \"Percebi que esqueci\" is heard in speech, but the mais-que-perfeito is the clear, correct choice.",
+            explanation: "Forgetting came before realizing, so it takes \"tinha esquecido\". \"Percebi que esqueci\" is heard in speech, but the mais-que-perfeito is the clear, correct choice.",
           },
           {
             type: "word-order",
@@ -539,7 +539,7 @@ export const PT_B1_U18: Lesson[] = [
           { es: "Essa é a colega com quem eu divido o apartamento.", en: "That's the colleague I share the apartment with." },
           { es: "A empresa para a qual ela trabalha fica em Campinas.", en: "The company she works for is in Campinas." },
           { es: "Conheci um escritor cujos livros são lidos nas escolas.", en: "I met a writer whose books are read in schools." },
-          { es: "O bairro onde eu cresci mudou muito.", en: "The neighbourhood where I grew up has changed a lot." },
+          { es: "O bairro onde eu cresci mudou muito.", en: "The neighborhood where I grew up has changed a lot." },
           { es: "O ônibus atrasou de novo, o que me deixou irritado.", en: "The bus was late again, which annoyed me." },
         ],
         checkpoint: [
@@ -620,7 +620,7 @@ export const PT_B1_U18: Lesson[] = [
           { es: "A ponte nova foi inaugurada em 2019.", en: "The new bridge was opened in 2019." },
           { es: "Os ingressos foram vendidos em duas horas.", en: "The tickets were sold in two hours." },
           { es: "O ladrão foi preso pela polícia.", en: "The thief was arrested by the police." },
-          { es: "A loja está fechada desde segunda.", en: "The shop has been closed since Monday." },
+          { es: "A loja está fechada desde segunda.", en: "The store has been closed since Monday." },
           { es: "Vendem-se bicicletas usadas.", en: "Used bikes for sale." },
         ],
         checkpoint: [
@@ -645,7 +645,7 @@ export const PT_B1_U18: Lesson[] = [
             type: "speak",
             text: "A loja está fechada desde segunda.",
             tip: "The ch in fechada sounds like English sh, and the final e in desde sounds like i: DEZ-djee.",
-            explanation: "\"Está fechada\" describes the state the shop is in, not the act of closing it.",
+            explanation: "\"Está fechada\" describes the state the store is in, not the act of closing it.",
           },
         ],
       },
@@ -789,10 +789,10 @@ export const PT_B1_U18: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You haven't found a flat yet. A learner wrote \"Procuro um apartamento que tem varanda.\" Which sentence fixes it?",
+            question: "You haven't found an apartment yet. A learner wrote \"Procuro um apartamento que tem varanda.\" Which sentence fixes it?",
             options: ["Procuro um apartamento que tenha varanda.", "Procuro um apartamento que terá varanda.", "Procuro um apartamento que tinha varanda.", "Procuro um apartamento que tendo varanda."],
             correctIndex: 0,
-            explanation: "The flat may not exist yet, so the description takes the subjunctive: \"que tenha\". \"Que tem\" is right only for a flat you already know.",
+            explanation: "The apartment may not exist yet, so the description takes the subjunctive: \"que tenha\". \"Que tem\" is right only for an apartment you already know.",
           },
           {
             type: "fill-blank",
@@ -816,7 +816,7 @@ export const PT_B1_U18: Lesson[] = [
           { es: "Ele disse que traria o vinho.", en: "He said he'd bring the wine." },
           { es: "Já visitei Paris uma vez.", en: "I've visited Paris once." },
           { es: "A gente tem se falado pouco.", en: "We haven't been talking much lately." },
-          { es: "Quando cheguei, o filme já tinha começado.", en: "When I arrived, the film had already started." },
+          { es: "Quando cheguei, o filme já tinha começado.", en: "When I arrived, the movie had already started." },
           { es: "Vou explicar de novo para vocês entenderem.", en: "I'll explain again so you all understand." },
         ],
         checkpoint: [
@@ -875,7 +875,7 @@ export const PT_B1_U18: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "This is the colleague [with whom] I travelled.",
+            en: "This is the colleague [with whom] I traveled.",
             sentence: "Este é o colega ___ eu viajei.",
             answer: "com quem",
             altAnswers: ["com o qual"],
@@ -1027,11 +1027,11 @@ export const PT_B1_U18: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "When we arrived, the film [had already started].",
+            en: "When we arrived, the movie [had already started].",
             sentence: "Quando chegamos, o filme ___.",
             answer: "já tinha começado",
             altAnswers: ["já havia começado"],
-            explanation: "The film started before we arrived, so it takes the mais-que-perfeito: \"já tinha começado\". \"Já começou\" would put both events at the same point.",
+            explanation: "The movie started before we arrived, so it takes the mais-que-perfeito: \"já tinha começado\". \"Já começou\" would put both events at the same point.",
           },
           {
             type: "translate",
@@ -1156,7 +1156,7 @@ export const PT_B1_U18: Lesson[] = [
           {
             type: "speak",
             text: "Eu a conheci na faculdade.",
-            prompt: "Say it in Portuguese, in a formal register: I met her at university.",
+            prompt: "Say it in Portuguese, in a formal register: I met her in college.",
             tip: "The unstressed \"a\" joins the verb: eu a-co-nhe-CI, with nh like the ny in canyon.",
             explanation: "In formal speech and writing, the object pronoun \"a\" comes before the verb. Casual speech would say \"eu conheci ela\".",
           },
@@ -1263,7 +1263,7 @@ export const PT_B1_U18: Lesson[] = [
     level: "PT-B1",
     number: 6,
     title: "Celpe-Bras Practice: The Email Task",
-    summary: "Practise the Celpe-Bras email task: read the brief and the source text, then write to the right reader with a clear purpose, using the facts without copying them.",
+    summary: "Practice the Celpe-Bras email task: read the brief and the source text, then write to the right reader with a clear purpose, using the facts without copying them.",
     duration: "15 min",
     sections: [
       {
@@ -1283,7 +1283,7 @@ export const PT_B1_U18: Lesson[] = [
           {
             type: "multiple-choice",
             question: "The task says: \"Você é um intercambista no Recife. Escreva um e-mail para a coordenadora do programa de voluntariado.\" Who is the reader of your email?",
-            options: ["The coordinator of the volunteer programme", "A friend in Recife", "The Celpe-Bras examiner, writing as yourself", "Other exchange students"],
+            options: ["The coordinator of the volunteer program", "A friend in Recife", "The Celpe-Bras examiner, writing as yourself", "Other exchange students"],
             correctIndex: 0,
             explanation: "\"Escreva um e-mail para a coordenadora\" names the reader. The examiner marks the text, but you write it to the coordinator, in the role of \"intercambista\".",
           },
@@ -1315,7 +1315,7 @@ export const PT_B1_U18: Lesson[] = [
         examples: [
           { es: "Prezada Sra. Beatriz Lima,", en: "Dear Ms Lima," },
           { es: "Meu nome é Daniel Walker e sou estudante de intercâmbio na UFPE.", en: "My name is Daniel Walker and I'm an exchange student at UFPE." },
-          { es: "Escrevo para me candidatar ao programa de voluntariado do Paço do Frevo.", en: "I'm writing to apply for the Paço do Frevo's volunteer programme." },
+          { es: "Escrevo para me candidatar ao programa de voluntariado do Paço do Frevo.", en: "I'm writing to apply for the Paço do Frevo's volunteer program." },
           { es: "Li no site do museu que vocês ainda estão aceitando inscrições.", en: "I read on the museum's website that you're still accepting applications." },
           { es: "Gostaria de saber se ainda há vagas.", en: "I'd like to know if there are still places." },
         ],
@@ -1324,7 +1324,7 @@ export const PT_B1_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I'm writing to apply for the volunteer programme.",
+            source: "I'm writing to apply for the volunteer program.",
             answer: "Escrevo para me candidatar ao programa de voluntariado.",
             altAnswers: ["Estou escrevendo para me candidatar ao programa de voluntariado.", "Eu escrevo para me candidatar ao programa de voluntariado.", "Escrevo para me inscrever no programa de voluntariado.", "Estou escrevendo para me inscrever no programa de voluntariado."],
             explanation: "\"Escrevo para\" + infinitive states the purpose at once. \"Candidatar-se a\" takes \"a\", so \"ao programa\". In speech the pronoun goes before the verb: \"me candidatar\".",
@@ -1397,7 +1397,7 @@ export const PT_B1_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You're emailing a programme coordinator you've never met. Which sign-off fits?",
+        question: "You're emailing a program coordinator you've never met. Which sign-off fits?",
         options: ["Atenciosamente, Daniel Walker", "Beijos, Daniel", "Valeu, Daniel!", "Até mais, Daniel"],
         correctIndex: 0,
         explanation: "\"Atenciosamente\" plus your full name is the standard formal close. \"Beijos\" and \"Valeu\" belong in messages to friends, and the wrong register costs marks.",
@@ -1478,7 +1478,7 @@ export const PT_B1_U18: Lesson[] = [
     level: "PT-B1",
     number: 7,
     title: "Celpe-Bras Practice: The Article Task",
-    summary: "Practise the Celpe-Bras listening-to-writing task: take notes from a radio report on food waste and turn them into a short article for your neighbourhood paper.",
+    summary: "Practice the Celpe-Bras listening-to-writing task: take notes from a radio report on food waste and turn them into a short article for your neighborhood paper.",
     duration: "15 min",
     sections: [
       {
@@ -1488,7 +1488,7 @@ export const PT_B1_U18: Lesson[] = [
           "Don't try to write whole sentences. Catch three things: the numbers (\"cerca de\", \"a maioria\", \"metade\"), who is speaking (\"a pesquisadora\", \"um médico\") and the main claim or advice. Listen for the subjunctive after \"recomenda que\" or \"é importante que\": that's usually the advice your readers need.",
         ],
         examples: [
-          { es: "Segundo a pesquisadora, cerca de 30% dos alimentos vão para o lixo.", en: "According to the researcher, about 30% of food ends up in the bin." },
+          { es: "Segundo a pesquisadora, cerca de 30% dos alimentos vão para o lixo.", en: "According to the researcher, about 30% of food ends up in the trash." },
           { es: "A maioria das famílias compra mais do que precisa.", en: "Most families buy more than they need." },
           { es: "O desperdício aumentou muito nos últimos anos.", en: "Waste has gone up a lot in recent years." },
           { es: "A especialista recomenda que as pessoas planejem as compras.", en: "The expert recommends that people plan their shopping." },
@@ -1500,9 +1500,9 @@ export const PT_B1_U18: Lesson[] = [
             audio: "Segundo a pesquisadora, cerca de trinta por cento dos alimentos vão para o lixo.",
             question: "What does it mean?",
             options: [
-              "According to the researcher, about 30% of food ends up in the bin.",
-              "According to the researcher, more than 30% of food ends up in the bin.",
-              "According to the researcher, about 13% of food ends up in the bin.",
+              "According to the researcher, about 30% of food ends up in the trash.",
+              "According to the researcher, more than 30% of food ends up in the trash.",
+              "According to the researcher, about 13% of food ends up in the trash.",
               "The researcher wants 30% of food to be recycled.",
             ],
             correctIndex: 0,
@@ -1541,7 +1541,7 @@ export const PT_B1_U18: Lesson[] = [
         ],
         examples: [
           { es: "Desperdício de comida: um problema de todos", en: "Food waste: everyone's problem" },
-          { es: "Você sabia que um terço da comida comprada vai para o lixo?", en: "Did you know that a third of the food we buy ends up in the bin?" },
+          { es: "Você sabia que um terço da comida comprada vai para o lixo?", en: "Did you know that a third of the food we buy ends up in the trash?" },
           { es: "Neste artigo, vou mostrar como a gente pode mudar isso.", en: "In this article, I'll show how we can change this." },
           { es: "Pequenas mudanças podem fazer uma grande diferença.", en: "Small changes can make a big difference." },
           { es: "É importante que cada família repense seus hábitos.", en: "It's important that every family rethinks its habits." },
@@ -1549,7 +1549,7 @@ export const PT_B1_U18: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "You're writing an article about food waste for your neighbourhood paper. Which opening sentence fits?",
+            question: "You're writing an article about food waste for your neighborhood paper. Which opening sentence fits?",
             options: [
               "Prezados senhores, venho por meio desta informar sobre o desperdício.",
               "Oi, gente! Cês sabiam que tem muita comida no lixo?",
@@ -1557,7 +1557,7 @@ export const PT_B1_U18: Lesson[] = [
               "O áudio fala que muita comida vai para o lixo.",
             ],
             correctIndex: 2,
-            explanation: "A question with a striking fact draws readers into an article. The first option is a formal letter, the second is a chat message, and the last summarises the exam audio instead of writing for the paper's readers.",
+            explanation: "A question with a striking fact draws readers into an article. The first option is a formal letter, the second is a chat message, and the last summarizes the exam audio instead of writing for the paper's readers.",
           },
           {
             type: "translate",
@@ -1682,7 +1682,7 @@ export const PT_B1_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the best title for your article in the neighbourhood paper?",
+        question: "Which is the best title for your article in the neighborhood paper?",
         options: [
           "Desperdício de comida: um problema de todos",
           "Prezados moradores do bairro",
@@ -1712,9 +1712,9 @@ export const PT_B1_U18: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I hope our neighbourhood wastes less.",
+        prompt: "Put the words in order to say: I hope our neighborhood wastes less.",
         words: ["Espero", "que", "o", "nosso", "bairro", "desperdice", "menos."],
-        translation: "I hope our neighbourhood wastes less.",
+        translation: "I hope our neighborhood wastes less.",
         explanation: "\"Espero que\" + subjunctive. \"Desperdiçar\" becomes \"desperdice\": ç turns into c before e.",
       },
       {
@@ -1749,7 +1749,7 @@ export const PT_B1_U18: Lesson[] = [
       {
         type: "speak",
         text: "Segundo a reportagem, um terço da comida vai para o lixo.",
-        prompt: "Say it in Portuguese: According to the radio report, a third of the food ends up in the bin.",
+        prompt: "Say it in Portuguese: According to the radio report, a third of the food ends up in the trash.",
         explanation: "\"Segundo a reportagem\" credits the source. \"Um terço da comida\" is a fraction with \"de\" + \"a\".",
       },
       {
@@ -1912,7 +1912,7 @@ export const PT_B1_U18: Lesson[] = [
           { es: "Você não acha que andar de bicicleta em São Paulo é perigoso?", en: "(Examiner) Don't you think cycling in São Paulo is dangerous?" },
           { es: "Depende: por um lado, é perigoso; por outro, as ciclovias estão aumentando.", en: "It depends: on the one hand it's dangerous; on the other, the bike lanes are growing." },
           { es: "Concordo em parte, mas não acho que a bicicleta seja a solução para todo mundo.", en: "I partly agree, but I don't think bikes are the solution for everyone." },
-          { es: "Na minha opinião, a prefeitura deveria investir mais em ônibus e metrô.", en: "In my opinion, the city council should invest more in buses and the metro." },
+          { es: "Na minha opinião, a prefeitura deveria investir mais em ônibus e metrô.", en: "In my opinion, the city council should invest more in buses and the subway." },
           { es: "Enfim, seria bom as pessoas terem mais opções.", en: "In short, it would be good for people to have more options." },
         ],
         checkpoint: [
@@ -2002,7 +2002,7 @@ export const PT_B1_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "It would be good for cities to invest in public transport.",
+        source: "It would be good for cities to invest in public transportation.",
         answer: "Seria bom as cidades investirem em transporte público.",
         altAnswers: ["Seria bom as cidades investirem no transporte público.", "Seria bom que as cidades investissem em transporte público."],
         explanation: "After an impersonal expression with its own subject, the personal infinitive does the job: \"as cidades investirem\".",
@@ -2074,7 +2074,7 @@ export const PT_B1_U18: Lesson[] = [
           { es: "Na primeira semana, aluguei um quarto em Boa Viagem.", en: "In the first week, I rented a room in Boa Viagem." },
           { es: "No começo, eu não entendia quase nada do que as pessoas diziam.", en: "At first, I understood almost nothing people said." },
           { es: "Eu nunca tinha nadado num mar tão quente.", en: "I had never swum in such a warm sea." },
-          { es: "Quando cheguei ao apartamento, a dona já tinha deixado a chave com o porteiro.", en: "When I got to the flat, the owner had already left the key with the doorman." },
+          { es: "Quando cheguei ao apartamento, a dona já tinha deixado a chave com o porteiro.", en: "When I got to the apartment, the owner had already left the key with the doorman." },
         ],
         checkpoint: [
           {
@@ -2145,7 +2145,7 @@ export const PT_B1_U18: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "My neighbours and I [have been meeting] at the corner bar.",
+            en: "My neighbors and I [have been meeting] at the corner bar.",
             sentence: "Meus vizinhos e eu ___ no bar da esquina.",
             answer: "temos nos encontrado",
             explanation: "\"Meus vizinhos e eu\" is a nós subject, so the verb is \"temos\". The reflexive \"nos\" sits between \"temos\" and the participle \"encontrado\".",
@@ -2161,7 +2161,7 @@ export const PT_B1_U18: Lesson[] = [
         examples: [
           { es: "Hoje eu faria tudo com mais calma.", en: "Today I'd do everything more calmly." },
           { es: "Eu traria menos casaco e mais protetor solar.", en: "I'd bring fewer coats and more sunscreen." },
-          { es: "Eu, no seu lugar, alugaria um quarto perto do metrô.", en: "If I were you, I'd rent a room near the metro." },
+          { es: "Eu, no seu lugar, alugaria um quarto perto do metrô.", en: "If I were you, I'd rent a room near the subway." },
           { es: "Seria bom aprender umas expressões locais antes de vir.", en: "It would be good to learn a few local expressions before coming." },
         ],
         checkpoint: [
@@ -2228,7 +2228,7 @@ export const PT_B1_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "When I arrived, the shop had already closed.",
+        source: "When I arrived, the store had already closed.",
         answer: "Quando eu cheguei, a loja já tinha fechado.",
         altAnswers: [
           "Quando cheguei, a loja já tinha fechado.",
@@ -2237,7 +2237,7 @@ export const PT_B1_U18: Lesson[] = [
           "Quando eu cheguei, a loja já estava fechada.",
           "Quando cheguei, a loja já estava fechada.",
         ],
-        explanation: "The shop closed before you arrived, so the earlier event takes \"tinha fechado\". Saying \"fechou\" would mean it closed when you got there.",
+        explanation: "The store closed before you arrived, so the earlier event takes \"tinha fechado\". Saying \"fechou\" would mean it closed when you got there.",
       },
       {
         type: "fill-blank",
@@ -2333,7 +2333,7 @@ export const PT_B1_U18: Lesson[] = [
       {
         type: "speak",
         text: "Eu alugaria um quarto mais perto do centro.",
-        prompt: "Say it in Portuguese: I would rent a room closer to the centre.",
+        prompt: "Say it in Portuguese: I would rent a room closer to the center.",
         tip: "Stress the conditional ending: a-lu-ga-RI-a.",
         explanation: "\"Alugaria\" is the infinitive \"alugar\" + -ia. Closer to is \"mais perto de\", and de + o gives \"do centro\".",
       },
@@ -2371,9 +2371,9 @@ export const PT_B1_U18: Lesson[] = [
           "Next, look at the main clause. Belief and certainty take the indicative (\"tenho certeza que ele vem\"). Wishes, hopes, emotions and doubt take the subjunctive, and so do \"para que\", \"embora\", \"caso\" and \"antes que\". So does a description of something you haven't found yet: \"procuro alguém que fale alemão\".",
         ],
         examples: [
-          { es: "Minha mãe quer que eu volte para o Brasil.", en: "My mum wants me to go back to Brazil." },
+          { es: "Minha mãe quer que eu volte para o Brasil.", en: "My mom wants me to go back to Brazil." },
           { es: "Duvido que o ônibus chegue no horário.", en: "I doubt the bus will be on time." },
-          { es: "Embora o aluguel seja caro, o bairro é ótimo.", en: "Although the rent is expensive, the neighbourhood is great." },
+          { es: "Embora o aluguel seja caro, o bairro é ótimo.", en: "Although the rent is expensive, the neighborhood is great." },
           { es: "Estamos procurando uma babá que more perto.", en: "We're looking for a babysitter who lives nearby." },
           { es: "É melhor vocês saírem antes das seis.", en: "You'd all better leave before six." },
         ],
@@ -2435,7 +2435,7 @@ export const PT_B1_U18: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "When I woke up, my flatmate [had already left].",
+            en: "When I woke up, my roommate [had already left].",
             sentence: "Quando eu acordei, meu colega de apartamento ___.",
             answer: "já tinha saído",
             altAnswers: ["já havia saído"],
@@ -2476,9 +2476,9 @@ export const PT_B1_U18: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: The neighbour whose daughter studies with me is a doctor.",
+            prompt: "Put the words in order to say: The neighbor whose daughter studies with me is a doctor.",
             words: ["A", "vizinha", "cuja", "filha", "estuda", "comigo", "é", "médica."],
-            translation: "The neighbour whose daughter studies with me is a doctor.",
+            translation: "The neighbor whose daughter studies with me is a doctor.",
             explanation: "\"Cuja\" agrees with \"filha\", the thing owned, and takes no article after it. Jobs take no article either: \"é médica\".",
           },
           {

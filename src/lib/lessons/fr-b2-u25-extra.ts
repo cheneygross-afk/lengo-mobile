@@ -10,7 +10,7 @@ export const FR_B2_U25_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Technology Vocabulary",
-    summary: "Drill the verb-noun collocations of everyday tech French: télécharger une appli, se connecter à, mettre à jour, recharger, joindre un fichier.",
+    summary: "Drill the verb-noun collocations of everyday tech French: \"télécharger une appli\", \"se connecter à\", \"mettre à jour\", \"recharger\", \"joindre un fichier\".",
     duration: "12 min",
     sections: [
       {
@@ -99,7 +99,7 @@ export const FR_B2_U25_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "She subscribed to my channel.",
         answer: "Elle s'est abonnée à ma chaîne.",
-        explanation: "\"S'abonner à\" takes être in the passé composé; \"abonnée\" agrees with \"elle\".",
+        explanation: "\"S'abonner à\" takes \"être\" in the passé composé; \"abonnée\" agrees with \"elle\".",
       },
       {
         type: "translate",
@@ -108,7 +108,7 @@ export const FR_B2_U25_EXTRA: Lesson[] = [
         source: "Restart your computer.",
         answer: "Redémarre ton ordinateur.",
         altAnswers: ["Redémarrez votre ordinateur.", "Redémarre ton ordi.", "Redémarrez votre ordi."],
-        explanation: "\"Redémarrer\" (to restart, reboot); imperative tu form has no -s.",
+        explanation: "\"Redémarrer\" (to restart, reboot); the \"tu\" imperative has no -s.",
       },
       {
         type: "matching",
@@ -181,7 +181,7 @@ export const FR_B2_U25_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Psychology False Friends",
-    summary: "Use sensible, susceptible, déçu, caractère and éventuellement correctly, and find the French for their English look-alikes.",
+    summary: "Use \"sensible\", \"susceptible\", \"déçu\", \"caractère\" and \"éventuellement\" correctly, and find the French for their English look-alikes.",
     duration: "12 min",
     sections: [
       {
@@ -397,7 +397,7 @@ export const FR_B2_U25_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "The article explained that rents had risen.",
         answer: "L'article expliquait que les loyers avaient augmenté.",
-        altAnswers: ["L'article a expliqué que les loyers avaient augmenté.", "L'article expliquait que les loyers avaient augmenté de prix."],
+        altAnswers: ["L'article a expliqué que les loyers avaient augmenté."],
         explanation: "\"Ont augmenté\" → \"avaient augmenté\".",
       },
       {

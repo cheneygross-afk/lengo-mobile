@@ -8,7 +8,7 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
     level: "PT-A1",
     number: 1,
     title: "Extra Practice: Beginner Challenge, Part 1 of 3",
-    summary: "Practise ser, estar and ter, agreement and possessives together in mixed sentences.",
+    summary: "Practice ser, estar and ter, agreement and possessives together in mixed sentences.",
     duration: "12 min",
     optional: true,
     sections: [
@@ -141,7 +141,7 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "He [is wearing] a grey cap.",
+        en: "He [is wearing] a gray cap.",
         sentence: "Ele ___ boné cinza.",
         answer: "está de",
         explanation: "\"Estar de\" + clothes; \"cinza\" doesn't change.",
@@ -199,7 +199,7 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
     level: "PT-A1",
     number: 2,
     title: "Extra Practice: Beginner Challenge, Part 2 of 3",
-    summary: "Practise every present-tense verb of the level in mixed persons, positive, negative and in questions.",
+    summary: "Practice every present-tense verb of the level in mixed persons, positive, negative and in questions.",
     duration: "12 min",
     optional: true,
     sections: [
@@ -302,7 +302,7 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "Can you open the window? (to a friend)",
         answer: "Você pode abrir a janela?",
-        explanation: "\"Poder\" + infinitive for a favour.",
+        explanation: "\"Poder\" + infinitive for a favor.",
       },
       {
         type: "translate",
@@ -348,9 +348,9 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I don't do homework at the weekend.",
+        prompt: "Put the words in order to say: I don't do homework on the weekend.",
         words: ["Eu", "não", "faço", "lição", "no", "fim", "de", "semana."],
-        translation: "I don't do homework at the weekend.",
+        translation: "I don't do homework on the weekend.",
         altOrders: [["No", "fim", "de", "semana", "eu", "não", "faço", "lição."]],
         explanation: "\"Não\" + \"faço\".",
       },
@@ -387,7 +387,7 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
     level: "PT-A1",
     number: 3,
     title: "Extra Practice: Beginner Challenge, Part 3 of 3",
-    summary: "Practise numbers, times, dates and prices heard, said and written.",
+    summary: "Practice numbers, times, dates and prices heard, said and written.",
     duration: "12 min",
     optional: true,
     sections: [
@@ -395,7 +395,7 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
         heading: "Numbers in use",
         body: [
           "\"E\" joins every part of a number: \"cento e trinta e cinco\". \"Um\" / \"uma\", \"dois\" / \"duas\" and the hundreds agree with feminine nouns (\"duzentas pessoas\"). Prices: R$ 45,90 is \"quarenta e cinco e noventa\"; on the phone six is \"meia\".",
-          "Times: \"é uma hora\", \"são duas\", \"às oito\", \"à uma\", \"ao meio-dia\", \"quinze para as três\", and the 24-hour clock in timetables. Dates: \"dia 15 de novembro\"; days with \"no\" / \"na\", months with \"em\".",
+          "Times: \"é uma hora\", \"são duas\", \"às oito\", \"à uma\", \"ao meio-dia\", \"quinze para as três\", and the 24-hour clock in schedules. Dates: \"dia 15 de novembro\"; days with \"no\" / \"na\", months with \"em\".",
         ],
         examples: [
           { es: "O quarto custa cento e oitenta reais por noite.", en: "The room costs a hundred and eighty reais a night." },
@@ -473,7 +473,7 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The shop is closed on Mondays.",
+        source: "The store is closed on Mondays.",
         answer: "A loja fecha nas segundas.",
         altAnswers: ["A loja não abre nas segundas.", "A loja fecha às segundas.", "A loja está fechada nas segundas."],
         explanation: "Habit: \"nas segundas\".",
@@ -570,14 +570,14 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
     level: "PT-A1",
     number: 4,
     title: "Extra Practice: Dialogue Marathon",
-    summary: "Four short conversations in a row: an older neighbour, the padaria, the rodoviária and a phone call with a friend, choosing você or o senhor / a senhora each time.",
+    summary: "Four short conversations in a row: an older neighbor, the padaria, the rodoviária and a phone call with a friend, choosing você or o senhor / a senhora each time.",
     duration: "14 min",
     optional: true,
     sections: [
       {
-        heading: "Conversations 1 and 2: the neighbour and the padaria",
+        heading: "Conversations 1 and 2: the neighbor and the padaria",
         body: [
-          "First, seu Antônio, your neighbour, about seventy: \"o senhor\" with the ele form (\"o senhor está bem?\"). Then the padaria, where the attendant is young: \"você\" is fine, but \"o senhor\" / \"a senhora\" is what staff use with customers.",
+          "First, seu Antônio, your neighbor, about seventy: \"o senhor\" with the ele form (\"o senhor está bem?\"). Then the padaria, where the attendant is young: \"você\" is fine, but \"o senhor\" / \"a senhora\" is what staff use with customers.",
           "Order with \"eu quero...\", ask \"quanto é?\", answer \"mais alguma coisa?\" with \"só isso, obrigado\".",
         ],
         examples: [
@@ -590,7 +590,7 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "You meet seu Antônio, about seventy, in the lift. How do you ask how he is?",
+            question: "You meet seu Antônio, about seventy, in the elevator. How do you ask how he is?",
             options: ["O senhor está bem?", "Você está bem?", "O senhor estão bem?", "A senhora está bem?"],
             correctIndex: 0,
             explanation: "\"O senhor\" for an older man, with \"está\".",
@@ -609,15 +609,15 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
       {
         heading: "Conversations 3 and 4: the rodoviária and a phone call",
         body: [
-          "At the rodoviária ticket desk: \"uma passagem para Paraty, por favor\", \"a que horas sai?\", \"ida e volta?\" (return?), \"janela ou corredor?\". The clerk calls you \"o senhor\" / \"a senhora\"; you can answer with \"você\" or keep it neutral.",
+          "At the rodoviária ticket desk: \"uma passagem para Paraty, por favor\", \"a que horas sai?\", \"ida e volta?\" (round trip?), \"janela ou corredor?\". The clerk calls you \"o senhor\" / \"a senhora\"; you can answer with \"você\" or keep it neutral.",
           "Then a phone call with your friend Lucas: \"você\" all the way, \"o que você está fazendo?\", \"vamos ao cinema?\", \"combinado!\".",
         ],
         examples: [
           { es: "Uma passagem para Paraty, por favor.", en: "A ticket to Paraty, please." },
           { es: "Para que horas o senhor quer?", en: "For what time would you like it, sir?" },
-          { es: "Ida e volta? Janela ou corredor?", en: "Return? Window or aisle?" },
+          { es: "Ida e volta? Janela ou corredor?", en: "Round trip? Window or aisle?" },
           { es: "Alô, Lucas? O que você está fazendo?", en: "Hello, Lucas? What are you doing?" },
-          { es: "Vamos ao cinema hoje? Combinado!", en: "Shall we go to the cinema today? Deal!" },
+          { es: "Vamos ao cinema hoje? Combinado!", en: "Shall we go to the movies today? Deal!" },
         ],
         checkpoint: [
           {
@@ -640,7 +640,7 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
             type: "listen-choose",
             audio: "Ida e volta?",
             question: "What does it mean?",
-            options: ["Return?", "One way?", "Window or aisle?", "What time?"],
+            options: ["Round trip?", "One way?", "Window or aisle?", "What time?"],
             correctIndex: 0,
             explanation: "\"Ida e volta\" = there and back.",
           },
@@ -721,7 +721,7 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[I'm watching] a film. And you? (on the phone)",
+        en: "[I'm watching] a movie. And you? (on the phone)",
         sentence: "___ um filme. E você?",
         answer: "Estou vendo",
         altAnswers: ["Estou assistindo a", "Eu estou vendo", "Estou assistindo"],
@@ -730,10 +730,10 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[Return], please.",
+        en: "[Round trip], please.",
         sentence: "___, por favor.",
         answer: "Ida e volta",
-        explanation: "\"Ida e volta\" = return ticket.",
+        explanation: "\"Ida e volta\" = round-trip ticket.",
       },
       {
         type: "word-order",
@@ -773,7 +773,7 @@ export const PT_A1_U12_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Uma passagem para Paraty, ida e volta, por favor.",
-        prompt: "Say it in Portuguese: Buy a return ticket to Paraty.",
+        prompt: "Say it in Portuguese: Buy a round-trip ticket to Paraty.",
         explanation: "\"Para\" + destination; \"ida e volta\".",
       },
     ],

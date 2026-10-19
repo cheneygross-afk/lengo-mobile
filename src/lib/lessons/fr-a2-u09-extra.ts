@@ -946,7 +946,7 @@ export const FR_A2_U09_EXTRA: Lesson[] = [
       {
         heading: "Recap: Sophie's diary",
         body: [
-          "Sophie wrote this diary entry in French class. It has six mistakes: \"Samedi, je m'ai levé à dix heures. Je suis douchée et je me suis habillé. Mon frère et moi, nous sommes promenés au parc. Le soir, je vais se coucher tôt, mais je me suis brossé mes dents et je me suis endormi devant la télé.\"",
+          "Sophie wrote this diary entry in French class. It has seven mistakes: \"Samedi, je m'ai levé à dix heures. Je suis douchée et je me suis habillé. Mon frère et moi, nous sommes promenés au parc. Le soir, je vais se coucher tôt, mais je me suis brossé mes dents et je me suis endormi devant la télé.\"",
           "The checklist: être after a pronoun, a pronoun in every pronominal verb, agreement with Sophie (-e) or with \"nous\" (-s), the right pronoun before an infinitive, and le/la/les with body parts. Here are the corrected sentences.",
         ],
         examples: [

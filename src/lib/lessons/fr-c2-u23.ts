@@ -16,7 +16,7 @@ export const FR_C2_U23: Lesson[] = [
         heading: "Le message « je » contre le message « tu »",
         body: [
           "A heated French argument tends to be built on \"tu\": « Tu ne m'écoutes jamais ! », « Tu es toujours en retard ! », « Tu te fiches de moi ! ». Each sentence is a verdict on the other person, and a verdict invites a counter-verdict. De-escalation starts by moving the subject of the sentence: from \"tu\" (what you are) to \"je\" (what I experience). « Je me sens seul(e) quand je parle et que tu regardes ton téléphone. »",
-          "The French term is \"le message « je »\" or \"le message-je\", popularised by the psychologist Thomas Gordon's methods and by non-violent communication. It's not about politeness: it's about saying something the other person can't dispute. They can contest \"tu ne m'écoutes jamais\"; they can't contest \"je me sens ignoré(e)\".",
+          "The French term is \"le message « je »\" or \"le message-je\", popularised by the psychologist Thomas Gordon's methods and by non-violent communication. It's not about politeness: it's about saying something the other person can't dispute. They can contest \"tu ne m'écoutes jamais\"; they can't contest \"je me sens seul(e)\".",
           "Grammar follows: \"je me sens\" + adjective (agreeing with the speaker: \"je me sens découragée\"), \"j'ai l'impression que\" + indicative, \"ça me fait de la peine quand...\", \"je suis inquiet / inquiète quand...\". And \"quand\" or \"lorsque\" + a concrete situation, not a generalisation.",
         ],
         examples: [
@@ -444,7 +444,7 @@ export const FR_C2_U23: Lesson[] = [
         source: "Since Monday, the dishes have been piling up.",
         answer: "Depuis lundi, la vaisselle s'accumule.",
         altAnswers: ["Depuis lundi, la vaisselle s'entasse.", "La vaisselle s'accumule depuis lundi.", "La vaisselle s'entasse depuis lundi.", "Depuis lundi, la vaisselle s'empile."],
-        explanation: "Present + \"depuis\" for an ongoing situation; the impersonal subject (\"la vaisselle\") avoids blaming.",
+        explanation: "Present + \"depuis\" for an ongoing situation; the inanimate subject (\"la vaisselle\") avoids blaming anyone.",
       },
       {
         type: "translate",
@@ -484,7 +484,7 @@ export const FR_C2_U23: Lesson[] = [
           { es: "Ce que j'entends, c'est que la charge de travail a doublé depuis janvier.", en: "What I'm hearing is that the workload has doubled since January." },
           { es: "Autrement dit, vous auriez souhaité être prévenu plus tôt.", en: "In other words, you'd have liked to be told sooner." },
           { es: "Tu as le sentiment de porter le projet seul depuis trois mois.", en: "You feel you've been carrying the project alone for three months." },
-          { es: "Si je te suis bien, le problème n'est pas l'horaire mais le manque de prévenance.", en: "If I follow you, the problem isn't the time but the lack of notice." },
+          { es: "Si je te suis bien, le problème n'est pas l'horaire mais le fait de ne pas être prévenu.", en: "If I follow you, the problem isn't the time but not being told in advance." },
           { es: "Est-ce que je résume bien ta pensée ?", en: "Am I summing up what you think correctly?" },
         ],
         checkpoint: [
@@ -588,7 +588,7 @@ export const FR_C2_U23: Lesson[] = [
         heading: "Comprendre n'est pas approuver",
         body: [
           "The fear that stops people listening is that understanding means giving in. French makes the distinction explicit: \"comprendre\" is not \"approuver\", \"entendre\" is not \"être d'accord\". A mediator might say: « Je peux comprendre ta colère sans être d'accord avec ta conclusion. » or « Entendre ton point de vue ne veut pas dire que je le partage. »",
-          "Useful structures: \"comprendre... sans pour autant...\" (« Je comprends ta réaction, sans pour autant l'approuver »), \"ce n'est pas parce que je comprends que je suis d'accord\" (note the indicative after \"ce n'est pas parce que... que\" in the main clause), and the concessive \"même si je ne partage pas ton analyse, je vois bien pourquoi tu...\".",
+          "Useful structures: \"comprendre... sans pour autant...\" (« Je comprends ta réaction, sans pour autant l'approuver »), \"ce n'est pas parce que je comprends que je suis d'accord\" (the indicative is usual in both clauses; a subjunctive in the second, \"que je sois d'accord\", is also found in careful style), and the concessive \"même si je ne partage pas ton analyse, je vois bien pourquoi tu...\".",
           "This distinction prepares the next lesson: acknowledging the other side without conceding your own. It's also a deeply French rhetorical habit: in a debate, granting a point (\"je vous accorde que\") is a way of strengthening your own position, not weakening it.",
         ],
         examples: [
@@ -855,7 +855,7 @@ export const FR_C2_U23: Lesson[] = [
         en: "Sales have dropped. [Even so], our loyal customers are still here.",
         sentence: "Les ventes ont baissé. ___, nos clients fidèles sont toujours là.",
         answer: "Pour autant",
-        altAnswers: ["Cela dit", "Il n'empêche que", "Néanmoins", "Toutefois"],
+        altAnswers: ["Cela dit", "Néanmoins", "Toutefois"],
         explanation: "\"Pour autant\" blocks the conclusion the other draws from a true fact.",
       },
       {
@@ -917,7 +917,7 @@ export const FR_C2_U23: Lesson[] = [
         type: "speak",
         text: "Tu n'as pas tort sur ce point : la fréquentation a baissé. Pour autant, les ventes ont augmenté.",
         prompt: "Say it in French: You're not wrong on that point: footfall has dropped. Even so, sales have gone up.",
-        tip: "\"Fréquentation\": five syllables, fré-kan-ta-sion.",
+        tip: "\"Fréquentation\": four syllables, fré-kan-ta-sion.",
         explanation: "Concede a specific point, then pivot with \"pour autant\".",
       },
     ],
@@ -1037,7 +1037,7 @@ export const FR_C2_U23: Lesson[] = [
             prompt: "Translate into French.",
             source: "I'd prefer it to be on Saturday.",
             answer: "Je préférerais que ce soit samedi.",
-            altAnswers: ["Je préférerais que ça soit samedi.", "Je préférerais que ce soit le samedi.", "Je préférerais que cela soit samedi.", "J'aimerais mieux que ce soit samedi."],
+            altAnswers: ["Je préférerais que ça soit samedi.", "Je préférerais que cela soit samedi.", "J'aimerais mieux que ce soit samedi."],
             explanation: "\"Préférer que\" + subjunctive; the conditional \"préférerais\" softens the counter-proposal.",
           },
         ],
@@ -1102,7 +1102,7 @@ export const FR_C2_U23: Lesson[] = [
         en: "What if we [took turns] driving?",
         sentence: "Et si on ___ pour conduire ?",
         answer: "alternait",
-        altAnswers: ["se relayait", "conduisait à tour de rôle"],
+        altAnswers: ["se relayait"],
         explanation: "\"Et si\" + imparfait: \"alternait\". The imparfait expresses the hypothesis, not the past.",
       },
       {
@@ -1189,7 +1189,7 @@ export const FR_C2_U23: Lesson[] = [
           { es: "Le tapage nocturne est passible d'une amende.", en: "Night-time noise is punishable by a fine." },
           { es: "Un bruit de jour peut aussi constituer un trouble anormal de voisinage.", en: "Daytime noise can also amount to an abnormal nuisance to neighbours." },
           { es: "Le syndic m'a demandé de réunir les deux voisins.", en: "The property manager asked me to bring the two neighbours together." },
-          { es: "En cas d'échec, vous pourrez saisir le conciliateur de justice.", en: "If it fails, you can refer the matter to the conciliateur de justice." },
+          { es: "En cas d'échec, vous pourrez saisir le conciliateur de justice.", en: "If it fails, you can refer the matter to the court conciliator." },
           { es: "Elle a glissé deux mots assez vifs sous sa porte.", en: "She slipped two rather sharp notes under his door." },
         ],
         checkpoint: [
@@ -1267,7 +1267,7 @@ export const FR_C2_U23: Lesson[] = [
           { es: "Que diriez-vous de lui envoyer votre planning chaque dimanche ?", en: "How about sending him your schedule every Sunday?" },
           { es: "Monsieur Bernard s'engage à ne pas jouer avant 14 h 30 les jours de garde.", en: "Mr Bernard undertakes not to play before 2:30 p.m. on her night-shift days." },
           { es: "Vous convenez de faire le point dans un mois.", en: "You agree to review the situation in a month." },
-          { es: "Faute d'accord, il est possible de saisir le conciliateur de justice.", en: "Failing an agreement, the matter can be referred to the conciliateur de justice." },
+          { es: "Faute d'accord, il est possible de saisir le conciliateur de justice.", en: "Failing an agreement, the matter can be referred to the court conciliator." },
         ],
         checkpoint: [
           {
@@ -1283,7 +1283,7 @@ export const FR_C2_U23: Lesson[] = [
             type: "listen-choose",
             audio: "Faute d'accord, il est possible de saisir le conciliateur de justice.",
             question: "What does it mean?",
-            options: ["Failing an agreement, the matter can be referred to the conciliateur de justice.", "The agreement was signed by the conciliateur de justice.", "Because of the agreement, the conciliateur is no longer needed.", "The conciliateur de justice has seized their property."],
+            options: ["Failing an agreement, the matter can be referred to the court conciliator.", "The agreement was signed by the court conciliator.", "Because of the agreement, the conciliator is no longer needed.", "The court conciliator has seized their property."],
             correctIndex: 0,
             explanation: "\"Faute de\" = failing, for lack of; \"saisir\" here = to refer a matter to an authority.",
           },
@@ -1367,7 +1367,7 @@ export const FR_C2_U23: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "Failing an agreement, you can refer the matter to the conciliateur de justice.",
+        source: "Failing an agreement, you can refer the matter to the court conciliator.",
         answer: "Faute d'accord, vous pourrez saisir le conciliateur de justice.",
         altAnswers: ["Faute d'accord, vous pouvez saisir le conciliateur de justice.", "À défaut d'accord, vous pourrez saisir le conciliateur de justice.", "À défaut d'accord, vous pouvez saisir le conciliateur de justice.", "En l'absence d'accord, vous pourrez saisir le conciliateur de justice.", "Faute d'accord, il vous sera possible de saisir le conciliateur de justice."],
         explanation: "\"Faute de\" / \"à défaut de\" + noun without article; \"saisir\" an authority = to refer a matter to it.",
@@ -1462,7 +1462,7 @@ export const FR_C2_U23: Lesson[] = [
             type: "speak",
             text: "Je vous prie d'accepter mes plus sincères excuses.",
             prompt: "Say it in French: Please accept my sincerest apologies.",
-            tip: "Liaison in \"mes excuses\" and \"plus sincères\" has none: plu sin-sèr.",
+            tip: "Liaison in \"mes excuses\" (mé-zex-kuz), but none in \"plus sincères\" (plu sin-sèr).",
             explanation: "The most formal spoken or written apology.",
           },
         ],
@@ -1789,7 +1789,7 @@ export const FR_C2_U23: Lesson[] = [
         prompt: "Translate into French.",
         source: "That wasn't my intention, but I understand the effect it had.",
         answer: "Ce n'était pas mon intention, mais je comprends l'effet que cela a eu.",
-        altAnswers: ["Ce n'était pas mon intention, mais je comprends l'effet que ça a eu.", "Ce n'était pas mon intention, mais je mesure l'effet que cela a eu.", "Ce n'était pas mon intention, mais je comprends l'effet produit.", "Ce n'était pas mon intention, mais je comprends l'effet que ça a pu avoir."],
+        altAnswers: ["Ce n'était pas mon intention, mais je comprends l'effet que ça a eu.", "Ce n'était pas mon intention, mais je mesure l'effet que cela a eu.", "Ce n'était pas mon intention, mais je comprends l'effet produit."],
         explanation: "Here \"mais\" works in the right direction: from intention to the effect you acknowledge.",
       },
       {
@@ -1851,7 +1851,7 @@ export const FR_C2_U23: Lesson[] = [
         heading: "Who's who in a workplace dispute",
         body: [
           "A French employee in conflict with a manager or colleague has several people to turn to. \"Le CSE\" (comité social et économique), elected in companies of eleven or more employees since 2018, replaced the old \"délégués du personnel\", \"comité d'entreprise\" and \"CHSCT\". Its elected members, \"les élus du CSE\", can raise individual complaints with management and alert it to risks to health and safety. \"Le délégué syndical\" (union representative) is appointed by a union and negotiates collective agreements; he or she can also support an employee.",
-          "Outside the company: \"la médecine du travail\" (the occupational health service, \"le médecin du travail\"), which can be consulted confidentially; \"l'inspection du travail\" (the labour inspectorate), which checks that employment law is respected; and, as a last resort, \"le conseil de prud'hommes\" (\"les prud'hommes\"), the employment tribunal, whose judges are not professional magistrates but \"conseillers prud'homaux\" drawn equally from employers and employees. Every case there starts with an attempt at conciliation.",
+          "Outside the company: \"la médecine du travail\" (the occupational health service, \"le médecin du travail\"), which can be consulted confidentially; \"l'inspection du travail\" (the labour inspectorate), which checks that employment law is respected; and, as a last resort, \"le conseil de prud'hommes\" (\"les prud'hommes\"), the employment tribunal, whose judges are not professional magistrates but \"conseillers prud'homaux\" drawn equally from employers and employees. Most cases there start with an attempt at conciliation.",
           "Vocabulary to note: \"saisir les prud'hommes\" (to take a case to the employment tribunal), \"aller aux prud'hommes\" (in speech), \"un élu\" / \"une élue\" (an elected representative), \"la hiérarchie\" (the chain of management, line managers: « J'ai alerté ma hiérarchie »).",
         ],
         examples: [
@@ -1919,7 +1919,7 @@ export const FR_C2_U23: Lesson[] = [
             type: "speak",
             text: "Il a été convoqué à un entretien préalable à une sanction disciplinaire.",
             prompt: "Say it in French: He was called to a preliminary meeting before a disciplinary sanction.",
-            tip: "\"Préalable\": pré-a-labl, four syllables.",
+            tip: "\"Préalable\": pré-a-labl, three syllables.",
             explanation: "\"Préalable à\" = prior to; \"convoquer\" is the neutral formal verb.",
           },
         ],
@@ -2605,7 +2605,7 @@ export const FR_C2_U23: Lesson[] = [
             type: "speak",
             text: "Sans rancune !",
             prompt: "Say it in French: No hard feelings!",
-            tip: "Two nasals: san ran-kun.",
+            tip: "Two nasals, san and ran; the end is oral: ran-kun-e, rhyming with \"lune\".",
             explanation: "A warm way to close a disagreement.",
           },
         ],
@@ -3035,7 +3035,7 @@ export const FR_C2_U23: Lesson[] = [
             type: "speak",
             text: "Je m'en veux tellement de t'avoir dit ça.",
             prompt: "Say it in French: I'm so angry with myself for saying that to you.",
-            tip: "\"M'en veux\": man-veu, the n links.",
+            tip: "\"M'en veux\": man-veu, a nasal an with no liaison before the v.",
             explanation: "\"S'en vouloir de\" is the natural expression of remorse.",
           },
         ],
@@ -3144,8 +3144,8 @@ export const FR_C2_U23: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into French.",
         source: "We could go to Lucas's place instead.",
-        answer: "On pourrait aller chez Lucas plutôt.",
-        altAnswers: ["On pourrait plutôt aller chez Lucas.", "Nous pourrions plutôt aller chez Lucas.", "Nous pourrions aller chez Lucas à la place.", "On pourrait aller chez Lucas à la place."],
+        answer: "On pourrait plutôt aller chez Lucas.",
+        altAnswers: ["On pourrait aller chez Lucas plutôt.", "Nous pourrions plutôt aller chez Lucas.", "Nous pourrions aller chez Lucas à la place.", "On pourrait aller chez Lucas à la place."],
         explanation: "The conditional \"on pourrait\" for a gentle suggestion; \"chez\" + person's name.",
       },
       {

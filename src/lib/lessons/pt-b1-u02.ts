@@ -188,6 +188,10 @@ export const PT_B1_U02: Lesson[] = [
           "Minha chefe quer que eu vá para Recife.",
           "A minha chefe quer que eu vá a Recife.",
           "A minha chefe quer que eu vá para Recife.",
+          "Meu chefe quer que eu vá ao Recife.",
+          "Meu chefe quer que eu vá para o Recife.",
+          "Minha chefe quer que eu vá ao Recife.",
+          "Minha chefe quer que eu vá para o Recife.",
         ],
         explanation: "The boss wants and I go, so you need \"que\" + subjunctive, and \"ir\" becomes \"vá\". Don't copy English with \"quer eu ir\".",
       },
@@ -261,7 +265,7 @@ export const PT_B1_U02: Lesson[] = [
         heading: "Saiba and queira: when the eu form won't help",
         body: [
           "Most subjunctives come from the eu form: drop the -o and add the ending. \"Saber\" and \"querer\" break that rule. \"Eu sei\" has no -o to drop, and \"quero\" would give the wrong form *quera. Learn them whole: \"saiba\", \"saibamos\", \"saibam\" and \"queira\", \"queiramos\", \"queiram\".",
-          "Both forms carry an extra i: sa-I-ba, quei-ra. Spelling them *saba or *quera is the classic slip. \"Quero que você saiba\" (I want you to know) is a frame Brazilians use all the time when sharing news or feelings.",
+          "Both forms carry an extra i, which glides with the vowel before it: SAI-ba, QUEI-ra. Spelling them *saba or *quera is the classic slip. \"Quero que você saiba\" (I want you to know) is a frame Brazilians use all the time when sharing news or feelings.",
           "You'll also meet \"queira\" on very polite signs and in letters: \"queira aguardar\" means please wait.",
         ],
         examples: [
@@ -691,10 +695,10 @@ export const PT_B1_U02: Lesson[] = [
         audio: "Espero você na porta do cinema.",
         question: "What does it mean?",
         options: [
-          "I'll wait for you at the cinema door.",
-          "I hope you're at the cinema door.",
-          "I hope to go to the cinema with you.",
-          "I hope you like the cinema.",
+          "I'll wait for you at the movie theater entrance.",
+          "I hope you're at the movie theater entrance.",
+          "I hope to go to the movies with you.",
+          "I hope you like the movie theater.",
         ],
         correctIndex: 0,
         explanation: "With a direct object and no \"que\", \"esperar\" means to wait for: \"espero você\". I hope would need \"espero que\".",
@@ -710,9 +714,9 @@ export const PT_B1_U02: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I hope you all like the film.",
+        prompt: "Put the words in order to say: I hope you all like the movie.",
         words: ["Espero", "que", "vocês", "gostem", "do", "filme."],
-        translation: "I hope you all like the film.",
+        translation: "I hope you all like the movie.",
         explanation: "\"Vocês\" takes the -em ending of the -ar subjunctive: \"gostem\". \"Gostar de\" + \"o filme\" gives \"do filme\".",
       },
       {
@@ -839,7 +843,7 @@ export const PT_B1_U02: Lesson[] = [
           {
             type: "speak",
             text: "Parabéns! Que você tenha um ano incrível!",
-            tip: "Stress the end of parabéns: pa-ra-BÉNS, with a nasal vowel and no hard n.",
+            tip: "Stress the end of parabéns: pa-ra-BẼINS. Despite the accent, the é here is a nasal vowel gliding to i, as in \"vem\", with no hard n.",
             explanation: "A fixed phrase followed by a \"que\" wish: \"que você tenha\", the subjunctive built from \"tenho\".",
           },
         ],
@@ -966,7 +970,7 @@ export const PT_B1_U02: Lesson[] = [
         type: "speak",
         text: "Saúde! Um brinde à Mariana!",
         prompt: "Say it in Portuguese: Cheers! A toast to Mariana!",
-        tip: "Say saúde in three syllables, sa-Ú-de, with the final e sounding like i.",
+        tip: "Say saúde in three syllables, sa-Ú-dji: the final e sounds like i, so the d before it sounds like the j in 'jeans'.",
         explanation: "\"Um brinde a\" + \"a Mariana\" gives \"à Mariana\", the crasis contraction.",
       },
       {
@@ -1003,7 +1007,7 @@ export const PT_B1_U02: Lesson[] = [
         examples: [
           { es: "Espero que a festa seja divertida.", en: "I hope the party is fun." },
           { es: "Tomara que vocês estejam bem.", en: "I hope you're all well." },
-          { es: "Espero que nós sejamos bons vizinhos.", en: "I hope we'll be good neighbours." },
+          { es: "Espero que nós sejamos bons vizinhos.", en: "I hope we'll be good neighbors." },
           { es: "Tomara que eles estejam em casa.", en: "I hope they're home." },
           { es: "Prefiro que a reunião seja na sexta.", en: "I'd prefer the meeting to be on Friday." },
         ],
@@ -1044,7 +1048,7 @@ export const PT_B1_U02: Lesson[] = [
         examples: [
           { es: "Espero que você vá à festa.", en: "I hope you go to the party." },
           { es: "Tomara que eles vão de ônibus.", en: "I hope they go by bus." },
-          { es: "Prefiro que a gente vá de metrô.", en: "I'd rather we take the metro." },
+          { es: "Prefiro que a gente vá de metrô.", en: "I'd rather we take the subway." },
           { es: "Espero que não haja fila no banco.", en: "I hope there's no line at the bank." },
           { es: "Tomara que haja ingressos para sábado.", en: "I hope there are tickets for Saturday." },
           { es: "Tomara que tenha lugar no ônibus.", en: "I hope there's a seat on the bus." },
@@ -1069,7 +1073,7 @@ export const PT_B1_U02: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "I'd rather we [go] by metro.",
+            en: "I'd rather we [go] by subway.",
             sentence: "Prefiro que a gente ___ de metrô.",
             answer: "vá",
             explanation: "\"A gente\" takes the ele form, so \"vá\". With \"nós\" it would be \"nós vamos\", the same as the indicative.",
@@ -1447,7 +1451,7 @@ export const PT_B1_U02: Lesson[] = [
     level: "PT-B1",
     number: 7,
     title: "Dialogue Lab: Boa Viagem!",
-    summary: "Follow a farewell party for a friend moving to Lisboa and practise the hopes, wishes and goodbyes Brazilians use with the subjunctive.",
+    summary: "Follow a farewell party for a friend moving to Lisboa and practice the hopes, wishes and goodbyes Brazilians use with the subjunctive.",
     duration: "12 min",
     sections: [
       {
@@ -1516,7 +1520,7 @@ export const PT_B1_U02: Lesson[] = [
         examples: [
           { es: "Estou um pouco nervosa com o trabalho novo.", en: "I'm a bit nervous about the new job." },
           { es: "Espero que dê tudo certo.", en: "I hope it all works out." },
-          { es: "Tomara que o apartamento seja bom.", en: "Let's hope the flat is nice." },
+          { es: "Tomara que o apartamento seja bom.", en: "Let's hope the apartment is nice." },
           { es: "Espero fazer amigos logo.", en: "I hope to make friends soon." },
           { es: "Fica tranquila, vai dar tudo certo.", en: "Don't worry, it'll all work out." },
         ],
@@ -1536,7 +1540,7 @@ export const PT_B1_U02: Lesson[] = [
             en: "I hope [to make] friends soon.",
             sentence: "Espero ___ amigos logo.",
             answer: "fazer",
-            explanation: "Mariana is hoping about herself, so there's the same subject and the infinitive follows: \"espero fazer\". \"Espero que eu faça\" sounds wrong.",
+            explanation: "Mariana is hoping about herself, so there's the same subject and the infinitive follows: \"espero fazer\". \"Espero que eu faça\" is grammatical but sounds clumsy.",
           },
           {
             type: "listen-choose",
@@ -1592,7 +1596,7 @@ export const PT_B1_U02: Lesson[] = [
           {
             type: "speak",
             text: "Que você seja muito feliz lá!",
-            tip: "The j in seja sounds like the s in 'measure', and the z at the end of feliz is a soft s.",
+            tip: "The j in seja sounds like the s in 'measure', and the z at the end of feliz sounds like s (like sh in Rio).",
             explanation: "\"Que você seja\" is the classic toast and card wish: \"que\" + subjunctive with no verb before it.",
           },
         ],
@@ -1642,7 +1646,7 @@ export const PT_B1_U02: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Let's hope the flat [is] close to the metro.",
+        en: "Let's hope the apartment [is] close to the subway.",
         sentence: "Tomara que o apartamento ___ perto do metrô.",
         answer: "seja",
         altAnswers: ["fique"],
@@ -1806,7 +1810,7 @@ export const PT_B1_U02: Lesson[] = [
       {
         heading: "Espero que eu passo → espero passar",
         body: [
-          "When you hope something for yourself, use the plain infinitive with no \"que\": \"espero passar na prova\". *\"Espero que eu passo\" is wrong, and \"espero que eu passe\" sounds unnatural too. It's the same rule as \"quero sair\" vs \"quero que você saia\".",
+          "When you hope something for yourself, use the plain infinitive with no \"que\": \"espero passar na prova\". *\"Espero que eu passo\" is wrong, and \"espero que eu passe\", though grammatical, sounds clumsy. It's the same rule as \"quero sair\" vs \"quero que você saia\".",
           "\"Tomara\" is the exception. It never takes an infinitive, so it always needs \"que\" + subjunctive, even about yourself: \"tomara que eu passe\". Say \"espero passar\" or \"tomara que eu passe\", never a mix of the two.",
         ],
         examples: [
@@ -2127,7 +2131,7 @@ export const PT_B1_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your elderly neighbour, Dona Beatriz, is in hospital. Which line fits your card?",
+        question: "Your elderly neighbor, Dona Beatriz, is in the hospital. Which line fits your card?",
         options: ["Que a senhora fique boa logo!", "Que a senhora fica boa logo!", "Que você fique bom logo!", "Que a senhora fique bom logo!"],
         correctIndex: 0,
         explanation: "You'd address her as \"a senhora\". The wish needs the subjunctive \"fique\", and the adjective agrees with her: \"boa\".",
@@ -2158,7 +2162,7 @@ export const PT_B1_U02: Lesson[] = [
         type: "speak",
         text: "Parabéns ao casal! Que vocês sejam muito felizes.",
         prompt: "Say it in Portuguese: Congratulations to the couple! May you be very happy.",
-        tip: "Parabéns ends in a nasal sound with no clear n. Stress it on the last syllable: pa-ra-BÉNS.",
+        tip: "Stress parabéns on the last syllable, pa-ra-BẼINS: a nasal vowel gliding to i, as in \"vem\", with no clear n.",
         explanation: "\"Ao casal\" is a + o. \"Sejam\" is plural because you're speaking to both of them.",
       },
       {
@@ -2280,7 +2284,7 @@ export const PT_B1_U02: Lesson[] = [
             source: "I hope to pass the exam.",
             answer: "Espero passar na prova.",
             altAnswers: ["Eu espero passar na prova.", "Espero passar no exame.", "Eu espero passar no exame."],
-            explanation: "You are the one who hopes and the one who passes, so use the infinitive. \"Espero que eu passe\" sounds wrong.",
+            explanation: "You are the one who hopes and the one who passes, so use the infinitive. \"Espero que eu passe\" is grammatical but clumsy.",
           },
         ],
       },
@@ -2432,7 +2436,7 @@ export const PT_B1_U02: Lesson[] = [
 
 export const PT_B1_U02_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your Brazilian friend Rafael has just got a new job in Manaus and is moving there next week. Write him a farewell message (80-150 words). Congratulate him, say what you hope his new flat, colleagues and first weeks will be like, ask him to keep in touch, mention a plan of your own, and end with a warm wish.",
+  prompt: "Your Brazilian friend Rafael has just got a new job in Manaus and is moving there next week. Write him a farewell message (80-150 words). Congratulate him, say what you hope his new apartment, colleagues and first weeks will be like, ask him to keep in touch, mention a plan of your own, and end with a warm wish.",
   minWords: 80,
   maxWords: 150,
   rubric: [

@@ -34,7 +34,7 @@ export const PT_A2_U13: Lesson[] = [
             source: "I'd like a coffee, please.",
             answer: "Eu queria um café, por favor.",
             altAnswers: ["Queria um café, por favor.", "Eu gostaria de um café, por favor.", "Gostaria de um café, por favor."],
-            explanation: "The imperfeito \"queria\" softens the request, so it means I'd like. A flat \"eu quero um café\" is correct but sounds abrupt.",
+            explanation: "The imperfeito \"queria\" softens the request, so it means I'd like. A blunt \"eu quero um café\" is correct but sounds abrupt.",
           },
           {
             type: "multiple-choice",
@@ -99,13 +99,13 @@ export const PT_A2_U13: Lesson[] = [
         heading: "Me vê um pão de queijo: ordering at the counter",
         body: [
           "At the padaria counter or the lanchonete, Brazilians often order with an everyday command: \"me vê um pão de queijo\". Literally it's see me, but it means let me have. \"Me dá\" (give me) and \"me traz\" (bring me) work the same way, and the \"me\" goes first, as everywhere in Brazilian speech.",
-          "This isn't rude. With \"por favor\" and a friendly tone it's normal everywhere. Another favourite is \"vou querer...\" (I'll have...), the everyday future you already know. A bare \"eu quero\", said flatly to a waiter, is what sounds rude.",
+          "This isn't rude. With \"por favor\" and a friendly tone it's normal everywhere. Another favorite is \"vou querer...\" (I'll have...), the everyday future you already know. A bare \"eu quero\", said flatly to a waiter, is what sounds rude.",
         ],
         examples: [
           { es: "Me vê um pão de queijo, por favor.", en: "Can I get a cheese roll, please?" },
           { es: "Me vê dois pães franceses e um café com leite.", en: "Let me have two bread rolls and a coffee with milk." },
           { es: "Me dá uma água sem gás, por favor.", en: "Give me a still water, please." },
-          { es: "Me traz a conta, por favor?", en: "Could you bring me the bill, please?" },
+          { es: "Me traz a conta, por favor?", en: "Could you bring me the check, please?" },
           { es: "Vou querer o prato do dia.", en: "I'll have the dish of the day." },
         ],
         checkpoint: [
@@ -155,7 +155,7 @@ export const PT_A2_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[Bring me] the bill, please.",
+        en: "[Bring me] the check, please.",
         sentence: "___ a conta, por favor.",
         answer: "Me traz",
         altAnswers: ["Me traga"],
@@ -250,7 +250,7 @@ export const PT_A2_U13: Lesson[] = [
         heading: "Quanto custa? Quanto é? Quanto fica?",
         body: [
           "\"Quanto custa?\" asks how much something costs. With more than one thing the verb goes plural: \"Quanto custam as bananas?\" Learners often keep the singular \"custa\" by habit, so listen for the nasal -m of \"custam\".",
-          "\"Quanto é?\" (how much is it?) is the quick everyday version, for one item or the bill. \"Quanto fica?\" asks what it comes to: the total for several things, or the price after a discount. \"Quanto fica tudo?\" is the question at the end of any shopping trip.",
+          "\"Quanto é?\" (how much is it?) is the quick everyday version, for one item or the check. \"Quanto fica?\" asks what it comes to: the total for several things, or the price after a discount. \"Quanto fica tudo?\" is the question at the end of any shopping trip.",
           "Answer with \"custa\" or \"fica\" plus the price; for a plural amount, \"são\": \"São quarenta reais.\"",
         ],
         examples: [
@@ -711,7 +711,7 @@ export const PT_A2_U13: Lesson[] = [
           { es: "Não vi ninguém na padaria.", en: "I didn't see anyone at the bakery." },
           { es: "Ela não comprou nada na feira.", en: "She didn't buy anything at the market." },
           { es: "Você não conhece ninguém em Curitiba?", en: "Don't you know anyone in Curitiba?" },
-          { es: "Não tem ninguém no caixa.", en: "There's no one at the till." },
+          { es: "Não tem ninguém no caixa.", en: "There's no one at the register." },
           { es: "Tem alguém aí? Não, não tem ninguém.", en: "Is anyone there? No, there's no one." },
         ],
         checkpoint: [
@@ -783,7 +783,7 @@ export const PT_A2_U13: Lesson[] = [
         ],
         examples: [
           { es: "Ninguém ligou hoje.", en: "No one called today." },
-          { es: "Nada mudou no bairro.", en: "Nothing has changed in the neighbourhood." },
+          { es: "Nada mudou no bairro.", en: "Nothing has changed in the neighborhood." },
           { es: "Nenhum cliente reclamou.", en: "Not one customer complained." },
           { es: "Nunca fui a Manaus.", en: "I've never been to Manaus." },
           { es: "Ninguém sabe o preço.", en: "No one knows the price." },
@@ -836,7 +836,7 @@ export const PT_A2_U13: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "There's no one at the till.",
+        source: "There's no one at the register.",
         answer: "Não tem ninguém no caixa.",
         altAnswers: ["Não há ninguém no caixa."],
         explanation: "\"Não tem ninguém\" is the everyday spoken form; \"não há ninguém\" is more formal. Both need \"não\" before the verb.",
@@ -1209,7 +1209,7 @@ export const PT_A2_U13: Lesson[] = [
           "Any demonstrative can stand alone when you point: \"eu quero aquele\" (I want that one). English needs one; Portuguese adds nothing.",
         ],
         examples: [
-          { es: "Aquela padaria ali é a melhor do bairro.", en: "That bakery over there is the best in the neighbourhood." },
+          { es: "Aquela padaria ali é a melhor do bairro.", en: "That bakery over there is the best in the neighborhood." },
           { es: "Quanto é aquela bolsa vermelha?", en: "How much is that red bag?" },
           { es: "Eu quero esse aqui, não aquele.", en: "I want this one, not that one." },
           { es: "Me passa esse aí, por favor.", en: "Pass me that one, please. (the one near you)" },
@@ -1235,9 +1235,9 @@ export const PT_A2_U13: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: That bakery over there is the best in the neighbourhood.",
+            prompt: "Put the words in order to say: That bakery over there is the best in the neighborhood.",
             words: ["Aquela", "padaria", "ali", "é", "a melhor", "do bairro."],
-            translation: "That bakery over there is the best in the neighbourhood.",
+            translation: "That bakery over there is the best in the neighborhood.",
             explanation: "\"Aquela padaria ali\": the demonstrative goes before the noun and the place word comes after it. \"Padaria\" is feminine.",
           },
         ],
@@ -1393,7 +1393,7 @@ export const PT_A2_U13: Lesson[] = [
     level: "PT-A2",
     number: 7,
     title: "Dialogue Lab: No Restaurante",
-    summary: "Follow Ana and Lucas through dinner in Belo Horizonte as they get a table, order the daily special, ask for extras and pay the bill by card.",
+    summary: "Follow Ana and Lucas through dinner in Belo Horizonte as they get a table, order the daily special, ask for extras and pay the check by card.",
     duration: "12 min",
     sections: [
       {
@@ -1480,25 +1480,25 @@ export const PT_A2_U13: Lesson[] = [
       {
         heading: "A conta: pagando",
         body: [
-          "Ask for the bill with \"a conta, por favor\". Most bills already include \"o serviço\", a 10% service charge. It's optional, but most people pay it, so no extra tip is expected.",
-          "To pay by card, say \"pode passar no cartão?\". The waiter brings the card machine to the table and asks \"débito ou crédito?\". To split the bill, ask \"pode dividir a conta em dois?\". Many places also take \"Pix\", Brazil's instant bank transfer.",
+          "Ask for the check with \"a conta, por favor\". Most checks already include \"o serviço\", a 10% service charge. It's optional, but most people pay it, so no extra tip is expected.",
+          "To pay by card, say \"pode passar no cartão?\". The waiter brings the card machine to the table and asks \"débito ou crédito?\". To split the check, ask \"pode dividir a conta em dois?\". Many places also take \"Pix\", Brazil's instant bank transfer.",
         ],
         examples: [
-          { es: "A conta, por favor.", en: "The bill, please." },
+          { es: "A conta, por favor.", en: "The check, please." },
           { es: "Pode passar no cartão?", en: "Can I pay by card?" },
           { es: "Débito ou crédito?", en: "Debit or credit?" },
           { es: "O serviço está incluído?", en: "Is the service charge included?" },
-          { es: "Pode dividir a conta em dois?", en: "Can you split the bill in two?" },
+          { es: "Pode dividir a conta em dois?", en: "Can you split the check in two?" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The bill, please.",
+            source: "The check, please.",
             answer: "A conta, por favor.",
             altAnswers: ["Por favor, a conta.", "Me traz a conta, por favor.", "Pode trazer a conta, por favor?", "Pode me trazer a conta, por favor?"],
-            explanation: "\"A conta\" is the bill at a restaurant. \"Me traz a conta\" and \"pode trazer a conta?\" are just as natural.",
+            explanation: "\"A conta\" is the check at a restaurant. \"Me traz a conta\" and \"pode trazer a conta?\" are just as natural.",
           },
           {
             type: "word-order",
@@ -1568,7 +1568,7 @@ export const PT_A2_U13: Lesson[] = [
         prompt: "Put the words in order to say: I'd like a mango juice.",
         words: ["Eu", "queria", "um", "suco", "de", "manga."],
         translation: "I'd like a mango juice.",
-        explanation: "\"Suco\" is the Brazilian word for juice. \"Suco de manga\" uses \"de\" for the flavour, and \"eu queria\" is the polite order.",
+        explanation: "\"Suco\" is the Brazilian word for juice. \"Suco de manga\" uses \"de\" for the flavor, and \"eu queria\" is the polite order.",
       },
       {
         type: "listen-choose",
@@ -1586,9 +1586,9 @@ export const PT_A2_U13: Lesson[] = [
       {
         type: "speak",
         text: "Pode dividir a conta em dois?",
-        prompt: "Say it in Portuguese: Can you split the bill in two?",
+        prompt: "Say it in Portuguese: Can you split the check in two?",
         tip: "Before i, the d sounds like the j in jeep: \"dividir\" is dji-vi-DJIR.",
-        explanation: "\"Pode\" + infinitive makes the polite request, and \"dividir a conta\" means to split the bill.",
+        explanation: "\"Pode\" + infinitive makes the polite request, and \"dividir a conta\" means to split the check.",
       },
       {
         type: "matching",
@@ -1639,9 +1639,9 @@ export const PT_A2_U13: Lesson[] = [
           {
             type: "multiple-choice",
             question: "A friend texts you: \"Eu comprei nenhuma coisa na feira.\" What should it say?",
-            options: ["Eu não comprei nada na feira.", "Eu comprei nada na feira.", "Eu não comprei nenhum coisa na feira.", "Eu nada comprei na feira."],
+            options: ["Eu não comprei nada na feira.", "Eu comprei nada na feira.", "Eu não comprei nenhum coisa na feira.", "Eu não comprei alguma coisa na feira."],
             correctIndex: 0,
-            explanation: "For nothing, Brazilians say \"nada\", with \"não\" before the verb. \"Nenhuma coisa\" sounds translated, and \"nenhum coisa\" also has the wrong gender.",
+            explanation: "For nothing, Brazilians say \"nada\", with \"não\" before the verb. \"Nenhuma coisa\" sounds translated, \"nenhum coisa\" also has the wrong gender, and \"alguma coisa\" belongs in questions and positive sentences.",
           },
           {
             type: "fill-blank",
@@ -1660,7 +1660,7 @@ export const PT_A2_U13: Lesson[] = [
           "In \"quanto custa?\" the verb agrees with what you're pricing: \"Quanto custa essa bolsa?\" but \"Quanto custam esses tênis?\". English makes the same switch with 'is' and 'are', so listen for the nasal -am. A bare \"Quanto é?\" works for any purchase.",
         ],
         examples: [
-          { es: "Todo mundo pagou a conta.", en: "Everyone paid the bill." },
+          { es: "Todo mundo pagou a conta.", en: "Everyone paid the check." },
           { es: "Todos os clientes estão esperando.", en: "All the customers are waiting." },
           { es: "Quanto custa essa bolsa?", en: "How much is this bag?" },
           { es: "Quanto custam esses tênis?", en: "How much are these sneakers?" },

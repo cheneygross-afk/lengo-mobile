@@ -421,7 +421,7 @@ export const PT_A2_U06: Lesson[] = [
         type: "speak",
         text: "Eu conheço ela.",
         prompt: "Say it in Portuguese (to a friend): I know her.",
-        tip: "Open é in \"ela\", and a closed ô in \"conheço\".",
+        tip: "Open é in \"ela\", and a closed ê in \"conheço\" (co-NHÊ-su).",
         explanation: "With friends, her is \"ela\" after the verb: \"eu conheço ela\".",
       },
       {
@@ -642,7 +642,7 @@ export const PT_A2_U06: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Mr Antônio, the bank sent you a letter.",
+        source: "Mr. Antônio, the bank sent you a letter.",
         answer: "Seu Antônio, o banco lhe enviou uma carta.",
         altAnswers: ["Seu Antônio, o banco lhe mandou uma carta.", "Seu Antônio, o banco enviou uma carta para o senhor.", "Seu Antônio, o banco mandou uma carta para o senhor.", "Senhor Antônio, o banco lhe enviou uma carta.", "Senhor Antônio, o banco enviou uma carta para o senhor."],
         explanation: "To an older man you address as \"seu Antônio\", the polite to you is \"lhe\" or \"para o senhor\", never \"te\".",
@@ -696,15 +696,15 @@ export const PT_A2_U06: Lesson[] = [
       {
         heading: "Comigo, com você, com a gente",
         body: [
-          "\"Com\" and \"mim\" merge into one word, \"comigo\" (with me). \"Com mim\" doesn't exist. For with you, say \"com você\" or \"com o senhor\". You'll hear \"contigo\" in songs and in the South, where people use \"tu\", but you don't need it yet.",
+          "\"Com\" and \"mim\" merge into one word, \"comigo\" (with me). \"Com mim\" doesn't exist. For with you, say \"com você\" or \"com o senhor\". You'll hear \"contigo\" in songs, in the South and in casual speech in many regions, but \"com você\" is always safe.",
           "With us has two forms. \"Conosco\" belongs to writing and careful speech, and in conversation Brazilians say \"com a gente\". Avoid \"com nós\" on its own. The rest is regular: \"com ele\", \"com ela\", \"com vocês\", \"com eles\".",
         ],
         examples: [
           { es: "Você quer almoçar comigo?", en: "Do you want to have lunch with me?" },
           { es: "Eu vou ao mercado com você.", en: "I'm going to the market with you." },
           { es: "O Rafael jantou com a gente ontem.", en: "Rafael had dinner with us yesterday." },
-          { es: "Eles estudaram conosco na faculdade.", en: "They studied with us at university." },
-          { es: "A Mariana está no cinema com ele.", en: "Mariana is at the cinema with him." },
+          { es: "Eles estudaram conosco na faculdade.", en: "They studied with us in college." },
+          { es: "A Mariana está no cinema com ele.", en: "Mariana is at the movies with him." },
         ],
         checkpoint: [
           {
@@ -726,7 +726,7 @@ export const PT_A2_U06: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Ana went to the cinema [with us].",
+            en: "Ana went to the movies [with us].",
             sentence: "A Ana foi ao cinema ___.",
             answer: "com a gente",
             altAnswers: ["conosco"],
@@ -791,7 +791,7 @@ export const PT_A2_U06: Lesson[] = [
         source: "I'm going with you.",
         answer: "Eu vou com você.",
         altAnswers: ["Vou com você.", "Eu vou com vocês.", "Vou com vocês.", "Eu vou com o senhor.", "Vou com o senhor.", "Eu vou com a senhora.", "Vou com a senhora."],
-        explanation: "With you is \"com você\" in Brazil, or \"com o senhor\" / \"com a senhora\" to be polite. \"Contigo\" goes with \"tu\".",
+        explanation: "With you is \"com você\" in Brazil, or \"com o senhor\" / \"com a senhora\" to be polite. \"Contigo\" belongs to \"tu\", though many Brazilians also use it casually with você.",
       },
       {
         type: "translate",
@@ -882,7 +882,7 @@ export const PT_A2_U06: Lesson[] = [
     level: "PT-A2",
     number: 5,
     title: "Where the Pronoun Goes",
-    summary: "Put me, te and nos where Brazilians do (before the verb, between two verbs and after não) and recognise the formal ajude-me and far-lhe-ei.",
+    summary: "Put me, te and nos where Brazilians do (before the verb, between two verbs and after não) and recognize the formal ajude-me and far-lhe-ei.",
     duration: "12 min",
     sections: [
       {
@@ -968,15 +968,15 @@ export const PT_A2_U06: Lesson[] = [
         ],
       },
       {
-        heading: "Ajude-me, far-lhe-ei: forms to recognise",
+        heading: "Ajude-me, far-lhe-ei: forms to recognize",
         body: [
           "In formal emails, contracts, signs and the Portuguese of Portugal, the pronoun often follows the verb with a hyphen: \"ajude-me\" (help me), \"envie-me\" (send me), \"peço-lhe\" (I ask you). It's correct, but in a Brazilian conversation it sounds stiff, like saying 'pray tell me'.",
-          "Rarer still, the pronoun can sit inside a future verb: \"far-lhe-ei uma visita\" (I shall pay him a visit). You'll find this only in old books, legal texts and European writing. Recognise it, but don't say it. A Brazilian says \"vou visitar ele\".",
+          "Rarer still, the pronoun can sit inside a future verb: \"far-lhe-ei uma visita\" (I shall pay him a visit). You'll find this only in old books, legal texts and European writing. Recognize it, but don't say it. A Brazilian says \"vou visitar ele\".",
         ],
         examples: [
           { es: "Ajude-me, por favor.", en: "Please help me. (formal writing)" },
           { es: "Envie-me o contrato até sexta.", en: "Send me the contract by Friday. (formal email)" },
-          { es: "Peço-lhe desculpas pelo atraso.", en: "I apologise to you for the delay. (formal letter)" },
+          { es: "Peço-lhe desculpas pelo atraso.", en: "I apologize to you for the delay. (formal letter)" },
           { es: "Far-lhe-ei uma visita amanhã.", en: "I shall pay him a visit tomorrow. (very formal)" },
           { es: "Vou visitar ele amanhã.", en: "I'm going to visit him tomorrow. (everyday Brazilian)" },
         ],
@@ -984,9 +984,9 @@ export const PT_A2_U06: Lesson[] = [
           {
             type: "multiple-choice",
             question: "An email from a company says: \"Peço-lhe desculpas pelo atraso.\" What does it mean?",
-            options: ["I apologise to you for the delay.", "Please ask him about the delay.", "I asked you to apologise for the delay.", "I'll apologise for the delay later."],
+            options: ["I apologize to you for the delay.", "Please ask him about the delay.", "I asked you to apologize for the delay.", "I'll apologize for the delay later."],
             correctIndex: 0,
-            explanation: "\"Peço-lhe\" is \"peço\" (I ask) + \"lhe\" (to you), written after the verb as formal style. \"Pedir desculpas\" means to apologise.",
+            explanation: "\"Peço-lhe\" is \"peço\" (I ask) + \"lhe\" (to you), written after the verb as formal style. \"Pedir desculpas\" means to apologize.",
           },
           {
             type: "translate",
@@ -1091,7 +1091,7 @@ export const PT_A2_U06: Lesson[] = [
         source: "I'm not going to tell you.",
         answer: "Eu não vou te dizer.",
         altAnswers: ["Não vou te dizer.", "Eu não vou te contar.", "Não vou te contar.", "Não vou dizer pra você.", "Não vou contar pra você.", "Não vou dizer para você.", "Não vou contar para você."],
-        explanation: "\"Não\" + \"vou\" + \"te\" + infinitive. The written future \"dir-lhe-ei\" exists, but no Brazilian says it.",
+        explanation: "\"Não\" + \"vou\" + \"te\" + infinitive. The written future \"dir-lhe-ei\" exists, but almost no Brazilian says it.",
       },
     ],
   },
@@ -1111,11 +1111,11 @@ export const PT_A2_U06: Lesson[] = [
           "Aloud, \"o\" sounds like u and \"os\" like us, so \"eu o vi\" is said \"eu u vi\". In writing, don't start the sentence with the pronoun. Keep the subject in front: \"eu o vi\", \"ela os convidou\".",
         ],
         examples: [
-          { es: "Eu vi ele no metrô ontem.", en: "I saw him on the metro yesterday. (speech)" },
+          { es: "Eu vi ele no metrô ontem.", en: "I saw him on the subway yesterday. (speech)" },
           { es: "Eu o vi na reunião de ontem.", en: "I saw him at yesterday's meeting. (writing)" },
           { es: "Você conhece ela?", en: "Do you know her? (speech)" },
           { es: "Encontrei elas na festa.", en: "I ran into them at the party. (speech)" },
-          { es: "Nós as encontramos na recepção.", en: "We met them at reception. (writing)" },
+          { es: "Nós as encontramos na recepção.", en: "We met them at the reception desk. (writing)" },
         ],
         checkpoint: [
           {
@@ -1178,7 +1178,7 @@ export const PT_A2_U06: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A customer in his sixties walks into your shop. What do you say?",
+            question: "A customer in his sixties walks into your store. What do you say?",
             options: ["Posso ajudar o senhor?", "Posso ajudar ele?", "Posso te ajudar?", "Posso ajudar a senhora?"],
             correctIndex: 0,
             explanation: "In speech, the polite you is the title itself: \"ajudar o senhor\". \"Ele\" would mean him, \"te\" is too casual for an older stranger, and \"a senhora\" is for a woman.",
@@ -1293,7 +1293,7 @@ export const PT_A2_U06: Lesson[] = [
       {
         type: "speak",
         text: "Eu vi ele no metrô ontem.",
-        prompt: "Say it in Portuguese (to a friend): I saw him on the metro yesterday.",
+        prompt: "Say it in Portuguese (to a friend): I saw him on the subway yesterday.",
         tip: "Close the ô in metrô, and make the -em of ontem nasal with no n at the end.",
         explanation: "Spoken register: \"ele\" goes after the verb. Saying \"eu o vi\" to a friend would sound like a news broadcast.",
       },
@@ -2047,7 +2047,7 @@ export const PT_A2_U06: Lesson[] = [
           "The setting decides, not the tense. A WhatsApp to a friend gets \"vi ela\", and an email to a client gets \"a vi\". Don't use \"lhe\" for him or her as a direct object: \"eu lhe vi\" is a classic mistake.",
         ],
         examples: [
-          { es: "Eu encontrei ela no metrô ontem.", en: "I ran into her on the metro yesterday." },
+          { es: "Eu encontrei ela no metrô ontem.", en: "I ran into her on the subway yesterday." },
           { es: "A gente visitava eles todo domingo.", en: "We used to visit them every Sunday." },
           { es: "Eu a conheci em Salvador, em 2019.", en: "I met her in Salvador in 2019. (written)" },
           { es: "Recebi o contrato e o assinei hoje de manhã.", en: "I got the contract and signed it this morning. (email)" },
@@ -2068,7 +2068,7 @@ export const PT_A2_U06: Lesson[] = [
             source: "I signed it this morning. (in an email, about the contract)",
             answer: "Eu o assinei hoje de manhã.",
             altAnswers: ["Eu o assinei hoje cedo.", "Eu o assinei hoje pela manhã.", "Assinei-o hoje de manhã."],
-            explanation: "In an email \"o\" (it, for \"o contrato\") goes before the verb: \"eu o assinei\". In a chat you'd say \"assinei ele\".",
+            explanation: "In an email \"o\" (it, for \"o contrato\") goes before the verb: \"eu o assinei\". Without \"eu\", formal writing avoids starting with the pronoun, so \"assinei-o\" is also correct here. In a chat you'd say \"assinei ele\".",
           },
           {
             type: "word-order",
@@ -2090,7 +2090,7 @@ export const PT_A2_U06: Lesson[] = [
           { es: "Eu ia te ligar, mas meu celular estava sem bateria.", en: "I was going to call you, but my phone was dead." },
           { es: "O João estava me esperando na rodoviária.", en: "João was waiting for me at the bus station." },
           { es: "Por que você não veio comigo?", en: "Why didn't you come with me?" },
-          { es: "Minha avó me dava doces quando eu era criança.", en: "My grandmother used to give me sweets when I was a child." },
+          { es: "Minha avó me dava doces quando eu era criança.", en: "My grandmother used to give me candy when I was a child." },
         ],
         checkpoint: [
           {
@@ -2134,7 +2134,7 @@ export const PT_A2_U06: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "My grandmother used to give me sweets.",
+        source: "My grandmother used to give me candy.",
         answer: "Minha avó me dava doces.",
         altAnswers: ["A minha avó me dava doces.", "Minha avó dava doces pra mim.", "Minha avó dava doces para mim.", "A minha avó dava doces pra mim.", "A minha avó dava doces para mim."],
         explanation: "Used to means a past habit, so the imperfeito \"dava\". \"Me\" before the verb or \"pra mim\" after it both work.",

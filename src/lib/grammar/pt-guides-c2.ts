@@ -10,8 +10,8 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
       "The figures of speech every Brazilian learns at school and meets in poems, songs, speeches and ads: metáfora and metonímia, hipérbole, eufemismo and ironia, antítese, paradoxo and gradação, anáfora, aliteração and assonância, elipse and zeugma, and the line between expressive and vicious pleonasmo.",
     level: "C2",
     intro: [
-      `"Figuras de linguagem" are a fixed part of the Brazilian school curriculum and of the ENEM: students are expected to name them and explain their effect. They are also everywhere outside school. Brazilians "tomam um copo", "leem Machado", say "já falei mil vezes", and recognise Camões's "Amor é fogo que arde sem se ver" as the classic paradox.`,
-      `At the Mastery level you need to recognise figures in literature, lyrics and political speech, use a few deliberately in your own writing, and avoid the accidental ones: mixed metaphors and the vicious pleonasms ("subir para cima") that Brazilian teachers circle in red.`,
+      `"Figuras de linguagem" are a fixed part of the Brazilian school curriculum and of the ENEM: students are expected to name them and explain their effect. They are also everywhere outside school. Brazilians "tomam um copo", "leem Machado", say "já falei mil vezes", and recognize Camões's "Amor é fogo que arde sem se ver" as the classic paradox.`,
+      `At the Mastery level you need to recognize figures in literature, lyrics and political speech, use a few deliberately in your own writing, and avoid the accidental ones: mixed metaphors and the vicious pleonasms ("subir para cima") that Brazilian teachers circle in red.`,
     ],
     sections: [
       {
@@ -43,7 +43,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
           `"Antítese" sets opposites side by side ("Ele é rico de dinheiro e pobre de espírito"). "Paradoxo" fuses them into an apparent contradiction ("Amor é fogo que arde sem se ver"). "Gradação" builds a series that rises or falls ("Um dia, uma semana, um mês, e nada de resposta").`,
         ],
         examples: [
-          { pt: "Esperei uma eternidade na fila do banco.", en: "I waited an eternity in the bank queue." },
+          { pt: "Esperei uma eternidade na fila do banco.", en: "I waited an eternity in line at the bank." },
           { pt: "Ele partiu cedo demais, aos quarenta anos.", en: "He left us far too soon, at forty." },
           { pt: "Ótimo, agora acabou a luz. Era só o que faltava!", en: "Great, now the power's gone. That's all we needed!" },
           { pt: "Era um silêncio ensurdecedor.", en: "It was a deafening silence." },
@@ -185,7 +185,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
       {
         heading: `Style beyond register: rhythm, length, plain language`,
         body: [
-          `Within one register, style is a set of choices: short sentences for impact, long periodic sentences for argument, concrete words for vividness, abstract nouns for distance. Brazilian journalism and the "linguagem simples" movement in public bodies push for short sentences, the active voice and everyday words; academic and legal writing still favour long, nominal sentences.`,
+          `Within one register, style is a set of choices: short sentences for impact, long periodic sentences for argument, concrete words for vividness, abstract nouns for distance. Brazilian journalism and the "linguagem simples" movement in public bodies push for short sentences, the active voice and everyday words; academic and legal writing still favor long, nominal sentences.`,
           `A useful exercise is to rewrite a text for a different reader: a "bula" (medicine leaflet) for a patient, a court decision for a news site, a scientific abstract for a podcast. Keep the facts, change the register markers consistently.`,
         ],
         examples: [
@@ -312,10 +312,10 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
             ["censo", "census", "senso", "sense"],
             ["caçar", "to hunt", "cassar", "to revoke (a mandate)"],
             ["acender", "to light", "ascender", "to rise"],
-            ["cheque", "cheque", "xeque", "check (chess), threat"],
+            ["cheque", "check (bank)", "xeque", "check (chess), threat"],
             ["eminente", "eminent", "iminente", "imminent"],
             ["mandato", "term of office", "mandado", "warrant, court order"],
-            ["comprimento", "length", "cumprimento", "greeting, fulfilment"],
+            ["comprimento", "length", "cumprimento", "greeting, fulfillment"],
           ],
         },
         examples: [
@@ -386,7 +386,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
     slug: "proverbs-and-idioms",
     title: "Ditados Populares and Advanced Idioms",
     description:
-      "The proverbs Brazilians actually use (and the habit of saying only the first half), advanced idioms from \"dar com os burros n'água\" to \"tirar onda\", football expressions used everywhere, and the grammar of fixed expressions that can't be changed.",
+      "The proverbs Brazilians actually use (and the habit of saying only the first half), advanced idioms from \"dar com os burros n'água\" to \"tirar onda\", soccer expressions used everywhere, and the grammar of fixed expressions that can't be changed.",
     level: "C2",
     intro: [
       `Brazilians quote proverbs constantly, often ironically and often only in part: "Quem não tem cão..." is enough, because everyone knows the rest. Idioms are just as frequent, in conversation, columns, political speeches and headlines. A Mastery-level speaker understands them instantly and uses a few naturally.`,
@@ -401,13 +401,13 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
         table: {
           headers: ["Ditado", "Meaning", "English equivalent"],
           rows: [
-            ["Quem não tem cão caça com gato.", "make do with what you have", "needs must"],
+            ["Quem não tem cão caça com gato.", "make do with what you have", "you work with what you've got"],
             ["De grão em grão a galinha enche o papo.", "little by little you get there", "every little helps"],
             ["Em casa de ferreiro, o espeto é de pau.", "experts neglect their own home", "the cobbler's children have no shoes"],
             ["Quem vê cara não vê coração.", "appearances deceive", "don't judge a book by its cover"],
             ["Águas passadas não movem moinho.", "the past is past", "let bygones be bygones"],
             ["Mais vale um pássaro na mão do que dois voando.", "keep what's certain", "a bird in the hand"],
-            ["Cada macaco no seu galho.", "mind your own business", "each to their own"],
+            ["Cada macaco no seu galho.", "everyone should stick to their own role", "stay in your lane"],
             ["Deus ajuda quem cedo madruga.", "effort is rewarded", "the early bird catches the worm"],
             ["Gato escaldado tem medo de água fria.", "bad experiences make you wary", "once bitten, twice shy"],
             ["O seguro morreu de velho.", "caution pays", "better safe than sorry"],
@@ -416,7 +416,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
           ],
         },
         examples: [
-          { pt: "Não tinha martelo, usei um sapato. Quem não tem cão...", en: "I didn't have a hammer, so I used a shoe. Needs must..." },
+          { pt: "Não tinha martelo, usei um sapato. Quem não tem cão...", en: "I didn't have a hammer, so I used a shoe. You work with what you've got..." },
           { pt: "Ela é nutricionista e só come besteira. Em casa de ferreiro...", en: "She's a nutritionist and eats nothing but junk. The cobbler's children..." },
           { pt: "Esquece essa briga. Águas passadas não movem moinho.", en: "Forget that fight. Let bygones be bygones." },
         ],
@@ -449,9 +449,9 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
         ],
       },
       {
-        heading: `Football everywhere`,
+        heading: `Soccer everywhere`,
         body: [
-          `Football supplies Brazilian Portuguese with a large stock of metaphors used in business, politics and love. "Pisar na bola" (to mess up, let someone down) is as common as any verb; "show de bola" means excellent; "aos 45 do segundo tempo" means at the last minute.`,
+          `Soccer (futebol) supplies Brazilian Portuguese with a large stock of metaphors used in business, politics and love. "Pisar na bola" (to mess up, let someone down) is as common as any verb; "show de bola" means excellent; "aos 45 do segundo tempo" means at the last minute.`,
         ],
         table: {
           headers: ["Expression", "Literal", "Meaning"],
@@ -505,7 +505,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
       },
       {
         q: `Are idioms regional?`,
-        a: `Many are national, but each region has its own: "massa" (great) in the Northeast, "bah" and "tri" in Rio Grande do Sul, "uai" in Minas Gerais. Recognise them; adopt them only if you live there.`,
+        a: `Many are national, but each region has its own: "massa" (great) in the Northeast, "bah" and "tri" in Rio Grande do Sul, "uai" in Minas Gerais. Recognize them; adopt them only if you live there.`,
       },
     ],
     related: ["figures-of-speech", "false-friends-and-translation", "linguistic-variation", "verb-expressions-dar-ficar-pegar"],
@@ -539,7 +539,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
       {
         heading: `False friends`,
         body: [
-          `Some of these are completely false; others overlap partly. "Realizar" does mean to realise a dream (fulfil), but never to realise a fact (that's "perceber" or "se dar conta"). "Assistir" means to watch (with "a" in the norm) and, in medical contexts, to assist.`,
+          `Some of these are completely false; others overlap partly. "Realizar" does mean to realize a dream (fulfill), but never to realize a fact (that's "perceber" or "se dar conta"). "Assistir" means to watch (with "a" in the norm) and, in medical contexts, to assist.`,
         ],
         table: {
           headers: ["Portuguese", "Means", "English look-alike", "Portuguese for that"],
@@ -547,10 +547,10 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
             ["pretender", "to intend", "pretend", "fingir"],
             ["eventualmente", "occasionally, possibly", "eventually", "finalmente, com o tempo"],
             ["atualmente", "currently", "actually", "na verdade"],
-            ["realizar", "to carry out, fulfil", "realise (a fact)", "perceber, se dar conta"],
+            ["realizar", "to carry out, fulfill", "realize (a fact)", "perceber, se dar conta"],
             ["puxar", "to pull", "push", "empurrar"],
             ["compromisso", "appointment, commitment", "compromise", "acordo, meio-termo"],
-            ["livraria", "bookshop", "library", "biblioteca"],
+            ["livraria", "bookstore", "library", "biblioteca"],
             ["parentes", "relatives", "parents", "pais"],
             ["esquisito", "weird", "exquisite", "requintado, primoroso"],
             ["sensível", "sensitive", "sensible", "sensato"],
@@ -564,7 +564,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
         examples: [
           { pt: "Pretendo me mudar para Florianópolis no ano que vem.", en: "I intend to move to Florianópolis next year." },
           { pt: "Atualmente, trabalho como tradutora autônoma.", en: "I currently work as a freelance translator." },
-          { pt: "Só percebi o erro depois de enviar o e-mail.", en: "I only realised the mistake after sending the email." },
+          { pt: "Só percebi o erro depois de enviar o e-mail.", en: "I only realized the mistake after sending the email." },
           { pt: "Eventualmente, trabalho de casa, mas em geral vou ao escritório.", en: "Occasionally I work from home, but usually I go to the office." },
         ],
       },
@@ -588,7 +588,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
         },
         examples: [
           { pt: "Depois de muito pensar, ela desistiu da viagem.", en: "After a lot of thought, she gave up on the trip." },
-          { pt: "Descobri que o voo tinha sido cancelado.", en: "I found out the flight had been cancelled." },
+          { pt: "Descobri que o voo tinha sido cancelado.", en: "I found out the flight had been canceled." },
         ],
       },
       {
@@ -600,7 +600,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
         examples: [
           { pt: "líder da equipe de atendimento ao cliente", en: "customer service team leader" },
           { pt: "estratégia de mitigação das mudanças climáticas", en: "climate change mitigation strategy" },
-          { pt: "Me disseram que a loja fecha às seis.", en: "I was told the shop closes at six." },
+          { pt: "Me disseram que a loja fecha às seis.", en: "I was told the store closes at six." },
           { pt: "Acredita-se que o quadro tenha sido pintado em 1920.", en: "The painting is believed to have been painted in 1920." },
         ],
       },
@@ -609,7 +609,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
       {
         wrong: "Eu realizei que tinha esquecido a chave.",
         right: "Eu percebi que tinha esquecido a chave.",
-        why: `"Realizar" is to carry out or fulfil, never to become aware.`,
+        why: `"Realizar" is to carry out or fulfill, never to become aware.`,
       },
       {
         wrong: "Eventualmente, ela conseguiu o visto.",
@@ -638,8 +638,8 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
         a: `No, that's regência. "Assistir" means to watch, and the norm requires "assistir ao filme". The false-friend problem is using "assistir" for to help someone outside medical or legal contexts: say "ajudar".`,
       },
       {
-        q: `How do I localise rather than translate?`,
-        a: `Adapt dates (dd/mm/aaaa), numbers (decimal comma: "3,5"; thousands with a point: "1.000"), currency ("R$ 1.234,56"), units, humour and politeness. Brazilian readers expect warmer openings and "você" in most web copy.`,
+        q: `How do I localize rather than translate?`,
+        a: `Adapt dates (dd/mm/aaaa), numbers (decimal comma: "3,5"; thousands with a point: "1.000"), currency ("R$ 1.234,56"), units, humor and politeness. Brazilian readers expect warmer openings and "você" in most web copy.`,
       },
       {
         q: `Why does my translation sound stiff even without errors?`,
@@ -668,7 +668,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
     slug: "spoken-discourse-markers",
     title: "Então, Aí, Tipo, Né: Discourse Markers in Speech and Speeches",
     description:
-      "The words that organise spoken Brazilian Portuguese: \"então\", \"aí\", \"tipo\", \"né\", \"olha\", \"bom\", \"enfim\", \"quer dizer\" and backchannels, what each one does in a conversation, and their formal counterparts for speeches, debates and answering questions in public.",
+      "The words that organize spoken Brazilian Portuguese: \"então\", \"aí\", \"tipo\", \"né\", \"olha\", \"bom\", \"enfim\", \"quer dizer\" and backchannels, what each one does in a conversation, and their formal counterparts for speeches, debates and answering questions in public.",
     level: "C2",
     intro: [
       `Transcribe a relaxed Brazilian conversation and you'll find a word every few seconds that adds no content: "então", "aí", "tipo", "né", "olha", "bom". These discourse markers open and close turns, hold the floor, mark a new topic, soften an opinion, or check that the listener is following. Without them, a fluent speaker sounds oddly abrupt; with too many, a learner sounds nervous.`,
@@ -707,7 +707,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
         ],
         examples: [
           { pt: "Nossa, sério? Não acredito!", en: "Wow, seriously? I can't believe it!" },
-          { pt: "Então tá, qualquer coisa me chama.", en: "OK then, if you need anything, give me a shout." },
+          { pt: "Então tá, qualquer coisa me chama.", en: "OK then, if you need anything, just call me." },
           { pt: "Bom, é isso. Vamos nos falando.", en: "Well, that's it. Let's keep in touch." },
         ],
       },
@@ -730,7 +730,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
         examples: [
           { pt: "Alguns dirão que a medida é cara. É bem verdade, mas a inação custa mais.", en: "Some will say the measure is expensive. True, but doing nothing costs more." },
           { pt: "Agradeço a pergunta. Se entendi bem, a senhora quer saber quem vai pagar.", en: "Thank you for the question. If I understood correctly, you want to know who will pay." },
-          { pt: "Peço a palavra, senhor presidente, pela ordem.", en: "I request the floor, Mr President, on a point of order." },
+          { pt: "Peço a palavra, senhor presidente, pela ordem.", en: "I request the floor, Mr. President, on a point of order." },
         ],
       },
     ],
@@ -796,13 +796,13 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
       {
         heading: `The grammar of laws and court decisions`,
         body: [
-          `Brazilian laws state rules impersonally. Criminal offences are defined with a bare infinitive followed by the penalty: article 121 of the Código Penal reads simply "Matar alguém: Pena - reclusão, de seis a vinte anos." Conditions and subjects use the future subjunctive ("Quem infringir...", "O locatário que deixar de pagar..."), and duties use deontic formulas ("compete a", "incumbe a", "é vedado", "é facultado").`,
-          `Court decisions favour nominalisation and the passive "se": "Trata-se de ação de indenização", "Julga-se procedente o pedido", "Defere-se a liminar". The parties are "o autor" (plaintiff) and "o réu" (defendant); "a sentença" is the first-instance judgment, "o acórdão" an appeal court's, "o recurso" the appeal.`,
+          `Brazilian laws state rules impersonally. Criminal offenses are defined with a bare infinitive followed by the penalty: article 121 of the Código Penal reads simply "Matar alguém: Pena - reclusão, de seis a vinte anos." Conditions and subjects use the future subjunctive ("Quem infringir...", "O locatário que deixar de pagar..."), and duties use deontic formulas ("compete a", "incumbe a", "é vedado", "é facultado").`,
+          `Court decisions favor nominalization and the passive "se": "Trata-se de ação de indenização", "Julga-se procedente o pedido", "Defere-se a liminar". The parties are "o autor" (plaintiff) and "o réu" (defendant); "a sentença" is the first-instance judgment, "o acórdão" an appeal court's, "o recurso" the appeal.`,
         ],
         table: {
           headers: ["Structure", "Example", "Meaning"],
           rows: [
-            ["infinitive + penalty", "Subtrair coisa alheia móvel: Pena - reclusão", "the offence of theft is defined as"],
+            ["infinitive + penalty", "Subtrair coisa alheia móvel: Pena - reclusão", "the offense of theft is defined as"],
             ["future subjunctive", "Quem descumprir a norma será multado.", "whoever breaches the rule"],
             ["deontic formula", "Compete à União legislar sobre...", "it is the Union's responsibility"],
             ["impersonal se", "Julga-se procedente o pedido.", "the claim is upheld"],
@@ -811,16 +811,16 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
           ],
         },
         examples: [
-          { pt: "O réu foi condenado, mas a defesa vai recorrer da sentença.", en: "The defendant was convicted, but the defence will appeal against the judgment." },
+          { pt: "O réu foi condenado, mas a defesa vai recorrer da sentença.", en: "The defendant was convicted, but the defense will appeal against the judgment." },
           { pt: "O juiz concedeu uma liminar suspendendo a obra.", en: "The judge granted an injunction suspending the building work." },
-          { pt: "Quem dirigir sob efeito de álcool terá a carteira suspensa.", en: "Anyone who drives under the influence of alcohol will have their licence suspended." },
+          { pt: "Quem dirigir sob efeito de álcool terá a carteira suspensa.", en: "Anyone who drives under the influence of alcohol will have their license suspended." },
         ],
       },
       {
         heading: `Latinisms and archaisms`,
         body: [
           `Legal and academic Portuguese keep many Latin phrases, written in italics in careful texts. Some are general educated vocabulary ("a priori", "ad hoc", "sine qua non", "in loco"); some are specifically legal ("data venia", "habeas corpus", "erga omnes"). "Lato sensu" and "stricto sensu" are also the everyday names of two kinds of Brazilian postgraduate course.`,
-          `Archaic connectors survive in legal and very formal writing: "outrossim" (furthermore), "destarte" (thus), "porquanto" (since), "conquanto" (although, + subjunctive), "mister" in "faz-se mister" (it is necessary), "precípuo" (main). Recognise them; in your own writing prefer the modern equivalents.`,
+          `Archaic connectors survive in legal and very formal writing: "outrossim" (furthermore), "destarte" (thus), "porquanto" (since), "conquanto" (although, + subjunctive), "mister" in "faz-se mister" (it is necessary), "precípuo" (main). Recognize them; in your own writing prefer the modern equivalents.`,
         ],
         table: {
           headers: ["Term", "Meaning", "Example"],
@@ -838,7 +838,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
         },
         examples: [
           { pt: "O advogado impetrou um habeas corpus em favor do cliente.", en: "The lawyer filed a habeas corpus petition on behalf of his client." },
-          { pt: "Ela fez uma especialização lato sensu em gestão pública.", en: "She did a postgraduate specialisation course in public management." },
+          { pt: "Ela fez uma especialização lato sensu em gestão pública.", en: "She did a postgraduate specialization course in public management." },
         ],
       },
       {
@@ -878,12 +878,12 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
     ],
     faqs: [
       {
-        q: `Should Latin phrases be italicised?`,
+        q: `Should Latin phrases be italicized?`,
         a: `In careful writing, yes, as foreign words; many legal texts and newspapers don't bother. They are usually written without Portuguese accents ("a priori", "habeas corpus"), although the hybrid spelling "data vênia" is also common.`,
       },
       {
         q: `Do Brazilian lawyers really write like this?`,
-        a: `Traditionally, yes, and the style is often criticised. Courts and the plain-language movement now push for shorter, clearer texts, but you'll still meet "outrossim" and "destarte" in petitions and decisions.`,
+        a: `Traditionally, yes, and the style is often criticized. Courts and the plain-language movement now push for shorter, clearer texts, but you'll still meet "outrossim" and "destarte" in petitions and decisions.`,
       },
       {
         q: `Why is "STF" often the subject of headlines?`,
@@ -915,7 +915,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
     level: "C2",
     intro: [
       `No one speaks the grammar book. Educated Brazilians say "a gente vai", "eu vi ele" and "tem muita gente aqui" without a second thought, while "os menino chegou" marks a speaker as less schooled and is the target of prejudice. Linguists distinguish the "norma padrão" (the prescriptive ideal of grammars) from the "norma culta" (what educated speakers actually use), and both from popular varieties.`,
-      `At the Mastery level you need to recognise these features, understand what they signal about region, class and situation, and talk about them without judgement, as the Celpe-Bras and Brazilian public debate increasingly expect.`,
+      `At the Mastery level you need to recognize these features, understand what they signal about region, class and situation, and talk about them without judgment, as the Celpe-Bras and Brazilian public debate increasingly expect.`,
     ],
     sections: [
       {
@@ -930,11 +930,11 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
             ["object pronoun", "Eu vi ele.", "Eu o vi.", "universal in speech"],
             ["null object", "Você viu o filme? Vi.", "Vi, sim. / Eu o vi.", "universal"],
             ["existential", "Tem muita gente.", "Há muitas pessoas.", "universal in speech"],
-            ["you", "\"tu vai\" (South, North, Northeast)", "você vai / \"tu vais\"", "regional, neutral"],
+            ["you", "\"tu vai\" (South, Rio, parts of the North and Northeast)", "você vai / \"tu vais\"", "regional, neutral"],
             ["plural marking", "os menino", "os meninos", "socially marked"],
             ["verb agreement", "nós vai, eles foi", "nós vamos, eles foram", "socially marked"],
             ["subject of infinitive", "para mim fazer", "para eu fazer", "socially marked"],
-            ["r for l", "pranta, Framengo", "planta, Flamengo", "strongly stigmatised"],
+            ["r for l", "pranta, Framengo", "planta, Flamengo", "strongly stigmatized"],
           ],
         },
         examples: [
@@ -946,8 +946,8 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
       {
         heading: `Region, class and the norm debate`,
         body: [
-          `Regional features are mostly phonetic and lexical: the Carioca "s" that sounds like "sh", the caipira retroflex "r" of the São Paulo interior, the Northeastern "t" and "d" that don't become "tch" and "dj" before "i", the "tu" of Porto Alegre and Belém. Vocabulary varies too ("mandioca", "aipim" and "macaxeira" are the same root).`,
-          `Marcos Bagno's book "Preconceito linguístico" (1999) popularised the argument that judging people by non-standard grammar is social prejudice. Grammarians and many commentators answer that schools must teach the norm as a tool of access. The debate returns every time a textbook includes popular forms. You don't have to take sides, but you should be able to discuss it.`,
+          `Regional features are mostly phonetic and lexical: the Carioca "s" that sounds like "sh", the caipira retroflex "r" of the São Paulo interior, the Northeastern "t" and "d" that don't become "tch" and "dj" before "i", the "tu" of Porto Alegre and Belém. Vocabulary varies too ("mandioca", "aipim" and "macaxeira" all name cassava).`,
+          `Marcos Bagno's book "Preconceito linguístico" (1999) popularized the argument that judging people by non-standard grammar is social prejudice. Grammarians and many commentators answer that schools must teach the norm as a tool of access. The debate returns every time a textbook includes popular forms. You don't have to take sides, but you should be able to discuss it.`,
         ],
         examples: [
           { pt: "Em Porto Alegre, bah e tri aparecem em qualquer conversa.", en: "In Porto Alegre, bah and tri turn up in every conversation." },
@@ -958,7 +958,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
         heading: `Change in progress and the gender debate`,
         body: [
           `Brazilian Portuguese is changing in visible ways: "a gente" is replacing "nós" in speech, the object pronoun "o / a" is disappearing from conversation, English verbs are absorbed into the first conjugation ("deletar", "printar", "stalkear", "postar"), and internet writing has its own conventions ("vc", "pq", "tb", "kkkk").`,
-          `The debate on "linguagem neutra" proposes forms like "todes" and "elu" to avoid the masculine generic. Supporters see inclusion; critics, including many linguists, point out that the forms are hard to generalise, and several states have tried to ban them in schools. Widely accepted alternatives avoid the issue: "todas e todos", "as pessoas", "quem estuda" instead of "os estudantes".`,
+          `The debate on "linguagem neutra" proposes forms like "todes" and "elu" to avoid the masculine generic. Supporters see inclusion; critics, including many linguists, point out that the forms are hard to generalize, and laws in several states and cities have tried to ban them in schools (the STF has struck down such laws, ruling that only the federal government can legislate on education guidelines). Widely accepted alternatives avoid the issue: "todas e todos", "as pessoas", "quem estuda" instead of "os estudantes".`,
         ],
         examples: [
           { pt: "Vou printar a tela e te mando.", en: "I'll take a screenshot and send it to you." },
@@ -971,7 +971,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
       {
         wrong: "A gente vamos ao cinema.",
         right: "A gente vai ao cinema.",
-        why: `"A gente" takes a third person singular verb. The plural is stigmatised.`,
+        why: `"A gente" takes a third person singular verb. The plural is stigmatized.`,
       },
       {
         wrong: "Isso é para mim fazer amanhã.",
@@ -1069,7 +1069,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
         },
         examples: [
           { pt: "A maioria dos moradores votou contra a obra.", en: "Most residents voted against the building work." },
-          { pt: "Alugam-se quartos para estudantes.", en: "Rooms to let for students." },
+          { pt: "Alugam-se quartos para estudantes.", en: "Student rooms for rent." },
           { pt: "Mais de um funcionário reclamou do horário.", en: "More than one employee complained about the hours." },
         ],
       },
@@ -1121,7 +1121,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
       {
         wrong: "Tinha menas pessoas do que eu esperava.",
         right: "Tinha menos pessoas do que eu esperava.",
-        why: `"Menos" is invariable. "Menas" is strongly stigmatised.`,
+        why: `"Menos" is invariable. "Menas" is strongly stigmatized.`,
       },
       {
         wrong: "Mais de um aluno faltaram.",
@@ -1198,7 +1198,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
       {
         heading: `The norm vs speech`,
         body: [
-          `A second group of verbs has a norm construction and a spoken one that everyone uses. Write the norm in formal texts. Among the most important: "ir a" and "chegar a" for destinations ("ir no" and "chegar em" are spoken), "preferir algo a algo" (never "preferir mais... do que"), "namorar alguém" (no "com" in the norm), "obedecer a", "responder a", "simpatizar com" (not reflexive), and "esquecer algo" / "esquecer-se de algo".`,
+          `A second group of verbs has a norm construction and a spoken one that everyone uses. Write the norm in formal texts. Among the most important: "ir a" and "chegar a" for destinations ("ir no" and "chegar em" are spoken), "preferir algo a algo" (not "preferir mais... do que"), "namorar alguém" (no "com" in the norm), "obedecer a", "responder a", "simpatizar com" (not reflexive), and "esquecer algo" / "esquecer-se de algo".`,
         ],
         table: {
           headers: ["Norm", "Speech", "English"],
@@ -1224,7 +1224,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
           `When the verb in a relative clause takes a preposition, the norm puts that preposition before the relative pronoun: "o filme a que assisti", "o livro de que preciso", "a vaga a que me candidatei", "a pessoa com quem falei". Spoken Portuguese simply drops it ("o filme que eu assisti", "o livro que eu preciso"), and this is one of the clearest markers of written vs spoken style.`,
         ],
         examples: [
-          { pt: "Este é o cargo a que ela sempre aspirou.", en: "This is the post she always aspired to." },
+          { pt: "Este é o cargo a que ela sempre aspirou.", en: "This is the position she always aspired to." },
           { pt: "Ainda não recebi os documentos de que preciso.", en: "I still haven't received the documents I need." },
           { pt: "A empresa com que fechamos o contrato é de Curitiba.", en: "The company we signed the contract with is from Curitiba." },
         ],
@@ -1243,7 +1243,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
             ["correr um risco", "run / take a risk", "tomar um risco"],
             ["fazer uma visita", "pay a visit", "pagar uma visita"],
             ["tirar uma foto", "take a photo", "tomar uma foto"],
-            ["tirar férias", "take a holiday", "tomar férias"],
+            ["tirar férias", "take a vacation", "tomar férias"],
             ["cometer um erro", "make a mistake", "fazer um erro"],
             ["dar um passeio", "take a walk", "tomar um passeio"],
           ],
@@ -1338,7 +1338,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
         heading: `Times, places, "casa" and "distância"`,
         body: [
           `Clock times take the crase because they imply "as horas": "às 8h", "à uma hora", "das 8h às 18h". The parallel rule matters: "das... às" (with articles) or "de... a" (without), never mixed. "Daqui a duas horas" has no crase: it's future time from now (and "há duas horas" is past).`,
-          `Places: use the "voltar de / da" test. "Volto da Bahia" so "Vou à Bahia"; "Volto de Salvador" so "Vou a Salvador". A place name that takes no article gets one when modified: "Vou à Roma dos césares". "Casa" meaning one's own home has no article ("Voltei a casa", in the traditional norm); specified, it does ("Fui à casa da minha mãe"). "Distância" has no crase unless the distance is specified: "ensino a distância", "à distância de cem metros".`,
+          `Places: use the "voltar de / da" test. "Volto da Bahia" so "Vou à Bahia"; "Volto de Salvador" so "Vou a Salvador". A place name that takes no article gets one when modified: "Vou à Roma dos Césares". "Casa" meaning one's own home has no article ("Voltei a casa", in the traditional norm); specified, it does ("Fui à casa da minha mãe"). "Distância" has no crase unless the distance is specified: "ensino a distância", "à distância de cem metros".`,
         ],
         table: {
           headers: ["Case", "Crase", "No crase"],
@@ -1351,7 +1351,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
           ],
         },
         examples: [
-          { pt: "A loja funciona das 9h às 21h.", en: "The shop is open from 9 a.m. to 9 p.m." },
+          { pt: "A loja funciona das 9h às 21h.", en: "The store is open from 9 a.m. to 9 p.m." },
           { pt: "O resultado sai daqui a duas semanas.", en: "The result comes out in two weeks' time." },
           { pt: "Ela fez a graduação a distância.", en: "She did her degree by distance learning." },
         ],
@@ -1372,7 +1372,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
         heading: `Optional crase and where it never goes`,
         body: [
           `The crase is optional before feminine possessives ("Entreguei o livro a / à minha irmã"), before women's first names (depending on whether you use the article), and after "até" ("Fui até a / à praia"; in Brazil "até a" is far more frequent).`,
-          `It is never used before masculine words, verbs, indefinite articles ("a uma"), most pronouns ("a ela", "a você", "a esta", "a Vossa Senhoria", but "à senhora"), plural nouns after singular "a" ("a pessoas"), or between repeated words ("cara a cara", "gota a gota", "frente a frente").`,
+          `It is not used before masculine words (unless "à moda de" is understood, as above), verbs, indefinite articles ("a uma"), most pronouns ("a ela", "a você", "a esta", "a Vossa Senhoria", but "à senhora"), plural nouns after singular "a" ("a pessoas"), or between repeated words ("cara a cara", "gota a gota", "frente a frente").`,
         ],
         examples: [
           { pt: "Ele entregou o relatório a uma colega.", en: "He gave the report to a colleague." },
@@ -1454,7 +1454,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
         heading: `The comma: the core rules`,
         body: [
           `Never separate the subject from its verb, or the verb from its object, however long they are. Always set off the vocative ("Ana, venha cá"), explanatory appositions ("Machado de Assis, fundador da ABL, nasceu no Rio") and explanatory relative clauses. Set off adverbials moved to the front (optional when short) and connectors moved inside the clause ("O plano, contudo, falhou").`,
-          `Before "e", normally no comma, except when the subjects differ and confusion is possible, or in a deliberate repetition (polysyndeton). Before "mas", always a comma. A comma also marks an omitted verb (zeugma): "Eu prefiro café; ela, chá."`,
+          `Before "e", normally no comma, except when the subjects differ and confusion is possible, or in a deliberate repetition (polysyndeton). Before "mas", normally a comma. A comma also marks an omitted verb (zeugma): "Eu prefiro café; ela, chá."`,
         ],
         table: {
           headers: ["Rule", "Correct", "Wrong"],
@@ -1501,7 +1501,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
         examples: [
           { pt: "— Você vem amanhã? — perguntou a Beatriz.", en: "'Are you coming tomorrow?' asked Beatriz." },
           { pt: "Faltava uma coisa: coragem.", en: "One thing was missing: courage." },
-          { pt: "O ingresso custa R$ 45,50 e a sessão começa às 20h30.", en: "The ticket costs R$45.50 and the showing starts at 8.30 p.m." },
+          { pt: "O ingresso custa R$ 45,50 e a sessão começa às 20h30.", en: "The ticket costs R$45.50 and the showing starts at 8:30 p.m." },
         ],
       },
     ],
@@ -1571,7 +1571,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
       {
         heading: `Conjunction + subjunctive or preposition + infinitive`,
         body: [
-          `Most subordinating conjunctions have a prepositional twin that takes the infinitive. With the same subject in both clauses, the infinitive is required: "Estudo para passar", never "para que eu passe". With different subjects, both are possible; the subjunctive sounds more formal and more deliberate, the personal infinitive lighter and very common in speech.`,
+          `Most subordinating conjunctions have a prepositional twin that takes the infinitive. With the same subject in both clauses, the infinitive is the natural choice: "Estudo para passar" ("para que eu passe" sounds unnatural). "Embora" has no infinitive twin of its own, so it takes the subjunctive even with the same subject; "apesar de" + infinitive is the alternative. With different subjects, both are possible; the subjunctive sounds more formal and more deliberate, the personal infinitive lighter and very common in speech.`,
           `Watch "depois que": it takes the indicative for past and habitual facts ("Depois que ele chegou, jantamos") and the future subjunctive for the future ("Depois que ele chegar, jantamos"), never the present subjunctive.`,
         ],
         table: {
@@ -1596,7 +1596,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
         heading: `Impersonal expressions and verbs of wishing`,
         body: [
           `After "é importante", "é preciso", "é necessário", "é bom" and similar: with no specific subject, use the plain infinitive ("É importante chegar cedo"). With a specific subject, use "que" + subjunctive ("É importante que vocês cheguem cedo") or the personal infinitive ("É importante vocês chegarem cedo"). The subjunctive is more formal and insistent.`,
-          `Verbs of wishing and ordering ("querer", "desejar", "pedir", "exigir") take "que" + subjunctive for a different subject and the infinitive for the same subject: "Quero sair" but "Quero que você saia". "Quero eu sair" is not Portuguese. Verbs of permitting and ordering ("deixar", "mandar", "proibir") also allow the infinitive with a different subject: "Ele proibiu os filhos de sair" or "proibiu que os filhos saíssem".`,
+          `Verbs of wishing and ordering ("querer", "desejar", "pedir", "exigir") take "que" + subjunctive for a different subject and the infinitive for the same subject: "Quero sair" but "Quero que você saia". "Quero que eu saia" is not idiomatic. Verbs of permitting and ordering ("deixar", "mandar", "proibir") also allow the infinitive with a different subject: "Ele proibiu os filhos de sair" or "proibiu que os filhos saíssem".`,
         ],
         examples: [
           { pt: "É fundamental que o governo apresente um plano.", en: "It is essential that the government present a plan." },
@@ -1624,7 +1624,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
         },
         examples: [
           { pt: "Os convidados começaram a chegar às oito.", en: "The guests started arriving at eight." },
-          { pt: "Pedi para os vizinhos baixarem o som.", en: "I asked the neighbours to turn the music down." },
+          { pt: "Pedi para os vizinhos baixarem o som.", en: "I asked the neighbors to turn the music down." },
           { pt: "Deixe-me explicar melhor.", en: "Let me explain more clearly." },
         ],
       },

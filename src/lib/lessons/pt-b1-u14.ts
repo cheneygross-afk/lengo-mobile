@@ -38,7 +38,7 @@ export const PT_B1_U14: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Chatting with a friend, you want to say: I think the shop is closed. Which sounds most natural?",
+            question: "Chatting with a friend, you want to say: I think the store is closed. Which sounds most natural?",
             options: ["Acho que a loja está fechada.", "Acho que a loja esteja fechada.", "Acho que a loja é fechada.", "Acho assim que a loja está fechada."],
             correctIndex: 0,
             explanation: "\"Acho que\" + indicative, and a temporary state takes \"estar\": \"está fechada\". \"Esteja\" would only follow doubt, such as \"não acho que\".",
@@ -61,11 +61,11 @@ export const PT_B1_U14: Lesson[] = [
           "Use one frame per sentence. \"Na minha opinião, eu acho que...\" says the same thing twice. Brazilians do say it, but in writing keep just one.",
         ],
         examples: [
-          { es: "Na minha opinião, o metrô é a melhor opção.", en: "In my opinion, the metro is the best option." },
+          { es: "Na minha opinião, o metrô é a melhor opção.", en: "In my opinion, the subway is the best option." },
           { es: "Para mim, o melhor pão de queijo é o de Minas.", en: "For me, the best pão de queijo is the one from Minas." },
           { es: "Do meu ponto de vista, a reunião foi muito longa.", en: "From my point of view, the meeting was very long." },
           { es: "Pessoalmente, prefiro morar perto do trabalho.", en: "Personally, I prefer to live near work." },
-          { es: "Pra mim, esse filme é chato.", en: "To me, that film is boring." },
+          { es: "Pra mim, esse filme é chato.", en: "To me, that movie is boring." },
         ],
         checkpoint: [
           {
@@ -95,7 +95,7 @@ export const PT_B1_U14: Lesson[] = [
       {
         heading: "Me parece que, and asking for opinions",
         body: [
-          "\"Me parece que\" (it seems to me) softens a view, which helps when you criticise: \"me parece que o preço está alto\". In Brazil the pronoun goes first; \"parece-me\" is formal writing or European. Without \"me\", \"parece que\" usually passes on what others say: \"parece que vai ter greve\" (apparently there's going to be a strike).",
+          "\"Me parece que\" (it seems to me) softens a view, which helps when you criticize: \"me parece que o preço está alto\". In Brazil the pronoun goes first; \"parece-me\" is formal writing or European. Without \"me\", \"parece que\" usually passes on what others say: \"parece que vai ter greve\" (apparently there's going to be a strike).",
           "To ask, use \"achar\" again: \"o que você acha?\" (what do you think?) or \"você acha que...?\". The topic usually takes \"de\" and its contractions: \"o que você acha do novo prefeito?\", \"o que você acha de morar no centro?\".",
         ],
         examples: [
@@ -126,8 +126,8 @@ export const PT_B1_U14: Lesson[] = [
           {
             type: "speak",
             text: "Me parece que o preço está alto.",
-            tip: "\"Me\" sounds like mi, and the final e of \"parece\" sounds like i: pa-RÉ-si.",
-            explanation: "\"Me parece que\" softens a criticism, and the pronoun comes before the verb, as Brazilians say it.",
+            tip: "\"Me\" sounds like mi, and the final e of \"parece\" sounds like i: pa-RÊ-si, with a closed ê.",
+            explanation: "\"Me parece que\" softens a criticizm, and the pronoun comes before the verb, as Brazilians say it.",
           },
         ],
       },
@@ -219,7 +219,7 @@ export const PT_B1_U14: Lesson[] = [
       {
         type: "speak",
         text: "Na minha opinião, o metrô é a melhor opção.",
-        prompt: "Say it in Portuguese: In my opinion, the metro is the best option.",
+        prompt: "Say it in Portuguese: In my opinion, the subway is the best option.",
         tip: "Nasal \"-ão\" in \"opinião\" and \"opção\", and the t in \"metrô\" stays a plain t before r.",
         explanation: "The frame \"na minha opinião\" comes first, then a normal sentence. \"Melhor\", never \"mais boa\".",
       },
@@ -287,7 +287,7 @@ export const PT_B1_U14: Lesson[] = [
           { es: "Eu discordo totalmente dessa ideia.", en: "I completely disagree with that idea." },
           { es: "Desculpa, mas eu não concordo.", en: "Sorry, but I don't agree." },
           { es: "Entendo seu ponto de vista, mas não é bem assim.", en: "I see your point, but it's not quite like that." },
-          { es: "Muitos moradores discordam da mudança no horário do ônibus.", en: "Many residents disagree with the change to the bus timetable." },
+          { es: "Muitos moradores discordam da mudança no horário do ônibus.", en: "Many residents disagree with the change to the bus schedule." },
         ],
         checkpoint: [
           {
@@ -327,7 +327,7 @@ export const PT_B1_U14: Lesson[] = [
           { es: "Concordo que as ciclovias são importantes.", en: "I agree that bike lanes are important." },
           { es: "Não concordo que o celular seja proibido nas escolas.", en: "I don't agree that phones should be banned in schools." },
           { es: "Não concordo que a cidade esteja mais segura.", en: "I don't agree that the city is safer." },
-          { es: "Você concorda que o transporte público precisa melhorar?", en: "Do you agree that public transport needs to improve?" },
+          { es: "Você concorda que o transporte público precisa melhorar?", en: "Do you agree that public transportation needs to improve?" },
           { es: "Concordo em parte, mas o home office tem desvantagens.", en: "I partly agree, but working from home has downsides." },
           { es: "Em parte. Concordo com a ideia, mas não com o preço.", en: "Partly. I agree with the idea, but not with the price." },
         ],
@@ -500,7 +500,7 @@ export const PT_B1_U14: Lesson[] = [
         body: [
           "To agree only partly, add \"até certo ponto\" (to some extent, up to a point) or \"em parte\" from the last lesson: \"concordo, até certo ponto\". Don't translate to some extent word for word: Portuguese has no such phrase with \"extensão\". Casual speech also uses \"mais ou menos\" (sort of).",
           "\"Não necessariamente\" softens a no: it rejects a conclusion without telling the other person they're wrong. \"Nem sempre\" (not always) works the same way. Both stand alone as answers or go inside the sentence: \"não é necessariamente caro\", \"nem sempre funciona\".",
-          "Stress the long word near the end: ne-ces-sa-ri-a-MEN-te, like every -mente adverb.",
+          "Stress the long word near the end: ne-se-sa-ri-a-MEN-tchi, like every -mente adverb.",
         ],
         examples: [
           { es: "Concordo com você até certo ponto.", en: "I agree with you to some extent." },
@@ -508,7 +508,7 @@ export const PT_B1_U14: Lesson[] = [
           { es: "O mais caro é sempre o melhor? Não necessariamente.", en: "Is the most expensive always the best? Not necessarily." },
           { es: "Quem estuda muito nem sempre tira boas notas.", en: "People who study a lot don't always get good grades." },
           { es: "Isso é verdade em parte.", en: "That's partly true." },
-          { es: "Você gostou do filme? Mais ou menos.", en: "Did you like the film? Sort of." },
+          { es: "Você gostou do filme? Mais ou menos.", en: "Did you like the movie? Sort of." },
         ],
         checkpoint: [
           {
@@ -544,7 +544,7 @@ export const PT_B1_U14: Lesson[] = [
           { es: "Pode até ser, mas eu não acredito.", en: "That may be so, but I don't believe it." },
           { es: "Pode até ser que chova, mas a gente vai mesmo assim.", en: "It may well rain, but we're going anyway." },
           { es: "Pode até ser caro, mas vale a pena.", en: "It may be expensive, but it's worth it." },
-          { es: "Vamos de metrô? Pode ser.", en: "Shall we take the metro? Sure." },
+          { es: "Vamos de metrô? Pode ser.", en: "Shall we take the subway? Sure." },
         ],
         checkpoint: [
           {
@@ -672,7 +672,7 @@ export const PT_B1_U14: Lesson[] = [
         type: "speak",
         text: "Não necessariamente. Depende da pessoa.",
         prompt: "Say it in Portuguese: Not necessarily. It depends on the person.",
-        tip: "Stress near the end: ne-ces-sa-ri-a-MEN-te.",
+        tip: "Stress near the end: ne-se-sa-ri-a-MEN-tchi.",
         explanation: "\"Não necessariamente\" plus \"depende da pessoa\" (de + a): a polite way to disagree.",
       },
       {
@@ -786,7 +786,7 @@ export const PT_B1_U14: Lesson[] = [
           "\"Você não acha que...?\" (don't you think...?) is a leading question. You already believe it and want the other person on your side, so the verb normally stays in the indicative: \"você não acha que é caro?\". Don't confuse it with the statement \"não acho que seja caro\", where doubt brings the subjunctive. To hand the floor over, ask \"e você, o que acha?\" or \"você concorda?\".",
         ],
         examples: [
-          { es: "O metrô de São Paulo é muito bom, né?", en: "São Paulo's metro is really good, isn't it?" },
+          { es: "O metrô de São Paulo é muito bom, né?", en: "São Paulo's subway is really good, isn't it?" },
           { es: "A gente já falou disso, né?", en: "We've already talked about this, right?" },
           { es: "Você não acha que o aluguel está caro demais?", en: "Don't you think the rent is too expensive?" },
           { es: "Vocês não acham que a reunião devia ser online?", en: "Don't you all think the meeting should be online?" },
@@ -868,7 +868,7 @@ export const PT_B1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your group is planning a trip to Salvador, but the conversation has drifted to football. How do you bring it back?",
+        question: "Your group is planning a trip to Salvador, but the conversation has drifted to soccer. How do you bring it back?",
         options: [
           "Voltando ao assunto: e a viagem?",
           "Desculpa interromper, mas eu queria acrescentar uma coisa.",
@@ -952,7 +952,7 @@ export const PT_B1_U14: Lesson[] = [
     level: "PT-B1",
     number: 5,
     title: "Contrast Clinic: Concordo Que É or Não Concordo Que Seja?",
-    summary: "Practise the mood switch after opinion verbs: the indicative when you think, agree or are sure, and the subjunctive when you don't think, disagree or doubt.",
+    summary: "Practice the mood switch after opinion verbs: the indicative when you think, agree or are sure, and the subjunctive when you don't think, disagree or doubt.",
     duration: "12 min",
     sections: [
       {
@@ -1037,7 +1037,7 @@ export const PT_B1_U14: Lesson[] = [
           { es: "Você não acha que esse plano é arriscado?", en: "Don't you think this plan is risky?" },
           { es: "Você acha que a reunião vai demorar?", en: "Do you think the meeting will take long?" },
           { es: "Não tenho dúvida de que ela vai conseguir.", en: "I have no doubt she'll manage." },
-          { es: "É verdade que o metrô fecha à meia-noite?", en: "Is it true that the metro closes at midnight?" },
+          { es: "É verdade que o metrô fecha à meia-noite?", en: "Is it true that the subway closes at midnight?" },
           { es: "Não é verdade que todo brasileiro saiba sambar.", en: "It's not true that every Brazilian can samba." },
         ],
         checkpoint: [
@@ -1168,7 +1168,7 @@ export const PT_B1_U14: Lesson[] = [
     level: "PT-B1",
     number: 6,
     title: "Dialogue Lab: Home Office ou Escritório?",
-    summary: "Follow colleagues in São Paulo as they debate working from home, and practise giving opinions, agreeing in part, hedging and proposing a compromise.",
+    summary: "Follow colleagues in São Paulo as they debate working from home, and practice giving opinions, agreeing in part, hedging and proposing a compromise.",
     duration: "12 min",
     kind: "reinforce",
     format: "Dialogue Lab",
@@ -1232,7 +1232,7 @@ export const PT_B1_U14: Lesson[] = [
           { es: "Você tem razão, o trânsito de São Paulo é um pesadelo.", en: "You're right, São Paulo traffic is a nightmare." },
           { es: "Não concordo que nós sejamos menos produtivos em casa.", en: "I don't agree that we're less productive at home." },
           { es: "Concordo que é mais difícil treinar alguém a distância.", en: "I agree that it's harder to train someone remotely." },
-          { es: "Pode até ser, mas o problema não é o lugar, é a organização.", en: "That may be, but the problem isn't the place, it's how we're organised." },
+          { es: "Pode até ser, mas o problema não é o lugar, é a organização.", en: "That may be, but the problem isn't the place, it's how we're organized." },
           { es: "Entendo seu ponto, mas discordo um pouco.", en: "I see your point, but I disagree a little." },
         ],
         checkpoint: [
@@ -1456,8 +1456,8 @@ export const PT_B1_U14: Lesson[] = [
           "In fast speech you'll hear \"não concordo que é\", and nobody will blink. In writing, in an exam or in a careful discussion, use the subjunctive. It's one of the things Celpe-Bras examiners notice.",
         ],
         examples: [
-          { es: "Concordo que o metrô é caro.", en: "I agree that the metro is expensive." },
-          { es: "Não concordo que o metrô seja caro.", en: "I don't agree that the metro is expensive." },
+          { es: "Concordo que o metrô é caro.", en: "I agree that the subway is expensive." },
+          { es: "Não concordo que o metrô seja caro.", en: "I don't agree that the subway is expensive." },
           { es: "Não concordo que a gente tenha que trabalhar no sábado.", en: "I don't agree that we have to work on Saturday." },
           { es: "Não acredito que o home office seja ruim para todo mundo.", en: "I don't believe working from home is bad for everyone." },
           { es: "Discordo que essa seja a única saída.", en: "I disagree that this is the only way out." },
@@ -1490,9 +1490,9 @@ export const PT_B1_U14: Lesson[] = [
         examples: [
           { es: "Na minha opinião, o trânsito é o maior problema de São Paulo.", en: "In my opinion, traffic is São Paulo's biggest problem." },
           { es: "Acho que o trânsito é o maior problema de São Paulo.", en: "I think traffic is São Paulo's biggest problem." },
-          { es: "Para mim, o melhor bairro de Curitiba é o Batel.", en: "For me, the best neighbourhood in Curitiba is Batel." },
+          { es: "Para mim, o melhor bairro de Curitiba é o Batel.", en: "For me, the best neighborhood in Curitiba is Batel." },
           { es: "Me parece que a prefeitura não ouviu os moradores.", en: "It seems to me that city hall didn't listen to the residents." },
-          { es: "Acredito que o transporte público vai melhorar.", en: "I believe public transport is going to improve." },
+          { es: "Acredito que o transporte público vai melhorar.", en: "I believe public transportation is going to improve." },
         ],
         checkpoint: [
           {
@@ -1554,7 +1554,7 @@ export const PT_B1_U14: Lesson[] = [
           { es: "Concordo com o que você disse.", en: "I agree with what you said." },
           { es: "Você concorda com a nova regra?", en: "Do you agree with the new rule?" },
           { es: "Discordo do que ele falou na reunião.", en: "I disagree with what he said in the meeting." },
-          { es: "O vizinho concordou em pagar metade do conserto.", en: "The neighbour agreed to pay half the repair." },
+          { es: "O vizinho concordou em pagar metade do conserto.", en: "The neighbor agreed to pay half the repair." },
           { es: "Concordo que a reunião foi longa demais.", en: "I agree that the meeting was too long." },
         ],
         checkpoint: [
@@ -1748,10 +1748,10 @@ export const PT_B1_U14: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The image shows a beach full of rubbish.",
+            source: "The image shows a beach full of trash.",
             answer: "A imagem mostra uma praia cheia de lixo.",
             altAnswers: ["A foto mostra uma praia cheia de lixo."],
-            explanation: "\"A imagem mostra\" is the standard opener. \"Cheia\" agrees with \"praia\" (feminine), and rubbish is \"lixo\".",
+            explanation: "\"A imagem mostra\" is the standard opener. \"Cheia\" agrees with \"praia\" (feminine), and trash is \"lixo\".",
           },
           {
             type: "word-order",
@@ -1777,7 +1777,7 @@ export const PT_B1_U14: Lesson[] = [
           "If you miss a question, ask: clarifying is part of real conversation, and examiners expect it. Say \"desculpe, você poderia repetir?\", \"não entendi bem a pergunta\" or \"o que significa...?\". To gain time, \"deixa eu pensar\" (let me think) beats silence or English. \"Você\" is fine with the examiner; \"o senhor\" or \"a senhora\" is fine too.",
         ],
         examples: [
-          { es: "Na minha opinião, o transporte público precisa melhorar, porque os ônibus estão sempre lotados.", en: "In my opinion, public transport needs to improve, because the buses are always packed." },
+          { es: "Na minha opinião, o transporte público precisa melhorar, porque os ônibus estão sempre lotados.", en: "In my opinion, public transportation needs to improve, because the buses are always packed." },
           { es: "Por exemplo, na minha cidade quase ninguém usa bicicleta.", en: "For example, in my city almost no one uses a bike." },
           { es: "Concordo em parte, mas depende do lugar.", en: "I partly agree, but it depends on the place." },
           { es: "Desculpe, você poderia repetir a pergunta?", en: "Sorry, could you repeat the question?" },
@@ -1979,18 +1979,18 @@ export const PT_B1_U14: Lesson[] = [
           "You're writing for strangers, so use standard Portuguese: \"nós\", \"para\", \"está\", not \"a gente\", \"pra\", \"tá\". Be polite and direct.",
         ],
         examples: [
-          { es: "Moro em Pinheiros há quinze anos e nunca vi as calçadas tão ruins.", en: "I've lived in Pinheiros for fifteen years and I've never seen the pavements so bad." },
-          { es: "Gostaria de chamar a atenção para a falta de ciclovias em Belo Horizonte.", en: "I'd like to draw attention to the lack of cycle lanes in Belo Horizonte." },
+          { es: "Moro em Pinheiros há quinze anos e nunca vi as calçadas tão ruins.", en: "I've lived in Pinheiros for fifteen years and I've never seen the sidewalks so bad." },
+          { es: "Gostaria de chamar a atenção para a falta de ciclovias em Belo Horizonte.", en: "I'd like to draw attention to the lack of bike lanes in Belo Horizonte." },
           { es: "Como moradora da Zona Norte, acredito que o problema é sério.", en: "As a resident of the North Zone, I believe the problem is serious." },
-          { es: "Li a reportagem sobre o lixo nas praias do Recife e concordo em parte com o prefeito.", en: "I read the report on the rubbish on Recife's beaches and I partly agree with the mayor." },
-          { es: "Na minha opinião, o transporte público do bairro está piorando.", en: "In my opinion, public transport in the neighbourhood is getting worse." },
+          { es: "Li a reportagem sobre o lixo nas praias do Recife e concordo em parte com o prefeito.", en: "I read the report on the trash on Recife's beaches and I partly agree with the mayor." },
+          { es: "Na minha opinião, o transporte público do bairro está piorando.", en: "In my opinion, public transportation in the neighborhood is getting worse." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I'd like to draw attention to the noise in the city centre.",
+            source: "I'd like to draw attention to the noise in the city center.",
             answer: "Gostaria de chamar a atenção para o barulho no centro da cidade.",
             altAnswers: [
               "Eu gostaria de chamar a atenção para o barulho no centro da cidade.",
@@ -2031,12 +2031,12 @@ export const PT_B1_U14: Lesson[] = [
           "A letter that admits the other side sounds fairer. Concede first, then turn the argument: \"É verdade que a obra é cara; no entanto...\" or \"Por um lado... por outro...\". In writing, denial takes the subjunctive: \"não acho que a solução seja...\", \"duvido que funcione\".",
         ],
         examples: [
-          { es: "Em primeiro lugar, muitas calçadas não têm rampa para cadeirantes.", en: "First of all, many pavements have no ramp for wheelchair users." },
+          { es: "Em primeiro lugar, muitas calçadas não têm rampa para cadeirantes.", en: "First of all, many sidewalks have no ramp for wheelchair users." },
           { es: "Além disso, os ônibus atrasam quase todos os dias.", en: "On top of that, the buses are late almost every day." },
-          { es: "Já que a cidade cresceu tanto, precisamos de mais linhas de metrô.", en: "Since the city has grown so much, we need more metro lines." },
+          { es: "Já que a cidade cresceu tanto, precisamos de mais linhas de metrô.", en: "Since the city has grown so much, we need more subway lines." },
           { es: "É verdade que a reforma é cara; no entanto, os acidentes custam mais.", en: "It's true that the repairs are expensive; however, accidents cost more." },
-          { es: "Não acredito que mais viadutos resolvam o problema do trânsito.", en: "I don't believe more flyovers will solve the traffic problem." },
-          { es: "Por um lado, o projeto é bom; por outro, a obra vai demorar anos.", en: "On the one hand, the project is good; on the other, the works will take years." },
+          { es: "Não acredito que mais viadutos resolvam o problema do trânsito.", en: "I don't believe more overpasses will solve the traffic problem." },
+          { es: "Por um lado, o projeto é bom; por outro, a obra vai demorar anos.", en: "On the one hand, the project is good; on the other, the construction will take years." },
         ],
         checkpoint: [
           {
@@ -2077,13 +2077,13 @@ export const PT_B1_U14: Lesson[] = [
         heading: "A solution and a signature",
         body: [
           "End with what should happen. \"A prefeitura deveria...\" gives advice. \"É urgente que\" or \"é necessário que\" + subjunctive makes a demand, and \"espero que\" + subjunctive states your hope. The \"prefeitura\" is city hall, which handles most of the problems readers write about.",
-          "Sum up in one sentence with \"Enfim\" or \"Em resumo\". Then sign with your name, neighbourhood and city: \"Mariana Souza, Pinheiros, São Paulo\". Papers print that line, so readers know a neighbour is speaking.",
+          "Sum up in one sentence with \"Enfim\" or \"Em resumo\". Then sign with your name, neighborhood and city: \"Mariana Souza, Pinheiros, São Paulo\". Papers print that line, so readers know a neighbor is speaking.",
         ],
         examples: [
-          { es: "A prefeitura deveria criar mais ciclovias nos bairros.", en: "City hall should create more cycle lanes in the neighbourhoods." },
-          { es: "É urgente que a prefeitura conserte as calçadas do centro.", en: "City hall urgently needs to fix the pavements downtown." },
+          { es: "A prefeitura deveria criar mais ciclovias nos bairros.", en: "City hall should create more bike lanes in the neighborhoods." },
+          { es: "É urgente que a prefeitura conserte as calçadas do centro.", en: "City hall urgently needs to fix the sidewalks downtown." },
           { es: "Espero que as autoridades leiam esta carta.", en: "I hope the authorities read this letter." },
-          { es: "Em resumo, uma cidade sem calçadas boas não é uma cidade para todos.", en: "In short, a city without good pavements isn't a city for everyone." },
+          { es: "Em resumo, uma cidade sem calçadas boas não é uma cidade para todos.", en: "In short, a city without good sidewalks isn't a city for everyone." },
           { es: "Enfim, é importante que todos nós cobremos uma solução.", en: "In the end, it's important that we all press for a solution." },
         ],
         checkpoint: [
@@ -2108,7 +2108,7 @@ export const PT_B1_U14: Lesson[] = [
           {
             type: "speak",
             text: "É urgente que a prefeitura tome uma atitude.",
-            tip: "Final -e sounds like i: TÓ-mi, a-tchi-TU-dji. The t before that i becomes tch.",
+            tip: "Final -e sounds like i: TÔ-mi, a-tchi-TU-dji. The t before that i becomes tch.",
             explanation: "\"É urgente que\" + subjunctive: \"tome\", from \"tomo\". \"Tomar uma atitude\" means to take action.",
           },
         ],
@@ -2134,15 +2134,15 @@ export const PT_B1_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Many pavements don't have ramps for wheelchair users.",
+        source: "Many sidewalks don't have ramps for wheelchair users.",
         answer: "Muitas calçadas não têm rampa para cadeirantes.",
         altAnswers: ["Muitas calçadas não têm rampas para cadeirantes."],
-        explanation: "The plural \"têm\" needs the circumflex; \"tem\" is the singular. \"Calçada\" is the pavement, and \"cadeirante\" is a wheelchair user.",
+        explanation: "The plural \"têm\" needs the circumflex; \"tem\" is the singular. \"Calçada\" is the sidewalk, and \"cadeirante\" is a wheelchair user.",
       },
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "It's true that the works are expensive; [however], accidents cost more.",
+        en: "It's true that the construction is expensive; [however], accidents cost more.",
         sentence: "É verdade que a obra é cara; ___, os acidentes custam mais.",
         answer: "no entanto",
         altAnswers: ["porém", "contudo", "entretanto"],
@@ -2152,10 +2152,10 @@ export const PT_B1_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "City hall should create more cycle lanes.",
+        source: "City hall should create more bike lanes.",
         answer: "A prefeitura deveria criar mais ciclovias.",
         altAnswers: ["A prefeitura devia criar mais ciclovias."],
-        explanation: "\"Deveria\" + infinitive gives advice. In speech \"devia\" is just as common. \"Ciclovia\" is a cycle lane.",
+        explanation: "\"Deveria\" + infinitive gives advice. In speech \"devia\" is just as common. \"Ciclovia\" is a bike lane.",
       },
       {
         type: "fill-blank",
@@ -2203,13 +2203,13 @@ export const PT_B1_U14: Lesson[] = [
       {
         type: "speak",
         text: "Gostaria de chamar a atenção para a falta de ciclovias.",
-        prompt: "Say it in Portuguese: I'd like to draw attention to the lack of cycle lanes.",
+        prompt: "Say it in Portuguese: I'd like to draw attention to the lack of bike lanes.",
         tip: "The ção in atenção is nasal, with no n at the end.",
         explanation: "The classic opening: \"gostaria de chamar a atenção para\" + the problem.",
       },
       {
         type: "write",
-        prompt: "Write a letter to the readers' section of a Brazilian newspaper about a problem in your city (traffic, pavements, rubbish, noise or buses). Say who you are, give two reasons, answer the other side and propose a solution.",
+        prompt: "Write a letter to the readers' section of a Brazilian newspaper about a problem in your city (traffic, sidewalks, trash, noise or buses). Say who you are, give two reasons, answer the other side and propose a solution.",
         minWords: 100,
         maxWords: 180,
         rubric: [
@@ -2217,7 +2217,7 @@ export const PT_B1_U14: Lesson[] = [
           "Gives at least two reasons with connectors (\"em primeiro lugar\", \"além disso\", \"já que\")",
           "Concedes the other side and answers it (\"é verdade que... no entanto\")",
           "Proposes a solution with \"deveria\", \"é urgente que\" or \"espero que\" + subjunctive",
-          "Ends with a one-line conclusion and a signature: name, neighbourhood, city",
+          "Ends with a one-line conclusion and a signature: name, neighborhood, city",
           "Uses standard written Portuguese, not \"pra\", \"tá\" or \"a gente\"",
         ],
         modelAnswer: "Moro em Pinheiros há quinze anos e gostaria de chamar a atenção para o estado das calçadas do bairro. Em primeiro lugar, muitas calçadas têm buracos e não têm rampa para cadeirantes. Além disso, as raízes das árvores quebraram o piso em várias ruas, e os idosos caem com frequência. Já que o bairro tem tantos moradores idosos, esse problema não pode esperar.\n\nÉ verdade que a reforma custa caro; no entanto, os acidentes custam mais para todos. Não acho que a solução seja cada morador consertar a própria calçada, porque muitos não têm dinheiro para isso.\n\nPor isso, é urgente que a prefeitura faça um plano para o bairro inteiro. Espero que as autoridades leiam esta carta e tomem uma atitude. Enfim, uma cidade com calçadas ruins não é uma cidade para todos.\n\nMariana Souza, Pinheiros, São Paulo",
@@ -2240,9 +2240,9 @@ export const PT_B1_U14: Lesson[] = [
           "The trap in a live discussion is the negative. You start with \"não concordo que\" and then reach for the indicative, because English says 'is' either way. If the negative is there, the next verb changes. In relaxed speech Brazilians sometimes keep the indicative after \"não acho que\". In writing and at the Celpe-Bras, use the subjunctive.",
         ],
         examples: [
-          { es: "Acho que o metrô de São Paulo funciona bem.", en: "I think the São Paulo metro works well." },
+          { es: "Acho que o metrô de São Paulo funciona bem.", en: "I think the São Paulo subway works well." },
           { es: "Não acho que a nova lei resolva o problema.", en: "I don't think the new law will solve the problem." },
-          { es: "Concordo que o transporte público precisa melhorar.", en: "I agree that public transport needs to improve." },
+          { es: "Concordo que o transporte público precisa melhorar.", en: "I agree that public transportation needs to improve." },
           { es: "Duvido que os alunos estudem mais sem o celular.", en: "I doubt students will study more without their phones." },
           { es: "Me parece que a ciclovia é uma boa ideia.", en: "It seems to me that the bike lane is a good idea." },
         ],
@@ -2300,7 +2300,7 @@ export const PT_B1_U14: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "You're right, but the metro is very crowded.",
+            source: "You're right, but the subway is very crowded.",
             answer: "Você tem razão, mas o metrô está muito lotado.",
             altAnswers: [
               "O senhor tem razão, mas o metrô está muito lotado.",
@@ -2316,7 +2316,7 @@ export const PT_B1_U14: Lesson[] = [
             sentence: "O plano é bom; ___, é barato.",
             answer: "além disso",
             altAnswers: ["inclusive"],
-            explanation: "\"Além disso\" adds a new point in your favour. \"No entanto\" would wrongly signal a contrast.",
+            explanation: "\"Além disso\" adds a new point in your favor. \"No entanto\" would wrongly signal a contrast.",
           },
           {
             type: "word-order",
@@ -2336,7 +2336,7 @@ export const PT_B1_U14: Lesson[] = [
         examples: [
           { es: "É importante que a prefeitura escute os moradores.", en: "It's important that the city council listens to the residents." },
           { es: "Embora o projeto seja caro, acredito que vale a pena.", en: "Although the project is expensive, I believe it's worth it." },
-          { es: "Defendo mais ciclovias para que as pessoas deixem o carro em casa.", en: "I'm in favour of more bike lanes so that people leave their cars at home." },
+          { es: "Defendo mais ciclovias para que as pessoas deixem o carro em casa.", en: "I'm in favor of more bike lanes so that people leave their cars at home." },
           { es: "A situação não vai melhorar, a não ser que o governo invista mais.", en: "The situation won't improve unless the government invests more." },
           { es: "Talvez você tenha razão, mas depende da cidade.", en: "Maybe you're right, but it depends on the city." },
         ],
@@ -2414,7 +2414,7 @@ export const PT_B1_U14: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Traffic got worse; [therefore], we need more metro lines.",
+        en: "Traffic got worse; [therefore], we need more subway lines.",
         sentence: "O trânsito piorou; ___, precisamos de mais linhas de metrô.",
         answer: "portanto",
         altAnswers: ["por isso", "assim"],
@@ -2429,7 +2429,7 @@ export const PT_B1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In a debate someone says the metro is too expensive. You agree and want to add another point. Which is most natural?",
+        question: "In a debate someone says the subway is too expensive. You agree and want to add another point. Which is most natural?",
         options: [
           "Você tem razão. Além disso, ele não chega à periferia.",
           "Você tem razão. No entanto, ele não chega à periferia.",
@@ -2482,7 +2482,7 @@ export const PT_B1_U14: Lesson[] = [
 
 export const PT_B1_U14_WRITING: WriteExercise = {
   type: "write",
-  prompt: "On your neighbourhood forum in Belo Horizonte, your neighbour Rafael has posted that closing the main street to cars on Sundays is a bad idea because traffic will get worse on the side streets. Write a reply to him. Give your opinion, say where you agree and where you disagree, add some nuance, and end by inviting him to keep the discussion going.",
+  prompt: "On your neighborhood forum in Belo Horizonte, your neighbor Rafael has posted that closing the main street to cars on Sundays is a bad idea because traffic will get worse on the side streets. Write a reply to him. Give your opinion, say where you agree and where you disagree, add some nuance, and end by inviting him to keep the discussion going.",
   minWords: 80,
   maxWords: 150,
   rubric: [

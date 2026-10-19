@@ -57,12 +57,12 @@ export const PT_C1_U10: Lesson[] = [
       {
         heading: "Dom Casmurro: can you trust Bentinho?",
         body: [
-          "In \"Dom Casmurro\" (1899) Bento Santiago, an old and lonely lawyer, tells the story of his love for Capitu, his childhood neighbour. He also tells of his conviction that she betrayed him with his best friend, Escobar. Every word comes from Bento, a jealous man building a case. He is the classic \"narrador não confiável\" (unreliable narrator). For decades critics took his side, until the American scholar Helen Caldwell argued in 1960 that Capitu might be innocent.",
+          "In \"Dom Casmurro\" (1899) Bento Santiago, an old and lonely lawyer, tells the story of his love for Capitu, his childhood neighbor. He also tells of his conviction that she betrayed him with his best friend, Escobar. Every word comes from Bento, a jealous man building a case. He is the classic \"narrador não confiável\" (unreliable narrator). For decades critics took his side, until the American scholar Helen Caldwell argued in 1960 that Capitu might be innocent.",
           "Watch how impressions turn into evidence. Bento borrows the famous \"olhos de cigana oblíqua e dissimulada\" from José Dias, a gossiping hanger-on of the family. \"Olhos de ressaca\" means eyes like the undertow, the pull of the sea. It does not mean hungover eyes, which is the everyday sense of \"ressaca\" today.",
           "The novel ends with a wish in the subjunctive, \"A terra lhes seja leve!\", aimed at the two people he believes deceived him. It is a blessing that sounds like a curse.",
         ],
         examples: [
-          { es: "Uma noite destas, vindo da cidade para o Engenho Novo, encontrei no trem da Central um rapaz aqui do bairro, que eu conheço de vista e de chapéu.", en: "One night recently, coming from downtown to Engenho Novo, I met a young man from the neighbourhood on the Central line train, someone I know by sight and by a tip of the hat." },
+          { es: "Uma noite destas, vindo da cidade para o Engenho Novo, encontrei no trem da Central um rapaz aqui do bairro, que eu conheço de vista e de chapéu.", en: "One night recently, coming from downtown to Engenho Novo, I met a young man from the neighborhood on the Central line train, someone I know by sight and by a tip of the hat." },
           { es: "O meu fim evidente era atar as duas pontas da vida, e restaurar na velhice a adolescência.", en: "My obvious aim was to tie together the two ends of my life and to restore adolescence in old age." },
           { es: "Olhos de cigana oblíqua e dissimulada.", en: "The eyes of a gypsy, sidelong and sly." },
           { es: "Olhos de ressaca? Vá, de ressaca.", en: "Eyes like the undertow? All right, the undertow." },
@@ -101,7 +101,7 @@ export const PT_C1_U10: Lesson[] = [
       {
         heading: "Talking to the reader",
         body: [
-          "Machado's narrators keep stepping out of the story to talk to you. They apologise, tease and accuse. Brás Cubas tells the reader that the book's biggest flaw is the reader, who is in a hurry while the book takes its time. Bento uses the courteous standard imperative: \"Abane a cabeça, leitor\". A chapter may run a page or only a few lines, and one is made almost entirely of dots.",
+          "Machado's narrators keep stepping out of the story to talk to you. They apologize, tease and accuse. Brás Cubas tells the reader that the book's biggest flaw is the reader, who is in a hurry while the book takes its time. Bento uses the courteous standard imperative: \"Abane a cabeça, leitor\". A chapter may run a page or only a few lines, and one is made almost entirely of dots.",
           "These interruptions break the realist illusion. The book keeps reminding you that someone with interests of his own is telling it. When you read Machado, ask two questions: what does the narrator want me to believe, and what is he leaving out?",
         ],
         examples: [
@@ -254,7 +254,7 @@ export const PT_C1_U10: Lesson[] = [
       {
         heading: "Alencar and the Romantic project",
         body: [
-          "Brazilian Romanticism (roughly 1836-1881) set out to give the newly independent country a literature of its own. José de Alencar (1829-1877) planned a map of Brazil in novels. \"O Guarani\" and \"Iracema\" retell Indigenous legend, \"Senhora\" and \"Lucíola\" portray Rio society, and \"O Gaúcho\" and \"O Sertanejo\" cover the regions. Critics call the first strand \"indianismo\": the Indigenous hero as a noble, idealised founder of the nation, a myth rather than a portrait.",
+          "Brazilian Romanticism (roughly 1836-1881) set out to give the newly independent country a literature of its own. José de Alencar (1829-1877) planned a map of Brazil in novels. \"O Guarani\" and \"Iracema\" retell Indigenous legend, \"Senhora\" and \"Lucíola\" portray Rio society, and \"O Gaúcho\" and \"O Sertanejo\" cover the regions. Critics call the first strand \"indianismo\": the Indigenous hero as a noble, idealized founder of the nation, a myth rather than a portrait.",
           "His prose is lyrical and musical, built from long chains of images and comparisons with nature. It is full of Tupi words such as \"jandaia\" (a parakeet), \"carnaúba\" (a palm) and \"graúna\" (a blackbird). Portuguese critics accused him of writing incorrectly. He replied that Brazilians had the right to their own way of writing, a quarrel the 1922 modernists would pick up again.",
         ],
         examples: [
@@ -269,16 +269,16 @@ export const PT_C1_U10: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The Indianist novel idealised the Indigenous hero.",
+            source: "The Indianist novel idealized the Indigenous hero.",
             answer: "O romance indianista idealizava o herói indígena.",
             altAnswers: ["O romance indianista idealizou o herói indígena.", "O romance indianista idealiza o herói indígena."],
-            explanation: "The imperfeito \"idealizava\" presents idealising as a lasting feature of the genre. \"Idealizou\" (a closed fact) and the present \"idealiza\" of literary criticism also work. \"Indígena\" is the same in the masculine and feminine.",
+            explanation: "The imperfeito \"idealizava\" presents idealizing as a lasting feature of the genre. \"Idealizou\" (a closed fact) and the present \"idealiza\" of literary criticism also work. \"Indígena\" is the same in the masculine and feminine.",
           },
           {
             type: "listen-choose",
             audio: "Iracema, a virgem dos lábios de mel.",
             question: "What does it mean?",
-            options: ["Iracema, the virgin with lips of honey.", "Iracema, the virgin with honey-coloured eyes.", "Iracema, the virgin of the green seas.", "Iracema, the girl who sells honey."],
+            options: ["Iracema, the virgin with lips of honey.", "Iracema, the virgin with honey-colored eyes.", "Iracema, the virgin of the green seas.", "Iracema, the girl who sells honey."],
             correctIndex: 0,
             explanation: "\"Os lábios de mel\" are lips of honey. Alencar's epithets work like those of epic poetry: \"a virgem dos lábios de mel\" names the heroine by one image.",
           },
@@ -287,14 +287,14 @@ export const PT_C1_U10: Lesson[] = [
       {
         heading: "Azevedo and Naturalism",
         body: [
-          "From 1881 Realism replaces the idealised hero with observed society; you met it with Machado de Assis. Naturalism, its harsher cousin, follows Zola and the science of the day. Characters are products of heredity, environment (\"o meio\") and historical moment, and the novelist observes them like a biologist. Critics call this \"determinismo\".",
+          "From 1881 Realism replaces the idealized hero with observed society; you met it with Machado de Assis. Naturalism, its harsher cousin, follows Zola and the science of the day. Characters are products of heredity, environment (\"o meio\") and historical moment, and the novelist observes them like a biologist. Critics call this \"determinismo\".",
           "Aluísio Azevedo (1857-1913) attacked racial prejudice in \"O Mulato\" (1881), a period title many readers now find offensive. His masterpiece \"O Cortiço\" (1890) follows a Rio tenement that grows like a living organism. People are described as animals, a device called \"zoomorfização\": they \"fervilham\" (swarm) and \"formigam\" (teem like ants). The Portuguese immigrant Jerônimo, seduced by Rita Baiana and the heat, \"se abrasileira\" (becomes Brazilian), and the environment wins.",
         ],
         examples: [
           { es: "Eram cinco horas da manhã e o cortiço acordava, abrindo, não os olhos, mas a sua infinidade de portas e janelas alinhadas.", en: "It was five in the morning and the tenement was waking up, opening not its eyes but its countless rows of doors and windows. (O Cortiço)" },
           { es: "Os moradores fervilhavam no pátio como formigas.", en: "The residents swarmed in the courtyard like ants." },
-          { es: "Para os naturalistas, o meio determina o comportamento.", en: "For the naturalists, the environment determines behaviour." },
-          { es: "João Romão enriquece explorando o trabalho de Bertoleza.", en: "João Romão grows rich by exploiting Bertoleza's labour." },
+          { es: "Para os naturalistas, o meio determina o comportamento.", en: "For the naturalists, the environment determines behavior." },
+          { es: "João Romão enriquece explorando o trabalho de Bertoleza.", en: "João Romão grows rich by exploiting Bertoleza's labor." },
           { es: "Pouco a pouco, Jerônimo se abrasileirou.", en: "Little by little, Jerônimo became Brazilian." },
           { es: "O romance realista denuncia a hipocrisia da burguesia.", en: "The realist novel exposes the hypocrisy of the bourgeoisie." },
         ],
@@ -302,7 +302,7 @@ export const PT_C1_U10: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "For the naturalists, the environment [determines] behaviour.",
+            en: "For the naturalists, the environment [determines] behavior.",
             sentence: "Para os naturalistas, o meio ___ o comportamento.",
             answer: "determina",
             explanation: "\"Determinar\" is the key verb of Naturalism, and \"o meio\" is its word for the environment. The present suits a general claim about a school of thought.",
@@ -319,7 +319,7 @@ export const PT_C1_U10: Lesson[] = [
           {
             type: "speak",
             text: "Pouco a pouco, Jerônimo se abrasileirou.",
-            tip: "Jerônimo is stressed on the closed rô: je-RÔ-ni-mo. The final -ou of abrasileirou is usually just a closed ô.",
+            tip: "Jerônimo is stressed on the closed rô: je-RÔ-ni-mu, with the j as in measure and the final o as u. The final -ou of abrasileirou is usually just a closed ô.",
             explanation: "\"Abrasileirar-se\" (to become Brazilian) sums up Jerônimo's story: in the Naturalist view, the tropical environment remakes him.",
           },
         ],
@@ -475,13 +475,13 @@ export const PT_C1_U10: Lesson[] = [
         heading: "1922: a Semana de Arte Moderna",
         body: [
           "In February 1922, the centenary of Independence, a group of young artists took over the Teatro Municipal de São Paulo for three evenings of readings, concerts and an exhibition. The coffee elite paid for the \"Semana de Arte Moderna\", and the audience met it with \"vaias\" (boos). The loudest came when someone read Bandeira's \"Os Sapos\" aloud, a parody of the Parnassian poets who ruled the academies.",
-          "The modernists attacked dependence: fixed metre and rhyme, imported European taste, and a written Portuguese modelled on Lisbon. Know the names: the writers Mário and Oswald de Andrade (not related), the painters Anita Malfatti and Di Cavalcanti, and the composer Villa-Lobos. Tarsila do Amaral is often pictured at the Semana, but she was in Paris and joined the group months later.",
+          "The modernists attacked dependence: fixed meter and rhyme, imported European taste, and a written Portuguese modeled on Lisbon. Know the names: the writers Mário and Oswald de Andrade (not related), the painters Anita Malfatti and Di Cavalcanti, and the composer Villa-Lobos. Tarsila do Amaral is often pictured at the Semana, but she was in Paris and joined the group months later.",
           "Keep three words apart. \"Modernismo\" is the movement. \"Modernista\" is its adjective and the word for its members. \"Moderno\" simply means modern, so a modern painter of 1950 is not necessarily a \"modernista\".",
         ],
         examples: [
           { es: "A Semana de Arte Moderna aconteceu em fevereiro de 1922, no Teatro Municipal de São Paulo.", en: "The Modern Art Week took place in February 1922, at the Teatro Municipal in São Paulo." },
           { es: "Parte do público vaiou os poetas que subiram ao palco.", en: "Part of the audience booed the poets who went up on stage." },
-          { es: "Os modernistas queriam romper com a métrica fixa e com a rima obrigatória.", en: "The modernists wanted to break with fixed metre and compulsory rhyme." },
+          { es: "Os modernistas queriam romper com a métrica fixa e com a rima obrigatória.", en: "The modernists wanted to break with fixed meter and compulsory rhyme." },
           { es: "Mário e Oswald de Andrade tinham o mesmo sobrenome, mas não eram parentes.", en: "Mário and Oswald de Andrade had the same surname, but they weren't related." },
           { es: "Encerrada a Semana, o grupo passou a publicar revistas e manifestos.", en: "Once the Week was over, the group started publishing magazines and manifestos." },
           { es: "Tarsila estava em Paris e só se juntou ao grupo meses depois.", en: "Tarsila was in Paris and only joined the group months later." },
@@ -556,7 +556,7 @@ export const PT_C1_U10: Lesson[] = [
           {
             type: "speak",
             text: "Só a Antropofagia nos une.",
-            tip: "Stress an-tro-po-fa-GI-a; the g before i sounds like the s in measure. In \"une\", stress the u and let the final e sound like i.",
+            tip: "Stress an-tro-po-fa-JI-a; the g before i sounds like the s in measure. In \"une\", stress the u and let the final e sound like i.",
             explanation: "The manifesto's opening line, with the pronoun \"nos\" before the verb.",
           },
         ],
@@ -569,8 +569,8 @@ export const PT_C1_U10: Lesson[] = [
           "Much of this is now accepted in fiction and journalism, though formal writing still avoids opening a sentence with \"me\". When you quote these texts, keep their spelling and punctuation exactly.",
         ],
         examples: [
-          { es: "Dê-me um cigarro, diz a gramática do professor e do aluno.", en: "'Give me a cigarette,' says the grammar of the teacher and the pupil. (Oswald, Pronominais)" },
-          { es: "Deixa disso, camarada, me dá um cigarro.", en: "Come off it, mate, give us a cigarette. (the poem's last lines)" },
+          { es: "Dê-me um cigarro, diz a gramática do professor e do aluno.", en: "'Give me a cigarette,' says the grammar of the teacher and the student. (Oswald, Pronominais)" },
+          { es: "Deixa disso, camarada, me dá um cigarro.", en: "Come off it, buddy, give me a cigarette. (the poem's last lines)" },
           { es: "Vinha da boca do povo na língua errada do povo, língua certa do povo.", en: "It came from the mouth of the people, in the people's wrong language, the people's right language. (Bandeira, Evocação do Recife)" },
           { es: "Os modernistas defendiam que o brasileiro escrevesse como fala.", en: "The modernists argued that Brazilians should write the way they speak." },
           { es: "Para os modernistas, imitar Lisboa é que era o verdadeiro erro.", en: "For the modernists, imitating Lisbon was the real mistake." },
@@ -697,7 +697,7 @@ export const PT_C1_U10: Lesson[] = [
         type: "speak",
         text: "Para os modernistas, imitar Lisboa era o verdadeiro erro.",
         prompt: "Say it in Portuguese: For the modernists, imitating Lisbon was the real mistake.",
-        tip: "The rr in \"erro\" is the h-like sound, and the first e is closed (ê). The t in \"verdadeiro\" stays a plain t.",
+        tip: "The rr in \"erro\" is the h-like sound, and the first e is closed (ê). The d's in \"verdadeiro\" stay plain d's, because neither comes before an i sound.",
         explanation: "\"Imitar\" stands as the subject, an infinitive where English uses -ing. Add \"é que\" for emphasis: \"imitar Lisboa é que era o verdadeiro erro\".",
       },
       {
@@ -849,7 +849,7 @@ export const PT_C1_U10: Lesson[] = [
               "Cecília escreve: \"Eu canto porque o instante existe. E a minha vida está completa\".",
             ],
             correctIndex: 0,
-            explanation: "Verses quoted in prose go in quotation marks with a slash marking each line break. Adding a comma or a full stop changes the poet's punctuation.",
+            explanation: "Verses quoted in prose go in quotation marks with a slash marking each line break. Adding a comma or a period changes the poet's punctuation.",
           },
         ],
       },
@@ -973,7 +973,7 @@ export const PT_C1_U10: Lesson[] = [
         heading: "Clarice Lispector: a mind on the page",
         body: [
           "Clarice Lispector (1920-1977) was born in Ukraine and raised in Recife, and she writes from inside a consciousness. Her narrators seldom report what happened. They catch themselves thinking, question themselves, break off mid-sentence and reach for \"isso\" or \"alguma coisa\" when a feeling has no name yet. You know free indirect speech already; Clarice pushes it into interior monologue, where narrator and character become hard to tell apart.",
-          "The central event is the epiphany (\"epifania\"): an ordinary moment that tears routine open. In the story \"Amor\" (\"Laços de Família\", 1960), Ana sees a blind man chewing gum from the tram, and her orderly life cracks. In \"A Hora da Estrela\" (1977), the narrator Rodrigo S.M. agonises over how to tell the life of Macabéa, a poor typist from Alagoas lost in Rio.",
+          "The central event is the epiphany (\"epifania\"): an ordinary moment that tears routine open. In the story \"Amor\" (\"Laços de Família\", 1960), Ana sees a blind man chewing gum from the tram, and her orderly life cracks. In \"A Hora da Estrela\" (1977), the narrator Rodrigo S.M. agonizes over how to tell the life of Macabéa, a poor typist from Alagoas lost in Rio.",
           "Expect short declarative sentences, paradox and abstract nouns as subjects, as in \"liberdade é pouco\". Don't read for plot. Track who is thinking and where the thought turns.",
         ],
         examples: [
@@ -1052,7 +1052,7 @@ export const PT_C1_U10: Lesson[] = [
           {
             type: "speak",
             text: "O sertão é do tamanho do mundo.",
-            tip: "Nasalise the ão in sertão with no n at the end. The final o in tamanho and mundo sounds like u, and nh sounds like the ny in canyon.",
+            tip: "Nasalize the ão in sertão with no n at the end. The final o in tamanho and mundo sounds like u, and nh sounds like the ny in canyon.",
             explanation: "\"Do tamanho de\" means 'the size of'. Rosa makes one region stand for the whole human condition.",
           },
         ],
@@ -1249,7 +1249,7 @@ export const PT_C1_U10: Lesson[] = [
         heading: "Conceição Evaristo and escrevivência",
         body: [
           "Conceição Evaristo (born 1946) grew up in a favela in Belo Horizonte and worked as a domestic servant. She moved to Rio de Janeiro, became a teacher and later earned a doctorate in literature. She coined \"escrevivência\", a blend of \"escrever\" (to write) and \"vivência\" (lived experience): writing that starts from the everyday life and memory of Black Brazilian women.",
-          "It is not autobiography. The \"eu\" of escrevivência is collective: one woman's story carries her mother's, her grandmother's and her neighbours'. Her best-known line turns the colonial image of the \"casa-grande\" (the plantation masters' house) against itself.",
+          "It is not autobiography. The \"eu\" of escrevivência is collective: one woman's story carries her mother's, her grandmother's and her neighbors'. Her best-known line turns the colonial image of the \"casa-grande\" (the plantation masters' house) against itself.",
           "Watch the false friends. A \"romance\" is a novel, such as \"Ponciá Vicêncio\" (2003). A \"conto\" is a short story, like those collected in \"Olhos d'água\" (2014). In everyday Brazil a \"novela\" is a TV soap opera.",
         ],
         examples: [
@@ -1328,7 +1328,7 @@ export const PT_C1_U10: Lesson[] = [
           {
             type: "speak",
             text: "Torto Arado se passa na Chapada Diamantina, na Bahia.",
-            tip: "The ti in Diamantina sounds like chee: dia-man-CHI-na.",
+            tip: "Both the di and the ti in Diamantina soften before i: dji-a-mã-TCHI-na.",
             explanation: "\"Se passar\" means to be set or to take place. \"Bahia\" takes the article, so it is \"na Bahia\".",
           },
         ],
@@ -1436,12 +1436,12 @@ export const PT_C1_U10: Lesson[] = [
         prompt: "Put the words in order to say: The struggle for land runs through the novel.",
         words: ["A luta", "pela terra", "atravessa", "o romance."],
         translation: "The struggle for land runs through the novel.",
-        explanation: "\"Pela\" (por + a) gives the struggle for. \"Atravessar\" (to cross) is a favourite critic's verb for a theme that runs through a work.",
+        explanation: "\"Pela\" (por + a) gives the struggle for. \"Atravessar\" (to cross) is a favorite critic's verb for a theme that runs through a work.",
       },
       {
         type: "multiple-choice",
         question: "A Brazilian colleague says: \"Ontem vi a novela das nove.\" What did she do last night?",
-        options: ["She watched the nine o'clock soap opera.", "She read a novel until nine.", "She saw a film based on a short story.", "She went to a book launch at nine."],
+        options: ["She watched the nine o'clock soap opera.", "She read a novel until nine.", "She saw a movie based on a short story.", "She went to a book launch at nine."],
         correctIndex: 0,
         explanation: "In everyday Brazil \"novela\" is a TV soap opera, and \"a novela das nove\" is the prime-time one. A novel is \"um romance\".",
       },
@@ -1534,7 +1534,7 @@ export const PT_C1_U10: Lesson[] = [
         body: [
           "Literary prose moves words out of their neutral order. It puts the verb before the subject (\"caía a tarde\"), the adjective before the noun (\"a velha cidade\"), and sometimes the adjective at the very front (\"tristes iam os retirantes\"). Everyday rewrites put things back: subject, verb, then the rest.",
           "The vocabulary shifts too. \"Fitar\" becomes \"olhar\" or \"ficar olhando\", \"o rosto\" becomes \"a cara\", and \"partir\" becomes \"ir embora\". The everyday word is broader and the literary one is precise: \"fitar\" is a fixed, intense gaze, while \"ficar olhando\" can be idle.",
-          "Order carries meaning as well as rhythm. In \"tristes iam os retirantes\", sadness comes first and colours the whole scene. In \"os retirantes iam tristes\", it is just one more fact about them.",
+          "Order carries meaning as well as rhythm. In \"tristes iam os retirantes\", sadness comes first and colors the whole scene. In \"os retirantes iam tristes\", it is just one more fact about them.",
         ],
         examples: [
           { es: "Caía a tarde sobre a velha cidade.", en: "Evening was falling over the old town. (literary)" },
@@ -1746,7 +1746,7 @@ export const PT_C1_U10: Lesson[] = [
     level: "PT-C1",
     number: 8,
     title: "Dialogue Lab: O Clube do Livro",
-    summary: "Follow a Belo Horizonte book club arguing over whether Capitu betrayed Bento in Dom Casmurro, and practise asserting, hedging, emphasising and conceding gracefully.",
+    summary: "Follow a Belo Horizonte book club arguing over whether Capitu betrayed Bento in Dom Casmurro, and practice asserting, hedging, emphasizing and conceding gracefully.",
     duration: "15 min",
     kind: "reinforce",
     format: "Dialogue Lab",
@@ -1986,13 +1986,13 @@ export const PT_C1_U10: Lesson[] = [
     level: "PT-C1",
     number: 9,
     title: "Real-World Mission: A Literary Commentary",
-    summary: "Analyse a short extract's narrator, theme and style, and write a tight, carefully hedged literary commentary on it in Portuguese.",
+    summary: "Analyze a short extract's narrator, theme and style, and write a tight, carefully hedged literary commentary on it in Portuguese.",
     duration: "18 min",
     sections: [
       {
         heading: "The extract: who tells it, and from what distance",
         body: [
-          "Your mission: read the extract below and write a commentary of about 150 words on its narrator, theme and style. The extract was written for this lesson in the style of contemporary Brazilian fiction. A commentary analyses; it doesn't retell. Start with the \"foco narrativo\": who tells the story, and from what distance.",
+          "Your mission: read the extract below and write a commentary of about 150 words on its narrator, theme and style. The extract was written for this lesson in the style of contemporary Brazilian fiction. A commentary analyzes; it doesn't retell. Start with the \"foco narrativo\": who tells the story, and from what distance.",
           "Here the teller is a \"narradora-personagem\": a granddaughter who speaks in the first person, years later. The tenses map that distance. The imperfeito covers the grandmother's habits (\"guardava\", \"mudava de assunto\"), and the perfeito covers one afternoon (\"abri a lata\"). The literary pluperfect \"escrevera\" marks a narrator who chooses her words with care.",
           "Then ask what she knows and what she holds back. Like Machado's narrators, she controls what we see. Her last sentence admits she isn't sure she chose well.",
         ],
@@ -2085,7 +2085,7 @@ export const PT_C1_U10: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence analyses the extract instead of retelling it?",
+            question: "Which sentence analyzes the extract instead of retelling it?",
             options: [
               "A neta abre a lata numa tarde de chuva e lê as cartas.",
               "A avó guarda cartas debaixo da cama e não fala delas.",
@@ -2286,7 +2286,7 @@ export const PT_C1_U10: Lesson[] = [
         heading: "Fizera, partira: the tenses of the novel",
         body: [
           "Literary prose keeps the simple pluperfect alive: \"fizera\", \"dissera\" and \"partira\" mean exactly what \"tinha feito\", \"tinha dito\" and \"tinha partido\" mean in speech. One trap: the eles form looks the same as the perfeito, so \"eles falaram\" can also mean they had spoken, and only the context tells you which.",
-          "When you summarise a plot, switch to the historical present, as Brazilian critics and teachers do: \"Bentinho conhece Capitu na infância\". The present keeps the action in front of the reader. Save the past tenses for what happened before the story's starting point.",
+          "When you summarize a plot, switch to the historical present, as Brazilian critics and teachers do: \"Bentinho conhece Capitu na infância\". The present keeps the action in front of the reader. Save the past tenses for what happened before the story's starting point.",
         ],
         examples: [
           { es: "Quando ele voltou do seminário, Capitu já mudara muito.", en: "When he came back from the seminary, Capitu had already changed a lot." },
@@ -2372,8 +2372,8 @@ export const PT_C1_U10: Lesson[] = [
       {
         heading: "Old norms and modernist breaks",
         body: [
-          "Nineteenth-century prose puts the pronoun after the verb almost everywhere (\"disse-me\", \"encontrou-a\"). It uses mesóclise with the future and conditional (\"dir-lhe-ei\", \"encontrá-lo-ia\"), and older texts address readers or God as \"vós\". Recognise these forms, then put them into today's Brazilian order: \"ele me disse\", \"vou te dizer\".",
-          "The modernists of 1922 turned that gap into a programme. Oswald de Andrade's \"Pronominais\" sets the grammar book's \"Dê-me um cigarro\" against the everyday \"Me dá um cigarro\". Drummond writes \"tinha uma pedra\", not \"havia uma pedra\". When you comment on a modernist text, name the choice: it is deliberate, not a slip.",
+          "Nineteenth-century prose puts the pronoun after the verb almost everywhere (\"disse-me\", \"encontrou-a\"). It uses mesóclise with the future and conditional (\"dir-lhe-ei\", \"encontrá-lo-ia\"), and older texts address readers or God as \"vós\". Recognize these forms, then put them into today's Brazilian order: \"ele me disse\", \"vou te dizer\".",
+          "The modernists of 1922 turned that gap into a program. Oswald de Andrade's \"Pronominais\" sets the grammar book's \"Dê-me um cigarro\" against the everyday \"Me dá um cigarro\". Drummond writes \"tinha uma pedra\", not \"havia uma pedra\". When you comment on a modernist text, name the choice: it is deliberate, not a slip.",
         ],
         examples: [
           { es: "Disse-me que voltaria antes do anoitecer.", en: "He told me he would come back before nightfall." },
@@ -2518,15 +2518,15 @@ export const PT_C1_U10: Lesson[] = [
 
 export const PT_C1_U10_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your book club in São Paulo is reading Machado de Assis's \"Dom Casmurro\", and you've been asked to write a short literary commentary for the club's blog. Briefly summarise the plot, analyse the narrator and Machado's irony, and finish with your own view: does the question of whether Capitu was unfaithful really matter? Write in formal, essay-style Portuguese.",
+  prompt: "Your book club in São Paulo is reading Machado de Assis's \"Dom Casmurro\", and you've been asked to write a short literary commentary for the club's blog. Briefly summarize the plot, analyze the narrator and Machado's irony, and finish with your own view: does the question of whether Capitu was unfaithful really matter? Write in formal, essay-style Portuguese.",
   minWords: 180,
   maxWords: 300,
   rubric: [
-    "Summarise the plot in the historical present (\"Bentinho conhece Capitu\", \"acaba convencido de que\")",
+    "Summarize the plot in the historical present (\"Bentinho conhece Capitu\", \"acaba convencido de que\")",
     "Use the simple pluperfect at least once for an earlier past event (\"mandara\", \"traíra\", \"fizera\")",
     "Use the vocabulary of literary analysis: \"narrador\", \"foco narrativo\", \"enredo\", \"personagem\", \"ironia machadiana\"",
     "Compress ideas with reduced clauses (\"Publicado em 1899\", \"Dirigindo-se ao leitor\", \"Fechado o livro\") and close with a personal evaluation",
   ],
   modelAnswer: "Publicado em 1899, \"Dom Casmurro\" é narrado em primeira pessoa por Bento Santiago, um advogado já idoso que decide escrever suas memórias para \"atar as duas pontas da vida\". O enredo parece simples: Bentinho conhece Capitu na infância, escapa do seminário, para onde a mãe o mandara por causa de uma promessa, casa com ela e, anos depois, acaba convencido de que a mulher o traíra com Escobar, seu melhor amigo. A prova? A semelhança entre o filho, Ezequiel, e o amigo já morto.\n\nO grande mérito do romance está no foco narrativo. Tudo o que sabemos da personagem Capitu passa pelo olhar de um narrador ciumento, que seleciona, omite e interpreta os fatos a seu favor. Quando Bento descreve os \"olhos de ressaca\" da moça, o leitor percebe tanto o fascínio quanto o medo que ela lhe inspira. Machado não nos oferece nenhuma confirmação externa: o narrador é, ao mesmo tempo, réu, promotor e juiz.\n\nA ironia machadiana aparece justamente nessa distância entre o que Bento afirma e o que o texto deixa entrever. Dirigindo-se diretamente ao leitor, ele pede que confiemos em sua versão, mas admite, em certo capítulo, que sua memória \"não é boa\". Assim, a pergunta que gerações de leitores fazem, se Capitu traiu ou não, talvez seja menos importante do que outra: por que acreditamos em quem narra?\n\nLido hoje, o romance continua atual, pois revela como o ciúme e o poder masculino constroem uma verdade conveniente. Fechado o livro, fica a sensação de que o verdadeiro mistério não é Capitu, mas o próprio Bento.",
-  explanation: "The plot is told in the historical present (\"conhece\", \"escapa\", \"acaba convencido\"), the standard tense for summarising a novel in Portuguese. The simple pluperfect \"mandara\" and \"traíra\" marks events earlier than the narrated past, as in literary and formal writing; in conversation you'd say \"tinha mandado\" and \"tinha traído\". Participle and gerund clauses (\"Publicado em 1899\", \"Lido hoje\", \"Fechado o livro\", \"Dirigindo-se ao leitor\") make the text dense and formal, and each participle agrees with its noun (\"Fechado o livro\", but it would be \"Fechada a obra\").",
+  explanation: "The plot is told in the historical present (\"conhece\", \"escapa\", \"acaba convencido\"), the standard tense for summarizing a novel in Portuguese. The simple pluperfect \"mandara\" and \"traíra\" marks events earlier than the narrated past, as in literary and formal writing; in conversation you'd say \"tinha mandado\" and \"tinha traído\". Participle and gerund clauses (\"Publicado em 1899\", \"Lido hoje\", \"Fechado o livro\", \"Dirigindo-se ao leitor\") make the text dense and formal, and each participle agrees with its noun (\"Fechado o livro\", but it would be \"Fechada a obra\").",
 };

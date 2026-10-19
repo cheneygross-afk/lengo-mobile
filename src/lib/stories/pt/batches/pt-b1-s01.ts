@@ -80,7 +80,7 @@ export const PT_B1_S01_STORIES: Story[] = [
       },
       {
         question: `What does seu Valdir still do alone?`,
-        options: [`He opens the shop at six.`, `He manages the website.`, `He makes the filling behind a closed door.`, `He delivers the coxinhas himself.`],
+        options: [`He opens the snack bar at six.`, `He manages the website.`, `He makes the filling behind a closed door.`, `He delivers the coxinhas himself.`],
         correctIndex: 2,
         explanation: `He "continua fazendo o recheio sozinho, de porta fechada".`,
       },
@@ -90,7 +90,7 @@ export const PT_B1_S01_STORIES: Story[] = [
     slug: "pt-o-livro-emprestado",
     level: "PT-B1",
     title: `O livro emprestado`,
-    subtitle: `In a secondhand bookshop in Porto Alegre, Renata finds a book she once gave to the friend she hasn't spoken to in fifteen years.`,
+    subtitle: `In a used bookstore in Porto Alegre, Renata finds a book she once gave to the friend she hasn't spoken to in fifteen years.`,
     paragraphs: [
       `Renata tinha o costume de passar os sábados nos sebos do centro de Porto Alegre. Gostava do cheiro de papel velho e das dedicatórias que os antigos donos escreviam na primeira página. Naquele sábado de junho, frio e cinzento, ela encontrou numa estante um exemplar de “Capitães da Areia” com a capa rasgada. Abriu o livro e ficou paralisada. Na primeira página estava escrito, com a letra dela mesma: “Para a Cláudia, que é mais que uma irmã. Renata, 2003.”`,
       `A Cláudia tinha sido a melhor amiga dela desde os sete anos. As duas tinham feito tudo juntas: a escola, o primeiro show, o primeiro emprego. Mas em 2009 o pai de Renata morreu, e a Cláudia não foi ao enterro. Não ligou, não mandou mensagem, não apareceu. Renata nunca a perdoou. Quando, meses depois, a amiga tentou telefonar, Renata não atendeu. Depois disso, foram quinze anos de silêncio.`,
@@ -104,7 +104,7 @@ export const PT_B1_S01_STORIES: Story[] = [
     questions: [
       {
         question: `What was written on the first page of the book?`,
-        options: [`The name of the bookshop`, `A note from Cláudia's daughter`, `A dedication Renata herself had written to Cláudia`, `The price in old money`],
+        options: [`The name of the bookstore`, `A note from Cláudia's daughter`, `A dedication Renata herself had written to Cláudia`, `The price in old money`],
         correctIndex: 2,
         explanation: `It said, in Renata's own handwriting: "Para a Cláudia, que é mais que uma irmã. Renata, 2003."`,
       },
@@ -188,7 +188,7 @@ export const PT_B1_S01_STORIES: Story[] = [
     questions: [
       {
         question: `Why couldn't the DJ come to the wedding?`,
-        options: [`He had another party.`, `His equipment was broken.`, `He was in hospital with an infection.`, `He forgot the date.`],
+        options: [`He had another party.`, `His equipment was broken.`, `He was in the hospital with an infection.`, `He forgot the date.`],
         correctIndex: 2,
         explanation: `The DJ "estava no hospital com uma infecção e não poderia trabalhar".`,
       },
@@ -231,7 +231,7 @@ export const PT_B1_S01_GLOSSES: Record<string, StoryGloss[]> = {
   ],
   "pt-a-coxinha-do-seu-valdir": [
     { es: "a esquina", en: "street corner", forms: ["esquina"] },
-    { es: "a rede", en: "chain (of shops)", forms: ["rede"] },
+    { es: "a rede", en: "chain (of stores)", forms: ["rede"] },
     { es: "o movimento", en: "business, number of customers", forms: ["movimento"] },
     { es: "balançar a cabeça", en: "to shake one's head", forms: ["balançava"] },
     { es: "a propaganda", en: "advertising", forms: ["propaganda"] },
@@ -244,7 +244,7 @@ export const PT_B1_S01_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "o concorrente", en: "competitor", forms: ["concorrente"] },
   ],
   "pt-o-livro-emprestado": [
-    { es: "o sebo", en: "secondhand bookshop", forms: ["sebos"] },
+    { es: "o sebo", en: "used bookstore", forms: ["sebos"] },
     { es: "a dedicatória", en: "dedication (written in a book)", forms: ["dedicatórias", "dedicatória"] },
     { es: "o exemplar", en: "copy (of a book)", forms: ["exemplar"] },
     { es: "rasgado", en: "torn", forms: ["rasgada"] },
@@ -253,7 +253,7 @@ export const PT_B1_S01_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "folhear", en: "to leaf through", forms: ["folhear"] },
     { es: "magoado", en: "hurt (feelings)", forms: ["magoada"] },
     { es: "grávida", en: "pregnant", forms: ["grávida"] },
-    { es: "a mudança", en: "house move", forms: ["mudança"] },
+    { es: "a mudança", en: "move (to a new home)", forms: ["mudança"] },
     { es: "o chimarrão", en: "hot mate tea, drunk in the South", forms: ["chimarrão"] },
     { es: "a cuia", en: "gourd for drinking chimarrão", forms: ["cuia"] },
   ],

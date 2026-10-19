@@ -136,7 +136,7 @@ export const FR_C2_U33: Lesson[] = [
             prompt: "Translate into French, starting with Sans doute.",
             source: "She's no doubt right.",
             answer: "Sans doute a-t-elle raison.",
-            altAnswers: ["Sans doute qu'elle a raison.", "Elle a sans doute raison."],
+            altAnswers: ["Sans doute qu'elle a raison."],
             explanation: "\"Sans doute\" at the head of the sentence triggers inversion: \"a-t-elle\". Note: it means probably, not certainly.",
           },
           {
@@ -213,7 +213,7 @@ export const FR_C2_U33: Lesson[] = [
         prompt: "Translate into French.",
         source: "He may be right; he still has to prove it.",
         answer: "Il a peut-être raison ; encore faut-il le prouver.",
-        altAnswers: ["Il a peut-être raison, encore faut-il le prouver.", "Il a sans doute raison ; encore faut-il le prouver.", "Il a sans doute raison, encore faut-il le prouver.", "Il a raison ; encore faut-il le prouver.", "Il a raison, encore faut-il le prouver."],
+        altAnswers: ["Il a peut-être raison, encore faut-il le prouver.", "Il a sans doute raison ; encore faut-il le prouver.", "Il a sans doute raison, encore faut-il le prouver."],
         explanation: "\"Encore faut-il\" + infinitive or que + subjunctive: it remains to be seen.",
       },
       {
@@ -329,7 +329,7 @@ export const FR_C2_U33: Lesson[] = [
             question: "What did you hear?",
             options: ["Un éminent spécialiste a été consulté.", "Un imminent spécialiste a été consulté.", "Un éminent spécialiste a été insulté.", "Une éminente spécialiste a été consultée."],
             correctIndex: 0,
-            explanation: "\"Éminent\" (distinguished) begins with é; \"imminent\" with a nasal i.",
+            explanation: "\"Éminent\" (distinguished) begins with an é sound; \"imminent\" begins with an i sound (the first syllable is not nasal: [i-mi-nɑ̃]).",
           },
         ],
       },
@@ -798,7 +798,7 @@ export const FR_C2_U33: Lesson[] = [
         body: [
           "(10) \"*Pallier à un problème\": \"pallier\" is transitive: \"pallier un problème\", \"pallier le manque de personnel\" (by analogy with \"remédier à\", many people add à, but it is still marked as an error). (11) \"*Ça fait du sens\": a calque of 'it makes sense'; French says \"ça a du sens\", \"ça a un sens\" or \"c'est logique\".",
           "(12) \"*Je suis sensé arriver à huit heures\": \"sensé\" means sensible; supposed to is \"censé\" (from \"censer\", to reckon): \"je suis censé arriver\". (13) \"*Je me rappelle de cette soirée\": \"se rappeler\" is transitive in careful usage: \"je me rappelle cette soirée\", or \"je me souviens de cette soirée\".",
-          "(14) \"*Au jour d'aujourd'hui\": a pleonasm (aujourd'hui already contains 'hui', today): say \"aujourd'hui\" or \"de nos jours\". (15) \"*Il a éventuellement réussi\" (meaning he eventually succeeded): \"éventuellement\" means possibly; say \"il a fini par réussir\".",
+          "(14) \"*Au jour d'aujourd'hui\": a pleonasm (aujourd'hui already contains \"hui\", an old word for today): say \"aujourd'hui\" or \"de nos jours\". (15) \"*Il a éventuellement réussi\" (meaning he eventually succeeded): \"éventuellement\" means possibly; say \"il a fini par réussir\".",
         ],
         examples: [
           { es: "Il faut pallier le manque de personnel.", en: "We need to make up for the staff shortage." },
@@ -1316,7 +1316,7 @@ export const FR_C2_U33: Lesson[] = [
         prompt: "Translate into French.",
         source: "It's not that I don't want to, it's that I can't.",
         answer: "Ce n'est pas que je ne veuille pas, c'est que je ne peux pas.",
-        altAnswers: ["Ce n'est pas que je ne veux pas, c'est que je ne peux pas.", "Ce n'est pas que je ne veuille pas, mais je ne peux pas."],
+        altAnswers: ["Ce n'est pas que je ne veuille pas, mais je ne peux pas."],
         explanation: "\"Ce n'est pas que\" + subjunctive, then \"c'est que\" + indicative.",
       },
       {
@@ -2233,7 +2233,7 @@ export const FR_C2_U33: Lesson[] = [
         heading: "Part 4: Vocabulary, register and phraseology",
         body: [
           "The final part checks precision. Register: the same idea at three levels, \"Ça coince\" (familiar), \"Il y a un problème\" (standard), \"Une difficulté se fait jour\" (formal). Phraseology: \"faire d'une pierre deux coups\", \"avoir maille à partir avec\" (to be in conflict with), \"tenir le haut du pavé\" (to hold the upper hand), \"il n'y a pas péril en la demeure\" (there's no rush).",
-          "Collocations and false friends: \"prendre des mesures\" (not \"faire\"), \"une éventualité\" (a possibility, not an eventuality in the English sense of an outcome), \"actuellement\" (currently, not actually), \"un délai\" (a deadline or time allowed, not only a delay).",
+          "Collocations and false friends: \"prendre des mesures\" (not \"faire\"), \"une éventualité\" (a possibility; but the adverb \"éventuellement\" means possibly, not eventually), \"actuellement\" (currently, not actually), \"un délai\" (a deadline or time allowed, not only a delay).",
           "Score yourself honestly on the exercises below. 70% or more means you can handle the demands of a DALF C2-level task; below that, revisit the units on the areas you missed.",
         ],
         examples: [
@@ -2371,7 +2371,7 @@ export const FR_C2_U33: Lesson[] = [
           "A concession with \"non que\" or \"bien que\" + subjunctive",
           "Precise vocabulary such as \"report de trafic\", \"mobilité douce\", \"concertation\"",
         ],
-        modelAnswer: "Piétonniser, oui, mais pas à n'importe quel prix\n\nLa mairie envisage de fermer le centre-ville aux voitures. Dans quelle mesure une telle décision rendrait-elle notre ville plus agréable, et surtout plus juste ? La question mérite mieux qu'un enthousiasme de principe ou un refus réflexe.\n\nNon que les bienfaits de la piétonnisation soient contestables : les villes qui ont franchi le pas ont vu reculer la pollution et le bruit, tandis que les places retrouvaient leurs promeneurs. Le commerce de proximité lui-même, que l'on disait condamné, y a souvent gagné en fréquentation. Ce serait faire preuve de mauvaise foi que de le nier.\n\nEncore faut-il regarder ce qui se passe à la lisière du périmètre. Comme le souligne un article récent, le report de trafic sur les rues adjacentes reporte aussi les nuisances sur leurs riverains. Quant aux habitants modestes, relégués en périphérie et dépendants de leur voiture, ils risquent de percevoir le centre comme un salon réservé à ceux qui n'ont plus besoin de s'y rendre en voiture.\n\nLa piétonnisation n'est donc pas une fin en soi. Elle n'a de sens qu'accompagnée d'un réseau de transports en commun renforcé, de parkings relais aux entrées de ville et d'une véritable concertation, menée en amont et non une fois la décision prise. La mobilité douce suppose des pistes cyclables continues, des bus fréquents, des tarifs accessibles.\n\nQue la mairie aille de l'avant, donc, mais par étapes, et en rendant des comptes. Une ville qui respire n'est une réussite que si tous ses habitants peuvent y accéder.",
+        modelAnswer: "Piétonniser, oui, mais pas à n'importe quel prix\n\nLa mairie envisage de fermer le centre-ville aux voitures. Dans quelle mesure une telle décision rendrait-elle notre ville plus agréable, et surtout plus juste ? La question mérite mieux qu'un enthousiasme de principe ou un refus réflexe.\n\nNon que les bienfaits de la piétonnisation soient contestables : les villes qui ont franchi le pas ont vu reculer la pollution et le bruit, tandis que les places retrouvaient leurs promeneurs. Le commerce de proximité lui-même, que l'on disait condamné, y a souvent gagné en fréquentation. Ce serait faire preuve de mauvaise foi que de le nier.\n\nEncore faut-il regarder ce qui se passe à la lisière du périmètre. Comme le souligne un article récent, le report de trafic sur les rues adjacentes déplace aussi les nuisances sur leurs riverains. Quant aux habitants modestes, relégués en périphérie et dépendants de leur voiture, ils risquent de percevoir le centre comme un salon réservé à ceux qui n'ont plus besoin de s'y rendre en voiture.\n\nLa piétonnisation n'est donc pas une fin en soi. Elle n'a de sens qu'accompagnée d'un réseau de transports en commun renforcé, de parkings relais aux entrées de ville et d'une véritable concertation, menée en amont et non une fois la décision prise. La mobilité douce suppose des pistes cyclables continues, des bus fréquents, des tarifs accessibles.\n\nQue la mairie aille de l'avant, donc, mais par étapes, et en rendant des comptes. Une ville qui respire n'est une réussite que si tous ses habitants peuvent y accéder.",
         explanation: "The model opens with a problématique, concedes the benefits with \"non que\" + subjunctive, uses \"encore faut-il\" to introduce the limits, refers to the source indirectly, and ends with conditions and a clear position. Its register stays that of a quality editorial throughout.",
       },
     ],

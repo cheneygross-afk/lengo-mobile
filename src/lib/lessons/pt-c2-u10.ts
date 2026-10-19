@@ -15,21 +15,21 @@ export const PT_C2_U10: Lesson[] = [
       {
         heading: "One message, five rungs",
         body: [
-          "This review takes one piece of news and moves it along the register ladder you have built since B2: the neighbourhood library is closing in December for lack of money. Five rungs cover almost every situation: \"íntimo\" (a voice note to a close friend), \"coloquial\" (a chat with a colleague), \"neutro\" (a news item or internal email), \"formal\" (a letter to residents or clients) and \"oficial\" (a notice from an institution).",
+          "This review takes one piece of news and moves it along the register ladder you have built since B2: the neighborhood library is closing in December for lack of money. Five rungs cover almost every situation: \"íntimo\" (a voice note to a close friend), \"coloquial\" (a chat with a colleague), \"neutro\" (a news item or internal email), \"formal\" (a letter to residents or clients) and \"oficial\" (a notice from an institution).",
           "The facts never change. The reader, the relationship and the channel do. Read the five versions in order and watch what each step up removes. First the slang goes, then the contractions and the warmth, then the speaker. By the end the official notice has no visible author at all, and the money has become \"restrições orçamentárias\".",
           "At C2 the typical slip is not choosing the wrong rung but sliding between rungs inside one text. A formal letter that suddenly says \"a gente\" sounds careless. A message to a friend written like a decree sounds ironic, and a Brazilian friend will read it as a joke, which is sometimes exactly the point.",
         ],
         examples: [
-          { es: "Cara, a biblioteca do bairro vai fechar em dezembro. Acabou a grana, acredita?", en: "(intimate) Dude, the neighbourhood library's closing in December. The money's run out, can you believe it?" },
-          { es: "Você soube? A biblioteca do bairro vai fechar em dezembro porque não tem mais dinheiro.", en: "(colloquial) Did you hear? The neighbourhood library is closing in December because there's no money left." },
-          { es: "A biblioteca do bairro fechará em dezembro por falta de recursos.", en: "(neutral) The neighbourhood library will close in December due to a lack of funds." },
-          { es: "Prezados moradores, informamos que a biblioteca do bairro encerrará suas atividades em dezembro, em razão da falta de recursos.", en: "(formal) Dear residents, we wish to inform you that the neighbourhood library will cease operating in December owing to a lack of funds." },
-          { es: "Comunica-se que a Biblioteca Municipal terá suas atividades encerradas em 31 de dezembro, em virtude de restrições orçamentárias.", en: "(official) Notice is hereby given that the Municipal Library will cease operations on 31 December owing to budgetary constraints." },
+          { es: "Cara, a biblioteca do bairro vai fechar em dezembro. Acabou a grana, acredita?", en: "(intimate) Dude, the neighborhood library's closing in December. The money's run out, can you believe it?" },
+          { es: "Você soube? A biblioteca do bairro vai fechar em dezembro porque não tem mais dinheiro.", en: "(colloquial) Did you hear? The neighborhood library is closing in December because there's no money left." },
+          { es: "A biblioteca do bairro fechará em dezembro por falta de recursos.", en: "(neutral) The neighborhood library will close in December due to a lack of funds." },
+          { es: "Prezados moradores, informamos que a biblioteca do bairro encerrará suas atividades em dezembro, em razão da falta de recursos.", en: "(formal) Dear residents, we wish to inform you that the neighborhood library will cease operating in December owing to a lack of funds." },
+          { es: "Comunica-se que a Biblioteca Municipal terá suas atividades encerradas em 31 de dezembro, em virtude de restrições orçamentárias.", en: "(official) Notice is hereby given that the Municipal Library will cease operations on December 31 owing to budgetary constraints." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "You're drafting the notice the city council will post on the library door. Which opening fits?",
+            question: "You're drafting the notice City Hall will post on the library door. Which opening fits?",
             options: [
               "Comunica-se que a Biblioteca Municipal terá suas atividades encerradas em 31 de dezembro.",
               "Gente, a biblioteca vai fechar dia 31, tá?",
@@ -54,7 +54,7 @@ export const PT_C2_U10: Lesson[] = [
               "Você ficou sabendo? A biblioteca fecha em dezembro.",
               "Você já soube? A biblioteca vai fechar em dezembro.",
             ],
-            explanation: "At the colloquial rung, \"soube\" (found out, heard) or \"ficou sabendo\" opens the chat, and \"vai fechar\" is the everyday future. \"Fechará\" would be too stiff for a corridor conversation.",
+            explanation: "At the colloquial rung, \"soube\" (found out, heard) or \"ficou sabendo\" opens the chat, and \"vai fechar\" is the everyday future. \"Fechará\" would be too stiff for a hallway conversation.",
           },
           {
             type: "fill-blank",
@@ -71,16 +71,16 @@ export const PT_C2_U10: Lesson[] = [
         heading: "The levers that move a text",
         body: [
           "Register moves through a small set of levers, all taught earlier. The subject goes from \"a gente\" to \"nós\" to the impersonal \"se\" or the passive. There is goes from \"tem\" to \"há\" or \"existem\". The contractions \"tá\" and \"pra\" become \"está\" and \"para\". Pronouns shift too, so \"me disseram\" becomes \"fomos informados\". Vocabulary climbs as well: \"pedir\" becomes \"solicitar\", \"acabar\" becomes \"encerrar\".",
-          "The strongest lever is nominalisation. Speech tells a story with people and verbs: \"porque cortaram o dinheiro\". Formal prose turns the event into a noun and hides the agent: \"em decorrência do corte orçamentário\". Pull this lever too hard and you get the opaque \"juridiquês\" you rewrote into plain language in Unit 7.",
+          "The strongest lever is nominalization. Speech tells a story with people and verbs: \"porque cortaram o dinheiro\". Formal prose turns the event into a noun and hides the agent: \"em decorrência do corte orçamentário\". Pull this lever too hard and you get the opaque \"juridiquês\" you rewrote into plain language in Unit 7.",
           "Move the levers together. \"Prezados moradores, a gente vem informar\" opens on the formal rung and drops to the colloquial one in the next breath. Choose \"Prezados moradores, informamos\" or the impersonal \"Informa-se aos moradores\".",
         ],
         examples: [
           { es: "A gente vai fazer um abaixo-assinado.", en: "We're going to do a petition. (colloquial)" },
-          { es: "Os moradores farão um abaixo-assinado.", en: "The residents will organise a petition. (neutral)" },
+          { es: "Os moradores farão um abaixo-assinado.", en: "The residents will organize a petition. (neutral)" },
           { es: "Tem muita criança que estuda lá depois da aula.", en: "Loads of kids study there after school. (colloquial)" },
           { es: "Há dezenas de crianças que frequentam o espaço no contraturno escolar.", en: "Dozens of children use the space outside school hours. (formal)" },
           { es: "Me disseram que cortaram a verba.", en: "They told me the funding got cut. (colloquial)" },
-          { es: "Fomos informados de que o fechamento decorre de um corte orçamentário.", en: "We have been informed that the closure results from a budget cut. (formal: passive plus nominalisation)" },
+          { es: "Fomos informados de que o fechamento decorre de um corte orçamentário.", en: "We have been informed that the closure results from a budget cut. (formal: passive plus nominalization)" },
         ],
         checkpoint: [
           {
@@ -126,11 +126,11 @@ export const PT_C2_U10: Lesson[] = [
         body: [
           "Register answers the question 'how formal?'; style answers 'how is it told?'. The two are independent. A formal text can be dry or passionate, and a chat with a friend can be full of metaphors. Three styles cover most needs: \"objetivo\", \"figurado\" and \"retórico\".",
           "The \"objetivo\" style is the voice of news and reports. It uses short declarative sentences, figures and sources, and very few adjectives: \"Faltou verba.\" The \"figurado\" style is the voice of the \"crônica\", letting the figures of speech from Unit 1 carry the meaning: personification (\"a biblioteca apaga a luz\"), metaphor, hyperbole. The \"retórico\" style is built for the ear and for persuasion: anaphora, the triad, the rhetorical question and the objection answered before anyone raises it (\"alguns dirão que...\").",
-          "Choose by purpose: inform with the objective style, move with the figurative, mobilise with the rhetorical. Mixing them should be a choice, never an accident. A single metaphor in a report draws attention to itself. Three turn the report into a \"crônica\".",
+          "Choose by purpose: inform with the objective style, move with the figurative, mobilize with the rhetorical. Mixing them should be a choice, never an accident. A single metaphor in a report draws attention to itself. Three turn the report into a \"crônica\".",
         ],
         examples: [
-          { es: "A biblioteca do bairro fecha em dezembro. Faltou verba. O espaço recebe cerca de 300 leitores por semana.", en: "(objective) The neighbourhood library closes in December. Funding fell short. The space receives around 300 readers a week." },
-          { es: "Segundo a prefeitura, o fechamento afeta 1.200 usuários cadastrados.", en: "(objective) According to the city council, the closure affects 1,200 registered users." },
+          { es: "A biblioteca do bairro fecha em dezembro. Faltou verba. O espaço recebe cerca de 300 leitores por semana.", en: "(objective) The neighborhood library closes in December. Funding fell short. The space receives around 300 readers a week." },
+          { es: "Segundo a prefeitura, o fechamento afeta 1.200 usuários cadastrados.", en: "(objective) According to City Hall, the closure affects 1,200 registered users." },
           { es: "Em dezembro, a biblioteca apaga a luz e guarda quarenta anos de silêncio numa caixa de papelão.", en: "(figurative) In December the library turns off the light and packs forty years of silence into a cardboard box." },
           { es: "Os livros vão ficar órfãos de leitores.", en: "(figurative) The books will be orphaned of readers." },
           { es: "Fechar uma biblioteca é fechar uma porta, é fechar uma janela, é fechar um futuro.", en: "(rhetorical) To close a library is to close a door, to close a window, to close a future." },
@@ -179,7 +179,7 @@ export const PT_C2_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "(news item) The neighbourhood library will close in December due to a lack of funds.",
+        source: "(news item) The neighborhood library will close in December due to a lack of funds.",
         answer: "A biblioteca do bairro fechará em dezembro por falta de recursos.",
         altAnswers: [
           "A biblioteca do bairro vai fechar em dezembro por falta de recursos.",
@@ -211,7 +211,7 @@ export const PT_C2_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "(official notice) The return of all borrowed books is requested by 15 December.",
+        source: "(official notice) The return of all borrowed books is requested by December 15.",
         answer: "Solicita-se a devolução de todos os livros emprestados até 15 de dezembro.",
         altAnswers: [
           "Solicita-se a devolução de todos os livros emprestados até o dia 15 de dezembro.",
@@ -233,7 +233,7 @@ export const PT_C2_U10: Lesson[] = [
           "O fechamento resulta do corte orçamentário.",
           "O encerramento decorre de um corte orçamentário.",
         ],
-        explanation: "Nominalisation hides the agent. The spoken \"fecharam porque cortaram o dinheiro\" becomes two nouns joined by \"decorrer de\" (to result from).",
+        explanation: "Nominalization hides the agent. The spoken \"fecharam porque cortaram o dinheiro\" becomes two nouns joined by \"decorrer de\" (to result from).",
       },
       {
         type: "translate",
@@ -310,7 +310,7 @@ export const PT_C2_U10: Lesson[] = [
           { es: "Ela ficou meio decepcionada com o resultado.", en: "She was a bit disappointed with the result." },
           { es: "Seguem anexas as notas fiscais do mês.", en: "Please find attached this month's invoices." },
           { es: "Há bastantes razões para adiar a votação.", en: "There are plenty of reasons to postpone the vote." },
-          { es: "É proibida a entrada de pessoas estranhas ao serviço.", en: "Authorised personnel only." },
+          { es: "É proibida a entrada de pessoas estranhas ao serviço.", en: "Authorized personnel only." },
         ],
         checkpoint: [
           {
@@ -349,7 +349,7 @@ export const PT_C2_U10: Lesson[] = [
         examples: [
           { es: "A reforma implica mudanças profundas no orçamento.", en: "The reform entails deep changes to the budget." },
           { es: "Ele aspira ao cargo de diretor.", en: "He aspires to the director's post." },
-          { es: "O programa visa à inclusão digital de idosos.", en: "The programme aims at the digital inclusion of older people." },
+          { es: "O programa visa à inclusão digital de idosos.", en: "The program aims at the digital inclusion of older people." },
           { es: "Prefiro o silêncio a uma conversa vazia.", en: "I prefer silence to empty conversation." },
           { es: "A comissão procederá à análise dos documentos.", en: "The committee will carry out the analysis of the documents." },
           { es: "Meu chefe implica comigo por qualquer coisa.", en: "My boss picks on me over the slightest thing." },
@@ -368,7 +368,7 @@ export const PT_C2_U10: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I prefer theatre to cinema.",
+            source: "I prefer the theater to the movies.",
             answer: "Prefiro o teatro ao cinema.",
             altAnswers: ["Eu prefiro o teatro ao cinema.", "Prefiro teatro a cinema.", "Eu prefiro teatro a cinema."],
             explanation: "\"Preferir X a Y\": the second term takes \"a\" (here \"ao\"). \"Prefiro mais o teatro do que o cinema\" doubles the comparison and breaks the norm.",
@@ -392,7 +392,7 @@ export const PT_C2_U10: Lesson[] = [
           { es: "À medida que o prazo se aproxima, a tensão aumenta.", en: "As the deadline approaches, the tension rises." },
           { es: "O plano fracassou, na medida em que ignorou os moradores.", en: "The plan failed insofar as it ignored the residents." },
           { es: "Ela faz um curso a distância.", en: "She's taking a distance-learning course." },
-          { es: "O radar fica à distância de 200 metros do cruzamento.", en: "The speed camera is 200 metres from the junction." },
+          { es: "O radar fica à distância de 200 metros do cruzamento.", en: "The speed camera is 200 meters from the junction." },
           { es: "Atendemos de segunda a sexta, das 8h às 18h.", en: "We're open Monday to Friday, from 8 a.m. to 6 p.m." },
         ],
         checkpoint: [
@@ -472,7 +472,7 @@ export const PT_C2_U10: Lesson[] = [
         source: "There were fewer people at the meeting than yesterday.",
         answer: "Havia menos pessoas na reunião do que ontem.",
         altAnswers: ["Havia menos gente na reunião do que ontem.", "Havia menos pessoas na reunião que ontem.", "Tinha menos gente na reunião do que ontem.", "Tinha menos pessoas na reunião do que ontem."],
-        explanation: "\"Menos\" is invariable even before a feminine noun. \"Menas pessoas\" is stigmatised, and \"haver\" stays singular: \"havia\", never \"haviam\".",
+        explanation: "\"Menos\" is invariable even before a feminine noun. \"Menas pessoas\" is stigmatized, and \"haver\" stays singular: \"havia\", never \"haviam\".",
       },
       {
         type: "fill-blank",
@@ -537,9 +537,9 @@ export const PT_C2_U10: Lesson[] = [
         type: "listen-choose",
         audio: "Ela aspira a uma vaga na universidade.",
         question: "What does it mean?",
-        options: ["She aspires to a place at the university.", "She vacuumed a room at the university.", "She gave up a place at the university.", "She's breathing deeply at the university."],
+        options: ["She aspires to a spot at the university.", "She vacuumed a room at the university.", "She gave up a spot at the university.", "She's breathing deeply at the university."],
         correctIndex: 0,
-        explanation: "\"Aspirar a\" with the preposition means to aspire to. A \"vaga\" here is a place on a course.",
+        explanation: "\"Aspirar a\" with the preposition means to aspire to. A \"vaga\" here is a spot in a program.",
       },
       {
         type: "dictation",
@@ -566,7 +566,7 @@ export const PT_C2_U10: Lesson[] = [
     level: "PT-C2",
     number: 3,
     title: "Review: Culture and References",
-    summary: "Put proverbs, idioms, football metaphors, puns and irony to work in fresh contexts, choosing the right one for the situation and the register.",
+    summary: "Put proverbs, idioms, soccer metaphors, puns and irony to work in fresh contexts, choosing the right one for the situation and the register.",
     duration: "18 min",
     sections: [
       {
@@ -621,10 +621,10 @@ export const PT_C2_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Idioms and football: the shared stock",
+        heading: "Idioms and soccer: the shared stock",
         body: [
           "Idioms are frozen. You can conjugate the verb, but you can't swap the nouns. \"Dar com os burros n'água\" is to come to nothing, \"pôr a mão no fogo por alguém\" is to vouch for someone, \"ser um zero à esquerda\" is to be useless, and \"tirar onda\" is to show off. \"Ficar a ver navios\" (to be left empty-handed) keeps its old a + infinitive even in Brazil, alongside \"ficar vendo navios\".",
-          "Football lends Brazil half its metaphors: \"pisar na bola\" (to let someone down), \"virar o jogo\" (to turn things around), \"show de bola\" (brilliant). Shared events become shorthand too. Since the 2014 World Cup semifinal, \"foi um 7 a 1\" means a humiliating rout. A scandal that ends with no one punished \"acabou em pizza\".",
+          "Soccer lends Brazil half its metaphors: \"pisar na bola\" (to let someone down), \"virar o jogo\" (to turn things around), \"show de bola\" (brilliant). Shared events become shorthand too. Since the 2014 World Cup semifinal, \"foi um 7 a 1\" means a humiliating rout. A scandal that ends with no one punished \"acabou em pizza\".",
           "All of these are informal. In a report, \"o projeto deu com os burros n'água\" becomes \"o projeto não alcançou seus objetivos\". An idiom in the wrong register sounds flippant.",
         ],
         examples: [
@@ -677,7 +677,7 @@ export const PT_C2_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Humour: puns, irony and zoeira",
+        heading: "Humor: puns, irony and zoeira",
         body: [
           "A Portuguese pun usually rests on a homophone pair spelled differently: \"concerto\" (concert) and \"conserto\" (repair), or \"sessão\", \"seção\" and \"cessão\". Write the wrong one and the joke disappears, along with your credibility.",
           "Irony rides on context and a flat delivery, like \"que ótimo\" or \"parabéns\" said over bad news. Online, \"só que não\" added at the end flags it. Teasing among friends (\"zoar\", \"tirar sarro\") signals closeness, and taking it badly means you've misread the game. \"Kkkk\" is the default laugh in writing. \"Rsrs\" is softer and reads as older or more polite.",
@@ -773,7 +773,7 @@ export const PT_C2_U10: Lesson[] = [
           "Íamos perder o cliente, mas viramos o jogo.",
           "A gente ia perder o cliente, mas virou o jogo.",
         ],
-        explanation: "\"Virar o jogo\" comes from football, where a team comes back to win, and is used for any turnaround.",
+        explanation: "\"Virar o jogo\" comes from soccer, where a team comes back to win, and is used for any turnaround.",
       },
       {
         type: "translate",
@@ -827,7 +827,7 @@ export const PT_C2_U10: Lesson[] = [
           { left: "fazer uma vaquinha", right: "to chip in" },
           { left: "foi um 7 a 1", right: "it was a humiliating rout" },
         ],
-        explanation: "Three of these come from football (\"pisar na bola\", \"show de bola\", \"foi um 7 a 1\"). All six are informal.",
+        explanation: "Three of these come from soccer (\"pisar na bola\", \"show de bola\", \"foi um 7 a 1\"). All six are informal.",
       },
       {
         type: "listen-choose",
@@ -903,7 +903,7 @@ export const PT_C2_U10: Lesson[] = [
             question: "Which sentence from the report can go to the client unchanged?",
             options: ["Faz três meses que o sistema falha.", "Fazem três meses que o sistema falha.", "Houveram três falhas no sistema.", "Devem haver três falhas no sistema."],
             correctIndex: 0,
-            explanation: "\"Fazer\" for elapsed time is impersonal: \"faz três meses\". The other three pluralise verbs that have no subject: write \"houve\" and \"deve haver\".",
+            explanation: "\"Fazer\" for elapsed time is impersonal: \"faz três meses\". The other three pluralize verbs that have no subject: write \"houve\" and \"deve haver\".",
           },
         ],
       },
@@ -991,25 +991,25 @@ export const PT_C2_U10: Lesson[] = [
       {
         heading: "The conclusion: little words and false friends",
         body: [
-          "The conclusion: \"A diretoria realizou que, há dez anos atrás, o mal planejamento já existia, mas ninguém explica porque.\" \"Realizar\" means to carry out; to realise is \"perceber\" or \"dar-se conta de\". \"Há dez anos atrás\" says ago twice, so keep either \"há dez anos\" or \"dez anos atrás\".",
+          "The conclusion: \"A diretoria realizou que, há dez anos atrás, o mal planejamento já existia, mas ninguém explica porque.\" \"Realizar\" means to carry out; to realize is \"perceber\" or \"dar-se conta de\". \"Há dez anos atrás\" says ago twice, so keep either \"há dez anos\" or \"dez anos atrás\".",
           "\"Mau\" is the adjective (the opposite of \"bom\") and \"mal\" is the adverb (the opposite of \"bem\"): \"um mau planejamento\", \"começou mal\". Why at the end of a sentence is \"por quê\", with the accent. Watch time words too: \"há\" points to the past (\"há dois meses\"), and \"a\" without h points to the future (\"daqui a dois meses\").",
         ],
         examples: [
-          { es: "A diretoria percebeu que o planejamento era fraco.", en: "The board realised the planning was weak." },
+          { es: "A diretoria percebeu que o planejamento era fraco.", en: "The board realized the planning was weak." },
           { es: "Há dez anos, o problema já existia.", en: "Ten years ago, the problem already existed." },
           { es: "O projeto começou mal por causa de um mau planejamento.", en: "The project got off to a bad start because of poor planning." },
           { es: "Ninguém explicou por quê.", en: "Nobody explained why." },
-          { es: "A auditoria será daqui a dois meses.", en: "The audit will be in two months' time." },
+          { es: "A auditoria será daqui a dois meses.", en: "The audit will be in two months." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The company realised it had made a mistake.",
+            source: "The company realized it had made a mistake.",
             answer: "A empresa percebeu que tinha cometido um erro.",
             altAnswers: ["A empresa percebeu que havia cometido um erro.", "A empresa se deu conta de que tinha cometido um erro.", "A empresa se deu conta de que havia cometido um erro.", "A empresa percebeu que tinha errado.", "A empresa percebeu que havia errado.", "A empresa percebeu que cometeu um erro."],
-            explanation: "To realise is \"perceber\" or \"dar-se conta de\", never \"realizar\". The collocation is \"cometer um erro\", not the calque \"fazer um erro\".",
+            explanation: "To realize is \"perceber\" or \"dar-se conta de\", never \"realizar\". The collocation is \"cometer um erro\", not the calque \"fazer um erro\".",
           },
           {
             type: "fill-blank",
@@ -1023,7 +1023,7 @@ export const PT_C2_U10: Lesson[] = [
             type: "listen-choose",
             audio: "A auditoria será daqui a dois meses.",
             question: "What does it mean?",
-            options: ["The audit will be in two months' time.", "The audit was two months ago.", "The audit lasts two months.", "The audit has been going on for two months."],
+            options: ["The audit will be in two months.", "The audit was two months ago.", "The audit lasts two months.", "The audit has been going on for two months."],
             correctIndex: 0,
             explanation: "\"Daqui a\" points forward in time. \"Há dois meses\" would mean two months ago.",
           },
@@ -1142,14 +1142,14 @@ export const PT_C2_U10: Lesson[] = [
         body: [
           "To condense, turn verbs into nouns. \"Os juros subiram, e por isso o consumo caiu\" becomes \"A alta dos juros derrubou o consumo\". Follow the ripple. The old subject becomes a \"de\" complement (\"dos juros\"). An adverb becomes an adjective: \"subiram rapidamente\" turns into \"a rápida alta\". The logical link (\"por isso\") disappears into a stronger verb such as \"derrubar\", \"provocar\" or \"elevar\".",
           "The second tool is the reduced clause you met at C1: \"ao\" + infinitive, the gerund and the absolute participle. The participle agrees with the noun it introduces, and that noun normally follows it: \"terminada a reunião\", \"feitos os ajustes\", \"assinadas as atas\".",
-          "Know when to stop. Three nominalisations in a row produce a chain of \"de\" (\"a análise da proposta de revisão do plano da empresa\") that no reader can parse. Two links is the comfortable maximum; after that, bring a verb back.",
+          "Know when to stop. Three nominalizations in a row produce a chain of \"de\" (\"a análise da proposta de revisão do plano da empresa\") that no reader can parse. Two links is the comfortable maximum; after that, bring a verb back.",
         ],
         examples: [
           { es: "Os juros subiram, e por isso o consumo caiu.", en: "Interest rates rose, so consumption fell." },
           { es: "A alta dos juros derrubou o consumo.", en: "The rise in interest rates brought consumption down." },
           { es: "Assim que chegou ao aeroporto, ela ligou para o chefe.", en: "As soon as she got to the airport, she called her boss." },
           { es: "Ao chegar ao aeroporto, ela ligou para o chefe.", en: "On arriving at the airport, she called her boss." },
-          { es: "Feitas as contas, o projeto saiu mais barato.", en: "Once the sums were done, the project came out cheaper." },
+          { es: "Feitas as contas, o projeto saiu mais barato.", en: "Once the math was done, the project came out cheaper." },
         ],
         checkpoint: [
           {
@@ -1176,7 +1176,7 @@ export const PT_C2_U10: Lesson[] = [
         heading: "Expanding: unpacking for clarity",
         body: [
           "Expanding runs the machine in reverse. A dense noun phrase becomes a clause with a subject and a verb, and implicit links become explicit connectors (\"porque\", \"como\", \"de modo que\"). You do this when a report has to become an e-mail, or a ruling has to be explained to the person it affects.",
-          "The ripple here is time and mood: a noun hides both, and a verb forces you to choose. \"Após a aprovação do orçamento\" can be \"depois que o orçamento foi aprovado\" or \"depois que o orçamento for aprovado\", and only the context tells you which. Nominalisations also hide the agent, so unpacking \"a decisão de fechar a fábrica\" means saying who decided.",
+          "The ripple here is time and mood: a noun hides both, and a verb forces you to choose. \"Após a aprovação do orçamento\" can be \"depois que o orçamento foi aprovado\" or \"depois que o orçamento for aprovado\", and only the context tells you which. Nominalizations also hide the agent, so unpacking \"a decisão de fechar a fábrica\" means saying who decided.",
         ],
         examples: [
           { es: "Após a aprovação do orçamento, as obras serão retomadas.", en: "After the budget is approved, work will resume." },
@@ -1248,12 +1248,12 @@ export const PT_C2_U10: Lesson[] = [
         heading: "Adapting for a different reader",
         body: [
           "Adapting changes content, not just tone. Ask three questions: who reads this, what do they already know, and what will they do with it? For the public, swap jargon for everyday words and add a short gloss when the term matters (\"a Selic, a taxa básica de juros\"). Give the action a human subject and put the consequence first.",
-          "For a leaflet or a sign, the imperative is clearer than the impersonal: \"tome um comprimido\" beats \"a posologia recomendada é de um comprimido\". Latinisms such as \"in loco\" and \"a priori\" go, and so do passives that hide who acted.",
+          "For a pamphlet or a sign, the imperative is clearer than the impersonal: \"tome um comprimido\" beats \"a posologia recomendada é de um comprimido\". Latinisms such as \"in loco\" and \"a priori\" go, and so do passives that hide who acted.",
           "Plain is not vague. Keep the numbers, the deadlines and the caveats (\"em geral\", \"na maioria dos casos\"); a simplified text that drops them is no longer true.",
         ],
         examples: [
           { es: "O Copom elevou a taxa Selic em 0,5 ponto percentual.", en: "The Copom raised the Selic rate by 0.5 percentage points." },
-          { es: "O Banco Central aumentou os juros, e empréstimos e parcelas devem ficar mais caros.", en: "The Central Bank raised interest rates, so loans and instalments will probably get more expensive." },
+          { es: "O Banco Central aumentou os juros, e empréstimos e parcelas devem ficar mais caros.", en: "The Central Bank raised interest rates, so loans and installments will probably get more expensive." },
           { es: "A posologia recomendada é de um comprimido a cada oito horas.", en: "The recommended dosage is one tablet every eight hours." },
           { es: "Tome um comprimido de oito em oito horas.", en: "Take one tablet every eight hours." },
           { es: "Foi realizada uma vistoria in loco pelos técnicos da prefeitura.", en: "An on-site inspection was carried out by city hall technicians." },
@@ -1266,12 +1266,12 @@ export const PT_C2_U10: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "Take one tablet every eight hours. (Instruction for a patient.)",
             answer: "Tome um comprimido de oito em oito horas.",
-            altAnswers: ["Tome um comprimido a cada oito horas.", "Toma um comprimido a cada oito horas.", "Toma um comprimido de oito em oito horas.", "Tome uma pílula a cada oito horas."],
+            altAnswers: ["Tome um comprimido a cada oito horas.", "Toma um comprimido a cada oito horas.", "Toma um comprimido de oito em oito horas."],
             explanation: "A direct imperative (\"tome\") tells the patient what to do, which the nominal \"a posologia recomendada é de...\" only implies. \"De oito em oito horas\" and \"a cada oito horas\" are both natural.",
           },
           {
             type: "multiple-choice",
-            question: "You're rewriting \"Foi realizada uma vistoria in loco\" for a neighbourhood newsletter. Which version works best?",
+            question: "You're rewriting \"Foi realizada uma vistoria in loco\" for a neighborhood newsletter. Which version works best?",
             options: [
               "Os técnicos foram até o local para fazer uma vistoria.",
               "Realizou-se vistoria in loco.",
@@ -1289,7 +1289,7 @@ export const PT_C2_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Once the sums were done, the project came out cheaper than expected. (Start with a participle.)",
+        source: "Once the math was done, the project came out cheaper than expected. (Start with a participle.)",
         answer: "Feitas as contas, o projeto saiu mais barato do que o esperado.",
         altAnswers: ["Feitas as contas, o projeto saiu mais barato que o esperado.", "Feitas as contas, o projeto ficou mais barato do que o esperado.", "Feitas as contas, o projeto ficou mais barato que o esperado."],
         explanation: "\"Feitas\" agrees with \"as contas\" (feminine plural), and the noun follows the participle. This condenses \"depois que as contas foram feitas\".",
@@ -1326,7 +1326,7 @@ export const PT_C2_U10: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "We saw him at the airport. (Casual speech, with a gente.)",
         answer: "A gente viu ele no aeroporto.",
-        altAnswers: ["A gente viu ele lá no aeroporto.", "A gente o viu no aeroporto."],
+        altAnswers: ["A gente viu ele lá no aeroporto."],
         explanation: "\"A gente\" takes the ele form (\"viu\"), and speech uses \"ele\" as the object. Switching registers changes the subject, the verb and the pronoun together.",
       },
       {
@@ -1386,7 +1386,7 @@ export const PT_C2_U10: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "Feitas as contas", right: "Once the sums were done" },
+          { left: "Feitas as contas", right: "Once the math was done" },
           { left: "Ao chegar", right: "On arriving" },
           { left: "Dito isso", right: "That said" },
           { left: "Em caso de dúvida", right: "If in doubt" },
@@ -1401,7 +1401,7 @@ export const PT_C2_U10: Lesson[] = [
     level: "PT-C2",
     number: 6,
     title: "Mastery Task: Mediation",
-    summary: "Turn an English report on hybrid work into a clear, localised Portuguese summary for Brazilian readers by selecting, restructuring, localising and framing it.",
+    summary: "Turn an English report on hybrid work into a clear, localized Portuguese summary for Brazilian readers by selecting, restructuring, localizing and framing it.",
     duration: "20 min",
     sections: [
       {
@@ -1412,7 +1412,7 @@ export const PT_C2_U10: Lesson[] = [
           "Expect each idea to take a little more space than in English: Portuguese needs the articles, prepositions and agreement that English skips. Save space by cutting ideas, not grammar.",
         ],
         examples: [
-          { es: "O relatório, publicado por uma consultoria de Londres, analisa o trabalho híbrido em empresas de médio porte.", en: "The report, published by a London consultancy, looks at hybrid work in mid-sized companies." },
+          { es: "O relatório, publicado por uma consultoria de Londres, analisa o trabalho híbrido em empresas de médio porte.", en: "The report, published by a London consulting firm, looks at hybrid work in mid-sized companies." },
           { es: "Segundo o estudo, a satisfação dos funcionários em regime híbrido é 12% maior.", en: "According to the study, satisfaction among hybrid employees is 12% higher." },
           { es: "Os autores recomendam que as empresas definam dias fixos de presença no escritório.", en: "The authors recommend that companies set fixed days in the office." },
           { es: "A pesquisa ouviu cerca de 2.400 trabalhadores no Reino Unido.", en: "The survey polled around 2,400 workers in the UK." },
@@ -1454,12 +1454,12 @@ export const PT_C2_U10: Lesson[] = [
       {
         heading: "Untangling English structures",
         body: [
-          "As Unit 5 showed, English noun stacks, -ing forms and agentless passives rarely survive literal translation, and in a summary you also have to compress. Unpack a stack from the right: 'line manager training programme' is \"programa de capacitação de gestores diretos\". Turn an -ing subject into a noun ('commuting costs' → \"os gastos com deslocamento\"), and give a passive a real subject or the impersonal \"se\": 'it was found that' → \"a pesquisa constatou que\" or \"constatou-se que\".",
-          "Nominalising compresses well in formal Portuguese: 'because companies cut office space, they saved money' becomes \"a redução dos escritórios gerou economia\". English bullet points ('Productivity: unchanged') usually become full sentences linked by \"além disso\" or \"no entanto\", because a Brazilian executive summary reads as prose.",
+          "As Unit 5 showed, English noun stacks, -ing forms and agentless passives rarely survive literal translation, and in a summary you also have to compress. Unpack a stack from the right: 'line manager training program' is \"programa de capacitação de gestores diretos\". Turn an -ing subject into a noun ('commuting costs' → \"os gastos com deslocamento\"), and give a passive a real subject or the impersonal \"se\": 'it was found that' → \"a pesquisa constatou que\" or \"constatou-se que\".",
+          "Nominalizing compresses well in formal Portuguese: 'because companies cut office space, they saved money' becomes \"a redução dos escritórios gerou economia\". English bullet points ('Productivity: unchanged') usually become full sentences linked by \"além disso\" or \"no entanto\", because a Brazilian executive summary reads as prose.",
           "Watch the false friends that slip in under time pressure: 'eventually' is \"com o tempo\" or \"por fim\", never \"eventualmente\" (occasionally), and 'actual figures' are \"os números reais\", not \"atuais\".",
         ],
         examples: [
-          { es: "O programa de capacitação de gestores diretos durou seis meses.", en: "The line manager training programme lasted six months." },
+          { es: "O programa de capacitação de gestores diretos durou seis meses.", en: "The line manager training program lasted six months." },
           { es: "Os gastos com deslocamento chegam a 180 libras por mês.", en: "Commuting costs reach £180 a month." },
           { es: "Constatou-se que os funcionários em regime híbrido faltam menos.", en: "Employees on a hybrid schedule were found to miss work less often." },
           { es: "A redução do espaço de escritório gerou uma economia significativa.", en: "Cutting office space produced significant savings." },
@@ -1485,14 +1485,14 @@ export const PT_C2_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Localising: numbers, money, institutions",
+        heading: "Localizing: numbers, money, institutions",
         body: [
-          "Numbers change dress: 2,400 becomes \"2.400\", 14.5% becomes \"14,5%\", and 3 March 2024 becomes \"3 de março de 2024\". Pounds sterling mean little to a Brazilian reader, so keep the original figure and add an approximate conversion with \"cerca de\" in parentheses. If precision matters, say which date's exchange rate you used.",
-          "Institutions need a gloss the first time: \"o NHS, o sistema público de saúde britânico\", and a comparison with the SUS helps a general reader. Drop references that don't travel, such as a London tube strike, unless they explain a result. Where the Brazilian context changes the picture, say so: the CLT has its own rules on \"teletrabalho\", so a British finding may not transfer directly.",
+          "Numbers change dress: 2,400 becomes \"2.400\", 14.5% becomes \"14,5%\", and March 3, 2024 becomes \"3 de março de 2024\". Pounds sterling mean little to a Brazilian reader, so keep the original figure and add an approximate conversion with \"cerca de\" in parentheses. If precision matters, say which date's exchange rate you used.",
+          "Institutions need a gloss the first time: \"o NHS, o sistema público de saúde britânico\", and a comparison with the SUS helps a general reader. Drop references that don't travel, such as a London Underground strike, unless they explain a result. Where the Brazilian context changes the picture, say so: the CLT has its own rules on \"teletrabalho\", so a British finding may not transfer directly.",
         ],
         examples: [
-          { es: "A pesquisa foi realizada entre 3 de março e 30 de abril de 2024.", en: "The survey was carried out between 3 March and 30 April 2024." },
-          { es: "O gasto médio com transporte é de 180 libras (cerca de R$ 1.300) por mês.", en: "Average transport spending is £180 (about R$1,300) a month." },
+          { es: "A pesquisa foi realizada entre 3 de março e 30 de abril de 2024.", en: "The survey was carried out between March 3 and April 30, 2024." },
+          { es: "O gasto médio com transporte é de 180 libras (cerca de R$ 1.300) por mês.", en: "Average transportation spending is £180 (about R$1,300) a month." },
           { es: "O NHS, o sistema público de saúde britânico, comparável ao nosso SUS, participou do estudo.", en: "The NHS, Britain's public health system, comparable to our SUS, took part in the study." },
           { es: "A taxa de rotatividade caiu de 14,5% para 11%.", en: "Staff turnover fell from 14.5% to 11%." },
           { es: "Vale lembrar que a CLT tem regras próprias para o teletrabalho.", en: "Bear in mind that the CLT has its own rules for remote work." },
@@ -1502,10 +1502,10 @@ export const PT_C2_U10: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The survey ran from 3 March to 30 April 2024.",
+            source: "The survey ran from March 3 to April 30, 2024.",
             answer: "A pesquisa foi realizada de 3 de março a 30 de abril de 2024.",
             altAnswers: ["A pesquisa foi realizada entre 3 de março e 30 de abril de 2024.", "A pesquisa foi feita de 3 de março a 30 de abril de 2024.", "A pesquisa foi feita entre 3 de março e 30 de abril de 2024.", "A pesquisa ocorreu de 3 de março a 30 de abril de 2024.", "A pesquisa ocorreu entre 3 de março e 30 de abril de 2024.", "A pesquisa aconteceu de 3 de março a 30 de abril de 2024.", "A pesquisa aconteceu entre 3 de março e 30 de abril de 2024.", "A pesquisa foi realizada de 3 de março até 30 de abril de 2024."],
-            explanation: "Dates run day, month, year with \"de\": \"3 de março de 2024\". There is no crase in \"a 30 de abril\" because no article comes before the number. \"Realizar\" means to carry out here, which is its real meaning, not 'to realise'.",
+            explanation: "Dates run day, month, year with \"de\": \"3 de março de 2024\". There is no crase in \"a 30 de abril\" because no article comes before the number. \"Realizar\" means to carry out here, which is its real meaning, not 'to realize'.",
           },
           {
             type: "translate",
@@ -1567,7 +1567,7 @@ export const PT_C2_U10: Lesson[] = [
         source: "The survey polled around 2,400 workers.",
         answer: "A pesquisa ouviu cerca de 2.400 trabalhadores.",
         altAnswers: ["A pesquisa entrevistou cerca de 2.400 trabalhadores.", "A pesquisa ouviu aproximadamente 2.400 trabalhadores.", "A pesquisa entrevistou aproximadamente 2.400 trabalhadores.", "A pesquisa consultou cerca de 2.400 trabalhadores.", "O levantamento ouviu cerca de 2.400 trabalhadores."],
-        explanation: "\"Ouvir\" is the standard journalistic verb for polling people. The thousands take a full stop in Portuguese: \"2.400\".",
+        explanation: "\"Ouvir\" is the standard journalistic verb for polling people. The thousands take a period in Portuguese: \"2.400\".",
       },
       {
         type: "translate",
@@ -1679,7 +1679,7 @@ export const PT_C2_U10: Lesson[] = [
       {
         heading: "The introduction: from repertoire to thesis",
         body: [
-          "This lesson builds one essay on a theme that Brazilian courts, Congress and ENEM candidates keep returning to: work through apps, the delivery and ride-hailing platforms. A C2 introduction places the theme in a context the reader recognises, narrows it to a problem and ends on a thesis that takes a side without pretending the question is simple. Open with precise \"repertório\" tied to the theme (a law, a statistic, a thinker). Avoid the openings examiners have learned to distrust: \"Desde os primórdios da humanidade\", \"Hoje em dia, cada vez mais\".",
+          "This lesson builds one essay on a theme that Brazilian courts, Congress and ENEM candidates keep returning to: work through apps, the delivery and ride-hailing platforms. A C2 introduction places the theme in a context the reader recognizes, narrows it to a problem and ends on a thesis that takes a side without pretending the question is simple. Open with precise \"repertório\" tied to the theme (a law, a statistic, a thinker). Avoid the openings examiners have learned to distrust: \"Desde os primórdios da humanidade\", \"Hoje em dia, cada vez mais\".",
           "The thesis is usually the paragraph's last sentence, and at this level it carries its own tension. A concession built into the claim (\"embora ofereçam...\") shows you have weighed the other side before arguing. Then announce the two lines of development, so the reader knows what the next paragraphs will prove: \"tanto... quanto...\", \"seja pela..., seja pela...\".",
           "Register is set in the first line. Impersonal structures (\"observa-se\", \"cabe questionar\") and \"ênclise\" at the start of a sentence belong to the \"norma culta\". \"A gente\", \"tem\" for there is and \"pra\" do not, however natural they sound in speech.",
         ],
@@ -1717,7 +1717,7 @@ export const PT_C2_U10: Lesson[] = [
               "A gente vê muito entregador na rua, e isso é um problema.",
             ],
             correctIndex: 2,
-            explanation: "Precise, sourced \"repertório\" tied to the theme. The first two are the clichés examiners penalise, and the last breaks the \"norma culta\" with \"a gente\" and a spoken register.",
+            explanation: "Precise, sourced \"repertório\" tied to the theme. The first two are the clichés examiners penalize, and the last breaks the \"norma culta\" with \"a gente\" and a spoken register.",
           },
           {
             type: "fill-blank",
@@ -1739,7 +1739,7 @@ export const PT_C2_U10: Lesson[] = [
         ],
         examples: [
           { es: "Em primeiro lugar, a ausência de regulamentação específica deixa milhões de trabalhadores à margem da proteção social.", en: "First, the lack of specific regulation leaves millions of workers outside social protection." },
-          { es: "Nesse sentido, o sociólogo Ricardo Antunes descreve a chamada uberização como um processo em que o trabalhador passa a arcar com os custos e os riscos da própria atividade.", en: "In this sense, the sociologist Ricardo Antunes describes so-called Uberisation as a process in which workers come to bear the costs and risks of their own activity." },
+          { es: "Nesse sentido, o sociólogo Ricardo Antunes descreve a chamada uberização como um processo em que o trabalhador passa a arcar com os custos e os riscos da própria atividade.", en: "In this sense, the sociologist Ricardo Antunes describes so-called Uberization as a process in which workers come to bear the costs and risks of their own activity." },
           { es: "Ainda que se alegue que muitos motoristas valorizam a flexibilidade de horários, essa liberdade é condicionada por algoritmos que premiam quem trabalha mais horas.", en: "Even if it is argued that many drivers value flexible hours, that freedom is conditioned by algorithms that reward whoever works longest." },
           { es: "Por mais que a tecnologia tenha ampliado o acesso ao trabalho, ela não eliminou a dependência econômica.", en: "However much technology has widened access to work, it has not eliminated economic dependence." },
           { es: "Tal cenário revela que a autonomia prometida é, em grande medida, aparente.", en: "Such a scenario reveals that the promised autonomy is, to a large extent, only apparent." },
@@ -1793,7 +1793,7 @@ export const PT_C2_U10: Lesson[] = [
         examples: [
           { es: "Diante do exposto, fica claro que a flexibilidade oferecida pelos aplicativos não pode significar ausência de direitos.", en: "Given the above, it is clear that the flexibility the apps offer cannot mean an absence of rights." },
           { es: "Cabe ao Congresso Nacional aprovar uma legislação específica para o trabalho em plataformas, por meio de um debate que inclua os próprios trabalhadores.", en: "It is up to the National Congress to pass specific legislation for platform work, through a debate that includes the workers themselves." },
-          { es: "O Ministério do Trabalho deve fiscalizar as empresas mediante o acesso a dados sobre jornada e remuneração.", en: "The Ministry of Labour should inspect the companies through access to data on working hours and pay." },
+          { es: "O Ministério do Trabalho deve fiscalizar as empresas mediante o acesso a dados sobre jornada e remuneração.", en: "The Ministry of Labor should inspect the companies through access to data on working hours and pay." },
           { es: "Essas medidas devem ser adotadas a fim de que os entregadores tenham acesso à previdência social.", en: "These measures must be adopted so that delivery workers have access to social security." },
           { es: "Às plataformas, por sua vez, cabe divulgar com transparência os critérios de seus algoritmos.", en: "The platforms, in turn, must disclose the criteria of their algorithms transparently." },
           { es: "Só assim a autonomia deixará de ser um discurso para se tornar uma realidade.", en: "Only then will autonomy stop being a slogan and become a reality." },
@@ -2015,7 +2015,7 @@ export const PT_C2_U10: Lesson[] = [
           { es: "Antes de responder, eu queria fazer uma distinção entre gosto e valor.", en: "(historian) Before answering, I'd like to distinguish between taste and value." },
           { es: "Por mais que o funk incomode parte da sociedade, ele é a trilha sonora de milhões de jovens.", en: "(producer) However much funk bothers part of society, it's the soundtrack of millions of young people." },
           { es: "Não custa lembrar que o samba também já foi caso de polícia.", en: "It's worth remembering that samba, too, was once a police matter." },
-          { es: "Ninguém está pedindo que a senhora goste de funk; o que se pede é que se reconheça a sua importância.", en: "Nobody is asking you to like funk; what's being asked is that its importance be recognised." },
+          { es: "Ninguém está pedindo que a senhora goste de funk; o que se pede é que se reconheça a sua importância.", en: "Nobody is asking you to like funk; what's being asked is that its importance be recognized." },
           { es: "E aqui está o ponto: patrimônio não é prêmio, é registro.", en: "(anthropologist) And here's the point: heritage isn't a prize, it's a record." },
         ],
         checkpoint: [
@@ -2302,7 +2302,7 @@ export const PT_C2_U10: Lesson[] = [
         examples: [
           { es: "Nos últimos meses, tenho sonhado em português.", en: "In recent months, I've been dreaming in Portuguese." },
           { es: "Se eu tivesse ouvido mais Cartola no começo, teria perdido o medo antes.", en: "If I'd listened to more Cartola at the start, I'd have lost my fear sooner." },
-          { es: "Eu falava como se pedisse desculpas por existir.", en: "I used to speak as if I were apologising for existing." },
+          { es: "Eu falava como se pedisse desculpas por existir.", en: "I used to speak as if I were apologizing for existing." },
           { es: "Terá sido o sotaque ou a minha cara de gringo?", en: "Could it have been the accent, or my foreigner's face?" },
           { es: "Aprendi mais numa feira de domingo do que em muitos livros.", en: "I learned more at a Sunday street market than from many books." },
         ],
@@ -2336,13 +2336,13 @@ export const PT_C2_U10: Lesson[] = [
             audio: "Eu falava como se pedisse desculpas.",
             question: "What does it mean?",
             options: [
-              "I used to speak as if I were apologising.",
-              "I spoke so that I could apologise.",
-              "I would speak if they apologised.",
-              "I used to speak as if I had apologised.",
+              "I used to speak as if I were apologizing.",
+              "I spoke so that I could apologize.",
+              "I would speak if they apologized.",
+              "I used to speak as if I had apologized.",
             ],
             correctIndex: 0,
-            explanation: "\"Como se\" + imperfect subjunctive \"pedisse\" means as if I were asking. 'As if I had apologised' would need \"como se tivesse pedido\".",
+            explanation: "\"Como se\" + imperfect subjunctive \"pedisse\" means as if I were asking. 'As if I had apologized' would need \"como se tivesse pedido\".",
           },
         ],
       },
@@ -2385,7 +2385,7 @@ export const PT_C2_U10: Lesson[] = [
           "Then read the whole text aloud. A sentence that leaves you out of breath needs splitting, and a paragraph that sounds like a textbook needs one real voice in it.",
         ],
         examples: [
-          { es: "Quando eu voltar a Salvador, quero discutir futebol sem pedir que repitam.", en: "When I go back to Salvador, I want to argue about football without asking anyone to repeat themselves." },
+          { es: "Quando eu voltar a Salvador, quero discutir futebol sem pedir que repitam.", en: "When I go back to Salvador, I want to argue about soccer without asking anyone to repeat themselves." },
           { es: "Enquanto houver uma palavra que eu não conheça, vou continuar estudando.", en: "As long as there's a word I don't know, I'll keep studying." },
           { es: "Quem me dera falar como a minha professora de Recife.", en: "If only I could speak like my teacher from Recife." },
           { es: "Ainda chove em Belo Horizonte, e agora eu rio das piadas antes do fim.", en: "It still rains in Belo Horizonte, and now I laugh at the jokes before the punchline." },
@@ -2481,7 +2481,7 @@ export const PT_C2_U10: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I used to speak [as if] I were apologising for existing.",
+        en: "I used to speak [as if] I were apologizing for existing.",
         sentence: "Eu falava ___ pedisse desculpas por existir.",
         answer: "como se",
         explanation: "\"Como se\" takes the imperfect subjunctive for an image at the same time as the main verb: \"falava como se pedisse\". For an earlier action it would be \"como se tivesse pedido\". The writer looks at their past self from outside.",
@@ -2499,7 +2499,7 @@ export const PT_C2_U10: Lesson[] = [
         prompt: "Put the words in order to say: That ão sound took me years to get right.",
         words: ["Esse", "ão,", "eu", "levei", "anos", "para", "acertar."],
         translation: "That ão sound, it took me years to get right.",
-        explanation: "Topicalisation puts \"esse ão\" up front and the comment after it, a natural way to give emphasis in Portuguese. \"Levar anos para\" + infinitive is 'to take years to'.",
+        explanation: "Topicalization puts \"esse ão\" up front and the comment after it, a natural way to give emphasis in Portuguese. \"Levar anos para\" + infinitive is 'to take years to'.",
       },
       {
         type: "dictation",
@@ -2590,7 +2590,7 @@ export const PT_C2_U10: Lesson[] = [
           { es: "Às vezes prefiro ficar em casa a sair à noite.", en: "Sometimes I'd rather stay home than go out at night." },
           { es: "A ministra chegou meio atrasada, mas fez questão de cumprimentar todos.", en: "The minister arrived a bit late but made a point of greeting everyone." },
           { es: "Seguem anexas as planilhas com os dados de março.", en: "Attached are the spreadsheets with the March figures." },
-          { es: "À medida que a cidade cresce, aumentam os problemas de mobilidade.", en: "As the city grows, its transport problems increase." },
+          { es: "À medida que a cidade cresce, aumentam os problemas de mobilidade.", en: "As the city grows, its transportation problems increase." },
           { es: "Não se sabe por que o projeto foi suspenso.", en: "No one knows why the project was suspended." },
         ],
         checkpoint: [
@@ -2598,7 +2598,7 @@ export const PT_C2_U10: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I prefer theatre to cinema.",
+            source: "I prefer the theater to the movies.",
             answer: "Prefiro o teatro ao cinema.",
             altAnswers: ["Eu prefiro o teatro ao cinema.", "Prefiro teatro a cinema.", "Eu prefiro teatro a cinema."],
             explanation: "In the norm, \"preferir\" takes \"a\": \"prefiro X a Y\", with \"a\" joining the article to give \"ao cinema\". Avoid \"prefiro mais\" and \"do que\" here.",
@@ -2626,10 +2626,10 @@ export const PT_C2_U10: Lesson[] = [
         body: [
           "Register is a matter of height. The same thanks is \"Valeu, cara, te devo uma\" to a friend, \"Agradeço muito a sua ajuda\" to a client and \"Venho, por meio deste, agradecer...\" in an official letter. Each one is right only in its place, and mixing them in one text reads as a slip, not as style.",
           "Idioms and proverbs go where a native would put them, and often only the first half is said (\"quem não tem cão...\"). English idioms don't travel word for word: 'it costs an arm and a leg' is \"custa os olhos da cara\". The false friends stay false too: \"pretender\" is to intend, \"eventualmente\" is occasionally and \"atualmente\" is currently.",
-          "Humour follows the same logic. A pun lives or dies on spelling (\"conserto\" vs \"concerto\"). Words like \"pegar\" or \"comer\" can carry a second meaning you didn't intend.",
+          "Humor follows the same logic. A pun lives or dies on spelling (\"conserto\" vs \"concerto\"). Words like \"pegar\" or \"comer\" can carry a second meaning you didn't intend.",
         ],
         examples: [
-          { es: "Valeu pela força, cara, te devo uma.", en: "Thanks for the help, mate, I owe you one." },
+          { es: "Valeu pela força, cara, te devo uma.", en: "Thanks for the help, man, I owe you one." },
           { es: "Agradecemos a compreensão e permanecemos à disposição.", en: "Thank you for your understanding; we remain at your disposal." },
           { es: "Ele jurou que pagaria, mas eu não ponho a mão no fogo por ele.", en: "He swore he'd pay, but I wouldn't vouch for him." },
           { es: "Fizemos uma vaquinha para o presente da Dona Lúcia.", en: "We all chipped in for Dona Lúcia's present." },
@@ -2802,7 +2802,7 @@ export const PT_C2_U10: Lesson[] = [
 
 export const PT_C2_U10_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A São Paulo newspaper has invited you to write an opinion column for its weekend section. You have just read an English-language report by a British think tank on how remote and hybrid work are emptying city centres. Write a column for Brazilian readers that relays the report's main findings, applies them to the centro of São Paulo or another Brazilian city, takes a clear position and ends with a concrete proposal. Write in polished, persuasive Portuguese for a general educated readership (250-400 words).",
+  prompt: "A São Paulo newspaper has invited you to write an opinion column for its weekend section. You have just read an English-language report by a British think tank on how remote and hybrid work are emptying downtowns. Write a column for Brazilian readers that relays the report's main findings, applies them to the centro of São Paulo or another Brazilian city, takes a clear position and ends with a concrete proposal. Write in polished, persuasive Portuguese for a general educated readership (250-400 words).",
   minWords: 250,
   maxWords: 400,
   rubric: [
@@ -2811,6 +2811,6 @@ export const PT_C2_U10_WRITING: WriteExercise = {
     "Weave in one proverb or idiom naturally (\"de grão em grão a galinha enche o papo\", \"ficar a ver navios\"), and frame the proposal in the norm with \"cabe a\", \"por meio de\" and \"a fim de que\" + subjunctive.",
     "Keep near-native precision: crase (\"à medida que\", \"cabe à prefeitura\", \"à noite\"), agreement (\"a maioria das empresas pretende\"), \"haja vista\", \"por que\" vs \"porque\", and \"Trata-se de\" / \"não se trata de\" with correct pronoun placement.",
   ],
-  modelAnswer: "O centro que se esvazia\n\nQuem caminha pela Avenida Paulista numa sexta-feira à tarde percebe o que os números já dizem: o escritório deixou de ser o endereço fixo da vida profissional. Um relatório publicado recentemente por um centro de pesquisa britânico, que analisou dados de doze metrópoles, aponta que a circulação de trabalhadores nas regiões centrais caiu cerca de 30% desde 2019. Segundo os autores, a maioria das empresas pretende manter o modelo híbrido, o que implica menos clientes nos restaurantes, menos passageiros no metrô e mais andares vazios.\n\nAlguns dirão que se trata de um falso problema: se as pessoas ganham horas de vida ao fugir do trânsito, por que lamentar a solidão dos prédios comerciais? O argumento é sedutor, mas incompleto. O centro não é apenas o lugar onde se trabalha; é onde se esbarra no diferente, onde o engraxate, a advogada e o estudante dividem a mesma calçada. À medida que o movimento diminui, as lojas fecham as portas, a sensação de insegurança cresce e o esvaziamento passa a se alimentar de si mesmo.\n\nO relatório, porém, não se limita ao diagnóstico, e é justamente aí que ele interessa a nós, paulistanos. De acordo com o estudo, as cidades que reagiram melhor foram aquelas que transformaram escritórios ociosos em moradia, haja vista os exemplos citados, em que antigos edifícios corporativos viraram apartamentos, creches e centros culturais.\n\nNão se trata de demonizar o trabalho remoto nem de obrigar ninguém a voltar ao crachá. Trata-se de reconhecer que uma cidade se faz de encontros, e encontro não se marca por videochamada. Cabe à prefeitura, por meio de incentivos fiscais e de uma legislação mais ágil, estimular a reocupação de imóveis vazios, a fim de que o centro volte a ter quem o habite à noite, e não apenas quem o atravesse de dia. Não haverá milagre: de grão em grão a galinha enche o papo, e cada prédio reocupado é um grão.\n\nSe esperarmos que o mercado resolva tudo sozinho, ficaremos a ver navios. Um centro vivo é um centro mais seguro. Um centro vivo é um centro mais justo. Um centro vivo, enfim, é o mínimo que São Paulo merece.",
+  modelAnswer: "O centro que se esvazia\n\nQuem caminha pela Avenida Paulista numa sexta-feira à tarde percebe o que os números já dizem: o escritório deixou de ser o endereço fixo da vida profissional. Um relatório publicado recentemente por um centro de pesquisa britânico, que analisou dados de doze metrópoles, aponta que a circulação de trabalhadores nas regiões centrais caiu cerca de 30% desde 2019. Segundo os autores, a maioria das empresas pretende manter o modelo híbrido, o que implica menos clientes nos restaurantes, menos passageiros no metrô e mais andares vazios.\n\nAlguns dirão que se trata de um falso problema: se as pessoas ganham horas de vida ao fugir do trânsito, por que lamentar a solidão dos prédios comerciais? O argumento é sedutor, mas incompleto. O centro não é apenas o lugar onde se trabalha; é onde se esbarra no diferente, onde o engraxate, a advogada e o estudante dividem a mesma calçada. À medida que o movimento diminui, as lojas fecham as portas, a sensação de insegurança cresce e o esvaziamento passa a se alimentar de si mesmo.\n\nO relatório, porém, não se limita ao diagnóstico, e é justamente aí que ele interessa a nós, paulistanos. De acordo com o estudo, as cidades que reagiram melhor foram aquelas que transformaram escritórios ociosos em moradia, haja vista os exemplos citados no relatório, em que antigos edifícios corporativos viraram apartamentos, creches e centros culturais.\n\nNão se trata de demonizar o trabalho remoto nem de obrigar ninguém a voltar ao crachá. Trata-se de reconhecer que uma cidade se faz de encontros, e encontro não se marca por videochamada. Cabe à prefeitura, por meio de incentivos fiscais e de uma legislação mais ágil, estimular a reocupação de imóveis vazios, a fim de que o centro volte a ter quem o habite à noite, e não apenas quem o atravesse de dia. Não haverá milagre: de grão em grão a galinha enche o papo, e cada prédio reocupado é um grão.\n\nSe esperarmos que o mercado resolva tudo sozinho, ficaremos a ver navios. Um centro vivo é um centro mais seguro. Um centro vivo é um centro mais justo. Um centro vivo, enfim, é o mínimo que São Paulo merece.",
   explanation: "The column mediates rather than translates. The report's claims are attributed with \"segundo\", \"aponta que\" and \"de acordo com\", and \"pretende\" is used in its true sense of 'intends'. The argument uses prolepsis (\"alguns dirão que...\"), a rhetorical question with \"por que\" (two words, because it asks why), a tricolon of three clauses and a closing anaphora (\"Um centro vivo...\"). The norm is handled precisely: \"à medida que\" (as, proportionally) takes the crase. So does \"cabe à prefeitura\", because \"caber a\" + \"a prefeitura\" gives \"à\". \"A maioria das empresas pretende\" agrees with the collective noun, and \"haja vista\" stays invariable. \"Trata-se de\" opens a sentence with the pronoun after the verb, while \"não se trata\" puts it before. The proposal follows the ENEM pattern of agent, action and purpose: \"cabe à\", \"por meio de\", then \"a fim de que\" + the present subjunctive (\"volte\", \"habite\", \"atravesse\"). The future subjunctive appears in \"se esperarmos\", and the proverb and idiom (\"de grão em grão...\", \"ficar a ver navios\") are worked into the argument rather than tacked on.",
 };

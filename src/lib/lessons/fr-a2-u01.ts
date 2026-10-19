@@ -49,7 +49,7 @@ export const FR_A2_U01: Lesson[] = [
       {
         heading: "Making the participle: -er becomes -é",
         body: [
-          "For every -er verb, the participle is the infinitive with -er replaced by -é: \"parler\" → \"parlé\", \"manger\" → \"mangé\", \"travailler\" → \"travaillé\". That's all: -er verbs have no exceptions here, not even \"aller\", which works differently and comes in Unit 3.",
+          "For every -er verb, the participle is the infinitive with -er replaced by -é: \"parler\" → \"parlé\", \"manger\" → \"mangé\", \"travailler\" → \"travaillé\". That's all: -er verbs have no exceptions here, not even \"aller\" (\"allé\"), although it uses a different helper verb, as you'll see in Unit 3.",
           "The spelling-change verbs from the Beginner level are perfectly regular in the participle, because the -é ending needs no help: \"j'ai mangé\", \"j'ai commencé\", \"j'ai acheté\", \"j'ai appelé\", \"j'ai préféré\", \"j'ai payé\", \"j'ai envoyé\". No extra e, no ç, no double l.",
           "The participle does not change with the subject when the helper is \"avoir\": \"il a mangé\", \"elles ont mangé\", \"nous avons mangé\". Only \"avoir\" changes. (Agreement comes with \"être\" in Unit 3.)",
         ],
@@ -242,8 +242,7 @@ export const FR_A2_U01: Lesson[] = [
             en: "[We] had dinner at Paul's.",
             sentence: "___ a dîné chez Paul.",
             answer: "On",
-            altAnswers: ["Nous"],
-            explanation: "\"On\" + \"a\" is the everyday way to say we did something.",
+            explanation: "\"On\" + \"a\" is the everyday way to say we did something. \"Nous\" would need its own helper form: \"nous avons dîné\", never *nous a dîné*.",
           },
           {
             type: "translate",
@@ -362,6 +361,7 @@ export const FR_A2_U01: Lesson[] = [
         en: "[You found] the station? (polite)",
         sentence: "___ la gare ?",
         answer: "Vous avez trouvé",
+        altAnswers: ["Avez-vous trouvé", "Est-ce que vous avez trouvé"],
         explanation: "Polite \"vous avez\" + \"trouvé\".",
       },
       {
@@ -984,7 +984,7 @@ export const FR_A2_U01: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "She didn't hear anything.",
+            question: "How do you say: She didn't hear anything?",
             options: ["Elle n'a entendu rien.", "Elle n'a pas entendu rien.", "Elle a rien entendu.", "Elle n'a rien entendu."],
             correctIndex: 3,
             explanation: "\"Rien\" goes before the participle and replaces \"pas\"; never use both together. In writing \"ne\" is needed.",
@@ -1092,7 +1092,7 @@ export const FR_A2_U01: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "She no longer phoned.",
+        source: "She didn't phone again.",
         answer: "Elle n'a plus téléphoné.",
         altAnswers: ["Elle n'a plus appelé."],
         explanation: "\"Ne...plus\" = no longer, not any more.",
@@ -1316,7 +1316,7 @@ export const FR_A2_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A friend asks: Tu as déjà mangé des escargots ? You never have. What do you answer?",
+        question: "A friend asks: \"Tu as déjà mangé des escargots ?\" You never have. What do you answer?",
         options: ["Non, jamais.", "Non, pas encore jamais.", "Non, je n'ai mangé jamais.", "Oui, pas encore."],
         correctIndex: 0,
         explanation: "\"Non, jamais\" (or \"Non, je n'ai jamais mangé d'escargots\"). \"Jamais\" goes in the middle in a full sentence.",
@@ -1448,7 +1448,7 @@ export const FR_A2_U01: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Sophie says: J'ai gagné un week-end à Paris ! How do you react?",
+            question: "Sophie says: \"J'ai gagné un week-end à Paris !\" How do you react?",
             options: ["Quelle chance !", "Dommage !", "Oh, la pauvre !", "Pas encore."],
             correctIndex: 0,
             explanation: "\"Quelle chance !\" = lucky you. \"Dommage\" would mean what a shame.",
@@ -1480,6 +1480,7 @@ export const FR_A2_U01: Lesson[] = [
         prompt: "Translate into French.",
         source: "Yes, very good, thanks! And you? (to a friend)",
         answer: "Oui, très bon, merci ! Et toi ?",
+        altAnswers: ["Oui, très bien, merci ! Et toi ?"],
         explanation: "\"Bon\" agrees with \"week-end\" (masculine). \"Et toi ?\" bounces the question back.",
       },
       {
@@ -1753,9 +1754,9 @@ export const FR_A2_U01: Lesson[] = [
         type: "listen-choose",
         audio: "Je vais manger.",
         question: "What did you hear?",
-        options: ["J'ai mangé.", "Je mange.", "Je vais manger.", "Je mangeais."],
+        options: ["J'ai mangé.", "Je mange.", "Je vais manger.", "Je veux manger."],
         correctIndex: 2,
-        explanation: "\"Vais\" + infinitive: the near future. All four end in similar sounds; listen to the helper.",
+        explanation: "\"Vais\" + infinitive: the near future. Three of the four end in the same é sound, so listen to what comes first: \"j'ai\" (past), \"je vais\" (going to), \"je veux\" (want to).",
       },
       {
         type: "dictation",
@@ -1782,12 +1783,12 @@ export const FR_A2_U01: Lesson[] = [
         heading: "Steps 1 and 2: verb, then object",
         body: [
           "Step 1 is the bare core: subject + \"avoir\" + participle. \"J'ai travaillé.\" \"Elle a cuisiné.\" \"Nous avons rangé.\" That's already a full French sentence.",
-          "Step 2 adds what or who: the object goes after the participle, exactly as in English. \"J'ai rangé ma chambre.\" \"Elle a cuisiné un gâteau.\" \"Nous avons invité nos voisins.\" With \"téléphoner\", \"répondre\" and \"parler\", remember \"à\": \"j'ai téléphoné à ma tante\".",
+          "Step 2 adds what or who: the object goes after the participle, exactly as in English. \"J'ai rangé ma chambre.\" \"Elle a préparé un gâteau.\" \"Nous avons invité nos voisins.\" With \"téléphoner\", \"répondre\" and \"parler\", remember \"à\": \"j'ai téléphoné à ma tante\".",
         ],
         examples: [
           { es: "J'ai travaillé.", en: "I worked." },
           { es: "J'ai rangé ma chambre.", en: "I tidied my room." },
-          { es: "Elle a cuisiné un gâteau.", en: "She baked a cake." },
+          { es: "Elle a préparé un gâteau.", en: "She baked a cake." },
           { es: "Nous avons invité nos voisins.", en: "We invited our neighbours." },
           { es: "Ils ont lavé la voiture.", en: "They washed the car." },
         ],
@@ -2024,7 +2025,7 @@ export const FR_A2_U01: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "He's happy and he slept well.",
+            question: "Which spelling is correct for: He's happy and he slept well?",
             options: [
               "Il et content est il a bien dormi.",
               "Il est content et il à bien dormi.",
@@ -2081,7 +2082,7 @@ export const FR_A2_U01: Lesson[] = [
       {
         heading: "Son or sont, du or dû",
         body: [
-          "\"Son\" is the possessive his/her (\"son frère\"); \"sont\" is they are (\"ils sont\"). Test: replace with \"mon\". If it works, write \"son\". If you can replace it with \"étaient\"... or simply put it in the singular (\"est\"), it's \"sont\".",
+          "\"Son\" is the possessive his/her (\"son frère\"); \"sont\" is they are (\"ils sont\"). Test: replace with \"mon\". If it works, write \"son\". If you can put the sentence in the singular and it becomes \"est\" (\"ils sont\" → \"il est\"), it's \"sont\".",
           "\"Du\" (no accent) is the partitive or de + le: \"du pain\", \"le livre du prof\". \"Dû\" (with a circumflex) is the past participle of devoir: \"j'ai dû partir\" (I had to leave). You'll meet it properly in Unit 2; for now, after \"avoir\" it's \"dû\".",
           "The circumflex on \"dû\" only appears in the masculine singular. It's there to keep \"dû\" and \"du\" apart.",
         ],
@@ -2158,7 +2159,7 @@ export const FR_A2_U01: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "She talked [to] Karim [and] Nina.",
+        en: "She talked to Karim [and] to Nina.",
         sentence: "Elle a parlé à Karim ___ à Nina.",
         answer: "et",
         explanation: "And = \"et\" (test: \"et puis\").",
@@ -2426,7 +2427,7 @@ export const FR_A2_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Nina says: On a perdu le match ! You sympathise. What do you say?",
+        question: "Nina says: \"On a perdu le match !\" You sympathise. What do you say?",
         options: ["Quelle chance !", "C'est sympa !", "Pas encore !", "Dommage !"],
         correctIndex: 3,
         explanation: "\"Dommage !\" = what a shame. The others celebrate or don't fit.",

@@ -16,7 +16,7 @@ export const PT_B2_U31: Lesson[] = [
       {
         heading: "Present, imperfect or future: the trigger and the time",
         body: [
-          "No hints from here on: you choose every form. Ask two questions. Is there a trigger? Desire, doubt, emotion, an impersonal judgement, \"embora\" or \"para que\" call for the subjunctive; \"acho que\", \"sei que\" and \"é verdade que\" don't. Then: when? A present or future frame takes the present subjunctive (\"espero que ela venha\"); a past or conditional frame takes the imperfect (\"esperava que ela viesse\", \"seria bom que ela viesse\").",
+          "No hints from here on: you choose every form. Ask two questions. Is there a trigger? Desire, doubt, emotion, an impersonal judgment, \"embora\" or \"para que\" call for the subjunctive; \"acho que\", \"sei que\" and \"é verdade que\" don't. Then: when? A present or future frame takes the present subjunctive (\"espero que ela venha\"); a past or conditional frame takes the imperfect (\"esperava que ela viesse\", \"seria bom que ela viesse\").",
           "The future subjunctive has its own territory: \"quando\", \"assim que\", \"se\", \"enquanto\" and open relatives (\"quem quiser\", \"o que for preciso\") about a future that hasn't happened yet. Negation can flip the mood: \"acho que é caro\", but \"não acho que seja caro\".",
         ],
         examples: [
@@ -175,7 +175,7 @@ export const PT_B2_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Although the neighbourhood is beautiful, many residents had to move out.",
+        source: "Although the neighborhood is beautiful, many residents had to move out.",
         answer: "Embora o bairro seja lindo, muitos moradores tiveram que se mudar.",
         altAnswers: ["Embora o bairro seja lindo, muitos moradores tiveram de se mudar.", "Embora o bairro seja bonito, muitos moradores tiveram que se mudar.", "Embora o bairro seja bonito, muitos moradores tiveram de se mudar.", "Embora o bairro seja lindo, muitos moradores precisaram se mudar.", "Embora o bairro seja bonito, muitos moradores precisaram se mudar.", "Apesar de o bairro ser lindo, muitos moradores tiveram que se mudar.", "Apesar de o bairro ser bonito, muitos moradores tiveram que se mudar."],
         explanation: "\"Embora\" always takes the subjunctive, and the beauty is a present fact: \"seja\". The main clause is a plain past: \"tiveram que se mudar\".",
@@ -191,7 +191,7 @@ export const PT_B2_U31: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You're not sure of the timetable. How do you say: Maybe the boat leaves at nine?",
+        question: "You're not sure of the schedule. How do you say: Maybe the boat leaves at nine?",
         options: ["Talvez o barco saia às nove.", "Talvez o barco sair às nove.", "Talvez o barco sairá às nove.", "Talvez o barco tiver saído às nove."],
         correctIndex: 0,
         explanation: "\"Talvez\" before the verb takes the present subjunctive: \"saia\". Put it after the verb and the indicative returns: \"o barco sai às nove, talvez\".",
@@ -207,7 +207,7 @@ export const PT_B2_U31: Lesson[] = [
       {
         type: "dictation",
         audio: "Era importante que todos chegassem no horário.",
-        explanation: "A past impersonal judgement (\"era importante que\") takes the imperfect subjunctive \"chegassem\", with a sharp double ss.",
+        explanation: "A past impersonal judgment (\"era importante que\") takes the imperfect subjunctive \"chegassem\", with a sharp double ss.",
       },
       {
         type: "speak",
@@ -375,7 +375,7 @@ export const PT_B2_U31: Lesson[] = [
         source: "If I were you, I'd stay in Barra.",
         answer: "Se eu fosse você, ficaria na Barra.",
         altAnswers: ["Se eu fosse você, eu ficaria na Barra.", "Se eu fosse você, ficava na Barra.", "Se eu fosse você, eu ficava na Barra.", "Se eu fosse o senhor, ficaria na Barra.", "Se eu fosse a senhora, ficaria na Barra.", "Se eu fosse vocês, ficaria na Barra."],
-        explanation: "Advice through an imagined swap: \"se eu fosse você\" + conditional \"ficaria\" (or the spoken \"ficava\"). The neighbourhood takes the article: \"na Barra\".",
+        explanation: "Advice through an imagined swap: \"se eu fosse você\" + conditional \"ficaria\" (or the spoken \"ficava\"). The neighborhood takes the article: \"na Barra\".",
       },
       {
         type: "fill-blank",
@@ -519,7 +519,7 @@ export const PT_B2_U31: Lesson[] = [
           { es: "O check-in pode ser feito a partir das duas da tarde.", en: "Check-in is available from two in the afternoon." },
           { es: "Da varanda, é possível assistir ao pôr do sol na Baía de Todos-os-Santos.", en: "From the balcony you can watch the sunset over the Bay of All Saints." },
           { es: "Muitos hóspedes preferem a nossa varanda à praia.", en: "Many guests prefer our balcony to the beach." },
-          { es: "Oferecemos o conforto de que o viajante precisa.", en: "We offer the comfort the traveller needs." },
+          { es: "Oferecemos o conforto de que o viajante precisa.", en: "We offer the comfort the traveler needs." },
           { es: "A recepção funciona das sete às vinte e duas horas.", en: "Reception is open from seven a.m. to ten p.m." },
         ],
         checkpoint: [
@@ -533,18 +533,22 @@ export const PT_B2_U31: Lesson[] = [
             explanation: "The norm says \"chegar a\", and Salvador takes no article, so no crase: \"a Salvador\". The hour takes it: \"às dez\". \"Chegamos em Salvador\" is everyday speech.",
           },
           {
-            type: "fill-blank",
-            prompt: "Write the Portuguese for the bold words.",
-            en: "I prefer the beach [to the] pool.",
-            sentence: "Prefiro a praia ___ piscina.",
-            answer: "à",
+            type: "multiple-choice",
+            question: "I prefer the beach to the pool. Choose the sentence that follows the written norm.",
+            options: [
+              "Prefiro a praia a piscina.",
+              "Prefiro mais a praia do que a piscina.",
+              "Prefiro a praia à piscina.",
+              "Prefiro à praia à piscina.",
+            ],
+            correctIndex: 2,
             explanation: "\"Preferir\" takes \"a\" before the second option, and \"piscina\" is feminine with its article: a + a = \"à\". The masculine test: \"prefiro a praia ao mar\".",
           },
           {
             type: "listen-choose",
             audio: "Assisti ao show do Olodum no Pelourinho.",
             question: "What does it mean?",
-            options: ["I watched the Olodum show in Pelourinho.", "I helped out at the Olodum show in Pelourinho.", "I missed the Olodum show in Pelourinho.", "I organised the Olodum show in Pelourinho."],
+            options: ["I watched the Olodum show in Pelourinho.", "I helped out at the Olodum show in Pelourinho.", "I missed the Olodum show in Pelourinho.", "I organized the Olodum show in Pelourinho."],
             correctIndex: 0,
             explanation: "\"Assistir a\" means to watch or attend. In the norm, \"assistir\" with a direct object (\"assistir o paciente\") means to assist or care for.",
           },
@@ -557,7 +561,7 @@ export const PT_B2_U31: Lesson[] = [
           "When the subject comes after the verb, the verb still agrees with it: \"chegaram as toalhas novas\", \"faltam três quartos\", \"sobraram duas vagas\". Collective nouns stay singular (\"a equipe decidiu\"), and the plural of \"ter\", \"vir\" and their compounds carries an accent: \"eles têm\", \"eles vêm\", \"os quartos contêm\".",
         ],
         examples: [
-          { es: "Os turistas que visitam o Pelourinho no verão enfrentam longas filas.", en: "Tourists who visit Pelourinho in summer face long queues." },
+          { es: "Os turistas que visitam o Pelourinho no verão enfrentam longas filas.", en: "Tourists who visit Pelourinho in summer face long lines." },
           { es: "Faltam apenas dois quartos para o Réveillon.", en: "There are only two rooms left for New Year's Eve." },
           { es: "Os preços, no entanto, subiram muito nos últimos anos.", en: "Prices, however, have gone up a lot in recent years." },
           { es: "Os apartamentos que têm vista para o mar são os mais procurados.", en: "The apartments with a sea view are the most sought-after." },
@@ -660,7 +664,7 @@ export const PT_B2_U31: Lesson[] = [
         type: "speak",
         text: "Eles têm razão, mas faltam provas.",
         prompt: "Say it in Portuguese: They're right, but there's no proof.",
-        tip: "Têm and tem sound alike in most of Brazil: a nasal tẽin. Only the written accent separates them.",
+        tip: "Têm and tem sound alike in most of Brazil: a nasal tẽy. Only the written accent separates them.",
         explanation: "Plural \"têm\" for \"eles\", and \"faltam\" agreeing with \"provas\", which follows it.",
       },
       {
@@ -669,7 +673,7 @@ export const PT_B2_U31: Lesson[] = [
         words: ["Ontem", "assistimos", "ao", "jogo", "do", "Bahia", "no", "bar."],
         translation: "Yesterday we watched the Bahia game at the bar.",
         altOrders: [["Assistimos", "ao", "jogo", "do", "Bahia", "no", "bar", "ontem."]],
-        explanation: "\"Assistir a\" + \"o jogo\" = \"ao jogo\". The football club is masculine (\"o Bahia\"), the state feminine (\"a Bahia\").",
+        explanation: "\"Assistir a\" + \"o jogo\" = \"ao jogo\". The soccer club is masculine (\"o Bahia\"), the state feminine (\"a Bahia\").",
       },
     ],
   },
@@ -692,9 +696,9 @@ export const PT_B2_U31: Lesson[] = [
         examples: [
           { es: "Dona Nicinha contou que morava no Pelourinho havia quarenta anos.", en: "Dona Nicinha said she had been living in Pelourinho for forty years." },
           { es: "O dono da pousada garantiu que o prédio tinha sido reformado no ano anterior.", en: "The guesthouse owner assured us the building had been renovated the year before." },
-          { es: "A guia avisou que, se chovesse, o passeio seria cancelado.", en: "The guide warned that if it rained, the tour would be cancelled." },
+          { es: "A guia avisou que, se chovesse, o passeio seria cancelado.", en: "The guide warned that if it rained, the tour would be canceled." },
           { es: "O turista perguntou se o Elevador Lacerda funcionava à noite.", en: "The tourist asked whether the Elevador Lacerda ran at night." },
-          { es: "A repórter quis saber quanto custava o aluguel no bairro.", en: "The reporter wanted to know how much rent cost in the neighbourhood." },
+          { es: "A repórter quis saber quanto custava o aluguel no bairro.", en: "The reporter wanted to know how much rent cost in the neighborhood." },
           { es: "Ele admitiu que tinha alugado o apartamento sem contrato.", en: "He admitted he had rented out the apartment without a contract." },
         ],
         checkpoint: [
@@ -773,10 +777,10 @@ export const PT_B2_U31: Lesson[] = [
         ],
         examples: [
           { es: "O novo terminal de ônibus foi inaugurado ontem pelo prefeito.", en: "The new bus terminal was opened by the mayor yesterday." },
-          { es: "Dezenas de casarões do centro histórico têm sido transformados em hotéis.", en: "Dozens of old mansions in the historic centre have been turned into hotels." },
+          { es: "Dezenas de casarões do centro histórico têm sido transformados em hotéis.", en: "Dozens of old mansions in the historic center have been turned into hotels." },
           { es: "A denúncia está sendo investigada pelo Ministério Público.", en: "The complaint is being investigated by the public prosecutor's office." },
           { es: "Ficou decidido que a feira vai funcionar aos domingos.", en: "It was decided that the market will open on Sundays." },
-          { es: "Alugam-se quartos para temporada.", en: "Rooms to let for the season." },
+          { es: "Alugam-se quartos para temporada.", en: "Rooms for rent for the season." },
         ],
         checkpoint: [
           {
@@ -906,7 +910,7 @@ export const PT_B2_U31: Lesson[] = [
         ],
         examples: [
           { es: "Quando eu cheguei, queria que o quarto ficasse perto da praia.", en: "When I arrived, I wanted the room to be near the beach." },
-          { es: "Se eu soubesse o preço, teria escolhido outro bairro.", en: "If I'd known the price, I'd have chosen another neighbourhood." },
+          { es: "Se eu soubesse o preço, teria escolhido outro bairro.", en: "If I'd known the price, I'd have chosen another neighborhood." },
           { es: "Assim que eu tiver dinheiro, volto para Salvador.", en: "As soon as I have the money, I'll go back to Salvador." },
           { es: "Espero que vocês gostem do texto, embora ele seja longo.", en: "I hope you like the post, even though it's long." },
           { es: "Eu queria ter ficado mais tempo.", en: "I wish I'd stayed longer." },
@@ -916,7 +920,7 @@ export const PT_B2_U31: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "If I had known the price, I would have chosen another neighbourhood.",
+            source: "If I had known the price, I would have chosen another neighborhood.",
             answer: "Se eu soubesse o preço, teria escolhido outro bairro.",
             altAnswers: ["Se eu tivesse sabido o preço, teria escolhido outro bairro.", "Se eu soubesse o preço, eu teria escolhido outro bairro.", "Se eu tivesse sabido o preço, eu teria escolhido outro bairro.", "Se eu soubesse o preço, tinha escolhido outro bairro.", "Se eu tivesse sabido o preço, tinha escolhido outro bairro.", "Se soubesse o preço, teria escolhido outro bairro."],
             explanation: "\"Se\" takes the subjunctive (\"soubesse\" or \"tivesse sabido\"), never the conditional: \"*se eu saberia\" is the classic English-speaker slip.",
@@ -945,7 +949,7 @@ export const PT_B2_U31: Lesson[] = [
           "\"Houve\", because impersonal \"haver\" is singular; \"a Itaparica\", because the island's name takes no article (\"moro em Itaparica\"); \"assisti ao pôr do sol\"; no comma between the subject and \"reclamam\"; \"eles têm\"; \"chegaram as novas regras\", since the verb agrees with a subject that follows it; and \"ninguém as explicou\", because \"ninguém\" pulls the pronoun before the verb.",
         ],
         examples: [
-          { es: "Houve muitas festas no bairro em fevereiro.", en: "There were a lot of parties in the neighbourhood in February." },
+          { es: "Houve muitas festas no bairro em fevereiro.", en: "There were a lot of parties in the neighborhood in February." },
           { es: "Fui a Itaparica de barco e assisti ao pôr do sol.", en: "I went to Itaparica by boat and watched the sunset." },
           { es: "Os moradores do Santo Antônio reclamam do barulho, e eles têm razão.", en: "The residents of Santo Antônio complain about the noise, and they're right." },
           { es: "Chegaram as novas regras para os aluguéis por temporada.", en: "The new rules for short-term rentals have come in." },
@@ -956,7 +960,7 @@ export const PT_B2_U31: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "There were a lot of parties in the neighbourhood.",
+            source: "There were a lot of parties in the neighborhood.",
             answer: "Houve muitas festas no bairro.",
             altAnswers: ["Houve várias festas no bairro.", "No bairro houve muitas festas.", "No bairro, houve muitas festas."],
             explanation: "\"Haver\" meaning there were is impersonal and stays singular: \"houve\", whatever follows it.",
@@ -982,11 +986,11 @@ export const PT_B2_U31: Lesson[] = [
         heading: "Paragraph three: false friends and calques",
         body: [
           "The last paragraph: \"Eu realizei que a comida baiana é muito esquisita, especialmente o acarajé. Eventualmente aprendi a pedir sem pimenta. Tudo custa um braço e uma perna no Pelourinho, mas eu suporto o projeto de limitar os aluguéis.\" The grammar is fine; the problem is English in disguise.",
-          "\"Realizar\" means to carry out; to realise is \"perceber\" or \"me dar conta\". \"Esquisito\" means weird, so tasty food is \"deliciosa\" or \"uma delícia\". \"Eventualmente\" means occasionally; in the end is \"no fim\", or \"acabei aprendendo\". The idiom is \"custar os olhos da cara\". To support a project is \"apoiar\"; \"suportar\" means to put up with.",
+          "\"Realizar\" means to carry out; to realize is \"perceber\" or \"me dar conta\". \"Esquisito\" means weird, so tasty food is \"deliciosa\" or \"uma delícia\". \"Eventualmente\" means occasionally; in the end is \"no fim\", or \"acabei aprendendo\". The idiom is \"custar os olhos da cara\". To support a project is \"apoiar\"; \"suportar\" means to put up with.",
         ],
         examples: [
-          { es: "Percebi que a comida baiana é uma delícia, principalmente o acarajé.", en: "I realised Bahian food is delicious, especially acarajé." },
-          { es: "No fim, aprendi a pedir sem pimenta.", en: "In the end, I learned to order it without chilli." },
+          { es: "Percebi que a comida baiana é uma delícia, principalmente o acarajé.", en: "I realized Bahian food is delicious, especially acarajé." },
+          { es: "No fim, aprendi a pedir sem pimenta.", en: "In the end, I learned to order it without chili." },
           { es: "Tudo custa os olhos da cara no Pelourinho.", en: "Everything costs an arm and a leg in Pelourinho." },
           { es: "Eu apoio o projeto de limitar os aluguéis por temporada.", en: "I support the plan to limit short-term rentals." },
           { es: "Não suporto barulho depois da meia-noite.", en: "I can't stand noise after midnight." },
@@ -996,10 +1000,10 @@ export const PT_B2_U31: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I realised I had forgotten my passport.",
+            source: "I realized I had forgotten my passport.",
             answer: "Percebi que tinha esquecido o passaporte.",
             altAnswers: ["Eu percebi que tinha esquecido o passaporte.", "Percebi que tinha esquecido meu passaporte.", "Percebi que tinha esquecido o meu passaporte.", "Eu percebi que tinha esquecido meu passaporte.", "Me dei conta de que tinha esquecido o passaporte.", "Me dei conta de que tinha esquecido meu passaporte.", "Percebi que havia esquecido o passaporte.", "Percebi que eu tinha esquecido o passaporte."],
-            explanation: "To realise is \"perceber\" or \"dar-se conta\"; \"*realizei\" would mean I carried out. The earlier action takes the pluperfect: \"tinha esquecido\".",
+            explanation: "To realize is \"perceber\" or \"dar-se conta\"; \"*realizei\" would mean I carried out. The earlier action takes the pluperfect: \"tinha esquecido\".",
           },
           {
             type: "translate",
@@ -1014,7 +1018,7 @@ export const PT_B2_U31: Lesson[] = [
             type: "listen-choose",
             audio: "Acabei aprendendo a pedir o acarajé sem pimenta.",
             question: "What does it mean?",
-            options: ["I ended up learning to order acarajé without chilli.", "I sometimes order acarajé without chilli.", "I've just learned to order acarajé with chilli.", "I've stopped ordering acarajé without chilli."],
+            options: ["I ended up learning to order acarajé without chili.", "I sometimes order acarajé without chili.", "I've just learned to order acarajé with chili.", "I've stopped ordering acarajé without chili."],
             correctIndex: 0,
             explanation: "\"Acabar\" + gerund means to end up doing something: the natural way to say eventually.",
           },
@@ -1050,7 +1054,7 @@ export const PT_B2_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The festival was cancelled because of the rain.",
+        source: "The festival was canceled because of the rain.",
         answer: "O festival foi cancelado por causa da chuva.",
         altAnswers: ["O festival foi cancelado devido à chuva.", "O festival foi cancelado em razão da chuva.", "O festival foi cancelado em função da chuva.", "Cancelaram o festival por causa da chuva."],
         explanation: "Passive with agreement (\"foi cancelado\"). With \"devido a\", the feminine noun brings the crase: \"devido à chuva\".",
@@ -1120,7 +1124,7 @@ export const PT_B2_U31: Lesson[] = [
         examples: [
           { es: "Desculpe incomodar, mas o ar-condicionado do quarto 304 parou de funcionar.", en: "Sorry to bother you, but the air conditioning in room 304 has stopped working." },
           { es: "Eu gostaria que alguém viesse dar uma olhada ainda hoje.", en: "I'd like someone to come and take a look today." },
-          { es: "Peço desculpas pelo transtorno; vou pedir que o técnico suba agora mesmo.", en: "I apologise for the inconvenience; I'll ask the technician to come up right away." },
+          { es: "Peço desculpas pelo transtorno; vou pedir que o técnico suba agora mesmo.", en: "I apologize for the inconvenience; I'll ask the technician to come up right away." },
           { es: "Se o senhor fizer por dois mil, eu fecho hoje.", en: "If you make it two thousand, I'll take it today." },
           { es: "E se a gente dividisse a diferença?", en: "What if we split the difference?" },
         ],
@@ -1159,10 +1163,10 @@ export const PT_B2_U31: Lesson[] = [
         ],
         examples: [
           { es: "Você tá sabendo? O seu Antônio vendeu a casa para um gringo.", en: "Have you heard? Seu Antônio sold his house to a foreigner." },
-          { es: "Diz que o novo dono vai transformar tudo em apartamentos para turista.", en: "Apparently the new owner is going to turn it all into flats for tourists." },
+          { es: "Diz que o novo dono vai transformar tudo em apartamentos para turista.", en: "Apparently the new owner is going to turn it all into apartments for tourists." },
           { es: "Jura? Que pena que ele tenha vendido, a casa era linda.", en: "Really? Such a shame he sold it, the house was beautiful." },
           { es: "Parece que a família vai morar em Lauro de Freitas.", en: "It seems the family is going to live in Lauro de Freitas." },
-          { es: "Dona Rita me contou que o vizinho tinha vendido a casa por uma fortuna.", en: "Dona Rita told me the neighbour had sold the house for a fortune." },
+          { es: "Dona Rita me contou que o vizinho tinha vendido a casa por uma fortuna.", en: "Dona Rita told me the neighbor had sold the house for a fortune." },
         ],
         checkpoint: [
           {
@@ -1231,12 +1235,12 @@ export const PT_B2_U31: Lesson[] = [
       {
         heading: "Round five: a radio debate",
         body: [
-          "Last, a debate on local radio: should Salvador limit short-term rentals in the historic centre? Opinions move between moods: \"acho que\" and \"tenho certeza de que\" + indicative, \"não acho que\" and \"duvido que\" + subjunctive. Concede before you counter: \"embora o turismo gere empregos...\", \"concordo em parte, mas...\".",
+          "Last, a debate on local radio: should Salvador limit short-term rentals in the historic center? Opinions move between moods: \"acho que\" and \"tenho certeza de que\" + indicative, \"não acho que\" and \"duvido que\" + subjunctive. Concede before you counter: \"embora o turismo gere empregos...\", \"concordo em parte, mas...\".",
           "Take the floor and keep it with \"desculpa te interromper\", \"só um parêntese\", \"deixa eu terminar\". On air the register is in between: \"a gente\" and \"você\" are fine, slang is not.",
         ],
         examples: [
           { es: "Concordo em parte, mas não acho que proibir seja a solução.", en: "I partly agree, but I don't think banning it is the answer." },
-          { es: "Embora o turismo gere empregos, os moradores estão sendo expulsos do centro.", en: "Although tourism creates jobs, residents are being pushed out of the centre." },
+          { es: "Embora o turismo gere empregos, os moradores estão sendo expulsos do centro.", en: "Although tourism creates jobs, residents are being pushed out of the center." },
           { es: "Desculpa te interromper, mas os números não mostram isso.", en: "Sorry to interrupt, but the figures don't show that." },
           { es: "Deixa eu terminar: se nada for feito, o Pelourinho vai virar um cenário.", en: "Let me finish: if nothing is done, Pelourinho will turn into a stage set." },
           { es: "Tenho certeza de que existe um meio-termo.", en: "I'm sure there's a middle ground." },
@@ -1358,8 +1362,8 @@ export const PT_B2_U31: Lesson[] = [
       {
         heading: "Segunda-feira: arrival and the first messages",
         body: [
-          "Camila Becker, a journalist from Porto Alegre, has a week in Salvador to report on tourism and housing in the historic centre for a magazine in São Paulo. Her editor, Rafael, expects updates on WhatsApp. Read her messages as you would in the exam: who is writing to whom, and why?",
-          "Camila is gaúcha, and Salvador keeps testing her vocabulary. At home she says \"bah\" for surprise and \"guri\" for a boy; in Bahia she hears \"oxe\" (surprise or protest), \"massa\" (cool) and \"painho\" and \"mainha\" (dad, mum). The bread roll she calls \"cacetinho\" is plain \"pão francês\" here.",
+          "Camila Becker, a journalist from Porto Alegre, has a week in Salvador to report on tourism and housing in the historic center for a magazine in São Paulo. Her editor, Rafael, expects updates on WhatsApp. Read her messages as you would in the exam: who is writing to whom, and why?",
+          "Camila is gaúcha, and Salvador keeps testing her vocabulary. At home she says \"bah\" for surprise and \"guri\" for a boy; in Bahia she hears \"oxe\" (surprise or protest), \"massa\" (cool) and \"painho\" and \"mainha\" (dad, mom). The bread roll she calls \"cacetinho\" is plain \"pão francês\" here.",
         ],
         examples: [
           { es: "Rafael, cheguei! O calor aqui é outro nível, bah.", en: "Rafael, I've arrived! The heat here is another level, wow." },
@@ -1445,7 +1449,7 @@ export const PT_B2_U31: Lesson[] = [
         ],
         examples: [
           { es: "Embora eu entenda a Dona Nicinha, o turismo salvou muitos prédios.", en: "Although I understand Dona Nicinha, tourism saved a lot of buildings." },
-          { es: "O centro foi abandonado pelo poder público durante décadas.", en: "The centre was abandoned by the authorities for decades." },
+          { es: "O centro foi abandonado pelo poder público durante décadas.", en: "The center was abandoned by the authorities for decades." },
           { es: "Uma vez que ninguém investia aqui, os casarões estavam caindo.", en: "Since nobody was investing here, the old houses were falling down." },
           { es: "Se não fossem os turistas, eu não teria como pagar as contas.", en: "If it weren't for the tourists, I'd have no way of paying the bills." },
           { es: "Eu aceitaria regras novas, desde que fossem iguais para todo mundo.", en: "I'd accept new rules, as long as they were the same for everyone." },
@@ -1455,7 +1459,7 @@ export const PT_B2_U31: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Although I understand the residents, tourism saved the neighbourhood.",
+            source: "Although I understand the residents, tourism saved the neighborhood.",
             answer: "Embora eu entenda os moradores, o turismo salvou o bairro.",
             altAnswers: ["Embora entenda os moradores, o turismo salvou o bairro.", "Embora eu compreenda os moradores, o turismo salvou o bairro.", "Mesmo que eu entenda os moradores, o turismo salvou o bairro.", "Ainda que eu entenda os moradores, o turismo salvou o bairro."],
             explanation: "\"Embora\" + present subjunctive \"entenda\": the understanding is current, even though the saving is past.",
@@ -1471,7 +1475,7 @@ export const PT_B2_U31: Lesson[] = [
             type: "speak",
             text: "Se não fossem os turistas, eu não teria como pagar as contas.",
             prompt: "Say it in Portuguese: If it weren't for the tourists, I'd have no way of paying the bills.",
-            tip: "Fossem has a closed ô and a nasal ending: FÔ-sẽin. Contas: the n just nasalises the o.",
+            tip: "Fossem has a closed ô and a nasal ending: FÔ-sẽy. Contas: the n just nasalizes the o.",
             explanation: "\"Se não fosse(m)\" + noun means if it weren't for. It agrees with the noun in careful speech: \"se não fossem os turistas\".",
           },
         ],
@@ -1497,7 +1501,7 @@ export const PT_B2_U31: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Why does Rodrigo say tourism has been good for the centre?",
+        question: "Why does Rodrigo say tourism has been good for the center?",
         options: ["It brought money into buildings nobody was investing in.", "It lowered rents for residents.", "The city government asked him to say so.", "The residents wanted to leave anyway."],
         correctIndex: 0,
         explanation: "\"Uma vez que ninguém investia aqui, os casarões estavam caindo\": tourism money filled the gap left by public neglect.",
@@ -1515,7 +1519,7 @@ export const PT_B2_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The historic centre was abandoned for decades.",
+        source: "The historic center was abandoned for decades.",
         answer: "O centro histórico foi abandonado durante décadas.",
         altAnswers: ["O centro histórico foi abandonado por décadas.", "O centro histórico ficou abandonado durante décadas.", "O centro histórico ficou abandonado por décadas."],
         explanation: "\"Ser\" + participle for the event, or \"ficar\" + participle for the resulting state. The participle agrees: \"abandonado\".",
@@ -1526,7 +1530,7 @@ export const PT_B2_U31: Lesson[] = [
         pairs: [
           { left: "oxe", right: "an exclamation of surprise or protest (Bahia)" },
           { left: "massa", right: "cool, great (Bahia)" },
-          { left: "mainha", right: "mum (Bahia)" },
+          { left: "mainha", right: "mom (Bahia)" },
           { left: "bah", right: "an exclamation of surprise (Rio Grande do Sul)" },
           { left: "guri", right: "boy, kid (Rio Grande do Sul)" },
         ],
@@ -1554,7 +1558,7 @@ export const PT_B2_U31: Lesson[] = [
         text: "Massa! Amanhã a gente vai ao Rio Vermelho.",
         prompt: "Say it in Portuguese: Cool! Tomorrow we're going to Rio Vermelho.",
         tip: "The r of Rio is a breathy h sound; in Vermelho, lh is like the lli in million: ver-MÊ-lhu.",
-        explanation: "\"Massa\" is Bahian for cool. \"Ir a\" + \"o Rio Vermelho\" = \"ao Rio Vermelho\": the neighbourhood takes an article.",
+        explanation: "\"Massa\" is Bahian for cool. \"Ir a\" + \"o Rio Vermelho\" = \"ao Rio Vermelho\": the neighborhood takes an article.",
       },
       {
         type: "word-order",
@@ -1578,13 +1582,13 @@ export const PT_B2_U31: Lesson[] = [
       {
         heading: "Sexta-feira, 2 de fevereiro: the Festa de Iemanjá",
         body: [
-          "Camila's week ends on 2 February, the day of the Festa de Iemanjá in Rio Vermelho. Before dawn, crowds dressed in white and blue queue by the fishermen's colony to leave \"presentes\" (flowers, perfume, mirrors, notes with wishes) for the queen of the sea. In the afternoon, fishing boats carry the main offering out to sea, and people greet the orixá with \"Odoyá!\".",
-          "Her friend Tainá, from the neighbourhood, prepares her the night before: advice with \"se eu fosse você\", instructions with the future subjunctive (\"quando você chegar...\"), and a belief passed on as hearsay with \"dizem que\".",
+          "Camila's week ends on February 2, the day of the Festa de Iemanjá in Rio Vermelho. Before dawn, crowds dressed in white and blue line up by the fishermen's colony to leave \"presentes\" (flowers, perfume, mirrors, notes with wishes) for the queen of the sea. In the afternoon, fishing boats carry the main offering out to sea, and people greet the orixá with \"Odoyá!\".",
+          "Her friend Tainá, from the neighborhood, prepares her the night before: advice with \"se eu fosse você\", instructions with the future subjunctive (\"quando você chegar...\"), and a belief passed on as hearsay with \"dizem que\".",
         ],
         examples: [
-          { es: "No dia 2 de fevereiro, milhares de pessoas vão ao Rio Vermelho levar presentes para Iemanjá.", en: "On 2 February, thousands of people go to Rio Vermelho to take gifts to Iemanjá." },
+          { es: "No dia 2 de fevereiro, milhares de pessoas vão ao Rio Vermelho levar presentes para Iemanjá.", en: "On February 2, thousands of people go to Rio Vermelho to take gifts to Iemanjá." },
           { es: "Se eu fosse você, chegaria antes das cinco da manhã.", en: "If I were you, I'd get there before five in the morning." },
-          { es: "Quando você chegar, entra na fila dos presentes.", en: "When you get there, join the queue for the offerings." },
+          { es: "Quando você chegar, entra na fila dos presentes.", en: "When you get there, get in line for the offerings." },
           { es: "As flores são levadas pelos pescadores até o alto-mar.", en: "The flowers are taken out to the open sea by the fishermen." },
           { es: "Dizem que, se o presente voltar para a praia, Iemanjá não o aceitou.", en: "They say that if the offering washes back onto the beach, Iemanjá didn't accept it." },
         ],
@@ -1618,11 +1622,11 @@ export const PT_B2_U31: Lesson[] = [
       {
         heading: "Sábado: the article",
         body: [
-          "Back at the hotel, Camila writes her article. The tone is journalistic: nominalisations (\"a transformação dos casarões\", \"a saída dos moradores\"), the passive, and quotes turned into reported speech with verbs that carry stance.",
+          "Back at the hotel, Camila writes her article. The tone is journalistic: nominalizations (\"a transformação dos casarões\", \"a saída dos moradores\"), the passive, and quotes turned into reported speech with verbs that carry stance.",
           "Watch what happens to her sources. Dona Nicinha's \"meus netos vão ter que morar longe\" becomes \"teme que os netos tenham de morar longe\": \"temer que\" expresses fear, so the subjunctive. Rodrigo's \"o turismo salvou o centro\" becomes \"defende que o turismo salvou prédios abandonados\": \"defender que\", \"afirmar\" and \"alegar\" present a claim, so the indicative. \"Procurada pela reportagem\" is the standard press formula for when contacted by the paper.",
         ],
         examples: [
-          { es: "Nos últimos dez anos, dezenas de casarões do Centro Histórico foram transformados em hospedagens.", en: "Over the last ten years, dozens of old houses in the Historic Centre have been turned into guest accommodation." },
+          { es: "Nos últimos dez anos, dezenas de casarões do Centro Histórico foram transformados em hospedagens.", en: "Over the last ten years, dozens of old houses in the Historic Center have been turned into guest accommodation." },
           { es: "A transformação, aplaudida pelo setor turístico, tem provocado a saída de famílias inteiras.", en: "The change, applauded by the tourism industry, has been driving out whole families." },
           { es: "Moradora do Pelourinho há quarenta anos, Dona Nicinha teme que os netos tenham de morar longe.", en: "A resident of Pelourinho for forty years, Dona Nicinha fears her grandchildren will have to live far away." },
           { es: "Já o anfitrião Rodrigo Santos defende que o turismo salvou prédios abandonados.", en: "Host Rodrigo Santos, on the other hand, argues that tourism saved abandoned buildings." },
@@ -1753,7 +1757,7 @@ export const PT_B2_U31: Lesson[] = [
           { left: "a chegada dos turistas", right: "the arrival of the tourists" },
           { left: "a elaboração de um projeto de lei", right: "the drafting of a bill" },
         ],
-        explanation: "Nominalisation turns verbs into nouns (\"sair\" → \"a saída\", \"aumentar\" → \"o aumento\"), the backbone of a news style.",
+        explanation: "Nominalization turns verbs into nouns (\"sair\" → \"a saída\", \"aumentar\" → \"o aumento\"), the backbone of a news style.",
       },
       {
         type: "listen-choose",
@@ -1838,11 +1842,11 @@ export const PT_B2_U31: Lesson[] = [
       {
         heading: "Leg two: an email to a landlord",
         body: [
-          "The second leg is formal: an email to the owner of a flat you rented in Salvador. Now it's \"o senhor\" or \"a senhora\", no \"pra\", no sentence-initial pronoun, and verbs from the formal list: \"solicitar\" (ask for), \"informar\" (tell), \"devolver\" (return).",
+          "The second leg is formal: an email to the owner of an apartment you rented in Salvador. Now it's \"o senhor\" or \"a senhora\", no \"pra\", no sentence-initial pronoun, and verbs from the formal list: \"solicitar\" (ask for), \"informar\" (tell), \"devolver\" (return).",
           "English politeness hides in modals (could you, I was wondering if); Portuguese uses the conditional: \"gostaria de saber se\", \"o senhor poderia...?\". Asking for something to be done takes \"que\" + subjunctive, often passive: \"solicito que o depósito seja devolvido\". Close with \"Atenciosamente\".",
         ],
         examples: [
-          { es: "Escrevo para informar que deixei o apartamento no dia 30, conforme combinado.", en: "I'm writing to let you know that I left the flat on the 30th, as agreed." },
+          { es: "Escrevo para informar que deixei o apartamento no dia 30, conforme combinado.", en: "I'm writing to let you know that I left the apartment on the 30th, as agreed." },
           { es: "Gostaria de saber quando o depósito será devolvido.", en: "I was wondering when the deposit will be returned." },
           { es: "Caso haja algum problema com o imóvel, peço que o senhor me avise.", en: "Should there be any problem with the property, please let me know." },
           { es: "Solicito que o valor seja transferido para a conta abaixo.", en: "I'd ask that the amount be transferred to the account below." },
@@ -1880,9 +1884,9 @@ export const PT_B2_U31: Lesson[] = [
           "Use the impersonal style (\"é preciso que\", \"cabe ao poder público\", \"vale lembrar que\"), and watch the constructions that don't transfer: it's high time → \"já passou da hora de\"; the more..., the more... → \"quanto mais..., mais...\"; there's no point → \"não adianta\".",
         ],
         examples: [
-          { es: "Quanto mais turistas chegam, mais caro fica morar no centro.", en: "The more tourists arrive, the more expensive it gets to live in the centre." },
+          { es: "Quanto mais turistas chegam, mais caro fica morar no centro.", en: "The more tourists arrive, the more expensive it gets to live in the center." },
           { es: "Não adianta culpar só os aplicativos; é preciso que a cidade tenha um plano.", en: "There's no point blaming only the apps; the city needs a plan." },
-          { es: "Já passou da hora de ouvir quem mora no bairro.", en: "It's high time we listened to the people who live in the neighbourhood." },
+          { es: "Já passou da hora de ouvir quem mora no bairro.", en: "It's high time we listened to the people who live in the neighborhood." },
           { es: "Vale lembrar que o turismo gera milhares de empregos.", en: "It's worth remembering that tourism creates thousands of jobs." },
           { es: "Cabe ao poder público encontrar um equilíbrio.", en: "It is up to the authorities to find a balance." },
         ],
@@ -1994,7 +1998,7 @@ export const PT_B2_U31: Lesson[] = [
         text: "Prezado senhor, escrevo para solicitar a devolução do depósito.",
         prompt: "Say it in Portuguese: Dear Sir, I'm writing to request the return of the deposit.",
         tip: "In solicitar the c before i is an s: so-li-si-TAR. Devolução ends in a nasal ão.",
-        explanation: "The formal email formula: \"escrevo para\" + infinitive, with the nominalised \"a devolução\" instead of \"que devolva\".",
+        explanation: "The formal email formula: \"escrevo para\" + infinitive, with the nominalized \"a devolução\" instead of \"que devolva\".",
       },
     ],
   },
@@ -2012,10 +2016,10 @@ export const PT_B2_U31: Lesson[] = [
         heading: "The source: read for the purpose",
         body: [
           "This is a Celpe-Bras-style task. The source is a short report from a Salvador newspaper: \"Aluguel por temporada pressiona moradores do Santo Antônio Além do Carmo\". Two tasks follow: a reader's letter to the paper and a formal complaint to the city government. For each, find the enunciador (you, a resident), the interlocutor (the editor; the city department) and the purpose (give an opinion; demand action).",
-          "Use the source but don't copy it. Paraphrase with reporting expressions (\"segundo a reportagem\", \"o texto aponta que\", \"de acordo com a matéria\") and nominalisation: \"os aluguéis subiram 40%\" → \"o aumento de 40% nos aluguéis\". Round the numbers and recast the sentences.",
+          "Use the source but don't copy it. Paraphrase with reporting expressions (\"segundo a reportagem\", \"o texto aponta que\", \"de acordo com a matéria\") and nominalization: \"os aluguéis subiram 40%\" → \"o aumento de 40% nos aluguéis\". Round the numbers and recast the sentences.",
         ],
         examples: [
-          { es: "Segundo a reportagem, os aluguéis no bairro subiram 40% em dois anos.", en: "According to the report, rents in the neighbourhood rose 40% in two years." },
+          { es: "Segundo a reportagem, os aluguéis no bairro subiram 40% em dois anos.", en: "According to the report, rents in the neighborhood rose 40% in two years." },
           { es: "O texto aponta que um em cada três imóveis está anunciado em aplicativos.", en: "The article points out that one in three properties is listed on apps." },
           { es: "O aumento dos aluguéis tem levado famílias a se mudarem para a periferia.", en: "The rise in rents has been leading families to move to the outskirts." },
           { es: "De acordo com a matéria, a prefeitura estuda limitar o número de diárias por ano.", en: "According to the article, the city is considering capping the number of nights per year." },
@@ -2033,7 +2037,7 @@ export const PT_B2_U31: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence paraphrases \"os aluguéis subiram 40%\" with a nominalisation?",
+            question: "Which sentence paraphrases \"os aluguéis subiram 40%\" with a nominalization?",
             options: ["O aumento de 40% nos aluguéis preocupa os moradores.", "Os aluguéis subiram 40%, segundo a reportagem.", "Os aluguéis que subiram 40% preocupam.", "Subiram 40% os aluguéis."],
             correctIndex: 0,
             explanation: "The verb \"subir\" / \"aumentar\" becomes the noun \"o aumento\", which can then be the subject of a new sentence.",
@@ -2053,12 +2057,12 @@ export const PT_B2_U31: Lesson[] = [
         heading: "Task one: the reader's letter",
         body: [
           "A \"carta do leitor\" reacts to a published text. Refer to it first (\"Em relação à reportagem publicada no dia 10...\"), state your position in the first paragraph, support it in the second and close with a suggestion. The register is formal but personal: \"eu\" is fine, slang is not.",
-          "Concession makes an argument credible: \"embora o turismo seja importante, ...\", \"por mais que os aplicativos tragam renda, ...\". Link the moves with \"além disso\", \"no entanto\", \"diante disso\". Sign with your name and neighbourhood.",
+          "Concession makes an argument credible: \"embora o turismo seja importante, ...\", \"por mais que os aplicativos tragam renda, ...\". Link the moves with \"além disso\", \"no entanto\", \"diante disso\". Sign with your name and neighborhood.",
         ],
         examples: [
           { es: "Em relação à reportagem publicada no dia 10, gostaria de manifestar minha preocupação.", en: "Regarding the report published on the 10th, I would like to express my concern." },
           { es: "Embora o turismo seja importante para a economia, não pode custar a saída dos moradores.", en: "Although tourism matters to the economy, it can't come at the cost of residents leaving." },
-          { es: "Por mais que os aplicativos tragam renda, o bairro está perdendo sua vida comunitária.", en: "However much income the apps bring, the neighbourhood is losing its community life." },
+          { es: "Por mais que os aplicativos tragam renda, o bairro está perdendo sua vida comunitária.", en: "However much income the apps bring, the neighborhood is losing its community life." },
           { es: "Diante disso, seria fundamental que a prefeitura ouvisse a associação de moradores.", en: "Given this, it would be essential for the city to listen to the residents' association." },
           { es: "Beatriz Lima, moradora do Santo Antônio Além do Carmo", en: "Beatriz Lima, resident of Santo Antônio Além do Carmo" },
         ],
@@ -2075,7 +2079,7 @@ export const PT_B2_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "However much income the apps [bring], the neighbourhood is losing its community life.",
+            en: "However much income the apps [bring], the neighborhood is losing its community life.",
             sentence: "Por mais que os aplicativos ___ renda, o bairro está perdendo sua vida comunitária.",
             answer: "tragam",
             explanation: "\"Por mais que\" always takes the subjunctive: \"tragam\", from the eu form \"trago\".",
@@ -2099,8 +2103,8 @@ export const PT_B2_U31: Lesson[] = [
         examples: [
           { es: "Venho por meio desta formalizar uma reclamação sobre o barulho causado por hóspedes de imóveis de temporada.", en: "I am writing to make a formal complaint about the noise caused by guests in short-term rentals." },
           { es: "Desde janeiro, há festas quase todas as noites no imóvel ao lado do meu.", en: "Since January there have been parties almost every night in the property next to mine." },
-          { es: "Solicito que a fiscalização seja intensificada nos fins de semana.", en: "I request that inspections be stepped up at weekends." },
-          { es: "É imprescindível que as regras de convivência sejam respeitadas.", en: "It is essential that the rules of neighbourly conduct are respected." },
+          { es: "Solicito que a fiscalização seja intensificada nos fins de semana.", en: "I request that inspections be stepped up on weekends." },
+          { es: "É imprescindível que as regras de convivência sejam respeitadas.", en: "It is essential that the rules of neighborly conduct are respected." },
           { es: "Caso não haja resposta em quinze dias, recorreremos ao Ministério Público.", en: "If there is no reply within fifteen days, we will turn to the public prosecutor's office." },
         ],
         checkpoint: [
@@ -2108,7 +2112,7 @@ export const PT_B2_U31: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I request that inspections be stepped up at weekends.",
+            source: "I request that inspections be stepped up on weekends.",
             answer: "Solicito que a fiscalização seja intensificada nos fins de semana.",
             altAnswers: ["Solicito que a fiscalização seja reforçada nos fins de semana.", "Solicito que as fiscalizações sejam intensificadas nos fins de semana.", "Peço que a fiscalização seja intensificada nos fins de semana.", "Solicito que a fiscalização seja intensificada aos fins de semana.", "Solicito que a fiscalização seja intensificada nos finais de semana.", "Solicito que a fiscalização seja reforçada nos finais de semana."],
             explanation: "\"Solicitar que\" + passive subjunctive \"seja intensificada\", agreeing with \"a fiscalização\".",
@@ -2147,7 +2151,7 @@ export const PT_B2_U31: Lesson[] = [
         sentence: "É imprescindível que as regras ___.",
         answer: "sejam respeitadas",
         altAnswers: ["sejam cumpridas"],
-        explanation: "An impersonal judgement takes the subjunctive, here passive: \"sejam respeitadas\", agreeing with \"as regras\".",
+        explanation: "An impersonal judgment takes the subjunctive, here passive: \"sejam respeitadas\", agreeing with \"as regras\".",
       },
       {
         type: "translate",
@@ -2225,14 +2229,14 @@ export const PT_B2_U31: Lesson[] = [
         heading: "Parte 1: comprehension",
         body: [
           "This is the last lesson of B2, built like a short Celpe-Bras. Part 1 checks comprehension. Read the extract from a blog post by a Salvador tour guide, then answer. Read with a purpose: who is writing, for whom, and what do they want?",
-          "Watch the writer's moves: a concession (\"isso é ótimo..., mas tem um preço\"), an ongoing process in the passive (\"estão sendo substituídos\") and a wish framed as an unreal condition. Recognising those moves is half of reading at B2.",
+          "Watch the writer's moves: a concession (\"isso é ótimo..., mas tem um preço\"), an ongoing process in the passive (\"estão sendo substituídos\") and a wish framed as an unreal condition. Recognizing those moves is half of reading at B2.",
         ],
         examples: [
           { es: "Sou guia de turismo há quinze anos e nunca vi o Pelourinho tão cheio.", en: "I've been a tour guide for fifteen years and I've never seen Pelourinho so full." },
           { es: "Isso é ótimo para quem vive do turismo, mas tem um preço.", en: "That's great for those who make a living from tourism, but it comes at a price." },
           { es: "Os moradores mais antigos estão sendo substituídos por hóspedes de passagem.", en: "Long-time residents are being replaced by short-stay guests." },
           { es: "Se eu pudesse pedir uma coisa ao visitante, pediria que comprasse do artesão local.", en: "If I could ask visitors one thing, I'd ask them to buy from local craftspeople." },
-          { es: "Assim, o dinheiro do turismo ficaria no bairro.", en: "That way, tourism money would stay in the neighbourhood." },
+          { es: "Assim, o dinheiro do turismo ficaria no bairro.", en: "That way, tourism money would stay in the neighborhood." },
         ],
         checkpoint: [
           {
@@ -2306,12 +2310,12 @@ export const PT_B2_U31: Lesson[] = [
         heading: "Parte 3: the integrated written task",
         body: [
           "The enunciado: \"Você mora em Salvador e leu o post do guia. Escreva um texto para o blog da associação de moradores do seu bairro, convidando os vizinhos para uma feira de artesanato local e explicando por que ela é importante.\" Find the four elements before you write a word.",
-          "The enunciador is a resident, the interlocutors are the neighbours, the purpose is to invite and persuade, and the genre is a blog post: a title, a warm opening, the reason (the guide's idea paraphrased, not copied) and practical details. The register is friendly but written: \"a gente\" works, slang doesn't.",
+          "The enunciador is a resident, the interlocutors are the neighbors, the purpose is to invite and persuade, and the genre is a blog post: a title, a warm opening, the reason (the guide's idea paraphrased, not copied) and practical details. The register is friendly but written: \"a gente\" works, slang doesn't.",
         ],
         examples: [
-          { es: "Feira do Santo Antônio: compre do vizinho!", en: "Santo Antônio Fair: buy from your neighbour!" },
-          { es: "Vizinhos, no próximo sábado vamos realizar a primeira feira de artesanato do bairro.", en: "Neighbours, next Saturday we're holding the neighbourhood's first craft fair." },
-          { es: "Como lembrou um guia de turismo, o dinheiro do visitante só fica no bairro se for gasto aqui.", en: "As a tour guide pointed out, visitors' money only stays in the neighbourhood if it's spent here." },
+          { es: "Feira do Santo Antônio: compre do vizinho!", en: "Santo Antônio Fair: buy from your neighbor!" },
+          { es: "Vizinhos, no próximo sábado vamos realizar a primeira feira de artesanato do bairro.", en: "Neighbors, next Saturday we're holding the neighborhood's first craft fair." },
+          { es: "Como lembrou um guia de turismo, o dinheiro do visitante só fica no bairro se for gasto aqui.", en: "As a tour guide pointed out, visitors' money only stays in the neighborhood if it's spent here." },
           { es: "A feira vai acontecer das nove às dezessete horas, na praça.", en: "The fair will run from nine to five, in the square." },
           { es: "Quem quiser expor seus produtos deve se inscrever até quarta-feira.", en: "Anyone who wants to show their products must sign up by Wednesday." },
         ],
@@ -2320,10 +2324,10 @@ export const PT_B2_U31: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Next Saturday we're holding the neighbourhood's first craft fair.",
+            source: "Next Saturday we're holding the neighborhood's first craft fair.",
             answer: "No próximo sábado vamos realizar a primeira feira de artesanato do bairro.",
             altAnswers: ["No próximo sábado, vamos realizar a primeira feira de artesanato do bairro.", "No próximo sábado a gente vai realizar a primeira feira de artesanato do bairro.", "No próximo sábado, a gente vai realizar a primeira feira de artesanato do bairro.", "No próximo sábado vamos fazer a primeira feira de artesanato do bairro.", "No próximo sábado, vamos fazer a primeira feira de artesanato do bairro.", "No próximo sábado a gente vai fazer a primeira feira de artesanato do bairro.", "No próximo sábado realizaremos a primeira feira de artesanato do bairro.", "No sábado que vem vamos realizar a primeira feira de artesanato do bairro.", "No sábado que vem, vamos realizar a primeira feira de artesanato do bairro."],
-            explanation: "To hold an event is \"realizar\": its real meaning, not to realise. \"Vamos\" + infinitive for a planned future.",
+            explanation: "To hold an event is \"realizar\": its real meaning, not to realize. \"Vamos\" + infinitive for a planned future.",
           },
           {
             type: "fill-blank",
@@ -2336,9 +2340,9 @@ export const PT_B2_U31: Lesson[] = [
           {
             type: "multiple-choice",
             question: "In this task, who is the interlocutor?",
-            options: ["The neighbours who read the residents' association blog.", "The tour guide who wrote the post.", "The city government.", "Tourists visiting Salvador."],
+            options: ["The neighbors who read the residents' association blog.", "The tour guide who wrote the post.", "The city government.", "Tourists visiting Salvador."],
             correctIndex: 0,
-            explanation: "The enunciado says \"para o blog da associação de moradores\", \"convidando os vizinhos\": you write to your neighbours. Writing to the guide would miss the interlocutor.",
+            explanation: "The enunciado says \"para o blog da associação de moradores\", \"convidando os vizinhos\": you write to your neighbors. Writing to the guide would miss the interlocutor.",
           },
         ],
       },
@@ -2353,7 +2357,7 @@ export const PT_B2_U31: Lesson[] = [
           { es: "Deve ser alta temporada, talvez perto do Carnaval.", en: "It must be high season, maybe around Carnival." },
           { es: "É uma boa pergunta. Deixa eu pensar...", en: "That's a good question. Let me think..." },
           { es: "No meu país acontece algo parecido em cidades históricas.", en: "Something similar happens in historic towns in my country." },
-          { es: "Se eu fosse prefeito, limitaria o aluguel por temporada só no centro.", en: "If I were mayor, I'd limit short-term rentals in the centre only." },
+          { es: "Se eu fosse prefeito, limitaria o aluguel por temporada só no centro.", en: "If I were mayor, I'd limit short-term rentals in the center only." },
         ],
         checkpoint: [
           {
@@ -2441,13 +2445,13 @@ export const PT_B2_U31: Lesson[] = [
         en: "He behaves as if he [were] the owner of the place.",
         sentence: "Ele se comporta como se ___ o dono do lugar.",
         answer: "fosse",
-        explanation: "\"Como se\" always takes the imperfect subjunctive, whatever the tense of the main verb.",
+        explanation: "\"Como se\" takes the imperfect subjunctive (or the pluperfect for something earlier), whatever the tense of the main verb.",
       },
       {
         type: "listen-choose",
         audio: "Embora o bairro tenha mudado muito, ainda dá para sentir a alma dele.",
         question: "What does it mean?",
-        options: ["Although the neighbourhood has changed a lot, you can still feel its soul.", "Because the neighbourhood changed, it lost its soul.", "The neighbourhood will change a lot, but keep its soul.", "The neighbourhood hasn't changed at all."],
+        options: ["Although the neighborhood has changed a lot, you can still feel its soul.", "Because the neighborhood changed, it lost its soul.", "The neighborhood will change a lot, but keep its soul.", "The neighborhood hasn't changed at all."],
         correctIndex: 0,
         explanation: "\"Embora\" + perfect subjunctive \"tenha mudado\" concedes a finished change; \"ainda dá para\" means you can still.",
       },
@@ -2477,7 +2481,7 @@ export const PT_B2_U31: Lesson[] = [
 
 export const PT_B2_U31_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Celpe-Bras style task. A Salvador newspaper has reported that the city government (\"a prefeitura\") wants to limit short-term rentals in central neighbourhoods to a fixed number of nights a year. According to the report, rents in the historic centre rose about 40% in two years, many families have moved to the outskirts, and hosts fear losing income. You live in one of these neighbourhoods. Write a reader's letter to the newspaper: refer to the report, state your position with a concession, use information from the report without copying it, imagine how things could have turned out differently, and end with a concrete request.",
+  prompt: "Celpe-Bras style task. A Salvador newspaper has reported that the city government (\"a prefeitura\") wants to limit short-term rentals in central neighborhoods to a fixed number of nights a year. According to the report, rents in the historic center rose about 40% in two years, many families have moved to the outskirts, and hosts fear losing income. You live in one of these neighborhoods. Write a reader's letter to the newspaper: refer to the report, state your position with a concession, use information from the report without copying it, imagine how things could have turned out differently, and end with a concrete request.",
   minWords: 150,
   maxWords: 220,
   rubric: [

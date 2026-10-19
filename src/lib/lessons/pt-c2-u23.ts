@@ -15,7 +15,7 @@ export const PT_C2_U23: Lesson[] = [
       {
         heading: "Which cartório? Notas, registro civil, imóveis",
         body: [
-          "A \"cartório\" is not a government office but a private office run under a public delegation, and there are several kinds. The \"tabelionato de notas\", run by a \"tabelião\" (notary), drafts \"escrituras\" and \"procurações\", recognises signatures and authenticates copies. The \"registro civil das pessoas naturais\" records births, marriages and deaths and issues their \"certidões\". The \"registro de imóveis\" keeps the record of every property. Brazilians call them all \"cartório\", so the first question at a counter is often \"aqui é o cartório de notas ou o de registro civil?\".",
+          "A \"cartório\" is not a government office but a private office run under a public delegation, and there are several kinds. The \"tabelionato de notas\", run by a \"tabelião\" (notary), drafts \"escrituras\" and \"procurações\", recognizes signatures and authenticates copies. The \"registro civil das pessoas naturais\" records births, marriages and deaths and issues their \"certidões\". The \"registro de imóveis\" keeps the record of every property. Brazilians call them all \"cartório\", so the first question at a counter is often \"aqui é o cartório de notas ou o de registro civil?\".",
           "The fees are \"emolumentos\", fixed by a state table, so the same act costs the same in every cartório of a state but not across states. You take a \"senha\" (ticket) and are served by an \"escrevente\" (clerk); only complex acts reach the \"tabelião\" in person. English speakers say \"notário\" from 'notary', and it exists in law, but at the counter everyone says \"tabelião\" or \"cartório\".",
         ],
         examples: [
@@ -56,8 +56,8 @@ export const PT_C2_U23: Lesson[] = [
         heading: "Firma, autenticação and procuração",
         body: [
           "In a cartório \"firma\" means signature, not company. \"Reconhecer firma\" is to have a signature certified. \"Por semelhança\", the clerk compares it with your \"ficha de assinatura\" (signature card) already on file, and you need not be there. \"Por autenticidade\" (also called \"por verdadeiro\"), you sign in front of the clerk, which is required for acts that transfer something of value, such as selling a car. Before either, you must \"abrir firma\": register your signature card at that cartório, with your ID and CPF.",
-          "\"Autenticar\" a copy certifies that the photocopy matches the original: a \"cópia autenticada\" carries a stamp and a security seal. Don't confuse the two: you authenticate a copy and you recognise a signature.",
-          "A \"procuração\" is a power of attorney. The person who grants it is the \"outorgante\", and the person who receives it is the \"outorgado\" or \"procurador\". A \"procuração pública\" is drawn up in the cartório's books (\"lavrada\") and is needed for property and inheritance. A \"procuração particular\" is a private document, usually with the signature recognised. What matters is the powers: \"poderes específicos para vender o imóvel da matrícula 12.345\" works; \"poderes gerais\" may be refused for a sale.",
+          "\"Autenticar\" a copy certifies that the photocopy matches the original: a \"cópia autenticada\" carries a stamp and a security seal. Don't confuse the two: you authenticate a copy and you recognize a signature.",
+          "A \"procuração\" is a power of attorney. The person who grants it is the \"outorgante\", and the person who receives it is the \"outorgado\" or \"procurador\". A \"procuração pública\" is drawn up in the cartório's books (\"lavrada\") and is needed for property and inheritance. A \"procuração particular\" is a private document, usually with the signature recognized. What matters is the powers: \"poderes específicos para vender o imóvel da matrícula 12.345\" works; \"poderes gerais\" may be refused for a sale.",
         ],
         examples: [
           { es: "Preciso reconhecer firma neste contrato de aluguel.", en: "I need to have my signature certified on this rental contract." },
@@ -87,7 +87,7 @@ export const PT_C2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your cousin will sign the sale of your flat for you. Which document does the cartório ask for?",
+            question: "Your cousin will sign the sale of your apartment for you. Which document does the cartório ask for?",
             options: ["Uma procuração pública com poderes específicos para vender o imóvel.", "Uma procuração particular com poderes gerais.", "Uma cópia autenticada do seu passaporte.", "Um atestado assinado pelo seu primo."],
             correctIndex: 0,
             explanation: "A property sale needs a \"procuração pública\" naming the act and the property: \"poderes específicos\". General powers or a private document are routinely refused for a sale.",
@@ -258,11 +258,11 @@ export const PT_C2_U23: Lesson[] = [
           "Each heir's share is a \"quinhão\". Heirs can give up their share (\"renunciar à herança\") or transfer it (\"ceder os direitos hereditários\"), always by public deed. Note the preposition: \"renunciar a\", so \"renunciou à herança\", with the crase.",
         ],
         examples: [
-          { es: "O espólio inclui um apartamento em Belo Horizonte e duas contas bancárias.", en: "The estate includes a flat in Belo Horizonte and two bank accounts." },
+          { es: "O espólio inclui um apartamento em Belo Horizonte e duas contas bancárias.", en: "The estate includes an apartment in Belo Horizonte and two bank accounts." },
           { es: "Pelo testamento, ele deixou a parte disponível para a sobrinha.", en: "In his will, he left the freely disposable half to his niece." },
-          { es: "A metade do apartamento já era dela: é a meação, não herança.", en: "Half of the flat was already hers: that's her marital share, not inheritance." },
+          { es: "A metade do apartamento já era dela: é a meação, não herança.", en: "Half of the apartment was already hers: that's her marital share, not inheritance." },
           { es: "Cada um dos três filhos tem direito a um quinhão igual.", en: "Each of the three children is entitled to an equal share." },
-          { es: "O irmão mais velho renunciou à herança em favor da mãe.", en: "The eldest brother gave up his inheritance in favour of their mother." },
+          { es: "O irmão mais velho renunciou à herança em favor da mãe.", en: "The eldest brother gave up his inheritance in favor of their mother." },
         ],
         checkpoint: [
           {
@@ -302,7 +302,7 @@ export const PT_C2_U23: Lesson[] = [
           { es: "O inventário deve ser aberto no prazo de dois meses a contar do óbito.", en: "The estate proceedings must be opened within two months of the death." },
           { es: "A minha irmã foi nomeada inventariante.", en: "My sister was appointed administrator of the estate." },
           { es: "Sem o inventário, o banco não libera o dinheiro da conta.", en: "Without the estate proceedings, the bank won't release the money in the account." },
-          { es: "O ITCMD em São Paulo é de 4% sobre o valor dos bens.", en: "The inheritance tax in São Paulo is 4% of the value of the assets." },
+          { es: "O ITCMD varia de estado para estado e pode chegar a 8% do valor dos bens.", en: "The inheritance tax varies from state to state and can reach 8% of the value of the assets." },
           { es: "Mesmo no cartório, é obrigatória a presença de um advogado.", en: "Even at the notary's office, a lawyer must be present." },
         ],
         checkpoint: [
@@ -352,7 +352,7 @@ export const PT_C2_U23: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "We can sell the flat, as long as everyone signs.",
+            source: "We can sell the apartment, as long as everyone signs.",
             answer: "Podemos vender o apartamento, desde que todos assinem.",
             altAnswers: ["Podemos vender o apartamento desde que todos assinem.", "Nós podemos vender o apartamento, desde que todos assinem.", "A gente pode vender o apartamento, desde que todo mundo assine.", "Podemos vender o apartamento, contanto que todos assinem.", "Podemos vender o apartamento, desde que todo mundo assine."],
             explanation: "\"Desde que\" meaning as long as takes the subjunctive: \"assinem\". With \"todo mundo\" the verb is singular: \"todo mundo assine\".",
@@ -482,7 +482,7 @@ export const PT_C2_U23: Lesson[] = [
       {
         heading: "Matrícula, escritura, registro: who really owns it",
         body: [
-          "Every property in Brazil has a \"matrícula\" at the \"registro de imóveis\": a numbered file that records each owner, each sale and each \"ônus\" (encumbrance), such as a mortgage (\"hipoteca\"), a court seizure (\"penhora\") or a bank's title as security (\"alienação fiduciária\"). Before anything else, ask for a \"certidão de matrícula atualizada\", sometimes called \"certidão de ônus reais\". It tells you who the owner is on paper, which is not always the person showing you the flat.",
+          "Every property in Brazil has a \"matrícula\" at the \"registro de imóveis\": a numbered file that records each owner, each sale and each \"ônus\" (encumbrance), such as a mortgage (\"hipoteca\"), a court seizure (\"penhora\") or a bank's title as security (\"alienação fiduciária\"). Before anything else, ask for a \"certidão de matrícula atualizada\", sometimes called \"certidão de ônus reais\". It tells you who the owner is on paper, which is not always the person showing you the apartment.",
           "A sale above thirty minimum wages needs an \"escritura pública de compra e venda\", signed at a tabelionato de notas. Here English speakers fall into the classic trap: signing the escritura does not make you the owner. Ownership passes only when the escritura is registered on the matrícula, hence the saying \"quem não registra não é dono\". A \"contrato de gaveta\", a private contract never registered, leaves the buyer exposed to the seller's creditors and heirs.",
         ],
         examples: [
@@ -506,14 +506,14 @@ export const PT_C2_U23: Lesson[] = [
           {
             type: "multiple-choice",
             question: "The seller says: \"Pode ficar tranquilo, o apartamento é meu, só não está no meu nome.\" What should you understand?",
-            options: ["On paper he isn't the owner; check the matrícula before going further.", "He owns the flat and the paperwork is just a formality.", "The flat belongs to the bank until you pay.", "The flat has no matrícula at all."],
+            options: ["On paper he isn't the owner; check the matrícula before going further.", "He owns the apartment and the paperwork is just a formality.", "The flat belongs to the bank until you pay.", "The flat has no matrícula at all."],
             correctIndex: 0,
             explanation: "Whoever is on the matrícula is the legal owner. \"Não está no meu nome\" may mean an unregistered purchase, an unfinished inventário or worse: ask for the \"certidão de matrícula\".",
           },
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The record shows a [mortgage] in favour of the bank.",
+            en: "The record shows a [mortgage] in favor of the bank.",
             sentence: "Na matrícula consta uma ___ em favor do banco.",
             answer: "hipoteca",
             explanation: "\"Hipoteca\" is a mortgage in the strict sense. Most home loans today use \"alienação fiduciária\" instead: the bank holds title until the loan is paid off.",
@@ -524,16 +524,16 @@ export const PT_C2_U23: Lesson[] = [
         heading: "The money: sinal, financiamento, ITBI, corretor",
         body: [
           "A deal usually starts with a \"compromisso de compra e venda\" and a \"sinal\" (deposit), legally the \"arras\". The rule is worth knowing before you hand over a cent: if the buyer backs out, he loses the sinal; if the seller backs out, he returns it doubled, \"em dobro\".",
-          "With a bank loan (\"financiamento\") you pay an \"entrada\" (down payment) and then \"parcelas\" (instalments) over the \"prazo\"; buyers often use their FGTS for the entrada. The bank's contract has \"força de escritura pública\", so no separate escritura is needed. Until the last instalment the property stays \"alienado fiduciariamente\" to the bank. When the loan is \"quitado\" (paid off), the bank issues a \"termo de quitação\" to cancel that note on the matrícula.",
-          "Before registration you pay the \"ITBI\", a municipal transfer tax of around 2-3% of the value. The \"corretor de imóveis\" (estate agent) must have a CRECI number. The \"comissão\" is usually paid by the seller, though everything here is negotiable.",
+          "With a bank loan (\"financiamento\") you pay an \"entrada\" (down payment) and then \"parcelas\" (installments) over the \"prazo\"; buyers often use their FGTS for the entrada. The bank's contract has \"força de escritura pública\", so no separate escritura is needed. Until the last installment the property stays \"alienado fiduciariamente\" to the bank. When the loan is \"quitado\" (paid off), the bank issues a \"termo de quitação\" to cancel that note on the matrícula.",
+          "Before registration you pay the \"ITBI\", a municipal transfer tax of around 2-3% of the value. The \"corretor de imóveis\" (real estate agent) must have a CRECI number. The \"comissão\" is usually paid by the seller, though everything here is negotiable.",
         ],
         examples: [
           { es: "Demos um sinal de 10% na assinatura do compromisso.", en: "We paid a 10% deposit when we signed the purchase agreement." },
           { es: "Se o vendedor desistir, terá que devolver o sinal em dobro.", en: "If the seller backs out, he'll have to pay back the deposit doubled." },
           { es: "Vamos usar o FGTS para dar a entrada.", en: "We're going to use the FGTS fund for the down payment." },
-          { es: "O financiamento é em 360 parcelas.", en: "The loan is repaid in 360 monthly instalments." },
+          { es: "O financiamento é em 360 parcelas.", en: "The loan is repaid in 360 monthly installments." },
           { es: "O ITBI tem que ser pago antes do registro.", en: "The transfer tax has to be paid before registration." },
-          { es: "O corretor tem registro no CRECI?", en: "Is the estate agent registered with the CRECI?" },
+          { es: "O corretor tem registro no CRECI?", en: "Is the real estate agent registered with the CRECI?" },
         ],
         checkpoint: [
           {
@@ -661,8 +661,8 @@ export const PT_C2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your Brazilian partner wants to buy a flat through a \"contrato de gaveta\" because it's cheaper. What's the main risk?",
-        options: ["Without registration, the buyer isn't the legal owner and can lose the flat.", "The tax is higher than with a normal escritura.", "The bank will charge higher interest.", "The agent won't get his commission."],
+        question: "Your Brazilian partner wants to buy an apartment through a \"contrato de gaveta\" because it's cheaper. What's the main risk?",
+        options: ["Without registration, the buyer isn't the legal owner and can lose the apartment.", "The tax is higher than with a normal escritura.", "The bank will charge higher interest.", "The agent won't get his commission."],
         correctIndex: 0,
         explanation: "A \"contrato de gaveta\" stays in a drawer, never registered. The seller remains the owner on paper, exposed to his debts, lawsuits and heirs.",
       },
@@ -692,8 +692,8 @@ export const PT_C2_U23: Lesson[] = [
         pairs: [
           { left: "sinal", right: "deposit" },
           { left: "entrada", right: "down payment on a loan" },
-          { left: "parcela", right: "instalment" },
-          { left: "corretor", right: "estate agent" },
+          { left: "parcela", right: "installment" },
+          { left: "corretor", right: "real estate agent" },
           { left: "matrícula", right: "property's registry file" },
           { left: "ITBI", right: "municipal transfer tax" },
         ],
@@ -723,7 +723,7 @@ export const PT_C2_U23: Lesson[] = [
           { es: "As despesas médicas não têm limite de dedução.", en: "Medical expenses have no ceiling for deductions." },
           { es: "Este ano compensou mais o desconto simplificado.", en: "This year the standard deduction worked out better." },
           { es: "Saí no primeiro lote da restituição!", en: "I got my refund in the first batch!" },
-          { es: "Dá para parcelar o imposto a pagar em até oito quotas.", en: "You can split the tax owed into up to eight instalments." },
+          { es: "Dá para parcelar o imposto a pagar em até oito quotas.", en: "You can split the tax owed into up to eight installments." },
         ],
         checkpoint: [
           {
@@ -738,7 +738,7 @@ export const PT_C2_U23: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Your friend says: \"Saí no terceiro lote.\" What is she telling you?",
-            options: ["She got her tax refund in the third batch.", "She owes tax in three instalments.", "She was audited three times.", "She filed her return on the third day."],
+            options: ["She got her tax refund in the third batch.", "She owes tax in three installments.", "She was audited three times.", "She filed her return on the third day."],
             correctIndex: 0,
             explanation: "Refunds are paid in \"lotes\" over the months after the deadline, and people say \"sair no lote\" when theirs is released.",
           },
@@ -757,7 +757,7 @@ export const PT_C2_U23: Lesson[] = [
         heading: "Malha fina and a pending CPF",
         body: [
           "If the numbers in your return don't match what others reported, the return is held for review: you \"caiu na malha fina\" (literally, fell into the fine mesh). Typical causes are a forgotten second job, a receipt for treatment the doctor never declared, or a dependant who also filed alone. You can see it on the \"e-CAC\" portal under \"pendências\", and fix it by sending a \"declaração retificadora\" before the Receita contacts you, which avoids the heavy \"multa de ofício\".",
-          "Your CPF has a \"situação cadastral\". It should be \"regular\". It becomes \"pendente de regularização\" when a mandatory return wasn't filed, and \"suspensa\" when the registration data don't add up, such as a wrong address or a misspelt name. A CPF that isn't regular blocks surprisingly much: opening a bank account, getting a loan, a passport or sometimes even being hired.",
+          "Your CPF has a \"situação cadastral\". It should be \"regular\". It becomes \"pendente de regularização\" when a mandatory return wasn't filed, and \"suspensa\" when the registration data don't add up, such as a wrong address or a misspelled name. A CPF that isn't regular blocks surprisingly much: opening a bank account, getting a loan, a passport or sometimes even being hired.",
         ],
         examples: [
           { es: "Caí na malha fina por causa de um recibo de dentista.", en: "My return was flagged because of a dentist's receipt." },
@@ -789,7 +789,7 @@ export const PT_C2_U23: Lesson[] = [
           {
             type: "speak",
             text: "Meu CPF está pendente de regularização.",
-            prompt: "Say it in Portuguese: My CPF is pending regularisation.",
+            prompt: "Say it in Portuguese: My CPF is pending regularization.",
             tip: "Say CPF as three letters: cê-pê-efe.",
             explanation: "\"Pendente de regularização\" is the official status shown when a mandatory return is missing.",
           },
@@ -956,7 +956,7 @@ export const PT_C2_U23: Lesson[] = [
         heading: "Who ends it: pedido de demissão, dispensa, acordo",
         body: [
           "\"Demissão\" is the trap: it covers both sides. \"Pedir demissão\" is to resign; \"ser demitido\", \"ser dispensado\" or, in speech, \"ser mandado embora\" is to be dismissed. Contracts and payslips spell out which: \"pedido de demissão\" (the employee's decision), \"dispensa sem justa causa\" (the employer's, with no fault) or \"dispensa por justa causa\" (for serious misconduct listed in the CLT, such as theft or repeated unjustified absence). Note that \"justa causa\" is a legal category, not any reason the boss considers fair.",
-          "Since the 2017 labour reform there is a fourth way, the \"rescisão por acordo\" (or \"distrato\"): both sides agree, and the worker gets half the notice pay, a 20% fine instead of 40%, and 80% of the FGTS, but no unemployment benefit. Whatever the type, the \"rescisão\" (termination) closes the \"contrato de trabalho\" registered in the \"carteira de trabalho\", now digital.",
+          "Since the 2017 labor reform there is a fourth way, the \"rescisão por acordo\" (or \"distrato\"): both sides agree, and the worker gets half the notice pay, a 20% fine instead of 40%, and 80% of the FGTS, but no unemployment benefit. Whatever the type, the \"rescisão\" (termination) closes the \"contrato de trabalho\" registered in the \"carteira de trabalho\", now digital.",
         ],
         examples: [
           { es: "Pedi demissão porque recebi uma proposta melhor.", en: "I resigned because I got a better offer." },
@@ -1015,7 +1015,7 @@ export const PT_C2_U23: Lesson[] = [
             source: "If you resign, you can't withdraw your FGTS.",
             answer: "Quem pede demissão não pode sacar o FGTS.",
             altAnswers: ["Quem pede demissão não saca o FGTS.", "Se você pedir demissão, não pode sacar o FGTS.", "Se você pedir demissão, não pode sacar seu FGTS.", "Se você pedir demissão, não pode sacar o seu FGTS.", "Se você pede demissão, não pode sacar o FGTS.", "Quem pede demissão não consegue sacar o FGTS."],
-            explanation: "General 'you' is often \"quem\" in Portuguese: \"quem pede demissão\". Withdrawing from the fund is \"sacar\", the same verb as at a cash machine.",
+            explanation: "General 'you' is often \"quem\" in Portuguese: \"quem pede demissão\". Withdrawing from the fund is \"sacar\", the same verb as at a ATM.",
           },
           {
             type: "fill-blank",
@@ -1045,8 +1045,8 @@ export const PT_C2_U23: Lesson[] = [
           { es: "Gostaria de solicitar a memória de cálculo da rescisão.", en: "I'd like to request the breakdown of the termination calculation." },
           { es: "No termo não constam as férias vencidas.", en: "The overdue vacation isn't listed on the form." },
           { es: "Preciso que conste no termo o aviso prévio de 48 dias.", en: "I need the form to show the 48 days' notice." },
-          { es: "Ela entrou com uma reclamação trabalhista contra a loja.", en: "She filed a labour claim against the shop." },
-          { es: "O prazo para entrar na Justiça do Trabalho é de dois anos.", en: "The deadline for taking a case to the labour courts is two years." },
+          { es: "Ela entrou com uma reclamação trabalhista contra a loja.", en: "She filed a labor claim against the shop." },
+          { es: "O prazo para entrar na Justiça do Trabalho é de dois anos.", en: "The deadline for taking a case to the labor courts is two years." },
         ],
         checkpoint: [
           {
@@ -1167,7 +1167,7 @@ export const PT_C2_U23: Lesson[] = [
           { left: "aviso prévio", right: "notice period" },
           { left: "verbas rescisórias", right: "termination pay" },
           { left: "seguro-desemprego", right: "unemployment benefit" },
-          { left: "reclamação trabalhista", right: "labour claim" },
+          { left: "reclamação trabalhista", right: "labor claim" },
         ],
         explanation: "\"Demissão\" alone is ambiguous; these set phrases say who ended the contract and what follows.",
       },
@@ -1177,8 +1177,8 @@ export const PT_C2_U23: Lesson[] = [
     slug: "c2-survival-residence",
     level: "PT-C2",
     number: 6,
-    title: "Residence and Naturalisation",
-    summary: "Register with the Polícia Federal, keep your autorização de residência and RNM in order, and prepare a naturalisation request, including the Portuguese requirement.",
+    title: "Residence and Naturalization",
+    summary: "Register with the Polícia Federal, keep your autorização de residência and RNM in order, and prepare a naturalization request, including the Portuguese requirement.",
     duration: "18 min",
     kind: "teach",
     sections: [
@@ -1186,7 +1186,7 @@ export const PT_C2_U23: Lesson[] = [
         heading: "Registering: the Polícia Federal and the RNM",
         body: [
           "A \"visto\" is issued by a Brazilian consulate before you travel; an \"autorização de residência\" is granted in Brazil, under the 2017 \"Lei de Migração\". Either way, the immigration service is the \"Polícia Federal\", and you must complete your \"registro\" there within 90 days of arrival. You book online (\"agendar o atendimento\"), bring your documents, have your fingerprints taken (\"coleta de biometria\") and leave with a \"protocolo\", which serves as your document until the card arrives.",
-          "The card is the \"Carteira de Registro Nacional Migratório\", always called \"o RNM\" (older cards say RNE). Residence may be \"temporária\", for a fixed period, or \"por prazo indeterminado\", open-ended. Watch the English trap: \"permanente\" survives in everyday speech, but the documents say \"prazo indeterminado\". And \"renovar\" a temporary authorisation must be requested before it expires; late registration or renewal carries a daily fine.",
+          "The card is the \"Carteira de Registro Nacional Migratório\", always called \"o RNM\" (older cards say RNE). Residence may be \"temporária\", for a fixed period, or \"por prazo indeterminado\", open-ended. Watch the English trap: \"permanente\" survives in everyday speech, but the documents say \"prazo indeterminado\". And \"renovar\" a temporary authorization must be requested before it expires; late registration or renewal carries a daily fine.",
         ],
         examples: [
           { es: "Você tem 90 dias, a contar da entrada no país, para fazer o registro.", en: "You have 90 days from entering the country to register." },
@@ -1231,7 +1231,7 @@ export const PT_C2_U23: Lesson[] = [
         ],
         examples: [
           { es: "A certidão de antecedentes tem que estar apostilada e traduzida.", en: "The criminal record certificate has to be apostilled and translated." },
-          { es: "Venho, respeitosamente, requerer a renovação da minha autorização de residência.", en: "I respectfully request the renewal of my residence authorisation." },
+          { es: "Venho, respeitosamente, requerer a renovação da minha autorização de residência.", en: "I respectfully request the renewal of my residence authorization." },
           { es: "Nestes termos, peço deferimento.", en: "I hereby request that this application be approved." },
           { es: "Caso o prazo expire, o requerente estará sujeito a multa.", en: "Should the deadline expire, the applicant will be liable to a fine." },
           { es: "O pedido será analisado desde que apresentada a documentação completa.", en: "The request will be examined provided the full documentation is submitted." },
@@ -1242,7 +1242,7 @@ export const PT_C2_U23: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into formal Portuguese.",
-            source: "I respectfully request the renewal of my residence authorisation.",
+            source: "I respectfully request the renewal of my residence authorization.",
             answer: "Venho, respeitosamente, requerer a renovação da minha autorização de residência.",
             altAnswers: ["Venho respeitosamente requerer a renovação da minha autorização de residência.", "Venho, respeitosamente, requerer a renovação de minha autorização de residência.", "Venho requerer, respeitosamente, a renovação da minha autorização de residência.", "Venho, por meio deste, requerer a renovação da minha autorização de residência.", "Venho requerer a renovação da minha autorização de residência."],
             explanation: "\"Venho requerer\" is the ritual opening of a \"requerimento\". \"Requerer\" is irregular in the present (\"requeiro\"), but here it stays in the infinitive after \"venho\".",
@@ -1270,13 +1270,13 @@ export const PT_C2_U23: Lesson[] = [
         heading: "Naturalização and the Portuguese requirement",
         body: [
           "The \"naturalização ordinária\" normally requires four years of residence \"por prazo indeterminado\", reduced to one year if you have a Brazilian child or a Brazilian spouse. You also need no criminal convictions and the ability to \"comunicar-se em língua portuguesa\". The most common proof of Portuguese is the \"Celpe-Bras\" certificate, the exam run by the federal government; a degree from a Brazilian university also counts.",
-          "The request goes online to the \"Ministério da Justiça\", the Polícia Federal checks your fingerprints and documents, and approval comes as a \"portaria\" published in the \"Diário Oficial da União\". At the appointment, expect simple questions about your life here: answer in full sentences, naturally, with no memorised speech.",
+          "The request goes online to the \"Ministério da Justiça\", the Polícia Federal checks your fingerprints and documents, and approval comes as a \"portaria\" published in the \"Diário Oficial da União\". At the appointment, expect simple questions about your life here: answer in full sentences, naturally, with no memorized speech.",
         ],
         examples: [
           { es: "Moro no Brasil há seis anos, com residência por prazo indeterminado.", en: "I've lived in Brazil for six years, with open-ended residence." },
           { es: "Como tenho uma filha brasileira, o prazo cai para um ano.", en: "Since I have a Brazilian daughter, the period drops to one year." },
           { es: "Anexei o certificado do Celpe-Bras como comprovante de proficiência.", en: "I attached my Celpe-Bras certificate as proof of proficiency." },
-          { es: "A naturalização dele saiu no Diário Oficial ontem.", en: "His naturalisation was published in the Official Gazette yesterday." },
+          { es: "A naturalização dele saiu no Diário Oficial ontem.", en: "His naturalization was published in the Official Gazette yesterday." },
           { es: "Há quanto tempo a senhora mora em Porto Alegre?", en: "How long have you lived in Porto Alegre?" },
         ],
         checkpoint: [
@@ -1347,9 +1347,9 @@ export const PT_C2_U23: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: His naturalisation was published in the Official Gazette.",
+        prompt: "Put the words in order to say: His naturalization was published in the Official Gazette.",
         words: ["A", "naturalização", "dele", "saiu", "no", "Diário", "Oficial."],
-        translation: "His naturalisation was published in the Official Gazette.",
+        translation: "His naturalization was published in the Official Gazette.",
         explanation: "\"Sair no Diário Oficial\" is how people say an official act was published.",
       },
       {
@@ -1384,8 +1384,8 @@ export const PT_C2_U23: Lesson[] = [
       {
         type: "speak",
         text: "Gostaria de saber se o protocolo vale como documento para viajar.",
-        prompt: "Ask the officer in Portuguese: I'd like to know whether the receipt counts as a document for travelling.",
-        tip: "Stress the third syllable of \"protocolo\", with an open o: pro-to-CÓ-lo.",
+        prompt: "Ask the officer in Portuguese: I'd like to know whether the receipt counts as a document for traveling.",
+        tip: "Stress the third syllable of \"protocolo\", with an open o: pro-to-CÓ-lu.",
         explanation: "\"Gostaria de saber se\" is the polite indirect question for an official.",
       },
       {
@@ -1415,11 +1415,11 @@ export const PT_C2_U23: Lesson[] = [
       {
         heading: "Where they are, and how they are",
         body: [
-          "Emergencies go to the \"pronto-socorro\" (PS), also called \"emergência\", or to a public \"UPA\". If the doctors keep the patient, they are \"internado\". Careful: \"ele está internado\" means he's in hospital as an in-patient, with nothing of English 'interned'. Then they are placed in the \"enfermaria\" (ward), a \"quarto\" (private room) or the \"UTI\" (intensive care; some hospitals say CTI), each patient in a \"leito\" (hospital bed).",
+          "Emergencies go to the \"pronto-socorro\" (PS), also called \"emergência\", or to a public \"UPA\". If the doctors keep the patient, they are \"internado\". Careful: \"ele está internado\" means he's in the hospital as an in-patient, with nothing of English 'interned'. Then they are placed in the \"enfermaria\" (ward), a \"quarto\" (private room) or the \"UTI\" (intensive care; some hospitals say CTI), each patient in a \"leito\" (hospital bed).",
           "The family hears about progress in the \"boletim médico\", a daily update at a fixed time, often given to one relative only, sometimes by phone. Its fixed phrases: \"estável\" (stable), \"grave\", \"gravíssimo\" (critical), \"fora de perigo\", \"consciente e orientado\" (awake and lucid), \"sedado\", \"intubado\" (on a ventilator), and \"prognóstico reservado\", 'guarded', which is a careful way of saying the outcome is uncertain. The doctor on duty is the \"plantonista\"; the one in charge of the case is the \"médico assistente\".",
         ],
         examples: [
-          { es: "Minha mãe foi internada ontem à noite com pneumonia.", en: "My mother was admitted to hospital last night with pneumonia." },
+          { es: "Minha mãe foi internada ontem à noite com pneumonia.", en: "My mother was admitted to the hospital last night with pneumonia." },
           { es: "Ele saiu da UTI e foi para o quarto.", en: "He's out of intensive care and has gone to a room." },
           { es: "O boletim médico é às 11h, só para um familiar.", en: "The medical update is at 11 a.m., for one relative only." },
           { es: "O quadro é estável, mas o prognóstico ainda é reservado.", en: "His condition is stable, but the outlook is still guarded." },
@@ -1431,10 +1431,10 @@ export const PT_C2_U23: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "My father was admitted to hospital last night.",
+            source: "My father was admitted to the hospital last night.",
             answer: "Meu pai foi internado ontem à noite.",
             altAnswers: ["O meu pai foi internado ontem à noite.", "Meu pai foi internado ontem de noite.", "O meu pai foi internado ontem de noite.", "Meu pai foi hospitalizado ontem à noite.", "Internaram meu pai ontem à noite."],
-            explanation: "Being admitted is \"ser internado\"; being in hospital is \"estar internado\". Both are everyday words, not the English 'interned'.",
+            explanation: "Being admitted is \"ser internado\"; being in the hospital is \"estar internado\". Both are everyday words, not the English 'interned'.",
           },
           {
             type: "multiple-choice",
@@ -1456,13 +1456,13 @@ export const PT_C2_U23: Lesson[] = [
       {
         heading: "Visits, the acompanhante, and consent",
         body: [
-          "Visits follow the \"horário de visita\", and the UTI is stricter: short slots, few people. An \"acompanhante\" is different: a relative or friend who stays with the patient, often overnight. It is a legal right for patients over 60 (\"Estatuto da Pessoa Idosa\"), for children and teenagers, and for women in labour, so a hospital cannot simply refuse it. Insurance-covered stays depend on the \"plano de saúde\": the hospital asks for an \"autorização\" and checks the \"carência\" (waiting period).",
-          "Before surgery, anaesthesia or a transfusion, someone signs a \"termo de consentimento\" (in full, \"termo de consentimento livre e esclarecido\"). If the patient can't sign, the \"responsável\" does. Signing is not a formality: you have the right to ask \"Quais são os riscos?\", \"Existe alguma alternativa?\", \"O que acontece se a gente não fizer?\" and to have the answers in words you understand. \"Esclarecido\" means exactly that: informed.",
+          "Visits follow the \"horário de visita\", and the UTI is stricter: short slots, few people. An \"acompanhante\" is different: a relative or friend who stays with the patient, often overnight. It is a legal right for patients over 60 (\"Estatuto da Pessoa Idosa\"), for children and teenagers, and for women in labor, so a hospital cannot simply refuse it. Insurance-covered stays depend on the \"plano de saúde\": the hospital asks for an \"autorização\" and checks the \"carência\" (waiting period).",
+          "Before surgery, anesthesia or a transfusion, someone signs a \"termo de consentimento\" (in full, \"termo de consentimento livre e esclarecido\"). If the patient can't sign, the \"responsável\" does. Signing is not a formality: you have the right to ask \"Quais são os riscos?\", \"Existe alguma alternativa?\", \"O que acontece se a gente não fizer?\" and to have the answers in words you understand. \"Esclarecido\" means exactly that: informed.",
         ],
         examples: [
           { es: "Como ele tem 78 anos, tem direito a acompanhante.", en: "Since he's 78, he's entitled to have someone stay with him." },
           { es: "Na UTI, a visita é de trinta minutos, duas pessoas por vez.", en: "In intensive care, visits last thirty minutes, two people at a time." },
-          { es: "O plano ainda não autorizou a cirurgia.", en: "The health plan hasn't authorised the surgery yet." },
+          { es: "O plano ainda não autorizou a cirurgia.", en: "The health plan hasn't authorized the surgery yet." },
           { es: "Antes de assinar o termo, quero entender os riscos.", en: "Before signing the consent form, I want to understand the risks." },
           { es: "Existe alguma alternativa à cirurgia?", en: "Is there any alternative to surgery?" },
         ],
@@ -1489,9 +1489,9 @@ export const PT_C2_U23: Lesson[] = [
             type: "listen-choose",
             audio: "O plano ainda não autorizou a cirurgia.",
             question: "What does it mean?",
-            options: ["The health plan hasn't authorised the surgery yet.", "The surgery plan has been cancelled.", "The surgeon hasn't arrived yet.", "The plan is to operate tomorrow."],
+            options: ["The health plan hasn't authorized the surgery yet.", "The surgery plan has been canceled.", "The surgeon hasn't arrived yet.", "The plan is to operate tomorrow."],
             correctIndex: 0,
-            explanation: "\"O plano\" here is short for \"plano de saúde\", the health insurance, which must authorise most procedures.",
+            explanation: "\"O plano\" here is short for \"plano de saúde\", the health insurance, which must authorize most procedures.",
           },
         ],
       },
@@ -1621,7 +1621,7 @@ export const PT_C2_U23: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "pronto-socorro", right: "A&E, emergency room" },
+          { left: "pronto-socorro", right: "emergency room, ER" },
           { left: "internação", right: "hospital admission" },
           { left: "leito", right: "hospital bed" },
           { left: "plantonista", right: "doctor on duty" },
@@ -1645,13 +1645,13 @@ export const PT_C2_U23: Lesson[] = [
         heading: "At the scene and the boletim de ocorrência",
         body: [
           "The spoken words for an accident are blunt: \"bati o carro\" (I crashed the car), \"bateram na minha traseira\" (someone hit me from behind), \"fui fechado\" (I was cut off), \"o outro motorista avançou o sinal\" (ran the red light). If anyone is hurt, call the \"SAMU\" (192) and the \"Polícia Militar\" (190), and don't move the injured.",
-          "If no one is hurt, take photos and note the other party's details: name, CPF, \"CNH\" (driving licence), \"placa\" (number plate) and insurer. In insurance language the other driver is the \"terceiro\" (the third party). Then file a \"boletim de ocorrência\" (BO), which many states let you do online at the \"delegacia eletrônica\". The BO is a statement of what you say happened, not a finding of fault, so write it carefully: order, place, time, what each car was doing.",
+          "If no one is hurt, take photos and note the other party's details: name, CPF, \"CNH\" (driver's license), \"placa\" (license plate) and insurer. In insurance language the other driver is the \"terceiro\" (the third party). Then file a \"boletim de ocorrência\" (BO), which many states let you do online at the \"delegacia eletrônica\". The BO is a statement of what you say happened, not a finding of fault, so write it carefully: order, place, time, what each car was doing.",
         ],
         examples: [
-          { es: "Bateram na minha traseira no semáforo da Avenida Paulista.", en: "Someone rear-ended me at the lights on Avenida Paulista." },
+          { es: "Bateram na minha traseira no semáforo da Avenida Paulista.", en: "Someone rear-ended me at the light on Avenida Paulista." },
           { es: "O outro motorista avançou o sinal vermelho.", en: "The other driver ran the red light." },
           { es: "Houve vítimas? Não, só danos materiais.", en: "Was anyone hurt? No, only damage to the cars." },
-          { es: "Anotei a placa, a CNH e a seguradora do terceiro.", en: "I noted the other party's number plate, licence and insurer." },
+          { es: "Anotei a placa, a CNH e a seguradora do terceiro.", en: "I noted the other party's license plate, license and insurer." },
           { es: "Fiz o boletim de ocorrência pela delegacia eletrônica.", en: "I filed the police report online." },
         ],
         checkpoint: [
@@ -1659,18 +1659,18 @@ export const PT_C2_U23: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Someone hit me from behind at the lights.",
+            source: "Someone hit me from behind at the light.",
             answer: "Bateram na minha traseira no semáforo.",
             altAnswers: ["Bateram na traseira do meu carro no semáforo.", "Um carro bateu na minha traseira no semáforo.", "Bateram atrás de mim no semáforo.", "Bateram no meu carro por trás no semáforo.", "Bateram na minha traseira no sinal."],
-            explanation: "The impersonal third person plural (\"bateram\") is how Brazilians say someone did something. \"Traseira\" is the back of the car; in many cities the lights are \"o sinal\".",
+            explanation: "The impersonal third person plural (\"bateram\") is how Brazilians say someone did something. \"Traseira\" is the back of the car; in many cities traffic lights are \"o sinal\".",
           },
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "I noted the [number plate] of the other car.",
+            en: "I noted the [license plate] of the other car.",
             sentence: "Anotei a ___ do outro carro.",
             answer: "placa",
-            explanation: "A number plate is a \"placa\". The other car's driver is the \"terceiro\" in your insurer's vocabulary.",
+            explanation: "A license plate is a \"placa\". The other car's driver is the \"terceiro\" in your insurer's vocabulary.",
           },
           {
             type: "speak",
@@ -1690,7 +1690,7 @@ export const PT_C2_U23: Lesson[] = [
         examples: [
           { es: "Gostaria de comunicar um sinistro. O número da apólice é este.", en: "I'd like to report a claim. This is the policy number." },
           { es: "Quanto é a franquia do meu seguro?", en: "How much is the deductible on my policy?" },
-          { es: "Preciso de um guincho na Rodovia dos Bandeirantes, quilômetro 42.", en: "I need a tow truck on the Bandeirantes highway, kilometre 42." },
+          { es: "Preciso de um guincho na Rodovia dos Bandeirantes, quilômetro 42.", en: "I need a tow truck on the Bandeirantes highway, kilometer 42." },
           { es: "A culpa foi do outro motorista, então vou acionar o seguro dele.", en: "The other driver was at fault, so I'm going to claim on his insurance." },
           { es: "Se eu usar o seguro, perco o bônus na renovação?", en: "If I make a claim, will I lose my no-claims discount at renewal?" },
           { es: "O prêmio do seguro subiu 15% este ano.", en: "The insurance premium went up 15% this year." },
@@ -1734,7 +1734,7 @@ export const PT_C2_U23: Lesson[] = [
           { es: "A indenização é calculada pela tabela FIPE.", en: "The payout is calculated from the FIPE price table." },
           { es: "Venho solicitar informações sobre o andamento do sinistro.", en: "I'm writing to ask about the progress of my claim." },
           { es: "Caso a indenização não seja paga no prazo, recorrerei à SUSEP.", en: "Should the payout not be made on time, I will take the matter to the SUSEP." },
-          { es: "Entreguei toda a documentação no dia 3 de março.", en: "I handed in all the documents on 3 March." },
+          { es: "Entreguei toda a documentação no dia 3 de março.", en: "I handed in all the documents on March 3." },
         ],
         checkpoint: [
           {
@@ -1829,7 +1829,7 @@ export const PT_C2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your Brazilian neighbour says: \"Tive um sinistro com o carro semana passada.\" What happened?",
+        question: "Your Brazilian neighbor says: \"Tive um sinistro com o carro semana passada.\" What happened?",
         options: ["She had an incident with the car that she claimed on her insurance.", "She saw something sinister in her car.", "She bought a new car.", "She failed her driving test."],
         correctIndex: 0,
         explanation: "\"Sinistro\" is the insurance word for the event: an accident, a theft, a flood. As an adjective it can mean sinister, but not here.",
@@ -1874,7 +1874,7 @@ export const PT_C2_U23: Lesson[] = [
     level: "PT-C2",
     number: 9,
     title: "Dialogue Lab: A Partilha",
-    summary: "Three siblings in Salvador and their lawyer divide their late father's estate: a house one sister wants to keep, a flat, savings and a car, with grief, tension and the language that gets them to an agreement.",
+    summary: "Three siblings in Salvador and their lawyer divide their late father's estate: a house one sister wants to keep, an apartment, savings and a car, with grief, tension and the language that gets them to an agreement.",
     duration: "18 min",
     kind: "reinforce",
     format: "Dialogue Lab",
@@ -1882,7 +1882,7 @@ export const PT_C2_U23: Lesson[] = [
       {
         heading: "The lawyer lays out the options",
         body: [
-          "Seu Jorge died six weeks ago in Salvador, a widower. His children, Marta, Paulo and Renata, meet his lawyer, Dra. Cláudia Menezes. The estate: the house in Rio Vermelho where Marta lived and cared for him, a rented flat in Pituba, a car and some savings. There is no will, and all three are adults, so if they agree the inventário can be done at a cartório, in weeks.",
+          "Seu Jorge died six weeks ago in Salvador, a widower. His children, Marta, Paulo and Renata, meet his lawyer, Dra. Cláudia Menezes. The estate: the house in Rio Vermelho where Marta lived and cared for him, a rented apartment in Pituba, a car and some savings. There is no will, and all three are adults, so if they agree the inventário can be done at a cartório, in weeks.",
           "Dra. Cláudia opens with condolences, then goes straight to the clock: \"O prazo de dois meses vence daqui a duas semanas.\" Notice how she marks the condition that everything depends on, \"desde que vocês estejam de acordo\", and how she glosses each term the first time: \"o quinhão, ou seja, a parte de cada um\". The siblings, still grieving, call their father \"o painho\", the affectionate Bahian word for dad; to the lawyer he is \"o seu Jorge\" or \"o pai de vocês\", never \"o falecido\".",
         ],
         examples: [
@@ -1965,7 +1965,7 @@ export const PT_C2_U23: Lesson[] = [
       {
         heading: "Closing the deal: conditions and next steps",
         body: [
-          "The agreement: Marta keeps the house and will be the \"inventariante\". Paulo gets the flat, and Renata the savings and the car plus a sum from Marta to balance the shares. Marta insists on one point, in the formula you know: \"Preciso que conste na escritura que eu vou pagar a diferença em seis meses.\" The lawyer agrees, with a safeguard: \"desde que conste também o que acontece caso o pagamento atrase\".",
+          "The agreement: Marta keeps the house and will be the \"inventariante\". Paulo gets the apartment, and Renata the savings and the car plus a sum from Marta to balance the shares. Marta insists on one point, in the formula you know: \"Preciso que conste na escritura que eu vou pagar a diferença em seis meses.\" The lawyer agrees, with a safeguard: \"desde que conste também o que acontece caso o pagamento atrase\".",
           "The lawyer then lists the papers in the impersonal style of instructions: \"vão ser necessárias\" the death certificate, the children's birth certificates, the updated matrículas, the certidões negativas, and the ITCMD paid before the deed. Her final line combines a deadline and a condition: \"Uma vez recolhido o imposto, a gente marca a escritura no prazo de uma semana.\"",
         ],
         examples: [
@@ -2082,7 +2082,7 @@ export const PT_C2_U23: Lesson[] = [
         type: "speak",
         text: "Eu cuidei do meu pai dez anos nessa casa. Não é só uma questão de dinheiro.",
         prompt: "Say Marta's line in Portuguese: I looked after my father for ten years in that house. It's not just about money.",
-        tip: "\"Questão\" has a silent u: KES-tão.",
+        tip: "\"Questão\" has a silent u, and the stress falls on the end: kes-TÃO.",
         explanation: "Duration with a completed past action uses the pretérito perfeito plus the time: \"cuidei dez anos\".",
       },
       {
@@ -2116,7 +2116,7 @@ export const PT_C2_U23: Lesson[] = [
           "Contracts call themselves \"o presente instrumento\" (this document). \"Poderá ser rescindido por qualquer das partes mediante aviso prévio de 30 dias\" means either side can end it by giving 30 days' notice. \"Salvo disposição em contrário\" means unless agreed otherwise. And \"fica eleito o foro da Comarca de Curitiba\" is the jurisdiction clause: if it comes to a dispute, the case is heard in Curitiba. The test of a good plain version: someone with no legal training could act on it.",
         ],
         examples: [
-          { es: "Nomeia e constitui seu bastante procurador o Sr. Rafael Lima.", en: "Hereby appoints Mr Rafael Lima as his attorney. (Plain: \"Dá ao Rafael o poder de agir em nome dele.\")" },
+          { es: "Nomeia e constitui seu bastante procurador o Sr. Rafael Lima.", en: "Hereby appoints Mr. Rafael Lima as his attorney. (Plain: \"Dá ao Rafael o poder de agir em nome dele.\")" },
           { es: "Com poderes para o fim especial de vender o imóvel.", en: "With powers for the specific purpose of selling the property. (Plain: \"Só para vender o imóvel.\")" },
           { es: "Podendo, para tanto, receber valores e dar quitação.", en: "Being able, to that end, to receive money and give a receipt. (Plain: \"Ele pode receber o dinheiro e dar recibo.\")" },
           { es: "O presente instrumento poderá ser rescindido mediante aviso prévio de 30 dias.", en: "This agreement may be terminated with 30 days' notice. (Plain: \"Dá para cancelar avisando com 30 dias de antecedência.\")" },
@@ -2160,10 +2160,10 @@ export const PT_C2_U23: Lesson[] = [
         ],
         examples: [
           { es: "O imóvel é vendido livre e desembaraçado de quaisquer ônus.", en: "The property is sold free of all encumbrances. (Plain: \"Não tem hipoteca, penhora nem dívida.\")" },
-          { es: "Pagou R$ 50 mil a título de sinal e princípio de pagamento.", en: "He paid 50,000 reais as a deposit and first instalment. (Plain: \"Deu 50 mil de sinal.\")" },
+          { es: "Pagou R$ 50 mil a título de sinal e princípio de pagamento.", en: "He paid 50,000 reais as a deposit and first installment. (Plain: \"Deu 50 mil de sinal.\")" },
           { es: "O prazo é improrrogável.", en: "The deadline cannot be extended. (Plain: \"Não dá para pedir mais tempo.\")" },
           { es: "O não comparecimento implicará o arquivamento do pedido.", en: "Failure to attend will result in the request being closed. (Plain: \"Se você não for, o pedido é arquivado.\")" },
-          { es: "Sob pena de multa diária, regularize sua situação em 15 dias.", en: "Regularise your situation within 15 days or face a daily fine. (Plain: \"Você tem 15 dias para resolver, senão paga multa por dia.\")" },
+          { es: "Sob pena de multa diária, regularize sua situação em 15 dias.", en: "Regularize your situation within 15 days or face a daily fine. (Plain: \"Você tem 15 dias para resolver, senão paga multa por dia.\")" },
         ],
         checkpoint: [
           {
@@ -2173,7 +2173,7 @@ export const PT_C2_U23: Lesson[] = [
             source: "If you don't turn up, they'll close your request.",
             answer: "Se você não for, o pedido vai ser arquivado.",
             altAnswers: ["Se você não comparecer, o pedido vai ser arquivado.", "Se você não for, o pedido é arquivado.", "Se você não aparecer, o pedido vai ser arquivado.", "Se você faltar, o pedido vai ser arquivado.", "Se você não for, eles arquivam o pedido.", "Se você não for, vão arquivar o pedido."],
-            explanation: "Plain Portuguese turns the nominalisation (\"o não comparecimento\") into a verb with a subject: \"se você não for\". The consequence stays exact.",
+            explanation: "Plain Portuguese turns the nominalization (\"o não comparecimento\") into a verb with a subject: \"se você não for\". The consequence stays exact.",
           },
           {
             type: "multiple-choice",
@@ -2239,7 +2239,7 @@ export const PT_C2_U23: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Explain in plain Portuguese.",
-        source: "The power of attorney is only for selling the flat.",
+        source: "The power of attorney is only for selling the apartment.",
         answer: "A procuração é só para vender o apartamento.",
         altAnswers: ["A procuração serve só para vender o apartamento.", "A procuração vale só para vender o apartamento.", "A procuração é apenas para vender o apartamento.", "A procuração só serve para vender o apartamento.", "A procuração só vale para a venda do apartamento."],
         explanation: "This is the plain sense of \"com poderes para o fim especial de vender\": a specific power, for one act.",
@@ -2347,15 +2347,15 @@ export const PT_C2_U23: Lesson[] = [
       {
         heading: "Certidão, certificado or atestado?",
         body: [
-          "English says certificate for all three, so learners pick at random. A \"certidão\" is issued by a public registry or authority and certifies what its records say: \"certidão de nascimento\", \"de casamento\", \"de óbito\", \"de matrícula\", \"negativa de débitos\". A \"certificado\" proves that you completed or hold something: \"certificado de conclusão de curso\", \"certificado do Celpe-Bras\", \"certificado de naturalização\", \"certificado digital\". An \"atestado\" is a professional's statement about a fact they observed, above all the \"atestado médico\" (sick note) that justifies an absence from work.",
+          "English says certificate for all three, so learners pick at random. A \"certidão\" is issued by a public registry or authority and certifies what its records say: \"certidão de nascimento\", \"de casamento\", \"de óbito\", \"de matrícula\", \"negativa de débitos\". A \"certificado\" proves that you completed or hold something: \"certificado de conclusão de curso\", \"certificado do Celpe-Bras\", \"certificado de naturalização\", \"certificado digital\". An \"atestado\" is a professional's statement about a fact they observed, above all the \"atestado médico\" (doctor's note) that justifies an absence from work.",
           "So \"*certificado de nascimento\" is a calque of 'birth certificate', and \"*certidão médica\" doesn't exist. Death shows the difference neatly. The doctor signs the \"declaração de óbito\", which people still often call the \"atestado de óbito\". The cartório then issues the \"certidão de óbito\", the document every bank and every inventário asks for.",
         ],
         examples: [
           { es: "Errado: Preciso do certificado de nascimento da minha filha. Certo: Preciso da certidão de nascimento da minha filha.", en: "I need my daughter's birth certificate." },
-          { es: "Errado: Entreguei a certidão médica no RH. Certo: Entreguei o atestado médico no RH.", en: "I handed my sick note in to HR." },
+          { es: "Errado: Entreguei a certidão médica no RH. Certo: Entreguei o atestado médico no RH.", en: "I handed my doctor's note in to HR." },
           { es: "Errado: Ganhei uma certidão no fim do curso de inglês. Certo: Ganhei um certificado no fim do curso de inglês.", en: "I got a certificate at the end of my English course." },
           { es: "O banco pediu a certidão de óbito, não o atestado do hospital.", en: "The bank asked for the death certificate, not the hospital's statement." },
-          { es: "A empresa exige certidão negativa de débitos trabalhistas.", en: "The company requires a certificate showing no outstanding labour debts." },
+          { es: "A empresa exige certidão negativa de débitos trabalhistas.", en: "The company requires a certificate showing no outstanding labor debts." },
         ],
         checkpoint: [
           {
@@ -2370,7 +2370,7 @@ export const PT_C2_U23: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "I was off work for three days with a [sick note].",
+            en: "I was off work for three days with a [doctor's note].",
             sentence: "Faltei três dias com ___.",
             answer: "atestado médico",
             altAnswers: ["atestado"],
@@ -2433,7 +2433,7 @@ export const PT_C2_U23: Lesson[] = [
         heading: "Vague requests and gerundismo",
         body: [
           "A vague request gets a vague answer. \"Queria ver aquele negócio do inventário do meu pai\" forces the clerk to guess. A precise one names the act, the person and the purpose: \"Gostaria de saber quais documentos são necessários para o inventário extrajudicial do meu pai, falecido em março.\" In writing, add the reference number: \"Solicito informações sobre o andamento do processo nº 1234\", not \"vocês podem dar uma olhada no meu caso?\".",
-          "Two style faults make a request sound like a call centre. \"Gerundismo\" (\"*vou estar enviando\", \"*vamos estar verificando\") replaces a simple future with three words; write \"envio\", \"vou enviar\" or \"enviarei\". Inflated chains (\"*venho, por meio desta, mui respeitosamente, solicitar humildemente\") bury the point. One formula is enough.",
+          "Two style faults make a request sound like a call center. \"Gerundismo\" (\"*vou estar enviando\", \"*vamos estar verificando\") replaces a simple future with three words; write \"envio\", \"vou enviar\" or \"enviarei\". Inflated chains (\"*venho, por meio desta, mui respeitosamente, solicitar humildemente\") bury the point. One formula is enough.",
         ],
         examples: [
           { es: "Errado: Queria ver aquele negócio do inventário. Certo: Gostaria de saber quais documentos são necessários para o inventário.", en: "I'd like to know which documents are needed for the inventory." },
@@ -2537,7 +2537,7 @@ export const PT_C2_U23: Lesson[] = [
         type: "listen-choose",
         audio: "Entreguei o atestado médico no RH.",
         question: "What does it mean?",
-        options: ["I handed my sick note in to HR.", "I handed my medical certificate of fitness to the gym.", "I gave HR my birth certificate.", "I asked HR for a medical appointment."],
+        options: ["I handed my doctor's note in to HR.", "I handed my medical certificate of fitness to the gym.", "I gave HR my birth certificate.", "I asked HR for a medical appointment."],
         correctIndex: 0,
         explanation: "The \"atestado médico\" is the doctor's note that justifies an absence from work.",
       },
@@ -2611,7 +2611,7 @@ export const PT_C2_U23: Lesson[] = [
             type: "listen-choose",
             audio: "Pelo e-Notariado, a procuração é feita por videoconferência.",
             question: "What does it mean?",
-            options: ["Through the e-Notariado, the power of attorney is done by video call.", "The e-Notariado sends the power of attorney by post.", "The power of attorney must be signed in person at the consulate.", "The e-Notariado only checks the documents online."],
+            options: ["Through the e-Notariado, the power of attorney is done by video call.", "The e-Notariado sends the power of attorney by mail.", "The power of attorney must be signed in person at the consulate.", "The e-Notariado only checks the documents online."],
             correctIndex: 0,
             explanation: "The e-Notariado lets a Brazilian notary draw up acts by video call, with a digital certificate.",
           },
@@ -2668,7 +2668,7 @@ export const PT_C2_U23: Lesson[] = [
         ],
         examples: [
           { es: "Oi, mano, sei que você está segurando tudo aí sozinho.", en: "Hi, bro, I know you're holding everything together on your own over there." },
-          { es: "Amanhã vou ao consulado fazer a procuração e te mando o traslado pelo correio.", en: "Tomorrow I'm going to the consulate to do the power of attorney, and I'll post you the certified copy." },
+          { es: "Amanhã vou ao consulado fazer a procuração e te mando o traslado pelo correio.", en: "Tomorrow I'm going to the consulate to do the power of attorney, and I'll mail you the certified copy." },
           { es: "Se o cartório pedir mais algum dado, me avisa que eu resolvo daqui.", en: "If the notary's office asks for any more details, let me know and I'll sort it out from here." },
           { es: "Caso o banco não aceite a procuração, pede para falar com o gerente.", en: "If the bank doesn't accept the power of attorney, ask to speak to the manager." },
           { es: "Assim que você tiver a data da escritura, me conta.", en: "As soon as you have the date for the deed, let me know." },
@@ -2801,7 +2801,7 @@ export const PT_C2_U23: Lesson[] = [
 
 export const PT_C2_U23_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your father has died in Belo Horizonte, and you and your two siblings have agreed to settle the estate (a flat and a bank account) at a cartório. You are the inventariante, but you live in Lisbon. Write two texts. First, a formal email to the tabelionato de notas: ask which documents they need, request that a specific point appear in the escritura, and set out what you need from them and by when. Second, a short message to your siblings explaining in plain, warm Portuguese what happens next, what each of them must send and the deadlines.",
+  prompt: "Your father has died in Belo Horizonte, and you and your two siblings have agreed to settle the estate (an apartment and a bank account) at a cartório. You are the inventariante, but you live in Lisbon. Write two texts. First, a formal email to the tabelionato de notas: ask which documents they need, request that a specific point appear in the escritura, and set out what you need from them and by when. Second, a short message to your siblings explaining in plain, warm Portuguese what happens next, what each of them must send and the deadlines.",
   minWords: 250,
   maxWords: 400,
   rubric: [

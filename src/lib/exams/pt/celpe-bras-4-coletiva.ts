@@ -60,7 +60,7 @@ export const CELPE_BRAS_4_COLETIVA: ExamPaper = {
           maxWords: 250,
           rubric: [
             "\"Adequação ao contexto\": an opinion piece for the student newspaper, by a student, addressed to fellow students thinking of doing app deliveries",
-            "Uses the report on both sides: flexibility and quick income against the costs paid by the rider, twelve-hour days, no holidays, no 13th salary, no accident insurance, no pension",
+            "Uses the report on both sides: flexibility and quick income against the costs paid by the rider, twelve-hour days, no paid vacation, no 13th salary, no accident insurance, no pension",
             "Takes a clear, reasoned position and relates it to students' lives (classes, exams, building a career)",
             "\"Adequação discursiva\": a title, an introduction that sets out the question, arguments in paragraphs, a conclusion with your position and your name",
             "\"Adequação linguística\": argument connectors (\"é verdade que … mas\", \"além disso\", \"por isso\", \"na minha opinião\"), rhetorical questions, a neutral, correct register",
@@ -161,9 +161,9 @@ export const CELPE_BRAS_4_COLETIVA: ExamPaper = {
           minWords: 150,
           maxWords: 250,
           rubric: [
-            "\"Adequação ao contexto\": a professional e-mail from a team coordinator to the HR director, a colleague he knows: respectful, well argued, constructive",
+            "\"Adequação ao contexto\": a professional e-mail from a team coordinator to the HR director, a colleague the writer knows: respectful, well argued, constructive",
             "Uses the text: the 100-80-100 model, the results of the Brazilian trial (productivity kept or up, less stress, fewer resignations and sick days), the changes it required",
-            "Anticipates the objections the text mentions (customer service on Fridays, managers following the team) and answers them with the text's solutions (rotas, a trial period, clear targets, staff involvement)",
+            "Anticipates the objections the text mentions (customer service on Fridays, managers following the team) and answers them with the text's solutions (rotating schedules, a trial period, clear targets, staff involvement)",
             "\"Adequação discursiva\": a subject line, the problem that motivates the proposal, the arguments, the objections answered, a concrete proposal and a next step",
             "\"Adequação linguística\": a professional register (\"gostaria de propor\", \"seria necessário\"), the conditional and the subjunctive (\"para que houvesse\"), accurate figures and terms",
           ],

@@ -256,7 +256,7 @@ export const DALF_C2_CO: ExamPaper = {
         },
         {
           n: 14,
-          question: "Quelle conclusion tire-t-il de l'entretien ?",
+          question: "Quelle conclusion tire-t-il à la fin de l'entretien ?",
           options: [
             "Il faut faire remonter la natalité coûte que coûte.",
             "Le vieillissement est une fatalité contre laquelle on ne peut rien.",

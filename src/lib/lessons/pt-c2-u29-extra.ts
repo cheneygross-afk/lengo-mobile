@@ -9,7 +9,7 @@ export const PT_C2_U29_EXTRA: Lesson[] = [
     level: "PT-C2",
     number: 1,
     title: "Extra Practice: Word Formation, Part 1 of 3",
-    summary: "Practise the hyphen with prefixes and compounds: anti-inflamatório, autoescola, antirrugas, ex-, recém-, pós-, fim de semana, cor-de-rosa, bem-te-vi, guarda-chuva.",
+    summary: "Practice the hyphen with prefixes and compounds: anti-inflamatório, autoescola, antirrugas, ex-, recém-, pós-, fim de semana, cor-de-rosa, bem-te-vi, guarda-chuva.",
     duration: "15 min",
     optional: true,
     kind: "drill",
@@ -131,7 +131,7 @@ export const PT_C2_U29_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "She wants to fill in the form before Monday.",
+        source: "She wants to fill out the form before Monday.",
         answer: "Ela quer preencher o formulário antes de segunda-feira.",
         altAnswers: ["Ela quer preencher o formulário antes da segunda-feira.", "Ela quer preencher o formulário antes de segunda."],
         explanation: "Unstressed \"pre\" joins: \"preencher\". \"Segunda-feira\" keeps its hyphen.",
@@ -139,7 +139,7 @@ export const PT_C2_U29_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The [windscreen] cracked in the cold.",
+        en: "The [windshield] cracked in the cold.",
         sentence: "O ___ rachou com o frio.",
         answer: "para-brisa",
         explanation: "The \"para-\" car parts keep the hyphen: \"para-brisa\", \"para-choque\".",
@@ -179,7 +179,7 @@ export const PT_C2_U29_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "O super-homem do filme é um ex-jogador de futebol.",
-        prompt: "Say it in Portuguese: The superman in the film is a former footballer.",
+        prompt: "Say it in Portuguese: The superman in the movie is a former soccer player.",
         tip: "The h of \"homem\" is silent, but in writing it is why there is a hyphen.",
         explanation: "\"Super-\" + h and \"ex-\" both take a hyphen.",
       },
@@ -190,7 +190,7 @@ export const PT_C2_U29_EXTRA: Lesson[] = [
     level: "PT-C2",
     number: 2,
     title: "Extra Practice: Word Formation, Part 2 of 3",
-    summary: "Practise compound plurals (couves-flores, guarda-chuvas, guardas-noturnos, pés de moleque, os sem-terra, as ONGs) and compound adjectives (luso-brasileiras, verde-claros, azul-marinho).",
+    summary: "Practice compound plurals (couves-flores, guarda-chuvas, guardas-noturnos, pés de moleque, os sem-terra, as ONGs) and compound adjectives (luso-brasileiras, verde-claros, azul-marinho).",
     duration: "15 min",
     optional: true,
     kind: "drill",
@@ -199,7 +199,7 @@ export const PT_C2_U29_EXTRA: Lesson[] = [
         heading: "Plurals and compound adjectives in brief",
         body: [
           "Plurals: nouns, adjectives and numerals vary; verbs, adverbs and prefixes don't (\"couves-flores\", \"segundas-feiras\", \"guarda-chuvas\", \"abaixo-assinados\", \"vice-presidentes\"). \"Guarda\" as a person varies: \"guardas-noturnos\". With a preposition, only the first element varies (\"pés de moleque\", \"águas-de-colônia\"). \"Sem-terra\" and \"sem-teto\" are invariable. Siglas take a lowercase s and no apostrophe: \"as ONGs\".",
-          "Compound adjectives: only the last element agrees (\"relações luso-brasileiras\", \"olhos verde-claros\"). Colour + noun is invariable (\"camisas verde-limão\"), and so are \"azul-marinho\", \"azul-celeste\" and \"cor-de-rosa\".",
+          "Compound adjectives: only the last element agrees (\"relações luso-brasileiras\", \"olhos verde-claros\"). Color + noun is invariable (\"camisas verde-limão\"), and so are \"azul-marinho\", \"azul-celeste\" and \"cor-de-rosa\".",
         ],
         examples: [
           { es: "Os porta-vozes deram entrevistas separadas.", en: "The spokespeople gave separate interviews." },
@@ -320,7 +320,7 @@ export const PT_C2_U29_EXTRA: Lesson[] = [
         en: "The team wore [golden yellow] shirts.",
         sentence: "O time usou camisas ___.",
         answer: "amarelo-ouro",
-        explanation: "Colour + noun: invariable.",
+        explanation: "Color + noun: invariable.",
       },
       {
         type: "fill-blank",
@@ -368,7 +368,7 @@ export const PT_C2_U29_EXTRA: Lesson[] = [
     level: "PT-C2",
     number: 3,
     title: "Extra Practice: Word Formation, Part 3 of 3",
-    summary: "Practise learned roots (-logia, -cracia, -fobia, -cida, -voro, hidro-, termo-, tele-, poli-), attitude suffixes (-ice, -ada, -udo, -aço, -eco) and new words (viralizar, printar, maratonar, textão).",
+    summary: "Practice learned roots (-logia, -cracia, -fobia, -cida, -voro, hidro-, termo-, tele-, poli-), attitude suffixes (-ice, -ada, -udo, -aço, -eco) and new words (viralizar, printar, maratonar, textão).",
     duration: "15 min",
     optional: true,
     kind: "drill",
@@ -377,7 +377,7 @@ export const PT_C2_U29_EXTRA: Lesson[] = [
         heading: "Roots, suffixes and new words in brief",
         body: [
           "Roots: \"-logia\" (field) with \"-logo\" or \"-logista\" (person: \"biólogo\", \"cardiologista\"); \"-cracia\" / \"-crata\" / \"-crático\"; \"-fobia\" (fear or hostility) vs \"-filia\" / \"-filo\" (love); \"-cida\" (killer) and \"-cídio\" (killing); \"-voro\" (eater). Prefixes: \"hidro-\" water, \"termo-\" heat, \"tele-\" distance, \"poli-\" many. Instrument words in \"-metro\" are stressed on the third-last syllable: \"termômetro\".",
-          "Attitude: \"-ice\" mocks a behaviour (\"chatice\", \"criancice\"), \"-udo\" means having a lot of (\"sortudo\"), \"-ada\" makes collectives, blows and blunders (\"criançada\", \"cabeçada\", \"mancada\"), \"-aço\" admires (\"golaço\"), \"-eco\" belittles (\"livreco\"). New verbs are \"-ar\" verbs (\"viralizar\", \"printar\", \"maratonar\"), and \"-ear\" ones take \"ei\" when stressed (\"eu stalkeio\").",
+          "Attitude: \"-ice\" mocks a behavior (\"chatice\", \"criancice\"), \"-udo\" means having a lot of (\"sortudo\"), \"-ada\" makes collectives, blows and blunders (\"criançada\", \"cabeçada\", \"mancada\"), \"-aço\" admires (\"golaço\"), \"-eco\" belittles (\"livreco\"). New verbs are \"-ar\" verbs (\"viralizar\", \"printar\", \"maratonar\"), and \"-ear\" ones take \"ei\" when stressed (\"eu stalkeio\").",
         ],
         examples: [
           { es: "O oftalmologista receitou óculos novos.", en: "The ophthalmologist prescribed new glasses." },
@@ -473,7 +473,7 @@ export const PT_C2_U29_EXTRA: Lesson[] = [
         source: "Stop this childishness!",
         answer: "Para com essa criancice!",
         altAnswers: ["Pare com essa criancice!", "Chega de criancice!", "Para de criancice!", "Pare de criancice!"],
-        explanation: "\"-ice\" names a behaviour you disapprove of.",
+        explanation: "\"-ice\" names a behavior you disapprove of.",
       },
       {
         type: "translate",

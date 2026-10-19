@@ -175,7 +175,7 @@ export const DELF_A1_CO: ExamPaper = {
         {
           label: "Dialogue 1",
           lines: [
-            { voice: "f", text: "Bonjour madame, je voudrais un aller-retour pour Bordeaux, s'il vous plaît." },
+            { voice: "f", text: "Bonjour monsieur, je voudrais un aller-retour pour Bordeaux, s'il vous plaît." },
             { voice: "m", text: "Pour quel jour ?" },
             { voice: "f", text: "Pour vendredi matin, et retour dimanche soir." },
             { voice: "m", text: "Alors, ça fait quatre-vingt-cinq euros." },

@@ -25,13 +25,13 @@ export const PT_A1_S03_STORIES: Story[] = [
       },
       {
         question: `What is the weather like at midday?`,
-        options: [`Cold and grey`, `Rainy`, `Sunny and thirty degrees`, `Windy`],
+        options: [`Cold and gray`, `Rainy`, `Sunny and thirty degrees`, `Windy`],
         correctIndex: 2,
         explanation: `"Ao meio-dia, o sol está forte e faz trinta graus."`,
       },
       {
         question: `According to Renata, what is special about São Paulo?`,
-        options: [`It never rains.`, `It has the best shops.`, `It is always cold.`, `It has four seasons in one day.`],
+        options: [`It never rains.`, `It has the best stores.`, `It is always cold.`, `It has four seasons in one day.`],
         correctIndex: 3,
         explanation: `"Em São Paulo, a gente tem quatro estações num dia."`,
       },
@@ -47,7 +47,7 @@ export const PT_A1_S03_STORIES: Story[] = [
     slug: "pt-o-classico-na-tv",
     level: "PT-A1",
     title: `O clássico na TV`,
-    subtitle: `In Recife, a husband and wife support rival football teams, and today the two teams play each other on TV.`,
+    subtitle: `In Recife, a husband and wife support rival soccer teams, and today the two teams play each other on TV.`,
     paragraphs: [
       `Em Recife, hoje tem clássico: Sport contra Santa Cruz. Na casa da família Albuquerque, isso é um problema. Seu Fábio torce para o Sport. A esposa dele, Dona Rita, torce para o Santa Cruz. Os dois filhos estão no meio.`,
       `Às quatro horas, todos estão no sofá na frente da TV. Seu Fábio está com a camisa vermelha e preta. Dona Rita está com a camisa tricolor. Está zero a zero.`,
@@ -58,7 +58,7 @@ export const PT_A1_S03_STORIES: Story[] = [
     questions: [
       {
         question: `Why is the clássico a problem for the family?`,
-        options: [`The TV is old.`, `The parents support rival teams.`, `The children don't like football.`, `The game is very late.`],
+        options: [`The TV is old.`, `The parents support rival teams.`, `The children don't like soccer.`, `The game is very late.`],
         correctIndex: 1,
         explanation: `"Seu Fábio torce para o Sport. A esposa dele, Dona Rita, torce para o Santa Cruz."`,
       },
@@ -76,7 +76,7 @@ export const PT_A1_S03_STORIES: Story[] = [
       },
       {
         question: `Why is Dona Socorro happy with the draw?`,
-        options: [`She doesn't like football.`, `She supports Sport.`, `She supports a third team, Náutico.`, `She wants the family to go home.`],
+        options: [`She doesn't like soccer.`, `She supports Sport.`, `She supports a third team, Náutico.`, `She wants the family to go home.`],
         correctIndex: 2,
         explanation: `"Eu sou do Náutico. Para mim, o empate é perfeito."`,
       },
@@ -103,9 +103,9 @@ export const PT_A1_S03_STORIES: Story[] = [
       },
       {
         question: `What is the problem with the red shoes?`,
-        options: [`The shop only has them in size 37, and she wears 38.`, `They are too expensive.`, `They are ugly.`, `The heel is broken.`],
+        options: [`The store only has them in size 37, and she wears 38.`, `They are too expensive.`, `They are ugly.`, `The heel is broken.`],
         correctIndex: 0,
-        explanation: `She asks for "trinta e oito", but the shop assistant says: "só tenho no número trinta e sete."`,
+        explanation: `She asks for "trinta e oito", but the salesclerk says: "só tenho no número trinta e sete."`,
       },
       {
         question: `Why is Fernanda sitting on a chair at the party?`,
@@ -130,7 +130,7 @@ export const PT_A1_S03_STORIES: Story[] = [
       `Gabriel mora em São Luís, mas a mãe dele, Dona Graça, mora em Juazeiro do Norte, no Ceará. Todo domingo, às sete da noite, Gabriel liga para ela. Eles conversam sobre a semana.`,
       `Hoje é domingo. Às sete horas, o telefone toca, toca, toca... e nada. Ele liga de novo às sete e quinze. Nada. Às sete e meia, ele está muito preocupado. A mãe dele sempre atende.`,
       `Ele liga para a tia Lúcia, a irmã da mãe. “Tia, a mãe não atende o telefone! Ela está bem?” A tia começa a rir. “Calma, Gabriel. A sua mãe está ótima. Ela está dançando!”`,
-      `“Dançando?” “Sim! Ela faz aulas de forró na praça, toda quinta e todo domingo. Ela tem um parceiro de dança, o seu Bené. Ele é viúvo e dança muito bem.” Gabriel não sabe o que dizer.`,
+      `“Dançando?” “Sim! Agora ela faz aulas de forró na praça, toda quinta e todo domingo. Ela tem um parceiro de dança, o seu Bené. Ele é viúvo e dança muito bem.” Gabriel não sabe o que dizer.`,
       `Às dez horas, o celular dele toca. É a mãe, feliz e cansada. “Meu filho! Desculpa, eu estou com pouco tempo. Amanhã eu ligo, está bem?” Gabriel ri. Pela primeira vez, é a mãe que não tem tempo para ele.`,
     ],
     questions: [
@@ -232,10 +232,10 @@ export const PT_A1_S03_GLOSSES: Record<string, StoryGloss[]> = {
   ],
   "pt-os-sapatos-vermelhos": [
     { es: "casar", en: "to get married", forms: ["casar"] },
-    { es: "a loja", en: "shop", forms: ["loja"] },
+    { es: "a loja", en: "store, shop", forms: ["loja"] },
     { es: "o salto alto", en: "high heel", forms: ["salto"] },
     { es: "o número", en: "size (of shoes)", forms: ["número"] },
-    { es: "a vendedora", en: "shop assistant (woman)", forms: ["vendedora"] },
+    { es: "a vendedora", en: "salesclerk (woman)", forms: ["vendedora"] },
     { es: "o estoque", en: "stockroom, stock", forms: ["estoque"] },
     { es: "experimentar", en: "to try on", forms: ["experimenta"] },
     { es: "apertar", en: "to be tight, to pinch", forms: ["aperta"] },
@@ -268,7 +268,7 @@ export const PT_A1_S03_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "o teto", en: "ceiling", forms: ["teto"] },
     { es: "a vergonha", en: "embarrassment", forms: ["vergonha"] },
     { es: "guardar", en: "to put away", forms: ["guarda"] },
-    { es: "o armário", en: "cupboard", forms: ["armário"] },
+    { es: "o armário", en: "closet, cabinet", forms: ["armário"] },
     { es: "o pandeiro", en: "pandeiro (a Brazilian tambourine)", forms: ["pandeiro"] },
     { es: "bater palmas", en: "to clap", forms: ["palmas"] },
   ],

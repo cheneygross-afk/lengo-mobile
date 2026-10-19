@@ -287,7 +287,7 @@ export const FR_C2_U05_EXTRA: Lesson[] = [
         prompt: "Translate into everyday modern French (not the proverb).",
         source: "Whoever lives long enough will see.",
         answer: "Celui qui vivra assez longtemps verra.",
-        altAnswers: ["Ceux qui vivront assez longtemps verront.", "On verra bien.", "L'avenir le dira."],
+        altAnswers: ["Ceux qui vivront assez longtemps verront.", "Celui qui vivra assez longtemps le verra."],
         explanation: "The modern paraphrase of \"qui vivra verra\": \"celui qui\" supplies the antecedent the proverb omits.",
       },
       {
@@ -353,7 +353,7 @@ export const FR_C2_U05_EXTRA: Lesson[] = [
       {
         heading: "Recap: the francophone map, and proverbs with a twist",
         body: [
-          "Québec shares most of France's proverbs, with small differences: \"il ne faut pas mettre la charrue devant les bœufs\" (France: \"avant les bœufs\"), and its own favourites like \"chaque pot a son couvercle\" (there's someone for everyone). Belgium's national motto, \"l'union fait la force\", is quoted all over the French-speaking world. West African French has a rich stock of proverbs from local languages, often with vivid images: \"un tronc d'arbre a beau séjourner dans l'eau, il ne deviendra jamais crocodile\" (you can't change your nature), or \"seul, on va plus vite ; ensemble, on va plus loin\".",
+          "Québec shares most of France's proverbs, with small differences: \"il ne faut pas mettre la charrue devant les bœufs\" (France mostly says \"avant les bœufs\", though \"devant\" is heard there too), and its own favourites like \"chaque pot a son couvercle\" (there's someone for everyone). Belgium's national motto, \"l'union fait la force\", is quoted all over the French-speaking world. West African French has a rich stock of proverbs from local languages, often with vivid images: \"un tronc d'arbre a beau séjourner dans l'eau, il ne deviendra jamais crocodile\" (you can't change your nature), or \"seul, on va plus vite ; ensemble, on va plus loin\".",
           "Journalists and advertisers twist proverbs by changing one word, counting on readers to hear the original: \"qui sème la TVA récolte la colère\", \"petit à petit, l'épargne fait son nid\". The effect is ironic, and you only get it if you know the original.",
         ],
         examples: [
@@ -410,7 +410,7 @@ export const FR_C2_U05_EXTRA: Lesson[] = [
         source: "Don't put the cart before the horse.",
         answer: "Il ne faut pas mettre la charrue avant les bœufs.",
         altAnswers: ["Il ne faut pas mettre la charrue devant les bœufs.", "Ne mets pas la charrue avant les bœufs.", "Ne mettez pas la charrue avant les bœufs."],
-        explanation: "France says \"avant\", Québec \"devant\". The French image is a plough and oxen, not a cart and a horse.",
+        explanation: "France mostly says \"avant\", Québec usually \"devant\" (both are correct). The French image is a plough and oxen, not a cart and a horse.",
       },
       {
         type: "fill-blank",
@@ -818,8 +818,8 @@ export const FR_C2_U05_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "In this fable, the ant is not as kind as people think.",
         answer: "Dans cette fable, la fourmi n'est pas aussi gentille qu'on le croit.",
-        altAnswers: ["Dans cette fable, la fourmi n'est pas si gentille qu'on le croit.", "Dans cette fable, la fourmi n'est pas aussi gentille qu'on le pense.", "Dans cette fable, la fourmi n'est pas aussi gentille qu'on ne le croit."],
-        explanation: "\"Pas aussi / si... que\"; the neuter \"le\" and the optional expletive \"ne\" in elevated style.",
+        altAnswers: ["Dans cette fable, la fourmi n'est pas si gentille qu'on le croit.", "Dans cette fable, la fourmi n'est pas aussi gentille qu'on le pense."],
+        explanation: "\"Pas aussi / si... que\" with the neuter \"le\". No expletive \"ne\" here: it is used after comparisons of inequality (\"plus gentille qu'on ne le croit\"), not after a negated \"aussi\".",
       },
       {
         type: "dictation",
@@ -908,7 +908,7 @@ export const FR_C2_U05_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "Good things come to those who wait, [you say]; [but you still need to] know what you're waiting for.",
+        en: "Good things come to those who wait, you say; [but you still need to] know what you're waiting for.",
         sentence: "Tout vient à point à qui sait attendre, dites-vous ; ___ savoir ce qu'on attend.",
         answer: "encore faut-il",
         explanation: "\"Encore faut-il\" introduces the missing condition, with inversion.",

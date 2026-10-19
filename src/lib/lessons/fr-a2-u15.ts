@@ -179,7 +179,7 @@ export const FR_A2_U15: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match each adjective to its adverb.",
+        instructions: "Match each adverb to its meaning.",
         pairs: [
           { left: "lentement", right: "slowly" },
           { left: "heureusement", right: "fortunately" },
@@ -369,7 +369,7 @@ export const FR_A2_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I often eat pasta'?",
         options: ["Je mange souvent des pâtes.", "Je souvent mange des pâtes.", "Souvent je des pâtes mange.", "Je mange des souvent pâtes."],
         correctIndex: 0,
         explanation: "The adverb follows the conjugated verb.",
@@ -544,7 +544,7 @@ export const FR_A2_U15: Lesson[] = [
         prompt: "Translate into French.",
         source: "He speaks French well.",
         answer: "Il parle bien français.",
-        altAnswers: ["Il parle bien le français.", "Il parle français bien."],
+        altAnswers: ["Il parle bien le français."],
         explanation: "With a verb, \"bien\", never \"bon\".",
       },
       {
@@ -742,7 +742,6 @@ export const FR_A2_U15: Lesson[] = [
         en: "You must listen [carefully].",
         sentence: "Vous devez écouter ___.",
         answer: "attentivement",
-        altAnswers: ["bien"],
         explanation: "\"Attentif\" → \"attentive\" → \"attentivement\".",
       },
       {
@@ -756,7 +755,7 @@ export const FR_A2_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which adverb comes from « actif »?",
+        question: "Which adverb comes from \"actif\"?",
         options: ["activement", "activment", "actifment", "activemment"],
         correctIndex: 0,
         explanation: "Feminine \"active\" + -ment.",
@@ -824,7 +823,7 @@ export const FR_A2_U15: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Il a marqué un but. » What happened?",
+            question: "\"Il a marqué un but.\" What happened?",
             options: ["He scored a goal.", "He set himself a goal.", "He marked a boot.", "He reached his target."],
             correctIndex: 0,
             explanation: "In sport, \"marquer un but\" = to score a goal.",
@@ -944,7 +943,7 @@ export const FR_A2_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend says « J'ai passé mon permis hier. » What do you know?",
+        question: "Your friend says \"J'ai passé mon permis hier.\" What do you know?",
         options: ["She took her driving test yesterday.", "She passed her driving test yesterday.", "She failed her driving test yesterday.", "She lost her licence yesterday."],
         correctIndex: 0,
         explanation: "\"Passer\" only says she sat it; ask \"Tu l'as eu ?\" to know the result.",
@@ -1156,7 +1155,7 @@ export const FR_A2_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Someone answers: « C'est tout près. » What do they mean?",
+        question: "Someone answers: \"C'est tout près.\" What do they mean?",
         options: ["It's very close.", "It's straight ahead.", "It's all closed.", "It's quite far."],
         correctIndex: 0,
         explanation: "\"Tout près\" = very close.",
@@ -1353,7 +1352,7 @@ export const FR_A2_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Someone tells you « Tournez à droite. » What do you do?",
+        question: "Someone tells you \"Tournez à droite.\" What do you do?",
         options: ["Turn right.", "Go straight on.", "Turn round.", "Turn left."],
         correctIndex: 0,
         explanation: "\"À droite\" = to the right.",
@@ -1908,7 +1907,7 @@ export const FR_A2_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A tourist asks you « C'est loin ? » It's very close. What do you say?",
+        question: "A tourist asks you \"C'est loin ?\" It's very close. What do you say?",
         options: ["Non, c'est tout près.", "Non, c'est tout droit.", "Oui, c'est tout près.", "Non, c'est loin."],
         correctIndex: 0,
         explanation: "\"Tout près\" = very close; \"tout droit\" = straight on.",
@@ -1935,7 +1934,7 @@ export const FR_A2_U15: Lesson[] = [
         prompt: "Translate into French.",
         source: "Take the 9, it's faster.",
         answer: "Prenez le 9, c'est plus rapide.",
-        altAnswers: ["Vous prenez le 9, c'est plus rapide.", "Prenez le 9, c'est plus court."],
+        altAnswers: ["Vous prenez le 9, c'est plus rapide."],
         explanation: "Bus numbers take \"le\"; comparison with \"plus\".",
       },
       {

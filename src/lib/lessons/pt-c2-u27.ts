@@ -31,7 +31,7 @@ export const PT_C2_U27: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The director apologised to the clients.",
+            source: "The director apologized to the clients.",
             answer: "O diretor se desculpou com os clientes.",
             altAnswers: [
               "O diretor desculpou-se com os clientes.",
@@ -173,7 +173,7 @@ export const PT_C2_U27: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "It [was] always [said] that the neighbourhood was dangerous.",
+        en: "It [was] always [said] that the neighborhood was dangerous.",
         sentence: "Sempre ___ que o bairro era perigoso.",
         answer: "se disse",
         altAnswers: ["se falou"],
@@ -727,7 +727,7 @@ export const PT_C2_U27: Lesson[] = [
         question: "Which of these is NOT correct Portuguese?",
         options: ["para fazê-lo", "para o fazer", "para fazer-lo", "para não o fazer"],
         correctIndex: 2,
-        explanation: "When \"o\" attaches to an infinitive, the \"-r\" disappears and \"o\" becomes \"lo\": \"fazê-lo\". \"Fazer-lo\" is modelled on Spanish.",
+        explanation: "When \"o\" attaches to an infinitive, the \"-r\" disappears and \"o\" becomes \"lo\": \"fazê-lo\". \"Fazer-lo\" is modeled on Spanish.",
       },
       {
         type: "translate",
@@ -825,7 +825,7 @@ export const PT_C2_U27: Lesson[] = [
           "With \"o\", \"a\", \"os\", \"as\", the stem behaves like an infinitive before an enclitic: the \"-r\" drops, the pronoun becomes \"lo\" or \"la\", and a final stressed a, e or o takes an accent. \"Farei\" + \"o\" gives \"fá-lo-ei\", \"encontraremos\" + \"o\" gives \"encontrá-lo-emos\", \"veria\" + \"a\" gives \"vê-la-ia\", \"convidaríamos\" + \"a\" gives \"convidá-la-íamos\". Stems in -i take no accent: \"di-lo-ei\", \"conduzi-lo-ão\".",
         ],
         examples: [
-          { es: "Realizar-se-á a assembleia no dia 15 de março.", en: "The general meeting will be held on 15 March." },
+          { es: "Realizar-se-á a assembleia no dia 15 de março.", en: "The general meeting will be held on March 15." },
           { es: "Dir-se-ia que ninguém percebeu o erro.", en: "One would think nobody noticed the mistake." },
           { es: "Encontrar-nos-emos na sede da empresa.", en: "We shall meet at the company's head office." },
           { es: "Trar-lhe-ei a resposta por escrito.", en: "I shall bring you the answer in writing." },
@@ -836,7 +836,7 @@ export const PT_C2_U27: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words, with the pronoun inside the verb.",
-            en: "[We shall send you] the documents by post.",
+            en: "[We shall send you] the documents by mail.",
             sentence: "___ os documentos pelo correio.",
             answer: "Enviar-lhe-emos",
             altAnswers: ["Mandar-lhe-emos", "Remeter-lhe-emos"],
@@ -1028,12 +1028,16 @@ export const PT_C2_U27: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The judge who will analyse the case is from Recife.",
+        source: "The judge who will analyze the case is from Recife.",
         answer: "A juíza que analisará o caso é de Recife.",
         altAnswers: [
           "O juiz que analisará o caso é de Recife.",
           "A juíza que vai analisar o caso é de Recife.",
           "O juiz que vai analisar o caso é de Recife.",
+          "A juíza que analisará o caso é do Recife.",
+          "O juiz que analisará o caso é do Recife.",
+          "A juíza que vai analisar o caso é do Recife.",
+          "O juiz que vai analisar o caso é do Recife.",
         ],
         explanation: "No clitic here, but note the attractor: if there were one (\"que o analisará\"), \"que\" would ban the mesóclise.",
       },
@@ -1097,8 +1101,8 @@ export const PT_C2_U27: Lesson[] = [
         examples: [
           { es: "Ela se cortou com a faca de pão.", en: "She cut herself on the bread knife." },
           { es: "Os dois se abraçaram na saída do aeroporto.", en: "The two of them hugged at the airport exit." },
-          { es: "Os vizinhos se cumprimentam todos os dias.", en: "The neighbours greet each other every day." },
-          { es: "Ele se arrependeu de ter vendido o apartamento.", en: "He regretted selling the flat." },
+          { es: "Os vizinhos se cumprimentam todos os dias.", en: "The neighbors greet each other every day." },
+          { es: "Ele se arrependeu de ter vendido o apartamento.", en: "He regretted selling the apartment." },
           { es: "Ninguém se atreveu a contestar a decisão do chefe.", en: "Nobody dared to challenge the boss's decision." },
         ],
         checkpoint: [
@@ -1143,9 +1147,9 @@ export const PT_C2_U27: Lesson[] = [
         ],
         examples: [
           { es: "Vendem-se casas e terrenos.", en: "Houses and plots for sale." },
-          { es: "Alugam-se salas comerciais no centro.", en: "Office rooms to let downtown." },
+          { es: "Alugam-se salas comerciais no centro.", en: "Office space for rent downtown." },
           { es: "Fizeram-se várias reformas no prédio.", en: "Several renovations were carried out on the building." },
-          { es: "Consertam-se celulares e computadores.", en: "Mobile phones and computers repaired." },
+          { es: "Consertam-se celulares e computadores.", en: "Cell phones and computers repaired." },
           { es: "Podem-se observar mudanças no clima da região.", en: "Changes can be observed in the region's climate." },
         ],
         checkpoint: [
@@ -1203,7 +1207,7 @@ export const PT_C2_U27: Lesson[] = [
       {
         heading: "Expletive se: emphasis, not grammar",
         body: [
-          "The last \"se\" can be removed without changing the meaning; it adds emphasis or feeling. It appears mainly with verbs of going and passing: \"foi-se o tempo em que...\" (gone are the days when...), \"lá se vão dois anos\" (two years have gone by), \"ele se foi\" (he's gone, often meaning he died). Grammars call it expletive or de realce. Don't analyse it as passive or reflexive, and don't make it agree with anything but its own subject: \"lá se vão dois anos\" is plural because \"dois anos\" is the subject of \"vão\".",
+          "The last \"se\" can be removed without changing the meaning; it adds emphasis or feeling. It appears mainly with verbs of going and passing: \"foi-se o tempo em que...\" (gone are the days when...), \"lá se vão dois anos\" (two years have gone by), \"ele se foi\" (he's gone, often meaning he died). Grammars call it expletive or de realce. Don't analyze it as passive or reflexive, and don't make it agree with anything but its own subject: \"lá se vão dois anos\" is plural because \"dois anos\" is the subject of \"vão\".",
         ],
         examples: [
           { es: "Lá se vão dois anos desde a mudança.", en: "Two years have gone by since the move." },
@@ -1295,7 +1299,7 @@ export const PT_C2_U27: Lesson[] = [
         audio: "Alugam-se quartos para estudantes.",
         question: "What does it mean?",
         options: [
-          "Rooms to let for students.",
+          "Rooms for rent for students.",
           "Students are looking for rooms.",
           "Students rent out their rooms.",
           "A room is available for one student.",
@@ -1355,7 +1359,7 @@ export const PT_C2_U27: Lesson[] = [
         ],
         examples: [
           { es: "Eu o vi ontem na estação da Luz.", en: "I saw him (or you) yesterday at Luz station." },
-          { es: "Conheço-a desde os tempos de faculdade.", en: "I've known her since university." },
+          { es: "Conheço-a desde os tempos de faculdade.", en: "I've known her since college." },
           { es: "O diretor convidou-os para o jantar de fim de ano.", en: "The director invited them to the end-of-year dinner." },
           { es: "Ele a namora há dois anos.", en: "He has been going out with her for two years." },
           { es: "Vamos esperá-la no saguão do hotel.", en: "We'll wait for her in the hotel lobby." },
@@ -1442,7 +1446,7 @@ export const PT_C2_U27: Lesson[] = [
         ],
         examples: [
           { es: "O jogo foi ótimo; assisti a ele no bar com os amigos.", en: "The game was great; I watched it at the bar with friends." },
-          { es: "O cargo de diretora? Aspiro a ele há anos.", en: "The director's post? I've aspired to it for years." },
+          { es: "O cargo de diretora? Aspiro a ele há anos.", en: "The director's position? I've aspired to it for years." },
           { es: "A carta a que o senhor se referiu já foi respondida.", en: "The letter you referred to has already been answered." },
           { es: "Assiste-lhe o direito de recorrer da decisão.", en: "He has the right to appeal against the decision." },
           { es: "O médico assistiu-o durante toda a internação.", en: "The doctor looked after him throughout his hospital stay." },
@@ -1462,8 +1466,8 @@ export const PT_C2_U27: Lesson[] = [
             type: "multiple-choice",
             question: "Which sentence uses lhe correctly?",
             options: [
-              "Assisti-lhe ontem à noite. (the film)",
-              "Aspiro-lhe há muito tempo. (the post)",
+              "Assisti-lhe ontem à noite. (the movie)",
+              "Aspiro-lhe há muito tempo. (the position)",
               "Assiste-lhe o direito de não depor.",
               "Lhe vi na reunião.",
             ],
@@ -1533,7 +1537,7 @@ export const PT_C2_U27: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The post of manager? She has aspired to it for years.",
+        source: "The manager position? She has aspired to it for years.",
         answer: "O cargo de gerente? Ela aspira a ele há anos.",
         altAnswers: ["O cargo de gerente? Ela aspira a ele faz anos.", "O cargo de gerente? Aspira a ele há anos."],
         explanation: "\"Aspirar a\" refuses \"lhe\": keep the preposition and add \"ele\". The present with \"há\" expresses a state continuing up to now.",
@@ -1573,7 +1577,7 @@ export const PT_C2_U27: Lesson[] = [
     level: "PT-C2",
     number: 7,
     title: "Lho, Mo, To: Contracted Clitics",
-    summary: "Recognise the contracted clitics of older literature and European texts (lho, lha, mo, ma, to, no-lo), work out who gave what to whom, and say the same thing the Brazilian way.",
+    summary: "Recognize the contracted clitics of older literature and European texts (lho, lha, mo, ma, to, no-lo), work out who gave what to whom, and say the same thing the Brazilian way.",
     duration: "15 min",
     kind: "teach",
     sections: [
@@ -1587,7 +1591,7 @@ export const PT_C2_U27: Lesson[] = [
           { es: "Pedi-lhe o livro, e ele deu-mo no dia seguinte.", en: "I asked him for the book, and he gave it to me the next day." },
           { es: "A carta chegou, mas ainda não lha entreguei.", en: "The letter arrived, but I haven't handed it to her yet." },
           { es: "Nunca mo disseram com tanta franqueza.", en: "Nobody ever told me so that frankly." },
-          { es: "Vendeu a casa ao primo, que lha pagou em prestações.", en: "He sold the house to his cousin, who paid him for it in instalments." },
+          { es: "Vendeu a casa ao primo, que lha pagou em prestações.", en: "He sold the house to his cousin, who paid him for it in installments." },
           { es: "O prefeito prometeu-no-lo durante a campanha.", en: "The mayor promised it to us during the campaign." },
         ],
         checkpoint: [
@@ -1619,7 +1623,7 @@ export const PT_C2_U27: Lesson[] = [
       {
         heading: "Where you'll meet them",
         body: [
-          "In Brazil the contracted clitics belong to reading, not production. You'll meet them in nineteenth-century prose (Machado de Assis and José de Alencar use them naturally), in older translations of the Bible and the classics, in a few very traditional legal texts, and in European Portuguese, where \"dá-mo\" and \"já lho disse\" are still everyday speech. A Brazilian reader decodes them without trouble; a Brazilian writer uses them only for period colour or parody.",
+          "In Brazil the contracted clitics belong to reading, not production. You'll meet them in nineteenth-century prose (Machado de Assis and José de Alencar use them naturally), in older translations of the Bible and the classics, in a few very traditional legal texts, and in European Portuguese, where \"dá-mo\" and \"já lho disse\" are still everyday speech. A Brazilian reader decodes them without trouble; a Brazilian writer uses them only for period color or parody.",
           "To decode quickly, split the form in two. The first part is the person, to whom: \"m-\" me, \"t-\" you, \"lh-\" him, her, you or them. The vowel and any \"-s\" belong to the thing: \"-o\" masculine, \"-a\" feminine, plural with \"-s\". So \"trouxe-tas\" means he brought them (feminine) to you, and \"não mos devolveu\" means he didn't give them (masculine) back to me.",
         ],
         examples: [
@@ -1627,7 +1631,7 @@ export const PT_C2_U27: Lesson[] = [
           { es: "Emprestei-lhe os livros, e ele nunca mos devolveu.", en: "I lent him the books, and he never gave them back to me." },
           { es: "Tens razão, já lho disse ontem.", en: "You're right, I already told him so yesterday (European Portuguese)." },
           { es: "As fotos chegaram; trago-tas amanhã.", en: "The photos have arrived; I'll bring them to you tomorrow." },
-          { es: "Pedimos a conta, e o garçom trouxe-no-la em seguida.", en: "We asked for the bill, and the waiter brought it to us straight away." },
+          { es: "Pedimos a conta, e o garçom trouxe-no-la em seguida.", en: "We asked for the check, and the waiter brought it to us straight away." },
         ],
         checkpoint: [
           {
@@ -1796,10 +1800,10 @@ export const PT_C2_U27: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words, in the classical style of the original novel.",
-        en: "I asked for the bill, and the waiter [brought it to me].",
+        en: "I asked for the check, and the waiter [brought it to me].",
         sentence: "Pedi a conta, e o garçom ___.",
         answer: "trouxe-ma",
-        explanation: "\"Me\" + \"a\" (the bill, feminine) = \"ma\", attached to \"trouxe\". A modern Brazilian would write \"me trouxe\" or \"trouxe a conta\".",
+        explanation: "\"Me\" + \"a\" (the check, feminine) = \"ma\", attached to \"trouxe\". A modern Brazilian would write \"me trouxe\" or \"trouxe a conta\".",
       },
       {
         type: "translate",
@@ -1847,9 +1851,9 @@ export const PT_C2_U27: Lesson[] = [
           "Put a subject in front and the tension disappears: \"Eles me disseram\" is correct and neutral everywhere. \"Eles disseram-me\" is also correct, but in Brazil it sounds formal or Portuguese. When you can, a subject is the easiest way to write natural norm.",
         ],
         examples: [
-          { es: "Me disseram que a reunião foi cancelada.", en: "They told me the meeting was cancelled (speech, informal writing)." },
-          { es: "Disseram-me que a reunião foi cancelada.", en: "I was told the meeting was cancelled (norm, formal writing)." },
-          { es: "Os colegas me disseram que a reunião foi cancelada.", en: "My colleagues told me the meeting was cancelled (neutral everywhere)." },
+          { es: "Me disseram que a reunião foi cancelada.", en: "They told me the meeting was canceled (speech, informal writing)." },
+          { es: "Disseram-me que a reunião foi cancelada.", en: "I was told the meeting was canceled (norm, formal writing)." },
+          { es: "Os colegas me disseram que a reunião foi cancelada.", en: "My colleagues told me the meeting was canceled (neutral everywhere)." },
           { es: "Disseram-me, com toda a franqueza, que o projeto era inviável.", en: "I was told, quite frankly, that the project wasn't viable (norm)." },
           { es: "Parece-me que o prazo é curto demais.", en: "It seems to me that the deadline is too short (norm)." },
           { es: "Me parece que o prazo é curto demais.", en: "It seems to me that the deadline is too short (speech)." },
@@ -1881,7 +1885,7 @@ export const PT_C2_U27: Lesson[] = [
       {
         heading: "One future, five versions",
         body: [
-          "Now the future, where the options multiply. Take I'll be told the result: \"Vão me dizer o resultado\" is natural Brazilian, spoken and written, and correct in modern Brazilian grammars. \"Eles me dirão o resultado\" is norm and neutral-formal; the subject legitimises proclisis. \"Dir-me-ão o resultado\" is norm, but outside a legal text it sounds pompous. \"Me dirão o resultado\" opens with the pronoun and is speech only. \"Dirão-me o resultado\" is wrong in any register.",
+          "Now the future, where the options multiply. Take I'll be told the result: \"Vão me dizer o resultado\" is natural Brazilian, spoken and written, and correct in modern Brazilian grammars. \"Eles me dirão o resultado\" is norm and neutral-formal; the subject legitimizes proclisis. \"Dir-me-ão o resultado\" is norm, but outside a legal text it sounds pompous. \"Me dirão o resultado\" opens with the pronoun and is speech only. \"Dirão-me o resultado\" is wrong in any register.",
           "The same scale applies to every future and conditional with a clitic. Brazilian writers choose the subject + proclisis or \"ir\" + infinitive in almost every text and keep the mesóclise for laws, ceremonial speeches and jokes.",
         ],
         examples: [
@@ -1914,7 +1918,7 @@ export const PT_C2_U27: Lesson[] = [
             source: "The doctors will tell us the result.",
             answer: "Os médicos nos dirão o resultado.",
             altAnswers: ["As médicas nos dirão o resultado.", "Os médicos nos informarão o resultado.", "Os médicos vão nos dizer o resultado."],
-            explanation: "A subject with no attractor legitimises proclisis with the future: \"os médicos nos dirão\". It is norm and sounds neutral, unlike \"dir-nos-ão\".",
+            explanation: "A subject with no attractor legitimizes proclisis with the future: \"os médicos nos dirão\". It is norm and sounds neutral, unlike \"dir-nos-ão\".",
           },
         ],
       },
@@ -1972,7 +1976,7 @@ export const PT_C2_U27: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into natural Brazilian Portuguese for a WhatsApp message.",
-        source: "They told me the party was cancelled.",
+        source: "They told me the party was canceled.",
         answer: "Me disseram que a festa foi cancelada.",
         altAnswers: ["Me falaram que a festa foi cancelada.", "Me disseram que cancelaram a festa.", "Me falaram que cancelaram a festa.", "Disseram que a festa foi cancelada."],
         explanation: "In a message to a friend, \"Me disseram\" is natural; \"Disseram-me\" would sound stiff.",
@@ -2066,7 +2070,7 @@ export const PT_C2_U27: Lesson[] = [
           "The second step is the tratamento. In speech \"te\" goes happily with \"você\"; in the norm, \"você\" and \"o senhor\" take the third-person pronouns \"o\", \"a\" and \"lhe\". So \"Você pode me ligar? Te espero\" becomes \"O senhor pode ligar-me? Eu o espero\" in a formal letter, or keeps \"você\" with \"Eu o espero\".",
         ],
         examples: [
-          { es: "Parece-me justo dividir a conta.", en: "It seems fair to me to split the bill (speech: \"Me parece justo\")." },
+          { es: "Parece-me justo dividir a conta.", en: "It seems fair to me to split the check (speech: \"Me parece justo\")." },
           { es: "Trata-se de um engano do sistema.", en: "It's a system error (speech: \"Se trata de um engano\")." },
           { es: "Avise-me quando o pedido chegar.", en: "Let me know when the order arrives (speech: \"Me avisa\")." },
           { es: "Sente-se, por favor; o médico já vem.", en: "Please take a seat; the doctor is coming (speech: \"Se senta\")." },
@@ -2199,7 +2203,7 @@ export const PT_C2_U27: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Rewrite in the norma culta. Spoken version: \"Assisti o filme e gostei muito dele.\"",
-        source: "I watched the film and liked it a lot.",
+        source: "I watched the movie and liked it a lot.",
         answer: "Assisti ao filme e gostei muito dele.",
         altAnswers: ["Eu assisti ao filme e gostei muito dele.", "Assisti ao filme e gostei muito."],
         explanation: "\"Assistir\" in the sense of watching takes \"a\": \"assisti ao filme\". \"Gostar de\" never takes a clitic, so \"dele\" stays.",
@@ -2265,7 +2269,7 @@ export const PT_C2_U27: Lesson[] = [
         heading: "Paragraph one: placement in a legal opinion",
         body: [
           "Rafael, a trainee at a law firm in Porto Alegre, sends you a draft opinion. It reads: \"Não far-se-á qualquer pagamento sem a assinatura do cliente. Conforme o sócio tinha dito-lhe, o prazo é curto. Me parece que a cliente tem razão. A audiência realizará-se na segunda.\" Four sentences, four placement errors, all of the kind a judge notices.",
-          "\"Não\" attracts the pronoun and bans the mesóclise: \"Não se fará\". A clitic never follows a participle: \"tinha-lhe dito\", \"lhe tinha dito\" or the Brazilian \"tinha lhe dito\". A formal sentence can't open with \"Me\": \"Parece-me\". A future verb never takes enclisis: \"A audiência se realizará\" or \"realizar-se-á\". Note what isn't wrong: \"O sócio tinha lhe dito\" would be acceptable Brazilian usage even here.",
+          "\"Não\" attracts the pronoun and bans the mesóclise: \"Não se fará\". A clitic never follows a participle, and \"conforme\" attracts it: \"lhe tinha dito\", or the Brazilian \"tinha lhe dito\". A formal sentence can't open with \"Me\": \"Parece-me\". A future verb never takes enclisis: \"A audiência se realizará\" or \"realizar-se-á\". Note what isn't wrong: \"O sócio tinha lhe dito\" would be acceptable Brazilian usage even here.",
         ],
         examples: [
           { es: "Não se fará qualquer pagamento sem a assinatura do cliente.", en: "No payment will be made without the client's signature." },
@@ -2290,7 +2294,7 @@ export const PT_C2_U27: Lesson[] = [
             en: "As the partner [had told him], the deadline is short.",
             sentence: "Conforme o sócio ___, o prazo é curto.",
             answer: "lhe tinha dito",
-            altAnswers: ["tinha-lhe dito", "tinha lhe dito", "lhe havia dito", "havia-lhe dito", "havia lhe dito"],
+            altAnswers: ["tinha lhe dito", "lhe havia dito", "havia lhe dito"],
             explanation: "A clitic never follows a participle. \"Conforme\" is a conjunction, so it attracts: \"lhe tinha dito\" is the strictest choice.",
           },
         ],
@@ -2305,15 +2309,15 @@ export const PT_C2_U27: Lesson[] = [
           { es: "Vendem-se vagas de garagem.", en: "Parking spaces for sale." },
           { es: "Precisa-se de porteiros para o turno da noite.", en: "Doormen needed for the night shift." },
           { es: "Trata-se de vagas temporárias.", en: "These are temporary vacancies." },
-          { es: "Fizeram-se várias melhorias no elevador.", en: "Several improvements were made to the lift." },
-          { es: "Alugam-se salas no térreo.", en: "Ground-floor rooms to let." },
+          { es: "Fizeram-se várias melhorias no elevador.", en: "Several improvements were made to the elevator." },
+          { es: "Alugam-se salas no térreo.", en: "Ground-floor rooms for rent." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Correct the notice. It said: \"Fez-se várias melhorias no elevador.\"",
-            source: "Several improvements were made to the lift.",
+            source: "Several improvements were made to the elevator.",
             answer: "Fizeram-se várias melhorias no elevador.",
             altAnswers: ["Foram feitas várias melhorias no elevador."],
             explanation: "\"Fazer\" is transitive, so the passive \"se\" agrees with \"melhorias\": \"fizeram-se\".",
@@ -2373,7 +2377,7 @@ export const PT_C2_U27: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Correct the error. The draft said: \"Aluga-se salas comerciais.\"",
-        source: "Office rooms to let.",
+        source: "Office space for rent.",
         answer: "Alugam-se salas comerciais.",
         explanation: "Passive \"se\" with transitive \"alugar\": the verb agrees with \"salas\".",
       },
@@ -2477,7 +2481,7 @@ export const PT_C2_U27: Lesson[] = [
           { es: "Procedeu-se à votação logo após o intervalo.", en: "The vote was held straight after the break." },
           { es: "Visa-se à redução dos custos de transporte.", en: "The aim is to reduce transport costs." },
           { es: "Obedeceu-se às normas de segurança durante toda a obra.", en: "Safety regulations were followed throughout the work." },
-          { es: "Analisaram-se as propostas de três empresas.", en: "Proposals from three companies were analysed." },
+          { es: "Analisaram-se as propostas de três empresas.", en: "Proposals from three companies were analyzed." },
           { es: "Recorreu-se à Justiça para suspender a obra.", en: "The courts were called upon to halt the building work." },
         ],
         checkpoint: [
@@ -2537,7 +2541,7 @@ export const PT_C2_U27: Lesson[] = [
             type: "listen-choose",
             audio: "A maioria dos sócios se opôs à proposta.",
             question: "What does it mean?",
-            options: ["Most of the partners opposed the proposal.", "Most of the partners proposed the change.", "The partners were mostly in favour of the proposal.", "The majority shareholder put forward the proposal."],
+            options: ["Most of the partners opposed the proposal.", "Most of the partners proposed the change.", "The partners were mostly in favor of the proposal.", "The majority shareholder put forward the proposal."],
             correctIndex: 0,
             explanation: "\"Opor-se a\": to oppose, with crase before \"a proposta\".",
           },
@@ -2551,7 +2555,7 @@ export const PT_C2_U27: Lesson[] = [
         ],
         examples: [
           { es: "Assistimos à palestra e referimo-nos a ela no relatório.", en: "We attended the talk and referred to it in the report." },
-          { es: "O cargo de diretora? Ela aspira a ele desde o início.", en: "The director's post? She has aspired to it from the start." },
+          { es: "O cargo de diretora? Ela aspira a ele desde o início.", en: "The director's position? She has aspired to it from the start." },
           { es: "Este modelo é mais caro, mas prefiro-o ao outro.", en: "This model is more expensive, but I prefer it to the other one." },
           { es: "O chefe exigiu silêncio, e todos lhe obedeceram.", en: "The boss demanded silence, and everyone obeyed him." },
           { es: "Agradeci-lhe a ajuda e despedi-me.", en: "I thanked him for his help and said goodbye." },
@@ -2628,7 +2632,7 @@ export const PT_C2_U27: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I prefer this flat to the other one.",
+        source: "I prefer this apartment to the other one.",
         answer: "Prefiro este apartamento ao outro.",
         altAnswers: ["Eu prefiro este apartamento ao outro.", "Prefiro esse apartamento ao outro.", "Eu prefiro esse apartamento ao outro."],
         explanation: "Norm regência: \"preferir X a Y\", never \"do que\". With a pronoun: \"prefiro-o ao outro\".",

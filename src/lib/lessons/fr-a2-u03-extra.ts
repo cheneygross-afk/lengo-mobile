@@ -163,7 +163,7 @@ export const FR_A2_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "We walked to the beach.",
+        question: "How do you say: We walked to the beach?",
         options: [
           "Nous sommes marchés jusqu'à la plage.",
           "Nous avons marché jusqu'à la plage.",
@@ -536,7 +536,7 @@ export const FR_A2_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Didn't you come by train? — Yes, I did (a man).",
+        question: "A friend asks you (a man): \"Tu n'es pas venu en train ?\" You did come by train. What do you answer?",
         options: ["Si, je suis venu en train.", "Oui, je suis venu en train.", "Si, j'ai venu en train.", "Non, je suis venu en train."],
         correctIndex: 0,
         explanation: "\"Si\" answers a negative question; \"venir\" → \"être\".",
@@ -1503,13 +1503,14 @@ export const FR_A2_U03_EXTRA: Lesson[] = [
         source: "We arrived first.",
         answer: "On est arrivés les premiers.",
         altAnswers: [
-          "On est arrivées les premiers.",
           "On est arrivé les premiers.",
           "Nous sommes arrivés les premiers.",
           "Nous sommes arrivées les premières.",
           "On est arrivées les premières.",
+          "On est arrivés en premier.",
+          "Nous sommes arrivés en premier.",
         ],
-        explanation: "Agree with the real people.",
+        explanation: "Agree with the real people: \"arrivés les premiers\" (men or mixed), \"arrivées les premières\" (women only): \"premier\" agrees too. \"En premier\" never changes.",
       },
       {
         type: "translate",

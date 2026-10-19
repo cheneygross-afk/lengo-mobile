@@ -217,13 +217,13 @@ export const PT_B1_U24: Lesson[] = [
       {
         heading: "The SUS: UBS, UPA, pronto-socorro",
         body: [
-          "The SUS (Sistema Único de Saúde) is Brazil's public health system, free for everyone in the country, foreigners included. You register at your nearest health centre and get the \"cartão do SUS\", with a personal number.",
-          "Three doors matter. The \"UBS\" (Unidade Básica de Saúde), usually called the \"posto de saúde\", is for check-ups, vaccines, chronic conditions and non-urgent problems. The \"UPA\" (Unidade de Pronto Atendimento) is a 24-hour urgent care centre for things like a high fever or a deep cut. The \"pronto-socorro\" is a hospital's emergency room.",
-          "At the UPA and pronto-socorro there is a \"triagem\" (triage): you're seen by urgency, not by arrival, so a long wait usually means your case is not serious.",
+          "The SUS (Sistema Único de Saúde) is Brazil's public health system, free for everyone in the country, foreigners included. You register at your nearest health center and get the \"cartão do SUS\", with a personal number.",
+          "Three doors matter. The \"UBS\" (Unidade Básica de Saúde), usually called the \"posto de saúde\", is for check-ups, vaccines, chronic conditions and non-urgent problems. The \"UPA\" (Unidade de Pronto Atendimento) is a 24-hour urgent care center for things like a high fever or a deep cut. The \"pronto-socorro\" is a hospital's emergency room.",
+          "At the UPA and pronto-socorro there is a \"triagem\" (triage): you're seen by urgency, not by arrival, so a long wait usually means you've been classed as less urgent.",
         ],
         examples: [
           { es: "Você já tem o cartão do SUS?", en: "Do you have your SUS card yet?" },
-          { es: "A vacina da gripe está disponível no posto de saúde.", en: "The flu vaccine is available at the health centre." },
+          { es: "A vacina da gripe está disponível no posto de saúde.", en: "The flu vaccine is available at the health center." },
           { es: "De noite, a UPA é a melhor opção.", en: "At night, the UPA is the best option." },
           { es: "Levaram ele direto para o pronto-socorro.", en: "They took him straight to the emergency room." },
           { es: "A triagem decide quem entra primeiro.", en: "Triage decides who goes in first." },
@@ -289,7 +289,7 @@ export const PT_B1_U24: Lesson[] = [
         examples: [
           { es: "É melhor que você vá à UPA agora.", en: "You'd better go to the UPA now." },
           { es: "É importante que ele procure um médico hoje.", en: "It's important that he sees a doctor today." },
-          { es: "Para uma consulta de rotina, é melhor ir ao posto.", en: "For a routine appointment, it's better to go to the health centre." },
+          { es: "Para uma consulta de rotina, é melhor ir ao posto.", en: "For a routine appointment, it's better to go to the health center." },
           { es: "Caso a dor no peito volte, chame o SAMU.", en: "If the chest pain comes back, call an ambulance." },
         ],
         checkpoint: [
@@ -360,7 +360,7 @@ export const PT_B1_U24: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The flu vaccine is available at the health centre.",
+        source: "The flu vaccine is available at the health center.",
         answer: "A vacina da gripe está disponível no posto de saúde.",
         altAnswers: ["A vacina contra a gripe está disponível no posto de saúde.", "A vacina da gripe está disponível no posto.", "Tem vacina da gripe no posto de saúde.", "A vacina da gripe está disponível na UBS."],
         explanation: "The UBS is usually called the \"posto de saúde\" or just the \"posto\".",
@@ -406,13 +406,13 @@ export const PT_B1_U24: Lesson[] = [
       {
         heading: "Marcar consulta, encaixe",
         body: [
-          "An appointment is a \"consulta\", and you \"marcar\" (book), \"desmarcar\" (cancel) or \"remarcar\" (reschedule) it. A family doctor or GP is a \"clínico geral\". Ask for a time with an indirect question or a polite conditional: \"Gostaria de marcar uma consulta com um clínico geral\", \"Teria algum horário essa semana?\".",
+          "An appointment is a \"consulta\", and you \"marcar\" (book), \"desmarcar\" (cancel) or \"remarcar\" (reschedule) it. A family doctor or general practitioner is a \"clínico geral\". Ask for a time with an indirect question or a polite conditional: \"Gostaria de marcar uma consulta com um clínico geral\", \"Teria algum horário essa semana?\".",
           "If the agenda is full, ask for an \"encaixe\": a slot squeezed in between booked patients, usually with a wait. \"Será que dá para fazer um encaixe hoje?\" is the friendly way to ask.",
         ],
         examples: [
-          { es: "Gostaria de marcar uma consulta com um clínico geral.", en: "I'd like to book an appointment with a GP." },
+          { es: "Gostaria de marcar uma consulta com um clínico geral.", en: "I'd like to book an appointment with a general practitioner." },
           { es: "Teria algum horário essa semana?", en: "Would there be a slot this week?" },
-          { es: "A agenda está cheia até o dia vinte.", en: "The diary is full until the twentieth." },
+          { es: "A agenda está cheia até o dia vinte.", en: "The schedule is full until the twentieth." },
           { es: "Será que dá para fazer um encaixe hoje?", en: "Is there any chance of squeezing me in today?" },
           { es: "Preciso remarcar a minha consulta de quinta.", en: "I need to reschedule my Thursday appointment." },
         ],
@@ -421,10 +421,10 @@ export const PT_B1_U24: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I'd like to book an appointment with a GP.",
+            source: "I'd like to book an appointment with a general practitioner.",
             answer: "Gostaria de marcar uma consulta com um clínico geral.",
             altAnswers: ["Eu gostaria de marcar uma consulta com um clínico geral.", "Eu queria marcar uma consulta com um clínico geral.", "Queria marcar uma consulta com um clínico geral.", "Gostaria de marcar uma consulta com uma clínica geral.", "Gostaria de agendar uma consulta com um clínico geral.", "Eu gostaria de agendar uma consulta com um clínico geral."],
-            explanation: "\"Marcar\" (or \"agendar\") \"uma consulta\". A GP is a \"clínico geral\".",
+            explanation: "\"Marcar\" (or \"agendar\") \"uma consulta\". A general practitioner is a \"clínico geral\".",
           },
           {
             type: "multiple-choice",
@@ -446,7 +446,7 @@ export const PT_B1_U24: Lesson[] = [
           { es: "O ortopedista pediu uma radiografia do joelho.", en: "The orthopaedist ordered an X-ray of my knee." },
           { es: "A pediatra da minha filha é ótima.", en: "My daughter's paediatrician is excellent." },
           { es: "O retorno é daqui a quinze dias.", en: "The follow-up is in two weeks." },
-          { es: "No posto, eles me deram um encaminhamento para o cardiologista.", en: "At the health centre, they gave me a referral to the cardiologist." },
+          { es: "No posto, eles me deram um encaminhamento para o cardiologista.", en: "At the health center, they gave me a referral to the cardiologist." },
         ],
         checkpoint: [
           {
@@ -478,7 +478,7 @@ export const PT_B1_U24: Lesson[] = [
           { es: "O médico me deu um pedido de exame de sangue.", en: "The doctor gave me a blood test form." },
           { es: "Precisa fazer jejum de oito horas.", en: "You need to fast for eight hours." },
           { es: "O resultado sai em dois dias úteis.", en: "The result comes out in two working days." },
-          { es: "A médica me deu um atestado de três dias.", en: "The doctor signed me off for three days." },
+          { es: "A médica me deu um atestado de três dias.", en: "The doctor gave me a note for three days off." },
           { es: "Não esqueça a receita!", en: "Don't forget the prescription!" },
         ],
         checkpoint: [
@@ -567,7 +567,7 @@ export const PT_B1_U24: Lesson[] = [
         source: "The follow-up is in two weeks.",
         answer: "O retorno é daqui a quinze dias.",
         altAnswers: ["O retorno é daqui a duas semanas.", "O retorno é em quinze dias.", "O retorno é em duas semanas.", "O retorno vai ser daqui a quinze dias."],
-        explanation: "\"Daqui a\" + time: in that long from now. \"Quinze dias\" is the usual fortnight.",
+        explanation: "\"Daqui a\" + time: in that long from now. \"Quinze dias\" is the usual way to say two weeks.",
       },
       {
         type: "dictation",
@@ -577,9 +577,9 @@ export const PT_B1_U24: Lesson[] = [
       {
         type: "speak",
         text: "Gostaria de marcar uma consulta com um clínico geral.",
-        prompt: "Say it in Portuguese: I'd like to book an appointment with a GP.",
-        tip: "\"Clínico\" is stressed on the first syllable: CLÍ-ni-co.",
-        explanation: "\"Gostaria de\" + \"marcar uma consulta\" is the polite way to book. A GP is a \"clínico geral\".",
+        prompt: "Say it in Portuguese: I'd like to book an appointment with a general practitioner.",
+        tip: "\"Clínico\" is stressed on the first syllable: CLÍ-ni-ku.",
+        explanation: "\"Gostaria de\" + \"marcar uma consulta\" is the polite way to book. A general practitioner is a \"clínico geral\".",
       },
     ],
   },
@@ -627,7 +627,7 @@ export const PT_B1_U24: Lesson[] = [
         heading: "The bula",
         body: [
           "The \"bula\" is the leaflet inside the box. Look for \"uso adulto\" or \"uso pediátrico\", \"posologia\" (dosage), \"contraindicações\" and \"efeitos colaterais\" (side effects), and \"venda sob prescrição médica\" (prescription only).",
-          "A coloured stripe on the box tells you how controlled it is: no stripe for simple painkillers, \"tarja vermelha\" for prescription drugs, \"tarja preta\" for strictly controlled ones, where the pharmacy keeps your prescription. A \"genérico\" has the same active ingredient as the brand and costs less; ask \"tem genérico?\".",
+          "A colored stripe on the box tells you how controlled it is: no stripe for simple painkillers, \"tarja vermelha\" for prescription drugs, \"tarja preta\" for strictly controlled ones, where the pharmacy keeps your prescription. A \"genérico\" has the same active ingredient as the brand and costs less; ask \"tem genérico?\".",
         ],
         examples: [
           { es: "Pode causar sonolência como efeito colateral.", en: "It can cause drowsiness as a side effect." },
@@ -659,7 +659,7 @@ export const PT_B1_U24: Lesson[] = [
       {
         heading: "Asking the farmacêutico",
         body: [
-          "Brazilian pharmacies (\"farmácia\" or \"drogaria\") have a \"farmacêutico\" on duty who can advise on simple problems. Use the subjunctive from Unit 5 to describe what you need: \"Tem algum remédio para enjoo que não precise de receita?\".",
+          "Brazilian pharmacies (\"farmácia\" or \"drogaria\") have a \"farmacêutico\" on duty who can advise on simple problems. Use the subjunctive in descriptions to say what you need: \"Tem algum remédio para enjoo que não precise de receita?\".",
           "The advice you get comes in the subjunctive too: \"recomendo que a senhora tome depois do almoço\", \"é bom que evite bebida alcoólica\", \"é importante que o senhor termine o antibiótico\".",
         ],
         examples: [
@@ -691,7 +691,7 @@ export const PT_B1_U24: Lesson[] = [
             type: "speak",
             text: "Posso tomar junto com o remédio de pressão?",
             prompt: "Say it in Portuguese: Can I take it together with my blood pressure medicine?",
-            tip: "\"Remédio\" has an open é: re-MÉ-dio, and the d before i sounds like j.",
+            tip: "\"Remédio\" has an open é: he-MÉ-djiu, with a throaty h for the initial r and the d before i sounding like dj.",
             explanation: "\"Remédio de pressão\" is the everyday way to say blood pressure medicine.",
           },
         ],
@@ -870,13 +870,13 @@ export const PT_B1_U24: Lesson[] = [
       {
         heading: "O endereço e um ponto de referência",
         body: [
-          "Give the address in the Brazilian order: street, \"número\", then flat and block, then \"bairro\" (district): \"Rua Pará, número 230, apartamento 52, bloco B, no bairro Aldeota\". Operators always ask for a \"ponto de referência\", a landmark: \"fica em frente à padaria\", \"perto da escola\", \"na esquina com a Rua Ceará\".",
+          "Give the address in the Brazilian order: street, \"número\", then apartment and block, then \"bairro\" (district): \"Rua Pará, número 230, apartamento 52, bloco B, no bairro Aldeota\". Operators always ask for a \"ponto de referência\", a landmark: \"fica em frente à padaria\", \"perto da escola\", \"na esquina com a Rua Ceará\".",
           "The operator will then give instructions in the imperative: \"não mexa nele\" (don't move him), \"fique com ela\", \"aperte o corte com um pano\". You can promise help at the door: \"vou deixar o portão aberto\".",
         ],
         examples: [
-          { es: "É na Rua Pará, número 230, apartamento 52.", en: "It's at 230 Rua Pará, flat 52." },
-          { es: "O ponto de referência é a farmácia da esquina.", en: "The landmark is the chemist on the corner." },
-          { es: "Fica em frente à escola municipal.", en: "It's opposite the local school." },
+          { es: "É na Rua Pará, número 230, apartamento 52.", en: "It's at 230 Rua Pará, apartment 52." },
+          { es: "O ponto de referência é a farmácia da esquina.", en: "The landmark is the pharmacy on the corner." },
+          { es: "Fica em frente à escola municipal.", en: "It's across from the local school." },
           { es: "Não mexa nele e fique do lado dele.", en: "Don't move him and stay by his side." },
           { es: "Vou deixar o portão aberto.", en: "I'll leave the gate open." },
         ],
@@ -885,7 +885,7 @@ export const PT_B1_U24: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "It's opposite the bakery.",
+            source: "It's across from the bakery.",
             answer: "Fica em frente à padaria.",
             altAnswers: ["É em frente à padaria.", "Fica na frente da padaria.", "É na frente da padaria.", "Fica de frente para a padaria."],
             explanation: "\"Em frente a\" + \"a padaria\" gives \"em frente à padaria\"; in speech also \"na frente da\".",
@@ -893,8 +893,8 @@ export const PT_B1_U24: Lesson[] = [
           {
             type: "speak",
             text: "O ponto de referência é a farmácia da esquina.",
-            prompt: "Say it in Portuguese: The landmark is the chemist on the corner.",
-            tip: "\"Referência\": re-fe-RÊN-cia, with a closed nasal ê.",
+            prompt: "Say it in Portuguese: The landmark is the pharmacy on the corner.",
+            tip: "\"Referência\": he-fe-RÊN-sya, with a throaty h for the initial r and a closed nasal ê.",
             explanation: "A \"ponto de referência\" helps the ambulance find you.",
           },
         ],
@@ -998,7 +998,7 @@ export const PT_B1_U24: Lesson[] = [
           "A pattern over recent weeks is the perfeito composto again: \"tenho sentido sensibilidade no frio\" (my teeth have been sensitive to cold), \"minha gengiva tem sangrado\" (my gums have been bleeding). One event is the perfeito: \"quebrei um dente\", \"caiu uma obturação\".",
         ],
         examples: [
-          { es: "Estou com dor de dente desde sábado.", en: "I've had toothache since Saturday." },
+          { es: "Estou com dor de dente desde sábado.", en: "I've had a toothache since Saturday." },
           { es: "Dói quando eu mastigo.", en: "It hurts when I chew." },
           { es: "Tenho sentido sensibilidade no frio.", en: "My teeth have been sensitive to cold." },
           { es: "A minha gengiva tem sangrado quando eu escovo.", en: "My gums have been bleeding when I brush." },
@@ -1028,13 +1028,13 @@ export const PT_B1_U24: Lesson[] = [
         heading: "Cárie, obturação, canal",
         body: [
           "The dentist's vocabulary: a \"cárie\" (cavity) is fixed with an \"obturação\" (filling), or in speech \"restauração\". A deep problem needs a \"tratamento de canal\" (root canal). A \"limpeza\" is a cleaning; the \"siso\" is a wisdom tooth, often \"extraído\" or, in speech, \"arrancado\"; braces are an \"aparelho\".",
-          "Ask what will happen with indirect questions and the future: \"vou precisar tirar o siso?\", \"poderia me dizer quanto custa o canal?\", \"vai doer?\". Local anaesthetic is \"anestesia\".",
+          "Ask what will happen with indirect questions and the future: \"vou precisar tirar o siso?\", \"poderia me dizer quanto custa o canal?\", \"vai doer?\". Local anesthetic is \"anestesia\".",
         ],
         examples: [
           { es: "Você tem uma cárie nesse dente aqui.", en: "You have a cavity in this tooth here." },
           { es: "Vou precisar fazer canal?", en: "Am I going to need a root canal?" },
           { es: "É bom fazer uma limpeza a cada seis meses.", en: "It's good to have a cleaning every six months." },
-          { es: "Vou precisar tirar o siso?", en: "Will I need to have my wisdom tooth out?" },
+          { es: "Vou precisar tirar o siso?", en: "Will I need to have my wisdom tooth pulled?" },
           { es: "Poderia me dizer quanto custa o tratamento?", en: "Could you tell me how much the treatment costs?" },
         ],
         checkpoint: [
@@ -1083,7 +1083,7 @@ export const PT_B1_U24: Lesson[] = [
             type: "speak",
             text: "Recomendo que você use fio dental todo dia.",
             prompt: "Say it in Portuguese: I recommend you floss every day.",
-            tip: "The d in \"dia\" sounds like j: JI-a.",
+            tip: "The d in \"dia\" sounds like the j in jeep: DJI-a.",
             explanation: "\"Recomendar que\" + subjunctive \"use\". Floss is \"fio dental\".",
           },
         ],
@@ -1094,7 +1094,7 @@ export const PT_B1_U24: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I've had toothache since Saturday.",
+        source: "I've had a toothache since Saturday.",
         answer: "Estou com dor de dente desde sábado.",
         altAnswers: ["Eu estou com dor de dente desde sábado.", "Tô com dor de dente desde sábado.", "Estou com dor de dente desde o sábado."],
         explanation: "Pain that is still there takes the present \"estou com\" + \"desde\" + starting day. No perfeito composto needed.",
@@ -1127,7 +1127,7 @@ export const PT_B1_U24: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Will I need to have my [wisdom tooth] out?",
+        en: "Will I need to have my [wisdom tooth] pulled?",
         sentence: "Vou precisar tirar o ___?",
         answer: "siso",
         altAnswers: ["dente do siso"],
@@ -1370,7 +1370,7 @@ export const PT_B1_U24: Lesson[] = [
         type: "speak",
         text: "Senti uma dor ontem, mas hoje estou bem.",
         prompt: "Say it in Portuguese: I felt a pain yesterday, but today I'm fine.",
-        tip: "\"Senti\": the t before i sounds like ch, sen-CHI.",
+        tip: "\"Senti\": the t before i sounds like ch, sen-TCHI.",
         explanation: "One episode in the past takes \"senti\", then the present \"estou bem\" for now. The contrast shows it's over.",
       },
     ],
@@ -1459,7 +1459,7 @@ export const PT_B1_U24: Lesson[] = [
         examples: [
           { es: "Pode ser dengue. É importante que o senhor faça o exame.", en: "It could be dengue. It's important that you get tested." },
           { es: "Recomendo que o senhor beba muita água.", en: "I recommend you drink lots of water." },
-          { es: "Não tome anti-inflamatório, só o paracetamol.", en: "Don't take anti-inflammatories, only paracetamol." },
+          { es: "Não tome anti-inflamatório, só o paracetamol.", en: "Don't take anti-inflammatories, only acetaminophen (paracetamol)." },
           { es: "Caso apareça sangramento, volte imediatamente.", en: "If any bleeding appears, come back immediately." },
           { es: "Poderia me dizer quando sai o resultado?", en: "Could you tell me when the result comes out?" },
           { es: "A senhora poderia me dar um atestado?", en: "Could you give me a sick note?" },
@@ -1486,7 +1486,7 @@ export const PT_B1_U24: Lesson[] = [
             type: "speak",
             text: "A senhora poderia me dar um atestado?",
             prompt: "Say it in Portuguese: Could you give me a sick note? (to the doctor)",
-            tip: "\"Atestado\": a-tes-TA-do, with a soft d.",
+            tip: "\"Atestado\": a-tes-TA-du, with the final o said u.",
             explanation: "\"Poderia\" + \"a senhora\" for a respectful request to the doctor.",
           },
         ],
@@ -1539,7 +1539,7 @@ export const PT_B1_U24: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Don't take anti-inflammatories, only paracetamol.",
+        source: "Don't take anti-inflammatories, only acetaminophen (paracetamol).",
         answer: "Não tome anti-inflamatório, só o paracetamol.",
         altAnswers: ["Não tome anti-inflamatório, só paracetamol.", "Não tome anti-inflamatórios, só paracetamol.", "Não tome anti-inflamatório, apenas paracetamol.", "Não toma anti-inflamatório, só paracetamol."],
         explanation: "The formal negative imperative: \"não tome\". Doctors also use the spoken \"não toma\".",
@@ -1569,7 +1569,7 @@ export const PT_B1_U24: Lesson[] = [
         type: "speak",
         text: "Tenho tido febre todo dia, principalmente à noite.",
         prompt: "Say it in Portuguese: I've been getting a fever every day, especially at night.",
-        tip: "\"Principalmente\": prin-ci-pal-MEN-te, with the final te sounding like chi.",
+        tip: "\"Principalmente\": prin-si-pau-MEN-tchi, with the l said u and the final te sounding like tchi.",
         explanation: "\"Tenho tido\" + \"todo dia\": a pattern up to now.",
       },
     ],
@@ -1585,7 +1585,7 @@ export const PT_B1_U24: Lesson[] = [
       {
         heading: "Central de atendimento, boa tarde",
         body: [
-          "Anna, a German designer living in São Paulo, has been having knee pain for weeks. Her ortopedista wants an MRI (\"ressonância magnética\"), and she calls her plan to check before booking. After the menu, Rodrigo answers with the call-centre formula and asks for her \"carteirinha\" number and CPF.",
+          "Anna, a German designer living in São Paulo, has been having knee pain for weeks. Her ortopedista wants an MRI (\"ressonância magnética\"), and she calls her plan to check before booking. After the menu, Rodrigo answers with the call-center formula and asks for her \"carteirinha\" number and CPF.",
           "Notice Anna's opening: a greeting, her reason in one line with \"gostaria de saber se\", and then she waits for the agent's questions.",
         ],
         examples: [
@@ -1675,7 +1675,7 @@ export const PT_B1_U24: Lesson[] = [
             type: "speak",
             text: "Poderia me passar o protocolo, por favor?",
             prompt: "Say it in Portuguese: Could you give me the reference number, please?",
-            tip: "\"Protocolo\": pro-to-CÓ-lo, with an open ó.",
+            tip: "\"Protocolo\": pro-to-CÓ-lu, with an open ó and the final o said u.",
             explanation: "The protocolo is your proof of what the plan told you.",
           },
           {
@@ -1745,7 +1745,7 @@ export const PT_B1_U24: Lesson[] = [
         prompt: "Put the words in order to say: Could you give me your card number?",
         words: ["Poderia", "me", "informar", "o", "número", "da", "carteirinha?"],
         translation: "Could you give me your card number?",
-        explanation: "\"Informar\" is the formal give or tell in call-centre speech.",
+        explanation: "\"Informar\" is the formal give or tell in call-center speech.",
       },
       {
         type: "translate",
@@ -1765,7 +1765,7 @@ export const PT_B1_U24: Lesson[] = [
         type: "speak",
         text: "Eu entrei no plano em março. Ainda estou na carência?",
         prompt: "Say it in Portuguese: I joined the plan in March. Am I still in the waiting period?",
-        tip: "\"Carência\": ca-RÊN-cia, with a closed nasal ê.",
+        tip: "\"Carência\": ca-RÊN-sya, with a closed nasal ê.",
         explanation: "A past date with the perfeito, then a question about now.",
       },
     ],
@@ -1789,9 +1789,9 @@ export const PT_B1_U24: Lesson[] = [
         examples: [
           { es: "Tive febre ontem.", en: "I had a fever yesterday." },
           { es: "Tenho tido febre à noite.", en: "I've been getting a fever at night." },
-          { es: "Estou doente há três dias.", en: "I've been ill for three days." },
-          { es: "Faz três dias que estou doente.", en: "I've been ill for three days." },
-          { es: "Estou doente desde segunda.", en: "I've been ill since Monday." },
+          { es: "Estou doente há três dias.", en: "I've been sick for three days." },
+          { es: "Faz três dias que estou doente.", en: "I've been sick for three days." },
+          { es: "Estou doente desde segunda.", en: "I've been sick since Monday." },
         ],
         checkpoint: [
           {
@@ -1806,8 +1806,8 @@ export const PT_B1_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"Estou doente desde três dias.\" Translate the English correctly: I've been ill for three days.",
-            source: "I've been ill for three days.",
+            prompt: "A learner wrote \"Estou doente desde três dias.\" Translate the English correctly: I've been sick for three days.",
+            source: "I've been sick for three days.",
             answer: "Estou doente há três dias.",
             altAnswers: ["Faz três dias que estou doente.", "Estou doente faz três dias.", "Há três dias que estou doente.", "Faz três dias que eu estou doente.", "Eu estou doente há três dias."],
             explanation: "A length of time takes \"há\" or \"faz\"; \"desde\" needs a starting point.",
@@ -1824,7 +1824,7 @@ export const PT_B1_U24: Lesson[] = [
           { es: "A médica recomenda que eu tome bastante água.", en: "The doctor recommends that I drink plenty of water." },
           { es: "É importante que você descanse.", en: "It's important that you rest." },
           { es: "Tomar de oito em oito horas.", en: "Take every eight hours." },
-          { es: "O posto atende de segunda a sexta.", en: "The health centre is open Monday to Friday." },
+          { es: "O posto atende de segunda a sexta.", en: "The health center is open Monday to Friday." },
         ],
         checkpoint: [
           {
@@ -1857,12 +1857,12 @@ export const PT_B1_U24: Lesson[] = [
       {
         heading: "*Tenho uma dor na minha cabeça, *a prescrição",
         body: [
-          "\"Tenho uma dor na minha cabeça\" is grammatical but nobody says it. The set phrase is \"estou com dor de cabeça\", and body parts usually take \"o\" or \"a\", not \"meu\" or \"minha\": \"dói a barriga\", \"machuquei o pé\".",
+          "\"Tenho uma dor na minha cabeça\" is grammatical but sounds unnatural. The set phrase is \"estou com dor de cabeça\", and body parts usually take \"o\" or \"a\", not \"meu\" or \"minha\": \"dói a barriga\", \"machuquei o pé\".",
           "\"A prescrição\" exists on the bula (\"venda sob prescrição médica\"), but in a conversation the doctor gives you a \"receita\": \"o médico me passou uma receita\".",
         ],
         examples: [
           { es: "Estou com dor de cabeça.", en: "I've got a headache." },
-          { es: "Machuquei o pé jogando futebol.", en: "I hurt my foot playing football." },
+          { es: "Machuquei o pé jogando futebol.", en: "I hurt my foot playing soccer." },
           { es: "O médico me passou uma receita.", en: "The doctor gave me a prescription." },
           { es: "Esse remédio precisa de receita?", en: "Does this medicine need a prescription?" },
         ],
@@ -1874,7 +1874,7 @@ export const PT_B1_U24: Lesson[] = [
             source: "I've got a headache.",
             answer: "Estou com dor de cabeça.",
             altAnswers: ["Eu estou com dor de cabeça.", "Tô com dor de cabeça.", "Estou com uma dor de cabeça."],
-            explanation: "The set phrase is \"estar com dor de cabeça\". \"Tenho uma dor na minha cabeça\" is grammatical but nobody says it.",
+            explanation: "The set phrase is \"estar com dor de cabeça\". \"Tenho uma dor na minha cabeça\" is grammatical but sounds unnatural.",
           },
           {
             type: "translate",
@@ -1893,10 +1893,10 @@ export const PT_B1_U24: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I've been ill since Monday.",
+        source: "I've been sick since Monday.",
         answer: "Estou doente desde segunda.",
         altAnswers: ["Estou doente desde segunda-feira.", "Eu estou doente desde segunda.", "Eu estou doente desde segunda-feira."],
-        explanation: "\"Desde\" + a starting point (\"segunda\"), with the present because you are still ill.",
+        explanation: "\"Desde\" + a starting point (\"segunda\"), with the present because you are still sick.",
       },
       {
         type: "translate",
@@ -1918,7 +1918,7 @@ export const PT_B1_U24: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I hurt my foot playing football.",
+        source: "I hurt my foot playing soccer.",
         answer: "Machuquei o pé jogando futebol.",
         altAnswers: ["Eu machuquei o pé jogando futebol.", "Machuquei meu pé jogando futebol.", "Eu machuquei meu pé jogando futebol.", "Me machuquei no pé jogando futebol."],
         explanation: "Body parts usually take \"o\" or \"a\"; the owner is clear.",
@@ -1935,7 +1935,7 @@ export const PT_B1_U24: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "He's had diarrhoea for two days.",
+        source: "He's had diarrhea for two days.",
         answer: "Faz dois dias que ele está com diarreia.",
         altAnswers: ["Ele está com diarreia há dois dias.", "Ele está com diarreia faz dois dias.", "Há dois dias que ele está com diarreia.", "Faz dois dias que ele tem diarreia."],
         explanation: "Still going on: present + \"faz\" or \"há\". Note the Brazilian spelling \"diarreia\".",
@@ -1951,9 +1951,9 @@ export const PT_B1_U24: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The health centre is open Monday to Friday.",
+        prompt: "Put the words in order to say: The health center is open Monday to Friday.",
         words: ["O", "posto", "atende", "de", "segunda", "a", "sexta."],
-        translation: "The health centre is open Monday to Friday.",
+        translation: "The health center is open Monday to Friday.",
         explanation: "\"De... a...\" is from... to...; for every, use \"de... em...\".",
       },
       {
@@ -1964,8 +1964,8 @@ export const PT_B1_U24: Lesson[] = [
       {
         type: "speak",
         text: "Faz três dias que estou doente.",
-        prompt: "Say it in Portuguese: I've been ill for three days.",
-        tip: "\"Doente\": do-EN-te, with the final te like chi.",
+        prompt: "Say it in Portuguese: I've been sick for three days.",
+        tip: "\"Doente\": du-EN-tchi, with the final te like tchi.",
         explanation: "\"Faz\" + time + \"que\" + present: the illness started three days ago and is still going on.",
       },
     ],
@@ -2049,11 +2049,11 @@ export const PT_B1_U24: Lesson[] = [
         heading: "A message to your manager",
         body: [
           "The doctor gave you a two-day \"atestado\". Message your manager the same day: say what happened (perfeito), how you've been feeling (composto), attach a photo of the atestado, and handle work with the subjunctive: \"peço que você avise a equipe\", \"espero que não atrapalhe a entrega de sexta\".",
-          "In a Brazilian office this is usually a WhatsApp message: friendly, but clear. \"Passei mal\" (I was taken ill) is the everyday phrase.",
+          "In a Brazilian office this is usually a WhatsApp message: friendly, but clear. \"Passei mal\" (I felt sick, I got sick) is the everyday phrase.",
         ],
         examples: [
-          { es: "Oi, Carla, tudo bem? Passei mal ontem e fui ao médico.", en: "Hi Carla, how are you? I was taken ill yesterday and went to the doctor." },
-          { es: "Tenho tido muita tontura, e ele me deu um atestado de dois dias.", en: "I've been getting very dizzy, and he signed me off for two days." },
+          { es: "Oi, Carla, tudo bem? Passei mal ontem e fui ao médico.", en: "Hi Carla, how are you? I got sick yesterday and went to the doctor." },
+          { es: "Tenho tido muita tontura, e ele me deu um atestado de dois dias.", en: "I've been getting very dizzy, and he gave me a doctor's note for two days." },
           { es: "Vou mandar a foto do atestado aqui.", en: "I'll send the photo of the sick note here." },
           { es: "Peço que você avise a equipe, por favor.", en: "Please let the team know." },
           { es: "Espero que isso não atrapalhe a entrega de sexta.", en: "I hope this doesn't get in the way of Friday's deadline." },
@@ -2063,10 +2063,10 @@ export const PT_B1_U24: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I was taken ill yesterday and went to the doctor.",
+            source: "I got sick yesterday and went to the doctor.",
             answer: "Passei mal ontem e fui ao médico.",
             altAnswers: ["Eu passei mal ontem e fui ao médico.", "Ontem passei mal e fui ao médico.", "Ontem eu passei mal e fui ao médico.", "Passei mal ontem e fui no médico.", "Fiquei doente ontem e fui ao médico."],
-            explanation: "\"Passar mal\" is the everyday felt ill; two events in the perfeito.",
+            explanation: "\"Passar mal\" is the everyday felt sick; two events in the perfeito.",
           },
           {
             type: "fill-blank",
@@ -2080,7 +2080,7 @@ export const PT_B1_U24: Lesson[] = [
             type: "speak",
             text: "Vou mandar a foto do atestado aqui.",
             prompt: "Say it in Portuguese: I'll send the photo of the sick note here.",
-            tip: "Run \"do atestado\" together: dua-tes-TA-do.",
+            tip: "Run \"do atestado\" together: dua-tes-TA-du.",
             explanation: "Brazilian employees often send a photo of the atestado first and hand in the original later.",
           },
         ],
@@ -2133,10 +2133,10 @@ export const PT_B1_U24: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "He signed me off for two days.",
+        source: "He gave me a doctor's note for two days.",
         answer: "Ele me deu um atestado de dois dias.",
         altAnswers: ["O médico me deu um atestado de dois dias.", "Ele me deu atestado de dois dias.", "A médica me deu um atestado de dois dias."],
-        explanation: "To be signed off is \"receber um atestado de\" + days.",
+        explanation: "A doctor's note for time off work is \"um atestado de\" + days: \"me deu um atestado de dois dias\".",
       },
       {
         type: "translate",
@@ -2157,7 +2157,7 @@ export const PT_B1_U24: Lesson[] = [
       {
         type: "dictation",
         audio: "Passei mal ontem e fui ao médico.",
-        explanation: "\"Passar mal\" is the everyday way to say you felt or were taken ill. Two events follow in the perfeito.",
+        explanation: "\"Passar mal\" is the everyday way to say you felt sick or got sick. Two events follow in the perfeito.",
       },
       {
         type: "translate",
@@ -2189,7 +2189,7 @@ export const PT_B1_U24: Lesson[] = [
           { es: "Tenho sentido muito cansaço nas últimas semanas.", en: "I've been feeling very tired in the last few weeks." },
           { es: "Faz dez dias que essa coceira não passa.", en: "This itching hasn't gone away for ten days." },
           { es: "Ontem à noite tive falta de ar.", en: "Last night I was short of breath." },
-          { es: "O inchaço melhorou desde que comecei o remédio.", en: "The swelling has got better since I started the medicine." },
+          { es: "O inchaço melhorou desde que comecei o remédio.", en: "The swelling has gotten better since I started the medicine." },
         ],
         checkpoint: [
           {
@@ -2217,7 +2217,7 @@ export const PT_B1_U24: Lesson[] = [
           "The posto, the UPA, the plan and the pharmacy, with advice in the subjunctive.",
         ],
         examples: [
-          { es: "É melhor que você procure o posto amanhã cedo.", en: "You'd better go to the health centre early tomorrow." },
+          { es: "É melhor que você procure o posto amanhã cedo.", en: "You'd better go to the health center early tomorrow." },
           { es: "O meu convênio não cobre dentista.", en: "My health plan doesn't cover the dentist." },
           { es: "Recomendo que a senhora tome o remédio em jejum.", en: "I recommend you take the medicine on an empty stomach." },
           { es: "Caso a febre não baixe, vá direto à UPA.", en: "If the fever doesn't come down, go straight to the UPA." },
@@ -2247,8 +2247,8 @@ export const PT_B1_U24: Lesson[] = [
           "Events in the perfeito, the situation now with estar + gerund, and the dentist's vocabulary.",
         ],
         examples: [
-          { es: "O meu vizinho desmaiou e está desacordado.", en: "My neighbour fainted and he's unconscious." },
-          { es: "Fica na esquina da padaria, em frente ao ponto de ônibus.", en: "It's on the bakery's corner, opposite the bus stop." },
+          { es: "O meu vizinho desmaiou e está desacordado.", en: "My neighbor fainted and he's unconscious." },
+          { es: "Fica na esquina da padaria, em frente ao ponto de ônibus.", en: "It's on the bakery's corner, across from the bus stop." },
           { es: "Tenho sentido dor quando mastigo do lado esquerdo.", en: "I've been getting pain when I chew on the left side." },
           { es: "A dentista disse que vou precisar fazer canal.", en: "The dentist said I'll need a root canal." },
         ],
@@ -2257,7 +2257,7 @@ export const PT_B1_U24: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "My neighbour fainted and he's unconscious.",
+            source: "My neighbor fainted and he's unconscious.",
             answer: "O meu vizinho desmaiou e está desacordado.",
             altAnswers: ["Meu vizinho desmaiou e está desacordado.", "O meu vizinho desmaiou e está inconsciente.", "Meu vizinho desmaiou e está inconsciente.", "A minha vizinha desmaiou e está desacordada.", "Minha vizinha desmaiou e está desacordada."],
             explanation: "The event \"desmaiou\" in the perfeito, the state now with \"está\".",
@@ -2296,10 +2296,10 @@ export const PT_B1_U24: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "You'd better [go to] the health centre early tomorrow.",
+        en: "You'd better [go to] the health center early tomorrow.",
         sentence: "É melhor que você ___ o posto amanhã cedo.",
         answer: "procure",
-        explanation: "\"Procurar\" a doctor or health centre; \"é melhor que\" + subjunctive \"procure\".",
+        explanation: "\"Procurar\" a doctor or health center; \"é melhor que\" + subjunctive \"procure\".",
       },
       {
         type: "translate",
@@ -2330,7 +2330,7 @@ export const PT_B1_U24: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The swelling has got better since I started the medicine.",
+        source: "The swelling has gotten better since I started the medicine.",
         answer: "O inchaço melhorou desde que comecei o remédio.",
         altAnswers: ["O inchaço melhorou desde que eu comecei o remédio.", "O inchaço melhorou desde que comecei a tomar o remédio.", "O inchaço melhorou desde que eu comecei a tomar o remédio.", "O inchaço tem melhorado desde que comecei o remédio."],
         explanation: "\"Melhorou\" for the change; \"desde que\" + perfeito for the starting point.",
@@ -2360,7 +2360,7 @@ export const PT_B1_U24: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "o posto de saúde", right: "the health centre" },
+          { left: "o posto de saúde", right: "the health center" },
           { left: "o pronto-socorro", right: "the emergency room" },
           { left: "o atestado", right: "the sick note" },
           { left: "a receita", right: "the prescription" },
@@ -2374,7 +2374,7 @@ export const PT_B1_U24: Lesson[] = [
 
 export const PT_B1_U24_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You live in Recife. You were ill last week and went to a UPA. Now your Brazilian flatmate, Bruno, says he has similar symptoms. Write him a message: describe how you have been feeling lately and for how long, tell him what happened at the UPA and what the doctor said, and give him advice about where to go and what to do.",
+  prompt: "You live in Recife. You were sick last week and went to a UPA. Now your Brazilian roommate, Bruno, says he has similar symptoms. Write him a message: describe how you have been feeling lately and for how long, tell him what happened at the UPA and what the doctor said, and give him advice about where to go and what to do.",
   minWords: 80,
   maxWords: 150,
   rubric: [

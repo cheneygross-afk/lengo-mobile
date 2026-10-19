@@ -15,7 +15,7 @@ export const PT_C1_U04: Lesson[] = [
       {
         heading: "How the redação is scored: competências 1 and 2",
         body: [
-          "The ENEM \"redação\" is a \"texto dissertativo-argumentativo\" of up to 30 lines. Two examiners mark it on five \"competências\", each worth 0 to 200 points, for 1,000 in total. Some faults zero the whole essay before any points are counted: \"fuga ao tema\" (missing the theme), a text of seven lines or fewer, or a text that isn't argumentative prose, such as a story or a poem.",
+          "The ENEM \"redação\" is a \"texto dissertativo-argumentativo\" of up to 30 lines. Two examiners grade it on five \"competências\", each worth 0 to 200 points, for 1,000 in total. Some faults zero the whole essay before any points are counted: \"fuga ao tema\" (missing the theme), a text of seven lines or fewer, or a text that isn't argumentative prose, such as a story or a poem.",
           "\"Competência 1\" is the \"norma-padrão\": spelling, accents, \"crase\", \"regência\", agreement, punctuation and syntax. A top essay has at most one or two slips and no marks of speech. \"A gente\", \"pra\" and \"tá\" all cost points here.",
           "\"Competência 2\" checks that you understood the \"proposta\" and wrote on the exact theme, not the broad subject. In 2023 the theme was the invisibility of care work done by women in Brazil. An essay on women in the job market in general is \"tangenciamento\" and drops to the lower bands. This competência also rewards \"repertório sociocultural\": a law, a thinker, data or a historical fact that is legitimate, relevant and actually used in the argument.",
         ],
@@ -65,7 +65,7 @@ export const PT_C1_U04: Lesson[] = [
         body: [
           "\"Competência 3\" judges the \"projeto de texto\": a visible plan in which the introduction, the development and the conclusion defend one point of view. Examiners want information that is selected and interpreted, not just listed. A paragraph that piles up data without saying what it proves stays in the middle bands.",
           "\"Competência 4\" is cohesion, the linguistic machinery that ties the text together. That means connectors between and within paragraphs (\"além disso\", \"no entanto\", \"portanto\"). It also means referring back without repetition, through pronouns, synonyms and phrases like \"esse cenário\" or \"tal problema\". Variety counts: opening every paragraph with \"além disso\" is cohesive but earns less.",
-          "The two overlap, but they aren't the same. Cohesion is the surface, and organisation is the logic beneath it. A text full of connectors can still have no plan.",
+          "The two overlap, but they aren't the same. Cohesion is the surface, and organization is the logic beneath it. A text full of connectors can still have no plan.",
         ],
         examples: [
           { es: "Segundo o IBGE, as mulheres dedicam quase o dobro de horas que os homens aos afazeres domésticos.", en: "According to IBGE, women spend almost twice as many hours as men on housework." },
@@ -116,9 +116,9 @@ export const PT_C1_U04: Lesson[] = [
           "Remember that \"a fim de que\" takes the subjunctive, while \"cabe a\" and \"a fim de\" take the infinitive.",
         ],
         examples: [
-          { es: "Cabe ao Ministério da Educação criar programas de conscientização nas escolas.", en: "It's up to the Ministry of Education to create awareness programmes in schools. (agent + action)" },
+          { es: "Cabe ao Ministério da Educação criar programas de conscientização nas escolas.", en: "It's up to the Ministry of Education to create awareness programs in schools. (agent + action)" },
           { es: "Isso deve ser feito por meio de palestras e campanhas nas redes sociais.", en: "This should be done through talks and social media campaigns. (means)" },
-          { es: "O objetivo é que os jovens reconheçam o cuidado como trabalho.", en: "The aim is for young people to recognise care as work. (purpose)" },
+          { es: "O objetivo é que os jovens reconheçam o cuidado como trabalho.", en: "The aim is for young people to recognize care as work. (purpose)" },
           { es: "A sociedade deve mudar sua mentalidade.", en: "Society must change its mindset. (agent too vague: few points)" },
           { es: "Portanto, cabe ao Governo Federal ampliar a oferta de creches públicas em tempo integral, por meio de parcerias com os municípios, a fim de que as mulheres possam conciliar carreira e família.", en: "Therefore, it's up to the Federal Government to expand full-time public daycare, through partnerships with the municipalities, so that women can balance career and family. (all five elements)" },
         ],
@@ -127,7 +127,7 @@ export const PT_C1_U04: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "It's up to the municipalities to create more public daycare centres.",
+            source: "It's up to the municipalities to create more public daycare centers.",
             answer: "Cabe aos municípios criar mais creches públicas.",
             altAnswers: ["Compete aos municípios criar mais creches públicas.", "Cabe às prefeituras criar mais creches públicas."],
             explanation: "\"Caber a\" + agent + infinitive names who acts. The preposition \"a\" joins the article: \"aos municípios\", or \"às prefeituras\" with crase.",
@@ -135,7 +135,7 @@ export const PT_C1_U04: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[It's up to] the Ministry of Education to create awareness programmes.",
+            en: "[It's up to] the Ministry of Education to create awareness programs.",
             sentence: "___ ao Ministério da Educação criar programas de conscientização.",
             answer: "Cabe",
             altAnswers: ["Compete"],
@@ -174,7 +174,7 @@ export const PT_C1_U04: Lesson[] = [
           "O candidato deve discutir o tema, e não só o assunto.",
           "A candidata deve discutir o tema, e não apenas o assunto.",
         ],
-        explanation: "\"Tema\" is the precise question set, and \"assunto\" is the broad area. Writing only about the \"assunto\" is \"tangenciamento\", which is penalised in competência 2.",
+        explanation: "\"Tema\" is the precise question set, and \"assunto\" is the broad area. Writing only about the \"assunto\" is \"tangenciamento\", which is penalized in competência 2.",
       },
       {
         type: "translate",
@@ -214,7 +214,7 @@ export const PT_C1_U04: Lesson[] = [
           "Um texto cheio de conectivos pode não ter plano nenhum.",
           "Um texto cheio de conectivos pode não ter nenhum plano.",
         ],
-        explanation: "\"Não ter projeto nenhum\": \"nenhum\" after the noun is more emphatic. Cohesion (competência 4) doesn't guarantee organisation (competência 3).",
+        explanation: "\"Não ter projeto nenhum\": \"nenhum\" after the noun is more emphatic. Cohesion (competência 4) doesn't guarantee organization (competência 3).",
       },
       {
         type: "translate",
@@ -290,7 +290,7 @@ export const PT_C1_U04: Lesson[] = [
       {
         heading: "Opening with repertório",
         body: [
-          "An ENEM introduction makes three moves in four to six lines: context, thesis and a preview of the arguments. The context works best as \"repertório sociocultural\": a historical fact, a law or a thinker that frames the theme. As the last lesson showed, it only scores in competency 2 if it is \"legítimo\" (relevant) and \"produtivo\" (actually used). Choose something you can tie to the theme in the very next sentence.",
+          "An ENEM introduction makes three moves in four to six lines: context, thesis and a preview of the arguments. The context works best as \"repertório sociocultural\": a historical fact, a law or a thinker that frames the theme. As the last lesson showed, it only scores in competency 2 if it is \"legitimado\" (from a verifiable source), \"pertinente\" (relevant) and \"produtivo\" (actually used). Choose something you can tie to the theme in the very next sentence.",
           "Each type has its formula. A law: \"A Constituição Federal de 1988 assegura, em seu artigo 6º, o direito à educação\". A thinker: \"Segundo o sociólogo Zygmunt Bauman\" or \"Para Paulo Freire\". History: \"Durante o período colonial\". Laws take \"garantir\" or \"assegurar\" in the present, because the text is still in force.",
           "Skip the openings examiners are tired of: \"Desde os primórdios da humanidade\" and the vague \"Hoje em dia\". Also avoid opening with a rhetorical question, a common habit in English essays. It delays the thesis, and readers of the \"dissertação\" expect a statement.",
         ],
@@ -346,18 +346,18 @@ export const PT_C1_U04: Lesson[] = [
           "Keep it impersonal: no \"eu acho que\", no \"na minha opinião\". Stance comes from the frame: \"torna-se evidente que\", \"é inegável que\", \"configura-se como\". The essay follows the written norm, so a pronoun never opens a sentence: \"Torna-se evidente\", never \"Se torna evidente\".",
         ],
         examples: [
-          { es: "No entanto, essa garantia não se concretiza plenamente no Brasil contemporâneo.", en: "However, this guarantee is not fully realised in present-day Brazil." },
+          { es: "No entanto, essa garantia não se concretiza plenamente no Brasil contemporâneo.", en: "However, this guarantee is not fully realized in present-day Brazil." },
           { es: "Contudo, tal cenário ainda está distante da realidade de muitas comunidades quilombolas.", en: "However, this scenario is still far from the reality of many quilombola communities." },
           { es: "Nesse sentido, torna-se evidente que a intolerância religiosa persiste no país.", en: "In this sense, it becomes clear that religious intolerance persists in the country." },
           { es: "É inegável que o trabalho de cuidado realizado pela mulher permanece invisível.", en: "It is undeniable that the care work done by women remains invisible." },
-          { es: "Dessa forma, a democratização do acesso ao cinema configura-se como um desafio urgente.", en: "Thus, democratising access to cinema stands out as an urgent challenge." },
+          { es: "Dessa forma, a democratização do acesso ao cinema configura-se como um desafio urgente.", en: "Thus, democratizing access to cinema stands out as an urgent challenge." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "However, this guarantee is not fully realised in practice.",
+            source: "However, this guarantee is not fully realized in practice.",
             answer: "No entanto, essa garantia não se concretiza plenamente na prática.",
             altAnswers: [
               "Contudo, essa garantia não se concretiza plenamente na prática.",
@@ -398,7 +398,7 @@ export const PT_C1_U04: Lesson[] = [
           { es: "Esse quadro se deve, sobretudo, à negligência governamental e à falta de informação da população.", en: "This situation is due above all to government neglect and to the population's lack of information." },
           { es: "Esse cenário é agravado seja pela influência da mídia, seja pela ausência de políticas públicas eficazes.", en: "This scenario is made worse both by media influence and by the absence of effective public policies." },
           { es: "Tal situação está relacionada à desigualdade social e à falta de fiscalização.", en: "This situation is related to social inequality and to the lack of oversight." },
-          { es: "Diante disso, é necessário analisar os dois principais fatores desse cenário: a herança colonial e a omissão do Estado.", en: "Given this, it is necessary to analyse the two main factors behind this scenario: the colonial legacy and the State's neglect." },
+          { es: "Diante disso, é necessário analisar os dois principais fatores desse cenário: a herança colonial e a omissão do Estado.", en: "Given this, it is necessary to analyze the two main factors behind this scenario: the colonial legacy and the State's neglect." },
         ],
         checkpoint: [
           {
@@ -473,7 +473,7 @@ export const PT_C1_U04: Lesson[] = [
         sentence: "___, tal cenário ainda está distante da realidade de muitas comunidades quilombolas.",
         answer: "Contudo",
         altAnswers: ["No entanto", "Entretanto", "Porém", "Todavia"],
-        explanation: "The bridge needs a formal contrasting connector. \"Mas\" is too informal to open a sentence in the dissertação.",
+        explanation: "The bridge needs a formal contrasting connector. Opening a sentence with \"Mas\" is grammatical, but essay graders and manuals expect \"contudo\", \"no entanto\" and the like in this slot.",
       },
       {
         type: "multiple-choice",
@@ -502,10 +502,10 @@ export const PT_C1_U04: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Thus, democratising access to cinema stands out as an urgent challenge.",
+        prompt: "Put the words in order to say: Thus, democratizing access to cinema stands out as an urgent challenge.",
         words: ["Dessa forma,", "a democratização", "do acesso ao cinema", "configura-se", "como um desafio urgente."],
-        translation: "Thus, democratising access to cinema stands out as an urgent challenge.",
-        explanation: "\"Configura-se como\" is a typical thesis frame. The nominal style turns democratising into the noun \"a democratização\".",
+        translation: "Thus, democratizing access to cinema stands out as an urgent challenge.",
+        explanation: "\"Configura-se como\" is a typical thesis frame. The nominal style turns democratizing into the noun \"a democratização\".",
       },
       {
         type: "dictation",
@@ -516,7 +516,7 @@ export const PT_C1_U04: Lesson[] = [
         type: "speak",
         text: "Esse problema decorre tanto da omissão estatal quanto da influência da mídia.",
         prompt: "Say it in Portuguese: This problem stems both from state neglect and from the media's influence.",
-        tip: "Nasalise \"omissão\" and keep the d in \"mídia\" soft, like the j in jeep.",
+        tip: "Nasalize \"omissão\" and keep the d in \"mídia\" soft, like the j in jeep.",
         explanation: "\"Decorre tanto da... quanto da...\" announces two parallel arguments, each a noun with \"de\" + article.",
       },
       {
@@ -551,7 +551,7 @@ export const PT_C1_U04: Lesson[] = [
     level: "PT-C1",
     number: 3,
     title: "Development Paragraphs",
-    summary: "Build the ENEM development paragraph step by step: a topic sentence, the argument, productive repertório, analysis and a closing link back to the thesis.",
+    summary: "Build the ENEM development paragraph step by step: a topic sentence, the argument, productive repertório, analyzis and a closing link back to the thesis.",
     duration: "15 min",
     sections: [
       {
@@ -562,9 +562,9 @@ export const PT_C1_U04: Lesson[] = [
           "Writers trained in English often open with a hook: a quotation, a question, an anecdote. In the ENEM essay the hook belongs in the introduction. Inside the development, the claim comes first and the evidence follows. Never write \"neste parágrafo, será discutido...\": the paragraph makes its point without announcing it.",
         ],
         examples: [
-          { es: "Em primeiro lugar, a negligência estatal contribui para a persistência da evasão escolar no país.", en: "Firstly, state negligence contributes to the persistence of school dropout in the country." },
+          { es: "Em primeiro lugar, a negligência estatal contribui para a persistência da evasão escolar no país.", en: "First, state negligence contributes to the persistence of school dropout in the country." },
           { es: "Além disso, a desinformação nas redes sociais agrava o problema.", en: "Furthermore, disinformation on social media makes the problem worse." },
-          { es: "Sob outra perspectiva, convém analisar o papel da mídia na perpetuação de estereótipos.", en: "From another perspective, it is worth analysing the media's role in perpetuating stereotypes." },
+          { es: "Sob outra perspectiva, convém analisar o papel da mídia na perpetuação de estereótipos.", en: "From another perspective, it is worth analyzing the media's role in perpetuating stereotypes." },
           { es: "Ademais, é inegável que a falta de saneamento básico compromete a saúde da população mais pobre.", en: "Moreover, it is undeniable that the lack of basic sanitation harms the health of the poorest people." },
           { es: "Primeiramente, o machismo estrutural limita a participação feminina na política.", en: "First of all, structural sexism limits women's participation in politics." },
         ],
@@ -598,7 +598,7 @@ export const PT_C1_U04: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[From another perspective], it is worth analysing the media's role in perpetuating stereotypes.",
+            en: "[From another perspective], it is worth analyzing the media's role in perpetuating stereotypes.",
             sentence: "___, convém analisar o papel da mídia na perpetuação de estereótipos.",
             answer: "Sob outra perspectiva",
             altAnswers: ["Sob outra ótica", "Por outra perspectiva", "Sob outro ponto de vista"],
@@ -662,9 +662,9 @@ export const PT_C1_U04: Lesson[] = [
       {
         heading: "Análise e fechamento: closing the loop",
         body: [
-          "After the repertório, analyse it: say what it shows about your case and what follows from it. Result connectors carry this move: \"desse modo\", \"dessa forma\", \"assim\", \"logo\". If you skip this step you leave a \"citação solta\", a quotation the examiner has to interpret for you. That is exactly where competência 3 marks drop.",
+          "After the repertório, analyze it: say what it shows about your case and what follows from it. Result connectors carry this move: \"desse modo\", \"dessa forma\", \"assim\", \"logo\". If you skip this step you leave a \"citação solta\", a quotation the examiner has to interpret for you. That is exactly where competência 3 marks drop.",
           "The last sentence, the \"frase de fechamento\", ties the paragraph back to the thesis, often with \"portanto\" or \"fica evidente que\". A strong close can also stress that the problem will persist: \"enquanto o Estado não garantir..., a população continuará...\", with the future subjunctive after \"enquanto\".",
-          "The whole sequence fits in five or six sentences: tópico frasal, explanation, repertório, analysis, fechamento. Longer paragraphs usually repeat themselves, and shorter ones usually skip the analysis.",
+          "The whole sequence fits in five or six sentences: tópico frasal, explanation, repertório, analyzis, fechamento. Longer paragraphs usually repeat themselves, and shorter ones usually skip the analyzis.",
         ],
         examples: [
           { es: "Desse modo, a ausência de políticas de permanência estudantil empurra esses jovens para fora da escola.", en: "In this way, the lack of policies to keep students in school pushes these young people out of it." },
@@ -686,7 +686,7 @@ export const PT_C1_U04: Lesson[] = [
               "Logo, o direito previsto na lei não se concretiza na realidade de muitas famílias.",
               "Assim, o direito previsto em lei não se concretiza na realidade de muitas famílias.",
             ],
-            explanation: "The analysis sentence draws the consequence of the repertório, so it opens with a result connector. \"Previsto na lei\" (set out in law) and \"concretizar-se\" (to become reality) are standard essay vocabulary.",
+            explanation: "The analyzis sentence draws the consequence of the repertório, so it opens with a result connector. \"Previsto na lei\" (set out in law) and \"concretizar-se\" (to become reality) are standard essay vocabulary.",
           },
           {
             type: "fill-blank",
@@ -700,7 +700,7 @@ export const PT_C1_U04: Lesson[] = [
             type: "speak",
             text: "Logo, fica evidente que a omissão do poder público perpetua o problema.",
             tip: "The final -te of \"evidente\" sounds like 'tchi'. Stress \"perpetua\" on the u: per-pe-TU-a.",
-            explanation: "\"Fica evidente que\" is a closing formula that links the analysis back to the thesis.",
+            explanation: "\"Fica evidente que\" is a closing formula that links the analyzis back to the thesis.",
           },
         ],
       },
@@ -731,7 +731,7 @@ export const PT_C1_U04: Lesson[] = [
         type: "multiple-choice",
         question: "A student writes: \"Em primeiro lugar, a desinformação prejudica a democracia. Segundo Bauman, as relações são líquidas. Portanto, é preciso agir.\" What is the main weakness?",
         options: [
-          "The repertório has no clear link to the claim, and there is no analysis.",
+          "The repertório has no clear link to the claim, and there is no analyzis.",
           "The topic sentence should come at the end of the paragraph.",
           "\"Segundo\" cannot introduce a thinker.",
           "\"Portanto\" is too informal for an essay.",
@@ -762,7 +762,7 @@ export const PT_C1_U04: Lesson[] = [
         sentence: "___, a desinformação deixa de ser um problema individual e se torna uma questão coletiva.",
         answer: "Dessa forma",
         altAnswers: ["Desse modo", "Dessa maneira", "Assim"],
-        explanation: "The analysis draws a consequence, so it needs a result connector. Note the agreement: \"dessa forma\" and \"dessa maneira\" (feminine), but \"desse modo\" (masculine).",
+        explanation: "The analyzis draws a consequence, so it needs a result connector. Note the agreement: \"dessa forma\" and \"dessa maneira\" (feminine), but \"desse modo\" (masculine).",
       },
       {
         type: "matching",
@@ -798,7 +798,7 @@ export const PT_C1_U04: Lesson[] = [
       {
         type: "speak",
         text: "Em primeiro lugar, a ausência de políticas públicas contribui para a persistência do problema.",
-        prompt: "Say it in Portuguese: Firstly, the absence of public policies contributes to the persistence of the problem.",
+        prompt: "Say it in Portuguese: First, the absence of public policies contributes to the persistence of the problem.",
         tip: "Make the stressed ê nasal in \"ausência\" and \"persistência\": au-ZÊN-sia, per-sis-TÊN-sia.",
         explanation: "A model tópico frasal: an ordering connector, an agent (\"a ausência de políticas públicas\") and its effect.",
       },
@@ -858,7 +858,7 @@ export const PT_C1_U04: Lesson[] = [
         examples: [
           { es: "Cabe ao Ministério da Educação incluir a educação financeira no currículo do ensino médio.", en: "It is up to the Ministry of Education to include financial education in the high-school curriculum." },
           { es: "Cabe à mídia combater a disseminação de notícias falsas.", en: "It is up to the media to fight the spread of fake news." },
-          { es: "Cabe às prefeituras ampliar a coleta seletiva nos bairros periféricos.", en: "It is up to city governments to expand recycling collection in outlying neighbourhoods." },
+          { es: "Cabe às prefeituras ampliar a coleta seletiva nos bairros periféricos.", en: "It is up to city governments to expand recycling collection in outlying neighborhoods." },
           { es: "É imprescindível que o Congresso Nacional aprove uma lei de proteção de dados mais rigorosa.", en: "It is essential that Congress pass a stricter data-protection law." },
           { es: "As escolas públicas devem promover rodas de conversa sobre saúde mental.", en: "Public schools should hold discussion circles on mental health." },
         ],
@@ -897,7 +897,7 @@ export const PT_C1_U04: Lesson[] = [
           "State an effect, not a restatement of the problem. \"A fim de reduzir a evasão escolar\" says what changes; \"a fim de resolver esse problema\" says nothing a grader can reward.",
         ],
         examples: [
-          { es: "O Ministério da Saúde deve divulgar os riscos da automedicação por meio de campanhas nas redes sociais.", en: "The Ministry of Health should publicise the risks of self-medication through social-media campaigns." },
+          { es: "O Ministério da Saúde deve divulgar os riscos da automedicação por meio de campanhas nas redes sociais.", en: "The Ministry of Health should publicize the risks of self-medication through social-media campaigns." },
           { es: "Cabe às universidades oferecer cursos gratuitos mediante parcerias com empresas locais.", en: "It is up to universities to offer free courses through partnerships with local companies." },
           { es: "O Estado deve reduzir as filas do SUS investindo em telemedicina.", en: "The state should cut waiting lists in the public health system by investing in telemedicine." },
           { es: "As escolas devem oferecer tutoria no contraturno, a fim de reduzir a evasão escolar.", en: "Schools should offer tutoring outside class hours in order to reduce dropout rates." },
@@ -908,7 +908,7 @@ export const PT_C1_U04: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Schools should teach media literacy [so that] students recognise fake news.",
+            en: "Schools should teach media literacy [so that] students recognize fake news.",
             sentence: "As escolas devem ensinar educação midiática, ___ os alunos reconheçam notícias falsas.",
             answer: "para que",
             altAnswers: ["a fim de que"],
@@ -941,9 +941,9 @@ export const PT_C1_U04: Lesson[] = [
         ],
         examples: [
           { es: "Cabe ao Ministério da Educação, órgão responsável pelas diretrizes curriculares, incluir a educação midiática na Base Nacional Comum Curricular.", en: "It is up to the Ministry of Education, the body responsible for curriculum guidelines, to include media literacy in the national core curriculum." },
-          { es: "O governo deve divulgar o programa por meio de campanhas veiculadas em horário nobre na televisão aberta.", en: "The government should publicise the programme through campaigns aired in prime time on free-to-air TV." },
+          { es: "O governo deve divulgar o programa por meio de campanhas veiculadas em horário nobre na televisão aberta.", en: "The government should publicize the program through campaigns aired in prime time on free-to-air TV." },
           { es: "Portanto, cabe ao Ministério da Saúde ampliar o atendimento psicológico nas Unidades Básicas de Saúde, por meio da contratação de psicólogos via concurso público, a fim de que a população de baixa renda tenha acesso a tratamento gratuito.", en: "Therefore, it is up to the Ministry of Health to expand psychological care in primary health clinics by hiring psychologists through public competitive exams, so that low-income people have access to free treatment." },
-          { es: "Diante do exposto, cabe às prefeituras criar centros de convivência para idosos, mediante o repasse de verbas federais, com atividades físicas e culturais semanais, a fim de combater o isolamento social.", en: "Given the above, it is up to city governments to set up community centres for older people, funded by federal transfers, with weekly physical and cultural activities, in order to combat social isolation." },
+          { es: "Diante do exposto, cabe às prefeituras criar centros de convivência para idosos, mediante o repasse de verbas federais, com atividades físicas e culturais semanais, a fim de combater o isolamento social.", en: "Given the above, it is up to city governments to set up community centers for older people, funded by federal transfers, with weekly physical and cultural activities, in order to combat social isolation." },
         ],
         checkpoint: [
           {
@@ -1091,12 +1091,12 @@ export const PT_C1_U04: Lesson[] = [
         heading: "Legitimate, relevant, productive",
         body: [
           "\"Competência 2\" rewards \"repertório sociocultural\": knowledge from outside the motivating texts that supports your argument. Examiners check three things. First, is it \"legitimado\", traceable to a real source such as a law, an institution, a named thinker or a dated event? Second, is it \"pertinente\", tied to this theme rather than to society in general? Third, is it \"produtivo\", doing real argumentative work?",
-          "Most essays fail the third test. A \"repertório coringa\" (a wild-card quotation memorised for any theme) that is dropped into the introduction and never mentioned again is decoration. It shows you have read something, not that you can argue. Productive use takes three moves: name the source, state the idea in one clause, then apply it with a link such as \"sob essa ótica\" or \"nesse sentido\".",
+          "Most essays fail the third test. A \"repertório coringa\" (a wild-card quotation memorized for any theme) that is dropped into the introduction and never mentioned again is decoration. It shows you have read something, not that you can argue. Productive use takes three moves: name the source, state the idea in one clause, then apply it with a link such as \"sob essa ótica\" or \"nesse sentido\".",
           "Introduce sources with \"segundo\", \"para\" or \"conforme aponta\", as in Unit 3. Paraphrase unless you are sure of the exact words. A misquoted thinker costs more than a well-applied concept.",
         ],
         examples: [
           { es: "Como dizia Aristóteles, o homem é um animal político.", en: "As Aristotle said, man is a political animal. (decorative if nothing follows)" },
-          { es: "Para Aristóteles, o ser humano é um animal político, que só se realiza na vida em comunidade.", en: "For Aristotle, human beings are political animals who only fulfil themselves in community life." },
+          { es: "Para Aristóteles, o ser humano é um animal político, que só se realiza na vida em comunidade.", en: "For Aristotle, human beings are political animals who only fulfill themselves in community life." },
           { es: "Sob essa ótica, a exclusão digital afasta os idosos da própria vida pública.", en: "From this perspective, digital exclusion cuts older people off from public life itself." },
           { es: "Conforme aponta o sociólogo Zygmunt Bauman, as relações na modernidade líquida são frágeis e passageiras.", en: "As the sociologist Zygmunt Bauman points out, relationships in liquid modernity are fragile and fleeting." },
           { es: "Nesse sentido, as redes sociais aprofundam o isolamento que prometem combater.", en: "In this sense, social media deepen the isolation they promise to fight." },
@@ -1198,11 +1198,11 @@ export const PT_C1_U04: Lesson[] = [
         body: [
           "A thinker earns a place when their concept explains a cause in your argument. Paulo Freire's \"educação bancária\" explains why rote learning persists. Bauman's \"modernidade líquida\" explains why online bonds are fragile. Sérgio Buarque de Holanda's \"homem cordial\" explains why public and private blur in Brazilian institutions. Give each a label (\"o sociólogo\", \"a filósofa\", \"o educador\"); it signals that you know who they are.",
           "History works as a cause too. The 1888 abolition gave the freed population no land, schooling or work, and that explains much of today's racial inequality. Use history to answer why the problem persists, not as a date to open the essay with.",
-          "The applying sentence is what earns the mark: \"Tal conceito se aplica a...\", \"Isso ajuda a compreender por que...\", \"Desse modo, a herança histórica...\". Try deleting the reference. If the paragraph loses nothing, it was decorative.",
+          "The applying sentence is what earns the credit: \"Tal conceito se aplica a...\", \"Isso ajuda a compreender por que...\", \"Desse modo, a herança histórica...\". Try deleting the reference. If the paragraph loses nothing, it was decorative.",
         ],
         examples: [
           { es: "Para o educador Paulo Freire, a educação bancária trata o aluno como um depósito de conteúdos.", en: "For the educator Paulo Freire, banking education treats the student as a container for content." },
-          { es: "Tal conceito se aplica ao ensino atual, ainda centrado na memorização.", en: "This concept applies to today's teaching, still centred on memorisation." },
+          { es: "Tal conceito se aplica ao ensino atual, ainda centrado na memorização.", en: "This concept applies to today's teaching, still centered on memorization." },
           { es: "Em Raízes do Brasil, Sérgio Buarque de Holanda descreve o homem cordial, que confunde o público e o privado.", en: "In Raízes do Brasil, Sérgio Buarque de Holanda describes the cordial man, who confuses public and private." },
           { es: "A abolição da escravatura, em 1888, não foi acompanhada de políticas de inclusão da população negra.", en: "The abolition of slavery in 1888 was not accompanied by policies to include the Black population." },
           { es: "Desse modo, a herança histórica ajuda a explicar a desigualdade racial no mercado de trabalho.", en: "In this way, historical legacy helps explain racial inequality in the job market." },
@@ -1368,7 +1368,7 @@ export const PT_C1_U04: Lesson[] = [
     level: "PT-C1",
     number: 6,
     title: "Contrast Clinic: Weak or Strong Paragraph?",
-    summary: "Compare weak and strong development paragraphs and see what turns a statement into an argument: a debatable topic sentence, productive repertório, real analysis and a closing link to the thesis.",
+    summary: "Compare weak and strong development paragraphs and see what turns a statement into an argument: a debatable topic sentence, productive repertório, real analyzis and a closing link to the thesis.",
     duration: "15 min",
     kind: "reinforce",
     format: "Contrast Clinic",
@@ -1430,8 +1430,8 @@ export const PT_C1_U04: Lesson[] = [
           { es: "Segundo Paulo Freire, a educação transforma as pessoas. Além disso, as escolas são precárias.", en: "According to Paulo Freire, education transforms people. Besides, schools are run-down. (weak: the quotation leads nowhere)" },
           { es: "Para Paulo Freire, a educação é um ato político; sob essa ótica, escolas sem estrutura perpetuam a exclusão.", en: "For Paulo Freire, education is a political act; from this perspective, schools without infrastructure perpetuate exclusion. (strong)" },
           { es: "O artigo 6º da Constituição fala sobre a saúde.", en: "Article 6 of the Constitution talks about health. (weak: says nothing)" },
-          { es: "A Constituição de 1988 garante o direito à saúde, mas essa garantia não se verifica nas filas do SUS.", en: "The 1988 Constitution guarantees the right to health, but that guarantee isn't borne out in the queues of the public health system. (strong)" },
-          { es: "Essa lógica se verifica no Brasil, onde milhões de jovens não concluem o ensino médio.", en: "This logic holds in Brazil, where millions of young people don't finish secondary school. (strong: applies the source)" },
+          { es: "A Constituição de 1988 garante o direito à saúde, mas essa garantia não se verifica nas filas do SUS.", en: "The 1988 Constitution guarantees the right to health, but that guarantee isn't borne out in the long lines of the public health system. (strong)" },
+          { es: "Essa lógica se verifica no Brasil, onde milhões de jovens não concluem o ensino médio.", en: "This logic holds in Brazil, where millions of young people don't finish high school. (strong: applies the source)" },
         ],
         checkpoint: [
           {
@@ -1475,7 +1475,7 @@ export const PT_C1_U04: Lesson[] = [
       {
         heading: "Analysis and the closing link",
         body: [
-          "Between evidence and conclusion, the weak paragraph jumps; the strong one explains the mechanism, how the cause produces the effect. \"Isso ocorre porque\", \"como consequência\", \"o que acarreta\" and \"de modo que\" lay out the chain instead of asking the examiner to take it on trust. This analysis is where a paragraph actually argues.",
+          "Between evidence and conclusion, the weak paragraph jumps; the strong one explains the mechanism, how the cause produces the effect. \"Isso ocorre porque\", \"como consequência\", \"o que acarreta\" and \"de modo que\" lay out the chain instead of asking the examiner to take it on trust. This analyzis is where a paragraph actually argues.",
           "Then the last sentence. The weak paragraph ends with a moral that could close any essay: \"Portanto, todos devem fazer a sua parte.\" The strong one returns to the thesis with what this paragraph has shown: \"Dessa forma, a ausência de políticas de permanência estudantil mantém o ciclo da evasão.\" It is specific and conclusive, and it hands over to the next paragraph.",
           "Keep solutions out of it. Proposals belong to the \"proposta de intervenção\", and a development paragraph that ends with \"o governo deve...\" has stopped arguing.",
         ],
@@ -1494,7 +1494,7 @@ export const PT_C1_U04: Lesson[] = [
             sentence: "___ o jovem que trabalha à noite não consegue acompanhar as aulas.",
             answer: "Isso ocorre porque",
             altAnswers: ["Isso acontece porque", "Isso se dá porque", "Tal fato ocorre porque"],
-            explanation: "\"Isso ocorre porque\" opens the analysis: it shows how the cause produces the effect instead of just asserting it.",
+            explanation: "\"Isso ocorre porque\" opens the analyzis: it shows how the cause produces the effect instead of just asserting it.",
           },
           {
             type: "translate",
@@ -1564,14 +1564,14 @@ export const PT_C1_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "This logic holds in Brazil, where millions of young people do not finish secondary school.",
+        source: "This logic holds in Brazil, where millions of young people do not finish high school.",
         answer: "Essa lógica se verifica no Brasil, onde milhões de jovens não concluem o ensino médio.",
         altAnswers: [
           "Essa lógica verifica-se no Brasil, onde milhões de jovens não concluem o ensino médio.",
           "Essa lógica se verifica no Brasil, onde milhões de jovens não terminam o ensino médio.",
           "Esta lógica se verifica no Brasil, onde milhões de jovens não concluem o ensino médio.",
         ],
-        explanation: "This is the bridge that makes repertório productive: the source's idea is applied to the Brazilian case. \"Ensino médio\" is Brazilian secondary school.",
+        explanation: "This is the bridge that makes repertório productive: the source's idea is applied to the Brazilian case. \"Ensino médio\" is Brazilian high school.",
       },
       {
         type: "word-order",
@@ -1617,7 +1617,7 @@ export const PT_C1_U04: Lesson[] = [
       {
         type: "dictation",
         audio: "Isso ocorre porque o Estado é omisso.",
-        explanation: "\"Isso ocorre porque\" opens the analysis. \"Omisso\" (failing to act) is a key word in essays about public policy.",
+        explanation: "\"Isso ocorre porque\" opens the analyzis. \"Omisso\" (failing to act) is a key word in essays about public policy.",
       },
       {
         type: "speak",
@@ -1659,7 +1659,7 @@ export const PT_C1_U04: Lesson[] = [
     level: "PT-C1",
     number: 7,
     title: "Dialogue Lab: Correcting an Essay",
-    summary: "Follow a teacher and a student through the feedback on a practice ENEM essay, and learn to praise, criticise tactfully, defend your choices and ask for clarification in Portuguese.",
+    summary: "Follow a teacher and a student through the feedback on a practice ENEM essay, and learn to praise, criticize tactfully, defend your choices and ask for clarification in Portuguese.",
     duration: "15 min",
     sections: [
       {
@@ -1692,7 +1692,7 @@ export const PT_C1_U04: Lesson[] = [
             question: "Cláudia says Rafael's quotation from Paulo Freire was \"produtivo\". What is she praising?",
             options: ["He used it to support his argument, not just as decoration.", "It was long and detailed.", "It was a famous quotation.", "He copied it word for word."],
             correctIndex: 0,
-            explanation: "In ENEM feedback, \"repertório produtivo\" is a reference that does work in the argument. A quotation that is only decorative is \"repertório de bolso\" or simply not productive.",
+            explanation: "In ENEM feedback, \"repertório produtivo\" is a reference that does work in the argument. A memorized all-purpose quotation (\"repertório de bolso\") that is only decorative is not productive.",
           },
           {
             type: "fill-blank",
@@ -1709,7 +1709,7 @@ export const PT_C1_U04: Lesson[] = [
         heading: "Scene 2: Naming the problems, gently",
         body: [
           "Then come the weaknesses. Cláudia softens each one with the conditional and the imperfect subjunctive. She says \"eu sugeriria que você revisasse o segundo parágrafo\" and \"seria interessante que você detalhasse o meio\". This is the B2 sequence of tenses: conditional in the main clause, imperfect subjunctive after \"que\".",
-          "Her criticism stays concrete. \"A sociedade deve agir\" is a vague agent: who exactly? \"Desde os primórdios\" is a cliché that earns nothing. \"A coesão se perdeu\" means the link between paragraphs broke. Teachers often frame a gap as what was missing: \"o que faltou foi o detalhamento\" (what was missing was the detail).",
+          "Her criticizm stays concrete. \"A sociedade deve agir\" is a vague agent: who exactly? \"Desde os primórdios\" is a cliché that earns nothing. \"A coesão se perdeu\" means the link between paragraphs broke. Teachers often frame a gap as what was missing: \"o que faltou foi o detalhamento\" (what was missing was the detail).",
           "Watch the false friend \"eventualmente\": it means occasionally or possibly, never eventually (\"no fim\"). \"Deixar a desejar\" (to fall short) is the standard polite verdict: \"a conclusão deixou um pouco a desejar\".",
         ],
         examples: [
@@ -1760,7 +1760,7 @@ export const PT_C1_U04: Lesson[] = [
           { es: "Você poderia me dar um exemplo de agente mais preciso?", en: "Could you give me an example of a more precise agent?" },
           { es: "Se eu entendi bem, eu preciso dizer quem vai agir e como.", en: "If I've understood correctly, I need to say who will act and how." },
           { es: "Quando você reescrever, me manda de novo.", en: "When you rewrite it, send it to me again." },
-          { es: "Se você ajustar a proposta, a nota sobe bastante.", en: "If you fix the proposal, your mark will go up a lot." },
+          { es: "Se você ajustar a proposta, a nota sobe bastante.", en: "If you fix the proposal, your grade will go up a lot." },
           { es: "Professora, posso fazer uma última pergunta?", en: "Professor, can I ask one last question?" },
         ],
         checkpoint: [
@@ -1838,7 +1838,7 @@ export const PT_C1_U04: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "If you [fix] the proposal, your mark will go up a lot.",
+        en: "If you [fix] the proposal, your grade will go up a lot.",
         sentence: "Se você ___ a proposta, a nota sobe bastante.",
         answer: "ajustar",
         altAnswers: ["corrigir", "consertar", "arrumar"],
@@ -1941,10 +1941,10 @@ export const PT_C1_U04: Lesson[] = [
           "Cut \"algo\", \"coisas\" and \"medidas cabíveis\" too. An action is a verb with an object: \"ampliar a coleta seletiva\", \"fiscalizar as plataformas\".",
         ],
         examples: [
-          { es: "Cabe ao Ministério da Educação incluir a educação midiática no currículo do ensino médio.", en: "It is up to the Ministry of Education to include media education in the secondary-school curriculum." },
-          { es: "As prefeituras devem ampliar a coleta seletiva por meio de parcerias com cooperativas de catadores.", en: "Town halls must expand selective waste collection through partnerships with waste-pickers' cooperatives." },
+          { es: "Cabe ao Ministério da Educação incluir a educação midiática no currículo do ensino médio.", en: "It is up to the Ministry of Education to include media education in the high school curriculum." },
+          { es: "As prefeituras devem ampliar a coleta seletiva por meio de parcerias com cooperativas de catadores.", en: "City governments must expand selective waste collection through partnerships with waste-pickers' cooperatives." },
           { es: "O Congresso Nacional deve aprovar uma lei que obrigue as plataformas a remover conteúdos falsos.", en: "Congress must pass a law that obliges platforms to remove false content." },
-          { es: "As escolas públicas, por meio de oficinas semanais, devem ensinar os alunos a checar fontes, a fim de que eles não compartilhem boatos.", en: "Public schools, through weekly workshops, should teach students to check sources so that they don't share rumours." },
+          { es: "As escolas públicas, por meio de oficinas semanais, devem ensinar os alunos a checar fontes, a fim de que eles não compartilhem boatos.", en: "Public schools, through weekly workshops, should teach students to check sources so that they don't share rumors." },
           { es: "Cabe ao Ministério da Saúde promover campanhas de vacinação nas redes sociais, a fim de combater a desinformação.", en: "It is up to the Ministry of Health to run vaccination campaigns on social media in order to fight disinformation." },
         ],
         checkpoint: [
@@ -1962,7 +1962,7 @@ export const PT_C1_U04: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Town halls must expand selective waste collection through partnerships with cooperatives.",
+            source: "City governments must expand selective waste collection through partnerships with cooperatives.",
             answer: "As prefeituras devem ampliar a coleta seletiva por meio de parcerias com cooperativas.",
             altAnswers: [
               "As prefeituras precisam ampliar a coleta seletiva por meio de parcerias com cooperativas.",
@@ -2222,7 +2222,7 @@ export const PT_C1_U04: Lesson[] = [
       {
         heading: "Step 2: The first development paragraph",
         body: [
-          "Each development paragraph runs the chain you know: topic sentence, \"repertório\", analysis, link back. The first argument opens with \"Em primeiro lugar\" and a claim, not a statistic. The IBGE figure comes second, as evidence.",
+          "Each development paragraph runs the chain you know: topic sentence, \"repertório\", analyzis, link back. The first argument opens with \"Em primeiro lugar\" and a claim, not a statistic. The IBGE figure comes second, as evidence.",
           "Analysis is where most essays stall. After the data, explain the mechanism: why does poverty push a teenager out of school? The answer is long shifts, tiredness and missed classes. Close with a sentence that returns to the theme. \"Enquanto\" + future subjunctive (\"enquanto a pobreza não for enfrentada\") gives a firm, forward-looking close.",
         ],
         examples: [
@@ -2261,11 +2261,11 @@ export const PT_C1_U04: Lesson[] = [
         heading: "Step 3: The second paragraph and cohesion",
         body: [
           "Start the second paragraph with a different additive connector (\"Além disso\", \"Ademais\") so the reader sees a new argument. \"Competência 4\" rewards referring back without repeating yourself. Rotate \"a evasão escolar\" with \"o abandono escolar\", \"esse problema\" and \"tal cenário\", and let \"esse modelo\" pick up an idea from the sentence before.",
-          "A thinker used as \"repertório\" earns marks only when you put the idea to work. Name Paulo Freire's \"educação bancária\", then apply it in the next sentence: a passive curriculum gives students no reason to stay. A quotation left on its own is just decoration.",
+          "A thinker used as \"repertório\" earns credit only when you put the idea to work. Name Paulo Freire's \"educação bancária\", then apply it in the next sentence: a passive curriculum gives students no reason to stay. A quotation left on its own is just decoration.",
         ],
         examples: [
           { es: "Além disso, um currículo distante da realidade dos estudantes alimenta o desinteresse.", en: "Furthermore, a curriculum far removed from students' reality feeds their lack of interest." },
-          { es: "Paulo Freire já criticava a chamada educação bancária, na qual o aluno apenas recebe conteúdos.", en: "Paulo Freire was already criticising so-called banking education, in which the student merely receives content." },
+          { es: "Paulo Freire já criticava a chamada educação bancária, na qual o aluno apenas recebe conteúdos.", en: "Paulo Freire was already criticizing so-called banking education, in which the student merely receives content." },
           { es: "Esse modelo ainda predomina em muitas escolas brasileiras.", en: "This model still predominates in many Brazilian schools." },
           { es: "Quando a escola não dialoga com os projetos de vida do jovem, o abandono passa a parecer uma escolha lógica.", en: "When school doesn't connect with young people's life plans, dropping out starts to look like a logical choice." },
           { es: "Tal cenário mostra que manter o aluno na escola exige também tornar o ensino significativo.", en: "This situation shows that keeping students in school also requires making teaching meaningful." },
@@ -2392,7 +2392,7 @@ export const PT_C1_U04: Lesson[] = [
           "Quando a escola não dialoga com os projetos de vida do jovem, o abandono parece lógico.",
           "Quando a escola não dialoga com os projetos de vida do aluno, o abandono escolar parece lógico.",
         ],
-        explanation: "\"Dialogar com\" is the natural essay verb for connect with. This sentence is the analysis that applies Freire's idea to the theme.",
+        explanation: "\"Dialogar com\" is the natural essay verb for connect with. This sentence is the analyzis that applies Freire's idea to the theme.",
       },
       {
         type: "word-order",
@@ -2471,7 +2471,7 @@ export const PT_C1_U04: Lesson[] = [
     level: "PT-C1",
     number: 10,
     title: "Spiral Review: Arguing in Writing",
-    summary: "Practise the whole ENEM essay again in fresh sentences: repertório and thesis, argued development paragraphs and a complete proposta de intervenção.",
+    summary: "Practice the whole ENEM essay again in fresh sentences: repertório and thesis, argued development paragraphs and a complete proposta de intervenção.",
     duration: "15 min",
     kind: "review",
     format: "Spiral Review",
@@ -2479,13 +2479,13 @@ export const PT_C1_U04: Lesson[] = [
       {
         heading: "The introduction: repertório, thesis, roadmap",
         body: [
-          "A strong introduction does three jobs in three or four sentences. It opens with repertório and turns it towards the exact theme. Then it states a thesis that names the two causes the development will explore. The turn matters most: a line like \"no entanto, essa garantia não se concretiza...\" is what makes a quotation productive rather than decorative.",
+          "A strong introduction does three jobs in three or four sentences. It opens with repertório and turns it toward the exact theme. Then it states a thesis that names the two causes the development will explore. The turn matters most: a line like \"no entanto, essa garantia não se concretiza...\" is what makes a quotation productive rather than decorative.",
           "Keep the voice impersonal. \"Neste texto, vou falar sobre...\" announces instead of arguing, and \"eu acho que\" is out of register. ENEM rewards claims like \"esse cenário decorre de...\" or \"tal problemática é agravada por...\". Never open with \"desde os primórdios da humanidade\": examiners read it thousands of times a year.",
           "These verbs carry regência, and competência 1 checks it: \"decorre da negligência\" (de + a), \"agravada pela falta\" (por + a). Check every contraction before you move on.",
         ],
         examples: [
           { es: "A Constituição Federal de 1988 garante a todos o direito à saúde.", en: "The 1988 Federal Constitution guarantees everyone the right to health." },
-          { es: "No entanto, essa garantia não se concretiza para grande parte da população ribeirinha.", en: "However, that guarantee doesn't materialise for a large part of the riverside population." },
+          { es: "No entanto, essa garantia não se concretiza para grande parte da população ribeirinha.", en: "However, that guarantee doesn't materialize for a large part of the riverside population." },
           { es: "Esse cenário decorre, sobretudo, da negligência estatal e da desinformação.", en: "This situation stems mainly from state neglect and misinformation." },
           { es: "Segundo o sociólogo Zygmunt Bauman, as relações na modernidade líquida são frágeis e passageiras.", en: "According to the sociologist Zygmunt Bauman, relationships in liquid modernity are fragile and fleeting." },
           { es: "Tal problemática é agravada pela falta de investimento em infraestrutura.", en: "This problem is made worse by the lack of investment in infrastructure." },
@@ -2518,7 +2518,7 @@ export const PT_C1_U04: Lesson[] = [
               "Segundo Platão, a educação é importante, e isso é verdade até hoje.",
             ],
             correctIndex: 0,
-            explanation: "The first option cites a law and immediately turns it towards the theme. The others are a cliché, an informal announcement and a decorative quotation with no analysis.",
+            explanation: "The first option cites a law and immediately turns it toward the theme. The others are a cliché, an informal announcement and a decorative quotation with no analyzis.",
           },
           {
             type: "fill-blank",
@@ -2534,7 +2534,7 @@ export const PT_C1_U04: Lesson[] = [
       {
         heading: "Development: argue, don't just list",
         body: [
-          "Each development paragraph keeps one promise from the thesis. It opens with a topic sentence that names the cause and adds repertório or data. Then comes analysis, the step that explains why the fact matters and what it leads to. Data without analysis is a list, and competência 3 marks it down.",
+          "Each development paragraph keeps one promise from the thesis. It opens with a topic sentence that names the cause and adds repertório or data. Then comes analyzis, the step that explains why the fact matters and what it leads to. Data without analyzis is a list, and competência 3 marks it down.",
           "Competência 4 rewards cohesion: variety without noise. Open the second paragraph with \"ademais\" or \"além disso\", and link cause and effect with \"dessa forma\" or \"por conseguinte\". Refer back with \"tal cenário\", \"essa conjuntura\" or \"o referido problema\" instead of repeating the noun.",
           "One reminder: \"onde\" is only for places. A situation or a reality takes \"em que\" or \"na qual\".",
         ],
@@ -2584,7 +2584,7 @@ export const PT_C1_U04: Lesson[] = [
               "In this way, inequality causes the lack of sanitation.",
             ],
             correctIndex: 0,
-            explanation: "\"Dessa forma\" introduces a consequence, and \"perpetua\" means keeps going. The sentence is the analysis step: it says what the fact leads to.",
+            explanation: "\"Dessa forma\" introduces a consequence, and \"perpetua\" means keeps going. The sentence is the analyzis step: it says what the fact leads to.",
           },
         ],
       },
@@ -2592,7 +2592,7 @@ export const PT_C1_U04: Lesson[] = [
         heading: "The proposta de intervenção: five elements",
         body: [
           "The conclusion opens with \"portanto\" or \"diante do exposto\" and restates the thesis in one line. Then it proposes a solution with all five elements: agent, action, means, purpose and detail. Each missing element costs points in competência 5.",
-          "The agent must be someone who can act: \"o Ministério da Saúde\", \"as escolas\", \"as plataformas digitais\". A vague \"a sociedade\" or \"o governo\" is not enough. \"Cabe a\" + agent + infinitive gives the action, and \"por meio de\" gives the means. Detail can be an example (\"como barcos-hospitais\") or a fuller explanation of the means.",
+          "The agent must be someone who can act: \"o Ministério da Saúde\", \"as escolas\", \"as plataformas digitais\". A vague \"a sociedade\" counts as no agent, and a bare \"o governo\" is weaker than a named body. \"Cabe a\" + agent + infinitive gives the action, and \"por meio de\" gives the means. Detail can be an example (\"como barcos-hospitais\") or a fuller explanation of the means.",
           "Purpose shows control of mood. \"A fim de que\" and \"para que\" take the subjunctive when the subject changes: \"a fim de que os alunos aprendam\". With the same subject, use \"a fim de\" + infinitive. The personal infinitive also works: \"para os alunos aprenderem\".",
         ],
         examples: [
@@ -2657,7 +2657,7 @@ export const PT_C1_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "However, that guarantee does not materialise in the outskirts of large cities.",
+        source: "However, that guarantee does not materialize in the outskirts of large cities.",
         answer: "No entanto, essa garantia não se concretiza nas periferias das grandes cidades.",
         altAnswers: [
           "Entretanto, essa garantia não se concretiza nas periferias das grandes cidades.",
@@ -2695,7 +2695,7 @@ export const PT_C1_U04: Lesson[] = [
         prompt: "Put the words in order to say: In this way, the lack of sanitation harms health.",
         words: ["Dessa forma,", "a ausência", "de saneamento", "compromete", "a saúde."],
         translation: "In this way, the lack of sanitation harms health.",
-        explanation: "\"Dessa forma\" links the data to its consequence, the analysis step of a development paragraph.",
+        explanation: "\"Dessa forma\" links the data to its consequence, the analyzis step of a development paragraph.",
       },
       {
         type: "translate",
@@ -2716,7 +2716,7 @@ export const PT_C1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your development paragraph gives a statistic but no analysis. Which sentence adds the analysis?",
+        question: "Your development paragraph gives a statistic but no analyzis. Which sentence adds the analyzis?",
         options: [
           "Isso significa que o direito à saúde, embora garantido por lei, permanece inacessível para milhões.",
           "Esse dado é muito importante e mostra muita coisa sobre o assunto.",
@@ -2777,7 +2777,7 @@ export const PT_C1_U04_WRITING: WriteExercise = {
   maxWords: 300,
   rubric: [
     "An introduction that opens with productive \"repertório\" (the Constitution, a thinker, a historical fact) and a clear thesis announcing your two arguments, with no clichés like \"desde os primórdios da humanidade\".",
-    "Two development paragraphs, each with a topic sentence, an argument and analysis, linked by cohesive devices such as \"Em primeiro lugar\", \"Além disso\", \"Nesse sentido\", \"contudo\" and \"portanto\".",
+    "Two development paragraphs, each with a topic sentence, an argument and analyzis, linked by cohesive devices such as \"Em primeiro lugar\", \"Além disso\", \"Nesse sentido\", \"contudo\" and \"portanto\".",
     "A \"proposta de intervenção\" with all five elements: a specific agent (\"cabe ao Ministério da Educação\"), an action, a means (\"por meio de\"), a purpose (\"a fim de que\" or \"para que\" + subjunctive) and a detail. Avoid vague agents like \"a sociedade deve\".",
     "Formal written norm throughout: impersonal constructions (\"trata-se de\", \"tende a\"), correct crase and regência (\"condicionado à frequência\") and no informal markers (\"a gente\", \"pra\", \"tipo\").",
   ],

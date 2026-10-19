@@ -17,7 +17,7 @@ export const FR_C2_U03_EXTRA: Lesson[] = [
         heading: "Recap: two vocabularies for one body",
         body: [
           "French medicine runs on Greek and Latin terms that patients rarely use: \"une céphalée\" (\"un mal de tête\"), \"une dyspnée\" (\"un essoufflement\"), \"un prurit\" (\"des démangeaisons\"), \"une asthénie\" (\"une grande fatigue\"), \"une épistaxis\" (\"un saignement de nez\"), \"des vomissements\" (\"vomir\"), \"une pyrexie\" or \"une hyperthermie\" (\"de la fièvre\"), \"un œdème\" (\"un gonflement\"), \"un hématome\" (\"un bleu\").",
-          "The skill is to switch in both directions: to read the report and explain it (\"une asthénie\" = vous êtes très fatigué), and to turn a patient's words into a clean note (\"j'ai du mal à respirer quand je monte l'escalier\" → \"dyspnée d'effort\"). Doctors also use the everyday word deliberately with patients: a patient who hears \"céphalées\" may think it is something rarer than a headache.",
+          "The skill is to switch in both directions: to read the report and explain it (\"une asthénie\" = \"vous êtes très fatigué\"), and to turn a patient's words into a clean note (\"j'ai du mal à respirer quand je monte l'escalier\" → \"dyspnée d'effort\"). Doctors also use the everyday word deliberately with patients: a patient who hears \"céphalées\" may think it is something rarer than a headache.",
         ],
         examples: [
           { es: "Le patient se plaint de céphalées matinales.", en: "The patient complains of morning headaches." },
@@ -697,7 +697,7 @@ export const FR_C2_U03_EXTRA: Lesson[] = [
         type: "speak",
         text: "Une néphrectomie, c'est l'ablation d'un rein.",
         prompt: "Say it in French: A nephrectomy is the removal of a kidney.",
-        tip: "\"Néphrectomie\": ph sounds like f; five syllables, stress on the last.",
+        tip: "\"Néphrectomie\": ph sounds like f; four syllables (né-phrec-to-mie), stress on the last.",
         explanation: "\"L'ablation\" is the noun for surgical removal.",
       },
     ],

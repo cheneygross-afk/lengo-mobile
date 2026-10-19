@@ -152,7 +152,7 @@ export const FR_A2_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"La lettre ? Je ___ hier.\" (I sent it)",
+        question: "Complete to say 'The letter? I sent it yesterday': \"La lettre ? Je ___ hier.\"",
         options: ["l'ai envoyée", "l'ai envoyé", "lui ai envoyée", "ai l'envoyée"],
         correctIndex: 0,
         explanation: "Direct \"l'\" (la lettre) before the auxiliary: \"envoyée\".",
@@ -494,7 +494,7 @@ export const FR_A2_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"Ma grand-mère ? Je ___ hier.\" (I saw her)",
+        question: "Complete to say 'My grandmother? I saw her yesterday': \"Ma grand-mère ? Je ___ hier.\"",
         options: ["l'ai vue", "lui ai vu", "l'ai vu", "lui ai vue"],
         correctIndex: 0,
         explanation: "\"Voir\" takes a direct object: \"l'\", and \"vue\" agrees with the grandmother.",
@@ -992,7 +992,7 @@ export const FR_A2_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"Je prends la photo.\" → in the passé composé with a pronoun:",
+        question: "The photo? How do you say 'I took it'?",
         options: ["Je l'ai prise.", "Je l'ai pris.", "Je lui ai prise.", "J'ai la prise."],
         correctIndex: 0,
         explanation: "\"L'\" before the auxiliary, \"prise\" agreeing with \"la photo\".",
@@ -1323,7 +1323,7 @@ export const FR_A2_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"Ma cousine ? Je ___ ai écrit et je ___ ai vue.\"",
+        question: "Complete to say 'My cousin? I wrote to her and I saw her': \"Ma cousine ? Je ___ ai écrit et je ___ ai vue.\"",
         options: ["lui / l'", "l' / lui", "lui / lui", "la / la"],
         correctIndex: 0,
         explanation: "\"Écrire à\" → \"lui\"; \"voir\" → \"l'\" (with agreement \"vue\").",
@@ -1496,7 +1496,7 @@ export const FR_A2_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"Les photos de la fête ? Je ___ ai envoyées hier.\"",
+        question: "Which pronoun completes \"Les photos de la fête ? Je ___ ai envoyées hier.\" (I sent them yesterday)?",
         options: ["les", "leur", "lui", "leurs"],
         correctIndex: 0,
         explanation: "The photos are the direct object: \"les\", and \"envoyées\" agrees.",

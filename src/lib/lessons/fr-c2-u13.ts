@@ -61,7 +61,7 @@ export const FR_C2_U13: Lesson[] = [
         body: [
           "You learned at the Advanced level that the mood follows the speaker's commitment. In argument this becomes a weapon. An affirmative opinion verb presents the content as true for you, so it takes the indicative: \"je pense qu'il a raison\", \"je suis convaincu que c'est possible\", \"il est évident que\", \"il est clair que\", \"il est certain que\", \"il me paraît indéniable que\".",
           "Negate the verb and the content is no longer asserted: \"je ne pense pas qu'il ait raison\", \"je ne suis pas convaincu que ce soit possible\", \"il n'est pas certain que la mesure suffise\". Verbs and expressions of doubt or denial take the subjunctive even when affirmative: \"je doute que\", \"il est douteux que\", \"je conteste que\", \"je nie que\", \"il est peu probable que\".",
-          "Two subtleties that natives exploit. First, \"je ne doute pas que\" removes the doubt, so it usually takes the indicative in speech (\"je ne doute pas qu'il viendra\"); formal French also allows the subjunctive, sometimes with the ne explétif (\"je ne doute pas qu'il ne vienne\"). Second, \"il est probable que\" takes the indicative (probability is close enough to certainty), while \"il est possible que\" takes the subjunctive. English speakers, who have no mood to choose, tend to put the indicative everywhere; a jury hears \"*je ne pense pas que c'est\" as a slip, even though it is common in casual speech.",
+          "Two subtleties that natives exploit. First, \"je ne doute pas que\" removes the doubt, so it usually takes the indicative in speech (\"je ne doute pas qu'il viendra\"); formal French also allows the subjunctive, sometimes with the expletive \"ne\" (\"je ne doute pas qu'il ne vienne\"). Second, \"il est probable que\" takes the indicative (probability is close enough to certainty), while \"il est possible que\" takes the subjunctive. English speakers, who have no mood to choose, tend to put the indicative everywhere; a jury hears \"*je ne pense pas que c'est\" as a slip, even though it is common in casual speech.",
         ],
         examples: [
           { es: "Il est évident que cette mesure aura un coût.", en: "It's obvious that this measure will have a cost." },
@@ -80,7 +80,7 @@ export const FR_C2_U13: Lesson[] = [
             source: "I don't think this argument holds up.",
             answer: "Je ne pense pas que cet argument tienne.",
             altAnswers: ["Je ne pense pas que cet argument tienne la route.", "Je ne crois pas que cet argument tienne.", "Je ne crois pas que cet argument tienne la route.", "Je ne pense pas que cet argument soit solide.", "Je ne crois pas que cet argument soit solide."],
-            explanation: "Negated \"penser\" no longer asserts the content: subjunctive \"tienne\" (from tenir). \"Tenir la route\" is the idiomatic hold up.",
+            explanation: "Negated \"penser\" no longer asserts the content: subjunctive \"tienne\" (from \"tenir\"). \"Tenir la route\" is the idiomatic hold up.",
           },
           {
             type: "fill-blank",
@@ -172,7 +172,7 @@ export const FR_C2_U13: Lesson[] = [
         source: "It is possible that the minister is lying.",
         answer: "Il est possible que le ministre mente.",
         altAnswers: ["Il se peut que le ministre mente."],
-        explanation: "\"Il est possible que\" (and \"il se peut que\") take the subjunctive: \"mente\", from mentir.",
+        explanation: "\"Il est possible que\" (and \"il se peut que\") take the subjunctive: \"mente\", from \"mentir\".",
       },
       {
         type: "translate",
@@ -232,7 +232,7 @@ export const FR_C2_U13: Lesson[] = [
       {
         type: "dictation",
         audio: "Je ne pense pas que cette mesure suffise.",
-        explanation: "\"Suffise\" is the subjunctive of suffire, required after negated \"penser\".",
+        explanation: "\"Suffise\" is the subjunctive of \"suffire\", required after negated \"penser\".",
       },
       {
         type: "speak",
@@ -260,7 +260,7 @@ export const FR_C2_U13: Lesson[] = [
     level: "FR-C2",
     number: 2,
     title: "Transformations: Concéder avant de Réfuter",
-    summary: "Turn blunt rebuttals into the classic French move: grant the opponent a point, then dismantle the argument with certes... mais, il n'en reste pas moins que and force est de constater que.",
+    summary: "Turn blunt rebuttals into the classic French move: grant the opponent a point, then dismantle the argument with \"certes... mais\", \"il n'en reste pas moins que\" and \"force est de constater que\".",
     duration: "17 min",
     sections: [
       {
@@ -486,14 +486,14 @@ export const FR_C2_U13: Lesson[] = [
     level: "FR-C2",
     number: 3,
     title: "L'Art du Débat et de l'Argumentation, Part 2 of 9",
-    summary: "Concession in depth: bien que, quoique, même si, avoir beau, quand bien même, tout... que, il n'en demeure pas moins que and toujours est-il que, each with its mood and its tone.",
+    summary: "Concession in depth: \"bien que\", \"quoique\", \"même si\", \"avoir beau\", \"quand bien même\", \"tout... que\", \"il n'en demeure pas moins que\" and \"toujours est-il que\", each with its mood and its tone.",
     duration: "19 min",
     sections: [
       {
         heading: "Bien que, quoique, même si: three moods, one trap",
         body: [
           "You know the rule from the Advanced level; in debate it has to be automatic, because a mood error in the middle of a fine sentence ruins its authority. \"Bien que\" and \"quoique\" concede a fact and take the subjunctive: \"Bien que le texte ait été amendé, il reste inacceptable.\" \"Même si\" concedes a fact or a hypothesis and follows the tense rules of \"si\": present, imparfait or plus-que-parfait indicative, never the subjunctive, never the conditional.",
-          "The real trap at this level is not the basic rule but the long sentence. When the concessive clause is long, speakers lose track: \"Bien que la plupart des économistes, y compris ceux qui avaient d'abord soutenu le projet, *reconnaissent* aujourd'hui...\" Here \"reconnaissent\" happens to look identical in both moods, but \"*admettent\" would need checking. Train yourself to find the verb that \"bien que\" governs before you speak it.",
+          "The real trap at this level is not the basic rule but the long sentence. When the concessive clause is long, speakers lose track: \"Bien que la plupart des économistes, y compris ceux qui avaient d'abord soutenu le projet, *sont aujourd'hui sceptiques...\" By the time the verb arrives, the subjunctive \"soient\" has been forgotten. Verbs such as \"reconnaissent\" or \"admettent\" look the same in both moods, so the slip shows only with verbs like \"être\", \"avoir\", \"faire\" or \"pouvoir\". Train yourself to find the verb that \"bien que\" governs before you speak it.",
           "Elliptical concession is elegant in writing: \"bien que\" or \"quoique\" + adjective or participle, without subject or verb, when the subject is the same: \"Bien que minoritaire, ce courant pèse lourd dans le débat.\" \"Quoique discutable, l'argument mérite d'être examiné.\" And remember \"quoique\" (although, one word) vs \"quoi que\" (whatever, two words): \"Quoi que vous disiez, les faits sont têtus.\"",
         ],
         examples: [
@@ -509,7 +509,7 @@ export const FR_C2_U13: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French using bien que.",
+            prompt: "Translate into French using \"bien que\".",
             source: "Although the text has been amended, it remains unacceptable.",
             answer: "Bien que le texte ait été amendé, il reste inacceptable.",
             altAnswers: ["Bien que le texte ait été modifié, il reste inacceptable.", "Bien que le texte ait été amendé, il demeure inacceptable.", "Bien que le texte ait été amendé, il est toujours inacceptable."],
@@ -557,7 +557,7 @@ export const FR_C2_U13: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French using avoir beau.",
+            prompt: "Translate into French using \"avoir beau\".",
             source: "No matter how much the government explains, nobody believes it anymore.",
             answer: "Le gouvernement a beau expliquer, personne ne le croit plus.",
             altAnswers: ["Le gouvernement a beau s'expliquer, personne ne le croit plus.", "Le gouvernement a beau expliquer, plus personne ne le croit.", "Le gouvernement a beau s'expliquer, plus personne ne le croit."],
@@ -621,7 +621,7 @@ export const FR_C2_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French using quoique.",
+        prompt: "Translate into French using \"quoique\".",
         source: "Although the intentions are good, the method is questionable.",
         answer: "Quoique les intentions soient bonnes, la méthode est discutable.",
         altAnswers: ["Quoique les intentions soient bonnes, la méthode est contestable.", "Quoique les intentions soient louables, la méthode est discutable."],
@@ -630,7 +630,7 @@ export const FR_C2_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French using avoir beau.",
+        prompt: "Translate into French using \"avoir beau\".",
         source: "No matter how much I explained, she wouldn't listen.",
         answer: "J'ai eu beau lui expliquer, elle n'a rien voulu entendre.",
         altAnswers: ["J'ai eu beau lui expliquer, elle n'a pas voulu écouter.", "J'ai eu beau lui expliquer, elle n'a rien voulu savoir.", "J'ai eu beau expliquer, elle n'a rien voulu entendre."],
@@ -639,7 +639,7 @@ export const FR_C2_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French using quand bien même.",
+        prompt: "Translate into French using \"quand bien même\".",
         source: "Even if you were right, the method would be indefensible.",
         answer: "Quand bien même vous auriez raison, la méthode serait indéfendable.",
         altAnswers: ["Quand bien même tu aurais raison, la méthode serait indéfendable."],
@@ -812,7 +812,7 @@ export const FR_C2_U13: Lesson[] = [
         heading: "Round 3: the last word",
         body: [
           "The moderator signals the end: « Il nous reste une minute. Un mot de conclusion chacun. » Bertrand: « Je le répète : c'est une fausse bonne idée. » \"Une fausse bonne idée\" (an idea that sounds good but isn't) is a set phrase worth knowing.",
-          "Claire's conclusion must be short and structured: a concession, a refutation, a forward-looking line. « Je ne prétends pas que ce soit la solution miracle. Mais les faits sont là : là où on l'a essayée, la productivité n'a pas baissé. Alors essayons, évaluons, et décidons sur pièces. » The subjunctive after \"je ne prétends pas que\" signals that she is denying a claim nobody can pin on her.",
+          "Claire's conclusion must be short and structured: a concession, a refutation, a forward-looking line. « Je ne prétends pas que ce soit la solution miracle. Mais les faits sont là : là où on l'a essayée, la productivité n'a pas baissé. Alors essayons, évaluons, et décidons sur pièces. » The subjunctive after \"je ne prétends pas que\" shows that she refuses to make that claim herself, so nobody can pin an overstatement on her.",
           "\"Décider sur pièces\" (to decide on the evidence) and \"les faits sont là\" are both phrases that sound calm and confident. A ternary rhythm (essayons, évaluons, décidons) gives the ending its punch; you will study it in Unit 14.",
         ],
         examples: [
@@ -912,7 +912,7 @@ export const FR_C2_U13: Lesson[] = [
           "Oui, c'est vrai, donc je retire mon argument.",
         ],
         correctIndex: 0,
-        explanation: "Point out that the person is not the topic and return to the argument. Counter-insults and tu would lose the audience; conceding the attack concedes the debate.",
+        explanation: "Point out that the person is not the topic and return to the argument. Counter-insults and \"tu\" would lose the audience; conceding the attack concedes the debate.",
       },
       {
         type: "matching",
@@ -944,7 +944,7 @@ export const FR_C2_U13: Lesson[] = [
     level: "FR-C2",
     number: 5,
     title: "L'Art du Débat et de l'Argumentation, Part 3 of 9",
-    summary: "The fallacies by their French names, from l'homme de paille to la pente glissante, and the difference between a sophisme and a paralogisme.",
+    summary: "The fallacies by their French names, from \"l'homme de paille\" to \"la pente glissante\", and the difference between a \"sophisme\" and a \"paralogisme\".",
     duration: "19 min",
     sections: [
       {
@@ -1108,7 +1108,7 @@ export const FR_C2_U13: Lesson[] = [
         en: "The fact that a Nobel prize winner says so proves nothing: it's [an appeal to authority].",
         sentence: "Qu'un prix Nobel le dise ne prouve rien : c'est ___.",
         answer: "un argument d'autorité",
-        explanation: "\"L'argument d'autorité\" relies on the speaker's prestige instead of evidence. Note \"qu'un prix Nobel le dise\": a que-clause as subject takes the subjunctive.",
+        explanation: "\"L'argument d'autorité\" relies on the speaker's prestige instead of evidence. Note \"qu'un prix Nobel le dise\": a \"que\" clause as subject takes the subjunctive.",
       },
       {
         type: "fill-blank",
@@ -1262,7 +1262,7 @@ export const FR_C2_U13: Lesson[] = [
             prompt: "Put the words in order to say: It remains to be seen whether it works.",
             words: ["Reste", "à savoir", "si", "ça", "marche."],
             translation: "It remains to be seen whether it works.",
-            explanation: "\"Reste à savoir si\" uses stylistic inversion with no \"il\": the polite way to raise the real question.",
+            explanation: "\"Reste à savoir si\" drops the impersonal \"il\" of \"il reste à savoir\": the polite way to raise the real question.",
           },
           {
             type: "listen-choose",
@@ -1347,7 +1347,7 @@ export const FR_C2_U13: Lesson[] = [
           "Ceux qui refusent l'impôt veulent la mort de l'hôpital.",
         ],
         correctIndex: 0,
-        explanation: "The honest version names a risk and a condition. The others keep the false dilemma, appeal to popularity, or add a procès d'intention.",
+        explanation: "The honest version names a risk and a condition. The others keep the false dilemma, appeal to popularity, or add a \"procès d'intention\".",
       },
       {
         type: "multiple-choice",
@@ -1382,7 +1382,7 @@ export const FR_C2_U13: Lesson[] = [
     level: "FR-C2",
     number: 7,
     title: "L'Art du Débat et de l'Argumentation, Part 4 of 9",
-    summary: "Refuting and reframing (vous confondez A et B, là n'est pas la question, c'est un raccourci), and the formulas for taking and keeping the floor under pressure.",
+    summary: "Refuting and reframing (\"vous confondez A et B\", \"là n'est pas la question\", \"c'est un raccourci\"), and the formulas for taking and keeping the floor under pressure.",
     duration: "18 min",
     sections: [
       {
@@ -1543,7 +1543,7 @@ export const FR_C2_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "[As far as] security [is concerned], the figures are stable.",
+        en: "[Regarding] security, the figures are stable.",
         sentence: "___ la sécurité, les chiffres sont stables.",
         answer: "S'agissant de",
         altAnswers: ["En matière de", "Pour ce qui est de", "En ce qui concerne", "Concernant", "Quant à"],
@@ -1831,7 +1831,7 @@ export const FR_C2_U13: Lesson[] = [
     level: "FR-C2",
     number: 9,
     title: "L'Art du Débat et de l'Argumentation, Part 5 of 9",
-    summary: "Degrees of disagreement from je nuancerais to je m'inscris en faux, and the art of agreeing in part: je vous rejoins sur un point, sans aller jusqu'à dire que.",
+    summary: "Degrees of disagreement from \"je nuancerais\" to \"je m'inscris en faux\", and the art of agreeing in part: \"je vous rejoins sur un point\", \"sans aller jusqu'à dire que\".",
     duration: "18 min",
     sections: [
       {
@@ -2060,7 +2060,7 @@ export const FR_C2_U13: Lesson[] = [
     level: "FR-C2",
     number: 10,
     title: "Contrast Clinic: L'Échelle du Désaccord",
-    summary: "Grade disagreement from je nuancerais un peu to je m'inscris totalement en faux to suit the stakes and the audience, and decode the French habit of opening with oui, mais or alors, non.",
+    summary: "Grade disagreement from \"je nuancerais un peu\" to \"je m'inscris totalement en faux\" to suit the stakes and the audience, and decode the French habit of opening with \"oui, mais\" or \"alors, non\".",
     duration: "17 min",
     sections: [
       {
@@ -2123,7 +2123,7 @@ export const FR_C2_U13: Lesson[] = [
             audio: "Oui, mais ça ne règle pas le problème du financement.",
             question: "What is the speaker doing?",
             options: [
-              "Objecting: the oui only acknowledges what was said.",
+              "Objecting: the \"oui\" only acknowledges what was said.",
               "Agreeing completely with the previous speaker.",
               "Changing the subject to something unrelated.",
               "Asking a question about funding.",

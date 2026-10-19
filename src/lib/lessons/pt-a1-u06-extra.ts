@@ -8,7 +8,7 @@ export const PT_A1_U06_EXTRA: Lesson[] = [
     level: "PT-A1",
     number: 1,
     title: "Extra Practice: Questions, Numbers & Time, Part 1 of 3",
-    summary: "Practise question words by asking for the information in each answer: moro em Recife becomes onde você mora?",
+    summary: "Practice question words by asking for the information in each answer: moro em Recife becomes onde você mora?",
     duration: "12 min",
     optional: true,
     sections: [
@@ -19,11 +19,11 @@ export const PT_A1_U06_EXTRA: Lesson[] = [
           "\"Qual\" / \"quais\" picks from possible answers: \"qual é o seu nome?\", \"qual é o seu telefone?\". \"Quanto\" agrees with its noun: \"quantos anos\", \"quantas pessoas\"; alone it asks the price. \"Por que\" asks why, \"porque\" answers, and \"por quê?\" ends a sentence.",
         ],
         examples: [
-          { es: "Sou de Manaus. → De onde você é?", en: "I'm from Manaus. → Where are you from?" },
-          { es: "Meu nome é Lucas. → Qual é o seu nome?", en: "My name is Lucas. → What's your name?" },
-          { es: "Tenho dois irmãos. → Quantos irmãos você tem?", en: "I have two brothers. → How many brothers do you have?" },
-          { es: "Vou de metrô. → Como você vai?", en: "I go by metro. → How do you get there?" },
-          { es: "Porque estou cansada. → Por que você não vem?", en: "Because I'm tired. → Why aren't you coming?" },
+          { es: "Sou de Manaus. De onde você é?", en: "I'm from Manaus. Where are you from?" },
+          { es: "Meu nome é Lucas. Qual é o seu nome?", en: "My name is Lucas. What's your name?" },
+          { es: "Tenho dois irmãos. Quantos irmãos você tem?", en: "I have two brothers. How many brothers do you have?" },
+          { es: "Vou de metrô. Como você vai?", en: "I go by metro. How do you get there?" },
+          { es: "Porque estou cansada. Por que você não vem?", en: "Because I'm tired. Why aren't you coming?" },
         ],
         checkpoint: [
           {
@@ -125,7 +125,7 @@ export const PT_A1_U06_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[Which] bus goes to the centre?",
+        en: "[Which] bus goes to the center?",
         sentence: "___ ônibus vai para o centro?",
         answer: "Qual",
         explanation: "Before a noun, \"qual\" means which.",
@@ -196,7 +196,7 @@ export const PT_A1_U06_EXTRA: Lesson[] = [
         heading: "Numbers that agree, and money",
         body: [
           "Tens and units join with \"e\": \"quarenta e sete\", \"noventa e nove\"; so do hundreds: \"cento e vinte\". 100 is \"cem\", but \"cento\" once anything follows. \"Um\" / \"uma\", \"dois\" / \"duas\" and the hundreds from 200 agree with a feminine noun: \"vinte e duas pessoas\", \"duzentas casas\", but \"duzentos reais\".",
-          "Brazil writes R$ 1.250,90: a point for thousands, a comma for cents. Say \"mil duzentos e cinquenta reais e noventa centavos\", or in shops \"mil duzentos e cinquenta e noventa\". On the phone, six is often \"meia\".",
+          "Brazil writes R$ 1.250,90: a point for thousands, a comma for cents. Say \"mil duzentos e cinquenta reais e noventa centavos\", or in stores \"mil duzentos e cinquenta e noventa\". On the phone, six is often \"meia\".",
         ],
         examples: [
           { es: "O café custa quatro e cinquenta.", en: "The coffee costs four fifty." },
@@ -367,7 +367,7 @@ export const PT_A1_U06_EXTRA: Lesson[] = [
     level: "PT-A1",
     number: 3,
     title: "Extra Practice: Questions, Numbers & Time, Part 3 of 3",
-    summary: "Practise times, days, months and dates with schedules, birthdays and Brazilian holidays.",
+    summary: "Practice times, days, months and dates with schedules, birthdays and Brazilian holidays.",
     duration: "12 min",
     optional: true,
     sections: [
@@ -398,7 +398,7 @@ export const PT_A1_U06_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The film starts [at eight].",
+            en: "The movie starts [at eight].",
             sentence: "O filme começa ___.",
             answer: "às oito",
             altAnswers: ["às oito horas"],
@@ -450,7 +450,7 @@ export const PT_A1_U06_EXTRA: Lesson[] = [
         source: "The bus leaves at 10:15 p.m.",
         answer: "O ônibus sai às vinte e duas e quinze.",
         altAnswers: ["O ônibus sai às dez e quinze da noite.", "O ônibus parte às vinte e duas e quinze."],
-        explanation: "Timetables use the 24-hour clock.",
+        explanation: "Schedules use the 24-hour clock.",
       },
       {
         type: "translate",
@@ -498,7 +498,7 @@ export const PT_A1_U06_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The shop doesn't open [on Sundays].",
+        en: "The store doesn't open [on Sundays].",
         sentence: "A loja não abre ___.",
         answer: "nos domingos",
         altAnswers: ["aos domingos"],

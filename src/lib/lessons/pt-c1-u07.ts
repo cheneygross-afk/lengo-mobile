@@ -23,7 +23,7 @@ export const PT_C1_U07: Lesson[] = [
         examples: [
           { es: "A modelo é alta e esbelta.", en: "The model is tall and slender." },
           { es: "Ele sempre foi magro: come de tudo e não engorda.", en: "He's always been thin: he eats everything and never puts on weight." },
-          { es: "Ô magrelo, vem jogar bola com a gente!", en: "Hey, skinny, come and play football with us!" },
+          { es: "Ô magrelo, vem jogar bola com a gente!", en: "Hey, skinny, come and play soccer with us!" },
           { es: "O cachorro chegou raquítico ao abrigo.", en: "The dog arrived at the shelter scrawny and underfed." },
           { es: "O médico disse que estou um pouco acima do peso.", en: "The doctor said I'm a little overweight." },
           { es: "Minha filha, você está magrinha demais, come mais um pouco!", en: "Sweetheart, you're far too thin, have a bit more!" },
@@ -63,7 +63,7 @@ export const PT_C1_U07: Lesson[] = [
           { es: "O Rafael é tão pão-duro que nunca paga nem um cafezinho.", en: "Rafael is so stingy he never even pays for a coffee." },
           { es: "Ela é econômica: compara os preços antes de comprar qualquer coisa.", en: "She's thrifty: she compares prices before buying anything." },
           { es: "Depois da promoção, o Lucas ficou meio metido.", en: "After his promotion, Lucas got a bit full of himself." },
-          { es: "A vizinha é muito xereta, quer saber da vida de todo mundo.", en: "The neighbour is really nosy; she wants to know everyone's business." },
+          { es: "A vizinha é muito xereta, quer saber da vida de todo mundo.", en: "The neighbor is really nosy; she wants to know everyone's business." },
         ],
         checkpoint: [
           {
@@ -73,7 +73,7 @@ export const PT_C1_U07: Lesson[] = [
             sentence: "Meu irmão é tão ___ que divide a conta até o último centavo.",
             answer: "pão-duro",
             altAnswers: ["mão de vaca", "mão-de-vaca", "sovina"],
-            explanation: "\"Pão-duro\" and \"mão de vaca\" are the everyday ways to criticise stinginess, and \"sovina\" is more literary. \"Econômico\" would praise him instead.",
+            explanation: "\"Pão-duro\" and \"mão de vaca\" are the everyday ways to criticize stinginess, and \"sovina\" is more literary. \"Econômico\" would praise him instead.",
           },
           {
             type: "translate",
@@ -88,7 +88,7 @@ export const PT_C1_U07: Lesson[] = [
               "Ela não é cabeça-dura, ela é determinada.",
               "Ela não é cabeça-dura, é determinada.",
             ],
-            explanation: "The same behaviour, two verdicts: \"teimosa\" criticises and \"determinada\" admires. Both agree in the feminine and take \"ser\" because they describe character.",
+            explanation: "The same behavior, two verdicts: \"teimosa\" criticizes and \"determinada\" admires. Both agree in the feminine and take \"ser\" because they describe character.",
           },
           {
             type: "multiple-choice",
@@ -108,14 +108,14 @@ export const PT_C1_U07: Lesson[] = [
         heading: "Barato, em conta, aconchegante: reading prices and ads",
         body: [
           "\"Barato\" states a low price but often hints at low quality, so \"um vinho barato\" is not a recommendation. \"Em conta\" means good value and is what you say when you're pleased with the price. \"Acessível\" is the neutral, slightly formal word of advertising and public policy (\"preços acessíveis\"). At the bottom of the scale, \"vagabundo\" means cheap and nasty (\"um tênis vagabundo\"); said of a person, it's a strong insult.",
-          "Sellers live on positive connotation, so learn to decode it. An \"apartamento aconchegante\" or \"compacto\" is small, and \"charmoso\" in an old building often means it needs work. The tenant who moves in will call the same flat \"apertado\" (cramped). With objects, \"antigo\" suggests value and history (\"móveis antigos\"), while \"velho\" suggests wear (\"um sofá velho\").",
+          "Sellers live on positive connotation, so learn to decode it. An \"apartamento aconchegante\" or \"compacto\" is small, and \"charmoso\" in an old building often means it needs work. The tenant who moves in will call the same apartment \"apertado\" (cramped). With objects, \"antigo\" suggests value and history (\"móveis antigos\"), while \"velho\" suggests wear (\"um sofá velho\").",
         ],
         examples: [
           { es: "Esse restaurante é bom e em conta.", en: "This restaurant is good and reasonably priced." },
           { es: "Comprei um guarda-chuva barato e ele quebrou no primeiro dia.", en: "I bought a cheap umbrella and it broke on the first day." },
           { es: "O governo prometeu moradia a preços acessíveis.", en: "The government promised housing at affordable prices." },
-          { es: "Aluga-se apartamento aconchegante perto do metrô.", en: "Cosy flat for rent near the metro." },
-          { es: "Na verdade, o apartamento é apertado e escuro.", en: "Actually, the flat is cramped and dark." },
+          { es: "Aluga-se apartamento aconchegante perto do metrô.", en: "Cozy apartment for rent near the subway." },
+          { es: "Na verdade, o apartamento é apertado e escuro.", en: "Actually, the apartment is cramped and dark." },
           { es: "Ela coleciona relógios antigos.", en: "She collects antique clocks." },
         ],
         checkpoint: [
@@ -145,7 +145,7 @@ export const PT_C1_U07: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Everything in that shop is cheap and nasty.",
+            source: "Everything in that store is cheap and nasty.",
             answer: "Tudo naquela loja é vagabundo.",
             altAnswers: ["Tudo nessa loja é vagabundo.", "Naquela loja tudo é vagabundo.", "Nessa loja tudo é vagabundo."],
             explanation: "\"Vagabundo\" packs cheap and nasty into one informal word. It stays masculine singular because it agrees with \"tudo\".",
@@ -185,16 +185,16 @@ export const PT_C1_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[Cosy] flat, 30 square metres, near the beach.",
+        en: "[Cozy] apartment, 30 square meters, near the beach.",
         sentence: "Apartamento ___, 30 metros quadrados, perto da praia.",
         answer: "aconchegante",
-        explanation: "\"Aconchegante\" is the estate agent's favourite word for small. The masculine form never changes because it ends in -e.",
+        explanation: "\"Aconchegante\" is the real estate agent's favorite word for small. Like most adjectives in -e, it has one form for masculine and feminine.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Our neighbour is very nosy.",
+        source: "Our neighbor is very nosy.",
         answer: "Nosso vizinho é muito xereta.",
         altAnswers: [
           "Nossa vizinha é muito xereta.",
@@ -212,7 +212,7 @@ export const PT_C1_U07: Lesson[] = [
         question: "You're writing a reference for a colleague who never gives up on a hard problem. Which adjective do you use?",
         options: ["persistente", "teimosa", "cabeça-dura", "metida"],
         correctIndex: 0,
-        explanation: "\"Persistente\" frames the behaviour as a virtue. \"Teimosa\" and \"cabeça-dura\" criticise it, and \"metida\" means stuck-up.",
+        explanation: "\"Persistente\" frames the behavior as a virtue. \"Teimosa\" and \"cabeça-dura\" criticize it, and \"metida\" means stuck-up.",
       },
       {
         type: "translate",
@@ -233,7 +233,7 @@ export const PT_C1_U07: Lesson[] = [
         prompt: "Put the words in order to say: Beatriz is determined, not stubborn.",
         words: ["A", "Beatriz", "é", "determinada,", "não", "teimosa."],
         translation: "Beatriz is determined, not stubborn.",
-        explanation: "Setting the two words side by side makes the verdict explicit: same behaviour, positive label chosen over negative.",
+        explanation: "Setting the two words side by side makes the verdict explicit: same behavior, positive label chosen over negative.",
       },
       {
         type: "translate",
@@ -248,13 +248,13 @@ export const PT_C1_U07: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "In the ad it was cosy; in reality, it's cramped.",
+        source: "In the ad it was cozy; in reality, it's cramped.",
         answer: "No anúncio era aconchegante; na verdade, é apertado.",
         altAnswers: [
           "No anúncio era aconchegante; na realidade, é apertado.",
           "No anúncio ele era aconchegante; na verdade, é apertado.",
         ],
-        explanation: "\"Aconchegante\" and \"apertado\" can describe the same small flat. The seller's word is positive, the tenant's negative.",
+        explanation: "\"Aconchegante\" and \"apertado\" can describe the same small apartment. The seller's word is positive, the tenant's negative.",
       },
       {
         type: "matching",
@@ -278,7 +278,7 @@ export const PT_C1_U07: Lesson[] = [
         type: "speak",
         text: "Ele não é pão-duro, é econômico.",
         prompt: "Say it in Portuguese: He's not stingy, he's thrifty.",
-        tip: "Make the ão in pão nasal, and stress econômico on the closed, nasal nô: e-co-NÔ-mi-co.",
+        tip: "Make the ão in pão nasal, and stress econômico on the closed, nasal nô: e-ko-NÔ-mi-ku.",
         explanation: "Swapping \"pão-duro\" for \"econômico\" turns a criticism into praise without changing the facts.",
       },
     ],
@@ -302,7 +302,7 @@ export const PT_C1_U07: Lesson[] = [
           { es: "A avó da Beatriz faleceu ontem à noite.", en: "Beatriz's grandmother passed away last night." },
           { es: "Meus sentimentos. Se precisar de alguma coisa, estou aqui.", en: "I'm so sorry for your loss. If you need anything, I'm here." },
           { es: "Dois motoristas perderam a vida no acidente da BR-116.", en: "Two drivers lost their lives in the crash on the BR-116." },
-          { es: "Seu Antônio descansou depois de meses no hospital.", en: "Seu Antônio finally found peace after months in hospital." },
+          { es: "Seu Antônio descansou depois de meses no hospital.", en: "Seu Antônio finally found peace after months in the hospital." },
           { es: "Comunicamos com pesar o falecimento de Dona Maria Aparecida.", en: "It is with sorrow that we announce the passing of Dona Maria Aparecida." },
         ],
         checkpoint: [
@@ -401,7 +401,7 @@ export const PT_C1_U07: Lesson[] = [
         heading: "Desligamento, reajuste: euphemism that hides",
         body: [
           "Companies and governments soften words too, and not always out of kindness. Firing becomes \"desligamento\", mass layoffs a \"reestruturação\", a price rise a \"reajuste\", a budget freeze a \"contingenciamento\". Staff are \"colaboradores\", which makes them sound like partners.",
-          "Learn to translate these back when you summarise or argue: \"a empresa demitiu 300 funcionários\" says plainly who did what. In your own formal writing, the neutral professional term is safest. Piling on soft words reads as evasive, and critical readers notice.",
+          "Learn to translate these back when you summarize or argue: \"a empresa demitiu 300 funcionários\" says plainly who did what. In your own formal writing, the neutral professional term is safest. Piling on soft words reads as evasive, and critical readers notice.",
         ],
         examples: [
           { es: "A empresa anunciou o desligamento de 300 colaboradores.", en: "The company announced it was letting 300 employees go." },
@@ -505,7 +505,7 @@ export const PT_C1_U07: Lesson[] = [
         question: "A friend in Salvador invites you to an expensive restaurant. You can't afford it and don't want things to get awkward. What do you say?",
         options: ["Ah, este mês estou meio apertado. Vamos num lugar mais em conta?", "Não, sou pobre.", "Não tenho dinheiro nenhum para isso.", "Esse restaurante é para gente rica."],
         correctIndex: 0,
-        explanation: "\"Estou meio apertado\" makes the problem temporary, and suggesting \"um lugar mais em conta\" keeps the plan alive. The other options are blunt or turn the refusal into a judgement.",
+        explanation: "\"Estou meio apertado\" makes the problem temporary, and suggesting \"um lugar mais em conta\" keeps the plan alive. The other options are blunt or turn the refusal into a judgment.",
       },
       {
         type: "listen-choose",
@@ -550,7 +550,7 @@ export const PT_C1_U07: Lesson[] = [
           "In the written norm \"super\" is a prefix and joins the word, as in \"superinteressante\". It takes a hyphen only before h or r: \"super-rápido\". The \"-íssimo\" superlative from A2 still fits every register.",
         ],
         examples: [
-          { es: "O apartamento é bem caro, mas fica perto do metrô.", en: "The flat is pretty expensive, but it's close to the subway." },
+          { es: "O apartamento é bem caro, mas fica perto do metrô.", en: "The apartment is pretty expensive, but it's close to the subway." },
           { es: "A festa de ontem foi superlegal!", en: "Last night's party was super fun!" },
           { es: "Esse pão de queijo é bom demais.", en: "This pão de queijo is really good." },
           { es: "O aluguel está caro demais para mim.", en: "The rent is too expensive for me." },
@@ -570,7 +570,7 @@ export const PT_C1_U07: Lesson[] = [
           {
             type: "multiple-choice",
             question: "You're writing a quarterly report and want to say the results were very positive. Which sentence fits?",
-            options: ["Os resultados foram extremamente positivos.", "Os resultados foram mega positivos.", "Os resultados foram positivos demais.", "Os resultados foram super positivos."],
+            options: ["Os resultados foram extremamente positivos.", "Os resultados foram megapositivos.", "Os resultados foram positivos demais.", "Os resultados foram superpositivos."],
             correctIndex: 0,
             explanation: "\"Extremamente\" belongs to formal writing. \"Mega\" and \"super\" are conversational, and \"positivos demais\" sounds either colloquial or oddly excessive in a report.",
           },
@@ -595,7 +595,7 @@ export const PT_C1_U07: Lesson[] = [
         examples: [
           { es: "Hoje eu estou meio cansada.", en: "I'm kind of tired today." },
           { es: "A Beatriz ficou meio chateada com a piada.", en: "Beatriz got a bit upset about the joke." },
-          { es: "O filme é pouco conhecido fora do Brasil.", en: "The film is little known outside Brazil." },
+          { es: "O filme é pouco conhecido fora do Brasil.", en: "The movie is little known outside Brazil." },
           { es: "Achei a resposta dele um tanto agressiva.", en: "I found his answer somewhat aggressive." },
           { es: "A inflação caiu ligeiramente em março.", en: "Inflation fell slightly in March." },
           { es: "Eu meio que prometi ir ao aniversário dela.", en: "I kind of promised to go to her birthday party." },
@@ -800,7 +800,7 @@ export const PT_C1_U07: Lesson[] = [
           {
             type: "multiple-choice",
             question: "What does this mean? \"O apartamento é pequeno. Aliás, o quarto nem tem janela.\"",
-            options: ["The flat is small. In fact, the bedroom doesn't even have a window.", "The flat is small. After all, the bedroom doesn't have a window.", "The flat is small. However, the bedroom has a window.", "The flat is small, so the bedroom really has no window."],
+            options: ["The apartment is small. In fact, the bedroom doesn't even have a window.", "The apartment is small. After all, the bedroom doesn't have a window.", "The apartment is small. However, the bedroom has a window.", "The apartment is small, so the bedroom really has no window."],
             correctIndex: 0,
             explanation: "Here \"aliás\" adds a stronger point in the same direction: in fact. \"Nem\" (not even) often follows it in this escalating use.",
           },
@@ -845,14 +845,14 @@ export const PT_C1_U07: Lesson[] = [
         heading: "Até and até que: even, and actually",
         body: [
           "As a particle, \"até\" means even: it marks something as the least expected item on a scale. It goes right before what it focuses, so its position changes the meaning: \"Até a minha avó tem Instagram\" (even my grandmother, of all people) versus \"A minha avó até tem Instagram\" (she even has Instagram, on top of everything else). Don't confuse it with the preposition in \"até amanhã\" (until).",
-          "\"Até que\" before a verb signals a pleasant surprise against low expectations: \"O filme até que é bom\" means the film's actually not bad. It admits you expected little, so it can sound backhanded about something your listener made.",
+          "\"Até que\" before a verb signals a pleasant surprise against low expectations: \"O filme até que é bom\" means the movie's actually not bad. It admits you expected little, so it can sound backhanded about something your listener made.",
         ],
         examples: [
           { es: "Até a minha avó tem Instagram.", en: "Even my grandmother has Instagram." },
-          { es: "Ele até pediu desculpas.", en: "He even apologised." },
+          { es: "Ele até pediu desculpas.", en: "He even apologized." },
           { es: "Até no domingo ela trabalha.", en: "She works even on Sundays." },
-          { es: "O filme até que é bom.", en: "The film's actually not bad." },
-          { es: "A comida do bandejão até que estava gostosa.", en: "The canteen food was actually pretty tasty." },
+          { es: "O filme até que é bom.", en: "The movie's actually not bad." },
+          { es: "A comida do bandejão até que estava gostosa.", en: "The cafeteria food was actually pretty tasty." },
         ],
         checkpoint: [
           {
@@ -1029,7 +1029,7 @@ export const PT_C1_U07: Lesson[] = [
         examples: [
           { es: "Eu odeio frio. Já a minha irmã adora.", en: "I hate the cold. My sister, on the other hand, loves it." },
           { es: "São Paulo é caótica. Já Curitiba é bem mais tranquila.", en: "São Paulo is chaotic, whereas Curitiba is much calmer." },
-          { es: "Os adultos reclamaram do filme. Já as crianças riram o tempo todo.", en: "The adults complained about the film. The kids, though, laughed the whole time." },
+          { es: "Os adultos reclamaram do filme. Já as crianças riram o tempo todo.", en: "The adults complained about the movie. The kids, though, laughed the whole time." },
           { es: "O João quer viajar em julho. Já eu prefiro dezembro.", en: "João wants to travel in July. As for me, I'd rather go in December." },
           { es: "No interior, o aluguel é barato. Já na capital, é caríssimo.", en: "Rent is cheap in the countryside. In the capital, by contrast, it's sky-high." },
         ],
@@ -1038,7 +1038,7 @@ export const PT_C1_U07: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Lucas loves football. His brother, on the other hand, hates it.",
+            source: "Lucas loves soccer. His brother, on the other hand, hates it.",
             answer: "O Lucas adora futebol. Já o irmão dele odeia.",
             altAnswers: [
               "Lucas adora futebol. Já o irmão dele odeia.",
@@ -1071,7 +1071,7 @@ export const PT_C1_U07: Lesson[] = [
           "The emphatic \"é que\" inside questions (\"onde é que...?\") is a different thing, covered in the next unit.",
         ],
         examples: [
-          { es: "Desculpa o atraso. É que o metrô parou.", en: "Sorry I'm late. The thing is, the metro broke down." },
+          { es: "Desculpa o atraso. É que o metrô parou.", en: "Sorry I'm late. The thing is, the subway broke down." },
           { es: "Hoje não dá. É que estou cheia de trabalho.", en: "Today's no good. It's just that I'm swamped with work. (a woman speaking)" },
           { es: "Eu adoraria ir, é que já tenho compromisso.", en: "I'd love to go, it's just that I've already got plans." },
           { es: "O problema é que ninguém avisou a gente.", en: "The problem is nobody told us." },
@@ -1108,7 +1108,7 @@ export const PT_C1_U07: Lesson[] = [
         heading: "Pois é: yeah, I know",
         body: [
           "\"Pois é\" agrees with what was just said, often with a shrug of resignation: yeah, I know, tell me about it. It confirms rather than adds, so it's the natural reply to a complaint you share: \"Que calor!\" \"Pois é.\" It also reopens a topic or buys time. \"Pois é, então...\" works like so, yeah... before you get to the point.",
-          "On its own, \"pois\" sounds European. Brazil keeps it in fixed phrases, above all \"pois não\". Despite the \"não\", it means certainly, or, from a waiter or shop assistant, how can I help you?",
+          "On its own, \"pois\" sounds European. Brazil keeps it in fixed phrases, above all \"pois não\". Despite the \"não\", it means certainly, or, from a waiter or store clerk, how can I help you?",
         ],
         examples: [
           { es: "— O trânsito hoje está terrível. — Pois é, levei uma hora para chegar.", en: "'The traffic's awful today.' 'Tell me about it, it took me an hour to get here.'" },
@@ -1151,7 +1151,7 @@ export const PT_C1_U07: Lesson[] = [
           "Neither belongs in an email to a client. In conversation both are everywhere, and leaving them out is part of what makes learners sound stiff.",
         ],
         examples: [
-          { es: "Ué, a loja não abria às nove?", en: "Huh? Didn't the shop open at nine?" },
+          { es: "Ué, a loja não abria às nove?", en: "Huh? Didn't the store open at nine?" },
           { es: "Ué, por que não? A ideia é boa.", en: "Well, why not? It's a good idea." },
           { es: "Sei lá onde eu deixei o guarda-chuva.", en: "Goodness knows where I left my umbrella." },
           { es: "— Quanto custa? — Sei lá, uns cinquenta reais.", en: "'How much is it?' 'I dunno, about fifty reais.'" },
@@ -1209,7 +1209,7 @@ export const PT_C1_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "It's quiet here during the week. At the weekend, [though], the beach gets packed.",
+        en: "It's quiet here during the week. On the weekend, [though], the beach gets packed.",
         sentence: "Durante a semana, aqui é tranquilo. ___ no fim de semana, a praia fica lotada.",
         answer: "Já",
         explanation: "Contrastive \"já\" opens the clause and points to the new topic (\"no fim de semana\"). English puts though in the middle; Portuguese puts \"já\" first.",
@@ -1313,10 +1313,10 @@ export const PT_C1_U07: Lesson[] = [
         ],
         examples: [
           { es: "Que ótimo, o ônibus quebrou de novo.", en: "Great, the bus has broken down again. (ironic)" },
-          { es: "Parabéns, hein! Você quebrou a minha xícara favorita.", en: "Well done! You broke my favourite cup." },
+          { es: "Parabéns, hein! Você quebrou a minha xícara favorita.", en: "Well done! You broke my favorite cup." },
           { es: "Adoro trabalhar no sábado. Só que não.", en: "I love working on Saturdays. Not!" },
           { es: "— Desculpa o atraso. — Imagina!", en: "Sorry I'm late. Don't worry about it!" },
-          { es: "Ele, pedir desculpa? Imagina!", en: "Him, apologise? As if!" },
+          { es: "Ele, pedir desculpa? Imagina!", en: "Him, apologize? As if!" },
           { es: "— Vou começar a dieta amanhã. — Ah, tá.", en: "I'm starting my diet tomorrow. Yeah, right." },
         ],
         checkpoint: [
@@ -1331,7 +1331,7 @@ export const PT_C1_U07: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Him, apologise? As if!",
+            source: "Him, apologize? As if!",
             answer: "Ele, pedir desculpa? Imagina!",
             altAnswers: ["Ele pedir desculpa? Imagina!", "Ele, pedir desculpas? Imagina!", "Ele pedir desculpas? Imagina!", "Ele, pedir desculpa? Até parece!", "Ele pedir desculpa? Até parece!"],
             explanation: "Attached to an unlikely idea, \"imagina!\" means as if. \"Até parece!\" is another common way to say it.",
@@ -1355,7 +1355,7 @@ export const PT_C1_U07: Lesson[] = [
         ],
         examples: [
           { es: "O restaurante não é dos melhores.", en: "The restaurant isn't great." },
-          { es: "O filme não é lá essas coisas.", en: "The film's nothing special." },
+          { es: "O filme não é lá essas coisas.", en: "The movie's nothing special." },
           { es: "O novo gerente não é nenhum gênio.", en: "The new manager is no genius." },
           { es: "Nada mal para uma primeira tentativa!", en: "Not bad at all for a first try!" },
           { es: "Morar em São Paulo não é nada barato.", en: "Living in São Paulo is seriously expensive." },
@@ -1366,7 +1366,7 @@ export const PT_C1_U07: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The film's nothing special.",
+            source: "The movie's nothing special.",
             answer: "O filme não é lá essas coisas.",
             altAnswers: ["O filme não é lá grande coisa.", "O filme não é grande coisa."],
             explanation: "\"Não é lá essas coisas\" is a polite way to say something is mediocre. The \"lá\" here doesn't mean there; it softens the phrase and adds emphasis.",
@@ -1402,7 +1402,7 @@ export const PT_C1_U07: Lesson[] = [
           { es: "Se der, eu apareço.", en: "If I can, I'll drop by." },
           { es: "Hoje não dá, mas quem sabe outro dia.", en: "I can't today, but maybe another day." },
           { es: "Vou pensar com carinho e te aviso.", en: "I'll give it serious thought and let you know." },
-          { es: "Aparece lá em casa qualquer dia!", en: "Come round some time!" },
+          { es: "Aparece lá em casa qualquer dia!", en: "Come over sometime!" },
           { es: "Combinado: sábado às oito na padaria.", en: "It's settled: Saturday at eight at the bakery." },
         ],
         checkpoint: [
@@ -1483,14 +1483,14 @@ export const PT_C1_U07: Lesson[] = [
         type: "listen-choose",
         audio: "Parabéns, hein! Você quebrou a minha xícara favorita.",
         question: "What does it mean?",
-        options: ["Thanks a lot, you broke my favourite cup. (a reproach)", "Congratulations on your new favourite cup.", "Well done, you fixed my favourite cup.", "Sorry, I broke your favourite cup."],
+        options: ["Thanks a lot, you broke my favorite cup. (a reproach)", "Congratulations on your new favorite cup.", "Well done, you fixed my favorite cup.", "Sorry, I broke your favorite cup."],
         correctIndex: 0,
         explanation: "\"Parabéns, hein!\" after a mishap is ironic. The tag \"hein\" and the bad news turn congratulations into a reproach.",
       },
       {
         type: "speak",
         text: "Aparece lá em casa qualquer dia!",
-        prompt: "Say it in Portuguese: Come round some time!",
+        prompt: "Say it in Portuguese: Come over sometime!",
         tip: "\"Aparece\" uses the everyday imperative from the present, and \"dia\" starts with a j-like sound.",
         explanation: "\"Aparece lá em casa\" is a warm gesture, but without a day and time it isn't necessarily a real plan.",
       },
@@ -1513,7 +1513,7 @@ export const PT_C1_U07: Lesson[] = [
           { left: "Não é lá essas coisas.", right: "It's nothing special." },
           { left: "Quem sabe outro dia.", right: "Maybe another day." },
         ],
-        explanation: "\"Imagina\" here is sincere because it answers thanks. \"Ah, tá\" and \"só que não\" signal disbelief and irony, and the last two soften a judgement or a refusal.",
+        explanation: "\"Imagina\" here is sincere because it answers thanks. \"Ah, tá\" and \"só que não\" signal disbelief and irony, and the last two soften a judgment or a refusal.",
       },
       {
         type: "translate",
@@ -1568,11 +1568,11 @@ export const PT_C1_U07: Lesson[] = [
             source: "She's very determined; she never gives up.",
             answer: "Ela é muito determinada; nunca desiste.",
             altAnswers: ["Ela é muito determinada; ela nunca desiste.", "Ela é muito persistente; nunca desiste.", "Ela é muito persistente; ela nunca desiste.", "Ela é muito determinada e nunca desiste."],
-            explanation: "\"Determinada\" and \"persistente\" put the trait at the approving end of the scale. \"Teimosa\" would describe the same behaviour as a fault.",
+            explanation: "\"Determinada\" and \"persistente\" put the trait at the approving end of the scale. \"Teimosa\" would describe the same behavior as a fault.",
           },
           {
             type: "multiple-choice",
-            question: "You want to criticise a colleague who never spends a cent and never pays for a round of coffee. What do you say?",
+            question: "You want to criticize a colleague who never spends a cent and never pays for a round of coffee. What do you say?",
             options: ["Ele é muito pão-duro.", "Ele é muito econômico.", "Ele sabe administrar bem o dinheiro.", "Ele é muito poupador."],
             correctIndex: 0,
             explanation: "\"Pão-duro\" is the critical word for stingy. \"Econômico\", \"poupador\" and \"sabe administrar o dinheiro\" all present the same habit as a virtue.",
@@ -1591,11 +1591,11 @@ export const PT_C1_U07: Lesson[] = [
       {
         heading: "Places and things: selling or complaining",
         body: [
-          "Descriptions of places shift the same way, and property ads, hotel reviews and complaints depend on that shift. A small flat is \"aconchegante\" in the ad, \"pequeno\" in the inspection report and \"apertado\" or \"minúsculo\" in the review. A quiet town is \"tranquila\" to a retiree and \"parada\" or even \"morta\" to a bored teenager. Busy runs from \"animado\" (lively) through \"movimentado\" to \"tumultuado\" (chaotic).",
+          "Descriptions of places shift the same way, and property ads, hotel reviews and complaints depend on that shift. A small apartment is \"aconchegante\" in the ad, \"pequeno\" in the inspection report and \"apertado\" or \"minúsculo\" in the review. A quiet town is \"tranquila\" to a retiree and \"parada\" or even \"morta\" to a bored teenager. Busy runs from \"animado\" (lively) through \"movimentado\" to \"tumultuado\" (chaotic).",
           "Age is a classic case: \"clássico\" and \"tradicional\" flatter, \"antigo\" just states, \"velho\" and \"ultrapassado\" (outdated) condemn. With price, \"em conta\" stresses good value, \"barato\" is neutral, and colloquial \"vagabundo\" means cheap and badly made. \"Simples\" can be a virtue; \"precário\" never is.",
         ],
         examples: [
-          { es: "O apartamento é aconchegante e bem iluminado.", en: "The flat is cosy and full of light." },
+          { es: "O apartamento é aconchegante e bem iluminado.", en: "The apartment is cozy and full of light." },
           { es: "O quarto era apertado e sem janela.", en: "The room was cramped, with no window." },
           { es: "Ouro Preto é uma cidade tranquila, cheia de história.", en: "Ouro Preto is a peaceful town, full of history." },
           { es: "Aqui é muito parado; à noite não tem nada para fazer.", en: "It's really dead here; there's nothing to do at night." },
@@ -1607,7 +1607,7 @@ export const PT_C1_U07: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The flat is cosy, perfect for a couple.",
+            source: "The apartment is cozy, perfect for a couple.",
             answer: "O apartamento é aconchegante, perfeito para um casal.",
             altAnswers: ["O apartamento é aconchegante, ideal para um casal.", "O apartamento é aconchegante e perfeito para um casal.", "O apartamento é aconchegante e ideal para um casal."],
             explanation: "\"Aconchegante\" turns small into a selling point. \"Pequeno\" would only state the size, and \"apertado\" would make it a complaint.",
@@ -1616,7 +1616,7 @@ export const PT_C1_U07: Lesson[] = [
             type: "listen-choose",
             audio: "Aqui é meio parado no fim de semana.",
             question: "What does it mean?",
-            options: ["It's a bit dead here at the weekend.", "It's nice and peaceful here at the weekend.", "It's a bit crowded here at the weekend.", "It's half empty here at the weekend."],
+            options: ["It's a bit dead here on the weekend.", "It's nice and peaceful here on the weekend.", "It's a bit crowded here on the weekend.", "It's half empty here on the weekend."],
             correctIndex: 0,
             explanation: "\"Parado\" is the bored, negative word for quiet. The approving version would be \"tranquilo\". \"Meio\" is the downtoner a bit, not half.",
           },
@@ -1632,13 +1632,13 @@ export const PT_C1_U07: Lesson[] = [
       {
         heading: "Verbs and nouns carry attitude too",
         body: [
-          "Connotation isn't only in adjectives. Reporting verbs pass judgement on what was said: \"disse\" is neutral, \"explicou\" lends credibility, \"alegou\" hints that the writer doesn't believe it, and \"admitiu\" implies something to confess. \"Alegar\" does in one word what the journalistic conditional does with a whole clause.",
+          "Connotation isn't only in adjectives. Reporting verbs pass judgment on what was said: \"disse\" is neutral, \"explicou\" lends credibility, \"alegou\" hints that the writer doesn't believe it, and \"admitiu\" implies something to confess. \"Alegar\" does in one word what the journalistic conditional does with a whole clause.",
           "Nouns for groups work the same way: \"grupo\" is neutral, \"turma\" is friendly, \"bando\" is scornful. The same people in the street are \"manifestantes\" in one newspaper and \"baderneiros\" (troublemakers) in another. For criticism, \"comentar\" and \"observar\" are mild, \"reclamar\" means to complain, and \"choramingar\" means to whine.",
           "When you rewrite a text to change its attitude, change all three layers: adjectives, verbs and nouns. A glowing adjective next to \"alegou\" sends mixed signals.",
         ],
         examples: [
-          { es: "O prefeito disse que a obra vai terminar em março.", en: "The mayor said the works will finish in March." },
-          { es: "O prefeito alegou que a obra atrasou por causa da chuva.", en: "The mayor claimed the works were delayed because of the rain." },
+          { es: "O prefeito disse que a obra vai terminar em março.", en: "The mayor said the project will be finished in March." },
+          { es: "O prefeito alegou que a obra atrasou por causa da chuva.", en: "The mayor claimed the project was delayed because of the rain." },
           { es: "A empresa admitiu que houve uma falha no sistema.", en: "The company admitted there had been a system failure." },
           { es: "Uma turma de amigos se reuniu na praia.", en: "A bunch of friends got together on the beach." },
           { es: "Um bando de baderneiros fechou a avenida.", en: "A gang of troublemakers blocked the avenue." },
@@ -1652,7 +1652,7 @@ export const PT_C1_U07: Lesson[] = [
             source: "The minister claimed he didn't know anything.",
             answer: "O ministro alegou que não sabia de nada.",
             altAnswers: ["O ministro alegou que não sabia nada.", "O ministro alegou não saber de nada.", "O ministro alegou não saber nada."],
-            explanation: "\"Alegou\" reports the claim while signalling doubt. \"Disse\" would be neutral. \"Não sabia de nada\" uses the double negative that Portuguese requires.",
+            explanation: "\"Alegou\" reports the claim while signaling doubt. \"Disse\" would be neutral. \"Não sabia de nada\" uses the double negative that Portuguese requires.",
           },
           {
             type: "multiple-choice",
@@ -1695,11 +1695,11 @@ export const PT_C1_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Her neighbour is [nosy]; he wants to know everyone's business.",
+        en: "Her neighbor is [nosy]; he wants to know everyone's business.",
         sentence: "O vizinho dela é ___; quer saber da vida de todo mundo.",
         answer: "xereta",
         altAnswers: ["intrometido", "enxerido", "bisbilhoteiro"],
-        explanation: "\"Xereta\", \"intrometido\" and \"enxerido\" all criticise. \"Curioso\" would describe the same interest neutrally or even kindly.",
+        explanation: "\"Xereta\", \"intrometido\" and \"enxerido\" all criticize. \"Curioso\" would describe the same interest neutrally or even kindly.",
       },
       {
         type: "translate",
@@ -1712,10 +1712,10 @@ export const PT_C1_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You're writing a property ad for a small flat. Which description sells it?",
+        question: "You're writing a property ad for a small apartment. Which description sells it?",
         options: ["Apartamento aconchegante e bem localizado.", "Apartamento apertado e bem localizado.", "Apartamento minúsculo e bem localizado.", "Apartamento pequeno demais e bem localizado."],
         correctIndex: 0,
-        explanation: "\"Aconchegante\" frames small as cosy. \"Apertado\", \"minúsculo\" and \"pequeno demais\" belong in a disappointed review.",
+        explanation: "\"Aconchegante\" frames small as cozy. \"Apertado\", \"minúsculo\" and \"pequeno demais\" belong in a disappointed review.",
       },
       {
         type: "word-order",
@@ -1762,7 +1762,7 @@ export const PT_C1_U07: Lesson[] = [
           { left: "pão-duro", right: "stingy" },
           { left: "persistente", right: "persistent" },
           { left: "cabeça-dura", right: "pig-headed" },
-          { left: "aconchegante", right: "cosy" },
+          { left: "aconchegante", right: "cozy" },
           { left: "apertado", right: "cramped" },
         ],
         explanation: "Each pair describes one fact from two attitudes: \"econômico\" / \"pão-duro\", \"persistente\" / \"cabeça-dura\", \"aconchegante\" / \"apertado\".",
@@ -1774,14 +1774,14 @@ export const PT_C1_U07: Lesson[] = [
     level: "PT-C1",
     number: 8,
     title: "Dialogue Lab: Vou Ver e Te Falo",
-    summary: "Follow Mariana as she turns down an invitation and a favour without ever saying no, and learn to hear when a Brazilian's maybe really means no.",
+    summary: "Follow Mariana as she turns down an invitation and a favor without ever saying no, and learn to hear when a Brazilian's maybe really means no.",
     duration: "15 min",
     sections: [
       {
         heading: "The invitation: buying time without saying no",
         body: [
           "Lucas invites his colleague Mariana to a churrasco on Saturday. She has other plans, but she won't say \"não\". In Brazil a flat no to an invitation sounds cold, as if you were rejecting the person. The usual move is warmth first (\"Que legal!\", \"Poxa, adoraria!\"), then a hedge that leaves the door half open.",
-          "To an English speaker, \"vou ver e te falo\" (I'll see and let you know), \"vou tentar\" and \"vou ver se consigo\" sound like a probable yes. Between Brazilians they lean towards no. If nothing follows, nobody is offended, because the hedge already said it. When you really mean yes, be concrete: \"Vou sim! Levo alguma coisa?\"",
+          "To an English speaker, \"vou ver e te falo\" (I'll see and let you know), \"vou tentar\" and \"vou ver se consigo\" sound like a probable yes. Between Brazilians they lean toward no. If nothing follows, nobody is offended, because the hedge already said it. When you really mean yes, be concrete: \"Vou sim! Levo alguma coisa?\"",
           "Intonation carries much of the message. A bright \"vou ver!\" followed by a practical question (\"que horas?\") sounds like real interest. A drawn-out \"vou veeer...\" with no question sounds like a no.",
         ],
         examples: [
@@ -1790,7 +1790,7 @@ export const PT_C1_U07: Lesson[] = [
           { es: "Vou tentar dar uma passada.", en: "I'll try to stop by. (usually: probably not)" },
           { es: "Vou ver se consigo, mas acho que tenho um compromisso.", en: "I'll see if I can make it, but I think I've got something on." },
           { es: "Adoraria, mas esse fim de semana tá meio complicado.", en: "I'd love to, but this weekend is a bit tricky." },
-          { es: "Vou sim! Levo alguma coisa?", en: "I'm definitely coming! Shall I bring something?" },
+          { es: "Vou sim! Levo alguma coisa?", en: "I'm definitely coming! Should I bring something?" },
         ],
         checkpoint: [
           {
@@ -1821,9 +1821,9 @@ export const PT_C1_U07: Lesson[] = [
         ],
       },
       {
-        heading: "The favour: let the situation say no",
+        heading: "The favor: let the situation say no",
         body: [
-          "Then Rafael asks Mariana to help him move flat on Sunday. Turning down a favour follows a script. You show goodwill, give a reason with \"é que\" (the particle that softens an explanation), and offer something smaller if you can. That alternative turns a refusal into collaboration.",
+          "Then Rafael asks Mariana to help him move on Sunday. Turning down a favor follows a script. You show goodwill, give a reason with \"é que\" (the particle that softens an explanation), and offer something smaller if you can. That alternative turns a refusal into collaboration.",
           "The core formula is \"não vai dar\" (it won't work out). Its subject is the situation: nobody refuses, the day just doesn't allow it. \"Não posso\" is acceptable but flatter, and \"não quero\" is a genuine rejection. \"Até\" adds sincerity: \"eu até ajudaria, mas...\" means I'd honestly help, but...",
           "At work and with older people, keep these moves but drop the vague hedge. Your boss needs a real answer, delivered with \"o senhor\" or \"a senhora\" and an alternative.",
         ],
@@ -1843,7 +1843,7 @@ export const PT_C1_U07: Lesson[] = [
             sentence: "Infelizmente ___, seu Antônio.",
             answer: "não vai dar",
             altAnswers: ["não dá", "não vai ser possível"],
-            explanation: "\"Não vai dar\" makes the circumstances the subject, so nobody is personally refusing. With an older neighbour it stays polite. The slangy \"não vai rolar\" would be too casual here.",
+            explanation: "\"Não vai dar\" makes the circumstances the subject, so nobody is personally refusing. With an older neighbor it stays polite. The slangy \"não vai rolar\" would be too casual here.",
           },
           {
             type: "translate",
@@ -1951,7 +1951,7 @@ export const PT_C1_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Dona Maria, your elderly neighbour, asks you to water her plants for the whole of next month. You can only do the first week. What do you say?",
+        question: "Dona Maria, your elderly neighbor, asks you to water her plants for the whole of next month. You can only do the first week. What do you say?",
         options: ["Não quero, Dona Maria, é muito tempo.", "Vou ver e te falo, Dona Maria.", "Ai, Dona Maria, o mês todo não vai dar, mas na primeira semana eu posso regar para a senhora.", "Não, Dona Maria. Só posso na primeira semana."],
         correctIndex: 2,
         explanation: "She needs a real answer to plan, so a vague hedge won't do. \"Não vai dar\" plus a partial offer and \"a senhora\" is honest and kind. \"Não quero\" and the bare \"não\" sound harsh.",
@@ -2056,7 +2056,7 @@ export const PT_C1_U07: Lesson[] = [
           { es: "Poxa, acho que não vai dar dessa vez, mas obrigada pelo convite!", en: "Oh, I don't think I can make it this time, but thanks for the invite! (a woman speaking)" },
           { es: "Será que você poderia dar uma olhada no meu relatório?", en: "Could you possibly take a look at my report?" },
           { es: "Acho que esse parágrafo ainda pode melhorar um pouco.", en: "I think this paragraph could still be improved a bit." },
-          { es: "Eu queria pedir um favor, se não for incômodo.", en: "I wanted to ask a favour, if it's no trouble." },
+          { es: "Eu queria pedir um favor, se não for incômodo.", en: "I wanted to ask a favor, if it's no trouble." },
           { es: "Vou ver aqui e te falo, tá?", en: "I'll check and let you know, OK?" },
         ],
         checkpoint: [
@@ -2095,7 +2095,7 @@ export const PT_C1_U07: Lesson[] = [
         ],
         examples: [
           { es: "Bom, vamos começar a reunião.", en: "Right, let's start the meeting." },
-          { es: "O filme é ótimo. Aliás, o livro é ainda melhor.", en: "The film is great. Actually, the book is even better." },
+          { es: "O filme é ótimo. Aliás, o livro é ainda melhor.", en: "The movie is great. Actually, the book is even better." },
           { es: "Por fim, servimos a sobremesa.", en: "Finally, we served dessert." },
           { es: "Afinal, você vem ou não vem?", en: "So, are you coming or not?" },
           { es: "O próprio diretor fez o café.", en: "The director made the coffee himself." },
@@ -2124,7 +2124,7 @@ export const PT_C1_U07: Lesson[] = [
       {
         heading: "Super everywhere",
         body: [
-          "\"Super\" is a casual intensifier: \"ela é super gente boa\" is fine in a chat. In an email to a client or in a report, \"super importante\" sounds adolescent. Use \"extremamente\" or \"bastante\", or a stronger adjective such as \"fundamental\" or \"essencial\". Stacking intensifiers, as in \"super muito importante\", is wrong in any register.",
+          "\"Super\" is a casual intensifier: \"ela é super gente boa\" is fine in a chat. In an email to a client or in a report, \"superimportante\" sounds adolescent. Use \"extremamente\" or \"bastante\", or a stronger adjective such as \"fundamental\" or \"essencial\". Stacking intensifiers, as in \"super muito importante\", is wrong in any register.",
           "Even in speech, a \"super\" in every sentence flattens your Portuguese. Vary it with \"bem\" before the adjective (\"bem animada\"), \"demais\" after it (\"lindo demais\"), \"-íssimo\" (\"caríssimo\") and plain \"muito\".",
         ],
         examples: [
@@ -2142,11 +2142,11 @@ export const PT_C1_U07: Lesson[] = [
             source: "The deadline is extremely short. (in an email to a client)",
             answer: "O prazo é extremamente curto.",
             altAnswers: ["O prazo está extremamente curto.", "O prazo é bastante curto.", "O prazo está bastante curto.", "O prazo é muito curto.", "O prazo está muito curto."],
-            explanation: "To a client, \"extremamente\" or \"bastante\" keeps the register. \"Super curto\" belongs in a chat with friends.",
+            explanation: "To a client, \"extremamente\" or \"bastante\" keeps the register. \"Supercurto\" belongs in a chat with friends.",
           },
           {
             type: "multiple-choice",
-            question: "A learner's report to the board says \"Esse ponto é super importante.\" Which revision fits the register?",
+            question: "A learner's report to the board says \"Esse ponto é superimportante.\" Which revision fits the register?",
             options: ["Esse ponto é fundamental.", "Esse ponto é mega importante.", "Esse ponto é importante demais da conta.", "Esse ponto é super muito importante."],
             correctIndex: 0,
             explanation: "A strong adjective like \"fundamental\" does the work without a casual intensifier. \"Mega\" and \"demais da conta\" are colloquial, and \"super muito\" stacks two intensifiers.",
@@ -2171,7 +2171,7 @@ export const PT_C1_U07: Lesson[] = [
         source: "My colleague is very persistent: she never gives up.",
         answer: "Minha colega é muito persistente: ela nunca desiste.",
         altAnswers: ["Minha colega é muito persistente: nunca desiste.", "A minha colega é muito persistente: ela nunca desiste.", "A minha colega é muito persistente: nunca desiste.", "Minha colega é muito persistente, ela nunca desiste."],
-        explanation: "\"Persistente\" is praise. \"Teimosa\" describes the same behaviour as a flaw.",
+        explanation: "\"Persistente\" is praise. \"Teimosa\" describes the same behavior as a flaw.",
       },
       {
         type: "fill-blank",
@@ -2219,7 +2219,7 @@ export const PT_C1_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Dear Mr Souza, the report needs to be [extremely] clear.",
+        en: "Dear Mr. Souza, the report needs to be [extremely] clear.",
         sentence: "Prezado Sr. Souza, o relatório precisa ser ___ claro.",
         answer: "extremamente",
         altAnswers: ["bastante", "muito"],
@@ -2281,7 +2281,7 @@ export const PT_C1_U07: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The flat is reasonably priced, but it's small.",
+            source: "The apartment is reasonably priced, but it's small.",
             answer: "O apartamento é em conta, mas é pequeno.",
             altAnswers: ["O apartamento tem um preço em conta, mas é pequeno.", "O apartamento está em conta, mas é pequeno."],
             explanation: "\"Em conta\" praises the price without suggesting poor quality, which \"barato\" can do.",
@@ -2291,7 +2291,7 @@ export const PT_C1_U07: Lesson[] = [
             question: "A colleague's mother has died. What do you write in your message?",
             options: ["Meus sentimentos pelo falecimento da sua mãe.", "Que chato que sua mãe morreu.", "Soube que sua mãe bateu as botas.", "Sua mãe morreu, né? Pois é."],
             correctIndex: 0,
-            explanation: "\"Meus sentimentos\" and \"falecimento\" are the expected formulas. \"Que chato\" trivialises the death, and \"bater as botas\" is slang that would offend.",
+            explanation: "\"Meus sentimentos\" and \"falecimento\" are the expected formulas. \"Que chato\" trivializes the death, and \"bater as botas\" is slang that would offend.",
           },
           {
             type: "fill-blank",
@@ -2308,7 +2308,7 @@ export const PT_C1_U07: Lesson[] = [
         heading: "Turning the volume up and down",
         body: [
           "Intensifiers carry register too: \"super\" and \"mega\" are casual, \"bem\" is neutral and fits anywhere, and \"extremamente\" belongs in writing. Among the downtoners, \"meio\" (a bit) never changes before an adjective, as in \"ela está meio cansada\". \"Um tanto\" and \"levemente\" sound more formal.",
-          "\"Meio que\" softens a whole claim in speech (\"eu meio que esqueci\"), and Brazilians use it often to avoid sounding blunt. Don't put \"super\" on everything. In a report, \"os resultados foram bastante positivos\" sounds competent, but \"super positivos\" sounds like a text message.",
+          "\"Meio que\" softens a whole claim in speech (\"eu meio que esqueci\"), and Brazilians use it often to avoid sounding blunt. Don't put \"super\" on everything. In a report, \"os resultados foram bastante positivos\" sounds competent, but \"superpositivos\" sounds like a text message.",
         ],
         examples: [
           { es: "O Rafael é super gente boa.", en: "Rafael is a really nice guy." },
@@ -2349,7 +2349,7 @@ export const PT_C1_U07: Lesson[] = [
           { es: "Ele é ótimo, aliás, o melhor da equipe.", en: "He's great, in fact the best on the team." },
           { es: "Até o meu avô usa o celular para pedir comida.", en: "Even my grandfather uses his phone to order food." },
           { es: "Desculpa, é que o ônibus atrasou.", en: "Sorry, it's just that the bus was late." },
-          { es: "Ué, a loja não abria às nove?", en: "Huh, didn't the shop open at nine?" },
+          { es: "Ué, a loja não abria às nove?", en: "Huh, didn't the store open at nine?" },
         ],
         checkpoint: [
           {
@@ -2388,7 +2388,7 @@ export const PT_C1_U07: Lesson[] = [
         examples: [
           { es: "Choveu o fim de semana inteiro. Que ótimo...", en: "It rained the whole weekend. Just great..." },
           { es: "Obrigada pela ajuda! — Imagina!", en: "Thanks for the help! — Don't mention it! (a woman thanking)" },
-          { es: "O filme não foi lá essas coisas.", en: "The film wasn't all that." },
+          { es: "O filme não foi lá essas coisas.", en: "The movie wasn't all that." },
           { es: "Vou ver minha agenda e te falo.", en: "I'll check my schedule and let you know." },
           { es: "Hoje não dá, mas quem sabe na semana que vem?", en: "Today's no good, but maybe next week?" },
         ],
@@ -2530,10 +2530,10 @@ export const PT_C1_U07_WRITING: WriteExercise = {
   maxWords: 300,
   rubric: [
     "Declines the invitation indirectly, with an explanation introduced by \"é que\" and softeners such as \"vou ver se consigo\" and \"quem sabe\", never a flat \"não posso\".",
-    "Describes Rafael with favourable or neutral words (\"reservado\", \"determinado\", \"econômico\", \"em conta\") instead of harsher near-synonyms (\"fechado\", \"teimoso\", \"pão-duro\"), contrasting the two at least once.",
+    "Describes Rafael with favorable or neutral words (\"reservado\", \"determinado\", \"econômico\", \"em conta\") instead of harsher near-synonyms (\"fechado\", \"teimoso\", \"pão-duro\"), contrasting the two at least once.",
     "Grades statements with intensifiers and downtoners such as \"super\", \"bem\", \"meio\" and \"um tanto\".",
     "Uses at least three pragmatic particles naturally (\"pois é\", \"aliás\", \"afinal\", \"até\", \"mesmo\", \"né\"), and optionally a touch of irony (\"que maravilha, né?\").",
   ],
-  modelAnswer: "Oi, Bia! Tudo bem?\n\nPois é, recebi o convite e fiquei super feliz que você se lembrou de mim. É que justo no sábado minha mãe chega de Recife no voo das nove, e eu fiquei de buscar ela no aeroporto. Vou ver se consigo dar uma passadinha no restaurante no fim da noite, mas não prometo, tá? Ah, e o trânsito de São Paulo num sábado à noite... que maravilha, né? Quem sabe a gente não comemora com calma na semana que vem, só nós duas?\n\nSobre o Rafael: você me pediu sinceridade, então lá vai. Achei ele simpático e até bem engraçado. Aliás, aquela história da viagem a Manaus foi ótima. No começo ele me pareceu um tanto reservado, mas é normal, afinal era a primeira vez que a gente se via. Ele é bem determinado nas opiniões (meio teimoso, vai), mas defende o que pensa sem ser grosseiro, e isso eu respeito. E ele é econômico, né? Escolheu o restaurante mais em conta da rua, o que, sinceramente, eu acho sensato. Pão-duro eu não diria, até porque ele fez questão de pagar a sobremesa.\n\nO que importa mesmo é que você estava radiante do lado dele. Isso já diz muita coisa.\n\nMe conta depois como foi a festa! Um beijo enorme e feliz aniversário adiantado!",
-  explanation: "The refusal follows the Brazilian pattern. \"É que\" introduces the reason, \"vou ver se consigo\" and \"não prometo\" soften it, and \"quem sabe a gente não...?\" proposes an alternative, so the answer is clear without a bare \"não\". The opinion relies on connotation: \"reservado\" rather than \"fechado\", \"determinado\" rather than \"teimoso\", \"econômico\" and \"em conta\" rather than \"pão-duro\". The harsher word appears only once, cushioned by \"meio\" and the conversational \"vai\". The particles carry the attitude: \"pois é\" opens the reply, \"até\" means even, \"aliás\" adds a point in passing, \"afinal\" justifies with after all, and \"mesmo\" stresses what really matters. \"Que maravilha, né?\" about the traffic is plain irony.",
+  modelAnswer: "Oi, Bia! Tudo bem?\n\nPois é, recebi o convite e fiquei superfeliz por você ter se lembrado de mim. É que justo no sábado minha mãe chega de Recife no voo das nove, e eu fiquei de buscar ela no aeroporto. Vou ver se consigo dar uma passadinha no restaurante no fim da noite, mas não prometo, tá? Ah, e o trânsito de São Paulo num sábado à noite... que maravilha, né? Quem sabe a gente não comemora com calma na semana que vem, só nós duas?\n\nSobre o Rafael: você me pediu sinceridade, então lá vai. Achei ele simpático e até bem engraçado. Aliás, aquela história da viagem a Manaus foi ótima. No começo ele me pareceu um tanto reservado, mas é normal, afinal era a primeira vez que a gente se via. Ele é bem determinado nas opiniões (meio teimoso, vai), mas defende o que pensa sem ser grosseiro, e isso eu respeito. E ele é econômico, né? Escolheu o restaurante mais em conta da rua, o que, sinceramente, eu acho sensato. Pão-duro eu não diria, até porque ele fez questão de pagar a sobremesa.\n\nO que importa mesmo é que você estava radiante do lado dele. Isso já diz muita coisa.\n\nMe conta depois como foi a festa! Um beijo enorme e feliz aniversário adiantado!",
+  explanation: "The refusal follows the Brazilian pattern. \"É que\" introduces the reason, \"vou ver se consigo\" and \"não prometo\" soften it, and \"quem sabe a gente não...?\" proposes an alternative, so the answer is clear without a bare \"não\". The opinion relies on connotation: \"reservado\" rather than \"fechado\", \"determinado\" rather than \"teimoso\", \"econômico\" and \"em conta\" rather than \"pão-duro\". The harsher word appears only once, cushioned by \"meio\" and the conversational \"vai\". The particles carry the attitude: \"pois é\" opens the reply, \"até\" means even, \"aliás\" adds a point in passing, \"afinal\" justifies with after all, and \"mesmo\" stresses what really matters. \"Que maravilha, né?\" about the traffic is plain irony. The register is a chat between friends, so \"buscar ela\" is fine here; a formal text would write \"buscá-la\".",
 };

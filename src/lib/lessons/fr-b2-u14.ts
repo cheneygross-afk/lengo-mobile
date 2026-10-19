@@ -45,7 +45,7 @@ export const FR_B2_U14: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct the error: « En arrivant à l'hôtel, le directeur m'a accueilli. » Translate: When I arrived at the hotel, the manager welcomed me.",
+            prompt: "Correct the error: *\"En arrivant à l'hôtel, le directeur m'a accueilli.\" Translate: When I arrived at the hotel, the manager welcomed me.",
             source: "When I arrived at the hotel, the manager welcomed me.",
             answer: "Quand je suis arrivé à l'hôtel, le directeur m'a accueilli.",
             altAnswers: ["Quand je suis arrivée à l'hôtel, le directeur m'a accueillie.", "Lorsque je suis arrivé à l'hôtel, le directeur m'a accueilli.", "Lorsque je suis arrivée à l'hôtel, le directeur m'a accueillie.", "En arrivant à l'hôtel, j'ai été accueilli par le directeur.", "En arrivant à l'hôtel, j'ai été accueillie par le directeur.", "À mon arrivée à l'hôtel, le directeur m'a accueilli.", "À mon arrivée à l'hôtel, le directeur m'a accueillie."],
@@ -248,7 +248,7 @@ export const FR_B2_U14: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct the letter: « Je suis désolée que nous perdions contact. » Translate: I'm sorry we lost touch.",
+            prompt: "Correct the letter: *\"Je suis désolée que nous perdions contact.\" Translate: I'm sorry we lost touch.",
             source: "I'm sorry we lost touch.",
             answer: "Je suis désolée que nous ayons perdu contact.",
             altAnswers: ["Je suis désolé que nous ayons perdu contact.", "Je suis désolée qu'on ait perdu contact.", "Je suis désolé qu'on ait perdu contact.", "Je suis désolée que nous ayons perdu le contact.", "Je regrette que nous ayons perdu contact."],
@@ -282,7 +282,7 @@ export const FR_B2_U14: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct the letter: « Je voulais que tu venais. » Translate: I wanted you to come.",
+            prompt: "Correct the letter: *\"Je voulais que tu venais.\" Translate: I wanted you to come.",
             source: "I wanted you to come.",
             answer: "Je voulais que tu viennes.",
             altAnswers: ["Je voulais que vous veniez.", "J'aurais voulu que tu viennes."],
@@ -291,9 +291,9 @@ export const FR_B2_U14: Lesson[] = [
           {
             type: "multiple-choice",
             question: "'I was afraid you were angry with me.' Which is correct?",
-            options: ["J'avais peur que tu m'en veuilles.", "J'avais peur que tu m'en voulais.", "J'avais peur que tu m'en voudrais.", "J'avais peur que tu m'en voulusses."],
+            options: ["J'avais peur que tu m'en veuilles.", "J'avais peur que tu m'en voulais.", "J'avais peur que tu m'en voudrais.", "J'avais peur que tu m'en veux."],
             correctIndex: 0,
-            explanation: "Fear → present subjunctive, even after a past verb. The imperfect subjunctive is literary only.",
+            explanation: "Fear → present subjunctive, even after a past verb: \"que tu m'en veuilles\". \"Voulais\", \"voudrais\" and \"veux\" are not subjunctive forms.",
           },
         ],
       },
@@ -708,7 +708,7 @@ export const FR_B2_U14: Lesson[] = [
             prompt: "Translate into French.",
             source: "If you switch off your phone at nine, you'll sleep better.",
             answer: "En coupant votre téléphone à vingt et une heures, vous dormirez mieux.",
-            altAnswers: ["En éteignant votre téléphone à vingt et une heures, vous dormirez mieux.", "En coupant votre téléphone à 21 heures, vous dormirez mieux.", "En éteignant votre téléphone à 21 heures, vous dormirez mieux.", "Si vous coupez votre téléphone à vingt et une heures, vous dormirez mieux.", "Si vous éteignez votre téléphone à 21 heures, vous dormirez mieux.", "En éteignant votre téléphone à neuf heures, vous dormirez mieux."],
+            altAnswers: ["En éteignant votre téléphone à vingt et une heures, vous dormirez mieux.", "En coupant votre téléphone à 21 heures, vous dormirez mieux.", "En éteignant votre téléphone à 21 heures, vous dormirez mieux.", "Si vous coupez votre téléphone à vingt et une heures, vous dormirez mieux.", "Si vous éteignez votre téléphone à 21 heures, vous dormirez mieux.", "En éteignant votre téléphone à neuf heures, vous dormirez mieux.", "En coupant votre téléphone à neuf heures, vous dormirez mieux."],
             explanation: "Gérondif of condition + future, same subject \"vous\".",
           },
           {
@@ -774,7 +774,7 @@ export const FR_B2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Julien says: « J'ai arrêté le sport en changeant de poste. » What does he mean?",
+        question: "Julien says: \"« J'ai arrêté le sport en changeant de poste. »\" What does he mean?",
         options: ["He stopped doing sport when he changed jobs.", "He changed jobs to stop doing sport.", "He stopped changing jobs because of sport.", "He changed jobs although he loved sport."],
         correctIndex: 0,
         explanation: "\"En changeant\": the moment (when) of the main action.",
@@ -905,7 +905,7 @@ export const FR_B2_U14: Lesson[] = [
       {
         heading: "Reporting the positions",
         body: [
-          "A press summary reports what each side said, with backshift after a past reporting verb: \"Le ministre a affirmé que son pays ne céderait pas\" (« Nous ne céderons pas »). \"La délégation a demandé si les sanctions seraient levées.\" \"Le médiateur a appelé les deux parties à reprendre le dialogue\" (appeler à + infinitive: to call on).",
+          "A press summary reports what each side said, with backshift after a past reporting verb: \"Le ministre a affirmé que son pays ne céderait pas\" (\"« Nous ne céderons pas »\"). \"La délégation a demandé si les sanctions seraient levées.\" \"Le médiateur a appelé les deux parties à reprendre le dialogue\" (appeler à + infinitive: to call on).",
           "Choose reporting verbs that reflect the tone: \"affirmer\", \"déclarer\", \"souligner\" (to stress), \"reconnaître\", \"nier\", \"exiger\" (to demand), \"proposer de\", \"menacer de\" (to threaten to).",
         ],
         examples: [
@@ -978,7 +978,7 @@ export const FR_B2_U14: Lesson[] = [
         prompt: "Translate into French.",
         source: "We accept, on condition that we are consulted.",
         answer: "Nous acceptons, à condition d'être consultés.",
-        altAnswers: ["Nous acceptons, à condition que nous soyons consultés.", "Nous acceptons, à condition d'être consultées.", "Nous acceptons à condition d'être consultés."],
+        altAnswers: ["Nous acceptons, à condition d'être consultées.", "Nous acceptons à condition d'être consultés."],
         explanation: "Same subject → \"à condition de\" + infinitive.",
       },
       {
@@ -1391,7 +1391,7 @@ export const FR_B2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A friend asks: « Comment tu fais pour rester en forme ? » Which answer is correct?",
+        question: "A friend asks: \"« Comment tu fais pour rester en forme ? »\" Which answer is correct?",
         options: ["En allant à la piscine deux fois par semaine.", "Pour aller à la piscine deux fois par semaine.", "En aller à la piscine deux fois par semaine.", "Allant à la piscine deux fois par semaine, la forme reste."],
         correctIndex: 0,
         explanation: "A 'how' question → \"en\" + -ant.",
@@ -1504,7 +1504,7 @@ export const FR_B2_U14: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A friend says: « Je n'ai pas le moral en ce moment. » What does she mean?",
+            question: "A friend says: \"« Je n'ai pas le moral en ce moment. »\" What does she mean?",
             options: ["I'm feeling low at the moment.", "I have no morals at the moment.", "I'm not in the mood to go out.", "I've lost my motivation at work."],
             correctIndex: 0,
             explanation: "\"Le moral\" is morale, spirits; \"la morale\" is morality.",
@@ -1910,7 +1910,7 @@ export const FR_B2_U14: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct Hugo: « Si j'aurais de l'argent, je voyagerais. » Translate: If I had money, I'd travel.",
+            prompt: "Correct Hugo: *\"Si j'aurais de l'argent, je voyagerais.\" Translate: If I had money, I'd travel.",
             source: "If I had money, I'd travel.",
             answer: "Si j'avais de l'argent, je voyagerais.",
             altAnswers: ["Je voyagerais si j'avais de l'argent."],
@@ -1963,7 +1963,7 @@ export const FR_B2_U14: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct Hugo: « Si mes parents m'auraient laissé partir... » Translate into French.",
+        prompt: "Correct Hugo: *\"Si mes parents m'auraient laissé partir...\" Translate into French.",
         source: "If my parents had let me go, I'd have gone to Australia.",
         answer: "Si mes parents m'avaient laissé partir, je serais allé en Australie.",
         altAnswers: ["Si mes parents m'avaient laissée partir, je serais allée en Australie.", "Si mes parents m'avaient laissé partir, je serais allée en Australie.", "Si mes parents m'avaient laissé partir, je serais parti en Australie."],

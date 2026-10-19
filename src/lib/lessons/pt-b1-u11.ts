@@ -102,7 +102,7 @@ export const PT_B1_U11: Lesson[] = [
         examples: [
           { es: "Ela disse que tinha feito o trabalho.", en: "She said she'd done the work." },
           { es: "O Lucas contou que tinha perdido o voo.", en: "Lucas said he'd missed his flight." },
-          { es: "Eles disseram que já tinham visto o filme.", en: "They said they'd already seen the film." },
+          { es: "Eles disseram que já tinham visto o filme.", en: "They said they'd already seen the movie." },
           { es: "A Dona Maria disse que nunca tinha ido a Manaus.", en: "Dona Maria said she'd never been to Manaus." },
           { es: "Ele disse que era muito tímido na escola.", en: "He said he was very shy at school." },
         ],
@@ -118,9 +118,9 @@ export const PT_B1_U11: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: They said they had already seen the film.",
+            prompt: "Put the words in order to say: They said they had already seen the movie.",
             words: ["Eles", "disseram", "que", "já", "tinham", "visto", "o", "filme."],
-            translation: "They said they had already seen the film.",
+            translation: "They said they had already seen the movie.",
             explanation: "\"Já vimos\" becomes \"já tinham visto\": \"já\" goes before \"tinham\", and \"ver\" has the irregular participle \"visto\".",
           },
           {
@@ -459,10 +459,10 @@ export const PT_B1_U11: Lesson[] = [
         audio: "Ela perguntou se eu tinha visto o filme.",
         question: "What does it mean?",
         options: [
-          "She asked if I had seen the film.",
-          "She said I had seen the film.",
-          "She asked if I would see the film.",
-          "She asked why I had seen the film.",
+          "She asked if I had seen the movie.",
+          "She said I had seen the movie.",
+          "She asked if I would see the movie.",
+          "She asked why I had seen the movie.",
         ],
         correctIndex: 0,
         explanation: "\"Perguntou se\" is asked if, and \"tinha visto\" is had seen. Would see would be \"veria\"; why would be \"por que\".",
@@ -531,7 +531,7 @@ export const PT_B1_U11: Lesson[] = [
           { es: "Meu pai me pediu para comprar pão na padaria.", en: "My dad asked me to buy bread at the bakery." },
           { es: "O professor pediu pra gente ler o capítulo três.", en: "The teacher asked us to read chapter three." },
           { es: "Ela pediu para vocês chegarem às oito.", en: "She asked you all to arrive at eight." },
-          { es: "A vizinha pediu para eles não fazerem barulho.", en: "The neighbour asked them not to make noise." },
+          { es: "A vizinha pediu para eles não fazerem barulho.", en: "The neighbor asked them not to make noise." },
         ],
         checkpoint: [
           {
@@ -569,7 +569,7 @@ export const PT_B1_U11: Lesson[] = [
         ],
         examples: [
           { es: "A chefe mandou eu refazer o relatório.", en: "The boss told me to redo the report." },
-          { es: "Minha mãe me mandou arrumar o quarto.", en: "My mum made me tidy my room." },
+          { es: "Minha mãe me mandou arrumar o quarto.", en: "My mom made me tidy my room." },
           { es: "O guarda mandou todo mundo sair do prédio.", en: "The guard ordered everyone out of the building." },
           { es: "Ele falou pra eu esperar na portaria.", en: "He told me to wait at the front desk." },
           { es: "A médica disse para eu não tomar café.", en: "The doctor told me not to drink coffee." },
@@ -614,7 +614,7 @@ export const PT_B1_U11: Lesson[] = [
           { es: "A escola pediu que os pais busquem as crianças às cinco.", en: "The school has asked parents to pick the children up at five." },
           { es: "A empresa pede que os funcionários usem crachá.", en: "The company asks employees to wear a badge." },
           { es: "Solicitamos que o senhor envie os documentos até sexta.", en: "We ask that you send the documents by Friday." },
-          { es: "A Mariana pediu que ninguém conte nada para a mãe dela.", en: "Mariana asked that no one tell her mum anything." },
+          { es: "A Mariana pediu que ninguém conte nada para a mãe dela.", en: "Mariana asked that no one tell her mom anything." },
         ],
         checkpoint: [
           {
@@ -636,7 +636,7 @@ export const PT_B1_U11: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Mariana asked that no one [tell] her mum anything.",
+            en: "Mariana asked that no one [tell] her mom anything.",
             sentence: "A Mariana pediu que ninguém ___ nada para a mãe dela.",
             answer: "conte",
             altAnswers: ["fale"],
@@ -659,7 +659,7 @@ export const PT_B1_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The neighbour asked them not to make noise.",
+        source: "The neighbor asked them not to make noise.",
         answer: "A vizinha pediu para eles não fazerem barulho.",
         altAnswers: ["O vizinho pediu para eles não fazerem barulho.", "A vizinha pediu pra eles não fazerem barulho.", "O vizinho pediu pra eles não fazerem barulho.", "A vizinha pediu para elas não fazerem barulho.", "O vizinho pediu para elas não fazerem barulho."],
         explanation: "With a plural subject the personal infinitive takes -em: \"para eles não fazerem\". \"Não\" goes right before the infinitive.",
@@ -733,9 +733,9 @@ export const PT_B1_U11: Lesson[] = [
           { left: "Ela perguntou se eu liguei.", right: "She asked if I'd called." },
           { left: "Ela mandou eu ligar.", right: "She ordered me to call." },
           { left: "Ela pede que eu ligue.", right: "She asks that I call." },
-          { left: "Ela me pediu um favor.", right: "She asked me for a favour." },
+          { left: "Ela me pediu um favor.", right: "She asked me for a favor." },
         ],
-        explanation: "\"Pedir\" is for requests and favours, \"perguntar\" for questions, \"mandar\" for orders. \"Pedir que\" + subjunctive is the written request.",
+        explanation: "\"Pedir\" is for requests and favors, \"perguntar\" for questions, \"mandar\" for orders. \"Pedir que\" + subjunctive is the written request.",
       },
     ],
   },
@@ -795,7 +795,7 @@ export const PT_B1_U11: Lesson[] = [
           { es: "Eu te avisei!", en: "I told you so!" },
           { es: "O síndico avisou que não ia ter água no sábado.", en: "The building manager warned there would be no water on Saturday." },
           { es: "O Rafael prometeu que ia me ajudar com a mudança.", en: "Rafael promised he'd help me with the move." },
-          { es: "Ela prometeu ligar no fim de semana.", en: "She promised to call at the weekend." },
+          { es: "Ela prometeu ligar no fim de semana.", en: "She promised to call on the weekend." },
           { es: "O prefeito prometeu que construiria um hospital novo.", en: "The mayor promised he would build a new hospital." },
         ],
         checkpoint: [
@@ -838,11 +838,11 @@ export const PT_B1_U11: Lesson[] = [
         heading: "Reclamar: complaining with que, de and com",
         body: [
           "\"Reclamar\" means to complain, never to reclaim. It takes \"que\" before a sentence, \"de\" before a noun and \"com\" for the person who hears the complaint: \"ela reclamou com o gerente que o quarto estava sujo\".",
-          "English complain about pulls you towards \"sobre\", but Brazilians say \"reclamar de\", with the usual contractions: \"reclamar do barulho\", \"da comida\", \"dos preços\". \"Reclamar com\" means complaining to someone, not with them.",
+          "English complain about pulls you toward \"sobre\", but Brazilians say \"reclamar de\", with the usual contractions: \"reclamar do barulho\", \"da comida\", \"dos preços\". \"Reclamar com\" means complaining to someone, not with them.",
           "Three more verbs show an attitude: \"confirmar que\" (to confirm), \"garantir que\" (to assure) and \"admitir que\" (to admit).",
         ],
         examples: [
-          { es: "Os vizinhos reclamaram do barulho.", en: "The neighbours complained about the noise." },
+          { es: "Os vizinhos reclamaram do barulho.", en: "The neighbors complained about the noise." },
           { es: "Ela reclamou com o garçom que a sopa estava fria.", en: "She complained to the waiter that the soup was cold." },
           { es: "O João sempre reclama do trânsito de São Paulo.", en: "João always complains about the São Paulo traffic." },
           { es: "A loja confirmou que o pedido já tinha saído.", en: "The shop confirmed the order had already gone out." },
@@ -1005,7 +1005,7 @@ export const PT_B1_U11: Lesson[] = [
         ],
         examples: [
           { es: "Ela disse que estava muito ocupada naquele dia.", en: "She said she was very busy that day." },
-          { es: "O Lucas contou que tinha voltado de viagem no dia anterior.", en: "Lucas said he had got back from a trip the day before." },
+          { es: "O Lucas contou que tinha voltado de viagem no dia anterior.", en: "Lucas said he had gotten back from a trip the day before." },
           { es: "A Beatriz avisou que ia viajar no dia seguinte.", en: "Beatriz let us know she was going to travel the next day." },
           { es: "O gerente disse que naquele momento não podia atender ninguém.", en: "The manager said he couldn't see anyone at that moment." },
           { es: "Eles prometeram que voltariam na semana seguinte.", en: "They promised they would come back the following week." },
@@ -1049,7 +1049,7 @@ export const PT_B1_U11: Lesson[] = [
         ],
         examples: [
           { es: "O João disse que adorava trabalhar lá.", en: "João said he loved working there." },
-          { es: "Ela comentou que aquele bairro era muito tranquilo.", en: "She said that neighbourhood was very quiet." },
+          { es: "Ela comentou que aquele bairro era muito tranquilo.", en: "She said that neighborhood was very quiet." },
           { es: "Meu pai reclamou que aquilo era um absurdo.", en: "My dad complained that that was outrageous." },
           { es: "A vendedora explicou que aquela camisa estava em promoção.", en: "The saleswoman explained that that shirt was on sale." },
           { es: "A Dona Maria pediu para eu ir lá no dia seguinte.", en: "Dona Maria asked me to go there the next day." },
@@ -1089,7 +1089,7 @@ export const PT_B1_U11: Lesson[] = [
         ],
         examples: [
           { es: "A Ana ligou e disse que não podia vir hoje.", en: "Ana called and said she couldn't come today." },
-          { es: "Hoje de manhã o Lucas contou que tinha chegado tarde ontem.", en: "This morning Lucas told me he'd got home late yesterday." },
+          { es: "Hoje de manhã o Lucas contou que tinha chegado tarde ontem.", en: "This morning Lucas told me he'd gotten home late yesterday." },
           { es: "A médica disse que eu podia voltar aqui na semana que vem.", en: "The doctor said I could come back here next week." },
           { es: "Ele falou que ia ligar no outro dia.", en: "He said he'd call the next day." },
           { es: "Nesse dia, ela disse que estava muito feliz.", en: "That day, she said she was really happy." },
@@ -1125,7 +1125,7 @@ export const PT_B1_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "He said he had seen the film the day before.",
+        source: "He said he had seen the movie the day before.",
         answer: "Ele disse que tinha visto o filme no dia anterior.",
         altAnswers: ["Ele falou que tinha visto o filme no dia anterior.", "Ele contou que tinha visto o filme no dia anterior.", "Ele disse que tinha visto o filme na véspera.", "Ele falou que tinha visto o filme na véspera.", "Ele disse que já tinha visto o filme no dia anterior."],
         explanation: "His \"vi o filme ontem\" becomes \"tinha visto o filme no dia anterior\". Both the tense and the time word move back.",
@@ -1318,7 +1318,7 @@ export const PT_B1_U11: Lesson[] = [
         ],
         examples: [
           { es: "A Ana diz que está chegando.", en: "Ana says she's on her way." },
-          { es: "Meu chefe está dizendo que a reunião foi cancelada.", en: "My boss is saying the meeting was cancelled." },
+          { es: "Meu chefe está dizendo que a reunião foi cancelada.", en: "My boss is saying the meeting was canceled." },
           { es: "O João perguntou se você vem amanhã.", en: "João asked if you're coming tomorrow." },
           { es: "Ela perguntou se a gente queria ajuda.", en: "She asked if we wanted help." },
           { es: "Eles dizem que o show vai atrasar.", en: "They say the show is going to be late." },
@@ -1393,9 +1393,9 @@ export const PT_B1_U11: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: My boss is saying the meeting was cancelled.",
+        prompt: "Put the words in order to say: My boss is saying the meeting was canceled.",
         words: ["Meu", "chefe", "está dizendo", "que", "a reunião", "foi cancelada."],
-        translation: "My boss is saying the meeting was cancelled.",
+        translation: "My boss is saying the meeting was canceled.",
         explanation: "The reporting verb is in the present (\"está dizendo\"), so the reported verb keeps its own tense, \"foi cancelada\".",
       },
       {
@@ -1781,7 +1781,7 @@ export const PT_B1_U11: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your landlord asked you and your flatmates to pay the rent on Friday. How do you tell them?",
+            question: "Your landlord asked you and your roommates to pay the rent on Friday. How do you tell them?",
             options: ["Ele pediu para a gente pagar o aluguel na sexta.", "Ele pediu que a gente paga o aluguel na sexta.", "Ele pediu para nós pagamos o aluguel na sexta.", "Ele pediu para a gente paga o aluguel na sexta."],
             correctIndex: 0,
             explanation: "After \"pedir para\" comes an infinitive: \"a gente pagar\". The other options put an indicative (\"paga\", \"pagamos\") where a request needs the infinitive or subjunctive.",
@@ -2093,7 +2093,7 @@ export const PT_B1_U11: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Beatriz said she [had seen] the film the week before.",
+        en: "Beatriz said she [had seen] the movie the week before.",
         sentence: "A Beatriz disse que ___ o filme na semana anterior.",
         answer: "tinha visto",
         altAnswers: ["havia visto"],
@@ -2157,7 +2157,7 @@ export const PT_B1_U11: Lesson[] = [
           "The English-speaker trap is not shifting at all. In a story about the past, \"ela disse que vai\" sounds like news about today. Keep the present only when the reporting verb is present (\"ele diz que...\") or the fact is still true.",
         ],
         examples: [
-          { es: "A Beatriz contou que tinha perdido o metrô.", en: "Beatriz said she had missed the metro." },
+          { es: "A Beatriz contou que tinha perdido o metrô.", en: "Beatriz said she had missed the subway." },
           { es: "Meu pai disse que ia pintar a casa.", en: "My dad said he was going to paint the house." },
           { es: "Ela disse que morava em Recife quando era criança.", en: "She said she lived in Recife when she was a child." },
           { es: "O prefeito disse que a obra terminaria em março.", en: "The mayor said the construction work would finish in March." },
@@ -2361,9 +2361,9 @@ export const PT_B1_U11: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The neighbour I talked to said the building had no water.",
+        prompt: "Put the words in order to say: The neighbor I talked to said the building had no water.",
         words: ["A vizinha", "com quem", "eu falei", "disse que", "o prédio", "estava sem água."],
-        translation: "The neighbour I talked to said the building had no water.",
+        translation: "The neighbor I talked to said the building had no water.",
         explanation: "The preposition goes before \"quem\" (\"com quem eu falei\"), never at the end as in English. \"Está sem água\" steps back to \"estava\".",
       },
       {

@@ -430,7 +430,7 @@ export const FR_B2_U15_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "My parents finally let me become a musician.",
         answer: "Mes parents m'ont finalement laissé devenir musicien.",
-        altAnswers: ["Mes parents m'ont finalement laissée devenir musicienne.", "Mes parents ont fini par me laisser devenir musicien.", "Mes parents ont fini par me laisser devenir musicienne.", "Mes parents m'ont enfin laissé devenir musicien."],
+        altAnswers: ["Mes parents m'ont finalement laissée devenir musicienne.", "Mes parents m'ont finalement laissé devenir musicienne.", "Mes parents ont fini par me laisser devenir musicien.", "Mes parents ont fini par me laisser devenir musicienne.", "Mes parents m'ont enfin laissé devenir musicien."],
         explanation: "\"Laisser\" + infinitive; or \"finir par\" + \"laisser\".",
       },
       {
@@ -619,7 +619,7 @@ export const FR_B2_U15_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the error (*la ville s'est transformée dans un musée). Translate into French.",
+        prompt: "Correct the error (*l'usine s'est transformée dans un musée). Translate into French.",
         source: "The factory has been turned into a museum.",
         answer: "L'usine s'est transformée en musée.",
         altAnswers: ["L'usine a été transformée en musée."],
@@ -719,7 +719,7 @@ export const FR_B2_U15_EXTRA: Lesson[] = [
         en: "The town [has grown] a lot in twenty years.",
         sentence: "La ville ___ en vingt ans.",
         answer: "s'est beaucoup agrandie",
-        explanation: "\"S'agrandir\" (from grand) with \"être\"; \"agrandie\" agrees with \"ville\".",
+        explanation: "\"S'agrandir\" (from \"grand\") with \"être\"; \"agrandie\" agrees with \"ville\".",
       },
       {
         type: "translate",
@@ -753,7 +753,7 @@ export const FR_B2_U15_EXTRA: Lesson[] = [
         source: "The town has become more beautiful.",
         answer: "La ville s'est embellie.",
         altAnswers: ["La ville est devenue plus belle.", "La ville a embelli."],
-        explanation: "\"S'embellir\" / \"embellir\" (from belle) or \"devenir plus belle\".",
+        explanation: "\"S'embellir\" / \"embellir\" (from \"belle\") or \"devenir plus belle\".",
       },
       {
         type: "translate",
@@ -817,7 +817,7 @@ export const FR_B2_U15_EXTRA: Lesson[] = [
       {
         heading: "Recap: one verb for 'become + adjective'",
         body: [
-          "These verbs conjugate like \"finir\" and take \"avoir\": \"grossir\" (gros), \"maigrir\" (maigre), \"vieillir\" (vieux), \"rajeunir\" (jeune), \"rougir\" (rouge), \"pâlir\" (pâle), \"blanchir\" (blanc), \"jaunir\" (jaune), \"noircir\" (noir), \"brunir\" (brun), \"grandir\" (grand), \"mûrir\" (mûr), \"embellir\" (beau), \"enlaidir\" (laid), \"ralentir\" (lent: to slow down), \"élargir\" (large: to widen), \"refroidir\" (froid: to cool down), \"s'enrichir\" (riche).",
+          "These verbs conjugate like \"finir\" and take \"avoir\": \"grossir\" (\"gros\"), \"maigrir\" (\"maigre\"), \"vieillir\" (\"vieux\"), \"rajeunir\" (\"jeune\"), \"rougir\" (\"rouge\"), \"pâlir\" (\"pâle\"), \"blanchir\" (\"blanc\"), \"jaunir\" (\"jaune\"), \"noircir\" (\"noir\"), \"brunir\" (\"brun\"), \"grandir\" (\"grand\"), \"mûrir\" (\"mûr\"), \"embellir\" (\"beau\"), \"enlaidir\" (\"laid\"), \"ralentir\" (\"lent\": to slow down), \"élargir\" (\"large\": to widen), \"refroidir\" (\"froid\": to cool down), \"s'enrichir\" (\"riche\").",
           "Many are also transitive: \"Cette coiffure te rajeunit\" (makes you look younger), \"Il faut élargir la route\".",
         ],
         examples: [
@@ -835,7 +835,7 @@ export const FR_B2_U15_EXTRA: Lesson[] = [
             source: "Slow down, there's a speed camera!",
             answer: "Ralentis, il y a un radar !",
             altAnswers: ["Ralentissez, il y a un radar !"],
-            explanation: "\"Ralentir\" (from lent): to slow down.",
+            explanation: "\"Ralentir\" (from \"lent\"): to slow down.",
           },
           {
             type: "fill-blank",
@@ -915,7 +915,7 @@ export const FR_B2_U15_EXTRA: Lesson[] = [
         source: "They want to widen the road.",
         answer: "Ils veulent élargir la route.",
         altAnswers: ["On veut élargir la route."],
-        explanation: "\"Élargir\" (from large): to widen.",
+        explanation: "\"Élargir\" (from \"large\"): to widen.",
       },
       {
         type: "translate",
@@ -940,7 +940,7 @@ export const FR_B2_U15_EXTRA: Lesson[] = [
         source: "The town has become more beautiful.",
         answer: "La ville a embelli.",
         altAnswers: ["La ville s'est embellie.", "La ville est devenue plus belle."],
-        explanation: "\"Embellir\" (from beau / belle).",
+        explanation: "\"Embellir\" (from \"beau\" / \"belle\").",
       },
       {
         type: "translate",
@@ -1047,7 +1047,7 @@ export const FR_B2_U15_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "I've moved to a different city twice.",
         answer: "J'ai changé de ville deux fois.",
-        altAnswers: ["J'ai déménagé deux fois.", "J'ai changé deux fois de ville."],
+        altAnswers: ["J'ai changé deux fois de ville."],
         explanation: "\"Changer de ville\": to move to another city.",
       },
       {
@@ -1086,10 +1086,10 @@ export const FR_B2_U15_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: My grandmother made me discover reading.",
+        prompt: "Put the words in order to say: My grandmother introduced me to reading.",
         words: ["Ma grand-mère", "m'a fait", "découvrir", "la lecture."],
-        translation: "My grandmother made me discover reading.",
-        explanation: "\"Faire découvrir\".",
+        translation: "My grandmother introduced me to reading.",
+        explanation: "\"Faire découvrir quelque chose à quelqu'un\": to introduce someone to something (literally 'make discover').",
       },
       {
         type: "translate",

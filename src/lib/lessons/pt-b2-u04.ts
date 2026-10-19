@@ -75,7 +75,7 @@ export const PT_B2_U04: Lesson[] = [
           { es: "Não acredito que ele tenha dito isso.", en: "I can't believe he said that." },
           { es: "Duvido que a Mariana tenha esquecido o seu aniversário.", en: "I doubt Mariana forgot your birthday." },
           { es: "Fico feliz que vocês tenham vindo.", en: "I'm glad you all came." },
-          { es: "É uma pena que o show tenha sido cancelado.", en: "It's a shame the concert was cancelled." },
+          { es: "É uma pena que o show tenha sido cancelado.", en: "It's a shame the concert was canceled." },
           { es: "É possível que o Rafael já tenha saído.", en: "Rafael may have already left." },
           { es: "Acho que ele disse a verdade.", en: "I think he told the truth." },
         ],
@@ -172,7 +172,7 @@ export const PT_B2_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I doubt they've seen the film.",
+        source: "I doubt they've seen the movie.",
         answer: "Duvido que eles tenham visto o filme.",
         altAnswers: [
           "Eu duvido que eles tenham visto o filme.",
@@ -197,7 +197,7 @@ export const PT_B2_U04: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "It's a shame the concert [was] cancelled.",
+        en: "It's a shame the concert [was] canceled.",
         sentence: "É uma pena que o show ___ cancelado.",
         answer: "tenha sido",
         explanation: "The passive \"foi cancelado\" becomes \"tenha sido cancelado\" after \"é uma pena que\". \"Ser\" goes into the perfect subjunctive and the participle \"cancelado\" stays.",
@@ -369,7 +369,7 @@ export const PT_B2_U04: Lesson[] = [
         heading: "Como se and embora with an earlier past",
         body: [
           "\"Como se\" (as if) always takes a past subjunctive. When the imagined event lies further back, use the pluperfect: \"ele fala como se tivesse visto tudo\" (he talks as if he'd seen everything). The main verb can be present or past; \"como se\" doesn't change.",
-          "\"Embora\" with a past main clause and an earlier action works the same way: \"embora tivesse estudado muito, ele não passou\" (although he'd studied hard, he didn't pass). The indicative never follows \"embora\", so \"embora tinha estudado\" is wrong. Storytelling uses both constantly to explain behaviour in light of something earlier.",
+          "\"Embora\" with a past main clause and an earlier action works the same way: \"embora tivesse estudado muito, ele não passou\" (although he'd studied hard, he didn't pass). The indicative never follows \"embora\", so \"embora tinha estudado\" is wrong. Storytelling uses both constantly to explain behavior in light of something earlier.",
         ],
         examples: [
           { es: "Ele fala como se tivesse visto tudo.", en: "He talks as if he'd seen everything." },
@@ -511,7 +511,7 @@ export const PT_B2_U04: Lesson[] = [
     level: "PT-B2",
     number: 3,
     title: "Eu Teria Ido: The Conditional Perfect",
-    summary: "Say what would have happened with teria + participle, recognise the spoken tinha ido, and read the teria of unconfirmed news.",
+    summary: "Say what would have happened with teria + participle, recognize the spoken tinha ido, and read the teria of unconfirmed news.",
     duration: "13 min",
     sections: [
       {
@@ -524,7 +524,7 @@ export const PT_B2_U04: Lesson[] = [
         examples: [
           { es: "Eu teria ido à festa, mas estava doente.", en: "I would have gone to the party, but I was sick." },
           { es: "Você teria adorado o show do Gilberto Gil.", en: "You would have loved the Gilberto Gil show." },
-          { es: "Sem esse trânsito, nós teríamos chegado antes.", en: "Without that traffic, we'd have got there earlier." },
+          { es: "Sem esse trânsito, nós teríamos chegado antes.", en: "Without that traffic, we'd have gotten there earlier." },
           { es: "Ela teria feito tudo de outro jeito.", en: "She would have done everything differently." },
           { es: "Eu teria ligado, mas fiquei sem bateria.", en: "I would have called, but my battery died." },
         ],
@@ -615,9 +615,9 @@ export const PT_B2_U04: Lesson[] = [
           {
             type: "multiple-choice",
             question: "A headline reads \"Cantor teria cancelado show por briga com produtor\". What does it say?",
-            options: ["The singer reportedly cancelled the show over a fight with the producer.", "The singer would have cancelled the show if he'd fought with the producer.", "The singer had cancelled the show before the fight with the producer.", "The singer will cancel the show because of a fight with the producer."],
+            options: ["The singer reportedly canceled the show over a fight with the producer.", "The singer would have canceled the show if he'd fought with the producer.", "The singer had canceled the show before the fight with the producer.", "The singer will cancel the show because of a fight with the producer."],
             correctIndex: 0,
-            explanation: "In headlines and news, \"teria\" + participle marks an unconfirmed claim: \"teria cancelado\" means reportedly cancelled.",
+            explanation: "In headlines and news, \"teria\" + participle marks an unconfirmed claim: \"teria cancelado\" means reportedly canceled.",
           },
           {
             type: "translate",
@@ -645,7 +645,7 @@ export const PT_B2_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "They would have come, but the flight was cancelled.",
+        source: "They would have come, but the flight was canceled.",
         answer: "Eles teriam vindo, mas o voo foi cancelado.",
         altAnswers: ["Elas teriam vindo, mas o voo foi cancelado.", "Teriam vindo, mas o voo foi cancelado."],
         explanation: "The participle of \"vir\" is \"vindo\", the same as its gerund. \"Teriam vindo\" means would have come, and \"voo\" has no accent.",
@@ -661,9 +661,9 @@ export const PT_B2_U04: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: We would have seen the whole film.",
+        prompt: "Put the words in order to say: We would have seen the whole movie.",
         words: ["Nós", "teríamos", "visto", "o", "filme", "inteiro."],
-        translation: "We would have seen the whole film.",
+        translation: "We would have seen the whole movie.",
         explanation: "\"Teríamos\" + the irregular participle \"visto\" (from \"ver\"). The two verbs stay together.",
       },
       {
@@ -803,15 +803,15 @@ export const PT_B2_U04: Lesson[] = [
         heading: "Mixed times: a past cause, a present result",
         body: [
           "Real life often mixes times, because a decision in the past changes how things are now. Keep \"tivesse\" + participle for the past condition, but put the result in the simple conditional: \"Se eu tivesse aceitado aquele emprego, hoje estaria rico\". Words like \"hoje\", \"agora\" and \"ainda\" signal the switch.",
-          "It works the other way too, when a permanent fact explains a past result. \"Se eu fosse mais organizado, não teria esquecido a reunião\" means I'm not an organised person, so I forgot. The condition takes \"fosse\" and the result takes \"teria\" + participle.",
+          "It works the other way too, when a permanent fact explains a past result. \"Se eu fosse mais organizado, não teria esquecido a reunião\" means I'm not an organized person, so I forgot. The condition takes \"fosse\" and the result takes \"teria\" + participle.",
           "So ask two questions: when is the condition true, and when is the result? A past time takes the compound form, and a present time takes the simple one.",
         ],
         examples: [
           { es: "Se eu tivesse aceitado aquele emprego, hoje moraria em Lisboa.", en: "If I had taken that job, I'd be living in Lisbon now." },
           { es: "Se ela tivesse feito medicina, agora seria médica.", en: "If she had studied medicine, she'd be a doctor now." },
-          { es: "Se a gente não tivesse comprado o apartamento, ainda estaria pagando aluguel.", en: "If we hadn't bought the flat, we'd still be paying rent." },
-          { es: "Se eu falasse alemão, teria conseguido a vaga em Berlim.", en: "If I spoke German, I would have got the job in Berlin." },
-          { es: "Se o Rafael fosse menos teimoso, já teria pedido desculpas.", en: "If Rafael were less stubborn, he would have apologised by now." },
+          { es: "Se a gente não tivesse comprado o apartamento, ainda estaria pagando aluguel.", en: "If we hadn't bought the apartment, we'd still be paying rent." },
+          { es: "Se eu falasse alemão, teria conseguido a vaga em Berlim.", en: "If I spoke German, I would have gotten the job in Berlin." },
+          { es: "Se o Rafael fosse menos teimoso, já teria pedido desculpas.", en: "If Rafael were less stubborn, he would have apologized by now." },
         ],
         checkpoint: [
           {
@@ -838,7 +838,7 @@ export const PT_B2_U04: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "If she spoke English, she [would have understood] the film.",
+            en: "If she spoke English, she [would have understood] the movie.",
             sentence: "Se ela falasse inglês, ___ o filme.",
             answer: "teria entendido",
             altAnswers: ["tinha entendido"],
@@ -942,7 +942,7 @@ export const PT_B2_U04: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "If I were more organised, I [wouldn't have forgotten] the meeting.",
+        en: "If I were more organized, I [wouldn't have forgotten] the meeting.",
         sentence: "Se eu fosse mais organizado, ___ a reunião.",
         answer: "não teria esquecido",
         altAnswers: ["não tinha esquecido", "eu não teria esquecido"],
@@ -1313,7 +1313,7 @@ export const PT_B2_U04: Lesson[] = [
         ],
         examples: [
           { es: "Espero que você tenha recebido meu e-mail.", en: "I hope you got my email." },
-          { es: "Queria que você tivesse recebido meu e-mail a tempo.", en: "I wish you'd got my email in time." },
+          { es: "Queria que você tivesse recebido meu e-mail a tempo.", en: "I wish you'd gotten my email in time." },
           { es: "Tomara que ela tenha conseguido pegar o voo.", en: "Let's hope she managed to catch the flight." },
           { es: "Quem dera ela tivesse conseguido pegar o voo.", en: "If only she'd managed to catch the flight." },
           { es: "Eu esperava que você tivesse estudado mais.", en: "I'd hoped you had studied more." },
@@ -1499,7 +1499,7 @@ export const PT_B2_U04: Lesson[] = [
         examples: [
           { es: "Se a gente tivesse saído mais cedo, não teria perdido o voo.", en: "(Beatriz) If we'd left earlier, we wouldn't have missed the flight." },
           { es: "Se você não tivesse parado para comprar café, a gente teria chegado a tempo.", en: "(Beatriz) If you hadn't stopped to buy coffee, we'd have made it in time." },
-          { es: "E se você tivesse feito o check-in on-line, não teríamos ficado naquela fila.", en: "(Lucas) And if you'd checked in online, we wouldn't have been stuck in that queue." },
+          { es: "E se você tivesse feito o check-in on-line, não teríamos ficado naquela fila.", en: "(Lucas) And if you'd checked in online, we wouldn't have been stuck in that line." },
           { es: "Se eu soubesse do trânsito, eu tinha saído às cinco.", en: "(Lucas) If I'd known about the traffic, I'd have left at five." },
           { es: "Teria sido muito mais fácil pegar o voo da noite anterior.", en: "(Beatriz) It would have been much easier to take the flight the night before." },
         ],
@@ -1708,7 +1708,7 @@ export const PT_B2_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend knew the trip was cancelled but didn't mention it. How do you reproach them?",
+        question: "Your friend knew the trip was canceled but didn't mention it. How do you reproach them?",
         options: ["Você podia ter me falado!", "Você podia me falar!", "Você pôde me falar!", "Você tinha podido me falar!"],
         correctIndex: 0,
         explanation: "\"Podia ter\" + participle is could have, for something that didn't happen. \"Você podia me falar?\" is a polite request, and \"pôde\" means you managed to.",
@@ -1994,9 +1994,9 @@ export const PT_B2_U04: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: If you had seen the film, you would have liked it.",
+        prompt: "Put the words in order to say: If you had seen the movie, you would have liked it.",
         words: ["Se", "você", "tivesse", "visto", "o filme,", "teria", "gostado."],
-        translation: "If you had seen the film, you would have liked it.",
+        translation: "If you had seen the movie, you would have liked it.",
         explanation: "\"Tivesse visto\" after \"se\", \"teria gostado\" in the result. \"Visto\" is the irregular participle of \"ver\".",
       },
       {
@@ -2041,7 +2041,7 @@ export const PT_B2_U04: Lesson[] = [
         examples: [
           { es: "Em 2019, eu morava em Belo Horizonte e trabalhava num banco.", en: "In 2019 I lived in Belo Horizonte and worked at a bank." },
           { es: "Um dia, uma startup de Recife me ofereceu uma vaga.", en: "One day a startup in Recife offered me a job." },
-          { es: "Eu tinha acabado de comprar um carro e estava pagando as parcelas.", en: "I'd just bought a car and was paying off the instalments." },
+          { es: "Eu tinha acabado de comprar um carro e estava pagando as parcelas.", en: "I'd just bought a car and was paying off the installments." },
           { es: "Fiquei com medo de mudar e recusei a proposta.", en: "I got scared of moving and turned the offer down." },
           { es: "Na época, parecia a decisão certa.", en: "At the time it seemed like the right decision." },
         ],
@@ -2125,7 +2125,7 @@ export const PT_B2_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your friend knew your flight was cancelled and said nothing. How do you reproach them?",
+            question: "Your friend knew your flight was canceled and said nothing. How do you reproach them?",
             options: [
               "Você podia ter me avisado!",
               "Você podia me avisar!",
@@ -2133,7 +2133,7 @@ export const PT_B2_U04: Lesson[] = [
               "Você devia ter me avisar!",
             ],
             correctIndex: 0,
-            explanation: "\"Podia ter\" + participle complains about something that didn't happen. \"Podia me avisar\" asks for a future favour, \"teria me avisado\" is a hypothesis, and \"devia ter me avisar\" uses the infinitive where the participle belongs.",
+            explanation: "\"Podia ter\" + participle complains about something that didn't happen. \"Podia me avisar\" asks for a future favor, \"teria me avisado\" is a hypothesis, and \"devia ter me avisar\" uses the infinitive where the participle belongs.",
           },
         ],
       },
@@ -2583,7 +2583,7 @@ export const PT_B2_U04: Lesson[] = [
         options: [
           "If I had time, I'd travel more.",
           "If I have time, I'll travel more.",
-          "If I'd had time, I'd have travelled more.",
+          "If I'd had time, I'd have traveled more.",
           "When I have time, I travel more.",
         ],
         correctIndex: 0,

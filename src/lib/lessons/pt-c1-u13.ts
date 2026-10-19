@@ -317,7 +317,7 @@ export const PT_C1_U13: Lesson[] = [
         body: [
           "Each of these conjunctions comes in two versions: a preposition followed by an infinitive (\"para\", \"sem\", \"antes de\", \"até\") and a conjunction with \"que\" followed by the subjunctive (\"para que\", \"sem que\", \"antes que\", \"até que\"). If the subject is the same as in the main clause, use the plain infinitive: \"saí cedo para pegar o ônibus\". \"Saí cedo para que eu pegasse o ônibus\" is grammatical but clumsy.",
           "With a different subject you have a real choice. The personal infinitive, with its subject before it, is lighter and very common: \"falei devagar para eles entenderem\". The subjunctive is more formal and a little more emphatic: \"falei devagar para que eles entendessem\". Both are correct in writing.",
-          "Never cross the two: after \"para que\" comes a conjugated subjunctive, never an infinitive (\"para que eu faça\", not \"para que eu fazer\"). And in careful Portuguese the subject of an infinitive is \"eu\", not \"mim\": \"isso é para eu fazer\". \"Para mim fazer\" is heard everywhere in Brazil, but it is marked as uneducated.",
+          "Never cross the two: after \"para que\" comes a conjugated subjunctive, never an infinitive (\"para que eu faça\", not \"para que eu fazer\"). And in careful Portuguese the subject of an infinitive is \"eu\", not \"mim\": \"isso é para eu fazer\". \"Para mim fazer\" is heard everywhere in Brazil, but it is stigmatized, and it is marked wrong in writing and exams.",
         ],
         examples: [
           { es: "Saí mais cedo para pegar o ônibus das sete.", en: "I left earlier to catch the seven o'clock bus." },
@@ -574,7 +574,7 @@ export const PT_C1_U13: Lesson[] = [
           "Esse relatório é para eu ler durante o fim de semana.",
           "Esse relatório é pra eu ler no fim de semana.",
         ],
-        explanation: "The reader is the subject of \"ler\", so careful Portuguese says \"para eu ler\". \"Para mim ler\" is common in speech but stigmatised.",
+        explanation: "The reader is the subject of \"ler\", so careful Portuguese says \"para eu ler\". \"Para mim ler\" is common in speech but stigmatized.",
       },
       {
         type: "translate",
@@ -874,7 +874,7 @@ export const PT_C1_U13: Lesson[] = [
       {
         type: "speak",
         text: "Ele já deve ter chegado em casa.",
-        prompt: "Say it in Portuguese, casually: He must have got home by now.",
+        prompt: "Say it in Portuguese, casually: He must have gotten home by now.",
         tip: "Link \"deve ter\": the final e of \"deve\" sounds like i, DÊ-vi-ter.",
         explanation: "\"Já deve ter chegado\" is the spoken guess about the past. \"Chegar em casa\" is the normal Brazilian phrase; \"chegar a casa\" sounds European.",
       },
@@ -897,7 +897,7 @@ export const PT_C1_U13: Lesson[] = [
     level: "PT-C1",
     number: 4,
     title: "Dialogue Lab: O Que Será Que Aconteceu?",
-    summary: "Neighbours in a São Paulo building speculate about an ambulance at the door, then move from guesses (deve ter sido, será que, vai ver que) to reported facts (o porteiro disse que...) and good wishes.",
+    summary: "Neighbors in a São Paulo building speculate about an ambulance at the door, then move from guesses (deve ter sido, será que, vai ver que) to reported facts (o porteiro disse que...) and good wishes.",
     duration: "15 min",
     kind: "reinforce",
     format: "Dialogue Lab",
@@ -906,13 +906,13 @@ export const PT_C1_U13: Lesson[] = [
         heading: "Uma ambulância na porta",
         body: [
           "Saturday morning, in a building in Pinheiros, São Paulo. Rafael, in his twenties, meets Dona Célia from the fifth floor at the entrance. There's an ambulance outside. Neither knows anything, so every line is a guess, and the guesses use the spoken system: \"será que\", \"deve ter sido\", \"vai ver que\", \"pelo jeito\".",
-          "Notice the register. Rafael calls his older neighbour \"a senhora\", but nobody uses the future of probability. \"O que terá acontecido?\" would sound like a radio drama. \"O que será que aconteceu?\" is what people actually say on the pavement.",
+          "Notice the register. Rafael calls his older neighbor \"a senhora\", but nobody uses the future of probability. \"O que terá acontecido?\" would sound like a radio drama. \"O que será que aconteceu?\" is what people actually say on the sidewalk.",
         ],
         examples: [
           { es: "Dona Célia, a senhora viu? Tem uma ambulância parada aí na frente.", en: "Dona Célia, did you see? There's an ambulance parked out front." },
           { es: "Vi, meu filho. O que será que aconteceu?", en: "I did, dear. I wonder what's happened." },
           { es: "Deve ter sido alguém passando mal.", en: "Someone must have been taken ill." },
-          { es: "Vai ver que é o seu Antônio do 82; ele anda meio fraco.", en: "Maybe it's Mr Antônio from 82; he's been a bit frail lately." },
+          { es: "Vai ver que é o seu Antônio do 82; ele anda meio fraco.", en: "Maybe it's Mr. Antônio from 82; he's been a bit frail lately." },
           { es: "Será? Pelo jeito é coisa séria: vieram dois carros.", en: "Do you think so? By the looks of it it's serious: two vehicles came." },
         ],
         checkpoint: [
@@ -954,10 +954,10 @@ export const PT_C1_U13: Lesson[] = [
           "In speech Brazilians say \"levar ele\" rather than \"levá-lo\", and \"pra\" for \"para\". Seu Jorge talks like that. When Dona Célia passes it on, the tense shifts again: \"o porteiro disse que ele tinha desmaiado\". Listen also for \"ah, então foi isso\", the phrase that closes the guessing.",
         ],
         examples: [
-          { es: "O seu Antônio passou mal no elevador. A filha dele ligou pro SAMU.", en: "Mr Antônio was taken ill in the lift. His daughter called the ambulance service." },
+          { es: "O seu Antônio passou mal no elevador. A filha dele ligou pro SAMU.", en: "Mr. Antônio was taken ill in the elevator. His daughter called the ambulance service." },
           { es: "E aí, seu Jorge, o que o pessoal da ambulância falou?", en: "So, Jorge, what did the ambulance people say?" },
           { es: "Disseram que ele estava consciente e que iam levar ele pro Hospital das Clínicas.", en: "They said he was conscious and that they were taking him to Hospital das Clínicas." },
-          { es: "O porteiro disse que ele tinha desmaiado no elevador.", en: "The doorman said he had fainted in the lift." },
+          { es: "O porteiro disse que ele tinha desmaiado no elevador.", en: "The doorman said he had fainted in the elevator." },
           { es: "Ah, então foi isso. Coitado.", en: "Oh, so that's what it was. Poor man." },
         ],
         checkpoint: [
@@ -973,7 +973,7 @@ export const PT_C1_U13: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The doorman said he [had fainted] in the lift.",
+            en: "The doorman said he [had fainted] in the elevator.",
             sentence: "O porteiro disse que ele ___ no elevador.",
             answer: "tinha desmaiado",
             altAnswers: ["havia desmaiado", "desmaiou"],
@@ -1028,7 +1028,7 @@ export const PT_C1_U13: Lesson[] = [
               "Se a senhora precisar de alguma coisa, é só me avisar.",
               "Se a senhora precisar de alguma coisa, me chama.",
             ],
-            explanation: "\"A senhora\" for an older neighbour, and the future subjunctive \"precisar\" for an open condition. \"É só\" + infinitive means just do X.",
+            explanation: "\"A senhora\" for an older neighbor, and the future subjunctive \"precisar\" for an open condition. \"É só\" + infinitive means just do X.",
           },
           {
             type: "speak",
@@ -1069,7 +1069,7 @@ export const PT_C1_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Dona Célia tells her daughter on the phone what the doorman said: 'He fainted in the lift.' Which version is the careful reported form?",
+        question: "Dona Célia tells her daughter on the phone what the doorman said: 'He fainted in the elevator.' Which version is the careful reported form?",
         options: [
           "O porteiro disse que ele tinha desmaiado no elevador.",
           "O porteiro disse que ele terá desmaiado no elevador.",
@@ -1126,10 +1126,10 @@ export const PT_C1_U13: Lesson[] = [
         audio: "O que será que aconteceu com o seu Antônio?",
         question: "What does it mean?",
         options: [
-          "I wonder what's happened to Mr Antônio.",
-          "What's going to happen to Mr Antônio?",
-          "Mr Antônio wonders what happened.",
-          "What happened to Mr Antônio was serious.",
+          "I wonder what's happened to Mr. Antônio.",
+          "What's going to happen to Mr. Antônio?",
+          "Mr. Antônio wonders what happened.",
+          "What happened to Mr. Antônio was serious.",
         ],
         correctIndex: 0,
         explanation: "\"O que será que aconteceu?\" wonders about a past event; the preterite \"aconteceu\" sets it in the past.",
@@ -1268,7 +1268,7 @@ export const PT_C1_U13: Lesson[] = [
           { es: "Embora tivesse treinado o ano inteiro, ele perdeu a final.", en: "Although he had trained all year, he lost the final." },
           { es: "Por mais que tenha tentado, não consigo esquecer aquilo.", en: "However hard I've tried, I can't forget it." },
           { es: "Por mais que tivesse tentado, ela não conseguiu o visto.", en: "However hard she had tried, she didn't get the visa." },
-          { es: "Mesmo que a reunião tenha sido cancelada, o relatório sai amanhã.", en: "Even if the meeting has been cancelled, the report comes out tomorrow." },
+          { es: "Mesmo que a reunião tenha sido cancelada, o relatório sai amanhã.", en: "Even if the meeting has been canceled, the report comes out tomorrow." },
         ],
         checkpoint: [
           {
@@ -1375,7 +1375,7 @@ export const PT_C1_U13: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Even if the meeting has been cancelled, the report comes out tomorrow.",
+        source: "Even if the meeting has been canceled, the report comes out tomorrow.",
         answer: "Mesmo que a reunião tenha sido cancelada, o relatório sai amanhã.",
         altAnswers: ["Ainda que a reunião tenha sido cancelada, o relatório sai amanhã.", "Mesmo que a reunião tenha sido cancelada, o relatório vai sair amanhã.", "Mesmo que a reunião tenha sido cancelada, o relatório será publicado amanhã."],
         explanation: "The main clause is present or future, so the concession takes \"tenha sido cancelada\".",
@@ -1428,7 +1428,7 @@ export const PT_C1_U13: Lesson[] = [
           "When the subjects differ, put the subject after the infinitive or use the personal infinitive: \"ao chegarem os convidados\", \"ao chegarmos\". \"Ao eu chegar\" is common in speech, but careful writing avoids it.",
         ],
         examples: [
-          { es: "Ao sair de casa, percebi que estava sem a chave.", en: "As I left home, I realised I didn't have my key." },
+          { es: "Ao sair de casa, percebi que estava sem a chave.", en: "As I left home, I realized I didn't have my key." },
           { es: "Ao insistir, você só piora as coisas.", en: "By insisting, you only make things worse." },
           { es: "Ao chegarem os convidados, a música começou.", en: "When the guests arrived, the music started." },
           { es: "Ao chegarmos a Salvador, fomos direto para o Pelourinho.", en: "When we got to Salvador, we went straight to the Pelourinho." },
@@ -1569,7 +1569,7 @@ export const PT_C1_U13: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, using ao + infinitive.",
-        source: "As I left home, I realised I didn't have my key.",
+        source: "As I left home, I realized I didn't have my key.",
         answer: "Ao sair de casa, percebi que estava sem a chave.",
         altAnswers: [
           "Ao sair de casa, percebi que estava sem chave.",
@@ -1577,7 +1577,7 @@ export const PT_C1_U13: Lesson[] = [
           "Ao sair de casa, percebi que não estava com a chave.",
           "Ao sair de casa, notei que estava sem a chave.",
         ],
-        explanation: "\"Ao sair\" ties the realisation to the moment of leaving; both verbs share the subject I.",
+        explanation: "\"Ao sair\" ties the realization to the moment of leaving; both verbs share the subject I.",
       },
       {
         type: "translate",
@@ -1793,7 +1793,7 @@ export const PT_C1_U13: Lesson[] = [
         heading: "Register slips",
         body: [
           "The last group gets the grammar right and the register wrong. A WhatsApp message saying \"Onde estará o Lucas? Terá perdido o ônibus?\" reads like a nineteenth-century novel. In a chat: \"Cadê o Lucas? Será que perdeu o ônibus?\" or \"Deve ter perdido o ônibus\".",
-          "The opposite slip: a news report saying \"o suspeito deve ter fugido pelos fundos\" turns the journalist's guess into the paper's opinion. Unconfirmed news takes the conditional of report, \"o suspeito teria fugido\". And in a work e-mail \"vou estar enviando o arquivo\" is gerundismo, mocked in Brazil as call-centre speak. Write \"vou enviar\" or \"envio\".",
+          "The opposite slip: a news report saying \"o suspeito deve ter fugido pelos fundos\" turns the journalist's guess into the paper's opinion. Unconfirmed news takes the conditional of report, \"o suspeito teria fugido\". And in a work e-mail \"vou estar enviando o arquivo\" is gerundismo, mocked in Brazil as call-center speak. Write \"vou enviar\" or \"envio\".",
         ],
         examples: [
           { es: "Cadê o Lucas? Será que perdeu o ônibus?", en: "Where's Lucas? Do you think he missed the bus?" },
@@ -1864,10 +1864,10 @@ export const PT_C1_U13: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, fixing the dangling gerund in \"Saindo do cinema, começou a chover.\"",
-        source: "As we were leaving the cinema, it started to rain.",
+        source: "As we were leaving the movie theater, it started to rain.",
         answer: "Quando saíamos do cinema, começou a chover.",
         altAnswers: ["Quando a gente saía do cinema, começou a chover.", "Enquanto saíamos do cinema, começou a chover.", "Quando estávamos saindo do cinema, começou a chover.", "Quando a gente estava saindo do cinema, começou a chover.", "Saindo do cinema, pegamos chuva."],
-        explanation: "\"Começou a chover\" has no subject that could leave a cinema, so use a full clause or make we the main subject.",
+        explanation: "\"Começou a chover\" has no subject that could leave a movie theater, so use a full clause or make we the main subject.",
       },
       {
         type: "fill-blank",
@@ -1925,7 +1925,7 @@ export const PT_C1_U13: Lesson[] = [
         text: "Ele trouxe o livro para eu ler.",
         prompt: "Say it in Portuguese, in the standard form: He brought the book for me to read.",
         tip: "Say \"para eu\", not \"para mim\": the subject of \"ler\" is \"eu\".",
-        explanation: "\"Para eu ler\": the subject of the infinitive is \"eu\". \"Para mim ler\" is stigmatised.",
+        explanation: "\"Para eu ler\": the subject of the infinitive is \"eu\". \"Para mim ler\" is stigmatized.",
       },
       {
         type: "translate",
@@ -2051,7 +2051,7 @@ export const PT_C1_U13: Lesson[] = [
           { es: "Parece que assaltaram a farmácia da esquina ontem à noite.", en: "Apparently someone robbed the corner pharmacy last night." },
           { es: "A farmácia da esquina teria sido assaltada na noite de ontem.", en: "The corner pharmacy was reportedly robbed last night." },
           { es: "Ao chegar ao local, a polícia já não encontrou os suspeitos.", en: "By the time the police arrived on the scene, the suspects were gone." },
-          { es: "Segundo testemunhas, os suspeitos fugiram de moto.", en: "According to witnesses, the suspects fled on a motorbike." },
+          { es: "Segundo testemunhas, os suspeitos fugiram de moto.", en: "According to witnesses, the suspects fled on a motorcycle." },
         ],
         checkpoint: [
           {
@@ -2155,9 +2155,9 @@ export const PT_C1_U13: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: According to witnesses, the suspects fled on a motorbike.",
+        prompt: "Put the words in order to say: According to witnesses, the suspects fled on a motorcycle.",
         words: ["Segundo", "testemunhas,", "os", "suspeitos", "fugiram", "de", "moto."],
-        translation: "According to witnesses, the suspects fled on a motorbike.",
+        translation: "According to witnesses, the suspects fled on a motorcycle.",
         explanation: "\"Segundo\" + source attributes the fact, so the verb can stay in the preterite.",
       },
       {
@@ -2482,7 +2482,7 @@ export const PT_C1_U13: Lesson[] = [
         ],
         examples: [
           { es: "Na manhã desta segunda-feira, clientes da Conecta Sul ficaram sem acesso à internet por cerca de catorze horas.", en: "On Monday morning, Conecta Sul customers were without internet access for about fourteen hours." },
-          { es: "Segundo a apuração preliminar, a falha foi causada pelo rompimento de um cabo de fibra óptica.", en: "According to the preliminary investigation, the outage was caused by a broken fibre-optic cable." },
+          { es: "Segundo a apuração preliminar, a falha foi causada pelo rompimento de um cabo de fibra óptica.", en: "According to the preliminary investigation, the outage was caused by a broken fiber-optic cable." },
           { es: "Tudo indica que o cabo foi danificado durante uma obra na avenida Ipiranga.", en: "Everything suggests that the cable was damaged during roadworks on Avenida Ipiranga." },
           { es: "É possível que outras regiões também tenham sido afetadas.", en: "It is possible that other areas were affected too." },
           { es: "Estima-se que cerca de quarenta mil clientes tenham sido prejudicados.", en: "An estimated forty thousand customers were affected." },
@@ -2601,7 +2601,7 @@ export const PT_C1_U13: Lesson[] = [
             type: "speak",
             text: "Lamentamos profundamente o transtorno causado.",
             tip: "\"Transtorno\" has a nasal first syllable: trans-TOR-no, with a closed ô.",
-            explanation: "The standard formal apology; \"transtorno\" means inconvenience or disruption, not a false friend for transformation.",
+            explanation: "The standard formal apology; \"transtorno\" here means inconvenience or disruption (in medicine it also means disorder, as in \"transtorno de ansiedade\").",
           },
         ],
       },
@@ -2643,7 +2643,7 @@ export const PT_C1_U13: Lesson[] = [
           "Vamos estar fazendo o monitoramento da rede.",
         ],
         correctIndex: 0,
-        explanation: "\"Continuar\" + gerund is fine: it describes an ongoing process. \"Vamos estar monitorando\" is the mocked call-centre formula.",
+        explanation: "\"Continuar\" + gerund is fine: it describes an ongoing process. \"Vamos estar monitorando\" is the mocked call-center formula.",
       },
       {
         type: "translate",
@@ -2762,7 +2762,7 @@ export const PT_C1_U13: Lesson[] = [
           "Keep the spoken features: \"tava\" for \"estava\", \"pra\" for \"para\", \"a gente\" for \"nós\", \"o pessoal\" for the team, and \"capaz de\" for a likely repeat. End with a light \"beijo\" or \"abraço\".",
         ],
         examples: [
-          { es: "Oi, Rafa, tudo bem? Cara, você não vai acreditar no que aconteceu na quinta.", en: "Hi Rafa, how's it going? Mate, you won't believe what happened on Thursday." },
+          { es: "Oi, Rafa, tudo bem? Cara, você não vai acreditar no que aconteceu na quinta.", en: "Hi Rafa, how's it going? Man, you won't believe what happened on Thursday." },
           { es: "Pelo visto, o sistema reservou o auditório pra duas equipes ao mesmo tempo.", en: "Apparently the system booked the auditorium for two teams at once." },
           { es: "Deve ter dado pau naquela atualização.", en: "It must have crashed during that update." },
           { es: "Quando eu cheguei, o pessoal do marketing já tava lá dentro.", en: "When I got there, the marketing people were already inside." },
@@ -2794,7 +2794,7 @@ export const PT_C1_U13: Lesson[] = [
             type: "speak",
             text: "Oi, Rafa, tudo bem? Cara, você não vai acreditar no que aconteceu na quinta.",
             tip: "\"Cara\" is said quickly, almost unstressed, as a filler.",
-            explanation: "\"Cara\" (mate, dude) is a common filler among friends and colleagues; it never appears in a formal summary.",
+            explanation: "\"Cara\" (man, dude) is a common filler among friends and colleagues; it never appears in a formal summary.",
           },
         ],
       },
@@ -2936,11 +2936,11 @@ export const PT_C1_U13: Lesson[] = [
       {
         heading: "Mood: what you assert and what you don't",
         body: [
-          "One reminder: the subjunctive marks what you don't assert. \"Procuro um apartamento que tem varanda\" means a specific flat you know exists; \"que tenha varanda\" means any flat with a balcony. The practice below mixes this with fixed expressions and wishes in new settings.",
+          "One reminder: the subjunctive marks what you don't assert. \"Procuro um apartamento que tem varanda\" means a specific apartment you know exists; \"que tenha varanda\" means any apartment with a balcony. The practice below mixes this with fixed expressions and wishes in new settings.",
         ],
         examples: [
-          { es: "Procuro um apartamento que tenha varanda e aceite cachorro.", en: "I'm looking for a flat that has a balcony and allows dogs." },
-          { es: "O fato de que ele tenha pedido desculpas não muda nada.", en: "The fact that he apologised doesn't change anything." },
+          { es: "Procuro um apartamento que tenha varanda e aceite cachorro.", en: "I'm looking for an apartment that has a balcony and allows dogs." },
+          { es: "O fato de que ele tenha pedido desculpas não muda nada.", en: "The fact that he apologized doesn't change anything." },
           { es: "Quem me dera ter tempo para ler mais!", en: "If only I had time to read more!" },
           { es: "Que eu saiba, a inscrição ainda está aberta.", en: "As far as I know, registration is still open." },
           { es: "Talvez a gente consiga um desconto.", en: "Maybe we can get a discount." },
@@ -2950,10 +2950,10 @@ export const PT_C1_U13: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I'm looking for a flat that has a balcony.",
+            source: "I'm looking for an apartment that has a balcony.",
             answer: "Procuro um apartamento que tenha varanda.",
             altAnswers: ["Estou procurando um apartamento que tenha varanda.", "Eu procuro um apartamento que tenha varanda.", "Eu estou procurando um apartamento que tenha varanda.", "Procuro um apartamento com varanda.", "Estou procurando um apartamento com varanda."],
-            explanation: "Any flat with a balcony, not a specific one: \"que tenha\".",
+            explanation: "Any apartment with a balcony, not a specific one: \"que tenha\".",
           },
           {
             type: "fill-blank",
@@ -3018,9 +3018,9 @@ export const PT_C1_U13: Lesson[] = [
           "Reduced clauses compress, and fixed expressions follow the frame. In a story, \"custe o que custar\" becomes \"custasse o que custasse\". Participles agree with their nouns, and the personal infinitive replaces the subjunctive when the register allows.",
         ],
         examples: [
-          { es: "Encerrada a votação, os vereadores deixaram a câmara.", en: "With the vote over, the councillors left the chamber." },
+          { es: "Encerrada a votação, os vereadores deixaram a câmara.", en: "With the vote over, the council members left the chamber." },
           { es: "Tendo perdido o último ônibus, voltamos a pé.", en: "Having missed the last bus, we walked back." },
-          { es: "Chovesse ou fizesse sol, ele corria na orla todas as manhãs.", en: "Rain or shine, he ran along the seafront every morning." },
+          { es: "Chovesse ou fizesse sol, ele corria na orla todas as manhãs.", en: "Rain or shine, he ran along the waterfront every morning." },
           { es: "Ela saiu sem que ninguém notasse.", en: "She left without anyone noticing." },
         ],
         checkpoint: [
@@ -3036,7 +3036,7 @@ export const PT_C1_U13: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[With the vote over], the councillors left.",
+            en: "[With the vote over], the council members left.",
             sentence: "___, os vereadores saíram.",
             answer: "Encerrada a votação",
             altAnswers: ["Terminada a votação", "Concluída a votação"],
@@ -3074,7 +3074,7 @@ export const PT_C1_U13: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "It's the only restaurant in the neighbourhood that opens on Mondays.",
+        source: "It's the only restaurant in the neighborhood that opens on Mondays.",
         answer: "É o único restaurante do bairro que abre às segundas.",
         altAnswers: ["É o único restaurante do bairro que abra às segundas.", "É o único restaurante do bairro que abre na segunda.", "É o único restaurante do bairro que abre às segundas-feiras.", "É o único restaurante do bairro que abra às segundas-feiras."],
         explanation: "The indicative \"abre\" states a plain, checkable fact and is the normal choice; the subjunctive \"abra\" after \"o único que\" is possible in formal writing.",
@@ -3113,7 +3113,7 @@ export const PT_C1_U13: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Like it or not, we'll have to move house.",
+        source: "Like it or not, we'll have to move.",
         answer: "Queira ou não, vamos ter que nos mudar.",
         altAnswers: ["Quer queiramos, quer não, vamos ter que nos mudar.", "Queiramos ou não, vamos ter que nos mudar.", "Querendo ou não, vamos ter que nos mudar.", "Queira ou não, a gente vai ter que se mudar.", "Querendo ou não, a gente vai ter que se mudar.", "Queiramos ou não, teremos que nos mudar."],
         explanation: "A present/future frame keeps \"queira ou não\"; \"querendo ou não\" is the most common spoken form.",

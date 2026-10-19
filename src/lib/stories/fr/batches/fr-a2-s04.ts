@@ -11,7 +11,7 @@ export const FR_A2_S04_STORIES: Story[] = [
     subtitle: `When the Tour de France came through his Pyrenees village, ten-year-old Ethan waited all day for a few seconds of cycling.`,
     paragraphs: [
       `L'été dernier, le Tour de France est passé par le village d'Ethan, dans les Pyrénées. Ethan avait dix ans et il adorait le vélo. Pour lui, c'était le plus beau jour de l'année.`,
-      `Il s'est levé à six heures. Avec son grand-père, il a pris deux chaises pliantes, un pique-nique et un drapeau, et ils se sont installés au bord de la route, dans un virage. Il y avait déjà beaucoup de monde. Des gens étaient venus de Belgique, d'Espagne et même d'Australie !`,
+      `Il s'est levé à six heures. Avec son grand-père, il a pris deux chaises pliantes, un pique-nique et un drapeau, et ils se sont installés au bord de la route, dans un virage. Il y avait déjà beaucoup de monde. Des gens venaient de Belgique, d'Espagne et même d'Australie !`,
       `Vers midi, la caravane publicitaire est arrivée. Des voitures décorées passaient en musique et lançaient des cadeaux : des casquettes, des bonbons, des porte-clés. Ethan a attrapé une casquette à pois rouges. Il était fou de joie.`,
       `Puis ils ont attendu encore trois heures sous le soleil. Enfin, un hélicoptère est apparu dans le ciel. « Ils arrivent ! » a crié quelqu'un. Les coureurs sont passés devant eux à toute vitesse. Ça a duré trente secondes, pas plus.`,
       `Mais à la fin du peloton, un coureur a lancé son bidon vers le public. Le bidon est tombé juste aux pieds d'Ethan ! Aujourd'hui, ce bidon est sur une étagère dans sa chambre, à côté de la casquette. Et Ethan a un rêve : un jour, il va courir le Tour de France, lui aussi.`,
@@ -132,7 +132,7 @@ export const FR_A2_S04_STORIES: Story[] = [
       `Le matin, il a visité le musée d'Orsay. Il a regardé les tableaux de Monet pendant des heures. À treize heures, il a pris le métro jusqu'à la gare de Lyon. Il était très fier : il était en avance !`,
       `Dans le grand hall, il a cherché son train sur le panneau des départs. Strasbourg... Strasbourg... Rien. Il y avait des trains pour Marseille, Nice, Genève, mais pas pour Strasbourg. Kenji a commencé à paniquer.`,
       `Il a montré son billet à un agent de la SNCF. L'agent a souri. « Monsieur, votre train part de la gare de l'Est, pas de la gare de Lyon. À Paris, il y a six grandes gares ! » Kenji a regardé sa montre : treize heures trente. « C'est possible d'arriver à temps ? » « Si vous courez, oui ! Prenez le métro, avec un changement à Bastille. »`,
-      `Kenji a couru dans les couloirs du métro avec sa valise. Il est arrivé à la gare de l'Est à quatorze heures moins deux. Il est monté dans le train, tout rouge et essoufflé. Les portes se sont fermées derrière lui. Dans le train, il a écrit dans son carnet : « Leçon numéro un : à Paris, la gare de Lyon n'est pas à Lyon. »`,
+      `Kenji a couru dans les couloirs du métro avec sa valise. Il est arrivé à la gare de l'Est à treize heures cinquante-huit. Il est monté dans le train, tout rouge et essoufflé. Les portes se sont fermées derrière lui. Dans le train, il a écrit dans son carnet : « Leçon numéro un : à Paris, la gare de Lyon n'est pas à Lyon. »`,
     ],
     questions: [
       {
@@ -157,7 +157,7 @@ export const FR_A2_S04_STORIES: Story[] = [
         question: `When did Kenji get to the Gare de l'Est?`,
         options: [`At one o'clock`, `At half past one`, `At ten past two`, `Two minutes before two`],
         correctIndex: 3,
-        explanation: `"Il est arrivé à la gare de l'Est à quatorze heures moins deux."`,
+        explanation: `"Il est arrivé à la gare de l'Est à treize heures cinquante-huit": 1:58 p.m.`,
       },
     ],
   },
@@ -167,24 +167,24 @@ export const FR_A2_S04_STORIES: Story[] = [
     title: `La nouvelle maîtresse`,
     subtitle: `It's Amandine's first day as a primary school teacher in Marseille, and she is more nervous than her pupils.`,
     paragraphs: [
-      `Le premier septembre, Amandine a commencé son premier poste de professeure des écoles, dans une école du quartier de l'Estaque, à Marseille. Elle avait vingt-quatre ans. La veille, elle n'avait pas dormi de la nuit.`,
+      `Le premier septembre, Amandine a commencé son premier poste de professeure des écoles, dans une école du quartier de l'Estaque, à Marseille. Elle avait vingt-quatre ans. La veille au soir, elle n'a pas pu dormir.`,
       `Le matin, elle est arrivée à sept heures et demie. Elle a écrit son nom au tableau, elle a mis une étiquette sur chaque table et elle a préparé des crayons de couleur. Ses mains tremblaient un peu.`,
-      `À huit heures et demie, vingt-deux enfants de huit ans sont entrés dans la classe. Ils la regardaient en silence. Amandine a dit bonjour, puis elle a oublié tout ce qu'elle avait préparé ! Il y a eu un long silence.`,
+      `À huit heures et demie, vingt-deux enfants de huit ans sont entrés dans la classe. Ils la regardaient en silence. Amandine a dit bonjour, puis elle a oublié tout son programme ! Il y a eu un long silence.`,
       `Alors un petit garçon au fond de la classe a levé la main. « Maîtresse, vous avez peur ? » Toute la classe a ri, et Amandine aussi. « Oui, un peu. C'est mon premier jour. » Une petite fille a répondu : « Nous aussi, c'est notre premier jour avec vous. On va vous aider. »`,
       `La journée s'est bien passée. Ils ont dessiné, chanté et ils ont parlé de leurs vacances. Le soir, Amandine a trouvé un dessin sur son bureau : une maîtresse avec un grand sourire et le mot « COURAGE » en lettres rouges. Elle l'a accroché au mur. Il y est encore aujourd'hui.`,
     ],
     questions: [
       {
         question: `How did Amandine feel the night before?`,
-        options: [`She slept very well.`, `She didn't sleep at all.`, `She was ill.`, `She went to a party.`],
+        options: [`She slept very well.`, `She couldn't sleep.`, `She was ill.`, `She went to a party.`],
         correctIndex: 1,
-        explanation: `"La veille, elle n'avait pas dormi de la nuit."`,
+        explanation: `"La veille au soir, elle n'a pas pu dormir": the night before, she couldn't sleep.`,
       },
       {
         question: `What happened after Amandine said hello?`,
-        options: [`She forgot everything she had prepared.`, `The children started shouting.`, `The headteacher came in.`, `It started to rain.`],
+        options: [`She forgot everything she had planned.`, `The children started shouting.`, `The headteacher came in.`, `It started to rain.`],
         correctIndex: 0,
-        explanation: `"Elle a oublié tout ce qu'elle avait préparé !"`,
+        explanation: `"Elle a oublié tout son programme !": she forgot her whole plan for the lesson.`,
       },
       {
         question: `What did the little boy ask her?`,
@@ -226,9 +226,9 @@ export const FR_A2_S04_ENGLISH: Record<string, string[]> = {
     `Kenji ran through the metro corridors with his suitcase. He arrived at the Gare de l'Est at two minutes to two. He got on the train, bright red and out of breath. The doors closed behind him. On the train, he wrote in his notebook: "Lesson number one: in Paris, the Gare de Lyon is not in Lyon."`,
   ],
   "fr-a2-la-nouvelle-maitresse": [
-    `On the first of September, Amandine started her first job as a primary school teacher, at a school in the Estaque neighborhood of Marseille. She was twenty-four. The night before, she hadn't slept a wink.`,
+    `On the first of September, Amandine started her first job as a primary school teacher, at a school in the Estaque neighborhood of Marseille. She was twenty-four. The night before, she couldn't sleep.`,
     `In the morning, she arrived at half past seven. She wrote her name on the board, she put a label on each table and she got some colored pencils ready. Her hands were shaking a little.`,
-    `At half past eight, twenty-two eight-year-old children came into the classroom. They looked at her in silence. Amandine said hello, then she forgot everything she had prepared! There was a long silence.`,
+    `At half past eight, twenty-two eight-year-old children came into the classroom. They looked at her in silence. Amandine said hello, then she forgot her whole plan! There was a long silence.`,
     `Then a little boy at the back of the class raised his hand. "Miss, are you scared?" The whole class laughed, and so did Amandine. "Yes, a little. It's my first day." A little girl replied: "It's our first day with you too. We'll help you."`,
     `The day went well. They drew, sang and talked about their holidays. In the evening, Amandine found a drawing on her desk: a teacher with a big smile and the word "COURAGE" in red letters. She hung it on the wall. It's still there today.`,
   ],
@@ -289,7 +289,7 @@ export const FR_A2_S04_GLOSSES: Record<string, StoryGloss[]> = {
   "fr-a2-la-nouvelle-maitresse": [
     { es: "la maîtresse", en: "(primary school) teacher, Miss", forms: ["maîtresse"] },
     { es: "le professeur des écoles", en: "primary school teacher (official title)", forms: ["professeure"] },
-    { es: "la veille", en: "the day before, the night before", forms: ["veille"] },
+    { es: "la veille", en: "the day before (la veille au soir: the night before)", forms: ["veille"] },
     { es: "le tableau", en: "board (in a classroom)", forms: ["tableau"] },
     { es: "une étiquette", en: "label", forms: ["étiquette"] },
     { es: "trembler", en: "to shake, to tremble", forms: ["tremblaient"] },

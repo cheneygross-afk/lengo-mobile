@@ -10,14 +10,14 @@ export const FR_B2_U22_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Relatives in Formal Writing",
-    summary: "Rewrite loose, spoken sentences as tight formal ones with dont, lequel and ce dont.",
+    summary: "Rewrite loose, spoken sentences as tight formal ones with \"dont\", \"lequel\" and \"ce dont\".",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: from spoken to written",
         body: [
           "Spoken French often avoids relatives: \"Le livre, j'en ai besoin\" or \"C'est un type, son père est maire\". Formal writing joins the ideas: \"le livre dont j'ai besoin\", \"un homme dont le père est maire\".",
-          "Toolbox: \"dont\" (de-verbs, whose, quantities), preposition + \"lequel\" for things, \"à qui / avec qui\" for people, compound preposition + \"duquel\", \"ce dont / ce à quoi\" for what, and \"où\" for time.",
+          "Toolbox: \"dont\" (verbs with \"de\", whose, quantities), preposition + \"lequel\" for things, \"à qui / avec qui\" for people, compound preposition + \"duquel\", \"ce dont / ce à quoi\" for what, and \"où\" for time.",
         ],
         examples: [
           { es: "C'est un homme dont le père est maire.", en: "He's a man whose father is mayor." },
@@ -217,7 +217,7 @@ export const FR_B2_U22_EXTRA: Lesson[] = [
         source: "We'll leave before it rains.",
         answer: "Nous partirons avant qu'il pleuve.",
         altAnswers: ["Nous partirons avant qu'il ne pleuve.", "On partira avant qu'il pleuve.", "On partira avant qu'il ne pleuve.", "On va partir avant qu'il pleuve.", "On va partir avant qu'il ne pleuve."],
-        explanation: "\"Avant que\" + subjunctive, optional ne explétif.",
+        explanation: "\"Avant que\" + subjunctive, with an optional \"ne\" explétif.",
       },
       {
         type: "translate",
@@ -273,14 +273,14 @@ export const FR_B2_U22_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "I have a neighbour who speaks Russian.",
+        question: "Which is correct for: I have a neighbour who speaks Russian?",
         options: ["J'ai un voisin qui parle russe.", "J'ai un voisin qui parlerait russe.", "J'ai un voisin qu'il parle russe.", "J'ai un voisin dont parle russe."],
         correctIndex: 0,
         explanation: "Known antecedent → indicative (here identical to the subjunctive in sound and spelling).",
       },
       {
         type: "multiple-choice",
-        question: "I'm sure he knows.",
+        question: "Which is correct for: I'm sure he knows?",
         options: ["Je suis sûr qu'il sait.", "Je suis sûr qu'il sache.", "Je ne suis pas sûr qu'il sait.", "Je suis sûr de savoir lui."],
         correctIndex: 0,
         explanation: "Certainty → indicative.",
@@ -290,7 +290,7 @@ export const FR_B2_U22_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: unless you prefer to stay",
         words: ["à moins", "que", "tu", "ne", "préfères", "rester"],
         translation: "unless you prefer to stay",
-        explanation: "\"À moins que\" + subjunctive, with the ne explétif before the verb (it doesn't make the sentence negative).",
+        explanation: "\"À moins que\" + subjunctive, with the \"ne\" explétif before the verb (it doesn't make the sentence negative).",
       },
       {
         type: "translate",
@@ -313,7 +313,7 @@ export const FR_B2_U22_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Il faut que tu fasses attention.",
-        explanation: "\"Il faut que\" + \"fasses\" (faire).",
+        explanation: "\"Il faut que\" + \"fasses\" (\"faire\").",
       },
       {
         type: "speak",
@@ -430,14 +430,14 @@ export const FR_B2_U22_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "I should have listened to you.",
+        question: "Which is correct for: I should have listened to you?",
         options: ["J'aurais dû t'écouter.", "Je devrais t'avoir écouté hier.", "J'ai dû t'écouter.", "Je devais t'écouter."],
         correctIndex: 0,
         explanation: "\"J'aurais dû\" + infinitive for a past regret. \"J'ai dû\" = I had to.",
       },
       {
         type: "multiple-choice",
-        question: "What I like is his honesty.",
+        question: "Which is correct for: What I like is his honesty?",
         options: ["Ce qui me plaît, c'est son honnêteté.", "Ce que me plaît, c'est son honnêteté.", "Qu'est-ce qui me plaît, c'est son honnêteté.", "Ce dont me plaît, c'est son honnêteté."],
         correctIndex: 0,
         explanation: "\"Plaire\": \"ce qui\" is the subject.",

@@ -16,7 +16,7 @@ export const PT_B2_U23: Lesson[] = [
         heading: "Sério?, jura?, nossa!: surprise",
         body: [
           "Brazilian listeners are noisy on purpose. While a friend tells a story, you're expected to react every few sentences; silence sounds bored or even disapproving. The everyday reactions of surprise are \"Sério?\" (Seriously?), \"Jura?\" (Swear?), \"Não acredito!\" (I don't believe it!) and \"É mesmo?\" (Really?). None of them asks for proof: they just tell the speaker to keep going.",
-          "\"Nossa!\" is the all-purpose wow, short for \"Nossa Senhora\", and it works for good and bad news. \"Caramba!\" is a little stronger and more masculine-sounding, common across the country. \"Eita!\" (also \"eita, nossa!\") is the Nordeste's favourite and has spread everywhere: it's the reaction to something sudden or alarming. Avoid the vulgar ones until you know the group well.",
+          "\"Nossa!\" is the all-purpose wow, short for \"Nossa Senhora\", and it works for good and bad news. \"Caramba!\" is a little stronger and more masculine-sounding, common across the country. \"Eita!\" (also \"eita, nossa!\") is the Nordeste's favorite and has spread everywhere: it's the reaction to something sudden or alarming. Avoid the vulgar ones until you know the group well.",
         ],
         examples: [
           { es: "Sério? Ela pediu demissão?", en: "Seriously? She quit her job?" },
@@ -53,8 +53,8 @@ export const PT_B2_U23: Lesson[] = [
         ],
         examples: [
           { es: "Que legal! Parabéns pelo novo emprego!", en: "How cool! Congratulations on the new job!" },
-          { es: "Que chato, o voo foi cancelado de novo.", en: "How annoying, the flight was cancelled again." },
-          { es: "Obrigada pela carona! — Imagina!", en: "Thanks for the lift! — Don't mention it!" },
+          { es: "Que chato, o voo foi cancelado de novo.", en: "How annoying, the flight was canceled again." },
+          { es: "Obrigada pela carona! — Imagina!", en: "Thanks for the ride! — Don't mention it!" },
           { es: "Seu bolo está maravilhoso. — Que isso, foi fácil!", en: "Your cake is wonderful. — Oh, come on, it was easy!" },
           { es: "Desculpa o atraso. — Imagina, acabei de chegar.", en: "Sorry I'm late. — Not at all, I've just arrived." },
         ],
@@ -89,7 +89,7 @@ export const PT_B2_U23: Lesson[] = [
       {
         heading: "Que bom que você venha: the subjunctive after reactions",
         body: [
-          "When \"que bom\" or \"que pena\" leads into a full sentence, add \"que\" and use the subjunctive, because you're reacting emotionally to a fact, just like \"fico feliz que\": \"Que pena que você não possa vir\", \"Que bom que vocês estejam bem\". The common mistake is the indicative: *que pena que você não vem.",
+          "When \"que bom\" or \"que pena\" leads into a full sentence, add \"que\" and use the subjunctive, because you're reacting emotionally to a fact, just like \"fico feliz que\": \"Que pena que você não possa vir\", \"Que bom que vocês estejam bem\". In relaxed speech you will also hear the indicative (\"que pena que você não vem\"), but careful speech and writing keep the subjunctive.",
           "For something already finished, careful speech uses \"tenha\" + participle (\"Que bom que você tenha vindo\"), but in everyday conversation Brazilians very often say \"Que bom que você veio!\". Both are fine aloud. For the present and future, keep the subjunctive. Same subject? Use the infinitive: \"Que pena não poder ir\".",
         ],
         examples: [
@@ -97,7 +97,7 @@ export const PT_B2_U23: Lesson[] = [
           { es: "Que bom que vocês gostem de comida baiana!", en: "Great that you like Bahian food!" },
           { es: "Que bom que você veio!", en: "So glad you came!" },
           { es: "Que pena que ela tenha perdido o show.", en: "What a shame she missed the show." },
-          { es: "Que chato que a loja esteja fechada hoje.", en: "How annoying that the shop is closed today." },
+          { es: "Que chato que a loja esteja fechada hoje.", en: "How annoying that the store is closed today." },
           { es: "Que pena não poder ficar mais.", en: "Such a shame I can't stay longer." },
         ],
         checkpoint: [
@@ -115,8 +115,8 @@ export const PT_B2_U23: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "Great that you're better!",
             answer: "Que bom que você esteja melhor!",
-            altAnswers: ["Que bom que você está melhor!", "Que bom que o senhor esteja melhor!", "Que bom que a senhora esteja melhor!", "Que bom que vocês estejam melhor!"],
-            explanation: "\"Que bom que\" + subjunctive: \"esteja\". In relaxed speech you'll also hear \"está\", but the subjunctive is the safe choice.",
+            altAnswers: ["Que bom que o senhor esteja melhor!", "Que bom que a senhora esteja melhor!", "Que bom que vocês estejam melhor!"],
+            explanation: "\"Que bom que\" + subjunctive: \"esteja\". In relaxed speech you'll also hear \"está\", but this lesson practices the subjunctive, the form for careful speech and writing.",
           },
           {
             type: "speak",
@@ -181,9 +181,9 @@ export const PT_B2_U23: Lesson[] = [
         type: "listen-choose",
         audio: "Eita, o pneu furou!",
         question: "What does it mean?",
-        options: ["Whoa, the tyre's gone flat!", "Great, the tyre's fixed!", "Hurry, the bus is leaving!", "Wait, the tyre is fine."],
+        options: ["Whoa, the tire's gone flat!", "Great, the tire's fixed!", "Hurry, the bus is leaving!", "Wait, the tire is fine."],
         correctIndex: 0,
-        explanation: "\"Eita\" reacts to something sudden or alarming, and \"o pneu furou\" is a flat tyre.",
+        explanation: "\"Eita\" reacts to something sudden or alarming, and \"o pneu furou\" is a flat tire.",
       },
       {
         type: "translate",
@@ -306,7 +306,7 @@ export const PT_B2_U23: Lesson[] = [
         heading: "Mas e você?: handing back and listening",
         body: [
           "A good conversationalist passes the turn back. \"Mas e você?\" or just \"E você?\" returns a question; \"E aí, o que você acha?\" asks for an opinion; \"Fala aí\" (go on, say it) invites someone quiet to speak.",
-          "While listening, Brazilians fill the silence with small sounds: \"aham\", \"sei\", \"hum\", \"pois é\" (exactly, I know), \"né?\" (right?) and \"ah, tá\" (oh, I see). \"Sei\" said flatly can sound sceptical, like 'sure...'; said brightly it means 'I know what you mean'. Without these signals, the speaker will stop and ask \"Você tá me ouvindo?\".",
+          "While listening, Brazilians fill the silence with small sounds: \"aham\", \"sei\", \"hum\", \"pois é\" (exactly, I know), \"né?\" (right?) and \"ah, tá\" (oh, I see). \"Sei\" said flatly can sound skeptical, like 'sure...'; said brightly it means 'I know what you mean'. Without these signals, the speaker will stop and ask \"Você tá me ouvindo?\".",
         ],
         examples: [
           { es: "Eu adorei o filme. Mas e você?", en: "I loved the film. What about you?" },
@@ -414,7 +414,7 @@ export const PT_B2_U23: Lesson[] = [
         type: "speak",
         text: "Só um minutinho, já chego lá.",
         prompt: "Say it in Portuguese: Just a sec, I'm getting to that.",
-        tip: "\"Minutinho\" has the nh of 'canyon': mi-nu-TI-nyu, with the t sounding like ch before i.",
+        tip: "\"Minutinho\" has the nh of 'canyon': mi-nu-CHI-nyu, since t before i sounds like the ch in cheese.",
         explanation: "\"Já chego lá\" keeps your turn by promising you'll answer.",
       },
       {
@@ -433,7 +433,7 @@ export const PT_B2_U23: Lesson[] = [
     level: "PT-B2",
     number: 3,
     title: "Vou Ver: The Brazilian Way of Saying No",
-    summary: "Recognise the indirect refusals behind vou ver, quem sabe and a gente marca, and turn down an invitation kindly with a reason and an alternative.",
+    summary: "Recognize the indirect refusals behind vou ver, quem sabe and a gente marca, and turn down an invitation kindly with a reason and an alternative.",
     duration: "15 min",
     kind: "teach",
     sections: [
@@ -448,7 +448,7 @@ export const PT_B2_U23: Lesson[] = [
           { es: "Quem sabe outro dia, tá?", en: "Maybe another day, OK?" },
           { es: "Acho meio difícil, essa semana está corrida.", en: "I think it'll be tricky, this week is hectic." },
           { es: "Seria ótimo, mas não sei se vai dar.", en: "That would be great, but I don't know if I'll manage." },
-          { es: "Fechado! Que horas a gente se encontra?", en: "Deal! What time shall we meet?" },
+          { es: "Fechado! Que horas a gente se encontra?", en: "Deal! What time should we meet?" },
         ],
         checkpoint: [
           {
@@ -480,7 +480,7 @@ export const PT_B2_U23: Lesson[] = [
           { es: "A gente marca, tá? Beijo!", en: "We'll set something up, OK? Bye!" },
           { es: "Vamos combinar alguma coisa quando você voltar.", en: "Let's arrange something when you get back." },
           { es: "Aparece no domingo, vai ter churrasco ao meio-dia.", en: "Come by on Sunday, there's a barbecue at noon." },
-          { es: "Bora marcar? Quinta você pode?", en: "Shall we set it up? Can you do Thursday?" },
+          { es: "Bora marcar? Quinta você pode?", en: "Should we set it up? Can you do Thursday?" },
         ],
         checkpoint: [
           {
@@ -704,7 +704,7 @@ export const PT_B2_U23: Lesson[] = [
       {
         heading: "Softening complaints, and what changes in writing",
         body: [
-          "Brazilians rarely complain head-on, even to a neighbour or a waiter. They stack softeners: \"meio\", \"um pouquinho\", \"será que\" and the imperfect for politeness. \"O barulho está meio complicado\" is a complaint; \"Será que dava para abaixar um pouquinho a música?\" is a request that leaves room to agree. \"Complicado\" itself is a classic understatement for bad, difficult or impossible.",
+          "Brazilians rarely complain head-on, even to a neighbor or a waiter. They stack softeners: \"meio\", \"um pouquinho\", \"será que\" and the imperfect for politeness. \"O barulho está meio complicado\" is a complaint; \"Será que dava para abaixar um pouquinho a música?\" is a request that leaves room to agree. \"Complicado\" itself is a classic understatement for bad, difficult or impossible.",
           "In writing, these hedges sound vague or sloppy. A work email uses \"um pouco\", \"de certa forma\", \"aproximadamente\" and \"talvez\" instead of \"meio que\", \"tipo\" and \"uma coisa assim\", and \"cerca de\" replaces \"uns\": \"cerca de trinta participantes\".",
         ],
         examples: [
@@ -718,7 +718,7 @@ export const PT_B2_U23: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into Portuguese, as a polite spoken request to a neighbour.",
+            prompt: "Translate into Portuguese, as a polite spoken request to a neighbor.",
             source: "Do you think you could turn the music down a little?",
             answer: "Será que dava para abaixar um pouquinho a música?",
             altAnswers: ["Será que dava pra abaixar um pouquinho a música?", "Será que dava para abaixar a música um pouquinho?", "Será que dava pra abaixar a música um pouquinho?", "Será que daria para abaixar um pouquinho a música?", "Será que dá para abaixar um pouquinho a música?"],
@@ -758,7 +758,7 @@ export const PT_B2_U23: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Is the shop open on Sunday? — [I don't think so].",
+        en: "Is the store open on Sunday? — [I don't think so].",
         sentence: "A loja abre no domingo? — ___.",
         answer: "Acho que não",
         explanation: "\"Acho que não\" is the hedged no; *penso que não sounds translated.",
@@ -916,7 +916,7 @@ export const PT_B2_U23: Lesson[] = [
         ],
         examples: [
           { es: "Pera, esqueci a chave!", en: "Hang on, I forgot the key!" },
-          { es: "Bora tomar um açaí?", en: "Shall we go and get an açaí?" },
+          { es: "Bora tomar um açaí?", en: "Should we go and get an açaí?" },
           { es: "Vamo nessa, pessoal!", en: "Let's do it, guys!" },
           { es: "Cadê meu celular?", en: "Where's my phone?" },
           { es: "Cadê você? Tô te esperando há meia hora!", en: "Where are you? I've been waiting for you for half an hour!" },
@@ -934,7 +934,7 @@ export const PT_B2_U23: Lesson[] = [
           {
             type: "speak",
             text: "Bora? Tá ficando tarde.",
-            prompt: "Say it in Portuguese, casually: Shall we go? It's getting late.",
+            prompt: "Say it in Portuguese, casually: Should we go? It's getting late.",
             tip: "\"Bora\" has an open o, like 'bore' without the r at the end, and a tapped r.",
             explanation: "\"Bora\" (vamos embora) is the casual let's go.",
           },
@@ -1052,7 +1052,7 @@ export const PT_B2_U23: Lesson[] = [
           { left: "bora", right: "vamos embora" },
           { left: "num sei", right: "não sei" },
         ],
-        explanation: "Recognise the spoken form; write the full one.",
+        explanation: "Recognize the spoken form; write the full one.",
       },
     ],
   },
@@ -1139,7 +1139,7 @@ export const PT_B2_U23: Lesson[] = [
         ],
         examples: [
           { es: "É isso. Depois me fala, tá? Beijo!", en: "That's it. Let me know, OK? Bye!" },
-          { es: "Qualquer coisa, me chama. Abraço!", en: "If anything comes up, give me a shout. Cheers!" },
+          { es: "Qualquer coisa, me chama. Abraço!", en: "If anything comes up, let me know. Thanks!" },
           { es: "Ele mandou um áudio de seis minutos!", en: "He sent a six-minute voice message!" },
           { es: "A Ana disse que o voo atrasou e pediu que alguém fosse buscá-la.", en: "Ana said the flight was delayed and asked for someone to pick her up." },
           { es: "Resumindo: ela não vem e manda um beijo.", en: "In short: she's not coming and sends her love." },
@@ -1158,7 +1158,7 @@ export const PT_B2_U23: Lesson[] = [
             type: "listen-choose",
             audio: "Qualquer coisa, me chama. Abraço!",
             question: "What does it mean?",
-            options: ["If anything comes up, give me a shout. Cheers!", "Whatever happens, call me a hug!", "Anything you want, call me.", "Call me for anything, I'm busy."],
+            options: ["If anything comes up, let me know. Thanks!", "Whatever happens, call me a hug!", "Anything you want, call me.", "Call me for anything, I'm busy."],
             correctIndex: 0,
             explanation: "\"Qualquer coisa, me chama\" offers help; \"abraço\" is the warm, neutral goodbye.",
           },
@@ -1268,14 +1268,14 @@ export const PT_B2_U23: Lesson[] = [
       {
         heading: "Alô? Quem fala?: answering and asking who's calling",
         body: [
-          "Brazilians answer the phone with \"Alô?\" (or \"Oi?\" when they know the caller). A receptionist says \"Escritório Silva, bom dia\", or the company name plus \"[name] falando\". If you don't know who's on the line, ask \"Quem fala?\" (who's speaking?); at work, the polite version is \"Quem gostaria?\" (who shall I say is calling?), in the conditional.",
+          "Brazilians answer the phone with \"Alô?\" (or \"Oi?\" when they know the caller). A receptionist says \"Escritório Silva, bom dia\", or the company name plus \"[name] falando\". If you don't know who's on the line, ask \"Quem fala?\" (who's speaking?); at work, the polite version is \"Quem gostaria?\" (who should I say is calling?), in the conditional.",
           "Identify yourself with \"Aqui é a Mariana\" or \"É o Rafael, da contabilidade\", never *eu sou Mariana, which sounds like an introduction at a party. To ask for someone: \"O Lucas está?\", \"Eu poderia falar com a dona Beatriz?\".",
         ],
         examples: [
           { es: "Alô? Quem fala?", en: "Hello? Who's speaking?" },
           { es: "Aqui é a Mariana, do escritório.", en: "It's Mariana, from the office." },
           { es: "Eu poderia falar com a dona Beatriz?", en: "Could I speak to Ms. Beatriz?" },
-          { es: "Quem gostaria?", en: "Who shall I say is calling?" },
+          { es: "Quem gostaria?", en: "Who should I say is calling?" },
           { es: "O Lucas está? É o Rafael.", en: "Is Lucas there? It's Rafael." },
         ],
         checkpoint: [
@@ -1300,7 +1300,7 @@ export const PT_B2_U23: Lesson[] = [
       {
         heading: "Tá cortando: bad lines and misunderstanding",
         body: [
-          "Mobile signal in Brazil can be patchy, so learn the vocabulary of a bad line. \"Tá cortando\" (you're breaking up), \"Não tô te ouvindo direito\" (I can't hear you properly), \"A ligação tá ruim\" (the line's bad) and \"Caiu a ligação\" (the call dropped). Then repair: \"Pode repetir, por favor?\", \"Pode falar mais devagar?\", \"Não entendi o final\".",
+          "Cell signal in Brazil can be patchy, so learn the vocabulary of a bad line. \"Tá cortando\" (you're breaking up), \"Não tô te ouvindo direito\" (I can't hear you properly), \"A ligação tá ruim\" (the line's bad) and \"Caiu a ligação\" (the call dropped). Then repair: \"Pode repetir, por favor?\", \"Pode falar mais devagar?\", \"Não entendi o final\".",
           "To check numbers, Brazilians say \"meia\" for six (from \"meia dúzia\") so it can't be confused with \"três\": \"nove, meia, dois\". Spell names with \"de\" + a word: \"B de bola, R de rato\". If the line is hopeless: \"Vou desligar e te ligo de volta\".",
         ],
         examples: [
@@ -1473,7 +1473,7 @@ export const PT_B2_U23: Lesson[] = [
           { es: "Dizem que esse restaurante é o melhor de Salvador.", en: "They say this restaurant is the best in Salvador." },
           { es: "Diz que vai chover o fim de semana inteiro.", en: "Supposedly it's going to rain all weekend." },
           { es: "Ouvi dizer que a Mariana foi promovida.", en: "I heard Mariana got promoted." },
-          { es: "Ouvi dizer que o show foi cancelado, mas não sei se é verdade.", en: "I heard the show was cancelled, but I don't know if it's true." },
+          { es: "Ouvi dizer que o show foi cancelado, mas não sei se é verdade.", en: "I heard the show was canceled, but I don't know if it's true." },
           { es: "Pelo jeito, eles se mudaram para Curitiba.", en: "Apparently, they've moved to Curitiba." },
         ],
         checkpoint: [
@@ -1503,7 +1503,7 @@ export const PT_B2_U23: Lesson[] = [
         ],
         examples: [
           { es: "Parece que o Lucas vai se casar em dezembro.", en: "It looks like Lucas is getting married in December." },
-          { es: "Segundo o jornal, o metrô vai parar amanhã.", en: "According to the paper, the metro is going on strike tomorrow." },
+          { es: "Segundo o jornal, o metrô vai parar amanhã.", en: "According to the paper, the subway is going on strike tomorrow." },
           { es: "Você tá sabendo da festa da Bia?", en: "Have you heard about Bia's party?" },
           { es: "Tô sabendo, ela me contou ontem.", en: "I know, she told me yesterday." },
           { es: "Você soube do Rafael? Ele foi morar em Portugal.", en: "Did you hear about Rafael? He's moved to Portugal." },
@@ -1572,7 +1572,7 @@ export const PT_B2_U23: Lesson[] = [
         source: "They say the new director is very demanding.",
         answer: "Dizem que o novo diretor é muito exigente.",
         altAnswers: ["Dizem que a nova diretora é muito exigente.", "Diz que o novo diretor é muito exigente.", "Dizem que o diretor novo é muito exigente.", "Dizem que a diretora nova é muito exigente."],
-        explanation: "\"Dizem que\" with an unnamed subject: the standard way to report a rumour.",
+        explanation: "\"Dizem que\" with an unnamed subject: the standard way to report a rumor.",
       },
       {
         type: "translate",
@@ -1581,7 +1581,7 @@ export const PT_B2_U23: Lesson[] = [
         source: "I heard that they broke up, but I don't know if it's true.",
         answer: "Ouvi dizer que eles terminaram, mas não sei se é verdade.",
         altAnswers: ["Eu ouvi dizer que eles terminaram, mas não sei se é verdade.", "Ouvi dizer que eles terminaram, mas eu não sei se é verdade.", "Ouvi falar que eles terminaram, mas não sei se é verdade.", "Ouvi dizer que eles se separaram, mas não sei se é verdade."],
-        explanation: "\"Terminar\" on its own is the everyday verb for a couple breaking up. \"Mas não sei se é verdade\" distances you from the rumour.",
+        explanation: "\"Terminar\" on its own is the everyday verb for a couple breaking up. \"Mas não sei se é verdade\" distances you from the rumor.",
       },
       {
         type: "fill-blank",
@@ -1603,7 +1603,7 @@ export const PT_B2_U23: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "It looks like the metro is going to stop tomorrow.",
+        source: "It looks like the subway is going to stop tomorrow.",
         answer: "Parece que o metrô vai parar amanhã.",
         altAnswers: ["Parece que o metrô vai entrar em greve amanhã.", "Pelo jeito o metrô vai parar amanhã.", "Parece que amanhã o metrô vai parar.", "Dizem que o metrô vai parar amanhã."],
         explanation: "\"Parece que\" + indicative: news you've heard but can't vouch for.",
@@ -1650,7 +1650,7 @@ export const PT_B2_U23: Lesson[] = [
         type: "speak",
         text: "Você tá sabendo? Parece que a Ana vai morar em Lisboa!",
         prompt: "Say it in Portuguese, casually: Have you heard? It looks like Ana's going to live in Lisbon!",
-        tip: "\"Lisboa\" in Brazil: liz-BO-a, with a z sound before the b.",
+        tip: "\"Lisboa\" in Brazil: liz-BÔ-a, with a z sound before the b and a closed o.",
         explanation: "Open with \"você tá sabendo?\", then frame the news with \"parece que\".",
       },
     ],
@@ -1666,9 +1666,9 @@ export const PT_B2_U23: Lesson[] = [
     format: "Dialogue Lab",
     sections: [
       {
-        heading: "Chegando: a table on the pavement",
+        heading: "Chegando: a table on the sidewalk",
         body: [
-          "Friday night in Belo Horizonte, the city that calls itself the bar capital of Brazil. Lucas, Bia and Rafa meet at a \"boteco\", a simple corner bar with plastic tables on the pavement, cold beer and \"tira-gostos\" (bar snacks) like \"torresmo\" and \"mandioca frita\". Bia arrives late, and the conversation starts before she sits down.",
+          "Friday night in Belo Horizonte, the city that calls itself the bar capital of Brazil. Lucas, Bia and Rafa meet at a \"boteco\", a simple corner bar with plastic tables on the sidewalk, cold beer and \"tira-gostos\" (bar snacks) like \"torresmo\" and \"mandioca frita\". Bia arrives late, and the conversation starts before she sits down.",
           "Listen for the mineiro touches: \"uai\" (an all-purpose 'well, hey'), \"trem\" for any thing at all (\"que trem bom!\") and swallowed syllables (\"cê\", \"tá\", \"pra\"). Lucas reacts to everything; Rafa keeps trying to tell a story.",
         ],
         examples: [
@@ -1690,7 +1690,7 @@ export const PT_B2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Bia apologises for being late. What's the most natural reply from Lucas?",
+            question: "Bia apologizes for being late. What's the most natural reply from Lucas?",
             options: ["Imagina! Senta aí.", "Que pena que você chegue.", "Peraí, deixa eu terminar.", "Vou ver."],
             correctIndex: 0,
             explanation: "\"Imagina!\" brushes off the apology, and \"senta aí\" welcomes her.",
@@ -1747,7 +1747,7 @@ export const PT_B2_U23: Lesson[] = [
           "Watch the different shapes: Rafa's enthusiastic \"fechado!\", Bia's \"poxa, que pena\" + \"adoraria, mas\", and her gossip opening \"vocês tão sabendo?\" with \"parece que\". Lucas's \"que pena que você não possa ir\" uses the subjunctive after the reaction.",
         ],
         examples: [
-          { es: "Bora pro sítio da minha mãe no domingo?", en: "Who's up for my mum's farm on Sunday?" },
+          { es: "Bora pro sítio da minha mãe no domingo?", en: "Who's up for my mom's farm on Sunday?" },
           { es: "Fechado! Que horas a gente sai?", en: "Deal! What time do we leave?" },
           { es: "Poxa, eu adoraria, mas domingo é aniversário da minha avó.", en: "Oh, I'd love to, but Sunday's my grandma's birthday." },
           { es: "Que pena que você não possa ir!", en: "What a shame you can't come!" },
@@ -1900,7 +1900,7 @@ export const PT_B2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A client emails to say her flight was cancelled and she'll miss your meeting. Which reply opening fits?",
+            question: "A client emails to say her flight was canceled and she'll miss your meeting. Which reply opening fits?",
             options: ["Lamento muito o ocorrido.", "Nossa, que chato!", "kkkk que azar", "Eita!"],
             correctIndex: 0,
             explanation: "In a formal email, \"lamento muito o ocorrido\" (I'm very sorry about what happened) replaces spoken reactions.",
@@ -2078,7 +2078,7 @@ export const PT_B2_U23: Lesson[] = [
         heading: "Too direct, and the missing subjunctive",
         body: [
           "These mistakes come from learners whose grammar is good. The first is social: \"Não, não quero ir\" answers an invitation correctly but bluntly. A Brazilian hears rejection of the person, not the plan. Fix it with a reaction, a reason and an alternative: \"Poxa, que pena, hoje não vai dar. Que tal sábado?\".",
-          "The second is grammatical: *\"Que pena que você não vem\". After \"que pena que\", \"que bom que\", \"que chato que\" the verb goes into the subjunctive: \"que pena que você não venha\", \"que bom que ele esteja melhor\". Learners also forget the \"que\" before the clause: *\"Que bom você está aqui\".",
+          "The second is grammatical: \"Que pena que você não vem\" passes in relaxed speech but not in careful speech or writing. After \"que pena que\", \"que bom que\", \"que chato que\" the verb goes into the subjunctive: \"que pena que você não venha\", \"que bom que ele esteja melhor\". Learners also forget the \"que\" before the clause: *\"Que bom você está aqui\".",
         ],
         examples: [
           { es: "Poxa, que pena, hoje não vai dar. Que tal sábado?", en: "Oh, what a shame, today won't work. How about Saturday?" },
@@ -2103,8 +2103,8 @@ export const PT_B2_U23: Lesson[] = [
             en: "[So good that you're] here!",
             sentence: "___ aqui!",
             answer: "Que bom que você esteja",
-            altAnswers: ["Que bom que você está", "Que bom que vocês estejam", "Que bom que vocês estão"],
-            explanation: "\"Que bom\" needs \"que\" before the clause, and careful speech uses the subjunctive \"esteja\".",
+            altAnswers: ["Que bom que vocês estejam"],
+            explanation: "\"Que bom\" needs \"que\" before the clause, and careful speech uses the subjunctive \"esteja\". \"Que bom que você está\" is common in relaxed speech, but the subjunctive is the target here.",
           },
         ],
       },
@@ -2304,8 +2304,8 @@ export const PT_B2_U23: Lesson[] = [
       {
         heading: "The news: parece que, mas não sei",
         body: [
-          "Next, change topic with \"Ah, e outra coisa\" and pass on the rumour. You don't know it's true, so frame it: \"Ouvi dizer que o Thiago conseguiu um emprego em Lisboa\" or \"Parece que...\", then distance yourself with \"mas não sei se é verdade\" or ask \"Você tá sabendo de alguma coisa?\".",
-          "Don't present a rumour as fact: \"O Thiago conseguiu um emprego\" without a hedge sounds like you're sure. And in an áudio, a little fofoca vocabulary (\"tenho um babado\") is fine with a close friend.",
+          "Next, change topic with \"Ah, e outra coisa\" and pass on the rumor. You don't know it's true, so frame it: \"Ouvi dizer que o Thiago conseguiu um emprego em Lisboa\" or \"Parece que...\", then distance yourself with \"mas não sei se é verdade\" or ask \"Você tá sabendo de alguma coisa?\".",
+          "Don't present a rumor as fact: \"O Thiago conseguiu um emprego\" without a hedge sounds like you're sure. And in an áudio, a little fofoca vocabulary (\"tenho um babado\") is fine with a close friend.",
         ],
         examples: [
           { es: "Ah, e outra coisa: ouvi dizer que o Thiago conseguiu um emprego em Lisboa.", en: "Oh, and another thing: I heard Thiago got a job in Lisbon." },
@@ -2321,7 +2321,7 @@ export const PT_B2_U23: Lesson[] = [
             source: "Oh, and another thing: I heard Thiago got a job in Lisbon, but I don't know if it's true.",
             answer: "Ah, e outra coisa: ouvi dizer que o Thiago conseguiu um emprego em Lisboa, mas não sei se é verdade.",
             altAnswers: ["Ah, e outra coisa: ouvi dizer que o Thiago arrumou um emprego em Lisboa, mas não sei se é verdade.", "E outra coisa: ouvi dizer que o Thiago conseguiu um emprego em Lisboa, mas não sei se é verdade.", "Ah, e outra coisa: eu ouvi dizer que o Thiago conseguiu um emprego em Lisboa, mas não sei se é verdade.", "Ah, e outra coisa: ouvi falar que o Thiago conseguiu um emprego em Lisboa, mas não sei se é verdade.", "Ah, e outra coisa: ouvi dizer que o Thiago conseguiu emprego em Lisboa, mas não sei se é verdade.", "Ah, e outra coisa: ouvi dizer que o Thiago conseguiu um trabalho em Lisboa, mas não sei se é verdade."],
-            explanation: "\"Ouvi dizer que\" frames the rumour; \"mas não sei se é verdade\" makes clear you're not vouching for it.",
+            explanation: "\"Ouvi dizer que\" frames the rumor; \"mas não sei se é verdade\" makes clear you're not vouching for it.",
           },
           {
             type: "listen-choose",
@@ -2380,7 +2380,7 @@ export const PT_B2_U23: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "Such a shame I can't come!",
         answer: "Que pena que eu não possa ir!",
-        altAnswers: ["Que pena não poder ir!", "Que pena que eu não vou poder ir!", "Que pena que não possa ir!", "Que pena que eu não possa vir!"],
+        altAnswers: ["Que pena não poder ir!", "Que pena que não possa ir!"],
         explanation: "\"Que pena que eu não possa\" (subjunctive) or, with the same subject, \"que pena não poder ir\". Portuguese says \"ir\" for going to someone else's party.",
       },
       {
@@ -2506,7 +2506,7 @@ export const PT_B2_U23: Lesson[] = [
           { es: "Parece que o chefe disse que a empresa seria vendida.", en: "Apparently the boss said the company would be sold." },
           { es: "Ele me perguntou se eu estava sabendo da reunião.", en: "He asked me if I'd heard about the meeting." },
           { es: "Pediram que ninguém comentasse o assunto.", en: "They asked that nobody discuss the matter." },
-          { es: "Ouvi dizer que a festa tinha sido cancelada.", en: "I heard the party had been cancelled." },
+          { es: "Ouvi dizer que a festa tinha sido cancelada.", en: "I heard the party had been canceled." },
           { es: "Ela falou que, se chovesse, o show seria adiado.", en: "She said that if it rained, the show would be postponed." },
         ],
         checkpoint: [
@@ -2574,7 +2574,7 @@ export const PT_B2_U23: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I heard the concert had been cancelled, but apparently it's on.",
+        source: "I heard the concert had been canceled, but apparently it's on.",
         answer: "Ouvi dizer que o show tinha sido cancelado, mas parece que vai ter.",
         altAnswers: ["Ouvi dizer que o show tinha sido cancelado, mas pelo jeito vai ter.", "Ouvi dizer que o show tinha sido cancelado, mas parece que vai acontecer.", "Eu ouvi dizer que o show tinha sido cancelado, mas parece que vai ter.", "Ouvi dizer que o show tinha sido cancelado, mas parece que está mantido.", "Ouvi dizer que o show tinha sido cancelado, mas parece que foi mantido."],
         explanation: "The pluperfect passive \"tinha sido cancelado\" inside hearsay; \"vai ter\" is the spoken 'it's going to happen'.",
@@ -2666,5 +2666,5 @@ export const PT_B2_U23_WRITING: WriteExercise = {
     "Offer a concrete alternative (\"que tal...?\") and close the way a Brazilian message does (\"depois me fala\", \"beijo\" or \"abraço\").",
   ],
   modelAnswer: "Lucas!! Acabei de ouvir seu áudio. Nossa, Manaus? Sério? Que notícia! Fico muito feliz por você, mas vou sentir sua falta, viu?\n\nEntão, é o seguinte: eu adoraria ir na sua despedida, mas na sexta eu tenho uma viagem de trabalho para Curitiba e só volto no domingo. Que pena que eu não possa ir! Se fosse em outro dia, eu iria com certeza.\n\nAh, e outra coisa: você tá sabendo da Bia? Ouvi dizer que ela também vai se mudar, parece que para Lisboa. Mas não sei se é verdade, hein, então não comenta com ninguém ainda.\n\nQue tal a gente tomar um café antes de você ir? Quarta ou quinta, o que for melhor pra você. Se não der, eu te ligo na semana que vem e a gente conversa com calma.\n\nDepois me fala, tá? Boa sorte com a mudança!\nAbraço!",
-  explanation: "The reply sounds spoken but stays readable: reactions (\"Nossa\", \"Sério?\"), the signal \"é o seguinte\", and \"que pena que eu não possa ir\" with the present subjunctive. The refusal follows the Brazilian formula, with \"eu adoraria, mas...\", a reason and the unreal condition \"se fosse... eu iria\". The rumour is framed with \"ouvi dizer que\" and \"parece que\" and hedged with \"não sei se é verdade\". The future subjunctive gives a flexible alternative (\"o que for melhor\", \"se não der\"), and the message closes with \"depois me fala\" and \"abraço\".",
+  explanation: "The reply sounds spoken but stays readable: reactions (\"Nossa\", \"Sério?\"), the signal \"é o seguinte\", and \"que pena que eu não possa ir\" with the present subjunctive. The refusal follows the Brazilian formula, with \"eu adoraria, mas...\", a reason and the unreal condition \"se fosse... eu iria\". The rumor is framed with \"ouvi dizer que\" and \"parece que\" and hedged with \"não sei se é verdade\". The future subjunctive gives a flexible alternative (\"o que for melhor\", \"se não der\"), and the message closes with \"depois me fala\" and \"abraço\".",
 };

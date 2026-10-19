@@ -63,7 +63,7 @@ export const PT_C2_U30: Lesson[] = [
           "Remember that the preposition in regência combines with the article, so many of these produce crase: \"visa à inclusão\", \"assistimos à final\", \"obedecer às normas\".",
         ],
         examples: [
-          { es: "O programa visa à inclusão digital dos idosos.", en: "The programme aims at digital inclusion for older people." },
+          { es: "O programa visa à inclusão digital dos idosos.", en: "The program aims at digital inclusion for older people." },
           { es: "A medida implica cortes no orçamento da saúde.", en: "The measure implies cuts in the health budget." },
           { es: "A comissão procedeu à leitura do relatório.", en: "The committee proceeded to read the report." },
           { es: "Milhões de pessoas assistiram à final no domingo.", en: "Millions of people watched the final on Sunday." },
@@ -230,11 +230,11 @@ export const PT_C2_U30: Lesson[] = [
           "Distance needs care: \"ensino a distância\" (unspecified) has no crase in the stricter norm, but \"à distância de dois quilômetros\" does. Never use crase before a masculine noun, a verb or \"uma\": \"a pé\", \"a partir de\", \"a uma reunião\".",
         ],
         examples: [
-          { es: "A reunião vai das 9h às 11h30.", en: "The meeting runs from 9 to 11.30." },
+          { es: "A reunião vai das 9h às 11h30.", en: "The meeting runs from 9 to 11:30." },
           { es: "Ela foi à Bahia e depois a Curitiba.", en: "She went to Bahia and then to Curitiba." },
           { es: "À medida que os dados chegam, atualizamos o painel.", en: "As the data come in, we update the dashboard." },
           { es: "O curso é a distância, mas a prova é presencial.", en: "The course is online, but the exam is in person." },
-          { es: "O hotel fica à distância de cem metros da praia.", en: "The hotel is a hundred metres from the beach." },
+          { es: "O hotel fica à distância de cem metros da praia.", en: "The hotel is a hundred meters from the beach." },
         ],
         checkpoint: [
           {
@@ -272,7 +272,7 @@ export const PT_C2_U30: Lesson[] = [
           { es: "O assunto já se discutiu à exaustão.", en: "The matter has already been discussed exhaustively." },
           { es: "Far-se-á a votação à tarde.", en: "The vote will be held in the afternoon." },
           { es: "Vou lhe mandar o relatório à noite.", en: "I'll send you the report tonight." },
-          { es: "Precisamos do contrato para analisá-lo.", en: "We need the contract to analyse it." },
+          { es: "Precisamos do contrato para analisá-lo.", en: "We need the contract to analyze it." },
         ],
         checkpoint: [
           {
@@ -413,7 +413,7 @@ export const PT_C2_U30: Lesson[] = [
     level: "PT-C2",
     number: 3,
     title: "In Practice: Verb Forms",
-    summary: "Practise future subjunctives (se eu vir, quando ele vier, se mantiver), compounds (interveio, deteve, previu), -ear and -iar verbs, double participles, rare irregulars and the written imperative in running prose.",
+    summary: "Practice future subjunctives (se eu vir, quando ele vier, se mantiver), compounds (interveio, deteve, previu), -ear and -iar verbs, double participles, rare irregulars and the written imperative in running prose.",
     duration: "16 min",
     kind: "drill",
     format: "In Practice",
@@ -472,7 +472,7 @@ export const PT_C2_U30: Lesson[] = [
           { es: "O candidato foi eleito no primeiro turno.", en: "The candidate was elected in the first round." },
           { es: "A gráfica já tinha imprimido os folhetos.", en: "The print shop had already printed the leaflets." },
           { es: "Requeiro a revisão da nota.", en: "I request a review of the grade." },
-          { es: "Leia as instruções e preencha o formulário.", en: "Read the instructions and fill in the form." },
+          { es: "Leia as instruções e preencha o formulário.", en: "Read the instructions and fill out the form." },
         ],
         checkpoint: [
           {
@@ -622,7 +622,7 @@ export const PT_C2_U30: Lesson[] = [
         heading: "The spelling pairs at speed",
         body: [
           "These pairs sound the same and differ only in writing, so speed is the enemy. Use one test per pair. \"Por que\" asks a question or means for which (\"por que você saiu?\", \"o motivo por que saiu\"); \"porque\" answers; \"por quê\" closes a sentence (\"saiu por quê?\"); \"o porquê\" is a noun. \"Mau\" is the opposite of \"bom\", \"mal\" the opposite of \"bem\". \"Há\" points to the past (\"há dois anos\", think of \"faz\"); \"a\" points to the future or to distance (\"daqui a dois dias\", \"a cem metros\").",
-          "\"A fim de\" means in order to, and in speech \"estar a fim de\" means to feel like or to fancy someone. \"Afim\" is an adjective meaning related (\"áreas afins\"). \"Senão\" means otherwise or except (\"corre, senão perde o ônibus\"); \"se não\" is if not (\"se não chover, vamos\").",
+          "\"A fim de\" means in order to, and in speech \"estar a fim de\" means to feel like doing something or to have a crush on someone. \"Afim\" is an adjective meaning related (\"áreas afins\"). \"Senão\" means otherwise or except (\"corre, senão perde o ônibus\"); \"se não\" is if not (\"se não chover, vamos\").",
         ],
         examples: [
           { es: "Ninguém sabe por que o voo atrasou.", en: "Nobody knows why the flight was delayed." },
@@ -672,7 +672,7 @@ export const PT_C2_U30: Lesson[] = [
         examples: [
           { es: "O ex-diretor abriu uma autoescola.", en: "The former director opened a driving school." },
           { es: "O exame de ultrassom é na segunda-feira.", en: "The ultrasound is on Monday." },
-          { es: "Os porta-vozes falaram no fim de semana.", en: "The spokespeople spoke at the weekend." },
+          { es: "Os porta-vozes falaram no fim de semana.", en: "The spokespeople spoke on the weekend." },
           { es: "Eles venderam pés de moleque na festa junina.", en: "They sold peanut brittle at the June festival." },
         ],
         checkpoint: [
@@ -680,7 +680,7 @@ export const PT_C2_U30: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The newborns were born at the weekend.",
+            source: "The newborns were born on the weekend.",
             answer: "Os recém-nascidos nasceram no fim de semana.",
             altAnswers: ["Os bebês recém-nascidos nasceram no fim de semana."],
             explanation: "\"Recém-\" always takes a hyphen; \"fim de semana\" has none.",
@@ -728,7 +728,7 @@ export const PT_C2_U30: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The bus stop is [a hundred metres] from here.",
+        en: "The bus stop is [a hundred meters] from here.",
         sentence: "O ponto de ônibus fica ___ cem metros daqui.",
         answer: "a",
         explanation: "Distance: \"a\", with no h and no crase before a number.",
@@ -870,7 +870,7 @@ export const PT_C2_U30: Lesson[] = [
         examples: [
           { es: "Em relação ao contrato, ainda temos dúvidas.", en: "As regards the contract, we still have questions." },
           { es: "Ela está ansiosa pelo resultado.", en: "She's eager for the result." },
-          { es: "A medida foi aprovada em nível federal.", en: "The measure was approved at federal level." },
+          { es: "A medida foi aprovada em nível federal.", en: "The measure was approved at the federal level." },
           { es: "A chuva forte alagou a Marginal.", en: "The heavy rain flooded the Marginal expressway." },
           { es: "O projeto foi aprovado por ampla maioria.", en: "The bill was passed by a large majority." },
           { es: "A concorrência no setor é acirrada.", en: "Competition in the sector is fierce." },
@@ -911,7 +911,7 @@ export const PT_C2_U30: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into formal Portuguese.",
-        source: "The director made some remarks about the film.",
+        source: "The director made some remarks about the movie.",
         answer: "O diretor teceu alguns comentários sobre o filme.",
         altAnswers: ["A diretora teceu alguns comentários sobre o filme.", "O diretor fez alguns comentários sobre o filme.", "A diretora fez alguns comentários sobre o filme."],
         explanation: "\"Tecer comentários\" is the formal collocation; \"fazer comentários\" is neutral.",
@@ -983,7 +983,7 @@ export const PT_C2_U30: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The traffic on the motorway is heavy today.",
+        source: "The traffic on the highway is heavy today.",
         answer: "O trânsito na rodovia está intenso hoje.",
         altAnswers: ["O trânsito na rodovia está pesado hoje.", "Hoje o trânsito na rodovia está intenso.", "Hoje o trânsito na rodovia está pesado.", "O trânsito na estrada está intenso hoje.", "O trânsito na estrada está pesado hoje."],
         explanation: "Traffic is \"intenso\" or \"pesado\"; both are natural.",
@@ -1031,7 +1031,7 @@ export const PT_C2_U30: Lesson[] = [
           { es: "A medida é justa na medida em que protege os mais pobres.", en: "The measure is fair insofar as it protects the poorest. (Extent.)" },
           { es: "Assistimos ao jogo no bar.", en: "We watched the game at the bar. (\"Assistir a\" = to watch.)" },
           { es: "Os bombeiros assistiram as vítimas.", en: "The firefighters helped the victims. (\"Assistir\" + object = to assist.)" },
-          { es: "O gerente visou o cheque.", en: "The manager countersigned the cheque. (\"Visar\" + object.)" },
+          { es: "O gerente visou o cheque.", en: "The manager countersigned the check. (\"Visar\" + object.)" },
           { es: "O plano visa ao aumento das exportações.", en: "The plan aims at increasing exports. (\"Visar a\".)" },
         ],
         checkpoint: [
@@ -1226,7 +1226,7 @@ export const PT_C2_U30: Lesson[] = [
         ],
         examples: [
           { es: "Eu o vi ontem na padaria.", en: "I saw him yesterday at the bakery. (Speech: \"eu vi ele\".)" },
-          { es: "Há muitas pessoas na fila.", en: "There are a lot of people in the queue. (Speech: \"tem muita gente\".)" },
+          { es: "Há muitas pessoas na fila.", en: "There are a lot of people in the line. (Speech: \"tem muita gente\".)" },
           { es: "Nós chegamos ao escritório às oito.", en: "We got to the office at eight. (Speech: \"a gente chegou no escritório\".)" },
           { es: "Assistimos à novela das nove.", en: "We watched the nine o'clock soap. (Speech: \"assistimos a novela\".)" },
           { es: "Prefiro a praia ao campo.", en: "I prefer the beach to the countryside. (Speech: \"prefiro mais praia do que campo\".)" },
@@ -1235,8 +1235,8 @@ export const PT_C2_U30: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite in the strict norm: \"A gente encontrou ela no cinema.\" (We met her at the cinema.)",
-            source: "We met her at the cinema.",
+            prompt: "Rewrite in the strict norm: \"A gente encontrou ela no cinema.\" (We met her at the movies.)",
+            source: "We met her at the movies.",
             answer: "Nós a encontramos no cinema.",
             altAnswers: ["Encontramo-la no cinema."],
             explanation: "\"A gente\" becomes \"nós\", the verb becomes \"encontramos\", and \"ela\" as an object becomes \"a\", placed before the verb after the subject.",
@@ -1273,7 +1273,7 @@ export const PT_C2_U30: Lesson[] = [
         examples: [
           { es: "A reforma vai ser feita em março.", en: "The renovation is going to be done in March. (Norm: \"far-se-á a reforma\".)" },
           { es: "Eu diria a ele que esperasse.", en: "I would tell him to wait. (Norm: \"dir-lhe-ia que esperasse\".)" },
-          { es: "Me disseram que o voo foi cancelado.", en: "They told me the flight was cancelled. (Norm: \"disseram-me\".)" },
+          { es: "Me disseram que o voo foi cancelado.", en: "They told me the flight was canceled. (Norm: \"disseram-me\".)" },
           { es: "Tem bastante coisa para resolver.", en: "There's quite a lot to sort out. (Norm: \"há bastantes coisas\".)" },
         ],
         checkpoint: [
@@ -1324,7 +1324,7 @@ export const PT_C2_U30: Lesson[] = [
           {
             type: "speak",
             text: "Houve muitos problemas, mas faz uma semana que está tudo bem.",
-            tip: "\"Houve\" has a closed o, like 'ow-vi', with no plural ending.",
+            tip: "\"Houve\" sounds like O-vi, with a closed o (the ou is a single vowel), and has no plural form.",
             explanation: "\"Houve\" and \"faz\" are impersonal: always singular, in every register.",
           },
         ],
@@ -1361,8 +1361,8 @@ export const PT_C2_U30: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in the strict norm: \"Tem bastante vaga no estacionamento.\" (There are quite a lot of spaces in the car park.)",
-        source: "There are quite a lot of spaces in the car park.",
+        prompt: "Rewrite in the strict norm: \"Tem bastante vaga no estacionamento.\" (There are quite a lot of spaces in the parking lot.)",
+        source: "There are quite a lot of spaces in the parking lot.",
         answer: "Há bastantes vagas no estacionamento.",
         altAnswers: ["Existem bastantes vagas no estacionamento.", "Há muitas vagas no estacionamento."],
         explanation: "\"Tem\" becomes \"há\", and \"bastante\" before a plural noun agrees: \"bastantes vagas\".",
@@ -1399,17 +1399,17 @@ export const PT_C2_U30: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite as educated speech: \"Vendem-se apartamentos neste prédio.\" (There are flats for sale in this building.)",
-        source: "There are flats for sale in this building.",
+        prompt: "Rewrite as educated speech: \"Vendem-se apartamentos neste prédio.\" (There are apartments for sale in this building.)",
+        source: "There are apartments for sale in this building.",
         answer: "Tem apartamento à venda neste prédio.",
         altAnswers: ["Tem apartamentos à venda neste prédio.", "Tem apartamento para vender neste prédio.", "Tem apartamentos para vender neste prédio.", "Estão vendendo apartamentos neste prédio.", "Tem apartamento à venda nesse prédio.", "Tem apartamentos à venda nesse prédio."],
-        explanation: "Speech avoids the passive \"se\" with \"tem ... à venda\" or \"estão vendendo\". It does not say \"vende-se apartamentos\" in writing.",
+        explanation: "Speech avoids the passive \"se\" with \"tem ... à venda\" or \"estão vendendo\". The common \"vende-se apartamentos\" breaks the written norm's agreement (\"vendem-se\").",
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say (norm): They told me that the meeting had been cancelled.",
+        prompt: "Put the words in order to say (norm): They told me that the meeting had been canceled.",
         words: ["Disseram-me", "que", "a", "reunião", "tinha", "sido", "cancelada."],
-        translation: "They told me that the meeting had been cancelled.",
+        translation: "They told me that the meeting had been canceled.",
         explanation: "In the norm, no initial clitic: \"disseram-me\".",
       },
       {
@@ -1495,7 +1495,7 @@ export const PT_C2_U30: Lesson[] = [
         examples: [
           { es: "Me passa o chimarrão, guri.", en: "Pass me the chimarrão, kid." },
           { es: "Deixa como a autora escreveu.", en: "Leave it the way the author wrote it." },
-          { es: "Tem gente que nunca saiu do bairro.", en: "There are people who have never left the neighbourhood." },
+          { es: "Tem gente que nunca saiu do bairro.", en: "There are people who have never left the neighborhood." },
           { es: "Se eu vir ele de novo, eu juro que falo.", en: "If I see him again, I swear I'll say something." },
           { es: "Esse ponto a gente discute com a autora.", en: "We'll take that point up with the author." },
         ],
@@ -1639,7 +1639,7 @@ export const PT_C2_U30: Lesson[] = [
           "Leave it: it's just style.",
         ],
         correctIndex: 0,
-        explanation: "\"A gente\" takes a third-person singular verb. \"A gente chegamos\" is stigmatised; unless the author wants that effect, fix only the verb.",
+        explanation: "\"A gente\" takes a third-person singular verb. \"A gente chegamos\" is stigmatized; unless the author wants that effect, fix only the verb.",
       },
       {
         type: "word-order",
@@ -1693,7 +1693,7 @@ export const PT_C2_U30: Lesson[] = [
         ],
         examples: [
           { es: "Seguem anexas as planilhas com os dados do trimestre.", en: "Please find attached the spreadsheets with the quarter's data." },
-          { es: "Peço-lhes que analisem o material até sexta.", en: "I ask you to analyse the material by Friday." },
+          { es: "Peço-lhes que analisem o material até sexta.", en: "I ask you to analyze the material by Friday." },
           { es: "O prazo é curto, haja vista a reunião da diretoria.", en: "The deadline is short, given the board meeting." },
           { es: "A reunião será às 15h, e a presença de todos é necessária.", en: "The meeting will be at 3 p.m., and everyone's presence is required." },
           { es: "Preferimos uma resposta rápida a uma resposta longa.", en: "We prefer a quick answer to a long one." },
@@ -1894,7 +1894,7 @@ export const PT_C2_U30: Lesson[] = [
           "The errors appeared after the proofreader left.",
         ],
         correctIndex: 0,
-        explanation: "\"À medida que\" marks proportion; \"os corrigia\" has proclisis attracted by the subject in educated prose.",
+        explanation: "\"À medida que\" marks proportion; in \"a revisora os corrigia\" the subject is not an attractor, but proclisis after it is the normal Brazilian placement.",
       },
       {
         type: "dictation",
@@ -2004,7 +2004,7 @@ export const PT_C2_U30: Lesson[] = [
       {
         heading: "Word choice: what to avoid",
         body: [
-          "The last section bans the tics that make corporate Portuguese sound empty. \"A nível de\" becomes \"em\" or \"no âmbito de\". The \"gerundismo\" of call centres (\"vou estar enviando\", \"vamos estar analisando\") becomes the plain future: \"vou enviar\", \"vamos analisar\". \"Colaboradores\" for employees is a company choice; decide whether you want it. Collocations go in too: \"tomar uma decisão\", \"cometer um erro\", \"prestar contas\".",
+          "The last section bans the tics that make corporate Portuguese sound empty. \"A nível de\" becomes \"em\" or \"no âmbito de\". The \"gerundismo\" of call centers (\"vou estar enviando\", \"vamos estar analisando\") becomes the plain future: \"vou enviar\", \"vamos analisar\". \"Colaboradores\" for employees is a company choice; decide whether you want it. Collocations go in too: \"tomar uma decisão\", \"cometer um erro\", \"prestar contas\".",
         ],
         examples: [
           { es: "Evite o gerundismo: escreva vamos enviar, não vamos estar enviando.", en: "Avoid gerundismo: write vamos enviar, not vamos estar enviando." },
@@ -2015,8 +2015,8 @@ export const PT_C2_U30: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite this customer-service line without gerundismo: \"Vamos estar analisando o seu pedido.\" (We will analyse your request.)",
-            source: "We will analyse your request.",
+            prompt: "Rewrite this customer-service line without gerundismo: \"Vamos estar analisando o seu pedido.\" (We will analyze your request.)",
+            source: "We will analyze your request.",
             answer: "Vamos analisar o seu pedido.",
             altAnswers: ["Vamos analisar seu pedido.", "Analisaremos o seu pedido.", "Analisaremos seu pedido.", "Nós vamos analisar o seu pedido."],
             explanation: "\"Ir\" + infinitive or the simple future. \"Vamos estar analisando\" is grammatical but is the most mocked tic of Brazilian corporate speech.",
@@ -2163,7 +2163,7 @@ export const PT_C2_U30: Lesson[] = [
           { es: "Seguem anexos os contratos, que já foram impressos e assinados.", en: "Please find attached the contracts, which have already been printed and signed." },
           { es: "Não lhe disseram por que a obra foi adiada há duas semanas?", en: "Didn't they tell you why the work was postponed two weeks ago?" },
           { es: "Quando os guardas-noturnos vierem, entreguem-lhes os guarda-chuvas.", en: "When the night watchmen come, give them the umbrellas." },
-          { es: "O relatório visa à redução das desigualdades socioeconômicas.", en: "The report aims at reducing socio-economic inequalities." },
+          { es: "O relatório visa à redução das desigualdades socioeconômicas.", en: "The report aims at reducing socioeconomic inequalities." },
         ],
         checkpoint: [
           {
@@ -2220,7 +2220,7 @@ export const PT_C2_U30: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The project [aims at] the modernisation of the port.",
+            en: "The project [aims at] the modernization of the port.",
             sentence: "O projeto ___ modernização do porto.",
             answer: "visa à",
             explanation: "\"Visar a\" + \"a modernização\": \"visa à\".",
@@ -2259,7 +2259,7 @@ export const PT_C2_U30: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Nobody told me [why] the flight was cancelled.",
+        en: "Nobody told me [why] the flight was canceled.",
         sentence: "Ninguém me disse ___ o voo foi cancelado.",
         answer: "por que",
         explanation: "Indirect question: \"por que\". \"Ninguém\" attracts \"me\" before the verb.",

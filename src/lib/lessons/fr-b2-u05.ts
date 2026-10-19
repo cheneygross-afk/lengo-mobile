@@ -100,7 +100,7 @@ export const FR_B2_U05: Lesson[] = [
           { es: "J'ai fini ce rapport ce matin.", en: "I finished this report this morning." },
           { es: "Je ne pense pas qu'il ait reçu mon message.", en: "I don't think he got my message." },
           { es: "Il est vrai qu'il a reçu mon message.", en: "It's true that he got my message." },
-          { es: "Pourvu que vous ayez pris les billets !", en: "Let's hope you've taken the tickets!" },
+          { es: "Pourvu que vous ayez pris les billets !", en: "Let's hope you've remembered the tickets!" },
         ],
         checkpoint: [
           {
@@ -202,7 +202,7 @@ export const FR_B2_U05: Lesson[] = [
         prompt: "Translate into French.",
         source: "I don't think they have arrived yet.",
         answer: "Je ne pense pas qu'ils soient déjà arrivés.",
-        altAnswers: ["Je ne pense pas qu'elles soient déjà arrivées.", "Je ne crois pas qu'ils soient déjà arrivés.", "Je ne crois pas qu'elles soient déjà arrivées.", "Je ne pense pas qu'ils soient encore arrivés."],
+        altAnswers: ["Je ne pense pas qu'elles soient déjà arrivées.", "Je ne crois pas qu'ils soient déjà arrivés.", "Je ne crois pas qu'elles soient déjà arrivées."],
         explanation: "Negative opinion → subjunctive; \"arriver\" takes \"être\" and agrees: \"qu'ils soient arrivés\".",
       },
       {
@@ -756,7 +756,7 @@ export const FR_B2_U05: Lesson[] = [
         prompt: "Translate into French.",
         source: "She's afraid her son hasn't passed.",
         answer: "Elle a peur que son fils n'ait pas réussi.",
-        altAnswers: ["Elle a peur que son fils ne soit pas reçu.", "Elle craint que son fils n'ait pas réussi."],
+        altAnswers: ["Elle a peur que son fils n'ait pas été reçu.", "Elle craint que son fils n'ait pas réussi."],
         explanation: "The results are already decided: past subjunctive \"n'ait pas réussi\".",
       },
       {
@@ -866,7 +866,7 @@ export const FR_B2_U05: Lesson[] = [
         examples: [
           { es: "Je suis contente qu'il ait sorti la poubelle sans qu'on le lui demande.", en: "I'm glad he took the bin out without being asked." },
           { es: "Je suis étonné qu'elle soit sortie avec ce temps.", en: "I'm surprised she went out in this weather." },
-          { es: "Il faut que quelqu'un ait monté les valises avant l'arrivée des clients.", en: "Someone must have taken the cases up before the guests arrive." },
+          { es: "Il faut que quelqu'un ait monté les valises avant l'arrivée des clients.", en: "Someone needs to have taken the cases up before the guests arrive." },
           { es: "Je suis ravi que tu aies passé de bonnes vacances.", en: "I'm delighted you had a good holiday." },
           { es: "C'est gentil qu'ils soient passés nous voir.", en: "It's kind of them to have dropped by to see us." },
         ],
@@ -2124,7 +2124,7 @@ export const FR_B2_U05: Lesson[] = [
         prompt: "Translate into French.",
         source: "I'm glad my parents pushed me to learn languages.",
         answer: "Je suis content que mes parents m'aient poussé à apprendre des langues.",
-        altAnswers: ["Je suis contente que mes parents m'aient poussée à apprendre des langues.", "Je suis heureux que mes parents m'aient poussé à apprendre des langues.", "Je suis heureuse que mes parents m'aient poussée à apprendre des langues.", "Je suis contente que mes parents m'aient poussé à apprendre des langues."],
+        altAnswers: ["Je suis contente que mes parents m'aient poussée à apprendre des langues.", "Je suis heureux que mes parents m'aient poussé à apprendre des langues.", "Je suis heureuse que mes parents m'aient poussée à apprendre des langues."],
         explanation: "A present feeling about a finished action: \"m'aient poussé\" (\"poussée\" for a woman, since \"m'\" is the direct object placed before).",
       },
       {
@@ -2187,7 +2187,7 @@ export const FR_B2_U05: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence is correct?",
-            options: ["Je sais qu'il a compris.", "Je sais qu'il ait compris.", "Je ne sais pas qu'il a compris.", "Je sais qu'il aie compris."],
+            options: ["Je sais qu'il a compris.", "Je sais qu'il ait compris.", "Je sais qu'il soit compris.", "Je sais qu'il aie compris."],
             correctIndex: 0,
             explanation: "\"Savoir que\" states a fact: indicative \"a compris\".",
           },
@@ -2247,7 +2247,6 @@ export const FR_B2_U05: Lesson[] = [
             prompt: "A learner wrote « J'espère que tu aies bien dormi. » Write the correct French for: I hope you slept well.",
             source: "I hope you slept well. (to a friend)",
             answer: "J'espère que tu as bien dormi.",
-            altAnswers: ["J'espère que vous avez bien dormi."],
             explanation: "\"Espérer que\" + indicative: \"tu as bien dormi\".",
           },
           {

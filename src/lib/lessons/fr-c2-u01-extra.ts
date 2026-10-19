@@ -21,7 +21,7 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "De facto, c'est le directeur adjoint qui dirige l'établissement.", en: "In practice, it's the deputy director who runs the establishment." },
-          { es: "Si le locataire n'a pas droit à cette aide, a fortiori son colocataire non plus.", en: "If the tenant isn't entitled to this benefit, all the more so his flatmate." },
+          { es: "Si le locataire n'a pas droit à cette aide, a fortiori son colocataire non plus.", en: "If the tenant isn't entitled to this benefit, still less is his flatmate." },
           { es: "En l'espèce, le vendeur avait connaissance du vice caché.", en: "In this case, the seller knew about the hidden defect." },
           { es: "Le véhicule est vendu en l'état, sans garantie.", en: "The vehicle is sold as is, without warranty." },
           { es: "L'avocat a accepté de la conseiller à titre gracieux.", en: "The lawyer agreed to advise her free of charge." },
@@ -69,10 +69,10 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "If the parents can't sign, all the more so the children can't.",
+        source: "If the parents can't sign, still less can the children.",
         answer: "Si les parents ne peuvent pas signer, a fortiori les enfants ne le peuvent pas.",
         altAnswers: ["Si les parents ne peuvent pas signer, les enfants ne le peuvent pas a fortiori.", "Si les parents ne peuvent pas signer, a fortiori les enfants ne peuvent pas le faire.", "Si les parents ne peuvent pas signer, a fortiori les enfants non plus."],
-        explanation: "\"A fortiori\" (no accent on a in careful writing) moves from a stronger case to a weaker one: all the more so.",
+        explanation: "\"A fortiori\" (no accent on a in careful writing) argues from a stronger case to a weaker one: all the more so, or in a negative sentence, still less.",
       },
       {
         type: "fill-blank",
@@ -119,7 +119,7 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "The article states [in the end] that the contract may be renewed.",
+        en: "The article states [at the end] that the contract may be renewed.",
         sentence: "L'article précise ___ que le contrat peut être renouvelé.",
         answer: "in fine",
         explanation: "\"In fine\" refers to the end of a text (\"l'article 3 in fine\") or, more loosely, to finally.",
@@ -291,7 +291,7 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "The sale will take place [provided that] the buyer [obtains] his loan.",
+        en: "The sale will take place [provided that] the buyer obtains his loan.",
         sentence: "La vente aura lieu ___ l'acquéreur obtienne son prêt.",
         answer: "à condition que",
         altAnswers: ["pour autant que", "sous réserve que"],
@@ -317,9 +317,9 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: This letter is worth formal notice.",
+        prompt: "Put the words in order to say: This letter serves as formal notice.",
         words: ["La présente", "vaut", "mise", "en demeure."],
-        translation: "This letter is worth formal notice.",
+        translation: "This letter serves as formal notice.",
         explanation: "\"La présente\" (understood: lettre) refers to the letter itself; \"valoir mise en demeure\" without an article is the fixed phrase.",
       },
       {
@@ -516,7 +516,7 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
       {
         heading: "Recap: the verb goes with the noun",
         body: [
-          "Legal French pairs each noun with one verb, and the wrong verb sounds amateur. You \"portez plainte\" (file a complaint for an offence) but \"déposez une main courante\" (have an incident recorded at the police station without starting proceedings). You \"intentez une action\" (bring an action) against someone, \"interjetez appel\" of a jugement and \"vous pourvoyez en cassation\" against an arrêt.",
+          "Legal French pairs each noun with one verb, and the wrong verb sounds amateur. You \"porter plainte\" (file a complaint for an offence) but \"déposer une main courante\" (have an incident recorded at the police station without starting proceedings). You \"intenter une action\" (bring an action) against someone, \"interjeter appel\" of a jugement and \"se pourvoir en cassation\" against an arrêt.",
           "The court \"fait droit à une demande\" (grants it) or \"déboute\" the claimant \"de sa demande\" (dismisses it: the person is the object, the claim follows with \"de\"). In criminal cases the court \"prononce une peine\", and the convicted person \"purge sa peine\" (serves the sentence). \"Une peine avec sursis\" is suspended; \"une peine ferme\" is to be served.",
         ],
         examples: [
@@ -697,7 +697,7 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into everyday French, speaking to your grandmother as tu.",
+            prompt: "Translate into everyday French, speaking to your grandmother as \"tu\".",
             source: "They want you to send them your bank details before the 15th.",
             answer: "Ils veulent que tu leur envoies ton RIB avant le 15.",
             altAnswers: ["Ils veulent que tu leur envoies tes coordonnées bancaires avant le 15.", "Ils veulent que tu leur envoies ton RIB avant le quinze.", "Ils veulent que tu leur envoies tes coordonnées bancaires avant le quinze.", "Ils veulent que tu leur transmettes ton RIB avant le 15."],
@@ -722,7 +722,7 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into everyday French, speaking to your grandmother as tu.",
+        prompt: "Translate into everyday French, speaking to your grandmother as \"tu\".",
         source: "It's just a check, don't worry.",
         answer: "C'est juste un contrôle, ne t'inquiète pas.",
         altAnswers: ["C'est seulement un contrôle, ne t'inquiète pas.", "C'est juste une vérification, ne t'inquiète pas.", "C'est juste un contrôle, t'inquiète pas.", "Ce n'est qu'un contrôle, ne t'inquiète pas."],
@@ -731,11 +731,11 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into everyday French, speaking to your grandfather as tu.",
+        prompt: "Translate into everyday French, speaking to your grandfather as \"tu\".",
         source: "The health insurance wants you to fill in this form and send it back within a month.",
-        answer: "La Sécu veut que tu remplisses ce formulaire et que tu le renvoies dans un mois.",
-        altAnswers: ["L'Assurance maladie veut que tu remplisses ce formulaire et que tu le renvoies dans un délai d'un mois.", "La Sécu veut que tu remplisses ce formulaire et que tu le renvoies d'ici un mois.", "La Sécu veut que tu remplisses ce formulaire et que tu le renvoies sous un mois.", "L'Assurance maladie veut que tu remplisses ce formulaire et que tu le renvoies d'ici un mois.", "La Sécu veut que tu remplisses ce papier et que tu le renvoies d'ici un mois."],
-        explanation: "\"La Sécu\" is what people call the Assurance maladie. Both verbs after \"vouloir que\" are subjunctive: \"remplisses\", \"renvoies\".",
+        answer: "La Sécu veut que tu remplisses ce formulaire et que tu le renvoies d'ici un mois.",
+        altAnswers: ["L'Assurance maladie veut que tu remplisses ce formulaire et que tu le renvoies dans un délai d'un mois.", "La Sécu veut que tu remplisses ce formulaire et que tu le renvoies dans le mois.", "La Sécu veut que tu remplisses ce formulaire et que tu le renvoies sous un mois.", "L'Assurance maladie veut que tu remplisses ce formulaire et que tu le renvoies d'ici un mois.", "La Sécu veut que tu remplisses ce papier et que tu le renvoies d'ici un mois."],
+        explanation: "\"La Sécu\" is what people call the Assurance maladie. Both verbs after \"vouloir que\" are subjunctive: \"remplisses\", \"renvoies\". 'Within a month' is \"d'ici un mois\" or \"sous un mois\"; \"dans un mois\" would mean in a month's time.",
       },
       {
         type: "fill-blank",
@@ -748,7 +748,7 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into everyday French, speaking to your aunt as tu.",
+        prompt: "Translate into everyday French, speaking to your aunt as \"tu\".",
         source: "The préfecture says your residence permit is ready: you have to go and collect it.",
         answer: "La préfecture dit que ton titre de séjour est prêt : il faut que tu ailles le chercher.",
         altAnswers: ["La préfecture dit que ta carte de séjour est prête : il faut que tu ailles la chercher.", "La préfecture dit que ton titre de séjour est prêt : tu dois aller le chercher.", "La préfecture dit que ta carte de séjour est prête : tu dois aller la chercher.", "La préfecture dit que ton titre de séjour est prêt : il faut que tu ailles le récupérer."],
@@ -757,7 +757,7 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into everyday French, speaking to your grandmother as tu.",
+        prompt: "Translate into everyday French, speaking to your grandmother as \"tu\".",
         source: "You don't have to do anything, it's just for information.",
         answer: "Tu n'as rien à faire, c'est juste pour information.",
         altAnswers: ["Tu n'as rien à faire, c'est juste pour t'informer.", "Tu n'as rien à faire, c'est seulement pour information.", "Tu n'as rien à faire, c'est juste pour te prévenir.", "Tu n'as rien à faire, c'est juste à titre d'information."],
@@ -778,7 +778,7 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into everyday French, speaking to your grandmother as tu.",
+        prompt: "Translate into everyday French, speaking to your grandmother as \"tu\".",
         source: "They overpaid you, so they're asking you to pay back 300 euros.",
         answer: "Ils t'ont trop versé, alors ils te demandent de rembourser 300 euros.",
         altAnswers: ["Ils t'ont trop payé, alors ils te demandent de rembourser 300 euros.", "Ils t'ont versé trop d'argent, donc ils te demandent de rembourser 300 euros.", "Ils t'ont trop versé, donc ils te demandent de rembourser 300 euros.", "Ils t'ont trop payé, donc ils te demandent de rembourser trois cents euros."],
@@ -795,7 +795,7 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into everyday French, speaking to your grandfather as tu.",
+        prompt: "Translate into everyday French, speaking to your grandfather as \"tu\".",
         source: "If you don't answer, they'll consider that you agree.",
         answer: "Si tu ne réponds pas, ils considéreront que tu es d'accord.",
         altAnswers: ["Si tu ne réponds pas, ils vont considérer que tu es d'accord.", "Si tu ne réponds pas, ils vont penser que tu es d'accord.", "Si tu ne réponds pas, ça voudra dire que tu es d'accord."],
@@ -804,7 +804,7 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into everyday French, speaking to your grandmother as tu.",
+        prompt: "Translate into everyday French, speaking to your grandmother as \"tu\".",
         source: "Let's do it together tonight, it'll take ten minutes.",
         answer: "On le fait ensemble ce soir, ça prendra dix minutes.",
         altAnswers: ["Faisons-le ensemble ce soir, ça prendra dix minutes.", "On le fait ensemble ce soir, ça va prendre dix minutes.", "On va le faire ensemble ce soir, ça prendra dix minutes.", "On le fera ensemble ce soir, ça prendra dix minutes."],
@@ -834,7 +834,7 @@ export const FR_C2_U01_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into everyday French, speaking to your grandfather as tu.",
+        prompt: "Translate into everyday French, speaking to your grandfather as \"tu\".",
         source: "It's a reminder: you forgot to declare your income.",
         answer: "C'est une relance : tu as oublié de déclarer tes revenus.",
         altAnswers: ["C'est un rappel : tu as oublié de déclarer tes revenus.", "C'est une relance, tu as oublié de déclarer tes revenus.", "C'est un rappel, tu as oublié de déclarer tes revenus."],

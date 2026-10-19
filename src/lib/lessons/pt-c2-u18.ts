@@ -16,15 +16,15 @@ export const PT_C2_U18: Lesson[] = [
         heading: "Resumo and resenha",
         body: [
           "Brazilian schools and universities treat summary writing as a set of distinct genres with names, and teachers expect you to know which one you are writing. The \"resumo\" is a faithful, condensed version of one text: its thesis, main arguments and conclusion, in your own words, with no opinion. It is written in the third person and the present (\"o autor defende\", \"o artigo analisa\"), it follows the order of the original, and it usually runs to a tenth or a quarter of its length. Academic articles open with a \"resumo\" of a single paragraph, followed by \"palavras-chave\".",
-          "The \"resenha\" (in full, \"resenha crítica\") adds what the resumo forbids: judgement. It identifies the work, summarises it briefly, places it in context and evaluates it. You met the newspaper resenha in Unit 16; the academic one is drier, but has the same skeleton. The trap for English speakers: a \"resenha\" is a review, not a 'résumé', and a CV in Brazil is \"currículo\". And \"resumir\" means to summarise, never to resume, which is \"retomar\".",
+          "The \"resenha\" (in full, \"resenha crítica\") adds what the resumo forbids: judgment. It identifies the work, summarizes it briefly, places it in context and evaluates it. You met the newspaper resenha in Unit 16; the academic one is drier, but has the same skeleton. The trap for English speakers: a \"resenha\" is a review, not a 'résumé', and a CV in Brazil is \"currículo\". And \"resumir\" means to summarize, never to resume, which is \"retomar\".",
           "The opening line usually tells the reader which genre they are holding. \"O artigo trata de...\" and \"o texto discute...\" announce a resumo. \"Em seu novo livro, a historiadora...\" followed by an adjective announces a resenha.",
         ],
         examples: [
-          { es: "O artigo analisa os efeitos do trabalho remoto sobre a produtividade.", en: "The article analyses the effects of remote work on productivity. (resumo)" },
+          { es: "O artigo analisa os efeitos do trabalho remoto sobre a produtividade.", en: "The article analyzes the effects of remote work on productivity. (resumo)" },
           { es: "A autora defende que a desigualdade regional explica o resultado.", en: "The author argues that regional inequality explains the result." },
           { es: "Trata-se de um estudo sobre a migração nordestina para São Paulo.", en: "It is a study of migration from the Northeast to São Paulo." },
-          { es: "Em seu novo livro, a historiadora revisita o Império com rigor e ironia.", en: "In her new book, the historian revisits the Empire with rigour and irony. (resenha)" },
-          { es: "Palavras-chave: mobilidade urbana; transporte público; Recife.", en: "Keywords: urban mobility; public transport; Recife." },
+          { es: "Em seu novo livro, a historiadora revisita o Império com rigor e ironia.", en: "In her new book, the historian revisits the Empire with rigor and irony. (resenha)" },
+          { es: "Palavras-chave: mobilidade urbana; transporte público; Recife.", en: "Keywords: urban mobility; public transportation; Recife." },
           { es: "Vamos retomar a reunião depois do almoço.", en: "Let's resume the meeting after lunch. (not resumir)" },
         ],
         checkpoint: [
@@ -32,7 +32,7 @@ export const PT_C2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, as the first line of a resumo.",
-            source: "The article analyses the effects of remote work on productivity.",
+            source: "The article analyzes the effects of remote work on productivity.",
             answer: "O artigo analisa os efeitos do trabalho remoto sobre a produtividade.",
             altAnswers: ["O artigo analisa os efeitos do trabalho remoto na produtividade.", "O artigo analisa os impactos do trabalho remoto sobre a produtividade.", "O artigo analisa os impactos do trabalho remoto na produtividade.", "O artigo analisa os efeitos do home office sobre a produtividade.", "O artigo analisa os efeitos do home office na produtividade."],
             explanation: "A resumo opens with the text as subject and a present-tense verb of analysis: \"o artigo analisa\". \"Efeitos sobre\" and \"efeitos na\" are both standard.",
@@ -56,7 +56,7 @@ export const PT_C2_U18: Lesson[] = [
             sentence: "Vamos ___ a reunião depois do almoço.",
             answer: "retomar",
             altAnswers: ["recomeçar", "continuar"],
-            explanation: "To resume is \"retomar\". \"Resumir\" is a false friend: it means to summarise.",
+            explanation: "To resume is \"retomar\". \"Resumir\" is a false friend: it means to summarize.",
           },
         ],
       },
@@ -69,7 +69,7 @@ export const PT_C2_U18: Lesson[] = [
         examples: [
           { es: "LIMA, Ana. Mobilidade e cidade. Recife: Mangue, 2021.", en: "The full reference opens the fichamento." },
           { es: "\"A cidade é feita de deslocamentos antes de ser feita de prédios\" (p. 45).", en: "\"The city is made of journeys before it is made of buildings\" (p. 45). (direct quotation)" },
-          { es: "Cap. 1: história do transporte no Recife; papel dos bondes.", en: "Ch. 1: history of transport in Recife; role of the trams. (nominal style)" },
+          { es: "Cap. 1: história do transporte no Recife; papel dos bondes.", en: "Ch. 1: history of transportation in Recife; role of the trams. (nominal style)" },
           { es: "Comentário: visão otimista demais? Comparar com dados do IBGE.", en: "Comment: too optimistic a view? Compare with IBGE data." },
           { es: "A autora sustenta que a mobilidade define a forma da cidade.", en: "The author maintains that mobility defines the shape of the city. (paraphrase)" },
         ],
@@ -87,7 +87,7 @@ export const PT_C2_U18: Lesson[] = [
             type: "multiple-choice",
             question: "In a fichamento, where must your own doubt about the author's argument go?",
             options: [
-              "In a separate, clearly labelled comment.",
+              "In a separate, clearly labeled comment.",
               "Inside the quotation marks, after the quotation.",
               "Mixed into the paraphrase, without a label.",
               "Nowhere: a fichamento has no comments.",
@@ -106,14 +106,14 @@ export const PT_C2_U18: Lesson[] = [
       {
         heading: "Síntese and sumário executivo",
         body: [
-          "A \"síntese\" combines several sources around one question. It is organised by theme, not by source: rather than one paragraph per author, each paragraph takes an issue and shows where the sources agree and differ. Its value is the combination, and it may end with a conclusion of its own, provided the reader can tell the sources' claims from yours. The sentence that announces it names the question and the corpus: \"Os três relatórios examinam a viabilidade da nova linha de metrô.\"",
+          "A \"síntese\" combines several sources around one question. It is organized by theme, not by source: rather than one paragraph per author, each paragraph takes an issue and shows where the sources agree and differ. Its value is the combination, and it may end with a conclusion of its own, provided the reader can tell the sources' claims from yours. The sentence that announces it names the question and the corpus: \"Os três relatórios examinam a viabilidade da nova linha de metrô.\"",
           "The \"sumário executivo\" serves a busy decision-maker. It leads with the conclusion and the recommendation, then gives the supporting points, and fits on one page. It is the genre where Brazilian business writing is most direct: \"Recomenda-se adiar o lançamento para março.\" Choose the genre by the reader: the professor wants a resumo or a resenha, you want a fichamento, the director wants a sumário executivo.",
         ],
         examples: [
           { es: "Os três relatórios examinam a viabilidade da nova linha de metrô.", en: "The three reports examine the feasibility of the new metro line. (síntese)" },
           { es: "Quanto aos custos, as fontes divergem bastante.", en: "As for costs, the sources differ considerably." },
           { es: "Recomenda-se adiar o lançamento para março.", en: "We recommend postponing the launch until March. (sumário executivo)" },
-          { es: "Em síntese, os estudos convergem quanto aos benefícios, mas não quanto aos prazos.", en: "In short, the studies agree on the benefits, but not on the timescales." },
+          { es: "Em síntese, os estudos convergem quanto aos benefícios, mas não quanto aos prazos.", en: "In short, the studies agree on the benefits, but not on the timelines." },
           { es: "O sumário executivo cabe em uma página.", en: "The executive summary fits on one page." },
         ],
         checkpoint: [
@@ -133,20 +133,20 @@ export const PT_C2_U18: Lesson[] = [
             source: "As for costs, the sources differ considerably.",
             answer: "Quanto aos custos, as fontes divergem bastante.",
             altAnswers: ["Quanto aos custos, as fontes divergem muito.", "No que diz respeito aos custos, as fontes divergem bastante.", "Em relação aos custos, as fontes divergem bastante.", "Quanto aos custos, as fontes discordam bastante."],
-            explanation: "\"Quanto a\" + \"os\" = \"quanto aos\" opens a thematic paragraph: the síntese is organised by issue, not by source.",
+            explanation: "\"Quanto a\" + \"os\" = \"quanto aos\" opens a thematic paragraph: the síntese is organized by issue, not by source.",
           },
           {
             type: "listen-choose",
             audio: "Em síntese, os estudos convergem quanto aos benefícios, mas não quanto aos prazos.",
             question: "What does it mean?",
             options: [
-              "In short, the studies agree on the benefits but not on the timescales.",
+              "In short, the studies agree on the benefits but not on the timelines.",
               "In short, the studies disagree about everything.",
               "The studies were all finished on time.",
               "The benefits will arrive before the deadline.",
             ],
             correctIndex: 0,
-            explanation: "\"Convergir quanto a\" is to agree on; \"prazos\" are deadlines or timescales.",
+            explanation: "\"Convergir quanto a\" is to agree on; \"prazos\" are deadlines or timelines.",
           },
         ],
       },
@@ -174,7 +174,7 @@ export const PT_C2_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I need to update my CV.",
+        source: "I need to update my résumé.",
         answer: "Preciso atualizar meu currículo.",
         altAnswers: ["Eu preciso atualizar meu currículo.", "Preciso atualizar o meu currículo.", "Eu preciso atualizar o meu currículo."],
         explanation: "A CV or résumé is \"currículo\". A \"resumo\" is a summary, and a \"resenha\" a review.",
@@ -191,7 +191,7 @@ export const PT_C2_U18: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "In her new book, the historian revisits the Empire [with rigour].",
+        en: "In her new book, the historian revisits the Empire [with rigor].",
         sentence: "Em seu novo livro, a historiadora revisita o Império ___.",
         answer: "com rigor",
         altAnswers: ["com rigor e ironia"],
@@ -231,9 +231,9 @@ export const PT_C2_U18: Lesson[] = [
       {
         type: "speak",
         text: "Em síntese, os estudos convergem quanto aos benefícios, mas divergem quanto aos prazos.",
-        prompt: "Say it in Portuguese: In short, the studies agree on the benefits but differ on the timescales.",
+        prompt: "Say it in Portuguese: In short, the studies agree on the benefits but differ on the timelines.",
         tip: "\"Convergem\" and \"divergem\": the g is soft before e, like the s in measure. Stress \"VER\" in both.",
-        explanation: "\"Convergir\" and \"divergir quanto a\": the pair that organises any síntese.",
+        explanation: "\"Convergir\" and \"divergir quanto a\": the pair that organizes any síntese.",
       },
       {
         type: "translate",
@@ -258,14 +258,14 @@ export const PT_C2_U18: Lesson[] = [
       {
         heading: "From neutral to committed",
         body: [
-          "When you summarise, the reporting verb is where you can betray a source without changing a single fact. \"Afirmar\", \"dizer\" and \"declarar\" are neutral: they report a statement and nothing more. \"Sustentar\" (to maintain) and \"defender\" (to argue for) add that the source supports the claim with reasoning; they suit an academic author who argues a thesis. \"Argumentar que\" is also correct but less frequent in summaries than English argue.",
+          "When you summarize, the reporting verb is where you can betray a source without changing a single fact. \"Afirmar\", \"dizer\" and \"declarar\" are neutral: they report a statement and nothing more. \"Sustentar\" (to maintain) and \"defender\" (to argue for) add that the source supports the claim with reasoning; they suit an academic author who argues a thesis. \"Argumentar que\" is also correct but less frequent in summaries than English argue.",
           "\"Ponderar\" is the most Brazilian of these verbs and has no neat English twin. \"O ministro ponderou que a medida pode atrasar\" means he raised a careful, balancing consideration: he weighed things up aloud. \"Ressalvar\" adds a caveat to something already said: \"a pesquisadora ressalva que a amostra é pequena\". Both are respectful: they present the source as thoughtful.",
           "\"Observar\" and \"lembrar\" (to point out, to remind) introduce a remark the source presents as obvious or well known: \"o autor lembra que a lei é de 1988\". Choosing among these verbs is choosing how intelligent and how certain the source sounds.",
         ],
         examples: [
           { es: "O relatório afirma que as vendas caíram 8% no trimestre.", en: "The report states that sales fell 8% in the quarter." },
           { es: "A autora sustenta que a crise começou antes de 2014.", en: "The author maintains that the crisis began before 2014." },
-          { es: "O ministro ponderou que a medida pode atrasar as obras.", en: "The minister cautioned that the measure might delay the works." },
+          { es: "O ministro ponderou que a medida pode atrasar as obras.", en: "The minister cautioned that the measure might delay construction." },
           { es: "A pesquisadora ressalva que a amostra é pequena.", en: "The researcher points out, as a caveat, that the sample is small." },
           { es: "O autor lembra que a Constituição é de 1988.", en: "The author reminds us that the Constitution dates from 1988." },
           { es: "Os economistas defendem a redução dos juros.", en: "The economists argue for lowering interest rates." },
@@ -284,7 +284,7 @@ export const PT_C2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, using \"ponderar\".",
-            source: "The minister cautioned that the measure might delay the works.",
+            source: "The minister cautioned that the measure might delay construction.",
             answer: "O ministro ponderou que a medida pode atrasar as obras.",
             altAnswers: ["O ministro ponderou que a medida poderia atrasar as obras.", "A ministra ponderou que a medida pode atrasar as obras.", "A ministra ponderou que a medida poderia atrasar as obras."],
             explanation: "\"Ponderar que\" presents a balanced, careful consideration. Brazilian reporting often keeps the present \"pode\" after a past reporting verb when the point is still valid.",
@@ -301,7 +301,7 @@ export const PT_C2_U18: Lesson[] = [
       {
         heading: "Verbs that take sides",
         body: [
-          "Some verbs carry a judgement of the claim or of the speaker. \"Alegar\" (to claim, to allege) keeps the reporter at a distance: it is the verb of courts and of the police page, and it implies the claim is unproven. \"O réu alega que estava em casa\" is right; \"a cientista alega que a água ferve a cem graus\" sounds like an insult. The English claim usually becomes \"afirmar\", and only becomes \"alegar\" when English means claim without proof.",
+          "Some verbs carry a judgment of the claim or of the speaker. \"Alegar\" (to claim, to allege) keeps the reporter at a distance: it is the verb of courts and of the police page, and it implies the claim is unproven. \"O réu alega que estava em casa\" is right; \"a cientista alega que a água ferve a cem graus\" sounds like an insult. The English claim usually becomes \"afirmar\", and only becomes \"alegar\" when English means claim without proof.",
           "\"Admitir\" and \"reconhecer\" report a concession against the source's own interest: \"a empresa admite que houve falhas\". Use them only when the source really conceded. \"Refutar\" means to disprove with arguments: it implies the rebuttal succeeded. If the source merely says no, use \"negar\", \"rejeitar\" or \"contestar\". \"Insinuar\" (to insinuate) reports an implication the source never states, usually with malice.",
           "The grammar moves with the meaning. \"Negar que\" normally takes the subjunctive (\"a empresa nega que tenha havido falhas\"), because the denied fact is presented as unreal; \"admitir que\" and \"alegar que\" take the indicative. Each verb has a noun for the nominal style of summaries: \"a alegação de que\", \"a ressalva de que\", \"a refutação de\".",
         ],
@@ -355,7 +355,7 @@ export const PT_C2_U18: Lesson[] = [
         examples: [
           { es: "Segundo o IBGE, o desemprego caiu pelo terceiro mês seguido.", en: "According to IBGE, unemployment fell for the third month in a row." },
           { es: "Para a autora, o modelo falhou desde o início.", en: "In the author's view, the model failed from the start." },
-          { es: "De acordo com a prefeitura, a obra termina em junho.", en: "According to the city council, the work will finish in June." },
+          { es: "De acordo com a prefeitura, a obra termina em junho.", en: "According to the city government, the work will finish in June." },
           { es: "Na visão do sindicato, o acordo é insuficiente.", en: "In the union's view, the agreement is insufficient." },
         ],
         checkpoint: [
@@ -587,7 +587,7 @@ export const PT_C2_U18: Lesson[] = [
           "Listen for signposts, because Brazilian speakers announce structure: \"primeiro\", \"em segundo lugar\", \"o ponto central é\", \"para resumir\". \"Vou dar um exemplo\" means you can relax; the point has already been made. Within an hour of the talk, expand the notes into a few full sentences while you still remember what the arrows meant.",
         ],
         examples: [
-          { es: "Palestra: Profa. Ana Lima, USP, 14/05.", en: "Talk: Professor Ana Lima, USP, 14 May." },
+          { es: "Palestra: Profa. Ana Lima, USP, 14/05.", en: "Talk: Professor Ana Lima, USP, May 14." },
           { es: "P: ponto central = mobilidade, não asfalto.", en: "Speaker: central point is mobility, not asphalt." },
           { es: "\"A cidade é um organismo\" (12')", en: "\"The city is an organism\" (minute 12)." },
           { es: "Q: e os custos p/ a prefeitura? Resp.: ?", en: "Question: and the costs for the city? Answer: unclear." },
@@ -663,7 +663,7 @@ export const PT_C2_U18: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the noun that replaces the verb in your notes.",
-        en: "[The postponement] of the works (from adiar).",
+        en: "[The postponement] of the construction work (from adiar).",
         sentence: "___ das obras.",
         answer: "Adiamento",
         explanation: "\"Adiar\" gives \"adiamento\"; nominal style is built from such nouns.",
@@ -699,7 +699,7 @@ export const PT_C2_U18: Lesson[] = [
         type: "listen-choose",
         audio: "Em segundo lugar, o custo das obras dobrou.",
         question: "What should you note?",
-        options: ["Point 2: cost of the works doubled.", "Point 2: the works were cancelled.", "The cost fell by half.", "The talk has two parts."],
+        options: ["Point 2: cost of the construction work doubled.", "Point 2: the construction work was canceled.", "The cost fell by half.", "The talk has two parts."],
         correctIndex: 0,
         explanation: "\"Em segundo lugar\" signals point 2; note it as \"2) custo das obras ×2\".",
       },
@@ -717,7 +717,7 @@ export const PT_C2_U18: Lesson[] = [
     level: "PT-C2",
     number: 4,
     title: "Condensing a Text",
-    summary: "Cut a text by half and then by three quarters with deletion, nominalisation and reduced clauses.",
+    summary: "Cut a text by half and then by three quarters with deletion, nominalization and reduced clauses.",
     duration: "20 min",
     kind: "teach",
     sections: [
@@ -729,18 +729,18 @@ export const PT_C2_U18: Lesson[] = [
           "Merge what remains. Two sentences with the same subject become one: \"A prefeitura lançou o edital. A prefeitura espera propostas até maio\" becomes \"A prefeitura lançou o edital e espera propostas até maio.\"",
         ],
         examples: [
-          { es: "É importante destacar que a obra atrasou seis meses.", en: "It is important to point out that the works were six months late. (before)" },
-          { es: "A obra atrasou seis meses.", en: "The works were six months late. (after)" },
+          { es: "É importante destacar que a obra atrasou seis meses.", en: "It is important to point out that the construction work ran six months late. (before)" },
+          { es: "A obra atrasou seis meses.", en: "The construction work ran six months late. (after)" },
           { es: "Vale ressaltar que, de certa forma, o projeto foi um sucesso.", en: "It is worth stressing that, in a way, the project was a success. (before)" },
           { es: "O projeto foi, em parte, um sucesso.", en: "The project was partly a success. (after)" },
-          { es: "A prefeitura lançou o edital e espera propostas até maio.", en: "The city has published the tender and expects bids by May." },
+          { es: "A prefeitura lançou o edital e espera propostas até maio.", en: "The city has issued the call for bids and expects proposals by May." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Condense: \"É importante destacar que a obra atrasou seis meses.\" Translate the condensed version into Portuguese.",
-            source: "The works were six months late.",
+            source: "The construction work ran six months late.",
             answer: "A obra atrasou seis meses.",
             altAnswers: ["As obras atrasaram seis meses.", "A obra teve seis meses de atraso.", "As obras tiveram seis meses de atraso.", "A obra atrasou em seis meses."],
             explanation: "\"É importante destacar que\" adds nothing a summary needs. Cut it and keep the fact.",
@@ -749,10 +749,10 @@ export const PT_C2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Merge into one sentence and translate into Portuguese.",
-            source: "The city has published the tender and expects bids by May.",
+            source: "The city has issued the call for bids and expects proposals by May.",
             answer: "A prefeitura lançou o edital e espera propostas até maio.",
             altAnswers: ["A prefeitura publicou o edital e espera propostas até maio.", "A prefeitura lançou o edital e aguarda propostas até maio.", "A prefeitura publicou o edital e aguarda propostas até maio."],
-            explanation: "Two sentences sharing a subject merge with \"e\", saving a repeated \"a prefeitura\". An \"edital\" is a public notice or tender.",
+            explanation: "Two sentences sharing a subject merge with \"e\", saving a repeated \"a prefeitura\". An \"edital\" is a public notice or call for bids.",
           },
           {
             type: "multiple-choice",
@@ -769,18 +769,18 @@ export const PT_C2_U18: Lesson[] = [
         ],
       },
       {
-        heading: "Nominalisation",
+        heading: "Nominalization",
         body: [
           "The most powerful condensing tool is to turn a clause into a noun phrase. \"Como os preços subiram, as vendas caíram\" (two clauses and a connector) becomes \"a alta dos preços derrubou as vendas\" (one clause, no connector). \"O fato de que o governo demorou para agir\" becomes \"a demora do governo\". Portuguese has a noun for almost every verb: \"aumentar\" gives \"aumento\", \"reduzir\" gives \"redução\", \"decidir\" gives \"decisão\", \"adiar\" gives \"adiamento\", \"cair\" gives \"queda\", \"subir\" gives \"alta\" or \"aumento\", \"demorar\" gives \"demora\".",
           "The subject of the verb becomes a \"de\" phrase (\"o governo demorou\" becomes \"a demora do governo\"), the object often too (\"reduziram os juros\" becomes \"a redução dos juros\"). Two \"de\" phrases in a row can confuse, so use a possessive or a different preposition: \"a decisão do Banco Central de reduzir os juros\".",
-          "Don't overdo it. A paragraph made only of nouns (\"a implementação da revisão da política de redução de custos\") is the bureaucratese Brazilians call \"juridiquês\" or \"burocratês\". Nominalise where it saves a clause, keep a strong verb in each sentence.",
+          "Don't overdo it. A paragraph made only of nouns (\"a implementação da revisão da política de redução de custos\") is the bureaucratese Brazilians call \"juridiquês\" or \"burocratês\". Nominalize where it saves a clause, keep a strong verb in each sentence.",
         ],
         examples: [
           { es: "Como os preços subiram, as vendas caíram.", en: "Because prices went up, sales fell. (before)" },
           { es: "A alta dos preços derrubou as vendas.", en: "The price rise brought sales down. (after)" },
           { es: "A demora do governo agravou a crise.", en: "The government's delay made the crisis worse." },
           { es: "A decisão do Banco Central de reduzir os juros surpreendeu o mercado.", en: "The Central Bank's decision to cut interest rates surprised the market." },
-          { es: "O adiamento da votação favorece a oposição.", en: "The postponement of the vote favours the opposition." },
+          { es: "O adiamento da votação favorece a oposição.", en: "The postponement of the vote favors the opposition." },
           { es: "A queda do desemprego foi menor do que o previsto.", en: "The fall in unemployment was smaller than forecast." },
         ],
         checkpoint: [
@@ -796,7 +796,7 @@ export const PT_C2_U18: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[The postponement] of the vote favours the opposition.",
+            en: "[The postponement] of the vote favors the opposition.",
             sentence: "O ___ da votação favorece a oposição.",
             answer: "adiamento",
             explanation: "\"Adiar\" gives \"adiamento\", masculine, hence \"o adiamento\".",
@@ -906,7 +906,7 @@ export const PT_C2_U18: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[On arriving], the minister cancelled the meeting.",
+        en: "[On arriving], the minister canceled the meeting.",
         sentence: "___, o ministro cancelou a reunião.",
         answer: "Ao chegar",
         explanation: "\"Ao\" + infinitive condenses \"quando chegou\".",
@@ -920,7 +920,7 @@ export const PT_C2_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which version over-nominalises?",
+        question: "Which version over-nominalizes?",
         options: [
           "A implementação da revisão da política de redução de custos ocorreu.",
           "A empresa revisou a política de redução de custos.",
@@ -946,7 +946,7 @@ export const PT_C2_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, with a gerund clause.",
-        source: "The airline cancelled the flights, citing bad weather.",
+        source: "The airline canceled the flights, citing bad weather.",
         answer: "A companhia aérea cancelou os voos, alegando mau tempo.",
         altAnswers: ["A companhia cancelou os voos, alegando mau tempo.", "A companhia aérea cancelou os voos, alegando o mau tempo.", "A companhia aérea cancelou os voos, citando o mau tempo.", "A companhia aérea cancelou os voos, alegando condições climáticas ruins."],
         explanation: "The gerund \"alegando\" attaches the justification without a second sentence. \"Voos\" has no circumflex since the Acordo.",
@@ -1018,10 +1018,10 @@ export const PT_C2_U18: Lesson[] = [
         ],
         examples: [
           { es: "Original: A cidade cresceu muito porque as indústrias atraíram trabalhadores.", en: "Original: The city grew a lot because industry attracted workers." },
-          { es: "Paráfrase: A atração de mão de obra pelas indústrias explica a expansão urbana (SILVA, 2020).", en: "Paraphrase: Industry's attraction of labour explains urban expansion (Silva, 2020)." },
+          { es: "Paráfrase: A atração de mão de obra pelas indústrias explica a expansão urbana (SILVA, 2020).", en: "Paraphrase: Industry's attraction of labor explains urban expansion (Silva, 2020)." },
           { es: "Original: Poucos jovens leem jornais impressos.", en: "Original: Few young people read printed newspapers." },
           { es: "Paráfrase: O jornal impresso tem cada vez menos leitores jovens.", en: "Paraphrase: Print newspapers have fewer and fewer young readers." },
-          { es: "Segundo Silva (2020), a industrialização explica a expansão urbana.", en: "According to Silva (2020), industrialisation explains urban expansion." },
+          { es: "Segundo Silva (2020), a industrialização explica a expansão urbana.", en: "According to Silva (2020), industrialization explains urban expansion." },
         ],
         checkpoint: [
           {
@@ -1043,7 +1043,7 @@ export const PT_C2_U18: Lesson[] = [
               "A cidade aumentou muito porque as indústrias atraíram trabalhadores.",
             ],
             correctIndex: 0,
-            explanation: "Only the first changes the structure (a nominalised cause as subject). The others keep the original skeleton and swap one or two words.",
+            explanation: "Only the first changes the structure (a nominalized cause as subject). The others keep the original skeleton and swap one or two words.",
           },
           {
             type: "speak",
@@ -1074,7 +1074,7 @@ export const PT_C2_U18: Lesson[] = [
             source: "Reduced traffic is a possible effect of the measure.",
             answer: "A redução do trânsito é um efeito possível da medida.",
             altAnswers: ["A redução do trânsito é um possível efeito da medida.", "A diminuição do trânsito é um efeito possível da medida.", "A diminuição do trânsito é um possível efeito da medida."],
-            explanation: "The structure changes (nominalised subject) but the hedge survives as \"possível\".",
+            explanation: "The structure changes (nominalized subject) but the hedge survives as \"possível\".",
           },
           {
             type: "fill-blank",
@@ -1142,7 +1142,7 @@ export const PT_C2_U18: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "According to Silva (2020), industrialisation [explains] urban expansion.",
+        en: "According to Silva (2020), industrialization [explains] urban expansion.",
         sentence: "Segundo Silva (2020), a industrialização ___ a expansão urbana.",
         answer: "explica",
         explanation: "The present tense reports what a published source argues, whatever its date.",
@@ -1196,7 +1196,7 @@ export const PT_C2_U18: Lesson[] = [
     slug: "c2-multi-source-synthesis",
     level: "PT-C2",
     number: 6,
-    title: "Synthesising Several Sources",
+    title: "Synthesizing Several Sources",
     summary: "Compare and combine viewpoints with enquanto, ao passo que, ambos, divergem quanto a and convergem em.",
     duration: "20 min",
     kind: "teach",
@@ -1210,7 +1210,7 @@ export const PT_C2_U18: Lesson[] = [
         ],
         examples: [
           { es: "Enquanto a prefeitura prevê economia, o sindicato aponta custos ocultos.", en: "While the city predicts savings, the union points to hidden costs." },
-          { es: "O primeiro estudo defende o projeto, ao passo que o segundo o critica.", en: "The first study supports the project, whereas the second criticises it." },
+          { es: "O primeiro estudo defende o projeto, ao passo que o segundo o critica.", en: "The first study supports the project, whereas the second criticizes it." },
           { es: "O relatório oficial é otimista. Já a imprensa local desconfia dos números.", en: "The official report is optimistic. The local press, on the other hand, distrusts the figures." },
           { es: "Diferentemente do primeiro autor, a segunda autora usa dados regionais.", en: "Unlike the first author, the second uses regional data." },
           { es: "Em contrapartida, o estudo de Curitiba registra queda nos acidentes.", en: "By contrast, the Curitiba study records a fall in accidents." },
@@ -1220,7 +1220,7 @@ export const PT_C2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, with \"ao passo que\".",
-            source: "The first study supports the project, whereas the second criticises it.",
+            source: "The first study supports the project, whereas the second criticizes it.",
             answer: "O primeiro estudo defende o projeto, ao passo que o segundo o critica.",
             altAnswers: ["O primeiro estudo apoia o projeto, ao passo que o segundo o critica.", "O primeiro estudo defende o projeto, ao passo que o segundo critica o projeto.", "O primeiro estudo defende o projeto, ao passo que o segundo critica-o."],
             explanation: "\"Ao passo que\" (never \"*ao passo em que\") sets two positions side by side; \"o segundo\" stands for \"o segundo estudo\" by ellipsis.",
@@ -1239,7 +1239,7 @@ export const PT_C2_U18: Lesson[] = [
             question: "What does \"já\" mean in \"Já o segundo autor discorda\"?",
             options: ["On the other hand", "Already", "Never again", "Right now"],
             correctIndex: 0,
-            explanation: "At the start of a clause, before a new topic, \"já\" is contrastive. Already would usually follow the verb: \"o autor já discordou\".",
+            explanation: "At the start of a clause, before a new topic, \"já\" is contrastive. In the sense of already, it sits right before the verb, after the subject: \"o autor já discordou\".",
           },
         ],
       },
@@ -1250,8 +1250,8 @@ export const PT_C2_U18: Lesson[] = [
           "Agreement is where errors cluster. \"Ambos\" needs the article before a noun (\"ambos os relatórios\", \"ambas as autoras\") and agrees in gender. \"Tanto X quanto Y\" takes a plural verb when both are subjects. And \"divergir de\" takes \"de\" for the person, \"quanto a\" for the issue: \"o sindicato diverge da prefeitura quanto aos prazos.\"",
         ],
         examples: [
-          { es: "Ambos os relatórios apontam atrasos nas obras.", en: "Both reports point to delays in the works." },
-          { es: "Tanto a prefeitura quanto o sindicato reconhecem o problema.", en: "Both the city and the union recognise the problem." },
+          { es: "Ambos os relatórios apontam atrasos nas obras.", en: "Both reports point to delays in the construction work." },
+          { es: "Tanto a prefeitura quanto o sindicato reconhecem o problema.", en: "Both the city and the union recognize the problem." },
           { es: "As fontes convergem quanto ao diagnóstico.", en: "The sources agree on the diagnosis." },
           { es: "Os especialistas divergem quanto às soluções.", en: "The experts disagree about the solutions." },
           { es: "O sindicato diverge da prefeitura quanto aos prazos.", en: "The union differs from the city over the deadlines." },
@@ -1262,7 +1262,7 @@ export const PT_C2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Both reports point to delays in the works.",
+            source: "Both reports point to delays in the construction work.",
             answer: "Ambos os relatórios apontam atrasos nas obras.",
             altAnswers: ["Os dois relatórios apontam atrasos nas obras.", "Ambos os relatórios indicam atrasos nas obras.", "Os dois relatórios indicam atrasos nas obras.", "Ambos os relatórios apontam atraso nas obras."],
             explanation: "\"Ambos os\" + plural noun + plural verb. \"*Ambos relatórios\" without the article is a common slip in careful writing.",
@@ -1271,7 +1271,7 @@ export const PT_C2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Both the city and the union recognise the problem.",
+            source: "Both the city and the union recognize the problem.",
             answer: "Tanto a prefeitura quanto o sindicato reconhecem o problema.",
             altAnswers: ["Tanto a prefeitura como o sindicato reconhecem o problema.", "Tanto a prefeitura quanto o sindicato admitem o problema.", "A prefeitura e o sindicato reconhecem o problema."],
             explanation: "\"Tanto X quanto Y\" (or \"como\") with a plural verb. English both... and.",
@@ -1287,14 +1287,14 @@ export const PT_C2_U18: Lesson[] = [
         ],
       },
       {
-        heading: "Organising by theme",
+        heading: "Organizing by theme",
         body: [
-          "The structure of a synthesis follows issues, not authors. Instead of three paragraphs (\"O relatório A diz... O relatório B diz... O relatório C diz...\"), write one paragraph per question: costs, timescales, risks. Open each with \"quanto a\", \"no que diz respeito a\" or \"em relação a\", say where the sources converge, then where they diverge, and why if you can (different data, different interests, different dates).",
+          "The structure of a synthesis follows issues, not authors. Instead of three paragraphs (\"O relatório A diz... O relatório B diz... O relatório C diz...\"), write one paragraph per question: costs, timelines, risks. Open each with \"quanto a\", \"no que diz respeito a\" or \"em relação a\", say where the sources converge, then where they diverge, and why if you can (different data, different interests, different dates).",
           "Close with what the combination shows that no single source does: \"Os três textos, lidos em conjunto, sugerem que...\". If you add your own evaluation, sign it (\"a nosso ver\") so the reader can separate it from the sources.",
         ],
         examples: [
           { es: "Quanto aos custos, os relatórios divergem: R$ 2 bilhões segundo um, R$ 3 bilhões segundo o outro.", en: "As for costs, the reports differ: R$2 billion according to one, R$3 billion according to the other." },
-          { es: "No que diz respeito aos prazos, há consenso: nada fica pronto antes de 2027.", en: "Regarding timescales, there is consensus: nothing will be ready before 2027." },
+          { es: "No que diz respeito aos prazos, há consenso: nada fica pronto antes de 2027.", en: "Regarding timelines, there is consensus: nothing will be ready before 2027." },
           { es: "A diferença se explica, em parte, pelas datas dos levantamentos.", en: "The difference is partly explained by the dates of the surveys." },
           { es: "Lidos em conjunto, os três textos sugerem que o risco é subestimado.", en: "Read together, the three texts suggest the risk is underestimated." },
           { es: "A nosso ver, o estudo da universidade é o mais sólido.", en: "In our view, the university's study is the most robust." },
@@ -1312,7 +1312,7 @@ export const PT_C2_U18: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[Regarding] timescales, there is consensus.",
+            en: "[Regarding] timelines, there is consensus.",
             sentence: "___ aos prazos, há consenso.",
             answer: "Quanto",
             altAnswers: ["Em relação", "No que diz respeito"],
@@ -1367,7 +1367,7 @@ export const PT_C2_U18: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[Both] authors recognise the limits of the data.",
+        en: "[Both] authors recognize the limits of the data.",
         sentence: "___ as autoras reconhecem os limites dos dados.",
         answer: "Ambas",
         explanation: "\"Ambas as autoras\": \"ambos\" agrees in gender and keeps the article.",
@@ -1409,7 +1409,7 @@ export const PT_C2_U18: Lesson[] = [
         type: "speak",
         text: "Enquanto a prefeitura prevê economia, o sindicato aponta custos ocultos.",
         prompt: "Say it in Portuguese: While the city predicts savings, the union points to hidden costs.",
-        tip: "\"Economia\": e-co-no-MI-a, four syllables after the e. \"Ocultos\": the l is a w: o-CUW-tus.",
+        tip: "\"Economia\": e-co-no-MI-a, five syllables, stressed on MI. \"Ocultos\": the l is a w: o-CUW-tus.",
         explanation: "The basic contrastive sentence of a synthesis.",
       },
       {
@@ -1441,10 +1441,10 @@ export const PT_C2_U18: Lesson[] = [
         ],
         examples: [
           { es: "Recomenda-se não renovar o contrato com a fornecedora atual.", en: "We recommend not renewing the contract with the current supplier." },
-          { es: "Conclui-se que a filial de Recife é viável a partir de 2026.", en: "We conclude that the Recife branch is viable from 2026." },
+          { es: "Conclui-se que a filial do Recife é viável a partir de 2028.", en: "We conclude that the Recife branch is viable from 2028." },
           { es: "A análise indica que o custo ficará 15% acima do previsto.", en: "The analysis indicates the cost will be 15% above forecast." },
-          { es: "Riscos: atraso na licença ambiental e alta do dólar.", en: "Risks: a delay in the environmental licence and a rise in the dollar." },
-          { es: "Próximo passo: aprovação da diretoria até 30 de junho.", en: "Next step: board approval by 30 June." },
+          { es: "Riscos: atraso na licença ambiental e alta do dólar.", en: "Risks: a delay in the environmental license and a rise in the dollar." },
+          { es: "Próximo passo: aprovação da diretoria até 30 de junho.", en: "Next step: board approval by June 30." },
         ],
         checkpoint: [
           {
@@ -1459,7 +1459,7 @@ export const PT_C2_U18: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[Next step]: board approval by 30 June.",
+            en: "[Next step]: board approval by June 30.",
             sentence: "___: aprovação da diretoria até 30 de junho.",
             answer: "Próximo passo",
             altAnswers: ["Próximos passos"],
@@ -1469,7 +1469,7 @@ export const PT_C2_U18: Lesson[] = [
             type: "multiple-choice",
             question: "Which sentence should open a sumário executivo on a new branch?",
             options: [
-              "Conclui-se que a filial de Recife é viável a partir de 2026.",
+              "Conclui-se que a filial do Recife é viável a partir de 2028.",
               "A empresa foi fundada em 1998, em Campinas.",
               "Este documento foi elaborado pela equipe de planejamento.",
               "O Nordeste tem passado por grandes transformações.",
@@ -1482,15 +1482,15 @@ export const PT_C2_U18: Lesson[] = [
       {
         heading: "The language of the summary",
         body: [
-          "Every sentence carries information, so the condensing tools of this unit do the work: nominalisation (\"redução de custos de 12%\"), reduced clauses, figures instead of adjectives (\"queda de 8%\", not \"uma queda significativa\"). Bullets in a sumário executivo are noun phrases or short sentences, parallel in form: all nouns or all verbs.",
+          "Every sentence carries information, so the condensing tools of this unit do the work: nominalization (\"redução de custos de 12%\"), reduced clauses, figures instead of adjectives (\"queda de 8%\", not \"uma queda significativa\"). Bullets in a sumário executivo are noun phrases or short sentences, parallel in form: all nouns or all verbs.",
           "Hedge once, precisely, where the uncertainty actually is (\"caso o câmbio se mantenha\"), not in every line. The phrases \"cabe destacar\" and \"vale ressaltar\", cut from a summary, can earn their place here exactly once: to flag the single point the director must not miss.",
         ],
         examples: [
           { es: "Redução de custos estimada em 12% no primeiro ano.", en: "Cost reduction estimated at 12% in the first year." },
           { es: "Queda de 8% nas vendas do Sul em 2024.", en: "8% fall in sales in the South in 2024." },
           { es: "O retorno ocorre em três anos, caso o câmbio se mantenha.", en: "Payback comes in three years, provided the exchange rate holds." },
-          { es: "Cabe destacar que a licença ambiental ainda não foi emitida.", en: "It should be stressed that the environmental licence has not yet been issued." },
-          { es: "Vantagens: menor custo logístico, mão de obra qualificada, incentivos fiscais.", en: "Advantages: lower logistics costs, skilled labour, tax incentives." },
+          { es: "Cabe destacar que a licença ambiental ainda não foi emitida.", en: "It should be stressed that the environmental license has not yet been issued." },
+          { es: "Vantagens: menor custo logístico, mão de obra qualificada, incentivos fiscais.", en: "Advantages: lower logistics costs, skilled labor, tax incentives." },
         ],
         checkpoint: [
           {
@@ -1522,7 +1522,7 @@ export const PT_C2_U18: Lesson[] = [
               "To end the summary.",
             ],
             correctIndex: 0,
-            explanation: "In a summary \"cabe destacar\" is justified only for the decisive point, here a missing licence.",
+            explanation: "In a summary \"cabe destacar\" is justified only for the decisive point, here a missing license.",
           },
         ],
       },
@@ -1572,16 +1572,16 @@ export const PT_C2_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, as an executive summary line.",
-        source: "We conclude that the Recife branch is viable from 2026.",
-        answer: "Conclui-se que a filial de Recife é viável a partir de 2026.",
-        altAnswers: ["Concluímos que a filial de Recife é viável a partir de 2026.", "Conclui-se que a filial do Recife é viável a partir de 2026.", "Concluímos que a filial do Recife é viável a partir de 2026.", "Conclui-se que a filial em Recife é viável a partir de 2026."],
+        source: "We conclude that the Recife branch is viable from 2028.",
+        answer: "Conclui-se que a filial do Recife é viável a partir de 2028.",
+        altAnswers: ["Concluímos que a filial do Recife é viável a partir de 2028.", "Conclui-se que a filial de Recife é viável a partir de 2028.", "Concluímos que a filial de Recife é viável a partir de 2028.", "Conclui-se que a filial em Recife é viável a partir de 2028."],
         explanation: "\"Conclui-se que\" + indicative. Recifenses usually say \"do Recife\", with the article; both are accepted.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, as a nominal bullet point.",
-        source: "Risks: a delay in the environmental licence and a rise in the dollar.",
+        source: "Risks: a delay in the environmental license and a rise in the dollar.",
         answer: "Riscos: atraso na licença ambiental e alta do dólar.",
         altAnswers: ["Riscos: atraso da licença ambiental e alta do dólar.", "Riscos: atraso na licença ambiental e valorização do dólar.", "Riscos: atraso na licença ambiental e aumento do dólar."],
         explanation: "Parallel noun phrases without articles: \"atraso\" and \"alta\".",
@@ -1669,7 +1669,7 @@ export const PT_C2_U18: Lesson[] = [
     level: "PT-C2",
     number: 8,
     title: "Contrast Clinic: Report or Interpret?",
-    summary: "Tell a neutral summary from an evaluated synthesis, and find where the summariser's opinion slips in.",
+    summary: "Tell a neutral summary from an evaluated synthesis, and find where the summarizer's opinion slips in.",
     duration: "18 min",
     kind: "drill",
     format: "Contrast Clinic",
@@ -1677,11 +1677,11 @@ export const PT_C2_U18: Lesson[] = [
       {
         heading: "The neutral summary",
         body: [
-          "A neutral summary reports. Its marks: attribution in every sentence or paragraph (\"segundo o relatório\", \"a autora afirma\"), neutral reporting verbs, the source's own hedges kept intact, no evaluative adjectives or adverbs of the summariser's, and the source's proportions respected: what took half the original takes about half the summary.",
+          "A neutral summary reports. Its marks: attribution in every sentence or paragraph (\"segundo o relatório\", \"a autora afirma\"), neutral reporting verbs, the source's own hedges kept intact, no evaluative adjectives or adverbs of the summarizer's, and the source's proportions respected: what took half the original takes about half the summary.",
           "Neutral doesn't mean timid. \"O estudo conclui que a medida fracassou\" is neutral, because the conclusion belongs to the study. What would break neutrality is \"o estudo demonstra, com razão, que a medida fracassou\": \"com razão\" is your verdict.",
         ],
         examples: [
-          { es: "Segundo o relatório, a medida reduziu as filas em 30%.", en: "According to the report, the measure cut queues by 30%." },
+          { es: "Segundo o relatório, a medida reduziu as filas em 30%.", en: "According to the report, the measure cut lines by 30%." },
           { es: "O estudo conclui que a medida fracassou.", en: "The study concludes that the measure failed. (still neutral)" },
           { es: "O estudo demonstra, com razão, que a medida fracassou.", en: "The study rightly demonstrates that the measure failed. (evaluated)" },
           { es: "A autora afirma que os dados ainda são preliminares.", en: "The author states that the data are still preliminary." },
@@ -1695,20 +1695,20 @@ export const PT_C2_U18: Lesson[] = [
             source: "The study concludes that the measure failed.",
             answer: "O estudo conclui que a medida fracassou.",
             altAnswers: ["O estudo conclui que a medida não deu certo.", "A pesquisa conclui que a medida fracassou.", "O estudo chega à conclusão de que a medida fracassou."],
-            explanation: "The judgement is the study's, attributed by \"conclui\": still a neutral report.",
+            explanation: "The judgment is the study's, attributed by \"conclui\": still a neutral report.",
           },
           {
             type: "multiple-choice",
             question: "Which phrase turns a neutral summary into an evaluation?",
             options: ["com razão", "segundo o relatório", "a autora afirma", "o estudo conclui"],
             correctIndex: 0,
-            explanation: "\"Com razão\" (rightly) is the summariser agreeing. The others only attribute.",
+            explanation: "\"Com razão\" (rightly) is the summarizer agreeing. The others only attribute.",
           },
           {
             type: "listen-choose",
             audio: "Segundo o relatório, a medida reduziu as filas em trinta por cento.",
             question: "Is this report or interpretation?",
-            options: ["A neutral report of the source.", "The summariser's own opinion.", "An ironic comment.", "A recommendation."],
+            options: ["A neutral report of the source.", "The summarizer's own opinion.", "An ironic comment.", "A recommendation."],
             correctIndex: 0,
             explanation: "\"Segundo o relatório\" attributes the figure, and no evaluation is added.",
           },
@@ -1717,7 +1717,7 @@ export const PT_C2_U18: Lesson[] = [
       {
         heading: "The evaluated synthesis",
         body: [
-          "Sometimes the reader wants your judgement: which source is stronger, what is missing, what to believe. An evaluated synthesis states it openly and argues for it: \"o argumento mais sólido é o do segundo estudo, que usa dados de dez anos\"; \"a lacuna dos três textos é a ausência de dados regionais\"; \"de forma convincente\", \"de modo pouco convincente\".",
+          "Sometimes the reader wants your judgment: which source is stronger, what is missing, what to believe. An evaluated synthesis states it openly and argues for it: \"o argumento mais sólido é o do segundo estudo, que usa dados de dez anos\"; \"a lacuna dos três textos é a ausência de dados regionais\"; \"de forma convincente\", \"de modo pouco convincente\".",
           "The rule is visibility. Evaluation goes in sentences that are clearly yours (\"a nosso ver\", \"na avaliação desta equipe\", \"parece-nos\"), ideally in a separate paragraph after the report, so the reader can disagree with you without distrusting your summary.",
         ],
         examples: [
@@ -1763,7 +1763,7 @@ export const PT_C2_U18: Lesson[] = [
         examples: [
           { es: "O estudo ouviu 200 pessoas.", en: "The study surveyed 200 people. (neutral)" },
           { es: "O estudo ouviu apenas 200 pessoas.", en: "The study surveyed only 200 people. (implied criticism)" },
-          { es: "O ministro alega que a obra está no prazo.", en: "The minister claims the works are on schedule. (implied doubt)" },
+          { es: "O ministro alega que a obra está no prazo.", en: "The minister claims the construction work is on schedule. (implied doubt)" },
           { es: "Curiosamente, o relatório não menciona os custos.", en: "Curiously, the report doesn't mention the costs. (insinuation)" },
           { es: "O relatório não menciona os custos.", en: "The report doesn't mention the costs. (neutral)" },
         ],
@@ -1771,8 +1771,8 @@ export const PT_C2_U18: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into Portuguese, neutrally, without the summariser's opinion.",
-            source: "The minister states that the works are on schedule.",
+            prompt: "Translate into Portuguese, neutrally, without the summarizer's opinion.",
+            source: "The minister states that the construction work is on schedule.",
             answer: "O ministro afirma que a obra está no prazo.",
             altAnswers: ["O ministro afirma que as obras estão no prazo.", "O ministro diz que a obra está no prazo.", "O ministro diz que as obras estão no prazo.", "O ministro declara que a obra está dentro do prazo.", "O ministro afirma que a obra está dentro do prazo."],
             explanation: "\"Afirma\" reports without doubt. \"Alega\" would plant the reporter's suspicion.",
@@ -1801,7 +1801,7 @@ export const PT_C2_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, as a neutral summary.",
-        source: "According to the report, the measure cut queues by 30%.",
+        source: "According to the report, the measure cut lines by 30%.",
         answer: "Segundo o relatório, a medida reduziu as filas em 30%.",
         altAnswers: ["De acordo com o relatório, a medida reduziu as filas em 30%.", "Segundo o relatório, a medida reduziu em 30% as filas.", "Segundo o relatório, a medida diminuiu as filas em 30%."],
         explanation: "\"Reduzir em\" + percentage gives the size of the cut.",
@@ -1840,7 +1840,7 @@ export const PT_C2_U18: Lesson[] = [
         sentence: "O estudo mostra, ___, que o plano fracassou.",
         answer: "com razão",
         altAnswers: ["acertadamente"],
-        explanation: "\"Com razão\" adds the summariser's agreement: fine in an evaluation, out of place in a neutral summary.",
+        explanation: "\"Com razão\" adds the summarizer's agreement: fine in an evaluation, out of place in a neutral summary.",
       },
       {
         type: "fill-blank",
@@ -1867,12 +1867,12 @@ export const PT_C2_U18: Lesson[] = [
           "O sindicato alega, sem provas, que o acordo é insuficiente.",
         ],
         correctIndex: 0,
-        explanation: "Only \"afirma\" adds nothing. \"Insinua\", \"infelizmente\" and \"sem provas\" are the summariser's verdicts.",
+        explanation: "Only \"afirma\" adds nothing. \"Insinua\", \"infelizmente\" and \"sem provas\" are the summarizer's verdicts.",
       },
       {
         type: "dictation",
         audio: "A lacuna dos três textos é a ausência de dados regionais.",
-        explanation: "\"Lacuna\" and \"ausência\": evaluation, openly signalled.",
+        explanation: "\"Lacuna\" and \"ausência\": evaluation, openly signaled.",
       },
       {
         type: "speak",
@@ -1897,7 +1897,7 @@ export const PT_C2_U18: Lesson[] = [
     level: "PT-C2",
     number: 9,
     title: "Dialogue Lab: O Briefing",
-    summary: "An analyst briefs a director on three reports in the lift before a meeting.",
+    summary: "An analyst briefs a director on three reports in the elevator before a meeting.",
     duration: "18 min",
     kind: "drill",
     format: "Dialogue Lab",
@@ -1905,11 +1905,11 @@ export const PT_C2_U18: Lesson[] = [
       {
         heading: "Going up: the bottom line",
         body: [
-          "An office building on Avenida Paulista, 8:52 a.m. Cláudia, a director, has a board meeting on the 18th floor at nine. Mariana, an analyst, has read the three reports on opening a branch in Recife: a consultancy's market study, the finance team's cost estimate and HR's survey of the local job market. She has six floors' worth of lift. Watch her lead with the recommendation and keep each source attributed.",
+          "An office building on Avenida Paulista, 8:52 a.m. Cláudia, a director, has a board meeting on the 18th floor at nine. Mariana, an analyst, has read the three reports on opening a branch in Recife: a consultancy's market study, the finance team's cost estimate and HR's survey of the local job market. She has six floors' worth of elevator ride. Watch her lead with the recommendation and keep each source attributed.",
         ],
         examples: [
           { es: "Cláudia: Mariana, me dá a versão curta. Abrimos ou não?", en: "Cláudia: Mariana, give me the short version. Do we open or not?" },
-          { es: "Mariana: Abrimos, mas só no segundo semestre de 2026.", en: "Mariana: We open, but only in the second half of 2026." },
+          { es: "Mariana: Abrimos, mas só no segundo semestre de 2028.", en: "Mariana: We open, but only in the second half of 2028." },
           { es: "Mariana: Os três relatórios convergem quanto à viabilidade.", en: "Mariana: The three reports agree on feasibility." },
           { es: "Mariana: Eles divergem é quanto ao prazo.", en: "Mariana: Where they differ is on the timing." },
           { es: "Cláudia: Tá. E por que não antes?", en: "Cláudia: OK. And why not sooner?" },
@@ -1919,9 +1919,9 @@ export const PT_C2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, as Mariana.",
-            source: "We open, but only in the second half of 2026.",
-            answer: "Abrimos, mas só no segundo semestre de 2026.",
-            altAnswers: ["Abrimos, mas só no segundo semestre de dois mil e vinte e seis.", "Vamos abrir, mas só no segundo semestre de 2026.", "Abrimos, mas apenas no segundo semestre de 2026.", "A gente abre, mas só no segundo semestre de 2026."],
+            source: "We open, but only in the second half of 2028.",
+            answer: "Abrimos, mas só no segundo semestre de 2028.",
+            altAnswers: ["Abrimos, mas só no segundo semestre de dois mil e vinte e oito.", "Vamos abrir, mas só no segundo semestre de 2028.", "Abrimos, mas apenas no segundo semestre de 2028.", "A gente abre, mas só no segundo semestre de 2028."],
             explanation: "The answer to the director's question comes first, in five words. \"Semestre\" is the half-year.",
           },
           {
@@ -1931,7 +1931,7 @@ export const PT_C2_U18: Lesson[] = [
             sentence: "Os três relatórios ___ quanto à viabilidade.",
             answer: "convergem",
             altAnswers: ["concordam"],
-            explanation: "\"Convergir quanto a\": even in a lift, Mariana uses the precise verb of synthesis.",
+            explanation: "\"Convergir quanto a\": even in an elevator, Mariana uses the precise verb of synthesis.",
           },
           {
             type: "multiple-choice",
@@ -1953,7 +1953,7 @@ export const PT_C2_U18: Lesson[] = [
           "Cláudia asks the hard question and Mariana compares the sources in two sentences, with \"enquanto\" and \"já\", attributing each position. She reports the HR survey's caveat faithfully, with \"ressalva\", and doesn't upgrade the consultancy's hedge.",
         ],
         examples: [
-          { es: "Mariana: Enquanto a consultoria recomenda abrir já em 2025, o financeiro prefere esperar.", en: "Mariana: While the consultancy recommends opening as early as 2025, finance prefers to wait." },
+          { es: "Mariana: Enquanto a consultoria recomenda abrir já em 2027, o financeiro prefere esperar.", en: "Mariana: While the consultancy recommends opening as early as 2027, finance prefers to wait." },
           { es: "Mariana: O financeiro calcula um custo 15% acima do previsto.", en: "Mariana: Finance estimates a cost 15% above forecast." },
           { es: "Mariana: Já o RH ressalva que falta mão de obra qualificada em TI.", en: "Mariana: HR, on the other hand, points out that skilled IT staff are scarce." },
           { es: "Cláudia: E a consultoria tem certeza da demanda?", en: "Cláudia: And is the consultancy sure about demand?" },
@@ -1964,9 +1964,9 @@ export const PT_C2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, as Mariana.",
-            source: "While the consultancy recommends opening in 2025, finance prefers to wait.",
-            answer: "Enquanto a consultoria recomenda abrir em 2025, o financeiro prefere esperar.",
-            altAnswers: ["Enquanto a consultoria recomenda abrir já em 2025, o financeiro prefere esperar.", "Enquanto a consultoria recomenda a abertura em 2025, o financeiro prefere esperar.", "A consultoria recomenda abrir em 2025, ao passo que o financeiro prefere esperar.", "Enquanto a consultoria recomenda abrir em 2025, a área financeira prefere esperar."],
+            source: "While the consultancy recommends opening in 2027, finance prefers to wait.",
+            answer: "Enquanto a consultoria recomenda abrir em 2027, o financeiro prefere esperar.",
+            altAnswers: ["Enquanto a consultoria recomenda abrir já em 2027, o financeiro prefere esperar.", "Enquanto a consultoria recomenda a abertura em 2027, o financeiro prefere esperar.", "A consultoria recomenda abrir em 2027, ao passo que o financeiro prefere esperar.", "Enquanto a consultoria recomenda abrir em 2027, a área financeira prefere esperar."],
             explanation: "\"Enquanto\" contrasts the two positions. \"O financeiro\" is office shorthand for the finance department.",
           },
           {
@@ -1985,7 +1985,7 @@ export const PT_C2_U18: Lesson[] = [
             options: [
               "Not upgrading the consultancy's hedge into certainty.",
               "Hiding the consultancy's opinion.",
-              "Criticising the consultancy.",
+              "Criticizing the consultancy.",
               "Changing the subject.",
             ],
             correctIndex: 0,
@@ -1996,12 +1996,12 @@ export const PT_C2_U18: Lesson[] = [
       {
         heading: "The questions at the door",
         body: [
-          "The lift reaches the 18th floor. Cláudia asks for Mariana's own view, and Mariana signs it as hers. They close with the next step and the deadline, and the polite formulas of office Portuguese.",
+          "The elevator reaches the 18th floor. Cláudia asks for Mariana's own view, and Mariana signs it as hers. They close with the next step and the deadline, and the polite formulas of office Portuguese.",
         ],
         examples: [
           { es: "Cláudia: E você, o que acha?", en: "Cláudia: And you, what do you think?" },
           { es: "Mariana: A meu ver, o risco maior é a mão de obra, não o custo.", en: "Mariana: In my view, the biggest risk is staffing, not cost." },
-          { es: "Mariana: Em suma: viável, mas em 2026, e com um plano de contratação.", en: "Mariana: In short: feasible, but in 2026, and with a hiring plan." },
+          { es: "Mariana: Em suma: viável, mas em 2028, e com um plano de contratação.", en: "Mariana: In short: feasible, but in 2028, and with a hiring plan." },
           { es: "Cláudia: Ótimo. Me manda isso por escrito até o meio-dia?", en: "Cláudia: Great. Can you send me that in writing by noon?" },
           { es: "Mariana: Claro. Te mando um resumo de uma página.", en: "Mariana: Of course. I'll send you a one-page summary." },
         ],
@@ -2019,9 +2019,9 @@ export const PT_C2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, as Mariana's summing-up.",
-            source: "In short: feasible, but in 2026, and with a hiring plan.",
-            answer: "Em suma: viável, mas em 2026, e com um plano de contratação.",
-            altAnswers: ["Resumindo: viável, mas em 2026, e com um plano de contratação.", "Em resumo: viável, mas em 2026, e com um plano de contratação.", "Em suma: é viável, mas em 2026, e com um plano de contratação."],
+            source: "In short: feasible, but in 2028, and with a hiring plan.",
+            answer: "Em suma: viável, mas em 2028, e com um plano de contratação.",
+            altAnswers: ["Resumindo: viável, mas em 2028, e com um plano de contratação.", "Em resumo: viável, mas em 2028, e com um plano de contratação.", "Em suma: é viável, mas em 2028, e com um plano de contratação."],
             explanation: "A nominal summary line: a director can repeat it word for word in the meeting.",
           },
           {
@@ -2086,9 +2086,9 @@ export const PT_C2_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Cláudia asks \"Abrimos ou não?\". Which answer suits a lift briefing?",
+        question: "Cláudia asks \"Abrimos ou não?\". Which answer suits an elevator briefing?",
         options: [
-          "Abrimos, mas só no segundo semestre de 2026.",
+          "Abrimos, mas só no segundo semestre de 2028.",
           "Bom, a consultoria foi contratada em março e fez entrevistas em três cidades...",
           "Depende de muitos fatores, é complicado.",
           "Ainda não li os relatórios.",
@@ -2223,7 +2223,7 @@ export const PT_C2_U18: Lesson[] = [
           { es: "Errado: Como era de se esperar, o estudo ouviu apenas 200 pessoas. Certo: O estudo ouviu 200 pessoas.", en: "Wrong: As was to be expected, the study only surveyed 200 people. Right: The study surveyed 200 people." },
           { es: "Ambos os relatórios citam o mesmo levantamento.", en: "Both reports cite the same survey." },
           { es: "Tanto a prefeitura quanto o estado concordam com o prazo.", en: "Both the city and the state agree on the deadline." },
-          { es: "O primeiro texto é favorável, ao passo que o segundo é crítico.", en: "The first text is favourable, whereas the second is critical." },
+          { es: "O primeiro texto é favorável, ao passo que o segundo é crítico.", en: "The first text is favorable, whereas the second is critical." },
         ],
         checkpoint: [
           {
@@ -2275,7 +2275,7 @@ export const PT_C2_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "The trainee wrote \"ao passo em que\". Translate the corrected sentence.",
-        source: "The first text is favourable, whereas the second is critical.",
+        source: "The first text is favorable, whereas the second is critical.",
         answer: "O primeiro texto é favorável, ao passo que o segundo é crítico.",
         altAnswers: ["O primeiro texto é favorável, enquanto o segundo é crítico.", "O primeiro texto é favorável, enquanto que o segundo é crítico.", "O primeiro texto é favorável; já o segundo é crítico."],
         explanation: "The phrase is \"ao passo que\". \"Enquanto\" or a contrastive \"já\" also work.",
@@ -2332,9 +2332,9 @@ export const PT_C2_U18: Lesson[] = [
         question: "What does the conditional \"teria reduzido\" signal?",
         options: [
           "The claim is the report's and is not confirmed.",
-          "The measure will reduce violence in future.",
+          "The measure will reduce violence in the future.",
           "The writer is certain the measure worked.",
-          "The measure was cancelled.",
+          "The measure was canceled.",
         ],
         correctIndex: 0,
         explanation: "The \"futuro do pretérito\" reports an unconfirmed claim, a standard device of Brazilian journalism.",
@@ -2370,14 +2370,14 @@ export const PT_C2_U18: Lesson[] = [
       {
         heading: "Read and note",
         body: [
-          "Your mission: Porto Alegre's secretary for mobility must decide this week whether to build a protected bike lane along Avenida Ipiranga. On your desk are three short texts: a city traffic study, a letter from the local shopkeepers' association, and an article by a university research group. The secretary has five minutes before the press conference.",
+          "Your mission: Porto Alegre's secretary for mobility must decide this week whether to build a protected bike lane along Avenida Ipiranga. On your desk are three short texts: a city traffic study, a letter from the local merchants' association, and an article by a university research group. The secretary has five minutes before the press conference.",
           "First pass: a fichamento of each text in nominal style, with source and stance. Note the claim, the evidence, the hedge and the reporting verb you will use, so the attribution is ready before you start writing.",
         ],
         examples: [
           { es: "Estudo da prefeitura: ciclovia → trânsito ↓ 5% (estimativa).", en: "City study: bike lane leads to traffic down 5% (estimate)." },
           { es: "Associação de lojistas: medo de perda de vagas → vendas ↓? (s/ dados).", en: "Shopkeepers' association: fear of losing parking spaces, so sales down? (no data)." },
           { es: "UFRGS: dados de 4 cidades; acidentes c/ ciclistas ↓ 30%.", en: "UFRGS: data from 4 cities; accidents involving cyclists down 30%." },
-          { es: "Obs.: nenhum texto calcula o custo da obra.", en: "Note: none of the texts calculates the cost of the works." },
+          { es: "Obs.: nenhum texto calcula o custo da obra.", en: "Note: none of the texts calculates the cost of the construction." },
           { es: "A associação alega que as vendas vão cair, mas não apresenta dados.", en: "The association claims sales will fall, but presents no data." },
         ],
         checkpoint: [
@@ -2385,14 +2385,14 @@ export const PT_C2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Write this as a note in Portuguese.",
-            source: "Note: none of the texts calculates the cost of the works.",
+            source: "Note: none of the texts calculates the cost of the construction.",
             answer: "Obs.: nenhum texto calcula o custo da obra.",
             altAnswers: ["Obs.: nenhum dos textos calcula o custo da obra.", "Obs.: nenhum texto calcula o custo das obras.", "Obs.: nenhum dos textos calcula o custo das obras.", "Obs: nenhum texto calcula o custo da obra."],
             explanation: "The \"obs.\" flags a gap common to all three sources: the most useful note for a synthesis.",
           },
           {
             type: "multiple-choice",
-            question: "The shopkeepers' letter predicts falling sales but gives no figures. Which reporting verb is fair?",
+            question: "The merchants' letter predicts falling sales but gives no figures. Which reporting verb is fair?",
             options: ["alega", "demonstra", "comprova", "refuta"],
             correctIndex: 0,
             explanation: "A prediction without evidence is fairly reported with \"alega\". \"Demonstra\" and \"comprova\" would credit it with proof.",
@@ -2408,20 +2408,20 @@ export const PT_C2_U18: Lesson[] = [
       {
         heading: "Compare and combine",
         body: [
-          "Second pass: organise by issue, not by source. Three issues emerge: traffic, safety and commerce. For each, one sentence of convergence or divergence, with the sources named: \"Quanto à segurança, a UFRGS e a prefeitura convergem.\" Where a source has no data, say so neutrally; where all three are silent, name the gap.",
+          "Second pass: organize by issue, not by source. Three issues emerge: traffic, safety and commerce. For each, one sentence of convergence or divergence, with the sources named: \"Quanto à segurança, a UFRGS e a prefeitura convergem.\" Where a source has no data, say so neutrally; where all three are silent, name the gap.",
         ],
         examples: [
           { es: "Quanto à segurança, a UFRGS e a prefeitura convergem: menos acidentes.", en: "On safety, UFRGS and the city agree: fewer accidents." },
-          { es: "Quanto ao trânsito, a prefeitura estima uma melhora de 5%, ao passo que os lojistas preveem piora.", en: "On traffic, the city estimates a 5% improvement, whereas the shopkeepers predict it will get worse." },
-          { es: "No que diz respeito ao comércio, só os lojistas se manifestam, sem dados.", en: "As regards commerce, only the shopkeepers comment, without data." },
-          { es: "Nenhuma das três fontes estima o custo da obra.", en: "None of the three sources estimates the cost of the works." },
+          { es: "Quanto ao trânsito, a prefeitura estima uma melhora de 5%, ao passo que os lojistas preveem piora.", en: "On traffic, the city estimates a 5% improvement, whereas the merchants predict it will get worse." },
+          { es: "No que diz respeito ao comércio, só os lojistas se manifestam, sem dados.", en: "As regards commerce, only the merchants comment, without data." },
+          { es: "Nenhuma das três fontes estima o custo da obra.", en: "None of the three sources estimates the cost of the construction." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "On traffic, the city estimates a 5% improvement, whereas the shopkeepers predict it will get worse.",
+            source: "On traffic, the city estimates a 5% improvement, whereas the merchants predict it will get worse.",
             answer: "Quanto ao trânsito, a prefeitura estima uma melhora de 5%, ao passo que os lojistas preveem piora.",
             altAnswers: ["Quanto ao trânsito, a prefeitura estima uma melhora de 5%, enquanto os lojistas preveem piora.", "Quanto ao trânsito, a prefeitura estima uma melhora de 5%, ao passo que os lojistas preveem uma piora.", "Quanto ao trânsito, a prefeitura estima uma melhora de 5%, enquanto os lojistas preveem uma piora.", "Em relação ao trânsito, a prefeitura estima uma melhora de 5%, ao passo que os lojistas preveem piora."],
             explanation: "One issue, two sources, one contrast. \"Preveem\" has no circumflex since the Acordo.",
@@ -2450,7 +2450,7 @@ export const PT_C2_U18: Lesson[] = [
           "Third pass: the page itself. Open with the bottom line the secretary can say at the press conference, give one line per issue, name the gap, and add your recommendation in a clearly signed sentence. Close with the next step. Expand every abbreviation from your notes: the secretary reads prose, not your fichamento.",
         ],
         examples: [
-          { es: "Em síntese: as evidências disponíveis favorecem a ciclovia, sobretudo pela segurança.", en: "In short: the available evidence favours the bike lane, above all on safety." },
+          { es: "Em síntese: as evidências disponíveis favorecem a ciclovia, sobretudo pela segurança.", en: "In short: the available evidence favors the bike lane, above all on safety." },
           { es: "O principal ponto em aberto é o custo, que nenhuma fonte estima.", en: "The main open question is cost, which no source estimates." },
           { es: "Recomenda-se aprovar o projeto, condicionado a um estudo de custos.", en: "We recommend approving the project, subject to a cost study." },
           { es: "Próximo passo: encomendar o estudo de custos até o fim do mês.", en: "Next step: commission the cost study by the end of the month." },
@@ -2460,7 +2460,7 @@ export const PT_C2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, as the report's first line.",
-            source: "In short: the available evidence favours the bike lane, above all on safety.",
+            source: "In short: the available evidence favors the bike lane, above all on safety.",
             answer: "Em síntese: as evidências disponíveis favorecem a ciclovia, sobretudo pela segurança.",
             altAnswers: ["Em síntese: as evidências disponíveis favorecem a ciclovia, sobretudo quanto à segurança.", "Em suma: as evidências disponíveis favorecem a ciclovia, sobretudo pela segurança.", "Em suma: as evidências disponíveis favorecem a ciclovia, principalmente pela segurança.", "Em síntese: as evidências disponíveis favorecem a ciclovia, principalmente no que diz respeito à segurança."],
             explanation: "The bottom line opens the page. \"Evidências\" is usually plural in this sense in Brazil.",
@@ -2496,7 +2496,7 @@ export const PT_C2_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "As regards commerce, only the shopkeepers comment, without data.",
+        source: "As regards commerce, only the merchants comment, without data.",
         answer: "No que diz respeito ao comércio, só os lojistas se manifestam, sem dados.",
         altAnswers: ["No que diz respeito ao comércio, apenas os lojistas se manifestam, sem dados.", "Quanto ao comércio, só os lojistas se manifestam, sem dados.", "Quanto ao comércio, apenas os lojistas se manifestam, sem dados.", "Em relação ao comércio, só os lojistas se manifestam, sem apresentar dados."],
         explanation: "\"Manifestar-se\" is to comment or take a public position. Here \"só\" is factual, not a criticism.",
@@ -2553,7 +2553,7 @@ export const PT_C2_U18: Lesson[] = [
           "The three texts copied, with your comments in brackets.",
         ],
         correctIndex: 0,
-        explanation: "The sumário executivo order: conclusion first, organised by issue, opinion signed.",
+        explanation: "The sumário executivo order: conclusion first, organized by issue, opinion signed.",
       },
       {
         type: "listen-choose",
@@ -2571,7 +2571,7 @@ export const PT_C2_U18: Lesson[] = [
       {
         type: "speak",
         text: "Em síntese, as evidências favorecem a ciclovia, mas o custo ainda está em aberto.",
-        prompt: "Say it in Portuguese: In short, the evidence favours the bike lane, but the cost is still an open question.",
+        prompt: "Say it in Portuguese: In short, the evidence favors the bike lane, but the cost is still an open question.",
         tip: "\"Ciclovia\": ci-clo-VI-a. \"Evidências\": e-vi-DÊN-cias.",
         explanation: "The whole report in one sentence: what the secretary can say to the press.",
       },
@@ -2581,7 +2581,7 @@ export const PT_C2_U18: Lesson[] = [
 
 export const PT_C2_U18_WRITING: WriteExercise = {
   type: "write",
-  prompt: "The director of a São Paulo company must decide whether to let staff work from home three days a week. You have read three short sources: an HR survey of employees, a finance-team cost estimate, and a newspaper article on productivity studies. Write a synthesis report for her (she has five minutes): lead with the conclusion, organise by issue rather than by source, report each source's stance faithfully, name what the sources leave out, and give your own recommendation in a clearly signed sentence.",
+  prompt: "The director of a São Paulo company must decide whether to let staff work from home three days a week. You have read three short sources: an HR survey of employees, a finance-team cost estimate, and a newspaper article on productivity studies. Write a synthesis report for her (she has five minutes): lead with the conclusion, organize by issue rather than by source, report each source's stance faithfully, name what the sources leave out, and give your own recommendation in a clearly signed sentence.",
   minWords: 250,
   maxWords: 400,
   rubric: [

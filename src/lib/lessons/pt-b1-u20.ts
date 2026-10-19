@@ -21,7 +21,7 @@ export const PT_B1_U20: Lesson[] = [
         examples: [
           { es: "Que alegria te ver aqui!", en: "How lovely to see you here!" },
           { es: "Que vergonha! Esqueci o nome dela.", en: "How embarrassing! I forgot her name." },
-          { es: "Que alívio! O voo não foi cancelado.", en: "What a relief! The flight wasn't cancelled." },
+          { es: "Que alívio! O voo não foi cancelado.", en: "What a relief! The flight wasn't canceled." },
           { es: "A ansiedade antes da prova é normal.", en: "Feeling anxious before an exam is normal." },
           { es: "O ciúme estragou o namoro deles.", en: "Jealousy ruined their relationship." },
         ],
@@ -310,10 +310,10 @@ export const PT_B1_U20: Lesson[] = [
         ],
         examples: [
           { es: "Me apaixonei pelo Rio na primeira visita.", en: "I fell in love with Rio on my first visit." },
-          { es: "Ele se apaixonou pela vizinha do quinto andar.", en: "He fell in love with the neighbour on the fifth floor." },
+          { es: "Ele se apaixonou pela vizinha do quinto andar.", en: "He fell in love with the neighbor on the fifth floor." },
           { es: "A Beatriz está apaixonada por um colega.", en: "Beatriz is in love with a colleague." },
           { es: "Tenho muito carinho por essa cidade.", en: "I'm very fond of this city." },
-          { es: "Eles se apaixonaram na faculdade.", en: "They fell in love at university." },
+          { es: "Eles se apaixonaram na faculdade.", en: "They fell in love in college." },
         ],
         checkpoint: [
           {
@@ -327,9 +327,9 @@ export const PT_B1_U20: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: He fell in love with the neighbour.",
+            prompt: "Put the words in order to say: He fell in love with the neighbor.",
             words: ["Ele", "se", "apaixonou", "pela", "vizinha."],
-            translation: "He fell in love with the neighbour.",
+            translation: "He fell in love with the neighbor.",
             explanation: "\"Se apaixonar por\": \"por\" + \"a\" contracts to \"pela\", so \"pela vizinha\".",
           },
           {
@@ -528,7 +528,7 @@ export const PT_B1_U20: Lesson[] = [
       {
         heading: "Saudade or sentir falta?",
         body: [
-          "\"Sentir falta de\" is the neutral alternative: it fits any context, including practical ones. You \"sentir falta\" of your car, of a missing document, of a colleague who's on holiday. \"Saudade\" carries affection, so it sounds odd about things you simply need.",
+          "\"Sentir falta de\" is the neutral alternative: it fits any context, including practical ones. You \"sentir falta\" of your car, of a missing document, of a colleague who's on vacation. \"Saudade\" carries affection, so it sounds odd about things you simply need.",
           "\"Senti falta do meu carro durante a greve\" is natural; \"tenho saudade do meu carro\" sounds romantic. With people you love, both work, and \"saudade\" is warmer.",
         ],
         examples: [
@@ -602,7 +602,7 @@ export const PT_B1_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your colleague is back from holiday. Which is the most natural?",
+        question: "Your colleague is back from vacation. Which is the most natural?",
         options: ["A gente sentiu sua falta!", "A gente perdeu você!", "A gente faltou você!", "A gente sentiu falta você!"],
         correctIndex: 0,
         explanation: "\"Sentir sua falta\". \"Perder você\" means to lose you.",
@@ -663,9 +663,9 @@ export const PT_B1_U20: Lesson[] = [
         examples: [
           { es: "A nova colega é muito simpática.", en: "The new colleague is really nice." },
           { es: "O Rafael é gente boa, você vai gostar dele.", en: "Rafael is a great guy, you'll like him." },
-          { es: "Meus vizinhos são muito prestativos.", en: "My neighbours are very helpful." },
+          { es: "Meus vizinhos são muito prestativos.", en: "My neighbors are very helpful." },
           { es: "Minha irmã é extrovertida, mas eu sou tímido.", en: "My sister is outgoing, but I'm shy." },
-          { es: "Meu chefe foi muito compreensivo quando meu pai ficou doente.", en: "My boss was very sympathetic when my dad got ill." },
+          { es: "Meu chefe foi muito compreensivo quando meu pai ficou doente.", en: "My boss was very sympathetic when my dad got sick." },
         ],
         checkpoint: [
           {
@@ -715,14 +715,14 @@ export const PT_B1_U20: Lesson[] = [
             en: "He never pays for anything, he's so [stingy].",
             sentence: "Ele nunca paga nada, é muito ___.",
             answer: "mão de vaca",
-            altAnswers: ["pão-duro", "pão duro", "mão-de-vaca"],
-            explanation: "\"Mão de vaca\" or \"pão-duro\": two colourful words for stingy.",
+            altAnswers: ["pão-duro", "pão duro"],
+            explanation: "\"Mão de vaca\" or \"pão-duro\": two colorful words for stingy.",
           },
           {
             type: "listen-choose",
             audio: "Meu colega de quarto é folgado.",
             question: "What does it mean?",
-            options: ["My roommate takes advantage of everyone.", "My roommate is on holiday.", "My roommate is very helpful.", "My roommate is shy."],
+            options: ["My roommate takes advantage of everyone.", "My roommate is on vacation.", "My roommate is very helpful.", "My roommate is shy."],
             correctIndex: 0,
             explanation: "\"Folgado\" describes someone who takes it easy at others' expense.",
           },
@@ -774,7 +774,7 @@ export const PT_B1_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "My neighbours are really nice.",
+        source: "My neighbors are really nice.",
         answer: "Meus vizinhos são muito simpáticos.",
         altAnswers: ["Os meus vizinhos são muito simpáticos.", "Minhas vizinhas são muito simpáticas.", "Meus vizinhos são muito gente boa.", "Meus vizinhos são gente boa.", "Meus vizinhos são muito legais."],
         explanation: "\"Simpáticos\" agrees in the plural; \"gente boa\" never changes.",
@@ -792,7 +792,7 @@ export const PT_B1_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "This film is a bit weird.",
+        source: "This movie is a bit weird.",
         answer: "Esse filme é meio esquisito.",
         altAnswers: ["Este filme é meio esquisito.", "Esse filme é um pouco esquisito.", "Este filme é um pouco esquisito.", "Esse filme é meio estranho.", "Esse filme é um pouco estranho."],
         explanation: "\"Esquisito\" = weird. \"Meio\" is the casual a bit.",
@@ -822,10 +822,10 @@ export const PT_B1_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your flatmate eats your food and never cleans. Which word fits?",
+        question: "Your roommate eats your food and never cleans. Which word fits?",
         options: ["folgado", "prestativo", "tímido", "compreensivo"],
         correctIndex: 0,
-        explanation: "\"Folgado\" is the person who takes advantage and never helps, like this flatmate.",
+        explanation: "\"Folgado\" is the person who takes advantage and never helps, like this roommate.",
       },
       {
         type: "word-order",
@@ -1019,7 +1019,7 @@ export const PT_B1_U20: Lesson[] = [
         question: "Which sentence means she's being difficult today?",
         options: ["Ela está difícil hoje.", "Ela é difícil hoje.", "Ela ficou difícil.", "Ela é difícil."],
         correctIndex: 0,
-        explanation: "\"Estar\" + adjective + \"hoje\": unusual behaviour now.",
+        explanation: "\"Estar\" + adjective + \"hoje\": unusual behavior now.",
       },
       {
         type: "multiple-choice",
@@ -1079,7 +1079,7 @@ export const PT_B1_U20: Lesson[] = [
         heading: "Namorar, ficar com, noivar",
         body: [
           "\"Namorar\" means to date someone seriously, to be boyfriend and girlfriend: \"ela namora o Lucas há dois anos\". In careful writing it takes a direct object, with no preposition; in speech you'll often hear \"namorar com\". \"O namoro\" is the relationship, \"o namorado\" / \"a namorada\" the partner.",
-          "\"Ficar com\" is the casual stage: to hook up with or make out with someone, with no commitment: \"eles ficaram na festa\". It's a uniquely Brazilian concept, so don't translate it as to stay with in this context.",
+          "\"Ficar com\" is the casual stage: to hook up with or make out with someone, with no commitment: \"eles ficaram na festa\". It's a very Brazilian concept, so don't translate it as to stay with in this context.",
           "Next steps: \"noivar\" (to get engaged), \"o noivo\" / \"a noiva\" (fiancé, and also groom / bride on the wedding day).",
         ],
         examples: [
@@ -1160,7 +1160,7 @@ export const PT_B1_U20: Lesson[] = [
           { es: "Meu irmão e eu não nos damos bem.", en: "My brother and I don't get along." },
           { es: "Ela brigou com o namorado por causa de ciúme.", en: "She had a fight with her boyfriend over jealousy." },
           { es: "A gente brigou, mas já fez as pazes.", en: "We had an argument, but we've already made up." },
-          { es: "Os vizinhos vivem brigando.", en: "The neighbours are always arguing." },
+          { es: "Os vizinhos vivem brigando.", en: "The neighbors are always arguing." },
         ],
         checkpoint: [
           {
@@ -1213,7 +1213,7 @@ export const PT_B1_U20: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "They got divorced last year.",
         answer: "Eles se divorciaram no ano passado.",
-        altAnswers: ["Eles se divorciaram ano passado.", "Eles se separaram no ano passado.", "Eles se separaram ano passado."],
+        altAnswers: ["Eles se divorciaram ano passado."],
         explanation: "\"Se divorciar\" is reflexive: \"eles se divorciaram\". \"Se separaram\" is the softer split up.",
       },
       {
@@ -1263,7 +1263,7 @@ export const PT_B1_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The neighbours are always arguing.",
+        source: "The neighbors are always arguing.",
         answer: "Os vizinhos vivem brigando.",
         altAnswers: ["Os vizinhos estão sempre brigando.", "Os vizinhos sempre brigam.", "As vizinhas vivem brigando."],
         explanation: "\"Viver\" + gerund = to be always doing something.",
@@ -1499,7 +1499,7 @@ export const PT_B1_U20: Lesson[] = [
       {
         heading: "Estou arrasado",
         body: [
-          "Friday night in a \"boteco\" (a neighbourhood bar) in Belo Horizonte. Gustavo looks terrible, and his friend Thiago asks what's wrong with \"o que aconteceu?\" or \"que cara é essa?\" (why the long face?). Gustavo answers with the word for being crushed: \"estou arrasado\" (arrasada for a woman).",
+          "Friday night in a \"boteco\" (a neighborhood bar) in Belo Horizonte. Gustavo looks terrible, and his friend Thiago asks what's wrong with \"o que aconteceu?\" or \"que cara é essa?\" (why the long face?). Gustavo answers with the word for being crushed: \"estou arrasado\" (arrasada for a woman).",
           "The news itself uses the relationship verbs: \"a Júlia terminou comigo\". Thiago reacts with a feeling + subjunctive, as in Unit 3: \"que pena que vocês não estejam mais juntos\" is careful; in a bar he simply says \"que pena, cara\".",
         ],
         examples: [
@@ -1683,7 +1683,7 @@ export const PT_B1_U20: Lesson[] = [
         source: "I'm so sorry.",
         answer: "Sinto muito.",
         altAnswers: ["Eu sinto muito.", "Sinto muito mesmo."],
-        explanation: "\"Sinto muito\" is the standard I'm sorry for bad news. \"Desculpa\" is for apologising.",
+        explanation: "\"Sinto muito\" is the standard I'm sorry for bad news. \"Desculpa\" is for apologizing.",
       },
       {
         type: "dictation",
@@ -1787,8 +1787,8 @@ export const PT_B1_U20: Lesson[] = [
           "The same check applies to \"educado\" (polite, not educated), \"esquisito\" (weird) and \"pretender\" (to intend). And \"decepção\" is disappointment, not deception.",
         ],
         examples: [
-          { es: "Meu chefe foi muito compreensivo quando eu fiquei doente.", en: "My boss was very understanding when I got ill." },
-          { es: "Os vizinhos foram muito solidários depois do incêndio.", en: "The neighbours were very supportive after the fire." },
+          { es: "Meu chefe foi muito compreensivo quando eu fiquei doente.", en: "My boss was very understanding when I got sick." },
+          { es: "Os vizinhos foram muito solidários depois do incêndio.", en: "The neighbors were very supportive after the fire." },
           { es: "Ela é muito educada com todo mundo.", en: "She's very polite to everyone." },
           { es: "Pretendo voltar ao Brasil no ano que vem.", en: "I intend to go back to Brazil next year." },
         ],
@@ -1965,7 +1965,7 @@ export const PT_B1_U20: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "We met at university.",
+            source: "We met in college.",
             answer: "A gente se conheceu na faculdade.",
             altAnswers: ["Nós nos conhecemos na faculdade.", "A gente se conheceu na universidade.", "Nós nos conhecemos na universidade.", "Nos conhecemos na faculdade."],
             explanation: "Reciprocal \"se conhecer\" in the perfeito means we met each other: \"a gente se conheceu\" or \"nós nos conhecemos\".",
@@ -2059,7 +2059,7 @@ export const PT_B1_U20: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I miss the time [when] we shared a flat.",
+        en: "I miss the time [when] we shared an apartment.",
         sentence: "Tenho saudade da época ___ a gente dividia apartamento.",
         answer: "em que",
         altAnswers: ["que", "quando"],
@@ -2139,8 +2139,8 @@ export const PT_B1_U20: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "I'm happy you're back together.",
             answer: "Fico feliz que vocês estejam juntos de novo.",
-            altAnswers: ["Fico feliz que vocês estejam juntos outra vez.", "Fico muito feliz que vocês estejam juntos de novo.", "Que bom que vocês estão juntos de novo.", "Fico feliz que vocês voltaram.", "Fico feliz que vocês tenham voltado.", "Que bom que vocês voltaram!"],
-            explanation: "An emotion about someone else: \"fico feliz que\" + subjunctive \"estejam\".",
+            altAnswers: ["Fico feliz que vocês estejam juntos outra vez.", "Fico muito feliz que vocês estejam juntos de novo.", "Que bom que vocês estão juntos de novo.", "Fico feliz que vocês tenham voltado.", "Que bom que vocês voltaram!"],
+            explanation: "An emotion about someone else: \"fico feliz que\" + subjunctive \"estejam\". \"Fico feliz que vocês estão\" is the slip to avoid; the exclamation \"que bom que\" is often heard with the indicative.",
           },
           {
             type: "translate",
@@ -2240,7 +2240,7 @@ export const PT_B1_U20: Lesson[] = [
         question: "Which sentence is correct?",
         options: ["Que pena que vocês terminaram!", "Que pena que vocês terminaram com!", "Que pena vocês que terminaram!", "Que pena que vocês terminar!"],
         correctIndex: 0,
-        explanation: "For a past fact, speech keeps the perfeito after \"que pena que\".",
+        explanation: "In speech, a past fact after \"que pena que\" usually stays in the perfeito: \"que pena que vocês terminaram\". Careful writing prefers the perfect subjunctive (\"que vocês tenham terminado\"), which comes later.",
       },
       {
         type: "multiple-choice",

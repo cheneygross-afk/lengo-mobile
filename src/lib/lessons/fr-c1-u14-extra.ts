@@ -96,7 +96,7 @@ export const FR_C1_U14_EXTRA: Lesson[] = [
         en: "[I'm] really tired [right now]. (heard as \"Là, chu vraiment fatigué.\")",
         sentence: "___ vraiment fatigué.",
         answer: "Là, je suis",
-        altAnswers: ["En ce moment, je suis", "Je suis"],
+        altAnswers: ["En ce moment, je suis"],
         explanation: "\"Chu\" = \"je suis\"; \"là\" at the start often means right now.",
       },
       {
@@ -867,10 +867,10 @@ export const FR_C1_U14_EXTRA: Lesson[] = [
     exercises: [
       {
         type: "multiple-choice",
-        question: "Where are you? « Attends une fois, je reviens à tantôt. »",
+        question: "Where are you? « Attends une fois, je reviens tantôt. »",
         options: ["Brussels", "Montréal", "Dakar", "Paris"],
         correctIndex: 0,
-        explanation: "\"Une fois\" as a softener is Belgian; \"à tantôt\" is shared with Québec, but \"une fois\" decides.",
+        explanation: "\"Une fois\" as a softener is Belgian; \"tantôt\" is shared with Québec, but \"une fois\" decides.",
       },
       {
         type: "translate",

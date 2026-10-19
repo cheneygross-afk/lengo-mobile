@@ -17,7 +17,7 @@ export const FR_B2_U17: Lesson[] = [
         body: [
           "\"Mais\" is the everyday 'but', and it always sits between the two ideas it joins. In formal writing, in a debate or in the DELF essay, French expects a more precise family: \"cependant\" (however), \"toutefois\" (however, a touch more formal), \"néanmoins\" (nevertheless) and \"pourtant\" (and yet). All four introduce an idea that pushes against the one before.",
           "They differ in flavour. \"Cependant\", \"toutefois\" and \"néanmoins\" grant the first point and limit it: 'that's true, but there's a restriction'. \"Pourtant\" adds surprise: the second fact is not what the first one led you to expect (\"Il a beaucoup révisé. Pourtant, il a échoué.\").",
-          "Unlike mais, these connectors are mobile. They can open the sentence, followed by a comma (\"Cependant, le projet a été accepté.\"), or slip in after the conjugated verb, which is the most elegant written position (\"Le projet a cependant été accepté.\"). In a compound tense they go between the auxiliary and the participle. After a semicolon, both positions work: \"Il pleuvait ; nous sommes cependant sortis.\"",
+          "Unlike \"mais\", these connectors are mobile. They can open the sentence, followed by a comma (\"Cependant, le projet a été accepté.\"), or slip in after the conjugated verb, which is the most elegant written position (\"Le projet a cependant été accepté.\"). In a compound tense they go between the auxiliary and the participle. After a semicolon, both positions work: \"Il pleuvait ; nous sommes cependant sortis.\"",
           "Two traps for English speakers. Don't stack them with mais in careful writing (\"mais cependant\" is a classic essay mistake, a doubled 'but'). And don't translate every 'however' with \"pourtant\": if there is no surprise, just a limit, \"cependant\" or \"toutefois\" is the right word.",
         ],
         examples: [
@@ -59,9 +59,9 @@ export const FR_B2_U17: Lesson[] = [
       {
         heading: "En revanche and par contre: on the other hand",
         body: [
-          "\"En revanche\" does a different job from pourtant: there is no surprise, you simply set two different things side by side and compare them. \"Paris est cher ; en revanche, la province est plus abordable.\" Think 'on the other hand', 'by contrast'.",
+          "\"En revanche\" does a different job from \"pourtant\": there is no surprise, you simply set two different things side by side and compare them. \"Paris est cher ; en revanche, la province est plus abordable.\" Think 'on the other hand', 'by contrast'.",
           "\"Par contre\" means exactly the same thing and is everywhere in speech: \"Le film était long. Par contre, la musique était géniale.\" Some purists still frown on it in formal writing, so in an essay, a cover letter or the DELF exam, write \"en revanche\". In conversation, \"en revanche\" sounds slightly bookish but never wrong.",
-          "Inside a single sentence you already know \"alors que\" and \"tandis que\" (Unit 4), which do the same comparing job without a full stop: \"Paul adore le sport alors que sa sœur le déteste.\" With en revanche you need two clauses, separated by a full stop or a semicolon.",
+          "Inside a single sentence you already know \"alors que\" and \"tandis que\" (Unit 4), which do the same comparing job without a full stop: \"Paul adore le sport alors que sa sœur le déteste.\" With \"en revanche\" you need two clauses, separated by a full stop or a semicolon.",
         ],
         examples: [
           { es: "Paris est cher ; en revanche, la province est plus abordable.", en: "Paris is expensive; the provinces, on the other hand, are more affordable." },
@@ -241,7 +241,7 @@ export const FR_B2_U17: Lesson[] = [
       {
         type: "dictation",
         audio: "Il pleuvait ; nous sommes cependant sortis.",
-        explanation: "\"Cependant\" after the auxiliary \"sommes\"; \"sortis\" agrees with nous (être verb).",
+        explanation: "\"Cependant\" after the auxiliary \"sommes\"; \"sortis\" agrees with \"nous\" (an \"être\" verb).",
       },
       {
         type: "speak",
@@ -273,8 +273,8 @@ export const FR_B2_U17: Lesson[] = [
         heading: "Pourtant: against expectations",
         body: [
           "Ask yourself: does the first fact lead you to expect the opposite of the second? If so, \"pourtant\" is the word. \"Il a beaucoup travaillé, pourtant il a échoué\": hard work should have led to success. \"Il fait beau, pourtant il est resté chez lui\": good weather should have got him out.",
-          "Pourtant often comes with \"et\": \"et pourtant\" sounds even more surprised, almost indignant. On its own, at the end of an exclamation, it means 'and yet!': \"Je l'avais prévenu, pourtant !\" (I did warn him!).",
-          "The test: you can put 'which is surprising, because...' between the two halves. If that sounds absurd, you want en revanche.",
+          "\"Pourtant\" often comes with \"et\": \"et pourtant\" sounds even more surprised, almost indignant. On its own, at the end of an exclamation, it means 'and yet!': \"Je l'avais prévenu, pourtant !\" (I did warn him!).",
+          "The test: you can put 'which is surprising, because...' between the two halves. If that sounds absurd, you want \"en revanche\".",
         ],
         examples: [
           { es: "Il a beaucoup travaillé, pourtant il a échoué.", en: "He worked hard, and yet he failed." },
@@ -308,8 +308,8 @@ export const FR_B2_U17: Lesson[] = [
         heading: "En revanche: two sides, no surprise",
         body: [
           "\"En revanche\" compares two subjects, two places, two periods or two aspects of one thing. There is no broken expectation: \"Paul aime le sport ; en revanche, sa sœur le déteste.\" Nothing about Paul makes his sister's taste surprising; they are just different.",
-          "A good clue is a change of subject or topic between the two halves: Paul / sa sœur, la ville / la campagne, le prix / la qualité. With pourtant, the subject often stays the same (il a travaillé / il a échoué).",
-          "Swap test: if you can replace it with 'whereas' or 'by contrast', it's en revanche; if 'despite that' fits, it's pourtant.",
+          "A good clue is a change of subject or topic between the two halves: Paul / sa sœur, la ville / la campagne, le prix / la qualité. With \"pourtant\", the subject often stays the same (il a travaillé / il a échoué).",
+          "Swap test: if you can replace it with 'whereas' or 'by contrast', it's \"en revanche\"; if 'despite that' fits, it's \"pourtant\".",
         ],
         examples: [
           { es: "Paul aime le sport ; en revanche, sa sœur le déteste.", en: "Paul loves sport; his sister, by contrast, hates it." },
@@ -348,9 +348,9 @@ export const FR_B2_U17: Lesson[] = [
       {
         heading: "Cependant: the neutral 'however'",
         body: [
-          "\"Cependant\" (and its formal twin \"toutefois\") is the safe middle: it marks any contrast or restriction without stressing surprise or comparison. That's why it can often replace both pourtant and en revanche, though with less precision.",
-          "Where cependant shines is the restriction of a general statement: \"Le musée est ouvert tous les jours. Il est cependant fermé le 1er mai.\" Neither surprise nor a comparison of two subjects; just a limit.",
-          "Finally, don't confuse these with \"alors que\" (Unit 4), which joins the two halves into one sentence: \"Paul aime le sport alors que sa sœur le déteste.\" Alors que is a conjunction and needs a verb after it; en revanche and pourtant are adverbs and need a full stop or semicolon before them.",
+          "\"Cependant\" (and its formal twin \"toutefois\") is the safe middle: it marks any contrast or restriction without stressing surprise or comparison. That's why it can often replace both \"pourtant\" and \"en revanche\", though with less precision.",
+          "Where \"cependant\" shines is the restriction of a general statement: \"Le musée est ouvert tous les jours. Il est cependant fermé le 1er mai.\" Neither surprise nor a comparison of two subjects; just a limit.",
+          "Finally, don't confuse these with \"alors que\" (Unit 4), which joins the two halves into one sentence: \"Paul aime le sport alors que sa sœur le déteste.\" \"Alors que\" is a conjunction and needs a verb after it; \"en revanche\" and \"pourtant\" are adverbs and need a full stop or semicolon before them.",
         ],
         examples: [
           { es: "Le musée est ouvert tous les jours. Il est cependant fermé le 1er mai.", en: "The museum is open every day. It is, however, closed on 1 May." },
@@ -477,8 +477,8 @@ export const FR_B2_U17: Lesson[] = [
       {
         heading: "Monday's entry: never a conditional after si",
         body: [
-          "Hugo keeps a diary in French. On Monday he missed his train and wrote: *\"Si j'aurais su, je serais parti plus tôt.\" The result clause is right, but the si clause is wrong. After the si of a condition, French never uses the conditional: a past hypothesis takes the plus-que-parfait. Correct: \"Si j'avais su, je serais parti plus tôt.\"",
-          "Remember the pattern from Unit 9: si + plus-que-parfait → conditionnel passé (\"si j'avais su, je serais venu\"). The only si that can be followed by a conditional is the si of an indirect question, meaning 'whether': \"je me demande s'il serait venu\".",
+          "Hugo keeps a diary in French. On Monday he missed his train and wrote: *\"Si j'aurais su, je serais parti plus tôt.\" The result clause is right, but the \"si\" clause is wrong. After the \"si\" of a condition, French never uses the conditional: a past hypothesis takes the plus-que-parfait. Correct: \"Si j'avais su, je serais parti plus tôt.\"",
+          "Remember the pattern from Unit 9: \"si\" + plus-que-parfait → conditionnel passé (\"si j'avais su, je serais venu\"). The only \"si\" that can be followed by a conditional is the si of an indirect question, meaning 'whether': \"je me demande s'il serait venu\".",
           "Mixed conditionals cross the time line: a past condition with a present result (\"si j'avais pris ce train, je serais à Lyon maintenant\"), or a permanent condition with a past result (\"si j'étais plus organisé, j'aurais réservé\").",
         ],
         examples: [
@@ -497,7 +497,7 @@ export const FR_B2_U17: Lesson[] = [
             source: "If I'd known, I would have left earlier.",
             answer: "Si j'avais su, je serais parti plus tôt.",
             altAnswers: ["Si j'avais su, je serais partie plus tôt."],
-            explanation: "Si + plus-que-parfait (\"j'avais su\"), never *si j'aurais su. Partir takes être, so a woman writes \"partie\".",
+            explanation: "Si + plus-que-parfait (\"j'avais su\"), never *si j'aurais su. \"Partir\" takes \"être\", so a woman writes \"partie\".",
           },
           {
             type: "translate",
@@ -523,7 +523,7 @@ export const FR_B2_U17: Lesson[] = [
         body: [
           "On Wednesday Hugo quarrelled with his sister. He wrote: *\"J'ai dû m'excuser\" when he meant 'I should have apologised', and *\"Tu aurais pu de me prévenir.\" The first sentence says 'I had to apologise' (I did it, under obligation). The regret is \"j'aurais dû m'excuser\". In the second, \"pouvoir\" and \"devoir\" take a bare infinitive: \"tu aurais pu me prévenir\".",
           "From Unit 10: \"j'aurais dû\" (I should have), \"tu aurais pu\" (you could have, often a reproach), \"j'aurais mieux fait de\" (I'd have done better to), \"il aurait fallu\" + infinitive or \"il aurait fallu que\" + subjunctive, and \"regretter de\" + past infinitive (\"je regrette de lui avoir parlé comme ça\").",
-          "Hugo also wrote *\"Je serais dû partir.\" Devoir always takes avoir: \"j'aurais dû partir\". The être auxiliary belongs to the infinitive's own compound forms, not to devoir.",
+          "Hugo also wrote *\"Je serais dû partir.\" \"Devoir\" always takes \"avoir\": \"j'aurais dû partir\". The \"être\" auxiliary belongs to the compound forms of \"partir\" itself (\"je serais parti\"), not to \"devoir\".",
         ],
         examples: [
           { es: "J'aurais dû m'excuser tout de suite.", en: "I should have apologised straight away." },
@@ -541,7 +541,7 @@ export const FR_B2_U17: Lesson[] = [
             source: "You could have warned me!",
             answer: "Tu aurais pu me prévenir !",
             altAnswers: ["Tu aurais pu m'avertir !", "Tu aurais pu me le dire !"],
-            explanation: "\"Tu aurais pu\" + bare infinitive: a reproach. No de after pouvoir.",
+            explanation: "\"Tu aurais pu\" + bare infinitive: a reproach. No \"de\" after \"pouvoir\".",
           },
           {
             type: "fill-blank",
@@ -549,7 +549,7 @@ export const FR_B2_U17: Lesson[] = [
             en: "[I should have] apologised straight away.",
             sentence: "___ m'excuser tout de suite.",
             answer: "J'aurais dû",
-            explanation: "Conditionnel passé of devoir with avoir: \"j'aurais dû\". \"J'ai dû\" would mean 'I had to'.",
+            explanation: "Conditionnel passé of \"devoir\" with \"avoir\": \"j'aurais dû\". \"J'ai dû\" would mean 'I had to'.",
           },
           {
             type: "speak",
@@ -564,7 +564,7 @@ export const FR_B2_U17: Lesson[] = [
         body: [
           "On Friday Hugo wrote: *\"Quand je suis arrivé à la fête, Clara est déjà partie.\" Two past events in a story, but one happened before the other: Clara's departure needs the plus-que-parfait, the past of the past: \"Clara était déjà partie\".",
           "The plus-que-parfait is also the tense after \"si seulement\" for a regret about the past (\"si seulement j'étais resté !\"), and in reported speech after a past reporting verb (\"elle m'a dit qu'elle avait attendu une heure\").",
-          "Hugo's last mistake mixed the two tenses: *\"Si seulement j'aurais écouté.\" The wish after si seulement follows the same rule as the condition after si: \"si seulement j'avais écouté\".",
+          "Hugo's last mistake mixed the two tenses: *\"Si seulement j'aurais écouté.\" The wish after \"si seulement\" follows the same rule as the condition after \"si\": \"si seulement j'avais écouté\".",
         ],
         examples: [
           { es: "Quand je suis arrivé à la fête, Clara était déjà partie.", en: "When I got to the party, Clara had already left." },
@@ -612,7 +612,7 @@ export const FR_B2_U17: Lesson[] = [
         source: "We should have left before nightfall.",
         answer: "Nous aurions dû partir avant la nuit.",
         altAnswers: ["On aurait dû partir avant la nuit.", "Nous aurions dû partir avant la tombée de la nuit.", "On aurait dû partir avant la tombée de la nuit."],
-        explanation: "\"Aurions dû\" + infinitive: regret. Devoir always takes avoir.",
+        explanation: "\"Aurions dû\" + infinitive: regret. \"Devoir\" always takes \"avoir\".",
       },
       {
         type: "fill-blank",
@@ -636,7 +636,7 @@ export const FR_B2_U17: Lesson[] = [
         question: "Which diary sentence is correct?",
         options: ["Si j'avais su, je ne serais pas venu.", "Si j'aurais su, je ne serais pas venu.", "Si j'avais su, je ne suis pas venu.", "Si je savais, je ne serais pas venu hier."],
         correctIndex: 0,
-        explanation: "Si + plus-que-parfait → conditionnel passé. The conditional never follows a conditional si.",
+        explanation: "\"Si\" + plus-que-parfait → conditionnel passé. The conditional never follows a conditional \"si\".",
       },
       {
         type: "translate",
@@ -645,7 +645,7 @@ export const FR_B2_U17: Lesson[] = [
         source: "I regret talking to her like that.",
         answer: "Je regrette de lui avoir parlé comme ça.",
         altAnswers: ["Je regrette de lui avoir parlé ainsi.", "Je regrette de lui avoir parlé de cette façon.", "Je regrette de lui avoir parlé de cette manière."],
-        explanation: "\"Regretter de\" + past infinitive (\"avoir parlé\") for a past action. \"Lui\" goes before avoir.",
+        explanation: "\"Regretter de\" + past infinitive (\"avoir parlé\") for a past action. \"Lui\" goes before \"avoir\".",
       },
       {
         type: "word-order",
@@ -666,13 +666,13 @@ export const FR_B2_U17: Lesson[] = [
       {
         type: "dictation",
         audio: "Si seulement j'étais resté plus longtemps !",
-        explanation: "\"Si seulement\" + plus-que-parfait: \"j'étais resté\" (rester takes être).",
+        explanation: "\"Si seulement\" + plus-que-parfait: \"j'étais resté\" (\"rester\" takes \"être\").",
       },
       {
         type: "speak",
         text: "Si tu m'avais appelé, je serais venu te chercher.",
         prompt: "Say it in French: If you'd called me, I would have come to pick you up.",
-        explanation: "Plus-que-parfait after si, conditionnel passé in the result. A woman says \"je serais venue\".",
+        explanation: "Plus-que-parfait after \"si\", conditionnel passé in the result. A woman says \"je serais venue\".",
       },
     ],
   },
@@ -707,7 +707,7 @@ export const FR_B2_U17: Lesson[] = [
             source: "My father would like me to take over the estate.",
             answer: "Mon père voudrait que je reprenne le domaine.",
             altAnswers: ["Mon père aimerait que je reprenne le domaine.", "Mon père voudrait que je reprenne l'entreprise.", "Mon père aimerait que je reprenne l'entreprise."],
-            explanation: "Different subjects, so \"vouloir que\" + subjunctive: \"que je reprenne\" (from ils reprennent).",
+            explanation: "Different subjects, so \"vouloir que\" + subjunctive: \"que je reprenne\" (from \"ils reprennent\").",
           },
           {
             type: "translate",
@@ -732,7 +732,7 @@ export const FR_B2_U17: Lesson[] = [
         heading: "Camille's doubts",
         body: [
           "Camille weighs her options with si-clauses. A possible future: \"si je reprends le domaine, je devrai quitter Paris\". An imagined present: \"si je reprenais le domaine, je vivrais au rythme des saisons\". And a past she can't change: \"si j'avais fait des études d'œnologie, je me sentirais plus légitime\" (oenology, the science of winemaking).",
-          "Concession structures help her balance the arguments: \"bien que j'aime mon travail, je m'y ennuie\" (subjunctive after bien que), \"même si je pars, je reviendrai pour les vendanges\" (indicative after même si). And the debate connectors: \"certes, la vie à Paris est stimulante ; en revanche, elle est épuisante\".",
+          "Concession structures help her balance the arguments: \"bien que j'aime mon travail, je m'y ennuie\" (subjunctive after \"bien que\"), \"même si je pars, je reviendrai pour les vendanges\" (indicative after \"même si\"). And the debate connectors: \"certes, la vie à Paris est stimulante ; en revanche, elle est épuisante\".",
         ],
         examples: [
           { es: "Si je reprends le domaine, je devrai quitter Paris.", en: "If I take over the estate, I'll have to leave Paris." },
@@ -758,7 +758,7 @@ export const FR_B2_U17: Lesson[] = [
             en: "Although I [like] my job, I'm getting more and more bored in it.",
             sentence: "Bien que j'___ mon travail, je m'y ennuie de plus en plus.",
             answer: "aime",
-            explanation: "\"Bien que\" + subjunctive. For aimer the je form looks like the indicative: \"j'aime\".",
+            explanation: "\"Bien que\" + subjunctive. For \"aimer\" the \"je\" form looks like the indicative: \"j'aime\".",
           },
         ],
       },
@@ -821,7 +821,7 @@ export const FR_B2_U17: Lesson[] = [
         prompt: "Translate into French.",
         source: "If I took over the estate, I'd live by the rhythm of the seasons.",
         answer: "Si je reprenais le domaine, je vivrais au rythme des saisons.",
-        explanation: "Si + imparfait → conditionnel présent: an imagined present or future.",
+        explanation: "\"Si\" + imparfait → conditionnel présent: an imagined present or future.",
       },
       {
         type: "fill-blank",
@@ -844,7 +844,7 @@ export const FR_B2_U17: Lesson[] = [
         prompt: "Translate into French.",
         source: "Even if I say no, I'll come back for the harvest.",
         answer: "Même si je refuse, je reviendrai pour les vendanges.",
-        altAnswers: ["Même si je dis non, je reviendrai pour les vendanges.", "Même si je refuse, je reviendrai pour les vendanges."],
+        altAnswers: ["Même si je dis non, je reviendrai pour les vendanges.", "Même si je refuse, je reviendrai faire les vendanges."],
         explanation: "\"Même si\" + present indicative, future in the main clause.",
       },
       {
@@ -871,7 +871,7 @@ export const FR_B2_U17: Lesson[] = [
         type: "speak",
         text: "Si je reprends le domaine, je devrai quitter Paris.",
         prompt: "Say it in French: If I take over the estate, I'll have to leave Paris.",
-        explanation: "A real possibility: si + présent → futur (\"je devrai\").",
+        explanation: "A real possibility: \"si\" + présent → futur (\"je devrai\").",
       },
     ],
   },
@@ -930,7 +930,7 @@ export const FR_B2_U17: Lesson[] = [
       {
         heading: "Conditions for a comeback",
         body: [
-          "The doctor sets conditions. Subjunctive after \"à condition que\" and \"à moins que\" (often with ne explétif: \"à moins qu'il n'y ait une complication\"); indicative after a real si: \"si tout se passe bien, elle reprendra en septembre\".",
+          "The doctor sets conditions. Subjunctive after \"à condition que\" and \"à moins que\" (often with ne explétif: \"à moins qu'il n'y ait une complication\"); indicative after a real \"si\": \"si tout se passe bien, elle reprendra en septembre\".",
           "When the subject is the same, French prefers the infinitive: \"elle pourra rejouer à condition de respecter le protocole\", \"elle ne reprendra pas sans avoir passé les tests\".",
           "Cause connectors from this unit help explain the delays: \"comme\" at the start, \"car\" in the middle: \"Comme la douleur persistait, on a refait une IRM\", \"elle reste prudente, car une rechute serait grave\".",
         ],
@@ -964,7 +964,7 @@ export const FR_B2_U17: Lesson[] = [
             type: "speak",
             text: "Si tout se passe bien, elle reprendra en septembre.",
             prompt: "Say it in French: If all goes well, she'll be back in September.",
-            explanation: "A real condition: si + présent, futur in the result.",
+            explanation: "A real condition: \"si\" + présent, futur in the result.",
           },
         ],
       },
@@ -972,7 +972,7 @@ export const FR_B2_U17: Lesson[] = [
         heading: "Changed by the injury",
         body: [
           "The verbs of change from Unit 15 tell the rest of the story. \"Elle a maigri\" and \"elle a perdu du muscle\" during the months on crutches; then \"elle s'est remise à courir\" in June; \"elle a fini par rejouer\" in October.",
-          "The injury changed her character too: \"cette épreuve l'a rendue plus patiente\" (rendre + adjective, never *l'a faite patiente), \"elle est devenue capitaine de l'équipe\". And a final contrast with pourtant: \"les médecins étaient pessimistes ; pourtant, elle a rejoué au bout de sept mois\".",
+          "The injury changed her character too: \"cette épreuve l'a rendue plus patiente\" (\"rendre\" + adjective, never *l'a faite patiente), \"elle est devenue capitaine de l'équipe\". And a final contrast with \"pourtant\": \"les médecins étaient pessimistes ; pourtant, elle a rejoué au bout de sept mois\".",
         ],
         examples: [
           { es: "Pendant les mois de béquilles, elle a beaucoup maigri.", en: "During the months on crutches, she lost a lot of weight." },
@@ -989,7 +989,7 @@ export const FR_B2_U17: Lesson[] = [
             prompt: "Translate into French.",
             source: "This ordeal made her more patient.",
             answer: "Cette épreuve l'a rendue plus patiente.",
-            explanation: "\"Rendre\" + adjective for a change of state. \"Rendue\" agrees with l' (Inès), placed before avoir.",
+            explanation: "\"Rendre\" + adjective for a change of state. \"Rendue\" agrees with \"l'\" (Inès), placed before \"avoir\".",
           },
           {
             type: "translate",
@@ -1020,7 +1020,7 @@ export const FR_B2_U17: Lesson[] = [
         source: "She started running again in June.",
         answer: "Elle s'est remise à courir en juin.",
         altAnswers: ["Elle s'est remise à courir au mois de juin.", "Elle a recommencé à courir en juin."],
-        explanation: "\"Se remettre à\" + infinitive: to start again. \"Remise\" agrees with elle.",
+        explanation: "\"Se remettre à\" + infinitive: to start again. \"Remise\" agrees with \"elle\".",
       },
       {
         type: "multiple-choice",
@@ -1044,7 +1044,7 @@ export const FR_B2_U17: Lesson[] = [
         en: "A year later, she [became] team captain.",
         sentence: "Un an plus tard, elle ___ capitaine de l'équipe.",
         answer: "est devenue",
-        explanation: "\"Devenir\" takes être, so \"devenue\" agrees with elle. No article before a role after devenir.",
+        explanation: "\"Devenir\" takes \"être\", so \"devenue\" agrees with \"elle\". No article before a role after \"devenir\".",
       },
       {
         type: "translate",
@@ -1080,7 +1080,7 @@ export const FR_B2_U17: Lesson[] = [
         type: "speak",
         text: "Cette blessure m'a rendue plus patiente.",
         prompt: "Say it in French, as Inès: This injury made me more patient.",
-        explanation: "\"Rendre\" + adjective; Inès is a woman, so \"rendue\" and \"patiente\" (both audible in \"patiente\").",
+        explanation: "\"Rendre\" + adjective; Inès is a woman, so \"rendue\" and \"patiente\" (only the t of \"patiente\" is audible; \"rendue\" sounds like \"rendu\").",
       },
     ],
   },
@@ -1095,9 +1095,9 @@ export const FR_B2_U17: Lesson[] = [
       {
         heading: "Station 1: giving the cause",
         body: [
-          "\"Parce que\" is the neutral 'because' and answers pourquoi. Around it, French has specialists. \"Car\" ('for, because') is written and slightly formal; it always comes after the main clause, after a comma, and can never open a sentence or answer a question: *\"Car il pleuvait.\" is wrong.",
+          "\"Parce que\" is the neutral 'because' and answers \"pourquoi\". Around it, French has specialists. \"Car\" ('for, because') is written and slightly formal; it always comes after the main clause, after a comma, and can never open a sentence or answer a question: *\"Car il pleuvait.\" is wrong.",
           "\"Comme\" ('as, since') is the opposite: it only works at the start of the sentence, giving the cause before the effect: \"Comme il pleuvait, nous sommes restés à la maison.\" \"Puisque\" ('since') presents the cause as already known or obvious to the listener, often with a hint of 'so stop arguing': \"Puisque tu es là, aide-moi.\"",
-          "\"Étant donné que\" and \"vu que\" ('given that, seeing that') present an established fact as the basis for a decision; étant donné que is formal, vu que more spoken. All of these take the indicative.",
+          "\"Étant donné que\" and \"vu que\" ('given that, seeing that') present an established fact as the basis for a decision; \"étant donné que\" is formal, \"vu que\" more spoken. All of these take the indicative.",
         ],
         examples: [
           { es: "Nous sommes restés à la maison parce qu'il pleuvait.", en: "We stayed at home because it was raining." },
@@ -1136,9 +1136,9 @@ export const FR_B2_U17: Lesson[] = [
       {
         heading: "Station 2: grâce à, à cause de, en raison de",
         body: [
-          "Before a noun or pronoun, French distinguishes the cause by its result. \"Grâce à\" ('thanks to') for a good result: \"grâce à toi, j'ai eu mon examen\". \"À cause de\" ('because of') for a bad one: \"à cause de la grève, j'ai raté mon avion\". Using grâce à for a disaster sounds ironic.",
+          "Before a noun or pronoun, French distinguishes the cause by its result. \"Grâce à\" ('thanks to') for a good result: \"grâce à toi, j'ai eu mon examen\". \"À cause de\" ('because of') for a bad one: \"à cause de la grève, j'ai raté mon avion\". Using \"grâce à\" for a disaster sounds ironic.",
           "\"En raison de\" ('owing to, due to') is neutral and formal, the language of announcements: \"en raison des travaux, la gare est fermée\". Don't contract wrongly: \"à cause du bruit\", \"grâce aux bénévoles\", \"en raison des intempéries\".",
-          "These are prepositions, so they take a noun, not a clause: *\"à cause de il pleuvait\" is impossible. With a verb, go back to parce que or comme.",
+          "These are prepositions, so they take a noun, not a clause: *\"à cause de il pleuvait\" is impossible. With a verb, go back to \"parce que\" or \"comme\".",
         ],
         examples: [
           { es: "Grâce à toi, j'ai eu mon examen.", en: "Thanks to you, I passed my exam." },
@@ -1164,7 +1164,7 @@ export const FR_B2_U17: Lesson[] = [
             en: "The festival was able to go ahead [thanks to the] volunteers.",
             sentence: "Le festival a pu avoir lieu ___ bénévoles.",
             answer: "grâce aux",
-            explanation: "A positive result: \"grâce à\", contracted with les: \"grâce aux\".",
+            explanation: "A positive result: \"grâce à\", contracted with \"les\": \"grâce aux\".",
           },
         ],
       },
@@ -1172,7 +1172,7 @@ export const FR_B2_U17: Lesson[] = [
         heading: "Station 3: the consequence, and where donc goes",
         body: [
           "Consequences always come after the cause. \"Donc\" ('so, therefore') is the basic one. In speech it opens the clause (\"il était fatigué, donc il est rentré\"), but in good written French it slips in after the verb, or between the auxiliary and the participle: \"Il était fatigué ; il est donc rentré.\" \"Alors\" is the spoken 'so': \"alors on a appelé un taxi\".",
-          "\"C'est pourquoi\" ('that's why') opens a new sentence: \"Les loyers ont explosé. C'est pourquoi les familles quittent le centre.\" \"Par conséquent\" ('consequently') is formal and mobile like cependant: \"Le dossier est incomplet ; il ne peut par conséquent pas être traité.\"",
+          "\"C'est pourquoi\" ('that's why') opens a new sentence: \"Les loyers ont explosé. C'est pourquoi les familles quittent le centre.\" \"Par conséquent\" ('consequently') is formal and mobile like \"cependant\": \"Le dossier est incomplet ; il ne peut par conséquent pas être traité.\"",
           "\"Si bien que\" ('so that, with the result that') joins the result to the cause in one sentence, with the indicative (Unit 4): \"Il a neigé toute la nuit, si bien que les écoles sont fermées.\" Don't confuse it with \"de sorte que\" + subjunctive, which expresses a purpose.",
         ],
         examples: [
@@ -1281,7 +1281,7 @@ export const FR_B2_U17: Lesson[] = [
           { left: "si bien que", right: "Result, joined in one sentence" },
           { left: "par conséquent", right: "Result, formal and mobile" },
         ],
-        explanation: "Cause: car (never first), comme (always first), puisque (shared knowledge). Result: si bien que (+ indicative), par conséquent (formal).",
+        explanation: "Cause: \"car\" (never first), \"comme\" (always first), \"puisque\" (shared knowledge). Result: \"si bien que\" (+ indicative), \"par conséquent\" (formal).",
       },
       {
         type: "translate",
@@ -1295,7 +1295,7 @@ export const FR_B2_U17: Lesson[] = [
       {
         type: "dictation",
         audio: "Le vol a été retardé en raison du brouillard.",
-        explanation: "\"En raison du\": de + le contracts. \"Retardé\": delayed.",
+        explanation: "\"En raison du\": \"de\" + \"le\" contracts. \"Retardé\": delayed.",
       },
       {
         type: "speak",
@@ -1358,7 +1358,7 @@ export const FR_B2_U17: Lesson[] = [
         heading: "Inside: verbal adjectives and present participles",
         body: [
           "Descriptions use the adjectif verbal, an -ant word that agrees like any adjective: \"une lumière éblouissante\", \"des vagues menaçantes\", \"une odeur apaisante\". It describes a lasting quality.",
-          "The present participle without en is invariable and written: it replaces a qui clause or gives a cause. \"Une maison dominant la baie\" (= qui domine), \"Étant fermée depuis dix ans, la maison sentait l'humidité.\"",
+          "The present participle without \"en\" is invariable and written: it replaces a \"qui\" clause or gives a cause. \"Une maison dominant la baie\" (= qui domine), \"Étant fermée depuis dix ans, la maison sentait l'humidité.\"",
           "Watch the spelling pairs from Unit 13: the participle keeps the verb's spelling, the adjective sometimes changes it: \"fatiguant\" / \"fatigant\", \"convainquant\" / \"convaincant\", \"précédant\" / \"précédent\". \"Le trajet était fatigant\" (adjective, no u).",
         ],
         examples: [
@@ -1410,7 +1410,7 @@ export const FR_B2_U17: Lesson[] = [
             prompt: "Translate into French.",
             source: "The garden has become a small forest.",
             answer: "Le jardin est devenu une petite forêt.",
-            explanation: "\"Devenir\" takes être: \"est devenu\".",
+            explanation: "\"Devenir\" takes \"être\": \"est devenu\".",
           },
           {
             type: "translate",
@@ -1419,13 +1419,13 @@ export const FR_B2_U17: Lesson[] = [
             source: "This visit made me nostalgic.",
             answer: "Cette visite m'a rendue nostalgique.",
             altAnswers: ["Cette visite m'a rendu nostalgique."],
-            explanation: "\"Rendre\" + adjective, never *faire nostalgique. Élise is a woman, so \"rendue\" agrees with m'.",
+            explanation: "\"Rendre\" + adjective, never *faire nostalgique. Élise is a woman, so \"rendue\" agrees with \"m'\".",
           },
           {
             type: "speak",
             text: "Les volets bleus ont pâli avec le soleil.",
             prompt: "Say it in French: The blue shutters have faded in the sun.",
-            explanation: "\"Pâlir\": an -ir verb made from \"pâle\", conjugated like finir.",
+            explanation: "\"Pâlir\": an -ir verb made from \"pâle\", conjugated like \"finir\".",
           },
         ],
       },
@@ -1438,7 +1438,7 @@ export const FR_B2_U17: Lesson[] = [
         source: "Even though I knew the house was no longer ours, I wanted to go in.",
         answer: "Tout en sachant que la maison n'était plus à nous, j'avais envie d'y entrer.",
         altAnswers: ["Tout en sachant que la maison n'était plus à nous, je voulais y entrer.", "Bien que je sache que la maison n'était plus à nous, j'avais envie d'y entrer."],
-        explanation: "\"Tout en sachant\": concession with the gérondif (sachant, irregular). \"Être à nous\": to belong to us.",
+        explanation: "\"Tout en sachant\": concession with the gérondif (\"sachant\", irregular). \"Être à nous\": to belong to us.",
       },
       {
         type: "translate",
@@ -1446,8 +1446,8 @@ export const FR_B2_U17: Lesson[] = [
         prompt: "Translate into French.",
         source: "Our neighbour has aged a lot, but he recognised us.",
         answer: "Notre voisin a beaucoup vieilli, mais il nous a reconnus.",
-        altAnswers: ["Notre voisin a beaucoup vieilli, mais il nous a reconnues.", "Notre voisin a beaucoup vieilli ; il nous a cependant reconnus."],
-        explanation: "\"Vieillir\" with avoir. \"Reconnus\" agrees with nous, placed before the verb.",
+        altAnswers: ["Notre voisin a beaucoup vieilli, mais il nous a reconnues.", "Notre voisin a beaucoup vieilli ; il nous a cependant reconnus.", "Notre voisin a beaucoup vieilli, mais il nous a quand même reconnus."],
+        explanation: "\"Vieillir\" with \"avoir\". \"Reconnus\" agrees with \"nous\", placed before the verb.",
       },
       {
         type: "fill-blank",
@@ -1465,7 +1465,7 @@ export const FR_B2_U17: Lesson[] = [
         source: "My brother knocked down an old frame by pushing the door.",
         answer: "Mon frère a fait tomber un vieux cadre en poussant la porte.",
         altAnswers: ["En poussant la porte, mon frère a fait tomber un vieux cadre."],
-        explanation: "\"En poussant\": gérondif of means. 'Knock down' = \"faire tomber\" (causative faire).",
+        explanation: "\"En poussant\": gérondif of means. 'Knock down' = \"faire tomber\" (causative \"faire\").",
       },
       {
         type: "multiple-choice",
@@ -1481,14 +1481,14 @@ export const FR_B2_U17: Lesson[] = [
         source: "The old garage has been turned into a painting studio.",
         answer: "Le vieux garage s'est transformé en atelier de peinture.",
         altAnswers: ["Le vieux garage a été transformé en atelier de peinture.", "L'ancien garage s'est transformé en atelier de peinture.", "L'ancien garage a été transformé en atelier de peinture."],
-        explanation: "\"Se transformer en\" (or the passive \"a été transformé en\"), with no article after en.",
+        explanation: "\"Se transformer en\" (or the passive \"a été transformé en\"), with no article after \"en\".",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: Having been shut for ten years, the house smelt of damp.",
         words: ["Étant fermée", "depuis dix ans,", "la maison", "sentait", "l'humidité."],
         translation: "Having been shut for ten years, the house smelt of damp.",
-        explanation: "\"Étant fermée\": a present participle of cause, in written style; \"fermée\" agrees with la maison.",
+        explanation: "\"Étant fermée\": a present participle of cause, in written style; \"fermée\" agrees with \"la maison\".",
       },
       {
         type: "translate",
@@ -1502,14 +1502,14 @@ export const FR_B2_U17: Lesson[] = [
       {
         type: "dictation",
         audio: "Une lumière éblouissante entrait par les fenêtres.",
-        explanation: "\"Éblouissante\": adjectif verbal agreeing with une lumière.",
+        explanation: "\"Éblouissante\": adjectif verbal agreeing with \"une lumière\".",
       },
       {
         type: "speak",
         text: "En arrivant, nous avons tout de suite vu la mer.",
         prompt: "Say it in French: When we arrived, we saw the sea straight away.",
         tip: "Link \"nous avons\": nou-zavons.",
-        explanation: "\"En arrivant\" shares the subject nous with the main verb.",
+        explanation: "\"En arrivant\" shares the subject \"nous\" with the main verb.",
       },
     ],
   },
@@ -1558,7 +1558,7 @@ export const FR_B2_U17: Lesson[] = [
             question: "What does it mean?",
             options: ["And yet many teachers still give some.", "So many teachers have stopped giving it.", "Moreover, a few teachers give a lot.", "Many teachers, however, refuse to give it."],
             correctIndex: 0,
-            explanation: "\"Pourtant\" = and yet; \"continuer de\" = to keep on; \"en\" stands for des devoirs.",
+            explanation: "\"Pourtant\" = and yet; \"continuer de\" = to keep on; \"en\" stands for \"des devoirs\".",
           },
         ],
       },
@@ -1583,7 +1583,7 @@ export const FR_B2_U17: Lesson[] = [
             prompt: "Translate into French.",
             source: "Not all children have someone to help them in the evening.",
             answer: "Tous les enfants n'ont pas quelqu'un pour les aider le soir.",
-            altAnswers: ["Les enfants n'ont pas tous quelqu'un pour les aider le soir.", "Tous les enfants n'ont pas quelqu'un pour les aider le soir venu."],
+            altAnswers: ["Les enfants n'ont pas tous quelqu'un pour les aider le soir."],
             explanation: "'Not all' = \"tous... ne... pas\" or \"ne... pas tous\". \"Aucun enfant n'a\" would mean none.",
           },
           {
@@ -1625,7 +1625,7 @@ export const FR_B2_U17: Lesson[] = [
             type: "speak",
             text: "Certes, les inégalités existent ; toutefois, supprimer les devoirs ne les fera pas disparaître.",
             prompt: "Say it in French: Granted, inequalities exist; however, scrapping homework won't make them disappear.",
-            explanation: "Concession with \"certes\", then the counter-argument with \"toutefois\". \"Fera disparaître\": causative faire.",
+            explanation: "Concession with \"certes\", then the counter-argument with \"toutefois\". \"Fera disparaître\": causative \"faire\".",
           },
         ],
       },
@@ -1767,8 +1767,8 @@ export const FR_B2_U17: Lesson[] = [
       {
         heading: "Illustrating and drawing a conclusion: notamment, en effet, ainsi",
         body: [
-          "To illustrate: \"par exemple\", and \"notamment\" ('in particular, including'): \"plusieurs villes, notamment Lyon et Grenoble, ont réduit la place de la voiture\". Notamment is a favourite of French journalists.",
-          "\"Ainsi\" means 'thus, in this way' and introduces either an example or a consequence. In formal writing, when ainsi opens the sentence to state a consequence, the subject pronoun is often inverted: \"Ainsi a-t-il décidé de partir.\" (He thus decided to leave.) With a noun subject, the noun stays first and a pronoun is added after the verb: \"Ainsi la ville a-t-elle perdu son marché.\" In speech, no inversion: \"ainsi, il a décidé de partir\".",
+          "To illustrate: \"par exemple\", and \"notamment\" ('in particular, including'): \"plusieurs villes, notamment Lyon et Grenoble, ont réduit la place de la voiture\". \"Notamment\" is a favourite of French journalists.",
+          "\"Ainsi\" means 'thus, in this way' and introduces either an example or a consequence. In formal writing, when \"ainsi\" opens the sentence to state a consequence, the subject pronoun is often inverted: \"Ainsi a-t-il décidé de partir.\" (He thus decided to leave.) With a noun subject, the noun stays first and a pronoun is added after the verb: \"Ainsi la ville a-t-elle perdu son marché.\" In speech, no inversion: \"ainsi, il a décidé de partir\".",
           "The same inversion appears after \"aussi\" at the head of a sentence, where it means 'therefore', not 'also': \"Aussi a-t-elle refusé.\" Recognise it in reading; you will rarely need to produce it.",
         ],
         examples: [
@@ -1802,7 +1802,7 @@ export const FR_B2_U17: Lesson[] = [
         heading: "Wrapping up: bref, en somme, en définitive, finalement, enfin",
         body: [
           "To sum up: \"bref\" ('in short, anyway') is common in speech and informal writing, often to cut a story short: \"Bref, on a raté le train.\" \"En somme\" and \"en résumé\" summarise; \"en définitive\" ('when all is said and done') and \"en conclusion\" close an essay.",
-          "\"Finalement\" means 'in the end, eventually': the outcome after some hesitation or delay: \"Finalement, nous avons choisi la maison.\" \"Enfin\" means 'finally' as the last item of a list, or 'at last' with relief: \"Enfin, tu es là !\" In speech, enfin also corrects or softens: \"Il est sympa, enfin, la plupart du temps.\" (well, most of the time).",
+          "\"Finalement\" means 'in the end, eventually': the outcome after some hesitation or delay: \"Finalement, nous avons choisi la maison.\" \"Enfin\" means 'finally' as the last item of a list, or 'at last' with relief: \"Enfin, tu es là !\" In speech, \"enfin\" also corrects or softens: \"Il est sympa, enfin, la plupart du temps.\" (well, most of the time).",
         ],
         examples: [
           { es: "Bref, on a raté le train et on est rentrés à pied.", en: "Anyway, we missed the train and walked home." },
@@ -1926,7 +1926,7 @@ export const FR_B2_U17: Lesson[] = [
         source: "Anyway, we missed the train and walked home.",
         answer: "Bref, on a raté le train et on est rentrés à pied.",
         altAnswers: ["Bref, nous avons raté le train et nous sommes rentrés à pied.", "Bref, on a manqué le train et on est rentrés à pied.", "Bref, on a raté le train et on est rentré à pied.", "Bref, on a raté le train et on est rentrées à pied."],
-        explanation: "\"Bref\" cuts a story short. With \"on\" = nous, the participle usually agrees in the plural.",
+        explanation: "\"Bref\" cuts a story short. With \"on\" = \"nous\", the participle usually agrees in the plural.",
       },
       {
         type: "translate",
@@ -1954,7 +1954,7 @@ export const FR_B2_U17: Lesson[] = [
           { left: "en fait", right: "actually" },
           { left: "finalement", right: "eventually, in the end" },
         ],
-        explanation: "The three false friends: actuellement (currently), éventuellement (possibly), en effet (indeed). 'Actually' is en fait, 'eventually' finalement.",
+        explanation: "The three false friends: \"actuellement\" (currently), \"éventuellement\" (possibly), \"en effet\" (indeed). 'Actually' is \"en fait\", 'eventually' \"finalement\".",
       },
       {
         type: "dictation",
@@ -1982,7 +1982,7 @@ export const FR_B2_U17: Lesson[] = [
         heading: "The raw material and the thesis",
         body: [
           "The topic, typical of the DELF B2: \"Faut-il interdire les voitures dans les centres-villes ?\" Here are Lucas's notes, in short loose sentences: \"Les voitures polluent. Les centres-villes sont bruyants. Les commerçants ont peur. Les personnes âgées ont besoin de leur voiture. Les transports en commun se sont améliorés.\" Individually correct, together they don't argue anything.",
-          "A French argumentative paragraph has a skeleton: an idée directrice (the main claim), arguments joined by cause and addition, at least one example, a concession, and a closing sentence that links back to the thesis. Lucas's thesis: \"Il faut réduire fortement la place de la voiture en ville.\"",
+          "A French argumentative paragraph has a skeleton: an \"idée directrice\" (the main claim), arguments joined by cause and addition, at least one example, a concession, and a closing sentence that links back to the thesis. Lucas's thesis: \"Il faut réduire fortement la place de la voiture en ville.\"",
           "Start by stating the claim and giving its first reason with a cause connector: \"Il faut réduire la place de la voiture en ville, car elle est responsable d'une grande partie de la pollution.\"",
         ],
         examples: [
@@ -2024,7 +2024,7 @@ export const FR_B2_U17: Lesson[] = [
         heading: "Adding the concession",
         body: [
           "A convincing paragraph faces the objections. Lucas has two in his notes: shopkeepers are afraid, and elderly people need their cars. He grants them with \"certes\" or \"il est vrai que\", then answers with \"cependant\" or \"toutefois\": \"Certes, les commerçants craignent de perdre des clients ; cependant, l'exemple de Pontevedra, en Espagne, montre le contraire.\"",
-          "For the second objection, a condition works well: \"Il faudra toutefois prévoir des exceptions, à condition qu'elles restent limitées.\" Notice the mix: connectors (certes, cependant, toutefois) and subjunctive conjunctions from Unit 3 (à condition que, pour que).",
+          "For the second objection, a condition works well: \"Il faudra toutefois prévoir des exceptions, à condition qu'elles restent limitées.\" Notice the mix: connectors (\"certes\", \"cependant\", \"toutefois\") and subjunctive conjunctions from Unit 3 (\"à condition que\", \"pour que\").",
         ],
         examples: [
           { es: "Certes, les commerçants craignent de perdre des clients.", en: "Admittedly, shopkeepers fear losing customers." },
@@ -2059,7 +2059,7 @@ export const FR_B2_U17: Lesson[] = [
         heading: "The conclusion and the finished paragraph",
         body: [
           "The closing sentence draws the consequence and echoes the thesis: \"En définitive, réduire la place de la voiture n'est pas une punition ; c'est au contraire une chance de rendre la ville aux habitants.\" \"Donc\", \"par conséquent\" or \"c'est pourquoi\" can also introduce it.",
-          "Read the finished paragraph aloud and check three things: each connector expresses the right relation, no connector is repeated, and register stays formal (no par contre, en plus, alors).",
+          "Read the finished paragraph aloud and check three things: each connector expresses the right relation, no connector is repeated, and register stays formal (no \"par contre\", \"en plus\", \"alors\").",
         ],
         examples: [
           { es: "Il faut réduire la place de la voiture en ville, car elle pollue énormément.", en: "We must reduce the space given to cars in the city, because they pollute enormously." },
@@ -2136,7 +2136,7 @@ export const FR_B2_U17: Lesson[] = [
         source: "Moreover, engine noise harms residents' health.",
         answer: "De plus, le bruit des moteurs nuit à la santé des habitants.",
         altAnswers: ["En outre, le bruit des moteurs nuit à la santé des habitants.", "Par ailleurs, le bruit des moteurs nuit à la santé des habitants.", "De plus, le bruit des moteurs est mauvais pour la santé des habitants."],
-        explanation: "\"Nuire à\" takes à: \"nuit à la santé\".",
+        explanation: "\"Nuire\" takes \"à\": \"nuit à la santé\".",
       },
       {
         type: "word-order",
@@ -2157,7 +2157,7 @@ export const FR_B2_U17: Lesson[] = [
       {
         type: "dictation",
         audio: "C'est pourquoi la piétonnisation doit être progressive.",
-        explanation: "\"C'est pourquoi\" introduces the consequence; \"progressive\" agrees with la piétonnisation.",
+        explanation: "\"C'est pourquoi\" introduces the consequence; \"progressive\" agrees with \"la piétonnisation\".",
       },
       {
         type: "speak",
@@ -2179,8 +2179,8 @@ export const FR_B2_U17: Lesson[] = [
         heading: "A building's history in the passive",
         body: [
           "In Saint-Aubin, a small town in the Loire valley, the covered market (\"la halle\") is threatened: the council wants to replace it with a car park. Vocabulary: \"le patrimoine\" (heritage), \"un monument historique\" (a listed building), \"classer un bâtiment\" (to list a building), \"démolir\" (to demolish), \"restaurer\" (to restore), \"une pétition\" (a petition).",
-          "Histories of buildings are told in the passive, because the building is the topic: \"la halle a été construite en 1887\", \"elle a été agrandie en 1920\". The participle agrees with the subject (\"construite\", feminine), and the agent comes with par: \"elle a été dessinée par un élève de Gustave Eiffel\".",
-          "For background states use the imparfait passive: \"à l'époque, la halle était fréquentée par tous les paysans de la région\". And remember the alternatives with on: \"on l'a restaurée en 1985\".",
+          "Histories of buildings are told in the passive, because the building is the topic: \"la halle a été construite en 1887\", \"elle a été agrandie en 1920\". The participle agrees with the subject (\"construite\", feminine), and the agent comes with \"par\": \"elle a été dessinée par un élève de Gustave Eiffel\".",
+          "For background states use the imparfait passive: \"à l'époque, la halle était fréquentée par tous les paysans de la région\". And remember the alternatives with \"on\": \"on l'a restaurée en 1985\".",
         ],
         examples: [
           { es: "La halle a été construite en 1887.", en: "The covered market was built in 1887." },
@@ -2198,7 +2198,7 @@ export const FR_B2_U17: Lesson[] = [
             source: "It was designed by a pupil of Gustave Eiffel.",
             answer: "Elle a été dessinée par un élève de Gustave Eiffel.",
             altAnswers: ["Elle a été conçue par un élève de Gustave Eiffel.", "La halle a été dessinée par un élève de Gustave Eiffel.", "La halle a été conçue par un élève de Gustave Eiffel."],
-            explanation: "Passé composé passive: \"a été\" + participle agreeing with la halle (\"dessinée\"); agent with par.",
+            explanation: "Passé composé passive: \"a été\" + participle agreeing with \"la halle\" (\"dessinée\"); agent with \"par\".",
           },
           {
             type: "translate",
@@ -2241,7 +2241,7 @@ export const FR_B2_U17: Lesson[] = [
             source: "Given that the building isn't listed, it can be demolished.",
             answer: "Étant donné que le bâtiment n'est pas classé, il peut être démoli.",
             altAnswers: ["Vu que le bâtiment n'est pas classé, il peut être démoli.", "Comme le bâtiment n'est pas classé, il peut être démoli.", "Étant donné que le bâtiment n'est pas classé, on peut le démolir."],
-            explanation: "\"Étant donné que\" + indicative; passive infinitive \"être démoli\" after pouvoir.",
+            explanation: "\"Étant donné que\" + indicative; passive infinitive \"être démoli\" after \"pouvoir\".",
           },
           {
             type: "fill-blank",
@@ -2276,7 +2276,7 @@ export const FR_B2_U17: Lesson[] = [
             source: "If the market were demolished, the town would lose part of its soul.",
             answer: "Si la halle était démolie, la ville perdrait une partie de son âme.",
             altAnswers: ["Si on démolissait la halle, la ville perdrait une partie de son âme.", "Si le marché couvert était démoli, la ville perdrait une partie de son âme."],
-            explanation: "Si + imparfait (passive \"était démolie\") → conditionnel présent \"perdrait\".",
+            explanation: "\"Si\" + imparfait (passive \"était démolie\") → conditionnel présent \"perdrait\".",
           },
           {
             type: "speak",
@@ -2295,7 +2295,7 @@ export const FR_B2_U17: Lesson[] = [
         source: "The covered market was built in 1887.",
         answer: "La halle a été construite en 1887.",
         altAnswers: ["Le marché couvert a été construit en 1887.", "La halle fut construite en 1887."],
-        explanation: "Passé composé passive; \"construite\" agrees with la halle.",
+        explanation: "Passé composé passive; \"construite\" agrees with \"la halle\".",
       },
       {
         type: "translate",
@@ -2338,7 +2338,7 @@ export const FR_B2_U17: Lesson[] = [
         source: "It was extended in 1920, then restored in 1985.",
         answer: "Elle a été agrandie en 1920, puis restaurée en 1985.",
         altAnswers: ["La halle a été agrandie en 1920, puis restaurée en 1985.", "Elle a été agrandie en 1920 et restaurée en 1985."],
-        explanation: "Two passives sharing one auxiliary; both participles agree with elle.",
+        explanation: "Two passives sharing one auxiliary; both participles agree with \"elle\".",
       },
       {
         type: "word-order",
@@ -2359,13 +2359,13 @@ export const FR_B2_U17: Lesson[] = [
       {
         type: "dictation",
         audio: "La décision a été prise sans que les habitants soient consultés.",
-        explanation: "\"Prise\" agrees with la décision; \"sans que\" + subjunctive passive.",
+        explanation: "\"Prise\" agrees with \"la décision\"; \"sans que\" + subjunctive passive.",
       },
       {
         type: "speak",
         text: "Si la halle était démolie, la ville perdrait une partie de son âme.",
         prompt: "Say it in French: If the market were demolished, the town would lose part of its soul.",
-        explanation: "Si + imparfait → conditionnel présent, with a passive in the si clause.",
+        explanation: "\"Si\" + imparfait → conditionnel présent, with a passive in the \"si\" clause.",
       },
     ],
   },
@@ -2382,7 +2382,7 @@ export const FR_B2_U17: Lesson[] = [
         body: [
           "These sentences come from real Upper-intermediate essays. First: *\"Malgré que le loyer soit cher, je reste.\" \"Malgré que\" exists in speech, but it is condemned by grammarians and marked down in exams. Use \"bien que\" + subjunctive (\"bien que le loyer soit cher\"), or \"malgré\" + noun (\"malgré le prix du loyer\").",
           "Second: *\"Car le train était en retard, je suis arrivé en retard.\" \"Car\" never opens a sentence. Put the effect first (\"je suis arrivé en retard, car le train...\") or use \"comme\" at the start (\"comme le train était en retard...\").",
-          "Third: *\"Il est fatigué, donc il a travaillé toute la nuit.\" The logic is reversed: donc introduces a consequence, not a cause. Either \"il est fatigué, car il a travaillé\" or \"il a travaillé toute la nuit, donc il est fatigué\".",
+          "Third: *\"Il est fatigué, donc il a travaillé toute la nuit.\" The logic is reversed: \"donc\" introduces a consequence, not a cause. Either \"il est fatigué, car il a travaillé\" or \"il a travaillé toute la nuit, donc il est fatigué\".",
         ],
         examples: [
           { es: "Bien que le loyer soit cher, je reste dans cet appartement.", en: "Although the rent is high, I'm staying in this flat." },
@@ -2460,7 +2460,7 @@ export const FR_B2_U17: Lesson[] = [
         heading: "Register and meaning: par contre, or, mais cependant",
         body: [
           "*\"Par contre, les avantages sont nombreux\" in a DELF essay is not a grammar error, but it lowers the register: write \"en revanche\" or \"toutefois\". Likewise \"en plus\" → \"de plus\", \"alors\" → \"donc\" / \"par conséquent\", \"ça\" → \"cela\".",
-          "*\"Tu veux du thé or du café ?\" English 'or' is \"ou\"; \"or\" only introduces a decisive fact in an argument. And *\"mais cependant\", *\"mais pourtant\": one connector is enough. (\"Et pourtant\" is fine: et is an addition, not a second 'but'.)",
+          "*\"Tu veux du thé or du café ?\" English 'or' is \"ou\"; \"or\" only introduces a decisive fact in an argument. And *\"mais cependant\", *\"mais pourtant\": one connector is enough. (\"Et pourtant\" is fine: \"et\" is an addition, not a second 'but'.)",
         ],
         examples: [
           { es: "En revanche, les avantages sont nombreux.", en: "On the other hand, the advantages are many." },
@@ -2478,7 +2478,7 @@ export const FR_B2_U17: Lesson[] = [
             source: "This poses a problem; consequently, we must act.",
             answer: "Cela pose un problème ; par conséquent, nous devons agir.",
             altAnswers: ["Cela pose problème ; par conséquent, nous devons agir.", "Cela pose un problème ; nous devons par conséquent agir.", "Cela pose un problème ; nous devons donc agir.", "Cela pose un problème ; c'est pourquoi nous devons agir."],
-            explanation: "Formal: \"cela\" (not ça), \"par conséquent\" or \"donc\" (not alors), \"nous\" (not on).",
+            explanation: "Formal: \"cela\" (not \"ça\"), \"par conséquent\" or \"donc\" (not \"alors\"), \"nous\" (not \"on\").",
           },
           {
             type: "speak",
@@ -2513,7 +2513,7 @@ export const FR_B2_U17: Lesson[] = [
         question: "Which sentence is correct?",
         options: ["Bien qu'il soit malade, il est venu.", "Malgré qu'il soit malade, il est venu.", "Malgré qu'il est malade, il est venu.", "Bien qu'il est malade, il est venu."],
         correctIndex: 0,
-        explanation: "\"Bien que\" + subjunctive. \"Malgré que\" is avoided, and the indicative is wrong after bien que.",
+        explanation: "\"Bien que\" + subjunctive. \"Malgré que\" is avoided, and the indicative is wrong after \"bien que\".",
       },
       {
         type: "fill-blank",
@@ -2554,12 +2554,12 @@ export const FR_B2_U17: Lesson[] = [
         prompt: "Put the words in order to say: He had promised to come, and yet he didn't come.",
         words: ["Il avait promis", "de venir,", "et pourtant", "il n'est pas", "venu."],
         translation: "He had promised to come, and yet he didn't come.",
-        explanation: "\"Et pourtant\" is correct: et adds, pourtant contrasts. Only *mais pourtant doubles the 'but'.",
+        explanation: "\"Et pourtant\" is correct: \"et\" adds, \"pourtant\" contrasts. Only *mais pourtant doubles the 'but'.",
       },
       {
         type: "multiple-choice",
         question: "The learner wrote: « Je pensais que l'examen serait facile. En effet, il était très difficile. » What's wrong?",
-        options: ["En effet confirms; a correction needs en fait.", "En effet must go at the end of the sentence.", "Nothing: en effet means 'in fact'.", "It should be « actuellement »."],
+        options: ["\"En effet\" confirms; a correction needs \"en fait\".", "\"En effet\" must go at the end of the sentence.", "Nothing: \"en effet\" means 'in fact'.", "It should be \"actuellement\"."],
         correctIndex: 0,
         explanation: "The second sentence contradicts the expectation, so it needs \"en fait\" / \"en réalité\".",
       },
@@ -2588,7 +2588,7 @@ export const FR_B2_U17_WRITING: WriteExercise = {
     "Concedes a point with \"certes... mais\" or \"il est vrai que... toutefois\"",
     "Uses at least two contrast connectors correctly: \"cependant\", \"pourtant\", \"en revanche\" or \"or\"",
     "Gives causes and consequences with \"car\", \"comme\", \"étant donné que\", \"par conséquent\" or \"c'est pourquoi\"",
-    "Adds and concludes with \"de plus\", \"en outre\" or \"par ailleurs\", and \"en définitive\" or \"en somme\", with no false friends (\"actuellement\", \"éventuellement\", \"en effet\")",
+    "Adds and concludes with \"de plus\", \"en outre\" or \"par ailleurs\", and \"en définitive\" or \"en somme\", with no misused false friends (\"actuellement\" only for 'currently', \"éventuellement\" only for 'possibly', \"en effet\" only to confirm)",
   ],
   modelAnswer: "Madame, Monsieur,\n\nJ'ai appris avec inquiétude que la mairie envisageait de fermer la bibliothèque municipale pour la remplacer par un service en ligne. Certes, la commune doit faire des économies, et il est vrai que les prêts de livres ont baissé ces dernières années. Cependant, une bibliothèque n'est pas seulement un lieu où l'on emprunte des livres.\n\nEn effet, c'est l'un des rares endroits gratuits et chauffés où tout le monde est bienvenu. Les étudiants y travaillent, les personnes âgées y lisent le journal et les enfants y découvrent la lecture. Or, beaucoup d'habitants n'ont pas d'ordinateur ou ne savent pas l'utiliser. Un service en ligne les exclurait donc complètement.\n\nDe plus, comme la bibliothèque organise des ateliers et des lectures, elle crée du lien entre les générations. Un site internet, en revanche, ne remplacera jamais une bibliothécaire qui conseille un lecteur.\n\nEn définitive, fermer la bibliothèque ferait économiser peu d'argent mais coûterait cher à la vie du quartier. C'est pourquoi je demande au conseil municipal de renoncer à ce projet.\n\nVeuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées.",
   explanation: "The letter concedes (\"certes\", \"il est vrai que\") before objecting (\"cependant\"). \"En effet\" confirms and explains the previous claim, \"or\" introduces the decisive fact, and \"donc\" sits after the verb in written style. \"Comme\" opens a sentence with a cause, \"en revanche\" compares two things, and \"en définitive\" and \"c'est pourquoi\" draw the conclusion.",

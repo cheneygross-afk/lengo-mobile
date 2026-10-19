@@ -8,7 +8,7 @@ export const PT_C1_U19: Lesson[] = [
     level: "PT-C1",
     number: 1,
     title: "Word Web: Public Health and the SUS",
-    summary: "The vocabulary of Brazil's public health system: the SUS, the UBS or posto de saúde, atenção básica, vaccination and vaccine coverage, epidemics, queues and mental health.",
+    summary: "The vocabulary of Brazil's public health system: the SUS, the UBS or posto de saúde, atenção básica, vaccination and vaccine coverage, epidemics, waiting lists and mental health.",
     duration: "16 min",
     sections: [
       {
@@ -20,8 +20,8 @@ export const PT_C1_U19: Lesson[] = [
         ],
         examples: [
           { es: "O SUS atende mais de 150 milhões de brasileiros que não têm plano de saúde.", en: "The SUS serves more than 150 million Brazilians who have no health insurance." },
-          { es: "Marquei uma consulta no posto de saúde para quinta-feira.", en: "I booked an appointment at the health centre for Thursday." },
-          { es: "A clínica geral me deu um encaminhamento para o cardiologista.", en: "The GP gave me a referral to the cardiologist." },
+          { es: "Marquei uma consulta no posto de saúde para quinta-feira.", en: "I booked an appointment at the health center for Thursday." },
+          { es: "A clínica geral me deu um encaminhamento para o cardiologista.", en: "The family doctor gave me a referral to the cardiologist." },
           { es: "Ele passou mal de madrugada e foi atendido na UPA.", en: "He fell ill in the middle of the night and was seen at the emergency unit." },
           { es: "Você tem convênio ou vai pelo SUS?", en: "Do you have health insurance or are you going through the SUS?" },
         ],
@@ -30,7 +30,7 @@ export const PT_C1_U19: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "My mother was seen quickly at the health centre.",
+            source: "My mother was seen quickly at the health center.",
             answer: "Minha mãe foi atendida rapidamente no posto de saúde.",
             altAnswers: [
               "A minha mãe foi atendida rapidamente no posto de saúde.",
@@ -40,7 +40,7 @@ export const PT_C1_U19: Lesson[] = [
               "Minha mãe foi atendida rápido na UBS.",
               "Minha mãe foi rapidamente atendida no posto de saúde.",
             ],
-            explanation: "The patient \"é atendido\", so the participle agrees with \"mãe\": \"atendida\". The health centre is \"o posto de saúde\" (officially the UBS).",
+            explanation: "The patient \"é atendido\", so the participle agrees with \"mãe\": \"atendida\". The health center is \"o posto de saúde\" (officially the UBS).",
           },
           {
             type: "fill-blank",
@@ -68,10 +68,10 @@ export const PT_C1_U19: Lesson[] = [
         ],
         examples: [
           { es: "A cobertura vacinal contra o sarampo ficou abaixo da meta de 95%.", en: "Measles vaccine coverage fell short of the 95% target." },
-          { es: "Levei as crianças para tomar a vacina da gripe no posto.", en: "I took the kids to get the flu jab at the health centre." },
+          { es: "Levei as crianças para tomar a vacina da gripe no posto.", en: "I took the kids to get the flu shot at the health center." },
           { es: "O município decretou epidemia de dengue depois de três mil casos em um mês.", en: "The city declared a dengue epidemic after three thousand cases in one month." },
           { es: "Houve um surto de sarampo numa escola de Manaus.", en: "There was a measles outbreak at a school in Manaus." },
-          { es: "Os agentes encontraram vários focos do mosquito em pneus velhos.", en: "The health workers found several mosquito breeding sites in old tyres." },
+          { es: "Os agentes encontraram vários focos do mosquito em pneus velhos.", en: "The health workers found several mosquito breeding sites in old tires." },
           { es: "Não deixe água parada nos vasos de plantas.", en: "Don't leave standing water in plant pots." },
         ],
         checkpoint: [
@@ -79,7 +79,7 @@ export const PT_C1_U19: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Have you had the flu jab yet?",
+            source: "Have you had the flu shot yet?",
             answer: "Você já tomou a vacina da gripe?",
             altAnswers: [
               "Já tomou a vacina da gripe?",
@@ -117,15 +117,15 @@ export const PT_C1_U19: Lesson[] = [
       {
         heading: "The system's pressures: fila de espera and saúde mental",
         body: [
-          "The SUS's chronic problem is the \"fila\". Patients wait months \"na fila de espera\" for surgery or a specialist, and journalists speak of \"demanda reprimida\" (pent-up demand) and a \"sistema sobrecarregado\" (overloaded). Programmes such as \"Mais Médicos\" sent doctors to areas with a \"falta\" or \"carência de médicos\".",
-          "\"Saúde mental\" has moved to the centre of the debate. Specialised SUS units are the \"CAPS\" (Centros de Atenção Psicossocial). Brazilians \"fazem terapia\" (are in therapy), are diagnosed with a \"transtorno de ansiedade\" (anxiety disorder) or \"depressão\", and are urged to \"procurar ajuda\". The CVV takes calls on 188 for people in crisis. \"Transtorno\" is the clinical word; \"distúrbio\" sounds older, and \"doido\" or \"louco\" about a patient is offensive.",
+          "The SUS's chronic problem is the \"fila\". Patients wait months \"na fila de espera\" for surgery or a specialist, and journalists speak of \"demanda reprimida\" (pent-up demand) and a \"sistema sobrecarregado\" (overloaded). Programs such as \"Mais Médicos\" sent doctors to areas with a \"falta\" or \"carência de médicos\".",
+          "\"Saúde mental\" has moved to the center of the debate. Specialized SUS units are the \"CAPS\" (Centros de Atenção Psicossocial). Brazilians \"fazem terapia\" (are in therapy), are diagnosed with a \"transtorno de ansiedade\" (anxiety disorder) or \"depressão\", and are urged to \"procurar ajuda\". The CVV takes calls on 188 for people in crisis. \"Transtorno\" is the clinical word; \"distúrbio\" sounds older, and \"doido\" or \"louco\" about a patient is offensive.",
         ],
         examples: [
           { es: "Minha avó está há oito meses na fila de espera para operar a catarata.", en: "My grandmother has been on the waiting list for cataract surgery for eight months." },
           { es: "Com o surto de gripe, o pronto-socorro ficou sobrecarregado.", en: "With the flu outbreak, the emergency room was overwhelmed." },
           { es: "Muitas cidades do interior ainda sofrem com a falta de médicos.", en: "Many towns in the interior still suffer from a shortage of doctors." },
           { es: "Ela faz terapia há dois anos e diz que a ajudou muito.", en: "She's been in therapy for two years and says it has helped her a lot." },
-          { es: "Ele foi diagnosticado com transtorno de ansiedade generalizada.", en: "He was diagnosed with generalised anxiety disorder." },
+          { es: "Ele foi diagnosticado com transtorno de ansiedade generalizada.", en: "He was diagnosed with generalized anxiety disorder." },
         ],
         checkpoint: [
           {
@@ -142,7 +142,7 @@ export const PT_C1_U19: Lesson[] = [
               "Milhares de pacientes aguardam na fila de espera por cirurgia.",
               "Milhares de pacientes estão na fila de espera para fazer cirurgia.",
             ],
-            explanation: "You are \"na fila\" (in the queue): \"estar na fila de espera\". \"Milhares\" is masculine: \"os milhares de pacientes\".",
+            explanation: "You are \"na fila\" (in line): \"estar na fila de espera\". \"Milhares\" is masculine: \"os milhares de pacientes\".",
           },
           {
             type: "translate",
@@ -181,7 +181,7 @@ export const PT_C1_U19: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I need to [book an appointment] with the GP.",
+        en: "I need to [book an appointment] with my family doctor.",
         sentence: "Preciso ___ com o clínico geral.",
         answer: "marcar uma consulta",
         altAnswers: ["agendar uma consulta", "marcar consulta"],
@@ -227,7 +227,7 @@ export const PT_C1_U19: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "o posto de saúde", right: "the local health centre" },
+          { left: "o posto de saúde", right: "the local health center" },
           { left: "o encaminhamento", right: "the referral" },
           { left: "o plano de saúde", right: "private health insurance" },
           { left: "o pronto-socorro", right: "the emergency room" },
@@ -280,7 +280,7 @@ export const PT_C1_U19: Lesson[] = [
       {
         type: "speak",
         text: "Eu não tenho convênio, então vou ao posto de saúde.",
-        prompt: "Say it in Portuguese: I don't have health insurance, so I go to the health centre.",
+        prompt: "Say it in Portuguese: I don't have health insurance, so I go to the health center.",
         tip: "Convênio stresses the second-last syllable: con-VÊ-nio, with a closed ê.",
         explanation: "\"Convênio\" is the everyday word for a private health plan; the public alternative is \"o posto de saúde\".",
       },
@@ -291,7 +291,7 @@ export const PT_C1_U19: Lesson[] = [
         options: [
           "The emergency room is overwhelmed because of the flu outbreak.",
           "The emergency room has closed because of the flu epidemic.",
-          "The health centre is vaccinating people against the flu.",
+          "The health center is vaccinating people against the flu.",
           "The emergency room is expecting a flu outbreak.",
         ],
         correctIndex: 0,
@@ -360,21 +360,21 @@ export const PT_C1_U19: Lesson[] = [
         body: [
           "Sleep vocabulary: \"dormir mal\", \"a qualidade do sono\", \"a insônia\", \"a privação de sono\". Brazilian spelling adds an initial e to the English word: \"o estresse\", \"estressado\", \"estressante\" (stressful). \"Stress\" with no e is old or European.",
           "Everyday sleep verbs are worth having ready: \"pegar no sono\" (to fall asleep), \"perder o sono\" (to lie awake, also to lose sleep over something), \"tirar um cochilo\" (to take a nap) and \"acordar de madrugada\". Doctors talk about \"higiene do sono\": regular hours and no screens before bed.",
-          "\"A síndrome de burnout\" (or \"esgotamento profissional\") is recognised as an occupational illness, and the noun stays in English: \"ter burnout\", \"ele está com burnout\". Someone who can't work gets an \"atestado médico\" (a doctor's note) and is \"afastado do trabalho\" (signed off), on \"licença médica\". In speech: \"tô esgotada\", \"não aguento mais\".",
+          "\"A síndrome de burnout\" (or \"esgotamento profissional\") is recognized as an occupational illness, and the noun stays in English: \"ter burnout\", \"ele está com burnout\". Someone who can't work gets an \"atestado médico\" (a doctor's note) and is \"afastado do trabalho\" (put on sick leave), on \"licença médica\". In speech: \"tô esgotada\", \"não aguento mais\".",
         ],
         examples: [
           { es: "Ando dormindo mal e acordo cansado todos os dias.", en: "I've been sleeping badly and I wake up tired every day." },
           { es: "A privação de sono afeta a memória e o humor.", en: "Sleep deprivation affects memory and mood." },
           { es: "O fim do semestre é sempre muito estressante.", en: "The end of the semester is always very stressful." },
-          { es: "Ela foi afastada do trabalho por causa da síndrome de burnout.", en: "She was signed off work because of burnout." },
-          { es: "O médico me deu um atestado de cinco dias.", en: "The doctor gave me a five-day sick note." },
+          { es: "Ela foi afastada do trabalho por causa da síndrome de burnout.", en: "She was put on sick leave because of burnout." },
+          { es: "O médico me deu um atestado de cinco dias.", en: "The doctor gave me a five-day doctor's note." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "He was signed off work for burnout.",
+            source: "He was put on sick leave for burnout.",
             answer: "Ele foi afastado do trabalho por burnout.",
             altAnswers: [
               "Ele foi afastado do trabalho por causa de burnout.",
@@ -494,7 +494,7 @@ export const PT_C1_U19: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The doctor gave her a three-day sick note.",
+        source: "The doctor gave her a three-day doctor's note.",
         answer: "O médico deu a ela um atestado de três dias.",
         altAnswers: [
           "O médico deu um atestado de três dias para ela.",
@@ -504,7 +504,7 @@ export const PT_C1_U19: Lesson[] = [
           "O médico deu para ela um atestado de três dias.",
           "O médico deu um atestado médico de três dias a ela.",
         ],
-        explanation: "A sick note is an \"atestado (médico)\". In speech \"deu para ela\" or \"deu a ela\" is usual; \"lhe deu\" is more formal.",
+        explanation: "A doctor's note is an \"atestado (médico)\". In speech \"deu para ela\" or \"deu a ela\" is usual; \"lhe deu\" is more formal.",
       },
       {
         type: "multiple-choice",
@@ -535,9 +535,9 @@ export const PT_C1_U19: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Ultra-processed foods are low in fibre.",
+        prompt: "Put the words in order to say: Ultra-processed foods are low in fiber.",
         words: ["Os", "ultraprocessados", "são", "pobres", "em", "fibras."],
-        translation: "Ultra-processed foods are low in fibre.",
+        translation: "Ultra-processed foods are low in fiber.",
         explanation: "'Low in' is \"pobre em\", agreeing in the plural: \"pobres\".",
       },
       {
@@ -718,7 +718,7 @@ export const PT_C1_U19: Lesson[] = [
             type: "speak",
             text: "Correlação não é causalidade.",
             prompt: "Say it in Portuguese: Correlation isn't causation.",
-            tip: "Both nouns end in a nasal ão / ade: co-rre-la-ÇÃO, cau-sa-li-DA-de. The strong rr is a throaty h sound.",
+            tip: "Correlação ends in a nasal ão: co-rre-la-ÇÃO; causalidade is stressed on da, cau-za-li-DA-de, with the s sounding like z. The strong rr is a throaty h sound.",
             explanation: "The scientist's motto: an association between two things doesn't show that one causes the other.",
           },
         ],
@@ -820,8 +820,8 @@ export const PT_C1_U19: Lesson[] = [
         options: [
           "The poll has a margin of error of three percentage points.",
           "The research made three mistakes in its percentages.",
-          "The study's results changed by three per cent.",
-          "The survey only covers three per cent of people.",
+          "The study's results changed by three percent.",
+          "The survey only covers three percent of people.",
         ],
         correctIndex: 0,
         explanation: "With a \"margem de erro\", \"pesquisa\" is a poll. \"Pontos percentuais\" are percentage points.",
@@ -900,7 +900,7 @@ export const PT_C1_U19: Lesson[] = [
         ],
         examples: [
           { es: "O desmatamento na Amazônia caiu pelo segundo ano seguido.", en: "Deforestation in the Amazon fell for the second year in a row." },
-          { es: "A área desmatada equivale a mil campos de futebol.", en: "The cleared area is equivalent to a thousand football pitches." },
+          { es: "A área desmatada equivale a mil campos de futebol.", en: "The cleared area is equivalent to a thousand soccer fields." },
           { es: "Grande parte da floresta derrubada vira pasto.", en: "Much of the forest that is cut down becomes pasture." },
           { es: "O INPE registrou um recorde de focos de queimada em setembro.", en: "INPE recorded a record number of fire hot spots in September." },
           { es: "A queimada saiu do controle e virou um incêndio florestal.", en: "The burning got out of control and became a forest fire." },
@@ -943,7 +943,7 @@ export const PT_C1_U19: Lesson[] = [
         heading: "Garimpo, grilagem and terras indígenas",
         body: [
           "\"O garimpo\" is small-scale mining for gold or diamonds; \"o garimpo ilegal\" on protected land poisons rivers with \"mercúrio\", and the miner is \"o garimpeiro\". \"A grilagem\" is land-grabbing with forged deeds. The word comes from \"grilo\" (cricket): forgers used to keep fake documents in a drawer with crickets so they yellowed and looked old. The land-grabber is \"o grileiro\", and the land taken is usually \"terra pública\".",
-          "\"A demarcação de terras indígenas\" is the legal process that recognises and maps an indigenous territory; the agency involved is the Funai. Use \"indígena\" and \"povos indígenas\": \"índio\" is now felt as outdated and, by many, offensive. The court battle over the \"marco temporal\" (the cut-off date of 1988 for land claims) has run for years.",
+          "\"A demarcação de terras indígenas\" is the legal process that recognizes and maps an indigenous territory; the agency involved is the Funai. Use \"indígena\" and \"povos indígenas\": \"índio\" is now felt as outdated and, by many, offensive. The court battle over the \"marco temporal\" (the cut-off date of 1988 for land claims) has run for years.",
         ],
         examples: [
           { es: "O garimpo ilegal contaminou os rios da Terra Indígena Yanomami com mercúrio.", en: "Illegal gold mining contaminated the rivers of the Yanomami Indigenous Territory with mercury." },
@@ -1035,7 +1035,7 @@ export const PT_C1_U19: Lesson[] = [
         en: "The [land-grabbers] invaded public land in Pará.",
         sentence: "Os ___ invadiram terras públicas no Pará.",
         answer: "grileiros",
-        explanation: "\"Grileiro\" is the person who practises \"grilagem\".",
+        explanation: "\"Grileiro\" is the person who practices \"grilagem\".",
       },
       {
         type: "translate",
@@ -1148,14 +1148,14 @@ export const PT_C1_U19: Lesson[] = [
       {
         heading: "When the rain comes: enchente, alagamento, deslizamento",
         body: [
-          "Portuguese splits English flood into three. An \"enchente\" or \"inundação\" is a river that \"transborda\" (overflows) and covers whole neighbourhoods; an \"alagamento\" is a street under water because the drains can't cope (\"a rua alagou\"); and the \"cheia\" is the seasonal high water of a river, normal in the Amazon and the Pantanal.",
+          "Portuguese splits English flood into three. An \"enchente\" or \"inundação\" is a river that \"transborda\" (overflows) and covers whole neighborhoods; an \"alagamento\" is a street under water because the drains can't cope (\"a rua alagou\"); and the \"cheia\" is the seasonal high water of a river, normal in the Amazon and the Pantanal.",
           "On the hillsides of Rio, Recife or Petrópolis, heavy rain brings \"deslizamentos de terra\" (landslides) in \"áreas de risco\". The Defesa Civil issues an \"alerta\" and orders people to \"deixar suas casas\". Afterwards the news counts two groups: \"desabrigados\" (homeless people who go to public shelters, \"abrigos\") and \"desalojados\" (people who left their homes but are staying with family or friends).",
         ],
         examples: [
-          { es: "O rio transbordou e a enchente atingiu quarenta bairros.", en: "The river burst its banks and the flood hit forty neighbourhoods." },
+          { es: "O rio transbordou e a enchente atingiu quarenta bairros.", en: "The river burst its banks and the flood hit forty neighborhoods." },
           { es: "Bastou meia hora de chuva para a avenida alagar.", en: "Half an hour of rain was enough to flood the avenue." },
           { es: "O deslizamento de terra soterrou três casas no morro.", en: "The landslide buried three houses on the hillside." },
-          { es: "A Defesa Civil emitiu um alerta para os moradores das áreas de risco.", en: "Civil Defence issued an alert for residents of the high-risk areas." },
+          { es: "A Defesa Civil emitiu um alerta para os moradores das áreas de risco.", en: "Civil Defense issued an alert for residents of the high-risk areas." },
           { es: "Mais de cinco mil pessoas estão desabrigadas e vivem em abrigos públicos.", en: "More than five thousand people are homeless and living in public shelters." },
           { es: "Os desalojados estão na casa de parentes.", en: "The displaced are staying with relatives." },
         ],
@@ -1196,12 +1196,12 @@ export const PT_C1_U19: Lesson[] = [
         heading: "The city's answers: saneamento, coleta seletiva, energia renovável",
         body: [
           "\"Saneamento básico\" is a key political term in Brazil: \"água tratada\", \"coleta e tratamento de esgoto\", \"coleta de lixo\" and \"drenagem\". Millions of homes still lack a connection to the \"rede de esgoto\", and \"esgoto a céu aberto\" (open sewers) spreads disease. A 2020 law, the \"marco legal do saneamento\", set the goal of universal coverage by 2033.",
-          "Recycling vocabulary: \"a coleta seletiva\" (separate collection), \"o lixo reciclável\" and \"o lixo orgânico\", \"separar o lixo\", and the \"catadores de materiais recicláveis\", often organised in \"cooperativas\". \"Reciclar\" is the verb; \"reaproveitar\" is to reuse.",
+          "Recycling vocabulary: \"a coleta seletiva\" (separate collection), \"o lixo reciclável\" and \"o lixo orgânico\", \"separar o lixo\", and the \"catadores de materiais recicláveis\", often organized in \"cooperativas\". \"Reciclar\" is the verb; \"reaproveitar\" is to reuse.",
           "Brazil's \"matriz energética\" (energy mix) leans on \"hidrelétricas\", and \"energia renovável\" or \"limpa\" now includes \"energia solar\" (\"painéis solares\" on roofs) and \"energia eólica\" (wind), strong in the Northeast.",
         ],
         examples: [
           { es: "Quase metade dos brasileiros não tem acesso à coleta de esgoto.", en: "Almost half of Brazilians have no access to sewage collection." },
-          { es: "No bairro ainda tem esgoto a céu aberto.", en: "The neighbourhood still has open sewers." },
+          { es: "No bairro ainda tem esgoto a céu aberto.", en: "The neighborhood still has open sewers." },
           { es: "O caminhão da coleta seletiva passa às terças.", en: "The recycling truck comes on Tuesdays." },
           { es: "A cooperativa de catadores recebe o lixo reciclável do condomínio.", en: "The waste pickers' cooperative takes the building's recyclables." },
           { es: "O Nordeste concentra a maior parte da energia eólica produzida no país.", en: "The Northeast produces most of the country's wind power." },
@@ -1211,7 +1211,7 @@ export const PT_C1_U19: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Our building has started separating the rubbish for recycling.",
+            source: "Our building has started separating the trash for recycling.",
             answer: "Nosso prédio começou a separar o lixo para a coleta seletiva.",
             altAnswers: [
               "O nosso prédio começou a separar o lixo para a coleta seletiva.",
@@ -1228,13 +1228,13 @@ export const PT_C1_U19: Lesson[] = [
             audio: "A cidade investiu em saneamento básico e os casos de diarreia caíram.",
             question: "What does it mean?",
             options: [
-              "The city invested in water and sewage services, and diarrhoea cases fell.",
-              "The city invested in hospitals, and diarrhoea cases fell.",
-              "The city cleaned its streets, and diarrhoea cases rose.",
+              "The city invested in water and sewage services, and diarrhea cases fell.",
+              "The city invested in hospitals, and diarrhea cases fell.",
+              "The city cleaned its streets, and diarrhea cases rose.",
               "The city built a water park, and illness fell.",
             ],
             correctIndex: 0,
-            explanation: "\"Saneamento básico\" is treated water, sewage, rubbish collection and drainage, and it has a direct effect on disease.",
+            explanation: "\"Saneamento básico\" is treated water, sewage, trash collection and drainage, and it has a direct effect on disease.",
           },
         ],
       },
@@ -1332,16 +1332,16 @@ export const PT_C1_U19: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Civil Defence issued an alert for the hillside.",
+        prompt: "Put the words in order to say: Civil Defense issued an alert for the hillside.",
         words: ["A", "Defesa", "Civil", "emitiu", "um", "alerta", "para", "o morro."],
-        translation: "Civil Defence issued an alert for the hillside.",
+        translation: "Civil Defense issued an alert for the hillside.",
         explanation: "\"Emitir um alerta\" is the official collocation. \"Alerta\" is masculine: \"um alerta\".",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The waste pickers' cooperative recycles tonnes of plastic a month.",
+        source: "The waste pickers' cooperative recycles tons of plastic a month.",
         answer: "A cooperativa de catadores recicla toneladas de plástico por mês.",
         altAnswers: [
           "A cooperativa de catadores recicla toneladas de plástico todo mês.",
@@ -1359,7 +1359,7 @@ export const PT_C1_U19: Lesson[] = [
       {
         type: "speak",
         text: "Quem mora em área de risco precisa deixar a casa quando a Defesa Civil emitir o alerta.",
-        prompt: "Say it in Portuguese: Anyone who lives in a high-risk area needs to leave home when Civil Defence issues the alert.",
+        prompt: "Say it in Portuguese: Anyone who lives in a high-risk area needs to leave home when Civil Defense issues the alert.",
         tip: "Área has three syllables, stressed on the first: Á-re-a. Emitir ends in a light tapped r.",
         explanation: "\"Quando\" about a future event takes the future subjunctive: \"quando a Defesa Civil emitir\".",
       },
@@ -1422,7 +1422,7 @@ export const PT_C1_U19: Lesson[] = [
         ],
         examples: [
           { es: "A estiagem agravou a falta de água nas cidades do interior.", en: "The dry spell worsened the water shortage in inland towns." },
-          { es: "O plano pretende mitigar os efeitos das ondas de calor nos bairros mais pobres.", en: "The plan aims to mitigate the effects of heatwaves in the poorest neighbourhoods." },
+          { es: "O plano pretende mitigar os efeitos das ondas de calor nos bairros mais pobres.", en: "The plan aims to mitigate the effects of heatwaves in the poorest neighborhoods." },
           { es: "As árvores ajudam a amenizar a temperatura nas ruas.", en: "Trees help to bring down the temperature in the streets." },
           { es: "A vacinação conseguiu conter o surto em poucas semanas.", en: "Vaccination managed to contain the outbreak in a few weeks." },
           { es: "O tabagismo é um fator de risco para várias doenças.", en: "Smoking is a risk factor for several diseases." },
@@ -1480,7 +1480,7 @@ export const PT_C1_U19: Lesson[] = [
         examples: [
           { es: "A escola foi fechada em decorrência das chuvas.", en: "The school was closed as a result of the rain." },
           { es: "As mortes decorrentes do calor extremo vêm aumentando.", en: "Deaths caused by extreme heat have been rising." },
-          { es: "O voo foi cancelado devido à fumaça das queimadas.", en: "The flight was cancelled because of the smoke from the fires." },
+          { es: "O voo foi cancelado devido à fumaça das queimadas.", en: "The flight was canceled because of the smoke from the fires." },
           { es: "O aumento dos casos de sarampo decorre da queda da cobertura vacinal.", en: "The rise in measles cases stems from the fall in vaccine coverage." },
           { es: "Graças à campanha, a vacinação voltou a crescer.", en: "Thanks to the campaign, vaccination has started to rise again." },
         ],
@@ -1560,7 +1560,7 @@ export const PT_C1_U19: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The flight was cancelled because of the lack of visibility.",
+        source: "The flight was canceled because of the lack of visibility.",
         answer: "O voo foi cancelado devido à falta de visibilidade.",
         altAnswers: [
           "O voo foi cancelado por causa da falta de visibilidade.",
@@ -1831,10 +1831,10 @@ export const PT_C1_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "An eight-year randomised trial showed that a drug lowered blood pressure. Which verb can the headline use?",
+        question: "An eight-year randomized trial showed that a drug lowered blood pressure. Which verb can the headline use?",
         options: ["reduz", "está associado a", "pode estar ligado a", "talvez tenha relação com"],
         correctIndex: 0,
-        explanation: "A randomised trial supports a causal claim, so \"reduz\" is justified. The hedges would understate the result.",
+        explanation: "A randomized trial supports a causal claim, so \"reduz\" is justified. The hedges would understate the result.",
       },
       {
         type: "fill-blank",
@@ -1926,17 +1926,17 @@ export const PT_C1_U19: Lesson[] = [
     level: "PT-C1",
     number: 8,
     title: "Dialogue Lab: Na Rádio, Depois da Enchente",
-    summary: "A radio interview in Porto Alegre after floods in Rio Grande do Sul: the presenter, a climatologist and a civil-defence officer talk about the damage, the causes and what residents should do.",
+    summary: "A radio interview in Porto Alegre after floods in Rio Grande do Sul: the presenter, a climatologist and a civil-defense officer talk about the damage, the causes and what residents should do.",
     duration: "16 min",
     sections: [
       {
         heading: "Scene 1: The opening and the toll",
         body: [
-          "A Porto Alegre radio station, seven in the morning. The presenter, Marcelo, opens the programme a week after the river Taquari and Lake Guaíba flooded dozens of towns. On the line are Dra. Helena Costa, a climatologist at UFRGS, and Major Paulo Teixeira of the state Defesa Civil.",
+          "A Porto Alegre radio station, seven in the morning. The presenter, Marcelo, opens the program a week after the river Taquari and Lake Guaíba flooded dozens of towns. On the line are Dra. Helena Costa, a climatologist at UFRGS, and Major Paulo Teixeira of the state Defesa Civil.",
           "Listen for the balance-sheet language of disaster reporting: \"o balanço\" (the latest figures), \"municípios atingidos\", \"desabrigados\" and \"desalojados\", \"o nível do rio baixou\" and \"a água começa a baixar\". \"Atingir\" (to hit, to affect) is the verb for disasters; \"afetar\" is also used.",
         ],
         examples: [
-          { es: "Bom dia, ouvintes. Começamos o programa com o balanço das enchentes.", en: "Good morning, listeners. We begin the programme with the latest figures on the floods." },
+          { es: "Bom dia, ouvintes. Começamos o programa com o balanço das enchentes.", en: "Good morning, listeners. We begin the program with the latest figures on the floods." },
           { es: "Major, quantos municípios foram atingidos até agora?", en: "Major, how many towns have been hit so far?" },
           { es: "São mais de cem municípios atingidos e cerca de quarenta mil desabrigados.", en: "More than a hundred towns have been hit and about forty thousand people are in shelters." },
           { es: "A boa notícia é que o nível do Guaíba começou a baixar.", en: "The good news is that the level of the Guaíba has started to fall." },
@@ -1960,7 +1960,7 @@ export const PT_C1_U19: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The water [is starting to go down] in the city centre.",
+            en: "The water [is starting to go down] in the city center.",
             sentence: "A água ___ no centro da cidade.",
             answer: "começa a baixar",
             altAnswers: ["está começando a baixar", "começou a baixar"],
@@ -2029,17 +2029,17 @@ export const PT_C1_U19: Lesson[] = [
           "Health warnings follow. Floodwater spreads \"leptospirose\", carried by rat urine, so people must use \"botas\" and \"luvas\" when cleaning, drink only \"água potável\" (drinking water) and keep their \"carteira de vacinação\" up to date. \"Limpar a casa\" after a flood is \"fazer a limpeza\" and needs \"água sanitária\" (bleach).",
         ],
         examples: [
-          { es: "Não volte para casa antes de a Defesa Civil liberar a área.", en: "Don't go back home before Civil Defence clears the area." },
+          { es: "Não volte para casa antes de a Defesa Civil liberar a área.", en: "Don't go back home before Civil Defense clears the area." },
           { es: "É fundamental que os moradores usem botas e luvas na limpeza.", en: "It's essential that residents wear boots and gloves for the clean-up." },
           { es: "Beba só água potável e lave os alimentos com água tratada.", en: "Drink only safe drinking water and wash food with treated water." },
-          { es: "Se você tiver febre depois de contato com a água, procure um posto de saúde.", en: "If you get a fever after contact with the water, go to a health centre." },
+          { es: "Se você tiver febre depois de contato com a água, procure um posto de saúde.", en: "If you get a fever after contact with the water, go to a health center." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Only go back when Civil Defence clears the area.",
+            source: "Only go back when Civil Defense clears the area.",
             answer: "Só volte quando a Defesa Civil liberar a área.",
             altAnswers: [
               "Só retorne quando a Defesa Civil liberar a área.",
@@ -2065,7 +2065,7 @@ export const PT_C1_U19: Lesson[] = [
         heading: "Scene 4: Listeners' questions and rebuilding",
         body: [
           "Listeners call in. Dona Cleusa, from Canoas, wants to know when she can return; a farmer from the Vale do Taquari asks about \"auxílio\" (financial aid). The presenter keeps the calls short with radio formulas: \"vamos ouvir a ouvinte\", \"a pergunta é para o major\", \"muito obrigado pela participação\".",
-          "The programme closes with the future: \"a reconstrução\", \"realocar\" families out of risk areas, \"obras de prevenção\" and \"sistemas de alerta\". Dra. Helena insists on \"adaptação\": cities must \"se adaptar\" to a climate that has already changed.",
+          "The program closes with the future: \"a reconstrução\", \"realocar\" families out of risk areas, \"obras de prevenção\" and \"sistemas de alerta\". Dra. Helena insists on \"adaptação\": cities must \"se adaptar\" to a climate that has already changed.",
         ],
         examples: [
           { es: "Vamos ouvir a dona Cleusa, de Canoas. Bom dia, dona Cleusa!", en: "Let's hear from Dona Cleusa, from Canoas. Good morning, Dona Cleusa!" },
@@ -2152,7 +2152,7 @@ export const PT_C1_U19: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "If you have a fever after contact with the water, go to a health centre.",
+        source: "If you have a fever after contact with the water, go to a health center.",
         answer: "Se você tiver febre depois de contato com a água, procure um posto de saúde.",
         altAnswers: [
           "Se tiver febre depois de contato com a água, procure um posto de saúde.",
@@ -2226,7 +2226,7 @@ export const PT_C1_U19: Lesson[] = [
       {
         heading: "Overclaiming: *o estudo comprovou que causa",
         body: [
-          "A learner summarising a survey wrote: \"*Um estudo comprovou que dormir pouco causa obesidade.\" Two words overclaim. A survey can't \"comprovar\", and it found an association, not a cause. The fix: \"Um estudo aponta que dormir pouco está associado à obesidade.\"",
+          "A learner summarizing a survey wrote: \"*Um estudo comprovou que dormir pouco causa obesidade.\" Two words overclaim. A survey can't \"comprovar\", and it found an association, not a cause. The fix: \"Um estudo aponta que dormir pouco está associado à obesidade.\"",
           "Watch for the other overclaims: \"*está provado que\", \"*a ciência diz que\" (science is not one speaker; name the study or the researchers), and the universal \"*quem come açúcar fica doente\". The opposite slip is the double hedge: \"*o estudo talvez possa sugerir\" piles three hedges on one claim. One is enough: \"o estudo sugere\".",
         ],
         examples: [
@@ -2275,8 +2275,8 @@ export const PT_C1_U19: Lesson[] = [
         examples: [
           { es: "Estou resfriado e com o nariz entupido.", en: "I've got a cold and a blocked nose." },
           { es: "O médico disse que a prisão de ventre é efeito do remédio.", en: "The doctor said the constipation is a side effect of the medicine." },
-          { es: "Este iogurte não tem conservantes.", en: "This yoghurt has no preservatives." },
-          { es: "O posto distribui preservativos de graça.", en: "The health centre gives out condoms for free." },
+          { es: "Este iogurte não tem conservantes.", en: "This yogurt has no preservatives." },
+          { es: "O posto distribui preservativos de graça.", en: "The health center gives out condoms for free." },
           { es: "A empresa foi multada por crime contra o meio ambiente.", en: "The company was fined for an environmental crime." },
           { es: "O ambiente de trabalho na redação ficou muito tenso.", en: "The atmosphere in the newsroom became very tense." },
         ],
@@ -2324,7 +2324,7 @@ export const PT_C1_U19: Lesson[] = [
           { es: "Ele toma remédio para pressão todos os dias.", en: "He takes blood pressure medication every day." },
           { es: "Minha tia vai ser operada do joelho na semana que vem.", en: "My aunt is having knee surgery next week." },
           { es: "As fábricas poluentes foram transferidas para fora da cidade.", en: "The polluting factories were moved out of the city." },
-          { es: "A reciclagem de latas de alumínio no Brasil passa de 95%.", en: "Aluminium can recycling in Brazil is over 95%." },
+          { es: "A reciclagem de latas de alumínio no Brasil passa de 95%.", en: "Aluminum can recycling in Brazil is over 95%." },
         ],
         checkpoint: [
           {
@@ -2480,20 +2480,20 @@ export const PT_C1_U19: Lesson[] = [
     level: "PT-C1",
     number: 10,
     title: "Real-World Mission: A Public Awareness Leaflet",
-    summary: "Write a leaflet on dengue prevention for a neighbourhood in Recife, and a recycling version for a building in Curitiba: a clear headline, instructions with reasons, and practical contacts.",
+    summary: "Write a leaflet on dengue prevention for a neighborhood in Recife, and a recycling version for a building in Curitiba: a clear headline, instructions with reasons, and practical contacts.",
     duration: "17 min",
     sections: [
       {
         heading: "The audience and the headline",
         body: [
-          "Your mission: the residents' association of Casa Amarela, a neighbourhood in Recife, wants a leaflet (\"um folheto\" or \"um panfleto\") on dengue before the rainy season. Readers range from teenagers to retired people, so write plainly, address them as \"você\" and keep sentences short.",
+          "Your mission: the residents' association of Casa Amarela, a neighborhood in Recife, wants a leaflet (\"um folheto\" or \"um panfleto\") on dengue before the rainy season. Readers range from teenagers to retired people, so write plainly, address them as \"você\" and keep sentences short.",
           "Brazilian campaigns open with a direct call, often an imperative or a question: \"Combata o mosquito\", \"Dengue: a prevenção começa em casa\", \"Você já olhou seu quintal hoje?\" A good headline names the action, not just the problem. \"A dengue é perigosa\" informs; \"Dez minutos por semana contra a dengue\" tells people what to do.",
         ],
         examples: [
           { es: "Dengue: a prevenção começa dentro de casa.", en: "Dengue: prevention starts at home." },
           { es: "Dez minutos por semana para eliminar os focos do mosquito.", en: "Ten minutes a week to get rid of mosquito breeding sites." },
           { es: "Você já olhou o seu quintal hoje?", en: "Have you checked your backyard today?" },
-          { es: "Um mosquito não é mais forte que um bairro inteiro.", en: "One mosquito is no match for a whole neighbourhood." },
+          { es: "Um mosquito não é mais forte que um bairro inteiro.", en: "One mosquito is no match for a whole neighborhood." },
           { es: "Casa Amarela contra a dengue: cada quintal conta.", en: "Casa Amarela against dengue: every backyard counts." },
         ],
         checkpoint: [
@@ -2530,7 +2530,7 @@ export const PT_C1_U19: Lesson[] = [
           { es: "Tampe bem a caixa-d'água, porque o mosquito põe os ovos na água parada.", en: "Cover the water tank tightly, because the mosquito lays its eggs in standing water." },
           { es: "Coloque areia nos pratinhos dos vasos para que a água não acumule.", en: "Put sand in the plant-pot saucers so that water doesn't collect." },
           { es: "Vire as garrafas e baldes de boca para baixo.", en: "Turn bottles and buckets upside down." },
-          { es: "Em caso de febre alta e dor atrás dos olhos, procure a UBS mais próxima.", en: "If you have a high fever and pain behind the eyes, go to the nearest health centre." },
+          { es: "Em caso de febre alta e dor atrás dos olhos, procure a UBS mais próxima.", en: "If you have a high fever and pain behind the eyes, go to the nearest health center." },
           { es: "Não tome remédio por conta própria.", en: "Don't take medicine without medical advice." },
         ],
         checkpoint: [
@@ -2555,7 +2555,7 @@ export const PT_C1_U19: Lesson[] = [
           {
             type: "speak",
             text: "Em caso de febre alta, procure a UBS mais próxima e não tome remédio por conta própria.",
-            prompt: "Say it in Portuguese: If you have a high fever, go to the nearest health centre and don't take medicine on your own.",
+            prompt: "Say it in Portuguese: If you have a high fever, go to the nearest health center and don't take medicine on your own.",
             tip: "Próxima is pronounced PRÓ-ssi-ma: the x here sounds like ss.",
             explanation: "\"Procure\" and \"não tome\" are imperatives for \"você\"; \"por conta própria\" means on your own initiative.",
           },
@@ -2596,9 +2596,9 @@ export const PT_C1_U19: Lesson[] = [
             question: "What does it mean?",
             options: [
               "Everyone does their bit: separate recyclables from food waste.",
-              "Each person takes part of the rubbish to the street.",
+              "Each person takes part of the trash to the street.",
               "Everyone pays their share for the collection.",
-              "Throw all the rubbish in the same bin.",
+              "Throw all the trash in the same bin.",
             ],
             correctIndex: 0,
             explanation: "\"Cada um faz a sua parte\" is the standard collective call; \"separar A de B\" is to keep A apart from B.",
@@ -2634,7 +2634,7 @@ export const PT_C1_U19: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "If you have a fever, [go to] the nearest health centre.",
+        en: "If you have a fever, [go to] the nearest health center.",
         sentence: "Se tiver febre, ___ a UBS mais próxima.",
         answer: "procure",
         altAnswers: ["vá até", "vá a", "dirija-se a"],
@@ -2871,7 +2871,7 @@ export const PT_C1_U19: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Write the news lead in Portuguese.",
-        source: "Teenagers who sleep less than seven hours get worse marks, survey finds.",
+        source: "Teenagers who sleep less than seven hours get worse grades, survey finds.",
         answer: "Adolescentes que dormem menos de sete horas tiram notas piores, aponta pesquisa.",
         altAnswers: [
           "Adolescentes que dormem menos de sete horas têm notas piores, aponta pesquisa.",
@@ -2999,19 +2999,19 @@ export const PT_C1_U19: Lesson[] = [
     level: "PT-C1",
     number: 12,
     title: "Spiral Review: Health, Science and the Environment",
-    summary: "Mixed practice of the unit's vocabulary with the media literacy of Unit 9 (rumours, distancing, checking) and the academic hedging of Unit 3.",
+    summary: "Mixed practice of the unit's vocabulary with the media literacy of Unit 9 (rumors, distancing, checking) and the academic hedging of Unit 3.",
     duration: "16 min",
     kind: "review",
     format: "Spiral Review",
     sections: [
       {
-        heading: "A health rumour in the family group",
+        heading: "A health rumor in the family group",
         body: [
           "A message in the family group: \"Chá de boldo com limão cura dengue em três dias! Compartilhe!\" Use Unit 9's tools: it's a \"boato\", it cites no \"fonte\", and it ends with an \"apelo\" to share. Reply with distance (\"supostamente\", \"o chá teria efeito\") and with a source (\"segundo o Ministério da Saúde\").",
-          "Health rumours are dangerous because people \"deixam de procurar atendimento\" (stop seeking care) or \"se automedicam\". A good reply is short and kind: name the risk, give the right action, link to a \"checagem\".",
+          "Health rumors are dangerous because people \"deixam de procurar atendimento\" (stop seeking care) or \"se automedicam\". A good reply is short and kind: name the risk, give the right action, link to a \"checagem\".",
         ],
         examples: [
-          { es: "Gente, isso é boato: não existe chá que cure dengue.", en: "Guys, that's a rumour: there's no tea that cures dengue." },
+          { es: "Gente, isso é boato: não existe chá que cure dengue.", en: "Guys, that's a rumor: there's no tea that cures dengue." },
           { es: "O chá supostamente eliminaria o vírus, mas nenhum estudo mostra isso.", en: "The tea would supposedly get rid of the virus, but no study shows that." },
           { es: "Segundo o Ministério da Saúde, o tratamento é hidratação e repouso.", en: "According to the Ministry of Health, the treatment is fluids and rest." },
           { es: "Quem acredita nisso pode deixar de procurar atendimento.", en: "Anyone who believes it may not seek medical care." },
@@ -3029,7 +3029,7 @@ export const PT_C1_U19: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You want to repeat the rumour's claim without endorsing it. Which sentence keeps your distance?",
+            question: "You want to repeat the rumor's claim without endorsing it. Which sentence keeps your distance?",
             options: [
               "O chá teria efeito contra o vírus.",
               "O chá tem efeito contra o vírus.",
@@ -3049,9 +3049,9 @@ export const PT_C1_U19: Lesson[] = [
         ],
         examples: [
           { es: "Verifica-se que a desinformação tende a circular mais em períodos de epidemia.", en: "Misinformation is found to circulate more during epidemics." },
-          { es: "Os resultados apontam para uma relação entre boatos e queda da vacinação.", en: "The results point to a link between rumours and falling vaccination." },
+          { es: "Os resultados apontam para uma relação entre boatos e queda da vacinação.", en: "The results point to a link between rumors and falling vaccination." },
           { es: "No que tange à dengue, sugere-se ampliar as campanhas nas redes sociais.", en: "Regarding dengue, it is suggested that campaigns on social media be expanded." },
-          { es: "A queda da cobertura vacinal decorre, em parte, da circulação de boatos.", en: "The fall in vaccine coverage stems partly from the spread of rumours." },
+          { es: "A queda da cobertura vacinal decorre, em parte, da circulação de boatos.", en: "The fall in vaccine coverage stems partly from the spread of rumors." },
           { es: "É possível que a desinformação acarrete atrasos no diagnóstico.", en: "Misinformation may cause delays in diagnosis." },
         ],
         checkpoint: [
@@ -3084,10 +3084,10 @@ export const PT_C1_U19: Lesson[] = [
             audio: "A queda da cobertura vacinal decorre, em parte, da circulação de boatos.",
             question: "What does it mean?",
             options: [
-              "The fall in vaccine coverage is partly due to rumours spreading.",
-              "Rumours are the only reason vaccine coverage fell.",
-              "Vaccine coverage fell, so rumours stopped spreading.",
-              "Rumours about vaccines have fallen in part.",
+              "The fall in vaccine coverage is partly due to rumors spreading.",
+              "Rumors are the only reason vaccine coverage fell.",
+              "Vaccine coverage fell, so rumors stopped spreading.",
+              "Rumors about vaccines have fallen in part.",
             ],
             correctIndex: 0,
             explanation: "\"Decorrer de\" is to result from, and \"em parte\" limits the claim.",
@@ -3152,7 +3152,7 @@ export const PT_C1_U19: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Rumours can lead people to stop seeking care.",
+        source: "Rumors can lead people to stop seeking care.",
         answer: "Os boatos podem levar as pessoas a deixar de procurar atendimento.",
         altAnswers: [
           "Os boatos podem levar as pessoas a deixarem de procurar atendimento.",
@@ -3242,9 +3242,9 @@ export const PT_C1_U19: Lesson[] = [
       {
         type: "speak",
         text: "Tia, isso é boato. Segundo o Ministério da Saúde, o certo é beber muita água e procurar o posto.",
-        prompt: "Reply kindly to your aunt in Portuguese: Auntie, that's a rumour. According to the Ministry of Health, the right thing is to drink lots of water and go to the health centre.",
+        prompt: "Reply kindly to your aunt in Portuguese: Auntie, that's a rumor. According to the Ministry of Health, the right thing is to drink lots of water and go to the health center.",
         tip: "Boato has two vowels in a row: bo-A-to, three syllables.",
-        explanation: "Name the rumour, give the source with \"segundo\", and give the right action.",
+        explanation: "Name the rumor, give the source with \"segundo\", and give the right action.",
       },
     ],
   },
@@ -3252,7 +3252,7 @@ export const PT_C1_U19: Lesson[] = [
 
 export const PT_C1_U19_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your neighbourhood in Porto Alegre was hit by flooding last month. The residents' association asks you to write an article for its newsletter. Explain what happened (the river, the streets, the people affected), what caused or worsened the damage, and what residents and the city should do now. Cite at least one study or expert and report it honestly, without claiming more than the evidence shows. Write in clear, formal but accessible Portuguese.",
+  prompt: "Your neighborhood in Porto Alegre was hit by flooding last month. The residents' association asks you to write an article for its newsletter. Explain what happened (the river, the streets, the people affected), what caused or worsened the damage, and what residents and the city should do now. Cite at least one study or expert and report it honestly, without claiming more than the evidence shows. Write in clear, formal but accessible Portuguese.",
   minWords: 180,
   maxWords: 300,
   rubric: [

@@ -196,9 +196,9 @@ export const FR_C1_U10: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order to say: She is, moreover, a very good speaker.",
-        words: ["Elle est,", "de plus,", "une très", "bonne", "oratrice."],
+        words: ["C'est,", "de plus,", "une très", "bonne", "oratrice."],
         translation: "She is, moreover, a very good speaker.",
-        explanation: "Additive markers can sit after the verb between commas.",
+        explanation: "Additive markers can sit after the verb between commas. Before a noun with an article, French says \"c'est une... oratrice\", not \"elle est une...\".",
       },
       {
         type: "translate",
@@ -285,7 +285,7 @@ export const FR_C1_U10: Lesson[] = [
           { es: "Cette décision risque de décourager, voire de faire fuir, les jeunes talents.", en: "This decision risks discouraging, or even driving away, young talent." },
           { es: "La réparation coûtera plusieurs centaines, voire plusieurs milliers d'euros.", en: "The repair will cost several hundred or even several thousand euros." },
           { es: "C'était en 2019, ou plutôt début 2020.", en: "It was in 2019, or rather early 2020." },
-          { es: "Peu de gens, voire personne, n'ont lu le rapport en entier.", en: "Few people, if anyone, have read the whole report." },
+          { es: "Il faudra revoir le budget, voire l'ensemble du projet.", en: "We will have to revise the budget, or even the whole project." },
         ],
         checkpoint: [
           {
@@ -376,6 +376,7 @@ export const FR_C1_U10: Lesson[] = [
         prompt: "Translate into French.",
         source: "The repairs could cost thousands, or even tens of thousands, of euros.",
         answer: "Les réparations pourraient coûter des milliers, voire des dizaines de milliers d'euros.",
+        altAnswers: ["Les réparations pourraient coûter des milliers d'euros, voire des dizaines de milliers."],
         explanation: "\"Voire\" for an escalation.",
       },
       {
@@ -479,7 +480,7 @@ export const FR_C1_U10: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Make it nuanced. Translate into French.",
+            prompt: "Translate this nuanced version into French.",
             source: "The plan is ambitious; however, I'm not sure it's realistic.",
             answer: "Le projet est ambitieux ; toutefois, je ne suis pas sûr qu'il soit réaliste.",
             altAnswers: ["Le plan est ambitieux ; toutefois, je ne suis pas sûr qu'il soit réaliste.", "Le projet est ambitieux ; toutefois, je ne suis pas sûre qu'il soit réaliste.", "Le plan est ambitieux ; toutefois, je ne suis pas sûre qu'il soit réaliste.", "Le projet est ambitieux ; cela dit, je ne suis pas sûr qu'il soit réaliste.", "Le projet est ambitieux ; cela dit, je ne suis pas sûre qu'il soit réaliste."],
@@ -566,7 +567,7 @@ export const FR_C1_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Make it nuanced. Translate into French.",
+        prompt: "Translate this nuanced version into French.",
         source: "This solution is expensive; that said, it is effective.",
         answer: "Cette solution est coûteuse ; cela dit, elle est efficace.",
         altAnswers: ["Cette solution est chère ; cela dit, elle est efficace.", "Cette solution est coûteuse. Cela dit, elle est efficace.", "Cette solution est coûteuse ; ceci dit, elle est efficace."],
@@ -611,7 +612,7 @@ export const FR_C1_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Make it nuanced. Translate into French.",
+        prompt: "Translate this nuanced version into French.",
         source: "The report could be improved. It does, however, contain some good ideas.",
         answer: "Le rapport est perfectible. Il contient toutefois de bonnes idées.",
         altAnswers: ["Le rapport est perfectible. Il contient néanmoins de bonnes idées.", "Le rapport peut être amélioré. Il contient toutefois de bonnes idées.", "Le rapport pourrait être amélioré. Il contient toutefois de bonnes idées."],
@@ -700,7 +701,8 @@ export const FR_C1_U10: Lesson[] = [
             en: "[Only] 12% of respondents are dissatisfied.",
             sentence: "___ 12 % des répondants sont insatisfaits.",
             answer: "Seuls",
-            explanation: "\"Seuls\" (agreeing with the plural noun) at the head = only.",
+            altAnswers: ["Seulement"],
+            explanation: "\"Seuls\" (agreeing with the plural noun) at the head = only; \"seulement\" is also correct but less elegant in a report.",
           },
           {
             type: "listen-choose",
@@ -1103,7 +1105,7 @@ export const FR_C1_U10: Lesson[] = [
         type: "speak",
         text: "Les places sont limitées. Aussi est-il conseillé de réserver.",
         prompt: "Say it in French (formal): Places are limited. It is therefore advisable to book.",
-        tip: "Link the t: \"est-il\" sounds like \"è-til\".",
+        tip: "Link the t: \"est-il\" is said as one unit, the t carried over to \"il\".",
         explanation: "Initial \"aussi\" + inversion.",
       },
     ],
@@ -1494,9 +1496,9 @@ export const FR_C1_U10: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence uses the marker correctly?",
-        options: ["Il a hésité longtemps mais il a finalement signé.", "Il a hésité longtemps mais il a éventuellement signé.", "Premièrement le budget, finalement le calendrier.", "En somme, je décide de partir demain à huit heures."],
+        options: ["Il a hésité longtemps mais il a finalement signé.", "Il a hésité longtemps mais il a éventuellement signé.", "Premièrement le budget, finalement le calendrier.", "Il a hésité longtemps mais, au bout de compte, il a signé."],
         correctIndex: 0,
-        explanation: "\"Finalement\" = eventually after a process. \"Éventuellement\" = possibly.",
+        explanation: "\"Finalement\" = eventually after a process. \"Éventuellement\" = possibly; 'lastly' in a list is \"enfin\"; and the idiom is \"au bout du compte\", with \"du\".",
       },
       {
         type: "word-order",

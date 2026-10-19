@@ -27,7 +27,7 @@ export const PT_B2_S08_STORIES: Story[] = [
       },
       {
         question: `What started the big fire?`,
-        options: [`A lightning strike on a mountain twenty kilometres away.`, `Seu Tião's fire in May.`, `A careless tourist.`, `A truck accident.`],
+        options: [`A lightning strike on a mountain twenty kilometers away.`, `Seu Tião's fire in May.`, `A careless tourist.`, `A truck accident.`],
         correctIndex: 0,
         explanation: `"Um raio caiu numa serra a vinte quilômetros dali, sem uma gota de chuva."`,
       },
@@ -136,7 +136,7 @@ export const PT_B2_S08_STORIES: Story[] = [
       `Kauã Pinheiro tinha vinte e seis anos, um diploma de técnico em iluminação cênica e nenhuma crença em fantasmas quando começou a trabalhar no Teatro Amazonas, em Manaus. Os colegas mais antigos contavam histórias, claro: passos na plateia vazia, um cheiro de charuto num camarote, uma cortina que se mexia sem vento. Kauã ouvia tudo com educação e achava graça. Para ele, um teatro de mais de cem anos fazia barulho porque era velho, não porque era assombrado.`,
       `Na sua terceira semana, ficou até tarde ajustando os refletores para a estreia de uma ópera. Por volta da meia-noite, enquanto lutava com um cabo emaranhado no alto da galeria, ouviu uma voz atrás dele: “Esse aí não adianta puxar, meu filho. Tem que soltar por baixo.” Era um senhor baixinho, de bigode fino, com um uniforme azul-escuro de botões dourados, desses que só se veem em fotografia antiga. Kauã imaginou que fosse algum funcionário aposentado que ainda frequentava a casa.`,
       `O senhor se apresentou como Belmiro, “lanterninha desde 1928”, e disse a frase com tanto orgulho que Kauã não teve coragem de rir. A partir daquela noite, ele aparecia sempre depois das onze, quando o teatro esvaziava. Sabia tudo: em que ponto do palco a voz dos cantores soava melhor, qual degrau rangia, por onde entrava a umidade nas noites de chuva. Mostrou a Kauã uma alavanca escondida atrás de um painel de madeira, que ligava um circuito antigo de emergência que ninguém usava havia décadas.`,
-      `Na noite da estreia, com a plateia lotada e a orquestra no segundo ato, uma tempestade derrubou a energia de metade de Manaus. O teatro ficou no escuro. Houve gritos, celulares acenderam como vaga-lumes, o maestro parou com a batuta no ar. O gerador principal não ligava. Kauã, no alto da galeria, lembrou da alavanca. Desceu as escadas correndo, encontrou o painel no escuro, puxou com toda a força, e as luzes antigas do lustre se acenderam devagar, amareladas, quase douradas.`,
+      `Na noite da estreia, com a plateia lotada e a orquestra no segundo ato, uma tempestade derrubou a energia de metade de Manaus. O teatro ficou no escuro. Houve gritos, celulares acenderam como vaga-lumes, o maestro parou com a batuta no ar. O gerador principal não ligava. Kauã, no alto da galeria, lembrou-se da alavanca. Desceu as escadas correndo, encontrou o painel no escuro, puxou com toda a força, e as luzes antigas do lustre se acenderam devagar, amareladas, quase douradas.`,
       `A ópera continuou à luz do circuito de 1928, e o público, achando que fazia parte do espetáculo, aplaudiu de pé no final. No dia seguinte, o diretor do teatro chamou Kauã para agradecer e perguntou, curioso, como ele sabia daquela alavanca, que não aparecia em nenhuma planta do prédio. Kauã contou que tinha sido seu Belmiro, o lanterninha aposentado. O diretor franziu a testa. Não havia nenhum Belmiro entre os funcionários, nem ativos, nem aposentados.`,
       `Intrigado, Kauã foi ao arquivo do teatro naquela tarde. Levou horas folheando livros de registro, até encontrar, numa página amarelada de 1951, a foto de um homem baixinho, de bigode fino e uniforme azul de botões dourados. Embaixo, uma nota curta: Belmiro Saraiva, lanterninha, falecido durante a apresentação da noite de 14 de março, no seu posto de trabalho, após vinte e três anos de serviço. Kauã sentiu as mãos geladas. Fechou o livro com cuidado, como se alguém pudesse ouvir.`,
       `Naquela noite, ele voltou a ficar até tarde, mas seu Belmiro não apareceu. Nem na noite seguinte, nem na outra. Kauã chegou a pensar que tinha sonhado tudo. Na sexta-feira, antes de ir embora, deixou um copinho de café quente no parapeito da galeria, onde o velho costumava se sentar, e disse em voz alta, meio sem graça: “Obrigado, seu Belmiro.” Na manhã seguinte, o copinho estava vazio. Ao lado dele, alguém tinha deixado, com a letra caprichada de antigamente, um bilhete curto: “Agora a casa está bem cuidada. Boa noite, meu filho.”`,
@@ -144,7 +144,7 @@ export const PT_B2_S08_STORIES: Story[] = [
     questions: [
       {
         question: `What did Kauã think of his colleagues' ghost stories at first?`,
-        options: [`He was terrified by them.`, `He told them to the audience.`, `He thought an old theatre made noises because it was old, not haunted.`, `He wanted to write a book about them.`],
+        options: [`He was terrified by them.`, `He told them to the audience.`, `He thought an old theater made noises because it was old, not haunted.`, `He wanted to write a book about them.`],
         correctIndex: 2,
         explanation: `"Um teatro de mais de cem anos fazia barulho porque era velho, não porque era assombrado."`,
       },
@@ -172,7 +172,7 @@ export const PT_B2_S08_STORIES: Story[] = [
     slug: "pt-o-passageiro-da-br-116",
     level: "PT-B2",
     title: `O passageiro da BR-116`,
-    subtitle: `On a foggy night in the Bahian backlands, a truck driver breaks his own rule and gives a lift to an old man who asks him to deliver a letter.`,
+    subtitle: `On a foggy night in the Bahian backlands, a truck driver breaks his own rule and gives a ride to an old man who asks him to deliver a letter.`,
     paragraphs: [
       `Valdeci dirigia caminhão havia vinte e dois anos e tinha uma regra que nunca quebrava: não dar carona a ninguém depois que escurecia. Mas naquela noite de junho, na BR-116, entre Vitória da Conquista e a divisa de Minas, a neblina estava tão grossa e o velho na beira da estrada parecia tão frágil, com o chapéu de couro na mão e a camisa branca bem passada, que ele parou sem pensar duas vezes.`,
       `O homem disse que se chamava Lino e que precisava chegar a Cândido Sales antes do amanhecer. Falava pouco, com um sotaque do sertão antigo, e tinha um cheiro de terra molhada que Valdeci achou estranho, já que não chovia havia meses. Durante a viagem, contou que tinha brigado com a mulher muito tempo atrás, por uma bobagem, e que saíra de casa sem se despedir. “Desde então, eu tento voltar”, disse, olhando a escuridão pela janela. “Mas a estrada é comprida.”`,
@@ -185,13 +185,13 @@ export const PT_B2_S08_STORIES: Story[] = [
     questions: [
       {
         question: `What rule did Valdeci never break, until that night?`,
-        options: [`Never drive in fog.`, `Never stop in small towns.`, `Never drive more than ten hours.`, `Never give anyone a lift after dark.`],
+        options: [`Never drive in fog.`, `Never stop in small towns.`, `Never drive more than ten hours.`, `Never give anyone a ride after dark.`],
         correctIndex: 3,
         explanation: `His rule was "não dar carona a ninguém depois que escurecia".`,
       },
       {
         question: `What did the old man say he had done long ago?`,
-        options: [`Sold his truck.`, `Quarrelled with his wife over something silly and left without saying goodbye.`, `Built the wooden cross.`, `Lost his way on the road.`],
+        options: [`Sold his truck.`, `Quarreled with his wife over something silly and left without saying goodbye.`, `Built the wooden cross.`, `Lost his way on the road.`],
         correctIndex: 1,
         explanation: `He "tinha brigado com a mulher muito tempo atrás, por uma bobagem, e [...] saíra de casa sem se despedir".`,
       },
@@ -203,7 +203,7 @@ export const PT_B2_S08_STORIES: Story[] = [
       },
       {
         question: `Why had Dona Ana never received the letter?`,
-        options: [`The post office lost it.`, `Lino never finished writing it.`, `It must have been in his pocket when his truck went off the road.`, `Her neighbours hid it from her.`],
+        options: [`The post office lost it.`, `Lino never finished writing it.`, `It must have been in his pocket when his truck went off the road.`, `Her neighbors hid it from her.`],
         correctIndex: 2,
         explanation: `"Devia estar no bolso dele quando o caminhão caiu na ribanceira."`,
       },
@@ -217,14 +217,14 @@ export const PT_B2_S08_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "a inimizade", en: "feud, enmity", forms: ["inimizade"] },
     { es: "atear fogo", en: "to set fire", forms: ["ateava"] },
     { es: "a multa", en: "fine", forms: ["multa"] },
-    { es: "o sermão", en: "lecture, telling-off", forms: ["sermão"] },
+    { es: "o sermão", en: "lecture, scolding", forms: ["sermão"] },
     { es: "a queimada", en: "controlled burning of vegetation", forms: ["queimadas"] },
     { es: "o capim", en: "grass", forms: ["capim"] },
     { es: "o raio", en: "lightning bolt", forms: ["raio"] },
     { es: "o aceiro", en: "firebreak", forms: ["aceiros"] },
     { es: "a fuligem", en: "soot", forms: ["fuligem"] },
     { es: "rebrotar", en: "to sprout again", forms: ["rebrotando"] },
-    { es: "o brigadista", en: "volunteer firefighter", forms: ["brigadistas"] },
+    { es: "o brigadista", en: "wildland firefighter (often seasonal)", forms: ["brigadistas"] },
   ],
   "pt-o-rio-que-mudou-de-lugar": [
     { es: "a correnteza", en: "current", forms: ["correnteza"] },
@@ -255,9 +255,9 @@ export const PT_B2_S08_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "arregalar os olhos", en: "to open one's eyes wide", forms: ["arregalou"] },
   ],
   "pt-o-lanterninha": [
-    { es: "o lanterninha", en: "usher (in a theatre or cinema)", forms: ["lanterninha"] },
-    { es: "a plateia", en: "audience, stalls", forms: ["plateia"] },
-    { es: "o camarote", en: "theatre box", forms: ["camarote"] },
+    { es: "o lanterninha", en: "usher (in a theater or movie theater)", forms: ["lanterninha"] },
+    { es: "a plateia", en: "audience, orchestra seating", forms: ["plateia"] },
+    { es: "o camarote", en: "theater box", forms: ["camarote"] },
     { es: "assombrado", en: "haunted", forms: ["assombrado"] },
     { es: "o refletor", en: "spotlight", forms: ["refletores"] },
     { es: "emaranhado", en: "tangled", forms: ["emaranhado"] },
@@ -269,7 +269,7 @@ export const PT_B2_S08_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "o parapeito", en: "railing, parapet", forms: ["parapeito"] },
   ],
   "pt-o-passageiro-da-br-116": [
-    { es: "a carona", en: "lift, ride", forms: ["carona"] },
+    { es: "a carona", en: "ride", forms: ["carona"] },
     { es: "a divisa", en: "state border", forms: ["divisa"] },
     { es: "a neblina", en: "fog", forms: ["neblina"] },
     { es: "passado", en: "ironed", forms: ["passada"] },

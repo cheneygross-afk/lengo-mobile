@@ -188,7 +188,7 @@ export const FR_A1_U10: Lesson[] = [
         question: "What did you hear?",
         options: ["Ils ont deux enfants.", "Ils sont deux enfants.", "Il a deux enfants.", "Ils ont douze enfants."],
         correctIndex: 0,
-        explanation: "\"Ils_ont\" links with a z sound; \"ils sont\" has an s. \"Deux\" vs \"douze\": listen for the z at the end.",
+        explanation: "\"Ils_ont\" links with a z sound; \"ils sont\" has an s. \"Deux\" vs \"douze\": both link with a z, so listen for the vowel (eu vs ou).",
       },
       {
         type: "dictation",
@@ -295,7 +295,7 @@ export const FR_A1_U10: Lesson[] = [
             prompt: "Translate into French.",
             source: "It's half past eight.",
             answer: "Il est huit heures et demie.",
-            altAnswers: ["Il est huit heures trente.", "Il est vingt heures trente.", "Il est vingt heures et demie."],
+            altAnswers: ["Il est huit heures trente.", "Il est vingt heures trente."],
             explanation: "Time uses \"il est\"; half past is \"et demie\" after \"heures\".",
           },
           {
@@ -374,7 +374,7 @@ export const FR_A1_U10: Lesson[] = [
         prompt: "Translate into French.",
         source: "This is my colleague. He's really nice.",
         answer: "C'est mon collègue. Il est très sympa.",
-        altAnswers: ["C'est mon collègue. Il est très gentil.", "C'est ma collègue. Elle est très sympa."],
+        altAnswers: ["C'est mon collègue. Il est très gentil."],
         explanation: "\"C'est\" + possessive + noun, then \"il est\" + adjective.",
       },
       {
@@ -569,7 +569,7 @@ export const FR_A1_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "There's wind and it's cold.",
+        source: "It's windy and it's cold.",
         answer: "Il y a du vent et il fait froid.",
         explanation: "Wind uses \"il y a du vent\"; cold weather uses \"il fait froid\".",
       },
@@ -697,9 +697,9 @@ export const FR_A1_U10: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which phrase means this afternoon?",
-        options: ["cet après-midi", "ce après-midi", "cette après-midi-ci", "dans cet après-midi"],
+        options: ["cet après-midi", "ce après-midi", "ces après-midi", "dans cet après-midi"],
         correctIndex: 0,
-        explanation: "\"Cet\" before the vowel of \"après-midi\", and no preposition.",
+        explanation: "\"Cet\" before the vowel of \"après-midi\", and no preposition. \"Ces\" is plural.",
       },
       {
         type: "translate",
@@ -1383,9 +1383,9 @@ export const FR_A1_U10: Lesson[] = [
             type: "listen-choose",
             audio: "Paul parle avec sa mère.",
             question: "What does it mean?",
-            options: ["Paul is talking with his mother.", "Paul is talking with her mother.", "Paul is talking with their mother.", "Paul is talking with my mother."],
+            options: ["Paul is talking with his mother.", "Paul is talking about his mother.", "Paul is talking with their mother.", "Paul is talking with my mother."],
             correctIndex: 0,
-            explanation: "With Paul as the subject, \"sa mère\" is naturally his mother.",
+            explanation: "With Paul as the subject, \"sa mère\" is naturally his mother; \"parler avec\" is to talk with (about would be \"parler de\").",
           },
         ],
       },
@@ -2800,7 +2800,7 @@ export const FR_A1_U10: Lesson[] = [
 export const FR_A1_U10_WRITING: WriteExercise = {
   type: "write",
   prompt: "You're joining a French language exchange website. Write your profile (40-50 words): your name, age, nationality, job and city, your family, what you like and don't like, and what you're going to do this weekend.",
-  minWords: 25,
+  minWords: 40,
   maxWords: 60,
   rubric: [
     "Introduce yourself with \"je m'appelle\", \"j'ai ... ans\" and \"je suis\" + nationality or job with no article.",

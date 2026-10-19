@@ -8,7 +8,7 @@ export const PT_C1_U17: Lesson[] = [
     level: "PT-C1",
     number: 1,
     title: "The Grammar of Speech, Part 1 of 2",
-    summary: "Leave objects unsaid, answer with the bare verb, and recognise resumptive pronouns and restarted sentences: the normal grammar of Brazilian conversation.",
+    summary: "Leave objects unsaid, answer with the bare verb, and recognize resumptive pronouns and restarted sentences: the normal grammar of Brazilian conversation.",
     duration: "16 min",
     sections: [
       {
@@ -19,7 +19,7 @@ export const PT_C1_U17: Lesson[] = [
           "The C1 trap is the opposite of a beginner's. You know \"comprei-o\" and \"vou buscá-la\" from formal texts, and they creep into your speech. Out loud they sound like a news anchor reading the headlines. Keep them for writing; in conversation, drop the object or use \"ele\" / \"ela\".",
         ],
         examples: [
-          { es: "Comprei um tênis novo, mas ainda não usei.", en: "I bought new trainers but haven't worn them yet." },
+          { es: "Comprei um tênis novo, mas ainda não usei.", en: "I bought new sneakers but haven't worn them yet." },
           { es: "— Você trouxe o carregador? — Trouxe, tá na mochila.", en: "Did you bring the charger? — I did, it's in my backpack." },
           { es: "Fiz um bolo e levei pro trabalho.", en: "I made a cake and took it to work." },
           { es: "O relatório? Mandei agora há pouco.", en: "The report? I sent it a moment ago." },
@@ -65,7 +65,7 @@ export const PT_C1_U17: Lesson[] = [
           { es: "— Você viu o jogo ontem? — Vi, foi incrível.", en: "Did you watch the game yesterday? — I did, it was amazing." },
           { es: "— Vocês já jantaram? — Já, valeu.", en: "Have you had dinner yet? — Yes, thanks." },
           { es: "— A Mariana vem hoje? — Vem, sim.", en: "Is Mariana coming today? — Yes, she is." },
-          { es: "— Você gostou do filme? — Não, não gostei muito.", en: "Did you like the film? — No, not really." },
+          { es: "— Você gostou do filme? — Não, não gostei muito.", en: "Did you like the movie? — No, not really." },
           { es: "— Quer que eu te ajude? — Quero, por favor.", en: "Do you want me to help you? — Yes, please." },
           { es: "Eu não posso ir, mas o Lucas pode.", en: "I can't go, but Lucas can." },
         ],
@@ -106,12 +106,12 @@ export const PT_C1_U17: Lesson[] = [
           "Anacoluto is a sentence that starts one way and finishes another: \"Eu, o que me irrita é a falta de educação.\" The opening \"eu\" never gets a verb, because the speaker restarted with a cleft. Nobody notices in conversation. In an essay it's a structural flaw, so rebuild it: \"O que me irrita é a falta de educação.\"",
         ],
         examples: [
-          { es: "O vizinho que se mudou semana passada, ele é músico.", en: "The neighbour who moved in last week is a musician." },
+          { es: "O vizinho que se mudou semana passada, ele é músico.", en: "The neighbor who moved in last week is a musician." },
           { es: "Esse é o professor que eu mais gosto.", en: "That's the teacher I like most." },
           { es: "A cidade que eu nasci é bem pequena.", en: "The town I was born in is really small." },
           { es: "Eu, o que me irrita é a falta de educação.", en: "What annoys me is bad manners." },
           { es: "Minha mãe, quando ela fica nervosa, ninguém segura.", en: "When my mother gets worked up, nobody can stop her." },
-          { es: "O filme que eu te falei passou ontem na TV.", en: "The film I told you about was on TV yesterday." },
+          { es: "O filme que eu te falei passou ontem na TV.", en: "The movie I told you about was on TV yesterday." },
         ],
         checkpoint: [
           {
@@ -132,9 +132,9 @@ export const PT_C1_U17: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: The neighbour I talked to is a doctor. (written norm)",
+            prompt: "Put the words in order to say: The neighbor I talked to is a doctor. (written norm)",
             words: ["O", "vizinho", "com", "quem", "eu", "falei", "é", "médico."],
-            translation: "The neighbour I talked to is a doctor.",
+            translation: "The neighbor I talked to is a doctor.",
             explanation: "The norm moves the preposition in front of the relative: \"com quem eu falei\". Speech would say \"o vizinho que eu falei\".",
           },
         ],
@@ -247,7 +247,7 @@ export const PT_C1_U17: Lesson[] = [
           "\"Ter que\" and \"ter de\" both mean have to. Speech uses \"ter que\" almost exclusively; careful writing often prefers \"ter de\", though Brazilian grammars accept both.",
         ],
         examples: [
-          { es: "Tem muita gente na fila do banco hoje.", en: "There are a lot of people in the queue at the bank today." },
+          { es: "Tem muita gente na fila do banco hoje.", en: "There are a lot of people in line at the bank today." },
           { es: "Tinha um cachorro deitado na porta da padaria.", en: "There was a dog lying at the bakery door." },
           { es: "Vai ter churrasco lá em casa no sábado.", en: "There's going to be a barbecue at my place on Saturday." },
           { es: "Havia muitos problemas no projeto inicial.", en: "There were many problems in the initial project." },
@@ -312,7 +312,7 @@ export const PT_C1_U17: Lesson[] = [
             question: "Which sentence would a well-educated Brazilian naturally say?",
             options: ["A gente chegou tarde.", "A gente chegamos tarde.", "A gente chegaram tarde.", "Nós chegou tarde."],
             correctIndex: 0,
-            explanation: "\"A gente\" is grammatically singular: \"a gente chegou\". \"A gente chegamos\" is socially stigmatised.",
+            explanation: "\"A gente\" is grammatically singular: \"a gente chegou\". \"A gente chegamos\" is socially stigmatized.",
           },
           {
             type: "translate",
@@ -329,7 +329,7 @@ export const PT_C1_U17: Lesson[] = [
         heading: "Não sei não: the double negative",
         body: [
           "Brazilian speech often closes a negative with a second \"não\": \"Não sei não\", \"Não vou não\". The second one doesn't cancel the first; it reinforces or softens, depending on tone. Said gently, \"Acho que não vai chover não\" is friendly reassurance. Said firmly, \"Não vou pagar isso não\" closes the matter. You met it in Unit 8 as emphasis.",
-          "Some speakers, especially in the Northeast, keep only the final one: \"Sei não\", \"Quero não\". Recognise it, but \"não sei não\" is the safer choice in your own speech. None of these belong in writing, where one \"não\" does the job.",
+          "Some speakers, especially in the Northeast, keep only the final one: \"Sei não\", \"Quero não\". Recognize it, but \"não sei não\" is the safer choice in your own speech. None of these belong in writing, where one \"não\" does the job.",
           "That's the pattern of the whole lesson. These forms are not mistakes, and if you avoid all of them you'll sound like a textbook. The C1 skill is switching: the same person who says \"Tem que ver isso aí, não sei não\" writes \"É preciso analisar a questão com cautela\".",
         ],
         examples: [
@@ -508,8 +508,8 @@ export const PT_C1_U17: Lesson[] = [
       {
         heading: "The vanishing -r and the weak -s",
         body: [
-          "The final -r of infinitives disappears in almost everyone's casual speech: \"vou comprar\" sounds like \"vou comprá\", and \"vamos comer\" like \"vamo comê\". The stress stays on the last syllable, which is how you still recognise the infinitive: \"comprá\" is not \"compra\". Final -r in other words (\"mar\", \"amor\") weakens too, but it survives more often.",
-          "Final -s weakens in a few very frequent words: \"vamos\" becomes \"vamo\", and \"a gente vamo\" is heard too, though, like \"a gente vamos\", it sounds uneducated. Plural -s marked only on the first word (\"as coisa\", \"os menino\") is also common, but it carries strong social stigma: recognise it, don't copy it. Educated speakers drop the -r freely and keep the plural -s.",
+          "The final -r of infinitives disappears in almost everyone's casual speech: \"vou comprar\" sounds like \"vou comprá\", and \"vamos comer\" like \"vamo comê\". The stress stays on the last syllable, which is how you still recognize the infinitive: \"comprá\" is not \"compra\". Final -r in other words (\"mar\", \"amor\") weakens too, but it survives more often.",
+          "Final -s weakens in a few very frequent words: \"vamos\" becomes \"vamo\", and \"a gente vamo\" is heard too, though, like \"a gente vamos\", it sounds uneducated. Plural -s marked only on the first word (\"as coisa\", \"os menino\") is also common, but it carries strong social stigma: recognize it, don't copy it. Educated speakers drop the -r freely and keep the plural -s.",
           "Don't spell the dropped -r (\"comprá\") except to imitate speech in dialogue or a joke. In any other text, even a WhatsApp message, the -r stays: \"vou comprar\".",
         ],
         examples: [
@@ -532,9 +532,9 @@ export const PT_C1_U17: Lesson[] = [
             direction: "en-es",
             prompt: "Translate into Portuguese.",
             source: "Let's go, it's late. (casual)",
-            answer: "Vamo embora, tá tarde.",
-            altAnswers: ["Vamos embora, tá tarde.", "Vamos embora, está tarde.", "Vamo embora, que tá tarde.", "Vamos embora, que está tarde.", "Vamos embora, que tá tarde.", "Vamo embora, já tá tarde.", "Vamos embora, já tá tarde.", "Vamos embora, já está tarde."],
-            explanation: "\"Vamo\" is spoken \"vamos\" with the -s dropped; \"vamos embora\" is let's go.",
+            answer: "Vamos embora, tá tarde.",
+            altAnswers: ["Vamo embora, tá tarde.", "Vamos embora, está tarde.", "Vamo embora, que tá tarde.", "Vamos embora, que está tarde.", "Vamos embora, que tá tarde.", "Vamo embora, já tá tarde.", "Vamos embora, já tá tarde.", "Vamos embora, já está tarde."],
+            explanation: "\"Vamos embora\" is let's go. In fast speech it sounds like \"vamo embora\", but write the -s, as with the -r of infinitives.",
           },
         ],
       },
@@ -542,7 +542,7 @@ export const PT_C1_U17: Lesson[] = [
         heading: "Surprise and irony in the voice",
         body: [
           "Intonation carries meaning the words don't. A real question rises at the end: \"Sério?\" Surprise rises higher, with a stretched stressed vowel: \"Mentira!\", \"Jura?\" A flat, low, slow \"Que ótimo\" means the opposite of its words: the irony you met in Unit 7.",
-          "\"Né\" (from não é) is Brazil's most frequent tag. Falling, it asks for agreement, like 'right?'; rising, it really asks. \"Tá\" alone works the same way: rising, it asks 'OK?'; falling, it agrees. \"Ah, tá\" with a long fall often means 'oh, sure', sceptically.",
+          "\"Né\" (from não é) is Brazil's most frequent tag. Falling, it asks for agreement, like 'right?'; rising, it really asks. \"Tá\" alone works the same way: rising, it asks 'OK?'; falling, it agrees. \"Ah, tá\" with a long fall often means 'oh, sure', skeptically.",
         ],
         examples: [
           { es: "Sério? Ela pediu demissão?", en: "Seriously? She quit?" },
@@ -907,7 +907,7 @@ export const PT_C1_U17: Lesson[] = [
             question: "Your colleague says \"Ele disse que entrega o projeto amanhã\" and you answer with a slow, stretched, falling \"Sei...\". What have you said?",
             options: ["You doubt it.", "You agree completely.", "You didn't hear.", "You already know the project."],
             correctIndex: 0,
-            explanation: "Stretched and falling, \"sei\" signals scepticism: 'yeah, right'. Quick and light, it would just mean 'I'm following'.",
+            explanation: "Stretched and falling, \"sei\" signals skepticism: 'yeah, right'. Quick and light, it would just mean 'I'm following'.",
           },
           {
             type: "translate",
@@ -916,7 +916,7 @@ export const PT_C1_U17: Lesson[] = [
             source: "— Prices have gone up again. — Tell me about it.",
             answer: "— Os preços subiram de novo. — Pois é.",
             altAnswers: ["— Os preços aumentaram de novo. — Pois é.", "— Os preços subiram outra vez. — Pois é.", "— Os preços aumentaram outra vez. — Pois é.", "— Os preços subiram de novo. — Pois é, né?", "— Subiu tudo de novo. — Pois é."],
-            explanation: "\"Pois é\" agrees and sympathises at once, exactly like 'tell me about it'.",
+            explanation: "\"Pois é\" agrees and sympathizes at once, exactly like 'tell me about it'.",
           },
           {
             type: "listen-choose",
@@ -937,7 +937,7 @@ export const PT_C1_U17: Lesson[] = [
         examples: [
           { es: "— Passei no concurso! — Mentira! Parabéns!", en: "I passed the civil service exam! — No way! Congratulations!" },
           { es: "— Ela vai casar em dezembro. — Jura? Com quem?", en: "She's getting married in December. — Really? Who to?" },
-          { es: "Nossa, que apartamento lindo!", en: "Wow, what a lovely flat!" },
+          { es: "Nossa, que apartamento lindo!", en: "Wow, what a lovely apartment!" },
           { es: "— Fui mandado embora. — Poxa, que chato. Sinto muito.", en: "I've been let go. — Oh no, that's rotten. I'm sorry." },
           { es: "— Desculpa o atraso. — Imagina, acabei de chegar.", en: "Sorry I'm late. — Don't worry, I've only just got here." },
           { es: "Não acredito! Cê ganhou mesmo?", en: "I don't believe it! You actually won?" },
@@ -954,7 +954,7 @@ export const PT_C1_U17: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A friend apologises for keeping you waiting. You want to say 'don't worry about it'. Which reply fits?",
+            question: "A friend apologizes for keeping you waiting. You want to say 'don't worry about it'. Which reply fits?",
             options: ["Imagina!", "Mentira!", "Pois é.", "Jura?"],
             correctIndex: 0,
             explanation: "\"Imagina!\" brushes off an apology or thanks. \"Pois é\" would agree that the delay was a problem.",
@@ -1053,9 +1053,9 @@ export const PT_C1_U17: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into Portuguese.",
         source: "— She's pregnant. — Is she? Since when?",
-        answer: "— Ela tá grávida. — Tá? Desde quando?",
-        altAnswers: ["— Ela está grávida. — Está? Desde quando?", "— Ela tá grávida. — Sério? Desde quando?", "— Ela está grávida. — Sério? Desde quando?", "— Ela tá grávida. — Jura? Desde quando?", "— Ela está grávida. — Jura? Desde quando?", "— Ela tá grávida. — Ah, é? Desde quando?", "— Ela está grávida. — Ah, é? Desde quando?"],
-        explanation: "The echo \"Tá?\" repeats the verb as a question, then a follow-up question shows interest.",
+        answer: "— Ela tá grávida. — Tá mesmo? Desde quando?",
+        altAnswers: ["— Ela está grávida. — Está mesmo? Desde quando?", "— Ela tá grávida. — É mesmo? Desde quando?", "— Ela tá grávida. — Tá? Desde quando?", "— Ela está grávida. — Está? Desde quando?", "— Ela tá grávida. — Sério? Desde quando?", "— Ela está grávida. — Sério? Desde quando?", "— Ela tá grávida. — Jura? Desde quando?", "— Ela está grávida. — Jura? Desde quando?", "— Ela tá grávida. — Ah, é? Desde quando?", "— Ela está grávida. — Ah, é? Desde quando?"],
+        explanation: "The echo repeats \"tá\" as a question. A bare \"Tá?\" can sound like 'OK?', so add \"mesmo\": \"Tá mesmo?\" A follow-up question then shows interest.",
       },
       {
         type: "listen-choose",
@@ -1103,7 +1103,7 @@ export const PT_C1_U17: Lesson[] = [
         type: "dictation",
         audio: "Pois é, tá tudo muito caro.",
         altAnswers: ["Pois é, está tudo muito caro."],
-        explanation: "\"Pois é\" agrees and sympathises; \"tá\" is the spoken está.",
+        explanation: "\"Pois é\" agrees and sympathizes; \"tá\" is the spoken está.",
       },
       {
         type: "speak",
@@ -1125,7 +1125,7 @@ export const PT_C1_U17: Lesson[] = [
       {
         heading: "Aí, daí, então: moving the story",
         body: [
-          "In a spoken story, almost every sentence starts with \"aí\": \"Aí eu saí, aí começou a chover, aí...\" It means and then, and it's the backbone of Brazilian oral narrative. \"Daí\" does the same job and is especially common in the South and in São Paulo; \"então\" is a little more careful. In writing, all those \"aí\"s become \"depois\", \"então\", \"em seguida\" or simply a full stop.",
+          "In a spoken story, almost every sentence starts with \"aí\": \"Aí eu saí, aí começou a chover, aí...\" It means and then, and it's the backbone of Brazilian oral narrative. \"Daí\" does the same job and is especially common in the South and in São Paulo; \"então\" is a little more careful. In writing, all those \"aí\"s become \"depois\", \"então\", \"em seguida\" or simply a period.",
           "Openers and closers frame the story. Start with \"Cê não sabe o que aconteceu\", \"Escuta essa\" or \"Sabe o que aconteceu?\". Land it with \"Resumindo\", \"Pra encurtar a história\", \"No fim das contas\" or \"Enfim\". A story without a frame sounds abrupt; one with an \"aí\" in every clause sounds childish, so vary them.",
         ],
         examples: [
@@ -1140,7 +1140,7 @@ export const PT_C1_U17: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "So I got home and there was a power cut. (telling a story)",
+            source: "So I got home and there was a power outage. (telling a story)",
             answer: "Aí eu cheguei em casa e tinha acabado a luz.",
             altAnswers: ["Aí eu cheguei em casa e a luz tinha acabado.", "Aí cheguei em casa e tinha acabado a luz.", "Aí cheguei em casa e a luz tinha acabado.", "Aí eu cheguei em casa e tava sem luz.", "Aí cheguei em casa e tava sem luz.", "Aí eu cheguei em casa e estava sem luz.", "Daí eu cheguei em casa e tinha acabado a luz.", "Aí eu cheguei em casa e não tinha luz.", "Aí eu cheguei em casa e tinha faltado luz."],
             explanation: "\"Aí\" moves the story forward. \"Acabar a luz\" is the everyday Brazilian way to say the power went off.",
@@ -1159,7 +1159,7 @@ export const PT_C1_U17: Lesson[] = [
       {
         heading: "Do nada, quando vi: the twist",
         body: [
-          "The twist has its own markers. \"Do nada\" (out of nowhere) is the spoken favourite: \"Do nada, o cara começou a gritar.\" \"Quando vi\" or \"quando eu vi\" (before I knew it) marks the moment you realised: \"Quando vi, já tinha passado do ponto.\" \"De repente\" works too, though in speech it often means maybe, as Lesson 7 shows.",
+          "The twist has its own markers. \"Do nada\" (out of nowhere) is the spoken favorite: \"Do nada, o cara começou a gritar.\" \"Quando vi\" or \"quando eu vi\" (before I knew it) marks the moment you realized: \"Quando vi, já tinha passado do ponto.\" \"De repente\" works too, though in speech it often means maybe, as Lesson 7 shows.",
           "Oral stories rarely report speech with \"disse que\". They act it out: \"Aí ele virou e falou: 'Isso aqui não é seu.'\" \"Virar\" (to turn) adds drama even when nobody turned anywhere. Speakers also use \"tipo\" or no verb at all: \"Aí ela: 'Não acredito!'\" The voice changes to play each character.",
         ],
         examples: [
@@ -1192,7 +1192,7 @@ export const PT_C1_U17: Lesson[] = [
             prompt: "Put the words in order to say: Before I knew it, I'd gone past my stop.",
             words: ["Quando", "vi,", "já", "tinha", "passado", "do", "ponto."],
             translation: "Before I knew it, I'd gone past my stop.",
-            explanation: "\"Quando vi\" marks the moment of realisation, followed by the pluperfect \"já tinha passado\".",
+            explanation: "\"Quando vi\" marks the moment of realization, followed by the pluperfect \"já tinha passado\".",
           },
         ],
       },
@@ -1206,7 +1206,7 @@ export const PT_C1_U17: Lesson[] = [
           { es: "Aí eu chego em casa, abro a porta e tá tudo revirado.", en: "So I get home, open the door, and everything's turned upside down." },
           { es: "Tava chovendo muito. Aí eu pego um táxi e o motorista não para de falar.", en: "It was pouring. So I get a taxi and the driver won't stop talking." },
           { es: "Aí ela olha pra mim e começa a rir.", en: "Then she looks at me and starts laughing." },
-          { es: "Eu tava na fila, quando do nada aparece o meu ex.", en: "I was in the queue when out of nowhere my ex shows up." },
+          { es: "Eu tava na fila, quando do nada aparece o meu ex.", en: "I was in line when out of nowhere my ex shows up." },
           { es: "Aí o garçom traz a conta e cadê minha carteira?", en: "Then the waiter brings the bill, and where's my wallet?" },
         ],
         checkpoint: [
@@ -1277,7 +1277,7 @@ export const PT_C1_U17: Lesson[] = [
       {
         type: "dictation",
         audio: "Quando vi, já tinha passado do ponto.",
-        explanation: "\"Quando vi\" (before I knew it) introduces the realisation, with the pluperfect \"tinha passado\".",
+        explanation: "\"Quando vi\" (before I knew it) introduces the realization, with the pluperfect \"tinha passado\".",
       },
       {
         type: "word-order",
@@ -1290,7 +1290,7 @@ export const PT_C1_U17: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I was in the queue when, out of nowhere, my ex shows up. (historical present)",
+        source: "I was in line when, out of nowhere, my ex shows up. (historical present)",
         answer: "Eu tava na fila quando, do nada, aparece o meu ex.",
         altAnswers: ["Eu estava na fila quando, do nada, aparece o meu ex.", "Eu tava na fila quando, do nada, aparece meu ex.", "Eu estava na fila quando, do nada, aparece meu ex.", "Eu tava na fila quando, do nada, meu ex aparece.", "Eu estava na fila quando, do nada, o meu ex aparece.", "Eu tava na fila quando, do nada, aparece a minha ex.", "Eu tava na fila quando, do nada, aparece minha ex.", "Eu estava na fila quando, do nada, aparece a minha ex."],
         explanation: "Background in the imperfeito (\"tava\"), the twist in the present (\"aparece\"), with the subject after the verb of appearance as in Unit 8.",
@@ -1546,7 +1546,7 @@ export const PT_C1_U17: Lesson[] = [
       {
         heading: "Part 1: Three conversations at once",
         body: [
-          "It's Sunday in Belo Horizonte. You're a guest at Dona Cida's house with her grandson Pedro. Around the table are Tio Beto, the family storyteller, and Pedro's cousin Júlia. Everyone talks at once: the food, the football, the neighbours. Don't wait for silence; follow the thread that matters to you.",
+          "It's Sunday in Belo Horizonte. You're a guest at Dona Cida's house with her grandson Pedro. Around the table are Tio Beto, the family storyteller, and Pedro's cousin Júlia. Everyone talks at once: the food, the football, the neighbors. Don't wait for silence; follow the thread that matters to you.",
           "Listen for the Minas Gerais flavour. \"Uai\" marks surprise or obviousness ('well!', 'of course!'), and \"trem\" means thing or stuff: \"esse trem tá uma delícia\". \"Cê tá servido?\" asks whether you've got enough food. Echo the verb to answer: \"Tô, sim.\"",
           "Dona Cida will offer more food again and again. A first refusal is expected politeness and won't be believed. What finally works is warm and firm: \"Tô satisfeito, sério, tava tudo ótimo.\" A woman says \"satisfeita\".",
         ],
@@ -1769,8 +1769,8 @@ export const PT_C1_U17: Lesson[] = [
         examples: [
           { es: "Aí eu tava na feira.", en: "So I was at the market. (spoken)" },
           { es: "Eu estava na feira.", en: "I was at the market. (written)" },
-          { es: "Tinha uma fila enorme pra pastel.", en: "There was a huge queue for pastel. (spoken)" },
-          { es: "Havia uma fila enorme na barraca de pastel.", en: "There was a huge queue at the pastel stall. (written)" },
+          { es: "Tinha uma fila enorme pra pastel.", en: "There was a huge line for pastel. (spoken)" },
+          { es: "Havia uma fila enorme na barraca de pastel.", en: "There was a huge line at the pastel stall. (written)" },
           { es: "Do nada, uma senhora me cutuca.", en: "Out of nowhere, this old lady pokes me. (spoken)" },
           { es: "De repente, uma senhora tocou meu ombro.", en: "Suddenly, an old lady touched my shoulder. (written)" },
         ],
@@ -1779,7 +1779,7 @@ export const PT_C1_U17: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "There was a long queue at the bakery. (in a crônica)",
+            source: "There was a long line at the bakery. (in a crônica)",
             answer: "Havia uma fila longa na padaria.",
             altAnswers: ["Havia uma longa fila na padaria.", "Havia uma fila grande na padaria.", "Havia uma grande fila na padaria.", "Na padaria, havia uma longa fila.", "Na padaria, havia uma fila longa.", "Havia uma fila enorme na padaria."],
             explanation: "Written narration uses \"havia\", singular before a noun; speech would say \"tinha\".",
@@ -1881,7 +1881,7 @@ export const PT_C1_U17: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "So I get to the market and there's a huge queue. (telling friends)",
+        source: "So I get to the market and there's a huge line. (telling friends)",
         answer: "Aí eu chego na feira e tem uma fila enorme.",
         altAnswers: ["Aí chego na feira e tem uma fila enorme.", "Daí eu chego na feira e tem uma fila enorme.", "Aí eu chego à feira e tem uma fila enorme.", "Aí eu chego na feira e tem uma fila gigante.", "Aí chego na feira e tem uma fila gigante."],
         explanation: "Spoken narration: \"aí\", the historical present \"chego\" and existential \"tem\".",
@@ -1890,7 +1890,7 @@ export const PT_C1_U17: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I arrived at the market and there was a huge queue. (in a crônica)",
+        source: "I arrived at the market and there was a huge line. (in a crônica)",
         answer: "Cheguei à feira e havia uma fila enorme.",
         altAnswers: ["Eu cheguei à feira e havia uma fila enorme.", "Quando cheguei à feira, havia uma fila enorme.", "Quando eu cheguei à feira, havia uma fila enorme.", "Cheguei à feira, e havia uma fila enorme.", "Cheguei à feira e encontrei uma fila enorme."],
         explanation: "Written: the pretérito \"cheguei\", \"chegar a\" with the crase, and \"havia\" instead of \"tinha\".",
@@ -1944,8 +1944,8 @@ export const PT_C1_U17: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "Tinha uma fila.", right: "There was a queue. (spoken)" },
-          { left: "Havia uma fila.", right: "There was a queue. (written)" },
+          { left: "Tinha uma fila.", right: "There was a line. (spoken)" },
+          { left: "Havia uma fila.", right: "There was a line. (written)" },
           { left: "Do nada, ela apareceu.", right: "Out of nowhere, she appeared. (spoken)" },
           { left: "De repente, ela apareceu.", right: "Suddenly, she appeared. (written)" },
           { left: "Me deu um susto!", right: "It gave me a fright! (spoken)" },
@@ -1956,7 +1956,7 @@ export const PT_C1_U17: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "It was then that I realised I had lost my wallet. (in a crônica)",
+        source: "It was then that I realized I had lost my wallet. (in a crônica)",
         answer: "Foi então que percebi que tinha perdido a carteira.",
         altAnswers: ["Foi então que percebi que havia perdido a carteira.", "Foi então que eu percebi que tinha perdido a carteira.", "Foi então que percebi que tinha perdido minha carteira.", "Foi então que percebi que tinha perdido a minha carteira.", "Foi então que percebi que havia perdido minha carteira.", "Foi aí que percebi que tinha perdido a carteira."],
         explanation: "The cleft \"foi então que\" (Unit 8) gives written narration its climax without any \"aí\".",
@@ -2037,7 +2037,7 @@ export const PT_C1_U17: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "So, I wanted to ask you a favour. (casual, opening the topic)",
+            source: "So, I wanted to ask you a favor. (casual, opening the topic)",
             answer: "Então, eu queria te pedir um favor.",
             altAnswers: ["Então, queria te pedir um favor.", "Então, eu queria pedir um favor.", "Então, eu queria te pedir um favorzinho.", "Então, eu queria pedir um favor pra você.", "Então, queria pedir um favor.", "Então, eu queria pedir um favor a você."],
             explanation: "\"Então\" opens a new topic; \"queria\" softens the request.",
@@ -2071,7 +2071,7 @@ export const PT_C1_U17: Lesson[] = [
             type: "listen-choose",
             audio: "De repente a gente se vê no fim de semana.",
             question: "What does it mean?",
-            options: ["Maybe we'll see each other at the weekend.", "Suddenly we saw each other at the weekend.", "We'll definitely meet at the weekend.", "We met by chance last weekend."],
+            options: ["Maybe we'll see each other on the weekend.", "Suddenly we saw each other on the weekend.", "We'll definitely meet on the weekend.", "We met by chance last weekend."],
             correctIndex: 0,
             explanation: "A plan in the present: \"de repente\" means maybe.",
           },
@@ -2240,7 +2240,7 @@ export const PT_C1_U17: Lesson[] = [
             source: "Before I knew it, I was squashed between three people. (casual)",
             answer: "Quando vi, tava espremido entre três pessoas.",
             altAnswers: ["Quando vi, eu tava espremido entre três pessoas.", "Quando vi, tava espremida entre três pessoas.", "Quando vi, eu tava espremida entre três pessoas.", "Quando vi, estava espremido entre três pessoas.", "Quando vi, estava espremida entre três pessoas.", "Quando eu vi, tava espremido entre três pessoas.", "Quando eu vi, tava espremida entre três pessoas.", "Quando eu vi, eu tava espremido entre três pessoas."],
-            explanation: "\"Quando vi\" marks the moment of realisation; \"tava\" is the spoken estava, and the participle agrees with the speaker.",
+            explanation: "\"Quando vi\" marks the moment of realization; \"tava\" is the spoken estava, and the participle agrees with the speaker.",
           },
           {
             type: "listen-choose",
@@ -2402,7 +2402,7 @@ export const PT_C1_U17: Lesson[] = [
         examples: [
           { es: "Aliás, cê viu que a Ana mudou de emprego?", en: "By the way, did you see Ana's changed jobs?" },
           { es: "Afinal, cê vem ou não vem?", en: "So are you coming or not?" },
-          { es: "Até minha avó já tem celular.", en: "Even my grandmother has a mobile now." },
+          { es: "Até minha avó já tem celular.", en: "Even my grandmother has a cell phone now." },
           { es: "É que eu tava sem bateria.", en: "It's just that my battery was dead." },
           { es: "Ué, cadê todo mundo?", en: "Huh, where is everyone?" },
         ],
@@ -2444,7 +2444,7 @@ export const PT_C1_U17: Lesson[] = [
           { es: "O chefe, ninguém consegue falar com ele.", en: "The boss, nobody can get hold of him." },
           { es: "Foi a Bia que contou pra todo mundo.", en: "It was Bia who told everyone." },
           { es: "Eu é que não vou pagar essa conta.", en: "I'm certainly not paying this bill." },
-          { es: "O que me irrita é gente que fura fila.", en: "What annoys me is people who jump the queue." },
+          { es: "O que me irrita é gente que fura fila.", en: "What annoys me is people who cut in line." },
         ],
         checkpoint: [
           {
@@ -2539,7 +2539,7 @@ export const PT_C1_U17: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "What I want is a holiday.",
+        source: "What I want is a vacation.",
         answer: "O que eu quero são umas férias.",
         altAnswers: ["O que eu quero é umas férias.", "O que eu quero é férias.", "O que eu quero são férias.", "O que eu quero é tirar férias."],
         explanation: "A pseudo-cleft: \"o que eu quero é / são\" + the focus. \"Férias\" is plural, so \"são\" is the careful choice.",
@@ -2555,7 +2555,7 @@ export const PT_C1_U17: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Then, out of nowhere, who shows up but my mum! (telling a story)",
+        source: "Then, out of nowhere, who shows up but my mom! (telling a story)",
         answer: "Aí, do nada, quem aparece é a minha mãe!",
         altAnswers: ["Aí, do nada, quem aparece é minha mãe!", "Aí, do nada, aparece a minha mãe!", "Aí, do nada, aparece minha mãe!", "Aí, do nada, é a minha mãe que aparece!", "Aí, do nada, é minha mãe que aparece!", "Aí, do nada, minha mãe aparece!"],
         explanation: "\"Quem aparece é\" is a cleft that saves the surprise for the end, inside a story in the historical present.",

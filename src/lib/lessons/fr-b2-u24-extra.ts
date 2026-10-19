@@ -10,7 +10,7 @@ export const FR_B2_U24_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Art and Literature Vocabulary",
-    summary: "Gender and collocations: une œuvre, un chef-d'œuvre, publier un roman, exposer, paraître.",
+    summary: "Gender and collocations: \"une œuvre\", \"un chef-d'œuvre\", \"publier un roman\", \"exposer\", \"paraître\".",
     duration: "12 min",
     sections: [
       {
@@ -109,7 +109,7 @@ export const FR_B2_U24_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "a romance novel",
+        question: "Which is correct for: a romance novel?",
         options: ["un roman d'amour", "un roman", "une romance", "une nouvelle d'amour"],
         correctIndex: 0,
         explanation: "\"Un roman\" is any novel; a romance is \"un roman d'amour\" or \"un roman sentimental\".",
@@ -276,7 +276,7 @@ export const FR_B2_U24_EXTRA: Lesson[] = [
         question: "Which sentence summarises « Le gouvernement a reculé. Il craignait que la grève s'étende. » best?",
         options: ["Le gouvernement a reculé de peur que la grève ne s'étende.", "Le gouvernement a reculé de peur que la grève s'étend.", "Le gouvernement a reculé pour que la grève s'étende.", "Le gouvernement a reculé si bien que la grève s'étende."],
         correctIndex: 0,
-        explanation: "\"De peur que\" + subjunctive (ne explétif).",
+        explanation: "\"De peur que\" + subjunctive (with the \"ne\" explétif).",
       },
       {
         type: "word-order",
@@ -334,7 +334,7 @@ export const FR_B2_U24_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Dreams and False Friends",
-    summary: "Rêver de, faire semblant, prétendre and imaginer in context.",
+    summary: "\"Rêver de\", \"faire semblant\", \"prétendre\" and \"imaginer\" in context.",
     duration: "12 min",
     sections: [
       {
@@ -435,7 +435,7 @@ export const FR_B2_U24_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "She pretended to be happy.",
+        question: "Which is correct for: She pretended to be happy?",
         options: ["Elle a fait semblant d'être heureuse.", "Elle a prétendu être heureuse.", "Elle a imaginé être heureuse.", "Elle a rêvé être heureuse."],
         correctIndex: 0,
         explanation: "To pretend = \"faire semblant\". \"Elle a prétendu être heureuse\" = she claimed to be happy.",

@@ -62,7 +62,7 @@ const ESCRITA: ExamPaper = {
       instructions:
         "Leia o anúncio do Centro Cultural Vila Mar. Escreva um e-mail para o centro cultural. Diga qual oficina você quer fazer e por quê, pergunte uma informação que não está no anúncio e diga quando você pode começar.",
       instructionsEn:
-        "Read the community centre's advert. Write it an e-mail: say which workshop you want to do and why, ask for one piece of information that isn't in the advert, and say when you can start.",
+        "Read the community center's ad. Write it an e-mail: say which workshop you want to do and why, ask for one piece of information that isn't in the ad, and say when you can start.",
       texts: [
         {
           title: "Centro Cultural Vila Mar: oficinas de férias",
@@ -81,8 +81,8 @@ const ESCRITA: ExamPaper = {
           minWords: 50,
           maxWords: 80,
           rubric: [
-            "Covers all three points: which workshop and why, a question about something not in the advert, when you can start",
-            "Polite e-mail to an organisation: \"Olá\" / \"Bom dia\" … \"Obrigado\" or \"Obrigada\" / \"Atenciosamente\"",
+            "Covers all three points: which workshop and why, a question about something not in the ad, when you can start",
+            "Polite e-mail to an organization: \"Olá\" / \"Bom dia\" … \"Obrigado\" or \"Obrigada\" / \"Atenciosamente\"",
             "Gives a reason with \"porque\" (\"porque eu adoro cozinhar\")",
             "Uses \"gostaria de\" or \"quero\" politely (\"Gostaria de fazer a oficina de…\")",
             "Uses days and times correctly (\"no sábado\", \"às nove horas\", \"na próxima semana\")",
@@ -214,6 +214,6 @@ export const PT_PRATICA_A2: Exam = {
   level: "A2",
   title: "Deep End A2 integrated practice test",
   description:
-    "A shorter practice test for learners below B1, in the integrated style of the Celpe-Bras but at A2: answer a friend's voice message and write to a community centre about its advert, then a short conversation about yourself and two picture cards. Deep End practice, not a Celpe-Bras exam: it gives no certificate level.",
+    "A shorter practice test for learners below B1, in the integrated style of the Celpe-Bras but at A2: answer a friend's voice message and write to a community center about its ad, then a short conversation about yourself and two picture cards. Deep End practice, not a Celpe-Bras exam: it gives no certificate level.",
   papers: [ESCRITA, ORAL],
 };

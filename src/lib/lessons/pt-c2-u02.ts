@@ -53,8 +53,8 @@ export const PT_C2_U02: Lesson[] = [
       {
         heading: "Homófonos: the spelling picks the meaning",
         body: [
-          "\"Homófonos\" sound the same but are spelt differently, because \"ss\", \"ç\", \"c\" before e or i, and \"s\" at the start of a word or after a consonant all share one sound, as do \"x\" and \"ch\". A \"conserto\" is a repair, a \"concerto\" a concert. A \"sessão\" is a session or screening, a \"seção\" a section, a \"cessão\" a transfer of rights. \"Cela\" is a cell and \"sela\" a saddle; \"censo\" is a census, \"senso\" a sense; \"caçar\" is to hunt, \"cassar\" to revoke.",
-          "Aloud, the pun comes free. In writing you must commit to a spelling, and the wrong one turns wit into a typo. A music workshop's slogan \"Fazemos o conserto, você faz o concerto\" works only because each word is spelt right. The best-known slip is \"pôr em cheque\": the idiom comes from chess, so it is \"pôr em xeque\" (to call into question); a \"cheque\" is drawn on a bank.",
+          "\"Homófonos\" sound the same but are spelled differently, because \"ss\", \"ç\", \"c\" before e or i, and \"s\" at the start of a word or after a consonant all share one sound, as do \"x\" and \"ch\". A \"conserto\" is a repair, a \"concerto\" a concert. A \"sessão\" is a session or screening, a \"seção\" a section, a \"cessão\" a transfer of rights. \"Cela\" is a cell and \"sela\" a saddle; \"censo\" is a census, \"senso\" a sense; \"caçar\" is to hunt, \"cassar\" to revoke.",
+          "Aloud, the pun comes free. In writing you must commit to a spelling, and the wrong one turns wit into a typo. A music workshop's slogan \"Fazemos o conserto, você faz o concerto\" works only because each word is spelled right. The best-known slip is \"pôr em cheque\": the idiom comes from chess, so it is \"pôr em xeque\" (to call into question); a \"cheque\" is drawn on a bank.",
           "A deliberate misspelling is the written pun's main weapon. A headline about an IBGE survey of the national mood can run \"O censo de humor do brasileiro\", and it works precisely because every reader knows the norm is \"senso de humor\".",
         ],
         examples: [
@@ -62,7 +62,7 @@ export const PT_C2_U02: Lesson[] = [
           { es: "A próxima sessão começa às oito.", en: "The next screening starts at eight." },
           { es: "Procure na seção de esportes do jornal.", en: "Look in the sports section of the paper." },
           { es: "O escândalo pôs em xeque a credibilidade do ministro.", en: "The scandal cast doubt on the minister's credibility." },
-          { es: "Ele tem um senso de humor muito peculiar.", en: "He has a very peculiar sense of humour." },
+          { es: "Ele tem um senso de humor muito peculiar.", en: "He has a very peculiar sense of humor." },
         ],
         checkpoint: [
           {
@@ -72,7 +72,7 @@ export const PT_C2_U02: Lesson[] = [
             sentence: "O escândalo ___ a credibilidade do ministro.",
             answer: "pôs em xeque",
             altAnswers: ["colocou em xeque"],
-            explanation: "The idiom comes from chess (\"xeque\" = check), so it is \"pôr em xeque\". \"Pôr em cheque\" is a common slip: a \"cheque\" is a bank cheque.",
+            explanation: "The idiom comes from chess (\"xeque\" = check), so it is \"pôr em xeque\". \"Pôr em cheque\" is a common slip: a \"cheque\" is a bank check.",
           },
           {
             type: "translate",
@@ -162,13 +162,13 @@ export const PT_C2_U02: Lesson[] = [
           "A última sessão do filme é às dez horas.",
           "A última sessão do filme começa às dez horas.",
         ],
-        explanation: "A cinema screening is a \"sessão\". \"Seção\" would be a section of a shop or newspaper, and \"cessão\" a transfer of rights.",
+        explanation: "A movie screening is a \"sessão\". \"Seção\" would be a section of a store or newspaper, and \"cessão\" a transfer of rights.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "He has no sense of humour.",
+        source: "He has no sense of humor.",
         answer: "Ele não tem senso de humor.",
         altAnswers: ["Ele não tem nenhum senso de humor.", "Não tem senso de humor."],
         explanation: "Sense is \"senso\", with s. \"Censo\" is a census, which is why \"censo de humor\" only works as a deliberate pun.",
@@ -176,10 +176,10 @@ export const PT_C2_U02: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "My neighbour [repairs] old pianos.",
+        en: "My neighbor [repairs] old pianos.",
         sentence: "Meu vizinho ___ pianos antigos.",
         answer: "conserta",
-        explanation: "To repair is \"consertar\", hence \"conserta\". \"Concertar\" exists but means to harmonise or arrange, as in \"concertar um acordo\".",
+        explanation: "To repair is \"consertar\", hence \"conserta\". \"Concertar\" exists but means to harmonize or arrange, as in \"concertar um acordo\".",
       },
       {
         type: "translate",
@@ -192,7 +192,7 @@ export const PT_C2_U02: Lesson[] = [
           "O contrato é sobre a cessão dos direitos de imagem.",
           "O contrato é sobre a cessão de direitos de imagem.",
         ],
-        explanation: "A transfer of rights is a \"cessão\" (from \"ceder\", to cede), spelt with c and ss. \"Sessão\" and \"seção\" sound the same but are a session and a section.",
+        explanation: "A transfer of rights is a \"cessão\" (from \"ceder\", to cede), spelled with c and ss. \"Sessão\" and \"seção\" sound the same but are a session and a section.",
       },
       {
         type: "translate",
@@ -250,8 +250,8 @@ export const PT_C2_U02: Lesson[] = [
         type: "speak",
         text: "Fazemos o conserto, você faz o concerto.",
         prompt: "Say it in Portuguese: We do the repair, you give the concert.",
-        tip: "Both nouns sound exactly the same, with a closed ê: con-SÊR-to. Only the verb \"eu conserto\" has an open é.",
-        explanation: "The slogan's pun depends on two homophones, so in writing each must be spelt right: \"conserto\" (repair), \"concerto\" (concert).",
+        tip: "Both nouns sound exactly the same, with a closed ê: kon-SÊR-tu. Only the verb \"eu conserto\" has an open é.",
+        explanation: "The slogan's pun depends on two homophones, so in writing each must be spelled right: \"conserto\" (repair), \"concerto\" (concert).",
       },
       {
         type: "matching",
@@ -272,7 +272,7 @@ export const PT_C2_U02: Lesson[] = [
         en: "The Electoral Court [revoked] the mayor's mandate.",
         sentence: "A Justiça Eleitoral ___ o mandato do prefeito.",
         answer: "cassou",
-        explanation: "To revoke a mandate or licence is \"cassar\", with ss. \"Caçou\", from \"caçar\", would mean hunted: a pun cartoonists love, but a typo in a news report.",
+        explanation: "To revoke a mandate or license is \"cassar\", with ss. \"Caçou\", from \"caçar\", would mean hunted: a pun cartoonists love, but a typo in a news report.",
       },
     ],
   },
@@ -294,8 +294,8 @@ export const PT_C2_U02: Lesson[] = [
         examples: [
           { es: "Polícia prende homem com faca no Centro.", en: "Police arrest man with knife downtown. (Who had the knife?)" },
           { es: "Vendo cachorro. Come de tudo e adora crianças.", en: "Dog for sale. Eats anything and loves children." },
-          { es: "Conheci o filho da vizinha que mora em Recife.", en: "I met the son of the neighbour who lives in Recife. (The son or the neighbour?)" },
-          { es: "Conheci o filho da vizinha, o qual mora em Recife.", en: "I met the neighbour's son, who lives in Recife." },
+          { es: "Conheci o filho da vizinha que mora em Recife.", en: "I met the son of the neighbor who lives in Recife. (The son or the neighbor?)" },
+          { es: "Conheci o filho da vizinha, o qual mora em Recife.", en: "I met the neighbor's son, who lives in Recife." },
           { es: "O diretor conversou com o gerente sobre a demissão deste.", en: "The director talked to the manager about the latter's dismissal." },
         ],
         checkpoint: [
@@ -303,7 +303,7 @@ export const PT_C2_U02: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I met the neighbour's son, who lives in Recife. (Make it clear that the son lives there.)",
+            source: "I met the neighbor's son, who lives in Recife. (Make it clear that the son lives there.)",
             answer: "Conheci o filho da vizinha, o qual mora em Recife.",
             altAnswers: ["Eu conheci o filho da vizinha, o qual mora em Recife."],
             explanation: "A plain \"que\" could refer to \"filho\" or \"vizinha\". The masculine \"o qual\" can only refer to \"o filho\", so the ambiguity disappears.",
@@ -339,7 +339,7 @@ export const PT_C2_U02: Lesson[] = [
         heading: "Ambiguity on purpose: advertising",
         body: [
           "Advertising does the opposite: it builds a second reading in on purpose. Usually it uses a polysemous word (one form with related meanings, like \"corte\" or \"entregar\") or takes an idiom literally. Last lesson's \"trocadilho\" plays on sound. \"Duplo sentido\" keeps the same word and plays on its meaning. The reader decodes the joke and remembers the brand.",
-          "The good ones make both readings true for the product. \"Corte de preços\" suits a hair salon, which really cuts both hair and prices; in a supermarket it is just a sale. \"A gente pega no seu pé\" suits a shoe shop: the idiom means to nag, but the shop literally handles your feet. If only one reading fits, the reader feels tricked rather than amused.",
+          "The good ones make both readings true for the product. \"Corte de preços\" suits a hair salon, which really cuts both hair and prices; in a supermarket it is just a sale. \"A gente pega no seu pé\" suits a shoe store: the idiom means to nag, but the store literally handles your feet. If only one reading fits, the reader feels tricked rather than amused.",
           "Before you publish, read your slogan the way a teenager would. A second reading you didn't plan, especially a sexual one, is the one that will go viral.",
         ],
         examples: [
@@ -504,7 +504,7 @@ export const PT_C2_U02: Lesson[] = [
         type: "speak",
         text: "Polícia prende homem armado com faca.",
         prompt: "Say it in Portuguese: Police arrest man armed with a knife.",
-        tip: "Final -de in prende sounds like dji in most of Brazil, and the -em in homem is a nasal diphthong, close to ãi.",
+        tip: "Final -de in prende sounds like dji in most of Brazil, and the -em in homem is a nasal diphthong, close to a nasal ei.",
         explanation: "\"Armado com faca\" ties the knife to the man, so the headline has only one reading.",
       },
       {
@@ -523,7 +523,7 @@ export const PT_C2_U02: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I met the son of the neighbour who lives in Recife. (Make it clear that the neighbour lives there.)",
+        source: "I met the son of the neighbor who lives in Recife. (Make it clear that the neighbor lives there.)",
         answer: "Conheci o filho da vizinha, a qual mora em Recife.",
         altAnswers: ["Eu conheci o filho da vizinha, a qual mora em Recife."],
         explanation: "The feminine \"a qual\" can only refer to \"a vizinha\". A plain \"que\" would leave the reader guessing.",
@@ -551,14 +551,14 @@ export const PT_C2_U02: Lesson[] = [
         heading: "Charge, cartum, tirinha: three genres",
         body: [
           "In Brazil a \"charge\" (said SHAR-zhee, from the French for a loaded attack) is a single-panel cartoon tied to the day's news: a minister, a scandal, a price rise. It is opinion in drawn form, and it ages fast; a year later it needs a footnote. A \"cartum\" uses the same tools for timeless situations, such as marriage, the office or traffic, so it travels without context.",
-          "A \"tirinha\" (or \"tira\") is a strip of three or four \"quadrinhos\" (panels) with recurring characters. Its engine is the \"desfecho\": the last panel overturns everything before it. Angeli and Laerte made the strip a home for adult satire in the \"Folha de S.Paulo\". Angeli's \"Rê Bordosa\" and Laerte's \"Piratas do Tietê\" are references a whole generation recognises.",
+          "A \"tirinha\" (or \"tira\") is a strip of three or four \"quadrinhos\" (panels) with recurring characters. Its engine is the \"desfecho\": the last panel overturns everything before it. Angeli and Laerte made the strip a home for adult satire in the \"Folha de S.Paulo\". Angeli's \"Rê Bordosa\" and Laerte's \"Piratas do Tietê\" are references a whole generation recognizes.",
           "The parts have names you'll need: \"balão\" (speech bubble), \"legenda\" (caption), \"onomatopeia\", \"traço\" (drawing style). \"Quadrinhos\" also means comics in general, and \"gibi\" is the everyday word for a comic book. The artists are \"cartunistas\", \"chargistas\" or \"quadrinistas\".",
         ],
         examples: [
-          { es: "A charge de hoje faz piada com o aumento da gasolina.", en: "Today's political cartoon makes fun of the rise in petrol prices." },
+          { es: "A charge de hoje faz piada com o aumento da gasolina.", en: "Today's political cartoon makes fun of the rise in gas prices." },
           { es: "Toda charge envelhece: daqui a um ano, ninguém vai se lembrar do escândalo.", en: "Every political cartoon ages: a year from now, nobody will remember the scandal." },
           { es: "O cartum sobre o trânsito de São Paulo continua engraçado vinte anos depois.", en: "The cartoon about São Paulo traffic is still funny twenty years later." },
-          { es: "A tirinha tem três quadrinhos, e a graça está toda no último.", en: "The strip has three panels, and all the humour is in the last one." },
+          { es: "A tirinha tem três quadrinhos, e a graça está toda no último.", en: "The strip has three panels, and all the humor is in the last one." },
           { es: "O balão do segundo quadrinho está vazio, e esse silêncio é a piada.", en: "The speech bubble in the second panel is empty, and that silence is the joke." },
           { es: "Eu cresci lendo gibi da Turma da Mônica.", en: "I grew up reading Turma da Mônica comics." },
         ],
@@ -598,15 +598,15 @@ export const PT_C2_U02: Lesson[] = [
       {
         heading: "Context and irony: reading what isn't drawn",
         body: [
-          "A \"charge\" assumes you've read the paper. The drawing alludes to a fact (\"faz alusão a\", \"remete a\") and leaves the connection to you. Miss the news and you miss the joke. Chargistas also lean on shared memory: a famous photo, a line from a novela or a football defeat, redrawn with a politician in it. So your first question isn't what is drawn but what happened that week.",
+          "A \"charge\" assumes you've read the paper. The drawing alludes to a fact (\"faz alusão a\", \"remete a\") and leaves the connection to you. Miss the news and you miss the joke. Chargistas also lean on shared memory: a famous photo, a line from a novela or a soccer defeat, redrawn with a politician in it. So your first question isn't what is drawn but what happened that week.",
           "Irony in cartoons usually lives in the gap between image and word: the bubble says \"está tudo sob controle\" while the drawing shows a flood. As with last lesson's double meanings, the reader holds two readings at once. Describe it with \"o humor nasce do contraste entre...\" or \"a imagem desmente o texto\".",
-          "Quino's Mafalda, the Argentine girl who hates soup and worries about the world, is quoted in Brazil as if she were local. Her irony is the child's naive question that exposes adult hypocrisy: a voice too small to censor. That is partly why she travelled so well during the years of military rule on both sides of the border.",
+          "Quino's Mafalda, the Argentine girl who hates soup and worries about the world, is quoted in Brazil as if she were local. Her irony is the child's naive question that exposes adult hypocrisy: a voice too small to censor. That is partly why she traveled so well during the years of military rule on both sides of the border.",
         ],
         examples: [
           { es: "A charge faz alusão ao discurso do ministro na semana passada.", en: "The cartoon alludes to the minister's speech last week." },
           { es: "Sem saber da notícia, o leitor não entende a piada.", en: "Without knowing the news, the reader doesn't get the joke." },
           { es: "No balão, o prefeito diz que está tudo sob controle; atrás dele, a cidade está debaixo d'água.", en: "In the speech bubble, the mayor says everything is under control; behind him, the city is under water." },
-          { es: "O humor nasce do contraste entre a fala otimista e a imagem do desastre.", en: "The humour comes from the contrast between the upbeat words and the image of disaster." },
+          { es: "O humor nasce do contraste entre a fala otimista e a imagem do desastre.", en: "The humor comes from the contrast between the upbeat words and the image of disaster." },
           { es: "A pergunta inocente da Mafalda desmonta o discurso dos adultos.", en: "Mafalda's innocent question takes the adults' rhetoric apart." },
           { es: "A Mafalda odeia sopa, e a sopa acaba virando símbolo de tudo o que é imposto.", en: "Mafalda hates soup, and soup ends up standing for everything that is imposed." },
         ],
@@ -651,7 +651,7 @@ export const PT_C2_U02: Lesson[] = [
       {
         heading: "Caricatura and traço",
         body: [
-          "\"Caricatura\" exaggerates what makes a face recognisable: ears, beard, eyebrows, teeth. The verb is \"caricaturar\". The charge adds fixed symbols: a sack marked with a dollar sign for corruption, the \"faixa presidencial\" for power, a tiny figure for the ordinary citizen. Brazilians decode these instantly; learn them as vocabulary.",
+          "\"Caricatura\" exaggerates what makes a face recognizable: ears, beard, eyebrows, teeth. The verb is \"caricaturar\". The charge adds fixed symbols: a sack marked with a dollar sign for corruption, the \"faixa presidencial\" for power, a tiny figure for the ordinary citizen. Brazilians decode these instantly; learn them as vocabulary.",
           "To write about a cartoon, use verbs of representation: \"retratar\" (portray), \"representar\", \"satirizar\", \"ridicularizar\", and the frame \"o cartunista retrata X como Y\". \"Satirizar\" implies a critique. \"Ridicularizar\" is mockery that aims to diminish, so choose it deliberately.",
           "Style is part of the message. Angeli's dirty, nervous \"traço\" suits his underground characters. Laerte's later strips, cleaner and often wordless, move from the punchline to existential and gender questions, and many end without a joke. When a strip doesn't make you laugh, ask whether it meant to.",
         ],
@@ -659,7 +659,7 @@ export const PT_C2_U02: Lesson[] = [
           { es: "O chargista caricaturou o senador com orelhas enormes.", en: "The cartoonist caricatured the senator with huge ears." },
           { es: "O brasileiro comum aparece sempre pequeno, espremido entre os poderosos.", en: "The ordinary Brazilian always appears small, squeezed between the powerful." },
           { es: "A charge retrata o Congresso como um circo.", en: "The cartoon portrays Congress as a circus." },
-          { es: "A tirinha satiriza a obsessão da classe média com status.", en: "The strip satirises the middle class's obsession with status." },
+          { es: "A tirinha satiriza a obsessão da classe média com status.", en: "The strip satirizes the middle class's obsession with status." },
           { es: "O traço sujo do Angeli combina com os personagens marginais dele.", en: "Angeli's dirty drawing style suits his outsider characters." },
           { es: "Nas tiras mais recentes da Laerte, muitas vezes não há piada nenhuma.", en: "In Laerte's more recent strips, there's often no joke at all." },
         ],
@@ -760,7 +760,7 @@ export const PT_C2_U02: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The strip [satirises] the middle class's obsession with status.",
+        en: "The strip [satirizes] the middle class's obsession with status.",
         sentence: "A tirinha ___ a obsessão da classe média com status.",
         answer: "satiriza",
         altAnswers: ["ironiza"],
@@ -776,9 +776,9 @@ export const PT_C2_U02: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The humour comes from the contrast between the image and the text.",
+        prompt: "Put the words in order to say: The humor comes from the contrast between the image and the text.",
         words: ["O humor", "nasce", "do contraste", "entre", "a imagem", "e o texto."],
-        translation: "The humour comes from the contrast between the image and the text.",
+        translation: "The humor comes from the contrast between the image and the text.",
         explanation: "\"O humor nasce do contraste entre...\" is the standard way to describe where a cartoon's irony comes from. \"Do\" is de + o.",
       },
       {
@@ -804,7 +804,7 @@ export const PT_C2_U02: Lesson[] = [
           { left: "desfecho", right: "final twist" },
           { left: "gibi", right: "comic book" },
         ],
-        explanation: "These are the words for talking about any \"tirinha\" or \"charge\". \"Desfecho\" is the turn in the last panel that the whole strip builds towards.",
+        explanation: "These are the words for talking about any \"tirinha\" or \"charge\". \"Desfecho\" is the turn in the last panel that the whole strip builds toward.",
       },
     ],
   },
@@ -812,8 +812,8 @@ export const PT_C2_U02: Lesson[] = [
     slug: "c2-memes-internet-humour",
     level: "PT-C2",
     number: 4,
-    title: "Memes and Internet Humour",
-    summary: "Read and write Brazilian internet humour: the shades of kkkk, rsrs and hahaha, the reaction phrases of comment sections, ironic captions and the meme formats every Brazilian recognises.",
+    title: "Memes and Internet Humor",
+    summary: "Read and write Brazilian internet humor: the shades of kkkk, rsrs and hahaha, the reaction phrases of comment sections, ironic captions and the meme formats every Brazilian recognizes.",
     duration: "15 min",
     sections: [
       {
@@ -906,8 +906,8 @@ export const PT_C2_U02: Lesson[] = [
         heading: "Só que não: ironic captions and meme formats",
         body: [
           "Captions run on irony: say the opposite and trust the reader. The workhorse is \"só que não\", tacked on to flip the sentence like an ironic English NOT: \"amo segunda-feira, só que não\". \"Que maravilha\" under a photo of a flooded street, or \"tudo normal\" under chaos, does the same work with no marker at all.",
-          "Formats travel as fixed text. \"Ninguém: / Eu às três da manhã:\" mocks behaviour nobody asked for; \"expectativa x realidade\" sets the dream against the letdown; \"Brasil, o país da piada pronta\" says reality has already written the joke. \"A zoeira não tem limites\" is the shrug that follows any of them.",
-          "Reaction images are shared vocabulary too. \"Nazaré confusa\", Renata Sorrah as the villain Nazaré Tedesco from the 2004 novela \"Senhora do Destino\", surrounded by floating maths formulas, means total bewilderment; posting her is a complete reply. Knowing the source is what separates getting a joke from merely seeing it.",
+          "Formats travel as fixed text. \"Ninguém: / Eu às três da manhã:\" mocks behavior nobody asked for; \"expectativa x realidade\" sets the dream against the letdown; \"Brasil, o país da piada pronta\" says reality has already written the joke. \"A zoeira não tem limites\" is the shrug that follows any of them.",
+          "Reaction images are shared vocabulary too. \"Nazaré confusa\", Renata Sorrah as the villain Nazaré Tedesco from the 2004 novela \"Senhora do Destino\", surrounded by floating math formulas, means total bewilderment; posting her is a complete reply. Knowing the source is what separates getting a joke from merely seeing it.",
         ],
         examples: [
           { es: "Amo acordar às seis na segunda, só que não.", en: "I love waking up at six on a Monday. NOT." },
@@ -932,7 +932,7 @@ export const PT_C2_U02: Lesson[] = [
             prompt: "Put the words in order to say: Nobody: / Me at three in the morning: opening the fridge.",
             words: ["Ninguém:", "eu às", "três da manhã:", "abrindo", "a", "geladeira."],
             translation: "Nobody: / Me at three in the morning: opening the fridge.",
-            explanation: "The format is fixed: \"Ninguém:\" first, then \"eu\" plus a time, then a gerund describing the unprompted behaviour.",
+            explanation: "The format is fixed: \"Ninguém:\" first, then \"eu\" plus a time, then a gerund describing the unprompted behavior.",
           },
           {
             type: "listen-choose",
@@ -1062,7 +1062,7 @@ export const PT_C2_U02: Lesson[] = [
         body: [
           "\"Zoar\" is the core verb of Brazilian banter. \"Zoar alguém\" (or \"zoar com alguém\") is to tease, wind up or take the mickey, and \"tô zoando\" means I'm only kidding. \"A zoeira\" is the activity itself: the friendly mockery of a bar table or a group chat, celebrated in the meme \"a zoeira não tem limites\". \"Tirar sarro de\", strongest in São Paulo, is to make fun of, with a little more edge. \"Tirar uma com a cara de alguém\" is to mess with someone.",
           "The trap: \"zoar\" also means to wreck or mess up. \"Zoei a prova\" is I botched the exam, \"o celular tá zoado\" is the phone's busted, \"que lugar zoado\" is what a dump. With a person as the object and a grin on your face, it's teasing. With a thing, it's damage.",
-          "Two neighbours: \"brincar\" (to joke: \"é brincadeira!\", just kidding) and \"sacanear\" (to tease, or to do someone dirty: \"que sacanagem!\", that's so unfair). Remember from the double-meaning lesson that \"sacanagem\" on its own can mean smut, and that \"gozar\" is best avoided. \"Zoar\" does the same job safely.",
+          "Two neighbors: \"brincar\" (to joke: \"é brincadeira!\", just kidding) and \"sacanear\" (to tease, or to do someone dirty: \"que sacanagem!\", that's so unfair). Remember from the double-meaning lesson that \"sacanagem\" on its own can mean smut, and that \"gozar\" is best avoided. \"Zoar\" does the same job safely.",
         ],
         examples: [
           { es: "Para de me zoar, eu cortei o cabelo ontem!", en: "Stop teasing me, I only got my hair cut yesterday!" },
@@ -1102,14 +1102,14 @@ export const PT_C2_U02: Lesson[] = [
       {
         heading: "The rules of the game between friends",
         body: [
-          "Between Brazilian friends, teasing is affection: the closer the friendship, the harder the zoeira. Nicknames from looks or habits are normal and usually fond: \"Baixinho\", \"Alemão\" for a blond, \"Sumido\" for the friend who never shows up. The licence comes from intimacy, though. From a stranger or a new colleague, the same nickname is rude.",
+          "Between Brazilian friends, teasing is affection: the closer the friendship, the harder the zoeira. Nicknames from looks or habits are normal and usually fond: \"Baixinho\", \"Alemão\" for a blond, \"Sumido\" for the friend who never shows up. The license comes from intimacy, though. From a stranger or a new colleague, the same nickname is rude.",
           "The target is expected to \"levar na esportiva\" (take it in good part) and, ideally, to \"dar o troco\" (get their own back). Sulking marks you out: whoever \"ficou bolado\" (Rio) or \"ficou chateado\" will hear that it's all \"mimimi\" (whining). When the teaser goes too far, the verdict is \"pegou pesado\" or \"passou do ponto\". The repair is quick and casual: \"foi mal\", \"não leva a mal\".",
           "English banter often relies on a straight face. Brazilian zoeira usually comes with open laughter, and the laugh is part of the signal that it's friendly. Deadpan irony aimed at someone you don't know well can land as a real insult, so tag a jab with \"brincadeira, viu?\", or with a \"kkkk\" in writing.",
         ],
         examples: [
           { es: "Ô Sumido, resolveu aparecer?", en: "Well, look who finally decided to show up!" },
-          { es: "Leva na esportiva, cara, todo mundo já passou por isso.", en: "Take it in good part, mate, everyone's been there." },
-          { es: "Ele me zoou no churrasco, mas eu dei o troco no jogo.", en: "He teased me at the barbecue, but I got him back at the match." },
+          { es: "Leva na esportiva, cara, todo mundo já passou por isso.", en: "Don't take it the wrong way, man, everyone's been there." },
+          { es: "Ele me zoou no churrasco, mas eu dei o troco no jogo.", en: "He teased me at the barbecue, but I got him back at the game." },
           { es: "Aí você pegou pesado, hein?", en: "Now that was going a bit far, wasn't it?" },
           { es: "Foi mal, não quis te ofender.", en: "My bad, I didn't mean to offend you." },
           { es: "Não leva a mal, é só zoeira.", en: "Don't take it the wrong way, it's just banter." },
@@ -1145,12 +1145,12 @@ export const PT_C2_U02: Lesson[] = [
         body: [
           "Brazilians prize \"rir de si mesmo\" (laughing at yourself) and \"rir da própria desgraça\" (laughing at your own misfortune): getting in first disarms the zoeira. The usual moves are mock titles (\"o rei do atraso\", \"a especialista em perder a chave\") and exaggerated confessions (\"eu e a matemática não nos falamos desde a quinta série\").",
           "Brazilian stand-up, which took off in São Paulo bars in the 2000s, runs on this. \"O comediante\" or \"a comediante\" builds a persona from their region, family or flaws and lets \"a plateia\" laugh along with them. The audience may \"morrer de rir\", \"rachar de rir\" or \"chorar de rir\", which all mean to be in stitches. A joke that offends \"caiu mal\". One that simply falls flat \"não funcionou\", and the room goes into \"um silêncio constrangedor\".",
-          "Keep self-deprecation light. Pile it on and it reads as fishing for sympathy, \"se fazer de coitado\" (playing the victim), which your friends will tease in turn. And laughing at your own accent or weight doesn't give you licence to laugh at someone else's. Where that line runs is the next lesson.",
+          "Keep self-deprecation light. Pile it on and it reads as fishing for sympathy, \"se fazer de coitado\" (playing the victim), which your friends will tease in turn. And laughing at your own accent or weight doesn't give you license to laugh at someone else's. Where that line runs is the next lesson.",
         ],
         examples: [
           { es: "Eu sou o rei do atraso: cheguei atrasado até no meu próprio aniversário.", en: "I'm the king of lateness: I was even late for my own birthday party." },
           { es: "Eu e a matemática não nos falamos desde a quinta série.", en: "Maths and I haven't been on speaking terms since fifth grade." },
-          { es: "A gente aprendeu a rir da própria desgraça.", en: "We've learnt to laugh at our own misfortune." },
+          { es: "A gente aprendeu a rir da própria desgraça.", en: "We've learned to laugh at our own misfortune." },
           { es: "A plateia morreu de rir com a história da sogra.", en: "The audience was in stitches over the mother-in-law story." },
           { es: "A piada caiu mal e ninguém riu.", en: "The joke didn't go down well and nobody laughed." },
           { es: "Para de se fazer de coitado, ninguém te zoou tanto assim.", en: "Stop playing the victim, nobody teased you that much." },
@@ -1208,7 +1208,7 @@ export const PT_C2_U02: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We've learnt to laugh at ourselves.",
+        source: "We've learned to laugh at ourselves.",
         answer: "Nós aprendemos a rir de nós mesmos.",
         altAnswers: ["Aprendemos a rir de nós mesmos.", "Nós aprendemos a rir de nós mesmas.", "Aprendemos a rir de nós mesmas.", "A gente aprendeu a rir da gente mesmo.", "A gente aprendeu a rir da gente mesma."],
         explanation: "\"Aprender a\" + infinitive, then \"rir de\" + pronoun + \"mesmo\": \"rir de si mesmo\" becomes \"rir de nós mesmos\" for we. The English present perfect is the simple perfeito here.",
@@ -1231,7 +1231,7 @@ export const PT_C2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A friend who hasn't come to the weekly football game in months finally turns up. How do you greet him with a bit of zoeira?",
+        question: "A friend who hasn't come to the weekly soccer game in months finally turns up. How do you greet him with a bit of zoeira?",
         options: ["Ô Sumido, resolveu aparecer?", "Ô Sumido, foi mal!", "Boa noite, o senhor é bem-vindo.", "Ô Sumido, leva na esportiva?"],
         correctIndex: 0,
         explanation: "\"Sumido\" (the one who disappeared) is the classic fond nickname, and \"resolveu aparecer?\" is the jab. \"Foi mal\" is an apology, and \"o senhor\" is far too formal for a friend.",
@@ -1251,7 +1251,7 @@ export const PT_C2_U02: Lesson[] = [
       {
         type: "speak",
         text: "Relaxa, cara, eu tô zoando.",
-        prompt: "Say it in Portuguese: Relax, mate, I'm only kidding.",
+        prompt: "Say it in Portuguese: Relax, man, I'm only kidding.",
         tip: "The ô in \"tô\" is closed. Say \"zoando\" in three syllables, zo-AN-do, with a nasal an and the final o like u.",
         explanation: "\"Tô zoando\" is the spoken \"estou zoando\". The laugh in your voice is part of the message.",
       },
@@ -1292,8 +1292,8 @@ export const PT_C2_U02: Lesson[] = [
     slug: "c2-contrast-joke-offence",
     level: "PT-C2",
     number: 6,
-    title: "Contrast Clinic: Joke or Offence?",
-    summary: "Where Brazilian humour draws its lines: laughing with versus laughing at, the audience that licenses a joke, punching up versus punching down, and how to repair a joke that lands badly.",
+    title: "Contrast Clinic: Joke or Offense?",
+    summary: "Where Brazilian humor draws its lines: laughing with versus laughing at, the audience that licenses a joke, punching up versus punching down, and how to repair a joke that lands badly.",
     duration: "15 min",
     kind: "reinforce",
     format: "Contrast Clinic",
@@ -1305,7 +1305,7 @@ export const PT_C2_U02: Lesson[] = [
           "The test Brazilians apply is reciprocity: can the target laugh along and hit back? Between equals, \"a gente se zoa\" is harmless. The identical line from a boss to an intern, or from a whole table at one person, turns into \"constrangimento\" (embarrassment, not constraint). When it goes too far, someone says \"isso já passou da brincadeira\". Watch for the target going quiet: in Brazil that, more than an open protest, is usually the signal.",
         ],
         examples: [
-          { es: "A gente se zoa desde a escola, ele sabe que é carinho.", en: "We've teased each other since school; he knows it's affection." },
+          { es: "A gente se zoa desde a escola, ele sabe que é carinho.", en: "We've teased each other since high school; he knows it's affection." },
           { es: "Uma coisa é rir com ele, outra é rir dele.", en: "It's one thing to laugh with him, another to laugh at him." },
           { es: "Para de tirar sarro da Beatriz, ela não está achando graça.", en: "Stop making fun of Beatriz; she doesn't think it's funny." },
           { es: "Isso já passou da brincadeira.", en: "That's gone beyond a joke." },
@@ -1385,12 +1385,12 @@ export const PT_C2_U02: Lesson[] = [
         heading: "Punching up, punching down",
         body: [
           "The older repertoire leans on stereotypes: the \"piada de português\" (the dim Portuguese baker), the \"piada de loira\", jokes casting \"baianos\" as lazy or \"nordestinos\" as backward. Some Brazilians still tell them; more and more people call them \"piadas preconceituosas\". The distinction people draw is direction: mocking those in power, as a \"charge\" mocks a minister, is the tradition of Brazilian satire; laughing at people who are already targets of prejudice is \"humilhar\", not \"zoar\".",
-          "Race is the firmest line. The jurist Adilson Moreira coined \"racismo recreativo\" for racism dressed up as fun, and since 2023 Brazilian law treats \"injúria racial\" as a crime of racism, with a recreational context increasing the penalty rather than excusing it. \"Foi só uma brincadeira\" no longer works as a defence, socially or legally.",
+          "Race is the firmest line. The jurist Adilson Moreira coined \"racismo recreativo\" for racism dressed up as fun, and since 2023 Brazilian law treats \"injúria racial\" as a crime of racism, with a recreational context increasing the penalty rather than excusing it. \"Foi só uma brincadeira\" no longer works as a defense, socially or legally.",
         ],
         examples: [
           { es: "A charge zoa o ministro, não o povo.", en: "The cartoon mocks the minister, not the people." },
           { es: "Piada de baiano preguiçoso não tem mais graça nenhuma.", en: "Jokes about lazy Bahians aren't funny any more." },
-          { es: "Isso não é humor, é racismo recreativo.", en: "That's not humour, it's recreational racism." },
+          { es: "Isso não é humor, é racismo recreativo.", en: "That's not humor, it's recreational racism." },
           { es: "O comediante perdeu o contrato por causa de uma piada preconceituosa.", en: "The comedian lost his contract over a bigoted joke." },
           { es: "Rir de si mesmo é diferente de rir dos outros.", en: "Laughing at yourself is different from laughing at others." },
         ],
@@ -1399,7 +1399,7 @@ export const PT_C2_U02: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "That's not humour, it's recreational racism.",
+            source: "That's not humor, it's recreational racism.",
             answer: "Isso não é humor, é racismo recreativo.",
             altAnswers: ["Isso não é humor, isso é racismo recreativo.", "Isso não é piada, é racismo recreativo."],
             explanation: "\"Racismo recreativo\" is the established term in Brazilian debate; the adjective follows the noun, the reverse of English order (recreational racism).",
@@ -1424,13 +1424,13 @@ export const PT_C2_U02: Lesson[] = [
       {
         heading: "When a joke lands badly",
         body: [
-          "Brazilians judge the repair as closely as the joke. \"Foi só brincadeira, relaxa\" puts the burden on the hurt person, and calling their reaction \"mimimi\" (whining) is heard as contempt. \"Desculpa se você se ofendeu\" is the same non-apology it is in English: it apologises for their feelings, not your words.",
+          "Brazilians judge the repair as closely as the joke. \"Foi só brincadeira, relaxa\" puts the burden on the hurt person, and calling their reaction \"mimimi\" (whining) is heard as contempt. \"Desculpa se você se ofendeu\" is the same non-apology it is in English: it apologizes for their feelings, not your words.",
           "A real repair names your own act: \"foi mal, passei do ponto\", \"não foi legal o que eu disse\". In a professional setting, raise the register and keep it short: \"peço desculpas pelo comentário; foi inadequado\". Then drop the topic; over-explaining the joke sounds like defending it.",
         ],
         examples: [
           { es: "Foi mal, passei do ponto.", en: "My bad, I went too far." },
           { es: "Desculpa, não foi legal o que eu disse.", en: "Sorry, what I said wasn't OK." },
-          { es: "Peço desculpas pelo comentário; foi inadequado.", en: "I apologise for the comment; it was inappropriate." },
+          { es: "Peço desculpas pelo comentário; foi inadequado.", en: "I apologize for the comment; it was inappropriate." },
           { es: "Desculpa se você se ofendeu.", en: "Sorry if you were offended. (the non-apology)" },
           { es: "Ah, para com esse mimimi.", en: "Oh, stop whining. (dismissive)" },
         ],
@@ -1446,7 +1446,7 @@ export const PT_C2_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "At work, you made a comment a colleague found offensive. Which apology fits the register and actually apologises?",
+            question: "At work, you made a comment a colleague found offensive. Which apology fits the register and actually apologizes?",
             options: ["Peço desculpas pelo comentário; foi inadequado.", "Desculpa se você se ofendeu.", "Foi só brincadeira, relaxa.", "Para com esse mimimi."],
             correctIndex: 0,
             explanation: "\"Peço desculpas pelo comentário\" is formal and names your action. \"Desculpa se você se ofendeu\" blames their reaction; the other two dismiss it.",
@@ -1507,14 +1507,14 @@ export const PT_C2_U02: Lesson[] = [
         source: "Being my boss doesn't mean you can call me Baixinho.",
         answer: "Não é porque você é meu chefe que pode me chamar de Baixinho.",
         altAnswers: ["Não é porque você é meu chefe que você pode me chamar de Baixinho.", "Ser meu chefe não te dá o direito de me chamar de Baixinho.", "Ser meu chefe não dá a você o direito de me chamar de Baixinho.", "Só porque você é meu chefe não quer dizer que pode me chamar de Baixinho."],
-        explanation: "\"Não é porque... que...\" is the natural way to reject a supposed licence. A nickname used by a superior without consent is \"falta de respeito\".",
+        explanation: "\"Não é porque... que...\" is the natural way to reject a supposed license. A nickname used by a superior without consent is \"falta de respeito\".",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: Laughing at yourself is different from laughing at others.",
         words: ["Rir", "de si mesmo", "é diferente", "de rir", "dos outros."],
         translation: "Laughing at yourself is different from laughing at others.",
-        explanation: "\"Rir de\" marks the target both times: \"de si mesmo\" and \"dos outros\" (de + os). Self-mockery is the safest humour there is.",
+        explanation: "\"Rir de\" marks the target both times: \"de si mesmo\" and \"dos outros\" (de + os). Self-mockery is the safest humor there is.",
       },
       {
         type: "dictation",
@@ -1546,7 +1546,7 @@ export const PT_C2_U02: Lesson[] = [
       {
         type: "speak",
         text: "Peço desculpas pelo comentário; foi inadequado.",
-        prompt: "Say it in Portuguese: I apologise for the comment; it was inappropriate.",
+        prompt: "Say it in Portuguese: I apologize for the comment; it was inappropriate.",
         tip: "Keep \"desculpas\" with a soft s before the p, and stress \"i-na-de-QUA-do\"; a calm, even tone sounds sincere.",
         explanation: "The formal repair: \"peço desculpas pelo\" (por + o) names your own act, with no \"se você se ofendeu\".",
       },
@@ -1574,7 +1574,7 @@ export const PT_C2_U02: Lesson[] = [
     level: "PT-C2",
     number: 7,
     title: "Dialogue Lab: Zoeira Entre Amigos",
-    summary: "Follow three friends in a Rio boteco after a Fla-Flu as they tease, hit back and make peace, and learn the moves and limits of Brazilian football banter.",
+    summary: "Follow three friends in a Rio boteco after a Fla-Flu as they tease, hit back and make peace, and learn the moves and limits of Brazilian soccer banter.",
     duration: "15 min",
     sections: [
       {
@@ -1587,9 +1587,9 @@ export const PT_C2_U02: Lesson[] = [
         examples: [
           { es: "Olha só quem apareceu! Achei que você ia sumir hoje.", en: "Look who showed up! I thought you'd disappear tonight." },
           { es: "Cadê aquela marra da semana passada?", en: "Where's all that swagger from last week?" },
-          { es: "Boa noite, senhor torcedor do Fluminense. Tá doendo?", en: "Good evening, Mr Fluminense fan. Does it hurt?" },
+          { es: "Boa noite, senhor torcedor do Fluminense. Tá doendo?", en: "Good evening, Mr. Fluminense fan. Does it hurt?" },
           { es: "Vocês são fregueses, cara. Aceita que dói menos.", en: "You lot always lose to us, man. Accept it, it hurts less." },
-          { es: "Eu sequei o Flamengo o jogo inteiro.", en: "I was rooting against Flamengo the whole match." },
+          { es: "Eu sequei o Flamengo o jogo inteiro.", en: "I was rooting against Flamengo the whole game." },
           { es: "Secou e não adiantou nada, né, Mariana?", en: "You rooted against us and it did no good, did it, Mariana?" },
         ],
         checkpoint: [
@@ -1600,7 +1600,7 @@ export const PT_C2_U02: Lesson[] = [
             sentence: "Vocês são ___, cara. Aceita que dói menos.",
             answer: "fregueses",
             altAnswers: ["nossos fregueses"],
-            explanation: "In football, \"freguês\" is the rival who always loses to you and keeps coming back for more, like a customer who always pays. The plural is \"fregueses\".",
+            explanation: "In soccer, \"freguês\" is the rival who always loses to you and keeps coming back for more, like a customer who always pays. The plural is \"fregueses\".",
           },
           {
             type: "multiple-choice",
@@ -1613,10 +1613,10 @@ export const PT_C2_U02: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I was rooting against Flamengo the whole match.",
+            source: "I was rooting against Flamengo the whole game.",
             answer: "Eu sequei o Flamengo o jogo inteiro.",
             altAnswers: ["Sequei o Flamengo o jogo inteiro.", "Eu sequei o Flamengo o jogo todo.", "Sequei o Flamengo o jogo todo.", "Eu fiquei secando o Flamengo o jogo inteiro.", "Fiquei secando o Flamengo o jogo inteiro.", "Eu passei o jogo inteiro secando o Flamengo.", "Passei o jogo inteiro secando o Flamengo."],
-            explanation: "\"Secar\" (literally to dry) is rooting against a team that isn't yours. It takes a direct object: \"secar o Flamengo\", not \"secar contra\". \"Fiquei secando\" stresses that it went on for the whole match.",
+            explanation: "\"Secar\" (literally to dry) is rooting against a team that isn't yours. It takes a direct object: \"secar o Flamengo\", not \"secar contra\". \"Fiquei secando\" stresses that it went on for the whole game.",
           },
         ],
       },
@@ -1650,7 +1650,7 @@ export const PT_C2_U02: Lesson[] = [
             question: "Rafael says: \"Três a zero, hein? Que vergonha!\" Which reply keeps the zoeira going?",
             options: ["Placarzinho à toa. No próximo clássico eu dou o troco.", "Você é muito chato, não quero mais falar com você.", "É verdade. Não tenho nada a dizer.", "Por favor, vamos mudar de assunto."],
             correctIndex: 0,
-            explanation: "The winning reply shrinks the score with a diminutive and promises revenge. Real annoyance, silent surrender or asking to change the subject all mean Lucas has lost the banter as well as the match.",
+            explanation: "The winning reply shrinks the score with a diminutive and promises revenge. Real annoyance, silent surrender or asking to change the subject all mean Lucas has lost the banter as well as the game.",
           },
           {
             type: "listen-choose",
@@ -1666,7 +1666,7 @@ export const PT_C2_U02: Lesson[] = [
         heading: "Scene 3: Pegou pesado",
         body: [
           "Zoeira has unwritten rules. The target is the shirt: the club, the score, the striker who missed an open goal. Family, bodies, money and real failures are off limits. When Rafael's joke lands on Lucas instead of his team, Lucas says \"aí você pegou pesado\" (now you've gone too far), and the repair comes at once: \"Foi mal, cara, tô só zoando.\" That quick apology is as much part of the ritual as the jab.",
-          "The scene closes by turning rivalry back into friendship. The bet is honoured, the loser pays the round, and everyone toasts the next match. \"Levar na esportiva\" (to take it in good sport) is the best thing anyone can say about a loser. Listen to the register drop as the dialogue ends: mock questions and hyperbole give way to short, plain, warm sentences.",
+          "The scene closes by turning rivalry back into friendship. The bet is honored, the loser pays the round, and everyone toasts the next game. \"Levar na esportiva\" (to take it in good sport) is the best thing anyone can say about a loser. Listen to the register drop as the dialogue ends: mock questions and hyperbole give way to short, plain, warm sentences.",
         ],
         examples: [
           { es: "Ô, Rafael, aí você pegou pesado.", en: "Hey, Rafael, now you've gone too far." },
@@ -1700,7 +1700,7 @@ export const PT_C2_U02: Lesson[] = [
             source: "Whoever lost pays for the round.",
             answer: "Quem perdeu paga a rodada.",
             altAnswers: ["Quem perdeu paga a próxima rodada.", "Quem perdeu paga essa rodada.", "Quem perdeu é que paga a rodada.", "Quem perdeu vai pagar a rodada."],
-            explanation: "\"Quem\" with no antecedent means whoever, followed by the perfeito \"perdeu\" because the match is over. \"Rodada\" is a round of drinks, the usual stake of a bar bet.",
+            explanation: "\"Quem\" with no antecedent means whoever, followed by the perfeito \"perdeu\" because the game is over. \"Rodada\" is a round of drinks, the usual stake of a bar bet.",
           },
         ],
       },
@@ -1809,14 +1809,14 @@ export const PT_C2_U02: Lesson[] = [
     level: "PT-C2",
     number: 8,
     title: "Error Hunt: Wordplay Gone Wrong",
-    summary: "Find and fix the slips that sink Portuguese humour: misspelled puns, words with an unintended second meaning, and irony read or written the wrong way.",
+    summary: "Find and fix the slips that sink Portuguese humor: misspelled puns, words with an unintended second meaning, and irony read or written the wrong way.",
     duration: "15 min",
     sections: [
       {
         heading: "Spelling that kills the pun",
         body: [
           "Most written Portuguese puns run on homophones. The spelling has to carry the literal meaning, and the sound brings in the other one. \"Oficina do Zé: o conserto mais afinado da cidade\" is a repair shop that winks at \"concerto\" (concert). Spell it \"concerto\" and the joke is gone: you've advertised a recital in a garage.",
-          "A spellchecker won't save you, because both words are real. These are the pairs learners confuse most. \"Sessão\" is a session or showing (\"sessão de autógrafos\"), \"seção\" is a section of a shop or newspaper, and \"cessão\" is a transfer, as in \"cessão de direitos\". \"Taxar\" means to tax, and \"tachar de\" means to brand someone as something. \"Censo\" is a census and \"senso\" is sense. \"Cheque\" is a bank cheque, and \"xeque\" is check in chess, as in \"xeque-mate\".",
+          "A spellchecker won't save you, because both words are real. These are the pairs learners confuse most. \"Sessão\" is a session or showing (\"sessão de autógrafos\"), \"seção\" is a section of a store or newspaper, and \"cessão\" is a transfer, as in \"cessão de direitos\". \"Taxar\" means to tax, and \"tachar de\" means to brand someone as something. \"Censo\" is a census and \"senso\" is sense. \"Cheque\" is a bank check, and \"xeque\" is check in chess, as in \"xeque-mate\".",
           "Test a written pun twice: read it for the literal sense, then for the echo. If the literal sentence doesn't stand up on its own, the pun won't either.",
         ],
         examples: [
@@ -1824,7 +1824,7 @@ export const PT_C2_U02: Lesson[] = [
           { es: "O censo confirmou: falta senso comum no trânsito.", en: "The census confirms it: traffic is short on common sense." },
           { es: "O governo taxa tudo e tacha de chato quem reclama.", en: "The government taxes everything and brands anyone who complains a pain." },
           { es: "No fim do mês, o cheque especial me dá xeque-mate.", en: "At the end of the month, my overdraft puts me in checkmate." },
-          { es: "A sessão de autógrafos é na seção infantil da livraria.", en: "The book signing is in the children's section of the bookshop." },
+          { es: "A sessão de autógrafos é na seção infantil da livraria.", en: "The book signing is in the children's section of the bookstore." },
         ],
         checkpoint: [
           {
@@ -1834,7 +1834,7 @@ export const PT_C2_U02: Lesson[] = [
             source: "The book signing starts at seven. (Watch the spelling.)",
             answer: "A sessão de autógrafos começa às sete.",
             altAnswers: ["A sessão de autógrafos começa às sete horas.", "A sessão de autógrafos vai começar às sete."],
-            explanation: "An event or showing is a \"sessão\". A learner who writes \"seção de autógrafos\" has put the signing in a section of the shop instead.",
+            explanation: "An event or showing is a \"sessão\". A learner who writes \"seção de autógrafos\" has put the signing in a section of the store instead.",
           },
           {
             type: "fill-blank",
@@ -1914,10 +1914,10 @@ export const PT_C2_U02: Lesson[] = [
         ],
         examples: [
           { es: "Choveu durante o casamento inteiro. Que beleza!", en: "It rained through the whole wedding. Just great." },
-          { es: "Você correu cinco quilômetros? Grande coisa, eu corri dez.", en: "You ran five kilometres? Big deal, I ran ten." },
+          { es: "Você correu cinco quilômetros? Grande coisa, eu corri dez.", en: "You ran five kilometers? Big deal, I ran ten." },
           { es: "— Eu acordo às cinco todo dia. — Sei...", en: "'I get up at five every day.' 'Yeah, right...'" },
           { es: "Adorei esperar duas horas no banco, só que não.", en: "I loved waiting two hours at the bank. Not." },
-          { es: "— Muito obrigada pela carona! — Imagina!", en: "'Thanks so much for the lift!' 'Don't mention it!'" },
+          { es: "— Muito obrigada pela carona! — Imagina!", en: "'Thanks so much for the ride!' 'Don't mention it!'" },
           { es: "Ótimo, o ônibus quebrou de novo.", en: "Great, the bus broke down again." },
         ],
         checkpoint: [
@@ -2043,13 +2043,13 @@ export const PT_C2_U02: Lesson[] = [
     level: "PT-C2",
     number: 9,
     title: "Real-World Mission: Write a Funny Post",
-    summary: "Build a short humorous post or caption that lands with Brazilian readers: structure, self-irony, wordplay, localisation and ruthless cutting.",
+    summary: "Build a short humorous post or caption that lands with Brazilian readers: structure, self-irony, wordplay, localization and ruthless cutting.",
     duration: "15 min",
     sections: [
       {
         heading: "Setup, turn, tag",
         body: [
-          "A Brazilian humorous post usually runs on three beats: a setup everyone recognises, a turn that breaks the expectation, and a short tag telling readers how to take it. The setup carries the shared experience (the \"ônibus\" that never comes, the family group chat, Monday morning), so keep it to one concrete line in everyday words.",
+          "A Brazilian humorous post usually runs on three beats: a setup everyone recognizes, a turn that breaks the expectation, and a short tag telling readers how to take it. The setup carries the shared experience (the \"ônibus\" that never comes, the family group chat, Monday morning), so keep it to one concrete line in everyday words.",
           "The turn is where the joke lives, and it lands best as the very last words. Portuguese word order is flexible enough to push the surprise there: \"Acordei cedo, fiz café, arrumei a casa... no sonho.\" Ellipsis dots and line breaks do the job of a comedian's pause.",
           "The tag is optional but very Brazilian: \"socorro\", \"chorando\", \"não aguento\", an emoji, or laughter, where a long \"kkkkkk\" reads as genuine and \"rsrs\" as polite. One tag per joke; three in a row look nervous.",
         ],
@@ -2087,8 +2087,8 @@ export const PT_C2_U02: Lesson[] = [
       {
         heading: "Laugh at yourself, signal the irony",
         body: [
-          "The safest target in Brazilian online humour is yourself. Formats like \"Eu às 22h: ... / Eu às 3h: ...\" or \"Expectativa x realidade\" stage your own contradictions. Readers recognise them instantly because they share them.",
-          "Irony in writing needs a signal that you aren't sincere, since there's no tone of voice to carry it. Use a deadpan follow-up (\"Tudo sob controle.\"), wild exaggeration, or a register clash: a burnt pizza or a lost fight with flat-pack furniture reported in the language of a news bulletin. That clash is one of the cheapest, most reliable jokes in Portuguese.",
+          "The safest target in Brazilian online humor is yourself. Formats like \"Eu às 22h: ... / Eu às 3h: ...\" or \"Expectativa x realidade\" stage your own contradictions. Readers recognize them instantly because they share them.",
+          "Irony in writing needs a signal that you aren't sincere, since there's no tone of voice to carry it. Use a deadpan follow-up (\"Tudo sob controle.\"), wild exaggeration, or a register clash: a burnt pizza or a lost fight with ready-to-assemble furniture reported in the language of a news bulletin. That clash is one of the cheapest, most reliable jokes in Portuguese.",
           "Understatement is the quieter cousin: \"choveu um pouquinho\" under a photo of a flooded street. The diminutive does the ironic work, so don't add \"kkk\" to point at it.",
         ],
         examples: [
@@ -2097,7 +2097,7 @@ export const PT_C2_U02: Lesson[] = [
           { es: "Expectativa: um bolo de aniversário lindo. Realidade: uma obra de arte contemporânea.", en: "Expectation: a beautiful birthday cake. Reality: a work of contemporary art." },
           { es: "Queimei a pizza. Tudo sob controle.", en: "I burnt the pizza. Everything under control." },
           { es: "Urgente: homem de 35 anos tenta montar móvel sozinho e perde a batalha para um parafuso.", en: "Breaking: 35-year-old man tries to assemble furniture alone and loses the battle to a screw." },
-          { es: "Choveu um pouquinho aqui no bairro.", en: "It rained a tiny bit here in the neighbourhood. (under a photo of a flood)" },
+          { es: "Choveu um pouquinho aqui no bairro.", en: "It rained a tiny bit here in the neighborhood. (under a photo of a flood)" },
         ],
         checkpoint: [
           {
@@ -2112,7 +2112,7 @@ export const PT_C2_U02: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "It rained [a tiny bit] here in the neighbourhood.",
+            en: "It rained [a tiny bit] here in the neighborhood.",
             sentence: "Choveu ___ aqui no bairro.",
             answer: "um pouquinho",
             altAnswers: ["só um pouquinho"],
@@ -2173,7 +2173,7 @@ export const PT_C2_U02: Lesson[] = [
         ],
       },
       {
-        heading: "Localise, then cut",
+        heading: "Localize, then cut",
         body: [
           "English formats travel only when Brazilians have already adopted them, as with \"Ninguém:\" or \"Expectativa x realidade\". A calqued idiom like \"está chovendo gatos e cachorros\" reads as a mistake, not a joke, and Brazil already has \"está chovendo canivete\". Draw on local material: the \"reunião\" that could have been an e-mail, the chatty Uber driver, the \"tia do zap\" who forwards everything.",
           "Then cut. If the caption needs a second sentence to explain the first, start again. Delete the adverbs, the \"rs\" after every line and the hashtag that repeats the punchline. Read it aloud: if the punchline isn't the last thing you say, move it.",
@@ -2324,8 +2324,8 @@ export const PT_C2_U02: Lesson[] = [
     slug: "c2-spiral-humour",
     level: "PT-C2",
     number: 10,
-    title: "Spiral Review: Humour",
-    summary: "Fresh practice that mixes homophone puns, double meanings, irony on the screen and the line between banter and offence.",
+    title: "Spiral Review: Humor",
+    summary: "Fresh practice that mixes homophone puns, double meanings, irony on the screen and the line between banter and offense.",
     duration: "15 min",
     kind: "review",
     format: "Spiral review",
@@ -2334,13 +2334,13 @@ export const PT_C2_U02: Lesson[] = [
         heading: "Homophones: the pun lives in the spelling",
         body: [
           "Quick reminder: a \"trocadilho\" usually rides on words that sound alike but are spelled differently. In writing, the joke lands only if each half is spelled right. The pairs to keep in your ear are \"concerto\" (concert) and \"conserto\" (repair), \"cela\" (cell) and \"sela\" (saddle), and \"sessão\" (showing, session), \"seção\" (section) and \"cessão\" (transfer of rights). Add \"acento\" (accent mark) and \"assento\" (seat), and \"caçar\" (to hunt) and \"cassar\" (to strip of office).",
-          "Read like a Brazilian: hear both words at once, then check which spelling the writer chose. A piano shop sign reading \"Fazemos concertos e consertos\" is a joke. One reading \"Fazemos concertos de piano\" is a typo that turns a repair shop into an orchestra.",
+          "Read like a Brazilian: hear both words at once, then check which spelling the writer chose. A piano store sign reading \"Fazemos concertos e consertos\" is a joke. One reading \"Fazemos concertos de piano\" is a typo that turns a repair shop into an orchestra.",
           "In speech the spelling vanishes, so context has to do the work. \"Cassado\" only works next to politics, and \"cela\" only next to prison. Plant the context first, then deliver the second word. Watch the near-misses: \"cassado\" (ss) and \"casado\" (s between vowels, said as z) are not a pun but two different words.",
         ],
         examples: [
-          { es: "Na vitrine da loja de pianos: \"Fazemos concertos e consertos.\"", en: "In the piano shop window: 'We do concerts and repairs.'" },
+          { es: "Na vitrine da loja de pianos: \"Fazemos concertos e consertos.\"", en: "In the piano store window: 'We do concerts and repairs.'" },
           { es: "O ladrão de cavalos trocou a sela pela cela.", en: "The horse thief swapped the saddle for a cell." },
-          { es: "O vereador foi cassado na mesma semana em que saiu para caçar votos.", en: "The councillor lost his seat the same week he went out hunting for votes." },
+          { es: "O vereador foi cassado na mesma semana em que saiu para caçar votos.", en: "The council member lost his seat the same week he went out hunting for votes." },
           { es: "Na redação perdi um ponto por causa do acento; no ônibus, perdi o assento.", en: "In the essay I lost a point over an accent mark; on the bus I lost my seat." },
           { es: "Li a crítica na seção de cultura e fui à sessão das nove.", en: "I read the review in the arts section and went to the nine o'clock showing." },
         ],
@@ -2376,7 +2376,7 @@ export const PT_C2_U02: Lesson[] = [
         heading: "Double meanings: who did what to whom?",
         body: [
           "\"Duplo sentido\" has two sources. The first is syntax: \"seu\" and \"sua\" can point to more than one person, and a phrase can attach to the wrong noun. Headlines squeezed for space are the usual culprits. \"Policial mata assaltante com sua arma\" leaves you asking whose weapon it was.",
-          "The second is vocabulary. A few everyday verbs take on a flirtatious or sexual meaning when their object is a person, and Brazilians hear it instantly. The main ones are \"pegar alguém\" (to hook up with someone), \"dar em cima de\" (to hit on) and \"comer\" with a person as object (vulgar). With things these verbs are harmless. Context can rescue a person too: \"te pego às oito\" is a lift, because the time makes it one.",
+          "The second is vocabulary. A few everyday verbs take on a flirtatious or sexual meaning when their object is a person, and Brazilians hear it instantly. The main ones are \"pegar alguém\" (to hook up with someone), \"dar em cima de\" (to hit on) and \"comer\" with a person as object (vulgar). With things these verbs are harmless. Context can rescue a person too: \"te pego às oito\" is a ride, because the time makes it one.",
           "Fix accidental ambiguity by naming the owner (\"com a arma do assaltante\") or by reordering the sentence. Keep the ambiguity when you want the double take, as many ads and charges do.",
         ],
         examples: [
@@ -2400,9 +2400,9 @@ export const PT_C2_U02: Lesson[] = [
           {
             type: "multiple-choice",
             question: "A Brazilian friend tells you: \"A Mariana pegou o Rafael ontem na festa.\" What does she most likely mean?",
-            options: ["Mariana hooked up with Rafael at the party yesterday.", "Mariana gave Rafael a lift from the party yesterday.", "Mariana caught Rafael lying at the party yesterday.", "Mariana met Rafael for the first time yesterday."],
+            options: ["Mariana hooked up with Rafael at the party yesterday.", "Mariana gave Rafael a ride from the party yesterday.", "Mariana caught Rafael lying at the party yesterday.", "Mariana met Rafael for the first time yesterday."],
             correctIndex: 0,
-            explanation: "With a person as object and a party as the setting, \"pegar\" means to hook up with. For a lift you'd expect a time or a place to collect someone: \"pegou o Rafael na saída da festa às duas\".",
+            explanation: "With a person as object and a party as the setting, \"pegar\" means to hook up with. For a ride you'd expect a time or a place to collect someone: \"pegou o Rafael na saída da festa às duas\".",
           },
           {
             type: "fill-blank",
@@ -2418,7 +2418,7 @@ export const PT_C2_U02: Lesson[] = [
         heading: "Tone on the screen: irony, memes and zoeira",
         body: [
           "On a screen, irony needs markers, because no voice carries it. The ones you know are \"só que não\" tacked on to cancel what came before, \"que sorte a minha, né?\" for bad luck, and \"parabéns aos envolvidos\" for a disaster. The laugh is a marker too: \"kkkk\" is real laughter and the default, \"rsrs\" is a polite smile, and \"hahaha\" is neutral.",
-          "Between friends, \"zoar\" and \"tirar sarro\" signal closeness. You tease each other about football, lateness or a terrible haircut, and you expect it back with interest next week. Self-deprecating humour is the safest of all, because the only target is you.",
+          "Between friends, \"zoar\" and \"tirar sarro\" signal closeness. You tease each other about soccer, lateness or a terrible haircut, and you expect it back with interest next week. Self-deprecating humor is the safest of all, because the only target is you.",
           "Where the line falls depends on the target and the audience more than on the topic. The same jab at someone's team is \"zoeira\" in the friends' group and a problem in the company group. Aimed at someone's appearance, origin or accent, it stops being a joke anywhere. When unsure, make yourself or the situation the butt of the joke.",
         ],
         examples: [
@@ -2472,7 +2472,7 @@ export const PT_C2_U02: Lesson[] = [
         en: "Buy your ticket for the nine o'clock [showing].",
         sentence: "Compre seu ingresso para a ___ das nove.",
         answer: "sessão",
-        explanation: "A film showing is a \"sessão\". A \"seção\" is a section of a shop or newspaper, and a \"cessão\" is a legal transfer.",
+        explanation: "A film showing is a \"sessão\". A \"seção\" is a section of a store or newspaper, and a \"cessão\" is a legal transfer.",
       },
       {
         type: "translate",
@@ -2494,9 +2494,9 @@ export const PT_C2_U02: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The councillor was stripped of his seat for corruption.",
+        prompt: "Put the words in order to say: The council member was stripped of his seat for corruption.",
         words: ["O vereador", "foi", "cassado", "por", "corrupção."],
-        translation: "The councillor was stripped of his seat for corruption.",
+        translation: "The council member was stripped of his seat for corruption.",
         explanation: "\"Cassado\" (ss), from \"cassar\", is the political word. \"Caçado\" would mean hunted, which is the pun cartoonists love.",
       },
       {
@@ -2506,12 +2506,12 @@ export const PT_C2_U02: Lesson[] = [
         source: "I'll pick you up at eight. (to a friend)",
         answer: "Eu te pego às oito.",
         altAnswers: ["Te pego às oito.", "Vou te pegar às oito.", "Eu vou te pegar às oito.", "Pego você às oito.", "Eu pego você às oito.", "Vou pegar você às oito.", "Eu vou pegar você às oito."],
-        explanation: "With a time attached, \"pegar\" a person is just giving them a lift. In speech \"te\" goes with \"você\", before the verb.",
+        explanation: "With a time attached, \"pegar\" a person is just giving them a ride. In speech \"te\" goes with \"você\", before the verb.",
       },
       {
         type: "dictation",
         audio: "Amei esperar duas horas, só que não.",
-        explanation: "\"Só que não\" at the end cancels everything before it. It's the internet's favourite irony marker.",
+        explanation: "\"Só que não\" at the end cancels everything before it. It's the internet's favorite irony marker.",
       },
       {
         type: "listen-choose",
@@ -2548,14 +2548,14 @@ export const PT_C2_U02: Lesson[] = [
           { left: "zoeira", right: "friendly banter" },
           { left: "trocadilho", right: "pun" },
           { left: "charge", right: "political cartoon" },
-          { left: "só que não", right: "not! (cancelling what you just said)" },
+          { left: "só que não", right: "not! (canceling what you just said)" },
         ],
-        explanation: "These are the core words of the unit: the tools of Brazilian humour and the ways to talk about it.",
+        explanation: "These are the core words of the unit: the tools of Brazilian humor and the ways to talk about it.",
       },
       {
         type: "speak",
         text: "Na loja de pianos, fazemos concertos e consertos.",
-        tip: "Concertos and consertos sound exactly the same (kon-SER-tus). The pun is for the eye, so say it with a knowing pause.",
+        tip: "Concertos and consertos sound exactly the same (kon-SÊR-tus). The pun is for the eye, so say it with a knowing pause.",
         explanation: "Out loud, the two words can't be told apart. That's why this pun works best on a written sign.",
       },
     ],
@@ -2564,7 +2564,7 @@ export const PT_C2_U02: Lesson[] = [
 
 export const PT_C2_U02_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your orchestra's community blog in São Paulo runs a humorous post every month, and this month it's your turn. Write a light, crônica-style post about a day when everything went wrong before an important event (a concert, a wedding, a job interview...). Build the humour on Portuguese wordplay: at least two puns on words that sound the same but are spelled differently, one deliberate double meaning that the context makes clear, ironic understatement, and the kind of friendly teasing Brazilians enjoy. End with a punchline your Brazilian readers would actually laugh at.",
+  prompt: "Your orchestra's community blog in São Paulo runs a humorous post every month, and this month it's your turn. Write a light, crônica-style post about a day when everything went wrong before an important event (a concert, a wedding, a job interview...). Build the humor on Portuguese wordplay: at least two puns on words that sound the same but are spelled differently, one deliberate double meaning that the context makes clear, ironic understatement, and the kind of friendly teasing Brazilians enjoy. End with a punchline your Brazilian readers would actually laugh at.",
   minWords: 250,
   maxWords: 400,
   rubric: [
@@ -2574,5 +2574,5 @@ export const PT_C2_U02_WRITING: WriteExercise = {
     "Friendly banter and self-deprecation with \"tirar sarro\", \"zoar\" or \"zoeira\", and an informal sign-off (\"kkkk\" or \"rsrs\") suited to a community blog.",
   ],
   modelAnswer: "Concerto ou conserto?\n\nSábado passado eu tinha um concerto no Theatro Municipal. Na sexta à tarde, meu violino decidiu que também merecia um descanso: a corda mi arrebentou e levou o cavalete junto. Resultado: em vez de ensaiar para o concerto, passei o dia atrás de um conserto.\n\nO luthier do bairro, seu Antônio, olhou o instrumento por cima dos óculos e disse, com a calma de quem já viu de tudo: \"Fica pronto rapidinho. Rapidinho, no caso, é terça.\" Que maravilha. Eu só precisava dele em vinte e quatro horas, nada de mais.\n\nCorri para a loja de música do shopping. Perguntei onde ficava a seção de cordas, e o vendedor, sem tirar os olhos do celular, apontou para o cinema do terceiro andar: \"A sessão das sete ainda tem lugar.\" Confesso que fiquei tentado. Pelo menos no escuro ninguém ia ver a minha cara de desespero.\n\nEm casa, liguei para o maestro. Erro de principiante: dei corda, e ele passou quarenta minutos contando da estreia de 1987 em que o oboé dele rachou no segundo movimento. Corda, aliás, era exatamente o que eu queria. Só que de violino.\n\nOs colegas da orquestra, é claro, não perderam a chance de tirar sarro. No grupo, choveu figurinha de violino em chamas com a legenda \"hoje tem conserto de gala\". Zoeira pura, mas zoeira de quem gosta.\n\nNo fim, uma violinista aposentada me emprestou o instrumento dela, uma relíquia com mais história do que eu. Toquei. Desafinei só duas vezes, o que, para quem passou a véspera entre luthier, shopping e telefone, foi praticamente um milagre. O público aplaudiu de pé; prefiro acreditar que não foi de alívio.\n\nMoral da história: tenha sempre uma corda de reserva. E, se ligar para o maestro, não dê corda. kkkk",
-  explanation: "The puns rest on homophones that Brazilians pronounce identically. \"Concerto\" (a performance) and \"conserto\" (a repair) differ only in spelling, and so do \"seção\" (a section of a shop) and \"sessão\" (a screening), so the joke lives on the page and a misspelling kills it. \"Dar corda\" is a controlled double meaning: \"só que de violino\" pins down the literal reading after the idiomatic one (to get someone talking), the way context defuses ambiguity. Irony comes through markers and understatement (\"que maravilha\", \"nada de mais\", the redefined \"rapidinho\", \"desafinei só duas vezes\"). \"Tirar sarro\" and \"zoeira de quem gosta\" frame the teasing as affectionate, and \"kkkk\" fits an informal blog, not a formal text."
+  explanation: "The puns rest on homophones that Brazilians pronounce identically. \"Concerto\" (a performance) and \"conserto\" (a repair) differ only in spelling, and so do \"seção\" (a section of a store) and \"sessão\" (a screening), so the joke lives on the page and a misspelling kills it. \"Dar corda\" is a controlled double meaning: \"só que de violino\" pins down the literal reading after the idiomatic one (to get someone talking), the way context defuses ambiguity. Irony comes through markers and understatement (\"que maravilha\", \"nada de mais\", the redefined \"rapidinho\", \"desafinei só duas vezes\"). \"Tirar sarro\" and \"zoeira de quem gosta\" frame the teasing as affectionate, and \"kkkk\" fits an informal blog, not a formal text."
 };

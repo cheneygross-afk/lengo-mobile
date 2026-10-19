@@ -20,7 +20,7 @@ export const PT_B2_U22: Lesson[] = [
           "The longer the subject, the more carefully you should check: find the main verb, look at the word just before it, and make sure there is no lone comma there.",
         ],
         examples: [
-          { es: "O diretor da escola anunciou a mudança na segunda-feira.", en: "The head teacher announced the change on Monday." },
+          { es: "O diretor da escola anunciou a mudança na segunda-feira.", en: "The principal announced the change on Monday." },
           { es: "Os funcionários que trabalham no turno da noite receberam um aviso.", en: "The staff who work the night shift received a notice." },
           { es: "A maior parte dos moradores do prédio votou contra a obra.", en: "Most of the residents in the building voted against the work." },
           { es: "Quem chegar depois das nove não poderá entrar.", en: "Anyone who arrives after nine won't be able to get in." },
@@ -46,14 +46,14 @@ export const PT_B2_U22: Lesson[] = [
             source: "Anyone who arrives late won't be able to take the test.",
             answer: "Quem chegar atrasado não poderá fazer a prova.",
             altAnswers: ["Quem chegar atrasado não vai poder fazer a prova.", "Quem chegar atrasada não poderá fazer a prova.", "Quem chegar tarde não poderá fazer a prova.", "Quem chegar tarde não vai poder fazer a prova."],
-            explanation: "\"Quem chegar atrasado\" is the whole subject, so no comma before \"não poderá\". The future subjunctive \"chegar\" covers an open future.",
+            explanation: "Check your punctuation: \"Quem chegar atrasado\" is the whole subject, so no comma before \"não poderá\". The future subjunctive \"chegar\" covers an open future.",
           },
         ],
       },
       {
         heading: "Verb, object: no comma either",
         body: [
-          "The same goes for the verb and what completes it. No comma between the verb and its direct or indirect object: \"*A empresa enviou, os documentos\", \"*Entreguei ao cliente, a proposta\". And no comma before a \"que\" clause that is the object of the verb: \"Ele disse que viria\", never \"*Ele disse, que viria\". This last one is a favourite in emails: \"*Informo, que a reunião foi adiada\".",
+          "The same goes for the verb and what completes it. No comma between the verb and its direct or indirect object: \"*A empresa enviou, os documentos\", \"*Entreguei ao cliente, a proposta\". And no comma before a \"que\" clause that is the object of the verb: \"Ele disse que viria\", never \"*Ele disse, que viria\". This last one is a favorite in emails: \"*Informo, que a reunião foi adiada\".",
           "A noun and its complement with \"de\" stay together too: \"o aumento do preço da passagem\", never \"*o aumento, do preço\".",
         ],
         examples: [
@@ -83,7 +83,7 @@ export const PT_B2_U22: Lesson[] = [
             source: "Please note that the meeting has been postponed.",
             answer: "Informo que a reunião foi adiada.",
             altAnswers: ["Informamos que a reunião foi adiada.", "Comunico que a reunião foi adiada.", "Comunicamos que a reunião foi adiada.", "Informo que a reunião foi remarcada.", "Informamos que a reunião foi remarcada."],
-            explanation: "\"Informo que\" opens many Brazilian work emails, and it never takes a comma before \"que\".",
+            explanation: "Check your punctuation: \"Informo que\" opens many Brazilian work emails, and it never takes a comma before \"que\".",
           },
           {
             type: "listen-choose",
@@ -101,7 +101,7 @@ export const PT_B2_U22: Lesson[] = [
           "There is one way a comma can stand between subject and verb: as one of a pair around an inserted phrase. \"O diretor, segundo a nota, anunciou a mudança.\" Take out what's between the commas and the sentence still works. If you open the pair, you must close it: \"*O diretor, segundo a nota anunciou a mudança\" is wrong.",
         ],
         examples: [
-          { es: "O diretor, segundo a nota, anunciou a mudança.", en: "The head teacher, according to the note, announced the change." },
+          { es: "O diretor, segundo a nota, anunciou a mudança.", en: "The principal, according to the note, announced the change." },
           { es: "A prefeitura, depois de muita pressão, liberou a verba.", en: "The city hall, after a lot of pressure, released the funds." },
           { es: "Os preços, como era de esperar, subiram de novo.", en: "Prices, as expected, went up again." },
           { es: "Minha avó, aos noventa anos, ainda faz a feira sozinha.", en: "My grandmother, at ninety, still does the market shopping on her own." },
@@ -137,7 +137,7 @@ export const PT_B2_U22: Lesson[] = [
         source: "The residents of the building voted against the work.",
         answer: "Os moradores do prédio votaram contra a obra.",
         altAnswers: ["Os moradores do edifício votaram contra a obra.", "Os moradores do prédio votaram contra as obras."],
-        explanation: "No comma between the subject \"os moradores do prédio\" and \"votaram\".",
+        explanation: "Check your punctuation: no comma between the subject \"os moradores do prédio\" and \"votaram\".",
       },
       {
         type: "translate",
@@ -146,7 +146,7 @@ export const PT_B2_U22: Lesson[] = [
         source: "He said he would call, but he didn't.",
         answer: "Ele disse que ligaria, mas não ligou.",
         altAnswers: ["Ele disse que ia ligar, mas não ligou.", "Disse que ligaria, mas não ligou.", "Disse que ia ligar, mas não ligou."],
-        explanation: "No comma before the object clause \"que ligaria\"; a comma before \"mas\".",
+        explanation: "Check your punctuation: no comma before the object clause \"que ligaria\"; a comma before \"mas\".",
       },
       {
         type: "translate",
@@ -155,7 +155,7 @@ export const PT_B2_U22: Lesson[] = [
         source: "The sales manager at the Curitiba branch has resigned.",
         answer: "O gerente de vendas da filial de Curitiba pediu demissão.",
         altAnswers: ["A gerente de vendas da filial de Curitiba pediu demissão.", "O gerente de vendas da filial de Curitiba se demitiu.", "A gerente de vendas da filial de Curitiba se demitiu."],
-        explanation: "The whole subject runs up to \"Curitiba\"; no comma before the verb. To resign is \"pedir demissão\".",
+        explanation: "Check your punctuation: the whole subject runs up to \"Curitiba\"; no comma before the verb. To resign is \"pedir demissão\".",
       },
       {
         type: "translate",
@@ -164,7 +164,7 @@ export const PT_B2_U22: Lesson[] = [
         source: "The company sent the contract to the client yesterday.",
         answer: "A empresa enviou o contrato ao cliente ontem.",
         altAnswers: ["A empresa mandou o contrato para o cliente ontem.", "A empresa enviou o contrato para o cliente ontem.", "Ontem a empresa enviou o contrato ao cliente.", "A empresa enviou ontem o contrato ao cliente."],
-        explanation: "Verb and objects stay together: no comma after \"enviou\" or between the two objects.",
+        explanation: "Check your punctuation: verb and objects stay together: no comma after \"enviou\" or between the two objects.",
       },
       {
         type: "fill-blank",
@@ -188,7 +188,7 @@ export const PT_B2_U22: Lesson[] = [
         source: "Most of the students passed the exam.",
         answer: "A maioria dos alunos passou na prova.",
         altAnswers: ["A maioria dos alunos passaram na prova.", "A maior parte dos alunos passou na prova.", "A maioria dos estudantes passou na prova.", "A maioria dos alunos foi aprovada na prova.", "A maioria dos alunos passou no exame."],
-        explanation: "A long subject, then the verb with no comma in between.",
+        explanation: "Check your punctuation: a long subject, then the verb with no comma in between.",
       },
       {
         type: "word-order",
@@ -198,9 +198,16 @@ export const PT_B2_U22: Lesson[] = [
         explanation: "Subject, verb, object, with no comma anywhere.",
       },
       {
-        type: "dictation",
-        audio: "Informo que a reunião foi adiada.",
-        explanation: "No comma before the \"que\" clause that completes \"informo\".",
+        type: "multiple-choice",
+        question: "Which email line is punctuated correctly?",
+        options: [
+          "Informo, que a reunião foi adiada para quinta-feira.",
+          "Informo que, a reunião foi adiada para quinta-feira.",
+          "Informo que a reunião foi adiada para quinta-feira.",
+          "Informo que a reunião, foi adiada para quinta-feira.",
+        ],
+        correctIndex: 2,
+        explanation: "The \"que\" clause is the object of \"informo\", so no comma before or after \"que\", and none between \"a reunião\" and \"foi adiada\".",
       },
       {
         type: "speak",
@@ -231,7 +238,7 @@ export const PT_B2_U22: Lesson[] = [
           { es: "Bom dia, Mariana. Segue em anexo a planilha.", en: "Good morning, Mariana. Please find the spreadsheet attached." },
           { es: "Obrigada, pessoal, pela ajuda de ontem.", en: "Thanks for yesterday's help, everyone. (said by a woman)" },
           { es: "Clarice Lispector, uma das maiores escritoras do Brasil, nasceu na Ucrânia.", en: "Clarice Lispector, one of Brazil's greatest writers, was born in Ukraine." },
-          { es: "Ontem conheci o Dr. Paulo, o novo diretor do hospital.", en: "Yesterday I met Dr Paulo, the new director of the hospital." },
+          { es: "Ontem conheci o Dr. Paulo, o novo diretor do hospital.", en: "Yesterday I met Dr. Paulo, the new director of the hospital." },
         ],
         checkpoint: [
           {
@@ -248,7 +255,7 @@ export const PT_B2_U22: Lesson[] = [
             source: "Recife, the capital of Pernambuco, has beautiful beaches.",
             answer: "Recife, a capital de Pernambuco, tem praias lindas.",
             altAnswers: ["Recife, capital de Pernambuco, tem praias lindas.", "Recife, a capital de Pernambuco, tem praias belíssimas.", "Recife, a capital de Pernambuco, tem praias bonitas."],
-            explanation: "The appositive \"a capital de Pernambuco\" goes between two commas.",
+            explanation: "Check your punctuation: the appositive \"a capital de Pernambuco\" goes between two commas.",
           },
         ],
       },
@@ -285,7 +292,7 @@ export const PT_B2_U22: Lesson[] = [
             source: "When the boss arrived, everyone went quiet.",
             answer: "Quando o chefe chegou, todo mundo ficou em silêncio.",
             altAnswers: ["Quando o chefe chegou, todos ficaram em silêncio.", "Quando a chefe chegou, todo mundo ficou em silêncio.", "Quando a chefe chegou, todos ficaram em silêncio.", "Quando o chefe chegou, todo mundo ficou quieto."],
-            explanation: "A fronted time clause is followed by a comma.",
+            explanation: "Check your punctuation: a fronted time clause is followed by a comma.",
           },
         ],
       },
@@ -298,7 +305,7 @@ export const PT_B2_U22: Lesson[] = [
         examples: [
           { es: "Tentei ligar, mas ninguém atendeu.", en: "I tried to call, but nobody answered." },
           { es: "A proposta, no entanto, foi rejeitada pela diretoria.", en: "The proposal, however, was rejected by the board." },
-          { es: "O preço da gasolina, porém, continuou subindo.", en: "The price of petrol, however, kept rising." },
+          { es: "O preço da gasolina, porém, continuou subindo.", en: "The price of gasoline, however, kept rising." },
           { es: "No entanto, ainda não há uma data para o início da obra.", en: "However, there's still no date for the start of the work." },
         ],
         checkpoint: [
@@ -316,7 +323,7 @@ export const PT_B2_U22: Lesson[] = [
             source: "I tried to call, but nobody answered.",
             answer: "Tentei ligar, mas ninguém atendeu.",
             altAnswers: ["Eu tentei ligar, mas ninguém atendeu.", "Tentei telefonar, mas ninguém atendeu.", "Eu tentei telefonar, mas ninguém atendeu."],
-            explanation: "A comma before \"mas\" joining two clauses.",
+            explanation: "Check your punctuation: a comma before \"mas\" joining two clauses.",
           },
           {
             type: "listen-choose",
@@ -337,7 +344,7 @@ export const PT_B2_U22: Lesson[] = [
         source: "Thanks, João, for your help.",
         answer: "Obrigado, João, pela ajuda.",
         altAnswers: ["Obrigada, João, pela ajuda.", "Obrigado pela ajuda, João.", "Obrigada pela ajuda, João.", "Obrigado, João, pela sua ajuda.", "Obrigada, João, pela sua ajuda."],
-        explanation: "The vocative \"João\" is set off by commas.",
+        explanation: "Check your punctuation: the vocative \"João\" is set off by commas.",
       },
       {
         type: "translate",
@@ -346,7 +353,7 @@ export const PT_B2_U22: Lesson[] = [
         source: "Last year, the company opened two new stores.",
         answer: "No ano passado, a empresa abriu duas lojas novas.",
         altAnswers: ["No ano passado, a empresa abriu duas novas lojas.", "Ano passado, a empresa abriu duas lojas novas.", "Ano passado, a empresa abriu duas novas lojas."],
-        explanation: "A fronted adverbial, followed by a comma.",
+        explanation: "Check your punctuation: a fronted adverbial, followed by a comma.",
       },
       {
         type: "word-order",
@@ -359,22 +366,25 @@ export const PT_B2_U22: Lesson[] = [
         type: "multiple-choice",
         question: "Which sentence is punctuated correctly?",
         options: [
-          "Machado de Assis, o fundador da Academia Brasileira de Letras, nasceu no Rio.",
-          "Machado de Assis, o fundador da Academia Brasileira de Letras nasceu no Rio.",
-          "Machado de Assis o fundador da Academia Brasileira de Letras, nasceu no Rio.",
-          "Machado de Assis, nasceu no Rio, o fundador da Academia Brasileira de Letras.",
+          "Machado de Assis, um dos fundadores da Academia Brasileira de Letras, nasceu no Rio.",
+          "Machado de Assis, um dos fundadores da Academia Brasileira de Letras nasceu no Rio.",
+          "Machado de Assis um dos fundadores da Academia Brasileira de Letras, nasceu no Rio.",
+          "Machado de Assis, nasceu no Rio, um dos fundadores da Academia Brasileira de Letras.",
         ],
         correctIndex: 0,
         explanation: "An appositive in the middle needs two commas; one alone splits subject and verb.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into Portuguese.",
-        source: "If it rains, the party will be inside.",
-        answer: "Se chover, a festa vai ser lá dentro.",
-        altAnswers: ["Se chover, a festa será lá dentro.", "Se chover, a festa vai ser dentro de casa.", "Se chover, a festa será dentro de casa.", "Se chover, a festa vai ser no salão."],
-        explanation: "A fronted \"se\" clause takes a comma.",
+        type: "multiple-choice",
+        question: "Which sentence is punctuated correctly?",
+        options: [
+          "Se chover a festa, vai ser lá dentro.",
+          "Se chover, a festa vai ser lá dentro.",
+          "Se, chover a festa vai ser lá dentro.",
+          "Se chover a festa vai ser, lá dentro.",
+        ],
+        correctIndex: 1,
+        explanation: "A fronted \"se\" clause ends with a comma before the main clause. A comma after \"festa\" would split the subject from its verb.",
       },
       {
         type: "translate",
@@ -383,7 +393,7 @@ export const PT_B2_U22: Lesson[] = [
         source: "We need paper, pens, folders and a stapler.",
         answer: "Precisamos de papel, canetas, pastas e um grampeador.",
         altAnswers: ["A gente precisa de papel, canetas, pastas e um grampeador.", "Nós precisamos de papel, canetas, pastas e um grampeador."],
-        explanation: "No comma before the final \"e\", and \"precisar de\" keeps its preposition.",
+        explanation: "Check your punctuation: no comma before the final \"e\", and \"precisar de\" keeps its preposition.",
       },
       {
         type: "fill-blank",
@@ -395,18 +405,21 @@ export const PT_B2_U22: Lesson[] = [
         explanation: "At the start, \"no entanto\" is followed by a comma.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into Portuguese.",
-        source: "Yesterday I met Carla, the new manager.",
-        answer: "Ontem conheci a Carla, a nova gerente.",
-        altAnswers: ["Ontem eu conheci a Carla, a nova gerente.", "Ontem conheci Carla, a nova gerente.", "Ontem eu conheci Carla, a nova gerente.", "Ontem conheci a Carla, a gerente nova."],
-        explanation: "An appositive at the end takes one comma before it.",
+        type: "multiple-choice",
+        question: "You want to write: Yesterday I met Carla, the new manager. Which version is punctuated correctly?",
+        options: [
+          "Ontem conheci a Carla, a nova gerente.",
+          "Ontem conheci, a Carla a nova gerente.",
+          "Ontem conheci a Carla a nova gerente.",
+          "Ontem, conheci a Carla a nova, gerente.",
+        ],
+        correctIndex: 0,
+        explanation: "An appositive at the end of the sentence takes one comma before it. Without it, \"a Carla a nova gerente\" runs two noun phrases together, and a comma after \"conheci\" splits the verb from its object.",
       },
       {
         type: "dictation",
         audio: "Tentei ligar, mas ninguém atendeu.",
-        explanation: "A comma before \"mas\" joining two clauses.",
+        explanation: "Check your punctuation: a comma before \"mas\" joining two clauses.",
       },
       {
         type: "speak",
@@ -454,7 +467,7 @@ export const PT_B2_U22: Lesson[] = [
             source: "The customers who paid upfront got a discount.",
             answer: "Os clientes que pagaram à vista ganharam desconto.",
             altAnswers: ["Os clientes que pagaram à vista ganharam um desconto.", "Os clientes que pagaram à vista receberam desconto.", "Os clientes que pagaram à vista receberam um desconto."],
-            explanation: "A restrictive clause, without commas: only those customers.",
+            explanation: "Check your punctuation: a restrictive clause, without commas: only those customers.",
           },
         ],
       },
@@ -481,7 +494,7 @@ export const PT_B2_U22: Lesson[] = [
             source: "My father, who is an engineer, lives in Belo Horizonte.",
             answer: "Meu pai, que é engenheiro, mora em Belo Horizonte.",
             altAnswers: ["O meu pai, que é engenheiro, mora em Belo Horizonte."],
-            explanation: "Only one father: the clause is explicative and goes between commas.",
+            explanation: "Check your punctuation: only one father: the clause is explicative and goes between commas.",
           },
           {
             type: "multiple-choice",
@@ -525,7 +538,7 @@ export const PT_B2_U22: Lesson[] = [
             source: "The contract, which was signed in March, expires in December.",
             answer: "O contrato, que foi assinado em março, vence em dezembro.",
             altAnswers: ["O contrato, o qual foi assinado em março, vence em dezembro.", "O contrato, assinado em março, vence em dezembro."],
-            explanation: "One specific contract: explicative clause between commas. Contracts \"vencem\" in Brazilian Portuguese.",
+            explanation: "Check your punctuation: one specific contract: explicative clause between commas. Contracts \"vencem\" in Brazilian Portuguese.",
           },
         ],
       },
@@ -538,7 +551,7 @@ export const PT_B2_U22: Lesson[] = [
         source: "The employees who worked on Sunday will get a day off.",
         answer: "Os funcionários que trabalharam no domingo vão ganhar uma folga.",
         altAnswers: ["Os funcionários que trabalharam no domingo vão ter uma folga.", "Os funcionários que trabalharam no domingo terão uma folga.", "Os funcionários que trabalharam no domingo ganharão uma folga.", "Os funcionários que trabalharam no domingo vão ganhar um dia de folga."],
-        explanation: "Only those who worked: restrictive, no commas.",
+        explanation: "Check your punctuation: only those who worked: restrictive, no commas.",
       },
       {
         type: "translate",
@@ -547,7 +560,7 @@ export const PT_B2_U22: Lesson[] = [
         source: "Salvador, which was Brazil's first capital, is in Bahia.",
         answer: "Salvador, que foi a primeira capital do Brasil, fica na Bahia.",
         altAnswers: ["Salvador, que foi a primeira capital do Brasil, está na Bahia.", "Salvador, a primeira capital do Brasil, fica na Bahia."],
-        explanation: "A proper name takes an explicative clause, between commas.",
+        explanation: "Check your punctuation: a proper name takes an explicative clause, between commas.",
       },
       {
         type: "multiple-choice",
@@ -570,7 +583,7 @@ export const PT_B2_U22: Lesson[] = [
         source: "The flat we visited yesterday has been rented.",
         answer: "O apartamento que visitamos ontem foi alugado.",
         altAnswers: ["O apartamento que nós visitamos ontem foi alugado.", "O apartamento que a gente visitou ontem foi alugado.", "O apartamento que visitamos ontem já foi alugado.", "O apartamento que vimos ontem foi alugado."],
-        explanation: "Restrictive: which flat? the one we visited.",
+        explanation: "Restrictive: which apartment? the one we visited.",
       },
       {
         type: "fill-blank",
@@ -582,13 +595,16 @@ export const PT_B2_U22: Lesson[] = [
         explanation: "A restrictive clause with the future subjunctive, no commas.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into Portuguese.",
-        source: "My sister, who lives in Lisbon, is coming at Christmas.",
-        answer: "Minha irmã, que mora em Lisboa, vem no Natal.",
-        altAnswers: ["A minha irmã, que mora em Lisboa, vem no Natal.", "Minha irmã, que mora em Lisboa, vai vir no Natal.", "Minha irmã, que vive em Lisboa, vem no Natal."],
-        explanation: "Only one sister: explicative clause, between commas.",
+        type: "multiple-choice",
+        question: "You have only one sister, and she lives in Lisbon. Which sentence fits?",
+        options: [
+          "Minha irmã que mora em Lisboa vem no Natal.",
+          "Minha irmã, que mora em Lisboa vem no Natal.",
+          "Minha irmã que mora em Lisboa, vem no Natal.",
+          "Minha irmã, que mora em Lisboa, vem no Natal.",
+        ],
+        correctIndex: 3,
+        explanation: "Only one sister, so the clause just adds information: explicative, between two commas. Without commas it would pick out the sister in Lisbon from others, and a single comma splits the subject from \"vem\".",
       },
       {
         type: "translate",
@@ -672,7 +688,7 @@ export const PT_B2_U22: Lesson[] = [
           { es: "Houve muitas reclamações sobre o barulho.", en: "There were a lot of complaints about the noise." },
           { es: "Devem existir outras opções mais baratas.", en: "There must be other, cheaper options." },
           { es: "Deve haver outras opções mais baratas.", en: "There must be other, cheaper options. (with haver)" },
-          { es: "Vai haver mudanças no horário a partir de março.", en: "There will be changes to the timetable from March." },
+          { es: "Vai haver mudanças no horário a partir de março.", en: "There will be changes to the schedule from March." },
         ],
         checkpoint: [
           {
@@ -770,7 +786,7 @@ export const PT_B2_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "There will be changes to the timetable.",
+        source: "There will be changes to the schedule.",
         answer: "Vai haver mudanças no horário.",
         altAnswers: ["Haverá mudanças no horário.", "Vai ter mudanças no horário.", "Haverá mudanças nos horários.", "Vai haver mudanças nos horários."],
         explanation: "\"Vai haver\", singular: the auxiliary copies impersonal \"haver\".",
@@ -841,7 +857,7 @@ export const PT_B2_U22: Lesson[] = [
         examples: [
           { es: "O pessoal do escritório chegou cedo hoje.", en: "The office crowd got in early today." },
           { es: "A turma decidiu fazer uma festa no fim do semestre.", en: "The class decided to have a party at the end of the semester." },
-          { es: "A equipe ficou satisfeita com o resultado.", en: "The team were happy with the result." },
+          { es: "A equipe ficou satisfeita com o resultado.", en: "The team was happy with the result." },
           { es: "O povo foi às ruas para protestar.", en: "The people took to the streets to protest." },
           { es: "A gente foi à praia no domingo.", en: "We went to the beach on Sunday." },
           { es: "Nós fomos recebidos pelo diretor.", en: "We were received by the director. (formal)" },
@@ -854,7 +870,7 @@ export const PT_B2_U22: Lesson[] = [
             source: "The team won the championship.",
             answer: "A equipe venceu o campeonato.",
             altAnswers: ["O time venceu o campeonato.", "A equipe ganhou o campeonato.", "O time ganhou o campeonato."],
-            explanation: "A collective noun takes a singular verb: \"venceu\". Portuguese never says the team were.",
+            explanation: "A collective noun takes a singular verb: \"venceu\", never \"*venceram\", even when you picture the players.",
           },
           {
             type: "multiple-choice",
@@ -875,7 +891,7 @@ export const PT_B2_U22: Lesson[] = [
           { es: "Ana e Pedro chegaram juntos à festa.", en: "Ana and Pedro arrived at the party together." },
           { es: "Minha irmã e eu fomos ao show do Gilberto Gil.", en: "My sister and I went to the Gilberto Gil concert." },
           { es: "Você e a Júlia vão ao casamento?", en: "Are you and Júlia going to the wedding?" },
-          { es: "O gerente e a secretária viajaram para Brasília.", en: "The manager and the secretary travelled to Brasília." },
+          { es: "O gerente e a secretária viajaram para Brasília.", en: "The manager and the secretary traveled to Brasília." },
           { es: "Chegaram a Ana e o Pedro.", en: "Ana and Pedro have arrived." },
         ],
         checkpoint: [
@@ -914,10 +930,10 @@ export const PT_B2_U22: Lesson[] = [
           "Percentages can follow the noun too: \"30% da população votou\", \"30% dos eleitores votaram\".",
         ],
         examples: [
-          { es: "A maioria dos alunos votou a favor da greve.", en: "Most of the students voted in favour of the strike." },
+          { es: "A maioria dos alunos votou a favor da greve.", en: "Most of the students voted in favor of the strike." },
           { es: "A maior parte dos convidados chegou atrasada.", en: "Most of the guests arrived late." },
           { es: "Um grupo de turistas se perdeu na trilha.", en: "A group of tourists got lost on the trail." },
-          { es: "Trinta por cento dos eleitores não votaram.", en: "Thirty per cent of voters didn't vote." },
+          { es: "Trinta por cento dos eleitores não votaram.", en: "Thirty percent of voters didn't vote." },
         ],
         checkpoint: [
           {
@@ -933,7 +949,7 @@ export const PT_B2_U22: Lesson[] = [
             type: "speak",
             text: "A turma decidiu fazer uma festa.",
             prompt: "Say it in Portuguese: The class decided to have a party.",
-            tip: "\"Decidiu\": the d before i sounds like dj, de-dji-DJIU.",
+            tip: "\"Decidiu\": the d before i sounds like dj, de-si-DJIU.",
             explanation: "A collective noun with a singular verb.",
           },
         ],
@@ -944,7 +960,7 @@ export const PT_B2_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The family travelled to Gramado at Christmas.",
+        source: "The family traveled to Gramado at Christmas.",
         answer: "A família viajou para Gramado no Natal.",
         altAnswers: ["A família foi para Gramado no Natal.", "A família viajou a Gramado no Natal."],
         explanation: "\"A família\" is a collective: singular verb.",
@@ -1034,7 +1050,7 @@ export const PT_B2_U22: Lesson[] = [
       {
         heading: "Pôr / por, pôde / pode",
         body: [
-          "Only two differential accents survived the 1990 spelling reform, and both matter. \"Pôr\" is the verb to put, \"por\" the preposition: \"vou pôr a mesa\" (I'll set the table) vs \"por favor\". \"Pôde\" is the past (he could, managed to), \"pode\" the present: \"ontem ele não pôde vir\" vs \"hoje ele não pode vir\".",
+          "Besides the plurals \"têm\" and \"vêm\", only two compulsory differential accents survived the spelling reform (signed in 1990, in force in Brazil since 2009), and both matter. \"Pôr\" is the verb to put, \"por\" the preposition: \"vou pôr a mesa\" (I'll set the table) vs \"por favor\". \"Pôde\" is the past (he could, managed to), \"pode\" the present: \"ontem ele não pôde vir\" vs \"hoje ele não pode vir\".",
           "In speech the vowels differ: \"pôde\" has a closed o, \"pode\" an open one (PÓ-dji). In writing, the accent is the only signal, and a missing one changes the tense. \"*Ontem ela não pode ir\" reads as a contradiction.",
         ],
         examples: [
@@ -1046,13 +1062,16 @@ export const PT_B2_U22: Lesson[] = [
         ],
         checkpoint: [
           {
-            type: "fill-blank",
-            prompt: "Write the Portuguese for the bold words.",
-            en: "Last week she [couldn't] travel.",
-            sentence: "Na semana passada ela não ___ viajar.",
-            answer: "pôde",
-            altAnswers: ["conseguiu"],
-            explanation: "A finished past: \"pôde\", with the circumflex. \"Pode\" is the present.",
+            type: "multiple-choice",
+            question: "Last week she couldn't travel. Choose the correct sentence.",
+            options: [
+              "Na semana passada ela não pode viajar.",
+              "Na semana passada ela não pôde viajar.",
+              "Na semana passada ela não póde viajar.",
+              "Na semana passada ela não pude viajar.",
+            ],
+            correctIndex: 1,
+            explanation: "A finished past: \"pôde\", with the circumflex. \"Pode\" is the present, \"pude\" is the eu form, and \"póde\" doesn't exist.",
           },
           {
             type: "translate",
@@ -1081,13 +1100,16 @@ export const PT_B2_U22: Lesson[] = [
         ],
         checkpoint: [
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into Portuguese.",
-            source: "They are right.",
-            answer: "Eles têm razão.",
-            altAnswers: ["Elas têm razão."],
-            explanation: "Plural of \"tem\": \"têm\", with the circumflex.",
+            type: "multiple-choice",
+            question: "How do you write: They are right?",
+            options: [
+              "Eles tem razão.",
+              "Eles têem razão.",
+              "Eles têm razão.",
+              "Eles tém razão.",
+            ],
+            correctIndex: 2,
+            explanation: "The plural of \"tem\" is \"têm\", with the circumflex. It sounds the same as \"tem\", so only the accent shows the plural.",
           },
           {
             type: "multiple-choice",
@@ -1241,7 +1263,7 @@ export const PT_B2_U22: Lesson[] = [
       {
         heading: "Ideia, heroico, voo: accents that went away",
         body: [
-          "The Acordo Ortográfico, in force in Brazil since 2009 (and compulsory since 2016), removed several accents. You'll still see the old spellings on old signs and in books, so you need to recognise them, but never write them.",
+          "The Acordo Ortográfico, in force in Brazil since 2009 (and compulsory since 2016), removed several accents. You'll still see the old spellings on old signs and in books, so you need to recognize them, but never write them.",
           "The open diphthongs éi and ói lost their accent in words stressed on the next-to-last syllable: \"ideia\", \"assembleia\", \"plateia\", \"europeia\", \"heroico\", \"jiboia\", \"paranoico\". Words stressed on the last syllable keep it: \"herói\", \"papéis\", \"anéis\", \"dói\". And \"éu\" always keeps it: \"céu\", \"chapéu\".",
           "Double vowels lost their circumflex: \"voo\", \"enjoo\", \"perdoo\", and the plurals \"creem\", \"deem\", \"leem\", \"veem\".",
         ],
@@ -1264,7 +1286,7 @@ export const PT_B2_U22: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The flight was cancelled, but I had another idea.",
+            source: "The flight was canceled, but I had another idea.",
             answer: "O voo foi cancelado, mas eu tive outra ideia.",
             altAnswers: ["O voo foi cancelado, mas tive outra ideia.", "Cancelaram o voo, mas eu tive outra ideia.", "Cancelaram o voo, mas tive outra ideia."],
             explanation: "\"Voo\" and \"ideia\" no longer take accents.",
@@ -1282,7 +1304,7 @@ export const PT_B2_U22: Lesson[] = [
           { es: "O cachorro solta pelo pela casa toda.", en: "The dog sheds hair all over the house." },
           { es: "Comprei linguiça para o churrasco.", en: "I bought sausage for the barbecue." },
           { es: "É um erro frequente, mas fica tranquilo.", en: "It's a common mistake, but don't worry." },
-          { es: "Não aguento mais esse calor de cinquenta graus.", en: "I can't stand this fifty-degree heat any more." },
+          { es: "Não aguento mais esse calor de cinquenta graus.", en: "I can't stand this fifty-degree heat anymore." },
         ],
         checkpoint: [
           {
@@ -1308,14 +1330,14 @@ export const PT_B2_U22: Lesson[] = [
         heading: "Autoestima, micro-ondas: prefixes and hyphens",
         body: [
           "The reform also set rules for hyphens after prefixes like \"auto-\", \"anti-\", \"micro-\", \"semi-\", \"contra-\", \"infra-\". If the prefix ends in the same vowel the word begins with, use a hyphen: \"micro-ondas\", \"anti-inflamatório\", \"contra-ataque\". If the vowels differ, write it together: \"autoestima\", \"autoescola\", \"semianalfabeto\", \"infraestrutura\".",
-          "Before r or s, the consonant doubles and there's no hyphen: \"antissocial\", \"minissaia\", \"autorretrato\". Before h, use the hyphen: \"anti-higiênico\". And \"ex-\", \"pós-\", \"pré-\", \"vice-\" and \"recém-\" always take one: \"ex-marido\", \"pós-graduação\", \"vice-diretora\", \"recém-nascido\".",
+          "Before r or s, the consonant doubles and there's no hyphen: \"antissocial\", \"minissaia\", \"autorretrato\". Before h, use the hyphen: \"anti-higiênico\". \"Ex-\", \"vice-\" and \"recém-\" always take one (\"ex-marido\", \"vice-diretora\", \"recém-nascido\"), and so do the stressed forms \"pós-\", \"pré-\" and \"pró-\" (\"pós-graduação\", \"pré-escola\"). Unstressed, they join the word: \"prever\", \"preestabelecido\".",
         ],
         examples: [
           { es: "Esquentei a comida no micro-ondas.", en: "I heated the food up in the microwave." },
           { es: "Ela tem a autoestima muito baixa.", en: "She has very low self-esteem." },
           { es: "O médico receitou um anti-inflamatório.", en: "The doctor prescribed an anti-inflammatory." },
           { es: "Meu primo é meio antissocial.", en: "My cousin is a bit antisocial." },
-          { es: "A vice-diretora fez pós-graduação em Portugal.", en: "The deputy head did a postgraduate course in Portugal." },
+          { es: "A vice-diretora fez pós-graduação em Portugal.", en: "The vice principal did graduate studies in Portugal." },
         ],
         checkpoint: [
           {
@@ -1407,9 +1429,9 @@ export const PT_B2_U22: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I can't stand this heat any more.",
+        prompt: "Put the words in order to say: I can't stand this heat anymore.",
         words: ["Não", "aguento", "mais", "esse", "calor."],
-        translation: "I can't stand this heat any more.",
+        translation: "I can't stand this heat anymore.",
         explanation: "\"Aguento\" lost its trema; the u is still pronounced.",
       },
       {
@@ -1464,7 +1486,7 @@ export const PT_B2_U22: Lesson[] = [
             source: "Don't wait for me.",
             answer: "Não espere por mim.",
             altAnswers: ["Não me espere.", "Não espera por mim.", "Não me espera."],
-            explanation: "No comma: \"não\" negates \"espere\".",
+            explanation: "Check your punctuation: no comma: \"não\" negates \"espere\".",
           },
         ],
       },
@@ -1517,7 +1539,7 @@ export const PT_B2_U22: Lesson[] = [
             source: "The passengers who had luggage waited longer.",
             answer: "Os passageiros que tinham bagagem esperaram mais.",
             altAnswers: ["Os passageiros que tinham mala esperaram mais.", "Os passageiros que tinham malas esperaram mais.", "Os passageiros que estavam com bagagem esperaram mais."],
-            explanation: "Restrictive: no commas.",
+            explanation: "Check your punctuation: restrictive: no commas.",
           },
           {
             type: "speak",
@@ -1537,7 +1559,7 @@ export const PT_B2_U22: Lesson[] = [
         source: "No, don't open the window.",
         answer: "Não, não abra a janela.",
         altAnswers: ["Não, não abre a janela."],
-        explanation: "The first \"não\" answers, the second negates the verb; the comma separates them.",
+        explanation: "Check your punctuation: the first \"não\" answers, the second negates the verb; the comma separates them.",
       },
       {
         type: "translate",
@@ -1546,16 +1568,19 @@ export const PT_B2_U22: Lesson[] = [
         source: "Ana, the doctor has arrived.",
         answer: "Ana, o médico chegou.",
         altAnswers: ["Ana, a médica chegou.", "Ana, o doutor chegou.", "Ana, a doutora chegou."],
-        explanation: "One comma: Ana is the vocative.",
+        explanation: "Check your punctuation: one comma: Ana is the vocative.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into Portuguese.",
-        source: "Ana, the doctor, has arrived.",
-        answer: "Ana, a médica, chegou.",
-        altAnswers: ["Ana, a doutora, chegou."],
-        explanation: "Two commas: \"a médica\" renames Ana.",
+        type: "multiple-choice",
+        question: "You want to say that Ana, who is the doctor, has arrived. Which sentence says that?",
+        options: [
+          "Ana, a médica chegou.",
+          "Ana, a médica, chegou.",
+          "Ana a médica, chegou.",
+          "Ana a médica chegou.",
+        ],
+        correctIndex: 1,
+        explanation: "Two commas make \"a médica\" an appositive that renames Ana, so Ana is the one who arrived. With one comma after \"Ana\" you are telling Ana that the doctor has arrived.",
       },
       {
         type: "multiple-choice",
@@ -1578,7 +1603,7 @@ export const PT_B2_U22: Lesson[] = [
         source: "The guests who were vegetarian ate salad.",
         answer: "Os convidados que eram vegetarianos comeram salada.",
         altAnswers: ["Os convidados vegetarianos comeram salada."],
-        explanation: "Restrictive: no commas, only the vegetarian guests.",
+        explanation: "Check your punctuation: restrictive: no commas, only the vegetarian guests.",
       },
       {
         type: "fill-blank",
@@ -1587,7 +1612,7 @@ export const PT_B2_U22: Lesson[] = [
         sentence: "___ entrar.",
         answer: "Sim, pode",
         altAnswers: ["Sim, você pode"],
-        explanation: "\"Sim\" as an answer is followed by a comma.",
+        explanation: "Check your punctuation: \"Sim\" as an answer is followed by a comma (\"Sim, pode entrar\"). Without it, \"sim\" could read as emphasis inside the sentence.",
       },
       {
         type: "translate",
@@ -1596,7 +1621,7 @@ export const PT_B2_U22: Lesson[] = [
         source: "My uncle, who is a lawyer, helped us.",
         answer: "Meu tio, que é advogado, nos ajudou.",
         altAnswers: ["O meu tio, que é advogado, nos ajudou.", "Meu tio, que é advogado, ajudou a gente.", "Meu tio, advogado, nos ajudou."],
-        explanation: "An explicative clause between commas: extra information about my uncle.",
+        explanation: "Check your punctuation: an explicative clause between commas: extra information about my uncle.",
       },
       {
         type: "listen-choose",
@@ -1707,27 +1732,34 @@ export const PT_B2_U22: Lesson[] = [
         ],
         examples: [
           { es: "Eles têm razão: a ideia não é boa.", en: "They're right: the idea isn't good." },
-          { es: "Ontem ele não pôde vir porque estava doente.", en: "Yesterday he couldn't come because he was ill." },
+          { es: "Ontem ele não pôde vir porque estava doente.", en: "Yesterday he couldn't come because he was sick." },
           { es: "As clientes vêm buscar o pedido amanhã.", en: "The customers are coming to pick up the order tomorrow." },
           { es: "O curso ajudou muito a minha autoestima.", en: "The course really helped my self-esteem." },
         ],
         checkpoint: [
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Fix \"Ontem ela não pode vir.\" Translate: Yesterday she couldn't come.",
-            source: "Yesterday she couldn't come.",
-            answer: "Ontem ela não pôde vir.",
-            explanation: "The past needs the circumflex: \"pôde\".",
+            type: "multiple-choice",
+            question: "A colleague wrote \"Ontem ela não pode vir.\" Which is the corrected sentence?",
+            options: [
+              "Ontem ela não pôde vir.",
+              "Ontem ela não póde vir.",
+              "Ontem ela não pode vir.",
+              "Ontem ela não podê vir.",
+            ],
+            correctIndex: 0,
+            explanation: "\"Ontem\" puts it in the past, and the past is \"pôde\", with the circumflex. \"Pode\" is the present, and \"póde\" and \"podê\" don't exist.",
           },
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Fix \"Eles tem uma idéia ótima.\" Translate: They have a great idea.",
-            source: "They have a great idea.",
-            answer: "Eles têm uma ideia ótima.",
-            altAnswers: ["Elas têm uma ideia ótima.", "Eles têm uma ótima ideia.", "Elas têm uma ótima ideia."],
-            explanation: "Plural \"têm\" with a circumflex; \"ideia\" without an accent since the reform.",
+            type: "multiple-choice",
+            question: "A colleague wrote \"Eles tem uma idéia ótima.\" Which is the corrected sentence?",
+            options: [
+              "Eles tem uma ideia ótima.",
+              "Eles têm uma idéia ótima.",
+              "Eles têm uma ideia ótima.",
+              "Eles têem uma ideia ótima.",
+            ],
+            correctIndex: 2,
+            explanation: "Two fixes: plural \"têm\" with a circumflex, and \"ideia\" without an accent since the 2009 reform. \"Têem\" doesn't exist: it comes from confusing \"têm\" with the old spelling \"vêem\" (now \"veem\", from \"ver\").",
           },
         ],
       },
@@ -1783,20 +1815,23 @@ export const PT_B2_U22: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"O gerente da loja, pediu desculpas.\" Translate: The store manager apologised.",
-        source: "The store manager apologised.",
+        prompt: "Fix \"O gerente da loja, pediu desculpas.\" Translate: The store manager apologized.",
+        source: "The store manager apologized.",
         answer: "O gerente da loja pediu desculpas.",
         altAnswers: ["A gerente da loja pediu desculpas.", "O gerente da loja se desculpou.", "A gerente da loja se desculpou."],
-        explanation: "No comma between the subject and the verb.",
+        explanation: "Check your punctuation: no comma between the subject and the verb.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Fix \"Vou por os pratos na mesa.\" Translate: I'm going to put the plates on the table.",
-        source: "I'm going to put the plates on the table.",
-        answer: "Vou pôr os pratos na mesa.",
-        altAnswers: ["Eu vou pôr os pratos na mesa.", "Vou colocar os pratos na mesa.", "Eu vou colocar os pratos na mesa."],
-        explanation: "The verb \"pôr\" keeps its accent; \"por\" is the preposition.",
+        type: "multiple-choice",
+        question: "A colleague wrote \"Vou por os pratos na mesa.\" Which is the corrected sentence?",
+        options: [
+          "Vou pór os pratos na mesa.",
+          "Vou pôr os pratos na mesa.",
+          "Vou por os pratos na mesa.",
+          "Vou põe os pratos na mesa.",
+        ],
+        correctIndex: 1,
+        explanation: "The verb to put is \"pôr\", with the circumflex; \"por\" is the preposition. The accent is always the circumflex, never an acute, and \"põe\" is the conjugated form, not the infinitive that \"vou\" needs.",
       },
       {
         type: "word-order",
@@ -1883,7 +1918,7 @@ export const PT_B2_U22: Lesson[] = [
           "A common slip in this kind of rewrite is adding commas wherever Rafael paused while dictating. Read each comma and ask which rule it follows: vocative, inserted phrase, fronted adverbial, list or \"mas\". If none applies, delete it.",
         ],
         examples: [
-          { es: "Prezada Sra. Lopes,", en: "Dear Ms Lopes," },
+          { es: "Prezada Sra. Lopes,", en: "Dear Ms. Lopes," },
           { es: "O contrato assinado já está conosco.", en: "We already have the signed contract." },
           { es: "A nota fiscal, no entanto, ainda não chegou.", en: "The invoice, however, still hasn't arrived." },
           { es: "Nossos colegas têm todas as cópias necessárias.", en: "Our colleagues have all the necessary copies." },
@@ -1898,7 +1933,7 @@ export const PT_B2_U22: Lesson[] = [
             source: "The invoice, however, still hasn't arrived.",
             answer: "A nota fiscal, no entanto, ainda não chegou.",
             altAnswers: ["A nota fiscal, porém, ainda não chegou.", "A nota fiscal, contudo, ainda não chegou.", "A nota fiscal, entretanto, ainda não chegou."],
-            explanation: "The connector moves inside the clause and takes a comma on each side.",
+            explanation: "Check your punctuation: the connector moves inside the clause and takes a comma on each side.",
           },
           {
             type: "word-order",
@@ -1924,11 +1959,11 @@ export const PT_B2_U22: Lesson[] = [
         source: "Good morning, everyone. The meeting was postponed.",
         answer: "Bom dia, pessoal. A reunião foi adiada.",
         altAnswers: ["Bom dia, gente. A reunião foi adiada.", "Bom dia a todos. A reunião foi adiada.", "Bom dia, pessoal. A reunião foi remarcada."],
-        explanation: "A comma before the vocative \"pessoal\"; \"reunião\" with its tilde.",
+        explanation: "Check your punctuation: a comma before the vocative \"pessoal\"; \"reunião\" with its tilde.",
       },
       {
         type: "multiple-choice",
-        question: "Raw text: 'a equipe de vendas que viajou para recife voltou ontem'. Only part of the sales team travelled. Which version is correct?",
+        question: "Raw text: 'a equipe de vendas que viajou para recife voltou ontem'. Only part of the sales team traveled. Which version is correct?",
         options: [
           "A equipe de vendas que viajou para Recife voltou ontem.",
           "A equipe de vendas, que viajou para Recife, voltou ontem.",
@@ -1954,15 +1989,19 @@ export const PT_B2_U22: Lesson[] = [
         source: "We sent the contract, but the client hasn't answered.",
         answer: "Enviamos o contrato, mas o cliente não respondeu.",
         altAnswers: ["Nós enviamos o contrato, mas o cliente não respondeu.", "Mandamos o contrato, mas o cliente não respondeu.", "Enviamos o contrato, mas o cliente ainda não respondeu.", "Mandamos o contrato, mas o cliente ainda não respondeu.", "Enviamos o contrato, mas a cliente não respondeu."],
-        explanation: "A comma before \"mas\" joining two clauses.",
+        explanation: "Check your punctuation: a comma before \"mas\" joining two clauses.",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the Portuguese for the bold words.",
-        en: "The suppliers [have] all the copies.",
-        sentence: "Os fornecedores ___ todas as cópias.",
-        answer: "têm",
-        explanation: "Plural of \"tem\": \"têm\".",
+        type: "multiple-choice",
+        question: "The suppliers have all the copies. Choose the correct sentence.",
+        options: [
+          "Os fornecedores têm todas as cópias.",
+          "Os fornecedores tem todas as cópias.",
+          "Os fornecedores têem todas as cópias.",
+          "Os fornecedores, têm todas as cópias.",
+        ],
+        correctIndex: 0,
+        explanation: "Plural subject, plural \"têm\" with the circumflex, and no comma between the subject and the verb.",
       },
       {
         type: "translate",
@@ -1971,7 +2010,7 @@ export const PT_B2_U22: Lesson[] = [
         source: "On Monday, the team will send the report.",
         answer: "Na segunda-feira, a equipe vai enviar o relatório.",
         altAnswers: ["Na segunda-feira, a equipe enviará o relatório.", "Na segunda, a equipe vai enviar o relatório.", "Na segunda, a equipe enviará o relatório.", "Na segunda-feira, a equipe vai mandar o relatório."],
-        explanation: "A fronted adverbial followed by a comma; \"a equipe\" with a singular verb.",
+        explanation: "Check your punctuation: a fronted adverbial followed by a comma; \"a equipe\" with a singular verb.",
       },
       {
         type: "translate",
@@ -2023,7 +2062,7 @@ export const PT_B2_U22: Lesson[] = [
           "Read it the way an editor does, one check at a time. Commas: is any comma between a subject and its verb, or before an object clause? Agreement: what is the subject of each verb, and is it before or after the verb? You should find five problems in two sentences.",
         ],
         examples: [
-          { es: "Prezado Sr. Marcelo,", en: "Dear Mr Marcelo," },
+          { es: "Prezado Sr. Marcelo,", en: "Dear Mr. Marcelo," },
           { es: "Informamos que os convites para o evento já chegaram.", en: "We'd like to let you know that the invitations for the event have arrived." },
           { es: "O pessoal da gráfica fez um ótimo trabalho.", en: "The printers did an excellent job." },
           { es: "Faltam, porém, dois detalhes.", en: "There are, however, two details still to sort out." },
@@ -2037,7 +2076,7 @@ export const PT_B2_U22: Lesson[] = [
             source: "We'd like to let you know that the invitations have arrived.",
             answer: "Informamos que os convites já chegaram.",
             altAnswers: ["Informamos que os convites chegaram.", "Comunicamos que os convites já chegaram.", "Comunicamos que os convites chegaram."],
-            explanation: "No comma before \"que\"; \"chegaram\" agrees with \"os convites\".",
+            explanation: "Check your punctuation: no comma before \"que\"; \"chegaram\" agrees with \"os convites\".",
           },
           {
             type: "multiple-choice",
@@ -2096,7 +2135,7 @@ export const PT_B2_U22: Lesson[] = [
           "Read the corrected email aloud before sending. Commas should match natural pauses only where the grammar allows them; agreement should survive the question 'what is the subject?'; and every plural \"têm\" and \"vêm\" needs its hat.",
         ],
         examples: [
-          { es: "Prezado Sr. Marcelo, informamos que os convites já chegaram.", en: "Dear Mr Marcelo, we'd like to let you know that the invitations have arrived." },
+          { es: "Prezado Sr. Marcelo, informamos que os convites já chegaram.", en: "Dear Mr. Marcelo, we'd like to let you know that the invitations have arrived." },
           { es: "O pessoal da gráfica fez um ótimo trabalho, mas faltam dois detalhes.", en: "The printers did an excellent job, but there are two details left." },
           { es: "Os convidados que confirmaram presença vão receber um lembrete.", en: "The guests who have confirmed will get a reminder." },
           { es: "Atenciosamente, Juliana Alves", en: "Kind regards, Juliana Alves" },
@@ -2109,7 +2148,7 @@ export const PT_B2_U22: Lesson[] = [
             source: "The printers did a great job, but two details are missing.",
             answer: "O pessoal da gráfica fez um ótimo trabalho, mas faltam dois detalhes.",
             altAnswers: ["A gráfica fez um ótimo trabalho, mas faltam dois detalhes.", "O pessoal da gráfica fez um excelente trabalho, mas faltam dois detalhes.", "A gráfica fez um excelente trabalho, mas faltam dois detalhes."],
-            explanation: "Singular with the collective, plural \"faltam\" with the subject after it, a comma before \"mas\".",
+            explanation: "Check your punctuation: singular with the collective, plural \"faltam\" with the subject after it, a comma before \"mas\".",
           },
           {
             type: "speak",
@@ -2159,7 +2198,7 @@ export const PT_B2_U22: Lesson[] = [
         source: "It would be great if you could send us the list by Friday. (to a man, formal)",
         answer: "Seria ótimo que o senhor nos enviasse a lista até sexta-feira.",
         altAnswers: ["Seria ótimo se o senhor nos enviasse a lista até sexta-feira.", "Seria ótimo que o senhor nos enviasse a lista até sexta.", "Seria ótimo se o senhor nos enviasse a lista até sexta.", "Seria ótimo que o senhor nos mandasse a lista até sexta-feira.", "Seria ótimo se o senhor nos mandasse a lista até sexta-feira."],
-        explanation: "\"Seria ótimo que\" + imperfect subjunctive, no comma before \"que\".",
+        explanation: "Check your punctuation: \"Seria ótimo que\" + imperfect subjunctive, no comma before \"que\".",
       },
       {
         type: "fill-blank",
@@ -2239,7 +2278,7 @@ export const PT_B2_U22: Lesson[] = [
             source: "At three o'clock, we went to the meeting.",
             answer: "Às três horas, fomos à reunião.",
             altAnswers: ["Às três horas, nós fomos à reunião.", "Às três, fomos à reunião.", "Às três, nós fomos à reunião."],
-            explanation: "Crase in \"às três horas\" and \"à reunião\"; a comma after the fronted time phrase.",
+            explanation: "Check your punctuation: crase in \"às três horas\" and \"à reunião\"; a comma after the fronted time phrase.",
           },
           {
             type: "fill-blank",
@@ -2259,7 +2298,7 @@ export const PT_B2_U22: Lesson[] = [
         examples: [
           { es: "Informaram-me que houve problemas na entrega.", en: "I was informed that there were problems with the delivery." },
           { es: "Os documentos que nos enviaram têm erros.", en: "The documents they sent us contain errors." },
-          { es: "Havia muitas pessoas na fila, mas ninguém nos atendeu.", en: "There were lots of people in the queue, but nobody served us." },
+          { es: "Havia muitas pessoas na fila, mas ninguém nos atendeu.", en: "There were lots of people in line, but nobody served us." },
           { es: "Deve haver outras soluções para o problema.", en: "There must be other solutions to the problem." },
           { es: "Não se aceitam reclamações depois do prazo.", en: "Complaints are not accepted after the deadline." },
         ],
@@ -2377,7 +2416,7 @@ export const PT_B2_U22: Lesson[] = [
         source: "My boss, who lives in Niterói, prefers the train to the car.",
         answer: "Meu chefe, que mora em Niterói, prefere o trem ao carro.",
         altAnswers: ["Minha chefe, que mora em Niterói, prefere o trem ao carro.", "O meu chefe, que mora em Niterói, prefere o trem ao carro.", "A minha chefe, que mora em Niterói, prefere o trem ao carro."],
-        explanation: "An explicative clause between commas, and \"preferir X a Y\" without \"do que\".",
+        explanation: "Check your punctuation: an explicative clause between commas, and \"preferir X a Y\" without \"do que\".",
       },
       {
         type: "word-order",
@@ -2393,13 +2432,13 @@ export const PT_B2_U22: Lesson[] = [
         source: "They have the keys, but they can't come today.",
         answer: "Eles têm as chaves, mas não podem vir hoje.",
         altAnswers: ["Elas têm as chaves, mas não podem vir hoje."],
-        explanation: "Plural \"têm\"; a comma before \"mas\".",
+        explanation: "Check your punctuation: plural \"têm\"; a comma before \"mas\".",
       },
       {
         type: "listen-choose",
         audio: "Havia muitas pessoas na fila, mas ninguém nos atendeu.",
         question: "What does it mean?",
-        options: ["There were lots of people in the queue, but nobody served us.", "Lots of people served us in the queue.", "Nobody was in the queue, so we were served.", "Many people left the queue without being served."],
+        options: ["There were lots of people in line, but nobody served us.", "Lots of people served us in line.", "Nobody was in line, so we were served.", "Many people left the line without being served."],
         correctIndex: 0,
         explanation: "\"Havia\" (there were), singular; \"ninguém nos atendeu\" with the pronoun pulled forward.",
       },
@@ -2421,7 +2460,7 @@ export const PT_B2_U22: Lesson[] = [
 
 export const PT_B2_U22_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You work for a small furniture company in São Paulo. An order for a client's office has been delayed: several pieces arrived damaged from the factory, and two chairs are still missing. Write a carefully punctuated email to the client, Ms Fernanda Ribeiro. Explain what happened, what has already arrived and what is still missing, what you and your colleagues can do, and when the delivery will be completed. Pay attention to commas, agreement with subjects after the verb and the accents that change meaning.",
+  prompt: "You work for a small furniture company in São Paulo. An order for a client's office has been delayed: several pieces arrived damaged from the factory, and two chairs are still missing. Write a carefully punctuated email to the client, Ms. Fernanda Ribeiro. Explain what happened, what has already arrived and what is still missing, what you and your colleagues can do, and when the delivery will be completed. Pay attention to commas, agreement with subjects after the verb and the accents that change meaning.",
   minWords: 120,
   maxWords: 220,
   rubric: [

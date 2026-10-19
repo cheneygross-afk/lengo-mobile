@@ -15,12 +15,12 @@ export const PT_C1_U16: Lesson[] = [
         heading: "The rental contract: caução, fiador, vistoria",
         body: [
           "Brazilian landlords almost always demand a guarantee (\"garantia\"). The three common ones are the \"caução\", a deposit of up to three months' rent; the \"fiador\", a guarantor who owns property; and the \"seguro-fiança\", an insurance policy the tenant pays for. The law is the \"Lei do Inquilinato\", and its parties are the \"locador\" (landlord) and the \"locatário\" (tenant), usually called \"proprietário\" and \"inquilino\".",
-          "Before you move in, the \"imobiliária\" (letting agency) carries out a \"vistoria de entrada\" and writes a \"laudo de vistoria\", a report with photos of every wall, tap and tile. Check it line by line: at the end of the lease the \"vistoria de saída\" will be compared with it.",
+          "Before you move in, the \"imobiliária\" (rental agency) carries out a \"vistoria de entrada\" and writes a \"laudo de vistoria\", a report with photos of every wall, faucet and tile. Check it line by line: at the end of the lease the \"vistoria de saída\" will be compared with it.",
           "Two clauses cause most arguments. The \"reajuste anual\" raises the rent once a year by an index named in the contract, usually the \"IGP-M\" or the \"IPCA\". The \"multa rescisória\" is the penalty for leaving early, often three months' rent, and by law it must be proportional to the time left on the contract.",
         ],
         examples: [
-          { es: "A imobiliária pediu três aluguéis de caução.", en: "The letting agency asked for three months' rent as a deposit." },
-          { es: "Meu pai foi meu fiador no primeiro apartamento.", en: "My father was my guarantor for my first flat." },
+          { es: "A imobiliária pediu três aluguéis de caução.", en: "The rental agency asked for three months' rent as a deposit." },
+          { es: "Meu pai foi meu fiador no primeiro apartamento.", en: "My father was my guarantor for my first apartment." },
           { es: "Antes de assinar, confira o laudo de vistoria com fotos.", en: "Before signing, check the inspection report and its photos." },
           { es: "O reajuste do aluguel será feito pelo IPCA a cada doze meses.", en: "The rent will be adjusted by the IPCA every twelve months." },
           { es: "Como faltam seis meses de contrato, a multa rescisória é proporcional.", en: "As there are six months left on the contract, the early-termination penalty is proportional." },
@@ -48,14 +48,14 @@ export const PT_C1_U16: Lesson[] = [
       {
         heading: "The problem: an infiltração, by phone",
         body: [
-          "Your bedroom wall has an \"infiltração\": water seeping through, with \"mofo\" (mould) and peeling paint. Under the Lei do Inquilinato, the landlord answers for structural problems and defects that predate the lease; small everyday repairs, like a dripping tap, fall to the tenant.",
+          "Your bedroom wall has an \"infiltração\": water seeping through, with \"mofo\" (mold) and peeling paint. Under the Lei do Inquilinato, the landlord answers for structural problems and defects that predate the lease; small everyday repairs, like a dripping faucet, fall to the tenant.",
           "On the phone, be warm but leave no doubt. Polite demands use the conditional and the imperfect subjunctive: \"Eu gostaria que o senhor mandasse alguém ainda esta semana.\" Indignation can be firm without being rude: \"Não é possível que eu continue dormindo num quarto com mofo.\" \"Não é possível que\" takes the subjunctive.",
           "State your right in a short sentence: \"Tenho direito a um imóvel em condições de uso.\" \"Ter direito a\" takes a noun; \"ter o direito de\" takes a verb.",
         ],
         examples: [
           { es: "Bom dia, Dona Sônia. Estou ligando por causa da infiltração no quarto.", en: "Good morning, Dona Sônia. I'm calling about the leak in the bedroom." },
-          { es: "A parede está cheia de mofo e a pintura está descascando.", en: "The wall is covered in mould and the paint is peeling." },
-          { es: "Eu gostaria que a senhora mandasse um pedreiro ainda esta semana.", en: "I'd like you to send a builder this week." },
+          { es: "A parede está cheia de mofo e a pintura está descascando.", en: "The wall is covered in mold and the paint is peeling." },
+          { es: "Eu gostaria que a senhora mandasse um pedreiro ainda esta semana.", en: "I'd like you to send a repairman this week." },
           { es: "Não é possível que a gente continue dormindo nesse quarto.", en: "We simply can't keep sleeping in that room." },
           { es: "O problema é estrutural, então o reparo é responsabilidade do proprietário.", en: "The problem is structural, so the repair is the owner's responsibility." },
           { es: "Tenho direito a um imóvel em condições de uso.", en: "I'm entitled to a property in a usable condition." },
@@ -92,7 +92,7 @@ export const PT_C1_U16: Lesson[] = [
             audio: "A infiltração vem do apartamento de cima, então o reparo não é comigo.",
             question: "What does it mean?",
             options: [
-              "The leak comes from the flat upstairs, so the repair isn't my job.",
+              "The leak comes from the apartment upstairs, so the repair isn't my job.",
               "The leak comes from the roof, so I'll repair it myself.",
               "The flat upstairs is empty, so nobody will repair the leak.",
               "The leak has stopped, so no repair is needed.",
@@ -110,9 +110,9 @@ export const PT_C1_U16: Lesson[] = [
           "Keep a copy of everything: photos with dates, the \"laudo de vistoria\" and every message.",
         ],
         examples: [
-          { es: "Desde o dia 2 de abril, há uma infiltração na parede do quarto.", en: "Since 2 April there has been a leak in the bedroom wall." },
+          { es: "Desde o dia 2 de abril, há uma infiltração na parede do quarto.", en: "Since April 2 there has been a leak in the bedroom wall." },
           { es: "Conforme o art. 22 da Lei do Inquilinato, cabe ao locador realizar os reparos estruturais.", en: "Under Article 22 of the Tenancy Law, structural repairs are the landlord's responsibility." },
-          { es: "Solicito que o reparo seja realizado até o dia 20 de maio.", en: "I request that the repair be carried out by 20 May." },
+          { es: "Solicito que o reparo seja realizado até o dia 20 de maio.", en: "I request that the repair be carried out by May 20." },
           { es: "Seguem em anexo fotos datadas da parede.", en: "Dated photos of the wall are attached." },
           { es: "Caso o problema não seja resolvido no prazo, buscarei as medidas cabíveis.", en: "Should the problem not be resolved by the deadline, I will take the appropriate action." },
         ],
@@ -166,10 +166,10 @@ export const PT_C1_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The bedroom wall is covered in mould.",
+        source: "The bedroom wall is covered in mold.",
         answer: "A parede do quarto está cheia de mofo.",
         altAnswers: ["A parede do quarto está toda mofada.", "A parede do quarto está coberta de mofo.", "A parede do quarto está com muito mofo.", "Tem muito mofo na parede do quarto."],
-        explanation: "\"Mofo\" is mould. \"Estar cheio de\" (full of) is the natural way to say covered in.",
+        explanation: "\"Mofo\" is mold. \"Estar cheio de\" (full of) is the natural way to say covered in.",
       },
       {
         type: "translate",
@@ -256,7 +256,7 @@ export const PT_C1_U16: Lesson[] = [
     level: "PT-C1",
     number: 2,
     title: "Survival: Golpe do Pix and a Cloned Card",
-    summary: "Report fraud to your bank: a cloned card, transactions you don't recognise, contesting a purchase, blocking the card, the Pix refund mechanism (MED) and registering a boletim de ocorrência online.",
+    summary: "Report fraud to your bank: a cloned card, transactions you don't recognize, contesting a purchase, blocking the card, the Pix refund mechanism (MED) and registering a boletim de ocorrência online.",
     duration: "16 min",
     sections: [
       {
@@ -267,10 +267,10 @@ export const PT_C1_U16: Lesson[] = [
           "Your sentences should be short and exact: date, time, amount, merchant. \"No dia 14, às 23h10, foram feitas duas compras de R$ 1.200,00 numa loja de eletrônicos.\" The impersonal passive (\"foram feitas\") is natural when you don't know who did it.",
         ],
         examples: [
-          { es: "Meu cartão foi clonado: tem compras que eu não reconheço.", en: "My card has been cloned: there are purchases I don't recognise." },
+          { es: "Meu cartão foi clonado: tem compras que eu não reconheço.", en: "My card has been cloned: there are purchases I don't recognize." },
           { es: "Já bloqueei o cartão pelo aplicativo.", en: "I've already blocked the card in the app." },
           { es: "Quero contestar três compras feitas ontem à noite.", en: "I want to dispute three purchases made last night." },
-          { es: "No dia 14, às 23h10, foram feitas duas compras numa loja on-line.", en: "On the 14th, at 11.10 p.m., two purchases were made at an online shop." },
+          { es: "No dia 14, às 23h10, foram feitas duas compras numa loja on-line.", en: "On the 14th, at 11:10 p.m., two purchases were made at an online store." },
           { es: "O banco prometeu o estorno em até duas faturas.", en: "The bank promised the refund within two billing cycles." },
         ],
         checkpoint: [
@@ -278,7 +278,7 @@ export const PT_C1_U16: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I'd like to dispute two purchases that I don't recognise.",
+            source: "I'd like to dispute two purchases that I don't recognize.",
             answer: "Eu gostaria de contestar duas compras que não reconheço.",
             altAnswers: [
               "Gostaria de contestar duas compras que não reconheço.",
@@ -304,7 +304,7 @@ export const PT_C1_U16: Lesson[] = [
       {
         heading: "Golpe do Pix: the MED",
         body: [
-          "Pix transfers are instant and can't simply be cancelled, which makes them a favourite of scammers: the fake relative on WhatsApp (\"golpe do falso parente\"), the fake bank call (\"falsa central\"), the fake sale. If you \"fez um Pix\" to a scammer, contact your bank immediately.",
+          "Pix transfers are instant and can't simply be canceled, which makes them a favorite of scammers: the fake relative on WhatsApp (\"golpe do falso parente\"), the fake bank call (\"falsa central\"), the fake sale. If you \"fez um Pix\" to a scammer, contact your bank immediately.",
           "The Central Bank created the \"MED\", the \"Mecanismo Especial de Devolução\". Your bank \"aciona o MED\", notifying the receiving bank, which can \"bloquear os valores\" if they are still in the scammer's account and return them. Speed is everything: the money is usually moved on within minutes.",
           "Give the bank exactly what it needs: the date and time of each transfer, the amount, the \"chave Pix\" (Pix key) and the name of the receiving account holder. Always ask for the \"número de protocolo\".",
         ],
@@ -312,7 +312,7 @@ export const PT_C1_U16: Lesson[] = [
           { es: "Fiz um Pix de dois mil reais para um golpista que se passou pela minha filha.", en: "I sent two thousand reais by Pix to a scammer who pretended to be my daughter." },
           { es: "Caí no golpe do falso parente pelo WhatsApp.", en: "I fell for the fake-relative scam on WhatsApp." },
           { es: "Gostaria que vocês acionassem o MED imediatamente.", en: "I'd like you to trigger the MED immediately." },
-          { es: "A chave Pix era um número de celular de outro estado.", en: "The Pix key was a mobile number from another state." },
+          { es: "A chave Pix era um número de celular de outro estado.", en: "The Pix key was a cell phone number from another state." },
           { es: "O banco recebedor conseguiu bloquear parte dos valores.", en: "The receiving bank managed to freeze part of the money." },
           { es: "Qual é o número do protocolo, por favor?", en: "What's the protocol number, please?" },
         ],
@@ -421,7 +421,7 @@ export const PT_C1_U16: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "There are three [transactions I don't recognise] on my statement.",
+        en: "There are three [transactions I don't recognize] on my statement.",
         sentence: "Tem três ___ no meu extrato.",
         answer: "transações que eu não reconheço",
         altAnswers: ["transações que não reconheço", "transações não reconhecidas", "compras que eu não reconheço", "compras que não reconheço"],
@@ -463,7 +463,7 @@ export const PT_C1_U16: Lesson[] = [
           "Gostaria que vocês estornassem o cartão de crédito.",
         ],
         correctIndex: 0,
-        explanation: "A Pix can't simply be cancelled; the route is the \"MED\", asked for at once. Card disputes are a separate procedure.",
+        explanation: "A Pix can't simply be canceled; the route is the \"MED\", asked for at once. Card disputes are a separate procedure.",
       },
       {
         type: "word-order",
@@ -500,7 +500,7 @@ export const PT_C1_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "On the 3rd, at 10.40 p.m., two purchases were made in my name.",
+        source: "On the 3rd, at 10:40 p.m., two purchases were made in my name.",
         answer: "No dia 3, às 22h40, foram feitas duas compras em meu nome.",
         altAnswers: [
           "No dia 3, às 22h40, foram feitas duas compras no meu nome.",
@@ -544,7 +544,7 @@ export const PT_C1_U16: Lesson[] = [
           { es: "Meu plano de saúde tem uma rede credenciada grande em Curitiba.", en: "My health plan has a large network of approved providers in Curitiba." },
           { es: "Ainda estou na carência para cirurgias.", en: "I'm still in the waiting period for surgery." },
           { es: "Em caso de urgência, a carência máxima é de 24 horas.", en: "In an emergency, the maximum waiting period is 24 hours." },
-          { es: "A ressonância precisa de autorização prévia do plano.", en: "The MRI needs prior authorisation from the plan." },
+          { es: "A ressonância precisa de autorização prévia do plano.", en: "The MRI needs prior authorization from the plan." },
           { es: "Pedi reembolso da consulta com uma médica fora da rede.", en: "I asked for a refund for an appointment with a doctor outside the network." },
         ],
         checkpoint: [
@@ -622,7 +622,7 @@ export const PT_C1_U16: Lesson[] = [
               "You've already completed the waiting period, so the plan has to cover it.",
               "You still have to wait, so the plan won't cover it.",
               "You've already paid the fee, so the plan will refund you.",
-              "You've already used your cover, so you have to pay.",
+              "You've already used up your coverage, so you have to pay.",
             ],
             correctIndex: 0,
             explanation: "\"Cumprir a carência\" is completing the waiting period.",
@@ -632,7 +632,7 @@ export const PT_C1_U16: Lesson[] = [
       {
         heading: "Escalating: ouvidoria, ANS, Procon",
         body: [
-          "If the call centre won't move, go up the ladder. First the operator's \"ouvidoria\" (ombudsman), quoting your protocol. Then a complaint to the ANS, by its website or phone line, which opens a mediation process; operators take it seriously because it can lead to fines. Procon and, for urgent cases, the courts, where a lawyer can ask for a \"liminar\" (an injunction), are the last steps.",
+          "If the call center won't move, go up the ladder. First the operator's \"ouvidoria\" (ombudsman), quoting your protocol. Then a complaint to the ANS, by its website or phone line, which opens a mediation process; operators take it seriously because it can lead to fines. Procon and, for urgent cases, the courts, where a lawyer can ask for a \"liminar\" (an injunction), are the last steps.",
           "Announce the next step as a calm condition: \"Se a negativa for mantida, vou registrar uma reclamação na ANS.\" \"Caso não haja resposta em 48 horas, recorrerei à ouvidoria.\" Remember: \"se\" + future subjunctive, \"caso\" + present subjunctive.",
           "Saying what you'll do is information, not a threat, and it often unblocks the case.",
         ],
@@ -640,7 +640,7 @@ export const PT_C1_U16: Lesson[] = [
           { es: "Vou entrar em contato com a ouvidoria da operadora.", en: "I'm going to contact the operator's ombudsman." },
           { es: "Se a negativa for mantida, vou registrar uma reclamação na ANS.", en: "If the refusal stands, I'll file a complaint with the ANS." },
           { es: "Caso não haja resposta em 48 horas, recorrerei à ouvidoria.", en: "Should there be no reply within 48 hours, I'll turn to the ombudsman." },
-          { es: "Depois da reclamação na ANS, o plano autorizou o exame em dois dias.", en: "After the complaint to the ANS, the plan authorised the test in two days." },
+          { es: "Depois da reclamação na ANS, o plano autorizou o exame em dois dias.", en: "After the complaint to the ANS, the plan authorized the test in two days." },
           { es: "O advogado conseguiu uma liminar para a cirurgia.", en: "The lawyer obtained an injunction for the surgery." },
         ],
         checkpoint: [
@@ -734,9 +734,9 @@ export const PT_C1_U16: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The MRI needs prior authorisation.",
+        prompt: "Put the words in order to say: The MRI needs prior authorization.",
         words: ["A ressonância", "precisa", "de", "autorização", "prévia."],
-        translation: "The MRI needs prior authorisation.",
+        translation: "The MRI needs prior authorization.",
         explanation: "\"Autorização prévia\" is the operator's approval before a procedure.",
       },
       {
@@ -802,7 +802,7 @@ export const PT_C1_U16: Lesson[] = [
         heading: "Furto, roubo, assalto: naming what happened",
         body: [
           "At the \"delegacia\" (police station), the \"escrivão\" (clerk) types your \"boletim de ocorrência\" and the \"delegado\" (chief officer) is in charge. The first question is what kind of crime it was, and Portuguese draws a legal line English blurs.",
-          "\"Furto\" is theft without violence or threat: a phone lifted from your bag, a bike taken from outside a shop. \"Roubo\" is theft \"mediante violência ou grave ameaça\", with violence or a serious threat, such as a man with a knife or a gun. In everyday speech a \"roubo\" in the street is an \"assalto\", and the robber an \"assaltante\". Saying \"fui furtado\" when you were threatened at knifepoint understates the crime.",
+          "\"Furto\" is theft without violence or threat: a phone lifted from your bag, a bike taken from outside a store. \"Roubo\" is theft \"mediante violência ou grave ameaça\", with violence or a serious threat, such as a man with a knife or a gun. In everyday speech a \"roubo\" in the street is an \"assalto\", and the robber an \"assaltante\". Saying \"fui furtado\" when you were threatened at knifepoint understates the crime.",
           "Other key words: the \"vítima\", a \"testemunha\" (witness), the \"suspeito\" and the \"autor\" (perpetrator). After a traffic accident you register a BO too, often called \"boletim de acidente de trânsito\".",
         ],
         examples: [
@@ -810,7 +810,7 @@ export const PT_C1_U16: Lesson[] = [
           { es: "Furtaram meu celular da bolsa dentro do metrô.", en: "Someone stole my phone from my bag on the metro." },
           { es: "Fui assaltado por dois homens armados no ponto de ônibus.", en: "I was robbed by two armed men at the bus stop." },
           { es: "O roubo aconteceu mediante grave ameaça com uma faca.", en: "The robbery was carried out under serious threat with a knife." },
-          { es: "Uma testemunha anotou a placa do carro.", en: "A witness wrote down the car's number plate." },
+          { es: "Uma testemunha anotou a placa do carro.", en: "A witness wrote down the car's license plate." },
         ],
         checkpoint: [
           {
@@ -842,16 +842,16 @@ export const PT_C1_U16: Lesson[] = [
       {
         heading: "When and where, exactly",
         body: [
-          "A useful report pins down time and place. Time: \"no dia 12 de junho, por volta das 21h40\" (around 9.40 p.m.), \"entre as 14h e as 15h\". Avoid \"semana passada, à noite\": the clerk will ask again.",
+          "A useful report pins down time and place. Time: \"no dia 12 de junho, por volta das 21h40\" (around 9:40 p.m.), \"entre as 14h e as 15h\". Avoid \"semana passada, à noite\": the clerk will ask again.",
           "Place: give the street and the nearest number or landmark. \"Na altura do número 1.200 da Avenida Sete de Setembro\" (near number 1,200), \"na esquina da Rua Augusta com a Alameda Santos\" (at the corner of), \"em frente à farmácia\", \"próximo ao ponto de ônibus\". Note the crase: \"em frente à\", \"próximo à\" before feminine nouns.",
-          "Movement matters too: \"fugiu em direção à Praça da Sé\" (ran off towards), \"seguiu pela Rua da Bahia\", \"de moto\" or \"a pé\".",
+          "Movement matters too: \"fugiu em direção à Praça da Sé\" (ran off toward), \"seguiu pela Rua da Bahia\", \"de moto\" or \"a pé\".",
         ],
         examples: [
-          { es: "O fato ocorreu no dia 12 de junho, por volta das 21h40.", en: "The incident took place on 12 June, at around 9.40 p.m." },
+          { es: "O fato ocorreu no dia 12 de junho, por volta das 21h40.", en: "The incident took place on June 12, at around 9:40 p.m." },
           { es: "Eu estava na altura do número 1.200 da Avenida Sete de Setembro.", en: "I was near number 1,200 on Avenida Sete de Setembro." },
           { es: "Fui abordado na esquina da Rua Augusta com a Alameda Santos.", en: "I was approached at the corner of Rua Augusta and Alameda Santos." },
           { es: "O carro estava estacionado em frente à farmácia.", en: "The car was parked in front of the pharmacy." },
-          { es: "O assaltante fugiu de moto em direção à Praça da Sé.", en: "The robber fled on a motorbike towards Praça da Sé." },
+          { es: "O assaltante fugiu de moto em direção à Praça da Sé.", en: "The robber fled on a motorcycle toward Praça da Sé." },
         ],
         checkpoint: [
           {
@@ -883,29 +883,29 @@ export const PT_C1_U16: Lesson[] = [
             audio: "Ele fugiu a pé em direção à estação de metrô.",
             question: "What does it mean?",
             options: [
-              "He ran off on foot towards the metro station.",
-              "He drove off towards the metro station.",
+              "He ran off on foot toward the metro station.",
+              "He drove off toward the metro station.",
               "He was standing on foot at the metro station.",
               "He ran away from the metro station by bus.",
             ],
             correctIndex: 0,
-            explanation: "\"A pé\" is on foot, and \"em direção à\" is towards.",
+            explanation: "\"A pé\" is on foot, and \"em direção à\" is toward.",
           },
         ],
       },
       {
         heading: "Describing a person, an object and the boletim style",
         body: [
-          "Describe a suspect in a fixed order: sex, approximate age, height, build, skin colour, hair, clothes, distinguishing marks. \"Um homem de aproximadamente 25 anos, cerca de 1,75 m, magro, pardo, cabelo curto, de boné vermelho e bermuda jeans, com uma tatuagem no braço.\" \"Pardo\" (mixed race) is the IBGE census term and normal in police reports.",
-          "For objects: type, brand, model, colour and identifiers: \"um celular da marca Samsung, modelo Galaxy A54, cor preta, IMEI nº...\". Phones in Brazil can be blocked by their IMEI, so have it ready.",
-          "The written boletim uses formulas you'll recognise when you read it back: \"relata a vítima que\" (the victim states that), \"foi abordada por\" (was approached by), \"evadiu-se do local\" (fled the scene) and \"nada mais havendo a relatar\" (with nothing further to report). Check every detail before you sign.",
+          "Describe a suspect in a fixed order: sex, approximate age, height, build, skin color, hair, clothes, distinguishing marks. \"Um homem de aproximadamente 25 anos, cerca de 1,75 m, magro, pardo, cabelo curto, de boné vermelho e bermuda jeans, com uma tatuagem no braço.\" \"Pardo\" (mixed race) is the IBGE census term and normal in police reports.",
+          "For objects: type, brand, model, color and identifiers: \"um celular da marca Samsung, modelo Galaxy A54, cor preta, IMEI nº...\". Phones in Brazil can be blocked by their IMEI, so have it ready.",
+          "The written boletim uses formulas you'll recognize when you read it back: \"relata a vítima que\" (the victim states that), \"foi abordada por\" (was approached by), \"evadiu-se do local\" (fled the scene) and \"nada mais havendo a relatar\" (with nothing further to report). Check every detail before you sign.",
         ],
         examples: [
           { es: "Era um homem de aproximadamente 25 anos, magro, de boné vermelho.", en: "He was a man of about 25, thin, wearing a red cap." },
           { es: "Ele tinha cerca de 1,80 m e uma tatuagem no pescoço.", en: "He was about 1.80 m tall and had a tattoo on his neck." },
           { es: "Levaram um celular da marca Motorola, cor azul.", en: "They took a blue Motorola phone." },
-          { es: "Relata a vítima que foi abordada por dois indivíduos numa moto.", en: "The victim states that she was approached by two individuals on a motorbike." },
-          { es: "O autor evadiu-se do local em direção ao centro.", en: "The perpetrator fled the scene towards the city centre." },
+          { es: "Relata a vítima que foi abordada por dois indivíduos numa moto.", en: "The victim states that she was approached by two individuals on a motorcycle." },
+          { es: "O autor evadiu-se do local em direção ao centro.", en: "The perpetrator fled the scene toward the city center." },
           { es: "Nada mais havendo a relatar, encerra-se o presente boletim.", en: "There being nothing further to report, this report is closed." },
         ],
         checkpoint: [
@@ -948,10 +948,9 @@ export const PT_C1_U16: Lesson[] = [
           "Furtaram a minha carteira no ônibus, mas ninguém me ameaçou.",
           "Minha carteira foi furtada no ônibus, mas ninguém me ameaçou.",
           "Furtaram minha carteira dentro do ônibus, mas ninguém me ameaçou.",
-          "Roubaram minha carteira no ônibus, mas ninguém me ameaçou.",
           "A minha carteira foi furtada no ônibus, mas ninguém me ameaçou.",
         ],
-        explanation: "Without a threat it is \"furto\". In everyday speech people also say \"roubaram\", but the report will record \"furto\".",
+        explanation: "Without a threat it is \"furto\". In everyday speech people also say \"roubaram\", but at the delegacia say \"furtaram\": the report will record \"furto\".",
       },
       {
         type: "fill-blank",
@@ -966,10 +965,10 @@ export const PT_C1_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The robber fled on a motorbike towards the beach.",
+        source: "The robber fled on a motorcycle toward the beach.",
         answer: "O assaltante fugiu de moto em direção à praia.",
         altAnswers: ["O assaltante fugiu de moto na direção da praia.", "O ladrão fugiu de moto em direção à praia.", "O assaltante fugiu numa moto em direção à praia.", "O assaltante fugiu de moto rumo à praia."],
-        explanation: "\"De moto\" (by motorbike) and \"em direção à\" (towards), with crase before the feminine \"praia\".",
+        explanation: "\"De moto\" (by motorcycle) and \"em direção à\" (toward), with crase before the feminine \"praia\".",
       },
       {
         type: "translate",
@@ -1004,7 +1003,7 @@ export const PT_C1_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "He was about 1.70 m tall, thin, and wearing a grey hoodie.",
+        source: "He was about 1.70 m tall, thin, and wearing a gray hoodie.",
         answer: "Ele tinha cerca de 1,70 m, era magro e vestia um moletom cinza.",
         altAnswers: [
           "Ele tinha aproximadamente 1,70 m, era magro e vestia um moletom cinza.",
@@ -1014,7 +1013,7 @@ export const PT_C1_U16: Lesson[] = [
           "Ele tinha cerca de 1,70 m, era magro e estava usando um moletom cinza.",
           "Ele media cerca de 1,70 m, era magro e vestia um moletom cinza.",
         ],
-        explanation: "Height uses \"ter\" (or \"medir\") + metres with a decimal comma. Clothes take \"vestir\", \"usar\" or \"estar de\".",
+        explanation: "Height uses \"ter\" (or \"medir\") + meters with a decimal comma. Clothes take \"vestir\", \"usar\" or \"estar de\".",
       },
       {
         type: "fill-blank",
@@ -1029,10 +1028,10 @@ export const PT_C1_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "A witness wrote down the number plate.",
+        source: "A witness wrote down the license plate.",
         answer: "Uma testemunha anotou a placa.",
         altAnswers: ["Uma testemunha anotou a placa do carro.", "Uma testemunha anotou o número da placa.", "Uma testemunha anotou a placa do veículo.", "Uma testemunha anotou a placa da moto."],
-        explanation: "\"Testemunha\" is always feminine, even for a man. The number plate is \"a placa\".",
+        explanation: "\"Testemunha\" is always feminine, even for a man. The license plate is \"a placa\".",
       },
       {
         type: "dictation",
@@ -1067,7 +1066,7 @@ export const PT_C1_U16: Lesson[] = [
           { es: "O condomínio aqui custa oitocentos reais por mês.", en: "The building fees here are eight hundred reais a month." },
           { es: "O síndico convocou uma assembleia para discutir a reforma da fachada.", en: "The building manager called a meeting to discuss renovating the façade." },
           { es: "O regimento interno proíbe barulho depois das 22h.", en: "The house rules forbid noise after 10 p.m." },
-          { es: "A pauta inclui a aprovação de uma taxa extra para o elevador.", en: "The agenda includes approving an extra levy for the lift." },
+          { es: "A pauta inclui a aprovação de uma taxa extra para o elevador.", en: "The agenda includes approving an extra levy for the elevator." },
           { es: "Tudo o que for decidido vai constar em ata.", en: "Everything decided will be recorded in the minutes." },
         ],
         checkpoint: [
@@ -1083,7 +1082,7 @@ export const PT_C1_U16: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The [house rules] don't allow dogs in the lift.",
+            en: "The [house rules] don't allow dogs in the elevator.",
             sentence: "O ___ não permite cachorro no elevador.",
             answer: "regimento interno",
             explanation: "The \"regimento interno\" sets the daily rules; the \"convenção\" is the founding document.",
@@ -1093,14 +1092,14 @@ export const PT_C1_U16: Lesson[] = [
       {
         heading: "Taking the floor: proposals and objections",
         body: [
-          "To speak, you \"pede a palavra\": \"Senhor síndico, peço a palavra.\" Introduce yourself by flat: \"Sou a Mariana, do 82.\" Make a proposal with \"proponho que\" + subjunctive: \"Proponho que a taxa extra seja dividida em seis parcelas.\"",
+          "To speak, you \"pede a palavra\": \"Senhor síndico, peço a palavra.\" Introduce yourself by apartment: \"Sou a Mariana, do 82.\" Make a proposal with \"proponho que\" + subjunctive: \"Proponho que a taxa extra seja dividida em seis parcelas.\"",
           "Object politely but clearly. \"Com todo o respeito, discordo da proposta, porque...\", \"Gostaria de entender por que o orçamento mais barato foi descartado.\", \"Não me parece razoável que os moradores do térreo paguem pelo elevador.\" \"Não me parece razoável que\" takes the subjunctive and is firmer than it sounds.",
-          "Back your point with documents: \"Conforme o regimento interno, artigo 12...\", \"De acordo com a convenção...\". Neighbours respond better to rules than to complaints.",
+          "Back your point with documents: \"Conforme o regimento interno, artigo 12...\", \"De acordo com a convenção...\". Neighbors respond better to rules than to complaints.",
         ],
         examples: [
-          { es: "Senhor síndico, peço a palavra.", en: "Mr Chairman, may I have the floor?" },
-          { es: "Sou o Rafael, do apartamento 304.", en: "I'm Rafael, from flat 304." },
-          { es: "Proponho que a taxa extra seja dividida em seis parcelas.", en: "I propose that the extra levy be split into six instalments." },
+          { es: "Senhor síndico, peço a palavra.", en: "Mr. Chairman, may I have the floor?" },
+          { es: "Sou o Rafael, do apartamento 304.", en: "I'm Rafael, from apartment 304." },
+          { es: "Proponho que a taxa extra seja dividida em seis parcelas.", en: "I propose that the extra levy be split into six installments." },
           { es: "Com todo o respeito, discordo da proposta do conselho.", en: "With all due respect, I disagree with the council's proposal." },
           { es: "Gostaria de entender por que o orçamento mais barato foi descartado.", en: "I'd like to understand why the cheapest quote was rejected." },
           { es: "Não me parece razoável que todos paguem igual pela piscina.", en: "It doesn't seem reasonable to me that everyone pays the same for the pool." },
@@ -1110,7 +1109,7 @@ export const PT_C1_U16: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I propose that the work be done in the holidays.",
+            source: "I propose that the work be done during the vacation.",
             answer: "Proponho que a obra seja feita nas férias.",
             altAnswers: [
               "Eu proponho que a obra seja feita nas férias.",
@@ -1125,7 +1124,7 @@ export const PT_C1_U16: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[It doesn't seem reasonable to me] that we pay for a lift we don't use.",
+            en: "[It doesn't seem reasonable to me] that we pay for an elevator we don't use.",
             sentence: "___ que a gente pague por um elevador que não usa.",
             answer: "Não me parece razoável",
             altAnswers: ["Não acho razoável", "Não me parece justo", "Não acho justo"],
@@ -1155,7 +1154,7 @@ export const PT_C1_U16: Lesson[] = [
         ],
         examples: [
           { es: "Vou colocar a proposta em votação.", en: "I'm going to put the proposal to the vote." },
-          { es: "Quem for a favor da taxa extra, levante a mão.", en: "Those in favour of the extra levy, raise your hands." },
+          { es: "Quem for a favor da taxa extra, levante a mão.", en: "Those in favor of the extra levy, raise your hands." },
           { es: "Eu me abstenho, porque não li o orçamento.", en: "I abstain, because I haven't read the quote." },
           { es: "A proposta foi aprovada por maioria, com duas abstenções.", en: "The proposal was approved by a majority, with two abstentions." },
           { es: "Peço que conste em ata a minha discordância.", en: "I ask that my disagreement be recorded in the minutes." },
@@ -1200,7 +1199,7 @@ export const PT_C1_U16: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Mr Chairman, [may I have the floor]?",
+        en: "Mr. Chairman, [may I have the floor]?",
         sentence: "Senhor síndico, ___?",
         answer: "peço a palavra",
         altAnswers: ["posso falar", "me permite a palavra"],
@@ -1210,7 +1209,7 @@ export const PT_C1_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I propose that the extra levy be split into ten instalments.",
+        source: "I propose that the extra levy be split into ten installments.",
         answer: "Proponho que a taxa extra seja dividida em dez parcelas.",
         altAnswers: ["Eu proponho que a taxa extra seja dividida em dez parcelas.", "Proponho que a taxa extra seja parcelada em dez vezes.", "Proponho que a taxa extra seja dividida em dez vezes.", "Proponho que a taxa extra seja paga em dez parcelas.", "Proponho que dividam a taxa extra em dez parcelas."],
         explanation: "\"Proponho que\" + passive subjunctive \"seja dividida\", agreeing with \"taxa\".",
@@ -1231,10 +1230,10 @@ export const PT_C1_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Those in favour, raise your hands.",
+        source: "Those in favor, raise your hands.",
         answer: "Quem for a favor, levante a mão.",
         altAnswers: ["Quem for a favor levante a mão.", "Quem estiver a favor, levante a mão.", "Os que forem a favor, levantem a mão.", "Quem for a favor, por favor, levante a mão."],
-        explanation: "\"Quem for\" is the future subjunctive: whoever is (or will be) in favour.",
+        explanation: "\"Quem for\" is the future subjunctive: whoever is (or will be) in favor.",
       },
       {
         type: "word-order",
@@ -1286,8 +1285,8 @@ export const PT_C1_U16: Lesson[] = [
       {
         type: "speak",
         text: "Senhor síndico, peço a palavra. Sou a Beatriz, do 52.",
-        tip: "Read the flat number as a number: cinquenta e dois. Síndico: SÍN-di-co, di like jee.",
-        explanation: "Ask for the floor, then identify yourself by name and flat number.",
+        tip: "Read the apartment number as a number: cinquenta e dois. Síndico: SÍN-di-co, di like jee.",
+        explanation: "Ask for the floor, then identify yourself by name and apartment number.",
       },
     ],
   },
@@ -1307,7 +1306,7 @@ export const PT_C1_U16: Lesson[] = [
           "Both work best with documents: the \"nota fiscal\" (receipt), the order number, the protocol numbers from the SAC and screenshots of chats.",
         ],
         examples: [
-          { es: "Registrei uma reclamação no Procon contra a loja.", en: "I filed a complaint against the shop with Procon." },
+          { es: "Registrei uma reclamação no Procon contra a loja.", en: "I filed a complaint against the store with Procon." },
           { es: "O Procon marcou uma audiência de conciliação para o mês que vem.", en: "Procon scheduled a mediation hearing for next month." },
           { es: "Pelo consumidor.gov.br, a empresa tem até dez dias para responder.", en: "On consumidor.gov.br, the company has up to ten days to reply." },
           { es: "Avaliei a reclamação como não resolvida.", en: "I rated the complaint as not resolved." },
@@ -1318,7 +1317,7 @@ export const PT_C1_U16: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "If the shop doesn't answer, I'll file a complaint with Procon.",
+            source: "If the store doesn't answer, I'll file a complaint with Procon.",
             answer: "Se a loja não responder, vou registrar uma reclamação no Procon.",
             altAnswers: [
               "Se a loja não responder, vou fazer uma reclamação no Procon.",
@@ -1396,7 +1395,7 @@ export const PT_C1_U16: Lesson[] = [
           "Write amounts in figures and, in formal claims, in words too. Attach every document you mention: \"conforme nota fiscal anexa\".",
         ],
         examples: [
-          { es: "A autora adquiriu, em 5 de março, um notebook no site da ré.", en: "On 5 March, the claimant bought a laptop on the defendant's website." },
+          { es: "A autora adquiriu, em 5 de março, um notebook no site da ré.", en: "On March 5, the claimant bought a laptop on the defendant's website." },
           { es: "Ocorre que o produto nunca foi entregue.", en: "However, the product was never delivered." },
           { es: "Foram abertos três protocolos, sem nenhuma solução.", en: "Three protocol numbers were opened, with no solution." },
           { es: "Diante do exposto, requer a restituição do valor de R$ 2.300,00.", en: "In view of the above, the claimant requests a refund of R$ 2,300.00." },
@@ -1467,7 +1466,7 @@ export const PT_C1_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into formal Portuguese.",
-        source: "The problem is that the airline cancelled the flight without notice.",
+        source: "The problem is that the airline canceled the flight without notice.",
         answer: "Ocorre que a companhia aérea cancelou o voo sem aviso prévio.",
         altAnswers: [
           "Ocorre que a companhia aérea cancelou o voo sem aviso.",
@@ -1602,8 +1601,8 @@ export const PT_C1_U16: Lesson[] = [
           "When the attendant asks something you don't know, say so rather than guess: \"Isso eu não sei informar\" or \"Vou confirmar e te passo\". A wrong detail can delay the case.",
         ],
         examples: [
-          { es: "Pedro: A primeira transferência foi às 14h12, no valor de R$ 1.850,00.", en: "The first transfer was at 2.12 p.m., for R$ 1,850.00." },
-          { es: "Pedro: A segunda foi às 14h37, de R$ 2.400,00, para a mesma chave.", en: "The second was at 2.37 p.m., for R$ 2,400.00, to the same key." },
+          { es: "Pedro: A primeira transferência foi às 14h12, no valor de R$ 1.850,00.", en: "The first transfer was at 2:12 p.m., for R$ 1,850.00." },
+          { es: "Pedro: A segunda foi às 14h37, de R$ 2.400,00, para a mesma chave.", en: "The second was at 2:37 p.m., for R$ 2,400.00, to the same key." },
           { es: "Pedro: A conta de destino está em nome de um tal de Marcos Oliveira.", en: "The receiving account is in the name of a certain Marcos Oliveira." },
           { es: "Atendente: O senhor tem os comprovantes das duas transações?", en: "Do you have the receipts for both transactions, sir?" },
           { es: "Pedro: Tenho, sim. Posso enviar por e-mail agora mesmo.", en: "Yes, I do. I can send them by email right now." },
@@ -1614,7 +1613,7 @@ export const PT_C1_U16: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The first transfer was at 3.05 p.m., for R$ 900.00.",
+            source: "The first transfer was at 3:05 p.m., for R$ 900.00.",
             answer: "A primeira transferência foi às 15h05, no valor de R$ 900,00.",
             altAnswers: [
               "A primeira transferência foi às 15h05, de R$ 900,00.",
@@ -1660,7 +1659,7 @@ export const PT_C1_U16: Lesson[] = [
           { es: "Pedro: Qual é o número do protocolo e qual é o prazo para a resposta?", en: "What's the protocol number, and what's the deadline for a reply?" },
           { es: "Atendente: O protocolo é 2024 0815 3392. O prazo é de até sete dias.", en: "The protocol number is 2024 0815 3392. The deadline is up to seven days." },
           { es: "Pedro: Então o banco recebedor vai ser notificado hoje, é isso?", en: "So the receiving bank will be notified today, is that right?" },
-          { es: "Pedro: Ela pediu que a gente registrasse um BO e que a mãe não apagasse as mensagens.", en: "She asked us to file a police report and told Mum not to delete the messages." },
+          { es: "Pedro: Ela pediu que a gente registrasse um BO e que a mãe não apagasse as mensagens.", en: "She asked us to file a police report and told Mom not to delete the messages." },
         ],
         checkpoint: [
           {
@@ -1766,7 +1765,7 @@ export const PT_C1_U16: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "She told Mum [not to delete] the messages.",
+        en: "She told Mom [not to delete] the messages.",
         sentence: "Ela pediu que a mãe não ___ as mensagens.",
         answer: "apagasse",
         altAnswers: ["deletasse", "excluísse"],
@@ -1803,13 +1802,13 @@ export const PT_C1_U16: Lesson[] = [
     level: "PT-C1",
     number: 8,
     title: "Dialogue Lab: A Vistoria de Saída",
-    summary: "Walk through a flat with the landlady at the end of a lease, dispute who pays for what using the entry report, normal wear and tear and the contract, and settle the caução.",
+    summary: "Walk through an apartment with the landlady at the end of a lease, dispute who pays for what using the entry report, normal wear and tear and the contract, and settle the caução.",
     duration: "16 min",
     sections: [
       {
         heading: "Part 1: The report in hand",
         body: [
-          "Rafael is leaving the flat in Porto Alegre he has rented for three years. Dona Célia, the owner, has come for the \"vistoria de saída\". Rafael has the \"laudo de vistoria de entrada\" on his phone, with photos. That document is the reference for everything.",
+          "Rafael is leaving the apartment in Porto Alegre he has rented for three years. Dona Célia, the owner, has come for the \"vistoria de saída\". Rafael has the \"laudo de vistoria de entrada\" on his phone, with photos. That document is the reference for everything.",
           "The key legal idea is \"desgaste natural\" (normal wear and tear): the tenant must return the property as received, except for the wear caused by normal use. Faded paint after three years is wear; a hole in the door is damage.",
           "Rafael's tone is friendly and precise. He compares instead of arguing: \"Conforme o laudo de entrada, esse azulejo já estava trincado.\" \"Já estava assim quando eu entrei\" is the phrase every tenant needs.",
         ],
@@ -1828,7 +1827,7 @@ export const PT_C1_U16: Lesson[] = [
             source: "It was already like that when I moved in.",
             answer: "Já estava assim quando eu entrei.",
             altAnswers: ["Já estava assim quando entrei.", "Já estava assim quando eu me mudei.", "Já estava assim quando me mudei para cá.", "Isso já estava assim quando eu entrei.", "Já estava assim quando eu cheguei."],
-            explanation: "\"Já estava assim\" uses the imperfect for a past state. \"Entrar\" is used for moving into a rented flat.",
+            explanation: "\"Já estava assim\" uses the imperfect for a past state. \"Entrar\" is used for moving into a rented apartment.",
           },
           {
             type: "fill-blank",
@@ -1844,12 +1843,12 @@ export const PT_C1_U16: Lesson[] = [
       {
         heading: "Part 2: The disputed items",
         body: [
-          "Three items are in dispute. The paint: the contract says the flat must be returned \"pintado\", so Rafael accepts that one. A broken bathroom cabinet door: his fault, he admits it. And a damp patch in the bedroom, caused by an \"infiltração\" from the building's façade, which he reported in writing two years ago.",
+          "Three items are in dispute. The paint: the contract says the apartment must be returned \"pintado\", so Rafael accepts that one. A broken bathroom cabinet door: his fault, he admits it. And a damp patch in the bedroom, caused by an \"infiltração\" from the building's façade, which he reported in writing two years ago.",
           "Admitting what is fair gives you credibility for what isn't: \"A porta do armário fui eu que quebrei, eu arco com isso.\" \"Arcar com\" (to bear the cost of) is the neutral verb you met in Unit 15.",
           "For the damp, Rafael uses the record and reported speech: \"Eu avisei a senhora por e-mail em março de 2022, e a senhora me respondeu que o condomínio ia resolver.\" Then a clear conclusion: \"Por isso, não acho justo que esse reparo seja descontado da caução.\"",
         ],
         examples: [
-          { es: "Dona Célia: Pelo contrato, o apartamento tem que ser devolvido pintado.", en: "Under the contract, the flat has to be returned freshly painted." },
+          { es: "Dona Célia: Pelo contrato, o apartamento tem que ser devolvido pintado.", en: "Under the contract, the apartment has to be returned freshly painted." },
           { es: "Rafael: Tem razão, a pintura fica por minha conta.", en: "You're right, the painting is on me." },
           { es: "Rafael: A porta do armário fui eu que quebrei, eu arco com isso.", en: "I'm the one who broke the cabinet door, I'll cover that." },
           { es: "Rafael: Eu avisei a senhora da infiltração por e-mail em março de 2022.", en: "I told you about the damp by email in March 2022." },
@@ -2084,7 +2083,7 @@ export const PT_C1_U16: Lesson[] = [
               "Meu pedido atrasou, mas tudo bem, sem pressa.",
             ],
             correctIndex: 0,
-            explanation: "Fact with a number, precise request, deadline. The others insult, apologise too much or give up.",
+            explanation: "Fact with a number, precise request, deadline. The others insult, apologize too much or give up.",
           },
           {
             type: "translate",
@@ -2154,11 +2153,11 @@ export const PT_C1_U16: Lesson[] = [
         body: [
           "At a public office (a \"cartório\", the Receita Federal, the Polícia Federal for visas), the clerk applies rules they didn't write. Ask for guidance: \"O senhor poderia me orientar sobre o procedimento?\", \"Qual seria o caminho para resolver isso?\". \"Orientar\" (to advise, guide) is the key verb.",
           "If the answer seems wrong, ask for the basis, not for an exception: \"O senhor poderia me indicar em que norma está essa exigência?\" (Could you tell me which regulation requires this?). It is firm, precise and hard to refuse.",
-          "Too soft here is \"Será que o senhor não poderia dar um jeitinho?\" The \"jeitinho\", bending a rule as a favour, may work with a friend, but asking an official for one can sound like an invitation to break the rules.",
+          "Too soft here is \"Será que o senhor não poderia dar um jeitinho?\" The \"jeitinho\", bending a rule as a favor, may work with a friend, but asking an official for one can sound like an invitation to break the rules.",
         ],
         examples: [
           { es: "O senhor poderia me orientar sobre o procedimento?", en: "Could you advise me on the procedure?" },
-          { es: "Qual seria o caminho para regularizar a minha situação?", en: "What would be the way to regularise my situation?" },
+          { es: "Qual seria o caminho para regularizar a minha situação?", en: "What would be the way to regularize my situation?" },
           { es: "A senhora poderia me indicar em que norma está essa exigência?", en: "Could you tell me which regulation this requirement is in?" },
           { es: "Se faltar algum documento, eu volto amanhã com ele.", en: "If any document is missing, I'll come back with it tomorrow." },
           { es: "Será que o senhor não poderia dar um jeitinho?", en: "Couldn't you find a little way round it? (too soft, and risky)" },
@@ -2314,15 +2313,15 @@ export const PT_C1_U16: Lesson[] = [
         heading: "Denúncia, reclamação or queixa?",
         body: [
           "These sentences were written by advanced learners under stress. Each has one mistake. The first group uses the wrong word for complaint, and Portuguese has three that don't overlap.",
-          "A \"reclamação\" is a consumer complaint to a company, Procon or the ANS: \"registrei uma reclamação no Procon\". A \"denúncia\" reports wrongdoing or a crime to the authorities, often anonymously: \"fiz uma denúncia de maus-tratos\". So \"*fiz uma denúncia no Procon porque a geladeira chegou quebrada\" sounds as if the shop committed a crime.",
+          "A \"reclamação\" is a consumer complaint to a company, Procon or the ANS: \"registrei uma reclamação no Procon\". A \"denúncia\" reports wrongdoing or a crime to the authorities, often anonymously: \"fiz uma denúncia de maus-tratos\". So \"*fiz uma denúncia no Procon porque a geladeira chegou quebrada\" sounds as if the store committed a crime.",
           "\"Queixa\" is a grievance in general (\"a principal queixa dos moradores é o barulho\") and, in \"prestar queixa\", a complaint to the police: \"prestei queixa na delegacia\". In medicine, \"a queixa\" is the patient's symptom.",
         ],
         examples: [
-          { es: "Registrei uma reclamação no Procon contra a loja.", en: "I filed a complaint against the shop with Procon." },
+          { es: "Registrei uma reclamação no Procon contra a loja.", en: "I filed a complaint against the store with Procon." },
           { es: "Fiz uma denúncia anônima de maus-tratos a animais.", en: "I made an anonymous report of animal cruelty." },
-          { es: "Ela prestou queixa na delegacia contra o vizinho.", en: "She filed a complaint against her neighbour with the police." },
+          { es: "Ela prestou queixa na delegacia contra o vizinho.", en: "She filed a complaint against her neighbor with the police." },
           { es: "A principal queixa dos moradores é o barulho da obra.", en: "The residents' main complaint is the building-site noise." },
-          { es: "Qual é a sua queixa, senhora?", en: "What's the problem, madam? (a doctor asking about symptoms)" },
+          { es: "Qual é a sua queixa, senhora?", en: "What seems to be the problem, ma'am? (a doctor asking about symptoms)" },
         ],
         checkpoint: [
           {
@@ -2358,9 +2357,9 @@ export const PT_C1_U16: Lesson[] = [
         ],
         examples: [
           { es: "Prezados, escrevo para registrar uma reclamação sobre o pedido nº 8812.", en: "Dear Sir or Madam, I'm writing to file a complaint about order no. 8812." },
-          { es: "Liguei na terça-feira, 14 de maio, por volta das 15h.", en: "I called on Tuesday 14 May, at around 3 p.m." },
+          { es: "Liguei na terça-feira, 14 de maio, por volta das 15h.", en: "I called on Tuesday, May 14, at around 3 p.m." },
           { es: "Aguardo uma solução há 23 dias.", en: "I've been waiting 23 days for a solution." },
-          { es: "Entrei em contato em 3, 5 e 9 de maio, sem solução.", en: "I got in touch on 3, 5 and 9 May, with no solution." },
+          { es: "Entrei em contato em 3, 5 e 9 de maio, sem solução.", en: "I got in touch on May 3, 5 and 9, with no solution." },
           { es: "Os protocolos dos atendimentos são 4471, 4502 e 4630.", en: "The call protocol numbers are 4471, 4502 and 4630." },
         ],
         checkpoint: [
@@ -2376,7 +2375,7 @@ export const PT_C1_U16: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "I called [on Monday 6 May, at around 10 a.m.]",
+            en: "I called [on Monday, May 6, at around 10 a.m.]",
             sentence: "Liguei ___.",
             answer: "na segunda-feira, 6 de maio, por volta das 10h",
             altAnswers: ["na segunda-feira, dia 6 de maio, por volta das 10h", "na segunda, 6 de maio, por volta das 10h", "na segunda-feira, 6 de maio, por volta das dez horas"],
@@ -2490,7 +2489,7 @@ export const PT_C1_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "A learner wrote \"Já liguei um monte de vezes.\" Rewrite it precisely.",
-        source: "I called on 2, 4 and 7 June, protocol numbers 1180, 1215 and 1290.",
+        source: "I called on June 2, 4 and 7, protocol numbers 1180, 1215 and 1290.",
         answer: "Liguei em 2, 4 e 7 de junho, protocolos 1180, 1215 e 1290.",
         altAnswers: [
           "Liguei nos dias 2, 4 e 7 de junho, protocolos 1180, 1215 e 1290.",
@@ -2535,7 +2534,7 @@ export const PT_C1_U16: Lesson[] = [
       {
         type: "dictation",
         audio: "Tenho o direito de cancelar a compra em sete dias.",
-        explanation: "\"O direito de\" + infinitive. Online purchases can be cancelled within seven days under the CDC.",
+        explanation: "\"O direito de\" + infinitive. Online purchases can be canceled within seven days under the CDC.",
       },
       {
         type: "speak",
@@ -2557,13 +2556,13 @@ export const PT_C1_U16: Lesson[] = [
       {
         heading: "Step 1: Put the facts in order",
         body: [
-          "Your mission: Ana Paula Ribeiro, in Curitiba, has been hit by the \"golpe da falsa central\". On 18 September at 10.30 a.m. she got a call from a number that looked like her bank's. A man said her account had \"movimentações suspeitas\" and told her to move her balance to a \"conta segura\" by Pix. At 10.47 she sent R$ 3.200,00 to a key in the name of \"J. S. Comércio Ltda.\". At 11.15 she called the real bank.",
+          "Your mission: Ana Paula Ribeiro, in Curitiba, has been hit by the \"golpe da falsa central\". On September 18 at 10:30 a.m. she got a call from a number that looked like her bank's. A man said her account had \"movimentações suspeitas\" and told her to move her balance to a \"conta segura\" by Pix. At 10.47 she sent R$ 3.200,00 to a key in the name of \"J. S. Comércio Ltda.\". At 11.15 she called the real bank.",
           "Before writing, list the facts as a timeline: date, each time, what was said, what she did, the amount, the key and the account holder's name. These are what the police and the bank will look for.",
           "Note the reporting verbs you'll need: \"o homem se identificou como\", \"afirmou que\", \"me orientou a\" (told me to), \"me pediu que\" + subjunctive.",
         ],
         examples: [
-          { es: "No dia 18 de setembro, por volta das 10h30, recebi uma ligação.", en: "On 18 September, at around 10.30 a.m., I received a call." },
-          { es: "O número parecia ser da central do meu banco.", en: "The number appeared to be my bank's call centre." },
+          { es: "No dia 18 de setembro, por volta das 10h30, recebi uma ligação.", en: "On September 18, at around 10:30 a.m., I received a call." },
+          { es: "O número parecia ser da central do meu banco.", en: "The number appeared to be my bank's call center." },
           { es: "O homem se identificou como funcionário do setor de segurança.", en: "The man introduced himself as an employee of the security department." },
           { es: "Ele afirmou que havia movimentações suspeitas na minha conta.", en: "He stated that there was suspicious activity on my account." },
           { es: "Ele me orientou a transferir o saldo para uma conta segura.", en: "He told me to transfer my balance to a safe account." },
@@ -2603,8 +2602,8 @@ export const PT_C1_U16: Lesson[] = [
           "Close with what you've already done and the standard formula: \"Informo ainda que já solicitei ao banco o acionamento do MED (protocolo nº...). Registro a presente ocorrência para as providências cabíveis.\"",
         ],
         examples: [
-          { es: "Na data de 18/09/2025, por volta das 10h30, recebi uma ligação do número (41) 3003-0000.", en: "On 18/09/2025, at around 10.30 a.m., I received a call from (41) 3003-0000." },
-          { es: "Às 10h47, realizei uma transferência via Pix no valor de R$ 3.200,00.", en: "At 10.47 a.m., I made a Pix transfer of R$ 3,200.00." },
+          { es: "Na data de 18/09/2025, por volta das 10h30, recebi uma ligação do número (41) 3003-0000.", en: "On September 18, 2025, at around 10:30 a.m., I received a call from (41) 3003-0000." },
+          { es: "Às 10h47, realizei uma transferência via Pix no valor de R$ 3.200,00.", en: "At 10:47 a.m., I made a Pix transfer of R$ 3,200.00." },
           { es: "A chave Pix estava em nome de J. S. Comércio Ltda.", en: "The Pix key was in the name of J. S. Comércio Ltda." },
           { es: "Ao entrar em contato com o banco, fui informada de que se tratava de um golpe.", en: "On contacting the bank, I was told it was a scam." },
           { es: "Registro a presente ocorrência para as providências cabíveis.", en: "I am filing this report so that the appropriate action can be taken." },
@@ -2614,7 +2613,7 @@ export const PT_C1_U16: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, for the BO.",
-            source: "At 10.47 a.m., I made a Pix transfer of R$ 3,200.00.",
+            source: "At 10:47 a.m., I made a Pix transfer of R$ 3,200.00.",
             answer: "Às 10h47, realizei uma transferência via Pix no valor de R$ 3.200,00.",
             altAnswers: [
               "Às 10h47, fiz uma transferência via Pix no valor de R$ 3.200,00.",
@@ -2652,7 +2651,7 @@ export const PT_C1_U16: Lesson[] = [
           "Attach the evidence and ask for confirmation: \"Segue em anexo o boletim de ocorrência nº... e o comprovante da transação. Peço que me informem o número de protocolo desta solicitação.\"",
         ],
         examples: [
-          { es: "Venho contestar a transação via Pix realizada em 18/09/2025.", en: "I'm writing to dispute the Pix transaction made on 18/09/2025." },
+          { es: "Venho contestar a transação via Pix realizada em 18/09/2025.", en: "I'm writing to dispute the Pix transaction made on September 18, 2025." },
           { es: "A transferência não foi feita por livre vontade, mas induzida por fraude.", en: "The transfer was not made of my own free will but induced by fraud." },
           { es: "Solicito o acionamento do MED e o bloqueio dos valores na conta recebedora.", en: "I request that the MED be triggered and the funds frozen in the receiving account." },
           { es: "Segue em anexo o boletim de ocorrência nº 2025/118734.", en: "Please find attached police report no. 2025/118734." },
@@ -2703,7 +2702,7 @@ export const PT_C1_U16: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The number [appeared to be] the bank's call centre.",
+        en: "The number [appeared to be] the bank's call center.",
         sentence: "O número ___ da central do banco.",
         answer: "parecia ser",
         altAnswers: ["aparentava ser", "parecia"],
@@ -2756,7 +2755,7 @@ export const PT_C1_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into formal Portuguese, to the bank.",
-        source: "I'm writing to dispute the Pix transaction made on 18 September.",
+        source: "I'm writing to dispute the Pix transaction made on September 18.",
         answer: "Venho contestar a transação via Pix realizada em 18 de setembro.",
         altAnswers: [
           "Venho, por meio deste, contestar a transação via Pix realizada em 18 de setembro.",
@@ -2809,7 +2808,7 @@ export const PT_C1_U16: Lesson[] = [
     level: "PT-C1",
     number: 12,
     title: "Spiral Review: Survival at C1",
-    summary: "Mixed practice of official register, reported speech and conditions in fresh crises: a cancelled flight, a wrong electricity bill, a garage that overcharges.",
+    summary: "Mixed practice of official register, reported speech and conditions in fresh crises: a canceled flight, a wrong electricity bill, a garage that overcharges.",
     duration: "16 min",
     sections: [
       {
@@ -2819,7 +2818,7 @@ export const PT_C1_U16: Lesson[] = [
           "In complaints, reporting what staff said is often your best evidence, so name who, when and where: \"a atendente do balcão da companhia, no dia 3, às 22h\".",
         ],
         examples: [
-          { es: "A atendente disse que o voo tinha sido cancelado por problemas técnicos.", en: "The attendant said the flight had been cancelled for technical reasons." },
+          { es: "A atendente disse que o voo tinha sido cancelado por problemas técnicos.", en: "The attendant said the flight had been canceled for technical reasons." },
           { es: "Me garantiram que eu seria reacomodado no voo seguinte.", en: "They assured me I would be put on the next flight." },
           { es: "O mecânico disse que o conserto ia custar oitocentos reais.", en: "The mechanic said the repair was going to cost eight hundred reais." },
           { es: "Na concessionária, me pediram que eu enviasse uma foto do medidor.", en: "At the electricity company, they asked me to send a photo of the meter." },
@@ -2863,7 +2862,7 @@ export const PT_C1_U16: Lesson[] = [
           { es: "Caso o voo não seja remarcado hoje, solicito o reembolso integral.", en: "Should the flight not be rebooked today, I request a full refund." },
           { es: "Não havendo acordo, a questão será levada ao Juizado.", en: "Failing an agreement, the matter will be taken to the small claims court." },
           { es: "Aceito o conserto, desde que o valor seja o do orçamento.", en: "I accept the repair, provided the price is the one quoted." },
-          { es: "Se até sexta eu não tiver resposta, volto à loja com o laudo.", en: "If I don't have a reply by Friday, I'll go back to the shop with the report." },
+          { es: "Se até sexta eu não tiver resposta, volto à loja com o laudo.", en: "If I don't have a reply by Friday, I'll go back to the store with the report." },
         ],
         checkpoint: [
           {
@@ -2994,7 +2993,7 @@ export const PT_C1_U16: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your flight has been cancelled and the airline offers a flight in three days. Which reply fits?",
+        question: "Your flight has been canceled and the airline offers a flight in three days. Which reply fits?",
         options: [
           "Aceito a remarcação, desde que a companhia preste assistência com hotel e alimentação até lá.",
           "Aceito, desde que a companhia presta assistência até lá.",

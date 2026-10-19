@@ -44,7 +44,7 @@ export const FR_A1_S04_STORIES: Story[] = [
     subtitle: `Every night, someone plays the piano in Élise's building in Dijon. She isn't happy about it, at first.`,
     paragraphs: [
       `Élise habite dans un vieil immeuble à Dijon. Elle est comptable et elle travaille beaucoup. Le soir, elle veut du calme.`,
-      `Mais tous les soirs, à dix heures, quelqu'un joue du piano. La musique vient de l'appartement du dessus. Élise ne dort pas. Elle est fâchée.`,
+      `Mais tous les soirs, à onze heures, quelqu'un joue du piano. La musique vient de l'appartement du dessus. Élise ne dort pas. Elle est fâchée.`,
       `Un soir, elle monte l'escalier et elle frappe à la porte. Un jeune homme ouvre. Il a les cheveux longs et un pull trop grand. « Bonsoir... Excusez-moi, le piano, c'est vous ? » demande Élise.`,
       `« Oui, je suis désolé ! Je m'appelle Victor. J'ai un concert samedi et je suis très stressé. » Élise regarde le piano. Il y a des partitions partout.`,
       `« D'accord, mais le soir, après vingt-deux heures, c'est non ! » dit Élise. Victor dit oui. Samedi, Élise va au concert. Victor joue très bien. Maintenant, elle aime le piano... avant vingt-deux heures !`,
@@ -54,7 +54,7 @@ export const FR_A1_S04_STORIES: Story[] = [
         question: `Why is Élise angry?`,
         options: [`Her neighbor plays the piano at night.`, `Her neighbor has a dog.`, `She has too much work.`, `Her building is old.`],
         correctIndex: 0,
-        explanation: `"Tous les soirs, à dix heures, quelqu'un joue du piano" and she can't sleep.`,
+        explanation: `"Tous les soirs, à onze heures, quelqu'un joue du piano" and she can't sleep.`,
       },
       {
         question: `Where does the music come from?`,
@@ -127,7 +127,7 @@ export const FR_A1_S04_STORIES: Story[] = [
       `Aujourd'hui, ils font une randonnée. Antoine a un grand sac à dos avec de l'eau, des fruits et du chocolat. Sarah a des baskets neuves.`,
       `Le chemin monte, monte, monte. Il fait chaud. Sarah a soif et elle a mal aux pieds. « Papa, c'est encore loin ? » « Non, encore une heure ! » répond Antoine.`,
       `Enfin, ils arrivent au sommet. Sarah regarde. En bas, il y a le lac d'Annecy, bleu et vert. Il y a des petits bateaux blancs et des villages. C'est très beau.`,
-      `Sarah prend son téléphone... mais elle ne regarde pas ses messages. Elle prend une photo du lac, puis une photo avec son père. « D'accord, papa. La montagne, c'est pas mal. »`,
+      `Sarah prend son téléphone... mais elle ne regarde pas ses messages. Elle prend une photo du lac, puis une photo avec son père. « D'accord, papa. La montagne, ce n'est pas mal. »`,
     ],
     questions: [
       {
@@ -201,7 +201,7 @@ export const FR_A1_S04_ENGLISH: Record<string, string[]> = {
   ],
   "fr-a1-le-voisin-musicien": [
     `Élise lives in an old building in Dijon. She is an accountant and she works a lot. In the evening, she wants peace and quiet.`,
-    `But every evening, at ten o'clock, someone plays the piano. The music comes from the apartment upstairs. Élise can't sleep. She is angry.`,
+    `But every evening, at eleven o'clock, someone plays the piano. The music comes from the apartment upstairs. Élise can't sleep. She is angry.`,
     `One evening, she goes up the stairs and knocks on the door. A young man opens it. He has long hair and a sweater that is too big. "Good evening... Excuse me, the piano, is that you?" asks Élise.`,
     `"Yes, I'm sorry! My name is Victor. I have a concert on Saturday and I'm very stressed." Élise looks at the piano. There is sheet music everywhere.`,
     `"OK, but in the evening, after ten p.m., it's a no!" says Élise. Victor says yes. On Saturday, Élise goes to the concert. Victor plays very well. Now she likes the piano... before ten p.m.!`,

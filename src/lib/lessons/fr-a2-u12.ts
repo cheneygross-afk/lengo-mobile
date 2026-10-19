@@ -69,7 +69,7 @@ export const FR_A2_U12: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "A friend asks: Tu vas au cinéma ce soir ? You are. What do you answer?",
+            question: "A friend asks: \"Tu vas au cinéma ce soir ?\" You are. What do you answer?",
             options: ["Oui, j'y vais.", "Oui, je vais.", "Oui, je vais y.", "Oui, j'en vais."],
             correctIndex: 0,
             explanation: "\"Aller\" needs a destination: \"j'y vais\". \"Je vais\" alone is incomplete.",
@@ -177,7 +177,7 @@ export const FR_A2_U12: Lesson[] = [
         sentence: "Vous êtes chez Emma ? Oui, ___.",
         answer: "nous y sommes",
         altAnswers: ["on y est"],
-        explanation: "\"Y\" replaces \"chez Léa\".",
+        explanation: "\"Y\" replaces \"chez Emma\": \"nous y sommes\" (or \"on y est\").",
       },
       {
         type: "word-order",
@@ -188,7 +188,7 @@ export const FR_A2_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your colleague asks: Vous allez à la réunion ? Which reply is natural?",
+        question: "Your colleague asks: \"Vous allez à la réunion ?\" Which reply is natural?",
         options: ["Oui, j'y vais.", "Oui, je vais.", "Oui, je vais là.", "Oui, j'y vais à la réunion là."],
         correctIndex: 0,
         explanation: "\"Y\" replaces the known place; \"je vais\" alone is incomplete.",
@@ -395,7 +395,7 @@ export const FR_A2_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence replaces 'dans le salon' correctly in: Les invités sont dans le salon?",
+        question: "Which sentence correctly replaces \"dans le salon\" in \"Les invités sont dans le salon.\"?",
         options: ["Les invités y sont.", "Les invités sont y.", "Les invités le sont.", "Les invités lui sont."],
         correctIndex: 0,
         explanation: "\"Y\" before the verb.",
@@ -480,7 +480,7 @@ export const FR_A2_U12: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Your friend asks: Tu penses à ton frère ? How do you say: Yes, I think about him?",
+            question: "Your friend asks: \"Tu penses à ton frère ?\" How do you say 'Yes, I think about him'?",
             options: ["Oui, je pense à lui.", "Oui, j'y pense.", "Oui, je lui pense.", "Oui, je le pense."],
             correctIndex: 0,
             explanation: "A person after \"penser à\": \"à lui\". \"Y\" is only for things.",
@@ -1462,7 +1462,7 @@ export const FR_A2_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Antoine asks: Tu veux aller à Honfleur ? You do. What's natural?",
+        question: "Antoine asks: \"Tu veux aller à Honfleur ?\" You do. What's natural?",
         options: ["Oui, je veux y aller !", "Oui, j'y veux aller !", "Oui, je veux aller !", "Oui, je veux aller y !"],
         correctIndex: 0,
         explanation: "\"Y\" before the infinitive: \"y aller\".",
@@ -1534,7 +1534,7 @@ export const FR_A2_U12: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Max was thinking about his exam. Which fits: Il ___ pensait tout le temps?",
+            question: "Max was thinking about his exam. Which fits \"Il ___ pensait tout le temps.\"?",
             options: ["y", "lui", "à lui", "le"],
             correctIndex: 0,
             explanation: "\"Penser à\" + thing → \"y\".",
@@ -1668,7 +1668,7 @@ export const FR_A2_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which pronoun completes: Ses parents ? Elle ___ a écrit une carte.",
+        question: "Which pronoun completes \"Ses parents ? Elle ___ a écrit une carte.\"?",
         options: ["leur", "y", "les", "à eux"],
         correctIndex: 0,
         explanation: "\"Écrire à\" + people → \"leur\".",

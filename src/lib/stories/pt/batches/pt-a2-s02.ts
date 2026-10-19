@@ -65,7 +65,7 @@ export const PT_A2_S02_STORIES: Story[] = [
       },
       {
         question: `Why couldn't Rayane dance in the competition?`,
-        options: [`She moved to another city.`, `She broke her foot in a motorbike fall.`, `She found another partner.`, `She was ill.`],
+        options: [`She moved to another city.`, `She broke her foot in a motorcycle accident.`, `She found another partner.`, `She was sick.`],
         correctIndex: 1,
         explanation: `"Rayane caiu da moto e quebrou o pé."`,
       },
@@ -92,7 +92,7 @@ export const PT_A2_S02_STORIES: Story[] = [
       `Roberto era gerente de um banco na Avenida Paulista e nunca tinha tempo para nada. Ele trabalhava doze horas por dia, almoçava na frente do computador e respondia e-mails até no elevador. Numa quinta-feira de fevereiro, às quatro da tarde, ele saiu do escritório para uma reunião importante com um cliente.`,
       `No meio do caminho, o céu ficou preto. Em cinco minutos, caiu a maior chuva do verão. As ruas viraram rios, os carros pararam, e Roberto correu para a primeira porta aberta: uma padaria pequena e antiga, com cheiro de café e pão quente.`,
       `Ele tentou ligar para o cliente, mas o celular estava molhado e não funcionou mais. Roberto ficou nervoso. “Calma, moço”, disse o padeiro, um senhor baixinho chamado seu Hélio. “Com essa chuva, ninguém vai a lugar nenhum. Senta aí. Quer um café?”`,
-      `Roberto sentou no balcão. Seu Hélio contou que a padaria era do pai dele e tinha cinquenta anos. Ele mostrou fotos antigas da rua, sem prédios, com bonde. Roberto contou que, quando era jovem, queria ser músico e tocava violão. Ele não falava disso com ninguém havia vinte anos.`,
+      `Roberto sentou num banquinho, perto do balcão. Seu Hélio contou que a padaria era do pai dele e tinha cinquenta anos. Ele mostrou fotos antigas da rua, sem prédios, com bonde. Roberto contou que, quando era jovem, queria ser músico e tocava violão. Ele não falava disso com ninguém havia vinte anos.`,
       `A chuva parou às sete da noite. Roberto olhou para o relógio e percebeu uma coisa estranha: em três horas, ele não pensou no trabalho nem uma vez. No dia seguinte, o cliente ligou. A reunião também foi cancelada por causa da chuva, e ninguém ficou bravo.`,
       `Hoje, toda quinta-feira, às quatro da tarde, Roberto sai do escritório e vai à padaria do seu Hélio. Ele toma um café, come um pão na chapa e, às vezes, leva o violão. Seu Hélio diz que ele é o único cliente que paga o café com música.`,
     ],
@@ -117,7 +117,7 @@ export const PT_A2_S02_STORIES: Story[] = [
       },
       {
         question: `What happened to the important meeting?`,
-        options: [`The client was very angry.`, `It was cancelled because of the rain too.`, `Roberto lost his job.`, `It happened at the bakery.`],
+        options: [`The client was very angry.`, `It was canceled because of the rain too.`, `Roberto lost his job.`, `It happened at the bakery.`],
         correctIndex: 1,
         explanation: `"A reunião também foi cancelada por causa da chuva, e ninguém ficou bravo."`,
       },
@@ -174,7 +174,7 @@ export const PT_A2_S02_STORIES: Story[] = [
       `Naquela semana, ela mostrou a foto para todo mundo. “Ela é igualzinha a você!”, disse o namorado. “Parece você numa festa à fantasia”, disse uma colega de trabalho. Ana não conseguia parar de olhar aquele sorriso.`,
       `No sábado, ela foi almoçar na casa da avó, dona Lourdes, que tem oitenta e quatro anos. Depois da sobremesa, Ana tirou a foto da bolsa. “Vó, olha que engraçado. Achei esta foto na feira.” A avó colocou os óculos, olhou a foto e ficou em silêncio por muito tempo. Os olhos dela se encheram de lágrimas.`,
       `“Essa moça sou eu”, ela disse baixinho. “Essa é a Igreja do Bonfim. O seu avô tirou esta foto no dia em que me pediu em casamento. Depois, eu dei a foto para ele, e ele a guardava sempre na carteira. Quando ele morreu, a carteira desapareceu, e eu pensei que a foto estava perdida para sempre.”`,
-      `Ninguém sabe como a foto chegou àquela caixa, numa feira de São Paulo, sessenta anos depois. Hoje, ela está num porta-retratos na sala da avó. E, todo domingo, Ana ainda olha as caixas de fotos da feira, com um pouco mais de atenção.`,
+      `Ninguém sabe como a foto chegou àquela feira de São Paulo, mais de sessenta anos depois. Hoje, ela está num porta-retratos na sala da avó. E, todo domingo, Ana ainda olha as caixas de fotos da feira, com um pouco mais de atenção.`,
     ],
     questions: [
       {
@@ -242,7 +242,7 @@ export const PT_A2_S02_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "o padeiro", en: "baker", forms: ["padeiro"] },
     { es: "baixinho", en: "short (person)", forms: ["baixinho"] },
     { es: "o balcão", en: "counter", forms: ["balcão"] },
-    { es: "o bonde", en: "tram, streetcar", forms: ["bonde"] },
+    { es: "o bonde", en: "streetcar, trolley", forms: ["bonde"] },
     { es: "o violão", en: "acoustic guitar", forms: ["violão"] },
     { es: "perceber", en: "to notice, to realize", forms: ["percebeu"] },
     { es: "cancelar", en: "to cancel", forms: ["cancelada"] },
@@ -258,7 +258,7 @@ export const PT_A2_S02_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "a sala de espera", en: "waiting room", forms: ["espera"] },
     { es: "pálido", en: "pale", forms: ["pálido"] },
     { es: "apertado", en: "tight", forms: ["apertado"] },
-    { es: "devolver", en: "to return (something to a shop)", forms: ["devolva", "devolver"] },
+    { es: "devolver", en: "to return (something to a store)", forms: ["devolva", "devolver"] },
     { es: "envergonhado", en: "embarrassed", forms: ["envergonhado"] },
     { es: "a nota fiscal", en: "receipt", forms: ["fiscal"] },
   ],

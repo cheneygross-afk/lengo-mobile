@@ -284,7 +284,7 @@ export const FR_C1_U08: Lesson[] = [
       {
         heading: "En avoir assez, n'avoir qu'à",
         body: [
-          "\"En avoir assez (de)\" = to be fed up (with): \"j'en ai assez de ce bruit\", \"j'en ai assez d'attendre\". Familiar: \"en avoir marre\", \"en avoir ras le bol\". The \"en\" is fixed and stays even with a \"de\" complement in speech.",
+          "\"En avoir assez (de)\" = to be fed up (with): \"j'en ai assez de ce bruit\", \"j'en ai assez d'attendre\". Familiar: \"en avoir marre\", \"en avoir ras le bol\". The \"en\" is part of the expression and stays even when a \"de\" complement follows.",
           "\"N'avoir qu'à\" + infinitive = to only have to, just: \"tu n'as qu'à demander\" (just ask, all you have to do is ask). It's often a suggestion, sometimes impatient: \"t'as qu'à le faire toi-même !\" (well, do it yourself then!). \"Il n'y a qu'à\" (\"y'a qu'à\" in speech) mocks easy solutions: \"y'a qu'à, faut qu'on\" is a French expression for armchair advice.",
           "\"En avoir pour\" + time or money = to take, to cost: \"j'en ai pour cinq minutes\" (I'll be five minutes), \"vous en avez pour 200 euros\" (it'll cost you 200 euros).",
         ],
@@ -1089,7 +1089,7 @@ export const FR_C1_U08: Lesson[] = [
       {
         heading: "Age, sensations and weather",
         body: [
-          "English describes age, physical sensations and weather with 'be'. French uses \"avoir\" for age and bodily sensations, and impersonal \"faire\" for weather. Even advanced speakers relapse under pressure: *\"je suis froid\" does not mean 'I'm cold' but, at best, 'I am a cold person' — and in some contexts it can sound like 'I'm dead'.",
+          "English describes age, physical sensations and weather with 'be'. French uses \"avoir\" for age and bodily sensations, and impersonal \"faire\" for weather. Even advanced speakers relapse under pressure: *\"je suis froid\" does not mean 'I'm cold' but, at best, 'I am a cold person'.",
           "The \"avoir\" family: \"avoir 30 ans\", \"avoir froid / chaud\", \"avoir faim / soif\", \"avoir sommeil\", \"avoir peur\", \"avoir raison / tort\", \"avoir honte\", \"avoir de la chance\". The \"faire\" family: \"il fait chaud / froid / beau / doux / lourd / nuit / jour\".",
           "\"Être\" is not entirely absent: \"Ses mains sont froides\" describes an object's temperature, and \"Il est tard\" or \"Il est midi\" give the time.",
         ],
@@ -1105,7 +1105,7 @@ export const FR_C1_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the error: *Je suis trente ans. Translate 'I'm thirty.'",
+            prompt: "Fix the error in \"*Je suis trente ans\" and write the corrected French.",
             source: "I'm thirty.",
             answer: "J'ai trente ans.",
             altAnswers: ["J'ai 30 ans."],
@@ -1183,7 +1183,7 @@ export const FR_C1_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the error: *Je suis fini. Translate 'I'm done.'",
+            prompt: "Fix the error in \"*Je suis fini\" and write the corrected French.",
             source: "I'm done.",
             answer: "J'ai fini.",
             altAnswers: ["J'ai terminé."],
@@ -1261,7 +1261,7 @@ export const FR_C1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which reply means 'I'm good, thanks' after 'Ça va ?'",
+        question: "Which reply means 'I'm good, thanks' after \"Ça va ?\"",
         options: ["Je suis bon, merci.", "Ça va bien, merci.", "Je suis bien, merci.", "J'ai bien, merci."],
         correctIndex: 1,
         explanation: "\"Ça va (bien)\" or \"je vais bien\". \"Je suis bon\" describes skill.",
@@ -1276,7 +1276,7 @@ export const FR_C1_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error: *Il est grand de 1,80 m. Translate 'He is 1.80 m tall.'",
+        prompt: "Fix the error in \"*Il est grand de 1,80 m\" and write the corrected French.",
         source: "He is 1.80 m tall.",
         answer: "Il mesure 1,80 m.",
         altAnswers: ["Il fait 1,80 m.", "Il mesure un mètre quatre-vingts.", "Il fait un mètre quatre-vingts."],
@@ -1488,7 +1488,7 @@ export const FR_C1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In 'Elle a demeuré vingt ans à Nantes', what does 'demeurer' mean?",
+        question: "In \"Elle a demeuré vingt ans à Nantes\", what does \"demeurer\" mean?",
         options: ["to live", "to remain silent", "to wait", "to die"],
         correctIndex: 0,
         explanation: "With \"avoir\", \"demeurer\" = reside.",
@@ -1556,7 +1556,7 @@ export const FR_C1_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French in a literary style, with 'il est'.",
+            prompt: "Translate into French in a literary style, with \"il est\".",
             source: "There are times when it is better to keep quiet.",
             answer: "Il est des moments où il vaut mieux se taire.",
             altAnswers: ["Il est des moments où mieux vaut se taire."],
@@ -1564,7 +1564,7 @@ export const FR_C1_U08: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Where does 'Il est des gens qui ne changent jamais' sound most natural?",
+            question: "Where does \"Il est des gens qui ne changent jamais\" sound most natural?",
             options: ["In an essay or speech", "In a text message to a friend", "In a shop", "On a train announcement"],
             correctIndex: 0,
             explanation: "Literary register.",
@@ -1630,7 +1630,7 @@ export const FR_C1_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French, with 'voilà'.",
+            prompt: "Translate into French, with \"voilà\".",
             source: "I've been waiting for two hours!",
             answer: "Voilà deux heures que j'attends !",
             explanation: "Expressive \"voilà... que\" + present.",
@@ -1658,7 +1658,7 @@ export const FR_C1_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French in a literary style, with 'il est'.",
+        prompt: "Translate into French in a literary style, with \"il est\".",
         source: "There are people who doubt nothing.",
         answer: "Il est des gens qui ne doutent de rien.",
         explanation: "Literary \"il est des\".",
@@ -1674,7 +1674,7 @@ export const FR_C1_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French, with 'voilà'.",
+        prompt: "Translate into French, with \"voilà\".",
         source: "They've known each other for ten years now.",
         answer: "Voilà dix ans qu'ils se connaissent.",
         altAnswers: ["Voilà dix ans qu'elles se connaissent."],
@@ -1707,10 +1707,10 @@ export const FR_C1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which mood follows 'Ce n'est pas que'?",
-        options: ["Subjunctive", "Indicative", "Conditional", "Infinitive"],
+        question: "Which sentence is correct in careful French?",
+        options: ["Ce n'est pas que je sois fâché, c'est que je suis fatigué.", "Ce n'est pas que je suis fâché, c'est que je suis fatigué.", "Ce n'est pas que je serais fâché, c'est que je suis fatigué.", "Ce n'est pas que d'être fâché, c'est que je suis fatigué."],
         correctIndex: 0,
-        explanation: "\"Ce n'est pas que je sois fâché.\"",
+        explanation: "\"Ce n'est pas que\" sets aside an explanation, so it takes the subjunctive (\"je sois\"); the indicative is heard in casual speech but not in careful French. The real explanation after \"c'est que\" stays in the indicative.",
       },
       {
         type: "word-order",
@@ -1778,7 +1778,7 @@ export const FR_C1_U08: Lesson[] = [
             prompt: "Translate into French.",
             source: "That was a good thing you did.",
             answer: "C'est bien, ce que tu as fait.",
-            altAnswers: ["C'est bien ce que tu as fait.", "Ce que tu as fait, c'est bien.", "Tu as bien fait."],
+            altAnswers: ["Ce que tu as fait, c'est bien.", "Tu as bien fait."],
             explanation: "Moral approval: \"c'est bien\".",
           },
           {
@@ -1820,7 +1820,8 @@ export const FR_C1_U08: Lesson[] = [
             en: "The kitchen [smells of] fresh bread.",
             sentence: "La cuisine ___ le pain frais.",
             answer: "sent bon",
-            explanation: "\"Sentir bon\" + noun, with no \"de\".",
+            altAnswers: ["sent"],
+            explanation: "\"Sentir bon\" + noun, with no \"de\" (plain \"sent le pain frais\" is also fine).",
           },
           {
             type: "listen-choose",
@@ -1988,7 +1989,7 @@ export const FR_C1_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite with 'ça fait... que': Je travaille ici depuis cinq ans.",
+            prompt: "Translate into French (rewrite with \"ça fait... que\"): \"Je travaille ici depuis cinq ans.\"",
             source: "I've been working here for five years.",
             answer: "Ça fait cinq ans que je travaille ici.",
             explanation: "Same tense, spoken frame.",
@@ -1996,7 +1997,7 @@ export const FR_C1_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite with 'depuis': Ça fait des mois que je ne l'ai pas vue.",
+            prompt: "Translate into French (rewrite with \"depuis\"): \"Ça fait des mois que je ne l'ai pas vue.\"",
             source: "I haven't seen her for months.",
             answer: "Je ne l'ai pas vue depuis des mois.",
             explanation: "Negative + passé composé + \"depuis\".",
@@ -2021,7 +2022,7 @@ export const FR_C1_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite with 'en être à': Je suis en train de lire le chapitre 4.",
+            prompt: "Translate into French (rewrite with \"en être à\"): \"Je suis en train de lire le chapitre 4.\"",
             source: "I'm on chapter 4.",
             answer: "J'en suis au chapitre 4.",
             altAnswers: ["J'en suis au chapitre quatre.", "J'en suis au quatrième chapitre."],
@@ -2030,7 +2031,7 @@ export const FR_C1_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite with 'avoir lieu': Il y a eu une réunion hier.",
+            prompt: "Translate into French (rewrite with \"avoir lieu\"): \"Il y a eu une réunion hier.\"",
             source: "A meeting took place yesterday.",
             answer: "Une réunion a eu lieu hier.",
             explanation: "Formal transform of \"il y a\" for events.",
@@ -2063,7 +2064,7 @@ export const FR_C1_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite formally with 'appartenir': Ce terrain est à la commune.",
+            prompt: "Translate into French (rewrite formally with \"appartenir\"): \"Ce terrain est à la commune.\"",
             source: "This land belongs to the town.",
             answer: "Ce terrain appartient à la commune.",
             explanation: "\"Être à\" → \"appartenir à\".",
@@ -2083,7 +2084,7 @@ export const FR_C1_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with 'il y a... que': Je l'attends depuis une heure.",
+        prompt: "Translate into French (rewrite with \"il y a... que\"): \"Je l'attends depuis une heure.\"",
         source: "I've been waiting for him for an hour.",
         answer: "Il y a une heure que je l'attends.",
         altAnswers: ["Il y a une heure que je l'attends !"],
@@ -2092,7 +2093,7 @@ export const FR_C1_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with 'voilà': Ça fait dix ans qu'ils sont mariés.",
+        prompt: "Translate into French (rewrite with \"voilà\"): \"Ça fait dix ans qu'ils sont mariés.\"",
         source: "They've been married for ten years now.",
         answer: "Voilà dix ans qu'ils sont mariés.",
         explanation: "Expressive frame.",
@@ -2100,7 +2101,7 @@ export const FR_C1_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with 'en être à': Je suis en train de finir.",
+        prompt: "Translate into French (rewrite with \"en être à\"): \"Je suis en train de finir.\"",
         source: "I'm nearly at the end.",
         answer: "J'en suis à la fin.",
         explanation: "\"En être à la fin\".",
@@ -2108,7 +2109,7 @@ export const FR_C1_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with 'avoir lieu': Il y aura un concert sur la place.",
+        prompt: "Translate into French (rewrite with \"avoir lieu\"): \"Il y aura un concert sur la place.\"",
         source: "A concert will take place in the square.",
         answer: "Un concert aura lieu sur la place.",
         explanation: "Future of \"avoir lieu\".",
@@ -2116,7 +2117,7 @@ export const FR_C1_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with 'mesurer': Le salon fait trente mètres carrés.",
+        prompt: "Translate into French (rewrite with \"mesurer\"): \"Le salon fait trente mètres carrés.\"",
         source: "The living room measures thirty square metres.",
         answer: "Le salon mesure trente mètres carrés.",
         altAnswers: ["Le salon mesure 30 mètres carrés.", "Le salon mesure 30 m²."],
@@ -2125,7 +2126,7 @@ export const FR_C1_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with 'avoir du mal à': Je comprends difficilement son accent.",
+        prompt: "Translate into French (rewrite with \"avoir du mal à\"): \"Je comprends difficilement son accent.\"",
         source: "I have trouble understanding his accent.",
         answer: "J'ai du mal à comprendre son accent.",
         explanation: "Adverb → \"avoir du mal à\".",
@@ -2177,7 +2178,7 @@ export const FR_C1_U08: Lesson[] = [
       {
         type: "speak",
         text: "Ça fait trois ans que je vis à Rennes.",
-        prompt: "Say it in French, with 'ça fait': I've been living in Rennes for three years.",
+        prompt: "Say it in French, with \"ça fait\": I've been living in Rennes for three years.",
         explanation: "Spoken duration frame.",
       },
     ],
@@ -2586,7 +2587,7 @@ export const FR_C1_U08: Lesson[] = [
       {
         type: "speak",
         text: "Voilà une heure que je l'attends.",
-        prompt: "Say it in French, with 'voilà': I've been waiting for him for an hour.",
+        prompt: "Say it in French, with \"voilà\": I've been waiting for him for an hour.",
         explanation: "\"Voilà... que\" + present.",
       },
     ],
@@ -2603,7 +2604,7 @@ export const FR_C1_U08: Lesson[] = [
         heading: "The brief and the opening line",
         body: [
           "You work for an estate agency in Aix-en-Provence. Your client is selling a renovated 19th-century bastide: 180 m², four bedrooms, a 2,000 m² garden with olive trees, a pool, south-facing, ten minutes from the town centre. You must write the listing for the agency's website: attractive, precise, and in the polished register that buyers of such properties expect.",
-          "French listings open with \"il s'agit de\" or a nominal phrase: « Il s'agit d'une bastide du XIXe siècle entièrement rénovée, nichée au cœur d'un parc arboré. » Note that \"il s'agit de\" is always impersonal: never *« La maison s'agit d'une bastide ».",
+          "French listings open with \"il s'agit de\" or a nominal phrase: \"Il s'agit d'une bastide du XIXe siècle entièrement rénovée, nichée au cœur d'un parc arboré.\" Note that \"il s'agit de\" is always impersonal: never *\"La maison s'agit d'une bastide\".",
           "Key adjectives: \"de caractère\", \"de standing\" (upscale), \"lumineux\", \"spacieux\", \"au calme\", \"sans vis-à-vis\" (not overlooked).",
         ],
         examples: [
@@ -2636,8 +2637,8 @@ export const FR_C1_U08: Lesson[] = [
         heading: "Describing the property",
         body: [
           "The core verbs of this unit do most of the work. \"Être exposé plein sud\" (to face due south), \"être situé à\" + distance, \"avoir du cachet\" (to have character), \"avoir vue sur\" (to overlook), \"il fait bon y vivre\" (it is a pleasant place to live), \"faire\" + surface in speech but \"s'étendre sur\" or \"offrir\" in writing.",
-          "« La maison, exposée plein sud, a beaucoup de cachet : poutres apparentes, tomettes d'origine, cheminée en pierre. Elle offre quatre chambres, dont une suite parentale avec salle de bains privative. »",
-          "Avoid repetition of \"il y a\": the listing should use \"offrir\", \"comprendre\", \"disposer de\", \"bénéficier de\" instead — « La propriété bénéficie d'une piscine chauffée et dispose d'un garage double. »",
+          "\"La maison, exposée plein sud, a beaucoup de cachet : poutres apparentes, tomettes d'origine, cheminée en pierre. Elle offre quatre chambres, dont une suite parentale avec salle de bains privative.\"",
+          "Avoid repetition of \"il y a\": the listing should use \"offrir\", \"comprendre\", \"disposer de\", \"bénéficier de\" instead — \"La propriété bénéficie d'une piscine chauffée et dispose d'un garage double.\"",
         ],
         examples: [
           { es: "La maison, exposée plein sud, a beaucoup de cachet.", en: "The house faces due south and has a lot of character." },
@@ -2678,8 +2679,8 @@ export const FR_C1_U08: Lesson[] = [
       {
         heading: "The closing pitch",
         body: [
-          "The final lines sell a lifestyle, not square metres: « Dans ce cadre préservé où il fait bon vivre, vous profiterez du calme de la campagne à deux pas de la ville. Une rare opportunité à saisir. » Notice how \"il fait bon\" + infinitive, met earlier in the unit, appears naturally here.",
-          "Practical details come last, in a terse style: « Prix : 1 450 000 € (honoraires à la charge du vendeur). DPE : C. Visites sur rendez-vous. »",
+          "The final lines sell a lifestyle, not square metres: \"Dans ce cadre préservé où il fait bon vivre, vous profiterez du calme de la campagne à deux pas de la ville. Une rare opportunité à saisir.\" Notice how \"il fait bon\" + infinitive, met earlier in the unit, appears naturally here.",
+          "Practical details come last, in a terse style: \"Prix : 1 450 000 € (honoraires à la charge du vendeur). DPE : C. Visites sur rendez-vous.\"",
           "Final check of the unit's verbs: \"il s'agit de\", \"être exposé\", \"avoir du cachet\", \"avoir vue sur\", \"il fait bon\", plus a passive or two (\"entièrement rénovée\", \"a été pensée pour\").",
         ],
         examples: [
@@ -2772,7 +2773,7 @@ export const FR_C1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which phrase avoids a repetitive 'il y a' in a listing?",
+        question: "Which phrase avoids a repetitive \"il y a\" in a listing?",
         options: ["La propriété dispose d'un garage double.", "Il y a un garage double dans la propriété.", "La propriété est un garage double.", "La propriété fait un garage double."],
         correctIndex: 0,
         explanation: "\"Disposer de\" is the listing verb.",
@@ -2840,7 +2841,7 @@ export const FR_C1_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French, with 'se faire'.",
+            prompt: "Translate into French, with \"se faire\".",
             source: "He got fired without notice.",
             answer: "Il s'est fait licencier sans préavis.",
             altAnswers: ["Il s'est fait renvoyer sans préavis.", "Il s'est fait virer sans préavis."],
@@ -2849,7 +2850,7 @@ export const FR_C1_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French, with 'se voir'.",
+            prompt: "Translate into French, with \"se voir\".",
             source: "She was refused access to the room.",
             answer: "Elle s'est vu refuser l'accès à la salle.",
             explanation: "\"Se voir\" + infinitive (formal).",
@@ -2875,7 +2876,7 @@ export const FR_C1_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French, with impersonal 'il'.",
+            prompt: "Translate into French, with impersonal \"il\".",
             source: "Three signatures are still missing.",
             answer: "Il manque encore trois signatures.",
             explanation: "Impersonal verb stays singular.",
@@ -2901,7 +2902,7 @@ export const FR_C1_U08: Lesson[] = [
       {
         heading: "A short news item",
         body: [
-          "Read this local news item: it recombines the passive, impersonal constructions and core-verb idioms. « Un incendie s'est déclaré hier soir dans un entrepôt de la zone industrielle. Il n'y a pas eu de blessés, mais il a fallu évacuer une vingtaine de riverains. Les pompiers, arrivés sur les lieux en dix minutes, ont eu du mal à maîtriser les flammes. Il y a fort à parier que l'enquête, confiée à la gendarmerie, prendra plusieurs semaines. »",
+          "Read this local news item: it recombines the passive, impersonal constructions and core-verb idioms. \"Un incendie s'est déclaré hier soir dans un entrepôt de la zone industrielle. Il n'y a pas eu de blessés, mais il a fallu évacuer une vingtaine de riverains. Les pompiers, arrivés sur les lieux en dix minutes, ont eu du mal à maîtriser les flammes. Il y a fort à parier que l'enquête, confiée à la gendarmerie, prendra plusieurs semaines.\"",
           "Spot: pronominal \"se déclarer\" (to break out), impersonal \"il y a eu\" and \"il a fallu\", \"avoir du mal à\", passive participle \"confiée à\", and \"il y a fort à parier que\".",
         ],
         examples: [
@@ -2997,7 +2998,7 @@ export const FR_C1_U08: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
-        options: ["Il manque trois chaises.", "Il manquent trois chaises.", "Ils manquent trois chaises.", "Il y manque trois chaises."],
+        options: ["Il manque trois chaises.", "Il manquent trois chaises.", "Ils manquent trois chaises.", "Il manque de trois chaises."],
         correctIndex: 0,
         explanation: "Impersonal verb: singular.",
       },

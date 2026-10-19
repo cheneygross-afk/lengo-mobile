@@ -360,7 +360,7 @@ export const FR_B2_U13_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Léa asks: « Comment tu as appris le vocabulaire ? » What is the natural answer?",
+            question: "Léa asks: \"« Comment tu as appris le vocabulaire ? »\" What is the natural answer?",
             options: ["En lisant beaucoup.", "Pour lire beaucoup.", "Lisant beaucoup.", "En lire beaucoup."],
             correctIndex: 0,
             explanation: "A 'how' question → \"en\" + -ant.",
@@ -424,7 +424,7 @@ export const FR_B2_U13_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Tom: « J'ai appris en faisant des erreurs. » What does he mean?",
+        question: "Tom says: \"« J'ai appris en faisant des erreurs. »\" What does he mean?",
         options: ["I learned by making mistakes.", "I learned before making mistakes.", "I learned without making mistakes.", "I made mistakes while learning to teach."],
         correctIndex: 0,
         explanation: "\"En faisant\": the means.",
@@ -505,7 +505,7 @@ export const FR_B2_U13_EXTRA: Lesson[] = [
         examples: [
           { es: "C'est une réunion vraiment fatigante.", en: "It's a really tiring meeting." },
           { es: "Ses collègues, fatiguant tout le monde avec leurs plaintes, ont été mutés.", en: "His colleagues, who wore everyone out with their complaints, were transferred." },
-          { es: "Ce sont des élèves très brillants.", en: "They're very brilliant pupils." },
+          { es: "Ce sont des élèves très brillants.", en: "They're very bright pupils." },
           { es: "J'ai vu des étoiles brillant dans le ciel.", en: "I saw stars shining in the sky." },
           { es: "Le mois précédent, les prix avaient baissé.", en: "The previous month, prices had fallen." },
         ],
@@ -520,10 +520,10 @@ export const FR_B2_U13_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "'stars shining in the sky': which form?",
-            options: ["des étoiles brillant dans le ciel", "des étoiles brillantes dans le ciel", "des étoiles brillants dans le ciel", "des étoiles en brillant dans le ciel"],
+            question: "Which is correct for 'stars shining brightly in the sky'?",
+            options: ["des étoiles brillant intensément dans le ciel", "des étoiles brillantes intensément dans le ciel", "des étoiles brillants intensément dans le ciel", "des étoiles en brillant intensément dans le ciel"],
             correctIndex: 0,
-            explanation: "The action of shining, with a complement: invariable participle. (\"Brillantes\" would describe them as bright.)",
+            explanation: "An adverb follows it, so it is the action of shining: the invariable participle \"brillant\". The adjective \"brillantes\" (bright) can't take \"intensément\" after it, and \"en brillant\" would need a verb for the stars.",
           },
         ],
       },
@@ -734,7 +734,7 @@ export const FR_B2_U13_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Rewrite with a participle: « Comme elle ne savait pas l'adresse, elle a demandé son chemin. »",
+        question: "Rewrite with a participle: \"« Comme elle ne savait pas l'adresse, elle a demandé son chemin. »\"",
         options: ["Ne sachant pas l'adresse, elle a demandé son chemin.", "Ne savant pas l'adresse, elle a demandé son chemin.", "En ne sachante pas l'adresse, elle a demandé son chemin.", "Ne sachant pas l'adresse, on lui a indiqué le chemin."],
         correctIndex: 0,
         explanation: "\"Sachant\" (irregular), invariable, with the same subject as the main verb.",
@@ -1060,7 +1060,7 @@ export const FR_B2_U13_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Comment fais-tu pour ne jamais être en retard ? » Which answer is correct?",
+        question: "A friend asks: \"« Comment fais-tu pour ne jamais être en retard ? »\" Which answer is correct?",
         options: ["En partant toujours dix minutes plus tôt.", "En partir toujours dix minutes plus tôt.", "Pour partant dix minutes plus tôt.", "En partis toujours dix minutes plus tôt."],
         correctIndex: 0,
         explanation: "\"En\" + -ant: \"en partant\".",

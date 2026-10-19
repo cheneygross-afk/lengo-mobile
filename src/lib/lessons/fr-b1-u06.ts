@@ -1915,8 +1915,8 @@ export const FR_B1_U06: Lesson[] = [
       {
         heading: "Hear the mood",
         body: [
-          "In pairs like these, the verb is often the only clue. Train your ear on the six most frequent changes: fait / fasse, est / soit, a / ait (sounds the same!), peut / puisse, va / aille, sait / sache.",
-          "\"A\" and \"ait\" both sound [ɛ] or [a]-ish in fast speech, so with avoir you'll rely on the trigger. For the others, the difference is clear: listen for the extra consonant at the end (fasse, puisse, sache) or the [aj] of aille.",
+          "In pairs like these, the verb is often the only clue. Train your ear on the six most frequent changes: fait / fasse, est / soit, a / ait (very close!), peut / puisse, va / aille, sait / sache.",
+          "\"A\" [a] and \"ait\" [ɛ] differ only in the vowel and blur in fast speech, so with avoir you'll often rely on the trigger. For the others, the difference is clear: listen for the extra consonant at the end (fasse, puisse, sache) or the [aj] of aille.",
         ],
         examples: [
           { es: "C'est vrai qu'il peut venir. / C'est possible qu'il puisse venir.", en: "It's true he can come. / It's possible he can come." },

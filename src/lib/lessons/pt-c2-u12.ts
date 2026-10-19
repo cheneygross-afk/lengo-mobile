@@ -4,7 +4,7 @@ import type { Lesson, WriteExercise } from "./types";
 // Brazilian Portuguese C2 Unit 12: Prose Style of the Masters.
 // Written by hand to the authoring guide (docs/portuguese-course/authoring.md).
 // Short quotations only; longer passages "in the manner of" an author are
-// written for the course and labelled as such.
+// written for the course and labeled as such.
 export const PT_C2_U12: Lesson[] = [
   {
     slug: "c2-graciliano-economy",
@@ -18,7 +18,7 @@ export const PT_C2_U12: Lesson[] = [
       {
         heading: "The dry sentence",
         body: [
-          "\"Vidas Secas\" (1938) follows a family of \"retirantes\", migrants fleeing drought in the sertão of the Northeast: the cowhand Fabiano, his wife Sinha Vitória, two boys who have no names, and the dog Baleia. It opens: \"Na planície avermelhada os juazeiros alargavam duas manchas verdes. Os infelizes tinham caminhado o dia inteiro, estavam cansados e famintos.\" Two sentences, one colour, one tree, one fact. The landscape is barren and so is the syntax.",
+          "\"Vidas Secas\" (1938) follows a family of \"retirantes\", migrants fleeing drought in the sertão of the Northeast: the cowhand Fabiano, his wife Sinha Vitória, two boys who have no names, and the dog Baleia. It opens: \"Na planície avermelhada os juazeiros alargavam duas manchas verdes. Os infelizes tinham caminhado o dia inteiro, estavam cansados e famintos.\" Two sentences, two colors, one tree, one fact. The landscape is barren and so is the syntax.",
           "Graciliano's tools are few and deliberate. Clauses sit side by side (\"tinham caminhado..., estavam cansados e famintos\"), joined by commas or \"e\" rather than by \"porque\" or \"embora\". Critics call this \"parataxe\" (parataxis), the opposite of \"hipotaxe\", the subordinating style. Adjectives are rare and concrete: \"avermelhada\", \"secas\", never \"magnífico\" or \"terrível\". Verbs carry the weight, and most are verbs of action or perception.",
           "He explained his method with an image from Alagoas: write as the washerwomen wash, wringing the cloth until not a drop is left, \"porque a palavra não foi feita para enfeitar, brilhar como ouro falso; a palavra foi feita para dizer.\" English readers sometimes mistake this for plainness. It is compression: every word stays because it can't be removed.",
         ],
@@ -103,7 +103,7 @@ export const PT_C2_U12: Lesson[] = [
         heading: "Talking about Graciliano in Portuguese",
         body: [
           "Brazilian criticism has a ready vocabulary for this style. \"Frase enxuta\" (lean sentence) and \"economia verbal\" are praise. \"Despojado\" (stripped back) describes a style without ornament, and \"secura\" (dryness) is both the theme and the manner. Rubem Braga called \"Vidas Secas\" a \"romance desmontável\" (a novel that can be taken apart), because its chapters can be read on their own.",
-          "Graciliano's other novels use the same economy differently. In \"São Bernardo\" (1934) the brutal landowner Paulo Honório narrates in the first person, gruffly, apologising for writing badly. \"Angústia\" (1936) is the claustrophobic opposite, a mind spinning in circles. Describing style means pointing to features: \"o narrador usa períodos curtos\", \"há pouca subordinação\", \"o discurso indireto livre aproxima o leitor do personagem\".",
+          "Graciliano's other novels use the same economy differently. In \"São Bernardo\" (1934) the brutal landowner Paulo Honório narrates in the first person, gruffly, apologizing for writing badly. \"Angústia\" (1936) is the claustrophobic opposite, a mind spinning in circles. Describing style means pointing to features: \"o narrador usa períodos curtos\", \"há pouca subordinação\", \"o discurso indireto livre aproxima o leitor do personagem\".",
           "A common mistake is to describe the plot when asked about style. \"Fabiano sofre com a seca\" is content. \"A frase curta reproduz a aridez do sertão\" is style: it links a feature of the language to an effect.",
         ],
         examples: [
@@ -159,7 +159,7 @@ export const PT_C2_U12: Lesson[] = [
         source: "In São Bernardo, Paulo Honório narrates in the first person.",
         answer: "Em São Bernardo, Paulo Honório narra em primeira pessoa.",
         altAnswers: ["Em São Bernardo, o Paulo Honório narra em primeira pessoa.", "Em São Bernardo, quem narra em primeira pessoa é Paulo Honório.", "Em São Bernardo, Paulo Honório narra na primeira pessoa.", "Em São Bernardo, Paulo Honório conta a história em primeira pessoa."],
-        explanation: "\"Narrar em primeira pessoa\" takes no article in Brazilian criticism.",
+        explanation: "\"Narrar em primeira pessoa\", without the article, is the usual phrase in Brazilian criticism; \"na primeira pessoa\" is also correct.",
       },
       {
         type: "translate",
@@ -199,7 +199,7 @@ export const PT_C2_U12: Lesson[] = [
         question: "Which statement describes style rather than content?",
         options: ["Os períodos curtos imitam a respiração de quem caminha no sol.", "Fabiano trabalha numa fazenda.", "A família foge da seca.", "Baleia morre no capítulo nove."],
         correctIndex: 0,
-        explanation: "It links a linguistic feature (\"períodos curtos\") to an effect. The others summarise the plot.",
+        explanation: "It links a linguistic feature (\"períodos curtos\") to an effect. The others summarize the plot.",
       },
       {
         type: "multiple-choice",
@@ -218,7 +218,7 @@ export const PT_C2_U12: Lesson[] = [
         text: "Na planície avermelhada os juazeiros alargavam duas manchas verdes.",
         prompt: "Read the opening line of Vidas Secas aloud.",
         tip: "\"Juazeiros\" has four syllables: ju-a-ZEI-rus. Don't pause after \"avermelhada\": the sentence has no comma.",
-        explanation: "The famous first sentence: one colour, one tree, one image, with no decoration.",
+        explanation: "The famous first sentence: two colors, one tree, one image, with no decoration.",
       },
       {
         type: "translate",
@@ -275,7 +275,7 @@ export const PT_C2_U12: Lesson[] = [
             type: "listen-choose",
             audio: "Viver é muito perigoso.",
             question: "What does it mean?",
-            options: ["Living is very dangerous.", "Seeing is very dangerous.", "Travelling is very dangerous.", "Life is very short."],
+            options: ["Living is very dangerous.", "Seeing is very dangerous.", "Traveling is very dangerous.", "Life is very short."],
             correctIndex: 0,
             explanation: "Riobaldo's refrain, repeated throughout the novel, is one of the most quoted lines in Brazilian literature.",
           },
@@ -304,7 +304,7 @@ export const PT_C2_U12: Lesson[] = [
             source: "Rosa writes the speech of the sertão, but reinvents it.",
             answer: "Rosa escreve a fala do sertão, mas a reinventa.",
             altAnswers: ["Rosa escreve a fala do sertão, mas reinventa essa fala.", "Guimarães Rosa escreve a fala do sertão, mas a reinventa.", "Rosa escreve a fala do sertão, mas reinventa ela.", "Rosa escreve a fala sertaneja, mas a reinventa."],
-            explanation: "In writing about literature, the object pronoun goes before the verb after \"mas\": \"a reinventa\". Speech would say \"reinventa ela\", which is fine in conversation but not in an essay.",
+            explanation: "In Brazilian essay prose the object pronoun goes before the verb: \"mas a reinventa\". Speech would say \"reinventa ela\", which is fine in conversation but not in an essay.",
           },
           {
             type: "fill-blank",
@@ -312,14 +312,13 @@ export const PT_C2_U12: Lesson[] = [
             en: "[You need to] have courage.",
             sentence: "___ de ter coragem.",
             answer: "Carece",
-            altAnswers: ["Precisa"],
             explanation: "\"Carecer de\" (literally, to lack) is Rosa's regional verb for to need. Standard Brazilian says \"precisa ter coragem\".",
           },
           {
             type: "speak",
             text: "Pão ou pães, é questão de opiniães.",
             prompt: "Read Rosa's playful line aloud, stressing the rhyme.",
-            tip: "All three nasal endings rhyme: PÃO, PÃES, o-pi-ni-ÃES. Keep them fully nasal.",
+            tip: "\"Pães\" and \"opiniães\" rhyme on the same nasal diphthong: PÃES, o-pi-ni-ÃES. Keep it fully nasal.",
             explanation: "\"Opiniães\" bends \"opiniões\" to rhyme with \"pães\": a joke about how plurals, like opinions, vary.",
           },
         ],
@@ -473,7 +472,7 @@ export const PT_C2_U12: Lesson[] = [
         body: [
           "\"A Hora da Estrela\" (1977) opens: \"Tudo no mundo começou com um sim. Uma molécula disse sim a outra molécula e nasceu a vida.\" Notice what's missing: a character, a place, a time. Clarice Lispector starts from the abstract and the cosmic, then narrows to Macabéa, a poor typist from Alagoas lost in Rio de Janeiro, who doesn't even know that she is unhappy.",
           "Her sentences rarely describe the outside world for long. They follow a mind thinking, often in fragments: a noun alone, a clause without a main verb, a question left hanging. Repetition is structural, not careless. A word returns three or four times, each time slightly shifted, until it becomes strange, as \"sim\" does in the opening.",
-          "Abstract nouns do the work that concrete detail does elsewhere: \"o instante\", \"a coisa\", \"o it\" (she borrows the English word), \"o nada\", \"a náusea\". Readers trained on 'show, don't tell' find this disorienting. Clarice tells, and then questions what she told. Her style tends towards philosophy rather than description.",
+          "Abstract nouns do the work that concrete detail does elsewhere: \"o instante\", \"a coisa\", \"o it\" (she borrows the English word), \"o nada\", \"a náusea\". Readers trained on 'show, don't tell' find this disorienting. Clarice tells, and then questions what she told. Her style tends toward philosophy rather than description.",
         ],
         examples: [
           { es: "Tudo no mundo começou com um sim.", en: "Everything in the world began with a yes." },
@@ -515,15 +514,15 @@ export const PT_C2_U12: Lesson[] = [
         heading: "Rodrigo S.M.: the narrator who doubts",
         body: [
           "Macabéa's story is told by a male narrator, Rodrigo S.M., who keeps interrupting it to talk about himself, his difficulty in writing, his guilt at describing a poor woman from his comfortable position. He delays the story for pages and confesses: \"Enquanto eu tiver perguntas e não houver resposta continuarei a escrever.\"",
-          "This self-conscious narration turns the act of writing into a subject. Sentences start with hesitation (\"Não sei bem\", \"Ou será que...\"), contradict themselves, and stop mid-thought. The book even has thirteen alternative titles joined by \"ou\", and one of them is \"Ela que se arranje\" (she'll have to manage). The narrator's doubt is part of the meaning: can anyone tell another person's story honestly?",
-          "Grammar supports the doubt. The future subjunctive (\"enquanto eu tiver\") projects an open-ended condition, \"será que\" turns statements into questions, and the conditional suspends judgement. Learners who write about Clarice need these forms to describe uncertainty precisely.",
+          "This self-conscious narration turns the act of writing into a subject. Sentences start with hesitation (\"Não sei bem\", \"Ou será que...\"), contradict themselves, and stop mid-thought. The book even has thirteen titles joined by \"ou\" on its title page, and one of them is \"Ela que se arranje\" (she'll have to manage). The narrator's doubt is part of the meaning: can anyone tell another person's story honestly?",
+          "Grammar supports the doubt. The future subjunctive (\"enquanto eu tiver\") projects an open-ended condition, \"será que\" turns statements into questions, and the conditional suspends judgment. Learners who write about Clarice need these forms to describe uncertainty precisely.",
         ],
         examples: [
           { es: "Enquanto eu tiver perguntas e não houver resposta continuarei a escrever.", en: "As long as I have questions and there's no answer, I'll go on writing." },
           { es: "Ela não sabia que era infeliz.", en: "She didn't know she was unhappy." },
           { es: "O narrador interrompe a história para falar de si mesmo.", en: "The narrator interrupts the story to talk about himself." },
           { es: "Será que alguém pode contar a vida de outra pessoa?", en: "Can anyone really tell another person's life story?" },
-          { es: "O livro tem treze títulos alternativos.", en: "The book has thirteen alternative titles." },
+          { es: "O livro tem treze títulos.", en: "The book has thirteen titles." },
           { es: "A dúvida do narrador faz parte do sentido.", en: "The narrator's doubt is part of the meaning." },
         ],
         checkpoint: [
@@ -557,7 +556,7 @@ export const PT_C2_U12: Lesson[] = [
       {
         heading: "The contos: the epiphany in a sentence",
         body: [
-          "In the short stories of \"Laços de Família\" (1960), an ordinary woman meets something banal and her life cracks open. In \"Amor\", Ana sees a blind man chewing gum from a tram and drops her shopping; in \"Uma Galinha\", a hen about to be cooked lays an egg. Critics call this the \"epifania\" (epiphany), and Clarice builds it in the syntax: short declaratives, then a sudden long sentence that piles up clauses as perception floods in.",
+          "In the short stories of \"Laços de Família\" (1960), an ordinary woman meets something banal and her life cracks open. In \"Amor\", Ana sees a blind man chewing gum from a tram and drops her groceries; in \"Uma Galinha\", a hen about to be cooked lays an egg. Critics call this the \"epifania\" (epiphany), and Clarice builds it in the syntax: short declaratives, then a sudden long sentence that piles up clauses as perception floods in.",
           "The one-line paragraph is another tool. After pages of interior turbulence, a single short sentence lands with full weight. Her punctuation, especially the dash and the colon, opens gaps for the thought to fall into; the punctuation lesson later in the unit looks at this closely.",
           "Critical vocabulary for Clarice: \"fluxo de consciência\" (stream of consciousness), \"introspecção\", \"epifania\", \"fragmentação\", \"linguagem que se interroga\". Avoid the common essay mistake of calling her style \"confuso\" (confused). It is controlled ambiguity, and the precision of the critic should match the precision of the writer.",
         ],
@@ -660,7 +659,7 @@ export const PT_C2_U12: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Why does \"A Hora da Estrela\" have a male narrator?",
-        options: ["To dramatise the problem of a privileged writer telling a poor woman's story.", "Because Clarice published under a male pseudonym.", "Because Macabéa is a man in disguise.", "To make the book easier to sell."],
+        options: ["To dramatize the problem of a privileged writer telling a poor woman's story.", "Because Clarice published under a male pseudonym.", "Because Macabéa is a man in disguise.", "To make the book easier to sell."],
         correctIndex: 0,
         explanation: "Rodrigo S.M.'s guilt and hesitation turn the ethics of narration into a theme of the book.",
       },
@@ -699,9 +698,9 @@ export const PT_C2_U12: Lesson[] = [
       {
         heading: "The dead author and his reader",
         body: [
-          "\"Memórias Póstumas de Brás Cubas\" (1881) is narrated by a dead man, a \"defunto autor\" (deceased author) rather than an \"autor defunto\", as he explains in the first chapter. The book is dedicated \"ao verme que primeiro roeu as frias carnes do meu cadáver\". From the start Brás Cubas chats with his reader, mocks him, apologises to him, and warns that the book was written \"com a pena da galhofa e a tinta da melancolia\" (with the pen of mockery and the ink of melancholy).",
+          "\"Memórias Póstumas de Brás Cubas\" (1881) is narrated by a dead man, a \"defunto autor\" (deceased author) rather than an \"autor defunto\", as he explains in the first chapter. The book is dedicated \"ao verme que primeiro roeu as frias carnes do meu cadáver\". From the start Brás Cubas chats with his reader, mocks him, apologizes to him, and warns that the book was written \"com a pena da galhofa e a tinta da melancolia\" (with the pen of mockery and the ink of melancholy).",
           "The aside is Machado's signature. The narrator stops the story to comment on it, to anticipate the reader's objection, or to digress about a fly, a nose or a philosophy. Chapters can be a paragraph long, and one, \"De como não fui ministro d'Estado\", contains only rows of dots. The digressions aren't padding: they make the reader complicit, and they let the narrator dodge the moments where he behaves badly.",
-          "English readers often think of Sterne's \"Tristram Shandy\", and Machado names Sterne as a model. The difference is the bitterness under the joke: the humour is cold, and it's aimed at the reader as much as at the characters.",
+          "English readers often think of Sterne's \"Tristram Shandy\", and Machado names Sterne as a model. The difference is the bitterness under the joke: the humor is cold, and it's aimed at the reader as much as at the characters.",
         ],
         examples: [
           { es: "Ao verme que primeiro roeu as frias carnes do meu cadáver dedico como saudosa lembrança estas memórias póstumas.", en: "To the worm that first gnawed the cold flesh of my corpse I dedicate these posthumous memoirs as a fond remembrance." },
@@ -718,7 +717,7 @@ export const PT_C2_U12: Lesson[] = [
             source: "The digression makes the reader complicit.",
             answer: "A digressão torna o leitor cúmplice.",
             altAnswers: ["A digressão faz do leitor um cúmplice.", "A digressão transforma o leitor em cúmplice.", "As digressões tornam o leitor cúmplice.", "A digressão deixa o leitor cúmplice."],
-            explanation: "\"Tornar\" + object + adjective means to make someone something. \"Cúmplice\" (accomplice) is the critic's favourite word for Machado's reader.",
+            explanation: "\"Tornar\" + object + adjective means to make someone something. \"Cúmplice\" (accomplice) is the critic's favorite word for Machado's reader.",
           },
           {
             type: "fill-blank",
@@ -761,7 +760,7 @@ export const PT_C2_U12: Lesson[] = [
             source: "The second half of the sentence contradicts the first.",
             answer: "A segunda metade da frase desmente a primeira.",
             altAnswers: ["A segunda metade da frase contradiz a primeira.", "A segunda parte da frase desmente a primeira.", "A segunda parte da frase contradiz a primeira.", "A segunda metade do período desmente a primeira."],
-            explanation: "\"Desmentir\" (to give the lie to) is stronger than \"contradizer\", and suits Machado's self-cancelling sentences.",
+            explanation: "\"Desmentir\" (to give the lie to) is stronger than \"contradizer\", and suits Machado's self-canceling sentences.",
           },
           {
             type: "multiple-choice",
@@ -1003,7 +1002,7 @@ export const PT_C2_U12: Lesson[] = [
             type: "speak",
             text: "A ironia é suave na superfície e amarga por baixo.",
             prompt: "Say it in Portuguese, about Lima Barreto: The irony is gentle on the surface and bitter underneath.",
-            tip: "\"Superfície\" stresses \"fí\": su-per-FÍ-si-i. \"Amarga\" has an open a.",
+            tip: "\"Superfície\" stresses \"fí\", and the final \"-cie\" is a quick si: su-per-FÍ-si. \"Amarga\" has an open stressed a.",
             explanation: "The antithesis \"suave... amarga\" describes the two layers of his irony.",
           },
         ],
@@ -1153,7 +1152,7 @@ export const PT_C2_U12: Lesson[] = [
       {
         heading: "Lygia Fagundes Telles: tension in what's withheld",
         body: [
-          "Lygia Fagundes Telles (1918-2022) wrote some of the most anthologised Brazilian short stories. In \"Venha Ver o Pôr do Sol\", a man invites his ex-girlfriend to an abandoned cemetery to watch the sunset; the dialogue is light, almost flirtatious, and the reader feels the danger long before the end. In \"As Formigas\", two students rent a room where ants seem to be reassembling a skeleton.",
+          "Lygia Fagundes Telles (1918-2022) wrote some of the most anthologized Brazilian short stories. In \"Venha Ver o Pôr do Sol\", a man invites his ex-girlfriend to an abandoned cemetery to watch the sunset; the dialogue is light, almost flirtatious, and the reader feels the danger long before the end. In \"As Formigas\", two students rent a room where ants seem to be reassembling a skeleton.",
           "Her technique is restraint. The narration is clear, elegant and calm, and the menace lives in small details: a rusty gate, a repeated phrase, a smile at the wrong moment. Much happens in dialogue, which says less than the characters mean. The endings are often open or abrupt, leaving the worst to the reader's imagination.",
           "Critics use \"tensão\", \"suspense\", \"o não dito\" (the unsaid), \"ambiguidade\" and \"o fantástico\" for her stories. Notice the link with the implicature unit: Lygia's characters speak in hints and understatements, and reading her is an exercise in hearing what isn't said.",
         ],
@@ -1198,7 +1197,7 @@ export const PT_C2_U12: Lesson[] = [
         body: [
           "Rubem Fonseca (1925-2020) brought the violence of the big city into Brazilian literature. His collection \"Feliz Ano Novo\" (1975) was banned by the military government's censors: its title story is narrated by a thief who, with two friends, invades a New Year's Eve party in a rich house. The critic Alfredo Bosi called this kind of writing \"brutalismo\".",
           "The style is the shock. Sentences are short and fast, the vocabulary is everyday, with slang and swearing, and the narrator never judges what he describes. First-person criminals speak flatly about horrific acts, so the reader has to supply the moral reaction the text refuses. Fonseca also wrote crime fiction, and his rhythm owes something to the American hard-boiled novel.",
-          "When you describe him, avoid moralising in place of analysis. \"O conto é chocante\" says little. \"A ausência de comentário do narrador obriga o leitor a julgar\" (the narrator's lack of comment forces the reader to judge) describes a technique and its effect.",
+          "When you describe him, avoid moralizing in place of analysis. \"O conto é chocante\" says little. \"A ausência de comentário do narrador obriga o leitor a julgar\" (the narrator's lack of comment forces the reader to judge) describes a technique and its effect.",
         ],
         examples: [
           { es: "O livro foi proibido pela censura em 1976.", en: "The book was banned by the censors in 1976." },
@@ -1239,7 +1238,7 @@ export const PT_C2_U12: Lesson[] = [
       {
         heading: "Raduan Nassar: the breathless sentence",
         body: [
-          "Raduan Nassar published two short books, \"Lavoura Arcaica\" (1975) and \"Um Copo de Cólera\" (1978), then left literature to farm. They were enough to win him the Camões Prize in 2016. \"Lavoura Arcaica\" retells the parable of the prodigal son in a family of Lebanese immigrants on a farm in São Paulo state: André runs away from his father's law, and his brother Pedro brings him home.",
+          "Raduan Nassar published two short books, \"Lavoura Arcaica\" (1975) and \"Um Copo de Cólera\" (1978), then left literature to farm. They were enough to win him the Camões Prize in 2016. \"Lavoura Arcaica\" retells the parable of the prodigal son in a family of Lebanese immigrants on a farm: André runs away from his father's law, and his brother Pedro brings him home.",
           "The style is a single breath. Some chapters are one sentence that runs for pages, held together by commas, semicolons and repetitions, with the rhythm of a prayer or a psalm. The novel opens: \"Os olhos no teto, a nudez dentro do quarto;\", a sentence with no main verb that keeps unfolding. The father's sermons have a biblical cadence; André's speech overflows them.",
           "The effect is physical: reading aloud, you run out of air, which is exactly André's state. Critics speak of \"prosa poética\", \"período longo\", \"ritmo encantatório\" and \"sintaxe torrencial\". If Graciliano wrings the cloth dry, Raduan lets it flood.",
         ],
@@ -1337,7 +1336,7 @@ export const PT_C2_U12: Lesson[] = [
         question: "Which essay sentence analyses Rubem Fonseca's style rather than just reacting to it?",
         options: ["A narração em primeira pessoa, sem julgamento, transfere ao leitor a responsabilidade moral.", "O conto é muito chocante.", "Eu não gostei da violência.", "É uma história triste sobre ladrões."],
         correctIndex: 0,
-        explanation: "It names a technique (first-person narration without judgement) and its effect. The others are reactions or summaries.",
+        explanation: "It names a technique (first-person narration without judgment) and its effect. The others are reactions or summaries.",
       },
       {
         type: "multiple-choice",
@@ -1382,7 +1381,7 @@ export const PT_C2_U12: Lesson[] = [
         heading: "The rules first: what the masters break",
         body: [
           "Portuguese punctuation has a few firm rules. Never put a comma between subject and verb (\"O menino, saiu\" is wrong). Commas set off fronted adverbials when they're long, appositions and asides. The \"ponto e vírgula\" (semicolon) joins clauses that are related but independent. \"Dois-pontos\" (the colon) announces an explanation, a list or speech. And in Brazilian books dialogue is marked with the \"travessão\" (dash), not with quotation marks: \"— Vamos embora — disse ela.\"",
-          "The masters bend these rules on purpose. Graciliano often drops the comma after a short fronted phrase (\"Na planície avermelhada os juazeiros alargavam...\"), which the norm allows and which speeds the sentence up. Raduan Nassar replaces full stops with commas and semicolons for pages. Machado uses the dash for asides, so the reader feels the narrator leaning in to whisper.",
+          "The masters bend these rules on purpose. Graciliano often drops the comma after a short fronted phrase (\"Na planície avermelhada os juazeiros alargavam...\"), which the norm allows and which speeds the sentence up. Raduan Nassar replaces periods with commas and semicolons for pages. Machado uses the dash for asides, so the reader feels the narrator leaning in to whisper.",
           "Before you admire a deviation, check that it is one. English punctuation habits often mislead: Portuguese doesn't use the serial comma before \"e\" in a list, and it treats the semicolon as normal in essays, not as fussy.",
         ],
         examples: [
@@ -1420,11 +1419,11 @@ export const PT_C2_U12: Lesson[] = [
         ],
       },
       {
-        heading: "The run-on sentence and the missing full stop",
+        heading: "The run-on sentence and the missing period",
         body: [
           "The long sentence is a style with a long history in Portuguese, from the sermons of Padre Vieira to Raduan Nassar. It works through accumulation: commas pile up clauses, and \"e... e... e...\" repeats the conjunction (\"polissíndeto\", the figure of repeated conjunctions). The reader is carried along and can't stop to breathe, which is the effect.",
           "Rosa does something different: his long periods are broken into many short units by commas, so they sound like speech. \"Grande Sertão: Veredas\" opens with a dialogue dash, \"— Nonada.\", and that dash never closes. The whole novel is one speech, and it ends on the single word \"Travessia\", followed by the infinity sign.",
-          "Clarice pushes the full stop furthest. \"Uma Aprendizagem ou O Livro dos Prazeres\" (1969) begins with a comma, as if we had walked in mid-sentence, and ends with a colon, as if the book opened onto something unwritten. When you describe such choices, name the mark and its effect: \"a vírgula inicial sugere que a história já tinha começado\".",
+          "Clarice pushes the period furthest. \"Uma Aprendizagem ou O Livro dos Prazeres\" (1969) begins with a comma, as if we had walked in mid-sentence, and ends with a colon, as if the book opened onto something unwritten. When you describe such choices, name the mark and its effect: \"a vírgula inicial sugere que a história já tinha começado\".",
         ],
         examples: [
           { es: "E chovia, e o rio subia, e ninguém dormia.", en: "And it rained, and the river rose, and nobody slept." },
@@ -1465,12 +1464,12 @@ export const PT_C2_U12: Lesson[] = [
       {
         heading: "The dash, the dots and the one-word paragraph",
         body: [
-          "Inside narration, the dash opens a parenthesis with more urgency than brackets: \"Capitu — e só agora percebo — já sabia de tudo.\" Machado and Clarice both use it to let a second thought break into the first. \"Reticências\" (the three dots) leave a thought unfinished, suggest hesitation or invite the reader to complete it. Machado's chapter made only of dots pushes this to the limit: the silence is the joke.",
+          "Inside narration, the dash opens a parenthesis with more urgency than parentheses do: \"Capitu — e só agora percebo — já sabia de tudo.\" Machado and Clarice both use it to let a second thought break into the first. \"Reticências\" (the three dots) leave a thought unfinished, suggest hesitation or invite the reader to complete it. Machado's chapter made only of dots pushes this to the limit: the silence is the joke.",
           "The one-sentence paragraph, and even the one-word paragraph, is a modern habit. After a dense page, a line such as \"Morreu.\" or \"Nada.\" lands with the weight of the white space around it. Graciliano and Clarice use it sparingly; in the Brazilian crônica it has become almost a mannerism, so use it once, not three times.",
           "Talking about punctuation in Portuguese, be precise with the gender and the names: \"o travessão\", \"o hífen\" (which is a different, shorter mark), \"as reticências\" (always plural), \"os dois-pontos\" (plural too), \"as aspas\" (quotation marks), \"o ponto final\", \"o parágrafo\".",
         ],
         examples: [
-          { es: "Capitu — e só agora percebo — já sabia de tudo.", en: "Capitu (and only now do I realise it) already knew everything." },
+          { es: "Capitu — e só agora percebo — já sabia de tudo.", en: "Capitu (and only now do I realize it) already knew everything." },
           { es: "As reticências deixam o pensamento em suspenso.", en: "The dots leave the thought hanging." },
           { es: "Depois de uma página densa, vem uma linha: Nada.", en: "After a dense page comes one line: Nothing." },
           { es: "O travessão não é o hífen.", en: "The dash isn't the hyphen." },
@@ -1489,7 +1488,7 @@ export const PT_C2_U12: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words, in Machado's manner.",
-            en: "Capitu ([and only now do I realise it]) already knew everything.",
+            en: "Capitu ([and only now do I realize it]) already knew everything.",
             sentence: "Capitu — ___ — já sabia de tudo.",
             answer: "e só agora percebo",
             altAnswers: ["e só agora eu percebo", "só agora percebo", "e só agora me dou conta"],
@@ -1650,7 +1649,7 @@ export const PT_C2_U12: Lesson[] = [
         heading: "Clarice or Machado? A woman at the mirror, a man and his inheritance",
         body: [
           "Next, the inner life. In Clarice's manner: \"Olhou-se no espelho. Era ela. Era ela? O rosto estava ali, mas alguma coisa no rosto não estava. Ficou parada, esperando o instante.\" Repetition with a shift (\"era ela. Era ela?\"), an abstract noun (\"o instante\"), a doubt about identity.",
-          "In Machado's manner, a man receives an inheritance: \"Chorei a morte do meu tio com sinceridade, e com mais sinceridade ainda li o testamento. O leitor dirá que sou mesquinho; terá razão, mas não toda.\" The main clause is dignified and the continuation undercuts it. The narrator addresses the reader, anticipates his judgement and concedes it ironically.",
+          "In Machado's manner, a man receives an inheritance: \"Chorei a morte do meu tio com sinceridade, e com mais sinceridade ainda li o testamento. O leitor dirá que sou mesquinho; terá razão, mas não toda.\" The main clause is dignified and the continuation undercuts it. The narrator addresses the reader, anticipates his judgment and concedes it ironically.",
           "Both are interior, but in opposite ways. Clarice's narration dissolves certainty; Machado's narration is perfectly lucid and morally slippery. Clarice asks what a self is; Machado shows what a self is willing to hide.",
         ],
         examples: [
@@ -1756,7 +1755,7 @@ export const PT_C2_U12: Lesson[] = [
         source: "One asks what the self is; the other shows what the self hides.",
         answer: "Um pergunta o que é o eu; o outro mostra o que o eu esconde.",
         altAnswers: ["Uma pergunta o que é o eu; o outro mostra o que o eu esconde.", "Um pergunta o que é o eu, e o outro mostra o que o eu esconde.", "Uma se pergunta o que é o eu; o outro mostra o que o eu esconde."],
-        explanation: "\"O eu\" (the self) nominalises the pronoun. Use \"uma\" if you think of Clarice as \"a autora\".",
+        explanation: "\"O eu\" (the self) nominalizes the pronoun. Use \"uma\" if you think of Clarice as \"a autora\".",
       },
       {
         type: "fill-blank",
@@ -1923,7 +1922,7 @@ export const PT_C2_U12: Lesson[] = [
         heading: "Clarice's and Machado's versions: inward and ironic",
         body: [
           "In Clarice's manner: \"Ele chegou. Cansado. A mulher perguntou se ele queria jantar, e a pergunta ficou no ar como uma coisa viva. Não, ele não queria. O que ele queria ainda não tinha nome. Lá fora chovia — e a chuva era a única coisa certa daquela noite.\" Fragmentation (\"Cansado.\"), the question turned into an object, desire without a name, and a dash that opens onto a discovery.",
-          "In Machado's manner: \"Chegou cansado, que é o estado natural dos maridos às sete da noite. A mulher perguntou-lhe se queria jantar; ele respondeu que não, e foi dormir, não sem antes reparar, leitor, que chovia. Chovia, aliás, como chove nos romances quando o autor não sabe o que fazer com os personagens.\" A generalising aside, a formal enclitic (\"perguntou-lhe\"), a direct address to the reader, and a final sentence that mocks the novel itself.",
+          "In Machado's manner: \"Chegou cansado, que é o estado natural dos maridos às sete da noite. A mulher perguntou-lhe se queria jantar; ele respondeu que não, e foi dormir, não sem antes reparar, leitor, que chovia. Chovia, aliás, como chove nos romances quando o autor não sabe o que fazer com os personagens.\" A generalizing aside, a formal enclitic (\"perguntou-lhe\"), a direct address to the reader, and a final sentence that mocks the novel itself.",
           "Compare the rain across all four versions: Graciliano denies it, Rosa makes it endless, Clarice makes it a certainty against inner doubt, and Machado makes it a cliché. One detail, four worldviews: that is what style means.",
         ],
         examples: [
@@ -1950,7 +1949,7 @@ export const PT_C2_U12: Lesson[] = [
             sentence: "Chegou cansado, ___ às sete da noite.",
             answer: "que é o estado natural dos maridos",
             altAnswers: ["o que é o estado natural dos maridos"],
-            explanation: "A relative clause that generalises ironically: Machado turns one man's fatigue into a satire of husbands.",
+            explanation: "A relative clause that generalizes ironically: Machado turns one man's fatigue into a satire of husbands.",
           },
           {
             type: "listen-choose",
@@ -2023,7 +2022,7 @@ export const PT_C2_U12: Lesson[] = [
         prompt: "Put the words in order to say (in Graciliano's manner): Was it raining? It wasn't. It never rained.",
         words: ["Chovia?", "Não", "chovia.", "Nunca", "chovia."],
         translation: "Was it raining? It wasn't. It never rained.",
-        explanation: "Question, denial, generalisation: free indirect discourse in three beats, with the verb repeated each time.",
+        explanation: "Question, denial, generalization: free indirect discourse in three beats, with the verb repeated each time.",
       },
       {
         type: "multiple-choice",
@@ -2042,7 +2041,7 @@ export const PT_C2_U12: Lesson[] = [
       {
         type: "dictation",
         audio: "Ele chegou. Cansado. Não, ele não queria.",
-        explanation: "Fragments with full stops: \"Cansado.\" stands alone, as in Clarice's prose.",
+        explanation: "Fragments with periods: \"Cansado.\" stands alone, as in Clarice's prose.",
       },
       {
         type: "speak",
@@ -2111,8 +2110,8 @@ export const PT_C2_U12: Lesson[] = [
         heading: "Scene 2: Evidence and counterargument",
         body: [
           "Lucas brings evidence: \"Pega o 'Nonada' do começo. Numa palavra só, ele junta 'não' e 'nada' e já anuncia o tema do livro.\" Mariana concedes and counters: \"Concordo que é bonito, mas será que um leitor comum percebe isso?\" The structure \"concordo que..., mas...\" is the backbone of academic disagreement: you grant a point, then shift the ground.",
-          "Rafael, quieter, offers a third view: \"Por um lado, a estranheza exclui; por outro, ela obriga a gente a ler devagar, como poesia.\" \"Por um lado... por outro\" organises a balanced argument. Then he links it to the sertão itself: Rosa's language is difficult because it records people whom Brazilian literature had ignored.",
-          "Mariana objects again, this time with irony: \"Então quem desiste é preguiçoso?\" Lucas recognises the trap and steps back: \"Não foi isso que eu quis dizer.\" Reformulating your own claim is a strength in a seminar, not a defeat.",
+          "Rafael, quieter, offers a third view: \"Por um lado, a estranheza exclui; por outro, ela obriga a gente a ler devagar, como poesia.\" \"Por um lado... por outro\" organizes a balanced argument. Then he links it to the sertão itself: Rosa's language is difficult because it records people whom Brazilian literature had ignored.",
+          "Mariana objects again, this time with irony: \"Então quem desiste é preguiçoso?\" Lucas recognizes the trap and steps back: \"Não foi isso que eu quis dizer.\" Reformulating your own claim is a strength in a seminar, not a defeat.",
         ],
         examples: [
           { es: "Pega o \"Nonada\" do começo.", en: "Lucas: Take the 'Nonada' at the beginning." },
@@ -2152,7 +2151,7 @@ export const PT_C2_U12: Lesson[] = [
       {
         heading: "Scene 3: Tactful disagreement and the synthesis",
         body: [
-          "As the argument heats up, the professor cools it with the tools of tact: \"Gente, as duas posições têm fundamento.\" (both positions are well-founded) and \"Talvez valha a pena separar duas perguntas: o texto é difícil? E a dificuldade tem função?\". Breaking a polarised debate into two questions is a classic academic rescue.",
+          "As the argument heats up, the professor cools it with the tools of tact: \"Gente, as duas posições têm fundamento.\" (both positions are well-founded) and \"Talvez valha a pena separar duas perguntas: o texto é difícil? E a dificuldade tem função?\". Breaking a polarized debate into two questions is a classic academic rescue.",
           "Mariana accepts with a concession: \"Tá, eu admito que a dificuldade tem função. Mas continuo achando que a escola afasta os alunos quando começa por Rosa.\" Lucas answers kindly: \"Nisso eu concordo com você.\" Agreement on a partial point lets both sides leave with dignity.",
           "The professor closes with a synthesis and homework: \"Para a semana que vem, cada um escolhe um parágrafo e mostra como a sintaxe produz sentido.\" The seminar ends where every analysis should: in the sentence itself.",
         ],
@@ -2185,7 +2184,7 @@ export const PT_C2_U12: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How does Professora Helena calm the polarised debate?",
+            question: "How does Professora Helena calm the polarized debate?",
             options: ["By splitting it into two separate questions.", "By declaring Lucas right.", "By changing the subject to Clarice.", "By ending the seminar early."],
             correctIndex: 0,
             explanation: "\"Talvez valha a pena separar duas perguntas\" uses the hedge from Unit 11 and the academic technique of distinguishing questions.",
@@ -2270,7 +2269,7 @@ export const PT_C2_U12: Lesson[] = [
         text: "Por um lado, a estranheza exclui; por outro, ela obriga a gente a ler devagar.",
         prompt: "Give Rafael's balanced view aloud.",
         tip: "Pause at the semicolon and raise the pitch on \"por outro\" to mark the second side.",
-        explanation: "\"Por um lado... por outro\" organises a balanced argument in speech and writing.",
+        explanation: "\"Por um lado... por outro\" organizes a balanced argument in speech and writing.",
       },
       {
         type: "translate",
@@ -2338,13 +2337,13 @@ export const PT_C2_U12: Lesson[] = [
       {
         heading: "Device, quotation, effect",
         body: [
-          "The body of a close reading is a chain of three-step moves: name a device, quote it, say what it does. \"No primeiro período, chama a atenção a ausência de vírgula depois de 'Na planície avermelhada': a frase avança sem pausa, como a paisagem que se estende.\" Then the next device: \"O único adjetivo de cor, 'avermelhada', sugere terra queimada, e o verde dos juazeiros aparece apenas como 'manchas'.\"",
+          "The body of a close reading is a chain of three-step moves: name a device, quote it, say what it does. \"No primeiro período, chama a atenção a ausência de vírgula depois de 'Na planície avermelhada': a frase avança sem pausa, como a paisagem que se estende.\" Then the next device: \"O primeiro adjetivo de cor, 'avermelhada', sugere terra queimada, e o verde dos juazeiros aparece apenas como 'manchas'.\"",
           "The second sentence gives you material for a contrast: \"Os infelizes tinham caminhado o dia inteiro, estavam cansados e famintos.\" The narrator names the characters only by their misfortune, and the two clauses sit side by side with no connective, so cause and effect are left to the reader. The pluperfect \"tinham caminhado\" places the suffering before the book begins.",
           "Useful verbs for the effect: \"sugere\", \"evoca\", \"reforça\", \"antecipa\", \"produz\", \"cria\". Useful frames: \"Vale notar que...\", \"Chama a atenção...\", \"Observe-se que...\", \"Esse recurso produz...\". Avoid \"eu acho\" in the body of the text; impersonal constructions (\"nota-se\", \"percebe-se\") keep the focus on the passage.",
         ],
         examples: [
           { es: "Chama a atenção a ausência de vírgula depois de \"Na planície avermelhada\".", en: "What stands out is the absence of a comma after 'Na planície avermelhada'." },
-          { es: "O único adjetivo de cor sugere terra queimada.", en: "The only colour adjective suggests scorched earth." },
+          { es: "O primeiro adjetivo de cor sugere terra queimada.", en: "The first color adjective suggests scorched earth." },
           { es: "O narrador nomeia os personagens apenas pela desgraça.", en: "The narrator names the characters only by their misfortune." },
           { es: "O mais-que-perfeito situa o sofrimento antes do início do livro.", en: "The pluperfect places the suffering before the start of the book." },
           { es: "Vale notar que não há nenhum conectivo entre as orações.", en: "It's worth noting that there's no connective between the clauses." },
@@ -2355,10 +2354,10 @@ export const PT_C2_U12: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, for the body of your close reading.",
-            source: "The only colour adjective suggests scorched earth.",
-            answer: "O único adjetivo de cor sugere terra queimada.",
-            altAnswers: ["O único adjetivo de cor sugere uma terra queimada.", "O único adjetivo de cor evoca terra queimada.", "O único adjetivo de cor evoca uma terra queimada.", "O único adjetivo de cor sugere terra calcinada."],
-            explanation: "Device (\"o único adjetivo de cor\") plus effect verb (\"sugere\", \"evoca\"): the basic move of a close reading.",
+            source: "The first color adjective suggests scorched earth.",
+            answer: "O primeiro adjetivo de cor sugere terra queimada.",
+            altAnswers: ["O primeiro adjetivo de cor sugere uma terra queimada.", "O primeiro adjetivo de cor evoca terra queimada.", "O primeiro adjetivo de cor evoca uma terra queimada.", "O primeiro adjetivo de cor sugere terra calcinada."],
+            explanation: "Device (\"o primeiro adjetivo de cor\") plus effect verb (\"sugere\", \"evoca\"): the basic move of a close reading.",
           },
           {
             type: "fill-blank",
@@ -2417,7 +2416,7 @@ export const PT_C2_U12: Lesson[] = [
             text: "Antes de qualquer acontecimento, a forma já disse tudo.",
             prompt: "Read the closing sentence of your close reading aloud.",
             tip: "\"Acontecimento\" has six syllables: a-con-te-ci-MEN-tu. Slow down on \"já disse tudo\".",
-            explanation: "A conclusion that adds an idea instead of summarising gives the reading its final weight.",
+            explanation: "A conclusion that adds an idea instead of summarizing gives the reading its final weight.",
           },
         ],
       },
@@ -2478,9 +2477,9 @@ export const PT_C2_U12: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence follows the device, quotation, effect pattern?",
-        options: ["O adjetivo \"avermelhada\", único no período, sugere a terra queimada pelo sol.", "Gostei muito desse trecho.", "Os personagens caminham pelo sertão.", "Graciliano escreveu outros romances importantes."],
+        options: ["O adjetivo \"avermelhada\", logo no início do período, sugere a terra queimada pelo sol.", "Gostei muito desse trecho.", "Os personagens caminham pelo sertão.", "Graciliano escreveu outros romances importantes."],
         correctIndex: 0,
-        explanation: "It names a device (the only adjective), quotes it and states an effect. The others are opinion, summary and context.",
+        explanation: "It names a device (the opening color adjective), quotes it and states an effect. The others are opinion, summary and context.",
       },
       {
         type: "multiple-choice",

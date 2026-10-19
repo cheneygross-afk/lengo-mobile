@@ -245,7 +245,7 @@ export const FR_B2_U07: Lesson[] = [
         heading: "The irregular stems",
         body: [
           "The conditional shares its irregular stems with the future: \"être\" → \"ser-\", \"avoir\" → \"aur-\", \"faire\" → \"fer-\", \"aller\" → \"ir-\", \"pouvoir\" → \"pourr-\", \"savoir\" → \"saur-\", \"venir\" → \"viendr-\", \"vouloir\" → \"voudr-\", \"devoir\" → \"devr-\", \"voir\" → \"verr-\", \"falloir\" → \"faudr-\", \"envoyer\" → \"enverr-\", \"courir\" → \"courr-\", \"mourir\" → \"mourr-\".",
-          "Watch the double r in \"pourrais\", \"verrais\", \"enverrais\", \"courrais\": it is pronounced slightly longer than the single r of the imparfait (\"pourrais\" vs \"courais\"). In writing, a single r turns a conditional into an imparfait.",
+          "Watch the double r in \"pourrais\", \"verrais\", \"enverrais\", \"courrais\": it is pronounced slightly longer than the single r of the imparfait (\"courrais\" vs \"courais\"). In writing, a single r turns a conditional into an imparfait.",
         ],
         examples: [
           { es: "Si j'étais riche, je ferais le tour du monde.", en: "If I were rich, I'd travel round the world." },
@@ -872,7 +872,7 @@ export const FR_B2_U07: Lesson[] = [
             prompt: "Translate into French.",
             source: "Honestly, I don't know what I'd do.",
             answer: "Honnêtement, je ne sais pas ce que je ferais.",
-            altAnswers: ["Franchement, je ne sais pas ce que je ferais.", "Honnêtement, je ne sais pas ce que je ferais à ta place."],
+            altAnswers: ["Franchement, je ne sais pas ce que je ferais."],
             explanation: "\"Ce que je ferais\": conditional inside an indirect question.",
           },
         ],

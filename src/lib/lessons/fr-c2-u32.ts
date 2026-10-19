@@ -40,7 +40,7 @@ export const FR_C2_U32: Lesson[] = [
           { es: "Trois ans passèrent.", en: "Three years went by." },
           { es: "Plus tard, elle comprendrait pourquoi il avait menti.", en: "Later, she would understand why he had lied." },
           { es: "Il devait mourir six mois plus tard, loin de chez lui.", en: "He was to die six months later, far from home." },
-          { es: "L'ellipse oblige le lecteur à combler lui-même les vides.", en: "The ellipsis forces the reader to fill in the gaps himself." },
+          { es: "L'ellipse oblige le lecteur à combler lui-même les vides.", en: "The ellipsis forces the reader to fill in the gaps themselves." },
         ],
         checkpoint: [
           {
@@ -236,7 +236,7 @@ export const FR_C2_U32: Lesson[] = [
       {
         heading: "The story and its ending",
         body: [
-          "Here is the ending of an original short story, « Le Voisin du dessous »: « Quand la police força la porte du troisième, elle trouva l'appartement vide depuis des années. Les meubles étaient couverts de draps. Sur la table, une pile de lettres jamais ouvertes, toutes adressées à Mme Vernet. Toutes signées de la même main. De la sienne. » The narrator, Mme Vernet, an elderly woman, had spent the story complaining about noise from the flat below, and the twist is that she has been writing to herself, alone, for years.",
+          "Here is the ending of an original short story, « Le Voisin du dessous »: « Quand la police força la porte du troisième, elle trouva l'appartement vide depuis des années. Les meubles étaient couverts de draps. Sur la table, une pile de lettres jamais ouvertes, toutes adressées à Mme Vernet. Toutes signées de la même main. De la sienne. » The heroine, Mme Vernet, an elderly woman, had spent the story complaining about noise from the flat below, and the twist is that she has been writing to herself, alone, for years.",
           "Now the draft's first version gave the game away in the second paragraph: « Mme Vernet, qui perdait un peu la tête depuis la mort de son mari, entendait des bruits partout. » \"Qui perdait un peu la tête\" tells the reader everything. Our job: remove that explicit clue and replace it with discreet ones, disguised as description.",
           "Discreet clues might be: the postman who no longer stops at her door; a neighbour who looks at her strangely when she mentions the man downstairs; her description of noises that are always the same (\"toujours ce même air de piano, à la même heure\"); the dust on the downstairs doormat she notices without understanding.",
         ],
@@ -543,7 +543,7 @@ export const FR_C2_U32: Lesson[] = [
             prompt: "Translate into French with French dialogue punctuation.",
             source: "'Already?' she asked.",
             answer: "« Déjà ? » demanda-t-elle.",
-            altAnswers: ["« Déjà ? », demanda-t-elle.", "« Déjà ? » s'étonna-t-elle.", "« Déjà ? » a-t-elle demandé."],
+            altAnswers: ["« Déjà ? » s'étonna-t-elle.", "« Déjà ? » a-t-elle demandé."],
             explanation: "Inverted incise with -t- between two vowels: \"demanda-t-elle\".",
           },
           {
@@ -655,7 +655,7 @@ export const FR_C2_U32: Lesson[] = [
       {
         heading: "From statement to simile: comme, tel, pareil à, on aurait dit",
         body: [
-          "Start with a flat sentence: \"Le lac était calme.\" A simile (\"une comparaison\") links it to something else through a tool word: \"Le lac était calme comme un miroir\" (the cliché), \"Le lac était lisse comme une vitre qu'on vient de laver\" (fresher). The tools: \"comme\", \"tel / telle que\" (literary, agreeing with the noun compared: \"telle une vitre\"), \"pareil à\", \"semblable à\", \"ainsi que\", \"on aurait dit\" (it looked like), \"avoir l'air de\".",
+          "Start with a flat sentence: \"Le lac était calme.\" A simile (\"une comparaison\") links it to something else through a tool word: \"Le lac était calme comme un miroir\" (the cliché), \"Le lac était lisse comme une vitre qu'on vient de laver\" (fresher). The tools: \"comme\", \"tel\" (literary, agreeing with the noun that follows it: \"telle une vitre\"), \"pareil à\", \"semblable à\", \"ainsi que\", \"on aurait dit\" (it looked like), \"avoir l'air de\".",
           "\"Tel\" agrees with what follows it in modern usage when used without que: \"Elle avançait, telle une ombre\" (tel + ombre, feminine). It gives a more elevated, literary tone than comme. \"On aurait dit\" + noun is lively and conversational: \"On aurait dit un décor de théâtre.\"",
           "The rule of freshness: a comparison is only worth something if it is unexpected yet exact. \"Rouge comme une tomate\", \"doux comme un agneau\" are dead images (\"des clichés\", \"des images éculées\"). Look for the precise, observed detail.",
         ],
@@ -1693,7 +1693,7 @@ export const FR_C2_U32: Lesson[] = [
         prompt: "Translate into French.",
         source: "In the name of relativism, he refuses to judge anything.",
         answer: "Au nom du relativisme, il refuse de juger quoi que ce soit.",
-        altAnswers: ["Au nom du relativisme, il refuse de rien juger.", "Au nom du relativisme, il refuse de juger quoi que ce soit."],
+        altAnswers: ["Au nom du relativisme, il refuse de rien juger.", "Au nom du relativisme, il refuse de porter le moindre jugement."],
         explanation: "\"Au nom de\" (in the name of); \"quoi que ce soit\" = anything at all.",
       },
       {
@@ -1707,7 +1707,7 @@ export const FR_C2_U32: Lesson[] = [
         type: "dictation",
         audio: "Que sais-je ? demandait Montaigne.",
         answer: "« Que sais-je ? » demandait Montaigne.",
-        altAnswers: ["Que sais-je ? demandait Montaigne.", "Que sais-je ?, demandait Montaigne."],
+        altAnswers: ["Que sais-je ? demandait Montaigne."],
         explanation: "Montaigne's sceptical motto, with inversion \"sais-je\".",
       },
       {
@@ -1818,7 +1818,7 @@ export const FR_C2_U32: Lesson[] = [
           { es: "Il m'a fait part de ses inquiétudes concernant le projet.", en: "He told me about his concerns regarding the project." },
           { es: "Ils ont fait fi de toutes les recommandations de sécurité.", en: "They disregarded all the safety recommendations." },
           { es: "La décision a donné lieu à de vifs débats.", en: "The decision gave rise to heated debate." },
-          { es: "Elle a su tirer parti de ses erreurs.", en: "She knew how to learn from her mistakes." },
+          { es: "Elle a su tirer parti de ses erreurs.", en: "She managed to turn her mistakes to her advantage." },
           { es: "Nous avons reçu le faire-part de leur mariage.", en: "We received their wedding announcement." },
           { es: "L'entreprise a tiré parti de la faiblesse de ses concurrents.", en: "The company took advantage of its competitors' weakness." },
         ],

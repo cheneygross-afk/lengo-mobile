@@ -7,17 +7,17 @@ export const PT_A1_U09: Lesson[] = [
     slug: "a1-word-web-colours",
     level: "PT-A1",
     number: 1,
-    title: "Word Web: Colours",
-    summary: "Name the colours in Portuguese, put them after the noun and make them agree, including the ones that never change.",
+    title: "Word Web: Colors",
+    summary: "Name the colors in Portuguese, put them after the noun and make them agree, including the ones that never change.",
     duration: "10 min",
     kind: "teach",
     format: "Word Web",
     sections: [
       {
-        heading: "Vermelho, vermelha: colours are adjectives",
+        heading: "Vermelho, vermelha: colors are adjectives",
         body: [
-          "Colours are adjectives, so they follow the noun and agree with it, like \"novo\" and \"bonito\" in Unit 3: \"um carro vermelho\", \"uma casa vermelha\", \"os carros vermelhos\", \"as casas vermelhas\". English puts the colour first (a red car); Portuguese almost never does.",
-          "The colours ending in \"-o\" have all four forms: \"vermelho\" (red), \"amarelo\" (yellow), \"branco\" (white), \"preto\" (black), \"roxo\" (purple). The ending follows the noun, not the thing you picture: \"a camisa\" is feminine, so it's \"a camisa branca\" even on a man.",
+          "Colors are adjectives, so they follow the noun and agree with it, like \"novo\" and \"bonito\" in Unit 3: \"um carro vermelho\", \"uma casa vermelha\", \"os carros vermelhos\", \"as casas vermelhas\". English puts the color first (a red car); Portuguese almost never does.",
+          "The colors ending in \"-o\" have all four forms: \"vermelho\" (red), \"amarelo\" (yellow), \"branco\" (white), \"preto\" (black), \"roxo\" (purple). The ending follows the noun, not the thing you picture: \"a camisa\" is feminine, so it's \"a camisa branca\" even on a man.",
         ],
         examples: [
           { es: "Eu tenho um carro vermelho.", en: "I have a red car." },
@@ -34,7 +34,7 @@ export const PT_A1_U09: Lesson[] = [
             source: "I have a red car.",
             answer: "Eu tenho um carro vermelho.",
             altAnswers: ["Tenho um carro vermelho."],
-            explanation: "The colour comes after the noun and agrees with it: \"carro\" is masculine, so \"vermelho\".",
+            explanation: "The color comes after the noun and agrees with it: \"carro\" is masculine, so \"vermelho\".",
           },
           {
             type: "fill-blank",
@@ -42,15 +42,15 @@ export const PT_A1_U09: Lesson[] = [
             en: "The walls are [white].",
             sentence: "As paredes são ___.",
             answer: "brancas",
-            explanation: "\"Paredes\" is feminine plural, so the colour takes \"-as\": \"brancas\".",
+            explanation: "\"Paredes\" is feminine plural, so the color takes \"-as\": \"brancas\".",
           },
         ],
       },
       {
         heading: "Azul, verde, marrom: one form for both genders",
         body: [
-          "Colours that don't end in \"-o\" have no feminine form; they only add a plural. \"Verde\" (green) and \"bege\" (beige) add \"-s\": \"as portas verdes\". \"Azul\" (blue) follows the \"-l\" rule from Unit 3 and becomes \"azuis\": \"os olhos azuis\", never \"*azuls\". \"Marrom\" (brown) follows the \"-m\" rule: \"os sapatos marrons\".",
-          "Three colours never change at all, because they are really nouns: \"cinza\" (grey, ash), \"rosa\" (pink, a rose) and \"laranja\" (orange, the fruit). Say \"as camisas rosa\" and \"os carros cinza\", with no \"-s\". In casual speech you will hear \"rosas\", but the written standard keeps them unchanged.",
+          "Colors that don't end in \"-o\" have no feminine form; they only add a plural. \"Verde\" (green) and \"bege\" (beige) add \"-s\": \"as portas verdes\". \"Azul\" (blue) follows the \"-l\" rule from Unit 3 and becomes \"azuis\": \"os olhos azuis\", never \"*azuls\". \"Marrom\" (brown) follows the \"-m\" rule: \"os sapatos marrons\".",
+          "Three colors never change at all, because they are really nouns: \"cinza\" (gray, ash), \"rosa\" (pink, a rose) and \"laranja\" (orange, the fruit). Say \"as camisas rosa\" and \"os carros cinza\", with no \"-s\". In casual speech you will hear \"rosas\", but the written standard keeps them unchanged.",
         ],
         examples: [
           { es: "A porta é azul.", en: "The door is blue." },
@@ -58,7 +58,7 @@ export const PT_A1_U09: Lesson[] = [
           { es: "As cadeiras são verdes.", en: "The chairs are green." },
           { es: "Eu gosto de sapatos marrons.", en: "I like brown shoes." },
           { es: "As camisas rosa são bonitas.", en: "The pink shirts are pretty." },
-          { es: "Os carros cinza são novos.", en: "The grey cars are new." },
+          { es: "Os carros cinza são novos.", en: "The gray cars are new." },
         ],
         checkpoint: [
           {
@@ -72,7 +72,7 @@ export const PT_A1_U09: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The grey cars are new.",
+            source: "The gray cars are new.",
             answer: "Os carros cinza são novos.",
             explanation: "\"Cinza\" never changes, so no \"-s\" even with a plural noun. \"Novos\" is a normal adjective and agrees.",
           },
@@ -87,24 +87,24 @@ export const PT_A1_U09: Lesson[] = [
         ],
       },
       {
-        heading: "De que cor é? Asking about colour",
+        heading: "De que cor é? Asking about color",
         body: [
-          "To ask what colour something is, use the chunk \"De que cor é...?\", literally 'of what colour is...?': \"De que cor é o carro?\" For a plural, \"De que cor são os sapatos?\" The answer is simply \"é azul\" or \"são pretos\", with the colour agreeing.",
-          "\"Cor\" (colour) is feminine: \"a cor\", \"uma cor bonita\". Words like \"escuro\" (dark) and \"claro\" (light) can follow a colour: \"azul-claro\", \"verde-escuro\". In these compound colours only the second word agrees: \"as camisas azul-claras\", \"os olhos verde-escuros\".",
+          "To ask what color something is, use the chunk \"De que cor é...?\", literally 'of what color is...?': \"De que cor é o carro?\" For a plural, \"De que cor são os sapatos?\" The answer is simply \"é azul\" or \"são pretos\", with the color agreeing.",
+          "\"Cor\" (color) is feminine: \"a cor\", \"uma cor bonita\". Words like \"escuro\" (dark) and \"claro\" (light) can follow a color: \"azul-claro\", \"verde-escuro\". In these compound colors only the second word agrees: \"as camisas azul-claras\", \"os olhos verde-escuros\".",
         ],
         examples: [
-          { es: "De que cor é o carro?", en: "What colour is the car?" },
+          { es: "De que cor é o carro?", en: "What color is the car?" },
           { es: "É branco.", en: "It's white." },
-          { es: "De que cor são os sapatos?", en: "What colour are the shoes?" },
+          { es: "De que cor são os sapatos?", en: "What color are the shoes?" },
           { es: "São pretos.", en: "They're black." },
-          { es: "Laranja é uma cor alegre.", en: "Orange is a cheerful colour." },
+          { es: "Laranja é uma cor alegre.", en: "Orange is a cheerful color." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "What colour is the house?",
+            source: "What color is the house?",
             answer: "De que cor é a casa?",
             altAnswers: ["Qual é a cor da casa?"],
             explanation: "\"De que cor é...?\" is the set way to ask. Portuguese keeps the \"de\" at the start, where English has none.",
@@ -125,7 +125,7 @@ export const PT_A1_U09: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "The door is yellow.",
         answer: "A porta é amarela.",
-        explanation: "\"Porta\" is feminine, so \"amarela\". A lasting description like a colour takes \"ser\".",
+        explanation: "\"Porta\" is feminine, so \"amarela\". A lasting description like a color takes \"ser\".",
       },
       {
         type: "translate",
@@ -143,7 +143,7 @@ export const PT_A1_U09: Lesson[] = [
         source: "I have two black cats.",
         answer: "Eu tenho dois gatos pretos.",
         altAnswers: ["Tenho dois gatos pretos."],
-        explanation: "Number before the noun, colour after it, and the colour agrees: \"gatos pretos\".",
+        explanation: "Number before the noun, color after it, and the color agrees: \"gatos pretos\".",
       },
       {
         type: "fill-blank",
@@ -151,7 +151,7 @@ export const PT_A1_U09: Lesson[] = [
         en: "The [pink] shirts are cheap.",
         sentence: "As camisas ___ são baratas.",
         answer: "rosa",
-        explanation: "\"Rosa\" is one of the colours that never change: \"as camisas rosa\", not \"rosas\" in careful Portuguese.",
+        explanation: "\"Rosa\" is one of the colors that never change: \"as camisas rosa\", not \"rosas\" in careful Portuguese.",
       },
       {
         type: "fill-blank",
@@ -166,20 +166,20 @@ export const PT_A1_U09: Lesson[] = [
         question: "Which phrase means a white shirt?",
         options: ["uma camisa branca", "uma branca camisa", "uma camisa branco", "um camisa branco"],
         correctIndex: 0,
-        explanation: "The colour follows the noun and agrees with it: \"camisa\" is feminine, so \"uma\" and \"branca\".",
+        explanation: "The color follows the noun and agrees with it: \"camisa\" is feminine, so \"uma\" and \"branca\".",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: The brown shoes are new.",
         words: ["Os", "sapatos", "marrons", "são", "novos."],
         translation: "The brown shoes are new.",
-        explanation: "Noun + colour + verb: \"os sapatos marrons\". \"Marrom\" adds \"-ns\" in the plural.",
+        explanation: "Noun + color + verb: \"os sapatos marrons\". \"Marrom\" adds \"-ns\" in the plural.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "What colour are the chairs?",
+        source: "What color are the chairs?",
         answer: "De que cor são as cadeiras?",
         altAnswers: ["Qual é a cor das cadeiras?"],
         explanation: "With a plural noun the chunk becomes \"De que cor são...?\".",
@@ -187,7 +187,7 @@ export const PT_A1_U09: Lesson[] = [
       {
         type: "dictation",
         audio: "O carro é cinza.",
-        explanation: "\"Cinza\" (grey) has a single form for every noun.",
+        explanation: "\"Cinza\" (gray) has a single form for every noun.",
       },
       {
         type: "matching",
@@ -199,13 +199,13 @@ export const PT_A1_U09: Lesson[] = [
           { left: "marrom", right: "brown" },
           { left: "laranja", right: "orange" },
         ],
-        explanation: "\"Laranja\" is also the fruit, which is why it never changes as a colour.",
+        explanation: "\"Laranja\" is also the fruit, which is why it never changes as a color.",
       },
       {
         type: "speak",
         text: "Ele tem olhos azuis.",
         prompt: "Say it in Portuguese: He has blue eyes.",
-        tip: "Azuis is two syllables, a-ZUIS, with the stress at the end.",
+        tip: "Azuis is two syllables, 'ah-ZOOYS', with the stress at the end.",
         explanation: "\"Azul\" → \"azuis\" in the plural.",
       },
     ],
@@ -223,7 +223,7 @@ export const PT_A1_U09: Lesson[] = [
         heading: "Ela é alta: build and looks with ser",
         body: [
           "What someone looks like is part of who they are, so it takes \"ser\": \"ele é alto\" (he's tall), \"ela é baixa\" (she's short), \"eles são magros\" (they're slim). The adjective agrees with the person: \"o Lucas é alto\", \"a Beatriz é alta\", \"os meninos são altos\".",
-          "Useful words: \"alto\" (tall), \"baixo\" (short), \"magro\" (slim, thin), \"forte\" (strong, well-built), \"jovem\" (young), \"bonito\" (good-looking). \"Forte\" and \"jovem\" have one form for both genders, and \"jovem\" becomes \"jovens\" in the plural. Short for a person is \"baixo\"; \"curto\" is for hair, trips and films.",
+          "Useful words: \"alto\" (tall), \"baixo\" (short), \"magro\" (slim, thin), \"forte\" (strong, well-built), \"jovem\" (young), \"bonito\" (good-looking). \"Forte\" and \"jovem\" have one form for both genders, and \"jovem\" becomes \"jovens\" in the plural. Short for a person is \"baixo\"; \"curto\" is for hair, trips and movies.",
         ],
         examples: [
           { es: "O Lucas é alto e magro.", en: "Lucas is tall and slim." },
@@ -256,7 +256,7 @@ export const PT_A1_U09: Lesson[] = [
         heading: "Ela tem olhos verdes: hair and eyes with ter",
         body: [
           "Hair and eyes are things you have, so Portuguese uses \"ter\", just as English uses has: \"ela tem olhos verdes\", \"ele tem cabelo curto\". The common mistake is \"*ela é olhos azuis\", copying the structure of \"ela é alta\".",
-          "After \"ter\", the hair usually takes no article and is singular: \"tenho cabelo comprido\" (I have long hair). You will also hear \"tenho o cabelo comprido\"; both are right. Hair words: \"curto\" (short), \"comprido\" (long), \"liso\" (straight), \"cacheado\" (curly), \"castanho\" (brown), \"preto\" (black). Brown eyes are \"olhos castanhos\"; \"marrom\" is for things, not eyes or hair.",
+          "After \"ter\", the hair usually takes no article and is singular: \"tenho cabelo comprido\" (I have long hair). You will also hear \"tenho o cabelo comprido\"; both are right. Hair words: \"curto\" (short), \"comprido\" (long), \"liso\" (straight), \"cacheado\" (curly), \"castanho\" (brown), \"preto\" (black). Brown eyes are usually \"olhos castanhos\" and brown hair \"cabelo castanho\"; \"marrom\" is mainly for things, though you'll also hear \"olhos marrons\".",
         ],
         examples: [
           { es: "Ela tem olhos verdes.", en: "She has green eyes." },
@@ -271,7 +271,7 @@ export const PT_A1_U09: Lesson[] = [
             question: "How do you say: She has blue eyes?",
             options: ["Ela tem olhos azuis.", "Ela é olhos azuis.", "Ela está olhos azuis.", "Ela tem olhos azul."],
             correctIndex: 0,
-            explanation: "Eyes are something you have: \"tem\". The colour agrees with \"olhos\", so the plural \"azuis\".",
+            explanation: "Eyes are something you have: \"tem\". The color agrees with \"olhos\", so the plural \"azuis\".",
           },
           {
             type: "translate",
@@ -293,7 +293,7 @@ export const PT_A1_U09: Lesson[] = [
       {
         heading: "Loiro, moreno, ruivo",
         body: [
-          "Three words describe a person by their colouring, with \"ser\": \"loiro\" (blond), \"ruivo\" (red-haired) and \"moreno\". \"Moreno\" is very Brazilian: it means dark-haired, and also brown-skinned or tanned. \"Ela é morena\" is a friendly, everyday description.",
+          "Three words describe a person by their coloring, with \"ser\": \"loiro\" (blond), \"ruivo\" (red-haired) and \"moreno\". \"Moreno\" is very Brazilian: it means dark-haired, and also brown-skinned or tanned. \"Ela é morena\" is a friendly, everyday description.",
           "Each agrees like any adjective: \"ele é loiro\", \"ela é loira\", \"eles são ruivos\". You can also say \"ele tem cabelo loiro\"; with \"ser\" the word describes the person, with \"ter\" it describes the hair.",
         ],
         examples: [
@@ -310,7 +310,7 @@ export const PT_A1_U09: Lesson[] = [
             source: "She's blond and has blue eyes.",
             answer: "Ela é loira e tem olhos azuis.",
             altAnswers: ["Ela é loura e tem olhos azuis.", "Ela é loira e tem os olhos azuis."],
-            explanation: "\"Ser\" for the person (\"é loira\"), \"ter\" for the eyes (\"tem olhos azuis\"). \"Loura\" is an older spelling also in use.",
+            explanation: "\"Ser\" for the person (\"é loira\"), \"ter\" for the eyes (\"tem olhos azuis\"). \"Loura\" is an equally correct variant.",
           },
           {
             type: "listen-choose",
@@ -348,8 +348,8 @@ export const PT_A1_U09: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "He has brown eyes.",
         answer: "Ele tem olhos castanhos.",
-        altAnswers: ["Ele tem os olhos castanhos."],
-        explanation: "Brown eyes and hair are \"castanhos\"; \"marrom\" is for shoes, furniture and other things.",
+        altAnswers: ["Ele tem os olhos castanhos.", "Ele tem olhos marrons.", "Ele tem os olhos marrons."],
+        explanation: "The usual word for brown eyes and hair is \"castanhos\". \"Olhos marrons\" is also heard, but \"marrom\" is mainly for shoes, furniture and other things.",
       },
       {
         type: "fill-blank",
@@ -436,7 +436,7 @@ export const PT_A1_U09: Lesson[] = [
           { es: "Os alunos são engraçados.", en: "The students are funny." },
           { es: "Ela é tímida, mas inteligente.", en: "She's shy but smart." },
           { es: "Vocês são legais!", en: "You guys are great!" },
-          { es: "O vizinho é esquisito.", en: "The neighbour is weird." },
+          { es: "O vizinho é esquisito.", en: "The neighbor is weird." },
         ],
         checkpoint: [
           {
@@ -532,7 +532,7 @@ export const PT_A1_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The neighbour is weird.",
+        source: "The neighbor is weird.",
         answer: "O vizinho é esquisito.",
         altAnswers: ["A vizinha é esquisita."],
         explanation: "\"Esquisito\" means weird, a classic false friend for exquisite.",
@@ -828,7 +828,7 @@ export const PT_A1_U09: Lesson[] = [
     level: "PT-A1",
     number: 5,
     title: "Word Web: House & Furniture",
-    summary: "Name the rooms and furniture of a Brazilian home, say what a flat has with ter and describe each room.",
+    summary: "Name the rooms and furniture of a Brazilian home, say what an apartment has with ter and describe each room.",
     duration: "10 min",
     kind: "teach",
     format: "Word Web",
@@ -836,22 +836,22 @@ export const PT_A1_U09: Lesson[] = [
       {
         heading: "O apartamento tem dois quartos",
         body: [
-          "The rooms: \"a sala\" (living room), \"o quarto\" (bedroom), \"a cozinha\" (kitchen), \"o banheiro\" (bathroom), \"a varanda\" (balcony) and \"a área de serviço\", the small laundry area almost every Brazilian flat has. \"Quarto\" is always a bedroom; a room in general is \"cômodo\".",
+          "The rooms: \"a sala\" (living room), \"o quarto\" (bedroom), \"a cozinha\" (kitchen), \"o banheiro\" (bathroom), \"a varanda\" (balcony) and \"a área de serviço\", the small laundry area almost every Brazilian apartment has. \"Quarto\" is always a bedroom; a room in general is \"cômodo\".",
           "To say what a home has, use \"ter\": \"o apartamento tem dois quartos e um banheiro\". English speakers sometimes write \"*a casa é dois quartos\", but \"ser\" can only describe the house, not list its parts. Most Brazilians in big cities live in \"um apartamento\" in \"um prédio\" (a building).",
         ],
         examples: [
-          { es: "O apartamento tem dois quartos e um banheiro.", en: "The flat has two bedrooms and a bathroom." },
+          { es: "O apartamento tem dois quartos e um banheiro.", en: "The apartment has two bedrooms and a bathroom." },
           { es: "A casa tem uma varanda grande.", en: "The house has a big balcony." },
           { es: "A cozinha é pequena.", en: "The kitchen is small." },
           { es: "O banheiro tem chuveiro.", en: "The bathroom has a shower." },
-          { es: "Nós moramos em um apartamento em Recife.", en: "We live in a flat in Recife." },
+          { es: "Nós moramos em um apartamento em Recife.", en: "We live in an apartment in Recife." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The flat has three bedrooms.",
+            source: "The apartment has three bedrooms.",
             answer: "O apartamento tem três quartos.",
             altAnswers: ["O apartamento tem 3 quartos."],
             explanation: "Parts of a home take \"ter\": \"tem três quartos\". \"Quarto\" is a bedroom.",
@@ -868,13 +868,13 @@ export const PT_A1_U09: Lesson[] = [
       {
         heading: "O sofá, a cama, a geladeira",
         body: [
-          "Furniture and appliances, each with its article: \"o sofá\", \"a cama\" (bed), \"a mesa\" (table), \"a cadeira\" (chair), \"o armário\" (wardrobe, cupboard), \"a geladeira\" (fridge), \"o fogão\" (stove) and \"o chuveiro\" (shower). Many Brazilian showers are electric, heated at the shower head.",
+          "Furniture and appliances, each with its article: \"o sofá\", \"a cama\" (bed), \"a mesa\" (table), \"a cadeira\" (chair), \"o armário\" (closet, cupboard), \"a geladeira\" (fridge), \"o fogão\" (stove) and \"o chuveiro\" (shower). Many Brazilian showers are electric, heated at the shower head.",
           "Use \"ter\" for what a room has and \"estar\" for where a thing is: \"a sala tem um sofá\", \"o sofá está na sala\". \"Na\" and \"no\" are the chunks for in the from Unit 3.",
         ],
         examples: [
           { es: "A sala tem um sofá e duas cadeiras.", en: "The living room has a sofa and two chairs." },
           { es: "A geladeira está na cozinha.", en: "The fridge is in the kitchen." },
-          { es: "O quarto tem uma cama e um armário.", en: "The bedroom has a bed and a wardrobe." },
+          { es: "O quarto tem uma cama e um armário.", en: "The bedroom has a bed and a closet." },
           { es: "O fogão é novo.", en: "The stove is new." },
           { es: "A mesa está na varanda.", en: "The table is on the balcony." },
         ],
@@ -891,7 +891,7 @@ export const PT_A1_U09: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The bedroom has a bed and a wardrobe.",
+            source: "The bedroom has a bed and a closet.",
             answer: "O quarto tem uma cama e um armário.",
             explanation: "\"Ter\" for what the room has; \"cama\" is feminine, \"armário\" masculine.",
           },
@@ -964,7 +964,7 @@ export const PT_A1_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The building is old, but the flat is new.",
+        source: "The building is old, but the apartment is new.",
         answer: "O prédio é velho, mas o apartamento é novo.",
         explanation: "\"Ser\" for both descriptions; \"velho\" and \"novo\" agree with masculine nouns.",
       },
@@ -1010,7 +1010,7 @@ export const PT_A1_U09: Lesson[] = [
           { left: "o quarto", right: "the bedroom" },
           { left: "a sala", right: "the living room" },
           { left: "o fogão", right: "the stove" },
-          { left: "o armário", right: "the wardrobe" },
+          { left: "o armário", right: "the closet" },
           { left: "o chuveiro", right: "the shower" },
         ],
         explanation: "Learn each noun with its article: \"o quarto\", \"a sala\".",
@@ -1018,7 +1018,7 @@ export const PT_A1_U09: Lesson[] = [
       {
         type: "speak",
         text: "O apartamento tem dois quartos e um banheiro.",
-        prompt: "Say it in Portuguese: The flat has two bedrooms and a bathroom.",
+        prompt: "Say it in Portuguese: The apartment has two bedrooms and a bathroom.",
         tip: "Banheiro has nh, like the ny in canyon.",
         explanation: "\"Ter\" lists the parts of a home.",
       },
@@ -1037,13 +1037,13 @@ export const PT_A1_U09: Lesson[] = [
       {
         heading: "A camiseta, a calça, o tênis",
         body: [
-          "Everyday clothes: \"a camiseta\" (T-shirt), \"a camisa\" (shirt), \"a calça\" (trousers, pants), \"a bermuda\" (shorts), \"a saia\" (skirt), \"o vestido\" (dress) and \"o casaco\" (coat, jacket). Shoes: \"o tênis\" (trainers, sneakers), \"a sandália\", \"o chinelo\" (flip-flops) and \"o boné\" (cap) for the head.",
-          "English says a pair of trousers; Portuguese says one \"calça\", singular: \"uma calça preta\". \"*As calças\" for one pair is a classic mistake, and \"a bermuda\" works the same way. \"Tênis\" is the same in the singular and plural: \"um tênis\" (a pair of trainers), \"dois tênis\". Only the article and the adjective show the plural: \"os tênis brancos\".",
+          "Everyday clothes: \"a camiseta\" (T-shirt), \"a camisa\" (shirt), \"a calça\" (pants), \"a bermuda\" (shorts), \"a saia\" (skirt), \"o vestido\" (dress) and \"o casaco\" (coat, jacket). Shoes: \"o tênis\" (sneakers, sneakers), \"a sandália\", \"o chinelo\" (flip-flops) and \"o boné\" (cap) for the head.",
+          "English says a pair of pants; Portuguese says one \"calça\", singular: \"uma calça preta\". In Brazil the plural \"as calças\" for one pair sounds foreign, and \"a bermuda\" works the same way. \"Tênis\" is the same in the singular and plural: \"um tênis\" (a pair of sneakers), \"dois tênis\". Only the article and the adjective show the plural: \"os tênis brancos\".",
         ],
         examples: [
-          { es: "Eu tenho uma calça preta.", en: "I have a pair of black trousers." },
+          { es: "Eu tenho uma calça preta.", en: "I have a pair of black pants." },
           { es: "A bermuda é azul.", en: "The shorts are blue." },
-          { es: "Ela tem dois tênis brancos.", en: "She has two pairs of white trainers." },
+          { es: "Ela tem dois tênis brancos.", en: "She has two pairs of white sneakers." },
           { es: "O vestido é muito bonito.", en: "The dress is very pretty." },
           { es: "O boné é novo.", en: "The cap is new." },
         ],
@@ -1053,7 +1053,7 @@ export const PT_A1_U09: Lesson[] = [
             question: "You're talking about one pair of jeans. Which is right?",
             options: ["A calça é azul.", "As calças são azuis.", "A calça são azuis.", "O calça é azul."],
             correctIndex: 0,
-            explanation: "One pair of trousers is singular in Portuguese: \"a calça\". The plural would mean several pairs.",
+            explanation: "One pair of pants is singular in Portuguese: \"a calça\". The plural would mean several pairs.",
           },
           {
             type: "translate",
@@ -1069,11 +1069,11 @@ export const PT_A1_U09: Lesson[] = [
         heading: "Ela está de vestido azul: what someone has on",
         body: [
           "To say what someone is wearing right now, Brazilians use \"estar de\" + the clothes, usually with no article: \"ela está de vestido azul\" (she's wearing a blue dress), \"hoje eu estou de tênis\". It's \"estar\" because it's true now, not always.",
-          "You can join several items with \"e\": \"ele está de bermuda e chinelo\", the typical beach outfit in Rio. The colour still agrees with the clothing: \"ela está de saia vermelha\".",
+          "You can join several items with \"e\": \"ele está de bermuda e chinelo\", the typical beach outfit in Rio. The color still agrees with the clothing: \"ela está de saia vermelha\".",
         ],
         examples: [
           { es: "Ela está de vestido azul.", en: "She's wearing a blue dress." },
-          { es: "Hoje eu estou de tênis.", en: "Today I'm wearing trainers." },
+          { es: "Hoje eu estou de tênis.", en: "Today I'm wearing sneakers." },
           { es: "Ele está de bermuda e chinelo.", en: "He's in shorts and flip-flops." },
           { es: "O João está de camisa branca.", en: "João is wearing a white shirt." },
           { es: "As meninas estão de saia.", en: "The girls are wearing skirts." },
@@ -1100,7 +1100,7 @@ export const PT_A1_U09: Lesson[] = [
             type: "listen-choose",
             audio: "Ele está de bermuda e chinelo.",
             question: "What does it mean?",
-            options: ["He's in shorts and flip-flops.", "He's in trousers and trainers.", "He's in a shirt and sandals.", "He always wears shorts."],
+            options: ["He's in shorts and flip-flops.", "He's in pants and sneakers.", "He's in a shirt and sandals.", "He always wears shorts."],
             correctIndex: 0,
             explanation: "\"Está de\" is what he has on now; \"bermuda\" is shorts and \"chinelo\" flip-flops.",
           },
@@ -1113,7 +1113,7 @@ export const PT_A1_U09: Lesson[] = [
           "\"Óculos\" is always plural, even for one pair: \"os óculos são novos\".",
         ],
         examples: [
-          { es: "Eu uso tênis no trabalho.", en: "I wear trainers at work." },
+          { es: "Eu uso tênis no trabalho.", en: "I wear sneakers at work." },
           { es: "Ela usa óculos.", en: "She wears glasses." },
           { es: "O seu Antônio usa boné.", en: "Seu Antônio wears a cap." },
           { es: "Nós não usamos casaco em Salvador.", en: "We don't wear coats in Salvador." },
@@ -1141,16 +1141,16 @@ export const PT_A1_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I have a pair of black trousers.",
+        source: "I have a pair of black pants.",
         answer: "Eu tenho uma calça preta.",
         altAnswers: ["Tenho uma calça preta."],
-        explanation: "One pair of trousers is \"uma calça\", singular and feminine.",
+        explanation: "One pair of pants is \"uma calça\", singular and feminine.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Today I'm wearing trainers.",
+        source: "Today I'm wearing sneakers.",
         answer: "Hoje eu estou de tênis.",
         altAnswers: ["Hoje estou de tênis.", "Eu estou de tênis hoje.", "Estou de tênis hoje."],
         explanation: "What you have on now: \"estar de\" + clothing.",
@@ -1176,7 +1176,7 @@ export const PT_A1_U09: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "She has two pairs of [white] trainers.",
+        en: "She has two pairs of [white] sneakers.",
         sentence: "Ela tem dois tênis ___.",
         answer: "brancos",
         explanation: "\"Tênis\" doesn't change in the plural, but the adjective does: \"brancos\".",
@@ -1213,7 +1213,7 @@ export const PT_A1_U09: Lesson[] = [
         instructions: "Match the Portuguese to the English.",
         pairs: [
           { left: "a camiseta", right: "the T-shirt" },
-          { left: "a calça", right: "the trousers" },
+          { left: "a calça", right: "the pants" },
           { left: "o chinelo", right: "the flip-flops" },
           { left: "o casaco", right: "the coat" },
           { left: "o vestido", right: "the dress" },
@@ -1314,7 +1314,7 @@ export const PT_A1_U09: Lesson[] = [
         heading: "A casa é grande, tem três quartos, está limpa",
         body: [
           "Homes follow the same logic. \"A casa é grande\" describes it; \"a casa tem três quartos\" lists what it has; \"a casa está limpa\" (clean) or \"está suja\" (dirty) is its state today.",
-          "A clean flat today can be dirty tomorrow, so cleanliness always takes \"estar\".",
+          "A clean apartment today can be dirty tomorrow, so cleanliness usually takes \"estar\".",
         ],
         examples: [
           { es: "A casa é grande.", en: "The house is big." },
@@ -1379,7 +1379,7 @@ export const PT_A1_U09: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The flat [has] two bathrooms.",
+        en: "The apartment [has] two bathrooms.",
         sentence: "O apartamento ___ dois banheiros.",
         answer: "tem",
         explanation: "Parts of a home: \"ter\".",
@@ -1390,7 +1390,7 @@ export const PT_A1_U09: Lesson[] = [
         en: "The shirt [is] white.",
         sentence: "A camisa ___ branca.",
         answer: "é",
-        explanation: "The shirt's colour is a lasting description: \"é\".",
+        explanation: "The shirt's color is a lasting description: \"é\".",
       },
       {
         type: "fill-blank",
@@ -1423,7 +1423,7 @@ export const PT_A1_U09: Lesson[] = [
         type: "speak",
         text: "Ele tem vinte anos e é muito alto.",
         prompt: "Say it in Portuguese: He's twenty and very tall.",
-        tip: "Vinte: the t before final e sounds like ch, VIN-tchi.",
+        tip: "Vinte: the t before final e sounds like ch, 'VEEN-chee'.",
         explanation: "Age with \"ter\", height with \"ser\".",
       },
     ],
@@ -1615,7 +1615,7 @@ export const PT_A1_U09: Lesson[] = [
         type: "speak",
         text: "Eu sou moreno e estou de camiseta verde.",
         prompt: "Say it in Portuguese: I'm dark-haired and I'm wearing a green T-shirt.",
-        tip: "Verde: the final e sounds like i, VER-dji.",
+        tip: "Verde: the d before the final e sounds like j, and the e like i: 'VER-jee'.",
         explanation: "\"Ser\" for your looks, \"estar de\" for today's clothes. A woman says \"morena\".",
       },
     ],
@@ -1625,7 +1625,7 @@ export const PT_A1_U09: Lesson[] = [
     level: "PT-A1",
     number: 9,
     title: "Error Hunt: People, Homes & Clothes",
-    summary: "Find and fix the typical beginner mistakes in descriptions: the wrong verb for age and states, colours that don't agree, and plural clothes.",
+    summary: "Find and fix the typical beginner mistakes in descriptions: the wrong verb for age and states, colors that don't agree, and plural clothes.",
     duration: "10 min",
     kind: "drill",
     format: "Error Hunt",
@@ -1671,16 +1671,16 @@ export const PT_A1_U09: Lesson[] = [
         ],
       },
       {
-        heading: "Colours that don't agree",
+        heading: "Colors that don't agree",
         body: [
-          "\"*Uma camisa vermelho\": the colour must agree with the noun, so \"uma camisa vermelha\". \"*Os olhos azul\": \"azul\" has no feminine, but it does have a plural, \"azuis\".",
-          "\"*As camisas rosas\" is the opposite mistake: \"rosa\", \"cinza\" and \"laranja\" never change, so \"as camisas rosa\". When you correct a colour, check two things: does it have a feminine, and how does it make the plural?",
+          "\"*Uma camisa vermelho\": the color must agree with the noun, so \"uma camisa vermelha\". \"*Os olhos azul\": \"azul\" has no feminine, but it does have a plural, \"azuis\".",
+          "\"*As camisas rosas\" is the opposite mistake: \"rosa\", \"cinza\" and \"laranja\" never change, so \"as camisas rosa\". When you correct a color, check two things: does it have a feminine, and how does it make the plural?",
         ],
         examples: [
           { es: "Ela está de camisa vermelha.", en: "She's wearing a red shirt." },
           { es: "O bebê tem olhos azuis.", en: "The baby has blue eyes." },
           { es: "As camisas rosa são caras.", en: "The pink shirts are expensive." },
-          { es: "Os sofás cinza são confortáveis.", en: "The grey sofas are comfortable." },
+          { es: "Os sofás cinza são confortáveis.", en: "The gray sofas are comfortable." },
         ],
         checkpoint: [
           {
@@ -1705,14 +1705,14 @@ export const PT_A1_U09: Lesson[] = [
       {
         heading: "As calças: one pair or many?",
         body: [
-          "\"*Estou de calças pretas\" for one pair is English thinking. One pair of trousers or shorts is singular: \"estou de calça preta\", \"a bermuda é azul\". \"As calças\" means several pairs, as in a shop.",
-          "\"Tênis\" has the opposite trap: learners add a plural \"*tênises\". The word never changes; the article and the colour carry the plural: \"os tênis azuis\".",
+          "\"*Estou de calças pretas\" for one pair is English thinking and sounds foreign in Brazil. One pair of pants or shorts is singular: \"estou de calça preta\", \"a bermuda é azul\". \"As calças\" means several pairs, as in a store.",
+          "\"Tênis\" has the opposite trap: learners add a plural \"*tênises\". The word never changes; the article and the color carry the plural: \"os tênis azuis\".",
         ],
         examples: [
-          { es: "Estou de calça preta.", en: "I'm wearing black trousers." },
+          { es: "Estou de calça preta.", en: "I'm wearing black pants." },
           { es: "A bermuda é nova.", en: "The shorts are new." },
-          { es: "Ela tem três tênis.", en: "She has three pairs of trainers." },
-          { es: "Os tênis azuis são novos.", en: "The blue trainers are new." },
+          { es: "Ela tem três tênis.", en: "She has three pairs of sneakers." },
+          { es: "Os tênis azuis são novos.", en: "The blue sneakers are new." },
         ],
         checkpoint: [
           {
@@ -1727,7 +1727,7 @@ export const PT_A1_U09: Lesson[] = [
             type: "speak",
             text: "Estou de calça preta.",
             tip: "Calça: the ç is a plain s sound.",
-            explanation: "One pair of trousers is \"calça\", singular.",
+            explanation: "One pair of pants is \"calça\", singular.",
           },
         ],
       },
@@ -1777,10 +1777,10 @@ export const PT_A1_U09: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The [blue] trainers are new.",
+        en: "The [blue] sneakers are new.",
         sentence: "Os tênis ___ são novos.",
         answer: "azuis",
-        explanation: "\"Tênis\" doesn't change, but the colour does: \"azuis\".",
+        explanation: "\"Tênis\" doesn't change, but the color does: \"azuis\".",
       },
       {
         type: "multiple-choice",
@@ -1807,9 +1807,9 @@ export const PT_A1_U09: Lesson[] = [
         type: "listen-choose",
         audio: "As camisas rosa são bonitas.",
         question: "What did you hear?",
-        options: ["As camisas rosa são bonitas.", "As camisas rosas são bonitas.", "A camisa rosa é bonita.", "As camisas roxas são bonitas."],
+        options: ["As camisas rosa são bonitas.", "As saias rosa são bonitas.", "A camisa rosa é bonita.", "As camisas roxas são bonitas."],
         correctIndex: 0,
-        explanation: "\"Rosa\" stays unchanged after a plural noun; \"roxas\" would be purple.",
+        explanation: "\"Rosa\" stays unchanged after the plural \"camisas\": \"as camisas rosa\". \"Saias\" are skirts, and \"roxas\" would be purple.",
       },
       {
         type: "speak",
@@ -1866,13 +1866,13 @@ export const PT_A1_U09: Lesson[] = [
       {
         heading: "Masculine to feminine",
         body: [
-          "Change a man into a woman and the \"-o\" adjectives switch to \"-a\": \"o menino tímido\" → \"a menina tímida\". Adjectives in \"-e\", \"-l\" and \"-z\" don't change: \"inteligente\", \"legal\", \"feliz\" stay as they are.",
+          "Change a man into a woman and the \"-o\" adjectives switch to \"-a\": \"o menino tímido\" → \"a menina tímida\". Most adjectives in \"-e\", \"-l\" and \"-z\" don't change: \"inteligente\", \"legal\", \"feliz\" stay as they are.",
           "A mixed group takes the masculine: \"o Pedro e a Ana são altos\". Only a group of women is feminine: \"a Ana e a Beatriz são altas\".",
         ],
         examples: [
           { es: "O menino é tímido.", en: "The boy is shy." },
           { es: "A menina é tímida.", en: "The girl is shy." },
-          { es: "O vizinho é inteligente. A vizinha é inteligente.", en: "The neighbour is smart. (man / woman)" },
+          { es: "O vizinho é inteligente. A vizinha é inteligente.", en: "The neighbor is smart. (man / woman)" },
           { es: "O Pedro e a Ana são altos.", en: "Pedro and Ana are tall." },
           { es: "A Ana e a Beatriz são altas.", en: "Ana and Beatriz are tall." },
         ],
@@ -1898,11 +1898,11 @@ export const PT_A1_U09: Lesson[] = [
       {
         heading: "Things: clothes and rooms",
         body: [
-          "Things change the same way. \"Um tênis azul\" → \"dois tênis azuis\": the noun stays, the colour moves. \"Uma camisa rosa\" → \"duas camisas rosa\": the noun moves, the colour stays.",
+          "Things change the same way. \"Um tênis azul\" → \"dois tênis azuis\": the noun stays, the color moves. \"Uma camisa rosa\" → \"duas camisas rosa\": the noun moves, the color stays.",
           "States follow too: \"a sala está escura\" → \"as salas estão escuras\". Remember \"dois\" / \"duas\": \"dois quartos\", \"duas salas\".",
         ],
         examples: [
-          { es: "Um tênis azul, dois tênis azuis.", en: "A pair of blue trainers, two pairs of blue trainers." },
+          { es: "Um tênis azul, dois tênis azuis.", en: "A pair of blue sneakers, two pairs of blue sneakers." },
           { es: "Uma camisa rosa, duas camisas rosa.", en: "A pink shirt, two pink shirts." },
           { es: "A sala está escura.", en: "The room is dark." },
           { es: "As salas estão escuras.", en: "The rooms are dark." },
@@ -1941,7 +1941,7 @@ export const PT_A1_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "two pairs of blue trainers",
+        source: "two pairs of blue sneakers",
         answer: "dois tênis azuis",
         explanation: "\"Tênis\" stays the same; \"azul\" → \"azuis\".",
       },
@@ -1949,7 +1949,7 @@ export const PT_A1_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The neighbours are happy today.",
+        source: "The neighbors are happy today.",
         answer: "Os vizinhos estão felizes hoje.",
         altAnswers: ["As vizinhas estão felizes hoje.", "Hoje os vizinhos estão felizes.", "Hoje as vizinhas estão felizes."],
         explanation: "\"Feliz\" → \"felizes\", and \"estão\" for a state today.",
@@ -2001,12 +2001,12 @@ export const PT_A1_U09: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "um tênis azul", right: "a pair of blue trainers" },
-          { left: "dois tênis azuis", right: "two pairs of blue trainers" },
+          { left: "um tênis azul", right: "a pair of blue sneakers" },
+          { left: "dois tênis azuis", right: "two pairs of blue sneakers" },
           { left: "uma camisa rosa", right: "a pink shirt" },
           { left: "duas camisas rosa", right: "two pink shirts" },
         ],
-        explanation: "With \"tênis\" only the colour moves; with \"rosa\" only the noun moves.",
+        explanation: "With \"tênis\" only the color moves; with \"rosa\" only the noun moves.",
       },
       {
         type: "speak",
@@ -2022,20 +2022,20 @@ export const PT_A1_U09: Lesson[] = [
     level: "PT-A1",
     number: 11,
     title: "Real-World Mission: Your Room on a Room-Share Site",
-    summary: "Write a short ad for a room in a shared flat in Curitiba: the flat, the room and its furniture, and the people who live there.",
+    summary: "Write a short ad for a room in a shared apartment in Curitiba: the apartment, the room and its furniture, and the people who live there.",
     duration: "12 min",
     kind: "reinforce",
     format: "Real-World Mission",
     sections: [
       {
-        heading: "The flat",
+        heading: "The apartment",
         body: [
-          "Your mission: you live in a shared flat in Curitiba and you need a new flatmate. Room-share ads in Brazil start with the place: \"Alugo quarto em apartamento no centro\" (Room for rent in a flat in the centre). \"Alugar\" (to rent) is a regular -ar verb.",
-          "Then describe the flat with \"ser\" and list what it has with \"ter\": \"O apartamento é grande e claro. Tem três quartos, dois banheiros, uma sala, uma cozinha e uma varanda.\" Ads often drop the subject and start with \"tem\".",
+          "Your mission: you live in a shared apartment in Curitiba and you need a new roommate. Room-share ads in Brazil start with the place: \"Alugo quarto em apartamento no centro\" (Room for rent in an apartment in the center). \"Alugar\" (to rent) is a regular -ar verb.",
+          "Then describe the apartment with \"ser\" and list what it has with \"ter\": \"O apartamento é grande e claro. Tem três quartos, dois banheiros, uma sala, uma cozinha e uma varanda.\" Ads often drop the subject and start with \"tem\".",
         ],
         examples: [
-          { es: "Alugo quarto em apartamento no centro.", en: "Room for rent in a flat in the centre." },
-          { es: "O apartamento é grande e claro.", en: "The flat is big and bright." },
+          { es: "Alugo quarto em apartamento no centro.", en: "Room for rent in an apartment in the center." },
+          { es: "O apartamento é grande e claro.", en: "The apartment is big and bright." },
           { es: "Tem três quartos e dois banheiros.", en: "It has three bedrooms and two bathrooms." },
           { es: "A cozinha é nova e a sala tem varanda.", en: "The kitchen is new and the living room has a balcony." },
         ],
@@ -2044,9 +2044,9 @@ export const PT_A1_U09: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The flat is big and bright.",
+            source: "The apartment is big and bright.",
             answer: "O apartamento é grande e claro.",
-            explanation: "\"Ser\" describes the flat; \"claro\" agrees with \"apartamento\".",
+            explanation: "\"Ser\" describes the apartment; \"claro\" agrees with \"apartamento\".",
           },
           {
             type: "fill-blank",
@@ -2061,12 +2061,12 @@ export const PT_A1_U09: Lesson[] = [
       {
         heading: "The room",
         body: [
-          "Now the room itself: size, light, furniture and colours. \"O quarto é pequeno, mas é bem claro. Tem uma cama, um armário e uma mesa. As paredes são brancas e a cortina é azul.\"",
+          "Now the room itself: size, light, furniture and colors. \"O quarto é pequeno, mas é bem claro. Tem uma cama, um armário e uma mesa. As paredes são brancas e a cortina é azul.\"",
           "Keep the agreement right: \"as paredes brancas\", \"a cortina azul\", \"o armário marrom\".",
         ],
         examples: [
           { es: "O quarto é pequeno, mas é bem claro.", en: "The room is small, but it's really bright." },
-          { es: "Tem uma cama, um armário e uma mesa.", en: "It has a bed, a wardrobe and a desk." },
+          { es: "Tem uma cama, um armário e uma mesa.", en: "It has a bed, a closet and a desk." },
           { es: "As paredes são brancas.", en: "The walls are white." },
           { es: "A cortina é azul.", en: "The curtain is blue." },
         ],
@@ -2075,7 +2075,7 @@ export const PT_A1_U09: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The room has a bed and a wardrobe.",
+            source: "The room has a bed and a closet.",
             answer: "O quarto tem uma cama e um armário.",
             explanation: "\"Ter\" for the furniture; \"cama\" is feminine, \"armário\" masculine.",
           },
@@ -2092,7 +2092,7 @@ export const PT_A1_U09: Lesson[] = [
       {
         heading: "Who lives here",
         body: [
-          "Finish with the flatmates, using \"ser\" for who they are and -ar verbs for what they do: \"Nós somos dois, a Camila e o Pedro. Somos estudantes, somos bem calmos e simpáticos. Não fumamos.\" \"Fumar\" is to smoke.",
+          "Finish with the roommates, using \"ser\" for who they are and -ar verbs for what they do: \"Nós somos dois, a Camila e o Pedro. Somos estudantes, somos bem calmos e simpáticos. Não fumamos.\" \"Fumar\" is to smoke.",
           "Close with what you're looking for, with the regular verb \"procurar\": \"Procuramos uma pessoa calma e organizada.\"",
         ],
         examples: [
@@ -2125,7 +2125,7 @@ export const PT_A1_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Room for rent in a flat in Curitiba.",
+        source: "Room for rent in an apartment in Curitiba.",
         answer: "Alugo quarto em apartamento em Curitiba.",
         altAnswers: ["Alugo um quarto em um apartamento em Curitiba.", "Alugo quarto em um apartamento em Curitiba."],
         explanation: "Ads start with \"alugo\" (I rent out) and often leave out the articles.",
@@ -2175,27 +2175,27 @@ export const PT_A1_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which line belongs in your ad to say the flat has two bathrooms?",
+        question: "Which line belongs in your ad to say the apartment has two bathrooms?",
         options: ["Tem dois banheiros.", "É dois banheiros.", "Está dois banheiros.", "Tem duas banheiros."],
         correctIndex: 0,
-        explanation: "\"Ter\" lists what the flat has, and \"banheiro\" is masculine: \"dois\".",
+        explanation: "\"Ter\" lists what the apartment has, and \"banheiro\" is masculine: \"dois\".",
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The flatmates are really friendly.",
+        prompt: "Put the words in order to say: The roommates are really friendly.",
         words: ["Os", "moradores", "são", "bem", "simpáticos."],
-        translation: "The flatmates are really friendly.",
-        explanation: "\"Morador\" (resident) is used for flatmates in ads; \"bem\" + adjective means really.",
+        translation: "The roommates are really friendly.",
+        explanation: "\"Morador\" (resident) is used for roommates in ads; \"bem\" + adjective means really.",
       },
       {
         type: "dictation",
         audio: "O apartamento tem varanda.",
-        explanation: "\"Ter\" for what the flat has.",
+        explanation: "\"Ter\" for what the apartment has.",
       },
       {
         type: "speak",
         text: "O quarto é pequeno, mas tem uma cama e um armário.",
-        prompt: "Say it in Portuguese: The room is small, but it has a bed and a wardrobe.",
+        prompt: "Say it in Portuguese: The room is small, but it has a bed and a closet.",
         tip: "Armário: stress ar-MÁ-rio, as the accent shows.",
         explanation: "\"Ser\" for size, \"ter\" for the furniture.",
       },
@@ -2206,7 +2206,7 @@ export const PT_A1_U09: Lesson[] = [
     level: "PT-A1",
     number: 12,
     title: "Spiral Review: Who's Who at the Party",
-    summary: "Describe the guests at a party in Porto Alegre and the flat it's in, mixing ser, estar, ter, -ar verbs and agreement.",
+    summary: "Describe the guests at a party in Porto Alegre and the apartment it's in, mixing ser, estar, ter, -ar verbs and agreement.",
     duration: "12 min",
     kind: "review",
     format: "Spiral Review",
@@ -2214,7 +2214,7 @@ export const PT_A1_U09: Lesson[] = [
       {
         heading: "The guests",
         body: [
-          "A party at Fernanda's flat in Porto Alegre. Describe each guest with all you know: \"ser\" for looks, personality, job and origin, \"ter\" for hair, eyes and age, \"estar\" for clothes and mood, and -ar verbs for what they do.",
+          "A party at Fernanda's apartment in Porto Alegre. Describe each guest with all you know: \"ser\" for looks, personality, job and origin, \"ter\" for hair, eyes and age, \"estar\" for clothes and mood, and -ar verbs for what they do.",
         ],
         examples: [
           { es: "A Fernanda é baixa e tem cabelo ruivo.", en: "Fernanda is short and has red hair." },
@@ -2252,12 +2252,12 @@ export const PT_A1_U09: Lesson[] = [
         ],
       },
       {
-        heading: "The flat",
+        heading: "The apartment",
         body: [
-          "Now the flat: \"ser\" for how it is, \"ter\" for what it has, \"estar\" for where things are and how they are tonight.",
+          "Now the apartment: \"ser\" for how it is, \"ter\" for what it has, \"estar\" for where things are and how they are tonight.",
         ],
         examples: [
-          { es: "O apartamento é pequeno, mas é bonito.", en: "The flat is small, but it's lovely." },
+          { es: "O apartamento é pequeno, mas é bonito.", en: "The apartment is small, but it's lovely." },
           { es: "A sala tem um sofá verde e muitas cadeiras.", en: "The living room has a green sofa and lots of chairs." },
           { es: "As bebidas estão na cozinha.", en: "The drinks are in the kitchen." },
           { es: "A varanda está cheia.", en: "The balcony is full." },
@@ -2275,7 +2275,7 @@ export const PT_A1_U09: Lesson[] = [
             type: "speak",
             text: "A sala tem um sofá verde.",
             tip: "Sofá: stress on the last syllable, so-FÁ.",
-            explanation: "\"Ter\" for what the room has; the colour follows the noun.",
+            explanation: "\"Ter\" for what the room has; the color follows the noun.",
           },
         ],
       },
@@ -2350,10 +2350,10 @@ export const PT_A1_U09: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Carla is wearing black trousers and white trainers.",
+        prompt: "Put the words in order to say: Carla is wearing black pants and white sneakers.",
         words: ["A", "Carla", "está", "de", "calça", "preta", "e", "tênis", "branco."],
-        translation: "Carla is wearing black trousers and white trainers.",
-        explanation: "\"Estar de\" + clothing; one pair of trousers is \"calça\", singular, and \"tênis branco\" is one pair.",
+        translation: "Carla is wearing black pants and white sneakers.",
+        explanation: "\"Estar de\" + clothing; one pair of pants is \"calça\", singular, and \"tênis branco\" is one pair.",
       },
       {
         type: "dictation",
@@ -2380,8 +2380,8 @@ export const PT_A1_U09_WRITING: WriteExercise = {
     "Uses \"ser\" for her build and personality (\"ela é alta\", \"é bem simpática\")",
     "Uses \"ter\" for her age, hair and eyes (\"tem vinte anos\", \"tem cabelo comprido\")",
     "Uses \"estar de\" for today's clothes and \"estar\" for how she feels (\"está de casaco vermelho\", \"está cansada\")",
-    "Makes every adjective and colour agree with its noun (\"calça preta\", \"olhos azuis\")",
+    "Makes every adjective and color agree with its noun (\"calça preta\", \"olhos azuis\")",
   ],
   modelAnswer: "Oi, Carlos! A Laura é americana e tem vinte anos. Ela é alta e magra, tem cabelo loiro e comprido e olhos azuis. Ela é muito simpática, mas é meio tímida. Hoje ela está de calça preta e casaco vermelho e tem uma mochila verde. Ela está cansada e com fome! Obrigada!",
-  explanation: "Portuguese splits English is and has across three verbs: \"ser\" for lasting traits (\"é alta\", \"é simpática\"), \"ter\" for age, hair and eyes (\"tem vinte anos\", \"tem olhos azuis\"), and \"estar\" for clothes and feelings right now (\"está de casaco vermelho\", \"está cansada\"). Colours follow the noun and agree (\"calça preta\", \"olhos azuis\"), and one pair of trousers is singular: \"calça\".",
+  explanation: "Portuguese splits English is and has across three verbs: \"ser\" for lasting traits (\"é alta\", \"é simpática\"), \"ter\" for age, hair and eyes (\"tem vinte anos\", \"tem olhos azuis\"), and \"estar\" for clothes and feelings right now (\"está de casaco vermelho\", \"está cansada\"). Colors follow the noun and agree (\"calça preta\", \"olhos azuis\"), and one pair of pants is singular: \"calça\".",
 };

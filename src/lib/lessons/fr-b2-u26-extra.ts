@@ -10,14 +10,14 @@ export const FR_B2_U26_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Debate Vocabulary",
-    summary: "Agree, disagree, concede and nuance in short exchanges, with être d'accord avec, avoir raison, je vous accorde que and dans une certaine mesure.",
+    summary: "Agree, disagree, concede and nuance in short exchanges, with \"être d'accord avec\", \"avoir raison\", \"je vous accorde que\" and \"dans une certaine mesure\".",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: the moves of a debate",
         body: [
           "Agree: \"je suis d'accord avec toi\", \"tu as raison\", \"c'est exactement ça\". Disagree: \"je ne suis pas d'accord\", \"je ne partage pas ton avis\", \"tu as tort\". Concede: \"je te concède que\", \"je t'accorde que\", \"certes..., mais\". Nuance: \"dans une certaine mesure\", \"tout dépend de\", \"c'est plus compliqué que ça\".",
-          "Traps: never *je suis d'accord à, *être raison, *dans mon opinion. After \"je ne pense pas que\" and \"je doute que\", the subjunctive.",
+          "Traps: never *\"je suis d'accord à\", *\"être raison\", *\"dans mon opinion\". After \"je ne pense pas que\" and \"je doute que\", the subjunctive.",
         ],
         examples: [
           { es: "— Le vélo, c'est l'avenir en ville. — Je suis tout à fait d'accord avec toi.", en: "— Cycling is the future in cities. — I completely agree with you." },
@@ -81,7 +81,7 @@ export const FR_B2_U26_EXTRA: Lesson[] = [
         source: "It all depends on the price.",
         answer: "Tout dépend du prix.",
         altAnswers: ["Ça dépend du prix.", "Cela dépend du prix."],
-        explanation: "\"Dépendre de\" + le = \"du\".",
+        explanation: "\"Dépendre de\" + \"le\" = \"du\".",
       },
       {
         type: "translate",
@@ -117,7 +117,7 @@ export const FR_B2_U26_EXTRA: Lesson[] = [
         source: "In my opinion, it's a mistake.",
         answer: "À mon avis, c'est une erreur.",
         altAnswers: ["Selon moi, c'est une erreur.", "D'après moi, c'est une erreur.", "Pour moi, c'est une erreur."],
-        explanation: "\"À mon avis\"; never *dans mon opinion.",
+        explanation: "\"À mon avis\"; never *\"dans mon opinion\".",
       },
       {
         type: "multiple-choice",
@@ -173,7 +173,7 @@ export const FR_B2_U26_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Performing Arts False Friends",
-    summary: "Use répétition, comédien, spectacle and première correctly, and find the right French for rehearsal, actor, show and opening night.",
+    summary: "Use \"répétition\", \"comédien\", \"spectacle\" and \"première\" correctly, and find the right French for rehearsal, actor, show and opening night.",
     duration: "12 min",
     sections: [
       {
@@ -186,7 +186,7 @@ export const FR_B2_U26_EXTRA: Lesson[] = [
           { es: "La dernière répétition s'est terminée à minuit.", en: "The last rehearsal finished at midnight." },
           { es: "C'est un comédien qui joue surtout des rôles tragiques.", en: "He's an actor who mostly plays tragic roles." },
           { es: "On a vu un spectacle de danse contemporaine.", en: "We saw a contemporary dance show." },
-          { es: "Toute la presse était là pour la première.", en: "The whole press was there for the opening night." },
+          { es: "Toute la presse était là pour la première.", en: "All the press were there for the opening night." },
           { es: "Il y a trois représentations par semaine.", en: "There are three performances a week." },
         ],
         checkpoint: [
@@ -201,7 +201,7 @@ export const FR_B2_U26_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What is « un humoriste »?",
+            question: "What is \"un humoriste\"?",
             options: ["a stand-up comedian", "an actor", "a humorous play", "a clown in a circus"],
             correctIndex: 0,
             explanation: "A comedian is \"un humoriste\"; \"un comédien\" is an actor.",
@@ -334,13 +334,13 @@ export const FR_B2_U26_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Goals and Progress",
-    summary: "Describe goals and progress with se fixer, réussir à, progresser and the verbs of change devenir, rendre, se mettre à and finir par.",
+    summary: "Describe goals and progress with \"se fixer\", \"réussir à\", \"progresser\" and the verbs of change \"devenir\", \"rendre\", \"se mettre à\" and \"finir par\".",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: goals and change",
         body: [
-          "Goals: \"se fixer un objectif\", \"atteindre\", \"réussir à\" + infinitive, \"faire des progrès\" (plural), \"se perfectionner en\". Change: \"devenir\" (with être), \"rendre\" + adjective, \"se mettre à\" (start), \"finir par\" (end up), \"arrêter de\" (stop), \"à force de\" (through).",
+          "Goals: \"se fixer un objectif\", \"atteindre\", \"réussir à\" + infinitive, \"faire des progrès\" (plural), \"se perfectionner en\". Change: \"devenir\" (with \"être\"), \"rendre\" + adjective, \"se mettre à\" (start), \"finir par\" (end up), \"arrêter de\" (stop), \"à force de\" (through).",
           "Time: \"depuis que\" + indicative, \"jusqu'à ce que\" + subjunctive, \"au fur et à mesure\".",
         ],
         examples: [
@@ -411,7 +411,7 @@ export const FR_B2_U26_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "[Through practising], he became fluent.",
+        en: "[Through practising], he became bilingual.",
         sentence: "___, il est devenu bilingue.",
         answer: "À force de pratiquer",
         altAnswers: ["À force de s'entraîner", "À force de s'exercer"],
@@ -432,7 +432,7 @@ export const FR_B2_U26_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "She has become more patient.",
         answer: "Elle est devenue plus patiente.",
-        explanation: "\"Devenir\" takes être: \"est devenue\".",
+        explanation: "\"Devenir\" takes \"être\": \"est devenue\".",
       },
       {
         type: "translate",

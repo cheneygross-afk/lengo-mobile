@@ -68,7 +68,7 @@ export const PT_B1_U16: Lesson[] = [
         ],
         examples: [
           { es: "O ministro afirmou que os preços vão cair.", en: "The minister stated that prices are going to fall." },
-          { es: "A prefeitura anunciou que o metrô vai abrir mais cedo.", en: "City hall announced that the metro will open earlier." },
+          { es: "A prefeitura anunciou que o metrô vai abrir mais cedo.", en: "City hall announced that the subway will open earlier." },
           { es: "A cantora declarou que estava muito feliz com o prêmio.", en: "The singer stated that she was very happy with the award." },
           { es: "O presidente da empresa declarou apoio ao projeto.", en: "The company's president declared his support for the project." },
           { es: "A ministra afirmou que não sabia de nada.", en: "The minister claimed she knew nothing about it." },
@@ -94,7 +94,7 @@ export const PT_B1_U16: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "City hall [announced] that the metro will open earlier.",
+            en: "City hall [announced] that the subway will open earlier.",
             sentence: "A prefeitura ___ que o metrô vai abrir mais cedo.",
             answer: "anunciou",
             explanation: "\"Anunciar\" is for new decisions and plans. The perfeito ending -ou matches \"a prefeitura\", a singular subject.",
@@ -126,7 +126,7 @@ export const PT_B1_U16: Lesson[] = [
           { es: "Suspeito é preso pela polícia em Salvador.", en: "Suspect arrested by police in Salvador." },
           { es: "Lojas são fechadas no centro de Curitiba.", en: "Shops closed in downtown Curitiba." },
           { es: "A ponte foi inaugurada ontem pela prefeitura.", en: "The bridge was opened yesterday by city hall." },
-          { es: "Governo anuncia novo programa de vacinação.", en: "Government announces new vaccination programme." },
+          { es: "Governo anuncia novo programa de vacinação.", en: "Government announces new vaccination program." },
         ],
         checkpoint: [
           {
@@ -205,7 +205,7 @@ export const PT_B1_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "According to him, the show was cancelled.",
+        source: "According to him, the show was canceled.",
         answer: "Segundo ele, o show foi cancelado.",
         altAnswers: [
           "De acordo com ele, o show foi cancelado.",
@@ -259,7 +259,7 @@ export const PT_B1_U16: Lesson[] = [
       {
         type: "speak",
         text: "O governo anunciou que o metrô vai abrir mais cedo.",
-        prompt: "Say it in Portuguese: The government announced that the metro will open earlier.",
+        prompt: "Say it in Portuguese: The government announced that the subway will open earlier.",
         tip: "Make the nun in anunciou nasal, and stress the last syllable: a-nun-ci-OU. Metrô ends in a closed ô.",
         explanation: "\"Anunciou que\" introduces a new decision. \"Vai abrir\" stays in the future because the change hasn't happened yet.",
       },
@@ -401,7 +401,7 @@ export const PT_B1_U16: Lesson[] = [
           { es: "O número de turistas dobrou desde 2020.", en: "The number of tourists has doubled since 2020." },
           { es: "O preço do tomate caiu pela metade na feira.", en: "The price of tomatoes halved at the street market." },
           { es: "Mais de mil pessoas foram ao show no Recife.", en: "More than a thousand people went to the concert in Recife." },
-          { es: "Cerca de 60% dos entrevistados usam o metrô todo dia.", en: "About 60% of the people interviewed use the metro every day." },
+          { es: "Cerca de 60% dos entrevistados usam o metrô todo dia.", en: "About 60% of the people interviewed use the subway every day." },
         ],
         checkpoint: [
           {
@@ -584,7 +584,7 @@ export const PT_B1_U16: Lesson[] = [
           { es: "A redução dos impostos ainda não foi aprovada.", en: "The tax cut hasn't been approved yet." },
           { es: "As vendas de carros elétricos dobraram.", en: "Sales of electric cars doubled." },
           { es: "A chegada do inverno aumenta o consumo de energia.", en: "The arrival of winter increases energy consumption." },
-          { es: "A queda das vendas preocupa os lojistas.", en: "The fall in sales worries shop owners." },
+          { es: "A queda das vendas preocupa os lojistas.", en: "The fall in sales worries store owners." },
         ],
         checkpoint: [
           {
@@ -663,7 +663,7 @@ export const PT_B1_U16: Lesson[] = [
         examples: [
           { es: "Governo anuncia corte de gastos", en: "Government announces spending cuts" },
           { es: "Queda do dólar anima comércio", en: "Fall in the dollar cheers retailers" },
-          { es: "Alta da gasolina pesa no bolso do consumidor", en: "Rising petrol prices hit consumers' pockets" },
+          { es: "Alta da gasolina pesa no bolso do consumidor", en: "Rising gas prices hit consumers' pockets" },
           { es: "Desemprego cai para 7% no trimestre", en: "Unemployment falls to 7% in the quarter" },
           { es: "Vendas do comércio caem 3% em dezembro", en: "Retail sales fall 3% in December" },
           { es: "Prefeitura adia inauguração do novo hospital", en: "City hall postpones opening of new hospital" },
@@ -802,7 +802,7 @@ export const PT_B1_U16: Lesson[] = [
     slug: "b1-summaries",
     level: "PT-B1",
     number: 4,
-    title: "Summarising a Text",
+    title: "Summarizing a Text",
     summary: "Say what a text is about, report the author's argument in the right tense and mood, name your source and wrap up, the way a Portuguese summary expects.",
     duration: "12 min",
     kind: "teach",
@@ -862,7 +862,7 @@ export const PT_B1_U16: Lesson[] = [
           { es: "O autor defende que o ensino público precisa de mais investimento.", en: "The author argues that state schools need more investment." },
           { es: "A autora defende que as escolas ensinem programação.", en: "The author argues that schools should teach programming." },
           { es: "O texto mostra que o número de ciclistas cresceu.", en: "The text shows that the number of cyclists has grown." },
-          { es: "O jornalista critica a demora nas obras do metrô.", en: "The journalist criticises the delays in the metro works." },
+          { es: "O jornalista critica a demora nas obras do metrô.", en: "The journalist criticizes the delays in the subway works." },
           { es: "A pesquisa conclui que os jovens leem menos.", en: "The study concludes that young people read less." },
           { es: "O ministro afirmou que a inflação ia cair.", en: "The minister said inflation would fall." },
         ],
@@ -883,7 +883,7 @@ export const PT_B1_U16: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The author argues that the government [should invest] in public transport.",
+            en: "The author argues that the government [should invest] in public transportation.",
             sentence: "A autora defende que o governo ___ em transporte público.",
             answer: "invista",
             explanation: "She is proposing what should happen, so \"defender que\" takes the subjunctive: \"invista\". With \"investe\", the sentence would claim that the government already invests.",
@@ -919,9 +919,9 @@ export const PT_B1_U16: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: In short, the author criticises the government.",
+            prompt: "Put the words in order to say: In short, the author criticizes the government.",
             words: ["Em", "resumo,", "o", "autor", "critica", "o", "governo."],
-            translation: "In short, the author criticises the government.",
+            translation: "In short, the author criticizes the government.",
             explanation: "\"Em resumo\" opens the closing sentence, followed by a comma. \"Critica\" is in the present because a summary reports what the text says.",
           },
           {
@@ -1006,7 +1006,7 @@ export const PT_B1_U16: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You're summarising an article for your Portuguese class. Which sentence is the best opening?",
+        question: "You're summarizing an article for your Portuguese class. Which sentence is the best opening?",
         options: [
           "O artigo trata da poluição no Rio de Janeiro.",
           "O artigo trata de a poluição no Rio de Janeiro.",
@@ -1049,7 +1049,7 @@ export const PT_B1_U16: Lesson[] = [
       {
         type: "speak",
         text: "O autor defende que o transporte público seja gratuito.",
-        prompt: "Say it in Portuguese: The author argues that public transport should be free.",
+        prompt: "Say it in Portuguese: The author argues that public transportation should be free.",
         explanation: "A proposal takes the subjunctive: \"seja\". \"A autora defende\" works the same way.",
       },
       {
@@ -1172,7 +1172,7 @@ export const PT_B1_U16: Lesson[] = [
         examples: [
           { es: "Precisamos proteger o meio ambiente.", en: "We need to protect the environment." },
           { es: "O prédio tem coleta seletiva desde o ano passado.", en: "The building has had sorted waste collection since last year." },
-          { es: "É importante que todo mundo separe o lixo.", en: "It's important that everyone sorts their rubbish." },
+          { es: "É importante que todo mundo separe o lixo.", en: "It's important that everyone sorts their trash." },
           { es: "Tomar banho rápido ajuda a economizar água.", en: "Taking short showers helps save water." },
           { es: "Curitiba é famosa pelos seus projetos de reciclagem.", en: "Curitiba is famous for its recycling projects." },
           { es: "A empresa quer ser mais sustentável.", en: "The company wants to be more sustainable." },
@@ -1335,7 +1335,7 @@ export const PT_B1_U16: Lesson[] = [
         examples: [
           { es: "Você leu essa notícia sobre o trânsito?", en: "Did you read this news story about the traffic?" },
           { es: "Você viu a matéria que saiu ontem no jornal?", en: "Did you see the article that came out in the paper yesterday?" },
-          { es: "Segundo a matéria, o trânsito piorou nos últimos anos.", en: "According to the article, traffic has got worse in recent years." },
+          { es: "Segundo a matéria, o trânsito piorou nos últimos anos.", en: "According to the article, traffic has gotten worse in recent years." },
           { es: "De acordo com a pesquisa, os paulistanos passam duas horas por dia no trânsito.", en: "According to the survey, people in São Paulo spend two hours a day in traffic." },
           { es: "Saiu no jornal que a prefeitura vai criar novas ciclovias.", en: "It was in the paper that the city council is going to create new bike lanes." },
         ],
@@ -1356,7 +1356,7 @@ export const PT_B1_U16: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "According to the article, traffic has got worse.",
+            source: "According to the article, traffic has gotten worse.",
             answer: "Segundo a matéria, o trânsito piorou.",
             altAnswers: [
               "De acordo com a matéria, o trânsito piorou.",
@@ -1386,10 +1386,10 @@ export const PT_B1_U16: Lesson[] = [
         ],
         examples: [
           { es: "Cerca de 40% das pessoas passam mais de uma hora por dia no trânsito.", en: "About 40% of people spend more than an hour a day in traffic." },
-          { es: "Mais da metade dos entrevistados usa o metrô todo dia.", en: "More than half of those surveyed use the metro every day." },
-          { es: "Quase 30% dos jovens não têm carteira de motorista.", en: "Almost 30% of young people don't have a driver's licence." },
+          { es: "Mais da metade dos entrevistados usa o metrô todo dia.", en: "More than half of those surveyed use the subway every day." },
+          { es: "Quase 30% dos jovens não têm carteira de motorista.", en: "Almost 30% of young people don't have a driver's license." },
           { es: "O número de ciclistas cresceu 15% em dois anos.", en: "The number of cyclists grew by 15% in two years." },
-          { es: "Só um terço dos passageiros aprova o transporte público.", en: "Only a third of passengers approve of public transport." },
+          { es: "Só um terço dos passageiros aprova o transporte público.", en: "Only a third of passengers approve of public transportation." },
         ],
         checkpoint: [
           {
@@ -1413,10 +1413,10 @@ export const PT_B1_U16: Lesson[] = [
             audio: "Mais da metade dos entrevistados usa o metrô.",
             question: "What does it mean?",
             options: [
-              "More than half of those surveyed use the metro.",
-              "Almost half of those surveyed use the metro.",
-              "Less than half of those surveyed use the metro.",
-              "More than half of those surveyed hate the metro.",
+              "More than half of those surveyed use the subway.",
+              "Almost half of those surveyed use the subway.",
+              "Less than half of those surveyed use the subway.",
+              "More than half of those surveyed hate the subway.",
             ],
             correctIndex: 0,
             explanation: "\"Mais da metade\" is more than half. Almost would be \"quase\", and less would be \"menos da metade\".",
@@ -1570,7 +1570,7 @@ export const PT_B1_U16: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Did you see the [article] about the metro?",
+        en: "Did you see the [article] about the subway?",
         sentence: "Você viu a ___ sobre o metrô?",
         answer: "matéria",
         altAnswers: ["reportagem"],
@@ -1599,7 +1599,7 @@ export const PT_B1_U16: Lesson[] = [
           { es: "Segundo o jornal, a inflação caiu em março.", en: "According to the paper, inflation fell in March." },
           { es: "De acordo com a prefeitura, a obra termina em junho.", en: "According to city hall, the building work ends in June." },
           { es: "Segundo ela, ninguém foi avisado.", en: "According to her, no one was warned." },
-          { es: "Cerca de 30% dos moradores usam o metrô.", en: "About 30% of residents use the metro." },
+          { es: "Cerca de 30% dos moradores usam o metrô.", en: "About 30% of residents use the subway." },
           { es: "Mais de mil pessoas participaram do protesto em Recife.", en: "Over a thousand people took part in the protest in Recife." },
         ],
         checkpoint: [
@@ -1809,7 +1809,7 @@ export const PT_B1_U16: Lesson[] = [
       {
         type: "speak",
         text: "Cerca de um terço dos moradores usa o metrô.",
-        prompt: "Say it in Portuguese: About a third of the residents use the metro.",
+        prompt: "Say it in Portuguese: About a third of the residents use the subway.",
         tip: "In most of Brazil \"de\" sounds like 'dji', so \"cerca de\" is cer-ca dji. Stress \"metrô\" on the last syllable, with a closed ô.",
         explanation: "\"Cerca de\" plus \"dos moradores\" (de + os). \"Usam\" would be just as correct as \"usa\".",
       },
@@ -1875,7 +1875,7 @@ export const PT_B1_U16: Lesson[] = [
           { es: "O texto trata do aumento das ciclovias na cidade.", en: "The text is about the increase in bike lanes in the city." },
           { es: "Oi, Rafael! Li uma matéria que vai te interessar.", en: "Hi Rafael! I read an article you'll find interesting." },
           { es: "Prezada senhora, escrevo para apresentar os resultados de uma pesquisa.", en: "Dear Madam, I'm writing to present the results of a survey." },
-          { es: "Vou resumir os pontos principais para os leitores do blog.", en: "I'll summarise the main points for the blog's readers." },
+          { es: "Vou resumir os pontos principais para os leitores do blog.", en: "I'll summarize the main points for the blog's readers." },
         ],
         checkpoint: [
           {
@@ -1991,7 +1991,7 @@ export const PT_B1_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "About half of the residents use public transport.",
+        source: "About half of the residents use public transportation.",
         answer: "Cerca de metade dos moradores usa o transporte público.",
         altAnswers: ["Cerca de metade dos moradores usam o transporte público.", "Aproximadamente metade dos moradores usa o transporte público.", "Aproximadamente metade dos moradores usam o transporte público.", "Cerca da metade dos moradores usa o transporte público.", "Cerca da metade dos moradores usam o transporte público."],
         explanation: "\"Cerca de\" for about. After \"metade dos moradores\" both \"usa\" and \"usam\" are accepted.",
@@ -2041,9 +2041,9 @@ export const PT_B1_U16: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I'm writing to summarise the main points of the report.",
+        prompt: "Put the words in order to say: I'm writing to summarize the main points of the report.",
         words: ["Escrevo", "para", "resumir", "os pontos principais", "da reportagem."],
-        translation: "I'm writing to summarise the main points of the report.",
+        translation: "I'm writing to summarize the main points of the report.",
         explanation: "\"Escrevo para\" + infinitive states the purpose right after the greeting; \"da\" is de + a.",
       },
       {
@@ -2102,7 +2102,7 @@ export const PT_B1_U16: Lesson[] = [
       {
         heading: "Headline and lead: what changed",
         body: [
-          "Your mission is a short report for a neighbourhood news site about something that has changed in your city. News Portuguese puts the key fact first. The headline is usually a short present-tense sentence with no article: \"Número de ciclistas cresce 40% no Recife\".",
+          "Your mission is a short report for a neighborhood news site about something that has changed in your city. News Portuguese puts the key fact first. The headline is usually a short present-tense sentence with no article: \"Número de ciclistas cresce 40% no Recife\".",
           "Headlines use the present for things that have already happened. The first sentence of the report, the lead, switches to the perfeito and answers four questions: what changed, where, since when and by how much. Don't just copy the headline. Add the time frame.",
           "Watch the article with city names. A few cities take one, so it's \"no Recife\" and \"no Rio\", but \"em Salvador\" and \"em Curitiba\".",
         ],
@@ -2184,11 +2184,11 @@ export const PT_B1_U16: Lesson[] = [
           "A strong last line opens the debate rather than giving your opinion. Use \"no entanto\" for a contrast, or \"resta saber se\" (it remains to be seen whether).",
         ],
         examples: [
-          { es: "A primeira ciclofaixa do bairro foi inaugurada em março de 2022.", en: "The neighbourhood's first bike lane was opened in March 2022." },
+          { es: "A primeira ciclofaixa do bairro foi inaugurada em março de 2022.", en: "The neighborhood's first bike lane was opened in March 2022." },
           { es: "O secretário de Mobilidade afirmou que a cidade ia ganhar mais 20 quilômetros de ciclofaixas.", en: "The transport secretary stated that the city was going to get 20 more kilometres of bike lanes." },
           { es: "A prefeitura pretende ampliar a rede até 2026.", en: "The city hall intends to expand the network by 2026." },
           { es: "A expectativa é que o número de ciclistas dobre até o fim do ano.", en: "The number of cyclists is expected to double by the end of the year." },
-          { es: "No entanto, muitos comerciantes reclamaram da falta de vagas para carros.", en: "However, many shop owners complained about the lack of parking spaces." },
+          { es: "No entanto, muitos comerciantes reclamaram da falta de vagas para carros.", en: "However, many store owners complained about the lack of parking spaces." },
           { es: "Resta saber se a mudança vai durar.", en: "It remains to be seen whether the change will last." },
         ],
         checkpoint: [
@@ -2213,7 +2213,7 @@ export const PT_B1_U16: Lesson[] = [
           {
             type: "speak",
             text: "A expectativa é que o número de ciclistas dobre até o fim do ano.",
-            tip: "The t before i in \"expectativa\" sounds like ch: es-pek-ta-CHI-va. The final e in \"dobre\" sounds like i.",
+            tip: "The t before i in \"expectativa\" sounds like ch: es-pek-ta-TCHI-va. The final e in \"dobre\" sounds like i.",
             explanation: "\"A expectativa é que\" + subjunctive: \"dobre\", from \"eu dobro\".",
           },
         ],
@@ -2251,16 +2251,16 @@ export const PT_B1_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "According to a survey, about 30% of residents use the metro.",
+        source: "According to a survey, about 30% of residents use the subway.",
         answer: "Segundo uma pesquisa, cerca de 30% dos moradores usam o metrô.",
         altAnswers: ["De acordo com uma pesquisa, cerca de 30% dos moradores usam o metrô.", "Segundo uma pesquisa, aproximadamente 30% dos moradores usam o metrô.", "De acordo com uma pesquisa, aproximadamente 30% dos moradores usam o metrô."],
         explanation: "The source comes first with \"segundo\" or \"de acordo com\". \"Cerca de\" means about, and \"30% dos moradores\" takes the plural \"usam\".",
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The new metro line was opened yesterday.",
+        prompt: "Put the words in order to say: The new subway line was opened yesterday.",
         words: ["A", "nova", "linha", "de metrô", "foi inaugurada", "ontem."],
-        translation: "The new metro line was opened yesterday.",
+        translation: "The new subway line was opened yesterday.",
         explanation: "The passive \"foi inaugurada\" agrees with \"linha\" and keeps the focus on the change, not on who made it.",
       },
       {
@@ -2333,12 +2333,12 @@ export const PT_B1_U16: Lesson[] = [
       {
         heading: "Foi inaugurada: the passive in reports",
         body: [
-          "News Portuguese favours the passive because the event matters more than who caused it. As a reminder, it's \"ser\" + participle, and the participle agrees with the subject: \"a ponte foi inaugurada\", \"os suspeitos foram presos\". The agent takes \"pelo\" or \"pela\", never \"de\".",
+          "News Portuguese favors the passive because the event matters more than who caused it. As a reminder, it's \"ser\" + participle, and the participle agrees with the subject: \"a ponte foi inaugurada\", \"os suspeitos foram presos\". The agent takes \"pelo\" or \"pela\", never \"de\".",
           "The news uses the short participles constantly: \"preso\", \"eleito\", \"pago\", \"aceito\", \"entregue\". Headlines often drop \"ser\" altogether: \"Ponte inaugurada após dez anos de obras\".",
           "\"Estar\" + participle still gives the resulting state: \"a estrada foi fechada\" reports the action, and \"a estrada está fechada\" describes the situation now.",
         ],
         examples: [
-          { es: "A nova linha do metrô foi inaugurada pelo governador.", en: "The new metro line was opened by the governor." },
+          { es: "A nova linha do metrô foi inaugurada pelo governador.", en: "The new subway line was opened by the governor." },
           { es: "Dois suspeitos foram presos na manhã de ontem.", en: "Two suspects were arrested yesterday morning." },
           { es: "As provas do Enem serão aplicadas em novembro.", en: "The Enem exams will be held in November." },
           { es: "A rodovia está fechada desde sábado.", en: "The highway has been closed since Saturday." },
@@ -2380,8 +2380,8 @@ export const PT_B1_U16: Lesson[] = [
         ],
         examples: [
           { es: "Segundo o IBGE, a população da cidade cresceu 3% em dez anos.", en: "According to IBGE, the city's population grew 3% in ten years." },
-          { es: "O prefeito afirmou que a obra ficaria pronta em março.", en: "The mayor said the works would be finished in March." },
-          { es: "A ministra declarou que o programa tinha sido um sucesso.", en: "The minister stated that the programme had been a success." },
+          { es: "O prefeito afirmou que a obra ficaria pronta em março.", en: "The mayor said the construction work would be finished in March." },
+          { es: "A ministra declarou que o programa tinha sido um sucesso.", en: "The minister stated that the program had been a success." },
           { es: "A empresa anunciou que vai contratar quinhentas pessoas.", en: "The company announced it's going to hire five hundred people." },
           { es: "A Defesa Civil pediu para os moradores evitarem a região.", en: "Civil Defence asked residents to avoid the area." },
         ],
@@ -2411,7 +2411,7 @@ export const PT_B1_U16: Lesson[] = [
         body: [
           "Headlines turn verbs into nouns and drop articles. \"Aumentar\" gives \"Prefeitura anuncia aumento da tarifa\", and \"cair\" gives \"Queda das vendas preocupa lojistas\". Keep the contraction: \"o aumento dos preços\", never \"de os\".",
           "\"Cerca de\", \"mais de\" and \"quase\" go before the figure, and a percentage takes \"de\" + article: \"30% dos brasileiros\". After \"a maioria dos\" or \"metade dos\", the verb can be singular or plural.",
-          "To summarise, name the topic and the claim: \"a reportagem trata de...\", \"o autor defende que...\", \"em resumo\".",
+          "To summarize, name the topic and the claim: \"a reportagem trata de...\", \"o autor defende que...\", \"em resumo\".",
         ],
         examples: [
           { es: "Queda das vendas preocupa lojistas de Curitiba.", en: "Drop in sales worries Curitiba shopkeepers." },
@@ -2434,7 +2434,7 @@ export const PT_B1_U16: Lesson[] = [
             type: "listen-choose",
             audio: "Cerca de vinte por cento dos moradores usam o metrô.",
             question: "What does it mean?",
-            options: ["About 20% of residents use the metro.", "More than 20% of residents use the metro.", "Almost 20% of residents use the metro.", "About 20% of residents used the metro."],
+            options: ["About 20% of residents use the subway.", "More than 20% of residents use the subway.", "Almost 20% of residents use the subway.", "About 20% of residents used the subway."],
             correctIndex: 0,
             explanation: "\"Cerca de\" means about. \"Mais de\" is more than and \"quase\" is almost, and \"usam\" is present, not past.",
           },
@@ -2513,7 +2513,7 @@ export const PT_B1_U16: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "The police asked drivers to avoid the avenue.",
         answer: "A polícia pediu para os motoristas evitarem a avenida.",
-        altAnswers: ["A polícia pediu pros motoristas evitarem a avenida.", "A polícia pediu aos motoristas que evitassem a avenida.", "A polícia pediu para os motoristas evitar a avenida."],
+        altAnswers: ["A polícia pediu pros motoristas evitarem a avenida.", "A polícia pediu aos motoristas que evitassem a avenida."],
         explanation: "\"Pedir para\" + infinitive, inflected as \"evitarem\" because the drivers, not the police, do the avoiding.",
       },
       {

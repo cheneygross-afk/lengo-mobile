@@ -418,7 +418,7 @@ export const FR_A1_GUIDES: FrGrammarGuide[] = [
       {
         heading: "One present, three English meanings",
         body: [
-          `French has no separate continuous tense and no "do" auxiliary. "Je mange" covers I eat, I'm eating and I do eat. Context does the work. Don't try to translate "am" or "do": "je suis manger" and "je fais manger" are both wrong.`,
+          `French has no separate continuous tense and no "do" auxiliary. "Je mange" covers I eat, I'm eating and I do eat. Context does the work. Don't try to translate "am" or "do": "je suis manger" and "je fais manger" are both wrong for I'm eating.`,
           `If you really need to stress that something is in progress right now, French has "être en train de" + infinitive: "je suis en train de manger" (I'm in the middle of eating). It's useful, but much less frequent than the English -ing form. The French present is also often used for the near future: "je travaille demain" (I'm working tomorrow).`,
         ],
         examples: [

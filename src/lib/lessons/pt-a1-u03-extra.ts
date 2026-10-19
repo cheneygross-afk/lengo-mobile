@@ -8,7 +8,7 @@ export const PT_A1_U03_EXTRA: Lesson[] = [
     level: "PT-A1",
     number: 1,
     title: "Extra Practice: Articles & Gender, Part 1 of 3",
-    summary: "Practise o, a, um and uma with new nouns, using the reliable endings and the everyday exceptions.",
+    summary: "Practice o, a, um and uma with new nouns, using the reliable endings and the everyday exceptions.",
     duration: "12 min",
     optional: true,
     sections: [
@@ -22,8 +22,8 @@ export const PT_A1_U03_EXTRA: Lesson[] = [
           { es: "É uma estação grande.", en: "It's a big station." },
           { es: "O jornal é de São Paulo.", en: "The newspaper is from São Paulo." },
           { es: "A viagem é longa.", en: "The trip is long." },
-          { es: "É um programa novo.", en: "It's a new programme." },
-          { es: "A moto é japonesa.", en: "The motorbike is Japanese." },
+          { es: "É um programa novo.", en: "It's a new program." },
+          { es: "A moto é japonesa.", en: "The motorcycle is Japanese." },
           { es: "É uma universidade boa.", en: "It's a good university." },
         ],
         checkpoint: [
@@ -103,7 +103,7 @@ export const PT_A1_U03_EXTRA: Lesson[] = [
         en: "[The hand] is cold.",
         sentence: "___ está fria.",
         answer: "A mão",
-        explanation: "\"Mão\" is feminine, though most -ão nouns that aren't -ção are masculine. So \"a mão\", \"fria\".",
+        explanation: "\"Mão\" is feminine, though many other -ão nouns, like \"o pão\", are masculine. So \"a mão\", \"fria\".",
       },
       {
         type: "fill-blank",
@@ -125,7 +125,7 @@ export const PT_A1_U03_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "It's a good programme.",
+        source: "It's a good program.",
         answer: "É um bom programa.",
         altAnswers: ["É um programa bom."],
         explanation: "\"Programa\" is masculine, so \"um bom programa\". \"Bom\" goes before the noun.",
@@ -193,7 +193,7 @@ export const PT_A1_U03_EXTRA: Lesson[] = [
     level: "PT-A1",
     number: 2,
     title: "Extra Practice: Articles & Gender, Part 2 of 3",
-    summary: "Practise plurals and adjective agreement, including -ão, -l and -m nouns.",
+    summary: "Practice plurals and adjective agreement, including -ão, -l and -m nouns.",
     duration: "12 min",
     optional: true,
     sections: [
@@ -201,7 +201,7 @@ export const PT_A1_U03_EXTRA: Lesson[] = [
         heading: "Every word goes plural",
         body: [
           "In the plural the article, the noun and the adjective all change: \"o carro novo\" becomes \"os carros novos\", \"uma casa bonita\" becomes \"umas casas bonitas\". Vowel endings add -s; -m becomes -ns (\"homens\"); -r and -z add -es (\"mulheres\", \"luzes\"); -l becomes -is (\"animais\", \"papéis\", \"hotéis\").",
-          "Nouns in -ão take -ões, -ães or -ãos, so learn the plural with the word: \"lições\", \"pães\", \"mãos\", \"irmãos\". Adjectives in -e, -l or -z only change for number (\"grandes\", \"legais\", \"felizes\"), and a mixed group takes the masculine: \"o pai e a mãe são altos\".",
+          "Nouns in -ão take -ões, -ães or -ãos, so learn the plural with the word: \"lições\", \"pães\", \"mãos\", \"irmãos\". Most adjectives in -e, -l or -z only change for number (\"grandes\", \"legais\", \"felizes\"), and a mixed group takes the masculine: \"o pai e a mãe são altos\".",
         ],
         examples: [
           { es: "Os hotéis são caros.", en: "The hotels are expensive." },
@@ -374,7 +374,7 @@ export const PT_A1_U03_EXTRA: Lesson[] = [
     level: "PT-A1",
     number: 3,
     title: "Extra Practice: Articles & Gender, Part 3 of 3",
-    summary: "Practise estar in every person for how people are and where people and things are.",
+    summary: "Practice estar in every person for how people are and where people and things are.",
     duration: "12 min",
     optional: true,
     sections: [
@@ -628,7 +628,7 @@ export const PT_A1_U03_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The flat is small.",
+        source: "The apartment is small.",
         answer: "O apartamento é pequeno.",
         explanation: "Size is a lasting description: \"ser\".",
       },
@@ -636,7 +636,7 @@ export const PT_A1_U03_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The flat is dirty.",
+        source: "The apartment is dirty.",
         answer: "O apartamento está sujo.",
         explanation: "Dirty today, clean after a wash: a state, so \"estar\".",
       },

@@ -31,7 +31,7 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I'm looking for a flat that has two bedrooms.",
+            source: "I'm looking for an apartment that has two bedrooms.",
             answer: "Procuro um apartamento que tenha dois quartos.",
             altAnswers: ["Estou procurando um apartamento que tenha dois quartos.", "Eu procuro um apartamento que tenha dois quartos.", "Eu estou procurando um apartamento que tenha dois quartos.", "Procuro um apartamento com dois quartos.", "Estou procurando um apartamento com dois quartos."],
             explanation: "The flat isn't found yet, so the relative takes the present subjunctive: \"que tenha\".",
@@ -39,7 +39,7 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "If I [had] a car, I'd give you a lift.",
+            en: "If I [had] a car, I'd give you a ride.",
             sentence: "Se eu ___ carro, te dava uma carona.",
             answer: "tivesse",
             explanation: "Unreal present: \"se\" + imperfect subjunctive, with the spoken imperfect \"dava\" in the main clause.",
@@ -48,7 +48,7 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
             type: "listen-choose",
             audio: "Mesmo que ele peça desculpas, não vou esquecer.",
             question: "What does it mean?",
-            options: ["Even if he apologises, I won't forget.", "Since he apologised, I've forgotten it.", "He asked me to forget it.", "If he apologises, I'll forget it."],
+            options: ["Even if he apologizes, I won't forget.", "Since he apologized, I've forgotten it.", "He asked me to forget it.", "If he apologizes, I'll forget it."],
             correctIndex: 0,
             explanation: "\"Mesmo que\" + present subjunctive \"peça\": even if, about the future.",
           },
@@ -63,8 +63,8 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
         examples: [
           { es: "Disseram-me que a reunião tinha sido adiada.", en: "I was told the meeting had been postponed." },
           { es: "Houve dois acidentes na BR-324 ontem.", en: "There were two accidents on the BR-324 yesterday." },
-          { es: "O síndico pediu que os moradores não deixassem lixo na escada.", en: "The building manager asked residents not to leave rubbish on the stairs." },
-          { es: "A nova estação de metrô está sendo construída.", en: "The new metro station is being built." },
+          { es: "O síndico pediu que os moradores não deixassem lixo na escada.", en: "The building manager asked residents not to leave trash on the stairs." },
+          { es: "A nova estação de metrô está sendo construída.", en: "The new subway station is being built." },
           { es: "Faltam duas semanas para as eleições.", en: "There are two weeks to go until the elections." },
         ],
         checkpoint: [
@@ -151,7 +151,7 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[There have been] many changes in the neighbourhood.",
+        en: "[There have been] many changes in the neighborhood.",
         sentence: "___ muitas mudanças no bairro.",
         answer: "Houve",
         altAnswers: ["Tem havido"],
@@ -162,7 +162,7 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
         question: "Which sentence is correct?",
         options: ["Ela fala como se soubesse tudo.", "Ela fala como se sabe tudo.", "Ela fala como se saiba tudo.", "Ela fala como se souber tudo."],
         correctIndex: 0,
-        explanation: "\"Como se\" always takes the imperfect subjunctive: \"soubesse\".",
+        explanation: "\"Como se\" takes the imperfect subjunctive (\"soubesse\"), or the pluperfect for something earlier (\"como se tivesse sabido\"), never the present or the future.",
       },
       {
         type: "translate",
@@ -254,7 +254,7 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
               { left: "queimadas", right: "land burning, wildfires" },
               { left: "juros", right: "interest (on money)" },
               { left: "carteira assinada", right: "formal employment" },
-              { left: "vereador", right: "city councillor" },
+              { left: "vereador", right: "city councilor" },
             ],
             explanation: "Five key words from the B2 word webs. \"Juros\" is always plural.",
           },
@@ -286,7 +286,7 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Your friend says: \"Só agora caiu a ficha.\" What does she mean?",
-            options: ["She's only just realised.", "She just dropped a coin.", "She has just fallen over.", "She's only just paid."],
+            options: ["She's only just realized.", "She just dropped a coin.", "She has just fallen over.", "She's only just paid."],
             correctIndex: 0,
             explanation: "\"Cair a ficha\" (the token drops, from old payphones) means to finally understand something.",
           },
@@ -294,7 +294,7 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
             type: "listen-choose",
             audio: "Quem pagou o pato foi o estagiário.",
             question: "What does it mean?",
-            options: ["The intern was the one who took the blame.", "The intern paid for the duck.", "The intern paid for everyone's lunch.", "The intern got a pay rise."],
+            options: ["The intern was the one who took the blame.", "The intern paid for the duck.", "The intern paid for everyone's lunch.", "The intern got a raise."],
             correctIndex: 0,
             explanation: "\"Pagar o pato\" means to take the blame (or the cost) for something you didn't do.",
           },
@@ -318,7 +318,7 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
         source: "I don't have a formal job; I'm self-employed.",
         answer: "Não tenho carteira assinada; sou autônomo.",
         altAnswers: ["Não tenho carteira assinada; sou autônoma.", "Eu não tenho carteira assinada; sou autônomo.", "Eu não tenho carteira assinada; sou autônoma.", "Não trabalho de carteira assinada; sou autônomo.", "Não trabalho de carteira assinada; sou autônoma.", "Eu não tenho carteira assinada, eu sou autônomo.", "Eu não tenho carteira assinada, eu sou autônoma.", "Não tenho emprego formal; sou autônomo.", "Não tenho emprego formal; sou autônoma."],
-        explanation: "\"Carteira assinada\" means a formal job with labour rights; \"autônomo\" / \"autônoma\" agrees with the speaker.",
+        explanation: "\"Carteira assinada\" means a formal job with labor rights; \"autônomo\" / \"autônoma\" agrees with the speaker.",
       },
       {
         type: "fill-blank",
@@ -443,9 +443,9 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Moro em Salvador há dois anos e trabalho com turismo.", en: "I've lived in Salvador for two years and I work in tourism." },
-          { es: "A imagem mostra uma praia cheia de lixo depois de um feriado.", en: "The picture shows a beach full of rubbish after a holiday." },
+          { es: "A imagem mostra uma praia cheia de lixo depois de um feriado.", en: "The picture shows a beach full of trash after a holiday." },
           { es: "Por um lado, o turismo traz dinheiro; por outro, a cidade não estava preparada.", en: "On the one hand, tourism brings money; on the other, the city wasn't ready." },
-          { es: "No meu país, as pessoas costumam levar o próprio lixo embora.", en: "In my country, people usually take their own rubbish home." },
+          { es: "No meu país, as pessoas costumam levar o próprio lixo embora.", en: "In my country, people usually take their own trash home." },
           { es: "Desculpa, você poderia repetir a pergunta?", en: "Sorry, could you repeat the question?" },
         ],
         checkpoint: [
@@ -470,7 +470,7 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
           {
             type: "speak",
             text: "A imagem mostra uma praia cheia de lixo depois do feriado.",
-            prompt: "Say it in Portuguese: The picture shows a beach full of rubbish after the holiday.",
+            prompt: "Say it in Portuguese: The picture shows a beach full of trash after the holiday.",
             tip: "The x in lixo is sh: LI-shu. Feriado: the d before o stays a plain d.",
             explanation: "\"A imagem mostra\" is the neutral way in: describe before you judge.",
           },
@@ -485,7 +485,7 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
         examples: [
           { es: "É uma boa pergunta. Nunca tinha pensado nisso.", en: "That's a good question. I'd never thought about it." },
           { es: "Não acho que multar as pessoas seja suficiente.", en: "I don't think fining people is enough." },
-          { es: "Se a prefeitura tivesse colocado mais lixeiras, a praia estaria mais limpa.", en: "If the city had put out more bins, the beach would be cleaner." },
+          { es: "Se a prefeitura tivesse colocado mais lixeiras, a praia estaria mais limpa.", en: "If the city had put out more trash cans, the beach would be cleaner." },
           { es: "Como posso dizer... é um problema de educação, não só de fiscalização.", en: "How can I put it... it's a problem of education, not just enforcement." },
           { es: "Então, resumindo: precisamos de educação e de fiscalização.", en: "So, to sum up: we need education and enforcement." },
         ],
@@ -502,7 +502,7 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "If the city [had put out] more bins, the beach would be cleaner.",
+            en: "If the city [had put out] more trash cans, the beach would be cleaner.",
             sentence: "Se a prefeitura ___ mais lixeiras, a praia estaria mais limpa.",
             answer: "tivesse colocado",
             altAnswers: ["tivesse posto", "tivesse instalado", "tivesse botado"],
@@ -557,7 +557,7 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "If I [were] the mayor, I'd invest in public transport.",
+        en: "If I [were] the mayor, I'd invest in public transportation.",
         sentence: "Se eu ___ o prefeito, investiria em transporte público.",
         answer: "fosse",
         explanation: "An imagined role: \"se eu fosse\" + conditional \"investiria\".",
@@ -620,7 +620,7 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
         type: "speak",
         text: "Não acho que as multas sejam suficientes; é preciso investir em educação.",
         prompt: "Say it in Portuguese: I don't think fines are enough; we need to invest in education.",
-        tip: "Sejam has a closed ê and a nasal ão ending: SÊ-jãw. Educação: e-du-ka-SÃO.",
+        tip: "Sejam has a closed ê and a nasal ão ending: SÊ-jãw. Educação: e-du-ka-SÃW.",
         explanation: "Opinion with \"não acho que\" + subjunctive, then a proposal with the impersonal \"é preciso\".",
       },
       {

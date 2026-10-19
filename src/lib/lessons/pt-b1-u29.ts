@@ -19,18 +19,18 @@ export const PT_B1_U29: Lesson[] = [
           "Years are counted with \"ano\": \"meu filho está no quinto ano\". People over thirty still say \"série\" (\"eu estava na oitava série\"), because the system used to count eight \"séries\". You'll hear both, so understand both. To say what stage someone is in, use \"estar em\": \"ela está no ensino médio\".",
         ],
         examples: [
-          { es: "Minha filha está no quinto ano do ensino fundamental.", en: "My daughter is in year five of primary school." },
-          { es: "O Lucas termina o ensino médio no fim do ano.", en: "Lucas finishes secondary school at the end of the year." },
-          { es: "O bebê começa na creche em março.", en: "The baby starts nursery in March." },
+          { es: "Minha filha está no quinto ano do ensino fundamental.", en: "My daughter is in fifth grade." },
+          { es: "O Lucas termina o ensino médio no fim do ano.", en: "Lucas finishes high school at the end of the year." },
+          { es: "O bebê começa na creche em março.", en: "The baby starts daycare in March." },
           { es: "Quando eu estava na oitava série, mudei de escola.", en: "When I was in eighth grade, I changed schools." },
-          { es: "O terceirão é o ano mais puxado.", en: "The last year of secondary school is the toughest." },
+          { es: "O terceirão é o ano mais puxado.", en: "The last year of high school is the toughest." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "My son is in year nine.",
+            source: "My son is in ninth grade.",
             answer: "Meu filho está no nono ano.",
             altAnswers: ["O meu filho está no nono ano.", "Meu filho está no 9º ano.", "Meu filho está na oitava série."],
             explanation: "School years are counted with ordinal numbers and \"ano\", and you are \"no\" a year: \"está no nono ano\". The old system would call it \"oitava série\".",
@@ -39,9 +39,9 @@ export const PT_B1_U29: Lesson[] = [
             type: "matching",
             instructions: "Match the Portuguese to the English.",
             pairs: [
-              { left: "a creche", right: "nursery, daycare" },
-              { left: "o ensino fundamental", right: "primary and lower secondary school" },
-              { left: "o ensino médio", right: "upper secondary school" },
+              { left: "a creche", right: "daycare" },
+              { left: "o ensino fundamental", right: "elementary and middle school" },
+              { left: "o ensino médio", right: "high school" },
               { left: "o terceirão", right: "the final school year" },
             ],
             explanation: "\"Fundamental\" covers nine years, ages 6 to 14; \"médio\" is the last three years before university.",
@@ -51,15 +51,15 @@ export const PT_B1_U29: Lesson[] = [
       {
         heading: "Escola pública, escola particular, colégio",
         body: [
-          "A state school is an \"escola pública\" (run by the city or the state) and a private one is an \"escola particular\", where parents pay a \"mensalidade\" (monthly fee). \"Escola privada\" is also correct (you'll see it in the news), but \"particular\" is the everyday word, and \"privada\" on its own means toilet.",
+          "A public school is an \"escola pública\" (run by the city or the state) and a private one is an \"escola particular\", where parents pay a \"mensalidade\" (monthly fee). \"Escola privada\" is also correct (you'll see it in the news), but \"particular\" is the everyday word, and \"privada\" on its own means toilet.",
           "\"Colégio\" is a false friend: it means school, often a private one with a name (\"Colégio Santa Maria\"), never college or university. Many public schools are called \"escola estadual\" or \"escola municipal\". In Brazil the best universities are public, while the best schools are often private, which is why the debate about access is so heated.",
         ],
         examples: [
-          { es: "Ela estudou a vida toda em escola pública.", en: "She went to state schools all her life." },
+          { es: "Ela estudou a vida toda em escola pública.", en: "She went to public schools all her life." },
           { es: "A mensalidade da escola particular subiu de novo.", en: "The private school's monthly fee went up again." },
           { es: "Meus filhos estudam no Colégio São Bento.", en: "My kids go to São Bento School." },
-          { es: "A escola municipal do bairro tem ótimos professores.", en: "The local council school has great teachers." },
-          { es: "Ele fez o ensino médio numa escola estadual de Curitiba.", en: "He did secondary school at a state school in Curitiba." },
+          { es: "A escola municipal do bairro tem ótimos professores.", en: "The local municipal school has great teachers." },
+          { es: "Ele fez o ensino médio numa escola estadual de Curitiba.", en: "He went to high school at a state school in Curitiba." },
         ],
         checkpoint: [
           {
@@ -76,19 +76,19 @@ export const PT_B1_U29: Lesson[] = [
             question: "A Brazilian says: \"Estudei no Colégio Dom Pedro.\" What did they attend?",
             options: ["A school", "A university", "A college for adults", "A language course"],
             correctIndex: 0,
-            explanation: "\"Colégio\" means school, usually primary or secondary. University is \"faculdade\" or \"universidade\".",
+            explanation: "\"Colégio\" means school, usually elementary or high school. University is \"faculdade\" or \"universidade\".",
           },
         ],
       },
       {
         heading: "Turma, recreio, merenda, boletim",
         body: [
-          "Your \"turma\" is the group you study with (\"a turma do sexto ano B\"); the room is the \"sala de aula\". The break is the \"recreio\", and public schools serve free \"merenda\" (the school meal), which for many children is the main meal of the day. Many schools require a \"uniforme\", often just a T-shirt with the school's logo.",
-          "Grades come home on the \"boletim\" (report card). A student who fails the year \"repete de ano\" or \"foi reprovado\", a passive you already know. In speech the active is common too: \"ele reprovou em matemática\" (he failed maths).",
+          "Your \"turma\" is the group you study with (\"a turma do sexto ano B\"); the room is the \"sala de aula\". Recess is the \"recreio\", and public schools serve free \"merenda\" (the school meal), which for many children is the main meal of the day. Many schools require a \"uniforme\", often just a T-shirt with the school's logo.",
+          "Grades come home on the \"boletim\" (report card). A student who fails the year \"repete de ano\" or \"foi reprovado\", a passive you already know. In speech the active is common too: \"ele reprovou em matemática\" (he failed math).",
         ],
         examples: [
-          { es: "A turma do sexto ano vai fazer uma excursão.", en: "The year six class is going on a school trip." },
-          { es: "No recreio as crianças jogam bola no pátio.", en: "At break the children play football in the playground." },
+          { es: "A turma do sexto ano vai fazer uma excursão.", en: "The sixth-grade class is going on a field trip." },
+          { es: "No recreio as crianças jogam bola no pátio.", en: "At recess the children play soccer in the playground." },
           { es: "A merenda de hoje foi arroz, feijão e frango.", en: "Today's school lunch was rice, beans and chicken." },
           { es: "Esqueci o uniforme em casa.", en: "I left my school uniform at home." },
           { es: "Ele foi reprovado e vai repetir de ano.", en: "He failed and is going to repeat the year." },
@@ -116,9 +116,9 @@ export const PT_B1_U29: Lesson[] = [
             type: "listen-choose",
             audio: "No recreio a gente jogava bola.",
             question: "What does it mean?",
-            options: ["At break we used to play football.", "In class we used to play football.", "After school we played football.", "At break we're going to play football."],
+            options: ["At recess we used to play soccer.", "In class we used to play soccer.", "After school we played soccer.", "At recess we're going to play soccer."],
             correctIndex: 0,
-            explanation: "\"Recreio\" is the break between lessons, and the imperfeito \"jogava\" describes a habit.",
+            explanation: "\"Recreio\" is recess, the break between classes, and the imperfeito \"jogava\" describes a habit.",
           },
         ],
       },
@@ -128,7 +128,7 @@ export const PT_B1_U29: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "My niece is in secondary school.",
+        source: "My niece is in high school.",
         answer: "Minha sobrinha está no ensino médio.",
         altAnswers: ["A minha sobrinha está no ensino médio."],
         explanation: "The stage of schooling takes \"estar em\": \"no ensino médio\".",
@@ -154,10 +154,10 @@ export const PT_B1_U29: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The children play in the playground at break.",
+        source: "The children play in the playground at recess.",
         answer: "As crianças brincam no pátio no recreio.",
         altAnswers: ["No recreio as crianças brincam no pátio.", "No recreio, as crianças brincam no pátio.", "As crianças brincam no pátio na hora do recreio.", "Na hora do recreio, as crianças brincam no pátio."],
-        explanation: "\"Recreio\" is break and \"pátio\" the playground. Children \"brincam\" (play); \"jogar\" is for games with rules.",
+        explanation: "\"Recreio\" is recess and \"pátio\" the playground. Children \"brincam\" (play); \"jogar\" is for games with rules.",
       },
       {
         type: "word-order",
@@ -179,15 +179,15 @@ export const PT_B1_U29: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The baby goes to [nursery] while we work.",
+        en: "The baby goes to [daycare] while we work.",
         sentence: "O bebê fica na ___ enquanto a gente trabalha.",
         answer: "creche",
-        explanation: "\"Creche\" is daycare or nursery for children up to 3. It is not a nativity scene, as in French.",
+        explanation: "\"Creche\" is daycare for children up to 3. It is not a nativity scene, as in French.",
       },
       {
         type: "multiple-choice",
         question: "You want to tell a Brazilian friend you went to a private school. What do you say?",
-        options: ["Estudei em escola particular.", "Estudei em escola privada de banho.", "Estudei em colégio público pago.", "Estudei em faculdade particular quando era criança."],
+        options: ["Estudei em escola particular.", "Estudei em escola privativa.", "Estudei em colégio público pago.", "Estudei em faculdade particular quando era criança."],
         correctIndex: 0,
         explanation: "\"Escola particular\" is the natural phrase. A \"faculdade\" is higher education, not school.",
       },
@@ -199,8 +199,8 @@ export const PT_B1_U29: Lesson[] = [
       {
         type: "speak",
         text: "Minha filha está no primeiro ano do ensino médio.",
-        prompt: "Say it in Portuguese: My daughter is in the first year of secondary school.",
-        tip: "\"Médio\" has an open é: MÉ-djo. The d before i sounds like the j in jeans.",
+        prompt: "Say it in Portuguese: My daughter is in the first year of high school.",
+        tip: "\"Médio\" has an open é: MÉ-dju. The d before i sounds like the j in jeans.",
         explanation: "\"Primeiro ano do ensino médio\": years are ordinals with \"ano\", and \"do\" links the year to the stage.",
       },
       {
@@ -219,7 +219,7 @@ export const PT_B1_U29: Lesson[] = [
     level: "PT-B1",
     number: 2,
     title: "Word Web: University and Entrance Exams",
-    summary: "Talk about getting into and through university in Brazil: the Enem, the vestibular, the cursinho, Sisu and ProUni, the curso, the TCC, the formatura and postgraduate degrees.",
+    summary: "Talk about getting into and through university in Brazil: the Enem, the vestibular, the cursinho, Sisu and ProUni, the curso, the TCC, the formatura and graduate degrees.",
     duration: "13 min",
     kind: "teach",
     sections: [
@@ -227,11 +227,11 @@ export const PT_B1_U29: Lesson[] = [
         heading: "Enem, vestibular, cursinho: getting in",
         body: [
           "Getting into a Brazilian university means passing an entrance exam. The \"Enem\" (Exame Nacional do Ensino Médio) is the national exam, taken over two Sundays in November; its score feeds the \"Sisu\", the system that hands out places at public universities. Some universities still run their own exam, the \"vestibular\" (São Paulo's USP uses the Fuvest).",
-          "The verbs matter: you \"fazer o Enem\" and \"prestar vestibular\" (sit the exam), \"passar\" (get in) or \"não passar\". Thousands spend a year at a \"cursinho\", a private prep course, before trying again. The \"ProUni\" gives \"bolsas\" (scholarships) at private universities to students from public schools.",
+          "The verbs matter: you \"fazer o Enem\" and \"prestar vestibular\" (take the exam), \"passar\" (get in) or \"não passar\". Thousands spend a year at a \"cursinho\", a private prep course, before trying again. The \"ProUni\" gives \"bolsas\" (scholarships) at private universities to students from public schools.",
         ],
         examples: [
           { es: "Vou fazer o Enem pela segunda vez.", en: "I'm going to take the Enem for the second time." },
-          { es: "Ela prestou vestibular para medicina na Fuvest.", en: "She sat the Fuvest entrance exam for medicine." },
+          { es: "Ela prestou vestibular para medicina na Fuvest.", en: "She took the Fuvest entrance exam for medicine." },
           { es: "Ele passou na federal com a nota do Enem.", en: "He got into the federal university with his Enem score." },
           { es: "Fiz um ano de cursinho antes de passar.", en: "I did a year of prep course before getting in." },
           { es: "Ela conseguiu uma bolsa integral pelo ProUni.", en: "She got a full scholarship through ProUni." },
@@ -241,10 +241,10 @@ export const PT_B1_U29: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "My brother is going to sit the entrance exam in December.",
+            source: "My brother is going to take the entrance exam in December.",
             answer: "Meu irmão vai prestar vestibular em dezembro.",
             altAnswers: ["O meu irmão vai prestar vestibular em dezembro.", "Meu irmão vai prestar o vestibular em dezembro.", "Meu irmão vai fazer vestibular em dezembro.", "Meu irmão vai fazer o vestibular em dezembro.", "O meu irmão vai fazer o vestibular em dezembro."],
-            explanation: "You \"prestar\" or \"fazer\" a vestibular. \"Prestar\" here has nothing to do with lending; it is the exam verb.",
+            explanation: "You \"prestar\" or \"fazer\" a vestibular. Here \"prestar\" is the exam verb; don't confuse it with \"emprestar\" (to lend).",
           },
           {
             type: "fill-blank",
@@ -267,7 +267,7 @@ export const PT_B1_U29: Lesson[] = [
           { es: "Faço engenharia na Federal de Minas Gerais.", en: "I study engineering at the Federal University of Minas Gerais." },
           { es: "A matrícula vai até sexta-feira.", en: "Registration is open until Friday." },
           { es: "Ele trancou a matrícula para trabalhar um ano.", en: "He suspended his studies to work for a year." },
-          { es: "Estou escrevendo meu TCC sobre a seca no Nordeste.", en: "I'm writing my final dissertation on the drought in the Northeast." },
+          { es: "Estou escrevendo meu TCC sobre a seca no Nordeste.", en: "I'm writing my senior thesis on the drought in the Northeast." },
           { es: "Ela fez faculdade em Porto Alegre.", en: "She went to university in Porto Alegre." },
         ],
         checkpoint: [
@@ -278,14 +278,14 @@ export const PT_B1_U29: Lesson[] = [
             source: "I study law at the federal university.",
             answer: "Faço direito na federal.",
             altAnswers: ["Eu faço direito na federal.", "Faço direito na universidade federal.", "Eu faço direito na universidade federal.", "Estudo direito na federal.", "Eu estudo direito na universidade federal.", "Estudo direito na universidade federal.", "Faço o curso de direito na universidade federal."],
-            explanation: "\"Fazer\" + subject is the natural way to say what you study at university: \"faço direito\". \"A federal\" is short for the federal university.",
+            explanation: "\"Fazer\" + subject is the natural way to say what you study in college: \"faço direito\". \"A federal\" is short for the federal university.",
           },
           {
             type: "multiple-choice",
             question: "A friend says: \"Tranquei a matrícula.\" What did she do?",
             options: ["She suspended her studies for a while.", "She locked herself out of the university.", "She enrolled in a new course.", "She graduated."],
             correctIndex: 0,
-            explanation: "\"Trancar\" is to lock, and \"trancar a matrícula\" is to put your enrolment on hold.",
+            explanation: "\"Trancar\" is to lock, and \"trancar a matrícula\" is to put your enrollment on hold.",
           },
         ],
       },
@@ -378,9 +378,9 @@ export const PT_B1_U29: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I'm writing my dissertation about public transport.",
+        prompt: "Put the words in order to say: I'm writing my thesis about public transportation.",
         words: ["Estou", "escrevendo", "meu", "TCC", "sobre", "transporte", "público."],
-        translation: "I'm writing my dissertation about public transport.",
+        translation: "I'm writing my thesis about public transportation.",
         explanation: "\"TCC\" (trabalho de conclusão de curso) is the final project of a degree. It's masculine: \"meu TCC\".",
       },
       {
@@ -396,13 +396,13 @@ export const PT_B1_U29: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "prestar vestibular", right: "to sit an entrance exam" },
+          { left: "prestar vestibular", right: "to take an entrance exam" },
           { left: "trancar a matrícula", right: "to suspend your studies" },
           { left: "se formar", right: "to graduate" },
           { left: "a formatura", right: "the graduation ceremony" },
           { left: "a bolsa", right: "the scholarship" },
         ],
-        explanation: "These verbs and nouns go together in Brazilian student life: you \"prestar\" an exam, \"trancar\" enrolment and \"se formar\" at the end.",
+        explanation: "These verbs and nouns go together in Brazilian student life: you \"prestar\" an exam, \"trancar\" enrollment and \"se formar\" at the end.",
       },
       {
         type: "dictation",
@@ -460,7 +460,7 @@ export const PT_B1_U29: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "We have a maths [test] on Friday.",
+            en: "We have a math [test] on Friday.",
             sentence: "A gente tem ___ de matemática na sexta.",
             answer: "prova",
             explanation: "A school test is a \"prova\": \"prova de matemática\".",
@@ -470,22 +470,22 @@ export const PT_B1_U29: Lesson[] = [
       {
         heading: "Passar, reprovar, recuperação",
         body: [
-          "Passing is \"passar\": \"passei em todas as matérias\" (subjects). Failing is \"ser reprovado\" (\"fui reprovado em biologia\") or, in speech, \"reprovar\" with no object (\"reprovei em biologia\"). A student just below the pass mark \"fica de recuperação\": they get extra classes and a second chance, a resit, at the end of the term.",
+          "Passing is \"passar\": \"passei em todas as matérias\" (subjects). Failing is \"ser reprovado\" (\"fui reprovado em biologia\") or, in speech, \"reprovar\" with no object (\"reprovei em biologia\"). A student just below the pass mark \"fica de recuperação\": they get extra classes and a second chance, a make-up exam, at the end of the semester.",
           "Notice that \"passar\" has many jobs: \"passar na prova\" (pass the test), \"passar no vestibular\" (get into university), \"passar o fim de semana\" (spend the weekend). Context sorts them out.",
         ],
         examples: [
           { es: "Passei em todas as matérias!", en: "I passed all my subjects!" },
           { es: "Ele foi reprovado em química.", en: "He failed chemistry." },
-          { es: "Fiquei de recuperação em inglês.", en: "I've got to do the resit in English." },
+          { es: "Fiquei de recuperação em inglês.", en: "I have to take the make-up exam in English." },
           { es: "Caso ela não estude, vai reprovar.", en: "If she doesn't study, she's going to fail." },
-          { es: "Ninguém da turma ficou de recuperação.", en: "No one in the class had to do resits." },
+          { es: "Ninguém da turma ficou de recuperação.", en: "No one in the class had to take make-up exams." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "He failed maths.",
+            source: "He failed math.",
             answer: "Ele foi reprovado em matemática.",
             altAnswers: ["Ele reprovou em matemática.", "Ele bombou em matemática.", "Ele levou bomba em matemática."],
             explanation: "\"Foi reprovado em\" is standard; \"reprovou em\" is everyday speech. Teenagers say \"levou bomba\" too.",
@@ -495,20 +495,20 @@ export const PT_B1_U29: Lesson[] = [
             question: "Your friend's son is just below the pass mark and will get a second chance at the end of term. What does she say?",
             options: ["Ele ficou de recuperação.", "Ele passou com nota dez.", "Ele matou aula.", "Ele se formou."],
             correctIndex: 0,
-            explanation: "\"Ficar de recuperação\" is the resit stage between passing and failing.",
+            explanation: "\"Ficar de recuperação\" is the make-up stage between passing and failing.",
           },
         ],
       },
       {
         heading: "Colar, matar aula, decorar, seminário",
         body: [
-          "Some study verbs look innocent but aren't. \"Colar\" (literally to glue) means to cheat in a test, and the crib sheet is a \"cola\". \"Matar aula\" (literally to kill class) is to skip it. \"Decorar\" is to memorise, not to decorate a room (that's also \"decorar\", but context tells you).",
+          "Some study verbs look innocent but aren't. \"Colar\" (literally to glue) means to cheat in a test, and the crib sheet is a \"cola\". \"Matar aula\" (literally to kill class) is to skip it. \"Decorar\" is to memorize, not to decorate a room (that's also \"decorar\", but context tells you).",
           "Group work is a big part of Brazilian schooling: you \"fazer trabalho em grupo\" and \"apresentar um seminário\" (give a presentation to the class). A \"trabalho\" here is a school assignment, not a job.",
         ],
         examples: [
           { es: "O professor pegou dois alunos colando.", en: "The teacher caught two students cheating." },
           { es: "Matei aula para ir à praia.", en: "I skipped class to go to the beach." },
-          { es: "Tenho que decorar todas as datas para a prova.", en: "I have to memorise all the dates for the test." },
+          { es: "Tenho que decorar todas as datas para a prova.", en: "I have to memorize all the dates for the test." },
           { es: "A gente vai apresentar o seminário na quinta.", en: "We're giving our presentation on Thursday." },
           { es: "O trabalho em grupo vale três pontos.", en: "The group assignment is worth three points." },
         ],
@@ -534,9 +534,9 @@ export const PT_B1_U29: Lesson[] = [
           {
             type: "speak",
             text: "Tenho que decorar o vocabulário para amanhã.",
-            prompt: "Say it in Portuguese: I have to memorise the vocabulary for tomorrow.",
+            prompt: "Say it in Portuguese: I have to memorize the vocabulary for tomorrow.",
             tip: "In \"decorar\" the final r is soft, almost silent in many accents.",
-            explanation: "\"Decorar\" means to memorise when the object is something to learn.",
+            explanation: "\"Decorar\" means to memorize when the object is something to learn.",
           },
         ],
       },
@@ -558,7 +558,7 @@ export const PT_B1_U29: Lesson[] = [
         source: "Did you pass all your subjects?",
         answer: "Você passou em todas as matérias?",
         altAnswers: ["Passou em todas as matérias?", "Vocês passaram em todas as matérias?", "Você passou em todas as disciplinas?"],
-        explanation: "\"Passar em\" + subject. A school subject is a \"matéria\" (\"disciplina\" at university).",
+        explanation: "\"Passar em\" + subject. A school subject is a \"matéria\" (\"disciplina\" in college).",
       },
       {
         type: "fill-blank",
@@ -588,9 +588,9 @@ export const PT_B1_U29: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I've got to do the resit in chemistry.",
+        prompt: "Put the words in order to say: I have to take the make-up exam in chemistry.",
         words: ["Fiquei", "de", "recuperação", "em", "química."],
-        translation: "I've got to do the resit in chemistry.",
+        translation: "I have to take the make-up exam in chemistry.",
         explanation: "\"Ficar de recuperação em\" + subject: you didn't pass yet, but you get a second chance.",
       },
       {
@@ -617,10 +617,10 @@ export const PT_B1_U29: Lesson[] = [
           { left: "tirar nota", right: "to get a grade" },
           { left: "colar", right: "to cheat in a test" },
           { left: "matar aula", right: "to skip class" },
-          { left: "decorar", right: "to memorise" },
+          { left: "decorar", right: "to memorize" },
           { left: "apresentar seminário", right: "to give a class presentation" },
         ],
-        explanation: "Several of these look like other words: \"colar\" (glue), \"matar\" (kill), \"decorar\" (decorate). In school talk they mean cheat, skip and memorise.",
+        explanation: "Several of these look like other words: \"colar\" (glue), \"matar\" (kill), \"decorar\" (decorate). In school talk they mean cheat, skip and memorize.",
       },
       {
         type: "speak",
@@ -650,7 +650,7 @@ export const PT_B1_U29: Lesson[] = [
         heading: "Colégio, faculdade, universidade",
         body: [
           "\"Colégio\" is always school, before university. \"Estudei no colégio em Belo Horizonte\" means you went to school there. College in the American sense is \"faculdade\".",
-          "\"Faculdade\" has two uses. It is a smaller higher-education institution that offers a few courses (\"uma faculdade particular de administração\"), or a faculty inside a university (\"a Faculdade de Direito da USP\"). A \"universidade\" is the large institution with many faculties and research. In conversation \"fazer faculdade\" covers both: \"ela faz faculdade\" just means she's at university.",
+          "\"Faculdade\" has two uses. It is a smaller higher-education institution that offers a few courses (\"uma faculdade particular de administração\"), or a faculty inside a university (\"a Faculdade de Direito da USP\"). A \"universidade\" is the large institution with many faculties and research. In conversation \"fazer faculdade\" covers both: \"ela faz faculdade\" just means she's in college.",
         ],
         examples: [
           { es: "Estudei no mesmo colégio que meu pai.", en: "I went to the same school as my dad." },
@@ -671,7 +671,7 @@ export const PT_B1_U29: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence says your friend is at university?",
+            question: "Which sentence says your friend is in college?",
             options: ["Ela está na faculdade.", "Ela está no colégio.", "Ela está no ensino médio.", "Ela está na creche."],
             correctIndex: 0,
             explanation: "\"Faculdade\" is higher education. \"Colégio\" and \"ensino médio\" are school.",
@@ -686,7 +686,7 @@ export const PT_B1_U29: Lesson[] = [
         ],
         examples: [
           { es: "Estou no último ano da graduação.", en: "I'm in the last year of my undergraduate degree." },
-          { es: "Depois da graduação, quero fazer pós.", en: "After my degree, I want to do a postgraduate course." },
+          { es: "Depois da graduação, quero fazer pós.", en: "After my degree, I want to do a graduate program." },
           { es: "A formatura dele é no sábado.", en: "His graduation ceremony is on Saturday." },
           { es: "Ela se formou em letras no ano passado.", en: "She graduated in languages and literature last year." },
           { es: "Ele é aluno de pós em química.", en: "He's a graduate student in chemistry." },
@@ -715,11 +715,11 @@ export const PT_B1_U29: Lesson[] = [
         heading: "Aula, classe, turma; curso or carreira?",
         body: [
           "A class you attend is an \"aula\": \"tenho aula às oito\", \"a professora deu uma aula ótima\". Teachers \"dão aula\" (teach). The group of students is the \"turma\", and the room is the \"sala\" or \"sala de aula\". \"Classe\" mostly means social class (\"classe média\") and sounds old-fashioned for a school group.",
-          "\"Curso\" is a course or a degree programme: \"curso de inglês\", \"curso de medicina\". \"Carreira\" is a career, the path of your working life: \"ela fez carreira no banco\". Asking \"qual é o seu curso?\" means what are you studying.",
+          "\"Curso\" is a course or a degree program: \"curso de inglês\", \"curso de medicina\". \"Carreira\" is a career, the path of your working life: \"ela fez carreira no banco\". Asking \"qual é o seu curso?\" means what are you studying.",
         ],
         examples: [
           { es: "Hoje não tem aula por causa do feriado.", en: "There are no classes today because of the holiday." },
-          { es: "Minha mãe dá aula de geografia.", en: "My mum teaches geography." },
+          { es: "Minha mãe dá aula de geografia.", en: "My mom teaches geography." },
           { es: "A turma inteira foi ao museu.", en: "The whole class went to the museum." },
           { es: "O Brasil tem uma classe média grande.", en: "Brazil has a large middle class." },
           { es: "Ele fez um curso de fotografia.", en: "He did a photography course." },
@@ -740,7 +740,7 @@ export const PT_B1_U29: Lesson[] = [
             question: "A Brazilian student asks you: \"Qual é o seu curso?\" What do they want to know?",
             options: ["What you're studying", "What your career is", "Which class group you're in", "Which course of action you'll take"],
             correctIndex: 0,
-            explanation: "\"Curso\" here is your degree programme. A career is a \"carreira\".",
+            explanation: "\"Curso\" here is your degree program. A career is a \"carreira\".",
           },
           {
             type: "listen-choose",
@@ -829,7 +829,7 @@ export const PT_B1_U29: Lesson[] = [
       {
         type: "dictation",
         audio: "Ela faz faculdade à noite.",
-        explanation: "\"Fazer faculdade\" is to be at university. \"À noite\" means at night.",
+        explanation: "\"Fazer faculdade\" is to be in college. \"À noite\" means at night.",
       },
       {
         type: "speak",
@@ -859,7 +859,7 @@ export const PT_B1_U29: Lesson[] = [
       {
         heading: "Aplicativo, baixar, instalar, atualizar",
         body: [
-          "An app is an \"aplicativo\", usually shortened to \"app\" (said \"ép\" or \"á-pi\"). You \"baixar\" an app (download it, literally lower it), \"instalar\" it, and from time to time \"atualizar\" it (update). \"Atualizar\" is a false friend: it never means actualise, and \"atualmente\" means currently, not actually.",
+          "An app is an \"aplicativo\", usually shortened to \"app\" (said \"ép\" or \"á-pi\"). You \"baixar\" an app (download it, literally lower it), \"instalar\" it, and from time to time \"atualizar\" it (update). \"Atualizar\" is a false friend: it never means actualize, and \"atualmente\" means currently, not actually.",
           "Brazil runs on apps: WhatsApp is how people talk to banks, doctors and the padaria, and a phone with no \"memória\" (storage) or no \"espaço\" is a real problem. \"Desinstalar\" removes an app.",
         ],
         examples: [
@@ -917,7 +917,7 @@ export const PT_B1_U29: Lesson[] = [
             question: "At a bank in Salvador the guard tells you: \"Pega uma senha, por favor.\" What should you do?",
             options: ["Take a numbered ticket", "Type your password", "Show your ID", "Open an account"],
             correctIndex: 0,
-            explanation: "In a queue, \"senha\" is the numbered ticket. Online it's a password.",
+            explanation: "In a line, \"senha\" is the numbered ticket. Online it's a password.",
           },
         ],
       },
@@ -1042,7 +1042,7 @@ export const PT_B1_U29: Lesson[] = [
           { left: "marcar", right: "to tag" },
           { left: "seguir", right: "to follow" },
         ],
-        explanation: "All six are regular verbs. \"Atualizar\" is a false friend: it means update, never actualise.",
+        explanation: "All six are regular verbs. \"Atualizar\" is a false friend: it means update, never actualize.",
       },
       {
         type: "dictation",
@@ -1119,7 +1119,7 @@ export const PT_B1_U29: Lesson[] = [
           { es: "Apaga essa mensagem antes que alguém veja!", en: "Delete that message before anyone sees it!" },
           { es: "Tirei print do comprovante do Pix.", en: "I took a screenshot of the Pix receipt." },
           { es: "A universidade publicou o resultado no site.", en: "The university published the results on its website." },
-          { es: "Faça o download do formulário e preencha.", en: "Download the form and fill it in." },
+          { es: "Faça o download do formulário e preencha.", en: "Download the form and fill it out." },
           { es: "O texto foi publicado nas redes sociais da prefeitura.", en: "The text was posted on the city hall's social media." },
         ],
         checkpoint: [
@@ -1300,7 +1300,7 @@ export const PT_B1_U29: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The call [dropped] when I went into the lift.",
+            en: "The call [dropped] when I went into the elevator.",
             sentence: "A ligação ___ quando entrei no elevador.",
             answer: "caiu",
             explanation: "\"Cair\" (to fall) is used for calls and connections that drop: \"a ligação caiu\".",
@@ -1496,7 +1496,7 @@ export const PT_B1_U29: Lesson[] = [
         examples: [
           { es: "Larissa: E aí, a nota já saiu?", en: "Larissa: So, are the results out yet?" },
           { es: "Thiago: Saiu ontem. Tirei 780 na redação!", en: "Thiago: They came out yesterday. I got 780 in the essay!" },
-          { es: "Larissa: Parabéns! Eu fui bem em matemática, mas mal em ciências da natureza.", en: "Larissa: Congratulations! I did well in maths, but badly in natural sciences." },
+          { es: "Larissa: Parabéns! Eu fui bem em matemática, mas mal em ciências da natureza.", en: "Larissa: Congratulations! I did well in math, but badly in natural sciences." },
           { es: "Thiago: Poxa, que pena. Quanto você tirou na redação?", en: "Thiago: Oh no, what a shame. What did you get in the essay?" },
           { es: "Larissa: Novecentos. O tema foi sobre o acesso à internet.", en: "Larissa: Nine hundred. The topic was access to the internet." },
         ],
@@ -1505,7 +1505,7 @@ export const PT_B1_U29: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I did well in maths.",
+            source: "I did well in math.",
             answer: "Fui bem em matemática.",
             altAnswers: ["Eu fui bem em matemática.", "Me saí bem em matemática.", "Eu me saí bem em matemática."],
             explanation: "\"Ir bem em\" is to do well in. \"Fui\" is the perfeito of \"ir\".",
@@ -1547,7 +1547,7 @@ export const PT_B1_U29: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Thiago says: \"Espero que a nota de corte não suba.\" What is he worried about?",
-            options: ["The cutoff score going up", "His score going down", "The exam being cancelled", "Failing the essay"],
+            options: ["The cutoff score going up", "His score going down", "The exam being canceled", "Failing the essay"],
             correctIndex: 0,
             explanation: "\"Nota de corte\" is the cutoff, and \"suba\" is the subjunctive of \"subir\" after \"espero que\".",
           },
@@ -1580,7 +1580,7 @@ export const PT_B1_U29: Lesson[] = [
             type: "speak",
             text: "Fica tranquilo, você vai passar.",
             prompt: "Say it in Portuguese to a male friend: Don't worry, you'll get in.",
-            tip: "\"Tranquilo\": the u is silent, tran-KI-lo.",
+            tip: "\"Tranquilo\": the u is silent, tran-KI-lu.",
             explanation: "\"Fica tranquilo\" (to a man) or \"fica tranquila\" (to a woman) is the everyday reassurance.",
           },
         ],
@@ -1694,7 +1694,7 @@ export const PT_B1_U29: Lesson[] = [
         ],
         examples: [
           { es: "Dona Lúcia: Gabriel, meu WhatsApp travou de novo!", en: "Dona Lúcia: Gabriel, my WhatsApp has frozen again!" },
-          { es: "Gabriel: Calma, vó. O que aparece na tela?", en: "Gabriel: Calm down, Gran. What's on the screen?" },
+          { es: "Gabriel: Calma, vó. O que aparece na tela?", en: "Gabriel: Calm down, Grandma. What's on the screen?" },
           { es: "Dona Lúcia: Aparece uma mensagem em inglês.", en: "Dona Lúcia: There's a message in English." },
           { es: "Gabriel: A senhora consegue ler para mim?", en: "Gabriel: Can you read it to me?" },
           { es: "Dona Lúcia: Diz que o aplicativo precisa ser atualizado.", en: "Dona Lúcia: It says the app needs to be updated." },
@@ -1704,7 +1704,7 @@ export const PT_B1_U29: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "What's on the screen, Gran?",
+            source: "What's on the screen, Grandma?",
             answer: "O que aparece na tela, vó?",
             altAnswers: ["Vó, o que aparece na tela?", "O que está aparecendo na tela, vó?", "O que tem na tela, vó?", "Vó, o que tem na tela?", "O que aparece na tela, vovó?"],
             explanation: "\"Aparecer\" is the verb for what a screen shows. \"Vó\" is the affectionate word for grandma.",
@@ -1953,9 +1953,9 @@ export const PT_B1_U29: Lesson[] = [
         examples: [
           { es: "A professora deu uma aula ótima sobre o Brasil colonial.", en: "The teacher gave a great class on colonial Brazil." },
           { es: "Hoje vou assistir a duas aulas on-line.", en: "Today I'm going to attend two online classes." },
-          { es: "A turma do terceiro ano é muito animada.", en: "The year-three class is very lively." },
+          { es: "A turma do terceiro ano é muito animada.", en: "The third-year class is very lively." },
           { es: "O celular está travando desde ontem.", en: "The phone has been freezing since yesterday." },
-          { es: "O sistema da escola travou na hora da matrícula.", en: "The school system froze right at enrolment time." },
+          { es: "O sistema da escola travou na hora da matrícula.", en: "The school system froze right at enrollment time." },
         ],
         checkpoint: [
           {
@@ -2003,7 +2003,7 @@ export const PT_B1_U29: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "We graduated in the same year.",
         answer: "Nós nos formamos no mesmo ano.",
-        altAnswers: ["A gente se formou no mesmo ano.", "Nos formamos no mesmo ano.", "Nós nos formamos no mesmo ano."],
+        altAnswers: ["A gente se formou no mesmo ano.", "Nos formamos no mesmo ano."],
         explanation: "\"Se formar\" in the nós form is \"nos formamos\"; with \"a gente\" it's \"se formou\". Not \"*graduamos\".",
       },
       {
@@ -2075,7 +2075,7 @@ export const PT_B1_U29: Lesson[] = [
     level: "PT-B1",
     number: 11,
     title: "Real-World Mission: Phones in the Classroom?",
-    summary: "Write a short forum contribution on whether phones should be banned in Brazilian schools, with a clear opinion, an example, nominalised topics and three connectors.",
+    summary: "Write a short forum contribution on whether phones should be banned in Brazilian schools, with a clear opinion, an example, nominalized topics and three connectors.",
     duration: "15 min",
     kind: "skills",
     format: "Real-World Mission",
@@ -2083,7 +2083,7 @@ export const PT_B1_U29: Lesson[] = [
       {
         heading: "Naming the issue: o uso do celular",
         body: [
-          "Brazil passed a law in 2025 restricting phones in schools, and the debate still fills school forums. Your task: write a short post (80 to 120 words) giving your view. Open by naming the issue with a noun, not a verb: \"o uso do celular em sala de aula\", \"a proibição do celular\", \"o acesso à internet\". This is called nominalisation, and it makes a text sound clear and grown-up.",
+          "Brazil passed a law in 2025 restricting phones in schools, and the debate still fills school forums. Your task: write a short post (80 to 120 words) giving your view. Open by naming the issue with a noun, not a verb: \"o uso do celular em sala de aula\", \"a proibição do celular\", \"o acesso à internet\". This is called nominalization, and it makes a text sound clear and grown-up.",
           "Nouns from verbs are easy to build: \"usar\" → \"o uso\", \"proibir\" → \"a proibição\", \"acessar\" → \"o acesso\", \"aprender\" → \"a aprendizagem\" or \"o aprendizado\". \"Acesso\" takes \"a\": \"o acesso à internet\", with the crasis. State your position early with \"acho que\" or \"na minha opinião\".",
         ],
         examples: [
@@ -2101,7 +2101,7 @@ export const PT_B1_U29: Lesson[] = [
             source: "Phone use in the classroom is a big problem.",
             answer: "O uso do celular em sala de aula é um grande problema.",
             altAnswers: ["O uso do celular na sala de aula é um grande problema.", "O uso de celular em sala de aula é um grande problema.", "O uso do celular em sala de aula é um problema grande.", "O uso do celular na sala de aula é um problema grande.", "O uso de celulares em sala de aula é um grande problema."],
-            explanation: "Nominalisation: \"o uso do celular\" (the use of the phone) is the subject. \"Em sala de aula\" usually goes without an article.",
+            explanation: "Nominalization: \"o uso do celular\" (the use of the phone) is the subject. \"Em sala de aula\" usually goes without an article.",
           },
           {
             type: "fill-blank",
@@ -2121,7 +2121,7 @@ export const PT_B1_U29: Lesson[] = [
         ],
         examples: [
           { es: "Em primeiro lugar, os alunos se distraem com as redes sociais.", en: "First of all, students get distracted by social media." },
-          { es: "Por exemplo, na escola do meu filho, ninguém conversava no recreio.", en: "For example, at my son's school, nobody talked at break." },
+          { es: "Por exemplo, na escola do meu filho, ninguém conversava no recreio.", en: "For example, at my son's school, nobody talked at recess." },
           { es: "Além disso, o celular facilita a cola nas provas.", en: "On top of that, phones make cheating in tests easier." },
           { es: "Embora o celular seja útil para pesquisas, a escola tem computadores.", en: "Although the phone is useful for research, the school has computers." },
           { es: "Por outro lado, muitos pais querem falar com os filhos durante o dia.", en: "On the other hand, many parents want to talk to their kids during the day." },
@@ -2139,7 +2139,7 @@ export const PT_B1_U29: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[For example], at my school nobody talked at break.",
+            en: "[For example], at my school nobody talked at recess.",
             sentence: "___, na minha escola ninguém conversava no recreio.",
             answer: "Por exemplo",
             explanation: "\"Por exemplo\" brings in a concrete case; in a short text, one good example beats three vague ones.",
@@ -2259,7 +2259,7 @@ export const PT_B1_U29: Lesson[] = [
         type: "speak",
         text: "Na minha opinião, a proibição total não é a melhor saída.",
         prompt: "Say it in Portuguese: In my opinion, a total ban isn't the best way out.",
-        tip: "\"Proibição\" has five syllables, pro-i-bi-SÃO, ending in nasal ão.",
+        tip: "\"Proibição\" has four syllables, pro-i-bi-SÃO, ending in nasal ão.",
         explanation: "\"A melhor saída\" (the best way out) is a common phrase in debates.",
       },
       {
@@ -2285,7 +2285,7 @@ export const PT_B1_U29: Lesson[] = [
           "No new rules here: just the unit's words in longer sentences, joined with the connectors from Unit 13. Watch the verbs that travel with each noun: \"tirar nota\", \"fazer o Enem\", \"prestar vestibular\", \"baixar o app\", \"fazer backup\".",
         ],
         examples: [
-          { es: "Ele estudou muito; no entanto, ficou de recuperação em física.", en: "He studied a lot; however, he has to do the resit in physics." },
+          { es: "Ele estudou muito; no entanto, ficou de recuperação em física.", en: "He studied a lot; however, he has to take the make-up exam in physics." },
           { es: "Já que o wi-fi caiu, vamos estudar com os livros.", en: "Since the wi-fi is down, let's study with the books." },
           { es: "Ela passou na federal, por isso não vai pagar mensalidade.", en: "She got into the federal university, so she won't pay fees." },
           { es: "Além de matar aula, ele colou na prova.", en: "As well as skipping class, he cheated in the test." },
@@ -2318,7 +2318,7 @@ export const PT_B1_U29: Lesson[] = [
         ],
         examples: [
           { es: "O resultado do Enem foi divulgado ontem.", en: "The Enem results were released yesterday." },
-          { es: "A prova foi cancelada por causa de um vazamento.", en: "The exam was cancelled because of a leak." },
+          { es: "A prova foi cancelada por causa de um vazamento.", en: "The exam was canceled because of a leak." },
           { es: "Os dados dos alunos foram vazados na internet.", en: "The students' data was leaked online." },
           { es: "As bolsas são oferecidas pelo governo federal.", en: "The scholarships are offered by the federal government." },
         ],
@@ -2327,7 +2327,7 @@ export const PT_B1_U29: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The test was cancelled.",
+            source: "The test was canceled.",
             answer: "A prova foi cancelada.",
             altAnswers: ["Cancelaram a prova.", "O exame foi cancelado."],
             explanation: "\"Prova\" is feminine, so \"cancelada\". \"Cancelaram a prova\" is the impersonal alternative.",
@@ -2446,11 +2446,11 @@ export const PT_B1_U29: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "prestar vestibular", right: "to sit an entrance exam" },
-          { left: "ficar de recuperação", right: "to have to do a resit" },
+          { left: "prestar vestibular", right: "to take an entrance exam" },
+          { left: "ficar de recuperação", right: "to have to take a make-up exam" },
           { left: "fazer backup", right: "to back up" },
           { left: "tirar print", right: "to take a screenshot" },
-          { left: "trancar a matrícula", right: "to suspend enrolment" },
+          { left: "trancar a matrícula", right: "to suspend enrollment" },
         ],
         explanation: "Each is a fixed verb + noun pair: learn them as chunks.",
       },
@@ -2482,5 +2482,5 @@ export const PT_B1_U29_WRITING: WriteExercise = {
     "Use the subjunctive at least once, for example after \"embora\", \"caso\" or \"é importante que\".",
   ],
   modelAnswer: "O ensino a distância é um tema que divide os alunos da nossa faculdade. Na minha opinião, ele pode ser útil, mas não deve substituir as aulas presenciais. Em primeiro lugar, muitos colegas não têm um bom acesso à internet. Por exemplo, no semestre passado o wi-fi da minha casa caiu no dia de uma prova on-line, e eu quase perdi a nota. Além disso, a convivência com a turma faz parte da formação: é no intervalo que a gente troca ideias e faz trabalhos em grupo. No entanto, reconheço que as aulas gravadas ajudam quem trabalha e estuda. Portanto, proponho um modelo híbrido. É importante que a universidade ofereça algumas disciplinas on-line, caso o aluno prefira, e que mantenha os laboratórios abertos para quem não tem computador.",
-  explanation: "Nominalisation (\"o ensino a distância\", \"o acesso à internet\", \"a convivência\") lets you name the issue directly. Connectors organise the argument: \"em primeiro lugar\" and \"além disso\" add reasons, \"no entanto\" concedes, \"portanto\" concludes. \"É importante que\" and \"caso\" take the subjunctive (\"ofereça\", \"prefira\", \"mantenha\"), while the facts stay in the indicative.",
+  explanation: "Nominalization (\"o ensino a distância\", \"o acesso à internet\", \"a convivência\") lets you name the issue directly. Connectors organize the argument: \"em primeiro lugar\" and \"além disso\" add reasons, \"no entanto\" concedes, \"portanto\" concludes. \"É importante que\" and \"caso\" take the subjunctive (\"ofereça\", \"prefira\", \"mantenha\"), while the facts stay in the indicative.",
 };

@@ -59,7 +59,7 @@ export const PT_C2_U21: Lesson[] = [
         body: [
           "Put \"o\" before a masculine singular adjective and you get the quality as a category, or 'what is X': \"o belo\" (the beautiful, beauty as such), \"o justo\" (what is just), \"o novo\", \"o sagrado\". English needs 'what is' or a separate noun; Portuguese needs only the article. Keep it apart from the people: \"a bela\" is a beautiful woman, \"os justos\" are the righteous. Everyday speech uses the same device constantly: \"o importante é...\", \"o curioso é que...\", \"o pior foi...\".",
           "Any infinitive can work as a noun. The bare infinitive is the normal subject of a general statement, as in Guimarães Rosa's \"Viver é muito perigoso\". With \"o\", the infinitive becomes a thing that can be described, with adjectives and \"de\" complements: \"o fazer artístico\", \"o saber popular\", \"o eterno recomeçar\". Some are full nouns with plurals: \"o dever, os deveres\", \"o prazer, os prazeres\", \"o olhar\", \"o poder\".",
-          "\"Não\" can nominalise too: \"o não dito\" (what is left unsaid), \"o não lugar\" (the non-place), \"o não saber\". The reason for something is \"o porquê\", one word with an accent: \"ninguém explicou o porquê da decisão\". Don't confuse it with the question \"por que?\", which is two words.",
+          "\"Não\" can nominalize too: \"o não dito\" (what is left unsaid), \"o não lugar\" (the non-place), \"o não saber\". The reason for something is \"o porquê\", one word with an accent: \"ninguém explicou o porquê da decisão\". Don't confuse it with the question \"por que?\", which is two words.",
         ],
         examples: [
           { es: "O belo, para Kant, agrada sem interesse.", en: "For Kant, the beautiful pleases without interest." },
@@ -84,7 +84,7 @@ export const PT_C2_U21: Lesson[] = [
             prompt: "Put the words in order to say: The important thing is not to give up.",
             words: ["O", "importante", "é", "não", "desistir."],
             translation: "The important thing is not to give up.",
-            explanation: "\"O importante\" is the everyday version of the nominalised adjective: 'the important thing'. The infinitive \"não desistir\" is the predicate.",
+            explanation: "\"O importante\" is the everyday version of the nominalized adjective: 'the important thing'. The infinitive \"não desistir\" is the predicate.",
           },
           {
             type: "dictation",
@@ -132,7 +132,7 @@ export const PT_C2_U21: Lesson[] = [
             sentence: "___ é definir a liberdade.",
             answer: "O difícil",
             altAnswers: ["A parte difícil", "A dificuldade"],
-            explanation: "\"O difícil\" is the nominalised adjective: the hard part. \"O difícil é...\" is as natural in conversation as in an essay.",
+            explanation: "\"O difícil\" is the nominalized adjective: the hard part. \"O difícil é...\" is as natural in conversation as in an essay.",
           },
         ],
       },
@@ -180,7 +180,7 @@ export const PT_C2_U21: Lesson[] = [
         source: "What is new frightens people.",
         answer: "O novo assusta as pessoas.",
         altAnswers: ["O que é novo assusta as pessoas.", "O novo assusta.", "O novo dá medo nas pessoas.", "O novo causa medo nas pessoas.", "O que é novo assusta."],
-        explanation: "\"O novo\" is the nominalised adjective: the new, what is new. \"As pessoas\" takes the article because it means people in general.",
+        explanation: "\"O novo\" is the nominalized adjective: the new, what is new. \"As pessoas\" takes the article because it means people in general.",
       },
       {
         type: "word-order",
@@ -212,7 +212,7 @@ export const PT_C2_U21: Lesson[] = [
         question: "What does the proverb \"Pagam os justos pelos pecadores\" mean?",
         options: ["The innocent pay for what the guilty did.", "Fair people always pay their debts.", "Sinners end up paying the price.", "Justice is paid for by everyone."],
         correctIndex: 0,
-        explanation: "\"Os justos\" is the plural nominalised adjective for people: the righteous, the innocent. Note the inverted order, verb first, which is typical of proverbs.",
+        explanation: "\"Os justos\" is the plural nominalized adjective for people: the righteous, the innocent. Note the inverted order, verb first, which is typical of proverbs.",
       },
       {
         type: "listen-choose",
@@ -294,8 +294,8 @@ export const PT_C2_U21: Lesson[] = [
         heading: "Distinguishing: distingue-se de, não se confunde com",
         body: [
           "To separate two concepts: \"X distingue-se de Y\" (in Brazilian prose also \"X se distingue de Y\", since a subject before the verb allows the pronoun before it), \"X difere de Y\", \"X não se confunde com Y\", \"não se deve confundir X com Y\". Spoken Portuguese has a punchier formula that also works in essays: \"Uma coisa é tolerar, outra é respeitar.\" \"Enquanto\" sets up a contrast in parallel: \"enquanto a moral prescreve, a ética questiona\".",
-          "To fix the sense of a word: \"em sentido estrito\" and \"em sentido amplo\", \"na acepção de\" (in the sense of, for a dictionary meaning), \"propriamente dito\" (proper, as such). Brazilian universities use the Latin versions as labels: a \"pós-graduação stricto sensu\" is a master's or doctorate, while \"lato sensu\" is a shorter specialisation course.",
-          "\"A rigor\" means strictly speaking: \"a rigor, isso não é uma definição\". It does not mean rigorously, which is \"rigorosamente\". \"No sentido de\" (aiming to) is a favourite of official prose, as in \"medidas no sentido de reduzir custos\". It is correct, but three of them in a paragraph sound bureaucratic.",
+          "To fix the sense of a word: \"em sentido estrito\" and \"em sentido amplo\", \"na acepção de\" (in the sense of, for a dictionary meaning), \"propriamente dito\" (proper, as such). Brazilian universities use the Latin versions as labels: a \"pós-graduação stricto sensu\" is a master's or doctorate, while \"lato sensu\" is a shorter specialization course.",
+          "\"A rigor\" means strictly speaking: \"a rigor, isso não é uma definição\". It does not mean rigorously, which is \"rigorosamente\". \"No sentido de\" (aiming to) is a favorite of official prose, as in \"medidas no sentido de reduzir custos\". It is correct, but three of them in a paragraph sound bureaucratic.",
         ],
         examples: [
           { es: "A moral distingue-se da ética por ser um conjunto de normas, e não uma reflexão sobre elas.", en: "Morality differs from ethics in being a set of norms rather than a reflection on them." },
@@ -339,11 +339,11 @@ export const PT_C2_U21: Lesson[] = [
         body: [
           "Three faults sink a definition: circularity (\"a liberdade é a condição de quem é livre\"), defining only by negation, and giving an example instead of a definition. The phrases that test a definition are \"o que caracteriza X é...\" and \"condição necessária, mas não suficiente\". Reformulate with the markers you know from specialist texts: \"ou seja\", \"isto é\", \"em outras palavras\".",
           "\"Na medida em que\" means insofar as: \"a obediência é virtude na medida em que serve ao bem comum\". \"À medida que\" means as, progressively: \"à medida que a cidade crescia...\". The hybrids \"na medida que\" and \"à medida em que\" are heard constantly, and careful writers avoid both.",
-          "Block the predictable misreading before it happens: \"dizer que X não significa que...\", \"isso não equivale a...\", \"não se trata de negar X, mas de...\". The last one is Brazilian academic prose's favourite move: it names a position you don't hold and then states your own.",
+          "Block the predictable misreading before it happens: \"dizer que X não significa que...\", \"isso não equivale a...\", \"não se trata de negar X, mas de...\". The last one is Brazilian academic prose's favorite move: it names a position you don't hold and then states your own.",
         ],
         examples: [
           { es: "Ter tempo livre é condição necessária, mas não suficiente, para o ócio criativo.", en: "Having free time is a necessary but not a sufficient condition for creative leisure." },
-          { es: "O que caracteriza a amizade é a reciprocidade.", en: "What characterises friendship is reciprocity." },
+          { es: "O que caracteriza a amizade é a reciprocidade.", en: "What characterizes friendship is reciprocity." },
           { es: "A obediência é virtude na medida em que serve ao bem comum.", en: "Obedience is a virtue insofar as it serves the common good." },
           { es: "À medida que a cidade crescia, a desigualdade aumentava.", en: "As the city grew, inequality increased." },
           { es: "Dizer que a liberdade tem limites não significa negá-la.", en: "Saying that freedom has limits doesn't mean denying it." },
@@ -368,9 +368,9 @@ export const PT_C2_U21: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: What characterises friendship is reciprocity.",
+            prompt: "Put the words in order to say: What characterizes friendship is reciprocity.",
             words: ["O", "que", "caracteriza", "a", "amizade", "é", "a", "reciprocidade."],
-            translation: "What characterises friendship is reciprocity.",
+            translation: "What characterizes friendship is reciprocity.",
             altOrders: [["A", "reciprocidade", "é", "o", "que", "caracteriza", "a", "amizade."]],
             explanation: "\"O que caracteriza X é Y\" isolates the defining feature. Both abstract nouns take the article.",
           },
@@ -574,7 +574,7 @@ export const PT_C2_U21: Lesson[] = [
         examples: [
           { es: "Pode-se objetar que a premissa é vaga.", en: "One might object that the premise is vague." },
           { es: "Não se pode concluir que todo político seja corrupto.", en: "One cannot conclude that every politician is corrupt." },
-          { es: "Analisam-se, a seguir, dois argumentos contrários.", en: "Two opposing arguments are analysed below." },
+          { es: "Analisam-se, a seguir, dois argumentos contrários.", en: "Two opposing arguments are analyzed below." },
           { es: "Cabe perguntar se a liberdade tem preço.", en: "We should ask whether freedom has a price." },
           { es: "Resta saber quem decide o que é justo.", en: "It remains to be seen who decides what is just." },
           { es: "Basta pensar nas grandes cidades brasileiras para ver o problema.", en: "You only have to think of Brazil's big cities to see the problem." },
@@ -688,10 +688,10 @@ export const PT_C2_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Hasty generalisation is the most common fallacy on social media.",
+        source: "Hasty generalization is the most common fallacy on social media.",
         answer: "A generalização apressada é a falácia mais comum nas redes sociais.",
         altAnswers: ["A generalização apressada é a falácia mais frequente nas redes sociais.", "Nas redes sociais, a falácia mais comum é a generalização apressada.", "Nas redes sociais, a generalização apressada é a falácia mais comum."],
-        explanation: "The fallacy is \"generalização apressada\", a hasty generalisation, with the article because it's the subject. Social media is \"as redes sociais\".",
+        explanation: "The fallacy is \"generalização apressada\", a hasty generalization, with the article because it's the subject. Social media is \"as redes sociais\".",
       },
       {
         type: "translate",
@@ -805,7 +805,7 @@ export const PT_C2_U21: Lesson[] = [
           "To push back on an experiment, attack the case rather than the conclusion: \"o caso é artificial demais\", \"a intuição não se sustenta fora do exemplo\", \"o experimento pressupõe o que pretende provar\". Remember that \"pretender\" means to intend or aim, never to pretend, which is \"fingir\".",
         ],
         examples: [
-          { es: "Imagine que um bonde desgovernado vai atingir cinco pessoas.", en: "Imagine a runaway tram is about to hit five people." },
+          { es: "Imagine que um bonde desgovernado vai atingir cinco pessoas.", en: "Imagine a runaway trolley is about to hit five people." },
           { es: "Agora suponha que você pode desviá-lo para um trilho onde há uma pessoa só.", en: "Now suppose you can divert it onto a track where there's only one person." },
           { es: "Por trás do véu da ignorância, ninguém sabe se vai nascer rico ou pobre.", en: "Behind the veil of ignorance, nobody knows whether they'll be born rich or poor." },
           { es: "Na alegoria da caverna, os prisioneiros só veem sombras.", en: "In the allegory of the cave, the prisoners see only shadows." },
@@ -857,7 +857,7 @@ export const PT_C2_U21: Lesson[] = [
         source: "What if nobody needed to work?",
         answer: "E se ninguém precisasse trabalhar?",
         altAnswers: ["E se ninguém tivesse que trabalhar?", "E se ninguém tivesse de trabalhar?", "E se ninguém mais precisasse trabalhar?"],
-        explanation: "\"E se...?\" takes the imperfect subjunctive: \"precisasse\". In Brazil \"precisar\" takes the infinitive directly, with no \"de\".",
+        explanation: "\"E se...?\" takes the imperfect subjunctive: \"precisasse\". In Brazil \"precisar\" usually takes the infinitive directly; \"precisar de\" + infinitive is also correct but more formal.",
       },
       {
         type: "fill-blank",
@@ -1031,7 +1031,7 @@ export const PT_C2_U21: Lesson[] = [
         body: [
           "Frame the dilemma before taking sides: \"estamos diante de um dilema\", \"de um lado..., de outro...\", \"os valores em conflito são...\", \"o que está em jogo é...\". Then name the lens: \"do ponto de vista utilitarista\", \"à luz da ética kantiana\", \"para a ética das virtudes\". \"Pesar os prós e os contras\" is to weigh them up.",
           "Choose the modal strength with care. \"Deve\" is ought, firm; \"deveria\" is should, tentative. \"Ter o direito de\" is to have the right to, and \"ser lícito\" means permissible. Note that \"ilícito\" is illegal as well as wrong. A judgment can be tested with \"é moralmente aceitável que\" plus the subjunctive, and the conditional softens a verdict: \"seria difícil justificar...\".",
-          "Brazilian discussion of everyday ethics often turns to \"o jeitinho\", bending a rule for personal convenience: \"furar a fila\" (jumping the queue), keeping the wrong change, \"dar um jeitinho\" with a document. Calling these \"pequenas corrupções do dia a dia\" is itself a common rhetorical move.",
+          "Brazilian discussion of everyday ethics often turns to \"o jeitinho\", bending a rule for personal convenience: \"furar a fila\" (cutting in line), keeping the wrong change, \"dar um jeitinho\" with a document. Calling these \"pequenas corrupções do dia a dia\" is itself a common rhetorical move.",
         ],
         examples: [
           { es: "De um lado está a lealdade ao amigo; de outro, o dever de dizer a verdade.", en: "On one side there's loyalty to a friend; on the other, the duty to tell the truth." },
@@ -1039,7 +1039,7 @@ export const PT_C2_U21: Lesson[] = [
           { es: "À luz da ética kantiana, mentir é sempre errado, mesmo para salvar alguém.", en: "In the light of Kantian ethics, lying is always wrong, even to save someone." },
           { es: "É moralmente aceitável que um médico minta para poupar o paciente?", en: "Is it morally acceptable for a doctor to lie to spare the patient?" },
           { es: "Ninguém tem o direito de decidir pelos outros o que é uma vida boa.", en: "Nobody has the right to decide for others what a good life is." },
-          { es: "Furar a fila parece pouca coisa, mas revela uma ética.", en: "Jumping the queue seems trivial, but it reveals an ethic." },
+          { es: "Furar a fila parece pouca coisa, mas revela uma ética.", en: "Cutting in line seems trivial, but it reveals an ethic." },
         ],
         checkpoint: [
           {
@@ -1172,7 +1172,7 @@ export const PT_C2_U21: Lesson[] = [
       {
         heading: "Paulo Freire: Pedagogia do Oprimido",
         body: [
-          "Paulo Freire (1921-1997), from Recife, wrote \"Pedagogia do Oprimido\" in exile in Chile; it is one of the most cited works in the social sciences worldwide, and in 2012 he was declared \"Patrono da Educação Brasileira\". His target is \"a educação bancária\": the teacher deposits content in passive students, who receive, memorise and repeat it. His alternative is \"a educação problematizadora\", built on dialogue and on the learners' own reality. Its goal is \"a conscientização\", critical awareness of one's situation.",
+          "Paulo Freire (1921-1997), from Recife, wrote \"Pedagogia do Oprimido\" in exile in Chile; it is one of the most cited works in the social sciences worldwide, and in 2012 he was declared \"Patrono da Educação Brasileira\". His target is \"a educação bancária\": the teacher deposits content in passive students, who receive, memorize and repeat it. His alternative is \"a educação problematizadora\", built on dialogue and on the learners' own reality. Its goal is \"a conscientização\", critical awareness of one's situation.",
           "His best-known sentence plays with negation: \"Ninguém educa ninguém, ninguém educa a si mesmo, os homens se educam entre si, mediatizados pelo mundo.\" Note the double \"ninguém\", normal in Portuguese, and the reciprocal \"se educam entre si\". Another line from his later work is quoted on school walls across Brazil: \"a leitura do mundo precede a leitura da palavra\".",
           "When you discuss him, watch \"educado\": it means polite or well-mannered, and \"mal-educado\" means rude. To say educated, use \"instruído\", \"escolarizado\" or \"culto\", or \"com formação universitária\". To report his views, use \"Freire sustenta que\", \"para Freire\" or \"Freire critica a ideia de que\".",
         ],
@@ -1223,8 +1223,8 @@ export const PT_C2_U21: Lesson[] = [
           { es: "O homem cordial age movido pelo afeto, não pela norma impessoal.", en: "The cordial man acts out of affection, not by impersonal rules." },
           { es: "Para Sérgio Buarque, o problema é a invasão do público pelo privado.", en: "For Sérgio Buarque, the problem is the invasion of the public by the private." },
           { es: "A cordialidade não se confunde com a polidez.", en: "Cordiality is not the same as politeness." },
-          { es: "A contribuição brasileira para a civilização será de cordialidade.", en: "Brazil's contribution to civilisation will be cordiality." },
-          { es: "Fomos recebidos de forma muito cordial pela diretora.", en: "The headteacher gave us a very warm welcome." },
+          { es: "A contribuição brasileira para a civilização será de cordialidade.", en: "Brazil's contribution to civilization will be cordiality." },
+          { es: "Fomos recebidos de forma muito cordial pela diretora.", en: "The principal gave us a very warm welcome." },
         ],
         checkpoint: [
           {
@@ -1248,7 +1248,7 @@ export const PT_C2_U21: Lesson[] = [
             prompt: "Put the words in order to say: The private invades the public sphere.",
             words: ["O", "privado", "invade", "o", "espaço", "público."],
             translation: "The private invades the public sphere.",
-            explanation: "\"O privado\" is a nominalised adjective, the private as a category. \"O espaço público\" is the public sphere.",
+            explanation: "\"O privado\" is a nominalized adjective, the private as a category. \"O espaço público\" is the public sphere.",
           },
         ],
       },
@@ -1262,7 +1262,7 @@ export const PT_C2_U21: Lesson[] = [
         examples: [
           { es: "Ailton Krenak é um pensador e líder indígena do vale do rio Doce.", en: "Ailton Krenak is an Indigenous thinker and leader from the Rio Doce valley." },
           { es: "Para os Krenak, o rio Doce é um parente, e não um recurso.", en: "For the Krenak, the Rio Doce is a relative, not a resource." },
-          { es: "Krenak critica a ideia de uma humanidade separada da natureza.", en: "Krenak criticises the idea of a humanity separate from nature." },
+          { es: "Krenak critica a ideia de uma humanidade separada da natureza.", en: "Krenak criticizes the idea of a humanity separate from nature." },
           { es: "Em 2015, o rompimento de uma barragem em Mariana devastou o rio Doce.", en: "In 2015 a dam collapse at Mariana devastated the Rio Doce." },
           { es: "Adiar o fim do mundo seria poder contar sempre mais uma história.", en: "Postponing the end of the world would mean always being able to tell one more story." },
           { es: "Os povos originários resistem há mais de cinco séculos.", en: "Indigenous peoples have been resisting for more than five centuries." },
@@ -1272,7 +1272,7 @@ export const PT_C2_U21: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Krenak criticises the idea of a humanity separate from nature.",
+            source: "Krenak criticizes the idea of a humanity separate from nature.",
             answer: "Krenak critica a ideia de uma humanidade separada da natureza.",
             altAnswers: ["Krenak critica a ideia de uma humanidade apartada da natureza.", "Krenak critica a noção de uma humanidade separada da natureza.", "Krenak critica a ideia de que a humanidade está separada da natureza.", "Krenak critica a ideia de que a humanidade seja separada da natureza."],
             explanation: "\"Ideia\" has no accent since the reform. \"Uma humanidade\" with the indefinite article names one particular conception of humanity.",
@@ -1331,7 +1331,7 @@ export const PT_C2_U21: Lesson[] = [
         en: "In Raízes do Brasil, the [private] invades the public.",
         sentence: "Em Raízes do Brasil, o ___ invade o público.",
         answer: "privado",
-        explanation: "\"O privado\" and \"o público\" are nominalised adjectives naming two spheres of life.",
+        explanation: "\"O privado\" and \"o público\" are nominalized adjectives naming two spheres of life.",
       },
       {
         type: "translate",
@@ -1347,14 +1347,14 @@ export const PT_C2_U21: Lesson[] = [
         question: "In a seminar on Krenak, which sentence uses today's respectful vocabulary?",
         options: ["Krenak é um intelectual indígena.", "Krenak é um intelectual índio.", "Krenak é um intelectual tribal.", "Krenak é um intelectual nativo."],
         correctIndex: 0,
-        explanation: "\"Indígena\" is the preferred noun and adjective; \"índio\" is now widely considered outdated, and \"tribal\" or \"nativo\" sound exoticising.",
+        explanation: "\"Indígena\" is the preferred noun and adjective; \"índio\" is now widely considered outdated, and \"tribal\" or \"nativo\" sound exoticizing.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: Reading the world comes before reading the word.",
         words: ["A", "leitura", "do", "mundo", "precede", "a", "leitura", "da", "palavra."],
         translation: "Reading the world comes before reading the word.",
-        explanation: "The nominalised \"a leitura\" replaces the English gerund. \"Preceder\" takes a direct object.",
+        explanation: "The nominalized \"a leitura\" replaces the English gerund. \"Preceder\" takes a direct object.",
       },
       {
         type: "translate",
@@ -1381,7 +1381,7 @@ export const PT_C2_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The author criticises the idea that nature is a resource.",
+        source: "The author criticizes the idea that nature is a resource.",
         answer: "O autor critica a ideia de que a natureza é um recurso.",
         altAnswers: ["O autor critica a ideia de que a natureza seja um recurso.", "A autora critica a ideia de que a natureza é um recurso.", "A autora critica a ideia de que a natureza seja um recurso.", "O autor critica a noção de que a natureza é um recurso."],
         explanation: "\"A ideia de que\" needs \"de\" before \"que\". Leaving it out is a frequent slip. The subjunctive \"seja\" distances the author from the idea.",
@@ -1427,7 +1427,7 @@ export const PT_C2_U21: Lesson[] = [
             question: "A news report says: \"A família decidiu recorrer à Justiça.\" What did the family decide to do?",
             options: ["Take the matter to court.", "Appeal to people's sense of fairness.", "Seek revenge.", "Accept the situation as fair."],
             correctIndex: 0,
-            explanation: "Capitalised \"a Justiça\" is the court system. \"Recorrer a\" plus \"a Justiça\" gives the crase: \"à Justiça\".",
+            explanation: "Capitalized \"a Justiça\" is the court system. \"Recorrer a\" plus \"a Justiça\" gives the crase: \"à Justiça\".",
           },
           {
             type: "fill-blank",
@@ -1607,10 +1607,10 @@ export const PT_C2_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The courts ruled in favour of the residents.",
+        source: "The courts ruled in favor of the residents.",
         answer: "A Justiça decidiu a favor dos moradores.",
         altAnswers: ["A Justiça deu ganho de causa aos moradores.", "A Justiça decidiu em favor dos moradores.", "A Justiça deu razão aos moradores."],
-        explanation: "The court system is \"a Justiça\", capitalised. 'To rule in favour of' is \"decidir a favor de\" or \"dar ganho de causa a\".",
+        explanation: "The court system is \"a Justiça\", capitalized. 'To rule in favor of' is \"decidir a favor de\" or \"dar ganho de causa a\".",
       },
       {
         type: "dictation",
@@ -1624,7 +1624,7 @@ export const PT_C2_U21: Lesson[] = [
     level: "PT-C2",
     number: 8,
     title: "Dialogue Lab: O Café Filosófico",
-    summary: "Follow a public philosophy evening in Porto Alegre on whether freedom is possible without equality, and practise defining, conceding, testing with a thought experiment and closing.",
+    summary: "Follow a public philosophy evening in Porto Alegre on whether freedom is possible without equality, and practice defining, conceding, testing with a thought experiment and closing.",
     duration: "18 min",
     kind: "reinforce",
     format: "Dialogue Lab",
@@ -1632,7 +1632,7 @@ export const PT_C2_U21: Lesson[] = [
       {
         heading: "Abertura: the question and the terms",
         body: [
-          "A cultural centre in Porto Alegre holds a monthly \"café filosófico\": two speakers, a mediator, an audience with microphones. Tonight's question is \"É possível ser livre sem ser igual?\". The mediator, Beatriz Lemos, opens by insisting on definitions. Professor Rafael Mendes defends freedom as the absence of interference. Professor Lúcia Andrade argues that freedom needs material conditions.",
+          "A cultural center in Porto Alegre holds a monthly \"café filosófico\": two speakers, a mediator, an audience with microphones. Tonight's question is \"É possível ser livre sem ser igual?\". The mediator, Beatriz Lemos, opens by insisting on definitions. Professor Rafael Mendes defends freedom as the absence of interference. Professor Lúcia Andrade argues that freedom needs material conditions.",
           "Notice how they define before arguing: \"entendo por liberdade...\", \"em sentido estrito\", \"não se confunde com\". Rafael uses Isaiah Berlin's terms, \"liberdade negativa\" (freedom from interference) and \"liberdade positiva\" (the power to govern oneself). In Brazilian academic Portuguese these are the standard translations.",
           "The register is formal but warm. Speakers call each other \"o professor\" and \"a professora\", or use first names. They thank the audience and the host, and they say \"a gente\" freely: philosophy at a café is spoken Portuguese, not an essay read aloud.",
         ],
@@ -1651,7 +1651,7 @@ export const PT_C2_U21: Lesson[] = [
             source: "Before discussing it, we need to know what we mean by freedom.",
             answer: "Antes de discutir, precisamos saber o que entendemos por liberdade.",
             altAnswers: ["Antes de discutir isso, precisamos saber o que entendemos por liberdade.", "Antes de discutirmos, precisamos saber o que entendemos por liberdade.", "Antes de discutir, a gente precisa saber o que entende por liberdade.", "Antes de discutir, precisamos saber o que se entende por liberdade.", "Antes de discuti-lo, precisamos saber o que entendemos por liberdade."],
-            explanation: "\"O que entendemos por X\" asks for a working definition. In Brazil \"precisar\" takes the infinitive directly: \"precisamos saber\".",
+            explanation: "\"O que entendemos por X\" asks for a working definition. In Brazil \"precisar\" usually takes the infinitive directly (\"precisamos saber\"); \"precisar de saber\" is correct but formal.",
           },
           {
             type: "fill-blank",
@@ -1715,7 +1715,7 @@ export const PT_C2_U21: Lesson[] = [
       {
         heading: "Perguntas do público e fechamento",
         body: [
-          "Seu Antônio, a retired bus driver, takes the microphone. Audience questions follow a recognisable pattern: thanks, a short preamble, the question. The speakers reformulate before answering, which buys time and shows they've listened: \"Se entendi bem, o senhor está perguntando se...\".",
+          "Seu Antônio, a retired bus driver, takes the microphone. Audience questions follow a recognizable pattern: thanks, a short preamble, the question. The speakers reformulate before answering, which buys time and shows they've listened: \"Se entendi bem, o senhor está perguntando se...\".",
           "The mediator closes without declaring a winner. She sums up the common ground (\"os dois concordam que...\"), names the open question (\"resta saber...\") and hands it to the audience: \"Fica a pergunta para a gente levar para casa.\" \"Fica\" plus a noun is a common closing formula for something left behind for others: \"fica o convite\", \"fica a dica\".",
           "Formal speech and a gentle register coexist here. \"O senhor\" goes to the older man, the speakers use first-name courtesy, and \"a gente\" comes from everyone.",
         ],
@@ -1939,9 +1939,9 @@ export const PT_C2_U21: Lesson[] = [
       {
         heading: "Inflated vocabulary",
         body: [
-          "Brazilian editors keep a list of the inflated phrases that creep into academic and opinion writing. \"A nível de\" is the most criticised: write \"em termos de\", \"no que diz respeito a\" or simply \"na\". \"A problemática da questão da liberdade\" piles up three nouns to say \"o problema da liberdade\". \"O mesmo\" used as a pronoun, as in \"li o livro e o mesmo me impressionou\", is a bureaucratic tic; write \"ele\" or rephrase.",
+          "Brazilian editors keep a list of the inflated phrases that creep into academic and opinion writing. \"A nível de\" is the most criticized: write \"em termos de\", \"no que diz respeito a\" or simply \"na\". \"A problemática da questão da liberdade\" piles up three nouns to say \"o problema da liberdade\". \"O mesmo\" used as a pronoun, as in \"li o livro e o mesmo me impressionou\", is a bureaucratic tic; write \"ele\" or rephrase.",
           "\"Onde\" should refer to a place. \"Uma época onde tudo era permitido\" sounds careless in an essay, so write \"uma época em que\". \"Uma sociedade onde\" is widely accepted, because a society is a kind of place.",
-          "The most dangerous pair is \"ao encontro de\" (in line with, towards) versus \"de encontro a\" (against, clashing with). \"A proposta vai de encontro ao que defendo\" means the proposal goes against my view, which is often the opposite of what the writer intended.",
+          "The most dangerous pair is \"ao encontro de\" (in line with, toward) versus \"de encontro a\" (against, clashing with). \"A proposta vai de encontro ao que defendo\" means the proposal goes against my view, which is often the opposite of what the writer intended.",
         ],
         examples: [
           { es: "Em termos de ética, a proposta é frágil.", en: "In ethical terms, the proposal is weak." },
@@ -1959,7 +1959,7 @@ export const PT_C2_U21: Lesson[] = [
             source: "In ethical terms, the proposal is weak.",
             answer: "Em termos de ética, a proposta é frágil.",
             altAnswers: ["Em termos éticos, a proposta é frágil.", "Do ponto de vista ético, a proposta é frágil.", "No que diz respeito à ética, a proposta é frágil.", "No plano ético, a proposta é frágil."],
-            explanation: "\"A nível de\" is the most criticised filler in Brazilian writing. \"Em termos de\", \"do ponto de vista\" or \"no plano\" say it cleanly.",
+            explanation: "\"A nível de\" is the most criticized filler in Brazilian writing. \"Em termos de\", \"do ponto de vista\" or \"no plano\" say it cleanly.",
           },
           {
             type: "multiple-choice",
@@ -2085,7 +2085,7 @@ export const PT_C2_U21: Lesson[] = [
         heading: "Posing the question and defining the terms",
         body: [
           "Your mission: a 400-word essay for a philosophy magazine's reader section, answering \"Mentir é sempre errado?\". A good Portuguese philosophical essay opens by showing that the question is harder than it looks, then defines its key term before arguing. Typical openings: \"A pergunta parece simples, mas...\", \"À primeira vista...\", \"Antes de responder, convém definir o que se entende por...\".",
-          "Define \"mentir\" with the class-and-difference pattern: \"mentir é afirmar algo que se sabe falso com a intenção de enganar\". Then separate it from its neighbours: \"mentir não se confunde com errar\" (being wrong in good faith), \"nem com omitir\" (leaving out), \"nem com a ficção\", where everyone knows the story is invented.",
+          "Define \"mentir\" with the class-and-difference pattern: \"mentir é afirmar algo que se sabe falso com a intenção de enganar\". Then separate it from its neighbors: \"mentir não se confunde com errar\" (being wrong in good faith), \"nem com omitir\" (leaving out), \"nem com a ficção\", where everyone knows the story is invented.",
           "Keep the voice impersonal or in the inclusive \"nós\": \"convém\", \"cabe perguntar\", \"podemos distinguir\". A single \"eu\" in the conclusion, where you take a position, is acceptable in a magazine essay. A whole essay in the first person reads like an opinion column.",
         ],
         examples: [

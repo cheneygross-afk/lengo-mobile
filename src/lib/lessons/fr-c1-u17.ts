@@ -563,7 +563,7 @@ export const FR_C1_U17: Lesson[] = [
         prompt: "Translate into French (to a senior colleague you use vous with).",
         source: "Hello Mr Garnier, I'm forwarding you the minutes of the meeting.",
         answer: "Bonjour Monsieur Garnier, je vous transmets le compte rendu de la réunion.",
-        altAnswers: ["Bonjour Monsieur Garnier, je vous fais suivre le compte rendu de la réunion.", "Bonjour Monsieur Garnier, je vous envoie le compte rendu de la réunion.", "Bonjour M. Garnier, je vous transmets le compte rendu de la réunion."],
+        altAnswers: ["Bonjour Monsieur Garnier, je vous fais suivre le compte rendu de la réunion.", "Bonjour Monsieur Garnier, je vous envoie le compte rendu de la réunion."],
         explanation: "In an email, \"Bonjour Monsieur\" + surname is fine. Minutes are \"le compte rendu\"; \"transmettre\" is the standard verb for passing on a document.",
       },
       {
@@ -1444,7 +1444,7 @@ export const FR_C1_U17: Lesson[] = [
         source: "Your department has not dealt with my problem.",
         answer: "Votre service n'a pas traité mon problème.",
         altAnswers: ["Votre service n'a pas réglé mon problème.", "Votre service n'a pas résolu mon problème.", "Votre service ne s'est pas occupé de mon problème.", "Votre service n'a pas pris en charge mon problème."],
-        explanation: "\"Adresser\" a problem is a calque; French \"traite\", \"règle\" or \"résout\" a problem.",
+        explanation: "\"Adresser\" a problem is a calque; in French you \"traiter\", \"régler\" or \"résoudre\" a problem.",
       },
       {
         type: "translate",
@@ -1555,7 +1555,7 @@ export const FR_C1_U17: Lesson[] = [
         body: [
           "To forward an email: \"faire suivre\" or \"transférer\" (the button in French email software says \"Transférer\"). \"Je vous fais suivre le message de M. Ferrand\" = I'm forwarding you Mr Ferrand's message. \"Faire suivre\" is also what the post office does with your mail when you move: \"faire suivre son courrier\" (mail redirection).",
           "Copying: \"mettre quelqu'un en copie\" (to cc someone), \"en copie cachée\" (bcc). \"Je mets Julie en copie\" or \"Julie en copie\". In reply-all culture, French office humour has \"merci de ne pas répondre à tous\".",
-          "And \"joindre\" has a second meaning that trips learners: \"joindre quelqu'un\" = to reach someone, get hold of them (by phone): \"Je n'arrive pas à vous joindre\" (I can't reach you), \"Vous pouvez me joindre au 06...\". So \"Je joins le document\" (I attach) and \"Je vous joins demain\" (I'll call you tomorrow) are both correct, with different meanings.",
+          "And \"joindre\" has a second meaning that trips learners: \"joindre quelqu'un\" = to reach someone, get hold of them (by phone): \"Je n'arrive pas à vous joindre\" (I can't reach you), \"Vous pouvez me joindre au 06...\". So \"Je joins le document\" (I attach) and \"Je vous joindrai demain\" (I'll get hold of you tomorrow) are both correct, with different meanings.",
         ],
         examples: [
           { es: "Je vous fais suivre le message de M. Ferrand.", en: "I'm forwarding you Mr Ferrand's message." },
@@ -1868,7 +1868,7 @@ export const FR_C1_U17: Lesson[] = [
         prompt: "Put the words in order to say: I look forward to hearing from you.",
         words: ["Je", "reste", "dans l'attente", "de votre", "retour."],
         translation: "I look forward to hearing from you.",
-        explanation: "\"Rester dans l'attente de\" is the email version of dans l'attente de votre réponse.",
+        explanation: "\"Rester dans l'attente de\" is the email version of \"dans l'attente de votre réponse\".",
       },
       {
         type: "dictation",
@@ -2231,7 +2231,7 @@ export const FR_C1_U17: Lesson[] = [
         prompt: "Translate into French (a woman writing).",
         source: "I was particularly interested in the charging-station project.",
         answer: "J'ai été particulièrement intéressée par le projet de bornes de recharge.",
-        altAnswers: ["J'ai été particulièrement intéressée par le projet des bornes de recharge.", "Le projet de bornes de recharge m'a particulièrement intéressée.", "Le projet des bornes de recharge m'a particulièrement intéressée.", "J'ai particulièrement été intéressée par le projet de bornes de recharge."],
+        altAnswers: ["J'ai été particulièrement intéressée par le projet des bornes de recharge.", "Le projet de bornes de recharge m'a particulièrement intéressée.", "Le projet des bornes de recharge m'a particulièrement intéressée."],
         explanation: "\"Intéressée\" agrees with the writer; with \"m'a intéressée\" the preceding direct object \"m'\" (a woman) triggers agreement.",
       },
       {

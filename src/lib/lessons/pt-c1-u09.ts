@@ -21,8 +21,8 @@ export const PT_C1_U09: Lesson[] = [
         ],
         examples: [
           { es: "Em nota, a empresa informou que vai recorrer da decisão.", en: "In a statement, the company said it will appeal the decision." },
-          { es: "O prefeito afirmou que as obras serão concluídas em março.", en: "The mayor said the works will be finished in March." },
-          { es: "O prefeito admitiu que as obras estão atrasadas.", en: "The mayor admitted the works are behind schedule." },
+          { es: "O prefeito afirmou que as obras serão concluídas em março.", en: "The mayor said the construction will be finished in March." },
+          { es: "O prefeito admitiu que as obras estão atrasadas.", en: "The mayor admitted the construction is behind schedule." },
           { es: "A empresa alegou que não foi notificada.", en: "The company claimed it had not been notified." },
           { es: "De acordo com o IBGE, o desemprego caiu 0,4 ponto percentual no trimestre.", en: "According to IBGE, unemployment fell 0.4 percentage points in the quarter." },
           { es: "Procurada pela reportagem, a secretaria não se manifestou até o fechamento desta edição.", en: "When contacted by our reporters, the department had not commented by the time this edition went to press." },
@@ -59,7 +59,7 @@ export const PT_C1_U09: Lesson[] = [
         heading: "Editorial: the newspaper's own voice",
         body: [
           "The \"editorial\" is unsigned because it speaks for the paper. It avoids \"eu\". When it needs a subject, it says \"este jornal\" or uses an impersonal construction. Its stance is explicit, and it usually ends with a demand.",
-          "Its tools are impersonal and modal: \"é preciso\", \"cabe ao governo\", \"não se pode\", \"convém lembrar\", and \"é inaceitável que\" with the subjunctive. It criticises policies and positions rather than people, and it closes by saying what should be done.",
+          "Its tools are impersonal and modal: \"é preciso\", \"cabe ao governo\", \"não se pode\", \"convém lembrar\", and \"é inaceitável que\" with the subjunctive. It criticizes policies and positions rather than people, and it closes by saying what should be done.",
           "Editorials share the \"página de opinião\" with signed columns, so check whether there is a byline. The headline often gives the verdict before the text does: \"Retrocesso inaceitável\", \"Um passo na direção certa\".",
         ],
         examples: [
@@ -106,7 +106,7 @@ export const PT_C1_U09: Lesson[] = [
           { es: "Convenhamos: ninguém pega três ônibus por prazer.", en: "Let's face it: nobody takes three buses for fun." },
           { es: "As opiniões expressas neste espaço não refletem necessariamente a posição do jornal.", en: "The opinions expressed here do not necessarily reflect the newspaper's position." },
           { es: "Os dados sugerem que dormir pouco afeta a memória, mas ainda é cedo para conclusões.", en: "The data suggest that too little sleep affects memory, but it's still too early to draw conclusions." },
-          { es: "Imagine o cérebro como uma biblioteca que se reorganiza durante a noite.", en: "Picture the brain as a library that reorganises itself overnight." },
+          { es: "Imagine o cérebro como uma biblioteca que se reorganiza durante a noite.", en: "Picture the brain as a library that reorganizes itself overnight." },
           { es: "A reforma, ousada para uns e desastrosa para outros, divide os especialistas.", en: "The reform, bold to some and disastrous to others, divides the experts." },
         ],
         checkpoint: [
@@ -121,7 +121,7 @@ export const PT_C1_U09: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The data suggest the programme works, but it's still too early to say for sure.",
+            source: "The data suggest the program works, but it's still too early to say for sure.",
             answer: "Os dados sugerem que o programa funciona, mas ainda é cedo para afirmar.",
             altAnswers: ["Os dados sugerem que o programa funciona, mas ainda é cedo para ter certeza.", "Os dados sugerem que o programa funciona, mas ainda é cedo para concluir.", "Os dados sugerem que o programa funciona, mas ainda é cedo para dizer com certeza."],
             explanation: "\"Sugerir que\" in the sense of indicate takes the indicative (\"funciona\"). The hedge \"ainda é cedo\" is typical of careful science writing.",
@@ -224,8 +224,8 @@ export const PT_C1_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A report says: \"O deputado alegou problemas de saúde para faltar à sessão.\" What is the reporter signalling?",
-        options: ["The excuse is his claim, not a confirmed fact.", "The reporter has confirmed that he was ill.", "The deputy admitted he was lying.", "The newspaper supports the deputy."],
+        question: "A report says: \"O deputado alegou problemas de saúde para faltar à sessão.\" What is the reporter signaling?",
+        options: ["The excuse is his claim, not a confirmed fact.", "The reporter has confirmed that he was sick.", "The deputy admitted he was lying.", "The newspaper supports the deputy."],
         correctIndex: 0,
         explanation: "\"Alegar\" attributes the reason to him and quietly withholds confirmation. A confirmed fact would be reported without a verb of saying.",
       },
@@ -233,7 +233,7 @@ export const PT_C1_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The newspaper's editorial criticised the decision.",
+        source: "The newspaper's editorial criticized the decision.",
         answer: "O editorial do jornal criticou a decisão.",
         altAnswers: ["O editorial do jornal fez críticas à decisão."],
         explanation: "\"O editorial\" is masculine and refers to the unsigned piece written in the paper's name. \"Do jornal\" is de + o.",
@@ -258,8 +258,8 @@ export const PT_C1_U09: Lesson[] = [
         examples: [
           { es: "É inadmissível que, em pleno século XXI, crianças estudem sem luz elétrica.", en: "It's unacceptable that in the twenty-first century children are studying without electricity." },
           { es: "É inaceitável que o governo ignore os dados.", en: "It's unacceptable for the government to ignore the data." },
-          { es: "Não se pode negar que o programa reduziu a evasão escolar.", en: "It can't be denied that the programme reduced school dropout." },
-          { es: "É inegável que o transporte público piorou.", en: "Public transport has undeniably got worse." },
+          { es: "Não se pode negar que o programa reduziu a evasão escolar.", en: "It can't be denied that the program reduced school dropout." },
+          { es: "É inegável que o transporte público piorou.", en: "Public transport has undeniably gotten worse." },
           { es: "Não se pode ignorar o impacto das queimadas no Pantanal.", en: "The impact of the fires in the Pantanal can't be ignored." },
           { es: "Urge que o Congresso vote a reforma ainda este ano.", en: "Congress must urgently vote on the reform this year." },
         ],
@@ -393,7 +393,7 @@ export const PT_C1_U09: Lesson[] = [
         source: "It's unacceptable for patients to wait months for surgery.",
         answer: "É inadmissível que pacientes esperem meses por uma cirurgia.",
         altAnswers: ["É inaceitável que pacientes esperem meses por uma cirurgia.", "É inadmissível que os pacientes esperem meses por uma cirurgia.", "É inaceitável que os pacientes esperem meses por uma cirurgia.", "É inadmissível pacientes esperarem meses por uma cirurgia."],
-        explanation: "An outraged judgement takes the subjunctive: \"esperem\". The personal infinitive (\"pacientes esperarem\") is also correct.",
+        explanation: "An outraged judgment takes the subjunctive: \"esperem\". The personal infinitive (\"pacientes esperarem\") is also correct.",
       },
       {
         type: "translate",
@@ -485,7 +485,7 @@ export const PT_C1_U09: Lesson[] = [
     level: "PT-C1",
     number: 3,
     title: "Rhetorical Devices",
-    summary: "Spot and use the rhetorical moves of Brazilian opinion writing: rhetorical questions, written irony, emotional appeal and sweeping generalisation.",
+    summary: "Spot and use the rhetorical moves of Brazilian opinion writing: rhetorical questions, written irony, emotional appeal and sweeping generalization.",
     duration: "15 min",
     sections: [
       {
@@ -497,7 +497,7 @@ export const PT_C1_U09: Lesson[] = [
         examples: [
           { es: "Até quando vamos aceitar ônibus lotados como algo normal?", en: "How much longer are we going to accept packed buses as normal?" },
           { es: "Será que alguém ainda acredita nessa promessa?", en: "Does anyone really still believe that promise?" },
-          { es: "Não é óbvio que a cidade precisa de mais creches?", en: "Isn't it obvious that the city needs more daycare centres?" },
+          { es: "Não é óbvio que a cidade precisa de mais creches?", en: "Isn't it obvious that the city needs more daycare centers?" },
           { es: "Quem nunca perdeu uma hora no trânsito de São Paulo?", en: "Who hasn't lost an hour in São Paulo traffic?" },
           { es: "Para que serve uma lei que ninguém cumpre?", en: "What's the point of a law nobody obeys?" },
         ],
@@ -536,7 +536,7 @@ export const PT_C1_U09: Lesson[] = [
         ],
         examples: [
           { es: "Parabéns à prefeitura: mais um viaduto inaugurado sem calçada.", en: "Congratulations to city hall: yet another overpass opened with no sidewalk." },
-          { es: "A tal \"modernização\" do sistema deixou o site fora do ar por três dias.", en: "The so-called 'modernisation' of the system left the website down for three days." },
+          { es: "A tal \"modernização\" do sistema deixou o site fora do ar por três dias.", en: "The so-called 'modernization' of the system left the website down for three days." },
           { es: "Nada como uma reunião de quatro horas para decidir a data da próxima reunião.", en: "Nothing like a four-hour meeting to decide the date of the next meeting." },
           { es: "Claro, a culpa é sempre do consumidor.", en: "Of course, it's always the consumer's fault." },
           { es: "Que ótima ideia aumentar a passagem justamente no Carnaval!", en: "What a great idea to raise the bus fare right at Carnival!" },
@@ -610,8 +610,8 @@ export const PT_C1_U09: Lesson[] = [
       {
         heading: "Generalização: everyone, no one, always",
         body: [
-          "Absolutes turn an observation into a law: \"todo mundo\", \"ninguém\", \"sempre\", \"nunca\", \"todo político\". Portuguese also generalises with the singular and the article: \"o brasileiro não lê\" means Brazilians in general don't read. English needs the plural here. The Portuguese singular sounds like folk wisdom, which makes it harder to argue with.",
-          "To spot a generalisation, ask \"todos? segundo quem?\". To avoid one, use the hedges from Unit 3: \"boa parte\", \"muitos\", \"em geral\", \"tende a\". \"Os jovens de hoje\" is this device's favourite subject, so read whatever follows it with suspicion.",
+          "Absolutes turn an observation into a law: \"todo mundo\", \"ninguém\", \"sempre\", \"nunca\", \"todo político\". Portuguese also generalizes with the singular and the article: \"o brasileiro não lê\" means Brazilians in general don't read. English needs the plural here. The Portuguese singular sounds like folk wisdom, which makes it harder to argue with.",
+          "To spot a generalization, ask \"todos? segundo quem?\". To avoid one, use the hedges from Unit 3: \"boa parte\", \"muitos\", \"em geral\", \"tende a\". \"Os jovens de hoje\" is this device's favorite subject, so read whatever follows it with suspicion.",
         ],
         examples: [
           { es: "Todo político é igual.", en: "All politicians are the same." },
@@ -632,10 +632,10 @@ export const PT_C1_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You're rewriting \"O brasileiro não lê\" for a report, without generalising. Which version is best?",
+            question: "You're rewriting \"O brasileiro não lê\" for a report, without generalizing. Which version is best?",
             options: ["Boa parte dos brasileiros lê pouco, segundo a pesquisa.", "Todo brasileiro não lê.", "O brasileiro nunca lê nada.", "Ninguém no Brasil lê."],
             correctIndex: 0,
-            explanation: "\"Boa parte\" limits the claim, \"lê pouco\" is more precise than not reading at all, and \"segundo a pesquisa\" gives a source. The other three options only make the generalisation stronger.",
+            explanation: "\"Boa parte\" limits the claim, \"lê pouco\" is more precise than not reading at all, and \"segundo a pesquisa\" gives a source. The other three options only make the generalization stronger.",
           },
           {
             type: "fill-blank",
@@ -643,7 +643,7 @@ export const PT_C1_U09: Lesson[] = [
             en: "[Nobody] can stand the traffic anymore.",
             sentence: "___ aguenta mais o trânsito.",
             answer: "Ninguém",
-            explanation: "\"Ninguém aguenta mais\" speaks for everyone at once, which makes it a generalisation. \"Não... mais\" is not anymore, but \"ninguém\" at the start already makes the sentence negative, so there's no \"não\".",
+            explanation: "\"Ninguém aguenta mais\" speaks for everyone at once, which makes it a generalization. \"Não... mais\" is not anymore, but \"ninguém\" at the start already makes the sentence negative, so there's no \"não\".",
           },
         ],
       },
@@ -671,7 +671,7 @@ export const PT_C1_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Who hasn't waited two hours in a hospital queue?",
+        source: "Who hasn't waited two hours in line at a hospital?",
         answer: "Quem nunca esperou duas horas na fila de um hospital?",
         altAnswers: ["Quem nunca esperou duas horas numa fila de hospital?", "Quem nunca esperou duas horas na fila do hospital?"],
         explanation: "\"Quem nunca...?\" assumes everyone has had the experience and puts the reader on the writer's side. Portuguese uses the simple perfeito \"esperou\", not a perfect tense.",
@@ -679,7 +679,7 @@ export const PT_C1_U09: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The [so-called] 'modernisation' cost twice the budget.",
+        en: "The [so-called] 'modernization' cost twice the budget.",
         sentence: "A ___ \"modernização\" custou o dobro do previsto.",
         answer: "tal",
         explanation: "\"A tal\" plus scare quotes shows that the writer doesn't accept the official name. Both signals are common together in columns.",
@@ -723,7 +723,7 @@ export const PT_C1_U09: Lesson[] = [
           { left: "pergunta retórica", right: "rhetorical question" },
           { left: "aspas irônicas", right: "scare quotes" },
           { left: "apelo à emoção", right: "emotional appeal" },
-          { left: "generalização", right: "sweeping generalisation" },
+          { left: "generalização", right: "sweeping generalization" },
           { left: "tragédia anunciada", right: "a disaster everyone saw coming" },
         ],
         explanation: "These are the terms you'll use to name a column's moves when you write a critical response: \"o autor recorre a uma pergunta retórica\", \"apela à emoção\".",
@@ -740,7 +740,7 @@ export const PT_C1_U09: Lesson[] = [
         question: "A column claims: \"Os jovens de hoje não querem trabalhar.\" Which reply challenges it critically?",
         options: ["Todos os jovens? Segundo quais dados?", "Ninguém quer trabalhar hoje em dia.", "O jovem de hoje é mesmo preguiçoso.", "Claro, os jovens nunca trabalham."],
         correctIndex: 0,
-        explanation: "Asking \"todos?\" and asking for a source exposes the generalisation. The other three repeat it or make it worse.",
+        explanation: "Asking \"todos?\" and asking for a source exposes the generalization. The other three repeat it or make it worse.",
       },
     ],
   },
@@ -749,14 +749,14 @@ export const PT_C1_U09: Lesson[] = [
     level: "PT-C1",
     number: 4,
     title: "Spotting Fallacies",
-    summary: "Recognise the five classic fallacies of opinion writing in Portuguese (espantalho, ad hominem, falsa dicotomia, ladeira escorregadia and apelo à autoridade) and name them precisely in a critical response.",
+    summary: "Recognize the five classic fallacies of opinion writing in Portuguese (espantalho, ad hominem, falsa dicotomia, ladeira escorregadia and apelo à autoridade) and name them precisely in a critical response.",
     duration: "15 min",
     sections: [
       {
         heading: "Ad hominem: attacking the person",
         body: [
           "A fallacy, \"uma falácia\", is reasoning that sounds convincing but doesn't hold up. Portuguese names most fallacies in plain words, so you can use the names in a critical response without sounding pedantic. The exception is Latin: \"ad hominem\". The h is silent, as always in Portuguese.",
-          "An \"ataque ad hominem\" (or just \"um ad hominem\") goes after the person instead of the argument: their past, their income, their party. A favourite variant points out hypocrisy: she defends the environment but drives an imported car. Even if the accusation is true, the claim still stands or falls on its own evidence.",
+          "An \"ataque ad hominem\" (or just \"um ad hominem\") goes after the person instead of the argument: their past, their income, their party. A favorite variant points out hypocrisy: she defends the environment but drives an imported car. Even if the accusation is true, the claim still stands or falls on its own evidence.",
           "The verb for what an ad hominem does is \"desqualificar\": to discredit someone, not just to disqualify them from a contest.",
         ],
         examples: [
@@ -764,7 +764,7 @@ export const PT_C1_U09: Lesson[] = [
           { es: "O colunista ignora os dados e prefere atacar a vida pessoal do ministro.", en: "The columnist ignores the data and prefers to attack the minister's personal life." },
           { es: "Ela defende o meio ambiente, mas anda de carro importado.", en: "She defends the environment, but she drives an imported car." },
           { es: "O candidato desqualifica a jornalista em vez de responder à pergunta.", en: "The candidate discredits the journalist instead of answering the question." },
-          { es: "Criticar o autor não refuta o argumento.", en: "Criticising the author doesn't refute the argument." },
+          { es: "Criticar o autor não refuta o argumento.", en: "Criticizing the author doesn't refute the argument." },
         ],
         checkpoint: [
           {
@@ -837,7 +837,7 @@ export const PT_C1_U09: Lesson[] = [
           { es: "Ou você apoia a reforma, ou é contra o progresso do país.", en: "Either you support the reform, or you're against the country's progress." },
           { es: "Entre cortar tudo e não cortar nada, existem várias opções.", en: "Between cutting everything and cutting nothing, there are several options." },
           { es: "Se liberarmos o celular na sala de aula, daqui a pouco ninguém vai ler mais nada.", en: "If we allow phones in the classroom, before long nobody will read anything at all." },
-          { es: "Hoje é a taxa do lixo; amanhã vão cobrar até pelo ar que a gente respira.", en: "Today it's the rubbish tax; tomorrow they'll even charge for the air we breathe." },
+          { es: "Hoje é a taxa do lixo; amanhã vão cobrar até pelo ar que a gente respira.", en: "Today it's the trash fee; tomorrow they'll even charge for the air we breathe." },
           { es: "O autor não mostra por que um passo levaria ao outro.", en: "The author doesn't show why one step would lead to the next." },
         ],
         checkpoint: [
@@ -995,9 +995,9 @@ export const PT_C1_U09: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Criticising the messenger doesn't refute the message.",
+        prompt: "Put the words in order to say: Criticizing the messenger doesn't refute the message.",
         words: ["Criticar", "o", "mensageiro", "não", "refuta", "a", "mensagem."],
-        translation: "Criticising the messenger doesn't refute the message.",
+        translation: "Criticizing the messenger doesn't refute the message.",
         explanation: "The infinitive \"criticar\" is the subject. \"Mensageiro\" is masculine and \"mensagem\" is feminine, like most nouns in -agem.",
       },
       {
@@ -1016,18 +1016,18 @@ export const PT_C1_U09: Lesson[] = [
     level: "PT-C1",
     number: 5,
     title: "Misinformation and Fact-Checking",
-    summary: "Talk about rumours, fake news and fact-checking, and report unconfirmed claims with distancing language such as supostamente and teria dito.",
+    summary: "Talk about rumors, fake news and fact-checking, and report unconfirmed claims with distancing language such as supostamente and teria dito.",
     duration: "15 min",
     sections: [
       {
         heading: "Boato, fake news, desinformação",
         body: [
-          "A \"boato\" is a rumour passed from person to person. Today most rumours travel as \"correntes\" (chain messages) on WhatsApp. \"Desinformação\" covers both deliberate disinformation and honest misinformation. When intent matters, journalists say \"desinformação intencional\" or \"campanha de desinformação\".",
+          "A \"boato\" is a rumor passed from person to person. Today most rumors travel as \"correntes\" (chain messages) on WhatsApp. \"Desinformação\" covers both deliberate disinformation and honest misinformation. When intent matters, journalists say \"desinformação intencional\" or \"campanha de desinformação\".",
           "Brazilians use the English \"fake news\" all the time. It is feminine and doesn't change in the plural: \"uma fake news\", \"as fake news se espalham\". Many style guides prefer \"notícia falsa\" or \"desinformação\" in formal writing. Unlike English news, \"notícia\" is countable: \"uma notícia falsa\" is one false story, and \"as notícias\" takes a plural verb.",
           "A post \"viraliza\" (goes viral) when people \"compartilham\" or \"repassam\" it. Keep invention and distortion apart. A \"montagem\" is a doctored image. A real photo \"tirada de contexto\" is genuine but misused.",
         ],
         examples: [
-          { es: "Esse boato circula no WhatsApp desde 2018.", en: "This rumour has been circulating on WhatsApp since 2018." },
+          { es: "Esse boato circula no WhatsApp desde 2018.", en: "This rumor has been circulating on WhatsApp since 2018." },
           { es: "A corrente foi repassada milhares de vezes antes de ser desmentida.", en: "The chain message was forwarded thousands of times before it was debunked." },
           { es: "As fake news se espalham mais rápido do que as notícias verdadeiras.", en: "Fake news spreads faster than real news." },
           { es: "A foto é real, mas foi tirada de contexto.", en: "The photo is real, but it was taken out of context." },
@@ -1064,7 +1064,7 @@ export const PT_C1_U09: Lesson[] = [
         examples: [
           { es: "A agência checou a informação e classificou o post como enganoso.", en: "The agency checked the information and rated the post misleading." },
           { es: "Não encontramos a fonte primária desse dado.", en: "We couldn't find the primary source for that figure." },
-          { es: "A prefeitura desmentiu o boato em nota oficial.", en: "City hall debunked the rumour in an official statement." },
+          { es: "A prefeitura desmentiu o boato em nota oficial.", en: "City hall debunked the rumor in an official statement." },
           { es: "O dado é verdadeiro, mas a conclusão é enganosa.", en: "The figure is true, but the conclusion is misleading." },
           { es: "Não há provas de que a vacina cause esse efeito.", en: "There's no evidence that the vaccine causes that effect." },
         ],
@@ -1080,7 +1080,7 @@ export const PT_C1_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A post says school enrolment fell 20% because of a new law. The 20% figure is real, but the law had nothing to do with it. Which label would a fact-checker give?",
+            question: "A post says school enrollment fell 20% because of a new law. The 20% figure is real, but the law had nothing to do with it. Which label would a fact-checker give?",
             options: ["Enganoso", "Falso", "Verdadeiro", "Exagerado"],
             correctIndex: 0,
             explanation: "The post uses a real fact to reach a false conclusion, so it is \"enganoso\" (misleading). \"Falso\" would mean the figure itself was invented.",
@@ -1088,7 +1088,7 @@ export const PT_C1_U09: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "City hall [debunked] the rumour in an official statement.",
+            en: "City hall [debunked] the rumor in an official statement.",
             sentence: "A prefeitura ___ o boato em nota oficial.",
             answer: "desmentiu",
             altAnswers: ["negou"],
@@ -1100,7 +1100,7 @@ export const PT_C1_U09: Lesson[] = [
         heading: "Supostamente, teria dito: keeping your distance",
         body: [
           "When the press can't confirm a claim, it keeps its distance. You met the conditional of report in Unit 2: \"o ministro teria recebido\" (the minister allegedly received). It hands responsibility to the source, while \"recebeu\" would make the claim the paper's own. Translate it as allegedly or reportedly, never as would have.",
-          "\"Supostamente\" is the everyday adverb in Brazil. \"Alegadamente\" exists but sounds European or legal. Before a noun, \"suposto\" agrees: \"o suposto áudio\", \"a suposta fraude\". \"Atribuído a\" flags a quote of doubtful origin: \"uma frase atribuída a Einstein\". \"Circula nas redes que...\" reports a rumour without repeating it as fact.",
+          "\"Supostamente\" is the everyday adverb in Brazil. \"Alegadamente\" exists but sounds European or legal. Before a noun, \"suposto\" agrees: \"o suposto áudio\", \"a suposta fraude\". \"Atribuído a\" flags a quote of doubtful origin: \"uma frase atribuída a Einstein\". \"Circula nas redes que...\" reports a rumor without repeating it as fact.",
           "One marker per claim is enough. \"Supostamente teria dito\" stacks two hedges, and Brazilian editors cut one of them. Combining a source with the conditional is normal, though. \"Segundo a polícia, ele teria fugido\" names who makes the claim and keeps the paper's distance.",
         ],
         examples: [
@@ -1109,7 +1109,7 @@ export const PT_C1_U09: Lesson[] = [
           { es: "A frase atribuída a Clarice Lispector não aparece em nenhum livro dela.", en: "The quote attributed to Clarice Lispector doesn't appear in any of her books." },
           { es: "O suspeito supostamente fugiu para o Paraguai.", en: "The suspect allegedly fled to Paraguay." },
           { es: "Segundo testemunhas, o motorista teria avançado o sinal.", en: "According to witnesses, the driver reportedly ran the red light." },
-          { es: "Circula nas redes que o feriado foi cancelado.", en: "It's going around on social media that the holiday has been cancelled." },
+          { es: "Circula nas redes que o feriado foi cancelado.", en: "It's going around on social media that the holiday has been canceled." },
         ],
         checkpoint: [
           {
@@ -1143,7 +1143,7 @@ export const PT_C1_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "This rumour has been circulating since 2018.",
+        source: "This rumor has been circulating since 2018.",
         answer: "Esse boato circula desde 2018.",
         altAnswers: ["Este boato circula desde 2018.", "Esse boato está circulando desde 2018.", "Esse boato vem circulando desde 2018.", "Esse boato circula há anos, desde 2018."],
         explanation: "Portuguese uses the present with \"desde\" for something still going on. English needs has been circulating here.",
@@ -1223,14 +1223,14 @@ export const PT_C1_U09: Lesson[] = [
         type: "speak",
         text: "O dado é verdadeiro, mas a conclusão é enganosa.",
         prompt: "Say it in Portuguese: The figure is true, but the conclusion is misleading.",
-        tip: "Keep the ão in conclusão nasal with no final n, and stress the o in enganosa: e-ga-NO-sa.",
+        tip: "Keep the ão in conclusão nasal with no final n, and stress the open ó in enganosa, with the s sounding like z: ẽ-ga-NÓ-za.",
         explanation: "This is exactly what \"enganoso\" means to a fact-checker: real data, false conclusion. \"Enganosa\" agrees with \"a conclusão\".",
       },
       {
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "boato", right: "rumour" },
+          { left: "boato", right: "rumor" },
           { left: "montagem", right: "doctored image" },
           { left: "enganoso", right: "misleading" },
           { left: "desmentir", right: "to debunk" },
@@ -1298,7 +1298,7 @@ export const PT_C1_U09: Lesson[] = [
       {
         heading: "Subiu 12% or aumento abusivo? Words that judge",
         body: [
-          "Opinion lives in words that judge: \"aumento abusivo\", \"medida polêmica\", \"a tão esperada reforma\", \"felizmente\", \"lamentavelmente\". A report gives the number and leaves the judgement to the reader: \"a tarifa subiu 12%\". The quickest test is to ask whether a claim could be checked. \"Subiu 12%\" can be checked, but \"abusivo\" can't.",
+          "Opinion lives in words that judge: \"aumento abusivo\", \"medida polêmica\", \"a tão esperada reforma\", \"felizmente\", \"lamentavelmente\". A report gives the number and leaves the judgment to the reader: \"a tarifa subiu 12%\". The quickest test is to ask whether a claim could be checked. \"Subiu 12%\" can be checked, but \"abusivo\" can't.",
           "Naming is stance too. Compare \"manifestantes\" and \"baderneiros\" (troublemakers), \"ocupação\" and \"invasão\", \"reforma\" and \"desmonte\" (dismantling). The noun often carries the whole argument before a single opinion is stated. That is why Brazilian newsrooms keep style manuals that rule on exactly these words.",
         ],
         examples: [
@@ -1333,7 +1333,7 @@ export const PT_C1_U09: Lesson[] = [
             source: "Fortunately, the vote was postponed.",
             answer: "Felizmente, a votação foi adiada.",
             altAnswers: ["Felizmente, adiaram a votação."],
-            explanation: "\"Felizmente\" is the writer's own judgement. Delete it and \"a votação foi adiada\" is neutral reporting.",
+            explanation: "\"Felizmente\" is the writer's own judgment. Delete it and \"a votação foi adiada\" is neutral reporting.",
           },
         ],
       },
@@ -1341,7 +1341,7 @@ export const PT_C1_U09: Lesson[] = [
         heading: "Segundo o IBGE or é preocupante que: attribution and mood",
         body: [
           "A report attributes anything that isn't common knowledge (\"segundo o IBGE\", \"de acordo com a polícia\") and uses the conditional of report, \"teria\", for what isn't confirmed. An opinion piece speaks in its own voice. It uses the stance markers from earlier lessons (\"convém lembrar\", \"não se pode ignorar\"), an inclusive \"nós\" and rhetorical questions.",
-          "Mood often gives the game away. A stated fact takes the indicative: \"o IBGE informou que o desemprego caiu\". An evaluation of that fact takes the subjunctive: \"é preocupante que o desemprego ainda seja alto\". When you meet \"é lamentável que\", \"é um absurdo que\" or \"causa espanto que\", you are reading judgement, however sober the rest of the text sounds.",
+          "Mood often gives the game away. A stated fact takes the indicative: \"o IBGE informou que o desemprego caiu\". An evaluation of that fact takes the subjunctive: \"é preocupante que o desemprego ainda seja alto\". When you meet \"é lamentável que\", \"é um absurdo que\" or \"causa espanto que\", you are reading judgment, however sober the rest of the text sounds.",
           "Opinion isn't a fault, since an editorial exists to argue. The trap is opinion dressed as report. Read headlines and opening paragraphs for loaded verbs, adjectives and names. In your own Celpe-Bras texts, keep the reporting neutral and save your stance for clearly marked sentences.",
         ],
         examples: [
@@ -1376,7 +1376,7 @@ export const PT_C1_U09: Lesson[] = [
               "The work allegedly hasn't started yet.",
             ],
             correctIndex: 0,
-            explanation: "\"É um absurdo que\" + perfect subjunctive \"tenha começado\" marks the writer's judgement, and \"ainda não\" means still not.",
+            explanation: "\"É um absurdo que\" + perfect subjunctive \"tenha começado\" marks the writer's judgment, and \"ainda não\" means still not.",
           },
         ],
       },
@@ -1481,7 +1481,7 @@ export const PT_C1_U09: Lesson[] = [
           "Até quando o Senado vai ignorar a população?",
         ],
         correctIndex: 0,
-        explanation: "Only the first gives a checkable fact with no judgement. \"Finalmente\" evaluates, \"é lamentável que\" + subjunctive judges, and the rhetorical question argues.",
+        explanation: "Only the first gives a checkable fact with no judgment. \"Finalmente\" evaluates, \"é lamentável que\" + subjunctive judges, and the rhetorical question argues.",
       },
       {
         type: "dictation",
@@ -1508,11 +1508,11 @@ export const PT_C1_U09: Lesson[] = [
       {
         heading: "Scene 1: The post in the family group",
         body: [
-          "Rafael, Beatriz and Lucas are at a bar in Belo Horizonte when Rafael's phone buzzes. His mother has forwarded a post to the \"grupo da família\", the family WhatsApp group that every Brazilian knows as the main highway for rumours. The post claims that from next month every Pix over 500 reais will be taxed.",
+          "Rafael, Beatriz and Lucas are at a bar in Belo Horizonte when Rafael's phone buzzes. His mother has forwarded a post to the \"grupo da família\", the family WhatsApp group that every Brazilian knows as the main highway for rumors. The post claims that from next month every Pix over 500 reais will be taxed.",
           "Watch how they react before checking anything. \"Isso é fake\" is casual and \"isso é falso\" is neutral. Doubt brings the subjunctive back: \"duvido que seja verdade\", \"não acho que o governo faça isso\". Certainty stays in the indicative: \"tenho certeza de que é mentira\". \"Viralizar\" (to go viral) and \"repassar\" (to forward) are the verbs of the genre.",
         ],
         examples: [
-          { es: "Gente, olha só o que a minha mãe mandou no grupo da família.", en: "Guys, look what my mum sent to the family group." },
+          { es: "Gente, olha só o que a minha mãe mandou no grupo da família.", en: "Guys, look what my mom sent to the family group." },
           { es: "Esse post viralizou ontem à noite.", en: "This post went viral last night." },
           { es: "Diz aqui que todo Pix acima de 500 reais vai ser taxado.", en: "It says here that every Pix over 500 reais is going to be taxed." },
           { es: "Duvido que isso seja verdade.", en: "I doubt that's true." },
@@ -1589,7 +1589,7 @@ export const PT_C1_U09: Lesson[] = [
         heading: "Scene 3: Taking the argument apart",
         body: [
           "Lucas isn't convinced: \"mas tem um economista falando no vídeo!\" Beatriz names the moves from the last lessons. An unnamed expert is an \"apelo à autoridade\". \"Compartilhe antes que apaguem!\" is an \"apelo à emoção\" built on urgency.",
-          "The best rumours contain a grain of truth: a real change in how banks report transactions turns into a new tax. That's a \"meia-verdade\" (half-truth), and the claim has been \"tirado de contexto\". An old rumour recycled with a fresh date is \"requentado\", literally reheated.",
+          "The best rumors contain a grain of truth: a real change in how banks report transactions turns into a new tax. That's a \"meia-verdade\" (half-truth), and the claim has been \"tirado de contexto\". An old rumor recycled with a fresh date is \"requentado\", literally reheated.",
         ],
         examples: [
           { es: "Mas tem um economista falando no vídeo!", en: "But there's an economist talking in the video!" },
@@ -1626,13 +1626,13 @@ export const PT_C1_U09: Lesson[] = [
         ],
       },
       {
-        heading: "Scene 4: Telling Mum, gently",
+        heading: "Scene 4: Telling Mom, gently",
         body: [
           "Correcting a relative in the family group is a genre of its own. Rafael avoids a blunt \"isso é mentira\" and softens: \"não é bem assim\", \"acho que vale a pena checar antes de repassar\". \"Não procede\" (that doesn't hold up) is firm, polite and slightly formal, so it suits a reply to his mother.",
           "A link to the fact-check (\"segue o link da checagem\") does the arguing for him. His mother replies \"mas e se for verdade?\", a real condition with the future subjunctive. His answer, \"se fosse verdade, estaria em todos os jornais\", is an unreal one.",
         ],
         examples: [
-          { es: "Mãe, dei uma olhada e isso não procede.", en: "Mum, I looked into it and that doesn't hold up." },
+          { es: "Mãe, dei uma olhada e isso não procede.", en: "Mom, I looked into it and that doesn't hold up." },
           { es: "Não é bem assim: a Receita já desmentiu.", en: "It's not quite like that: the Receita has already denied it." },
           { es: "Segue o link da checagem.", en: "Here's the link to the fact-check." },
           { es: "Acho que vale a pena checar antes de repassar.", en: "I think it's worth checking before forwarding." },
@@ -1642,7 +1642,7 @@ export const PT_C1_U09: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Mum, I looked into it and that [doesn't hold up].",
+            en: "Mom, I looked into it and that [doesn't hold up].",
             sentence: "Mãe, dei uma olhada e isso ___.",
             answer: "não procede",
             altAnswers: ["não se sustenta"],
@@ -1668,7 +1668,7 @@ export const PT_C1_U09: Lesson[] = [
         source: "Where did that come from?",
         answer: "De onde saiu isso?",
         altAnswers: ["Isso saiu de onde?", "De onde veio isso?", "Isso veio de onde?"],
-        explanation: "\"Sair\" (to come out) is the natural verb for where a rumour started. \"Vir\" (\"veio\") also works.",
+        explanation: "\"Sair\" (to come out) is the natural verb for where a rumor started. \"Vir\" (\"veio\") also works.",
       },
       {
         type: "translate",
@@ -1717,10 +1717,10 @@ export const PT_C1_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your uncle insists a viral rumour is true. Which reply is firm but polite?",
+        question: "Your uncle insists a viral rumor is true. Which reply is firm but polite?",
         options: ["Tio, dei uma olhada e isso não procede.", "Tio, você sempre cai nessas coisas.", "Tio, para de espalhar mentira.", "Tio, isso procede, sim."],
         correctIndex: 0,
-        explanation: "\"Isso não procede\" corrects the claim and leaves the person alone. Saying he always falls for these things attacks him, not the rumour, which is the ad hominem move.",
+        explanation: "\"Isso não procede\" corrects the claim and leaves the person alone. Saying he always falls for these things attacks him, not the rumor, which is the ad hominem move.",
       },
       {
         type: "word-order",
@@ -1737,7 +1737,7 @@ export const PT_C1_U09: Lesson[] = [
       {
         type: "speak",
         text: "Mãe, não é bem assim: a Receita já desmentiu.",
-        prompt: "Say it in Portuguese: Mum, it's not quite like that: the Receita has already denied it.",
+        prompt: "Say it in Portuguese: Mom, it's not quite like that: the Receita has already denied it.",
         tip: "In \"desmentiu\" the t before i sounds like the ch in cheese, and the stress falls on the last syllable: desmen-TCHIU.",
         explanation: "\"Não é bem assim\" softens the correction. The simple perfeito \"desmentiu\" translates the English has denied.",
       },
@@ -1748,11 +1748,11 @@ export const PT_C1_U09: Lesson[] = [
           { left: "viralizar", right: "to go viral" },
           { left: "repassar", right: "to forward (a message)" },
           { left: "print", right: "a screenshot" },
-          { left: "boato", right: "a rumour" },
+          { left: "boato", right: "a rumor" },
           { left: "meia-verdade", right: "a half-truth" },
           { left: "requentado", right: "recycled (of old news)" },
         ],
-        explanation: "These are the core words of the viral-rumour genre in Brazil. \"Print\" for screenshot is a Brazilian usage that English speakers rarely guess.",
+        explanation: "These are the core words of the viral-rumor genre in Brazil. \"Print\" for screenshot is a Brazilian usage that English speakers rarely guess.",
       },
     ],
   },
@@ -1774,7 +1774,7 @@ export const PT_C1_U09: Lesson[] = [
           { es: "De acordo com o próprio texto, o número de leitores de jornal impresso caiu pela metade.", en: "According to the text itself, the number of print newspaper readers has halved." },
           { es: "Parte dos jovens entrevistados afirma não confiar na imprensa.", en: "Some of the young people surveyed say they don't trust the press." },
           { es: "O autor não apresenta dados que sustentem essa conclusão.", en: "The author presents no data to back up this conclusion." },
-          { es: "Em certa medida, o editorial tem razão ao criticar o governo.", en: "To some extent, the editorial is right to criticise the government." },
+          { es: "Em certa medida, o editorial tem razão ao criticar o governo.", en: "To some extent, the editorial is right to criticize the government." },
           { es: "Não há evidências de que a medida tenha reduzido a violência.", en: "There's no evidence that the measure reduced violence." },
         ],
         checkpoint: [
@@ -1832,7 +1832,7 @@ export const PT_C1_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "In a response to an editorial, a learner wrote: \"O editorialista teria defendido a privatização.\" The editorial is the text being analysed. What is the best fix?",
+            question: "In a response to an editorial, a learner wrote: \"O editorialista teria defendido a privatização.\" The editorial is the text being analyzed. What is the best fix?",
             options: [
               "O editorialista defende a privatização.",
               "O editorialista supostamente defende a privatização.",
@@ -1869,15 +1869,15 @@ export const PT_C1_U09: Lesson[] = [
           { es: "O argumento do colunista desconsidera os dados sobre renda.", en: "The columnist's argument disregards the income data." },
           { es: "O autor defende uma reforma da escola pública, não o seu fim.", en: "The author argues for reforming public schools, not abolishing them." },
           { es: "Entre proibir as redes e não fazer nada, existe a regulação.", en: "Between banning social media and doing nothing, there's regulation." },
-          { es: "Dois casos isolados não bastam para sustentar uma generalização.", en: "Two isolated cases aren't enough to support a generalisation." },
-          { es: "Ainda que discorde da conclusão, reconheço que o texto é bem fundamentado.", en: "Although I disagree with the conclusion, I recognise that the text is well argued." },
+          { es: "Dois casos isolados não bastam para sustentar uma generalização.", en: "Two isolated cases aren't enough to support a generalization." },
+          { es: "Ainda que discorde da conclusão, reconheço que o texto é bem fundamentado.", en: "Although I disagree with the conclusion, I recognize that the text is well argued." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "We should criticise the argument, not the author.",
+            source: "We should criticize the argument, not the author.",
             answer: "Devemos criticar o argumento, não o autor.",
             altAnswers: [
               "Nós devemos criticar o argumento, não o autor.",
@@ -1910,9 +1910,9 @@ export const PT_C1_U09: Lesson[] = [
         examples: [
           { es: "Há falhas evidentes na argumentação do editorial.", en: "There are clear flaws in the editorial's reasoning." },
           { es: "Essa informação é falsa e já foi desmentida por agências de checagem.", en: "That information is false and has already been debunked by fact-checking agencies." },
-          { es: "Neste texto, analisarei os recursos retóricos da coluna.", en: "In this text, I will analyse the column's rhetorical devices." },
+          { es: "Neste texto, analisarei os recursos retóricos da coluna.", en: "In this text, I will analyze the column's rhetorical devices." },
           { es: "Nós, leitores, temos o direito de saber a fonte dos dados.", en: "We readers have the right to know the source of the data." },
-          { es: "O colunista cita o ministro e, em seguida, o critica duramente.", en: "The columnist quotes the minister and then criticises him harshly." },
+          { es: "O colunista cita o ministro e, em seguida, o critica duramente.", en: "The columnist quotes the minister and then criticizes him harshly." },
         ],
         checkpoint: [
           {
@@ -1928,14 +1928,14 @@ export const PT_C1_U09: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "In this response, I will analyse the author's arguments.",
+            source: "In this response, I will analyze the author's arguments.",
             answer: "Nesta resposta, analisarei os argumentos do autor.",
             altAnswers: [
               "Nesta resposta, vou analisar os argumentos do autor.",
               "Nesta resposta, eu analisarei os argumentos do autor.",
               "Nesta resposta, eu vou analisar os argumentos do autor.",
             ],
-            explanation: "The written future \"analisarei\" or \"vou analisar\". Avoid the gerundismo \"vou estar analisando\", which sounds like call-centre speech.",
+            explanation: "The written future \"analisarei\" or \"vou analisar\". Avoid the gerundismo \"vou estar analisando\", which sounds like call-center speech.",
           },
         ],
       },
@@ -1988,7 +1988,7 @@ export const PT_C1_U09: Lesson[] = [
           "Tem muito dado fraco no texto do cara.",
         ],
         correctIndex: 0,
-        explanation: "The first criticises the evidence and says why. \"Tipo\", \"né\", \"tem\" and \"o cara\" are spoken register, and the third is an ad hominem.",
+        explanation: "The first criticizes the evidence and says why. \"Tipo\", \"né\", \"tem\" and \"o cara\" are spoken register, and the third is an ad hominem.",
       },
       {
         type: "word-order",
@@ -2012,7 +2012,7 @@ export const PT_C1_U09: Lesson[] = [
           "O colunista sustenta que a reforma reduzirá a desigualdade.",
           "O colunista defende que a reforma reduzirá a desigualdade.",
         ],
-        explanation: "A learner wrote \"O colunista teria afirmado...\" about the column being analysed. You can read it, so report it in the present: \"afirma\", \"sustenta\", \"defende\".",
+        explanation: "A learner wrote \"O colunista teria afirmado...\" about the column being analyzed. You can read it, so report it in the present: \"afirma\", \"sustenta\", \"defende\".",
       },
       {
         type: "translate",
@@ -2063,9 +2063,9 @@ export const PT_C1_U09: Lesson[] = [
       {
         type: "speak",
         text: "Embora eu discorde do autor, reconheço que o texto é bem fundamentado.",
-        prompt: "Say it in Portuguese: Although I disagree with the author, I recognise that the text is well argued.",
-        tip: "Open ó in discorde (dis-CÓR-de); the nh in reconheço sounds like the ny in canyon.",
-        explanation: "\"Embora\" takes the subjunctive \"discorde\". Conceding a point before criticising shows you've read the text fairly, the opposite of a straw man.",
+        prompt: "Say it in Portuguese: Although I disagree with the author, I recognize that the text is well argued.",
+        tip: "Open ó in discorde (dis-CÓR-dji); the nh in reconheço sounds like the ny in canyon.",
+        explanation: "\"Embora\" takes the subjunctive \"discorde\". Conceding a point before criticizing shows you've read the text fairly, the opposite of a straw man.",
       },
       {
         type: "matching",
@@ -2093,7 +2093,7 @@ export const PT_C1_U09: Lesson[] = [
         heading: "The column: thesis first, tactics second",
         body: [
           "Your mission: a São Paulo newspaper has published the column below, and you'll write a reply for its readers' section. Read it twice. The first time, find the thesis in one sentence. The second time, mark every move that persuades without proving anything.",
-          "The columnist, writing against remote work, uses four devices from this unit. There is a false dichotomy (\"ou... ou\"), a sweeping generalisation (\"todos\", \"ninguém\"), an ad hominem jab at opponents and a rhetorical question that assumes its own answer. None of them is a lie. Each one narrows what the reader is allowed to think, and loaded words like \"farra\" (a free-for-all) add the emotional push.",
+          "The columnist, writing against remote work, uses four devices from this unit. There is a false dichotomy (\"ou... ou\"), a sweeping generalization (\"todos\", \"ninguém\"), an ad hominem jab at opponents and a rhetorical question that assumes its own answer. None of them is a lie. Each one narrows what the reader is allowed to think, and loaded words like \"farra\" (a free-for-all) add the emotional push.",
           "Separate what the column claims from what it shows. It offers no data, no study and no source. A reply that points this out calmly is already halfway to winning.",
         ],
         examples: [
@@ -2108,9 +2108,9 @@ export const PT_C1_U09: Lesson[] = [
           {
             type: "multiple-choice",
             question: "The column says: \"Todos os jovens que trabalham de casa passam a tarde nas redes sociais.\" Which device is this?",
-            options: ["A sweeping generalisation", "An ad hominem attack", "A rhetorical question", "A concession"],
+            options: ["A sweeping generalization", "An ad hominem attack", "A rhetorical question", "A concession"],
             correctIndex: 0,
-            explanation: "\"Todos os jovens\" turns a few cases into a rule about a whole group. That is a generalisation, and the column gives no evidence for it.",
+            explanation: "\"Todos os jovens\" turns a few cases into a rule about a whole group. That is a generalization, and the column gives no evidence for it.",
           },
           {
             type: "listen-choose",
@@ -2137,16 +2137,16 @@ export const PT_C1_U09: Lesson[] = [
         ],
       },
       {
-        heading: "Summarise fairly, then name the move",
+        heading: "Summarize fairly, then name the move",
         body: [
           "Open with a fair summary of the thesis, in the columnist's own terms: \"O colunista defende que...\", \"Segundo o autor...\". A reader who sees you've understood the argument will trust your criticism. A caricature of it would be a straw man of your own.",
           "Then name each device and tie it to a quotation. \"Ao afirmar que todos os jovens...\" (by claiming that all young people...) uses \"ao\" + infinitive to anchor the criticism in the text. \"Recorre a\" (resorts to) and \"incorre em\" (falls into) label the move without insulting the writer.",
-          "Naming the fallacy is not enough: show the gap it hides. A false dichotomy hides the third option, here hybrid work. A generalisation turns an anecdote into a rule.",
+          "Naming the fallacy is not enough: show the gap it hides. A false dichotomy hides the third option, here hybrid work. A generalization turns an anecdote into a rule.",
         ],
         examples: [
           { es: "O colunista defende que o home office prejudica a produtividade e a cultura das empresas.", en: "The columnist argues that remote work harms companies' productivity and culture." },
           { es: "Segundo o autor, só o trabalho presencial forma bons profissionais.", en: "According to the author, only in-person work produces good professionals." },
-          { es: "Ao afirmar que todos os jovens passam a tarde nas redes, o texto generaliza a partir de casos isolados.", en: "By claiming that all young people spend the afternoon on social media, the text generalises from isolated cases." },
+          { es: "Ao afirmar que todos os jovens passam a tarde nas redes, o texto generaliza a partir de casos isolados.", en: "By claiming that all young people spend the afternoon on social media, the text generalizes from isolated cases." },
           { es: "O autor recorre a uma falsa dicotomia, como se não existisse o modelo híbrido.", en: "The author resorts to a false dichotomy, as if the hybrid model didn't exist." },
           { es: "Em vez de discutir os argumentos, a coluna desqualifica quem pensa diferente.", en: "Instead of engaging with the arguments, the column discredits anyone who thinks differently." },
           { es: "A pergunta final pressupõe a resposta que pretende obter.", en: "The closing question presupposes the answer it intends to get." },
@@ -2183,7 +2183,7 @@ export const PT_C1_U09: Lesson[] = [
         heading: "Concede, rebut, close",
         body: [
           "A strong reply concedes what is true before rebutting it: \"Embora o autor tenha razão ao apontar...\", \"É verdade que...; no entanto...\". The concession costs little and makes the rebuttal sound measured rather than partisan.",
-          "Then bring what the column lacks: a fact, a study or a counter-example. Introduce it with a stance marker like \"convém lembrar que\" or \"não se pode ignorar que\". Attack the argument, never the person. \"O colunista ignora os dados\" is fair; \"o colunista é ignorante\" is the very ad hominem you just criticised.",
+          "Then bring what the column lacks: a fact, a study or a counter-example. Introduce it with a stance marker like \"convém lembrar que\" or \"não se pode ignorar que\". Attack the argument, never the person. \"O colunista ignora os dados\" is fair; \"o colunista é ignorante\" is the very ad hominem you just criticized.",
           "Close with your own position and, if possible, a proposal, in one or two sentences. Sign with your name and city, as readers' letters in Brazilian newspapers do.",
         ],
         examples: [
@@ -2213,7 +2213,7 @@ export const PT_C1_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence criticises the argument rather than the person?",
+            question: "Which sentence criticizes the argument rather than the person?",
             options: [
               "O colunista ignora os dados sobre o trabalho híbrido.",
               "O colunista é um ignorante que não entende nada.",
@@ -2253,7 +2253,7 @@ export const PT_C1_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The text generalises from isolated cases.",
+        source: "The text generalizes from isolated cases.",
         answer: "O texto generaliza a partir de casos isolados.",
         altAnswers: ["A coluna generaliza a partir de casos isolados.", "O autor generaliza a partir de casos isolados.", "O colunista generaliza a partir de casos isolados."],
         explanation: "\"A partir de\" means from, starting from. \"Casos isolados\" is the standard phrase for one-off examples passed off as a rule.",
@@ -2344,7 +2344,7 @@ export const PT_C1_U09: Lesson[] = [
         instructions: "Match the Portuguese to the English.",
         pairs: [
           { left: "falsa dicotomia", right: "false dichotomy" },
-          { left: "generalização", right: "sweeping generalisation" },
+          { left: "generalização", right: "sweeping generalization" },
           { left: "ataque pessoal", right: "ad hominem attack" },
           { left: "pergunta retórica", right: "rhetorical question" },
           { left: "apelo à emoção", right: "appeal to emotion" },
@@ -2373,7 +2373,7 @@ export const PT_C1_U09: Lesson[] = [
         examples: [
           { es: "Convém lembrar que a lei está em vigor desde 2018.", en: "It's worth remembering that the law has been in force since 2018." },
           { es: "É inadmissível que a prefeitura ignore os moradores.", en: "It's unacceptable for city hall to ignore the residents." },
-          { es: "Não se pode negar que o programa reduziu a evasão escolar.", en: "There's no denying that the programme reduced school dropout." },
+          { es: "Não se pode negar que o programa reduziu a evasão escolar.", en: "There's no denying that the program reduced school dropout." },
           { es: "Segundo o IBGE, o desemprego caiu 2% no último trimestre.", en: "According to IBGE, unemployment fell 2% in the last quarter." },
           { es: "Cabe destacar que o estudo ouviu apenas mil pessoas.", en: "It should be pointed out that the study surveyed only a thousand people." },
         ],
@@ -2414,7 +2414,7 @@ export const PT_C1_U09: Lesson[] = [
         heading: "Distance: reporting what isn't confirmed",
         body: [
           "A responsible report separates what it knows from what it has been told. The conditional does this in one word: \"o ministro teria recebido\" (the minister allegedly received). Name the source with \"segundo\" or \"de acordo com\". As an adverb, use \"supostamente\"; \"alegadamente\" exists but sounds more European.",
-          "Checking a claim needs the vocabulary of \"checagem\". A \"boato\" (rumour) is either \"desmentido\" (debunked) or \"confirmado\". A text with no \"fonte\" (source) is suspect. \"Desinformação\" is false content spread on purpose. Brazilians also say \"fake news\", usually as a feminine noun: \"uma fake news\".",
+          "Checking a claim needs the vocabulary of \"checagem\". A \"boato\" (rumor) is either \"desmentido\" (debunked) or \"confirmado\". A text with no \"fonte\" (source) is suspect. \"Desinformação\" is false content spread on purpose. Brazilians also say \"fake news\", usually as a feminine noun: \"uma fake news\".",
           "Don't stack distancing markers. \"Supostamente teria\" says the same thing twice, so pick one.",
         ],
         examples: [
@@ -2422,7 +2422,7 @@ export const PT_C1_U09: Lesson[] = [
           { es: "Segundo a polícia, o suspeito teria fugido pela janela.", en: "According to the police, the suspect reportedly escaped through the window." },
           { es: "A mensagem, supostamente escrita por um médico, circula desde março.", en: "The message, supposedly written by a doctor, has been circulating since March." },
           { es: "Não há nenhuma fonte que confirme essa informação.", en: "There's no source that confirms this information." },
-          { es: "Feita a checagem, o boato foi desmentido.", en: "Once it was fact-checked, the rumour was debunked." },
+          { es: "Feita a checagem, o boato foi desmentido.", en: "Once it was fact-checked, the rumor was debunked." },
         ],
         checkpoint: [
           {
@@ -2443,13 +2443,13 @@ export const PT_C1_U09: Lesson[] = [
             audio: "O boato foi desmentido pela checagem.",
             question: "What does it mean?",
             options: [
-              "The rumour was debunked by the fact-check.",
-              "The rumour was confirmed by the fact-check.",
-              "The fact-check spread the rumour.",
+              "The rumor was debunked by the fact-check.",
+              "The rumor was confirmed by the fact-check.",
+              "The fact-check spread the rumor.",
               "The source denied the fact-check.",
             ],
             correctIndex: 0,
-            explanation: "\"Boato\" is a rumour and \"desmentido\" means shown to be false. \"Pela checagem\" gives the agent of the passive.",
+            explanation: "\"Boato\" is a rumor and \"desmentido\" means shown to be false. \"Pela checagem\" gives the agent of the passive.",
           },
           {
             type: "multiple-choice",
@@ -2468,16 +2468,16 @@ export const PT_C1_U09: Lesson[] = [
       {
         heading: "Naming the fallacy in your response",
         body: [
-          "A critical response names the move, then shows why it fails. The labels are \"espantalho\" (straw man), \"ad hominem\", \"falsa dicotomia\", \"ladeira escorregadia\" (slippery slope), \"apelo à autoridade\" and \"generalização apressada\" (hasty generalisation).",
-          "Frame the diagnosis with formulas such as \"o autor recorre a\", \"trata-se de\" and \"ao afirmar que..., o colunista ignora...\". A reduced clause with \"ao\" + infinitive keeps it tight. \"Embora\" + subjunctive lets you concede a point before you criticise.",
-          "Keep the tone analytical. Criticise the argument, not the columnist, or your response commits the ad hominem it denounces.",
+          "A critical response names the move, then shows why it fails. The labels are \"espantalho\" (straw man), \"ad hominem\", \"falsa dicotomia\", \"ladeira escorregadia\" (slippery slope), \"apelo à autoridade\" and \"generalização apressada\" (hasty generalization).",
+          "Frame the diagnosis with formulas such as \"o autor recorre a\", \"trata-se de\" and \"ao afirmar que..., o colunista ignora...\". A reduced clause with \"ao\" + infinitive keeps it tight. \"Embora\" + subjunctive lets you concede a point before you criticize.",
+          "Keep the tone analytical. Criticize the argument, not the columnist, or your response commits the ad hominem it denounces.",
         ],
         examples: [
           { es: "O colunista distorce a proposta para atacá-la com mais facilidade: é um espantalho.", en: "The columnist distorts the proposal so he can attack it more easily: that's a straw man." },
           { es: "Em vez de rebater o argumento, o autor ataca a reputação da cientista.", en: "Instead of refuting the argument, the author attacks the scientist's reputation." },
           { es: "Ou aprovamos a reforma, ou o país quebra: trata-se de uma falsa dicotomia.", en: "Either we pass the reform or the country goes bankrupt: this is a false dichotomy." },
           { es: "Embora o texto cite dados, ele não informa a fonte.", en: "Although the text cites figures, it doesn't give the source." },
-          { es: "Ao generalizar a partir de um único caso, o colunista enfraquece o próprio argumento.", en: "By generalising from a single case, the columnist weakens his own argument." },
+          { es: "Ao generalizar a partir de um único caso, o colunista enfraquece o próprio argumento.", en: "By generalizing from a single case, the columnist weakens his own argument." },
           { es: "Se liberarmos o celular na escola, daqui a pouco ninguém mais vai ler.", en: "If we allow phones at school, soon nobody will read anymore." },
         ],
         checkpoint: [
@@ -2489,7 +2489,7 @@ export const PT_C1_U09: Lesson[] = [
               { left: "falsa dicotomia", right: "false dichotomy" },
               { left: "ladeira escorregadia", right: "slippery slope" },
               { left: "apelo à autoridade", right: "appeal to authority" },
-              { left: "generalização apressada", right: "hasty generalisation" },
+              { left: "generalização apressada", right: "hasty generalization" },
             ],
             explanation: "These are the standard names for fallacies in Portuguese. Note the crase in \"apelo à autoridade\" (a + a).",
           },
@@ -2532,7 +2532,7 @@ export const PT_C1_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "By generalising from a single case, the columnist weakens his argument.",
+        source: "By generalizing from a single case, the columnist weakens his argument.",
         answer: "Ao generalizar a partir de um único caso, o colunista enfraquece seu argumento.",
         altAnswers: [
           "Ao generalizar a partir de um único caso, o colunista enfraquece o próprio argumento.",
@@ -2540,7 +2540,7 @@ export const PT_C1_U09: Lesson[] = [
           "Ao generalizar a partir de um só caso, o colunista enfraquece seu argumento.",
           "Ao generalizar com base em um único caso, o colunista enfraquece seu argumento.",
         ],
-        explanation: "\"Ao\" + infinitive compresses by generalising into a reduced clause. \"O próprio argumento\" removes any doubt about whose argument it is.",
+        explanation: "\"Ao\" + infinitive compresses by generalizing into a reduced clause. \"O próprio argumento\" removes any doubt about whose argument it is.",
       },
       {
         type: "fill-blank",
@@ -2607,7 +2607,7 @@ export const PT_C1_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "There's no denying that the programme reduced school dropout.",
+        source: "There's no denying that the program reduced school dropout.",
         answer: "Não se pode negar que o programa reduziu a evasão escolar.",
         altAnswers: [
           "É inegável que o programa reduziu a evasão escolar.",

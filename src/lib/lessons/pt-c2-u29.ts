@@ -25,7 +25,7 @@ export const PT_C2_U29: Lesson[] = [
           { es: "O time respondeu com um contra-ataque rápido.", en: "The team responded with a quick counterattack." },
           { es: "As condições do alojamento eram anti-higiênicas.", en: "The conditions in the lodging were unhygienic." },
           { es: "O prefeito tenta a reeleição em outubro.", en: "The mayor is running for re-election in October." },
-          { es: "Preencha o formulário com letra de forma.", en: "Fill in the form in block capitals." },
+          { es: "Preencha o formulário com letra de forma.", en: "Fill out the form in block letters." },
         ],
         checkpoint: [
           {
@@ -68,12 +68,12 @@ export const PT_C2_U29: Lesson[] = [
           "Two details catch even editors. The doubling happens only after a vowel: \"sub-\" + \"solo\" gives \"subsolo\", with one s, because after a consonant the s already keeps its sound. And the rule covers prefix-like elements as well as true prefixes: \"neorrealismo\", \"pseudociência\", \"macrorregião\", \"socioambiental\". If a word looks odd joined, check the letters before you reach for the hyphen.",
         ],
         examples: [
-          { es: "A Mariana tirou a carteira na primeira autoescola do bairro.", en: "Mariana got her licence at the first driving school in the neighbourhood." },
+          { es: "A Mariana tirou a carteira na primeira autoescola do bairro.", en: "Mariana got her license at the first driving school in the neighborhood." },
           { es: "O governo anunciou obras de infraestrutura em Manaus.", en: "The government announced infrastructure works in Manaus." },
           { es: "Esse creme antirrugas custa uma fortuna.", en: "This anti-wrinkle cream costs a fortune." },
           { es: "O exame de ultrassom ficou para a semana que vem.", en: "The ultrasound scan was put off until next week." },
           { es: "O ônibus interestadual sai da rodoviária às 22h.", en: "The interstate bus leaves the bus station at 10 p.m." },
-          { es: "Ela foi nomeada sub-reitora da universidade.", en: "She was appointed deputy vice-chancellor of the university." },
+          { es: "Ela foi nomeada sub-reitora da universidade.", en: "She was appointed vice provost of the university." },
         ],
         checkpoint: [
           {
@@ -89,7 +89,7 @@ export const PT_C2_U29: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The film is a self-portrait of the director.",
+            source: "The movie is a self-portrait of the director.",
             answer: "O filme é um autorretrato do diretor.",
             altAnswers: ["O filme é um autorretrato do cineasta.", "Esse filme é um autorretrato do diretor."],
             explanation: "\"Auto-\" + \"retrato\" joins with a double r: \"autorretrato\". The same goes for \"autossuficiente\" and \"autoestima\" (a different vowel, so it simply joins).",
@@ -112,9 +112,9 @@ export const PT_C2_U29: Lesson[] = [
         ],
         examples: [
           { es: "O ex-ministro foi convidado para o debate.", en: "The former minister was invited to the debate." },
-          { es: "A vice-diretora vai substituir o diretor na reunião.", en: "The deputy head will stand in for the head at the meeting." },
+          { es: "A vice-diretora vai substituir o diretor na reunião.", en: "The assistant principal will stand in for the principal at the meeting." },
           { es: "A maternidade de Recife recebeu trinta recém-nascidos no fim de semana.", en: "The maternity hospital in Recife took in thirty newborns over the weekend." },
-          { es: "O Lucas começou a pós-graduação em São Paulo.", en: "Lucas started his postgraduate course in São Paulo." },
+          { es: "O Lucas começou a pós-graduação em São Paulo.", en: "Lucas started his graduate program in São Paulo." },
           { es: "Ninguém previa uma crise desse tamanho.", en: "Nobody foresaw a crisis of this size." },
           { es: "Acordei com um mal-estar estranho.", en: "I woke up feeling strangely unwell." },
         ],
@@ -179,7 +179,7 @@ export const PT_C2_U29: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A stage manager in the theatre is a...",
+        question: "A stage manager in the theater is a...",
         options: ["contra-regra", "contraregra", "contrarregra", "contra regra"],
         correctIndex: 2,
         explanation: "A vowel meets \"r\": join and double it, \"contrarregra\". The same rule gives \"antirrábico\" and \"ultrarrápido\".",
@@ -222,13 +222,13 @@ export const PT_C2_U29: Lesson[] = [
         audio: "O hospital contratou um ex-diretor para a pós-graduação.",
         question: "What does it mean?",
         options: [
-          "The hospital hired a former director for the postgraduate programme.",
+          "The hospital hired a former director for the graduate program.",
           "The hospital hired an outside director for the graduation.",
           "The hospital hired a deputy director after graduation.",
           "The hospital fired its former director after graduation.",
         ],
         correctIndex: 0,
-        explanation: "\"Ex-diretor\" is a former director and \"pós-graduação\" is postgraduate study. Both prefixes always keep the hyphen.",
+        explanation: "\"Ex-diretor\" is a former director and \"pós-graduação\" is graduate study. Both prefixes always keep the hyphen.",
       },
       {
         type: "dictation",
@@ -266,14 +266,14 @@ export const PT_C2_U29: Lesson[] = [
         heading: "Compounds with a linking word lost the hyphen",
         body: [
           "Before 2009, Brazilians wrote \"fim-de-semana\", \"dia-a-dia\" and \"pé-de-moleque\". The Acordo decided that a compound held together by a linking word (a preposition, an article, a conjunction or a pronoun) is a phrase, and phrases are written with spaces: \"fim de semana\", \"dia a dia\", \"pé de moleque\", \"mão de obra\", \"cão de guarda\", \"ponto e vírgula\", \"café com leite\", \"cara de pau\", \"deus me livre\". This holds whether the compound is a noun, an adjective or an adverb: \"o dia a dia da redação\" and \"o trânsito piora dia a dia\" are now spelled the same.",
-          "A short list of exceptions kept the hyphen because the tradition was too strong: \"cor-de-rosa\", \"água-de-colônia\", \"mais-que-perfeito\", \"pé-de-meia\" (a nest egg), \"arco-da-velha\" (as in \"coisas do arco-da-velha\", incredible things), \"à queima-roupa\" (point-blank) and \"ao deus-dará\" (left to fate). Memorise these as a set. They are exactly the words a proofreading test uses, because they look like \"fim de semana\" and behave differently.",
+          "A short list of exceptions kept the hyphen because the tradition was too strong: \"cor-de-rosa\", \"água-de-colônia\", \"mais-que-perfeito\", \"pé-de-meia\" (a nest egg), \"arco-da-velha\" (as in \"coisas do arco-da-velha\", incredible things), \"à queima-roupa\" (point-blank) and \"ao deus-dará\" (left to fate). Memorize these as a set. They are exactly the words a proofreading test uses, because they look like \"fim de semana\" and behave differently.",
           "Old habits are the main danger. Signs, menus and even newspapers still print \"pé-de-moleque\" and \"fim-de-semana\". In an editor's eyes, these are not stylistic choices but spelling errors, like writing \"idéia\" with the accent the Acordo removed.",
         ],
         examples: [
-          { es: "Vamos para Paraty no fim de semana.", en: "We're going to Paraty at the weekend." },
+          { es: "Vamos para Paraty no fim de semana.", en: "We're going to Paraty on the weekend." },
           { es: "O dia a dia de uma redação é caótico.", en: "Day-to-day life in a newsroom is chaotic." },
           { es: "A vó da Beatriz faz o melhor pé de moleque de Minas.", en: "Beatriz's grandma makes the best peanut brittle in Minas." },
-          { es: "Falta mão de obra qualificada no setor.", en: "There is a shortage of skilled labour in the sector." },
+          { es: "Falta mão de obra qualificada no setor.", en: "There is a shortage of skilled labor in the sector." },
           { es: "Ela usou um vestido cor-de-rosa no casamento.", en: "She wore a pink dress to the wedding." },
           { es: "Ele foi juntando um pé-de-meia para a aposentadoria.", en: "He gradually built up a nest egg for his retirement." },
         ],
@@ -358,7 +358,7 @@ export const PT_C2_U29: Lesson[] = [
           { es: "Esqueci o guarda-chuva no ônibus.", en: "I left my umbrella on the bus." },
           { es: "O porta-voz do governo não quis comentar.", en: "The government spokesperson declined to comment." },
           { es: "O paraquedista pousou no meio da praia.", en: "The parachutist landed in the middle of the beach." },
-          { es: "A pedra quebrou o para-brisa do carro.", en: "The stone broke the car's windscreen." },
+          { es: "A pedra quebrou o para-brisa do carro.", en: "The stone broke the car's windshield." },
           { es: "O sotaque porto-alegrense é bem diferente do carioca.", en: "The Porto Alegre accent is very different from the Rio one." },
         ],
         checkpoint: [
@@ -416,12 +416,12 @@ export const PT_C2_U29: Lesson[] = [
         source: "The pink blouse is on sale.",
         answer: "A blusa cor-de-rosa está em promoção.",
         altAnswers: ["A blusa cor-de-rosa está na promoção.", "A blusa rosa está em promoção.", "A blusa cor-de-rosa está em liquidação."],
-        explanation: "\"Cor-de-rosa\" is one of the listed exceptions that kept its hyphens. As a colour it is also invariable.",
+        explanation: "\"Cor-de-rosa\" is one of the listed exceptions that kept its hyphens. As a color it is also invariable.",
       },
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The [labour] costs rose this year.",
+        en: "The [labor] costs rose this year.",
         sentence: "Os custos de ___ subiram este ano.",
         answer: "mão de obra",
         explanation: "\"Mão de obra\" has a linking word and is not on the exception list, so it is written without hyphens.",
@@ -488,7 +488,7 @@ export const PT_C2_U29: Lesson[] = [
       {
         type: "speak",
         text: "O time belo-horizontino jogou no fim de semana.",
-        prompt: "Say it in Portuguese: The Belo Horizonte team played at the weekend.",
+        prompt: "Say it in Portuguese: The Belo Horizonte team played on the weekend.",
         tip: "\"Horizontino\": the t before i sounds like ch in cheese, as in most of Brazil.",
         explanation: "Adjectives from compound place names take hyphens (\"belo-horizontino\"). \"Fim de semana\" has none.",
       },
@@ -508,14 +508,14 @@ export const PT_C2_U29: Lesson[] = [
     level: "PT-C2",
     number: 3,
     title: "Couves-Flores and Guardas-Noturnos",
-    summary: "Form the plural of hyphenated compounds by asking what each part is (couves-flores, guarda-chuvas, guardas-noturnos, abaixo-assinados, pés de moleque), handle the invariable ones (os sem-terra) and pluralise siglas (as ONGs).",
+    summary: "Form the plural of hyphenated compounds by asking what each part is (couves-flores, guarda-chuvas, guardas-noturnos, abaixo-assinados, pés de moleque), handle the invariable ones (os sem-terra) and pluralize siglas (as ONGs).",
     duration: "18 min",
     kind: "teach",
     sections: [
       {
         heading: "Nouns and adjectives vary; verbs and adverbs don't",
         body: [
-          "The plural of a compound follows one principle: each element that is a noun, an adjective or a numeral takes the plural, and each element that is a verb, an adverb, a prefix or an invariable word stays as it is. So before you pluralise, parse. Two nouns, or a noun and an adjective, both change: \"couve-flor\" becomes \"couves-flores\", \"obra-prima\" becomes \"obras-primas\", \"cachorro-quente\" becomes \"cachorros-quentes\", \"segunda-feira\" becomes \"segundas-feiras\". English pluralises only the head (cauliflowers, masterpieces), so learners tend to leave the first part singular. In Portuguese, \"couve-flores\" and \"segunda-feiras\" are errors.",
+          "The plural of a compound follows one principle: each element that is a noun, an adjective or a numeral takes the plural, and each element that is a verb, an adverb, a prefix or an invariable word stays as it is. So before you pluralize, parse. Two nouns, or a noun and an adjective, both change: \"couve-flor\" becomes \"couves-flores\", \"obra-prima\" becomes \"obras-primas\", \"cachorro-quente\" becomes \"cachorros-quentes\", \"segunda-feira\" becomes \"segundas-feiras\". English pluralizes only the head (cauliflowers, masterpieces), so learners tend to leave the first part singular. In Portuguese, \"couve-flores\" and \"segunda-feiras\" are errors.",
           "When the first element is a verb, only the noun after it changes: \"guarda-chuva\" (it guards against rain) gives \"guarda-chuvas\", and likewise \"beija-flores\", \"porta-vozes\", \"arranha-céus\", \"quebra-cabeças\". When the first element is an adverb or a prefix, again only the second changes: \"abaixo-assinados\", \"alto-falantes\", \"vice-presidentes\", \"ex-ministros\", \"recém-casados\", \"bem-te-vis\".",
           "This is why \"guarda\" is the classic test. In \"guarda-chuva\" and \"guarda-roupa\" it is the verb guardar, so it never changes: \"guarda-chuvas\", \"guarda-roupas\". In \"guarda-noturno\" and \"guarda-civil\" it is a noun, the guard himself, followed by an adjective. Both elements then vary: \"guardas-noturnos\", \"guardas-civis\". Ask whether \"guarda\" is a person. If it is, it takes the s.",
         ],
@@ -557,7 +557,7 @@ export const PT_C2_U29: Lesson[] = [
       {
         heading: "Compounds with a preposition, repeated words and the invariables",
         body: [
-          "If a preposition joins the parts, with or without a hyphen, only the first element changes, because the rest is a complement: \"pés de moleque\", \"fins de semana\", \"mãos de obra\", \"pés-de-meia\", \"joões-de-barro\", \"águas-de-colônia\". Learners often say \"pé de moleques\", which pluralises the wrong word.",
+          "If a preposition joins the parts, with or without a hyphen, only the first element changes, because the rest is a complement: \"pés de moleque\", \"fins de semana\", \"mãos de obra\", \"pés-de-meia\", \"joões-de-barro\", \"águas-de-colônia\". Learners often say \"pé de moleques\", which pluralizes the wrong word.",
           "Two more patterns are worth knowing. With repeated words and sound imitations, only the second changes: \"tique-taques\", \"reco-recos\", \"pingue-pongues\". Some compounds don't change at all, because nothing in them can take a plural: \"os sem-terra\", \"os sem-teto\", \"os arco-íris\", \"os micro-ondas\", \"os saca-rolhas\" (already plural). Even educated speakers say \"os sem-terras\". In the norm, the article alone carries the plural.",
           "When the second noun limits or specifies the first, rather than adding to it, the norm accepts both plurals. In \"navio-escola\" (a school ship) or \"palavra-chave\" (a keyword), the second noun works like an adjective. So \"navios-escola\" and \"navios-escolas\", \"palavras-chave\" and \"palavras-chaves\" are all correct. Style guides usually prefer to leave the second noun singular.",
         ],
@@ -602,7 +602,7 @@ export const PT_C2_U29: Lesson[] = [
         examples: [
           { es: "Várias ONGs atuam na região do Pantanal.", en: "Several NGOs work in the Pantanal region." },
           { es: "Os PMs foram afastados até o fim da investigação.", en: "The military police officers were suspended until the end of the investigation." },
-          { es: "Confira os CEPs antes de enviar as encomendas.", en: "Check the postcodes before sending the parcels." },
+          { es: "Confira os CEPs antes de enviar as encomendas.", en: "Check the ZIP codes before sending the packages." },
           { es: "As UPAs da zona norte estão lotadas.", en: "The emergency care units in the north zone are overcrowded." },
         ],
         checkpoint: [
@@ -610,7 +610,7 @@ export const PT_C2_U29: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The NGOs criticised the new law.",
+            source: "The NGOs criticized the new law.",
             answer: "As ONGs criticaram a nova lei.",
             altAnswers: ["As ONGs criticaram a lei nova."],
             explanation: "Plural siglas take a lowercase s with no apostrophe: \"ONGs\". The verb agrees in the plural.",
@@ -651,7 +651,7 @@ export const PT_C2_U29: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The [wardrobes] in this flat are tiny.",
+        en: "The [closets] in this apartment are tiny.",
         sentence: "Os ___ deste apartamento são minúsculos.",
         answer: "guarda-roupas",
         explanation: "\"Guarda\" here is the verb, so it doesn't vary: \"guarda-roupas\". Only the noun takes the s.",
@@ -720,7 +720,7 @@ export const PT_C2_U29: Lesson[] = [
         text: "Comprei duas couves-flores e três águas-de-colônia.",
         prompt: "Say it in Portuguese: I bought two cauliflowers and three bottles of eau de cologne.",
         tip: "Say the plural s on both nouns, \"couves\" and \"flores\". Before the f, the first s stays voiceless, like English s.",
-        explanation: "\"Couves-flores\" pluralises both nouns; in \"águas-de-colônia\" only the first element varies, because of the preposition.",
+        explanation: "\"Couves-flores\" pluralizes both nouns; in \"águas-de-colônia\" only the first element varies, because of the preposition.",
       },
       {
         type: "translate",
@@ -738,7 +738,7 @@ export const PT_C2_U29: Lesson[] = [
     level: "PT-C2",
     number: 4,
     title: "Luso-Brasileiros and Azul-Marinho",
-    summary: "Make compound adjectives agree (relações luso-brasileiras, centros médico-cirúrgicos, crises político-econômicas), keep colour words with a noun invariable (olhos azul-marinho, camisas verde-limão), and handle nouns used as adjectives (sequestros-relâmpago).",
+    summary: "Make compound adjectives agree (relações luso-brasileiras, centros médico-cirúrgicos, crises político-econômicas), keep color words with a noun invariable (olhos azul-marinho, camisas verde-limão), and handle nouns used as adjectives (sequestros-relâmpago).",
     duration: "17 min",
     kind: "teach",
     sections: [
@@ -746,16 +746,16 @@ export const PT_C2_U29: Lesson[] = [
         heading: "Two adjectives: only the last one agrees",
         body: [
           "When two adjectives form one compound, the first element works like a fixed stem and only the last one takes gender and number: \"o acordo luso-brasileiro\", \"as relações luso-brasileiras\", \"os centros médico-cirúrgicos\", \"as crises político-econômicas\", \"as pesquisas técnico-científicas\". The first part usually ends in o whatever the noun is, because it is not agreeing with anything: \"questões político-sociais\", never \"políticas-sociais\".",
-          "Many of these first elements are shortened forms used only in compounds: \"luso-\" (Portuguese), \"anglo-\", \"franco-\", \"ítalo-\", \"teuto-\" (German), \"nipo-\" (Japanese), \"sino-\" (Chinese), \"afro-\", \"greco-\". So you write \"uma parceria nipo-brasileira\", \"o direito greco-romano\", \"as tradições afro-brasileiras\". The classic slip is to pluralise both halves, as in \"lusos-brasileiros\" or \"médicos-cirúrgicos\", by analogy with noun compounds like \"obras-primas\". The one well-known exception is \"surdo-mudo\", which varies in both parts: \"surdos-mudos\".",
+          "Many of these first elements are shortened forms used only in compounds: \"luso-\" (Portuguese), \"anglo-\", \"franco-\", \"ítalo-\", \"teuto-\" (German), \"nipo-\" (Japanese), \"sino-\" (Chinese), \"afro-\", \"greco-\". So you write \"uma parceria nipo-brasileira\", \"o direito greco-romano\", \"as tradições afro-brasileiras\". The classic slip is to pluralize both halves, as in \"lusos-brasileiros\" or \"médicos-cirúrgicos\", by analogy with noun compounds like \"obras-primas\". The one well-known exception is \"surdo-mudo\", which varies in both parts: \"surdos-mudos\".",
           "Watch for elements that have become prefixes, which join with no hyphen at all: \"socioeconômico\", \"sociocultural\", \"psicossocial\", \"afrodescendente\", \"eurocêntrico\". Write \"problemas socioeconômicos\", not \"sócio-econômicos\". The hyphen is for two full adjectives side by side, and the joined form is for a prefix element followed by an adjective.",
         ],
         examples: [
           { es: "O acordo fortaleceu as relações luso-brasileiras.", en: "The agreement strengthened Portuguese-Brazilian relations." },
-          { es: "O hospital tem dois centros médico-cirúrgicos.", en: "The hospital has two medical and surgical centres." },
+          { es: "O hospital tem dois centros médico-cirúrgicos.", en: "The hospital has two medical and surgical centers." },
           { es: "O país atravessa crises político-econômicas há décadas.", en: "The country has been going through political and economic crises for decades." },
           { es: "As religiões afro-brasileiras têm forte presença em Salvador.", en: "Afro-Brazilian religions have a strong presence in Salvador." },
           { es: "A empresa é uma parceria nipo-brasileira.", en: "The company is a Japanese-Brazilian partnership." },
-          { es: "O estudo mede os fatores socioeconômicos da evasão escolar.", en: "The study measures the socio-economic factors behind school dropout." },
+          { es: "O estudo mede os fatores socioeconômicos da evasão escolar.", en: "The study measures the socioeconomic factors behind school dropout." },
         ],
         checkpoint: [
           {
@@ -765,7 +765,7 @@ export const PT_C2_U29: Lesson[] = [
             source: "The Portuguese-Brazilian writers met in Lisbon.",
             answer: "Os escritores luso-brasileiros se reuniram em Lisboa.",
             altAnswers: ["Os escritores luso-brasileiros reuniram-se em Lisboa.", "As escritoras luso-brasileiras se reuniram em Lisboa.", "Os escritores luso-brasileiros se encontraram em Lisboa."],
-            explanation: "Only the last adjective agrees: \"luso-brasileiros\". \"Lusos-brasileiros\" pluralises a stem that never varies.",
+            explanation: "Only the last adjective agrees: \"luso-brasileiros\". \"Lusos-brasileiros\" pluralizes a stem that never varies.",
           },
           {
             type: "multiple-choice",
@@ -782,7 +782,7 @@ export const PT_C2_U29: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The [socio-economic] inequalities are growing.",
+            en: "The [socioeconomic] inequalities are growing.",
             sentence: "As desigualdades ___ estão aumentando.",
             answer: "socioeconômicas",
             explanation: "\"Socio-\" works as a prefix element, so it joins with no hyphen and no accent: \"socioeconômicas\".",
@@ -790,18 +790,18 @@ export const PT_C2_U29: Lesson[] = [
         ],
       },
       {
-        heading: "Colours: azul-escuras, but azul-marinho",
+        heading: "Colors: azul-escuras, but azul-marinho",
         body: [
-          "Colour compounds follow the same rule when both parts are adjectives: only the last agrees. \"Verde-claro\" gives \"paredes verde-claras\", and \"azul-escuro\" gives \"calças azul-escuras\". The first colour stays in the masculine singular form.",
-          "When the second element is a noun, the whole compound becomes invariable: \"olhos verde-limão\", \"camisas amarelo-ouro\", \"carros vermelho-sangue\", \"bolsas verde-musgo\", \"azulejos azul-piscina\". You can think of it as short for \"da cor de\": shirts the colour of gold. Two fixed adjective compounds behave the same way by tradition: \"azul-marinho\" and \"azul-celeste\" never change (\"meias azul-marinho\"). \"Cor-de-rosa\" is invariable too.",
-          "A single noun used as a colour is invariable in careful writing: \"sapatos vinho\", \"cortinas creme\", \"camisetas laranja\", \"blusas rosa\", \"ternos cinza\". Speech often pluralises them (\"camisetas laranjas\"). In a catalogue or a fashion article, an editor will put them back in the singular. Words that are plain adjectives, such as \"amarelo\", \"vermelho\" or \"verde\", of course agree: \"camisas amarelas\".",
+          "Color compounds follow the same rule when both parts are adjectives: only the last agrees. \"Verde-claro\" gives \"paredes verde-claras\", and \"azul-escuro\" gives \"calças azul-escuras\". The first color stays in the masculine singular form.",
+          "When the second element is a noun, the whole compound becomes invariable: \"olhos verde-limão\", \"camisas amarelo-ouro\", \"carros vermelho-sangue\", \"bolsas verde-musgo\", \"azulejos azul-piscina\". You can think of it as short for \"da cor de\": shirts the color of gold. Two fixed adjective compounds behave the same way by tradition: \"azul-marinho\" and \"azul-celeste\" never change (\"meias azul-marinho\"). \"Cor-de-rosa\" is invariable too.",
+          "A single noun used as a color is invariable in careful writing: \"sapatos vinho\", \"cortinas creme\", \"camisetas laranja\", \"blusas rosa\", \"ternos cinza\". Speech often pluralizes them (\"camisetas laranjas\"). In a catalogue or a fashion article, an editor will put them back in the singular. Words that are plain adjectives, such as \"amarelo\", \"vermelho\" or \"verde\", of course agree: \"camisas amarelas\".",
         ],
         examples: [
           { es: "Pintamos as paredes do quarto de verde-claro.", en: "We painted the bedroom walls light green." },
-          { es: "Ele estava de calças azul-escuras e camisa branca.", en: "He was wearing dark blue trousers and a white shirt." },
+          { es: "Ele estava de calças azul-escuras e camisa branca.", en: "He was wearing dark blue pants and a white shirt." },
           { es: "A seleção entrou em campo com camisas amarelo-ouro.", en: "The national team took the field in golden yellow shirts." },
           { es: "Ela comprou duas saias azul-marinho.", en: "She bought two navy blue skirts." },
-          { es: "Os noivos escolheram guardanapos vinho.", en: "The bride and groom chose wine-coloured napkins." },
+          { es: "Os noivos escolheram guardanapos vinho.", en: "The bride and groom chose wine-colored napkins." },
         ],
         checkpoint: [
           {
@@ -823,21 +823,21 @@ export const PT_C2_U29: Lesson[] = [
               "Tênis verdes-limões",
             ],
             correctIndex: 2,
-            explanation: "Colour + noun is invariable: \"verde-limão\". \"Tênis\" has the same form in the singular and the plural.",
+            explanation: "Color + noun is invariable: \"verde-limão\". \"Tênis\" has the same form in the singular and the plural.",
           },
           {
             type: "speak",
             text: "Ela tem olhos verde-claros e usa sempre roupas cinza.",
             tip: "\"Claros\" ends in a soft s; don't add one to \"cinza\".",
-            explanation: "\"Verde-claros\": adjective + adjective, so the last part agrees. \"Cinza\" is a noun used as a colour and stays invariable.",
+            explanation: "\"Verde-claros\": adjective + adjective, so the last part agrees. \"Cinza\" is a noun used as a color and stays invariable.",
           },
         ],
       },
       {
         heading: "Nouns that work as adjectives: sequestros-relâmpago",
         body: [
-          "Some nouns are attached to another noun to describe it, like English adjectives: \"sequestro-relâmpago\" (a kidnapping in which the victim is driven to cash machines), \"empresa-fantasma\" (a shell company), \"visita-surpresa\", \"notícia-bomba\", \"palavra-chave\", \"preço-padrão\". In the plural, the second noun usually stays singular, because it keeps its role as a description: \"sequestros-relâmpago\", \"empresas-fantasma\", \"visitas-surpresa\". The norm also accepts \"empresas-fantasmas\", but the press and style guides prefer the invariable form.",
-          "The hyphen is not optional here. Without it, \"uma empresa fantasma\" is an ordinary noun with a noun after it, and many readers would stumble. In headlines, these compounds are a favourite tool for packing meaning into a few words: \"Polícia investiga empresas-fantasma\", \"Ministro faz visita-surpresa a hospital\".",
+          "Some nouns are attached to another noun to describe it, like English adjectives: \"sequestro-relâmpago\" (a kidnapping in which the victim is driven to ATMs), \"empresa-fantasma\" (a shell company), \"visita-surpresa\", \"notícia-bomba\", \"palavra-chave\", \"preço-padrão\". In the plural, the second noun usually stays singular, because it keeps its role as a description: \"sequestros-relâmpago\", \"empresas-fantasma\", \"visitas-surpresa\". The norm also accepts \"empresas-fantasmas\", but the press and style guides prefer the invariable form.",
+          "The hyphen is not optional here. Without it, \"uma empresa fantasma\" is an ordinary noun with a noun after it, and many readers would stumble. In headlines, these compounds are a favorite tool for packing meaning into a few words: \"Polícia investiga empresas-fantasma\", \"Ministro faz visita-surpresa a hospital\".",
         ],
         examples: [
           { es: "Os casos de sequestro-relâmpago caíram na capital.", en: "Cases of express kidnapping fell in the capital." },
@@ -902,10 +902,10 @@ export const PT_C2_U29: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The bridesmaids wore wine-coloured dresses.",
+        source: "The bridesmaids wore wine-colored dresses.",
         answer: "As madrinhas usaram vestidos vinho.",
         altAnswers: ["As madrinhas usavam vestidos vinho.", "As madrinhas estavam de vestidos vinho.", "As madrinhas usaram vestidos cor de vinho.", "As madrinhas usavam vestidos cor de vinho.", "As madrinhas usaram vestidos cor vinho."],
-        explanation: "A noun used as a colour is invariable in careful writing: \"vestidos vinho\".",
+        explanation: "A noun used as a color is invariable in careful writing: \"vestidos vinho\".",
       },
       {
         type: "multiple-choice",
@@ -955,7 +955,7 @@ export const PT_C2_U29: Lesson[] = [
           "Comprei duas camisas amarelas de ouro para o jogo.",
         ],
         correctIndex: 0,
-        explanation: "Colour + noun stays invariable: \"camisas amarelo-ouro\".",
+        explanation: "Color + noun stays invariable: \"camisas amarelo-ouro\".",
       },
       {
         type: "dictation",
@@ -993,15 +993,15 @@ export const PT_C2_U29: Lesson[] = [
         heading: "Greek endings: -logia, -cracia, -fobia",
         body: [
           "Scientific and political Portuguese is built from Greek and Latin pieces, as English is. Usually the same roots give the same words in both languages, so the difficulty is not the meaning but the form: the stress, the accent and the word for the person. \"-logia\" names a field of study (\"sociologia\", \"cardiologia\", \"ecologia\"). Its person ending is either \"-logo\", stressed on the third-last syllable (\"biólogo\", \"geólogo\", \"psicólogo\"), or \"-logista\" (\"cardiologista\", \"dermatologista\", \"oftalmologista\"). Usage decides which, not logic. Nobody says \"biologista\" or \"cardiólogo\" in Brazil.",
-          "\"-cracia\" means power or government: \"democracia\", \"burocracia\", \"meritocracia\", \"teocracia\". Its person is \"-crata\" (\"democrata\", \"burocrata\") and its adjective \"-crático\" (\"burocrático\"). \"-arquia\" is its cousin for rule by one or none: \"monarquia\", \"anarquia\", \"hierarquia\". \"-fobia\" means fear and, in social vocabulary, aversion or hostility: \"claustrofobia\", \"aracnofobia\", \"xenofobia\", \"homofobia\", with the adjective \"-fóbico\". Its opposite is \"-filia\" / \"-filo\": \"cinéfilo\" (a film buff), \"bibliófilo\", \"francófilo\".",
+          "\"-cracia\" means power or government: \"democracia\", \"burocracia\", \"meritocracia\", \"teocracia\". Its person is \"-crata\" (\"democrata\", \"burocrata\") and its adjective \"-crático\" (\"burocrático\"). \"-arquia\" is its cousin for rule by one or none: \"monarquia\", \"anarquia\", \"hierarquia\". \"-fobia\" means fear and, in social vocabulary, aversion or hostility: \"claustrofobia\", \"aracnofobia\", \"xenofobia\", \"homofobia\", with the adjective \"-fóbico\". Its opposite is \"-filia\" / \"-filo\": \"cinéfilo\" (a movie buff), \"bibliófilo\", \"francófilo\".",
         ],
         examples: [
           { es: "A Beatriz é bióloga marinha e trabalha em Fernando de Noronha.", en: "Beatriz is a marine biologist and works in Fernando de Noronha." },
           { es: "Marquei consulta com uma dermatologista.", en: "I booked an appointment with a dermatologist." },
           { es: "A burocracia atrasou a obra em seis meses.", en: "The red tape delayed the work by six months." },
           { es: "O texto discute os limites da meritocracia.", en: "The text discusses the limits of meritocracy." },
-          { es: "Ele tem claustrofobia e nunca pega o elevador.", en: "He's claustrophobic and never takes the lift." },
-          { es: "Meu irmão é cinéfilo e vê três filmes por semana.", en: "My brother is a film buff and watches three films a week." },
+          { es: "Ele tem claustrofobia e nunca pega o elevador.", en: "He's claustrophobic and never takes the elevator." },
+          { es: "Meu irmão é cinéfilo e vê três filmes por semana.", en: "My brother is a movie buff and watches three movies a week." },
         ],
         checkpoint: [
           {
@@ -1034,7 +1034,7 @@ export const PT_C2_U29: Lesson[] = [
         heading: "Latin endings: -cida, -cídio, -voro",
         body: [
           "\"-cida\" is the killer, or the substance that kills, and \"-cídio\" is the killing: \"inseticida\", \"herbicida\", \"fungicida\", \"homicida\" and \"homicídio\", \"suicida\" and \"suicídio\", \"genocídio\". The pair matters in legal and press language. \"Feminicídio\", the murder of a woman because she is a woman, has been a specific crime in the Brazilian penal code since 2015, and \"feminicida\" is its perpetrator. The press uses it daily, and you should not paraphrase it as \"assassinato de mulher\".",
-          "\"-voro\" means one that eats, always stressed on the third-last syllable: \"carnívoro\", \"herbívoro\", \"onívoro\", \"frugívoro\" (fruit-eating). In speech, people also use these words with humour: \"sou carnívoro convicto\" (I'm a committed meat-eater). Other Latin endings follow the same pattern: \"-cultura\" for raising or growing (\"apicultura\", beekeeping; \"piscicultura\", fish farming) and \"-fero\" for carrying or producing (\"mamífero\", \"sonífero\", a sleeping pill).",
+          "\"-voro\" means one that eats, always stressed on the third-last syllable: \"carnívoro\", \"herbívoro\", \"onívoro\", \"frugívoro\" (fruit-eating). In speech, people also use these words with humor: \"sou carnívoro convicto\" (I'm a committed meat-eater). Other Latin endings follow the same pattern: \"-cultura\" for raising or growing (\"apicultura\", beekeeping; \"piscicultura\", fish farming) and \"-fero\" for carrying or producing (\"mamífero\", \"sonífero\", a sleeping pill).",
         ],
         examples: [
           { es: "O agricultor parou de usar herbicida na plantação.", en: "The farmer stopped using herbicide on the crop." },
@@ -1080,7 +1080,7 @@ export const PT_C2_U29: Lesson[] = [
           { es: "O termômetro marcou 40 graus em Cuiabá.", en: "The thermometer read 40 degrees in Cuiabá." },
           { es: "A telemedicina chegou às cidades do interior.", en: "Telemedicine has reached towns in the interior." },
           { es: "A Mariana é poliglota: fala cinco línguas.", en: "Mariana is a polyglot: she speaks five languages." },
-          { es: "A estação de metrô fica a um quilômetro daqui.", en: "The metro station is a kilometre from here." },
+          { es: "A estação de metrô fica a um quilômetro daqui.", en: "The metro station is a kilometer from here." },
         ],
         checkpoint: [
           {
@@ -1153,7 +1153,7 @@ export const PT_C2_U29: Lesson[] = [
           { left: "hidrômetro", right: "water meter" },
           { left: "teocracia", right: "government by religious authority" },
           { left: "frugívoro", right: "fruit-eating" },
-          { left: "policlínica", right: "clinic with many specialities" },
+          { left: "policlínica", right: "clinic with many specialties" },
         ],
         explanation: "Each word is decoded from its root: \"api-\" bee, \"-fero\" bearing, \"hidro-\" water, \"teo-\" god, \"frugi-\" fruit, \"poli-\" many.",
       },
@@ -1230,17 +1230,17 @@ export const PT_C2_U29: Lesson[] = [
       {
         heading: "-ice, -udo, -ento: judging people and things",
         body: [
-          "Brazilian Portuguese packs judgement into suffixes where English needs an extra word. \"-ice\" turns an adjective into a noun for a behaviour, and the behaviour is usually one you disapprove of: \"chatice\" (something tedious), \"babaquice\" (a stupid thing to do), \"criancice\" (childishness), \"caretice\" (squareness, prudishness), \"mesmice\" (sameness, the same old thing), \"esquisitice\" (weirdness). Not every word with \"-ice\" is negative. \"Velhice\" is simply old age, and \"meiguice\" is tenderness. But a new coinage with \"-ice\" almost always mocks: \"isso é uma gourmetice\".",
-          "\"-udo\" means having a lot of something, often a body part, and the tone ranges from playful to rude: \"cabeludo\" (long-haired), \"barrigudo\" (pot-bellied), \"narigudo\", \"bochechudo\" (chubby-cheeked, said affectionately of babies), \"sortudo\" (a lucky devil), \"raçudo\" (gutsy, praise for a footballer). \"-ento\" means full of or prone to, and it is mostly negative: \"ciumento\", \"briguento\" (quarrelsome), \"barulhento\", \"nojento\", \"fedorento\".",
+          "Brazilian Portuguese packs judgment into suffixes where English needs an extra word. \"-ice\" turns an adjective into a noun for a behavior, and the behavior is usually one you disapprove of: \"chatice\" (something tedious), \"babaquice\" (a stupid thing to do), \"criancice\" (childishness), \"caretice\" (squareness, prudishness), \"mesmice\" (sameness, the same old thing), \"esquisitice\" (weirdness). Not every word with \"-ice\" is negative. \"Velhice\" is simply old age, and \"meiguice\" is tenderness. But a new coinage with \"-ice\" almost always mocks: \"isso é uma gourmetice\".",
+          "\"-udo\" means having a lot of something, often a body part, and the tone ranges from playful to rude: \"cabeludo\" (long-haired), \"barrigudo\" (pot-bellied), \"narigudo\", \"bochechudo\" (chubby-cheeked, said affectionately of babies), \"sortudo\" (a lucky devil), \"raçudo\" (gutsy, praise for a soccer player). \"-ento\" means full of or prone to, and it is mostly negative: \"ciumento\", \"briguento\" (quarrelsome), \"barulhento\", \"nojento\", \"fedorento\".",
           "The English speaker's mistake is to translate the suffix away. \"Que chatice!\" is not just how boring; it is a complaint about a whole situation, closer to what a drag! And calling a man \"barrigudo\" to his face is not a neutral description.",
         ],
         examples: [
           { es: "Que chatice ter que refazer o relatório inteiro!", en: "What a drag, having to redo the whole report!" },
-          { es: "Para com essa criancice e pede desculpas.", en: "Stop being so childish and apologise." },
+          { es: "Para com essa criancice e pede desculpas.", en: "Stop being so childish and apologize." },
           { es: "A programação da TV aos domingos é sempre a mesma mesmice.", en: "Sunday TV is always the same old thing." },
           { es: "Que bebê mais bochechudo!", en: "What a chubby-cheeked baby!" },
           { es: "Sortudo! Ganhou a rifa duas vezes seguidas.", en: "Lucky devil! He won the raffle twice in a row." },
-          { es: "O vizinho do andar de cima é barulhento e briguento.", en: "The upstairs neighbour is noisy and quarrelsome." },
+          { es: "O vizinho do andar de cima é barulhento e briguento.", en: "The upstairs neighbor is noisy and quarrelsome." },
         ],
         checkpoint: [
           {
@@ -1304,13 +1304,13 @@ export const PT_C2_U29: Lesson[] = [
       {
         heading: "-aço and -ão, -eco and ironic -inho",
         body: [
-          "Size suffixes in Portuguese are really attitude suffixes. \"-aço\" is the admiring augmentative of football and pop culture: \"golaço\" (a stunning goal), \"jogaço\", \"timaço\", \"filmaço\". \"-ão\" can admire (\"carrão\", \"mulherão\", a striking woman) or mock (\"narigão\", \"sabichão\", a know-it-all; \"solteirão\", a confirmed bachelor). Note the gender: \"mulherão\" is masculine in form, \"um mulherão\".",
+          "Size suffixes in Portuguese are really attitude suffixes. \"-aço\" is the admiring augmentative of soccer and pop culture: \"golaço\" (a stunning goal), \"jogaço\", \"timaço\", \"filmaço\". \"-ão\" can admire (\"carrão\", \"mulherão\", a striking woman) or mock (\"narigão\", \"sabichão\", a know-it-all; \"solteirão\", a confirmed bachelor). Note the gender: \"mulherão\" is masculine in form, \"um mulherão\".",
           "Contempt has its own diminutives. \"-eco\" belittles: \"livreco\" (a worthless little book), \"jornaleco\" (a rag), \"padreco\". The ordinary diminutive \"-inho\" becomes ironic in the right context: \"um empreguinho\" (a dead-end job), \"o doutorzinho\" (the jumped-up young doctor). \"-aréu\" and \"-alha\" add mass and disdain: \"povaréu\" (a huge crowd), \"fogaréu\" (a blaze), \"gentalha\" (riffraff).",
           "Use them on purpose. In a review or a chronicle, \"um livreco de autoajuda\" says in one word what English needs a sentence for. In a report, the same word sounds like an insult. The neutral word plus an adjective (\"um livro superficial\") is the safe choice in formal prose.",
         ],
         examples: [
           { es: "Que golaço! O goleiro nem viu a bola.", en: "What a stunner! The goalkeeper didn't even see the ball." },
-          { es: "Ontem vi um filmaço no cinema do shopping.", en: "Yesterday I saw a brilliant film at the mall cinema." },
+          { es: "Ontem vi um filmaço no cinema do shopping.", en: "Yesterday I saw a brilliant movie at the mall movie theater." },
           { es: "O crítico chamou o romance de livreco.", en: "The critic called the novel a worthless little book." },
           { es: "Esse jornaleco só publica fofoca.", en: "That rag only publishes gossip." },
           { es: "Ele largou um empreguinho para abrir o próprio negócio.", en: "He left a dead-end job to start his own business." },
@@ -1323,7 +1323,7 @@ export const PT_C2_U29: Lesson[] = [
             source: "What a fantastic game! Flamengo has a great team this year.",
             answer: "Que jogaço! O Flamengo tem um timaço este ano.",
             altAnswers: ["Que jogaço! O Flamengo está com um timaço este ano.", "Que jogaço! O Flamengo tem um timaço neste ano.", "Que jogaço! O Flamengo tá com um timaço esse ano."],
-            explanation: "\"-aço\" is the admiring augmentative of football talk: \"jogaço\", \"timaço\", \"golaço\".",
+            explanation: "\"-aço\" is the admiring augmentative of soccer talk: \"jogaço\", \"timaço\", \"golaço\".",
           },
           {
             type: "listen-choose",
@@ -1436,9 +1436,9 @@ export const PT_C2_U29: Lesson[] = [
       {
         type: "speak",
         text: "Para de criancice! Você não tem mais dez anos.",
-        prompt: "Say it in Portuguese: Stop being so childish! You're not ten any more.",
+        prompt: "Say it in Portuguese: Stop being so childish! You're not ten anymore.",
         tip: "\"Para\" here is the imperative of parar, said with a falling tone of exasperation.",
-        explanation: "\"Criancice\" names a childish behaviour. \"Para de\" + noun is the spoken imperative.",
+        explanation: "\"Criancice\" names a childish behavior. \"Para de\" + noun is the spoken imperative.",
       },
       {
         type: "translate",
@@ -1465,15 +1465,15 @@ export const PT_C2_U29: Lesson[] = [
         body: [
           "Every new Portuguese verb joins the first conjugation. Brazilians take a brand, a noun or an English word and add \"-ar\", \"-izar\" or \"-ear\": \"uberizar\" (to turn work into gig work, like Uber), \"gourmetizar\" (to make something pretentiously upmarket), \"viralizar\", \"printar\" (to take a screenshot), \"maratonar\" (to binge-watch), \"stalkear\", \"shippar\" (to root for two people as a couple). Older loans went the same way: \"deletar\", \"escanear\", \"postar\". Even an old verb can get a new meaning: \"curtir\" (to enjoy) is now also to like a post.",
           "Because they are regular, you conjugate them without thinking, with one exception from the previous unit. Verbs in \"-ear\" take \"ei\" in the stressed forms, like \"passear\": \"eu stalkeio\", \"eles stalkeiam\", \"que ela escaneie\". Spoken loans also adapt their sound. \"Printar\" is said with a vowel after the t, roughly \"prin-tchár\", and \"dar um print\" sounds like \"prínt-chi\".",
-          "\"-izar\" carries a meaning of its own: to subject something to a process. That is why it is the favourite suffix of the press and the social sciences. \"Uberização\", \"gourmetização\" and \"pejotização\" (hiring workers as companies, \"PJs\", to avoid labour costs) all name a trend and a criticism of it in one word.",
+          "\"-izar\" carries a meaning of its own: to subject something to a process. That is why it is the favorite suffix of the press and the social sciences. \"Uberização\", \"gourmetização\" and \"pejotização\" (hiring workers as companies, \"PJs\", to avoid labor costs) all name a trend and a criticism of it in one word.",
         ],
         examples: [
           { es: "O vídeo viralizou da noite para o dia.", en: "The video went viral overnight." },
           { es: "Printa a conversa e me manda.", en: "Take a screenshot of the conversation and send it to me." },
-          { es: "Maratonei a série inteira no fim de semana.", en: "I binge-watched the whole series at the weekend." },
+          { es: "Maratonei a série inteira no fim de semana.", en: "I binge-watched the whole series on the weekend." },
           { es: "Ela stalkeia o ex no Instagram todo dia.", en: "She stalks her ex on Instagram every day." },
           { es: "Gourmetizaram até o pastel de feira.", en: "They've even made the market-stall pastel fancy." },
-          { es: "O livro analisa a uberização do trabalho no Brasil.", en: "The book analyses the uberisation of work in Brazil." },
+          { es: "O livro analisa a uberização do trabalho no Brasil.", en: "The book analyzes the uberization of work in Brazil." },
         ],
         checkpoint: [
           {
@@ -1518,7 +1518,7 @@ export const PT_C2_U29: Lesson[] = [
           { es: "Ela lacrou na apresentação de ontem.", en: "She absolutely nailed yesterday's presentation." },
           { es: "Meu tio escreveu mais um textão sobre política.", en: "My uncle wrote another long rant about politics." },
           { es: "Sextou! Bora pro bar?", en: "Thank God it's Friday! Shall we hit the bar?" },
-          { es: "O cantor foi cancelado depois de um comentário infeliz.", en: "The singer was cancelled after an unfortunate comment." },
+          { es: "O cantor foi cancelado depois de um comentário infeliz.", en: "The singer was canceled after an unfortunate comment." },
           { es: "Pega um refri na geladeira pra mim?", en: "Can you grab me a soft drink from the fridge?" },
         ],
         checkpoint: [
@@ -1543,12 +1543,12 @@ export const PT_C2_U29: Lesson[] = [
       {
         heading: "Which words stay: the VOLP and the dictionaries",
         body: [
-          "The Academia Brasileira de Letras publishes the VOLP (Vocabulário Ortográfico da Língua Portuguesa), the official list of how words are spelled. It does not invent words. It records them once they are established, and its updates are news in Brazil. Dictionaries such as Houaiss and Michaelis add new entries every year. A new word is not wrong because it is missing from them; it is simply informal, or not yet settled.",
+          "The Academia Brasileira de Letras publishes the VOLP (Vocabulário Ortográfico da Língua Portuguesa), the official list of how words are spelled. It does not invent words. It records them once they are established, and its updates are news in Brazil. Dictionaries such as Houaiss and Michaelis add new entries regularly. A new word is not wrong because it is missing from them; it is simply informal, or not yet settled.",
           "Words survive when they fill a gap and grow a family. \"Viralizar\" gave \"viralização\" and \"viral\", and it now appears in serious journalism. Words tied to one platform die with it: \"orkutar\" and \"scrap\" were everywhere when Orkut ruled Brazilian social media, and today they sound like fossils. A good rule for formal writing: an assimilated loan gets Portuguese spelling (\"estresse\", \"xampu\", \"nocaute\", \"uísque\", \"deletar\"); a raw foreign word (\"home office\", \"delivery\", \"crush\") goes in italics; and a slang coinage goes in quotation marks, or is replaced with a neutral paraphrase.",
         ],
         examples: [
           { es: "A palavra \"viralizar\" já aparece nos principais dicionários.", en: "The word viralizar already appears in the main dictionaries." },
-          { es: "Ninguém mais fala em \"orkutar\".", en: "Nobody talks about orkutar any more." },
+          { es: "Ninguém mais fala em \"orkutar\".", en: "Nobody talks about orkutar anymore." },
           { es: "O estresse do fim de ano afeta todo mundo.", en: "End-of-year stress affects everyone." },
           { es: "O lutador venceu por nocaute no segundo round.", en: "The fighter won by knockout in the second round." },
         ],
@@ -1593,7 +1593,7 @@ export const PT_C2_U29: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The gentrification and [gourmetisation] of the neighbourhood pushed the residents out.",
+        en: "The gentrification and [gourmetization] of the neighborhood pushed the residents out.",
         sentence: "A gentrificação e a ___ do bairro expulsaram os moradores.",
         answer: "gourmetização",
         explanation: "\"-izar\" gives a process noun in \"-ização\": \"gourmetizar\", \"gourmetização\".",
@@ -1602,7 +1602,7 @@ export const PT_C2_U29: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The actor was cancelled on social media.",
+        source: "The actor was canceled on social media.",
         answer: "O ator foi cancelado nas redes sociais.",
         altAnswers: ["O ator foi cancelado nas redes.", "Cancelaram o ator nas redes sociais."],
         explanation: "\"Cancelar\" someone means to boycott them publicly. The passive with \"ser\" works as for any regular verb.",
@@ -1647,7 +1647,7 @@ export const PT_C2_U29: Lesson[] = [
           "The paper ran a report on how delivery workers became gig workers.",
           "The paper ran a report on Uber drivers' salaries.",
           "The paper ran a report on new taxi rules for the city.",
-          "The paper ran an advert for delivery jobs.",
+          "The paper ran an ad for delivery jobs.",
         ],
         correctIndex: 0,
         explanation: "\"Uberização\" names the trend of turning jobs into app-based gig work with no employment rights.",
@@ -1660,7 +1660,7 @@ export const PT_C2_U29: Lesson[] = [
       {
         type: "speak",
         text: "Vamos maratonar a série nova no fim de semana?",
-        prompt: "Say it in Portuguese: Shall we binge-watch the new series at the weekend?",
+        prompt: "Say it in Portuguese: Shall we binge-watch the new series on the weekend?",
         tip: "\"Maratonar\": keep the vowels open and clear, ma-ra-to-NAR.",
         explanation: "\"Maratonar\" is a new verb from \"maratona\", conjugated like any \"-ar\" verb.",
       },
@@ -1668,7 +1668,7 @@ export const PT_C2_U29: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Nobody remembers Orkut any more.",
+        source: "Nobody remembers Orkut anymore.",
         answer: "Ninguém mais se lembra do Orkut.",
         altAnswers: ["Ninguém se lembra mais do Orkut.", "Ninguém lembra mais do Orkut.", "Ninguém mais lembra do Orkut."],
         explanation: "\"Lembrar-se de\" in the norm; educated speech also says \"lembrar de\". Brand names take the article: \"do Orkut\".",
@@ -1696,7 +1696,7 @@ export const PT_C2_U29: Lesson[] = [
           { es: "Ela tomou um anti-inflamatório.", en: "She took an anti-inflammatory. (Same vowel, i + i: hyphen.)" },
           { es: "O exército testou um míssil antiaéreo.", en: "The army tested an anti-aircraft missile. (Different vowels, i + a: joined.)" },
           { es: "Ele abriu uma microempresa em Curitiba.", en: "He opened a micro-business in Curitiba. (o + e: joined, unlike \"micro-ondas\".)" },
-          { es: "O casamento inter-racial foi tema do filme.", en: "Interracial marriage was the theme of the film. (r + r: hyphen, unlike \"interestadual\".)" },
+          { es: "O casamento inter-racial foi tema do filme.", en: "Interracial marriage was the theme of the movie. (r + r: hyphen, unlike \"interestadual\".)" },
           { es: "A Beatriz é coautora do livro.", en: "Beatriz is the co-author of the book. (\"Co-\" always joins.)" },
           { es: "Não dá para prever o resultado da pré-estreia.", en: "There's no way to predict how the preview will go. (Unstressed \"pre\" joins; stressed \"pré-\" takes a hyphen.)" },
         ],
@@ -1725,7 +1725,7 @@ export const PT_C2_U29: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The [antisocial] behaviour of the neighbour worried everyone.",
+            en: "The [antisocial] behavior of the neighbor worried everyone.",
             sentence: "O comportamento ___ do vizinho preocupou todos.",
             answer: "antissocial",
             explanation: "A vowel meets s: join and double, so the s keeps its sound. A single s would sound like z.",
@@ -1766,20 +1766,20 @@ export const PT_C2_U29: Lesson[] = [
             source: "She is always in a bad mood on Mondays.",
             answer: "Ela está sempre mal-humorada às segundas-feiras.",
             altAnswers: ["Ela sempre está mal-humorada às segundas-feiras.", "Ela está sempre mal-humorada às segundas.", "Ela sempre fica mal-humorada às segundas-feiras.", "Ela sempre fica mal-humorada às segundas."],
-            explanation: "\"Mal-\" before h takes a hyphen: \"mal-humorada\". \"Segundas-feiras\" pluralises both elements.",
+            explanation: "\"Mal-\" before h takes a hyphen: \"mal-humorada\". \"Segundas-feiras\" pluralizes both elements.",
           },
         ],
       },
       {
         heading: "Plurals: what varies and what doesn't",
         body: [
-          "The last group of pairs tests the plural. Parse each element: does \"guarda\" mean a person or the verb? Is the second colour word an adjective or a noun? Is there a preposition inside? Is the first element a fixed stem, as in \"luso-\"?",
+          "The last group of pairs tests the plural. Parse each element: does \"guarda\" mean a person or the verb? Is the second color word an adjective or a noun? Is there a preposition inside? Is the first element a fixed stem, as in \"luso-\"?",
         ],
         examples: [
           { es: "Os guarda-chuvas ficaram no carro.", en: "The umbrellas were left in the car. (\"Guarda\" is the verb: invariable.)" },
           { es: "Os guardas-noturnos trocam de turno às seis.", en: "The night watchmen change shifts at six. (\"Guarda\" is the person: both vary.)" },
-          { es: "Ela usa sempre calças azul-escuras.", en: "She always wears dark blue trousers. (Adjective + adjective: the last agrees.)" },
-          { es: "Ela usa sempre calças azul-marinho.", en: "She always wears navy blue trousers. (\"Azul-marinho\" never varies.)" },
+          { es: "Ela usa sempre calças azul-escuras.", en: "She always wears dark blue pants. (Adjective + adjective: the last agrees.)" },
+          { es: "Ela usa sempre calças azul-marinho.", en: "She always wears navy blue pants. (\"Azul-marinho\" never varies.)" },
         ],
         checkpoint: [
           {
@@ -1826,7 +1826,7 @@ export const PT_C2_U29: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The engine overheated on the motorway.",
+        source: "The engine overheated on the highway.",
         answer: "O motor superaqueceu na rodovia.",
         altAnswers: ["O motor superaqueceu na estrada.", "O motor superaqueceu na autoestrada.", "O motor esquentou demais na estrada.", "O motor esquentou demais na rodovia."],
         explanation: "\"Super-\" ends in a consonant and meets a vowel: join, \"superaquecer\".",
@@ -1846,7 +1846,7 @@ export const PT_C2_U29: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The [deputy rector] opened the ceremony.",
+        en: "The [vice provost] opened the ceremony.",
         sentence: "O ___ abriu a cerimônia.",
         answer: "sub-reitor",
         altAnswers: ["vice-reitor"],
@@ -1931,7 +1931,7 @@ export const PT_C2_U29: Lesson[] = [
     format: "Error Hunt",
     sections: [
       {
-        heading: "An advert for a beauty clinic",
+        heading: "An ad for a beauty clinic",
         body: [
           "A clinic in Recife sent this text to a printer: \"Promoção de fim-de-semana! Tratamento anti-rugas e creme anti-inflamatório com 20% de desconto. Atendimento extra-oficial aos domingos, com estacionamento ao lado da auto-escola.\" It contains four hyphen errors, and each one dates from before the Acordo. The copywriter learned the old rules, and the spellchecker was set to European Portuguese.",
           "The fixes: \"fim de semana\" (a linking word, so no hyphens), \"antirrugas\" (a vowel meets r: join and double), \"extraoficial\" (different vowels: join) and \"autoescola\" (different vowels: join). \"Anti-inflamatório\" was already correct, since two identical vowels meet. A good proofreader also notices what is right and leaves it alone.",
@@ -1940,7 +1940,7 @@ export const PT_C2_U29: Lesson[] = [
           { es: "Promoção de fim de semana!", en: "Weekend offer! (Not \"fim-de-semana\".)" },
           { es: "Tratamento antirrugas com desconto.", en: "Discounted anti-wrinkle treatment. (Not \"anti-rugas\".)" },
           { es: "O atendimento extraoficial é só aos domingos.", en: "The unofficial service is only on Sundays. (Not \"extra-oficial\".)" },
-          { es: "O estacionamento fica ao lado da autoescola.", en: "The car park is next to the driving school. (Not \"auto-escola\".)" },
+          { es: "O estacionamento fica ao lado da autoescola.", en: "The parking lot is next to the driving school. (Not \"auto-escola\".)" },
         ],
         checkpoint: [
           {
@@ -1961,7 +1961,7 @@ export const PT_C2_U29: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which word in the advert was already correct?",
+            question: "Which word in the ad was already correct?",
             options: ["anti-inflamatório", "anti-rugas", "auto-escola", "extra-oficial"],
             correctIndex: 0,
             explanation: "\"Anti-inflamatório\" takes a hyphen because the prefix ends and the word begins with the same vowel.",
@@ -1969,14 +1969,14 @@ export const PT_C2_U29: Lesson[] = [
         ],
       },
       {
-        heading: "A news story about a neighbourhood",
+        heading: "A news story about a neighborhood",
         body: [
           "From a local news site in São Paulo: \"Moradores do bairro entregaram dois abaixos-assinados à prefeitura pedindo mais guarda-noturnos. Eles também reclamam dos sem-terras acampados na praça e das couve-flores roubadas da horta comunitária.\" The reporter wrote quickly, and every plural compound in the paragraph is wrong.",
           "Four errors. \"Abaixo-assinados\": \"abaixo\" is an adverb, so it doesn't vary. \"Guardas-noturnos\": here \"guarda\" is the person, so it varies along with the adjective. \"Sem-terra\" is invariable, and the article \"os\" carries the plural. \"Couves-flores\": two nouns, both plural. Each fix comes from the same question: what kind of word is each element?",
         ],
         examples: [
           { es: "Os moradores entregaram dois abaixo-assinados à prefeitura.", en: "The residents handed two petitions to the city hall. (Not \"abaixos-assinados\".)" },
-          { es: "Eles pedem mais guardas-noturnos no bairro.", en: "They are asking for more night watchmen in the neighbourhood. (Not \"guarda-noturnos\".)" },
+          { es: "Eles pedem mais guardas-noturnos no bairro.", en: "They are asking for more night watchmen in the neighborhood. (Not \"guarda-noturnos\".)" },
           { es: "Os sem-terra estão acampados na praça.", en: "The landless workers are camped in the square. (Not \"sem-terras\".)" },
           { es: "Roubaram as couves-flores da horta comunitária.", en: "Someone stole the cauliflowers from the community garden. (Not \"couve-flores\".)" },
         ],
@@ -2008,7 +2008,7 @@ export const PT_C2_U29: Lesson[] = [
         ],
         examples: [
           { es: "As ONGs luso-brasileiras apresentaram os dados.", en: "The Portuguese-Brazilian NGOs presented the data. (Not \"ONG's lusos-brasileiras\".)" },
-          { es: "Os dados socioeconômicos foram atualizados.", en: "The socio-economic data were updated. (Not \"sócio-econômicos\".)" },
+          { es: "Os dados socioeconômicos foram atualizados.", en: "The socioeconomic data were updated. (Not \"sócio-econômicos\".)" },
           { es: "Os relatórios foram impressos em papel azul-marinho.", en: "The reports were printed on navy blue paper. (Not \"azuis-marinhos\".)" },
         ],
         checkpoint: [
@@ -2025,7 +2025,7 @@ export const PT_C2_U29: Lesson[] = [
             audio: "Os indicadores socioeconômicos melhoraram no Nordeste.",
             question: "What does it mean?",
             options: [
-              "Socio-economic indicators improved in the Northeast.",
+              "Socioeconomic indicators improved in the Northeast.",
               "Partners in the economy got better in the Northeast.",
               "Economic partnerships grew in the Northeast.",
               "Social indicators got worse in the Northeast.",
@@ -2055,8 +2055,8 @@ export const PT_C2_U29: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "The draft says \"Ele é contra-regra do teatro\". Write it correctly: He is the theatre's stage manager.",
-        source: "He is the theatre's stage manager.",
+        prompt: "The draft says \"Ele é contra-regra do teatro\". Write it correctly: He is the theater's stage manager.",
+        source: "He is the theater's stage manager.",
         answer: "Ele é contrarregra do teatro.",
         altAnswers: ["Ele é o contrarregra do teatro."],
         explanation: "A vowel meets r: join and double, \"contrarregra\".",
@@ -2101,7 +2101,7 @@ export const PT_C2_U29: Lesson[] = [
         source: "Lime green bags are back in fashion.",
         answer: "As bolsas verde-limão estão de volta à moda.",
         altAnswers: ["Bolsas verde-limão estão de volta à moda.", "As bolsas verde-limão voltaram à moda.", "Bolsas verde-limão voltaram à moda.", "As bolsas verde-limão voltaram a ser moda."],
-        explanation: "Colour + noun is invariable: \"verde-limão\".",
+        explanation: "Color + noun is invariable: \"verde-limão\".",
       },
       {
         type: "word-order",
@@ -2140,7 +2140,7 @@ export const PT_C2_U29: Lesson[] = [
       {
         type: "speak",
         text: "Seguem anexos os dados socioeconômicos das ONGs.",
-        prompt: "Say it in Portuguese: Please find attached the socio-economic data from the NGOs.",
+        prompt: "Say it in Portuguese: Please find attached the socioeconomic data from the NGOs.",
         tip: "\"Socioeconômicos\" is one word: run it together without a pause after \"socio\".",
         explanation: "\"Anexos\" agrees with \"os dados\", \"socioeconômicos\" is joined, and \"ONGs\" has no apostrophe.",
       },
@@ -2160,7 +2160,7 @@ export const PT_C2_U29: Lesson[] = [
         heading: "Hyphens and plurals with agreement and crase",
         body: [
           "This review mixes the word-formation rules of this unit with the precision points of Units 9, 27 and 28. A single sentence can now hold three traps: \"Seguem anexas as fichas dos recém-contratados\" tests the agreement of \"anexas\", the invariable \"recém-\" and the contraction \"dos\". Read each sentence once for the compound, once for agreement and once for the verb.",
-          "Quick reminders: the compound's plural follows its parts (\"guardas-noturnos\", \"guarda-chuvas\"), compound adjectives agree only in the last element (\"luso-brasileiras\"), and colour + noun stays invariable (\"azul-marinho\"). Crase appears where \"a\" meets a feminine article (\"às segundas-feiras\", \"à autoescola\").",
+          "Quick reminders: the compound's plural follows its parts (\"guardas-noturnos\", \"guarda-chuvas\"), compound adjectives agree only in the last element (\"luso-brasileiras\"), and color + noun stays invariable (\"azul-marinho\"). Crase appears where \"a\" meets a feminine article (\"às segundas-feiras\", \"à autoescola\").",
         ],
         examples: [
           { es: "Seguem anexas as fichas dos recém-contratados.", en: "Please find attached the files of the new hires." },
@@ -2208,7 +2208,7 @@ export const PT_C2_U29: Lesson[] = [
         examples: [
           { es: "Eu odeio a mesmice dos fins de semana em casa.", en: "I hate the sameness of weekends at home." },
           { es: "Se você vir o porta-voz, peça a ele uma entrevista.", en: "If you see the spokesperson, ask him for an interview." },
-          { es: "Se o vice-diretor intervier, o problema se resolve.", en: "If the deputy head intervenes, the problem will be solved." },
+          { es: "Se o vice-diretor intervier, o problema se resolve.", en: "If the assistant principal intervenes, the problem will be solved." },
           { es: "Eu escaneio os abaixo-assinados e os mando por e-mail.", en: "I scan the petitions and send them by email." },
           { es: "Os documentos foram impressos e entregues aos sem-terra.", en: "The documents were printed and handed to the landless workers." },
         ],
@@ -2348,7 +2348,7 @@ export const PT_C2_U29: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into formal Portuguese.",
-        source: "The lawyer requested a copy of the socio-economic report.",
+        source: "The lawyer requested a copy of the socioeconomic report.",
         answer: "O advogado requereu uma cópia do relatório socioeconômico.",
         altAnswers: ["A advogada requereu uma cópia do relatório socioeconômico.", "O advogado solicitou uma cópia do relatório socioeconômico.", "A advogada solicitou uma cópia do relatório socioeconômico.", "O advogado pediu uma cópia do relatório socioeconômico."],
         explanation: "\"Requerer\" is regular in the past (\"requereu\"); only the present has \"requeiro\". \"Socioeconômico\" is joined.",

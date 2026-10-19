@@ -148,7 +148,6 @@ export const FR_A2_U14: Lesson[] = [
         en: "We [didn't meet anyone] at the party.",
         sentence: "On ___ à la fête.",
         answer: "n'a rencontré personne",
-        altAnswers: ["n'a vu personne"],
         explanation: "Passé composé: \"n'a\" + participle + \"personne\".",
       },
       {
@@ -445,7 +444,7 @@ export const FR_A2_U14: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does « Je n'ai qu'un frère » mean?",
+            question: "What does \"Je n'ai qu'un frère\" mean?",
             options: ["I only have one brother.", "I don't have a brother.", "I have a brother too.", "I have no brothers left."],
             correctIndex: 0,
             explanation: "\"Ne...que\" restricts: only one brother.",
@@ -602,7 +601,7 @@ export const FR_A2_U14: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Your friend says: « Je n'ai pas faim. » You aren't hungry either. What do you say?",
+            question: "Your friend says: \"Je n'ai pas faim.\" You aren't hungry either. What do you say?",
             options: ["Moi non plus.", "Moi aussi.", "Moi aussi pas.", "Moi si."],
             correctIndex: 0,
             explanation: "Agreeing with a negative: \"moi non plus\".",
@@ -664,7 +663,7 @@ export const FR_A2_U14: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "« Tu n'as pas tes clés ? » You do have them. What do you answer?",
+            question: "\"Tu n'as pas tes clés ?\" You do have them. What do you answer?",
             options: ["Si, je les ai.", "Oui, je les ai.", "Non, je les ai.", "Moi aussi."],
             correctIndex: 0,
             explanation: "Yes to a negative question is \"si\".",
@@ -725,7 +724,7 @@ export const FR_A2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« J'adore le foot. » You hate football. What do you say?",
+        question: "\"J'adore le foot.\" You hate football. What do you say?",
         options: ["Pas moi.", "Moi non plus.", "Moi si.", "Si !"],
         correctIndex: 0,
         explanation: "Disagreeing with a positive: \"pas moi\". \"Moi non plus\" agrees with a negative.",
@@ -765,7 +764,7 @@ export const FR_A2_U14: Lesson[] = [
       {
         type: "speak",
         text: "Si, je viens !",
-        prompt: "Your friend asks « Tu ne viens pas ? ». Answer: Yes, I'm coming!",
+        prompt: "Your friend asks \"Tu ne viens pas ?\". Answer: Yes, I'm coming!",
         explanation: "\"Si\" to contradict a negative question.",
       },
     ],
@@ -845,7 +844,7 @@ export const FR_A2_U14: Lesson[] = [
           {
             type: "speak",
             text: "Il n'a plus d'amis à Paris.",
-            prompt: "Make it negative and say it: Il a encore des amis à Paris.",
+            prompt: "Make it negative and say it: \"Il a encore des amis à Paris.\"",
             explanation: "\"Encore\" → \"ne...plus\", and \"des\" → \"d'\".",
           },
         ],
@@ -904,14 +903,14 @@ export const FR_A2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Make it negative: « J'ai déjà vu ce film. »",
+        question: "Make it negative: \"J'ai déjà vu ce film.\"",
         options: ["Je n'ai pas encore vu ce film.", "Je n'ai déjà pas vu ce film.", "Je n'ai jamais déjà vu ce film.", "Je n'ai plus vu ce film."],
         correctIndex: 0,
         explanation: "\"Déjà\" flips to \"pas encore\".",
       },
       {
         type: "multiple-choice",
-        question: "Make it negative: « Quelque chose a changé. »",
+        question: "Make it negative: \"Quelque chose a changé.\"",
         options: ["Rien n'a changé.", "Rien a pas changé.", "Quelque chose n'a pas changé.", "Personne n'a changé."],
         correctIndex: 0,
         explanation: "Subject \"quelque chose\" → \"rien\" + \"ne\". \"Quelque chose n'a pas changé\" means something stayed the same.",
@@ -934,7 +933,7 @@ export const FR_A2_U14: Lesson[] = [
       {
         type: "speak",
         text: "Je n'ai rencontré personne.",
-        prompt: "Make it negative and say it: J'ai rencontré quelqu'un.",
+        prompt: "Make it negative and say it: \"J'ai rencontré quelqu'un.\"",
         explanation: "\"Quelqu'un\" → \"personne\", after the participle.",
       },
     ],
@@ -1287,7 +1286,7 @@ export const FR_A2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'Lots of tourists come in summer'?",
         options: ["Beaucoup de touristes viennent en été.", "Beaucoup des touristes viennent en été.", "La plupart de touristes viennent en été.", "Beaucoup touristes viennent en été."],
         correctIndex: 0,
         explanation: "\"Beaucoup de\" + noun; \"la plupart\" would need \"des\".",
@@ -1678,7 +1677,7 @@ export const FR_A2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your flatmate says « Je vais ranger ma chambre. » What will they do?",
+        question: "Your flatmate says \"Je vais ranger ma chambre.\" What will they do?",
         options: ["Tidy their room.", "Rent their room.", "Paint their room.", "Leave their room."],
         correctIndex: 0,
         explanation: "\"Ranger\" = tidy up, put away.",
@@ -1940,7 +1939,7 @@ export const FR_A2_U14: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What is « une émission de radio »?",
+            question: "What is \"une émission de radio\"?",
             options: ["A radio programme", "A radio emission", "A radio station", "A radio advert"],
             correctIndex: 0,
             explanation: "\"Une émission\" = a programme; a station is \"une station\".",

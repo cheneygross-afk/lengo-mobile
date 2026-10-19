@@ -23,7 +23,7 @@ export const PT_C1_U02: Lesson[] = [
           { es: "Serão umas três horas.", en: "It must be about three o'clock." },
           { es: "Onde estará a Beatriz a uma hora dessas?", en: "Where can Beatriz be at this hour?" },
           { es: "Quem será a essa hora?", en: "Who can that be at this time of night?" },
-          { es: "A dona do apartamento terá uns sessenta anos.", en: "The owner of the flat must be about sixty." },
+          { es: "A dona do apartamento terá uns sessenta anos.", en: "The owner of the apartment must be about sixty." },
           { es: "O que ele quererá dizer com isso?", en: "I wonder what he means by that." },
           { es: "Estarão com fome, coitados.", en: "They must be hungry, poor things." },
         ],
@@ -310,7 +310,7 @@ export const PT_C1_U02: Lesson[] = [
           { es: "Teria sido um engano do banco?", en: "Could it have been a mistake by the bank?" },
           { es: "Quem teria deixado a porta aberta?", en: "Who could have left the door open?" },
           { es: "Ninguém atendeu; ela já teria saído para o trabalho.", en: "Nobody answered; she must already have left for work." },
-          { es: "O vaso teria caído com o vento, imaginou a vizinha.", en: "The vase must have fallen in the wind, the neighbour figured." },
+          { es: "O vaso teria caído com o vento, imaginou a vizinha.", en: "The vase must have fallen in the wind, the neighbor figured." },
           { es: "Por que ela teria mentido para nós?", en: "Why would she have lied to us?" },
           { es: "Deve ter sido o gato.", en: "It must have been the cat." },
         ],
@@ -344,7 +344,7 @@ export const PT_C1_U02: Lesson[] = [
       {
         heading: "O ministro teria recebido: reported, not confirmed",
         body: [
-          "Brazilian news uses the conditional for claims the paper hasn't confirmed. \"O ministro teria recebido R$ 2 milhões\" means the minister allegedly received R$2 million. The simple conditional covers present states: \"o cantor estaria internado\" (the singer is reportedly in hospital).",
+          "Brazilian news uses the conditional for claims the paper hasn't confirmed. \"O ministro teria recebido R$ 2 milhões\" means the minister allegedly received R$2 million. The simple conditional covers present states: \"o cantor estaria internado\" (the singer is reportedly in the hospital).",
           "The ending shifts responsibility to a source, and the source usually appears nearby: \"segundo a polícia\", \"de acordo com a denúncia\". English needs a word for this, such as allegedly, reportedly or is said to. Portuguese needs only the verb ending. Render \"teria recebido\" as would have received and the headline turns into nonsense.",
           "Use it only for what you can't vouch for. Once a fact is confirmed, the text switches to the indicative: \"a polícia confirmou que o suspeito fugiu\". In conversation people say \"parece que\" or \"dizem que\" instead.",
         ],
@@ -529,8 +529,8 @@ export const PT_C1_U02: Lesson[] = [
           "The infinitive carries no tense or person, so the main verb supplies both. \"Ao sair, tranquei a porta\" is past, and \"ao sair, tranque a porta\" is an instruction. The infinitive can be passive: \"ao ser informado\" (on being told). \"Antes de\" and \"depois de\", which you already use, work the same way. In conversation \"quando eu saí\" is more natural; in writing \"ao sair\" saves words.",
         ],
         examples: [
-          { es: "Ao chegar ao hotel, percebi que tinha esquecido o carregador.", en: "When I got to the hotel, I realised I'd forgotten my charger." },
-          { es: "Ao ser informado do atraso, o diretor cancelou a reunião.", en: "On being told about the delay, the director cancelled the meeting." },
+          { es: "Ao chegar ao hotel, percebi que tinha esquecido o carregador.", en: "When I got to the hotel, I realized I'd forgotten my charger." },
+          { es: "Ao ser informado do atraso, o diretor cancelou a reunião.", en: "On being told about the delay, the director canceled the meeting." },
           { es: "Ao sair, apague as luzes, por favor.", en: "When you leave, please turn off the lights." },
           { es: "Ao abrir o e-mail, ela levou um susto.", en: "When she opened the email, she got a fright." },
           { es: "Ao assinar o contrato, você aceita todas as cláusulas.", en: "By signing the contract, you accept all the clauses." },
@@ -575,7 +575,7 @@ export const PT_C1_U02: Lesson[] = [
           { es: "Assinei sem ter lido as letras miúdas.", en: "I signed without having read the small print." },
           { es: "Por ser tarde, decidimos pegar um táxi.", en: "Because it was late, we decided to take a taxi." },
           { es: "Ela foi demitida por ter faltado demais.", en: "She was fired for having missed too many days." },
-          { es: "Por não conhecer a cidade, ele se perdeu no centro de Salvador.", en: "Not knowing the city, he got lost in the centre of Salvador." },
+          { es: "Por não conhecer a cidade, ele se perdeu no centro de Salvador.", en: "Not knowing the city, he got lost in the center of Salvador." },
         ],
         checkpoint: [
           {
@@ -612,7 +612,7 @@ export const PT_C1_U02: Lesson[] = [
         examples: [
           { es: "Apesar de ser caro, o curso vale a pena.", en: "Even though it's expensive, the course is worth it." },
           { es: "Apesar de ter estudado muito, ele não passou na prova.", en: "Despite having studied a lot, he didn't pass the exam." },
-          { es: "Apesar de morar em Curitiba há anos, ela ainda não se acostumou com o frio.", en: "Despite having lived in Curitiba for years, she still hasn't got used to the cold." },
+          { es: "Apesar de morar em Curitiba há anos, ela ainda não se acostumou com o frio.", en: "Despite having lived in Curitiba for years, she still hasn't gotten used to the cold." },
           { es: "Comprei o ingresso apesar de não gostar muito da banda.", en: "I bought the ticket even though I don't really like the band." },
         ],
         checkpoint: [
@@ -652,7 +652,7 @@ export const PT_C1_U02: Lesson[] = [
         ],
         examples: [
           { es: "Ao chegarem ao Rio, os turistas foram direto para Copacabana.", en: "When they got to Rio, the tourists went straight to Copacabana." },
-          { es: "Os pais organizaram a festa sem os filhos saberem.", en: "The parents organised the party without the children knowing." },
+          { es: "Os pais organizaram a festa sem os filhos saberem.", en: "The parents organized the party without the children knowing." },
           { es: "Apesar de os preços terem subido, as vendas cresceram.", en: "Even though prices went up, sales grew." },
           { es: "Por serem estrangeiros, eles precisaram apresentar o passaporte.", en: "Because they were foreigners, they had to show their passports." },
           { es: "Antes de o avião decolar, desliguem os celulares.", en: "Before the plane takes off, turn off your phones." },
@@ -802,7 +802,7 @@ export const PT_C1_U02: Lesson[] = [
           { left: "sem avisar", right: "without warning" },
           { left: "por ser tarde", right: "because it was late" },
           { left: "apesar de chover", right: "despite the rain" },
-          { left: "antes de o filme começar", right: "before the film started" },
+          { left: "antes de o filme começar", right: "before the movie started" },
         ],
         explanation: "Each preposition gives the infinitive clause its meaning: time (\"ao\", \"antes de\"), manner (\"sem\"), cause (\"por\"), concession (\"apesar de\").",
       },
@@ -821,7 +821,7 @@ export const PT_C1_U02: Lesson[] = [
         body: [
           "A gerund clause does the job of a full subordinate clause and leaves the exact link to context: \"Chegando ao escritório, liguei para o cliente\" (when I got to the office), \"Sendo feriado, o banco não abre\" (since it's a holiday), \"Saindo agora, você pega o voo\" (if you leave now). Manner is its home ground: \"ele saiu correndo\", \"ela entrou chorando\". English usually builds the manner into the verb (he ran out); Portuguese adds a gerund.",
           "The gerund takes the subject of the main verb. If it has a different subject, that subject follows the gerund: \"Chegando o verão, as praias lotam.\" Without it you get a dangling gerund. \"Saindo do metrô, a chuva me pegou\" makes the rain leave the metro, just as it would in English.",
-          "In formal writing a fronted gerund clause is set off by a comma. Placed at the end, it tends to read as manner or consequence: \"o rio transbordou, alagando o centro\" (flooding the centre). Two frozen gerund clauses work as connectors: \"sendo assim\" (that being so) and \"pensando bem\" (on second thought).",
+          "In formal writing a fronted gerund clause is set off by a comma. Placed at the end, it tends to read as manner or consequence: \"o rio transbordou, alagando o centro\" (flooding the center). Two frozen gerund clauses work as connectors: \"sendo assim\" (that being so) and \"pensando bem\" (on second thought).",
         ],
         examples: [
           { es: "Chegando ao escritório, a Beatriz respondeu ao e-mail do cliente.", en: "When she got to the office, Beatriz answered the client's email." },
@@ -891,9 +891,9 @@ export const PT_C1_U02: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: Not having received the payment, we cancelled the order.",
+            prompt: "Put the words in order to say: Not having received the payment, we canceled the order.",
             words: ["Não", "tendo", "recebido", "o pagamento,", "cancelamos", "o pedido."],
-            translation: "Not having received the payment, we cancelled the order.",
+            translation: "Not having received the payment, we canceled the order.",
             explanation: "\"Não\" goes before \"tendo\", never between \"tendo\" and the participle. The clause gives both the sequence and the reason.",
           },
         ],
@@ -901,7 +901,7 @@ export const PT_C1_U02: Lesson[] = [
       {
         heading: "Gerundismo: vou estar enviando",
         body: [
-          "\"Vou estar enviando o documento\" for I'll send the document is the notorious gerundismo, spread by call-centre scripts calqued on English I'll be sending. Brazilians mock it, and in a work email it reads as padding. For a single future act write \"vou enviar\" or, more formally, \"enviaremos\". The same goes for \"pode estar verificando?\": say \"pode verificar?\".",
+          "\"Vou estar enviando o documento\" for I'll send the document is the notorious gerundismo, widely blamed on call-center scripts translated from English I'll be sending. Brazilians mock it, and in a work email it reads as padding. For a single future act write \"vou enviar\" or, more formally, \"enviaremos\". The same goes for \"pode estar verificando?\": say \"pode verificar?\".",
           "The structure itself is grammatical. \"Vou estar\" + gerund is right for an action in progress at a given future moment: \"amanhã às dez vou estar voando\". To test it, try adding at that moment. If that fits, keep the progressive; if it's one punctual act (send, transfer, check), cut it. In a complaint, \"vamos estar verificando\" also sounds like a promise to keep busy rather than to do anything, which is partly why it irritates.",
         ],
         examples: [
@@ -1012,9 +1012,9 @@ export const PT_C1_U02: Lesson[] = [
       {
         type: "speak",
         text: "Tendo terminado o projeto, saímos de férias.",
-        prompt: "Say it in Portuguese: Having finished the project, we went on holiday.",
-        tip: "Pronounce the -ndo endings fully: TEN-do, not the casual \"teno\".",
-        explanation: "\"Tendo terminado\" closes the project before the holiday starts.",
+        prompt: "Say it in Portuguese: Having finished the project, we went on vacation.",
+        tip: "Pronounce the -ndo ending fully, with a nasal e: TẼN-du, not the casual \"teno\".",
+        explanation: "\"Tendo terminado\" closes the project before the vacation starts.",
       },
       {
         type: "matching",
@@ -1102,13 +1102,13 @@ export const PT_C1_U02: Lesson[] = [
           { es: "Aceita a proposta, as duas empresas assinaram o contrato.", en: "Once the offer was accepted, the two companies signed the contract." },
           { es: "Pagas as dívidas, ele finalmente conseguiu dormir em paz.", en: "With his debts paid off, he could finally sleep in peace." },
           { es: "Entregues os documentos, só resta esperar a resposta do consulado.", en: "Now that the documents are in, all that's left is to wait for the consulate's answer." },
-          { es: "Resolvido o problema da internet, voltamos ao trabalho.", en: "With the internet problem sorted, we went back to work." },
+          { es: "Resolvido o problema da internet, voltamos ao trabalho.", en: "With the internet problem fixed, we went back to work." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "With the sums [done], we realised the trip was cheaper.",
+            en: "With the sums [done], we realized the trip was cheaper.",
             sentence: "___ as contas, percebemos que a viagem era mais barata.",
             answer: "Feitas",
             explanation: "\"Contas\" is feminine plural, so \"feitas\". \"*Feito as contas\" is the frozen-masculine error. With \"ter\" it would be \"tínhamos feito\".",
@@ -1141,9 +1141,9 @@ export const PT_C1_U02: Lesson[] = [
         examples: [
           { es: "Dito isso, vamos passar ao próximo ponto da pauta.", en: "That said, let's move on to the next item on the agenda." },
           { es: "Feito isso, é só clicar em enviar.", en: "Once that's done, just click send." },
-          { es: "Dadas as circunstâncias, o voo foi cancelado.", en: "Given the circumstances, the flight was cancelled." },
+          { es: "Dadas as circunstâncias, o voo foi cancelado.", en: "Given the circumstances, the flight was canceled." },
           { es: "Uma vez aprovada a lei, os bancos terão noventa dias para se adaptar.", en: "Once the law is passed, the banks will have ninety days to adapt." },
-          { es: "Feito o pagamento, o pedido é enviado em até dois dias úteis.", en: "Once payment is made, the order ships within two working days." },
+          { es: "Feito o pagamento, o pedido é enviado em até dois dias úteis.", en: "Once payment is made, the order ships within two business days." },
         ],
         checkpoint: [
           {
@@ -1205,7 +1205,7 @@ export const PT_C1_U02: Lesson[] = [
         en: "With the documents [handed in], all that's left is to wait.",
         sentence: "___ os documentos, só resta esperar.",
         answer: "Entregues",
-        explanation: "\"Entregar\" takes its short participle here, \"entregue\", plural \"entregues\" for both genders. \"*Entregados\" belongs only after \"ter\", and even there Brazilians prefer \"entregue\".",
+        explanation: "\"Entregar\" takes its short participle here, \"entregue\", plural \"entregues\" for both genders. \"Entregado\" is used only after \"ter\" or \"haver\" (\"tinha entregado\"), and even there colloquial Brazilian often says \"tinha entregue\".",
       },
       {
         type: "translate",
@@ -1277,14 +1277,14 @@ export const PT_C1_U02: Lesson[] = [
     level: "PT-C1",
     number: 6,
     title: "Fizera, Dissera: The Simple Pluperfect",
-    summary: "Recognise the one-word literary pluperfect (fizera, dissera, chegara) in novels and the press, and rewrite it as tinha or havia plus the participle.",
+    summary: "Recognize the one-word literary pluperfect (fizera, dissera, chegara) in novels and the press, and rewrite it as tinha or havia plus the participle.",
     duration: "15 min",
     sections: [
       {
         heading: "Fizera: the one-word pluperfect",
         body: [
           "You know the everyday pluperfect, \"tinha feito\" (had done). Portuguese also has a one-word form, the simple mais-que-perfeito: \"fizera\", \"dissera\", \"chegara\". It means the same thing: an action finished before another past moment. No Brazilian says it in conversation any more. You'll meet it in novels, from Machado de Assis to today's fiction, in newspaper features and in formal reports.",
-          "In writing it saves words and helps the rhythm: one word instead of two, and no \"tinha\" after \"tinha\". Many writers mix both forms in the same paragraph. Learn to recognise it at once. When you write in your own voice, choose the compound form unless you want a deliberately literary tone.",
+          "In writing it saves words and helps the rhythm: one word instead of two, and no \"tinha\" after \"tinha\". Many writers mix both forms in the same paragraph. Learn to recognize it at once. When you write in your own voice, choose the compound form unless you want a deliberately literary tone.",
         ],
         examples: [
           { es: "Quando o médico chegou, o paciente já morrera.", en: "When the doctor arrived, the patient had already died." },
@@ -1309,7 +1309,7 @@ export const PT_C1_U02: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "When we arrived, the film [had already started].",
+            en: "When we arrived, the movie [had already started].",
             sentence: "Quando chegamos, o filme ___.",
             answer: "já começara",
             altAnswers: ["já tinha começado", "já havia começado"],
@@ -1371,14 +1371,14 @@ export const PT_C1_U02: Lesson[] = [
       {
         heading: "Reading traps: falara, vira, fora",
         body: [
-          "The stress falls where it falls in the eles form, on the syllable before -ra: fa-LA-ra, dis-SE-ra. The future \"falará\" (will speak) differs only in its final stress and accent, so read and listen carefully. The e is open in \"dissera\" and \"fizera\" and closed in \"comera\", just as in \"fizéramos\" and \"comêramos\".",
+          "The stress falls where it falls in the eles form, on the syllable before -ra: fa-LA-ra, dji-SÉ-ra. The future \"falará\" (will speak) differs only in its final stress and accent, so read and listen carefully. The e is open in \"dissera\" and \"fizera\" and closed in \"comera\", just as in \"fizéramos\" and \"comêramos\".",
           "Some forms look exactly like other words. \"Fora\" means had been or had gone, but also outside. \"Vira\" means had seen, but also turns or became (from \"virar\"). \"Viera\" means had come, from \"vir\", not \"ver\". Three frozen pluperfects survive in speech with no past meaning at all: \"quem dera\", \"tomara\" and \"pudera!\" (no wonder).",
         ],
         examples: [
           { es: "Ele falara com o diretor na véspera.", en: "He had spoken to the director the day before." },
           { es: "Amanhã ele falará com o diretor.", en: "Tomorrow he will speak to the director." },
           { es: "A casa fora de um barão do café.", en: "The house had belonged to a coffee baron." },
-          { es: "Ela reconheceu o homem que vira no ônibus.", en: "She recognised the man she had seen on the bus." },
+          { es: "Ela reconheceu o homem que vira no ônibus.", en: "She recognized the man she had seen on the bus." },
           { es: "Ele está exausto. Pudera: trabalhou doze horas seguidas.", en: "He's exhausted. No wonder: he worked twelve hours straight." },
         ],
         checkpoint: [
@@ -1402,7 +1402,7 @@ export const PT_C1_U02: Lesson[] = [
       {
         heading: "Rewriting it: tinha feito, havia feito",
         body: [
-          "To modernise a simple form, use \"tinha\" + past participle in everyday Portuguese and \"havia\" + participle in formal prose: \"fizera\" becomes \"tinha feito\" or \"havia feito\". The person moves to the auxiliary: \"fizéramos\" becomes \"tínhamos feito\" (or \"a gente tinha feito\").",
+          "To modernize a simple form, use \"tinha\" + past participle in everyday Portuguese and \"havia\" + participle in formal prose: \"fizera\" becomes \"tinha feito\" or \"havia feito\". The person moves to the auxiliary: \"fizéramos\" becomes \"tínhamos feito\" (or \"a gente tinha feito\").",
           "Most mistakes come with the irregular participles: \"dissera\" → \"tinha dito\", \"vira\" → \"tinha visto\", \"viera\" → \"tinha vindo\", \"pusera\" → \"tinha posto\", \"abrira\" → \"tinha aberto\". In Brazilian speech a pronoun goes before the participle: \"ele se esquecera\" → \"ele tinha se esquecido\".",
         ],
         examples: [
@@ -1432,7 +1432,7 @@ export const PT_C1_U02: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The company [had opened] two shops in Recife. (formal writing, with haver)",
+            en: "The company [had opened] two stores in Recife. (formal writing, with haver)",
             sentence: "A empresa ___ duas lojas no Recife.",
             answer: "havia aberto",
             explanation: "Formal prose uses \"havia\" + participle, the written partner of \"tinha aberto\". The participle stays \"aberto\" whatever the object.",
@@ -1523,7 +1523,7 @@ export const PT_C1_U02: Lesson[] = [
       {
         type: "speak",
         text: "Ele dissera que viria.",
-        tip: "Stress dis-SE-ra with an open e, and vi-RI-a on the i.",
+        tip: "Stress dji-SÉ-ra on the open é (the d before i sounds like the j in jeans), and vi-RI-a on the i.",
         explanation: "\"Dissera\" (had said) plus the conditional \"viria\" (would come): typical narrative prose.",
       },
       {
@@ -1567,10 +1567,10 @@ export const PT_C1_U02: Lesson[] = [
         examples: [
           { es: "Quando a reunião terminou, todos foram almoçar.", en: "When the meeting ended, everyone went to lunch." },
           { es: "Terminada a reunião, todos foram almoçar.", en: "Once the meeting was over, everyone went to lunch." },
-          { es: "Quando abriu a porta, ela viu o pacote no chão.", en: "When she opened the door, she saw the parcel on the floor." },
-          { es: "Ao abrir a porta, ela viu o pacote no chão.", en: "On opening the door, she saw the parcel on the floor." },
+          { es: "Quando abriu a porta, ela viu o pacote no chão.", en: "When she opened the door, she saw the package on the floor." },
+          { es: "Ao abrir a porta, ela viu o pacote no chão.", en: "On opening the door, she saw the package on the floor." },
           { es: "Encerradas as inscrições, a lista será publicada no site.", en: "Once registration closes, the list will be published on the website." },
-          { es: "Tendo analisado os dados, a equipe apresentou suas conclusões.", en: "Having analysed the data, the team presented its conclusions." },
+          { es: "Tendo analisado os dados, a equipe apresentou suas conclusões.", en: "Having analyzed the data, the team presented its conclusions." },
         ],
         checkpoint: [
           {
@@ -1585,7 +1585,7 @@ export const PT_C1_U02: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[Once the tests were marked], the teacher released the grades.",
+            en: "[Once the tests were graded], the teacher released the grades.",
             sentence: "___, o professor divulgou as notas.",
             answer: "Corrigidas as provas",
             altAnswers: ["Depois de corrigidas as provas"],
@@ -1612,15 +1612,15 @@ export const PT_C1_U02: Lesson[] = [
           { es: "Quando você chegar à rodoviária, me manda uma mensagem.", en: "When you get to the bus station, send me a message." },
           { es: "Saindo cedo, você evita o trânsito da Marginal.", en: "If you leave early, you avoid the traffic on the Marginal." },
           { es: "Se você sair cedo, evita o trânsito da Marginal.", en: "If you leave early, you avoid the traffic on the Marginal." },
-          { es: "Como estava doente, o Rafael não foi trabalhar.", en: "Since he was ill, Rafael didn't go to work." },
-          { es: "Quando saímos do cinema, começou a chover.", en: "When we came out of the cinema, it started raining." },
+          { es: "Como estava doente, o Rafael não foi trabalhar.", en: "Since he was sick, Rafael didn't go to work." },
+          { es: "Quando saímos do cinema, começou a chover.", en: "When we came out of the movie theater, it started raining." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "When we came out of the cinema, it started raining.",
+            source: "When we came out of the movie theater, it started raining.",
             answer: "Quando saímos do cinema, começou a chover.",
             altAnswers: ["Quando a gente saiu do cinema, começou a chover.", "Começou a chover quando saímos do cinema.", "Quando nós saímos do cinema, começou a chover."],
             explanation: "The main clause has no subject (\"começou a chover\"), so \"saindo do cinema\" would dangle. The full clause names who came out.",
@@ -1629,7 +1629,7 @@ export const PT_C1_U02: Lesson[] = [
             type: "listen-choose",
             audio: "Estando doente, ele não foi trabalhar.",
             question: "What does it mean?",
-            options: ["Because he was ill, he didn't go to work.", "If he's ill, he won't go to work.", "Although he was ill, he went to work.", "While he was ill, he worked from home."],
+            options: ["Because he was sick, he didn't go to work.", "If he's sick, he won't go to work.", "Although he was sick, he went to work.", "While he was sick, he worked from home."],
             correctIndex: 0,
             explanation: "With a past main verb and a state, \"estando doente\" reads as cause: \"como estava doente\".",
           },
@@ -1638,7 +1638,7 @@ export const PT_C1_U02: Lesson[] = [
       {
         heading: "Density and the reader",
         body: [
-          "Reduced clauses compress, which is why reports, news and legal texts favour them: \"concluída a obra, a prefeitura reabrirá a praça\" says in fewer words what a full clause spells out. In conversation the same sentence sounds like a press release. A neighbour would say \"quando terminarem a obra, a praça vai reabrir\".",
+          "Reduced clauses compress, which is why reports, news and legal texts favor them: \"concluída a obra, a prefeitura reabrirá a praça\" says in fewer words what a full clause spells out. In conversation the same sentence sounds like a press release. A neighbor would say \"quando terminarem a obra, a praça vai reabrir\".",
           "Too much compression backfires. Two or three reduced clauses stacked before the main verb leave the reader holding everything in suspense. Good formal writing alternates: one reduced clause to open the sentence, then full clauses with explicit connectors.",
           "A useful test is to read the sentence aloud. If you'd never say it, it belongs in writing. If you lose the thread while reading it, unpack one of the clauses.",
         ],
@@ -1659,7 +1659,7 @@ export const PT_C1_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You're chatting with a neighbour about the square being renovated. Which sentence sounds natural?",
+            question: "You're chatting with a neighbor about the square being renovated. Which sentence sounds natural?",
             options: ["Quando terminarem a obra, a praça vai reabrir.", "Concluída a obra, a praça reabrir-se-á.", "Terminado a obra, a praça vai reabrir.", "Tendo terminado a obra, a praça vai reabrir."],
             correctIndex: 0,
             explanation: "Speech prefers the full clause, here with the impersonal \"terminarem\". The mesóclise belongs to formal writing, \"terminado\" fails to agree with \"obra\", and \"tendo terminado\" wrongly makes the square the one who finished the work.",
@@ -1764,9 +1764,9 @@ export const PT_C1_U02: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Having finished the project, Lucas took a holiday.",
+        prompt: "Put the words in order to say: Having finished the project, Lucas took a vacation.",
         words: ["Tendo", "terminado", "o", "projeto,", "o", "Lucas", "tirou", "férias."],
-        translation: "Having finished the project, Lucas took a holiday.",
+        translation: "Having finished the project, Lucas took a vacation.",
         explanation: "The compound gerund \"tendo terminado\" takes the main clause's subject, Lucas, as the one who finished. It marks the action as completed first.",
       },
     ],
@@ -1917,8 +1917,8 @@ export const PT_C1_U02: Lesson[] = [
       {
         heading: "Gerundismo and the conditional of report",
         body: [
-          "*\"Vou estar enviando o relatório\" is gerundismo, the call-centre future seen earlier in this unit. Write \"vou enviar\", \"envio amanhã\" or, in a formal email, \"enviarei\". \"Vou estar\" + gerund is right only for an action in progress at a future moment: \"amanhã às dez vou estar dando aula\".",
-          "The conditional of report signals a claim that hasn't been confirmed, so it clashes with verbs that confirm. *\"A polícia confirmou que o suspeito teria fugido\" has the police confirming a rumour. Once a fact is established, use the plain perfeito. For an alleged past event the form is compound, \"teria fugido ontem\". *\"Fugiria ontem\" reads as a future seen from the past.",
+          "*\"Vou estar enviando o relatório\" is gerundismo, the call-center future seen earlier in this unit. Write \"vou enviar\", \"envio amanhã\" or, in a formal email, \"enviarei\". \"Vou estar\" + gerund is right only for an action in progress at a future moment: \"amanhã às dez vou estar dando aula\".",
+          "The conditional of report signals a claim that hasn't been confirmed, so it clashes with verbs that confirm. *\"A polícia confirmou que o suspeito teria fugido\" has the police confirming a rumor. Once a fact is established, use the plain perfeito. For an alleged past event the form is compound, \"teria fugido ontem\". *\"Fugiria ontem\" reads as a future seen from the past.",
         ],
         examples: [
           { es: "Vou enviar o relatório amanhã cedo.", en: "I'll send the report first thing tomorrow." },
@@ -2115,7 +2115,7 @@ export const PT_C1_U02: Lesson[] = [
         examples: [
           { es: "Ao receber a notícia, a diretora convocou a equipe.", en: "On receiving the news, the director called the team together." },
           { es: "Terminada a reunião, os gerentes voltaram ao escritório.", en: "Once the meeting was over, the managers went back to the office." },
-          { es: "Feitas as contas, a empresa decidiu adiar a obra.", en: "Once the figures were done, the company decided to postpone the works." },
+          { es: "Feitas as contas, a empresa decidiu adiar a obra.", en: "Once the figures were done, the company decided to postpone the construction." },
           { es: "Tendo assinado o contrato, o inquilino recebeu as chaves.", en: "Having signed the contract, the tenant got the keys." },
           { es: "Ao chegarem os sócios, a apresentação começou.", en: "When the partners arrived, the presentation began." },
         ],
@@ -2143,10 +2143,10 @@ export const PT_C1_U02: Lesson[] = [
             audio: "Feitas as contas, a empresa decidiu adiar a obra.",
             question: "What does it mean?",
             options: [
-              "Once the figures were done, the company decided to postpone the works.",
-              "While doing the figures, the company decided to postpone the works.",
-              "Although the figures were done, the company postponed the works.",
-              "Once the works were done, the company checked the figures.",
+              "Once the figures were done, the company decided to postpone the construction.",
+              "While doing the figures, the company decided to postpone the construction.",
+              "Although the figures were done, the company postponed the construction.",
+              "Once the construction was done, the company checked the figures.",
             ],
             correctIndex: 0,
             explanation: "\"Feitas as contas\" is a participle clause for a finished action: once the figures were done. A gerund (\"fazendo as contas\") would mean while doing them.",
@@ -2165,7 +2165,7 @@ export const PT_C1_U02: Lesson[] = [
           { es: "Por serem caros, os ingressos não esgotaram.", en: "Because they were expensive, the tickets didn't sell out." },
           { es: "Não tendo provas, o juiz arquivou o caso.", en: "Having no evidence, the judge closed the case." },
           { es: "Apesar de ter experiência, ela não foi contratada.", en: "Despite having experience, she wasn't hired." },
-          { es: "Mantendo esse ritmo, terminaremos a obra em março.", en: "If we keep up this pace, we'll finish the works in March." },
+          { es: "Mantendo esse ritmo, terminaremos a obra em março.", en: "If we keep up this pace, we'll finish the construction in March." },
         ],
         checkpoint: [
           {
@@ -2199,13 +2199,13 @@ export const PT_C1_U02: Lesson[] = [
         heading: "A whole paragraph, and when to stop",
         body: [
           "In a real text, compress clause by clause, then reread. Take a wordy report: \"Quando a reunião terminou, o diretor disse que, como as vendas tinham caído, a empresa ia cortar custos. Depois que ele anunciou isso, os funcionários ficaram preocupados.\" Tightened: \"Encerrada a reunião, o diretor afirmou que, por terem caído as vendas, a empresa cortaria custos. Feito o anúncio, os funcionários ficaram apreensivos.\" The register rises too: \"afirmou\" for \"disse\", the conditional for \"ia\", a noun (\"o anúncio\") for \"isso\".",
-          "Run three checks before you stop. Every sentence still needs a finite verb. A gerund or infinitive must share the main subject: \"Saindo do prédio, a chuva começou\" dangles, because the rain didn't leave the building. And two reduced clauses per sentence is the usual ceiling before the prose turns opaque.",
+          "Run three checks before you stop. Every sentence still needs a finite verb. A gerund or infinitive must share the main subject unless it names its own: \"Saindo do prédio, a chuva começou\" dangles, because the rain didn't leave the building. And two reduced clauses per sentence is the usual ceiling before the prose turns opaque.",
         ],
         examples: [
           { es: "Encerrada a reunião, o diretor afirmou que a empresa cortaria custos.", en: "Once the meeting was over, the director stated that the company would cut costs." },
           { es: "Feito o anúncio, os funcionários ficaram apreensivos.", en: "Once the announcement had been made, the staff grew worried." },
           { es: "Ao sair do prédio, percebi que começava a chover.", en: "On leaving the building, I noticed it was starting to rain." },
-          { es: "Tendo analisado os dados, a equipe recomendou mudanças no projeto.", en: "Having analysed the data, the team recommended changes to the project." },
+          { es: "Tendo analisado os dados, a equipe recomendou mudanças no projeto.", en: "Having analyzed the data, the team recommended changes to the project." },
           { es: "Dito isso, passo ao próximo item da pauta.", en: "That said, I'll move on to the next item on the agenda." },
         ],
         checkpoint: [
@@ -2251,7 +2251,7 @@ export const PT_C1_U02: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "On hearing the news, the minister cancelled the trip. (use ao + infinitive)",
+        source: "On hearing the news, the minister canceled the trip. (use ao + infinitive)",
         answer: "Ao ouvir a notícia, o ministro cancelou a viagem.",
         altAnswers: ["Ao saber da notícia, o ministro cancelou a viagem.", "Ao receber a notícia, o ministro cancelou a viagem."],
         explanation: "\"Quando ouviu a notícia\" becomes \"ao ouvir a notícia\". The subject is the same, so the infinitive doesn't inflect.",
@@ -2323,7 +2323,7 @@ export const PT_C1_U02: Lesson[] = [
           "Ao corrigidas as provas, os professores divulgaram as notas.",
         ],
         correctIndex: 0,
-        explanation: "The participle agrees with \"as provas\": \"corrigidas\". The gerund would mean the marking and the release happened at the same time.",
+        explanation: "The participle agrees with \"as provas\": \"corrigidas\". The gerund would mean the grading and the release happened at the same time.",
       },
       {
         type: "listen-choose",
@@ -2368,7 +2368,7 @@ export const PT_C1_U02: Lesson[] = [
           "In the press the conditional keeps the paper's distance from an unconfirmed claim. \"O prefeito teria recebido propina\" means the mayor allegedly took bribes. Translate it with allegedly or reportedly, never with would.",
         ],
         examples: [
-          { es: "Que barulho é esse? Serão os vizinhos de novo.", en: "What's that noise? It must be the neighbours again." },
+          { es: "Que barulho é esse? Serão os vizinhos de novo.", en: "What's that noise? It must be the neighbors again." },
           { es: "Onde estará a Beatriz a essa hora?", en: "Where can Beatriz be at this hour?" },
           { es: "A esta altura, o avião já terá pousado em Recife.", en: "The plane must have landed in Recife by now." },
           { es: "Quando se mudou para Curitiba, ele teria uns quarenta anos.", en: "He must have been about forty when he moved to Curitiba." },
@@ -2389,10 +2389,10 @@ export const PT_C1_U02: Lesson[] = [
             type: "multiple-choice",
             question: "A headline reads: \"Empresário teria desviado R$ 2 milhões da prefeitura\". What does it mean?",
             options: [
-              "A businessman allegedly diverted R$2 million from the city council.",
-              "A businessman would divert R$2 million from the city council.",
-              "A businessman should have diverted R$2 million from the city council.",
-              "A businessman will have diverted R$2 million from the city council.",
+              "A businessman allegedly diverted R$2 million from City Hall.",
+              "A businessman would divert R$2 million from City Hall.",
+              "A businessman should have diverted R$2 million from City Hall.",
+              "A businessman will have diverted R$2 million from City Hall.",
             ],
             correctIndex: 0,
             explanation: "The journalistic \"teria\" + participle reports an unconfirmed claim: allegedly. It is neither a hypothesis nor an obligation.",
@@ -2413,10 +2413,10 @@ export const PT_C1_U02: Lesson[] = [
         body: [
           "Each preposition gives an infinitive clause its meaning. \"Ao\" + infinitive means on or when, \"por\" + infinitive gives a cause, \"sem\" a lack and \"apesar de\" a concession. With its own subject, the infinitive takes the personal ending: \"apesar de os ingressos serem caros\", \"sem os pais saberem\".",
           "A gerund clause compresses cause, time, condition or manner. Its subject should be the subject of the main verb: \"Saindo agora, você pega o último ônibus\". The compound gerund puts one action before another: \"tendo assinado\", \"tendo perdido\".",
-          "Keep this apart from gerundismo. \"Vou estar enviando o arquivo\" copies call-centre English 'will be sending'. Write \"envio\" or \"vou enviar\".",
+          "Keep this apart from gerundismo. \"Vou estar enviando o arquivo\" is blamed on call-center scripts translated from English 'will be sending'. Write \"envio\" or \"vou enviar\".",
         ],
         examples: [
-          { es: "Ao abrir a porta, a Mariana percebeu que alguém tinha entrado.", en: "On opening the door, Mariana realised someone had got in." },
+          { es: "Ao abrir a porta, a Mariana percebeu que alguém tinha entrado.", en: "On opening the door, Mariana realized someone had gotten in." },
           { es: "Por ser feriado, o banco não abriu.", en: "Because it was a holiday, the bank didn't open." },
           { es: "Ele saiu sem se despedir de ninguém.", en: "He left without saying goodbye to anyone." },
           { es: "Apesar de os ingressos serem caros, o show esgotou em uma hora.", en: "Even though the tickets were expensive, the show sold out in an hour." },
@@ -2471,7 +2471,7 @@ export const PT_C1_U02: Lesson[] = [
           "Watch the plural: \"disseram\" and \"fizeram\" look exactly like the perfeito, so only the context tells you it's had said.",
         ],
         examples: [
-          { es: "Encerrada a votação, os vereadores deixaram a câmara.", en: "Once the vote was closed, the councillors left the chamber." },
+          { es: "Encerrada a votação, os vereadores deixaram a câmara.", en: "Once the vote was closed, the council members left the chamber." },
           { es: "Feitas as contas, a viagem saiu mais barata do que o previsto.", en: "Once we'd done the sums, the trip came out cheaper than expected." },
           { es: "Dito isso, passo a palavra para a Beatriz.", en: "That said, I'll hand over to Beatriz." },
           { es: "Quando a ambulância chegou, o homem já morrera.", en: "When the ambulance arrived, the man had already died." },
@@ -2482,7 +2482,7 @@ export const PT_C1_U02: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[Once the tickets were sold], the organisers closed the box office.",
+            en: "[Once the tickets were sold], the organizers closed the box office.",
             sentence: "___ os ingressos, os organizadores fecharam a bilheteria.",
             answer: "Vendidos",
             explanation: "The participle agrees with \"os ingressos\": masculine plural, \"vendidos\". \"*Vendido os ingressos\" breaks the agreement.",
@@ -2619,7 +2619,7 @@ export const PT_C1_U02: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "They sold the house without the neighbours knowing.",
+        source: "They sold the house without the neighbors knowing.",
         answer: "Eles venderam a casa sem os vizinhos saberem.",
         altAnswers: [
           "Venderam a casa sem os vizinhos saberem.",

@@ -464,7 +464,7 @@ export const FR_C2_U26: Lesson[] = [
         heading: "Le numérique: the digital world in French",
         body: [
           "The standard French word for digital is \"numérique\": \"le numérique\" (the digital sector), \"la transition numérique\", \"un appareil photo numérique\", \"l'économie numérique\". \"Digital\" is widely used in marketing (\"une agence digitale\", \"la transformation digitale\"), but purists and official bodies reject it, since \"digital\" in French relates to fingers (\"une empreinte digitale\", a fingerprint). In an exam or a formal text, write \"numérique\".",
-          "Core vocabulary: \"l'intelligence artificielle\" (l'IA, read letter by letter), \"un algorithme\" (no y, unlike English rhythm), \"les données personnelles\", \"le RGPD\" (règlement général sur la protection des données, the EU's GDPR), \"la cybersécurité\", \"un logiciel\" (software), \"une application\" (\"une appli\" in speech), \"le cloud\" or \"l'informatique en nuage\".",
+          "Core vocabulary: \"l'intelligence artificielle\" (l'IA, read letter by letter), \"un algorithme\" (with an i, not the y of \"rythme\"), \"les données personnelles\", \"le RGPD\" (règlement général sur la protection des données, the EU's GDPR), \"la cybersécurité\", \"un logiciel\" (software), \"une application\" (\"une appli\" in speech), \"le cloud\" or \"l'informatique en nuage\".",
           "Social issues: \"la fracture numérique\" (the digital divide, between those who have access and skills and those who don't), \"l'illectronisme\" (digital illiteracy), \"l'obsolescence programmée\" (planned obsolescence, an offence in French law since 2015), \"la souveraineté numérique\", \"l'empreinte environnementale du numérique\".",
         ],
         examples: [
@@ -594,7 +594,7 @@ export const FR_C2_U26: Lesson[] = [
         source: "The algorithm decides which posts you see.",
         answer: "L'algorithme décide quelles publications vous voyez.",
         altAnswers: ["L'algorithme décide des publications que vous voyez.", "L'algorithme décide quelles publications tu vois.", "L'algorithme décide des publications que tu vois.", "L'algorithme choisit les publications que vous voyez.", "L'algorithme choisit les publications que tu vois."],
-        explanation: "\"Un algorithme\" (no h after t); \"une publication\" is the French for a post.",
+        explanation: "\"Un algorithme\" (\"-ithme\", not \"-ythme\" as in \"rythme\"); \"une publication\" is the French for a post.",
       },
       {
         type: "translate",
@@ -1036,7 +1036,7 @@ export const FR_C2_U26: Lesson[] = [
           {
             type: "speak",
             text: "Le doute est le moteur de la science, à condition qu'il soit méthodique.",
-            tip: "Link condition and qu'il smoothly; méthodique has four syllables.",
+            tip: "Link condition and qu'il smoothly; méthodique has three syllables, mé-tho-dique.",
             explanation: "\"À condition que\" + subjunctive (\"soit\").",
           },
         ],
@@ -1430,7 +1430,7 @@ export const FR_C2_U26: Lesson[] = [
             prompt: "Translate the journalist's question into French (formal radio register).",
             source: "Does that mean that skiing is doomed?",
             answer: "Est-ce à dire que le ski est condamné ?",
-            altAnswers: ["Cela veut-il dire que le ski est condamné ?", "Est-ce que cela veut dire que le ski est condamné ?", "Cela signifie-t-il que le ski est condamné ?", "Ça veut dire que le ski est condamné ?"],
+            altAnswers: ["Cela veut-il dire que le ski est condamné ?", "Est-ce que cela veut dire que le ski est condamné ?", "Cela signifie-t-il que le ski est condamné ?"],
             explanation: "\"Est-ce à dire que\" + indicative is the formal way to check an implication.",
           },
           {
@@ -1734,7 +1734,7 @@ export const FR_C2_U26: Lesson[] = [
         prompt: "Translate into French.",
         source: "The blacksmith was short and stocky.",
         answer: "Le forgeron était petit et trapu.",
-        altAnswers: ["Le forgeron était trapu.", "Le forgeron était court et trapu."],
+        altAnswers: ["Le forgeron était trapu."],
         explanation: "\"Trapu\" = stocky, short and broad.",
       },
       {

@@ -759,7 +759,7 @@ export const FR_A1_U07_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "Are you going [to Morocco] or [to Tunisia]?",
+        en: "Are you going to Morocco or [to Tunisia]?",
         sentence: "Tu vas au Maroc ou ___ ?",
         answer: "en Tunisie",
         explanation: "\"Le Maroc\" (masculine) takes \"au\"; \"la Tunisie\" (feminine) takes \"en\".",

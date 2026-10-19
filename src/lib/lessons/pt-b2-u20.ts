@@ -21,7 +21,7 @@ export const PT_B2_U20: Lesson[] = [
         examples: [
           { es: "Ela pediu para eu ligar para ela à noite.", en: "She asked me to call her in the evening." },
           { es: "O síndico disse para a gente não deixar bicicleta no corredor.", en: "The building manager told us not to leave bikes in the corridor." },
-          { es: "O chefe mandou eu refazer o relatório.", en: "The boss told me to redo the report." },
+          { es: "O chefe mandou eu refazer o relatório.", en: "The boss told me to redo the report. (speech)" },
           { es: "O chefe me mandou refazer o relatório.", en: "The boss made me redo the report." },
           { es: "Minha mãe falou para vocês trazerem guarda-chuva.", en: "My mother said you should bring umbrellas." },
         ],
@@ -175,11 +175,13 @@ export const PT_B2_U20: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into Portuguese.",
         source: "My boss told me to send the email today.",
-        answer: "Meu chefe mandou eu mandar o e-mail hoje.",
+        answer: "Meu chefe me mandou enviar o e-mail hoje.",
         altAnswers: [
+          "Meu chefe mandou eu mandar o e-mail hoje.",
+          "Meu chefe mandou que eu enviasse o e-mail hoje.",
+          "Meu chefe me mandou mandar o e-mail hoje.",
           "Meu chefe pediu para eu mandar o e-mail hoje.",
           "Meu chefe pediu que eu mandasse o e-mail hoje.",
-          "Meu chefe me mandou enviar o e-mail hoje.",
           "Meu chefe pediu para eu enviar o e-mail hoje.",
           "Meu chefe pediu que eu enviasse o e-mail hoje.",
           "Meu chefe disse para eu mandar o e-mail hoje.",
@@ -188,7 +190,7 @@ export const PT_B2_U20: Lesson[] = [
           "O meu chefe pediu para eu mandar o e-mail hoje.",
           "Minha chefe pediu para eu mandar o e-mail hoje.",
         ],
-        explanation: "\"Mandou eu mandar\" is natural in speech but repetitive; \"pediu para eu enviar\" or \"pediu que eu enviasse\" sounds better.",
+        explanation: "Careful usage is \"me mandou enviar\" or \"mandou que eu enviasse\". \"Mandou eu mandar\" is spoken and repetitive; \"pediu para eu enviar\" also works.",
       },
       {
         type: "fill-blank",
@@ -200,7 +202,7 @@ export const PT_B2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your neighbour said \"Fecha o portão!\" yesterday. How do you report it?",
+        question: "Your neighbor said \"Fecha o portão!\" yesterday. How do you report it?",
         options: [
           "Ele pediu que eu fechasse o portão.",
           "Ele pediu que eu feche o portão.",
@@ -477,7 +479,7 @@ export const PT_B2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "They promised that if the flight was cancelled, they would refund the money.",
+        source: "They promised that if the flight was canceled, they would refund the money.",
         answer: "Prometeram que, se o voo fosse cancelado, devolveriam o dinheiro.",
         altAnswers: [
           "Eles prometeram que, se o voo fosse cancelado, devolveriam o dinheiro.",
@@ -530,14 +532,14 @@ export const PT_B2_U20: Lesson[] = [
         heading: "Fiz → tinha feito",
         body: [
           "A finished action reported from the past moves one step further back: \"Eu já fiz a reserva\" becomes \"ela disse que já tinha feito a reserva\". The same goes for the perfeito composto: \"tenho trabalhado muito\" becomes \"disse que tinha trabalhado muito\" (or, keeping the ongoing sense, \"que vinha trabalhando muito\").",
-          "In casual speech Brazilians often leave the perfeito alone (\"ela disse que já fez a reserva\"), especially when the order of events is obvious. In writing, the shift to \"tinha\" + participle keeps the time line clean. The formal \"fizera\" appears in literature and some journalism, but you only need to recognise it.",
+          "In casual speech Brazilians often leave the perfeito alone (\"ela disse que já fez a reserva\"), especially when the order of events is obvious. In writing, the shift to \"tinha\" + participle keeps the time line clean. The formal \"fizera\" appears in literature and some journalism, but you only need to recognize it.",
         ],
         examples: [
           { es: "Ela disse que já tinha feito a reserva.", en: "She said she'd already made the reservation." },
           { es: "O técnico disse que tinha trocado a peça.", en: "The technician said he'd replaced the part." },
           { es: "Ele contou que tinha morado dez anos em Manaus.", en: "He said he'd lived in Manaus for ten years." },
           { es: "Ela comentou que vinha dormindo mal.", en: "She mentioned she'd been sleeping badly." },
-          { es: "O vizinho jurou que não tinha visto nada.", en: "The neighbour swore he hadn't seen anything." },
+          { es: "O vizinho jurou que não tinha visto nada.", en: "The neighbor swore he hadn't seen anything." },
         ],
         checkpoint: [
           {
@@ -561,10 +563,10 @@ export const PT_B2_U20: Lesson[] = [
             audio: "O vizinho jurou que não tinha visto nada.",
             question: "What does it mean?",
             options: [
-              "The neighbour swore he hadn't seen anything.",
-              "The neighbour swore he wouldn't see anything.",
-              "The neighbour swore he doesn't see anything.",
-              "The neighbour swore he had seen everything.",
+              "The neighbor swore he hadn't seen anything.",
+              "The neighbor swore he wouldn't see anything.",
+              "The neighbor swore he doesn't see anything.",
+              "The neighbor swore he had seen everything.",
             ],
             correctIndex: 0,
             explanation: "\"Tinha visto\" places the seeing before the swearing: he hadn't seen.",
@@ -762,11 +764,11 @@ export const PT_B2_U20: Lesson[] = [
           "\"Prometer\" and \"ameaçar\" point to the future, so the reported verb usually goes into the conditional or \"ia\" + infinitive: \"prometeu que pagaria\", \"ameaçou que ia chamar a polícia\". The infinitive is just as common: \"prometeu pagar\", \"ameaçou chamar a polícia\".",
         ],
         examples: [
-          { es: "O funcionário alegou que estava doente.", en: "The employee claimed he was ill." },
+          { es: "O funcionário alegou que estava doente.", en: "The employee claimed he was sick." },
           { es: "O diretor admitiu ter errado na escolha.", en: "The director admitted he'd made the wrong choice." },
           { es: "A empresa garantiu que o técnico viria na segunda.", en: "The company assured me the technician would come on Monday." },
           { es: "Minha filha confessou que tinha comido o último brigadeiro.", en: "My daughter confessed she'd eaten the last brigadeiro." },
-          { es: "O vizinho ameaçou chamar a polícia.", en: "The neighbour threatened to call the police." },
+          { es: "O vizinho ameaçou chamar a polícia.", en: "The neighbor threatened to call the police." },
           { es: "Ele prometeu que pagaria tudo até o fim do mês.", en: "He promised he'd pay everything by the end of the month." },
         ],
         checkpoint: [
@@ -1020,7 +1022,7 @@ export const PT_B2_U20: Lesson[] = [
         examples: [
           { es: "Ela perguntou se eu tinha visto o celular dela.", en: "She asked if I'd seen her phone." },
           { es: "Ele perguntou se nós íamos à reunião.", en: "He asked if we were going to the meeting." },
-          { es: "O porteiro perguntou se a encomenda era minha.", en: "The doorman asked if the parcel was mine." },
+          { es: "O porteiro perguntou se a encomenda era minha.", en: "The doorman asked if the package was mine." },
           { es: "Minha mãe perguntou se eu já tinha almoçado.", en: "My mother asked if I'd had lunch yet." },
           { es: "A recepcionista perguntou se eu podia esperar um pouco.", en: "The receptionist asked if I could wait a bit." },
         ],
@@ -1100,7 +1102,7 @@ export const PT_B2_U20: Lesson[] = [
         heading: "Polite and formal questions",
         body: [
           "In emails and formal speech you often report your own question as a polite request for information: \"Gostaria de saber se o pedido já foi enviado\", \"queria saber se ainda há vagas\". These are present-tense frames, so nothing shifts.",
-          "Formal writing and the press also use \"questionar\" and \"indagar\" (to question, to enquire): \"o jornalista questionou o ministro sobre os gastos\", \"a deputada indagou se o contrato tinha sido assinado\". Recognise \"indagar\"; use \"perguntar\" and \"quis saber\" yourself.",
+          "Formal writing and the press also use \"questionar\" and \"indagar\" (to question, to inquire): \"o jornalista questionou o ministro sobre os gastos\", \"a deputada indagou se o contrato tinha sido assinado\". Recognize \"indagar\"; use \"perguntar\" and \"quis saber\" yourself.",
         ],
         examples: [
           { es: "Gostaria de saber se o pedido já foi enviado.", en: "I'd like to know if the order has been sent." },
@@ -1160,7 +1162,7 @@ export const PT_B2_U20: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Report \"O que você fez no fim de semana?\" Write the Portuguese for the bold words.",
-        en: "My colleague wanted to know [what I had done] at the weekend.",
+        en: "My colleague wanted to know [what I had done] on the weekend.",
         sentence: "Meu colega quis saber ___ no fim de semana.",
         answer: "o que eu tinha feito",
         altAnswers: ["o que eu havia feito", "o que eu fiz"],
@@ -1168,7 +1170,7 @@ export const PT_B2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your neighbour asked you yesterday: \"Você vai viajar no feriado?\" How do you report it?",
+        question: "Your neighbor asked you yesterday: \"Você vai viajar no feriado?\" How do you report it?",
         options: [
           "Ela perguntou se eu ia viajar no feriado.",
           "Ela perguntou se eu vá viajar no feriado.",
@@ -1249,19 +1251,19 @@ export const PT_B2_U20: Lesson[] = [
       {
         heading: "Vem aqui → pediu que eu fosse lá",
         body: [
-          "\"Vir\" means to come towards the speaker; \"ir\" means to go somewhere else. When you report from a different place, the direction changes with you. Your aunt says on the phone \"Vem aqui amanhã!\". Telling a friend about it at your place, you say \"ela pediu que eu fosse lá\" or \"ela pediu para eu ir lá\".",
+          "\"Vir\" means to come toward the speaker; \"ir\" means to go somewhere else. When you report from a different place, the direction changes with you. Your aunt says on the phone \"Vem aqui amanhã!\". Telling a friend about it at your place, you say \"ela pediu que eu fosse lá\" or \"ela pediu para eu ir lá\".",
           "English is looser here (I'll come to your party is fine in English, but in Portuguese you say \"eu vou à sua festa\"). Keep \"vir\" only if you're reporting from the same place the original speaker meant: back at your aunt's, \"ela pediu que eu viesse aqui\" is right.",
         ],
         examples: [
           { es: "Minha tia pediu que eu fosse lá no domingo.", en: "My aunt asked me to go over on Sunday." },
-          { es: "O chefe mandou eu ir à sala dele.", en: "The boss told me to go to his office." },
+          { es: "O chefe me mandou ir à sala dele.", en: "The boss told me to go to his office." },
           { es: "Ela disse que não ia poder vir aqui hoje.", en: "She said she wouldn't be able to come here today." },
           { es: "Eles perguntaram se a gente ia à festa.", en: "They asked if we were going to the party." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "At your own flat, you tell a friend what your grandmother said on the phone: \"Vem almoçar aqui no sábado.\" What do you say?",
+            question: "At your own apartment, you tell a friend what your grandmother said on the phone: \"Vem almoçar aqui no sábado.\" What do you say?",
             options: [
               "Minha avó pediu para eu ir almoçar lá no sábado.",
               "Minha avó pediu para eu vir almoçar aqui no sábado.",
@@ -1276,11 +1278,11 @@ export const PT_B2_U20: Lesson[] = [
             direction: "en-es",
             prompt: "Report \"Vem cá!\" Translate into Portuguese.",
             source: "The teacher told me to go over to her.",
-            answer: "A professora mandou eu ir até ela.",
+            answer: "A professora me mandou ir até ela.",
             altAnswers: [
+              "A professora mandou eu ir até ela.",
               "A professora pediu para eu ir até ela.",
               "A professora pediu que eu fosse até ela.",
-              "A professora me mandou ir até ela.",
               "A professora mandou que eu fosse até ela.",
               "A professora disse para eu ir até ela.",
               "A professora me chamou.",
@@ -1292,7 +1294,7 @@ export const PT_B2_U20: Lesson[] = [
       {
         heading: "Traz o livro → pediu que eu levasse o livro",
         body: [
-          "\"Trazer\" and \"levar\" pair up the same way. \"Trazer\" is to bring here, towards the speaker; \"levar\" is to take there. \"Traz o livro amanhã\", said by your teacher at school, is reported at home as \"ela pediu que eu levasse o livro\".",
+          "\"Trazer\" and \"levar\" pair up the same way. \"Trazer\" is to bring here, toward the speaker; \"levar\" is to take there. \"Traz o livro amanhã\", said by your teacher at school, is reported at home as \"ela pediu que eu levasse o livro\".",
           "This is one of the most common mistakes English speakers make, because English bring covers both directions (bring a bottle to the party). In Portuguese you \"leva\" a bottle to a party that isn't at your house: \"vou levar um vinho\". The host says \"traz um vinho\".",
         ],
         examples: [
@@ -1424,7 +1426,7 @@ export const PT_B2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Report \"Esse apartamento é o mais barato.\" Translate into Portuguese.",
-        source: "The estate agent said that apartment was the cheapest.",
+        source: "The real estate agent said that apartment was the cheapest.",
         answer: "O corretor disse que aquele apartamento era o mais barato.",
         altAnswers: [
           "A corretora disse que aquele apartamento era o mais barato.",
@@ -1823,7 +1825,7 @@ export const PT_B2_U20: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "I [asked] the neighbour to turn the music down.",
+            en: "I [asked] the neighbor to turn the music down.",
             sentence: "Eu ___ para o vizinho abaixar o som.",
             answer: "pedi",
             explanation: "A request: \"pedir\", not \"perguntar\".",
@@ -1831,7 +1833,7 @@ export const PT_B2_U20: Lesson[] = [
           {
             type: "speak",
             text: "Solicito que o senhor providencie o conserto.",
-            tip: "\"Providencie\": stress on -den-, pro-vi-DEN-ci-e.",
+            tip: "\"Providencie\": stress on -den-, pro-vi-DÊN-si-i.",
             explanation: "Formal \"solicitar que\" + present subjunctive: the request still stands.",
           },
         ],
@@ -1903,7 +1905,7 @@ export const PT_B2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I asked her what time the shop opened.",
+        source: "I asked her what time the store opened.",
         answer: "Perguntei para ela que horas a loja abria.",
         altAnswers: [
           "Eu perguntei para ela que horas a loja abria.",
@@ -2011,7 +2013,7 @@ export const PT_B2_U20: Lesson[] = [
           "\"*Ele sugeriu que a gente saía\" uses the indicative after a verb of suggestion. \"Sugerir\", \"recomendar\", \"exigir\" and \"pedir\" always take the subjunctive: \"sugeriu que a gente saísse\". With the indicative, it sounds like he hinted that we were going out.",
         ],
         examples: [
-          { es: "Ele perguntou se eu queria carona.", en: "He asked if I wanted a lift." },
+          { es: "Ele perguntou se eu queria carona.", en: "He asked if I wanted a ride." },
           { es: "Ela perguntou se a gente já tinha jantado.", en: "She asked if we'd had dinner yet." },
           { es: "Ele sugeriu que a gente saísse mais cedo.", en: "He suggested we leave earlier." },
           { es: "A médica recomendou que eu dormisse mais.", en: "The doctor recommended I sleep more." },
@@ -2201,7 +2203,7 @@ export const PT_B2_U20: Lesson[] = [
       {
         type: "speak",
         text: "Ele perguntou se eu queria carona.",
-        prompt: "Say it in Portuguese: He asked if I wanted a lift.",
+        prompt: "Say it in Portuguese: He asked if I wanted a ride.",
         tip: "\"Carona\": the o is closed and slightly nasal before n, ca-RÔ-na, with a soft tapped r.",
         explanation: "\"Perguntou se\" + imperfeito \"queria\".",
       },
@@ -2223,10 +2225,10 @@ export const PT_B2_U20: Lesson[] = [
           "Last Friday Lucas sent you a voice message about the weekend. On Monday you tell another friend what he said. Every line needs a decision: statement, question or request? Which tenses move? Which words follow your new point of view?",
         ],
         examples: [
-          { es: "\"Oi, cara! Tô saindo agora do trabalho.\" → Ele disse que estava saindo do trabalho naquela hora.", en: "\"Hey, mate! I'm leaving work now.\" → He said he was leaving work at that moment." },
-          { es: "\"Você vem no churrasco amanhã?\" → Ele perguntou se eu ia no churrasco no dia seguinte.", en: "\"Are you coming to the barbecue tomorrow?\" → He asked if I was going to the barbecue the next day." },
-          { es: "\"Traz o carvão, por favor.\" → Ele pediu que eu levasse o carvão.", en: "\"Bring the charcoal, please.\" → He asked me to bring the charcoal." },
-          { es: "\"Se chover, a gente faz lá em casa.\" → Ele disse que, se chovesse, a gente faria na casa dele.", en: "\"If it rains, we'll do it at my place.\" → He said that if it rained, we'd do it at his place." },
+          { es: "\"Oi, cara! Tô saindo agora do trabalho.\" Ele disse que estava saindo do trabalho naquela hora.", en: "\"Hey, man! I'm leaving work now.\" → He said he was leaving work at that moment." },
+          { es: "\"Você vem no churrasco amanhã?\" Ele perguntou se eu ia ao churrasco no dia seguinte.", en: "\"Are you coming to the barbecue tomorrow?\" → He asked if I was going to the barbecue the next day." },
+          { es: "\"Traz o carvão, por favor.\" Ele pediu que eu levasse o carvão.", en: "\"Bring the charcoal, please.\" → He asked me to bring the charcoal." },
+          { es: "\"Se chover, a gente faz lá em casa.\" Ele disse que, se chovesse, a gente faria na casa dele.", en: "\"If it rains, we'll do it at my place.\" → He said that if it rained, we'd do it at his place." },
         ],
         checkpoint: [
           {
@@ -2257,13 +2259,13 @@ export const PT_B2_U20: Lesson[] = [
       {
         heading: "A company's press statement",
         body: [
-          "Now a formal text. After a data leak, an online shop published a statement. A news report retells it with stance verbs and the written norm: \"tinha\" + participle, the conditional, \"que\" + subjunctive and no colloquial shortcuts.",
+          "Now a formal text. After a data leak, an online store published a statement. A news report retells it with stance verbs and the written norm: \"tinha\" + participle, the conditional, \"que\" + subjunctive and no colloquial shortcuts.",
         ],
         examples: [
-          { es: "\"Nenhum dado bancário foi acessado.\" → A empresa garantiu que nenhum dado bancário tinha sido acessado.", en: "\"No bank details were accessed.\" → The company assured that no bank details had been accessed." },
-          { es: "\"Lamentamos o ocorrido.\" → A loja afirmou que lamentava o ocorrido.", en: "\"We regret what happened.\" → The shop said it regretted what had happened." },
-          { es: "\"Os clientes devem trocar suas senhas.\" → A empresa recomendou que os clientes trocassem suas senhas.", en: "\"Customers should change their passwords.\" → The company recommended that customers change their passwords." },
-          { es: "\"Vamos reforçar a segurança.\" → A loja prometeu que reforçaria a segurança.", en: "\"We will strengthen security.\" → The shop promised it would strengthen security." },
+          { es: "\"Nenhum dado bancário foi acessado.\" A empresa garantiu que nenhum dado bancário tinha sido acessado.", en: "\"No bank details were accessed.\" → The company assured that no bank details had been accessed." },
+          { es: "\"Lamentamos o ocorrido.\" A loja afirmou que lamentava o ocorrido.", en: "\"We regret what happened.\" → The store said it regretted what had happened." },
+          { es: "\"Os clientes devem trocar suas senhas.\" A empresa recomendou que os clientes trocassem suas senhas.", en: "\"Customers should change their passwords.\" → The company recommended that customers change their passwords." },
+          { es: "\"Vamos reforçar a segurança.\" A loja prometeu que reforçaria a segurança.", en: "\"We will strengthen security.\" → The store promised it would strengthen security." },
         ],
         checkpoint: [
           {
@@ -2303,15 +2305,15 @@ export const PT_B2_U20: Lesson[] = [
           "The last step is style. Replace a string of \"disse que\" with verbs that carry the stance of each line: \"afirmou\", \"garantiu\", \"admitiu\", \"negou\", \"prometeu\", \"recomendou\", \"pediu\". The grammar of each verb decides the mood after it.",
         ],
         examples: [
-          { es: "\"Erramos na comunicação.\" → A empresa admitiu que tinha errado na comunicação.", en: "\"We got the communication wrong.\" → The company admitted it had got the communication wrong." },
-          { es: "\"Por favor, desconfiem de e-mails estranhos.\" → A loja pediu que os clientes desconfiassem de e-mails estranhos.", en: "\"Please be wary of strange emails.\" → The shop asked customers to be wary of strange emails." },
-          { es: "\"Quem tiver dúvidas pode ligar para a central.\" → A loja informou que quem tivesse dúvidas podia ligar para a central.", en: "\"Anyone with questions can call the helpline.\" → The shop said anyone with questions could call the helpline." },
+          { es: "\"Erramos na comunicação.\" A empresa admitiu que tinha errado na comunicação.", en: "\"We got the communication wrong.\" → The company admitted it had gotten the communication wrong." },
+          { es: "\"Por favor, desconfiem de e-mails estranhos.\" A loja pediu que os clientes desconfiassem de e-mails estranhos.", en: "\"Please be wary of strange emails.\" → The store asked customers to be wary of strange emails." },
+          { es: "\"Quem tiver dúvidas pode ligar para a central.\" A loja informou que quem tivesse dúvidas podia ligar para a central.", en: "\"Anyone with questions can call the helpline.\" → The store said anyone with questions could call the helpline." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
             prompt: "Report \"Quem tiver dúvidas pode ligar para a central.\" Write the Portuguese for the bold words.",
-            en: "The shop said anyone who [had] questions could call the helpline.",
+            en: "The store said anyone who [had] questions could call the helpline.",
             sentence: "A loja informou que quem ___ dúvidas podia ligar para a central.",
             answer: "tivesse",
             explanation: "\"Tiver\" → \"tivesse\", \"pode\" → \"podia\".",
@@ -2378,7 +2380,7 @@ export const PT_B2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Report \"Os pedidos serão entregues até sexta.\" Translate into Portuguese.",
-        source: "The shop promised the orders would be delivered by Friday.",
+        source: "The store promised the orders would be delivered by Friday.",
         answer: "A loja prometeu que os pedidos seriam entregues até sexta.",
         altAnswers: [
           "A loja prometeu que os pedidos seriam entregues até sexta-feira.",
@@ -2427,20 +2429,20 @@ export const PT_B2_U20: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The shop said it regretted what had happened.",
+        prompt: "Put the words in order to say: The store said it regretted what had happened.",
         words: ["A loja", "afirmou", "que", "lamentava", "o ocorrido."],
-        translation: "The shop said it regretted what had happened.",
+        translation: "The store said it regretted what had happened.",
         explanation: "\"Lamentamos\" → \"lamentava\"; the company is singular.",
       },
       {
         type: "dictation",
-        audio: "Ele perguntou se eu ia no churrasco.",
-        explanation: "\"Você vem?\" reported from elsewhere: \"se eu ia\". Speech often uses \"ir em\".",
+        audio: "Ele perguntou se eu ia ao churrasco.",
+        explanation: "\"Você vem?\" reported from elsewhere: \"se eu ia\". Careful usage is \"ir a\"; speech often says \"ia no churrasco\".",
       },
       {
         type: "speak",
         text: "A loja prometeu que reforçaria a segurança.",
-        prompt: "Say it in Portuguese: The shop promised it would strengthen security.",
+        prompt: "Say it in Portuguese: The store promised it would strengthen security.",
         tip: "\"Reforçaria\": stress on the i, re-for-ssa-RI-a.",
         explanation: "\"Vamos reforçar\" → \"reforçaria\".",
       },
@@ -2451,7 +2453,7 @@ export const PT_B2_U20: Lesson[] = [
     level: "PT-B2",
     number: 11,
     title: "Real-World Mission: Who Said What",
-    summary: "Summarise a tense neighbours' meeting for someone who missed it, with stance verbs, reported questions and reported commands.",
+    summary: "Summarize a tense neighbors' meeting for someone who missed it, with stance verbs, reported questions and reported commands.",
     duration: "15 min",
     kind: "reinforce",
     format: "Real-World Mission",
@@ -2459,7 +2461,7 @@ export const PT_B2_U20: Lesson[] = [
       {
         heading: "The meeting",
         body: [
-          "Last night the residents of a building in Belo Horizonte held an assembleia. Your neighbour Dona Marta couldn't come and has asked you on WhatsApp what happened. First, the key lines from the meeting, said by the síndico Seu Antônio, Dona Lúcia from flat 302, and Rafael, a new resident.",
+          "Last night the residents of a building in Belo Horizonte held an assembleia. Your neighbor Dona Marta couldn't come and has asked you on WhatsApp what happened. First, the key lines from the meeting, said by the síndico Seu Antônio, Dona Lúcia from apartment 302, and Rafael, a new resident.",
         ],
         examples: [
           { es: "Seu Antônio: A taxa do condomínio vai aumentar dez por cento.", en: "Seu Antônio: The building fee is going up ten per cent." },
@@ -2688,9 +2690,9 @@ export const PT_B2_U20: Lesson[] = [
       {
         type: "speak",
         text: "Dona Marta, a senhora não sabe o que aconteceu na assembleia!",
-        prompt: "Say it in Portuguese: Dona Marta, you won't believe what happened at the meeting! (politely, to an older neighbour)",
+        prompt: "Say it in Portuguese: Dona Marta, you won't believe what happened at the meeting! (politely, to an older neighbor)",
         tip: "\"Assembleia\": no accent in current spelling, as-sem-BLEI-a.",
-        explanation: "\"A senhora\" is the polite you for an older neighbour.",
+        explanation: "\"A senhora\" is the polite you for an older neighbor.",
       },
     ],
   },
@@ -2899,7 +2901,7 @@ export const PT_B2_U20: Lesson[] = [
 
 export const PT_B2_U20_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A colleague was off sick and missed a tense team meeting yesterday. Write them an email summarising who said what: what was announced, the questions people asked, who claimed, admitted or denied something, what was suggested or demanded, and what your manager promised to do and asked everyone to do.",
+  prompt: "A colleague was off sick and missed a tense team meeting yesterday. Write them an email summarizing who said what: what was announced, the questions people asked, who claimed, admitted or denied something, what was suggested or demanded, and what your manager promised to do and asked everyone to do.",
   minWords: 140,
   maxWords: 210,
   rubric: [

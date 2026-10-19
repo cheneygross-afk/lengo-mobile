@@ -15,14 +15,14 @@ export const PT_C2_U05: Lesson[] = [
       {
         heading: "Verbs that say something else",
         body: [
-          "These look-alikes survive into C2 because they produce grammatical sentences that simply mean something else. \"Pretender\" is to intend or plan: \"pretendo sair cedo\" means I'm planning to leave early. To pretend is \"fingir\". \"Realizar\" is to carry out, hold or fulfil (\"realizar uma pesquisa\", \"realizar um sonho\"). To realise, in the sense of noticing, is \"perceber\" or \"se dar conta de\", and in speech \"cair a ficha\" (\"aí caiu a ficha\": then it sank in).",
-          "Attend splits three ways. \"Atender\" is what a shop assistant, a doctor or someone picking up a ringing phone does: serve, see, answer. \"Assistir a\" is to watch or sit in on (\"assistir a uma palestra\"), with its preposition in the norm. To attend a meeting as a participant is \"participar de\" or \"comparecer a\", and to attend a school is \"frequentar\". To assist someone is \"ajudar\" or \"auxiliar\".",
+          "These look-alikes survive into C2 because they produce grammatical sentences that simply mean something else. \"Pretender\" is to intend or plan: \"pretendo sair cedo\" means I'm planning to leave early. To pretend is \"fingir\". \"Realizar\" is to carry out, hold or fulfill (\"realizar uma pesquisa\", \"realizar um sonho\"). To realize, in the sense of noticing, is \"perceber\" or \"se dar conta de\", and in speech \"cair a ficha\" (\"aí caiu a ficha\": then it sank in).",
+          "Attend splits three ways. \"Atender\" is what a salesclerk, a doctor or someone picking up a ringing phone does: serve, see, answer. \"Assistir a\" is to watch or sit in on (\"assistir a uma palestra\"), with its preposition in the norm. To attend a meeting as a participant is \"participar de\" or \"comparecer a\", and to attend a school is \"frequentar\". To assist someone is \"ajudar\" or \"auxiliar\".",
           "\"Puxar\" is to pull, and push is \"empurrar\": door signs catch visitors out every day. \"Suportar\" is to bear or stand (\"não suporto calor\"). To support a person or a cause is \"apoiar\".",
         ],
         examples: [
           { es: "Pretendo me mudar para Recife no ano que vem.", en: "I intend to move to Recife next year." },
           { es: "A prefeitura vai realizar o festival em março.", en: "The city is going to hold the festival in March." },
-          { es: "Só percebi o erro depois de enviar o e-mail.", en: "I only realised the mistake after sending the email." },
+          { es: "Só percebi o erro depois de enviar o e-mail.", en: "I only realized the mistake after sending the email." },
           { es: "A recepcionista já vai atender o senhor.", en: "The receptionist will be with you shortly, sir." },
           { es: "Não vou poder participar da reunião de sexta.", en: "I won't be able to attend Friday's meeting." },
         ],
@@ -38,7 +38,7 @@ export const PT_C2_U05: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You want to tell a colleague: I only realised the problem on Monday. Which sentence says that?",
+            question: "You want to tell a colleague: I only realized the problem on Monday. Which sentence says that?",
             options: ["Só percebi o problema na segunda.", "Só realizei o problema na segunda.", "Só atendi o problema na segunda.", "Só suportei o problema na segunda."],
             correctIndex: 0,
             explanation: "Noticing is \"perceber\" (or \"me dei conta do problema\"). \"Realizar\" means to carry out, so \"realizei o problema\" makes no sense.",
@@ -106,10 +106,10 @@ export const PT_C2_U05: Lesson[] = [
         ],
         examples: [
           { es: "Vou passar o Natal com os parentes da minha mulher em Curitiba.", en: "I'm spending Christmas with my wife's relatives in Curitiba." },
-          { es: "Comprei o livro numa livraria e devolvi o outro na biblioteca.", en: "I bought the book at a bookshop and returned the other one to the library." },
+          { es: "Comprei o livro numa livraria e devolvi o outro na biblioteca.", en: "I bought the book at a bookstore and returned the other one to the library." },
           { es: "Que fantasia você vai usar no Carnaval?", en: "What costume are you wearing for Carnival?" },
           { es: "Depois de duas horas de negociação, chegamos a um meio-termo.", en: "After two hours of negotiation, we reached a compromise." },
-          { es: "A enchente deu um prejuízo enorme aos comerciantes.", en: "The flood caused huge losses for shop owners." },
+          { es: "A enchente deu um prejuízo enorme aos comerciantes.", en: "The flood caused huge losses for store owners." },
         ],
         checkpoint: [
           {
@@ -170,7 +170,7 @@ export const PT_C2_U05: Lesson[] = [
             sentence: "O goleiro está fora por causa de uma ___ no ombro.",
             answer: "lesão",
             altAnswers: ["contusão"],
-            explanation: "A physical injury is a \"lesão\", or a \"contusão\" in sports reporting. \"Injúria\" is a verbal offence against someone's honour.",
+            explanation: "A physical injury is a \"lesão\", or a \"contusão\" in sports reporting. \"Injúria\" is a verbal offense against someone's honor.",
           },
         ],
       },
@@ -210,7 +210,7 @@ export const PT_C2_U05: Lesson[] = [
         sentence: "A empresa ___ uma pesquisa com os clientes.",
         answer: "realizou",
         altAnswers: ["fez"],
-        explanation: "This is the true meaning of \"realizar\": to carry out or hold. Realise in the sense of notice would be \"perceber\".",
+        explanation: "This is the true meaning of \"realizar\": to carry out or hold. Realize in the sense of notice would be \"perceber\".",
       },
       {
         type: "translate",
@@ -240,7 +240,7 @@ export const PT_C2_U05: Lesson[] = [
         instructions: "Match the Portuguese to the English.",
         pairs: [
           { left: "parentes", right: "relatives" },
-          { left: "livraria", right: "bookshop" },
+          { left: "livraria", right: "bookstore" },
           { left: "fantasia", right: "costume" },
           { left: "preconceito", right: "prejudice" },
           { left: "imposto", right: "tax" },
@@ -251,7 +251,7 @@ export const PT_C2_U05: Lesson[] = [
       {
         type: "dictation",
         audio: "Atualmente ele trabalha numa livraria em Recife.",
-        explanation: "\"Atualmente\" is currently and \"livraria\" is a bookshop: two false friends in one sentence. \"Numa\" is em + uma.",
+        explanation: "\"Atualmente\" is currently and \"livraria\" is a bookstore: two false friends in one sentence. \"Numa\" is em + uma.",
       },
       {
         type: "speak",
@@ -284,7 +284,7 @@ export const PT_C2_U05: Lesson[] = [
         body: [
           "When English -ing works as a noun (Smoking kills, I hate waiting), Portuguese uses the infinitive, never the gerúndio: \"Fumar mata\", \"Odeio esperar\". The same rule holds after every preposition: \"antes de sair\", \"sem pensar\", \"em vez de reclamar\", \"depois de comer\". \"Antes de saindo\" is the classic calque, and it is simply ungrammatical.",
           "Where English uses an -ing noun, Portuguese often has a real noun, and it reads better in titles and formal prose. The opening of the exhibition is \"a abertura da exposição\", the booking is \"a reserva\", the building is \"o prédio\", the shopping is \"as compras\". Look for the noun before you put an article on an infinitive; \"o abrir da exposição\" is literary at best.",
-          "Means is the one place where -ing and the gerúndio meet: You learn by practising is \"A gente aprende praticando\". On arriving, meaning at the moment of arriving, is \"ao chegar\", the reduced clause from C1. After verbs of perception both forms work: I saw her leaving is \"Eu a vi saindo\" or \"Eu a vi sair\" (in speech, \"vi ela saindo\").",
+          "Means is the one place where -ing and the gerúndio meet: You learn by practicing is \"A gente aprende praticando\". On arriving, meaning at the moment of arriving, is \"ao chegar\", the reduced clause from C1. After verbs of perception both forms work: I saw her leaving is \"Eu a vi saindo\" or \"Eu a vi sair\" (in speech, \"vi ela saindo\").",
         ],
         examples: [
           { es: "Fumar faz mal à saúde.", en: "Smoking is bad for your health." },
@@ -292,7 +292,7 @@ export const PT_C2_U05: Lesson[] = [
           { es: "Ela saiu sem se despedir.", en: "She left without saying goodbye." },
           { es: "Em vez de reclamar, ele resolveu o problema.", en: "Instead of complaining, he solved the problem." },
           { es: "A abertura da exposição será no sábado.", en: "The opening of the exhibition is on Saturday." },
-          { es: "Só se aprende uma língua praticando.", en: "You only learn a language by practising." },
+          { es: "Só se aprende uma língua praticando.", en: "You only learn a language by practicing." },
         ],
         checkpoint: [
           {
@@ -326,7 +326,7 @@ export const PT_C2_U05: Lesson[] = [
         heading: "-ing as a description, and the gerundismo trap",
         body: [
           "An -ing that describes a noun usually becomes a relative clause or an adjective: people living abroad, \"pessoas que moram no exterior\"; a growing problem, \"um problema crescente\"; a tiring day, \"um dia cansativo\". A few gerunds after nouns are idiomatic (\"água fervendo\"), but \"uma carta contendo informações\" reads as translated prose; \"uma carta com informações\" or \"uma carta que contém informações\" is better.",
-          "English continuous forms often aren't continuous in Portuguese. I've been working here for two years is \"Trabalho aqui há dois anos\". We'll be sending you the contract is \"Vamos enviar o contrato\" or \"Enviaremos o contrato\". The call-centre gerundismo \"vamos estar enviando\" is a calque that Brazilians openly mock, and it costs you credibility in professional writing.",
+          "English continuous forms often aren't continuous in Portuguese. I've been working here for two years is \"Trabalho aqui há dois anos\". We'll be sending you the contract is \"Vamos enviar o contrato\" or \"Enviaremos o contrato\". The call-center gerundismo \"vamos estar enviando\" is a calque that Brazilians openly mock, and it costs you credibility in professional writing.",
           "Having done something becomes a connector or a reduced participle clause: \"Depois de terminar o relatório, ela saiu\" or \"Terminado o relatório, ela saiu\". \"Tendo terminado o relatório\" is correct but sounds stiff outside formal prose.",
         ],
         examples: [
@@ -459,7 +459,7 @@ export const PT_C2_U05: Lesson[] = [
         question: "A client asks when the contract will arrive. Which reply sounds natural and professional?",
         options: ["Vamos enviar o contrato hoje à tarde.", "Vamos estar enviando o contrato hoje à tarde.", "Vamos enviando o contrato hoje à tarde.", "Estaremos enviar o contrato hoje à tarde."],
         correctIndex: 0,
-        explanation: "A plain future (\"vamos enviar\") is right. \"Vamos estar enviando\" is the gerundismo calqued from 'we'll be sending', and it sounds like a call-centre script.",
+        explanation: "A plain future (\"vamos enviar\") is right. \"Vamos estar enviando\" is the gerundismo calqued from 'we'll be sending', and it sounds like a call-center script.",
       },
       {
         type: "word-order",
@@ -502,7 +502,7 @@ export const PT_C2_U05: Lesson[] = [
       {
         type: "speak",
         text: "A gente aprende praticando.",
-        prompt: "Say it in Portuguese: We learn by practising.",
+        prompt: "Say it in Portuguese: We learn by practicing.",
         tip: "In \"gente\" the g is soft like the s in measure, and the final -te sounds like 'tchi'.",
         explanation: "By + -ing for means is the one case where the English -ing matches the gerúndio: \"praticando\".",
       },
@@ -521,7 +521,7 @@ export const PT_C2_U05: Lesson[] = [
         body: [
           "English stacks nouns in front of a head noun and leaves the reader to work out the links. Portuguese puts the head first and spells every link out, so read the English backwards. A 'customer service team leader' is a leader of a team that serves customers: \"líder da equipe de atendimento ao cliente\".",
           "The prepositions carry the meaning, and putting \"de\" everywhere is the classic calque. Bare \"de\" names a type (\"equipe de vendas\"). \"Do\" or \"da\" points to a specific owner (\"o prazo de entrega do relatório\"). Many nouns also take a fixed preposition, often the one their verb takes: \"resistência a antibióticos\" (resistir a), \"acesso à internet\", \"atendimento ao cliente\". Write \"resistência de antibióticos\" and the antibiotics become the ones resisting.",
-          "Before choosing, check what each English word modifies. An adjective that describes the head can sit right after it, before the de-phrase: \"gerente regional de vendas\". When the noun block is a fixed term, the adjective goes after the whole block: \"engenheiro de software sênior\", never \"engenheiro sênior de software\" in a job ad.",
+          "Before choosing, check what each English word modifies. An adjective that describes the head can sit right after it, before the de-phrase: \"gerente regional de vendas\". When the noun block is a fixed term, the adjective goes after the whole block: \"engenheiro de software sênior\", rather than \"engenheiro sênior de software\".",
         ],
         examples: [
           { es: "Ela é líder da equipe de atendimento ao cliente.", en: "She's the customer service team leader." },
@@ -589,7 +589,7 @@ export const PT_C2_U05: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Economists criticised the federal government budget cuts.",
+            source: "Economists criticized the federal government budget cuts.",
             answer: "Os economistas criticaram os cortes no orçamento do governo federal.",
             altAnswers: [
               "Economistas criticaram os cortes no orçamento do governo federal.",
@@ -629,7 +629,7 @@ export const PT_C2_U05: Lesson[] = [
         examples: [
           { es: "Espera-se que a obra termine em junho.", en: "The work is expected to finish in June." },
           { es: "Acredita-se que o quadro é do século XVIII.", en: "The painting is believed to date from the 18th century." },
-          { es: "Me disseram que a reunião tinha sido cancelada.", en: "I was told the meeting had been cancelled." },
+          { es: "Me disseram que a reunião tinha sido cancelada.", en: "I was told the meeting had been canceled." },
           { es: "Ela recebeu um prêmio pelo conjunto da obra.", en: "She was given a lifetime achievement award." },
           { es: "O projeto de lei foi aprovado pelo Senado ontem.", en: "The bill was passed by the Senate yesterday." },
           { es: "Estão consertando as estradas da região.", en: "The roads in the area are being repaired." },
@@ -694,7 +694,7 @@ export const PT_C2_U05: Lesson[] = [
         source: "English is spoken here.",
         answer: "Fala-se inglês aqui.",
         altAnswers: ["Aqui se fala inglês.", "Falamos inglês aqui.", "Aqui falamos inglês.", "Fala-se inglês."],
-        explanation: "The impersonal \"se\" is the natural shop-window form, as in \"aluga-se\". \"Inglês é falado aqui\" is grammatical but sounds translated.",
+        explanation: "The impersonal \"se\" is the natural store-window form, as in \"aluga-se\". \"Inglês é falado aqui\" is grammatical but sounds translated.",
       },
       {
         type: "translate",
@@ -798,14 +798,14 @@ export const PT_C2_U05: Lesson[] = [
     slug: "c2-localisation",
     level: "PT-C2",
     number: 4,
-    title: "Localisation",
-    summary: "Adapt tone, units, formats, cultural references, humour and politeness so an English text reads as if it had been written in Brazil.",
+    title: "Localization",
+    summary: "Adapt tone, units, formats, cultural references, humor and politeness so an English text reads as if it had been written in Brazil.",
     duration: "15 min",
     sections: [
       {
         heading: "Tone and address: who is the text talking to?",
         body: [
-          "A localised text should read as if it had been written in Brazil. Start with address. Brazilian brands, apps and even banks speak to customers as \"você\", in a warm, conversational voice. \"O senhor\" / \"a senhora\" belongs to face-to-face service and formal letters, and in an app it sounds stiff. Pick one form of address and keep it on every screen: switching from screen to screen is a classic sign of rushed localisation.",
+          "A localized text should read as if it had been written in Brazil. Start with address. Brazilian brands, apps and even banks speak to customers as \"você\", in a warm, conversational voice. \"O senhor\" / \"a senhora\" belongs to face-to-face service and formal letters, and in an app it sounds stiff. Pick one form of address and keep it on every screen: switching from screen to screen is a classic sign of rushed localization.",
           "English corporate enthusiasm doesn't travel literally. \"Estamos animados em anunciar\" for we're excited to announce reads as a calque. Brazilian copy says \"temos uma novidade\" or \"é com alegria que anunciamos\". Brazilian consumer brands also allow more intimacy than British English. Exclamation marks, \"a gente\" and even a diminutive (\"um descontinho\") are normal in a delivery app, but not in a bank's terms and conditions.",
         ],
         examples: [
@@ -827,7 +827,7 @@ export const PT_C2_U05: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You're localising push notifications for a food delivery app. Which one sounds as if it were written in Brazil?",
+            question: "You're localizing push notifications for a food delivery app. Which one sounds as if it were written in Brazil?",
             options: ["Seu pedido está a caminho!", "O pedido do senhor está a caminho.", "Estamos animados em informar que seu pedido foi despachado.", "Prezado usuário, seu pedido encontra-se em trânsito."],
             correctIndex: 0,
             explanation: "Short, warm and addressed to \"você\". \"O senhor\" is too stiff for an app, \"estamos animados em informar\" is a calque, and \"encontra-se em trânsito\" is the language of official letters.",
@@ -837,14 +837,14 @@ export const PT_C2_U05: Lesson[] = [
       {
         heading: "Numbers, units and formats",
         body: [
-          "Brazil uses metric units and Celsius. Convert, then round the way a Brazilian writer would: about five miles is \"uns oito quilômetros\", not \"8,05 km\". Dates run day-month-year, so \"03/04\" is 3 April, which a US text would write as 04/03. Written times use the 24-hour clock (\"às 19h\", \"das 9h às 18h\"). The decimal comma and the thousands point swap places: \"R$ 1.299,90\", \"2,5 kg\".",
-          "Money needs more than a currency swap. Brazilian prices typically end in \",90\" rather than .99, and retail runs on payment options: \"Pix\", \"boleto\" and \"parcelado em 10x sem juros\", the instalment plan Brazilian shoppers expect. Addresses need a \"CEP\", and Brazilian forms ask for a \"CPF\" where a US form asks for a Social Security number.",
+          "Brazil uses metric units and Celsius. Convert, then round the way a Brazilian writer would: about five miles is \"uns oito quilômetros\", not \"8,05 km\". Dates run day-month-year, so \"03/04\" is April 3, which a US text would write as 04/03. Written times use the 24-hour clock (\"às 19h\", \"das 9h às 18h\"). The decimal comma and the thousands point swap places: \"R$ 1.299,90\", \"2,5 kg\".",
+          "Money needs more than a currency swap. Brazilian prices typically end in \",90\" rather than .99, and retail runs on payment options: \"Pix\", \"boleto\" and \"parcelado em 10x sem juros\", the installment plan Brazilian shoppers expect. Addresses need a \"CEP\", and Brazilian forms ask for a \"CPF\" where a US form asks for a Social Security number.",
         ],
         examples: [
           { es: "A trilha tem uns oito quilômetros.", en: "The trail is about five miles long." },
           { es: "Amanhã a máxima vai ser de 32 graus.", en: "Tomorrow's high will be 90°F." },
           { es: "A loja funciona de segunda a sábado, das 9h às 18h.", en: "The store is open Monday to Saturday, 9am to 6pm." },
-          { es: "Por R$ 1.299,90 à vista ou em 10x sem juros no cartão.", en: "R$1,299.90 upfront, or ten interest-free instalments on your card." },
+          { es: "Por R$ 1.299,90 à vista ou em 10x sem juros no cartão.", en: "R$1,299.90 upfront, or ten interest-free installments on your card." },
           { es: "Informe seu CPF e seu CEP para calcular o frete.", en: "Enter your CPF (tax ID) and ZIP code to calculate shipping." },
         ],
         checkpoint: [
@@ -870,17 +870,17 @@ export const PT_C2_U05: Lesson[] = [
             type: "listen-choose",
             audio: "Em dez vezes sem juros no cartão.",
             question: "What does it mean?",
-            options: ["In ten interest-free instalments on your card.", "Ten percent off with your card.", "Ten times cheaper without a card.", "With a ten-real card fee."],
+            options: ["In ten interest-free installments on your card.", "Ten percent off with your card.", "Ten times cheaper without a card.", "With a ten-real card fee."],
             correctIndex: 0,
-            explanation: "\"Em dez vezes sem juros\" (written \"10x sem juros\") is the Brazilian instalment plan: the price split into ten payments with no interest.",
+            explanation: "\"Em dez vezes sem juros\" (written \"10x sem juros\") is the Brazilian installment plan: the price split into ten payments with no interest.",
           },
         ],
       },
       {
-        heading: "References, idioms and humour",
+        heading: "References, idioms and humor",
         body: [
-          "Cultural references either get a Brazilian equivalent or get cut. Baseball and American football mean little in Brazil: hit it out of the park becomes \"fazer um golaço\", and a whole new ballgame becomes \"outra história\". The seasons are inverted, so a July summer sale becomes a \"liquidação de inverno\", and Christmas copy shows heat, beaches and panetone, not snow. Thanksgiving has no Brazilian equivalent, while Black Friday has been fully adopted.",
-          "Humour is the hardest thing to transfer. As the trocadilhos of Unit 2 showed, a pun rarely survives translation, so the localiser writes a new one in Portuguese or replaces it with a different kind of joke. Test the replacement for all of Brazil. A joke built on a carioca or gaúcho expression may puzzle readers elsewhere, and \"comer\" or \"dar\" in the wrong slot can create an accidental double meaning.",
+          "Cultural references either get a Brazilian equivalent or get cut. Baseball and American soccer mean little in Brazil: hit it out of the park becomes \"fazer um golaço\", and a whole new ballgame becomes \"outra história\". The seasons are inverted, so a July summer sale becomes a \"liquidação de inverno\", and Christmas copy shows heat, beaches and panetone, not snow. Thanksgiving has no Brazilian equivalent, while Black Friday has been fully adopted.",
+          "Humor is the hardest thing to transfer. As the trocadilhos of Unit 2 showed, a pun rarely survives translation, so the localizer writes a new one in Portuguese or replaces it with a different kind of joke. Test the replacement for all of Brazil. A joke built on a carioca or gaúcho expression may puzzle readers elsewhere, and \"comer\" or \"dar\" in the wrong slot can create an accidental double meaning.",
         ],
         examples: [
           { es: "Essa campanha foi um golaço.", en: "This campaign hit it out of the park." },
@@ -897,11 +897,11 @@ export const PT_C2_U05: Lesson[] = [
             source: "With this app, filing your taxes is a piece of cake.",
             answer: "Com esse aplicativo, declarar o Imposto de Renda é moleza.",
             altAnswers: ["Com este aplicativo, declarar o Imposto de Renda é moleza.", "Com esse app, declarar o Imposto de Renda é moleza.", "Com este app, declarar o Imposto de Renda é moleza.", "Com esse aplicativo, fazer a declaração do Imposto de Renda é moleza.", "Com esse aplicativo, declarar o Imposto de Renda é muito fácil."],
-            explanation: "Filing your taxes is localised as \"declarar o Imposto de Renda\", the Brazilian annual ritual. A piece of cake becomes \"moleza\", never a literal \"um pedaço de bolo\".",
+            explanation: "Filing your taxes is localized as \"declarar o Imposto de Renda\", the Brazilian annual ritual. A piece of cake becomes \"moleza\", never a literal \"um pedaço de bolo\".",
           },
           {
             type: "multiple-choice",
-            question: "An American store's Back to School campaign runs in August. How do you localise it for Brazil?",
+            question: "An American store's Back to School campaign runs in August. How do you localize it for Brazil?",
             options: ["Volta às aulas, in January and February", "Volta à escola, in August", "De volta à escola, in September", "Retorno escolar, in August"],
             correctIndex: 0,
             explanation: "The Brazilian school year starts in February, so the campaign moves to January and February. It takes the fixed Brazilian name \"volta às aulas\".",
@@ -912,7 +912,7 @@ export const PT_C2_U05: Lesson[] = [
         heading: "Politeness in instructions and interfaces",
         body: [
           "Interface text has its own conventions. Buttons take the infinitive (\"Salvar\", \"Enviar\", \"Cancelar\"), and instructions take the standard imperative (\"Clique aqui\", \"Digite sua senha\"). The spoken \"clica aqui\" suits only a deliberately playful brand. A bare English command such as Do not reply sounds brusque if copied. Soften it with \"por favor\", with \"pedimos que\" + subjunctive, or by giving the reason: \"este e-mail é automático\".",
-          "Error messages apologise and reassure: \"Ops! Algo deu errado.\" Check gender too. \"Bem-vindo\" addresses only men, so many products write \"Boas-vindas!\" or greet the user by name.",
+          "Error messages apologize and reassure: \"Ops! Algo deu errado.\" Check gender too. \"Bem-vindo\" is grammatically masculine, so many products write \"Boas-vindas!\" or greet the user by name.",
         ],
         examples: [
           { es: "Digite sua senha e clique em Entrar.", en: "Enter your password and click Sign in." },
@@ -982,7 +982,7 @@ export const PT_C2_U05: Lesson[] = [
         sentence: "Entrega amanhã ___.",
         answer: "até as 18h",
         altAnswers: ["até às 18h", "até as 18 horas", "até às 18 horas", "até as seis da tarde", "até às seis da tarde"],
-        explanation: "Written times use the 24-hour clock. Both \"até as 18h\" and \"até às 18h\" are accepted in Brazil, so a localiser picks one and stays consistent.",
+        explanation: "Written times use the 24-hour clock. Both \"até as 18h\" and \"até às 18h\" are accepted in Brazil, so a localizer picks one and stays consistent.",
       },
       {
         type: "fill-blank",
@@ -1000,7 +1000,7 @@ export const PT_C2_U05: Lesson[] = [
         source: "Our new campaign hit it out of the park.",
         answer: "Nossa nova campanha foi um golaço.",
         altAnswers: ["A nossa nova campanha foi um golaço.", "Nossa campanha nova foi um golaço.", "A nossa campanha nova foi um golaço.", "Nossa nova campanha foi um sucesso.", "Nossa nova campanha foi um sucesso absoluto."],
-        explanation: "The baseball image becomes a football one: \"foi um golaço\". \"Um sucesso\" is a safe, neutral alternative.",
+        explanation: "The baseball image becomes a soccer one: \"foi um golaço\". \"Um sucesso\" is a safe, neutral alternative.",
       },
       {
         type: "translate",
@@ -1030,10 +1030,10 @@ export const PT_C2_U05: Lesson[] = [
           { left: "É moleza.", right: "It's a piece of cake." },
           { left: "Foi um golaço.", right: "It was a home run." },
           { left: "Liquidação de inverno", right: "Summer sale, run in July" },
-          { left: "Em 10x sem juros", right: "In ten interest-free instalments" },
+          { left: "Em 10x sem juros", right: "In ten interest-free installments" },
           { left: "Volta às aulas", right: "Back to school, in February" },
         ],
-        explanation: "Each English reference is replaced by its Brazilian equivalent: football for baseball, inverted seasons, the instalment culture and the February school year.",
+        explanation: "Each English reference is replaced by its Brazilian equivalent: soccer for baseball, inverted seasons, the installment culture and the February school year.",
       },
     ],
   },
@@ -1042,11 +1042,11 @@ export const PT_C2_U05: Lesson[] = [
     level: "PT-C2",
     number: 5,
     title: "Mediating Texts",
-    summary: "Summarise and explain an English text for a Brazilian reader or listener, relay a live exchange, and gloss Brazilian realities for English speakers.",
+    summary: "Summarize and explain an English text for a Brazilian reader or listener, relay a live exchange, and gloss Brazilian realities for English speakers.",
     duration: "18 min",
     sections: [
       {
-        heading: "Summarising: select, don't shadow",
+        heading: "Summarizing: select, don't shadow",
         body: [
           "Mediation is not translation. When a Brazilian colleague asks what an English report says, they want the gist in natural Portuguese, not every sentence in its original order. Decide first what this reader needs. Then rebuild the content around three things: the main claim, the key evidence and what it means for them. Detail that doesn't change the conclusion can go.",
           "Open by framing the source, so the listener knows whose voice they're hearing: \"O texto trata de...\", \"Em linhas gerais...\", \"Segundo o relatório...\". The journalistic conditional from C1 suits claims you report without endorsing: \"a medida teria pouco efeito\". Then flag the point you most want remembered: \"O ponto central é que...\", \"Vale destacar que...\".",
@@ -1109,7 +1109,7 @@ export const PT_C2_U05: Lesson[] = [
           { es: "O NHS, o sistema público de saúde britânico, algo como o nosso SUS, está sobrecarregado.", en: "The NHS, Britain's public health system, something like our SUS, is overloaded." },
           { es: "Os A-levels são exames do fim do ensino médio, algo próximo do nosso Enem.", en: "A-levels are end-of-secondary-school exams, something close to our ENEM." },
           { es: "Fez 95 graus Fahrenheit em Nova York, ou seja, uns 35 graus.", en: "It was 95°F in New York, that is, about 35°C." },
-          { es: "A corrida tem 26 milhas, quer dizer, uns 42 quilômetros.", en: "The race is 26 miles, in other words about 42 kilometres." },
+          { es: "A corrida tem 26 milhas, quer dizer, uns 42 quilômetros.", en: "The race is 26 miles, in other words about 42 kilometers." },
           { es: "O Ofsted, órgão que fiscaliza as escolas inglesas, reprovou a instituição.", en: "Ofsted, the body that inspects English schools, failed the institution." },
           { es: "O autor usa uma imagem bem inglesa para dizer que todo mundo evita o assunto.", en: "The author uses a very English image to say that everyone avoids the subject." },
         ],
@@ -1138,7 +1138,7 @@ export const PT_C2_U05: Lesson[] = [
               "Fez uma temperatura equivalente a 35 graus Celsius em Nova York.",
             ],
             correctIndex: 0,
-            explanation: "Convert and round: \"uns 35 graus\". An unconverted 95 sounds absurd to a Brazilian, the Fahrenheit version leaves them to do the maths, and the last option is correct but stiff.",
+            explanation: "Convert and round: \"uns 35 graus\". An unconverted 95 sounds absurd to a Brazilian, the Fahrenheit version leaves them to do the math, and the last option is correct but stiff.",
           },
           {
             type: "listen-choose",
@@ -1156,11 +1156,11 @@ export const PT_C2_U05: Lesson[] = [
         ],
       },
       {
-        heading: "Live mediation, and the other way round",
+        heading: "Live mediation, and the other way around",
         body: [
           "Informal mediation reports the speaker in the third person: \"Ela está perguntando se...\", \"O que ele quis dizer é que...\", \"Ele pediu para a gente...\". Trained interpreters, by contrast, use the first person. Reported speech from B1 does the work, tense shifts included. Before you relay something ambiguous, check it: \"Só para confirmar: o senhor quer que...?\"",
           "Adjust the tone as well as the words. A blunt 'That won't work' relayed literally as \"Isso não vai funcionar\" can sound harsher to a Brazilian client than the speaker intended. \"Ele acha que, do jeito que está, não funciona\" carries the same content with Brazilian softness. Never invent agreement where the speaker disagreed.",
-          "Mediating a Brazilian text for English speakers reverses the gap. \"Carteira assinada\", \"13º salário\" and \"CLT\" each need an English gloss: a formally registered job with full labour rights, a mandatory extra month's pay in December, and the labour code that guarantees both. The skill is the same: name it, anchor it, move on.",
+          "Mediating a Brazilian text for English speakers reverses the gap. \"Carteira assinada\", \"13º salário\" and \"CLT\" each need an English gloss: a formally registered job with full labor rights, a mandatory extra month's pay in December, and the labor code that guarantees both. The skill is the same: name it, anchor it, move on.",
         ],
         examples: [
           { es: "Ela está perguntando se dá para adiar a entrega para sexta.", en: "She's asking if the delivery can be pushed back to Friday." },
@@ -1305,7 +1305,7 @@ export const PT_C2_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The school is five miles, that is, about eight kilometres, from the centre.",
+        source: "The school is five miles, that is, about eight kilometers, from the center.",
         answer: "A escola fica a cinco milhas, ou seja, uns oito quilômetros, do centro.",
         altAnswers: [
           "A escola fica a cinco milhas, quer dizer, uns oito quilômetros, do centro.",
@@ -1322,7 +1322,7 @@ export const PT_C2_U05: Lesson[] = [
         sentence: "O Labor Day nos Estados Unidos é em setembro; ___, não cai no 1º de maio como o nosso.",
         answer: "ou seja",
         altAnswers: ["quer dizer", "isto é", "ou melhor"],
-        explanation: "\"Ou seja\" rephrases the fact in terms the reader can place. Here it points out the clash with Brazil's \"Dia do Trabalho\" on 1 May.",
+        explanation: "\"Ou seja\" rephrases the fact in terms the reader can place. Here it points out the clash with Brazil's \"Dia do Trabalho\" on May 1.",
       },
       {
         type: "word-order",
@@ -1400,7 +1400,7 @@ export const PT_C2_U05: Lesson[] = [
       {
         heading: "Gerundismo: the borrowed future progressive",
         body: [
-          "Call-centre English gave Brazil its most mocked calque: \"vou estar enviando\" for 'I'll be sending'. In English the future progressive softens a promise. In Portuguese the three-verb chain sounds evasive, as if the action might never quite happen, and Brazilians have a name for it: \"gerundismo\". Say \"vou enviar\" or \"envio hoje\", or in writing \"enviaremos\".",
+          "Call-center English gave Brazil its most mocked calque: \"vou estar enviando\" for 'I'll be sending'. In English the future progressive softens a promise. In Portuguese the three-verb chain sounds evasive, as if the action might never quite happen, and Brazilians have a name for it: \"gerundismo\". Say \"vou enviar\" or \"envio hoje\", or in writing \"enviaremos\".",
           "The gerund itself is fine for an action in progress (\"estou enviando agora\") and for manner (\"saiu correndo\"). As in the -ing lesson, an English -ing after a preposition becomes an infinitive: \"obrigado por esperar\".",
         ],
         examples: [
@@ -1561,7 +1561,7 @@ export const PT_C2_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We'll be analysing your request.",
+        source: "We'll be analyzing your request.",
         answer: "Vamos analisar a sua solicitação.",
         altAnswers: [
           "Vamos analisar sua solicitação.",
@@ -1572,7 +1572,7 @@ export const PT_C2_U05: Lesson[] = [
           "Analisaremos o seu pedido.",
           "Analisaremos seu pedido.",
         ],
-        explanation: "One future, no gerundismo: \"vamos analisar\", or \"analisaremos\" in a formal message. \"Vamos estar analisando\" is the call-centre calque.",
+        explanation: "One future, no gerundismo: \"vamos analisar\", or \"analisaremos\" in a formal message. \"Vamos estar analisando\" is the call-center calque.",
       },
       {
         type: "fill-blank",
@@ -1728,13 +1728,13 @@ export const PT_C2_U05: Lesson[] = [
         heading: "The offer: figures and payment terms",
         body: [
           "Rafael opens with figures, where interpreters slip most. Portuguese writes \"R$ 89,90\" and \"8,5%\" with a decimal comma and says \"oitenta e nove e noventa\", \"oito vírgula cinco por cento\". Thousands take a point: \"5.000 pares\". Note numbers as you hear them and name the currency every time: a buyer who hears 89 will think in pounds.",
-          "Commercial terms hide false friends. \"À vista\" means paid upfront in full, the opposite of \"parcelado\" (in instalments), not 'at sight'. \"Prazo\" is a deadline or lead time. \"Orçamento\" is both a budget and a quote, so check which one Rafael means. 'Lead time' has no one-word equivalent: say \"prazo de entrega\".",
+          "Commercial terms hide false friends. \"À vista\" means paid upfront in full, the opposite of \"parcelado\" (in installments), not 'at sight'. \"Prazo\" is a deadline or lead time. \"Orçamento\" is both a budget and a quote, so check which one Rafael means. 'Lead time' has no one-word equivalent: say \"prazo de entrega\".",
         ],
         examples: [
           { es: "O pedido mínimo é de dois mil pares por modelo.", en: "The minimum order is two thousand pairs per style." },
           { es: "O preço unitário fica em oitenta e nove reais e noventa centavos.", en: "The unit price comes to 89.90 reais." },
           { es: "Para pagamento à vista, a gente dá um desconto de 5%.", en: "For payment upfront, we give a 5% discount." },
-          { es: "Também dá para parcelar em três vezes.", en: "You can also pay in three instalments." },
+          { es: "Também dá para parcelar em três vezes.", en: "You can also pay in three installments." },
           { es: "O prazo de entrega é de quarenta e cinco dias.", en: "The lead time is forty-five days." },
         ],
         checkpoint: [
@@ -1776,7 +1776,7 @@ export const PT_C2_U05: Lesson[] = [
           { es: "Está um pouco acima do que a gente tinha previsto.", en: "That's a bit more than we'd budgeted for." },
           { es: "Vou ver o que dá para fazer com a fábrica.", en: "I'll see what I can do with the factory." },
           { es: "Esse prazo fica complicado para nós.", en: "That deadline is going to be difficult for us." },
-          { es: "Pode deixar que eu resolvo isso até amanhã.", en: "Leave it with me; I'll sort it out by tomorrow." },
+          { es: "Pode deixar que eu resolvo isso até amanhã.", en: "Leave it to me; I'll sort it out by tomorrow." },
           { es: "Talvez seja o caso de rever as quantidades.", en: "Perhaps we should look at the quantities again." },
         ],
         checkpoint: [
@@ -1804,7 +1804,7 @@ export const PT_C2_U05: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[Leave it with me]; I'll sort it out by tomorrow.",
+            en: "[Leave it to me]; I'll sort it out by tomorrow.",
             sentence: "___ que eu resolvo isso até amanhã.",
             answer: "Pode deixar",
             altAnswers: ["Deixa"],
@@ -1815,7 +1815,7 @@ export const PT_C2_U05: Lesson[] = [
       {
         heading: "Closing: agree and follow up",
         body: [
-          "Brazilians close by summarising: \"Então ficou combinado que...\" or, between people now on first-name terms, \"Então, fechado?\" for 'So we're agreed?'. 'It's a deal' is \"Negócio fechado!\"; a literal \"é um acordo\" sounds translated.",
+          "Brazilians close by summarizing: \"Então ficou combinado que...\" or, between people now on first-name terms, \"Então, fechado?\" for 'So we're agreed?'. 'It's a deal' is \"Negócio fechado!\"; a literal \"é um acordo\" sounds translated.",
           "Follow-up phrases are the last trap. 'I'll get back to you' is \"eu te dou um retorno\", with the spoken \"te\" once you're on \"você\" terms. 'I'll send it over' is \"eu te mando\", and 'by Friday' is \"até sexta\". 'Touch base' and 'circle back' become plain verbs: \"conversar\", \"retomar\".",
           "Before anyone stands up, read the key figures back in both languages. It takes thirty seconds and catches a misheard figure before it reaches the invoice.",
         ],
@@ -1909,13 +1909,13 @@ export const PT_C2_U05: Lesson[] = [
         audio: "O pagamento pode ser parcelado em três vezes.",
         question: "What does it mean?",
         options: [
-          "Payment can be split into three instalments.",
+          "Payment can be split into three installments.",
           "Payment must be made upfront three times.",
           "Payment can be made in three weeks.",
           "The payment can be shared by three companies.",
         ],
         correctIndex: 0,
-        explanation: "\"Parcelado em três vezes\" means paid in three instalments; Brazilians count instalments in \"vezes\". The opposite is \"à vista\".",
+        explanation: "\"Parcelado em três vezes\" means paid in three installments; Brazilians count installments in \"vezes\". The opposite is \"à vista\".",
       },
       {
         type: "dictation",
@@ -1943,7 +1943,7 @@ export const PT_C2_U05: Lesson[] = [
         instructions: "Match the Portuguese to the English.",
         pairs: [
           { left: "à vista", right: "paid upfront in full" },
-          { left: "parcelado", right: "in instalments" },
+          { left: "parcelado", right: "in installments" },
           { left: "prazo de entrega", right: "lead time" },
           { left: "pedido mínimo", right: "minimum order" },
           { left: "orçamento", right: "budget or quote" },
@@ -1974,11 +1974,11 @@ export const PT_C2_U05: Lesson[] = [
       {
         heading: "False friends that pass the spellchecker",
         body: [
-          "At C2 the false friends that survive are the dangerous ones: they produce a real Portuguese sentence with the wrong meaning, so no spellchecker flags them. \"Realizei que estava errado\" says I carried out that I was wrong; to realise is \"perceber\" or \"me dar conta\". \"Atualmente\" means currently, never actually (\"na verdade\"). \"Eventualmente\" means now and then; eventually is \"no fim\" or \"acabar\" + gerund: \"ela acabou aceitando\".",
+          "At C2 the false friends that survive are the dangerous ones: they produce a real Portuguese sentence with the wrong meaning, so no spellchecker flags them. \"Realizei que estava errado\" says I carried out that I was wrong; to realize is \"perceber\" or \"me dar conta\". \"Atualmente\" means currently, never actually (\"na verdade\"). \"Eventualmente\" means now and then; eventually is \"no fim\" or \"acabar\" + gerund: \"ela acabou aceitando\".",
           "Test every word that looks like its English twin. \"Compromisso\" is an appointment or a commitment; a compromise is \"um meio-termo\" or \"um acordo\". \"Sensível\" is sensitive; sensible is \"sensato\". \"Injúria\" is a legal insult; an injury is \"uma lesão\". \"Suportar\" means to put up with; to support is \"apoiar\".",
         ],
         examples: [
-          { es: "Só então percebi que tinha esquecido a senha.", en: "Only then did I realise I'd forgotten the password." },
+          { es: "Só então percebi que tinha esquecido a senha.", en: "Only then did I realize I'd forgotten the password." },
           { es: "Na verdade, o prazo já venceu.", en: "Actually, the deadline has already passed." },
           { es: "Depois de muita discussão, ela acabou aceitando a proposta.", en: "After a lot of discussion, she eventually accepted the proposal." },
           { es: "Chegamos a um meio-termo com o fornecedor.", en: "We reached a compromise with the supplier." },
@@ -2043,7 +2043,7 @@ export const PT_C2_U05: Lesson[] = [
             sentence: "A conferência ___ em Recife.",
             answer: "vai acontecer",
             altAnswers: ["acontecerá", "vai ser realizada", "será realizada", "vai ocorrer", "ocorrerá", "acontece"],
-            explanation: "Take place is \"acontecer\", \"ocorrer\" or \"ser realizado\". \"Tomar lugar\" is a calque Brazilians recognise at once as translated English.",
+            explanation: "Take place is \"acontecer\", \"ocorrer\" or \"ser realizado\". \"Tomar lugar\" is a calque Brazilians recognize at once as translated English.",
           },
           {
             type: "multiple-choice",
@@ -2058,7 +2058,7 @@ export const PT_C2_U05: Lesson[] = [
         heading: "Over-literal syntax",
         body: [
           "The -ing and noun-stack lessons gave the rules; these are the slips they leave in finished drafts. Portuguese can't make an indirect object the subject of a passive: \"Ele foi dado um prêmio\" is impossible, so write \"Ele recebeu um prêmio\" or \"Ele ganhou um prêmio\". An -ing subject becomes an infinitive: \"É proibido fumar\", not \"Fumando é proibido\".",
-          "The call-centre will be sending gave Brazil the notorious gerundismo, \"vou estar enviando\", which people mock as bureaucratic stalling; write \"vou enviar\" or simply \"envio\". English possessives with body parts and clothes are dropped: \"Ele levantou a mão\"; \"a sua mão\" suggests someone else's hand, even yours. Unpack noun stacks from the head noun outward: \"o líder da equipe de atendimento ao cliente\".",
+          "The call-center English 'we will be sending' gave Brazil the notorious gerundismo, \"vou estar enviando\", which people mock as bureaucratic stalling; write \"vou enviar\" or simply \"envio\". English possessives with body parts and clothes are dropped: \"Ele levantou a mão\"; \"a sua mão\" could suggest someone else's hand, even the reader's. Unpack noun stacks from the head noun outward: \"o líder da equipe de atendimento ao cliente\".",
         ],
         examples: [
           { es: "Ela recebeu o prêmio das mãos do reitor.", en: "She was given the award by the rector." },
@@ -2142,10 +2142,10 @@ export const PT_C2_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I realised the meeting had been cancelled.",
+        source: "I realized the meeting had been canceled.",
         answer: "Percebi que a reunião tinha sido cancelada.",
         altAnswers: ["Eu percebi que a reunião tinha sido cancelada.", "Percebi que a reunião havia sido cancelada.", "Eu percebi que a reunião havia sido cancelada.", "Me dei conta de que a reunião tinha sido cancelada.", "Eu me dei conta de que a reunião tinha sido cancelada.", "Me dei conta que a reunião tinha sido cancelada."],
-        explanation: "To realise is \"perceber\" or \"dar-se conta\". \"Realizei\" means I carried out or achieved, so it can't take a clause like this.",
+        explanation: "To realize is \"perceber\" or \"dar-se conta\". \"Realizei\" means I carried out or achieved, so it can't take a clause like this.",
       },
       {
         type: "translate",
@@ -2200,7 +2200,7 @@ export const PT_C2_U05: Lesson[] = [
         question: "Which sentence from a translated press release needs no correction?",
         options: ["O evento será realizado no sábado.", "A reunião vai tomar lugar às dez.", "Ela endereçou o problema na reunião.", "Ele foi oferecido uma vaga em Curitiba."],
         correctIndex: 0,
-        explanation: "\"Será realizado\" is the natural formal choice. \"Tomar lugar\" and \"endereçar o problema\" are calques, and \"foi oferecido uma vaga\" passivises the receiver: write \"ofereceram uma vaga a ele\" or \"ele recebeu uma oferta\".",
+        explanation: "\"Será realizado\" is the natural formal choice. \"Tomar lugar\" and \"endereçar o problema\" are calques, and \"foi oferecido uma vaga\" passivizes the receiver: write \"ofereceram uma vaga a ele\" or \"ele recebeu uma oferta\".",
       },
       {
         type: "word-order",
@@ -2244,8 +2244,8 @@ export const PT_C2_U05: Lesson[] = [
     slug: "c2-mission-translate-localise",
     level: "PT-C2",
     number: 9,
-    title: "Real-World Mission: Localise a Page",
-    summary: "Localise a British running app's home page for Brazil: headline and buttons, prices and forms, brand voice, trust signals and legal labels.",
+    title: "Real-World Mission: Localize a Page",
+    summary: "Localize a British running app's home page for Brazil: headline and buttons, prices and forms, brand voice, trust signals and legal labels.",
     duration: "18 min",
     format: "Real-World Mission",
     sections: [
@@ -2304,16 +2304,16 @@ export const PT_C2_U05: Lesson[] = [
         heading: "Money, numbers and forms",
         body: [
           "Everything measurable changes. Miles become \"km\", times go on the 24-hour clock (\"das 8h às 18h\") and dates run day-month (\"até 31/12\"). The comma is the decimal point: \"R$ 19,90\", \"5,5 km\".",
-          "Never convert prices at the day's exchange rate. £7.99 a month does not become \"R$ 53,47\": the client sets a Brazilian price, usually ending in ,90, and you present it the Brazilian way. Annual plans are sold \"em até 12x sem juros\", in interest-free instalments that British checkouts don't offer. The payment list needs \"Pix\" and often \"boleto\". Delivery is \"frete\", and the free-delivery threshold becomes a new round number in reais.",
-          "Forms need surgery, not translation. Postcode becomes \"CEP\". County disappears and \"Estado\" takes its place. First name and surname become \"Nome\" and \"Sobrenome\". Phone numbers carry the area code, as in \"(11) 98765-4321\", and a shop may need the \"CPF\" for the invoice.",
+          "Never convert prices at the day's exchange rate. £7.99 a month does not become \"R$ 53,47\": the client sets a Brazilian price, usually ending in ,90, and you present it the Brazilian way. Annual plans are sold \"em até 12x sem juros\", in interest-free installments that British checkouts don't offer. The payment list needs \"Pix\" and often \"boleto\". Delivery is \"frete\", and the free-delivery threshold becomes a new round number in reais.",
+          "Forms need surgery, not translation. Postcode becomes \"CEP\". County disappears and \"Estado\" takes its place. First name and surname become \"Nome\" and \"Sobrenome\". Phone numbers carry the area code, as in \"(11) 98765-4321\", and a store may need the \"CPF\" for the invoice.",
         ],
         examples: [
           { es: "Planos a partir de R$ 19,90 por mês.", en: "Plans from R$19.90 a month. (UK page: from £7.99 a month)" },
-          { es: "Plano anual: 12x de R$ 14,90 sem juros.", en: "Annual plan: 12 interest-free instalments of R$14.90." },
+          { es: "Plano anual: 12x de R$ 14,90 sem juros.", en: "Annual plan: 12 interest-free installments of R$14.90." },
           { es: "Pague com Pix, cartão de crédito ou boleto.", en: "Pay by Pix, credit card or boleto (bank slip)." },
           { es: "Planos de treino de 5 km à maratona, no seu ritmo.", en: "Training plans from 5K to the marathon, at your own pace." },
           { es: "Atendimento de segunda a sexta, das 8h às 18h.", en: "Support Monday to Friday, 8am to 6pm." },
-          { es: "Promoção válida até 31/12.", en: "Offer ends 31 December." },
+          { es: "Promoção válida até 31/12.", en: "Offer ends December 31." },
         ],
         checkpoint: [
           {
@@ -2333,7 +2333,7 @@ export const PT_C2_U05: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The UK page says 'Free delivery on orders over £50'. Which line is the best localisation?",
+            question: "The UK page says 'Free delivery on orders over £50'. Which line is the best localization?",
             options: [
               "Frete grátis em compras acima de R$ 199.",
               "Entrega livre em pedidos acima de £50.",
@@ -2348,13 +2348,13 @@ export const PT_C2_U05: Lesson[] = [
             audio: "Você pode parcelar o plano anual em doze vezes sem juros.",
             question: "What does it mean?",
             options: [
-              "You can pay for the annual plan in twelve interest-free instalments.",
+              "You can pay for the annual plan in twelve interest-free installments.",
               "You can cancel the annual plan within twelve months at no cost.",
               "The annual plan costs twelve reais with no interest.",
               "You get twelve months free with the annual plan.",
             ],
             correctIndex: 0,
-            explanation: "\"Parcelar\" is to split a payment into \"parcelas\" (instalments), and \"sem juros\" means without interest. It's a standard Brazilian selling point.",
+            explanation: "\"Parcelar\" is to split a payment into \"parcelas\" (installments), and \"sem juros\" means without interest. It's a standard Brazilian selling point.",
           },
         ],
       },
@@ -2437,10 +2437,10 @@ export const PT_C2_U05: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Delivery time: 3 to 5 [working days].",
+        en: "Delivery time: 3 to 5 [business days].",
         sentence: "Prazo de entrega: de 3 a 5 ___.",
         answer: "dias úteis",
-        explanation: "Working days are \"dias úteis\", literally useful days. \"Dias de trabalho\" is a calque that no Brazilian shop uses.",
+        explanation: "Working days are \"dias úteis\", literally useful days. \"Dias de trabalho\" is a calque that no Brazilian store uses.",
       },
       {
         type: "translate",
@@ -2499,7 +2499,7 @@ export const PT_C2_U05: Lesson[] = [
           "Treine para a Maratona do Rio com um plano feito sob medida para você.",
           "Treine para a Maratona do Rio com um plano feito pra você.",
         ],
-        explanation: "The localised reference replaces the London Marathon. \"Feito para você\" is the standard Brazilian marketing phrase for made for you.",
+        explanation: "The localized reference replaces the London Marathon. \"Feito para você\" is the standard Brazilian marketing phrase for made for you.",
       },
       {
         type: "matching",
@@ -2523,15 +2523,15 @@ export const PT_C2_U05: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Annual plan in up to 12 interest-free instalments.",
+        prompt: "Put the words in order to say: Annual plan in up to 12 interest-free installments.",
         words: ["Plano", "anual", "em", "até", "12x", "sem", "juros."],
-        translation: "Annual plan in up to 12 interest-free instalments.",
+        translation: "Annual plan in up to 12 interest-free installments.",
         explanation: "\"Em até 12x sem juros\" is the fixed retail formula, read \"em até doze vezes sem juros\". The adjective \"anual\" follows the noun.",
       },
       {
         type: "speak",
         text: "Pague em até dez vezes sem juros.",
-        prompt: "Say it in Portuguese: Pay in up to ten interest-free instalments.",
+        prompt: "Say it in Portuguese: Pay in up to ten interest-free installments.",
         tip: "The j in juros sounds like the s in 'measure', and vezes has a closed ê.",
         explanation: "\"Pague\" is the standard imperative of \"pagar\" (the u keeps the g hard), and \"sem juros\" means without interest.",
       },
@@ -2542,20 +2542,20 @@ export const PT_C2_U05: Lesson[] = [
     level: "PT-C2",
     number: 10,
     title: "Spiral Review: Between Languages",
-    summary: "Mixed practice in false friends, the -ing form, noun stacks, passives, localisation and mediation, with fresh sentences that carry meaning between English and Portuguese.",
+    summary: "Mixed practice in false friends, the -ing form, noun stacks, passives, localization and mediation, with fresh sentences that carry meaning between English and Portuguese.",
     duration: "18 min",
     sections: [
       {
         heading: "False friends and the -ing form",
         body: [
-          "Start with the words that give an English speaker away. Here is a one-line reminder for each. \"Pretender\" is to intend, \"eventualmente\" is occasionally and \"atualmente\" is currently. \"Realizar\" is to carry out, while to realise is \"perceber\". \"Assistir a\" is to watch, \"parentes\" are relatives and \"compromisso\" is an appointment. Eventually is \"no fim\" or \"acabar\" + gerund (\"acabaram descobrindo\"). Actually is \"na verdade\".",
+          "Start with the words that give an English speaker away. Here is a one-line reminder for each. \"Pretender\" is to intend, \"eventualmente\" is occasionally and \"atualmente\" is currently. \"Realizar\" is to carry out, while to realize is \"perceber\". \"Assistir a\" is to watch, \"parentes\" are relatives and \"compromisso\" is an appointment. Eventually is \"no fim\" or \"acabar\" + gerund (\"acabaram descobrindo\"). Actually is \"na verdade\".",
           "The -ing form rarely survives the crossing. After a preposition Portuguese uses the infinitive (\"antes de sair\", \"obrigado por ter vindo\"). As a subject it uses the infinitive or a noun (\"É proibido fumar\"). The gerund is kept for actions in progress and for manner. A phrasal verb usually becomes one exact verb: give up is \"desistir de\", find out is \"descobrir\" and put off is \"adiar\".",
           "The test is always the same. Read your version as a Brazilian who has never seen the English. If it only makes sense with the original in mind, it's a calque.",
         ],
         examples: [
           { es: "Pretendo adiar a reunião para quinta.", en: "I intend to put the meeting off until Thursday." },
           { es: "Eventualmente ela trabalha de casa, mas atualmente está no escritório todo dia.", en: "She works from home now and then, but these days she's in the office every day." },
-          { es: "Só percebi o erro depois de enviar o e-mail.", en: "I only realised the mistake after sending the email." },
+          { es: "Só percebi o erro depois de enviar o e-mail.", en: "I only realized the mistake after sending the email." },
           { es: "Ele desistiu do projeto sem avisar ninguém.", en: "He gave up on the project without telling anyone." },
           { es: "Obrigado por ter vindo.", en: "Thanks for coming." },
           { es: "Meus parentes moram no interior de Minas.", en: "My relatives live in the countryside in Minas Gerais." },
@@ -2581,7 +2581,7 @@ export const PT_C2_U05: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I realised I'd left my phone on the bus.",
+            source: "I realized I'd left my phone on the bus.",
             answer: "Percebi que tinha deixado o celular no ônibus.",
             altAnswers: [
               "Eu percebi que tinha deixado o celular no ônibus.",
@@ -2591,7 +2591,7 @@ export const PT_C2_U05: Lesson[] = [
               "Me dei conta de que tinha deixado o celular no ônibus.",
               "Percebi que deixei o celular no ônibus.",
             ],
-            explanation: "To realise is \"perceber\" or \"dar-se conta\". \"Realizar\" would mean you carried something out. Portuguese also prefers \"o celular\" to a possessive when the owner is obvious.",
+            explanation: "To realize is \"perceber\" or \"dar-se conta\". \"Realizar\" would mean you carried something out. Portuguese also prefers \"o celular\" to a possessive when the owner is obvious.",
           },
           {
             type: "multiple-choice",
@@ -2610,8 +2610,8 @@ export const PT_C2_U05: Lesson[] = [
           "Keep the head noun first and the specifiers after it. When the chain passes three \"de\"s, break it with an adjective or a relative clause.",
         ],
         examples: [
-          { es: "O líder da equipe de atendimento ao cliente saiu de férias.", en: "The customer service team leader has gone on holiday." },
-          { es: "A política energética do governo foi criticada por economistas.", en: "The government's energy policy was criticised by economists." },
+          { es: "O líder da equipe de atendimento ao cliente saiu de férias.", en: "The customer service team leader has gone on vacation." },
+          { es: "A política energética do governo foi criticada por economistas.", en: "The government's energy policy was criticized by economists." },
           { es: "Recomenda-se o uso de máscara nas áreas internas.", en: "Masks are recommended indoors." },
           { es: "Os resultados serão divulgados na sexta-feira.", en: "The results will be released on Friday." },
           { es: "Me disseram que a obra vai atrasar.", en: "I've been told the building work is going to run late." },
@@ -2644,9 +2644,9 @@ export const PT_C2_U05: Lesson[] = [
         ],
       },
       {
-        heading: "Localisation and mediation",
+        heading: "Localization and mediation",
         body: [
-          "Localising translates the reader's world along with the words. Miles become kilometres, Fahrenheit becomes Celsius and dates put the day first. Decimals take a comma (\"R$ 29,90\"), and the voice is a warm \"você\" rather than a stiff \"prezado cliente\". An idiom or joke that won't land is swapped for a Brazilian one or dropped.",
+          "Localizing translates the reader's world along with the words. Miles become kilometers, Fahrenheit becomes Celsius and dates put the day first. Decimals take a comma (\"R$ 29,90\"), and the voice is a warm \"você\" rather than a stiff \"prezado cliente\". An idiom or joke that won't land is swapped for a Brazilian one or dropped.",
           "Mediating means selecting, not translating: give this listener what they need, in their register. Frame the source (\"segundo o relatório\", \"o cliente disse que\") and shift tenses as in reported speech. Add the context a Brazilian lacks: the NHS needs a gloss, and the SUS is the obvious comparison.",
           "When you interpret, speak as the speaker: \"nós podemos entregar\", not \"ele diz que eles podem\". Soften bare requests where Brazilian business expects it, so Could you...? often comes out as \"Seria possível...?\".",
         ],
@@ -2669,7 +2669,7 @@ export const PT_C2_U05: Lesson[] = [
               "Oi! Pronto para destruir seus gols?",
             ],
             correctIndex: 2,
-            explanation: "\"Tirar do papel\" is the Brazilian image for making plans happen, and it avoids the masculine \"pronto\". \"Esmagar\" is a calque of crush, \"prezado cliente\" clashes with app copy, and \"gols\" are football goals.",
+            explanation: "\"Tirar do papel\" is the Brazilian image for making plans happen, and it avoids the masculine \"pronto\". \"Esmagar\" is a calque of crush, \"prezado cliente\" clashes with app copy, and \"gols\" are soccer goals.",
           },
           {
             type: "translate",
@@ -2824,9 +2824,9 @@ export const PT_C2_U05: Lesson[] = [
           "A loja fica a uns 1,5 km do hotel.",
           "A loja fica a cerca de 1,5 km do hotel.",
           "A loja fica a mais ou menos um quilômetro e meio do hotel.",
-          "A loja fica a uns um quilômetro e meio do hotel.",
+          "A loja fica a mais ou menos 1,5 km do hotel.",
         ],
-        explanation: "Localise the unit: a mile is about 1.6 km, and \"cerca de\" keeps the approximation. A permanent location takes \"ficar\", and distance takes \"a\" with no crase.",
+        explanation: "Localize the unit: a mile is about 1.6 km, and \"cerca de\" keeps the approximation. A permanent location takes \"ficar\", and distance takes \"a\" with no crase.",
       },
       {
         type: "matching",
@@ -2835,7 +2835,7 @@ export const PT_C2_U05: Lesson[] = [
           { left: "pretender", right: "to intend" },
           { left: "puxar", right: "to pull" },
           { left: "esquisito", right: "weird" },
-          { left: "livraria", right: "bookshop" },
+          { left: "livraria", right: "bookstore" },
           { left: "costume", right: "habit" },
           { left: "sensível", right: "sensitive" },
         ],
@@ -2847,15 +2847,15 @@ export const PT_C2_U05: Lesson[] = [
 
 export const PT_C2_U05_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You work in the São Paulo office of a British company. Head office in London has sent this memo in English: 'Following the customer satisfaction survey, it has been decided that all customer service team leaders will attend a two-day training workshop in April. Eventually, the new ticket management system will replace the current one across all offices. We realise this is a big change, and we're not pretending it will be painless. Actually, the pilot run in Manchester has been encouraging: average response time dropped from 48 to 30 hours. Please send any feedback by 03/14. Note that Monday is a UK bank holiday. Looking forward to hearing from you!' Write an email in Portuguese to your Brazilian team that mediates the memo: summarise what matters to them, adapt the tone and details for Brazilian readers, and add any context they need. Don't translate it word for word.",
+  prompt: "You work in the São Paulo office of a British company. Head office in London has sent this memo in English: 'Following the customer satisfaction survey, it has been decided that all customer service team leaders will attend a two-day training workshop in April. Eventually, the new ticket management system will replace the current one across all offices. We realize this is a big change, and we're not pretending it will be painless. Actually, the pilot run in Manchester has been encouraging: average response time dropped from 48 to 30 hours. Please send any feedback by March 14. Note that Monday is a UK bank holiday. Looking forward to hearing from you!' Write an email in Portuguese to your Brazilian team that mediates the memo: summarize what matters to them, adapt the tone and details for Brazilian readers, and add any context they need. Don't translate it word for word.",
   minWords: 250,
   maxWords: 400,
   rubric: [
-    "Translate the false friends by meaning, not by form: 'eventually' as \"com o tempo\" or \"no fim das contas\" (not \"eventualmente\"), 'actually' as \"na verdade\" (not \"atualmente\"), 'pretend' as \"fingir\" (not \"pretender\"), 'realise' as \"reconhecer\" or \"se dar conta\" (not \"realizar\").",
+    "Translate the false friends by meaning, not by form: 'eventually' as \"com o tempo\" or \"no fim das contas\" (not \"eventualmente\"), 'actually' as \"na verdade\" (not \"atualmente\"), 'pretend' as \"fingir\" (not \"pretender\"), 'realize' as \"reconhecer\" or \"se dar conta\" (not \"realizar\").",
     "Unpack the English noun stacks with \"de\" and articles, starting from the head noun: \"os líderes das equipes de atendimento ao cliente\", \"a plataforma de gestão de chamados\".",
     "Turn the agentless English passive and -ing forms into natural Portuguese: name the agent (\"a diretoria decidiu que...\") or use another structure, and replace 'Looking forward to hearing from you' with a Brazilian closing such as \"Conto com vocês!\" or \"Fico no aguardo\".",
-    "Localise for Brazilian readers: the date as day/month (\"sexta-feira, dia 14/03\"), a warm but professional register (\"Oi, pessoal\", \"Abraço\"), and an explanation of anything that only makes sense in the UK (the bank holiday, how response times are measured).",
+    "Localize for Brazilian readers: the date as day/month (\"sexta-feira, dia 14/03\"), a warm but professional register (\"Oi, pessoal\", \"Abraço\"), and an explanation of anything that only makes sense in the UK (the bank holiday, how response times are measured).",
   ],
   modelAnswer: "Assunto: Treinamento para líderes de atendimento e novo sistema de chamados\n\nOi, pessoal, tudo bem?\n\nRecebemos ontem um comunicado da matriz, em Londres, e resumo aqui o que interessa à nossa equipe, com alguns comentários meus.\n\nDepois da pesquisa de satisfação dos clientes, a diretoria decidiu que todos os líderes das equipes de atendimento ao cliente vão participar de um treinamento de dois dias em abril. As datas e o local ainda não foram definidos; assim que eu souber, aviso vocês.\n\nO motivo principal é a troca de sistema. Com o tempo, a nova plataforma de gestão de chamados vai substituir a atual em todos os escritórios, inclusive no nosso. A matriz reconhece que é uma mudança grande e não finge que vai ser fácil. Na verdade, os resultados do projeto-piloto em Manchester são animadores: o tempo médio de resposta caiu de 48 para 30 horas, uma redução de quase 40%. Lá eles medem esse tempo em horas corridas; aqui costumamos contar em horas úteis, então vale a pena comparar os números com cuidado. Para nós, que recebemos boa parte das reclamações pelo WhatsApp e pelo telefone, isso pode fazer muita diferença.\n\nPeço que vocês me mandem as dúvidas e sugestões até sexta-feira, dia 14/03. Eu reúno tudo, traduzo e encaminho para Londres na terça, já que segunda-feira é feriado no Reino Unido.\n\nUma observação: o comunicado foi escrito para todos os escritórios, por isso tem um tom bem genérico. Se alguém se der conta de algum ponto que não faz sentido para a realidade brasileira, como horários, feriados ou o jeito como os nossos clientes entram em contato, me avise, que eu levo a questão para a próxima reunião com a diretoria.\n\nConto com vocês!\n\nAbraço,\nBeatriz",
-  explanation: "Mediation means passing on meaning, not words. Each false friend becomes its real equivalent: \"com o tempo\" for eventually, \"na verdade\" for actually, \"não finge\" for not pretending, \"reconhece\" for realise. The English noun stack is rebuilt from the head noun outwards with \"de\" (\"os líderes das equipes de atendimento ao cliente\"), and the faceless 'it has been decided' gets an agent, \"a diretoria decidiu\", which sounds far more natural in Portuguese. Localisation covers the date (\"14/03\"), the closing (\"Conto com vocês!\" instead of a calque of 'looking forward to hearing from you'), and context a Brazilian reader would otherwise lack: the UK holiday and the difference between \"horas corridas\" and \"horas úteis\". The future subjunctive also does natural work here (\"assim que eu souber\", \"se alguém se der conta\")."
+  explanation: "Mediation means passing on meaning, not words. Each false friend becomes its real equivalent: \"com o tempo\" for eventually, \"na verdade\" for actually, \"não finge\" for not pretending, \"reconhece\" for realize. The English noun stack is rebuilt from the head noun outwards with \"de\" (\"os líderes das equipes de atendimento ao cliente\"), and the faceless 'it has been decided' gets an agent, \"a diretoria decidiu\", which sounds far more natural in Portuguese. Localization covers the date (\"14/03\"), the closing (\"Conto com vocês!\" instead of a calque of 'looking forward to hearing from you'), and context a Brazilian reader would otherwise lack: the UK holiday and the difference between \"horas corridas\" and \"horas úteis\". The future subjunctive also does natural work here (\"assim que eu souber\", \"se alguém se der conta\")."
 };

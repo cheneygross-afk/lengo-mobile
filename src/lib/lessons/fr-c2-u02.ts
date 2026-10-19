@@ -140,7 +140,7 @@ export const FR_C2_U02: Lesson[] = [
             en: "The tenant may paint the walls, [it being understood that] he will restore them on leaving.",
             sentence: "Le locataire pourra repeindre les murs, ___ il les remettra en état à son départ.",
             answer: "étant entendu qu'",
-            altAnswers: ["étant entendu que", "il est entendu qu'"],
+            altAnswers: ["étant entendu que"],
             explanation: "\"Étant entendu que\" adds an agreed reservation in mid-sentence, with the indicative.",
           },
         ],
@@ -284,7 +284,7 @@ export const FR_C2_U02: Lesson[] = [
         body: [
           "When a mise en demeure fails, a creditor moves up a level. \"Une sommation\" (\"sommer quelqu'un de\") is a formal summons to do something, served by a commissaire de justice. \"Un commandement de payer\" is the commissaire's order to pay, which comes before seizure (\"la saisie\") or, for a tenant, before the termination of the lease: \"un commandement de payer visant la clause résolutoire\" gives the tenant six weeks (formerly two months) to pay.",
           "For an undisputed debt there is a quick court procedure: \"l'injonction de payer\". The creditor files \"une requête\" without a hearing; the judge issues \"une ordonnance d'injonction de payer\"; the debtor can \"former opposition\" (object) within one month of being served. Notice the pattern of all these words: \"sommer de\", \"enjoindre à quelqu'un de\" (to order someone to), \"commander de\".",
-          "Register matters. \"Sommer\" and \"enjoindre\" are legal or very formal; in a newspaper you read \"le gouvernement a sommé l'entreprise de s'expliquer\" with a figurative force. In everyday speech you just \"relancez\" someone (follow up) or \"leur mettez la pression\".",
+          "Register matters. \"Sommer\" and \"enjoindre\" are legal or very formal; in a newspaper you read \"le gouvernement a sommé l'entreprise de s'expliquer\" with a figurative force. In everyday speech you just \"relancer\" someone (follow up) or \"mettre la pression\" on them.",
         ],
         examples: [
           { es: "Le commissaire de justice a délivré une sommation de quitter les lieux.", en: "The bailiff served a formal order to vacate the premises." },
@@ -575,8 +575,8 @@ export const FR_C2_U02: Lesson[] = [
             en: "The landlord notifies the tenant, [who] then has fifteen days to reply.",
             sentence: "Le bailleur avise le preneur, ___ dispose alors de quinze jours pour répondre.",
             answer: "lequel",
-            altAnswers: ["ce dernier"],
-            explanation: "\"Lequel\" (or \"ce dernier\") points unambiguously to the tenant, whereas \"qui\" could be read as referring back to the landlord in a long sentence.",
+            altAnswers: ["ce dernier", "qui"],
+            explanation: "\"Lequel\" (or \"ce dernier\") is the legal drafter's choice: it marks gender and number and leaves no doubt that the tenant is meant. \"Qui\" is grammatical too, but in a long clause with two masculine roles it is less explicit.",
           },
           {
             type: "listen-choose",
@@ -686,7 +686,7 @@ export const FR_C2_U02: Lesson[] = [
       {
         type: "dictation",
         audio: "Le délai de rétractation est de quatorze jours calendaires.",
-        explanation: "\"Calendaires\" counts every day; \"rétractation\" has no n before the second t.",
+        explanation: "\"Calendaires\" counts every day. Write \"rétractation\" (-tation), not \"rétraction\", which is a physical shrinking.",
       },
       {
         type: "speak",
@@ -746,7 +746,7 @@ export const FR_C2_U02: Lesson[] = [
       {
         heading: "Résilier, résoudre, annuler: three ways to end a contract",
         body: [
-          "English 'cancel' covers everything; French law distinguishes by time and by cause. \"Résilier\" (la résiliation) ends a contract for the future only: what was done before remains valid. You résiliez a phone subscription, a lease, an insurance policy. \"Résoudre\" (la résolution) ends a contract because one party failed to perform (\"pour inexécution\"), and it is in principle retroactive: the parties return what they received. If you paid for a car that was never delivered, you seek \"la résolution de la vente\" and get your money back.",
+          "English 'cancel' covers everything; French law distinguishes by time and by cause. \"Résilier\" (la résiliation) ends a contract for the future only: what was done before remains valid. You \"résilier\" a phone subscription, a lease, an insurance policy. \"Résoudre\" (la résolution) ends a contract because one party failed to perform (\"pour inexécution\"), and it is in principle retroactive: the parties return what they received. If you paid for a car that was never delivered, you seek \"la résolution de la vente\" and get your money back.",
           "\"Annuler\" (l'annulation) in its legal sense means declaring that the contract was never validly formed: \"la nullité du contrat\". The causes are defects at birth: \"un vice du consentement\" (mistake, \"l'erreur\"; fraud, \"le dol\"; duress, \"la violence\"), a missing legal formality, an illegal object. A nullity wipes the contract out from the start. In everyday French, of course, people \"annulent\" a dinner or a booking: that is not the legal sense.",
           "Finally, \"se rétracter\" (la rétractation) is a consumer's right to change his mind within a legal period (\"le délai de rétractation\": fourteen days for distance selling, ten days for buying a home) without giving any reason. It applies only where the law grants it: there is no general right to cancel a purchase in a shop.",
         ],
@@ -781,7 +781,7 @@ export const FR_C2_U02: Lesson[] = [
         heading: "Choosing the right word in context",
         body: [
           "To choose, ask two questions. Was the contract validly formed? If not → \"nullité / annuler\". If yes, is it ending because someone failed to perform? If so → \"résolution / résoudre\" (or, for contracts that run over time like leases, \"résiliation pour faute\"). Is it ending normally, at someone's initiative, for the future? → \"résiliation / résilier\". Is it a consumer using a legal cooling-off period? → \"rétractation / se rétracter\".",
-          "Watch the forms. \"Résoudre\" conjugates like the problem-solving verb: \"le contrat a été résolu\" (past participle \"résolu\"), \"la résolution\". \"Résilier\" is regular: \"résilié\", \"la résiliation\". \"Se rétracter\" is pronominal: \"elle s'est rétractée\". And \"rétractation\" has no n in the middle (not \"*rétractaction\").",
+          "Watch the forms. \"Résoudre\" conjugates like the problem-solving verb: \"le contrat a été résolu\" (past participle \"résolu\"), \"la résolution\". \"Résilier\" is regular: \"résilié\", \"la résiliation\". \"Se rétracter\" is pronominal: \"elle s'est rétractée\". And the legal noun is \"rétractation\", with -tation: \"la rétraction\" is a physical shrinking (of a muscle, a material).",
           "In daily life you will hear \"annuler\" for everything, and that is fine at the bakery. In a letter to an insurer, a landlord or a lawyer, the precise word shows you know what you are asking for, and it often decides whether you get your money back.",
         ],
         examples: [
@@ -1583,7 +1583,7 @@ export const FR_C2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into plain everyday French, explaining the letter to a friend as tu.",
+        prompt: "Translate into plain everyday French, explaining the letter to a friend as \"tu\".",
         source: "They say you forgot to declare your rent, so you owe about 3,400 euros more, plus a small penalty.",
         answer: "Ils disent que tu as oublié de déclarer tes loyers, donc tu dois environ 3 400 euros de plus, plus une petite pénalité.",
         altAnswers: ["Ils disent que tu as oublié de déclarer tes loyers, alors tu dois environ 3 400 euros de plus, plus une petite pénalité.", "Ils disent que tu as oublié de déclarer tes loyers, donc tu dois à peu près 3 400 euros de plus, plus une petite pénalité.", "Ils disent que tu as oublié de déclarer tes loyers, donc tu dois environ 3 400 euros en plus, avec une petite pénalité.", "D'après eux, tu as oublié de déclarer tes loyers, donc tu dois environ 3 400 euros de plus, plus une petite pénalité."],
@@ -1662,9 +1662,9 @@ export const FR_C2_U02: Lesson[] = [
           {
             type: "multiple-choice",
             question: "After a minor car accident, what do the two drivers fill in together?",
-            options: ["Ils dressent un constat amiable.", "Ils établissent un constat amiable.", "Ils pratiquent un constat amiable.", "Ils mènent un constat amiable."],
+            options: ["Ils dressent un constat amiable.", "Ils accomplissent un constat amiable.", "Ils pratiquent un constat amiable.", "Ils mènent un constat amiable."],
             correctIndex: 0,
-            explanation: "\"Dresser un constat\" is the fixed collocation (in speech also \"remplir un constat\").",
+            explanation: "\"Dresser un constat\" is the fixed collocation (insurers also say \"établir un constat\", and in speech \"remplir un constat\"). \"Accomplir\" goes with formalities, \"pratiquer\" with activities and prices, \"mener\" with investigations.",
           },
           {
             type: "translate",
@@ -1699,8 +1699,8 @@ export const FR_C2_U02: Lesson[] = [
             prompt: "Translate into careful written French.",
             source: "I realised that the contract had expired.",
             answer: "Je me suis rendu compte que le contrat avait expiré.",
-            altAnswers: ["Je me suis rendue compte que le contrat avait expiré.", "J'ai pris conscience que le contrat avait expiré.", "Je me suis aperçu que le contrat avait expiré.", "Je me suis aperçue que le contrat avait expiré.", "Je me suis rendu compte que le contrat était expiré."],
-            explanation: "\"Se rendre compte que\" (or \"s'apercevoir que\"), not \"réaliser que\". Note: in \"se rendre compte\" the participle traditionally stays invariable (\"rendu\"), because \"compte\" is the direct object; \"rendue\" is a common variant.",
+            altAnswers: ["J'ai pris conscience que le contrat avait expiré.", "Je me suis aperçu que le contrat avait expiré.", "Je me suis aperçue que le contrat avait expiré.", "Je me suis rendu compte que le contrat était expiré."],
+            explanation: "\"Se rendre compte que\" (or \"s'apercevoir que\"), not \"réaliser que\". Note: in \"se rendre compte\" the participle stays invariable (\"rendu\"), even for a woman, because \"compte\" is the direct object: \"elle s'est rendu compte\". With \"s'apercevoir\" it agrees: \"je me suis aperçue\".",
           },
           {
             type: "fill-blank",
@@ -2132,7 +2132,7 @@ export const FR_C2_U02: Lesson[] = [
       {
         heading: "Scene 3: last questions and the signature",
         body: [
-          "\"— Une dernière question, Maître : la date de signature de l'acte est-elle déjà fixée ? — Nous l'avons prévue au plus tard le 15 juillet. Si votre banque tarde, nous pourrons la reporter d'un commun accord, par avenant. — Très bien. Et le délai de rétractation, il court à partir d'aujourd'hui ? — Non : il court à compter du lendemain de la première présentation de la lettre recommandée qui vous notifiera le compromis signé. Vous aurez alors dix jours. — Parfait, c'est très clair. Où dois-je parapher ? — En bas de chaque page, et vous signerez en dernière page, précédé de la mention « Lu et approuvé ». — Voilà. Je vous remercie infiniment pour vos explications, Maître. — Je vous en prie, c'est mon rôle. Et toutes mes félicitations pour ce premier achat.\"",
+          "\"— Une dernière question, Maître : la date de signature de l'acte est-elle déjà fixée ? — Nous l'avons prévue au plus tard le 15 juillet. Si votre banque tarde, nous pourrons la reporter d'un commun accord, par avenant. — Très bien. Et le délai de rétractation, il court à partir d'aujourd'hui ? — Non : il court à compter du lendemain de la première présentation de la lettre recommandée qui vous notifiera le compromis signé. Vous aurez alors dix jours. — Parfait, c'est très clair. Où dois-je parapher ? — En bas de chaque page, et vous signerez en dernière page, sous la mention manuscrite « Lu et approuvé ». — Voilà. Je vous remercie infiniment pour vos explications, Maître. — Je vous en prie, c'est mon rôle. Et toutes mes félicitations pour ce premier achat.\"",
           "Formal questions often use inversion (\"la date est-elle déjà fixée ?\"); everyday questions can keep statement order with a rising tone (\"il court à partir d'aujourd'hui ?\"). Sophie mixes both, which is natural: a formal frame with spoken touches. \"Reporter d'un commun accord\" (postpone by mutual agreement) and \"par avenant\" (by an amendment) bring back Unit 2 vocabulary.",
           "Thanks and replies: \"Je vous remercie infiniment pour vos explications\" (\"pour\" + noun; \"de\" + noun is more formal: \"je vous remercie de votre patience\"). The professional answers \"Je vous en prie\", the formal you're welcome. And \"Où dois-je parapher ?\": to initial the pages.",
         ],
@@ -2163,7 +2163,7 @@ export const FR_C2_U02: Lesson[] = [
           },
           {
             type: "listen-choose",
-            audio: "Vous signerez en dernière page, précédé de la mention « Lu et approuvé ».",
+            audio: "Vous signerez en dernière page, sous la mention « Lu et approuvé ».",
             question: "What does it mean?",
             options: [
               "You'll sign on the last page, after writing 'Read and approved'.",
@@ -2172,7 +2172,7 @@ export const FR_C2_U02: Lesson[] = [
               "You'll sign every page and then write 'approved'.",
             ],
             correctIndex: 0,
-            explanation: "\"Précédé de la mention\": the handwritten words come just before the signature.",
+            explanation: "\"Sous la mention\": the handwritten words \"Lu et approuvé\" come just above the signature.",
           },
         ],
       },
@@ -2249,7 +2249,7 @@ export const FR_C2_U02: Lesson[] = [
       {
         type: "dictation",
         audio: "Le dépôt de garantie sera versé sous séquestre.",
-        explanation: "\"Sous séquestre\": in escrow; \"séquestre\" has an accent on the second e only.",
+        explanation: "\"Sous séquestre\": in escrow; \"séquestre\" has an accent on the first e only (sé-questre).",
       },
       {
         type: "speak",
@@ -2569,8 +2569,8 @@ export const FR_C2_U02: Lesson[] = [
             prompt: "Translate into French.",
             source: "The defence lawyer argued that the evidence had been obtained illegally.",
             answer: "L'avocat de la défense a fait valoir que les preuves avaient été obtenues illégalement.",
-            altAnswers: ["L'avocate de la défense a fait valoir que les preuves avaient été obtenues illégalement.", "L'avocat de la défense a fait valoir que les preuves avaient été obtenues de manière illégale.", "L'avocat de la défense a soutenu que les preuves avaient été obtenues illégalement.", "L'avocat de la défense a fait valoir que les preuves avaient été obtenues de façon illégale."],
-            explanation: "\"Faire valoir que\" (or \"soutenir que\") is the precise verb for advancing a legal argument; 'argue' is never \"*arguer\" in this sense.",
+            altAnswers: ["L'avocate de la défense a fait valoir que les preuves avaient été obtenues illégalement.", "L'avocat de la défense a fait valoir que les preuves avaient été obtenues de manière illégale.", "L'avocat de la défense a soutenu que les preuves avaient été obtenues illégalement.", "L'avocat de la défense a fait valoir que les preuves avaient été obtenues de façon illégale.", "L'avocat de la défense a argué que les preuves avaient été obtenues illégalement.", "L'avocate de la défense a soutenu que les preuves avaient été obtenues illégalement."],
+            explanation: "\"Faire valoir que\" (or \"soutenir que\", \"arguer que\") is the precise verb for advancing a legal argument. Avoid \"argumenter\", which means to reason at length, not to argue that.",
           },
           {
             type: "fill-blank",
@@ -2806,7 +2806,7 @@ export const FR_C2_U02: Lesson[] = [
         body: [
           "\"Donner une réponse\" → \"apporter une réponse\" (\"apporter une solution, des précisions, une modification\"). \"Donner des documents, des informations\" → \"fournir\" (\"fournir les pièces justificatives\"). \"Donner une autorisation, un délai\" → \"accorder\". \"Donner son avis\" → \"émettre un avis\" (\"la commission a émis un avis favorable\"). \"Dire son accord\" → \"donner son accord\" is fine, but \"exprimer\" or \"manifester son accord / son désaccord\" is more formal. \"Dire une demande\" (wrong) → \"formuler une demande\".",
           "Now see them in context. A first draft of a report: \"Le comité a fait une erreur en mettant en place ce système sans avoir l'accord des salariés. Les syndicats ont dit leur désaccord et ont donné une autre proposition. La direction doit maintenant donner une réponse et mettre plus de moyens.\" The revised version: \"Le comité a commis une erreur en instaurant ce dispositif sans avoir recueilli l'accord des salariés. Les syndicats ont exprimé leur désaccord et formulé une contre-proposition. Il appartient désormais à la direction d'apporter une réponse et de déployer des moyens supplémentaires.\"",
-          "The revised text is not longer, but every verb now carries meaning: \"commettre\" (a fault), \"instaurer\" (a system), \"recueillir\" (gather consent), \"exprimer\" (an attitude), \"formuler\" (a proposal), \"apporter\" (an answer), \"déployer\" (resources). This is the single fastest way to make your writing sound Mastery.",
+          "The revised text is not longer, but every verb now carries meaning: \"commettre\" (a fault), \"instaurer\" (a system), \"recueillir\" (gather consent), \"exprimer\" (an attitude), \"formuler\" (a proposal), \"apporter\" (an answer), \"déployer\" (resources). This is the single fastest way to make your writing sound like Mastery-level French.",
         ],
         examples: [
           { es: "Le ministère n'a pas encore apporté de réponse.", en: "The ministry has not yet provided an answer." },

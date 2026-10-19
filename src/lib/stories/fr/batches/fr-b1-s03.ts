@@ -331,7 +331,7 @@ export const FR_B1_S03_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "le compartiment", en: "compartment", forms: ["compartiment"] },
     { es: "ronfler", en: "to snore", forms: ["ronflait", "ronfler"] },
     { es: "la côte", en: "hill, slope", forms: ["côte"] },
-    { es: "les écouteurs", en: "earphones", forms: ["écouteurs"] },
+    { es: "on aurait dit", en: "it sounded like, you'd have thought (fixed phrase)", forms: ["aurait"] },
     { es: "freiner", en: "to brake", forms: ["freiné"] },
     { es: "le haut-parleur", en: "loudspeaker", forms: ["haut-parleur"] },
     { es: "la voie", en: "(railway) track", forms: ["voie"] },

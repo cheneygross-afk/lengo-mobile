@@ -194,7 +194,7 @@ export const PT_A1_U02_EXTRA: Lesson[] = [
       {
         heading: "T, D and the r's",
         body: [
-          "In most of Brazil, t and d before an i sound turn into ch and j: \"tia\" is 'CHEE-ah', \"dia\" is 'JEE-ah'. Final unstressed -te and -de do the same, because final -e sounds like i: \"leite\" is 'leitchi', \"cidade\" is 'see-DAH-jee'.",
+          "In most of Brazil, t and d before an i sound turn into ch and j: \"tia\" is 'CHEE-ah', \"dia\" is 'JEE-ah'. Final unstressed -te and -de do the same, because final -e sounds like i: \"leite\" is 'LAY-chee', \"cidade\" is 'see-DAH-jee'.",
           "An r at the start of a word, and rr, sound like the h in hat: \"Rio\", \"rua\", \"carro\". A single r between vowels is a quick tap, like the tt in American 'better': \"caro\", \"para\". So \"o carro é caro\" uses both.",
         ],
         examples: [
@@ -235,7 +235,7 @@ export const PT_A1_U02_EXTRA: Lesson[] = [
         heading: "S, Z, X, LH and NH",
         body: [
           "A single s between vowels is a z: \"casa\", \"mesa\", \"brasileira\". For an s sound between vowels Portuguese writes ss or ç: \"passo\", \"açúcar\". X is usually sh (\"xícara\", \"caixa\"), but z in \"exemplo\" and ks in \"táxi\".",
-          "\"Lh\" is the lli of million and \"nh\" the ny of canyon, one sound each: \"filho\", \"trabalho\", \"vinho\", \"amanhã\". Swap them for plain l or n and the word changes: \"filha\" (daughter) vs \"fila\" (queue).",
+          "\"Lh\" is the lli of million and \"nh\" the ny of canyon, one sound each: \"filho\", \"trabalho\", \"vinho\", \"amanhã\". Swap them for plain l or n and the word changes: \"filha\" (daughter) vs \"fila\" (a line of people).",
         ],
         examples: [
           { es: "Uma xícara de café, por favor.", en: "A cup of coffee, please." },
@@ -286,7 +286,7 @@ export const PT_A1_U02_EXTRA: Lesson[] = [
         source: "Coffee with milk, please.",
         answer: "Café com leite, por favor.",
         altAnswers: ["Um café com leite, por favor."],
-        explanation: "\"Leite\" sounds like 'leitchi': final -te turns into 'chee' in most of Brazil.",
+        explanation: "\"Leite\" sounds like 'LAY-chee': final -te turns into 'chee' in most of Brazil.",
       },
       {
         type: "fill-blank",
@@ -345,7 +345,7 @@ export const PT_A1_U02_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "My daughter is from Curitiba.",
         answer: "Minha filha é de Curitiba.",
-        explanation: "\"Minha\" has nh and \"filha\" has lh. With a plain l, \"fila\" means a queue.",
+        explanation: "\"Minha\" has nh and \"filha\" has lh. With a plain l, \"fila\" means a line of people.",
       },
       {
         type: "word-order",
@@ -379,7 +379,7 @@ export const PT_A1_U02_EXTRA: Lesson[] = [
         type: "speak",
         text: "Boa noite, tia! Até amanhã!",
         prompt: "Say it in Portuguese: Good night, auntie! See you tomorrow!",
-        tip: "noi-tchi, TCHEE-a, a-TÉ a-ma-NHÃ.",
+        tip: "'NOY-chee', 'CHEE-ah', and a plain t in a-TÉ. End a-ma-NHÃ nasal, with no n.",
         explanation: "Two t's turn into ch (\"noite\", \"tia\") and one stays plain (\"até\").",
       },
       {
@@ -562,7 +562,7 @@ export const PT_A1_U02_EXTRA: Lesson[] = [
         type: "speak",
         text: "Também sou estudante.",
         prompt: "Say it in Portuguese: I'm a student too.",
-        tip: "tam-BÉM sou es-tu-DAN-tchi.",
+        tip: "'tahm-BAYN soh es-too-DAHN-chee': the final -te of estudante is 'chee'.",
         explanation: "\"Também\" is stressed on BÉM and \"estudante\" on DAN, the second-to-last syllable.",
       },
       {

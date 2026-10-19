@@ -66,7 +66,7 @@ export const FR_C2_U31: Lesson[] = [
         body: [
           "\"L'inflation\" is measured by \"l'indice des prix à la consommation\" (IPC, the consumer price index) published by the INSEE. Press verbs: \"l'inflation ralentit\", \"accélère\", \"reflue\" (ebbs), \"atteint un pic\". \"La désinflation\" is a slowing of inflation (prices still rise, but less fast); \"la déflation\" is a fall in prices. Don't mix them up.",
           "To fight inflation, the European Central Bank (\"la BCE\") raises \"ses taux directeurs\" (its key interest rates); to support activity, it lowers them: \"la BCE a relevé / abaissé ses taux directeurs d'un quart de point\". This affects \"les taux d'intérêt\" of loans, \"le crédit immobilier\", and indirectly \"le pouvoir d'achat\" (purchasing power), the great political theme in France.",
-          "\"Le SMIC\" (salaire minimum interprofessionnel de croissance) is the minimum wage, \"revalorisé\" (raised) automatically when inflation exceeds 2 %. \"Le chômage\" is unemployment, \"le taux de chômage\" the rate; \"un demandeur d'emploi\" is a job seeker, the official term. \"Le déficit public\" is the yearly gap; \"la dette publique\" the accumulated stock.",
+          "\"Le SMIC\" (salaire minimum interprofessionnel de croissance) is the minimum wage, \"revalorisé\" (raised) every 1 January and automatically during the year once prices have risen by 2 % or more since the last increase. \"Le chômage\" is unemployment, \"le taux de chômage\" the rate; \"un demandeur d'emploi\" is a job seeker, the official term. \"Le déficit public\" is the yearly gap; \"la dette publique\" the accumulated stock.",
         ],
         examples: [
           { es: "L'inflation a reflué à 2,1 % sur un an en mars.", en: "Inflation eased to 2.1% year on year in March." },
@@ -244,7 +244,7 @@ export const FR_C2_U31: Lesson[] = [
           { es: "La faillite d'une grande banque a déclenché la crise de 2008.", en: "The collapse of a major bank triggered the 2008 crisis." },
           { es: "Les exportations tirent la croissance vers le haut.", en: "Exports are pulling growth upward." },
           { es: "Sous l'effet de la hausse des taux, le crédit ralentit.", en: "Under the effect of higher rates, lending is slowing." },
-          { es: "Les soldes ont dopé les ventes de janvier.", en: "The sales boosted January's sales figures." },
+          { es: "Les soldes ont dopé les ventes de janvier.", en: "The winter sales boosted January's figures." },
           { es: "L'incertitude politique freine l'investissement des entreprises.", en: "Political uncertainty is holding back business investment." },
         ],
         checkpoint: [
@@ -689,7 +689,7 @@ export const FR_C2_U31: Lesson[] = [
       {
         heading: "Core inflation and the forecasts",
         body: [
-          "The dispatch continues: « L'inflation sous-jacente, qui exclut les prix les plus volatils comme l'énergie et les produits frais, s'établit à 2,1 %. Pour la Banque de France, la hausse des prix devrait rester inférieure à 2 % jusqu'à la fin de l'année prochaine. La BCE, qui a déjà abaissé ses taux directeurs à quatre reprises depuis juin 2024, pourrait procéder à une nouvelle baisse en décembre, selon plusieurs économistes. »",
+          "The dispatch continues: « L'inflation sous-jacente, qui exclut les prix les plus volatils comme l'énergie et les produits frais, s'établit à 2,1 %. Pour la Banque de France, la hausse des prix devrait rester inférieure à 2 % jusqu'à la fin de l'année prochaine. La BCE, qui a déjà abaissé ses taux directeurs à trois reprises depuis juin 2024, pourrait procéder à une nouvelle baisse en décembre, selon plusieurs économistes. »",
           "\"L'inflation sous-jacente\" (core inflation) strips out volatile items; the relative clause explains the term for the reader, a typical journalistic gloss. Now the forecasts: they are marked by modal verbs and the conditional. \"Devrait rester\" (should remain) is the standard forecast verb; \"pourrait procéder à\" (could carry out) is weaker, a possibility. Both are attributed: \"pour la Banque de France\", \"selon plusieurs économistes\".",
           "The press also uses the conditional alone to report a forecast without endorsing it: \"la croissance atteindrait 1 % l'an prochain\" (growth would reach / is expected to reach). This is the hearsay or forecasting conditional you met at the Advanced level: the journalist reports, but does not vouch.",
         ],
@@ -1072,7 +1072,7 @@ export const FR_C2_U31: Lesson[] = [
       {
         heading: "The announcement",
         body: [
-          "A morning radio show. The presenter, Julien, speaks to the economist Hélène Morel (an imaginary interview between two imaginary retail chains). « Hélène Morel, bonjour. Grande nouvelle ce matin : Primavert et Distrimax annoncent leur rapprochement. Concrètement, de quoi s'agit-il ? — Bonjour Julien. Il s'agit d'une fusion entre le quatrième et le sixième distributeur français. Ensemble, ils pèseraient environ 18 % du marché, ce qui ferait d'eux le numéro deux du secteur, derrière le leader historique. »",
+          "A morning radio show. The presenter, Julien, speaks to the economist Hélène Morel (an imaginary interview about two imaginary retail chains). « Hélène Morel, bonjour. Grande nouvelle ce matin : Primavert et Distrimax annoncent leur rapprochement. Concrètement, de quoi s'agit-il ? — Bonjour Julien. Il s'agit d'une fusion entre le quatrième et le sixième distributeur français. Ensemble, ils pèseraient environ 18 % du marché, ce qui ferait d'eux le numéro deux du secteur, derrière le leader historique. »",
           "Notice: \"le rapprochement\" (the coming together) is the soft corporate word for a merger, before details are known. \"De quoi s'agit-il ?\" (what's it about?) is the classic journalist's opening. The economist uses the conditional (\"pèseraient\", \"ferait\") because the merger is not yet complete: the figures are projections. \"Peser 18 % du marché\" (to weigh 18% of the market) is the press idiom for market share.",
           "\"Un distributeur\" (or \"une enseigne\", \"un groupe de distribution\") is a retailer; \"la grande distribution\" is the supermarket sector as a whole.",
         ],
@@ -1130,7 +1130,7 @@ export const FR_C2_U31: Lesson[] = [
             prompt: "Translate into French.",
             source: "Management declines to comment.",
             answer: "La direction se refuse à tout commentaire.",
-            altAnswers: ["La direction refuse de faire tout commentaire.", "La direction ne fait aucun commentaire.", "La direction refuse tout commentaire."],
+            altAnswers: ["La direction ne fait aucun commentaire.", "La direction refuse tout commentaire."],
             explanation: "\"Se refuser à tout commentaire\" is the set phrase of business news.",
           },
           {
@@ -1539,7 +1539,7 @@ export const FR_C2_U31: Lesson[] = [
         ],
         examples: [
           { es: "Proust a écrit des pastiches de Balzac et de Flaubert.", en: "Proust wrote pastiches of Balzac and Flaubert." },
-          { es: "Ce roman n'est qu'un plagiat maladroit.", en: "This novel is nothing but a clumsy plagiarism." },
+          { es: "Ce roman n'est qu'un plagiat maladroit.", en: "This novel is nothing but clumsy plagiarism." },
           { es: "Ses épigones n'ont retenu que les tics de son style.", en: "His imitators kept only the tics of his style." },
           { es: "Elle s'inscrit dans le sillage de Marguerite Duras.", en: "She follows in Marguerite Duras's wake." },
           { es: "Le coup de la lettre retrouvée est un procédé éculé.", en: "The rediscovered letter is a hackneyed device." },
@@ -1688,7 +1688,7 @@ export const FR_C2_U31: Lesson[] = [
       {
         type: "dictation",
         audio: "Il fumait une cigarette nerveuse.",
-        explanation: "An hypallage: the nervousness belongs to the smoker.",
+        explanation: "A hypallage: the nervousness belongs to the smoker.",
       },
       {
         type: "speak",

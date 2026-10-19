@@ -22,7 +22,7 @@ export const PT_B2_U17: Lesson[] = [
         examples: [
           { es: "E se a gente pedisse uma pizza?", en: "What if we ordered a pizza?" },
           { es: "E se você falasse com ela hoje à noite?", en: "What if you talked to her tonight?" },
-          { es: "E se a gente fosse de metrô em vez de carro?", en: "What if we went by metro instead of by car?" },
+          { es: "E se a gente fosse de metrô em vez de carro?", en: "What if we went by subway instead of by car?" },
           { es: "E se nós saíssemos mais cedo para fugir do trânsito?", en: "What if we left earlier to beat the traffic?" },
           { es: "E se vocês dividissem o aluguel?", en: "What if you split the rent?" },
         ],
@@ -380,7 +380,7 @@ export const PT_B2_U17: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "Maybe it'd be better to wait until Monday.",
         answer: "Talvez fosse melhor esperar até segunda.",
-        altAnswers: ["Talvez seja melhor esperar até segunda.", "Talvez fosse melhor esperar até segunda-feira.", "Talvez seja melhor esperar até segunda-feira.", "Talvez seria melhor esperar até segunda.", "Acho que seria melhor esperar até segunda."],
+        altAnswers: ["Talvez seja melhor esperar até segunda.", "Talvez fosse melhor esperar até segunda-feira.", "Talvez seja melhor esperar até segunda-feira.", "Acho que seria melhor esperar até segunda."],
         explanation: "\"Talvez\" before the verb takes the subjunctive; \"fosse\" sounds even more tentative than \"seja\".",
       },
       {
@@ -457,7 +457,7 @@ export const PT_B2_U17: Lesson[] = [
         heading: "Seria melhor que, o ideal seria que",
         body: [
           "With \"que\" instead of \"se\", you get a recommendation: \"seria melhor que você chegasse cedo\" (it would be better for you to arrive early). Because the main verb \"seria\" is a conditional, the sequence of tenses from Unit 1 pulls the subjunctive into its imperfect form. Compare \"é melhor que você chegue\", with the present.",
-          "\"O ideal seria que\" (ideally...) is the workplace favourite. It names the best outcome and leaves room for reality: \"o ideal seria que todos respondessem até sexta\". \"Seria importante que\" and \"seria interessante que\" work the same way.",
+          "\"O ideal seria que\" (ideally...) is the workplace favorite. It names the best outcome and leaves room for reality: \"o ideal seria que todos respondessem até sexta\". \"Seria importante que\" and \"seria interessante que\" work the same way.",
           "With no named subject, use the infinitive: \"seria melhor esperar\", \"o ideal seria sair às sete\". The subjunctive appears only when a different person has to act.",
         ],
         examples: [
@@ -496,11 +496,11 @@ export const PT_B2_U17: Lesson[] = [
       {
         heading: "In the condomínio: complaints without a fight",
         body: [
-          "The condomínio (residential building) is where these formulas earn their keep. Notices in the elevator and messages in the residents' WhatsApp group are full of them: \"seria bom se os moradores não deixassem lixo no corredor\". Naming the ideal instead of the culprit keeps neighbours on speaking terms.",
+          "The condomínio (residential building) is where these formulas earn their keep. Notices in the elevator and messages in the residents' WhatsApp group are full of them: \"seria bom se os moradores não deixassem lixo no corredor\". Naming the ideal instead of the culprit keeps neighbors on speaking terms.",
           "Add \"por gentileza\" (kindly) or \"se possível\" (if possible) for extra politeness, and \"agradeço a compreensão\" (thank you for your understanding) to close. If the polite version fails, you can always escalate to the síndico (the building manager).",
         ],
         examples: [
-          { es: "Seria bom se os moradores não deixassem lixo no corredor.", en: "It'd be good if residents didn't leave rubbish in the hallway." },
+          { es: "Seria bom se os moradores não deixassem lixo no corredor.", en: "It'd be good if residents didn't leave trash in the hallway." },
           { es: "Por gentileza, seria possível que vocês não usassem a furadeira no domingo?", en: "Would it be possible, please, for you not to use the drill on Sunday?" },
           { es: "O ideal seria que cada um recolhesse a sujeira do seu cachorro.", en: "Ideally, everyone would pick up after their own dog." },
           { es: "Seria ótimo se a portaria avisasse quando chegasse uma encomenda.", en: "It'd be great if the front desk told us when a package arrived." },
@@ -511,10 +511,10 @@ export const PT_B2_U17: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "It'd be good if residents didn't leave rubbish in the hallway.",
+            source: "It'd be good if residents didn't leave trash in the hallway.",
             answer: "Seria bom se os moradores não deixassem lixo no corredor.",
             altAnswers: ["Seria bom que os moradores não deixassem lixo no corredor.", "Seria bom se os moradores não deixassem o lixo no corredor.", "Seria bom se os moradores não deixassem lixo no corredor do prédio."],
-            explanation: "The negative goes right before the subjunctive: \"não deixassem\". \"Lixo\" covers rubbish and trash.",
+            explanation: "The negative goes right before the subjunctive: \"não deixassem\". \"Lixo\" means trash or garbage.",
           },
           {
             type: "listen-choose",
@@ -591,9 +591,9 @@ export const PT_B2_U17: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into Portuguese.",
         source: "It would be good if the building manager answered our messages.",
-        answer: "Seria bom se o síndico respondesse as nossas mensagens.",
-        altAnswers: ["Seria bom se o síndico respondesse nossas mensagens.", "Seria bom se o síndico respondesse às nossas mensagens.", "Seria bom se a síndica respondesse as nossas mensagens.", "Seria bom se a síndica respondesse nossas mensagens.", "Era bom se o síndico respondesse as nossas mensagens.", "Seria bom que o síndico respondesse as nossas mensagens."],
-        explanation: "\"Síndico\" is the building manager elected by residents. In formal writing, \"responder\" often takes \"a\": \"às nossas mensagens\".",
+        answer: "Seria bom se o síndico respondesse às nossas mensagens.",
+        altAnswers: ["Seria bom se o síndico respondesse nossas mensagens.", "Seria bom se o síndico respondesse as nossas mensagens.", "Seria bom se a síndica respondesse as nossas mensagens.", "Seria bom se a síndica respondesse nossas mensagens.", "Era bom se o síndico respondesse as nossas mensagens.", "Seria bom que o síndico respondesse as nossas mensagens."],
+        explanation: "\"Síndico\" is the building manager elected by residents. Careful usage is \"responder a\": \"às nossas mensagens\"; speech often drops the \"a\".",
       },
       {
         type: "dictation",
@@ -654,7 +654,7 @@ export const PT_B2_U17: Lesson[] = [
         heading: "Dream vocabulary: largar, quitar, abrir",
         body: [
           "Brazilians quit with \"largar o emprego\" (casual, drop everything) or \"pedir demissão\" (to resign, the official step). Debts are paid off with \"quitar\" (\"quitar o financiamento do apartamento\"), and \"abrir um negócio\" is to start a business.",
-          "\"Dar a volta ao mundo\" is to go round the world; \"conhecer\" is the verb for visiting a place for the first time (\"conheceria o Japão\"). Generosity sounds like \"ajudar a família\", \"dar uma casa para a minha mãe\", \"doar para uma ONG\". \"Investir\" and \"guardar\" (to save) are for the sensible winner.",
+          "\"Dar a volta ao mundo\" is to go around the world; \"conhecer\" is the verb for visiting a place for the first time (\"conheceria o Japão\"). Generosity sounds like \"ajudar a família\", \"dar uma casa para a minha mãe\", \"doar para uma ONG\". \"Investir\" and \"guardar\" (to save) are for the sensible winner.",
         ],
         examples: [
           { es: "A primeira coisa que eu faria seria quitar o apartamento.", en: "The first thing I'd do would be to pay off the apartment." },
@@ -826,7 +826,7 @@ export const PT_B2_U17: Lesson[] = [
         heading: "Ele dirige como se a rua fosse dele",
         body: [
           "\"Como se\" (as if) always takes the imperfect subjunctive, whatever the tense of the main verb: \"ele dirige como se a rua fosse dele\" (he drives as if he owned the street). The subjunctive signals that the comparison is imaginary: the street isn't his.",
-          "That makes \"como se\" a favourite tool for vivid description and for complaints, because it paints behaviour with a picture. \"Ela fala como se soubesse tudo\" criticises without saying she's arrogant. The main verb is often an action: falar, agir (to act), olhar, tratar, gastar, dirigir.",
+          "That makes \"como se\" a favorite tool for vivid description and for complaints, because it paints behavior with a picture. \"Ela fala como se soubesse tudo\" criticizes without saying she's arrogant. The main verb is often an action: falar, agir (to act), olhar, tratar, gastar, dirigir.",
           "English speakers sometimes write \"como se ele sabe\", copying the present in as if he knows. Portuguese never allows the indicative after \"como se\".",
         ],
         examples: [
@@ -859,7 +859,7 @@ export const PT_B2_U17: Lesson[] = [
         heading: "In the past: ela me olhou como se eu fosse louco",
         body: [
           "When the story is in the past, \"como se\" doesn't change: \"ela me olhou como se eu fosse louco\" (she looked at me as if I were crazy). The main verb moves into the perfeito or imperfeito; the verb after \"como se\" stays in the imperfect subjunctive.",
-          "This is the storyteller's favourite way to describe reactions and scenes: \"todo mundo ficou quieto, como se ninguém soubesse o que dizer\". The simple imperfect subjunctive covers anything happening at the same time as the main verb, which is almost always what a description needs.",
+          "This is the storyteller's favorite way to describe reactions and scenes: \"todo mundo ficou quieto, como se ninguém soubesse o que dizer\". The simple imperfect subjunctive covers anything happening at the same time as the main verb, which is almost always what a description needs.",
           "Watch the agreement: \"louco\" or \"louca\" follows the person being described, not the speaker.",
         ],
         examples: [
@@ -943,9 +943,9 @@ export const PT_B2_U17: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into Portuguese.",
         source: "The boss treats us as if we were children.",
-        answer: "O chefe trata a gente como se fôssemos crianças.",
-        altAnswers: ["O chefe nos trata como se fôssemos crianças.", "O chefe trata a gente como se a gente fosse criança.", "O chefe nos trata como se nós fôssemos crianças.", "A chefe nos trata como se fôssemos crianças.", "A chefe trata a gente como se fôssemos crianças.", "O chefe trata a gente como criança."],
-        explanation: "\"Como se fôssemos\" with the circumflex. In speech \"como se a gente fosse criança\" is just as natural.",
+        answer: "O chefe nos trata como se fôssemos crianças.",
+        altAnswers: ["O chefe trata a gente como se fôssemos crianças.", "O chefe trata a gente como se a gente fosse criança.", "O chefe nos trata como se nós fôssemos crianças.", "A chefe nos trata como se fôssemos crianças.", "A chefe trata a gente como se fôssemos crianças.", "O chefe trata a gente como criança."],
+        explanation: "\"Como se fôssemos\" with the circumflex, after \"nos trata\". Speech mixes \"trata a gente\" with \"fôssemos\", or says \"como se a gente fosse criança\".",
       },
       {
         type: "translate",
@@ -1248,9 +1248,9 @@ export const PT_B2_U17: Lesson[] = [
     format: "Dialogue Lab",
     sections: [
       {
-        heading: "Listener 1: the noisy neighbour",
+        heading: "Listener 1: the noisy neighbor",
         body: [
-          "\"Papo de Vizinho\" is a weekly podcast from Belo Horizonte. Its hosts, Carol and Thiago, read out listeners' messages and argue about the best advice. Today's first message comes from Fernanda, whose upstairs neighbour moves furniture at midnight.",
+          "\"Papo de Vizinho\" is a weekly podcast from Belo Horizonte. Its hosts, Carol and Thiago, read out listeners' messages and argue about the best advice. Today's first message comes from Fernanda, whose upstairs neighbor moves furniture at midnight.",
           "Listen for how the hosts mix registers. Carol, the gentle one, gives advice through what she would do (\"eu tentaria conversar\") and through \"seria melhor se\". Thiago is blunter: \"você tem que\", \"se eu fosse você, eu ia lá hoje\". Both are natural; the difference is how much they push.",
         ],
         examples: [
@@ -1283,7 +1283,7 @@ export const PT_B2_U17: Lesson[] = [
         heading: "Listener 2: the jealous friend",
         body: [
           "The second message is from Gustavo in Curitiba. His best friend gets jealous whenever he goes out with his new colleagues, and acts \"como se ele tivesse culpa\" of something. The hosts disagree again, but this time Thiago is the cautious one.",
-          "Notice how they test hypotheses before they advise: \"e se ele chamasse o amigo para sair com o grupo?\" is a suggestion; \"se o amigo fosse um amigo de verdade, entenderia\" is a judgement. Both use the same structure but do different jobs.",
+          "Notice how they test hypotheses before they advise: \"e se ele chamasse o amigo para sair com o grupo?\" is a suggestion; \"se o amigo fosse um amigo de verdade, entenderia\" is a judgment. Both use the same structure but do different jobs.",
         ],
         examples: [
           { es: "O Gustavo diz que o melhor amigo fica com ciúme sempre que ele sai com os colegas.", en: "(Thiago) Gustavo says his best friend gets jealous every time he goes out with his colleagues." },
@@ -1309,7 +1309,7 @@ export const PT_B2_U17: Lesson[] = [
             source: "If he were a real friend, he'd understand.",
             answer: "Se ele fosse um amigo de verdade, entenderia.",
             altAnswers: ["Se ele fosse um amigo de verdade, ele entenderia.", "Se fosse um amigo de verdade, ele entenderia.", "Se fosse um amigo de verdade, entenderia.", "Se ele fosse um amigo de verdade, ia entender.", "Se ele fosse um amigo de verdade, ele ia entender.", "Se ele fosse um verdadeiro amigo, entenderia."],
-            explanation: "A judgement as an unreal condition: \"fosse\" + \"entenderia\".",
+            explanation: "A judgment as an unreal condition: \"fosse\" + \"entenderia\".",
           },
           {
             type: "listen-choose",
@@ -1765,7 +1765,7 @@ export const PT_B2_U17: Lesson[] = [
           {
             type: "speak",
             text: "Se eu tivesse tempo, eu faria o curso.",
-            tip: "Faria: stress the ri. Tivesse: ti-VÉ-si, with an open é.",
+            tip: "Faria: stress the ri. Tivesse: tchi-VÊ-si, with a closed ê.",
             explanation: "Both halves imaginary: \"tivesse\" + \"faria\".",
           },
         ],
@@ -1878,11 +1878,11 @@ export const PT_B2_U17: Lesson[] = [
           "Connectors like \"então\", \"por isso\" (that's why) and \"porque\" disappear. The \"se\" clause now carries the logic.",
         ],
         examples: [
-          { es: "Não tenho carro, então não te busco. → Se eu tivesse carro, te buscaria.", en: "I don't have a car, so I'm not picking you up. → If I had a car, I'd pick you up." },
-          { es: "Está chovendo, então a gente não vai. → Se não estivesse chovendo, a gente iria.", en: "It's raining, so we're not going. → If it weren't raining, we'd go." },
-          { es: "Ela mora longe, por isso não vem sempre. → Se ela morasse perto, viria sempre.", en: "She lives far away, that's why she doesn't come often. → If she lived nearby, she'd come often." },
-          { es: "Não sei cozinhar, por isso peço comida. → Se eu soubesse cozinhar, não pediria comida.", en: "I can't cook, so I order food. → If I could cook, I wouldn't order food." },
-          { es: "O apartamento é caro, então eles não alugam. → Se fosse mais barato, eles alugariam.", en: "The apartment is expensive, so they're not renting it. → If it were cheaper, they'd rent it." },
+          { es: "Não tenho carro, então não te busco. Se eu tivesse carro, te buscaria.", en: "I don't have a car, so I'm not picking you up. → If I had a car, I'd pick you up." },
+          { es: "Está chovendo, então a gente não vai. Se não estivesse chovendo, a gente iria.", en: "It's raining, so we're not going. → If it weren't raining, we'd go." },
+          { es: "Ela mora longe, por isso não vem sempre. Se ela morasse perto, viria sempre.", en: "She lives far away, that's why she doesn't come often. → If she lived nearby, she'd come often." },
+          { es: "Não sei cozinhar, por isso peço comida. Se eu soubesse cozinhar, não pediria comida.", en: "I can't cook, so I order food. → If I could cook, I wouldn't order food." },
+          { es: "O apartamento é caro, então eles não alugam. Se fosse mais barato, eles alugariam.", en: "The apartment is expensive, so they're not renting it. → If it were cheaper, they'd rent it." },
         ],
         checkpoint: [
           {
@@ -1911,11 +1911,11 @@ export const PT_B2_U17: Lesson[] = [
           "When the fact is in the past (\"não conseguiu a vaga\"), the full past hypothesis needs a compound tense that comes in Unit 4. For now, use a lasting cause and keep the consequence in the present: \"se ele falasse inglês, estaria trabalhando lá\" (he'd be working there now). The cause is still true today, so the simple forms fit.",
         ],
         examples: [
-          { es: "Ele não fala inglês, por isso não consegue a vaga. → Se ele falasse inglês, conseguiria a vaga.", en: "He doesn't speak English, so he can't get the job. → If he spoke English, he'd get the job." },
+          { es: "Ele não fala inglês, por isso não consegue a vaga. Se ele falasse inglês, conseguiria a vaga.", en: "He doesn't speak English, so he can't get the job. → If he spoke English, he'd get the job." },
           { es: "Se ele falasse inglês, estaria trabalhando lá.", en: "If he spoke English, he'd be working there." },
-          { es: "Nós não temos tempo, por isso não fazemos exercício. → Se tivéssemos tempo, faríamos exercício.", en: "We don't have time, so we don't exercise. → If we had time, we'd exercise." },
-          { es: "Ela não sabe a senha, então não consegue entrar. → Se soubesse a senha, conseguiria entrar.", en: "She doesn't know the password, so she can't get in. → If she knew the password, she could get in." },
-          { es: "O metrô não chega aqui, por isso todo mundo vem de carro.", en: "The metro doesn't reach here, that's why everyone comes by car." },
+          { es: "Nós não temos tempo, por isso não fazemos exercício. Se tivéssemos tempo, faríamos exercício.", en: "We don't have time, so we don't exercise. → If we had time, we'd exercise." },
+          { es: "Ela não sabe a senha, então não consegue entrar. Se soubesse a senha, conseguiria entrar.", en: "She doesn't know the password, so she can't get in. → If she knew the password, she could get in." },
+          { es: "O metrô não chega aqui, por isso todo mundo vem de carro.", en: "The subway doesn't reach here, that's why everyone comes by car." },
         ],
         checkpoint: [
           {
@@ -1931,7 +1931,7 @@ export const PT_B2_U17: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "If the metro reached here, nobody would come by car.",
+            source: "If the subway reached here, nobody would come by car.",
             answer: "Se o metrô chegasse aqui, ninguém viria de carro.",
             altAnswers: ["Se o metrô chegasse até aqui, ninguém viria de carro.", "Se o metrô chegasse aqui, ninguém ia vir de carro.", "Ninguém viria de carro se o metrô chegasse aqui.", "Se o metrô chegasse aqui, ninguém precisaria vir de carro."],
             explanation: "\"Todo mundo vem\" flips to \"ninguém viria\": the positive fact becomes a negative result.",
@@ -2080,7 +2080,7 @@ export const PT_B2_U17: Lesson[] = [
     level: "PT-B2",
     number: 11,
     title: "Real-World Mission: Se Eu Fosse Prefeito",
-    summary: "Write a message to your neighbourhood WhatsApp group about what you would change if you were mayor, and what would be better if the city...",
+    summary: "Write a message to your neighborhood WhatsApp group about what you would change if you were mayor, and what would be better if the city...",
     duration: "15 min",
     kind: "reinforce",
     format: "Real-World Mission",
@@ -2088,15 +2088,15 @@ export const PT_B2_U17: Lesson[] = [
       {
         heading: "The task: a message to the bairro group",
         body: [
-          "Your neighbourhood in Porto Alegre has a WhatsApp group, \"Moradores do Bom Fim\". Someone has asked: \"Se vocês fossem prefeitos, o que mudariam no bairro?\" Your mission is to answer with a short, friendly, persuasive message.",
-          "Plan it in three moves. Open with the hypothesis (\"se eu fosse prefeito/prefeita...\"). List two or three concrete changes in the conditional. Close with a tactful wish for the real city: \"seria ótimo se a prefeitura...\". Keep the tone warm: you're writing to neighbours, not filing a complaint.",
-          "City vocabulary helps: \"calçada\" (pavement), \"buraco\" (pothole), \"iluminação\" (street lighting), \"ciclovia\" (bike lane), \"praça\" (square), \"coleta de lixo\" (rubbish collection), \"segurança\", \"transporte público\".",
+          "Your neighborhood in Porto Alegre has a WhatsApp group, \"Moradores do Bom Fim\". Someone has asked: \"Se vocês fossem prefeitos, o que mudariam no bairro?\" Your mission is to answer with a short, friendly, persuasive message.",
+          "Plan it in three moves. Open with the hypothesis (\"se eu fosse prefeito/prefeita...\"). List two or three concrete changes in the conditional. Close with a tactful wish for the real city: \"seria ótimo se a prefeitura...\". Keep the tone warm: you're writing to neighbors, not filing a complaint.",
+          "City vocabulary helps: \"calçada\" (sidewalk), \"buraco\" (pothole), \"iluminação\" (street lighting), \"ciclovia\" (bike lane), \"praça\" (square), \"coleta de lixo\" (garbage collection), \"segurança\", \"transporte público\".",
         ],
         examples: [
-          { es: "Se eu fosse prefeita, a primeira coisa que eu faria seria consertar as calçadas.", en: "If I were mayor, the first thing I'd do would be to fix the pavements." },
+          { es: "Se eu fosse prefeita, a primeira coisa que eu faria seria consertar as calçadas.", en: "If I were mayor, the first thing I'd do would be to fix the sidewalks." },
           { es: "Eu tapava todos os buracos da Osvaldo Aranha.", en: "I'd fill every pothole on Osvaldo Aranha Avenue." },
           { es: "Colocaria mais iluminação na praça à noite.", en: "I'd put more lighting in the square at night." },
-          { es: "Seria ótimo se a coleta de lixo passasse todos os dias.", en: "It'd be great if rubbish collection came every day." },
+          { es: "Seria ótimo se a coleta de lixo passasse todos os dias.", en: "It'd be great if garbage collection came every day." },
           { es: "E vocês, o que mudariam?", en: "What about you all, what would you change?" },
         ],
         checkpoint: [
@@ -2104,7 +2104,7 @@ export const PT_B2_U17: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "If I were mayor, the first thing I'd do would be to fix the pavements.",
+            source: "If I were mayor, the first thing I'd do would be to fix the sidewalks.",
             answer: "Se eu fosse prefeito, a primeira coisa que eu faria seria consertar as calçadas.",
             altAnswers: ["Se eu fosse prefeita, a primeira coisa que eu faria seria consertar as calçadas.", "Se eu fosse prefeito, a primeira coisa que faria seria consertar as calçadas.", "Se eu fosse prefeita, a primeira coisa que faria seria consertar as calçadas.", "Se eu fosse o prefeito, a primeira coisa que eu faria seria consertar as calçadas.", "Se eu fosse a prefeita, a primeira coisa que eu faria seria consertar as calçadas.", "Se eu fosse prefeito, a primeira coisa que eu ia fazer era consertar as calçadas.", "Se eu fosse prefeita, a primeira coisa que eu ia fazer era consertar as calçadas."],
             explanation: "\"Fosse prefeito/prefeita\" (usually no article), then \"faria\" and \"seria\" + infinitive.",
@@ -2112,7 +2112,7 @@ export const PT_B2_U17: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "It'd be great if rubbish collection [came] every day.",
+            en: "It'd be great if garbage collection [came] every day.",
             sentence: "Seria ótimo se a coleta de lixo ___ todos os dias.",
             answer: "passasse",
             explanation: "\"Seria ótimo se\" + \"passasse\". Services pass by with \"passar\".",
@@ -2122,7 +2122,7 @@ export const PT_B2_U17: Lesson[] = [
       {
         heading: "Making it persuasive",
         body: [
-          "Good neighbourhood messages link each change to a benefit, which is just a second conditional: \"se a praça tivesse mais luz, as crianças poderiam brincar até mais tarde\". \"Assim\" (that way) and \"com isso\" (with that) chain the benefit: \"colocaria uma ciclovia na avenida; assim, menos gente usaria o carro\".",
+          "Good neighborhood messages link each change to a benefit, which is just a second conditional: \"se a praça tivesse mais luz, as crianças poderiam brincar até mais tarde\". \"Assim\" (that way) and \"com isso\" (with that) chain the benefit: \"colocaria uma ciclovia na avenida; assim, menos gente usaria o carro\".",
           "Anticipate objections with \"mesmo que\": \"mesmo que custasse caro, valeria a pena\" (even if it cost a lot, it'd be worth it). And invite others in with \"e se a gente...?\": \"e se a gente organizasse um abaixo-assinado?\" (a petition).",
         ],
         examples: [
@@ -2149,7 +2149,7 @@ export const PT_B2_U17: Lesson[] = [
             source: "What if we organized a petition?",
             answer: "E se a gente organizasse um abaixo-assinado?",
             altAnswers: ["E se nós organizássemos um abaixo-assinado?", "E se organizássemos um abaixo-assinado?", "Que tal se a gente organizasse um abaixo-assinado?", "Que tal organizar um abaixo-assinado?", "E se a gente fizesse um abaixo-assinado?"],
-            explanation: "\"E se\" + \"organizasse\" invites the neighbours to act together.",
+            explanation: "\"E se\" + \"organizasse\" invites the neighbors to act together.",
           },
           {
             type: "speak",
@@ -2165,7 +2165,7 @@ export const PT_B2_U17: Lesson[] = [
           "Here is one resident's reply, ready to post. It opens with the hypothesis, lists changes, ties them to benefits, handles an objection and ends with an invitation. Read it, then write your own version in the final review.",
         ],
         examples: [
-          { es: "Oi, gente! Se eu fosse prefeito, eu começaria pelas calçadas da Fernandes Vieira.", en: "Hi, everyone! If I were mayor, I'd start with the pavements on Fernandes Vieira Street." },
+          { es: "Oi, gente! Se eu fosse prefeito, eu começaria pelas calçadas da Fernandes Vieira.", en: "Hi, everyone! If I were mayor, I'd start with the sidewalks on Fernandes Vieira Street." },
           { es: "Colocaria mais iluminação na Redenção, porque à noite ninguém passa lá.", en: "I'd put more lighting in Redenção Park, because at night nobody goes through there." },
           { es: "Se tivesse mais ônibus depois das onze, muita gente deixaria o carro em casa.", en: "If there were more buses after eleven, lots of people would leave the car at home." },
           { es: "Sei que custaria caro, mas seria ótimo se a prefeitura pelo menos ouvisse os moradores.", en: "I know it'd be expensive, but it'd be great if the city at least listened to residents." },
@@ -2268,7 +2268,7 @@ export const PT_B2_U17: Lesson[] = [
       {
         type: "speak",
         text: "Se eu fosse prefeita, a primeira coisa que eu faria seria consertar as calçadas.",
-        prompt: "Say it in Portuguese: If I were mayor, the first thing I'd do would be to fix the pavements. (a woman speaking)",
+        prompt: "Say it in Portuguese: If I were mayor, the first thing I'd do would be to fix the sidewalks. (a woman speaking)",
         explanation: "\"Prefeita\" for a woman; \"faria\" and \"seria\" in the result.",
       },
     ],
@@ -2480,7 +2480,7 @@ export const PT_B2_U17: Lesson[] = [
 
 export const PT_B2_U17_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your building's WhatsApp group in Belo Horizonte is arguing about noise, rubbish in the hallways and the broken gate. The síndica, Dona Regina, has asked residents for ideas before the next meeting. Write a message to the group (120-220 words). Suggest at least one plan for the group, make one tactful request to the residents, give advice to a neighbour who keeps complaining, and imagine what the building would be like if everyone cooperated.",
+  prompt: "Your building's WhatsApp group in Belo Horizonte is arguing about noise, trash in the hallways and the broken gate. The síndica, Dona Regina, has asked residents for ideas before the next meeting. Write a message to the group (120-220 words). Suggest at least one plan for the group, make one tactful request to the residents, give advice to a neighbor who keeps complaining, and imagine what the building would be like if everyone cooperated.",
   minWords: 120,
   maxWords: 220,
   rubric: [

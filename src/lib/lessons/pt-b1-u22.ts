@@ -1,7 +1,7 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/pt-b1-u22.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Lesson, WriteExercise } from "./types";
 
-// Brazilian Portuguese B1 Unit 22: Survival Situations: Renting, the Building & the Neighbourhood.
+// Brazilian Portuguese B1 Unit 22: Survival Situations: Renting, the Building & the Neighborhood.
 export const PT_B1_U22: Lesson[] = [
   {
     slug: "b1-survival-rental-ads",
@@ -15,12 +15,12 @@ export const PT_B1_U22: Lesson[] = [
       {
         heading: "Apto 2 dorms, 1 suíte, 1 vaga: reading the abbreviations",
         body: [
-          "Brazilian rental ads, online or on a sign saying \"aluga-se\", pack a lot into a few abbreviations. \"Apto\" is \"apartamento\". \"Dorms\" (\"dormitórios\", common in São Paulo) or \"qtos\" (\"quartos\", common in Rio) give the bedrooms. A \"suíte\" is a bedroom with its own bathroom, so \"2 dorms, 1 suíte\" means two bedrooms, one of them en suite.",
+          "Brazilian rental ads, online or on a sign saying \"aluga-se\", pack a lot into a few abbreviations. \"Apto\" is \"apartamento\". \"Dorms\" (\"dormitórios\", common in São Paulo) or \"qtos\" (\"quartos\", common in Rio) give the bedrooms. A \"suíte\" is a bedroom with its own bathroom, so \"2 dorms, 1 suíte\" means two bedrooms, one of them with its own bathroom.",
           "\"Vaga\" or \"vaga de garagem\" is a parking space, and in big cities the number matters. The \"área de serviço\" is the small laundry area off the kitchen, with the washing machine, the \"tanque\" (a deep sink for hand washing) and the clothes line. Sizes are in \"m²\", read \"metros quadrados\".",
         ],
         examples: [
-          { es: "Apto 2 dorms, 1 suíte, 1 vaga, 70 m².", en: "Flat: 2 bedrooms, 1 en suite, 1 parking space, 70 m²." },
-          { es: "O apartamento tem dois quartos, sendo uma suíte.", en: "The flat has two bedrooms, one of them en suite." },
+          { es: "Apto 2 dorms, 1 suíte, 1 vaga, 70 m².", en: "Apartment: 2 bedrooms, 1 with its own bathroom, 1 parking space, 70 m²." },
+          { es: "O apartamento tem dois quartos, sendo uma suíte.", en: "The apartment has two bedrooms, one of them with its own bathroom." },
           { es: "Tem área de serviço com tanque.", en: "There's a laundry area with a utility sink." },
           { es: "O prédio tem vaga de garagem coberta.", en: "The building has a covered parking space." },
           { es: "Sala para dois ambientes e cozinha americana.", en: "Living room with space for two areas, and an open-plan kitchen." },
@@ -30,7 +30,7 @@ export const PT_B1_U22: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The flat has two bedrooms and a parking space.",
+            source: "The apartment has two bedrooms and a parking space.",
             answer: "O apartamento tem dois quartos e uma vaga de garagem.",
             altAnswers: [
               "O apartamento tem dois quartos e uma vaga.",
@@ -69,13 +69,13 @@ export const PT_B1_U22: Lesson[] = [
       {
         heading: "Quitinete, sobrado, casa de vila: types of home",
         body: [
-          "A \"quitinete\" (also written \"kitnet\") is a tiny one-room flat with a kitchen corner, usually in an older building and cheap. A \"studio\" is the newer, trendier version, often in a building with a gym and a shared laundry. \"Apartamento\" covers everything bigger; a \"cobertura\" is the top-floor penthouse, often with a terrace.",
+          "A \"quitinete\" (also written \"kitnet\") is a tiny one-room apartment with a kitchen corner, usually in an older building and cheap. A \"studio\" is the newer, trendier version, often in a building with a gym and a shared laundry. \"Apartamento\" covers everything bigger; a \"cobertura\" is the top-floor penthouse, often with a terrace.",
           "Houses: a \"casa térrea\" has one floor, a \"sobrado\" has two. A \"casa de vila\" is one of a row of small houses on a private lane behind a gate, popular in São Paulo and Rio because it feels quieter and safer than the street.",
         ],
         examples: [
-          { es: "Aluga-se quitinete perto da universidade.", en: "Studio flat to let near the university." },
+          { es: "Aluga-se quitinete perto da universidade.", en: "Studio apartment for rent near the university." },
           { es: "Ela mora num studio com academia no prédio.", en: "She lives in a studio with a gym in the building." },
-          { es: "Moramos num sobrado com quintal.", en: "We live in a two-storey house with a back yard." },
+          { es: "Moramos num sobrado com quintal.", en: "We live in a two-story house with a back yard." },
           { es: "Procuro uma casa de vila que seja silenciosa.", en: "I'm looking for a house on a private lane that's quiet." },
           { es: "A cobertura tem uma varanda enorme.", en: "The penthouse has a huge terrace." },
         ],
@@ -84,7 +84,7 @@ export const PT_B1_U22: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "We're looking for a two-storey house with a yard.",
+            source: "We're looking for a two-story house with a yard.",
             answer: "Estamos procurando um sobrado com quintal.",
             altAnswers: [
               "Estamos procurando um sobrado que tenha quintal.",
@@ -94,30 +94,30 @@ export const PT_B1_U22: Lesson[] = [
               "Procuramos um sobrado que tenha quintal.",
               "Nós estamos procurando um sobrado com quintal.",
             ],
-            explanation: "A two-storey house is a \"sobrado\"; with \"que\", the house you haven't found takes the subjunctive \"tenha\".",
+            explanation: "A two-story house is a \"sobrado\"; with \"que\", the house you haven't found takes the subjunctive \"tenha\".",
           },
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Studio flat [to let] near the university.",
+            en: "[For rent]: studio apartment near the university.",
             sentence: "___ quitinete perto da universidade.",
             answer: "Aluga-se",
-            explanation: "\"Aluga-se\" is the standard wording on signs and ads for to let.",
+            explanation: "\"Aluga-se\" is the standard wording on signs and ads, meaning for rent.",
           },
         ],
       },
       {
         heading: "Mobiliado, aceita pet, condomínio incluso: what's included",
         body: [
-          "\"Mobiliado\" means furnished; \"semimobiliado\" usually means built-in wardrobes and kitchen units (\"armários planejados\") but no loose furniture. An unfurnished flat may come without light fittings or even a shower head, so ask.",
+          "\"Mobiliado\" means furnished; \"semimobiliado\" usually means built-in closets and kitchen units (\"armários planejados\") but no loose furniture. An unfurnished apartment may come without light fixtures or even a shower head, so ask.",
           "Money lines: \"R$ 2.500 + condomínio\" means the building fee comes on top; \"condomínio incluso\" means it's in the price; \"pacote\" is rent, building fee and property tax together. \"Aceita pet\" settles the pet question. In your own search, the subjunctive does the work: \"procuro um apartamento que aceite pet e seja perto do metrô\".",
         ],
         examples: [
-          { es: "Apartamento mobiliado, condomínio incluso.", en: "Furnished flat, building fee included." },
+          { es: "Apartamento mobiliado, condomínio incluso.", en: "Furnished apartment, building fee included." },
           { es: "Aluguel de R$ 2.500 mais condomínio.", en: "Rent of R$ 2,500 plus building fee." },
           { es: "O pacote fica em R$ 3.200 por mês.", en: "The total package comes to R$ 3,200 a month." },
           { es: "O prédio aceita pet?", en: "Does the building allow pets?" },
-          { es: "Procuro um apartamento que aceite pet e seja perto do metrô.", en: "I'm looking for a flat that allows pets and is near the metro." },
+          { es: "Procuro um apartamento que aceite pet e seja perto do metrô.", en: "I'm looking for an apartment that allows pets and is near the subway." },
         ],
         checkpoint: [
           {
@@ -132,8 +132,8 @@ export const PT_B1_U22: Lesson[] = [
           {
             type: "speak",
             text: "Procuro um apartamento que aceite pet e seja perto do metrô.",
-            tip: "Pet is said the English way; metrô ends in a closed ô.",
-            explanation: "A flat you haven't found: \"que aceite\", \"que seja\".",
+            tip: "Pet: PÉ-tchi, with an open é and a tchi ending; metrô ends in a closed ô.",
+            explanation: "An apartment you haven't found: \"que aceite\", \"que seja\".",
           },
         ],
       },
@@ -143,7 +143,7 @@ export const PT_B1_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I'm looking for a furnished flat near the metro.",
+        source: "I'm looking for a furnished apartment near the subway.",
         answer: "Procuro um apartamento mobiliado perto do metrô.",
         altAnswers: [
           "Estou procurando um apartamento mobiliado perto do metrô.",
@@ -159,10 +159,10 @@ export const PT_B1_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Does the flat have a parking space?",
+        source: "Does the apartment have a parking space?",
         answer: "O apartamento tem vaga?",
         altAnswers: ["O apartamento tem vaga de garagem?", "Tem vaga de garagem?", "Tem vaga?", "O apartamento tem uma vaga?"],
-        explanation: "\"Vaga\" alone is enough when you're talking about flats.",
+        explanation: "\"Vaga\" alone is enough when you're talking about apartments.",
       },
       {
         type: "translate",
@@ -181,16 +181,16 @@ export const PT_B1_U22: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "We need a flat that [allows] pets.",
+        en: "We need an apartment that [allows] pets.",
         sentence: "Precisamos de um apartamento que ___ pet.",
         answer: "aceite",
-        explanation: "A flat not yet found: subjunctive \"aceite\".",
+        explanation: "An apartment not yet found: subjunctive \"aceite\".",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "She lives in a studio flat near the university.",
+        source: "She lives in a studio apartment near the university.",
         answer: "Ela mora numa quitinete perto da universidade.",
         altAnswers: [
           "Ela mora em uma quitinete perto da universidade.",
@@ -204,10 +204,10 @@ export const PT_B1_U22: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The flat has two bedrooms, one of them [en suite].",
+        en: "The apartment has two bedrooms, one of them [a suite].",
         sentence: "O apartamento tem dois quartos, sendo uma ___.",
         answer: "suíte",
-        explanation: "\"Sendo uma suíte\" is the standard ad phrase for one of them being en suite.",
+        explanation: "\"Sendo uma suíte\" is the standard ad phrase for one of them being a suite, a bedroom with its own bathroom.",
       },
       {
         type: "translate",
@@ -220,10 +220,10 @@ export const PT_B1_U22: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I'm looking for a flat that allows pets.",
+        prompt: "Put the words in order to say: I'm looking for an apartment that allows pets.",
         words: ["Procuro", "um", "apartamento", "que", "aceite", "pet."],
-        translation: "I'm looking for a flat that allows pets.",
-        explanation: "\"Que aceite\": the subjunctive for a flat you haven't found.",
+        translation: "I'm looking for an apartment that allows pets.",
+        explanation: "\"Que aceite\": the subjunctive for an apartment you haven't found.",
       },
       {
         type: "matching",
@@ -259,7 +259,7 @@ export const PT_B1_U22: Lesson[] = [
       {
         type: "speak",
         text: "O apartamento tem dois quartos, sendo uma suíte.",
-        prompt: "Say it in Portuguese: The flat has two bedrooms, one of them en suite.",
+        prompt: "Say it in Portuguese: The apartment has two bedrooms, one of them with its own bathroom.",
         tip: "Suíte has three syllables: su-Í-tchi.",
         explanation: "\"Sendo uma suíte\": one of them being en suite.",
       },
@@ -284,7 +284,7 @@ export const PT_B1_U22: Lesson[] = [
           { es: "O proprietário exige fiador com imóvel em Curitiba.", en: "The owner requires a guarantor who owns property in Curitiba." },
           { es: "Caso você não tenha fiador, aceitamos seguro-fiança.", en: "If you don't have a guarantor, we accept rent guarantee insurance." },
           { es: "A caução é de três aluguéis.", en: "The deposit is three months' rent." },
-          { es: "Apartamento para alugar sem fiador.", en: "Flat to rent, no guarantor needed." },
+          { es: "Apartamento para alugar sem fiador.", en: "Apartment to rent, no guarantor needed." },
           { es: "O seguro-fiança custa mais ou menos um aluguel por ano.", en: "The insurance costs about one month's rent a year." },
         ],
         checkpoint: [
@@ -300,7 +300,7 @@ export const PT_B1_U22: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "In case you don't [have] a guarantor, we accept a deposit.",
+            en: "If you don't [have] a guarantor, we accept a deposit.",
             sentence: "Caso você não ___ fiador, aceitamos caução.",
             answer: "tenha",
             explanation: "\"Caso\" sets up a possibility, so it takes the subjunctive: \"tenho\" → \"tenha\".",
@@ -310,7 +310,7 @@ export const PT_B1_U22: Lesson[] = [
       {
         heading: "O contrato: 30 meses e multa rescisória",
         body: [
-          "The standard residential contract runs for 30 months. Landlords prefer it because at the end they can take the flat back without giving a reason. The rent goes up once a year (\"o reajuste anual\") by an inflation index written into the contract.",
+          "The standard residential contract runs for 30 months. Landlords prefer it because at the end they can take the apartment back without giving a reason. The rent goes up once a year (\"o reajuste anual\") by an inflation index written into the contract.",
           "Leave before the end and you pay the \"multa rescisória\", usually three months' rent, reduced in proportion to the time you've already stayed. Watch the verb \"vencer\": a contract \"vence\" when it expires, and a bill \"vence\" when it falls due. Its subjunctive comes from \"venço\": \"antes que o contrato vença\".",
         ],
         examples: [
@@ -349,11 +349,11 @@ export const PT_B1_U22: Lesson[] = [
       {
         heading: "IPTU, condomínio, vistoria: who pays what",
         body: [
-          "On top of the rent come two regular costs. The \"condomínio\" pays the building's staff, cleaning and maintenance; the tenant pays the ordinary fee, while major works like a new façade are the owner's. The \"IPTU\" is the city's property tax; most contracts pass it to the tenant, often in ten monthly instalments.",
-          "Before you get the keys there's a \"vistoria de entrada\": an inspection report, with photos, of every scratch and stain. When you leave, the \"vistoria de saída\" compares the flat with it. Every Brazilian will give you the same advice: \"você tem que fotografar tudo\".",
+          "On top of the rent come two regular costs. The \"condomínio\" pays the building's staff, cleaning and maintenance; the tenant pays the ordinary fee, while major works like a new façade are the owner's. The \"IPTU\" is the city's property tax; most contracts pass it to the tenant, often in ten monthly installments.",
+          "Before you get the keys there's a \"vistoria de entrada\": an inspection report, with photos, of every scratch and stain. When you leave, the \"vistoria de saída\" compares the apartment with it. Every Brazilian will give you the same advice: \"você tem que fotografar tudo\".",
         ],
         examples: [
-          { es: "O inquilino paga o IPTU em dez parcelas.", en: "The tenant pays the property tax in ten instalments." },
+          { es: "O inquilino paga o IPTU em dez parcelas.", en: "The tenant pays the property tax in ten installments." },
           { es: "O condomínio inclui a limpeza e o porteiro.", en: "The building fee covers cleaning and the doorman." },
           { es: "A vistoria de entrada é na sexta.", en: "The move-in inspection is on Friday." },
           { es: "É importante que você confira tudo na vistoria.", en: "It's important that you check everything at the inspection." },
@@ -502,7 +502,7 @@ export const PT_B1_U22: Lesson[] = [
           "If you have a guarantor, you don't need a deposit.",
         ],
         correctIndex: 0,
-        explanation: "\"Caso você não tenha\": in case you don't have.",
+        explanation: "\"Caso você não tenha\": if you don't have. \"Caso\" works like \"if\" for a possibility and takes the subjunctive.",
       },
       {
         type: "dictation",
@@ -522,21 +522,21 @@ export const PT_B1_U22: Lesson[] = [
     slug: "b1-survival-viewing",
     level: "PT-B1",
     number: 3,
-    title: "Survival: Visiting a Flat",
+    title: "Survival: Visiting an Apartment",
     summary: "Ask the right questions at a viewing: sun and noise, what the building fee covers, and whether the rent is negotiable.",
     duration: "14 min",
     kind: "teach",
     sections: [
       {
-        heading: "The flat: bate sol? é de frente ou de fundos?",
+        heading: "The apartment: bate sol? é de frente ou de fundos?",
         body: [
-          "At a \"visita\" (viewing) Brazilians ask things a British or American renter might not. \"Bate sol?\" (does it get sun?) matters for light and for damp, because a flat that never gets sun is prone to \"mofo\" (mould). \"De frente\" faces the street, which means noise; \"de fundos\" faces the back, quieter but often darker.",
+          "At a \"visita\" (viewing) Brazilians ask things a British or American renter might not. \"Bate sol?\" (does it get sun?) matters for light and for moisture, because an apartment that never gets sun is prone to \"mofo\" (mold). \"De frente\" faces the street, which means noise; \"de fundos\" faces the back, quieter but often darker.",
           "Then the details: \"a pressão da água é boa?\", \"o chuveiro é elétrico ou a gás?\", \"tem ar-condicionado?\". \"Tem\" is the everyday way to ask whether something is there; \"há\" sounds written.",
         ],
         examples: [
           { es: "Bate sol de manhã ou de tarde?", en: "Does it get sun in the morning or the afternoon?" },
-          { es: "O apartamento é de frente ou de fundos?", en: "Does the flat face the street or the back?" },
-          { es: "Tem algum sinal de mofo no banheiro?", en: "Is there any sign of mould in the bathroom?" },
+          { es: "O apartamento é de frente ou de fundos?", en: "Does the apartment face the street or the back?" },
+          { es: "Tem algum sinal de mofo no banheiro?", en: "Is there any sign of mold in the bathroom?" },
           { es: "O chuveiro é elétrico ou a gás?", en: "Is the shower electric or gas?" },
           { es: "A pressão da água é boa?", en: "Is the water pressure good?" },
         ],
@@ -545,7 +545,7 @@ export const PT_B1_U22: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Does the flat get sun?",
+            source: "Does the apartment get sun?",
             answer: "O apartamento bate sol?",
             altAnswers: ["Bate sol no apartamento?", "Bate sol?", "Pega sol?", "O apartamento pega sol?"],
             explanation: "\"Bater sol\" (or \"pegar sol\") is the set phrase for getting sunlight.",
@@ -594,7 +594,7 @@ export const PT_B1_U22: Lesson[] = [
             options: [
               "Does the building have a 24-hour doorman?",
               "Is the building open 24 hours?",
-              "Does the building have 24 flats?",
+              "Does the building have 24 apartments?",
               "Is the front door locked at night?",
             ],
             correctIndex: 0,
@@ -657,15 +657,15 @@ export const PT_B1_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Is there a lift?",
+        source: "Is there an elevator?",
         answer: "Tem elevador?",
         altAnswers: ["O prédio tem elevador?", "Há elevador?"],
-        explanation: "\"Tem\" for is there, and a lift is \"elevador\".",
+        explanation: "\"Tem\" for is there, and an elevator is \"elevador\".",
       },
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I wanted to [know] if the flat gets sun.",
+        en: "I wanted to [know] if the apartment gets sun.",
         sentence: "Eu queria ___ se o apartamento bate sol.",
         answer: "saber",
         explanation: "\"Eu queria saber se...\" is a polite way into a question.",
@@ -687,7 +687,7 @@ export const PT_B1_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We're looking for a flat that faces the back.",
+        source: "We're looking for an apartment that faces the back.",
         answer: "Estamos procurando um apartamento que seja de fundos.",
         altAnswers: [
           "A gente está procurando um apartamento que seja de fundos.",
@@ -696,7 +696,7 @@ export const PT_B1_U22: Lesson[] = [
           "A gente está procurando um apartamento de fundos.",
           "Procuramos um apartamento de fundos.",
         ],
-        explanation: "A flat you haven't found: \"que seja de fundos\".",
+        explanation: "An apartment you haven't found: \"que seja de fundos\".",
       },
       {
         type: "fill-blank",
@@ -732,10 +732,10 @@ export const PT_B1_U22: Lesson[] = [
         audio: "O apartamento é de fundos, então é mais silencioso.",
         question: "What does it mean?",
         options: [
-          "The flat faces the back, so it's quieter.",
-          "The flat faces the street, so it's noisy.",
-          "The flat is at the bottom, so it's darker.",
-          "The flat is quiet, but it doesn't get sun.",
+          "The apartment faces the back, so it's quieter.",
+          "The apartment faces the street, so it's noisy.",
+          "The apartment is at the bottom, so it's darker.",
+          "The apartment is quiet, but it doesn't get sun.",
         ],
         correctIndex: 0,
         explanation: "\"De fundos\" is at the back of the building.",
@@ -749,7 +749,7 @@ export const PT_B1_U22: Lesson[] = [
         type: "speak",
         text: "O condomínio inclui água e gás?",
         prompt: "Say it in Portuguese: Does the building fee include water and gas?",
-        tip: "Inclui has two syllables, in-CLUI, with a nasal in.",
+        tip: "Inclui: in-clu-Í, three syllables with the stress on the final i, and a nasal in.",
         explanation: "\"Incluir\" in the indicative for a real building.",
       },
     ],
@@ -759,20 +759,20 @@ export const PT_B1_U22: Lesson[] = [
     level: "PT-B1",
     number: 4,
     title: "Word Web: Things That Break",
-    summary: "The words for leaks, damp, blocked pipes, burnt-out showers and tripped breakers, and the tradespeople who fix them.",
+    summary: "The words for leaks, moisture, clogged pipes, burned-out showers and tripped breakers, and the tradespeople who fix them.",
     duration: "14 min",
     kind: "teach",
     sections: [
       {
         heading: "Water: vazamento, infiltração, mofo, entupido",
         body: [
-          "Most housing problems in Brazil involve water. A \"vazamento\" is a leak from a pipe or tap; an \"infiltração\" is water seeping through a wall or ceiling, often from the flat above or from rain, and it leaves \"manchas\" (stains) and \"mofo\" (mould).",
+          "Most housing problems in Brazil involve water. A \"vazamento\" is a leak from a pipe or tap; an \"infiltração\" is water seeping through a wall or ceiling, often from the apartment above or from rain, and it leaves \"manchas\" (stains) and \"mofo\" (mold).",
           "\"Entupido\" means blocked: \"o cano está entupido\", \"a pia entupiu\". In the bathroom, \"a descarga\" is the toilet flush, and \"a descarga não funciona\" is a call you'll make sooner or later. A dripping tap is a \"torneira pingando\".",
         ],
         examples: [
           { es: "Tem um vazamento embaixo da pia.", en: "There's a leak under the sink." },
           { es: "Apareceu uma infiltração no teto do quarto.", en: "Damp has come through the bedroom ceiling." },
-          { es: "A parede do banheiro está cheia de mofo.", en: "The bathroom wall is covered in mould." },
+          { es: "A parede do banheiro está cheia de mofo.", en: "The bathroom wall is covered in mold." },
           { es: "O ralo do chuveiro está entupido.", en: "The shower drain is blocked." },
           { es: "A descarga não para de correr.", en: "The toilet keeps running." },
         ],
@@ -801,7 +801,7 @@ export const PT_B1_U22: Lesson[] = [
             options: [
               "Damp has come through the bedroom ceiling.",
               "The bedroom window is leaking.",
-              "There's mould on the bedroom floor.",
+              "There's mold on the bedroom floor.",
               "Someone broke the bedroom ceiling.",
             ],
             correctIndex: 0,
@@ -813,11 +813,11 @@ export const PT_B1_U22: Lesson[] = [
         heading: "Electricity: chuveiro queimado, tomada, disjuntor",
         body: [
           "Most Brazilian homes heat shower water in the shower head itself, the \"chuveiro elétrico\". Its heating element, \"a resistência\", burns out every so often, and then \"o chuveiro queimou\" or \"está queimado\": the water runs cold. It's a cheap fix, and many people change the element themselves.",
-          "\"A tomada\" is the socket; Brazil has its own three-pin plug, and the voltage (127 or 220 volts) depends on the city. \"O disjuntor\" is the circuit breaker, and \"o disjuntor caiu\" means it tripped. A power cut is \"acabou a luz\" or \"faltou luz\".",
+          "\"A tomada\" is the outlet; Brazil has its own three-pin plug, and the voltage (127 or 220 volts) depends on the city. \"O disjuntor\" is the circuit breaker, and \"o disjuntor caiu\" means it tripped. A power cut is \"acabou a luz\" or \"faltou luz\".",
         ],
         examples: [
           { es: "O chuveiro queimou de novo.", en: "The shower's burnt out again." },
-          { es: "Essa tomada não está funcionando.", en: "This socket isn't working." },
+          { es: "Essa tomada não está funcionando.", en: "This outlet isn't working." },
           { es: "O disjuntor caiu quando eu liguei o micro-ondas.", en: "The breaker tripped when I turned on the microwave." },
           { es: "Acabou a luz no prédio todo.", en: "The power's gone in the whole building." },
           { es: "A lâmpada da cozinha queimou.", en: "The kitchen light bulb has gone." },
@@ -834,7 +834,7 @@ export const PT_B1_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The lights go off in your flat only, right after you switch on the microwave and the oven. What do you tell your flatmate?",
+            question: "The lights go off in your apartment only, right after you switch on the microwave and the oven. What do you tell your roommate?",
             options: ["O disjuntor caiu.", "Acabou a luz no bairro.", "O chuveiro queimou.", "A torneira está pingando."],
             correctIndex: 0,
             explanation: "Too much power at once trips the breaker: \"o disjuntor caiu\".",
@@ -873,7 +873,7 @@ export const PT_B1_U22: Lesson[] = [
           {
             type: "speak",
             text: "O senhor pode me passar um orçamento?",
-            tip: "Orçamento: or-sa-MEN-to, with a nasal en.",
+            tip: "Orçamento: or-sa-MEN-tu, with a nasal en and the final o said u.",
             explanation: "\"Passar um orçamento\" is the usual way to ask for a quote.",
           },
         ],
@@ -892,10 +892,10 @@ export const PT_B1_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "There's mould on the bedroom wall.",
+        source: "There's mold on the bedroom wall.",
         answer: "Tem mofo na parede do quarto.",
         altAnswers: ["Há mofo na parede do quarto."],
-        explanation: "\"Mofo\" is mould; \"tem\" is the everyday there is.",
+        explanation: "\"Mofo\" is mold; \"tem\" is the everyday there is.",
       },
       {
         type: "translate",
@@ -966,7 +966,7 @@ export const PT_B1_U22: Lesson[] = [
         type: "listen-choose",
         audio: "O disjuntor caiu de novo.",
         question: "What does it mean?",
-        options: ["The breaker has tripped again.", "The socket fell off the wall again.", "The power's back on.", "The bulb has gone again."],
+        options: ["The breaker has tripped again.", "The outlet fell off the wall again.", "The power's back on.", "The bulb has gone again."],
         correctIndex: 0,
         explanation: "\"O disjuntor caiu\": the circuit breaker tripped.",
       },
@@ -979,7 +979,7 @@ export const PT_B1_U22: Lesson[] = [
         type: "speak",
         text: "O chuveiro queimou de novo.",
         prompt: "Say it in Portuguese: The shower's burnt out again.",
-        tip: "Chuveiro starts with a sh sound: shu-VEI-ro.",
+        tip: "Chuveiro starts with a sh sound: shu-VAY-ru.",
         explanation: "\"Queimou\": the heating element has burnt out.",
       },
     ],
@@ -1219,18 +1219,18 @@ export const PT_B1_U22: Lesson[] = [
     level: "PT-B1",
     number: 6,
     title: "Survival: The Porteiro, the Síndico and the Rules",
-    summary: "Life in a Brazilian condomínio: the doorman and the intercom, parcels, house rules and quiet hours, the building manager and booking shared spaces.",
+    summary: "Life in a Brazilian condomínio: the doorman and the intercom, packages, house rules and quiet hours, the building manager and booking shared spaces.",
     duration: "14 min",
     kind: "teach",
     sections: [
       {
         heading: "A portaria e o interfone",
         body: [
-          "Most people in Brazil's big cities live in a \"condomínio\": a building or gated complex with shared staff and rules. Visitors and deliveries stop at the \"portaria\", where the \"porteiro\" calls your flat on the \"interfone\": \"Dona Ana, o seu irmão está aqui embaixo\". You answer \"pode deixar subir\" (let him up) or \"já vou descer\" (I'll come down).",
-          "Many buildings keep parcels at the portaria, so you'll often ask \"chegou alguma encomenda pra mim?\" (has a parcel come for me?). Delivery drivers usually aren't allowed up, so you go down for your food: \"o entregador não pode subir\".",
+          "Most people in Brazil's big cities live in a \"condomínio\": a building or gated complex with shared staff and rules. Visitors and deliveries stop at the \"portaria\", where the \"porteiro\" calls your apartment on the \"interfone\": \"Dona Ana, o seu irmão está aqui embaixo\". You answer \"pode deixar subir\" (let him up) or \"já vou descer\" (I'll come down).",
+          "Many buildings keep packages at the portaria, so you'll often ask \"chegou alguma encomenda pra mim?\" (has a package come for me?). Delivery drivers usually aren't allowed up, so you go down for your food: \"o entregador não pode subir\".",
         ],
         examples: [
-          { es: "Seu Antônio, chegou alguma encomenda pra mim?", en: "Seu Antônio, has a parcel come for me?" },
+          { es: "Seu Antônio, chegou alguma encomenda pra mim?", en: "Seu Antônio, has a package come for me?" },
           { es: "Dona Ana, tem uma visita aqui na portaria.", en: "Dona Ana, you have a visitor at the front desk." },
           { es: "Pode deixar subir, obrigada.", en: "Let them up, thanks. (a woman speaking)" },
           { es: "Já vou descer para pegar.", en: "I'll come down to get it." },
@@ -1241,7 +1241,7 @@ export const PT_B1_U22: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Has a parcel come for me?",
+            source: "Has a package come for me?",
             answer: "Chegou alguma encomenda pra mim?",
             altAnswers: [
               "Chegou alguma encomenda para mim?",
@@ -1250,7 +1250,7 @@ export const PT_B1_U22: Lesson[] = [
               "Tem alguma encomenda pra mim?",
               "Tem alguma encomenda para mim?",
             ],
-            explanation: "\"Encomenda\" is a parcel or delivery; the perfeito \"chegou\" covers has come.",
+            explanation: "\"Encomenda\" is a package or delivery; the perfeito \"chegou\" covers has come.",
           },
           {
             type: "multiple-choice",
@@ -1265,7 +1265,7 @@ export const PT_B1_U22: Lesson[] = [
             question: "What does it mean?",
             options: [
               "Dona Ana, you have a visitor at the front desk.",
-              "Dona Ana, your parcel is at the front desk.",
+              "Dona Ana, your package is at the front desk.",
               "Dona Ana, please come to the meeting.",
               "Dona Ana, the doorman is coming up.",
             ],
@@ -1306,7 +1306,7 @@ export const PT_B1_U22: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The building requires residents to [separate] their rubbish.",
+            en: "The building requires residents to [separate] their trash.",
             sentence: "O condomínio exige que os moradores ___ o lixo.",
             answer: "separem",
             explanation: "\"Exigir que\" + subjunctive: \"separar\" → \"separem\" for \"os moradores\".",
@@ -1455,7 +1455,7 @@ export const PT_B1_U22: Lesson[] = [
       {
         type: "speak",
         text: "Chegou alguma encomenda pra mim?",
-        prompt: "Say it in Portuguese: Has a parcel come for me?",
+        prompt: "Say it in Portuguese: Has a package come for me?",
         tip: "Pra mim is said almost as one word, pra-MĨ.",
         explanation: "\"Chegou\" + \"encomenda\": the question you'll ask the doorman most.",
       },
@@ -1473,11 +1473,11 @@ export const PT_B1_U22: Lesson[] = [
         heading: "Alugar or locar? Aluguel or locação?",
         body: [
           "Brazilian housing has two vocabularies: the words people say and the words contracts use. You say \"alugar\" (to rent) and \"o aluguel\" (the rent). A contract says \"locar\" and \"a locação\" (the lease), and the law behind it is the \"Lei do Inquilinato\". Read \"locação\" in a contract, but ask a friend \"quanto é o seu aluguel?\".",
-          "\"Alugar\" covers both sides, like English rent: \"aluguei um apartamento\" (I rented a flat) and \"aluguei meu apartamento para um casal\" (I let my flat to a couple). A sign saying \"aluga-se\" means for rent.",
+          "\"Alugar\" covers both sides, like English rent: \"aluguei um apartamento\" (I rented an apartment) and \"aluguei meu apartamento para um casal\" (I let my apartment to a couple). A sign saying \"aluga-se\" means for rent.",
         ],
         examples: [
-          { es: "Aluguei um apartamento no Bom Fim.", en: "I rented a flat in Bom Fim." },
-          { es: "Ela aluga o apartamento dela para estudantes.", en: "She lets her flat to students." },
+          { es: "Aluguei um apartamento no Bom Fim.", en: "I rented an apartment in Bom Fim." },
+          { es: "Ela aluga o apartamento dela para estudantes.", en: "She lets her apartment to students." },
           { es: "Quanto é o aluguel?", en: "How much is the rent?" },
           { es: "O contrato de locação é de 30 meses.", en: "The lease runs for 30 months." },
           { es: "A imobiliária cuida da locação.", en: "The agency handles the letting." },
@@ -1494,7 +1494,7 @@ export const PT_B1_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You tell a friend you've rented a flat. What do you say?",
+            question: "You tell a friend you've rented an apartment. What do you say?",
             options: ["Aluguei um apartamento.", "Loquei um apartamento.", "Aluguel um apartamento.", "Fiz uma locação de um apartamento."],
             correctIndex: 0,
             explanation: "\"Alugar\" is the everyday verb; \"locar\" and \"locação\" sound like a contract. \"Aluguel\" is the noun.",
@@ -1511,14 +1511,14 @@ export const PT_B1_U22: Lesson[] = [
           { es: "O inquilino de cima é muito simpático.", en: "The tenant upstairs is very nice." },
           { es: "O locatário paga o aluguel até o dia 5.", en: "The tenant pays the rent by the 5th." },
           { es: "O locador tem que entregar o imóvel em bom estado.", en: "The landlord must hand over the property in good condition." },
-          { es: "O dono do apartamento mora em Florianópolis.", en: "The owner of the flat lives in Florianópolis." },
-          { es: "A corretora da imobiliária vai mostrar o apartamento.", en: "The agent from the agency is going to show the flat." },
+          { es: "O dono do apartamento mora em Florianópolis.", en: "The owner of the apartment lives in Florianópolis." },
+          { es: "A corretora da imobiliária vai mostrar o apartamento.", en: "The agent from the agency is going to show the apartment." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
             question: "In a rental contract, who is \"o locador\"?",
-            options: ["The landlord.", "The tenant.", "The guarantor.", "The estate agent."],
+            options: ["The landlord.", "The tenant.", "The guarantor.", "The real estate agent."],
             correctIndex: 0,
             explanation: "-dor does the action: the \"locador\" lets the property. The tenant is the \"locatário\".",
           },
@@ -1588,7 +1588,7 @@ export const PT_B1_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I rented a flat near the beach.",
+        source: "I rented an apartment near the beach.",
         answer: "Aluguei um apartamento perto da praia.",
         altAnswers: ["Eu aluguei um apartamento perto da praia."],
         explanation: "\"Alugar\" is the everyday verb for renting; \"locar\" belongs in contracts.",
@@ -1597,7 +1597,7 @@ export const PT_B1_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "My parents let their flat to a student.",
+        source: "My parents let their apartment to a student.",
         answer: "Meus pais alugam o apartamento deles para um estudante.",
         altAnswers: [
           "Os meus pais alugam o apartamento deles para um estudante.",
@@ -1606,7 +1606,7 @@ export const PT_B1_U22: Lesson[] = [
           "Meus pais alugam o apartamento para um estudante.",
           "Meus pais alugaram o apartamento para um estudante.",
         ],
-        explanation: "\"Alugar\" also means to let: \"alugar para\" someone.",
+        explanation: "\"Alugar\" also means to rent out: \"alugar para\" someone.",
       },
       {
         type: "translate",
@@ -1624,11 +1624,11 @@ export const PT_B1_U22: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The [agent] is going to show the flat on Saturday.",
+        en: "The [agent] is going to show the apartment on Saturday.",
         sentence: "O ___ vai mostrar o apartamento no sábado.",
         answer: "corretor",
         altAnswers: ["corretor de imóveis"],
-        explanation: "An estate agent is \"o corretor (de imóveis)\".",
+        explanation: "A real estate agent is \"o corretor (de imóveis)\".",
       },
       {
         type: "translate",
@@ -1711,42 +1711,42 @@ export const PT_B1_U22: Lesson[] = [
     level: "PT-B1",
     number: 8,
     title: "Dialogue Lab: Sem Fiador",
-    summary: "A newcomer rents a flat in Curitiba without a guarantor: asking for flats that accept insurance, sorting out the paperwork and adding up the costs.",
+    summary: "A newcomer rents an apartment in Curitiba without a guarantor: asking for apartments that accept insurance, sorting out the paperwork and adding up the costs.",
     duration: "14 min",
     sections: [
       {
         heading: "Sem fiador: procuro um que aceite seguro-fiança",
         body: [
-          "Liam, an Irish engineer, has just started a job in Curitiba and walks into an \"imobiliária\" in the Água Verde neighbourhood. He has the problem most foreigners share: \"eu não tenho fiador\". The agent, Fernanda, offers the alternatives, and Liam narrows his search with the subjunctive: \"procuro um apartamento que aceite seguro-fiança\".",
-          "Fernanda answers in the indicative once she has real flats in mind: \"tenho dois que aceitam caução\". Liam's \"um que aceite\" is a flat he hopes exists; her \"dois que aceitam\" are on her list.",
+          "Liam, an Irish engineer, has just started a job in Curitiba and walks into an \"imobiliária\" in the Água Verde neighborhood. He has the problem most foreigners share: \"eu não tenho fiador\". The agent, Fernanda, offers the alternatives, and Liam narrows his search with the subjunctive: \"procuro um apartamento que aceite seguro-fiança\".",
+          "Fernanda answers in the indicative once she has real apartments in mind: \"tenho dois que aceitam caução\". Liam's \"um que aceite\" is an apartment he hopes exists; her \"dois que aceitam\" are on her list.",
         ],
         examples: [
           { es: "Boa tarde! Eu sou novo em Curitiba e não tenho fiador.", en: "Good afternoon! I'm new in Curitiba and I don't have a guarantor." },
           { es: "Sem problema. Muitos proprietários aceitam seguro-fiança ou caução.", en: "No problem. Lots of owners accept rent guarantee insurance or a deposit." },
-          { es: "Então procuro um apartamento que aceite seguro-fiança.", en: "So I'm looking for a flat that accepts the insurance." },
+          { es: "Então procuro um apartamento que aceite seguro-fiança.", en: "So I'm looking for an apartment that accepts the insurance." },
           { es: "Tenho dois aqui que aceitam caução de três meses.", en: "I have two here that accept a three-month deposit." },
-          { es: "Qual deles fica mais perto do centro?", en: "Which of them is closer to the centre?" },
+          { es: "Qual deles fica mais perto do centro?", en: "Which of them is closer to the center?" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I'm looking for a flat that accepts a deposit.",
+            source: "I'm looking for an apartment that accepts a deposit.",
             answer: "Procuro um apartamento que aceite caução.",
             altAnswers: [
               "Estou procurando um apartamento que aceite caução.",
               "Eu procuro um apartamento que aceite caução.",
               "Eu estou procurando um apartamento que aceite caução.",
             ],
-            explanation: "A flat you haven't found yet: \"que aceite\".",
+            explanation: "An apartment you haven't found yet: \"que aceite\".",
           },
           {
             type: "multiple-choice",
-            question: "Fernanda has two flats on her list that accept a deposit. What does she say?",
+            question: "Fernanda has two apartments on her list that accept a deposit. What does she say?",
             options: ["Tenho dois que aceitam caução.", "Tenho dois que aceitem caução.", "Procuro dois que aceitam caução.", "Tenho dois que aceitar caução."],
             correctIndex: 0,
-            explanation: "Real flats she can show: indicative \"aceitam\".",
+            explanation: "Real apartments she can show: indicative \"aceitam\".",
           },
         ],
       },
@@ -1781,10 +1781,10 @@ export const PT_B1_U22: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "In case you don't [have] a bank account yet, that's fine.",
+            en: "If you don't [have] a bank account yet, that's fine.",
             sentence: "Caso você ainda não ___ conta no banco, tudo bem.",
             answer: "tenha",
-            explanation: "\"Caso\" + subjunctive \"tenha\": in case you don't have an account yet.",
+            explanation: "\"Caso\" + subjunctive \"tenha\": if you don't have an account yet.",
           },
           {
             type: "listen-choose",
@@ -1799,7 +1799,7 @@ export const PT_B1_U22: Lesson[] = [
       {
         heading: "Quanto fica tudo junto? A vistoria é quando?",
         body: [
-          "Liam likes the second flat and asks what every renter asks: \"quanto fica tudo junto?\" (how much does it all come to?). \"Ficar\" here means to come to: \"o aluguel fica em R$ 2.100, mais R$ 450 de condomínio\". Note the \"de\": Portuguese labels the amount with it, \"R$ 90 de IPTU\".",
+          "Liam likes the second apartment and asks what every renter asks: \"quanto fica tudo junto?\" (how much does it all come to?). \"Ficar\" here means to come to: \"o aluguel fica em R$ 2.100, mais R$ 450 de condomínio\". Note the \"de\": Portuguese labels the amount with it, \"R$ 90 de IPTU\".",
           "Then the dates. \"A vistoria é quando?\", with \"quando\" at the end, is the relaxed spoken order. Fernanda closes with a wish: \"tomara que dê tudo certo com a seguradora\".",
         ],
         examples: [
@@ -1842,7 +1842,7 @@ export const PT_B1_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Do you have any flats that accept rent guarantee insurance?",
+        source: "Do you have any apartments that accept rent guarantee insurance?",
         answer: "Vocês têm algum apartamento que aceite seguro-fiança?",
         altAnswers: [
           "Vocês têm apartamentos que aceitem seguro-fiança?",
@@ -1865,9 +1865,11 @@ export const PT_B1_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "In case the insurer doesn't accept, I can pay a deposit.",
+        source: "If the insurer doesn't accept, I can pay a deposit.",
         answer: "Caso a seguradora não aceite, posso pagar caução.",
         altAnswers: [
+          "Se a seguradora não aceitar, posso pagar caução.",
+          "Se a seguradora não aceitar, eu posso pagar caução.",
           "Caso a seguradora não aceite, eu posso pagar caução.",
           "Caso a seguradora não aceite, posso pagar uma caução.",
           "Caso a seguradora não aceite, eu posso pagar uma caução.",
@@ -1929,11 +1931,11 @@ export const PT_B1_U22: Lesson[] = [
         options: [
           "I have two here that accept a three-month deposit.",
           "I'm looking for two that accept a deposit.",
-          "Two flats here cost three months' rent.",
+          "Two apartments here cost three months' rent.",
           "The deposit is returned after three months.",
         ],
         correctIndex: 0,
-        explanation: "\"Tenho dois que aceitam\": real flats, so the indicative.",
+        explanation: "\"Tenho dois que aceitam\": real apartments, so the indicative.",
       },
       {
         type: "dictation",
@@ -1943,9 +1945,9 @@ export const PT_B1_U22: Lesson[] = [
       {
         type: "speak",
         text: "Procuro um apartamento que aceite seguro-fiança.",
-        prompt: "Say it in Portuguese: I'm looking for a flat that accepts rent guarantee insurance.",
+        prompt: "Say it in Portuguese: I'm looking for an apartment that accepts rent guarantee insurance.",
         tip: "Fiança: fi-AN-sa, with a nasal an.",
-        explanation: "\"Que aceite\": a flat you haven't found yet.",
+        explanation: "\"Que aceite\": an apartment you haven't found yet.",
       },
     ],
   },
@@ -1954,14 +1956,14 @@ export const PT_B1_U22: Lesson[] = [
     level: "PT-B1",
     number: 9,
     title: "Dialogue Lab: O Vizinho de Cima",
-    summary: "Make a polite complaint to noisy upstairs neighbours in Porto Alegre, softening the request and ending on good terms.",
+    summary: "Make a polite complaint to noisy upstairs neighbors in Porto Alegre, softening the request and ending on good terms.",
     duration: "13 min",
     sections: [
       {
         heading: "Desculpa incomodar: opening politely",
         body: [
-          "Mariana lives in flat 302 in a building in Porto Alegre. For two weeks the couple upstairs in 402 has had music and friends round until after midnight on weeknights. She could complain to the síndico, but Brazilians usually try a friendly word first. She knocks and opens with the standard softener: \"desculpa incomodar\" (sorry to bother you).",
-          "She introduces herself by flat number, the normal way neighbours refer to each other: \"eu sou a Mariana, do 302, aqui de baixo\". The neighbours are \"o pessoal do 402\" or \"os vizinhos de cima\". In Porto Alegre you'll also hear \"bah\", the gaúcho all-purpose exclamation.",
+          "Mariana lives in apartment 302 in a building in Porto Alegre. For two weeks the couple upstairs in 402 has had music and friends round until after midnight on weeknights. She could complain to the síndico, but Brazilians usually try a friendly word first. She knocks and opens with the standard softener: \"desculpa incomodar\" (sorry to bother you).",
+          "She introduces herself by apartment number, the normal way neighbors refer to each other: \"eu sou a Mariana, do 302, aqui de baixo\". The neighbors are \"o pessoal do 402\" or \"os vizinhos de cima\". In Porto Alegre you'll also hear \"bah\", the gaúcho all-purpose exclamation.",
         ],
         examples: [
           { es: "Oi, boa noite! Desculpa incomodar.", en: "Hi, good evening! Sorry to bother you." },
@@ -1978,13 +1980,13 @@ export const PT_B1_U22: Lesson[] = [
             source: "Sorry to bother you.",
             answer: "Desculpa incomodar.",
             altAnswers: ["Desculpe incomodar.", "Desculpa te incomodar.", "Desculpa o incômodo.", "Desculpe o incômodo.", "Desculpa incomodar vocês."],
-            explanation: "\"Desculpa incomodar\" is the set phrase for opening a request to a neighbour.",
+            explanation: "\"Desculpa incomodar\" is the set phrase for opening a request to a neighbor.",
           },
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I'm from flat 302, just below.",
+            source: "I'm from apartment 302, just below.",
             answer: "Eu sou do 302, aqui de baixo.",
             altAnswers: [
               "Sou do 302, aqui de baixo.",
@@ -1992,7 +1994,7 @@ export const PT_B1_U22: Lesson[] = [
               "Eu moro no 302, aqui embaixo.",
               "Moro no 302, aqui embaixo.",
             ],
-            explanation: "\"Ser do\" + flat number is how neighbours identify themselves.",
+            explanation: "\"Ser do\" + apartment number is how neighbors identify themselves.",
           },
           {
             type: "listen-choose",
@@ -2047,8 +2049,8 @@ export const PT_B1_U22: Lesson[] = [
       {
         heading: "Tomara que a gente se entenda: closing on good terms",
         body: [
-          "The neighbours offer a compromise: on weeknights they'll keep it down after ten, and on Saturdays they'll warn her before a party. Mariana closes warmly with a hope and an open door: \"tomara que a gente se entenda\", \"qualquer coisa, me chama\" (if anything comes up, just call me).",
-          "The reciprocal \"se\" does the work in \"a gente se entende\" (we understand each other). After \"tomara que\" it goes into the subjunctive: \"tomara que a gente se entenda\". Rodrigo's last line is the classic neighbourly promise: \"pode deixar!\" (leave it with us).",
+          "The neighbors offer a compromise: on weeknights they'll keep it down after ten, and on Saturdays they'll warn her before a party. Mariana closes warmly with a hope and an open door: \"tomara que a gente se entenda\", \"qualquer coisa, me chama\" (if anything comes up, just call me).",
+          "The reciprocal \"se\" does the work in \"a gente se entende\" (we understand each other). After \"tomara que\" it goes into the subjunctive: \"tomara que a gente se entenda\". Rodrigo's last line is the classic neighborly promise: \"pode deixar!\" (leave it with us).",
         ],
         examples: [
           { es: "Durante a semana, a gente baixa o som depois das dez.", en: "On weeknights we'll turn it down after ten." },
@@ -2081,7 +2083,7 @@ export const PT_B1_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Hi, sorry to bother you. I'm from flat 201.",
+        source: "Hi, sorry to bother you. I'm from apartment 201.",
         answer: "Oi, desculpa incomodar. Eu sou do 201.",
         altAnswers: [
           "Oi, desculpa incomodar. Sou do 201.",
@@ -2090,7 +2092,7 @@ export const PT_B1_U22: Lesson[] = [
           "Oi, desculpa incomodar. Eu moro no 201.",
           "Oi, desculpa o incômodo. Eu sou do 201.",
         ],
-        explanation: "The softener first, then who you are by flat number.",
+        explanation: "The softener first, then who you are by apartment number.",
       },
       {
         type: "translate",
@@ -2129,7 +2131,7 @@ export const PT_B1_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Let's hope the neighbours understand.",
+        source: "Let's hope the neighbors understand.",
         answer: "Tomara que os vizinhos entendam.",
         altAnswers: ["Espero que os vizinhos entendam.", "Eu espero que os vizinhos entendam."],
         explanation: "\"Tomara que\" + subjunctive: \"entender\" → \"entendam\" for \"os vizinhos\".",
@@ -2169,7 +2171,7 @@ export const PT_B1_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your neighbour apologises for the noise. What's a friendly reply?",
+        question: "Your neighbor apologizes for the noise. What's a friendly reply?",
         options: ["Imagina, acontece.", "É proibido que vocês façam barulho.", "Vou chamar o síndico agora.", "Duvido que vocês baixem o som."],
         correctIndex: 0,
         explanation: "\"Imagina\" (don't mention it) keeps things friendly.",
@@ -2197,7 +2199,7 @@ export const PT_B1_U22: Lesson[] = [
         text: "Desculpa incomodar, eu sou a Mariana, do 302.",
         prompt: "Say it in Portuguese: Sorry to bother you, I'm Mariana, from 302.",
         tip: "Read 302 as trezentos e dois.",
-        explanation: "Flat numbers are read as whole numbers: \"trezentos e dois\".",
+        explanation: "Apartment numbers are read as whole numbers: \"trezentos e dois\".",
       },
     ],
   },
@@ -2212,12 +2214,12 @@ export const PT_B1_U22: Lesson[] = [
       {
         heading: "Searching and paying: procuro um que tenha, eu tenho que pagar",
         body: [
-          "\"*Procuro um apartamento que tem dois quartos\" describes a flat you haven't found as if it were real: \"procuro um apartamento que tenha dois quartos\". Once the agent shows you one, the indicative is right: \"esse apartamento tem dois quartos\".",
+          "\"*Procuro um apartamento que tem dois quartos\" describes an apartment you haven't found as if it were real: \"procuro um apartamento que tenha dois quartos\". Once the agent shows you one, the indicative is right: \"esse apartamento tem dois quartos\".",
           "\"*Tem que eu pagar a caução\" puts the person in the wrong place. \"Ter que\" takes the person as its subject and an infinitive after it: \"eu tenho que pagar a caução\". For an impersonal frame, use \"é preciso que\" + subjunctive: \"é preciso que eu pague a caução\".",
         ],
         examples: [
-          { es: "Procuro um apartamento que tenha dois quartos.", en: "I'm looking for a flat with two bedrooms." },
-          { es: "Esse apartamento tem dois quartos e uma vaga.", en: "This flat has two bedrooms and a parking space." },
+          { es: "Procuro um apartamento que tenha dois quartos.", en: "I'm looking for an apartment with two bedrooms." },
+          { es: "Esse apartamento tem dois quartos e uma vaga.", en: "This apartment has two bedrooms and a parking space." },
           { es: "Eu tenho que pagar a caução até sexta.", en: "I have to pay the deposit by Friday." },
           { es: "É preciso que o inquilino pague o IPTU.", en: "The tenant has to pay the property tax." },
           { es: "Vocês têm que assinar o contrato na imobiliária.", en: "You have to sign the contract at the agency." },
@@ -2242,7 +2244,7 @@ export const PT_B1_U22: Lesson[] = [
               "Procuro um apartamento que ter varanda.",
             ],
             correctIndex: 0,
-            explanation: "A flat not yet found: subjunctive \"tenha\".",
+            explanation: "An apartment not yet found: subjunctive \"tenha\".",
           },
         ],
       },
@@ -2257,7 +2259,7 @@ export const PT_B1_U22: Lesson[] = [
           { es: "A torneira está pingando.", en: "The tap is dripping." },
           { es: "A máquina de lavar está com defeito.", en: "The washing machine is faulty." },
           { es: "Preciso que alguém venha ver o chuveiro.", en: "I need someone to come and look at the shower." },
-          { es: "Peço que o senhor mande alguém amanhã.", en: "Please could you send someone tomorrow." },
+          { es: "Peço que o senhor mande alguém amanhã.", en: "Could you please send someone tomorrow?" },
         ],
         checkpoint: [
           {
@@ -2282,7 +2284,7 @@ export const PT_B1_U22: Lesson[] = [
             audio: "Peço que o senhor mande alguém amanhã.",
             question: "What does it mean?",
             options: [
-              "Please could you send someone tomorrow.",
+              "Could you please send someone tomorrow?",
               "Someone came yesterday.",
               "I'll send someone tomorrow.",
               "He asked me to send someone.",
@@ -2300,8 +2302,8 @@ export const PT_B1_U22: Lesson[] = [
         ],
         examples: [
           { es: "O banheiro tem box e janela.", en: "The bathroom has a shower cubicle and a window." },
-          { es: "A geladeira veio com o apartamento.", en: "The fridge came with the flat." },
-          { es: "O inquilino do apartamento 201 já se mudou.", en: "The tenant of flat 201 has already moved out." },
+          { es: "A geladeira veio com o apartamento.", en: "The fridge came with the apartment." },
+          { es: "O inquilino do apartamento 201 já se mudou.", en: "The tenant of apartment 201 has already moved out." },
           { es: "A chave da porta ficou na portaria.", en: "The door key was left at the front desk." },
         ],
         checkpoint: [
@@ -2343,7 +2345,7 @@ export const PT_B1_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The tenant of the flat upstairs is Argentinian.",
+        source: "The tenant of the apartment upstairs is Argentinian.",
         answer: "O inquilino do apartamento de cima é argentino.",
         altAnswers: ["A inquilina do apartamento de cima é argentina."],
         explanation: "\"Do apartamento\": always contract \"de\" + \"o\".",
@@ -2401,7 +2403,7 @@ export const PT_B1_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "There's mould in the bathroom.",
+        source: "There's mold in the bathroom.",
         answer: "Tem mofo no banheiro.",
         altAnswers: ["Há mofo no banheiro."],
         explanation: "\"No banheiro\": em + o, and the Brazilian word for bathroom.",
@@ -2439,9 +2441,9 @@ export const PT_B1_U22: Lesson[] = [
       {
         type: "speak",
         text: "Procuro um apartamento que tenha dois quartos.",
-        prompt: "Say it in Portuguese: I'm looking for a flat with two bedrooms.",
+        prompt: "Say it in Portuguese: I'm looking for an apartment with two bedrooms.",
         tip: "Quartos: the r before t is a light tap or a throaty sound, depending on the region.",
-        explanation: "\"Que tenha\": the flat isn't found yet, so the subjunctive.",
+        explanation: "\"Que tenha\": the apartment isn't found yet, so the subjunctive.",
       },
     ],
   },
@@ -2456,12 +2458,12 @@ export const PT_B1_U22: Lesson[] = [
       {
         heading: "Opening and the problem",
         body: [
-          "Your mission: the kitchen sink in your rented flat in São Paulo has been leaking, and you need to tell the owner, Seu Roberto, in a message. Open politely and get to the point: \"Bom dia, Seu Roberto, tudo bem? Aqui é a Sarah, do apartamento da Rua Cardeal.\" \"Aqui é\" + your name is how Brazilians identify themselves in messages and on the phone.",
+          "Your mission: the kitchen sink in your rented apartment in São Paulo has been leaking, and you need to tell the owner, Seu Roberto, in a message. Open politely and get to the point: \"Bom dia, Seu Roberto, tudo bem? Aqui é a Sarah, do apartamento da Rua Cardeal.\" \"Aqui é\" + your name is how Brazilians identify themselves in messages and on the phone.",
           "Then describe the problem with this unit's fault patterns: \"tem um vazamento embaixo da pia\", \"o armário está molhado\", \"o chão está ficando manchado\". \"Seu\" before a first name is the everyday respectful form for an older man, like \"Dona\" for a woman; keep \"o senhor\" for you throughout.",
         ],
         examples: [
           { es: "Bom dia, Seu Roberto, tudo bem?", en: "Good morning, Seu Roberto, how are you?" },
-          { es: "Aqui é a Sarah, do apartamento da Rua Cardeal.", en: "This is Sarah, from the flat on Rua Cardeal." },
+          { es: "Aqui é a Sarah, do apartamento da Rua Cardeal.", en: "This is Sarah, from the apartment on Rua Cardeal." },
           { es: "Tem um vazamento embaixo da pia da cozinha.", en: "There's a leak under the kitchen sink." },
           { es: "O armário embaixo da pia está todo molhado.", en: "The cupboard under the sink is soaking wet." },
           { es: "O chão está ficando manchado.", en: "The floor is starting to stain." },
@@ -2471,7 +2473,7 @@ export const PT_B1_U22: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "This is Sarah, from flat 54.",
+            source: "This is Sarah, from apartment 54.",
             answer: "Aqui é a Sarah, do apartamento 54.",
             altAnswers: ["Aqui é a Sarah, do 54.", "Oi, aqui é a Sarah, do apartamento 54.", "Aqui é a Sarah, do apartamento cinquenta e quatro."],
             explanation: "\"Aqui é\" + name is how you introduce yourself in a message.",
@@ -2494,9 +2496,9 @@ export const PT_B1_U22: Lesson[] = [
         ],
         examples: [
           { es: "Faz uma semana que está pingando, e desde ontem está vazando mais.", en: "It's been dripping for a week, and since yesterday it's been leaking more." },
-          { es: "Infelizmente o problema piorou.", en: "Unfortunately the problem has got worse." },
+          { es: "Infelizmente o problema piorou.", en: "Unfortunately the problem has gotten worse." },
           { es: "É importante consertar antes que estrague o armário.", en: "It needs fixing before it ruins the cupboard." },
-          { es: "Tenho medo que a água chegue no apartamento de baixo.", en: "I'm worried the water will get through to the flat below." },
+          { es: "Tenho medo que a água chegue no apartamento de baixo.", en: "I'm worried the water will get through to the apartment below." },
           { es: "Já fechei o registro, mas continua pingando.", en: "I've already turned off the water valve, but it's still dripping." },
         ],
         checkpoint: [
@@ -2504,18 +2506,18 @@ export const PT_B1_U22: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Unfortunately the problem has got worse.",
+            source: "Unfortunately the problem has gotten worse.",
             answer: "Infelizmente o problema piorou.",
             altAnswers: ["Infelizmente, o problema piorou.", "Infelizmente o problema ficou pior."],
-            explanation: "The perfeito \"piorou\" covers has got worse.",
+            explanation: "The perfeito \"piorou\" covers has gotten worse.",
           },
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "It needs fixing before the water [reaches] the flat below.",
+            en: "It needs fixing before the water [reaches] the apartment below.",
             sentence: "Tem que consertar antes que a água ___ no apartamento de baixo.",
             answer: "chegue",
-            explanation: "\"Antes que\" + subjunctive \"chegue\": the water hasn't reached the flat yet.",
+            explanation: "\"Antes que\" + subjunctive \"chegue\": the water hasn't reached the apartment yet.",
           },
           {
             type: "listen-choose",
@@ -2536,7 +2538,7 @@ export const PT_B1_U22: Lesson[] = [
         heading: "The request and the times: caso, para que",
         body: [
           "Now the request, softened: \"será que o senhor podia mandar um encanador?\" or \"preciso que alguém venha ver\". Offer times, and cover the case where you're out: \"estou em casa de manhã; caso o encanador só possa à tarde, deixo a chave com o porteiro\".",
-          "\"Para que\" explains what you're doing to help: \"vou mandar umas fotos para que o senhor veja o problema\". Close with thanks: \"Obrigada desde já! Abraço, Sarah\". \"Desde já\" (in advance) is the standard thanks before a favour is done.",
+          "\"Para que\" explains what you're doing to help: \"vou mandar umas fotos para que o senhor veja o problema\". Close with thanks: \"Obrigada desde já! Abraço, Sarah\". \"Desde já\" (in advance) is the standard thanks before a favor is done.",
         ],
         examples: [
           { es: "Será que o senhor podia mandar um encanador esta semana?", en: "Could you possibly send a plumber this week?" },
@@ -2575,7 +2577,7 @@ export const PT_B1_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Good morning, how are you? This is Lucas, from flat 12.",
+        source: "Good morning, how are you? This is Lucas, from apartment 12.",
         answer: "Bom dia, tudo bem? Aqui é o Lucas, do apartamento 12.",
         altAnswers: [
           "Bom dia, tudo bem? Aqui é o Lucas, do 12.",
@@ -2665,10 +2667,10 @@ export const PT_B1_U22: Lesson[] = [
         audio: "Tenho medo que a água chegue no apartamento de baixo.",
         question: "What does it mean?",
         options: [
-          "I'm worried the water will get through to the flat below.",
-          "The water has reached the flat below.",
-          "The flat below has no water.",
-          "I'm afraid of the neighbour below.",
+          "I'm worried the water will get through to the apartment below.",
+          "The water has reached the apartment below.",
+          "The apartment below has no water.",
+          "I'm afraid of the neighbor below.",
         ],
         correctIndex: 0,
         explanation: "\"Tenho medo que\" + subjunctive \"chegue\": a worry, not a fact.",
@@ -2676,7 +2678,7 @@ export const PT_B1_U22: Lesson[] = [
       {
         type: "dictation",
         audio: "Infelizmente o problema piorou.",
-        explanation: "\"Piorou\" is the perfeito of \"piorar\" (to get worse), covering English has got worse.",
+        explanation: "\"Piorou\" is the perfeito of \"piorar\" (to get worse), covering English has gotten worse.",
       },
       {
         type: "speak",
@@ -2699,12 +2701,12 @@ export const PT_B1_U22: Lesson[] = [
       {
         heading: "Looking and renting",
         body: [
-          "This review mixes the whole unit with the present subjunctive and the A2 past tenses. A housing story has three moods: the flat you want (subjunctive), the flat you saw (indicative, often in the perfeito) and the flat you used to have (imperfeito).",
+          "This review mixes the whole unit with the present subjunctive and the A2 past tenses. A housing story has three moods: the apartment you want (subjunctive), the apartment you saw (indicative, often in the perfeito) and the apartment you used to have (imperfeito).",
         ],
         examples: [
-          { es: "Quando eu morava em Recife, tinha um apartamento que dava para o mar.", en: "When I lived in Recife, I had a flat that looked out on the sea." },
-          { es: "Ontem a gente viu um sobrado que tem três quartos.", en: "Yesterday we saw a two-storey house with three bedrooms." },
-          { es: "Agora procuramos um apartamento que seja mais perto do trabalho.", en: "Now we're looking for a flat that's closer to work." },
+          { es: "Quando eu morava em Recife, tinha um apartamento que dava para o mar.", en: "When I lived in Recife, I had an apartment that looked out on the sea." },
+          { es: "Ontem a gente viu um sobrado que tem três quartos.", en: "Yesterday we saw a two-story house with three bedrooms." },
+          { es: "Agora procuramos um apartamento que seja mais perto do trabalho.", en: "Now we're looking for an apartment that's closer to work." },
           { es: "O corretor disse que o dono aceita caução.", en: "The agent said the owner accepts a deposit." },
           { es: "Tomara que o proprietário aceite o nosso cachorro.", en: "Let's hope the owner accepts our dog." },
         ],
@@ -2713,7 +2715,7 @@ export const PT_B1_U22: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "When I lived in Recife, I had a flat near the beach.",
+            source: "When I lived in Recife, I had an apartment near the beach.",
             answer: "Quando eu morava em Recife, tinha um apartamento perto da praia.",
             altAnswers: [
               "Quando eu morava em Recife, eu tinha um apartamento perto da praia.",
@@ -2780,15 +2782,15 @@ export const PT_B1_U22: Lesson[] = [
         ],
       },
       {
-        heading: "Neighbours and the building",
+        heading: "Neighbors and the building",
         body: [
-          "With neighbours and the síndico, use this unit's polite tools: \"desculpa incomodar\", \"será que\", \"eu queria\", \"podia\", and \"tomara que\" to end on a good note. Pronouns stay before the verb: \"espero que o senhor me entenda\".",
+          "With neighbors and the síndico, use this unit's polite tools: \"desculpa incomodar\", \"será que\", \"eu queria\", \"podia\", and \"tomara que\" to end on a good note. Pronouns stay before the verb: \"espero que o senhor me entenda\".",
         ],
         examples: [
           { es: "Desculpa incomodar, mas será que vocês podiam fechar o portão da garagem?", en: "Sorry to bother you, but could you possibly close the garage gate?" },
           { es: "Eu queria reclamar do barulho da obra.", en: "I'd like to complain about the noise from the building work." },
           { es: "Espero que o senhor me entenda.", en: "I hope you understand." },
-          { es: "O vizinho de cima me ajudou com a mudança.", en: "The neighbour upstairs helped me with the move." },
+          { es: "O vizinho de cima me ajudou com a mudança.", en: "The neighbor upstairs helped me with the move." },
           { es: "Tomara que a reunião resolva o problema do elevador.", en: "Let's hope the meeting sorts out the lift problem." },
         ],
         checkpoint: [
@@ -2815,7 +2817,7 @@ export const PT_B1_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We're looking for a flat that's quieter than this one.",
+        source: "We're looking for an apartment that's quieter than this one.",
         answer: "Estamos procurando um apartamento que seja mais silencioso que este.",
         altAnswers: [
           "Estamos procurando um apartamento que seja mais silencioso do que este.",
@@ -2866,7 +2868,7 @@ export const PT_B1_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Can you ask the doorman to keep my parcel?",
+        source: "Can you ask the doorman to keep my package?",
         answer: "Você pode pedir para o porteiro guardar minha encomenda?",
         altAnswers: [
           "Você pode pedir para o porteiro guardar a minha encomenda?",
@@ -2881,7 +2883,7 @@ export const PT_B1_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Although the flat is old, it gets a lot of sun.",
+        source: "Although the apartment is old, it gets a lot of sun.",
         answer: "Embora o apartamento seja antigo, bate muito sol.",
         altAnswers: [
           "Embora o apartamento seja velho, bate muito sol.",
@@ -2924,9 +2926,9 @@ export const PT_B1_U22: Lesson[] = [
           { left: "encomenda", right: "parcel" },
           { left: "vistoria", right: "inspection" },
           { left: "chaveiro", right: "locksmith" },
-          { left: "quitinete", right: "studio flat" },
+          { left: "quitinete", right: "studio apartment" },
         ],
-        explanation: "Key words from the unit: leak, guarantor, parcel, inspection, locksmith and studio flat.",
+        explanation: "Key words from the unit: leak, guarantor, package, inspection, locksmith and studio apartment.",
       },
       {
         type: "listen-choose",
@@ -2959,7 +2961,7 @@ export const PT_B1_U22: Lesson[] = [
 
 export const PT_B1_U22_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You've just moved into a rented flat in a Brazilian city. Write an email to the estate agency that manages your lease. Introduce yourself, report two problems you found after moving in and say since when they've been happening, ask for a repair and suggest times, explain how the tradesperson can get in if you're out, and ask one question about the building fee or the house rules.",
+  prompt: "You've just moved into a rented apartment in a Brazilian city. Write an email to the estate agency that manages your lease. Introduce yourself, report two problems you found after moving in and say since when they've been happening, ask for a repair and suggest times, explain how the tradesperson can get in if you're out, and ask one question about the building fee or the house rules.",
   minWords: 80,
   maxWords: 150,
   rubric: [

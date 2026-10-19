@@ -131,8 +131,7 @@ export const FR_B1_U10_EXTRA: Lesson[] = [
         en: "We [would travel] by train.",
         sentence: "Nous ___ en train.",
         answer: "voyagerions",
-        altAnswers: ["prendrions le train"],
-        explanation: "\"Voyager\" + \"-ions\"; no extra e needed, since r follows g.",
+        explanation: "\"Voyager\" keeps its whole infinitive: \"voyager-\" + \"-ions\".",
       },
       {
         type: "word-order",
@@ -793,7 +792,7 @@ export const FR_B1_U10_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "I [wouldn't do] that.",
+        en: "I [would] never [do] that.",
         sentence: "Je ___ jamais ça.",
         answer: "ne ferais",
         explanation: "\"Ne... jamais\" with the conditional \"ferais\".",
@@ -1771,7 +1770,7 @@ export const FR_B1_U10_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
-            en: "I'd love [to come], but I'm working.",
+            en: "I [would] happily [come], but I'm working.",
             sentence: "Je ___ bien, mais je travaille.",
             answer: "viendrais",
             explanation: "\"Bien\" + conditional: I'd happily, but.",

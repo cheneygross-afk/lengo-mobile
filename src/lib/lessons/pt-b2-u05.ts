@@ -59,7 +59,7 @@ export const PT_B2_U05: Lesson[] = [
         heading: "Que, quem, onde, quando: linking words",
         body: [
           "Words that open a subordinate clause also attract the pronoun. These are the relatives \"que\", \"quem\" and \"onde\", and conjunctions like \"quando\", \"se\", \"como\", \"porque\", \"embora\" and \"para que\". The pronoun then sits right before the verb of that clause: \"o livro que me emprestaram\", \"quando nos encontramos\".",
-          "This includes the \"se\" of impersonal and passive sentences. You know \"fala-se português\" from signs, but after a linking word the hyphen goes: \"o que se diz por aí\" (what people say), \"uma cidade onde se fala alemão\". English speakers who learnt the sign form tend to copy the hyphen into every clause. The subjunctive clauses of Units 1-4 follow the same rule: \"embora me custe admitir\", \"se o encontrarem\".",
+          "This includes the \"se\" of impersonal and passive sentences. You know \"fala-se português\" from signs, but after a linking word the hyphen goes: \"o que se diz por aí\" (what people say), \"uma cidade onde se fala alemão\". English speakers who learned the sign form tend to copy the hyphen into every clause. The subjunctive clauses of Units 1-4 follow the same rule: \"embora me custe admitir\", \"se o encontrarem\".",
         ],
         examples: [
           { es: "O livro que me emprestaram é ótimo.", en: "The book they lent me is great." },
@@ -229,10 +229,10 @@ export const PT_B2_U05: Lesson[] = [
         body: [
           "In speech, Brazilians open sentences with a pronoun all the time: \"Me disseram que...\", \"Te ligo amanhã\". The written norm forbids this. A sentence never opens with an unstressed pronoun. If nothing comes before the verb, the pronoun goes after it, joined by a hyphen: \"Disseram-me\", \"Agradeço-lhe\", \"Escrevo-lhe\". This is ênclise.",
           "Last lesson's triggers still win: \"Não me disseram\" keeps the pronoun first because \"não\" pulls it. Ênclise is the default only when the verb opens the sentence and nothing attracts the pronoun.",
-          "The pronoun stays unstressed: \"disseram-me\" sounds like one word, dis-SE-ram-mi. In a report, a formal email or a school essay, \"Me disseram\" at the start is marked wrong. In a WhatsApp message, \"Disseram-me\" sounds stiff.",
+          "The pronoun stays unstressed: \"disseram-me\" sounds like one word, dji-SÉ-rãw-mi. In a report, a formal email or a school essay, \"Me disseram\" at the start is marked wrong. In a WhatsApp message, \"Disseram-me\" sounds stiff.",
         ],
         examples: [
-          { es: "Disseram-me que a reunião foi cancelada.", en: "I was told the meeting was cancelled." },
+          { es: "Disseram-me que a reunião foi cancelada.", en: "I was told the meeting was canceled." },
           { es: "Me disseram que a reunião foi cancelada.", en: "The same, as you'd say it or text it." },
           { es: "Agradeço-lhe a atenção.", en: "Thank you for your attention." },
           { es: "Escrevo-lhe para confirmar a data da entrevista.", en: "I'm writing to you to confirm the date of the interview." },
@@ -275,7 +275,7 @@ export const PT_B2_U05: Lesson[] = [
           { es: "Precisa-se de garçons.", en: "Waiters wanted." },
           { es: "Trata-se de um problema antigo.", en: "It's an old problem." },
           { es: "Trata-se de duas propostas diferentes.", en: "We're dealing with two different proposals." },
-          { es: "O filme trata da seca no Nordeste.", en: "The film is about the drought in the Northeast." },
+          { es: "O filme trata da seca no Nordeste.", en: "The movie is about the drought in the Northeast." },
         ],
         checkpoint: [
           {
@@ -477,7 +477,7 @@ export const PT_B2_U05: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You're writing a report about a proposal (\"a proposta\"). How do you write 'We need to analyse it'?",
+            question: "You're writing a report about a proposal (\"a proposta\"). How do you write 'We need to analyze it'?",
             options: ["Precisamos analisar-la.", "Precisamos analisá-la.", "Precisamos analisá-a.", "Precisamos analisa-la."],
             correctIndex: 1,
             explanation: "The -r drops, \"a\" becomes \"la\", and \"analisá\" needs its accent. \"Analisar-la\" keeps the r, and \"analisá-a\" forgets the l.",
@@ -662,7 +662,7 @@ export const PT_B2_U05: Lesson[] = [
       {
         type: "speak",
         text: "Precisamos analisá-la.",
-        prompt: "Say it in Portuguese, as in a report: We need to analyse it (the proposal).",
+        prompt: "Say it in Portuguese, as in a report: We need to analyze it (the proposal).",
         tip: "Stress the á: a-na-li-SÁ-la. The final syllable is light and unstressed.",
         explanation: "\"Analisar\" + \"a\" gives \"analisá-la\", the written form for a feminine noun like \"a proposta\".",
       },
@@ -693,14 +693,14 @@ export const PT_B2_U05: Lesson[] = [
         body: [
           "In a verb group (an auxiliary plus an infinitive or gerund), Brazilians put the pronoun between the two verbs, leaning on the second: \"vou lhe dizer\", \"estou te esperando\", \"posso te ajudar?\". There's no hyphen, because the pronoun belongs to the main verb, not to \"vou\" or \"estou\". This placement is normal speech, and it's also accepted in standard Brazilian writing, including work emails and newspapers.",
           "It works the same way with \"me\", \"te\", \"se\", \"lhe\" and \"nos\", including reflexives (\"vamos nos encontrar\"). A trigger word like \"não\" doesn't move it either: \"não vou lhe dizer\". The sentence still starts with a verb, not a pronoun, so the formal rule from earlier is respected.",
-          "In Portugal the pronoun hangs on the first verb with a hyphen: \"vou-lhe dizer\", \"estou-te a esperar\". You should recognise it, but in a Brazilian text that hyphen reads as European.",
+          "In Portugal the pronoun hangs on the first verb with a hyphen: \"vou-lhe dizer\", \"estou-te a esperar\". You should recognize it, but in a Brazilian text that hyphen reads as European.",
         ],
         examples: [
           { es: "Vou lhe dizer a verdade.", en: "I'm going to tell you the truth." },
           { es: "Estou te esperando na portaria.", en: "I'm waiting for you at the front desk." },
           { es: "Posso te ajudar com as malas?", en: "Can I help you with the bags?" },
           { es: "Não vou lhe pedir mais nada.", en: "I won't ask you for anything else." },
-          { es: "A gente vai se encontrar na estação do metrô.", en: "We're going to meet at the metro station." },
+          { es: "A gente vai se encontrar na estação do metrô.", en: "We're going to meet at the subway station." },
           { es: "A Beatriz está se arrumando para a festa.", en: "Beatriz is getting ready for the party." },
         ],
         checkpoint: [
@@ -710,7 +710,7 @@ export const PT_B2_U05: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "I'm waiting for you at the bus stop.",
             answer: "Estou te esperando no ponto de ônibus.",
-            altAnswers: ["Eu estou te esperando no ponto de ônibus.", "Estou esperando você no ponto de ônibus.", "Eu estou esperando você no ponto de ônibus.", "Tô te esperando no ponto de ônibus.", "Estou lhe esperando no ponto de ônibus."],
+            altAnswers: ["Eu estou te esperando no ponto de ônibus.", "Estou esperando você no ponto de ônibus.", "Eu estou esperando você no ponto de ônibus.", "Tô te esperando no ponto de ônibus."],
             explanation: "\"Te\" goes between \"estou\" and the gerund, with no hyphen: \"estou te esperando\". \"Estou esperando você\" is just as natural.",
           },
           {
@@ -909,7 +909,7 @@ export const PT_B2_U05: Lesson[] = [
     level: "PT-B2",
     number: 5,
     title: "Dir-Lhe-Ei: Mesóclise for Recognition",
-    summary: "Recognise the future and conditional with the pronoun inside the verb (dir-lhe-ei, far-se-á, dir-se-ia), and know where it still appears and how Brazilians avoid it.",
+    summary: "Recognize the future and conditional with the pronoun inside the verb (dir-lhe-ei, far-se-á, dir-se-ia), and know where it still appears and how Brazilians avoid it.",
     duration: "12 min",
     sections: [
       {
@@ -995,11 +995,11 @@ export const PT_B2_U05: Lesson[] = [
         body: [
           "Mesóclise only happens when nothing pulls the pronoun forward. After \"não\", \"que\", \"quando\" and the other attractors, the pronoun goes before the verb: \"não se fará\", \"o que lhe direi\". It is never tacked onto the end: \"*fará-se\" is a classic slip.",
           "You'll meet it in laws and regulations (\"Considerar-se-á aprovado...\"), contracts, Machado de Assis and other older literature, and very formal speeches. Most Brazilian writers sidestep it: they put the subject first and use próclise (\"o prazo se encerrará\"), or switch to ir + infinitive.",
-          "Spoken, it sounds pompous, which is exactly why Brazilians use it as a joke: a friend who says \"contar-lhe-ei tudo\" is playing the old-fashioned lawyer. When a politician uses one in earnest, it becomes a meme. Recognise it; don't put it in a message or an email.",
+          "Spoken, it sounds pompous, which is exactly why Brazilians use it as a joke: a friend who says \"contar-lhe-ei tudo\" is playing the old-fashioned lawyer. When a politician uses one in earnest, it becomes a meme. Recognize it; don't put it in a message or an email.",
         ],
         examples: [
           { es: "Não se fará nenhuma alteração sem aviso prévio.", en: "No change will be made without prior notice." },
-          { es: "Considerar-se-á aprovado o candidato com nota igual ou superior a sete.", en: "Candidates with a mark of seven or above will be considered to have passed." },
+          { es: "Considerar-se-á aprovado o candidato com nota igual ou superior a sete.", en: "Candidates with a grade of seven or above will be considered to have passed." },
           { es: "O contrato renovar-se-á automaticamente a cada doze meses.", en: "The contract will renew automatically every twelve months." },
           { es: "O contrato vai ser renovado automaticamente.", en: "The contract is going to be renewed automatically. (everyday)" },
           { es: "Calma, contar-lhe-ei tudo no devido tempo.", en: "Relax, I shall reveal all in due course. (joking)" },
@@ -1090,7 +1090,7 @@ export const PT_B2_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I'll analyse it carefully. (it = o pedido; formal letter)",
+        source: "I'll analyze it carefully. (it = o pedido; formal letter)",
         answer: "Analisá-lo-ei com cuidado.",
         altAnswers: ["Analisá-lo-ei cuidadosamente."],
         explanation: "\"Analisarei\" + \"o\": the r drops, \"o\" becomes \"lo\", and the a takes an accent: \"analisá-lo-ei\".",
@@ -1357,30 +1357,30 @@ export const PT_B2_U05: Lesson[] = [
       {
         heading: "Notices: you, us and nobody",
         body: [
-          "Formal Portuguese packs a lot into small pronouns, so for each one ask: who or what? First match gender and number, then let sense decide. In \"A portaria recebeu sua encomenda e a entregou ao zelador\", both \"portaria\" and \"encomenda\" are feminine singular. Only a parcel gets handed over, so \"a\" is the parcel.",
+          "Formal Portuguese packs a lot into small pronouns, so for each one ask: who or what? First match gender and number, then let sense decide. In \"A portaria recebeu sua encomenda e a entregou ao zelador\", both \"portaria\" and \"encomenda\" are feminine singular. Only a package gets handed over, so \"a\" is the package.",
           "Notices address the reader as \"o senhor\" or \"a senhora\", which are third person, so \"o\", \"a\" and \"lhe\" can all mean you. In \"Comunicamos-lhe que a água será cortada\", \"lhe\" is the resident reading it. \"Nos\" is the sender: the condomínio, the bank, the company.",
           "Some pronouns point at nobody. The \"se\" in \"Solicita-se aos moradores...\" is the impersonal se: it only tells you that a request is being made.",
         ],
         examples: [
           { es: "Prezado morador, comunicamos-lhe que a água será cortada na terça-feira.", en: "Dear resident, we are informing you that the water will be cut off on Tuesday." },
-          { es: "A portaria recebeu sua encomenda e a entregou ao zelador.", en: "The front desk received your parcel and handed it to the caretaker." },
+          { es: "A portaria recebeu sua encomenda e a entregou ao zelador.", en: "The front desk received your package and handed it to the superintendent." },
           { es: "Caso o senhor não possa comparecer, pedimos que nos avise com antecedência.", en: "If you can't attend, please let us know in advance." },
-          { es: "Solicita-se aos moradores que não deixem objetos no corredor.", en: "Residents are asked not to leave things in the corridor." },
-          { es: "A síndica agradece a todos que a ajudaram na organização da festa.", en: "The building manager thanks everyone who helped her organise the party." },
+          { es: "Solicita-se aos moradores que não deixem objetos no corredor.", en: "Residents are asked not to leave things in the hallway." },
+          { es: "A síndica agradece a todos que a ajudaram na organização da festa.", en: "The building manager thanks everyone who helped her organize the party." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
             question: "A notice says: \"A portaria recebeu sua encomenda e a entregou ao zelador.\" What does \"a\" in \"a entregou\" stand for?",
-            options: ["your parcel", "the front desk", "the caretaker", "you, the resident"],
+            options: ["your package", "the front desk", "the superintendent", "you, the resident"],
             correctIndex: 0,
-            explanation: "\"A\" is feminine singular, so it can only be \"a portaria\" or \"a encomenda\". The front desk can't be handed to the caretaker, so it is the parcel.",
+            explanation: "\"A\" is feminine singular, so it can only be \"a portaria\" or \"a encomenda\". The front desk can't be handed to the superintendent, so it is the package.",
           },
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "We inform you that the meeting has been cancelled. (formal notice)",
+            source: "We inform you that the meeting has been canceled. (formal notice)",
             answer: "Comunicamos-lhe que a reunião foi cancelada.",
             altAnswers: ["Informamos-lhe que a reunião foi cancelada.", "Comunicamos ao senhor que a reunião foi cancelada.", "Informamos ao senhor que a reunião foi cancelada.", "Comunicamos à senhora que a reunião foi cancelada.", "Informamos à senhora que a reunião foi cancelada.", "Informamos que a reunião foi cancelada."],
             explanation: "In a notice \"lhe\" is the reader, the formal you. The verb comes first and the pronoun is attached, as the written norm prefers at the start of a sentence.",
@@ -1401,7 +1401,7 @@ export const PT_B2_U05: Lesson[] = [
         body: [
           "Contracts name each party once, often in capitals (\"o LOCADOR\", \"a LOCATÁRIA\"), and then refer back with pronouns attached to the verb. After an infinitive, \"-lo\" and \"-la\" replace a noun already mentioned. In \"o LOCATÁRIO obriga-se a conservar o imóvel e a devolvê-lo\", \"-lo\" is \"o imóvel\".",
           "When two masculine nouns compete, the verb usually settles it: a tenant returns a property, not himself. Cautious drafters remove the doubt by repeating the noun or writing \"o referido imóvel\" (the said property).",
-          "You'll also meet \"o mesmo\" and \"a mesma\" used as pronouns. In \"a mesma pagará multa\", it means the party just named will pay a fine. Style guides discourage this use, so recognise it when you read it, but write a pronoun or the noun yourself.",
+          "You'll also meet \"o mesmo\" and \"a mesma\" used as pronouns. In \"a mesma pagará multa\", it means the party just named will pay a fine. Style guides discourage this use, so recognize it when you read it, but write a pronoun or the noun yourself.",
         ],
         examples: [
           { es: "O LOCATÁRIO obriga-se a conservar o imóvel e a devolvê-lo nas mesmas condições.", en: "The TENANT undertakes to look after the property and return it in the same condition." },
@@ -1415,7 +1415,7 @@ export const PT_B2_U05: Lesson[] = [
           {
             type: "multiple-choice",
             question: "A lease says: \"O LOCATÁRIO pagará a taxa de lixo e a LOCADORA pagará o IPTU. Caso o LOCATÁRIO não pague a taxa, a LOCADORA poderá cobrá-la.\" What does \"-la\" stand for?",
-            options: ["the rubbish fee", "the landlord", "the property tax (IPTU)", "the tenant"],
+            options: ["the trash fee", "the landlord", "the property tax (IPTU)", "the tenant"],
             correctIndex: 0,
             explanation: "\"-la\" is feminine singular. \"O IPTU\" and \"o LOCATÁRIO\" are masculine, and the landlord can't charge herself, so it is \"a taxa\".",
           },
@@ -1442,7 +1442,7 @@ export const PT_B2_U05: Lesson[] = [
         heading: "News: referents across sentences",
         body: [
           "News stories chain sentences together, so a pronoun's referent may sit a whole sentence back. In \"O prefeito apresentou o plano. Os vereadores o criticaram\", \"o\" could be the mayor or the plan. Read on: the next sentence usually decides, and careful reporters repeat a noun (\"a proposta\") to remove the doubt.",
-          "Two forms to recognise at speed. After a verb ending in -m, \"o\" becomes \"-no\": \"levaram-no\" means they took him. And in the press, \"seu\" and \"sua\" normally mean his, her or its, pointing to the subject of the sentence, not to the reader.",
+          "Two forms to recognize at speed. After a verb ending in -m, \"o\" becomes \"-no\": \"levaram-no\" means they took him. And in the press, \"seu\" and \"sua\" normally mean his, her or its, pointing to the subject of the sentence, not to the reader.",
         ],
         examples: [
           { es: "O ministro anunciou a medida na segunda-feira e a defendeu em entrevista coletiva.", en: "The minister announced the measure on Monday and defended it at a press conference." },
@@ -1495,7 +1495,7 @@ export const PT_B2_U05: Lesson[] = [
         question: "A news item says: \"O diretor recebeu o relatório do auditor e prometeu analisá-lo com cuidado.\" What does \"-lo\" stand for?",
         options: ["the report", "the auditor", "the director", "the promise"],
         correctIndex: 0,
-        explanation: "\"O relatório\", \"o auditor\" and \"o diretor\" are all masculine singular, so sense decides: you analyse a report. This is the kind of doubt careful reporters avoid by repeating the noun.",
+        explanation: "\"O relatório\", \"o auditor\" and \"o diretor\" are all masculine singular, so sense decides: you analyze a report. This is the kind of doubt careful reporters avoid by repeating the noun.",
       },
       {
         type: "fill-blank",
@@ -1533,9 +1533,9 @@ export const PT_B2_U05: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: City hall received the complaint and analysed it.",
+        prompt: "Put the words in order to say: City hall received the complaint and analyzed it.",
         words: ["A", "prefeitura", "recebeu", "a", "reclamação", "e", "a", "analisou."],
-        translation: "City hall received the complaint and analysed it.",
+        translation: "City hall received the complaint and analyzed it.",
         explanation: "The second \"a\" is a pronoun for \"a reclamação\", placed before \"analisou\", as Brazilian formal writing allows mid-sentence.",
       },
       {
@@ -1637,7 +1637,7 @@ export const PT_B2_U05: Lesson[] = [
         ],
         examples: [
           { es: "Disseram-me que o prazo foi prorrogado.", en: "I was told the deadline had been extended." },
-          { es: "Informaram-nos de que a reunião foi cancelada.", en: "We were informed that the meeting was cancelled." },
+          { es: "Informaram-nos de que a reunião foi cancelada.", en: "We were informed that the meeting was canceled." },
           { es: "Trata-se de um problema antigo.", en: "This is a long-standing problem." },
           { es: "A coordenadora me enviou o relatório ontem.", en: "The coordinator sent me the report yesterday." },
           { es: "Peço-lhe que confirme o recebimento.", en: "Please confirm receipt." },
@@ -1671,7 +1671,7 @@ export const PT_B2_U05: Lesson[] = [
           { es: "O contrato está pronto; vamos assiná-lo amanhã.", en: "The contract is ready; we'll sign it tomorrow." },
           { es: "Se a proposta for boa, a diretoria vai aprová-la.", en: "If the proposal is good, the board will approve it." },
           { es: "O problema é sério, e é preciso resolvê-lo hoje.", en: "The problem is serious, and it has to be solved today." },
-          { es: "As lojas recebem o produto e vendem-no em poucos dias.", en: "The shops get the product in and sell it within a few days." },
+          { es: "As lojas recebem o produto e vendem-no em poucos dias.", en: "The stores get the product in and sell it within a few days." },
           { es: "A carta? O secretário pô-la na mesa.", en: "The letter? The secretary put it on the desk." },
         ],
         checkpoint: [
@@ -1688,7 +1688,7 @@ export const PT_B2_U05: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The shops sell it online. (the product, formal)",
+            source: "The stores sell it online. (the product, formal)",
             answer: "As lojas vendem-no pela internet.",
             altAnswers: ["As lojas o vendem pela internet.", "As lojas vendem-no on-line.", "As lojas o vendem on-line."],
             explanation: "\"Vendem\" ends in a nasal -m, so \"o\" becomes \"no\": \"vendem-no\". After a plain subject, \"as lojas o vendem\" is also correct in Brazil.",
@@ -1750,7 +1750,7 @@ export const PT_B2_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We were told the flight was cancelled. (formal report)",
+        source: "We were told the flight was canceled. (formal report)",
         answer: "Disseram-nos que o voo foi cancelado.",
         altAnswers: ["Disseram-nos que o voo tinha sido cancelado.", "Informaram-nos que o voo foi cancelado.", "Informaram-nos de que o voo foi cancelado.", "Informaram-nos que o voo tinha sido cancelado.", "Informaram-nos de que o voo tinha sido cancelado."],
         explanation: "The sentence opens with the verb, so the pronoun follows it: \"Disseram-nos\". \"Nos disseram\" is fine in speech, not at the start of a report.",
@@ -2039,7 +2039,7 @@ export const PT_B2_U05: Lesson[] = [
         type: "speak",
         text: "Pediram-me que o informasse.",
         prompt: "Say it in Portuguese, in a formal email to a male client: They asked me to inform you.",
-        tip: "Keep \"-me\" light and attached: pe-DI-ram-me. Stress -SSE in informasse.",
+        tip: "Keep \"-me\" light and attached: pe-DJI-ram-mi. Stress -SSE in informasse.",
         explanation: "The spoken \"Me pediram pra te informar\" becomes \"Pediram-me que o informasse\". The client is \"o\", and the past request takes the imperfect subjunctive.",
       },
       {

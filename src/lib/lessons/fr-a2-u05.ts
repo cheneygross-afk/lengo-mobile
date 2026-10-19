@@ -204,9 +204,9 @@ export const FR_A2_U05: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: It was a Saturday and the sun was shining.",
+        prompt: "Put the words in order to say: It was a Saturday and the weather was nice.",
         words: ["C'était", "un", "samedi", "et", "il", "faisait", "beau."],
-        translation: "It was a Saturday and the sun was shining.",
+        translation: "It was a Saturday and the weather was nice.",
         explanation: "Two pieces of scenery, both in the imparfait: \"c'était\" and \"il faisait beau\".",
       },
       {
@@ -659,7 +659,7 @@ export const FR_A2_U05: Lesson[] = [
           { es: "Je connaissais bien ce quartier.", en: "I knew that neighbourhood well." },
           { es: "J'ai connu ma femme à Bordeaux.", en: "I met my wife in Bordeaux." },
           { es: "Tu savais qu'elle était enceinte ?", en: "Did you know she was pregnant?" },
-          { es: "Nous avons su la nouvelle par la radio.", en: "We heard the news on the radio." },
+          { es: "J'ai su le résultat le lendemain.", en: "I found out the result the next day." },
         ],
         checkpoint: [
           {
@@ -1877,7 +1877,7 @@ export const FR_A2_U05: Lesson[] = [
         prompt: "Put the words in order to say: He can't stand his boss.",
         words: ["Il", "ne", "supporte", "pas", "son", "chef."],
         translation: "He can't stand his boss.",
-        explanation: "\"Ne supporter pas\" = can't stand.",
+        explanation: "\"Ne...pas\" goes around \"supporte\": \"je ne supporte pas\" = I can't stand.",
       },
       {
         type: "matching",

@@ -10,13 +10,13 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Stressed Pronouns",
-    summary: "Moi, toi, lui, eux in dislocation, after prepositions and in short answers (moi aussi, lui non plus).",
+    summary: "\"Moi\", \"toi\", \"lui\", \"eux\" in dislocation, after prepositions and in short answers (\"moi aussi\", \"lui non plus\").",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: where stressed pronouns go",
         body: [
-          "The stressed pronouns are \"moi, toi, lui, elle, nous, vous, eux, elles\". They appear in dislocation (\"Moi, je reste\"), after prepositions (\"chez lui\", \"sans eux\", \"à côté de moi\"), in short answers (\"Qui a fini ? — Moi.\", \"Moi aussi\", \"Lui non plus\"), after c'est (\"c'est toi ?\"), in comparisons (\"plus grand que moi\") and with -même (\"moi-même\", \"eux-mêmes\").",
+          "The stressed pronouns are \"moi, toi, lui, elle, nous, vous, eux, elles\". They appear in dislocation (\"Moi, je reste\"), after prepositions (\"chez lui\", \"sans eux\", \"à côté de moi\"), in short answers (\"Qui a fini ? — Moi.\", \"Moi aussi\", \"Lui non plus\"), after \"c'est\" (\"c'est toi ?\"), in comparisons (\"plus grand que moi\") and with -même (\"moi-même\", \"eux-mêmes\").",
           "Two traps: the masculine plural is \"eux\", not *ils (\"avec eux\"), and you can't use a subject pronoun alone: *\"Je aussi\" → \"Moi aussi\".",
         ],
         examples: [
@@ -34,7 +34,7 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
             source: "We're having dinner at their place on Saturday.",
             answer: "On dîne chez eux samedi.",
             altAnswers: ["Nous dînons chez eux samedi.", "On dîne chez elles samedi.", "Nous dînons chez elles samedi.", "On mange chez eux samedi."],
-            explanation: "After a preposition, the stressed pronoun \"eux\" (not ils).",
+            explanation: "After a preposition, the stressed pronoun \"eux\" (not \"ils\").",
           },
           {
             type: "translate",
@@ -64,7 +64,7 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
         source: "He's older than me.",
         answer: "Il est plus âgé que moi.",
         altAnswers: ["Il est plus vieux que moi."],
-        explanation: "After que in a comparison: \"moi\".",
+        explanation: "After \"que\" in a comparison: \"moi\".",
       },
       {
         type: "translate",
@@ -72,7 +72,7 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "They built everything themselves. (women)",
         answer: "Elles ont tout construit elles-mêmes.",
-        explanation: "\"Elles-mêmes\": stressed pronoun + même(s).",
+        explanation: "\"Elles-mêmes\": stressed pronoun + \"même(s)\".",
       },
       {
         type: "translate",
@@ -129,7 +129,7 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: We're leaving, and you're staying?",
         words: ["Nous,", "on part,", "et vous,", "vous restez ?"],
         translation: "We're leaving, and you're staying?",
-        explanation: "Two stressed pronouns contrast nous and vous.",
+        explanation: "Two stressed pronouns contrast \"nous\" and \"vous\".",
       },
       {
         type: "translate",
@@ -137,7 +137,7 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "This present is for her, not for him.",
         answer: "Ce cadeau est pour elle, pas pour lui.",
-        explanation: "After pour: \"elle\" and \"lui\".",
+        explanation: "After \"pour\": \"elle\" and \"lui\".",
       },
       {
         type: "translate",
@@ -158,7 +158,7 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Elles ont tout construit elles-mêmes.",
-        explanation: "\"Elles-mêmes\" with a hyphen and -s on même.",
+        explanation: "\"Elles-mêmes\" with a hyphen and -s on \"même\".",
       },
       {
         type: "speak",
@@ -174,7 +174,7 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Agreement in C'est... qui",
-    summary: "Verb agreement after c'est moi qui, c'est nous qui, ce sont eux qui, in every tense.",
+    summary: "Verb agreement after \"c'est moi qui\", \"c'est nous qui\", \"ce sont eux qui\", in every tense.",
     duration: "12 min",
     sections: [
       {
@@ -197,7 +197,7 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
             prompt: "Translate into French with a cleft.",
             source: "I'm the one who's responsible.",
             answer: "C'est moi qui suis responsable.",
-            explanation: "\"Qui suis\": je form after c'est moi qui.",
+            explanation: "\"Qui suis\": \"je\" form after \"c'est moi qui\".",
           },
           {
             type: "fill-blank",
@@ -206,7 +206,7 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
             sentence: "C'est toi qui ___ la vaisselle ce soir.",
             answer: "feras",
             altAnswers: ["fais", "vas faire"],
-            explanation: "Tu form of faire in the future: \"feras\".",
+            explanation: "\"Tu\" form of \"faire\": \"feras\" (future); \"fais\" or \"vas faire\" also work.",
           },
         ],
       },
@@ -219,7 +219,7 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
         source: "We were the ones who were right.",
         answer: "C'est nous qui avions raison.",
         altAnswers: ["C'était nous qui avions raison."],
-        explanation: "Nous form: \"avions\".",
+        explanation: "\"Nous\" form: \"avions\".",
       },
       {
         type: "translate",
@@ -227,7 +227,7 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
         prompt: "Translate into French with a cleft.",
         source: "She's the one who got the date wrong.",
         answer: "C'est elle qui s'est trompée de date.",
-        explanation: "\"Trompée\" agrees with elle; \"se tromper de\" = to get the wrong...",
+        explanation: "\"Trompée\" agrees with \"elle\"; \"se tromper de\" = to get the wrong...",
       },
       {
         type: "translate",
@@ -236,16 +236,16 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
         source: "They're the ones who'll pay the bill.",
         answer: "Ce sont eux qui paieront l'addition.",
         altAnswers: ["Ce sont elles qui paieront l'addition.", "Ce sont eux qui payeront l'addition.", "C'est eux qui paieront l'addition.", "C'est eux qui vont payer l'addition."],
-        explanation: "\"Ce sont eux qui\" + ils form \"paieront\".",
+        explanation: "\"Ce sont eux qui\" + \"ils\" form \"paieront\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French with a cleft (polite vous).",
+        prompt: "Translate into French with a cleft (polite \"vous\").",
         source: "You're the one who called me yesterday?",
         answer: "C'est vous qui m'avez appelé hier ?",
         altAnswers: ["C'est vous qui m'avez appelée hier ?", "C'est vous qui m'avez téléphoné hier ?", "Est-ce vous qui m'avez appelé hier ?"],
-        explanation: "Vous form \"avez\"; \"appelé(e)\" agrees with m' if the speaker is a woman.",
+        explanation: "\"Vous\" form \"avez\"; \"appelé(e)\" agrees with \"m'\" if the speaker is a woman.",
       },
       {
         type: "multiple-choice",
@@ -261,7 +261,7 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
         source: "We're the ones who arrived first.",
         answer: "C'est nous qui sommes arrivés les premiers.",
         altAnswers: ["C'est nous qui sommes arrivées les premières.", "C'est nous qui sommes arrivés en premier.", "C'est nous qui sommes arrivées en premier."],
-        explanation: "Être verb: \"sommes arrivés\" agrees with nous.",
+        explanation: "Être verb: \"sommes arrivés\" agrees with \"nous\".",
       },
       {
         type: "fill-blank",
@@ -270,7 +270,7 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
         sentence: "C'est moi qui ___.",
         answer: "conduirai",
         altAnswers: ["vais conduire", "conduis"],
-        explanation: "Je form of the future: \"conduirai\".",
+        explanation: "\"Je\" form of the future: \"conduirai\".",
       },
       {
         type: "translate",
@@ -279,14 +279,14 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
         source: "You should be the one apologising, not me!",
         answer: "C'est toi qui devrais t'excuser, pas moi !",
         altAnswers: ["C'est vous qui devriez vous excuser, pas moi !", "C'est à toi de t'excuser, pas à moi !"],
-        explanation: "Tu form of the conditional: \"devrais\"; reflexive matches: \"t'excuser\".",
+        explanation: "\"Tu\" form of the conditional: \"devrais\"; reflexive matches: \"t'excuser\".",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: I'm the one who chose this restaurant.",
         words: ["C'est", "moi", "qui ai", "choisi", "ce restaurant."],
         translation: "I'm the one who chose this restaurant.",
-        explanation: "\"Qui ai\": je form.",
+        explanation: "\"Qui ai\": \"je\" form.",
       },
       {
         type: "translate",
@@ -295,7 +295,7 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
         source: "He's the one who knows the way.",
         answer: "C'est lui qui connaît le chemin.",
         altAnswers: ["C'est lui qui connaît la route.", "C'est lui qui sait le chemin."],
-        explanation: "Il form after \"lui qui\".",
+        explanation: "\"Il\" form after \"lui qui\".",
       },
       {
         type: "translate",
@@ -304,15 +304,15 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
         source: "We're the ones who'll decide.",
         answer: "C'est nous qui déciderons.",
         altAnswers: ["C'est nous qui allons décider.", "C'est nous qui décidons."],
-        explanation: "Nous form of the future: \"déciderons\".",
+        explanation: "\"Nous\" form of the future: \"déciderons\".",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French with a cleft.",
-        source: "You're the ones who are late. (vous, a group)",
+        source: "You're the ones who are late. (\"vous\", a group)",
         answer: "C'est vous qui êtes en retard.",
-        explanation: "\"Qui êtes\": vous form.",
+        explanation: "\"Qui êtes\": \"vous\" form.",
       },
       {
         type: "listen-choose",
@@ -320,18 +320,18 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
         question: "What did you hear?",
         options: ["C'est moi qui suis responsable.", "C'est moi qui est responsable.", "C'est moi qui sais responsable.", "C'est lui qui est responsable."],
         correctIndex: 0,
-        explanation: "\"Qui suis\" (je form) is the correct agreement.",
+        explanation: "\"Qui suis\" (\"je\" form) is the correct agreement.",
       },
       {
         type: "dictation",
         audio: "C'est nous qui sommes arrivés les premiers.",
-        explanation: "\"Sommes arrivés\": nous form and plural agreement.",
+        explanation: "\"Sommes arrivés\": \"nous\" form and plural agreement.",
       },
       {
         type: "speak",
         text: "C'est toi qui as cassé la tasse ?",
         prompt: "Ask in French: Were you the one who broke the cup?",
-        explanation: "\"Toi qui as\": tu form.",
+        explanation: "\"Toi qui as\": \"tu\" form.",
       },
     ],
   },
@@ -341,13 +341,13 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Pseudo-Clefts with Ce dont and Ce à quoi",
-    summary: "Choose ce qui, ce que, ce dont or ce à quoi according to the verb's construction.",
+    summary: "Choose \"ce qui\", \"ce que\", \"ce dont\" or \"ce à quoi\" according to the verb's construction.",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: let the verb choose",
         body: [
-          "Ask how the verb takes its complement. Subject → \"ce qui\" (\"ce qui me plaît\"). Direct object → \"ce que\" (\"ce que je veux\"). Verb + de (avoir besoin de, parler de, rêver de, se souvenir de, avoir peur de, être fier de) → \"ce dont\". Verb + à (penser à, s'attendre à, tenir à, s'intéresser à, faire attention à) → \"ce à quoi\".",
+          "Ask how the verb takes its complement. Subject → \"ce qui\" (\"ce qui me plaît\"). Direct object → \"ce que\" (\"ce que je veux\"). Verb + \"de\" (\"avoir besoin de\", \"parler de\", \"rêver de\", \"se souvenir de\", \"avoir peur de\", \"être fier de\") → \"ce dont\". Verb + \"à\" (\"penser à\", \"s'attendre à\", \"tenir à\", \"s'intéresser à\", \"faire attention à\") → \"ce à quoi\".",
           "After \"c'est\", careful French repeats the preposition: \"Ce dont j'ai peur, c'est de l'avion.\" \"Ce à quoi je tiens, c'est à ma liberté.\"",
         ],
         examples: [
@@ -364,7 +364,7 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
             prompt: "Translate into French with a pseudo-cleft.",
             source: "What I remember is her smile.",
             answer: "Ce dont je me souviens, c'est de son sourire.",
-            altAnswers: ["Ce dont je me souviens, c'est son sourire.", "Ce dont je me rappelle, c'est son sourire."],
+            altAnswers: ["Ce dont je me souviens, c'est son sourire.", "Ce que je me rappelle, c'est son sourire."],
             explanation: "\"Se souvenir de\" → \"ce dont\".",
           },
           {
@@ -405,7 +405,7 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
         source: "What I'm interested in is history.",
         answer: "Ce à quoi je m'intéresse, c'est à l'histoire.",
         altAnswers: ["Ce à quoi je m'intéresse, c'est l'histoire.", "Ce qui m'intéresse, c'est l'histoire."],
-        explanation: "\"S'intéresser à\" → \"ce à quoi\"; or \"intéresser\" with ce qui.",
+        explanation: "\"S'intéresser à\" → \"ce à quoi\"; or \"intéresser\" with \"ce qui\".",
       },
       {
         type: "translate",
@@ -421,7 +421,7 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
         question: "'What I'm talking about is the budget.' Which is correct?",
         options: ["Ce dont je parle, c'est du budget.", "Ce que je parle, c'est du budget.", "Ce à quoi je parle, c'est le budget.", "Ce qui je parle, c'est du budget."],
         correctIndex: 0,
-        explanation: "\"Parler de\" → \"ce dont\"; \"du budget\" keeps the de.",
+        explanation: "\"Parler de\" → \"ce dont\"; \"du budget\" keeps the \"de\".",
       },
       {
         type: "fill-blank",
@@ -438,7 +438,7 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
         source: "What I want is a bit of peace and quiet.",
         answer: "Ce que je veux, c'est un peu de calme.",
         altAnswers: ["Ce que je veux, c'est un peu de tranquillité.", "Ce que je voudrais, c'est un peu de calme."],
-        explanation: "Direct object of vouloir → \"ce que\".",
+        explanation: "Direct object of \"vouloir\" → \"ce que\".",
       },
       {
         type: "translate",
@@ -454,7 +454,7 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: What he dreams of is a house by the sea.",
         words: ["Ce dont", "il rêve,", "c'est", "d'une maison", "au bord de la mer."],
         translation: "What he dreams of is a house by the sea.",
-        explanation: "\"Rêver de\" → \"ce dont\"; \"d'une maison\" keeps de.",
+        explanation: "\"Rêver de\" → \"ce dont\"; \"d'une maison\" keeps \"de\".",
       },
       {
         type: "matching",
@@ -465,7 +465,7 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
           { left: "aimer", right: "ce que" },
           { left: "plaire à (the thing pleases)", right: "ce qui" },
         ],
-        explanation: "The verb's construction decides: de → dont, à → à quoi, direct object → que, subject → qui.",
+        explanation: "The verb's construction decides: \"de\" → \"dont\", \"à\" → \"à quoi\", direct object → \"que\", subject → \"qui\".",
       },
       {
         type: "translate",
@@ -474,7 +474,7 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
         source: "What annoys me is that he's always late.",
         answer: "Ce qui m'énerve, c'est qu'il est toujours en retard.",
         altAnswers: ["Ce qui m'agace, c'est qu'il est toujours en retard.", "Ce qui m'énerve, c'est qu'il soit toujours en retard."],
-        explanation: "\"Ce qui\" (subject of énerver) + \"c'est que\" + clause.",
+        explanation: "\"Ce qui\" (subject of \"énerver\") + \"c'est que\" + clause.",
       },
       {
         type: "translate",
@@ -496,13 +496,13 @@ export const FR_B2_U19_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Ce à quoi je tiens, c'est à ma liberté.",
-        explanation: "\"Ce à quoi\" + \"tenir à\": à is repeated after c'est.",
+        explanation: "\"Ce à quoi\" + \"tenir à\": \"à\" is repeated after \"c'est\".",
       },
       {
         type: "speak",
         text: "Ce dont nous avons besoin, c'est de plus de temps.",
         prompt: "Say it in French: What we need is more time.",
-        explanation: "\"Ce dont\" with avoir besoin de.",
+        explanation: "\"Ce dont\" with \"avoir besoin de\".",
       },
     ],
   },

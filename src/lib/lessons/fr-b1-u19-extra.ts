@@ -301,10 +301,10 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "The guests had been invited for eight o'clock.",
-        answer: "Les invités avaient été invités pour huit heures.",
-        altAnswers: ["Les invités avaient été conviés pour huit heures.", "Les invités avaient été invités pour 20 heures."],
-        explanation: "Plus-que-parfait passive; plural agreement.",
+        source: "Our friends had been invited for eight o'clock.",
+        answer: "Nos amis avaient été invités pour huit heures.",
+        altAnswers: ["Nos amis avaient été invités pour 20 heures.", "Nos amis avaient été conviés pour huit heures.", "Nos amies avaient été invitées pour huit heures.", "Nos amis avaient été invités pour 8 heures."],
+        explanation: "Plus-que-parfait passive: \"avaient été\" + \"invités\", agreeing with nos amis (masculine plural for a mixed group).",
       },
       {
         type: "multiple-choice",
@@ -591,10 +591,10 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "The driver had been drinking.",
-        answer: "Le conducteur avait bu.",
-        altAnswers: ["Le conducteur avait bu de l'alcool."],
-        explanation: "Not a passive: plus-que-parfait active \"avait bu\".",
+        source: "The driver had been stopped by the police.",
+        answer: "Le conducteur avait été arrêté par la police.",
+        altAnswers: ["Le conducteur avait été contrôlé par la police.", "Le conducteur avait été interpellé par la police.", "La conductrice avait été arrêtée par la police.", "Le conducteur avait été stoppé par la police."],
+        explanation: "Plus-que-parfait passive (\"avait été\" + participle) for something that happened before the main events of the story; the agent follows \"par\".",
       },
       {
         type: "fill-blank",
@@ -678,7 +678,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the error and translate. Wrong version: « La maison a été vendu. »",
+            prompt: "Fix the error and translate. Wrong version: \"La maison a été vendu.\"",
             source: "The house was sold.",
             answer: "La maison a été vendue.",
             explanation: "Agreement with la maison: \"vendue\".",
@@ -686,7 +686,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the error and translate. Wrong version: « J'ai été dit que tu déménageais. »",
+            prompt: "Fix the error and translate. Wrong version: \"J'ai été dit que tu déménageais.\"",
             source: "I was told you were moving.",
             answer: "On m'a dit que tu déménageais.",
             altAnswers: ["On m'a dit que vous déménagiez."],
@@ -699,7 +699,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error and translate. Wrong version: « Le pont est été construit en 1920. »",
+        prompt: "Fix the error and translate. Wrong version: \"Le pont est été construit en 1920.\"",
         source: "The bridge was built in 1920.",
         answer: "Le pont a été construit en 1920.",
         explanation: "The passé composé of être is \"a été\", never *est été*.",
@@ -707,7 +707,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error and translate. Wrong version: « La lettre a envoyée hier. »",
+        prompt: "Fix the error and translate. Wrong version: \"La lettre a envoyée hier.\"",
         source: "The letter was sent yesterday.",
         answer: "La lettre a été envoyée hier.",
         explanation: "The passive needs \"été\": \"a été envoyée\".",
@@ -715,7 +715,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error and translate. Wrong version: « Elle a été donnée un livre. »",
+        prompt: "Fix the error and translate. Wrong version: \"Elle a été donnée un livre.\"",
         source: "She was given a book.",
         answer: "On lui a donné un livre.",
         altAnswers: ["On lui a offert un livre."],
@@ -724,7 +724,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error and translate. Wrong version: « Les voleurs ont été arrêté. »",
+        prompt: "Fix the error and translate. Wrong version: \"Les voleurs ont été arrêté.\"",
         source: "The thieves were arrested.",
         answer: "Les voleurs ont été arrêtés.",
         explanation: "Plural agreement: \"arrêtés\".",
@@ -732,7 +732,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error and translate. Wrong version: « Nous avons été demandés de partir. »",
+        prompt: "Fix the error and translate. Wrong version: \"Nous avons été demandés de partir.\"",
         source: "We were asked to leave.",
         answer: "On nous a demandé de partir.",
         explanation: "\"Demander à quelqu'un de\": no passive.",
@@ -740,7 +740,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error and translate. Wrong version: « La réunion sera annulé. »",
+        prompt: "Fix the error and translate. Wrong version: \"La réunion sera annulé.\"",
         source: "The meeting will be cancelled.",
         answer: "La réunion sera annulée.",
         explanation: "Feminine agreement: \"annulée\".",
@@ -748,7 +748,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error and translate. Wrong version: « Ce livre a été écrit de Victor Hugo. »",
+        prompt: "Fix the error and translate. Wrong version: \"Ce livre a été écrit de Victor Hugo.\"",
         source: "This book was written by Victor Hugo.",
         answer: "Ce livre a été écrit par Victor Hugo.",
         explanation: "An action → \"par\". \"De\" is for states and feelings.",
@@ -756,7 +756,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error and translate. Wrong version: « J'ai été montré la chambre. »",
+        prompt: "Fix the error and translate. Wrong version: \"J'ai été montré la chambre.\"",
         source: "I was shown the room.",
         answer: "On m'a montré la chambre.",
         explanation: "\"Montrer à\" → \"on m'a montré\".",
@@ -779,7 +779,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error and translate. Wrong version: « On ont réparé la voiture. »",
+        prompt: "Fix the error and translate. Wrong version: \"On ont réparé la voiture.\"",
         source: "The car has been repaired.",
         answer: "On a réparé la voiture.",
         altAnswers: ["La voiture a été réparée."],
@@ -888,6 +888,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "We were told the lorry would be late.",
         answer: "On nous a dit que le camion serait en retard.",
+        altAnswers: ["On nous a dit que le camion aurait du retard."],
         explanation: "\"On nous a dit\" + conditional for future in the past.",
       },
       {
@@ -951,7 +952,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does « Les cartons seront déchargés au deuxième étage » mean?",
+        question: "What does \"Les cartons seront déchargés au deuxième étage\" mean?",
         options: ["The boxes will be unloaded on the second floor.", "The boxes were unloaded on the second floor.", "The boxes are being loaded on the second floor.", "The boxes had been unloaded on the second floor."],
         correctIndex: 0,
         explanation: "\"Seront déchargés\": future passive.",
@@ -1063,10 +1064,10 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French using on.",
+        prompt: "Translate into French.",
         source: "My grandmother taught me this recipe.",
         answer: "Ma grand-mère m'a appris cette recette.",
-        explanation: "Active with a named subject: the most natural choice.",
+        explanation: "The agent is known and matters, so the active with a named subject is the natural choice; no \"on\" or passive needed.",
       },
       {
         type: "translate",
@@ -1264,7 +1265,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which tense fits « Quand je suis arrivé, la porte ___ déjà ___ »?",
+        question: "Which tense fits \"Quand je suis arrivé, la porte ___ déjà ___\"?",
         options: ["avait / été fermée", "a / été fermée", "sera / fermée", "est / fermée"],
         correctIndex: 0,
         explanation: "Before another past event → plus-que-parfait: \"avait déjà été fermée\".",
@@ -1312,7 +1313,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the sign and translate. Wrong version: « Les retours sont accepté sous 30 jours. »",
+            prompt: "Fix the sign and translate. Wrong version: \"Les retours sont accepté sous 30 jours.\"",
             source: "Returns are accepted within 30 days.",
             answer: "Les retours sont acceptés sous 30 jours.",
             altAnswers: ["Les retours sont acceptés sous trente jours."],
@@ -1321,7 +1322,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the sign and translate. Wrong version: « Les clients sont demandés de ne pas toucher. »",
+            prompt: "Fix the sign and translate. Wrong version: \"Les clients sont demandés de ne pas toucher.\"",
             source: "Customers are asked not to touch.",
             answer: "On demande aux clients de ne pas toucher.",
             altAnswers: ["Prière de ne pas toucher.", "Il est demandé aux clients de ne pas toucher."],
@@ -1334,7 +1335,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the sign and translate. Wrong version: « Magasin fermé le lundi et les jours férié. »",
+        prompt: "Fix the sign and translate. Wrong version: \"Magasin fermé le lundi et les jours férié.\"",
         source: "Shop closed on Mondays and public holidays.",
         answer: "Magasin fermé le lundi et les jours fériés.",
         explanation: "\"Fériés\" agrees with les jours.",
@@ -1342,7 +1343,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the sign and translate. Wrong version: « Les vélos sont interdit dans la cour. »",
+        prompt: "Fix the sign and translate. Wrong version: \"Les vélos sont interdit dans la cour.\"",
         source: "Bikes are not allowed in the courtyard.",
         answer: "Les vélos sont interdits dans la cour.",
         explanation: "Plural agreement: \"interdits\".",
@@ -1350,7 +1351,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the sign and translate. Wrong version: « Piscine fermé pour travaux. »",
+        prompt: "Fix the sign and translate. Wrong version: \"Piscine fermé pour travaux.\"",
         source: "Pool closed for renovation.",
         answer: "Piscine fermée pour travaux.",
         explanation: "\"Piscine\" is feminine: \"fermée\".",
@@ -1358,7 +1359,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the sign and translate. Wrong version: « Les visiteurs sont dits de rester sur le chemin. »",
+        prompt: "Fix the sign and translate. Wrong version: \"Les visiteurs sont dits de rester sur le chemin.\"",
         source: "Visitors are asked to stay on the path.",
         answer: "On demande aux visiteurs de rester sur le chemin.",
         altAnswers: ["Prière de rester sur le chemin.", "Les visiteurs sont priés de rester sur le chemin.", "Merci de rester sur le chemin."],
@@ -1367,7 +1368,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the ad and translate. Wrong version: « Appartement rénové en 2024, cuisine équipé. »",
+        prompt: "Fix the ad and translate. Wrong version: \"Appartement rénové en 2024, cuisine équipé.\"",
         source: "Flat renovated in 2024, fitted kitchen.",
         answer: "Appartement rénové en 2024, cuisine équipée.",
         explanation: "\"Cuisine\" is feminine: \"équipée\".",
@@ -1375,7 +1376,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the sign and translate. Wrong version: « Cette porte doit être fermé. »",
+        prompt: "Fix the sign and translate. Wrong version: \"Cette porte doit être fermé.\"",
         source: "This door must be kept shut.",
         answer: "Cette porte doit être fermée.",
         altAnswers: ["Cette porte doit rester fermée."],
@@ -1384,7 +1385,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the ad and translate. Wrong version: « Voiture à vendre, révisé le mois dernier. »",
+        prompt: "Fix the ad and translate. Wrong version: \"Voiture à vendre, révisé le mois dernier.\"",
         source: "Car for sale, serviced last month.",
         answer: "Voiture à vendre, révisée le mois dernier.",
         explanation: "\"Révisée\" agrees with voiture.",
@@ -1392,7 +1393,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the sign and translate. Wrong version: « Les enfants doivent être accompagné d'un adulte. »",
+        prompt: "Fix the sign and translate. Wrong version: \"Les enfants doivent être accompagné d'un adulte.\"",
         source: "Children must be accompanied by an adult.",
         answer: "Les enfants doivent être accompagnés d'un adulte.",
         altAnswers: ["Les enfants doivent être accompagnés par un adulte."],
@@ -1743,7 +1744,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does « Le suspect avait été vu près de la banque » mean?",
+        question: "What does \"Le suspect avait été vu près de la banque\" mean?",
         options: ["The suspect had been seen near the bank.", "The suspect has been seen near the bank.", "The suspect saw someone near the bank.", "The suspect will be seen near the bank."],
         correctIndex: 0,
         explanation: "\"Avait été vu\": plus-que-parfait passive.",
@@ -1897,7 +1898,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which preposition fits « Ce professeur est aimé ___ tous » ?",
+        question: "Which preposition fits \"Ce professeur est aimé ___ tous\" ?",
         options: ["de", "par le", "à", "avec"],
         correctIndex: 0,
         explanation: "Feelings → \"de\": \"aimé de tous\".",
@@ -1965,7 +1966,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the sentence: « J'ai été montré mon bureau. »",
+        prompt: "Fix the sentence: \"J'ai été montré mon bureau.\"",
         source: "I was shown my desk.",
         answer: "On m'a montré mon bureau.",
         explanation: "\"Montrer à\" → \"on m'a montré\".",
@@ -1973,7 +1974,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the sentence: « J'ai été dit que la réunion était à 10 h. »",
+        prompt: "Fix the sentence: \"J'ai été dit que la réunion était à 10 h.\"",
         source: "I was told the meeting was at 10.",
         answer: "On m'a dit que la réunion était à 10 heures.",
         altAnswers: ["On m'a dit que la réunion était à 10 h.", "On m'a dit que la réunion était à dix heures."],
@@ -1982,7 +1983,7 @@ export const FR_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the sentence: « J'ai été demandé de préparer une présentation. »",
+        prompt: "Fix the sentence: \"J'ai été demandé de préparer une présentation.\"",
         source: "I was asked to prepare a presentation.",
         answer: "On m'a demandé de préparer une présentation.",
         explanation: "\"Demander à quelqu'un de\" → \"on m'a demandé de\".",

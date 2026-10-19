@@ -63,7 +63,7 @@ export const FR_A2_U20: Lesson[] = [
         ],
         examples: [
           { es: "Le lien ? Je te l'envoie tout de suite.", en: "The link? I'll send it to you right away." },
-          { es: "Ta voiture, tu me l'empruntes souvent.", en: "You borrow my car a lot." },
+          { es: "Ma voiture, tu me l'empruntes souvent.", en: "You borrow my car a lot." },
           { es: "La réponse ? Il nous l'explique demain.", en: "The answer? He's explaining it to us tomorrow." },
           { es: "Ton adresse ? Tu me l'écris ici ?", en: "Your address? Will you write it down for me here?" },
           { es: "Je te la présente : c'est ma sœur.", en: "Let me introduce her to you: this is my sister." },
@@ -211,7 +211,7 @@ export const FR_A2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does « Tu me la prêtes ? » mean?",
+        question: "What does \"Tu me la prêtes ?\" mean?",
         options: ["Will you lend it to me?", "Will I lend it to you?", "Will you lend me to her?", "Will you lend her to me?"],
         correctIndex: 0,
         explanation: "\"Me\" is the person (to me) and \"la\" the thing (it, a feminine noun).",
@@ -313,10 +313,10 @@ export const FR_A2_U20: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which pair is in the right order?",
-            options: ["la lui", "lui la", "le me", "leur les"],
+            question: "Complete to say 'The recipe? I'm giving it to her': \"La recette ? Je ___ donne.\"",
+            options: ["la lui", "lui la", "la leur", "lui le"],
             correctIndex: 0,
-            explanation: "Order: me/te/nous/vous → le/la/les → lui/leur. So \"la lui\" and \"me le\", never \"lui la\" or \"le me\".",
+            explanation: "Thing before person with \"lui\" / \"leur\": \"la\" (la recette, feminine) then \"lui\" (to her). Never \"lui la\"; \"leur\" would mean to them.",
           },
           {
             type: "listen-choose",
@@ -385,7 +385,7 @@ export const FR_A2_U20: Lesson[] = [
         prompt: "Translate into French.",
         source: "The story? I tell it to them every evening.",
         answer: "L'histoire ? Je la leur raconte tous les soirs.",
-        altAnswers: ["L'histoire ? Je la leur raconte chaque soir.", "L'histoire ? Je la leur lis tous les soirs."],
+        altAnswers: ["L'histoire ? Je la leur raconte chaque soir."],
         explanation: "\"La\" (l'histoire) before \"leur\"; \"raconter\" = to tell (a story).",
       },
       {
@@ -440,7 +440,7 @@ export const FR_A2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I told him'?",
         options: ["Je le lui ai dit.", "Je lui l'ai dit.", "Je lui le ai dit.", "Je l'ai lui dit."],
         correctIndex: 0,
         explanation: "\"Le lui\" before the auxiliary: \"je le lui ai dit\" (I told him / her).",
@@ -537,7 +537,7 @@ export const FR_A2_U20: Lesson[] = [
             prompt: "Translate into French.",
             source: "Did you tell Marc? — Yes, I told him.",
             answer: "Tu l'as dit à Marc ? — Oui, je le lui ai dit.",
-            altAnswers: ["Tu as dit à Marc ? — Oui, je le lui ai dit.", "Vous l'avez dit à Marc ? — Oui, je le lui ai dit."],
+            altAnswers: ["Vous l'avez dit à Marc ? — Oui, je le lui ai dit."],
             explanation: "French keeps \"le\" for the thing said: \"je le lui ai dit\", not just \"je lui ai dit\".",
           },
           {
@@ -661,7 +661,7 @@ export const FR_A2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Did you give the keys to the neighbours? — Yes, ...",
+        question: "How do you answer 'Did you give the keys to the neighbours?' with 'Yes, I gave them to them'?",
         options: ["je les leur ai données.", "je leur les ai données.", "je les leur ai donné.", "je les ai leur données."],
         correctIndex: 0,
         explanation: "\"Les leur\" before \"ai\"; \"données\" agrees with \"les\" (les clés, feminine plural).",
@@ -848,7 +848,6 @@ export const FR_A2_U20: Lesson[] = [
         en: "Sweets? I [bought them some].",
         sentence: "Des bonbons ? Je ___.",
         answer: "leur en ai acheté",
-        altAnswers: ["lui en ai acheté"],
         explanation: "\"Leur en\" + \"ai acheté\"; no agreement with \"en\".",
       },
       {
@@ -946,7 +945,7 @@ export const FR_A2_U20: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say 'Your secret? I'm not telling you'?",
             options: ["Je ne te le dis pas.", "Je te ne le dis pas.", "Je ne te le pas dis.", "Je ne dis pas te le."],
             correctIndex: 0,
             explanation: "\"Ne\" before the pronoun block, \"pas\" after the verb.",
@@ -1167,14 +1166,14 @@ export const FR_A2_U20: Lesson[] = [
           { es: "Tu me prêtes ta voiture ? — Oui, je te la prête.", en: "Will you lend me your car? — Yes, I'll lend it to you." },
           { es: "Vous nous envoyez le devis ? — Oui, je vous l'envoie.", en: "Will you send us the quote? — Yes, I'll send it to you." },
           { es: "Tu donnes ce pull à ton frère ? — Oui, je le lui donne.", en: "Are you giving this jumper to your brother? — Yes, I'm giving it to him." },
-          { es: "Tu me dis la vérité ? — Oui, je te la dis.", en: "Are you telling me the truth? — Yes, I'm telling you it." },
+          { es: "Tu me dis la vérité ? — Oui, je te la dis.", en: "Are you telling me the truth? — Yes, I'm telling you the truth." },
           { es: "Tu prêtes tes livres à tes élèves ? — Non, je ne les leur prête pas.", en: "Do you lend your books to your pupils? — No, I don't lend them to them." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Answer in French: « Tu me prêtes ton vélo ? » Say: Yes, I'll lend it to you.",
+            prompt: "Answer in French: \"Tu me prêtes ton vélo ?\" Say: Yes, I'll lend it to you.",
             source: "Yes, I'll lend it to you.",
             answer: "Oui, je te le prête.",
             explanation: "The question's \"me\" becomes \"te\" in your answer; \"ton vélo\" → \"le\".",
@@ -1182,7 +1181,7 @@ export const FR_A2_U20: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Answer in French: « Vous nous envoyez la facture ? » Say: Yes, I'll send it to you.",
+            prompt: "Answer in French: \"Vous nous envoyez la facture ?\" Say: Yes, I'll send it to you.",
             source: "Yes, I'll send it to you.",
             answer: "Oui, je vous l'envoie.",
             altAnswers: ["Oui, je vous l'envoie tout de suite.", "Oui, on vous l'envoie.", "Oui, nous vous l'envoyons."],
@@ -1216,7 +1215,7 @@ export const FR_A2_U20: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Answer in French: « Tu as donné les clés à tes voisins ? » Say: Yes, I gave them to them.",
+            prompt: "Answer in French: \"Tu as donné les clés à tes voisins ?\" Say: Yes, I gave them to them.",
             source: "Yes, I gave them to them.",
             answer: "Oui, je les leur ai données.",
             explanation: "\"Les leur\" before \"ai\"; \"données\" agrees with \"les\" (les clés).",
@@ -1232,7 +1231,7 @@ export const FR_A2_U20: Lesson[] = [
           {
             type: "speak",
             text: "Oui, je te l'ai rendu hier.",
-            prompt: "Answer aloud: « Tu m'as rendu mon parapluie ? » (Yes, I gave it back to you yesterday.)",
+            prompt: "Answer aloud: \"Tu m'as rendu mon parapluie ?\" (Yes, I gave it back to you yesterday.)",
             tip: "\"Te l'ai\": \"teu-lé\".",
             explanation: "\"Te\" + \"l'\" (le parapluie) + \"ai rendu\".",
           },
@@ -1256,7 +1255,7 @@ export const FR_A2_U20: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Answer in French: « Tu as parlé de ton projet à ton patron ? » Say: Yes, I told him about it.",
+            prompt: "Answer in French: \"Tu as parlé de ton projet à ton patron ?\" Say: Yes, I told him about it.",
             source: "Yes, I told him about it.",
             answer: "Oui, je lui en ai parlé.",
             explanation: "\"À ton patron\" → \"lui\"; \"de ton projet\" → \"en\"; order \"lui en\".",
@@ -1264,7 +1263,7 @@ export const FR_A2_U20: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Answer in French: « Il reste des croissants ? » Say: Yes, there are two.",
+            prompt: "Answer in French: \"Il reste des croissants ?\" Say: Yes, there are two.",
             source: "Yes, there are two.",
             answer: "Oui, il y en a deux.",
             altAnswers: ["Oui, il en reste deux."],
@@ -1277,7 +1276,7 @@ export const FR_A2_U20: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Answer in French: « Tu me prêtes ta voiture ? » Say: No, I'm not lending it to you.",
+        prompt: "Answer in French: \"Tu me prêtes ta voiture ?\" Say: No, I'm not lending it to you.",
         source: "No, I'm not lending it to you.",
         answer: "Non, je ne te la prête pas.",
         explanation: "\"Ne\" + \"te la\" + \"prête\" + \"pas\".",
@@ -1285,7 +1284,7 @@ export const FR_A2_U20: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Answer in French: « Vous donnez ces vêtements à l'association ? » Say: Yes, we're giving them to it.",
+        prompt: "Answer in French: \"Vous donnez ces vêtements à l'association ?\" Say: Yes, we're giving them to it.",
         source: "Yes, we're giving them to it.",
         answer: "Oui, nous les lui donnons.",
         altAnswers: ["Oui, on les lui donne."],
@@ -1294,7 +1293,7 @@ export const FR_A2_U20: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Answer in French: « Tu as rendu les livres à la bibliothèque ? » Say: Yes, I gave them back yesterday.",
+        prompt: "Answer in French: \"Tu as rendu les livres à la bibliothèque ?\" Say: Yes, I gave them back yesterday.",
         source: "Yes, I gave them back yesterday.",
         answer: "Oui, je les ai rendus hier.",
         altAnswers: ["Oui, je les y ai rendus hier.", "Oui, hier, je les ai rendus."],
@@ -1311,7 +1310,7 @@ export const FR_A2_U20: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Answer in French: « Tu me dis ton secret ? » Say: No, I'm not telling you.",
+        prompt: "Answer in French: \"Tu me dis ton secret ?\" Say: No, I'm not telling you.",
         source: "No, I'm not telling you.",
         answer: "Non, je ne te le dis pas.",
         explanation: "French keeps \"le\" for the secret: \"je ne te le dis pas\".",
@@ -1319,14 +1318,14 @@ export const FR_A2_U20: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Answer in French: « Tu as acheté des fleurs à ta mère ? » Say: Yes, I bought her some.",
+        prompt: "Answer in French: \"Tu as acheté des fleurs à ta mère ?\" Say: Yes, I bought her some.",
         source: "Yes, I bought her some.",
         answer: "Oui, je lui en ai acheté.",
         explanation: "\"Lui en\" + \"ai acheté\"; no agreement with \"en\".",
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to answer « Tu peux me prêter ton stylo ? »: Yes, I can lend it to you.",
+        prompt: "Put the words in order to answer \"Tu peux me prêter ton stylo ?\": Yes, I can lend it to you.",
         words: ["Oui,", "je", "peux", "te", "le", "prêter."],
         translation: "Yes, I can lend it to you.",
         explanation: "The block \"te le\" goes before the infinitive.",
@@ -1334,7 +1333,7 @@ export const FR_A2_U20: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Answer in French: « Vous avez expliqué la situation à vos parents ? » Say: Not yet, I'm going to explain it to them tonight.",
+        prompt: "Answer in French: \"Vous avez expliqué la situation à vos parents ?\" Say: Not yet, I'm going to explain it to them tonight.",
         source: "Not yet, I'm going to explain it to them tonight.",
         answer: "Pas encore, je vais la leur expliquer ce soir.",
         altAnswers: ["Pas encore, je la leur explique ce soir."],
@@ -1342,7 +1341,7 @@ export const FR_A2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Tu m'as envoyé le dossier ? » Which answer is right?",
+        question: "\"Tu m'as envoyé le dossier ?\" Which answer is right?",
         options: ["Oui, je te l'ai envoyé.", "Oui, je me l'ai envoyé.", "Oui, je l'ai te envoyé.", "Oui, je te l'ai envoyée."],
         correctIndex: 0,
         explanation: "\"M'\" in the question → \"te\" in the answer; \"le dossier\" is masculine, so \"envoyé\".",
@@ -1350,7 +1349,7 @@ export const FR_A2_U20: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Oui, il y en a.",
-        question: "Someone asked « Il reste du pain ? ». What does the answer mean?",
+        question: "Someone asked \"Il reste du pain ?\". What does the answer mean?",
         options: ["Yes, there's some.", "Yes, he has some.", "Yes, he's there.", "No, there isn't any."],
         correctIndex: 0,
         explanation: "\"Il y en a\" = there is some.",
@@ -1363,7 +1362,7 @@ export const FR_A2_U20: Lesson[] = [
       {
         type: "speak",
         text: "Oui, je lui en ai parlé ce matin.",
-        prompt: "Answer aloud: « Tu as parlé du problème à ta collègue ? » (Yes, I told her about it this morning.)",
+        prompt: "Answer aloud: \"Tu as parlé du problème à ta collègue ?\" (Yes, I told her about it this morning.)",
         tip: "\"Lui en ai\": \"lwi-an-né\".",
         explanation: "\"Lui\" for the colleague, \"en\" for the problem.",
       },
@@ -1380,7 +1379,7 @@ export const FR_A2_U20: Lesson[] = [
       {
         heading: "The day before: who lends what",
         body: [
-          "Chloé is moving flat in Nantes on Saturday and organises her friends by text. « Karim, tu me prêtes ta camionnette ? » — « Oui, je te la prête, mais je la récupère dimanche. » « Et les cartons, Julie ? » — « Je vous les apporte vendredi soir. »",
+          "Chloé is moving flat in Nantes on Saturday and organises her friends by text. \"Karim, tu me prêtes ta camionnette ?\" — \"Oui, je te la prête, mais je la récupère dimanche.\" \"Et les cartons, Julie ?\" — \"Je vous les apporte vendredi soir.\"",
           "Every noun gets replaced as soon as it's known: \"ta camionnette\" (your van) → \"la\"; \"les cartons\" → \"les\". The persons swap as people answer: Chloé's \"me\" becomes Karim's \"te\".",
           "\"Récupérer\" (to get back, to collect) is a very useful moving-day verb: \"je la récupère dimanche\".",
         ],
@@ -1422,7 +1421,7 @@ export const FR_A2_U20: Lesson[] = [
       {
         heading: "Moving day: who brings what where",
         body: [
-          "On Saturday, the questions fly. « Le canapé, on le met où ? » — « Dans le salon. » « Les livres de Chloé ? » — « Je les lui ai montés au troisième. » « Et les clés de l'ancien appartement ? » — « Je les ai laissées au propriétaire : je les lui ai rendues ce matin. »",
+          "On Saturday, the questions fly. \"Le canapé, on le met où ?\" — \"Dans le salon.\" \"Les livres de Chloé ?\" — \"Je les lui ai montés au troisième.\" \"Et les clés de l'ancien appartement ?\" — \"Je les ai laissées au propriétaire : je les lui ai rendues ce matin.\"",
           "Notice \"je les lui ai montés\": \"monter\" with an object takes \"avoir\", and \"montés\" agrees with \"les\" (les livres). \"Je les lui ai rendues\": \"rendues\" agrees with \"les clés\".",
           "\"Y\" replaces the place: \"Le salon ? On y met le canapé.\" And \"en\" counts things: \"Des cartons ? Il en reste trois dans la camionnette.\"",
         ],
@@ -1464,9 +1463,9 @@ export const FR_A2_U20: Lesson[] = [
       {
         heading: "After the move: thanks and promises",
         body: [
-          "In the evening, Chloé thanks everyone: « Merci pour la camionnette, Karim ! Je te la rends demain matin, promis. » « Julie, tes cartons, je te les rendrai la semaine prochaine. » « La pizza ? Je vous l'offre, bien sûr ! »",
+          "In the evening, Chloé thanks everyone: \"Merci pour la camionnette, Karim ! Je te la rends demain matin, promis.\" \"Julie, tes cartons, je te les rendrai la semaine prochaine.\" \"La pizza ? Je vous l'offre, bien sûr !\"",
           "Promises use the present or the future: \"je te la rends demain\", \"je te les rendrai\". The block goes before the verb in both.",
-          "And when Karim says « Merci pour la pizza ! », Chloé answers « Je t'en prie ! » or « De rien, c'est moi qui vous remercie ! » (I'm the one who should thank you!).",
+          "And when Karim says \"Merci pour la pizza !\", Chloé answers \"Je t'en prie !\" or \"De rien, c'est moi qui vous remercie !\" (I'm the one who should thank you!).",
         ],
         examples: [
           { es: "Je te la rends demain matin, promis.", en: "I'll give it back to you tomorrow morning, I promise." },
@@ -1572,7 +1571,7 @@ export const FR_A2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Julie asks: « Les cartons, je vous les apporte quand ? » What does she mean?",
+        question: "Julie asks: \"Les cartons, je vous les apporte quand ?\" What does she mean?",
         options: ["When shall I bring you the boxes?", "When will you bring me the boxes?", "When did I bring you the boxes?", "Where shall I put the boxes?"],
         correctIndex: 0,
         explanation: "\"Je vous les apporte\" = I bring them to you; \"quand ?\" asks when.",

@@ -23,7 +23,7 @@ export const PT_B1_U04: Lesson[] = [
           { es: "Vou explicar de novo para que você entenda.", en: "I'll explain again so that you understand." },
           { es: "Fale mais alto para que todos ouçam.", en: "Speak louder so that everyone can hear." },
           { es: "A professora repete tudo para que os alunos não se percam.", en: "The teacher repeats everything so the students don't get lost." },
-          { es: "Deixei a chave com a vizinha para que você possa entrar.", en: "I left the key with the neighbour so you can get in." },
+          { es: "Deixei a chave com a vizinha para que você possa entrar.", en: "I left the key with the neighbor so you can get in." },
           { es: "Vou ligar para a Ana para que ela saiba da festa.", en: "I'll call Ana so she knows about the party." },
         ],
         checkpoint: [
@@ -54,7 +54,7 @@ export const PT_B1_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You want to tell your flatmate: I'm leaving the door open so the cat can come in. What do you say?",
+            question: "You want to tell your roommate: I'm leaving the door open so the cat can come in. What do you say?",
             options: [
               "Vou deixar a porta aberta para que o gato possa entrar.",
               "Vou deixar a porta aberta para que o gato pode entrar.",
@@ -115,10 +115,10 @@ export const PT_B1_U04: Lesson[] = [
         checkpoint: [
           {
             type: "word-order",
-            prompt: "Put the words in order to say: We're staying until the film ends.",
+            prompt: "Put the words in order to say: We're staying until the movie ends.",
             words: ["Vamos", "ficar", "até", "que", "o", "filme", "termine."],
-            translation: "We're staying until the film ends.",
-            explanation: "\"Até que\" + subjunctive: \"termino\" → \"termine\". The end of the film is still ahead, so it isn't stated as a fact.",
+            translation: "We're staying until the movie ends.",
+            explanation: "\"Até que\" + subjunctive: \"termino\" → \"termine\". The end of the movie is still ahead, so it isn't stated as a fact.",
           },
           {
             type: "listen-choose",
@@ -187,7 +187,7 @@ export const PT_B1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You're leaving a note for your flatmate: Put the milk in the fridge before it goes off. Which is correct?",
+        question: "You're leaving a note for your roommate: Put the milk in the fridge before it goes bad. Which is correct?",
         options: [
           "Coloca o leite na geladeira antes que estrague.",
           "Coloca o leite na geladeira antes que estraga.",
@@ -226,7 +226,7 @@ export const PT_B1_U04: Lesson[] = [
         type: "speak",
         text: "Espere aqui até que ela chegue.",
         prompt: "Say it in Portuguese: Wait here until she arrives.",
-        tip: "In \"chegue\" the u is silent and the g is hard, as in 'get'; the final e sounds like i: SHEH-ghi.",
+        tip: "In \"chegue\" the u is silent and the g is hard, as in 'get'; the final e sounds like i: SHÊ-ghi, with a closed ê.",
         explanation: "\"Até que\" + subjunctive: \"chego\" → \"chegue\".",
       },
       {
@@ -326,7 +326,7 @@ export const PT_B1_U04: Lesson[] = [
           { es: "Leva um casaco, caso esfrie à noite.", en: "Take a coat in case it gets cold at night." },
           { es: "Caso o voo atrase, a gente avisa.", en: "If the flight is delayed, we'll let you know." },
           { es: "Caso tenha dúvidas, entre em contato com a recepção.", en: "If you have any questions, contact reception." },
-          { es: "Deixa a chave com a vizinha, caso eu chegue tarde.", en: "Leave the key with the neighbour in case I get back late." },
+          { es: "Deixa a chave com a vizinha, caso eu chegue tarde.", en: "Leave the key with the neighbor in case I get back late." },
         ],
         checkpoint: [
           {
@@ -427,7 +427,7 @@ export const PT_B1_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Although it's far, I like the neighbourhood.",
+        source: "Although it's far, I like the neighborhood.",
         answer: "Embora seja longe, eu gosto do bairro.",
         altAnswers: [
           "Embora seja longe, gosto do bairro.",
@@ -843,7 +843,7 @@ export const PT_B1_U04: Lesson[] = [
           "\"Mas\" only links. It never changes the mood, and it works in any tense, so it's your safe choice for past contrasts: \"estava cansado, mas fui\".",
         ],
         examples: [
-          { es: "O apartamento é pequeno, mas é bem localizado.", en: "The flat is small, but it's well located." },
+          { es: "O apartamento é pequeno, mas é bem localizado.", en: "The apartment is small, but it's well located." },
           { es: "Está chovendo, mas eu vou sair.", en: "It's raining, but I'm going out." },
           { es: "O restaurante é caro, mas a comida vale a pena.", en: "The restaurant is expensive, but the food is worth it." },
           { es: "Eu estava cansada, mas fui à festa.", en: "I was tired, but I went to the party. (a woman speaking)" },
@@ -893,7 +893,7 @@ export const PT_B1_U04: Lesson[] = [
           { es: "Embora seja caro, o restaurante vale a pena.", en: "Although it's expensive, the restaurant is worth it." },
           { es: "Eu vou sair, embora esteja chovendo.", en: "I'm going out, although it's raining." },
           { es: "Embora ele fale pouco, entende tudo.", en: "Although he doesn't say much, he understands everything." },
-          { es: "Embora o bairro seja tranquilo, o aluguel é alto.", en: "Although the neighbourhood is quiet, the rent is high." },
+          { es: "Embora o bairro seja tranquilo, o aluguel é alto.", en: "Although the neighborhood is quiet, the rent is high." },
           { es: "Ela continua no emprego, embora não goste do chefe.", en: "She's staying in the job, although she doesn't like her boss." },
           { es: "Embora a gente more perto, a gente quase não se vê.", en: "Although we live close by, we hardly see each other." },
         ],
@@ -974,14 +974,14 @@ export const PT_B1_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Although the flat is small, it's well located.",
+        source: "Although the apartment is small, it's well located.",
         answer: "Embora o apartamento seja pequeno, é bem localizado.",
         altAnswers: [
           "Embora o apartamento seja pequeno, ele é bem localizado.",
           "O apartamento é bem localizado, embora seja pequeno.",
           "Apesar de ser pequeno, o apartamento é bem localizado.",
         ],
-        explanation: "\"Embora\" takes the subjunctive \"seja\"; the main clause stays in the indicative \"é\". \"Apesar de ser\" also works, since the flat is the subject of both halves.",
+        explanation: "\"Embora\" takes the subjunctive \"seja\"; the main clause stays in the indicative \"é\". \"Apesar de ser\" also works, since the apartment is the subject of both halves.",
       },
       {
         type: "translate",
@@ -1111,7 +1111,7 @@ export const PT_B1_U04: Lesson[] = [
     level: "PT-B1",
     number: 5,
     title: "Caso or Se?",
-    summary: "Choose between caso + present subjunctive and se + present indicative, and recognise se + future subjunctive (se você precisar), the everyday form in speech.",
+    summary: "Choose between caso + present subjunctive and se + present indicative, and recognize se + future subjunctive (se você precisar), the everyday form in speech.",
     duration: "12 min",
     kind: "teach",
     sections: [
@@ -1124,7 +1124,7 @@ export const PT_B1_U04: Lesson[] = [
         examples: [
           { es: "Caso você precise de ajuda, me liga.", en: "If you need help, call me." },
           { es: "Leva um casaco caso esfrie à noite.", en: "Take a jacket in case it gets cold at night." },
-          { es: "Caso o ônibus atrase, eu vou de metrô.", en: "If the bus is late, I'll take the metro." },
+          { es: "Caso o ônibus atrase, eu vou de metrô.", en: "If the bus is late, I'll take the subway." },
           { es: "Anota meu número caso você se perca.", en: "Write down my number in case you get lost." },
           { es: "Caso a loja esteja fechada, a gente volta amanhã.", en: "If the shop is closed, we'll come back tomorrow." },
         ],
@@ -1224,7 +1224,7 @@ export const PT_B1_U04: Lesson[] = [
       {
         heading: "Se você precisar: the form you'll hear most",
         body: [
-          "For a possible future, \"se\" takes a third form, the future subjunctive: \"se você precisar, me liga\". You know \"se chover\" as a chunk. With regular verbs it looks like the infinitive (\"se a gente chegar\", \"se eles ligarem\"); a few frequent verbs are irregular, like \"se você quiser\". You'll learn the forms later; for now, recognise them.",
+          "For a possible future, \"se\" takes a third form, the future subjunctive: \"se você precisar, me liga\". You know \"se chover\" as a chunk. With regular verbs it looks like the infinitive (\"se a gente chegar\", \"se eles ligarem\"); a few frequent verbs are irregular, like \"se você quiser\". You'll learn the forms later; for now, recognize them.",
           "In conversation \"se\" dominates: \"se você precisar\" is what you'll hear in Recife or Curitiba. \"Caso\" sounds more careful and shows up in emails, instructions and notices. They mean the same, so when you write, \"caso\" + present subjunctive is your safe choice. Never cross them: \"caso você precisar\" is an error.",
         ],
         examples: [
@@ -1286,7 +1286,7 @@ export const PT_B1_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "If the bus is late, I'll take the metro.",
+        source: "If the bus is late, I'll take the subway.",
         answer: "Caso o ônibus atrase, eu vou de metrô.",
         altAnswers: [
           "Caso o ônibus atrase, vou de metrô.",
@@ -1499,7 +1499,7 @@ export const PT_B1_U04: Lesson[] = [
         ],
         examples: [
           { es: "Desde que eu cheguei aqui, não parei de trabalhar.", en: "Since I got here, I haven't stopped working." },
-          { es: "Desde que moro em São Paulo, ando mais de metrô.", en: "Since I've been living in São Paulo, I take the metro more." },
+          { es: "Desde que moro em São Paulo, ando mais de metrô.", en: "Since I've been living in São Paulo, I take the subway more." },
           { es: "Ela está mais feliz desde que mudou de emprego.", en: "She's been happier since she changed jobs." },
           { es: "Você pode usar o carro, desde que devolva até as dez.", en: "You can use the car, provided you bring it back by ten." },
           { es: "Eu ajudo, desde que você me explique o que fazer.", en: "I'll help, as long as you explain what to do." },
@@ -1623,7 +1623,7 @@ export const PT_B1_U04: Lesson[] = [
         text: "Vamos sair antes que o trânsito piore.",
         prompt: "Say it in Portuguese: Let's leave before the traffic gets worse.",
         tip: "Stress piore on the open ó, pi-Ó-ri, and let the final e sound like i.",
-        explanation: "The traffic hasn't got worse yet, so \"antes que\" takes the subjunctive \"piore\".",
+        explanation: "The traffic hasn't gotten worse yet, so \"antes que\" takes the subjunctive \"piore\".",
       },
       {
         type: "matching",
@@ -1878,14 +1878,14 @@ export const PT_B1_U04: Lesson[] = [
         type: "speak",
         text: "Eu topo, a não ser que chova.",
         prompt: "Say it in Portuguese: I'm in, unless it rains.",
-        tip: "Stress the first syllable of \"chova\", CHO-va, and say the ch like English sh.",
+        tip: "Stress the first syllable of \"chova\", SHÔ-va, with a closed o, and say the ch like English sh.",
         explanation: "\"Eu topo\" accepts the invitation, and \"a não ser que\" + subjunctive \"chova\" adds the condition.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I'll leave the key with the neighbour so that you can get in. (to Rafael and Lucas)",
+        source: "I'll leave the key with the neighbor so that you can get in. (to Rafael and Lucas)",
         answer: "Vou deixar a chave com o vizinho para que vocês possam entrar.",
         altAnswers: [
           "Eu vou deixar a chave com o vizinho para que vocês possam entrar.",
@@ -1948,7 +1948,7 @@ export const PT_B1_U04: Lesson[] = [
         heading: "Same subject? Drop the que",
         body: [
           "\"Para que\", \"antes que\" and \"sem que\" link two different people: \"ela fala devagar para que eu possa entender\" (she speaks, I understand). When both verbs share a subject, Portuguese uses the matching preposition and a plain infinitive: \"para poder\", \"antes de sair\", \"sem saber\".",
-          "The typical learner sentence is *\"Trabalho muito para que eu possa viajar\". It translates 'so that I can' word for word, and no Brazilian would say it. Write \"Trabalho muito para poder viajar\". Before you write \"que\", ask who does each verb. Same person: preposition + infinitive. Different people: \"que\" + subjunctive.",
+          "The typical learner sentence is \"Trabalho muito para que eu possa viajar\". It isn't ungrammatical, but it translates 'so that I can' word for word and sounds heavy. Write \"Trabalho muito para poder viajar\". Before you write \"que\", ask who does each verb. Same person: preposition + infinitive. Different people: \"que\" + subjunctive.",
           "Watch the small words too: it's \"antes de sair\" with \"de\", but \"para sair\" and \"sem sair\" with nothing in between.",
         ],
         examples: [
@@ -1972,7 +1972,7 @@ export const PT_B1_U04: Lesson[] = [
               "Estou economizando dinheiro pra poder viajar.",
               "Estou guardando dinheiro pra poder viajar.",
             ],
-            explanation: "I save and I travel: same subject, so \"para poder\" + infinitive. *\"Para que eu possa viajar\" is the classic English-shaped mistake.",
+            explanation: "I save and I travel: same subject, so \"para poder\" + infinitive. \"Para que eu possa viajar\" is grammatical but heavy, the classic English-shaped choice.",
           },
           {
             type: "multiple-choice",
@@ -1996,7 +1996,7 @@ export const PT_B1_U04: Lesson[] = [
         heading: "Embora é, caso precisa: the indicative slipping in",
         body: [
           "After \"embora\", \"caso\", \"antes que\", \"até que\", \"a não ser que\" and \"desde que\" (provided that), the verb is always in the subjunctive. English uses an ordinary verb here (although it is, in case you need), so English speakers write *\"embora é caro\" or *\"caso você precisa\". The fix: \"embora seja caro\", \"caso você precise\".",
-          "A quick test: if the verb after one of these words looks exactly like the present, it's almost certainly wrong. Regular -ar verbs change to -e (\"precisa\" → \"precise\", \"chega\" → \"chegue\"), -er and -ir verbs to -a (\"sai\" → \"saia\", \"chove\" → \"chova\"). The irregulars you memorised stay irregular: \"seja\", \"esteja\", \"vá\".",
+          "A quick test: if the verb after one of these words looks exactly like the present, it's almost certainly wrong. Regular -ar verbs change to -e (\"precisa\" → \"precise\", \"chega\" → \"chegue\"), -er and -ir verbs to -a (\"sai\" → \"saia\", \"chove\" → \"chova\"). The irregulars you memorized stay irregular: \"seja\", \"esteja\", \"vá\".",
         ],
         examples: [
           { es: "Embora seja caro, o show vale a pena.", en: "Although it's expensive, the show is worth it." },
@@ -2148,7 +2148,7 @@ export const PT_B1_U04: Lesson[] = [
           "Estudamos todo dia pra passar na prova.",
           "Estudamos todo dia para passar no exame.",
         ],
-        explanation: "Same subject (we study, we pass), so \"para\" + infinitive. *\"Para que nós passemos\" sounds translated.",
+        explanation: "Same subject (we study, we pass), so \"para\" + infinitive. \"Para que nós passemos\" is grammatical but sounds translated.",
       },
       {
         type: "fill-blank",
@@ -2190,7 +2190,7 @@ export const PT_B1_U04: Lesson[] = [
         source: "I left without saying goodbye.",
         answer: "Saí sem me despedir.",
         altAnswers: ["Eu saí sem me despedir.", "Saí sem dizer tchau.", "Eu saí sem dizer tchau."],
-        explanation: "Same subject, so \"sem\" + infinitive, with nothing in between. *\"Sem que eu me despedisse\" is far too heavy here.",
+        explanation: "Same subject, so \"sem\" + infinitive, with nothing in between. A \"sem que\" clause is only for a second subject.",
       },
       {
         type: "word-order",
@@ -2220,7 +2220,7 @@ export const PT_B1_U04: Lesson[] = [
         type: "speak",
         text: "Me liga caso você se perca.",
         prompt: "Say it in Portuguese: Call me in case you get lost.",
-        tip: "The s in caso sounds like z: CA-zu. Stress the first syllable of perca: PER-ca.",
+        tip: "The s in caso sounds like z: CA-zu. Stress the first syllable of perca, PÉR-ka, with an open é as in \"perco\".",
         explanation: "\"Caso\" + subjunctive: \"perder\" becomes \"perca\", from \"eu perco\". The pronoun goes before the verb: \"você se perca\".",
       },
     ],
@@ -2242,7 +2242,7 @@ export const PT_B1_U04: Lesson[] = [
         examples: [
           { es: "Leve o documento original.", en: "Bring the original document." },
           { es: "Leve o documento para que possam conferir.", en: "Bring the document so they can check it." },
-          { es: "Chegue cedo para pegar uma senha.", en: "Arrive early to get a queue number." },
+          { es: "Chegue cedo para pegar uma senha.", en: "Arrive early to get a line number." },
           { es: "Deixe a chave na portaria para que o encanador possa entrar.", en: "Leave the key at the front desk so the plumber can get in." },
           { es: "Mande uma mensagem para que a gente saiba que você chegou.", en: "Send a message so we know you've arrived." },
         ],
@@ -2294,7 +2294,7 @@ export const PT_B1_U04: Lesson[] = [
         ],
         examples: [
           { es: "Leve uma cópia, caso o sistema esteja fora do ar.", en: "Bring a copy in case the system is down." },
-          { es: "Caso a fila esteja grande, volte depois do almoço.", en: "If the queue is long, come back after lunch." },
+          { es: "Caso a fila esteja grande, volte depois do almoço.", en: "If the line is long, come back after lunch." },
           { es: "Não abra a porta, a não ser que seja o porteiro.", en: "Don't open the door unless it's the doorman." },
           { es: "Você pode usar a piscina, desde que tome uma ducha antes.", en: "You can use the pool provided you take a shower first." },
           { es: "Caso alguém ligue, diga que eu volto às três.", en: "If anyone calls, say I'll be back at three." },
@@ -2322,10 +2322,10 @@ export const PT_B1_U04: Lesson[] = [
             audio: "Caso a fila esteja grande, volte depois do almoço.",
             question: "What does it mean?",
             options: [
-              "If the queue is long, come back after lunch.",
-              "Since the queue is long, come back after lunch.",
-              "Unless the queue is long, come back after lunch.",
-              "If the queue is long, come back before lunch.",
+              "If the line is long, come back after lunch.",
+              "Since the line is long, come back after lunch.",
+              "Unless the line is long, come back after lunch.",
+              "If the line is long, come back before lunch.",
             ],
             correctIndex: 0,
             explanation: "\"Caso\" + subjunctive is in case or if, not since. \"Depois do almoço\" is after lunch.",
@@ -2519,7 +2519,7 @@ export const PT_B1_U04: Lesson[] = [
           "These sentences also recycle A2 commands and pronouns: \"me avisa antes que eles cheguem\". In speech the pronoun still goes before the verb. The conjunction changes only the mood of the verb after it.",
         ],
         examples: [
-          { es: "Vou deixar a chave com a vizinha para que você possa entrar.", en: "I'll leave the key with the neighbour so you can get in." },
+          { es: "Vou deixar a chave com a vizinha para que você possa entrar.", en: "I'll leave the key with the neighbor so you can get in." },
           { es: "Me avisa antes que eles cheguem.", en: "Let me know before they arrive." },
           { es: "Fica aqui até que a chuva passe.", en: "Stay here until the rain stops." },
           { es: "Ele sempre sai sem que a gente perceba.", en: "He always leaves without us noticing." },
@@ -2545,7 +2545,7 @@ export const PT_B1_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You tell your flatmate: Close the window before it rains. What do you say?",
+            question: "You tell your roommate: Close the window before it rains. What do you say?",
             options: ["Fecha a janela antes que chova.", "Fecha a janela antes que chove.", "Fecha a janela até que chova.", "Fecha a janela antes chova."],
             correctIndex: 0,
             explanation: "\"Antes que\" always takes the subjunctive: \"chova\". \"Chove\" is indicative, \"até que\" means until, and \"antes\" alone can't introduce a clause.",
@@ -2601,8 +2601,8 @@ export const PT_B1_U04: Lesson[] = [
           "Now mix units. A trigger from Units 1 to 3 (\"espero que\", \"é melhor que\", \"talvez\") can share a sentence with a conjunction, and each clause takes its own subjunctive: \"espero que ele venha, embora esteja ocupado\".",
         ],
         examples: [
-          { es: "Embora o apartamento seja pequeno, a localização é ótima.", en: "Although the flat is small, the location is great." },
-          { es: "O apartamento é pequeno, mas a localização é ótima.", en: "The flat is small, but the location is great." },
+          { es: "Embora o apartamento seja pequeno, a localização é ótima.", en: "Although the apartment is small, the location is great." },
+          { es: "O apartamento é pequeno, mas a localização é ótima.", en: "The apartment is small, but the location is great." },
           { es: "Apesar do trânsito, eu gosto de morar em São Paulo.", en: "Despite the traffic, I like living in São Paulo." },
           { es: "Espero que ele venha, embora esteja muito ocupado.", en: "I hope he comes, although he's very busy." },
           { es: "Talvez a gente viaje em julho, caso as passagens fiquem mais baratas.", en: "Maybe we'll travel in July, if the tickets get cheaper." },
@@ -2739,7 +2739,7 @@ export const PT_B1_U04: Lesson[] = [
 
 export const PT_B1_U04_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A friend, Rafael, is staying in your flat in Salvador next week while you travel. Write him a note (80-150 words) explaining what he needs to know: where the key is, what to do if something goes wrong, the plants, the cat and any house rules. Give reasons and conditions, not just orders.",
+  prompt: "A friend, Rafael, is staying in your apartment in Salvador next week while you travel. Write him a note (80-150 words) explaining what he needs to know: where the key is, what to do if something goes wrong, the plants, the cat and any house rules. Give reasons and conditions, not just orders.",
   minWords: 80,
   maxWords: 150,
   rubric: [

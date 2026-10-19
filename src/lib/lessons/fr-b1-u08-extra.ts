@@ -755,9 +755,9 @@ export const FR_B1_U08_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into French. (imperative)",
         source: "Turn off the music, please. (to your flatmate)",
-        answer: "Baisse la musique, s'il te plaît.",
-        altAnswers: ["Éteins la musique, s'il te plaît.", "Arrête la musique, s'il te plaît.", "Coupe la musique, s'il te plaît."],
-        explanation: "\"Éteins\" (with s) or \"baisse\" (no s, turn down).",
+        answer: "Éteins la musique, s'il te plaît.",
+        altAnswers: ["Arrête la musique, s'il te plaît.", "Coupe la musique, s'il te plaît."],
+        explanation: "\"Éteins\" keeps its s (tu éteins); \"arrête\" and \"coupe\" are -er verbs, so no s. To turn it down would be \"baisse la musique\".",
       },
       {
         type: "translate",
@@ -863,7 +863,7 @@ export const FR_B1_U08_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the correct affirmative form of s'asseoir (vous)?",
+            question: "How do you say: Sit down. (coach to client)",
             options: ["Asseyez-vous.", "Vous asseyez.", "Asseyez-vous pas.", "Assoyez vous."],
             correctIndex: 0,
             explanation: "Affirmative: verb + hyphen + vous.",
@@ -1076,6 +1076,7 @@ export const FR_B1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "Go to bed, it's late. (tu)",
         answer: "Va te coucher, il est tard.",
+        altAnswers: ["Va au lit, il est tard."],
         explanation: "\"Va\" without s; se coucher keeps te before the infinitive.",
       },
       {

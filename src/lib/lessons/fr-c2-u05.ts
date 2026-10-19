@@ -97,7 +97,7 @@ export const FR_C2_U05: Lesson[] = [
               { left: "Après la pluie, le beau temps.", right: "Every cloud has a silver lining." },
               { left: "L'habit ne fait pas le moine.", right: "Don't judge a book by its cover." },
             ],
-            explanation: "Each pair does the same job with a different image: a nest, a monk's habit, dogs and cats, the weather. Only the Paris / Rome pair shares its structure.",
+            explanation: "Each pair does the same job with a different image: a monk's habit for a book cover, dogs and cats for an apple tree, rain and fine weather for a cloud's lining. Only the Paris / Rome pair shares its structure.",
           },
           {
             type: "listen-choose",
@@ -520,7 +520,6 @@ export const FR_C2_U05: Lesson[] = [
             prompt: "Translate into French (use the French proverb).",
             source: "Time will tell.",
             answer: "Qui vivra verra.",
-            altAnswers: ["L'avenir nous le dira.", "Seul l'avenir le dira."],
             explanation: "\"Qui vivra verra\": \"qui\" without antecedent = whoever, and two futures: whoever lives will see.",
           },
           {
@@ -661,7 +660,7 @@ export const FR_C2_U05: Lesson[] = [
       {
         type: "dictation",
         audio: "Il n'est pire sourd que celui qui ne veut pas entendre.",
-        explanation: "\"Il n'est pire sourd\": \"ne\" alone, \"il n'est\" for \"il n'y a\". \"Pire\" agrees with nothing here: it is the comparative of \"mauvais\".",
+        explanation: "\"Il n'est pire sourd\": \"ne\" alone, \"il n'est\" for \"il n'y a\". \"Pire\" is the comparative of \"mauvais\", placed before the noun \"sourd\".",
       },
       {
         type: "speak",
@@ -829,7 +828,7 @@ export const FR_C2_U05: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "Fine, [nothing ventured, nothing gained], but [better safe than sorry].",
+        en: "Fine, nothing ventured, nothing gained, but [better safe than sorry].",
         sentence: "D'accord, qui ne risque rien n'a rien, mais ___.",
         answer: "prudence est mère de sûreté",
         explanation: "Setting two proverbs against each other is a typically French conversational move; \"prudence est mère de sûreté\" keeps its bare nouns.",
@@ -1152,7 +1151,7 @@ export const FR_C2_U05: Lesson[] = [
         body: [
           "Classical theatre gave French a stock of lines that now work like proverbs. From Molière: \"Il faut manger pour vivre et non pas vivre pour manger\" (L'Avare), \"Que diable allait-il faire dans cette galère ?\" (Les Fourberies de Scapin: what on earth was he doing in that mess?), \"Cachez ce sein que je ne saurais voir\" (Tartuffe, used to mock prudish hypocrisy).",
           "From Corneille's Le Cid: \"À vaincre sans péril, on triomphe sans gloire\" (to win without danger is to triumph without glory) and \"Rodrigue, as-tu du cœur ?\" (still used jokingly to dare someone). From Boileau's Art poétique: \"Ce que l'on conçoit bien s'énonce clairement\" (what is well understood is clearly expressed), the motto of every French essay teacher.",
-          "\"Galère\" deserves a note: in Molière it is a real galley ship, and from that line comes the everyday \"quelle galère !\" (what a pain!) and \"c'est la galère\" (it's a nightmare). The quotation has become ordinary slang, and most speakers no longer know where it comes from.",
+          "\"Galère\" deserves a note: in Molière it is a real galley ship, and the hard labour of the galley slaves also gave the everyday \"quelle galère !\" (what a pain!) and \"c'est la galère\" (it's a nightmare). Molière's line and the slang share that image, and most speakers no longer think of ships at all.",
         ],
         examples: [
           { es: "Il faut manger pour vivre et non pas vivre pour manger.", en: "One should eat to live, not live to eat." },
@@ -1170,7 +1169,7 @@ export const FR_C2_U05: Lesson[] = [
             source: "One should eat to live, not live to eat.",
             answer: "Il faut manger pour vivre et non pas vivre pour manger.",
             altAnswers: ["Il faut manger pour vivre et non vivre pour manger."],
-            explanation: "Harpagon's line in L'Avare, a chiasmus (manger / vivre, vivre / manger); \"non pas\" is the emphatic negation of a phrase.",
+            explanation: "Valère's line in L'Avare (Harpagon wants it engraved over his dining-room door), a chiasmus (manger / vivre, vivre / manger); \"non pas\" is the emphatic negation of a phrase.",
           },
           {
             type: "listen-choose",
@@ -1292,7 +1291,7 @@ export const FR_C2_U05: Lesson[] = [
         source: "Two cancelled trains and no taxi: what a nightmare!",
         answer: "Deux trains annulés et pas de taxi : quelle galère !",
         altAnswers: ["Deux trains supprimés et pas de taxi : quelle galère !", "Deux trains annulés et aucun taxi : quelle galère !", "Deux trains annulés et pas de taxi : c'est la galère !"],
-        explanation: "\"Quelle galère !\" descends from Molière's galley; today it is everyday informal French for an ordeal.",
+        explanation: "\"Quelle galère !\" comes from the image of the galleys, as in Molière's line; today it is everyday informal French for an ordeal.",
       },
       {
         type: "multiple-choice",
@@ -1656,7 +1655,7 @@ export const FR_C2_U05: Lesson[] = [
       {
         heading: "Generous, easy, careless: magnanime, affable, bonhomme, désinvolte, and false friends",
         body: [
-          "\"Magnanime\" is noble-hearted, generous towards a defeated rival or someone who has wronged you: \"un vainqueur magnanime\". \"Affable\" is warm and courteous in conversation, easy to approach, especially of someone important. \"Bonhomme\" as an adjective (\"un air bonhomme\", \"une bonhomie\") is good-natured, simple and friendly; as a noun, \"un bonhomme\" is just a bloke or a little fellow, and \"un bonhomme de neige\" a snowman. It never means a good man in a moral sense.",
+          "\"Magnanime\" is noble-hearted, generous towards a defeated rival or someone who has wronged you: \"un vainqueur magnanime\". \"Affable\" is warm and courteous in conversation, easy to approach, especially of someone important. \"Bonhomme\" as an adjective (\"un air bonhomme\"; the noun is \"la bonhomie\") is good-natured, simple and friendly; as a noun, \"un bonhomme\" is just a bloke or a little fellow, and \"un bonhomme de neige\" a snowman. It never means a good man in a moral sense.",
           "\"Désinvolte\" is casual, offhand, with too little respect or seriousness: \"une réponse désinvolte\" annoys a teacher. It can be neutral (\"une élégance désinvolte\", effortless), but in a report or a reproach it is negative.",
           "Three false friends ruin character descriptions. \"Sensible\" means sensitive (\"un enfant sensible\"); sensible is \"raisonnable\" or \"sensé\". \"Sympathique\" means nice, likeable, not sympathetic, which is \"compatissant\". \"Versatile\" means fickle, changeable (negative!), not versatile, which is \"polyvalent\". Write \"un candidat versatile\" in a reference letter and you have sunk the candidate.",
         ],

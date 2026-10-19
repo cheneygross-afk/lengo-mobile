@@ -144,7 +144,7 @@ export const PT_B1_U33: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into spoken Portuguese.",
-        source: "Come on, the film's about to start!",
+        source: "Come on, the movie's about to start!",
         answer: "Bora, o filme vai começar!",
         altAnswers: ["Bora, que o filme vai começar!", "Vambora, o filme vai começar!", "Vamos embora, o filme vai começar!", "Vamos, o filme vai começar!", "Bora, o filme já vai começar!"],
         explanation: "\"Bora\" (from \"vamos embora\") hurries people along. A \"que\" after it (\"bora, que...\") gives the reason.",
@@ -161,7 +161,7 @@ export const PT_B1_U33: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "He lives [in a] flat in Copacabana.",
+        en: "He lives [in an] apartment in Copacabana.",
         sentence: "Ele mora ___ apartamento em Copacabana.",
         answer: "num",
         altAnswers: ["em um"],
@@ -238,7 +238,7 @@ export const PT_B1_U33: Lesson[] = [
           { es: "Aí a gente chegou e a festa já tinha acabado.", en: "Then we arrived and the party had already ended." },
           { es: "Do nada, começou a chover.", en: "Out of nowhere, it started raining." },
           { es: "Daí eu liguei pra ela.", en: "So then I called her." },
-          { es: "Tinha tipo assim umas cem pessoas na fila.", en: "There were like a hundred people in the queue." },
+          { es: "Tinha tipo assim umas cem pessoas na fila.", en: "There were like a hundred people in line." },
           { es: "No fim, deu tudo certo.", en: "In the end, everything worked out." },
         ],
         checkpoint: [
@@ -265,7 +265,7 @@ export const PT_B1_U33: Lesson[] = [
       {
         heading: "Ele virou e falou: quoting people",
         body: [
-          "To report what someone said in a story, Brazilians use \"falar\" far more than \"dizer\": \"ela falou que não vinha\". For drama, they quote directly with \"virar e falar\": \"aí ele virou e falou: 'não vou'\". \"Virar\" here doesn't mean anyone turned round; it marks the moment someone speaks up, often unexpectedly.",
+          "To report what someone said in a story, Brazilians use \"falar\" far more than \"dizer\": \"ela falou que não vinha\". For drama, they quote directly with \"virar e falar\": \"aí ele virou e falou: 'não vou'\". \"Virar\" here doesn't mean anyone turned around; it marks the moment someone speaks up, often unexpectedly.",
           "Your own reaction often has no verb at all: \"e eu: 'como assim?'\" (and I was like, what do you mean?). \"E ela: 'nossa!'\" works the same way. Where English says I was like, Portuguese simply drops the verb.",
         ],
         examples: [
@@ -279,7 +279,7 @@ export const PT_B1_U33: Lesson[] = [
           {
             type: "multiple-choice",
             question: "In a story, your friend says: Aí ela virou e falou: \"tô fora\". What happened?",
-            options: ["She suddenly said she was out.", "She turned round and left.", "She turned the car round.", "She said she was outside."],
+            options: ["She suddenly said she was out.", "She turned around and left.", "She turned the car round.", "She said she was outside."],
             correctIndex: 0,
             explanation: "\"Virou e falou\" introduces a sudden remark, not a physical turn. \"Tô fora\" means I'm out (of the plan).",
           },
@@ -308,11 +308,11 @@ export const PT_B1_U33: Lesson[] = [
           "Use it for the dramatic events only. Background still goes in the imperfeito (\"tava chovendo\") and the wrap-up usually comes back to the pretérito: \"no fim, ele desceu no ponto seguinte\". Don't switch tense in every line, or the listener loses track of what's background and what's the event.",
         ],
         examples: [
-          { es: "Eu tava na fila do banco, né?", en: "So I was in the queue at the bank, right?" },
-          { es: "Aí do nada chega um cara e fura a fila.", en: "And out of nowhere this guy comes up and jumps the queue." },
+          { es: "Eu tava na fila do banco, né?", en: "So I was in line at the bank, right?" },
+          { es: "Aí do nada chega um cara e fura a fila.", en: "And out of nowhere this guy comes up and cuts in line." },
           { es: "E ninguém fala nada!", en: "And nobody says a thing!" },
-          { es: "Aí eu viro e falo: \"Moço, a fila é ali.\"", en: "So I turn round and say, \"Excuse me, the queue's over there.\"" },
-          { es: "No fim, ele pediu desculpa e foi pro final da fila.", en: "In the end, he apologised and went to the back of the queue." },
+          { es: "Aí eu viro e falo: \"Moço, a fila é ali.\"", en: "So I turn around and say, \"Excuse me, the line's over there.\"" },
+          { es: "No fim, ele pediu desculpa e foi pro final da fila.", en: "In the end, he apologized and went to the back of the line." },
         ],
         checkpoint: [
           {
@@ -365,7 +365,7 @@ export const PT_B1_U33: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the spoken Portuguese for the bold words.",
-        en: "And then my mum [goes and says]: \"Not today.\"",
+        en: "And then my mom [goes and says]: \"Not today.\"",
         sentence: "Aí minha mãe ___: \"Hoje não.\"",
         answer: "virou e falou",
         altAnswers: ["vira e fala", "falou", "fala"],
@@ -525,7 +525,7 @@ export const PT_B1_U33: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You thank a friend for helping you move house. She says Que isso! What does she mean?",
+            question: "You thank a friend for helping you move. She says Que isso! What does she mean?",
             options: ["Don't mention it.", "What's that?", "That was terrible.", "You're welcome to leave."],
             correctIndex: 0,
             explanation: "After thanks, \"que isso!\" brushes it off, like don't mention it. It's often followed by \"imagina!\".",
@@ -592,10 +592,10 @@ export const PT_B1_U33: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into spoken Portuguese.",
-        source: "Damn, what bad luck! (your friend's flight was cancelled)",
+        source: "Damn, what bad luck! (your friend's flight was canceled)",
         answer: "Putz, que azar!",
         altAnswers: ["Poxa, que azar!", "Nossa, que azar!", "Putz, que falta de sorte!", "Poxa, que falta de sorte!"],
-        explanation: "\"Putz\" sympathises with bad news; \"que azar!\" is what bad luck!. \"Que isso\" would be wrong here: it protests or brushes off thanks.",
+        explanation: "\"Putz\" sympathizes with bad news; \"que azar!\" is what bad luck!. \"Que isso\" would be wrong here: it protests or brushes off thanks.",
       },
       {
         type: "word-order",
@@ -615,9 +615,9 @@ export const PT_B1_U33: Lesson[] = [
       {
         type: "speak",
         text: "Que isso, imagina!",
-        prompt: "Your neighbour thanks you for watering her plants. Brush it off in Portuguese.",
+        prompt: "Your neighbor thanks you for watering her plants. Brush it off in Portuguese.",
         tip: "\"Isso\" has a hissed double s; stress \"imagina\" on the third syllable: i-ma-GI-na.",
-        explanation: "\"Que isso, imagina!\" is the reflex answer to thanks among friends and neighbours.",
+        explanation: "\"Que isso, imagina!\" is the reflex answer to thanks among friends and neighbors.",
       },
     ],
   },
@@ -634,12 +634,12 @@ export const PT_B1_U33: Lesson[] = [
         heading: "Deixa eu te contar: taking the floor",
         body: [
           "To announce that a story or some news is coming, Brazilians say \"deixa eu te contar uma coisa\" (let me tell you something) or \"sabe o que aconteceu?\" (you know what happened?). \"Olha só\" (look, listen to this) grabs attention, and \"então\" (so) launches the topic: \"então, sobre sábado...\".",
-          "Notice \"deixa eu\", not \"deixa-me\": in Brazilian speech the subject pronoun follows \"deixa\", and the verb stays in the infinitive. Grammar books prefer \"deixe-me contar\"; you'll see it in writing, but in conversation it sounds like a translated film. And \"te\" goes with \"você\" all the time in speech: \"deixa eu te falar\".",
+          "Notice \"deixa eu\", not \"deixa-me\": in Brazilian speech the subject pronoun follows \"deixa\", and the verb stays in the infinitive. Grammar books prefer \"deixe-me contar\"; you'll see it in writing, but in conversation it sounds like a dubbed movie. And \"te\" goes with \"você\" all the time in speech: \"deixa eu te falar\".",
         ],
         examples: [
           { es: "Deixa eu te contar uma coisa.", en: "Let me tell you something." },
           { es: "Sabe o que aconteceu ontem?", en: "You know what happened yesterday?" },
-          { es: "Olha só, achei um apartamento ótimo.", en: "Listen to this, I found a great flat." },
+          { es: "Olha só, achei um apartamento ótimo.", en: "Listen to this, I found a great apartment." },
           { es: "Então, sobre a viagem...", en: "So, about the trip..." },
           { es: "Deixa eu te perguntar uma coisa.", en: "Can I ask you something?" },
         ],
@@ -673,7 +673,7 @@ export const PT_B1_U33: Lesson[] = [
           { es: "Falando nisso, cê viu o jogo ontem?", en: "Speaking of which, did you see the game yesterday?" },
           { es: "Por falar em comida, tô morrendo de fome.", en: "Speaking of food, I'm starving." },
           { es: "Mas enfim, onde eu tava?", en: "Anyway, where was I?" },
-          { es: "Mudando de assunto, como tá sua mãe?", en: "Changing the subject, how's your mum?" },
+          { es: "Mudando de assunto, como tá sua mãe?", en: "Changing the subject, how's your mom?" },
           { es: "Resumindo: perdi o voo.", en: "Long story short: I missed the flight." },
           { es: "Afinal, ela aceitou o emprego?", en: "So did she take the job in the end?" },
         ],
@@ -839,7 +839,7 @@ export const PT_B1_U33: Lesson[] = [
         ],
         examples: [
           { es: "Tem uma farmácia aqui perto?", en: "Is there a pharmacy near here?" },
-          { es: "Tinha muita gente no show.", en: "There were loads of people at the concert." },
+          { es: "Tinha muita gente no show.", en: "There were tons of people at the concert." },
           { es: "Vai ter churrasco no domingo.", en: "There's going to be a barbecue on Sunday." },
           { es: "Não tinha mais pão na padaria.", en: "There was no bread left at the bakery." },
           { es: "Havia muitas pessoas no local.", en: "There were many people at the scene. (news report)" },
@@ -849,7 +849,7 @@ export const PT_B1_U33: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into spoken Portuguese.",
-            source: "There were loads of people at the beach.",
+            source: "There were tons of people at the beach.",
             answer: "Tinha muita gente na praia.",
             altAnswers: ["Tinha muitas pessoas na praia.", "Tinha gente demais na praia.", "Na praia tinha muita gente.", "Tava cheio de gente na praia."],
             explanation: "Spoken there were is \"tinha\", always singular. \"Muita gente\" is the natural lots of people.",
@@ -867,7 +867,7 @@ export const PT_B1_U33: Lesson[] = [
         heading: "Vi ele, conheço ela: subject pronouns as objects",
         body: [
           "You met this in Unit 17: in speech, \"ele\", \"ela\", \"eles\" and \"elas\" serve as objects after the verb: \"eu vi ele ontem\", \"vou chamar ela\". Careful writing puts \"o\" or \"a\" before the verb, \"eu o vi\", or after an infinitive as \"-lo\" or \"-la\": \"vou encontrá-lo\".",
-          "Brazilians say \"vi ele\" in every social class; it's how the language is spoken. But \"vou encontrá-lo\" in a chat with a friend sounds stiff, and \"vi ele\" in an exam essay loses marks. For \"você\", speech uses \"te\": \"eu te vi\", \"vou te ligar\", even though \"te\" grammatically belongs to \"tu\".",
+          "Brazilians say \"vi ele\" in every social class; it's how the language is spoken. But \"vou encontrá-lo\" in a chat with a friend sounds stiff, and \"vi ele\" in an exam essay loses points. For \"você\", speech uses \"te\": \"eu te vi\", \"vou te ligar\", even though \"te\" grammatically belongs to \"tu\".",
         ],
         examples: [
           { es: "Eu vi ele na padaria hoje.", en: "I saw him at the bakery today." },
@@ -903,11 +903,11 @@ export const PT_B1_U33: Lesson[] = [
           "In Unit 10 you learned that a relative clause keeps the verb's preposition: \"o filme de que eu falei\", \"a moça com quem eu saí\". In speech the preposition simply disappears: \"o filme que eu te falei\", \"a moça que eu saí\". Understand it and say it in conversation; in writing, put the preposition back.",
         ],
         examples: [
-          { es: "Vou no mercado, cê quer alguma coisa?", en: "I'm going to the shop, do you want anything?" },
+          { es: "Vou no mercado, cê quer alguma coisa?", en: "I'm going to the store, do you want anything?" },
           { es: "Fui na casa da minha avó no domingo.", en: "I went to my grandma's on Sunday." },
           { es: "Esse é o restaurante que eu te falei.", en: "This is the restaurant I told you about." },
           { es: "Cadê o livro que você precisava?", en: "Where's the book you needed?" },
-          { es: "O hotel de que falamos fica no centro.", en: "The hotel we talked about is in the centre. (careful writing)" },
+          { es: "O hotel de que falamos fica no centro.", en: "The hotel we talked about is in the center. (careful writing)" },
         ],
         checkpoint: [
           {
@@ -923,14 +923,14 @@ export const PT_B1_U33: Lesson[] = [
             type: "listen-choose",
             audio: "Fui no shopping e tinha muita gente.",
             question: "What does it mean?",
-            options: ["I went to the mall and there were loads of people.", "I was at the mall with lots of people.", "I'm going to the mall because there are lots of people.", "I went to the mall and had lots of friends."],
+            options: ["I went to the mall and there were tons of people.", "I was at the mall with lots of people.", "I'm going to the mall because there are lots of people.", "I went to the mall and had lots of friends."],
             correctIndex: 0,
             explanation: "\"Fui no shopping\" is the spoken \"fui ao shopping\", and \"tinha\" is there were, not had.",
           },
           {
             type: "speak",
             text: "Vou no mercado, cê quer alguma coisa?",
-            prompt: "Tell your flatmate you're going to the shop and ask if they want anything.",
+            prompt: "Tell your roommate you're going to the store and ask if they want anything.",
             tip: "In fast speech \"vou no\" runs together: vo-no.",
             explanation: "\"Ir no\" and \"cê\" are both natural in speech between flatmates.",
           },
@@ -960,7 +960,7 @@ export const PT_B1_U33: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into spoken Portuguese.",
-        source: "I met her at university.",
+        source: "I met her in college.",
         answer: "Eu conheci ela na faculdade.",
         altAnswers: ["Conheci ela na faculdade.", "Eu a conheci na faculdade.", "A conheci na faculdade."],
         explanation: "\"Conheci ela\" is how it's said; \"eu a conheci\" is the careful version. \"Conhecer\" in the pretérito means to meet for the first time.",
@@ -1015,7 +1015,7 @@ export const PT_B1_U33: Lesson[] = [
       {
         type: "speak",
         text: "Tinha muita gente na festa.",
-        prompt: "Say it in spoken Portuguese: There were loads of people at the party.",
+        prompt: "Say it in spoken Portuguese: There were tons of people at the party.",
         tip: "\"Gente\" has a soft g, like the s in measure, and \"tinha\" sounds like CHEE-nya.",
         explanation: "\"Tinha\" for \"havia\" and \"muita gente\" for lots of people: the spoken pair.",
       },
@@ -1026,7 +1026,7 @@ export const PT_B1_U33: Lesson[] = [
     level: "PT-B1",
     number: 6,
     title: "O Áudio de Três Minutos: Voice Messages",
-    summary: "Understand and summarise a rambling Brazilian voice message and record a short one: oi, então, é o seguinte..., beijo, tchau.",
+    summary: "Understand and summarize a rambling Brazilian voice message and record a short one: oi, então, é o seguinte..., beijo, tchau.",
     duration: "13 min",
     kind: "teach",
     sections: [
@@ -1039,7 +1039,7 @@ export const PT_B1_U33: Lesson[] = [
         examples: [
           { es: "Oi, Ju, tudo bem? Então, é o seguinte...", en: "Hi Ju, how are you? So, here's the thing..." },
           { es: "Rapidinho: cê pode me emprestar o carro amanhã?", en: "Just a quick one: can you lend me the car tomorrow?" },
-          { es: "Olha, eu queria te pedir um favor.", en: "Look, I wanted to ask you a favour." },
+          { es: "Olha, eu queria te pedir um favor.", en: "Look, I wanted to ask you a favor." },
           { es: "Oi, gente! Deixa eu falar uma coisa pra vocês.", en: "Hi everyone! Let me tell you something." },
           { es: "Então, é o seguinte: mudou o horário.", en: "So, the thing is, the time's changed." },
         ],
@@ -1063,10 +1063,10 @@ export const PT_B1_U33: Lesson[] = [
         ],
       },
       {
-        heading: "The rambling middle, and how to summarise it",
+        heading: "The rambling middle, and how to summarize it",
         body: [
           "A long \"áudio\" wanders. Expect self-corrections, \"quer dizer\" (I mean), \"não, pera\" (no, wait); searching for words, \"como é que fala?\" (what's the word?), \"aquele negócio\" (that thing); and shrugs, \"sei lá\" (I dunno). Don't try to catch everything. Listen for the request or the news, often just before the goodbye.",
-          "To summarise it for someone else, use reported speech: \"ela falou que vai atrasar e pediu pra gente guardar um lugar\". \"Pedir pra\" + infinitive is the spoken request. With a stated subject it can take the subjunctive: \"ela quer que a gente espere\".",
+          "To summarize it for someone else, use reported speech: \"ela falou que vai atrasar e pediu pra gente guardar um lugar\". \"Pedir pra\" + infinitive is the spoken request. With a stated subject it can take the subjunctive: \"ela quer que a gente espere\".",
         ],
         examples: [
           { es: "A gente sai às sete, quer dizer, às sete e meia.", en: "We're leaving at seven, I mean, half past seven." },
@@ -1087,7 +1087,7 @@ export const PT_B1_U33: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into spoken Portuguese, summarising a voice message.",
+            prompt: "Translate into spoken Portuguese, summarizing a voice message.",
             source: "She said she's going to be late and asked us to wait.",
             answer: "Ela falou que vai atrasar e pediu pra gente esperar.",
             altAnswers: ["Ela falou que vai se atrasar e pediu pra gente esperar.", "Ela disse que vai atrasar e pediu pra gente esperar.", "Ela disse que vai se atrasar e pediu para a gente esperar.", "Ela falou que vai chegar atrasada e pediu pra gente esperar."],
@@ -1099,7 +1099,7 @@ export const PT_B1_U33: Lesson[] = [
         heading: "É isso, beijo, tchau: closing and recording your own",
         body: [
           "To close, say \"é isso\" (that's it), ask for an answer, \"me responde quando puder\" (reply when you can), and sign off with \"beijo\", \"beijão\" or \"abraço\" and \"tchau\". \"Quando puder\" uses the future subjunctive, which you'll study at B2; for now, learn it as a fixed phrase.",
-          "For your own voice notes, keep to one point and under a minute. If you ramble, Brazilians apologise for it: \"desculpa o áudio enorme\". And \"áudio\" is the everyday word for a voice message: \"te mandei um áudio\".",
+          "For your own voice notes, keep to one point and under a minute. If you ramble, Brazilians apologize for it: \"desculpa o áudio enorme\". And \"áudio\" is the everyday word for a voice message: \"te mandei um áudio\".",
         ],
         examples: [
           { es: "É isso. Me responde quando puder, tá?", en: "That's it. Get back to me when you can, OK?" },
@@ -1140,10 +1140,10 @@ export const PT_B1_U33: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into spoken Portuguese.",
-        source: "Look, I wanted to ask you a favour.",
+        source: "Look, I wanted to ask you a favor.",
         answer: "Olha, eu queria te pedir um favor.",
         altAnswers: ["Olha, queria te pedir um favor.", "Olha, eu queria pedir um favor pra você.", "Olha, eu queria te pedir uma coisa.", "Olha, eu queria pedir um favor.", "Olha, queria pedir um favor."],
-        explanation: "\"Queria\" is the soft spoken would like, and \"pedir um favor\" is to ask a favour.",
+        explanation: "\"Queria\" is the soft spoken would like, and \"pedir um favor\" is to ask a favor.",
       },
       {
         type: "translate",
@@ -1260,7 +1260,7 @@ export const PT_B1_U33: Lesson[] = [
         ],
         examples: [
           { es: "Havia muitas pessoas no evento.", en: "There were many people at the event. (written)" },
-          { es: "Tinha muita gente no evento.", en: "There were loads of people at the event. (spoken)" },
+          { es: "Tinha muita gente no evento.", en: "There were tons of people at the event. (spoken)" },
           { es: "Vou encontrá-lo amanhã.", en: "I'll meet him tomorrow. (written)" },
           { es: "Vou encontrar ele amanhã.", en: "I'll meet him tomorrow. (spoken)" },
           { es: "Eu a convidei para o jantar.", en: "I invited her to dinner. (written)" },
@@ -1280,10 +1280,10 @@ export const PT_B1_U33: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into natural spoken Portuguese.",
-            source: "There were loads of people at the event.",
+            source: "There were tons of people at the event.",
             answer: "Tinha muita gente no evento.",
             altAnswers: ["Tinha muitas pessoas no evento.", "Tava cheio de gente no evento.", "No evento tinha muita gente.", "Tinha gente demais no evento."],
-            explanation: "Spoken \"tinha\" replaces written \"havia\", and \"muita gente\" is the natural loads of people.",
+            explanation: "Spoken \"tinha\" replaces written \"havia\", and \"muita gente\" is the natural tons of people.",
           },
           {
             type: "listen-choose",
@@ -1302,8 +1302,8 @@ export const PT_B1_U33: Lesson[] = [
           "Two more swaps finish the picture: \"nós vamos\" becomes \"a gente vai\", and speech fills the gaps with \"aí\", \"né\" and \"tipo\". A whole story moves between the registers with these few changes.",
         ],
         examples: [
-          { es: "Este é o filme de que lhe falei.", en: "This is the film I told you about. (written)" },
-          { es: "Esse é o filme que eu te falei.", en: "This is the film I told you about. (spoken)" },
+          { es: "Este é o filme de que lhe falei.", en: "This is the movie I told you about. (written)" },
+          { es: "Esse é o filme que eu te falei.", en: "This is the movie I told you about. (spoken)" },
           { es: "Nós fomos ao restaurante de que você gosta.", en: "We went to the restaurant you like. (written)" },
           { es: "A gente foi no restaurante que cê gosta.", en: "We went to the restaurant you like. (spoken)" },
           { es: "A cidade onde eu morei é linda.", en: "The city where I lived is beautiful. (both)" },
@@ -1385,16 +1385,16 @@ export const PT_B1_U33: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which pair is the same sentence, written and spoken?",
-        options: ["\"Nós fomos ao mercado.\" / \"A gente foi no mercado.\"", "\"Nós fomos ao mercado.\" / \"A gente vai no mercado.\"", "\"Havia pão.\" / \"Tinham pão.\"", "\"Vou encontrá-la.\" / \"Vou encontrar ele.\""],
+        question: "Which is the everyday spoken version of the written sentence \"Nós fomos ao mercado\"?",
+        options: ["A gente foi no mercado.", "A gente vai no mercado.", "A gente fomos no mercado.", "Nós foi no mercado."],
         correctIndex: 0,
-        explanation: "\"Nós fomos\" = \"a gente foi\" and \"ao\" = \"no\". The second changes tense, the third wrongly pluralises \"ter\", and the fourth changes her to him.",
+        explanation: "\"Nós fomos\" = \"a gente foi\" (\"a gente\" takes the ele/ela form) and \"ao\" = spoken \"no\". \"Vai\" changes the tense, and \"a gente fomos\" and \"nós foi\" mix up the agreement: they are stigmatized, not just informal.",
       },
       {
         type: "listen-choose",
         audio: "Num sei se ela vem, ela falou que tava doente.",
         question: "What does it mean?",
-        options: ["I don't know if she's coming; she said she was ill.", "I know she's coming; she said she was fine.", "She doesn't know if she's coming because she's ill.", "I don't know if she came; she says she's ill."],
+        options: ["I don't know if she's coming; she said she was sick.", "I know she's coming; she said she was fine.", "She doesn't know if she's coming because she's sick.", "I don't know if she came; she says she's sick."],
         correctIndex: 0,
         explanation: "\"Num sei\" = \"não sei\", \"falou que tava\" = \"disse que estava\".",
       },
@@ -1521,7 +1521,7 @@ export const PT_B1_U33: Lesson[] = [
             text: "Tá bom, me conta depois. Beijo!",
             prompt: "Close the call: OK, fill me in later. Bye!",
             tip: "Start straight with \"me\": Brazilians put the pronoun first in speech.",
-            explanation: "\"Me conta depois\" asks for the next instalment, and \"beijo\" ends the call between friends.",
+            explanation: "\"Me conta depois\" asks for the next installment, and \"beijo\" ends the call between friends.",
           },
         ],
       },
@@ -1697,7 +1697,7 @@ export const PT_B1_U33: Lesson[] = [
         examples: [
           { es: "Rafael: Alguém tem barraca?", en: "Rafael: Has anyone got a tent?" },
           { es: "Bia: Eu tenho uma pra quatro pessoas, eu levo.", en: "Bia: I've got a four-person one, I'll bring it." },
-          { es: "Thiago: A gente racha a gasolina, beleza?", en: "Thiago: We'll split the petrol, OK?" },
+          { es: "Thiago: A gente racha a gasolina, beleza?", en: "Thiago: We'll split the gas, OK?" },
           { es: "Rafael: Então fechou: sexta, sete da manhã, lá em casa.", en: "Rafael: So it's settled: Friday, seven in the morning, at my place." },
           { es: "Rafael: Beijo pra todo mundo!", en: "Rafael: Love to everyone!" },
         ],
@@ -1752,7 +1752,7 @@ export const PT_B1_U33: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the spoken Portuguese for the bold words.",
-        en: "We'll [split] the petrol, OK?",
+        en: "We'll [split] the gas, OK?",
         sentence: "A gente ___ a gasolina, beleza?",
         answer: "racha",
         altAnswers: ["divide"],
@@ -1770,7 +1770,7 @@ export const PT_B1_U33: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Rafael ends with Então fechou: sexta, sete da manhã. What does fechou mean here?",
-        options: ["It's settled.", "It's closed.", "It's cancelled.", "It's finished early."],
+        options: ["It's settled.", "It's closed.", "It's canceled.", "It's finished early."],
         correctIndex: 0,
         explanation: "\"Fechou\" (literally closed) means deal or it's settled when agreeing a plan.",
       },
@@ -1821,7 +1821,7 @@ export const PT_B1_U33: Lesson[] = [
         ],
         examples: [
           { es: "Vou encontrar ele amanhã, beleza?", en: "I'm seeing him tomorrow, OK?" },
-          { es: "Nossa, tinha muita gente na festa!", en: "Wow, there were loads of people at the party!" },
+          { es: "Nossa, tinha muita gente na festa!", en: "Wow, there were tons of people at the party!" },
           { es: "A gente vai sair às oito.", en: "We're leaving at eight." },
           { es: "Eu te falei que ia chover!", en: "I told you it was going to rain!" },
           { es: "Cê viu ela ontem?", en: "Did you see her yesterday?" },
@@ -1840,7 +1840,7 @@ export const PT_B1_U33: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Fix the register: rewrite for a chat with a friend.",
-            source: "There were loads of people at the party, seriously! (the draft said \"Havia muitas pessoas na festa, sério!\")",
+            source: "There were tons of people at the party, seriously! (the draft said \"Havia muitas pessoas na festa, sério!\")",
             answer: "Tinha muita gente na festa, sério!",
             altAnswers: ["Tinha muitas pessoas na festa, sério!", "Sério, tinha muita gente na festa!", "Tava cheio de gente na festa, sério!", "Tinha gente demais na festa, sério!"],
             explanation: "\"Havia\" is fine in writing but stiff in a chat. \"Tinha muita gente\" is how anyone would type it.",
@@ -1897,7 +1897,7 @@ export const PT_B1_U33: Lesson[] = [
         examples: [
           { es: "Prezada Ana, vou verificar e retorno em breve.", en: "Dear Ana, I'll check and get back to you shortly." },
           { es: "Fala, mano! Vi ele ontem no jogo.", en: "Hey, bro! I saw him at the game yesterday." },
-          { es: "Bom dia, Sr. Carlos. Não sei se o senhor recebeu meu e-mail.", en: "Good morning, Mr Carlos. I'm not sure whether you received my email." },
+          { es: "Bom dia, Sr. Carlos. Não sei se o senhor recebeu meu e-mail.", en: "Good morning, Mr. Carlos. I'm not sure whether you received my email." },
           { es: "Jura? Nossa, que notícia boa!", en: "Really? Wow, that's great news!" },
         ],
         checkpoint: [
@@ -2005,7 +2005,7 @@ export const PT_B1_U33: Lesson[] = [
       {
         type: "speak",
         text: "Nossa, tinha muita gente na festa!",
-        prompt: "Tell a friend in a voice note: Wow, there were loads of people at the party!",
+        prompt: "Tell a friend in a voice note: Wow, there were tons of people at the party!",
         tip: "Stretch \"nossa\" a little, with the stress on the first syllable: NÓ-ssa.",
         explanation: "\"Tinha muita gente\" is the spoken register that \"nossa!\" calls for.",
       },
@@ -2165,7 +2165,7 @@ export const PT_B1_U33: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into spoken Portuguese.",
-        source: "How about a film on Sunday?",
+        source: "How about a movie on Sunday?",
         answer: "Que tal um cinema no domingo?",
         altAnswers: ["Que tal um cineminha no domingo?", "Que tal ir no cinema no domingo?", "Que tal ir ao cinema no domingo?", "Que tal um filme no domingo?", "Bora num cinema no domingo?", "Que tal ver um filme no domingo?"],
         explanation: "\"Que tal\" + noun or infinitive suggests a plan. \"Cineminha\" adds a friendly diminutive.",
@@ -2399,7 +2399,7 @@ export const PT_B1_U33: Lesson[] = [
       {
         type: "speak",
         text: "Eu ia te ligar, mas acabou a bateria. Mas enfim, cê vem amanhã?",
-        prompt: "Apologise to a friend: you were going to call but your battery died. Then ask if she's coming tomorrow.",
+        prompt: "Apologize to a friend: you were going to call but your battery died. Then ask if she's coming tomorrow.",
         tip: "\"Bateria\" is stressed on the i: ba-te-RI-a.",
         explanation: "\"Ia te ligar\" for the plan that failed, \"mas enfim\" to move on, \"cê vem?\" for the question.",
       },

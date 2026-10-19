@@ -11,7 +11,7 @@ export const FR_A2_S02_STORIES: Story[] = [
     subtitle: `The Moreau family wanted sun for their holiday in Brittany. They got rain, wind, and a surprise.`,
     paragraphs: [
       `L'été dernier, la famille Moreau a passé une semaine en Bretagne, à Saint-Malo. Les enfants, Léo et Anaïs, voulaient du soleil, la plage et des glaces. Mais le premier jour, il a plu. Le deuxième jour aussi. Et le troisième...`,
-      `Les enfants étaient de mauvaise humeur. « On aurait dû aller dans le Sud ! » répétait Anaïs. Alors leur père a proposé une autre activité : visiter les remparts de la vieille ville sous la pluie.`,
+      `Les enfants étaient de mauvaise humeur. « Pourquoi on n'est pas allés dans le Sud ? » répétait Anaïs. Alors leur père a proposé une autre activité : visiter les remparts de la vieille ville sous la pluie.`,
       `Ils ont mis leurs cirés jaunes et ils sont partis. Sur les remparts, le vent soufflait très fort. Les vagues étaient énormes et elles frappaient les murs. Léo a trouvé ça génial. Anaïs a pris des dizaines de photos.`,
       `Le soir, ils ont mangé dans une crêperie. Il y avait un feu dans la cheminée. Ils ont commandé des galettes complètes et des crêpes au caramel au beurre salé. Le patron leur a expliqué la marée : à Saint-Malo, la mer monte et descend de plus de dix mètres !`,
       `Le dernier jour, enfin, le soleil est arrivé. À marée basse, ils ont marché jusqu'à une petite île. « Papa, l'année prochaine, on va revenir ici, d'accord ? » a demandé Anaïs. Son père a ri. « Même s'il pleut ? » « Surtout s'il pleut ! »`,
@@ -52,8 +52,8 @@ export const FR_A2_S02_STORIES: Story[] = [
       `Sofiane habite au cinquième étage d'un immeuble du onzième arrondissement de Paris. Il connaît mal ses voisins : il les croise dans l'escalier, il dit « bonjour », et c'est tout.`,
       `Mardi, il attendait un colis important : un nouvel appareil photo pour son travail. Le soir, il a vérifié sur son téléphone. Le message disait : « Votre colis a été livré. » Mais devant sa porte, il n'y avait rien.`,
       `Sofiane a cherché partout : dans le hall, près des boîtes aux lettres, chez la gardienne. Rien. Il était furieux. Il allait appeler le service client quand quelqu'un a frappé à sa porte.`,
-      `C'était une vieille dame du deuxième étage, avec un gros carton dans les bras. « Bonsoir, jeune homme. Le livreur s'est trompé d'appartement. Je crois que c'est à vous. » Sofiane l'a remerciée mille fois. Elle s'appelait Madame Lambert et elle avait quatre-vingt-cinq ans. Elle avait monté trois étages avec le colis !`,
-      `Pour la remercier, Sofiane lui a proposé de faire son portrait avec son nouvel appareil. Madame Lambert a accepté avec joie. Elle a raconté sa vie pendant la séance photo : elle avait été danseuse à l'Opéra. Maintenant, le dimanche, Sofiane prend le café chez elle, et elle lui montre ses vieilles photos.`,
+      `C'était une vieille dame du deuxième étage, avec un gros carton dans les bras. « Bonsoir, jeune homme. Le livreur s'est trompé d'appartement. Je crois que c'est à vous. » Sofiane l'a remerciée mille fois. Elle s'appelait Madame Lambert et elle avait quatre-vingt-cinq ans. Elle a monté trois étages avec le colis !`,
+      `Pour la remercier, Sofiane lui a proposé de faire son portrait avec son nouvel appareil. Madame Lambert a accepté avec joie. Elle a raconté sa vie pendant la séance photo : quand elle était jeune, elle était danseuse à l'Opéra. Maintenant, le dimanche, Sofiane prend le café chez elle, et elle lui montre ses vieilles photos.`,
     ],
     questions: [
       {
@@ -72,7 +72,7 @@ export const FR_A2_S02_STORIES: Story[] = [
         question: `What did Madame Lambert do when she was young?`,
         options: [`She was a photographer.`, `She was a caretaker.`, `She was a teacher.`, `She was a dancer at the Opera.`],
         correctIndex: 3,
-        explanation: `"Elle avait été danseuse à l'Opéra."`,
+        explanation: `"Quand elle était jeune, elle était danseuse à l'Opéra."`,
       },
     ],
   },
@@ -124,7 +124,7 @@ export const FR_A2_S02_STORIES: Story[] = [
       `Il y a quatre mois, Théo a acheté deux billets pour le concert du groupe préféré de sa copine, Margaux. C'était une surprise pour leur anniversaire de rencontre. Il a caché les billets dans un tiroir et il n'a rien dit.`,
       `Le grand soir, il a dit à Margaux : « Mets ta belle robe, on sort ! » Ils ont pris le tram jusqu'à la salle de concert, à l'autre bout de Montpellier. Margaux posait des questions, mais Théo ne répondait pas. Il souriait.`,
       `Devant la salle, il n'y avait personne. Pas de file d'attente, pas de musique, pas de lumières. Un gardien fermait la porte. Théo lui a montré les billets. Le gardien a lu, puis il a secoué la tête. « Monsieur, ce concert, c'était hier soir. »`,
-      `Théo est devenu tout pâle. Il avait confondu le vendredi et le samedi. Il voulait disparaître. Mais Margaux a pris les billets et elle a commencé à rire. Elle riait si fort qu'elle pleurait.`,
+      `Théo est devenu tout pâle. Il a confondu le vendredi et le samedi. Il voulait disparaître. Mais Margaux a pris les billets et elle a commencé à rire. Elle riait si fort qu'elle pleurait.`,
       `« Tu as gardé ce secret pendant quatre mois ? C'est adorable. » Ils ont fini la soirée dans un petit restaurant de la place de la Comédie. Margaux a mis la chanson préférée du groupe sur son téléphone, et ils ont dansé dans la rue. Les billets sont maintenant sur leur frigo.`,
     ],
     questions: [
@@ -200,7 +200,7 @@ export const FR_A2_S02_STORIES: Story[] = [
 export const FR_A2_S02_ENGLISH: Record<string, string[]> = {
   "fr-a2-des-vacances-en-bretagne": [
     `Last summer, the Moreau family spent a week in Brittany, in Saint-Malo. The children, Léo and Anaïs, wanted sunshine, the beach and ice creams. But on the first day, it rained. On the second day too. And the third...`,
-    `The children were in a bad mood. "We should have gone to the South!" Anaïs kept saying. So their father suggested another activity: visiting the ramparts of the old town in the rain.`,
+    `The children were in a bad mood. "Why didn't we go to the South?" Anaïs kept saying. So their father suggested another activity: visiting the ramparts of the old town in the rain.`,
     `They put on their yellow oilskins and set off. On the ramparts, the wind was blowing very hard. The waves were huge and they crashed against the walls. Léo thought it was brilliant. Anaïs took dozens of photos.`,
     `In the evening, they ate in a crêperie. There was a fire in the fireplace. They ordered savory galettes with ham, cheese and egg, and crêpes with salted butter caramel. The owner explained the tide to them: in Saint-Malo, the sea rises and falls by more than ten meters!`,
     `On the last day, at last, the sun came out. At low tide, they walked to a little island. "Dad, next year we're going to come back here, OK?" asked Anaïs. Her father laughed. "Even if it rains?" "Especially if it rains!"`,
@@ -210,7 +210,7 @@ export const FR_A2_S02_ENGLISH: Record<string, string[]> = {
     `On Tuesday, he was waiting for an important parcel: a new camera for his work. In the evening, he checked on his phone. The message said: "Your parcel has been delivered." But outside his door, there was nothing.`,
     `Sofiane looked everywhere: in the lobby, near the mailboxes, at the caretaker's. Nothing. He was furious. He was about to call customer service when someone knocked on his door.`,
     `It was an old lady from the second floor, with a big box in her arms. "Good evening, young man. The delivery man went to the wrong apartment. I think this is yours." Sofiane thanked her a thousand times. Her name was Madame Lambert and she was eighty-five. She had climbed three floors with the parcel!`,
-    `To thank her, Sofiane offered to take her portrait with his new camera. Madame Lambert happily accepted. She told him about her life during the photo shoot: she had been a dancer at the Opera. Now, on Sundays, Sofiane has coffee at her place, and she shows him her old photos.`,
+    `To thank her, Sofiane offered to take her portrait with his new camera. Madame Lambert happily accepted. She told him about her life during the photo shoot: when she was young, she was a dancer at the Opera. Now, on Sundays, Sofiane has coffee at her place, and she shows him her old photos.`,
   ],
   "fr-a2-jour-de-greve": [
     `On Saturday, Mathilde was supposed to go to Bordeaux for her best friend Inès's birthday. She had a train ticket from Poitiers. But on Friday evening, she heard the news on the radio: a national rail workers' strike. Her train was canceled.`,
@@ -239,7 +239,7 @@ export const FR_A2_S02_ENGLISH: Record<string, string[]> = {
 export const FR_A2_S02_GLOSSES: Record<string, StoryGloss[]> = {
   "fr-a2-des-vacances-en-bretagne": [
     { es: "de mauvaise humeur", en: "in a bad mood", forms: ["mauvaise", "humeur"] },
-    { es: "on aurait dû", en: "we should have", forms: ["aurait", "dû"] },
+    { es: "répéter", en: "to repeat (répétait: kept saying)", forms: ["répétait"] },
     { es: "les remparts", en: "ramparts, city walls", forms: ["remparts"] },
     { es: "le ciré", en: "oilskin, rain jacket", forms: ["cirés"] },
     { es: "souffler", en: "to blow (wind)", forms: ["soufflait"] },

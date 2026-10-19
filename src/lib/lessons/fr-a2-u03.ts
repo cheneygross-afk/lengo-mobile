@@ -38,7 +38,7 @@ export const FR_A2_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "I went to the cinema yesterday. (a man speaking)",
+            question: "A man says: I went to the cinema yesterday. Which is correct?",
             options: ["J'ai allé au cinéma hier.", "Je suis aller au cinéma hier.", "Je vais au cinéma hier.", "Je suis allé au cinéma hier."],
             correctIndex: 3,
             explanation: "\"Aller\" takes \"être\": \"je suis allé\". Never *j'ai allé*.",
@@ -332,7 +332,7 @@ export const FR_A2_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Madam, did you go to the meeting?",
+            question: "How do you say: Madam, did you go to the meeting?",
             options: [
               "Madame, vous êtes allés à la réunion ?",
               "Madame, vous avez allée à la réunion ?",
@@ -451,8 +451,8 @@ export const FR_A2_U03: Lesson[] = [
         en: "Julie and I [went out] last night.",
         sentence: "Avec Julie, on est ___ hier soir.",
         answer: "sorties",
-        altAnswers: ["sorti"],
-        explanation: "\"On\" = two women here → \"sorties\".",
+        altAnswers: ["sortis", "sorti"],
+        explanation: "\"On\" = Julie and me: the participle agrees with the real people, \"sorties\" if the speaker is a woman, \"sortis\" if a man (\"on est sorti\" is also accepted).",
       },
       {
         type: "word-order",
@@ -679,7 +679,7 @@ export const FR_A2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "I was born in Lyon. (a woman)",
+        question: "A woman says: I was born in Lyon. Which is correct?",
         options: ["J'ai été née à Lyon.", "J'ai né à Lyon.", "Je suis naît à Lyon.", "Je suis née à Lyon."],
         correctIndex: 3,
         explanation: "\"Naître\" → \"née\" with \"être\".",
@@ -753,7 +753,7 @@ export const FR_A2_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "We travelled in Asia.",
+            question: "How do you say: We travelled in Asia?",
             options: ["Nous avons voyagé en Asie.", "Nous sommes voyagés en Asie.", "Nous sommes voyagé en Asie.", "Nous avons voyagés en Asie."],
             correctIndex: 0,
             explanation: "\"Voyager\" takes \"avoir\" (and no agreement with avoir).",
@@ -993,7 +993,7 @@ export const FR_A2_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "She carried the suitcases up.",
+            question: "How do you say: She carried the suitcases up?",
             options: ["Elle est montée les valises.", "Elle a montée les valises.", "Elle a monté les valises.", "Elle est monté les valises."],
             correctIndex: 2,
             explanation: "Object → \"avoir\", and no agreement with the subject: \"a monté\".",
@@ -1164,7 +1164,7 @@ export const FR_A2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "She took the bin down.",
+        question: "How do you say: She took the bin down?",
         options: ["Elle est descendue la poubelle.", "Elle a descendu la poubelle.", "Elle a descendue la poubelle.", "Elle est descendu la poubelle."],
         correctIndex: 1,
         explanation: "Object → \"avoir\", no agreement.",
@@ -1911,7 +1911,7 @@ export const FR_A2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "She went to Italy and bought some leather shoes.",
+        question: "How do you say: She went to Italy and bought some leather shoes?",
         options: [
           "Elle a allé en Italie et elle a acheté des chaussures en cuir.",
           "Elle est allée au Italie et elle est achetée des chaussures en cuir.",
